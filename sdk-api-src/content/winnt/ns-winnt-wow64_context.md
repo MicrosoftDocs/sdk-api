@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWOW64_CONTEXT, PWOW64_CONTEXT, PWOW64_CONTEXT structure pointer, WOW64_CONTEXT, WOW64_CONTEXT structure, _WOW64_CONTEXT, base.wow64_context, winnt/PWOW64_CONTEXT, winnt/WOW64_CONTEXT"
 ms.topic: struct
-f1_keywords: ["winnt/WOW64_CONTEXT"]
+f1_keywords: 
+ - "winnt/WOW64_CONTEXT"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

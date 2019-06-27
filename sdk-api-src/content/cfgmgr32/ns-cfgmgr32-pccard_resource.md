@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPCCARD_RESOURCE, PCCARD_RESOURCE, PCCARD_RESOURCE structure [Device and Driver Installation], PPCCARD_RESOURCE, PPCCARD_RESOURCE structure pointer [Device and Driver Installation], cfgmgr32/PCCARD_RESOURCE, cfgmgr32/PPCCARD_RESOURCE, cfgmgrst_e644b9fe-478c-4700-b461-1c4dca3c4d10.xml, devinst.pccard_resource"
 ms.topic: struct
-f1_keywords: ["cfgmgr32/PCCARD_RESOURCE"]
+f1_keywords: 
+ - "cfgmgr32/PCCARD_RESOURCE"
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows

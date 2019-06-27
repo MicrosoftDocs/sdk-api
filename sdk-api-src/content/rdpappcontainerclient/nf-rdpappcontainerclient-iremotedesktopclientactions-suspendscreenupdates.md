@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClientActions interface [Remote Desktop Services],SuspendScreenUpdates method, IRemoteDesktopClientActions.SuspendScreenUpdates, IRemoteDesktopClientActions::SuspendScreenUpdates, SuspendScreenUpdates, SuspendScreenUpdates method [Remote Desktop Services], SuspendScreenUpdates method [Remote Desktop Services],IRemoteDesktopClientActions interface, rdpappcontainerclient/IRemoteDesktopClientActions::SuspendScreenUpdates, termserv.iremotedesktopclientactions_suspendscreenupdates
 ms.topic: method
-f1_keywords: ["rdpappcontainerclient/IRemoteDesktopClientActions.SuspendScreenUpdates"]
+f1_keywords: 
+ - "rdpappcontainerclient/IRemoteDesktopClientActions.SuspendScreenUpdates"
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

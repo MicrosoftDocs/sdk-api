@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDNS_SRV_DATA, *PDNS_SRV_DATAW, DNS_SRV_DATA, DNS_SRV_DATA structure [DNS], DNS_SRV_DATAW, PDNS_SRV_DATA, PDNS_SRV_DATA structure pointer [DNS], _dns_dns_srv_data, dns.dns_srv_data, windns/DNS_SRV_DATA, windns/PDNS_SRV_DATA"
 ms.topic: struct
-f1_keywords: ["windns/DNS_SRV_DATA"]
+f1_keywords: 
+ - "windns/DNS_SRV_DATA"
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

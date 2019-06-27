@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetEnhMetaFileBits, SetEnhMetaFileBits function [Windows GDI], _win32_SetEnhMetaFileBits, gdi.setenhmetafilebits, wingdi/SetEnhMetaFileBits
 ms.topic: function
-f1_keywords: ["wingdi/SetEnhMetaFileBits"]
+f1_keywords: 
+ - "wingdi/SetEnhMetaFileBits"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

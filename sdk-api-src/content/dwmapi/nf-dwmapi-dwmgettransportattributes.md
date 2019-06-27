@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DwmGetTransportAttributes, DwmGetTransportAttributes function [Desktop Window Manager], _udwm_dwmgettransportattributes, _udwm_dwmgettransportattributes_cpp, dwm.dwmgettransportattributes, dwmapi/DwmGetTransportAttributes, winui._udwm_dwmgettransportattributes
 ms.topic: function
-f1_keywords: ["dwmapi/DwmGetTransportAttributes"]
+f1_keywords: 
+ - "dwmapi/DwmGetTransportAttributes"
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

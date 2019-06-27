@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AD_APPLY_ALL, AD_APPLY_BUFFERED_REFRESH, AD_APPLY_DYNAMICREFRESH, AD_APPLY_FORCE, AD_APPLY_HTMLGEN, AD_APPLY_REFRESH, AD_APPLY_SAVE, ApplyChanges, ApplyChanges method [Legacy Windows Environment Features], ApplyChanges method [Legacy Windows Environment Features],IActiveDesktop interface, IActiveDesktop interface [Legacy Windows Environment Features],ApplyChanges method, IActiveDesktop.ApplyChanges, IActiveDesktop::ApplyChanges, _win32_IActiveDesktop_ApplyChanges, lwef.iactivedesktop_applychanges, shell.iactivedesktop_applychanges, shlobj_core/IActiveDesktop::ApplyChanges
 ms.topic: method
-f1_keywords: ["shlobj_core/IActiveDesktop.ApplyChanges"]
+f1_keywords: 
+ - "shlobj_core/IActiveDesktop.ApplyChanges"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

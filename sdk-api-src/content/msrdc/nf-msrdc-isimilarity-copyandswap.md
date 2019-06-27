@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyAndSwap, CopyAndSwap method [Remote Differential Compression], CopyAndSwap method [Remote Differential Compression],ISimilarity interface, ISimilarity interface [Remote Differential Compression],CopyAndSwap method, ISimilarity.CopyAndSwap, ISimilarity::CopyAndSwap, fs.isimilarity_copyandswap, msrdc/ISimilarity::CopyAndSwap, rdc.isimilarity_copyandswap
 ms.topic: method
-f1_keywords: ["msrdc/ISimilarity.CopyAndSwap"]
+f1_keywords: 
+ - "msrdc/ISimilarity.CopyAndSwap"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

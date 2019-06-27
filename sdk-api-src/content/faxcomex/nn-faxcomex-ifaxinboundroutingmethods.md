@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxInboundRoutingMethods, IFaxInboundRoutingMethods interface [Fax Service], IFaxInboundRoutingMethods interface [Fax Service],described, _mfax_faxinboundroutingmethods_cpp, fax._mfax_faxinboundroutingmethods_cpp, faxcomex/IFaxInboundRoutingMethods
 ms.topic: interface
-f1_keywords: ["faxcomex/IFaxInboundRoutingMethods"]
+f1_keywords: 
+ - "faxcomex/IFaxInboundRoutingMethods"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

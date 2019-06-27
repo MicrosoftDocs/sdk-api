@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioCaptureClient, IAudioCaptureClient interface [Core Audio], IAudioCaptureClient interface [Core Audio],described, audioclient/IAudioCaptureClient, coreaudio.iaudiocaptureclient
 ms.topic: interface
-f1_keywords: ["audioclient/IAudioCaptureClient"]
+f1_keywords: 
+ - "audioclient/IAudioCaptureClient"
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

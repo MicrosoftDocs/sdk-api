@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMVideoForceKeyFrame interface [Media Foundation],SetKeyFrame method, IWMVideoForceKeyFrame.SetKeyFrame, IWMVideoForceKeyFrame::SetKeyFrame, SetKeyFrame, SetKeyFrame method [Media Foundation], SetKeyFrame method [Media Foundation],IWMVideoForceKeyFrame interface, codecapi.iwmvideoforcekeyframe_setkeyframe, codecapi.iwmvideoforcekeyframesetkeyframe, mf.iwmvideoforcekeyframesetkeyframe, wmcodecdsp/IWMVideoForceKeyFrame::SetKeyFrame
 ms.topic: method
-f1_keywords: ["wmcodecdsp/IWMVideoForceKeyFrame.SetKeyFrame"]
+f1_keywords: 
+ - "wmcodecdsp/IWMVideoForceKeyFrame.SetKeyFrame"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

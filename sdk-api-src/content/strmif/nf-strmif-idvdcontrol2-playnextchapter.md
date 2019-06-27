@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayNextChapter method, IDvdControl2.PlayNextChapter, IDvdControl2::PlayNextChapter, IDvdControl2PlayNextChapter, PlayNextChapter, PlayNextChapter method [DirectShow], PlayNextChapter method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playnextchapter, strmif/IDvdControl2::PlayNextChapter
 ms.topic: method
-f1_keywords: ["strmif/IDvdControl2.PlayNextChapter"]
+f1_keywords: 
+ - "strmif/IDvdControl2.PlayNextChapter"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

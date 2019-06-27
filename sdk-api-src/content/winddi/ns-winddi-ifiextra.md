@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIFIEXTRA, IFIEXTRA, IFIEXTRA structure [Display Devices], PIFIEXTRA, PIFIEXTRA structure pointer [Display Devices], display.ifiextra, grstrcts_6e899cbd-3ebb-4f19-8d04-3e0ca9215fea.xml, winddi/IFIEXTRA, winddi/PIFIEXTRA"
 ms.topic: struct
-f1_keywords: ["winddi/IFIEXTRA"]
+f1_keywords: 
+ - "winddi/IFIEXTRA"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

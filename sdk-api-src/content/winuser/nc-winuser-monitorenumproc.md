@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MonitorEnumProc, MonitorEnumProc callback, MonitorEnumProc callback function [Windows GDI], _win32_MonitorEnumProc, gdi.monitorenumproc, winuser/MonitorEnumProc
 ms.topic: callback
-f1_keywords: ["winuser/MonitorEnumProc"]
+f1_keywords: 
+ - "winuser/MonitorEnumProc"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

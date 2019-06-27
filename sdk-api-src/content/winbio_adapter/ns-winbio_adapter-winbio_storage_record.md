@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWINBIO_STORAGE_RECORD, PWINBIO_STORAGE_RECORD, PWINBIO_STORAGE_RECORD structure pointer [Windows Biometric Framework API], WINBIO_STORAGE_RECORD, WINBIO_STORAGE_RECORD structure [Windows Biometric Framework API], secbiomet.winbio_storage_record, winbio_adapter/PWINBIO_STORAGE_RECORD, winbio_adapter/WINBIO_STORAGE_RECORD"
 ms.topic: struct
-f1_keywords: ["winbio_adapter/WINBIO_STORAGE_RECORD"]
+f1_keywords: 
+ - "winbio_adapter/WINBIO_STORAGE_RECORD"
 req.header: winbio_adapter.h
 req.include-header: 
 req.target-type: Windows

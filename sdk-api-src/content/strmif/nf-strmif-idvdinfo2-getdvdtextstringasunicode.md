@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDVDTextStringAsUnicode, GetDVDTextStringAsUnicode method [DirectShow], GetDVDTextStringAsUnicode method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDVDTextStringAsUnicode method, IDvdInfo2.GetDVDTextStringAsUnicode, IDvdInfo2::GetDVDTextStringAsUnicode, IDvdInfo2GetDVDTextStringAsUnicode, dshow.idvdinfo2_getdvdtextstringasunicode, strmif/IDvdInfo2::GetDVDTextStringAsUnicode
 ms.topic: method
-f1_keywords: ["strmif/IDvdInfo2.GetDVDTextStringAsUnicode"]
+f1_keywords: 
+ - "strmif/IDvdInfo2.GetDVDTextStringAsUnicode"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

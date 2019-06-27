@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCodecDescription, GetCodecDescription method [DirectShow], GetCodecDescription method [DirectShow],IAMNetShowExProps interface, IAMNetShowExProps interface [DirectShow],GetCodecDescription method, IAMNetShowExProps.GetCodecDescription, IAMNetShowExProps::GetCodecDescription, IAMNetShowExPropsGetCodecDescription, dshow.iamnetshowexprops_getcodecdescription, qnetwork/IAMNetShowExProps::GetCodecDescription
 ms.topic: method
-f1_keywords: ["qnetwork/IAMNetShowExProps.GetCodecDescription"]
+f1_keywords: 
+ - "qnetwork/IAMNetShowExProps.GetCodecDescription"
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

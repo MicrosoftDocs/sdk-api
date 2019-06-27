@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwRule interface [ICS/ICF],ServiceName property, INetFwRule.ServiceName, INetFwRule.put_ServiceName, INetFwRule::ServiceName, INetFwRule::get_ServiceName, INetFwRule::put_ServiceName, ServiceName property [ICS/ICF], ServiceName property [ICS/ICF],INetFwRule interface, ics.inetfwrule_servicename, netfw/INetFwRule::ServiceName, netfw/INetFwRule::get_ServiceName, netfw/INetFwRule::put_ServiceName, put_ServiceName
 ms.topic: method
-f1_keywords: ["netfw/INetFwRule.ServiceName"]
+f1_keywords: 
+ - "netfw/INetFwRule.ServiceName"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_AUTHENTICATION_METHOD2, IKEEXT_AUTHENTICATION_METHOD2 structure [Filtering], fwp.ikeext_authentication_method2, iketypes/IKEEXT_AUTHENTICATION_METHOD2
 ms.topic: struct
-f1_keywords: ["iketypes/IKEEXT_AUTHENTICATION_METHOD2"]
+f1_keywords: 
+ - "iketypes/IKEEXT_AUTHENTICATION_METHOD2"
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

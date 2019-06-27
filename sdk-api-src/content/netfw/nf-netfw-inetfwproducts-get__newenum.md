@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwProducts interface [ICS/ICF],_NewEnum property, INetFwProducts._NewEnum, INetFwProducts.get__NewEnum, INetFwProducts::_NewEnum, INetFwProducts::get__NewEnum, _NewEnum property [ICS/ICF], _NewEnum property [ICS/ICF],INetFwProducts interface, get__NewEnum, ics.inetfwproducts_newenum, netfw/INetFwProducts::_NewEnum, netfw/INetFwProducts::get__NewEnum
 ms.topic: method
-f1_keywords: ["netfw/INetFwProducts._NewEnum"]
+f1_keywords: 
+ - "netfw/INetFwProducts._NewEnum"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

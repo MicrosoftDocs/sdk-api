@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineCloseMSPInstance, TSPI_lineCloseMSPInstance function [TAPI 2.2], _tspi_tspi_lineclosemspinstance, tspi.tspi_lineclosemspinstance, tspi/TSPI_lineCloseMSPInstance
 ms.topic: function
-f1_keywords: ["tspi/TSPI_lineCloseMSPInstance"]
+f1_keywords: 
+ - "tspi/TSPI_lineCloseMSPInstance"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

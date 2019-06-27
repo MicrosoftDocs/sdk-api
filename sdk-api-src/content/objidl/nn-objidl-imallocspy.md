@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMallocSpy, IMallocSpy interface [COM], IMallocSpy interface [COM],described, _com_imallocspy, com.imallocspy, objidl/IMallocSpy
 ms.topic: interface
-f1_keywords: ["objidl/IMallocSpy"]
+f1_keywords: 
+ - "objidl/IMallocSpy"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

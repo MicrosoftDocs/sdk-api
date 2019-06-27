@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetShellNext, SetShellNext function [Windows API], icwcfg/SetShellNext, winprog.setshellnext
 ms.topic: function
-f1_keywords: ["icwcfg/SetShellNext"]
+f1_keywords: 
+ - "icwcfg/SetShellNext"
 req.header: icwcfg.h
 req.include-header: 
 req.target-type: Windows

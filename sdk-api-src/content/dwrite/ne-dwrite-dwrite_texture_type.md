@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_TEXTURE_ALIASED_1x1, DWRITE_TEXTURE_CLEARTYPE_3x1, DWRITE_TEXTURE_TYPE, DWRITE_TEXTURE_TYPE enumeration [Direct Write], directwrite.dwrite_texture_type, dwrite/DWRITE_TEXTURE_ALIASED_1x1, dwrite/DWRITE_TEXTURE_CLEARTYPE_3x1, dwrite/DWRITE_TEXTURE_TYPE
 ms.topic: enum
-f1_keywords: ["dwrite/DWRITE_TEXTURE_TYPE"]
+f1_keywords: 
+ - "dwrite/DWRITE_TEXTURE_TYPE"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

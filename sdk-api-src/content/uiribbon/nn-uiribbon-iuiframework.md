@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIFramework, IUIFramework interface [Windows Ribbon], IUIFramework interface [Windows Ribbon],described, scenicintent_IUIFramework, uiribbon/IUIFramework, windowsribbon.windowsribbon_iuiframework
 ms.topic: interface
-f1_keywords: ["uiribbon/IUIFramework"]
+f1_keywords: 
+ - "uiribbon/IUIFramework"
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

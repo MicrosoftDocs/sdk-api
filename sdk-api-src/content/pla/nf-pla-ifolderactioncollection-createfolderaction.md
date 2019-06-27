@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateFolderAction, CreateFolderAction method [PLA], CreateFolderAction method [PLA],IFolderActionCollection interface, IFolderActionCollection interface [PLA],CreateFolderAction method, IFolderActionCollection.CreateFolderAction, IFolderActionCollection::CreateFolderAction, pla.ifolderactioncollection_createfolderaction, pla/IFolderActionCollection::CreateFolderAction
 ms.topic: method
-f1_keywords: ["pla/IFolderActionCollection.CreateFolderAction"]
+f1_keywords: 
+ - "pla/IFolderActionCollection.CreateFolderAction"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

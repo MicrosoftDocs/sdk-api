@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPNRPINFO_V2, PNRPINFO, PNRPINFO structure [Peer Networking], PNRPINFO_V1, PNRPINFO_V1 structure [Peer Networking], PNRPINFO_V2, PPNRPINFO, PPNRPINFO structure pointer [Peer Networking], PPNRPINFO_V1, PPNRPINFO_V1 structure pointer [Peer Networking], p2p.pnrpinfo, pnrpns/PNRPINFO, pnrpns/PNRPINFO_V1, pnrpns/PPNRPINFO, pnrpns/PPNRPINFO_V1"
 ms.topic: struct
-f1_keywords: ["pnrpns/PNRPINFO_V1"]
+f1_keywords: 
+ - "pnrpns/PNRPINFO_V1"
 req.header: pnrpns.h
 req.include-header: 
 req.target-type: Windows

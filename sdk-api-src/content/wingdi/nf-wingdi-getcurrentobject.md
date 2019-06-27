@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentObject, GetCurrentObject function [Windows GDI], OBJ_BITMAP, OBJ_BRUSH, OBJ_COLORSPACE, OBJ_FONT, OBJ_PAL, OBJ_PEN, _win32_GetCurrentObject, gdi.getcurrentobject, wingdi/GetCurrentObject
 ms.topic: function
-f1_keywords: ["wingdi/GetCurrentObject"]
+f1_keywords: 
+ - "wingdi/GetCurrentObject"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetTargetPropertyWithVersionCheck method, ITsSbResourcePluginStore.SetTargetPropertyWithVersionCheck, ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck, SetTargetPropertyWithVersionCheck, SetTargetPropertyWithVersionCheck method [Remote Desktop Services], SetTargetPropertyWithVersionCheck method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck, termserv.itssbresourcepluginstore_settargetpropertywithversioncheck
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbResourcePluginStore.SetTargetPropertyWithVersionCheck"]
+f1_keywords: 
+ - "sbtsv/ITsSbResourcePluginStore.SetTargetPropertyWithVersionCheck"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

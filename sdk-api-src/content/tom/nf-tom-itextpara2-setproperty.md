@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextPara2 interface [Windows Controls],SetProperty method, ITextPara2.SetProperty, ITextPara2::SetProperty, SetProperty, SetProperty method [Windows Controls], SetProperty method [Windows Controls],ITextPara2 interface, controls.itextpara2_setproperty, tom/ITextPara2::SetProperty
 ms.topic: method
-f1_keywords: ["tom/ITextPara2.SetProperty"]
+f1_keywords: 
+ - "tom/ITextPara2.SetProperty"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

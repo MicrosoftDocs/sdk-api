@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxFolders, IFaxFolders interface [Fax Service], IFaxFolders interface [Fax Service],described, _mfax_faxfolders_cpp, fax._mfax_faxfolders_cpp, faxcomex/IFaxFolders
 ms.topic: interface
-f1_keywords: ["faxcomex/IFaxFolders"]
+f1_keywords: 
+ - "faxcomex/IFaxFolders"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

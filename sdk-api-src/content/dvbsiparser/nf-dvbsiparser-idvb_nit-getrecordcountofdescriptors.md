@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IDVB_NIT.GetRecordCountOfDescriptors, IDVB_NIT::GetRecordCountOfDescriptors, IDVB_NITGetRecordCountOfDescriptors, dvbsiparser/IDVB_NIT::GetRecordCountOfDescriptors, mstv.idvb_nit_getrecordcountofdescriptors
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDVB_NIT.GetRecordCountOfDescriptors"]
+f1_keywords: 
+ - "dvbsiparser/IDVB_NIT.GetRecordCountOfDescriptors"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

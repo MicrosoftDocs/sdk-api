@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISchemaLocalizerSupport interface [search],Localize method, ISchemaLocalizerSupport.Localize, ISchemaLocalizerSupport::Localize, Localize, Localize method [search], Localize method [search],ISchemaLocalizerSupport interface, _search_ISchemaLocalizerSupport_Localize, search._search_ISchemaLocalizerSupport_Localize, structuredquery/ISchemaLocalizerSupport::Localize
 ms.topic: method
-f1_keywords: ["structuredquery/ISchemaLocalizerSupport.Localize"]
+f1_keywords: 
+ - "structuredquery/ISchemaLocalizerSupport.Localize"
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

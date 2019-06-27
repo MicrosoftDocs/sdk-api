@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleUIChangeIcon, OleUIChangeIcon function [COM], OleUIChangeIconA, OleUIChangeIconW, _ole_OleUIChangeIcon, com.oleuichangeicon, oledlg/OleUIChangeIcon, oledlg/OleUIChangeIconA, oledlg/OleUIChangeIconW
 ms.topic: function
-f1_keywords: ["oledlg/OleUIChangeIcon"]
+f1_keywords: 
+ - "oledlg/OleUIChangeIcon"
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

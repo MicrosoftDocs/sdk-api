@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FsrmPathMapper class [File Server Resource Manager],GetSharePathsForLocalPath method, GetSharePathsForLocalPath, GetSharePathsForLocalPath method [File Server Resource Manager], GetSharePathsForLocalPath method [File Server Resource Manager],FsrmPathMapper class, GetSharePathsForLocalPath method [File Server Resource Manager],IFsrmPathMapper interface, IFsrmPathMapper interface [File Server Resource Manager],GetSharePathsForLocalPath method, IFsrmPathMapper.GetSharePathsForLocalPath, IFsrmPathMapper::GetSharePathsForLocalPath, fs.ifsrmpathmapper_getsharepathsforlocalpath, fsrm.ifsrmpathmapper_getsharepathsforlocalpath, fsrm/IFsrmPathMapper::GetSharePathsForLocalPath
 ms.topic: method
-f1_keywords: ["fsrm/IFsrmPathMapper.GetSharePathsForLocalPath"]
+f1_keywords: 
+ - "fsrm/IFsrmPathMapper.GetSharePathsForLocalPath"
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows

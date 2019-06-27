@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathRemoveArgs, PathRemoveArgs function [Windows Shell], PathRemoveArgsA, PathRemoveArgsW, _win32_PathRemoveArgs, shell.PathRemoveArgs, shlwapi/PathRemoveArgs, shlwapi/PathRemoveArgsA, shlwapi/PathRemoveArgsW
 ms.topic: function
-f1_keywords: ["shlwapi/PathRemoveArgs"]
+f1_keywords: 
+ - "shlwapi/PathRemoveArgs"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComponentTypes interface [Microsoft TV Technologies],Remove method, IComponentTypes.Remove, IComponentTypes::Remove, IComponentTypesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IComponentTypes interface, mstv.icomponenttypes_remove, tuner/IComponentTypes::Remove
 ms.topic: method
-f1_keywords: ["tuner/IComponentTypes.Remove"]
+f1_keywords: 
+ - "tuner/IComponentTypes.Remove"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Tbsip_Cancel_Commands, Tbsip_Cancel_Commands function [TBS], tbs._tbsip_cancel_commands, tbs/Tbsip_Cancel_Commands
 ms.topic: function
-f1_keywords: ["tbs/Tbsip_Cancel_Commands"]
+f1_keywords: 
+ - "tbs/Tbsip_Cancel_Commands"
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows

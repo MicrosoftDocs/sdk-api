@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StrCpyN, StrCpyN function [Windows Shell], StrCpyNW, _win32_StrCpyN, shell.StrCpyN, shlwapi/StrCpyN, shlwapi/StrCpyNW
 ms.topic: function
-f1_keywords: ["shlwapi/StrCpyN"]
+f1_keywords: 
+ - "shlwapi/StrCpyN"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

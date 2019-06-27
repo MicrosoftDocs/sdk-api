@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: KspVerifySignatureFn, KspVerifySignatureFn callback, SpVerifySignature, SpVerifySignature callback function [Security], _ssp_spverifysignature, ntsecpkg/SpVerifySignature, security.spverifysignature
 ms.topic: callback
-f1_keywords: ["ntsecpkg/SpVerifySignature"]
+f1_keywords: 
+ - "ntsecpkg/SpVerifySignature"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

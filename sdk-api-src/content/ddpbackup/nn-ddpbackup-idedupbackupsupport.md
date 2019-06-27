@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDedupBackupSupport, IDedupBackupSupport interface [Data Deduplication API], IDedupBackupSupport interface [Data Deduplication API],described, ddpbackup/IDedupBackupSupport, dedup.idedupbackupsupport
 ms.topic: interface
-f1_keywords: ["ddpbackup/IDedupBackupSupport"]
+f1_keywords: 
+ - "ddpbackup/IDedupBackupSupport"
 req.header: ddpbackup.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetComment, GetComment method [Task Scheduler], GetComment method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetComment method, IScheduledWorkItem.GetComment, IScheduledWorkItem::GetComment, _msb_ischeduledworkitem_getcomment, mstask/IScheduledWorkItem::GetComment, taskschd.ischeduledworkitem_getcomment
 ms.topic: method
-f1_keywords: ["mstask/IScheduledWorkItem.GetComment"]
+f1_keywords: 
+ - "mstask/IScheduledWorkItem.GetComment"
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

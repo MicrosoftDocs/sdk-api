@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUrlAccessor2 interface [search],IsDocument method, IUrlAccessor2.IsDocument, IUrlAccessor2::IsDocument, IUrlAccessor4 interface [search],IsDocument method, IUrlAccessor4::IsDocument, IsDocument, IsDocument method [search], IsDocument method [search],IUrlAccessor2 interface, IsDocument method [search],IUrlAccessor4 interface, _search_IUrlAccessor2_IsDocument, search._search_IUrlAccessor2_IsDocument, searchapi/IUrlAccessor2::IsDocument, searchapi/IUrlAccessor4::IsDocument
 ms.topic: method
-f1_keywords: ["searchapi/IUrlAccessor2.IsDocument"]
+f1_keywords: 
+ - "searchapi/IUrlAccessor2.IsDocument"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

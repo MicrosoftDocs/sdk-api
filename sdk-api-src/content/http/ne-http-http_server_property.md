@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHTTP_SERVER_PROPERTY, *PHTTP_SERVER_PROPERTY enumeration [HTTP], HTTP_SERVER_PROPERTY, HTTP_SERVER_PROPERTY enumeration [HTTP], HttpServer503VerbosityProperty, HttpServerAuthenticationProperty, HttpServerBindingProperty, HttpServerChannelBindProperty, HttpServerExtendedAuthenticationProperty, HttpServerListenEndpointProperty, HttpServerLoggingProperty, HttpServerQosProperty, HttpServerQueueLengthProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, http.http_server_property, http/*PHTTP_SERVER_PROPERTY, http/HTTP_SERVER_PROPERTY, http/HttpServer503VerbosityProperty, http/HttpServerAuthenticationProperty, http/HttpServerBindingProperty, http/HttpServerChannelBindProperty, http/HttpServerExtendedAuthenticationProperty, http/HttpServerListenEndpointProperty, http/HttpServerLoggingProperty, http/HttpServerQosProperty, http/HttpServerQueueLengthProperty, http/HttpServerStateProperty, http/HttpServerTimeoutsProperty"
 ms.topic: enum
-f1_keywords: ["http/HTTP_SERVER_PROPERTY"]
+f1_keywords: 
+ - "http/HTTP_SERVER_PROPERTY"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

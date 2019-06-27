@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsMoveWriter, WsMoveWriter function [Web Services for Windows], webservices/WsMoveWriter, wsw.wsmovewriter
 ms.topic: function
-f1_keywords: ["webservices/WsMoveWriter"]
+f1_keywords: 
+ - "webservices/WsMoveWriter"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

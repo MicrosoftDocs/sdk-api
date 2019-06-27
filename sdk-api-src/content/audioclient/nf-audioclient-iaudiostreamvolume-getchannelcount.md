@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetChannelCount, GetChannelCount method [Core Audio], GetChannelCount method [Core Audio],IAudioStreamVolume interface, IAudioStreamVolume interface [Core Audio],GetChannelCount method, IAudioStreamVolume.GetChannelCount, IAudioStreamVolume::GetChannelCount, IAudioStreamVolumeGetChannelCount, audioclient/IAudioStreamVolume::GetChannelCount, coreaudio.iaudiostreamvolume_getchannelcount
 ms.topic: method
-f1_keywords: ["audioclient/IAudioStreamVolume.GetChannelCount"]
+f1_keywords: 
+ - "audioclient/IAudioStreamVolume.GetChannelCount"
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

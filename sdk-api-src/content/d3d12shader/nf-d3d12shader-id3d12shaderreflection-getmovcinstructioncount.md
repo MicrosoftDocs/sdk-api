@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMovcInstructionCount, GetMovcInstructionCount method, GetMovcInstructionCount method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetMovcInstructionCount method, ID3D12ShaderReflection.GetMovcInstructionCount, ID3D12ShaderReflection::GetMovcInstructionCount, d3d12shader/ID3D12ShaderReflection::GetMovcInstructionCount, direct3d12.id3d12shaderreflection_getmovcinstructioncount
 ms.topic: method
-f1_keywords: ["d3d12shader/ID3D12ShaderReflection.GetMovcInstructionCount"]
+f1_keywords: 
+ - "d3d12shader/ID3D12ShaderReflection.GetMovcInstructionCount"
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

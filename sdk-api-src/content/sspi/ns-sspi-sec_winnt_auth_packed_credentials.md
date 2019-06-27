@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSEC_WINNT_AUTH_PACKED_CREDENTIALS, PSEC_WINNT_AUTH_PACKED_CREDENTIALS, PSEC_WINNT_AUTH_PACKED_CREDENTIALS structure pointer [Security], SEC_WINNT_AUTH_PACKED_CREDENTIALS, SEC_WINNT_AUTH_PACKED_CREDENTIALS structure [Security], security.sec_winnt_auth_packed_credentials, sspi/PSEC_WINNT_AUTH_PACKED_CREDENTIALS, sspi/SEC_WINNT_AUTH_PACKED_CREDENTIALS"
 ms.topic: struct
-f1_keywords: ["sspi/SEC_WINNT_AUTH_PACKED_CREDENTIALS"]
+f1_keywords: 
+ - "sspi/SEC_WINNT_AUTH_PACKED_CREDENTIALS"
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

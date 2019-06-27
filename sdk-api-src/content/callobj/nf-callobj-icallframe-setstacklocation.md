@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICallFrame interface [COM],SetStackLocation method, ICallFrame.SetStackLocation, ICallFrame::SetStackLocation, SetStackLocation, SetStackLocation method [COM], SetStackLocation method [COM],ICallFrame interface, _com_icallframe_setstacklocation, callobj/ICallFrame::SetStackLocation, com.icallframe_setstacklocation
 ms.topic: method
-f1_keywords: ["callobj/ICallFrame.SetStackLocation"]
+f1_keywords: 
+ - "callobj/ICallFrame.SetStackLocation"
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

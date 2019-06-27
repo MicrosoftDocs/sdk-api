@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_OPERATION_INFO, WSMAN_OPERATION_INFO structure [Windows Remote Management], winrm.wsman_operation_info, wsman/WSMAN_OPERATION_INFO
 ms.topic: struct
-f1_keywords: ["wsman/WSMAN_OPERATION_INFO"]
+f1_keywords: 
+ - "wsman/WSMAN_OPERATION_INFO"
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

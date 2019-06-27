@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLDAP_TIMEVAL, LDAP_TIMEVAL, LDAP_TIMEVAL structure [LDAP], PLDAP_TIMEVAL, PLDAP_TIMEVAL structure pointer [LDAP], _ldap_ldap_timeval, ldap.ldap__timeval, ldap.ldap_timeval, winldap/LDAP_TIMEVAL, winldap/PLDAP_TIMEVAL"
 ms.topic: struct
-f1_keywords: ["winldap/LDAP_TIMEVAL"]
+f1_keywords: 
+ - "winldap/LDAP_TIMEVAL"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

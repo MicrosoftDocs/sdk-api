@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MetaDataGetDispenser, MetaDataGetDispenser function [Windows Runtime], rometadata/MetaDataGetDispenser, winrt.metadatagetdispenser
 ms.topic: function
-f1_keywords: ["rometadata/MetaDataGetDispenser"]
+f1_keywords: 
+ - "rometadata/MetaDataGetDispenser"
 req.header: rometadata.h
 req.include-header: 
 req.target-type: Windows

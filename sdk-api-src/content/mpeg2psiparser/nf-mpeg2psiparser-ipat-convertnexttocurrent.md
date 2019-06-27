@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],ConvertNextToCurrent method, IPAT.ConvertNextToCurrent, IPAT::ConvertNextToCurrent, IPATConvertNextToCurrent, mpeg2psiparser/IPAT::ConvertNextToCurrent, mstv.ipat_convertnexttocurrent
 ms.topic: method
-f1_keywords: ["mpeg2psiparser/IPAT.ConvertNextToCurrent"]
+f1_keywords: 
+ - "mpeg2psiparser/IPAT.ConvertNextToCurrent"
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

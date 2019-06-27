@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [Security], Advise method [Security],IIdentityProvider interface, IDENTITY_ASSOCIATED, IDENTITY_CREATED, IDENTITY_DELETED, IDENTITY_DISASSOCIATED, IDENTITY_IMPORTED, IDENTITY_PROPCHANGE, IIdentityProvider interface [Security],Advise method, IIdentityProvider.Advise, IIdentityProvider::Advise, identityprovider/IIdentityProvider::Advise, security.iidentityprovider_advise
 ms.topic: method
-f1_keywords: ["identityprovider/IIdentityProvider.Advise"]
+f1_keywords: 
+ - "identityprovider/IIdentityProvider.Advise"
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows

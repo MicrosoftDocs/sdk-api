@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [Windows GDI], Cancel method [Windows GDI],IXpsPrintJob interface, IXpsPrintJob interface [Windows GDI],Cancel method, IXpsPrintJob.Cancel, IXpsPrintJob::Cancel, gdi.ixpsprintjob_cancel, xpsprint/IXpsPrintJob::Cancel
 ms.topic: method
-f1_keywords: ["xpsprint/IXpsPrintJob.Cancel"]
+f1_keywords: 
+ - "xpsprint/IXpsPrintJob.Cancel"
 req.header: xpsprint.h
 req.include-header: 
 req.target-type: Windows

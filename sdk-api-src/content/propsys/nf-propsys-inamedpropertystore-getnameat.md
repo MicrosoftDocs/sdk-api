@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNameAt, GetNameAt method [Windows Shell], GetNameAt method [Windows Shell],INamedPropertyStore interface, INamedPropertyStore interface [Windows Shell],GetNameAt method, INamedPropertyStore.GetNameAt, INamedPropertyStore::GetNameAt, _shell_INamedPropertyStore_GetNameAt, propsys/INamedPropertyStore::GetNameAt, shell.INamedPropertyStore_GetNameAt
 ms.topic: method
-f1_keywords: ["propsys/INamedPropertyStore.GetNameAt"]
+f1_keywords: 
+ - "propsys/INamedPropertyStore.GetNameAt"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

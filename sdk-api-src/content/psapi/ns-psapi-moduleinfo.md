@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPMODULEINFO, LPMODULEINFO, LPMODULEINFO structure pointer [PSAPI], MODULEINFO, MODULEINFO structure [PSAPI], _win32_moduleinfo_str, base.moduleinfo_str, psapi.moduleinfo_str, psapi/LPMODULEINFO, psapi/MODULEINFO"
 ms.topic: struct
-f1_keywords: ["psapi/MODULEINFO"]
+f1_keywords: 
+ - "psapi/MODULEINFO"
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

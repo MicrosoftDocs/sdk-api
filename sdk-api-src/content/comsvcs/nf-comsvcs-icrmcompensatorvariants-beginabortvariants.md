@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginAbortVariants, BeginAbortVariants method [COM+], BeginAbortVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],BeginAbortVariants method, ICrmCompensatorVariants.BeginAbortVariants, ICrmCompensatorVariants::BeginAbortVariants, _dtc_ICrmCompensatorVariants_BeginAbortVariants, comsvcs/ICrmCompensatorVariants::BeginAbortVariants, cos.icrmcompensatorvariants_beginabortvariants
 ms.topic: method
-f1_keywords: ["comsvcs/ICrmCompensatorVariants.BeginAbortVariants"]
+f1_keywords: 
+ - "comsvcs/ICrmCompensatorVariants.BeginAbortVariants"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaRaiseAsyncContentLoadedEvent, UiaRaiseAsyncContentLoadedEvent function [Windows Accessibility], uiauto.uiauto_UiaRaiseAsyncContentLoadedEventFunction, uiauto_UiaRaiseAsyncContentLoadedEventFunction, uiautomationcoreapi/UiaRaiseAsyncContentLoadedEvent, winauto.uiauto_UiaRaiseAsyncContentLoadedEventFunction
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/UiaRaiseAsyncContentLoadedEvent"]
+f1_keywords: 
+ - "uiautomationcoreapi/UiaRaiseAsyncContentLoadedEvent"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

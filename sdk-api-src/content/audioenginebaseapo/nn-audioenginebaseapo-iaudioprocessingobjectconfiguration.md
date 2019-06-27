@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioProcessingObjectConfiguration, IAudioProcessingObjectConfiguration interface [Audio Devices], IAudioProcessingObjectConfiguration interface [Audio Devices],described, audio.iaudioprocessingobjectconfiguration, audio_syseffects_r_b3847e21-94ea-45b3-9ae4-ccdb83f262aa.xml, audioenginebaseapo/IAudioProcessingObjectConfiguration
 ms.topic: interface
-f1_keywords: ["audioenginebaseapo/IAudioProcessingObjectConfiguration"]
+f1_keywords: 
+ - "audioenginebaseapo/IAudioProcessingObjectConfiguration"
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Windows

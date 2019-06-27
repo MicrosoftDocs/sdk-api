@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDictionary, GetDictionary method [XPS Documents and Packaging], GetDictionary method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResource interface, IXpsOMRemoteDictionaryResource interface [XPS Documents and Packaging],GetDictionary method, IXpsOMRemoteDictionaryResource.GetDictionary, IXpsOMRemoteDictionaryResource::GetDictionary, xps.ixpsomremotedictionaryresource_getdictionary, xpsobjectmodel/IXpsOMRemoteDictionaryResource::GetDictionary
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMRemoteDictionaryResource.GetDictionary"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMRemoteDictionaryResource.GetDictionary"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

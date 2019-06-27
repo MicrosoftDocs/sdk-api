@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVMW_320, AVMW_500, AVMW_DEFAULT, IApplicationDesignModeSettings2 interface [Windows Shell],SetApplicationViewMinWidth method, IApplicationDesignModeSettings2.SetApplicationViewMinWidth, IApplicationDesignModeSettings2::SetApplicationViewMinWidth, SetApplicationViewMinWidth, SetApplicationViewMinWidth method [Windows Shell], SetApplicationViewMinWidth method [Windows Shell],IApplicationDesignModeSettings2 interface, shell.IApplicationDesignModeSettings2_SetApplicationViewMinWidth, shobjidl_core/IApplicationDesignModeSettings2::SetApplicationViewMinWidth
 ms.topic: method
-f1_keywords: ["shobjidl_core/IApplicationDesignModeSettings2.SetApplicationViewMinWidth"]
+f1_keywords: 
+ - "shobjidl_core/IApplicationDesignModeSettings2.SetApplicationViewMinWidth"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2Callback, IXMLHTTPRequest2Callback interface [XMLHttpRequest2], IXMLHTTPRequest2Callback interface [XMLHttpRequest2],described, ixhr2.ixmlhttprequest2callback, msxml6/IXMLHTTPRequest2Callback
 ms.topic: interface
-f1_keywords: ["msxml6/IXMLHTTPRequest2Callback"]
+f1_keywords: 
+ - "msxml6/IXMLHTTPRequest2Callback"
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

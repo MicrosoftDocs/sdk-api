@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddService2, AddService2 method [Windows Update Agent], AddService2 method [Windows Update Agent],IUpdateServiceManager2 interface, IUpdateServiceManager2 interface [Windows Update Agent],AddService2 method, IUpdateServiceManager2.AddService2, IUpdateServiceManager2::AddService2, wua.iupdateservicemanager2_addservice2_methods, wuapi/IUpdateServiceManager2::AddService2
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateServiceManager2.AddService2"]
+f1_keywords: 
+ - "wuapi/IUpdateServiceManager2.AddService2"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

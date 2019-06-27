@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CMSG_CRYPT_RELEASE_CONTEXT_FLAG, CMSG_DATA, CMSG_DETACHED_FLAG, CMSG_ENVELOPED, CMSG_HASHED, CMSG_SIGNED, CMSG_SIGNED_AND_ENVELOPED, CryptMsgOpenToDecode, CryptMsgOpenToDecode function [Security], _crypto2_cryptmsgopentodecode, security.cryptmsgopentodecode, wincrypt/CryptMsgOpenToDecode
 ms.topic: function
-f1_keywords: ["wincrypt/CryptMsgOpenToDecode"]
+f1_keywords: 
+ - "wincrypt/CryptMsgOpenToDecode"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

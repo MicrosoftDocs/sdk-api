@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService interface [Windows Shell],SetTitle method, IBrowserService.SetTitle, IBrowserService::SetTitle, SetTitle, SetTitle method [Windows Shell], SetTitle method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::SetTitle, shell.IBrowserService_SetTitle, zone_IBrowserService_SetTitle
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService.SetTitle"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService.SetTitle"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

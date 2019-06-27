@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SwMemFree, SwMemFree function, swdevice.swmemfree, swdevice/SwMemFree
 ms.topic: function
-f1_keywords: ["swdevice/SwMemFree"]
+f1_keywords: 
+ - "swdevice/SwMemFree"
 req.header: swdevice.h
 req.include-header: 
 req.target-type: Universal

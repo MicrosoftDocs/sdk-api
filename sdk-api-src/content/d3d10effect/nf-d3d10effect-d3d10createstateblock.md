@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8f57946f-10b9-397f-8aa5-63df2e9ef7df, D3D10CreateStateBlock, D3D10CreateStateBlock function [Direct3D 10], d3d10effect/D3D10CreateStateBlock, direct3d10.d3d10createstateblock
 ms.topic: function
-f1_keywords: ["d3d10effect/D3D10CreateStateBlock"]
+f1_keywords: 
+ - "d3d10effect/D3D10CreateStateBlock"
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

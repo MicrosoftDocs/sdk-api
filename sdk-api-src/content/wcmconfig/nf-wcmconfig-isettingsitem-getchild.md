@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetChild, GetChild method [SMI], GetChild method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetChild method, ISettingsItem.GetChild, ISettingsItem::GetChild, smi.isettingsitem_getchild, wcmconfig/ISettingsItem::GetChild
 ms.topic: method
-f1_keywords: ["wcmconfig/ISettingsItem.GetChild"]
+f1_keywords: 
+ - "wcmconfig/ISettingsItem.GetChild"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

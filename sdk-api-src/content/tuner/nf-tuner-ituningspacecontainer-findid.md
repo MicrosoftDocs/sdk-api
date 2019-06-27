@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindID, FindID method [Microsoft TV Technologies], FindID method [Microsoft TV Technologies],ITuningSpaceContainer interface, ITuningSpaceContainer interface [Microsoft TV Technologies],FindID method, ITuningSpaceContainer.FindID, ITuningSpaceContainer::FindID, ITuningSpaceContainerFindID, mstv.ituningspacecontainer_findid, tuner/ITuningSpaceContainer::FindID
 ms.topic: method
-f1_keywords: ["tuner/ITuningSpaceContainer.FindID"]
+f1_keywords: 
+ - "tuner/ITuningSpaceContainer.FindID"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

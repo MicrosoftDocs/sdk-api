@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindByUDN, FindByUDN method [UPnP APIs], FindByUDN method [UPnP APIs],IUPnPDeviceFinder interface, IUPnPDeviceFinder interface [UPnP APIs],FindByUDN method, IUPnPDeviceFinder.FindByUDN, IUPnPDeviceFinder::FindByUDN, _upnp_iupnpdevicefinder_findbyudn, upnp.iupnpdevicefinder_findbyudn, upnp/IUPnPDeviceFinder::FindByUDN
 ms.topic: method
-f1_keywords: ["upnp/IUPnPDeviceFinder.FindByUDN"]
+f1_keywords: 
+ - "upnp/IUPnPDeviceFinder.FindByUDN"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

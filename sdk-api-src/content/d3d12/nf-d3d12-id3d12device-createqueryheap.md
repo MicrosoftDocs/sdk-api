@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateQueryHeap, CreateQueryHeap method, CreateQueryHeap method,ID3D12Device interface, ID3D12Device interface,CreateQueryHeap method, ID3D12Device.CreateQueryHeap, ID3D12Device::CreateQueryHeap, d3d12/ID3D12Device::CreateQueryHeap, direct3d12.id3d12device_createqueryheap
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12Device.CreateQueryHeap"]
+f1_keywords: 
+ - "d3d12/ID3D12Device.CreateQueryHeap"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

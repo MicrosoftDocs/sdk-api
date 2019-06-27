@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIMEWRD, IMEWRD, IMEWRD structure [Internationalization for Windows Applications], PIMEWRD, PIMEWRD structure pointer [Internationalization for Windows Applications], intl.imewrd, msime/IMEWRD, msime/PIMEWRD"
 ms.topic: struct
-f1_keywords: ["msime/IMEWRD"]
+f1_keywords: 
+ - "msime/IMEWRD"
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

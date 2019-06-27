@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawingAttributes property [Tablet PC], DrawingAttributes property [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],DrawingAttributes property, IInkStrokeDisp.DrawingAttributes, IInkStrokeDisp.get_DrawingAttributes, IInkStrokeDisp.put_DrawingAttributes, IInkStrokeDisp::DrawingAttributes, IInkStrokeDisp::get_DrawingAttributes, IInkStrokeDisp::put_DrawingAttributes, get_DrawingAttributes, msinkaut/IInkStrokeDisp::DrawingAttributes, msinkaut/IInkStrokeDisp::get_DrawingAttributes, msinkaut/IInkStrokeDisp::put_DrawingAttributes, tablet.iinkstrokedisp_drawingattributes
 ms.topic: method
-f1_keywords: ["msinkaut/IInkStrokeDisp.DrawingAttributes"]
+f1_keywords: 
+ - "msinkaut/IInkStrokeDisp.DrawingAttributes"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

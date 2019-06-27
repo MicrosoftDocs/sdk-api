@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMonitorCapabilities, GetMonitorCapabilities function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorCapabilities, monitor.getmonitorcapabilities
 ms.topic: function
-f1_keywords: ["highlevelmonitorconfigurationapi/GetMonitorCapabilities"]
+f1_keywords: 
+ - "highlevelmonitorconfigurationapi/GetMonitorCapabilities"
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

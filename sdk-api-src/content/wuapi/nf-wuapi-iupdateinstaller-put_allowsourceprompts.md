@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllowSourcePrompts property [Windows Update Agent], AllowSourcePrompts property [Windows Update Agent],IUpdateInstaller interface, IUpdateInstaller interface [Windows Update Agent],AllowSourcePrompts property, IUpdateInstaller.AllowSourcePrompts, IUpdateInstaller.put_AllowSourcePrompts, IUpdateInstaller::AllowSourcePrompts, IUpdateInstaller::get_AllowSourcePrompts, IUpdateInstaller::put_AllowSourcePrompts, put_AllowSourcePrompts, wua.iupdateinstaller_allowsourceprompts, wuapi/IUpdateInstaller::AllowSourcePrompts, wuapi/IUpdateInstaller::get_AllowSourcePrompts, wuapi/IUpdateInstaller::put_AllowSourcePrompts
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateInstaller.AllowSourcePrompts"]
+f1_keywords: 
+ - "wuapi/IUpdateInstaller.AllowSourcePrompts"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

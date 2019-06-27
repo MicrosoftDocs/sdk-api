@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],SetFocus method, IOleInPlaceSiteWindowless.SetFocus, IOleInPlaceSiteWindowless::SetFocus, SetFocus, SetFocus method [COM], SetFocus method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_setfocus, com.ioleinplacesitewindowless_setfocus, ocidl/IOleInPlaceSiteWindowless::SetFocus
 ms.topic: method
-f1_keywords: ["ocidl/IOleInPlaceSiteWindowless.SetFocus"]
+f1_keywords: 
+ - "ocidl/IOleInPlaceSiteWindowless.SetFocus"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

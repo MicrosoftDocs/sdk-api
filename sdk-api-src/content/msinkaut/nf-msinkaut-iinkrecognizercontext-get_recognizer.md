@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkRecognizerContext interface [Tablet PC],Recognizer property, IInkRecognizerContext.Recognizer, IInkRecognizerContext.get_Recognizer, IInkRecognizerContext::Recognizer, IInkRecognizerContext::get_Recognizer, InkRecognizerContext.get_Recognizer, Recognizer property [Tablet PC], Recognizer property [Tablet PC],IInkRecognizerContext interface, a15234b1-1ac2-4241-b1cd-eb9702ee2a49, get_Recognizer, msinkaut/IInkRecognizerContext::Recognizer, msinkaut/IInkRecognizerContext::get_Recognizer, put_Recognizer, tablet.inkrecognizercontext_recognizer
 ms.topic: method
-f1_keywords: ["msinkaut/IInkRecognizerContext.Recognizer"]
+f1_keywords: 
+ - "msinkaut/IInkRecognizerContext.Recognizer"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

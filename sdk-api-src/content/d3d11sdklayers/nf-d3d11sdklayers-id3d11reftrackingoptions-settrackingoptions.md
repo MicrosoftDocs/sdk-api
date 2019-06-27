@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11RefTrackingOptions interface [Direct3D 11],SetTrackingOptions method, ID3D11RefTrackingOptions.SetTrackingOptions, ID3D11RefTrackingOptions::SetTrackingOptions, SetTrackingOptions, SetTrackingOptions method [Direct3D 11], SetTrackingOptions method [Direct3D 11],ID3D11RefTrackingOptions interface, d3d11sdklayers/ID3D11RefTrackingOptions::SetTrackingOptions, direct3d11.id3d11reftrackingoptions_settrackingoptions
 ms.topic: method
-f1_keywords: ["d3d11sdklayers/ID3D11RefTrackingOptions.SetTrackingOptions"]
+f1_keywords: 
+ - "d3d11sdklayers/ID3D11RefTrackingOptions.SetTrackingOptions"
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

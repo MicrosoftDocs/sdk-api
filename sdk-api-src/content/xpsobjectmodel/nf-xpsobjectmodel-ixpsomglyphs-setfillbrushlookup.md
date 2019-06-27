@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetFillBrushLookup method, IXpsOMGlyphs.SetFillBrushLookup, IXpsOMGlyphs::SetFillBrushLookup, SetFillBrushLookup, SetFillBrushLookup method [XPS Documents and Packaging], SetFillBrushLookup method [XPS Documents and Packaging],IXpsOMGlyphs interface, xps.ixpsomglyphs_setfillbrushlookup, xpsobjectmodel/IXpsOMGlyphs::SetFillBrushLookup
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGlyphs.SetFillBrushLookup"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGlyphs.SetFillBrushLookup"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

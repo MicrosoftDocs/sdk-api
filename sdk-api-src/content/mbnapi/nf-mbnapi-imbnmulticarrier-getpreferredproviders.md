@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPreferredProviders, GetPreferredProviders method [Microsoft Broadband Networks], GetPreferredProviders method [Microsoft Broadband Networks],IMbnMultiCarrier interface, IMbnMultiCarrier interface [Microsoft Broadband Networks],GetPreferredProviders method, IMbnMultiCarrier.GetPreferredProviders, IMbnMultiCarrier::GetPreferredProviders, mbn.imbnmulticarrier_getpreferredproviders, mbnapi/IMbnMultiCarrier::GetPreferredProviders
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnMultiCarrier.GetPreferredProviders"]
+f1_keywords: 
+ - "mbnapi/IMbnMultiCarrier.GetPreferredProviders"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

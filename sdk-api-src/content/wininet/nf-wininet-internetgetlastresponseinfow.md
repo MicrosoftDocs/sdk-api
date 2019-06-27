@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetGetLastResponseInfo, InternetGetLastResponseInfo function [WinINet], InternetGetLastResponseInfoA, InternetGetLastResponseInfoW, _win32_internetgetlastresponseinfo, wininet.internetgetlastresponseinfo, wininet/InternetGetLastResponseInfo, wininet/InternetGetLastResponseInfoA, wininet/InternetGetLastResponseInfoW
 ms.topic: function
-f1_keywords: ["wininet/InternetGetLastResponseInfo"]
+f1_keywords: 
+ - "wininet/InternetGetLastResponseInfo"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

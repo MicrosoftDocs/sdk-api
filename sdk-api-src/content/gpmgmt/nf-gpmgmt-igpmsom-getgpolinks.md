@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMSOM class [GPMC],GetGPOLinks method, GetGPOLinks, GetGPOLinks method [GPMC], GetGPOLinks method [GPMC],GPMSOM class, GetGPOLinks method [GPMC],IGPMSOM interface, IGPMSOM interface [GPMC],GetGPOLinks method, IGPMSOM.GetGPOLinks, IGPMSOM::GetGPOLinks, _win32_igpmsom_getgpolinks, gpmc.igpmsom_getgpolinks, gpmgmt/IGPMSOM::GetGPOLinks
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMSOM.GetGPOLinks"]
+f1_keywords: 
+ - "gpmgmt/IGPMSOM.GetGPOLinks"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

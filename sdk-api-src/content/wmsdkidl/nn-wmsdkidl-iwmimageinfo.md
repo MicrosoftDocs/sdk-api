@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMImageInfo, IWMImageInfo interface [windows Media Format], IWMImageInfo interface [windows Media Format],described, IWMImageInfoInterface, wmformat.iwmimageinfo, wmsdkidl/IWMImageInfo
 ms.topic: interface
-f1_keywords: ["wmsdkidl/IWMImageInfo"]
+f1_keywords: 
+ - "wmsdkidl/IWMImageInfo"
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPNMLVDISPINFOW, NMLVDISPINFO, NMLVDISPINFO structure [Windows Controls], NMLVDISPINFOA, NMLVDISPINFOW, _win32_NMLVDISPINFO, _win32_NMLVDISPINFO_cpp, commctrl/NMLVDISPINFO, commctrl/NMLVDISPINFOA, commctrl/NMLVDISPINFOW, controls.NMLVDISPINFO, controls._win32_NMLVDISPINFO"
 ms.topic: struct
-f1_keywords: ["commctrl/NMLVDISPINFO"]
+f1_keywords: 
+ - "commctrl/NMLVDISPINFO"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

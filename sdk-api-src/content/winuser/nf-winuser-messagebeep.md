@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MessageBeep, MessageBeep function, _win32_messagebeep, base.messagebeep, winuser/MessageBeep
 ms.topic: function
-f1_keywords: ["winuser/MessageBeep"]
+f1_keywords: 
+ - "winuser/MessageBeep"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

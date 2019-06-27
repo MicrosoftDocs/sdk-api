@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IScanningTunerEx interface [Microsoft TV Technologies],TerminateCurrentScan method, IScanningTunerEx.TerminateCurrentScan, IScanningTunerEx::TerminateCurrentScan, IScanningTunerExTerminateCurrentScan, TerminateCurrentScan, TerminateCurrentScan method [Microsoft TV Technologies], TerminateCurrentScan method [Microsoft TV Technologies],IScanningTunerEx interface, mstv.iscanningtunerex_terminatecurrentscan, tuner/IScanningTunerEx::TerminateCurrentScan
 ms.topic: method
-f1_keywords: ["tuner/IScanningTunerEx.TerminateCurrentScan"]
+f1_keywords: 
+ - "tuner/IScanningTunerEx.TerminateCurrentScan"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

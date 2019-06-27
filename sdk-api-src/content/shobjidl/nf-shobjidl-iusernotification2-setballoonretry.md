@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUserNotification2 interface [Windows Shell],SetBalloonRetry method, IUserNotification2.SetBalloonRetry, IUserNotification2::SetBalloonRetry, SetBalloonRetry, SetBalloonRetry method [Windows Shell], SetBalloonRetry method [Windows Shell],IUserNotification2 interface, _shell_IUserNotification2_SetBalloonRetry, shell.IUserNotification2_SetBalloonRetry, shobjidl/IUserNotification2::SetBalloonRetry
 ms.topic: method
-f1_keywords: ["shobjidl/IUserNotification2.SetBalloonRetry"]
+f1_keywords: 
+ - "shobjidl/IUserNotification2.SetBalloonRetry"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

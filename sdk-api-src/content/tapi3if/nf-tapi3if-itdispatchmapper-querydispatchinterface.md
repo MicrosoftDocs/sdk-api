@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDispatchMapper interface [TAPI 2.2],QueryDispatchInterface method, ITDispatchMapper.QueryDispatchInterface, ITDispatchMapper::QueryDispatchInterface, QueryDispatchInterface, QueryDispatchInterface method [TAPI 2.2], QueryDispatchInterface method [TAPI 2.2],ITDispatchMapper interface, _tapi3_itdispatchmapper_querydispatchinterface, tapi3.itdispatchmapper_querydispatchinterface, tapi3if/ITDispatchMapper::QueryDispatchInterface
 ms.topic: method
-f1_keywords: ["tapi3if/ITDispatchMapper.QueryDispatchInterface"]
+f1_keywords: 
+ - "tapi3if/ITDispatchMapper.QueryDispatchInterface"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

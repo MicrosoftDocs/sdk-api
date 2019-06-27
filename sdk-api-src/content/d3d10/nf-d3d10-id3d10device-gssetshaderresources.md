@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GSSetShaderResources, GSSetShaderResources method [Direct3D 10], GSSetShaderResources method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GSSetShaderResources method, ID3D10Device.GSSetShaderResources, ID3D10Device::GSSetShaderResources, ae1befd7-901e-0bc8-c1d4-e5f83866bff2, d3d10/ID3D10Device::GSSetShaderResources, direct3d10.id3d10device_gssetshaderresources
 ms.topic: method
-f1_keywords: ["d3d10/ID3D10Device.GSSetShaderResources"]
+f1_keywords: 
+ - "d3d10/ID3D10Device.GSSetShaderResources"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_PROBE_MATCHES, WSD_PROBE_MATCHES structure, ncd.wsd_probe_matches_struct, wsdtypes/WSD_PROBE_MATCHES
 ms.topic: struct
-f1_keywords: ["wsdtypes/WSD_PROBE_MATCHES"]
+f1_keywords: 
+ - "wsdtypes/WSD_PROBE_MATCHES"
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

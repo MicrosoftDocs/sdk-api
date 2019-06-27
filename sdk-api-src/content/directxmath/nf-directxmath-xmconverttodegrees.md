@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMConvertToDegrees, XMConvertToDegrees, XMConvertToDegrees method [DirectX Math Support APIs], dxmath.xmconverttodegrees
 ms.topic: function
-f1_keywords: ["directxmath/XMConvertToDegrees"]
+f1_keywords: 
+ - "directxmath/XMConvertToDegrees"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

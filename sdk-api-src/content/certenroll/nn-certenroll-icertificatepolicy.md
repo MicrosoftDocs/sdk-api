@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertificatePolicy, ICertificatePolicy interface [Security], ICertificatePolicy interface [Security],described, certenroll/ICertificatePolicy, security.icertificatepolicy
 ms.topic: interface
-f1_keywords: ["certenroll/ICertificatePolicy"]
+f1_keywords: 
+ - "certenroll/ICertificatePolicy"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

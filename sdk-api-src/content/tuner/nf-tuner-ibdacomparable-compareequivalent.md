@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CompareEquivalent, CompareEquivalent method [Microsoft TV Technologies], CompareEquivalent method [Microsoft TV Technologies],IBDAComparable interface, IBDAComparable interface [Microsoft TV Technologies],CompareEquivalent method, IBDAComparable.CompareEquivalent, IBDAComparable::CompareEquivalent, IBDAComparableCompareEquivalent, mstv.ibdacomparable_compareequivalent, tuner/IBDAComparable::CompareEquivalent
 ms.topic: method
-f1_keywords: ["tuner/IBDAComparable.CompareEquivalent"]
+f1_keywords: 
+ - "tuner/IBDAComparable.CompareEquivalent"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSelectedItems, GetSelectedItems method [Windows Shell], GetSelectedItems method [Windows Shell],IFileOpenDialog interface, IFileOpenDialog interface [Windows Shell],GetSelectedItems method, IFileOpenDialog.GetSelectedItems, IFileOpenDialog::GetSelectedItems, shell.IFileOpenDialog_GetSelectedItems, shell_IFileOpenDialog_GetSelectedItems, shobjidl_core/IFileOpenDialog::GetSelectedItems
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileOpenDialog.GetSelectedItems"]
+f1_keywords: 
+ - "shobjidl_core/IFileOpenDialog.GetSelectedItems"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

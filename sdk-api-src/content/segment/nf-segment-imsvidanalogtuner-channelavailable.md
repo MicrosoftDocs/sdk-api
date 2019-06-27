@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ChannelAvailable, ChannelAvailable method [Microsoft TV Technologies], ChannelAvailable method [Microsoft TV Technologies],IMSVidAnalogTuner interface, IMSVidAnalogTuner interface [Microsoft TV Technologies],ChannelAvailable method, IMSVidAnalogTuner.ChannelAvailable, IMSVidAnalogTuner::ChannelAvailable, IMSVidAnalogTunerChannelAvailable, mstv.imsvidanalogtuner_channelavailable, segment/IMSVidAnalogTuner::ChannelAvailable
 ms.topic: method
-f1_keywords: ["segment/IMSVidAnalogTuner.ChannelAvailable"]
+f1_keywords: 
+ - "segment/IMSVidAnalogTuner.ChannelAvailable"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

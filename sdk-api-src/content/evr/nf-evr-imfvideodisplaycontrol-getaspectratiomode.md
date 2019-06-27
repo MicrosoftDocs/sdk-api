@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [Media Foundation], GetAspectRatioMode method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetAspectRatioMode method, IMFVideoDisplayControl.GetAspectRatioMode, IMFVideoDisplayControl::GetAspectRatioMode, b5e81f80-e5c9-4ecf-8f10-d52a0533f086, evr/IMFVideoDisplayControl::GetAspectRatioMode, mf.imfvideodisplaycontrol_getaspectratiomode
 ms.topic: method
-f1_keywords: ["evr/IMFVideoDisplayControl.GetAspectRatioMode"]
+f1_keywords: 
+ - "evr/IMFVideoDisplayControl.GetAspectRatioMode"
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

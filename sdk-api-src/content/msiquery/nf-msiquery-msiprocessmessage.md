@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INSTALLMESSAGE_ACTIONDATA, INSTALLMESSAGE_ACTIONSTART, INSTALLMESSAGE_COMMONDATA, INSTALLMESSAGE_ERROR, INSTALLMESSAGE_FATALEXIT, INSTALLMESSAGE_FILESINUSE, INSTALLMESSAGE_INFO, INSTALLMESSAGE_OUTOFDISKSPACE, INSTALLMESSAGE_PROGRESS, INSTALLMESSAGE_RESOLVESOURCE, INSTALLMESSAGE_RMFILESINUSE, INSTALLMESSAGE_USER, INSTALLMESSAGE_WARNING, MsiProcessMessage, MsiProcessMessage function, _msi_msiprocessmessage, msiquery/MsiProcessMessage, setup.msiprocessmessage
 ms.topic: function
-f1_keywords: ["msiquery/MsiProcessMessage"]
+f1_keywords: 
+ - "msiquery/MsiProcessMessage"
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

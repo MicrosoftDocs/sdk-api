@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertVerifyCTLUsage, CertVerifyCTLUsage function [Security], _crypto2_certverifyctlusage, security.certverifyctlusage, wincrypt/CertVerifyCTLUsage
 ms.topic: function
-f1_keywords: ["wincrypt/CertVerifyCTLUsage"]
+f1_keywords: 
+ - "wincrypt/CertVerifyCTLUsage"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 01/25/2019
 ms.keywords: IHolographicSpaceInterop, IHolographicSpaceInterop interface, IHolographicSpaceInterop interface,described, MixedReality.iholographicspaceinterop, holographicspaceinterop/IHolographicSpaceInterop
 ms.topic: interface
-f1_keywords: ["holographicspaceinterop/IHolographicSpaceInterop"]
+f1_keywords: 
+ - "holographicspaceinterop/IHolographicSpaceInterop"
 req.header: holographicspaceinterop.h
 req.include-header: 
 req.target-type: Windows

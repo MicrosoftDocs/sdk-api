@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProfferService, IProfferService interface [Windows Shell], IProfferService interface [Windows Shell],described, inet_IProfferService, shell.IProfferService, shobjidl_core/IProfferService
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IProfferService"]
+f1_keywords: 
+ - "shobjidl_core/IProfferService"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

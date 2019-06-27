@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_RESOURCES_EQUAL, PRESUTIL_RESOURCES_EQUAL function [Failover Cluster], ResUtilResourcesEqual, ResUtilResourcesEqual function [Failover Cluster], _wolf_resutilresourcesequal, mscs.resutilresourcesequal, resapi/PRESUTIL_RESOURCES_EQUAL, resapi/ResUtilResourcesEqual
 ms.topic: function
-f1_keywords: ["resapi/ResUtilResourcesEqual"]
+f1_keywords: 
+ - "resapi/ResUtilResourcesEqual"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

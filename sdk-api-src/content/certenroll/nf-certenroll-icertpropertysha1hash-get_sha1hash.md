@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertPropertySHA1Hash interface [Security],SHA1Hash property, ICertPropertySHA1Hash.SHA1Hash, ICertPropertySHA1Hash.get_SHA1Hash, ICertPropertySHA1Hash::SHA1Hash, ICertPropertySHA1Hash::get_SHA1Hash, SHA1Hash property [Security], SHA1Hash property [Security],ICertPropertySHA1Hash interface, certenroll/ICertPropertySHA1Hash::SHA1Hash, certenroll/ICertPropertySHA1Hash::get_SHA1Hash, get_SHA1Hash, security.icertpropertysha1hash_sha1hash_property
 ms.topic: method
-f1_keywords: ["certenroll/ICertPropertySHA1Hash.SHA1Hash"]
+f1_keywords: 
+ - "certenroll/ICertPropertySHA1Hash.SHA1Hash"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

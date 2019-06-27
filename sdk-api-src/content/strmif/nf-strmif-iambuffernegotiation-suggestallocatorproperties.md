@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMBufferNegotiation interface [DirectShow],SuggestAllocatorProperties method, IAMBufferNegotiation.SuggestAllocatorProperties, IAMBufferNegotiation::SuggestAllocatorProperties, IAMBufferNegotiationSuggestAllocatorProperties, SuggestAllocatorProperties, SuggestAllocatorProperties method [DirectShow], SuggestAllocatorProperties method [DirectShow],IAMBufferNegotiation interface, dshow.iambuffernegotiation_suggestallocatorproperties, strmif/IAMBufferNegotiation::SuggestAllocatorProperties
 ms.topic: method
-f1_keywords: ["strmif/IAMBufferNegotiation.SuggestAllocatorProperties"]
+f1_keywords: 
+ - "strmif/IAMBufferNegotiation.SuggestAllocatorProperties"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

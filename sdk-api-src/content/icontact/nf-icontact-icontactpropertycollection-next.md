@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IContactPropertyCollection interface [Windows Contacts],Next method, IContactPropertyCollection.Next, IContactPropertyCollection::Next, Next, Next method [Windows Contacts], Next method [Windows Contacts],IContactPropertyCollection interface, _wincontacts_IContactPropertyCollection_Next, icontact/IContactPropertyCollection::Next, wincontacts._wincontacts_IContactPropertyCollection_Next
 ms.topic: method
-f1_keywords: ["icontact/IContactPropertyCollection.Next"]
+f1_keywords: 
+ - "icontact/IContactPropertyCollection.Next"
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

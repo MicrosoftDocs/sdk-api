@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsPropertyList interface [ADSI],Item method, IADsPropertyList.Item, IADsPropertyList::Item, Item, Item method [ADSI], Item method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_item, adsi.iadspropertylist__item, adsi.iadspropertylist_item, iads/IADsPropertyList::Item
 ms.topic: method
-f1_keywords: ["iads/IADsPropertyList.Item"]
+f1_keywords: 
+ - "iads/IADsPropertyList.Item"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

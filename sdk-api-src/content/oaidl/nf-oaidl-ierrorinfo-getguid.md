@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGUID, GetGUID method [Automation], GetGUID method [Automation],IErrorInfo interface, IErrorInfo interface [Automation],GetGUID method, IErrorInfo.GetGUID, IErrorInfo::GetGUID, _oa96_IErrorInfo_GetGUID, automat.ierrorinfo_getguid, oaidl/IErrorInfo::GetGUID
 ms.topic: method
-f1_keywords: ["oaidl/IErrorInfo.GetGUID"]
+f1_keywords: 
+ - "oaidl/IErrorInfo.GetGUID"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

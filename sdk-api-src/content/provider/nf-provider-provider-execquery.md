@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExecQuery, ExecQuery method [Windows Management Instrumentation], ExecQuery method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],ExecQuery method, Provider.ExecQuery, Provider::ExecQuery, _hmm_provider_execquery, provider/Provider::ExecQuery, wmi.provider_execquery
 ms.topic: method
-f1_keywords: ["provider/Provider.ExecQuery"]
+f1_keywords: 
+ - "provider/Provider.ExecQuery"
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows

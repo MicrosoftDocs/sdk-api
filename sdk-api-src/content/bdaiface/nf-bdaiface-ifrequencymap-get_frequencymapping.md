@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFrequencyMap interface [Microsoft TV Technologies],get_FrequencyMapping method, IFrequencyMap.get_FrequencyMapping, IFrequencyMap::get_FrequencyMapping, IFrequencyMapget_FrequencyMapping, bdaiface/IFrequencyMap::get_FrequencyMapping, get_FrequencyMapping, get_FrequencyMapping method [Microsoft TV Technologies], get_FrequencyMapping method [Microsoft TV Technologies],IFrequencyMap interface, mstv.ifrequencymap_get_frequencymapping
 ms.topic: method
-f1_keywords: ["bdaiface/IFrequencyMap.get_FrequencyMapping"]
+f1_keywords: 
+ - "bdaiface/IFrequencyMap.get_FrequencyMapping"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

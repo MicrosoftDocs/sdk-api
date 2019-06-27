@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRegisterTuner, IRegisterTuner interface [Microsoft TV Technologies], IRegisterTuner interface [Microsoft TV Technologies],described, IRegisterTunerInterface, mstv.iregistertuner, tuner/IRegisterTuner
 ms.topic: interface
-f1_keywords: ["tuner/IRegisterTuner"]
+f1_keywords: 
+ - "tuner/IRegisterTuner"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

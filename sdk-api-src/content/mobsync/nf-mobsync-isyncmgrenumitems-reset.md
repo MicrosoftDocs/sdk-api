@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrEnumItems interface [Windows Shell],Reset method, ISyncMgrEnumItems.Reset, ISyncMgrEnumItems::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],ISyncMgrEnumItems interface, mobsync/ISyncMgrEnumItems::Reset, shell.syncmgr_isyncmgrenumitems_reset, syncmgr.isyncmgrenumitems_reset
 ms.topic: method
-f1_keywords: ["mobsync/ISyncMgrEnumItems.Reset"]
+f1_keywords: 
+ - "mobsync/ISyncMgrEnumItems.Reset"
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

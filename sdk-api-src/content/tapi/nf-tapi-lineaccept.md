@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_lineaccept, lineAccept, lineAccept function [TAPI 2.2], tapi/lineAccept, tapi2.lineaccept"
 ms.topic: function
-f1_keywords: ["tapi/lineAccept"]
+f1_keywords: 
+ - "tapi/lineAccept"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

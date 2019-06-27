@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupSetPlatformPathOverride, SetupSetPlatformPathOverride function [Setup API], SetupSetPlatformPathOverrideA, SetupSetPlatformPathOverrideW, _setupapi_setupsetplatformpathoverride, setup.setupsetplatformpathoverride, setupapi/SetupSetPlatformPathOverride, setupapi/SetupSetPlatformPathOverrideA, setupapi/SetupSetPlatformPathOverrideW
 ms.topic: function
-f1_keywords: ["setupapi/SetupSetPlatformPathOverride"]
+f1_keywords: 
+ - "setupapi/SetupSetPlatformPathOverride"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

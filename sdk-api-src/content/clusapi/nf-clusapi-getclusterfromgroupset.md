@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClusterFromGroupSet, GetClusterFromGroupSet function [Failover Cluster], PCLUSAPI_GET_CLUSTER_FROM_GROUP_GROUPSET, PCLUSAPI_GET_CLUSTER_FROM_GROUP_GROUPSET function [Failover Cluster], clusapi/GetClusterFromGroupSet, clusapi/PCLUSAPI_GET_CLUSTER_FROM_GROUP_GROUPSET, mscs.getclusterfromgroupset
 ms.topic: function
-f1_keywords: ["clusapi/GetClusterFromGroupSet"]
+f1_keywords: 
+ - "clusapi/GetClusterFromGroupSet"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

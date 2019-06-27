@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFontSize, GetFontSize method [Direct Write], GetFontSize method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetFontSize method, IDWriteTextLayout.GetFontSize, IDWriteTextLayout::GetFontSize, directwrite.IDWriteTextLayout_GetFontSize, dwrite/IDWriteTextLayout::GetFontSize
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextLayout.GetFontSize"]
+f1_keywords: 
+ - "dwrite/IDWriteTextLayout.GetFontSize"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

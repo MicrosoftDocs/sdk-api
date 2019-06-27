@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetBlackPointY method, IDCompositionBrightnessEffect.SetBlackPointY, IDCompositionBrightnessEffect::SetBlackPointY, IDCompositionBrightnessEffect::SetBlackPointY(float), SetBlackPointY, SetBlackPointY method [DirectComposition], SetBlackPointY method [DirectComposition],IDCompositionBrightnessEffect interface, dcomp/IDCompositionBrightnessEffect::SetBlackPointY, directcomp.idcompositionbrightnesseffect_setblackpointy
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionBrightnessEffect.SetBlackPointY"]
+f1_keywords: 
+ - "dcomp/IDCompositionBrightnessEffect.SetBlackPointY"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

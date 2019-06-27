@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsAbortListener, WsAbortListener function [Web Services for Windows], webservices/WsAbortListener, wsw.wsabortlistener
 ms.topic: function
-f1_keywords: ["webservices/WsAbortListener"]
+f1_keywords: 
+ - "webservices/WsAbortListener"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFLoadSignedLibrary, MFLoadSignedLibrary function [Media Foundation], mf.mfloadsignedlibrary, mfidl/MFLoadSignedLibrary
 ms.topic: function
-f1_keywords: ["mfidl/MFLoadSignedLibrary"]
+f1_keywords: 
+ - "mfidl/MFLoadSignedLibrary"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

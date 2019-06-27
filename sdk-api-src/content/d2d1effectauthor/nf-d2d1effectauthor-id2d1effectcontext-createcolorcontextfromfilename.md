@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateColorContextFromFilename, CreateColorContextFromFilename method [Direct2D], CreateColorContextFromFilename method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],CreateColorContextFromFilename method, ID2D1EffectContext.CreateColorContextFromFilename, ID2D1EffectContext::CreateColorContextFromFilename, d2d1effectauthor/ID2D1EffectContext::CreateColorContextFromFilename, direct2d.id2d1contextinternal_createcolorcontextfromfilename
 ms.topic: method
-f1_keywords: ["d2d1effectauthor/ID2D1EffectContext.CreateColorContextFromFilename"]
+f1_keywords: 
+ - "d2d1effectauthor/ID2D1EffectContext.CreateColorContextFromFilename"
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

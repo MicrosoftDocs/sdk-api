@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PxePacketFree, PxePacketFree function [Windows Deployment Services], wds.pxepacketfree, wdspxe/PxePacketFree
 ms.topic: function
-f1_keywords: ["wdspxe/PxePacketFree"]
+f1_keywords: 
+ - "wdspxe/PxePacketFree"
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

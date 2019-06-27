@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteFont1 interface [Direct Write],IsMonospacedFont method, IDWriteFont1.IsMonospacedFont, IDWriteFont1::IsMonospacedFont, IsMonospacedFont, IsMonospacedFont method [Direct Write], IsMonospacedFont method [Direct Write],IDWriteFont1 interface, directwrite.idwritefont1_ismonospacedfont, dwrite_1/IDWriteFont1::IsMonospacedFont
 ms.topic: method
-f1_keywords: ["dwrite_1/IDWriteFont1.IsMonospacedFont"]
+f1_keywords: 
+ - "dwrite_1/IDWriteFont1.IsMonospacedFont"
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

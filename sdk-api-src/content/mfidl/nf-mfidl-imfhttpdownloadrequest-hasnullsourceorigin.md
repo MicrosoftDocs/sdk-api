@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HasNullSourceOrigin, HasNullSourceOrigin method [Media Foundation], HasNullSourceOrigin method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],HasNullSourceOrigin method, IMFHttpDownloadRequest.HasNullSourceOrigin, IMFHttpDownloadRequest::HasNullSourceOrigin, mf.imfhttpdownloadrequest_hasnullsourceorigin, mfidl/IMFHttpDownloadRequest::HasNullSourceOrigin
 ms.topic: method
-f1_keywords: ["mfidl/IMFHttpDownloadRequest.HasNullSourceOrigin"]
+f1_keywords: 
+ - "mfidl/IMFHttpDownloadRequest.HasNullSourceOrigin"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

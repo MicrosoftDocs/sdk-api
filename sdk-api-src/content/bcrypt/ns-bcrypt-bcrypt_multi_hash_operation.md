@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_MULTI_HASH_OPERATION, BCRYPT_MULTI_HASH_OPERATION structure [Security], bcrypt/BCRYPT_MULTI_HASH_OPERATION, security.bcrypt_multi_hash_operation
 ms.topic: struct
-f1_keywords: ["bcrypt/BCRYPT_MULTI_HASH_OPERATION"]
+f1_keywords: 
+ - "bcrypt/BCRYPT_MULTI_HASH_OPERATION"
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

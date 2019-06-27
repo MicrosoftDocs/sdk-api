@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Get_HW_Prof_Flags_Ex, CM_Get_HW_Prof_Flags_Ex function [Device and Driver Installation], CM_Get_HW_Prof_Flags_ExA, CM_Get_HW_Prof_Flags_ExW, cfgmgr32/CM_Get_HW_Prof_Flags_Ex, cfgmgr32/CM_Get_HW_Prof_Flags_ExA, cfgmgr32/CM_Get_HW_Prof_Flags_ExW, cfgmgrfn_af0f7a15-aa89-49b5-99f9-03f7c1b00a9d.xml, devinst.cm_get_hw_prof_flags_ex
 ms.topic: function
-f1_keywords: ["cfgmgr32/CM_Get_HW_Prof_Flags_Ex"]
+f1_keywords: 
+ - "cfgmgr32/CM_Get_HW_Prof_Flags_Ex"
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProvider interface,InstanceQueryService method, IFunctionDiscoveryProvider.InstanceQueryService, IFunctionDiscoveryProvider::InstanceQueryService, InstanceQueryService, InstanceQueryService method, InstanceQueryService method,IFunctionDiscoveryProvider interface, functiondiscoveryprovider/IFunctionDiscoveryProvider::InstanceQueryService, ncd.ifunctiondiscoveryprovider_instancequeryservice_method
 ms.topic: method
-f1_keywords: ["functiondiscoveryprovider/IFunctionDiscoveryProvider.InstanceQueryService"]
+f1_keywords: 
+ - "functiondiscoveryprovider/IFunctionDiscoveryProvider.InstanceQueryService"
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

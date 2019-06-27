@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WindowsInspectString2, WindowsInspectString2 function [Windows Runtime], winrt.windowsinspectstring2, winstring/WindowsInspectString2
 ms.topic: function
-f1_keywords: ["winstring/WindowsInspectString2"]
+f1_keywords: 
+ - "winstring/WindowsInspectString2"
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

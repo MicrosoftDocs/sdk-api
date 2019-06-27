@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkOverlay interface [Tablet PC],Selection property, IInkOverlay.Selection, IInkOverlay.get_Selection, IInkOverlay::Selection, IInkOverlay::get_Selection, IInkOverlay::put_Selection, InkOverlay.get_Selection, InkOverlay.put_Selection, Selection property [Tablet PC], Selection property [Tablet PC],IInkOverlay interface, fed95f40-d0c4-43a3-9d15-ce9d4d573b5c, get_Selection, msinkaut/IInkOverlay::Selection, msinkaut/IInkOverlay::get_Selection, msinkaut/IInkOverlay::put_Selection, tablet.inkoverlay_selection
 ms.topic: method
-f1_keywords: ["msinkaut/IInkOverlay.Selection"]
+f1_keywords: 
+ - "msinkaut/IInkOverlay.Selection"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

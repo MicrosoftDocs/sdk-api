@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMalloc, IMalloc interface [COM], IMalloc interface [COM],described, _com_imalloc, com.imalloc, objidlbase/IMalloc
 ms.topic: interface
-f1_keywords: ["objidlbase/IMalloc"]
+f1_keywords: 
+ - "objidlbase/IMalloc"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

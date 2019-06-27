@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbProvider interface [Remote Desktop Services],UnRegisterForNotification method, ITsSbProvider.UnRegisterForNotification, ITsSbProvider::UnRegisterForNotification, TSSB_NOTIFY_CONNECTION_REQUEST_CHANGE, TSSB_NOTIFY_SESSION_CHANGE, TSSB_NOTIFY_TARGET_CHANGE, UnRegisterForNotification, UnRegisterForNotification method [Remote Desktop Services], UnRegisterForNotification method [Remote Desktop Services],ITsSbProvider interface, sbtsv/ITsSbProvider::UnRegisterForNotification, termserv.itssbprovider_unregisterfornotification
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbProvider.UnRegisterForNotification"]
+f1_keywords: 
+ - "sbtsv/ITsSbProvider.UnRegisterForNotification"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

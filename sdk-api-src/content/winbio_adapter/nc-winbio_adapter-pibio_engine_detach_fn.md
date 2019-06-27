@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterDetach, EngineAdapterDetach callback function [Windows Biometric Framework API], PIBIO_ENGINE_DETACH_FN, PIBIO_ENGINE_DETACH_FN callback, secbiomet.engineadapterdetach, winbio_adapter/EngineAdapterDetach
 ms.topic: callback
-f1_keywords: ["winbio_adapter/EngineAdapterDetach"]
+f1_keywords: 
+ - "winbio_adapter/EngineAdapterDetach"
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

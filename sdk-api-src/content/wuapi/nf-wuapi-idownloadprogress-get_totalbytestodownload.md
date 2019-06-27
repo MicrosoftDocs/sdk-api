@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDownloadProgress interface [Windows Update Agent],TotalBytesToDownload property, IDownloadProgress.TotalBytesToDownload, IDownloadProgress.get_TotalBytesToDownload, IDownloadProgress::TotalBytesToDownload, IDownloadProgress::get_TotalBytesToDownload, TotalBytesToDownload property [Windows Update Agent], TotalBytesToDownload property [Windows Update Agent],IDownloadProgress interface, get_TotalBytesToDownload, wua.idownloadprogress_totalbytestodownload, wuapi/IDownloadProgress::TotalBytesToDownload, wuapi/IDownloadProgress::get_TotalBytesToDownload
 ms.topic: method
-f1_keywords: ["wuapi/IDownloadProgress.TotalBytesToDownload"]
+f1_keywords: 
+ - "wuapi/IDownloadProgress.TotalBytesToDownload"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

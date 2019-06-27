@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComboBox_SetMinVisible, ComboBox_SetMinVisible macro [Windows Controls], _win32_ComboBox_SetMinVisible, _win32_ComboBox_SetMinVisible_cpp, commctrl/ComboBox_SetMinVisible, controls.ComboBox_SetMinVisible, controls._win32_ComboBox_SetMinVisible
 ms.topic: macro
-f1_keywords: ["commctrl/ComboBox_SetMinVisible"]
+f1_keywords: 
+ - "commctrl/ComboBox_SetMinVisible"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorMax, XMVectorMax, XMVectorMax method [DirectX Math Support APIs], dxmath.xmvectormax
 ms.topic: function
-f1_keywords: ["directxmath/XMVectorMax"]
+f1_keywords: 
+ - "directxmath/XMVectorMax"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

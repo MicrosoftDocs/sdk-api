@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpFormatCredentials, SpFormatCredentials callback function [Security], SpFormatCredentialsFn, SpFormatCredentialsFn callback, _ssp_spformatcredentials, ntsecpkg/SpFormatCredentials, security.spformatcredentials
 ms.topic: callback
-f1_keywords: ["ntsecpkg/SpFormatCredentials"]
+f1_keywords: 
+ - "ntsecpkg/SpFormatCredentials"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

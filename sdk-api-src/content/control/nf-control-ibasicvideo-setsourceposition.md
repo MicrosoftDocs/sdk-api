@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],SetSourcePosition method, IBasicVideo.SetSourcePosition, IBasicVideo::SetSourcePosition, IBasicVideoSetSourcePosition, SetSourcePosition, SetSourcePosition method [DirectShow], SetSourcePosition method [DirectShow],IBasicVideo interface, control/IBasicVideo::SetSourcePosition, dshow.ibasicvideo_setsourceposition
 ms.topic: method
-f1_keywords: ["control/IBasicVideo.SetSourcePosition"]
+f1_keywords: 
+ - "control/IBasicVideo.SetSourcePosition"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

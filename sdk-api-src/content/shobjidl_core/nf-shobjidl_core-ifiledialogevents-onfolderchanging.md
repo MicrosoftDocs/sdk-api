@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileDialogEvents interface [Windows Shell],OnFolderChanging method, IFileDialogEvents.OnFolderChanging, IFileDialogEvents::OnFolderChanging, OnFolderChanging, OnFolderChanging method [Windows Shell], OnFolderChanging method [Windows Shell],IFileDialogEvents interface, shell.IFileDialogEvents_OnFolderChanging, shell_IFileDialogEvents_OnFolderChanging, shobjidl_core/IFileDialogEvents::OnFolderChanging
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileDialogEvents.OnFolderChanging"]
+f1_keywords: 
+ - "shobjidl_core/IFileDialogEvents.OnFolderChanging"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

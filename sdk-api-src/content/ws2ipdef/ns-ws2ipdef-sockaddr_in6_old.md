@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SOCKADDR, SOCKADDR_IN, SOCKADDR_IN6, _win32_sockaddr_2, sockaddr, sockaddr structure [Winsock], sockaddr_in, sockaddr_in6, sockaddr_in6_old, winsock.sockaddr_2, winsock/sockaddr
 ms.topic: struct
-f1_keywords: ["ws2ipdef/sockaddr"]
+f1_keywords: 
+ - "ws2ipdef/sockaddr"
 req.header: ws2ipdef.h
 req.include-header: Ws2ipdef.h
 req.target-type: Windows

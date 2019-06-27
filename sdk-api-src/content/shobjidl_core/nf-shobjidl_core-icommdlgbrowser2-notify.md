@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CDB2N_CONTEXTMENU_DONE, CDB2N_CONTEXTMENU_START, ICommDlgBrowser2 interface [Windows Shell],Notify method, ICommDlgBrowser2.Notify, ICommDlgBrowser2::Notify, Notify, Notify method [Windows Shell], Notify method [Windows Shell],ICommDlgBrowser2 interface, _win32_ICommDlgBrowser2_Notify, shell.ICommDlgBrowser2_Notify, shobjidl_core/ICommDlgBrowser2::Notify
 ms.topic: method
-f1_keywords: ["shobjidl_core/ICommDlgBrowser2.Notify"]
+f1_keywords: 
+ - "shobjidl_core/ICommDlgBrowser2.Notify"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLastUpdateTime, GetLastUpdateTime method [Security], GetLastUpdateTime method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetLastUpdateTime method, IX509EnrollmentPolicyServer.GetLastUpdateTime, IX509EnrollmentPolicyServer::GetLastUpdateTime, certenroll/IX509EnrollmentPolicyServer::GetLastUpdateTime, security.ix509enrollmentpolicyserver_getlastupdatetime
 ms.topic: method
-f1_keywords: ["certenroll/IX509EnrollmentPolicyServer.GetLastUpdateTime"]
+f1_keywords: 
+ - "certenroll/IX509EnrollmentPolicyServer.GetLastUpdateTime"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

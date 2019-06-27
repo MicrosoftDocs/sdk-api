@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbFilterPluginStore, ITsSbFilterPluginStore interface [Remote Desktop Services], ITsSbFilterPluginStore interface [Remote Desktop Services],described, sbtsv/ITsSbFilterPluginStore, termserv.itssbfilterpluginstore
 ms.topic: interface
-f1_keywords: ["sbtsv/ITsSbFilterPluginStore"]
+f1_keywords: 
+ - "sbtsv/ITsSbFilterPluginStore"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

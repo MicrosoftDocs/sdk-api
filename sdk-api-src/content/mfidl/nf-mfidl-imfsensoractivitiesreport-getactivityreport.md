@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetActivityReport, GetActivityReport method [Media Foundation], GetActivityReport method [Media Foundation],IMFSensorActivitiesReport interface, IMFSensorActivitiesReport interface [Media Foundation],GetActivityReport method, IMFSensorActivitiesReport.GetActivityReport, IMFSensorActivitiesReport::GetActivityReport, mf.imfsensoractivityreport_getactivityreport, mfidl/IMFSensorActivitiesReport::GetActivityReport
 ms.topic: method
-f1_keywords: ["mfidl/IMFSensorActivitiesReport.GetActivityReport"]
+f1_keywords: 
+ - "mfidl/IMFSensorActivitiesReport.GetActivityReport"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

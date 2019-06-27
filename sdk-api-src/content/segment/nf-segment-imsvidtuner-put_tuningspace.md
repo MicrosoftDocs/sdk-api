@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidTuner interface [Microsoft TV Technologies],put_TuningSpace method, IMSVidTuner.put_TuningSpace, IMSVidTuner::put_TuningSpace, IMSVidTunerput_TuningSpace, mstv.imsvidtuner_put_tuningspace, put_TuningSpace, put_TuningSpace method [Microsoft TV Technologies], put_TuningSpace method [Microsoft TV Technologies],IMSVidTuner interface, segment/IMSVidTuner::put_TuningSpace
 ms.topic: method
-f1_keywords: ["segment/IMSVidTuner.put_TuningSpace"]
+f1_keywords: 
+ - "segment/IMSVidTuner.put_TuningSpace"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

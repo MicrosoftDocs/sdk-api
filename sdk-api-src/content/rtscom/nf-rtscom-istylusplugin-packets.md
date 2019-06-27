@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStylusPlugin interface [Tablet PC],Packets method, IStylusPlugin.Packets, IStylusPlugin::Packets, Packets, Packets method [Tablet PC], Packets method [Tablet PC],IStylusPlugin interface, c6a3d563-4776-4ac6-bdc3-798192ba4546, rtscom/IStylusPlugin::Packets, tablet.istylusplugin_packets
 ms.topic: method
-f1_keywords: ["rtscom/IStylusPlugin.Packets"]
+f1_keywords: 
+ - "rtscom/IStylusPlugin.Packets"
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

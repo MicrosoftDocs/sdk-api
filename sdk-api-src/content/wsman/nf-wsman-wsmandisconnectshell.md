@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSManDisconnectShell, WSManDisconnectShell function [Windows Remote Management], winrm.wsmandisconnectshell, wsman/WSManDisconnectShell
 ms.topic: function
-f1_keywords: ["wsman/WSManDisconnectShell"]
+f1_keywords: 
+ - "wsman/WSManDisconnectShell"
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

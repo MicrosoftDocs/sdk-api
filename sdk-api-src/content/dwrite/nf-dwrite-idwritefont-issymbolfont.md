@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteFont interface [Direct Write],IsSymbolFont method, IDWriteFont.IsSymbolFont, IDWriteFont::IsSymbolFont, IsSymbolFont, IsSymbolFont method [Direct Write], IsSymbolFont method [Direct Write],IDWriteFont interface, directwrite.IDWriteFont_IsSymbolFont, dwrite/IDWriteFont::IsSymbolFont
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteFont.IsSymbolFont"]
+f1_keywords: 
+ - "dwrite/IDWriteFont.IsSymbolFont"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

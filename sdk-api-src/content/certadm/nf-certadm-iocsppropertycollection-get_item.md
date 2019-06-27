@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCSPPropertyCollection interface [Security],Item property, IOCSPPropertyCollection.Item, IOCSPPropertyCollection.get_Item, IOCSPPropertyCollection::Item, IOCSPPropertyCollection::get_Item, Item property [Security], Item property [Security],IOCSPPropertyCollection interface, certadm/IOCSPPropertyCollection::Item, certadm/IOCSPPropertyCollection::get_Item, get_Item, security.iocsppropertycollection_item_method
 ms.topic: method
-f1_keywords: ["certadm/IOCSPPropertyCollection.Item"]
+f1_keywords: 
+ - "certadm/IOCSPPropertyCollection.Item"
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

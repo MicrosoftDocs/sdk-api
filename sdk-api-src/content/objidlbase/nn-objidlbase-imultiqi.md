@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMultiQI, IMultiQI interface [COM], IMultiQI interface [COM],described, _com_imultiqi, com.imultiqi, objidlbase/IMultiQI
 ms.topic: interface
-f1_keywords: ["objidlbase/IMultiQI"]
+f1_keywords: 
+ - "objidlbase/IMultiQI"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

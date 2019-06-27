@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarSub, VarSub function [Automation], _oa96_VarSub, automat.varsub, oleauto/VarSub
 ms.topic: function
-f1_keywords: ["oleauto/VarSub"]
+f1_keywords: 
+ - "oleauto/VarSub"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

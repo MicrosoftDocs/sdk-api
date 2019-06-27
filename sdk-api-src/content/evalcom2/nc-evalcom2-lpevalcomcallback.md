@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPEVALCOMCALLBACK, LPEVALCOMCALLBACK callback, LPEVALCOMCALLBACK callback function, evalcom2/LPEVALCOMCALLBACK, ieStatusCancel, ieStatusCreateEngine, ieStatusFail, ieStatusICECount, ieStatusMerge, ieStatusRunICE, ieStatusShutdown, ieStatusStarting, ieStatusSuccess, ieStatusSummaryInfo, setup.lpevalcomcallback
 ms.topic: callback
-f1_keywords: ["evalcom2/LPEVALCOMCALLBACK"]
+f1_keywords: 
+ - "evalcom2/LPEVALCOMCALLBACK"
 req.header: evalcom2.h
 req.include-header: 
 req.target-type: Windows

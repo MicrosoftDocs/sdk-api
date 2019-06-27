@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CostChanged, CostChanged method [Network Awareness], CostChanged method [Network Awareness],INetworkCostManagerEvents interface, INetworkCostManagerEvents interface [Network Awareness],CostChanged method, INetworkCostManagerEvents.CostChanged, INetworkCostManagerEvents::CostChanged, netlistmgr/INetworkCostManagerEvents::CostChanged, nla.inetworkcostmanagerevents_costchanged
 ms.topic: method
-f1_keywords: ["netlistmgr/INetworkCostManagerEvents.CostChanged"]
+f1_keywords: 
+ - "netlistmgr/INetworkCostManagerEvents.CostChanged"
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

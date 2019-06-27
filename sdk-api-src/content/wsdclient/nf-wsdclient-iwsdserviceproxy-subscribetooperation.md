@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDServiceProxy interface,SubscribeToOperation method, IWSDServiceProxy.SubscribeToOperation, IWSDServiceProxy::SubscribeToOperation, SubscribeToOperation, SubscribeToOperation method, SubscribeToOperation method,IWSDServiceProxy interface, ncd.iwsdserviceproxy_subscribetooperation_method, wsdclient/IWSDServiceProxy::SubscribeToOperation
 ms.topic: method
-f1_keywords: ["wsdclient/IWSDServiceProxy.SubscribeToOperation"]
+f1_keywords: 
+ - "wsdclient/IWSDServiceProxy.SubscribeToOperation"
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

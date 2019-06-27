@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IColumnMapper, IColumnMapper interface [search], IColumnMapper interface [search],described, indexsrv/IColumnMapper, search.icolumnmapper
 ms.topic: interface
-f1_keywords: ["indexsrv/IColumnMapper"]
+f1_keywords: 
+ - "indexsrv/IColumnMapper"
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

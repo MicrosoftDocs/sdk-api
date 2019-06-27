@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ProduceDotStuffedContext, ProduceDotStuffedContext function [Windows API], filehc/ProduceDotStuffedContext, winprog._producedotstuffedcontext
 ms.topic: function
-f1_keywords: ["filehc/ProduceDotStuffedContext"]
+f1_keywords: 
+ - "filehc/ProduceDotStuffedContext"
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPISharingSession, IRDPSRAPISharingSession interface [RDP], IRDPSRAPISharingSession interface [RDP],described, rdp.irdpsrapisharingsession, rdpencomapi/IRDPSRAPISharingSession
 ms.topic: interface
-f1_keywords: ["rdpencomapi/IRDPSRAPISharingSession"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPISharingSession"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTable, GetTable method [Microsoft TV Technologies], GetTable method [Microsoft TV Technologies],IPSITables interface, IPSITables interface [Microsoft TV Technologies],GetTable method, IPSITables.GetTable, IPSITables::GetTable, mpeg2psiparser/IPSITables::GetTable, mstv.ipsitables_gettable
 ms.topic: method
-f1_keywords: ["mpeg2psiparser/IPSITables.GetTable"]
+f1_keywords: 
+ - "mpeg2psiparser/IPSITables.GetTable"
 req.header: mpeg2psiparser.h
 req.include-header: Mpeg2psiparser.idl
 req.target-type: Windows

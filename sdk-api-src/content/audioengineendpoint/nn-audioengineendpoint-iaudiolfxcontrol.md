@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioLfxControl, IAudioLfxControl interface [Core Audio], IAudioLfxControl interface [Core Audio],described, audioengineendpoint/IAudioLfxControl, coreaudio.iaudiolfxcontrol
 ms.topic: interface
-f1_keywords: ["audioengineendpoint/IAudioLfxControl"]
+f1_keywords: 
+ - "audioengineendpoint/IAudioLfxControl"
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

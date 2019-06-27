@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRawElementProviderWindowlessSite, IRawElementProviderWindowlessSite interface [Windows Accessibility], IRawElementProviderWindowlessSite interface [Windows Accessibility],described, uiautomationcore/IRawElementProviderWindowlessSite, winauto.uiauto_IRawElementProviderWindowlessSite
 ms.topic: interface
-f1_keywords: ["uiautomationcore/IRawElementProviderWindowlessSite"]
+f1_keywords: 
+ - "uiautomationcore/IRawElementProviderWindowlessSite"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

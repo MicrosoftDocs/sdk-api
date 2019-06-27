@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],InvalidateRect method, IOleInPlaceSiteWindowless.InvalidateRect, IOleInPlaceSiteWindowless::InvalidateRect, InvalidateRect, InvalidateRect method [COM], InvalidateRect method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_invalidaterect, com.ioleinplacesitewindowless_invalidaterect, ocidl/IOleInPlaceSiteWindowless::InvalidateRect
 ms.topic: method
-f1_keywords: ["ocidl/IOleInPlaceSiteWindowless.InvalidateRect"]
+f1_keywords: 
+ - "ocidl/IOleInPlaceSiteWindowless.InvalidateRect"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

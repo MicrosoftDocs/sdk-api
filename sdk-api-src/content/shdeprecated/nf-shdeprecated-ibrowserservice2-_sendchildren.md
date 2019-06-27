@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_SendChildren method, IBrowserService2._SendChildren, IBrowserService2::_SendChildren, _SendChildren, _SendChildren method [Windows Shell], _SendChildren method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_SendChildren, shell.IBrowserService2__SendChildren, zone_IBrowserService2__SendChildren
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService2._SendChildren"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService2._SendChildren"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

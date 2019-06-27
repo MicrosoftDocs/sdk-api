@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetParameterRange, GetParameterRange method [Microsoft TV Technologies], GetParameterRange method [Microsoft TV Technologies],IEncoderAPI interface, IEncoderAPI interface [Microsoft TV Technologies],GetParameterRange method, IEncoderAPI.GetParameterRange, IEncoderAPI::GetParameterRange, IEncoderAPIGetParameterRange, mstv.iencoderapi_getparameterrange, strmif/IEncoderAPI::GetParameterRange
 ms.topic: method
-f1_keywords: ["strmif/IEncoderAPI.GetParameterRange"]
+f1_keywords: 
+ - "strmif/IEncoderAPI.GetParameterRange"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

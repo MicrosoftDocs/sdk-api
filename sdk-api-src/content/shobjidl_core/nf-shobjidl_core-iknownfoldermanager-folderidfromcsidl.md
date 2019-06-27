@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FolderIdFromCsidl, FolderIdFromCsidl method [Windows Shell], FolderIdFromCsidl method [Windows Shell],IKnownFolderManager interface, IKnownFolderManager interface [Windows Shell],FolderIdFromCsidl method, IKnownFolderManager.FolderIdFromCsidl, IKnownFolderManager::FolderIdFromCsidl, _shell_IKnownFolderManager_FolderIdFromCsidl, shell.IKnownFolderManager_FolderIdFromCsidl, shobjidl_core/IKnownFolderManager::FolderIdFromCsidl
 ms.topic: method
-f1_keywords: ["shobjidl_core/IKnownFolderManager.FolderIdFromCsidl"]
+f1_keywords: 
+ - "shobjidl_core/IKnownFolderManager.FolderIdFromCsidl"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

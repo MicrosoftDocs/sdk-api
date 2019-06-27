@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetFillBrushLocal method, IXpsOMGlyphs.SetFillBrushLocal, IXpsOMGlyphs::SetFillBrushLocal, SetFillBrushLocal, SetFillBrushLocal method [XPS Documents and Packaging], SetFillBrushLocal method [XPS Documents and Packaging],IXpsOMGlyphs interface, xps.ixpsomglyphs_setfillbrushlocal, xpsobjectmodel/IXpsOMGlyphs::SetFillBrushLocal
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGlyphs.SetFillBrushLocal"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGlyphs.SetFillBrushLocal"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

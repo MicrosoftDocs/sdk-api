@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsEmf, IsEmf method [GDI+], IsEmf method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],IsEmf method, MetafileHeader.IsEmf, MetafileHeader::IsEmf, _gdiplus_CLASS_MetafileHeader_IsEmf_, gdiplus._gdiplus_CLASS_MetafileHeader_IsEmf_
 ms.topic: method
-f1_keywords: ["gdiplusmetaheader/MetafileHeader.IsEmf"]
+f1_keywords: 
+ - "gdiplusmetaheader/MetafileHeader.IsEmf"
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

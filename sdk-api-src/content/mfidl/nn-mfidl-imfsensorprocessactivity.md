@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSensorProcessActivity, IMFSensorProcessActivity interface [Media Foundation], IMFSensorProcessActivity interface [Media Foundation],described, mf.imfsensorprocessactivity, mfidl/IMFSensorProcessActivity
 ms.topic: interface
-f1_keywords: ["mfidl/IMFSensorProcessActivity"]
+f1_keywords: 
+ - "mfidl/IMFSensorProcessActivity"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

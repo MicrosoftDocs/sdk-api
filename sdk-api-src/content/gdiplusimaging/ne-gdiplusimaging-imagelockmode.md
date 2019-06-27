@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageLockMode, ImageLockMode enumeration [GDI+], ImageLockModeRead, ImageLockModeUserInputBuf, ImageLockModeWrite, _gdiplus_ENUM_ImageLockMode, gdiplus._gdiplus_ENUM_ImageLockMode, gdiplusimaging/ImageLockMode, gdiplusimaging/ImageLockModeRead, gdiplusimaging/ImageLockModeUserInputBuf, gdiplusimaging/ImageLockModeWrite
 ms.topic: enum
-f1_keywords: ["gdiplusimaging/ImageLockMode"]
+f1_keywords: 
+ - "gdiplusimaging/ImageLockMode"
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_VECTOR_3F, D2D1_VECTOR_3F structure [Direct2D], D2D_VECTOR_3F, d2d1_1/D2D1_VECTOR_3F, dcommon/D2D1_VECTOR_3F, direct2d.d2d1_vector_3f
 ms.topic: struct
-f1_keywords: ["dcommon/D2D1_VECTOR_3F"]
+f1_keywords: 
+ - "dcommon/D2D1_VECTOR_3F"
 req.header: dcommon.h
 req.include-header: 
 req.target-type: Windows

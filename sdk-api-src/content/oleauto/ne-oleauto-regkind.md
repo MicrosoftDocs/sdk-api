@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: REGKIND, REGKIND enumeration [Automation], REGKIND_DEFAULT, REGKIND_NONE, REGKIND_REGISTER, _oa96_REGKIND, automat.regkind, oleauto/REGKIND, oleauto/REGKIND_DEFAULT, oleauto/REGKIND_NONE, oleauto/REGKIND_REGISTER
 ms.topic: enum
-f1_keywords: ["oleauto/REGKIND"]
+f1_keywords: 
+ - "oleauto/REGKIND"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

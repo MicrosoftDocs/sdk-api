@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],NotifyOwnerMessage method, IVideoWindow.NotifyOwnerMessage, IVideoWindow::NotifyOwnerMessage, IVideoWindowNotifyOwnerMessage, NotifyOwnerMessage, NotifyOwnerMessage method [DirectShow], NotifyOwnerMessage method [DirectShow],IVideoWindow interface, control/IVideoWindow::NotifyOwnerMessage, dshow.ivideowindow_notifyownermessage
 ms.topic: method
-f1_keywords: ["control/IVideoWindow.NotifyOwnerMessage"]
+f1_keywords: 
+ - "control/IVideoWindow.NotifyOwnerMessage"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

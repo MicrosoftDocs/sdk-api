@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager interface [search],get_DataTimeout method, ISearchCatalogManager.get_DataTimeout, ISearchCatalogManager::get_DataTimeout, _search_ISearchCatalogManager_get_DataTimeout, get_DataTimeout, get_DataTimeout method [search], get_DataTimeout method [search],ISearchCatalogManager interface, search._search_ISearchCatalogManager_get_DataTimeout, searchapi/ISearchCatalogManager::get_DataTimeout
 ms.topic: method
-f1_keywords: ["searchapi/ISearchCatalogManager.get_DataTimeout"]
+f1_keywords: 
+ - "searchapi/ISearchCatalogManager.get_DataTimeout"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetConnectInfo, GetConnectInfo method [DirectShow], GetConnectInfo method [DirectShow],IVPBaseConfig interface, IVPBaseConfig interface [DirectShow],GetConnectInfo method, IVPBaseConfig.GetConnectInfo, IVPBaseConfig::GetConnectInfo, IVPBaseConfigGetConnectInfo, dshow.ivpbaseconfig_getconnectinfo, vpconfig/IVPBaseConfig::GetConnectInfo
 ms.topic: method
-f1_keywords: ["vpconfig/IVPBaseConfig.GetConnectInfo"]
+f1_keywords: 
+ - "vpconfig/IVPBaseConfig.GetConnectInfo"
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows

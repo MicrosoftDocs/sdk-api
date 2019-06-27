@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFileSizeEx, GetFileSizeEx function [Files], _win32_getfilesizeex, base.getfilesizeex, fileapi/GetFileSizeEx, fs.getfilesizeex, winbase/GetFileSizeEx
 ms.topic: function
-f1_keywords: ["fileapi/GetFileSizeEx"]
+f1_keywords: 
+ - "fileapi/GetFileSizeEx"
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

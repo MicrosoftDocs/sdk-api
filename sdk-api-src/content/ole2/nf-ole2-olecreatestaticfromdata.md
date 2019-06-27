@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleCreateStaticFromData, OleCreateStaticFromData function [COM], _ole_OleCreateStaticFromData, com.olecreatestaticfromdata, ole2/OleCreateStaticFromData
 ms.topic: function
-f1_keywords: ["ole2/OleCreateStaticFromData"]
+f1_keywords: 
+ - "ole2/OleCreateStaticFromData"
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

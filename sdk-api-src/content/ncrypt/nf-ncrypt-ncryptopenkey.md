@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, NCRYPT_MACHINE_KEY_FLAG, NCRYPT_SILENT_FLAG, NCryptOpenKey, NCryptOpenKey function [Security], ncrypt/NCryptOpenKey, security.ncryptopenkey_func
 ms.topic: function
-f1_keywords: ["ncrypt/NCryptOpenKey"]
+f1_keywords: 
+ - "ncrypt/NCryptOpenKey"
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

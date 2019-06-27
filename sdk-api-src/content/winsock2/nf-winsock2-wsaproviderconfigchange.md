@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAProviderConfigChange, WSAProviderConfigChange function [Winsock], _win32_wsaproviderconfigchange_2, winsock.wsaproviderconfigchange_2, winsock2/WSAProviderConfigChange
 ms.topic: function
-f1_keywords: ["winsock2/WSAProviderConfigChange"]
+f1_keywords: 
+ - "winsock2/WSAProviderConfigChange"
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

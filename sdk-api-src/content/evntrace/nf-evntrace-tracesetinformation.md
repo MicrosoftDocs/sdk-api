@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TraceSetInformation, TraceSetInformation function [ETW], etw.tracesetinformation, evntrace/TraceSetInformation
 ms.topic: function
-f1_keywords: ["evntrace/TraceSetInformation"]
+f1_keywords: 
+ - "evntrace/TraceSetInformation"
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

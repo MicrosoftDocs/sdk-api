@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],SetBreakOnID method, IDXGIInfoQueue.SetBreakOnID, IDXGIInfoQueue::SetBreakOnID, SetBreakOnID, SetBreakOnID method [DXGI], SetBreakOnID method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_setbreakonid, dxgidebug/IDXGIInfoQueue::SetBreakOnID
 ms.topic: method
-f1_keywords: ["dxgidebug/IDXGIInfoQueue.SetBreakOnID"]
+f1_keywords: 
+ - "dxgidebug/IDXGIInfoQueue.SetBreakOnID"
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

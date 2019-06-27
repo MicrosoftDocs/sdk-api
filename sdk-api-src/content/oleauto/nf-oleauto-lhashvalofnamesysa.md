@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LHashValOfNameSysA, LHashValOfNameSysA function [Automation], _oa96_LHashValOfNameSysA, automat.lhashvalofnamesysa, oleauto/LHashValOfNameSysA
 ms.topic: function
-f1_keywords: ["oleauto/LHashValOfNameSysA"]
+f1_keywords: 
+ - "oleauto/LHashValOfNameSysA"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

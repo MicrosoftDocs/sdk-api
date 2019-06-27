@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngLoadImage, EngLoadImage function [Display Devices], display.engloadimage, gdifncs_8fb20a2d-c7ae-4d15-af65-219b44289130.xml, winddi/EngLoadImage
 ms.topic: macro
-f1_keywords: ["winddi/EngLoadImage"]
+f1_keywords: 
+ - "winddi/EngLoadImage"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

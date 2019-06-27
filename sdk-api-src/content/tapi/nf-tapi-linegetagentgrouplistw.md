@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linegetagentgrouplist, lineGetAgentGroupList, lineGetAgentGroupList function [TAPI 2.2], lineGetAgentGroupListA, lineGetAgentGroupListW, tapi/lineGetAgentGroupList, tapi/lineGetAgentGroupListA, tapi/lineGetAgentGroupListW, tapi2.linegetagentgrouplist"
 ms.topic: function
-f1_keywords: ["tapi/lineGetAgentGroupList"]
+f1_keywords: 
+ - "tapi/lineGetAgentGroupList"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

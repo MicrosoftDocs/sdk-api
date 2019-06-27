@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: K32QueryWorkingSetEx, QueryWorkingSetEx, QueryWorkingSetEx function [PSAPI], base.queryworkingsetex, psapi.queryworkingsetex, psapi/K32QueryWorkingSetEx, psapi/QueryWorkingSetEx
 ms.topic: function
-f1_keywords: ["psapi/QueryWorkingSetEx"]
+f1_keywords: 
+ - "psapi/QueryWorkingSetEx"
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

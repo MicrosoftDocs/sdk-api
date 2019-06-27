@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetForWindow, GetForWindow method [Windows Runtime], GetForWindow method [Windows Runtime],IPrintManagerInterop interface, IPrintManagerInterop interface [Windows Runtime],GetForWindow method, IPrintManagerInterop.GetForWindow, IPrintManagerInterop::GetForWindow, printmanagerinterop/IPrintManagerInterop::GetForWindow, winrt.iprintmanagerinterop_getforwindow
 ms.topic: method
-f1_keywords: ["printmanagerinterop/IPrintManagerInterop.GetForWindow"]
+f1_keywords: 
+ - "printmanagerinterop/IPrintManagerInterop.GetForWindow"
 req.header: printmanagerinterop.h
 req.include-header: 
 req.target-type: Windows

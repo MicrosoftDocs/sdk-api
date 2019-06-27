@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DVD_MenuAttributes, DVD_MenuAttributes structure [DirectShow], DVD_MenuAttributesStructure, dshow.dvd_menuattributes, strmif/DVD_MenuAttributes
 ms.topic: struct
-f1_keywords: ["strmif/DVD_MenuAttributes"]
+f1_keywords: 
+ - "strmif/DVD_MenuAttributes"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

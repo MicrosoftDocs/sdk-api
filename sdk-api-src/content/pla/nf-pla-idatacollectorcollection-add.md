@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [PLA], Add method [PLA],IDataCollectorCollection interface, IDataCollectorCollection interface [PLA],Add method, IDataCollectorCollection.Add, IDataCollectorCollection::Add, base.idatacollectorcollection_add, pla.idatacollectorcollection_add, pla/IDataCollectorCollection::Add
 ms.topic: method
-f1_keywords: ["pla/IDataCollectorCollection.Add"]
+f1_keywords: 
+ - "pla/IDataCollectorCollection.Add"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

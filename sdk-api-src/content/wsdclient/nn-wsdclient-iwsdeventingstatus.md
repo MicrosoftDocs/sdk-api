@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDEventingStatus, IWSDEventingStatus interface, IWSDEventingStatus interface,described, ncd.iwsdeventingstatus, wsdclient/IWSDEventingStatus
 ms.topic: interface
-f1_keywords: ["wsdclient/IWSDEventingStatus"]
+f1_keywords: 
+ - "wsdclient/IWSDEventingStatus"
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPINTERFACEINFO, INTERFACEINFO, INTERFACEINFO structure [COM], LPINTERFACEINFO, LPINTERFACEINFO structure pointer [COM], _com_INTERFACEINFO, com.interfaceinfo, objidl/INTERFACEINFO, objidl/LPINTERFACEINFO"
 ms.topic: struct
-f1_keywords: ["objidl/INTERFACEINFO"]
+f1_keywords: 
+ - "objidl/INTERFACEINFO"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

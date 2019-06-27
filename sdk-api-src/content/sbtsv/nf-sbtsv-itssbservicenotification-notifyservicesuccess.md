@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbServiceNotification interface [Remote Desktop Services],NotifyServiceSuccess method, ITsSbServiceNotification.NotifyServiceSuccess, ITsSbServiceNotification::NotifyServiceSuccess, NotifyServiceSuccess, NotifyServiceSuccess method [Remote Desktop Services], NotifyServiceSuccess method [Remote Desktop Services],ITsSbServiceNotification interface, sbtsv/ITsSbServiceNotification::NotifyServiceSuccess, termserv.itssbservicenotification_notifyservicesuccess
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbServiceNotification.NotifyServiceSuccess"]
+f1_keywords: 
+ - "sbtsv/ITsSbServiceNotification.NotifyServiceSuccess"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

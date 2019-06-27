@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],SimulatePreservedKey method, ITfKeystrokeMgr.SimulatePreservedKey, ITfKeystrokeMgr::SimulatePreservedKey, SimulatePreservedKey, SimulatePreservedKey method [Text Services Framework], SimulatePreservedKey method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_simulatepreservedkey_ref, msctf/ITfKeystrokeMgr::SimulatePreservedKey, tsf.itfkeystrokemgr_simulatepreservedkey
 ms.topic: method
-f1_keywords: ["msctf/ITfKeystrokeMgr.SimulatePreservedKey"]
+f1_keywords: 
+ - "msctf/ITfKeystrokeMgr.SimulatePreservedKey"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

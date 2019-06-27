@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CompletionStatus, CompletionStatus method [DirectShow], CompletionStatus method [DirectShow],IStreamSample interface, IStreamSample interface [DirectShow],CompletionStatus method, IStreamSample.CompletionStatus, IStreamSample::CompletionStatus, IStreamSampleCompletionStatus, dshow.istreamsample_completionstatus, mmstream/IStreamSample::CompletionStatus
 ms.topic: method
-f1_keywords: ["mmstream/IStreamSample.CompletionStatus"]
+f1_keywords: 
+ - "mmstream/IStreamSample.CompletionStatus"
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateErrorInfo, CreateErrorInfo function [Automation], _oa96_CreateErrorInfo, automat.createerrorinfo, oleauto/CreateErrorInfo
 ms.topic: function
-f1_keywords: ["oleauto/CreateErrorInfo"]
+f1_keywords: 
+ - "oleauto/CreateErrorInfo"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

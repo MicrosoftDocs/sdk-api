@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTimeOfLastChange, GetTimeOfLastChange method [COM], GetTimeOfLastChange method [COM],IMoniker interface, IMoniker interface [COM],GetTimeOfLastChange method, IMoniker.GetTimeOfLastChange, IMoniker::GetTimeOfLastChange, _com_imoniker_gettimeoflastchange, com.imoniker_gettimeoflastchange, objidl/IMoniker::GetTimeOfLastChange
 ms.topic: method
-f1_keywords: ["objidl/IMoniker.GetTimeOfLastChange"]
+f1_keywords: 
+ - "objidl/IMoniker.GetTimeOfLastChange"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

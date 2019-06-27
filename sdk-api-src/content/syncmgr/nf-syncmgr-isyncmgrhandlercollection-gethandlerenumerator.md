@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHandlerEnumerator, GetHandlerEnumerator method [Windows Shell], GetHandlerEnumerator method [Windows Shell],ISyncMgrHandlerCollection interface, ISyncMgrHandlerCollection interface [Windows Shell],GetHandlerEnumerator method, ISyncMgrHandlerCollection.GetHandlerEnumerator, ISyncMgrHandlerCollection::GetHandlerEnumerator, _shell_ISyncMgrHandlerCollection_GetHandlerEnumerator, shell.ISyncMgrHandlerCollection_GetHandlerEnumerator, syncmgr/ISyncMgrHandlerCollection::GetHandlerEnumerator
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrHandlerCollection.GetHandlerEnumerator"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrHandlerCollection.GetHandlerEnumerator"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

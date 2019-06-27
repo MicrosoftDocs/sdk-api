@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsFindAttribute, WsFindAttribute function [Web Services for Windows], webservices/WsFindAttribute, wsw.wsfindattribute
 ms.topic: function
-f1_keywords: ["webservices/WsFindAttribute"]
+f1_keywords: 
+ - "webservices/WsFindAttribute"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

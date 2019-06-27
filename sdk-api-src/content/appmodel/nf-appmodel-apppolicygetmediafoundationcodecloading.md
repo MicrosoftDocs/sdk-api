@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AppPolicyGetMediaFoundationCodecLoading, AppPolicyGetMediaFoundationCodecLoading function [App packaging and management], appmodel/AppPolicyGetMediaFoundationCodecLoading, appxpkg.apppolicygetmediafoundationcodecloading
 ms.topic: function
-f1_keywords: ["appmodel/AppPolicyGetMediaFoundationCodecLoading"]
+f1_keywords: 
+ - "appmodel/AppPolicyGetMediaFoundationCodecLoading"
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

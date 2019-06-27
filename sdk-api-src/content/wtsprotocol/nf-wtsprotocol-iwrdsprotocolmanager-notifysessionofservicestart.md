@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],NotifySessionOfServiceStart method, IWRdsProtocolManager.NotifySessionOfServiceStart, IWRdsProtocolManager::NotifySessionOfServiceStart, NotifySessionOfServiceStart, NotifySessionOfServiceStart method [Remote Desktop Services], NotifySessionOfServiceStart method [Remote Desktop Services],IWRdsProtocolManager interface, termserv.iwrdsprotocolmanager_notifysessionofservicestart, wtsprotocol/IWRdsProtocolManager::NotifySessionOfServiceStart
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWRdsProtocolManager.NotifySessionOfServiceStart"]
+f1_keywords: 
+ - "wtsprotocol/IWRdsProtocolManager.NotifySessionOfServiceStart"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

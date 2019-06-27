@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetManufacturer, GetManufacturer method [windows Media Device Manager], GetManufacturer method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetManufacturer method, IWMDMDevice.GetManufacturer, IWMDMDevice::GetManufacturer, IWMDMDeviceGetManufacturer, mswmdm/IWMDMDevice::GetManufacturer, wmdm.iwmdmdevice_getmanufacturer
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMDevice.GetManufacturer"]
+f1_keywords: 
+ - "mswmdm/IWMDMDevice.GetManufacturer"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetComputerObjectName, GetComputerObjectName function, GetComputerObjectNameA, GetComputerObjectNameW, _win32_getcomputerobjectname, base.getcomputerobjectname, secext/GetComputerObjectName, secext/GetComputerObjectNameA, secext/GetComputerObjectNameW
 ms.topic: function
-f1_keywords: ["secext/GetComputerObjectName"]
+f1_keywords: 
+ - "secext/GetComputerObjectName"
 req.header: secext.h
 req.include-header: Security.h
 req.target-type: Windows

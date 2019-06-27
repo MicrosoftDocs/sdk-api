@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSVirtualClientData, WTSVirtualFileHandle, WTS_VIRTUAL_CLASS, WTS_VIRTUAL_CLASS enumeration [Remote Desktop Services], _win32_wts_virtual_class, termserv.wts_virtual_class, wtsapi32/WTSVirtualClientData, wtsapi32/WTSVirtualFileHandle, wtsapi32/WTS_VIRTUAL_CLASS
 ms.topic: enum
-f1_keywords: ["wtsapi32/WTS_VIRTUAL_CLASS"]
+f1_keywords: 
+ - "wtsapi32/WTS_VIRTUAL_CLASS"
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

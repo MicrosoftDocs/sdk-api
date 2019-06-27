@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_PATH_POLICY, VDS_PATH_POLICY structure [VDS], base.vds_path_policy, vds/VDS_PATH_POLICY, vdshwprv/VDS_PATH_POLICY
 ms.topic: struct
-f1_keywords: ["vdshwprv/VDS_PATH_POLICY"]
+f1_keywords: 
+ - "vdshwprv/VDS_PATH_POLICY"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

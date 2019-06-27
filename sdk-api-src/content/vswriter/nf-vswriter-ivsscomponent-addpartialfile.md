@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddPartialFile, AddPartialFile method [VSS], AddPartialFile method [VSS],IVssComponent interface, IVssComponent interface [VSS],AddPartialFile method, IVssComponent.AddPartialFile, IVssComponent::AddPartialFile, _win32_ivsscomponent_addpartialfile, base.ivsscomponent_addpartialfile, vswriter/IVssComponent::AddPartialFile
 ms.topic: method
-f1_keywords: ["vswriter/IVssComponent.AddPartialFile"]
+f1_keywords: 
+ - "vswriter/IVssComponent.AddPartialFile"
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

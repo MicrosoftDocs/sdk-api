@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdfCreateSharingIncident, NdfCreateSharingIncident function [NDF], ndf.ndfcreatesharingincident, ndfapi/NdfCreateSharingIncident
 ms.topic: function
-f1_keywords: ["ndfapi/NdfCreateSharingIncident"]
+f1_keywords: 
+ - "ndfapi/NdfCreateSharingIncident"
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows

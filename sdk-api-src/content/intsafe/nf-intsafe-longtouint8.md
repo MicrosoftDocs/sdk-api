@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LongToByte, LongToUInt8, LongToUInt8 function [Windows Shell], intsafe/LongToUInt8, shell.LongToUInt8
 ms.topic: function
-f1_keywords: ["intsafe/LongToUInt8"]
+f1_keywords: 
+ - "intsafe/LongToUInt8"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

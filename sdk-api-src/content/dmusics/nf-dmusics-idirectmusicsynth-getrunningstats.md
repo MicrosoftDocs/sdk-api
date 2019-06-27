@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRunningStats, GetRunningStats method [Audio Devices], GetRunningStats method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],GetRunningStats method, IDirectMusicSynth.GetRunningStats, IDirectMusicSynth::GetRunningStats, audio.idirectmusicsynth_getrunningstats, audmp-routines_9669d460-7c3b-4769-bb3e-fdca1d347f07.xml, dmusics/IDirectMusicSynth::GetRunningStats
 ms.topic: method
-f1_keywords: ["dmusics/IDirectMusicSynth.GetRunningStats"]
+f1_keywords: 
+ - "dmusics/IDirectMusicSynth.GetRunningStats"
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop

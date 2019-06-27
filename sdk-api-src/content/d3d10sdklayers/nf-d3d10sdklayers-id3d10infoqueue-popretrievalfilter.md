@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 2b0b3983-c948-10ba-02f6-5f94e829dae6, ID3D10InfoQueue interface [Direct3D 10],PopRetrievalFilter method, ID3D10InfoQueue.PopRetrievalFilter, ID3D10InfoQueue::PopRetrievalFilter, PopRetrievalFilter, PopRetrievalFilter method [Direct3D 10], PopRetrievalFilter method [Direct3D 10],ID3D10InfoQueue interface, d3d10sdklayers/ID3D10InfoQueue::PopRetrievalFilter, direct3d10.id3d10infoqueue_popretrievalfilter
 ms.topic: method
-f1_keywords: ["d3d10sdklayers/ID3D10InfoQueue.PopRetrievalFilter"]
+f1_keywords: 
+ - "d3d10sdklayers/ID3D10InfoQueue.PopRetrievalFilter"
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

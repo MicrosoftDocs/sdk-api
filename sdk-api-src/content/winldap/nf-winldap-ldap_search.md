@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LDAP_SCOPE_BASE, LDAP_SCOPE_ONELEVEL, LDAP_SCOPE_SUBTREE, _ldap_ldap_search, ldap.ldap__search, ldap.ldap_search, ldap_search, ldap_search function [LDAP], ldap_searchA, ldap_searchW, winldap/ldap_search, winldap/ldap_searchA, winldap/ldap_searchW
 ms.topic: function
-f1_keywords: ["winldap/ldap_search"]
+f1_keywords: 
+ - "winldap/ldap_search"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPageInfo, GetPageInfo method [COM], GetPageInfo method [COM],IPropertyPage interface, IPropertyPage interface [COM],GetPageInfo method, IPropertyPage.GetPageInfo, IPropertyPage::GetPageInfo, _ctrl_ipropertypage_getpageinfo, com.ipropertypage_getpageinfo, ocidl/IPropertyPage::GetPageInfo
 ms.topic: method
-f1_keywords: ["ocidl/IPropertyPage.GetPageInfo"]
+f1_keywords: 
+ - "ocidl/IPropertyPage.GetPageInfo"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

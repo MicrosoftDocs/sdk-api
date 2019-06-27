@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICategory interface [Windows Update Agent],Order property, ICategory.Order, ICategory.get_Order, ICategory::Order, ICategory::get_Order, Order property [Windows Update Agent], Order property [Windows Update Agent],ICategory interface, get_Order, wua.icategory_order, wuapi/ICategory::Order, wuapi/ICategory::get_Order
 ms.topic: method
-f1_keywords: ["wuapi/ICategory.Order"]
+f1_keywords: 
+ - "wuapi/ICategory.Order"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

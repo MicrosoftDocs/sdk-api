@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetConstantBufferByIndex, GetConstantBufferByIndex method [Direct3D 11], GetConstantBufferByIndex method [Direct3D 11],ID3D11FunctionReflection interface, ID3D11FunctionReflection interface [Direct3D 11],GetConstantBufferByIndex method, ID3D11FunctionReflection.GetConstantBufferByIndex, ID3D11FunctionReflection::GetConstantBufferByIndex, d3d11shader/ID3D11FunctionReflection::GetConstantBufferByIndex, direct3d11.id3d11functionreflection_getconstantbufferbyindex
 ms.topic: method
-f1_keywords: ["d3d11shader/ID3D11FunctionReflection.GetConstantBufferByIndex"]
+f1_keywords: 
+ - "d3d11shader/ID3D11FunctionReflection.GetConstantBufferByIndex"
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

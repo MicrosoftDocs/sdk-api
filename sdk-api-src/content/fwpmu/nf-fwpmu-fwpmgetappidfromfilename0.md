@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmGetAppIdFromFileName0, FwpmGetAppIdFromFileName0 function [Filtering], fwp.fwpmgetappidfromfilename0, fwpmu/FwpmGetAppIdFromFileName0
 ms.topic: function
-f1_keywords: ["fwpmu/FwpmGetAppIdFromFileName0"]
+f1_keywords: 
+ - "fwpmu/FwpmGetAppIdFromFileName0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

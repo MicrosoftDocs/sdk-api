@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGroupGetProperties, PeerGroupGetProperties function [Peer Networking], p2p.peergroupgetproperties, p2p/PeerGroupGetProperties
 ms.topic: function
-f1_keywords: ["p2p/PeerGroupGetProperties"]
+f1_keywords: 
+ - "p2p/PeerGroupGetProperties"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

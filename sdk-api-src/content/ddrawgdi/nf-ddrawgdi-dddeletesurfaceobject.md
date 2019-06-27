@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdDeleteSurfaceObject, DdDeleteSurfaceObject function [Windows API], GdiEntry5, _dxgkernel_dddeletesurfaceobject, ddrawgdi/DdDeleteSurfaceObject, ddrawgdi/GdiEntry5, winprog._dxgkernel_dddeletesurfaceobject, winui._dxgkernel_dddeletesurfaceobject
 ms.topic: function
-f1_keywords: ["ddrawgdi/DdDeleteSurfaceObject"]
+f1_keywords: 
+ - "ddrawgdi/DdDeleteSurfaceObject"
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthzModifySecurityAttributes, AuthzModifySecurityAttributes function [Security], authz/AuthzModifySecurityAttributes, security.authzmodifysecurityattributes
 ms.topic: function
-f1_keywords: ["authz/AuthzModifySecurityAttributes"]
+f1_keywords: 
+ - "authz/AuthzModifySecurityAttributes"
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

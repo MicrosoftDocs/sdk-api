@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorage interface [windows Media Device Manager],SendOpaqueCommand method, IWMDMStorage.SendOpaqueCommand, IWMDMStorage::SendOpaqueCommand, IWMDMStorageSendOpaqueCommand, SendOpaqueCommand, SendOpaqueCommand method [windows Media Device Manager], SendOpaqueCommand method [windows Media Device Manager],IWMDMStorage interface, mswmdm/IWMDMStorage::SendOpaqueCommand, wmdm.iwmdmstorage_sendopaquecommand
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMStorage.SendOpaqueCommand"]
+f1_keywords: 
+ - "mswmdm/IWMDMStorage.SendOpaqueCommand"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

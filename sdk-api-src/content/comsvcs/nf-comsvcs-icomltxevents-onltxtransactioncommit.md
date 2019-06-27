@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComLTxEvents interface [COM+],OnLtxTransactionCommit method, IComLTxEvents.OnLtxTransactionCommit, IComLTxEvents::OnLtxTransactionCommit, OnLtxTransactionCommit, OnLtxTransactionCommit method [COM+], OnLtxTransactionCommit method [COM+],IComLTxEvents interface, comsvcs/IComLTxEvents::OnLtxTransactionCommit, cos.icomltxevents_onltxtransactioncommit
 ms.topic: method
-f1_keywords: ["comsvcs/IComLTxEvents.OnLtxTransactionCommit"]
+f1_keywords: 
+ - "comsvcs/IComLTxEvents.OnLtxTransactionCommit"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

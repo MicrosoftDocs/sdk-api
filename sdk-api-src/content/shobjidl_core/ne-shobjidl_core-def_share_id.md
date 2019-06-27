@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DEFSHAREID_PUBLIC, DEFSHAREID_USERS, DEF_SHARE_ID, DEF_SHARE_ID enumeration [Windows Shell], _shell_DEF_SHARE_ID, shell.DEF_SHARE_ID, shobjidl_core/DEFSHAREID_PUBLIC, shobjidl_core/DEFSHAREID_USERS, shobjidl_core/DEF_SHARE_ID
 ms.topic: enum
-f1_keywords: ["shobjidl_core/DEF_SHARE_ID"]
+f1_keywords: 
+ - "shobjidl_core/DEF_SHARE_ID"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

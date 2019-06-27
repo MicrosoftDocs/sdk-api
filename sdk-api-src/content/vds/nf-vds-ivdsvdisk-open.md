@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsVDisk interface,Open method, IVdsVDisk.Open, IVdsVDisk::Open, Open, Open method, Open method,IVdsVDisk interface, base.ivdsvdisk_open, vds/IVdsVDisk::Open
 ms.topic: method
-f1_keywords: ["vds/IVdsVDisk.Open"]
+f1_keywords: 
+ - "vds/IVdsVDisk.Open"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

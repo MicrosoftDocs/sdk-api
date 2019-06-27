@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxRouteModifyRoutingData, FaxRouteModifyRoutingData callback function [Fax Service], PFAXROUTEMODIFYROUTINGDATA, PFAXROUTEMODIFYROUTINGDATA callback, _mfax_faxroutemodifyroutingdata, fax._mfax_faxroutemodifyroutingdata, faxroute/FaxRouteModifyRoutingData
 ms.topic: callback
-f1_keywords: ["faxroute/FaxRouteModifyRoutingData"]
+f1_keywords: 
+ - "faxroute/FaxRouteModifyRoutingData"
 req.header: faxroute.h
 req.include-header: 
 req.target-type: Windows

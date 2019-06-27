@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_QUADRATIC_BEZIER_SEGMENT, D2D1_QUADRATIC_BEZIER_SEGMENT structure [Direct2D], d2d1/D2D1_QUADRATIC_BEZIER_SEGMENT, direct2d.D2D1_QUADRATIC_BEZIER_SEGMENT
 ms.topic: struct
-f1_keywords: ["d2d1/D2D1_QUADRATIC_BEZIER_SEGMENT"]
+f1_keywords: 
+ - "d2d1/D2D1_QUADRATIC_BEZIER_SEGMENT"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

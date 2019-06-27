@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSOCKADDR, *PSOCKADDR, PSOCKADDR, PSOCKADDR structure pointer [Network Drivers Starting with Windows Vista], SOCKADDR, SOCKADDR structure [Network Drivers Starting with Windows Vista], netvista.sockaddr, ws2def/PSOCKADDR, ws2def/SOCKADDR, wskref_4198a308-7f9c-4c7c-ba32-8f11e65e2349.xml"
 ms.topic: struct
-f1_keywords: ["ws2def/SOCKADDR"]
+f1_keywords: 
+ - "ws2def/SOCKADDR"
 req.header: ws2def.h
 req.include-header: Wsk.h
 req.target-type: Windows

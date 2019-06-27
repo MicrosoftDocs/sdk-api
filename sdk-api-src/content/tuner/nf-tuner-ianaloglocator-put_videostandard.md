@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAnalogLocator interface [Microsoft TV Technologies],put_VideoStandard method, IAnalogLocator.put_VideoStandard, IAnalogLocator::put_VideoStandard, IAnalogLocatorput_VideoStandard, mstv.ianaloglocator_put_videostandard, put_VideoStandard, put_VideoStandard method [Microsoft TV Technologies], put_VideoStandard method [Microsoft TV Technologies],IAnalogLocator interface, tuner/IAnalogLocator::put_VideoStandard
 ms.topic: method
-f1_keywords: ["tuner/IAnalogLocator.put_VideoStandard"]
+f1_keywords: 
+ - "tuner/IAnalogLocator.put_VideoStandard"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

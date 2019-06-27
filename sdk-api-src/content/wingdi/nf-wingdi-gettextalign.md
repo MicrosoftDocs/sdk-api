@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTextAlign, GetTextAlign function [Windows GDI], _win32_GetTextAlign, gdi.gettextalign, wingdi/GetTextAlign
 ms.topic: function
-f1_keywords: ["wingdi/GetTextAlign"]
+f1_keywords: 
+ - "wingdi/GetTextAlign"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IResultOwnerData interface [MMC],SortItems method, IResultOwnerData.SortItems, IResultOwnerData::SortItems, RSI_DESCENDING = 0x0001, RSI_NOSORTICON = 0x0002, SortItems, SortItems method [MMC], SortItems method [MMC],IResultOwnerData interface, _slate_iresultownerdata_sortitems, mmc.iresultownerdata_sortitems, mmc/IResultOwnerData::SortItems
 ms.topic: method
-f1_keywords: ["mmc/IResultOwnerData.SortItems"]
+f1_keywords: 
+ - "mmc/IResultOwnerData.SortItems"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

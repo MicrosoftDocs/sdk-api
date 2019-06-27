@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetConfig, GetConfig method [Human Input Devices], GetConfig method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],GetConfig method, IDirectInputJoyConfig8.GetConfig, IDirectInputJoyConfig8::GetConfig, di_ref_86a1c8bf-81df-4c68-b646-347785f3584f.xml, dinputd/IDirectInputJoyConfig8::GetConfig, hid.idirectinputjoyconfig8_getconfig
 ms.topic: method
-f1_keywords: ["dinputd/IDirectInputJoyConfig8.GetConfig"]
+f1_keywords: 
+ - "dinputd/IDirectInputJoyConfig8.GetConfig"
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_IsItemVisible, ListView_IsItemVisible macro [Windows Controls], _shell_ListView_IsItemVisible, _shell_ListView_IsItemVisible_cpp, commctrl/ListView_IsItemVisible, controls.ListView_IsItemVisible, controls._shell_ListView_IsItemVisible
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_IsItemVisible"]
+f1_keywords: 
+ - "commctrl/ListView_IsItemVisible"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

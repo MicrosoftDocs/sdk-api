@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppVisibility, IAppVisibility interface [Windows Shell], IAppVisibility interface [Windows Shell],described, shell.IAppVisibility, shobjidl_core/IAppVisibility
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IAppVisibility"]
+f1_keywords: 
+ - "shobjidl_core/IAppVisibility"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

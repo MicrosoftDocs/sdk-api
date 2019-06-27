@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],Advise method, IFileDialog.Advise, IFileDialog::Advise, shell.IFileDialog_Advise, shell_IFileDialog_Advise, shobjidl_core/IFileDialog::Advise
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileDialog.Advise"]
+f1_keywords: 
+ - "shobjidl_core/IFileDialog.Advise"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

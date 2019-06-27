@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCAUnitId, GetCAUnitId method [Microsoft TV Technologies], GetCAUnitId method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetCAUnitId method, IIsdbCAContractInformationDescriptor.GetCAUnitId, IIsdbCAContractInformationDescriptor::GetCAUnitId, dvbsiparser/IIsdbCAContractInformationDescriptor::GetCAUnitId, mstv.iisdbcacontractinformationdescriptor_getcaunitid
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbCAContractInformationDescriptor.GetCAUnitId"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbCAContractInformationDescriptor.GetCAUnitId"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

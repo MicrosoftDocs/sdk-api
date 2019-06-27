@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawLine, DrawLine method [Direct2D], DrawLine method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],DrawLine method, ID2D1RenderTarget.DrawLine, ID2D1RenderTarget::DrawLine, d2d1/ID2D1RenderTarget::DrawLine, direct2d.ID2D1RenderTarget_DrawLine
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1RenderTarget.DrawLine"]
+f1_keywords: 
+ - "d2d1/ID2D1RenderTarget.DrawLine"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

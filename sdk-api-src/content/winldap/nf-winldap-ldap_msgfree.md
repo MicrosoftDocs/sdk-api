@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_msgfree, ldap.ldap__msgfree, ldap.ldap_msgfree, ldap_msgfree, ldap_msgfree function [LDAP], winldap/ldap_msgfree"
 ms.topic: function
-f1_keywords: ["winldap/ldap_msgfree"]
+f1_keywords: 
+ - "winldap/ldap_msgfree"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

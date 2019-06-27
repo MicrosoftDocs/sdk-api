@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdhLookupPerfIndexByName, PdhLookupPerfIndexByName function [Perf], PdhLookupPerfIndexByNameA, PdhLookupPerfIndexByNameW, _win32_pdhlookupperfindexbyname, base.pdhlookupperfindexbyname, pdh/PdhLookupPerfIndexByName, pdh/PdhLookupPerfIndexByNameA, pdh/PdhLookupPerfIndexByNameW, perf.pdhlookupperfindexbyname
 ms.topic: function
-f1_keywords: ["pdh/PdhLookupPerfIndexByName"]
+f1_keywords: 
+ - "pdh/PdhLookupPerfIndexByName"
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

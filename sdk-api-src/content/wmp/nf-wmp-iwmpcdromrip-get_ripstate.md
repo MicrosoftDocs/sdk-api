@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromRip interface [Windows Media Player],get_ripState method, IWMPCdromRip.get_ripState, IWMPCdromRip::get_ripState, IWMPCdromRipget_ripState, get_ripState, get_ripState method [Windows Media Player], get_ripState method [Windows Media Player],IWMPCdromRip interface, wmp.iwmpcdromrip_get_ripstate, wmp/IWMPCdromRip::get_ripState
 ms.topic: method
-f1_keywords: ["wmp/IWMPCdromRip.get_ripState"]
+f1_keywords: 
+ - "wmp/IWMPCdromRip.get_ripState"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXblIdpAuthManager interface,SetAppViewInitialized method, IXblIdpAuthManager.SetAppViewInitialized, IXblIdpAuthManager::SetAppViewInitialized, SetAppViewInitialized, SetAppViewInitialized method, SetAppViewInitialized method,IXblIdpAuthManager interface, xblidp.ixblidpauthmanager_setappviewinitialized, xblidpauthmanager/IXblIdpAuthManager::SetAppViewInitialized
 ms.topic: method
-f1_keywords: ["xblidpauthmanager/IXblIdpAuthManager.SetAppViewInitialized"]
+f1_keywords: 
+ - "xblidpauthmanager/IXblIdpAuthManager.SetAppViewInitialized"
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

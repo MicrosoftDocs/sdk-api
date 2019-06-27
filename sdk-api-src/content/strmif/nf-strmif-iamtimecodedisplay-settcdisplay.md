@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMTimecodeDisplay interface [DirectShow],SetTCDisplay method, IAMTimecodeDisplay.SetTCDisplay, IAMTimecodeDisplay::SetTCDisplay, IAMTimecodeDisplaySetTCDisplay, SetTCDisplay, SetTCDisplay method [DirectShow], SetTCDisplay method [DirectShow],IAMTimecodeDisplay interface, dshow.iamtimecodedisplay_settcdisplay, strmif/IAMTimecodeDisplay::SetTCDisplay
 ms.topic: method
-f1_keywords: ["strmif/IAMTimecodeDisplay.SetTCDisplay"]
+f1_keywords: 
+ - "strmif/IAMTimecodeDisplay.SetTCDisplay"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TreeView_SetUnicodeFormat, TreeView_SetUnicodeFormat macro [Windows Controls], _win32_TreeView_SetUnicodeFormat, _win32_TreeView_SetUnicodeFormat_cpp, commctrl/TreeView_SetUnicodeFormat, controls.TreeView_SetUnicodeFormat, controls._win32_TreeView_SetUnicodeFormat
 ms.topic: macro
-f1_keywords: ["commctrl/TreeView_SetUnicodeFormat"]
+f1_keywords: 
+ - "commctrl/TreeView_SetUnicodeFormat"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

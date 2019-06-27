@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumaNodeProcessorMask, GetNumaNodeProcessorMask function, _win32_getnumanodeprocessormask, base.getnumanodeprocessormask, winbase/GetNumaNodeProcessorMask
 ms.topic: function
-f1_keywords: ["winbase/GetNumaNodeProcessorMask"]
+f1_keywords: 
+ - "winbase/GetNumaNodeProcessorMask"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

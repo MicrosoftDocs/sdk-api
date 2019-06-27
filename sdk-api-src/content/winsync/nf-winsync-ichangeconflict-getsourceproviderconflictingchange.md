@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSourceProviderConflictingChange, GetSourceProviderConflictingChange method [Windows Sync], GetSourceProviderConflictingChange method [Windows Sync],IChangeConflict interface, IChangeConflict interface [Windows Sync],GetSourceProviderConflictingChange method, IChangeConflict.GetSourceProviderConflictingChange, IChangeConflict::GetSourceProviderConflictingChange, winsync.ichangeconflict_getsourceproviderconflictingchange, winsync/IChangeConflict::GetSourceProviderConflictingChange
 ms.topic: method
-f1_keywords: ["winsync/IChangeConflict.GetSourceProviderConflictingChange"]
+f1_keywords: 
+ - "winsync/IChangeConflict.GetSourceProviderConflictingChange"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

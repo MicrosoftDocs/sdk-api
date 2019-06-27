@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IReferenceTrackerManager interface [Windows Runtime],SetReferenceTrackerHost method, IReferenceTrackerManager.SetReferenceTrackerHost, IReferenceTrackerManager.xaml, IReferenceTrackerManager::SetReferenceTrackerHost, IReferenceTrackerManager::xaml, SetReferenceTrackerHost, SetReferenceTrackerHost method [Windows Runtime], SetReferenceTrackerHost method [Windows Runtime],IReferenceTrackerManager interface, windows/IReferenceTrackerManager::SetReferenceTrackerHost, winrt.ireferencetrackermanager_setreferencetrackerhost
 ms.topic: method
-f1_keywords: ["windows.ui.xaml.hosting.referencetracker/IReferenceTrackerManager.SetReferenceTrackerHost"]
+f1_keywords: 
+ - "windows.ui.xaml.hosting.referencetracker/IReferenceTrackerManager.SetReferenceTrackerHost"
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows

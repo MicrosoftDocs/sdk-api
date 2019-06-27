@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddFocusChangedEventHandler, AddFocusChangedEventHandler method [Windows Accessibility], AddFocusChangedEventHandler method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],AddFocusChangedEventHandler method, IUIAutomation.AddFocusChangedEventHandler, IUIAutomation::AddFocusChangedEventHandler, uiauto.uiauto_IUIAutomation_AddFocusChangedEventHandler, uiauto_IUIAutomation_AddFocusChangedEventHandler, uiautomationclient/IUIAutomation::AddFocusChangedEventHandler, winauto.uiauto_IUIAutomation_AddFocusChangedEventHandler
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomation.AddFocusChangedEventHandler"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomation.AddFocusChangedEventHandler"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

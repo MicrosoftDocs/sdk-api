@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure pointer [Files], STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure [Files], fs.storage_physical_topology_descriptor, winioctl/PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, winioctl/STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR"
 ms.topic: struct
-f1_keywords: ["winioctl/STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR"]
+f1_keywords: 
+ - "winioctl/STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

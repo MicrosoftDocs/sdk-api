@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterRegCreateBatchNotifyPort, ClusterRegCreateBatchNotifyPort function [Failover Cluster], PCLUSTER_REG_CREATE_BATCH_NOTIFY_PORT, clusapi/ClusterRegCreateBatchNotifyPort, mscs.clusterregcreatebatchnotifyport
 ms.topic: function
-f1_keywords: ["clusapi/ClusterRegCreateBatchNotifyPort"]
+f1_keywords: 
+ - "clusapi/ClusterRegCreateBatchNotifyPort"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

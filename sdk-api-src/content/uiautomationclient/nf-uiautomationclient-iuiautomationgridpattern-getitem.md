@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItem, GetItem method [Windows Accessibility], GetItem method [Windows Accessibility],IUIAutomationGridPattern interface, IUIAutomationGridPattern interface [Windows Accessibility],GetItem method, IUIAutomationGridPattern.GetItem, IUIAutomationGridPattern::GetItem, uiauto.uiauto_IUIAutomationGridPattern_GetItem, uiauto_IUIAutomationGridPattern_GetItem, uiautomationclient/IUIAutomationGridPattern::GetItem, winauto.uiauto_IUIAutomationGridPattern_GetItem
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationGridPattern.GetItem"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationGridPattern.GetItem"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

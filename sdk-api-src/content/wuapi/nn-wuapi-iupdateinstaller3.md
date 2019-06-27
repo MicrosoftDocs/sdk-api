@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateInstaller3, IUpdateInstaller3 interface [Windows Update Agent], IUpdateInstaller3 interface [Windows Update Agent],described, wua.iupdateinstaller3, wuapi/IUpdateInstaller3
 ms.topic: interface
-f1_keywords: ["wuapi/IUpdateInstaller3"]
+f1_keywords: 
+ - "wuapi/IUpdateInstaller3"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

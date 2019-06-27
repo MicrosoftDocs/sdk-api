@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RoGetAgileReference, RoGetAgileReference function [Windows Runtime], combaseapi/RoGetAgileReference, winrt.rogetagilereference
 ms.topic: function
-f1_keywords: ["combaseapi/RoGetAgileReference"]
+f1_keywords: 
+ - "combaseapi/RoGetAgileReference"
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows

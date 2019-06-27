@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateManagedStub, CreateManagedStub method [COM+], CreateManagedStub method [COM+],IManagedActivationEvents interface, IManagedActivationEvents interface [COM+],CreateManagedStub method, IManagedActivationEvents.CreateManagedStub, IManagedActivationEvents::CreateManagedStub, _cos_IManagedActivationEvents_CreateManagedStub, comsvcs/IManagedActivationEvents::CreateManagedStub, cos.imanagedactivationevents_createmanagedstub
 ms.topic: method
-f1_keywords: ["comsvcs/IManagedActivationEvents.CreateManagedStub"]
+f1_keywords: 
+ - "comsvcs/IManagedActivationEvents.CreateManagedStub"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

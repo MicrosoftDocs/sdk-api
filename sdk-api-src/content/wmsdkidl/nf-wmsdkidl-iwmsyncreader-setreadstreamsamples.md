@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMSyncReader interface [windows Media Format],SetReadStreamSamples method, IWMSyncReader.SetReadStreamSamples, IWMSyncReader::SetReadStreamSamples, IWMSyncReaderSetReadStreamSamples, SetReadStreamSamples, SetReadStreamSamples method [windows Media Format], SetReadStreamSamples method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_setreadstreamsamples, wmsdkidl/IWMSyncReader::SetReadStreamSamples
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMSyncReader.SetReadStreamSamples"]
+f1_keywords: 
+ - "wmsdkidl/IWMSyncReader.SetReadStreamSamples"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WaitForNtmsNotification, WaitForNtmsNotification function [Files], _zaw_waitforntmsnotification, base.waitforntmsnotification, fs.waitforntmsnotification, ntmsapi/WaitForNtmsNotification
 ms.topic: function
-f1_keywords: ["ntmsapi/WaitForNtmsNotification"]
+f1_keywords: 
+ - "ntmsapi/WaitForNtmsNotification"
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

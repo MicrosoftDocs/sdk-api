@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeforeCoCreateInstance, BeforeCoCreateInstance method [Windows Shell], BeforeCoCreateInstance method [Windows Shell],IHandlerActivationHost interface, IHandlerActivationHost interface [Windows Shell],BeforeCoCreateInstance method, IHandlerActivationHost.BeforeCoCreateInstance, IHandlerActivationHost::BeforeCoCreateInstance, shell.IHandlerActivationHost_BeforeCoCreateInstance, shobjidl_core/IHandlerActivationHost::BeforeCoCreateInstance
 ms.topic: method
-f1_keywords: ["shobjidl_core/IHandlerActivationHost.BeforeCoCreateInstance"]
+f1_keywords: 
+ - "shobjidl_core/IHandlerActivationHost.BeforeCoCreateInstance"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

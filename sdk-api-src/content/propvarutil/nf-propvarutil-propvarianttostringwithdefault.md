@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantToStringWithDefault, PropVariantToStringWithDefault function [Windows Properties], _shell_PropVariantToStringWithDefault, properties.PropVariantToStringWithDefault, propvarutil/PropVariantToStringWithDefault, shell.PropVariantToStringWithDefault
 ms.topic: function
-f1_keywords: ["propvarutil/PropVariantToStringWithDefault"]
+f1_keywords: 
+ - "propvarutil/PropVariantToStringWithDefault"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

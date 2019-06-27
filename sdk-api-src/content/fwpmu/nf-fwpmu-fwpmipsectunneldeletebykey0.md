@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmIPsecTunnelDeleteByKey0, FwpmIPsecTunnelDeleteByKey0 function [Filtering], fwp.fwpmipsectunneldeletebykey0, fwpmu/FwpmIPsecTunnelDeleteByKey0
 ms.topic: function
-f1_keywords: ["fwpmu/FwpmIPsecTunnelDeleteByKey0"]
+f1_keywords: 
+ - "fwpmu/FwpmIPsecTunnelDeleteByKey0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

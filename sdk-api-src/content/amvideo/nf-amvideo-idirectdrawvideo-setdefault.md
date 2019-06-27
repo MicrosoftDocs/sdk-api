@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],SetDefault method, IDirectDrawVideo.SetDefault, IDirectDrawVideo::SetDefault, IDirectDrawVideoSetDefault, SetDefault, SetDefault method [DirectShow], SetDefault method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::SetDefault, dshow.idirectdrawvideo_setdefault
 ms.topic: method
-f1_keywords: ["amvideo/IDirectDrawVideo.SetDefault"]
+f1_keywords: 
+ - "amvideo/IDirectDrawVideo.SetDefault"
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

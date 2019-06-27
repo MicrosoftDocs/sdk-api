@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GraphicsPath class [GDI+],Reverse method, GraphicsPath.Reverse, GraphicsPath::Reverse, Reverse, Reverse method [GDI+], Reverse method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_Reverse_, gdiplus._gdiplus_CLASS_GraphicsPath_Reverse_
 ms.topic: method
-f1_keywords: ["gdipluspath/GraphicsPath.Reverse"]
+f1_keywords: 
+ - "gdipluspath/GraphicsPath.Reverse"
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

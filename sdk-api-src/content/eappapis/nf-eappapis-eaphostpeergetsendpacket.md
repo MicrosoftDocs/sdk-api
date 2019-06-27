@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerGetSendPacket, EapHostPeerGetSendPacket function [EAPHost], eaphost.eaphostpeergetsendpacket, eappapis/EapHostPeerGetSendPacket
 ms.topic: function
-f1_keywords: ["eappapis/EapHostPeerGetSendPacket"]
+f1_keywords: 
+ - "eappapis/EapHostPeerGetSendPacket"
 req.header: eappapis.h
 req.include-header: 
 req.target-type: Windows

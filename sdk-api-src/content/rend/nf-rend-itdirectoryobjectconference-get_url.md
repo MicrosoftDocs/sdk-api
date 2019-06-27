@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_Url method, ITDirectoryObjectConference.get_Url, ITDirectoryObjectConference::get_Url, _tapi3_itdirectoryobjectconference_get_url, get_Url, get_Url method [TAPI 2.2], get_Url method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_Url, tapi3.itdirectoryobjectconference_get_url
 ms.topic: method
-f1_keywords: ["rend/ITDirectoryObjectConference.get_Url"]
+f1_keywords: 
+ - "rend/ITDirectoryObjectConference.get_Url"
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

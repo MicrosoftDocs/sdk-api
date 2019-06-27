@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 01604801-1566-410c-b23a-0568c7298868, GetStreamSinkByIndex, GetStreamSinkByIndex method [Media Foundation], GetStreamSinkByIndex method [Media Foundation],IMFMediaSink interface, IMFMediaSink interface [Media Foundation],GetStreamSinkByIndex method, IMFMediaSink.GetStreamSinkByIndex, IMFMediaSink::GetStreamSinkByIndex, mf.imfmediasink_getstreamsinkbyindex, mfidl/IMFMediaSink::GetStreamSinkByIndex
 ms.topic: method
-f1_keywords: ["mfidl/IMFMediaSink.GetStreamSinkByIndex"]
+f1_keywords: 
+ - "mfidl/IMFMediaSink.GetStreamSinkByIndex"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPipelineStackSize, GetPipelineStackSize method, GetPipelineStackSize method,ID3D12StateObjectProperties interface, ID3D12StateObjectProperties interface,GetPipelineStackSize method, ID3D12StateObjectProperties.GetPipelineStackSize, ID3D12StateObjectProperties::GetPipelineStackSize, d3d12/ID3D12StateObjectProperties::GetPipelineStackSize, direct3d12.id3d12stateobjectproperties_getpipelinestacksize
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12StateObjectProperties.GetPipelineStackSize"]
+f1_keywords: 
+ - "d3d12/ID3D12StateObjectProperties.GetPipelineStackSize"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

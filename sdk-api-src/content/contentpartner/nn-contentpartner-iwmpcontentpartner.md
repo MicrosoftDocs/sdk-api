@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], IWMPContentPartner interface [Windows Media Player],described, IWMPContentPartnerInterface, contentpartner/IWMPContentPartner, wmp.iwmpcontentpartner
 ms.topic: interface
-f1_keywords: ["contentpartner/IWMPContentPartner"]
+f1_keywords: 
+ - "contentpartner/IWMPContentPartner"
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

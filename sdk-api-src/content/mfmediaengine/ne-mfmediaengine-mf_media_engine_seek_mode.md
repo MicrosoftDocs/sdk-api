@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_MEDIA_ENGINE_SEEK_MODE, MF_MEDIA_ENGINE_SEEK_MODE enumeration [Media Foundation], MF_MEDIA_ENGINE_SEEK_MODE_APPROXIMATE, MF_MEDIA_ENGINE_SEEK_MODE_NORMAL, mf.mf_media_engine_seek_mode, mfmediaengine/MF_MEDIA_ENGINE_SEEK_MODE, mfmediaengine/MF_MEDIA_ENGINE_SEEK_MODE_APPROXIMATE, mfmediaengine/MF_MEDIA_ENGINE_SEEK_MODE_NORMAL
 ms.topic: enum
-f1_keywords: ["mfmediaengine/MF_MEDIA_ENGINE_SEEK_MODE"]
+f1_keywords: 
+ - "mfmediaengine/MF_MEDIA_ENGINE_SEEK_MODE"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

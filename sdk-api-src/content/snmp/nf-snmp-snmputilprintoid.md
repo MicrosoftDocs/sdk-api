@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilPrintOid, SnmpUtilPrintOid function [SNMP], _snmp_snmputilprintoid, snmp.snmputilprintoid, snmp/SnmpUtilPrintOid
 ms.topic: function
-f1_keywords: ["snmp/SnmpUtilPrintOid"]
+f1_keywords: 
+ - "snmp/SnmpUtilPrintOid"
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

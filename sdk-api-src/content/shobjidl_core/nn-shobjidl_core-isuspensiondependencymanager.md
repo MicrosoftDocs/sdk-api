@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISuspensionDependencyManager, ISuspensionDependencyManager interface [Windows Shell], ISuspensionDependencyManager interface [Windows Shell],described, shell.ISuspensionDependencyManager, shobjidl_core/ISuspensionDependencyManager
 ms.topic: interface
-f1_keywords: ["shobjidl_core/ISuspensionDependencyManager"]
+f1_keywords: 
+ - "shobjidl_core/ISuspensionDependencyManager"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CF_CALLBACK_REGISTRATION, CF_CALLBACK_REGISTRATION structure, cfapi/CF_CALLBACK_REGISTRATION, cloudApi.cf_callback_registration
 ms.topic: struct
-f1_keywords: ["cfapi/CF_CALLBACK_REGISTRATION"]
+f1_keywords: 
+ - "cfapi/CF_CALLBACK_REGISTRATION"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

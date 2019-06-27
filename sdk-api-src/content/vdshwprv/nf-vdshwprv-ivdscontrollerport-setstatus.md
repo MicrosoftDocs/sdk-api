@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsControllerPort interface [VDS],SetStatus method, IVdsControllerPort.SetStatus, IVdsControllerPort::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsControllerPort interface, base.ivdscontrollerport_setstatus, vds/IVdsControllerPort::SetStatus, vdshwprv/IVdsControllerPort::SetStatus
 ms.topic: method
-f1_keywords: ["vdshwprv/IVdsControllerPort.SetStatus"]
+f1_keywords: 
+ - "vdshwprv/IVdsControllerPort.SetStatus"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

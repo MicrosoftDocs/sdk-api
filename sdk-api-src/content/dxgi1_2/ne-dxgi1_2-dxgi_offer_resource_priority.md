@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXGI_OFFER_RESOURCE_PRIORITY, DXGI_OFFER_RESOURCE_PRIORITY enumeration [DXGI], DXGI_OFFER_RESOURCE_PRIORITY_HIGH, DXGI_OFFER_RESOURCE_PRIORITY_LOW, DXGI_OFFER_RESOURCE_PRIORITY_NORMAL, direct3ddxgi._dxgi_offer_resource_priority, dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY, dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY_HIGH, dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY_LOW, dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY_NORMAL
 ms.topic: enum
-f1_keywords: ["dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY"]
+f1_keywords: 
+ - "dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY"
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

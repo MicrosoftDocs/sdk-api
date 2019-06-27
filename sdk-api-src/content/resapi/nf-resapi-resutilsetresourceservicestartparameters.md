@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS, PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS function [Failover Cluster], ResUtilSetResourceServiceStartParameters, ResUtilSetResourceServiceStartParameters function [Failover Cluster], _wolf_resutilsetresourceservicestartparameters, mscs.resutilsetresourceservicestartparameters, resapi/PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS, resapi/ResUtilSetResourceServiceStartParameters
 ms.topic: function
-f1_keywords: ["resapi/ResUtilSetResourceServiceStartParameters"]
+f1_keywords: 
+ - "resapi/ResUtilSetResourceServiceStartParameters"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

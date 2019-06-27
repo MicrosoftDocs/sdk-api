@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VerifierIsPerUserSettingsEnabled, VerifierIsPerUserSettingsEnabled function [Windows API], avrfsdk/VerifierIsPerUserSettingsEnabled, winprog.verifierisperusersettingsenabled
 ms.topic: function
-f1_keywords: ["avrfsdk/VerifierIsPerUserSettingsEnabled"]
+f1_keywords: 
+ - "avrfsdk/VerifierIsPerUserSettingsEnabled"
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows

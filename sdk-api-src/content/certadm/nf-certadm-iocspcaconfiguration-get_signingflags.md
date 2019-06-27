@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],SigningFlags property, IOCSPCAConfiguration.SigningFlags, IOCSPCAConfiguration.get_SigningFlags, IOCSPCAConfiguration::SigningFlags, IOCSPCAConfiguration::get_SigningFlags, IOCSPCAConfiguration::put_SigningFlags, SigningFlags property [Security], SigningFlags property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::SigningFlags, certadm/IOCSPCAConfiguration::get_SigningFlags, certadm/IOCSPCAConfiguration::put_SigningFlags, get_SigningFlags, security.iocspcaconfiguration_signingflags_method
 ms.topic: method
-f1_keywords: ["certadm/IOCSPCAConfiguration.SigningFlags"]
+f1_keywords: 
+ - "certadm/IOCSPCAConfiguration.SigningFlags"
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

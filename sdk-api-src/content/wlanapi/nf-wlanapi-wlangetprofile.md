@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WLAN_PROFILE_GET_PLAINTEXT_KEY, WLAN_PROFILE_GROUP_POLICY, WLAN_PROFILE_USER, WlanGetProfile, WlanGetProfile function [NativeWIFI], nwifi.wlangetprofile, wlanapi/WlanGetProfile
 ms.topic: function
-f1_keywords: ["wlanapi/WlanGetProfile"]
+f1_keywords: 
+ - "wlanapi/WlanGetProfile"
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

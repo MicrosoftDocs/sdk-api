@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Edit_SetCaretIndex, Edit_SetCaretIndex macro [Windows Controls], commctrl/Edit_SetCaretIndex, controls.edit_setcaretindex
 ms.topic: macro
-f1_keywords: ["commctrl/Edit_SetCaretIndex"]
+f1_keywords: 
+ - "commctrl/Edit_SetCaretIndex"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

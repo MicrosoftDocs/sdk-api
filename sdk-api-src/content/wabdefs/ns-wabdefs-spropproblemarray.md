@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSPropProblemArray, SPropProblemArray, SPropProblemArray structure [Windows Address Book], _wab_SPropProblemArray, wab._wab_SPropProblemArray, wabdefs/SPropProblemArray"
 ms.topic: struct
-f1_keywords: ["wabdefs/SPropProblemArray"]
+f1_keywords: 
+ - "wabdefs/SPropProblemArray"
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows

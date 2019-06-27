@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTurbulenceEffect interface [DirectComposition],SetStitchable method, IDCompositionTurbulenceEffect.SetStitchable, IDCompositionTurbulenceEffect::SetStitchable, SetStitchable, SetStitchable method [DirectComposition], SetStitchable method [DirectComposition],IDCompositionTurbulenceEffect interface, dcomp/IDCompositionTurbulenceEffect::SetStitchable, directcomp.idcompositionturbulenceeffect_setstitchable
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionTurbulenceEffect.SetStitchable"]
+f1_keywords: 
+ - "dcomp/IDCompositionTurbulenceEffect.SetStitchable"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

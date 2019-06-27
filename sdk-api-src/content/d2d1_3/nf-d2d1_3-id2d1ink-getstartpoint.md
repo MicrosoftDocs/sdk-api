@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStartPoint, GetStartPoint method [Direct2D], GetStartPoint method [Direct2D],ID2D1Ink interface, ID2D1Ink interface [Direct2D],GetStartPoint method, ID2D1Ink.GetStartPoint, ID2D1Ink::GetStartPoint, d2d1_3/ID2D1Ink::GetStartPoint, direct2d.id2d1ink_getstartpoint
 ms.topic: method
-f1_keywords: ["d2d1_3/ID2D1Ink.GetStartPoint"]
+f1_keywords: 
+ - "d2d1_3/ID2D1Ink.GetStartPoint"
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

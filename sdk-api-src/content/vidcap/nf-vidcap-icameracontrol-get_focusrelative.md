@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],get_FocusRelative method, ICameraControl.get_FocusRelative, ICameraControl::get_FocusRelative, ICameraControlget_FocusRelative, dshow.icameracontrol_get_focusrelative, get_FocusRelative, get_FocusRelative method [DirectShow], get_FocusRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_FocusRelative
 ms.topic: method
-f1_keywords: ["vidcap/ICameraControl.get_FocusRelative"]
+f1_keywords: 
+ - "vidcap/ICameraControl.get_FocusRelative"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

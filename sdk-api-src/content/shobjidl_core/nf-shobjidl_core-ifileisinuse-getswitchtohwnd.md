@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSwitchToHWND, GetSwitchToHWND method [Windows Shell], GetSwitchToHWND method [Windows Shell],IFileIsInUse interface, IFileIsInUse interface [Windows Shell],GetSwitchToHWND method, IFileIsInUse.GetSwitchToHWND, IFileIsInUse::GetSwitchToHWND, _shell_IFileIsInUse_GetSwitchToHWND, shell.IFileIsInUse_GetSwitchToHWND, shobjidl_core/IFileIsInUse::GetSwitchToHWND
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileIsInUse.GetSwitchToHWND"]
+f1_keywords: 
+ - "shobjidl_core/IFileIsInUse.GetSwitchToHWND"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

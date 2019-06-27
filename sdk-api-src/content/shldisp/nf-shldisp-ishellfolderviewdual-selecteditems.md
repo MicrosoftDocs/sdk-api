@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],SelectedItems method, IShellFolderViewDual.SelectedItems, IShellFolderViewDual::SelectedItems, SelectedItems, SelectedItems method [Windows Shell], SelectedItems method [Windows Shell],IShellFolderViewDual interface, _shell_IShellFolderViewDual_SelectedItems, shell.IShellFolderViewDual_SelectedItems, shldisp/IShellFolderViewDual::SelectedItems
 ms.topic: method
-f1_keywords: ["shldisp/IShellFolderViewDual.SelectedItems"]
+f1_keywords: 
+ - "shldisp/IShellFolderViewDual.SelectedItems"
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateStdAccessibleObject, CreateStdAccessibleObject function [Windows Accessibility], _msaa_CreateStdAccessibleObject, msaa.createstdaccessibleobject, oleacc/CreateStdAccessibleObject, winauto.createstdaccessibleobject
 ms.topic: function
-f1_keywords: ["oleacc/CreateStdAccessibleObject"]
+f1_keywords: 
+ - "oleacc/CreateStdAccessibleObject"
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

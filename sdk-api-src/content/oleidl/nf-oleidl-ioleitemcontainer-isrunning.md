@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleItemContainer interface [COM],IsRunning method, IOleItemContainer.IsRunning, IOleItemContainer::IsRunning, IsRunning, IsRunning method [COM], IsRunning method [COM],IOleItemContainer interface, _com_ioleitemcontainer_isrunning, com.ioleitemcontainer_isrunning, oleidl/IOleItemContainer::IsRunning
 ms.topic: method
-f1_keywords: ["oleidl/IOleItemContainer.IsRunning"]
+f1_keywords: 
+ - "oleidl/IOleItemContainer.IsRunning"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

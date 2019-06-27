@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPAddrEntry, IPAddrEntry structure [Windows API], tcpioctl/IPAddrEntry, winprog.ipaddrentry
 ms.topic: struct
-f1_keywords: ["tcpioctl/IPAddrEntry"]
+f1_keywords: 
+ - "tcpioctl/IPAddrEntry"
 req.header: tcpioctl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWLX_SWITCH_DESKTOP_TO_USER, PWLX_SWITCH_DESKTOP_TO_USER callback, WlxSwitchDesktopToUser, WlxSwitchDesktopToUser callback function [Security], _gina_wlxswitchdesktoptouser, security.wlxswitchdesktoptouser, winwlx/WlxSwitchDesktopToUser
 ms.topic: callback
-f1_keywords: ["winwlx/WlxSwitchDesktopToUser"]
+f1_keywords: 
+ - "winwlx/WlxSwitchDesktopToUser"
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

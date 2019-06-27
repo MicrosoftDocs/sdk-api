@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IESEventServiceConfiguration interface [Microsoft TV Technologies],RemoveOwner method, IESEventServiceConfiguration.RemoveOwner, IESEventServiceConfiguration::RemoveOwner, RemoveOwner, RemoveOwner method [Microsoft TV Technologies], RemoveOwner method [Microsoft TV Technologies],IESEventServiceConfiguration interface, mstv.ieseventserviceconfiguration_removeowner, tuner/IESEventServiceConfiguration::RemoveOwner
 ms.topic: method
-f1_keywords: ["tuner/IESEventServiceConfiguration.RemoveOwner"]
+f1_keywords: 
+ - "tuner/IESEventServiceConfiguration.RemoveOwner"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

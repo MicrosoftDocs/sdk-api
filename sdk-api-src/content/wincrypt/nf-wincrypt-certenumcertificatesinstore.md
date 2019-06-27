@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertEnumCertificatesInStore, CertEnumCertificatesInStore function [Security], _crypto2_certenumcertificatesinstore, security.certenumcertificatesinstore, wincrypt/CertEnumCertificatesInStore
 ms.topic: function
-f1_keywords: ["wincrypt/CertEnumCertificatesInStore"]
+f1_keywords: 
+ - "wincrypt/CertEnumCertificatesInStore"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

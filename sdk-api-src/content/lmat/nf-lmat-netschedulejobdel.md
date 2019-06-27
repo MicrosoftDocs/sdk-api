@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetScheduleJobDel, NetScheduleJobDel function [Network Management], _win32_netschedulejobdel, lmat/NetScheduleJobDel, netmgmt.netschedulejobdel
 ms.topic: function
-f1_keywords: ["lmat/NetScheduleJobDel"]
+f1_keywords: 
+ - "lmat/NetScheduleJobDel"
 req.header: lmat.h
 req.include-header: Lmat.h
 req.target-type: Windows

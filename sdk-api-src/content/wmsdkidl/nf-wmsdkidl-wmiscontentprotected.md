@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMIsContentProtected, WMIsContentProtected function [windows Media Format], wmformat.wmiscontentprotected, wmsdkidl/WMIsContentProtected
 ms.topic: function
-f1_keywords: ["wmsdkidl/WMIsContentProtected"]
+f1_keywords: 
+ - "wmsdkidl/WMIsContentProtected"
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

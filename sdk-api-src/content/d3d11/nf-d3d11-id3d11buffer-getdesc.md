@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 136b2c3a-1bef-0fe6-e772-112ed493fb11, GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11Buffer interface, ID3D11Buffer interface [Direct3D 11],GetDesc method, ID3D11Buffer.GetDesc, ID3D11Buffer::GetDesc, d3d11/ID3D11Buffer::GetDesc, direct3d11.id3d11buffer_getdesc
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11Buffer.GetDesc"]
+f1_keywords: 
+ - "d3d11/ID3D11Buffer.GetDesc"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],PutContext method, ITsSbClientConnection.PutContext, ITsSbClientConnection::PutContext, PutContext, PutContext method [Remote Desktop Services], PutContext method [Remote Desktop Services],ITsSbClientConnection interface, sbtsv/ITsSbClientConnection::PutContext, termserv.itssbclientconnection_putcontext
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbClientConnection.PutContext"]
+f1_keywords: 
+ - "sbtsv/ITsSbClientConnection.PutContext"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

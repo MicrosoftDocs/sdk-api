@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdeQueryNextServer, DdeQueryNextServer function [Data Exchange], _win32_DdeQueryNextServer, _win32_ddequerynextserver_cpp, dataxchg.ddequerynextserver, ddeml/DdeQueryNextServer, winui._win32_ddequerynextserver
 ms.topic: function
-f1_keywords: ["ddeml/DdeQueryNextServer"]
+f1_keywords: 
+ - "ddeml/DdeQueryNextServer"
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

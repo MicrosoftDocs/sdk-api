@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linesetqueuemeasurementperiod, lineSetQueueMeasurementPeriod, lineSetQueueMeasurementPeriod function [TAPI 2.2], tapi/lineSetQueueMeasurementPeriod, tapi2.linesetqueuemeasurementperiod"
 ms.topic: function
-f1_keywords: ["tapi/lineSetQueueMeasurementPeriod"]
+f1_keywords: 
+ - "tapi/lineSetQueueMeasurementPeriod"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

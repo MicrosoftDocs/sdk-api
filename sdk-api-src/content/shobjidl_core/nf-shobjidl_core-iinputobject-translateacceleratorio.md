@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInputObject interface [Windows Shell],TranslateAcceleratorIO method, IInputObject.TranslateAcceleratorIO, IInputObject::TranslateAcceleratorIO, TranslateAcceleratorIO, TranslateAcceleratorIO method [Windows Shell], TranslateAcceleratorIO method [Windows Shell],IInputObject interface, _win32_IInputObject_TranslateAcceleratorIO, shell.IInputObject_TranslateAcceleratorIO, shobjidl_core/IInputObject::TranslateAcceleratorIO
 ms.topic: method
-f1_keywords: ["shobjidl_core/IInputObject.TranslateAcceleratorIO"]
+f1_keywords: 
+ - "shobjidl_core/IInputObject.TranslateAcceleratorIO"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

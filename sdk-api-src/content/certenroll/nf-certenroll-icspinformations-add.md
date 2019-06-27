@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICspInformations interface, ICspInformations interface [Security],Add method, ICspInformations.Add, ICspInformations::Add, certenroll/ICspInformations::Add, security.icspinformations_add_method
 ms.topic: method
-f1_keywords: ["certenroll/ICspInformations.Add"]
+f1_keywords: 
+ - "certenroll/ICspInformations.Add"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

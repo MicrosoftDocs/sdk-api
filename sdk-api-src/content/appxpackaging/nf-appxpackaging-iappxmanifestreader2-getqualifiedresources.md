@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetQualifiedResources, GetQualifiedResources method [App packaging and management], GetQualifiedResources method [App packaging and management],IAppxManifestReader2 interface, IAppxManifestReader2 interface [App packaging and management],GetQualifiedResources method, IAppxManifestReader2.GetQualifiedResources, IAppxManifestReader2::GetQualifiedResources, appxpackaging/IAppxManifestReader2::GetQualifiedResources, appxpkg.iappxmanifestreader2_getqualifiedresources
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxManifestReader2.GetQualifiedResources"]
+f1_keywords: 
+ - "appxpackaging/IAppxManifestReader2.GetQualifiedResources"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

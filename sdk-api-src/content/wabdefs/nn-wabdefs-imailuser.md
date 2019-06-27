@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMailUser, IMailUser interface [Windows Address Book], IMailUser interface [Windows Address Book],described, _wab_IMailUser, wab._wab_IMailUser, wabdefs/IMailUser
 ms.topic: interface
-f1_keywords: ["wabdefs/IMailUser"]
+f1_keywords: 
+ - "wabdefs/IMailUser"
 req.header: wabdefs.h
 req.include-header: Wabtmp.h
 req.target-type: Windows

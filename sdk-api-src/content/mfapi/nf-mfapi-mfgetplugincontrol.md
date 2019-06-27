@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFGetPluginControl, MFGetPluginControl function [Media Foundation], mf.mfgetplugincontrol, mfapi/MFGetPluginControl
 ms.topic: function
-f1_keywords: ["mfapi/MFGetPluginControl"]
+f1_keywords: 
+ - "mfapi/MFGetPluginControl"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

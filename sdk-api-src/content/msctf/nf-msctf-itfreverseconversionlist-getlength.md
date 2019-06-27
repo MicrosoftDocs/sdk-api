@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Text Services Framework], GetLength method [Text Services Framework],ITfReverseConversionList interface, ITfReverseConversionList interface [Text Services Framework],GetLength method, ITfReverseConversionList.GetLength, ITfReverseConversionList::GetLength, msctf/ITfReverseConversionList::GetLength, tsf.itfreverseconversionlist_getlength
 ms.topic: method
-f1_keywords: ["msctf/ITfReverseConversionList.GetLength"]
+f1_keywords: 
+ - "msctf/ITfReverseConversionList.GetLength"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

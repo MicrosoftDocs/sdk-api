@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],get_StartingLba method, IRawCDImageTrackInfo.get_StartingLba, IRawCDImageTrackInfo::get_StartingLba, get_StartingLba, get_StartingLba method [IMAPI], get_StartingLba method [IMAPI],IRawCDImageTrackInfo interface, imapi.irawcdimagetrackinfo_get_startinglba, imapi2/IRawCDImageTrackInfo::get_StartingLba
 ms.topic: method
-f1_keywords: ["imapi2/IRawCDImageTrackInfo.get_StartingLba"]
+f1_keywords: 
+ - "imapi2/IRawCDImageTrackInfo.get_StartingLba"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

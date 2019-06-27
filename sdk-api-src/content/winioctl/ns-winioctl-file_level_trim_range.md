@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PFILE_LEVEL_TRIM_RANGE, FILE_LEVEL_TRIM_RANGE, FILE_LEVEL_TRIM_RANGE structure [Files], PFILE_LEVEL_TRIM_RANGE, PFILE_LEVEL_TRIM_RANGE structure pointer [Files], fs.file_level_trim_range, winioctl/FILE_LEVEL_TRIM_RANGE, winioctl/PFILE_LEVEL_TRIM_RANGE"
 ms.topic: struct
-f1_keywords: ["winioctl/FILE_LEVEL_TRIM_RANGE"]
+f1_keywords: 
+ - "winioctl/FILE_LEVEL_TRIM_RANGE"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

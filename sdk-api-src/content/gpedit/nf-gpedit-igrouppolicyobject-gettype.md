@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPOTypeDS, GPOTypeLocal, GPOTypeRemote, GetType, GetType method [Group Policy], GetType method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetType method, IGroupPolicyObject.GetType, IGroupPolicyObject::GetType, _win32_igrouppolicyobject_gettype, gpedit/IGroupPolicyObject::GetType, policy.igrouppolicyobject_gettype
 ms.topic: method
-f1_keywords: ["gpedit/IGroupPolicyObject.GetType"]
+f1_keywords: 
+ - "gpedit/IGroupPolicyObject.GetType"
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

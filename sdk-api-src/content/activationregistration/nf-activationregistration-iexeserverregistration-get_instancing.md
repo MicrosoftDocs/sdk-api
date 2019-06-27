@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExeServerRegistration interface [Windows Runtime],get_Instancing method, IExeServerRegistration.get_Instancing, IExeServerRegistration::get_Instancing, activationregistration/IExeServerRegistration::get_Instancing, get_Instancing, get_Instancing method [Windows Runtime], get_Instancing method [Windows Runtime],IExeServerRegistration interface, winrt.iexeserverregistration_instancing
 ms.topic: method
-f1_keywords: ["activationregistration/IExeServerRegistration.get_Instancing"]
+f1_keywords: 
+ - "activationregistration/IExeServerRegistration.get_Instancing"
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

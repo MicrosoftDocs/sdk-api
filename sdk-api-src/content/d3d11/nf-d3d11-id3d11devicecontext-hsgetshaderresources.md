@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HSGetShaderResources, HSGetShaderResources method [Direct3D 11], HSGetShaderResources method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],HSGetShaderResources method, ID3D11DeviceContext.HSGetShaderResources, ID3D11DeviceContext::HSGetShaderResources, d3d11/ID3D11DeviceContext::HSGetShaderResources, da564466-b697-f908-c81d-dda7a85378db, direct3d11.id3d11devicecontext_hsgetshaderresources
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11DeviceContext.HSGetShaderResources"]
+f1_keywords: 
+ - "d3d11/ID3D11DeviceContext.HSGetShaderResources"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolCallbackPriority, SetThreadpoolCallbackPriority function, TP_CALLBACK_PRIORITY_HIGH, TP_CALLBACK_PRIORITY_LOW, TP_CALLBACK_PRIORITY_NORMAL, base.setthreadpoolcallbackpriority, winbase/SetThreadpoolCallbackPriority
 ms.topic: function
-f1_keywords: ["winbase/SetThreadpoolCallbackPriority"]
+f1_keywords: 
+ - "winbase/SetThreadpoolCallbackPriority"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Bitmap, Bitmap class [GDI+], Bitmap class [GDI+],described, _gdiplus_CLASS_Bitmap_Class, gdiplus._gdiplus_CLASS_Bitmap_Class, gdiplusheaders/Bitmap
 ms.topic: class
-f1_keywords: ["gdiplusheaders/Bitmap"]
+f1_keywords: 
+ - "gdiplusheaders/Bitmap"
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows

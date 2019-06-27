@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AreGlyphsLocal, AreGlyphsLocal method [Direct Write], AreGlyphsLocal method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],AreGlyphsLocal method, IDWriteFontFace3.AreGlyphsLocal, IDWriteFontFace3::AreGlyphsLocal, directwrite.idwritefontface3_areglyphslocal, dwrite_3/IDWriteFontFace3::AreGlyphsLocal
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteFontFace3.AreGlyphsLocal"]
+f1_keywords: 
+ - "dwrite_3/IDWriteFontFace3.AreGlyphsLocal"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

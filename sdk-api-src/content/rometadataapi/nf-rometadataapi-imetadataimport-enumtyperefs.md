@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumTypeRefs, EnumTypeRefs method [Windows Runtime], EnumTypeRefs method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumTypeRefs method, IMetaDataImport.EnumTypeRefs, IMetaDataImport::EnumTypeRefs, rometadataapi/IMetaDataImport::EnumTypeRefs, winrt.imetadataimport_enumtyperefs
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataImport.EnumTypeRefs"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataImport.EnumTypeRefs"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

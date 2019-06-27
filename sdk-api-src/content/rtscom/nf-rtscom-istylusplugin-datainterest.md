@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 7ff6ccf2-292c-4321-be2a-d6db7ce14943, DataInterest, DataInterest method [Tablet PC], DataInterest method [Tablet PC],IStylusPlugin interface, IStylusPlugin interface [Tablet PC],DataInterest method, IStylusPlugin.DataInterest, IStylusPlugin::DataInterest, rtscom/IStylusPlugin::DataInterest, tablet.istylusplugin_datainterest
 ms.topic: method
-f1_keywords: ["rtscom/IStylusPlugin.DataInterest"]
+f1_keywords: 
+ - "rtscom/IStylusPlugin.DataInterest"
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

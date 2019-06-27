@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateControlInput, CreateControlInput function [Windows Runtime], corewindow/CreateControlInput, winrt.createcontrolinput
 ms.topic: function
-f1_keywords: ["corewindow/CreateControlInput"]
+f1_keywords: 
+ - "corewindow/CreateControlInput"
 req.header: corewindow.h
 req.include-header: 
 req.target-type: Windows

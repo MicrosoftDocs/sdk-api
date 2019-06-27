@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_LNBInfo interface [Microsoft TV Technologies],get_HighLowSwitchFrequency method, IBDA_LNBInfo.get_HighLowSwitchFrequency, IBDA_LNBInfo::get_HighLowSwitchFrequency, IBDA_LNBInfoget_HighLowSwitchFrequency, bdaiface/IBDA_LNBInfo::get_HighLowSwitchFrequency, get_HighLowSwitchFrequency, get_HighLowSwitchFrequency method [Microsoft TV Technologies], get_HighLowSwitchFrequency method [Microsoft TV Technologies],IBDA_LNBInfo interface, mstv.ibda_lnbinfo_get_highlowswitchfrequency
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_LNBInfo.get_HighLowSwitchFrequency"]
+f1_keywords: 
+ - "bdaiface/IBDA_LNBInfo.get_HighLowSwitchFrequency"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

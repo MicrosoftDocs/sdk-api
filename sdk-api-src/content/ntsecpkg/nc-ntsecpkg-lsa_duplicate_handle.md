@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DuplicateHandle, DuplicateHandle callback function [Security], LSA_DUPLICATE_HANDLE, LSA_DUPLICATE_HANDLE callback, _ssp_duplicatehandle, ntsecpkg/DuplicateHandle, security.duplicatehandle
 ms.topic: callback
-f1_keywords: ["ntsecpkg/DuplicateHandle"]
+f1_keywords: 
+ - "ntsecpkg/DuplicateHandle"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFontFeature, GetFontFeature method [Direct Write], GetFontFeature method [Direct Write],IDWriteTypography interface, IDWriteTypography interface [Direct Write],GetFontFeature method, IDWriteTypography.GetFontFeature, IDWriteTypography::GetFontFeature, directwrite.IDWriteTypography_GetFontFeature, dwrite/IDWriteTypography::GetFontFeature
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTypography.GetFontFeature"]
+f1_keywords: 
+ - "dwrite/IDWriteTypography.GetFontFeature"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

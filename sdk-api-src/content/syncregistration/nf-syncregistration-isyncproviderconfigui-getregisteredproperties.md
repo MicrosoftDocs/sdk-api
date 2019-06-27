@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRegisteredProperties, GetRegisteredProperties method [Windows Sync], GetRegisteredProperties method [Windows Sync],ISyncProviderConfigUI interface, ISyncProviderConfigUI interface [Windows Sync],GetRegisteredProperties method, ISyncProviderConfigUI.GetRegisteredProperties, ISyncProviderConfigUI::GetRegisteredProperties, syncregistration/ISyncProviderConfigUI::GetRegisteredProperties, winsync.isyncproviderconfigui_getregisteredproperties
 ms.topic: method
-f1_keywords: ["syncregistration/ISyncProviderConfigUI.GetRegisteredProperties"]
+f1_keywords: 
+ - "syncregistration/ISyncProviderConfigUI.GetRegisteredProperties"
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

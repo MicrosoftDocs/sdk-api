@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWebWizardExtension interface [Windows Shell],SetInitialURL method, IWebWizardExtension.SetInitialURL, IWebWizardExtension::SetInitialURL, SetInitialURL, SetInitialURL method [Windows Shell], SetInitialURL method [Windows Shell],IWebWizardExtension interface, _shell_IWebWizardExtension_SetInitialURL, shell.IWebWizardExtension_SetInitialURL, shobjidl/IWebWizardExtension::SetInitialURL
 ms.topic: method
-f1_keywords: ["shobjidl/IWebWizardExtension.SetInitialURL"]
+f1_keywords: 
+ - "shobjidl/IWebWizardExtension.SetInitialURL"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

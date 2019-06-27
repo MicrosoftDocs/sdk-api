@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPERF_MULTI_COUNTERS, PERF_MULTI_COUNTERS, PERF_MULTI_COUNTERS structure [Perf], PPERF_MULTI_COUNTERS, PPERF_MULTI_COUNTERS structure pointer [Perf], perf.perf_multi_counters, perflib/PERF_MULTI_COUNTERS, perflib/PPERF_MULTI_COUNTERS"
 ms.topic: struct
-f1_keywords: ["perflib/PERF_MULTI_COUNTERS"]
+f1_keywords: 
+ - "perflib/PERF_MULTI_COUNTERS"
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

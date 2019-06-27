@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6f2fff53-b73d-3404-2005-37078d5f283b, CreateShaderResourceView, CreateShaderResourceView method [Direct3D 11], CreateShaderResourceView method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateShaderResourceView method, ID3D11Device.CreateShaderResourceView, ID3D11Device::CreateShaderResourceView, d3d11/ID3D11Device::CreateShaderResourceView, direct3d11.id3d11device_createshaderresourceview
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11Device.CreateShaderResourceView"]
+f1_keywords: 
+ - "d3d11/ID3D11Device.CreateShaderResourceView"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

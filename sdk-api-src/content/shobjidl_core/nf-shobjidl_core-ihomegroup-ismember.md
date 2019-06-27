@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IHomeGroup interface [Windows Shell],IsMember method, IHomeGroup.IsMember, IHomeGroup::IsMember, IsMember, IsMember method [Windows Shell], IsMember method [Windows Shell],IHomeGroup interface, _shell_IHomeGroup_IsMember, shell.IHomeGroup_IsMember, shobjidl_core/IHomeGroup::IsMember
 ms.topic: method
-f1_keywords: ["shobjidl_core/IHomeGroup.IsMember"]
+f1_keywords: 
+ - "shobjidl_core/IHomeGroup.IsMember"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddPortal, AddPortal method [VDS], AddPortal method [VDS],IVdsIscsiPortalGroup interface, IVdsIscsiPortalGroup interface [VDS],AddPortal method, IVdsIscsiPortalGroup.AddPortal, IVdsIscsiPortalGroup::AddPortal, base.ivdsiscsiportalgroup_addportal, vds/IVdsIscsiPortalGroup::AddPortal, vdshwprv/IVdsIscsiPortalGroup::AddPortal
 ms.topic: method
-f1_keywords: ["vds/IVdsIscsiPortalGroup.AddPortal"]
+f1_keywords: 
+ - "vds/IVdsIscsiPortalGroup.AddPortal"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

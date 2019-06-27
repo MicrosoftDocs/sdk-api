@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 15216c57-f85d-4087-ad52-d35059647828, DetachObject, DetachObject method [Media Foundation], DetachObject method [Media Foundation],IMFActivate interface, IMFActivate interface [Media Foundation],DetachObject method, IMFActivate.DetachObject, IMFActivate::DetachObject, mf.imfactivate_detachobject, mfobjects/IMFActivate::DetachObject
 ms.topic: method
-f1_keywords: ["mfobjects/IMFActivate.DetachObject"]
+f1_keywords: 
+ - "mfobjects/IMFActivate.DetachObject"
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush class [GDI+],ScaleTransform method, PathGradientBrush.ScaleTransform, PathGradientBrush::ScaleTransform, ScaleTransform, ScaleTransform method [GDI+], ScaleTransform method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_ScaleTransform_sx_sy_order_, gdiplus._gdiplus_CLASS_PathGradientBrush_ScaleTransform_sx_sy_order_
 ms.topic: method
-f1_keywords: ["gdipluspath/PathGradientBrush.ScaleTransform"]
+f1_keywords: 
+ - "gdipluspath/PathGradientBrush.ScaleTransform"
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

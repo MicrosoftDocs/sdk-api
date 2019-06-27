@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionCertificatePolicies interface [Security],InitializeEncode method, IX509ExtensionCertificatePolicies.InitializeEncode, IX509ExtensionCertificatePolicies::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionCertificatePolicies interface, certenroll/IX509ExtensionCertificatePolicies::InitializeEncode, security.ix509extensioncertificatepolicies_initializeencode_method
 ms.topic: method
-f1_keywords: ["certenroll/IX509ExtensionCertificatePolicies.InitializeEncode"]
+f1_keywords: 
+ - "certenroll/IX509ExtensionCertificatePolicies.InitializeEncode"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

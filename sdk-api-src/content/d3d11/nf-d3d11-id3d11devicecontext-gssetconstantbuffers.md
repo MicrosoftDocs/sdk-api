@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GSSetConstantBuffers, GSSetConstantBuffers method [Direct3D 11], GSSetConstantBuffers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],GSSetConstantBuffers method, ID3D11DeviceContext.GSSetConstantBuffers, ID3D11DeviceContext::GSSetConstantBuffers, ad892eb6-e3c1-f7c2-8552-c1feae8690bc, d3d11/ID3D11DeviceContext::GSSetConstantBuffers, direct3d11.id3d11devicecontext_gssetconstantbuffers
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11DeviceContext.GSSetConstantBuffers"]
+f1_keywords: 
+ - "d3d11/ID3D11DeviceContext.GSSetConstantBuffers"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

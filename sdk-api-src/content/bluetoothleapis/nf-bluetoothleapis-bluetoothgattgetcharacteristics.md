@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTGetCharacteristics, BluetoothGATTGetCharacteristics function [Bluetooth Devices], bltooth.bluetoothgattgetcharacteristics, bluetoothleapis/BluetoothGATTGetCharacteristics
 ms.topic: function
-f1_keywords: ["bluetoothleapis/BluetoothGATTGetCharacteristics"]
+f1_keywords: 
+ - "bluetoothleapis/BluetoothGATTGetCharacteristics"
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterAttach, EngineAdapterAttach callback function [Windows Biometric Framework API], PIBIO_ENGINE_ATTACH_FN, PIBIO_ENGINE_ATTACH_FN callback, secbiomet.engineadapterattach, winbio_adapter/EngineAdapterAttach
 ms.topic: callback
-f1_keywords: ["winbio_adapter/EngineAdapterAttach"]
+f1_keywords: 
+ - "winbio_adapter/EngineAdapterAttach"
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

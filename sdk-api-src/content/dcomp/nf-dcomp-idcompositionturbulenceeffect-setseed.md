@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTurbulenceEffect interface [DirectComposition],SetSeed method, IDCompositionTurbulenceEffect.SetSeed, IDCompositionTurbulenceEffect::SetSeed, SetSeed, SetSeed method [DirectComposition], SetSeed method [DirectComposition],IDCompositionTurbulenceEffect interface, dcomp/IDCompositionTurbulenceEffect::SetSeed, directcomp.idcompositionturbulenceeffect_setseed
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionTurbulenceEffect.SetSeed"]
+f1_keywords: 
+ - "dcomp/IDCompositionTurbulenceEffect.SetSeed"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

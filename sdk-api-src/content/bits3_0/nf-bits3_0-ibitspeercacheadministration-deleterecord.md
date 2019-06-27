@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteRecord, DeleteRecord method [BITS], DeleteRecord method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],DeleteRecord method, IBitsPeerCacheAdministration.DeleteRecord, IBitsPeerCacheAdministration::DeleteRecord, bits.ibitspeercacheadministration_deleterecord, bits3_0/IBitsPeerCacheAdministration::DeleteRecord
 ms.topic: method
-f1_keywords: ["bits3_0/IBitsPeerCacheAdministration.DeleteRecord"]
+f1_keywords: 
+ - "bits3_0/IBitsPeerCacheAdministration.DeleteRecord"
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows

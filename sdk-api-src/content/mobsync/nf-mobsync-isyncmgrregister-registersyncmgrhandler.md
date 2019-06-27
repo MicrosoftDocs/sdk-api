@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrRegister interface [Windows Shell],RegisterSyncMgrHandler method, ISyncMgrRegister.RegisterSyncMgrHandler, ISyncMgrRegister::RegisterSyncMgrHandler, RegisterSyncMgrHandler, RegisterSyncMgrHandler method [Windows Shell], RegisterSyncMgrHandler method [Windows Shell],ISyncMgrRegister interface, mobsync/ISyncMgrRegister::RegisterSyncMgrHandler, shell.syncmgr_isyncmgrregister_registersyncmgrhandler, syncmgr.isyncmgrregister_registersyncmgrhandler
 ms.topic: method
-f1_keywords: ["mobsync/ISyncMgrRegister.RegisterSyncMgrHandler"]
+f1_keywords: 
+ - "mobsync/ISyncMgrRegister.RegisterSyncMgrHandler"
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

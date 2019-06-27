@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AccessControlList, IADsAccessControlList, IADsAccessControlList interface [ADSI], IADsAccessControlList interface [ADSI],described, _ds_iadsaccesscontrollist, adsi.iadsaccesscontrollist, iads/IADsAccessControlList
 ms.topic: interface
-f1_keywords: ["iads/IADsAccessControlList"]
+f1_keywords: 
+ - "iads/IADsAccessControlList"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

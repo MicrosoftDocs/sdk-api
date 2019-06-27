@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management],MoveNext method, IAppxBundleManifestOptionalBundleInfoEnumerator.MoveNext, IAppxBundleManifestOptionalBundleInfoEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxBundleManifestOptionalBundleInfoEnumerator interface, appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator::MoveNext, appxpkg.iappxbundlemanifestoptionalbundleinfoenumerator_movenext
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator.MoveNext"]
+f1_keywords: 
+ - "appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator.MoveNext"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

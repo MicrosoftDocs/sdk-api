@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsSignatureCollection.RemoveAt, IXpsSignatureCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsSignatureCollection interface, xps.ixpssignaturecollection_removeat, xpsdigitalsignature/IXpsSignatureCollection::RemoveAt
 ms.topic: method
-f1_keywords: ["xpsdigitalsignature/IXpsSignatureCollection.RemoveAt"]
+f1_keywords: 
+ - "xpsdigitalsignature/IXpsSignatureCollection.RemoveAt"
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

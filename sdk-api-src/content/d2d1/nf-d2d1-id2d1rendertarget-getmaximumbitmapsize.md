@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMaximumBitmapSize, GetMaximumBitmapSize method [Direct2D], GetMaximumBitmapSize method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],GetMaximumBitmapSize method, ID2D1RenderTarget.GetMaximumBitmapSize, ID2D1RenderTarget::GetMaximumBitmapSize, d2d1/ID2D1RenderTarget::GetMaximumBitmapSize, direct2d.id2d1rendertarget_getmaximumbitmapsize
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1RenderTarget.GetMaximumBitmapSize"]
+f1_keywords: 
+ - "d2d1/ID2D1RenderTarget.GetMaximumBitmapSize"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

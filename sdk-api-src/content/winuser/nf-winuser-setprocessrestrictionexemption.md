@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetProcessRestrictionExemption, SetProcessRestrictionExemption function, base.setprocessrestrictionexemption, winuser/SetProcessRestrictionExemption
 ms.topic: function
-f1_keywords: ["winuser/SetProcessRestrictionExemption"]
+f1_keywords: 
+ - "winuser/SetProcessRestrictionExemption"
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

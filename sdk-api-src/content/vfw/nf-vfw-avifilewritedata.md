@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIFileWriteData, AVIFileWriteData function [Windows Multimedia], _win32_AVIFileWriteData, multimedia.avifilewritedata, vfw/AVIFileWriteData
 ms.topic: function
-f1_keywords: ["vfw/AVIFileWriteData"]
+f1_keywords: 
+ - "vfw/AVIFileWriteData"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

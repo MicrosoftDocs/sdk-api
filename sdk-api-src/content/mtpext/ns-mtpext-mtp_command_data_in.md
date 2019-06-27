@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMTP_COMMAND_DATA_IN, MTP_COMMAND_DATA_IN, MTP_COMMAND_DATA_IN structure [windows Media Device Manager], PMTP_COMMAND_DATA_IN, PMTP_COMMAND_DATA_IN structure pointer [windows Media Device Manager], mtpext/MTP_COMMAND_DATA_IN, mtpext/PMTP_COMMAND_DATA_IN, wmdm.mtp_command_data_in"
 ms.topic: struct
-f1_keywords: ["mtpext/MTP_COMMAND_DATA_IN"]
+f1_keywords: 
+ - "mtpext/MTP_COMMAND_DATA_IN"
 req.header: mtpext.h
 req.include-header: 
 req.target-type: Windows

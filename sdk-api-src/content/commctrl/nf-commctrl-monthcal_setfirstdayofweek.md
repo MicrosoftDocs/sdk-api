@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MonthCal_SetFirstDayOfWeek, MonthCal_SetFirstDayOfWeek macro [Windows Controls], _win32_MonthCal_SetFirstDayOfWeek, _win32_MonthCal_SetFirstDayOfWeek_cpp, commctrl/MonthCal_SetFirstDayOfWeek, controls.MonthCal_SetFirstDayOfWeek, controls._win32_MonthCal_SetFirstDayOfWeek
 ms.topic: macro
-f1_keywords: ["commctrl/MonthCal_SetFirstDayOfWeek"]
+f1_keywords: 
+ - "commctrl/MonthCal_SetFirstDayOfWeek"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerBitmap, IVMRMixerBitmap interface [DirectShow], IVMRMixerBitmap interface [DirectShow],described, IVMRMixerBitmapInterface, dshow.ivmrmixerbitmap, strmif/IVMRMixerBitmap
 ms.topic: interface
-f1_keywords: ["strmif/IVMRMixerBitmap"]
+f1_keywords: 
+ - "strmif/IVMRMixerBitmap"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

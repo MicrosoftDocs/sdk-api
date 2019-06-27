@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFilterGraph interface [DirectShow],RemoveFilter method, IFilterGraph.RemoveFilter, IFilterGraph::RemoveFilter, IFilterGraphRemoveFilter, RemoveFilter, RemoveFilter method [DirectShow], RemoveFilter method [DirectShow],IFilterGraph interface, dshow.ifiltergraph_removefilter, strmif/IFilterGraph::RemoveFilter
 ms.topic: method
-f1_keywords: ["strmif/IFilterGraph.RemoveFilter"]
+f1_keywords: 
+ - "strmif/IFilterGraph.RemoveFilter"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsAddErrorString, WsAddErrorString function [Web Services for Windows], webservices/WsAddErrorString, wsw.wsadderrorstring
 ms.topic: function
-f1_keywords: ["webservices/WsAddErrorString"]
+f1_keywords: 
+ - "webservices/WsAddErrorString"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

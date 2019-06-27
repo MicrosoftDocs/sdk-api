@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfContext interface [Text Services Framework],InWriteSession method, ITfContext.InWriteSession, ITfContext::InWriteSession, InWriteSession, InWriteSession method [Text Services Framework], InWriteSession method [Text Services Framework],ITfContext interface, _tsf_itfcontext_inwritesession_ref, msctf/ITfContext::InWriteSession, tsf.itfcontext_inwritesession
 ms.topic: method
-f1_keywords: ["msctf/ITfContext.InWriteSession"]
+f1_keywords: 
+ - "msctf/ITfContext.InWriteSession"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

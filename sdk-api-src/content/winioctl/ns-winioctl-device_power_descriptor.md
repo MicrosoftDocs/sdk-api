@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDEVICE_POWER_DESCRIPTOR, DEVICE_POWER_DESCRIPTOR, DEVICE_POWER_DESCRIPTOR structure [Storage Devices], PDEVICE_POWER_DESCRIPTOR, PDEVICE_POWER_DESCRIPTOR structure pointer [Storage Devices], fs.device_power_descriptor, fs.device_zero_power_odd_descriptor, winioctl/DEVICE_POWER_DESCRIPTOR, winioctl/PDEVICE_POWER_DESCRIPTOR"
 ms.topic: struct
-f1_keywords: ["winioctl/DEVICE_POWER_DESCRIPTOR"]
+f1_keywords: 
+ - "winioctl/DEVICE_POWER_DESCRIPTOR"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

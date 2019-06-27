@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetVersion method, ICreateTypeLib.SetVersion, ICreateTypeLib::SetVersion, SetVersion, SetVersion method [Automation], SetVersion method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetVersion, automat.icreatetypelib_setversion, oaidl/ICreateTypeLib::SetVersion
 ms.topic: method
-f1_keywords: ["oaidl/ICreateTypeLib.SetVersion"]
+f1_keywords: 
+ - "oaidl/ICreateTypeLib.SetVersion"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

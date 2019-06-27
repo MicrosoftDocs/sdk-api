@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_gethostname_2, gethostname, gethostname function [Winsock], winsock.gethostname_2, winsock/gethostname"
 ms.topic: function
-f1_keywords: ["winsock2/gethostname"]
+f1_keywords: 
+ - "winsock2/gethostname"
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows

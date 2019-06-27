@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetModuleUI, GetModuleUI method [Microsoft TV Technologies], GetModuleUI method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, IBDA_ConditionalAccess interface [Microsoft TV Technologies],GetModuleUI method, IBDA_ConditionalAccess.GetModuleUI, IBDA_ConditionalAccess::GetModuleUI, IBDA_ConditionalAccessGetModuleUI, bdaiface/IBDA_ConditionalAccess::GetModuleUI, mstv.ibda_conditionalaccess_getmoduleui
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_ConditionalAccess.GetModuleUI"]
+f1_keywords: 
+ - "bdaiface/IBDA_ConditionalAccess.GetModuleUI"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

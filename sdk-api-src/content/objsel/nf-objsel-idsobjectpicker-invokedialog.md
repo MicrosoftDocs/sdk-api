@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDsObjectPicker interface [Active Directory],InvokeDialog method, IDsObjectPicker.InvokeDialog, IDsObjectPicker::InvokeDialog, InvokeDialog, InvokeDialog method [Active Directory], InvokeDialog method [Active Directory],IDsObjectPicker interface, _glines_idsobjectpicker_invokedialog, ad.idsobjectpicker__invokedialog, ad.idsobjectpicker_invokedialog, objsel/IDsObjectPicker::InvokeDialog
 ms.topic: method
-f1_keywords: ["objsel/IDsObjectPicker.InvokeDialog"]
+f1_keywords: 
+ - "objsel/IDsObjectPicker.InvokeDialog"
 req.header: objsel.h
 req.include-header: 
 req.target-type: Windows

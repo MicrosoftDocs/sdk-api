@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsWmf, IsWmf method [GDI+], IsWmf method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],IsWmf method, MetafileHeader.IsWmf, MetafileHeader::IsWmf, _gdiplus_CLASS_MetafileHeader_IsWmf_, gdiplus._gdiplus_CLASS_MetafileHeader_IsWmf_
 ms.topic: method
-f1_keywords: ["gdiplusmetaheader/MetafileHeader.IsWmf"]
+f1_keywords: 
+ - "gdiplusmetaheader/MetafileHeader.IsWmf"
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ".fnt, .fon, .fot, .mmm, .otf, .pfb, .pfm, .ttc, .ttf, AddFontResource, AddFontResource function [Windows GDI], AddFontResourceA, AddFontResourceW, _win32_AddFontResource, gdi.addfontresource, wingdi/AddFontResource, wingdi/AddFontResourceA, wingdi/AddFontResourceW"
 ms.topic: function
-f1_keywords: ["wingdi/AddFontResource"]
+f1_keywords: 
+ - "wingdi/AddFontResource"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

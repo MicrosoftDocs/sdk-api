@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTitle, GetTitle method [XPS Documents and Packaging], GetTitle method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetTitle method, IXpsOMCoreProperties.GetTitle, IXpsOMCoreProperties::GetTitle, xps.ixpsomcoreproperties_gettitle, xpsobjectmodel/IXpsOMCoreProperties::GetTitle
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMCoreProperties.GetTitle"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMCoreProperties.GetTitle"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

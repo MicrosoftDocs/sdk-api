@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFNDAENUMCALLBACKCONST, PFNDAENUMCALLBACKCONST callback, PFNDAENUMCALLBACKCONST callback function [Windows Controls], PFNDPAENUMCALLBACKCONST, PFNDSAENUMCALLBACKCONST, _shell_PFNDAENUMCALLBACKCONST, _shell_PFNDAENUMCALLBACKCONST_cpp, controls.PFNDAENUMCALLBACKCONST, controls._shell_PFNDAENUMCALLBACKCONST, dpa_dsa/PFNDAENUMCALLBACKCONST
 ms.topic: callback
-f1_keywords: ["dpa_dsa/PFNDAENUMCALLBACKCONST"]
+f1_keywords: 
+ - "dpa_dsa/PFNDAENUMCALLBACKCONST"
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

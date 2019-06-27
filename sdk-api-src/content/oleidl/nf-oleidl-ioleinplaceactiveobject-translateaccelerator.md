@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceActiveObject interface [COM],TranslateAccelerator method, IOleInPlaceActiveObject.TranslateAccelerator, IOleInPlaceActiveObject::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM],IOleInPlaceActiveObject interface, _ole_ioleinplaceactiveobject_translateaccelerator, com.ioleinplaceactiveobject_translateaccelerator, oleidl/IOleInPlaceActiveObject::TranslateAccelerator
 ms.topic: method
-f1_keywords: ["oleidl/IOleInPlaceActiveObject.TranslateAccelerator"]
+f1_keywords: 
+ - "oleidl/IOleInPlaceActiveObject.TranslateAccelerator"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClearCustData, ClearCustData function [Automation], _oa96_ClearCustData, automat.clearcustdata, oleauto/ClearCustData
 ms.topic: function
-f1_keywords: ["oleauto/ClearCustData"]
+f1_keywords: 
+ - "oleauto/ClearCustData"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

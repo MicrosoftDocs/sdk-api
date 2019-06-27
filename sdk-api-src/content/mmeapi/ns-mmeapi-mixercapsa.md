@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPMIXERCAPSA, *PMIXERCAPSA, MIXERCAPS, MIXERCAPS structure [Windows Multimedia], MIXERCAPSA, _win32_MIXERCAPS_str, mmeapi/MIXERCAPS, multimedia.mixercaps, tMIXERCAPS, tagMIXERCAPSA, tagMIXERCAPSW"
 ms.topic: struct
-f1_keywords: ["mmeapi/MIXERCAPS"]
+f1_keywords: 
+ - "mmeapi/MIXERCAPS"
 req.header: mmeapi.h
 req.include-header: 
 req.target-type: Windows

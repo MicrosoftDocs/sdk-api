@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 3fa65809-1652-4903-92ad-1034bcdf0743, CancelTimer, CancelTimer method [Media Foundation], CancelTimer method [Media Foundation],IMFTimer interface, IMFTimer interface [Media Foundation],CancelTimer method, IMFTimer.CancelTimer, IMFTimer::CancelTimer, mf.imftimer_canceltimer, mfidl/IMFTimer::CancelTimer
 ms.topic: method
-f1_keywords: ["mfidl/IMFTimer.CancelTimer"]
+f1_keywords: 
+ - "mfidl/IMFTimer.CancelTimer"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

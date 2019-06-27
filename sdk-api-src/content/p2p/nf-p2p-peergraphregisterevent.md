@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGraphRegisterEvent, PeerGraphRegisterEvent function [Peer Networking], p2p.peergraphregisterevent, p2p/PeerGraphRegisterEvent
 ms.topic: function
-f1_keywords: ["p2p/PeerGraphRegisterEvent"]
+f1_keywords: 
+ - "p2p/PeerGraphRegisterEvent"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteNtmsRequests, DeleteNtmsRequests function [Files], NTMS_LIBREQUEST, NTMS_OPREQUEST, _zaw_deletentmsrequests, base.deletentmsrequests, fs.deletentmsrequests, ntmsapi/DeleteNtmsRequests
 ms.topic: function
-f1_keywords: ["ntmsapi/DeleteNtmsRequests"]
+f1_keywords: 
+ - "ntmsapi/DeleteNtmsRequests"
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

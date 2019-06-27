@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWNV_POLICY_MISMATCH_PARAM, PWNV_POLICY_MISMATCH_PARAM, PWNV_POLICY_MISMATCH_PARAM structure pointer [Windows Network Virtualization], WNV_POLICY_MISMATCH_PARAM, WNV_POLICY_MISMATCH_PARAM structure [Windows Network Virtualization], wnv.wnv_policy_mismatch_param, wnvapi/PWNV_POLICY_MISMATCH_PARAM, wnvapi/WNV_POLICY_MISMATCH_PARAM"
 ms.topic: struct
-f1_keywords: ["wnvapi/WNV_POLICY_MISMATCH_PARAM"]
+f1_keywords: 
+ - "wnvapi/WNV_POLICY_MISMATCH_PARAM"
 req.header: wnvapi.h
 req.include-header: 
 req.target-type: Windows

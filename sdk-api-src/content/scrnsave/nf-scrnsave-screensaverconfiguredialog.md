@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScreenSaverConfigureDialog, ScreenSaverConfigureDialog function [Windows Shell], _win32_ScreenSaverConfigureDialog, scrnsave/ScreenSaverConfigureDialog, shell.ScreenSaverConfigureDialog
 ms.topic: function
-f1_keywords: ["scrnsave/ScreenSaverConfigureDialog"]
+f1_keywords: 
+ - "scrnsave/ScreenSaverConfigureDialog"
 req.header: scrnsave.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WER_DUMP_NOHEAP_ONQUEUE, WerDumpTypeHeapDump, WerDumpTypeMicroDump, WerDumpTypeMiniDump, WerReportAddDump, WerReportAddDump function [Windows Error Reporting], base.werreportadddump, wer.werreportadddump, werapi/WerReportAddDump
 ms.topic: function
-f1_keywords: ["werapi/WerReportAddDump"]
+f1_keywords: 
+ - "werapi/WerReportAddDump"
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

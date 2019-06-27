@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnSubscriberInformation interface [Microsoft Broadband Networks],SubscriberID property, IMbnSubscriberInformation.SubscriberID, IMbnSubscriberInformation.get_SubscriberID, IMbnSubscriberInformation::SubscriberID, IMbnSubscriberInformation::get_SubscriberID, SubscriberID property [Microsoft Broadband Networks], SubscriberID property [Microsoft Broadband Networks],IMbnSubscriberInformation interface, get_SubscriberID, mbn.imbnsubscriberinformation_subscriberid, mbnapi/IMbnSubscriberInformation::SubscriberID, mbnapi/IMbnSubscriberInformation::get_SubscriberID
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnSubscriberInformation.SubscriberID"]
+f1_keywords: 
+ - "mbnapi/IMbnSubscriberInformation.SubscriberID"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

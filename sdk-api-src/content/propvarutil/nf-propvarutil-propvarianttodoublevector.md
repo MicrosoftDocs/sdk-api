@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantToDoubleVector, PropVariantToDoubleVector function [Windows Properties], _shell_PropVariantToDoubleVector, properties.PropVariantToDoubleVector, propvarutil/PropVariantToDoubleVector, shell.PropVariantToDoubleVector
 ms.topic: function
-f1_keywords: ["propvarutil/PropVariantToDoubleVector"]
+f1_keywords: 
+ - "propvarutil/PropVariantToDoubleVector"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

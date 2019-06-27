@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSegments, GetSegments method [Direct2D], GetSegments method [Direct2D],ID2D1Ink interface, ID2D1Ink interface [Direct2D],GetSegments method, ID2D1Ink.GetSegments, ID2D1Ink::GetSegments, d2d1_3/ID2D1Ink::GetSegments, direct2d.id2d1ink_getsegments
 ms.topic: method
-f1_keywords: ["d2d1_3/ID2D1Ink.GetSegments"]
+f1_keywords: 
+ - "d2d1_3/ID2D1Ink.GetSegments"
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

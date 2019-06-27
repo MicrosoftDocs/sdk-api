@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRESOURCE_FAILURE_INFO_BUFFER, PRESOURCE_FAILURE_INFO_BUFFER, PRESOURCE_FAILURE_INFO_BUFFER structure pointer [Failover Cluster], RESOURCE_FAILURE_INFO_BUFFER, RESOURCE_FAILURE_INFO_BUFFER structure [Failover Cluster], clusapi/PRESOURCE_FAILURE_INFO_BUFFER, clusapi/RESOURCE_FAILURE_INFO_BUFFER, msclus/PRESOURCE_FAILURE_INFO_BUFFER, msclus/RESOURCE_FAILURE_INFO_BUFFER, mscs.resource_failure_info_buffer"
 ms.topic: struct
-f1_keywords: ["clusapi/RESOURCE_FAILURE_INFO_BUFFER"]
+f1_keywords: 
+ - "clusapi/RESOURCE_FAILURE_INFO_BUFFER"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

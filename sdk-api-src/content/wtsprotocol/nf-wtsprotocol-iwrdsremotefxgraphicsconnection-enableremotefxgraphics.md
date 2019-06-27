@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnableRemoteFXGraphics, EnableRemoteFXGraphics method [Remote Desktop Services], EnableRemoteFXGraphics method [Remote Desktop Services],IWRdsRemoteFXGraphicsConnection interface, IWRdsRemoteFXGraphicsConnection interface [Remote Desktop Services],EnableRemoteFXGraphics method, IWRdsRemoteFXGraphicsConnection.EnableRemoteFXGraphics, IWRdsRemoteFXGraphicsConnection::EnableRemoteFXGraphics, termserv.iwrdsremotefxgraphicsconnection_enableremotefxgraphics, wtsprotocol/IWRdsRemoteFXGraphicsConnection::EnableRemoteFXGraphics
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWRdsRemoteFXGraphicsConnection.EnableRemoteFXGraphics"]
+f1_keywords: 
+ - "wtsprotocol/IWRdsRemoteFXGraphicsConnection.EnableRemoteFXGraphics"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RPC_IF_ID_VECTOR, RPC_IF_ID_VECTOR structure [RPC], _rpc_rpc_if_id_vector, rpc.rpc_if_id_vector, rpcdce/RPC_IF_ID_VECTOR
 ms.topic: struct
-f1_keywords: ["rpcdce/RPC_IF_ID_VECTOR"]
+f1_keywords: 
+ - "rpcdce/RPC_IF_ID_VECTOR"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

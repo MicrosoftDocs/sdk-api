@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTime property [Remote Desktop Services], CreateTime property [Remote Desktop Services],ITsSbSession interface, ITsSbSession interface [Remote Desktop Services],CreateTime property, ITsSbSession.CreateTime, ITsSbSession.get_CreateTime, ITsSbSession::CreateTime, ITsSbSession::get_CreateTime, ITsSbSession::put_CreateTime, get_CreateTime, sbtsv/ITsSbSession::CreateTime, sbtsv/ITsSbSession::get_CreateTime, sbtsv/ITsSbSession::put_CreateTime, termserv.itssbsession_createtime
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbSession.CreateTime"]
+f1_keywords: 
+ - "sbtsv/ITsSbSession.CreateTime"
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
 req.target-type: Windows

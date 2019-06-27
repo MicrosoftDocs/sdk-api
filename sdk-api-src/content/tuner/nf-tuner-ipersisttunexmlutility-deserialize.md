@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Deserialize, Deserialize method [Microsoft TV Technologies], Deserialize method [Microsoft TV Technologies],IPersistTuneXmlUtility interface, IPersistTuneXmlUtility interface [Microsoft TV Technologies],Deserialize method, IPersistTuneXmlUtility.Deserialize, IPersistTuneXmlUtility::Deserialize, mstv.ipersisttunexmlutility_deserialize, tuner/IPersistTuneXmlUtility::Deserialize
 ms.topic: method
-f1_keywords: ["tuner/IPersistTuneXmlUtility.Deserialize"]
+f1_keywords: 
+ - "tuner/IPersistTuneXmlUtility.Deserialize"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

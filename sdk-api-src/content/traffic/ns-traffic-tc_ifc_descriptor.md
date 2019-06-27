@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTC_IFC_DESCRIPTOR, PTC_IFC_DESCRIPTOR, PTC_IFC_DESCRIPTOR structure pointer [QOS], TC_IFC_DESCRIPTOR, TC_IFC_DESCRIPTOR structure [QOS], _gqos_tc_ifc_descriptor, qos.tc_ifc_descriptor, traffic/PTC_IFC_DESCRIPTOR, traffic/TC_IFC_DESCRIPTOR"
 ms.topic: struct
-f1_keywords: ["traffic/TC_IFC_DESCRIPTOR"]
+f1_keywords: 
+ - "traffic/TC_IFC_DESCRIPTOR"
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSearchCandidates, GetSearchCandidates method [Text Services Framework], GetSearchCandidates method [Text Services Framework],ITfFnSearchCandidateProvider interface, ITfFnSearchCandidateProvider interface [Text Services Framework],GetSearchCandidates method, ITfFnSearchCandidateProvider.GetSearchCandidates, ITfFnSearchCandidateProvider::GetSearchCandidates, ctffunc/ITfFnSearchCandidateProvider::GetSearchCandidates, tsf.itffnsearchcandidateprovider_getsearchcandidates
 ms.topic: method
-f1_keywords: ["ctffunc/ITfFnSearchCandidateProvider.GetSearchCandidates"]
+f1_keywords: 
+ - "ctffunc/ITfFnSearchCandidateProvider.GetSearchCandidates"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

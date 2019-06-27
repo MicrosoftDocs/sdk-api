@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],ReturnFromSubmenu method, IDvdControl2.ReturnFromSubmenu, IDvdControl2::ReturnFromSubmenu, IDvdControl2ReturnFromSubmenu, ReturnFromSubmenu, ReturnFromSubmenu method [DirectShow], ReturnFromSubmenu method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_returnfromsubmenu, strmif/IDvdControl2::ReturnFromSubmenu
 ms.topic: method
-f1_keywords: ["strmif/IDvdControl2.ReturnFromSubmenu"]
+f1_keywords: 
+ - "strmif/IDvdControl2.ReturnFromSubmenu"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTimes, GetTimes method [Offline Files], GetTimes method [Offline Files],IOfflineFilesFileSysInfo interface, IOfflineFilesFileSysInfo interface [Offline Files],GetTimes method, IOfflineFilesFileSysInfo.GetTimes, IOfflineFilesFileSysInfo::GetTimes, cscobj/IOfflineFilesFileSysInfo::GetTimes, of.iofflinefilesfilesysinfo_gettimes
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesFileSysInfo.GetTimes"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesFileSysInfo.GetTimes"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

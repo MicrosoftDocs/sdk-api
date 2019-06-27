@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetServiceId, GetServiceId method [Microsoft TV Technologies], GetServiceId method [Microsoft TV Technologies],IIsdbEmergencyInformationDescriptor interface, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],GetServiceId method, IIsdbEmergencyInformationDescriptor.GetServiceId, IIsdbEmergencyInformationDescriptor::GetServiceId, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetServiceId, mstv.iisdbemergencyinformationdescriptor_getserviceid
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbEmergencyInformationDescriptor.GetServiceId"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbEmergencyInformationDescriptor.GetServiceId"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

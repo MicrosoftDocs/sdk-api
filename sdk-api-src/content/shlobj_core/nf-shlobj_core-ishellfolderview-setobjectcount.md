@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellFolderView interface [Windows Shell],SetObjectCount method, IShellFolderView.SetObjectCount, IShellFolderView::SetObjectCount, SFVSOC_INVALIDATE_ALL, SFVSOC_NOSCROLL, SetObjectCount, SetObjectCount method [Windows Shell], SetObjectCount method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_SetObjectCount, shell.IShellFolderView_SetObjectCount, shlobj_core/IShellFolderView::SetObjectCount
 ms.topic: method
-f1_keywords: ["shlobj_core/IShellFolderView.SetObjectCount"]
+f1_keywords: 
+ - "shlobj_core/IShellFolderView.SetObjectCount"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12Fence interface,Signal method, ID3D12Fence.Signal, ID3D12Fence::Signal, Signal, Signal method, Signal method,ID3D12Fence interface, d3d12/ID3D12Fence::Signal, direct3d12.id3d12fence_signal
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12Fence.Signal"]
+f1_keywords: 
+ - "d3d12/ID3D12Fence.Signal"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

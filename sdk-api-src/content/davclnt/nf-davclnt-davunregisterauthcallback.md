@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DavUnregisterAuthCallback, DavUnregisterAuthCallback function [WebDAV], davclnt/DavUnregisterAuthCallback, webdav.davunregisterauthcallback
 ms.topic: function
-f1_keywords: ["davclnt/DavUnregisterAuthCallback"]
+f1_keywords: 
+ - "davclnt/DavUnregisterAuthCallback"
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows

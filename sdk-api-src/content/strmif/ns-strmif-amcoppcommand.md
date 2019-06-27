@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPAMCOPPCommand, AMCOPPCommand, AMCOPPCommand structure [DirectShow], AMCOPPCommandStructure, LPAMCOPPCommand, LPAMCOPPCommand structure pointer [DirectShow], dshow.amcoppcommand, strmif/AMCOPPCommand, strmif/LPAMCOPPCommand"
 ms.topic: struct
-f1_keywords: ["strmif/AMCOPPCommand"]
+f1_keywords: 
+ - "strmif/AMCOPPCommand"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCertServerExit object [Security],GetRequestAttribute method, GetRequestAttribute, GetRequestAttribute method [Security], GetRequestAttribute method [Security],CCertServerExit object, GetRequestAttribute method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetRequestAttribute method, ICertServerExit.GetRequestAttribute, ICertServerExit::GetRequestAttribute, _certsrv_icertserverexit_getrequestattribute, certif/ICertServerExit::GetRequestAttribute, security.icertserverexit_getrequestattribute
 ms.topic: method
-f1_keywords: ["certif/ICertServerExit.GetRequestAttribute"]
+f1_keywords: 
+ - "certif/ICertServerExit.GetRequestAttribute"
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows

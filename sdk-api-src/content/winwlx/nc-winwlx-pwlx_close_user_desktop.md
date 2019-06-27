@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWLX_CLOSE_USER_DESKTOP, PWLX_CLOSE_USER_DESKTOP callback, WlxCloseUserDesktop, WlxCloseUserDesktop callback function [Security], _gina_wlxcloseuserdesktop, security.wlxcloseuserdesktop, winwlx/WlxCloseUserDesktop
 ms.topic: callback
-f1_keywords: ["winwlx/WlxCloseUserDesktop"]
+f1_keywords: 
+ - "winwlx/WlxCloseUserDesktop"
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

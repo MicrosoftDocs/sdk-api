@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanHostedNetworkSetProperty, WlanHostedNetworkSetProperty function [NativeWIFI], nwifi.wlanhostednetworksetproperty, wlan_hosted_network_opcode_connection_settings, wlan_hosted_network_opcode_enable, wlanapi/WlanHostedNetworkSetProperty
 ms.topic: function
-f1_keywords: ["wlanapi/WlanHostedNetworkSetProperty"]
+f1_keywords: 
+ - "wlanapi/WlanHostedNetworkSetProperty"
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

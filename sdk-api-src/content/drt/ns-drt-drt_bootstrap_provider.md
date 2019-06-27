@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDRT_BOOTSTRAP_PROVIDER, DRT_BOOTSTRAP_PROVIDER, DRT_BOOTSTRAP_PROVIDER structure [Peer Networking], PDRT_BOOTSTRAP_PROVIDER, PDRT_BOOTSTRAP_PROVIDER structure pointer [Peer Networking], drt/DRT_BOOTSTRAP_PROVIDER, drt/PDRT_BOOTSTRAP_PROVIDER, p2p.drt_bootstrap_provider"
 ms.topic: struct
-f1_keywords: ["drt/DRT_BOOTSTRAP_PROVIDER"]
+f1_keywords: 
+ - "drt/DRT_BOOTSTRAP_PROVIDER"
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

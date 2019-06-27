@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTCRMode, GetTCRMode method [DirectShow], GetTCRMode method [DirectShow],IAMTimecodeReader interface, IAMTimecodeReader interface [DirectShow],GetTCRMode method, IAMTimecodeReader.GetTCRMode, IAMTimecodeReader::GetTCRMode, IAMTimecodeReaderGetTCRMode, dshow.iamtimecodereader_gettcrmode, strmif/IAMTimecodeReader::GetTCRMode
 ms.topic: method
-f1_keywords: ["strmif/IAMTimecodeReader.GetTCRMode"]
+f1_keywords: 
+ - "strmif/IAMTimecodeReader.GetTCRMode"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ObjectControl, ObjectControl interface [COM+], ObjectControl interface [COM+],described, _cos_ObjectControl, comsvcs/ObjectControl, cos.objectcontrol
 ms.topic: interface
-f1_keywords: ["comsvcs/ObjectControl"]
+f1_keywords: 
+ - "comsvcs/ObjectControl"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

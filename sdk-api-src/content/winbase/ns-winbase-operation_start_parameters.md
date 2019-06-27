@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*POPERATION_START_PARAMETERS, OPERATION_API_VERSION, OPERATION_START_PARAMETERS, OPERATION_START_PARAMETERS structure [Operation Recorder], OPERATION_START_TRACE_CURRENT_THREAD, POPERATION_START_PARAMETERS, POPERATION_START_PARAMETERS structure pointer [Operation Recorder], _OPERATION_START_PARAMETERS, oprec.operation_start_parameters, winbase/OPERATION_START_PARAMETERS, winbase/POPERATION_START_PARAMETERS"
 ms.topic: struct
-f1_keywords: ["winbase/OPERATION_START_PARAMETERS"]
+f1_keywords: 
+ - "winbase/OPERATION_START_PARAMETERS"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

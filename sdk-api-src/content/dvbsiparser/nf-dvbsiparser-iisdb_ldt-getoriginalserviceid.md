@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOriginalServiceId, GetOriginalServiceId method [Microsoft TV Technologies], GetOriginalServiceId method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetOriginalServiceId method, IISDB_LDT.GetOriginalServiceId, IISDB_LDT::GetOriginalServiceId, dvbsiparser/IISDB_LDT::GetOriginalServiceId, mstv.iisdb_ldt_getoriginalserviceid
 ms.topic: method
-f1_keywords: ["dvbsiparser/IISDB_LDT.GetOriginalServiceId"]
+f1_keywords: 
+ - "dvbsiparser/IISDB_LDT.GetOriginalServiceId"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

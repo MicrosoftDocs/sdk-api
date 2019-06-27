@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ColumnCount property [Windows Accessibility], ColumnCount property [Windows Accessibility],IGridProvider interface, IGridProvider interface [Windows Accessibility],ColumnCount property, IGridProvider.ColumnCount, IGridProvider.get_ColumnCount, IGridProvider::ColumnCount, IGridProvider::get_ColumnCount, get_ColumnCount, uiauto.uiauto_IGridProvider_ColumnCount, uiauto_IGridProvider_ColumnCount, uiautomationcore/IGridProvider::ColumnCount, uiautomationcore/IGridProvider::get_ColumnCount, winauto.uiauto_IGridProvider_ColumnCount
 ms.topic: method
-f1_keywords: ["uiautomationcore/IGridProvider.ColumnCount"]
+f1_keywords: 
+ - "uiautomationcore/IGridProvider.ColumnCount"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFilter, IFilter interface [Indexing Service], IFilter interface [Indexing Service],described, _idxs_IFilter, filter/IFilter, indexsrv.ifilter
 ms.topic: interface
-f1_keywords: ["filter/IFilter"]
+f1_keywords: 
+ - "filter/IFilter"
 req.header: filter.h
 req.include-header: 
 req.target-type: Windows

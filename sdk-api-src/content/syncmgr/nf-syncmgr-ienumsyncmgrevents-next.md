@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncMgrEvents interface [Windows Shell],Next method, IEnumSyncMgrEvents.Next, IEnumSyncMgrEvents::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumSyncMgrEvents interface, _shell_IEnumSyncMgrEvents_Next, shell.IEnumSyncMgrEvents_Next, syncmgr/IEnumSyncMgrEvents::Next
 ms.topic: method
-f1_keywords: ["syncmgr/IEnumSyncMgrEvents.Next"]
+f1_keywords: 
+ - "syncmgr/IEnumSyncMgrEvents.Next"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

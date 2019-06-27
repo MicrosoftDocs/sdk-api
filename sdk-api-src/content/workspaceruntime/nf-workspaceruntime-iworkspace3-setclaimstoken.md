@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWorkspace3 interface [Remote Desktop Services],SetClaimsToken method, IWorkspace3.SetClaimsToken, IWorkspace3::SetClaimsToken, SetClaimsToken, SetClaimsToken method [Remote Desktop Services], SetClaimsToken method [Remote Desktop Services],IWorkspace3 interface, termserv.iworkspace3_setclaimstoken, workspaceruntime/IWorkspace3::SetClaimsToken
 ms.topic: method
-f1_keywords: ["workspaceruntime/IWorkspace3.SetClaimsToken"]
+f1_keywords: 
+ - "workspaceruntime/IWorkspace3.SetClaimsToken"
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows

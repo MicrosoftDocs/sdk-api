@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRFilterConfig9 interface [DirectShow],SetNumberOfStreams method, IVMRFilterConfig9.SetNumberOfStreams, IVMRFilterConfig9::SetNumberOfStreams, IVMRFilterConfig9SetNumberOfStreams, SetNumberOfStreams, SetNumberOfStreams method [DirectShow], SetNumberOfStreams method [DirectShow],IVMRFilterConfig9 interface, dshow.ivmrfilterconfig9_setnumberofstreams, vmr9/IVMRFilterConfig9::SetNumberOfStreams
 ms.topic: method
-f1_keywords: ["vmr9/IVMRFilterConfig9.SetNumberOfStreams"]
+f1_keywords: 
+ - "vmr9/IVMRFilterConfig9.SetNumberOfStreams"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

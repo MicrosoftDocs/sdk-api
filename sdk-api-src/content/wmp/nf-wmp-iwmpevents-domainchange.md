@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DomainChange, DomainChange method [Windows Media Player], DomainChange method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],DomainChange method, IWMPEvents.DomainChange, IWMPEvents::DomainChange, IWMPEventsDomainChange, wmp.iwmpevents_iwmpevents__domainchange, wmp/IWMPEvents::DomainChange
 ms.topic: method
-f1_keywords: ["wmp/IWMPEvents.DomainChange"]
+f1_keywords: 
+ - "wmp/IWMPEvents.DomainChange"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

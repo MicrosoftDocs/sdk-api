@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNextPage, GetNextPage method [Windows Shell], GetNextPage method [Windows Shell],IWizardSite interface, IWizardSite interface [Windows Shell],GetNextPage method, IWizardSite.GetNextPage, IWizardSite::GetNextPage, _shell_IWizardSite_GetNextPage, shell.IWizardSite_GetNextPage, shobjidl/IWizardSite::GetNextPage
 ms.topic: method
-f1_keywords: ["shobjidl/IWizardSite.GetNextPage"]
+f1_keywords: 
+ - "shobjidl/IWizardSite.GetNextPage"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

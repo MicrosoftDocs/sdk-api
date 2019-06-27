@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystem interface,QueryMaxLunCreateSize method, IVdsSubSystem.QueryMaxLunCreateSize, IVdsSubSystem::QueryMaxLunCreateSize, QueryMaxLunCreateSize, QueryMaxLunCreateSize method, QueryMaxLunCreateSize method,IVdsSubSystem interface, base.ivdssubsystem_querymaxluncreatesize, vds/IVdsSubSystem::QueryMaxLunCreateSize, vdshwprv/IVdsSubSystem::QueryMaxLunCreateSize
 ms.topic: method
-f1_keywords: ["vds/IVdsSubSystem.QueryMaxLunCreateSize"]
+f1_keywords: 
+ - "vds/IVdsSubSystem.QueryMaxLunCreateSize"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

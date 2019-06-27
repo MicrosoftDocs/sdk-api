@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FIND_ENDSWITH, FIND_FROMEND, FIND_FROMSTART, FIND_STARTSWITH, FindStringOrdinal, FindStringOrdinal function [Internationalization for Windows Applications], intl.findstringordinal, libloaderapi/FindStringOrdinal
 ms.topic: function
-f1_keywords: ["libloaderapi/FindStringOrdinal"]
+f1_keywords: 
+ - "libloaderapi/FindStringOrdinal"
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

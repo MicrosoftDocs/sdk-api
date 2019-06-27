@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1RenderTarget interface [Direct2D],PushLayer method, ID2D1RenderTarget.PushLayer, ID2D1RenderTarget::PushLayer, ID2D1RenderTarget::PushLayer(const D2D1_LAYER_PARAMETERS,ID2D1Layer), PushLayer, PushLayer method [Direct2D], PushLayer method [Direct2D],ID2D1RenderTarget interface, d2d1/ID2D1RenderTarget::PushLayer, direct2d.ID2D1RenderTarget_PushLayer_ptr_D2D1_LAYER_PARAMETERS_ptr_ID2D1Layer
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1RenderTarget.PushLayer"]
+f1_keywords: 
+ - "d2d1/ID2D1RenderTarget.PushLayer"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

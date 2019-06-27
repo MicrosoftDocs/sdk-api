@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumCandidates, EnumCandidates method [Text Services Framework], EnumCandidates method [Text Services Framework],ITfCandidateList interface, ITfCandidateList interface [Text Services Framework],EnumCandidates method, ITfCandidateList.EnumCandidates, ITfCandidateList::EnumCandidates, _tsf_itfcandidatelist_enumcandidates_ref, ctffunc/ITfCandidateList::EnumCandidates, tsf.itfcandidatelist_enumcandidates
 ms.topic: method
-f1_keywords: ["ctffunc/ITfCandidateList.EnumCandidates"]
+f1_keywords: 
+ - "ctffunc/ITfCandidateList.EnumCandidates"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

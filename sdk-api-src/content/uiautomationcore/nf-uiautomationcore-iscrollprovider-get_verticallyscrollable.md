@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IScrollProvider interface [Windows Accessibility],VerticallyScrollable property, IScrollProvider.VerticallyScrollable, IScrollProvider.get_VerticallyScrollable, IScrollProvider::VerticallyScrollable, IScrollProvider::get_VerticallyScrollable, VerticallyScrollable property [Windows Accessibility], VerticallyScrollable property [Windows Accessibility],IScrollProvider interface, get_VerticallyScrollable, uiauto.uiauto_IScrollProvider_VerticallyScrollable, uiauto_IScrollProvider_VerticallyScrollable, uiautomationcore/IScrollProvider::VerticallyScrollable, uiautomationcore/IScrollProvider::get_VerticallyScrollable, winauto.uiauto_IScrollProvider_VerticallyScrollable
 ms.topic: method
-f1_keywords: ["uiautomationcore/IScrollProvider.VerticallyScrollable"]
+f1_keywords: 
+ - "uiautomationcore/IScrollProvider.VerticallyScrollable"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

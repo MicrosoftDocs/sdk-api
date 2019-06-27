@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_recvfrom_2, recvfrom, recvfrom function [Winsock], winsock.recvfrom_2, winsock/recvfrom"
 ms.topic: function
-f1_keywords: ["winsock2/recvfrom"]
+f1_keywords: 
+ - "winsock2/recvfrom"
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows

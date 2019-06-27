@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TASK_ENUM_FLAGS, TASK_ENUM_FLAGS enumeration [Task Scheduler], TASK_ENUM_HIDDEN, taskschd.task_enum_flags, taskschd/TASK_ENUM_FLAGS, taskschd/TASK_ENUM_HIDDEN
 ms.topic: enum
-f1_keywords: ["taskschd/TASK_ENUM_FLAGS"]
+f1_keywords: 
+ - "taskschd/TASK_ENUM_FLAGS"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

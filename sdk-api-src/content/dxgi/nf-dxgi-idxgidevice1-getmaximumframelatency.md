@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 65e01dd1-b488-81d7-8806-77a7e4bb8f02, GetMaximumFrameLatency, GetMaximumFrameLatency method [DXGI], GetMaximumFrameLatency method [DXGI],IDXGIDevice1 interface, IDXGIDevice1 interface [DXGI],GetMaximumFrameLatency method, IDXGIDevice1.GetMaximumFrameLatency, IDXGIDevice1::GetMaximumFrameLatency, direct3ddxgi.idxgidevice1_getmaximumframelatency, dxgi/IDXGIDevice1::GetMaximumFrameLatency
 ms.topic: method
-f1_keywords: ["dxgi/IDXGIDevice1.GetMaximumFrameLatency"]
+f1_keywords: 
+ - "dxgi/IDXGIDevice1.GetMaximumFrameLatency"
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

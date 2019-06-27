@@ -8,7 +8,8 @@ ms.author: windowssdkdev
 ms.date: 02/06/2019
 ms.keywords: D3D12_DEVICE_REMOVED_EXTENDED_DATA, D3D12_DEVICE_REMOVED_EXTENDED_DATA structure, d3d12/D3D12_DEVICE_REMOVED_EXTENDED_DATA, direct3d12.d3d12_device_removed_extended_data
 ms.topic: struct
-f1_keywords: ["d3d12/D3D12_DEVICE_REMOVED_EXTENDED_DATA"]
+f1_keywords: 
+ - "d3d12/D3D12_DEVICE_REMOVED_EXTENDED_DATA"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

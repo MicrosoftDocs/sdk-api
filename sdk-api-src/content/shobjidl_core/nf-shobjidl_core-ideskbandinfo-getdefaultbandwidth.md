@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DBIF_VIEWMODE_FLOATING, DBIF_VIEWMODE_NORMAL, DBIF_VIEWMODE_TRANSPARENT, DBIF_VIEWMODE_VERTICAL, GetDefaultBandWidth, GetDefaultBandWidth method [Windows Shell], GetDefaultBandWidth method [Windows Shell],IDeskBandInfo interface, IDeskBandInfo interface [Windows Shell],GetDefaultBandWidth method, IDeskBandInfo.GetDefaultBandWidth, IDeskBandInfo::GetDefaultBandWidth, _shell_IDeskBandInfo_GetDefaultBandWidth, shell.IDeskBandInfo_GetDefaultBandWidth, shobjidl_core/IDeskBandInfo::GetDefaultBandWidth
 ms.topic: method
-f1_keywords: ["shobjidl_core/IDeskBandInfo.GetDefaultBandWidth"]
+f1_keywords: 
+ - "shobjidl_core/IDeskBandInfo.GetDefaultBandWidth"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

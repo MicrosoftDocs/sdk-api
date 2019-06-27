@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddStream, AddStream method [Microsoft TV Technologies], AddStream method [Microsoft TV Technologies],ISBE2MediaTypeProfile interface, ISBE2MediaTypeProfile interface [Microsoft TV Technologies],AddStream method, ISBE2MediaTypeProfile.AddStream, ISBE2MediaTypeProfile::AddStream, mstv.isbe2mediatypeprofile_addstream, sbe/ISBE2MediaTypeProfile::AddStream
 ms.topic: method
-f1_keywords: ["sbe/ISBE2MediaTypeProfile.AddStream"]
+f1_keywords: 
+ - "sbe/ISBE2MediaTypeProfile.AddStream"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

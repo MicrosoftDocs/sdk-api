@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyBag2, IFsrmPropertyBag2 interface [File Server Resource Manager], IFsrmPropertyBag2 interface [File Server Resource Manager],described, fs.ifsrmpropertybag2, fsrm.ifsrmpropertybag2, fsrmpipeline/IFsrmPropertyBag2
 ms.topic: interface
-f1_keywords: ["fsrmpipeline/IFsrmPropertyBag2"]
+f1_keywords: 
+ - "fsrmpipeline/IFsrmPropertyBag2"
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFContentProtectionDevice interface [Media Foundation],InvokeFunction method, IMFContentProtectionDevice.InvokeFunction, IMFContentProtectionDevice::InvokeFunction, InvokeFunction, InvokeFunction method [Media Foundation], InvokeFunction method [Media Foundation],IMFContentProtectionDevice interface, mf.imfcontentprotectiondevice_invokefunction, mfidl/IMFContentProtectionDevice::InvokeFunction
 ms.topic: method
-f1_keywords: ["mfidl/IMFContentProtectionDevice.InvokeFunction"]
+f1_keywords: 
+ - "mfidl/IMFContentProtectionDevice.InvokeFunction"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],put_OtherFrequencyInUse method, IDVBTLocator.put_OtherFrequencyInUse, IDVBTLocator::put_OtherFrequencyInUse, IDVBTLocatorput_OtherFrequencyInUse, mstv.idvbtlocator_put_otherfrequencyinuse, put_OtherFrequencyInUse, put_OtherFrequencyInUse method [Microsoft TV Technologies], put_OtherFrequencyInUse method [Microsoft TV Technologies],IDVBTLocator interface, tuner/IDVBTLocator::put_OtherFrequencyInUse
 ms.topic: method
-f1_keywords: ["tuner/IDVBTLocator.put_OtherFrequencyInUse"]
+f1_keywords: 
+ - "tuner/IDVBTLocator.put_OtherFrequencyInUse"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

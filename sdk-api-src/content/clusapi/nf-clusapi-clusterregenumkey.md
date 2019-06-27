@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterRegEnumKey, ClusterRegEnumKey function [Failover Cluster], _wolf_clusterregenumkey, clusapi/ClusterRegEnumKey, mscs.clusterregenumkey
 ms.topic: function
-f1_keywords: ["clusapi/ClusterRegEnumKey"]
+f1_keywords: 
+ - "clusapi/ClusterRegEnumKey"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

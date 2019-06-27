@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDDSETSKIPFIELD, DDSETSKIPFIELD, DDSETSKIPFIELD structure [Display Devices], LPDDSETSKIPFIELD, LPDDSETSKIPFIELD structure pointer [Display Devices], ddkmapi/DDSETSKIPFIELD, ddkmapi/LPDDSETSKIPFIELD, ddstrcts_a0567a56-5d6e-4154-86ff-90463ed2c554.xml, display.ddsetskipfield"
 ms.topic: struct
-f1_keywords: ["ddkmapi/DDSETSKIPFIELD"]
+f1_keywords: 
+ - "ddkmapi/DDSETSKIPFIELD"
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows

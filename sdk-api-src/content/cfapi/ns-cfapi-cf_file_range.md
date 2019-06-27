@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CF_FILE_RANGE, CF_FILE_RANGE structure, cfapi/CF_FILE_RANGE, cloudApi.cf_file_range
 ms.topic: struct
-f1_keywords: ["cfapi/CF_FILE_RANGE"]
+f1_keywords: 
+ - "cfapi/CF_FILE_RANGE"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

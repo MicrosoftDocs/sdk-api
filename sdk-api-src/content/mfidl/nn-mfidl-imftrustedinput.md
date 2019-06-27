@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 59a9def7-69a6-4f80-bb5e-1cb372ff6eab, IMFTrustedInput, IMFTrustedInput interface [Media Foundation], IMFTrustedInput interface [Media Foundation],described, mf.imftrustedinput, mfidl/IMFTrustedInput
 ms.topic: interface
-f1_keywords: ["mfidl/IMFTrustedInput"]
+f1_keywords: 
+ - "mfidl/IMFTrustedInput"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

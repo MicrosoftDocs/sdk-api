@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Hide, Hide method [Tablet PC], Hide method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],Hide method, IMathInputControl.Hide, IMathInputControl::Hide, micaut/IMathInputControl::Hide, tablet.imathinputcontrol_hide
 ms.topic: method
-f1_keywords: ["micaut/IMathInputControl.Hide"]
+f1_keywords: 
+ - "micaut/IMathInputControl.Hide"
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows

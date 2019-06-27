@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 05/06/2019
 ms.keywords: XMFLOAT3PK, XMFLOAT3PK constructor [DirectX Math Support APIs], XMFLOAT3PK constructor [DirectX Math Support APIs],XMFLOAT3PK structure, XMFLOAT3PK structure [DirectX Math Support APIs],XMFLOAT3PK constructor, XMFLOAT3PK.XMFLOAT3PK, XMFLOAT3PK.XMFLOAT3PK(), XMFLOAT3PK.XMFLOAT3PK(const XMFLOAT3PK &), XMFLOAT3PK::XMFLOAT3PK, XMFLOAT3PK::XMFLOAT3PK(const XMFLOAT3PK &), dxmath.xmfloat3pk_ctor_1
 ms.topic: method
-f1_keywords: ["directxpackedvector/XMFLOAT3PK.XMFLOAT3PK"]
+f1_keywords: 
+ - "directxpackedvector/XMFLOAT3PK.XMFLOAT3PK"
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

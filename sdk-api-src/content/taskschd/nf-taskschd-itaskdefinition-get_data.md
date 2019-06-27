@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Data property [Task Scheduler], Data property [Task Scheduler],ITaskDefinition interface, ITaskDefinition interface [Task Scheduler],Data property, ITaskDefinition.Data, ITaskDefinition.get_Data, ITaskDefinition::Data, ITaskDefinition::get_Data, ITaskDefinition::put_Data, get_Data, taskschd.itaskdefinition_data, taskschd/ITaskDefinition::Data, taskschd/ITaskDefinition::get_Data, taskschd/ITaskDefinition::put_Data
 ms.topic: method
-f1_keywords: ["taskschd/ITaskDefinition.Data"]
+f1_keywords: 
+ - "taskschd/ITaskDefinition.Data"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

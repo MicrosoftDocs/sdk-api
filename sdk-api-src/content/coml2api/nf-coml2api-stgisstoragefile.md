@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StgIsStorageFile, StgIsStorageFile function [Structured Storage], _stg_stgisstoragefile, coml2api/StgIsStorageFile, stg.stgisstoragefile
 ms.topic: function
-f1_keywords: ["coml2api/StgIsStorageFile"]
+f1_keywords: 
+ - "coml2api/StgIsStorageFile"
 req.header: coml2api.h
 req.include-header: Objbase.h
 req.target-type: Windows

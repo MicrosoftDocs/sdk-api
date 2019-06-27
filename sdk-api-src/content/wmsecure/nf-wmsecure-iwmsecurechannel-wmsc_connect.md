@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_Connect method, IWMSecureChannel.WMSC_Connect, IWMSecureChannel::WMSC_Connect, WMSC_Connect, WMSC_Connect method [windows Media Format], WMSC_Connect method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_connect, wmsecure/IWMSecureChannel::WMSC_Connect
 ms.topic: method
-f1_keywords: ["wmsecure/IWMSecureChannel.WMSC_Connect"]
+f1_keywords: 
+ - "wmsecure/IWMSecureChannel.WMSC_Connect"
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows

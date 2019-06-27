@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMAPPING_OPTIONS, MAPPING_OPTIONS, MAPPING_OPTIONS structure [Internationalization for Windows Applications], PMAPPING_OPTIONS, PMAPPING_OPTIONS structure pointer [Internationalization for Windows Applications], elscore/MAPPING_OPTIONS, elscore/PMAPPING_OPTIONS, intl.mappingoptions"
 ms.topic: struct
-f1_keywords: ["elscore/MAPPING_OPTIONS"]
+f1_keywords: 
+ - "elscore/MAPPING_OPTIONS"
 req.header: elscore.h
 req.include-header: 
 req.target-type: Windows

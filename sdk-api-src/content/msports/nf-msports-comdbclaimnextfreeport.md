@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComDBClaimNextFreePort, ComDBClaimNextFreePort function [Serial Ports], comdb_ed1e04f0-bebb-4d9f-8603-20e7d15b7644.xml, msports/ComDBClaimNextFreePort, serports.comdbclaimnextfreeport
 ms.topic: function
-f1_keywords: ["msports/ComDBClaimNextFreePort"]
+f1_keywords: 
+ - "msports/ComDBClaimNextFreePort"
 req.header: msports.h
 req.include-header: Msports.h
 req.target-type: Desktop

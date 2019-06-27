@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_EnableGroupView, ListView_EnableGroupView macro [Windows Controls], _win32_ListView_EnableGroupView, _win32_ListView_EnableGroupView_cpp, commctrl/ListView_EnableGroupView, controls.ListView_EnableGroupView, controls._win32_ListView_EnableGroupView
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_EnableGroupView"]
+f1_keywords: 
+ - "commctrl/ListView_EnableGroupView"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

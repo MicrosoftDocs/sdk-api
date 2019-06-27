@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "+1, -1, 0, CompareEnd, CompareEnd method [Text Services Framework], CompareEnd method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],CompareEnd method, ITfRange.CompareEnd, ITfRange::CompareEnd, TF_ANCHOR_END, TF_ANCHOR_START, _tsf_itfrange_compareend_ref, msctf/ITfRange::CompareEnd, tsf.itfrange_compareend"
 ms.topic: method
-f1_keywords: ["msctf/ITfRange.CompareEnd"]
+f1_keywords: 
+ - "msctf/ITfRange.CompareEnd"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

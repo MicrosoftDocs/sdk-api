@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3DReadFileToBlob, D3DReadFileToBlob function [HLSL], d3dcompiler/D3DReadFileToBlob, direct3dhlsl.d3dreadfiletoblob
 ms.topic: function
-f1_keywords: ["d3dcompiler/D3DReadFileToBlob"]
+f1_keywords: 
+ - "d3dcompiler/D3DReadFileToBlob"
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

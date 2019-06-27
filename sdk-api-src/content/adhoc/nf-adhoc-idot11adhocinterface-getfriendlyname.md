@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFriendlyName, GetFriendlyName method [NativeWIFI], GetFriendlyName method [NativeWIFI],IDot11AdHocInterface interface, IDot11AdHocInterface interface [NativeWIFI],GetFriendlyName method, IDot11AdHocInterface.GetFriendlyName, IDot11AdHocInterface::GetFriendlyName, adhoc/IDot11AdHocInterface::GetFriendlyName, nwifi.idot11adhocinterface_getfriendlyname
 ms.topic: method
-f1_keywords: ["adhoc/IDot11AdHocInterface.GetFriendlyName"]
+f1_keywords: 
+ - "adhoc/IDot11AdHocInterface.GetFriendlyName"
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

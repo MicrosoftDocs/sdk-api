@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsBindWithSpnEx, DsBindWithSpnEx function [Active Directory], DsBindWithSpnExA, DsBindWithSpnExW, NTDSAPI_BIND_ALLOW_DELEGATION, NTDSAPI_BIND_FIND_BINDING, NTDSAPI_BIND_FORCE_KERBEROS, ad.dsbindwithspnex, ntdsapi/DsBindWithSpnEx, ntdsapi/DsBindWithSpnExA, ntdsapi/DsBindWithSpnExW
 ms.topic: function
-f1_keywords: ["ntdsapi/DsBindWithSpnEx"]
+f1_keywords: 
+ - "ntdsapi/DsBindWithSpnEx"
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

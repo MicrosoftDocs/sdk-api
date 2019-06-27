@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Begin, Begin method [Media Foundation], Begin method [Media Foundation],IMFCdmSuspendNotify interface, IMFCdmSuspendNotify interface [Media Foundation],Begin method, IMFCdmSuspendNotify.Begin, IMFCdmSuspendNotify::Begin, mf.imfcdmsuspendnotify_begin, mfmediaengine/IMFCdmSuspendNotify::Begin
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFCdmSuspendNotify.Begin"]
+f1_keywords: 
+ - "mfmediaengine/IMFCdmSuspendNotify.Begin"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

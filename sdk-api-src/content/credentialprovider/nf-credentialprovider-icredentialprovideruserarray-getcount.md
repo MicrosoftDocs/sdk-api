@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Windows Shell], GetCount method [Windows Shell],ICredentialProviderUserArray interface, ICredentialProviderUserArray interface [Windows Shell],GetCount method, ICredentialProviderUserArray.GetCount, ICredentialProviderUserArray::GetCount, credentialprovider/ICredentialProviderUserArray::GetCount, shell.ICredentialProviderUserArray_GetCount
 ms.topic: method
-f1_keywords: ["credentialprovider/ICredentialProviderUserArray.GetCount"]
+f1_keywords: 
+ - "credentialprovider/ICredentialProviderUserArray.GetCount"
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

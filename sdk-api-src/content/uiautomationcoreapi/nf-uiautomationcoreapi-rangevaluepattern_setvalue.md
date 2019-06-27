@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RangeValuePattern_SetValue, RangeValuePattern_SetValue function [Windows Accessibility], uiauto.uiauto_RangeValuePattern_SetValueConPat, uiauto_RangeValuePattern_SetValueConPat, uiautomationcoreapi/RangeValuePattern_SetValue, winauto.uiauto_RangeValuePattern_SetValueConPat
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/RangeValuePattern_SetValue"]
+f1_keywords: 
+ - "uiautomationcoreapi/RangeValuePattern_SetValue"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

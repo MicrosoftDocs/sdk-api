@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDestroyDiskSpaceList, SetupDestroyDiskSpaceList function [Setup API], _setupapi_setupdestroydiskspacelist, setup.setupdestroydiskspacelist, setupapi/SetupDestroyDiskSpaceList
 ms.topic: function
-f1_keywords: ["setupapi/SetupDestroyDiskSpaceList"]
+f1_keywords: 
+ - "setupapi/SetupDestroyDiskSpaceList"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

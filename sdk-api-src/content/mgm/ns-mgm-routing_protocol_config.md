@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PROUTING_PROTOCOL_CONFIG, PROUTING_PROTOCOL_CONFIG, PROUTING_PROTOCOL_CONFIG structure pointer [RAS], ROUTING_PROTOCOL_CONFIG, ROUTING_PROTOCOL_CONFIG structure [RAS], _mpr_routing_protocol_config_str, mgm/PROUTING_PROTOCOL_CONFIG, mgm/ROUTING_PROTOCOL_CONFIG, rras.routing_protocol_config_str"
 ms.topic: struct
-f1_keywords: ["mgm/ROUTING_PROTOCOL_CONFIG"]
+f1_keywords: 
+ - "mgm/ROUTING_PROTOCOL_CONFIG"
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVisualTreeServiceCallback interface,OnVisualTreeChange method, IVisualTreeServiceCallback.OnVisualTreeChange, IVisualTreeServiceCallback::OnVisualTreeChange, OnVisualTreeChange, OnVisualTreeChange method, OnVisualTreeChange method,IVisualTreeServiceCallback interface, xaml_diagnostics.ivisualtreeservicecallback_onvisualtreechange, xamlom/IVisualTreeServiceCallback::OnVisualTreeChange
 ms.topic: method
-f1_keywords: ["xamlom/IVisualTreeServiceCallback.OnVisualTreeChange"]
+f1_keywords: 
+ - "xamlom/IVisualTreeServiceCallback.OnVisualTreeChange"
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

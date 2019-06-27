@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStringData, GetStringData method [Microsoft TV Technologies], GetStringData method [Microsoft TV Technologies],IESEvent interface, IESEvent interface [Microsoft TV Technologies],GetStringData method, IESEvent.GetStringData, IESEvent::GetStringData, mstv.iesevent_getstringdata, tuner/IESEvent::GetStringData
 ms.topic: method
-f1_keywords: ["tuner/IESEvent.GetStringData"]
+f1_keywords: 
+ - "tuner/IESEvent.GetStringData"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

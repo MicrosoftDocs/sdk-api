@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLUSAPI_ALL_ACCESS, CLUSAPI_CHANGE_ACCESS, CLUSAPI_NO_ACCESS, CLUSAPI_READ_ACCESS, CLUSTER_DELETE_ACCESS_CONTROL_ENTRY, CLUSTER_SET_ACCESS_TYPE_ALLOWED, CLUSTER_SET_ACCESS_TYPE_DENIED, ClusterSetAccountAccess, ClusterSetAccountAccess function [Failover Cluster], PCLUSTER_SET_ACCOUNT_ACCESS, PCLUSTER_SET_ACCOUNT_ACCESS function [Failover Cluster], clusapi/ClusterSetAccountAccess, clusapi/PCLUSTER_SET_ACCOUNT_ACCESS, mscs.clustersetaccountaccess
 ms.topic: function
-f1_keywords: ["clusapi/ClusterSetAccountAccess"]
+f1_keywords: 
+ - "clusapi/ClusterSetAccountAccess"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

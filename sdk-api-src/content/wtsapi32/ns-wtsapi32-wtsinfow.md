@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWTSINFOW, PWTSINFO, PWTSINFO structure pointer [Remote Desktop Services], WTSINFO, WTSINFO structure [Remote Desktop Services], WTSINFOA, WTSINFOW, termserv.wtsinfo, wtsapi32/PWTSINFO, wtsapi32/WTSINFO, wtsapi32/WTSINFOA, wtsapi32/WTSINFOW"
 ms.topic: struct
-f1_keywords: ["wtsapi32/WTSINFO"]
+f1_keywords: 
+ - "wtsapi32/WTSINFO"
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

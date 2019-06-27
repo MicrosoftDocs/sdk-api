@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncCallback interface [Windows Sync],OnConflict method, ISyncCallback.OnConflict, ISyncCallback::OnConflict, OnConflict, OnConflict method [Windows Sync], OnConflict method [Windows Sync],ISyncCallback interface, winsync.isynccallback_onconflict, winsync/ISyncCallback::OnConflict
 ms.topic: method
-f1_keywords: ["winsync/ISyncCallback.OnConflict"]
+f1_keywords: 
+ - "winsync/ISyncCallback.OnConflict"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

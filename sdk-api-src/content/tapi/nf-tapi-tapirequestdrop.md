@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: tapi/tapiRequestDrop, tapi2.tapirequestdrop, tapiRequestDrop, tapiRequestDrop function [TAPI 2.2]
 ms.topic: function
-f1_keywords: ["tapi/tapiRequestDrop"]
+f1_keywords: 
+ - "tapi/tapiRequestDrop"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

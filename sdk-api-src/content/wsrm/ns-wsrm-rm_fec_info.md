@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RM_FEC_INFO, RM_FEC_INFO structure [Winsock], winsock.rm_fec_info, wsrm/RM_FEC_INFO
 ms.topic: struct
-f1_keywords: ["wsrm/RM_FEC_INFO"]
+f1_keywords: 
+ - "wsrm/RM_FEC_INFO"
 req.header: wsrm.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMVfwCaptureDialogs, IAMVfwCaptureDialogs interface [DirectShow], IAMVfwCaptureDialogs interface [DirectShow],described, IAMVfwCaptureDialogsInterface, dshow.iamvfwcapturedialogs, strmif/IAMVfwCaptureDialogs
 ms.topic: interface
-f1_keywords: ["strmif/IAMVfwCaptureDialogs"]
+f1_keywords: 
+ - "strmif/IAMVfwCaptureDialogs"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

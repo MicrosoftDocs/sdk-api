@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CF_OPERATION_ACK_DEHYDRATE_FLAGS, CF_OPERATION_ACK_DEHYDRATE_FLAGS enumeration, CF_OPERATION_ACK_DEHYDRATE_FLAG_NONE, cfapi/CF_OPERATION_ACK_DEHYDRATE_FLAGS, cfapi/CF_OPERATION_ACK_DEHYDRATE_FLAG_NONE, cloudApi.cf_operation_ack_dehydrate_flags
 ms.topic: enum
-f1_keywords: ["cfapi/CF_OPERATION_ACK_DEHYDRATE_FLAGS"]
+f1_keywords: 
+ - "cfapi/CF_OPERATION_ACK_DEHYDRATE_FLAGS"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

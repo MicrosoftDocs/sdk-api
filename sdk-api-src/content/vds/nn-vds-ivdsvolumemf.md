@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeMF, IVdsVolumeMF interface [VDS], IVdsVolumeMF interface [VDS],described, base.ivdsvolumemf, vds/IVdsVolumeMF
 ms.topic: interface
-f1_keywords: ["vds/IVdsVolumeMF"]
+f1_keywords: 
+ - "vds/IVdsVolumeMF"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

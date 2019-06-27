@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IReferenceTrackerTarget, IReferenceTrackerTarget interface [Windows Runtime], IReferenceTrackerTarget interface [Windows Runtime],described, windows/IReferenceTrackerTarget, winrt.ireferencetrackertarget
 ms.topic: interface
-f1_keywords: ["windows.ui.xaml.hosting.referencetracker/IReferenceTrackerTarget"]
+f1_keywords: 
+ - "windows.ui.xaml.hosting.referencetracker/IReferenceTrackerTarget"
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows

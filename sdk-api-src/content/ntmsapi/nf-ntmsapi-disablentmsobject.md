@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisableNtmsObject, DisableNtmsObject function [Files], NTMS_DRIVE, NTMS_LIBRARY, NTMS_PHYSICAL_MEDIA, _zaw_disablentmsobject, base.disablentmsobject, fs.disablentmsobject, ntmsapi/DisableNtmsObject
 ms.topic: function
-f1_keywords: ["ntmsapi/DisableNtmsObject"]
+f1_keywords: 
+ - "ntmsapi/DisableNtmsObject"
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

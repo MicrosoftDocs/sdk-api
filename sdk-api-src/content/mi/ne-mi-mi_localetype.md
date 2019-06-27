@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_LOCALE_TYPE_CLOSEST_DATA, MI_LOCALE_TYPE_CLOSEST_UI, MI_LOCALE_TYPE_REQUESTED_DATA, MI_LOCALE_TYPE_REQUESTED_UI, MI_LocaleType, MI_LocaleType enumeration [Windows Management Infrastructure (MI)], mi/MI_LOCALE_TYPE_CLOSEST_DATA, mi/MI_LOCALE_TYPE_CLOSEST_UI, mi/MI_LOCALE_TYPE_REQUESTED_DATA, mi/MI_LOCALE_TYPE_REQUESTED_UI, mi/MI_LocaleType, wmi._mi_localetype, wmi_v2.mi_localetype
 ms.topic: enum
-f1_keywords: ["mi/MI_LocaleType"]
+f1_keywords: 
+ - "mi/MI_LocaleType"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

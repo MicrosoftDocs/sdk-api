@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_CLASS_INFO_ARRAY, DHCP_CLASS_INFO_ARRAY, DHCP_CLASS_INFO_ARRAY structure [DHCP], LPDHCP_CLASS_INFO_ARRAY, LPDHCP_CLASS_INFO_ARRAY structure pointer [DHCP], dhcp.dhcp_class_info_array, dhcpsapi/LPDHCP_CLASS_INFO_ARRAY, dhcpsapi/_DHCP_CLASS_INFO_ARRAY"
 ms.topic: struct
-f1_keywords: ["dhcpsapi/DHCP_CLASS_INFO_ARRAY"]
+f1_keywords: 
+ - "dhcpsapi/DHCP_CLASS_INFO_ARRAY"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

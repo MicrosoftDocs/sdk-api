@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 53ce83f3-b06e-4c91-a3e2-6369963e7810, MFGetPlaneSize, MFGetPlaneSize function [Media Foundation], mf.mfgetplanesize, mfapi/MFGetPlaneSize
 ms.topic: function
-f1_keywords: ["mfapi/MFGetPlaneSize"]
+f1_keywords: 
+ - "mfapi/MFGetPlaneSize"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

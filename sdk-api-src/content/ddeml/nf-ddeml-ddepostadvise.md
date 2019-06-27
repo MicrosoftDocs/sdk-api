@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdePostAdvise, DdePostAdvise function [Data Exchange], _win32_DdePostAdvise, _win32_ddepostadvise_cpp, dataxchg.ddepostadvise, ddeml/DdePostAdvise, winui._win32_ddepostadvise
 ms.topic: function
-f1_keywords: ["ddeml/DdePostAdvise"]
+f1_keywords: 
+ - "ddeml/DdePostAdvise"
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

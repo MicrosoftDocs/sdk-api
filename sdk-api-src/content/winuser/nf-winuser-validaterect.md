@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ValidateRect, ValidateRect function [Windows GDI], _win32_ValidateRect, gdi.validaterect, winuser/ValidateRect
 ms.topic: function
-f1_keywords: ["winuser/ValidateRect"]
+f1_keywords: 
+ - "winuser/ValidateRect"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

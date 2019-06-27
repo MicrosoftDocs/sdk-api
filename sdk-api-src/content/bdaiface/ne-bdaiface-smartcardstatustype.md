@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CardDataChanged, CardError, CardFirmwareUpgrade, CardInserted, CardRemoved, SmartCardStatusType, SmartCardStatusType enumeration [Microsoft TV Technologies], bdaiface/CardDataChanged, bdaiface/CardError, bdaiface/CardFirmwareUpgrade, bdaiface/CardInserted, bdaiface/CardRemoved, bdaiface/SmartCardStatusType, mstv.smartcardstatustype
 ms.topic: enum
-f1_keywords: ["bdaiface/SmartCardStatusType"]
+f1_keywords: 
+ - "bdaiface/SmartCardStatusType"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

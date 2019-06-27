@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPrompt, GetPrompt method [Picture Acquisition], GetPrompt method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetPrompt method, IUserInputString.GetPrompt, IUserInputString::GetPrompt, IUserInputStringGetPrompt, photoacquire/IUserInputString::GetPrompt, picacq.iuserinputstring_getprompt
 ms.topic: method
-f1_keywords: ["photoacquire/IUserInputString.GetPrompt"]
+f1_keywords: 
+ - "photoacquire/IUserInputString.GetPrompt"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

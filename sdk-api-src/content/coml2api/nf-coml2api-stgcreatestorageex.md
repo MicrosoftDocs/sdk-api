@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: All other values of stgfmt, STGFMT_DOCFILE, StgCreateStorageEx, StgCreateStorageEx function [Structured Storage], _stg_stgcreatestorageex, coml2api/StgCreateStorageEx, stg.stgcreatestorageex
 ms.topic: function
-f1_keywords: ["coml2api/StgCreateStorageEx"]
+f1_keywords: 
+ - "coml2api/StgCreateStorageEx"
 req.header: coml2api.h
 req.include-header: Objbase.h
 req.target-type: Windows

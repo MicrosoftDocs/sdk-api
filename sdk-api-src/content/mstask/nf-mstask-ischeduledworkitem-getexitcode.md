@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetExitCode, GetExitCode method [Task Scheduler], GetExitCode method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetExitCode method, IScheduledWorkItem.GetExitCode, IScheduledWorkItem::GetExitCode, _msb_ischeduledworkitem_getexitcode, mstask/IScheduledWorkItem::GetExitCode, taskschd.ischeduledworkitem_getexitcode
 ms.topic: method
-f1_keywords: ["mstask/IScheduledWorkItem.GetExitCode"]
+f1_keywords: 
+ - "mstask/IScheduledWorkItem.GetExitCode"
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

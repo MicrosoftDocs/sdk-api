@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWordToIntPtr, DWordToPtrdiffT, ULongToIntPtr, ULongToIntPtr function [Windows Shell], ULongToPtrdiffT, _shell_ULongToIntPtr, intsafe/ULongToIntPtr, shell.ULongToIntPtr
 ms.topic: function
-f1_keywords: ["intsafe/ULongToIntPtr"]
+f1_keywords: 
+ - "intsafe/ULongToIntPtr"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

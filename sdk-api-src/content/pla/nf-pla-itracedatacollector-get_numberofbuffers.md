@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITraceDataCollector interface [PLA],NumberOfBuffers property, ITraceDataCollector.NumberOfBuffers, ITraceDataCollector.get_NumberOfBuffers, ITraceDataCollector::NumberOfBuffers, ITraceDataCollector::get_NumberOfBuffers, ITraceDataCollector::put_NumberOfBuffers, NumberOfBuffers property [PLA], NumberOfBuffers property [PLA],ITraceDataCollector interface, base.itracedatacollector_numberofbuffers, get_NumberOfBuffers, pla.itracedatacollector_numberofbuffers, pla/ITraceDataCollector::NumberOfBuffers, pla/ITraceDataCollector::get_NumberOfBuffers, pla/ITraceDataCollector::put_NumberOfBuffers
 ms.topic: method
-f1_keywords: ["pla/ITraceDataCollector.NumberOfBuffers"]
+f1_keywords: 
+ - "pla/ITraceDataCollector.NumberOfBuffers"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

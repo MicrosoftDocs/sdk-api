@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF3DVideoOutputType, MF3DVideoOutputType enumeration [Media Foundation], MF3DVideoOutputType_BaseView, MF3DVideoOutputType_Stereo, mf.mf3dvideooutputtype, mftransform/MF3DVideoOutputType, mftransform/MF3DVideoOutputType_BaseView, mftransform/MF3DVideoOutputType_Stereo
 ms.topic: enum
-f1_keywords: ["mftransform/MF3DVideoOutputType"]
+f1_keywords: 
+ - "mftransform/MF3DVideoOutputType"
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

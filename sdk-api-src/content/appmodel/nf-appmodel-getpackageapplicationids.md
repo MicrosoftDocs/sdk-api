@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPackageApplicationIds, GetPackageApplicationIds function [App packaging and management], appmodel/GetPackageApplicationIds, appxpkg.getpackageapplicationids
 ms.topic: function
-f1_keywords: ["appmodel/GetPackageApplicationIds"]
+f1_keywords: 
+ - "appmodel/GetPackageApplicationIds"
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

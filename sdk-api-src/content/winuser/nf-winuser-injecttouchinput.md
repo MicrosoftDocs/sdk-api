@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InjectTouchInput, InjectTouchInput function [Windows Touch], input_touchinjection.injecttouchinput, touch_injection.injecttouchinput, winuser/InjectTouchInput
 ms.topic: function
-f1_keywords: ["winuser/InjectTouchInput"]
+f1_keywords: 
+ - "winuser/InjectTouchInput"
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

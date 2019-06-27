@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisplayProperty, DisplayProperty method [Internationalization for Windows Applications], DisplayProperty method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],DisplayProperty method, IFEDictionary.DisplayProperty, IFEDictionary::DisplayProperty, intl.ifedictionary_displayproperty, msime/IFEDictionary::DisplayProperty
 ms.topic: method
-f1_keywords: ["msime/IFEDictionary.DisplayProperty"]
+f1_keywords: 
+ - "msime/IFEDictionary.DisplayProperty"
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

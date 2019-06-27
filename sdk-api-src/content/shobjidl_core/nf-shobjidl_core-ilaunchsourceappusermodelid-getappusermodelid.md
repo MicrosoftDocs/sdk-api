@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAppUserModelId, GetAppUserModelId method [Windows Shell], GetAppUserModelId method [Windows Shell],ILaunchSourceAppUserModelId interface, ILaunchSourceAppUserModelId interface [Windows Shell],GetAppUserModelId method, ILaunchSourceAppUserModelId.GetAppUserModelId, ILaunchSourceAppUserModelId::GetAppUserModelId, shell.ILaunchSourceAppUserModelId_GetAppUserModelId, shobjidl_core/ILaunchSourceAppUserModelId::GetAppUserModelId
 ms.topic: method
-f1_keywords: ["shobjidl_core/ILaunchSourceAppUserModelId.GetAppUserModelId"]
+f1_keywords: 
+ - "shobjidl_core/ILaunchSourceAppUserModelId.GetAppUserModelId"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

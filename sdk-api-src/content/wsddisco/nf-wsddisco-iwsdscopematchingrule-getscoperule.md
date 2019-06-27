@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetScopeRule, GetScopeRule method, GetScopeRule method,IWSDScopeMatchingRule interface, IWSDScopeMatchingRule interface,GetScopeRule method, IWSDScopeMatchingRule.GetScopeRule, IWSDScopeMatchingRule::GetScopeRule, ncd.iwsdscopematchingrule_getscoperule_method, wsddisco/IWSDScopeMatchingRule::GetScopeRule
 ms.topic: method
-f1_keywords: ["wsddisco/IWSDScopeMatchingRule.GetScopeRule"]
+f1_keywords: 
+ - "wsddisco/IWSDScopeMatchingRule.GetScopeRule"
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

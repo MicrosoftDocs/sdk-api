@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngMarkBandingSurface, EngMarkBandingSurface function [Display Devices], display.engmarkbandingsurface, gdifncs_b597b27e-e521-40ec-a16f-7961b64dead2.xml, winddi/EngMarkBandingSurface
 ms.topic: function
-f1_keywords: ["winddi/EngMarkBandingSurface"]
+f1_keywords: 
+ - "winddi/EngMarkBandingSurface"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

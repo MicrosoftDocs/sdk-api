@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptSIPRetrieveSubjectGuid, CryptSIPRetrieveSubjectGuid function [Security], mssip/CryptSIPRetrieveSubjectGuid, security.cryptsipretrievesubjectguid
 ms.topic: function
-f1_keywords: ["mssip/CryptSIPRetrieveSubjectGuid"]
+f1_keywords: 
+ - "mssip/CryptSIPRetrieveSubjectGuid"
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows

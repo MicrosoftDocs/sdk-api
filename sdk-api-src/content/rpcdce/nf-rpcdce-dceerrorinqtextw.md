@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DceErrorInqText, DceErrorInqText function [RPC], DceErrorInqTextA, DceErrorInqTextW, RPC_S_INVALID_ARG, RPC_S_OK, _rpc_dceerrorinqtext, rpc.dceerrorinqtext, rpcdce/DceErrorInqText, rpcdce/DceErrorInqTextA, rpcdce/DceErrorInqTextW
 ms.topic: function
-f1_keywords: ["rpcdce/DceErrorInqText"]
+f1_keywords: 
+ - "rpcdce/DceErrorInqText"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

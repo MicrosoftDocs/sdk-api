@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCLFS_LSN, *PCLS_LSN, CLFS_LSN, CLFS_LSN structure [Files], CLS_LSN, PCLFS_LSN, PCLFS_LSN structure pointer [Files], PPCLS_LSN, clfs/CLFS_LSN, clfs/PCLFS_LSN, fs.clfs_lsn"
 ms.topic: struct
-f1_keywords: ["clfs/CLFS_LSN"]
+f1_keywords: 
+ - "clfs/CLFS_LSN"
 req.header: clfs.h
 req.include-header: Clfsw32.h
 req.target-type: Windows

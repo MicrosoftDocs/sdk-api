@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTurbulenceEffect interface [DirectComposition],SetBaseFrequency method, IDCompositionTurbulenceEffect.SetBaseFrequency, IDCompositionTurbulenceEffect::SetBaseFrequency, SetBaseFrequency, SetBaseFrequency method [DirectComposition], SetBaseFrequency method [DirectComposition],IDCompositionTurbulenceEffect interface, dcomp/IDCompositionTurbulenceEffect::SetBaseFrequency, directcomp.idcompositionturbulenceeffect_setbasefrequency
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionTurbulenceEffect.SetBaseFrequency"]
+f1_keywords: 
+ - "dcomp/IDCompositionTurbulenceEffect.SetBaseFrequency"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

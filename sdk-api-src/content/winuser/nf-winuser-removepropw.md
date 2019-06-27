@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RemoveProp, RemoveProp function [Windows and Messages], RemovePropA, RemovePropW, _win32_RemoveProp, _win32_removeprop_cpp, winmsg.removeprop, winui._win32_removeprop, winuser/RemoveProp, winuser/RemovePropA, winuser/RemovePropW
 ms.topic: function
-f1_keywords: ["winuser/RemoveProp"]
+f1_keywords: 
+ - "winuser/RemoveProp"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

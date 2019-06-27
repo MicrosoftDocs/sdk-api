@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Is_Dock_Station_Present_Ex, CM_Is_Dock_Station_Present_Ex function [Device and Driver Installation], cfgmgr32/CM_Is_Dock_Station_Present_Ex, cfgmgrfn_9e17b4dc-d5ac-49fb-99f7-0fc1144e23f4.xml, devinst.cm_is_dock_station_present_ex
 ms.topic: function
-f1_keywords: ["cfgmgr32/CM_Is_Dock_Station_Present_Ex"]
+f1_keywords: 
+ - "cfgmgr32/CM_Is_Dock_Station_Present_Ex"
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

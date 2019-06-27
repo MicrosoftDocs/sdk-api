@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddStream, AddStream method [IMAPI], AddStream method [IMAPI],IFsiFileItem2 interface, IFsiFileItem2 interface [IMAPI],AddStream method, IFsiFileItem2.AddStream, IFsiFileItem2::AddStream, imapi.ifsifileitem2_addstream, imapi2fs/IFsiFileItem2::AddStream
 ms.topic: method
-f1_keywords: ["imapi2fs/IFsiFileItem2.AddStream"]
+f1_keywords: 
+ - "imapi2fs/IFsiFileItem2.AddStream"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

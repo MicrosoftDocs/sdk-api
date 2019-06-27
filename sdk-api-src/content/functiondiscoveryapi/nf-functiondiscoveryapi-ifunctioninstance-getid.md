@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetID, GetID method, GetID method,IFunctionInstance interface, IFunctionInstance interface,GetID method, IFunctionInstance.GetID, IFunctionInstance::GetID, functiondiscoveryapi/IFunctionInstance::GetID, ncd.ifunctioninstance_getid_method
 ms.topic: method
-f1_keywords: ["functiondiscoveryapi/IFunctionInstance.GetID"]
+f1_keywords: 
+ - "functiondiscoveryapi/IFunctionInstance.GetID"
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

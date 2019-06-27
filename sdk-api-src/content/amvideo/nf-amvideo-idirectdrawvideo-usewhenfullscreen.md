@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],UseWhenFullScreen method, IDirectDrawVideo.UseWhenFullScreen, IDirectDrawVideo::UseWhenFullScreen, IDirectDrawVideoUseWhenFullScreen, UseWhenFullScreen, UseWhenFullScreen method [DirectShow], UseWhenFullScreen method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::UseWhenFullScreen, dshow.idirectdrawvideo_usewhenfullscreen
 ms.topic: method
-f1_keywords: ["amvideo/IDirectDrawVideo.UseWhenFullScreen"]
+f1_keywords: 
+ - "amvideo/IDirectDrawVideo.UseWhenFullScreen"
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

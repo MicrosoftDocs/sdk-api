@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMixerPinConfig interface [DirectShow],SetBlendingParameter method, IMixerPinConfig.SetBlendingParameter, IMixerPinConfig::SetBlendingParameter, IMixerPinConfigSetBlendingParameter, SetBlendingParameter, SetBlendingParameter method [DirectShow], SetBlendingParameter method [DirectShow],IMixerPinConfig interface, dshow.imixerpinconfig_setblendingparameter, mpconfig/IMixerPinConfig::SetBlendingParameter
 ms.topic: method
-f1_keywords: ["mpconfig/IMixerPinConfig.SetBlendingParameter"]
+f1_keywords: 
+ - "mpconfig/IMixerPinConfig.SetBlendingParameter"
 req.header: mpconfig.h
 req.include-header: 
 req.target-type: Windows

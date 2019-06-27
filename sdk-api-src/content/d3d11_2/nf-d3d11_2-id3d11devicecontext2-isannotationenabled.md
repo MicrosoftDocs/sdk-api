@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceContext2 interface [Direct3D 11],IsAnnotationEnabled method, ID3D11DeviceContext2.IsAnnotationEnabled, ID3D11DeviceContext2::IsAnnotationEnabled, IsAnnotationEnabled, IsAnnotationEnabled method [Direct3D 11], IsAnnotationEnabled method [Direct3D 11],ID3D11DeviceContext2 interface, d3d11_2/ID3D11DeviceContext2::IsAnnotationEnabled, direct3d11.id3d11devicecontext2_isannotationenabled
 ms.topic: method
-f1_keywords: ["d3d11_2/ID3D11DeviceContext2.IsAnnotationEnabled"]
+f1_keywords: 
+ - "d3d11_2/ID3D11DeviceContext2.IsAnnotationEnabled"
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows

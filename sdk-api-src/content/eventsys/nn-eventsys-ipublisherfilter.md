@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPublisherFilter, IPublisherFilter interface [COM+], IPublisherFilter interface [COM+],described, _cos_IPublisherFilter, cos.ipublisherfilter, eventsys/IPublisherFilter
 ms.topic: interface
-f1_keywords: ["eventsys/IPublisherFilter"]
+f1_keywords: 
+ - "eventsys/IPublisherFilter"
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxPorts interface [Fax Service],get_Item method, IFaxPorts.get_Item, IFaxPorts::get_Item, _mfax_ifaxports_get_item, fax._mfax_ifaxports_get_item, faxcom/IFaxPorts::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxPorts interface
 ms.topic: method
-f1_keywords: ["faxcom/IFaxPorts.get_Item"]
+f1_keywords: 
+ - "faxcom/IFaxPorts.get_Item"
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

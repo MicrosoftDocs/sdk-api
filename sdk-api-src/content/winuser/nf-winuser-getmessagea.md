@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMessage, GetMessage function [Windows and Messages], GetMessageA, GetMessageW, _win32_GetMessage, _win32_getmessage_cpp, winmsg.getmessage, winui._win32_getmessage, winuser/GetMessage, winuser/GetMessageA, winuser/GetMessageW
 ms.topic: function
-f1_keywords: ["winuser/GetMessage"]
+f1_keywords: 
+ - "winuser/GetMessage"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariable interface [Windows Animation],SetVariableChangeHandler method, IUIAnimationVariable.SetVariableChangeHandler, IUIAnimationVariable::SetVariableChangeHandler, SetVariableChangeHandler, SetVariableChangeHandler method [Windows Animation], SetVariableChangeHandler method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_setvariablechangehandler, uianimation/IUIAnimationVariable::SetVariableChangeHandler
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationVariable.SetVariableChangeHandler"]
+f1_keywords: 
+ - "uianimation/IUIAnimationVariable.SetVariableChangeHandler"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

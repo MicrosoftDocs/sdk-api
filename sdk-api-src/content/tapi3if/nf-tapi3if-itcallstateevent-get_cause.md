@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITCallStateEvent interface [TAPI 2.2],get_Cause method, ITCallStateEvent.get_Cause, ITCallStateEvent::get_Cause, _tapi3_itcallstateevent_get_cause, get_Cause, get_Cause method [TAPI 2.2], get_Cause method [TAPI 2.2],ITCallStateEvent interface, tapi3.itcallstateevent_get_cause, tapi3if/ITCallStateEvent::get_Cause
 ms.topic: method
-f1_keywords: ["tapi3if/ITCallStateEvent.get_Cause"]
+f1_keywords: 
+ - "tapi3if/ITCallStateEvent.get_Cause"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

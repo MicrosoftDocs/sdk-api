@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentProfileId, GetCurrentProfileId method [DirectShow], GetCurrentProfileId method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],GetCurrentProfileId method, IConfigAsfWriter.GetCurrentProfileId, IConfigAsfWriter::GetCurrentProfileId, IConfigAsfWriterGetCurrentProfileId, dshow.iconfigasfwriter_getcurrentprofileid, dshowasf/IConfigAsfWriter::GetCurrentProfileId
 ms.topic: method
-f1_keywords: ["dshowasf/IConfigAsfWriter.GetCurrentProfileId"]
+f1_keywords: 
+ - "dshowasf/IConfigAsfWriter.GetCurrentProfileId"
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows

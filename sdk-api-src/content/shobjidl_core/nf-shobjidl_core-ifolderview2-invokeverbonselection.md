@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFolderView2 interface [Windows Shell],InvokeVerbOnSelection method, IFolderView2.InvokeVerbOnSelection, IFolderView2::InvokeVerbOnSelection, InvokeVerbOnSelection, InvokeVerbOnSelection method [Windows Shell], InvokeVerbOnSelection method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_InvokeVerbOnSelection, shell.IFolderView2_InvokeVerbOnSelection, shobjidl_core/IFolderView2::InvokeVerbOnSelection
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFolderView2.InvokeVerbOnSelection"]
+f1_keywords: 
+ - "shobjidl_core/IFolderView2.InvokeVerbOnSelection"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

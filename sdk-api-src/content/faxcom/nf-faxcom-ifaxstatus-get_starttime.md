@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxStatus interface [Fax Service],StartTime property, IFaxStatus.StartTime, IFaxStatus.get_StartTime, IFaxStatus::StartTime, IFaxStatus::get_StartTime, StartTime property [Fax Service], StartTime property [Fax Service],IFaxStatus interface, _mfax_ifaxstatus_get_starttime, fax._mfax_ifaxstatus_get_starttime, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_starttime_cpp, faxcom/IFaxStatus::StartTime, faxcom/IFaxStatus::get_StartTime, get_StartTime
 ms.topic: method
-f1_keywords: ["faxcom/IFaxStatus.StartTime"]
+f1_keywords: 
+ - "faxcom/IFaxStatus.StartTime"
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

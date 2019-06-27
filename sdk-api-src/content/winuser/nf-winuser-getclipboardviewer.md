@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClipboardViewer, GetClipboardViewer function [Data Exchange], _win32_GetClipboardViewer, _win32_getclipboardviewer_cpp, dataxchg.getclipboardviewer, winui._win32_getclipboardviewer, winuser/GetClipboardViewer
 ms.topic: function
-f1_keywords: ["winuser/GetClipboardViewer"]
+f1_keywords: 
+ - "winuser/GetClipboardViewer"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

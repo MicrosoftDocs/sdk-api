@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DDiscMaster2Events, DDiscMaster2Events interface [IMAPI], DDiscMaster2Events interface [IMAPI],described, imapi.ddiscmaster2events, imapi2/DDiscMaster2Events
 ms.topic: interface
-f1_keywords: ["imapi2/DDiscMaster2Events"]
+f1_keywords: 
+ - "imapi2/DDiscMaster2Events"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

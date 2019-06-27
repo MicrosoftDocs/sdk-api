@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumStoredMessagesAllowedByRetrievalFilter, GetNumStoredMessagesAllowedByRetrievalFilter method, GetNumStoredMessagesAllowedByRetrievalFilter method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetNumStoredMessagesAllowedByRetrievalFilter method, ID3D12InfoQueue.GetNumStoredMessagesAllowedByRetrievalFilter, ID3D12InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter, d3d12sdklayers/ID3D12InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter, direct3d12.id3d12infoqueue_getnumstoredmessagesallowedbyretrievalfilter
 ms.topic: method
-f1_keywords: ["d3d12sdklayers/ID3D12InfoQueue.GetNumStoredMessagesAllowedByRetrievalFilter"]
+f1_keywords: 
+ - "d3d12sdklayers/ID3D12InfoQueue.GetNumStoredMessagesAllowedByRetrievalFilter"
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

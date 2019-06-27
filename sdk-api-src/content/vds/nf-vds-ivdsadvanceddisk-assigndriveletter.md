@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AssignDriveLetter, AssignDriveLetter method [VDS], AssignDriveLetter method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],AssignDriveLetter method, IVdsAdvancedDisk.AssignDriveLetter, IVdsAdvancedDisk::AssignDriveLetter, base.ivdsadvanceddisk_assigndriveletter, vds/IVdsAdvancedDisk::AssignDriveLetter
 ms.topic: method
-f1_keywords: ["vds/IVdsAdvancedDisk.AssignDriveLetter"]
+f1_keywords: 
+ - "vds/IVdsAdvancedDisk.AssignDriveLetter"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

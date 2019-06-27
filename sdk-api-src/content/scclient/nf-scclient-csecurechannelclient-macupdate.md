@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelClient class [windows Media Device Manager],MACUpdate method, CSecureChannelClient.MACUpdate, CSecureChannelClient::MACUpdate, CSecureChannelClientMACUpdate, MACUpdate, MACUpdate method [windows Media Device Manager], MACUpdate method [windows Media Device Manager],CSecureChannelClient class, scclient/CSecureChannelClient::MACUpdate, wmdm.csecurechannelclient_macupdate
 ms.topic: method
-f1_keywords: ["scclient/CSecureChannelClient.MACUpdate"]
+f1_keywords: 
+ - "scclient/CSecureChannelClient.MACUpdate"
 req.header: scclient.h
 req.include-header: 
 req.target-type: Windows

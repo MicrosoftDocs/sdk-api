@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CancelDownload, CancelDownload method [Direct Write], CancelDownload method [Direct Write],IDWriteFontDownloadQueue interface, IDWriteFontDownloadQueue interface [Direct Write],CancelDownload method, IDWriteFontDownloadQueue.CancelDownload, IDWriteFontDownloadQueue::CancelDownload, directwrite.idwritefontdownloadqueue_canceldownload, dwrite_3/IDWriteFontDownloadQueue::CancelDownload
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteFontDownloadQueue.CancelDownload"]
+f1_keywords: 
+ - "dwrite_3/IDWriteFontDownloadQueue.CancelDownload"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

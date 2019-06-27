@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellBrowser interface [Windows Shell],SetMenuSB method, IShellBrowser.SetMenuSB, IShellBrowser::SetMenuSB, SetMenuSB, SetMenuSB method [Windows Shell], SetMenuSB method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_SetMenuSB, shell.IShellBrowser_SetMenuSB, shobjidl_core/IShellBrowser::SetMenuSB
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellBrowser.SetMenuSB"]
+f1_keywords: 
+ - "shobjidl_core/IShellBrowser.SetMenuSB"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

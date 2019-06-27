@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCreateFlags, GetCreateFlags method [Windows Shell], GetCreateFlags method [Windows Shell],ICreateProcessInputs interface, ICreateProcessInputs interface [Windows Shell],GetCreateFlags method, ICreateProcessInputs.GetCreateFlags, ICreateProcessInputs::GetCreateFlags, shell.icreateprocessinputs_getcreateflags, shobjidl_core/ICreateProcessInputs::GetCreateFlags
 ms.topic: method
-f1_keywords: ["shobjidl_core/ICreateProcessInputs.GetCreateFlags"]
+f1_keywords: 
+ - "shobjidl_core/ICreateProcessInputs.GetCreateFlags"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

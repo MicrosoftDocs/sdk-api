@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindVolumeMountPointClose, FindVolumeMountPointClose function [Files], _win32_findvolumemountpointclose, base.findvolumemountpointclose, fs.findvolumemountpointclose, winbase/FindVolumeMountPointClose
 ms.topic: function
-f1_keywords: ["winbase/FindVolumeMountPointClose"]
+f1_keywords: 
+ - "winbase/FindVolumeMountPointClose"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

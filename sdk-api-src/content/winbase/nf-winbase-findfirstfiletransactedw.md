@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FIND_FIRST_EX_CASE_SENSITIVE, FindFirstFileTransacted, FindFirstFileTransacted function [Files], FindFirstFileTransactedA, FindFirstFileTransactedW, fs.findfirstfiletransacted, winbase/FindFirstFileTransacted, winbase/FindFirstFileTransactedA, winbase/FindFirstFileTransactedW
 ms.topic: function
-f1_keywords: ["winbase/FindFirstFileTransacted"]
+f1_keywords: 
+ - "winbase/FindFirstFileTransacted"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

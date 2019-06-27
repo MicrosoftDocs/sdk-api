@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_TRACE_REGISTER, D3D11_TRACE_REGISTER structure [Direct3D 11], d3d11shadertracing/D3D11_TRACE_REGISTER, direct3d11.d3d11_trace_register
 ms.topic: struct
-f1_keywords: ["d3d11shadertracing/D3D11_TRACE_REGISTER"]
+f1_keywords: 
+ - "d3d11shadertracing/D3D11_TRACE_REGISTER"
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows

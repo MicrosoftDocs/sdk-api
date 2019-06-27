@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinBioEnumBiometricUnits, WinBioEnumBiometricUnits function [Windows Biometric Framework API], secbiomet.winbioenumbiometricunits, winbio/WinBioEnumBiometricUnits
 ms.topic: function
-f1_keywords: ["winbio/WinBioEnumBiometricUnits"]
+f1_keywords: 
+ - "winbio/WinBioEnumBiometricUnits"
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

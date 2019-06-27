@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGuideDataProperty interface [Microsoft TV Technologies],get_Name method, IGuideDataProperty.get_Name, IGuideDataProperty::get_Name, IGuideDataPropertyget_Name, bdatif/IGuideDataProperty::get_Name, get_Name, get_Name method [Microsoft TV Technologies], get_Name method [Microsoft TV Technologies],IGuideDataProperty interface, mstv.iguidedataproperty_get_name
 ms.topic: method
-f1_keywords: ["bdatif/IGuideDataProperty.get_Name"]
+f1_keywords: 
+ - "bdatif/IGuideDataProperty.get_Name"
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

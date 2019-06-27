@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QUERYCLIENTCERT, QUERYCLIENTCERT callback, QUERYCLIENTCERT callback function [LDAP], _ldap_queryclientcert, ldap.queryclientcert, winldap/QUERYCLIENTCERT
 ms.topic: callback
-f1_keywords: ["winldap/QUERYCLIENTCERT"]
+f1_keywords: 
+ - "winldap/QUERYCLIENTCERT"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

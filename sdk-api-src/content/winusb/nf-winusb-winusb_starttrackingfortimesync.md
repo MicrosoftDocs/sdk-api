@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinUsb_StartTrackingForTimeSync, WinUsb_StartTrackingForTimeSync function [Buses], buses.winusb_starttrackingfortimesync, winusb/WinUsb_StartTrackingForTimeSync
 ms.topic: function
-f1_keywords: ["winusb/WinUsb_StartTrackingForTimeSync"]
+f1_keywords: 
+ - "winusb/WinUsb_StartTrackingForTimeSync"
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

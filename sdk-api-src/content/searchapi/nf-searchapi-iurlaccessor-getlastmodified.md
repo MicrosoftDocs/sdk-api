@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLastModified, GetLastModified method [search], GetLastModified method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetLastModified method, IUrlAccessor.GetLastModified, IUrlAccessor::GetLastModified, _search_IUrlAccessor_GetLastModified, search._search_IUrlAccessor_GetLastModified, searchapi/IUrlAccessor::GetLastModified
 ms.topic: method
-f1_keywords: ["searchapi/IUrlAccessor.GetLastModified"]
+f1_keywords: 
+ - "searchapi/IUrlAccessor.GetLastModified"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

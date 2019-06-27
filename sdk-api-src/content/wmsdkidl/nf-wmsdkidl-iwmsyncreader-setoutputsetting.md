@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMSyncReader interface [windows Media Format],SetOutputSetting method, IWMSyncReader.SetOutputSetting, IWMSyncReader::SetOutputSetting, IWMSyncReaderSetOutputSetting, SetOutputSetting, SetOutputSetting method [windows Media Format], SetOutputSetting method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_setoutputsetting, wmsdkidl/IWMSyncReader::SetOutputSetting
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMSyncReader.SetOutputSetting"]
+f1_keywords: 
+ - "wmsdkidl/IWMSyncReader.SetOutputSetting"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

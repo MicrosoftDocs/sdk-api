@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGraphGetRecord, PeerGraphGetRecord function [Peer Networking], p2p.peergraphgetrecord, p2p/PeerGraphGetRecord
 ms.topic: function
-f1_keywords: ["p2p/PeerGraphGetRecord"]
+f1_keywords: 
+ - "p2p/PeerGraphGetRecord"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

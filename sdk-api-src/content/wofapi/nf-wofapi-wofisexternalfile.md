@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WofIsExternalFile, WofIsExternalFile function [Files], fs.wofisexternalfile, wofapi/WofIsExternalFile
 ms.topic: function
-f1_keywords: ["wofapi/WofIsExternalFile"]
+f1_keywords: 
+ - "wofapi/WofIsExternalFile"
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows

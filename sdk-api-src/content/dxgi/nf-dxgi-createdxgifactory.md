@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDXGIFactory, CreateDXGIFactory function [DXGI], direct3ddxgi.createdxgifactory, dxgi/CreateDXGIFactory, f8906daa-c399-a76f-d487-e1f2ee03b8a8
 ms.topic: function
-f1_keywords: ["dxgi/CreateDXGIFactory"]
+f1_keywords: 
+ - "dxgi/CreateDXGIFactory"
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

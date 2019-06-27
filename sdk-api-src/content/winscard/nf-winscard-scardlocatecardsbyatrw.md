@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SCardLocateCardsByATR, SCardLocateCardsByATR function [Security], SCardLocateCardsByATRA, SCardLocateCardsByATRW, _smart_scardlocatecardsbyatr, security.scardlocatecardsbyatr, winscard/SCardLocateCardsByATR, winscard/SCardLocateCardsByATRA, winscard/SCardLocateCardsByATRW
 ms.topic: function
-f1_keywords: ["winscard/SCardLocateCardsByATR"]
+f1_keywords: 
+ - "winscard/SCardLocateCardsByATR"
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

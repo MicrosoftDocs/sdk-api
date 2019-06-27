@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageUnload, ImageUnload function, _win32_imageunload, base.imageunload, imagehlp/ImageUnload
 ms.topic: function
-f1_keywords: ["imagehlp/ImageUnload"]
+f1_keywords: 
+ - "imagehlp/ImageUnload"
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTrackById, GetTrackById method [Media Foundation], GetTrackById method [Media Foundation],IMFTimedTextTrackList interface, IMFTimedTextTrackList interface [Media Foundation],GetTrackById method, IMFTimedTextTrackList.GetTrackById, IMFTimedTextTrackList::GetTrackById, mf.imftimedtexttracklist_gettrackbyid, mfmediaengine/IMFTimedTextTrackList::GetTrackById
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedTextTrackList.GetTrackById"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedTextTrackList.GetTrackById"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

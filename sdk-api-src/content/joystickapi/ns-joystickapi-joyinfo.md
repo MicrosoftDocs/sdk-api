@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPJOYINFO, *NPJOYINFO, *PJOYINFO, JOYINFO, JOYINFO structure [Windows Multimedia], _win32_JOYINFO_str, joyinfo_tag, joystickapi/JOYINFO, multimedia.joyinfo"
 ms.topic: struct
-f1_keywords: ["joystickapi/JOYINFO"]
+f1_keywords: 
+ - "joystickapi/JOYINFO"
 req.header: joystickapi.h
 req.include-header: Windows.h
 req.target-type: Windows

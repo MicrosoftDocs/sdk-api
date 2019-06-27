@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPackagePath, GetCurrentPackagePath function [App packaging and management], appmodel/GetCurrentPackagePath, appxpkg.getcurrentpackagepath
 ms.topic: function
-f1_keywords: ["appmodel/GetCurrentPackagePath"]
+f1_keywords: 
+ - "appmodel/GetCurrentPackagePath"
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

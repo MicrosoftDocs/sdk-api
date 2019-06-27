@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1fc82eef-f409-1d78-ab65-dd0124809d16, GetUsage, GetUsage method [DXGI], GetUsage method [DXGI],IDXGIResource interface, IDXGIResource interface [DXGI],GetUsage method, IDXGIResource.GetUsage, IDXGIResource::GetUsage, direct3ddxgi.idxgiresource_getusage, dxgi/IDXGIResource::GetUsage
 ms.topic: method
-f1_keywords: ["dxgi/IDXGIResource.GetUsage"]
+f1_keywords: 
+ - "dxgi/IDXGIResource.GetUsage"
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBackgroundClr, GetBackgroundClr method [DirectShow], GetBackgroundClr method [DirectShow],IVMRMixerControl9 interface, IVMRMixerControl9 interface [DirectShow],GetBackgroundClr method, IVMRMixerControl9.GetBackgroundClr, IVMRMixerControl9::GetBackgroundClr, IVMRMixerControl9GetBackgroundClr, dshow.ivmrmixercontrol9_getbackgroundclr, vmr9/IVMRMixerControl9::GetBackgroundClr
 ms.topic: method
-f1_keywords: ["vmr9/IVMRMixerControl9.GetBackgroundClr"]
+f1_keywords: 
+ - "vmr9/IVMRMixerControl9.GetBackgroundClr"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

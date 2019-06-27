@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOPMVideoOutput, IOPMVideoOutput interface [Media Foundation], IOPMVideoOutput interface [Media Foundation],described, mf.iopmvideooutput, opmapi/IOPMVideoOutput
 ms.topic: interface
-f1_keywords: ["opmapi/IOPMVideoOutput"]
+f1_keywords: 
+ - "opmapi/IOPMVideoOutput"
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

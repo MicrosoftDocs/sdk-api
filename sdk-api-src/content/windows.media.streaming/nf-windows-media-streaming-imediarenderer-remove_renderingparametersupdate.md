@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],remove_RenderingParametersUpdate method, IMediaRenderer.remove_RenderingParametersUpdate, IMediaRenderer.streaming, IMediaRenderer::remove_RenderingParametersUpdate, IMediaRenderer::streaming, mediastreaming.imediarenderer_remove_renderingparametersupdate, remove_RenderingParametersUpdate, remove_RenderingParametersUpdate method [Media Streaming API], remove_RenderingParametersUpdate method [Media Streaming API],IMediaRenderer interface, windows/IMediaRenderer::remove_RenderingParametersUpdate
 ms.topic: method
-f1_keywords: ["windows.media.streaming/IMediaRenderer.remove_RenderingParametersUpdate"]
+f1_keywords: 
+ - "windows.media.streaming/IMediaRenderer.remove_RenderingParametersUpdate"
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

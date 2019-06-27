@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTuneRequests, IEnumTuneRequests interface [Microsoft TV Technologies], IEnumTuneRequests interface [Microsoft TV Technologies],described, IEnumTuneRequestsInterface, bdatif/IEnumTuneRequests, mstv.ienumtunerequests
 ms.topic: interface
-f1_keywords: ["bdatif/IEnumTuneRequests"]
+f1_keywords: 
+ - "bdatif/IEnumTuneRequests"
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

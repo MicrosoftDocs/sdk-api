@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessMoveWithTime method, IManipulationProcessor.ProcessMoveWithTime, IManipulationProcessor::ProcessMoveWithTime, ProcessMoveWithTime, ProcessMoveWithTime method [Windows Touch], ProcessMoveWithTime method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessMoveWithTime, wintouch.imanpiulationprocessor_processmovewithtime
 ms.topic: method
-f1_keywords: ["manipulations/IManipulationProcessor.ProcessMoveWithTime"]
+f1_keywords: 
+ - "manipulations/IManipulationProcessor.ProcessMoveWithTime"
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
 req.target-type: Windows

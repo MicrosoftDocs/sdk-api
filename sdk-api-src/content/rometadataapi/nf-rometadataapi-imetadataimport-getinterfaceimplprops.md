@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInterfaceImplProps, GetInterfaceImplProps method [Windows Runtime], GetInterfaceImplProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetInterfaceImplProps method, IMetaDataImport.GetInterfaceImplProps, IMetaDataImport::GetInterfaceImplProps, rometadataapi/IMetaDataImport::GetInterfaceImplProps, winrt.imetadataimport_getinterfaceimplprops
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataImport.GetInterfaceImplProps"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataImport.GetInterfaceImplProps"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

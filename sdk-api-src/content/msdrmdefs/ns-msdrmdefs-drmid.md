@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMID, DRMID structure [Active Directory Rights Management Services SDK 1.0], msdrmdefs/DRMID, rm.drmid
 ms.topic: struct
-f1_keywords: ["msdrmdefs/DRMID"]
+f1_keywords: 
+ - "msdrmdefs/DRMID"
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows

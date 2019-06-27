@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiDatabaseGetPrimaryKeys, MsiDatabaseGetPrimaryKeys function, MsiDatabaseGetPrimaryKeysA, MsiDatabaseGetPrimaryKeysW, _msi_msidatabasegetprimarykeys, msiquery/MsiDatabaseGetPrimaryKeys, msiquery/MsiDatabaseGetPrimaryKeysA, msiquery/MsiDatabaseGetPrimaryKeysW, setup.msidatabasegetprimarykeys
 ms.topic: function
-f1_keywords: ["msiquery/MsiDatabaseGetPrimaryKeys"]
+f1_keywords: 
+ - "msiquery/MsiDatabaseGetPrimaryKeys"
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

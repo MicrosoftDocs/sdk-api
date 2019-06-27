@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Draw, Draw method, Draw method,IInkD2DRenderer interface, IInkD2DRenderer interface,Draw method, IInkD2DRenderer.Draw, IInkD2DRenderer::Draw, inkrenderer/IInkD2DRenderer::Draw, input_ink.iinkd2drenderer_draw
 ms.topic: method
-f1_keywords: ["inkrenderer/IInkD2DRenderer.Draw"]
+f1_keywords: 
+ - "inkrenderer/IInkD2DRenderer.Draw"
 req.header: inkrenderer.h
 req.include-header: 
 req.target-type: Windows

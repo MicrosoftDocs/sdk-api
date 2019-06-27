@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_capSetScrollPos, capSetScrollPos, capSetScrollPos macro [Windows Multimedia], multimedia.capsetscrollpos, vfw/capSetScrollPos"
 ms.topic: macro
-f1_keywords: ["vfw/capSetScrollPos"]
+f1_keywords: 
+ - "vfw/capSetScrollPos"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

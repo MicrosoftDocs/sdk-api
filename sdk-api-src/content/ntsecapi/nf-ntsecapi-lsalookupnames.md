@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaLookupNames, LsaLookupNames function [Security], _lsa_lsalookupnames, ntsecapi/LsaLookupNames, security.lsalookupnames
 ms.topic: function
-f1_keywords: ["ntsecapi/LsaLookupNames"]
+f1_keywords: 
+ - "ntsecapi/LsaLookupNames"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMWriterAdvanced2 interface [windows Media Format],SetInputSetting method, IWMWriterAdvanced2.SetInputSetting, IWMWriterAdvanced2::SetInputSetting, IWMWriterAdvanced2SetInputSetting, SetInputSetting, SetInputSetting method [windows Media Format], SetInputSetting method [windows Media Format],IWMWriterAdvanced2 interface, wmformat.iwmwriteradvanced2_setinputsetting, wmsdkidl/IWMWriterAdvanced2::SetInputSetting
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriterAdvanced2.SetInputSetting"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriterAdvanced2.SetInputSetting"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

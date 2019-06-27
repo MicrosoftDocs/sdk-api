@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],LocalizedName property, ISpellCheckProvider.LocalizedName, ISpellCheckProvider.get_LocalizedName, ISpellCheckProvider::LocalizedName, ISpellCheckProvider::get_LocalizedName, LocalizedName property [Internationalization for Windows Applications], LocalizedName property [Internationalization for Windows Applications],ISpellCheckProvider interface, get_LocalizedName, intl.ispellcheckprovider_localizedname, spellcheckprovider/ISpellCheckProvider::LocalizedName, spellcheckprovider/ISpellCheckProvider::get_LocalizedName
 ms.topic: method
-f1_keywords: ["spellcheckprovider/ISpellCheckProvider.LocalizedName"]
+f1_keywords: 
+ - "spellcheckprovider/ISpellCheckProvider.LocalizedName"
 req.header: spellcheckprovider.h
 req.include-header: 
 req.target-type: Windows

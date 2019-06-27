@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrRating, GetCurrRating method [Microsoft TV Technologies], GetCurrRating method [Microsoft TV Technologies],IDTFilter interface, IDTFilter interface [Microsoft TV Technologies],GetCurrRating method, IDTFilter.GetCurrRating, IDTFilter::GetCurrRating, IDTFilterGetCurrRating, encdec/IDTFilter::GetCurrRating, mstv.idtfilter_getcurrrating
 ms.topic: method
-f1_keywords: ["encdec/IDTFilter.GetCurrRating"]
+f1_keywords: 
+ - "encdec/IDTFilter.GetCurrRating"
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

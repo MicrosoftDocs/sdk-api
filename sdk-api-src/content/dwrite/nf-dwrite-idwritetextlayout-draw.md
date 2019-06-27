@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Draw, Draw method [Direct Write], Draw method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],Draw method, IDWriteTextLayout.Draw, IDWriteTextLayout::Draw, directwrite.IDWriteTextLayout_Draw, dwrite/IDWriteTextLayout::Draw
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextLayout.Draw"]
+f1_keywords: 
+ - "dwrite/IDWriteTextLayout.Draw"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

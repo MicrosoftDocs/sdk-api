@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsIscsiPortalGroup interface, IVdsIscsiPortalGroup interface [VDS],GetProperties method, IVdsIscsiPortalGroup.GetProperties, IVdsIscsiPortalGroup::GetProperties, base.ivdsiscsiportalgroup_getproperties, vds/IVdsIscsiPortalGroup::GetProperties, vdshwprv/IVdsIscsiPortalGroup::GetProperties
 ms.topic: method
-f1_keywords: ["vds/IVdsIscsiPortalGroup.GetProperties"]
+f1_keywords: 
+ - "vds/IVdsIscsiPortalGroup.GetProperties"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

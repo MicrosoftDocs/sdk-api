@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinBioCloseSession, WinBioCloseSession function [Windows Biometric Framework API], secbiomet.winbioclosesession, winbio/WinBioCloseSession
 ms.topic: function
-f1_keywords: ["winbio/WinBioCloseSession"]
+f1_keywords: 
+ - "winbio/WinBioCloseSession"
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

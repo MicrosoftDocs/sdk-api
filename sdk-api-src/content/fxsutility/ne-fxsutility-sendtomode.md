@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SEND_TO_FAX_RECIPIENT_ATTACHMENT, SendToMode, SendToMode enumeration [Fax Service], _mfax_sendtomode, fax._mfax_sendtomode, fxsutility/SEND_TO_FAX_RECIPIENT_ATTACHMENT, fxsutility/SendToMode
 ms.topic: enum
-f1_keywords: ["fxsutility/SendToMode"]
+f1_keywords: 
+ - "fxsutility/SendToMode"
 req.header: fxsutility.h
 req.include-header: 
 req.target-type: Windows

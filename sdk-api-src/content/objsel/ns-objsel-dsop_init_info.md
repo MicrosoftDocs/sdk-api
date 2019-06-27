@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDSOP_INIT_INFO, DSOP_FLAG_MULTISELECT, DSOP_FLAG_SKIP_TARGET_COMPUTER_DC_CHECK, DSOP_INIT_INFO, DSOP_INIT_INFO structure [Active Directory], PDSOP_INIT_INFO, PDSOP_INIT_INFO structure pointer [Active Directory], _glines_dsop_init_info, ad.dsop__init__info, ad.dsop_init_info, objsel/DSOP_INIT_INFO, objsel/PDSOP_INIT_INFO"
 ms.topic: struct
-f1_keywords: ["objsel/DSOP_INIT_INFO"]
+f1_keywords: 
+ - "objsel/DSOP_INIT_INFO"
 req.header: objsel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COMPRESS_ALGORITHM_LZMS, COMPRESS_ALGORITHM_MSZIP, COMPRESS_ALGORITHM_XPRESS, COMPRESS_ALGORITHM_XPRESS_HUFF, CreateCompressor, CreateCompressor function [Compression API], cmpapi.createcompressor, compressapi/CreateCompressor
 ms.topic: function
-f1_keywords: ["compressapi/CreateCompressor"]
+f1_keywords: 
+ - "compressapi/CreateCompressor"
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsService interface [VDS],QueryFileSystemTypes method, IVdsService.QueryFileSystemTypes, IVdsService::QueryFileSystemTypes, QueryFileSystemTypes, QueryFileSystemTypes method [VDS], QueryFileSystemTypes method [VDS],IVdsService interface, base.ivdsservice_queryfilesystemtypes, vds/IVdsService::QueryFileSystemTypes
 ms.topic: method
-f1_keywords: ["vds/IVdsService.QueryFileSystemTypes"]
+f1_keywords: 
+ - "vds/IVdsService.QueryFileSystemTypes"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

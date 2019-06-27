@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiTarget interface [VDS],SetSharedSecret method, IVdsIscsiTarget.SetSharedSecret, IVdsIscsiTarget::SetSharedSecret, SetSharedSecret, SetSharedSecret method [VDS], SetSharedSecret method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_setsharedsecret, vds/IVdsIscsiTarget::SetSharedSecret, vdshwprv/IVdsIscsiTarget::SetSharedSecret
 ms.topic: method
-f1_keywords: ["vdshwprv/IVdsIscsiTarget.SetSharedSecret"]
+f1_keywords: 
+ - "vdshwprv/IVdsIscsiTarget.SetSharedSecret"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

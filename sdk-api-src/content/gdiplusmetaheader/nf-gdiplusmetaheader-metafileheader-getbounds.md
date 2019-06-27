@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBounds, GetBounds method [GDI+], GetBounds method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],GetBounds method, MetafileHeader.GetBounds, MetafileHeader::GetBounds, _gdiplus_CLASS_MetafileHeader_GetBounds_rect_, gdiplus._gdiplus_CLASS_MetafileHeader_GetBounds_rect_
 ms.topic: method
-f1_keywords: ["gdiplusmetaheader/MetafileHeader.GetBounds"]
+f1_keywords: 
+ - "gdiplusmetaheader/MetafileHeader.GetBounds"
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

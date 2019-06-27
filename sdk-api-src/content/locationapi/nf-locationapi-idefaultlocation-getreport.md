@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetReport, GetReport method [WinLocation], GetReport method [WinLocation],IDefaultLocation interface, IDefaultLocation interface [WinLocation],GetReport method, IDefaultLocation.GetReport, IDefaultLocation::GetReport, WinLocation_COM_Ref.idefaultlocation_getreport, locationapi/IDefaultLocation::GetReport
 ms.topic: method
-f1_keywords: ["locationapi/IDefaultLocation.GetReport"]
+f1_keywords: 
+ - "locationapi/IDefaultLocation.GetReport"
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

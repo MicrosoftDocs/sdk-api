@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiGetSourcePath, MsiGetSourcePath function, MsiGetSourcePathA, MsiGetSourcePathW, _msi_msigetsourcepath, msiquery/MsiGetSourcePath, msiquery/MsiGetSourcePathA, msiquery/MsiGetSourcePathW, setup.msigetsourcepath
 ms.topic: function
-f1_keywords: ["msiquery/MsiGetSourcePath"]
+f1_keywords: 
+ - "msiquery/MsiGetSourcePath"
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_GENERAL_SUBTREE, CERT_GENERAL_SUBTREE, CERT_GENERAL_SUBTREE structure [Security], PCERT_GENERAL_SUBTREE, PCERT_GENERAL_SUBTREE structure pointer [Security], _crypto2_cert_general_subtree, security.cert_general_subtree, wincrypt/CERT_GENERAL_SUBTREE, wincrypt/PCERT_GENERAL_SUBTREE"
 ms.topic: struct
-f1_keywords: ["wincrypt/CERT_GENERAL_SUBTREE"]
+f1_keywords: 
+ - "wincrypt/CERT_GENERAL_SUBTREE"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

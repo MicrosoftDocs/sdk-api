@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemAvailableOffline method, IOfflineFilesEvents.ItemAvailableOffline, IOfflineFilesEvents::ItemAvailableOffline, ItemAvailableOffline, ItemAvailableOffline method [Offline Files], ItemAvailableOffline method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemAvailableOffline, of.iofflinefilesevents_itemavailableoffline
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesEvents.ItemAvailableOffline"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesEvents.ItemAvailableOffline"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK],Reset method, IEnumPortableDeviceObjectIDs.Reset, IEnumPortableDeviceObjectIDs::Reset, IEnumPortableDeviceObjectIDsReset, Reset, Reset method [Windows Portable Devices SDK], Reset method [Windows Portable Devices SDK],IEnumPortableDeviceObjectIDs interface, portabledeviceapi/IEnumPortableDeviceObjectIDs::Reset, wpdsdk.ienumportabledeviceobjectids_reset
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IEnumPortableDeviceObjectIDs.Reset"]
+f1_keywords: 
+ - "portabledeviceapi/IEnumPortableDeviceObjectIDs.Reset"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

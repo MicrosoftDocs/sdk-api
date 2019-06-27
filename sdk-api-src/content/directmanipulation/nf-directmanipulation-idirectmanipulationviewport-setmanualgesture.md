@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetManualGesture method, IDirectManipulationViewport.SetManualGesture, IDirectManipulationViewport::SetManualGesture, SetManualGesture, SetManualGesture method [Direct Manipulation], SetManualGesture method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setmanualgesture, directmanipulation/IDirectManipulationViewport::SetManualGesture
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationViewport.SetManualGesture"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationViewport.SetManualGesture"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

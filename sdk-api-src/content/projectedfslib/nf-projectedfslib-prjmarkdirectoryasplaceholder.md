@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PrjMarkDirectoryAsPlaceholder, PrjMarkDirectoryAsPlaceholder function, ProjFS.prjmarkdirectoryasplaceholder, projectedfslib/PrjMarkDirectoryAsPlaceholder
 ms.topic: function
-f1_keywords: ["projectedfslib/PrjMarkDirectoryAsPlaceholder"]
+f1_keywords: 
+ - "projectedfslib/PrjMarkDirectoryAsPlaceholder"
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCredentialAt, GetCredentialAt method [Windows Shell], GetCredentialAt method [Windows Shell],ICredentialProvider interface, ICredentialProvider interface [Windows Shell],GetCredentialAt method, ICredentialProvider.GetCredentialAt, ICredentialProvider::GetCredentialAt, credentialprovider/ICredentialProvider::GetCredentialAt, shell.ICredentialProvider_GetCredentialAt, shell_ICredentialProvider_GetCredentialAt
 ms.topic: method
-f1_keywords: ["credentialprovider/ICredentialProvider.GetCredentialAt"]
+f1_keywords: 
+ - "credentialprovider/ICredentialProvider.GetCredentialAt"
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

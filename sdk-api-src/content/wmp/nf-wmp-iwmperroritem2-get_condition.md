@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPErrorItem2 interface [Windows Media Player],get_condition method, IWMPErrorItem2.get_condition, IWMPErrorItem2::get_condition, IWMPErrorItem2get_condition, get_condition, get_condition method [Windows Media Player], get_condition method [Windows Media Player],IWMPErrorItem2 interface, wmp.iwmperroritem2_get_condition, wmp/IWMPErrorItem2::get_condition
 ms.topic: method
-f1_keywords: ["wmp/IWMPErrorItem2.get_condition"]
+f1_keywords: 
+ - "wmp/IWMPErrorItem2.get_condition"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

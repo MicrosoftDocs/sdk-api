@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UI_EVENTLOCATION, UI_EVENTLOCATION enumeration [Windows Ribbon], UI_EVENTLOCATION_ApplicationMenu, UI_EVENTLOCATION_ContextPopup, UI_EVENTLOCATION_QAT, UI_EVENTLOCATION_Ribbon, uiribbon/UI_EVENTLOCATION, uiribbon/UI_EVENTLOCATION_ApplicationMenu, uiribbon/UI_EVENTLOCATION_ContextPopup, uiribbon/UI_EVENTLOCATION_QAT, uiribbon/UI_EVENTLOCATION_Ribbon, windowsribbon.ui_eventlocation
 ms.topic: enum
-f1_keywords: ["uiribbon/UI_EVENTLOCATION"]
+f1_keywords: 
+ - "uiribbon/UI_EVENTLOCATION"
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

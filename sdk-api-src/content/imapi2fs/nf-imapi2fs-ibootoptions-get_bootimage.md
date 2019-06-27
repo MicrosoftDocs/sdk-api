@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBootOptions interface [IMAPI],get_BootImage method, IBootOptions.get_BootImage, IBootOptions::get_BootImage, get_BootImage, get_BootImage method [IMAPI], get_BootImage method [IMAPI],IBootOptions interface, imapi.ibootoptions_get_bootimage, imapi2fs/IBootOptions::get_BootImage
 ms.topic: method
-f1_keywords: ["imapi2fs/IBootOptions.get_BootImage"]
+f1_keywords: 
+ - "imapi2fs/IBootOptions.get_BootImage"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

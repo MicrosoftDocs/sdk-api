@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LDAPAPIInfo, LDAPAPIInfo structure [LDAP], LDAPAPIInfoA, LDAPAPIInfoW, ldap.ldapapiinfo, winldap/LDAPAPIInfo, winldap/LDAPAPIInfoA, winldap/LDAPAPIInfoW
 ms.topic: struct
-f1_keywords: ["winldap/LDAPAPIInfo"]
+f1_keywords: 
+ - "winldap/LDAPAPIInfo"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCMSG_CONTENT_ENCRYPT_INFO, CMSG_CONTENT_ENCRYPT_FREE_OBJID_FLAG, CMSG_CONTENT_ENCRYPT_FREE_PARA_FLAG, CMSG_CONTENT_ENCRYPT_INFO, CMSG_CONTENT_ENCRYPT_INFO structure [Security], CMSG_CONTENT_ENCRYPT_PAD_ENCODED_LEN_FLAG, CMSG_CONTENT_ENCRYPT_RELEASE_CONTEXT_FLAG, PCMSG_CONTENT_ENCRYPT_INFO, PCMSG_CONTENT_ENCRYPT_INFO structure pointer [Security], RC2, RC4, security.cmsg_content_encrypt_info, wincrypt/CMSG_CONTENT_ENCRYPT_INFO, wincrypt/PCMSG_CONTENT_ENCRYPT_INFO"
 ms.topic: struct
-f1_keywords: ["wincrypt/CMSG_CONTENT_ENCRYPT_INFO"]
+f1_keywords: 
+ - "wincrypt/CMSG_CONTENT_ENCRYPT_INFO"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

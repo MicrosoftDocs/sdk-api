@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetKerning method, ITextFont.SetKerning, ITextFont::SetKerning, SetKerning, SetKerning method [Windows Controls], SetKerning method [Windows Controls],ITextFont interface, _win32_ITextFont_SetKerning, _win32_ITextFont_SetKerning_cpp, controls.ITextFont_SetKerning, controls._win32_ITextFont_SetKerning, tom/ITextFont::SetKerning
 ms.topic: method
-f1_keywords: ["tom/ITextFont.SetKerning"]
+f1_keywords: 
+ - "tom/ITextFont.SetKerning"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

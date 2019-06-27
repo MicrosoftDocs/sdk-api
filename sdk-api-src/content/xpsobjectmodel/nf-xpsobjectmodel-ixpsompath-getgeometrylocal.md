@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGeometryLocal, GetGeometryLocal method [XPS Documents and Packaging], GetGeometryLocal method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetGeometryLocal method, IXpsOMPath.GetGeometryLocal, IXpsOMPath::GetGeometryLocal, xps.ixpsompath_getgeometrylocal, xpsobjectmodel/IXpsOMPath::GetGeometryLocal
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMPath.GetGeometryLocal"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPath.GetGeometryLocal"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

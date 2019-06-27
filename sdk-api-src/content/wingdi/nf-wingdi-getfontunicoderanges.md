@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFontUnicodeRanges, GetFontUnicodeRanges function [Windows GDI], _win32_GetFontUnicodeRanges, gdi.getfontunicoderanges, wingdi/GetFontUnicodeRanges
 ms.topic: function
-f1_keywords: ["wingdi/GetFontUnicodeRanges"]
+f1_keywords: 
+ - "wingdi/GetFontUnicodeRanges"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

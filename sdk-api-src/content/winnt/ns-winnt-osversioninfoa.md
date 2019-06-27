@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPOSVERSIONINFOA, *POSVERSIONINFOA, OSVERSIONINFO, OSVERSIONINFO structure, OSVERSIONINFOA, OSVERSIONINFOW, VER_PLATFORM_WIN32_NT, _OSVERSIONINFOA, _OSVERSIONINFOW, _win32_osversioninfo_str, base.osversioninfo_str, winnt/OSVERSIONINFO, winnt/OSVERSIONINFOA, winnt/OSVERSIONINFOW"
 ms.topic: struct
-f1_keywords: ["winnt/OSVERSIONINFO"]
+f1_keywords: 
+ - "winnt/OSVERSIONINFO"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

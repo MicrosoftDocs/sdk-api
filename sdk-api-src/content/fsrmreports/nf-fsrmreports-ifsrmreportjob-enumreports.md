@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumReports, EnumReports method [File Server Resource Manager], EnumReports method [File Server Resource Manager],IFsrmReportJob interface, IFsrmReportJob interface [File Server Resource Manager],EnumReports method, IFsrmReportJob.EnumReports, IFsrmReportJob::EnumReports, fs.ifsrmreportjob_enumreports, fsrm.ifsrmreportjob_enumreports, fsrmreports/IFsrmReportJob::EnumReports
 ms.topic: method
-f1_keywords: ["fsrmreports/IFsrmReportJob.EnumReports"]
+f1_keywords: 
+ - "fsrmreports/IFsrmReportJob.EnumReports"
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

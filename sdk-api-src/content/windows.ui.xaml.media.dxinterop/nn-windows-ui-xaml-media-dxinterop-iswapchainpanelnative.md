@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISwapChainPanelNative, ISwapChainPanelNative interface [Windows Runtime], ISwapChainPanelNative interface [Windows Runtime],described, windows/ISwapChainPanelNative, winrt.iswapchainpanelnative
 ms.topic: interface
-f1_keywords: ["windows.ui.xaml.media.dxinterop/ISwapChainPanelNative"]
+f1_keywords: 
+ - "windows.ui.xaml.media.dxinterop/ISwapChainPanelNative"
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVDiskFromDisk, GetVDiskFromDisk method, GetVDiskFromDisk method,IVdsVdProvider interface, IVdsVdProvider interface,GetVDiskFromDisk method, IVdsVdProvider.GetVDiskFromDisk, IVdsVdProvider::GetVDiskFromDisk, base.ivdsvdprovider_getvdiskfromdisk, vds/IVdsVdProvider::GetVDiskFromDisk
 ms.topic: method
-f1_keywords: ["vds/IVdsVdProvider.GetVDiskFromDisk"]
+f1_keywords: 
+ - "vds/IVdsVdProvider.GetVDiskFromDisk"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

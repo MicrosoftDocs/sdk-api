@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptMsgVerifyCountersignatureEncoded, CryptMsgVerifyCountersignatureEncoded function [Security], _crypto2_cryptmsgverifycountersignatureencoded, security.cryptmsgverifycountersignatureencoded, wincrypt/CryptMsgVerifyCountersignatureEncoded
 ms.topic: function
-f1_keywords: ["wincrypt/CryptMsgVerifyCountersignatureEncoded"]
+f1_keywords: 
+ - "wincrypt/CryptMsgVerifyCountersignatureEncoded"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

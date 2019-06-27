@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMatrixTransform, GetMatrixTransform method [DXGI], GetMatrixTransform method [DXGI],IDXGISwapChain2 interface, IDXGISwapChain2 interface [DXGI],GetMatrixTransform method, IDXGISwapChain2.GetMatrixTransform, IDXGISwapChain2::GetMatrixTransform, direct3ddxgi.idxgiswapchain2_getmatrixtransform, dxgi1_3/IDXGISwapChain2::GetMatrixTransform
 ms.topic: method
-f1_keywords: ["dxgi1_3/IDXGISwapChain2.GetMatrixTransform"]
+f1_keywords: 
+ - "dxgi1_3/IDXGISwapChain2.GetMatrixTransform"
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

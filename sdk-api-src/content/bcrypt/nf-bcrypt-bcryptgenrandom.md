@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_RNG_USE_ENTROPY_IN_BUFFER, BCRYPT_USE_SYSTEM_PREFERRED_RNG, BCryptGenRandom, BCryptGenRandom function [Security], bcrypt/BCryptGenRandom, security.bcryptgenrandom_func
 ms.topic: function
-f1_keywords: ["bcrypt/BCryptGenRandom"]
+f1_keywords: 
+ - "bcrypt/BCryptGenRandom"
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

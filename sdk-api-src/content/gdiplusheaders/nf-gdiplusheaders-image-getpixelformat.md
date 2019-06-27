@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPixelFormat, GetPixelFormat method [GDI+], GetPixelFormat method [GDI+],Image class, Image class [GDI+],GetPixelFormat method, Image.GetPixelFormat, Image::GetPixelFormat, _gdiplus_CLASS_Image_GetPixelFormat_, gdiplus._gdiplus_CLASS_Image_GetPixelFormat_
 ms.topic: method
-f1_keywords: ["gdiplusheaders/Image.GetPixelFormat"]
+f1_keywords: 
+ - "gdiplusheaders/Image.GetPixelFormat"
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

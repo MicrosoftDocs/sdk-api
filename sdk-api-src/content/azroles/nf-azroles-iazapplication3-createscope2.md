@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateScope2, CreateScope2 method [Security], CreateScope2 method [Security],IAzApplication3 interface, IAzApplication3 interface [Security],CreateScope2 method, IAzApplication3.CreateScope2, IAzApplication3::CreateScope2, azroles/IAzApplication3::CreateScope2, security.iazapplication3_createscope2
 ms.topic: method
-f1_keywords: ["azroles/IAzApplication3.CreateScope2"]
+f1_keywords: 
+ - "azroles/IAzApplication3.CreateScope2"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

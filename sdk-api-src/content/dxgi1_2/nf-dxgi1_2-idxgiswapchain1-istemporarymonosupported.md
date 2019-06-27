@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChain1 interface [DXGI],IsTemporaryMonoSupported method, IDXGISwapChain1.IsTemporaryMonoSupported, IDXGISwapChain1::IsTemporaryMonoSupported, IsTemporaryMonoSupported, IsTemporaryMonoSupported method [DXGI], IsTemporaryMonoSupported method [DXGI],IDXGISwapChain1 interface, direct3ddxgi.idxgiswapchain1_istemporarymonosupported, dxgi1_2/IDXGISwapChain1::IsTemporaryMonoSupported
 ms.topic: method
-f1_keywords: ["dxgi1_2/IDXGISwapChain1.IsTemporaryMonoSupported"]
+f1_keywords: 
+ - "dxgi1_2/IDXGISwapChain1.IsTemporaryMonoSupported"
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

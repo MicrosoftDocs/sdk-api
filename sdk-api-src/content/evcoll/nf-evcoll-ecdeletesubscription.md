@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EcDeleteSubscription, EcDeleteSubscription function, evcoll/EcDeleteSubscription, wec.ecdeletesubscription, wes.ecdeletesubscription
 ms.topic: function
-f1_keywords: ["evcoll/EcDeleteSubscription"]
+f1_keywords: 
+ - "evcoll/EcDeleteSubscription"
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

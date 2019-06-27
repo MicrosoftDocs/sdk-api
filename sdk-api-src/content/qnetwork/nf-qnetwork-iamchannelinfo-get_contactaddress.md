@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMChannelInfo interface [DirectShow],get_ContactAddress method, IAMChannelInfo.get_ContactAddress, IAMChannelInfo::get_ContactAddress, IAMChannelInfoget_ContactAddress, dshow.iamchannelinfo_get_contactaddress, get_ContactAddress, get_ContactAddress method [DirectShow], get_ContactAddress method [DirectShow],IAMChannelInfo interface, qnetwork/IAMChannelInfo::get_ContactAddress
 ms.topic: method
-f1_keywords: ["qnetwork/IAMChannelInfo.get_ContactAddress"]
+f1_keywords: 
+ - "qnetwork/IAMChannelInfo.get_ContactAddress"
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

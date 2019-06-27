@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_mmioFOURCC, mmioFOURCC, mmioFOURCC macro [Windows Multimedia], multimedia.mmiofourcc, vfw/mmioFOURCC"
 ms.topic: macro
-f1_keywords: ["vfw/mmioFOURCC"]
+f1_keywords: 
+ - "vfw/mmioFOURCC"
 req.header: vfw.h
 req.include-header: Windows.h
 req.target-type: Windows

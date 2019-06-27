@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoGetCurrentLogicalThreadId, CoGetCurrentLogicalThreadId function [COM], _com_CoGetCurrentLogicalThreadId, com.cogetcurrentlogicalthreadid, combaseapi/CoGetCurrentLogicalThreadId
 ms.topic: function
-f1_keywords: ["combaseapi/CoGetCurrentLogicalThreadId"]
+f1_keywords: 
+ - "combaseapi/CoGetCurrentLogicalThreadId"
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

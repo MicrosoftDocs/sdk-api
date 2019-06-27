@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtwqRemovePeriodicCallback, RtwqRemovePeriodicCallback function, base.rtwqremoveperiodiccallback, rtworkq/RtwqRemovePeriodicCallback
 ms.topic: function
-f1_keywords: ["rtworkq/RtwqRemovePeriodicCallback"]
+f1_keywords: 
+ - "rtworkq/RtwqRemovePeriodicCallback"
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

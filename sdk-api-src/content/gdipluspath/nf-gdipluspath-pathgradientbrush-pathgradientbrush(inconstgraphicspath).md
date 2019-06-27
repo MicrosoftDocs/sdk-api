@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush, PathGradientBrush class [GDI+],PathGradientBrush constructor, PathGradientBrush constructor [GDI+], PathGradientBrush constructor [GDI+],PathGradientBrush class, PathGradientBrush.PathGradientBrush, PathGradientBrush.PathGradientBrush(IN const GraphicsPath), PathGradientBrush.PathGradientBrush(const GraphicsPath*), PathGradientBrush::PathGradientBrush, PathGradientBrush::PathGradientBrush(IN const GraphicsPath), _gdiplus_CLASS_PathGradientBrush_PathGradientBrush_path_, gdiplus._gdiplus_CLASS_PathGradientBrush_PathGradientBrush_path_
 ms.topic: method
-f1_keywords: ["gdipluspath/PathGradientBrush.PathGradientBrush"]
+f1_keywords: 
+ - "gdipluspath/PathGradientBrush.PathGradientBrush"
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

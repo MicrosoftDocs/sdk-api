@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StringCchGets, StringCchGets function [Menus and Other Resources], StringCchGetsA, StringCchGetsW, _shell_StringCchGets, _shell_stringcchgets_cpp, menurc.stringcchgets, strsafe/StringCchGets, strsafe/StringCchGetsA, strsafe/StringCchGetsW, winui._shell_stringcchgets
 ms.topic: function
-f1_keywords: ["strsafe/StringCchGets"]
+f1_keywords: 
+ - "strsafe/StringCchGets"
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows

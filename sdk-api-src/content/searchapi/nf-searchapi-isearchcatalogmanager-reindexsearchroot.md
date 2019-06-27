@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager interface [search],ReindexSearchRoot method, ISearchCatalogManager.ReindexSearchRoot, ISearchCatalogManager::ReindexSearchRoot, ReindexSearchRoot, ReindexSearchRoot method [search], ReindexSearchRoot method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_ReindexSearchRoot, search._search_ISearchCatalogManager_ReindexSearchRoot, searchapi/ISearchCatalogManager::ReindexSearchRoot
 ms.topic: method
-f1_keywords: ["searchapi/ISearchCatalogManager.ReindexSearchRoot"]
+f1_keywords: 
+ - "searchapi/ISearchCatalogManager.ReindexSearchRoot"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

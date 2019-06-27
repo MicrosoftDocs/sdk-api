@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_midiInStop, midiInStop, midiInStop function [Windows Multimedia], mmeapi/midiInStop, multimedia.midiinstop"
 ms.topic: function
-f1_keywords: ["mmeapi/midiInStop"]
+f1_keywords: 
+ - "mmeapi/midiInStop"
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

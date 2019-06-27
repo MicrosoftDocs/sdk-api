@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdates interface [Windows Update Agent],Resume method, IAutomaticUpdates.Resume, IAutomaticUpdates::Resume, Resume, Resume method [Windows Update Agent], Resume method [Windows Update Agent],IAutomaticUpdates interface, wua.iautomaticupdates_resume, wuapi/IAutomaticUpdates::Resume
 ms.topic: method
-f1_keywords: ["wuapi/IAutomaticUpdates.Resume"]
+f1_keywords: 
+ - "wuapi/IAutomaticUpdates.Resume"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

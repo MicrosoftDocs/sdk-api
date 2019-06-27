@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInheritanceSource, GetInheritanceSource function [Security], GetInheritanceSourceA, GetInheritanceSourceW, _win32_getinheritancesource, aclapi/GetInheritanceSource, aclapi/GetInheritanceSourceA, aclapi/GetInheritanceSourceW, security.getinheritancesource
 ms.topic: function
-f1_keywords: ["aclapi/GetInheritanceSource"]
+f1_keywords: 
+ - "aclapi/GetInheritanceSource"
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

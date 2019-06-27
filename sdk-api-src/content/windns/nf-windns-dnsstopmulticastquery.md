@@ -5,7 +5,8 @@ description: Used to stop a running [DnsStartMulticastQuery](nf-windns-dnsstartm
 ms.date: 02/14/2019
 ms.keywords: DnsStopMulticastQuery
 ms.topic: language-reference
-f1_keywords: ["windns/DnsStopMulticastQuery"]
+f1_keywords: 
+ - "windns/DnsStopMulticastQuery"
 targetos: Windows
 product: Windows
 req.assembly: 

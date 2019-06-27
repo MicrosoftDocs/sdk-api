@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreePrivateHeap, FreePrivateHeap callback function [Security], LSA_FREE_PRIVATE_HEAP, LSA_FREE_PRIVATE_HEAP callback, ntsecpkg/FreePrivateHeap, security.freeprivateheap
 ms.topic: callback
-f1_keywords: ["ntsecpkg/FreePrivateHeap"]
+f1_keywords: 
+ - "ntsecpkg/FreePrivateHeap"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

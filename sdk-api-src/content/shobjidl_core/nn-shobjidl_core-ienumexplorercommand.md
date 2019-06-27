@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumExplorerCommand, IEnumExplorerCommand interface [Windows Shell], IEnumExplorerCommand interface [Windows Shell],described, _shell_IEnumExplorerCommand, shell.IEnumExplorerCommand, shobjidl_core/IEnumExplorerCommand
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IEnumExplorerCommand"]
+f1_keywords: 
+ - "shobjidl_core/IEnumExplorerCommand"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

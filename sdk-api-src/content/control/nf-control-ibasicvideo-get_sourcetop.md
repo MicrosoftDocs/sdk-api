@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_SourceTop method, IBasicVideo.get_SourceTop, IBasicVideo::get_SourceTop, IBasicVideoget_SourceTop, control/IBasicVideo::get_SourceTop, dshow.ibasicvideo_get_sourcetop, get_SourceTop, get_SourceTop method [DirectShow], get_SourceTop method [DirectShow],IBasicVideo interface
 ms.topic: method
-f1_keywords: ["control/IBasicVideo.get_SourceTop"]
+f1_keywords: 
+ - "control/IBasicVideo.get_SourceTop"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

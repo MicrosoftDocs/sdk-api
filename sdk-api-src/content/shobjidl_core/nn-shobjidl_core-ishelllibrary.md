@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellLibrary, IShellLibrary interface [Windows Shell], IShellLibrary interface [Windows Shell],described, _shell_IShellLibrary, shell.IShellLibrary, shobjidl_core/IShellLibrary
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IShellLibrary"]
+f1_keywords: 
+ - "shobjidl_core/IShellLibrary"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

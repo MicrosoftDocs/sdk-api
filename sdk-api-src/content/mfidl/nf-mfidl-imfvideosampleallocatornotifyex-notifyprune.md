@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFVideoSampleAllocatorNotifyEx interface [Media Foundation],NotifyPrune method, IMFVideoSampleAllocatorNotifyEx.NotifyPrune, IMFVideoSampleAllocatorNotifyEx::NotifyPrune, NotifyPrune, NotifyPrune method [Media Foundation], NotifyPrune method [Media Foundation],IMFVideoSampleAllocatorNotifyEx interface, mf.imfvideosampleallocatornotifyex_notifyprune, mfidl/IMFVideoSampleAllocatorNotifyEx::NotifyPrune
 ms.topic: method
-f1_keywords: ["mfidl/IMFVideoSampleAllocatorNotifyEx.NotifyPrune"]
+f1_keywords: 
+ - "mfidl/IMFVideoSampleAllocatorNotifyEx.NotifyPrune"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnregisterDeviceWithManagement, UnregisterDeviceWithManagement function [MDM Registration], mdmreg.unregisterdevicewithmanagement, mdmregistration/UnregisterDeviceWithManagement
 ms.topic: function
-f1_keywords: ["mdmregistration/UnregisterDeviceWithManagement"]
+f1_keywords: 
+ - "mdmregistration/UnregisterDeviceWithManagement"
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows

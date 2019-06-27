@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_CHANGER_GET_STATUS, IOCTL_CHANGER_GET_STATUS control, IOCTL_CHANGER_GET_STATUS control code, _win32_ioctl_changer_get_status, base.ioctl_changer_get_status, winioctl/IOCTL_CHANGER_GET_STATUS
 ms.topic: ioctl
-f1_keywords: ["winioctl/IOCTL_CHANGER_GET_STATUS"]
+f1_keywords: 
+ - "winioctl/IOCTL_CHANGER_GET_STATUS"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

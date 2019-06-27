@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellLinkDataList interface [Windows Shell],SetFlags method, IShellLinkDataList.SetFlags, IShellLinkDataList::SetFlags, SetFlags, SetFlags method [Windows Shell], SetFlags method [Windows Shell],IShellLinkDataList interface, _win32_IShellLinkDataList_SetFlags, shell.IShellLinkDataList_SetFlags, shobjidl_core/IShellLinkDataList::SetFlags
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellLinkDataList.SetFlags"]
+f1_keywords: 
+ - "shobjidl_core/IShellLinkDataList.SetFlags"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

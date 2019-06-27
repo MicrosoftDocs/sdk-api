@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CredFree, CredFree function [Security], _cred_credfree, security.credfree, wincred/CredFree
 ms.topic: function
-f1_keywords: ["wincred/CredFree"]
+f1_keywords: 
+ - "wincred/CredFree"
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

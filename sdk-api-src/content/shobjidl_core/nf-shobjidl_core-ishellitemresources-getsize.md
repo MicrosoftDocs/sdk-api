@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [Windows Shell], GetSize method [Windows Shell],IShellItemResources interface, IShellItemResources interface [Windows Shell],GetSize method, IShellItemResources.GetSize, IShellItemResources::GetSize, _shell_IShellItemResources_GetSize, shell.IShellItemResources_GetSize, shobjidl_core/IShellItemResources::GetSize
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellItemResources.GetSize"]
+f1_keywords: 
+ - "shobjidl_core/IShellItemResources.GetSize"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

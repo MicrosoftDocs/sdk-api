@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHSkipJunction, SHSkipJunction function [Windows Shell], _win32_SHSkipJunction, shell.SHSkipJunction, shlwapi/SHSkipJunction
 ms.topic: function
-f1_keywords: ["shlwapi/SHSkipJunction"]
+f1_keywords: 
+ - "shlwapi/SHSkipJunction"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

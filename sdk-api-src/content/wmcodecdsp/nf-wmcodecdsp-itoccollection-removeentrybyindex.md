@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITocCollection interface [Media Foundation],RemoveEntryByIndex method, ITocCollection.RemoveEntryByIndex, ITocCollection::RemoveEntryByIndex, RemoveEntryByIndex, RemoveEntryByIndex method [Media Foundation], RemoveEntryByIndex method [Media Foundation],ITocCollection interface, codecapi.itoccollection_removeentrybyindex, mf.itoccollection_removeentrybyindex, wmcodecdsp/ITocCollection::RemoveEntryByIndex
 ms.topic: method
-f1_keywords: ["wmcodecdsp/ITocCollection.RemoveEntryByIndex"]
+f1_keywords: 
+ - "wmcodecdsp/ITocCollection.RemoveEntryByIndex"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

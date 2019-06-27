@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],put_accValue method, IAccessible.put_accValue, IAccessible::put_accValue, _msaa_IAccessible_put_accValue, msaa.iaccessible_iaccessible__put_accvalue, oleacc/IAccessible::put_accValue, put_accValue, put_accValue method [Windows Accessibility], put_accValue method [Windows Accessibility],IAccessible interface, winauto.iaccessible_iaccessible__put_accvalue
 ms.topic: method
-f1_keywords: ["oleacc/IAccessible.put_accValue"]
+f1_keywords: 
+ - "oleacc/IAccessible.put_accValue"
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

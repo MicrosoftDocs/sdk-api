@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxAccountSet, IFaxAccountSet interface [Fax Service], IFaxAccountSet interface [Fax Service],described, _mfax_faxaccountset_cpp, fax._mfax_faxaccountset_cpp, faxcomex/IFaxAccountSet
 ms.topic: interface
-f1_keywords: ["faxcomex/IFaxAccountSet"]
+f1_keywords: 
+ - "faxcomex/IFaxAccountSet"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

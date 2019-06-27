@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDllDirectory, GetDllDirectory function, GetDllDirectoryA, GetDllDirectoryW, base.getdlldirectory, winbase/GetDllDirectory, winbase/GetDllDirectoryA, winbase/GetDllDirectoryW
 ms.topic: function
-f1_keywords: ["winbase/GetDllDirectory"]
+f1_keywords: 
+ - "winbase/GetDllDirectory"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

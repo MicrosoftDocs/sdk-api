@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioVolumeLevel, IAudioVolumeLevel interface [Core Audio], IAudioVolumeLevel interface [Core Audio],described, coreaudio.iaudiovolumelevel, devicetopology/IAudioVolumeLevel
 ms.topic: interface
-f1_keywords: ["devicetopology/IAudioVolumeLevel"]
+f1_keywords: 
+ - "devicetopology/IAudioVolumeLevel"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiProcessAdvertiseScript, MsiProcessAdvertiseScript function, MsiProcessAdvertiseScriptA, MsiProcessAdvertiseScriptW, _msi_msiprocessadvertisescript, msi/MsiProcessAdvertiseScript, msi/MsiProcessAdvertiseScriptA, msi/MsiProcessAdvertiseScriptW, setup.msiprocessadvertisescript
 ms.topic: function
-f1_keywords: ["msi/MsiProcessAdvertiseScript"]
+f1_keywords: 
+ - "msi/MsiProcessAdvertiseScript"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

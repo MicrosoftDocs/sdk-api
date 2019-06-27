@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpcDigitalSignatureManager interface [Open Packaging Conventions],Validate method, IOpcDigitalSignatureManager.Validate, IOpcDigitalSignatureManager::Validate, Validate, Validate method [Open Packaging Conventions], Validate method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, msopc/IOpcDigitalSignatureManager::Validate, opc.iopcdigitalsignaturemanager_validate
 ms.topic: method
-f1_keywords: ["msopc/IOpcDigitalSignatureManager.Validate"]
+f1_keywords: 
+ - "msopc/IOpcDigitalSignatureManager.Validate"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

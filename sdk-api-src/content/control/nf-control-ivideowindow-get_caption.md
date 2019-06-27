@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_Caption method, IVideoWindow.get_Caption, IVideoWindow::get_Caption, IVideoWindowget_Caption, control/IVideoWindow::get_Caption, dshow.ivideowindow_get_caption, get_Caption, get_Caption method [DirectShow], get_Caption method [DirectShow],IVideoWindow interface
 ms.topic: method
-f1_keywords: ["control/IVideoWindow.get_Caption"]
+f1_keywords: 
+ - "control/IVideoWindow.get_Caption"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

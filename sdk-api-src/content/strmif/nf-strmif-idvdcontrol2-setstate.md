@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SetState method, IDvdControl2.SetState, IDvdControl2::SetState, IDvdControl2SetState, SetState, SetState method [DirectShow], SetState method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_setstate, strmif/IDvdControl2::SetState
 ms.topic: method
-f1_keywords: ["strmif/IDvdControl2.SetState"]
+f1_keywords: 
+ - "strmif/IDvdControl2.SetState"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

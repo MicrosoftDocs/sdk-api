@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddEntryListByIndex, AddEntryListByIndex method [Media Foundation], AddEntryListByIndex method [Media Foundation],IToc interface, IToc interface [Media Foundation],AddEntryListByIndex method, IToc.AddEntryListByIndex, IToc::AddEntryListByIndex, codecapi.itoc_addentrylistbyindex, mf.itoc_addentrylistbyindex, wmcodecdsp/IToc::AddEntryListByIndex
 ms.topic: method
-f1_keywords: ["wmcodecdsp/IToc.AddEntryListByIndex"]
+f1_keywords: 
+ - "wmcodecdsp/IToc.AddEntryListByIndex"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

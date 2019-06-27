@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextStory interface [Windows Controls],SetText method, ITextStory.SetText, ITextStory::SetText, SetText, SetText method [Windows Controls], SetText method [Windows Controls],ITextStory interface, controls.itextstory_settext, tom/ITextStory::SetText, tomCheckTextLimit, tomMathCFCheck, tomUnhide, tomUnicodeBiDi, tomUnlink
 ms.topic: method
-f1_keywords: ["tom/ITextStory.SetText"]
+f1_keywords: 
+ - "tom/ITextStory.SetText"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

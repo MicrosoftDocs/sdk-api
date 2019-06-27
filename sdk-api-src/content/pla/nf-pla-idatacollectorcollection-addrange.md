@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddRange, AddRange method [PLA], AddRange method [PLA],IDataCollectorCollection interface, IDataCollectorCollection interface [PLA],AddRange method, IDataCollectorCollection.AddRange, IDataCollectorCollection::AddRange, base.idatacollectorcollection_addrange, pla.idatacollectorcollection_addrange, pla/IDataCollectorCollection::AddRange
 ms.topic: method
-f1_keywords: ["pla/IDataCollectorCollection.AddRange"]
+f1_keywords: 
+ - "pla/IDataCollectorCollection.AddRange"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

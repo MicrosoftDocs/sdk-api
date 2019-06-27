@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMAddressAccess, IWMAddressAccess interface [windows Media Format], IWMAddressAccess interface [windows Media Format],described, IWMAddressAccessInterface, wmformat.iwmaddressaccess, wmsdkidl/IWMAddressAccess
 ms.topic: interface
-f1_keywords: ["wmsdkidl/IWMAddressAccess"]
+f1_keywords: 
+ - "wmsdkidl/IWMAddressAccess"
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

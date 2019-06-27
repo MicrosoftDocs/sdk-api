@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFECommon interface [Internationalization for Windows Applications],InvokeDictToolDialog method, IFECommon.InvokeDictToolDialog, IFECommon::InvokeDictToolDialog, InvokeDictToolDialog, InvokeDictToolDialog method [Internationalization for Windows Applications], InvokeDictToolDialog method [Internationalization for Windows Applications],IFECommon interface, intl.ifecommon_invokedicttooldialog, msime/IFECommon::InvokeDictToolDialog
 ms.topic: method
-f1_keywords: ["msime/IFECommon.InvokeDictToolDialog"]
+f1_keywords: 
+ - "msime/IFECommon.InvokeDictToolDialog"
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

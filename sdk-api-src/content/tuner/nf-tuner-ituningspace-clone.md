@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],ITuningSpace interface, ITuningSpace interface [Microsoft TV Technologies],Clone method, ITuningSpace.Clone, ITuningSpace::Clone, ITuningSpaceClone, mstv.ituningspace_clone, tuner/ITuningSpace::Clone
 ms.topic: method
-f1_keywords: ["tuner/ITuningSpace.Clone"]
+f1_keywords: 
+ - "tuner/ITuningSpace.Clone"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

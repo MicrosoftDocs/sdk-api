@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetErrorCode, GetErrorCode method [SMI], GetErrorCode method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetErrorCode method, ISettingsResult.GetErrorCode, ISettingsResult::GetErrorCode, smi.isettingsresult_geterrorcode, wcmconfig/ISettingsResult::GetErrorCode
 ms.topic: method
-f1_keywords: ["wcmconfig/ISettingsResult.GetErrorCode"]
+f1_keywords: 
+ - "wcmconfig/ISettingsResult.GetErrorCode"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

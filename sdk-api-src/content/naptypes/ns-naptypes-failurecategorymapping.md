@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FailureCategoryMapping, FailureCategoryMapping structure [NAP], nap.failurecategorymapping_struct, naptypes/FailureCategoryMapping
 ms.topic: struct
-f1_keywords: ["naptypes/FailureCategoryMapping"]
+f1_keywords: 
+ - "naptypes/FailureCategoryMapping"
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows

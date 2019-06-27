@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DIBINDEX, DIBINDEX macro [Windows GDI], _win32_DIBINDEX, gdi.dibindex, mmsystem/DIBINDEX
 ms.topic: macro
-f1_keywords: ["mmsystem/DIBINDEX"]
+f1_keywords: 
+ - "mmsystem/DIBINDEX"
 req.header: mmsystem.h
 req.include-header: Windows.h
 req.target-type: Windows

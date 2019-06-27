@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LIM_LARGE, LIM_SMALL, LoadIconMetric, LoadIconMetric function [Windows Controls], _shell_LoadIconMetric, _shell_LoadIconMetric_cpp, commctrl/LoadIconMetric, controls.LoadIconMetric, controls._shell_LoadIconMetric
 ms.topic: function
-f1_keywords: ["commctrl/LoadIconMetric"]
+f1_keywords: 
+ - "commctrl/LoadIconMetric"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ATSC_FILTER_OPTIONS, ATSC_FILTER_OPTIONS structure [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0017, mpeg2structs/ATSC_FILTER_OPTIONS, mstv.atsc_filter_options
 ms.topic: struct
-f1_keywords: ["mpeg2structs/ATSC_FILTER_OPTIONS"]
+f1_keywords: 
+ - "mpeg2structs/ATSC_FILTER_OPTIONS"
 req.header: mpeg2structs.h
 req.include-header: Mpeg2data.h
 req.target-type: Windows

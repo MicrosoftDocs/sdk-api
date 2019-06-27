@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisconnectTerminal, DisconnectTerminal method [TAPI 2.2], DisconnectTerminal method [TAPI 2.2],ITTerminalControl interface, ITTerminalControl interface [TAPI 2.2],DisconnectTerminal method, ITTerminalControl.DisconnectTerminal, ITTerminalControl::DisconnectTerminal, _tapi3_itterminalcontrol_disconnectterminal, tapi3.itterminalcontrol_disconnectterminal, termmgr/ITTerminalControl::DisconnectTerminal
 ms.topic: method
-f1_keywords: ["termmgr/ITTerminalControl.DisconnectTerminal"]
+f1_keywords: 
+ - "termmgr/ITTerminalControl.DisconnectTerminal"
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

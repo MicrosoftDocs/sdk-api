@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumerationFlagReturnObjectAndEPR, EnumerationFlagReturnObjectAndEPR method [Windows Remote Management], EnumerationFlagReturnObjectAndEPR method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagReturnObjectAndEPR method, IWSManEx.EnumerationFlagReturnObjectAndEPR, IWSManEx::EnumerationFlagReturnObjectAndEPR, winrm.iwsmanex_enumerationflagreturnobjectandepr, wsmandisp/IWSManEx::EnumerationFlagReturnObjectAndEPR
 ms.topic: method
-f1_keywords: ["wsmandisp/IWSManEx.EnumerationFlagReturnObjectAndEPR"]
+f1_keywords: 
+ - "wsmandisp/IWSManEx.EnumerationFlagReturnObjectAndEPR"
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

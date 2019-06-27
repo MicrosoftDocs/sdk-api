@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSingleItemExceptions, IEnumSingleItemExceptions interface [Windows Sync], IEnumSingleItemExceptions interface [Windows Sync],described, winsync.ienumsingleitemexceptions, winsync/IEnumSingleItemExceptions
 ms.topic: interface
-f1_keywords: ["winsync/IEnumSingleItemExceptions"]
+f1_keywords: 
+ - "winsync/IEnumSingleItemExceptions"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

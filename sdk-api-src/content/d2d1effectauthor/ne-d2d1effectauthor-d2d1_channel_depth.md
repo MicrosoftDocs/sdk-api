@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_CHANNEL_DEPTH, D2D1_CHANNEL_DEPTH enumeration [Direct2D], D2D1_CHANNEL_DEPTH_1, D2D1_CHANNEL_DEPTH_4, D2D1_CHANNEL_DEPTH_DEFAULT, d2d1effectauthor/D2D1_CHANNEL_DEPTH, d2d1effectauthor/D2D1_CHANNEL_DEPTH_1, d2d1effectauthor/D2D1_CHANNEL_DEPTH_4, d2d1effectauthor/D2D1_CHANNEL_DEPTH_DEFAULT, direct2d.d2d1_channel_depth
 ms.topic: enum
-f1_keywords: ["d2d1effectauthor/D2D1_CHANNEL_DEPTH"]
+f1_keywords: 
+ - "d2d1effectauthor/D2D1_CHANNEL_DEPTH"
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

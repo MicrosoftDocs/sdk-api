@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneNotEqual, XMPlaneNotEqual, XMPlaneNotEqual method [DirectX Math Support APIs], dxmath.xmplanenotequal
 ms.topic: function
-f1_keywords: ["directxmath/XMPlaneNotEqual"]
+f1_keywords: 
+ - "directxmath/XMPlaneNotEqual"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITargetInfo interface [SMI],SetTargetProcessorArchitecture method, ITargetInfo.SetTargetProcessorArchitecture, ITargetInfo::SetTargetProcessorArchitecture, SetTargetProcessorArchitecture, SetTargetProcessorArchitecture method [SMI], SetTargetProcessorArchitecture method [SMI],ITargetInfo interface, smi.itargetinfo_settargetprocessorarchitecture, wcmconfig/ITargetInfo::SetTargetProcessorArchitecture
 ms.topic: method
-f1_keywords: ["wcmconfig/ITargetInfo.SetTargetProcessorArchitecture"]
+f1_keywords: 
+ - "wcmconfig/ITargetInfo.SetTargetProcessorArchitecture"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

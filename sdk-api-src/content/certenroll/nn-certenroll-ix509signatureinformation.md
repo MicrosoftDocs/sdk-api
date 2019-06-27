@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509SignatureInformation, IX509SignatureInformation interface [Security], IX509SignatureInformation interface [Security],described, certenroll/IX509SignatureInformation, security.ix509signatureinformation
 ms.topic: interface
-f1_keywords: ["certenroll/IX509SignatureInformation"]
+f1_keywords: 
+ - "certenroll/IX509SignatureInformation"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

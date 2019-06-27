@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AssignChannelToBuses, AssignChannelToBuses method [Audio Devices], AssignChannelToBuses method [Audio Devices],IDirectMusicSynth8 interface, IDirectMusicSynth8 interface [Audio Devices],AssignChannelToBuses method, IDirectMusicSynth8.AssignChannelToBuses, IDirectMusicSynth8::AssignChannelToBuses, audio.idirectmusicsynth8_assignchanneltobuses, dmusics/IDirectMusicSynth8::AssignChannelToBuses
 ms.topic: method
-f1_keywords: ["dmusics/IDirectMusicSynth8.AssignChannelToBuses"]
+f1_keywords: 
+ - "dmusics/IDirectMusicSynth8.AssignChannelToBuses"
 req.header: dmusics.h
 req.include-header: 
 req.target-type: Windows

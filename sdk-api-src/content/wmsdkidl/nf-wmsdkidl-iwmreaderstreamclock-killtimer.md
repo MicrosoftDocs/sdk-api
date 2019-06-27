@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMReaderStreamClock interface [windows Media Format],KillTimer method, IWMReaderStreamClock.KillTimer, IWMReaderStreamClock::KillTimer, IWMReaderStreamClockKillTimer, KillTimer, KillTimer method [windows Media Format], KillTimer method [windows Media Format],IWMReaderStreamClock interface, wmformat.iwmreaderstreamclock_killtimer, wmsdkidl/IWMReaderStreamClock::KillTimer
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderStreamClock.KillTimer"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderStreamClock.KillTimer"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

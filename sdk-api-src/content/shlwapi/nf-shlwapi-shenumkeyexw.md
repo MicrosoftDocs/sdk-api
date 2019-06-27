@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHEnumKeyEx, SHEnumKeyEx function [Windows Shell], SHEnumKeyExA, SHEnumKeyExW, _win32_SHEnumKeyEx, shell.SHEnumKeyEx, shlwapi/SHEnumKeyEx, shlwapi/SHEnumKeyExA, shlwapi/SHEnumKeyExW
 ms.topic: function
-f1_keywords: ["shlwapi/SHEnumKeyEx"]
+f1_keywords: 
+ - "shlwapi/SHEnumKeyEx"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

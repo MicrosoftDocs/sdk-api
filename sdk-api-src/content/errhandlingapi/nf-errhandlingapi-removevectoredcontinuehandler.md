@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RemoveVectoredContinueHandler, RemoveVectoredContinueHandler function, base.removevectoredcontinuehandler, errhandlingapi/RemoveVectoredContinueHandler
 ms.topic: function
-f1_keywords: ["errhandlingapi/RemoveVectoredContinueHandler"]
+f1_keywords: 
+ - "errhandlingapi/RemoveVectoredContinueHandler"
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows

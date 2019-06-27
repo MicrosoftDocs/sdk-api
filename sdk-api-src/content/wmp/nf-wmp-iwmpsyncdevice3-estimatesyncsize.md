@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice3 interface [Windows Media Player],estimateSyncSize method, IWMPSyncDevice3.estimateSyncSize, IWMPSyncDevice3::estimateSyncSize, estimateSyncSize, estimateSyncSize method [Windows Media Player], estimateSyncSize method [Windows Media Player],IWMPSyncDevice3 interface, wmp.iwmpsyncdevice3_estimatesyncsize, wmp/IWMPSyncDevice3::estimateSyncSize
 ms.topic: method
-f1_keywords: ["wmp/IWMPSyncDevice3.estimateSyncSize"]
+f1_keywords: 
+ - "wmp/IWMPSyncDevice3.estimateSyncSize"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHLoadIndirectString, SHLoadIndirectString function [Windows Shell], _shell_SHLoadIndirectString, shell.SHLoadIndirectString, shlwapi/SHLoadIndirectString
 ms.topic: function
-f1_keywords: ["shlwapi/SHLoadIndirectString"]
+f1_keywords: 
+ - "shlwapi/SHLoadIndirectString"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

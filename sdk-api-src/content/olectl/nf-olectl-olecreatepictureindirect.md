@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleCreatePictureIndirect, OleCreatePictureIndirect function [COM], _ole_OleCreatePictureIndirect, com.olecreatepictureindirect, olectl/OleCreatePictureIndirect
 ms.topic: function
-f1_keywords: ["olectl/OleCreatePictureIndirect"]
+f1_keywords: 
+ - "olectl/OleCreatePictureIndirect"
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows

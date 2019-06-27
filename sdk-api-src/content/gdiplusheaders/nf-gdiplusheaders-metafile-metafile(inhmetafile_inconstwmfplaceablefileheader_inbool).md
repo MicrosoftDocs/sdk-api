@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Metafile, Metafile class [GDI+],Metafile constructor, Metafile constructor [GDI+], Metafile constructor [GDI+],Metafile class, Metafile.Metafile, Metafile.Metafile(HMETAFILE,const WmfPlaceableFileHeader*,BOOL), Metafile.Metafile(IN HMETAFILE,IN const WmfPlaceableFileHeader,IN BOOL), Metafile::Metafile, Metafile::Metafile(IN HMETAFILE,IN const WmfPlaceableFileHeader,IN BOOL), _gdiplus_CLASS_Metafile_Metafile_hWmf_wmfPlaceableFileHeader_deleteWmf_, gdiplus._gdiplus_CLASS_Metafile_Metafile_hWmf_wmfPlaceableFileHeader_deleteWmf_
 ms.topic: method
-f1_keywords: ["gdiplusheaders/Metafile.Metafile"]
+f1_keywords: 
+ - "gdiplusheaders/Metafile.Metafile"
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

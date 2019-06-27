@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingQueue, IFaxOutgoingQueue interface [Fax Service], IFaxOutgoingQueue interface [Fax Service],described, _mfax_faxoutgoingqueue_cpp, fax._mfax_faxoutgoingqueue_cpp, faxcomex/IFaxOutgoingQueue
 ms.topic: interface
-f1_keywords: ["faxcomex/IFaxOutgoingQueue"]
+f1_keywords: 
+ - "faxcomex/IFaxOutgoingQueue"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

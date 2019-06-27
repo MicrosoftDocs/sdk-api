@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDRAWDIBTIME, DRAWDIBTIME, DRAWDIBTIME structure [Windows Multimedia], LPDRAWDIBTIME, LPDRAWDIBTIME structure pointer [Windows Multimedia], multimedia.drawdibtime_COLLISION618, multimedia.drawdibtime_struct, vfw/DRAWDIBTIME, vfw/LPDRAWDIBTIME"
 ms.topic: struct
-f1_keywords: ["vfw/DRAWDIBTIME"]
+f1_keywords: 
+ - "vfw/DRAWDIBTIME"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

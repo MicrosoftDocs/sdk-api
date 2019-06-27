@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvAssertMode, DrvAssertMode function [Display Devices], ddifncs_2ff05b29-d53b-44b9-a7fc-2c050f1ba778.xml, display.drvassertmode, winddi/DrvAssertMode
 ms.topic: function
-f1_keywords: ["winddi/DrvAssertMode"]
+f1_keywords: 
+ - "winddi/DrvAssertMode"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

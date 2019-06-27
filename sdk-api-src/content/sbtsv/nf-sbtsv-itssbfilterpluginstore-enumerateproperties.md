@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumerateProperties, EnumerateProperties method [Remote Desktop Services], EnumerateProperties method [Remote Desktop Services],ITsSbFilterPluginStore interface, ITsSbFilterPluginStore interface [Remote Desktop Services],EnumerateProperties method, ITsSbFilterPluginStore.EnumerateProperties, ITsSbFilterPluginStore::EnumerateProperties, sbtsv/ITsSbFilterPluginStore::EnumerateProperties, termserv.itssbfilterpluginstore_enumerateproperties
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbFilterPluginStore.EnumerateProperties"]
+f1_keywords: 
+ - "sbtsv/ITsSbFilterPluginStore.EnumerateProperties"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

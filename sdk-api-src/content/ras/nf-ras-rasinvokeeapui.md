@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasInvokeEapUI, RasInvokeEapUI function [RAS], _ras_rasinvokeeapui, ras/RasInvokeEapUI, rras.rasinvokeeapui
 ms.topic: function
-f1_keywords: ["ras/RasInvokeEapUI"]
+f1_keywords: 
+ - "ras/RasInvokeEapUI"
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

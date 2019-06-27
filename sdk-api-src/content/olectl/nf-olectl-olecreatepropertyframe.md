@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleCreatePropertyFrame, OleCreatePropertyFrame function [COM], _ctrl_OleCreatePropertyFrame, com.olecreatepropertyframe, olectl/OleCreatePropertyFrame
 ms.topic: function
-f1_keywords: ["olectl/OleCreatePropertyFrame"]
+f1_keywords: 
+ - "olectl/OleCreatePropertyFrame"
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows

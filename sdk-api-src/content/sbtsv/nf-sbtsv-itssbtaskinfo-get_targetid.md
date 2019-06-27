@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbTaskInfo interface [Remote Desktop Services],TargetId property, ITsSbTaskInfo.TargetId, ITsSbTaskInfo.get_TargetId, ITsSbTaskInfo::TargetId, ITsSbTaskInfo::get_TargetId, TargetId property [Remote Desktop Services], TargetId property [Remote Desktop Services],ITsSbTaskInfo interface, get_TargetId, sbtsv/ITsSbTaskInfo::TargetId, sbtsv/ITsSbTaskInfo::get_TargetId, termserv.itssbtaskinfo_targetid
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbTaskInfo.TargetId"]
+f1_keywords: 
+ - "sbtsv/ITsSbTaskInfo.TargetId"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

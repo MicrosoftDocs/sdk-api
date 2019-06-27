@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiLoadDeviceIcon, SetupDiLoadDeviceIcon function [Device and Driver Installation], devinst.setupdiloaddeviceicon, di-rtns_bcd13849-30ed-4c7e-923d-1524552d78aa.xml, setupapi/SetupDiLoadDeviceIcon
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiLoadDeviceIcon"]
+f1_keywords: 
+ - "setupapi/SetupDiLoadDeviceIcon"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

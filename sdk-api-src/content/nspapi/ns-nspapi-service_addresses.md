@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSERVICE_ADDRESSES, *PSERVICE_ADDRESSES, SERVICE_ADDRESSES, SERVICE_ADDRESSES structure [Winsock], _win32_service_addresses_2, nspapi/SERVICE_ADDRESSES, winsock.service_addresses_2"
 ms.topic: struct
-f1_keywords: ["nspapi/SERVICE_ADDRESSES"]
+f1_keywords: 
+ - "nspapi/SERVICE_ADDRESSES"
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows

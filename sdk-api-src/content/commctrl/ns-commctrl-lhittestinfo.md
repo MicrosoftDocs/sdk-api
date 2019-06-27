@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLHITTESTINFO, LHITTESTINFO, LHITTESTINFO structure [Windows Controls], PLHITTESTINFO, PLHITTESTINFO structure pointer [Windows Controls], commctrl/LHITTESTINFO, commctrl/PLHITTESTINFO, controls.LHITTESTINFO, controls.inet_LHITTESTINFO, inet_LHITTESTINFO, inet_LHITTESTINFO_cpp"
 ms.topic: struct
-f1_keywords: ["commctrl/LHITTESTINFO"]
+f1_keywords: 
+ - "commctrl/LHITTESTINFO"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

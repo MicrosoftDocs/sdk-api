@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfCategoryMgr, ITfCategoryMgr interface [Text Services Framework], ITfCategoryMgr interface [Text Services Framework],described, _tsf_itfcategorymgr_ref, msctf/ITfCategoryMgr, tsf.itfcategorymgr
 ms.topic: interface
-f1_keywords: ["msctf/ITfCategoryMgr"]
+f1_keywords: 
+ - "msctf/ITfCategoryMgr"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

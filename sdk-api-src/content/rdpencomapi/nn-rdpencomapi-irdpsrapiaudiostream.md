@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIAudioStream, IRDPSRAPIAudioStream class [RDP], IRDPSRAPIAudioStream class [RDP],described, rdp.irdpsrapiaudiostream, rdpencomapi/IRDPSRAPIAudioStream
 ms.topic: interface
-f1_keywords: ["rdpencomapi/IRDPSRAPIAudioStream"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIAudioStream"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

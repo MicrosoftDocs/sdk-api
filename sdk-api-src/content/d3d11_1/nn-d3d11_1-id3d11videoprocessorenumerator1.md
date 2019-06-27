@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoProcessorEnumerator1, ID3D11VideoProcessorEnumerator1 interface [Media Foundation], ID3D11VideoProcessorEnumerator1 interface [Media Foundation],described, d3d11_1/ID3D11VideoProcessorEnumerator1, mf.id3d11videoprocessorenumerator1
 ms.topic: interface
-f1_keywords: ["d3d11_1/ID3D11VideoProcessorEnumerator1"]
+f1_keywords: 
+ - "d3d11_1/ID3D11VideoProcessorEnumerator1"
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

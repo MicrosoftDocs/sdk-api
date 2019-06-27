@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetResource, GetResource method [COM+], GetResource method [COM+],ITransactionResourcePool interface, ITransactionResourcePool interface [COM+],GetResource method, ITransactionResourcePool.GetResource, ITransactionResourcePool::GetResource, _cos_ITransactionResourcePool_GetResource, comsvcs/ITransactionResourcePool::GetResource, cos.itransactionresourcepool_getresource
 ms.topic: method
-f1_keywords: ["comsvcs/ITransactionResourcePool.GetResource"]
+f1_keywords: 
+ - "comsvcs/ITransactionResourcePool.GetResource"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

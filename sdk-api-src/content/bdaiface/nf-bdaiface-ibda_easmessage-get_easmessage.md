@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_EasMessage interface [Microsoft TV Technologies],get_EasMessage method, IBDA_EasMessage.get_EasMessage, IBDA_EasMessage::get_EasMessage, IBDA_EasMessageget_EasMessage, bdaiface/IBDA_EasMessage::get_EasMessage, get_EasMessage, get_EasMessage method [Microsoft TV Technologies], get_EasMessage method [Microsoft TV Technologies],IBDA_EasMessage interface, mstv.ibda_easmessage_get_easmessage
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_EasMessage.get_EasMessage"]
+f1_keywords: 
+ - "bdaiface/IBDA_EasMessage.get_EasMessage"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

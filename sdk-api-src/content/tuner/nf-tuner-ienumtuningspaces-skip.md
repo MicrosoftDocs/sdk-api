@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTuningSpaces interface [Microsoft TV Technologies],Skip method, IEnumTuningSpaces.Skip, IEnumTuningSpaces::Skip, IEnumTuningSpacesSkip, Skip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies],IEnumTuningSpaces interface, mstv.ienumtuningspaces_skip, tuner/IEnumTuningSpaces::Skip
 ms.topic: method
-f1_keywords: ["tuner/IEnumTuningSpaces.Skip"]
+f1_keywords: 
+ - "tuner/IEnumTuningSpaces.Skip"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

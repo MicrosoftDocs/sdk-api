@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CMSPCallMultiGraph interface [TAPI 2.2],UnregisterWaitEvent method, CMSPCallMultiGraph.UnregisterWaitEvent, CMSPCallMultiGraph::UnregisterWaitEvent, UnregisterWaitEvent, UnregisterWaitEvent method [TAPI 2.2], UnregisterWaitEvent method [TAPI 2.2],CMSPCallMultiGraph interface, _tapi3_cmspcallmultigraph_unregisterwaitevent, mspcall/CMSPCallMultiGraph::UnregisterWaitEvent, tapi3.cmspcallmultigraph_unregisterwaitevent
 ms.topic: method
-f1_keywords: ["mspcall/CMSPCallMultiGraph.UnregisterWaitEvent"]
+f1_keywords: 
+ - "mspcall/CMSPCallMultiGraph.UnregisterWaitEvent"
 req.header: mspcall.h
 req.include-header: 
 req.target-type: Windows

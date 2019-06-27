@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaultRequest, FaultRequest method, FaultRequest method,IWSDServiceMessaging interface, IWSDServiceMessaging interface,FaultRequest method, IWSDServiceMessaging.FaultRequest, IWSDServiceMessaging::FaultRequest, ncd.iwsdservicemessaging_faultrequest, wsdhost/IWSDServiceMessaging::FaultRequest
 ms.topic: method
-f1_keywords: ["wsdhost/IWSDServiceMessaging.FaultRequest"]
+f1_keywords: 
+ - "wsdhost/IWSDServiceMessaging.FaultRequest"
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

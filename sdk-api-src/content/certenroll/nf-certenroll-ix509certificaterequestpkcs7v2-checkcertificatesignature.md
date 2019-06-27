@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckCertificateSignature, CheckCertificateSignature method [Security], CheckCertificateSignature method [Security],IX509CertificateRequestPkcs7V2 interface, IX509CertificateRequestPkcs7V2 interface [Security],CheckCertificateSignature method, IX509CertificateRequestPkcs7V2.CheckCertificateSignature, IX509CertificateRequestPkcs7V2::CheckCertificateSignature, certenroll/IX509CertificateRequestPkcs7V2::CheckCertificateSignature, security.ix509certificaterequestpkcs7v2_checkcertificatesignature
 ms.topic: method
-f1_keywords: ["certenroll/IX509CertificateRequestPkcs7V2.CheckCertificateSignature"]
+f1_keywords: 
+ - "certenroll/IX509CertificateRequestPkcs7V2.CheckCertificateSignature"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

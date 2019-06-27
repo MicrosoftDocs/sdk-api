@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPWSAQUERYSETW, *PWSAQUERYSETW, LPWSAQUERYSET, LPWSAQUERYSET structure pointer [Winsock], NS_ALL, NS_BTH, NS_DNS, NS_EMAIL, NS_NLA, NS_PNRPCLOUD, NS_PNRPNAME, PWSAQUERYSET, PWSAQUERYSET structure pointer [Winsock], WSAQUERYSET, WSAQUERYSET structure [Winsock], WSAQUERYSETA, WSAQUERYSETW, _win32_wsaqueryset_2, winsock.wsaqueryset_2, winsock2/LPWSAQUERYSET, winsock2/PWSAQUERYSET, winsock2/WSAQUERYSET, winsock2/WSAQUERYSETA, winsock2/WSAQUERYSETW"
 ms.topic: struct
-f1_keywords: ["winsock2/WSAQUERYSET"]
+f1_keywords: 
+ - "winsock2/WSAQUERYSET"
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

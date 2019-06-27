@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDMOVideoOutputOptimizations, IDMOVideoOutputOptimizations interface [DirectShow], IDMOVideoOutputOptimizations interface [DirectShow],described, IDMOVideoOutputOptimizationsInterface, dshow.idmovideooutputoptimizations, mediaobj/IDMOVideoOutputOptimizations
 ms.topic: interface
-f1_keywords: ["mediaobj/IDMOVideoOutputOptimizations"]
+f1_keywords: 
+ - "mediaobj/IDMOVideoOutputOptimizations"
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

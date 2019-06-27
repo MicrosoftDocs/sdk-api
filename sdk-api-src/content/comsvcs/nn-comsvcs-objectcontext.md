@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ObjectContext, ObjectContext interface [COM+], ObjectContext interface [COM+],described, _cos_ObjectContext, comsvcs/ObjectContext, cos.objectcontext
 ms.topic: interface
-f1_keywords: ["comsvcs/ObjectContext"]
+f1_keywords: 
+ - "comsvcs/ObjectContext"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

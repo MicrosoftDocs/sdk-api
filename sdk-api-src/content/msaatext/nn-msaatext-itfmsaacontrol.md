@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfMSAAControl, ITfMSAAControl interface [Text Services Framework], ITfMSAAControl interface [Text Services Framework],described, msaatext/ITfMSAAControl, tsf.itfmsaacontrol
 ms.topic: interface
-f1_keywords: ["msaatext/ITfMSAAControl"]
+f1_keywords: 
+ - "msaatext/ITfMSAAControl"
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

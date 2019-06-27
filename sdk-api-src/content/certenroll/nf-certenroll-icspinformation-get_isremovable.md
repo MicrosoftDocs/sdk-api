@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICspInformation interface [Security],IsRemovable property, ICspInformation.IsRemovable, ICspInformation.get_IsRemovable, ICspInformation::IsRemovable, ICspInformation::get_IsRemovable, IsRemovable property [Security], IsRemovable property [Security],ICspInformation interface, certenroll/ICspInformation::IsRemovable, certenroll/ICspInformation::get_IsRemovable, get_IsRemovable, security.icspinformation_isremovable_property
 ms.topic: method
-f1_keywords: ["certenroll/ICspInformation.IsRemovable"]
+f1_keywords: 
+ - "certenroll/ICspInformation.IsRemovable"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

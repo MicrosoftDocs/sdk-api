@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IURLSearchHook2, IURLSearchHook2 interface [Windows Shell], IURLSearchHook2 interface [Windows Shell],described, _shell_IURLSearchHook2, shell.IURLSearchHook2, shlobj_core/IURLSearchHook2
 ms.topic: interface
-f1_keywords: ["shlobj_core/IURLSearchHook2"]
+f1_keywords: 
+ - "shlobj_core/IURLSearchHook2"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

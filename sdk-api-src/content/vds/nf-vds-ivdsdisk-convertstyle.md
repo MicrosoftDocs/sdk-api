@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConvertStyle, ConvertStyle method [VDS], ConvertStyle method [VDS],IVdsDisk interface, IVdsDisk interface [VDS],ConvertStyle method, IVdsDisk.ConvertStyle, IVdsDisk::ConvertStyle, base.ivdsdisk_convertstyle, vds/IVdsDisk::ConvertStyle
 ms.topic: method
-f1_keywords: ["vds/IVdsDisk.ConvertStyle"]
+f1_keywords: 
+ - "vds/IVdsDisk.ConvertStyle"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

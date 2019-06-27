@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1, 2, 3, 4, NetUserAdd, NetUserAdd function [Network Management], _win32_netuseradd, lmaccess/NetUserAdd, netmgmt.netuseradd
 ms.topic: function
-f1_keywords: ["lmaccess/NetUserAdd"]
+f1_keywords: 
+ - "lmaccess/NetUserAdd"
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

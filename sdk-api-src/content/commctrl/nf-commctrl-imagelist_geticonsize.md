@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageList_GetIconSize, ImageList_GetIconSize function [Windows Controls], _win32_ImageList_GetIconSize, _win32_ImageList_GetIconSize_cpp, commctrl/ImageList_GetIconSize, controls.ImageList_GetIconSize, controls._win32_ImageList_GetIconSize
 ms.topic: function
-f1_keywords: ["commctrl/ImageList_GetIconSize"]
+f1_keywords: 
+ - "commctrl/ImageList_GetIconSize"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

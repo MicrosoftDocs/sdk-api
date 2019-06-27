@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnroll4, IEnroll4 interface [Security], IEnroll4 interface [Security],described, security.ienroll4, xenroll/IEnroll4
 ms.topic: interface
-f1_keywords: ["xenroll/IEnroll4"]
+f1_keywords: 
+ - "xenroll/IEnroll4"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

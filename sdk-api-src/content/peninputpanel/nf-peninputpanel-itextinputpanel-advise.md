@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 4ea32572-84e6-4230-a634-fc83cb86601f, Advise, Advise method [Tablet PC], Advise method [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],Advise method, ITextInputPanel.Advise, ITextInputPanel::Advise, peninputpanel/ITextInputPanel::Advise, tablet.itextinputpanel_advise
 ms.topic: method
-f1_keywords: ["peninputpanel/ITextInputPanel.Advise"]
+f1_keywords: 
+ - "peninputpanel/ITextInputPanel.Advise"
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

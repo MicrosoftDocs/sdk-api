@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceEnum, MprConfigInterfaceEnum function [RAS], _mpr_mprconfiginterfaceenum, mprapi/MprConfigInterfaceEnum, rras.mprconfiginterfaceenum
 ms.topic: function
-f1_keywords: ["mprapi/MprConfigInterfaceEnum"]
+f1_keywords: 
+ - "mprapi/MprConfigInterfaceEnum"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

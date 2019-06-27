@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Instance_ClearElement, MI_Instance_ClearElement function [Windows Management Infrastructure (MI)], mi/MI_Instance_ClearElement, wmi_v2.mi_instance_clearelement
 ms.topic: function
-f1_keywords: ["mi/MI_Instance_ClearElement"]
+f1_keywords: 
+ - "mi/MI_Instance_ClearElement"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

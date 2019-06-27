@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SysBeep method, ITextDocument2.SysBeep, ITextDocument2::SysBeep, SysBeep, SysBeep method [Windows Controls], SysBeep method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_sysbeep, tom/ITextDocument2::SysBeep
 ms.topic: method
-f1_keywords: ["tom/ITextDocument2.SysBeep"]
+f1_keywords: 
+ - "tom/ITextDocument2.SysBeep"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

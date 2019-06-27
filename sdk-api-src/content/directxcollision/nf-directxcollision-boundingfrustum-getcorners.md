@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],GetCorners method, BoundingFrustum.GetCorners, BoundingFrustum::GetCorners, GetCorners, GetCorners method [DirectX Math Support APIs], GetCorners method [DirectX Math Support APIs],BoundingFrustum interface, dxmath.boundingfrustum_getcorners
 ms.topic: method
-f1_keywords: ["directxcollision/BoundingFrustum.GetCorners"]
+f1_keywords: 
+ - "directxcollision/BoundingFrustum.GetCorners"
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

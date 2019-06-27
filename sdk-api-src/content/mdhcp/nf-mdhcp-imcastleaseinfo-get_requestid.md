@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_RequestID method, IMcastLeaseInfo.get_RequestID, IMcastLeaseInfo::get_RequestID, _tapi3_imcastleaseinfo_get_requestid, get_RequestID, get_RequestID method [TAPI 2.2], get_RequestID method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_RequestID, tapi3.imcastleaseinfo_get_requestid
 ms.topic: method
-f1_keywords: ["mdhcp/IMcastLeaseInfo.get_RequestID"]
+f1_keywords: 
+ - "mdhcp/IMcastLeaseInfo.get_RequestID"
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

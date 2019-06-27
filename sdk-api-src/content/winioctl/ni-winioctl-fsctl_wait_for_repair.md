@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_WAIT_FOR_REPAIR, FSCTL_WAIT_FOR_REPAIR control, FSCTL_WAIT_FOR_REPAIR control code [Files], fs.fsctl_wait_for_repair, winioctl/FSCTL_WAIT_FOR_REPAIR
 ms.topic: ioctl
-f1_keywords: ["winioctl/FSCTL_WAIT_FOR_REPAIR"]
+f1_keywords: 
+ - "winioctl/FSCTL_WAIT_FOR_REPAIR"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

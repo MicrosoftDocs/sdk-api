@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupOpenInfFile, SetupOpenInfFile function [Setup API], SetupOpenInfFileA, SetupOpenInfFileW, _setupapi_setupopeninffile, setup.setupopeninffile, setupapi/SetupOpenInfFile, setupapi/SetupOpenInfFileA, setupapi/SetupOpenInfFileW
 ms.topic: function
-f1_keywords: ["setupapi/SetupOpenInfFile"]
+f1_keywords: 
+ - "setupapi/SetupOpenInfFile"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

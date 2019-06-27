@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWEInvokeCommand, IWEInvokeCommand interface [Failover Cluster], IWEInvokeCommand interface [Failover Cluster],described, _wolf_iweinvokecommand, cluadmex/IWEInvokeCommand, mscs.iweinvokecommand
 ms.topic: interface
-f1_keywords: ["cluadmex/IWEInvokeCommand"]
+f1_keywords: 
+ - "cluadmex/IWEInvokeCommand"
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

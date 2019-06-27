@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_ISSUER_SERIAL, CRYPT_XML_ISSUER_SERIAL structure [Security], cryptxml/CRYPT_XML_ISSUER_SERIAL, security.crypt_xml_issuer_serial
 ms.topic: struct
-f1_keywords: ["cryptxml/CRYPT_XML_ISSUER_SERIAL"]
+f1_keywords: 
+ - "cryptxml/CRYPT_XML_ISSUER_SERIAL"
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

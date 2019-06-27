@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndClose, MCIWndClose macro [Windows Multimedia], _win32_MCIWndClose, multimedia.mciwndclose, vfw/MCIWndClose
 ms.topic: macro
-f1_keywords: ["vfw/MCIWndClose"]
+f1_keywords: 
+ - "vfw/MCIWndClose"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioFrameNativeFactory, IAudioFrameNativeFactory interface [Windows Runtime], IAudioFrameNativeFactory interface [Windows Runtime],described, windows/IAudioFrameNativeFactory, winrt.iaudioframenativefactory
 ms.topic: interface
-f1_keywords: ["windows.media.core.interop/IAudioFrameNativeFactory"]
+f1_keywords: 
+ - "windows.media.core.interop/IAudioFrameNativeFactory"
 req.header: windows.media.core.interop.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPartUriCollection, IXpsOMPartUriCollection interface [XPS Documents and Packaging], IXpsOMPartUriCollection interface [XPS Documents and Packaging],described, xps.ixpsomparturicollection, xpsobjectmodel/IXpsOMPartUriCollection
 ms.topic: interface
-f1_keywords: ["xpsobjectmodel/IXpsOMPartUriCollection"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPartUriCollection"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

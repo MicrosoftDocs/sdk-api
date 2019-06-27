@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 9b388cdb-66b1-4386-a1aa-578f0d56c190, Bottom property [Tablet PC], Bottom property [Tablet PC],IInkRectangle interface, IInkRectangle interface [Tablet PC],Bottom property, IInkRectangle.Bottom, IInkRectangle.put_Bottom, IInkRectangle::Bottom, IInkRectangle::get_Bottom, IInkRectangle::put_Bottom, InkRectangle.get_Bottom, InkRectangle.put_Bottom, get_Bottom, msinkaut/IInkRectangle::Bottom, msinkaut/IInkRectangle::get_Bottom, msinkaut/IInkRectangle::put_Bottom, put_Bottom, tablet.inkrectangle_bottom
 ms.topic: method
-f1_keywords: ["msinkaut/IInkRectangle.Bottom"]
+f1_keywords: 
+ - "msinkaut/IInkRectangle.Bottom"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

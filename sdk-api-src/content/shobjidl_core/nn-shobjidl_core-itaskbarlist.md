@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList, ITaskbarList interface [Windows Shell], ITaskbarList interface [Windows Shell],described, _win32_ITaskbarList, shell.ITaskbarList, shobjidl_core/ITaskbarList
 ms.topic: interface
-f1_keywords: ["shobjidl_core/ITaskbarList"]
+f1_keywords: 
+ - "shobjidl_core/ITaskbarList"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

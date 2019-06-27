@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INTERACTION_CONTEXT_OUTPUT_CALLBACK, INTERACTION_CONTEXT_OUTPUT_CALLBACK callback, INTERACTION_CONTEXT_OUTPUT_CALLBACK callback function, input_intcontext.interaction_context_output_callback, interactioncontext.interaction_context_output_callback, interactioncontext/INTERACTION_CONTEXT_OUTPUT_CALLBACK
 ms.topic: callback
-f1_keywords: ["interactioncontext/INTERACTION_CONTEXT_OUTPUT_CALLBACK"]
+f1_keywords: 
+ - "interactioncontext/INTERACTION_CONTEXT_OUTPUT_CALLBACK"
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesCache interface [Offline Files],Unpin method, IOfflineFilesCache.Unpin, IOfflineFilesCache::Unpin, OFFLINEFILES_PIN_CONTROL_FLAG_ASYNCPROGRESS, OFFLINEFILES_PIN_CONTROL_FLAG_BACKGROUND, OFFLINEFILES_PIN_CONTROL_FLAG_CONSOLE, OFFLINEFILES_PIN_CONTROL_FLAG_FILL, OFFLINEFILES_PIN_CONTROL_FLAG_FORALL, OFFLINEFILES_PIN_CONTROL_FLAG_FORREDIR, OFFLINEFILES_PIN_CONTROL_FLAG_FORUSER, OFFLINEFILES_PIN_CONTROL_FLAG_FORUSER_POLICY, OFFLINEFILES_PIN_CONTROL_FLAG_INTERACTIVE, OFFLINEFILES_PIN_CONTROL_FLAG_LOWPRIORITY, OFFLINEFILES_PIN_CONTROL_PINLINKTARGETS, Unpin, Unpin method [Offline Files], Unpin method [Offline Files],IOfflineFilesCache interface, cscobj/IOfflineFilesCache::Unpin, of.iofflinefilescache_unpin
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesCache.Unpin"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesCache.Unpin"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

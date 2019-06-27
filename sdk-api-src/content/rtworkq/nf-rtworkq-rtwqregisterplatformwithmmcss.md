@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtwqRegisterPlatformWithMMCSS, RtwqRegisterPlatformWithMMCSS function, base.rtwqregisterplatformwithmmcss, rtworkq/RtwqRegisterPlatformWithMMCSS
 ms.topic: function
-f1_keywords: ["rtworkq/RtwqRegisterPlatformWithMMCSS"]
+f1_keywords: 
+ - "rtworkq/RtwqRegisterPlatformWithMMCSS"
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

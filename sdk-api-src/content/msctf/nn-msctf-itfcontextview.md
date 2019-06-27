@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfContextView, ITfContextView interface [Text Services Framework], ITfContextView interface [Text Services Framework],described, _tsf_itfcontextview_ref, msctf/ITfContextView, tsf.itfcontextview
 ms.topic: interface
-f1_keywords: ["msctf/ITfContextView"]
+f1_keywords: 
+ - "msctf/ITfContextView"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

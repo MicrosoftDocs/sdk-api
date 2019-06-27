@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureEngineOnSampleCallback2 interface [Media Foundation],OnSynchronizedEvent method, IMFCaptureEngineOnSampleCallback2.OnSynchronizedEvent, IMFCaptureEngineOnSampleCallback2::OnSynchronizedEvent, OnSynchronizedEvent, OnSynchronizedEvent method [Media Foundation], OnSynchronizedEvent method [Media Foundation],IMFCaptureEngineOnSampleCallback2 interface, mf.imfcaptureengineonsamplecallback2_onsynchronizedevent, mfcaptureengine/IMFCaptureEngineOnSampleCallback2::OnSynchronizedEvent
 ms.topic: method
-f1_keywords: ["mfcaptureengine/IMFCaptureEngineOnSampleCallback2.OnSynchronizedEvent"]
+f1_keywords: 
+ - "mfcaptureengine/IMFCaptureEngineOnSampleCallback2.OnSynchronizedEvent"
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

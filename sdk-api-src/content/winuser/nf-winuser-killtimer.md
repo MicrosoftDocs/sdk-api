@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: KillTimer, KillTimer function [Windows and Messages], _win32_KillTimer, _win32_killtimer_cpp, winmsg.killtimer, winui._win32_killtimer, winuser/KillTimer
 ms.topic: function
-f1_keywords: ["winuser/KillTimer"]
+f1_keywords: 
+ - "winuser/KillTimer"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

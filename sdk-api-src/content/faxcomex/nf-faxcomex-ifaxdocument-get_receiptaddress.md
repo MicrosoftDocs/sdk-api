@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxDocument interface [Fax Service],ReceiptAddress property, IFaxDocument.ReceiptAddress, IFaxDocument.get_ReceiptAddress, IFaxDocument.put_ReceiptAddress, IFaxDocument::ReceiptAddress, IFaxDocument::get_ReceiptAddress, IFaxDocument::put_ReceiptAddress, ReceiptAddress property [Fax Service], ReceiptAddress property [Fax Service],IFaxDocument interface, _mfax_faxdocument.receiptaddress, fax._mfax_faxdocument_cpp_mfax_faxdocument_receiptaddress_cpp, fax._mfax_faxdocument_receiptaddress, faxcomex/IFaxDocument::ReceiptAddress, faxcomex/IFaxDocument::get_ReceiptAddress, faxcomex/IFaxDocument::put_ReceiptAddress, get_ReceiptAddress
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxDocument.ReceiptAddress"]
+f1_keywords: 
+ - "faxcomex/IFaxDocument.ReceiptAddress"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

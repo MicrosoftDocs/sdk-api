@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OpenThreadWaitChainSession, OpenThreadWaitChainSession function, WCT_ASYNC_OPEN_FLAG, base.openthreadwaitchainsession, wct/OpenThreadWaitChainSession
 ms.topic: function
-f1_keywords: ["wct/OpenThreadWaitChainSession"]
+f1_keywords: 
+ - "wct/OpenThreadWaitChainSession"
 req.header: wct.h
 req.include-header: 
 req.target-type: Windows

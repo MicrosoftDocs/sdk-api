@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsBpCloseHandle, WdsBpCloseHandle function [Windows Deployment Services], wds.wdsbpclosehandle, wdsbp/WdsBpCloseHandle
 ms.topic: function
-f1_keywords: ["wdsbp/WdsBpCloseHandle"]
+f1_keywords: 
+ - "wdsbp/WdsBpCloseHandle"
 req.header: wdsbp.h
 req.include-header: 
 req.target-type: Windows

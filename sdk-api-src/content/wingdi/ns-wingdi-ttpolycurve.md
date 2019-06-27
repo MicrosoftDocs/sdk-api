@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPTTPOLYCURVE, LPTTPOLYCURVE, LPTTPOLYCURVE structure pointer [Windows GDI], TTPOLYCURVE, TTPOLYCURVE structure [Windows GDI], _win32_TTPOLYCURVE_str, gdi.ttpolycurve, wingdi/LPTTPOLYCURVE, wingdi/TTPOLYCURVE"
 ms.topic: struct
-f1_keywords: ["wingdi/TTPOLYCURVE"]
+f1_keywords: 
+ - "wingdi/TTPOLYCURVE"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

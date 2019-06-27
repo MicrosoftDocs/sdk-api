@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],ProcessVertices method, IDirect3DDevice9.ProcessVertices, IDirect3DDevice9::ProcessVertices, ProcessVertices, ProcessVertices method [Direct3D 9], ProcessVertices method [Direct3D 9],IDirect3DDevice9 interface, cf036375-2448-6e34-11ef-e3e3b96c951f, d3d9helper/IDirect3DDevice9::ProcessVertices, direct3d9.idirect3ddevice9__processvertices
 ms.topic: method
-f1_keywords: ["d3d9/IDirect3DDevice9.ProcessVertices"]
+f1_keywords: 
+ - "d3d9/IDirect3DDevice9.ProcessVertices"
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

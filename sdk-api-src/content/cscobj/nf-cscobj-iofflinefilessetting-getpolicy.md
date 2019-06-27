@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPolicy, GetPolicy method [Offline Files], GetPolicy method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetPolicy method, IOfflineFilesSetting.GetPolicy, IOfflineFilesSetting::GetPolicy, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, cscobj/IOfflineFilesSetting::GetPolicy, of.iofflinefilessetting_getpolicy
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesSetting.GetPolicy"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesSetting.GetPolicy"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

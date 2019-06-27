@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMVideoAccelerator, IAMVideoAccelerator interface [DirectShow], IAMVideoAccelerator interface [DirectShow],described, IAMVideoAcceleratorInterface, dshow.iamvideoaccelerator, videoacc/IAMVideoAccelerator
 ms.topic: interface
-f1_keywords: ["videoacc/IAMVideoAccelerator"]
+f1_keywords: 
+ - "videoacc/IAMVideoAccelerator"
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows

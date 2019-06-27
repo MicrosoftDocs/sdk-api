@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accChildCount method, IAccessible.get_accChildCount, IAccessible::get_accChildCount, _msaa_IAccessible_get_accChildCount, get_accChildCount, get_accChildCount method [Windows Accessibility], get_accChildCount method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accchildcount, oleacc/IAccessible::get_accChildCount, winauto.iaccessible_iaccessible__get_accchildcount
 ms.topic: method
-f1_keywords: ["oleacc/IAccessible.get_accChildCount"]
+f1_keywords: 
+ - "oleacc/IAccessible.get_accChildCount"
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

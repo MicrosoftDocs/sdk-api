@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICspInformation interface [Security],IsSmartCard property, ICspInformation.IsSmartCard, ICspInformation.get_IsSmartCard, ICspInformation::IsSmartCard, ICspInformation::get_IsSmartCard, IsSmartCard property [Security], IsSmartCard property [Security],ICspInformation interface, certenroll/ICspInformation::IsSmartCard, certenroll/ICspInformation::get_IsSmartCard, get_IsSmartCard, security.icspinformation_issmartcard_property
 ms.topic: method
-f1_keywords: ["certenroll/ICspInformation.IsSmartCard"]
+f1_keywords: 
+ - "certenroll/ICspInformation.IsSmartCard"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

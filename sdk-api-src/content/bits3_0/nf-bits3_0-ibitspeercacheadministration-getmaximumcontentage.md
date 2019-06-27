@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMaximumContentAge, GetMaximumContentAge method [BITS], GetMaximumContentAge method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],GetMaximumContentAge method, IBitsPeerCacheAdministration.GetMaximumContentAge, IBitsPeerCacheAdministration::GetMaximumContentAge, bits.ibitspeercacheadministration_getmaximumcontentage, bits3_0/IBitsPeerCacheAdministration::GetMaximumContentAge
 ms.topic: method
-f1_keywords: ["bits3_0/IBitsPeerCacheAdministration.GetMaximumContentAge"]
+f1_keywords: 
+ - "bits3_0/IBitsPeerCacheAdministration.GetMaximumContentAge"
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows

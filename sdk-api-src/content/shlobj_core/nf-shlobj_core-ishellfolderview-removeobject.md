@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellFolderView interface [Windows Shell],RemoveObject method, IShellFolderView.RemoveObject, IShellFolderView::RemoveObject, RemoveObject, RemoveObject method [Windows Shell], RemoveObject method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_RemoveObject, shell.IShellFolderView_RemoveObject, shlobj_core/IShellFolderView::RemoveObject
 ms.topic: method
-f1_keywords: ["shlobj_core/IShellFolderView.RemoveObject"]
+f1_keywords: 
+ - "shlobj_core/IShellFolderView.RemoveObject"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

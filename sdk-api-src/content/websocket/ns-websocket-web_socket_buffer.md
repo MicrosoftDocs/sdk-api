@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWEB_SOCKET_BUFFER, WEB_SOCKET_BUFFER, WEB_SOCKET_BUFFER union [Websocket Protocol Component API], websock.web_socket_buffer, websocket/WEB_SOCKET_BUFFER"
 ms.topic: struct
-f1_keywords: ["websocket/WEB_SOCKET_BUFFER"]
+f1_keywords: 
+ - "websocket/WEB_SOCKET_BUFFER"
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationEventHandlerGroup, IUIAutomationEventHandlerGroup interface [Windows Accessibility], IUIAutomationEventHandlerGroup interface [Windows Accessibility],described, uiautomationclient/IUIAutomationEventHandlerGroup, winauto.uiauto_IUIAutomationEventHandlerGroup
 ms.topic: interface
-f1_keywords: ["uiautomationclient/IUIAutomationEventHandlerGroup"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationEventHandlerGroup"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

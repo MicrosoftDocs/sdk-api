@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITransformProvider2 interface [Windows Accessibility],ZoomLevel property, ITransformProvider2.ZoomLevel, ITransformProvider2.get_ZoomLevel, ITransformProvider2::ZoomLevel, ITransformProvider2::get_ZoomLevel, ZoomLevel property [Windows Accessibility], ZoomLevel property [Windows Accessibility],ITransformProvider2 interface, get_ZoomLevel, uiautomationcore/ITransformProvider2::ZoomLevel, uiautomationcore/ITransformProvider2::get_ZoomLevel, winauto.uiauto_itransformprovider2_zoomlevel
 ms.topic: method
-f1_keywords: ["uiautomationcore/ITransformProvider2.ZoomLevel"]
+f1_keywords: 
+ - "uiautomationcore/ITransformProvider2.ZoomLevel"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

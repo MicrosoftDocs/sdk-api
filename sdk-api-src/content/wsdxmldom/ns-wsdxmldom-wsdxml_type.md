@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDXML_TYPE, WSDXML_TYPE structure, _WSDXML_TYPE, ncd.wsdxml_type_struct, wsdxmldom/WSDXML_TYPE
 ms.topic: struct
-f1_keywords: ["wsdxmldom/WSDXML_TYPE"]
+f1_keywords: 
+ - "wsdxmldom/WSDXML_TYPE"
 req.header: wsdxmldom.h
 req.include-header: 
 req.target-type: Windows

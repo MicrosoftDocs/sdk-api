@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InstancingType, InstancingType enumeration [Windows Runtime], InstancingType_MultipleInstances, InstancingType_SingleInstance, activationregistration/InstancingType, activationregistration/InstancingType_MultipleInstances, activationregistration/InstancingType_SingleInstance, winrt.instancingtype
 ms.topic: enum
-f1_keywords: ["activationregistration/InstancingType"]
+f1_keywords: 
+ - "activationregistration/InstancingType"
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

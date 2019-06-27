@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumExtraSearch interface [Windows Shell],Next method, IEnumExtraSearch.Next, IEnumExtraSearch::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumExtraSearch interface, _win32_IEnumExtraSearch_Next, shell.IEnumExtraSearch_Next, shobjidl_core/IEnumExtraSearch::Next
 ms.topic: method
-f1_keywords: ["shobjidl_core/IEnumExtraSearch.Next"]
+f1_keywords: 
+ - "shobjidl_core/IEnumExtraSearch.Next"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

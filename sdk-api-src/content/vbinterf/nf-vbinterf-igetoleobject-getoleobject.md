@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOleObject, GetOleObject method [COM], GetOleObject method [COM],IGetOleObject interface, IGetOleObject interface [COM],GetOleObject method, IGetOleObject.GetOleObject, IGetOleObject::GetOleObject, _com_IGetOleObject_GetOleObject, com.igetoleobject_getoleobject, vbinterf/IGetOleObject::GetOleObject
 ms.topic: method
-f1_keywords: ["vbinterf/IGetOleObject.GetOleObject"]
+f1_keywords: 
+ - "vbinterf/IGetOleObject.GetOleObject"
 req.header: vbinterf.h
 req.include-header: 
 req.target-type: Windows

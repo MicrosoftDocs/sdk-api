@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeLongArray object [Security],Reset method, ICertEncodeLongArray interface [Security],Reset method, ICertEncodeLongArray.Reset, ICertEncodeLongArray::Reset, Reset, Reset method [Security], Reset method [Security],CCertEncodeLongArray object, Reset method [Security],ICertEncodeLongArray interface, _certsrv_icertencodelongarray_reset, certenc/ICertEncodeLongArray::Reset, security.icertencodelongarray_reset
 ms.topic: method
-f1_keywords: ["certenc/ICertEncodeLongArray.Reset"]
+f1_keywords: 
+ - "certenc/ICertEncodeLongArray.Reset"
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTransformPattern interface [Windows Accessibility],Resize method, IUIAutomationTransformPattern.Resize, IUIAutomationTransformPattern::Resize, Resize, Resize method [Windows Accessibility], Resize method [Windows Accessibility],IUIAutomationTransformPattern interface, uiauto.uiauto_IUIAutomationTransformPattern_Resize, uiauto_IUIAutomationTransformPattern_Resize, uiautomationclient/IUIAutomationTransformPattern::Resize, winauto.uiauto_IUIAutomationTransformPattern_Resize
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTransformPattern.Resize"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTransformPattern.Resize"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

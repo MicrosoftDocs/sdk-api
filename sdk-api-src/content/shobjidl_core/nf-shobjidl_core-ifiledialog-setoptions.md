@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetOptions method, IFileDialog.SetOptions, IFileDialog::SetOptions, SetOptions, SetOptions method [Windows Shell], SetOptions method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetOptions, shell_IFileDialog_SetOptions, shobjidl_core/IFileDialog::SetOptions
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileDialog.SetOptions"]
+f1_keywords: 
+ - "shobjidl_core/IFileDialog.SetOptions"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

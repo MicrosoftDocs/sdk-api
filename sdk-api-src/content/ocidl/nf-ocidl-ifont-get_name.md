@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],get_Name method, IFont.get_Name, IFont::get_Name, _ctrl_ifont_get_name, com.ifont_get_name, get_Name, get_Name method [COM], get_Name method [COM],IFont interface, ocidl/IFont::get_Name
 ms.topic: method
-f1_keywords: ["ocidl/IFont.get_Name"]
+f1_keywords: 
+ - "ocidl/IFont.get_Name"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

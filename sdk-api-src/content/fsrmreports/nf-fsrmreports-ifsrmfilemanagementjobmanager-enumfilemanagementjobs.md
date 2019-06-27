@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumFileManagementJobs, EnumFileManagementJobs method [File Server Resource Manager], EnumFileManagementJobs method [File Server Resource Manager],FsrmFileManagementJobManager class, EnumFileManagementJobs method [File Server Resource Manager],IFsrmFileManagementJobManager interface, FsrmFileManagementJobManager class [File Server Resource Manager],EnumFileManagementJobs method, IFsrmFileManagementJobManager interface [File Server Resource Manager],EnumFileManagementJobs method, IFsrmFileManagementJobManager.EnumFileManagementJobs, IFsrmFileManagementJobManager::EnumFileManagementJobs, fs.ifsrmfilemanagementjobmanager_enumfilemanagementjobs, fsrm.ifsrmfilemanagementjobmanager_enumfilemanagementjobs, fsrmreports/IFsrmFileManagementJobManager::EnumFileManagementJobs
 ms.topic: method
-f1_keywords: ["fsrmreports/IFsrmFileManagementJobManager.EnumFileManagementJobs"]
+f1_keywords: 
+ - "fsrmreports/IFsrmFileManagementJobManager.EnumFileManagementJobs"
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

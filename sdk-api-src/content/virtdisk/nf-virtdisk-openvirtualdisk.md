@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OpenVirtualDisk, OpenVirtualDisk function [VHD], vdssys/OpenVirtualDisk, vhd.openvirtualdisk, virtdisk/OpenVirtualDisk
 ms.topic: function
-f1_keywords: ["virtdisk/OpenVirtualDisk"]
+f1_keywords: 
+ - "virtdisk/OpenVirtualDisk"
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

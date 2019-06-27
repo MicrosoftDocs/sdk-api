@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarDecAdd, VarDecAdd function [Automation], _oa96_VarDecAdd, automat.vardecadd, oleauto/VarDecAdd
 ms.topic: function
-f1_keywords: ["oleauto/VarDecAdd"]
+f1_keywords: 
+ - "oleauto/VarDecAdd"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

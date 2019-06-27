@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_GetColumnWidth, ListView_GetColumnWidth macro [Windows Controls], _win32_ListView_GetColumnWidth, _win32_ListView_GetColumnWidth_cpp, commctrl/ListView_GetColumnWidth, controls.ListView_GetColumnWidth, controls._win32_ListView_GetColumnWidth
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_GetColumnWidth"]
+f1_keywords: 
+ - "commctrl/ListView_GetColumnWidth"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

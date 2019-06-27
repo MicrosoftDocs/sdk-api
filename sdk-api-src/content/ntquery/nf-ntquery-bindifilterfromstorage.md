@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BindIFilterFromStorage, BindIFilterFromStorage function [Indexing Service], _idxs_BindIFilterFromStorage, indexsrv.bindifilterfromstorage, ntquery/BindIFilterFromStorage
 ms.topic: function
-f1_keywords: ["ntquery/BindIFilterFromStorage"]
+f1_keywords: 
+ - "ntquery/BindIFilterFromStorage"
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

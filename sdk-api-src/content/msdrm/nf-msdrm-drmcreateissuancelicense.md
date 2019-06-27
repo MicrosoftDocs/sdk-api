@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMCreateIssuanceLicense, DRMCreateIssuanceLicense function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateIssuanceLicense, rm.drmcreateissuancelicense
 ms.topic: function
-f1_keywords: ["msdrm/DRMCreateIssuanceLicense"]
+f1_keywords: 
+ - "msdrm/DRMCreateIssuanceLicense"
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

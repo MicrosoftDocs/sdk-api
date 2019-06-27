@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRETRIEVAL_POINTERS_BUFFER, PRETRIEVAL_POINTERS_BUFFER, PRETRIEVAL_POINTERS_BUFFER structure pointer [Files], RETRIEVAL_POINTERS_BUFFER, RETRIEVAL_POINTERS_BUFFER structure [Files], _win32_retrieval_pointers_buffer_str, base.retrieval_pointers_buffer_str, fs.retrieval_pointers_buffer_str, winioctl/PRETRIEVAL_POINTERS_BUFFER, winioctl/RETRIEVAL_POINTERS_BUFFER"
 ms.topic: struct
-f1_keywords: ["winioctl/RETRIEVAL_POINTERS_BUFFER"]
+f1_keywords: 
+ - "winioctl/RETRIEVAL_POINTERS_BUFFER"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

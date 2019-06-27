@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],GetStreamCount method, IMFASFProfile.GetStreamCount, IMFASFProfile::GetStreamCount, bf8c6157-3420-4097-8ab6-f307a69d418a, mf.imfasfprofile_getstreamcount, wmcontainer/IMFASFProfile::GetStreamCount
 ms.topic: method
-f1_keywords: ["wmcontainer/IMFASFProfile.GetStreamCount"]
+f1_keywords: 
+ - "wmcontainer/IMFASFProfile.GetStreamCount"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

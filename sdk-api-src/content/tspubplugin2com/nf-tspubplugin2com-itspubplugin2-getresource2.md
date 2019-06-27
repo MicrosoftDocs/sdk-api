@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetResource2, GetResource2 method [Remote Desktop Services], GetResource2 method [Remote Desktop Services],ItsPubPlugin2 interface, ItsPubPlugin2 interface [Remote Desktop Services],GetResource2 method, ItsPubPlugin2.GetResource2, ItsPubPlugin2::GetResource2, termserv.itspubplugin2_getresource2, tspubplugin2com/ItsPubPlugin2::GetResource2
 ms.topic: method
-f1_keywords: ["tspubplugin2com/ItsPubPlugin2.GetResource2"]
+f1_keywords: 
+ - "tspubplugin2com/ItsPubPlugin2.GetResource2"
 req.header: tspubplugin2com.h
 req.include-header: 
 req.target-type: Windows

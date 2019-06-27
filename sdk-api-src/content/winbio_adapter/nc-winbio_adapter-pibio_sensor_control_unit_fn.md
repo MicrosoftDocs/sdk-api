@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PIBIO_SENSOR_CONTROL_UNIT_FN, PIBIO_SENSOR_CONTROL_UNIT_FN callback, SensorAdapterControlUnit, SensorAdapterControlUnit callback function [Windows Biometric Framework API], secbiomet.sensoradaptercontrolunit, winbio_adapter/SensorAdapterControlUnit
 ms.topic: callback
-f1_keywords: ["winbio_adapter/SensorAdapterControlUnit"]
+f1_keywords: 
+ - "winbio_adapter/SensorAdapterControlUnit"
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarUI2FromStr, VarUI2FromStr function [Automation], _oa96_VarUI2FromStr, automat.varui2fromstr, oleauto/VarUI2FromStr
 ms.topic: function
-f1_keywords: ["oleauto/VarUI2FromStr"]
+f1_keywords: 
+ - "oleauto/VarUI2FromStr"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

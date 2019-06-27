@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupGetSourceFileLocation, SetupGetSourceFileLocation function [Setup API], SetupGetSourceFileLocationA, SetupGetSourceFileLocationW, _setupapi_setupgetsourcefilelocation, setup.setupgetsourcefilelocation, setupapi/SetupGetSourceFileLocation, setupapi/SetupGetSourceFileLocationA, setupapi/SetupGetSourceFileLocationW
 ms.topic: function
-f1_keywords: ["setupapi/SetupGetSourceFileLocation"]
+f1_keywords: 
+ - "setupapi/SetupGetSourceFileLocation"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVMGAttributes, GetVMGAttributes method [DirectShow], GetVMGAttributes method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetVMGAttributes method, IDvdInfo2.GetVMGAttributes, IDvdInfo2::GetVMGAttributes, IDvdInfo2GetVMGAttributes, dshow.idvdinfo2_getvmgattributes, strmif/IDvdInfo2::GetVMGAttributes
 ms.topic: method
-f1_keywords: ["strmif/IDvdInfo2.GetVMGAttributes"]
+f1_keywords: 
+ - "strmif/IDvdInfo2.GetVMGAttributes"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

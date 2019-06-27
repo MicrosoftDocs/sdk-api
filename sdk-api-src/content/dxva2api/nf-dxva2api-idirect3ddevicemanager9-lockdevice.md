@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 51631747-04af-448e-97cf-25a329d4fbb4, IDirect3DDeviceManager9 interface [Media Foundation],LockDevice method, IDirect3DDeviceManager9.LockDevice, IDirect3DDeviceManager9::LockDevice, LockDevice, LockDevice method [Media Foundation], LockDevice method [Media Foundation],IDirect3DDeviceManager9 interface, dxva2api/IDirect3DDeviceManager9::LockDevice, mf.idirect3ddevicemanager9_lockdevice
 ms.topic: method
-f1_keywords: ["dxva2api/IDirect3DDeviceManager9.LockDevice"]
+f1_keywords: 
+ - "dxva2api/IDirect3DDeviceManager9.LockDevice"
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

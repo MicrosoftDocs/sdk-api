@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced interface [windows Media Format],SetAllocateForStream method, IWMReaderAdvanced.SetAllocateForStream, IWMReaderAdvanced::SetAllocateForStream, IWMReaderAdvancedSetAllocateForStream, SetAllocateForStream, SetAllocateForStream method [windows Media Format], SetAllocateForStream method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_setallocateforstream, wmsdkidl/IWMReaderAdvanced::SetAllocateForStream
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderAdvanced.SetAllocateForStream"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderAdvanced.SetAllocateForStream"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

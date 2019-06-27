@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetCurrentDirectory, SetCurrentDirectory function [Files], SetCurrentDirectoryA, SetCurrentDirectoryW, _win32_setcurrentdirectory, base.setcurrentdirectory, fs.setcurrentdirectory, winbase/SetCurrentDirectory, winbase/SetCurrentDirectoryA, winbase/SetCurrentDirectoryW
 ms.topic: function
-f1_keywords: ["winbase/SetCurrentDirectory"]
+f1_keywords: 
+ - "winbase/SetCurrentDirectory"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

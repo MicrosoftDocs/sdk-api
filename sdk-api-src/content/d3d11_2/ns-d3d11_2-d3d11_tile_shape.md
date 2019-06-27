@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_TILE_SHAPE, D3D11_TILE_SHAPE structure [Direct3D 11], d3d11_2/D3D11_TILE_SHAPE, direct3d11.d3d11_tile_shape
 ms.topic: struct
-f1_keywords: ["d3d11_2/D3D11_TILE_SHAPE"]
+f1_keywords: 
+ - "d3d11_2/D3D11_TILE_SHAPE"
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows

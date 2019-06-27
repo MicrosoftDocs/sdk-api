@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkTransform interface [Tablet PC],eDy property, IInkTransform.eDy, IInkTransform.get_eDy, IInkTransform::eDy, IInkTransform::get_eDy, IInkTransform::put_eDy, InkTransform.get_eDy, InkTransform.put_eDy, d7f35091-93c0-45aa-87e4-49abf89998e5, eDy property [Tablet PC], eDy property [Tablet PC],IInkTransform interface, get_eDy, msinkaut/IInkTransform::eDy, msinkaut/IInkTransform::get_eDy, msinkaut/IInkTransform::put_eDy, put_eDy, tablet.inktransform_edy
 ms.topic: method
-f1_keywords: ["msinkaut/IInkTransform.eDy"]
+f1_keywords: 
+ - "msinkaut/IInkTransform.eDy"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

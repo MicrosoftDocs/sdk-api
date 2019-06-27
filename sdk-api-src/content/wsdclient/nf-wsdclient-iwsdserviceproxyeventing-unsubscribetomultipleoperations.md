@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDServiceProxyEventing interface,UnsubscribeToMultipleOperations method, IWSDServiceProxyEventing.UnsubscribeToMultipleOperations, IWSDServiceProxyEventing::UnsubscribeToMultipleOperations, UnsubscribeToMultipleOperations, UnsubscribeToMultipleOperations method, UnsubscribeToMultipleOperations method,IWSDServiceProxyEventing interface, ncd.iwsdserviceproxyeventing_unsubscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::UnsubscribeToMultipleOperations
 ms.topic: method
-f1_keywords: ["wsdclient/IWSDServiceProxyEventing.UnsubscribeToMultipleOperations"]
+f1_keywords: 
+ - "wsdclient/IWSDServiceProxyEventing.UnsubscribeToMultipleOperations"
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

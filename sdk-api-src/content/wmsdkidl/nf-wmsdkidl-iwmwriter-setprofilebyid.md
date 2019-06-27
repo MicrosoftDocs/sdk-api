@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMWriter interface [windows Media Format],SetProfileByID method, IWMWriter.SetProfileByID, IWMWriter::SetProfileByID, IWMWriterSetProfileByID, SetProfileByID, SetProfileByID method [windows Media Format], SetProfileByID method [windows Media Format],IWMWriter interface, wmformat.iwmwriter_setprofilebyid, wmsdkidl/IWMWriter::SetProfileByID
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriter.SetProfileByID"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriter.SetProfileByID"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

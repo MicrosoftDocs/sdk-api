@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwMgr, INetFwMgr interface [ICS/ICF], INetFwMgr interface [ICS/ICF],described, ics.inetfwmgr, netfw/INetFwMgr
 ms.topic: interface
-f1_keywords: ["netfw/INetFwMgr"]
+f1_keywords: 
+ - "netfw/INetFwMgr"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

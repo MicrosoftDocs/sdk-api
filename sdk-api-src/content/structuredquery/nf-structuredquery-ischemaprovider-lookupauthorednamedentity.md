@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISchemaProvider interface [search],LookupAuthoredNamedEntity method, ISchemaProvider.LookupAuthoredNamedEntity, ISchemaProvider::LookupAuthoredNamedEntity, LookupAuthoredNamedEntity, LookupAuthoredNamedEntity method [search], LookupAuthoredNamedEntity method [search],ISchemaProvider interface, _search_ISchemaProvider_LookupAuthoredNamedEntity, search._search_ISchemaProvider_LookupAuthoredNamedEntity, structuredquery/ISchemaProvider::LookupAuthoredNamedEntity
 ms.topic: method
-f1_keywords: ["structuredquery/ISchemaProvider.LookupAuthoredNamedEntity"]
+f1_keywords: 
+ - "structuredquery/ISchemaProvider.LookupAuthoredNamedEntity"
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

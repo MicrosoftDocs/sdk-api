@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Conclude, Conclude method [Windows Animation], Conclude method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],Conclude method, IUIAnimationStoryboard.Conclude, IUIAnimationStoryboard::Conclude, uianimation.iuianimationstoryboard_conclude, uianimation/IUIAnimationStoryboard::Conclude
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationStoryboard.Conclude"]
+f1_keywords: 
+ - "uianimation/IUIAnimationStoryboard.Conclude"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

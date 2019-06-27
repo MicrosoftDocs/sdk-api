@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],Languages property, IUpdate.Languages, IUpdate.get_Languages, IUpdate::Languages, IUpdate::get_Languages, Languages property [Windows Update Agent], Languages property [Windows Update Agent],IUpdate interface, get_Languages, wua.iupdate_language, wuapi/IUpdate::Languages, wuapi/IUpdate::get_Languages
 ms.topic: method
-f1_keywords: ["wuapi/IUpdate.Languages"]
+f1_keywords: 
+ - "wuapi/IUpdate.Languages"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

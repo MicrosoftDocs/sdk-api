@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISdoServiceControl interface [Network Policy Server],StopService method, ISdoServiceControl.StopService, ISdoServiceControl::StopService, StopService, StopService method [Network Policy Server], StopService method [Network Policy Server],ISdoServiceControl interface, _sdo_isdoservicecontrol_stopservice, nps.SDO_isdoservicecontrol_stopservice, sdo.isdoservicecontrol_stopservice, sdoias/ISdoServiceControl::StopService
 ms.topic: method
-f1_keywords: ["sdoias/ISdoServiceControl.StopService"]
+f1_keywords: 
+ - "sdoias/ISdoServiceControl.StopService"
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

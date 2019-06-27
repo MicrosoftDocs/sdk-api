@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidFeatures interface [Microsoft TV Technologies],get__NewEnum method, IMSVidFeatures.get__NewEnum, IMSVidFeatures::get__NewEnum, IMSVidFeaturesget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],IMSVidFeatures interface, mstv.imsvidfeatures_get__newenum, segment/IMSVidFeatures::get__NewEnum
 ms.topic: method
-f1_keywords: ["segment/IMSVidFeatures.get__NewEnum"]
+f1_keywords: 
+ - "segment/IMSVidFeatures.get__NewEnum"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

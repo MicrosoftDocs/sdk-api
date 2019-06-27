@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnloadKeyboardLayout, UnloadKeyboardLayout function [Keyboard and Mouse Input], _win32_UnloadKeyboardLayout, _win32_unloadkeyboardlayout_cpp, inputdev.unloadkeyboardlayout, winui._win32_unloadkeyboardlayout, winuser/UnloadKeyboardLayout
 ms.topic: function
-f1_keywords: ["winuser/UnloadKeyboardLayout"]
+f1_keywords: 
+ - "winuser/UnloadKeyboardLayout"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisableCommit, DisableCommit method [COM+], DisableCommit method [COM+],IObjectContext interface, IObjectContext interface [COM+],DisableCommit method, IObjectContext.DisableCommit, IObjectContext::DisableCommit, _cos_IObjectContext_DisableCommit, comsvcs/IObjectContext::DisableCommit, cos.iobjectcontext_disablecommit
 ms.topic: method
-f1_keywords: ["comsvcs/IObjectContext.DisableCommit"]
+f1_keywords: 
+ - "comsvcs/IObjectContext.DisableCommit"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

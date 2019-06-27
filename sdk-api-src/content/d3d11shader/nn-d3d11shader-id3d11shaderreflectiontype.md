@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 369c707d-0441-c514-603f-48f54b69b778, ID3D11ShaderReflectionType, ID3D11ShaderReflectionType interface [Direct3D 11], ID3D11ShaderReflectionType interface [Direct3D 11],described, d3d11shader/ID3D11ShaderReflectionType, direct3d11.id3d11shaderreflectiontype
 ms.topic: interface
-f1_keywords: ["d3d11shader/ID3D11ShaderReflectionType"]
+f1_keywords: 
+ - "d3d11shader/ID3D11ShaderReflectionType"
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

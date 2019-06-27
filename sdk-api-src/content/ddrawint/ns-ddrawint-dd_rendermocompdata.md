@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_RENDERMOCOMPDATA, DD_RENDERMOCOMPDATA, DD_RENDERMOCOMPDATA structure [Display Devices], ddrawint/DD_RENDERMOCOMPDATA, ddstrcts_ac8e2378-be85-4257-a664-d757ec914561.xml, display.dd_rendermocompdata"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_RENDERMOCOMPDATA"]
+f1_keywords: 
+ - "ddrawint/DD_RENDERMOCOMPDATA"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

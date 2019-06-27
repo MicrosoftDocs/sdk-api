@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Region, Region class [GDI+], Region class [GDI+],described, _gdiplus_CLASS_Region_Class, gdiplus._gdiplus_CLASS_Region_Class, gdiplusheaders/Region
 ms.topic: class
-f1_keywords: ["gdiplusheaders/Region"]
+f1_keywords: 
+ - "gdiplusheaders/Region"
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows

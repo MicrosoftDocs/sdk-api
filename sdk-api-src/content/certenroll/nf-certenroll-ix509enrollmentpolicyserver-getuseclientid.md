@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUseClientId, GetUseClientId method [Security], GetUseClientId method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetUseClientId method, IX509EnrollmentPolicyServer.GetUseClientId, IX509EnrollmentPolicyServer::GetUseClientId, certenroll/IX509EnrollmentPolicyServer::GetUseClientId, security.ix509enrollmentpolicyserver_getuseclientid
 ms.topic: method
-f1_keywords: ["certenroll/IX509EnrollmentPolicyServer.GetUseClientId"]
+f1_keywords: 
+ - "certenroll/IX509EnrollmentPolicyServer.GetUseClientId"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLanguageCode, GetLanguageCode method [Microsoft TV Technologies], GetLanguageCode method [Microsoft TV Technologies],ICaptionServiceDescriptor interface, ICaptionServiceDescriptor interface [Microsoft TV Technologies],GetLanguageCode method, ICaptionServiceDescriptor.GetLanguageCode, ICaptionServiceDescriptor::GetLanguageCode, ICaptionServiceDescriptorGetLanguageCode, atscpsipparser/ICaptionServiceDescriptor::GetLanguageCode, mstv.icaptionservicedescriptor_getlanguagecode
 ms.topic: method
-f1_keywords: ["atscpsipparser/ICaptionServiceDescriptor.GetLanguageCode"]
+f1_keywords: 
+ - "atscpsipparser/ICaptionServiceDescriptor.GetLanguageCode"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

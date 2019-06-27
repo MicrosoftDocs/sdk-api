@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SnmpRegister, SnmpRegister function [SNMP], _snmp_snmpregister, snmp.snmpregister, winsnmp/SnmpRegister
 ms.topic: function
-f1_keywords: ["winsnmp/SnmpRegister"]
+f1_keywords: 
+ - "winsnmp/SnmpRegister"
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

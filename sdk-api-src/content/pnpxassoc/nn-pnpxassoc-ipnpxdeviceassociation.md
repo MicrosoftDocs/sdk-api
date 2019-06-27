@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPNPXDeviceAssociation, IPNPXDeviceAssociation interface, IPNPXDeviceAssociation interface,described, ncd.ipnpxdeviceassociation, pnpxassoc/IPNPXDeviceAssociation
 ms.topic: interface
-f1_keywords: ["pnpxassoc/IPNPXDeviceAssociation"]
+f1_keywords: 
+ - "pnpxassoc/IPNPXDeviceAssociation"
 req.header: pnpxassoc.h
 req.include-header: 
 req.target-type: Windows

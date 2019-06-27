@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetContainer, GetContainer method [COM], GetContainer method [COM],IOleClientSite interface, IOleClientSite interface [COM],GetContainer method, IOleClientSite.GetContainer, IOleClientSite::GetContainer, _ole_ioleclientsite_getcontainer, com.ioleclientsite_getcontainer, oleidl/IOleClientSite::GetContainer
 ms.topic: method
-f1_keywords: ["oleidl/IOleClientSite.GetContainer"]
+f1_keywords: 
+ - "oleidl/IOleClientSite.GetContainer"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

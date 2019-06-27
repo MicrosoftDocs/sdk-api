@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSegmentInfo, GetSegmentInfo method [Microsoft TV Technologies], GetSegmentInfo method [Microsoft TV Technologies],IDVB_EIT2 interface, IDVB_EIT2 interface [Microsoft TV Technologies],GetSegmentInfo method, IDVB_EIT2.GetSegmentInfo, IDVB_EIT2::GetSegmentInfo, dvbsiparser/IDVB_EIT2::GetSegmentInfo, mstv.idvb_eit2_getsegmentinfo
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDVB_EIT2.GetSegmentInfo"]
+f1_keywords: 
+ - "dvbsiparser/IDVB_EIT2.GetSegmentInfo"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

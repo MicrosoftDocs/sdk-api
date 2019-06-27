@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDFS_INFO_150, *PDFS_INFO_150, DFS_INFO_150, DFS_INFO_150 structure [Distributed File System], PDFS_INFO_150, PDFS_INFO_150 structure pointer [Distributed File System], dfs.dfs_info_150, fs.dfs_info_150, lmdfs/DFS_INFO_150, lmdfs/PDFS_INFO_150"
 ms.topic: struct
-f1_keywords: ["lmdfs/DFS_INFO_150"]
+f1_keywords: 
+ - "lmdfs/DFS_INFO_150"
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

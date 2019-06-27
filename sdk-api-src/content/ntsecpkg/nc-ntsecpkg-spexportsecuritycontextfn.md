@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SECPKG_CONTEXT_EXPORT_DELETE_OLD, SECPKG_CONTEXT_EXPORT_RESET_NEW, SpExportSecurityContext, SpExportSecurityContext callback function [Security], SpExportSecurityContextFn, SpExportSecurityContextFn callback, _ssp_spexportsecuritycontext, ntsecpkg/SpExportSecurityContext, security.spexportsecuritycontext
 ms.topic: callback
-f1_keywords: ["ntsecpkg/SpExportSecurityContext"]
+f1_keywords: 
+ - "ntsecpkg/SpExportSecurityContext"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

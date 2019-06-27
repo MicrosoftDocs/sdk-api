@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PVSS_DIFF_AREA_PROP, PVSS_DIFF_AREA_PROP, PVSS_DIFF_AREA_PROP structure pointer [VSS], VSS_DIFF_AREA_PROP, VSS_DIFF_AREA_PROP structure [VSS], base.vss_diff_area_prop, vsmgmt/PVSS_DIFF_AREA_PROP, vsmgmt/VSS_DIFF_AREA_PROP"
 ms.topic: struct
-f1_keywords: ["vsmgmt/VSS_DIFF_AREA_PROP"]
+f1_keywords: 
+ - "vsmgmt/VSS_DIFF_AREA_PROP"
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

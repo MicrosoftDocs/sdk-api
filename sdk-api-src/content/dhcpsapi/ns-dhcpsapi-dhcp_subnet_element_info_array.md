@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_SUBNET_ELEMENT_INFO_ARRAY, DHCP_SUBNET_ELEMENT_INFO_ARRAY, DHCP_SUBNET_ELEMENT_INFO_ARRAY structure [DHCP], LPDHCP_SUBNET_ELEMENT_INFO_ARRAY, LPDHCP_SUBNET_ELEMENT_INFO_ARRAY structure pointer [DHCP], dhcp.dhcp_subnet_element_info_array, dhcpsapi/LPDHCP_SUBNET_ELEMENT_INFO_ARRAY, dhcpsapi/_DHCP_SUBNET_ELEMENT_INFO_ARRAY"
 ms.topic: struct
-f1_keywords: ["dhcpsapi/DHCP_SUBNET_ELEMENT_INFO_ARRAY"]
+f1_keywords: 
+ - "dhcpsapi/DHCP_SUBNET_ELEMENT_INFO_ARRAY"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

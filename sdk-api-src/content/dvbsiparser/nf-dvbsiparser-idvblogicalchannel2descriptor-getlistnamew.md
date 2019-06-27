@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetListNameW, GetListNameW method [Microsoft TV Technologies], GetListNameW method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetListNameW method, IDvbLogicalChannel2Descriptor.GetListNameW, IDvbLogicalChannel2Descriptor::GetListNameW, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListNameW, mstv.idvblogicalchannel2descriptor_getlistnamew
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbLogicalChannel2Descriptor.GetListNameW"]
+f1_keywords: 
+ - "dvbsiparser/IDvbLogicalChannel2Descriptor.GetListNameW"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

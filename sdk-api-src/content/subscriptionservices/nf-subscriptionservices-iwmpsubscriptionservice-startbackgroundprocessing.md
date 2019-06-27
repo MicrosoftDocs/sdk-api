@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSubscriptionService interface [Windows Media Player],startBackgroundProcessing method, IWMPSubscriptionService.startBackgroundProcessing, IWMPSubscriptionService::startBackgroundProcessing, IWMPSubscriptionServicestartBackgroundProcessing, startBackgroundProcessing, startBackgroundProcessing method [Windows Media Player], startBackgroundProcessing method [Windows Media Player],IWMPSubscriptionService interface, subscriptionservices/IWMPSubscriptionService::startBackgroundProcessing, wmp.iwmpsubscriptionservice_startbackgroundprocessing
 ms.topic: method
-f1_keywords: ["subscriptionservices/IWMPSubscriptionService.startBackgroundProcessing"]
+f1_keywords: 
+ - "subscriptionservices/IWMPSubscriptionService.startBackgroundProcessing"
 req.header: subscriptionservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 801cc3f5-3e30-48b9-bf1b-8dbfaff08dbf, IInkCursorButtons interface [Tablet PC],Item method, IInkCursorButtons.Item, IInkCursorButtons::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkCursorButtons interface, msinkaut/IInkCursorButtons::Item, tablet.iinkcursorbuttons_item
 ms.topic: method
-f1_keywords: ["msinkaut/IInkCursorButtons.Item"]
+f1_keywords: 
+ - "msinkaut/IInkCursorButtons.Item"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

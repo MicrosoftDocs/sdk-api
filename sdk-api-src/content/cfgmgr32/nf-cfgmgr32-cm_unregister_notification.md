@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Unregister_Notification, CM_Unregister_Notification function [Device and Driver Installation], cfgmgr32/CM_Unregister_Notification, devinst.cm_unregister_notification
 ms.topic: function
-f1_keywords: ["cfgmgr32/CM_Unregister_Notification"]
+f1_keywords: 
+ - "cfgmgr32/CM_Unregister_Notification"
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal

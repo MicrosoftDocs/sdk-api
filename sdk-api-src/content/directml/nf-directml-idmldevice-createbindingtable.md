@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateBindingTable, CreateBindingTable method, CreateBindingTable method,IDMLDevice interface, IDMLDevice interface,CreateBindingTable method, IDMLDevice.CreateBindingTable, IDMLDevice::CreateBindingTable, direct3d12.idmldevice_createbindingtable, directml/IDMLDevice::CreateBindingTable
 ms.topic: method
-f1_keywords: ["directml/IDMLDevice.CreateBindingTable"]
+f1_keywords: 
+ - "directml/IDMLDevice.CreateBindingTable"
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTime, GetTime method [DirectShow], GetTime method [DirectShow],IReferenceClock interface, IReferenceClock interface [DirectShow],GetTime method, IReferenceClock.GetTime, IReferenceClock::GetTime, IReferenceClockGetTime, dshow.ireferenceclock_gettime, strmif/IReferenceClock::GetTime
 ms.topic: method
-f1_keywords: ["strmif/IReferenceClock.GetTime"]
+f1_keywords: 
+ - "strmif/IReferenceClock.GetTime"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

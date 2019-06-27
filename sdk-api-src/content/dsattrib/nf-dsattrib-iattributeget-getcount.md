@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Microsoft TV Technologies], GetCount method [Microsoft TV Technologies],IAttributeGet interface, IAttributeGet interface [Microsoft TV Technologies],GetCount method, IAttributeGet.GetCount, IAttributeGet::GetCount, IAttributeGetGetCount, dsattrib/IAttributeGet::GetCount, mstv.iattributeget_getcount
 ms.topic: method
-f1_keywords: ["dsattrib/IAttributeGet.GetCount"]
+f1_keywords: 
+ - "dsattrib/IAttributeGet.GetCount"
 req.header: dsattrib.h
 req.include-header: 
 req.target-type: Windows

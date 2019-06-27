@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteMethod, DeleteMethod method [Windows Management Instrumentation], DeleteMethod method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],DeleteMethod method, IWbemClassObject.DeleteMethod, IWbemClassObject::DeleteMethod, _hmm_iwbemclassobject_deletemethod, wbemcli/IWbemClassObject::DeleteMethod, wmi.iwbemclassobject_deletemethod
 ms.topic: method
-f1_keywords: ["wbemcli/IWbemClassObject.DeleteMethod"]
+f1_keywords: 
+ - "wbemcli/IWbemClassObject.DeleteMethod"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

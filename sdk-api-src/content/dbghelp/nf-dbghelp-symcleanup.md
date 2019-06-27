@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymCleanup, SymCleanup function, _win32_symcleanup, base.symcleanup, dbghelp/SymCleanup
 ms.topic: function
-f1_keywords: ["dbghelp/SymCleanup"]
+f1_keywords: 
+ - "dbghelp/SymCleanup"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

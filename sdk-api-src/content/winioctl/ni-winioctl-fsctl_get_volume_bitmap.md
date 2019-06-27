@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_GET_VOLUME_BITMAP, FSCTL_GET_VOLUME_BITMAP control, FSCTL_GET_VOLUME_BITMAP control code [Files], _win32_fsctl_get_volume_bitmap, base.fsctl_get_volume_bitmap, fs.fsctl_get_volume_bitmap, winioctl/FSCTL_GET_VOLUME_BITMAP
 ms.topic: ioctl
-f1_keywords: ["winioctl/FSCTL_GET_VOLUME_BITMAP"]
+f1_keywords: 
+ - "winioctl/FSCTL_GET_VOLUME_BITMAP"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

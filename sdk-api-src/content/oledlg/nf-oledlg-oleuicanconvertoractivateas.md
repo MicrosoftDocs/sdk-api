@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleUICanConvertOrActivateAs, OleUICanConvertOrActivateAs function [COM], _ole_OleUICanConvertOrActivateAs, com.oleuicanconvertoractivateas, oledlg/OleUICanConvertOrActivateAs
 ms.topic: function
-f1_keywords: ["oledlg/OleUICanConvertOrActivateAs"]
+f1_keywords: 
+ - "oledlg/OleUICanConvertOrActivateAs"
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

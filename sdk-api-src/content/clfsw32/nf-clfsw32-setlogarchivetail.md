@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetLogArchiveTail, SetLogArchiveTail function [Files], clfsw32/SetLogArchiveTail, fs.setlogarchivetail
 ms.topic: function
-f1_keywords: ["clfsw32/SetLogArchiveTail"]
+f1_keywords: 
+ - "clfsw32/SetLogArchiveTail"
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

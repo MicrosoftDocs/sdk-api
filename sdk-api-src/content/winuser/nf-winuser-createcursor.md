@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateCursor, CreateCursor function [Menus and Other Resources], _win32_CreateCursor, _win32_createcursor_cpp, menurc.createcursor, winui._win32_createcursor, winuser/CreateCursor
 ms.topic: function
-f1_keywords: ["winuser/CreateCursor"]
+f1_keywords: 
+ - "winuser/CreateCursor"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

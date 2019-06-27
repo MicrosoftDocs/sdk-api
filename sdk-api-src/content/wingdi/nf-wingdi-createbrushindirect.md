@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateBrushIndirect, CreateBrushIndirect function [Windows GDI], _win32_CreateBrushIndirect, gdi.createbrushindirect, wingdi/CreateBrushIndirect
 ms.topic: function
-f1_keywords: ["wingdi/CreateBrushIndirect"]
+f1_keywords: 
+ - "wingdi/CreateBrushIndirect"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

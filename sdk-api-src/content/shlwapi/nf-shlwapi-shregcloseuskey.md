@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHRegCloseUSKey, SHRegCloseUSKey function [Windows Shell], _win32_SHRegCloseUSKey, shell.SHRegCloseUSKey, shlwapi/SHRegCloseUSKey
 ms.topic: function
-f1_keywords: ["shlwapi/SHRegCloseUSKey"]
+f1_keywords: 
+ - "shlwapi/SHRegCloseUSKey"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

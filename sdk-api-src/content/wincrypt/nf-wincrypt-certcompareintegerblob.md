@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertCompareIntegerBlob, CertCompareIntegerBlob function [Security], _crypto2_certcompareintegerblob, security.certcompareintegerblob, wincrypt/CertCompareIntegerBlob
 ms.topic: function
-f1_keywords: ["wincrypt/CertCompareIntegerBlob"]
+f1_keywords: 
+ - "wincrypt/CertCompareIntegerBlob"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

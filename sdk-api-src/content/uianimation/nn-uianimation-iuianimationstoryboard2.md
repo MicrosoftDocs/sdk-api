@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboard2, IUIAnimationStoryboard2 interface [Windows Animation], IUIAnimationStoryboard2 interface [Windows Animation],described, uianimation.iuianimationstoryboard2, uianimation/IUIAnimationStoryboard2
 ms.topic: interface
-f1_keywords: ["uianimation/IUIAnimationStoryboard2"]
+f1_keywords: 
+ - "uianimation/IUIAnimationStoryboard2"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

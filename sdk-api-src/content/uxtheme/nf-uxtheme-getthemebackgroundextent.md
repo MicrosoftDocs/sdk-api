@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThemeBackgroundExtent, GetThemeBackgroundExtent function [Windows Controls], controls.GetThemeBackgroundExtent, controls.inet_GetThemeBackgroundExtent, inet_GetThemeBackgroundExtent, inet_GetThemeBackgroundExtent_cpp, uxtheme/GetThemeBackgroundExtent
 ms.topic: function
-f1_keywords: ["uxtheme/GetThemeBackgroundExtent"]
+f1_keywords: 
+ - "uxtheme/GetThemeBackgroundExtent"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

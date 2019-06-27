@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Point class [GDI+],operator+ method, Point.operator+, Point.operator+(const Point&), Point.operator-add, Point::operator+, Point::operator-add, _gdiplus_CLASS_Point_operator_opadd_point_, gdiplus._gdiplus_CLASS_Point_operator_opadd_point_, operator+, operator+ method [GDI+], operator+ method [GDI+],Point class
 ms.topic: method
-f1_keywords: ["gdiplustypes/Point.operator+"]
+f1_keywords: 
+ - "gdiplustypes/Point.operator+"
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

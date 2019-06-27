@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DML_CREATE_DEVICE_FLAGS, DML_CREATE_DEVICE_FLAGS enumeration, DML_CREATE_DEVICE_FLAG_DEBUG, DML_CREATE_DEVICE_FLAG_NONE, direct3d12.dml_create_device_flags, directml/DML_CREATE_DEVICE_FLAGS, directml/DML_CREATE_DEVICE_FLAG_DEBUG, directml/DML_CREATE_DEVICE_FLAG_NONE
 ms.topic: enum
-f1_keywords: ["directml/DML_CREATE_DEVICE_FLAGS"]
+f1_keywords: 
+ - "directml/DML_CREATE_DEVICE_FLAGS"
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

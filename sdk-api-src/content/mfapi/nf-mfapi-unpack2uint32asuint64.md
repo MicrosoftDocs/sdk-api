@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Unpack2UINT32AsUINT64, Unpack2UINT32AsUINT64 function [Media Foundation], mf.unpack2uint32asuint64, mfapi/Unpack2UINT32AsUINT64
 ms.topic: function
-f1_keywords: ["mfapi/Unpack2UINT32AsUINT64"]
+f1_keywords: 
+ - "mfapi/Unpack2UINT32AsUINT64"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

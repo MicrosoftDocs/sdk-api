@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList interface [Windows Shell],SetActiveAlt method, ITaskbarList.SetActiveAlt, ITaskbarList::SetActiveAlt, SetActiveAlt, SetActiveAlt method [Windows Shell], SetActiveAlt method [Windows Shell],ITaskbarList interface, _win32_ITaskbarList_SetActiveAlt, shell.ITaskbarList_SetActiveAlt, shobjidl_core/ITaskbarList::SetActiveAlt
 ms.topic: method
-f1_keywords: ["shobjidl_core/ITaskbarList.SetActiveAlt"]
+f1_keywords: 
+ - "shobjidl_core/ITaskbarList.SetActiveAlt"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

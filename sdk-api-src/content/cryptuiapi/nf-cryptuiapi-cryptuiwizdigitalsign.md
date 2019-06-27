@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPTUI_WIZ_NO_UI, CryptUIWizDigitalSign, CryptUIWizDigitalSign function [Security], cryptuiapi/CryptUIWizDigitalSign, security.cryptuiwizdigitalsign
 ms.topic: function
-f1_keywords: ["cryptuiapi/CryptUIWizDigitalSign"]
+f1_keywords: 
+ - "cryptuiapi/CryptUIWizDigitalSign"
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows

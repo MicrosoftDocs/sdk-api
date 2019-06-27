@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsPack interface [VDS],Recover method, IVdsPack.Recover, IVdsPack::Recover, Recover, Recover method [VDS], Recover method [VDS],IVdsPack interface, base.ivdspack_recover, vds/IVdsPack::Recover
 ms.topic: method
-f1_keywords: ["vds/IVdsPack.Recover"]
+f1_keywords: 
+ - "vds/IVdsPack.Recover"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

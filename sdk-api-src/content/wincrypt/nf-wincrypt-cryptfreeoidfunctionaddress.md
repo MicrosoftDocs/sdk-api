@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptFreeOIDFunctionAddress, CryptFreeOIDFunctionAddress function [Security], _crypto2_cryptfreeoidfunctionaddress, security.cryptfreeoidfunctionaddress, wincrypt/CryptFreeOIDFunctionAddress
 ms.topic: function
-f1_keywords: ["wincrypt/CryptFreeOIDFunctionAddress"]
+f1_keywords: 
+ - "wincrypt/CryptFreeOIDFunctionAddress"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

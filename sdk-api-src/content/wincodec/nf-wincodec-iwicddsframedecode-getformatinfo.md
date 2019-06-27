@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFormatInfo, GetFormatInfo method [Windows Imaging Component], GetFormatInfo method [Windows Imaging Component],IWICDdsFrameDecode interface, IWICDdsFrameDecode interface [Windows Imaging Component],GetFormatInfo method, IWICDdsFrameDecode.GetFormatInfo, IWICDdsFrameDecode::GetFormatInfo, wic.iwicddsframedecode_getformatinfo, wincodec/IWICDdsFrameDecode::GetFormatInfo
 ms.topic: method
-f1_keywords: ["wincodec/IWICDdsFrameDecode.GetFormatInfo"]
+f1_keywords: 
+ - "wincodec/IWICDdsFrameDecode.GetFormatInfo"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

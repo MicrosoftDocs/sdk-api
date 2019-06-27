@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICoCreateLocally, ICoCreateLocally interface [Windows Accessibility], ICoCreateLocally interface [Windows Accessibility],described, msaa.icocreatelocally, msaatext/ICoCreateLocally, winauto.icocreatelocally
 ms.topic: interface
-f1_keywords: ["msaatext/ICoCreateLocally"]
+f1_keywords: 
+ - "msaatext/ICoCreateLocally"
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

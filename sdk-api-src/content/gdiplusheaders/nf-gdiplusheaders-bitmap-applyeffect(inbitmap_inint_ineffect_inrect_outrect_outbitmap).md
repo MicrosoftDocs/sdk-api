@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ApplyEffect, ApplyEffect method [GDI+], ApplyEffect method [GDI+],Bitmap class, Bitmap class [GDI+],ApplyEffect method, Bitmap.ApplyEffect, Bitmap.ApplyEffect(Bitmap**,INT,Effect*,RECT*,RECT*,Bitmap**), Bitmap.ApplyEffect(IN Bitmap,IN INT,IN Effect,IN RECT,OUT RECT,OUT Bitmap), Bitmap::ApplyEffect, Bitmap::ApplyEffect(IN Bitmap,IN INT,IN Effect,IN RECT,OUT RECT,OUT Bitmap), _gdiplus_CLASS_Bitmap_ApplyEffect_Bitmap_inputs_, gdiplus._gdiplus_CLASS_Bitmap_ApplyEffect_Bitmap_inputs_
 ms.topic: method
-f1_keywords: ["gdiplusheaders/Bitmap.ApplyEffect"]
+f1_keywords: 
+ - "gdiplusheaders/Bitmap.ApplyEffect"
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

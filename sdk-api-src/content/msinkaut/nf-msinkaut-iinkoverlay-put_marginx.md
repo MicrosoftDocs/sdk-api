@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkOverlay interface [Tablet PC],MarginX property, IInkOverlay.MarginX, IInkOverlay.put_MarginX, IInkOverlay::MarginX, IInkOverlay::get_MarginX, IInkOverlay::put_MarginX, InkOverlay.get_MarginX, InkOverlay.put_MarginX, MarginX property [Tablet PC], MarginX property [Tablet PC],IInkOverlay interface, get_MarginX, msinkaut/IInkOverlay::MarginX, msinkaut/IInkOverlay::get_MarginX, msinkaut/IInkOverlay::put_MarginX, put_MarginX, tablet.inkoverlay_marginx
 ms.topic: method
-f1_keywords: ["msinkaut/IInkOverlay.MarginX"]
+f1_keywords: 
+ - "msinkaut/IInkOverlay.MarginX"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

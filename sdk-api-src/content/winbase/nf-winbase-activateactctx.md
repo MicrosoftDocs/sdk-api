@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ActivateActCtx, ActivateActCtx function [Side-by-side Assemblies], _win32_activateactctx, setup.activateactctx, winbase/ActivateActCtx
 ms.topic: function
-f1_keywords: ["winbase/ActivateActCtx"]
+f1_keywords: 
+ - "winbase/ActivateActCtx"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

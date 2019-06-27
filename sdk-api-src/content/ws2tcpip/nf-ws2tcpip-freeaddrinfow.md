@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeAddrInfoW, FreeAddrInfoW function [Winsock], winsock.freeaddrinfow, ws2tcpip/FreeAddrInfoW
 ms.topic: function
-f1_keywords: ["ws2tcpip/FreeAddrInfoW"]
+f1_keywords: 
+ - "ws2tcpip/FreeAddrInfoW"
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

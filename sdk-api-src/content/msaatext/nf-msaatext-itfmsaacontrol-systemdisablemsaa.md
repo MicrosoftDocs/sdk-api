@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfMSAAControl interface [Text Services Framework],SystemDisableMSAA method, ITfMSAAControl.SystemDisableMSAA, ITfMSAAControl::SystemDisableMSAA, SystemDisableMSAA, SystemDisableMSAA method [Text Services Framework], SystemDisableMSAA method [Text Services Framework],ITfMSAAControl interface, msaatext/ITfMSAAControl::SystemDisableMSAA, tsf.itfmsaacontrol_systemdisablemsaa
 ms.topic: method
-f1_keywords: ["msaatext/ITfMSAAControl.SystemDisableMSAA"]
+f1_keywords: 
+ - "msaatext/ITfMSAAControl.SystemDisableMSAA"
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

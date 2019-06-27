@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCaretBlinkTime, GetCaretBlinkTime function [Menus and Other Resources], _win32_GetCaretBlinkTime, _win32_getcaretblinktime_cpp, menurc.getcaretblinktime, winui._win32_getcaretblinktime, winuser/GetCaretBlinkTime
 ms.topic: function
-f1_keywords: ["winuser/GetCaretBlinkTime"]
+f1_keywords: 
+ - "winuser/GetCaretBlinkTime"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

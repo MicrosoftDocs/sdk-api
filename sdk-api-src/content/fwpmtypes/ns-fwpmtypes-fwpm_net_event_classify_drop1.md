@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPM_NET_EVENT_CLASSIFY_DROP1, FWPM_NET_EVENT_CLASSIFY_DROP1 structure [Filtering], FWP_DIRECTION_FORWARD, FWP_DIRECTION_IN, FWP_DIRECTION_OUT, fwp.fwpm_net_event_classify_drop1, fwpmtypes/FWPM_NET_EVENT_CLASSIFY_DROP1
 ms.topic: struct
-f1_keywords: ["fwpmtypes/FWPM_NET_EVENT_CLASSIFY_DROP1"]
+f1_keywords: 
+ - "fwpmtypes/FWPM_NET_EVENT_CLASSIFY_DROP1"
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

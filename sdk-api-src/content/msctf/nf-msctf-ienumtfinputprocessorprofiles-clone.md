@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfInputProcessorProfiles interface, IEnumTfInputProcessorProfiles interface [Text Services Framework],Clone method, IEnumTfInputProcessorProfiles.Clone, IEnumTfInputProcessorProfiles::Clone, msctf/IEnumTfInputProcessorProfiles::Clone, tsf.ienumtfinputprocessorprofiles_clone
 ms.topic: method
-f1_keywords: ["msctf/IEnumTfInputProcessorProfiles.Clone"]
+f1_keywords: 
+ - "msctf/IEnumTfInputProcessorProfiles.Clone"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

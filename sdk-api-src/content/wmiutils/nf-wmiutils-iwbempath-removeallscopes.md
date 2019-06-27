@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemPath interface [Windows Management Instrumentation],RemoveAllScopes method, IWbemPath.RemoveAllScopes, IWbemPath::RemoveAllScopes, RemoveAllScopes, RemoveAllScopes method [Windows Management Instrumentation], RemoveAllScopes method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_removeallscopes, wmi.iwbempath_removeallscopes, wmiutils/IWbemPath::RemoveAllScopes
 ms.topic: method
-f1_keywords: ["wmiutils/IWbemPath.RemoveAllScopes"]
+f1_keywords: 
+ - "wmiutils/IWbemPath.RemoveAllScopes"
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClipGeometryLocal, GetClipGeometryLocal method [XPS Documents and Packaging], GetClipGeometryLocal method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetClipGeometryLocal method, IXpsOMVisual.GetClipGeometryLocal, IXpsOMVisual::GetClipGeometryLocal, xps.ixpsomvisual_getclipgeometrylocal, xpsobjectmodel/IXpsOMVisual::GetClipGeometryLocal
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMVisual.GetClipGeometryLocal"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMVisual.GetClipGeometryLocal"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

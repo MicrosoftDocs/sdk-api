@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdeCreateDataHandle, DdeCreateDataHandle function [Data Exchange], _win32_DdeCreateDataHandle, _win32_ddecreatedatahandle_cpp, dataxchg.ddecreatedatahandle, ddeml/DdeCreateDataHandle, winui._win32_ddecreatedatahandle
 ms.topic: function
-f1_keywords: ["ddeml/DdeCreateDataHandle"]
+f1_keywords: 
+ - "ddeml/DdeCreateDataHandle"
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

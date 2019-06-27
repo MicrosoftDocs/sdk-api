@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],Initialize method, IWICBitmapFrameEncode.Initialize, IWICBitmapFrameEncode::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_initialize, wic._wic_codec_iwicbitmapframeencode_initialize, wincodec/IWICBitmapFrameEncode::Initialize
 ms.topic: method
-f1_keywords: ["wincodec/IWICBitmapFrameEncode.Initialize"]
+f1_keywords: 
+ - "wincodec/IWICBitmapFrameEncode.Initialize"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

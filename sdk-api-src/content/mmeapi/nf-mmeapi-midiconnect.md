@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_midiConnect, midiConnect, midiConnect function [Windows Multimedia], mmeapi/midiConnect, multimedia.midiconnect"
 ms.topic: function
-f1_keywords: ["mmeapi/midiConnect"]
+f1_keywords: 
+ - "mmeapi/midiConnect"
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

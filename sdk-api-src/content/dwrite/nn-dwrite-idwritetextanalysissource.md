@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextAnalysisSource, IDWriteTextAnalysisSource interface [Direct Write], IDWriteTextAnalysisSource interface [Direct Write],described, directwrite.idwritetextanalysissource, dwrite/IDWriteTextAnalysisSource
 ms.topic: interface
-f1_keywords: ["dwrite/IDWriteTextAnalysisSource"]
+f1_keywords: 
+ - "dwrite/IDWriteTextAnalysisSource"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

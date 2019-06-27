@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509EnrollmentHelper, IX509EnrollmentHelper interface [Security], IX509EnrollmentHelper interface [Security],described, certenroll/IX509EnrollmentHelper, security.ix509enrollmenthelper
 ms.topic: interface
-f1_keywords: ["certenroll/IX509EnrollmentHelper"]
+f1_keywords: 
+ - "certenroll/IX509EnrollmentHelper"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

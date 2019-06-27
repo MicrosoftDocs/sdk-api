@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertificationAuthorities interface [Security],ItemByIndex property, ICertificationAuthorities.ItemByIndex, ICertificationAuthorities.get_ItemByIndex, ICertificationAuthorities::ItemByIndex, ICertificationAuthorities::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ICertificationAuthorities interface, certenroll/ICertificationAuthorities::ItemByIndex, certenroll/ICertificationAuthorities::get_ItemByIndex, get_ItemByIndex, security.icertificationauthorities_itembyindex
 ms.topic: method
-f1_keywords: ["certenroll/ICertificationAuthorities.ItemByIndex"]
+f1_keywords: 
+ - "certenroll/ICertificationAuthorities.ItemByIndex"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTableInfo, GetTableInfo method [Windows Runtime], GetTableInfo method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetTableInfo method, IMetaDataTables.GetTableInfo, IMetaDataTables::GetTableInfo, rometadataapi/IMetaDataTables::GetTableInfo, winrt.imetadatatables_gettableinfo
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataTables.GetTableInfo"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataTables.GetTableInfo"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

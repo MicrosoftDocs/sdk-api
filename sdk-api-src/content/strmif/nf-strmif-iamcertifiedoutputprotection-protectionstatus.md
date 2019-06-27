@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMCertifiedOutputProtection interface [DirectShow],ProtectionStatus method, IAMCertifiedOutputProtection.ProtectionStatus, IAMCertifiedOutputProtection::ProtectionStatus, IAMCertifiedOutputProtectionProtectionStatus, ProtectionStatus, ProtectionStatus method [DirectShow], ProtectionStatus method [DirectShow],IAMCertifiedOutputProtection interface, dshow.iamcertifiedoutputprotection_protectionstatus, strmif/IAMCertifiedOutputProtection::ProtectionStatus
 ms.topic: method
-f1_keywords: ["strmif/IAMCertifiedOutputProtection.ProtectionStatus"]
+f1_keywords: 
+ - "strmif/IAMCertifiedOutputProtection.ProtectionStatus"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

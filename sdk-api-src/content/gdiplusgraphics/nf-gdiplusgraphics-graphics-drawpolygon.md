@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawPolygon
 ms.topic: language-reference
-f1_keywords: ["gdiplusgraphics/Graphics::DrawPolygon"]
+f1_keywords: 
+ - "gdiplusgraphics/Graphics::DrawPolygon"
 targetos: Windows
 product: Windows
 req.assembly: 

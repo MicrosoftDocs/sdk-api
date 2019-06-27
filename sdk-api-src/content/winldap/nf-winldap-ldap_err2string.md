@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_err2string, ldap.ldap__err2string, ldap.ldap_err2string, ldap_err2string, ldap_err2string function [LDAP], ldap_err2stringA, ldap_err2stringW, winldap/ldap_err2string, winldap/ldap_err2stringA, winldap/ldap_err2stringW"
 ms.topic: function
-f1_keywords: ["winldap/ldap_err2string"]
+f1_keywords: 
+ - "winldap/ldap_err2string"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

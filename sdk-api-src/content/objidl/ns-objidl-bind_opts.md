@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPBIND_OPTS, BIND_OPTS, BIND_OPTS structure [COM], LPBIND_OPTS, LPBIND_OPTS structure pointer [COM], _com_BIND_OPTS, com.bind_opts, objidl/BIND_OPTS, objidl/LPBIND_OPTS"
 ms.topic: struct
-f1_keywords: ["objidl/BIND_OPTS"]
+f1_keywords: 
+ - "objidl/BIND_OPTS"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

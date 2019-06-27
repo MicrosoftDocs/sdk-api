@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3DDisassembleRegion, D3DDisassembleRegion function [HLSL], d3dcompiler/D3DDisassembleRegion, direct3dhlsl.d3ddisassembleregion
 ms.topic: function
-f1_keywords: ["d3dcompiler/D3DDisassembleRegion"]
+f1_keywords: 
+ - "d3dcompiler/D3DDisassembleRegion"
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

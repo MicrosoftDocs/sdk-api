@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectForHrtf interface [Core Audio],SetEnvironment method, ISpatialAudioObjectForHrtf.SetEnvironment, ISpatialAudioObjectForHrtf::SetEnvironment, SetEnvironment, SetEnvironment method [Core Audio], SetEnvironment method [Core Audio],ISpatialAudioObjectForHrtf interface, coreaudio.ispatialaudioobjectforhrtf_setenvironment, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetEnvironment
 ms.topic: method
-f1_keywords: ["spatialaudiohrtf/ISpatialAudioObjectForHrtf.SetEnvironment"]
+f1_keywords: 
+ - "spatialaudiohrtf/ISpatialAudioObjectForHrtf.SetEnvironment"
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDescriptionData, GetDescriptionData method [Media Foundation], GetDescriptionData method [Media Foundation],ITocEntry interface, ITocEntry interface [Media Foundation],GetDescriptionData method, ITocEntry.GetDescriptionData, ITocEntry::GetDescriptionData, codecapi.itocentry_getdescriptiondata, mf.itocentry_getdescriptiondata, wmcodecdsp/ITocEntry::GetDescriptionData
 ms.topic: method
-f1_keywords: ["wmcodecdsp/ITocEntry.GetDescriptionData"]
+f1_keywords: 
+ - "wmcodecdsp/ITocEntry.GetDescriptionData"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

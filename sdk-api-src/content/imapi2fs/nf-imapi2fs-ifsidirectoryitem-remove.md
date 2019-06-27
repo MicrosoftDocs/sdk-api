@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsiDirectoryItem interface [IMAPI],Remove method, IFsiDirectoryItem.Remove, IFsiDirectoryItem::Remove, Remove, Remove method [IMAPI], Remove method [IMAPI],IFsiDirectoryItem interface, imapi.ifsidirectoryitem_remove, imapi2fs/IFsiDirectoryItem::Remove
 ms.topic: method
-f1_keywords: ["imapi2fs/IFsiDirectoryItem.Remove"]
+f1_keywords: 
+ - "imapi2fs/IFsiDirectoryItem.Remove"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

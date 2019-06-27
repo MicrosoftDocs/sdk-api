@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClosedRangeStart, GetClosedRangeStart method [Windows Sync], GetClosedRangeStart method [Windows Sync],IRangeException interface, IRangeException interface [Windows Sync],GetClosedRangeStart method, IRangeException.GetClosedRangeStart, IRangeException::GetClosedRangeStart, winsync.irangeexception_getclosedrangestart, winsync/IRangeException::GetClosedRangeStart
 ms.topic: method
-f1_keywords: ["winsync/IRangeException.GetClosedRangeStart"]
+f1_keywords: 
+ - "winsync/IRangeException.GetClosedRangeStart"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

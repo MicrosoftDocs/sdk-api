@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 18092958-2031-f4f8-2da4-c36244bd2989, D3D10_SHADER_DEBUG_INFO, D3D10_SHADER_DEBUG_INFO structure [Direct3D 10], d3d10_1shader/D3D10_SHADER_DEBUG_INFO, direct3d10.d3d10_shader_debug_info
 ms.topic: struct
-f1_keywords: ["d3d10_1shader/D3D10_SHADER_DEBUG_INFO"]
+f1_keywords: 
+ - "d3d10_1shader/D3D10_SHADER_DEBUG_INFO"
 req.header: d3d10_1shader.h
 req.include-header: D3D10Shader.h
 req.target-type: Windows

@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: XMVECTORU8::operator __m128i
 ms.topic: language-reference
-f1_keywords: ["directxmath/XMVECTORU8::operator __m128i"]
+f1_keywords: 
+ - "directxmath/XMVECTORU8::operator __m128i"
 targetos: Windows
 product: Windows
 req.assembly: 

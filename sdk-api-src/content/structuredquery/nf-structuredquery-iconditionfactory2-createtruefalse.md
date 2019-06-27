@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTrueFalse, CreateTrueFalse method [search], CreateTrueFalse method [search],IConditionFactory2 interface, IConditionFactory2 interface [search],CreateTrueFalse method, IConditionFactory2.CreateTrueFalse, IConditionFactory2::CreateTrueFalse, _search_IConditionFactory2_CreateTrueFalse, search._search_IConditionFactory2_CreateTrueFalse, structuredquery/IConditionFactory2::CreateTrueFalse
 ms.topic: method
-f1_keywords: ["structuredquery/IConditionFactory2.CreateTrueFalse"]
+f1_keywords: 
+ - "structuredquery/IConditionFactory2.CreateTrueFalse"
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

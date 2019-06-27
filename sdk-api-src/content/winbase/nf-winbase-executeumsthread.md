@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExecuteUmsThread, ExecuteUmsThread function, base.executeumsthread, winbase/ExecuteUmsThread
 ms.topic: function
-f1_keywords: ["winbase/ExecuteUmsThread"]
+f1_keywords: 
+ - "winbase/ExecuteUmsThread"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMGPOLink, IGPMGPOLink, IGPMGPOLink interface [GPMC], IGPMGPOLink interface [GPMC],described, _win32_igpmgpolink, gpmc.igpmgpolink, gpmgmt/IGPMGPOLink
 ms.topic: interface
-f1_keywords: ["gpmgmt/IGPMGPOLink"]
+f1_keywords: 
+ - "gpmgmt/IGPMGPOLink"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

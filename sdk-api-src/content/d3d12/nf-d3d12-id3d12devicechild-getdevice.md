@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDevice, GetDevice method, GetDevice method,ID3D12DeviceChild interface, ID3D12DeviceChild interface,GetDevice method, ID3D12DeviceChild.GetDevice, ID3D12DeviceChild::GetDevice, d3d12/ID3D12DeviceChild::GetDevice, direct3d12.id3d12devicechild_getdevice
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12DeviceChild.GetDevice"]
+f1_keywords: 
+ - "d3d12/ID3D12DeviceChild.GetDevice"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

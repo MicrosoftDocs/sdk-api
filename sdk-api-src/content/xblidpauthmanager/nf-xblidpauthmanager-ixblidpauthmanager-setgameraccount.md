@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXblIdpAuthManager interface,SetGamerAccount method, IXblIdpAuthManager.SetGamerAccount, IXblIdpAuthManager::SetGamerAccount, SetGamerAccount, SetGamerAccount method, SetGamerAccount method,IXblIdpAuthManager interface, xblidp.ixblidpauthmanager_setgameraccount, xblidpauthmanager/IXblIdpAuthManager::SetGamerAccount
 ms.topic: method
-f1_keywords: ["xblidpauthmanager/IXblIdpAuthManager.SetGamerAccount"]
+f1_keywords: 
+ - "xblidpauthmanager/IXblIdpAuthManager.SetGamerAccount"
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

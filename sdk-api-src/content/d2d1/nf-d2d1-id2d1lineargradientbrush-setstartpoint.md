@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1LinearGradientBrush interface [Direct2D],SetStartPoint method, ID2D1LinearGradientBrush.SetStartPoint, ID2D1LinearGradientBrush::SetStartPoint, SetStartPoint, SetStartPoint method [Direct2D], SetStartPoint method [Direct2D],ID2D1LinearGradientBrush interface, d2d1/ID2D1LinearGradientBrush::SetStartPoint, direct2d.ID2D1LinearGradientBrush_SetStartPoint
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1LinearGradientBrush.SetStartPoint"]
+f1_keywords: 
+ - "d2d1/ID2D1LinearGradientBrush.SetStartPoint"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

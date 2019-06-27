@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerBitmap9, IVMRMixerBitmap9 interface [DirectShow], IVMRMixerBitmap9 interface [DirectShow],described, IVMRMixerBitmap9Interface, dshow.ivmrmixerbitmap9, vmr9/IVMRMixerBitmap9
 ms.topic: interface
-f1_keywords: ["vmr9/IVMRMixerBitmap9"]
+f1_keywords: 
+ - "vmr9/IVMRMixerBitmap9"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

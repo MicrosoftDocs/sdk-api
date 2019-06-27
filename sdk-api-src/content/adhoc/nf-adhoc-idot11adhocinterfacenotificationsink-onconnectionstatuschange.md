@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocInterfaceNotificationSink interface [NativeWIFI],OnConnectionStatusChange method, IDot11AdHocInterfaceNotificationSink.OnConnectionStatusChange, IDot11AdHocInterfaceNotificationSink::OnConnectionStatusChange, OnConnectionStatusChange, OnConnectionStatusChange method [NativeWIFI], OnConnectionStatusChange method [NativeWIFI],IDot11AdHocInterfaceNotificationSink interface, adhoc/IDot11AdHocInterfaceNotificationSink::OnConnectionStatusChange, nwifi.idot11adhocinterfacenotificationsink_onconnectionstatuschange
 ms.topic: method
-f1_keywords: ["adhoc/IDot11AdHocInterfaceNotificationSink.OnConnectionStatusChange"]
+f1_keywords: 
+ - "adhoc/IDot11AdHocInterfaceNotificationSink.OnConnectionStatusChange"
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

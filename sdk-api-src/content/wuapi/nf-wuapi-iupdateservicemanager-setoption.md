@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceManager interface [Windows Update Agent],SetOption method, IUpdateServiceManager.SetOption, IUpdateServiceManager::SetOption, SetOption, SetOption method [Windows Update Agent], SetOption method [Windows Update Agent],IUpdateServiceManager interface, wua.iupdateservicemanager_setoption, wuapi/IUpdateServiceManager::SetOption
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateServiceManager.SetOption"]
+f1_keywords: 
+ - "wuapi/IUpdateServiceManager.SetOption"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

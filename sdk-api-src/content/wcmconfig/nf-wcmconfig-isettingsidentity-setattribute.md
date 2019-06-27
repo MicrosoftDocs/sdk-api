@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISettingsIdentity interface [SMI],SetAttribute method, ISettingsIdentity.SetAttribute, ISettingsIdentity::SetAttribute, SetAttribute, SetAttribute method [SMI], SetAttribute method [SMI],ISettingsIdentity interface, smi.isettingsidentity_setattribute, wcmconfig/ISettingsIdentity::SetAttribute
 ms.topic: method
-f1_keywords: ["wcmconfig/ISettingsIdentity.SetAttribute"]
+f1_keywords: 
+ - "wcmconfig/ISettingsIdentity.SetAttribute"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

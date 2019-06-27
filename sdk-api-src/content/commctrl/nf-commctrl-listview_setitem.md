@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_SetItem, ListView_SetItem macro [Windows Controls], _win32_ListView_SetItem, _win32_ListView_SetItem_cpp, commctrl/ListView_SetItem, controls.ListView_SetItem, controls._win32_ListView_SetItem
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_SetItem"]
+f1_keywords: 
+ - "commctrl/ListView_SetItem"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

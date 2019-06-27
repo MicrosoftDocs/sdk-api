@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseHandle, CloseHandle method [Security], CloseHandle method [Security],ISceSvcAttachmentData interface, ISceSvcAttachmentData interface [Security],CloseHandle method, ISceSvcAttachmentData.CloseHandle, ISceSvcAttachmentData::CloseHandle, _config_iscesvcattachmentdata_closehandle, scesvc/ISceSvcAttachmentData::CloseHandle, security.iscesvcattachmentdata_closehandle
 ms.topic: method
-f1_keywords: ["scesvc/ISceSvcAttachmentData.CloseHandle"]
+f1_keywords: 
+ - "scesvc/ISceSvcAttachmentData.CloseHandle"
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows

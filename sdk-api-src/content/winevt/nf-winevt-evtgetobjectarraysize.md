@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtGetObjectArraySize, EvtGetObjectArraySize function [EventLog], wes.evtgetobjectarraysize, winevt/EvtGetObjectArraySize
 ms.topic: function
-f1_keywords: ["winevt/EvtGetObjectArraySize"]
+f1_keywords: 
+ - "winevt/EvtGetObjectArraySize"
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

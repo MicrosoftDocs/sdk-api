@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawDibSetPalette, DrawDibSetPalette function [Windows Multimedia], _win32_DrawDibSetPalette, multimedia.drawdibsetpalette, vfw/DrawDibSetPalette
 ms.topic: function
-f1_keywords: ["vfw/DrawDibSetPalette"]
+f1_keywords: 
+ - "vfw/DrawDibSetPalette"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

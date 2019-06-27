@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiEvaluateCondition, MsiEvaluateCondition function, MsiEvaluateConditionA, MsiEvaluateConditionW, _msi_msievaluatecondition, msiquery/MsiEvaluateCondition, msiquery/MsiEvaluateConditionA, msiquery/MsiEvaluateConditionW, setup.msievaluatecondition
 ms.topic: function
-f1_keywords: ["msiquery/MsiEvaluateCondition"]
+f1_keywords: 
+ - "msiquery/MsiEvaluateCondition"
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

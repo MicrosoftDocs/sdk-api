@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GrantAccessRights, GrantAccessRights method [COM], GrantAccessRights method [COM],IAccessControl interface, IAccessControl interface [COM],GrantAccessRights method, IAccessControl.GrantAccessRights, IAccessControl::GrantAccessRights, _com_iaccesscontrol_grantaccessrights, com.iaccesscontrol_grantaccessrights, iaccess/IAccessControl::GrantAccessRights
 ms.topic: method
-f1_keywords: ["iaccess/IAccessControl.GrantAccessRights"]
+f1_keywords: 
+ - "iaccess/IAccessControl.GrantAccessRights"
 req.header: iaccess.h
 req.include-header: 
 req.target-type: Windows

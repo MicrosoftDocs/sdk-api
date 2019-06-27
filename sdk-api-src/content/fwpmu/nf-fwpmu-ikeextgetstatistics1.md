@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IkeextGetStatistics1, IkeextGetStatistics1 function [Filtering], fwp.ikeextgetstatistics1, fwpmu/IkeextGetStatistics1
 ms.topic: function
-f1_keywords: ["fwpmu/IkeextGetStatistics1"]
+f1_keywords: 
+ - "fwpmu/IkeextGetStatistics1"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

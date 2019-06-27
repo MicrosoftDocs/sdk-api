@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCameraExtrinsics, MFCameraExtrinsics structure [Media Foundation], PMFCameraExtrinsics, PMFCameraExtrinsics structure pointer [Media Foundation], mf.mfcameraextrinsics, mfapi/MFCameraExtrinsics, mfapi/PMFCameraExtrinsics
 ms.topic: struct
-f1_keywords: ["mfapi/MFCameraExtrinsics"]
+f1_keywords: 
+ - "mfapi/MFCameraExtrinsics"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

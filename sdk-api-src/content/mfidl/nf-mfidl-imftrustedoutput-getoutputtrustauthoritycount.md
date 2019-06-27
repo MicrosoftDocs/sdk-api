@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 3aae6859-0b32-4705-9045-b98d0bbf43a6, GetOutputTrustAuthorityCount, GetOutputTrustAuthorityCount method [Media Foundation], GetOutputTrustAuthorityCount method [Media Foundation],IMFTrustedOutput interface, IMFTrustedOutput interface [Media Foundation],GetOutputTrustAuthorityCount method, IMFTrustedOutput.GetOutputTrustAuthorityCount, IMFTrustedOutput::GetOutputTrustAuthorityCount, mf.imftrustedoutput_getoutputtrustauthoritycount, mfidl/IMFTrustedOutput::GetOutputTrustAuthorityCount
 ms.topic: method
-f1_keywords: ["mfidl/IMFTrustedOutput.GetOutputTrustAuthorityCount"]
+f1_keywords: 
+ - "mfidl/IMFTrustedOutput.GetOutputTrustAuthorityCount"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

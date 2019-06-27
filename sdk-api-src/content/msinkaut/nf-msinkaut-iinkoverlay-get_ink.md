@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkOverlay interface [Tablet PC],Ink property, IInkOverlay.Ink, IInkOverlay.get_Ink, IInkOverlay::Ink, IInkOverlay::get_Ink, IInkOverlay::put_Ink, Ink property [Tablet PC], Ink property [Tablet PC],IInkOverlay interface, InkOverlay.get_Ink, InkOverlay.put_Ink, get_Ink, msinkaut/IInkOverlay::Ink, msinkaut/IInkOverlay::get_Ink, msinkaut/IInkOverlay::put_Ink, put_Ink, tablet.inkoverlay_ink
 ms.topic: method
-f1_keywords: ["msinkaut/IInkOverlay.Ink"]
+f1_keywords: 
+ - "msinkaut/IInkOverlay.Ink"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

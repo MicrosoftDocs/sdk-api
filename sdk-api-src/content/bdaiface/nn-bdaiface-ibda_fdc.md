@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_FDC, IBDA_FDC interface [Microsoft TV Technologies], IBDA_FDC interface [Microsoft TV Technologies],described, bdaiface/IBDA_FDC, mstv.ibda_fdc
 ms.topic: interface
-f1_keywords: ["bdaiface/IBDA_FDC"]
+f1_keywords: 
+ - "bdaiface/IBDA_FDC"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

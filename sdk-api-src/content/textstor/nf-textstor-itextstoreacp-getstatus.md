@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetStatus method, ITextStoreACP.GetStatus, ITextStoreACP::GetStatus, _tsf_itextstoreacp_getstatus_ref, textstor/ITextStoreACP::GetStatus, tsf.itextstoreacp_getstatus
 ms.topic: method
-f1_keywords: ["textstor/ITextStoreACP.GetStatus"]
+f1_keywords: 
+ - "textstor/ITextStoreACP.GetStatus"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

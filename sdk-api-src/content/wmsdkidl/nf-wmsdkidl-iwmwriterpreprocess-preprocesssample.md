@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMWriterPreprocess interface [windows Media Format],PreprocessSample method, IWMWriterPreprocess.PreprocessSample, IWMWriterPreprocess::PreprocessSample, IWMWriterPreprocessPreprocessSample, PreprocessSample, PreprocessSample method [windows Media Format], PreprocessSample method [windows Media Format],IWMWriterPreprocess interface, wmformat.iwmwriterpreprocess_preprocesssample, wmsdkidl/IWMWriterPreprocess::PreprocessSample
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriterPreprocess.PreprocessSample"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriterPreprocess.PreprocessSample"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

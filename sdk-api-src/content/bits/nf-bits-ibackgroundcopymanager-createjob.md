@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateJob, CreateJob method [BITS], CreateJob method [BITS],IBackgroundCopyManager interface, IBackgroundCopyManager interface [BITS],CreateJob method, IBackgroundCopyManager.CreateJob, IBackgroundCopyManager::CreateJob, _drz_ibackgroundcopymanager_createjob, bits.ibackgroundcopymanager_createjob, bits/IBackgroundCopyManager::CreateJob
 ms.topic: method
-f1_keywords: ["bits/IBackgroundCopyManager.CreateJob"]
+f1_keywords: 
+ - "bits/IBackgroundCopyManager.CreateJob"
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

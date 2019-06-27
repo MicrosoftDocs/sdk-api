@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [Open Packaging Conventions], Delete method [Open Packaging Conventions],IOpcSignatureRelationshipReferenceSet interface, IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions],Delete method, IOpcSignatureRelationshipReferenceSet.Delete, IOpcSignatureRelationshipReferenceSet::Delete, msopc/IOpcSignatureRelationshipReferenceSet::Delete, opc.iopcsignaturerelationshipreferenceset_delete
 ms.topic: method
-f1_keywords: ["msopc/IOpcSignatureRelationshipReferenceSet.Delete"]
+f1_keywords: 
+ - "msopc/IOpcSignatureRelationshipReferenceSet.Delete"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

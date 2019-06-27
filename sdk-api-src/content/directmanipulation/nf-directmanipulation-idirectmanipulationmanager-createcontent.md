@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateContent, CreateContent method [Direct Manipulation], CreateContent method [Direct Manipulation],IDirectManipulationManager interface, IDirectManipulationManager interface [Direct Manipulation],CreateContent method, IDirectManipulationManager.CreateContent, IDirectManipulationManager::CreateContent, directmanipulation.idirectmanipulationmanager_createcontent, directmanipulation/IDirectManipulationManager::CreateContent
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationManager.CreateContent"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationManager.CreateContent"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

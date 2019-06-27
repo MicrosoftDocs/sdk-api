@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],InitializeDownloadManager method, IBrowserService2.InitializeDownloadManager, IBrowserService2::InitializeDownloadManager, InitializeDownloadManager, InitializeDownloadManager method [Windows Shell], InitializeDownloadManager method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::InitializeDownloadManager, shell.IBrowserService2_InitializeDownloadManager, zone_IBrowserService2_InitializeDownloadManager
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService2.InitializeDownloadManager"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService2.InitializeDownloadManager"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

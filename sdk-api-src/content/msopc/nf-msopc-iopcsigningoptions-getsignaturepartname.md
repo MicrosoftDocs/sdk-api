@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSignaturePartName, GetSignaturePartName method [Open Packaging Conventions], GetSignaturePartName method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetSignaturePartName method, IOpcSigningOptions.GetSignaturePartName, IOpcSigningOptions::GetSignaturePartName, msopc/IOpcSigningOptions::GetSignaturePartName, opc.iopcsigningoptions_getsignaturepartname
 ms.topic: method
-f1_keywords: ["msopc/IOpcSigningOptions.GetSignaturePartName"]
+f1_keywords: 
+ - "msopc/IOpcSigningOptions.GetSignaturePartName"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

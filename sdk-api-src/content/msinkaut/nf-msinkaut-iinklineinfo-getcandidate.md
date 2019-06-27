@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 59005f51-7052-4aef-915d-4c939eecec99, GetCandidate, GetCandidate method [Tablet PC], GetCandidate method [Tablet PC],IInkLineInfo interface, IInkLineInfo interface [Tablet PC],GetCandidate method, IInkLineInfo.GetCandidate, IInkLineInfo::GetCandidate, msinkaut/IInkLineInfo::GetCandidate, tablet.iinklineinfo_getcandidate
 ms.topic: method
-f1_keywords: ["msinkaut/IInkLineInfo.GetCandidate"]
+f1_keywords: 
+ - "msinkaut/IInkLineInfo.GetCandidate"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VarBstrFromR8, VarBstrFromR8 function [Automation], _oa96_VarBstrFromR8, automat.varbstrfromr8, oleauto/VarBstrFromR8
 ms.topic: function
-f1_keywords: ["oleauto/VarBstrFromR8"]
+f1_keywords: 
+ - "oleauto/VarBstrFromR8"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

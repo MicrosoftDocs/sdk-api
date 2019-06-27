@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDataUnitExtension, GetDataUnitExtension method [windows Media Format], GetDataUnitExtension method [windows Media Format],IWMStreamConfig2 interface, IWMStreamConfig2 interface [windows Media Format],GetDataUnitExtension method, IWMStreamConfig2.GetDataUnitExtension, IWMStreamConfig2::GetDataUnitExtension, IWMStreamConfig2GetDataUnitExtension, wmformat.iwmstreamconfig2_getdataunitextension, wmsdkidl/IWMStreamConfig2::GetDataUnitExtension
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMStreamConfig2.GetDataUnitExtension"]
+f1_keywords: 
+ - "wmsdkidl/IWMStreamConfig2.GetDataUnitExtension"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

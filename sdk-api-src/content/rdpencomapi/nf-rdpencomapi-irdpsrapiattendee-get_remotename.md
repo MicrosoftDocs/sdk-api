@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIAttendee interface [RDP],RemoteName property, IRDPSRAPIAttendee.RemoteName, IRDPSRAPIAttendee.get_RemoteName, IRDPSRAPIAttendee::RemoteName, IRDPSRAPIAttendee::get_RemoteName, RDPSRAPIAttendee object [RDP],RemoteName property, RemoteName property [RDP], RemoteName property [RDP],IRDPSRAPIAttendee interface, RemoteName property [RDP],RDPSRAPIAttendee object, get_RemoteName, rdp.irdpsrapiattendee_remotename, rdpencomapi/IRDPSRAPIAttendee::RemoteName, rdpencomapi/IRDPSRAPIAttendee::get_RemoteName
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPIAttendee.RemoteName"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIAttendee.RemoteName"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

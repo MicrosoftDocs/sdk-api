@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDefaultVerb, GetDefaultVerb method [MMC], GetDefaultVerb method [MMC],IConsoleVerb interface, IConsoleVerb interface [MMC],GetDefaultVerb method, IConsoleVerb.GetDefaultVerb, IConsoleVerb::GetDefaultVerb, _slate_iconsoleverb_getdefaultverb, mmc.iconsoleverb_getdefaultverb, mmc/IConsoleVerb::GetDefaultVerb
 ms.topic: method
-f1_keywords: ["mmc/IConsoleVerb.GetDefaultVerb"]
+f1_keywords: 
+ - "mmc/IConsoleVerb.GetDefaultVerb"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

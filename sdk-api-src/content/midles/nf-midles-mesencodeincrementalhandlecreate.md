@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MesEncodeIncrementalHandleCreate, MesEncodeIncrementalHandleCreate function [RPC], _rpc_mesencodeincrementalhandlecreate, midles/MesEncodeIncrementalHandleCreate, rpc.mesencodeincrementalhandlecreate
 ms.topic: function
-f1_keywords: ["midles/MesEncodeIncrementalHandleCreate"]
+f1_keywords: 
+ - "midles/MesEncodeIncrementalHandleCreate"
 req.header: midles.h
 req.include-header: Rpc.h
 req.target-type: Windows

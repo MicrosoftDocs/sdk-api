@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutboundRoutingRules interface [Fax Service],ItemByCountryAndArea method, IFaxOutboundRoutingRules.ItemByCountryAndArea, IFaxOutboundRoutingRules::ItemByCountryAndArea, ItemByCountryAndArea, ItemByCountryAndArea method [Fax Service], ItemByCountryAndArea method [Fax Service],IFaxOutboundRoutingRules interface, _mfax_faxoutboundroutingrules.itembycountryandarea, fax._mfax_faxoutboundroutingrules_cpp_mfax_faxoutboundroutingrules_itembycountryandarea_cpp, fax._mfax_faxoutboundroutingrules_itembycountryandarea, faxcomex/IFaxOutboundRoutingRules::ItemByCountryAndArea
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxOutboundRoutingRules.ItemByCountryAndArea"]
+f1_keywords: 
+ - "faxcomex/IFaxOutboundRoutingRules.ItemByCountryAndArea"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

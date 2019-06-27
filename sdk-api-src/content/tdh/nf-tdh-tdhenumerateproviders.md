@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TdhEnumerateProviders, TdhEnumerateProviders function [ETW], etw.tdhenumerateproviders_func, tdh.tdhenumerateproviders_func, tdh/TdhEnumerateProviders
 ms.topic: function
-f1_keywords: ["tdh/TdhEnumerateProviders"]
+f1_keywords: 
+ - "tdh/TdhEnumerateProviders"
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

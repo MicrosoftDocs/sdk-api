@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinBioEnrollCapture, WinBioEnrollCapture function [Windows Biometric Framework API], secbiomet.winbioenrollcapture, winbio/WinBioEnrollCapture
 ms.topic: function
-f1_keywords: ["winbio/WinBioEnrollCapture"]
+f1_keywords: 
+ - "winbio/WinBioEnrollCapture"
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

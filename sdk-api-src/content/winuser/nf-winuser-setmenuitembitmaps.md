@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_BYCOMMAND, MF_BYPOSITION, SetMenuItemBitmaps, SetMenuItemBitmaps function [Menus and Other Resources], _win32_SetMenuItemBitmaps, _win32_setmenuitembitmaps_cpp, menurc.setmenuitembitmaps, winui._win32_setmenuitembitmaps, winuser/SetMenuItemBitmaps
 ms.topic: function
-f1_keywords: ["winuser/SetMenuItemBitmaps"]
+f1_keywords: 
+ - "winuser/SetMenuItemBitmaps"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

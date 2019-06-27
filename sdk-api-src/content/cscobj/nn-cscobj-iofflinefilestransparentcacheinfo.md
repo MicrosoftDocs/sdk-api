@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesTransparentCacheInfo, IOfflineFilesTransparentCacheInfo interface [Offline Files], IOfflineFilesTransparentCacheInfo interface [Offline Files],described, cscobj/IOfflineFilesTransparentCacheInfo, of.iofflinefilestransparentcacheinfo
 ms.topic: interface
-f1_keywords: ["cscobj/IOfflineFilesTransparentCacheInfo"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesTransparentCacheInfo"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

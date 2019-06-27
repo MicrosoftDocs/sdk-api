@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscMaster interface [IMAPI],ProgressUnadvise method, IDiscMaster.ProgressUnadvise, IDiscMaster::ProgressUnadvise, ProgressUnadvise, ProgressUnadvise method [IMAPI], ProgressUnadvise method [IMAPI],IDiscMaster interface, _win32_idiscmaster_progressunadvise, base.idiscmaster_progressunadvise, imapi.idiscmaster_progressunadvise, imapi/IDiscMaster::ProgressUnadvise
 ms.topic: method
-f1_keywords: ["imapi/IDiscMaster.ProgressUnadvise"]
+f1_keywords: 
+ - "imapi/IDiscMaster.ProgressUnadvise"
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

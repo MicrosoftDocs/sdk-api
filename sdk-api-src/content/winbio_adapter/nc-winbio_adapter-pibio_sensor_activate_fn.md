@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PIBIO_SENSOR_ACTIVATE_FN, PIBIO_SENSOR_ACTIVATE_FN callback, SensorAdapterActivate, SensorAdapterActivate callback function [Windows Biometric Framework API], secbiomet.sensoradapteractivate, winbio_adapter/SensorAdapterActivate
 ms.topic: callback
-f1_keywords: ["winbio_adapter/SensorAdapterActivate"]
+f1_keywords: 
+ - "winbio_adapter/SensorAdapterActivate"
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

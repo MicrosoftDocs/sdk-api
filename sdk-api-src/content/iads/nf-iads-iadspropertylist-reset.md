@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsPropertyList interface [ADSI],Reset method, IADsPropertyList.Reset, IADsPropertyList::Reset, Reset, Reset method [ADSI], Reset method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_reset, adsi.iadspropertylist__reset, adsi.iadspropertylist_reset, iads/IADsPropertyList::Reset
 ms.topic: method
-f1_keywords: ["iads/IADsPropertyList.Reset"]
+f1_keywords: 
+ - "iads/IADsPropertyList.Reset"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

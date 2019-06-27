@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SL_GENUINE_STATE, SL_GENUINE_STATE enumeration [Security], SL_GEN_STATE_INVALID_LICENSE, SL_GEN_STATE_IS_GENUINE, SL_GEN_STATE_LAST, SL_GEN_STATE_OFFLINE, SL_GEN_STATE_TAMPERED, security.sl_genuine_state, slpublic/SL_GENUINE_STATE, slpublic/SL_GEN_STATE_INVALID_LICENSE, slpublic/SL_GEN_STATE_IS_GENUINE, slpublic/SL_GEN_STATE_LAST, slpublic/SL_GEN_STATE_OFFLINE, slpublic/SL_GEN_STATE_TAMPERED
 ms.topic: enum
-f1_keywords: ["slpublic/SL_GENUINE_STATE"]
+f1_keywords: 
+ - "slpublic/SL_GENUINE_STATE"
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsServiceOperations interface [ADSI],Pause method, IADsServiceOperations.Pause, IADsServiceOperations::Pause, Pause, Pause method [ADSI], Pause method [ADSI],IADsServiceOperations interface, _ds_iadsserviceoperations_pause, adsi.iadsserviceoperations__pause, adsi.iadsserviceoperations_pause, iads/IADsServiceOperations::Pause
 ms.topic: method
-f1_keywords: ["iads/IADsServiceOperations.Pause"]
+f1_keywords: 
+ - "iads/IADsServiceOperations.Pause"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

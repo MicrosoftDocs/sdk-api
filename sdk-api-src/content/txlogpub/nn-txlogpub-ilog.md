@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILog, ILog interface [COM], ILog interface [COM],described, _com_ilog, com.ilog, txlogpub/ILog
 ms.topic: interface
-f1_keywords: ["txlogpub/ILog"]
+f1_keywords: 
+ - "txlogpub/ILog"
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows

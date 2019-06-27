@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumerateSecurityPackages, EnumerateSecurityPackages function [Security], EnumerateSecurityPackagesA, EnumerateSecurityPackagesW, _ssp_enumeratesecuritypackages, security.enumeratesecuritypackages, sspi/EnumerateSecurityPackages, sspi/EnumerateSecurityPackagesA, sspi/EnumerateSecurityPackagesW
 ms.topic: function
-f1_keywords: ["sspi/EnumerateSecurityPackages"]
+f1_keywords: 
+ - "sspi/EnumerateSecurityPackages"
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

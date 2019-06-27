@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method, GetProperty method,IVisualTreeService2 interface, IVisualTreeService2 interface,GetProperty method, IVisualTreeService2.GetProperty, IVisualTreeService2::GetProperty, xaml_diagnostics.ivisualtreeservice2_getproperty, xamlom/IVisualTreeService2::GetProperty
 ms.topic: method
-f1_keywords: ["xamlom/IVisualTreeService2.GetProperty"]
+f1_keywords: 
+ - "xamlom/IVisualTreeService2.GetProperty"
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

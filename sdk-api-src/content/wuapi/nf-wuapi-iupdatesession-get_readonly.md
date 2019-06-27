@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateSession interface [Windows Update Agent],ReadOnly property, IUpdateSession.ReadOnly, IUpdateSession.get_ReadOnly, IUpdateSession::ReadOnly, IUpdateSession::get_ReadOnly, ReadOnly property [Windows Update Agent], ReadOnly property [Windows Update Agent],IUpdateSession interface, get_ReadOnly, wua.iupdatesession_readonly, wuapi/IUpdateSession::ReadOnly, wuapi/IUpdateSession::get_ReadOnly
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateSession.ReadOnly"]
+f1_keywords: 
+ - "wuapi/IUpdateSession.ReadOnly"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

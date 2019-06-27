@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanHostedNetworkForceStop, WlanHostedNetworkForceStop function [NativeWIFI], nwifi.wlanhostednetworkforcestop, wlanapi/WlanHostedNetworkForceStop
 ms.topic: function
-f1_keywords: ["wlanapi/WlanHostedNetworkForceStop"]
+f1_keywords: 
+ - "wlanapi/WlanHostedNetworkForceStop"
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

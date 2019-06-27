@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ApplicationProcessRecycleInfo, ApplicationProcessRecycleInfo structure [COM+], comsvcs/ApplicationProcessRecycleInfo, cos.applicationprocessrecycleinfo
 ms.topic: struct
-f1_keywords: ["comsvcs/ApplicationProcessRecycleInfo"]
+f1_keywords: 
+ - "comsvcs/ApplicationProcessRecycleInfo"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

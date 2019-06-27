@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UrlFixupW, UrlFixupW function [Windows Shell], _win32_UrlFixupW, shell.UrlFixupW, shlwapi/UrlFixupW
 ms.topic: function
-f1_keywords: ["shlwapi/UrlFixupW"]
+f1_keywords: 
+ - "shlwapi/UrlFixupW"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

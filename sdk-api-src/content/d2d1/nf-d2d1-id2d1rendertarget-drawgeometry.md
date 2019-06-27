@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawGeometry, DrawGeometry method [Direct2D], DrawGeometry method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],DrawGeometry method, ID2D1RenderTarget.DrawGeometry, ID2D1RenderTarget::DrawGeometry, d2d1/ID2D1RenderTarget::DrawGeometry, direct2d.ID2D1RenderTarget_DrawGeometry
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1RenderTarget.DrawGeometry"]
+f1_keywords: 
+ - "d2d1/ID2D1RenderTarget.DrawGeometry"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

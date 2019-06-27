@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncCallback interface [Windows Sync],OnProgress method, ISyncCallback.OnProgress, ISyncCallback::OnProgress, OnProgress, OnProgress method [Windows Sync], OnProgress method [Windows Sync],ISyncCallback interface, winsync.isynccallback_onprogress, winsync/ISyncCallback::OnProgress
 ms.topic: method
-f1_keywords: ["winsync/ISyncCallback.OnProgress"]
+f1_keywords: 
+ - "winsync/ISyncCallback.OnProgress"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

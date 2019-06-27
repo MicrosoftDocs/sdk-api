@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MSIPATCHSTATE_ALL, MSIPATCHSTATE_APPLIED, MSIPATCHSTATE_OBSOLETED, MSIPATCHSTATE_REGISTERED, MSIPATCHSTATE_SUPERSEDED, MsiEnumPatchesEx, MsiEnumPatchesEx function, MsiEnumPatchesExA, MsiEnumPatchesExW, NULL, User SID, msi/MsiEnumPatchesEx, msi/MsiEnumPatchesExA, msi/MsiEnumPatchesExW, s-1-1-0, setup.msienumpatchesex
 ms.topic: function
-f1_keywords: ["msi/MsiEnumPatchesEx"]
+f1_keywords: 
+ - "msi/MsiEnumPatchesEx"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

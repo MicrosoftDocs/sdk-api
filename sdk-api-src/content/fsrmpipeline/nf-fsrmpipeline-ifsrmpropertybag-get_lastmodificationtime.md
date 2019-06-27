@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],LastModificationTime property, IFsrmPropertyBag.LastModificationTime, IFsrmPropertyBag.get_LastModificationTime, IFsrmPropertyBag::LastModificationTime, IFsrmPropertyBag::get_LastModificationTime, LastModificationTime property [File Server Resource Manager], LastModificationTime property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_lastmodificationtime, fsrm.ifsrmpropertybag_lastmodificationtime, fsrmpipeline/IFsrmPropertyBag::LastModificationTime, fsrmpipeline/IFsrmPropertyBag::get_LastModificationTime, get_LastModificationTime
 ms.topic: method
-f1_keywords: ["fsrmpipeline/IFsrmPropertyBag.LastModificationTime"]
+f1_keywords: 
+ - "fsrmpipeline/IFsrmPropertyBag.LastModificationTime"
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

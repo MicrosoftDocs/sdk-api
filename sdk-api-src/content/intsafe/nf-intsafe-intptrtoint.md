@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IntPtrToInt, IntPtrToInt function [Windows Shell], PtrdiffTToInt, _shell_IntPtrToInt, intsafe/IntPtrToInt, shell.IntPtrToInt
 ms.topic: function
-f1_keywords: ["intsafe/IntPtrToInt"]
+f1_keywords: 
+ - "intsafe/IntPtrToInt"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

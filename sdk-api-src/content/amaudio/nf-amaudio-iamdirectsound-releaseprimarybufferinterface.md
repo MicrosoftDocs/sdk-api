@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMDirectSound interface [DirectShow],ReleasePrimaryBufferInterface method, IAMDirectSound.ReleasePrimaryBufferInterface, IAMDirectSound::ReleasePrimaryBufferInterface, IAMDirectSoundReleasePrimaryBufferInterface, ReleasePrimaryBufferInterface, ReleasePrimaryBufferInterface method [DirectShow], ReleasePrimaryBufferInterface method [DirectShow],IAMDirectSound interface, amaudio/IAMDirectSound::ReleasePrimaryBufferInterface, dshow.iamdirectsound_releaseprimarybufferinterface
 ms.topic: method
-f1_keywords: ["amaudio/IAMDirectSound.ReleasePrimaryBufferInterface"]
+f1_keywords: 
+ - "amaudio/IAMDirectSound.ReleasePrimaryBufferInterface"
 req.header: amaudio.h
 req.include-header: 
 req.target-type: Windows

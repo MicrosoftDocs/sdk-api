@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInputParameterDesc, GetInputParameterDesc method, GetInputParameterDesc method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetInputParameterDesc method, ID3D12ShaderReflection.GetInputParameterDesc, ID3D12ShaderReflection::GetInputParameterDesc, d3d12shader/ID3D12ShaderReflection::GetInputParameterDesc, direct3d12.id3d12shaderreflection_getinputparameterdesc
 ms.topic: method
-f1_keywords: ["d3d12shader/ID3D12ShaderReflection.GetInputParameterDesc"]
+f1_keywords: 
+ - "d3d12shader/ID3D12ShaderReflection.GetInputParameterDesc"
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

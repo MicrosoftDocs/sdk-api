@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DavAddConnection, DavAddConnection function [WebDAV], davclnt/DavAddConnection, webdav.davaddconnection
 ms.topic: function
-f1_keywords: ["davclnt/DavAddConnection"]
+f1_keywords: 
+ - "davclnt/DavAddConnection"
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows

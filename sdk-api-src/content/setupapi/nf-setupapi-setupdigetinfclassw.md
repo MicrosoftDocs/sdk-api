@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetINFClass, SetupDiGetINFClass function [Device and Driver Installation], SetupDiGetINFClassA, SetupDiGetINFClassW, devinst.setupdigetinfclass, di-rtns_10b0e077-9fb8-4d84-9c74-10b896774d40.xml, setupapi/SetupDiGetINFClass
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiGetINFClass"]
+f1_keywords: 
+ - "setupapi/SetupDiGetINFClass"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

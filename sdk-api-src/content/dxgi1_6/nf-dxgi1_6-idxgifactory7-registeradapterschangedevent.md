@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIFactory7 interface [DXGI],RegisterAdaptersChangedEvent method, IDXGIFactory7.RegisterAdaptersChangedEvent, IDXGIFactory7::RegisterAdaptersChangedEvent, RegisterAdaptersChangedEvent, RegisterAdaptersChangedEvent method [DXGI], RegisterAdaptersChangedEvent method [DXGI],IDXGIFactory7 interface, direct3ddxgi.idxgifactory7_registeradapterschangedevent, dxgi1_6/IDXGIFactory7::RegisterAdaptersChangedEvent
 ms.topic: method
-f1_keywords: ["dxgi1_6/IDXGIFactory7.RegisterAdaptersChangedEvent"]
+f1_keywords: 
+ - "dxgi1_6/IDXGIFactory7.RegisterAdaptersChangedEvent"
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_VPCAPS, DXVAHD_VPCAPS structure [Media Foundation], dxvahd/DXVAHD_VPCAPS, mf.dxvahd_vpcaps
 ms.topic: struct
-f1_keywords: ["dxvahd/DXVAHD_VPCAPS"]
+f1_keywords: 
+ - "dxvahd/DXVAHD_VPCAPS"
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

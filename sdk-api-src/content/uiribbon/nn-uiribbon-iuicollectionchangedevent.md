@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUICollectionChangedEvent, IUICollectionChangedEvent interface [Windows Ribbon], IUICollectionChangedEvent interface [Windows Ribbon],described, scenicintent_IUICollectionChangedEvent, uiribbon/IUICollectionChangedEvent, windowsribbon.windowsribbon_iuicollectionchangedevent
 ms.topic: interface
-f1_keywords: ["uiribbon/IUICollectionChangedEvent"]
+f1_keywords: 
+ - "uiribbon/IUICollectionChangedEvent"
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

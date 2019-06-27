@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInterfaceCurrentTimestampCapabilities, GetInterfaceCurrentTimestampCapabilities function [IP Helper], iphlp.getinterfacecurrenttimestampcapabilities, iphlpapi/GetInterfaceCurrentTimestampCapabilities
 ms.topic: function
-f1_keywords: ["iphlpapi/GetInterfaceCurrentTimestampCapabilities"]
+f1_keywords: 
+ - "iphlpapi/GetInterfaceCurrentTimestampCapabilities"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

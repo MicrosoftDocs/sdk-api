@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 46d0ab14-fdda-10ce-1e1a-4e551e1deeb3, ID3D11DeviceContext interface [Direct3D 11],OMGetDepthStencilState method, ID3D11DeviceContext.OMGetDepthStencilState, ID3D11DeviceContext::OMGetDepthStencilState, OMGetDepthStencilState, OMGetDepthStencilState method [Direct3D 11], OMGetDepthStencilState method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::OMGetDepthStencilState, direct3d11.id3d11devicecontext_omgetdepthstencilstate
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11DeviceContext.OMGetDepthStencilState"]
+f1_keywords: 
+ - "d3d11/ID3D11DeviceContext.OMGetDepthStencilState"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

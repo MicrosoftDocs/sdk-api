@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: End, End method [Windows Multimedia], End method [Windows Multimedia],IAVIStreaming interface, IAVIStreaming interface [Windows Multimedia],End method, IAVIStreaming.End, IAVIStreaming::End, _win32_IAVIStreaming_End, multimedia.iavistreaming_end, vfw/IAVIStreaming::End
 ms.topic: method
-f1_keywords: ["vfw/IAVIStreaming.End"]
+f1_keywords: 
+ - "vfw/IAVIStreaming.End"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

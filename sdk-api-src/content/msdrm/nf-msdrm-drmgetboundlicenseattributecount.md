@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMGetBoundLicenseAttributeCount, DRMGetBoundLicenseAttributeCount function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetBoundLicenseAttributeCount, rm.drmgetboundlicenseattributecount
 ms.topic: function
-f1_keywords: ["msdrm/DRMGetBoundLicenseAttributeCount"]
+f1_keywords: 
+ - "msdrm/DRMGetBoundLicenseAttributeCount"
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

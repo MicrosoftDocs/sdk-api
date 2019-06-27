@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent],IUpdateExceptionCollection interface, IUpdateExceptionCollection interface [Windows Update Agent],Count property, IUpdateExceptionCollection.Count, IUpdateExceptionCollection.get_Count, IUpdateExceptionCollection::Count, IUpdateExceptionCollection::get_Count, get_Count, wua.iupdateexceptioncollection_count, wuapi/IUpdateExceptionCollection::Count, wuapi/IUpdateExceptionCollection::get_Count
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateExceptionCollection.Count"]
+f1_keywords: 
+ - "wuapi/IUpdateExceptionCollection.Count"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

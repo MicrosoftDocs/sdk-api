@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1Bitmap, ID2D1Bitmap interface [Direct2D], ID2D1Bitmap interface [Direct2D],described, d2d1/ID2D1Bitmap, direct2d.ID2D1Bitmap
 ms.topic: interface
-f1_keywords: ["d2d1/ID2D1Bitmap"]
+f1_keywords: 
+ - "d2d1/ID2D1Bitmap"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

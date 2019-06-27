@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CSPName property [Security], CSPName property [Security],IOCSPCAConfiguration interface, IOCSPCAConfiguration interface [Security],CSPName property, IOCSPCAConfiguration.CSPName, IOCSPCAConfiguration.get_CSPName, IOCSPCAConfiguration::CSPName, IOCSPCAConfiguration::get_CSPName, certadm/IOCSPCAConfiguration::CSPName, certadm/IOCSPCAConfiguration::get_CSPName, get_CSPName, security.iocspcaconfiguration_cspname_method
 ms.topic: method
-f1_keywords: ["certadm/IOCSPCAConfiguration.CSPName"]
+f1_keywords: 
+ - "certadm/IOCSPCAConfiguration.CSPName"
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

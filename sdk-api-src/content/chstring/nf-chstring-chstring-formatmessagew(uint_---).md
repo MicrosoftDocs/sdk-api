@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: CHString::FormatMessageW
 ms.topic: language-reference
-f1_keywords: ["chstring/CHString::FormatMessageW"]
+f1_keywords: 
+ - "chstring/CHString::FormatMessageW"
 targetos: Windows
 product: Windows
 req.assembly: 

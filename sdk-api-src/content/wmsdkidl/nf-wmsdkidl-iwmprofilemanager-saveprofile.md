@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMProfileManager interface [windows Media Format],SaveProfile method, IWMProfileManager.SaveProfile, IWMProfileManager::SaveProfile, IWMProfileManagerSaveProfile, SaveProfile, SaveProfile method [windows Media Format], SaveProfile method [windows Media Format],IWMProfileManager interface, wmformat.iwmprofilemanager_saveprofile, wmsdkidl/IWMProfileManager::SaveProfile
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMProfileManager.SaveProfile"]
+f1_keywords: 
+ - "wmsdkidl/IWMProfileManager.SaveProfile"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

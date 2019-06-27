@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetResourceId, GetResourceId method [Remote Desktop Services], GetResourceId method [Remote Desktop Services],IWorkspaceClientExt interface, IWorkspaceClientExt interface [Remote Desktop Services],GetResourceId method, IWorkspaceClientExt.GetResourceId, IWorkspaceClientExt::GetResourceId, termserv.iworkspaceclientext_getresourceid, workspaceruntimeclientext/IWorkspaceClientExt::GetResourceId
 ms.topic: method
-f1_keywords: ["workspaceruntimeclientext/IWorkspaceClientExt.GetResourceId"]
+f1_keywords: 
+ - "workspaceruntimeclientext/IWorkspaceClientExt.GetResourceId"
 req.header: workspaceruntimeclientext.h
 req.include-header: 
 req.target-type: Windows

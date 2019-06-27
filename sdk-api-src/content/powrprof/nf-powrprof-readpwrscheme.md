@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReadPwrScheme, ReadPwrScheme function, _win32_readpwrscheme, base.readpwrscheme, powrprof/ReadPwrScheme
 ms.topic: function
-f1_keywords: ["powrprof/ReadPwrScheme"]
+f1_keywords: 
+ - "powrprof/ReadPwrScheme"
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

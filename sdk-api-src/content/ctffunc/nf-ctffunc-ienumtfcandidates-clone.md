@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfCandidates interface, IEnumTfCandidates interface [Text Services Framework],Clone method, IEnumTfCandidates.Clone, IEnumTfCandidates::Clone, _tsf_ienumtfcandidates_clone_ref, ctffunc/IEnumTfCandidates::Clone, tsf.ienumtfcandidates_clone
 ms.topic: method
-f1_keywords: ["ctffunc/IEnumTfCandidates.Clone"]
+f1_keywords: 
+ - "ctffunc/IEnumTfCandidates.Clone"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

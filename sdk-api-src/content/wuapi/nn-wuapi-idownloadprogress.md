@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDownloadProgress, IDownloadProgress interface [Windows Update Agent], IDownloadProgress interface [Windows Update Agent],described, wua.idownloadprogress, wuapi/IDownloadProgress
 ms.topic: interface
-f1_keywords: ["wuapi/IDownloadProgress"]
+f1_keywords: 
+ - "wuapi/IDownloadProgress"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWorkspaceClientExt, IWorkspaceClientExt interface [Remote Desktop Services], IWorkspaceClientExt interface [Remote Desktop Services],described, termserv.iworkspaceclientext, workspaceruntimeclientext/IWorkspaceClientExt
 ms.topic: interface
-f1_keywords: ["workspaceruntimeclientext/IWorkspaceClientExt"]
+f1_keywords: 
+ - "workspaceruntimeclientext/IWorkspaceClientExt"
 req.header: workspaceruntimeclientext.h
 req.include-header: 
 req.target-type: Windows

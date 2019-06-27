@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTypeLabel, GetTypeLabel method [Windows Shell], GetTypeLabel method [Windows Shell],ISyncMgrHandlerInfo interface, ISyncMgrHandlerInfo interface [Windows Shell],GetTypeLabel method, ISyncMgrHandlerInfo.GetTypeLabel, ISyncMgrHandlerInfo::GetTypeLabel, _shell_ISyncMgrHandlerInfo_GetTypeLabel, shell.ISyncMgrHandlerInfo_GetTypeLabel, syncmgr/ISyncMgrHandlerInfo::GetTypeLabel
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrHandlerInfo.GetTypeLabel"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrHandlerInfo.GetTypeLabel"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

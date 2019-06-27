@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NOTIFICATION_USER_INPUT_DATA, NOTIFICATION_USER_INPUT_DATA structure, PNOTIFICATION_USER_INPUT_DATA, PNOTIFICATION_USER_INPUT_DATA structure pointer, notificationactivationcallback/NOTIFICATION_USER_INPUT_DATA, notificationactivationcallback/PNOTIFICATION_USER_INPUT_DATA, win32_tile_badge_notif.notification_user_input_data
 ms.topic: struct
-f1_keywords: ["notificationactivationcallback/NOTIFICATION_USER_INPUT_DATA"]
+f1_keywords: 
+ - "notificationactivationcallback/NOTIFICATION_USER_INPUT_DATA"
 req.header: notificationactivationcallback.h
 req.include-header: 
 req.target-type: Windows

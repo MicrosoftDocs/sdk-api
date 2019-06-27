@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMethodQualifierSet, GetMethodQualifierSet method [Windows Management Instrumentation], GetMethodQualifierSet method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetMethodQualifierSet method, IWbemClassObject.GetMethodQualifierSet, IWbemClassObject::GetMethodQualifierSet, _hmm_iwbemclassobject_getmethodqualifierset, wbemcli/IWbemClassObject::GetMethodQualifierSet, wmi.iwbemclassobject_getmethodqualifierset
 ms.topic: method
-f1_keywords: ["wbemcli/IWbemClassObject.GetMethodQualifierSet"]
+f1_keywords: 
+ - "wbemcli/IWbemClassObject.GetMethodQualifierSet"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

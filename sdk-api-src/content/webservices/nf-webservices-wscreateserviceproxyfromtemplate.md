@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsCreateServiceProxyFromTemplate, WsCreateServiceProxyFromTemplate function [Web Services for Windows], webservices/WsCreateServiceProxyFromTemplate, wsw.wscreateserviceproxyfromtemplate
 ms.topic: function
-f1_keywords: ["webservices/WsCreateServiceProxyFromTemplate"]
+f1_keywords: 
+ - "webservices/WsCreateServiceProxyFromTemplate"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

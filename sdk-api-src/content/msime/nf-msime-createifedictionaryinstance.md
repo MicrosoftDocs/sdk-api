@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateIFEDictionaryInstance, CreateIFEDictionaryInstance function [Internationalization for Windows Applications], intl.createifedictionaryinstance, msime/CreateIFEDictionaryInstance
 ms.topic: function
-f1_keywords: ["msime/CreateIFEDictionaryInstance"]
+f1_keywords: 
+ - "msime/CreateIFEDictionaryInstance"
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

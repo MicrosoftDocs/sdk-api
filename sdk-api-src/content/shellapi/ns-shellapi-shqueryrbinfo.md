@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSHQUERYRBINFO, LPSHQUERYRBINFO, LPSHQUERYRBINFO structure pointer [Windows Shell], SHQUERYRBINFO, SHQUERYRBINFO structure [Windows Shell], _win32_SHQUERYRBINFO, shell.SHQUERYRBINFO, shellapi/LPSHQUERYRBINFO, shellapi/SHQUERYRBINFO"
 ms.topic: struct
-f1_keywords: ["shellapi/SHQUERYRBINFO"]
+f1_keywords: 
+ - "shellapi/SHQUERYRBINFO"
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

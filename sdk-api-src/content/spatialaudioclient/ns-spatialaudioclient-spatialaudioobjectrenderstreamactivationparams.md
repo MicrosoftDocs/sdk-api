@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSpatialAudioObjectRenderStreamActivationParams, PSpatialAudioObjectRenderStreamActivationParams structure pointer [Core Audio], SpatialAudioObjectRenderStreamActivationParams, SpatialAudioObjectRenderStreamActivationParams , SpatialAudioObjectRenderStreamActivationParams structure [Core Audio], coreaudio.spatialaudioobjectrenderstreamactivationparams_, spatialaudioclient/PSpatialAudioObjectRenderStreamActivationParams, spatialaudioclient/SpatialAudioObjectRenderStreamActivationParams
 ms.topic: struct
-f1_keywords: ["spatialaudioclient/SpatialAudioObjectRenderStreamActivationParams"]
+f1_keywords: 
+ - "spatialaudioclient/SpatialAudioObjectRenderStreamActivationParams"
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

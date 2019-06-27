@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIPX_ADDRESS_DATA, IPX_ADDRESS_DATA, IPX_ADDRESS_DATA structure [Winsock], PIPX_ADDRESS_DATA, PIPX_ADDRESS_DATA structure pointer [Winsock], _win32_ipx_address_data_2, winsock.ipx_address_data_2, wsnwlink/IPX_ADDRESS_DATA, wsnwlink/PIPX_ADDRESS_DATA"
 ms.topic: struct
-f1_keywords: ["wsnwlink/IPX_ADDRESS_DATA"]
+f1_keywords: 
+ - "wsnwlink/IPX_ADDRESS_DATA"
 req.header: wsnwlink.h
 req.include-header: 
 req.target-type: Windows

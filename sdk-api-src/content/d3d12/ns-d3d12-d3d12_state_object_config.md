@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_STATE_OBJECT_CONFIG, D3D12_STATE_OBJECT_CONFIG structure, PD3D12_STATE_OBJECT_CONFIG, PD3D12_STATE_OBJECT_CONFIG structure pointer, d3d12/D3D12_STATE_OBJECT_CONFIG, d3d12/PD3D12_STATE_OBJECT_CONFIG, direct3d12.d3d12_state_object_config
 ms.topic: struct
-f1_keywords: ["d3d12/D3D12_STATE_OBJECT_CONFIG"]
+f1_keywords: 
+ - "d3d12/D3D12_STATE_OBJECT_CONFIG"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

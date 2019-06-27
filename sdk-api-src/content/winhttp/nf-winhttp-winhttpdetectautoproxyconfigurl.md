@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_AUTO_DETECT_TYPE_DHCP, WINHTTP_AUTO_DETECT_TYPE_DNS_A, WinHttpDetectAutoProxyConfigUrl, WinHttpDetectAutoProxyConfigUrl function [WinHTTP], http.winhttpdetectautoproxyconfigurl, winhttp/WinHttpDetectAutoProxyConfigUrl
 ms.topic: function
-f1_keywords: ["winhttp/WinHttpDetectAutoProxyConfigUrl"]
+f1_keywords: 
+ - "winhttp/WinHttpDetectAutoProxyConfigUrl"
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

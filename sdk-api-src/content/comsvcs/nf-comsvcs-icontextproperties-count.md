@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count, Count method [COM+], Count method [COM+],IContextProperties interface, IContextProperties interface [COM+],Count method, IContextProperties.Count, IContextProperties::Count, _cos_IContextProperties_Count, comsvcs/IContextProperties::Count, cos.icontextproperties_count
 ms.topic: method
-f1_keywords: ["comsvcs/IContextProperties.Count"]
+f1_keywords: 
+ - "comsvcs/IContextProperties.Count"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

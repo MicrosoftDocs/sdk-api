@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeClusterHealthFaultArray, FreeClusterHealthFaultArray function [Failover Cluster], mscs.freeclusterhealthfaultarray, resapi/FreeClusterHealthFaultArray
 ms.topic: function
-f1_keywords: ["resapi/FreeClusterHealthFaultArray"]
+f1_keywords: 
+ - "resapi/FreeClusterHealthFaultArray"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

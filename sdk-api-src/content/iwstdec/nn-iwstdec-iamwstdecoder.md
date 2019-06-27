@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMWstDecoder, IAMWstDecoder interface [DirectShow], IAMWstDecoder interface [DirectShow],described, IAMWstDecoderInterface, dshow.iamwstdecoder, iwstdec/IAMWstDecoder
 ms.topic: interface
-f1_keywords: ["iwstdec/IAMWstDecoder"]
+f1_keywords: 
+ - "iwstdec/IAMWstDecoder"
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows

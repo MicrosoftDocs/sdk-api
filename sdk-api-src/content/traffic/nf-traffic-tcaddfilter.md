@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TcAddFilter, TcAddFilter function [QOS], _gqos_tcaddfilter, qos.tcaddfilter, traffic/TcAddFilter
 ms.topic: function
-f1_keywords: ["traffic/TcAddFilter"]
+f1_keywords: 
+ - "traffic/TcAddFilter"
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsQuerySitesByCost, DsQuerySitesByCost function [Active Directory], DsQuerySitesByCostA, DsQuerySitesByCostW, ad.dsquerysitesbycost, ntdsapi/DsQuerySitesByCost, ntdsapi/DsQuerySitesByCostA, ntdsapi/DsQuerySitesByCostW
 ms.topic: function
-f1_keywords: ["ntdsapi/DsQuerySitesByCost"]
+f1_keywords: 
+ - "ntdsapi/DsQuerySitesByCost"
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

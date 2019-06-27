@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEstimatedTime, GetEstimatedTime method [Microsoft TV Technologies], GetEstimatedTime method [Microsoft TV Technologies],IESRequestTunerEvent interface, IESRequestTunerEvent interface [Microsoft TV Technologies],GetEstimatedTime method, IESRequestTunerEvent.GetEstimatedTime, IESRequestTunerEvent::GetEstimatedTime, mstv.iesrequesttunerevent_getestimatedtime, tuner/IESRequestTunerEvent::GetEstimatedTime
 ms.topic: method
-f1_keywords: ["tuner/IESRequestTunerEvent.GetEstimatedTime"]
+f1_keywords: 
+ - "tuner/IESRequestTunerEvent.GetEstimatedTime"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

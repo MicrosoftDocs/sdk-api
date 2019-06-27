@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNameByType, GetNameByType function [Winsock], GetNameByTypeA, GetNameByTypeW, _win32_getnamebytype_2, nspapi/GetNameByType, nspapi/GetNameByTypeA, nspapi/GetNameByTypeW, winsock.getnamebytype_2
 ms.topic: function
-f1_keywords: ["nspapi/GetNameByType"]
+f1_keywords: 
+ - "nspapi/GetNameByType"
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ShowGameInviteUI, ShowGameInviteUI function, gamingtcui/ShowGameInviteUI, tcui.showgameinviteui
 ms.topic: function
-f1_keywords: ["gamingtcui/ShowGameInviteUI"]
+f1_keywords: 
+ - "gamingtcui/ShowGameInviteUI"
 req.header: gamingtcui.h
 req.include-header: 
 req.target-type: Windows

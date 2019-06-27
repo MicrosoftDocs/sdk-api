@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],put_CountryCode method, IMSVidAnalogTuner.put_CountryCode, IMSVidAnalogTuner::put_CountryCode, IMSVidAnalogTunerput_CountryCode, mstv.imsvidanalogtuner_put_countrycode, put_CountryCode, put_CountryCode method [Microsoft TV Technologies], put_CountryCode method [Microsoft TV Technologies],IMSVidAnalogTuner interface, segment/IMSVidAnalogTuner::put_CountryCode
 ms.topic: method
-f1_keywords: ["segment/IMSVidAnalogTuner.put_CountryCode"]
+f1_keywords: 
+ - "segment/IMSVidAnalogTuner.put_CountryCode"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

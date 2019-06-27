@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Enroll, Enroll method [Security], Enroll method [Security],IX509EnrollmentHelper interface, EnrollPrompt, IX509EnrollmentHelper interface [Security],Enroll method, IX509EnrollmentHelper.Enroll, IX509EnrollmentHelper::Enroll, certenroll/IX509EnrollmentHelper::Enroll, security.ix509enrollmenthelper_enroll
 ms.topic: method
-f1_keywords: ["certenroll/IX509EnrollmentHelper.Enroll"]
+f1_keywords: 
+ - "certenroll/IX509EnrollmentHelper.Enroll"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

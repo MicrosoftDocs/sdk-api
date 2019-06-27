@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGestureRecognizer, IGestureRecognizer interface [Tablet PC], IGestureRecognizer interface [Tablet PC],described, dfdc00d6-c843-4298-9773-92775406fbf7, rtscom/IGestureRecognizer, tablet.igesturerecognizer
 ms.topic: interface
-f1_keywords: ["rtscom/IGestureRecognizer"]
+f1_keywords: 
+ - "rtscom/IGestureRecognizer"
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

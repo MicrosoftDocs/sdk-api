@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ColorMatrix, ColorMatrix structure [GDI+], _gdiplus_STRUC_ColorMatrix, gdiplus._gdiplus_STRUC_ColorMatrix, gdipluscolormatrix/ColorMatrix
 ms.topic: struct
-f1_keywords: ["gdipluscolormatrix/ColorMatrix"]
+f1_keywords: 
+ - "gdipluscolormatrix/ColorMatrix"
 req.header: gdipluscolormatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

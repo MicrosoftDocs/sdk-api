@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmSubLayerAdd0, FwpmSubLayerAdd0 function [Filtering], fwp.fwpmsublayeradd0_func, fwpmu/FwpmSubLayerAdd0
 ms.topic: function
-f1_keywords: ["fwpmu/FwpmSubLayerAdd0"]
+f1_keywords: 
+ - "fwpmu/FwpmSubLayerAdd0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

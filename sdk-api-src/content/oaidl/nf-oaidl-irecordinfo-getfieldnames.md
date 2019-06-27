@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFieldNames, GetFieldNames method [Automation], GetFieldNames method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetFieldNames method, IRecordInfo.GetFieldNames, IRecordInfo::GetFieldNames, _oa96_IRecordInfo_GetFieldNames, automat.irecordinfo_getfieldnames, oaidl/IRecordInfo::GetFieldNames
 ms.topic: method
-f1_keywords: ["oaidl/IRecordInfo.GetFieldNames"]
+f1_keywords: 
+ - "oaidl/IRecordInfo.GetFieldNames"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

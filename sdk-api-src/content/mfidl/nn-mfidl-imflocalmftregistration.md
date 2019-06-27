@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFLocalMFTRegistration, IMFLocalMFTRegistration interface [Media Foundation], IMFLocalMFTRegistration interface [Media Foundation],described, mf.imflocalmftregistration, mfidl/IMFLocalMFTRegistration
 ms.topic: interface
-f1_keywords: ["mfidl/IMFLocalMFTRegistration"]
+f1_keywords: 
+ - "mfidl/IMFLocalMFTRegistration"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

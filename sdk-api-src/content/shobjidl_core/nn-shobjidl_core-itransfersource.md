@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITransferSource, ITransferSource interface [Windows Shell], ITransferSource interface [Windows Shell],described, _shell_ITransferSource, shell.ITransferSource, shobjidl_core/ITransferSource
 ms.topic: interface
-f1_keywords: ["shobjidl_core/ITransferSource"]
+f1_keywords: 
+ - "shobjidl_core/ITransferSource"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

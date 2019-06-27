@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RefreshPolicy, RefreshPolicy function [Group Policy], _win32_refreshpolicy, policy.refreshpolicy, userenv/RefreshPolicy
 ms.topic: function
-f1_keywords: ["userenv/RefreshPolicy"]
+f1_keywords: 
+ - "userenv/RefreshPolicy"
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

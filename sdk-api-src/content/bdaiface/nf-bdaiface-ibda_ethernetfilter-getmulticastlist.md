@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMulticastList, GetMulticastList method [Microsoft TV Technologies], GetMulticastList method [Microsoft TV Technologies],IBDA_EthernetFilter interface, IBDA_EthernetFilter interface [Microsoft TV Technologies],GetMulticastList method, IBDA_EthernetFilter.GetMulticastList, IBDA_EthernetFilter::GetMulticastList, IBDA_EthernetFilterGetMulticastList, bdaiface/IBDA_EthernetFilter::GetMulticastList, mstv.ibda_ethernetfilter_getmulticastlist
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_EthernetFilter.GetMulticastList"]
+f1_keywords: 
+ - "bdaiface/IBDA_EthernetFilter.GetMulticastList"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

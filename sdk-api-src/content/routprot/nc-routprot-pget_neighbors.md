@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNeighbors, GetNeighbors callback function [RAS], PGET_NEIGHBORS, PGET_NEIGHBORS callback, _mpr_getneighbors, routprot/GetNeighbors, rras.getneighbors
 ms.topic: callback
-f1_keywords: ["routprot/GetNeighbors"]
+f1_keywords: 
+ - "routprot/GetNeighbors"
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

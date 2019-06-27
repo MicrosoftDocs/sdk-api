@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IEnumTuneRequests interface, IEnumTuneRequests interface [Microsoft TV Technologies],Clone method, IEnumTuneRequests.Clone, IEnumTuneRequests::Clone, IEnumTuneRequestsClone, bdatif/IEnumTuneRequests::Clone, mstv.ienumtunerequests_clone
 ms.topic: method
-f1_keywords: ["bdatif/IEnumTuneRequests.Clone"]
+f1_keywords: 
+ - "bdatif/IEnumTuneRequests.Clone"
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITQueue interface [TAPI 2.2],get_LongestEverWaitTime method, ITQueue.get_LongestEverWaitTime, ITQueue::get_LongestEverWaitTime, _tapi3_itqueue_get_longesteverwaittime, get_LongestEverWaitTime, get_LongestEverWaitTime method [TAPI 2.2], get_LongestEverWaitTime method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_longesteverwaittime, tapi3cc/ITQueue::get_LongestEverWaitTime
 ms.topic: method
-f1_keywords: ["tapi3cc/ITQueue.get_LongestEverWaitTime"]
+f1_keywords: 
+ - "tapi3cc/ITQueue.get_LongestEverWaitTime"
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

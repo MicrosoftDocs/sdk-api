@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSTORAGE_DEVICE_POWER_CAP_UNITS, STORAGE_DEVICE_POWER_CAP_UNITS, STORAGE_DEVICE_POWER_CAP_UNITS enumeration [Files], StorageDevicePowerCapUnitsMilliwatts, StorageDevicePowerCapUnitsPercent, fs.storage_device_power_cap_units, winioctl/STORAGE_DEVICE_POWER_CAP_UNITS, winioctl/StorageDevicePowerCapUnitsMilliwatts, winioctl/StorageDevicePowerCapUnitsPercent"
 ms.topic: enum
-f1_keywords: ["winioctl/STORAGE_DEVICE_POWER_CAP_UNITS"]
+f1_keywords: 
+ - "winioctl/STORAGE_DEVICE_POWER_CAP_UNITS"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

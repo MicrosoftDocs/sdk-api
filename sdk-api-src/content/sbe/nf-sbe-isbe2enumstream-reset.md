@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISBE2EnumStream interface [Microsoft TV Technologies],Reset method, ISBE2EnumStream.Reset, ISBE2EnumStream::Reset, Reset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies],ISBE2EnumStream interface, mstv.isbe2enumstream_reset, sbe/ISBE2EnumStream::Reset
 ms.topic: method
-f1_keywords: ["sbe/ISBE2EnumStream.Reset"]
+f1_keywords: 
+ - "sbe/ISBE2EnumStream.Reset"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

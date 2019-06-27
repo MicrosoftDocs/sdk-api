@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 149e2514-74e5-403b-925f-53a17dbbcb64, IMFASFContentInfo interface [Media Foundation],ParseHeader method, IMFASFContentInfo.ParseHeader, IMFASFContentInfo::ParseHeader, ParseHeader, ParseHeader method [Media Foundation], ParseHeader method [Media Foundation],IMFASFContentInfo interface, mf.imfasfcontentinfo_parseheader, wmcontainer/IMFASFContentInfo::ParseHeader
 ms.topic: method
-f1_keywords: ["wmcontainer/IMFASFContentInfo.ParseHeader"]
+f1_keywords: 
+ - "wmcontainer/IMFASFContentInfo.ParseHeader"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

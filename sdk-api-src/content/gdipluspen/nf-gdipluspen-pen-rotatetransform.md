@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Pen class [GDI+],RotateTransform method, Pen.RotateTransform, Pen::RotateTransform, RotateTransform, RotateTransform method [GDI+], RotateTransform method [GDI+],Pen class, _gdiplus_CLASS_Pen_RotateTransform_angle_order_, gdiplus._gdiplus_CLASS_Pen_RotateTransform_angle_order_
 ms.topic: method
-f1_keywords: ["gdipluspen/Pen.RotateTransform"]
+f1_keywords: 
+ - "gdipluspen/Pen.RotateTransform"
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

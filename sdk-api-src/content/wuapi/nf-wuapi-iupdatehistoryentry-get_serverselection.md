@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],ServerSelection property, IUpdateHistoryEntry.ServerSelection, IUpdateHistoryEntry.get_ServerSelection, IUpdateHistoryEntry::ServerSelection, IUpdateHistoryEntry::get_ServerSelection, ServerSelection property [Windows Update Agent], ServerSelection property [Windows Update Agent],IUpdateHistoryEntry interface, get_ServerSelection, ssDefault, ssManagedServer, ssOthers, ssWindowsUpdate, wua.iupdatehistoryentry_serverselection, wuapi/IUpdateHistoryEntry::ServerSelection, wuapi/IUpdateHistoryEntry::get_ServerSelection
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateHistoryEntry.ServerSelection"]
+f1_keywords: 
+ - "wuapi/IUpdateHistoryEntry.ServerSelection"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

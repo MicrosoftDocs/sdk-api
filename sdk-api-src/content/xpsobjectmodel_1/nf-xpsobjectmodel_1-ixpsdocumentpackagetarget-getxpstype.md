@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetXpsType, GetXpsType method [XPS Documents and Packaging], GetXpsType method [XPS Documents and Packaging],IXpsDocumentPackageTarget interface, IXpsDocumentPackageTarget interface [XPS Documents and Packaging],GetXpsType method, IXpsDocumentPackageTarget.GetXpsType, IXpsDocumentPackageTarget::GetXpsType, xps.ixpsdocumentpackagetarget_getxpstype, xpsobjectmodel_1/IXpsDocumentPackageTarget::GetXpsType
 ms.topic: method
-f1_keywords: ["xpsobjectmodel_1/IXpsDocumentPackageTarget.GetXpsType"]
+f1_keywords: 
+ - "xpsobjectmodel_1/IXpsDocumentPackageTarget.GetXpsType"
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows

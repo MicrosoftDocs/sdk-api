@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SWbemRpnQueryToken, SWbemRpnQueryToken structure [Windows Management Instrumentation], VT_BOOL, VT_I4, VT_I8, VT_LPWSTR, VT_R8, VT_UI4, VT_UI8, WMIQ_RPN_CONST, WMIQ_RPN_CONST2, WMIQ_RPN_LEFT_FUNCTION, WMIQ_RPN_LEFT_PROPERTY_NAME, WMIQ_RPN_OP_EQ, WMIQ_RPN_OP_GE, WMIQ_RPN_OP_GT, WMIQ_RPN_OP_ISA, WMIQ_RPN_OP_ISNOTA, WMIQ_RPN_OP_ISNOTNULL, WMIQ_RPN_OP_ISNULL, WMIQ_RPN_OP_LE, WMIQ_RPN_OP_LIKE, WMIQ_RPN_OP_LT, WMIQ_RPN_OP_NE, WMIQ_RPN_OP_UNDEFINED, WMIQ_RPN_RELOP, WMIQ_RPN_RIGHT_FUNCTION, WMIQ_RPN_RIGHT_PROPERTY_NAME, WMIQ_RPN_TOKEN_AND, WMIQ_RPN_TOKEN_EXPRESSION, WMIQ_RPN_TOKEN_NOT, WMIQ_RPN_TOKEN_OR, wmi.swbemrpnquerytoken, wmiutils/SWbemRpnQueryToken
 ms.topic: struct
-f1_keywords: ["wmiutils/SWbemRpnQueryToken"]
+f1_keywords: 
+ - "wmiutils/SWbemRpnQueryToken"
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

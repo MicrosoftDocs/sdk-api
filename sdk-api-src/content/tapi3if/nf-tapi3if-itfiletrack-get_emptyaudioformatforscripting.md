@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITFileTrack interface [TAPI 2.2],get_EmptyAudioFormatForScripting method, ITFileTrack.get_EmptyAudioFormatForScripting, ITFileTrack::get_EmptyAudioFormatForScripting, _tapi3_itfiletrack_get_emptyaudioformatforscripting, get_EmptyAudioFormatForScripting, get_EmptyAudioFormatForScripting method [TAPI 2.2], get_EmptyAudioFormatForScripting method [TAPI 2.2],ITFileTrack interface, tapi3.itfiletrack_get_emptyaudioformatforscripting, tapi3if/ITFileTrack::get_EmptyAudioFormatForScripting
 ms.topic: method
-f1_keywords: ["tapi3if/ITFileTrack.get_EmptyAudioFormatForScripting"]
+f1_keywords: 
+ - "tapi3if/ITFileTrack.get_EmptyAudioFormatForScripting"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

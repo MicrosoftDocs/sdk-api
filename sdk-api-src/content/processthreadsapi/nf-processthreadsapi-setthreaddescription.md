@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetThreadDescription, SetThreadDescription function, base.setthreaddescription, processthreadsapi/SetThreadDescription
 ms.topic: function
-f1_keywords: ["processthreadsapi/SetThreadDescription"]
+f1_keywords: 
+ - "processthreadsapi/SetThreadDescription"
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows

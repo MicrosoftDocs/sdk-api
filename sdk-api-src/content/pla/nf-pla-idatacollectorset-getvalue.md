@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [PLA], GetValue method [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],GetValue method, IDataCollectorSet.GetValue, IDataCollectorSet::GetValue, base.idatacollectorset_getvalue, pla.idatacollectorset_getvalue, pla/IDataCollectorSet::GetValue
 ms.topic: method
-f1_keywords: ["pla/IDataCollectorSet.GetValue"]
+f1_keywords: 
+ - "pla/IDataCollectorSet.GetValue"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

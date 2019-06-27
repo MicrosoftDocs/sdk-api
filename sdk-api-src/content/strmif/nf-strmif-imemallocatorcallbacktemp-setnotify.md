@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMemAllocatorCallbackTemp interface [DirectShow],SetNotify method, IMemAllocatorCallbackTemp.SetNotify, IMemAllocatorCallbackTemp::SetNotify, IMemAllocatorCallbackTempSetNotify, SetNotify, SetNotify method [DirectShow], SetNotify method [DirectShow],IMemAllocatorCallbackTemp interface, dshow.imemallocatorcallbacktemp_setnotify, strmif/IMemAllocatorCallbackTemp::SetNotify
 ms.topic: method
-f1_keywords: ["strmif/IMemAllocatorCallbackTemp.SetNotify"]
+f1_keywords: 
+ - "strmif/IMemAllocatorCallbackTemp.SetNotify"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

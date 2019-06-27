@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: KEY_WOW64_32KEY, KEY_WOW64_64KEY, RegDeleteKeyEx, RegDeleteKeyEx function, RegDeleteKeyExA, RegDeleteKeyExW, base.regdeletekeyex, winreg/RegDeleteKeyEx, winreg/RegDeleteKeyExA, winreg/RegDeleteKeyExW
 ms.topic: function
-f1_keywords: ["winreg/RegDeleteKeyEx"]
+f1_keywords: 
+ - "winreg/RegDeleteKeyEx"
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

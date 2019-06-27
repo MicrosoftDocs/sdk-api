@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecommendedRenderingMode, GetRecommendedRenderingMode method [Direct Write], GetRecommendedRenderingMode method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],GetRecommendedRenderingMode method, IDWriteFontFace3.GetRecommendedRenderingMode, IDWriteFontFace3::GetRecommendedRenderingMode, directwrite.idwritefontface3_getrecommendedrenderingmode, dwrite_3/IDWriteFontFace3::GetRecommendedRenderingMode
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteFontFace3.GetRecommendedRenderingMode"]
+f1_keywords: 
+ - "dwrite_3/IDWriteFontFace3.GetRecommendedRenderingMode"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

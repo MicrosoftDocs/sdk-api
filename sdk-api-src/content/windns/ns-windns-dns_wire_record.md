@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDNS_WIRE_RECORD, *PDNS_WIRE_RECORD structure [DNS], DNS_WIRE_RECORD, DNS_WIRE_RECORD structure [DNS], dns.dns_wire_record, windns/*PDNS_WIRE_RECORD, windns/DNS_WIRE_RECORD"
 ms.topic: struct
-f1_keywords: ["windns/DNS_WIRE_RECORD"]
+f1_keywords: 
+ - "windns/DNS_WIRE_RECORD"
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

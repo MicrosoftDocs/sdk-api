@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordMajorChannelNumber, GetRecordMajorChannelNumber method [Microsoft TV Technologies], GetRecordMajorChannelNumber method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordMajorChannelNumber method, IATSC_VCT.GetRecordMajorChannelNumber, IATSC_VCT::GetRecordMajorChannelNumber, IATSC_VCTGetRecordMajorChannelNumber, atscpsipparser/IATSC_VCT::GetRecordMajorChannelNumber, mstv.iatsc_vct_getrecordmajorchannelnumber
 ms.topic: method
-f1_keywords: ["atscpsipparser/IATSC_VCT.GetRecordMajorChannelNumber"]
+f1_keywords: 
+ - "atscpsipparser/IATSC_VCT.GetRecordMajorChannelNumber"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

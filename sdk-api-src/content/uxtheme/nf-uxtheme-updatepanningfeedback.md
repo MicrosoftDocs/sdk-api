@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UpdatePanningFeedback, UpdatePanningFeedback function [Windows Controls], _controls_UpdatePanningFeedback, _controls_UpdatePanningFeedback_cpp, controls.UpdatePanningFeedback, controls._controls_UpdatePanningFeedback, uxtheme/UpdatePanningFeedback
 ms.topic: function
-f1_keywords: ["uxtheme/UpdatePanningFeedback"]
+f1_keywords: 
+ - "uxtheme/UpdatePanningFeedback"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

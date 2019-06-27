@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetAccessibilityLongDescription method, IXpsOMPath.SetAccessibilityLongDescription, IXpsOMPath::SetAccessibilityLongDescription, SetAccessibilityLongDescription, SetAccessibilityLongDescription method [XPS Documents and Packaging], SetAccessibilityLongDescription method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setaccessibilitylongdescription, xpsobjectmodel/IXpsOMPath::SetAccessibilityLongDescription
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMPath.SetAccessibilityLongDescription"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPath.SetAccessibilityLongDescription"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

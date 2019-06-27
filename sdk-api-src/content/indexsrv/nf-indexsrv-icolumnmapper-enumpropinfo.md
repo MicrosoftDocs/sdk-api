@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumPropInfo, EnumPropInfo method [search], EnumPropInfo method [search],IColumnMapper interface, IColumnMapper interface [search],EnumPropInfo method, IColumnMapper.EnumPropInfo, IColumnMapper::EnumPropInfo, indexsrv/IColumnMapper::EnumPropInfo, search.icolumnmapper_enumpropinfo
 ms.topic: method
-f1_keywords: ["indexsrv/IColumnMapper.EnumPropInfo"]
+f1_keywords: 
+ - "indexsrv/IColumnMapper.EnumPropInfo"
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

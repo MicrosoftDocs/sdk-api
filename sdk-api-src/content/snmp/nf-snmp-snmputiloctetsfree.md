@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilOctetsFree, SnmpUtilOctetsFree function [SNMP], _snmp_snmputiloctetsfree, snmp.snmputiloctetsfree, snmp/SnmpUtilOctetsFree
 ms.topic: function
-f1_keywords: ["snmp/SnmpUtilOctetsFree"]
+f1_keywords: 
+ - "snmp/SnmpUtilOctetsFree"
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

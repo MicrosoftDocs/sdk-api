@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportSetupManager interface [Windows Deployment Services],Protocols property, IWdsTransportSetupManager.Protocols, IWdsTransportSetupManager.get_Protocols, IWdsTransportSetupManager::Protocols, IWdsTransportSetupManager::get_Protocols, Protocols property [Windows Deployment Services], Protocols property [Windows Deployment Services],IWdsTransportSetupManager interface, get_Protocols, wds.iwdstransportsetupmanager_protocols, wdstptmgmt/IWdsTransportSetupManager::Protocols, wdstptmgmt/IWdsTransportSetupManager::get_Protocols
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportSetupManager.Protocols"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportSetupManager.Protocols"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

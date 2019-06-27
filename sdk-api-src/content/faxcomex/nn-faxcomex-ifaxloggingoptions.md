@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxLoggingOptions, IFaxLoggingOptions interface [Fax Service], IFaxLoggingOptions interface [Fax Service],described, _mfax_faxloggingoptions_cpp, fax._mfax_faxloggingoptions_cpp, faxcomex/IFaxLoggingOptions
 ms.topic: interface
-f1_keywords: ["faxcomex/IFaxLoggingOptions"]
+f1_keywords: 
+ - "faxcomex/IFaxLoggingOptions"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

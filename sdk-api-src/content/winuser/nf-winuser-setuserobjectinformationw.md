@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetUserObjectInformation, SetUserObjectInformation function [Windows Stations and Desktops], SetUserObjectInformationA, SetUserObjectInformationW, UOI_FLAGS, UOI_TIMERPROC_EXCEPTION_SUPPRESSION, _win32_setuserobjectinformation, base.setuserobjectinformation, winstation.setuserobjectinformation, winuser/SetUserObjectInformation, winuser/SetUserObjectInformationA, winuser/SetUserObjectInformationW
 ms.topic: function
-f1_keywords: ["winuser/SetUserObjectInformation"]
+f1_keywords: 
+ - "winuser/SetUserObjectInformation"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

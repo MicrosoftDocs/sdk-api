@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDispenserManager interface [COM+],RegisterDispenser method, IDispenserManager.RegisterDispenser, IDispenserManager::RegisterDispenser, RegisterDispenser, RegisterDispenser method [COM+], RegisterDispenser method [COM+],IDispenserManager interface, _dtc_IDispenserManager_RegisterDispenser, comsvcs/IDispenserManager::RegisterDispenser, cos.idispensermanager_registerdispenser
 ms.topic: method
-f1_keywords: ["comsvcs/IDispenserManager.RegisterDispenser"]
+f1_keywords: 
+ - "comsvcs/IDispenserManager.RegisterDispenser"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

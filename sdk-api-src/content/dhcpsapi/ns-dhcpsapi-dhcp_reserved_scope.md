@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_RESERVED_SCOPE, DHCP_RESERVED_SCOPE, DHCP_RESERVED_SCOPE structure [DHCP], LPDHCP_RESERVED_SCOPE, LPDHCP_RESERVED_SCOPE structure pointer [DHCP], dhcp.dhcp_reserved_scope, dhcpsapi/LPDHCP_RESERVED_SCOPE, dhcpsapi/_DHCP_RESERVED_SCOPE"
 ms.topic: struct
-f1_keywords: ["dhcpsapi/DHCP_RESERVED_SCOPE"]
+f1_keywords: 
+ - "dhcpsapi/DHCP_RESERVED_SCOPE"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

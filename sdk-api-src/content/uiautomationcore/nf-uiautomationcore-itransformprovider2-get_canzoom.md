@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CanZoom property [Windows Accessibility], CanZoom property [Windows Accessibility],ITransformProvider2 interface, ITransformProvider2 interface [Windows Accessibility],CanZoom property, ITransformProvider2.CanZoom, ITransformProvider2.get_CanZoom, ITransformProvider2::CanZoom, ITransformProvider2::get_CanZoom, get_CanZoom, uiautomationcore/ITransformProvider2::CanZoom, uiautomationcore/ITransformProvider2::get_CanZoom, winauto.uiauto_ITransformProvider2_CanZoom
 ms.topic: method
-f1_keywords: ["uiautomationcore/ITransformProvider2.CanZoom"]
+f1_keywords: 
+ - "uiautomationcore/ITransformProvider2.CanZoom"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

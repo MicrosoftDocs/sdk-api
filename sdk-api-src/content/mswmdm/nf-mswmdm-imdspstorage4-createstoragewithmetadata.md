@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateStorageWithMetadata, CreateStorageWithMetadata method [windows Media Device Manager], CreateStorageWithMetadata method [windows Media Device Manager],IMDSPStorage4 interface, IMDSPStorage4 interface [windows Media Device Manager],CreateStorageWithMetadata method, IMDSPStorage4.CreateStorageWithMetadata, IMDSPStorage4::CreateStorageWithMetadata, IMDSPStorage4CreateStorageWithMetadata, mswmdm/IMDSPStorage4::CreateStorageWithMetadata, wmdm.imdspstorage4_createstoragewithmetadata
 ms.topic: method
-f1_keywords: ["mswmdm/IMDSPStorage4.CreateStorageWithMetadata"]
+f1_keywords: 
+ - "mswmdm/IMDSPStorage4.CreateStorageWithMetadata"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

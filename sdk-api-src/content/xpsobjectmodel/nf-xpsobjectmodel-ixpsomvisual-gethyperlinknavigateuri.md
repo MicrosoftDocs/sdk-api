@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHyperlinkNavigateUri, GetHyperlinkNavigateUri method [XPS Documents and Packaging], GetHyperlinkNavigateUri method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetHyperlinkNavigateUri method, IXpsOMVisual.GetHyperlinkNavigateUri, IXpsOMVisual::GetHyperlinkNavigateUri, xps.ixpsomvisual_gethyperlinknavigateuri, xpsobjectmodel/IXpsOMVisual::GetHyperlinkNavigateUri
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMVisual.GetHyperlinkNavigateUri"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMVisual.GetHyperlinkNavigateUri"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

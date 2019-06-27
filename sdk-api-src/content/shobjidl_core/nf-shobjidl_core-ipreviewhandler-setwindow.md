@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPreviewHandler interface [Windows Shell],SetWindow method, IPreviewHandler.SetWindow, IPreviewHandler::SetWindow, SetWindow, SetWindow method [Windows Shell], SetWindow method [Windows Shell],IPreviewHandler interface, _shell_IPreviewHandler_SetWindow, shell.IPreviewHandler_SetWindow, shobjidl_core/IPreviewHandler::SetWindow
 ms.topic: method
-f1_keywords: ["shobjidl_core/IPreviewHandler.SetWindow"]
+f1_keywords: 
+ - "shobjidl_core/IPreviewHandler.SetWindow"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecorderGUID, GetRecorderGUID method [IMAPI], GetRecorderGUID method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],GetRecorderGUID method, IDiscRecorder.GetRecorderGUID, IDiscRecorder::GetRecorderGUID, _win32_idiscrecorder_getrecorderguid, base.idiscrecorder_getrecorderguid, imapi.idiscrecorder_getrecorderguid, imapi/IDiscRecorder::GetRecorderGUID
 ms.topic: method
-f1_keywords: ["imapi/IDiscRecorder.GetRecorderGUID"]
+f1_keywords: 
+ - "imapi/IDiscRecorder.GetRecorderGUID"
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPMIXERLINECONTROLS, *PMIXERLINECONTROLS, MIXERLINECONTROLS, MIXERLINECONTROLS structure [Windows Multimedia], _win32_MIXERLINECONTROLS_str, mmeapi/MIXERLINECONTROLS, multimedia.mixerlinecontrols, tMIXERLINECONTROLS, tagMIXERLINECONTROLSA, tagMIXERLINECONTROLSW"
 ms.topic: struct
-f1_keywords: ["mmeapi/MIXERLINECONTROLS"]
+f1_keywords: 
+ - "mmeapi/MIXERLINECONTROLS"
 req.header: mmeapi.h
 req.include-header: 
 req.target-type: Windows

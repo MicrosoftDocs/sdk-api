@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawRoundedRectangle, DrawRoundedRectangle methods [Direct2D], ID2D1RenderTarget.DrawRoundedRectangle, ID2D1RenderTarget::DrawRoundedRectangle, d2d1/DrawRoundedRectangle, direct2d.id2d1rendertarget_drawroundedrectangle
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1RenderTarget::DrawRoundedRectangle"]
+f1_keywords: 
+ - "d2d1/ID2D1RenderTarget::DrawRoundedRectangle"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

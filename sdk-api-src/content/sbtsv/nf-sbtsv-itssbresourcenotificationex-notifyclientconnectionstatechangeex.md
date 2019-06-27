@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CONNECTION_REQUEST_CANCELLED, CONNECTION_REQUEST_FAILED, CONNECTION_REQUEST_PENDING, CONNECTION_REQUEST_SUCCEEDED, CONNECTION_REQUEST_TIMEDOUT, ITsSbResourceNotificationEx interface [Remote Desktop Services],NotifyClientConnectionStateChangeEx method, ITsSbResourceNotificationEx.NotifyClientConnectionStateChangeEx, ITsSbResourceNotificationEx::NotifyClientConnectionStateChangeEx, NotifyClientConnectionStateChangeEx, NotifyClientConnectionStateChangeEx method [Remote Desktop Services], NotifyClientConnectionStateChangeEx method [Remote Desktop Services],ITsSbResourceNotificationEx interface, sbtsv/ITsSbResourceNotificationEx::NotifyClientConnectionStateChangeEx, termserv.itssbresourcenotificationex_notifyclientconnectionstatechangeex
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbResourceNotificationEx.NotifyClientConnectionStateChangeEx"]
+f1_keywords: 
+ - "sbtsv/ITsSbResourceNotificationEx.NotifyClientConnectionStateChangeEx"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

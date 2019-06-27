@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeMF interface [VDS],SetFileSystemFlags method, IVdsVolumeMF.SetFileSystemFlags, IVdsVolumeMF::SetFileSystemFlags, SetFileSystemFlags, SetFileSystemFlags method [VDS], SetFileSystemFlags method [VDS],IVdsVolumeMF interface, base.ivdsvolumemf_setfilesystemflags, vds/IVdsVolumeMF::SetFileSystemFlags
 ms.topic: method
-f1_keywords: ["vds/IVdsVolumeMF.SetFileSystemFlags"]
+f1_keywords: 
+ - "vds/IVdsVolumeMF.SetFileSystemFlags"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

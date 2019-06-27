@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEventEnumerator, GetEventEnumerator method [Windows Shell], GetEventEnumerator method [Windows Shell],ISyncMgrEventStore interface, ISyncMgrEventStore interface [Windows Shell],GetEventEnumerator method, ISyncMgrEventStore.GetEventEnumerator, ISyncMgrEventStore::GetEventEnumerator, _shell_ISyncMgrEventStore_GetEventEnumerator, shell.ISyncMgrEventStore_GetEventEnumerator, syncmgr/ISyncMgrEventStore::GetEventEnumerator
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrEventStore.GetEventEnumerator"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrEventStore.GetEventEnumerator"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

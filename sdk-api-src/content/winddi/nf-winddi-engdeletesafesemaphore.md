@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngDeleteSafeSemaphore, EngDeleteSafeSemaphore function [Display Devices], display.engdeletesafesemaphore, gdifncs_ffbf0904-619e-48be-ada1-4269c8a92f55.xml, winddi/EngDeleteSafeSemaphore
 ms.topic: function
-f1_keywords: ["winddi/EngDeleteSafeSemaphore"]
+f1_keywords: 
+ - "winddi/EngDeleteSafeSemaphore"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

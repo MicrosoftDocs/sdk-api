@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Enabled property [Windows Deployment Services], Enabled property [Windows Deployment Services],IWdsTransportDiagnosticsPolicy interface, IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services],Enabled property, IWdsTransportDiagnosticsPolicy.Enabled, IWdsTransportDiagnosticsPolicy.get_Enabled, IWdsTransportDiagnosticsPolicy::Enabled, IWdsTransportDiagnosticsPolicy::get_Enabled, IWdsTransportDiagnosticsPolicy::put_Enabled, get_Enabled, wds.iwdstransportdiagnosticspolicy_enabled, wdstptmgmt/IWdsTransportDiagnosticsPolicy::Enabled, wdstptmgmt/IWdsTransportDiagnosticsPolicy::get_Enabled, wdstptmgmt/IWdsTransportDiagnosticsPolicy::put_Enabled
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportDiagnosticsPolicy.Enabled"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportDiagnosticsPolicy.Enabled"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

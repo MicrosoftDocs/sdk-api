@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_TargetIPAddress method, INetSharingPortMappingProps.get_TargetIPAddress, INetSharingPortMappingProps::get_TargetIPAddress, _ics_inetsharingportmappingprops_get_targetipaddress, get_TargetIPAddress, get_TargetIPAddress method [ICS/ICF], get_TargetIPAddress method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_targetipaddress, netcon/INetSharingPortMappingProps::get_TargetIPAddress
 ms.topic: method
-f1_keywords: ["netcon/INetSharingPortMappingProps.get_TargetIPAddress"]
+f1_keywords: 
+ - "netcon/INetSharingPortMappingProps.get_TargetIPAddress"
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMFCARD_DES, MFCARD_DES, MFCARD_DES structure [Device and Driver Installation], PMFCARD_DES, PMFCARD_DES structure pointer [Device and Driver Installation], cfgmgr32/MFCARD_DES, cfgmgr32/PMFCARD_DES, cfgmgrst_aea737e9-53c7-41dd-b4d3-80f29442358c.xml, devinst.mfcard_des"
 ms.topic: struct
-f1_keywords: ["cfgmgr32/MFCARD_DES"]
+f1_keywords: 
+ - "cfgmgr32/MFCARD_DES"
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows

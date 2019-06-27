@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],put_VCRHorizontalLocking method, IAMAnalogVideoDecoder.put_VCRHorizontalLocking, IAMAnalogVideoDecoder::put_VCRHorizontalLocking, IAMAnalogVideoDecoderput_VCRHorizontalLocking, dshow.iamanalogvideodecoder_put_vcrhorizontallocking, put_VCRHorizontalLocking, put_VCRHorizontalLocking method [DirectShow], put_VCRHorizontalLocking method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::put_VCRHorizontalLocking
 ms.topic: method
-f1_keywords: ["strmif/IAMAnalogVideoDecoder.put_VCRHorizontalLocking"]
+f1_keywords: 
+ - "strmif/IAMAnalogVideoDecoder.put_VCRHorizontalLocking"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

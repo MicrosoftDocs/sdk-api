@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreateErrorInfo, ICreateErrorInfo interface [Automation], ICreateErrorInfo interface [Automation],described, _oa96_ICreateErrorInfo_Interface, automat.icreateerrorinfo, oaidl/ICreateErrorInfo
 ms.topic: interface
-f1_keywords: ["oaidl/ICreateErrorInfo"]
+f1_keywords: 
+ - "oaidl/ICreateErrorInfo"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

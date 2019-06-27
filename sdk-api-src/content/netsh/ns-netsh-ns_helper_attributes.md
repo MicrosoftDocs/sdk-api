@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PNS_HELPER_ATTRIBUTES, NS_HELPER_ATTRIBUTES, NS_HELPER_ATTRIBUTES structure [NetShell], PNS_HELPER_ATTRIBUTES, PNS_HELPER_ATTRIBUTES structure pointer [NetShell], _netsh_ns_helper_attributes, netsh/NS_HELPER_ATTRIBUTES, netsh/PNS_HELPER_ATTRIBUTES, netshell.ns_helper_attributes"
 ms.topic: struct
-f1_keywords: ["netsh/NS_HELPER_ATTRIBUTES"]
+f1_keywords: 
+ - "netsh/NS_HELPER_ATTRIBUTES"
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

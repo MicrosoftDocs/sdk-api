@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInteractionConfigurationInteractionContext, GetInteractionConfigurationInteractionContext function, input_intcontext.getinteractionconfigurationinteractioncontext, interactioncontext.getinteractionconfigurationinteractioncontext, interactioncontext/GetInteractionConfigurationInteractionContext
 ms.topic: function
-f1_keywords: ["interactioncontext/GetInteractionConfigurationInteractionContext"]
+f1_keywords: 
+ - "interactioncontext/GetInteractionConfigurationInteractionContext"
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

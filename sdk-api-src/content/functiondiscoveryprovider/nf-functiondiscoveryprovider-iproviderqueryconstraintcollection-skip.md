@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProviderQueryConstraintCollection interface,Skip method, IProviderQueryConstraintCollection.Skip, IProviderQueryConstraintCollection::Skip, Skip, Skip method, Skip method,IProviderQueryConstraintCollection interface, functiondiscoveryprovider/IProviderQueryConstraintCollection::Skip, ncd.iproviderqueryconstraintcollection_skip
 ms.topic: method
-f1_keywords: ["functiondiscoveryprovider/IProviderQueryConstraintCollection.Skip"]
+f1_keywords: 
+ - "functiondiscoveryprovider/IProviderQueryConstraintCollection.Skip"
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

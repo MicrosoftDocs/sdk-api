@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LoadResource, LoadResource function [Menus and Other Resources], _win32_LoadResource, _win32_loadresource_cpp, libloaderapi/LoadResource, menurc.loadresource, winui._win32_loadresource
 ms.topic: function
-f1_keywords: ["libloaderapi/LoadResource"]
+f1_keywords: 
+ - "libloaderapi/LoadResource"
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

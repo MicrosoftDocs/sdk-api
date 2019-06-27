@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUpdatedFlags, GetUpdatedFlags method [Text Services Framework], GetUpdatedFlags method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetUpdatedFlags method, ITfCandidateListUIElement.GetUpdatedFlags, ITfCandidateListUIElement::GetUpdatedFlags, TF_CLUIE_COUNT, TF_CLUIE_CURRENTPAGE, TF_CLUIE_DOCUMENTMGR, TF_CLUIE_PAGEINDEX, TF_CLUIE_SELECTION, TF_CLUIE_STRING, msctf/ITfCandidateListUIElement::GetUpdatedFlags, tsf.itfcandidatelistuielement_getupdatedflags
 ms.topic: method
-f1_keywords: ["msctf/ITfCandidateListUIElement.GetUpdatedFlags"]
+f1_keywords: 
+ - "msctf/ITfCandidateListUIElement.GetUpdatedFlags"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

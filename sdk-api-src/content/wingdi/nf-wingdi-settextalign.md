@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetTextAlign, SetTextAlign function [Windows GDI], TA_BASELINE, TA_BOTTOM, TA_CENTER, TA_LEFT, TA_NOUPDATECP, TA_RIGHT, TA_RTLREADING, TA_TOP, TA_UPDATECP, VTA_BASELINE, VTA_CENTER, _win32_SetTextAlign, gdi.settextalign, wingdi/SetTextAlign
 ms.topic: function
-f1_keywords: ["wingdi/SetTextAlign"]
+f1_keywords: 
+ - "wingdi/SetTextAlign"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

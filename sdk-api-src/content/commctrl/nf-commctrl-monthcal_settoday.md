@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MonthCal_SetToday, MonthCal_SetToday macro [Windows Controls], _win32_MonthCal_SetToday, _win32_MonthCal_SetToday_cpp, commctrl/MonthCal_SetToday, controls.MonthCal_SetToday, controls._win32_MonthCal_SetToday
 ms.topic: macro
-f1_keywords: ["commctrl/MonthCal_SetToday"]
+f1_keywords: 
+ - "commctrl/MonthCal_SetToday"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

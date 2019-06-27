@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncCallback, ISyncCallback interface [Windows Sync], ISyncCallback interface [Windows Sync],described, winsync.isynccallback, winsync/ISyncCallback
 ms.topic: interface
-f1_keywords: ["winsync/ISyncCallback"]
+f1_keywords: 
+ - "winsync/ISyncCallback"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

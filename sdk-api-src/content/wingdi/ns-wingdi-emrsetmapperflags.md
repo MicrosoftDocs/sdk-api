@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRSETMAPPERFLAGS, EMRSETMAPPERFLAGS, EMRSETMAPPERFLAGS structure [Windows GDI], PEMRSETMAPPERFLAGS, PEMRSETMAPPERFLAGS structure pointer [Windows GDI], _win32_EMRSETMAPPERFLAGS_str, gdi.emrsetmapperflags, wingdi/EMRSETMAPPERFLAGS, wingdi/PEMRSETMAPPERFLAGS"
 ms.topic: struct
-f1_keywords: ["wingdi/EMRSETMAPPERFLAGS"]
+f1_keywords: 
+ - "wingdi/EMRSETMAPPERFLAGS"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

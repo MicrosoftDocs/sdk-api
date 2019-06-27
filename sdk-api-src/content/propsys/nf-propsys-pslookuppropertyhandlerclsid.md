@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSLookupPropertyHandlerCLSID, PSLookupPropertyHandlerCLSID function [Windows Properties], _shell_PSLookupPropertyHandlerCLSID, properties.PSLookupPropertyHandlerCLSID, propsys/PSLookupPropertyHandlerCLSID, shell.PSLookupPropertyHandlerCLSID
 ms.topic: function
-f1_keywords: ["propsys/PSLookupPropertyHandlerCLSID"]
+f1_keywords: 
+ - "propsys/PSLookupPropertyHandlerCLSID"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

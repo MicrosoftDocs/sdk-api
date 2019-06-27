@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSCGetProviderPath, WSCGetProviderPath function [Winsock], _win32_wscgetproviderpath_2, winsock.wscgetproviderpath_2, ws2spi/WSCGetProviderPath
 ms.topic: function
-f1_keywords: ["ws2spi/WSCGetProviderPath"]
+f1_keywords: 
+ - "ws2spi/WSCGetProviderPath"
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

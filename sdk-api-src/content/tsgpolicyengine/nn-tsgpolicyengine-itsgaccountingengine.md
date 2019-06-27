@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITSGAccountingEngine, ITSGAccountingEngine interface [Remote Desktop Services], ITSGAccountingEngine interface [Remote Desktop Services],described, termserv.itsgaccountingengine, tsgpolicyengine/ITSGAccountingEngine
 ms.topic: interface
-f1_keywords: ["tsgpolicyengine/ITSGAccountingEngine"]
+f1_keywords: 
+ - "tsgpolicyengine/ITSGAccountingEngine"
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows

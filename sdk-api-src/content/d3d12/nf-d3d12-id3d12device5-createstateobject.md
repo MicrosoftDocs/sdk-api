@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateStateObject, CreateStateObject method, CreateStateObject method,ID3D12Device5 interface, ID3D12Device5 interface,CreateStateObject method, ID3D12Device5.CreateStateObject, ID3D12Device5::CreateStateObject, d3d12/ID3D12Device5::CreateStateObject, direct3d12.id3d12device5_createstateobject
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12Device5.CreateStateObject"]
+f1_keywords: 
+ - "d3d12/ID3D12Device5.CreateStateObject"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

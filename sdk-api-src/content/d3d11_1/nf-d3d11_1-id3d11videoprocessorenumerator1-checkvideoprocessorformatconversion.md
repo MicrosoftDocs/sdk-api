@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckVideoProcessorFormatConversion, CheckVideoProcessorFormatConversion method [Media Foundation], CheckVideoProcessorFormatConversion method [Media Foundation],ID3D11VideoProcessorEnumerator1 interface, ID3D11VideoProcessorEnumerator1 interface [Media Foundation],CheckVideoProcessorFormatConversion method, ID3D11VideoProcessorEnumerator1.CheckVideoProcessorFormatConversion, ID3D11VideoProcessorEnumerator1::CheckVideoProcessorFormatConversion, d3d11_1/ID3D11VideoProcessorEnumerator1::CheckVideoProcessorFormatConversion, mf.id3d11videoprocessorenumerator1_checkvideoprocessorformatconversion
 ms.topic: method
-f1_keywords: ["d3d11_1/ID3D11VideoProcessorEnumerator1.CheckVideoProcessorFormatConversion"]
+f1_keywords: 
+ - "d3d11_1/ID3D11VideoProcessorEnumerator1.CheckVideoProcessorFormatConversion"
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

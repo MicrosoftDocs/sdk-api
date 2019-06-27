@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITraceDataCollector interface [PLA],IsKernelTrace property, ITraceDataCollector.IsKernelTrace, ITraceDataCollector.get_IsKernelTrace, ITraceDataCollector::IsKernelTrace, ITraceDataCollector::get_IsKernelTrace, IsKernelTrace property [PLA], IsKernelTrace property [PLA],ITraceDataCollector interface, base.itracedatacollector_iskerneltrace, get_IsKernelTrace, pla.itracedatacollector_iskerneltrace, pla/ITraceDataCollector::IsKernelTrace, pla/ITraceDataCollector::get_IsKernelTrace
 ms.topic: method
-f1_keywords: ["pla/ITraceDataCollector.IsKernelTrace"]
+f1_keywords: 
+ - "pla/ITraceDataCollector.IsKernelTrace"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

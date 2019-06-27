@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpHlprAddV4PolicyCondition, DhcpHlprAddV4PolicyCondition function [DHCP], dhcp.dhcphlpraddv4policycondition, dhcpsapi/DhcpHlprAddV4PolicyCondition
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpHlprAddV4PolicyCondition"]
+f1_keywords: 
+ - "dhcpsapi/DhcpHlprAddV4PolicyCondition"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

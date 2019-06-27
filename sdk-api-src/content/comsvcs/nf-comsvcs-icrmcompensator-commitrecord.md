@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CommitRecord, CommitRecord method [COM+], CommitRecord method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],CommitRecord method, ICrmCompensator.CommitRecord, ICrmCompensator::CommitRecord, _dtc_ICrmCompensator_CommitRecord, comsvcs/ICrmCompensator::CommitRecord, cos.icrmcompensator_commitrecord
 ms.topic: method
-f1_keywords: ["comsvcs/ICrmCompensator.CommitRecord"]
+f1_keywords: 
+ - "comsvcs/ICrmCompensator.CommitRecord"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

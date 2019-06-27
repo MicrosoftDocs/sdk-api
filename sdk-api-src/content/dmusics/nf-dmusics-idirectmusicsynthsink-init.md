@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynthSink interface [Audio Devices],Init method, IDirectMusicSynthSink.Init, IDirectMusicSynthSink::Init, Init, Init method [Audio Devices], Init method [Audio Devices],IDirectMusicSynthSink interface, audio.idirectmusicsynthsink_init, audmp-routines_d4f2d6c1-4bb6-453e-ad40-d0daab7775a3.xml, dmusics/IDirectMusicSynthSink::Init
 ms.topic: method
-f1_keywords: ["dmusics/IDirectMusicSynthSink.Init"]
+f1_keywords: 
+ - "dmusics/IDirectMusicSynthSink.Init"
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop

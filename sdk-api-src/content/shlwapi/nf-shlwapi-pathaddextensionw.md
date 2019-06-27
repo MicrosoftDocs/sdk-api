@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathAddExtension, PathAddExtension function [Windows Shell], PathAddExtensionA, PathAddExtensionW, _win32_PathAddExtension, shell.PathAddExtension, shlwapi/PathAddExtension, shlwapi/PathAddExtensionA, shlwapi/PathAddExtensionW
 ms.topic: function
-f1_keywords: ["shlwapi/PathAddExtension"]
+f1_keywords: 
+ - "shlwapi/PathAddExtension"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

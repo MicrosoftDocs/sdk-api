@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColumnText, GetColumnText method [MMC], GetColumnText method [MMC],IHeaderCtrl interface, IHeaderCtrl interface [MMC],GetColumnText method, IHeaderCtrl.GetColumnText, IHeaderCtrl::GetColumnText, mmc.iheaderctrl_getcolumntext, mmc/IHeaderCtrl::GetColumnText
 ms.topic: method
-f1_keywords: ["mmc/IHeaderCtrl.GetColumnText"]
+f1_keywords: 
+ - "mmc/IHeaderCtrl.GetColumnText"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

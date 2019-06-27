@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThemeAppProperties, GetThemeAppProperties function [Windows Controls], controls.GetThemeAppProperties, controls.inet_GetThemeAppProperties, inet_GetThemeAppProperties, inet_GetThemeAppProperties_cpp, uxtheme/GetThemeAppProperties
 ms.topic: function
-f1_keywords: ["uxtheme/GetThemeAppProperties"]
+f1_keywords: 
+ - "uxtheme/GetThemeAppProperties"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRequiredGroup, GetRequiredGroup method [App packaging and management], GetRequiredGroup method [App packaging and management],IAppxSourceContentGroupMapReader interface, IAppxSourceContentGroupMapReader interface [App packaging and management],GetRequiredGroup method, IAppxSourceContentGroupMapReader.GetRequiredGroup, IAppxSourceContentGroupMapReader::GetRequiredGroup, appxpackaging/IAppxSourceContentGroupMapReader::GetRequiredGroup, appxpkg.iappxsourcecontentgroupmapreader_getrequiredgroup
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxSourceContentGroupMapReader.GetRequiredGroup"]
+f1_keywords: 
+ - "appxpackaging/IAppxSourceContentGroupMapReader.GetRequiredGroup"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

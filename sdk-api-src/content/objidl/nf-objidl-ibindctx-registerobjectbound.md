@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBindCtx interface [COM],RegisterObjectBound method, IBindCtx.RegisterObjectBound, IBindCtx::RegisterObjectBound, RegisterObjectBound, RegisterObjectBound method [COM], RegisterObjectBound method [COM],IBindCtx interface, _com_ibindctx_registerobjectbound, com.ibindctx_registerobjectbound, objidl/IBindCtx::RegisterObjectBound
 ms.topic: method
-f1_keywords: ["objidl/IBindCtx.RegisterObjectBound"]
+f1_keywords: 
+ - "objidl/IBindCtx.RegisterObjectBound"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

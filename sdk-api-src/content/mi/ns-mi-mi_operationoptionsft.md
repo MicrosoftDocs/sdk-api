@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptionsFT, MI_OperationOptionsFT structure [Windows Management Infrastructure (MI)], mi/MI_OperationOptionsFT, wmi_v2.mi_operationoptionsft
 ms.topic: struct
-f1_keywords: ["mi/MI_OperationOptionsFT"]
+f1_keywords: 
+ - "mi/MI_OperationOptionsFT"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

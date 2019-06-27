@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ETW_PROCESS_HANDLE_INFO_TYPE, ETW_PROCESS_HANDLE_INFO_TYPE enumeration [ETW], EtwQueryPartitionInformation, EtwQueryProcessHandleInfoMax, etw.etw_process_handle_info_type, evntrace/ETW_PROCESS_HANDLE_INFO_TYPE, evntrace/EtwQueryPartitionInformation, evntrace/EtwQueryProcessHandleInfoMax
 ms.topic: enum
-f1_keywords: ["evntrace/ETW_PROCESS_HANDLE_INFO_TYPE"]
+f1_keywords: 
+ - "evntrace/ETW_PROCESS_HANDLE_INFO_TYPE"
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

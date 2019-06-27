@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITForwardInformation2 interface [TAPI 2.2],SetForwardType2 method, ITForwardInformation2.SetForwardType2, ITForwardInformation2::SetForwardType2, SetForwardType2, SetForwardType2 method [TAPI 2.2], SetForwardType2 method [TAPI 2.2],ITForwardInformation2 interface, _tapi3_itforwardinformation2_setforwardtype2, tapi3.itforwardinformation2_setforwardtype2, tapi3if/ITForwardInformation2::SetForwardType2
 ms.topic: method
-f1_keywords: ["tapi3if/ITForwardInformation2.SetForwardType2"]
+f1_keywords: 
+ - "tapi3if/ITForwardInformation2.SetForwardType2"
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

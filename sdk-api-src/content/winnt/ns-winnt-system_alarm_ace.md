@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSYSTEM_ALARM_ACE, SYSTEM_ALARM_ACE, SYSTEM_ALARM_ACE structure [Security], _win32_system_alarm_ace_str, security.system_alarm_ace, winnt/SYSTEM_ALARM_ACE"
 ms.topic: struct
-f1_keywords: ["winnt/SYSTEM_ALARM_ACE"]
+f1_keywords: 
+ - "winnt/SYSTEM_ALARM_ACE"
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

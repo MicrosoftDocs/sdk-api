@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumBackgroundCopyJobs1, IEnumBackgroundCopyJobs1 interface [BITS], IEnumBackgroundCopyJobs1 interface [BITS],described, bits.ienumbackgroundcopyjobs1, qmgr/IEnumBackgroundCopyJobs1
 ms.topic: interface
-f1_keywords: ["qmgr/IEnumBackgroundCopyJobs1"]
+f1_keywords: 
+ - "qmgr/IEnumBackgroundCopyJobs1"
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

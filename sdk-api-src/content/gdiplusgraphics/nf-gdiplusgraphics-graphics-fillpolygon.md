@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: Graphics::FillPolygon
 ms.topic: language-reference
-f1_keywords: ["gdiplusgraphics/Graphics::FillPolygon"]
+f1_keywords: 
+ - "gdiplusgraphics/Graphics::FillPolygon"
 targetos: Windows
 product: Windows
 req.assembly: 

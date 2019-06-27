@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPrimaryBufferInterface, GetPrimaryBufferInterface method [DirectShow], GetPrimaryBufferInterface method [DirectShow],IAMDirectSound interface, IAMDirectSound interface [DirectShow],GetPrimaryBufferInterface method, IAMDirectSound.GetPrimaryBufferInterface, IAMDirectSound::GetPrimaryBufferInterface, IAMDirectSoundGetPrimaryBufferInterface, amaudio/IAMDirectSound::GetPrimaryBufferInterface, dshow.iamdirectsound_getprimarybufferinterface
 ms.topic: method
-f1_keywords: ["amaudio/IAMDirectSound.GetPrimaryBufferInterface"]
+f1_keywords: 
+ - "amaudio/IAMDirectSound.GetPrimaryBufferInterface"
 req.header: amaudio.h
 req.include-header: 
 req.target-type: Windows

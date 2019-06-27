@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DDGFS_CANFLIP, DDGFS_ISFLIPDONE, GetFlipStatus, GetFlipStatus method [DirectDraw], GetFlipStatus method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetFlipStatus method, IDirectDrawSurface7.GetFlipStatus, IDirectDrawSurface7::GetFlipStatus, ddraw/IDirectDrawSurface7::GetFlipStatus, directdraw.idirectdrawsurface7_getflipstatus
 ms.topic: method
-f1_keywords: ["ddraw/IDirectDrawSurface7.GetFlipStatus"]
+f1_keywords: 
+ - "ddraw/IDirectDrawSurface7.GetFlipStatus"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

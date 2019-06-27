@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinUsb_GetAssociatedInterface, WinUsb_GetAssociatedInterface function [Buses], buses.winusb_getassociatedinterface, winusb/WinUsb_GetAssociatedInterface, winusbfunc_22b6f592-12ca-433e-b7a1-885eebf60386.xml
 ms.topic: function
-f1_keywords: ["winusb/WinUsb_GetAssociatedInterface"]
+f1_keywords: 
+ - "winusb/WinUsb_GetAssociatedInterface"
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

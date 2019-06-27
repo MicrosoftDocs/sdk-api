@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvPaint, DrvPaint function [Display Devices], ddifncs_34ade16d-3f7c-42b3-a020-388ec6a36f27.xml, display.drvpaint, winddi/DrvPaint
 ms.topic: function
-f1_keywords: ["winddi/DrvPaint"]
+f1_keywords: 
+ - "winddi/DrvPaint"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

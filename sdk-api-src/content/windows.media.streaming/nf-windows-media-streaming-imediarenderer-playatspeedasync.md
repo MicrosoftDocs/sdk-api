@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],PlayAtSpeedAsync method, IMediaRenderer.PlayAtSpeedAsync, IMediaRenderer.streaming, IMediaRenderer::PlayAtSpeedAsync, IMediaRenderer::streaming, PlayAtSpeedAsync, PlayAtSpeedAsync method [Media Streaming API], PlayAtSpeedAsync method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_playatspeedasync, windows/IMediaRenderer::PlayAtSpeedAsync
 ms.topic: method
-f1_keywords: ["windows.media.streaming/IMediaRenderer.PlayAtSpeedAsync"]
+f1_keywords: 
+ - "windows.media.streaming/IMediaRenderer.PlayAtSpeedAsync"
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

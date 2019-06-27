@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher, IWSDiscoveryPublisher interface, IWSDiscoveryPublisher interface,described, ncd.iwsdiscoverypublisher, wsddisco/IWSDiscoveryPublisher
 ms.topic: interface
-f1_keywords: ["wsddisco/IWSDiscoveryPublisher"]
+f1_keywords: 
+ - "wsddisco/IWSDiscoveryPublisher"
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireSource interface [Picture Acquisition],InitializeItemList method, IPhotoAcquireSource.InitializeItemList, IPhotoAcquireSource::InitializeItemList, IPhotoAcquireSourceInitializeItemList, InitializeItemList, InitializeItemList method [Picture Acquisition], InitializeItemList method [Picture Acquisition],IPhotoAcquireSource interface, photoacquire/IPhotoAcquireSource::InitializeItemList, picacq.iphotoacquiresource_initializeitemlist
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoAcquireSource.InitializeItemList"]
+f1_keywords: 
+ - "photoacquire/IPhotoAcquireSource.InitializeItemList"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

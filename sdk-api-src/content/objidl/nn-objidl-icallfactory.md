@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICallFactory, ICallFactory interface [COM], ICallFactory interface [COM],described, _com_icallfactory, com.icallfactory, objidlbase/ICallFactory
 ms.topic: interface
-f1_keywords: ["objidl/ICallFactory"]
+f1_keywords: 
+ - "objidl/ICallFactory"
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

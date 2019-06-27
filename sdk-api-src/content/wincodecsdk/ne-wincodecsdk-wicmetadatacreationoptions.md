@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICMetadataCreationAllowUnknown, WICMetadataCreationDefault, WICMetadataCreationFailUnknown, WICMetadataCreationMask, WICMetadataCreationOptions, WICMetadataCreationOptions enumeration [Windows Imaging Component], _wic_codec_wicmetadatacreationoptions, wic._wic_codec_wicmetadatacreationoptions, wincodecsdk/WICMetadataCreationAllowUnknown, wincodecsdk/WICMetadataCreationDefault, wincodecsdk/WICMetadataCreationFailUnknown, wincodecsdk/WICMetadataCreationMask, wincodecsdk/WICMetadataCreationOptions
 ms.topic: enum
-f1_keywords: ["wincodecsdk/WICMetadataCreationOptions"]
+f1_keywords: 
+ - "wincodecsdk/WICMetadataCreationOptions"
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

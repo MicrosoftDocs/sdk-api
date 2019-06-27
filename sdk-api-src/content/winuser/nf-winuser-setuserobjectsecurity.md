@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, SetUserObjectSecurity, SetUserObjectSecurity function [Security], _win32_setuserobjectsecurity, security.setuserobjectsecurity, winuser/SetUserObjectSecurity
 ms.topic: function
-f1_keywords: ["winuser/SetUserObjectSecurity"]
+f1_keywords: 
+ - "winuser/SetUserObjectSecurity"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

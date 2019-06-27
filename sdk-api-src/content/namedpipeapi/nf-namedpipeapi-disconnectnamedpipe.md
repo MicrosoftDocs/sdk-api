@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisconnectNamedPipe, DisconnectNamedPipe function, _win32_disconnectnamedpipe, base.disconnectnamedpipe, namedpipeapi/DisconnectNamedPipe
 ms.topic: function
-f1_keywords: ["namedpipeapi/DisconnectNamedPipe"]
+f1_keywords: 
+ - "namedpipeapi/DisconnectNamedPipe"
 req.header: namedpipeapi.h
 req.include-header: 
 req.target-type: Windows

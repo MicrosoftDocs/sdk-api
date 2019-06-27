@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateStringArray, CreateStringArray method [Windows Runtime], CreateStringArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateStringArray method, IPropertyValueStatics.CreateStringArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateStringArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateStringArray, winrt.ipropertyvaluefactory_createstringarray, winrt.ipropertyvaluestatics_createstringarray
 ms.topic: method
-f1_keywords: ["windows.foundation/IPropertyValueStatics.CreateStringArray"]
+f1_keywords: 
+ - "windows.foundation/IPropertyValueStatics.CreateStringArray"
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

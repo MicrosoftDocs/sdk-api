@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_CityCode method, ITLocationInfo.get_CityCode, ITLocationInfo::get_CityCode, _tapi3_itlocationinfo_get_citycode, get_CityCode, get_CityCode method [TAPI 2.2], get_CityCode method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_citycode, tapi3if/ITLocationInfo::get_CityCode
 ms.topic: method
-f1_keywords: ["tapi3if/ITLocationInfo.get_CityCode"]
+f1_keywords: 
+ - "tapi3if/ITLocationInfo.get_CityCode"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

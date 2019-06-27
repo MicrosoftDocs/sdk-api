@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFileAttributesTransacted, GetFileAttributesTransacted function [Files], GetFileAttributesTransactedA, GetFileAttributesTransactedW, GetFileExInfoStandard, fs.getfileattributestransacted, winbase/GetFileAttributesTransacted, winbase/GetFileAttributesTransactedA, winbase/GetFileAttributesTransactedW
 ms.topic: function
-f1_keywords: ["winbase/GetFileAttributesTransacted"]
+f1_keywords: 
+ - "winbase/GetFileAttributesTransacted"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

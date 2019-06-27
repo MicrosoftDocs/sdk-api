@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPrintDocumentPackageStatusEvent interface [XPS Documents and Packaging],PackageStatusUpdated method, IPrintDocumentPackageStatusEvent.PackageStatusUpdated, IPrintDocumentPackageStatusEvent::PackageStatusUpdated, PackageStatusUpdated, PackageStatusUpdated method [XPS Documents and Packaging], PackageStatusUpdated method [XPS Documents and Packaging],IPrintDocumentPackageStatusEvent interface, documenttarget/IPrintDocumentPackageStatusEvent::PackageStatusUpdated, xps.iprintdocumentpackagestatusevent_packagestatusupdated
 ms.topic: method
-f1_keywords: ["documenttarget/IPrintDocumentPackageStatusEvent.PackageStatusUpdated"]
+f1_keywords: 
+ - "documenttarget/IPrintDocumentPackageStatusEvent.PackageStatusUpdated"
 req.header: documenttarget.h
 req.include-header: 
 req.target-type: Windows

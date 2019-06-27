@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEmbeddedAccessibles, GetEmbeddedAccessibles method [Windows Accessibility], GetEmbeddedAccessibles method [Windows Accessibility],IRawElementProviderHostingAccessibles interface, IRawElementProviderHostingAccessibles interface [Windows Accessibility],GetEmbeddedAccessibles method, IRawElementProviderHostingAccessibles.GetEmbeddedAccessibles, IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles, uiautomationcore/IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles, winauto.uiauto_IRawElementProviderHostingAccessibles_GetEmbeddedAccessibles
 ms.topic: method
-f1_keywords: ["uiautomationcore/IRawElementProviderHostingAccessibles.GetEmbeddedAccessibles"]
+f1_keywords: 
+ - "uiautomationcore/IRawElementProviderHostingAccessibles.GetEmbeddedAccessibles"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11Texture3D interface, ID3D11Texture3D interface [Direct3D 11],GetDesc method, ID3D11Texture3D.GetDesc, ID3D11Texture3D::GetDesc, b0ec42e0-a5b2-ce3f-fb64-8b55c2fc33ec, d3d11/ID3D11Texture3D::GetDesc, direct3d11.id3d11texture3d_getdesc
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11Texture3D.GetDesc"]
+f1_keywords: 
+ - "d3d11/ID3D11Texture3D.GetDesc"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcNsBindingLookupBegin, RpcNsBindingLookupBegin function [RPC], RpcNsBindingLookupBeginA, RpcNsBindingLookupBeginW, _rpc_rpcnsbindinglookupbegin, rpc.rpcnsbindinglookupbegin, rpcnsi/RpcNsBindingLookupBegin, rpcnsi/RpcNsBindingLookupBeginA, rpcnsi/RpcNsBindingLookupBeginW
 ms.topic: function
-f1_keywords: ["rpcnsi/RpcNsBindingLookupBegin"]
+f1_keywords: 
+ - "rpcnsi/RpcNsBindingLookupBegin"
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows

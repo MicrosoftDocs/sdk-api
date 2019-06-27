@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPosition, GetPosition method [Windows Shell], GetPosition method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetPosition method, IDesktopWallpaper.GetPosition, IDesktopWallpaper::GetPosition, shell.IDesktopWallpaper_GetPosition, shobjidl_core/IDesktopWallpaper::GetPosition
 ms.topic: method
-f1_keywords: ["shobjidl_core/IDesktopWallpaper.GetPosition"]
+f1_keywords: 
+ - "shobjidl_core/IDesktopWallpaper.GetPosition"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

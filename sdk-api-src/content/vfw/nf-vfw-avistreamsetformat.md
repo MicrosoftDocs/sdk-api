@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIStreamSetFormat, AVIStreamSetFormat function [Windows Multimedia], _win32_AVIStreamSetFormat, multimedia.avistreamsetformat, vfw/AVIStreamSetFormat
 ms.topic: function
-f1_keywords: ["vfw/AVIStreamSetFormat"]
+f1_keywords: 
+ - "vfw/AVIStreamSetFormat"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

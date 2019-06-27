@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSManEx3 interface [Windows Remote Management],SessionFlagUseCredSsp method, IWSManEx3.SessionFlagUseCredSsp, IWSManEx3::SessionFlagUseCredSsp, SessionFlagUseCredSsp, SessionFlagUseCredSsp method [Windows Remote Management], SessionFlagUseCredSsp method [Windows Remote Management],IWSManEx3 interface, winrm.iwsmanex3_sessionflagusecredssp, wsmandisp/IWSManEx3::SessionFlagUseCredSsp
 ms.topic: method
-f1_keywords: ["wsmandisp/IWSManEx3.SessionFlagUseCredSsp"]
+f1_keywords: 
+ - "wsmandisp/IWSManEx3.SessionFlagUseCredSsp"
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

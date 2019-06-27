@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDeviceForService, GetDeviceForService method [Windows Portable Devices SDK], GetDeviceForService method [Windows Portable Devices SDK],IPortableDeviceServiceManager interface, IPortableDeviceServiceManager interface [Windows Portable Devices SDK],GetDeviceForService method, IPortableDeviceServiceManager.GetDeviceForService, IPortableDeviceServiceManager::GetDeviceForService, portabledeviceapi/IPortableDeviceServiceManager::GetDeviceForService, wpdsdk.iportabledeviceservicemanager_getdeviceforservice
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceServiceManager.GetDeviceForService"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceServiceManager.GetDeviceForService"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

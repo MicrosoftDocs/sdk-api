@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawUnderline, DrawUnderline method [Direct Write], DrawUnderline method [Direct Write],IDWriteTextRenderer interface, IDWriteTextRenderer interface [Direct Write],DrawUnderline method, IDWriteTextRenderer.DrawUnderline, IDWriteTextRenderer::DrawUnderline, directwrite.IDWriteTextRenderer_DrawUnderline, dwrite/IDWriteTextRenderer::DrawUnderline
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextRenderer.DrawUnderline"]
+f1_keywords: 
+ - "dwrite/IDWriteTextRenderer.DrawUnderline"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICSeqCompressFrame, ICSeqCompressFrame function [Windows Multimedia], _win32_ICSeqCompressFrame, multimedia.icseqcompressframe, vfw/ICSeqCompressFrame
 ms.topic: function
-f1_keywords: ["vfw/ICSeqCompressFrame"]
+f1_keywords: 
+ - "vfw/ICSeqCompressFrame"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegisterForLogWriteNotification, RegisterForLogWriteNotification function [Files], clfsmgmtw32/RegisterForLogWriteNotification, fs.registerforlogwritenotification
 ms.topic: function
-f1_keywords: ["clfsmgmtw32/RegisterForLogWriteNotification"]
+f1_keywords: 
+ - "clfsmgmtw32/RegisterForLogWriteNotification"
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: YieldProcessor, YieldProcessor function, base.yieldprocessor, winnt/YieldProcessor
 ms.topic: function
-f1_keywords: ["winnt/YieldProcessor"]
+f1_keywords: 
+ - "winnt/YieldProcessor"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

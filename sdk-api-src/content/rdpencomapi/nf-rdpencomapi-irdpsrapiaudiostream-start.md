@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIAudioStream interface [RDP],Start method, IRDPSRAPIAudioStream.Start, IRDPSRAPIAudioStream::Start, Start, Start method [RDP], Start method [RDP],IRDPSRAPIAudioStream interface, rdp.irdpsrapiaudiostream_start, rdpencomapi/IRDPSRAPIAudioStream::Start
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPIAudioStream.Start"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIAudioStream.Start"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

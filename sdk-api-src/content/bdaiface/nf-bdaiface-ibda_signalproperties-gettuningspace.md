@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTuningSpace, GetTuningSpace method [Microsoft TV Technologies], GetTuningSpace method [Microsoft TV Technologies],IBDA_SignalProperties interface, IBDA_SignalProperties interface [Microsoft TV Technologies],GetTuningSpace method, IBDA_SignalProperties.GetTuningSpace, IBDA_SignalProperties::GetTuningSpace, IBDA_SignalPropertiesGetTuningSpace, bdaiface/IBDA_SignalProperties::GetTuningSpace, mstv.ibda_signalproperties_gettuningspace
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_SignalProperties.GetTuningSpace"]
+f1_keywords: 
+ - "bdaiface/IBDA_SignalProperties.GetTuningSpace"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

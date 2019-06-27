@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAnalogLocator, IAnalogLocator interface [Microsoft TV Technologies], IAnalogLocator interface [Microsoft TV Technologies],described, IAnalogLocatorInterface, mstv.ianaloglocator, tuner/IAnalogLocator
 ms.topic: interface
-f1_keywords: ["tuner/IAnalogLocator"]
+f1_keywords: 
+ - "tuner/IAnalogLocator"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICDdsEncoder interface [Windows Imaging Component],SetParameters method, IWICDdsEncoder.SetParameters, IWICDdsEncoder::SetParameters, SetParameters, SetParameters method [Windows Imaging Component], SetParameters method [Windows Imaging Component],IWICDdsEncoder interface, wic.iwicddsencoder_setparameters, wincodec/IWICDdsEncoder::SetParameters
 ms.topic: method
-f1_keywords: ["wincodec/IWICDdsEncoder.SetParameters"]
+f1_keywords: 
+ - "wincodec/IWICDdsEncoder.SetParameters"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

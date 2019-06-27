@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPackageDebugSettings, IPackageDebugSettings interface [Windows Shell], IPackageDebugSettings interface [Windows Shell],described, shell.IPackageDebugSettings, shobjidl_core/IPackageDebugSettings
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IPackageDebugSettings"]
+f1_keywords: 
+ - "shobjidl_core/IPackageDebugSettings"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

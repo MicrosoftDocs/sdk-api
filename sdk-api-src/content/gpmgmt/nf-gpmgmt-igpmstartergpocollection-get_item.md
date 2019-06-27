@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGPMStarterGPOCollection interface [GPMC],Item property, IGPMStarterGPOCollection.Item, IGPMStarterGPOCollection.get_Item, IGPMStarterGPOCollection::Item, IGPMStarterGPOCollection::get_Item, Item property [GPMC], Item property [GPMC],IGPMStarterGPOCollection interface, get_Item, gpmc.igpmstartergpocollection_get_item, gpmgmt/IGPMStarterGPOCollection::Item, gpmgmt/IGPMStarterGPOCollection::get_Item
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMStarterGPOCollection.Item"]
+f1_keywords: 
+ - "gpmgmt/IGPMStarterGPOCollection.Item"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

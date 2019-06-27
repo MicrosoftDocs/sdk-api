@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSyncOperation, GetSyncOperation method [Offline Files], GetSyncOperation method [Offline Files],IOfflineFilesSyncErrorInfo interface, IOfflineFilesSyncErrorInfo interface [Offline Files],GetSyncOperation method, IOfflineFilesSyncErrorInfo.GetSyncOperation, IOfflineFilesSyncErrorInfo::GetSyncOperation, cscobj/IOfflineFilesSyncErrorInfo::GetSyncOperation, of.iofflinefilessyncerrorinfo_getsyncoperation
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesSyncErrorInfo.GetSyncOperation"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesSyncErrorInfo.GetSyncOperation"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

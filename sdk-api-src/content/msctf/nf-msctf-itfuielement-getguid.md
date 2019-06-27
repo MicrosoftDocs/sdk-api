@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGUID, GetGUID method [Text Services Framework], GetGUID method [Text Services Framework],ITfUIElement interface, ITfUIElement interface [Text Services Framework],GetGUID method, ITfUIElement.GetGUID, ITfUIElement::GetGUID, msctf/ITfUIElement::GetGUID, tsf.itfuielement_getguid
 ms.topic: method
-f1_keywords: ["msctf/ITfUIElement.GetGUID"]
+f1_keywords: 
+ - "msctf/ITfUIElement.GetGUID"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

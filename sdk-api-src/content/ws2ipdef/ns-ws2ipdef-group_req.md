@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PGROUP_REQ, GROUP_REQ, GROUP_REQ structure [Winsock], PGROUP_REQ, PGROUP_REQ structure pointer [Winsock], winsock.group_req, ws2ipdef/GROUP_REQ, ws2ipdef/PGROUP_REQ"
 ms.topic: struct
-f1_keywords: ["ws2ipdef/GROUP_REQ"]
+f1_keywords: 
+ - "ws2ipdef/GROUP_REQ"
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0a7bfee3-9d6f-4cdf-8c64-abfc6ab78e60, IMFSampleGrabberSinkCallback interface [Media Foundation],OnProcessSample method, IMFSampleGrabberSinkCallback.OnProcessSample, IMFSampleGrabberSinkCallback::OnProcessSample, OnProcessSample, OnProcessSample method [Media Foundation], OnProcessSample method [Media Foundation],IMFSampleGrabberSinkCallback interface, mf.imfsamplegrabbersinkcallback_onprocesssample, mfidl/IMFSampleGrabberSinkCallback::OnProcessSample
 ms.topic: method
-f1_keywords: ["mfidl/IMFSampleGrabberSinkCallback.OnProcessSample"]
+f1_keywords: 
+ - "mfidl/IMFSampleGrabberSinkCallback.OnProcessSample"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

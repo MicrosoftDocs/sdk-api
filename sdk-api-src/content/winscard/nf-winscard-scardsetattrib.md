@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SCARD_ATTR_SUPRESS_T1_IFS_REQUEST, SCardSetAttrib, SCardSetAttrib function [Security], _smart_scardsetattrib, security.scardsetattrib, winscard/SCardSetAttrib
 ms.topic: function
-f1_keywords: ["winscard/SCardSetAttrib"]
+f1_keywords: 
+ - "winscard/SCardSetAttrib"
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

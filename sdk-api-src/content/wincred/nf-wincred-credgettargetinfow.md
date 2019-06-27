@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CredGetTargetInfo, CredGetTargetInfo function [Security], CredGetTargetInfoA, CredGetTargetInfoW, _cred_credgettargetinfo, security.credgettargetinfo, wincred/CredGetTargetInfo, wincred/CredGetTargetInfoA, wincred/CredGetTargetInfoW
 ms.topic: function
-f1_keywords: ["wincred/CredGetTargetInfo"]
+f1_keywords: 
+ - "wincred/CredGetTargetInfo"
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

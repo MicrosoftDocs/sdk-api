@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 9d63d7b5-4454-4301-b467-eea82bace6ff, EndSave, EndSave method [Media Foundation], EndSave method [Media Foundation],IMFSaveJob interface, IMFSaveJob interface [Media Foundation],EndSave method, IMFSaveJob.EndSave, IMFSaveJob::EndSave, mf.imfsavejob_endsave, mfidl/IMFSaveJob::EndSave
 ms.topic: method
-f1_keywords: ["mfidl/IMFSaveJob.EndSave"]
+f1_keywords: 
+ - "mfidl/IMFSaveJob.EndSave"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

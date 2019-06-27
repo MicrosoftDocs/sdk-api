@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Media Foundation], GetType method [Media Foundation],IMFASFMutualExclusion interface, IMFASFMutualExclusion interface [Media Foundation],GetType method, IMFASFMutualExclusion.GetType, IMFASFMutualExclusion::GetType, c6af870e-2ef8-4dea-b76b-7a78ceaaa3d3, mf.imfasfmutualexclusion_gettype, wmcontainer/IMFASFMutualExclusion::GetType
 ms.topic: method
-f1_keywords: ["wmcontainer/IMFASFMutualExclusion.GetType"]
+f1_keywords: 
+ - "wmcontainer/IMFASFMutualExclusion.GetType"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

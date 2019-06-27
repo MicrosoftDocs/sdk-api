@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPaxosTagCStruct, PPaxosTagCStruct, PPaxosTagCStruct structure pointer [Failover Cluster], PaxosTagCStruct, PaxosTagCStruct structure [Failover Cluster], mscs.paxostagcstruct, resapi/PPaxosTagCStruct, resapi/PaxosTagCStruct"
 ms.topic: struct
-f1_keywords: ["resapi/PaxosTagCStruct"]
+f1_keywords: 
+ - "resapi/PaxosTagCStruct"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

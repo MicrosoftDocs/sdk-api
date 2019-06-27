@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LookupPersistentTcpPortReservation, LookupPersistentTcpPortReservation function [IP Helper], iphlp.lookuppersistenttcpportreservation, iphlpapi/LookupPersistentTcpPortReservation
 ms.topic: function
-f1_keywords: ["iphlpapi/LookupPersistentTcpPortReservation"]
+f1_keywords: 
+ - "iphlpapi/LookupPersistentTcpPortReservation"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

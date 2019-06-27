@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDocument interface [XPS Documents and Packaging],SetDocumentStructureResource method, IXpsOMDocument.SetDocumentStructureResource, IXpsOMDocument::SetDocumentStructureResource, SetDocumentStructureResource, SetDocumentStructureResource method [XPS Documents and Packaging], SetDocumentStructureResource method [XPS Documents and Packaging],IXpsOMDocument interface, xps.ixpsomdocument_setdocumentstructureresource, xpsobjectmodel/IXpsOMDocument::SetDocumentStructureResource
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMDocument.SetDocumentStructureResource"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMDocument.SetDocumentStructureResource"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

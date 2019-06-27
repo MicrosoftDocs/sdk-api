@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddEditBox, AddEditBox method [Windows Shell], AddEditBox method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddEditBox method, IFileDialogCustomize.AddEditBox, IFileDialogCustomize::AddEditBox, shell.IFileDialogCustomize_AddEditBox, shell_IFileDialogCustomize_AddEditBox, shobjidl_core/IFileDialogCustomize::AddEditBox
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileDialogCustomize.AddEditBox"]
+f1_keywords: 
+ - "shobjidl_core/IFileDialogCustomize.AddEditBox"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

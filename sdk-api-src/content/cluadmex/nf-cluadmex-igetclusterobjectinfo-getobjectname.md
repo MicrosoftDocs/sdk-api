@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetObjectName, GetObjectName method [Failover Cluster], GetObjectName method [Failover Cluster],IGetClusterObjectInfo interface, IGetClusterObjectInfo interface [Failover Cluster],GetObjectName method, IGetClusterObjectInfo.GetObjectName, IGetClusterObjectInfo::GetObjectName, _wolf_igetclusterobjectinfo_getobjectname, cluadmex/IGetClusterObjectInfo::GetObjectName, mscs.igetclusterobjectinfo_getobjectname
 ms.topic: method
-f1_keywords: ["cluadmex/IGetClusterObjectInfo.GetObjectName"]
+f1_keywords: 
+ - "cluadmex/IGetClusterObjectInfo.GetObjectName"
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

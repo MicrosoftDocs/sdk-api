@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDashCollection, IXpsOMDashCollection interface [XPS Documents and Packaging], IXpsOMDashCollection interface [XPS Documents and Packaging],described, xps.ixpsomdashcollection, xpsobjectmodel/IXpsOMDashCollection
 ms.topic: interface
-f1_keywords: ["xpsobjectmodel/IXpsOMDashCollection"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMDashCollection"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPlaybackRate, GetPlaybackRate method [Media Foundation], GetPlaybackRate method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetPlaybackRate method, IMFMediaEngine.GetPlaybackRate, IMFMediaEngine::GetPlaybackRate, mf.imfmediaengine_getplaybackrate, mfmediaengine/IMFMediaEngine::GetPlaybackRate
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngine.GetPlaybackRate"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngine.GetPlaybackRate"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

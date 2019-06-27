@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleUIObjInfo interface [COM],SetViewInfo method, IOleUIObjInfo::SetViewInfo, IOleUIObjInfoA interface [COM],SetViewInfo method, IOleUIObjInfoA.SetViewInfo, IOleUIObjInfoA::SetViewInfo, IOleUIObjInfoW interface [COM],SetViewInfo method, IOleUIObjInfoW::SetViewInfo, SetViewInfo, SetViewInfo method [COM], SetViewInfo method [COM],IOleUIObjInfo interface, SetViewInfo method [COM],IOleUIObjInfoA interface, SetViewInfo method [COM],IOleUIObjInfoW interface, _ole_IOleUIObjInfo_SetViewInfo, com.ioleuiobjinfo_setviewinfo, oledlg/IOleUIObjInfo::SetViewInfo, oledlg/IOleUIObjInfoA::SetViewInfo, oledlg/IOleUIObjInfoW::SetViewInfo
 ms.topic: method
-f1_keywords: ["oledlg/IOleUIObjInfo.SetViewInfo"]
+f1_keywords: 
+ - "oledlg/IOleUIObjInfo.SetViewInfo"
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

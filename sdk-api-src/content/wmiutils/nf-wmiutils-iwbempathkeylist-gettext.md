@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetText, GetText method [Windows Management Instrumentation], GetText method [Windows Management Instrumentation],IWbemPathKeyList interface, IWbemPathKeyList interface [Windows Management Instrumentation],GetText method, IWbemPathKeyList.GetText, IWbemPathKeyList::GetText, WBEMPATH_QUOTEDTEXT, WBEMPATH_TEXT, _hmm_iwbempathkeylist_gettext, wmi.iwbempathkeylist_gettext, wmiutils/IWbemPathKeyList::GetText
 ms.topic: method
-f1_keywords: ["wmiutils/IWbemPathKeyList.GetText"]
+f1_keywords: 
+ - "wmiutils/IWbemPathKeyList.GetText"
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

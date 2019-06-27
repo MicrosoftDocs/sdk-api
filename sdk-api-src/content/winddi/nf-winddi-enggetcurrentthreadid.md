@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngGetCurrentThreadId, EngGetCurrentThreadId function [Display Devices], display.enggetcurrentthreadid, gdifncs_f6b5f95d-aa1b-4ff9-8523-79f6e2baef9d.xml, winddi/EngGetCurrentThreadId
 ms.topic: function
-f1_keywords: ["winddi/EngGetCurrentThreadId"]
+f1_keywords: 
+ - "winddi/EngGetCurrentThreadId"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

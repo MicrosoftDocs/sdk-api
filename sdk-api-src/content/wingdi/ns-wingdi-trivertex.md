@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPTRIVERTEX, *PTRIVERTEX, PTRIVERTEX, PTRIVERTEX structure pointer [Windows GDI], TRIVERTEX, TRIVERTEX structure [Windows GDI], _win32_TRIVERTEX_str, gdi.trivertex, wingdi/PTRIVERTEX, wingdi/TRIVERTEX"
 ms.topic: struct
-f1_keywords: ["wingdi/TRIVERTEX"]
+f1_keywords: 
+ - "wingdi/TRIVERTEX"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

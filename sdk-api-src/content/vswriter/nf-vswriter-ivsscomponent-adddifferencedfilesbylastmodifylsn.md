@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddDifferencedFilesByLastModifyLSN, AddDifferencedFilesByLastModifyLSN method [VSS], AddDifferencedFilesByLastModifyLSN method [VSS],IVssComponent interface, IVssComponent interface [VSS],AddDifferencedFilesByLastModifyLSN method, IVssComponent.AddDifferencedFilesByLastModifyLSN, IVssComponent::AddDifferencedFilesByLastModifyLSN, _win32_ivsscomponent_adddifferencedfilesbylastmodifylsn, base.ivsscomponent_adddifferencedfilesbylastmodifylsn, vswriter/IVssComponent::AddDifferencedFilesByLastModifyLSN
 ms.topic: method
-f1_keywords: ["vswriter/IVssComponent.AddDifferencedFilesByLastModifyLSN"]
+f1_keywords: 
+ - "vswriter/IVssComponent.AddDifferencedFilesByLastModifyLSN"
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

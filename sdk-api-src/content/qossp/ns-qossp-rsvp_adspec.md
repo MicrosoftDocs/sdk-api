@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPRSVP_ADSPEC, LPRSVP_ADSPEC, LPRSVP_ADSPEC structure pointer [QOS], RSVP_ADSPEC, RSVP_ADSPEC structure [QOS], _gqos_rsvp_adspec, qos.rsvp_adspec, qossp/LPRSVP_ADSPEC, qossp/RSVP_ADSPEC"
 ms.topic: struct
-f1_keywords: ["qossp/RSVP_ADSPEC"]
+f1_keywords: 
+ - "qossp/RSVP_ADSPEC"
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows

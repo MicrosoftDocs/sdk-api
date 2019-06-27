@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHelperTokenSid, GetHelperTokenSid method [BITS], GetHelperTokenSid method [BITS],IBitsTokenOptions interface, IBitsTokenOptions interface [BITS],GetHelperTokenSid method, IBitsTokenOptions.GetHelperTokenSid, IBitsTokenOptions::GetHelperTokenSid, bits.ibitstokenoptions_gethelpertokensid, bits4_0/IBitsTokenOptions::GetHelperTokenSid
 ms.topic: method
-f1_keywords: ["bits4_0/IBitsTokenOptions.GetHelperTokenSid"]
+f1_keywords: 
+ - "bits4_0/IBitsTokenOptions.GetHelperTokenSid"
 req.header: bits4_0.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PCS_PHONEINFO, PCS_PHONENAME, PCS_PROVIDERINFO, PHONECAPS_STRING, PHONECAPS_STRING enumeration [TAPI 2.2], _tapi3_phonecaps_string, tapi3.phonecaps_string, tapi3if/PCS_PHONEINFO, tapi3if/PCS_PHONENAME, tapi3if/PCS_PROVIDERINFO, tapi3if/PHONECAPS_STRING
 ms.topic: enum
-f1_keywords: ["tapi3if/PHONECAPS_STRING"]
+f1_keywords: 
+ - "tapi3if/PHONECAPS_STRING"
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

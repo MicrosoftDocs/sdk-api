@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTapePartition, CreateTapePartition function [Backup], TAPE_FIXED_PARTITIONS, TAPE_INITIATOR_PARTITIONS, TAPE_SELECT_PARTITIONS, _win32_createtapepartition, backup.createtapepartition, base.createtapepartition, winbase/CreateTapePartition
 ms.topic: function
-f1_keywords: ["winbase/CreateTapePartition"]
+f1_keywords: 
+ - "winbase/CreateTapePartition"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

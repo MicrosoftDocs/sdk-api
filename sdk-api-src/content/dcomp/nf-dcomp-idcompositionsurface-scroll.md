@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionSurface interface [DirectComposition],Scroll method, IDCompositionSurface.Scroll, IDCompositionSurface::Scroll, Scroll, Scroll method [DirectComposition], Scroll method [DirectComposition],IDCompositionSurface interface, dcomp/IDCompositionSurface::Scroll, directcomp.idcompositionsurface_scroll
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionSurface.Scroll"]
+f1_keywords: 
+ - "dcomp/IDCompositionSurface.Scroll"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

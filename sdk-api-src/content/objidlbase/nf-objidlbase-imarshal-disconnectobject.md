@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisconnectObject, DisconnectObject method [COM], DisconnectObject method [COM],IMarshal interface, IMarshal interface [COM],DisconnectObject method, IMarshal.DisconnectObject, IMarshal::DisconnectObject, _com_imarshal_disconnectobject, com.imarshal_disconnectobject, objidlbase/IMarshal::DisconnectObject
 ms.topic: method
-f1_keywords: ["objidlbase/IMarshal.DisconnectObject"]
+f1_keywords: 
+ - "objidlbase/IMarshal.DisconnectObject"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

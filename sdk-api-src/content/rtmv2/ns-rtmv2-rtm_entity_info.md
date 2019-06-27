@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRTM_ENTITY_INFO, PRTM_ENTITY_INFO, PRTM_ENTITY_INFO structure pointer [RAS], RTM_ENTITY_INFO, RTM_ENTITY_INFO structure [RAS], _rtmv2ref_rtm_entity_info, rras.rtm_entity_info, rtmv2/PRTM_ENTITY_INFO, rtmv2/RTM_ENTITY_INFO"
 ms.topic: struct
-f1_keywords: ["rtmv2/RTM_ENTITY_INFO"]
+f1_keywords: 
+ - "rtmv2/RTM_ENTITY_INFO"
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

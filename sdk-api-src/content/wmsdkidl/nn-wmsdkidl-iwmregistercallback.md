@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMRegisterCallback, IWMRegisterCallback interface [windows Media Format], IWMRegisterCallback interface [windows Media Format],described, IWMRegisterCallbackInterface, wmformat.iwmregistercallback, wmsdkidl/IWMRegisterCallback
 ms.topic: interface
-f1_keywords: ["wmsdkidl/IWMRegisterCallback"]
+f1_keywords: 
+ - "wmsdkidl/IWMRegisterCallback"
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

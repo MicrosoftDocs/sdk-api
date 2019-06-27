@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSSD_ADDR_IPv4, TSSD_ADDR_IPv6, TSSD_ADDR_UNDEFINED, TSSD_AddrV46Type, TSSD_AddrV46Type enumeration [Remote Desktop Services], sessdirpublictypes/TSSD_ADDR_IPv4, sessdirpublictypes/TSSD_ADDR_IPv6, sessdirpublictypes/TSSD_ADDR_UNDEFINED, sessdirpublictypes/TSSD_AddrV46Type, termserv.tssd_addrv46type
 ms.topic: enum
-f1_keywords: ["sessdirpublictypes/TSSD_AddrV46Type"]
+f1_keywords: 
+ - "sessdirpublictypes/TSSD_AddrV46Type"
 req.header: sessdirpublictypes.h
 req.include-header: 
 req.target-type: Windows

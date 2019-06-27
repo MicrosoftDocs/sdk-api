@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDevicePair interface [Media Streaming API],get_Renderer method, IDevicePair.get_Renderer, IDevicePair.streaming, IDevicePair::get_Renderer, IDevicePair::streaming, get_Renderer, get_Renderer method [Media Streaming API], get_Renderer method [Media Streaming API],IDevicePair interface, mediastreaming.idevicepair_renderer, windows/IDevicePair::get_Renderer
 ms.topic: method
-f1_keywords: ["windows.media.streaming/IDevicePair.get_Renderer"]
+f1_keywords: 
+ - "windows.media.streaming/IDevicePair.get_Renderer"
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

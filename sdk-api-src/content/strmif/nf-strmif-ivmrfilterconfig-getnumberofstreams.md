@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfStreams, GetNumberOfStreams method [DirectShow], GetNumberOfStreams method [DirectShow],IVMRFilterConfig interface, IVMRFilterConfig interface [DirectShow],GetNumberOfStreams method, IVMRFilterConfig.GetNumberOfStreams, IVMRFilterConfig::GetNumberOfStreams, IVMRFilterConfigGetNumberOfStreams, dshow.ivmrfilterconfig_getnumberofstreams, strmif/IVMRFilterConfig::GetNumberOfStreams
 ms.topic: method
-f1_keywords: ["strmif/IVMRFilterConfig.GetNumberOfStreams"]
+f1_keywords: 
+ - "strmif/IVMRFilterConfig.GetNumberOfStreams"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateIcon, CreateIcon function [Menus and Other Resources], _win32_CreateIcon, _win32_createicon_cpp, menurc.createicon, winui._win32_createicon, winuser/CreateIcon
 ms.topic: function
-f1_keywords: ["winuser/CreateIcon"]
+f1_keywords: 
+ - "winuser/CreateIcon"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

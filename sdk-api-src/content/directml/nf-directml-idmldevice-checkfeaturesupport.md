@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CheckFeatureSupport, CheckFeatureSupport method, CheckFeatureSupport method,IDMLDevice interface, IDMLDevice interface,CheckFeatureSupport method, IDMLDevice.CheckFeatureSupport, IDMLDevice::CheckFeatureSupport, direct3d12.idmldevice_checkfeaturesupport, directml/IDMLDevice::CheckFeatureSupport
 ms.topic: method
-f1_keywords: ["directml/IDMLDevice.CheckFeatureSupport"]
+f1_keywords: 
+ - "directml/IDMLDevice.CheckFeatureSupport"
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

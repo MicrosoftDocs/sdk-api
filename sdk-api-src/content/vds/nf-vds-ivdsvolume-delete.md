@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],Delete method, IVdsVolume.Delete, IVdsVolume::Delete, base.ivdsvolume_delete, vds/IVdsVolume::Delete
 ms.topic: method
-f1_keywords: ["vds/IVdsVolume.Delete"]
+f1_keywords: 
+ - "vds/IVdsVolume.Delete"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

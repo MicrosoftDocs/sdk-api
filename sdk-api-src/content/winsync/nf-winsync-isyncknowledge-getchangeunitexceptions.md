@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetChangeUnitExceptions, GetChangeUnitExceptions method [Windows Sync], GetChangeUnitExceptions method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetChangeUnitExceptions method, ISyncKnowledge.GetChangeUnitExceptions, ISyncKnowledge::GetChangeUnitExceptions, winsync.isyncknowledge_getchangeunitexceptions, winsync/ISyncKnowledge::GetChangeUnitExceptions
 ms.topic: method
-f1_keywords: ["winsync/ISyncKnowledge.GetChangeUnitExceptions"]
+f1_keywords: 
+ - "winsync/ISyncKnowledge.GetChangeUnitExceptions"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

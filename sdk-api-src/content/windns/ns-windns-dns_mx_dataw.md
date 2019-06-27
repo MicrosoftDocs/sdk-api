@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDNS_MX_DATA, *PDNS_MX_DATAW, DNS_MX_DATA, DNS_MX_DATA structure [DNS], DNS_MX_DATAW, PDNS_MX_DATA, PDNS_MX_DATA structure pointer [DNS], _dns_dns_mx_data, dns.dns_mx_data, windns/DNS_MX_DATA, windns/PDNS_MX_DATA"
 ms.topic: struct
-f1_keywords: ["windns/DNS_MX_DATA"]
+f1_keywords: 
+ - "windns/DNS_MX_DATA"
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

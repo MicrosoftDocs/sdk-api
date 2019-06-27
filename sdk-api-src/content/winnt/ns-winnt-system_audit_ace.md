@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSYSTEM_AUDIT_ACE, PSYSTEM_AUDIT_ACE, PSYSTEM_AUDIT_ACE structure pointer [Security], SYSTEM_AUDIT_ACE, SYSTEM_AUDIT_ACE structure [Security], _SYSTEM_AUDIT_ACE, _win32_system_audit_ace_str, security.system_audit_ace, winnt/PSYSTEM_AUDIT_ACE, winnt/SYSTEM_AUDIT_ACE"
 ms.topic: struct
-f1_keywords: ["winnt/SYSTEM_AUDIT_ACE"]
+f1_keywords: 
+ - "winnt/SYSTEM_AUDIT_ACE"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

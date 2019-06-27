@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWindowsDriverUpdateEntryCollection interface [Windows Update Agent],Item property, IWindowsDriverUpdateEntryCollection.Item, IWindowsDriverUpdateEntryCollection.get_Item, IWindowsDriverUpdateEntryCollection::Item, IWindowsDriverUpdateEntryCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],IWindowsDriverUpdateEntryCollection interface, get_Item, wua.iwindowsdriverupdateentrycollection_item, wuapi/IWindowsDriverUpdateEntryCollection::Item, wuapi/IWindowsDriverUpdateEntryCollection::get_Item
 ms.topic: method
-f1_keywords: ["wuapi/IWindowsDriverUpdateEntryCollection.Item"]
+f1_keywords: 
+ - "wuapi/IWindowsDriverUpdateEntryCollection.Item"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

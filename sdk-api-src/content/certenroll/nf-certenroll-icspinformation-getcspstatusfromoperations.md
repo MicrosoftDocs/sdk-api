@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCspStatusFromOperations, GetCspStatusFromOperations method [Security], GetCspStatusFromOperations method [Security],ICspInformation interface, ICspInformation interface [Security],GetCspStatusFromOperations method, ICspInformation.GetCspStatusFromOperations, ICspInformation::GetCspStatusFromOperations, certenroll/ICspInformation::GetCspStatusFromOperations, security.icspinformation_getcspstatusfromoperations
 ms.topic: method
-f1_keywords: ["certenroll/ICspInformation.GetCspStatusFromOperations"]
+f1_keywords: 
+ - "certenroll/ICspInformation.GetCspStatusFromOperations"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

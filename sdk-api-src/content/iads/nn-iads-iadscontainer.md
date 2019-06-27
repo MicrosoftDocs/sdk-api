@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsContainer, IADsContainer interface [ADSI], IADsContainer interface [ADSI],described, _ds_iadscontainer, adsi.iadscontainer, iads/IADsContainer
 ms.topic: interface
-f1_keywords: ["iads/IADsContainer"]
+f1_keywords: 
+ - "iads/IADsContainer"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

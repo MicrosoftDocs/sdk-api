@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count, Count method [DirectShow], Count method [DirectShow],IAMStreamSelect interface, IAMStreamSelect interface [DirectShow],Count method, IAMStreamSelect.Count, IAMStreamSelect::Count, IAMStreamSelectCount, dshow.iamstreamselect_count, strmif/IAMStreamSelect::Count
 ms.topic: method
-f1_keywords: ["strmif/IAMStreamSelect.Count"]
+f1_keywords: 
+ - "strmif/IAMStreamSelect.Count"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

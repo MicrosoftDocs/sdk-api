@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumSingleItemExceptions interface, IEnumSingleItemExceptions interface [Windows Sync],Clone method, IEnumSingleItemExceptions.Clone, IEnumSingleItemExceptions::Clone, winsync.ienumsingleitemexceptions_clone, winsync/IEnumSingleItemExceptions::Clone
 ms.topic: method
-f1_keywords: ["winsync/IEnumSingleItemExceptions.Clone"]
+f1_keywords: 
+ - "winsync/IEnumSingleItemExceptions.Clone"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

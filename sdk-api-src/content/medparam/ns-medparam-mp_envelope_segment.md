@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MPF_ENVLP_BEGIN_CURRENTVAL, MPF_ENVLP_BEGIN_NEUTRALVAL, MPF_ENVLP_STANDARD, MP_ENVELOPEStructure, MP_ENVELOPE_SEGMENT, MP_ENVELOPE_SEGMENT structure [DirectShow], dshow.mp_envelope_segment, medparam/MP_ENVELOPE_SEGMENT
 ms.topic: struct
-f1_keywords: ["medparam/MP_ENVELOPE_SEGMENT"]
+f1_keywords: 
+ - "medparam/MP_ENVELOPE_SEGMENT"
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows

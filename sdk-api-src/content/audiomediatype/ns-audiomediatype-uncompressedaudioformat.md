@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UNCOMPRESSEDAUDIOFORMAT, UNCOMPRESSEDAUDIOFORMAT structure [Audio Devices], aud-prop_077921c9-89ee-44ca-a585-d87e4d025c16.xml, audio.uncompressedauudioformat, audiomediatype/UNCOMPRESSEDAUUDIOFORMAT
 ms.topic: struct
-f1_keywords: ["audiomediatype/UNCOMPRESSEDAUDIOFORMAT"]
+f1_keywords: 
+ - "audiomediatype/UNCOMPRESSEDAUDIOFORMAT"
 req.header: audiomediatype.h
 req.include-header: Audiomediatype.h
 req.target-type: Windows

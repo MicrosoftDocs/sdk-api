@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSubSystem, GetSubSystem method [VDS], GetSubSystem method [VDS],IVdsLun interface, IVdsLun interface [VDS],GetSubSystem method, IVdsLun.GetSubSystem, IVdsLun::GetSubSystem, base.ivdslun_getsubsystem, vds/IVdsLun::GetSubSystem, vdshwprv/IVdsLun::GetSubSystem
 ms.topic: method
-f1_keywords: ["vds/IVdsLun.GetSubSystem"]
+f1_keywords: 
+ - "vds/IVdsLun.GetSubSystem"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

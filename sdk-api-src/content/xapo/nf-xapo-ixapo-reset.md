@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXAPO interface [XAudio2 Audio Mixing APIs],Reset method, IXAPO.Reset, IXAPO::Reset, Reset, Reset method [XAudio2 Audio Mixing APIs], Reset method [XAudio2 Audio Mixing APIs],IXAPO interface, xapo/IXAPO::Reset, xaudio2.ixapo_interface_reset
 ms.topic: method
-f1_keywords: ["xapo/IXAPO.Reset"]
+f1_keywords: 
+ - "xapo/IXAPO.Reset"
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows

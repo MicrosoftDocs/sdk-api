@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConnectionStatus, ConnectionStatus enumeration [Media Streaming API], Offline, Online, Sleeping, mediastreaming.connectionstatus, windows/ConnectionStatus, windows/Offline, windows/Online, windows/Sleeping
 ms.topic: enum
-f1_keywords: ["windows.media.streaming/ConnectionStatus"]
+f1_keywords: 
+ - "windows.media.streaming/ConnectionStatus"
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

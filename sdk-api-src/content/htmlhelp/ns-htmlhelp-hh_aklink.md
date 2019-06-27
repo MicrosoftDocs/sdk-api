@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HH_AKLINK, HH_AKLINK structure [HTML Help Workshop], htmlhelp.hh_aklink_structure, htmlhelp/HH_AKLINK, vsconStrhhaklink
 ms.topic: struct
-f1_keywords: ["htmlhelp/HH_AKLINK"]
+f1_keywords: 
+ - "htmlhelp/HH_AKLINK"
 req.header: htmlhelp.h
 req.include-header: 
 req.target-type: Windows

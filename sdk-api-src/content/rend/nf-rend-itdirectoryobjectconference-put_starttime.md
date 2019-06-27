@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_StartTime method, ITDirectoryObjectConference.put_StartTime, ITDirectoryObjectConference::put_StartTime, _tapi3_itdirectoryobjectconference_put_starttime, put_StartTime, put_StartTime method [TAPI 2.2], put_StartTime method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_StartTime, tapi3.itdirectoryobjectconference_put_starttime
 ms.topic: method
-f1_keywords: ["rend/ITDirectoryObjectConference.put_StartTime"]
+f1_keywords: 
+ - "rend/ITDirectoryObjectConference.put_StartTime"
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

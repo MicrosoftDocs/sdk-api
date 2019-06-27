@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsServiceOperations interface [ADSI],Start method, IADsServiceOperations.Start, IADsServiceOperations::Start, Start, Start method [ADSI], Start method [ADSI],IADsServiceOperations interface, _ds_iadsserviceoperations_start, adsi.iadsserviceoperations__start, adsi.iadsserviceoperations_start, iads/IADsServiceOperations::Start
 ms.topic: method
-f1_keywords: ["iads/IADsServiceOperations.Start"]
+f1_keywords: 
+ - "iads/IADsServiceOperations.Start"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

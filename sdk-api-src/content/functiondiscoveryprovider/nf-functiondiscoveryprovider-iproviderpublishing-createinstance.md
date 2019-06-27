@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method, CreateInstance method,IProviderPublishing interface, IProviderPublishing interface,CreateInstance method, IProviderPublishing.CreateInstance, IProviderPublishing::CreateInstance, functiondiscoveryprovider/IProviderPublishing::CreateInstance, ncd.iproviderpublishing_createinstance_method, ncd.iproviderpublishing_oncreateinstance_method
 ms.topic: method
-f1_keywords: ["functiondiscoveryprovider/IProviderPublishing.CreateInstance"]
+f1_keywords: 
+ - "functiondiscoveryprovider/IProviderPublishing.CreateInstance"
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

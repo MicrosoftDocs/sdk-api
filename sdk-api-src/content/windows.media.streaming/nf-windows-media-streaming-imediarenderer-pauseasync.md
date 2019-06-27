@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],PauseAsync method, IMediaRenderer.PauseAsync, IMediaRenderer.streaming, IMediaRenderer::PauseAsync, IMediaRenderer::streaming, PauseAsync, PauseAsync method [Media Streaming API], PauseAsync method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_pauseasync, windows/IMediaRenderer::PauseAsync
 ms.topic: method
-f1_keywords: ["windows.media.streaming/IMediaRenderer.PauseAsync"]
+f1_keywords: 
+ - "windows.media.streaming/IMediaRenderer.PauseAsync"
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

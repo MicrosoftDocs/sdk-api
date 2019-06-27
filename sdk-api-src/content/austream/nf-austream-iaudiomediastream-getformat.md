@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFormat, GetFormat method [DirectShow], GetFormat method [DirectShow],IAudioMediaStream interface, IAudioMediaStream interface [DirectShow],GetFormat method, IAudioMediaStream.GetFormat, IAudioMediaStream::GetFormat, IAudioMediaStreamGetFormat, austream/IAudioMediaStream::GetFormat, dshow.iaudiomediastream_getformat
 ms.topic: method
-f1_keywords: ["austream/IAudioMediaStream.GetFormat"]
+f1_keywords: 
+ - "austream/IAudioMediaStream.GetFormat"
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows

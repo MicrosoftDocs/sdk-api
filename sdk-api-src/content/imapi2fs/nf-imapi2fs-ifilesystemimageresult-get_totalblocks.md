@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImageResult interface [IMAPI],get_TotalBlocks method, IFileSystemImageResult.get_TotalBlocks, IFileSystemImageResult::get_TotalBlocks, get_TotalBlocks, get_TotalBlocks method [IMAPI], get_TotalBlocks method [IMAPI],IFileSystemImageResult interface, imapi.ifilesystemimageresult_get_totalblocks, imapi2fs/IFileSystemImageResult::get_TotalBlocks
 ms.topic: method
-f1_keywords: ["imapi2fs/IFileSystemImageResult.get_TotalBlocks"]
+f1_keywords: 
+ - "imapi2fs/IFileSystemImageResult.get_TotalBlocks"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

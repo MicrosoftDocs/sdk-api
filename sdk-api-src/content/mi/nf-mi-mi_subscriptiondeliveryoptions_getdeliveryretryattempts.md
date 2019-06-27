@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetDeliveryRetryAttempts, MI_SubscriptionDeliveryOptions_GetDeliveryRetryAttempts function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetDeliveryRetryAttempts, wmi_v2.mi_subscriptiondeliveryoptions_getdeliveryretryattempts
 ms.topic: function
-f1_keywords: ["mi/MI_SubscriptionDeliveryOptions_GetDeliveryRetryAttempts"]
+f1_keywords: 
+ - "mi/MI_SubscriptionDeliveryOptions_GetDeliveryRetryAttempts"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

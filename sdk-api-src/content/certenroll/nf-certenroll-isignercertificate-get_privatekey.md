@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISignerCertificate interface [Security],PrivateKey property, ISignerCertificate.PrivateKey, ISignerCertificate.get_PrivateKey, ISignerCertificate::PrivateKey, ISignerCertificate::get_PrivateKey, PrivateKey property [Security], PrivateKey property [Security],ISignerCertificate interface, certenroll/ISignerCertificate::PrivateKey, certenroll/ISignerCertificate::get_PrivateKey, get_PrivateKey, security.isignercertificate_privatekey_property
 ms.topic: method
-f1_keywords: ["certenroll/ISignerCertificate.PrivateKey"]
+f1_keywords: 
+ - "certenroll/ISignerCertificate.PrivateKey"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMultisessionRandomWrite interface [IMAPI],get_TotalSectorsOnMedia method, IMultisessionRandomWrite.get_TotalSectorsOnMedia, IMultisessionRandomWrite::get_TotalSectorsOnMedia, get_TotalSectorsOnMedia, get_TotalSectorsOnMedia method [IMAPI], get_TotalSectorsOnMedia method [IMAPI],IMultisessionRandomWrite interface, imapi.imultisessionrandomwrite_get_totalsectorsonmedia, imapi2/IMultisessionRandomWrite::get_TotalSectorsOnMedia
 ms.topic: method
-f1_keywords: ["imapi2/IMultisessionRandomWrite.get_TotalSectorsOnMedia"]
+f1_keywords: 
+ - "imapi2/IMultisessionRandomWrite.get_TotalSectorsOnMedia"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateConnectionProfile, CreateConnectionProfile method [Microsoft Broadband Networks], CreateConnectionProfile method [Microsoft Broadband Networks],IMbnConnectionProfileManager interface, IMbnConnectionProfileManager interface [Microsoft Broadband Networks],CreateConnectionProfile method, IMbnConnectionProfileManager.CreateConnectionProfile, IMbnConnectionProfileManager::CreateConnectionProfile, mbn.imbnconnectionprofilemanager_createconnectionprofile, mbnapi/IMbnConnectionProfileManager::CreateConnectionProfile
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnConnectionProfileManager.CreateConnectionProfile"]
+f1_keywords: 
+ - "mbnapi/IMbnConnectionProfileManager.CreateConnectionProfile"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

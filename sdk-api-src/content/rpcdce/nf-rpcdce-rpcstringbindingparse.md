@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcStringBindingParse, RpcStringBindingParse function [RPC], RpcStringBindingParseA, RpcStringBindingParseW, _rpc_rpcstringbindingparse, rpc.rpcstringbindingparse, rpcdce/RpcStringBindingParse, rpcdce/RpcStringBindingParseA, rpcdce/RpcStringBindingParseW
 ms.topic: function
-f1_keywords: ["rpcdce/RpcStringBindingParse"]
+f1_keywords: 
+ - "rpcdce/RpcStringBindingParse"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

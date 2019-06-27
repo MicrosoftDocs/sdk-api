@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbOrchestrationNotifySink, ITsSbOrchestrationNotifySink interface [Remote Desktop Services], ITsSbOrchestrationNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbOrchestrationNotifySink, termserv.itssborchestrationnotifysink
 ms.topic: interface
-f1_keywords: ["sbtsv/ITsSbOrchestrationNotifySink"]
+f1_keywords: 
+ - "sbtsv/ITsSbOrchestrationNotifySink"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

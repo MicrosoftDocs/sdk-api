@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTerminal, IEnumTerminal interface [TAPI 2.2], IEnumTerminal interface [TAPI 2.2],described, _tapi3_ienumterminal, tapi3.ienumterminal, tapi3if/IEnumTerminal
 ms.topic: interface
-f1_keywords: ["tapi3if/IEnumTerminal"]
+f1_keywords: 
+ - "tapi3if/IEnumTerminal"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

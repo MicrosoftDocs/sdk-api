@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeviceIoControlSync, DeviceIoControlSync method [Device Access Broker API], DeviceIoControlSync method [Device Access Broker API],IDeviceIoControl interface, IDeviceIoControl interface [Device Access Broker API],DeviceIoControlSync method, IDeviceIoControl.DeviceIoControlSync, IDeviceIoControl::DeviceIoControlSync, deviceaccess.ideviceiocontrol_deviceiocontrolsync, deviceaccess/IDeviceIoControl::DeviceIoControlSync
 ms.topic: method
-f1_keywords: ["deviceaccess/IDeviceIoControl.DeviceIoControlSync"]
+f1_keywords: 
+ - "deviceaccess/IDeviceIoControl.DeviceIoControlSync"
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows

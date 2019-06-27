@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6a7bf7b6-62f1-4eac-9849-39021ee50f42, MFCreateCollection, MFCreateCollection function [Media Foundation], mf.mfcreatecollection, mfapi/MFCreateCollection
 ms.topic: function
-f1_keywords: ["mfapi/MFCreateCollection"]
+f1_keywords: 
+ - "mfapi/MFCreateCollection"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAdvise, GetAdvise method [COM], GetAdvise method [COM],IViewObject interface, IViewObject interface [COM],GetAdvise method, IViewObject.GetAdvise, IViewObject::GetAdvise, _ole_iviewobject_getadvise, com.iviewobject_getadvise, oleidl/IViewObject::GetAdvise
 ms.topic: method
-f1_keywords: ["oleidl/IViewObject.GetAdvise"]
+f1_keywords: 
+ - "oleidl/IViewObject.GetAdvise"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

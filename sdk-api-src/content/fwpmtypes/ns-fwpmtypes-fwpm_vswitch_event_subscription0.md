@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPM_VSWITCH_EVENT_SUBSCRIPTION0, FWPM_VSWITCH_EVENT_SUBSCRIPTION0 structure [Filtering], fwp.fwpm_vswitch_event_subscription0, fwpmtypes/FWPM_VSWITCH_EVENT_SUBSCRIPTION0
 ms.topic: struct
-f1_keywords: ["fwpmtypes/FWPM_VSWITCH_EVENT_SUBSCRIPTION0"]
+f1_keywords: 
+ - "fwpmtypes/FWPM_VSWITCH_EVENT_SUBSCRIPTION0"
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

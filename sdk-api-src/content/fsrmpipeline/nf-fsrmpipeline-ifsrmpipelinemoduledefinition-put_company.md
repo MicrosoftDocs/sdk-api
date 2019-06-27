@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Company property [File Server Resource Manager], Company property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, IFsrmPipelineModuleDefinition interface [File Server Resource Manager],Company property, IFsrmPipelineModuleDefinition.Company, IFsrmPipelineModuleDefinition.put_Company, IFsrmPipelineModuleDefinition::Company, IFsrmPipelineModuleDefinition::get_Company, IFsrmPipelineModuleDefinition::put_Company, fs.ifsrmpipelinemoduledefinition_company, fsrm.ifsrmpipelinemoduledefinition_company, fsrmpipeline/IFsrmPipelineModuleDefinition::Company, fsrmpipeline/IFsrmPipelineModuleDefinition::get_Company, fsrmpipeline/IFsrmPipelineModuleDefinition::put_Company, put_Company
 ms.topic: method
-f1_keywords: ["fsrmpipeline/IFsrmPipelineModuleDefinition.Company"]
+f1_keywords: 
+ - "fsrmpipeline/IFsrmPipelineModuleDefinition.Company"
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRealTimeStylus interface [Tablet PC],SetAllTabletsMode method, IRealTimeStylus.SetAllTabletsMode, IRealTimeStylus::SetAllTabletsMode, SetAllTabletsMode, SetAllTabletsMode method [Tablet PC], SetAllTabletsMode method [Tablet PC],IRealTimeStylus interface, cb8b2a17-68b9-482b-b212-ad129522ff2e, rtscom/IRealTimeStylus::SetAllTabletsMode, tablet.irealtimestylus_setalltabletsmode
 ms.topic: method
-f1_keywords: ["rtscom/IRealTimeStylus.SetAllTabletsMode"]
+f1_keywords: 
+ - "rtscom/IRealTimeStylus.SetAllTabletsMode"
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

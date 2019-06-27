@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_BLEND_DESC, D3D11_BLEND_DESC structure [Direct3D 11], d3d11/D3D11_BLEND_DESC, direct3d11.d3d11_blend_desc, ed99badb-a124-6d18-9617-fc6a75dc845f
 ms.topic: struct
-f1_keywords: ["d3d11/D3D11_BLEND_DESC"]
+f1_keywords: 
+ - "d3d11/D3D11_BLEND_DESC"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

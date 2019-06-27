@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ElasticMarginBottom property [Windows Touch], ElasticMarginBottom property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],ElasticMarginBottom property, IInertiaProcessor.ElasticMarginBottom, IInertiaProcessor.put_ElasticMarginBottom, IInertiaProcessor::ElasticMarginBottom, IInertiaProcessor::get_ElasticMarginBottom, IInertiaProcessor::put_ElasticMarginBottom, manipulations/IInertiaProcessor::ElasticMarginBottom, manipulations/IInertiaProcessor::get_ElasticMarginBottom, manipulations/IInertiaProcessor::put_ElasticMarginBottom, put_ElasticMarginBottom, wintouch.iinertiaprocessor_elasticmarginbottom
 ms.topic: method
-f1_keywords: ["manipulations/IInertiaProcessor.ElasticMarginBottom"]
+f1_keywords: 
+ - "manipulations/IInertiaProcessor.ElasticMarginBottom"
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows

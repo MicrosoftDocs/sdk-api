@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnWriteDataComplete method, IMbnDeviceServicesEvents.OnWriteDataComplete, IMbnDeviceServicesEvents::OnWriteDataComplete, OnWriteDataComplete, OnWriteDataComplete method [Microsoft Broadband Networks], OnWriteDataComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onwritedatacomplete, mbnapi/IMbnDeviceServicesEvents::OnWriteDataComplete
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnDeviceServicesEvents.OnWriteDataComplete"]
+f1_keywords: 
+ - "mbnapi/IMbnDeviceServicesEvents.OnWriteDataComplete"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

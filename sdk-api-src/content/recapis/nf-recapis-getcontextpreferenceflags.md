@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetContextPreferenceFlags, GetContextPreferenceFlags function [Tablet PC], recapis/GetContextPreferenceFlags, tablet.getcontextpreferenceflags
 ms.topic: function
-f1_keywords: ["recapis/GetContextPreferenceFlags"]
+f1_keywords: 
+ - "recapis/GetContextPreferenceFlags"
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

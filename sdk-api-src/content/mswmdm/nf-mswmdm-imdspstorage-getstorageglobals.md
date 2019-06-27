@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStorageGlobals, GetStorageGlobals method [windows Media Device Manager], GetStorageGlobals method [windows Media Device Manager],IMDSPStorage interface, IMDSPStorage interface [windows Media Device Manager],GetStorageGlobals method, IMDSPStorage.GetStorageGlobals, IMDSPStorage::GetStorageGlobals, IMDSPStorageGetStorageGlobals, mswmdm/IMDSPStorage::GetStorageGlobals, wmdm.imdspstorage_getstorageglobals
 ms.topic: method
-f1_keywords: ["mswmdm/IMDSPStorage.GetStorageGlobals"]
+f1_keywords: 
+ - "mswmdm/IMDSPStorage.GetStorageGlobals"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

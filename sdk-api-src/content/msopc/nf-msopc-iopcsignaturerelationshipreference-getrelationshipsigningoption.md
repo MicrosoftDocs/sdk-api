@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRelationshipSigningOption, GetRelationshipSigningOption method [Open Packaging Conventions], GetRelationshipSigningOption method [Open Packaging Conventions],IOpcSignatureRelationshipReference interface, IOpcSignatureRelationshipReference interface [Open Packaging Conventions],GetRelationshipSigningOption method, IOpcSignatureRelationshipReference.GetRelationshipSigningOption, IOpcSignatureRelationshipReference::GetRelationshipSigningOption, msopc/IOpcSignatureRelationshipReference::GetRelationshipSigningOption, opc.iopcsignaturerelationshipreference_getrelationshipsigningoption
 ms.topic: method
-f1_keywords: ["msopc/IOpcSignatureRelationshipReference.GetRelationshipSigningOption"]
+f1_keywords: 
+ - "msopc/IOpcSignatureRelationshipReference.GetRelationshipSigningOption"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

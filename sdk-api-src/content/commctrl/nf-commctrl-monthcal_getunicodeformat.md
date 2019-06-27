@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MonthCal_GetUnicodeFormat, MonthCal_GetUnicodeFormat macro [Windows Controls], _win32_MonthCal_GetUnicodeFormat, _win32_MonthCal_GetUnicodeFormat_cpp, commctrl/MonthCal_GetUnicodeFormat, controls.MonthCal_GetUnicodeFormat, controls._win32_MonthCal_GetUnicodeFormat
 ms.topic: macro
-f1_keywords: ["commctrl/MonthCal_GetUnicodeFormat"]
+f1_keywords: 
+ - "commctrl/MonthCal_GetUnicodeFormat"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

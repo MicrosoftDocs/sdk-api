@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMStreamConfig, IAMStreamConfig interface [DirectShow], IAMStreamConfig interface [DirectShow],described, IAMStreamConfigInterface, dshow.iamstreamconfig, strmif/IAMStreamConfig
 ms.topic: interface
-f1_keywords: ["strmif/IAMStreamConfig"]
+f1_keywords: 
+ - "strmif/IAMStreamConfig"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

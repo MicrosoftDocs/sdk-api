@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GdiplusAbort, GdiplusAbort structure [GDI+], _gdiplus_STRUC_GdiplusAbort, gdiplus._gdiplus_STRUC_GdiplusAbort, gdiplustypes/GdiplusAbort
 ms.topic: struct
-f1_keywords: ["gdiplustypes/GdiplusAbort"]
+f1_keywords: 
+ - "gdiplustypes/GdiplusAbort"
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

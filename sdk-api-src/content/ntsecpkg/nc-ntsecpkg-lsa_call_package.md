@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CallPackage, CallPackage callback function [Security], LSA_CALL_PACKAGE, LSA_CALL_PACKAGE callback, _ssp_callpackage, ntsecpkg/CallPackage, security.callpackage
 ms.topic: callback
-f1_keywords: ["ntsecpkg/CallPackage"]
+f1_keywords: 
+ - "ntsecpkg/CallPackage"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

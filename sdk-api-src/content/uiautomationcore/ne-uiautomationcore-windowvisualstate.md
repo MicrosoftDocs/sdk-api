@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WindowVisualState, WindowVisualState enumeration [Windows Accessibility], WindowVisualState_Maximized, WindowVisualState_Minimized, WindowVisualState_Normal, uiauto.uiauto_WindowVisualStateEnum, uiauto_WindowVisualStateEnum, uiautomationcore/WindowVisualState, uiautomationcore/WindowVisualState_Maximized, uiautomationcore/WindowVisualState_Minimized, uiautomationcore/WindowVisualState_Normal, winauto.uiauto_WindowVisualStateEnum
 ms.topic: enum
-f1_keywords: ["uiautomationcore/WindowVisualState"]
+f1_keywords: 
+ - "uiautomationcore/WindowVisualState"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

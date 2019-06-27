@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_IPPATH_ROW, MIB_IPPATH_ROW, MIB_IPPATH_ROW structure [MIB], PMIB_IPPATH_ROW, PMIB_IPPATH_ROW structure pointer [MIB], _MIB_IPPATH_ROW, mib.mib_ippath_row, netioapi/MIB_IPPATH_ROW, netioapi/PMIB_IPPATH_ROW"
 ms.topic: struct
-f1_keywords: ["netioapi/MIB_IPPATH_ROW"]
+f1_keywords: 
+ - "netioapi/MIB_IPPATH_ROW"
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

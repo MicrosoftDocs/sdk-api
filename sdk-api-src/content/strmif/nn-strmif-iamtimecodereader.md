@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMTimecodeReader, IAMTimecodeReader interface [DirectShow], IAMTimecodeReader interface [DirectShow],described, IAMTimecodeReaderInterface, dshow.iamtimecodereader, strmif/IAMTimecodeReader
 ms.topic: interface
-f1_keywords: ["strmif/IAMTimecodeReader"]
+f1_keywords: 
+ - "strmif/IAMTimecodeReader"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

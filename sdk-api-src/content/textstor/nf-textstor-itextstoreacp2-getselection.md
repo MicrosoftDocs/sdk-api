@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSelection, GetSelection method [Text Services Framework], GetSelection method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetSelection method, ITextStoreACP2.GetSelection, ITextStoreACP2::GetSelection, textstor/ITextStoreACP2::GetSelection, tsf.itextstoreacp2_getselection
 ms.topic: method
-f1_keywords: ["textstor/ITextStoreACP2.GetSelection"]
+f1_keywords: 
+ - "textstor/ITextStoreACP2.GetSelection"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

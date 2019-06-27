@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],Parameters property, IFsrmFileManagementJob.Parameters, IFsrmFileManagementJob.get_Parameters, IFsrmFileManagementJob::Parameters, IFsrmFileManagementJob::get_Parameters, IFsrmFileManagementJob::put_Parameters, Parameters property [File Server Resource Manager], Parameters property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_parameters, fsrm.ifsrmfilemanagementjob_parameters, fsrmreports/IFsrmFileManagementJob::Parameters, fsrmreports/IFsrmFileManagementJob::get_Parameters, fsrmreports/IFsrmFileManagementJob::put_Parameters, get_Parameters
 ms.topic: method
-f1_keywords: ["fsrmreports/IFsrmFileManagementJob.Parameters"]
+f1_keywords: 
+ - "fsrmreports/IFsrmFileManagementJob.Parameters"
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

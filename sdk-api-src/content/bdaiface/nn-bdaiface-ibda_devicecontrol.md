@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_DeviceControl, IBDA_DeviceControl interface [Microsoft TV Technologies], IBDA_DeviceControl interface [Microsoft TV Technologies],described, IBDA_DeviceControlInterface, bdaiface/IBDA_DeviceControl, mstv.ibda_devicecontrol
 ms.topic: interface
-f1_keywords: ["bdaiface/IBDA_DeviceControl"]
+f1_keywords: 
+ - "bdaiface/IBDA_DeviceControl"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

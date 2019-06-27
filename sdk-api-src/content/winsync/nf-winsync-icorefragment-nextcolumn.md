@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICoreFragment interface [Windows Sync],NextColumn method, ICoreFragment.NextColumn, ICoreFragment::NextColumn, NextColumn, NextColumn method [Windows Sync], NextColumn method [Windows Sync],ICoreFragment interface, winsync.icorefragment_nextcolumn, winsync/ICoreFragment::NextColumn
 ms.topic: method
-f1_keywords: ["winsync/ICoreFragment.NextColumn"]
+f1_keywords: 
+ - "winsync/ICoreFragment.NextColumn"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

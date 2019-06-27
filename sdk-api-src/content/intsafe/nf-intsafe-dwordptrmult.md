@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWordPtrMult, DWordPtrMult function [Windows Shell], _shell_DWordPtrMult, intsafe/DWordPtrMult, shell.DWordPtrMult
 ms.topic: function
-f1_keywords: ["intsafe/DWordPtrMult"]
+f1_keywords: 
+ - "intsafe/DWordPtrMult"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetListId, GetListId method [Microsoft TV Technologies], GetListId method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetListId method, IDvbLogicalChannel2Descriptor.GetListId, IDvbLogicalChannel2Descriptor::GetListId, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListId, mstv.idvblogicalchannel2descriptor_getlistid
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbLogicalChannel2Descriptor.GetListId"]
+f1_keywords: 
+ - "dvbsiparser/IDvbLogicalChannel2Descriptor.GetListId"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

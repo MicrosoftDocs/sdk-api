@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CHANGEKIND_ADDMEMBER, CHANGEKIND_CHANGEFAILED, CHANGEKIND_DELETEMEMBER, CHANGEKIND_GENERAL, CHANGEKIND_INVALIDATE, CHANGEKIND_SETDOCUMENTATION, CHANGEKIND_SETNAMES, ITypeChangeEvents interface [Automation],RequestTypeChange method, ITypeChangeEvents.RequestTypeChange, ITypeChangeEvents::RequestTypeChange, RequestTypeChange, RequestTypeChange method [Automation], RequestTypeChange method [Automation],ITypeChangeEvents interface, _oa96_ITypeChangeEvents_RequestTypeChange, automat.itypechangeevents_requesttypechange, oaidl/ITypeChangeEvents::RequestTypeChange
 ms.topic: method
-f1_keywords: ["oaidl/ITypeChangeEvents.RequestTypeChange"]
+f1_keywords: 
+ - "oaidl/ITypeChangeEvents.RequestTypeChange"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

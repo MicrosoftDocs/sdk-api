@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PaletteType, PaletteType enumeration [GDI+], PaletteTypeCustom, PaletteTypeFixedBW, PaletteTypeFixedHalftone125, PaletteTypeFixedHalftone216, PaletteTypeFixedHalftone252, PaletteTypeFixedHalftone256, PaletteTypeFixedHalftone27, PaletteTypeFixedHalftone64, PaletteTypeFixedHalftone8, PaletteTypeOptimal, _gdiplus_ENUM_PaletteType, gdiplus._gdiplus_ENUM_PaletteType, gdipluspixelformats/PaletteType, gdipluspixelformats/PaletteTypeCustom, gdipluspixelformats/PaletteTypeFixedBW, gdipluspixelformats/PaletteTypeFixedHalftone125, gdipluspixelformats/PaletteTypeFixedHalftone216, gdipluspixelformats/PaletteTypeFixedHalftone252, gdipluspixelformats/PaletteTypeFixedHalftone256, gdipluspixelformats/PaletteTypeFixedHalftone27, gdipluspixelformats/PaletteTypeFixedHalftone64, gdipluspixelformats/PaletteTypeFixedHalftone8, gdipluspixelformats/PaletteTypeOptimal
 ms.topic: enum
-f1_keywords: ["gdipluspixelformats/PaletteType"]
+f1_keywords: 
+ - "gdipluspixelformats/PaletteType"
 req.header: gdipluspixelformats.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

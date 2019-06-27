@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaClientsAreListening, UiaClientsAreListening function [Windows Accessibility], uiauto.uiauto_UiaClientsAreListeningFunction, uiauto_UiaClientsAreListeningFunction, uiautomationcoreapi/UiaClientsAreListening, winauto.uiauto_UiaClientsAreListeningFunction
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/UiaClientsAreListening"]
+f1_keywords: 
+ - "uiautomationcoreapi/UiaClientsAreListening"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

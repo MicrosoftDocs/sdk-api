@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LookupAccountSidLocal, LookupAccountSidLocal function [Security], LookupAccountSidLocalA, LookupAccountSidLocalW, security.lookupaccountsidlocal, winbase/LookupAccountSidLocal, winbase/LookupAccountSidLocalA, winbase/LookupAccountSidLocalW
 ms.topic: function
-f1_keywords: ["winbase/LookupAccountSidLocal"]
+f1_keywords: 
+ - "winbase/LookupAccountSidLocal"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

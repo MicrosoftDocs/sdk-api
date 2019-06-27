@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WslUnregisterDistribution, WslUnregisterDistribution function, wsl.wslunregisterdistribution, wslapi/WslUnregisterDistribution
 ms.topic: function
-f1_keywords: ["wslapi/WslUnregisterDistribution"]
+f1_keywords: 
+ - "wslapi/WslUnregisterDistribution"
 req.header: wslapi.h
 req.include-header: 
 req.target-type: Windows

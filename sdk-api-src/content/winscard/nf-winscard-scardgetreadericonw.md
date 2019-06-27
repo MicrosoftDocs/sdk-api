@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SCardGetReaderIcon, SCardGetReaderIcon function [Security], SCardGetReaderIconA, SCardGetReaderIconW, security.scardgetreadericon, winscard/SCardGetReaderIcon
 ms.topic: function
-f1_keywords: ["winscard/SCardGetReaderIcon"]
+f1_keywords: 
+ - "winscard/SCardGetReaderIcon"
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

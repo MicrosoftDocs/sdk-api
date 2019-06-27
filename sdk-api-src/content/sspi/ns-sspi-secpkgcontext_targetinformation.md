@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSecPkgContext_TargetInformation, PSecPkgContext_TargetInformation, PSecPkgContext_TargetInformation structure pointer [Security], SecPkgContext_TargetInformation, SecPkgContext_TargetInformation structure [Security], security.secpkgcontext_targetinformation, sspi/PSecPkgContext_TargetInformation, sspi/SecPkgContext_TargetInformation"
 ms.topic: struct
-f1_keywords: ["sspi/SecPkgContext_TargetInformation"]
+f1_keywords: 
+ - "sspi/SecPkgContext_TargetInformation"
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PURGE_RXABORT, PURGE_RXCLEAR, PURGE_TXABORT, PURGE_TXCLEAR, PurgeComm, PurgeComm function, _win32_purgecomm, base.purgecomm, winbase/PurgeComm
 ms.topic: function
-f1_keywords: ["winbase/PurgeComm"]
+f1_keywords: 
+ - "winbase/PurgeComm"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

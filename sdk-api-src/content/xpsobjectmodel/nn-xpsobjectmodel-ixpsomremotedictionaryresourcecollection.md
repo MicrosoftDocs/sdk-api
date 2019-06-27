@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMRemoteDictionaryResourceCollection, IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging], IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging],described, xps.ixpsomremotedictionaryresourcecollection, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection
 ms.topic: interface
-f1_keywords: ["xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

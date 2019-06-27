@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IS_SURROGATE_PAIR, IS_SURROGATE_PAIR macro [Internationalization for Windows Applications], _win32_IS_SURROGATE_PAIR, intl.is_surrogate_pair, winnls/IS_SURROGATE_PAIR
 ms.topic: macro
-f1_keywords: ["winnls/IS_SURROGATE_PAIR"]
+f1_keywords: 
+ - "winnls/IS_SURROGATE_PAIR"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

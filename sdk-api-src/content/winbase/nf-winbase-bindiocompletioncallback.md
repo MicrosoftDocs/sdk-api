@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BindIoCompletionCallback, BindIoCompletionCallback function, _win32_bindiocompletioncallback, base.bindiocompletioncallback, winbase/BindIoCompletionCallback
 ms.topic: function
-f1_keywords: ["winbase/BindIoCompletionCallback"]
+f1_keywords: 
+ - "winbase/BindIoCompletionCallback"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

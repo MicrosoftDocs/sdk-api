@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestMainPackageDependenciesEnumerator interface [App packaging and management],MoveNext method, IAppxManifestMainPackageDependenciesEnumerator.MoveNext, IAppxManifestMainPackageDependenciesEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxManifestMainPackageDependenciesEnumerator interface, appxpackaging/IAppxManifestMainPackageDependenciesEnumerator::MoveNext, appxpkg.iappxmanifestmainpackagedependenciesenumerator_movenext
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxManifestMainPackageDependenciesEnumerator.MoveNext"]
+f1_keywords: 
+ - "appxpackaging/IAppxManifestMainPackageDependenciesEnumerator.MoveNext"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

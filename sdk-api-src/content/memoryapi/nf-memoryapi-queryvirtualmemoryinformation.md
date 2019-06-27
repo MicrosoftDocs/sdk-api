@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QueryVirtualMemoryInformation, QueryVirtualMemoryInformation function, base.queryvirtualmemoryinformation, memoryapi/QueryVirtualMemoryInformation
 ms.topic: function
-f1_keywords: ["memoryapi/QueryVirtualMemoryInformation"]
+f1_keywords: 
+ - "memoryapi/QueryVirtualMemoryInformation"
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows

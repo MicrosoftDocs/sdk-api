@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationNavigationEvents interface [Debugging Windows Store apps],NavigateComplete method, IWebApplicationNavigationEvents.NavigateComplete, IWebApplicationNavigationEvents::NavigateComplete, NavigateComplete, NavigateComplete method [Debugging Windows Store apps], NavigateComplete method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, debug.iwebapplicationnavigationevents_navigatecomplete, webapplication/IWebApplicationNavigationEvents::NavigateComplete
 ms.topic: method
-f1_keywords: ["webapplication/IWebApplicationNavigationEvents.NavigateComplete"]
+f1_keywords: 
+ - "webapplication/IWebApplicationNavigationEvents.NavigateComplete"
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

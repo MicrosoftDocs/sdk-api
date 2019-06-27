@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILMM_IE4, SHIsLowMemoryMachine, SHIsLowMemoryMachine function [Windows Shell], _shell_SHIsLowMemoryMachine, shell.SHIsLowMemoryMachine, shlwapi/SHIsLowMemoryMachine
 ms.topic: function
-f1_keywords: ["shlwapi/SHIsLowMemoryMachine"]
+f1_keywords: 
+ - "shlwapi/SHIsLowMemoryMachine"
 req.header: shlwapi.h
 req.include-header: Shlwapi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationCompositor interface [Direct Manipulation],SetUpdateManager method, IDirectManipulationCompositor.SetUpdateManager, IDirectManipulationCompositor::SetUpdateManager, SetUpdateManager, SetUpdateManager method [Direct Manipulation], SetUpdateManager method [Direct Manipulation],IDirectManipulationCompositor interface, directmanipulation.idirectmanipulationcompositor_setupdatemanager, directmanipulation/IDirectManipulationCompositor::SetUpdateManager
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationCompositor.SetUpdateManager"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationCompositor.SetUpdateManager"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

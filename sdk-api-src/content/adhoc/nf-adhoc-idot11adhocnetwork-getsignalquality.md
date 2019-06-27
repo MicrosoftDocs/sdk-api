@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSignalQuality, GetSignalQuality method [NativeWIFI], GetSignalQuality method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetSignalQuality method, IDot11AdHocNetwork.GetSignalQuality, IDot11AdHocNetwork::GetSignalQuality, adhoc/IDot11AdHocNetwork::GetSignalQuality, nwifi.idot11adhocnetwork_getsignalquality
 ms.topic: method
-f1_keywords: ["adhoc/IDot11AdHocNetwork.GetSignalQuality"]
+f1_keywords: 
+ - "adhoc/IDot11AdHocNetwork.GetSignalQuality"
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

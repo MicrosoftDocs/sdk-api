@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSTORAGE_DEPENDENCY_INFO_TYPE_2, PSTORAGE_DEPENDENCY_INFO_TYPE_2, PSTORAGE_DEPENDENCY_INFO_TYPE_2 structure pointer [VHD], STORAGE_DEPENDENCY_INFO_TYPE_2, STORAGE_DEPENDENCY_INFO_TYPE_2 structure [VHD], _STORAGE_DEPENDENCY_INFO_TYPE_2, vdssys/PSTORAGE_DEPENDENCY_INFO_TYPE_2, vdssys/STORAGE_DEPENDENCY_INFO_TYPE_2, vhd.storage_dependency_info_type_2, virtdisk/PSTORAGE_DEPENDENCY_INFO_TYPE_2, virtdisk/STORAGE_DEPENDENCY_INFO_TYPE_2"
 ms.topic: struct
-f1_keywords: ["virtdisk/STORAGE_DEPENDENCY_INFO_TYPE_2"]
+f1_keywords: 
+ - "virtdisk/STORAGE_DEPENDENCY_INFO_TYPE_2"
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

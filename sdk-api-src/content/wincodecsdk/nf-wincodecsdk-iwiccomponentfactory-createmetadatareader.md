@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateMetadataReader, CreateMetadataReader method [Windows Imaging Component], CreateMetadataReader method [Windows Imaging Component],IWICComponentFactory interface, IWICComponentFactory interface [Windows Imaging Component],CreateMetadataReader method, IWICComponentFactory.CreateMetadataReader, IWICComponentFactory::CreateMetadataReader, _wic_codec_iwiccomponentfactory_createmetadatareader, wic._wic_codec_iwiccomponentfactory_createmetadatareader, wincodecsdk/IWICComponentFactory::CreateMetadataReader
 ms.topic: method
-f1_keywords: ["wincodecsdk/IWICComponentFactory.CreateMetadataReader"]
+f1_keywords: 
+ - "wincodecsdk/IWICComponentFactory.CreateMetadataReader"
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

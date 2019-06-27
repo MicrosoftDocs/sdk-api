@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITCollection interface [TAPI 2.2],get_Item method, ITCollection.get_Item, ITCollection::get_Item, _tapi3_itcollection_get_item, get_Item, get_Item method [TAPI 2.2], get_Item method [TAPI 2.2],ITCollection interface, tapi3.itcollection_get_item, tapi3if/ITCollection::get_Item
 ms.topic: method
-f1_keywords: ["tapi3if/ITCollection.get_Item"]
+f1_keywords: 
+ - "tapi3if/ITCollection.get_Item"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

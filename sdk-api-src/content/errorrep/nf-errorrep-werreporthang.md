@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WerReportHang, WerReportHang function [Windows Error Reporting], errorrep/WerReportHang, wer.werreporthang
 ms.topic: function
-f1_keywords: ["errorrep/WerReportHang"]
+f1_keywords: 
+ - "errorrep/WerReportHang"
 req.header: errorrep.h
 req.include-header: 
 req.target-type: Windows

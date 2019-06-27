@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateComponentList, CreateComponentList method [Microsoft TV Technologies], CreateComponentList method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],CreateComponentList method, ITuneRequestInfo.CreateComponentList, ITuneRequestInfo::CreateComponentList, ITuneRequestInfoCreateComponentList, bdatif/ITuneRequestInfo::CreateComponentList, mstv.itunerequestinfo_createcomponentlist
 ms.topic: method
-f1_keywords: ["bdatif/ITuneRequestInfo.CreateComponentList"]
+f1_keywords: 
+ - "bdatif/ITuneRequestInfo.CreateComponentList"
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

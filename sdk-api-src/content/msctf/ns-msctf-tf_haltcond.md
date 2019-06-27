@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TF_HALTCOND, TF_HALTCOND structure [Text Services Framework], _tsf_tf_haltcond_ref, msctf/TF_HALTCOND, tsf.tf_haltcond
 ms.topic: struct
-f1_keywords: ["msctf/TF_HALTCOND"]
+f1_keywords: 
+ - "msctf/TF_HALTCOND"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

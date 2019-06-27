@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorExp, XMVectorExp, XMVectorExp method [DirectX Math Support APIs], dxmath.xmvectorexp
 ms.topic: function
-f1_keywords: ["directxmath/XMVectorExp"]
+f1_keywords: 
+ - "directxmath/XMVectorExp"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

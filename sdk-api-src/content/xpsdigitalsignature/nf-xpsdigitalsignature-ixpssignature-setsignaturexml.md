@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsSignature interface [XPS Documents and Packaging],SetSignatureXml method, IXpsSignature.SetSignatureXml, IXpsSignature::SetSignatureXml, SetSignatureXml, SetSignatureXml method [XPS Documents and Packaging], SetSignatureXml method [XPS Documents and Packaging],IXpsSignature interface, xps.ixpssignature_setsignaturexml, xpsdigitalsignature/IXpsSignature::SetSignatureXml
 ms.topic: method
-f1_keywords: ["xpsdigitalsignature/IXpsSignature.SetSignatureXml"]
+f1_keywords: 
+ - "xpsdigitalsignature/IXpsSignature.SetSignatureXml"
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

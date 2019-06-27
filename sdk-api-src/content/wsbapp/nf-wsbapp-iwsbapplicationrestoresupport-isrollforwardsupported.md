@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWsbApplicationRestoreSupport interface [Windows Server Backup],IsRollForwardSupported method, IWsbApplicationRestoreSupport.IsRollForwardSupported, IWsbApplicationRestoreSupport::IsRollForwardSupported, IsRollForwardSupported, IsRollForwardSupported method [Windows Server Backup], IsRollForwardSupported method [Windows Server Backup],IWsbApplicationRestoreSupport interface, wsb.iwsbapplicationrestoresupport_isrollforwardsupported, wsbapp/IWsbApplicationRestoreSupport::IsRollForwardSupported
 ms.topic: method
-f1_keywords: ["wsbapp/IWsbApplicationRestoreSupport.IsRollForwardSupported"]
+f1_keywords: 
+ - "wsbapp/IWsbApplicationRestoreSupport.IsRollForwardSupported"
 req.header: wsbapp.h
 req.include-header: 
 req.target-type: Windows

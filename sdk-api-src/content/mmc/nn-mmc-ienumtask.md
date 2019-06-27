@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTASK, IEnumTASK interface [MMC], IEnumTASK interface [MMC],described, _slate_ienumtask, mmc.ienumtask, mmc/IEnumTASK
 ms.topic: interface
-f1_keywords: ["mmc/IEnumTASK"]
+f1_keywords: 
+ - "mmc/IEnumTASK"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

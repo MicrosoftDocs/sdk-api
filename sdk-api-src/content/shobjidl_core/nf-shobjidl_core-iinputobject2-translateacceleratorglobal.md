@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInputObject2 interface [Windows Shell],TranslateAcceleratorGlobal method, IInputObject2.TranslateAcceleratorGlobal, IInputObject2::TranslateAcceleratorGlobal, TranslateAcceleratorGlobal, TranslateAcceleratorGlobal method [Windows Shell], TranslateAcceleratorGlobal method [Windows Shell],IInputObject2 interface, _shell_IInputObject2_TranslateAcceleratorGlobal, shell.IInputObject2_TranslateAcceleratorGlobal, shobjidl_core/IInputObject2::TranslateAcceleratorGlobal
 ms.topic: method
-f1_keywords: ["shobjidl_core/IInputObject2.TranslateAcceleratorGlobal"]
+f1_keywords: 
+ - "shobjidl_core/IInputObject2.TranslateAcceleratorGlobal"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

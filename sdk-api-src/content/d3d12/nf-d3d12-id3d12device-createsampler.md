@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSampler, CreateSampler method, CreateSampler method,ID3D12Device interface, ID3D12Device interface,CreateSampler method, ID3D12Device.CreateSampler, ID3D12Device::CreateSampler, d3d12/ID3D12Device::CreateSampler, direct3d12.id3d12device_createsampler
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12Device.CreateSampler"]
+f1_keywords: 
+ - "d3d12/ID3D12Device.CreateSampler"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

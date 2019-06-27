@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HTTP_SERVICE_BINDING_TYPE, HTTP_SERVICE_BINDING_TYPE enumeration [HTTP], HttpServiceBindingTypeA, HttpServiceBindingTypeNone, HttpServiceBindingTypeW, http.http_service_binding_type, http/HTTP_SERVICE_BINDING_TYPE, http/HttpServiceBindingTypeA, http/HttpServiceBindingTypeNone, http/HttpServiceBindingTypeW
 ms.topic: enum
-f1_keywords: ["http/HTTP_SERVICE_BINDING_TYPE"]
+f1_keywords: 
+ - "http/HTTP_SERVICE_BINDING_TYPE"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

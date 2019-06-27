@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_TabStop method, IMSVidCtl.put_TabStop, IMSVidCtl::put_TabStop, IMSVidCtlput_TabStop, mstv.imsvidctl_put_tabstop, msvidctl/IMSVidCtl::put_TabStop, put_TabStop, put_TabStop method [Microsoft TV Technologies], put_TabStop method [Microsoft TV Technologies],IMSVidCtl interface
 ms.topic: method
-f1_keywords: ["msvidctl/IMSVidCtl.put_TabStop"]
+f1_keywords: 
+ - "msvidctl/IMSVidCtl.put_TabStop"
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows

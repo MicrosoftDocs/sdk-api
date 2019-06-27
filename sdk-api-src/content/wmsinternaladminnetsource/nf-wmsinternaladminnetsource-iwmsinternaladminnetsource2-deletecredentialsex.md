@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteCredentialsEx, DeleteCredentialsEx method [windows Media Format], DeleteCredentialsEx method [windows Media Format],IWMSInternalAdminNetSource2 interface, IWMSInternalAdminNetSource2 interface [windows Media Format],DeleteCredentialsEx method, IWMSInternalAdminNetSource2.DeleteCredentialsEx, IWMSInternalAdminNetSource2::DeleteCredentialsEx, IWMSInternalAdminNetSource2DeleteCredentialsEx, wmformat.iwmsinternaladminnetsource2_deletecredentialsex, wmsinternaladminnetsource/IWMSInternalAdminNetSource2::DeleteCredentialsEx
 ms.topic: method
-f1_keywords: ["wmsinternaladminnetsource/IWMSInternalAdminNetSource2.DeleteCredentialsEx"]
+f1_keywords: 
+ - "wmsinternaladminnetsource/IWMSInternalAdminNetSource2.DeleteCredentialsEx"
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows

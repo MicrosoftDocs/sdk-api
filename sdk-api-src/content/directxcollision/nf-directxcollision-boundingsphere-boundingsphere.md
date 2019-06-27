@@ -6,7 +6,8 @@ description: Creates an instance of the BoundingSphere class.
 ms.date: 04/22/19
 ms.keywords: BoundingSphere::BoundingSphere
 ms.topic: language-reference
-f1_keywords: ["directxcollision/BoundingSphere::BoundingSphere"]
+f1_keywords: 
+ - "directxcollision/BoundingSphere::BoundingSphere"
 targetos: Windows
 product: Windows
 req.assembly: 

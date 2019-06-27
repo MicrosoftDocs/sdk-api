@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropValue, GetPropValue method [Windows Accessibility], GetPropValue method [Windows Accessibility],IAccPropServer interface, IAccPropServer interface [Windows Accessibility],GetPropValue method, IAccPropServer.GetPropValue, IAccPropServer::GetPropValue, _msaa_IAccPropServer_GetPropValue, msaa.iaccpropserver_iaccpropserver__getpropvalue, oleacc/IAccPropServer::GetPropValue, winauto.iaccpropserver_iaccpropserver__getpropvalue
 ms.topic: method
-f1_keywords: ["oleacc/IAccPropServer.GetPropValue"]
+f1_keywords: 
+ - "oleacc/IAccPropServer.GetPropValue"
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.
 req.target-type: Windows

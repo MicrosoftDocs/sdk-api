@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMGPO class [GPMC],IsComputerEnabled method, IGPMGPO interface [GPMC],IsComputerEnabled method, IGPMGPO.IsComputerEnabled, IGPMGPO::IsComputerEnabled, IsComputerEnabled, IsComputerEnabled method [GPMC], IsComputerEnabled method [GPMC],GPMGPO class, IsComputerEnabled method [GPMC],IGPMGPO interface, _win32_igpmgpo_iscomputerenabled, gpmc.igpmgpo_iscomputerenabled, gpmgmt/IGPMGPO::IsComputerEnabled
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMGPO.IsComputerEnabled"]
+f1_keywords: 
+ - "gpmgmt/IGPMGPO.IsComputerEnabled"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

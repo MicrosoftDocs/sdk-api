@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],MediaChange method, IWMPEvents.MediaChange, IWMPEvents::MediaChange, IWMPEventsMediaChange, MediaChange, MediaChange method [Windows Media Player], MediaChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__mediachange, wmp/IWMPEvents::MediaChange
 ms.topic: method
-f1_keywords: ["wmp/IWMPEvents.MediaChange"]
+f1_keywords: 
+ - "wmp/IWMPEvents.MediaChange"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

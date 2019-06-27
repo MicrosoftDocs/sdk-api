@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWABObject interface [Windows Address Book],SetMe method, IWABObject.SetMe, IWABObject::SetMe, MAPI_DIALOG, SetMe, SetMe method [Windows Address Book], SetMe method [Windows Address Book],IWABObject interface, _wab_IWABObject_SetMe, wab._wab_IWABObject_SetMe, wabapi/IWABObject::SetMe
 ms.topic: method
-f1_keywords: ["wabapi/IWABObject.SetMe"]
+f1_keywords: 
+ - "wabapi/IWABObject.SetMe"
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows

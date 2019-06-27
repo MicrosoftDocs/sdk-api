@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStereo3DFramePackingMode, GetStereo3DFramePackingMode method [Media Foundation], GetStereo3DFramePackingMode method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetStereo3DFramePackingMode method, IMFMediaEngineEx.GetStereo3DFramePackingMode, IMFMediaEngineEx::GetStereo3DFramePackingMode, mf.imfmediaengineex_getstereo3dframepackingmode, mfmediaengine/IMFMediaEngineEx::GetStereo3DFramePackingMode
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngineEx.GetStereo3DFramePackingMode"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngineEx.GetStereo3DFramePackingMode"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

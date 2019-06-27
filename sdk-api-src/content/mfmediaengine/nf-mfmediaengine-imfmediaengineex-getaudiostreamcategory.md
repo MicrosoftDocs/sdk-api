@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAudioStreamCategory, GetAudioStreamCategory method [Media Foundation], GetAudioStreamCategory method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetAudioStreamCategory method, IMFMediaEngineEx.GetAudioStreamCategory, IMFMediaEngineEx::GetAudioStreamCategory, mf.imfmediaengineex_getaudiostreamcategory, mfmediaengine/IMFMediaEngineEx::GetAudioStreamCategory
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngineEx.GetAudioStreamCategory"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngineEx.GetAudioStreamCategory"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

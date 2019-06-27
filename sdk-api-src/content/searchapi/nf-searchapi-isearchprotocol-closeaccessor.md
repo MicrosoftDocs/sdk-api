@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseAccessor, CloseAccessor method [search], CloseAccessor method [search],ISearchProtocol interface, ISearchProtocol interface [search],CloseAccessor method, ISearchProtocol.CloseAccessor, ISearchProtocol::CloseAccessor, _search_ISearchProtocol_CloseAccessor, search._search_ISearchProtocol_CloseAccessor, searchapi/ISearchProtocol::CloseAccessor
 ms.topic: method
-f1_keywords: ["searchapi/ISearchProtocol.CloseAccessor"]
+f1_keywords: 
+ - "searchapi/ISearchProtocol.CloseAccessor"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

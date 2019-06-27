@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEffectParameters, GetEffectParameters method [XAudio2 Audio Mixing APIs], GetEffectParameters method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, IXAudio2Voice interface [XAudio2 Audio Mixing APIs],GetEffectParameters method, IXAudio2Voice.GetEffectParameters, IXAudio2Voice::GetEffectParameters, xaudio2.ixaudio2voice_interface_geteffectparameters, xaudio2/IXAudio2Voice::GetEffectParameters
 ms.topic: method
-f1_keywords: ["xaudio2/IXAudio2Voice.GetEffectParameters"]
+f1_keywords: 
+ - "xaudio2/IXAudio2Voice.GetEffectParameters"
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WhichPlatform, WhichPlatform function [Windows Shell], _win32_WhichPlatform, shell.WhichPlatform, shlwapi/WhichPlatform
 ms.topic: function
-f1_keywords: ["shlwapi/WhichPlatform"]
+f1_keywords: 
+ - "shlwapi/WhichPlatform"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

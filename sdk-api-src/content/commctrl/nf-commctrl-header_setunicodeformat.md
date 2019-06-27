@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Header_SetUnicodeFormat, Header_SetUnicodeFormat macro [Windows Controls], _win32_Header_SetUnicodeFormat, _win32_Header_SetUnicodeFormat_cpp, commctrl/Header_SetUnicodeFormat, controls.Header_SetUnicodeFormat, controls._win32_Header_SetUnicodeFormat
 ms.topic: macro
-f1_keywords: ["commctrl/Header_SetUnicodeFormat"]
+f1_keywords: 
+ - "commctrl/Header_SetUnicodeFormat"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

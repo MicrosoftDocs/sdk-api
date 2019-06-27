@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRJ_VIRTUALIZATION_INSTANCE_INFO, PRJ_VIRTUALIZATION_INSTANCE_INFO structure, ProjFS.prj_virtualization_instance_info, projectedfslib/PRJ_VIRTUALIZATION_INSTANCE_INFO
 ms.topic: struct
-f1_keywords: ["projectedfslib/PRJ_VIRTUALIZATION_INSTANCE_INFO"]
+f1_keywords: 
+ - "projectedfslib/PRJ_VIRTUALIZATION_INSTANCE_INFO"
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

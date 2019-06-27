@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPrivateProfileString, GetPrivateProfileString function, GetPrivateProfileStringA, GetPrivateProfileStringW, _win32_getprivateprofilestring, base.getprivateprofilestring, winbase/GetPrivateProfileString, winbase/GetPrivateProfileStringA, winbase/GetPrivateProfileStringW
 ms.topic: function
-f1_keywords: ["winbase/GetPrivateProfileString"]
+f1_keywords: 
+ - "winbase/GetPrivateProfileString"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [WinLocation], Disconnect method [WinLocation],ILocationPower interface, ILocationPower interface [WinLocation],Disconnect method, ILocationPower.Disconnect, ILocationPower::Disconnect, WinLocation_COM_Ref.ilocationpower_disconnect, locationapi/ILocationPower::Disconnect, winlocation.ilocationpower_disconnect
 ms.topic: method
-f1_keywords: ["locationapi/ILocationPower.Disconnect"]
+f1_keywords: 
+ - "locationapi/ILocationPower.Disconnect"
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWordToByte, ULongToUInt8, ULongToUInt8 function [Windows Shell], intsafe/ULongToUInt8, shell.ULongToUInt8
 ms.topic: function
-f1_keywords: ["intsafe/ULongToUInt8"]
+f1_keywords: 
+ - "intsafe/ULongToUInt8"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

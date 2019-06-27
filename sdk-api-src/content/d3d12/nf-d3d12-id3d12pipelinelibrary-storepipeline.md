@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12PipelineLibrary interface,StorePipeline method, ID3D12PipelineLibrary.StorePipeline, ID3D12PipelineLibrary::StorePipeline, StorePipeline, StorePipeline method, StorePipeline method,ID3D12PipelineLibrary interface, d3d12/ID3D12PipelineLibrary::StorePipeline, direct3d12.id3d12pipelinelibrary_storepipeline
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12PipelineLibrary.StorePipeline"]
+f1_keywords: 
+ - "d3d12/ID3D12PipelineLibrary.StorePipeline"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

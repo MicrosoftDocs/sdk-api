@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_CERTIFICATE_INFO, WINHTTP_CERTIFICATE_INFO structure [HTTP], http.internet_certificate_info, winhttp/WINHTTP_CERTIFICATE_INFO, winhttp_internet_certificate_info_structure
 ms.topic: struct
-f1_keywords: ["winhttp/WINHTTP_CERTIFICATE_INFO"]
+f1_keywords: 
+ - "winhttp/WINHTTP_CERTIFICATE_INFO"
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

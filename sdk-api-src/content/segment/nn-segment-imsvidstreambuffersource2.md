@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSource2, IMSVidStreamBufferSource2 interface [Microsoft TV Technologies], IMSVidStreamBufferSource2 interface [Microsoft TV Technologies],described, IMSVidStreamBufferSource2Interface, mstv.imsvidstreambuffersource2, segment/IMSVidStreamBufferSource2
 ms.topic: interface
-f1_keywords: ["segment/IMSVidStreamBufferSource2"]
+f1_keywords: 
+ - "segment/IMSVidStreamBufferSource2"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

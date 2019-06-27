@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWorkItemData, GetWorkItemData method [Task Scheduler], GetWorkItemData method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetWorkItemData method, IScheduledWorkItem.GetWorkItemData, IScheduledWorkItem::GetWorkItemData, _msb_ischeduledworkitem_getworkitemdata, mstask/IScheduledWorkItem::GetWorkItemData, taskschd.ischeduledworkitem_getworkitemdata
 ms.topic: method
-f1_keywords: ["mstask/IScheduledWorkItem.GetWorkItemData"]
+f1_keywords: 
+ - "mstask/IScheduledWorkItem.GetWorkItemData"
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PowerDuplicateScheme, PowerDuplicateScheme function, base.powerduplicatescheme, powrprof/PowerDuplicateScheme
 ms.topic: function
-f1_keywords: ["powrprof/PowerDuplicateScheme"]
+f1_keywords: 
+ - "powrprof/PowerDuplicateScheme"
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

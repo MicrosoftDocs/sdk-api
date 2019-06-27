@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GLYPHDATA, GLYPHDATA structure [Display Devices], display.glyphdata, grstrcts_e96122df-3f9d-4e90-9bf6-25017381e514.xml, winddi/GLYPHDATA
 ms.topic: struct
-f1_keywords: ["winddi/GLYPHDATA"]
+f1_keywords: 
+ - "winddi/GLYPHDATA"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DecryptPackage, DecryptPackage method [App packaging and management], DecryptPackage method [App packaging and management],IAppxEncryptionFactory interface, IAppxEncryptionFactory interface [App packaging and management],DecryptPackage method, IAppxEncryptionFactory.DecryptPackage, IAppxEncryptionFactory::DecryptPackage, appxpackaging/IAppxEncryptionFactory::DecryptPackage, appxpkg.iappxencryptionfactory_decryptpackage
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxEncryptionFactory.DecryptPackage"]
+f1_keywords: 
+ - "appxpackaging/IAppxEncryptionFactory.DecryptPackage"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateModal, CreateModal method [Active Directory], CreateModal method [Active Directory],IDsAdminCreateObj interface, IDsAdminCreateObj interface [Active Directory],CreateModal method, IDsAdminCreateObj.CreateModal, IDsAdminCreateObj::CreateModal, _glines_idsadmincreateobj_createmodal, ad.idsadmincreateobj__createmodal, ad.idsadmincreateobj_createmodal, dsadmin/IDsAdminCreateObj::CreateModal
 ms.topic: method
-f1_keywords: ["dsadmin/IDsAdminCreateObj.CreateModal"]
+f1_keywords: 
+ - "dsadmin/IDsAdminCreateObj.CreateModal"
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows

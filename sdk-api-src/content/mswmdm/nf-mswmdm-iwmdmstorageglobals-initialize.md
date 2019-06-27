@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorageGlobals interface [windows Media Device Manager],Initialize method, IWMDMStorageGlobals.Initialize, IWMDMStorageGlobals::Initialize, IWMDMStorageGlobalsInitialize, Initialize, Initialize method [windows Media Device Manager], Initialize method [windows Media Device Manager],IWMDMStorageGlobals interface, mswmdm/IWMDMStorageGlobals::Initialize, wmdm.iwmdmstorageglobals_initialize
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMStorageGlobals.Initialize"]
+f1_keywords: 
+ - "mswmdm/IWMDMStorageGlobals.Initialize"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

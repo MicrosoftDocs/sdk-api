@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpcPartSet interface [Open Packaging Conventions],PartExists method, IOpcPartSet.PartExists, IOpcPartSet::PartExists, PartExists, PartExists method [Open Packaging Conventions], PartExists method [Open Packaging Conventions],IOpcPartSet interface, msopc/IOpcPartSet::PartExists, opc.iopcpartset_partexists
 ms.topic: method
-f1_keywords: ["msopc/IOpcPartSet.PartExists"]
+f1_keywords: 
+ - "msopc/IOpcPartSet.PartExists"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

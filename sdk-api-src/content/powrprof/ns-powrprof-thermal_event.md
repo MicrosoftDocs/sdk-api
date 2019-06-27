@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTHERMAL_EVENT, PTHERMAL_EVENT, PTHERMAL_EVENT structure pointer, THERMAL_EVENT, THERMAL_EVENT structure, base.thermal_event, powrprof/PTHERMAL_EVENT, powrprof/THERMAL_EVENT"
 ms.topic: struct
-f1_keywords: ["powrprof/THERMAL_EVENT"]
+f1_keywords: 
+ - "powrprof/THERMAL_EVENT"
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

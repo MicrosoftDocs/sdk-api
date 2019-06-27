@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOutputBounds, GetOutputBounds method [Direct2D], GetOutputBounds method [Direct2D],ID2D1BoundsAdjustmentTransform interface, ID2D1BoundsAdjustmentTransform interface [Direct2D],GetOutputBounds method, ID2D1BoundsAdjustmentTransform.GetOutputBounds, ID2D1BoundsAdjustmentTransform::GetOutputBounds, d2d1effectauthor/ID2D1BoundsAdjustmentTransform::GetOutputBounds, direct2d.id2d1boundsadjustmenttransform_getoutputbounds
 ms.topic: method
-f1_keywords: ["d2d1effectauthor/ID2D1BoundsAdjustmentTransform.GetOutputBounds"]
+f1_keywords: 
+ - "d2d1effectauthor/ID2D1BoundsAdjustmentTransform.GetOutputBounds"
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

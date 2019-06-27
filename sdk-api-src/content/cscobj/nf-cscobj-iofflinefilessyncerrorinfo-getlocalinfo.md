@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLocalInfo, GetLocalInfo method [Offline Files], GetLocalInfo method [Offline Files],IOfflineFilesSyncErrorInfo interface, IOfflineFilesSyncErrorInfo interface [Offline Files],GetLocalInfo method, IOfflineFilesSyncErrorInfo.GetLocalInfo, IOfflineFilesSyncErrorInfo::GetLocalInfo, cscobj/IOfflineFilesSyncErrorInfo::GetLocalInfo, of.iofflinefilessyncerrorinfo_getlocalinfo
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesSyncErrorInfo.GetLocalInfo"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesSyncErrorInfo.GetLocalInfo"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AfterTypeChange, AfterTypeChange method [Automation], AfterTypeChange method [Automation],ITypeChangeEvents interface, CHANGEKIND_ADDMEMBER, CHANGEKIND_CHANGEFAILED, CHANGEKIND_DELETEMEMBER, CHANGEKIND_GENERAL, CHANGEKIND_INVALIDATE, CHANGEKIND_SETDOCUMENTATION, CHANGEKIND_SETNAMES, ITypeChangeEvents interface [Automation],AfterTypeChange method, ITypeChangeEvents.AfterTypeChange, ITypeChangeEvents::AfterTypeChange, _oa96_ITypeChangeEvents_AfterTypeChange, automat.itypechangeevents_aftertypechange, oaidl/ITypeChangeEvents::AfterTypeChange
 ms.topic: method
-f1_keywords: ["oaidl/ITypeChangeEvents.AfterTypeChange"]
+f1_keywords: 
+ - "oaidl/ITypeChangeEvents.AfterTypeChange"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

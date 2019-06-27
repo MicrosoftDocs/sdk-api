@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCASFailureCode, GetCASFailureCode method [DirectShow], GetCASFailureCode method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetCASFailureCode method, IESLicenseRenewalResultEvent.GetCASFailureCode, IESLicenseRenewalResultEvent::GetCASFailureCode, mstv.ieslicenserenewalresultevent_getcasfailurecode, tuner/IESLicenseRenewalResultEvent::GetCASFailureCode
 ms.topic: method
-f1_keywords: ["tuner/IESLicenseRenewalResultEvent.GetCASFailureCode"]
+f1_keywords: 
+ - "tuner/IESLicenseRenewalResultEvent.GetCASFailureCode"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

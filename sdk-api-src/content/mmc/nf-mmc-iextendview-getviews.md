@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetViews, GetViews method [MMC], GetViews method [MMC],IExtendView interface, IExtendView interface [MMC],GetViews method, IExtendView.GetViews, IExtendView::GetViews, _slate_iextendview_getviews, mmc.iextendview_getviews, mmc/IExtendView::GetViews
 ms.topic: method
-f1_keywords: ["mmc/IExtendView.GetViews"]
+f1_keywords: 
+ - "mmc/IExtendView.GetViews"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

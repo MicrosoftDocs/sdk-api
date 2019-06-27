@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CalculateThreadgroups, CalculateThreadgroups method [Direct2D], CalculateThreadgroups method [Direct2D],ID2D1ComputeTransform interface, ID2D1ComputeTransform interface [Direct2D],CalculateThreadgroups method, ID2D1ComputeTransform.CalculateThreadgroups, ID2D1ComputeTransform::CalculateThreadgroups, d2d1effectauthor/ID2D1ComputeTransform::CalculateThreadgroups, direct2d.id2d1computetransform_calculatethreadgroups
 ms.topic: method
-f1_keywords: ["d2d1effectauthor/ID2D1ComputeTransform.CalculateThreadgroups"]
+f1_keywords: 
+ - "d2d1effectauthor/ID2D1ComputeTransform.CalculateThreadgroups"
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

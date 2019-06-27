@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],Id property, ISpellChecker.Id, ISpellChecker.get_Id, ISpellChecker::Id, ISpellChecker::get_Id, Id property [Internationalization for Windows Applications], Id property [Internationalization for Windows Applications],ISpellChecker interface, get_Id, intl.ispellchecker_id, spellcheck/ISpellChecker::Id, spellcheck/ISpellChecker::get_Id
 ms.topic: method
-f1_keywords: ["spellcheck/ISpellChecker.Id"]
+f1_keywords: 
+ - "spellcheck/ISpellChecker.Id"
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

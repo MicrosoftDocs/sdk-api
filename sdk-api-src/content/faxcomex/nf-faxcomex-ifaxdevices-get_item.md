@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxDevices interface [Fax Service],get_Item method, IFaxDevices.get_Item, IFaxDevices::get_Item, _mfax_faxdevices.item_cpp, fax._mfax_faxdevices_item_cpp, faxcomex/IFaxDevices::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxDevices interface
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxDevices.get_Item"]
+f1_keywords: 
+ - "faxcomex/IFaxDevices.get_Item"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

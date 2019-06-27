@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NLM_SIMULATED_PROFILE_INFO, NLM_SIMULATED_PROFILE_INFO structure [Network Awareness], PNLM_SIMULATED_PROFILE_INFO, PNLM_SIMULATED_PROFILE_INFO structure pointer [Network Awareness], netlistmgr/NLM_SIMULATED_PROFILE_INFO, netlistmgr/PNLM_SIMULATED_PROFILE_INFO, nla.nlm_simulated_profile_info
 ms.topic: struct
-f1_keywords: ["netlistmgr/NLM_SIMULATED_PROFILE_INFO"]
+f1_keywords: 
+ - "netlistmgr/NLM_SIMULATED_PROFILE_INFO"
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

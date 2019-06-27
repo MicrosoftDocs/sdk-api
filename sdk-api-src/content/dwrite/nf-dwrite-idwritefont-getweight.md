@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWeight, GetWeight method [Direct Write], GetWeight method [Direct Write],IDWriteFont interface, IDWriteFont interface [Direct Write],GetWeight method, IDWriteFont.GetWeight, IDWriteFont::GetWeight, directwrite.IDWriteFont_GetWeight, dwrite/IDWriteFont::GetWeight
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteFont.GetWeight"]
+f1_keywords: 
+ - "dwrite/IDWriteFont.GetWeight"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

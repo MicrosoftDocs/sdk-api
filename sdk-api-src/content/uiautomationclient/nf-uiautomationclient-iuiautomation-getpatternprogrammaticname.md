@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPatternProgrammaticName, GetPatternProgrammaticName method [Windows Accessibility], GetPatternProgrammaticName method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],GetPatternProgrammaticName method, IUIAutomation.GetPatternProgrammaticName, IUIAutomation::GetPatternProgrammaticName, uiauto.uiauto_IUIAutomation_GetPatternProgrammaticName, uiauto_IUIAutomation_GetPatternProgrammaticName, uiautomationclient/IUIAutomation::GetPatternProgrammaticName, winauto.uiauto_IUIAutomation_GetPatternProgrammaticName
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomation.GetPatternProgrammaticName"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomation.GetPatternProgrammaticName"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

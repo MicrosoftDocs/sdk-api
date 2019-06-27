@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRFORMAT, EMRFORMAT, EMRFORMAT structure [Windows GDI], _win32_EMRFORMAT_str, gdi.emrformat, wingdi/EMRFORMAT"
 ms.topic: struct
-f1_keywords: ["wingdi/EMRFORMAT"]
+f1_keywords: 
+ - "wingdi/EMRFORMAT"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

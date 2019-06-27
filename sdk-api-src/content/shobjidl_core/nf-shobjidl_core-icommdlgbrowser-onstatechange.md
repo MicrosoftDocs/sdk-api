@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CDBOSC_KILLFOCUS, CDBOSC_RENAME, CDBOSC_SELCHANGE, CDBOSC_SETFOCUS, CDBOSC_STATECHANGE, ICommDlgBrowser interface [Windows Shell],OnStateChange method, ICommDlgBrowser.OnStateChange, ICommDlgBrowser::OnStateChange, OnStateChange, OnStateChange method [Windows Shell], OnStateChange method [Windows Shell],ICommDlgBrowser interface, _win32_ICommDlgBrowser_OnStateChange, shell.ICommDlgBrowser_OnStateChange, shobjidl_core/ICommDlgBrowser::OnStateChange
 ms.topic: method
-f1_keywords: ["shobjidl_core/ICommDlgBrowser.OnStateChange"]
+f1_keywords: 
+ - "shobjidl_core/ICommDlgBrowser.OnStateChange"
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

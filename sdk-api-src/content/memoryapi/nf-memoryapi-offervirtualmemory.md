@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OfferVirtualMemory, OfferVirtualMemory function, VMOfferPriorityBelowNormal, VMOfferPriorityLow, VMOfferPriorityNormal, VMOfferPriorityVeryLow, base.offervirtualmemory, winbase/OfferVirtualMemory
 ms.topic: function
-f1_keywords: ["memoryapi/OfferVirtualMemory"]
+f1_keywords: 
+ - "memoryapi/OfferVirtualMemory"
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

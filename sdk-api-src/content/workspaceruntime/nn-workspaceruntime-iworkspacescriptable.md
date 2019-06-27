@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWorkspaceScriptable, IWorkspaceScriptable interface [Remote Desktop Services], IWorkspaceScriptable interface [Remote Desktop Services],described, termserv.iworkspacescriptable, workspaceruntime/IWorkspaceScriptable
 ms.topic: interface
-f1_keywords: ["workspaceruntime/IWorkspaceScriptable"]
+f1_keywords: 
+ - "workspaceruntime/IWorkspaceScriptable"
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows

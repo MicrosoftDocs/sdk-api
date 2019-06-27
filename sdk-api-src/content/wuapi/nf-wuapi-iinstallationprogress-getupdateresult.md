@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUpdateResult, GetUpdateResult method [Windows Update Agent], GetUpdateResult method [Windows Update Agent],IInstallationProgress interface, IInstallationProgress interface [Windows Update Agent],GetUpdateResult method, IInstallationProgress.GetUpdateResult, IInstallationProgress::GetUpdateResult, wua.iinstallationprogress_getupdateresult, wuapi/IInstallationProgress::GetUpdateResult
 ms.topic: method
-f1_keywords: ["wuapi/IInstallationProgress.GetUpdateResult"]
+f1_keywords: 
+ - "wuapi/IInstallationProgress.GetUpdateResult"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

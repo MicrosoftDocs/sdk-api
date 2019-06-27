@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExternalConnection interface [COM],ReleaseConnection method, IExternalConnection.ReleaseConnection, IExternalConnection::ReleaseConnection, ReleaseConnection, ReleaseConnection method [COM], ReleaseConnection method [COM],IExternalConnection interface, _com_iexternalconnection_releaseconnection, com.iexternalconnection_releaseconnection, objidlbase/IExternalConnection::ReleaseConnection
 ms.topic: method
-f1_keywords: ["objidlbase/IExternalConnection.ReleaseConnection"]
+f1_keywords: 
+ - "objidlbase/IExternalConnection.ReleaseConnection"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

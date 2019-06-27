@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSAFER_PATHNAME_IDENTIFICATION, PSAFER_PATHNAME_IDENTIFICATION, PSAFER_PATHNAME_IDENTIFICATION structure pointer [Security], SAFER_PATHNAME_IDENTIFICATION, SAFER_PATHNAME_IDENTIFICATION structure [Security], _mnp_safer_pathname_identification, security.safer_pathname_identification, winsafer/PSAFER_PATHNAME_IDENTIFICATION, winsafer/SAFER_PATHNAME_IDENTIFICATION"
 ms.topic: struct
-f1_keywords: ["winsafer/SAFER_PATHNAME_IDENTIFICATION"]
+f1_keywords: 
+ - "winsafer/SAFER_PATHNAME_IDENTIFICATION"
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows

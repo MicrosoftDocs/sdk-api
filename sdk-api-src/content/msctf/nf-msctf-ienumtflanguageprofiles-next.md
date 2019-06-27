@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTfLanguageProfiles interface [Text Services Framework],Next method, IEnumTfLanguageProfiles.Next, IEnumTfLanguageProfiles::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfLanguageProfiles interface, _tsf_ienumtflanguageprofiles_next_ref, msctf/IEnumTfLanguageProfiles::Next, tsf.ienumtflanguageprofiles_next
 ms.topic: method
-f1_keywords: ["msctf/IEnumTfLanguageProfiles.Next"]
+f1_keywords: 
+ - "msctf/IEnumTfLanguageProfiles.Next"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

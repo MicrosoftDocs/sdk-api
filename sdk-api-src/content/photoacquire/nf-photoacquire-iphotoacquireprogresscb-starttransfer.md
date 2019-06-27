@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireProgressCB interface [Picture Acquisition],StartTransfer method, IPhotoAcquireProgressCB.StartTransfer, IPhotoAcquireProgressCB::StartTransfer, IPhotoAcquireProgressCBStartTransfer, StartTransfer, StartTransfer method [Picture Acquisition], StartTransfer method [Picture Acquisition],IPhotoAcquireProgressCB interface, photoacquire/IPhotoAcquireProgressCB::StartTransfer, picacq.iphotoacquireprogresscb_starttransfer
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoAcquireProgressCB.StartTransfer"]
+f1_keywords: 
+ - "photoacquire/IPhotoAcquireProgressCB.StartTransfer"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCMC_DATA_INFO, CMC_DATA_INFO, CMC_DATA_INFO structure [Security], PCMC_DATA_INFO, PCMC_DATA_INFO structure pointer [Security], _crypto2_cmc_data_info, security.cmc_data_info, wincrypt/CMC_DATA_INFO, wincrypt/PCMC_DATA_INFO"
 ms.topic: struct
-f1_keywords: ["wincrypt/CMC_DATA_INFO"]
+f1_keywords: 
+ - "wincrypt/CMC_DATA_INFO"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

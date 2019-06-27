@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIdentity, GetIdentity method [VSS], GetIdentity method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetIdentity method, IVssExamineWriterMetadata.GetIdentity, IVssExamineWriterMetadata::GetIdentity, _win32_ivssexaminewritermetadata_getidentity, base.ivssexaminewritermetadata_getidentity, vsbackup/IVssExamineWriterMetadata::GetIdentity
 ms.topic: method
-f1_keywords: ["vsbackup/IVssExamineWriterMetadata.GetIdentity"]
+f1_keywords: 
+ - "vsbackup/IVssExamineWriterMetadata.GetIdentity"
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWTS_TIME_ZONE_INFORMATION, PWRDS_TIME_ZONE_INFORMATION, PWRDS_TIME_ZONE_INFORMATION structure pointer [Remote Desktop Services], PWTS_TIME_ZONE_INFORMATION, PWTS_TIME_ZONE_INFORMATION structure pointer [Remote Desktop Services], WRDS_TIME_ZONE_INFORMATION, WRDS_TIME_ZONE_INFORMATION structure [Remote Desktop Services], WTS_TIME_ZONE_INFORMATION, WTS_TIME_ZONE_INFORMATION structure [Remote Desktop Services], termserv.wts_time_zone_information, wtsdefs/PWRDS_TIME_ZONE_INFORMATION, wtsdefs/PWTS_TIME_ZONE_INFORMATION, wtsdefs/WRDS_TIME_ZONE_INFORMATION, wtsdefs/WTS_TIME_ZONE_INFORMATION"
 ms.topic: struct
-f1_keywords: ["wtsdefs/WTS_TIME_ZONE_INFORMATION"]
+f1_keywords: 
+ - "wtsdefs/WTS_TIME_ZONE_INFORMATION"
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

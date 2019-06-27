@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSeriesId, GetSeriesId method [Microsoft TV Technologies], GetSeriesId method [Microsoft TV Technologies],IIsdbSeriesDescriptor interface, IIsdbSeriesDescriptor interface [Microsoft TV Technologies],GetSeriesId method, IIsdbSeriesDescriptor.GetSeriesId, IIsdbSeriesDescriptor::GetSeriesId, dvbsiparser/IIsdbSeriesDescriptor::GetSeriesId, mstv.iisdbseriesdescriptor_getseriesid
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbSeriesDescriptor.GetSeriesId"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbSeriesDescriptor.GetSeriesId"
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

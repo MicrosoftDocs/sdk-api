@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVCF_DONTSHOWIFZERO, EVCF_ENABLEBYDEFAULT, EVCF_ENABLEBYDEFAULT_AUTO, EVCF_HASSETTINGS, EVCF_OUTOFDISKSPACE, EVCF_REMOVEFROMLIST, EVCF_SETTINGSMODE, IEmptyVolumeCache interface [Legacy Windows Environment Features],Initialize method, IEmptyVolumeCache.Initialize, IEmptyVolumeCache::Initialize, Initialize, Initialize method [Legacy Windows Environment Features], Initialize method [Legacy Windows Environment Features],IEmptyVolumeCache interface, These flags can be passed by the handler back to the disk cleanup manager:, These flags can be passed in to the object:, _win32_IEmptyVolumeCache_Initialize, emptyvc/IEmptyVolumeCache::Initialize, lwef.iemptyvolumecache_initialize, shell.iemptyvolumecache_initialize
 ms.topic: method
-f1_keywords: ["emptyvc/IEmptyVolumeCache.Initialize"]
+f1_keywords: 
+ - "emptyvc/IEmptyVolumeCache.Initialize"
 req.header: emptyvc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndRegisterPlatformWorkQueueWithMMCSS, EndRegisterPlatformWorkQueueWithMMCSS method [Media Foundation], EndRegisterPlatformWorkQueueWithMMCSS method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],EndRegisterPlatformWorkQueueWithMMCSS method, IMFWorkQueueServices.EndRegisterPlatformWorkQueueWithMMCSS, IMFWorkQueueServices::EndRegisterPlatformWorkQueueWithMMCSS, b9d65d6c-495a-4ca0-b0fd-0a4199e2a7d5, mf.imfworkqueueservices_endregisterplatformworkqueuewithmmcss, mfidl/IMFWorkQueueServices::EndRegisterPlatformWorkQueueWithMMCSS
 ms.topic: method
-f1_keywords: ["mfidl/IMFWorkQueueServices.EndRegisterPlatformWorkQueueWithMMCSS"]
+f1_keywords: 
+ - "mfidl/IMFWorkQueueServices.EndRegisterPlatformWorkQueueWithMMCSS"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

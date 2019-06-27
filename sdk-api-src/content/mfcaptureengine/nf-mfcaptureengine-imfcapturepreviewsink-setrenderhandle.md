@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFCapturePreviewSink interface [Media Foundation],SetRenderHandle method, IMFCapturePreviewSink.SetRenderHandle, IMFCapturePreviewSink::SetRenderHandle, SetRenderHandle, SetRenderHandle method [Media Foundation], SetRenderHandle method [Media Foundation],IMFCapturePreviewSink interface, mf.imfcapturepreviewsink_setrenderhandle, mfcaptureengine/IMFCapturePreviewSink::SetRenderHandle
 ms.topic: method
-f1_keywords: ["mfcaptureengine/IMFCapturePreviewSink.SetRenderHandle"]
+f1_keywords: 
+ - "mfcaptureengine/IMFCapturePreviewSink.SetRenderHandle"
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

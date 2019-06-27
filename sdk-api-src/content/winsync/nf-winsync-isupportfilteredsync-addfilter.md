@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddFilter, AddFilter method [Windows Sync], AddFilter method [Windows Sync],ISupportFilteredSync interface, ISupportFilteredSync interface [Windows Sync],AddFilter method, ISupportFilteredSync.AddFilter, ISupportFilteredSync::AddFilter, winsync.isupportfilteredsync_addfilter, winsync/ISupportFilteredSync::AddFilter
 ms.topic: method
-f1_keywords: ["winsync/ISupportFilteredSync.AddFilter"]
+f1_keywords: 
+ - "winsync/ISupportFilteredSync.AddFilter"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

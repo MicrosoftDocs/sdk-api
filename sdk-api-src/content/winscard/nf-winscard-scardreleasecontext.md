@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SCardReleaseContext, SCardReleaseContext function [Security], _smart_scardreleasecontext, security.scardreleasecontext, winscard/SCardReleaseContext
 ms.topic: function
-f1_keywords: ["winscard/SCardReleaseContext"]
+f1_keywords: 
+ - "winscard/SCardReleaseContext"
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

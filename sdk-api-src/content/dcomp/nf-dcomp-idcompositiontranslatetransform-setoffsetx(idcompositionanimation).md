@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTranslateTransform interface [DirectComposition],SetOffsetX method, IDCompositionTranslateTransform.SetOffsetX, IDCompositionTranslateTransform.SetOffsetX(IDCompositionAnimation), IDCompositionTranslateTransform::SetOffsetX, IDCompositionTranslateTransform::SetOffsetX(IDCompositionAnimation), IDCompositionTranslateTransform::SetOffsetX(IDCompositionAnimation*), SetOffsetX, SetOffsetX method [DirectComposition], SetOffsetX method [DirectComposition],IDCompositionTranslateTransform interface, dcomp/IDCompositionTranslateTransform::SetOffsetX, directcomp.idcompositiontranslatetransform_setoffsetx_idcompositionanimation
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionTranslateTransform.SetOffsetX"]
+f1_keywords: 
+ - "dcomp/IDCompositionTranslateTransform.SetOffsetX"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

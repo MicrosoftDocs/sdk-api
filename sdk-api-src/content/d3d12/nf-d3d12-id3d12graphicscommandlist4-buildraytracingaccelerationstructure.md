@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BuildRaytracingAccelerationStructure, BuildRaytracingAccelerationStructure method, BuildRaytracingAccelerationStructure method,ID3D12GraphicsCommandList4 interface, ID3D12GraphicsCommandList4 interface,BuildRaytracingAccelerationStructure method, ID3D12GraphicsCommandList4.BuildRaytracingAccelerationStructure, ID3D12GraphicsCommandList4::BuildRaytracingAccelerationStructure, d3d12/ID3D12GraphicsCommandList4::BuildRaytracingAccelerationStructure, direct3d12.id3d12graphicscommandlist4_buildraytracingaccelerationstructure
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12GraphicsCommandList4.BuildRaytracingAccelerationStructure"]
+f1_keywords: 
+ - "d3d12/ID3D12GraphicsCommandList4.BuildRaytracingAccelerationStructure"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

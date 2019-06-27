@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGradientMeshWorldBounds, GetGradientMeshWorldBounds method [Direct2D], GetGradientMeshWorldBounds method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],GetGradientMeshWorldBounds method, ID2D1DeviceContext2.GetGradientMeshWorldBounds, ID2D1DeviceContext2::GetGradientMeshWorldBounds, d2d1_3/ID2D1DeviceContext2::GetGradientMeshWorldBounds, direct2d.id2d1devicecontext2_getgradientmeshworldbounds
 ms.topic: method
-f1_keywords: ["d2d1_3/ID2D1DeviceContext2.GetGradientMeshWorldBounds"]
+f1_keywords: 
+ - "d2d1_3/ID2D1DeviceContext2.GetGradientMeshWorldBounds"
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

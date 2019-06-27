@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentHwProfile, GetCurrentHwProfile function, GetCurrentHwProfileA, GetCurrentHwProfileW, _win32_getcurrenthwprofile, base.getcurrenthwprofile, winbase/GetCurrentHwProfile, winbase/GetCurrentHwProfileA, winbase/GetCurrentHwProfileW
 ms.topic: function
-f1_keywords: ["winbase/GetCurrentHwProfile"]
+f1_keywords: 
+ - "winbase/GetCurrentHwProfile"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

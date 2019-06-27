@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_TCP_QUERY_INFORMATION_EX, IOCTL_TCP_QUERY_INFORMATION_EX control, IOCTL_TCP_QUERY_INFORMATION_EX control code [Windows API], tcpioctl/IOCTL_TCP_QUERY_INFORMATION_EX, winprog.ioctl_tcp_query_information_ex
 ms.topic: ioctl
-f1_keywords: ["tcpioctl/IOCTL_TCP_QUERY_INFORMATION_EX"]
+f1_keywords: 
+ - "tcpioctl/IOCTL_TCP_QUERY_INFORMATION_EX"
 req.header: tcpioctl.h
 req.include-header: 
 req.target-type: Windows

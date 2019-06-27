@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GUID_NULL, IMFSourceReader interface [Media Foundation],SetCurrentPosition method, IMFSourceReader.SetCurrentPosition, IMFSourceReader::SetCurrentPosition, SetCurrentPosition, SetCurrentPosition method [Media Foundation], SetCurrentPosition method [Media Foundation],IMFSourceReader interface, mf.imfsourcereader_setcurrentposition, mfreadwrite/IMFSourceReader::SetCurrentPosition
 ms.topic: method
-f1_keywords: ["mfreadwrite/IMFSourceReader.SetCurrentPosition"]
+f1_keywords: 
+ - "mfreadwrite/IMFSourceReader.SetCurrentPosition"
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

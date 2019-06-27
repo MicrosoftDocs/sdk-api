@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ShowPlayerPickerUI, ShowPlayerPickerUI function, gamingtcui/ShowPlayerPickerUI, tcui.showplayerpickerui
 ms.topic: function
-f1_keywords: ["gamingtcui/ShowPlayerPickerUI"]
+f1_keywords: 
+ - "gamingtcui/ShowPlayerPickerUI"
 req.header: gamingtcui.h
 req.include-header: 
 req.target-type: Windows

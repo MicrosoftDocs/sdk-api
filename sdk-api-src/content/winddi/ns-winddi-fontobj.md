@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FONTOBJ, FONTOBJ structure [Display Devices], display.fontobj, grstrcts_245faf9a-31c1-4b75-aa97-c4646022cea6.xml, winddi/FONTOBJ
 ms.topic: struct
-f1_keywords: ["winddi/FONTOBJ"]
+f1_keywords: 
+ - "winddi/FONTOBJ"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

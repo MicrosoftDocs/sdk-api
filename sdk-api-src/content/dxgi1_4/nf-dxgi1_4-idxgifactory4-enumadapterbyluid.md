@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumAdapterByLuid, EnumAdapterByLuid method [DXGI], EnumAdapterByLuid method [DXGI],IDXGIFactory4 interface, IDXGIFactory4 interface [DXGI],EnumAdapterByLuid method, IDXGIFactory4.EnumAdapterByLuid, IDXGIFactory4::EnumAdapterByLuid, direct3ddxgi.idxgifactory4_enumadapterbyluid, dxgi1_4/IDXGIFactory4::EnumAdapterByLuid
 ms.topic: method
-f1_keywords: ["dxgi1_4/IDXGIFactory4.EnumAdapterByLuid"]
+f1_keywords: 
+ - "dxgi1_4/IDXGIFactory4.EnumAdapterByLuid"
 req.header: dxgi1_4.h
 req.include-header: 
 req.target-type: Windows

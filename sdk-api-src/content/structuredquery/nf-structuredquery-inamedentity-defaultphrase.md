@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DefaultPhrase, DefaultPhrase method [search], DefaultPhrase method [search],INamedEntity interface, INamedEntity interface [search],DefaultPhrase method, INamedEntity.DefaultPhrase, INamedEntity::DefaultPhrase, _search_INamedEntity_DefaultPhrase, search._search_INamedEntity_DefaultPhrase, structuredquery/INamedEntity::DefaultPhrase
 ms.topic: method
-f1_keywords: ["structuredquery/INamedEntity.DefaultPhrase"]
+f1_keywords: 
+ - "structuredquery/INamedEntity.DefaultPhrase"
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

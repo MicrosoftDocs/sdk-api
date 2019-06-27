@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClassCreationInfo, GetClassCreationInfo method [Active Directory], GetClassCreationInfo method [Active Directory],IDsDisplaySpecifier interface, IDsDisplaySpecifier interface [Active Directory],GetClassCreationInfo method, IDsDisplaySpecifier.GetClassCreationInfo, IDsDisplaySpecifier::GetClassCreationInfo, _glines_idsdisplayspecifier_getclasscreationinfo, ad.idsdisplayspecifier__getclasscreationinfo, ad.idsdisplayspecifier_getclasscreationinfo, dsclient/IDsDisplaySpecifier::GetClassCreationInfo
 ms.topic: method
-f1_keywords: ["dsclient/IDsDisplaySpecifier.GetClassCreationInfo"]
+f1_keywords: 
+ - "dsclient/IDsDisplaySpecifier.GetClassCreationInfo"
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

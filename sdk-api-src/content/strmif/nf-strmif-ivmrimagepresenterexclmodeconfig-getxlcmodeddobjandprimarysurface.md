@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetXlcModeDDObjAndPrimarySurface, GetXlcModeDDObjAndPrimarySurface method [DirectShow], GetXlcModeDDObjAndPrimarySurface method [DirectShow],IVMRImagePresenterExclModeConfig interface, IVMRImagePresenterExclModeConfig interface [DirectShow],GetXlcModeDDObjAndPrimarySurface method, IVMRImagePresenterExclModeConfig.GetXlcModeDDObjAndPrimarySurface, IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface, dshow.ivmrimagepresenterexclmodeconfig_getxlcmodeddobjandprimarysurface, strmif/IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface
 ms.topic: method
-f1_keywords: ["strmif/IVMRImagePresenterExclModeConfig.GetXlcModeDDObjAndPrimarySurface"]
+f1_keywords: 
+ - "strmif/IVMRImagePresenterExclModeConfig.GetXlcModeDDObjAndPrimarySurface"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

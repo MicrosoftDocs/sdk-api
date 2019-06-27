@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], IShellImageData interface [Windows Shell],described, _shell_IShellImageData, shell.IShellImageData, shimgdata/IShellImageData
 ms.topic: interface
-f1_keywords: ["shimgdata/IShellImageData"]
+f1_keywords: 
+ - "shimgdata/IShellImageData"
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

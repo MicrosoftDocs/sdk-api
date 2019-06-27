@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AccessCheckAndAuditAlarm, AccessCheckAndAuditAlarm function [Security], AccessCheckAndAuditAlarmA, AccessCheckAndAuditAlarmW, _win32_accesscheckandauditalarm, security.accesscheckandauditalarm, winbase/AccessCheckAndAuditAlarm, winbase/AccessCheckAndAuditAlarmA, winbase/AccessCheckAndAuditAlarmW
 ms.topic: function
-f1_keywords: ["winbase/AccessCheckAndAuditAlarm"]
+f1_keywords: 
+ - "winbase/AccessCheckAndAuditAlarm"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

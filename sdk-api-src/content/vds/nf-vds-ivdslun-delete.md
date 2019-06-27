@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsLun interface, IVdsLun interface [VDS],Delete method, IVdsLun.Delete, IVdsLun::Delete, base.ivdslun_delete, vds/IVdsLun::Delete, vdshwprv/IVdsLun::Delete
 ms.topic: method
-f1_keywords: ["vds/IVdsLun.Delete"]
+f1_keywords: 
+ - "vds/IVdsLun.Delete"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMANDATORY_LEVEL, MANDATORY_LEVEL, MANDATORY_LEVEL enumeration [Security], MandatoryLevelCount, MandatoryLevelHigh, MandatoryLevelLow, MandatoryLevelMedium, MandatoryLevelSecureProcess, MandatoryLevelSystem, MandatoryLevelUntrusted, security.mandatory_level, winnt/MANDATORY_LEVEL, winnt/MandatoryLevelCount, winnt/MandatoryLevelHigh, winnt/MandatoryLevelLow, winnt/MandatoryLevelMedium, winnt/MandatoryLevelSecureProcess, winnt/MandatoryLevelSystem, winnt/MandatoryLevelUntrusted"
 ms.topic: enum
-f1_keywords: ["winnt/MANDATORY_LEVEL"]
+f1_keywords: 
+ - "winnt/MANDATORY_LEVEL"
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

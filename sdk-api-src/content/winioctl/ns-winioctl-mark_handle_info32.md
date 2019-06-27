@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMARK_HANDLE_INFO32, MARK_HANDLE_INFO32, MARK_HANDLE_INFO32 structure [Files], MARK_HANDLE_NOT_REALTIME, MARK_HANDLE_NOT_TXF_SYSTEM_LOG, MARK_HANDLE_PROTECT_CLUSTERS, MARK_HANDLE_REALTIME, MARK_HANDLE_TXF_SYSTEM_LOG, PMARK_HANDLE_INFO32, PMARK_HANDLE_INFO32 structure pointer [Files], USN_SOURCE_AUXILIARY_DATA, USN_SOURCE_DATA_MANAGEMENT, USN_SOURCE_REPLICATION_MANAGEMENT, fs.mark_handle_info32, winioctl/MARK_HANDLE_INFO32, winioctl/PMARK_HANDLE_INFO32"
 ms.topic: struct
-f1_keywords: ["winioctl/MARK_HANDLE_INFO32"]
+f1_keywords: 
+ - "winioctl/MARK_HANDLE_INFO32"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

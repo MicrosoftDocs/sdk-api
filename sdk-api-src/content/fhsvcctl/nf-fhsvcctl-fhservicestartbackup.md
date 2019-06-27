@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FhServiceStartBackup, FhServiceStartBackup function [Windows API], fhsvcctl/FhServiceStartBackup, winprog.fhservicestartbackup
 ms.topic: function
-f1_keywords: ["fhsvcctl/FhServiceStartBackup"]
+f1_keywords: 
+ - "fhsvcctl/FhServiceStartBackup"
 req.header: fhsvcctl.h
 req.include-header: 
 req.target-type: Windows

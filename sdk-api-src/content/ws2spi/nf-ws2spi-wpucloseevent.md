@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WPUCloseEvent, WPUCloseEvent function [Winsock], _win32_wpucloseevent_2, winsock.wpucloseevent_2, ws2spi/WPUCloseEvent
 ms.topic: function
-f1_keywords: ["ws2spi/WPUCloseEvent"]
+f1_keywords: 
+ - "ws2spi/WPUCloseEvent"
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

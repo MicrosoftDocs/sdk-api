@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAttribIndexed, GetAttribIndexed method [Microsoft TV Technologies], GetAttribIndexed method [Microsoft TV Technologies],IAttributeGet interface, IAttributeGet interface [Microsoft TV Technologies],GetAttribIndexed method, IAttributeGet.GetAttribIndexed, IAttributeGet::GetAttribIndexed, IAttributeGetGetAttribIndexed, dsattrib/IAttributeGet::GetAttribIndexed, mstv.iattributeget_getattribindexed
 ms.topic: method
-f1_keywords: ["dsattrib/IAttributeGet.GetAttribIndexed"]
+f1_keywords: 
+ - "dsattrib/IAttributeGet.GetAttribIndexed"
 req.header: dsattrib.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGroupClose, PeerGroupClose function [Peer Networking], p2p.peergroupclose, p2p/PeerGroupClose
 ms.topic: function
-f1_keywords: ["p2p/PeerGroupClose"]
+f1_keywords: 
+ - "p2p/PeerGroupClose"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

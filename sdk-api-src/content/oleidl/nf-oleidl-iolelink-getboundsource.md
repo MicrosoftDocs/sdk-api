@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBoundSource, GetBoundSource method [COM], GetBoundSource method [COM],IOleLink interface, IOleLink interface [COM],GetBoundSource method, IOleLink.GetBoundSource, IOleLink::GetBoundSource, _ole_iolelink_getboundsource, com.iolelink_getboundsource, oleidl/IOleLink::GetBoundSource
 ms.topic: method
-f1_keywords: ["oleidl/IOleLink.GetBoundSource"]
+f1_keywords: 
+ - "oleidl/IOleLink.GetBoundSource"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

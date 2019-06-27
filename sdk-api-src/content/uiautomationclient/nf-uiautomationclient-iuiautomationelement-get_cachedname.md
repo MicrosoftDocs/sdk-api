@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedName property [Windows Accessibility], CachedName property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedName property, IUIAutomationElement.CachedName, IUIAutomationElement.get_CachedName, IUIAutomationElement::CachedName, IUIAutomationElement::get_CachedName, get_CachedName, uiauto.uiauto_IUIAutomationElement_CachedName, uiauto_IUIAutomationElement_CachedName, uiautomationclient/IUIAutomationElement::CachedName, uiautomationclient/IUIAutomationElement::get_CachedName, winauto.uiauto_IUIAutomationElement_CachedName
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationElement.CachedName"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement.CachedName"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

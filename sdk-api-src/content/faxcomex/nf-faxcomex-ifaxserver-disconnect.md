@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [Fax Service], Disconnect method [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],Disconnect method, IFaxServer.Disconnect, IFaxServer::Disconnect, _mfax_faxserver.disconnect, fax._mfax_faxserver_cpp_mfax_faxserver_disconnect_cpp, fax._mfax_faxserver_disconnect, faxcomex/IFaxServer::Disconnect
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxServer.Disconnect"]
+f1_keywords: 
+ - "faxcomex/IFaxServer.Disconnect"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

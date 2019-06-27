@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesCache2 interface [Offline Files],RenameItemEx method, IOfflineFilesCache2.RenameItemEx, IOfflineFilesCache2::RenameItemEx, RenameItemEx, RenameItemEx method [Offline Files], RenameItemEx method [Offline Files],IOfflineFilesCache2 interface, cscobj/IOfflineFilesCache2::RenameItemEx, of.iofflinefilescache2_renameitemex
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesCache2.RenameItemEx"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesCache2.RenameItemEx"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

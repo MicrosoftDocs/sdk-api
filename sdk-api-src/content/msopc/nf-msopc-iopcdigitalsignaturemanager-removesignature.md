@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpcDigitalSignatureManager interface [Open Packaging Conventions],RemoveSignature method, IOpcDigitalSignatureManager.RemoveSignature, IOpcDigitalSignatureManager::RemoveSignature, RemoveSignature, RemoveSignature method [Open Packaging Conventions], RemoveSignature method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, msopc/IOpcDigitalSignatureManager::RemoveSignature, opc.iopcdigitalsignaturemanager_removesignature
 ms.topic: method
-f1_keywords: ["msopc/IOpcDigitalSignatureManager.RemoveSignature"]
+f1_keywords: 
+ - "msopc/IOpcDigitalSignatureManager.RemoveSignature"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

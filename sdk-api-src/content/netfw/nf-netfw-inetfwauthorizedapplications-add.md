@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [ICS/ICF], Add method [ICS/ICF],INetFwAuthorizedApplications interface, INetFwAuthorizedApplications interface [ICS/ICF],Add method, INetFwAuthorizedApplications.Add, INetFwAuthorizedApplications::Add, ics.inetfwauthorizedapplications_add, netfw/INetFwAuthorizedApplications::Add
 ms.topic: method
-f1_keywords: ["netfw/INetFwAuthorizedApplications.Add"]
+f1_keywords: 
+ - "netfw/INetFwAuthorizedApplications.Add"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

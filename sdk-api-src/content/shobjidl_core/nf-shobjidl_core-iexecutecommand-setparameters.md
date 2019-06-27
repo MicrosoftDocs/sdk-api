@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExecuteCommand interface [Windows Shell],SetParameters method, IExecuteCommand.SetParameters, IExecuteCommand::SetParameters, SetParameters, SetParameters method [Windows Shell], SetParameters method [Windows Shell],IExecuteCommand interface, _shell_IExecuteCommand_SetParameters, shell.IExecuteCommand_SetParameters, shobjidl_core/IExecuteCommand::SetParameters
 ms.topic: method
-f1_keywords: ["shobjidl_core/IExecuteCommand.SetParameters"]
+f1_keywords: 
+ - "shobjidl_core/IExecuteCommand.SetParameters"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

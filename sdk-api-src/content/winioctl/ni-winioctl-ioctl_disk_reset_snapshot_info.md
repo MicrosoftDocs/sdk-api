@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_RESET_SNAPSHOT_INFO, IOCTL_DISK_RESET_SNAPSHOT_INFO control, IOCTL_DISK_RESET_SNAPSHOT_INFO control code [Files], fs.ioctl_disk_reset_snapshot_info, winioctl/IOCTL_DISK_RESET_SNAPSHOT_INFO
 ms.topic: ioctl
-f1_keywords: ["winioctl/IOCTL_DISK_RESET_SNAPSHOT_INFO"]
+f1_keywords: 
+ - "winioctl/IOCTL_DISK_RESET_SNAPSHOT_INFO"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

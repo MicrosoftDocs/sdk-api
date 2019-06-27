@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 518c7e81-6492-40f9-a8e8-222c19de6cc0, ASF_FLAT_SYNCHRONISED_LYRICS, ASF_FLAT_SYNCHRONISED_LYRICS structure [Media Foundation], mf.asf_flat_synchronised_lyrics, mfidl/ASF_FLAT_SYNCHRONISED_LYRICS
 ms.topic: struct
-f1_keywords: ["mfidl/ASF_FLAT_SYNCHRONISED_LYRICS"]
+f1_keywords: 
+ - "mfidl/ASF_FLAT_SYNCHRONISED_LYRICS"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

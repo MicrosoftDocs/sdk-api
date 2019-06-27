@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfileMgr interface [Text Services Framework],ReleaseInputProcessor method, ITfInputProcessorProfileMgr.ReleaseInputProcessor, ITfInputProcessorProfileMgr::ReleaseInputProcessor, ReleaseInputProcessor, ReleaseInputProcessor method [Text Services Framework], ReleaseInputProcessor method [Text Services Framework],ITfInputProcessorProfileMgr interface, TF_RIP_FLAG_FREEUNUSEDLIBRARIES, msctf/ITfInputProcessorProfileMgr::ReleaseInputProcessor, tsf.itfinputprocessorprofilemgr_releaseinputprocessor
 ms.topic: method
-f1_keywords: ["msctf/ITfInputProcessorProfileMgr.ReleaseInputProcessor"]
+f1_keywords: 
+ - "msctf/ITfInputProcessorProfileMgr.ReleaseInputProcessor"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

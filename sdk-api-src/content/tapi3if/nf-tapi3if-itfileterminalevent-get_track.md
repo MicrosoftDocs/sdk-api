@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITFileTerminalEvent interface [TAPI 2.2],get_Track method, ITFileTerminalEvent.get_Track, ITFileTerminalEvent::get_Track, _tapi3_itfileterminalevent_get_track, get_Track, get_Track method [TAPI 2.2], get_Track method [TAPI 2.2],ITFileTerminalEvent interface, tapi3.itfileterminalevent_get_track, tapi3if/ITFileTerminalEvent::get_Track
 ms.topic: method
-f1_keywords: ["tapi3if/ITFileTerminalEvent.get_Track"]
+f1_keywords: 
+ - "tapi3if/ITFileTerminalEvent.get_Track"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

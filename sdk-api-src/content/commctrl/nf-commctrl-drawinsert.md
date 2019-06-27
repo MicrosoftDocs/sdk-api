@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawInsert, DrawInsert function [Windows Controls], _win32_DrawInsert, _win32_DrawInsert_cpp, commctrl/DrawInsert, controls.DrawInsert, controls._win32_DrawInsert
 ms.topic: function
-f1_keywords: ["commctrl/DrawInsert"]
+f1_keywords: 
+ - "commctrl/DrawInsert"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EAPHOST_AUTH_INFO, EAPHOST_AUTH_INFO structure [EAPHost], eaphost.eaphost_auth_info, eaphostpeertypes/EAPHOST_AUTH_INFO
 ms.topic: struct
-f1_keywords: ["eaphostpeertypes/EAPHOST_AUTH_INFO"]
+f1_keywords: 
+ - "eaphostpeertypes/EAPHOST_AUTH_INFO"
 req.header: eaphostpeertypes.h
 req.include-header: 
 req.target-type: Windows

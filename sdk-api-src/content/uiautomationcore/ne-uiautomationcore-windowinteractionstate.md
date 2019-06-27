@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WindowInteractionState, WindowInteractionState enumeration [Windows Accessibility], WindowInteractionState_BlockedByModalWindow, WindowInteractionState_Closing, WindowInteractionState_NotResponding, WindowInteractionState_ReadyForUserInteraction, WindowInteractionState_Running, uiauto.uiauto_WindowInteractionStateEnum, uiauto_WindowInteractionStateEnum, uiautomationcore/WindowInteractionState, uiautomationcore/WindowInteractionState_BlockedByModalWindow, uiautomationcore/WindowInteractionState_Closing, uiautomationcore/WindowInteractionState_NotResponding, uiautomationcore/WindowInteractionState_ReadyForUserInteraction, uiautomationcore/WindowInteractionState_Running, winauto.uiauto_WindowInteractionStateEnum
 ms.topic: enum
-f1_keywords: ["uiautomationcore/WindowInteractionState"]
+f1_keywords: 
+ - "uiautomationcore/WindowInteractionState"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

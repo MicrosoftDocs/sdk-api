@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFrequencyMap interface [Microsoft TV Technologies],get_CountryCodeList method, IFrequencyMap.get_CountryCodeList, IFrequencyMap::get_CountryCodeList, IFrequencyMapget_CountryCodeList, bdaiface/IFrequencyMap::get_CountryCodeList, get_CountryCodeList, get_CountryCodeList method [Microsoft TV Technologies], get_CountryCodeList method [Microsoft TV Technologies],IFrequencyMap interface, mstv.ifrequencymap_get_countrycodelist
 ms.topic: method
-f1_keywords: ["bdaiface/IFrequencyMap.get_CountryCodeList"]
+f1_keywords: 
+ - "bdaiface/IFrequencyMap.get_CountryCodeList"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

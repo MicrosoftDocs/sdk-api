@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],put_Power method, IMSVidDevice.put_Power, IMSVidDevice::put_Power, IMSVidDeviceput_Power, mstv.imsviddevice_put_power, put_Power, put_Power method [Microsoft TV Technologies], put_Power method [Microsoft TV Technologies],IMSVidDevice interface, segment/IMSVidDevice::put_Power
 ms.topic: method
-f1_keywords: ["segment/IMSVidDevice.put_Power"]
+f1_keywords: 
+ - "segment/IMSVidDevice.put_Power"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

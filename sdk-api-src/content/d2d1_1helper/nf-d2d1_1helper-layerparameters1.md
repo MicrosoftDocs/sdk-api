@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LayerParameters1, LayerParameters1 function [Direct2D], d2d1_1helper/LayerParameters1, direct2d.layerparameters1
 ms.topic: function
-f1_keywords: ["d2d1_1helper/LayerParameters1"]
+f1_keywords: 
+ - "d2d1_1helper/LayerParameters1"
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows

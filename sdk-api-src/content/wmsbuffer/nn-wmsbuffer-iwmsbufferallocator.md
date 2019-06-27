@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMSBufferAllocator, IWMSBufferAllocator interface [windows Media Format], IWMSBufferAllocator interface [windows Media Format],described, IWMSBufferAllocatorInterface, wmformat.iwmsbufferallocator, wmsbuffer/IWMSBufferAllocator
 ms.topic: interface
-f1_keywords: ["wmsbuffer/IWMSBufferAllocator"]
+f1_keywords: 
+ - "wmsbuffer/IWMSBufferAllocator"
 req.header: wmsbuffer.h
 req.include-header: 
 req.target-type: Windows

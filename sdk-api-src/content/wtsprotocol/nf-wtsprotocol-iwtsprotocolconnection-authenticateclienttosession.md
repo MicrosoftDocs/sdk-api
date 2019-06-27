@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthenticateClientToSession, AuthenticateClientToSession method [Remote Desktop Services], AuthenticateClientToSession method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],AuthenticateClientToSession method, IWTSProtocolConnection.AuthenticateClientToSession, IWTSProtocolConnection::AuthenticateClientToSession, termserv.iwtsprotocolconnection_authenticateclienttosession, wtsprotocol/IWTSProtocolConnection::AuthenticateClientToSession
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWTSProtocolConnection.AuthenticateClientToSession"]
+f1_keywords: 
+ - "wtsprotocol/IWTSProtocolConnection.AuthenticateClientToSession"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsSwProvider interface [VDS],QueryPacks method, IVdsSwProvider.QueryPacks, IVdsSwProvider::QueryPacks, QueryPacks, QueryPacks method [VDS], QueryPacks method [VDS],IVdsSwProvider interface, base.ivdsswprovider_querypacks, vds/IVdsSwProvider::QueryPacks
 ms.topic: method
-f1_keywords: ["vds/IVdsSwProvider.QueryPacks"]
+f1_keywords: 
+ - "vds/IVdsSwProvider.QueryPacks"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

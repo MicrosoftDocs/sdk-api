@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITransportStreamBuffer interface [RDP],Storage property, IRDPSRAPITransportStreamBuffer.Storage, IRDPSRAPITransportStreamBuffer.get_Storage, IRDPSRAPITransportStreamBuffer::Storage, IRDPSRAPITransportStreamBuffer::get_Storage, Storage property [RDP], Storage property [RDP],IRDPSRAPITransportStreamBuffer interface, get_Storage, rdp.irdpsrapitransportstreambuffer_storage, rdpencomapi/IRDPSRAPITransportStreamBuffer::Storage, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_Storage
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPITransportStreamBuffer::Storage"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPITransportStreamBuffer::Storage"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

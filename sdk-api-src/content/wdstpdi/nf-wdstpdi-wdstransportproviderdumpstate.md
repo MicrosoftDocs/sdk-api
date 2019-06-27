@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderDumpState, WdsTransportProviderDumpState callback, WdsTransportProviderDumpState callback function [Windows Deployment Services], wds.wdstransportproviderdumpstate, wdstpdi/WdsTransportProviderDumpState
 ms.topic: function
-f1_keywords: ["wdstpdi/WdsTransportProviderDumpState"]
+f1_keywords: 
+ - "wdstpdi/WdsTransportProviderDumpState"
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesSyncErrorInfo, IOfflineFilesSyncErrorInfo interface [Offline Files], IOfflineFilesSyncErrorInfo interface [Offline Files],described, cscobj/IOfflineFilesSyncErrorInfo, of.iofflinefilessyncerrorinfo
 ms.topic: interface
-f1_keywords: ["cscobj/IOfflineFilesSyncErrorInfo"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesSyncErrorInfo"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UuidCompare, UuidCompare function [RPC], _rpc_uuidcompare, rpc.uuidcompare, rpcdce/UuidCompare
 ms.topic: function
-f1_keywords: ["rpcdce/UuidCompare"]
+f1_keywords: 
+ - "rpcdce/UuidCompare"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

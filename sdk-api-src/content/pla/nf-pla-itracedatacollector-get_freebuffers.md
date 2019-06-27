@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeBuffers property [PLA], FreeBuffers property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],FreeBuffers property, ITraceDataCollector.FreeBuffers, ITraceDataCollector.get_FreeBuffers, ITraceDataCollector::FreeBuffers, ITraceDataCollector::get_FreeBuffers, base.itracedatacollector_freebuffers, get_FreeBuffers, pla.itracedatacollector_freebuffers, pla/ITraceDataCollector::FreeBuffers, pla/ITraceDataCollector::get_FreeBuffers
 ms.topic: method
-f1_keywords: ["pla/ITraceDataCollector.FreeBuffers"]
+f1_keywords: 
+ - "pla/ITraceDataCollector.FreeBuffers"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

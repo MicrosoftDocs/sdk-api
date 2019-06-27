@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMDirectSound, IAMDirectSound interface [DirectShow], IAMDirectSound interface [DirectShow],described, IAMDirectSoundInterface, amaudio/IAMDirectSound, dshow.iamdirectsound
 ms.topic: interface
-f1_keywords: ["amaudio/IAMDirectSound"]
+f1_keywords: 
+ - "amaudio/IAMDirectSound"
 req.header: amaudio.h
 req.include-header: 
 req.target-type: Windows

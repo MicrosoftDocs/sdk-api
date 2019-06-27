@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CSC_IISIntrinsicsConfig, CSC_IISIntrinsicsConfig enumeration [COM+], CSC_InheritIISIntrinsics, CSC_NoIISIntrinsics, _cos_CSC_IISIntrinsicsConfig, comsvcs/CSC_IISIntrinsicsConfig, comsvcs/CSC_InheritIISIntrinsics, comsvcs/CSC_NoIISIntrinsics, cos.csc_iisintrinsicsconfig
 ms.topic: enum
-f1_keywords: ["comsvcs/CSC_IISIntrinsicsConfig"]
+f1_keywords: 
+ - "comsvcs/CSC_IISIntrinsicsConfig"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

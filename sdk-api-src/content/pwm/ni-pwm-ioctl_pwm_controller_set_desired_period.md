@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD, IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD control, IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD control code, base.ioctl_pwm_controller_set_desired_period, pwm/IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD
 ms.topic: ioctl
-f1_keywords: ["pwm/IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD"]
+f1_keywords: 
+ - "pwm/IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD"
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows

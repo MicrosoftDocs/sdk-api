@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxRecipient interface [Fax Service],Name property, IFaxRecipient.Name, IFaxRecipient.get_Name, IFaxRecipient.put_Name, IFaxRecipient::Name, IFaxRecipient::get_Name, IFaxRecipient::put_Name, Name property [Fax Service], Name property [Fax Service],IFaxRecipient interface, _mfax_faxrecipient.name, fax._mfax_faxrecipient_cpp_mfax_faxrecipient_name_cpp, fax._mfax_faxrecipient_name, faxcomex/IFaxRecipient::Name, faxcomex/IFaxRecipient::get_Name, faxcomex/IFaxRecipient::put_Name, put_Name
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxRecipient.Name"]
+f1_keywords: 
+ - "faxcomex/IFaxRecipient.Name"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRunnableTask interface [Windows Shell],Resume method, IRunnableTask.Resume, IRunnableTask::Resume, Resume, Resume method [Windows Shell], Resume method [Windows Shell],IRunnableTask interface, _win32_IRunnableTask_Resume, shell.IRunnableTask_Resume, shobjidl_core/IRunnableTask::Resume
 ms.topic: method
-f1_keywords: ["shobjidl_core/IRunnableTask.Resume"]
+f1_keywords: 
+ - "shobjidl_core/IRunnableTask.Resume"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

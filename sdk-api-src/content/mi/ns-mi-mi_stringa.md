@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_StringA, MI_StringA structure [Windows Management Infrastructure (MI)], mi/MI_StringA, wmi._mi_stringa, wmi_v2.mi_stringa
 ms.topic: struct
-f1_keywords: ["mi/MI_StringA"]
+f1_keywords: 
+ - "mi/MI_StringA"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

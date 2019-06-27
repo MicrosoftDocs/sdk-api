@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMMediaTypeSample, IAMMediaTypeSample interface [DirectShow], IAMMediaTypeSample interface [DirectShow],described, IAMMediaTypeSampleInterface, amstream/IAMMediaTypeSample, dshow.iammediatypesample
 ms.topic: interface
-f1_keywords: ["amstream/IAMMediaTypeSample"]
+f1_keywords: 
+ - "amstream/IAMMediaTypeSample"
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

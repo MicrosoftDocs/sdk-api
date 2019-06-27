@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],get_VideoAnalysisFilter method, IMSVidStreamBufferSink3.get_VideoAnalysisFilter, IMSVidStreamBufferSink3::get_VideoAnalysisFilter, IMSVidStreamBufferSink3get_VideoAnalysisFilter, get_VideoAnalysisFilter, get_VideoAnalysisFilter method [Microsoft TV Technologies], get_VideoAnalysisFilter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, mstv.imsvidstreambuffersink3_get_videoanalysisfilter, segment/IMSVidStreamBufferSink3::get_VideoAnalysisFilter
 ms.topic: method
-f1_keywords: ["segment/IMSVidStreamBufferSink3.get_VideoAnalysisFilter"]
+f1_keywords: 
+ - "segment/IMSVidStreamBufferSink3.get_VideoAnalysisFilter"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

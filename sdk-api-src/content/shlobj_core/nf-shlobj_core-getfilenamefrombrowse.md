@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFileNameFromBrowse, GetFileNameFromBrowse function [Windows Shell], _win32_GetFileNameFromBrowse, shell.GetFileNameFromBrowse, shlobj_core/GetFileNameFromBrowse
 ms.topic: function
-f1_keywords: ["shlobj_core/GetFileNameFromBrowse"]
+f1_keywords: 
+ - "shlobj_core/GetFileNameFromBrowse"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

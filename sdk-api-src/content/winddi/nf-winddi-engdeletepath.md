@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngDeletePath, EngDeletePath function [Display Devices], display.engdeletepath, gdifncs_aa1e2ccc-cc76-4782-b2ff-9867576c82d1.xml, winddi/EngDeletePath
 ms.topic: function
-f1_keywords: ["winddi/EngDeletePath"]
+f1_keywords: 
+ - "winddi/EngDeletePath"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

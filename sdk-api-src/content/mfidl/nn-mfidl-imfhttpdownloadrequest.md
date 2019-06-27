@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFHttpDownloadRequest, IMFHttpDownloadRequest interface [Media Foundation], IMFHttpDownloadRequest interface [Media Foundation],described, mf.imfhttpdownloadrequest, mfidl/IMFHttpDownloadRequest
 ms.topic: interface
-f1_keywords: ["mfidl/IMFHttpDownloadRequest"]
+f1_keywords: 
+ - "mfidl/IMFHttpDownloadRequest"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

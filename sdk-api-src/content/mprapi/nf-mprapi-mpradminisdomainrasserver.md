@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminIsDomainRasServer, MprAdminIsDomainRasServer function [RAS], mprapi/MprAdminIsDomainRasServer, rras.mpradminisdomainrasserver
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminIsDomainRasServer"]
+f1_keywords: 
+ - "mprapi/MprAdminIsDomainRasServer"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

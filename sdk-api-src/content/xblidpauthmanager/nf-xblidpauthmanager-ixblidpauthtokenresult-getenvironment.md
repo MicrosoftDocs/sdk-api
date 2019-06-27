@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEnvironment, GetEnvironment method, GetEnvironment method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetEnvironment method, IXblIdpAuthTokenResult.GetEnvironment, IXblIdpAuthTokenResult::GetEnvironment, xblidp.ixblidpauthtokenresult_getenvironment, xblidpauthmanager/IXblIdpAuthTokenResult::GetEnvironment
 ms.topic: method
-f1_keywords: ["xblidpauthmanager/IXblIdpAuthTokenResult.GetEnvironment"]
+f1_keywords: 
+ - "xblidpauthmanager/IXblIdpAuthTokenResult.GetEnvironment"
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

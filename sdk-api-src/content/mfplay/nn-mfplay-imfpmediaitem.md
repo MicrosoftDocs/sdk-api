@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaItem, IMFPMediaItem interface [Media Foundation], IMFPMediaItem interface [Media Foundation],described, mf.imfpmediaitem, mfplay/IMFPMediaItem
 ms.topic: interface
-f1_keywords: ["mfplay/IMFPMediaItem"]
+f1_keywords: 
+ - "mfplay/IMFPMediaItem"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

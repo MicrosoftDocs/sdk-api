@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_RESPONSE_DATA, WSMAN_RESPONSE_DATA union [Windows Remote Management], winrm.wsman_response_data, wsman/WSMAN_RESPONSE_DATA
 ms.topic: struct
-f1_keywords: ["wsman/WSMAN_RESPONSE_DATA"]
+f1_keywords: 
+ - "wsman/WSMAN_RESPONSE_DATA"
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

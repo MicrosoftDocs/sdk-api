@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SspiIsPromptingNeeded, SspiIsPromptingNeeded function [Security], security.sspiispromptingneeded, sspi/SspiIsPromptingNeeded
 ms.topic: function
-f1_keywords: ["sspi/SspiIsPromptingNeeded"]
+f1_keywords: 
+ - "sspi/SspiIsPromptingNeeded"
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxStatus interface [Fax Service],Refresh method, IFaxStatus.Refresh, IFaxStatus::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxStatus interface, _mfax_ifaxstatus_refresh, fax._mfax_ifaxstatus_mfax_ifaxstatus_refresh_cpp, fax._mfax_ifaxstatus_refresh, faxcom/IFaxStatus::Refresh
 ms.topic: method
-f1_keywords: ["faxcom/IFaxStatus.Refresh"]
+f1_keywords: 
+ - "faxcom/IFaxStatus.Refresh"
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

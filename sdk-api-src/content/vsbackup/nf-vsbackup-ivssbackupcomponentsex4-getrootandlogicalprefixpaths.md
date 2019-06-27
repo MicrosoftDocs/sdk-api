@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRootAndLogicalPrefixPaths, GetRootAndLogicalPrefixPaths method, GetRootAndLogicalPrefixPaths method,IVssBackupComponentsEx4 interface, IVssBackupComponentsEx4 interface,GetRootAndLogicalPrefixPaths method, IVssBackupComponentsEx4.GetRootAndLogicalPrefixPaths, IVssBackupComponentsEx4::GetRootAndLogicalPrefixPaths, base.ivssbackupcomponentsex4_getrootandlogicalprefixpaths, vsbackup/IVssBackupComponentsEx4::GetRootAndLogicalPrefixPaths
 ms.topic: method
-f1_keywords: ["vsbackup/IVssBackupComponentsEx4.GetRootAndLogicalPrefixPaths"]
+f1_keywords: 
+ - "vsbackup/IVssBackupComponentsEx4.GetRootAndLogicalPrefixPaths"
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

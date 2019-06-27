@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDigitalCableTuningSpace interface [Microsoft TV Technologies],get_MaxMajorChannel method, IDigitalCableTuningSpace.get_MaxMajorChannel, IDigitalCableTuningSpace::get_MaxMajorChannel, IDigitalCableTuningSpaceget_MaxMajorChannel, get_MaxMajorChannel, get_MaxMajorChannel method [Microsoft TV Technologies], get_MaxMajorChannel method [Microsoft TV Technologies],IDigitalCableTuningSpace interface, mstv.idigitalcabletuningspace_get_maxmajorchannel, tuner/IDigitalCableTuningSpace::get_MaxMajorChannel
 ms.topic: method
-f1_keywords: ["tuner/IDigitalCableTuningSpace.get_MaxMajorChannel"]
+f1_keywords: 
+ - "tuner/IDigitalCableTuningSpace.get_MaxMajorChannel"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Folders property [Fax Service], Folders property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],Folders property, IFaxServer.Folders, IFaxServer.get_Folders, IFaxServer::Folders, IFaxServer::get_Folders, _mfax_faxserver.folders_cpp, fax._mfax_faxserver_folders_cpp, faxcomex/IFaxServer::Folders, faxcomex/IFaxServer::get_Folders, get_Folders
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxServer.Folders"]
+f1_keywords: 
+ - "faxcomex/IFaxServer.Folders"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

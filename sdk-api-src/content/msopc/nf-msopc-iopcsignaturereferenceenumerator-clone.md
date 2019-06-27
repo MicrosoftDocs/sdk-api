@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions],IOpcSignatureReferenceEnumerator interface, IOpcSignatureReferenceEnumerator interface [Open Packaging Conventions],Clone method, IOpcSignatureReferenceEnumerator.Clone, IOpcSignatureReferenceEnumerator::Clone, msopc/IOpcSignatureReferenceEnumerator::Clone, opc.iopcsignaturereferenceenumerator_clone
 ms.topic: method
-f1_keywords: ["msopc/IOpcSignatureReferenceEnumerator.Clone"]
+f1_keywords: 
+ - "msopc/IOpcSignatureReferenceEnumerator.Clone"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

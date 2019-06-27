@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITraceRelogger interface [ETW],SetCompressionMode method, ITraceRelogger.SetCompressionMode, ITraceRelogger::SetCompressionMode, SetCompressionMode, SetCompressionMode method [ETW], SetCompressionMode method [ETW],ITraceRelogger interface, etw.itracerelogger_setcompressionmode, relogger/ITraceRelogger::SetCompressionMode
 ms.topic: method
-f1_keywords: ["relogger/ITraceRelogger.SetCompressionMode"]
+f1_keywords: 
+ - "relogger/ITraceRelogger.SetCompressionMode"
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

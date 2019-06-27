@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8487bdad-c927-44dc-b757-40a0aba285ca, AddWordsToWordList, AddWordsToWordList function [Tablet PC], recapis/AddWordsToWordList, tablet.addwordstowordlist
 ms.topic: function
-f1_keywords: ["recapis/AddWordsToWordList"]
+f1_keywords: 
+ - "recapis/AddWordsToWordList"
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

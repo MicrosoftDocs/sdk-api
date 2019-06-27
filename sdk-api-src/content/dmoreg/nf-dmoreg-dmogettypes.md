@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DMOGetTypes, DMOGetTypes function [DirectShow], dmoreg/DMOGetTypes, dshow.dmogettypes
 ms.topic: function
-f1_keywords: ["dmoreg/DMOGetTypes"]
+f1_keywords: 
+ - "dmoreg/DMOGetTypes"
 req.header: dmoreg.h
 req.include-header: Dmo.h
 req.target-type: Windows

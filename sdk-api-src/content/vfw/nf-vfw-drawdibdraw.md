@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawDibDraw, DrawDibDraw function [Windows Multimedia], _win32_DrawDibDraw, multimedia.drawdibdraw, vfw/DrawDibDraw
 ms.topic: function
-f1_keywords: ["vfw/DrawDibDraw"]
+f1_keywords: 
+ - "vfw/DrawDibDraw"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

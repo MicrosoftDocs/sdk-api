@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOverlay interface [DirectShow],SetColorKey method, IOverlay.SetColorKey, IOverlay::SetColorKey, IOverlaySetColorKey, SetColorKey, SetColorKey method [DirectShow], SetColorKey method [DirectShow],IOverlay interface, dshow.ioverlay_setcolorkey, strmif/IOverlay::SetColorKey
 ms.topic: method
-f1_keywords: ["strmif/IOverlay.SetColorKey"]
+f1_keywords: 
+ - "strmif/IOverlay.SetColorKey"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

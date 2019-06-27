@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 55dd4125-ce44-4eed-b1a8-74819c452bd4, AddPayloadExtension, AddPayloadExtension method [Media Foundation], AddPayloadExtension method [Media Foundation],IMFASFStreamConfig interface, IMFASFStreamConfig interface [Media Foundation],AddPayloadExtension method, IMFASFStreamConfig.AddPayloadExtension, IMFASFStreamConfig::AddPayloadExtension, mf.imfasfstreamconfig_addpayloadextension, wmcontainer/IMFASFStreamConfig::AddPayloadExtension
 ms.topic: method
-f1_keywords: ["wmcontainer/IMFASFStreamConfig.AddPayloadExtension"]
+f1_keywords: 
+ - "wmcontainer/IMFASFStreamConfig.AddPayloadExtension"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FlushCachedDomains, FlushCachedDomains method [Active Directory], FlushCachedDomains method [Active Directory],IDsBrowseDomainTree interface, IDsBrowseDomainTree interface [Active Directory],FlushCachedDomains method, IDsBrowseDomainTree.FlushCachedDomains, IDsBrowseDomainTree::FlushCachedDomains, _glines_idsbrowsedomaintree_flushcacheddomains, ad.idsbrowsedomaintree__flushcacheddomains, ad.idsbrowsedomaintree_flushcacheddomains, dsclient/IDsBrowseDomainTree::FlushCachedDomains
 ms.topic: method
-f1_keywords: ["dsclient/IDsBrowseDomainTree.FlushCachedDomains"]
+f1_keywords: 
+ - "dsclient/IDsBrowseDomainTree.FlushCachedDomains"
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

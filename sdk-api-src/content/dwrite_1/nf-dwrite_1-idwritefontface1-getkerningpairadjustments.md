@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetKerningPairAdjustments, GetKerningPairAdjustments method [Direct Write], GetKerningPairAdjustments method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],GetKerningPairAdjustments method, IDWriteFontFace1.GetKerningPairAdjustments, IDWriteFontFace1::GetKerningPairAdjustments, directwrite.idwritefontface1_getkerningpairadjustments, dwrite_1/IDWriteFontFace1::GetKerningPairAdjustments
 ms.topic: method
-f1_keywords: ["dwrite_1/IDWriteFontFace1.GetKerningPairAdjustments"]
+f1_keywords: 
+ - "dwrite_1/IDWriteFontFace1.GetKerningPairAdjustments"
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

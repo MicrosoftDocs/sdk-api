@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetFileIoOverlappedRange, SetFileIoOverlappedRange function [Files], fileapi/SetFileIoOverlappedRange, fs.setfileiooverlappedrange_func
 ms.topic: function
-f1_keywords: ["fileapi/SetFileIoOverlappedRange"]
+f1_keywords: 
+ - "fileapi/SetFileIoOverlappedRange"
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows

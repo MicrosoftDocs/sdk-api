@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdhCollectQueryDataEx, PdhCollectQueryDataEx function [Perf], _win32_pdhcollectquerydataex, base.pdhcollectquerydataex, pdh/PdhCollectQueryDataEx, perf.pdhcollectquerydataex
 ms.topic: function
-f1_keywords: ["pdh/PdhCollectQueryDataEx"]
+f1_keywords: 
+ - "pdh/PdhCollectQueryDataEx"
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCommModemStatus, GetCommModemStatus function, MS_CTS_ON, MS_DSR_ON, MS_RING_ON, MS_RLSD_ON, _win32_getcommmodemstatus, base.getcommmodemstatus, winbase/GetCommModemStatus
 ms.topic: function
-f1_keywords: ["winbase/GetCommModemStatus"]
+f1_keywords: 
+ - "winbase/GetCommModemStatus"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

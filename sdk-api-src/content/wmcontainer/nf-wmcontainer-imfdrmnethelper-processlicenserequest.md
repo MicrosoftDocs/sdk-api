@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFDRMNetHelper interface [Media Foundation],ProcessLicenseRequest method, IMFDRMNetHelper.ProcessLicenseRequest, IMFDRMNetHelper::ProcessLicenseRequest, ProcessLicenseRequest, ProcessLicenseRequest method [Media Foundation], ProcessLicenseRequest method [Media Foundation],IMFDRMNetHelper interface, mf.imfdrmnethelper_processlicenserequest, wmcontainer/IMFDRMNetHelper::ProcessLicenseRequest
 ms.topic: method
-f1_keywords: ["wmcontainer/IMFDRMNetHelper.ProcessLicenseRequest"]
+f1_keywords: 
+ - "wmcontainer/IMFDRMNetHelper.ProcessLicenseRequest"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

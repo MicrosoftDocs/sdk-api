@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_SET_DISK_ATTRIBUTES, IOCTL_DISK_SET_DISK_ATTRIBUTES control, IOCTL_DISK_SET_DISK_ATTRIBUTES control code [Files], fs.ioctl_disk_set_disk_attributes, winioctl/IOCTL_DISK_SET_DISK_ATTRIBUTES
 ms.topic: ioctl
-f1_keywords: ["winioctl/IOCTL_DISK_SET_DISK_ATTRIBUTES"]
+f1_keywords: 
+ - "winioctl/IOCTL_DISK_SET_DISK_ATTRIBUTES"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

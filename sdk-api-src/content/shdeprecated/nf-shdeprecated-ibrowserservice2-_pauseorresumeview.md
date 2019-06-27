@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_PauseOrResumeView method, IBrowserService2._PauseOrResumeView, IBrowserService2::_PauseOrResumeView, _PauseOrResumeView, _PauseOrResumeView method [Windows Shell], _PauseOrResumeView method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_PauseOrResumeView, shell.IBrowserService2__PauseOrResumeView, zone_IBrowserService2__PauseOrResumeView
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService2._PauseOrResumeView"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService2._PauseOrResumeView"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

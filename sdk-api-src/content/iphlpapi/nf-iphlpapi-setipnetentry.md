@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetIpNetEntry, SetIpNetEntry function [IP Helper], _iphlp_setipnetentry, iphlp.setipnetentry, iphlpapi/SetIpNetEntry
 ms.topic: function
-f1_keywords: ["iphlpapi/SetIpNetEntry"]
+f1_keywords: 
+ - "iphlpapi/SetIpNetEntry"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

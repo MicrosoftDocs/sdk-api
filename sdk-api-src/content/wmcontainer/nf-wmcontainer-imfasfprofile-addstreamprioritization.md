@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 64bbe28b-c167-4734-8ceb-5a36da4a0c70, AddStreamPrioritization, AddStreamPrioritization method [Media Foundation], AddStreamPrioritization method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],AddStreamPrioritization method, IMFASFProfile.AddStreamPrioritization, IMFASFProfile::AddStreamPrioritization, mf.imfasfprofile_addstreamprioritization, wmcontainer/IMFASFProfile::AddStreamPrioritization
 ms.topic: method
-f1_keywords: ["wmcontainer/IMFASFProfile.AddStreamPrioritization"]
+f1_keywords: 
+ - "wmcontainer/IMFASFProfile.AddStreamPrioritization"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

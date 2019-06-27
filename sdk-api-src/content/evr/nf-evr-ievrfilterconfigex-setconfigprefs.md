@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEVRFilterConfigEx interface [Media Foundation],SetConfigPrefs method, IEVRFilterConfigEx.SetConfigPrefs, IEVRFilterConfigEx::SetConfigPrefs, SetConfigPrefs, SetConfigPrefs method [Media Foundation], SetConfigPrefs method [Media Foundation],IEVRFilterConfigEx interface, evr/IEVRFilterConfigEx::SetConfigPrefs, mf.ievrfilterconfigex_setconfigprefs
 ms.topic: method
-f1_keywords: ["evr/IEVRFilterConfigEx.SetConfigPrefs"]
+f1_keywords: 
+ - "evr/IEVRFilterConfigEx.SetConfigPrefs"
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

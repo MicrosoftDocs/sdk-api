@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PADS_OCTET_LIST, ADS_OCTET_LIST, ADS_OCTET_LIST structure [ADSI], PADS_OCTET_LIST, PADS_OCTET_LIST structure pointer [ADSI], _ds_ads_octet_list, adsi.ads__octet__list, adsi.ads_octet_list, iads/ADS_OCTET_LIST, iads/PADS_OCTET_LIST"
 ms.topic: struct
-f1_keywords: ["iads/ADS_OCTET_LIST"]
+f1_keywords: 
+ - "iads/ADS_OCTET_LIST"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCSPAdmin, IOCSPAdmin interface [Security], IOCSPAdmin interface [Security],described, OCSPAdmin object, certadm/IOCSPAdmin, security.iocspadmin
 ms.topic: interface
-f1_keywords: ["certadm/IOCSPAdmin"]
+f1_keywords: 
+ - "certadm/IOCSPAdmin"
 req.header: certadm.h
 req.include-header: 
 req.target-type: Windows

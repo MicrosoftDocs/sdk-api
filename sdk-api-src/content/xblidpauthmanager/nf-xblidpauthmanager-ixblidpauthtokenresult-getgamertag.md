@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGamertag, GetGamertag method, GetGamertag method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetGamertag method, IXblIdpAuthTokenResult.GetGamertag, IXblIdpAuthTokenResult::GetGamertag, xblidp.ixblidpauthtokenresult_getgamertag, xblidpauthmanager/IXblIdpAuthTokenResult::GetGamertag
 ms.topic: method
-f1_keywords: ["xblidpauthmanager/IXblIdpAuthTokenResult.GetGamertag"]
+f1_keywords: 
+ - "xblidpauthmanager/IXblIdpAuthTokenResult.GetGamertag"
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

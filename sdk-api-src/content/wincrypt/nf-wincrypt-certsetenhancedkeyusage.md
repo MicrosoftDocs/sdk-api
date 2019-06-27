@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertSetEnhancedKeyUsage, CertSetEnhancedKeyUsage function [Security], _crypto2_certsetenhancedkeyusage, security.certsetenhancedkeyusage, wincrypt/CertSetEnhancedKeyUsage
 ms.topic: function
-f1_keywords: ["wincrypt/CertSetEnhancedKeyUsage"]
+f1_keywords: 
+ - "wincrypt/CertSetEnhancedKeyUsage"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

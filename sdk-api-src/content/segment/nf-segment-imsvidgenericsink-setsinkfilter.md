@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidGenericSink interface [Microsoft TV Technologies],SetSinkFilter method, IMSVidGenericSink.SetSinkFilter, IMSVidGenericSink::SetSinkFilter, IMSVidGenericSinkSetSinkFilter, SetSinkFilter, SetSinkFilter method [Microsoft TV Technologies], SetSinkFilter method [Microsoft TV Technologies],IMSVidGenericSink interface, mstv.imsvidgenericsink_setsinkfilter, segment/IMSVidGenericSink::SetSinkFilter
 ms.topic: method
-f1_keywords: ["segment/IMSVidGenericSink.SetSinkFilter"]
+f1_keywords: 
+ - "segment/IMSVidGenericSink.SetSinkFilter"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

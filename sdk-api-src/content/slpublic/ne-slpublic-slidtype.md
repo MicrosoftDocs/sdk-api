@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLIDTYPE, SLIDTYPE enumeration [Security], SL_ID_ALL_LICENSES, SL_ID_ALL_LICENSE_FILES, SL_ID_APPLICATION, SL_ID_LAST, SL_ID_LICENSE, SL_ID_LICENSE_FILE, SL_ID_PKEY, SL_ID_PRODUCT_SKU, security.slidtype, slpublic/SLIDTYPE, slpublic/SL_ID_ALL_LICENSES, slpublic/SL_ID_ALL_LICENSE_FILES, slpublic/SL_ID_APPLICATION, slpublic/SL_ID_LAST, slpublic/SL_ID_LICENSE, slpublic/SL_ID_LICENSE_FILE, slpublic/SL_ID_PKEY, slpublic/SL_ID_PRODUCT_SKU
 ms.topic: enum
-f1_keywords: ["slpublic/SLIDTYPE"]
+f1_keywords: 
+ - "slpublic/SLIDTYPE"
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

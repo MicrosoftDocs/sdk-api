@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],IsUninstallable property, IUpdate.IsUninstallable, IUpdate.get_IsUninstallable, IUpdate::IsUninstallable, IUpdate::get_IsUninstallable, IsUninstallable property [Windows Update Agent], IsUninstallable property [Windows Update Agent],IUpdate interface, get_IsUninstallable, wua.iupdate_isuninstallable, wuapi/IUpdate::IsUninstallable, wuapi/IUpdate::get_IsUninstallable
 ms.topic: method
-f1_keywords: ["wuapi/IUpdate.IsUninstallable"]
+f1_keywords: 
+ - "wuapi/IUpdate.IsUninstallable"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

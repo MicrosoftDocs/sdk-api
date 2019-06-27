@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Expand, Expand method, Expand method,IVdsOpenVDisk interface, IVdsOpenVDisk interface,Expand method, IVdsOpenVDisk.Expand, IVdsOpenVDisk::Expand, base.ivdsopenvdisk_expand, vds/IVdsOpenVDisk::Expand
 ms.topic: method
-f1_keywords: ["vds/IVdsOpenVDisk.Expand"]
+f1_keywords: 
+ - "vds/IVdsOpenVDisk.Expand"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

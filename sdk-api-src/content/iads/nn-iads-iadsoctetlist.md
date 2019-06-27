@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsOctetList, IADsOctetList interface [ADSI], IADsOctetList interface [ADSI],described, _ds_iadsoctetlist, adsi.iadsoctetlist, iads/IADsOctetList
 ms.topic: interface
-f1_keywords: ["iads/IADsOctetList"]
+f1_keywords: 
+ - "iads/IADsOctetList"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

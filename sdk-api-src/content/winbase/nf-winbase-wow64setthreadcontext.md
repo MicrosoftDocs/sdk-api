@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Wow64SetThreadContext, Wow64SetThreadContext function, base.wow64setthreadcontext, winbase/Wow64SetThreadContext
 ms.topic: function
-f1_keywords: ["winbase/Wow64SetThreadContext"]
+f1_keywords: 
+ - "winbase/Wow64SetThreadContext"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

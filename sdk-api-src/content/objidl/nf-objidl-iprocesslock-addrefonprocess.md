@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddRefOnProcess, AddRefOnProcess method [COM], AddRefOnProcess method [COM],IProcessLock interface, IProcessLock interface [COM],AddRefOnProcess method, IProcessLock.AddRefOnProcess, IProcessLock::AddRefOnProcess, _com_iprocesslock_addrefonprocess, com.iprocesslock_addrefonprocess, objidl/IProcessLock::AddRefOnProcess
 ms.topic: method
-f1_keywords: ["objidl/IProcessLock.AddRefOnProcess"]
+f1_keywords: 
+ - "objidl/IProcessLock.AddRefOnProcess"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

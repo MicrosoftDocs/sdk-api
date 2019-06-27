@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IX509CertificateTemplates interface, IX509CertificateTemplates interface [Security],Add method, IX509CertificateTemplates.Add, IX509CertificateTemplates::Add, certenroll/IX509CertificateTemplates::Add, security.ix509certificatetemplates_add
 ms.topic: method
-f1_keywords: ["certenroll/IX509CertificateTemplates.Add"]
+f1_keywords: 
+ - "certenroll/IX509CertificateTemplates.Add"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

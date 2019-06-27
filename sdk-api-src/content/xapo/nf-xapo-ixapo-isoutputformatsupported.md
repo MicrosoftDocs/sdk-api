@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXAPO interface [XAudio2 Audio Mixing APIs],IsOutputFormatSupported method, IXAPO.IsOutputFormatSupported, IXAPO::IsOutputFormatSupported, IsOutputFormatSupported, IsOutputFormatSupported method [XAudio2 Audio Mixing APIs], IsOutputFormatSupported method [XAudio2 Audio Mixing APIs],IXAPO interface, xapo/IXAPO::IsOutputFormatSupported, xaudio2.ixapo_interface_isoutputformatsupported
 ms.topic: method
-f1_keywords: ["xapo/IXAPO.IsOutputFormatSupported"]
+f1_keywords: 
+ - "xapo/IXAPO.IsOutputFormatSupported"
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVideoHandle, GetVideoHandle method [Remote Desktop Services], GetVideoHandle method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetVideoHandle method, IWRdsProtocolConnection.GetVideoHandle, IWRdsProtocolConnection::GetVideoHandle, termserv.iwrdsprotocolconnection_getvideohandle, wtsprotocol/IWRdsProtocolConnection::GetVideoHandle
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWRdsProtocolConnection.GetVideoHandle"]
+f1_keywords: 
+ - "wtsprotocol/IWRdsProtocolConnection.GetVideoHandle"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICrmCompensatorVariants interface [COM+],PrepareRecordVariants method, ICrmCompensatorVariants.PrepareRecordVariants, ICrmCompensatorVariants::PrepareRecordVariants, PrepareRecordVariants, PrepareRecordVariants method [COM+], PrepareRecordVariants method [COM+],ICrmCompensatorVariants interface, _dtc_ICrmCompensatorVariants_PrepareRecordVariants, comsvcs/ICrmCompensatorVariants::PrepareRecordVariants, cos.icrmcompensatorvariants_preparerecordvariants
 ms.topic: method
-f1_keywords: ["comsvcs/ICrmCompensatorVariants.PrepareRecordVariants"]
+f1_keywords: 
+ - "comsvcs/ICrmCompensatorVariants.PrepareRecordVariants"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

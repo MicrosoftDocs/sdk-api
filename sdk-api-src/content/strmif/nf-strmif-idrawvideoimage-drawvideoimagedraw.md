@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawVideoImageDraw, DrawVideoImageDraw method [DirectShow], DrawVideoImageDraw method [DirectShow],IDrawVideoImage interface, IDrawVideoImage interface [DirectShow],DrawVideoImageDraw method, IDrawVideoImage.DrawVideoImageDraw, IDrawVideoImage::DrawVideoImageDraw, IDrawVideoImageDrawVideoImageDraw, dshow.idrawvideoimage_drawvideoimagedraw, strmif/IDrawVideoImage::DrawVideoImageDraw
 ms.topic: method
-f1_keywords: ["strmif/IDrawVideoImage.DrawVideoImageDraw"]
+f1_keywords: 
+ - "strmif/IDrawVideoImage.DrawVideoImageDraw"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

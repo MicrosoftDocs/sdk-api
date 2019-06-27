@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEncryptionStatus, GetEncryptionStatus method [Offline Files], GetEncryptionStatus method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],GetEncryptionStatus method, IOfflineFilesCache.GetEncryptionStatus, IOfflineFilesCache::GetEncryptionStatus, cscobj/IOfflineFilesCache::GetEncryptionStatus, of.iofflinefilescache_getencryptionstatus
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesCache.GetEncryptionStatus"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesCache.GetEncryptionStatus"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

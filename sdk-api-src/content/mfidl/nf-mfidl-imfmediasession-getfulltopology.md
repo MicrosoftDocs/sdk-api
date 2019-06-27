@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6899dbe2-a684-487f-ab56-8631b3d5a033, GetFullTopology, GetFullTopology method [Media Foundation], GetFullTopology method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],GetFullTopology method, IMFMediaSession.GetFullTopology, IMFMediaSession::GetFullTopology, mf.imfmediasession_getfulltopology, mfidl/IMFMediaSession::GetFullTopology
 ms.topic: method
-f1_keywords: ["mfidl/IMFMediaSession.GetFullTopology"]
+f1_keywords: 
+ - "mfidl/IMFMediaSession.GetFullTopology"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

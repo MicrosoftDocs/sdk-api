@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnableTrace, EnableTrace function [ETW], TRACE_LEVEL_CRITICAL, TRACE_LEVEL_ERROR, TRACE_LEVEL_INFORMATION, TRACE_LEVEL_VERBOSE, TRACE_LEVEL_WARNING, _evt_enabletrace, base.enabletrace, etw.enabletrace, evntrace/EnableTrace
 ms.topic: function
-f1_keywords: ["evntrace/EnableTrace"]
+f1_keywords: 
+ - "evntrace/EnableTrace"
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

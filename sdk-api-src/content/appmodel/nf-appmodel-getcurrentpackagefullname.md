@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPackageFullName, GetCurrentPackageFullName function [App packaging and management], appmodel/GetCurrentPackageFullName, appxpkg.getcurrentpackagefullname
 ms.topic: function
-f1_keywords: ["appmodel/GetCurrentPackageFullName"]
+f1_keywords: 
+ - "appmodel/GetCurrentPackageFullName"
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

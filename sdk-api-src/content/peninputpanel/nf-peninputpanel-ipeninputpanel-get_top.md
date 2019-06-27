@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 718263ae-d6ba-47ec-a18b-50488480b599, Get_Top, IPenInputPanel interface [Tablet PC],Top property, IPenInputPanel.Top, IPenInputPanel.get_Top, IPenInputPanel::Top, IPenInputPanel::get_Top, PenInputPanel.get_Top, Top property [Tablet PC], Top property [Tablet PC],IPenInputPanel interface, get_Top, peninputpanel/IPenInputPanel::Top, peninputpanel/IPenInputPanel::get_Top, tablet.peninputpanel_top
 ms.topic: method
-f1_keywords: ["peninputpanel/IPenInputPanel.Top"]
+f1_keywords: 
+ - "peninputpanel/IPenInputPanel.Top"
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

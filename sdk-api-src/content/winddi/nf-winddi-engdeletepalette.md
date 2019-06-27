@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngDeletePalette, EngDeletePalette function [Display Devices], display.engdeletepalette, gdifncs_221095fd-b5c5-485e-9e8c-9f7a114d496d.xml, winddi/EngDeletePalette
 ms.topic: function
-f1_keywords: ["winddi/EngDeletePalette"]
+f1_keywords: 
+ - "winddi/EngDeletePalette"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

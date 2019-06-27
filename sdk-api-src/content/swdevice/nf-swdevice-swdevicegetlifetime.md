@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SWDeviceLifetimeHandle, SWDeviceLifetimeParentPresent, SwDeviceGetLifetime, SwDeviceGetLifetime function, swdevice.swdevicegetlifetime, swdevice/SwDeviceGetLifetime
 ms.topic: function
-f1_keywords: ["swdevice/SwDeviceGetLifetime"]
+f1_keywords: 
+ - "swdevice/SwDeviceGetLifetime"
 req.header: swdevice.h
 req.include-header: 
 req.target-type: Universal

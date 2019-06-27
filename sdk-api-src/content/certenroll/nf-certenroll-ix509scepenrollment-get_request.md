@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],Request property, IX509SCEPEnrollment.Request, IX509SCEPEnrollment.get_Request, IX509SCEPEnrollment::Request, IX509SCEPEnrollment::get_Request, Request property [Security], Request property [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::Request, certenroll/IX509SCEPEnrollment::get_Request, get_Request, security.ix509scepenrollment_request
 ms.topic: method
-f1_keywords: ["certenroll/IX509SCEPEnrollment.Request"]
+f1_keywords: 
+ - "certenroll/IX509SCEPEnrollment.Request"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

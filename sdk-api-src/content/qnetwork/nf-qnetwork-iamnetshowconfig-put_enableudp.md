@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_EnableUDP method, IAMNetShowConfig.put_EnableUDP, IAMNetShowConfig::put_EnableUDP, IAMNetShowConfigput_EnableUDP, dshow.iamnetshowconfig_put_enableudp, put_EnableUDP, put_EnableUDP method [DirectShow], put_EnableUDP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_EnableUDP
 ms.topic: method
-f1_keywords: ["qnetwork/IAMNetShowConfig.put_EnableUDP"]
+f1_keywords: 
+ - "qnetwork/IAMNetShowConfig.put_EnableUDP"
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

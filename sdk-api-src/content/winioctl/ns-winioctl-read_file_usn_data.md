@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PREAD_FILE_USN_DATA, PREAD_FILE_USN_DATA, PREAD_FILE_USN_DATA structure pointer [Files], READ_FILE_USN_DATA, READ_FILE_USN_DATA structure [Files], fs.read_file_usn_data, winioctl/PREAD_FILE_USN_DATA, winioctl/READ_FILE_USN_DATA"
 ms.topic: struct
-f1_keywords: ["winioctl/READ_FILE_USN_DATA"]
+f1_keywords: 
+ - "winioctl/READ_FILE_USN_DATA"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

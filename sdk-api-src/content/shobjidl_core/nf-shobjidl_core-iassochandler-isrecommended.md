@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAssocHandler interface [Windows Shell],IsRecommended method, IAssocHandler.IsRecommended, IAssocHandler::IsRecommended, IsRecommended, IsRecommended method [Windows Shell], IsRecommended method [Windows Shell],IAssocHandler interface, _shell_IAssocHandler_IsRecommended, shell.IAssocHandler_IsRecommended, shobjidl_core/IAssocHandler::IsRecommended
 ms.topic: method
-f1_keywords: ["shobjidl_core/IAssocHandler.IsRecommended"]
+f1_keywords: 
+ - "shobjidl_core/IAssocHandler.IsRecommended"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

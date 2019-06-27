@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsSecurityUtility, IADsSecurityUtility interface [ADSI], IADsSecurityUtility interface [ADSI],described, _ds_iadssecurityutility, adsi.iadssecurityutility, iads/IADsSecurityUtility
 ms.topic: interface
-f1_keywords: ["iads/IADsSecurityUtility"]
+f1_keywords: 
+ - "iads/IADsSecurityUtility"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

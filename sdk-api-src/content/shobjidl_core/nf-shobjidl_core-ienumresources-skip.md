@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumResources interface [Windows Shell],Skip method, IEnumResources.Skip, IEnumResources::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumResources interface, _shell_IEnumResources_Skip, shell.IEnumResources_Skip, shobjidl_core/IEnumResources::Skip
 ms.topic: method
-f1_keywords: ["shobjidl_core/IEnumResources.Skip"]
+f1_keywords: 
+ - "shobjidl_core/IEnumResources.Skip"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPathTypes, GetPathTypes method [GDI+], GetPathTypes method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],GetPathTypes method, GraphicsPath.GetPathTypes, GraphicsPath::GetPathTypes, _gdiplus_CLASS_GraphicsPath_GetPathTypes_types_count_, gdiplus._gdiplus_CLASS_GraphicsPath_GetPathTypes_types_count_
 ms.topic: method
-f1_keywords: ["gdipluspath/GraphicsPath.GetPathTypes"]
+f1_keywords: 
+ - "gdipluspath/GraphicsPath.GetPathTypes"
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

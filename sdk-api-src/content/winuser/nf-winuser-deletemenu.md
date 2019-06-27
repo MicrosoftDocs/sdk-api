@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteMenu, DeleteMenu function [Menus and Other Resources], MF_BYCOMMAND, MF_BYPOSITION, _win32_DeleteMenu, _win32_deletemenu_cpp, menurc.deletemenu, winui._win32_deletemenu, winuser/DeleteMenu
 ms.topic: function
-f1_keywords: ["winuser/DeleteMenu"]
+f1_keywords: 
+ - "winuser/DeleteMenu"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

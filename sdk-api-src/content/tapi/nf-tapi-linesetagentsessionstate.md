@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linesetagentsessionstate, lineSetAgentSessionState, lineSetAgentSessionState function [TAPI 2.2], tapi/lineSetAgentSessionState, tapi2.linesetagentsessionstate"
 ms.topic: function
-f1_keywords: ["tapi/lineSetAgentSessionState"]
+f1_keywords: 
+ - "tapi/lineSetAgentSessionState"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

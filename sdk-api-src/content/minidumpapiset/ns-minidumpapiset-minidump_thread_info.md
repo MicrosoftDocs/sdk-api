@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMINIDUMP_THREAD_INFO, MINIDUMP_THREAD_INFO, MINIDUMP_THREAD_INFO structure, MINIDUMP_THREAD_INFO_ERROR_THREAD, MINIDUMP_THREAD_INFO_EXITED_THREAD, MINIDUMP_THREAD_INFO_INVALID_CONTEXT, MINIDUMP_THREAD_INFO_INVALID_INFO, MINIDUMP_THREAD_INFO_INVALID_TEB, MINIDUMP_THREAD_INFO_WRITING_THREAD, PMINIDUMP_THREAD_INFO, PMINIDUMP_THREAD_INFO structure pointer, _MINIDUMP_THREAD_INFO, base.minidump_thread_info_str, minidumpapiset/MINIDUMP_THREAD_INFO, minidumpapiset/PMINIDUMP_THREAD_INFO"
 ms.topic: struct
-f1_keywords: ["minidumpapiset/MINIDUMP_THREAD_INFO"]
+f1_keywords: 
+ - "minidumpapiset/MINIDUMP_THREAD_INFO"
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

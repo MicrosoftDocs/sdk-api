@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CALLFRAME_COPY, CALLFRAME_COPY enumeration [COM], CALLFRAME_COPY_INDEPENDENT, CALLFRAME_COPY_NESTED, _com_CALLFRAME_COPY, callobj/CALLFRAME_COPY, callobj/CALLFRAME_COPY_INDEPENDENT, callobj/CALLFRAME_COPY_NESTED, com.callframe_copy
 ms.topic: enum
-f1_keywords: ["callobj/CALLFRAME_COPY"]
+f1_keywords: 
+ - "callobj/CALLFRAME_COPY"
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

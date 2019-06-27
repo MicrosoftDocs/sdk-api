@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ObjectParserFlags, ObjectParserFlags enumeration [Windows Management Instrumentation], e_ParserAbsoluteNamespaceOnly, e_ParserAcceptAll, e_ParserAcceptRelativeNamespace, objpath/ObjectParserFlags, objpath/e_ParserAbsoluteNamespaceOnly, objpath/e_ParserAcceptAll, objpath/e_ParserAcceptRelativeNamespace, wmi.objectparserflags
 ms.topic: enum
-f1_keywords: ["objpath/ObjectParserFlags"]
+f1_keywords: 
+ - "objpath/ObjectParserFlags"
 req.header: objpath.h
 req.include-header: Objpath.h
 req.target-type: Windows

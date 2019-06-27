@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ArchiveLocation property [Fax Service], ArchiveLocation property [Fax Service],IFaxConfiguration interface, IFaxConfiguration interface [Fax Service],ArchiveLocation property, IFaxConfiguration.ArchiveLocation, IFaxConfiguration.get_ArchiveLocation, IFaxConfiguration::ArchiveLocation, IFaxConfiguration::get_ArchiveLocation, IFaxConfiguration::put_ArchiveLocation, _mfax_IFaxConfiguration_ArchiveLocation, fax._mfax_IFaxConfiguration_ArchiveLocation, faxcomex/IFaxConfiguration::ArchiveLocation, faxcomex/IFaxConfiguration::get_ArchiveLocation, faxcomex/IFaxConfiguration::put_ArchiveLocation, get_ArchiveLocation
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxConfiguration.ArchiveLocation"]
+f1_keywords: 
+ - "faxcomex/IFaxConfiguration.ArchiveLocation"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

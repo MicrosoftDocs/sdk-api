@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumBitsPeerCacheRecords, IEnumBitsPeerCacheRecords interface [BITS], IEnumBitsPeerCacheRecords interface [BITS],described, bits.ienumbitspeercacherecords, bits3_0/IEnumBitsPeerCacheRecords
 ms.topic: interface
-f1_keywords: ["bits3_0/IEnumBitsPeerCacheRecords"]
+f1_keywords: 
+ - "bits3_0/IEnumBitsPeerCacheRecords"
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows

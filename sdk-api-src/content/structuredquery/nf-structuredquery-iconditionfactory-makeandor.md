@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConditionFactory interface [search],MakeAndOr method, IConditionFactory.MakeAndOr, IConditionFactory::MakeAndOr, MakeAndOr, MakeAndOr method [search], MakeAndOr method [search],IConditionFactory interface, _search_IConditionFactory_MakeAndOr, search._search_IConditionFactory_MakeAndOr, structuredquery/IConditionFactory::MakeAndOr
 ms.topic: method
-f1_keywords: ["structuredquery/IConditionFactory.MakeAndOr"]
+f1_keywords: 
+ - "structuredquery/IConditionFactory.MakeAndOr"
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

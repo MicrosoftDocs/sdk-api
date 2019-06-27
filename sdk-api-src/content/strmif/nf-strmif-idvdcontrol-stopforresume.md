@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],StopForResume method, IDvdControl.StopForResume, IDvdControl::StopForResume, IDvdControlStopForResume, StopForResume, StopForResume method [DirectShow], StopForResume method [DirectShow],IDvdControl interface, dshow.idvdcontrol_stopforresume, strmif/IDvdControl::StopForResume
 ms.topic: method
-f1_keywords: ["strmif/IDvdControl.StopForResume"]
+f1_keywords: 
+ - "strmif/IDvdControl.StopForResume"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

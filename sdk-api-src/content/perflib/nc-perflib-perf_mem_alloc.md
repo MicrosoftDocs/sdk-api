@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllocateMemory, AllocateMemory callback function [Perf], PERF_MEM_ALLOC, PERF_MEM_ALLOC callback, perf.allocatememory, perflib/AllocateMemory
 ms.topic: callback
-f1_keywords: ["perflib/AllocateMemory"]
+f1_keywords: 
+ - "perflib/AllocateMemory"
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

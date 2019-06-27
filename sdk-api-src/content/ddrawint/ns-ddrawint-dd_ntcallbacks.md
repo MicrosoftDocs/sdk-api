@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_NTCALLBACKS, DD_NTCALLBACKS, DD_NTCALLBACKS structure [Display Devices], PDD_NTCALLBACKS, PDD_NTCALLBACKS structure pointer [Display Devices], ddrawint/DD_NTCALLBACKS, ddrawint/PDD_NTCALLBACKS, ddstrcts_1e79e318-f193-455c-b4c6-5f016b539207.xml, display.dd_ntcallbacks"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_NTCALLBACKS"]
+f1_keywords: 
+ - "ddrawint/DD_NTCALLBACKS"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

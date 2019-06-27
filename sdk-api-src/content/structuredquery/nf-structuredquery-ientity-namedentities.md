@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEntity interface [search],NamedEntities method, IEntity.NamedEntities, IEntity::NamedEntities, NamedEntities, NamedEntities method [search], NamedEntities method [search],IEntity interface, _search_IEntity_NamedEntities, search._search_IEntity_NamedEntities, structuredquery/IEntity::NamedEntities
 ms.topic: method
-f1_keywords: ["structuredquery/IEntity.NamedEntities"]
+f1_keywords: 
+ - "structuredquery/IEntity.NamedEntities"
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

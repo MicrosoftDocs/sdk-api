@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IThreadPoolKnobs interface [COM+],SetMinThreads method, IThreadPoolKnobs.SetMinThreads, IThreadPoolKnobs::SetMinThreads, SetMinThreads, SetMinThreads method [COM+], SetMinThreads method [COM+],IThreadPoolKnobs interface, _cos_IThreadPoolKnobs_SetMinThreads, comsvcs/IThreadPoolKnobs::SetMinThreads, cos.ithreadpoolknobs_setminthreads
 ms.topic: method
-f1_keywords: ["comsvcs/IThreadPoolKnobs.SetMinThreads"]
+f1_keywords: 
+ - "comsvcs/IThreadPoolKnobs.SetMinThreads"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

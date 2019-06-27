@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItemSpacing, GetItemSpacing method [Windows Shell], GetItemSpacing method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetItemSpacing method, IShellFolderView.GetItemSpacing, IShellFolderView::GetItemSpacing, _shell_IShellFolderView_GetItemSpacing, shell.IShellFolderView_GetItemSpacing, shlobj_core/IShellFolderView::GetItemSpacing
 ms.topic: method
-f1_keywords: ["shlobj_core/IShellFolderView.GetItemSpacing"]
+f1_keywords: 
+ - "shlobj_core/IShellFolderView.GetItemSpacing"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

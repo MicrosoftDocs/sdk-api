@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISensLogon2 interface [SENS],PostShell method, ISensLogon2.PostShell, ISensLogon2::PostShell, PostShell, PostShell method [SENS], PostShell method [SENS],ISensLogon2 interface, _zaw_isenslogon2_sessionpostshell, sens.isenslogon2_sessionpostshell, sensevts/ISensLogon2::PostShell, syncmgr.isenslogon2_sessionpostshell
 ms.topic: method
-f1_keywords: ["sensevts/ISensLogon2.PostShell"]
+f1_keywords: 
+ - "sensevts/ISensLogon2.PostShell"
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FinalizeExactCompositionString, FinalizeExactCompositionString method [Text Services Framework], FinalizeExactCompositionString method [Text Services Framework],ITfIntegratableCandidateListUIElement interface, ITfIntegratableCandidateListUIElement interface [Text Services Framework],FinalizeExactCompositionString method, ITfIntegratableCandidateListUIElement.FinalizeExactCompositionString, ITfIntegratableCandidateListUIElement::FinalizeExactCompositionString, ctffunc/ITfIntegratableCandidateListUIElement::FinalizeExactCompositionString, tsf.itfintegratablecandidatelistuielement_finalizeexactcompositionstring
 ms.topic: method
-f1_keywords: ["ctffunc/ITfIntegratableCandidateListUIElement.FinalizeExactCompositionString"]
+f1_keywords: 
+ - "ctffunc/ITfIntegratableCandidateListUIElement.FinalizeExactCompositionString"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

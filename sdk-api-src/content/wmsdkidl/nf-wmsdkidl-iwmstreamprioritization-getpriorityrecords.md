@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPriorityRecords, GetPriorityRecords method [windows Media Format], GetPriorityRecords method [windows Media Format],IWMStreamPrioritization interface, IWMStreamPrioritization interface [windows Media Format],GetPriorityRecords method, IWMStreamPrioritization.GetPriorityRecords, IWMStreamPrioritization::GetPriorityRecords, IWMStreamPrioritizationGetPriorityRecords, wmformat.iwmstreamprioritization_getpriorityrecords, wmsdkidl/IWMStreamPrioritization::GetPriorityRecords
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMStreamPrioritization.GetPriorityRecords"]
+f1_keywords: 
+ - "wmsdkidl/IWMStreamPrioritization.GetPriorityRecords"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetComponentDetails, GetComponentDetails method [COM+], GetComponentDetails method [COM+],IGetAppTrackerData interface, IGetAppTrackerData interface [COM+],GetComponentDetails method, IGetAppTrackerData.GetComponentDetails, IGetAppTrackerData::GetComponentDetails, comsvcs/IGetAppTrackerData::GetComponentDetails, cos.igetapptrackerdata_getcomponentdetails
 ms.topic: method
-f1_keywords: ["comsvcs/IGetAppTrackerData.GetComponentDetails"]
+f1_keywords: 
+ - "comsvcs/IGetAppTrackerData.GetComponentDetails"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetScope method, ISearchFolderItemFactory.SetScope, ISearchFolderItemFactory::SetScope, SetScope, SetScope method [Windows Shell], SetScope method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetScope, shell.ISearchFolderItemFactory_SetScope, shobjidl_core/ISearchFolderItemFactory::SetScope
 ms.topic: method
-f1_keywords: ["shobjidl_core/ISearchFolderItemFactory.SetScope"]
+f1_keywords: 
+ - "shobjidl_core/ISearchFolderItemFactory.SetScope"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

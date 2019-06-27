@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsService interface, IVdsService interface [VDS],GetProperties method, IVdsService.GetProperties, IVdsService::GetProperties, base.ivdsservice_getproperties, vds/IVdsService::GetProperties
 ms.topic: method
-f1_keywords: ["vds/IVdsService.GetProperties"]
+f1_keywords: 
+ - "vds/IVdsService.GetProperties"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

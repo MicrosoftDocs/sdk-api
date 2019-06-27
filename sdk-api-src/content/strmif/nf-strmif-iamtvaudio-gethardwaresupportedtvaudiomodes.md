@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHardwareSupportedTVAudioModes, GetHardwareSupportedTVAudioModes method [DirectShow], GetHardwareSupportedTVAudioModes method [DirectShow],IAMTVAudio interface, IAMTVAudio interface [DirectShow],GetHardwareSupportedTVAudioModes method, IAMTVAudio.GetHardwareSupportedTVAudioModes, IAMTVAudio::GetHardwareSupportedTVAudioModes, IAMTVAudioGetHardwareSupportedTVAudioModes, dshow.iamtvaudio_gethardwaresupportedtvaudiomodes, strmif/IAMTVAudio::GetHardwareSupportedTVAudioModes
 ms.topic: method
-f1_keywords: ["strmif/IAMTVAudio.GetHardwareSupportedTVAudioModes"]
+f1_keywords: 
+ - "strmif/IAMTVAudio.GetHardwareSupportedTVAudioModes"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

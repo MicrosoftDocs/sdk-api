@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],MultiplyTransform method, IDirect3DDevice9.MultiplyTransform, IDirect3DDevice9::MultiplyTransform, MultiplyTransform, MultiplyTransform method [Direct3D 9], MultiplyTransform method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::MultiplyTransform, direct3d9.idirect3ddevice9__multiplytransform, fe383422-a888-e230-bf89-3ae4af8e8e7d
 ms.topic: method
-f1_keywords: ["d3d9helper/IDirect3DDevice9.MultiplyTransform"]
+f1_keywords: 
+ - "d3d9helper/IDirect3DDevice9.MultiplyTransform"
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

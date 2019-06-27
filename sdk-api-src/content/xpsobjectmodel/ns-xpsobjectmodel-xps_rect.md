@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XPS_RECT, XPS_RECT structure [XPS Documents and Packaging], xps.xps_rect, xpsobjectmodel/XPS_RECT
 ms.topic: struct
-f1_keywords: ["xpsobjectmodel/XPS_RECT"]
+f1_keywords: 
+ - "xpsobjectmodel/XPS_RECT"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbHierarchicalTransmissionDescriptor interface, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbHierarchicalTransmissionDescriptor.GetLength, IIsdbHierarchicalTransmissionDescriptor::GetLength, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetLength, mstv.iisdbhierarchicaltransmissiondescriptor_getlength
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbHierarchicalTransmissionDescriptor.GetLength"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbHierarchicalTransmissionDescriptor.GetLength"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

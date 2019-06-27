@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDNS_TXT_DATA, *PDNS_TXT_DATAA, DNS_TXT_DATA, DNS_TXT_DATA structure [DNS], DNS_TXT_DATAA, PDNS_TXT_DATA, PDNS_TXT_DATA structure pointer [DNS], _dns_dns_txt_data, dns.dns_txt_data, windns/DNS_TXT_DATA, windns/PDNS_TXT_DATA"
 ms.topic: struct
-f1_keywords: ["windns/DNS_TXT_DATA"]
+f1_keywords: 
+ - "windns/DNS_TXT_DATA"
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

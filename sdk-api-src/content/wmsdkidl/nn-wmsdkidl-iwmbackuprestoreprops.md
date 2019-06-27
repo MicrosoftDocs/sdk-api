@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMBackupRestoreProps, IWMBackupRestoreProps interface [windows Media Format], IWMBackupRestoreProps interface [windows Media Format],described, IWMBackupRestorePropsInterface, wmformat.iwmbackuprestoreprops, wmsdkidl/IWMBackupRestoreProps
 ms.topic: interface
-f1_keywords: ["wmsdkidl/IWMBackupRestoreProps"]
+f1_keywords: 
+ - "wmsdkidl/IWMBackupRestoreProps"
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

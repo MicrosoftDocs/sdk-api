@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2EventArgs interface [IMAPI],get_TotalSystemBuffer method, IWriteEngine2EventArgs.get_TotalSystemBuffer, IWriteEngine2EventArgs::get_TotalSystemBuffer, get_TotalSystemBuffer, get_TotalSystemBuffer method [IMAPI], get_TotalSystemBuffer method [IMAPI],IWriteEngine2EventArgs interface, imapi.iwriteengine2eventargs_get_totalsystembuffer, imapi2/IWriteEngine2EventArgs::get_TotalSystemBuffer
 ms.topic: method
-f1_keywords: ["imapi2/IWriteEngine2EventArgs.get_TotalSystemBuffer"]
+f1_keywords: 
+ - "imapi2/IWriteEngine2EventArgs.get_TotalSystemBuffer"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

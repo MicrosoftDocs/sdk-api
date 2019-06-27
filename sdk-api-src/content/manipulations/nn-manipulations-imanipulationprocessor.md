@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IManipulationProcessor, IManipulationProcessor interface [Windows Touch], IManipulationProcessor interface [Windows Touch],described, manipulations/IManipulationProcessor, wintouch.imanipulationprocessor
 ms.topic: interface
-f1_keywords: ["manipulations/IManipulationProcessor"]
+f1_keywords: 
+ - "manipulations/IManipulationProcessor"
 req.header: manipulations.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVEnc interface [DirectShow],get_IFormatResolution method, IDVEnc.get_IFormatResolution, IDVEnc::get_IFormatResolution, IDVEncget_IFormatResolution, dshow.idvenc_get_iformatresolution, get_IFormatResolution, get_IFormatResolution method [DirectShow], get_IFormatResolution method [DirectShow],IDVEnc interface, strmif/IDVEnc::get_IFormatResolution
 ms.topic: method
-f1_keywords: ["strmif/IDVEnc.get_IFormatResolution"]
+f1_keywords: 
+ - "strmif/IDVEnc.get_IFormatResolution"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

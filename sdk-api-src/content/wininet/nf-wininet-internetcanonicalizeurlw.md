@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetCanonicalizeUrl, InternetCanonicalizeUrl function [WinINet], InternetCanonicalizeUrlA, InternetCanonicalizeUrlW, _inet_internetcanonicalizeurl_function, wininet.internetcanonicalizeurl, wininet/InternetCanonicalizeUrl, wininet/InternetCanonicalizeUrlA, wininet/InternetCanonicalizeUrlW
 ms.topic: function
-f1_keywords: ["wininet/InternetCanonicalizeUrl"]
+f1_keywords: 
+ - "wininet/InternetCanonicalizeUrl"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

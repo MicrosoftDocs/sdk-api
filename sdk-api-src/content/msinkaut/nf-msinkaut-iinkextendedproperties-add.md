@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 4fff6945-b46e-4e72-af45-ca066e73338e, Add, Add method [Tablet PC], Add method [Tablet PC],IInkExtendedProperties interface, IInkExtendedProperties interface [Tablet PC],Add method, IInkExtendedProperties.Add, IInkExtendedProperties::Add, msinkaut/IInkExtendedProperties::Add, tablet.iinkextendedproperties_add
 ms.topic: method
-f1_keywords: ["msinkaut/IInkExtendedProperties.Add"]
+f1_keywords: 
+ - "msinkaut/IInkExtendedProperties.Add"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

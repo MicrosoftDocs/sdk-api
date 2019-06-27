@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],get_SignalPolarisation method, IDVBSLocator.get_SignalPolarisation, IDVBSLocator::get_SignalPolarisation, IDVBSLocatorget_SignalPolarisation, get_SignalPolarisation, get_SignalPolarisation method [Microsoft TV Technologies], get_SignalPolarisation method [Microsoft TV Technologies],IDVBSLocator interface, mstv.idvbslocator_get_signalpolarisation, tuner/IDVBSLocator::get_SignalPolarisation
 ms.topic: method
-f1_keywords: ["tuner/IDVBSLocator.get_SignalPolarisation"]
+f1_keywords: 
+ - "tuner/IDVBSLocator.get_SignalPolarisation"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

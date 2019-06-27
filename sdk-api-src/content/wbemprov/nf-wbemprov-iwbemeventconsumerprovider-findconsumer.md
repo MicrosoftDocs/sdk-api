@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindConsumer, FindConsumer method [Windows Management Instrumentation], FindConsumer method [Windows Management Instrumentation],IWbemEventConsumerProvider interface, IWbemEventConsumerProvider interface [Windows Management Instrumentation],FindConsumer method, IWbemEventConsumerProvider.FindConsumer, IWbemEventConsumerProvider::FindConsumer, _hmm_iwbemeventconsumerprovider_findconsumer, wbemprov/IWbemEventConsumerProvider::FindConsumer, wmi.iwbemeventconsumerprovider_findconsumer
 ms.topic: method
-f1_keywords: ["wbemprov/IWbemEventConsumerProvider.FindConsumer"]
+f1_keywords: 
+ - "wbemprov/IWbemEventConsumerProvider.FindConsumer"
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

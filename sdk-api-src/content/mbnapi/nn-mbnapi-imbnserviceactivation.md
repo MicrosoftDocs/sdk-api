@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnServiceActivation, IMbnServiceActivation interface [Microsoft Broadband Networks], IMbnServiceActivation interface [Microsoft Broadband Networks],described, mbn.imbnserviceactivation, mbnapi/IMbnServiceActivation
 ms.topic: interface
-f1_keywords: ["mbnapi/IMbnServiceActivation"]
+f1_keywords: 
+ - "mbnapi/IMbnServiceActivation"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

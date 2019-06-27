@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiGetPatchFileList, MsiGetPatchFileList function, MsiGetPatchFileListA, MsiGetPatchFileListW, msi/MsiGetPatchFileList, msi/MsiGetPatchFileListA, msi/MsiGetPatchFileListW, setup.msigetpatchfilelist
 ms.topic: function
-f1_keywords: ["msi/MsiGetPatchFileList"]
+f1_keywords: 
+ - "msi/MsiGetPatchFileList"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

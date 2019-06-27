@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowPreroll, IAMNetShowPreroll interface [DirectShow], IAMNetShowPreroll interface [DirectShow],described, IAMNetShowPrerollInterface, dshow.iamnetshowpreroll, qnetwork/IAMNetShowPreroll
 ms.topic: interface
-f1_keywords: ["qnetwork/IAMNetShowPreroll"]
+f1_keywords: 
+ - "qnetwork/IAMNetShowPreroll"
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

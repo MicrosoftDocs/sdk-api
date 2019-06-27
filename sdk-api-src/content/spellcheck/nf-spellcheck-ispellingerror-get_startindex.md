@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpellingError interface [Internationalization for Windows Applications],StartIndex property, ISpellingError.StartIndex, ISpellingError.get_StartIndex, ISpellingError::StartIndex, ISpellingError::get_StartIndex, StartIndex property [Internationalization for Windows Applications], StartIndex property [Internationalization for Windows Applications],ISpellingError interface, get_StartIndex, intl.ispellingerror_startindex, spellcheck/ISpellingError::StartIndex, spellcheck/ISpellingError::get_StartIndex
 ms.topic: method
-f1_keywords: ["spellcheck/ISpellingError.StartIndex"]
+f1_keywords: 
+ - "spellcheck/ISpellingError.StartIndex"
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

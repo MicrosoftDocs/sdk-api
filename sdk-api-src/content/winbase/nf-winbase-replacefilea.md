@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: REPLACEFILE_IGNORE_ACL_ERRORS, REPLACEFILE_IGNORE_MERGE_ERRORS, REPLACEFILE_WRITE_THROUGH, ReplaceFile, ReplaceFile function [Files], ReplaceFileA, ReplaceFileW, _win32_replacefile, base.replacefile, fs.replacefile, winbase/ReplaceFile, winbase/ReplaceFileA, winbase/ReplaceFileW
 ms.topic: function
-f1_keywords: ["winbase/ReplaceFile"]
+f1_keywords: 
+ - "winbase/ReplaceFile"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

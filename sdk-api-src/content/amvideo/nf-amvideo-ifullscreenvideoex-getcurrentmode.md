@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentMode, GetCurrentMode method [DirectShow], GetCurrentMode method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetCurrentMode method, IFullScreenVideoEx.GetCurrentMode, IFullScreenVideoEx::GetCurrentMode, IFullScreenVideoGetCurrentMode, amvideo/IFullScreenVideoEx::GetCurrentMode, dshow.ifullscreenvideoex_getcurrentmode
 ms.topic: method
-f1_keywords: ["amvideo/IFullScreenVideoEx.GetCurrentMode"]
+f1_keywords: 
+ - "amvideo/IFullScreenVideoEx.GetCurrentMode"
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_acmDriverClose, acmDriverClose, acmDriverClose function [Windows Multimedia], msacm/acmDriverClose, multimedia.acmdriverclose"
 ms.topic: function
-f1_keywords: ["msacm/acmDriverClose"]
+f1_keywords: 
+ - "msacm/acmDriverClose"
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

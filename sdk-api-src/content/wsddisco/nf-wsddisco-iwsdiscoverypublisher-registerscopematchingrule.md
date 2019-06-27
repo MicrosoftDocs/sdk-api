@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher interface,RegisterScopeMatchingRule method, IWSDiscoveryPublisher.RegisterScopeMatchingRule, IWSDiscoveryPublisher::RegisterScopeMatchingRule, RegisterScopeMatchingRule, RegisterScopeMatchingRule method, RegisterScopeMatchingRule method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_registerscopematchingrule_method, wsddisco/IWSDiscoveryPublisher::RegisterScopeMatchingRule
 ms.topic: method
-f1_keywords: ["wsddisco/IWSDiscoveryPublisher.RegisterScopeMatchingRule"]
+f1_keywords: 
+ - "wsddisco/IWSDiscoveryPublisher.RegisterScopeMatchingRule"
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

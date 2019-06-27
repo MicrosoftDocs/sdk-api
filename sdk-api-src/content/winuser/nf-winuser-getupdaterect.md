@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUpdateRect, GetUpdateRect function [Windows GDI], _win32_GetUpdateRect, gdi.getupdaterect, winuser/GetUpdateRect
 ms.topic: function
-f1_keywords: ["winuser/GetUpdateRect"]
+f1_keywords: 
+ - "winuser/GetUpdateRect"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

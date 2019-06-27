@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConnectionDataPlanStatusChanged, ConnectionDataPlanStatusChanged method [Network Awareness], ConnectionDataPlanStatusChanged method [Network Awareness],INetworkConnectionCostEvents interface, INetworkConnectionCostEvents interface [Network Awareness],ConnectionDataPlanStatusChanged method, INetworkConnectionCostEvents.ConnectionDataPlanStatusChanged, INetworkConnectionCostEvents::ConnectionDataPlanStatusChanged, netlistmgr/INetworkConnectionCostEvents::ConnectionDataPlanStatusChanged, nla.inetworkconnectioncostevents_connectiondataplanstatuschanged
 ms.topic: method
-f1_keywords: ["netlistmgr/INetworkConnectionCostEvents.ConnectionDataPlanStatusChanged"]
+f1_keywords: 
+ - "netlistmgr/INetworkConnectionCostEvents.ConnectionDataPlanStatusChanged"
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseTable, CloseTable method [Remote Differential Compression], CloseTable method [Remote Differential Compression],ISimilarityTraitsTable interface, ISimilarityTraitsTable interface [Remote Differential Compression],CloseTable method, ISimilarityTraitsTable.CloseTable, ISimilarityTraitsTable::CloseTable, fs.isimilaritytraitstable_closetable, msrdc/ISimilarityTraitsTable::CloseTable, rdc.isimilaritytraitstable_closetable
 ms.topic: method
-f1_keywords: ["msrdc/ISimilarityTraitsTable.CloseTable"]
+f1_keywords: 
+ - "msrdc/ISimilarityTraitsTable.CloseTable"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

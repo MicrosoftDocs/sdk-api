@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInputStreamPreferredState, GetInputStreamPreferredState method [Streaming Media Devices], GetInputStreamPreferredState method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetInputStreamPreferredState method, IMFDeviceTransform.GetInputStreamPreferredState, IMFDeviceTransform::GetInputStreamPreferredState, mftransform/IMFDeviceTransform::GetInputStreamPreferredState, stream.imfdevicetransform_getinputstreampreferredstate
 ms.topic: method
-f1_keywords: ["mftransform/IMFDeviceTransform.GetInputStreamPreferredState"]
+f1_keywords: 
+ - "mftransform/IMFDeviceTransform.GetInputStreamPreferredState"
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

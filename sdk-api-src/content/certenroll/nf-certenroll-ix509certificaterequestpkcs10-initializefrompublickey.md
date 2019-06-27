@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],InitializeFromPublicKey method, IX509CertificateRequestPkcs10.InitializeFromPublicKey, IX509CertificateRequestPkcs10::InitializeFromPublicKey, InitializeFromPublicKey, InitializeFromPublicKey method [Security], InitializeFromPublicKey method [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::InitializeFromPublicKey, security.ix509certificaterequestpkcs10_initializefrompublickey_method
 ms.topic: method
-f1_keywords: ["certenroll/IX509CertificateRequestPkcs10.InitializeFromPublicKey"]
+f1_keywords: 
+ - "certenroll/IX509CertificateRequestPkcs10.InitializeFromPublicKey"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

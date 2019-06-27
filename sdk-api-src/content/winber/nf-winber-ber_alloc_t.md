@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ber_alloc_t, ber_alloc_t, ber_alloc_t function [LDAP], ldap.ber__alloc__t, ldap.ber_alloc_t, winber/ber_alloc_t"
 ms.topic: function
-f1_keywords: ["winber/ber_alloc_t"]
+f1_keywords: 
+ - "winber/ber_alloc_t"
 req.header: winber.h
 req.include-header: 
 req.target-type: Windows

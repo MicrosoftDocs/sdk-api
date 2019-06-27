@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICategory interface [Windows Update Agent],Parent property, ICategory.Parent, ICategory.get_Parent, ICategory::Parent, ICategory::get_Parent, Parent property [Windows Update Agent], Parent property [Windows Update Agent],ICategory interface, get_Parent, wua.icategory_parent, wuapi/ICategory::Parent, wuapi/ICategory::get_Parent
 ms.topic: method
-f1_keywords: ["wuapi/ICategory.Parent"]
+f1_keywords: 
+ - "wuapi/ICategory.Parent"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

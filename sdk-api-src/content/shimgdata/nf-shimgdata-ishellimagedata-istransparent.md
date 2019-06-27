@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],IsTransparent method, IShellImageData.IsTransparent, IShellImageData::IsTransparent, IsTransparent, IsTransparent method [Windows Shell], IsTransparent method [Windows Shell],IShellImageData interface, _shell_IShellImageData_IsTransparent, shell.IShellImageData_IsTransparent, shimgdata/IShellImageData::IsTransparent
 ms.topic: method
-f1_keywords: ["shimgdata/IShellImageData.IsTransparent"]
+f1_keywords: 
+ - "shimgdata/IShellImageData.IsTransparent"
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

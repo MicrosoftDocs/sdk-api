@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DSO_SHUFFLEIMAGES, IDesktopWallpaper interface [Windows Shell],SetSlideshowOptions method, IDesktopWallpaper.SetSlideshowOptions, IDesktopWallpaper::SetSlideshowOptions, SetSlideshowOptions, SetSlideshowOptions method [Windows Shell], SetSlideshowOptions method [Windows Shell],IDesktopWallpaper interface, shell.IDesktopWallpaper_SetSlideshowOptions, shobjidl_core/IDesktopWallpaper::SetSlideshowOptions
 ms.topic: method
-f1_keywords: ["shobjidl_core/IDesktopWallpaper.SetSlideshowOptions"]
+f1_keywords: 
+ - "shobjidl_core/IDesktopWallpaper.SetSlideshowOptions"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

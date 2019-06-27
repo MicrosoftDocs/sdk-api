@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: CHString::Find
 ms.topic: language-reference
-f1_keywords: ["chstring/CHString::Find"]
+f1_keywords: 
+ - "chstring/CHString::Find"
 targetos: Windows
 product: Windows
 req.assembly: 

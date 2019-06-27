@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IJolietDiscMaster interface [IMAPI],SetJolietProperties method, IJolietDiscMaster.SetJolietProperties, IJolietDiscMaster::SetJolietProperties, SetJolietProperties, SetJolietProperties method [IMAPI], SetJolietProperties method [IMAPI],IJolietDiscMaster interface, _win32_ijolietdiscmaster_setjolietproperties, base.ijolietdiscmaster_setjolietproperties, imapi.ijolietdiscmaster_setjolietproperties, imapi/IJolietDiscMaster::SetJolietProperties
 ms.topic: method
-f1_keywords: ["imapi/IJolietDiscMaster.SetJolietProperties"]
+f1_keywords: 
+ - "imapi/IJolietDiscMaster.SetJolietProperties"
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

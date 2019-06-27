@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateVisual, CreateVisual method [DirectComposition], CreateVisual method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateVisual method, IDCompositionDevice.CreateVisual, IDCompositionDevice::CreateVisual, dcomp/IDCompositionDevice::CreateVisual, directcomp.idcompositiondevice_createvisual
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionDevice.CreateVisual"]
+f1_keywords: 
+ - "dcomp/IDCompositionDevice.CreateVisual"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

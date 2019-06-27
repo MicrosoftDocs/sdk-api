@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWindowProvider interface [Windows Accessibility],SetVisualState method, IWindowProvider.SetVisualState, IWindowProvider::SetVisualState, SetVisualState, SetVisualState method [Windows Accessibility], SetVisualState method [Windows Accessibility],IWindowProvider interface, uiauto.uiauto_IWindowProvider_SetVisualState, uiauto_IWindowProvider_SetVisualState, uiautomationcore/IWindowProvider::SetVisualState, winauto.uiauto_IWindowProvider_SetVisualState
 ms.topic: method
-f1_keywords: ["uiautomationcore/IWindowProvider.SetVisualState"]
+f1_keywords: 
+ - "uiautomationcore/IWindowProvider.SetVisualState"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

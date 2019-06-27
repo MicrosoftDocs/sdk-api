@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IX509PolicyServerListManager interface, IX509PolicyServerListManager interface [Security],Add method, IX509PolicyServerListManager.Add, IX509PolicyServerListManager::Add, certenroll/IX509PolicyServerListManager::Add, security.ix509policyserverlistmanager_add
 ms.topic: method
-f1_keywords: ["certenroll/IX509PolicyServerListManager.Add"]
+f1_keywords: 
+ - "certenroll/IX509PolicyServerListManager.Add"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

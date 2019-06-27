@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentRowCount property [Windows Accessibility], CurrentRowCount property [Windows Accessibility],IUIAutomationGridPattern interface, IUIAutomationGridPattern interface [Windows Accessibility],CurrentRowCount property, IUIAutomationGridPattern.CurrentRowCount, IUIAutomationGridPattern.get_CurrentRowCount, IUIAutomationGridPattern::CurrentRowCount, IUIAutomationGridPattern::get_CurrentRowCount, get_CurrentRowCount, uiauto.uiauto_IUIAutomationGridPattern_CurrentRowCount, uiauto_IUIAutomationGridPattern_CurrentRowCount, uiautomationclient/IUIAutomationGridPattern::CurrentRowCount, uiautomationclient/IUIAutomationGridPattern::get_CurrentRowCount, winauto.uiauto_IUIAutomationGridPattern_CurrentRowCount
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationGridPattern.CurrentRowCount"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationGridPattern.CurrentRowCount"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

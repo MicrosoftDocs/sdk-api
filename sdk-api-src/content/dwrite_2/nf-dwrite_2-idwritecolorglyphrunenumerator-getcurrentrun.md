@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentRun, GetCurrentRun method [Direct Write], GetCurrentRun method [Direct Write],IDWriteColorGlyphRunEnumerator interface, IDWriteColorGlyphRunEnumerator interface [Direct Write],GetCurrentRun method, IDWriteColorGlyphRunEnumerator.GetCurrentRun, IDWriteColorGlyphRunEnumerator::GetCurrentRun, directwrite.idwritecolorglyphrunenumerator_getcurrentrun, dwrite_2/IDWriteColorGlyphRunEnumerator::GetCurrentRun
 ms.topic: method
-f1_keywords: ["dwrite_2/IDWriteColorGlyphRunEnumerator.GetCurrentRun"]
+f1_keywords: 
+ - "dwrite_2/IDWriteColorGlyphRunEnumerator.GetCurrentRun"
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

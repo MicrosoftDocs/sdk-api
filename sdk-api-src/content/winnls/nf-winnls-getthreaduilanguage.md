@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThreadUILanguage, GetThreadUILanguage function [Internationalization for Windows Applications], _win32_GetThreadUILanguage, intl.getthreaduilanguage, winnls/GetThreadUILanguage
 ms.topic: function
-f1_keywords: ["winnls/GetThreadUILanguage"]
+f1_keywords: 
+ - "winnls/GetThreadUILanguage"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

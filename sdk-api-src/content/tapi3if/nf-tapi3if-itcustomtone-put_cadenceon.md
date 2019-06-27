@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITCustomTone interface [TAPI 2.2],put_CadenceOn method, ITCustomTone.put_CadenceOn, ITCustomTone::put_CadenceOn, _tapi3_itcustomtone_put_cadenceon, put_CadenceOn, put_CadenceOn method [TAPI 2.2], put_CadenceOn method [TAPI 2.2],ITCustomTone interface, tapi3.itcustomtone_put_cadenceon, tapi3if/ITCustomTone::put_CadenceOn
 ms.topic: method
-f1_keywords: ["tapi3if/ITCustomTone.put_CadenceOn"]
+f1_keywords: 
+ - "tapi3if/ITCustomTone.put_CadenceOn"
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

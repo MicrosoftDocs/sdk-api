@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindAllWithOptionsBuildCache, FindAllWithOptionsBuildCache method [Windows Accessibility], FindAllWithOptionsBuildCache method [Windows Accessibility],IUIAutomationElement7 interface, IUIAutomationElement7 interface [Windows Accessibility],FindAllWithOptionsBuildCache method, IUIAutomationElement7.FindAllWithOptionsBuildCache, IUIAutomationElement7::FindAllWithOptionsBuildCache, uiautomationclient/IUIAutomationElement7::FindAllWithOptionsBuildCache, winauto.uiauto_IUIAutomationElement7_FindAllWithOptionsBuildCache, winauto.uiauto_iuiautomationelement_findallwithoptionsbuildcache
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationElement7.FindAllWithOptionsBuildCache"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement7.FindAllWithOptionsBuildCache"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

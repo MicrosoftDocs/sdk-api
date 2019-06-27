@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteScope2, DeleteScope2 method [Security], DeleteScope2 method [Security],IAzApplication3 interface, IAzApplication3 interface [Security],DeleteScope2 method, IAzApplication3.DeleteScope2, IAzApplication3::DeleteScope2, azroles/IAzApplication3::DeleteScope2, security.iazapplication3_deletescope2
 ms.topic: method
-f1_keywords: ["azroles/IAzApplication3.DeleteScope2"]
+f1_keywords: 
+ - "azroles/IAzApplication3.DeleteScope2"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

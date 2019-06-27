@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITriggerCollection interface [Task Scheduler],_NewEnum property, ITriggerCollection._NewEnum, ITriggerCollection.get__NewEnum, ITriggerCollection::_NewEnum, ITriggerCollection::get__NewEnum, _NewEnum property [Task Scheduler], _NewEnum property [Task Scheduler],ITriggerCollection interface, get__NewEnum, taskschd.itriggercollection__newenum, taskschd/ITriggerCollection::_NewEnum, taskschd/ITriggerCollection::get__NewEnum
 ms.topic: method
-f1_keywords: ["taskschd/ITriggerCollection._NewEnum"]
+f1_keywords: 
+ - "taskschd/ITriggerCollection._NewEnum"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

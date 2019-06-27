@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IObjectWithCancelEvent, IObjectWithCancelEvent interface [Windows Shell], IObjectWithCancelEvent interface [Windows Shell],described, _shell_IObjectWithCancelEvent, shell.IObjectWithCancelEvent, shobjidl_core/IObjectWithCancelEvent
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IObjectWithCancelEvent"]
+f1_keywords: 
+ - "shobjidl_core/IObjectWithCancelEvent"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

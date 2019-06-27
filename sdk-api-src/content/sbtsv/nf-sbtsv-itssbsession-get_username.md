@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbSession interface [Remote Desktop Services],Username property, ITsSbSession.Username, ITsSbSession.get_Username, ITsSbSession::Username, ITsSbSession::get_Username, Username property [Remote Desktop Services], Username property [Remote Desktop Services],ITsSbSession interface, get_Username, sbtsv/ITsSbSession::Username, sbtsv/ITsSbSession::get_Username, termserv.itssbsession_username
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbSession.Username"]
+f1_keywords: 
+ - "sbtsv/ITsSbSession.Username"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

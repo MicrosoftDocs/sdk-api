@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISettingsEngine, ISettingsEngine interface [SMI], ISettingsEngine interface [SMI],described, smi.isettingsengine, wcmconfig/ISettingsEngine
 ms.topic: interface
-f1_keywords: ["wcmconfig/ISettingsEngine"]
+f1_keywords: 
+ - "wcmconfig/ISettingsEngine"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

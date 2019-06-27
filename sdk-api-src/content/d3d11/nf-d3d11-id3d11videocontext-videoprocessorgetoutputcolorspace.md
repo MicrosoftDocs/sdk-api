@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetOutputColorSpace method, ID3D11VideoContext.VideoProcessorGetOutputColorSpace, ID3D11VideoContext::VideoProcessorGetOutputColorSpace, VideoProcessorGetOutputColorSpace, VideoProcessorGetOutputColorSpace method [Media Foundation], VideoProcessorGetOutputColorSpace method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetOutputColorSpace, mf.id3d11videocontext_videoprocessorgetoutputcolorspace
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11VideoContext.VideoProcessorGetOutputColorSpace"]
+f1_keywords: 
+ - "d3d11/ID3D11VideoContext.VideoProcessorGetOutputColorSpace"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

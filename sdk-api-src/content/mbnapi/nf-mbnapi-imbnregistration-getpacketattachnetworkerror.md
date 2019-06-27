@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPacketAttachNetworkError, GetPacketAttachNetworkError method [Microsoft Broadband Networks], GetPacketAttachNetworkError method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetPacketAttachNetworkError method, IMbnRegistration.GetPacketAttachNetworkError, IMbnRegistration::GetPacketAttachNetworkError, mbn.imbnregistration_getpacketattachnetworkerror, mbnapi/IMbnRegistration::GetPacketAttachNetworkError
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnRegistration.GetPacketAttachNetworkError"]
+f1_keywords: 
+ - "mbnapi/IMbnRegistration.GetPacketAttachNetworkError"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFPluginControl interface [Media Foundation],SetPreferredClsid method, IMFPluginControl.SetPreferredClsid, IMFPluginControl::SetPreferredClsid, SetPreferredClsid, SetPreferredClsid method [Media Foundation], SetPreferredClsid method [Media Foundation],IMFPluginControl interface, mf.imfplugincontrol_imfplugincontrol__setpreferredclsid, mfobjects/IMFPluginControl::SetPreferredClsid
 ms.topic: method
-f1_keywords: ["mfobjects/IMFPluginControl.SetPreferredClsid"]
+f1_keywords: 
+ - "mfobjects/IMFPluginControl.SetPreferredClsid"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

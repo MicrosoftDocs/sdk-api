@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTransferManifest, GetTransferManifest method [Windows Shell], GetTransferManifest method [Windows Shell],IPublishingWizard interface, IPublishingWizard interface [Windows Shell],GetTransferManifest method, IPublishingWizard.GetTransferManifest, IPublishingWizard::GetTransferManifest, _shell_IPublishingWizard_GetTransferManifest, shell.IPublishingWizard_GetTransferManifest, shobjidl/IPublishingWizard::GetTransferManifest
 ms.topic: method
-f1_keywords: ["shobjidl/IPublishingWizard.GetTransferManifest"]
+f1_keywords: 
+ - "shobjidl/IPublishingWizard.GetTransferManifest"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

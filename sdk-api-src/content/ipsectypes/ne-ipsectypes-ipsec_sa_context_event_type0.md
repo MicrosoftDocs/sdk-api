@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPSEC_SA_CONTEXT_EVENT_ADD, IPSEC_SA_CONTEXT_EVENT_DELETE, IPSEC_SA_CONTEXT_EVENT_MAX, IPSEC_SA_CONTEXT_EVENT_TYPE0, IPSEC_SA_CONTEXT_EVENT_TYPE0 enumeration [Filtering], fwp.ipsec_sa_context_event_type0, ipsectypes/IPSEC_SA_CONTEXT_EVENT_ADD, ipsectypes/IPSEC_SA_CONTEXT_EVENT_DELETE, ipsectypes/IPSEC_SA_CONTEXT_EVENT_MAX, ipsectypes/IPSEC_SA_CONTEXT_EVENT_TYPE0
 ms.topic: enum
-f1_keywords: ["ipsectypes/IPSEC_SA_CONTEXT_EVENT_TYPE0"]
+f1_keywords: 
+ - "ipsectypes/IPSEC_SA_CONTEXT_EVENT_TYPE0"
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

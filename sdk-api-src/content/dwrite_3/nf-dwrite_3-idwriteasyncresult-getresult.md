@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetResult, GetResult method [Direct Write], GetResult method [Direct Write],IDWriteAsyncResult interface, IDWriteAsyncResult interface [Direct Write],GetResult method, IDWriteAsyncResult.GetResult, IDWriteAsyncResult::GetResult, directwrite.idwriteasyncresult_getresult, dwrite_3/IDWriteAsyncResult::GetResult
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteAsyncResult.GetResult"]
+f1_keywords: 
+ - "dwrite_3/IDWriteAsyncResult.GetResult"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

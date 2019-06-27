@@ -4,7 +4,8 @@ title: ID3D12GraphicsCommandList5::RSSetShadingRateImage
 ms.date: 01/31/19
 ms.keywords: ID3D12GraphicsCommandList5::RSSetShadingRateImage
 ms.topic: language-reference
-f1_keywords: ["d3d12/ID3D12GraphicsCommandList5::RSSetShadingRateImage"]
+f1_keywords: 
+ - "d3d12/ID3D12GraphicsCommandList5::RSSetShadingRateImage"
 targetos: Windows
 product: Windows
 req.assembly: 

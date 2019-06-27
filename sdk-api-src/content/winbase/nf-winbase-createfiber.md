@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateFiber, CreateFiber function, _win32_createfiber, base.createfiber, winbase/CreateFiber
 ms.topic: function
-f1_keywords: ["winbase/CreateFiber"]
+f1_keywords: 
+ - "winbase/CreateFiber"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

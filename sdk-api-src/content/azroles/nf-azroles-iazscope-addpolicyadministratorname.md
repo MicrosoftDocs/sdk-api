@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddPolicyAdministratorName, AddPolicyAdministratorName method [Security], AddPolicyAdministratorName method [Security],AzScope object, AddPolicyAdministratorName method [Security],IAzScope interface, AzScope object [Security],AddPolicyAdministratorName method, IAzScope interface [Security],AddPolicyAdministratorName method, IAzScope.AddPolicyAdministratorName, IAzScope::AddPolicyAdministratorName, azroles/IAzScope::AddPolicyAdministratorName, security.iazscope_addpolicyadministratorname
 ms.topic: method
-f1_keywords: ["azroles/IAzScope.AddPolicyAdministratorName"]
+f1_keywords: 
+ - "azroles/IAzScope.AddPolicyAdministratorName"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EWX_FORCE, EWX_FORCEIFHUNG, EWX_HYBRID_SHUTDOWN, EWX_LOGOFF, EWX_POWEROFF, EWX_REBOOT, EWX_RESTARTAPPS, EWX_SHUTDOWN, ExitWindowsEx, ExitWindowsEx function, _win32_exitwindowsex, base.exitwindowsex, winuser/ExitWindowsEx
 ms.topic: function
-f1_keywords: ["winuser/ExitWindowsEx"]
+f1_keywords: 
+ - "winuser/ExitWindowsEx"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

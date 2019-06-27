@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XMUNIBBLE4, XMUNIBBLE4 constructor [DirectX Math Support APIs], XMUNIBBLE4 constructor [DirectX Math Support APIs],XMUNIBBLE4 structure, XMUNIBBLE4 structure [DirectX Math Support APIs],XMUNIBBLE4 constructor, XMUNIBBLE4.XMUNIBBLE4, XMUNIBBLE4.XMUNIBBLE4(uint16_t), XMUNIBBLE4::XMUNIBBLE4, XMUNIBBLE4::XMUNIBBLE4(uint16_t), dxmath.xmunibble4_ctor_2
 ms.topic: method
-f1_keywords: ["directxpackedvector/XMUNIBBLE4.XMUNIBBLE4"]
+f1_keywords: 
+ - "directxpackedvector/XMUNIBBLE4.XMUNIBBLE4"
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

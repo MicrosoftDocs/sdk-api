@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFeatureMask, GetFeatureMask method, GetFeatureMask method,ID3D12DebugDevice interface, ID3D12DebugDevice interface,GetFeatureMask method, ID3D12DebugDevice.GetFeatureMask, ID3D12DebugDevice::GetFeatureMask, d3d12sdklayers/ID3D12DebugDevice::GetFeatureMask, direct3d12.id3d12debugdevice_getfeaturemask
 ms.topic: method
-f1_keywords: ["d3d12sdklayers/ID3D12DebugDevice.GetFeatureMask"]
+f1_keywords: 
+ - "d3d12sdklayers/ID3D12DebugDevice.GetFeatureMask"
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

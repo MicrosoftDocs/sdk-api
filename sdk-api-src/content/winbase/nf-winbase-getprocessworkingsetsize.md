@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProcessWorkingSetSize, GetProcessWorkingSetSize function, _win32_getprocessworkingsetsize, base.getprocessworkingsetsize, winbase/GetProcessWorkingSetSize
 ms.topic: function
-f1_keywords: ["winbase/GetProcessWorkingSetSize"]
+f1_keywords: 
+ - "winbase/GetProcessWorkingSetSize"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

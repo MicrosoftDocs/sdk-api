@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetLanguage method, IXpsOMCoreProperties.SetLanguage, IXpsOMCoreProperties::SetLanguage, SetLanguage, SetLanguage method [XPS Documents and Packaging], SetLanguage method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setlanguage, xpsobjectmodel/IXpsOMCoreProperties::SetLanguage
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMCoreProperties.SetLanguage"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMCoreProperties.SetLanguage"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

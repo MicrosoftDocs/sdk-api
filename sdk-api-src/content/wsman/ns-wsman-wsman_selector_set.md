@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_SELECTOR_SET, WSMAN_SELECTOR_SET structure [Windows Remote Management], winrm.wsman_selector_set, wsman/WSMAN_SELECTOR_SET
 ms.topic: struct
-f1_keywords: ["wsman/WSMAN_SELECTOR_SET"]
+f1_keywords: 
+ - "wsman/WSMAN_SELECTOR_SET"
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

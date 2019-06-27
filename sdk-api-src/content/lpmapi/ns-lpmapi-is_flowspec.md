@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IS_FLOWSPEC, IS_FLOWSPEC structure [QOS], lpmapi/IS_FLOWSPEC, qos.is_flowspec
 ms.topic: struct
-f1_keywords: ["lpmapi/IS_FLOWSPEC"]
+f1_keywords: 
+ - "lpmapi/IS_FLOWSPEC"
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

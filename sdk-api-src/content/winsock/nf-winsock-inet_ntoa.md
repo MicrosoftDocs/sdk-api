@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_inet_ntoa_2, inet_ntoa, inet_ntoa function [Winsock], winsock.inet_ntoa_2, wsipv6ok/inet_ntoa"
 ms.topic: function
-f1_keywords: ["winsock/inet_ntoa"]
+f1_keywords: 
+ - "winsock/inet_ntoa"
 req.header: winsock.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PACKAGE_INFO, PACKAGE_INFO structure [App packaging and management], appmodel/PACKAGE_INFO, appxpkg.package_info
 ms.topic: struct
-f1_keywords: ["appmodel/PACKAGE_INFO"]
+f1_keywords: 
+ - "appmodel/PACKAGE_INFO"
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

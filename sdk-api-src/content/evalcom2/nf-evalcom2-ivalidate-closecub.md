@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseCUB, CloseCUB method, CloseCUB method,IValidate interface, IValidate interface,CloseCUB method, IValidate.CloseCUB, IValidate::CloseCUB, evalcom2/IValidate::CloseCUB, setup.ivalidate_closecub
 ms.topic: method
-f1_keywords: ["evalcom2/IValidate.CloseCUB"]
+f1_keywords: 
+ - "evalcom2/IValidate.CloseCUB"
 req.header: evalcom2.h
 req.include-header: 
 req.target-type: Windows

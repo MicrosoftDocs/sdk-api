@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathAppend, PathAppend function [Windows Shell], PathAppendA, PathAppendW, _win32_PathAppend, shell.PathAppend, shlwapi/PathAppend, shlwapi/PathAppendA, shlwapi/PathAppendW
 ms.topic: function
-f1_keywords: ["shlwapi/PathAppend"]
+f1_keywords: 
+ - "shlwapi/PathAppend"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

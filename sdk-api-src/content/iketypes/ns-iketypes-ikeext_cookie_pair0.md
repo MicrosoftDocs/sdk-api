@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_COOKIE_PAIR0, IKEEXT_COOKIE_PAIR0 structure [Filtering], fwp.ikeext_cookie_pair0, iketypes/IKEEXT_COOKIE_PAIR0
 ms.topic: struct
-f1_keywords: ["iketypes/IKEEXT_COOKIE_PAIR0"]
+f1_keywords: 
+ - "iketypes/IKEEXT_COOKIE_PAIR0"
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

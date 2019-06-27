@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509Attributes interface [Security],ItemByIndex property, IX509Attributes.ItemByIndex, IX509Attributes.get_ItemByIndex, IX509Attributes::ItemByIndex, IX509Attributes::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IX509Attributes interface, certenroll/IX509Attributes::ItemByIndex, certenroll/IX509Attributes::get_ItemByIndex, get_ItemByIndex, security.ix509attributes_itembyindex_property
 ms.topic: method
-f1_keywords: ["certenroll/IX509Attributes.ItemByIndex"]
+f1_keywords: 
+ - "certenroll/IX509Attributes.ItemByIndex"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPostViewFormat, GetPostViewFormat method [windows Media Format], GetPostViewFormat method [windows Media Format],IWMWriterPostView interface, IWMWriterPostView interface [windows Media Format],GetPostViewFormat method, IWMWriterPostView.GetPostViewFormat, IWMWriterPostView::GetPostViewFormat, IWMWriterPostViewGetPostViewFormat, wmformat.iwmwriterpostview_getpostviewformat, wmsdkidl/IWMWriterPostView::GetPostViewFormat
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriterPostView.GetPostViewFormat"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriterPostView.GetPostViewFormat"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MC_HORIZONTAL_POSITION, MC_POSITION_TYPE, MC_POSITION_TYPE , MC_POSITION_TYPE enumeration [Monitor Configuration], MC_VERTICAL_POSITION, highlevelmonitorconfigurationapi/MC_HORIZONTAL_POSITION, highlevelmonitorconfigurationapi/MC_POSITION_TYPE, highlevelmonitorconfigurationapi/MC_VERTICAL_POSITION, monitor.mc_position_type
 ms.topic: enum
-f1_keywords: ["highlevelmonitorconfigurationapi/MC_POSITION_TYPE"]
+f1_keywords: 
+ - "highlevelmonitorconfigurationapi/MC_POSITION_TYPE"
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

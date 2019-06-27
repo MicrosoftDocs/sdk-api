@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDevId, GetDevId method [DirectShow], GetDevId method [DirectShow],IAMDevMemoryControl interface, IAMDevMemoryControl interface [DirectShow],GetDevId method, IAMDevMemoryControl.GetDevId, IAMDevMemoryControl::GetDevId, IAMDevMemoryControlGetDevId, dshow.iamdevmemorycontrol_getdevid, strmif/IAMDevMemoryControl::GetDevId
 ms.topic: method
-f1_keywords: ["strmif/IAMDevMemoryControl.GetDevId"]
+f1_keywords: 
+ - "strmif/IAMDevMemoryControl.GetDevId"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

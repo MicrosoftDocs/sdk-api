@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetFileClose, NetFileClose function [Files], _win32_netfileclose, fs.netfileclose, lmshare/NetFileClose, netmgmt.netfileclose
 ms.topic: function
-f1_keywords: ["lmshare/NetFileClose"]
+f1_keywords: 
+ - "lmshare/NetFileClose"
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

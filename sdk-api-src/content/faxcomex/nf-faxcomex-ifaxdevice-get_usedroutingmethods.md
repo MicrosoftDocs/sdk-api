@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxDevice interface [Fax Service],UsedRoutingMethods property, IFaxDevice.UsedRoutingMethods, IFaxDevice.get_UsedRoutingMethods, IFaxDevice::UsedRoutingMethods, IFaxDevice::get_UsedRoutingMethods, UsedRoutingMethods property [Fax Service], UsedRoutingMethods property [Fax Service],IFaxDevice interface, _mfax_faxdevice.usedroutingmethods, fax._mfax_faxdevice_cpp_mfax_faxdevice_usedroutingmethods_cpp, fax._mfax_faxdevice_usedroutingmethods, faxcomex/IFaxDevice::UsedRoutingMethods, faxcomex/IFaxDevice::get_UsedRoutingMethods, get_UsedRoutingMethods
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxDevice.UsedRoutingMethods"]
+f1_keywords: 
+ - "faxcomex/IFaxDevice.UsedRoutingMethods"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

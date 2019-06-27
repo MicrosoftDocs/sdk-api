@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LdapGetLastError, LdapGetLastError function [LDAP], _ldap_ldapgetlasterror, ldap.ldapgetlasterror, winldap/LdapGetLastError
 ms.topic: function
-f1_keywords: ["winldap/LdapGetLastError"]
+f1_keywords: 
+ - "winldap/LdapGetLastError"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

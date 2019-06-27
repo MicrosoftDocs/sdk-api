@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFPresentationClock interface [Media Foundation],Start method, IMFPresentationClock.Start, IMFPresentationClock::Start, Start, Start method [Media Foundation], Start method [Media Foundation],IMFPresentationClock interface, ba5986d1-9c94-4747-a221-43d0583f1fed, mf.imfpresentationclock_start, mfidl/IMFPresentationClock::Start
 ms.topic: method
-f1_keywords: ["mfidl/IMFPresentationClock.Start"]
+f1_keywords: 
+ - "mfidl/IMFPresentationClock.Start"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

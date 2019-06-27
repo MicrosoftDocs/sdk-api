@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordCount, GetRecordCount method [Remote Differential Compression], GetRecordCount method [Remote Differential Compression],ISimilarityFileIdTable interface, ISimilarityFileIdTable interface [Remote Differential Compression],GetRecordCount method, ISimilarityFileIdTable.GetRecordCount, ISimilarityFileIdTable::GetRecordCount, fs.isimilarityfileidtable_getrecordcount, msrdc/ISimilarityFileIdTable::GetRecordCount, rdc.isimilarityfileidtable_getrecordcount
 ms.topic: method
-f1_keywords: ["msrdc/ISimilarityFileIdTable.GetRecordCount"]
+f1_keywords: 
+ - "msrdc/ISimilarityFileIdTable.GetRecordCount"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

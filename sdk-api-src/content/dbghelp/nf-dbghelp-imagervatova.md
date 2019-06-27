@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageRvaToVa, ImageRvaToVa function, _win32_imagervatova, base.imagervatova, dbghelp/ImageRvaToVa
 ms.topic: function
-f1_keywords: ["dbghelp/ImageRvaToVa"]
+f1_keywords: 
+ - "dbghelp/ImageRvaToVa"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

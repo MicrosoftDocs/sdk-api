@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],ProxyIEConfig method, IWSManConnectionOptionsEx2.ProxyIEConfig, IWSManConnectionOptionsEx2::ProxyIEConfig, ProxyIEConfig, ProxyIEConfig method [Windows Remote Management], ProxyIEConfig method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_proxyieconfig, wsmandisp/IWSManConnectionOptionsEx2::ProxyIEConfig
 ms.topic: method
-f1_keywords: ["wsmandisp/IWSManConnectionOptionsEx2.ProxyIEConfig"]
+f1_keywords: 
+ - "wsmandisp/IWSManConnectionOptionsEx2.ProxyIEConfig"
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

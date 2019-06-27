@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage3 interface [IMAPI],get_CreateRedundantUdfMetadataFiles method, IFileSystemImage3.get_CreateRedundantUdfMetadataFiles, IFileSystemImage3::get_CreateRedundantUdfMetadataFiles, get_CreateRedundantUdfMetadataFiles, get_CreateRedundantUdfMetadataFiles method [IMAPI], get_CreateRedundantUdfMetadataFiles method [IMAPI],IFileSystemImage3 interface, imapi.ifilesystemimage3_get_createredundantudfmetadatafiles, imapi2fs/IFileSystemImage3::get_CreateRedundantUdfMetadataFiles
 ms.topic: method
-f1_keywords: ["imapi2fs/IFileSystemImage3.get_CreateRedundantUdfMetadataFiles"]
+f1_keywords: 
+ - "imapi2fs/IFileSystemImage3.get_CreateRedundantUdfMetadataFiles"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

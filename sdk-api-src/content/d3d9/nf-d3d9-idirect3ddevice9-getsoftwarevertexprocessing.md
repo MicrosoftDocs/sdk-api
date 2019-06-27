@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 17efcf07-7357-cfad-13db-c6391873f457, GetSoftwareVertexProcessing, GetSoftwareVertexProcessing method [Direct3D 9], GetSoftwareVertexProcessing method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetSoftwareVertexProcessing method, IDirect3DDevice9.GetSoftwareVertexProcessing, IDirect3DDevice9::GetSoftwareVertexProcessing, d3d9helper/IDirect3DDevice9::GetSoftwareVertexProcessing, direct3d9.idirect3ddevice9__getsoftwarevertexprocessing
 ms.topic: method
-f1_keywords: ["d3d9/IDirect3DDevice9.GetSoftwareVertexProcessing"]
+f1_keywords: 
+ - "d3d9/IDirect3DDevice9.GetSoftwareVertexProcessing"
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

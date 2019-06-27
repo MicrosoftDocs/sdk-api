@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_PropertySet_Clone, MI_PropertySet_Clone function [Windows Management Infrastructure (MI)], mi/MI_PropertySet_Clone, wmi_v2.mi_propertyset_clone
 ms.topic: function
-f1_keywords: ["mi/MI_PropertySet_Clone"]
+f1_keywords: 
+ - "mi/MI_PropertySet_Clone"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

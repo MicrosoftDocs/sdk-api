@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpellCheckProviderFactory interface [Internationalization for Windows Applications],IsSupported method, ISpellCheckProviderFactory.IsSupported, ISpellCheckProviderFactory::IsSupported, IsSupported, IsSupported method [Internationalization for Windows Applications], IsSupported method [Internationalization for Windows Applications],ISpellCheckProviderFactory interface, intl.ispellcheckproviderfactory_issupported, spellcheckprovider/ISpellCheckProviderFactory::IsSupported
 ms.topic: method
-f1_keywords: ["spellcheckprovider/ISpellCheckProviderFactory.IsSupported"]
+f1_keywords: 
+ - "spellcheckprovider/ISpellCheckProviderFactory.IsSupported"
 req.header: spellcheckprovider.h
 req.include-header: 
 req.target-type: Windows

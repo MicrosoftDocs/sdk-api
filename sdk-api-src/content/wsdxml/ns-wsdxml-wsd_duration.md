@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_DURATION, WSD_DURATION structure, _WSD_DURATION, ncd.wsd_duration_struct, wsdxml/WSD_DURATION
 ms.topic: struct
-f1_keywords: ["wsdxml/WSD_DURATION"]
+f1_keywords: 
+ - "wsdxml/WSD_DURATION"
 req.header: wsdxml.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

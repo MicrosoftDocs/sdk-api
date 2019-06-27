@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetDCBrushColor, SetDCBrushColor function [Windows GDI], _win32_SetDCBrushColor, gdi.setdcbrushcolor, wingdi/SetDCBrushColor
 ms.topic: function
-f1_keywords: ["wingdi/SetDCBrushColor"]
+f1_keywords: 
+ - "wingdi/SetDCBrushColor"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

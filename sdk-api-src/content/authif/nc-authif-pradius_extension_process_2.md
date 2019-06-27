@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRADIUS_EXTENSION_PROCESS_2, PRADIUS_EXTENSION_PROCESS_2 callback, PRADIUS_EXTENSION_PROCESS_2 callback function [Network Policy Server], RadiusExtensionProcess2, authif/PRADIUS_EXTENSION_PROCESS_2, nps.IAS_radiusextensionprocess2
 ms.topic: callback
-f1_keywords: ["authif/PRADIUS_EXTENSION_PROCESS_2"]
+f1_keywords: 
+ - "authif/PRADIUS_EXTENSION_PROCESS_2"
 req.header: authif.h
 req.include-header: 
 req.target-type: Windows

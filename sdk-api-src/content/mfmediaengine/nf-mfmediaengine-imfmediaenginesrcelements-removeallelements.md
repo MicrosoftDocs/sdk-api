@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineSrcElements interface [Media Foundation],RemoveAllElements method, IMFMediaEngineSrcElements.RemoveAllElements, IMFMediaEngineSrcElements::RemoveAllElements, RemoveAllElements, RemoveAllElements method [Media Foundation], RemoveAllElements method [Media Foundation],IMFMediaEngineSrcElements interface, mf.imfmediaenginesrcelements_removeallelements, mfmediaengine/IMFMediaEngineSrcElements::RemoveAllElements
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngineSrcElements.RemoveAllElements"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngineSrcElements.RemoveAllElements"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

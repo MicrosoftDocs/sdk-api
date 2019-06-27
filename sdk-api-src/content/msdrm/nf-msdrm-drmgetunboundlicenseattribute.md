@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMGetUnboundLicenseAttribute, DRMGetUnboundLicenseAttribute function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetUnboundLicenseAttribute, rm.drmgetunboundlicenseattribute
 ms.topic: function
-f1_keywords: ["msdrm/DRMGetUnboundLicenseAttribute"]
+f1_keywords: 
+ - "msdrm/DRMGetUnboundLicenseAttribute"
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

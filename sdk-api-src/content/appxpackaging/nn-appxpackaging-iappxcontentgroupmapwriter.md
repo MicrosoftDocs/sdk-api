@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxContentGroupMapWriter, IAppxContentGroupMapWriter interface [App packaging and management], IAppxContentGroupMapWriter interface [App packaging and management],described, appxpackaging/IAppxContentGroupMapWriter, appxpkg.iappxcontentgroupmapwriter
 ms.topic: interface
-f1_keywords: ["appxpackaging/IAppxContentGroupMapWriter"]
+f1_keywords: 
+ - "appxpackaging/IAppxContentGroupMapWriter"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

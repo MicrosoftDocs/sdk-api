@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FALSE, IXpsOMGeometryFigure interface [XPS Documents and Packaging],SetIsFilled method, IXpsOMGeometryFigure.SetIsFilled, IXpsOMGeometryFigure::SetIsFilled, SetIsFilled, SetIsFilled method [XPS Documents and Packaging], SetIsFilled method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, TRUE, xps.ixpsomgeometryfigure_setisfilled, xpsobjectmodel/IXpsOMGeometryFigure::SetIsFilled
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGeometryFigure.SetIsFilled"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGeometryFigure.SetIsFilled"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

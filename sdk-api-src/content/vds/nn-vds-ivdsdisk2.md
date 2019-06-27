@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsDisk2, IVdsDisk2 interface, IVdsDisk2 interface,described, base.ivdsdisk2, vds/IVdsDisk2
 ms.topic: interface
-f1_keywords: ["vds/IVdsDisk2"]
+f1_keywords: 
+ - "vds/IVdsDisk2"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

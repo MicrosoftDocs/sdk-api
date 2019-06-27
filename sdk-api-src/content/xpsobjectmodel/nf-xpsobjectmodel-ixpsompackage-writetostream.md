@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FALSE, IXpsOMPackage interface [XPS Documents and Packaging],WriteToStream method, IXpsOMPackage.WriteToStream, IXpsOMPackage::WriteToStream, TRUE, WriteToStream, WriteToStream method [XPS Documents and Packaging], WriteToStream method [XPS Documents and Packaging],IXpsOMPackage interface, xps.ixpsompackage_writetostream, xpsobjectmodel/IXpsOMPackage::WriteToStream
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMPackage.WriteToStream"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPackage.WriteToStream"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

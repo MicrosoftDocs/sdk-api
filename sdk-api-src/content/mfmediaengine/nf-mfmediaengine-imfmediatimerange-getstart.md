@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStart, GetStart method [Media Foundation], GetStart method [Media Foundation],IMFMediaTimeRange interface, IMFMediaTimeRange interface [Media Foundation],GetStart method, IMFMediaTimeRange.GetStart, IMFMediaTimeRange::GetStart, mf.imfmediatimerange_getstart, mfmediaengine/IMFMediaTimeRange::GetStart
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaTimeRange.GetStart"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaTimeRange.GetStart"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

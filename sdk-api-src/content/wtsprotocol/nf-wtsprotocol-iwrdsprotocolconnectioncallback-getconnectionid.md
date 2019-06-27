@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetConnectionId, GetConnectionId method [Remote Desktop Services], GetConnectionId method [Remote Desktop Services],IWRdsProtocolConnectionCallback interface, IWRdsProtocolConnectionCallback interface [Remote Desktop Services],GetConnectionId method, IWRdsProtocolConnectionCallback.GetConnectionId, IWRdsProtocolConnectionCallback::GetConnectionId, termserv.iwrdsprotocolconnectioncallback_getconnectionid, wtsprotocol/IWRdsProtocolConnectionCallback::GetConnectionId
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWRdsProtocolConnectionCallback.GetConnectionId"]
+f1_keywords: 
+ - "wtsprotocol/IWRdsProtocolConnectionCallback.GetConnectionId"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

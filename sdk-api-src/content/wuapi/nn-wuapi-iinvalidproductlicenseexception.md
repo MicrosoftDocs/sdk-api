@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInvalidProductLicenseException, IInvalidProductLicenseException interface [Windows Update Agent], IInvalidProductLicenseException interface [Windows Update Agent],described, wua.iinvalidproductlicenseexception, wuapi/IInvalidProductLicenseException
 ms.topic: interface
-f1_keywords: ["wuapi/IInvalidProductLicenseException"]
+f1_keywords: 
+ - "wuapi/IInvalidProductLicenseException"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

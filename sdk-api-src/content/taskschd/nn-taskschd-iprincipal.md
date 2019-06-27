@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPrincipal, IPrincipal interface [Task Scheduler], IPrincipal interface [Task Scheduler],described, taskschd.iprincipal, taskschd/IPrincipal
 ms.topic: interface
-f1_keywords: ["taskschd/IPrincipal"]
+f1_keywords: 
+ - "taskschd/IPrincipal"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSnapshotProperties, GetSnapshotProperties method [VSS], GetSnapshotProperties method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetSnapshotProperties method, IVssBackupComponents.GetSnapshotProperties, IVssBackupComponents::GetSnapshotProperties, _win32_ivssbackupcomponents_getsnapshotproperties, base.ivssbackupcomponents_getsnapshotproperties, vsbackup/IVssBackupComponents::GetSnapshotProperties
 ms.topic: method
-f1_keywords: ["vsbackup/IVssBackupComponents.GetSnapshotProperties"]
+f1_keywords: 
+ - "vsbackup/IVssBackupComponents.GetSnapshotProperties"
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

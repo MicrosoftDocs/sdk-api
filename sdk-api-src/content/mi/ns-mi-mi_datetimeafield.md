@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_DatetimeAField, MI_DatetimeAField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_DatetimeAField, wmi._mi_datetimeafield, wmi_v2.mi_datetimeafield
 ms.topic: struct
-f1_keywords: ["mi/MI_DatetimeAField"]
+f1_keywords: 
+ - "mi/MI_DatetimeAField"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

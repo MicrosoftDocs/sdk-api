@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScriptGetFontProperties, ScriptGetFontProperties function [Internationalization for Windows Applications], _win32_ScriptGetFontProperties, intl.scriptgetfontproperties, usp10/ScriptGetFontProperties
 ms.topic: function
-f1_keywords: ["usp10/ScriptGetFontProperties"]
+f1_keywords: 
+ - "usp10/ScriptGetFontProperties"
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

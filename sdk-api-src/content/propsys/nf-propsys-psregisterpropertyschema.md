@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSRegisterPropertySchema, PSRegisterPropertySchema function [Windows Properties], properties.PSRegisterPropertySchema, propsys/PSRegisterPropertySchema, shell.PSRegisterPropertySchema, shell_PSRegisterPropertySchema
 ms.topic: function
-f1_keywords: ["propsys/PSRegisterPropertySchema"]
+f1_keywords: 
+ - "propsys/PSRegisterPropertySchema"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

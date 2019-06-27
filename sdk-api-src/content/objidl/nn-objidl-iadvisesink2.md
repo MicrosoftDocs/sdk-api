@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAdviseSink2, IAdviseSink2 interface [COM], IAdviseSink2 interface [COM],described, _ole_iadvisesink2, com.iadvisesink2, objidl/IAdviseSink2
 ms.topic: interface
-f1_keywords: ["objidl/IAdviseSink2"]
+f1_keywords: 
+ - "objidl/IAdviseSink2"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

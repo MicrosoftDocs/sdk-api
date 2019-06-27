@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPLINEMEDIACONTROLTONE, LINEMEDIACONTROLTONE, LINEMEDIACONTROLTONE structure [TAPI 2.2], LPLINEMEDIACONTROLTONE, LPLINEMEDIACONTROLTONE structure pointer [TAPI 2.2], _tapi2_linemediacontroltone_str, tapi/LINEMEDIACONTROLTONE, tapi/LPLINEMEDIACONTROLTONE, tapi2.linemediacontroltone_str"
 ms.topic: struct
-f1_keywords: ["tapi/LINEMEDIACONTROLTONE"]
+f1_keywords: 
+ - "tapi/LINEMEDIACONTROLTONE"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

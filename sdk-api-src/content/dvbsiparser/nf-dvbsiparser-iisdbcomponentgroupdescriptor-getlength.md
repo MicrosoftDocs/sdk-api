@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbComponentGroupDescriptor interface, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbComponentGroupDescriptor.GetLength, IIsdbComponentGroupDescriptor::GetLength, dvbsiparser/IIsdbComponentGroupDescriptor::GetLength, mstv.iisdbcomponentgroupdescriptor_getlength
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbComponentGroupDescriptor.GetLength"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbComponentGroupDescriptor.GetLength"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

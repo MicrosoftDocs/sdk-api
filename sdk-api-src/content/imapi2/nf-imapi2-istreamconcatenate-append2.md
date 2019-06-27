@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Append2, Append2 method [IMAPI], Append2 method [IMAPI],IStreamConcatenate interface, IStreamConcatenate interface [IMAPI],Append2 method, IStreamConcatenate.Append2, IStreamConcatenate::Append2, imapi.istreamconcatenate_append2, imapi2/IStreamConcatenate::Append2
 ms.topic: method
-f1_keywords: ["imapi2/IStreamConcatenate.Append2"]
+f1_keywords: 
+ - "imapi2/IStreamConcatenate.Append2"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

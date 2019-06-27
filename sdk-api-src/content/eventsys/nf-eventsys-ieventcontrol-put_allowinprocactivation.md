@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllowInprocActivation property [COM+], AllowInprocActivation property [COM+],IEventControl interface, IEventControl interface [COM+],AllowInprocActivation property, IEventControl.AllowInprocActivation, IEventControl.put_AllowInprocActivation, IEventControl::AllowInprocActivation, IEventControl::get_AllowInprocActivation, IEventControl::put_AllowInprocActivation, _cos_IEventControl_Properties, cos.ieventcontrol_allowinprocactivation, eventsys/IEventControl::AllowInprocActivation, eventsys/IEventControl::get_AllowInprocActivation, eventsys/IEventControl::put_AllowInprocActivation, put_AllowInprocActivation
 ms.topic: method
-f1_keywords: ["eventsys/IEventControl.AllowInprocActivation"]
+f1_keywords: 
+ - "eventsys/IEventControl.AllowInprocActivation"
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

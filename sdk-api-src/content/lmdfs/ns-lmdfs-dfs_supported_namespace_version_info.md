@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDFS_SUPPORTED_NAMESPACE_VERSION_INFO, DFS_NAMESPACE_CAPABILITY_ABDE, DFS_SUPPORTED_NAMESPACE_VERSION_INFO, DFS_SUPPORTED_NAMESPACE_VERSION_INFO structure [Distributed File System], PDFS_SUPPORTED_NAMESPACE_VERSION_INFO, PDFS_SUPPORTED_NAMESPACE_VERSION_INFO structure pointer [Distributed File System], dfs.dfs_supported_namespace_version_info, fs.dfs_supported_namespace_version_info, lmdfs/DFS_SUPPORTED_NAMESPACE_VERSION_INFO, lmdfs/PDFS_SUPPORTED_NAMESPACE_VERSION_INFO"
 ms.topic: struct
-f1_keywords: ["lmdfs/DFS_SUPPORTED_NAMESPACE_VERSION_INFO"]
+f1_keywords: 
+ - "lmdfs/DFS_SUPPORTED_NAMESPACE_VERSION_INFO"
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

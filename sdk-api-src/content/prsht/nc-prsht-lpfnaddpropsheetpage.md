@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddPropSheetPageProc, AddPropSheetPageProc callback, AddPropSheetPageProc callback function [Windows Controls], LPFNADDPROPSHEETPAGE, _win32_AddPropSheetPageProc, _win32_AddPropSheetPageProc_cpp, controls.AddPropSheetPageProc, controls._win32_AddPropSheetPageProc, prsht/AddPropSheetPageProc, prsht/LPFNADDPROPSHEETPAGE
 ms.topic: callback
-f1_keywords: ["prsht/AddPropSheetPageProc"]
+f1_keywords: 
+ - "prsht/AddPropSheetPageProc"
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStreamNumber, GetStreamNumber method [windows Media Format], GetStreamNumber method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetStreamNumber method, IWMStreamConfig.GetStreamNumber, IWMStreamConfig::GetStreamNumber, IWMStreamConfigGetStreamNumber, wmformat.iwmstreamconfig_getstreamnumber, wmsdkidl/IWMStreamConfig::GetStreamNumber
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMStreamConfig.GetStreamNumber"]
+f1_keywords: 
+ - "wmsdkidl/IWMStreamConfig.GetStreamNumber"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

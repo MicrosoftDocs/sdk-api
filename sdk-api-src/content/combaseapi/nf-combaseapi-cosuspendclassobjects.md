@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoSuspendClassObjects, CoSuspendClassObjects function [COM], _com_CoSuspendClassObjects, com.cosuspendclassobjects, combaseapi/CoSuspendClassObjects
 ms.topic: function
-f1_keywords: ["combaseapi/CoSuspendClassObjects"]
+f1_keywords: 
+ - "combaseapi/CoSuspendClassObjects"
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

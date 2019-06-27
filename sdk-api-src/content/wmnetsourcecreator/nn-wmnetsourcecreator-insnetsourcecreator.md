@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INSNetSourceCreator, INSNetSourceCreator interface [windows Media Format], INSNetSourceCreator interface [windows Media Format],described, INSNetSourceCreatorInterface, wmformat.insnetsourcecreator, wmnetsourcecreator/INSNetSourceCreator
 ms.topic: interface
-f1_keywords: ["wmnetsourcecreator/INSNetSourceCreator"]
+f1_keywords: 
+ - "wmnetsourcecreator/INSNetSourceCreator"
 req.header: wmnetsourcecreator.h
 req.include-header: 
 req.target-type: Windows

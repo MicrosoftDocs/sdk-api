@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPMT interface [Microsoft TV Technologies],QueryMPEInfo method, IPMT.QueryMPEInfo, IPMT::QueryMPEInfo, IPMTQueryMPEInfo, QueryMPEInfo, QueryMPEInfo method [Microsoft TV Technologies], QueryMPEInfo method [Microsoft TV Technologies],IPMT interface, mpeg2psiparser/IPMT::QueryMPEInfo, mstv.ipmt_querympeinfo
 ms.topic: method
-f1_keywords: ["mpeg2psiparser/IPMT.QueryMPEInfo"]
+f1_keywords: 
+ - "mpeg2psiparser/IPMT.QueryMPEInfo"
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

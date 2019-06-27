@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_SPN_ADD_SPN_OP, DS_SPN_DELETE_SPN_OP, DS_SPN_REPLACE_SPN_OP, DS_SPN_WRITE_OP, DS_SPN_WRITE_OP enumeration [Active Directory], _glines_ds_spn_write_op, ad.ds__spn__write__op, ad.ds_spn_write_op, ntdsapi/DS_SPN_ADD_SPN_OP, ntdsapi/DS_SPN_DELETE_SPN_OP, ntdsapi/DS_SPN_REPLACE_SPN_OP, ntdsapi/DS_SPN_WRITE_OP
 ms.topic: enum
-f1_keywords: ["ntdsapi/DS_SPN_WRITE_OP"]
+f1_keywords: 
+ - "ntdsapi/DS_SPN_WRITE_OP"
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

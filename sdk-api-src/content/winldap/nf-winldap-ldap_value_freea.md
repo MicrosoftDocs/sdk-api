@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_value_free, ldap.ldap__value__free, ldap.ldap_value_free, ldap_value_free, ldap_value_free function [LDAP], ldap_value_freeA, ldap_value_freeW, winldap/ldap_value_free, winldap/ldap_value_freeA, winldap/ldap_value_freeW"
 ms.topic: function
-f1_keywords: ["winldap/ldap_value_free"]
+f1_keywords: 
+ - "winldap/ldap_value_free"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

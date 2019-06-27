@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSymbolicLinkTransacted, CreateSymbolicLinkTransacted function [Files], CreateSymbolicLinkTransactedA, CreateSymbolicLinkTransactedW, SYMBOLIC_LINK_FLAG_DIRECTORY, fs.createsymboliclinktransacted, winbase/CreateSymbolicLinkTransacted, winbase/CreateSymbolicLinkTransactedA, winbase/CreateSymbolicLinkTransactedW
 ms.topic: function
-f1_keywords: ["winbase/CreateSymbolicLinkTransacted"]
+f1_keywords: 
+ - "winbase/CreateSymbolicLinkTransacted"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

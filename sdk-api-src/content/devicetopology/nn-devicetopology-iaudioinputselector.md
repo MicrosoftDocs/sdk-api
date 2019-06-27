@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioInputSelector, IAudioInputSelector interface [Core Audio], IAudioInputSelector interface [Core Audio],described, coreaudio.iaudioinputselector, devicetopology/IAudioInputSelector
 ms.topic: interface
-f1_keywords: ["devicetopology/IAudioInputSelector"]
+f1_keywords: 
+ - "devicetopology/IAudioInputSelector"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPGRADIENT_RECT, *PGRADIENT_RECT, GRADIENT_RECT, GRADIENT_RECT structure [Windows GDI], PGRADIENT_RECT, PGRADIENT_RECT structure pointer [Windows GDI], _win32_GRADIENT_RECT_str, gdi.gradient_rect, wingdi/GRADIENT_RECT, wingdi/PGRADIENT_RECT"
 ms.topic: struct
-f1_keywords: ["wingdi/GRADIENT_RECT"]
+f1_keywords: 
+ - "wingdi/GRADIENT_RECT"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

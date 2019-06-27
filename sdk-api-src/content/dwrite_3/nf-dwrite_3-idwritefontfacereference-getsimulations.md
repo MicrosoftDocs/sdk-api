@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSimulations, GetSimulations method [Direct Write], GetSimulations method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],GetSimulations method, IDWriteFontFaceReference.GetSimulations, IDWriteFontFaceReference::GetSimulations, directwrite.idwritefontfacereference_getsimulations, dwrite_3/IDWriteFontFaceReference::GetSimulations
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteFontFaceReference.GetSimulations"]
+f1_keywords: 
+ - "dwrite_3/IDWriteFontFaceReference.GetSimulations"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

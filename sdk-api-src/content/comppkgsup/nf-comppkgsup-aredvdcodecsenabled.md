@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AreDvdCodecsEnabled, AreDvdCodecsEnabled function [Windows API], comppkgsup/AreDvdCodecsEnabled, winprog.aredvdcodecsenabled
 ms.topic: function
-f1_keywords: ["comppkgsup/AreDvdCodecsEnabled"]
+f1_keywords: 
+ - "comppkgsup/AreDvdCodecsEnabled"
 req.header: comppkgsup.h
 req.include-header: 
 req.target-type: Windows

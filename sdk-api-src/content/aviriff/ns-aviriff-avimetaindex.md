@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIMETAINDEX, AVIMETAINDEX structure [DirectShow], AVI_INDEX_IS_DATA, AVI_INDEX_OF_CHUNKS, AVI_INDEX_OF_INDEXES, aviriff/AVIMETAINDEX, dshow.avimetaindex
 ms.topic: struct
-f1_keywords: ["aviriff/AVIMETAINDEX"]
+f1_keywords: 
+ - "aviriff/AVIMETAINDEX"
 req.header: aviriff.h
 req.include-header: 
 req.target-type: Windows

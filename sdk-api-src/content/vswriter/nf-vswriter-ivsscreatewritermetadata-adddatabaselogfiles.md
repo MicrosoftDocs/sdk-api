@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddDatabaseLogFiles, AddDatabaseLogFiles method [VSS], AddDatabaseLogFiles method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddDatabaseLogFiles method, IVssCreateWriterMetadata.AddDatabaseLogFiles, IVssCreateWriterMetadata::AddDatabaseLogFiles, _win32_ivsscreatewritermetadata_adddatabaselogfiles, base.ivsscreatewritermetadata_adddatabaselogfiles, vswriter/IVssCreateWriterMetadata::AddDatabaseLogFiles
 ms.topic: method
-f1_keywords: ["vswriter/IVssCreateWriterMetadata.AddDatabaseLogFiles"]
+f1_keywords: 
+ - "vswriter/IVssCreateWriterMetadata.AddDatabaseLogFiles"
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

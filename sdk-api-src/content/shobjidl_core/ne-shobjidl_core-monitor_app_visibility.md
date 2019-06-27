@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MAV_APP_VISIBLE, MAV_NO_APP_VISIBLE, MAV_UNKNOWN, MONITOR_APP_VISIBILITY, MONITOR_APP_VISIBILITY enumeration [Windows Shell], shell.MONITOR_APP_VISIBILITY, shobjidl_core/MAV_APP_VISIBLE, shobjidl_core/MAV_NO_APP_VISIBLE, shobjidl_core/MAV_UNKNOWN, shobjidl_core/MONITOR_APP_VISIBILITY
 ms.topic: enum
-f1_keywords: ["shobjidl_core/MONITOR_APP_VISIBILITY"]
+f1_keywords: 
+ - "shobjidl_core/MONITOR_APP_VISIBILITY"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

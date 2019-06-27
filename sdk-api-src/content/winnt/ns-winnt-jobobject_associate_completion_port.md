@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PJOBOBJECT_ASSOCIATE_COMPLETION_PORT, JOBOBJECT_ASSOCIATE_COMPLETION_PORT, JOBOBJECT_ASSOCIATE_COMPLETION_PORT structure, PJOBOBJECT_ASSOCIATE_COMPLETION_PORT, PJOBOBJECT_ASSOCIATE_COMPLETION_PORT structure pointer, _JOBOBJECT_ASSOCIATE_COMPLETION_PORT, _win32_jobobject_associate_completion_port_str, base.jobobject_associate_completion_port_str, winnt/JOBOBJECT_ASSOCIATE_COMPLETION_PORT, winnt/PJOBOBJECT_ASSOCIATE_COMPLETION_PORT"
 ms.topic: struct
-f1_keywords: ["winnt/JOBOBJECT_ASSOCIATE_COMPLETION_PORT"]
+f1_keywords: 
+ - "winnt/JOBOBJECT_ASSOCIATE_COMPLETION_PORT"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

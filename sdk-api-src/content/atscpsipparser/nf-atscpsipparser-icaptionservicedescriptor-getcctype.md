@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCCType, GetCCType method [Microsoft TV Technologies], GetCCType method [Microsoft TV Technologies],ICaptionServiceDescriptor interface, ICaptionServiceDescriptor interface [Microsoft TV Technologies],GetCCType method, ICaptionServiceDescriptor.GetCCType, ICaptionServiceDescriptor::GetCCType, ICaptionServiceDescriptorGetCCType, atscpsipparser/ICaptionServiceDescriptor::GetCCType, mstv.icaptionservicedescriptor_getcctype
 ms.topic: method
-f1_keywords: ["atscpsipparser/ICaptionServiceDescriptor.GetCCType"]
+f1_keywords: 
+ - "atscpsipparser/ICaptionServiceDescriptor.GetCCType"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

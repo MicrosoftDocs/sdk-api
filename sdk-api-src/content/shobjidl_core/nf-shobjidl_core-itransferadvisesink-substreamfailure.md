@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITransferAdviseSink interface [Windows Shell],SubStreamFailure method, ITransferAdviseSink.SubStreamFailure, ITransferAdviseSink::SubStreamFailure, SubStreamFailure, SubStreamFailure method [Windows Shell], SubStreamFailure method [Windows Shell],ITransferAdviseSink interface, _shell_ITransferAdviseSink_SubStreamFailure, shell.ITransferAdviseSink_SubStreamFailure, shobjidl_core/ITransferAdviseSink::SubStreamFailure
 ms.topic: method
-f1_keywords: ["shobjidl_core/ITransferAdviseSink.SubStreamFailure"]
+f1_keywords: 
+ - "shobjidl_core/ITransferAdviseSink.SubStreamFailure"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

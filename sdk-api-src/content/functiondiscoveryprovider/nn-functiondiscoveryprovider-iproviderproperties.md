@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProviderProperties, IProviderProperties interface, IProviderProperties interface,described, functiondiscoveryprovider/IProviderProperties, ncd.iproviderproperties
 ms.topic: interface
-f1_keywords: ["functiondiscoveryprovider/IProviderProperties"]
+f1_keywords: 
+ - "functiondiscoveryprovider/IProviderProperties"
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

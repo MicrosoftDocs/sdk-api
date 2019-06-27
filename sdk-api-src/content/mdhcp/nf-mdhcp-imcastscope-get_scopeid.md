@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMcastScope interface [TAPI 2.2],get_ScopeID method, IMcastScope.get_ScopeID, IMcastScope::get_ScopeID, _tapi3_imcastscope_get_scopeid, get_ScopeID, get_ScopeID method [TAPI 2.2], get_ScopeID method [TAPI 2.2],IMcastScope interface, mdhcp/IMcastScope::get_ScopeID, tapi3.imcastscope_get_scopeid
 ms.topic: method
-f1_keywords: ["mdhcp/IMcastScope.get_ScopeID"]
+f1_keywords: 
+ - "mdhcp/IMcastScope.get_ScopeID"
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

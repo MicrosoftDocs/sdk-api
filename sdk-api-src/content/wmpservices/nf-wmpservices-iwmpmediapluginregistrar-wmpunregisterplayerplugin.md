@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaPluginRegistrar.WMPUnRegisterPlayerPlugin, IWMPMediaPluginRegistrar::WMPUnRegisterPlayerPlugin, WMPUnRegisterPlayerPlugin, WMPUnRegisterPlayerPlugin function [Windows Media Player], wmp.iwmpmediapluginregistrar__wmpunregisterplayerplugin, wmpservices/WMPUnRegisterPlayerPlugin
 ms.topic: method
-f1_keywords: ["wmpservices/WMPUnRegisterPlayerPlugin"]
+f1_keywords: 
+ - "wmpservices/WMPUnRegisterPlayerPlugin"
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

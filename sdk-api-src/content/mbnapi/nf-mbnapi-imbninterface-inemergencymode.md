@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnInterface interface [Microsoft Broadband Networks],InEmergencyMode method, IMbnInterface.InEmergencyMode, IMbnInterface::InEmergencyMode, InEmergencyMode, InEmergencyMode method [Microsoft Broadband Networks], InEmergencyMode method [Microsoft Broadband Networks],IMbnInterface interface, mbn.imbninterface_inemergencymode, mbnapi/IMbnInterface::InEmergencyMode
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnInterface.InEmergencyMode"]
+f1_keywords: 
+ - "mbnapi/IMbnInterface.InEmergencyMode"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

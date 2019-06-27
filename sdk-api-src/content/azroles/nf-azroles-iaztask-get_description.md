@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzTask object [Security],Description property, Description property [Security], Description property [Security],AzTask object, Description property [Security],IAzTask interface, IAzTask interface [Security],Description property, IAzTask.Description, IAzTask.get_Description, IAzTask::Description, IAzTask::get_Description, IAzTask::put_Description, azroles/IAzTask::Description, azroles/IAzTask::get_Description, azroles/IAzTask::put_Description, get_Description, security.iaztask_description
 ms.topic: method
-f1_keywords: ["azroles/IAzTask.Description"]
+f1_keywords: 
+ - "azroles/IAzTask.Description"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

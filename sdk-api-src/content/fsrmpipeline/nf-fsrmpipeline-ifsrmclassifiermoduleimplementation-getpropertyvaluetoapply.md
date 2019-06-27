@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropertyValueToApply, GetPropertyValueToApply method [File Server Resource Manager], GetPropertyValueToApply method [File Server Resource Manager],IFsrmClassifierModuleImplementation interface, IFsrmClassifierModuleImplementation interface [File Server Resource Manager],GetPropertyValueToApply method, IFsrmClassifierModuleImplementation.GetPropertyValueToApply, IFsrmClassifierModuleImplementation::GetPropertyValueToApply, fs.ifsrmclassifiermoduleimplementation_getpropertyvaluetoapply, fsrm.ifsrmclassifiermoduleimplementation_getpropertyvaluetoapply, fsrmpipeline/IFsrmClassifierModuleImplementation::GetPropertyValueToApply
 ms.topic: method
-f1_keywords: ["fsrmpipeline/IFsrmClassifierModuleImplementation.GetPropertyValueToApply"]
+f1_keywords: 
+ - "fsrmpipeline/IFsrmClassifierModuleImplementation.GetPropertyValueToApply"
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],ISyncMgrEnumItems interface, ISyncMgrEnumItems interface [Windows Shell],Clone method, ISyncMgrEnumItems.Clone, ISyncMgrEnumItems::Clone, mobsync/ISyncMgrEnumItems::Clone, shell.syncmgr_isyncmgrenumitems_clone, syncmgr.isyncmgrenumitems_clone
 ms.topic: method
-f1_keywords: ["mobsync/ISyncMgrEnumItems.Clone"]
+f1_keywords: 
+ - "mobsync/ISyncMgrEnumItems.Clone"
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

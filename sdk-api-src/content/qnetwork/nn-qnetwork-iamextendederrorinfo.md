@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMExtendedErrorInfo, IAMExtendedErrorInfo interface [DirectShow], IAMExtendedErrorInfo interface [DirectShow],described, IAMExtendedErrorInfoInterface, dshow.iamextendederrorinfo, qnetwork/IAMExtendedErrorInfo
 ms.topic: interface
-f1_keywords: ["qnetwork/IAMExtendedErrorInfo"]
+f1_keywords: 
+ - "qnetwork/IAMExtendedErrorInfo"
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

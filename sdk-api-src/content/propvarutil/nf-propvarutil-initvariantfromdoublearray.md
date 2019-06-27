@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromDoubleArray, InitVariantFromDoubleArray function [Windows Properties], _shell_InitVariantFromDoubleArray, properties.InitVariantFromDoubleArray, propvarutil/InitVariantFromDoubleArray, shell.InitVariantFromDoubleArray
 ms.topic: function
-f1_keywords: ["propvarutil/InitVariantFromDoubleArray"]
+f1_keywords: 
+ - "propvarutil/InitVariantFromDoubleArray"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

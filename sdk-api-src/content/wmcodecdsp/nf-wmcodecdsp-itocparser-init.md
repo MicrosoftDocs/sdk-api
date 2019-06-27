@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITocParser interface [Media Foundation],Init method, ITocParser.Init, ITocParser::Init, Init, Init method [Media Foundation], Init method [Media Foundation],ITocParser interface, codecapi.itocparser_init, mf.itocparser_init, wmcodecdsp/ITocParser::Init
 ms.topic: method
-f1_keywords: ["wmcodecdsp/ITocParser.Init"]
+f1_keywords: 
+ - "wmcodecdsp/ITocParser.Init"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

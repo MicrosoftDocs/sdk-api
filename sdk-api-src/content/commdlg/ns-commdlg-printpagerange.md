@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPPRINTPAGERANGE, LPPRINTPAGERANGE, LPPRINTPAGERANGE structure pointer [Dialog Boxes], PRINTPAGERANGE, PRINTPAGERANGE structure [Dialog Boxes], _win32_PRINTPAGERANGE_str, _win32_printpagerange_str_cpp, commdlg/LPPRINTPAGERANGE, commdlg/PRINTPAGERANGE, dlgbox.printpagerange_str, winui._win32_printpagerange_str"
 ms.topic: struct
-f1_keywords: ["commdlg/PRINTPAGERANGE"]
+f1_keywords: 
+ - "commdlg/PRINTPAGERANGE"
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIApplicationList, IRDPSRAPIApplicationList interface [RDP], IRDPSRAPIApplicationList interface [RDP],described, rdp.irdpsrapiapplicationlist, rdpencomapi/IRDPSRAPIApplicationList
 ms.topic: interface
-f1_keywords: ["rdpencomapi/IRDPSRAPIApplicationList"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIApplicationList"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

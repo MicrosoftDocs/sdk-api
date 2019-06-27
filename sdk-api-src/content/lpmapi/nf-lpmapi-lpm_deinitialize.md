@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPM_Deinitialize, LPM_Deinitialize callback, LPM_Deinitialize callback function [QOS], _gqos_lpm_deinitialize, lpmapi/LPM_Deinitialize, qos.lpm_deinitialize
 ms.topic: function
-f1_keywords: ["lpmapi/LPM_Deinitialize"]
+f1_keywords: 
+ - "lpmapi/LPM_Deinitialize"
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

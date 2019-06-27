@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_IN, MI_FLAG_KEY, MI_FLAG_NULL, MI_FLAG_OUT, MI_Instance_GetElementAt, MI_Instance_GetElementAt function [Windows Management Infrastructure (MI)], mi/MI_Instance_GetElementAt, wmi_v2.mi_instance_getelementat
 ms.topic: function
-f1_keywords: ["mi/MI_Instance_GetElementAt"]
+f1_keywords: 
+ - "mi/MI_Instance_GetElementAt"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

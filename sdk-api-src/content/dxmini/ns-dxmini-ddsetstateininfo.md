@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDDSETSTATEININFO, DDSETSTATEININFO, DDSETSTATEININFO structure [Display Devices], PDDSETSTATEININFO, PDDSETSTATEININFO structure pointer [Display Devices], Video_Structs_ac2e1c06-be26-4f4c-8dd9-e322535c3a12.xml, display.ddsetstateininfo, dxmini/DDSETSTATEININFO, dxmini/PDDSETSTATEININFO"
 ms.topic: struct
-f1_keywords: ["dxmini/DDSETSTATEININFO"]
+f1_keywords: 
+ - "dxmini/DDSETSTATEININFO"
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows

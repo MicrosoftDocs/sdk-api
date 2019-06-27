@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioMetadataWriter, ISpatialAudioMetadataWriter interface [Core Audio], ISpatialAudioMetadataWriter interface [Core Audio],described, coreaudio.ispatialaudiometadatawriter, spatialaudiometadata/ISpatialAudioMetadataWriter
 ms.topic: interface
-f1_keywords: ["spatialaudiometadata/ISpatialAudioMetadataWriter"]
+f1_keywords: 
+ - "spatialaudiometadata/ISpatialAudioMetadataWriter"
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

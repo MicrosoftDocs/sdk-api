@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteColorSpace, DeleteColorSpace function [Windows Color System], _color_DeleteColorSpace, wcs.deletecolorspace, wingdi/DeleteColorSpace
 ms.topic: function
-f1_keywords: ["wingdi/DeleteColorSpace"]
+f1_keywords: 
+ - "wingdi/DeleteColorSpace"
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

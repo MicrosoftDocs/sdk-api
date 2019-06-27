@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PowerRestoreDefaultPowerSchemes, PowerRestoreDefaultPowerSchemes function, base.powerrestoredefaultpowerschemes, powrprof/PowerRestoreDefaultPowerSchemes
 ms.topic: function
-f1_keywords: ["powrprof/PowerRestoreDefaultPowerSchemes"]
+f1_keywords: 
+ - "powrprof/PowerRestoreDefaultPowerSchemes"
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumPluggableSuperclassInfo interface [TAPI 2.2],Skip method, IEnumPluggableSuperclassInfo.Skip, IEnumPluggableSuperclassInfo::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumPluggableSuperclassInfo interface, _tapi3_ienumpluggablesuperclassinfo_skip, tapi3.ienumpluggablesuperclassinfo_skip, tapi3if/IEnumPluggableSuperclassInfo::Skip
 ms.topic: method
-f1_keywords: ["tapi3if/IEnumPluggableSuperclassInfo.Skip"]
+f1_keywords: 
+ - "tapi3if/IEnumPluggableSuperclassInfo.Skip"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

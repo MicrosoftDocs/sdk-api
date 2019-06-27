@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FillOpacityMask, FillOpacityMask method [Direct2D], FillOpacityMask method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],FillOpacityMask method, ID2D1DeviceContext.FillOpacityMask, ID2D1DeviceContext.FillOpacityMask(ID2D1Bitmap,ID2D1Brush,const D2D1_RECT_F &,const D2D1_RECT_F &), ID2D1DeviceContext::FillOpacityMask, ID2D1DeviceContext::FillOpacityMask(ID2D1Bitmap,ID2D1Brush,const D2D1_RECT_F &,const D2D1_RECT_F &), d2d1_1/ID2D1DeviceContext::FillOpacityMask, direct2d.id2d1devicecontext_fillopacitymask3
 ms.topic: method
-f1_keywords: ["d2d1_1/ID2D1DeviceContext.FillOpacityMask"]
+f1_keywords: 
+ - "d2d1_1/ID2D1DeviceContext.FillOpacityMask"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDigitsGatheredEvent interface [TAPI 2.2],get_GatherTermination method, ITDigitsGatheredEvent.get_GatherTermination, ITDigitsGatheredEvent::get_GatherTermination, _tapi3_itdigitsgatheredevent_get_gathertermination, get_GatherTermination, get_GatherTermination method [TAPI 2.2], get_GatherTermination method [TAPI 2.2],ITDigitsGatheredEvent interface, tapi3.itdigitsgatheredevent_get_gathertermination, tapi3if/ITDigitsGatheredEvent::get_GatherTermination
 ms.topic: method
-f1_keywords: ["tapi3if/ITDigitsGatheredEvent.get_GatherTermination"]
+f1_keywords: 
+ - "tapi3if/ITDigitsGatheredEvent.get_GatherTermination"
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

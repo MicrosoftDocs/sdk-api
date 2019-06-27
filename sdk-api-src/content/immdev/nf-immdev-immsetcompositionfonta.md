@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImmSetCompositionFont, ImmSetCompositionFont function [Internationalization for Windows Applications], ImmSetCompositionFontA, ImmSetCompositionFontW, _win32_ImmSetCompositionFont, imm/ImmSetCompositionFont, imm/ImmSetCompositionFontA, imm/ImmSetCompositionFontW, intl.immsetcompositionfont
 ms.topic: function
-f1_keywords: ["immdev/ImmSetCompositionFont"]
+f1_keywords: 
+ - "immdev/ImmSetCompositionFont"
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

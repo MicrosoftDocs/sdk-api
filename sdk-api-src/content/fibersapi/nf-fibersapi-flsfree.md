@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FlsFree, FlsFree function, _win32_flsfree, base.flsfree, fibersapi/FlsFree, winbase/FlsFree
 ms.topic: function
-f1_keywords: ["fibersapi/FlsFree"]
+f1_keywords: 
+ - "fibersapi/FlsFree"
 req.header: fibersapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CMSPCallBase, CMSPCallBase class [TAPI 2.2], CMSPCallBase class [TAPI 2.2],described, _tapi3_cmspcallbase, mspcall/CMSPCallBase, tapi3.cmspcallbase
 ms.topic: class
-f1_keywords: ["mspcall/CMSPCallBase"]
+f1_keywords: 
+ - "mspcall/CMSPCallBase"
 req.header: mspcall.h
 req.include-header: 
 req.target-type: Windows

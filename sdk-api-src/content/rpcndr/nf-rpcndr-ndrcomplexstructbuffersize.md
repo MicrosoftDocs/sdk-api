@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrComplexStructBufferSize, NdrComplexStructBufferSize function [Windows API], rpcndr/NdrComplexStructBufferSize, winprog.ndrcomplexstructbuffersize
 ms.topic: function
-f1_keywords: ["rpcndr/NdrComplexStructBufferSize"]
+f1_keywords: 
+ - "rpcndr/NdrComplexStructBufferSize"
 req.header: rpcndr.h
 req.include-header: 
 req.target-type: Windows

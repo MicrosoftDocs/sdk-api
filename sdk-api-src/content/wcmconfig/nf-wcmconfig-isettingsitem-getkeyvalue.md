@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetKeyValue, GetKeyValue method [SMI], GetKeyValue method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetKeyValue method, ISettingsItem.GetKeyValue, ISettingsItem::GetKeyValue, smi.isettingsitem_getkeyvalue, wcmconfig/ISettingsItem::GetKeyValue
 ms.topic: method
-f1_keywords: ["wcmconfig/ISettingsItem.GetKeyValue"]
+f1_keywords: 
+ - "wcmconfig/ISettingsItem.GetKeyValue"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnableMouseInPointer, EnableMouseInPointer function [Keyboard and Mouse Input], inputdev.enablemouseinpointer, inputmsg.enablemouseinpointer, winuser/EnableMouseInPointer
 ms.topic: function
-f1_keywords: ["winuser/EnableMouseInPointer"]
+f1_keywords: 
+ - "winuser/EnableMouseInPointer"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

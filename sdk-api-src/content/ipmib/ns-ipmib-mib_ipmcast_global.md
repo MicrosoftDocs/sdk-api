@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_IPMCAST_GLOBAL, MIB_IPMCAST_GLOBAL, MIB_IPMCAST_GLOBAL structure [MIB], PMIB_IPMCAST_GLOBAL, PMIB_IPMCAST_GLOBAL structure pointer [MIB], _mpr_mib_ipmcast_global, ipmib/MIB_IPMCAST_GLOBAL, ipmib/PMIB_IPMCAST_GLOBAL, iprtrmib/MIB_IPMCAST_GLOBAL, iprtrmib/PMIB_IPMCAST_GLOBAL, mib.mib_ipmcast_global, rras.mib_ipmcast_global"
 ms.topic: struct
-f1_keywords: ["ipmib/MIB_IPMCAST_GLOBAL"]
+f1_keywords: 
+ - "ipmib/MIB_IPMCAST_GLOBAL"
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

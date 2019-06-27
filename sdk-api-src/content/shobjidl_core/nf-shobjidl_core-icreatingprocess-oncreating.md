@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreatingProcess interface [Windows Shell],OnCreating method, ICreatingProcess.OnCreating, ICreatingProcess::OnCreating, OnCreating, OnCreating method [Windows Shell], OnCreating method [Windows Shell],ICreatingProcess interface, shell.icreatingprocess_oncreating, shobjidl_core/ICreatingProcess::OnCreating
 ms.topic: method
-f1_keywords: ["shobjidl_core/ICreatingProcess.OnCreating"]
+f1_keywords: 
+ - "shobjidl_core/ICreatingProcess.OnCreating"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

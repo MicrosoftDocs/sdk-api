@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFN_CRYPT_SIGN_AND_ENCODE_HASH_FUNC, PFN_CRYPT_SIGN_AND_ENCODE_HASH_FUNC callback, PFN_CRYPT_SIGN_AND_ENCODE_HASH_FUNC callback function [Security], security.pfn_crypt_sign_and_encode_hash_func, wincrypt/PFN_CRYPT_SIGN_AND_ENCODE_HASH_FUNC
 ms.topic: callback
-f1_keywords: ["wincrypt/PFN_CRYPT_SIGN_AND_ENCODE_HASH_FUNC"]
+f1_keywords: 
+ - "wincrypt/PFN_CRYPT_SIGN_AND_ENCODE_HASH_FUNC"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

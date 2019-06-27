@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITransformProvider2, ITransformProvider2 interface [Windows Accessibility], ITransformProvider2 interface [Windows Accessibility],described, uiautomationcore/ITransformProvider2, winauto.uiauto_ITransformProvider2
 ms.topic: interface
-f1_keywords: ["uiautomationcore/ITransformProvider2"]
+f1_keywords: 
+ - "uiautomationcore/ITransformProvider2"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

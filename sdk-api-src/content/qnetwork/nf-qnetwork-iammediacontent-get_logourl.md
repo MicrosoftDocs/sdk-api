@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_LogoURL method, IAMMediaContent.get_LogoURL, IAMMediaContent::get_LogoURL, IAMMediaContentget_LogoURL, dshow.iammediacontent_get_logourl, get_LogoURL, get_LogoURL method [DirectShow], get_LogoURL method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_LogoURL
 ms.topic: method
-f1_keywords: ["qnetwork/IAMMediaContent.get_LogoURL"]
+f1_keywords: 
+ - "qnetwork/IAMMediaContent.get_LogoURL"
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetHelpContext method, ICreateTypeLib.SetHelpContext, ICreateTypeLib::SetHelpContext, SetHelpContext, SetHelpContext method [Automation], SetHelpContext method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetHelpContext, automat.icreatetypelib_sethelpcontext, oaidl/ICreateTypeLib::SetHelpContext
 ms.topic: method
-f1_keywords: ["oaidl/ICreateTypeLib.SetHelpContext"]
+f1_keywords: 
+ - "oaidl/ICreateTypeLib.SetHelpContext"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

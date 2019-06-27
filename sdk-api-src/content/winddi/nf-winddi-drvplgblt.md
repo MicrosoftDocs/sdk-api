@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvPlgBlt, DrvPlgBlt function [Display Devices], ddifncs_7ede9dd6-c295-42b1-96f0-966ce103cc2e.xml, display.drvplgblt, winddi/DrvPlgBlt
 ms.topic: function
-f1_keywords: ["winddi/DrvPlgBlt"]
+f1_keywords: 
+ - "winddi/DrvPlgBlt"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanSetInterface, WlanSetInterface function [NativeWIFI], nwifi.wlansetinterface, wlanapi/WlanSetInterface
 ms.topic: function
-f1_keywords: ["wlanapi/WlanSetInterface"]
+f1_keywords: 
+ - "wlanapi/WlanSetInterface"
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

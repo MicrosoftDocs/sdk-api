@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HighestVersion property [Task Scheduler], HighestVersion property [Task Scheduler],ITaskService interface, HighestVersion property [Task Scheduler],TBD object, ITaskService interface [Task Scheduler],HighestVersion property, ITaskService.HighestVersion, ITaskService.get_HighestVersion, ITaskService::HighestVersion, ITaskService::get_HighestVersion, TBD object [Task Scheduler],HighestVersion property, get_HighestVersion, taskschd.itaskservice_highestversion, taskschd/ITaskService::HighestVersion, taskschd/ITaskService::get_HighestVersion
 ms.topic: method
-f1_keywords: ["taskschd/ITaskService.HighestVersion"]
+f1_keywords: 
+ - "taskschd/ITaskService.HighestVersion"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

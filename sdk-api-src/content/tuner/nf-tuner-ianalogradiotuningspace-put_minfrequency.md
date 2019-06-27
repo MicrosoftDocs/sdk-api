@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAnalogRadioTuningSpace interface [Microsoft TV Technologies],put_MinFrequency method, IAnalogRadioTuningSpace.put_MinFrequency, IAnalogRadioTuningSpace::put_MinFrequency, IAnalogRadioTuningSpaceput_MinFrequency, mstv.ianalogradiotuningspace_put_minfrequency, put_MinFrequency, put_MinFrequency method [Microsoft TV Technologies], put_MinFrequency method [Microsoft TV Technologies],IAnalogRadioTuningSpace interface, tuner/IAnalogRadioTuningSpace::put_MinFrequency
 ms.topic: method
-f1_keywords: ["tuner/IAnalogRadioTuningSpace.put_MinFrequency"]
+f1_keywords: 
+ - "tuner/IAnalogRadioTuningSpace.put_MinFrequency"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

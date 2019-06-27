@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgPaint interface [Direct2D],SetId method, ID2D1SvgPaint.SetId, ID2D1SvgPaint::SetId, SetId, SetId method [Direct2D], SetId method [Direct2D],ID2D1SvgPaint interface, d2d1svg/ID2D1SvgPaint::SetId, direct2d.id2d1svgpaint_setid
 ms.topic: method
-f1_keywords: ["d2d1svg/ID2D1SvgPaint.SetId"]
+f1_keywords: 
+ - "d2d1svg/ID2D1SvgPaint.SetId"
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

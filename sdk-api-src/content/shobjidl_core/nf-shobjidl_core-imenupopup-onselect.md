@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMenuPopup interface [Windows Shell],OnSelect method, IMenuPopup.OnSelect, IMenuPopup::OnSelect, MPOS_CANCELLEVEL, MPOS_CHILDTRACKING, MPOS_EXECUTE, MPOS_FULLCANCEL, MPOS_SELECTLEFT, MPOS_SELECTRIGHT, OnSelect, OnSelect method [Windows Shell], OnSelect method [Windows Shell],IMenuPopup interface, _win32_IMenuPopup_OnSelect, shell.IMenuPopup_OnSelect, shobjidl_core/IMenuPopup::OnSelect
 ms.topic: method
-f1_keywords: ["shobjidl_core/IMenuPopup.OnSelect"]
+f1_keywords: 
+ - "shobjidl_core/IMenuPopup.OnSelect"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

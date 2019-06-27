@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],launchURL method, IWMPCore.launchURL, IWMPCore::launchURL, IWMPCorelaunchURL, launchURL, launchURL method [Windows Media Player], launchURL method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_launchurl, wmp/IWMPCore::launchURL
 ms.topic: method
-f1_keywords: ["wmp/IWMPCore.launchURL"]
+f1_keywords: 
+ - "wmp/IWMPCore.launchURL"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

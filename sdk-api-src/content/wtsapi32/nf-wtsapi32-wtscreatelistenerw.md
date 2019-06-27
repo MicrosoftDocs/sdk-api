@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSCreateListener, WTSCreateListener function [Remote Desktop Services], WTSCreateListenerA, WTSCreateListenerW, WTS_LISTENER_CREATE, WTS_LISTENER_UPDATE, termserv.wtscreatelistener, wtsapi32/WTSCreateListener, wtsapi32/WTSCreateListenerA, wtsapi32/WTSCreateListenerW
 ms.topic: function
-f1_keywords: ["wtsapi32/WTSCreateListener"]
+f1_keywords: 
+ - "wtsapi32/WTSCreateListener"
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

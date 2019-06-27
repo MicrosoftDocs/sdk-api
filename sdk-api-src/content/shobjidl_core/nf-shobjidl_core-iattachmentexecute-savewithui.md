@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],SaveWithUI method, IAttachmentExecute.SaveWithUI, IAttachmentExecute::SaveWithUI, SaveWithUI, SaveWithUI method [Windows Shell], SaveWithUI method [Windows Shell],IAttachmentExecute interface, shell.IAttachmentExecute_SaveWithUI, shell_IAttachmentExecute_savewithui, shobjidl_core/IAttachmentExecute::SaveWithUI
 ms.topic: method
-f1_keywords: ["shobjidl_core/IAttachmentExecute.SaveWithUI"]
+f1_keywords: 
+ - "shobjidl_core/IAttachmentExecute.SaveWithUI"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

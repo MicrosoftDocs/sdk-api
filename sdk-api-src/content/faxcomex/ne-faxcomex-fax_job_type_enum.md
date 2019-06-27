@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FAX_JOB_TYPE_ENUM, FAX_JOB_TYPE_ENUM enumeration [Fax Service], _mfax_fax_job_type_enum, fax._mfax_fax_job_type_enum, faxcomex/FAX_JOB_TYPE_ENUM, faxcomex/fjtRECEIVE, faxcomex/fjtROUTING, faxcomex/fjtSEND, fjtRECEIVE, fjtROUTING, fjtSEND
 ms.topic: enum
-f1_keywords: ["faxcomex/FAX_JOB_TYPE_ENUM"]
+f1_keywords: 
+ - "faxcomex/FAX_JOB_TYPE_ENUM"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

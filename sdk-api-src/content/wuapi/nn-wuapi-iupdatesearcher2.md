@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateSearcher2, IUpdateSearcher2 interface [Windows Update Agent], IUpdateSearcher2 interface [Windows Update Agent],described, wua.iupdatesearcher2, wuapi/IUpdateSearcher2
 ms.topic: interface
-f1_keywords: ["wuapi/IUpdateSearcher2"]
+f1_keywords: 
+ - "wuapi/IUpdateSearcher2"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

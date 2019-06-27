@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFocusedItem, GetFocusedItem method [Windows Shell], GetFocusedItem method [Windows Shell],IFolderView interface, IFolderView interface [Windows Shell],GetFocusedItem method, IFolderView.GetFocusedItem, IFolderView::GetFocusedItem, _shell_IFolderView_GetFocusedItem, shell.IFolderView_GetFocusedItem, shobjidl_core/IFolderView::GetFocusedItem
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFolderView.GetFocusedItem"]
+f1_keywords: 
+ - "shobjidl_core/IFolderView.GetFocusedItem"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

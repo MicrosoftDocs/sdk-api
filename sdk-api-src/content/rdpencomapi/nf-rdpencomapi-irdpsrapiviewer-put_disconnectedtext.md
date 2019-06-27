@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisconnectedText property [RDP], DisconnectedText property [RDP],IRDPSRAPIViewer interface, DisconnectedText property [RDP],RDPViewer object, IRDPSRAPIViewer interface [RDP],DisconnectedText property, IRDPSRAPIViewer.DisconnectedText, IRDPSRAPIViewer.put_DisconnectedText, IRDPSRAPIViewer::DisconnectedText, IRDPSRAPIViewer::get_DisconnectedText, IRDPSRAPIViewer::put_DisconnectedText, RDPViewer object [RDP],DisconnectedText property, put_DisconnectedText, rdp.irdpsrapiviewer_disconnectedtext, rdpencomapi/IRDPSRAPIViewer::DisconnectedText, rdpencomapi/IRDPSRAPIViewer::get_DisconnectedText, rdpencomapi/IRDPSRAPIViewer::put_DisconnectedText
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPIViewer.DisconnectedText"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIViewer.DisconnectedText"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

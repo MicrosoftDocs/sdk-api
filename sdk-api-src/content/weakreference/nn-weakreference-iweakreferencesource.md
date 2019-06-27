@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWeakReferenceSource, IWeakReferenceSource interface [Windows Runtime], IWeakReferenceSource interface [Windows Runtime],described, weakreference/IWeakReferenceSource, winrt.iweakreferencesource
 ms.topic: interface
-f1_keywords: ["weakreference/IWeakReferenceSource"]
+f1_keywords: 
+ - "weakreference/IWeakReferenceSource"
 req.header: weakreference.h
 req.include-header: 
 req.target-type: Windows

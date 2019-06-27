@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DAD_SetDragImage, DAD_SetDragImage function [Windows Shell], shell.DAD_SetDragImage, shell_DAD_SetDragImage, shlobj_core/DAD_SetDragImage
 ms.topic: function
-f1_keywords: ["shlobj_core/DAD_SetDragImage"]
+f1_keywords: 
+ - "shlobj_core/DAD_SetDragImage"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

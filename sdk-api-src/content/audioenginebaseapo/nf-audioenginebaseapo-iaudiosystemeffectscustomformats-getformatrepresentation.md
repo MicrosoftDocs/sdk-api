@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFormatRepresentation, GetFormatRepresentation method [Audio Devices], GetFormatRepresentation method [Audio Devices],IAudioSystemEffectsCustomFormats interface, IAudioSystemEffectsCustomFormats interface [Audio Devices],GetFormatRepresentation method, IAudioSystemEffectsCustomFormats.GetFormatRepresentation, IAudioSystemEffectsCustomFormats::GetFormatRepresentation, audio.iaudiosystemeffectscustomformats_getformatrepresentation, audio_syseffects_r_0164d130-f6cc-423b-9195-e5e87ee6bf2f.xml, audioenginebaseapo/IAudioSystemEffectsCustomFormats::GetFormatRepresentation
 ms.topic: method
-f1_keywords: ["audioenginebaseapo/IAudioSystemEffectsCustomFormats.GetFormatRepresentation"]
+f1_keywords: 
+ - "audioenginebaseapo/IAudioSystemEffectsCustomFormats.GetFormatRepresentation"
 req.header: audioenginebaseapo.h
 req.include-header: Audioenginebaseapo.h
 req.target-type: Desktop

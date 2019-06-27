@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateGlyphRunAnalysis, CreateGlyphRunAnalysis method [Direct Write], CreateGlyphRunAnalysis method [Direct Write],IDWriteFactory2 interface, IDWriteFactory2 interface [Direct Write],CreateGlyphRunAnalysis method, IDWriteFactory2.CreateGlyphRunAnalysis, IDWriteFactory2::CreateGlyphRunAnalysis, directwrite.idwritefactory2_createglyphrunanalysis, dwrite_2/IDWriteFactory2::CreateGlyphRunAnalysis
 ms.topic: method
-f1_keywords: ["dwrite_2/IDWriteFactory2.CreateGlyphRunAnalysis"]
+f1_keywords: 
+ - "dwrite_2/IDWriteFactory2.CreateGlyphRunAnalysis"
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

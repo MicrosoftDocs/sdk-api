@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWindowThreadProcessId, GetWindowThreadProcessId function [Windows and Messages], _win32_GetWindowThreadProcessId, _win32_getwindowthreadprocessid_cpp, winmsg.getwindowthreadprocessid, winui._win32_getwindowthreadprocessid, winuser/GetWindowThreadProcessId
 ms.topic: function
-f1_keywords: ["winuser/GetWindowThreadProcessId"]
+f1_keywords: 
+ - "winuser/GetWindowThreadProcessId"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

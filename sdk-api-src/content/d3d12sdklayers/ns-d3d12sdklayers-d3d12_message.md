@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_MESSAGE, D3D12_MESSAGE structure, d3d12sdklayers/D3D12_MESSAGE, direct3d12.d3d12_message
 ms.topic: struct
-f1_keywords: ["d3d12sdklayers/D3D12_MESSAGE"]
+f1_keywords: 
+ - "d3d12sdklayers/D3D12_MESSAGE"
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

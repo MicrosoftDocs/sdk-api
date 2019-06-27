@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelServer class [windows Media Device Manager],DecryptParam method, CSecureChannelServer.DecryptParam, CSecureChannelServer::DecryptParam, CSecureChannelServerDecryptParam, DecryptParam, DecryptParam method [windows Media Device Manager], DecryptParam method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::DecryptParam, wmdm.csecurechannelserver_decryptparam
 ms.topic: method
-f1_keywords: ["scserver/CSecureChannelServer.DecryptParam"]
+f1_keywords: 
+ - "scserver/CSecureChannelServer.DecryptParam"
 req.header: scserver.h
 req.include-header: 
 req.target-type: Windows

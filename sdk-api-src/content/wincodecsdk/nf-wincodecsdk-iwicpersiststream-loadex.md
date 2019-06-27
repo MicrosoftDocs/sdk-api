@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICPersistStream interface [Windows Imaging Component],LoadEx method, IWICPersistStream.LoadEx, IWICPersistStream::LoadEx, LoadEx, LoadEx method [Windows Imaging Component], LoadEx method [Windows Imaging Component],IWICPersistStream interface, _wic_codec_iwicpersiststream_loadex, wic._wic_codec_iwicpersiststream_loadex, wincodecsdk/IWICPersistStream::LoadEx
 ms.topic: method
-f1_keywords: ["wincodecsdk/IWICPersistStream.LoadEx"]
+f1_keywords: 
+ - "wincodecsdk/IWICPersistStream.LoadEx"
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

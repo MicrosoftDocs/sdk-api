@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Direct Manipulation], GetStatus method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],GetStatus method, IDirectManipulationViewport.GetStatus, IDirectManipulationViewport::GetStatus, directmanipulation.idirectmanipulationviewport_getstatus, directmanipulation/IDirectManipulationViewport::GetStatus
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationViewport.GetStatus"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationViewport.GetStatus"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

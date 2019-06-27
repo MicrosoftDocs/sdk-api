@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSetIntX, XMVectorSetIntX, XMVectorSetIntX method [DirectX Math Support APIs], dxmath.xmvectorsetintx
 ms.topic: function
-f1_keywords: ["directxmath/XMVectorSetIntX"]
+f1_keywords: 
+ - "directxmath/XMVectorSetIntX"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

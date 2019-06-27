@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [ICS/ICF], Count property [ICS/ICF],INetFwOpenPorts interface, INetFwOpenPorts interface [ICS/ICF],Count property, INetFwOpenPorts.Count, INetFwOpenPorts.get_Count, INetFwOpenPorts::Count, INetFwOpenPorts::get_Count, get_Count, ics.inetfwopenports_count, netfw/INetFwOpenPorts::Count, netfw/INetFwOpenPorts::get_Count
 ms.topic: method
-f1_keywords: ["netfw/INetFwOpenPorts.Count"]
+f1_keywords: 
+ - "netfw/INetFwOpenPorts.Count"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

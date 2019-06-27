@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_POLICY_PROPERTY_ID, WS_POLICY_PROPERTY_ID enumeration [Web Services for Windows], WS_POLICY_PROPERTY_MAX_ALTERNATIVES, WS_POLICY_PROPERTY_MAX_DEPTH, WS_POLICY_PROPERTY_MAX_EXTENSIONS, WS_POLICY_PROPERTY_STATE, webservices/WS_POLICY_PROPERTY_ID, webservices/WS_POLICY_PROPERTY_MAX_ALTERNATIVES, webservices/WS_POLICY_PROPERTY_MAX_DEPTH, webservices/WS_POLICY_PROPERTY_MAX_EXTENSIONS, webservices/WS_POLICY_PROPERTY_STATE, wsw.ws_policy_property_id
 ms.topic: enum
-f1_keywords: ["webservices/WS_POLICY_PROPERTY_ID"]
+f1_keywords: 
+ - "webservices/WS_POLICY_PROPERTY_ID"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

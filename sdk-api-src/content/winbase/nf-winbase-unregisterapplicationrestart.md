@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnregisterApplicationRestart, UnregisterApplicationRestart function [Recovery], recovery.unregisterapplicationrestart, winbase/UnregisterApplicationRestart
 ms.topic: function
-f1_keywords: ["winbase/UnregisterApplicationRestart"]
+f1_keywords: 
+ - "winbase/UnregisterApplicationRestart"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

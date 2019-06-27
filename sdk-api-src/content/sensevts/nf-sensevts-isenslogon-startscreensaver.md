@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISensLogon interface [SENS],StartScreenSaver method, ISensLogon.StartScreenSaver, ISensLogon::StartScreenSaver, StartScreenSaver, StartScreenSaver method [SENS], StartScreenSaver method [SENS],ISensLogon interface, _zaw_isenslogon_startscreensaver, sens.isenslogon_startscreensaver, sensevts/ISensLogon::StartScreenSaver, syncmgr.isenslogon_startscreensaver
 ms.topic: method
-f1_keywords: ["sensevts/ISensLogon.StartScreenSaver"]
+f1_keywords: 
+ - "sensevts/ISensLogon.StartScreenSaver"
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTimecode, GetTimecode method [DirectShow], GetTimecode method [DirectShow],IAMTimecodeReader interface, IAMTimecodeReader interface [DirectShow],GetTimecode method, IAMTimecodeReader.GetTimecode, IAMTimecodeReader::GetTimecode, IAMTimecodeReaderGetTimecode, dshow.iamtimecodereader_gettimecode, strmif/IAMTimecodeReader::GetTimecode
 ms.topic: method
-f1_keywords: ["strmif/IAMTimecodeReader.GetTimecode"]
+f1_keywords: 
+ - "strmif/IAMTimecodeReader.GetTimecode"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInputScopes, GetInputScopes method [Text Services Framework], GetInputScopes method [Text Services Framework],ITfInputScope interface, ITfInputScope interface [Text Services Framework],GetInputScopes method, ITfInputScope.GetInputScopes, ITfInputScope::GetInputScopes, _tsf_itfinputscoe_getinputscopes_ref, inputscope/ITfInputScope::GetInputScopes, tsf.itfinputscope_getinputscope
 ms.topic: method
-f1_keywords: ["inputscope/ITfInputScope.GetInputScopes"]
+f1_keywords: 
+ - "inputscope/ITfInputScope.GetInputScopes"
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows

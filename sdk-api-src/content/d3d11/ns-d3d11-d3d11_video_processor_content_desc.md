@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_CONTENT_DESC, D3D11_VIDEO_PROCESSOR_CONTENT_DESC structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_CONTENT_DESC, mf.d3d11_video_processor_content_desc
 ms.topic: struct
-f1_keywords: ["d3d11/D3D11_VIDEO_PROCESSOR_CONTENT_DESC"]
+f1_keywords: 
+ - "d3d11/D3D11_VIDEO_PROCESSOR_CONTENT_DESC"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

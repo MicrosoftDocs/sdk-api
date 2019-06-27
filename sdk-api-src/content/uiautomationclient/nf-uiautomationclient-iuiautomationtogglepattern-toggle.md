@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTogglePattern interface [Windows Accessibility],Toggle method, IUIAutomationTogglePattern.Toggle, IUIAutomationTogglePattern::Toggle, Toggle, Toggle method [Windows Accessibility], Toggle method [Windows Accessibility],IUIAutomationTogglePattern interface, uiauto.uiauto_IUIAutomationTogglePattern_Toggle, uiauto_IUIAutomationTogglePattern_Toggle, uiautomationclient/IUIAutomationTogglePattern::Toggle, winauto.uiauto_IUIAutomationTogglePattern_Toggle
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTogglePattern.Toggle"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTogglePattern.Toggle"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

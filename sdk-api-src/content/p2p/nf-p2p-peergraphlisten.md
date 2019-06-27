@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PEER_GRAPH_SCOPE_GLOBAL, PEER_GRAPH_SCOPE_LINKLOCAL, PEER_GRAPH_SCOPE_SITELOCAL, PeerGraphListen, PeerGraphListen function [Peer Networking], p2p.peergraphlisten, p2p/PeerGraphListen
 ms.topic: function
-f1_keywords: ["p2p/PeerGraphListen"]
+f1_keywords: 
+ - "p2p/PeerGraphListen"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

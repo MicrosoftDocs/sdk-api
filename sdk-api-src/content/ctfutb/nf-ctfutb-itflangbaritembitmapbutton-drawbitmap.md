@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawBitmap, DrawBitmap method [Text Services Framework], DrawBitmap method [Text Services Framework],ITfLangBarItemBitmapButton interface, ITfLangBarItemBitmapButton interface [Text Services Framework],DrawBitmap method, ITfLangBarItemBitmapButton.DrawBitmap, ITfLangBarItemBitmapButton::DrawBitmap, _tsf_itflangbaritembitmapbutton_drawbitmap_ref, ctfutb/ITfLangBarItemBitmapButton::DrawBitmap, tsf.itflangbaritembitmapbutton_drawbitmap
 ms.topic: method
-f1_keywords: ["ctfutb/ITfLangBarItemBitmapButton.DrawBitmap"]
+f1_keywords: 
+ - "ctfutb/ITfLangBarItemBitmapButton.DrawBitmap"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

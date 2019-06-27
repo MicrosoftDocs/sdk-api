@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADRF_DRAWIMAGE, ADRF_DRAWNOTHING, ADRF_DRAWSYNC, NMTVASYNCDRAW, NMTVASYNCDRAW structure [Windows Controls], _shell_NMTVASYNCDRAW, _shell_NMTVASYNCDRAW_cpp, commctrl/NMTVASYNCDRAW, controls.NMTVASYNCDRAW, controls._shell_NMTVASYNCDRAW
 ms.topic: struct
-f1_keywords: ["commctrl/NMTVASYNCDRAW"]
+f1_keywords: 
+ - "commctrl/NMTVASYNCDRAW"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

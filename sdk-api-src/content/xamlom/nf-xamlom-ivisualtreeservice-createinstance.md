@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method, CreateInstance method,IVisualTreeService interface, IVisualTreeService interface,CreateInstance method, IVisualTreeService.CreateInstance, IVisualTreeService::CreateInstance, xaml_diagnostics.ivisualtreeservice_createinstance, xamlom/IVisualTreeService::CreateInstance
 ms.topic: method
-f1_keywords: ["xamlom/IVisualTreeService.CreateInstance"]
+f1_keywords: 
+ - "xamlom/IVisualTreeService.CreateInstance"
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

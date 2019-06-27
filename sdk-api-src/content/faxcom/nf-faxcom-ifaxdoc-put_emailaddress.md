@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EmailAddress property [Fax Service], EmailAddress property [Fax Service],IFaxDoc interface, IFaxDoc interface [Fax Service],EmailAddress property, IFaxDoc.EmailAddress, IFaxDoc.put_EmailAddress, IFaxDoc::EmailAddress, IFaxDoc::get_EmailAddress, IFaxDoc::put_EmailAddress, _mfax_ifaxdoc_get_emailaddress, fax._mfax_ifaxdoc_get_emailaddress, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_emailaddress_cpp, faxcom/IFaxDoc::EmailAddress, faxcom/IFaxDoc::get_EmailAddress, faxcom/IFaxDoc::put_EmailAddress, put_EmailAddress
 ms.topic: method
-f1_keywords: ["faxcom/IFaxDoc.EmailAddress"]
+f1_keywords: 
+ - "faxcom/IFaxDoc.EmailAddress"
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

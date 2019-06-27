@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnLayoutChange method, ITextStoreACPSink.OnLayoutChange, ITextStoreACPSink::OnLayoutChange, OnLayoutChange, OnLayoutChange method [Text Services Framework], OnLayoutChange method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onlayoutchange_ref, textstor/ITextStoreACPSink::OnLayoutChange, tsf.itextstoreacpsink_onlayoutchange
 ms.topic: method
-f1_keywords: ["textstor/ITextStoreACPSink.OnLayoutChange"]
+f1_keywords: 
+ - "textstor/ITextStoreACPSink.OnLayoutChange"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

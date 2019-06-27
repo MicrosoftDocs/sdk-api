@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: APPLICATION_VIEW_STATE, APPLICATION_VIEW_STATE enumeration [Windows Shell], AVS_FILLED, AVS_FULLSCREEN_LANDSCAPE, AVS_FULLSCREEN_PORTRAIT, AVS_SNAPPED, shell.APPLICATION_VIEW_STATE, shobjidl_core/APPLICATION_VIEW_STATE, shobjidl_core/AVS_FILLED, shobjidl_core/AVS_FULLSCREEN_LANDSCAPE, shobjidl_core/AVS_FULLSCREEN_PORTRAIT, shobjidl_core/AVS_SNAPPED
 ms.topic: enum
-f1_keywords: ["shobjidl_core/APPLICATION_VIEW_STATE"]
+f1_keywords: 
+ - "shobjidl_core/APPLICATION_VIEW_STATE"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

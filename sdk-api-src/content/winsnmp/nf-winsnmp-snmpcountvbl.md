@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpCountVbl, SnmpCountVbl function [SNMP], _snmp_snmpcountvbl, snmp.snmpcountvbl, winsnmp/SnmpCountVbl
 ms.topic: function
-f1_keywords: ["winsnmp/SnmpCountVbl"]
+f1_keywords: 
+ - "winsnmp/SnmpCountVbl"
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

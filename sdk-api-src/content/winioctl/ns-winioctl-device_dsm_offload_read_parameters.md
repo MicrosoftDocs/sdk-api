@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDEVICE_DSM_OFFLOAD_READ_PARAMETERS, DEVICE_DSM_OFFLOAD_READ_PARAMETERS, DEVICE_DSM_OFFLOAD_READ_PARAMETERS structure, PDEVICE_DSM_OFFLOAD_READ_PARAMETERS, PDEVICE_DSM_OFFLOAD_READ_PARAMETERS structure pointer, base.device_dsm_offload_read_parameters, winioctl/DEVICE_DSM_OFFLOAD_READ_PARAMETERS, winioctl/PDEVICE_DSM_OFFLOAD_READ_PARAMETERS"
 ms.topic: struct
-f1_keywords: ["winioctl/DEVICE_DSM_OFFLOAD_READ_PARAMETERS"]
+f1_keywords: 
+ - "winioctl/DEVICE_DSM_OFFLOAD_READ_PARAMETERS"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

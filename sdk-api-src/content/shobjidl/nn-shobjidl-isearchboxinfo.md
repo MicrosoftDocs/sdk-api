@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchBoxInfo, ISearchBoxInfo interface [Windows Shell], ISearchBoxInfo interface [Windows Shell],described, _shell_ISearchBoxInfo, shell.ISearchBoxInfo, shobjidl/ISearchBoxInfo
 ms.topic: interface
-f1_keywords: ["shobjidl/ISearchBoxInfo"]
+f1_keywords: 
+ - "shobjidl/ISearchBoxInfo"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

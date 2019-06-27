@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DxGetCurrentAutoflip, DxGetCurrentAutoflip callback function [Display Devices], PDX_GETCURRENTAUTOFLIP, PDX_GETCURRENTAUTOFLIP callback, VideoMiniPort_DxApiFunctions_1e8f1780-efe2-4f65-955b-887dc9a11358.xml, display.dxgetcurrentautoflip, dxmini/DxGetCurrentAutoflip
 ms.topic: callback
-f1_keywords: ["dxmini/DxGetCurrentAutoflip"]
+f1_keywords: 
+ - "dxmini/DxGetCurrentAutoflip"
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Desktop

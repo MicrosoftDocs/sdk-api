@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataObjectProvider interface [Windows Shell],SetDataObject method, IDataObjectProvider.SetDataObject, IDataObjectProvider::SetDataObject, SetDataObject, SetDataObject method [Windows Shell], SetDataObject method [Windows Shell],IDataObjectProvider interface, shell.IDataObjectProvider_SetDataObject, shobjidl_core/IDataObjectProvider::SetDataObject
 ms.topic: method
-f1_keywords: ["shobjidl_core/IDataObjectProvider.SetDataObject"]
+f1_keywords: 
+ - "shobjidl_core/IDataObjectProvider.SetDataObject"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

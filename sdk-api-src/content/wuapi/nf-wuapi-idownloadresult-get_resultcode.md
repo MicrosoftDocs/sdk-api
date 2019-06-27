@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDownloadResult interface [Windows Update Agent],ResultCode property, IDownloadResult.ResultCode, IDownloadResult.get_ResultCode, IDownloadResult::ResultCode, IDownloadResult::get_ResultCode, ResultCode property [Windows Update Agent], ResultCode property [Windows Update Agent],IDownloadResult interface, get_ResultCode, wua.idownloadresult_resultcode, wuapi/IDownloadResult::ResultCode, wuapi/IDownloadResult::get_ResultCode
 ms.topic: method
-f1_keywords: ["wuapi/IDownloadResult.ResultCode"]
+f1_keywords: 
+ - "wuapi/IDownloadResult.ResultCode"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

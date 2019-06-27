@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],Reset method, ICertEncodeCRLDistInfo interface [Security],Reset method, ICertEncodeCRLDistInfo.Reset, ICertEncodeCRLDistInfo::Reset, Reset, Reset method [Security], Reset method [Security],CCertEncodeCRLDistInfo object, Reset method [Security],ICertEncodeCRLDistInfo interface, _certsrv_icertencodecrldistinfo_reset, certenc/ICertEncodeCRLDistInfo::Reset, security.icertencodecrldistinfo_reset
 ms.topic: method
-f1_keywords: ["certenc/ICertEncodeCRLDistInfo.Reset"]
+f1_keywords: 
+ - "certenc/ICertEncodeCRLDistInfo.Reset"
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

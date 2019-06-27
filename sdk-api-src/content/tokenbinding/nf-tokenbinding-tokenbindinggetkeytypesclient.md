@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TokenBindingGetKeyTypesClient, TokenBindingGetKeyTypesClient function [Security], security.tokenbindinggetkeytypesclient, tokenbinding/TokenBindingGetKeyTypesClient
 ms.topic: function
-f1_keywords: ["tokenbinding/TokenBindingGetKeyTypesClient"]
+f1_keywords: 
+ - "tokenbinding/TokenBindingGetKeyTypesClient"
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows

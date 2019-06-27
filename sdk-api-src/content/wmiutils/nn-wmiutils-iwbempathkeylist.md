@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemPathKeyList, IWbemPathKeyList interface [Windows Management Instrumentation], IWbemPathKeyList interface [Windows Management Instrumentation],described, _hmm_iwbempathkeylist, wmi.iwbempathkeylist, wmiutils/IWbemPathKeyList
 ms.topic: interface
-f1_keywords: ["wmiutils/IWbemPathKeyList"]
+f1_keywords: 
+ - "wmiutils/IWbemPathKeyList"
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

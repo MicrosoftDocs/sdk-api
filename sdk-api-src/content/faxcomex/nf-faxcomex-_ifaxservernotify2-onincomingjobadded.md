@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnIncomingJobAdded method, IFaxServerNotify2.OnIncomingJobAdded, IFaxServerNotify2::OnIncomingJobAdded, OnIncomingJobAdded, OnIncomingJobAdded method [Fax Service], OnIncomingJobAdded method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnIncomingJobAdded, _IFaxServerNotify2::OnIncomingJobAdded, _mfax_ifaxservernotify2_onincomingjobadded, fax._mfax_ifaxservernotify2_onincomingjobadded, faxcomex/IFaxServerNotify2::OnIncomingJobAdded
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxServerNotify2.OnIncomingJobAdded"]
+f1_keywords: 
+ - "faxcomex/IFaxServerNotify2.OnIncomingJobAdded"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

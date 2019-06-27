@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpGetClientOptions, DhcpGetClientOptions function [DHCP], dhcp.dhcpgetclientoptions, dhcpsapi/DhcpGetClientOptions
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpGetClientOptions"]
+f1_keywords: 
+ - "dhcpsapi/DhcpGetClientOptions"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

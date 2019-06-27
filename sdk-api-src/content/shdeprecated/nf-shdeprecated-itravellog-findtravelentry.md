@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindTravelEntry, FindTravelEntry method [Windows Shell], FindTravelEntry method [Windows Shell],ITravelLog interface, ITravelLog interface [Windows Shell],FindTravelEntry method, ITravelLog.FindTravelEntry, ITravelLog::FindTravelEntry, shdeprecated/ITravelLog::FindTravelEntry, shell.ITravelLog_FindTravelEntry, zone_ITravelLog_FindTravelEntry
 ms.topic: method
-f1_keywords: ["shdeprecated/ITravelLog.FindTravelEntry"]
+f1_keywords: 
+ - "shdeprecated/ITravelLog.FindTravelEntry"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

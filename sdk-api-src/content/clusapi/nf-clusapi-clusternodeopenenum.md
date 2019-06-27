@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_NODE_ENUM_ALL, CLUSTER_NODE_ENUM_GROUPS, CLUSTER_NODE_ENUM_NETINTERFACES, ClusterNodeOpenEnum, ClusterNodeOpenEnum function [Failover Cluster], PCLUSAPI_CLUSTER_NODE_OPEN_ENUM, PCLUSAPI_CLUSTER_NODE_OPEN_ENUM function [Failover Cluster], _wolf_clusternodeopenenum, clusapi/ClusterNodeOpenEnum, clusapi/PCLUSAPI_CLUSTER_NODE_OPEN_ENUM, mscs.clusternodeopenenum
 ms.topic: function
-f1_keywords: ["clusapi/ClusterNodeOpenEnum"]
+f1_keywords: 
+ - "clusapi/ClusterNodeOpenEnum"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

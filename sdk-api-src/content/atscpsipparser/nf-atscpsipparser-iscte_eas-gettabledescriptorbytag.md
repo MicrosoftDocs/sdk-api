@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetTableDescriptorByTag method, ISCTE_EAS.GetTableDescriptorByTag, ISCTE_EAS::GetTableDescriptorByTag, ISCTE_EASGetTableDescriptorByTag, atscpsipparser/ISCTE_EAS::GetTableDescriptorByTag, mstv.iscte_eas_gettabledescriptorbytag
 ms.topic: method
-f1_keywords: ["atscpsipparser/ISCTE_EAS.GetTableDescriptorByTag"]
+f1_keywords: 
+ - "atscpsipparser/ISCTE_EAS.GetTableDescriptorByTag"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

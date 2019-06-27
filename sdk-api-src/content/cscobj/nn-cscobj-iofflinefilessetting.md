@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesSetting, IOfflineFilesSetting interface [Offline Files], IOfflineFilesSetting interface [Offline Files],described, cscobj/IOfflineFilesSetting, of.iofflinefilessetting
 ms.topic: interface
-f1_keywords: ["cscobj/IOfflineFilesSetting"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesSetting"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

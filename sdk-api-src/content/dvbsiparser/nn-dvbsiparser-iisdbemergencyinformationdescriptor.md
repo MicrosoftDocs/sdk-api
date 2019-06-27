@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IIsdbEmergencyInformationDescriptor, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies], IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbEmergencyInformationDescriptor, mstv.iisdbemergencyinformationdescriptor
 ms.topic: interface
-f1_keywords: ["dvbsiparser/IIsdbEmergencyInformationDescriptor"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbEmergencyInformationDescriptor"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

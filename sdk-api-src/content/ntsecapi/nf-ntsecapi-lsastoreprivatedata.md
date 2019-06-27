@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaStorePrivateData, LsaStorePrivateData function [Security], _lsa_lsastoreprivatedata, ntsecapi/LsaStorePrivateData, security.lsastoreprivatedata
 ms.topic: function
-f1_keywords: ["ntsecapi/LsaStorePrivateData"]
+f1_keywords: 
+ - "ntsecapi/LsaStorePrivateData"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

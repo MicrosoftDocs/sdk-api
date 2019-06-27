@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SaferRecordEventLogEntry, SaferRecordEventLogEntry function [Security], _mnp_saferrecordeventlogentry, security.saferrecordeventlogentry, winsafer/SaferRecordEventLogEntry
 ms.topic: function
-f1_keywords: ["winsafer/SaferRecordEventLogEntry"]
+f1_keywords: 
+ - "winsafer/SaferRecordEventLogEntry"
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows

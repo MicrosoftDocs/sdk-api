@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFNCMFILTERPROC, PFNCMFILTERPROC callback, PFNCMFILTERPROC callback function [Security], cryptdlg/PFNCMFILTERPROC, security.pfncmfilterproc
 ms.topic: callback
-f1_keywords: ["cryptdlg/PFNCMFILTERPROC"]
+f1_keywords: 
+ - "cryptdlg/PFNCMFILTERPROC"
 req.header: cryptdlg.h
 req.include-header: 
 req.target-type: Windows

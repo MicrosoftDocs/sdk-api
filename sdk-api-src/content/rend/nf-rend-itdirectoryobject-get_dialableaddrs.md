@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObject interface [TAPI 2.2],get_DialableAddrs method, ITDirectoryObject.get_DialableAddrs, ITDirectoryObject::get_DialableAddrs, _tapi3_itdirectoryobject_get_dialableaddrs, get_DialableAddrs, get_DialableAddrs method [TAPI 2.2], get_DialableAddrs method [TAPI 2.2],ITDirectoryObject interface, rend/ITDirectoryObject::get_DialableAddrs, tapi3.itdirectoryobject_get_dialableaddrs
 ms.topic: method
-f1_keywords: ["rend/ITDirectoryObject.get_DialableAddrs"]
+f1_keywords: 
+ - "rend/ITDirectoryObject.get_DialableAddrs"
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

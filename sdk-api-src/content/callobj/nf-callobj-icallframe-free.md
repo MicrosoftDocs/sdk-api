@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Free, Free method [COM], Free method [COM],ICallFrame interface, ICallFrame interface [COM],Free method, ICallFrame.Free, ICallFrame::Free, _com_icallframe_free, callobj/ICallFrame::Free, com.icallframe_free
 ms.topic: method
-f1_keywords: ["callobj/ICallFrame.Free"]
+f1_keywords: 
+ - "callobj/ICallFrame.Free"
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

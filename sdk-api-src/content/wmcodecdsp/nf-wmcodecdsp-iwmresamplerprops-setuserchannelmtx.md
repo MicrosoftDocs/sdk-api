@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMResamplerProps interface [Media Foundation],SetUserChannelMtx method, IWMResamplerProps.SetUserChannelMtx, IWMResamplerProps::SetUserChannelMtx, SetUserChannelMtx, SetUserChannelMtx method [Media Foundation], SetUserChannelMtx method [Media Foundation],IWMResamplerProps interface, codecapi.iwmresamplerpropssetuserchannelmtx, mf.iwmresamplerpropssetuserchannelmtx, wmcodecdsp/IWMResamplerProps::SetUserChannelMtx
 ms.topic: method
-f1_keywords: ["wmcodecdsp/IWMResamplerProps.SetUserChannelMtx"]
+f1_keywords: 
+ - "wmcodecdsp/IWMResamplerProps.SetUserChannelMtx"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

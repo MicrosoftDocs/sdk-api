@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumRegFilters interface [DirectShow],Reset method, IEnumRegFilters.Reset, IEnumRegFilters::Reset, IEnumRegFiltersReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumRegFilters interface, dshow.ienumregfilters_reset, strmif/IEnumRegFilters::Reset
 ms.topic: method
-f1_keywords: ["strmif/IEnumRegFilters.Reset"]
+f1_keywords: 
+ - "strmif/IEnumRegFilters.Reset"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

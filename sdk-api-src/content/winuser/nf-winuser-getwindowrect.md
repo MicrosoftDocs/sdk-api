@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWindowRect, GetWindowRect function [Windows and Messages], _win32_GetWindowRect, _win32_getwindowrect_cpp, winmsg.getwindowrect, winui._win32_getwindowrect, winuser/GetWindowRect
 ms.topic: function
-f1_keywords: ["winuser/GetWindowRect"]
+f1_keywords: 
+ - "winuser/GetWindowRect"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

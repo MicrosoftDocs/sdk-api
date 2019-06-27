@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcSsContextLockExclusive, RpcSsContextLockExclusive function [RPC], _rpc_rpcsscontextlockexclusive, rpc.rpcsscontextlockexclusive, rpcasync/RpcSsContextLockExclusive
 ms.topic: function
-f1_keywords: ["rpcasync/RpcSsContextLockExclusive"]
+f1_keywords: 
+ - "rpcasync/RpcSsContextLockExclusive"
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

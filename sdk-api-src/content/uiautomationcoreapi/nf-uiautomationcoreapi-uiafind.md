@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaFind, UiaFind function [Windows Accessibility], uiauto.uiauto_UiaFindAutoMeth, uiauto_UiaFindAutoMeth, uiautomationcoreapi/UiaFind, winauto.uiauto_UiaFindAutoMeth
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/UiaFind"]
+f1_keywords: 
+ - "uiautomationcoreapi/UiaFind"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

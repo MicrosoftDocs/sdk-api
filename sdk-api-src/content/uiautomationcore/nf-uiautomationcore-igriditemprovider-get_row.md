@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGridItemProvider interface [Windows Accessibility],Row property, IGridItemProvider.Row, IGridItemProvider.get_Row, IGridItemProvider::Row, IGridItemProvider::get_Row, Row property [Windows Accessibility], Row property [Windows Accessibility],IGridItemProvider interface, get_Row, uiauto.uiauto_IGridItemProvider_Row, uiauto_IGridItemProvider_Row, uiautomationcore/IGridItemProvider::Row, uiautomationcore/IGridItemProvider::get_Row, winauto.uiauto_IGridItemProvider_Row
 ms.topic: method
-f1_keywords: ["uiautomationcore/IGridItemProvider.Row"]
+f1_keywords: 
+ - "uiautomationcore/IGridItemProvider.Row"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

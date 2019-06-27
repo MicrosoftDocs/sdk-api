@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MonikerRelativePathTo, MonikerRelativePathTo function [COM], _com_MonikerRelativePathTo, com.monikerrelativepathto, objbase/MonikerRelativePathTo
 ms.topic: function
-f1_keywords: ["objbase/MonikerRelativePathTo"]
+f1_keywords: 
+ - "objbase/MonikerRelativePathTo"
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

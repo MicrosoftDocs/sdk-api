@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndFieldUpdates, EndFieldUpdates method [Windows Shell], EndFieldUpdates method [Windows Shell],ICredentialProviderCredentialEvents2 interface, ICredentialProviderCredentialEvents2 interface [Windows Shell],EndFieldUpdates method, ICredentialProviderCredentialEvents2.EndFieldUpdates, ICredentialProviderCredentialEvents2::EndFieldUpdates, credentialprovider/ICredentialProviderCredentialEvents2::EndFieldUpdates, shell.ICredentialProviderCredentialEvents2_EndFieldUpdates
 ms.topic: method
-f1_keywords: ["credentialprovider/ICredentialProviderCredentialEvents2.EndFieldUpdates"]
+f1_keywords: 
+ - "credentialprovider/ICredentialProviderCredentialEvents2.EndFieldUpdates"
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

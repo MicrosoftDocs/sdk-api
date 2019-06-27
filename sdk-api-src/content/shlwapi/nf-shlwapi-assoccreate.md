@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AssocCreate, AssocCreate function [Windows Shell], _win32_AssocCreate, shell.AssocCreate, shlwapi/AssocCreate
 ms.topic: function
-f1_keywords: ["shlwapi/AssocCreate"]
+f1_keywords: 
+ - "shlwapi/AssocCreate"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

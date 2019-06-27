@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpV4FailoverGetAddressStatus, DhcpV4FailoverGetAddressStatus function [DHCP], dhcp.dhcpv4failovergetaddressstatus, dhcpsapi/DhcpV4FailoverGetAddressStatus
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpV4FailoverGetAddressStatus"]
+f1_keywords: 
+ - "dhcpsapi/DhcpV4FailoverGetAddressStatus"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

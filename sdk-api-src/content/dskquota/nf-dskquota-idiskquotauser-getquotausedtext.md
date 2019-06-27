@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetQuotaUsedText, GetQuotaUsedText method [Files], GetQuotaUsedText method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetQuotaUsedText method, IDiskQuotaUser.GetQuotaUsedText, IDiskQuotaUser::GetQuotaUsedText, _win32_idiskquotauser_getquotausedtext, base.idiskquotauser_getquotausedtext, dskquota/IDiskQuotaUser::GetQuotaUsedText, fs.idiskquotauser_getquotausedtext
 ms.topic: method
-f1_keywords: ["dskquota/IDiskQuotaUser.GetQuotaUsedText"]
+f1_keywords: 
+ - "dskquota/IDiskQuotaUser.GetQuotaUsedText"
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

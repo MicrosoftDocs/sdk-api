@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12Resource interface,Map method, ID3D12Resource.Map, ID3D12Resource::Map, Map, Map method, Map method,ID3D12Resource interface, d3d12/ID3D12Resource::Map, direct3d12.id3d12resource_map
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12Resource.Map"]
+f1_keywords: 
+ - "d3d12/ID3D12Resource.Map"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

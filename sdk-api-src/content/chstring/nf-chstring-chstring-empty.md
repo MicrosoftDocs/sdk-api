@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?Empty@CHString@@QAEXXZ, ?Empty@CHString@@QEAAXXZ, CHString interface [Windows Management Instrumentation],Empty method, CHString.Empty, CHString::Empty, Empty, Empty method [Windows Management Instrumentation], Empty method [Windows Management Instrumentation],CHString interface, _hmm_chstring_empty, chstring/CHString::Empty, wmi.chstring_empty"
 ms.topic: method
-f1_keywords: ["chstring/CHString.Empty"]
+f1_keywords: 
+ - "chstring/CHString.Empty"
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

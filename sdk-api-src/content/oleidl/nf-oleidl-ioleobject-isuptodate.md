@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleObject interface [COM],IsUpToDate method, IOleObject.IsUpToDate, IOleObject::IsUpToDate, IsUpToDate, IsUpToDate method [COM], IsUpToDate method [COM],IOleObject interface, _ole_ioleobject_isuptodate, com.ioleobject_isuptodate, oleidl/IOleObject::IsUpToDate
 ms.topic: method
-f1_keywords: ["oleidl/IOleObject.IsUpToDate"]
+f1_keywords: 
+ - "oleidl/IOleObject.IsUpToDate"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

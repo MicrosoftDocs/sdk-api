@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTotalHistoryCount, GetTotalHistoryCount method [Windows Update Agent], GetTotalHistoryCount method [Windows Update Agent],IUpdateSearcher interface, IUpdateSearcher interface [Windows Update Agent],GetTotalHistoryCount method, IUpdateSearcher.GetTotalHistoryCount, IUpdateSearcher::GetTotalHistoryCount, wua.iupdatesearchergettotalhistorycount, wuapi/IUpdateSearcher::GetTotalHistoryCount
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateSearcher.GetTotalHistoryCount"]
+f1_keywords: 
+ - "wuapi/IUpdateSearcher.GetTotalHistoryCount"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

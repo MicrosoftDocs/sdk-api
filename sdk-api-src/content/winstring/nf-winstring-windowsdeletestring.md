@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WindowsDeleteString, WindowsDeleteString function [Windows Runtime], winrt.windowsdeletestring, winstring/WindowsDeleteString
 ms.topic: function
-f1_keywords: ["winstring/WindowsDeleteString"]
+f1_keywords: 
+ - "winstring/WindowsDeleteString"
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

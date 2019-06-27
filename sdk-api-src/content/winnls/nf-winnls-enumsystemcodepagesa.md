@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CP_INSTALLED, CP_SUPPORTED, EnumSystemCodePages, EnumSystemCodePages function [Internationalization for Windows Applications], EnumSystemCodePagesA, EnumSystemCodePagesW, _win32_EnumSystemCodePages, intl.enumsystemcodepages, winnls/EnumSystemCodePages, winnls/EnumSystemCodePagesA, winnls/EnumSystemCodePagesW
 ms.topic: function
-f1_keywords: ["winnls/EnumSystemCodePages"]
+f1_keywords: 
+ - "winnls/EnumSystemCodePages"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

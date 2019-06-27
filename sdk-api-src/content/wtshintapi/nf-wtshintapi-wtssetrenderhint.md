@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RENDER_HINT_CLEAR, RENDER_HINT_MAPPEDWINDOW, RENDER_HINT_VIDEO, WTSSetRenderHint, WTSSetRenderHint function [Remote Desktop Services], termserv.wtssetrenderhint, wtshintapi/WTSSetRenderHint
 ms.topic: function
-f1_keywords: ["wtshintapi/WTSSetRenderHint"]
+f1_keywords: 
+ - "wtshintapi/WTSSetRenderHint"
 req.header: wtshintapi.h
 req.include-header: 
 req.target-type: Windows

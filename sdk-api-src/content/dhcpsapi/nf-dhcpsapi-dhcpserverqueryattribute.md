@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpServerQueryAttribute, DhcpServerQueryAttribute function [DHCP], dhcp.dhcpserverqueryattribute, dhcpsapi/DhcpServerQueryAttribute
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpServerQueryAttribute"]
+f1_keywords: 
+ - "dhcpsapi/DhcpServerQueryAttribute"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

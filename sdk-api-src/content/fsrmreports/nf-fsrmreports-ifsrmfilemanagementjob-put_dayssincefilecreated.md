@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DaysSinceFileCreated property [File Server Resource Manager], DaysSinceFileCreated property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],DaysSinceFileCreated property, IFsrmFileManagementJob.DaysSinceFileCreated, IFsrmFileManagementJob.put_DaysSinceFileCreated, IFsrmFileManagementJob::DaysSinceFileCreated, IFsrmFileManagementJob::get_DaysSinceFileCreated, IFsrmFileManagementJob::put_DaysSinceFileCreated, fs.ifsrmfilemanagementjob_dayssincefilecreated, fsrm.ifsrmfilemanagementjob_dayssincefilecreated, fsrmreports/IFsrmFileManagementJob::DaysSinceFileCreated, fsrmreports/IFsrmFileManagementJob::get_DaysSinceFileCreated, fsrmreports/IFsrmFileManagementJob::put_DaysSinceFileCreated, put_DaysSinceFileCreated
 ms.topic: method
-f1_keywords: ["fsrmreports/IFsrmFileManagementJob.DaysSinceFileCreated"]
+f1_keywords: 
+ - "fsrmreports/IFsrmFileManagementJob.DaysSinceFileCreated"
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NET_FW_IP_PROTOCOL, NET_FW_IP_PROTOCOL enumeration [ICS/ICF], NET_FW_IP_PROTOCOL_TCP, NET_FW_IP_PROTOCOL_UDP, icftypes/NET_FW_IP_PROTOCOL, icftypes/NET_FW_IP_PROTOCOL_TCP, icftypes/NET_FW_IP_PROTOCOL_UDP, ics.net_fw_ip_protocol
 ms.topic: enum
-f1_keywords: ["icftypes/NET_FW_IP_PROTOCOL"]
+f1_keywords: 
+ - "icftypes/NET_FW_IP_PROTOCOL"
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows

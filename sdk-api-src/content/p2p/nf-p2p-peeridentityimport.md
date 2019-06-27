@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerIdentityImport, PeerIdentityImport function [Peer Networking], p2p.peeridentityimport, p2p/PeerIdentityImport
 ms.topic: function
-f1_keywords: ["p2p/PeerIdentityImport"]
+f1_keywords: 
+ - "p2p/PeerIdentityImport"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

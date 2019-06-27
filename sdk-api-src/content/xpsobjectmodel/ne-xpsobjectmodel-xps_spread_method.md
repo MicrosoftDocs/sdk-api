@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XPS_SPREAD_METHOD, XPS_SPREAD_METHOD enumeration [XPS Documents and Packaging], XPS_SPREAD_METHOD_PAD, XPS_SPREAD_METHOD_REFLECT, XPS_SPREAD_METHOD_REPEAT, xps.xps_spread_method, xpsobjectmodel/XPS_SPREAD_METHOD, xpsobjectmodel/XPS_SPREAD_METHOD_PAD, xpsobjectmodel/XPS_SPREAD_METHOD_REFLECT, xpsobjectmodel/XPS_SPREAD_METHOD_REPEAT
 ms.topic: enum
-f1_keywords: ["xpsobjectmodel/XPS_SPREAD_METHOD"]
+f1_keywords: 
+ - "xpsobjectmodel/XPS_SPREAD_METHOD"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

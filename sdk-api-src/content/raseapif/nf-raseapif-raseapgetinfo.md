@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasEapGetInfo, RasEapGetInfo callback, RasEapGetInfo callback function [EAP], _eap_raseapgetinfo, eap.raseapgetinfo, raseapif/RasEapGetInfo
 ms.topic: function
-f1_keywords: ["raseapif/RasEapGetInfo"]
+f1_keywords: 
+ - "raseapif/RasEapGetInfo"
 req.header: raseapif.h
 req.include-header: 
 req.target-type: Windows

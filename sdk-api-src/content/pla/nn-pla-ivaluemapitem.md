@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IValueMapItem, IValueMapItem interface [PLA], IValueMapItem interface [PLA],described, base.ivaluemapitem, pla.ivaluemapitem, pla/IValueMapItem
 ms.topic: interface
-f1_keywords: ["pla/IValueMapItem"]
+f1_keywords: 
+ - "pla/IValueMapItem"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

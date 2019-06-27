@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndStop, MCIWndStop macro [Windows Multimedia], _win32_MCIWndStop, multimedia.mciwndstop, vfw/MCIWndStop
 ms.topic: macro
-f1_keywords: ["vfw/MCIWndStop"]
+f1_keywords: 
+ - "vfw/MCIWndStop"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

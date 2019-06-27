@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPQuery interface [Windows Media Player],beginNextGroup method, IWMPQuery.beginNextGroup, IWMPQuery::beginNextGroup, IWMPQuerybeginNextGroup, beginNextGroup, beginNextGroup method [Windows Media Player], beginNextGroup method [Windows Media Player],IWMPQuery interface, wmp.iwmpquery_beginnextgroup, wmp/IWMPQuery::beginNextGroup
 ms.topic: method
-f1_keywords: ["wmp/IWMPQuery.beginNextGroup"]
+f1_keywords: 
+ - "wmp/IWMPQuery.beginNextGroup"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

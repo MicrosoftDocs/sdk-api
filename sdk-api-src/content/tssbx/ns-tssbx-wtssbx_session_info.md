@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSSBX_SESSION_INFO, WTSSBX_SESSION_INFO structure [Remote Desktop Services], __MIDL_IWTSSBPlugin_0009, termserv.wtssbx_session_info, tssbx/WTSSBX_SESSION_INFO
 ms.topic: struct
-f1_keywords: ["tssbx/WTSSBX_SESSION_INFO"]
+f1_keywords: 
+ - "tssbx/WTSSBX_SESSION_INFO"
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows

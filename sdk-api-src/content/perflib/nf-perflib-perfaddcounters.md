@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PerfAddCounters, PerfAddCounters function [Perf], perf.perfaddcounters, perflib/PerfAddCounters
 ms.topic: function
-f1_keywords: ["perflib/PerfAddCounters"]
+f1_keywords: 
+ - "perflib/PerfAddCounters"
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupInitializeFileLog, SetupInitializeFileLog function [Setup API], SetupInitializeFileLogA, SetupInitializeFileLogW, _setupapi_setupinitializefilelog, setup.setupinitializefilelog, setupapi/SetupInitializeFileLog, setupapi/SetupInitializeFileLogA, setupapi/SetupInitializeFileLogW
 ms.topic: function
-f1_keywords: ["setupapi/SetupInitializeFileLog"]
+f1_keywords: 
+ - "setupapi/SetupInitializeFileLog"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIP_MCAST_COUNTER_INFO, *PIP_MCAST_COUNTER_INFO structure [IP Helper], IP_MCAST_COUNTER_INFO, IP_MCAST_COUNTER_INFO structure [IP Helper], ipexport/*PIP_MCAST_COUNTER_INFO, ipexport/IP_MCAST_COUNTER_INFO, iphlp.ip_mcast_counter_info"
 ms.topic: struct
-f1_keywords: ["ipexport/IP_MCAST_COUNTER_INFO"]
+f1_keywords: 
+ - "ipexport/IP_MCAST_COUNTER_INFO"
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetProcessInformation, SetProcessInformation function, base.setprocessinformation, processthreadsapi/SetProcessInformation
 ms.topic: function
-f1_keywords: ["processthreadsapi/SetProcessInformation"]
+f1_keywords: 
+ - "processthreadsapi/SetProcessInformation"
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

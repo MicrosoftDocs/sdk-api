@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleGetClipboard, OleGetClipboard function [COM], _ole_OleGetClipboard, com.olegetclipboard, ole2/OleGetClipboard
 ms.topic: function
-f1_keywords: ["ole2/OleGetClipboard"]
+f1_keywords: 
+ - "ole2/OleGetClipboard"
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AdrClientDisplayFlags, AdrClientDisplayFlags enumeration [File Server Resource Manager], AdrClientDisplayFlags_AllowEmailRequests, AdrClientDisplayFlags_ShowDeviceTroubleshooting, fs.adrclientdisplayflags, fsrm.adrclientdisplayflags, fsrmenums/AdrClientDisplayFlags, fsrmenums/AdrClientDisplayFlags_AllowEmailRequests, fsrmenums/AdrClientDisplayFlags_ShowDeviceTroubleshooting
 ms.topic: enum
-f1_keywords: ["fsrmenums/AdrClientDisplayFlags"]
+f1_keywords: 
+ - "fsrmenums/AdrClientDisplayFlags"
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRendererEvent2 interface [Microsoft TV Technologies],OverlayUnavailable method, IMSVidVideoRendererEvent2.OverlayUnavailable, IMSVidVideoRendererEvent2::OverlayUnavailable, OverlayUnavailable, OverlayUnavailable method [Microsoft TV Technologies], OverlayUnavailable method [Microsoft TV Technologies],IMSVidVideoRendererEvent2 interface, mstv.imsvidvideorendererevent2_overlayunavailable, segment/IMSVidVideoRendererEvent2::OverlayUnavailable
 ms.topic: method
-f1_keywords: ["segment/IMSVidVideoRendererEvent2.OverlayUnavailable"]
+f1_keywords: 
+ - "segment/IMSVidVideoRendererEvent2.OverlayUnavailable"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

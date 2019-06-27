@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWsbApplicationRestoreSupport interface [Windows Server Backup],PreRestore method, IWsbApplicationRestoreSupport.PreRestore, IWsbApplicationRestoreSupport::PreRestore, PreRestore, PreRestore method [Windows Server Backup], PreRestore method [Windows Server Backup],IWsbApplicationRestoreSupport interface, wsb.iwsbapplicationrestoresupport_prerestore, wsbapp/IWsbApplicationRestoreSupport::PreRestore
 ms.topic: method
-f1_keywords: ["wsbapp/IWsbApplicationRestoreSupport.PreRestore"]
+f1_keywords: 
+ - "wsbapp/IWsbApplicationRestoreSupport.PreRestore"
 req.header: wsbapp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILocator interface [Microsoft TV Technologies],put_CarrierFrequency method, ILocator.put_CarrierFrequency, ILocator::put_CarrierFrequency, ILocatorput_CarrierFrequency, mstv.ilocator_put_carrierfrequency, put_CarrierFrequency, put_CarrierFrequency method [Microsoft TV Technologies], put_CarrierFrequency method [Microsoft TV Technologies],ILocator interface, tuner/ILocator::put_CarrierFrequency
 ms.topic: method
-f1_keywords: ["tuner/ILocator.put_CarrierFrequency"]
+f1_keywords: 
+ - "tuner/ILocator.put_CarrierFrequency"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

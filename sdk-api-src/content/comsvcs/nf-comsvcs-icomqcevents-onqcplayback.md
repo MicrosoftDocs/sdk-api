@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComQCEvents interface [COM+],OnQCPlayback method, IComQCEvents.OnQCPlayback, IComQCEvents::OnQCPlayback, OnQCPlayback, OnQCPlayback method [COM+], OnQCPlayback method [COM+],IComQCEvents interface, _dtc_IComQCEvents_OnQCPlayback, comsvcs/IComQCEvents::OnQCPlayback, cos.icomqcevents_onqcplayback
 ms.topic: method
-f1_keywords: ["comsvcs/IComQCEvents.OnQCPlayback"]
+f1_keywords: 
+ - "comsvcs/IComQCEvents.OnQCPlayback"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

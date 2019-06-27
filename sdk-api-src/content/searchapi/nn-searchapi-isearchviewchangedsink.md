@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchViewChangedSink, ISearchViewChangedSink interface [search], ISearchViewChangedSink interface [search],described, _search_ISearchViewChangedSink, search._search_ISearchViewChangedSink, searchapi/ISearchViewChangedSink
 ms.topic: interface
-f1_keywords: ["searchapi/ISearchViewChangedSink"]
+f1_keywords: 
+ - "searchapi/ISearchViewChangedSink"
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows

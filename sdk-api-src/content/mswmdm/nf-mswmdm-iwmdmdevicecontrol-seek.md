@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDMDeviceControl interface [windows Media Device Manager],Seek method, IWMDMDeviceControl.Seek, IWMDMDeviceControl::Seek, IWMDMDeviceControlSeek, Seek, Seek method [windows Media Device Manager], Seek method [windows Media Device Manager],IWMDMDeviceControl interface, mswmdm/IWMDMDeviceControl::Seek, wmdm.iwmdmdevicecontrol_seek
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMDeviceControl.Seek"]
+f1_keywords: 
+ - "mswmdm/IWMDMDeviceControl.Seek"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

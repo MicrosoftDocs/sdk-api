@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRSETDIBITSTODEVICE, EMRSETDIBITSTODEVICE, EMRSETDIBITSTODEVICE structure [Windows GDI], PEMRSETDIBITSTODEVICE, PEMRSETDIBITSTODEVICE structure pointer [Windows GDI], _win32_EMRSETDIBITSTODEVICE_str, gdi.emrsetdibitstodevice, wingdi/EMRSETDIBITSTODEVICE, wingdi/PEMRSETDIBITSTODEVICE"
 ms.topic: struct
-f1_keywords: ["wingdi/EMRSETDIBITSTODEVICE"]
+f1_keywords: 
+ - "wingdi/EMRSETDIBITSTODEVICE"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

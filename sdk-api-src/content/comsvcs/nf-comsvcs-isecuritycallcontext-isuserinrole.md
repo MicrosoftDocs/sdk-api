@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISecurityCallContext interface [COM+],IsUserInRole method, ISecurityCallContext.IsUserInRole, ISecurityCallContext::IsUserInRole, IsUserInRole, IsUserInRole method [COM+], IsUserInRole method [COM+],ISecurityCallContext interface, _cos_ISecurityCallContext_IsUserInRole, comsvcs/ISecurityCallContext::IsUserInRole, cos.isecuritycallcontext_isuserinrole
 ms.topic: method
-f1_keywords: ["comsvcs/ISecurityCallContext.IsUserInRole"]
+f1_keywords: 
+ - "comsvcs/ISecurityCallContext.IsUserInRole"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

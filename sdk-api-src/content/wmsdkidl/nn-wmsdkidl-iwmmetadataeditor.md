@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMMetadataEditor, IWMMetadataEditor interface [windows Media Format], IWMMetadataEditor interface [windows Media Format],described, IWMMetadataEditorInterface, wmformat.iwmmetadataeditor, wmsdkidl/IWMMetadataEditor
 ms.topic: interface
-f1_keywords: ["wmsdkidl/IWMMetadataEditor"]
+f1_keywords: 
+ - "wmsdkidl/IWMMetadataEditor"
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 01/28/2019
 ms.keywords: IAmsiStream, IAmsiStream interface [Antimalware Scan Interface], IAmsiStream interface [Antimalware Scan Interface],described, amsi.iamsistream, amsi/IAmsiStream
 ms.topic: interface
-f1_keywords: ["amsi/IAmsiStream"]
+f1_keywords: 
+ - "amsi/IAmsiStream"
 req.header: amsi.h
 req.include-header: 
 req.target-type: Windows

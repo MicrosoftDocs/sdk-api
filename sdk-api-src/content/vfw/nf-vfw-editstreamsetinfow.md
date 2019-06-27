@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EditStreamSetInfo, EditStreamSetInfo function [Windows Multimedia], EditStreamSetInfoA, EditStreamSetInfoW, _win32_EditStreamSetInfo, multimedia.editstreamsetinfo, vfw/EditStreamSetInfo, vfw/EditStreamSetInfoA, vfw/EditStreamSetInfoW
 ms.topic: function
-f1_keywords: ["vfw/EditStreamSetInfo"]
+f1_keywords: 
+ - "vfw/EditStreamSetInfo"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

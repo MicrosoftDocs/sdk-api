@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_SERVER_SPECIFIC_STRINGS, DHCP_SERVER_SPECIFIC_STRINGS, DHCP_SERVER_SPECIFIC_STRINGS structure [DHCP], PDHCP_SERVER_SPECIFIC_STRINGS, PDHCP_SERVER_SPECIFIC_STRINGS structure pointer [DHCP], dhcp.dhcp_server_specific_strings, dhcpsapi/DHCP_SERVER_SPECIFIC_STRINGS, dhcpsapi/PDHCP_SERVER_SPECIFIC_STRINGS"
 ms.topic: struct
-f1_keywords: ["dhcpsapi/DHCP_SERVER_SPECIFIC_STRINGS"]
+f1_keywords: 
+ - "dhcpsapi/DHCP_SERVER_SPECIFIC_STRINGS"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

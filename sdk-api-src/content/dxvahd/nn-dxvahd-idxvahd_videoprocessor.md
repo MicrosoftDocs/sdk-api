@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXVAHD_VideoProcessor, IDXVAHD_VideoProcessor interface [Media Foundation], IDXVAHD_VideoProcessor interface [Media Foundation],described, dxvahd/IDXVAHD_VideoProcessor, mf.idxvahd_videoprocessor
 ms.topic: interface
-f1_keywords: ["dxvahd/IDXVAHD_VideoProcessor"]
+f1_keywords: 
+ - "dxvahd/IDXVAHD_VideoProcessor"
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

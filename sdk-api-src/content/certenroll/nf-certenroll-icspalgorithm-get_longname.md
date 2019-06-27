@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICspAlgorithm interface [Security],LongName property, ICspAlgorithm.LongName, ICspAlgorithm.get_LongName, ICspAlgorithm::LongName, ICspAlgorithm::get_LongName, LongName property [Security], LongName property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::LongName, certenroll/ICspAlgorithm::get_LongName, get_LongName, security.icspalgorithm_longname_property
 ms.topic: method
-f1_keywords: ["certenroll/ICspAlgorithm.LongName"]
+f1_keywords: 
+ - "certenroll/ICspAlgorithm.LongName"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

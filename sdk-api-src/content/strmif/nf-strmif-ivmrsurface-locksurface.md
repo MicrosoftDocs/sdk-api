@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRSurface interface [DirectShow],LockSurface method, IVMRSurface.LockSurface, IVMRSurface::LockSurface, IVMRSurfaceLockSurface, LockSurface, LockSurface method [DirectShow], LockSurface method [DirectShow],IVMRSurface interface, dshow.ivmrsurface_locksurface, strmif/IVMRSurface::LockSurface
 ms.topic: method
-f1_keywords: ["strmif/IVMRSurface.LockSurface"]
+f1_keywords: 
+ - "strmif/IVMRSurface.LockSurface"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

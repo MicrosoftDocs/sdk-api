@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetworkListManager interface [Network Awareness],get_IsConnected method, INetworkListManager.get_IsConnected, INetworkListManager::get_IsConnected, get_IsConnected, get_IsConnected method [Network Awareness], get_IsConnected method [Network Awareness],INetworkListManager interface, netlistmgr/INetworkListManager::get_IsConnected, nla.inetworklistmanager_get_isconnected
 ms.topic: method
-f1_keywords: ["netlistmgr/INetworkListManager.get_IsConnected"]
+f1_keywords: 
+ - "netlistmgr/INetworkListManager.get_IsConnected"
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

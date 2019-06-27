@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumMcastScope interface [TAPI 2.2],Reset method, IEnumMcastScope.Reset, IEnumMcastScope::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumMcastScope interface, _tapi3_ienummcastscope_reset, mdhcp/IEnumMcastScope::Reset, tapi3.ienummcastscope_reset
 ms.topic: method
-f1_keywords: ["mdhcp/IEnumMcastScope.Reset"]
+f1_keywords: 
+ - "mdhcp/IEnumMcastScope.Reset"
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

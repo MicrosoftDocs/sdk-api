@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSFormatForDisplayAlloc, PSFormatForDisplayAlloc function [Windows Properties], properties.PSFormatForDisplayAlloc, propsys/PSFormatForDisplayAlloc, shell.PSFormatForDisplayAlloc, shell_PSFormatForDisplayAlloc
 ms.topic: function
-f1_keywords: ["propsys/PSFormatForDisplayAlloc"]
+f1_keywords: 
+ - "propsys/PSFormatForDisplayAlloc"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

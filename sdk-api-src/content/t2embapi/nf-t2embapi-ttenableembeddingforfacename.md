@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TTEnableEmbeddingForFacename, TTEnableEmbeddingForFacename function [Windows GDI], _win32_TTEnableEmbeddingForFacename, gdi.ttenableembeddingforfacename, t2embapi/TTEnableEmbeddingForFacename
 ms.topic: function
-f1_keywords: ["t2embapi/TTEnableEmbeddingForFacename"]
+f1_keywords: 
+ - "t2embapi/TTEnableEmbeddingForFacename"
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows

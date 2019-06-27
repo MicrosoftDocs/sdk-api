@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxGetPalette method, ITextHost2.TxGetPalette, ITextHost2::TxGetPalette, TxGetPalette, TxGetPalette method [Windows Controls], TxGetPalette method [Windows Controls],ITextHost2 interface, controls.itexthost2_txgetpalette, textserv/ITextHost2::TxGetPalette
 ms.topic: method
-f1_keywords: ["textserv/ITextHost2.TxGetPalette"]
+f1_keywords: 
+ - "textserv/ITextHost2.TxGetPalette"
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

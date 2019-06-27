@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAvailableMonitors, GetAvailableMonitors method [DirectShow], GetAvailableMonitors method [DirectShow],IVMRMonitorConfig interface, IVMRMonitorConfig interface [DirectShow],GetAvailableMonitors method, IVMRMonitorConfig.GetAvailableMonitors, IVMRMonitorConfig::GetAvailableMonitors, IVMRMonitorConfigGetAvailableMonitors, dshow.ivmrmonitorconfig_getavailablemonitors, strmif/IVMRMonitorConfig::GetAvailableMonitors
 ms.topic: method
-f1_keywords: ["strmif/IVMRMonitorConfig.GetAvailableMonitors"]
+f1_keywords: 
+ - "strmif/IVMRMonitorConfig.GetAvailableMonitors"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

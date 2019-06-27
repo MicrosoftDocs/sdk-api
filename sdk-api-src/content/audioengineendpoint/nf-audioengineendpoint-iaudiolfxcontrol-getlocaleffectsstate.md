@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLocalEffectsState, GetLocalEffectsState method [Core Audio], GetLocalEffectsState method [Core Audio],IAudioLfxControl interface, IAudioLfxControl interface [Core Audio],GetLocalEffectsState method, IAudioLfxControl.GetLocalEffectsState, IAudioLfxControl::GetLocalEffectsState, audioengineendpoint/IAudioLfxControl::GetLocalEffectsState, coreaudio.iaudiolfxcontrol_getlocaleffectsstate
 ms.topic: method
-f1_keywords: ["audioengineendpoint/IAudioLfxControl.GetLocalEffectsState"]
+f1_keywords: 
+ - "audioengineendpoint/IAudioLfxControl.GetLocalEffectsState"
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

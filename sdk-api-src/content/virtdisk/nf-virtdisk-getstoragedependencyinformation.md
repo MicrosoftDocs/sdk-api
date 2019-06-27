@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStorageDependencyInformation, GetStorageDependencyInformation function [VHD], vdssys/GetStorageDependencyInformation, vhd.getstoragedependencyinformation, virtdisk/GetStorageDependencyInformation
 ms.topic: function
-f1_keywords: ["virtdisk/GetStorageDependencyInformation"]
+f1_keywords: 
+ - "virtdisk/GetStorageDependencyInformation"
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

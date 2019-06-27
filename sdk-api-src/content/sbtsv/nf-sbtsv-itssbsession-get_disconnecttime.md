@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisconnectTime property [Remote Desktop Services], DisconnectTime property [Remote Desktop Services],ITsSbSession interface, ITsSbSession interface [Remote Desktop Services],DisconnectTime property, ITsSbSession.DisconnectTime, ITsSbSession.get_DisconnectTime, ITsSbSession::DisconnectTime, ITsSbSession::get_DisconnectTime, ITsSbSession::put_DisconnectTime, get_DisconnectTime, sbtsv/ITsSbSession::DisconnectTime, sbtsv/ITsSbSession::get_DisconnectTime, sbtsv/ITsSbSession::put_DisconnectTime, termserv.itssbsession_disconnecttime
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbSession.DisconnectTime"]
+f1_keywords: 
+ - "sbtsv/ITsSbSession.DisconnectTime"
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
 req.target-type: Windows

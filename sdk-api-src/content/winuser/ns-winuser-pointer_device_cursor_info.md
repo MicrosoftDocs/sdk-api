@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: POINTER_DEVICE_CURSOR_INFO, POINTER_DEVICE_CURSOR_INFO structure, input_pointerdevice.pointer_device_cursor_info, tagPOINTER_DEVICE_CURSOR_INFO, unifiedinputstack.pointer_device_cursor_info, winuser/POINTER_DEVICE_CURSOR_INFO
 ms.topic: struct
-f1_keywords: ["winuser/POINTER_DEVICE_CURSOR_INFO"]
+f1_keywords: 
+ - "winuser/POINTER_DEVICE_CURSOR_INFO"
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

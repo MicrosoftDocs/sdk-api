@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IQueueCommand, IQueueCommand interface [DirectShow], IQueueCommand interface [DirectShow],described, IQueueCommandInterface, control/IQueueCommand, dshow.iqueuecommand
 ms.topic: interface
-f1_keywords: ["control/IQueueCommand"]
+f1_keywords: 
+ - "control/IQueueCommand"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

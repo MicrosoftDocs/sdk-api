@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedZoomLevel property [Windows Accessibility], CachedZoomLevel property [Windows Accessibility],IUIAutomationTransformPattern2 interface, IUIAutomationTransformPattern2 interface [Windows Accessibility],CachedZoomLevel property, IUIAutomationTransformPattern2.CachedZoomLevel, IUIAutomationTransformPattern2.get_CachedZoomLevel, IUIAutomationTransformPattern2::CachedZoomLevel, IUIAutomationTransformPattern2::get_CachedZoomLevel, get_CachedZoomLevel, uiautomationclient/IUIAutomationTransformPattern2::CachedZoomLevel, uiautomationclient/IUIAutomationTransformPattern2::get_CachedZoomLevel, winauto.uiauto_iuiautomationtransformpattern2_cachedzoomlevel
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTransformPattern2.CachedZoomLevel"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTransformPattern2.CachedZoomLevel"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

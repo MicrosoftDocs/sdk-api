@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemQualifierSet, IWbemQualifierSet interface [Windows Management Instrumentation], IWbemQualifierSet interface [Windows Management Instrumentation],described, _hmm_iwbemqualifierset, wbemcli/IWbemQualifierSet, wmi.iwbemqualifierset
 ms.topic: interface
-f1_keywords: ["wbemcli/IWbemQualifierSet"]
+f1_keywords: 
+ - "wbemcli/IWbemQualifierSet"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

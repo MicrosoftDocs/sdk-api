@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1GeometryRealization, ID2D1GeometryRealization interface [Direct2D], ID2D1GeometryRealization interface [Direct2D],described, d2d1_2/ID2D1GeometryRealization, direct2d.id2d1geometryrealization
 ms.topic: interface
-f1_keywords: ["d2d1_2/ID2D1GeometryRealization"]
+f1_keywords: 
+ - "d2d1_2/ID2D1GeometryRealization"
 req.header: d2d1_2.h
 req.include-header: 
 req.target-type: Windows

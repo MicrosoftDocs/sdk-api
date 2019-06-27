@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Windows Shell], Close method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],Close method, IFileDialog.Close, IFileDialog::Close, shell.IFileDialog_Close, shell_IFileDialog_Close, shobjidl_core/IFileDialog::Close
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileDialog.Close"]
+f1_keywords: 
+ - "shobjidl_core/IFileDialog.Close"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

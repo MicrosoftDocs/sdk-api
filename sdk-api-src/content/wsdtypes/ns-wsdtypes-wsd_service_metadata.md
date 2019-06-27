@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_SERVICE_METADATA, WSD_SERVICE_METADATA structure, ncd.wsd_service_metadata_struct, wsdtypes/WSD_SERVICE_METADATA
 ms.topic: struct
-f1_keywords: ["wsdtypes/WSD_SERVICE_METADATA"]
+f1_keywords: 
+ - "wsdtypes/WSD_SERVICE_METADATA"
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

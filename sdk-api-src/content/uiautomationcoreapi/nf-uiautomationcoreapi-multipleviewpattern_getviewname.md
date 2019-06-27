@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MultipleViewPattern_GetViewName, MultipleViewPattern_GetViewName function [Windows Accessibility], uiauto.uiauto_MultipleViewPattern_GetViewNameConPat, uiauto_MultipleViewPattern_GetViewNameConPat, uiautomationcoreapi/MultipleViewPattern_GetViewName, winauto.uiauto_MultipleViewPattern_GetViewNameConPat
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/MultipleViewPattern_GetViewName"]
+f1_keywords: 
+ - "uiautomationcoreapi/MultipleViewPattern_GetViewName"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

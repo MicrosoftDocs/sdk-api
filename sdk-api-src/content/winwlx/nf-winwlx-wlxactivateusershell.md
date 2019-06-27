@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlxActivateUserShell, WlxActivateUserShell function [Security], _gina_wlxactivateusershell, security.wlxactivateusershell, winwlx/WlxActivateUserShell
 ms.topic: function
-f1_keywords: ["winwlx/WlxActivateUserShell"]
+f1_keywords: 
+ - "winwlx/WlxActivateUserShell"
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHRegSetPath, SHRegSetPath function [Windows Shell], SHRegSetPathA, SHRegSetPathW, _win32_SHRegSetPath, shell.SHRegSetPath, shlwapi/SHRegSetPath, shlwapi/SHRegSetPathA, shlwapi/SHRegSetPathW
 ms.topic: function
-f1_keywords: ["shlwapi/SHRegSetPath"]
+f1_keywords: 
+ - "shlwapi/SHRegSetPath"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

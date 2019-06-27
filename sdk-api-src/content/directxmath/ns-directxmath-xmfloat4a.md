@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/20/2019
 ms.keywords: XMFLOAT4A
 ms.topic: language-reference
-f1_keywords: ["directxmath/XMFLOAT4A"]
+f1_keywords: 
+ - "directxmath/XMFLOAT4A"
 targetos: Windows
 product: Windows
 req.construct-type: structure

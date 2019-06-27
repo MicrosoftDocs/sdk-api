@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumConnectionPoints interface, IEnumConnectionPoints interface [COM],Clone method, IEnumConnectionPoints.Clone, IEnumConnectionPoints::Clone, _com_ienumconnectionpoints_clone, com.ienumconnectionpoints_clone, ocidl/IEnumConnectionPoints::Clone
 ms.topic: method
-f1_keywords: ["ocidl/IEnumConnectionPoints.Clone"]
+f1_keywords: 
+ - "ocidl/IEnumConnectionPoints.Clone"
 req.header: ocidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

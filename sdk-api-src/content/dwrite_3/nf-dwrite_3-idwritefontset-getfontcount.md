@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFontCount, GetFontCount method [Direct Write], GetFontCount method [Direct Write],IDWriteFontSet interface, IDWriteFontSet interface [Direct Write],GetFontCount method, IDWriteFontSet.GetFontCount, IDWriteFontSet::GetFontCount, directwrite.idwritefontset_getfontcount, dwrite_3/IDWriteFontSet::GetFontCount
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteFontSet.GetFontCount"]
+f1_keywords: 
+ - "dwrite_3/IDWriteFontSet.GetFontCount"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

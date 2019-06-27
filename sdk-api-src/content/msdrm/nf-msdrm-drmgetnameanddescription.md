@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMGetNameAndDescription, DRMGetNameAndDescription function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetNameAndDescription, rm.drmgetnameanddescription
 ms.topic: function
-f1_keywords: ["msdrm/DRMGetNameAndDescription"]
+f1_keywords: 
+ - "msdrm/DRMGetNameAndDescription"
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdeAbandonTransaction, DdeAbandonTransaction function [Data Exchange], _win32_DdeAbandonTransaction, _win32_ddeabandontransaction_cpp, dataxchg.ddeabandontransaction, ddeml/DdeAbandonTransaction, winui._win32_ddeabandontransaction
 ms.topic: function
-f1_keywords: ["ddeml/DdeAbandonTransaction"]
+f1_keywords: 
+ - "ddeml/DdeAbandonTransaction"
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

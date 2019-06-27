@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HandleEvent, HandleEvent method [Windows Shell], HandleEvent method [Windows Shell],IHWEventHandler interface, IHWEventHandler interface [Windows Shell],HandleEvent method, IHWEventHandler.HandleEvent, IHWEventHandler::HandleEvent, inet_IHWEventHandler_HandleEvent, shell.IHWEventHandler_HandleEvent, shobjidl/IHWEventHandler::HandleEvent
 ms.topic: method
-f1_keywords: ["shobjidl/IHWEventHandler.HandleEvent"]
+f1_keywords: 
+ - "shobjidl/IHWEventHandler.HandleEvent"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

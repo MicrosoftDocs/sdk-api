@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceUIWindow, IOleInPlaceUIWindow interface [COM], IOleInPlaceUIWindow interface [COM],described, _ole_ioleinplaceuiwindow, com.ioleinplaceuiwindow, oleidl/IOleInPlaceUIWindow
 ms.topic: interface
-f1_keywords: ["oleidl/IOleInPlaceUIWindow"]
+f1_keywords: 
+ - "oleidl/IOleInPlaceUIWindow"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

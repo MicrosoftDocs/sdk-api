@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],put_PostgapAlreadyInImage method, IDiscFormat2Data.put_PostgapAlreadyInImage, IDiscFormat2Data::put_PostgapAlreadyInImage, imapi.idiscformat2data_put_postgapalreadyinimage, imapi2/IDiscFormat2Data::put_PostgapAlreadyInImage, put_PostgapAlreadyInImage, put_PostgapAlreadyInImage method [IMAPI], put_PostgapAlreadyInImage method [IMAPI],IDiscFormat2Data interface
 ms.topic: method
-f1_keywords: ["imapi2/IDiscFormat2Data.put_PostgapAlreadyInImage"]
+f1_keywords: 
+ - "imapi2/IDiscFormat2Data.put_PostgapAlreadyInImage"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDeferredCommand interface [DirectShow],Postpone method, IDeferredCommand.Postpone, IDeferredCommand::Postpone, IDeferredCommandPostpone, Postpone, Postpone method [DirectShow], Postpone method [DirectShow],IDeferredCommand interface, control/IDeferredCommand::Postpone, dshow.ideferredcommand_postpone
 ms.topic: method
-f1_keywords: ["control/IDeferredCommand.Postpone"]
+f1_keywords: 
+ - "control/IDeferredCommand.Postpone"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDDSETSURFACESTATE, DDSETSURFACESTATE, DDSETSURFACESTATE structure [Display Devices], LPDDSETSURFACESTATE, LPDDSETSURFACESTATE structure pointer [Display Devices], ddkmapi/DDSETSURFACESTATE, ddkmapi/LPDDSETSURFACESTATE, ddstrcts_ddf8814f-d375-4b3c-93dc-0a77d12f3aab.xml, display.ddsetsurfacestate"
 ms.topic: struct
-f1_keywords: ["ddkmapi/DDSETSURFACESTATE"]
+f1_keywords: 
+ - "ddkmapi/DDSETSURFACESTATE"
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows

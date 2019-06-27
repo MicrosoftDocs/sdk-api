@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetErrorIndex, GetErrorIndex method [Text Services Framework], GetErrorIndex method [Text Services Framework],ITfReadingInformationUIElement interface, ITfReadingInformationUIElement interface [Text Services Framework],GetErrorIndex method, ITfReadingInformationUIElement.GetErrorIndex, ITfReadingInformationUIElement::GetErrorIndex, msctf/ITfReadingInformationUIElement::GetErrorIndex, tsf.iitfreadinginformationuielement_geterrorindex, tsf.itfreadinginformationuielement_geterrorindex
 ms.topic: method
-f1_keywords: ["msctf/ITfReadingInformationUIElement.GetErrorIndex"]
+f1_keywords: 
+ - "msctf/ITfReadingInformationUIElement.GetErrorIndex"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method [Text Services Framework], GetData method [Text Services Framework],ITfPropertyStore interface, ITfPropertyStore interface [Text Services Framework],GetData method, ITfPropertyStore.GetData, ITfPropertyStore::GetData, _tsf_itfpropertystore_getdata_ref, msctf/ITfPropertyStore::GetData, tsf.itfpropertystore_getdata
 ms.topic: method
-f1_keywords: ["msctf/ITfPropertyStore.GetData"]
+f1_keywords: 
+ - "msctf/ITfPropertyStore.GetData"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVENTLOG_FULL_INFO, GetEventLogInformation, GetEventLogInformation function, _win32_geteventloginformation, base.geteventloginformation, winbase/GetEventLogInformation
 ms.topic: function
-f1_keywords: ["winbase/GetEventLogInformation"]
+f1_keywords: 
+ - "winbase/GetEventLogInformation"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

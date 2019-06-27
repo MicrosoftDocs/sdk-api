@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPWIN32_STREAM_ID, BACKUP_ALTERNATE_DATA, BACKUP_DATA, BACKUP_EA_DATA, BACKUP_LINK, BACKUP_OBJECT_ID, BACKUP_PROPERTY_DATA, BACKUP_REPARSE_DATA, BACKUP_SECURITY_DATA, BACKUP_SPARSE_BLOCK, BACKUP_TXFS_DATA, LPWIN32_STREAM_ID, LPWIN32_STREAM_ID structure pointer [Backup], STREAM_CONTAINS_SECURITY, STREAM_MODIFIED_WHEN_READ, WIN32_STREAM_ID, WIN32_STREAM_ID structure [Backup], _WIN32_STREAM_ID, _win32_win32_stream_id_str, backup.win32_stream_id_str, base.win32_stream_id_str, winbase/LPWIN32_STREAM_ID, winbase/WIN32_STREAM_ID"
 ms.topic: struct
-f1_keywords: ["winbase/WIN32_STREAM_ID"]
+f1_keywords: 
+ - "winbase/WIN32_STREAM_ID"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

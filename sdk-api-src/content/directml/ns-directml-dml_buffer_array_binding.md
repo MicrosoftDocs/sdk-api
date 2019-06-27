@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DML_BUFFER_ARRAY_BINDING, DML_BUFFER_ARRAY_BINDING structure, direct3d12.dml_buffer_array_binding, directml/DML_BUFFER_ARRAY_BINDING
 ms.topic: struct
-f1_keywords: ["directml/DML_BUFFER_ARRAY_BINDING"]
+f1_keywords: 
+ - "directml/DML_BUFFER_ARRAY_BINDING"
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

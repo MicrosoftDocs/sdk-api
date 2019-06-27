@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICrmMonitorLogRecords, ICrmMonitorLogRecords interface [COM+], ICrmMonitorLogRecords interface [COM+],described, _dtc_ICrmMonitorLogRecords_Interface, comsvcs/ICrmMonitorLogRecords, cos.icrmmonitorlogrecords
 ms.topic: interface
-f1_keywords: ["comsvcs/ICrmMonitorLogRecords"]
+f1_keywords: 
+ - "comsvcs/ICrmMonitorLogRecords"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

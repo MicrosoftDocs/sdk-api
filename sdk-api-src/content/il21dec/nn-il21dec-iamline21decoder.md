@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMLine21Decoder, IAMLine21Decoder interface [DirectShow], IAMLine21Decoder interface [DirectShow],described, IAMLine21DecoderInterface, dshow.iamline21decoder, il21dec/IAMLine21Decoder
 ms.topic: interface
-f1_keywords: ["il21dec/IAMLine21Decoder"]
+f1_keywords: 
+ - "il21dec/IAMLine21Decoder"
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows

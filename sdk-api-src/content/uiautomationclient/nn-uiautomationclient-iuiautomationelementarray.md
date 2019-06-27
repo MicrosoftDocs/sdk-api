@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationElementArray, IUIAutomationElementArray interface [Windows Accessibility], IUIAutomationElementArray interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationElementArray, uiauto_IUIAutomationElementArray, uiautomationclient/IUIAutomationElementArray, winauto.uiauto_IUIAutomationElementArray
 ms.topic: interface
-f1_keywords: ["uiautomationclient/IUIAutomationElementArray"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElementArray"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

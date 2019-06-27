@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSigningOptions, CreateSigningOptions method [XPS Documents and Packaging], CreateSigningOptions method [XPS Documents and Packaging],IXpsSignatureManager interface, IXpsSignatureManager interface [XPS Documents and Packaging],CreateSigningOptions method, IXpsSignatureManager.CreateSigningOptions, IXpsSignatureManager::CreateSigningOptions, xps.ixpssignaturemanager_createsigningoptions, xpsdigitalsignature/IXpsSignatureManager::CreateSigningOptions
 ms.topic: method
-f1_keywords: ["xpsdigitalsignature/IXpsSignatureManager.CreateSigningOptions"]
+f1_keywords: 
+ - "xpsdigitalsignature/IXpsSignatureManager.CreateSigningOptions"
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FILE_DEVICE_CHANGER, NTMS_CHANGERTYPEINFORMATION, NTMS_CHANGERTYPEINFORMATION structure [Files], NTMS_CHANGERTYPEINFORMATIONA, NTMS_CHANGERTYPEINFORMATIONW, _NTMS_CHANGERTYPEINFORMATIONA, _NTMS_CHANGERTYPEINFORMATIONW, _zaw_ntms_changertypeinformation, base.ntms_changertypeinformation, fs.ntms_changertypeinformation, ntmsapi/NTMS_CHANGERTYPEINFORMATION
 ms.topic: struct
-f1_keywords: ["ntmsapi/NTMS_CHANGERTYPEINFORMATION"]
+f1_keywords: 
+ - "ntmsapi/NTMS_CHANGERTYPEINFORMATION"
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

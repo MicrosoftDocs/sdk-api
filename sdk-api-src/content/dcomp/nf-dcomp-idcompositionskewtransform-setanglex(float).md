@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionSkewTransform interface [DirectComposition],SetAngleX method, IDCompositionSkewTransform.SetAngleX, IDCompositionSkewTransform.SetAngleX(float), IDCompositionSkewTransform::SetAngleX, IDCompositionSkewTransform::SetAngleX(float), SetAngleX, SetAngleX method [DirectComposition], SetAngleX method [DirectComposition],IDCompositionSkewTransform interface, dcomp/IDCompositionSkewTransform::SetAngleX, directcomp.idcompositionskewtransform_setanglex_float
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionSkewTransform.SetAngleX"]
+f1_keywords: 
+ - "dcomp/IDCompositionSkewTransform.SetAngleX"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCQPAGE, CQPAGE, CQPAGE structure [Active Directory], LPCQPAGE, LPCQPAGE structure pointer [Active Directory], _glines_cqpage, ad.cqpage, cmnquery/CQPAGE, cmnquery/LPCQPAGE"
 ms.topic: struct
-f1_keywords: ["cmnquery/CQPAGE"]
+f1_keywords: 
+ - "cmnquery/CQPAGE"
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

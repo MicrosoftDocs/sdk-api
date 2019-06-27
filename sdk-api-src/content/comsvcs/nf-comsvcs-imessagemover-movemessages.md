@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMessageMover interface [COM+],MoveMessages method, IMessageMover.MoveMessages, IMessageMover::MoveMessages, MoveMessages, MoveMessages method [COM+], MoveMessages method [COM+],IMessageMover interface, _cos_IMessageMover_MoveMessages, comsvcs/IMessageMover::MoveMessages, cos.imessagemover_movemessages
 ms.topic: method
-f1_keywords: ["comsvcs/IMessageMover.MoveMessages"]
+f1_keywords: 
+ - "comsvcs/IMessageMover.MoveMessages"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

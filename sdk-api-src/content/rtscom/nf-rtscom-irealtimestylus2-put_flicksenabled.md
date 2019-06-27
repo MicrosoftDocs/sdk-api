@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 50bc70aa-da25-4420-87c3-ffeb9950dd34, IRealTimeStylus2 interface [Tablet PC],put_FlicksEnabled method, IRealTimeStylus2.put_FlicksEnabled, IRealTimeStylus2::put_FlicksEnabled, put_FlicksEnabled, put_FlicksEnabled method [Tablet PC], put_FlicksEnabled method [Tablet PC],IRealTimeStylus2 interface, rtscom/IRealTimeStylus2::put_FlicksEnabled, tablet.irealtimestylus2_put_flicksenabled
 ms.topic: method
-f1_keywords: ["rtscom/IRealTimeStylus2.put_FlicksEnabled"]
+f1_keywords: 
+ - "rtscom/IRealTimeStylus2.put_FlicksEnabled"
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SaslEnumerateProfiles, SaslEnumerateProfiles function [Security], SaslEnumerateProfilesA, SaslEnumerateProfilesW, security.saslenumerateprofiles, sspi/SaslEnumerateProfiles, sspi/SaslEnumerateProfilesA, sspi/SaslEnumerateProfilesW
 ms.topic: function
-f1_keywords: ["sspi/SaslEnumerateProfiles"]
+f1_keywords: 
+ - "sspi/SaslEnumerateProfiles"
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

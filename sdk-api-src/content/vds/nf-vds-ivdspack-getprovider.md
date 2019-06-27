@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProvider, GetProvider method [VDS], GetProvider method [VDS],IVdsPack interface, IVdsPack interface [VDS],GetProvider method, IVdsPack.GetProvider, IVdsPack::GetProvider, base.ivdspack_getprovider, vds/IVdsPack::GetProvider
 ms.topic: method
-f1_keywords: ["vds/IVdsPack.GetProvider"]
+f1_keywords: 
+ - "vds/IVdsPack.GetProvider"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

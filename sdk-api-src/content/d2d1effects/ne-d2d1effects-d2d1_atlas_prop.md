@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_ATLAS_PROP, D2D1_ATLAS_PROP enumeration [Direct2D], D2D1_ATLAS_PROP_INPUT_PADDING_RECT, D2D1_ATLAS_PROP_INPUT_RECT, d2d1effects/D2D1_ATLAS_PROP, d2d1effects/D2D1_ATLAS_PROP_INPUT_PADDING_RECT, d2d1effects/D2D1_ATLAS_PROP_INPUT_RECT, direct2d.d2d1_atlas_prop
 ms.topic: enum
-f1_keywords: ["d2d1effects/D2D1_ATLAS_PROP"]
+f1_keywords: 
+ - "d2d1effects/D2D1_ATLAS_PROP"
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows

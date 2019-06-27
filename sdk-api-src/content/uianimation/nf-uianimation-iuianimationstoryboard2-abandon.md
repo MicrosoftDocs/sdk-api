@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Abandon, Abandon method [Windows Animation], Abandon method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],Abandon method, IUIAnimationStoryboard2.Abandon, IUIAnimationStoryboard2::Abandon, uianimation.iuianimationstoryboard2_abandon, uianimation/IUIAnimationStoryboard2::Abandon
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationStoryboard2.Abandon"]
+f1_keywords: 
+ - "uianimation/IUIAnimationStoryboard2.Abandon"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

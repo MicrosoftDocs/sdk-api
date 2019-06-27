@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Dhcpv6CApiInitialize, Dhcpv6CApiInitialize function [DHCP], dhcp.dhcpv6capiinitialize, dhcpv6csdk/Dhcpv6CApiInitialize
 ms.topic: function
-f1_keywords: ["dhcpv6csdk/Dhcpv6CApiInitialize"]
+f1_keywords: 
+ - "dhcpv6csdk/Dhcpv6CApiInitialize"
 req.header: dhcpv6csdk.h
 req.include-header: 
 req.target-type: Windows

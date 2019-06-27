@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_OverallCallRate method, ITAgent.get_OverallCallRate, ITAgent::get_OverallCallRate, _tapi3_itagent_get_overallcallrate, get_OverallCallRate, get_OverallCallRate method [TAPI 2.2], get_OverallCallRate method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_overallcallrate, tapi3cc/ITAgent::get_OverallCallRate
 ms.topic: method
-f1_keywords: ["tapi3cc/ITAgent.get_OverallCallRate"]
+f1_keywords: 
+ - "tapi3cc/ITAgent.get_OverallCallRate"
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

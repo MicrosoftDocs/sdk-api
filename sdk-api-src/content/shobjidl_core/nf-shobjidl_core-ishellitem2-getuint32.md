@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUInt32, GetUInt32 method [Windows Shell], GetUInt32 method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetUInt32 method, IShellItem2.GetUInt32, IShellItem2::GetUInt32, _shell_IShellItem2_GetUInt32, shell.IShellItem2_GetUInt32, shobjidl_core/IShellItem2::GetUInt32
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellItem2.GetUInt32"]
+f1_keywords: 
+ - "shobjidl_core/IShellItem2.GetUInt32"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

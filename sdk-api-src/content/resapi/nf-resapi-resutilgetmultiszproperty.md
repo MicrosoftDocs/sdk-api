@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_MULTI_SZ_PROPERTY, PRESUTIL_GET_MULTI_SZ_PROPERTY function [Failover Cluster], ResUtilGetMultiSzProperty, ResUtilGetMultiSzProperty function [Failover Cluster], _wolf_resutilgetmultiszproperty, mscs.resutilgetmultiszproperty, resapi/PRESUTIL_GET_MULTI_SZ_PROPERTY, resapi/ResUtilGetMultiSzProperty
 ms.topic: function
-f1_keywords: ["resapi/ResUtilGetMultiSzProperty"]
+f1_keywords: 
+ - "resapi/ResUtilGetMultiSzProperty"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

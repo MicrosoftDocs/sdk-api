@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FileSize property [Windows Deployment Services], FileSize property [Windows Deployment Services],IWdsTransportTftpClient interface, IWdsTransportTftpClient interface [Windows Deployment Services],FileSize property, IWdsTransportTftpClient.FileSize, IWdsTransportTftpClient.get_FileSize, IWdsTransportTftpClient::FileSize, IWdsTransportTftpClient::get_FileSize, get_FileSize, wds.iwdstransporttftpclient_filesize, wdstptmgmt/IWdsTransportTftpClient::FileSize, wdstptmgmt/IWdsTransportTftpClient::get_FileSize
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportTftpClient.FileSize"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportTftpClient.FileSize"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

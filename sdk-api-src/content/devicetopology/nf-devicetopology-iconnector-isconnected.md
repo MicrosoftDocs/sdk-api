@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConnector interface [Core Audio],IsConnected method, IConnector.IsConnected, IConnector::IsConnected, IConnectorIsConnected, IsConnected, IsConnected method [Core Audio], IsConnected method [Core Audio],IConnector interface, coreaudio.iconnector_isconnected, devicetopology/IConnector::IsConnected
 ms.topic: method
-f1_keywords: ["devicetopology/IConnector.IsConnected"]
+f1_keywords: 
+ - "devicetopology/IConnector.IsConnected"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

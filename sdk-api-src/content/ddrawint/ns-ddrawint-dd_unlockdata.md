@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_UNLOCKDATA, DD_UNLOCKDATA, DD_UNLOCKDATA structure [Display Devices], ddrawint/DD_UNLOCKDATA, ddstrcts_1784fe3c-5a41-4428-ac94-06226857ae9a.xml, display.dd_unlockdata"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_UNLOCKDATA"]
+f1_keywords: 
+ - "ddrawint/DD_UNLOCKDATA"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

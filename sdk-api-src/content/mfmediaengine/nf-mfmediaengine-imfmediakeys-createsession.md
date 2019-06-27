@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSession, CreateSession method [Media Foundation], CreateSession method [Media Foundation],IMFMediaKeys interface, IMFMediaKeys interface [Media Foundation],CreateSession method, IMFMediaKeys.CreateSession, IMFMediaKeys::CreateSession, mf.imfmediakeys_createsession, mfmediaengine/IMFMediaKeys::CreateSession
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaKeys.CreateSession"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaKeys.CreateSession"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PAM_DVDCOPY_BUSKEY, AM_DVDCOPY_BUSKEY, AM_DVDCOPY_BUSKEY structure [DirectShow], PAM_DVDCOPY_BUSKEY, PAM_DVDCOPY_BUSKEY structure pointer [DirectShow], dshow.am_dvdcopy_buskey, dvdmedia/AM_DVDCOPY_BUSKEY, dvdmedia/PAM_DVDCOPY_BUSKEY"
 ms.topic: struct
-f1_keywords: ["dvdmedia/AM_DVDCOPY_BUSKEY"]
+f1_keywords: 
+ - "dvdmedia/AM_DVDCOPY_BUSKEY"
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows

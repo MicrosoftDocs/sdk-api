@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],SizeAllocated property, IFsrmPropertyBag.SizeAllocated, IFsrmPropertyBag.get_SizeAllocated, IFsrmPropertyBag::SizeAllocated, IFsrmPropertyBag::get_SizeAllocated, SizeAllocated property [File Server Resource Manager], SizeAllocated property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_sizeallocated, fsrm.ifsrmpropertybag_sizeallocated, fsrmpipeline/IFsrmPropertyBag::SizeAllocated, fsrmpipeline/IFsrmPropertyBag::get_SizeAllocated, get_SizeAllocated
 ms.topic: method
-f1_keywords: ["fsrmpipeline/IFsrmPropertyBag.SizeAllocated"]
+f1_keywords: 
+ - "fsrmpipeline/IFsrmPropertyBag.SizeAllocated"
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

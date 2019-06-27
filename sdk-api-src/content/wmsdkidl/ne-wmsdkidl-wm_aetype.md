@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WM_AETYPE, WM_AETYPE enumeration [windows Media Format], WM_AETYPE_EXCLUDE, WM_AETYPE_INCLUDE, wmformat.wm_aetype, wmsdkidl/WM_AETYPE, wmsdkidl/WM_AETYPE_EXCLUDE, wmsdkidl/WM_AETYPE_INCLUDE
 ms.topic: enum
-f1_keywords: ["wmsdkidl/WM_AETYPE"]
+f1_keywords: 
+ - "wmsdkidl/WM_AETYPE"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

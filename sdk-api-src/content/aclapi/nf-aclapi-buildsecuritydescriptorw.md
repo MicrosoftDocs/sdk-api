@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BuildSecurityDescriptor, BuildSecurityDescriptor function [Security], BuildSecurityDescriptorA, BuildSecurityDescriptorW, _win32_buildsecuritydescriptor, aclapi/BuildSecurityDescriptor, aclapi/BuildSecurityDescriptorA, aclapi/BuildSecurityDescriptorW, security.buildsecuritydescriptor
 ms.topic: function
-f1_keywords: ["aclapi/BuildSecurityDescriptor"]
+f1_keywords: 
+ - "aclapi/BuildSecurityDescriptor"
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

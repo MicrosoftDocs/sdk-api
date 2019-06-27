@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IViewExtensionCallback, IViewExtensionCallback interface [MMC], IViewExtensionCallback interface [MMC],described, _slate_iviewextensioncallback, mmc.iviewextensioncallback, mmc/IViewExtensionCallback
 ms.topic: interface
-f1_keywords: ["mmc/IViewExtensionCallback"]
+f1_keywords: 
+ - "mmc/IViewExtensionCallback"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

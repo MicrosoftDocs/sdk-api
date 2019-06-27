@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIGetFromClipboard, AVIGetFromClipboard function [Windows Multimedia], _win32_AVIGetFromClipboard, multimedia.avigetfromclipboard, vfw/AVIGetFromClipboard
 ms.topic: function
-f1_keywords: ["vfw/AVIGetFromClipboard"]
+f1_keywords: 
+ - "vfw/AVIGetFromClipboard"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

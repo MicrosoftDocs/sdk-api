@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TF_CreateCategoryMgr, TF_CreateCategoryMgr function [Text Services Framework], msctf/TF_CreateCategoryMgr, tsf.tf_createcategorymgr
 ms.topic: function
-f1_keywords: ["msctf/TF_CreateCategoryMgr"]
+f1_keywords: 
+ - "msctf/TF_CreateCategoryMgr"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

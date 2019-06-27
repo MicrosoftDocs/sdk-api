@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2, CLUSTER_CHANGE_SPACEPORT_V2, CLUSTER_CHANGE_SPACEPORT_V2 enumeration [Failover Cluster], clusapi/CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2, clusapi/CLUSTER_CHANGE_SPACEPORT_V2, msclus/CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2, msclus/CLUSTER_CHANGE_SPACEPORT_V2, mscs.cluster_change_spaceport_v2
 ms.topic: enum
-f1_keywords: ["clusapi/CLUSTER_CHANGE_SPACEPORT_V2"]
+f1_keywords: 
+ - "clusapi/CLUSTER_CHANGE_SPACEPORT_V2"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

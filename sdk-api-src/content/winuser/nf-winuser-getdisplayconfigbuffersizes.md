@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCD_Functions_0d604cd6-222b-4e6e-a8aa-60866d3f3ef6.xml, GetDisplayConfigBufferSizes, GetDisplayConfigBufferSizes function [Display Devices], display.getdisplayconfigbuffersizes, winuser/GetDisplayConfigBufferSizes
 ms.topic: function
-f1_keywords: ["winuser/GetDisplayConfigBufferSizes"]
+f1_keywords: 
+ - "winuser/GetDisplayConfigBufferSizes"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Universal

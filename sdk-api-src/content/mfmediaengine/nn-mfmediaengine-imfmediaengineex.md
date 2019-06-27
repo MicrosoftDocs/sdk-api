@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], IMFMediaEngineEx interface [Media Foundation],described, mf.imfmediaengineex, mfmediaengine/IMFMediaEngineEx
 ms.topic: interface
-f1_keywords: ["mfmediaengine/IMFMediaEngineEx"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngineEx"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

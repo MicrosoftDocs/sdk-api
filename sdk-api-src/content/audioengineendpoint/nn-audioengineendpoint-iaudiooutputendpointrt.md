@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioOutputEndpointRT, IAudioOutputEndpointRT interface [Remote Desktop Services], IAudioOutputEndpointRT interface [Remote Desktop Services],described, audioengineendpoint/IAudioOutputEndpointRT, termserv.iaudiooutputendpointrt
 ms.topic: interface
-f1_keywords: ["audioengineendpoint/IAudioOutputEndpointRT"]
+f1_keywords: 
+ - "audioengineendpoint/IAudioOutputEndpointRT"
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

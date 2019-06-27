@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsGetDcClose, DsGetDcClose function [Active Directory], DsGetDcCloseW, ad.dsgetdcclose, dsgetdc/DsGetDcClose, dsgetdc/DsGetDcCloseW
 ms.topic: function
-f1_keywords: ["dsgetdc/DsGetDcClose"]
+f1_keywords: 
+ - "dsgetdc/DsGetDcClose"
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows

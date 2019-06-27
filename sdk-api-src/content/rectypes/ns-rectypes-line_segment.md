@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LINE_SEGMENT, LINE_SEGMENT structure [Tablet PC], e9d4079d-28d2-4975-a33f-1f4ec5175c36, rectypes/LINE_SEGMENT, tablet.line_segment
 ms.topic: struct
-f1_keywords: ["rectypes/LINE_SEGMENT"]
+f1_keywords: 
+ - "rectypes/LINE_SEGMENT"
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows

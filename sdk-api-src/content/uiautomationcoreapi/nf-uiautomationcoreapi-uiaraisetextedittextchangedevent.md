@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaRaiseTextEditTextChangedEvent, UiaRaiseTextEditTextChangedEvent function [Windows Accessibility], uiautomationcoreapi/UiaRaiseTextEditTextChangedEvent, winauto.uiauto_UiaRaiseTextEditTextChangedEventFunction
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/UiaRaiseTextEditTextChangedEvent"]
+f1_keywords: 
+ - "uiautomationcoreapi/UiaRaiseTextEditTextChangedEvent"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

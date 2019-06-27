@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStaticPortMapping interface [ICS/ICF],get_InternalPort method, IStaticPortMapping.get_InternalPort, IStaticPortMapping::get_InternalPort, _ics_istaticportmapping_get_internalport, get_InternalPort, get_InternalPort method [ICS/ICF], get_InternalPort method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_internalport, natupnp/IStaticPortMapping::get_InternalPort
 ms.topic: method
-f1_keywords: ["natupnp/IStaticPortMapping.get_InternalPort"]
+f1_keywords: 
+ - "natupnp/IStaticPortMapping.get_InternalPort"
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

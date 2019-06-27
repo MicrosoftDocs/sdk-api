@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetKerningPairs, GetKerningPairs function [Windows GDI], GetKerningPairsA, GetKerningPairsW, _win32_GetKerningPairs, gdi.getkerningpairs, wingdi/GetKerningPairs, wingdi/GetKerningPairsA, wingdi/GetKerningPairsW
 ms.topic: function
-f1_keywords: ["wingdi/GetKerningPairs"]
+f1_keywords: 
+ - "wingdi/GetKerningPairs"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

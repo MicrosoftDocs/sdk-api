@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDServiceMessaging, IWSDServiceMessaging interface, IWSDServiceMessaging interface,described, ncd.iwsdservicemessaging, wsdhost/IWSDServiceMessaging
 ms.topic: interface
-f1_keywords: ["wsdhost/IWSDServiceMessaging"]
+f1_keywords: 
+ - "wsdhost/IWSDServiceMessaging"
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

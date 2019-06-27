@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectSink, IWbemObjectSink interface [Windows Management Instrumentation], IWbemObjectSink interface [Windows Management Instrumentation],described, _hmm_iwbemobjectsink, wbemcli/IWbemObjectSink, wmi.iwbemobjectsink
 ms.topic: interface
-f1_keywords: ["wbemcli/IWbemObjectSink"]
+f1_keywords: 
+ - "wbemcli/IWbemObjectSink"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

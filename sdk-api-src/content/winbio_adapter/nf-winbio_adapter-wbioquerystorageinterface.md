@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WbioQueryStorageInterface, WbioQueryStorageInterface function [Windows Biometric Framework API], secbiomet.wbioquerystorageinterface, winbio_adapter/WbioQueryStorageInterface
 ms.topic: function
-f1_keywords: ["winbio_adapter/WbioQueryStorageInterface"]
+f1_keywords: 
+ - "winbio_adapter/WbioQueryStorageInterface"
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

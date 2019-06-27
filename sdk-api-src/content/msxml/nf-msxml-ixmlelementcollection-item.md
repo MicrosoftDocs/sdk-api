@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXMLElementCollection interface [Windows API],item method, IXMLElementCollection.item, IXMLElementCollection::item, item, item method [Windows API], item method [Windows API],IXMLElementCollection interface, msxml/IXMLElementCollection::item, winprog.ixmlelementcollection_item
 ms.topic: method
-f1_keywords: ["msxml/IXMLElementCollection.item"]
+f1_keywords: 
+ - "msxml/IXMLElementCollection.item"
 req.header: msxml.h
 req.include-header: 
 req.target-type: Windows

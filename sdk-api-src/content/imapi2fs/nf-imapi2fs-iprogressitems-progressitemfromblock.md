@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProgressItems interface [IMAPI],ProgressItemFromBlock method, IProgressItems.ProgressItemFromBlock, IProgressItems::ProgressItemFromBlock, ProgressItemFromBlock, ProgressItemFromBlock method [IMAPI], ProgressItemFromBlock method [IMAPI],IProgressItems interface, imapi.iprogressitems_progressitemfromblock, imapi2fs/IProgressItems::ProgressItemFromBlock
 ms.topic: method
-f1_keywords: ["imapi2fs/IProgressItems.ProgressItemFromBlock"]
+f1_keywords: 
+ - "imapi2fs/IProgressItems.ProgressItemFromBlock"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetClearAllPerSiteCookieDecisions, InternetClearAllPerSiteCookieDecisions function [WinINet], wininet.internetclearallpersitecookiedecisions, wininet/InternetClearAllPerSiteCookieDecisions
 ms.topic: function
-f1_keywords: ["wininet/InternetClearAllPerSiteCookieDecisions"]
+f1_keywords: 
+ - "wininet/InternetClearAllPerSiteCookieDecisions"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TdhAggregatePayloadFilters, TdhAggregatePayloadFilters function [ETW], etw.tdhaggregatepayloadfilters, tdh/TdhAggregatePayloadFilters
 ms.topic: function
-f1_keywords: ["tdh/TdhAggregatePayloadFilters"]
+f1_keywords: 
+ - "tdh/TdhAggregatePayloadFilters"
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

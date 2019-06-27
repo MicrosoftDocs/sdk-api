@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXGI_OUTDUPL_DESC, DXGI_OUTDUPL_DESC structure [DXGI], direct3ddxgi.dxgi_outdupl_desc, dxgi1_2/DXGI_OUTDUPL_DESC
 ms.topic: struct
-f1_keywords: ["dxgi1_2/DXGI_OUTDUPL_DESC"]
+f1_keywords: 
+ - "dxgi1_2/DXGI_OUTDUPL_DESC"
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

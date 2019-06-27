@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CanMaximize property [Windows Accessibility], CanMaximize property [Windows Accessibility],IWindowProvider interface, IWindowProvider interface [Windows Accessibility],CanMaximize property, IWindowProvider.CanMaximize, IWindowProvider.get_CanMaximize, IWindowProvider::CanMaximize, IWindowProvider::get_CanMaximize, get_CanMaximize, uiauto.uiauto_IWindowProvider_CanMaximize, uiauto_IWindowProvider_CanMaximize, uiautomationcore/IWindowProvider::CanMaximize, uiautomationcore/IWindowProvider::get_CanMaximize, winauto.uiauto_IWindowProvider_CanMaximize
 ms.topic: method
-f1_keywords: ["uiautomationcore/IWindowProvider.CanMaximize"]
+f1_keywords: 
+ - "uiautomationcore/IWindowProvider.CanMaximize"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

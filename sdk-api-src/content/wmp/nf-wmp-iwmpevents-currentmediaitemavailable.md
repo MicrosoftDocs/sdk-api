@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentMediaItemAvailable, CurrentMediaItemAvailable method [Windows Media Player], CurrentMediaItemAvailable method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],CurrentMediaItemAvailable method, IWMPEvents.CurrentMediaItemAvailable, IWMPEvents::CurrentMediaItemAvailable, IWMPEventsCurrentMediaItemAvailable, wmp.iwmpevents_iwmpevents__currentmediaitemavailable, wmp/IWMPEvents::CurrentMediaItemAvailable
 ms.topic: method
-f1_keywords: ["wmp/IWMPEvents.CurrentMediaItemAvailable"]
+f1_keywords: 
+ - "wmp/IWMPEvents.CurrentMediaItemAvailable"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITransportStreamBuffer, IRDPSRAPITransportStreamBuffer interface [RDP], IRDPSRAPITransportStreamBuffer interface [RDP],described, rdp.irdpsrapitransportstreambuffer, rdpencomapi/IRDPSRAPITransportStreamBuffer
 ms.topic: interface
-f1_keywords: ["rdpencomapi/IRDPSRAPITransportStreamBuffer"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPITransportStreamBuffer"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

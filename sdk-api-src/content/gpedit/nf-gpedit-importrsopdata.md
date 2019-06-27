@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImportRSoPData, ImportRSoPData function [Group Policy], _win32_importrsopdata, gpedit/ImportRSoPData, policy.importrsopdata
 ms.topic: function
-f1_keywords: ["gpedit/ImportRSoPData"]
+f1_keywords: 
+ - "gpedit/ImportRSoPData"
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

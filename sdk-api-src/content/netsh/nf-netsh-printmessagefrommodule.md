@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PrintMessageFromModule, PrintMessageFromModule function [NetShell], _netsh_printmessagefrommodule, netsh/PrintMessageFromModule, netshell.printmessagefrommodule
 ms.topic: function
-f1_keywords: ["netsh/PrintMessageFromModule"]
+f1_keywords: 
+ - "netsh/PrintMessageFromModule"
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

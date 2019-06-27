@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_SETENTRIESDATA, DD_SETENTRIESDATA, DD_SETENTRIESDATA structure [Display Devices], ddrawint/DD_SETENTRIESDATA, ddstrcts_dc575bf2-1249-4d66-aba9-aba1856358df.xml, display.dd_setentriesdata"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_SETENTRIESDATA"]
+f1_keywords: 
+ - "ddrawint/DD_SETENTRIESDATA"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

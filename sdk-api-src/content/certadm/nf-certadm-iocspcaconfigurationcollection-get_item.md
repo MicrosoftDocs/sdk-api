@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCSPCAConfigurationCollection interface [Security],Item property, IOCSPCAConfigurationCollection.Item, IOCSPCAConfigurationCollection.get_Item, IOCSPCAConfigurationCollection::Item, IOCSPCAConfigurationCollection::get_Item, Item property [Security], Item property [Security],IOCSPCAConfigurationCollection interface, certadm/IOCSPCAConfigurationCollection::Item, certadm/IOCSPCAConfigurationCollection::get_Item, get_Item, security.iocspcaconfigurationcollection_item_method
 ms.topic: method
-f1_keywords: ["certadm/IOCSPCAConfigurationCollection.Item"]
+f1_keywords: 
+ - "certadm/IOCSPCAConfigurationCollection.Item"
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

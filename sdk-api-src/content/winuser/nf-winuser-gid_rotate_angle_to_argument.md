@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GID_ROTATE_ANGLE_TO_ARGUMENT, GID_ROTATE_ANGLE_TO_ARGUMENT macro [Windows Touch], wintouch.gci_rotate_angle_to_argument, winuser/GID_ROTATE_ANGLE_TO_ARGUMENT
 ms.topic: macro
-f1_keywords: ["winuser/GID_ROTATE_ANGLE_TO_ARGUMENT"]
+f1_keywords: 
+ - "winuser/GID_ROTATE_ANGLE_TO_ARGUMENT"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

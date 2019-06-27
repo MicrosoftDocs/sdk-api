@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILayoutStorage interface [Structured Storage],ReLayoutDocfileOnILockBytes method, ILayoutStorage.ReLayoutDocfileOnILockBytes, ILayoutStorage::ReLayoutDocfileOnILockBytes, ReLayoutDocfileOnILockBytes, ReLayoutDocfileOnILockBytes method [Structured Storage], ReLayoutDocfileOnILockBytes method [Structured Storage],ILayoutStorage interface, objidl/ILayoutStorage::ReLayoutDocfileOnILockBytes, stg.ilayoutstorage_relayoutdocfileonilockbytes
 ms.topic: method
-f1_keywords: ["objidl/ILayoutStorage.ReLayoutDocfileOnILockBytes"]
+f1_keywords: 
+ - "objidl/ILayoutStorage.ReLayoutDocfileOnILockBytes"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumPluggableTerminalClassInfo, IEnumPluggableTerminalClassInfo interface [TAPI 2.2], IEnumPluggableTerminalClassInfo interface [TAPI 2.2],described, _tapi3_ienumpluggableterminalclassinfo, tapi3.ienumpluggableterminalclassinfo, tapi3if/IEnumPluggableTerminalClassInfo
 ms.topic: interface
-f1_keywords: ["tapi3if/IEnumPluggableTerminalClassInfo"]
+f1_keywords: 
+ - "tapi3if/IEnumPluggableTerminalClassInfo"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

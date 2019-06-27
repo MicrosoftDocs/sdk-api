@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AlgorithmFlags, AlgorithmFlags enumeration [Security], AlgorithmFlagsNone, AlgorithmFlagsWrap, certenroll/AlgorithmFlags, certenroll/AlgorithmFlagsNone, certenroll/AlgorithmFlagsWrap, security.algorithmflags_enum
 ms.topic: enum
-f1_keywords: ["certenroll/AlgorithmFlags"]
+f1_keywords: 
+ - "certenroll/AlgorithmFlags"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsInTransaction, IsInTransaction method [COM+], IsInTransaction method [COM+],ObjectContext interface, ObjectContext interface [COM+],IsInTransaction method, ObjectContext.IsInTransaction, ObjectContext::IsInTransaction, _cos_ObjectContext_IsInTransaction, comsvcs/ObjectContext::IsInTransaction, cos.objectcontext_isintransaction
 ms.topic: method
-f1_keywords: ["comsvcs/ObjectContext.IsInTransaction"]
+f1_keywords: 
+ - "comsvcs/ObjectContext.IsInTransaction"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

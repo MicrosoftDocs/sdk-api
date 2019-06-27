@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Class_GetClassName, MI_Class_GetClassName function [Windows Management Infrastructure (MI)], mi/MI_Class_GetClassName, wmi_v2.mi_class_getclassname
 ms.topic: function
-f1_keywords: ["mi/MI_Class_GetClassName"]
+f1_keywords: 
+ - "mi/MI_Class_GetClassName"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

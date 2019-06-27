@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_CONTROLLER_NOTIFICATION, VDS_CONTROLLER_NOTIFICATION structure [VDS], VDS_NF_CONTROLLER_ARRIVE, VDS_NF_CONTROLLER_DEPART, VDS_NF_CONTROLLER_MODIFY, VDS_NF_CONTROLLER_REMOVED, base.vds_controller_notification, vds/_VDS_CONTROLLER_NOTIFICATION, vdshwprv/_VDS_CONTROLLER_NOTIFICATION
 ms.topic: struct
-f1_keywords: ["vdshwprv/VDS_CONTROLLER_NOTIFICATION"]
+f1_keywords: 
+ - "vdshwprv/VDS_CONTROLLER_NOTIFICATION"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

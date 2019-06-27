@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSTORAGE_ADAPTER_DESCRIPTOR, PSTORAGE_ADAPTER_DESCRIPTOR, PSTORAGE_ADAPTER_DESCRIPTOR structure pointer [Files], SRB_TYPE_SCSI_REQUEST_BLOCK, SRB_TYPE_STORAGE_REQUEST_BLOCK, STORAGE_ADAPTER_DESCRIPTOR, STORAGE_ADAPTER_DESCRIPTOR structure [Files], STORAGE_ADDRESS_TYPE_BTL8, fs.storage_adapter_descriptor, winioctl/PSTORAGE_ADAPTER_DESCRIPTOR, winioctl/STORAGE_ADAPTER_DESCRIPTOR"
 ms.topic: struct
-f1_keywords: ["winioctl/STORAGE_ADAPTER_DESCRIPTOR"]
+f1_keywords: 
+ - "winioctl/STORAGE_ADAPTER_DESCRIPTOR"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 45d18e06-7ca3-6ff7-a95b-a56150c07b87, GetClassInstance, GetClassInstance method [Direct3D 11], GetClassInstance method [Direct3D 11],ID3D11ClassLinkage interface, ID3D11ClassLinkage interface [Direct3D 11],GetClassInstance method, ID3D11ClassLinkage.GetClassInstance, ID3D11ClassLinkage::GetClassInstance, d3d11/ID3D11ClassLinkage::GetClassInstance, direct3d11.id3d11classlinkage_getclassinstance
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11ClassLinkage.GetClassInstance"]
+f1_keywords: 
+ - "d3d11/ID3D11ClassLinkage.GetClassInstance"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

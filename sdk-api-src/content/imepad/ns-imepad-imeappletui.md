@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPIMEAPPLETUI, IMEAPPLETUI, IMEAPPLETUI structure [Internationalization for Windows Applications], PIMEAPPLETUI, PIMEAPPLETUI structure pointer [Internationalization for Windows Applications], imepad/IMEAPPLETUI, imepad/PIMEAPPLETUI, intl.imeappletui"
 ms.topic: struct
-f1_keywords: ["imepad/IMEAPPLETUI"]
+f1_keywords: 
+ - "imepad/IMEAPPLETUI"
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows

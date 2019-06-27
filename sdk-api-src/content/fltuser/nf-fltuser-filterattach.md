@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FilterAttach, FilterAttach function [Installable File System Drivers], FltWin32ApiRef_023a1285-b933-438f-b493-33e6c7d74e56.xml, fltuser/FilterAttach, ifsk.filterattach
 ms.topic: function
-f1_keywords: ["fltuser/FilterAttach"]
+f1_keywords: 
+ - "fltuser/FilterAttach"
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal

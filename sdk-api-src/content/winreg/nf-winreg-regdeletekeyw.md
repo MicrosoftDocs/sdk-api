@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegDeleteKey, RegDeleteKey function, RegDeleteKeyA, RegDeleteKeyW, _win32_regdeletekey, base.regdeletekey, winreg/RegDeleteKey, winreg/RegDeleteKeyA, winreg/RegDeleteKeyW
 ms.topic: function
-f1_keywords: ["winreg/RegDeleteKey"]
+f1_keywords: 
+ - "winreg/RegDeleteKey"
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

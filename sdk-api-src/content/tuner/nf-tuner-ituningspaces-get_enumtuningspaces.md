@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITuningSpaces interface [Microsoft TV Technologies],get_EnumTuningSpaces method, ITuningSpaces.get_EnumTuningSpaces, ITuningSpaces::get_EnumTuningSpaces, ITuningSpacesget_EnumTuningSpaces, get_EnumTuningSpaces, get_EnumTuningSpaces method [Microsoft TV Technologies], get_EnumTuningSpaces method [Microsoft TV Technologies],ITuningSpaces interface, mstv.ituningspaces_get_enumtuningspaces, tuner/ITuningSpaces::get_EnumTuningSpaces
 ms.topic: method
-f1_keywords: ["tuner/ITuningSpaces.get_EnumTuningSpaces"]
+f1_keywords: 
+ - "tuner/ITuningSpaces.get_EnumTuningSpaces"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

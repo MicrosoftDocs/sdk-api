@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MachineLearning.winml_tensor_variable_desc, PWINML_TENSOR_VARIABLE_DESC, PWINML_TENSOR_VARIABLE_DESC structure pointer, WINML_TENSOR_VARIABLE_DESC, WINML_TENSOR_VARIABLE_DESC structure, winml/PWINML_TENSOR_VARIABLE_DESC, winml/WINML_TENSOR_VARIABLE_DESC
 ms.topic: struct
-f1_keywords: ["winml/WINML_TENSOR_VARIABLE_DESC"]
+f1_keywords: 
+ - "winml/WINML_TENSOR_VARIABLE_DESC"
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

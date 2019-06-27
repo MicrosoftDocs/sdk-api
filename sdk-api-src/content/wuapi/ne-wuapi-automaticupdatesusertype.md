@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AutomaticUpdatesUserType, AutomaticUpdatesUserType enumeration [Windows Update Agent], auutCurrentUser, auutLocalAdministrator, wua.automaticupdatesusertype, wuapi/AutomaticUpdatesUserType, wuapi/auutCurrentUser, wuapi/auutLocalAdministrator
 ms.topic: enum
-f1_keywords: ["wuapi/AutomaticUpdatesUserType"]
+f1_keywords: 
+ - "wuapi/AutomaticUpdatesUserType"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

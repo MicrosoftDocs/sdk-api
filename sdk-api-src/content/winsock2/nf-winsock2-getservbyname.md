@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_getservbyname_2, getservbyname, getservbyname function [Winsock], winsock.getservbyname_2, winsock/getservbyname"
 ms.topic: function
-f1_keywords: ["winsock2/getservbyname"]
+f1_keywords: 
+ - "winsock2/getservbyname"
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDRT_REGISTRATION, DRT_REGISTRATION, DRT_REGISTRATION structure [Peer Networking], PDRT_REGISTRATION, PDRT_REGISTRATION structure pointer [Peer Networking], drt/DRT_REGISTRATION, drt/PDRT_REGISTRATION, p2p.drt_registration"
 ms.topic: struct
-f1_keywords: ["drt/DRT_REGISTRATION"]
+f1_keywords: 
+ - "drt/DRT_REGISTRATION"
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

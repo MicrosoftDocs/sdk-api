@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnableOpenDropDown, EnableOpenDropDown method [Windows Shell], EnableOpenDropDown method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],EnableOpenDropDown method, IFileDialogCustomize.EnableOpenDropDown, IFileDialogCustomize::EnableOpenDropDown, shell.IFileDialogCustomize_EnableOpenDropDown, shell_IFileDialogCustomize_EnableOpenDropDown, shobjidl_core/IFileDialogCustomize::EnableOpenDropDown
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileDialogCustomize.EnableOpenDropDown"]
+f1_keywords: 
+ - "shobjidl_core/IFileDialogCustomize.EnableOpenDropDown"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DoubleClick, DoubleClick method [Windows Media Player], DoubleClick method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],DoubleClick method, IWMPEvents.DoubleClick, IWMPEvents::DoubleClick, IWMPEventsDoubleClick, wmp.iwmpevents_iwmpevents__doubleclick, wmp/IWMPEvents::DoubleClick
 ms.topic: method
-f1_keywords: ["wmp/IWMPEvents.DoubleClick"]
+f1_keywords: 
+ - "wmp/IWMPEvents.DoubleClick"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPOWERBROADCAST_SETTING, POWERBROADCAST_SETTING, POWERBROADCAST_SETTING structure, PPOWERBROADCAST_SETTING, PPOWERBROADCAST_SETTING structure pointer, base.powerbroadcast_setting, winuser/POWERBROADCAST_SETTING, winuser/PPOWERBROADCAST_SETTING"
 ms.topic: struct
-f1_keywords: ["winuser/POWERBROADCAST_SETTING"]
+f1_keywords: 
+ - "winuser/POWERBROADCAST_SETTING"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

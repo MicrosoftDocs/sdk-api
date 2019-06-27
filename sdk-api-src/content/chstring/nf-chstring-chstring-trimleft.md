@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?TrimLeft@CHString@@QAEXXZ, ?TrimLeft@CHString@@QEAAXXZ, CHString interface [Windows Management Instrumentation],TrimLeft method, CHString.TrimLeft, CHString::TrimLeft, TrimLeft, TrimLeft method [Windows Management Instrumentation], TrimLeft method [Windows Management Instrumentation],CHString interface, _hmm_chstring_trimleft, chstring/CHString::TrimLeft, wmi.chstring_trimleft"
 ms.topic: method
-f1_keywords: ["chstring/CHString.TrimLeft"]
+f1_keywords: 
+ - "chstring/CHString.TrimLeft"
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

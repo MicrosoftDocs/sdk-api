@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OnDemandRegisterNotification, OnDemandRegisterNotification function [Network Awareness], nla.ondemandregisternotification, ondemandconnroutehelper/OnDemandRegisterNotification
 ms.topic: function
-f1_keywords: ["ondemandconnroutehelper/OnDemandRegisterNotification"]
+f1_keywords: 
+ - "ondemandconnroutehelper/OnDemandRegisterNotification"
 req.header: ondemandconnroutehelper.h
 req.include-header: 
 req.target-type: Windows

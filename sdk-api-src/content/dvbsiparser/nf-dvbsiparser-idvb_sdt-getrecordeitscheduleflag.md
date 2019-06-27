@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordEITScheduleFlag, GetRecordEITScheduleFlag method [Microsoft TV Technologies], GetRecordEITScheduleFlag method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],GetRecordEITScheduleFlag method, IDVB_SDT.GetRecordEITScheduleFlag, IDVB_SDT::GetRecordEITScheduleFlag, IDVB_SDTGetRecordEITScheduleFlag, dvbsiparser/IDVB_SDT::GetRecordEITScheduleFlag, mstv.idvb_sdt_getrecordeitscheduleflag
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDVB_SDT.GetRecordEITScheduleFlag"]
+f1_keywords: 
+ - "dvbsiparser/IDVB_SDT.GetRecordEITScheduleFlag"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

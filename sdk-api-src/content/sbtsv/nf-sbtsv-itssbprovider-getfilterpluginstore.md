@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFilterPluginStore, GetFilterPluginStore method [Remote Desktop Services], GetFilterPluginStore method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],GetFilterPluginStore method, ITsSbProvider.GetFilterPluginStore, ITsSbProvider::GetFilterPluginStore, sbtsv/ITsSbProvider::GetFilterPluginStore, termserv.itssbprovider_getfilterpluginstore
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbProvider.GetFilterPluginStore"]
+f1_keywords: 
+ - "sbtsv/ITsSbProvider.GetFilterPluginStore"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

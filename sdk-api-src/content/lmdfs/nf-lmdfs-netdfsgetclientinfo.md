@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1, 2, 3, 4, NetDfsGetClientInfo, NetDfsGetClientInfo function [Distributed File System], _win32_netdfsgetclientinfo, dfs.netdfsgetclientinfo, fs.netdfsgetclientinfo, lmdfs/NetDfsGetClientInfo
 ms.topic: function
-f1_keywords: ["lmdfs/NetDfsGetClientInfo"]
+f1_keywords: 
+ - "lmdfs/NetDfsGetClientInfo"
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFaultInfo, GetFaultInfo method, GetFaultInfo method,IWSDEndpointProxy interface, IWSDEndpointProxy interface,GetFaultInfo method, IWSDEndpointProxy.GetFaultInfo, IWSDEndpointProxy::GetFaultInfo, ncd.iwsdendpointproxy_getfaultinfo, wsdclient/IWSDEndpointProxy::GetFaultInfo
 ms.topic: method
-f1_keywords: ["wsdclient/IWSDEndpointProxy.GetFaultInfo"]
+f1_keywords: 
+ - "wsdclient/IWSDEndpointProxy.GetFaultInfo"
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

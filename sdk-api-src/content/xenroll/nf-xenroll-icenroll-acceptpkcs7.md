@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],acceptPKCS7 method, ICEnroll interface [Security],acceptPKCS7 method, ICEnroll.acceptPKCS7, ICEnroll2 interface [Security],acceptPKCS7 method, ICEnroll2::acceptPKCS7, ICEnroll3 interface [Security],acceptPKCS7 method, ICEnroll3::acceptPKCS7, ICEnroll4 interface [Security],acceptPKCS7 method, ICEnroll4::acceptPKCS7, ICEnroll::acceptPKCS7, acceptPKCS7, acceptPKCS7 method [Security], acceptPKCS7 method [Security],CEnroll object, acceptPKCS7 method [Security],ICEnroll interface, acceptPKCS7 method [Security],ICEnroll2 interface, acceptPKCS7 method [Security],ICEnroll3 interface, acceptPKCS7 method [Security],ICEnroll4 interface, security.icenroll4_acceptpkcs7, xenroll/ICEnroll2::acceptPKCS7, xenroll/ICEnroll3::acceptPKCS7, xenroll/ICEnroll4::acceptPKCS7, xenroll/ICEnroll::acceptPKCS7
 ms.topic: method
-f1_keywords: ["xenroll/ICEnroll4.acceptPKCS7"]
+f1_keywords: 
+ - "xenroll/ICEnroll4.acceptPKCS7"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginQuery, BeginQuery method, BeginQuery method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,BeginQuery method, ID3D12GraphicsCommandList.BeginQuery, ID3D12GraphicsCommandList::BeginQuery, d3d12/ID3D12GraphicsCommandList::BeginQuery, direct3d12.id3d12graphicscommandlist_beginquery
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12GraphicsCommandList.BeginQuery"]
+f1_keywords: 
+ - "d3d12/ID3D12GraphicsCommandList.BeginQuery"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

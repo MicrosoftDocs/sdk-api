@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_UNICASTIPADDRESS_TABLE, MIB_UNICASTIPADDRESS_TABLE, MIB_UNICASTIPADDRESS_TABLE structure [MIB], PMIB_UNICASTIPADDRESS_TABLE, PMIB_UNICASTIPADDRESS_TABLE structure pointer [MIB], _MIB_UNICASTIPADDRESS_TABL, mib.mib_unicastipaddress_table, netioapi/MIB_UNICASTIPADDRESS_TABLE, netioapi/PMIB_UNICASTIPADDRESS_TABLE"
 ms.topic: struct
-f1_keywords: ["netioapi/MIB_UNICASTIPADDRESS_TABLE"]
+f1_keywords: 
+ - "netioapi/MIB_UNICASTIPADDRESS_TABLE"
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

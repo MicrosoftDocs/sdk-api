@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertSrvRestoreRegisterThroughFile, CertSrvRestoreRegisterThroughFile function [Security], certbcli/CertSrvRestoreRegisterThroughFile, security.certsrvrestoreregisterthroughfile
 ms.topic: function
-f1_keywords: ["certbcli/CertSrvRestoreRegisterThroughFile"]
+f1_keywords: 
+ - "certbcli/CertSrvRestoreRegisterThroughFile"
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

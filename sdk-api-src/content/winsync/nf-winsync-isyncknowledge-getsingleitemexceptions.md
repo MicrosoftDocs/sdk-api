@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSingleItemExceptions, GetSingleItemExceptions method [Windows Sync], GetSingleItemExceptions method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetSingleItemExceptions method, ISyncKnowledge.GetSingleItemExceptions, ISyncKnowledge::GetSingleItemExceptions, winsync.isyncknowledge_getsingleitemexceptions, winsync/ISyncKnowledge::GetSingleItemExceptions
 ms.topic: method
-f1_keywords: ["winsync/ISyncKnowledge.GetSingleItemExceptions"]
+f1_keywords: 
+ - "winsync/ISyncKnowledge.GetSingleItemExceptions"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertificateSuccess, CertificateSuccess method [Microsoft TV Technologies], CertificateSuccess method [Microsoft TV Technologies],IMSVidStreamBufferSinkEvent interface, IMSVidStreamBufferSinkEvent interface [Microsoft TV Technologies],CertificateSuccess method, IMSVidStreamBufferSinkEvent.CertificateSuccess, IMSVidStreamBufferSinkEvent::CertificateSuccess, IMSVidStreamBufferSinkEventCertificateSuccess, mstv.imsvidstreambuffersinkevent_certificatesuccess, segment/IMSVidStreamBufferSinkEvent::CertificateSuccess
 ms.topic: method
-f1_keywords: ["segment/IMSVidStreamBufferSinkEvent.CertificateSuccess"]
+f1_keywords: 
+ - "segment/IMSVidStreamBufferSinkEvent.CertificateSuccess"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

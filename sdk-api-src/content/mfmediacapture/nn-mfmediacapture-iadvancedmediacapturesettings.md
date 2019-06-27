@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAdvancedMediaCaptureSettings, IAdvancedMediaCaptureSettings interface [Media Foundation], IAdvancedMediaCaptureSettings interface [Media Foundation],described, mf.iadvancedmediacapturesettings, mfmediacapture/IAdvancedMediaCaptureSettings
 ms.topic: interface
-f1_keywords: ["mfmediacapture/IAdvancedMediaCaptureSettings"]
+f1_keywords: 
+ - "mfmediacapture/IAdvancedMediaCaptureSettings"
 req.header: mfmediacapture.h
 req.include-header: 
 req.target-type: Windows

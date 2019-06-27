@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConsole3, IConsole3 interface [MMC], IConsole3 interface [MMC],described, _slate_iconsole3, mmc.iconsole3, mmc/IConsole3
 ms.topic: interface
-f1_keywords: ["mmc/IConsole3"]
+f1_keywords: 
+ - "mmc/IConsole3"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

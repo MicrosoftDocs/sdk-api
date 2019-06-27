@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinUsb_StopTrackingForTimeSync, WinUsb_StopTrackingForTimeSync function [Buses], buses.winusb_stoptrackingfortimesync, winusb/WinUsb_StopTrackingForTimeSync
 ms.topic: function
-f1_keywords: ["winusb/WinUsb_StopTrackingForTimeSync"]
+f1_keywords: 
+ - "winusb/WinUsb_StopTrackingForTimeSync"
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

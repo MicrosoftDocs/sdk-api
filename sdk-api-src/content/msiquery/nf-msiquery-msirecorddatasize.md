@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiRecordDataSize, MsiRecordDataSize function, _msi_msirecorddatasize, msiquery/MsiRecordDataSize, setup.msirecorddatasize
 ms.topic: function
-f1_keywords: ["msiquery/MsiRecordDataSize"]
+f1_keywords: 
+ - "msiquery/MsiRecordDataSize"
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

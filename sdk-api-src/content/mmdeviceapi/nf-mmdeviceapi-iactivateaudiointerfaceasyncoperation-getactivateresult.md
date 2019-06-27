@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetActivateResult, GetActivateResult method [Core Audio], GetActivateResult method [Core Audio],IActivateAudioInterfaceAsyncOperation interface, IActivateAudioInterfaceAsyncOperation interface [Core Audio],GetActivateResult method, IActivateAudioInterfaceAsyncOperation.GetActivateResult, IActivateAudioInterfaceAsyncOperation::GetActivateResult, coreaudio.iactivateaudiointerfaceasyncoperation_getactivateresult, mmdeviceapi/IActivateAudioInterfaceAsyncOperation::GetActivateResult
 ms.topic: method
-f1_keywords: ["mmdeviceapi/IActivateAudioInterfaceAsyncOperation.GetActivateResult"]
+f1_keywords: 
+ - "mmdeviceapi/IActivateAudioInterfaceAsyncOperation.GetActivateResult"
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

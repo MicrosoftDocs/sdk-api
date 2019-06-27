@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWINBIO_VERIFY_CALLBACK, PWINBIO_VERIFY_CALLBACK callback, PWINBIO_VERIFY_CALLBACK callback function [Windows Biometric Framework API], secbiomet.pwinbio_verify_callback, winbio/PWINBIO_VERIFY_CALLBACK
 ms.topic: callback
-f1_keywords: ["winbio/PWINBIO_VERIFY_CALLBACK"]
+f1_keywords: 
+ - "winbio/PWINBIO_VERIFY_CALLBACK"
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows

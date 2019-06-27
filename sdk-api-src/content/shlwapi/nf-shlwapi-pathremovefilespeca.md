@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathRemoveFileSpec, PathRemoveFileSpec function [Windows Shell], PathRemoveFileSpecA, PathRemoveFileSpecW, _win32_PathRemoveFileSpec, shell.PathRemoveFileSpec, shlwapi/PathRemoveFileSpec, shlwapi/PathRemoveFileSpecA, shlwapi/PathRemoveFileSpecW
 ms.topic: function
-f1_keywords: ["shlwapi/PathRemoveFileSpec"]
+f1_keywords: 
+ - "shlwapi/PathRemoveFileSpec"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

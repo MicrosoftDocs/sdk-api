@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDeviceCount, GetDeviceCount method [windows Media Device Manager], GetDeviceCount method [windows Media Device Manager],IMDServiceProvider interface, IMDServiceProvider interface [windows Media Device Manager],GetDeviceCount method, IMDServiceProvider.GetDeviceCount, IMDServiceProvider::GetDeviceCount, IMDServiceProviderGetDeviceCount, mswmdm/IMDServiceProvider::GetDeviceCount, wmdm.imdserviceprovider_getdevicecount
 ms.topic: method
-f1_keywords: ["mswmdm/IMDServiceProvider.GetDeviceCount"]
+f1_keywords: 
+ - "mswmdm/IMDServiceProvider.GetDeviceCount"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

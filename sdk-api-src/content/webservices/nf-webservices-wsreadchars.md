@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsReadChars, WsReadChars function [Web Services for Windows], webservices/WsReadChars, wsw.wsreadchars
 ms.topic: function
-f1_keywords: ["webservices/WsReadChars"]
+f1_keywords: 
+ - "webservices/WsReadChars"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

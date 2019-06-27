@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUserInputString, IUserInputString interface [Picture Acquisition], IUserInputString interface [Picture Acquisition],described, IUserInputStringInterface, photoacquire/IUserInputString, picacq.iuserinputstring
 ms.topic: interface
-f1_keywords: ["photoacquire/IUserInputString"]
+f1_keywords: 
+ - "photoacquire/IUserInputString"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

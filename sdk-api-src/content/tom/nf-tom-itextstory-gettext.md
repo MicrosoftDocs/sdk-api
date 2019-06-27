@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetText, GetText method [Windows Controls], GetText method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetText method, ITextStory.GetText, ITextStory::GetText, controls.itextstory_gettext, tom/ITextStory::GetText, tomAdjustCRLF, tomAllowFinalEOP, tomFoldMathAlpha, tomIncludeNumbering, tomLanguageTag, tomNoHidden, tomNoMathZoneBrackets, tomTextize, tomTranslateTableCell, tomUseCRLF
 ms.topic: method
-f1_keywords: ["tom/ITextStory.GetText"]
+f1_keywords: 
+ - "tom/ITextStory.GetText"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

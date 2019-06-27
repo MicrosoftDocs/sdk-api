@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptCATAdminReleaseContext, CryptCATAdminReleaseContext function [Security], mscat/CryptCATAdminReleaseContext, security.cryptcatadminreleasecontext
 ms.topic: function
-f1_keywords: ["mscat/CryptCATAdminReleaseContext"]
+f1_keywords: 
+ - "mscat/CryptCATAdminReleaseContext"
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

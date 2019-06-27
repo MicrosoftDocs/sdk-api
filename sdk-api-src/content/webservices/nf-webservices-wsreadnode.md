@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsReadNode, WsReadNode function [Web Services for Windows], webservices/WsReadNode, wsw.wsreadnode
 ms.topic: function
-f1_keywords: ["webservices/WsReadNode"]
+f1_keywords: 
+ - "webservices/WsReadNode"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

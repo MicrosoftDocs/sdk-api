@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPLibrarySharingServices interface [Windows Media Player],isLibraryShared method, IWMPLibrarySharingServices.isLibraryShared, IWMPLibrarySharingServices::isLibraryShared, IWMPLibrarySharingServicesisLibraryShared, isLibraryShared, isLibraryShared method [Windows Media Player], isLibraryShared method [Windows Media Player],IWMPLibrarySharingServices interface, wmp.iwmplibrarysharingservices_islibraryshared, wmp/IWMPLibrarySharingServices::isLibraryShared
 ms.topic: method
-f1_keywords: ["wmp/IWMPLibrarySharingServices.isLibraryShared"]
+f1_keywords: 
+ - "wmp/IWMPLibrarySharingServices.isLibraryShared"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

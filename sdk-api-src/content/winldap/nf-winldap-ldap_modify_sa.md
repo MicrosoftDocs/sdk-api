@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_modify_s, ldap.ldap__modify__s, ldap.ldap_modify_s, ldap_modify_s, ldap_modify_s function [LDAP], ldap_modify_sA, ldap_modify_sW, winldap/ldap_modify_s, winldap/ldap_modify_sA, winldap/ldap_modify_sW"
 ms.topic: function
-f1_keywords: ["winldap/ldap_modify_s"]
+f1_keywords: 
+ - "winldap/ldap_modify_s"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

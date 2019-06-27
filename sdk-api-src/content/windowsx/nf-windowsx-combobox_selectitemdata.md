@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComboBox_SelectItemData, ComboBox_SelectItemData macro [Windows Controls], _win32_ComboBox_SelectItemData, _win32_ComboBox_SelectItemData_cpp, controls.ComboBox_SelectItemData, controls._win32_ComboBox_SelectItemData, windowsx/ComboBox_SelectItemData
 ms.topic: macro
-f1_keywords: ["windowsx/ComboBox_SelectItemData"]
+f1_keywords: 
+ - "windowsx/ComboBox_SelectItemData"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

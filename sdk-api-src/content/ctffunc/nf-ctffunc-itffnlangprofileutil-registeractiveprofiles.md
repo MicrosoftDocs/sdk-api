@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfFnLangProfileUtil interface [Text Services Framework],RegisterActiveProfiles method, ITfFnLangProfileUtil.RegisterActiveProfiles, ITfFnLangProfileUtil::RegisterActiveProfiles, RegisterActiveProfiles, RegisterActiveProfiles method [Text Services Framework], RegisterActiveProfiles method [Text Services Framework],ITfFnLangProfileUtil interface, _tsf_itffnlangprofileutil_registeractiveprofiles_ref, ctffunc/ITfFnLangProfileUtil::RegisterActiveProfiles, tsf.itffnlangprofileutil_registeractiveprofiles
 ms.topic: method
-f1_keywords: ["ctffunc/ITfFnLangProfileUtil.RegisterActiveProfiles"]
+f1_keywords: 
+ - "ctffunc/ITfFnLangProfileUtil.RegisterActiveProfiles"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

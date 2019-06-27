@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PQOS_TRAFFIC_TYPE, PQOS_TRAFFIC_TYPE, PQOS_TRAFFIC_TYPE enumeration pointer [QOS], QOSTrafficTypeAudioVideo, QOSTrafficTypeBackground, QOSTrafficTypeBestEffort, QOSTrafficTypeControl, QOSTrafficTypeExcellentEffort, QOSTrafficTypeVoice, QOS_TRAFFIC_TYPE, QOS_TRAFFIC_TYPE enumeration [QOS], qos.qos_traffic_type, qos2/PQOS_TRAFFIC_TYPE, qos2/QOSTrafficTypeAudioVideo, qos2/QOSTrafficTypeBackground, qos2/QOSTrafficTypeBestEffort, qos2/QOSTrafficTypeControl, qos2/QOSTrafficTypeExcellentEffort, qos2/QOSTrafficTypeVoice, qos2/QOS_TRAFFIC_TYPE"
 ms.topic: enum
-f1_keywords: ["qos2/QOS_TRAFFIC_TYPE"]
+f1_keywords: 
+ - "qos2/QOS_TRAFFIC_TYPE"
 req.header: qos2.h
 req.include-header: 
 req.target-type: Windows

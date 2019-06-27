@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPROVIDER_FIELD_INFOARRAY, PROVIDER_FIELD_INFOARRAY, PROVIDER_FIELD_INFOARRAY structure [ETW], etw.provider_field_infoarray_struct, tdh.provider_field_infoarray_struct, tdh/PROVIDER_FIELD_INFOARRAY"
 ms.topic: struct
-f1_keywords: ["tdh/PROVIDER_FIELD_INFOARRAY"]
+f1_keywords: 
+ - "tdh/PROVIDER_FIELD_INFOARRAY"
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

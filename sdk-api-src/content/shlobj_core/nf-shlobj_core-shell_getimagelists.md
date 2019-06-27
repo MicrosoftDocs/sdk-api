@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Shell_GetImageLists, Shell_GetImageLists function [Windows Shell], _win32_Shell_GetImageLists, shell.Shell_GetImageLists, shlobj_core/Shell_GetImageLists
 ms.topic: function
-f1_keywords: ["shlobj_core/Shell_GetImageLists"]
+f1_keywords: 
+ - "shlobj_core/Shell_GetImageLists"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

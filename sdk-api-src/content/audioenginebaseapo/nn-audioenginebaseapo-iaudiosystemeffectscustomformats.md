@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioSystemEffectsCustomFormats, IAudioSystemEffectsCustomFormats interface [Audio Devices], IAudioSystemEffectsCustomFormats interface [Audio Devices],described, audio.iaudiosystemeffectscustomformats, audio_syseffects_r_c8bb1589-9952-4e31-8153-653c3dd0f174.xml, audioenginebaseapo/IAudioSystemEffectsCustomFormats
 ms.topic: interface
-f1_keywords: ["audioenginebaseapo/IAudioSystemEffectsCustomFormats"]
+f1_keywords: 
+ - "audioenginebaseapo/IAudioSystemEffectsCustomFormats"
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Windows

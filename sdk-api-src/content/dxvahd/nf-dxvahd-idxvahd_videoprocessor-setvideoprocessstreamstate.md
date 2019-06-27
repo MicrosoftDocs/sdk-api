@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXVAHD_VideoProcessor interface [Media Foundation],SetVideoProcessStreamState method, IDXVAHD_VideoProcessor.SetVideoProcessStreamState, IDXVAHD_VideoProcessor::SetVideoProcessStreamState, SetVideoProcessStreamState, SetVideoProcessStreamState method [Media Foundation], SetVideoProcessStreamState method [Media Foundation],IDXVAHD_VideoProcessor interface, dxvahd/IDXVAHD_VideoProcessor::SetVideoProcessStreamState, mf.idxvahd_videoprocessor_setvideoprocessstreamstate
 ms.topic: method
-f1_keywords: ["dxvahd/IDXVAHD_VideoProcessor.SetVideoProcessStreamState"]
+f1_keywords: 
+ - "dxvahd/IDXVAHD_VideoProcessor.SetVideoProcessStreamState"
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeviceAddedWithInterface, DeviceAddedWithInterface method [UPnP APIs], DeviceAddedWithInterface method [UPnP APIs],IUPnPDeviceFinderAddCallbackWithInterface interface, IUPnPDeviceFinderAddCallbackWithInterface interface [UPnP APIs],DeviceAddedWithInterface method, IUPnPDeviceFinderAddCallbackWithInterface.DeviceAddedWithInterface, IUPnPDeviceFinderAddCallbackWithInterface::DeviceAddedWithInterface, upnp.iupnpdevicefinderaddcallbackwithinterface_deviceaddedwithinterface, upnp/IUPnPDeviceFinderAddCallbackWithInterface::DeviceAddedWithInterface
 ms.topic: method
-f1_keywords: ["upnp/IUPnPDeviceFinderAddCallbackWithInterface.DeviceAddedWithInterface"]
+f1_keywords: 
+ - "upnp/IUPnPDeviceFinderAddCallbackWithInterface.DeviceAddedWithInterface"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

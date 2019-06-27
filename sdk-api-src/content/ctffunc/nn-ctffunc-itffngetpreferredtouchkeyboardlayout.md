@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfFnGetPreferredTouchKeyboardLayout, ITfFnGetPreferredTouchKeyboardLayout interface [Text Services Framework], ITfFnGetPreferredTouchKeyboardLayout interface [Text Services Framework],described, ctffunc/ITfFnGetPreferredTouchKeyboardLayout, tsf.itffngetpreferredtouchkeyboardlayout
 ms.topic: interface
-f1_keywords: ["ctffunc/ITfFnGetPreferredTouchKeyboardLayout"]
+f1_keywords: 
+ - "ctffunc/ITfFnGetPreferredTouchKeyboardLayout"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

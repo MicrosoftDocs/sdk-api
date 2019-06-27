@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QueryServiceStatusEx, QueryServiceStatusEx function, _win32_queryservicestatusex, base.queryservicestatusex, winsvc/QueryServiceStatusEx
 ms.topic: function
-f1_keywords: ["winsvc/QueryServiceStatusEx"]
+f1_keywords: 
+ - "winsvc/QueryServiceStatusEx"
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

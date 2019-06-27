@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Erase, IDiscFormat2Erase interface [IMAPI], IDiscFormat2Erase interface [IMAPI],described, imapi.idiscformat2erase, imapi2/IDiscFormat2Erase
 ms.topic: interface
-f1_keywords: ["imapi2/IDiscFormat2Erase"]
+f1_keywords: 
+ - "imapi2/IDiscFormat2Erase"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

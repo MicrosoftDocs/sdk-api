@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetworkSettings, INetworkSettings interface [Task Scheduler], INetworkSettings interface [Task Scheduler],described, taskschd.inetworksettings, taskschd/INetworkSettings
 ms.topic: interface
-f1_keywords: ["taskschd/INetworkSettings"]
+f1_keywords: 
+ - "taskschd/INetworkSettings"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

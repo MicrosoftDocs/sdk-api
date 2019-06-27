@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSensorActivitiesReport, IMFSensorActivitiesReport interface [Media Foundation], IMFSensorActivitiesReport interface [Media Foundation],described, mf.imfsensoractivitiesreport, mfidl/IMFSensorActivitiesReport
 ms.topic: interface
-f1_keywords: ["mfidl/IMFSensorActivitiesReport"]
+f1_keywords: 
+ - "mfidl/IMFSensorActivitiesReport"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

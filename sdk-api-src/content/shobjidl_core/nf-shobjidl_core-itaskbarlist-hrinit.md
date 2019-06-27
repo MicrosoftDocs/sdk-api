@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HrInit, HrInit method [Windows Shell], HrInit method [Windows Shell],ITaskbarList interface, ITaskbarList interface [Windows Shell],HrInit method, ITaskbarList.HrInit, ITaskbarList::HrInit, _win32_ITaskbarList_HrInit, shell.ITaskbarList_HrInit, shobjidl_core/ITaskbarList::HrInit
 ms.topic: method
-f1_keywords: ["shobjidl_core/ITaskbarList.HrInit"]
+f1_keywords: 
+ - "shobjidl_core/ITaskbarList.HrInit"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

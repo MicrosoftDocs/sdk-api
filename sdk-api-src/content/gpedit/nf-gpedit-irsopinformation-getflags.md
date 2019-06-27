@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [Group Policy], GetFlags method [Group Policy],IRSOPInformation interface, IRSOPInformation interface [Group Policy],GetFlags method, IRSOPInformation.GetFlags, IRSOPInformation::GetFlags, RSOP_INFO_FLAG_LOGGING_MODE, _win32_irsopinformation_getflags, gpedit/IRSOPInformation::GetFlags, policy.irsopinformation_getflags
 ms.topic: method
-f1_keywords: ["gpedit/IRSOPInformation.GetFlags"]
+f1_keywords: 
+ - "gpedit/IRSOPInformation.GetFlags"
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],ResultCode property, IUpdateHistoryEntry.ResultCode, IUpdateHistoryEntry.get_ResultCode, IUpdateHistoryEntry::ResultCode, IUpdateHistoryEntry::get_ResultCode, ResultCode property [Windows Update Agent], ResultCode property [Windows Update Agent],IUpdateHistoryEntry interface, get_ResultCode, wua.iupdatehistoryentry_resultcode, wuapi/IUpdateHistoryEntry::ResultCode, wuapi/IUpdateHistoryEntry::get_ResultCode
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateHistoryEntry.ResultCode"]
+f1_keywords: 
+ - "wuapi/IUpdateHistoryEntry.ResultCode"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

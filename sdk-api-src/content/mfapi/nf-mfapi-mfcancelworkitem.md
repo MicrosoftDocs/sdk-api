@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCancelWorkItem, MFCancelWorkItem function [Media Foundation], a24fae61-30c8-4aca-b067-22b99f904fd8, mf.mfcancelworkitem, mfapi/MFCancelWorkItem
 ms.topic: function
-f1_keywords: ["mfapi/MFCancelWorkItem"]
+f1_keywords: 
+ - "mfapi/MFCancelWorkItem"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITTerminal interface [TAPI 2.2],get_Direction method, ITTerminal.get_Direction, ITTerminal::get_Direction, _tapi3_itterminal_get_direction, get_Direction, get_Direction method [TAPI 2.2], get_Direction method [TAPI 2.2],ITTerminal interface, tapi3.itterminal_get_direction, tapi3if/ITTerminal::get_Direction
 ms.topic: method
-f1_keywords: ["tapi3if/ITTerminal.get_Direction"]
+f1_keywords: 
+ - "tapi3if/ITTerminal.get_Direction"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

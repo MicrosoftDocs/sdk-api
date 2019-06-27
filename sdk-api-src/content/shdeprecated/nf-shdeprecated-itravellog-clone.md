@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],ITravelLog interface, ITravelLog interface [Windows Shell],Clone method, ITravelLog.Clone, ITravelLog::Clone, shdeprecated/ITravelLog::Clone, shell.ITravelLog_Clone, zone_ITravelLog_Clone
 ms.topic: method
-f1_keywords: ["shdeprecated/ITravelLog.Clone"]
+f1_keywords: 
+ - "shdeprecated/ITravelLog.Clone"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

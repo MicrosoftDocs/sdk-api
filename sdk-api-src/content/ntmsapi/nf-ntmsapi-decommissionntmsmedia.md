@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DecommissionNtmsMedia, DecommissionNtmsMedia function [Files], _zaw_decommissionntmsmedia, base.decommissionntmsmedia, fs.decommissionntmsmedia, ntmsapi/DecommissionNtmsMedia
 ms.topic: function
-f1_keywords: ["ntmsapi/DecommissionNtmsMedia"]
+f1_keywords: 
+ - "ntmsapi/DecommissionNtmsMedia"
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

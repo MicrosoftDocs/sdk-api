@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [App packaging and management], Close method [App packaging and management],IAppxPackageWriter interface, IAppxPackageWriter interface [App packaging and management],Close method, IAppxPackageWriter.Close, IAppxPackageWriter::Close, appxpackaging/IAppxPackageWriter::Close, appxpkg.iappxpackagewriter_close
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxPackageWriter.Close"]
+f1_keywords: 
+ - "appxpackaging/IAppxPackageWriter.Close"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

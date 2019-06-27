@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlInterlockedFlushSList, RtlInterlockedFlushSList function, base.rtlinterlockedflushslist, winnt/RtlInterlockedFlushSList
 ms.topic: function
-f1_keywords: ["winnt/RtlInterlockedFlushSList"]
+f1_keywords: 
+ - "winnt/RtlInterlockedFlushSList"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

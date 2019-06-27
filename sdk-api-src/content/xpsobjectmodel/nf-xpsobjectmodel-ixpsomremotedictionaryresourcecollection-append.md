@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResourceCollection interface, IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging],Append method, IXpsOMRemoteDictionaryResourceCollection.Append, IXpsOMRemoteDictionaryResourceCollection::Append, xps.ixpsomremotedictionaryresourcecollection_append, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::Append
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection.Append"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection.Append"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

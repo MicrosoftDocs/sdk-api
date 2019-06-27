@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AtEOF property [Fax Service], AtEOF property [Fax Service],IFaxIncomingMessageIterator interface, IFaxIncomingMessageIterator interface [Fax Service],AtEOF property, IFaxIncomingMessageIterator.AtEOF, IFaxIncomingMessageIterator.get_AtEOF, IFaxIncomingMessageIterator::AtEOF, IFaxIncomingMessageIterator::get_AtEOF, _mfax_faxincomingmessageiterator.ateof, fax._mfax_faxincomingmessageiterator_ateof, fax._mfax_faxincomingmessageiterator_cpp_mfax_faxincomingmessageiterator_ateof_cpp, faxcomex/IFaxIncomingMessageIterator::AtEOF, faxcomex/IFaxIncomingMessageIterator::get_AtEOF, get_AtEOF
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxIncomingMessageIterator.AtEOF"]
+f1_keywords: 
+ - "faxcomex/IFaxIncomingMessageIterator.AtEOF"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

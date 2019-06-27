@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsPullBytes, WsPullBytes function [Web Services for Windows], webservices/WsPullBytes, wsw.wspullbytes
 ms.topic: function
-f1_keywords: ["webservices/WsPullBytes"]
+f1_keywords: 
+ - "webservices/WsPullBytes"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

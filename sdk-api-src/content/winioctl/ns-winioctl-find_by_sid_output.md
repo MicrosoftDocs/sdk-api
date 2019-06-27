@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PFIND_BY_SID_OUTPUT, FIND_BY_SID_OUTPUT, FIND_BY_SID_OUTPUT structure [Files], PFIND_BY_SID_OUTPUT, PFIND_BY_SID_OUTPUT structure pointer [Files], base.find_by_sid_output, fs.find_by_sid_output, winioctl/FIND_BY_SID_OUTPUT, winioctl/PFIND_BY_SID_OUTPUT"
 ms.topic: struct
-f1_keywords: ["winioctl/FIND_BY_SID_OUTPUT"]
+f1_keywords: 
+ - "winioctl/FIND_BY_SID_OUTPUT"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

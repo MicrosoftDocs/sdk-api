@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPM_ACP_AND_CGMSA_SIGNALING, OPM_ACP_AND_CGMSA_SIGNALING structure [Media Foundation], mf.opm_acp_and_cgmsa_signaling, opmapi/OPM_ACP_AND_CGMSA_SIGNALING
 ms.topic: struct
-f1_keywords: ["opmapi/OPM_ACP_AND_CGMSA_SIGNALING"]
+f1_keywords: 
+ - "opmapi/OPM_ACP_AND_CGMSA_SIGNALING"
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

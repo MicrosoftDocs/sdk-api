@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPM_Initialize, LPM_Initialize callback, LPM_Initialize callback function [QOS], _gqos_lpm_initialize, lpmapi/LPM_Initialize, qos.lpm_initialize
 ms.topic: function
-f1_keywords: ["lpmapi/LPM_Initialize"]
+f1_keywords: 
+ - "lpmapi/LPM_Initialize"
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndHome, MCIWndHome macro [Windows Multimedia], _win32_MCIWndHome, multimedia.mciwndhome, vfw/MCIWndHome
 ms.topic: macro
-f1_keywords: ["vfw/MCIWndHome"]
+f1_keywords: 
+ - "vfw/MCIWndHome"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

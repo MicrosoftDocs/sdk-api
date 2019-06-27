@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CompareFileTime, CompareFileTime function, _win32_comparefiletime, base.comparefiletime, fileapi/CompareFileTime, winbase/CompareFileTime
 ms.topic: function
-f1_keywords: ["fileapi/CompareFileTime"]
+f1_keywords: 
+ - "fileapi/CompareFileTime"
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

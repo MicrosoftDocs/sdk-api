@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMenuCheckMarkDimensions, GetMenuCheckMarkDimensions function [Menus and Other Resources], _win32_GetMenuCheckMarkDimensions, _win32_getmenucheckmarkdimensions_cpp, menurc.getmenucheckmarkdimensions, winui._win32_getmenucheckmarkdimensions, winuser/GetMenuCheckMarkDimensions
 ms.topic: function
-f1_keywords: ["winuser/GetMenuCheckMarkDimensions"]
+f1_keywords: 
+ - "winuser/GetMenuCheckMarkDimensions"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

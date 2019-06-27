@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FXMASTERINGLIMITER_PARAMETERS, FXMASTERINGLIMITER_PARAMETERS structure [XAudio2 Audio Mixing APIs], xapofx/FXMASTERINGLIMITER_PARAMETERS, xaudio2.fxmasteringlimiter_parameters
 ms.topic: struct
-f1_keywords: ["xapofx/FXMASTERINGLIMITER_PARAMETERS"]
+f1_keywords: 
+ - "xapofx/FXMASTERINGLIMITER_PARAMETERS"
 req.header: xapofx.h
 req.include-header: 
 req.target-type: Windows

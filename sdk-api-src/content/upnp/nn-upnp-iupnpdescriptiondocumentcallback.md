@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPDescriptionDocumentCallback, IUPnPDescriptionDocumentCallback interface [UPnP APIs], IUPnPDescriptionDocumentCallback interface [UPnP APIs],described, _upnp_iupnpdescriptiondocumentcallback, upnp.iupnpdescriptiondocumentcallback, upnp/IUPnPDescriptionDocumentCallback
 ms.topic: interface
-f1_keywords: ["upnp/IUPnPDescriptionDocumentCallback"]
+f1_keywords: 
+ - "upnp/IUPnPDescriptionDocumentCallback"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

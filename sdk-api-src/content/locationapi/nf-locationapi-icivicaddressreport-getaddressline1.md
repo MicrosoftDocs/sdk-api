@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAddressLine1, GetAddressLine1 method [WinLocation], GetAddressLine1 method [WinLocation],ICivicAddressReport interface, ICivicAddressReport interface [WinLocation],GetAddressLine1 method, ICivicAddressReport.GetAddressLine1, ICivicAddressReport::GetAddressLine1, WinLocation_COM_Ref.icivicaddressreport_getaddressline1, locationapi/ICivicAddressReport::GetAddressLine1
 ms.topic: method
-f1_keywords: ["locationapi/ICivicAddressReport.GetAddressLine1"]
+f1_keywords: 
+ - "locationapi/ICivicAddressReport.GetAddressLine1"
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

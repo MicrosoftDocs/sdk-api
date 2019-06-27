@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 4fdeaaf9-9026-4bf1-8e78-d03a98d44b32, LATTICE_METRICS, LATTICE_METRICS structure [Tablet PC], rectypes/LATTICE_METRICS, tablet.lattice_metrics
 ms.topic: struct
-f1_keywords: ["rectypes/LATTICE_METRICS"]
+f1_keywords: 
+ - "rectypes/LATTICE_METRICS"
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows

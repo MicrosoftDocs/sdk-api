@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpHlprCreateV4Policy, DhcpHlprCreateV4Policy function [DHCP], dhcp.dhcphlprcreatev4policy, dhcpsapi/DhcpHlprCreateV4Policy
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpHlprCreateV4Policy"]
+f1_keywords: 
+ - "dhcpsapi/DhcpHlprCreateV4Policy"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

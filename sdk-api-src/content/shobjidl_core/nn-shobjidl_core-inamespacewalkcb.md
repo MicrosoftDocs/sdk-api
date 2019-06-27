@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INamespaceWalkCB, INamespaceWalkCB interface [Windows Shell], INamespaceWalkCB interface [Windows Shell],described, _win32_INamespaceWalkCB, shell.INamespaceWalkCB, shobjidl_core/INamespaceWalkCB
 ms.topic: interface
-f1_keywords: ["shobjidl_core/INamespaceWalkCB"]
+f1_keywords: 
+ - "shobjidl_core/INamespaceWalkCB"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

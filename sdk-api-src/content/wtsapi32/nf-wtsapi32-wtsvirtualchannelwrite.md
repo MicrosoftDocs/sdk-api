@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSVirtualChannelWrite, WTSVirtualChannelWrite function [Remote Desktop Services], _win32_wtsvirtualchannelwrite, termserv.wtsvirtualchannelwrite, wtsapi32/WTSVirtualChannelWrite
 ms.topic: function
-f1_keywords: ["wtsapi32/WTSVirtualChannelWrite"]
+f1_keywords: 
+ - "wtsapi32/WTSVirtualChannelWrite"
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSubEntries, GetSubEntries method [Media Foundation], GetSubEntries method [Media Foundation],ITocEntry interface, ITocEntry interface [Media Foundation],GetSubEntries method, ITocEntry.GetSubEntries, ITocEntry::GetSubEntries, codecapi.itocentry_getsubentries, mf.itocentry_getsubentries, wmcodecdsp/ITocEntry::GetSubEntries
 ms.topic: method
-f1_keywords: ["wmcodecdsp/ITocEntry.GetSubEntries"]
+f1_keywords: 
+ - "wmcodecdsp/ITocEntry.GetSubEntries"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

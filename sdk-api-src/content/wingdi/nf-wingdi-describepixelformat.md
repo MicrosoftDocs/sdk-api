@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DescribePixelFormat, DescribePixelFormat function [OpenGL], _ogl_DescribePixelFormat, opengl.describepixelformat, wingdi/DescribePixelFormat
 ms.topic: function
-f1_keywords: ["wingdi/DescribePixelFormat"]
+f1_keywords: 
+ - "wingdi/DescribePixelFormat"
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

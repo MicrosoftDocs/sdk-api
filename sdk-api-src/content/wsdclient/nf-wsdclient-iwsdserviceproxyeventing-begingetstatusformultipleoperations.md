@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginGetStatusForMultipleOperations, BeginGetStatusForMultipleOperations method, BeginGetStatusForMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,BeginGetStatusForMultipleOperations method, IWSDServiceProxyEventing.BeginGetStatusForMultipleOperations, IWSDServiceProxyEventing::BeginGetStatusForMultipleOperations, ncd.iwsdserviceproxyeventing_begingetstatusformultipleoperations, wsdclient/IWSDServiceProxyEventing::BeginGetStatusForMultipleOperations
 ms.topic: method
-f1_keywords: ["wsdclient/IWSDServiceProxyEventing.BeginGetStatusForMultipleOperations"]
+f1_keywords: 
+ - "wsdclient/IWSDServiceProxyEventing.BeginGetStatusForMultipleOperations"
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

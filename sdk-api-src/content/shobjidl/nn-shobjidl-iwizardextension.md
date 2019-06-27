@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWizardExtension, IWizardExtension interface [Windows Shell], IWizardExtension interface [Windows Shell],described, _shell_IWizardExtension, shell.IWizardExtension, shobjidl/IWizardExtension
 ms.topic: interface
-f1_keywords: ["shobjidl/IWizardExtension"]
+f1_keywords: 
+ - "shobjidl/IWizardExtension"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

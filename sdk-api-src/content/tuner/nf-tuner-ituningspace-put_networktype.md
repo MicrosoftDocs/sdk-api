@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],put_NetworkType method, ITuningSpace.put_NetworkType, ITuningSpace::put_NetworkType, ITuningSpaceput_NetworkType, mstv.ituningspace_put_networktype, put_NetworkType, put_NetworkType method [Microsoft TV Technologies], put_NetworkType method [Microsoft TV Technologies],ITuningSpace interface, tuner/ITuningSpace::put_NetworkType
 ms.topic: method
-f1_keywords: ["tuner/ITuningSpace.put_NetworkType"]
+f1_keywords: 
+ - "tuner/ITuningSpace.put_NetworkType"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Account property [File Server Resource Manager], Account property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, IFsrmPipelineModuleDefinition interface [File Server Resource Manager],Account property, IFsrmPipelineModuleDefinition.Account, IFsrmPipelineModuleDefinition.get_Account, IFsrmPipelineModuleDefinition::Account, IFsrmPipelineModuleDefinition::get_Account, IFsrmPipelineModuleDefinition::put_Account, fs.ifsrmpipelinemoduledefinition_account, fsrm.ifsrmpipelinemoduledefinition_account, fsrmpipeline/IFsrmPipelineModuleDefinition::Account, fsrmpipeline/IFsrmPipelineModuleDefinition::get_Account, fsrmpipeline/IFsrmPipelineModuleDefinition::put_Account, get_Account
 ms.topic: method
-f1_keywords: ["fsrmpipeline/IFsrmPipelineModuleDefinition.Account"]
+f1_keywords: 
+ - "fsrmpipeline/IFsrmPipelineModuleDefinition.Account"
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

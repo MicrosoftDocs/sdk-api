@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLInstallLicense, SLInstallLicense function [Security], security.slinstalllicense, slpublic/SLInstallLicense
 ms.topic: function
-f1_keywords: ["slpublic/SLInstallLicense"]
+f1_keywords: 
+ - "slpublic/SLInstallLicense"
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

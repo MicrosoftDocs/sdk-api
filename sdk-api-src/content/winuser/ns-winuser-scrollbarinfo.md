@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSCROLLBARINFO, *PSCROLLBARINFO, LPSCROLLBARINFO, LPSCROLLBARINFO structure pointer [Windows Controls], PSCROLLBARINFO, PSCROLLBARINFO structure pointer [Windows Controls], SCROLLBARINFO, SCROLLBARINFO structure [Windows Controls], STATE_SYSTEM_INVISIBLE, STATE_SYSTEM_OFFSCREEN, STATE_SYSTEM_PRESSED, STATE_SYSTEM_UNAVAILABLE, _win32_SCROLLBARINFO_str, _win32_SCROLLBARINFO_str_cpp, controls.SCROLLBARINFO, controls._win32_SCROLLBARINFO_str, winuser/LPSCROLLBARINFO, winuser/PSCROLLBARINFO, winuser/SCROLLBARINFO"
 ms.topic: struct
-f1_keywords: ["winuser/SCROLLBARINFO"]
+f1_keywords: 
+ - "winuser/SCROLLBARINFO"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

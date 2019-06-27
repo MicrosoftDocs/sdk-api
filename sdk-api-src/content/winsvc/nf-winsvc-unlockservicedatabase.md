@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnlockServiceDatabase, UnlockServiceDatabase function, _win32_unlockservicedatabase, base.unlockservicedatabase, winsvc/UnlockServiceDatabase
 ms.topic: function
-f1_keywords: ["winsvc/UnlockServiceDatabase"]
+f1_keywords: 
+ - "winsvc/UnlockServiceDatabase"
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],SetInitialTransform method, IMILBitmapEffectRenderContext.SetInitialTransform, IMILBitmapEffectRenderContext::SetInitialTransform, SetInitialTransform, SetInitialTransform method [WPF Bitmap Effects], SetInitialTransform method [WPF Bitmap Effects],IMILBitmapEffectRenderContext interface, _wibe_imilbitmapeffectrendercontext_setinitialtransform, mileffects/IMILBitmapEffectRenderContext::SetInitialTransform, wibe._wibe_imilbitmapeffectrendercontext_setinitialtransform
 ms.topic: method
-f1_keywords: ["mileffects/IMILBitmapEffectRenderContext.SetInitialTransform"]
+f1_keywords: 
+ - "mileffects/IMILBitmapEffectRenderContext.SetInitialTransform"
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

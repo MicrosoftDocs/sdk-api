@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpellCheckerChangedEventHandler, ISpellCheckerChangedEventHandler interface [Internationalization for Windows Applications], ISpellCheckerChangedEventHandler interface [Internationalization for Windows Applications],described, intl.ispellcheckerchangedeventhandler, spellcheck/ISpellCheckerChangedEventHandler
 ms.topic: interface
-f1_keywords: ["spellcheck/ISpellCheckerChangedEventHandler"]
+f1_keywords: 
+ - "spellcheck/ISpellCheckerChangedEventHandler"
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

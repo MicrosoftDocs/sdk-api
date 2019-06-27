@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzRoleDefinition interface [Security],RoleDefinitions property, IAzRoleDefinition.RoleDefinitions, IAzRoleDefinition.get_RoleDefinitions, IAzRoleDefinition::RoleDefinitions, IAzRoleDefinition::get_RoleDefinitions, RoleDefinitions property [Security], RoleDefinitions property [Security],IAzRoleDefinition interface, azroles/IAzRoleDefinition::RoleDefinitions, azroles/IAzRoleDefinition::get_RoleDefinitions, get_RoleDefinitions, security.iazroledefinition_roledefinitions
 ms.topic: method
-f1_keywords: ["azroles/IAzRoleDefinition.RoleDefinitions"]
+f1_keywords: 
+ - "azroles/IAzRoleDefinition.RoleDefinitions"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellBrowser interface [Windows Shell],InsertMenusSB method, IShellBrowser.InsertMenusSB, IShellBrowser::InsertMenusSB, InsertMenusSB, InsertMenusSB method [Windows Shell], InsertMenusSB method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_InsertMenusSB, shell.IShellBrowser_InsertMenusSB, shobjidl_core/IShellBrowser::InsertMenusSB
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellBrowser.InsertMenusSB"]
+f1_keywords: 
+ - "shobjidl_core/IShellBrowser.InsertMenusSB"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

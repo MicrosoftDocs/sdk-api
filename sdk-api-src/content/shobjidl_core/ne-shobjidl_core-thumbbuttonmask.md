@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: THB_BITMAP, THB_FLAGS, THB_ICON, THB_TOOLTIP, THUMBBUTTONMASK, THUMBBUTTONMASK enumeration [Windows Shell], _shell_THUMBBUTTONMASK, shell.THUMBBUTTONMASK, shobjidl_core/THB_BITMAP, shobjidl_core/THB_FLAGS, shobjidl_core/THB_ICON, shobjidl_core/THB_TOOLTIP, shobjidl_core/THUMBBUTTONMASK
 ms.topic: enum
-f1_keywords: ["shobjidl_core/THUMBBUTTONMASK"]
+f1_keywords: 
+ - "shobjidl_core/THUMBBUTTONMASK"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

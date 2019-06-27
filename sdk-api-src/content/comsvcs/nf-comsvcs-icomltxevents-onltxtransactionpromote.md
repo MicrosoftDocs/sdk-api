@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComLTxEvents interface [COM+],OnLtxTransactionPromote method, IComLTxEvents.OnLtxTransactionPromote, IComLTxEvents::OnLtxTransactionPromote, OnLtxTransactionPromote, OnLtxTransactionPromote method [COM+], OnLtxTransactionPromote method [COM+],IComLTxEvents interface, comsvcs/IComLTxEvents::OnLtxTransactionPromote, cos.icomltxevents_onltxtransactionpromote
 ms.topic: method
-f1_keywords: ["comsvcs/IComLTxEvents.OnLtxTransactionPromote"]
+f1_keywords: 
+ - "comsvcs/IComLTxEvents.OnLtxTransactionPromote"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

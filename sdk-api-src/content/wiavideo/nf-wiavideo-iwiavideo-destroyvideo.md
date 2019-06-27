@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DestroyVideo, DestroyVideo method [WIA], DestroyVideo method [WIA],IWiaVideo interface, IWiaVideo interface [WIA],DestroyVideo method, IWiaVideo.DestroyVideo, IWiaVideo::DestroyVideo, _wia_IWiaVideo_DestroyVideo, wia._wia_IWiaVideo_DestroyVideo, wiavideo/IWiaVideo::DestroyVideo
 ms.topic: method
-f1_keywords: ["wiavideo/IWiaVideo.DestroyVideo"]
+f1_keywords: 
+ - "wiavideo/IWiaVideo.DestroyVideo"
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows

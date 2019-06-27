@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDXML_NODE, WSDXML_NODE structure, _WSDXML_NODE, ncd.wsdxml_node_struct, wsdxmldom/WSDXML_NODE
 ms.topic: struct
-f1_keywords: ["wsdxmldom/WSDXML_NODE"]
+f1_keywords: 
+ - "wsdxmldom/WSDXML_NODE"
 req.header: wsdxmldom.h
 req.include-header: 
 req.target-type: Windows

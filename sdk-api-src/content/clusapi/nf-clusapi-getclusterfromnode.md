@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClusterFromNode, GetClusterFromNode function [Failover Cluster], PCLUSAPI_GET_CLUSTER_FROM_NODE, PCLUSAPI_GET_CLUSTER_FROM_NODE function [Failover Cluster], _wolf_getclusterfromnode, clusapi/GetClusterFromNode, clusapi/PCLUSAPI_GET_CLUSTER_FROM_NODE, mscs.getclusterfromnode
 ms.topic: function
-f1_keywords: ["clusapi/GetClusterFromNode"]
+f1_keywords: 
+ - "clusapi/GetClusterFromNode"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

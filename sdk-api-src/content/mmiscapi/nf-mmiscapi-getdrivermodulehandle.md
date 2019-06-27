@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDriverModuleHandle, GetDriverModuleHandle function [Windows Multimedia], _win32_GetDriverModuleHandle, mmsystem/GetDriverModuleHandle, multimedia.getdrivermodulehandle
 ms.topic: function
-f1_keywords: ["mmiscapi/GetDriverModuleHandle"]
+f1_keywords: 
+ - "mmiscapi/GetDriverModuleHandle"
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows

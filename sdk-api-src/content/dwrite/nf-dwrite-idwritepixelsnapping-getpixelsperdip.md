@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPixelsPerDip, GetPixelsPerDip method [Direct Write], GetPixelsPerDip method [Direct Write],IDWritePixelSnapping interface, IDWritePixelSnapping interface [Direct Write],GetPixelsPerDip method, IDWritePixelSnapping.GetPixelsPerDip, IDWritePixelSnapping::GetPixelsPerDip, directwrite.IDWritePixelSnapping_GetPixelsPerDip, dwrite/IDWritePixelSnapping::GetPixelsPerDip
 ms.topic: method
-f1_keywords: ["dwrite/IDWritePixelSnapping.GetPixelsPerDip"]
+f1_keywords: 
+ - "dwrite/IDWritePixelSnapping.GetPixelsPerDip"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

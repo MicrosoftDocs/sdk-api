@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitializeClusterHealthFault, InitializeClusterHealthFault function [Failover Cluster], mscs.initializeclusterhealthfault, resapi/InitializeClusterHealthFault
 ms.topic: function
-f1_keywords: ["resapi/InitializeClusterHealthFault"]
+f1_keywords: 
+ - "resapi/InitializeClusterHealthFault"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

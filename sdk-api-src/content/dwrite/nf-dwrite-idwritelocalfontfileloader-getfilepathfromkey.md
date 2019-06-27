@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFilePathFromKey, GetFilePathFromKey method [Direct Write], GetFilePathFromKey method [Direct Write],IDWriteLocalFontFileLoader interface, IDWriteLocalFontFileLoader interface [Direct Write],GetFilePathFromKey method, IDWriteLocalFontFileLoader.GetFilePathFromKey, IDWriteLocalFontFileLoader::GetFilePathFromKey, directwrite.idwritelocalfontfileloader_getfilepathfromkey, dwrite/IDWriteLocalFontFileLoader::GetFilePathFromKey
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteLocalFontFileLoader.GetFilePathFromKey"]
+f1_keywords: 
+ - "dwrite/IDWriteLocalFontFileLoader.GetFilePathFromKey"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

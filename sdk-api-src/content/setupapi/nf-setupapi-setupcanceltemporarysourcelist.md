@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupCancelTemporarySourceList, SetupCancelTemporarySourceList function [Setup API], _setupapi_setupcanceltemporarysourcelist, setup.setupcanceltemporarysourcelist, setupapi/SetupCancelTemporarySourceList
 ms.topic: function
-f1_keywords: ["setupapi/SetupCancelTemporarySourceList"]
+f1_keywords: 
+ - "setupapi/SetupCancelTemporarySourceList"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

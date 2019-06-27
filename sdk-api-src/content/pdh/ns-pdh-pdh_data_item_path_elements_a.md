@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPDH_DATA_ITEM_PATH_ELEMENTS_A, PDH_DATA_ITEM_PATH_ELEMENTS, PDH_DATA_ITEM_PATH_ELEMENTS structure [Perf], PDH_DATA_ITEM_PATH_ELEMENTS_A, PDH_DATA_ITEM_PATH_ELEMENTS_W, _win32_pdh_data_item_path_elements_str, base.pdh_data_item_path_elements_str, pdh/PDH_DATA_ITEM_PATH_ELEMENTS, pdh/PDH_DATA_ITEM_PATH_ELEMENTS_A, pdh/PDH_DATA_ITEM_PATH_ELEMENTS_W, perf.pdh_data_item_path_elements_str"
 ms.topic: struct
-f1_keywords: ["pdh/PDH_DATA_ITEM_PATH_ELEMENTS"]
+f1_keywords: 
+ - "pdh/PDH_DATA_ITEM_PATH_ELEMENTS"
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CFrameworkQuery interface [Windows Management Instrumentation],GetValuesForProp method, CFrameworkQuery.GetValuesForProp, CFrameworkQuery.GetValuesForProp(LPCWSTR,std, CFrameworkQuery::GetValuesForProp, CFrameworkQuery::GetValuesForProp(LPCWSTR,std, CFrameworkQuery::GetValuesForProp(LPCWSTR,std::vector<_bstr_t>&), GetValuesForProp, GetValuesForProp method [Windows Management Instrumentation], GetValuesForProp method [Windows Management Instrumentation],CFrameworkQuery interface, frquery/CFrameworkQuery::GetValuesForProp, wmi.cframeworkquery_getvaluesforprop_lpcwstr_std__vector__bstr_t__
 ms.topic: method
-f1_keywords: ["frquery/CFrameworkQuery.GetValuesForProp"]
+f1_keywords: 
+ - "frquery/CFrameworkQuery.GetValuesForProp"
 req.header: frquery.h
 req.include-header: FwCommon.h
 req.target-type: Windows

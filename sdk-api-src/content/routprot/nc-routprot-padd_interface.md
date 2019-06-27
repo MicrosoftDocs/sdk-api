@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddInterface, AddInterface callback function [RAS], DEMAND_DIAL, LOCAL_WORKSTATION_DIAL, PADD_INTERFACE, PADD_INTERFACE callback, PERMANENT, REMOTE_WORKSTATION_DIAL, _mpr_addinterface, routprot/AddInterface, rras.addinterface
 ms.topic: callback
-f1_keywords: ["routprot/AddInterface"]
+f1_keywords: 
+ - "routprot/AddInterface"
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

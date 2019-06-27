@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],MoveStart method, ITextRange.MoveStart, ITextRange::MoveStart, MoveStart, MoveStart method [Windows Controls], MoveStart method [Windows Controls],ITextRange interface, _win32_ITextRange_MoveStart, _win32_ITextRange_MoveStart_cpp, controls.ITextRange_MoveStart, controls._win32_ITextRange_MoveStart, tom/ITextRange::MoveStart
 ms.topic: method
-f1_keywords: ["tom/ITextRange.MoveStart"]
+f1_keywords: 
+ - "tom/ITextRange.MoveStart"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

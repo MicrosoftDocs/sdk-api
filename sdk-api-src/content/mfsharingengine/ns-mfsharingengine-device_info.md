@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DEVICE_INFO, DEVICE_INFO structure [Media Foundation], mf.device_info, mfsharingengine/DEVICE_INFO
 ms.topic: struct
-f1_keywords: ["mfsharingengine/DEVICE_INFO"]
+f1_keywords: 
+ - "mfsharingengine/DEVICE_INFO"
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows

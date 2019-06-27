@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarDecAbs, VarDecAbs function [Automation], _oa96_VarDecAbs, automat.vardecabs, oleauto/VarDecAbs
 ms.topic: function
-f1_keywords: ["oleauto/VarDecAbs"]
+f1_keywords: 
+ - "oleauto/VarDecAbs"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

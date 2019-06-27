@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Edit_SetCueBannerText, Edit_SetCueBannerText macro [Windows Controls], _win32_Edit_SetCueBannerText, _win32_Edit_SetCueBannerText_cpp, commctrl/Edit_SetCueBannerText, controls.Edit_SetCueBannerText, controls._win32_Edit_SetCueBannerText
 ms.topic: macro
-f1_keywords: ["commctrl/Edit_SetCueBannerText"]
+f1_keywords: 
+ - "commctrl/Edit_SetCueBannerText"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

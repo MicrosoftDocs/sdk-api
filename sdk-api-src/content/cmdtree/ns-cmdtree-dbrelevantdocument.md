@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DBRELEVANTDOCUMENT, DBRELEVANTDOCUMENT structure [Indexing Service], _idxs_DBRELEVANTDOCUMENT, cmdtree/DBRELEVANTDOCUMENT, indexsrv.dbrelevantdocument, tagDBRELEVANTDOCUMENT
 ms.topic: struct
-f1_keywords: ["cmdtree/DBRELEVANTDOCUMENT"]
+f1_keywords: 
+ - "cmdtree/DBRELEVANTDOCUMENT"
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

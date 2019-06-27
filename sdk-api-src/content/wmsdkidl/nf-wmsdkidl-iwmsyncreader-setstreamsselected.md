@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMSyncReader interface [windows Media Format],SetStreamsSelected method, IWMSyncReader.SetStreamsSelected, IWMSyncReader::SetStreamsSelected, IWMSyncReaderSetStreamsSelected, SetStreamsSelected, SetStreamsSelected method [windows Media Format], SetStreamsSelected method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_setstreamsselected, wmsdkidl/IWMSyncReader::SetStreamsSelected
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMSyncReader.SetStreamsSelected"]
+f1_keywords: 
+ - "wmsdkidl/IWMSyncReader.SetStreamsSelected"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

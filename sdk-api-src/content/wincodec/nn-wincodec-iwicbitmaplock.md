@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapLock, IWICBitmapLock interface [Windows Imaging Component], IWICBitmapLock interface [Windows Imaging Component],described, _wic_codec_iwicbitmaplock, wic._wic_codec_iwicbitmaplock, wincodec/IWICBitmapLock
 ms.topic: interface
-f1_keywords: ["wincodec/IWICBitmapLock"]
+f1_keywords: 
+ - "wincodec/IWICBitmapLock"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

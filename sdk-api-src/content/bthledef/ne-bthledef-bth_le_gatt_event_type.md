@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BTH_LE_GATT_EVENT_TYPE, BTH_LE_GATT_EVENT_TYPE enumeration [Bluetooth Devices], CharacteristicValueChangedEvent, bltooth.bth_le_gatt_event_type, bthledef/BTH_LE_GATT_EVENT_TYPE, bthledef/CharacteristicValueChangedEvent
 ms.topic: enum
-f1_keywords: ["bthledef/BTH_LE_GATT_EVENT_TYPE"]
+f1_keywords: 
+ - "bthledef/BTH_LE_GATT_EVENT_TYPE"
 req.header: bthledef.h
 req.include-header: BthLEDef.h
 req.target-type: Windows

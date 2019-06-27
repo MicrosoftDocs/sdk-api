@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferInitialize interface [Microsoft TV Technologies],SetHKEY method, IStreamBufferInitialize.SetHKEY, IStreamBufferInitialize::SetHKEY, IStreamBufferInitializeSetHKEY, SetHKEY, SetHKEY method [Microsoft TV Technologies], SetHKEY method [Microsoft TV Technologies],IStreamBufferInitialize interface, mstv.istreambufferinitialize_sethkey, sbe/IStreamBufferInitialize::SetHKEY
 ms.topic: method
-f1_keywords: ["sbe/IStreamBufferInitialize.SetHKEY"]
+f1_keywords: 
+ - "sbe/IStreamBufferInitialize.SetHKEY"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

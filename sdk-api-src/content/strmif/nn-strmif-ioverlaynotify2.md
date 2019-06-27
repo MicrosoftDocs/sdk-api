@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOverlayNotify2, IOverlayNotify2 interface [DirectShow], IOverlayNotify2 interface [DirectShow],described, IOverlayNotify2Interface, dshow.ioverlaynotify2, strmif/IOverlayNotify2
 ms.topic: interface
-f1_keywords: ["strmif/IOverlayNotify2"]
+f1_keywords: 
+ - "strmif/IOverlayNotify2"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

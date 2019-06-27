@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RoGetBufferMarshaler, RoGetBufferMarshaler function [Windows Runtime], robuffer/RoGetBufferMarshaler, winrt.rogetbuffermarshaler
 ms.topic: function
-f1_keywords: ["robuffer/RoGetBufferMarshaler"]
+f1_keywords: 
+ - "robuffer/RoGetBufferMarshaler"
 req.header: robuffer.h
 req.include-header: 
 req.target-type: Windows

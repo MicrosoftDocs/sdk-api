@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HitTestWithLasso, HitTestWithLasso method [Tablet PC], HitTestWithLasso method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],HitTestWithLasso method, IInkDisp.HitTestWithLasso, IInkDisp::HitTestWithLasso, fe88410d-e3e7-4899-b6fe-04e6eed98bbb, msinkaut/IInkDisp::HitTestWithLasso, tablet.inkdisp_hittest_point____single
 ms.topic: method
-f1_keywords: ["msinkaut/IInkDisp.HitTestWithLasso"]
+f1_keywords: 
+ - "msinkaut/IInkDisp.HitTestWithLasso"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

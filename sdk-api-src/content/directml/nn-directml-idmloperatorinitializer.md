@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDMLOperatorInitializer, IDMLOperatorInitializer interface, IDMLOperatorInitializer interface,described, direct3d12.idmloperatorinitializer, directml/IDMLOperatorInitializer
 ms.topic: interface
-f1_keywords: ["directml/IDMLOperatorInitializer"]
+f1_keywords: 
+ - "directml/IDMLOperatorInitializer"
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

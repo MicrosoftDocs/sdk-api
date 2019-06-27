@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfCandidateListUIElementBehavior, ITfCandidateListUIElementBehavior interface [Text Services Framework], ITfCandidateListUIElementBehavior interface [Text Services Framework],described, _tsf_itfcandidatelistuielementbehavior_ref, msctf/ITfCandidateListUIElementBehavior, tsf.itfcandidatelistuielementbehavior
 ms.topic: interface
-f1_keywords: ["msctf/ITfCandidateListUIElementBehavior"]
+f1_keywords: 
+ - "msctf/ITfCandidateListUIElementBehavior"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

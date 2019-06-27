@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLocaleNameLength, GetLocaleNameLength method [Direct Write], GetLocaleNameLength method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetLocaleNameLength method, IDWriteTextLayout.GetLocaleNameLength, IDWriteTextLayout::GetLocaleNameLength, directwrite.IDWriteTextLayout_GetLocaleNameLength, dwrite/IDWriteTextLayout::GetLocaleNameLength
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextLayout.GetLocaleNameLength"]
+f1_keywords: 
+ - "dwrite/IDWriteTextLayout.GetLocaleNameLength"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

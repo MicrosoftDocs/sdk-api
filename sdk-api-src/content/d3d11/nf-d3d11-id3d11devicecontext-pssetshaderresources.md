@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 321c7b79-1c69-8b42-8a25-c6a5965c84d5, ID3D11DeviceContext interface [Direct3D 11],PSSetShaderResources method, ID3D11DeviceContext.PSSetShaderResources, ID3D11DeviceContext::PSSetShaderResources, PSSetShaderResources, PSSetShaderResources method [Direct3D 11], PSSetShaderResources method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::PSSetShaderResources, direct3d11.id3d11devicecontext_pssetshaderresources
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11DeviceContext.PSSetShaderResources"]
+f1_keywords: 
+ - "d3d11/ID3D11DeviceContext.PSSetShaderResources"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

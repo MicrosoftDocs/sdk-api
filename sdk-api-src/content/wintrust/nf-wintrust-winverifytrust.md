@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: A valid window handle, DRIVER_ACTION_VERIFY, HTTPSPROV_ACTION, INVALID_HANDLE_VALUE, OFFICESIGN_ACTION_VERIFY, WINTRUST_ACTION_GENERIC_CHAIN_VERIFY, WINTRUST_ACTION_GENERIC_VERIFY_V2, WINTRUST_ACTION_TRUSTPROVIDER_TEST, WinVerifyTrust, WinVerifyTrust function [Security], Zero, _win32_winverifytrust, security.winverifytrust, wintrust/WinVerifyTrust
 ms.topic: function
-f1_keywords: ["wintrust/WinVerifyTrust"]
+f1_keywords: 
+ - "wintrust/WinVerifyTrust"
 req.header: wintrust.h
 req.include-header: Softpub.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Windows Shell], GetName method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],GetName method, ISyncMgrHandler.GetName, ISyncMgrHandler::GetName, _shell_ISyncMgrHandler_GetName, shell.ISyncMgrHandler_GetName, syncmgr/ISyncMgrHandler::GetName
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrHandler.GetName"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrHandler.GetName"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

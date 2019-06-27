@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundingOrientedBox interface [DirectX Math Support APIs],op_Assignment method, BoundingOrientedBox.op_Assignment, BoundingOrientedBox.operator-assign(BoundingOrientedBox &&), BoundingOrientedBox.operator=, BoundingOrientedBox::operator-assign(BoundingOrientedBox &&), BoundingOrientedBox::operator=, dxmath.boundingorientedbox_op_assignment, op_Assignment method [DirectX Math Support APIs], op_Assignment method [DirectX Math Support APIs],BoundingOrientedBox interface, operator=
 ms.topic: method
-f1_keywords: ["directxcollision/BoundingOrientedBox.op_Assignment"]
+f1_keywords: 
+ - "directxcollision/BoundingOrientedBox.op_Assignment"
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

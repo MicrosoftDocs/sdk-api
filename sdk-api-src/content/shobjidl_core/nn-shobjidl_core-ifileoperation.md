@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileOperation, IFileOperation interface [Windows Shell], IFileOperation interface [Windows Shell],described, _shell_IFileOperation, shell.IFileOperation, shobjidl_core/IFileOperation
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IFileOperation"]
+f1_keywords: 
+ - "shobjidl_core/IFileOperation"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

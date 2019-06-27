@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPixelFormats, GetPixelFormats method [Windows Imaging Component], GetPixelFormats method [Windows Imaging Component],IWICFormatConverterInfo interface, IWICFormatConverterInfo interface [Windows Imaging Component],GetPixelFormats method, IWICFormatConverterInfo.GetPixelFormats, IWICFormatConverterInfo::GetPixelFormats, _wic_codec_iwicformatconverterinfo_getpixelformats, wic._wic_codec_iwicformatconverterinfo_getpixelformats, wincodec/IWICFormatConverterInfo::GetPixelFormats
 ms.topic: method
-f1_keywords: ["wincodec/IWICFormatConverterInfo.GetPixelFormats"]
+f1_keywords: 
+ - "wincodec/IWICFormatConverterInfo.GetPixelFormats"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

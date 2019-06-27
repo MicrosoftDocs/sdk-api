@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumStream interface [TAPI 2.2],Skip method, IEnumStream.Skip, IEnumStream::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumStream interface, _tapi3_ienumstream_skip, tapi3.ienumstream_skip, tapi3if/IEnumStream::Skip
 ms.topic: method
-f1_keywords: ["tapi3if/IEnumStream.Skip"]
+f1_keywords: 
+ - "tapi3if/IEnumStream.Skip"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

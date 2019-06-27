@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsVarTypeSignedInteger, IsVarTypeSignedInteger function [Windows Properties], _shell_IsVarTypeSignedInteger, properties.IsVarTypeSignedInteger, propvarutil/IsVarTypeSignedInteger, shell.IsVarTypeSignedInteger
 ms.topic: function
-f1_keywords: ["propvarutil/IsVarTypeSignedInteger"]
+f1_keywords: 
+ - "propvarutil/IsVarTypeSignedInteger"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

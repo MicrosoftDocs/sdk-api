@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SYNCMGR_CIT_DELETED, SYNCMGR_CIT_UPDATED, SYNCMGR_CONFLICT_ITEM_TYPE, SYNCMGR_CONFLICT_ITEM_TYPE enumeration [Windows Shell], _shell_SYNCMGR_CONFLICT_ITEM_TYPE, shell.SYNCMGR_CONFLICT_ITEM_TYPE, syncmgr/SYNCMGR_CIT_DELETED, syncmgr/SYNCMGR_CIT_UPDATED, syncmgr/SYNCMGR_CONFLICT_ITEM_TYPE
 ms.topic: enum
-f1_keywords: ["syncmgr/SYNCMGR_CONFLICT_ITEM_TYPE"]
+f1_keywords: 
+ - "syncmgr/SYNCMGR_CONFLICT_ITEM_TYPE"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

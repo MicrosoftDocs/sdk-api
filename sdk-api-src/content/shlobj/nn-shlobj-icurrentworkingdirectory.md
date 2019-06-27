@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICurrentWorkingDirectory, ICurrentWorkingDirectory interface [Windows Shell], ICurrentWorkingDirectory interface [Windows Shell],described, _win32_ICurrentWorkingDirectory, shell.ICurrentWorkingDirectory, shlobj/ICurrentWorkingDirectory
 ms.topic: interface
-f1_keywords: ["shlobj/ICurrentWorkingDirectory"]
+f1_keywords: 
+ - "shlobj/ICurrentWorkingDirectory"
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

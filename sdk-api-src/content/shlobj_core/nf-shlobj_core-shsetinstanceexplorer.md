@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHSetInstanceExplorer, SHSetInstanceExplorer function [Windows Shell], _win32_SHSetInstanceExplorer, shell.SHSetInstanceExplorer, shlobj_core/SHSetInstanceExplorer
 ms.topic: function
-f1_keywords: ["shlobj_core/SHSetInstanceExplorer"]
+f1_keywords: 
+ - "shlobj_core/SHSetInstanceExplorer"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

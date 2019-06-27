@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPKERNINGPAIR, KERNINGPAIR, KERNINGPAIR structure [Windows GDI], LPKERNINGPAIR, LPKERNINGPAIR structure pointer [Windows GDI], _win32_KERNINGPAIR_str, gdi.kerningpair, wingdi/KERNINGPAIR, wingdi/LPKERNINGPAIR"
 ms.topic: struct
-f1_keywords: ["wingdi/KERNINGPAIR"]
+f1_keywords: 
+ - "wingdi/KERNINGPAIR"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

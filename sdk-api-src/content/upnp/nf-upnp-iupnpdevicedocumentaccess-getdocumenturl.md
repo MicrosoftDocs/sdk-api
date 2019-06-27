@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDocumentURL, GetDocumentURL method [UPnP APIs], GetDocumentURL method [UPnP APIs],IUPnPDeviceDocumentAccess interface, IUPnPDeviceDocumentAccess interface [UPnP APIs],GetDocumentURL method, IUPnPDeviceDocumentAccess.GetDocumentURL, IUPnPDeviceDocumentAccess::GetDocumentURL, _upnp_iupnpdevicedocumentaccess_getdocumenturl, upnp.iupnpdevicedocumentaccess_getdocumenturl, upnp/IUPnPDeviceDocumentAccess::GetDocumentURL
 ms.topic: method
-f1_keywords: ["upnp/IUPnPDeviceDocumentAccess.GetDocumentURL"]
+f1_keywords: 
+ - "upnp/IUPnPDeviceDocumentAccess.GetDocumentURL"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

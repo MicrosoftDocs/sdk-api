@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HotkeyPrefix, HotkeyPrefix enumeration [GDI+], HotkeyPrefixHide, HotkeyPrefixNone, HotkeyPrefixShow, _gdiplus_ENUM_HotkeyPrefix, gdiplus._gdiplus_ENUM_HotkeyPrefix, gdiplusenums/HotkeyPrefix, gdiplusenums/HotkeyPrefixHide, gdiplusenums/HotkeyPrefixNone, gdiplusenums/HotkeyPrefixShow
 ms.topic: enum
-f1_keywords: ["gdiplusenums/HotkeyPrefix"]
+f1_keywords: 
+ - "gdiplusenums/HotkeyPrefix"
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

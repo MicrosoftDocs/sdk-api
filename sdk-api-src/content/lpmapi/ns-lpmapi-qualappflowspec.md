@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QualAppFlowSpec, QualAppFlowSpec structure [QOS], lpmapi/QualAppFlowSpec, qos.qualappflowspec
 ms.topic: struct
-f1_keywords: ["lpmapi/QualAppFlowSpec"]
+f1_keywords: 
+ - "lpmapi/QualAppFlowSpec"
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

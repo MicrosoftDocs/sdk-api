@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateVideoByWiaDevID, CreateVideoByWiaDevID method [WIA], CreateVideoByWiaDevID method [WIA],IWiaVideo interface, IWiaVideo interface [WIA],CreateVideoByWiaDevID method, IWiaVideo.CreateVideoByWiaDevID, IWiaVideo::CreateVideoByWiaDevID, _wia_IWiaVideo_CreateVideoByWiaDevID, wia._wia_IWiaVideo_CreateVideoByWiaDevID, wiavideo/IWiaVideo::CreateVideoByWiaDevID
 ms.topic: method
-f1_keywords: ["wiavideo/IWiaVideo.CreateVideoByWiaDevID"]
+f1_keywords: 
+ - "wiavideo/IWiaVideo.CreateVideoByWiaDevID"
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows

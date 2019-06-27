@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDefaultStaticTerminal, GetDefaultStaticTerminal method [TAPI 2.2], GetDefaultStaticTerminal method [TAPI 2.2],ITTerminalSupport interface, ITTerminalSupport interface [TAPI 2.2],GetDefaultStaticTerminal method, ITTerminalSupport.GetDefaultStaticTerminal, ITTerminalSupport::GetDefaultStaticTerminal, _tapi3_itterminalsupport_getdefaultstaticterminal, tapi3.itterminalsupport_getdefaultstaticterminal, tapi3if/ITTerminalSupport::GetDefaultStaticTerminal
 ms.topic: method
-f1_keywords: ["tapi3if/ITTerminalSupport.GetDefaultStaticTerminal"]
+f1_keywords: 
+ - "tapi3if/ITTerminalSupport.GetDefaultStaticTerminal"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

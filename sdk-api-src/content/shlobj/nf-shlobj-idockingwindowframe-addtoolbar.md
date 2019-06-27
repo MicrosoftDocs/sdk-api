@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, AddToolbar, AddToolbar method [Windows Shell], AddToolbar method [Windows Shell],IDockingWindowFrame interface, DWFAF_AUTOHIDE, DWFAF_GROUP1, DWFAF_GROUP2, DWFAF_HIDDEN, IDockingWindowFrame interface [Windows Shell],AddToolbar method, IDockingWindowFrame.AddToolbar, IDockingWindowFrame::AddToolbar, _win32_IDockingWindowFrame_AddToolbar, shell.IDockingWindowFrame_AddToolbar, shlobj/IDockingWindowFrame::AddToolbar
 ms.topic: method
-f1_keywords: ["shlobj/IDockingWindowFrame.AddToolbar"]
+f1_keywords: 
+ - "shlobj/IDockingWindowFrame.AddToolbar"
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

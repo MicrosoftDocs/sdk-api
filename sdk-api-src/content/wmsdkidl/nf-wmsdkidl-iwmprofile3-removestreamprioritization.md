@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMProfile3 interface [windows Media Format],RemoveStreamPrioritization method, IWMProfile3.RemoveStreamPrioritization, IWMProfile3::RemoveStreamPrioritization, IWMProfile3RemoveStreamPrioritization, RemoveStreamPrioritization, RemoveStreamPrioritization method [windows Media Format], RemoveStreamPrioritization method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile3_removestreamprioritization, wmsdkidl/IWMProfile3::RemoveStreamPrioritization
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMProfile3.RemoveStreamPrioritization"]
+f1_keywords: 
+ - "wmsdkidl/IWMProfile3.RemoveStreamPrioritization"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

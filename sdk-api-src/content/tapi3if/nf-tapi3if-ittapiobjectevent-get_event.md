@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITTAPIObjectEvent interface [TAPI 2.2],get_Event method, ITTAPIObjectEvent.get_Event, ITTAPIObjectEvent::get_Event, _tapi3_ittapiobjectevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITTAPIObjectEvent interface, tapi3.ittapiobjectevent_get_event, tapi3if/ITTAPIObjectEvent::get_Event
 ms.topic: method
-f1_keywords: ["tapi3if/ITTAPIObjectEvent.get_Event"]
+f1_keywords: 
+ - "tapi3if/ITTAPIObjectEvent.get_Event"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

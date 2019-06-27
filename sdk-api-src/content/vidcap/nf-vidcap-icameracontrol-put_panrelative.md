@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],put_PanRelative method, ICameraControl.put_PanRelative, ICameraControl::put_PanRelative, ICameraControlput_PanRelative, dshow.icameracontrol_put_panrelative, put_PanRelative, put_PanRelative method [DirectShow], put_PanRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_PanRelative
 ms.topic: method
-f1_keywords: ["vidcap/ICameraControl.put_PanRelative"]
+f1_keywords: 
+ - "vidcap/ICameraControl.put_PanRelative"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

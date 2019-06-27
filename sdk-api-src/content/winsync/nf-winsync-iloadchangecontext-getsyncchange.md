@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSyncChange, GetSyncChange method [Windows Sync], GetSyncChange method [Windows Sync],ILoadChangeContext interface, ILoadChangeContext interface [Windows Sync],GetSyncChange method, ILoadChangeContext.GetSyncChange, ILoadChangeContext::GetSyncChange, winsync.iloadchangecontext_getsyncchange, winsync/ILoadChangeContext::GetSyncChange
 ms.topic: method
-f1_keywords: ["winsync/ILoadChangeContext.GetSyncChange"]
+f1_keywords: 
+ - "winsync/ILoadChangeContext.GetSyncChange"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

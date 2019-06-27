@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarI1FromDec, VarI1FromDec function [Automation], _oa96_VarI1FromDec, automat.vari1fromdec, oleauto/VarI1FromDec
 ms.topic: function
-f1_keywords: ["oleauto/VarI1FromDec"]
+f1_keywords: 
+ - "oleauto/VarI1FromDec"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

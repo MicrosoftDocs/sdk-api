@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],pause method, IWMPControls.pause, IWMPControls::pause, IWMPControlspause, pause, pause method [Windows Media Player], pause method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_pause, wmp/IWMPControls::pause
 ms.topic: method
-f1_keywords: ["wmp/IWMPControls.pause"]
+f1_keywords: 
+ - "wmp/IWMPControls.pause"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

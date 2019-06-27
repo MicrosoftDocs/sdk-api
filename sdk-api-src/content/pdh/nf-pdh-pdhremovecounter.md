@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdhRemoveCounter, PdhRemoveCounter function [Perf], _win32_pdhremovecounter, base.pdhremovecounter, pdh/PdhRemoveCounter, perf.pdhremovecounter
 ms.topic: function
-f1_keywords: ["pdh/PdhRemoveCounter"]
+f1_keywords: 
+ - "pdh/PdhRemoveCounter"
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

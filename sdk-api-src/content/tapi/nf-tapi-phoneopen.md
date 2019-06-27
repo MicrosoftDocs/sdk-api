@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_phoneopen, phoneOpen, phoneOpen function [TAPI 2.2], tapi/phoneOpen, tapi2.phoneopen"
 ms.topic: function
-f1_keywords: ["tapi/phoneOpen"]
+f1_keywords: 
+ - "tapi/phoneOpen"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

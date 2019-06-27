@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetActivationPolicy, GetActivationPolicy method [COM], GetActivationPolicy method [COM],IPointerInactive interface, IPointerInactive interface [COM],GetActivationPolicy method, IPointerInactive.GetActivationPolicy, IPointerInactive::GetActivationPolicy, _ctrl_ipointerinactive_getactivationpolicy, com.ipointerinactive_getactivationpolicy, ocidl/IPointerInactive::GetActivationPolicy
 ms.topic: method
-f1_keywords: ["ocidl/IPointerInactive.GetActivationPolicy"]
+f1_keywords: 
+ - "ocidl/IPointerInactive.GetActivationPolicy"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

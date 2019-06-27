@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDEndpointProxy interface,SendTwoWayRequestAsync method, IWSDEndpointProxy.SendTwoWayRequestAsync, IWSDEndpointProxy::SendTwoWayRequestAsync, SendTwoWayRequestAsync, SendTwoWayRequestAsync method, SendTwoWayRequestAsync method,IWSDEndpointProxy interface, ncd.iwsdendpointproxy_sendtwowayrequestasync, wsdclient/IWSDEndpointProxy::SendTwoWayRequestAsync
 ms.topic: method
-f1_keywords: ["wsdclient/IWSDEndpointProxy.SendTwoWayRequestAsync"]
+f1_keywords: 
+ - "wsdclient/IWSDEndpointProxy.SendTwoWayRequestAsync"
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

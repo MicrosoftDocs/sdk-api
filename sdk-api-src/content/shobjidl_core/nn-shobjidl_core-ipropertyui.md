@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPropertyUI, IPropertyUI interface [Windows Properties], IPropertyUI interface [Windows Properties],described, _shell_IPropertyUI, properties.IPropertyUI, shell.IPropertyUI, shobjidl_core/IPropertyUI
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IPropertyUI"]
+f1_keywords: 
+ - "shobjidl_core/IPropertyUI"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

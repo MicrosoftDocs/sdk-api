@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetImageUnusedHeaderBytes, GetImageUnusedHeaderBytes function, _win32_getimageunusedheaderbytes, base.getimageunusedheaderbytes, imagehlp/GetImageUnusedHeaderBytes
 ms.topic: function
-f1_keywords: ["imagehlp/GetImageUnusedHeaderBytes"]
+f1_keywords: 
+ - "imagehlp/GetImageUnusedHeaderBytes"
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

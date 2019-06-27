@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILayoutStorage interface [Structured Storage],ReLayoutDocfile method, ILayoutStorage.ReLayoutDocfile, ILayoutStorage::ReLayoutDocfile, ReLayoutDocfile, ReLayoutDocfile method [Structured Storage], ReLayoutDocfile method [Structured Storage],ILayoutStorage interface, _stg_ilayoutstorage_relayoutdocfile, objidl/ILayoutStorage::ReLayoutDocfile, stg.ilayoutstorage_relayoutdocfile
 ms.topic: method
-f1_keywords: ["objidl/ILayoutStorage.ReLayoutDocfile"]
+f1_keywords: 
+ - "objidl/ILayoutStorage.ReLayoutDocfile"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

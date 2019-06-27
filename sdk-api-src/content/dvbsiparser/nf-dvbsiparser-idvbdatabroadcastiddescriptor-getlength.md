@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbDataBroadcastIDDescriptor interface, IDvbDataBroadcastIDDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbDataBroadcastIDDescriptor.GetLength, IDvbDataBroadcastIDDescriptor::GetLength, dvbsiparser/IDvbDataBroadcastIDDescriptor::GetLength, mstv.idvbdatabroadcastiddescriptor_getlength
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbDataBroadcastIDDescriptor.GetLength"]
+f1_keywords: 
+ - "dvbsiparser/IDvbDataBroadcastIDDescriptor.GetLength"
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

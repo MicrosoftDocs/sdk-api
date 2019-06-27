@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Windows Controls], GetProperty method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetProperty method, ITextRange2.GetProperty, ITextRange2::GetProperty, controls.itextrange2_getproperty, tom/ITextRange2::GetProperty
 ms.topic: method
-f1_keywords: ["tom/ITextRange2.GetProperty"]
+f1_keywords: 
+ - "tom/ITextRange2.GetProperty"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

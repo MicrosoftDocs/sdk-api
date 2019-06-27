@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],get_LNBSwitch method, IDVBSTuningSpace.get_LNBSwitch, IDVBSTuningSpace::get_LNBSwitch, IDVBSTuningSpaceget_LNBSwitch, get_LNBSwitch, get_LNBSwitch method [Microsoft TV Technologies], get_LNBSwitch method [Microsoft TV Technologies],IDVBSTuningSpace interface, mstv.idvbstuningspace_get_lnbswitch, tuner/IDVBSTuningSpace::get_LNBSwitch
 ms.topic: method
-f1_keywords: ["tuner/IDVBSTuningSpace.get_LNBSwitch"]
+f1_keywords: 
+ - "tuner/IDVBSTuningSpace.get_LNBSwitch"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

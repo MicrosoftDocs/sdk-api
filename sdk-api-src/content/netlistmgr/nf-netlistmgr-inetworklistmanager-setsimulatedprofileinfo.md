@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetworkListManager interface [Network Awareness],SetSimulatedProfileInfo method, INetworkListManager.SetSimulatedProfileInfo, INetworkListManager::SetSimulatedProfileInfo, SetSimulatedProfileInfo, SetSimulatedProfileInfo method [Network Awareness], SetSimulatedProfileInfo method [Network Awareness],INetworkListManager interface, netlistmgr/INetworkListManager::SetSimulatedProfileInfo, nla.inetworklistmanager_setsimulatedprofileinfo
 ms.topic: method
-f1_keywords: ["netlistmgr/INetworkListManager.SetSimulatedProfileInfo"]
+f1_keywords: 
+ - "netlistmgr/INetworkListManager.SetSimulatedProfileInfo"
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_ntohs_2, ntohs, ntohs function [Winsock], winsock.ntohs_2, winsock/ntohs"
 ms.topic: function
-f1_keywords: ["winsock/ntohs"]
+f1_keywords: 
+ - "winsock/ntohs"
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows

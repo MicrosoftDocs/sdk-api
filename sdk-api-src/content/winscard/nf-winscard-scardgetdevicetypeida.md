@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SCardGetDeviceTypeId, SCardGetDeviceTypeId function [Security], SCardGetDeviceTypeIdA, SCardGetDeviceTypeIdW, security.scardgetdevicetypeid, winscard/SCardGetDeviceTypeId, winscard/SCardGetDeviceTypeIdA, winscard/SCardGetDeviceTypeIdW
 ms.topic: function
-f1_keywords: ["winscard/SCardGetDeviceTypeId"]
+f1_keywords: 
+ - "winscard/SCardGetDeviceTypeId"
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

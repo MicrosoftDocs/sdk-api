@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsCreateChannel, WsCreateChannel function [Web Services for Windows], webservices/WsCreateChannel, wsw.wscreatechannel
 ms.topic: function
-f1_keywords: ["webservices/WsCreateChannel"]
+f1_keywords: 
+ - "webservices/WsCreateChannel"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

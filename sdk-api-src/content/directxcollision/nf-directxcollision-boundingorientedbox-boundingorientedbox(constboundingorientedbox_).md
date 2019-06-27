@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundingOrientedBox, BoundingOrientedBox constructor [DirectX Math Support APIs], BoundingOrientedBox constructor [DirectX Math Support APIs],BoundingOrientedBox interface, BoundingOrientedBox interface [DirectX Math Support APIs],BoundingOrientedBox constructor, BoundingOrientedBox.BoundingOrientedBox, BoundingOrientedBox.BoundingOrientedBox(const BoundingOrientedBox &), BoundingOrientedBox.BoundingOrientedBox(const BoundingOrientedBox&), BoundingOrientedBox::BoundingOrientedBox, BoundingOrientedBox::BoundingOrientedBox(const BoundingOrientedBox &), dxmath.boundingorientedbox_ctor_3
 ms.topic: method
-f1_keywords: ["directxcollision/BoundingOrientedBox.BoundingOrientedBox"]
+f1_keywords: 
+ - "directxcollision/BoundingOrientedBox.BoundingOrientedBox"
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

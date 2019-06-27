@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectDefaultAudioLanguage method, IDvdControl2.SelectDefaultAudioLanguage, IDvdControl2::SelectDefaultAudioLanguage, IDvdControl2SelectDefaultAudioLanguage, SelectDefaultAudioLanguage, SelectDefaultAudioLanguage method [DirectShow], SelectDefaultAudioLanguage method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectdefaultaudiolanguage, strmif/IDvdControl2::SelectDefaultAudioLanguage
 ms.topic: method
-f1_keywords: ["strmif/IDvdControl2.SelectDefaultAudioLanguage"]
+f1_keywords: 
+ - "strmif/IDvdControl2.SelectDefaultAudioLanguage"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

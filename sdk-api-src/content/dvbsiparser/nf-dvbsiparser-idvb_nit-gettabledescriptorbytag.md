@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, IDVB_NIT.GetTableDescriptorByTag, IDVB_NIT::GetTableDescriptorByTag, IDVB_NITGetTableDescriptorByTag, dvbsiparser/IDVB_NIT::GetTableDescriptorByTag, mstv.idvb_nit_gettabledescriptorbytag
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDVB_NIT.GetTableDescriptorByTag"]
+f1_keywords: 
+ - "dvbsiparser/IDVB_NIT.GetTableDescriptorByTag"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

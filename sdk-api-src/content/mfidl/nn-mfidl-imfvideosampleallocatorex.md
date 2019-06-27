@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFVideoSampleAllocatorEx, IMFVideoSampleAllocatorEx interface [Media Foundation], IMFVideoSampleAllocatorEx interface [Media Foundation],described, mf.imfvideosampleallocatorex, mfidl/IMFVideoSampleAllocatorEx
 ms.topic: interface
-f1_keywords: ["mfidl/IMFVideoSampleAllocatorEx"]
+f1_keywords: 
+ - "mfidl/IMFVideoSampleAllocatorEx"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

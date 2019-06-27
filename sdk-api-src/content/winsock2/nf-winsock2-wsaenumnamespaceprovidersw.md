@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAEnumNameSpaceProviders, WSAEnumNameSpaceProviders function [Winsock], WSAEnumNameSpaceProvidersA, WSAEnumNameSpaceProvidersW, _win32_wsaenumnamespaceproviders_2, winsock.wsaenumnamespaceproviders_2, winsock2/WSAEnumNameSpaceProviders, winsock2/WSAEnumNameSpaceProvidersA, winsock2/WSAEnumNameSpaceProvidersW
 ms.topic: function
-f1_keywords: ["winsock2/WSAEnumNameSpaceProviders"]
+f1_keywords: 
+ - "winsock2/WSAEnumNameSpaceProviders"
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InstallPerfDll, InstallPerfDll function [Windows API], InstallPerfDllA, InstallPerfDllW, loadperf/InstallPerfDll, winprog.installperfdll
 ms.topic: function
-f1_keywords: ["loadperf/InstallPerfDll"]
+f1_keywords: 
+ - "loadperf/InstallPerfDll"
 req.header: loadperf.h
 req.include-header: 
 req.target-type: Windows

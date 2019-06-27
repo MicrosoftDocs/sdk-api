@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDSObject, CreateDSObject method [ADSI], CreateDSObject method [ADSI],IDirectoryObject interface, IDirectoryObject interface [ADSI],CreateDSObject method, IDirectoryObject.CreateDSObject, IDirectoryObject::CreateDSObject, _ds_idirectoryobject_createdsobject, adsi.idirectoryobject__createdsobject, adsi.idirectoryobject_createdsobject, iads/IDirectoryObject::CreateDSObject
 ms.topic: method
-f1_keywords: ["iads/IDirectoryObject.CreateDSObject"]
+f1_keywords: 
+ - "iads/IDirectoryObject.CreateDSObject"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

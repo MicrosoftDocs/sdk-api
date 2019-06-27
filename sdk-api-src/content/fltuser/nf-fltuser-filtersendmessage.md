@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FilterSendMessage, FilterSendMessage function [Installable File System Drivers], FltWin32ApiRef_7d1d856f-6ed8-4c55-8524-05d99ab7d626.xml, fltuser/FilterSendMessage, ifsk.filtersendmessage
 ms.topic: function
-f1_keywords: ["fltuser/FilterSendMessage"]
+f1_keywords: 
+ - "fltuser/FilterSendMessage"
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BindConstantBuffer, BindConstantBuffer method [Direct3D 11], BindConstantBuffer method [Direct3D 11],ID3D11ModuleInstance interface, ID3D11ModuleInstance interface [Direct3D 11],BindConstantBuffer method, ID3D11ModuleInstance.BindConstantBuffer, ID3D11ModuleInstance::BindConstantBuffer, d3d11shader/ID3D11ModuleInstance::BindConstantBuffer, direct3d11.id3d11moduleinstance_bindconstantbuffer
 ms.topic: method
-f1_keywords: ["d3d11shader/ID3D11ModuleInstance.BindConstantBuffer"]
+f1_keywords: 
+ - "d3d11shader/ID3D11ModuleInstance.BindConstantBuffer"
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

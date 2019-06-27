@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ALTERNATE, CreatePolyPolygonRgn, CreatePolyPolygonRgn function [Windows GDI], WINDING, _win32_CreatePolyPolygonRgn, gdi.createpolypolygonrgn, wingdi/CreatePolyPolygonRgn
 ms.topic: function
-f1_keywords: ["wingdi/CreatePolyPolygonRgn"]
+f1_keywords: 
+ - "wingdi/CreatePolyPolygonRgn"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

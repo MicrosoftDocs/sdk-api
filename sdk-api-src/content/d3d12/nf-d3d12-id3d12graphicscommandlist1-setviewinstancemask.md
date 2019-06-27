@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList1 interface,SetViewInstanceMask method, ID3D12GraphicsCommandList1.SetViewInstanceMask, ID3D12GraphicsCommandList1::SetViewInstanceMask, SetViewInstanceMask, SetViewInstanceMask method, SetViewInstanceMask method,ID3D12GraphicsCommandList1 interface, d3d12/ID3D12GraphicsCommandList1::SetViewInstanceMask, direct3d12.id3d12graphicscommandlist1_setviewinstancemask_uint
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12GraphicsCommandList1.SetViewInstanceMask"]
+f1_keywords: 
+ - "d3d12/ID3D12GraphicsCommandList1.SetViewInstanceMask"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

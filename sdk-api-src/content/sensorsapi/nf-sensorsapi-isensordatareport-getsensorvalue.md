@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSensorValue, GetSensorValue method, GetSensorValue method,ISensorDataReport interface, ISensorDataReport interface,GetSensorValue method, ISensorDataReport.GetSensorValue, ISensorDataReport::GetSensorValue, sensorsapi/ISensorDataReport::GetSensorValue, winsensors_com_ref.isensordatareport_getsensorvalue
 ms.topic: method
-f1_keywords: ["sensorsapi/ISensorDataReport.GetSensorValue"]
+f1_keywords: 
+ - "sensorsapi/ISensorDataReport.GetSensorValue"
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

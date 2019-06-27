@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDIJOYUSERVALUES, DIJOYUSERVALUES, DIJOYUSERVALUES structure [Human Input Devices], di_ref_bbcc635e-bb11-4ddb-9e15-0b84b4d28ea5.xml, dinputd/DIJOYUSERVALUES, hid.dijoyuservalues"
 ms.topic: struct
-f1_keywords: ["dinputd/DIJOYUSERVALUES"]
+f1_keywords: 
+ - "dinputd/DIJOYUSERVALUES"
 req.header: dinputd.h
 req.include-header: 
 req.target-type: Windows

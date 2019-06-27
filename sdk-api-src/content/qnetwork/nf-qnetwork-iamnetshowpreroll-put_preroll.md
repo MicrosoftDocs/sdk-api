@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowPreroll interface [DirectShow],put_Preroll method, IAMNetShowPreroll.put_Preroll, IAMNetShowPreroll::put_Preroll, IAMNetShowPrerollput_Preroll, dshow.iamnetshowpreroll_put_preroll, put_Preroll, put_Preroll method [DirectShow], put_Preroll method [DirectShow],IAMNetShowPreroll interface, qnetwork/IAMNetShowPreroll::put_Preroll
 ms.topic: method
-f1_keywords: ["qnetwork/IAMNetShowPreroll.put_Preroll"]
+f1_keywords: 
+ - "qnetwork/IAMNetShowPreroll.put_Preroll"
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

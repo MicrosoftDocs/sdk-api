@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSourceExtension interface [Media Foundation],SetDuration method, IMFMediaSourceExtension.SetDuration, IMFMediaSourceExtension::SetDuration, SetDuration, SetDuration method [Media Foundation], SetDuration method [Media Foundation],IMFMediaSourceExtension interface, mf.imfmediasourceextension_setduration, mfmediaengine/IMFMediaSourceExtension::SetDuration
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaSourceExtension.SetDuration"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaSourceExtension.SetDuration"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

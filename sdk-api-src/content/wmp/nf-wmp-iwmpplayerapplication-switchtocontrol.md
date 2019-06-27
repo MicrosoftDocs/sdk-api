@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayerApplication interface [Windows Media Player],switchToControl method, IWMPPlayerApplication.switchToControl, IWMPPlayerApplication::switchToControl, IWMPPlayerApplicationswitchToControl, switchToControl, switchToControl method [Windows Media Player], switchToControl method [Windows Media Player],IWMPPlayerApplication interface, wmp.iwmpplayerapplication_switchtocontrol, wmp/IWMPPlayerApplication::switchToControl
 ms.topic: method
-f1_keywords: ["wmp/IWMPPlayerApplication.switchToControl"]
+f1_keywords: 
+ - "wmp/IWMPPlayerApplication.switchToControl"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

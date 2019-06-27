@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MPEG_CURRENT_NEXT_BIT, MPEG_CURRENT_NEXT_BIT enumeration [Microsoft TV Technologies], MPEG_SECTION_IS_CURRENT, MPEG_SECTION_IS_NEXT, mpeg2structs/MPEG_CURRENT_NEXT_BIT, mpeg2structs/MPEG_SECTION_IS_CURRENT, mpeg2structs/MPEG_SECTION_IS_NEXT, mstv.mpeg_current_next_bit
 ms.topic: enum
-f1_keywords: ["mpeg2structs/MPEG_CURRENT_NEXT_BIT"]
+f1_keywords: 
+ - "mpeg2structs/MPEG_CURRENT_NEXT_BIT"
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows

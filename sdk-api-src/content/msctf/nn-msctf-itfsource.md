@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfSource, ITfSource interface [Text Services Framework], ITfSource interface [Text Services Framework],described, _tsf_itfsource_ref, msctf/ITfSource, tsf.itfsource
 ms.topic: interface
-f1_keywords: ["msctf/ITfSource"]
+f1_keywords: 
+ - "msctf/ITfSource"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaSample interface [DirectShow],SetSyncPoint method, IMediaSample.SetSyncPoint, IMediaSample::SetSyncPoint, IMediaSampleSetSyncPoint, SetSyncPoint, SetSyncPoint method [DirectShow], SetSyncPoint method [DirectShow],IMediaSample interface, dshow.imediasample_setsyncpoint, strmif/IMediaSample::SetSyncPoint
 ms.topic: method
-f1_keywords: ["strmif/IMediaSample.SetSyncPoint"]
+f1_keywords: 
+ - "strmif/IMediaSample.SetSyncPoint"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

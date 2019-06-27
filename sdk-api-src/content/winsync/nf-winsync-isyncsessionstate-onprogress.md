@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncSessionState interface [Windows Sync],OnProgress method, ISyncSessionState.OnProgress, ISyncSessionState::OnProgress, OnProgress, OnProgress method [Windows Sync], OnProgress method [Windows Sync],ISyncSessionState interface, winsync.isyncsessionstate_onprogress, winsync/ISyncSessionState::OnProgress
 ms.topic: method
-f1_keywords: ["winsync/ISyncSessionState.OnProgress"]
+f1_keywords: 
+ - "winsync/ISyncSessionState.OnProgress"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

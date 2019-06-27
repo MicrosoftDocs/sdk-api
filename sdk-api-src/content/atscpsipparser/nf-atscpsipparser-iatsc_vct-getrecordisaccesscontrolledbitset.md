@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordIsAccessControlledBitSet, GetRecordIsAccessControlledBitSet method [Microsoft TV Technologies], GetRecordIsAccessControlledBitSet method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordIsAccessControlledBitSet method, IATSC_VCT.GetRecordIsAccessControlledBitSet, IATSC_VCT::GetRecordIsAccessControlledBitSet, IATSC_VCTGetRecordIsAccessControlledBitSet, atscpsipparser/IATSC_VCT::GetRecordIsAccessControlledBitSet, mstv.iatsc_vct_getrecordisaccesscontrolledbitset
 ms.topic: method
-f1_keywords: ["atscpsipparser/IATSC_VCT.GetRecordIsAccessControlledBitSet"]
+f1_keywords: 
+ - "atscpsipparser/IATSC_VCT.GetRecordIsAccessControlledBitSet"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

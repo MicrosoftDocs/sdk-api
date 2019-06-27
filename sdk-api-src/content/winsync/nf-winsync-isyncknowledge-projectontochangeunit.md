@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge interface [Windows Sync],ProjectOntoChangeUnit method, ISyncKnowledge.ProjectOntoChangeUnit, ISyncKnowledge::ProjectOntoChangeUnit, ProjectOntoChangeUnit, ProjectOntoChangeUnit method [Windows Sync], ProjectOntoChangeUnit method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_projectontochangeunit, winsync/ISyncKnowledge::ProjectOntoChangeUnit
 ms.topic: method
-f1_keywords: ["winsync/ISyncKnowledge.ProjectOntoChangeUnit"]
+f1_keywords: 
+ - "winsync/ISyncKnowledge.ProjectOntoChangeUnit"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

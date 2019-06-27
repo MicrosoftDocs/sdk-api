@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertStoreProvCloseCallback, PFN_CERT_STORE_PROV_CLOSE, PFN_CERT_STORE_PROV_CLOSE callback, PFN_CERT_STORE_PROV_CLOSE callback function [Security], _crypto2_certstoreprovclosecallback, security.certstoreprovclosecallback, wincrypt/PFN_CERT_STORE_PROV_CLOSE
 ms.topic: callback
-f1_keywords: ["wincrypt/PFN_CERT_STORE_PROV_CLOSE"]
+f1_keywords: 
+ - "wincrypt/PFN_CERT_STORE_PROV_CLOSE"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

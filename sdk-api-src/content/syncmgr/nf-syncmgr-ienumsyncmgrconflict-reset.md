@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncMgrConflict interface [Windows Shell],Reset method, IEnumSyncMgrConflict.Reset, IEnumSyncMgrConflict::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumSyncMgrConflict interface, _shell_IEnumSyncMgrConflict_Reset, shell.IEnumSyncMgrConflict_Reset, syncmgr/IEnumSyncMgrConflict::Reset
 ms.topic: method
-f1_keywords: ["syncmgr/IEnumSyncMgrConflict.Reset"]
+f1_keywords: 
+ - "syncmgr/IEnumSyncMgrConflict.Reset"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

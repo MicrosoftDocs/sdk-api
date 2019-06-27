@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPackagePathByFullName, GetPackagePathByFullName function [App packaging and management], appmodel/GetPackagePathByFullName, appxpkg.getpackagepathbyfullname
 ms.topic: function
-f1_keywords: ["appmodel/GetPackagePathByFullName"]
+f1_keywords: 
+ - "appmodel/GetPackagePathByFullName"
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

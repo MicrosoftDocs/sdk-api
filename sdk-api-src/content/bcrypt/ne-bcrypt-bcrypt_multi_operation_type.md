@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_MULTI_OPERATION_TYPE, BCRYPT_MULTI_OPERATION_TYPE enumeration [Security], BCRYPT_OPERATION_TYPE_HASH, bcrypt/BCRYPT_MULTI_OPERATION_TYPE, bcrypt/BCRYPT_OPERATION_TYPE_HASH, security.bcrypt_multi_operation_type
 ms.topic: enum
-f1_keywords: ["bcrypt/BCRYPT_MULTI_OPERATION_TYPE"]
+f1_keywords: 
+ - "bcrypt/BCRYPT_MULTI_OPERATION_TYPE"
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

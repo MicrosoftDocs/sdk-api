@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [DirectShow], GetProperties method [DirectShow],IMediaSample2 interface, IMediaSample2 interface [DirectShow],GetProperties method, IMediaSample2.GetProperties, IMediaSample2::GetProperties, IMediaSample2GetProperties, dshow.imediasample2_getproperties, strmif/IMediaSample2::GetProperties
 ms.topic: method
-f1_keywords: ["strmif/IMediaSample2.GetProperties"]
+f1_keywords: 
+ - "strmif/IMediaSample2.GetProperties"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

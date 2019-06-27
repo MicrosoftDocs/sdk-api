@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMPServices_StreamState, WMPServices_StreamState enumeration [Windows Media Player], WMPServices_StreamStateDSP, WMPServices_StreamState_Pause, WMPServices_StreamState_Play, WMPServices_StreamState_Stop, wmp.wmpservices_streamstate, wmpservices/WMPServices_StreamState, wmpservices/WMPServices_StreamState_Pause, wmpservices/WMPServices_StreamState_Play, wmpservices/WMPServices_StreamState_Stop
 ms.topic: enum
-f1_keywords: ["wmpservices/WMPServices_StreamState"]
+f1_keywords: 
+ - "wmpservices/WMPServices_StreamState"
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

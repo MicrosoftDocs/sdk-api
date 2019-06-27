@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl2 interface [TAPI 2.2],RequestTerminal method, ITBasicCallControl2.RequestTerminal, ITBasicCallControl2::RequestTerminal, RequestTerminal, RequestTerminal method [TAPI 2.2], RequestTerminal method [TAPI 2.2],ITBasicCallControl2 interface, _tapi3_itbasiccallcontrol2_requestterminal, tapi3.itbasiccallcontrol2_requestterminal, tapi3if/ITBasicCallControl2::RequestTerminal
 ms.topic: method
-f1_keywords: ["tapi3if/ITBasicCallControl2.RequestTerminal"]
+f1_keywords: 
+ - "tapi3if/ITBasicCallControl2.RequestTerminal"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

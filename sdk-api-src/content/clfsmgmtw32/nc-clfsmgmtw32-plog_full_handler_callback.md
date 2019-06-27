@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LOG_FULL_HANDLER_CALLBACK, LOG_FULL_HANDLER_CALLBACK callback function [Files], PLOG_FULL_HANDLER_CALLBACK, PLOG_FULL_HANDLER_CALLBACK callback, clfsmgmtw32/ LOG_FULL_HANDLER_CALLBACK, fs.log_full_handler_callback
 ms.topic: callback
-f1_keywords: ["clfsmgmtw32/LOG_FULL_HANDLER_CALLBACK"]
+f1_keywords: 
+ - "clfsmgmtw32/LOG_FULL_HANDLER_CALLBACK"
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows

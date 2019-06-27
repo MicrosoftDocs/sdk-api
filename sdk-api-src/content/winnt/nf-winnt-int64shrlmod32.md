@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Int64ShrlMod32, Int64ShrlMod32 macro [Windows API], _win32_int64shrlmod32, winnt/Int64ShrlMod32, winprog.int64shrlmod32
 ms.topic: macro
-f1_keywords: ["winnt/Int64ShrlMod32"]
+f1_keywords: 
+ - "winnt/Int64ShrlMod32"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

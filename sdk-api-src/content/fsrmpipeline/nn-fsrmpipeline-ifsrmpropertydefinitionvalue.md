@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyDefinitionValue, IFsrmPropertyDefinitionValue interface [File Server Resource Manager], IFsrmPropertyDefinitionValue interface [File Server Resource Manager],described, fs.ifsrmpropertydefinitionvalue, fsrm.ifsrmpropertydefinitionvalue, fsrmpipeline/IFsrmPropertyDefinitionValue
 ms.topic: interface
-f1_keywords: ["fsrmpipeline/IFsrmPropertyDefinitionValue"]
+f1_keywords: 
+ - "fsrmpipeline/IFsrmPropertyDefinitionValue"
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDMMetaData interface [windows Media Device Manager],QueryByName method, IWMDMMetaData.QueryByName, IWMDMMetaData::QueryByName, IWMDMMetaDataQueryByName, QueryByName, QueryByName method [windows Media Device Manager], QueryByName method [windows Media Device Manager],IWMDMMetaData interface, mswmdm/IWMDMMetaData::QueryByName, wmdm.iwmdmmetadata_querybyname
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMMetaData.QueryByName"]
+f1_keywords: 
+ - "mswmdm/IWMDMMetaData.QueryByName"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

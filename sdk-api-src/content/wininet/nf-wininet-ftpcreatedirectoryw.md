@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FtpCreateDirectory, FtpCreateDirectory function [WinINet], FtpCreateDirectoryA, FtpCreateDirectoryW, _inet_ftpcreatedirectory_function, wininet.ftpcreatedirectory, wininet/FtpCreateDirectory, wininet/FtpCreateDirectoryA, wininet/FtpCreateDirectoryW
 ms.topic: function
-f1_keywords: ["wininet/FtpCreateDirectory"]
+f1_keywords: 
+ - "wininet/FtpCreateDirectory"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

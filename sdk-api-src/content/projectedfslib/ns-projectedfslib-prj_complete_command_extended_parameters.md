@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS, PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS structure, ProjFS.prj_complete_command_extended_parameters, projectedfslib/PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS
 ms.topic: struct
-f1_keywords: ["projectedfslib/PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS"]
+f1_keywords: 
+ - "projectedfslib/PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS"
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

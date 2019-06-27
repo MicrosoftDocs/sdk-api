@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumWindowStations, EnumWindowStations function [Windows Stations and Desktops], EnumWindowStationsA, EnumWindowStationsW, _win32_enumwindowstations, base.enumwindowstations, winstation.enumwindowstations, winuser/EnumWindowStations, winuser/EnumWindowStationsA, winuser/EnumWindowStationsW
 ms.topic: function
-f1_keywords: ["winuser/EnumWindowStations"]
+f1_keywords: 
+ - "winuser/EnumWindowStations"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

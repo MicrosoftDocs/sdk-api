@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WerReportCloseHandle, WerReportCloseHandle function [Windows Error Reporting], base.werreportclosehandle, wer.werreportclosehandle, werapi/WerReportCloseHandle
 ms.topic: function
-f1_keywords: ["werapi/WerReportCloseHandle"]
+f1_keywords: 
+ - "werapi/WerReportCloseHandle"
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

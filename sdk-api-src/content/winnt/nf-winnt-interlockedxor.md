@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InterlockedXor, InterlockedXor function, base.interlockedxor, winnt/InterlockedXor
 ms.topic: function
-f1_keywords: ["winnt/InterlockedXor"]
+f1_keywords: 
+ - "winnt/InterlockedXor"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

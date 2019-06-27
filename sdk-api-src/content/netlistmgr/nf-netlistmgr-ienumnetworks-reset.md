@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumNetworks interface [Network Awareness],Reset method, IEnumNetworks.Reset, IEnumNetworks::Reset, Reset, Reset method [Network Awareness], Reset method [Network Awareness],IEnumNetworks interface, netlistmgr/IEnumNetworks::Reset, nla.ienumnetworks_reset
 ms.topic: method
-f1_keywords: ["netlistmgr/IEnumNetworks.Reset"]
+f1_keywords: 
+ - "netlistmgr/IEnumNetworks.Reset"
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

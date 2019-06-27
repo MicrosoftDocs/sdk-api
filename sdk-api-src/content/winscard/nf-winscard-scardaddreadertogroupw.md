@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardAddReaderToGroup, SCardAddReaderToGroup function [Security], SCardAddReaderToGroupA, SCardAddReaderToGroupW, _smart_scardaddreadertogroup, security.scardaddreadertogroup, winscard/SCardAddReaderToGroup, winscard/SCardAddReaderToGroupA, winscard/SCardAddReaderToGroupW
 ms.topic: function
-f1_keywords: ["winscard/SCardAddReaderToGroup"]
+f1_keywords: 
+ - "winscard/SCardAddReaderToGroup"
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

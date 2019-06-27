@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsAsyncExecute, WsAsyncExecute function [Web Services for Windows], webservices/WsAsyncExecute, wsw.wsasyncexecute
 ms.topic: function
-f1_keywords: ["webservices/WsAsyncExecute"]
+f1_keywords: 
+ - "webservices/WsAsyncExecute"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

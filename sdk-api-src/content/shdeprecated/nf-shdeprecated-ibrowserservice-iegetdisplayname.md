@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService interface [Windows Shell],IEGetDisplayName method, IBrowserService.IEGetDisplayName, IBrowserService::IEGetDisplayName, IEGetDisplayName, IEGetDisplayName method [Windows Shell], IEGetDisplayName method [Windows Shell],IBrowserService interface, SHGDN_FORADDRESSBAR, SHGDN_FORPARSING, SHGDN_NORMAL, shdeprecated/IBrowserService::IEGetDisplayName, shell.IBrowserService_IEGetDisplayName, zone_IBrowserService_IEGetDisplayName
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService.IEGetDisplayName"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService.IEGetDisplayName"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

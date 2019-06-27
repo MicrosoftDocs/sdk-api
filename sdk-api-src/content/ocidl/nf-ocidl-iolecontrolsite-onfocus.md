@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleControlSite interface [COM],OnFocus method, IOleControlSite.OnFocus, IOleControlSite::OnFocus, OnFocus, OnFocus method [COM], OnFocus method [COM],IOleControlSite interface, _ctrl_iolecontrolsite_onfocus, com.iolecontrolsite_onfocus, ocidl/IOleControlSite::OnFocus
 ms.topic: method
-f1_keywords: ["ocidl/IOleControlSite.OnFocus"]
+f1_keywords: 
+ - "ocidl/IOleControlSite.OnFocus"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

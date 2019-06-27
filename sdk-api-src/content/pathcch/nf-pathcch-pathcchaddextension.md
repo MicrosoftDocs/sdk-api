@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathCchAddExtension, PathCchAddExtension function [Windows Shell], pathcch/PathCchAddExtension, shell.PathCchAddExtension
 ms.topic: function
-f1_keywords: ["pathcch/PathCchAddExtension"]
+f1_keywords: 
+ - "pathcch/PathCchAddExtension"
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOverlaySurfaceColorControls, GetOverlaySurfaceColorControls method [DirectShow], GetOverlaySurfaceColorControls method [DirectShow],IMixerPinConfig2 interface, IMixerPinConfig2 interface [DirectShow],GetOverlaySurfaceColorControls method, IMixerPinConfig2.GetOverlaySurfaceColorControls, IMixerPinConfig2::GetOverlaySurfaceColorControls, IMixerPinConfig2GetOverlaySurfaceColorControls, dshow.imixerpinconfig2_getoverlaysurfacecolorcontrols, mpconfig/IMixerPinConfig2::GetOverlaySurfaceColorControls
 ms.topic: method
-f1_keywords: ["mpconfig/IMixerPinConfig2.GetOverlaySurfaceColorControls"]
+f1_keywords: 
+ - "mpconfig/IMixerPinConfig2.GetOverlaySurfaceColorControls"
 req.header: mpconfig.h
 req.include-header: 
 req.target-type: Windows

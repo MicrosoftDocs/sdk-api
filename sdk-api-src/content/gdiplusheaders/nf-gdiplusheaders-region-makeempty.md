@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MakeEmpty, MakeEmpty method [GDI+], MakeEmpty method [GDI+],Region class, Region class [GDI+],MakeEmpty method, Region.MakeEmpty, Region::MakeEmpty, _gdiplus_CLASS_Region_MakeEmpty_, gdiplus._gdiplus_CLASS_Region_MakeEmpty_
 ms.topic: method
-f1_keywords: ["gdiplusheaders/Region.MakeEmpty"]
+f1_keywords: 
+ - "gdiplusheaders/Region.MakeEmpty"
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

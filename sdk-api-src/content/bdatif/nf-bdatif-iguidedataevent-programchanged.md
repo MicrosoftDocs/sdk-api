@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGuideDataEvent interface [Microsoft TV Technologies],ProgramChanged method, IGuideDataEvent.ProgramChanged, IGuideDataEvent::ProgramChanged, IGuideDataEventProgramChanged, ProgramChanged, ProgramChanged method [Microsoft TV Technologies], ProgramChanged method [Microsoft TV Technologies],IGuideDataEvent interface, bdatif/IGuideDataEvent::ProgramChanged, mstv.iguidedataevent_programchanged
 ms.topic: method
-f1_keywords: ["bdatif/IGuideDataEvent.ProgramChanged"]
+f1_keywords: 
+ - "bdatif/IGuideDataEvent.ProgramChanged"
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClearVariantArray, ClearVariantArray function [Windows Properties], _shell_ClearVariantArray, properties.ClearVariantArray, propvarutil/ClearVariantArray, shell.ClearVariantArray
 ms.topic: function
-f1_keywords: ["propvarutil/ClearVariantArray"]
+f1_keywords: 
+ - "propvarutil/ClearVariantArray"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

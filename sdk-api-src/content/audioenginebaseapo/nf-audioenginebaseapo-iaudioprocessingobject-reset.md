@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioProcessingObject interface [Audio Devices],Reset method, IAudioProcessingObject.Reset, IAudioProcessingObject::Reset, Reset, Reset method [Audio Devices], Reset method [Audio Devices],IAudioProcessingObject interface, audio.iaudioprocessingobject_reset, audio_syseffects_r_1df1a787-30e1-4eda-adde-a0b4a813ac9b.xml, audioenginebaseapo/IAudioProcessingObject::Reset
 ms.topic: method
-f1_keywords: ["audioenginebaseapo/IAudioProcessingObject.Reset"]
+f1_keywords: 
+ - "audioenginebaseapo/IAudioProcessingObject.Reset"
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Universal

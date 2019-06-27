@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMStoreSInt4, XMStoreSInt4, XMStoreSInt4 method [DirectX Math Support APIs], dxmath.xmstoresint4
 ms.topic: function
-f1_keywords: ["directxmath/XMStoreSInt4"]
+f1_keywords: 
+ - "directxmath/XMStoreSInt4"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

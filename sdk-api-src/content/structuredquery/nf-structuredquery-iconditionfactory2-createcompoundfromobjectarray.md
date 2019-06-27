@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateCompoundFromObjectArray, CreateCompoundFromObjectArray method [search], CreateCompoundFromObjectArray method [search],IConditionFactory2 interface, IConditionFactory2 interface [search],CreateCompoundFromObjectArray method, IConditionFactory2.CreateCompoundFromObjectArray, IConditionFactory2::CreateCompoundFromObjectArray, _search_IConditionFactory2_CreateCompoundFromObjectArray, search._search_IConditionFactory2_CreateCompoundFromObjectArray, structuredquery/IConditionFactory2::CreateCompoundFromObjectArray
 ms.topic: method
-f1_keywords: ["structuredquery/IConditionFactory2.CreateCompoundFromObjectArray"]
+f1_keywords: 
+ - "structuredquery/IConditionFactory2.CreateCompoundFromObjectArray"
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

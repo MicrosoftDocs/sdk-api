@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],put_StartingTrackNumber method, IRawCDImageCreator.put_StartingTrackNumber, IRawCDImageCreator::put_StartingTrackNumber, imapi.irawcdimagecreator_put_startingtracknumber, imapi2/IRawCDImageCreator::put_StartingTrackNumber, put_StartingTrackNumber, put_StartingTrackNumber method [IMAPI], put_StartingTrackNumber method [IMAPI],IRawCDImageCreator interface
 ms.topic: method
-f1_keywords: ["imapi2/IRawCDImageCreator.put_StartingTrackNumber"]
+f1_keywords: 
+ - "imapi2/IRawCDImageCreator.put_StartingTrackNumber"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

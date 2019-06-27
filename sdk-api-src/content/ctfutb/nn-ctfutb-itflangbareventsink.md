@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarEventSink, ITfLangBarEventSink interface [Text Services Framework], ITfLangBarEventSink interface [Text Services Framework],described, _tsf_itflangbareventsink_ref, ctfutb/ITfLangBarEventSink, tsf.itflangbareventsink
 ms.topic: interface
-f1_keywords: ["ctfutb/ITfLangBarEventSink"]
+f1_keywords: 
+ - "ctfutb/ITfLangBarEventSink"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

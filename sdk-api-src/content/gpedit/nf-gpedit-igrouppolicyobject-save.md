@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGroupPolicyObject interface [Group Policy],Save method, IGroupPolicyObject.Save, IGroupPolicyObject::Save, Save, Save method [Group Policy], Save method [Group Policy],IGroupPolicyObject interface, _win32_igrouppolicyobject_save, gpedit/IGroupPolicyObject::Save, policy.igrouppolicyobject_save
 ms.topic: method
-f1_keywords: ["gpedit/IGroupPolicyObject.Save"]
+f1_keywords: 
+ - "gpedit/IGroupPolicyObject.Save"
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SizeTAdd, SizeTAdd function [Windows Shell], _shell_SizeTAdd, intsafe/SizeTAdd, shell.SizeTAdd
 ms.topic: function
-f1_keywords: ["intsafe/SizeTAdd"]
+f1_keywords: 
+ - "intsafe/SizeTAdd"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

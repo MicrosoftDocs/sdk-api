@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTuningSpaces interface [Microsoft TV Technologies],Next method, IEnumTuningSpaces.Next, IEnumTuningSpaces::Next, IEnumTuningSpacesNext, Next, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies],IEnumTuningSpaces interface, mstv.ienumtuningspaces_next, tuner/IEnumTuningSpaces::Next
 ms.topic: method
-f1_keywords: ["tuner/IEnumTuningSpaces.Next"]
+f1_keywords: 
+ - "tuner/IEnumTuningSpaces.Next"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

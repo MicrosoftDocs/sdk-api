@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFN_CRYPT_VERIFY_ENCODED_SIGNATURE_FUNC, PFN_CRYPT_VERIFY_ENCODED_SIGNATURE_FUNC callback, PFN_CRYPT_VERIFY_ENCODED_SIGNATURE_FUNC callback function [Security], security.pfn_crypt_verify_encoded_signature_func, wincrypt/PFN_CRYPT_VERIFY_ENCODED_SIGNATURE_FUNC
 ms.topic: callback
-f1_keywords: ["wincrypt/PFN_CRYPT_VERIFY_ENCODED_SIGNATURE_FUNC"]
+f1_keywords: 
+ - "wincrypt/PFN_CRYPT_VERIFY_ENCODED_SIGNATURE_FUNC"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

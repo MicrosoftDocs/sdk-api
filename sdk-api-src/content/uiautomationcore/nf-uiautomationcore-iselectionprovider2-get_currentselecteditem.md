@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentSelectedItem property [Windows Accessibility], CurrentSelectedItem property [Windows Accessibility],ISelectionProvider2 interface, ISelectionProvider2 interface [Windows Accessibility],CurrentSelectedItem property, ISelectionProvider2.CurrentSelectedItem, ISelectionProvider2.get_CurrentSelectedItem, ISelectionProvider2::CurrentSelectedItem, ISelectionProvider2::get_CurrentSelectedItem, get_CurrentSelectedItem, uiautomationcore/ISelectionProvider2::CurrentSelectedItem, uiautomationcore/ISelectionProvider2::get_CurrentSelectedItem, winauto.uiauto_ISelectionProvider2_CurrentSelectedItem
 ms.topic: method
-f1_keywords: ["uiautomationcore/ISelectionProvider2.CurrentSelectedItem"]
+f1_keywords: 
+ - "uiautomationcore/ISelectionProvider2.CurrentSelectedItem"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSample interface [Media Foundation],SetSampleDuration method, IMFSample.SetSampleDuration, IMFSample::SetSampleDuration, SetSampleDuration, SetSampleDuration method [Media Foundation], SetSampleDuration method [Media Foundation],IMFSample interface, f97be98e-8f1b-4bae-8cdd-8bdfe107894d, mf.imfsample_setsampleduration, mfobjects/IMFSample::SetSampleDuration
 ms.topic: method
-f1_keywords: ["mfobjects/IMFSample.SetSampleDuration"]
+f1_keywords: 
+ - "mfobjects/IMFSample.SetSampleDuration"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

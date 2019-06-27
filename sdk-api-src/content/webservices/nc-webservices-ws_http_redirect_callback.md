@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_HTTP_REDIRECT_CALLBACK, WS_HTTP_REDIRECT_CALLBACK callback, WS_HTTP_REDIRECT_CALLBACK callback function [Web Services for Windows], webservices/WS_HTTP_REDIRECT_CALLBACK, wsw.ws_http_redirect_callback
 ms.topic: callback
-f1_keywords: ["webservices/WS_HTTP_REDIRECT_CALLBACK"]
+f1_keywords: 
+ - "webservices/WS_HTTP_REDIRECT_CALLBACK"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

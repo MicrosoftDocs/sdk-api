@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICategorizer, ICategorizer interface [Windows Shell], ICategorizer interface [Windows Shell],described, inet_ICategorizer, shell.ICategorizer, shobjidl_core/ICategorizer
 ms.topic: interface
-f1_keywords: ["shobjidl_core/ICategorizer"]
+f1_keywords: 
+ - "shobjidl_core/ICategorizer"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

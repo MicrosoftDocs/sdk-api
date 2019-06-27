@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFNominalRange, MFNominalRange enumeration [Media Foundation], MFNominalRange_0_255, MFNominalRange_16_235, MFNominalRange_48_208, MFNominalRange_64_127, MFNominalRange_Normal, MFNominalRange_Unknown, MFNominalRange_Wide, fe7547f8-84cd-461a-8d33-dbc0b90add37, mf.mfnominalrange, mfobjects/MFNominalRange, mfobjects/MFNominalRange_0_255, mfobjects/MFNominalRange_16_235, mfobjects/MFNominalRange_48_208, mfobjects/MFNominalRange_64_127, mfobjects/MFNominalRange_Normal, mfobjects/MFNominalRange_Unknown, mfobjects/MFNominalRange_Wide
 ms.topic: enum
-f1_keywords: ["mfobjects/MFNominalRange"]
+f1_keywords: 
+ - "mfobjects/MFNominalRange"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

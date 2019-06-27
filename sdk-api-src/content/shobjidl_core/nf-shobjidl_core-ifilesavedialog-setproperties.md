@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSaveDialog interface [Windows Shell],SetProperties method, IFileSaveDialog.SetProperties, IFileSaveDialog::SetProperties, SetProperties, SetProperties method [Windows Shell], SetProperties method [Windows Shell],IFileSaveDialog interface, shell.IFileSaveDialog_SetProperties, shell_IFileSaveDialog_SetProperties, shobjidl_core/IFileSaveDialog::SetProperties
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileSaveDialog.SetProperties"]
+f1_keywords: 
+ - "shobjidl_core/IFileSaveDialog.SetProperties"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

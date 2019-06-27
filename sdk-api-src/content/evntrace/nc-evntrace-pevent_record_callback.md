@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventRecordCallback, EventRecordCallback callback function [ETW], PEVENT_RECORD_CALLBACK, PEVENT_RECORD_CALLBACK callback, etw.eventrecordcallback, evntrace/EventRecordCallback
 ms.topic: callback
-f1_keywords: ["evntrace/EventRecordCallback"]
+f1_keywords: 
+ - "evntrace/EventRecordCallback"
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

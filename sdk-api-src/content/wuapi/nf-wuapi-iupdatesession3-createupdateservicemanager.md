@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateUpdateServiceManager, CreateUpdateServiceManager method [Windows Update Agent], CreateUpdateServiceManager method [Windows Update Agent],IUpdateSession3 interface, IUpdateSession3 interface [Windows Update Agent],CreateUpdateServiceManager method, IUpdateSession3.CreateUpdateServiceManager, IUpdateSession3::CreateUpdateServiceManager, wua.iupdatesession3_createupdateservicemanager, wuapi/IUpdateSession3::CreateUpdateServiceManager
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateSession3.CreateUpdateServiceManager"]
+f1_keywords: 
+ - "wuapi/IUpdateSession3.CreateUpdateServiceManager"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExtendResTypeControlCall, ExtendResTypeControlCall callback, ExtendResTypeControlCall callback function [Failover Cluster], PEXTEND_RES_TYPE_CONTROL_CALL, PEXTEND_RES_TYPE_CONTROL_CALL callback function [Failover Cluster], mscs.extendtypecontrolcall, resapi/ExtendResTypeControlCall, resapi/PEXTEND_RES_TYPE_CONTROL_CALL
 ms.topic: callback
-f1_keywords: ["resapi/ExtendResTypeControlCall"]
+f1_keywords: 
+ - "resapi/ExtendResTypeControlCall"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineReleaseUserUserInfo, TSPI_lineReleaseUserUserInfo function [TAPI 2.2], _tspi_tspi_linereleaseuseruserinfo, tspi.tspi_linereleaseuseruserinfo, tspi/TSPI_lineReleaseUserUserInfo
 ms.topic: function
-f1_keywords: ["tspi/TSPI_lineReleaseUserUserInfo"]
+f1_keywords: 
+ - "tspi/TSPI_lineReleaseUserUserInfo"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

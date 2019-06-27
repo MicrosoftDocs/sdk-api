@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFP_OPTION_FREE_THREADED_CALLBACK, MFP_OPTION_NONE, MFP_OPTION_NO_MMCSS, MFP_OPTION_NO_REMOTE_DESKTOP_OPTIMIZATION, _MFP_CREATION_OPTIONS, _MFP_CREATION_OPTIONS enumeration [Media Foundation], mf._mfp_creation_options, mfplay/MFP_OPTION_FREE_THREADED_CALLBACK, mfplay/MFP_OPTION_NONE, mfplay/MFP_OPTION_NO_MMCSS, mfplay/MFP_OPTION_NO_REMOTE_DESKTOP_OPTIMIZATION, mfplay/_MFP_CREATION_OPTIONS
 ms.topic: enum
-f1_keywords: ["mfplay/_MFP_CREATION_OPTIONS"]
+f1_keywords: 
+ - "mfplay/_MFP_CREATION_OPTIONS"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

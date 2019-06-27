@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITRequestEvent interface [TAPI 2.2],get_DestAddress method, ITRequestEvent.get_DestAddress, ITRequestEvent::get_DestAddress, _tapi3_itrequestevent_get_destaddress, get_DestAddress, get_DestAddress method [TAPI 2.2], get_DestAddress method [TAPI 2.2],ITRequestEvent interface, tapi3.itrequestevent_get_destaddress, tapi3if/ITRequestEvent::get_DestAddress
 ms.topic: method
-f1_keywords: ["tapi3if/ITRequestEvent.get_DestAddress"]
+f1_keywords: 
+ - "tapi3if/ITRequestEvent.get_DestAddress"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPUNLOAD_DLL_DEBUG_INFO, LPUNLOAD_DLL_DEBUG_INFO, LPUNLOAD_DLL_DEBUG_INFO structure pointer, UNLOAD_DLL_DEBUG_INFO, UNLOAD_DLL_DEBUG_INFO structure, _UNLOAD_DLL_DEBUG_INFO, _win32_unload_dll_debug_info_str, base.unload_dll_debug_info_str, minwinbase/LPUNLOAD_DLL_DEBUG_INFO, minwinbase/UNLOAD_DLL_DEBUG_INFO"
 ms.topic: struct
-f1_keywords: ["minwinbase/UNLOAD_DLL_DEBUG_INFO"]
+f1_keywords: 
+ - "minwinbase/UNLOAD_DLL_DEBUG_INFO"
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows

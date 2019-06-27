@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComputePointAtLength, ComputePointAtLength method [Direct2D], ComputePointAtLength method [Direct2D],ID2D1Geometry interface, ID2D1Geometry interface [Direct2D],ComputePointAtLength method, ID2D1Geometry.ComputePointAtLength, ID2D1Geometry.ComputePointAtLength(FLOAT,const D2D1_MATRIX_3X2_F &,D2D1_POINT_2F,D2D1_POINT_2F), ID2D1Geometry::ComputePointAtLength, ID2D1Geometry::ComputePointAtLength(FLOAT,const D2D1_MATRIX_3X2_F &,D2D1_POINT_2F,D2D1_POINT_2F), d2d1/ID2D1Geometry::ComputePointAtLength, direct2d.ID2D1Geometry_ComputePointAtLength_FLOAT_ref_D2D_MATRIX_3X2_F_ptr_D2D_POINT_2F_ptr_D2D_POINT_2F
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1Geometry.ComputePointAtLength"]
+f1_keywords: 
+ - "d2d1/ID2D1Geometry.ComputePointAtLength"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAsyncReader interface [DirectShow],SyncReadAligned method, IAsyncReader.SyncReadAligned, IAsyncReader::SyncReadAligned, IAsyncReaderSyncReadAligned, SyncReadAligned, SyncReadAligned method [DirectShow], SyncReadAligned method [DirectShow],IAsyncReader interface, dshow.iasyncreader_syncreadaligned, strmif/IAsyncReader::SyncReadAligned
 ms.topic: method
-f1_keywords: ["strmif/IAsyncReader.SyncReadAligned"]
+f1_keywords: 
+ - "strmif/IAsyncReader.SyncReadAligned"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

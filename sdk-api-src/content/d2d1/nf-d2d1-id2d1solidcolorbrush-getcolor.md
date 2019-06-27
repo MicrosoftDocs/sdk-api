@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColor, GetColor method [Direct2D], GetColor method [Direct2D],ID2D1SolidColorBrush interface, ID2D1SolidColorBrush interface [Direct2D],GetColor method, ID2D1SolidColorBrush.GetColor, ID2D1SolidColorBrush::GetColor, d2d1/ID2D1SolidColorBrush::GetColor, direct2d.ID2D1SolidColorBrush_GetColor
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1SolidColorBrush.GetColor"]
+f1_keywords: 
+ - "d2d1/ID2D1SolidColorBrush.GetColor"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

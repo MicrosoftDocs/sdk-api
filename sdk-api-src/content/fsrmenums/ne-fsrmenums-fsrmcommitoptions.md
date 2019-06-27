@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FsrmCommitOptions, FsrmCommitOptions enumeration [File Server Resource Manager], FsrmCommitOptions_Asynchronous, FsrmCommitOptions_None, fs.fsrmcommitoptions, fsrm.fsrmcommitoptions, fsrmenums/FsrmCommitOptions, fsrmenums/FsrmCommitOptions_Asynchronous, fsrmenums/FsrmCommitOptions_None
 ms.topic: enum
-f1_keywords: ["fsrmenums/FsrmCommitOptions"]
+f1_keywords: 
+ - "fsrmenums/FsrmCommitOptions"
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10DepthStencilState interface, ID3D10DepthStencilState interface [Direct3D 10],GetDesc method, ID3D10DepthStencilState.GetDesc, ID3D10DepthStencilState::GetDesc, b619fad1-5159-b9ea-3203-439bc2625a45, d3d10/ID3D10DepthStencilState::GetDesc, direct3d10.id3d10depthstencilstate_getdesc
 ms.topic: method
-f1_keywords: ["d3d10/ID3D10DepthStencilState.GetDesc"]
+f1_keywords: 
+ - "d3d10/ID3D10DepthStencilState.GetDesc"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

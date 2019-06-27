@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSECPKG_CREDENTIAL, PSECPKG_CREDENTIAL, PSECPKG_CREDENTIAL structure pointer [Security], SECPKG_CREDENTIAL, SECPKG_CREDENTIAL structure [Security], ntsecpkg/PSECPKG_CREDENTIAL, ntsecpkg/SECPKG_CREDENTIAL, security.secpkg_credential"
 ms.topic: struct
-f1_keywords: ["ntsecpkg/SECPKG_CREDENTIAL"]
+f1_keywords: 
+ - "ntsecpkg/SECPKG_CREDENTIAL"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

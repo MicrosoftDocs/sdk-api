@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngAlphaBlend, EngAlphaBlend function [Display Devices], display.engalphablend, gdifncs_f7f6d10b-db7e-40af-8378-05cca946505f.xml, winddi/EngAlphaBlend
 ms.topic: function
-f1_keywords: ["winddi/EngAlphaBlend"]
+f1_keywords: 
+ - "winddi/EngAlphaBlend"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

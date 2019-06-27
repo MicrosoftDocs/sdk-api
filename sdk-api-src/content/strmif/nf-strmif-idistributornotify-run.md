@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDistributorNotify interface [DirectShow],Run method, IDistributorNotify.Run, IDistributorNotify::Run, IDistributorNotifyRun, Run, Run method [DirectShow], Run method [DirectShow],IDistributorNotify interface, dshow.idistributornotify_run, strmif/IDistributorNotify::Run
 ms.topic: method
-f1_keywords: ["strmif/IDistributorNotify.Run"]
+f1_keywords: 
+ - "strmif/IDistributorNotify.Run"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetServiceIds, GetServiceIds method [Microsoft TV Technologies], GetServiceIds method [Microsoft TV Technologies],IIsdbCAServiceDescriptor interface, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],GetServiceIds method, IIsdbCAServiceDescriptor.GetServiceIds, IIsdbCAServiceDescriptor::GetServiceIds, dvbsiparser/IIsdbCAServiceDescriptor::GetServiceIds, mstv.iisdbcaservicedescriptor_getserviceids
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbCAServiceDescriptor.GetServiceIds"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbCAServiceDescriptor.GetServiceIds"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

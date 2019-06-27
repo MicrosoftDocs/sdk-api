@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHorizontalResolution, GetHorizontalResolution method [GDI+], GetHorizontalResolution method [GDI+],Image class, Image class [GDI+],GetHorizontalResolution method, Image.GetHorizontalResolution, Image::GetHorizontalResolution, _gdiplus_CLASS_Image_GetHorizontalResolution_, gdiplus._gdiplus_CLASS_Image_GetHorizontalResolution_
 ms.topic: method
-f1_keywords: ["gdiplusheaders/Image.GetHorizontalResolution"]
+f1_keywords: 
+ - "gdiplusheaders/Image.GetHorizontalResolution"
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

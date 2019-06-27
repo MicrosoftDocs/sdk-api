@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IISDB_BIT interface [Microsoft TV Technologies],Initialize method, IISDB_BIT.Initialize, IISDB_BIT::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IISDB_BIT interface, dvbsiparser/IISDB_BIT::Initialize, mstv.iisdb_bit_initialize
 ms.topic: method
-f1_keywords: ["dvbsiparser/IISDB_BIT.Initialize"]
+f1_keywords: 
+ - "dvbsiparser/IISDB_BIT.Initialize"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

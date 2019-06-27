@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Color, Color class [GDI+],Color constructor, Color constructor [GDI+], Color constructor [GDI+],Color class, Color.Color, Color.Color(BYTE,BYTE,BYTE), Color.Color(IN BYTE,IN BYTE,IN BYTE), Color::Color, Color::Color(IN BYTE,IN BYTE,IN BYTE), _gdiplus_CLASS_Color_Color_r_g_b_, gdiplus._gdiplus_CLASS_Color_Color_r_g_b_
 ms.topic: method
-f1_keywords: ["gdipluscolor/Color.Color"]
+f1_keywords: 
+ - "gdipluscolor/Color.Color"
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

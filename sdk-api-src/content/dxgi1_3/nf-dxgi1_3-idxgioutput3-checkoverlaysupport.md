@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckOverlaySupport, CheckOverlaySupport method [DXGI], CheckOverlaySupport method [DXGI],IDXGIOutput3 interface, IDXGIOutput3 interface [DXGI],CheckOverlaySupport method, IDXGIOutput3.CheckOverlaySupport, IDXGIOutput3::CheckOverlaySupport, direct3ddxgi.idxgioutput3_checkoverlaysupport, dxgi1_3/IDXGIOutput3::CheckOverlaySupport
 ms.topic: method
-f1_keywords: ["dxgi1_3/IDXGIOutput3.CheckOverlaySupport"]
+f1_keywords: 
+ - "dxgi1_3/IDXGIOutput3.CheckOverlaySupport"
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

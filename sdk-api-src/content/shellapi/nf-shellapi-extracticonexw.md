@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExtractIconEx, ExtractIconEx function [Windows Shell], ExtractIconExA, ExtractIconExW, _shell_ExtractIconEx, shell.ExtractIconEx, shellapi/ExtractIconEx, shellapi/ExtractIconExA, shellapi/ExtractIconExW
 ms.topic: function
-f1_keywords: ["shellapi/ExtractIconEx"]
+f1_keywords: 
+ - "shellapi/ExtractIconEx"
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

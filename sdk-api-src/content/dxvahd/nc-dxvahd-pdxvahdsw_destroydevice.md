@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_DestroyDevice, PDXVAHDSW_DestroyDevice callback, PDXVAHDSW_DestroyDevice callback function [Media Foundation], dxvahd/PDXVAHDSW_DestroyDevice, mf.pdxvahdsw_destroydevice
 ms.topic: callback
-f1_keywords: ["dxvahd/PDXVAHDSW_DestroyDevice"]
+f1_keywords: 
+ - "dxvahd/PDXVAHDSW_DestroyDevice"
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

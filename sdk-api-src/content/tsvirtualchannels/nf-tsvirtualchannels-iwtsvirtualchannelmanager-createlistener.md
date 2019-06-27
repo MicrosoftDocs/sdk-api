@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateListener, CreateListener method [Remote Desktop Services], CreateListener method [Remote Desktop Services],IWTSVirtualChannelManager interface, IWTSVirtualChannelManager interface [Remote Desktop Services],CreateListener method, IWTSVirtualChannelManager.CreateListener, IWTSVirtualChannelManager::CreateListener, termserv.iwtsvirtualchannelmanager_createlistener, tsvirtualchannels/IWTSVirtualChannelManager::CreateListener
 ms.topic: method
-f1_keywords: ["tsvirtualchannels/IWTSVirtualChannelManager.CreateListener"]
+f1_keywords: 
+ - "tsvirtualchannels/IWTSVirtualChannelManager.CreateListener"
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

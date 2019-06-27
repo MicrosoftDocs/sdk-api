@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_USERS, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiGetComponentPathEx, MsiGetComponentPathEx function [Setup API], MsiGetComponentPathExA, MsiGetComponentPathExW, NULL, User SID, msi/MsiGetComponentPathEx, msi/MsiGetComponentPathExA, msi/MsiGetComponentPathExW, s-1-1-0, setup.msigetcomponentpathex
 ms.topic: function
-f1_keywords: ["msi/MsiGetComponentPathEx"]
+f1_keywords: 
+ - "msi/MsiGetComponentPathEx"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

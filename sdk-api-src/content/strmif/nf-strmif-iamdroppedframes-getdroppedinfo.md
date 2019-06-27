@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDroppedInfo, GetDroppedInfo method [DirectShow], GetDroppedInfo method [DirectShow],IAMDroppedFrames interface, IAMDroppedFrames interface [DirectShow],GetDroppedInfo method, IAMDroppedFrames.GetDroppedInfo, IAMDroppedFrames::GetDroppedInfo, IAMDroppedFramesGetDroppedInfo, dshow.iamdroppedframes_getdroppedinfo, strmif/IAMDroppedFrames::GetDroppedInfo
 ms.topic: method
-f1_keywords: ["strmif/IAMDroppedFrames.GetDroppedInfo"]
+f1_keywords: 
+ - "strmif/IAMDroppedFrames.GetDroppedInfo"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

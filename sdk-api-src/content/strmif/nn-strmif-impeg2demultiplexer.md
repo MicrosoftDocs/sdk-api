@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMpeg2Demultiplexer, IMpeg2Demultiplexer interface [DirectShow], IMpeg2Demultiplexer interface [DirectShow],described, IMpeg2DemultiplexerInterface, dshow.impeg2demultiplexer, strmif/IMpeg2Demultiplexer
 ms.topic: interface
-f1_keywords: ["strmif/IMpeg2Demultiplexer"]
+f1_keywords: 
+ - "strmif/IMpeg2Demultiplexer"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

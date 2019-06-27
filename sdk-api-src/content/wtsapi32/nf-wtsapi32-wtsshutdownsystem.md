@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSShutdownSystem, WTSShutdownSystem function [Remote Desktop Services], WTS_WSD_FASTREBOOT, WTS_WSD_LOGOFF, WTS_WSD_POWEROFF, WTS_WSD_REBOOT, WTS_WSD_SHUTDOWN, _win32_wtsshutdownsystem, termserv.wtsshutdownsystem, wtsapi32/WTSShutdownSystem
 ms.topic: function
-f1_keywords: ["wtsapi32/WTSShutdownSystem"]
+f1_keywords: 
+ - "wtsapi32/WTSShutdownSystem"
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

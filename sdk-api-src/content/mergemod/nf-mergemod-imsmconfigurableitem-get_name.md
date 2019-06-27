@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMsmConfigurableItem interface,get_Name method, IMsmConfigurableItem.get_Name, IMsmConfigurableItem::get_Name, _msi_get_name_function, get_Name, get_Name method, get_Name method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_Name, setup.imsmconfigurableitem_get_name
 ms.topic: method
-f1_keywords: ["mergemod/IMsmConfigurableItem.get_Name"]
+f1_keywords: 
+ - "mergemod/IMsmConfigurableItem.get_Name"
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

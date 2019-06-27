@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumBackgroundCopyJobs interface [BITS],Reset method, IEnumBackgroundCopyJobs.Reset, IEnumBackgroundCopyJobs::Reset, Reset, Reset method [BITS], Reset method [BITS],IEnumBackgroundCopyJobs interface, _drz_ienumbackgroundcopyjobs_reset, bits.ienumbackgroundcopyjobs_reset, bits/IEnumBackgroundCopyJobs::Reset
 ms.topic: method
-f1_keywords: ["bits/IEnumBackgroundCopyJobs.Reset"]
+f1_keywords: 
+ - "bits/IEnumBackgroundCopyJobs.Reset"
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

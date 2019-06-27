@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],InsertEmbedded method, ITextStoreACP2.InsertEmbedded, ITextStoreACP2::InsertEmbedded, InsertEmbedded, InsertEmbedded method [Text Services Framework], InsertEmbedded method [Text Services Framework],ITextStoreACP2 interface, textstor/ITextStoreACP2::InsertEmbedded, tsf.itextstoreacp2_insertembedded
 ms.topic: method
-f1_keywords: ["textstor/ITextStoreACP2.InsertEmbedded"]
+f1_keywords: 
+ - "textstor/ITextStoreACP2.InsertEmbedded"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

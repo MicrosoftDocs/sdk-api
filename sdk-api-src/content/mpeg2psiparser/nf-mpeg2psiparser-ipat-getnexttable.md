@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNextTable, GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],GetNextTable method, IPAT.GetNextTable, IPAT::GetNextTable, IPATGetNextTable, mpeg2psiparser/IPAT::GetNextTable, mstv.ipat_getnexttable
 ms.topic: method
-f1_keywords: ["mpeg2psiparser/IPAT.GetNextTable"]
+f1_keywords: 
+ - "mpeg2psiparser/IPAT.GetNextTable"
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

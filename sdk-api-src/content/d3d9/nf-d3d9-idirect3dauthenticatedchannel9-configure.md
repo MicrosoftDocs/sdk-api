@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Configure, Configure method [Media Foundation], Configure method [Media Foundation],IDirect3DAuthenticatedChannel9 interface, IDirect3DAuthenticatedChannel9 interface [Media Foundation],Configure method, IDirect3DAuthenticatedChannel9.Configure, IDirect3DAuthenticatedChannel9::Configure, d3d9/IDirect3DAuthenticatedChannel9::Configure, mf.idirect3dauthenticatedchannel9_configure
 ms.topic: method
-f1_keywords: ["d3d9/IDirect3DAuthenticatedChannel9.Configure"]
+f1_keywords: 
+ - "d3d9/IDirect3DAuthenticatedChannel9.Configure"
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

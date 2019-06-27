@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_DATA_BINARY, WSMAN_DATA_BINARY structure [Windows Remote Management], winrm.wsman_data_binary, wsman/WSMAN_DATA_BINARY
 ms.topic: struct
-f1_keywords: ["wsman/WSMAN_DATA_BINARY"]
+f1_keywords: 
+ - "wsman/WSMAN_DATA_BINARY"
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

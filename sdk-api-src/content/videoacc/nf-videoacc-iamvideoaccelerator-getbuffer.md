@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBuffer, GetBuffer method [DirectShow], GetBuffer method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],GetBuffer method, IAMVideoAccelerator.GetBuffer, IAMVideoAccelerator::GetBuffer, IAMVideoAcceleratorGetBuffer, dshow.iamvideoaccelerator_getbuffer, videoacc/IAMVideoAccelerator::GetBuffer
 ms.topic: method
-f1_keywords: ["videoacc/IAMVideoAccelerator.GetBuffer"]
+f1_keywords: 
+ - "videoacc/IAMVideoAccelerator.GetBuffer"
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows

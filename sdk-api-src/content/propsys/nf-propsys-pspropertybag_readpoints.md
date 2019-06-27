@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_ReadPOINTS, PSPropertyBag_ReadPOINTS function [Windows Properties], properties.PSPropertyBag_ReadPOINTS, propsys/PSPropertyBag_ReadPOINTS, shell.PSPropertyBag_ReadPOINTS, shell_PSPropertyBag_ReadPOINTS
 ms.topic: function
-f1_keywords: ["propsys/PSPropertyBag_ReadPOINTS"]
+f1_keywords: 
+ - "propsys/PSPropertyBag_ReadPOINTS"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

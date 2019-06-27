@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetSelectedDriver, SetupDiGetSelectedDriver function [Device and Driver Installation], SetupDiGetSelectedDriverA, SetupDiGetSelectedDriverW, devinst.setupdigetselecteddriver, di-rtns_6ea54b58-1b3f-4437-afa0-501a23af3529.xml, setupapi/SetupDiGetSelectedDriver
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiGetSelectedDriver"]
+f1_keywords: 
+ - "setupapi/SetupDiGetSelectedDriver"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

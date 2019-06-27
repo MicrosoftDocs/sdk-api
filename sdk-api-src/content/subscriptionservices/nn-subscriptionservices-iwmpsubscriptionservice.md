@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSubscriptionService, IWMPSubscriptionService interface [Windows Media Player], IWMPSubscriptionService interface [Windows Media Player],described, IWMPSubscriptionServiceInterface, subscriptionservices/IWMPSubscriptionService, wmp.iwmpsubscriptionservice
 ms.topic: interface
-f1_keywords: ["subscriptionservices/IWMPSubscriptionService"]
+f1_keywords: 
+ - "subscriptionservices/IWMPSubscriptionService"
 req.header: subscriptionservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink2 interface [Microsoft TV Technologies],UnlockProfile method, IMSVidStreamBufferSink2.UnlockProfile, IMSVidStreamBufferSink2::UnlockProfile, IMSVidStreamBufferSink2UnlockProfile, UnlockProfile, UnlockProfile method [Microsoft TV Technologies], UnlockProfile method [Microsoft TV Technologies],IMSVidStreamBufferSink2 interface, mstv.imsvidstreambuffersink2_unlockprofile, segment/IMSVidStreamBufferSink2::UnlockProfile
 ms.topic: method
-f1_keywords: ["segment/IMSVidStreamBufferSink2.UnlockProfile"]
+f1_keywords: 
+ - "segment/IMSVidStreamBufferSink2.UnlockProfile"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

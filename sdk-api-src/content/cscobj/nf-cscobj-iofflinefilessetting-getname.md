@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Offline Files], GetName method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetName method, IOfflineFilesSetting.GetName, IOfflineFilesSetting::GetName, cscobj/IOfflineFilesSetting::GetName, of.iofflinefilessetting_getname
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesSetting.GetName"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesSetting.GetName"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

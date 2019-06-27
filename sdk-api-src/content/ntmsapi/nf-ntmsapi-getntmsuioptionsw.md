@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNtmsUIOptions, GetNtmsUIOptions function [Files], GetNtmsUIOptionsA, GetNtmsUIOptionsW, NTMS_UITYPE_ERR, NTMS_UITYPE_INFO, NTMS_UITYPE_REQ, _zaw_getntmsuioptions, base.getntmsuioptions, fs.getntmsuioptions, ntmsapi/GetNtmsUIOptions, ntmsapi/GetNtmsUIOptionsA, ntmsapi/GetNtmsUIOptionsW
 ms.topic: function
-f1_keywords: ["ntmsapi/GetNtmsUIOptions"]
+f1_keywords: 
+ - "ntmsapi/GetNtmsUIOptions"
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

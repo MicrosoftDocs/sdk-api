@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAttributeByIndex, GetAttributeByIndex method [windows Media Format], GetAttributeByIndex method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetAttributeByIndex method, IWMRegisteredDevice.GetAttributeByIndex, IWMRegisteredDevice::GetAttributeByIndex, IWMRegisteredDeviceGetAttributeByIndex, wmformat.iwmregistereddevice_getattributebyindex, wmsdkidl/IWMRegisteredDevice::GetAttributeByIndex
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMRegisteredDevice.GetAttributeByIndex"]
+f1_keywords: 
+ - "wmsdkidl/IWMRegisteredDevice.GetAttributeByIndex"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

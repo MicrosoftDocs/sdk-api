@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NETISO_FLAG, NETISO_FLAG enumeration [ICS/ICF], NETISO_FLAG_FORCE_COMPUTE_BINARIES, NETISO_FLAG_MAX, ics.netiso_flag, networkisolation/NETISO_FLAG, networkisolation/NETISO_FLAG_FORCE_COMPUTE_BINARIES, networkisolation/NETISO_FLAG_MAX
 ms.topic: enum
-f1_keywords: ["netfw/NETISO_FLAG"]
+f1_keywords: 
+ - "netfw/NETISO_FLAG"
 req.header: netfw.h
 req.include-header: Netfw.h
 req.target-type: Windows

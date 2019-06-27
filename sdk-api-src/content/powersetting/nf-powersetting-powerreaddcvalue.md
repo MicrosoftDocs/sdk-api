@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerReadDCValue, PowerReadDCValue function, base.powerreaddcvalue, powersetting/PowerReadDCValue, powrprof/PowerReadDCValue
 ms.topic: function
-f1_keywords: ["powersetting/PowerReadDCValue"]
+f1_keywords: 
+ - "powersetting/PowerReadDCValue"
 req.header: powersetting.h
 req.include-header: 
 req.target-type: Windows

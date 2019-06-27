@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CountedString, CountedString structure [NAP], StringCorrelationId, nap.countedstring_struct, naptypes/CountedString
 ms.topic: struct
-f1_keywords: ["naptypes/CountedString"]
+f1_keywords: 
+ - "naptypes/CountedString"
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows

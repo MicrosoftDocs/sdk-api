@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TF_LBBALLOONINFO, TF_LBBALLOONINFO structure [Text Services Framework], _tsf_tf_lbballooninfo_ref, ctfutb/TF_LBBALLOONINFO, tsf.tf_lbballooninfo
 ms.topic: struct
-f1_keywords: ["ctfutb/TF_LBBALLOONINFO"]
+f1_keywords: 
+ - "ctfutb/TF_LBBALLOONINFO"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

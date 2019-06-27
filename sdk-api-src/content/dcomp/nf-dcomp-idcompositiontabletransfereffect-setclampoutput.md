@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetClampOutput method, IDCompositionTableTransferEffect.SetClampOutput, IDCompositionTableTransferEffect::SetClampOutput, SetClampOutput, SetClampOutput method [DirectComposition], SetClampOutput method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetClampOutput, directcomp.idcompositiontabletransfereffect_setclampoutput
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionTableTransferEffect.SetClampOutput"]
+f1_keywords: 
+ - "dcomp/IDCompositionTableTransferEffect.SetClampOutput"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

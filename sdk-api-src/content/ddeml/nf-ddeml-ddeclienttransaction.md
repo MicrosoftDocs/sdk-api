@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdeClientTransaction, DdeClientTransaction function [Data Exchange], XTYP_ADVSTART, XTYP_ADVSTOP, XTYP_EXECUTE, XTYP_POKE, XTYP_REQUEST, _win32_DdeClientTransaction, _win32_ddeclienttransaction_cpp, dataxchg.ddeclienttransaction, ddeml/DdeClientTransaction, winui._win32_ddeclienttransaction
 ms.topic: function
-f1_keywords: ["ddeml/DdeClientTransaction"]
+f1_keywords: 
+ - "ddeml/DdeClientTransaction"
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

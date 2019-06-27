@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StructureChangeType, StructureChangeType enumeration [Windows Accessibility], StructureChangeType_ChildAdded, StructureChangeType_ChildRemoved, StructureChangeType_ChildrenBulkAdded, StructureChangeType_ChildrenBulkRemoved, StructureChangeType_ChildrenInvalidated, StructureChangeType_ChildrenReordered, uiauto.uiauto_StructureChangeTypeEnum, uiauto_StructureChangeTypeEnum, uiautomationcore/StructureChangeType, uiautomationcore/StructureChangeType_ChildAdded, uiautomationcore/StructureChangeType_ChildRemoved, uiautomationcore/StructureChangeType_ChildrenBulkAdded, uiautomationcore/StructureChangeType_ChildrenBulkRemoved, uiautomationcore/StructureChangeType_ChildrenInvalidated, uiautomationcore/StructureChangeType_ChildrenReordered, winauto.uiauto_StructureChangeTypeEnum
 ms.topic: enum
-f1_keywords: ["uiautomationcore/StructureChangeType"]
+f1_keywords: 
+ - "uiautomationcore/StructureChangeType"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

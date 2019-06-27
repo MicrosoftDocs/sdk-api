@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCertRequest object [Security],GetCertificate method, CR_OUT_BASE64, CR_OUT_BASE64HEADER, CR_OUT_BINARY, CR_OUT_CHAIN, CR_OUT_CRLS, GetCertificate, GetCertificate method [Security], GetCertificate method [Security],CCertRequest object, GetCertificate method [Security],ICertRequest interface, GetCertificate method [Security],ICertRequest2 interface, GetCertificate method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetCertificate method, ICertRequest.GetCertificate, ICertRequest2 interface [Security],GetCertificate method, ICertRequest2::GetCertificate, ICertRequest3 interface [Security],GetCertificate method, ICertRequest3::GetCertificate, ICertRequest::GetCertificate, certcli/ICertRequest2::GetCertificate, certcli/ICertRequest3::GetCertificate, certcli/ICertRequest::GetCertificate, security.icertrequest2_getcertificate
 ms.topic: method
-f1_keywords: ["certcli/ICertRequest3.GetCertificate"]
+f1_keywords: 
+ - "certcli/ICertRequest3.GetCertificate"
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

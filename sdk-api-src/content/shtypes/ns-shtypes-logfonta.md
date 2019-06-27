@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LOGFONT, LOGFONT structure [Windows Shell], LOGFONTA, LOGFONTW, _shell_LOGFONT, _shell_LOGFONT_cpp, dimm/LOGFONT, dimm/LOGFONTA, dimm/LOGFONTW, shell.LOGFONT
 ms.topic: struct
-f1_keywords: ["shtypes/LOGFONT"]
+f1_keywords: 
+ - "shtypes/LOGFONT"
 req.header: shtypes.h
 req.include-header: Shtypes.h, Dimm.h
 req.target-type: Windows

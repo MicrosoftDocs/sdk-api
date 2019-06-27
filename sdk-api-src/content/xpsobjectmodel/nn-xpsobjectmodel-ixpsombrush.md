@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMBrush, IXpsOMBrush interface [XPS Documents and Packaging], IXpsOMBrush interface [XPS Documents and Packaging],described, xps.ixpsombrush, xpsobjectmodel/IXpsOMBrush
 ms.topic: interface
-f1_keywords: ["xpsobjectmodel/IXpsOMBrush"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMBrush"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

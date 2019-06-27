@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FinalClientRetry, FinalClientRetry method [COM+], FinalClientRetry method [COM+],IPlaybackControl interface, IPlaybackControl interface [COM+],FinalClientRetry method, IPlaybackControl.FinalClientRetry, IPlaybackControl::FinalClientRetry, _cos_IPlaybackControl_FinalClientRetry, comsvcs/IPlaybackControl::FinalClientRetry, cos.iplaybackcontrol_finalclientretry
 ms.topic: method
-f1_keywords: ["comsvcs/IPlaybackControl.FinalClientRetry"]
+f1_keywords: 
+ - "comsvcs/IPlaybackControl.FinalClientRetry"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

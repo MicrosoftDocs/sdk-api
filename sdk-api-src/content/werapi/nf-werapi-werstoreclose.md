@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WerStoreClose, WerStoreClose function [Windows Error Reporting], wer.werstoreclose, werapi/WerStoreClose
 ms.topic: function
-f1_keywords: ["werapi/WerStoreClose"]
+f1_keywords: 
+ - "werapi/WerStoreClose"
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

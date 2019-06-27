@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePipelineState, CreatePipelineState method, CreatePipelineState method,ID3D12Device2 interface, ID3D12Device2 interface,CreatePipelineState method, ID3D12Device2.CreatePipelineState, ID3D12Device2::CreatePipelineState, d3d12/ID3D12Device2::CreatePipelineState, direct3d12.id3d12device2_createpipelinestate
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12Device2.CreatePipelineState"]
+f1_keywords: 
+ - "d3d12/ID3D12Device2.CreatePipelineState"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

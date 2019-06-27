@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VPWATERMARKFLAGS, VPWATERMARKFLAGS enumeration [Windows Shell], VPWF_ALPHABLEND, VPWF_DEFAULT, _shell_VPWATERMARKFLAGS, shell.VPWATERMARKFLAGS, shobjidl/VPWATERMARKFLAGS, shobjidl/VPWF_ALPHABLEND, shobjidl/VPWF_DEFAULT
 ms.topic: enum
-f1_keywords: ["shobjidl/VPWATERMARKFLAGS"]
+f1_keywords: 
+ - "shobjidl/VPWATERMARKFLAGS"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

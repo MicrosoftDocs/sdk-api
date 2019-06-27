@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 95c85fb2-9267-477f-aa47-1c050ccc1bdd, IMFVideoDisplayControl interface [Media Foundation],SetFullscreen method, IMFVideoDisplayControl.SetFullscreen, IMFVideoDisplayControl::SetFullscreen, SetFullscreen, SetFullscreen method [Media Foundation], SetFullscreen method [Media Foundation],IMFVideoDisplayControl interface, evr/IMFVideoDisplayControl::SetFullscreen, mf.imfvideodisplaycontrol_setfullscreen
 ms.topic: method
-f1_keywords: ["evr/IMFVideoDisplayControl.SetFullscreen"]
+f1_keywords: 
+ - "evr/IMFVideoDisplayControl.SetFullscreen"
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

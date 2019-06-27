@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BroadcastEvent, BroadcastEvent method [Microsoft TV Technologies], BroadcastEvent method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],BroadcastEvent method, IMSVidStreamBufferV2SourceEvent.BroadcastEvent, IMSVidStreamBufferV2SourceEvent::BroadcastEvent, mstv.imsvidstreambufferv2sourceevent_broadcastevent, segment/IMSVidStreamBufferV2SourceEvent::BroadcastEvent
 ms.topic: method
-f1_keywords: ["segment/IMSVidStreamBufferV2SourceEvent.BroadcastEvent"]
+f1_keywords: 
+ - "segment/IMSVidStreamBufferV2SourceEvent.BroadcastEvent"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

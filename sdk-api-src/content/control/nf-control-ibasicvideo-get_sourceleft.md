@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_SourceLeft method, IBasicVideo.get_SourceLeft, IBasicVideo::get_SourceLeft, IBasicVideoget_SourceLeft, control/IBasicVideo::get_SourceLeft, dshow.ibasicvideo_get_sourceleft, get_SourceLeft, get_SourceLeft method [DirectShow], get_SourceLeft method [DirectShow],IBasicVideo interface
 ms.topic: method
-f1_keywords: ["control/IBasicVideo.get_SourceLeft"]
+f1_keywords: 
+ - "control/IBasicVideo.get_SourceLeft"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

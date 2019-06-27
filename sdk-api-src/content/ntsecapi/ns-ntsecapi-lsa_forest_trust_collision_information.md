@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLSA_FOREST_TRUST_COLLISION_INFORMATION, LSA_FOREST_TRUST_COLLISION_INFORMATION, LSA_FOREST_TRUST_COLLISION_INFORMATION structure [Security], PLSA_FOREST_TRUST_COLLISION_INFORMATION, PLSA_FOREST_TRUST_COLLISION_INFORMATION structure pointer [Security], _LSA_FOREST_TRUST_COLLISION_INFORMATION, ntsecapi/LSA_FOREST_TRUST_COLLISION_INFORMATION, ntsecapi/PLSA_FOREST_TRUST_COLLISION_INFORMATION, security.lsa_forest_trust_collision_information"
 ms.topic: struct
-f1_keywords: ["ntsecapi/LSA_FOREST_TRUST_COLLISION_INFORMATION"]
+f1_keywords: 
+ - "ntsecapi/LSA_FOREST_TRUST_COLLISION_INFORMATION"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

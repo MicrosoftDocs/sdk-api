@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngTextOut, EngTextOut function [Display Devices], display.engtextout, gdifncs_e383ce94-952d-48e3-a814-afd38822aad2.xml, winddi/EngTextOut
 ms.topic: function
-f1_keywords: ["winddi/EngTextOut"]
+f1_keywords: 
+ - "winddi/EngTextOut"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

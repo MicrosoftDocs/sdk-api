@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDirectCreatorName, GetDirectCreatorName method [COM+], GetDirectCreatorName method [COM+],SecurityProperty interface, SecurityProperty interface [COM+],GetDirectCreatorName method, SecurityProperty.GetDirectCreatorName, SecurityProperty::GetDirectCreatorName, _cos_SecurityProperty_GetDirectCreatorName, comsvcs/SecurityProperty::GetDirectCreatorName, cos.securityproperty_getdirectcreatorname
 ms.topic: method
-f1_keywords: ["comsvcs/SecurityProperty.GetDirectCreatorName"]
+f1_keywords: 
+ - "comsvcs/SecurityProperty.GetDirectCreatorName"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPENHMETAHEADER, *PENHMETAHEADER, ENHMETAHEADER, ENHMETAHEADER structure [Windows GDI], PENHMETAHEADER, PENHMETAHEADER structure pointer [Windows GDI], _win32_ENHMETAHEADER_str, gdi.enhmetaheader, wingdi/ENHMETAHEADER, wingdi/PENHMETAHEADER"
 ms.topic: struct
-f1_keywords: ["wingdi/ENHMETAHEADER"]
+f1_keywords: 
+ - "wingdi/ENHMETAHEADER"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

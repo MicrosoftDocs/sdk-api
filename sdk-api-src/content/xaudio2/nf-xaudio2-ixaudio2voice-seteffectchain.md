@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXAudio2Voice interface [XAudio2 Audio Mixing APIs],SetEffectChain method, IXAudio2Voice.SetEffectChain, IXAudio2Voice::SetEffectChain, SetEffectChain, SetEffectChain method [XAudio2 Audio Mixing APIs], SetEffectChain method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, xaudio2.ixaudio2voice_interface_seteffectchain, xaudio2/IXAudio2Voice::SetEffectChain
 ms.topic: method
-f1_keywords: ["xaudio2/IXAudio2Voice.SetEffectChain"]
+f1_keywords: 
+ - "xaudio2/IXAudio2Voice.SetEffectChain"
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRenewalResultCode, GetRenewalResultCode method [DirectShow], GetRenewalResultCode method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetRenewalResultCode method, IESLicenseRenewalResultEvent.GetRenewalResultCode, IESLicenseRenewalResultEvent::GetRenewalResultCode, mstv.ieslicenserenewalresultevent_getrenewalresultcode, tuner/IESLicenseRenewalResultEvent::GetRenewalResultCode
 ms.topic: method
-f1_keywords: ["tuner/IESLicenseRenewalResultEvent.GetRenewalResultCode"]
+f1_keywords: 
+ - "tuner/IESLicenseRenewalResultEvent.GetRenewalResultCode"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

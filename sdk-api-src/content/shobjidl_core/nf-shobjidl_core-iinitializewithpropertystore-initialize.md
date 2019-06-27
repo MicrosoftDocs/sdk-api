@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInitializeWithPropertyStore interface [Windows Shell],Initialize method, IInitializeWithPropertyStore.Initialize, IInitializeWithPropertyStore::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IInitializeWithPropertyStore interface, _shell_IInitializeWithPropertyStore_Initialize, shell.IInitializeWithPropertyStore_Initialize, shobjidl_core/IInitializeWithPropertyStore::Initialize
 ms.topic: method
-f1_keywords: ["shobjidl_core/IInitializeWithPropertyStore.Initialize"]
+f1_keywords: 
+ - "shobjidl_core/IInitializeWithPropertyStore.Initialize"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

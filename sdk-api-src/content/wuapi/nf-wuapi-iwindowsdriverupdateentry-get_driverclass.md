@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DriverClass property [Windows Update Agent], DriverClass property [Windows Update Agent],IWindowsDriverUpdateEntry interface, IWindowsDriverUpdateEntry interface [Windows Update Agent],DriverClass property, IWindowsDriverUpdateEntry.DriverClass, IWindowsDriverUpdateEntry.get_DriverClass, IWindowsDriverUpdateEntry::DriverClass, IWindowsDriverUpdateEntry::get_DriverClass, get_DriverClass, wua.iwindowsdriverupdateentry_driverclass, wuapi/IWindowsDriverUpdateEntry::DriverClass, wuapi/IWindowsDriverUpdateEntry::get_DriverClass
 ms.topic: method
-f1_keywords: ["wuapi/IWindowsDriverUpdateEntry.DriverClass"]
+f1_keywords: 
+ - "wuapi/IWindowsDriverUpdateEntry.DriverClass"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

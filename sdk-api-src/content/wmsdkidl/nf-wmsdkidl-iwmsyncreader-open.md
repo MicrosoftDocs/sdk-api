@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMSyncReader interface [windows Media Format],Open method, IWMSyncReader.Open, IWMSyncReader::Open, IWMSyncReaderOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_open, wmsdkidl/IWMSyncReader::Open
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMSyncReader.Open"]
+f1_keywords: 
+ - "wmsdkidl/IWMSyncReader.Open"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

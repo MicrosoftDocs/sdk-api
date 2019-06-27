@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPTIMECAPS, *NPTIMECAPS, *PTIMECAPS, LPTIMECAPS, LPTIMECAPS structure pointer [Windows Multimedia], NPTIMECAPS, NPTIMECAPS structure pointer [Windows Multimedia], PTIMECAPS, PTIMECAPS structure pointer [Windows Multimedia], TIMECAPS, TIMECAPS structure [Windows Multimedia], _win32_TIMECAPS_str, mmsystem/LPTIMECAPS, mmsystem/NPTIMECAPS, mmsystem/PTIMECAPS, mmsystem/TIMECAPS, multimedia.timecaps, timeapi/LPTIMECAPS, timeapi/NPTIMECAPS, timeapi/PTIMECAPS, timeapi/TIMECAPS"
 ms.topic: struct
-f1_keywords: ["timeapi/TIMECAPS"]
+f1_keywords: 
+ - "timeapi/TIMECAPS"
 req.header: timeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

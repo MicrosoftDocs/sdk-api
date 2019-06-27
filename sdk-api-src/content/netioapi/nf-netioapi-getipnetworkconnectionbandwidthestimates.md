@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, GetIpNetworkConnectionBandwidthEstimates, GetIpNetworkConnectionBandwidthEstimates function [IP Helper], iphlp.getipnetworkconnectionbandwidthestimates, netioapi/GetIpNetworkConnectionBandwidthEstimates
 ms.topic: function
-f1_keywords: ["netioapi/GetIpNetworkConnectionBandwidthEstimates"]
+f1_keywords: 
+ - "netioapi/GetIpNetworkConnectionBandwidthEstimates"
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

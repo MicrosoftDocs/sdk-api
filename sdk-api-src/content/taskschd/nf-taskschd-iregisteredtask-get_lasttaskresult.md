@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],LastTaskResult property, IRegisteredTask.LastTaskResult, IRegisteredTask.get_LastTaskResult, IRegisteredTask::LastTaskResult, IRegisteredTask::get_LastTaskResult, LastTaskResult property [Task Scheduler], LastTaskResult property [Task Scheduler],IRegisteredTask interface, get_LastTaskResult, taskschd.iregisteredtask_lasttaskresult, taskschd/IRegisteredTask::LastTaskResult, taskschd/IRegisteredTask::get_LastTaskResult
 ms.topic: method
-f1_keywords: ["taskschd/IRegisteredTask.LastTaskResult"]
+f1_keywords: 
+ - "taskschd/IRegisteredTask.LastTaskResult"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

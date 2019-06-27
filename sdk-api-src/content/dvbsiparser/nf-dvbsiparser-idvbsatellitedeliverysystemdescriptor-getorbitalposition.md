@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOrbitalPosition, GetOrbitalPosition method [Microsoft TV Technologies], GetOrbitalPosition method [Microsoft TV Technologies],IDvbSatelliteDeliverySystemDescriptor interface, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],GetOrbitalPosition method, IDvbSatelliteDeliverySystemDescriptor.GetOrbitalPosition, IDvbSatelliteDeliverySystemDescriptor::GetOrbitalPosition, IDvbSatelliteDeliverySystemDescriptorGetOrbitalPosition, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetOrbitalPosition, mstv.idvbsatellitedeliverysystemdescriptor_getorbitalposition
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbSatelliteDeliverySystemDescriptor.GetOrbitalPosition"]
+f1_keywords: 
+ - "dvbsiparser/IDvbSatelliteDeliverySystemDescriptor.GetOrbitalPosition"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

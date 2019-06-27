@@ -4,7 +4,8 @@ title: PEER_GROUP_EVENT_DATA
 ms.date: 01/30/19
 ms.keywords: peer_group_event_data_tag, PEER_GROUP_EVENT_DATA
 ms.topic: language-reference
-f1_keywords: ["p2p/peer_group_event_data_tag"]
+f1_keywords: 
+ - "p2p/peer_group_event_data_tag"
 targetos: Windows
 product: Windows
 req.construct-type: structure

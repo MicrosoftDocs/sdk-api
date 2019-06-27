@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],SetClientTitle method, IAttachmentExecute.SetClientTitle, IAttachmentExecute::SetClientTitle, SetClientTitle, SetClientTitle method [Windows Shell], SetClientTitle method [Windows Shell],IAttachmentExecute interface, _win32_IAttachmentExecute_SetClientTitle, shell.IAttachmentExecute_SetClientTitle, shobjidl_core/IAttachmentExecute::SetClientTitle
 ms.topic: method
-f1_keywords: ["shobjidl_core/IAttachmentExecute.SetClientTitle"]
+f1_keywords: 
+ - "shobjidl_core/IAttachmentExecute.SetClientTitle"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

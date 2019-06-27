@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12Debug2 interface,SetGPUBasedValidationFlags method, ID3D12Debug2.SetGPUBasedValidationFlags, ID3D12Debug2::SetGPUBasedValidationFlags, SetGPUBasedValidationFlags, SetGPUBasedValidationFlags method, SetGPUBasedValidationFlags method,ID3D12Debug2 interface, d3d12sdklayers/ID3D12Debug2::SetGPUBasedValidationFlags, direct3d12.id3d12debug2_setgpubasedvalidationflags
 ms.topic: method
-f1_keywords: ["d3d12sdklayers/ID3D12Debug2.SetGPUBasedValidationFlags"]
+f1_keywords: 
+ - "d3d12sdklayers/ID3D12Debug2.SetGPUBasedValidationFlags"
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

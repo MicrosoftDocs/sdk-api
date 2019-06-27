@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Online, Online callback, Online callback function [Failover Cluster], PONLINE_ROUTINE, PONLINE_ROUTINE callback function [Failover Cluster], _wolf_online, mscs.online, resapi/Online, resapi/PONLINE_ROUTINE
 ms.topic: callback
-f1_keywords: ["resapi/Online"]
+f1_keywords: 
+ - "resapi/Online"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

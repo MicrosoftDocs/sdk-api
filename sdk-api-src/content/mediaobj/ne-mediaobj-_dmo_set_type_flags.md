@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DMO_SET_TYPEF_CLEAR, DMO_SET_TYPEF_TEST_ONLY, DMO_SET_TYPE_FLAGS , DMO_SET_TYPE_FLAGSEnumeration, _DMO_SET_TYPE_FLAGS, _DMO_SET_TYPE_FLAGS enumeration [DirectShow], dshow.dmo_set_type_flags, mediaobj/DMO_SET_TYPEF_CLEAR, mediaobj/DMO_SET_TYPEF_TEST_ONLY, mediaobj/_DMO_SET_TYPE_FLAGS
 ms.topic: enum
-f1_keywords: ["mediaobj/_DMO_SET_TYPE_FLAGS"]
+f1_keywords: 
+ - "mediaobj/_DMO_SET_TYPE_FLAGS"
 req.header: mediaobj.h
 req.include-header: 
 req.target-type: Windows

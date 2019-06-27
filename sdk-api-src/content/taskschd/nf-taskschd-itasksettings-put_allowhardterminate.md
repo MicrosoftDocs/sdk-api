@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllowHardTerminate property [Task Scheduler], AllowHardTerminate property [Task Scheduler],ITaskSettings interface, AllowHardTerminate property [Task Scheduler],TaskSettings class, ITaskSettings interface [Task Scheduler],AllowHardTerminate property, ITaskSettings.AllowHardTerminate, ITaskSettings.put_AllowHardTerminate, ITaskSettings::AllowHardTerminate, ITaskSettings::get_AllowHardTerminate, ITaskSettings::put_AllowHardTerminate, TaskSettings class [Task Scheduler],AllowHardTerminate property, put_AllowHardTerminate, taskschd.itasksettings_allowhardterminate, taskschd/ITaskSettings::AllowHardTerminate, taskschd/ITaskSettings::get_AllowHardTerminate, taskschd/ITaskSettings::put_AllowHardTerminate
 ms.topic: method
-f1_keywords: ["taskschd/ITaskSettings.AllowHardTerminate"]
+f1_keywords: 
+ - "taskschd/ITaskSettings.AllowHardTerminate"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

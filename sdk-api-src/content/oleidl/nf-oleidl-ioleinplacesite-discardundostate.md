@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DiscardUndoState, DiscardUndoState method [COM], DiscardUndoState method [COM],IOleInPlaceSite interface, IOleInPlaceSite interface [COM],DiscardUndoState method, IOleInPlaceSite.DiscardUndoState, IOleInPlaceSite::DiscardUndoState, IOleInPlaceSiteWindowless.DiscardUndoState, _ole_ioleinplacesite_discardundostate, com.ioleinplacesite_discardundostate, oleidl/IOleInPlaceSite::DiscardUndoState
 ms.topic: method
-f1_keywords: ["oleidl/IOleInPlaceSite.DiscardUndoState"]
+f1_keywords: 
+ - "oleidl/IOleInPlaceSite.DiscardUndoState"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

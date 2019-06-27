@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumMediaTypes interface, IEnumMediaTypes interface [DirectShow],Clone method, IEnumMediaTypes.Clone, IEnumMediaTypes::Clone, IEnumMediaTypesClone, dshow.ienummediatypes_clone, strmif/IEnumMediaTypes::Clone
 ms.topic: method
-f1_keywords: ["strmif/IEnumMediaTypes.Clone"]
+f1_keywords: 
+ - "strmif/IEnumMediaTypes.Clone"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

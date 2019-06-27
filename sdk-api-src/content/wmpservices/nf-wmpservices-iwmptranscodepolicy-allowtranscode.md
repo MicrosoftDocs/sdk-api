@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPTranscodePolicy interface [Windows Media Player],allowTranscode method, IWMPTranscodePolicy.allowTranscode, IWMPTranscodePolicy::allowTranscode, IWMPTranscodePolicyallowTranscode, allowTranscode, allowTranscode method [Windows Media Player], allowTranscode method [Windows Media Player],IWMPTranscodePolicy interface, wmp.iwmptranscodepolicy_allowtranscode, wmpservices/IWMPTranscodePolicy::allowTranscode
 ms.topic: method
-f1_keywords: ["wmpservices/IWMPTranscodePolicy.allowTranscode"]
+f1_keywords: 
+ - "wmpservices/IWMPTranscodePolicy.allowTranscode"
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

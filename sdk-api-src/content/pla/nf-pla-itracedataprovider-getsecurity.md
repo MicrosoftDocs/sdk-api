@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSecurity, GetSecurity method [PLA], GetSecurity method [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],GetSecurity method, ITraceDataProvider.GetSecurity, ITraceDataProvider::GetSecurity, pla.itracedataprovider_getsecurity, pla/ITraceDataProvider::GetSecurity
 ms.topic: method
-f1_keywords: ["pla/ITraceDataProvider.GetSecurity"]
+f1_keywords: 
+ - "pla/ITraceDataProvider.GetSecurity"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

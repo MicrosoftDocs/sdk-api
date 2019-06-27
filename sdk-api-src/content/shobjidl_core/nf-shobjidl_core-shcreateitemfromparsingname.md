@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCreateItemFromParsingName, SHCreateItemFromParsingName function [Windows Shell], _shell_SHCreateItemFromParsingName, shell.SHCreateItemFromParsingName, shobjidl_core/SHCreateItemFromParsingName
 ms.topic: function
-f1_keywords: ["shobjidl_core/SHCreateItemFromParsingName"]
+f1_keywords: 
+ - "shobjidl_core/SHCreateItemFromParsingName"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

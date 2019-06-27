@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetTextContext, SetTextContext function [Tablet PC], f5461326-3def-4564-81ea-32a63b889da0, recapis/SetTextContext, tablet.settextcontext
 ms.topic: function
-f1_keywords: ["recapis/SetTextContext"]
+f1_keywords: 
+ - "recapis/SetTextContext"
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

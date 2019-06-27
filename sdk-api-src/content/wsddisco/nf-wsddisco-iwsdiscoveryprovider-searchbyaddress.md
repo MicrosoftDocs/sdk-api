@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryProvider interface,SearchByAddress method, IWSDiscoveryProvider.SearchByAddress, IWSDiscoveryProvider::SearchByAddress, SearchByAddress, SearchByAddress method, SearchByAddress method,IWSDiscoveryProvider interface, ncd.iwsdiscoveryprovider_searchbyaddress, wsddisco/IWSDiscoveryProvider::SearchByAddress
 ms.topic: method
-f1_keywords: ["wsddisco/IWSDiscoveryProvider.SearchByAddress"]
+f1_keywords: 
+ - "wsddisco/IWSDiscoveryProvider.SearchByAddress"
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

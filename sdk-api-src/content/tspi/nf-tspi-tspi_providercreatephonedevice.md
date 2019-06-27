@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_providerCreatePhoneDevice, TSPI_providerCreatePhoneDevice function [TAPI 2.2], _tspi_tspi_providercreatephonedevice, tspi.tspi_providercreatephonedevice, tspi/TSPI_providerCreatePhoneDevice
 ms.topic: function
-f1_keywords: ["tspi/TSPI_providerCreatePhoneDevice"]
+f1_keywords: 
+ - "tspi/TSPI_providerCreatePhoneDevice"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

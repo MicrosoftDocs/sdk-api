@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DavGetUNCFromHTTPPath, DavGetUNCFromHTTPPath function [WebDAV], davclnt/DavGetUNCFromHTTPPath, webdav.davgetuncfromhttppath
 ms.topic: function
-f1_keywords: ["davclnt/DavGetUNCFromHTTPPath"]
+f1_keywords: 
+ - "davclnt/DavGetUNCFromHTTPPath"
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows

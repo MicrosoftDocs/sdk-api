@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleManifestPackageInfoEnumerator, IAppxBundleManifestPackageInfoEnumerator interface [App packaging and management], IAppxBundleManifestPackageInfoEnumerator interface [App packaging and management],described, appxpackaging/IAppxBundleManifestPackageInfoEnumerator, appxpkg.iappxbundlemanifestpackageinfoenumerator
 ms.topic: interface
-f1_keywords: ["appxpackaging/IAppxBundleManifestPackageInfoEnumerator"]
+f1_keywords: 
+ - "appxpackaging/IAppxBundleManifestPackageInfoEnumerator"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

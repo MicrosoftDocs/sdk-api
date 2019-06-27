@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BreakText, BreakText method [search], BreakText method [search],IWordBreaker interface, IWordBreaker interface [search],BreakText method, IWordBreaker.BreakText, IWordBreaker::BreakText, _search_IWordBreaker_BreakText, indexsrv/IWordBreaker::BreakText, search._search_IWordBreaker_BreakText
 ms.topic: method
-f1_keywords: ["indexsrv/IWordBreaker.BreakText"]
+f1_keywords: 
+ - "indexsrv/IWordBreaker.BreakText"
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIFactory7, IDXGIFactory7 interface [DXGI], IDXGIFactory7 interface [DXGI],described, direct3ddxgi.idxgifactory7, dxgi1_6/IDXGIFactory7
 ms.topic: interface
-f1_keywords: ["dxgi1_6/IDXGIFactory7"]
+f1_keywords: 
+ - "dxgi1_6/IDXGIFactory7"
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows

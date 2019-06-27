@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumSignatures, EnumSignatures method [Windows Runtime], EnumSignatures method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumSignatures method, IMetaDataImport.EnumSignatures, IMetaDataImport::EnumSignatures, rometadataapi/IMetaDataImport::EnumSignatures, winrt.imetadataimport_enumsignatures
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataImport.EnumSignatures"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataImport.EnumSignatures"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetBlueTable method, IDCompositionTableTransferEffect.SetBlueTable, IDCompositionTableTransferEffect::SetBlueTable, SetBlueTable, SetBlueTable method [DirectComposition], SetBlueTable method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetBlueTable, directcomp.idcompositiontabletransfereffect_setbluetable
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionTableTransferEffect.SetBlueTable"]
+f1_keywords: 
+ - "dcomp/IDCompositionTableTransferEffect.SetBlueTable"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

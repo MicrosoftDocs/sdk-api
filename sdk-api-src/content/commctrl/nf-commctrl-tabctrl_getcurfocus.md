@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TabCtrl_GetCurFocus, TabCtrl_GetCurFocus macro [Windows Controls], _win32_TabCtrl_GetCurFocus, _win32_TabCtrl_GetCurFocus_cpp, commctrl/TabCtrl_GetCurFocus, controls.TabCtrl_GetCurFocus, controls._win32_TabCtrl_GetCurFocus
 ms.topic: macro
-f1_keywords: ["commctrl/TabCtrl_GetCurFocus"]
+f1_keywords: 
+ - "commctrl/TabCtrl_GetCurFocus"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

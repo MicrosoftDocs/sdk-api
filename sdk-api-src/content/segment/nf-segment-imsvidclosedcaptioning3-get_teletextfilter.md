@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidClosedCaptioning3 interface [Microsoft TV Technologies],get_TeleTextFilter method, IMSVidClosedCaptioning3.get_TeleTextFilter, IMSVidClosedCaptioning3::get_TeleTextFilter, IMSVidClosedCaptioning3getTeleTextFilter, get_TeleTextFilter, get_TeleTextFilter method [Microsoft TV Technologies], get_TeleTextFilter method [Microsoft TV Technologies],IMSVidClosedCaptioning3 interface, mstv.imsvidclosedcaptioning3_get_teletextfilter, segment/IMSVidClosedCaptioning3::get_TeleTextFilter
 ms.topic: method
-f1_keywords: ["segment/IMSVidClosedCaptioning3.get_TeleTextFilter"]
+f1_keywords: 
+ - "segment/IMSVidClosedCaptioning3.get_TeleTextFilter"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

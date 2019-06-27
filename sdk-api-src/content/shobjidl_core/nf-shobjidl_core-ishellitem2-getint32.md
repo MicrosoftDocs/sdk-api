@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInt32, GetInt32 method [Windows Shell], GetInt32 method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetInt32 method, IShellItem2.GetInt32, IShellItem2::GetInt32, _shell_IShellItem2_GetInt32, shell.IShellItem2_GetInt32, shobjidl_core/IShellItem2::GetInt32
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellItem2.GetInt32"]
+f1_keywords: 
+ - "shobjidl_core/IShellItem2.GetInt32"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

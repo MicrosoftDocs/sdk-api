@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSASendMsg, WSASendMsg function [Winsock], winsock.wsasendmsg, winsock2/WSASendMsg
 ms.topic: function
-f1_keywords: ["winsock2/WSASendMsg"]
+f1_keywords: 
+ - "winsock2/WSASendMsg"
 req.header: winsock2.h
 req.include-header: Mswsock.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],ScriptCommand method, IWMPEvents.ScriptCommand, IWMPEvents::ScriptCommand, IWMPEventsScriptCommand, ScriptCommand, ScriptCommand method [Windows Media Player], ScriptCommand method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__scriptcommand, wmp/IWMPEvents::ScriptCommand
 ms.topic: method
-f1_keywords: ["wmp/IWMPEvents.ScriptCommand"]
+f1_keywords: 
+ - "wmp/IWMPEvents.ScriptCommand"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

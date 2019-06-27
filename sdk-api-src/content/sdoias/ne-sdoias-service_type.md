@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SERVICE_TYPE, SERVICE_TYPE enumeration [Network Policy Server], SERVICE_TYPE_IAS, SERVICE_TYPE_MAX, SERVICE_TYPE_RAMGMTSVC, SERVICE_TYPE_RAS, _sdo_service_type, nps.SDO_service_type, sdo.service_type, sdoias/SERVICE_TYPE, sdoias/SERVICE_TYPE_IAS, sdoias/SERVICE_TYPE_MAX, sdoias/SERVICE_TYPE_RAMGMTSVC, sdoias/SERVICE_TYPE_RAS
 ms.topic: enum
-f1_keywords: ["sdoias/SERVICE_TYPE"]
+f1_keywords: 
+ - "sdoias/SERVICE_TYPE"
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

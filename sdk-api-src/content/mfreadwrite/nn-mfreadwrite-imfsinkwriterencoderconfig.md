@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriterEncoderConfig, IMFSinkWriterEncoderConfig interface [Media Foundation], IMFSinkWriterEncoderConfig interface [Media Foundation],described, mf.imfsinkwriterencoderconfig, mfreadwrite/IMFSinkWriterEncoderConfig
 ms.topic: interface
-f1_keywords: ["mfreadwrite/IMFSinkWriterEncoderConfig"]
+f1_keywords: 
+ - "mfreadwrite/IMFSinkWriterEncoderConfig"
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

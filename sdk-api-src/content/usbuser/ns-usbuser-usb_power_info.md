@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PUSB_POWER_INFO, PUSB_POWER_INFO, PUSB_POWER_INFO structure pointer [Buses], USB_POWER_INFO, USB_POWER_INFO structure [Buses], buses.usb_power_info, usbstrct_95ba66ea-20ee-4e05-8294-3b3bd06f7116.xml, usbuser/PUSB_POWER_INFO, usbuser/USB_POWER_INFO"
 ms.topic: struct
-f1_keywords: ["usbuser/USB_POWER_INFO"]
+f1_keywords: 
+ - "usbuser/USB_POWER_INFO"
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows

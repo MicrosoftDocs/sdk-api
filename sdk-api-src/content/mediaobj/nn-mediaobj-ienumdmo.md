@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumDMO, IEnumDMO interface [DirectShow], IEnumDMO interface [DirectShow],described, IEnumDMOInterface, dshow.ienumdmo, mediaobj/IEnumDMO
 ms.topic: interface
-f1_keywords: ["mediaobj/IEnumDMO"]
+f1_keywords: 
+ - "mediaobj/IEnumDMO"
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

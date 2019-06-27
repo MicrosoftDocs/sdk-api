@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent],IStringCollection interface, IStringCollection interface [Windows Update Agent],Count property, IStringCollection.Count, IStringCollection.get_Count, IStringCollection::Count, IStringCollection::get_Count, get_Count, wua.istringcollection_count, wuapi/IStringCollection::Count, wuapi/IStringCollection::get_Count
 ms.topic: method
-f1_keywords: ["wuapi/IStringCollection.Count"]
+f1_keywords: 
+ - "wuapi/IStringCollection.Count"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

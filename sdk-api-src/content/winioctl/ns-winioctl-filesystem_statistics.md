@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PFILESYSTEM_STATISTICS, FILESYSTEM_STATISTICS, FILESYSTEM_STATISTICS structure [Files], FILESYSTEM_STATISTICS_TYPE_EXFAT, FILESYSTEM_STATISTICS_TYPE_FAT, FILESYSTEM_STATISTICS_TYPE_NTFS, PFILESYSTEM_STATISTICS, PFILESYSTEM_STATISTICS structure pointer [Files], base.filesystem_statistics_str, fs.filesystem_statistics, fs.filesystem_statistics_str, fs.filesystem_statistics_structure, winioctl/FILESYSTEM_STATISTICS, winioctl/PFILESYSTEM_STATISTICS"
 ms.topic: struct
-f1_keywords: ["winioctl/FILESYSTEM_STATISTICS"]
+f1_keywords: 
+ - "winioctl/FILESYSTEM_STATISTICS"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

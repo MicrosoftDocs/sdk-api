@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITLegacyAddressMediaControl interface [TAPI 2.2],SetDevConfig method, ITLegacyAddressMediaControl.SetDevConfig, ITLegacyAddressMediaControl::SetDevConfig, SetDevConfig, SetDevConfig method [TAPI 2.2], SetDevConfig method [TAPI 2.2],ITLegacyAddressMediaControl interface, _tapi3_itlegacyaddressmediacontrol_setdevconfig, tapi3.itlegacyaddressmediacontrol_setdevconfig, tapi3if/ITLegacyAddressMediaControl::SetDevConfig
 ms.topic: method
-f1_keywords: ["tapi3if/ITLegacyAddressMediaControl.SetDevConfig"]
+f1_keywords: 
+ - "tapi3if/ITLegacyAddressMediaControl.SetDevConfig"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

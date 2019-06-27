@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSerialNumber, GetSerialNumber method [windows Media Device Manager], GetSerialNumber method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetSerialNumber method, IMDSPDevice.GetSerialNumber, IMDSPDevice::GetSerialNumber, IMDSPDeviceGetSerialNumber, mswmdm/IMDSPDevice::GetSerialNumber, wmdm.imdspdevice_getserialnumber
 ms.topic: method
-f1_keywords: ["mswmdm/IMDSPDevice.GetSerialNumber"]
+f1_keywords: 
+ - "mswmdm/IMDSPDevice.GetSerialNumber"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

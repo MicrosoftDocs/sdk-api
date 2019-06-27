@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SNMPAPI_TRANSLATED, SNMPAPI_UNTRANSLATED_V1, SNMPAPI_UNTRANSLATED_V2, SnmpStartupEx, SnmpStartupEx function [SNMP], _snmp_snmpstartupex, snmp.snmpstartupex, winsnmp/SnmpStartupEx
 ms.topic: function
-f1_keywords: ["winsnmp/SnmpStartupEx"]
+f1_keywords: 
+ - "winsnmp/SnmpStartupEx"
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

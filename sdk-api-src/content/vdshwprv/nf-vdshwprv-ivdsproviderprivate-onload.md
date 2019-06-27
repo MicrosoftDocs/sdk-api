@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsProviderPrivate interface [VDS],OnLoad method, IVdsProviderPrivate.OnLoad, IVdsProviderPrivate::OnLoad, OnLoad, OnLoad method [VDS], OnLoad method [VDS],IVdsProviderPrivate interface, base.ivdsproviderprivate_onload, vdshwprv/IVdsProviderPrivate::OnLoad
 ms.topic: method
-f1_keywords: ["vdshwprv/IVdsProviderPrivate.OnLoad"]
+f1_keywords: 
+ - "vdshwprv/IVdsProviderPrivate.OnLoad"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

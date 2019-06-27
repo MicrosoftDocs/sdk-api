@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHSendMessageBroadcast, SHSendMessageBroadcast function [Windows Shell], SHSendMessageBroadcastA, SHSendMessageBroadcastW, _shell_SHSendMessageBroadcast, shell.SHSendMessageBroadcast, shlwapi/SHSendMessageBroadcast, shlwapi/SHSendMessageBroadcastA, shlwapi/SHSendMessageBroadcastW
 ms.topic: function
-f1_keywords: ["shlwapi/SHSendMessageBroadcast"]
+f1_keywords: 
+ - "shlwapi/SHSendMessageBroadcast"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HitTest, HitTest method, HitTest method,IXamlDiagnostics interface, IXamlDiagnostics interface,HitTest method, IXamlDiagnostics.HitTest, IXamlDiagnostics::HitTest, xaml_diagnostics.ixamldiagnostics_hittest, xamlom/IXamlDiagnostics::HitTest
 ms.topic: method
-f1_keywords: ["xamlom/IXamlDiagnostics.HitTest"]
+f1_keywords: 
+ - "xamlom/IXamlDiagnostics.HitTest"
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

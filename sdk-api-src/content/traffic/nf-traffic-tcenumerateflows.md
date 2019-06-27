@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TcEnumerateFlows, TcEnumerateFlows function [QOS], _gqos_tcenumerateflows, qos.tcenumerateflows, traffic/TcEnumerateFlows
 ms.topic: function
-f1_keywords: ["traffic/TcEnumerateFlows"]
+f1_keywords: 
+ - "traffic/TcEnumerateFlows"
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

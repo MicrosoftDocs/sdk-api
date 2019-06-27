@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCustomReferenceSet, GetCustomReferenceSet method [Open Packaging Conventions], GetCustomReferenceSet method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetCustomReferenceSet method, IOpcSigningOptions.GetCustomReferenceSet, IOpcSigningOptions::GetCustomReferenceSet, msopc/IOpcSigningOptions::GetCustomReferenceSet, opc.iopcsigningoptions_getcustomreferenceset
 ms.topic: method
-f1_keywords: ["msopc/IOpcSigningOptions.GetCustomReferenceSet"]
+f1_keywords: 
+ - "msopc/IOpcSigningOptions.GetCustomReferenceSet"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

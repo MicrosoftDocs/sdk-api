@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTrueCondition, CreateTrueCondition method [Windows Accessibility], CreateTrueCondition method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateTrueCondition method, IUIAutomation.CreateTrueCondition, IUIAutomation::CreateTrueCondition, uiauto.uiauto_IUIAutomation_CreateTrueCondition, uiauto_IUIAutomation_CreateTrueCondition, uiautomationclient/IUIAutomation::CreateTrueCondition, winauto.uiauto_IUIAutomation_CreateTrueCondition
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomation.CreateTrueCondition"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomation.CreateTrueCondition"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLineHeight, GetLineHeight method [Media Foundation], GetLineHeight method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetLineHeight method, IMFTimedTextRegion.GetLineHeight, IMFTimedTextRegion::GetLineHeight, mf.imftimedtextregion_getlineheight, mfmediaengine/IMFTimedTextRegion::GetLineHeight
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedTextRegion.GetLineHeight"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedTextRegion.GetLineHeight"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

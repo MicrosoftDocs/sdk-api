@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Description property [Fax Service], Description property [Fax Service],IFaxDevice interface, IFaxDevice interface [Fax Service],Description property, IFaxDevice.Description, IFaxDevice.get_Description, IFaxDevice.put_Description, IFaxDevice::Description, IFaxDevice::get_Description, IFaxDevice::put_Description, _mfax_faxdevice.description, fax._mfax_faxdevice_cpp_mfax_faxdevice_description_cpp, fax._mfax_faxdevice_description, faxcomex/IFaxDevice::Description, faxcomex/IFaxDevice::get_Description, faxcomex/IFaxDevice::put_Description, put_Description
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxDevice.Description"]
+f1_keywords: 
+ - "faxcomex/IFaxDevice.Description"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

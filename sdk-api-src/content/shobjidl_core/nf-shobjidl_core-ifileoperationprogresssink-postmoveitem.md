@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PostMoveItem method, IFileOperationProgressSink.PostMoveItem, IFileOperationProgressSink::PostMoveItem, PostMoveItem, PostMoveItem method [Windows Shell], PostMoveItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PostMoveItem, shell.IFileOperationProgressSink_PostMoveItem, shobjidl_core/IFileOperationProgressSink::PostMoveItem
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileOperationProgressSink.PostMoveItem"]
+f1_keywords: 
+ - "shobjidl_core/IFileOperationProgressSink.PostMoveItem"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

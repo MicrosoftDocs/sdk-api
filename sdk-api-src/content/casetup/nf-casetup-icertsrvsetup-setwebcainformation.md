@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup interface [Security],SetWebCAInformation method, ICertSrvSetup.SetWebCAInformation, ICertSrvSetup::SetWebCAInformation, SetWebCAInformation, SetWebCAInformation method [Security], SetWebCAInformation method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::SetWebCAInformation, security.icertsrvsetup_setwebcainformation
 ms.topic: method
-f1_keywords: ["casetup/ICertSrvSetup.SetWebCAInformation"]
+f1_keywords: 
+ - "casetup/ICertSrvSetup.SetWebCAInformation"
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

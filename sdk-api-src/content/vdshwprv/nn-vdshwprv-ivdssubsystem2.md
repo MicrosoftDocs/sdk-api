@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystem2, IVdsSubSystem2 interface, IVdsSubSystem2 interface,described, base.ivdssubsystem2, vds/IVdsSubSystem2, vdshwprv/IVdsSubSystem2
 ms.topic: interface
-f1_keywords: ["vdshwprv/IVdsSubSystem2"]
+f1_keywords: 
+ - "vdshwprv/IVdsSubSystem2"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

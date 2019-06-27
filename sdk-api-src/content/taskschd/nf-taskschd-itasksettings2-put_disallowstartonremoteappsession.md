@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisallowStartOnRemoteAppSession property [Task Scheduler], DisallowStartOnRemoteAppSession property [Task Scheduler],ITaskSettings2 interface, ITaskSettings2 interface [Task Scheduler],DisallowStartOnRemoteAppSession property, ITaskSettings2.DisallowStartOnRemoteAppSession, ITaskSettings2.put_DisallowStartOnRemoteAppSession, ITaskSettings2::DisallowStartOnRemoteAppSession, ITaskSettings2::get_DisallowStartOnRemoteAppSession, ITaskSettings2::put_DisallowStartOnRemoteAppSession, put_DisallowStartOnRemoteAppSession, taskschd.itasksettings2_disallowstartonremoteappsession, taskschd/ITaskSettings2::DisallowStartOnRemoteAppSession, taskschd/ITaskSettings2::get_DisallowStartOnRemoteAppSession, taskschd/ITaskSettings2::put_DisallowStartOnRemoteAppSession
 ms.topic: method
-f1_keywords: ["taskschd/ITaskSettings2.DisallowStartOnRemoteAppSession"]
+f1_keywords: 
+ - "taskschd/ITaskSettings2.DisallowStartOnRemoteAppSession"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

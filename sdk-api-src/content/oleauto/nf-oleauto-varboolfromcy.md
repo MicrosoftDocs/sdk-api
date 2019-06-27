@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarBoolFromCy, VarBoolFromCy function [Automation], _oa96_VarBoolFromCy, automat.varboolfromcy, oleauto/VarBoolFromCy
 ms.topic: function
-f1_keywords: ["oleauto/VarBoolFromCy"]
+f1_keywords: 
+ - "oleauto/VarBoolFromCy"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

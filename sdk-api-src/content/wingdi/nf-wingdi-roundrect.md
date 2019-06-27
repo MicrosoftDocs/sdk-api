@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RoundRect, RoundRect function [Windows GDI], _win32_RoundRect, gdi.roundrect, wingdi/RoundRect
 ms.topic: function
-f1_keywords: ["wingdi/RoundRect"]
+f1_keywords: 
+ - "wingdi/RoundRect"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

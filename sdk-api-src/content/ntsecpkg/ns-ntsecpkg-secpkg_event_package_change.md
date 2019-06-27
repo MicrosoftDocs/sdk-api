@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSECPKG_EVENT_PACKAGE_CHANGE, PSECPKG_EVENT_PACKAGE_CHANGE, PSECPKG_EVENT_PACKAGE_CHANGE structure pointer [Security], SECPKG_EVENT_PACKAGE_CHANGE, SECPKG_EVENT_PACKAGE_CHANGE structure [Security], SECPKG_PACKAGE_CHANGE_LOAD, SECPKG_PACKAGE_CHANGE_SELECT, SECPKG_PACKAGE_CHANGE_UNLOAD, _ssp_secpkg_event_package_change, ntsecpkg/PSECPKG_EVENT_PACKAGE_CHANGE, ntsecpkg/SECPKG_EVENT_PACKAGE_CHANGE, security.secpkg_event_package_change"
 ms.topic: struct
-f1_keywords: ["ntsecpkg/SECPKG_EVENT_PACKAGE_CHANGE"]
+f1_keywords: 
+ - "ntsecpkg/SECPKG_EVENT_PACKAGE_CHANGE"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddRange, AddRange method [Security], AddRange method [Security],IObjectIds interface, IObjectIds interface [Security],AddRange method, IObjectIds.AddRange, IObjectIds::AddRange, certenroll/IObjectIds::AddRange, security.iobjectids_addrange_method
 ms.topic: method
-f1_keywords: ["certenroll/IObjectIds.AddRange"]
+f1_keywords: 
+ - "certenroll/IObjectIds.AddRange"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

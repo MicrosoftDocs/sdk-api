@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],ReleaseExclusiveAccess method, IDiscRecorder2.ReleaseExclusiveAccess, IDiscRecorder2::ReleaseExclusiveAccess, ReleaseExclusiveAccess, ReleaseExclusiveAccess method [IMAPI], ReleaseExclusiveAccess method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_releaseexclusiveaccess, imapi2/IDiscRecorder2::ReleaseExclusiveAccess
 ms.topic: method
-f1_keywords: ["imapi2/IDiscRecorder2.ReleaseExclusiveAccess"]
+f1_keywords: 
+ - "imapi2/IDiscRecorder2.ReleaseExclusiveAccess"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

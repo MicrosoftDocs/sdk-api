@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSecurityDescriptor, GetSecurityDescriptor method [Task Scheduler], GetSecurityDescriptor method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],GetSecurityDescriptor method, ITaskFolder.GetSecurityDescriptor, ITaskFolder::GetSecurityDescriptor, taskschd.itaskfolder_getsecuritydescriptor, taskschd/ITaskFolder::GetSecurityDescriptor
 ms.topic: method
-f1_keywords: ["taskschd/ITaskFolder.GetSecurityDescriptor"]
+f1_keywords: 
+ - "taskschd/ITaskFolder.GetSecurityDescriptor"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

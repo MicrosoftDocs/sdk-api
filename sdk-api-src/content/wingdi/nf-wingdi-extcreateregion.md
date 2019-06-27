@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExtCreateRegion, ExtCreateRegion function [Windows GDI], _win32_ExtCreateRegion, gdi.extcreateregion, wingdi/ExtCreateRegion
 ms.topic: function
-f1_keywords: ["wingdi/ExtCreateRegion"]
+f1_keywords: 
+ - "wingdi/ExtCreateRegion"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingEventTag, TraceLoggingEventTag macro, tracelogging.traceloggingeventtag, traceloggingprovider/TraceLoggingEventTag
 ms.topic: macro
-f1_keywords: ["traceloggingprovider/TraceLoggingEventTag"]
+f1_keywords: 
+ - "traceloggingprovider/TraceLoggingEventTag"
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows

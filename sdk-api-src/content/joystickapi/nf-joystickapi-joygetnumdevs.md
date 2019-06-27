@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_joyGetNumDevs, joyGetNumDevs, joyGetNumDevs function [Windows Multimedia], joystickapi/joyGetNumDevs, multimedia.joygetnumdevs"
 ms.topic: function
-f1_keywords: ["joystickapi/joyGetNumDevs"]
+f1_keywords: 
+ - "joystickapi/joyGetNumDevs"
 req.header: joystickapi.h
 req.include-header: Windows.h
 req.target-type: Windows

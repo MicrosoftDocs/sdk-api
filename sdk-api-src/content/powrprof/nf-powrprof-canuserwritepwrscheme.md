@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CanUserWritePwrScheme, CanUserWritePwrScheme function, _win32_canuserwritepwrscheme, base.canuserwritepwrscheme, powrprof/CanUserWritePwrScheme
 ms.topic: function
-f1_keywords: ["powrprof/CanUserWritePwrScheme"]
+f1_keywords: 
+ - "powrprof/CanUserWritePwrScheme"
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

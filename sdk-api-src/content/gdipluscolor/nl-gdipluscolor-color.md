@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Color, Color class [GDI+], Color class [GDI+],described, _gdiplus_CLASS_Color_Class, gdiplus._gdiplus_CLASS_Color_Class, gdipluscolor/Color
 ms.topic: class
-f1_keywords: ["gdipluscolor/Color"]
+f1_keywords: 
+ - "gdipluscolor/Color"
 req.header: gdipluscolor.h
 req.include-header: 
 req.target-type: Windows

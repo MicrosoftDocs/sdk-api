@@ -5,7 +5,8 @@ description: Used to free the resources associated with a [DNS_SERVICE_INSTANCE]
 ms.date: 02/19/2019
 ms.keywords: DnsServiceFreeInstance
 ms.topic: language-reference
-f1_keywords: ["windns/DnsServiceFreeInstance"]
+f1_keywords: 
+ - "windns/DnsServiceFreeInstance"
 targetos: Windows
 product: Windows
 req.assembly: 

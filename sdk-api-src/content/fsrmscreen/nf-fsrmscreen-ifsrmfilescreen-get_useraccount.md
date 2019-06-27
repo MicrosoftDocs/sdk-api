@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileScreen interface [File Server Resource Manager],UserAccount property, IFsrmFileScreen.UserAccount, IFsrmFileScreen.get_UserAccount, IFsrmFileScreen::UserAccount, IFsrmFileScreen::get_UserAccount, UserAccount property [File Server Resource Manager], UserAccount property [File Server Resource Manager],IFsrmFileScreen interface, fs.ifsrmfilescreen_useraccount, fsrm.ifsrmfilescreen_useraccount, fsrmscreen/IFsrmFileScreen::UserAccount, fsrmscreen/IFsrmFileScreen::get_UserAccount, get_UserAccount
 ms.topic: method
-f1_keywords: ["fsrmscreen/IFsrmFileScreen.UserAccount"]
+f1_keywords: 
+ - "fsrmscreen/IFsrmFileScreen.UserAccount"
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows

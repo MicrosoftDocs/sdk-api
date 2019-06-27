@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConvertFontToLOGFONT, ConvertFontToLOGFONT method [Direct Write], ConvertFontToLOGFONT method [Direct Write],IDWriteGdiInterop interface, IDWriteGdiInterop interface [Direct Write],ConvertFontToLOGFONT method, IDWriteGdiInterop.ConvertFontToLOGFONT, IDWriteGdiInterop::ConvertFontToLOGFONT, directwrite.IDWriteGdiInterop_ConvertFontToLOGFONT, dwrite/IDWriteGdiInterop::ConvertFontToLOGFONT
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteGdiInterop.ConvertFontToLOGFONT"]
+f1_keywords: 
+ - "dwrite/IDWriteGdiInterop.ConvertFontToLOGFONT"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Error_Spec_IPv4, Error_Spec_IPv4 structure [QOS], lpmapi/Error_Spec_IPv4, qos.error_spec_ipv4
 ms.topic: struct
-f1_keywords: ["lpmapi/Error_Spec_IPv4"]
+f1_keywords: 
+ - "lpmapi/Error_Spec_IPv4"
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

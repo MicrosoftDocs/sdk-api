@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCertificateSet, GetCertificateSet method [Open Packaging Conventions], GetCertificateSet method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetCertificateSet method, IOpcSigningOptions.GetCertificateSet, IOpcSigningOptions::GetCertificateSet, msopc/IOpcSigningOptions::GetCertificateSet, opc.iopcsigningoptions_getcertificateset
 ms.topic: method
-f1_keywords: ["msopc/IOpcSigningOptions.GetCertificateSet"]
+f1_keywords: 
+ - "msopc/IOpcSigningOptions.GetCertificateSet"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ContextInfo interface [COM+],GetTransactionId method, ContextInfo.GetTransactionId, ContextInfo::GetTransactionId, GetTransactionId, GetTransactionId method [COM+], GetTransactionId method [COM+],ContextInfo interface, _cos_ContextInfo_GetTransactionId, comsvcs/ContextInfo::GetTransactionId, cos.contextinfo_gettransactionid
 ms.topic: method
-f1_keywords: ["comsvcs/ContextInfo.GetTransactionId"]
+f1_keywords: 
+ - "comsvcs/ContextInfo.GetTransactionId"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

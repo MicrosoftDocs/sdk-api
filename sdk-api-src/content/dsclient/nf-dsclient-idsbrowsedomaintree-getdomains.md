@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DBDTF_RETURNEXTERNAL, DBDTF_RETURNFQDN, DBDTF_RETURNINBOUND, DBDTF_RETURNINOUTBOUND, DBDTF_RETURNMIXEDDOMAINS, GetDomains, GetDomains method [Active Directory], GetDomains method [Active Directory],IDsBrowseDomainTree interface, IDsBrowseDomainTree interface [Active Directory],GetDomains method, IDsBrowseDomainTree.GetDomains, IDsBrowseDomainTree::GetDomains, _glines_idsbrowsedomaintree_getdomains, ad.idsbrowsedomaintree__getdomains, ad.idsbrowsedomaintree_getdomains, dsclient/IDsBrowseDomainTree::GetDomains
 ms.topic: method
-f1_keywords: ["dsclient/IDsBrowseDomainTree.GetDomains"]
+f1_keywords: 
+ - "dsclient/IDsBrowseDomainTree.GetDomains"
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

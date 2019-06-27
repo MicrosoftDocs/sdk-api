@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DVD_ERROR, DVD_ERROR , DVD_ERROR enumeration [DirectShow], DVD_ERROREnumeration, DVD_ERROR_CopyProtectFail, DVD_ERROR_CopyProtectOutputFail, DVD_ERROR_CopyProtectOutputNotSupported, DVD_ERROR_IncompatibleDiscAndDecoderRegions, DVD_ERROR_IncompatibleSystemAndDecoderRegions, DVD_ERROR_InvalidDVD1_0Disc, DVD_ERROR_InvalidDiscRegion, DVD_ERROR_LowParentalLevel, DVD_ERROR_MacrovisionFail, DVD_ERROR_Unexpected, dshow.dvd_error, dvdevcod/DVD_ERROR, dvdevcod/DVD_ERROR_CopyProtectFail, dvdevcod/DVD_ERROR_CopyProtectOutputFail, dvdevcod/DVD_ERROR_CopyProtectOutputNotSupported, dvdevcod/DVD_ERROR_IncompatibleDiscAndDecoderRegions, dvdevcod/DVD_ERROR_IncompatibleSystemAndDecoderRegions, dvdevcod/DVD_ERROR_InvalidDVD1_0Disc, dvdevcod/DVD_ERROR_InvalidDiscRegion, dvdevcod/DVD_ERROR_LowParentalLevel, dvdevcod/DVD_ERROR_MacrovisionFail, dvdevcod/DVD_ERROR_Unexpected
 ms.topic: enum
-f1_keywords: ["dvdevcod/DVD_ERROR"]
+f1_keywords: 
+ - "dvdevcod/DVD_ERROR"
 req.header: dvdevcod.h
 req.include-header: Dshow.h
 req.target-type: Windows

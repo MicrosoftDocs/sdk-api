@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SYNC_VERSION, SYNC_VERSION structure [Windows Sync], winsync.sync_version, winsync/SYNC_VERSION
 ms.topic: struct
-f1_keywords: ["winsync/SYNC_VERSION"]
+f1_keywords: 
+ - "winsync/SYNC_VERSION"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

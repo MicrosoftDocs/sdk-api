@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCATEGORYINFO, CATEGORYINFO, CATEGORYINFO structure [COM], _com_categoryinfo_structure, com.categoryinfo, comcat/CATEGORYINFO"
 ms.topic: struct
-f1_keywords: ["comcat/CATEGORYINFO"]
+f1_keywords: 
+ - "comcat/CATEGORYINFO"
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows

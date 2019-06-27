@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColumn, GetColumn method [ADSI], GetColumn method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],GetColumn method, IDirectorySearch.GetColumn, IDirectorySearch::GetColumn, _ds_idirectorysearch_getcolumn, adsi.idirectorysearch__getcolumn, adsi.idirectorysearch_getcolumn, iads/IDirectorySearch::GetColumn
 ms.topic: method
-f1_keywords: ["iads/IDirectorySearch.GetColumn"]
+f1_keywords: 
+ - "iads/IDirectorySearch.GetColumn"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

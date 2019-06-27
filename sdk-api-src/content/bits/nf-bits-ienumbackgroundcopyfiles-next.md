@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumBackgroundCopyFiles interface [BITS],Next method, IEnumBackgroundCopyFiles.Next, IEnumBackgroundCopyFiles::Next, Next, Next method [BITS], Next method [BITS],IEnumBackgroundCopyFiles interface, _drz_ienumbackgroundcopyfiles_next, bits.ienumbackgroundcopyfiles_next, bits/IEnumBackgroundCopyFiles::Next
 ms.topic: method
-f1_keywords: ["bits/IEnumBackgroundCopyFiles.Next"]
+f1_keywords: 
+ - "bits/IEnumBackgroundCopyFiles.Next"
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

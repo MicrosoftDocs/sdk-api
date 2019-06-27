@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],get_isAvailable method, IWMPControls.get_isAvailable, IWMPControls::get_isAvailable, IWMPControlsget_isAvailable, get_isAvailable, get_isAvailable method [Windows Media Player], get_isAvailable method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_get_isavailable, wmp/IWMPControls::get_isAvailable
 ms.topic: method
-f1_keywords: ["wmp/IWMPControls.get_isAvailable"]
+f1_keywords: 
+ - "wmp/IWMPControls.get_isAvailable"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

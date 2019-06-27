@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbHierarchicalTransmissionDescriptor interface, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbHierarchicalTransmissionDescriptor.GetTag, IIsdbHierarchicalTransmissionDescriptor::GetTag, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetTag, mstv.iisdbhierarchicaltransmissiondescriptor_gettag
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbHierarchicalTransmissionDescriptor.GetTag"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbHierarchicalTransmissionDescriptor.GetTag"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

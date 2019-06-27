@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [App packaging and management], Close method [App packaging and management],IAppxBundleWriter3 interface, IAppxBundleWriter3 interface [App packaging and management],Close method, IAppxBundleWriter3.Close, IAppxBundleWriter3::Close, appxpackaging/IAppxBundleWriter3::Close, appxpkg.iappxbundlewriter3_close
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxBundleWriter3.Close"]
+f1_keywords: 
+ - "appxpackaging/IAppxBundleWriter3.Close"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

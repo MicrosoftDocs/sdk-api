@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsFlushWriter, WsFlushWriter function [Web Services for Windows], webservices/WsFlushWriter, wsw.wsflushwriter
 ms.topic: function
-f1_keywords: ["webservices/WsFlushWriter"]
+f1_keywords: 
+ - "webservices/WsFlushWriter"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

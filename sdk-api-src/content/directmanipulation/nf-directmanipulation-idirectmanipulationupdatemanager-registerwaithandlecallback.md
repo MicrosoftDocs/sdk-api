@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationUpdateManager interface [Direct Manipulation],RegisterWaitHandleCallback method, IDirectManipulationUpdateManager.RegisterWaitHandleCallback, IDirectManipulationUpdateManager::RegisterWaitHandleCallback, RegisterWaitHandleCallback, RegisterWaitHandleCallback method [Direct Manipulation], RegisterWaitHandleCallback method [Direct Manipulation],IDirectManipulationUpdateManager interface, directmanipulation.idirectmanipulationupdatemanager_registerwaithandlecallback, directmanipulation/IDirectManipulationUpdateManager::RegisterWaitHandleCallback
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationUpdateManager.RegisterWaitHandleCallback"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationUpdateManager.RegisterWaitHandleCallback"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

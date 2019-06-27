@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathSkipRoot, PathSkipRoot function [Windows Shell], PathSkipRootA, PathSkipRootW, _win32_PathSkipRoot, shell.PathSkipRoot, shlwapi/PathSkipRoot, shlwapi/PathSkipRootA, shlwapi/PathSkipRootW
 ms.topic: function
-f1_keywords: ["shlwapi/PathSkipRoot"]
+f1_keywords: 
+ - "shlwapi/PathSkipRoot"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

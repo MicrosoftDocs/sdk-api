@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMiscStatus, GetMiscStatus method [COM], GetMiscStatus method [COM],IOleObject interface, IOleObject interface [COM],GetMiscStatus method, IOleObject.GetMiscStatus, IOleObject::GetMiscStatus, _ole_ioleobject_getmiscstatus, com.ioleobject_getmiscstatus, oleidl/IOleObject::GetMiscStatus
 ms.topic: method
-f1_keywords: ["oleidl/IOleObject.GetMiscStatus"]
+f1_keywords: 
+ - "oleidl/IOleObject.GetMiscStatus"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

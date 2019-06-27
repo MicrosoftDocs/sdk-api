@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XPS_JOB_STATUS, XPS_JOB_STATUS structure [Windows GDI], gdi.xps_job_status, xpsprint/XPS_JOB_STATUS
 ms.topic: struct
-f1_keywords: ["xpsprint/XPS_JOB_STATUS"]
+f1_keywords: 
+ - "xpsprint/XPS_JOB_STATUS"
 req.header: xpsprint.h
 req.include-header: 
 req.target-type: Windows

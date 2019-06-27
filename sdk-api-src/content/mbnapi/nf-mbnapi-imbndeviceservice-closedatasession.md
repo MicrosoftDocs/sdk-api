@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseDataSession, CloseDataSession method [Microsoft Broadband Networks], CloseDataSession method [Microsoft Broadband Networks],IMbnDeviceService interface, IMbnDeviceService interface [Microsoft Broadband Networks],CloseDataSession method, IMbnDeviceService.CloseDataSession, IMbnDeviceService::CloseDataSession, mbn.imbndeviceservice_closedatasession, mbnapi/IMbnDeviceService::CloseDataSession
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnDeviceService.CloseDataSession"]
+f1_keywords: 
+ - "mbnapi/IMbnDeviceService.CloseDataSession"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

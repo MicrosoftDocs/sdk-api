@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFCdmSuspendNotify, IMFCdmSuspendNotify interface [Media Foundation], IMFCdmSuspendNotify interface [Media Foundation],described, mf.imfcdmsuspendnotify, mfmediaengine/IMFCdmSuspendNotify
 ms.topic: interface
-f1_keywords: ["mfmediaengine/IMFCdmSuspendNotify"]
+f1_keywords: 
+ - "mfmediaengine/IMFCdmSuspendNotify"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

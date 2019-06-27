@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolConnection interface [Remote Desktop Services],SetErrorInfo method, IWTSProtocolConnection.SetErrorInfo, IWTSProtocolConnection::SetErrorInfo, SetErrorInfo, SetErrorInfo method [Remote Desktop Services], SetErrorInfo method [Remote Desktop Services],IWTSProtocolConnection interface, termserv.iwtsprotocolconnection_seterrorinfo, wtsprotocol/IWTSProtocolConnection::SetErrorInfo
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWTSProtocolConnection.SetErrorInfo"]
+f1_keywords: 
+ - "wtsprotocol/IWTSProtocolConnection.SetErrorInfo"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

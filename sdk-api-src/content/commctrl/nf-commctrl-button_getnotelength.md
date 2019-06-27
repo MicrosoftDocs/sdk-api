@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Button_GetNoteLength, Button_GetNoteLength macro [Windows Controls], _shell_Button_GetNoteLength, _shell_Button_GetNoteLength_cpp, commctrl/Button_GetNoteLength, controls.Button_GetNoteLength, controls._shell_Button_GetNoteLength
 ms.topic: macro
-f1_keywords: ["commctrl/Button_GetNoteLength"]
+f1_keywords: 
+ - "commctrl/Button_GetNoteLength"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

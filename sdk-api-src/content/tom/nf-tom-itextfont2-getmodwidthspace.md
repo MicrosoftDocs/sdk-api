@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetModWidthSpace, GetModWidthSpace method [Windows Controls], GetModWidthSpace method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetModWidthSpace method, ITextFont2.GetModWidthSpace, ITextFont2::GetModWidthSpace, controls.itextfont2_getmodwidthspace, tom/ITextFont2::GetModWidthSpace
 ms.topic: method
-f1_keywords: ["tom/ITextFont2.GetModWidthSpace"]
+f1_keywords: 
+ - "tom/ITextFont2.GetModWidthSpace"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

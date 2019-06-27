@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetTopRightRadiusY method, IDCompositionRectangleClip.SetTopRightRadiusY, IDCompositionRectangleClip.SetTopRightRadiusY(IDCompositionAnimation), IDCompositionRectangleClip::SetTopRightRadiusY, IDCompositionRectangleClip::SetTopRightRadiusY(IDCompositionAnimation), IDCompositionRectangleClip::SetTopRightRadiusY(IDCompositionAnimation*), SetTopRightRadiusY, SetTopRightRadiusY method [DirectComposition], SetTopRightRadiusY method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetTopRightRadiusY, directcomp.idcompositionrectangleclip_settoprightradiusy_idcompositionanimation
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionRectangleClip.SetTopRightRadiusY"]
+f1_keywords: 
+ - "dcomp/IDCompositionRectangleClip.SetTopRightRadiusY"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

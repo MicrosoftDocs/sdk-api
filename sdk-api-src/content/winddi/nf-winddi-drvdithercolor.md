@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvDitherColor, DrvDitherColor function [Display Devices], ddifncs_2b62d877-2c36-41ad-bca7-88f1daf3640c.xml, display.drvdithercolor, winddi/DrvDitherColor
 ms.topic: function
-f1_keywords: ["winddi/DrvDitherColor"]
+f1_keywords: 
+ - "winddi/DrvDitherColor"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

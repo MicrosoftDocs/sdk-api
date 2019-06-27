@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob1, IBackgroundCopyJob1 interface [BITS], IBackgroundCopyJob1 interface [BITS],described, bits.ibackgroundcopyjob1, qmgr/IBackgroundCopyJob1
 ms.topic: interface
-f1_keywords: ["qmgr/IBackgroundCopyJob1"]
+f1_keywords: 
+ - "qmgr/IBackgroundCopyJob1"
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

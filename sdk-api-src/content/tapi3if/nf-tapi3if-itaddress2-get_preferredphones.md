@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAddress2 interface [TAPI 2.2],get_PreferredPhones method, ITAddress2.get_PreferredPhones, ITAddress2::get_PreferredPhones, _tapi3_itaddress2_get_preferredphones, get_PreferredPhones, get_PreferredPhones method [TAPI 2.2], get_PreferredPhones method [TAPI 2.2],ITAddress2 interface, tapi3.itaddress2_get_preferredphones, tapi3if/ITAddress2::get_PreferredPhones
 ms.topic: method
-f1_keywords: ["tapi3if/ITAddress2.get_PreferredPhones"]
+f1_keywords: 
+ - "tapi3if/ITAddress2.get_PreferredPhones"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

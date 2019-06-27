@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEntry, GetEntry method [Windows Shell], GetEntry method [Windows Shell],IShellImageStore interface, IShellImageStore interface [Windows Shell],GetEntry method, IShellImageStore.GetEntry, IShellImageStore::GetEntry, _win32_IShellImageStore_GetEntry, shell.IShellImageStore_GetEntry, shlobj/IShellImageStore::GetEntry
 ms.topic: method
-f1_keywords: ["shlobj/IShellImageStore.GetEntry"]
+f1_keywords: 
+ - "shlobj/IShellImageStore.GetEntry"
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

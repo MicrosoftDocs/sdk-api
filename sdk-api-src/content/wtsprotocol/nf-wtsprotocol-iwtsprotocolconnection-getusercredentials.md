@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUserCredentials, GetUserCredentials method [Remote Desktop Services], GetUserCredentials method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],GetUserCredentials method, IWTSProtocolConnection.GetUserCredentials, IWTSProtocolConnection::GetUserCredentials, termserv.iwtsprotocolconnection_getusercredentials, wtsprotocol/IWTSProtocolConnection::GetUserCredentials
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWTSProtocolConnection.GetUserCredentials"]
+f1_keywords: 
+ - "wtsprotocol/IWTSProtocolConnection.GetUserCredentials"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzTask2, IAzTask2 interface [Security], IAzTask2 interface [Security],described, azroles/IAzTask2, security.iaztask2
 ms.topic: interface
-f1_keywords: ["azroles/IAzTask2"]
+f1_keywords: 
+ - "azroles/IAzTask2"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

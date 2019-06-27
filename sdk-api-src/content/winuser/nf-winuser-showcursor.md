@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ShowCursor, ShowCursor function [Menus and Other Resources], _win32_ShowCursor, _win32_showcursor_cpp, menurc.showcursor, winui._win32_showcursor, winuser/ShowCursor
 ms.topic: function
-f1_keywords: ["winuser/ShowCursor"]
+f1_keywords: 
+ - "winuser/ShowCursor"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

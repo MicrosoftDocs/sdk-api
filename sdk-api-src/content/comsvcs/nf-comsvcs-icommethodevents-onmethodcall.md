@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComMethodEvents interface [COM+],OnMethodCall method, IComMethodEvents.OnMethodCall, IComMethodEvents::OnMethodCall, OnMethodCall, OnMethodCall method [COM+], OnMethodCall method [COM+],IComMethodEvents interface, _dtc_IComMethodEvents_OnMethodCall, comsvcs/IComMethodEvents::OnMethodCall, cos.icommethodevents_onmethodcall
 ms.topic: method
-f1_keywords: ["comsvcs/IComMethodEvents.OnMethodCall"]
+f1_keywords: 
+ - "comsvcs/IComMethodEvents.OnMethodCall"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

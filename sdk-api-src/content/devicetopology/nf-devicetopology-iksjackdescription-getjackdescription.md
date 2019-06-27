@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetJackDescription, GetJackDescription method [Core Audio], GetJackDescription method [Core Audio],IKsJackDescription interface, IKsJackDescription interface [Core Audio],GetJackDescription method, IKsJackDescription.GetJackDescription, IKsJackDescription::GetJackDescription, IKsJackDescriptionGetJackDescription, coreaudio.iksjackdescription_getjackdescription, devicetopology/IKsJackDescription::GetJackDescription
 ms.topic: method
-f1_keywords: ["devicetopology/IKsJackDescription.GetJackDescription"]
+f1_keywords: 
+ - "devicetopology/IKsJackDescription.GetJackDescription"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

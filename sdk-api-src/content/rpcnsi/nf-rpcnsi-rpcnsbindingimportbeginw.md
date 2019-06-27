@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcNsBindingImportBegin, RpcNsBindingImportBegin function [RPC], RpcNsBindingImportBeginA, RpcNsBindingImportBeginW, _rpc_rpcnsbindingimportbegin, rpc.rpcnsbindingimportbegin, rpcnsi/RpcNsBindingImportBegin, rpcnsi/RpcNsBindingImportBeginA, rpcnsi/RpcNsBindingImportBeginW
 ms.topic: function
-f1_keywords: ["rpcnsi/RpcNsBindingImportBegin"]
+f1_keywords: 
+ - "rpcnsi/RpcNsBindingImportBegin"
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMDServiceProvider, IMDServiceProvider interface [windows Media Device Manager], IMDServiceProvider interface [windows Media Device Manager],described, IMDServiceProviderInterface, mswmdm/IMDServiceProvider, wmdm.imdserviceprovider
 ms.topic: interface
-f1_keywords: ["mswmdm/IMDServiceProvider"]
+f1_keywords: 
+ - "mswmdm/IMDServiceProvider"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

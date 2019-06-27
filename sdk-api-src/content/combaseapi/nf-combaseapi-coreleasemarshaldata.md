@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoReleaseMarshalData, CoReleaseMarshalData function [COM], _com_CoReleaseMarshalData, com.coreleasemarshaldata, combaseapi/CoReleaseMarshalData
 ms.topic: function
-f1_keywords: ["combaseapi/CoReleaseMarshalData"]
+f1_keywords: 
+ - "combaseapi/CoReleaseMarshalData"
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

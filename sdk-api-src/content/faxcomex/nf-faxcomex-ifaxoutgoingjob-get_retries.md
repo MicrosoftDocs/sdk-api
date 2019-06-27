@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Retries property, IFaxOutgoingJob.Retries, IFaxOutgoingJob.get_Retries, IFaxOutgoingJob::Retries, IFaxOutgoingJob::get_Retries, Retries property [Fax Service], Retries property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.retries, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_retries_cpp, fax._mfax_faxoutgoingjob_retries, faxcomex/IFaxOutgoingJob::Retries, faxcomex/IFaxOutgoingJob::get_Retries, get_Retries
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxOutgoingJob.Retries"]
+f1_keywords: 
+ - "faxcomex/IFaxOutgoingJob.Retries"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrtRegisterKey, DrtRegisterKey function [Peer Networking], drt/DrtRegisterKey, p2p.drtregisterkey
 ms.topic: function
-f1_keywords: ["drt/DrtRegisterKey"]
+f1_keywords: 
+ - "drt/DrtRegisterKey"
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

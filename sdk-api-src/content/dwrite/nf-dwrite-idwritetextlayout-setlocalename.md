@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetLocaleName method, IDWriteTextLayout.SetLocaleName, IDWriteTextLayout::SetLocaleName, SetLocaleName, SetLocaleName method [Direct Write], SetLocaleName method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetLocaleName, dwrite/IDWriteTextLayout::SetLocaleName
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextLayout.SetLocaleName"]
+f1_keywords: 
+ - "dwrite/IDWriteTextLayout.SetLocaleName"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

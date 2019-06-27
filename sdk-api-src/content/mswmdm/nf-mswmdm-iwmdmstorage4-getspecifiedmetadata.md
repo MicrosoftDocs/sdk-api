@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSpecifiedMetadata, GetSpecifiedMetadata method [windows Media Device Manager], GetSpecifiedMetadata method [windows Media Device Manager],IWMDMStorage4 interface, IWMDMStorage4 interface [windows Media Device Manager],GetSpecifiedMetadata method, IWMDMStorage4.GetSpecifiedMetadata, IWMDMStorage4::GetSpecifiedMetadata, IWMDMStorage4GetSpecifiedMetadata, mswmdm/IWMDMStorage4::GetSpecifiedMetadata, wmdm.iwmdmstorage4_getspecifiedmetadata
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMStorage4.GetSpecifiedMetadata"]
+f1_keywords: 
+ - "mswmdm/IWMDMStorage4.GetSpecifiedMetadata"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

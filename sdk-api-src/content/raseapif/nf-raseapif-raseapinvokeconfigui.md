@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RAS_EAP_FLAG_8021X_AUTH, RAS_EAP_FLAG_GUEST_ACCESS, RAS_EAP_FLAG_ROUTER, RasEapInvokeConfigUI, RasEapInvokeConfigUI callback, RasEapInvokeConfigUI callback function [EAP], _eap_raseapinvokeconfigui, eap.raseapinvokeconfigui, raseapif/RasEapInvokeConfigUI
 ms.topic: function
-f1_keywords: ["raseapif/RasEapInvokeConfigUI"]
+f1_keywords: 
+ - "raseapif/RasEapInvokeConfigUI"
 req.header: raseapif.h
 req.include-header: 
 req.target-type: Windows

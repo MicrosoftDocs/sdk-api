@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FNFCISEEK, FNFCISEEK macro [Windows API], fci/FNFCISEEK, winprog.fnfciseek
 ms.topic: macro
-f1_keywords: ["fci/FNFCISEEK"]
+f1_keywords: 
+ - "fci/FNFCISEEK"
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

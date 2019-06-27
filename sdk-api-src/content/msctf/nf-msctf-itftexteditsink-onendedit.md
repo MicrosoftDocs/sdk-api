@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfTextEditSink interface [Text Services Framework],OnEndEdit method, ITfTextEditSink.OnEndEdit, ITfTextEditSink::OnEndEdit, OnEndEdit, OnEndEdit method [Text Services Framework], OnEndEdit method [Text Services Framework],ITfTextEditSink interface, _tsf_itftexteditsink_onendedit_ref, msctf/ITfTextEditSink::OnEndEdit, tsf.itftexteditsink_onendedit
 ms.topic: method
-f1_keywords: ["msctf/ITfTextEditSink.OnEndEdit"]
+f1_keywords: 
+ - "msctf/ITfTextEditSink.OnEndEdit"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

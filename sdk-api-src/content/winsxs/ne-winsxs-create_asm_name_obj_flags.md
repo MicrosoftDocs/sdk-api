@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CANOF_PARSE_DISPLAY_NAME, CANOF_SET_DEFAULT_VALUES, CREATE_ASM_NAME_OBJ_FLAGS, CREATE_ASM_NAME_OBJ_FLAGS , CREATE_ASM_NAME_OBJ_FLAGS enumeration [Side-by-side Assemblies], setup.create_asm_name_obj_flags_, winsxs/CANOF_PARSE_DISPLAY_NAME, winsxs/CANOF_SET_DEFAULT_VALUES, winsxs/CREATE_ASM_NAME_OBJ_FLAGS
 ms.topic: enum
-f1_keywords: ["winsxs/CREATE_ASM_NAME_OBJ_FLAGS"]
+f1_keywords: 
+ - "winsxs/CREATE_ASM_NAME_OBJ_FLAGS"
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 2906b998-f1ca-4c65-b810-cbc360390653, IMFNetProxyLocator, IMFNetProxyLocator interface [Media Foundation], IMFNetProxyLocator interface [Media Foundation],described, mf.imfnetproxylocator, mfidl/IMFNetProxyLocator
 ms.topic: interface
-f1_keywords: ["mfidl/IMFNetProxyLocator"]
+f1_keywords: 
+ - "mfidl/IMFNetProxyLocator"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

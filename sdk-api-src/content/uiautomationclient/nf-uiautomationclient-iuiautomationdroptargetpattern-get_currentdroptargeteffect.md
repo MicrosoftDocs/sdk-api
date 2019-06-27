@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentDropTargetEffect property [Windows Accessibility], CurrentDropTargetEffect property [Windows Accessibility],IUIAutomationDropTargetPattern interface, IUIAutomationDropTargetPattern interface [Windows Accessibility],CurrentDropTargetEffect property, IUIAutomationDropTargetPattern.CurrentDropTargetEffect, IUIAutomationDropTargetPattern.get_CurrentDropTargetEffect, IUIAutomationDropTargetPattern::CurrentDropTargetEffect, IUIAutomationDropTargetPattern::get_CurrentDropTargetEffect, get_CurrentDropTargetEffect, uiautomationclient/IUIAutomationDropTargetPattern::CurrentDropTargetEffect, uiautomationclient/IUIAutomationDropTargetPattern::get_CurrentDropTargetEffect, winauto.uiauto_iuiautomationdroptargetpattern_currentdroptargeteffect
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationDropTargetPattern.CurrentDropTargetEffect"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationDropTargetPattern.CurrentDropTargetEffect"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

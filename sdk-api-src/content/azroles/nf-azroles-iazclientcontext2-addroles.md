@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddRoles, AddRoles method [Security], AddRoles method [Security],IAzClientContext2 interface, IAzClientContext2 interface [Security],AddRoles method, IAzClientContext2.AddRoles, IAzClientContext2::AddRoles, azroles/IAzClientContext2::AddRoles, security.iazclientcontext2_addroles
 ms.topic: method
-f1_keywords: ["azroles/IAzClientContext2.AddRoles"]
+f1_keywords: 
+ - "azroles/IAzClientContext2.AddRoles"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

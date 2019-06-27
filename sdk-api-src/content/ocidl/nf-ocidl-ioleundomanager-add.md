@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [COM], Add method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],Add method, IOleUndoManager.Add, IOleUndoManager::Add, _ole_ioleundomanager_add, com.ioleundomanager_add, ocidl/IOleUndoManager::Add
 ms.topic: method
-f1_keywords: ["ocidl/IOleUndoManager.Add"]
+f1_keywords: 
+ - "ocidl/IOleUndoManager.Add"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

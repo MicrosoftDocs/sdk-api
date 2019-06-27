@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPPARAMDATA, LPPARAMDATA, LPPARAMDATA structure pointer [Automation], PARAMDATA, PARAMDATA structure [Automation], _oa96_PARAMDATA, automat.paramdata, oleauto/LPPARAMDATA, oleauto/PARAMDATA"
 ms.topic: struct
-f1_keywords: ["oleauto/PARAMDATA"]
+f1_keywords: 
+ - "oleauto/PARAMDATA"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSkinManager, IWMPSkinManager interface [Windows Media Player], IWMPSkinManager interface [Windows Media Player],described, IWMPSkinManagerInterface, wmp.iwmpskinmanager, wmp/IWMPSkinManager
 ms.topic: interface
-f1_keywords: ["wmp/IWMPSkinManager"]
+f1_keywords: 
+ - "wmp/IWMPSkinManager"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

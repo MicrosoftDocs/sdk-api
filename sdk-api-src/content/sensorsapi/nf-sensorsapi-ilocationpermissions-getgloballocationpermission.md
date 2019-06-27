@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGlobalLocationPermission, GetGlobalLocationPermission method, GetGlobalLocationPermission method,ILocationPermissions interface, ILocationPermissions interface,GetGlobalLocationPermission method, ILocationPermissions.GetGlobalLocationPermission, ILocationPermissions::GetGlobalLocationPermission, sensorsapi/ILocationPermissions::GetGlobalLocationPermission, winsensors_com_ref.ilocationpermissions_getgloballocationpermission
 ms.topic: method
-f1_keywords: ["sensorsapi/ILocationPermissions.GetGlobalLocationPermission"]
+f1_keywords: 
+ - "sensorsapi/ILocationPermissions.GetGlobalLocationPermission"
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

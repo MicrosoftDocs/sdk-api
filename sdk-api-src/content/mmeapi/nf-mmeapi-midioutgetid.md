@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_midiOutGetID, midiOutGetID, midiOutGetID function [Windows Multimedia], mmeapi/midiOutGetID, multimedia.midioutgetid"
 ms.topic: function
-f1_keywords: ["mmeapi/midiOutGetID"]
+f1_keywords: 
+ - "mmeapi/midiOutGetID"
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

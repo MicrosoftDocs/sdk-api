@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDirectCreatorSID, GetDirectCreatorSID method [COM+], GetDirectCreatorSID method [COM+],ISecurityProperty interface, ISecurityProperty interface [COM+],GetDirectCreatorSID method, ISecurityProperty.GetDirectCreatorSID, ISecurityProperty::GetDirectCreatorSID, _cos_ISecurityProperty_GetDirectCreatorSID, comsvcs/ISecurityProperty::GetDirectCreatorSID, cos.isecurityproperty_getdirectcreatorsid
 ms.topic: method
-f1_keywords: ["comsvcs/ISecurityProperty.GetDirectCreatorSID"]
+f1_keywords: 
+ - "comsvcs/ISecurityProperty.GetDirectCreatorSID"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

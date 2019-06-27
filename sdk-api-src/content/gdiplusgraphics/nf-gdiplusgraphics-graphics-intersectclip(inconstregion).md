@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],IntersectClip method, Graphics.IntersectClip, Graphics.IntersectClip(IN const Region), Graphics.IntersectClip(const Region*), Graphics::IntersectClip, Graphics::IntersectClip(IN const Region), IntersectClip, IntersectClip method [GDI+], IntersectClip method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_IntersectClip_region_, gdiplus._gdiplus_CLASS_Graphics_IntersectClip_region_
 ms.topic: method
-f1_keywords: ["gdiplusgraphics/Graphics.IntersectClip"]
+f1_keywords: 
+ - "gdiplusgraphics/Graphics.IntersectClip"
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

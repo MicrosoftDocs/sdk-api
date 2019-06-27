@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolLogonErrorRedirector, IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services], IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services],described, termserv.iwrdsprotocollogonerrorredirector, wtsprotocol/IWRdsProtocolLogonErrorRedirector
 ms.topic: interface
-f1_keywords: ["wtsprotocol/IWRdsProtocolLogonErrorRedirector"]
+f1_keywords: 
+ - "wtsprotocol/IWRdsProtocolLogonErrorRedirector"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

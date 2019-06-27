@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeriveAppContainerSidFromAppContainerName, DeriveAppContainerSidFromAppContainerName function [Windows Shell], shell.deriveappcontainersidfromappcontainername, userenv/DeriveAppContainerSidFromAppContainerName
 ms.topic: function
-f1_keywords: ["userenv/DeriveAppContainerSidFromAppContainerName"]
+f1_keywords: 
+ - "userenv/DeriveAppContainerSidFromAppContainerName"
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

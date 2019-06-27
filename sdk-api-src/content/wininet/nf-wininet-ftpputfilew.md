@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FTP_TRANSFER_TYPE_ASCII, FTP_TRANSFER_TYPE_BINARY, FTP_TRANSFER_TYPE_UNKNOWN, FtpPutFile, FtpPutFile function [WinINet], FtpPutFileA, FtpPutFileW, INTERNET_FLAG_HYPERLINK, INTERNET_FLAG_NEED_FILE, INTERNET_FLAG_RELOAD, INTERNET_FLAG_RESYNCHRONIZE, INTERNET_FLAG_TRANSFER_ASCII, INTERNET_FLAG_TRANSFER_BINARY, _inet_ftpputfile_function, wininet.ftpputfile, wininet/FtpPutFile, wininet/FtpPutFileA, wininet/FtpPutFileW
 ms.topic: function
-f1_keywords: ["wininet/FtpPutFile"]
+f1_keywords: 
+ - "wininet/FtpPutFile"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBindCtx, IBindCtx interface [COM], IBindCtx interface [COM],described, _com_ibindctx, com.ibindctx, objidl/IBindCtx
 ms.topic: interface
-f1_keywords: ["objidl/IBindCtx"]
+f1_keywords: 
+ - "objidl/IBindCtx"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

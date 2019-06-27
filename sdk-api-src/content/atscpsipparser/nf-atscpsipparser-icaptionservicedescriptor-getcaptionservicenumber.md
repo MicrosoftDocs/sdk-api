@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCaptionServiceNumber, GetCaptionServiceNumber method [Microsoft TV Technologies], GetCaptionServiceNumber method [Microsoft TV Technologies],ICaptionServiceDescriptor interface, ICaptionServiceDescriptor interface [Microsoft TV Technologies],GetCaptionServiceNumber method, ICaptionServiceDescriptor.GetCaptionServiceNumber, ICaptionServiceDescriptor::GetCaptionServiceNumber, ICaptionServiceDescriptorGetCaptionServiceNumber, atscpsipparser/ICaptionServiceDescriptor::GetCaptionServiceNumber, mstv.icaptionservicedescriptor_getcaptionservicenumber
 ms.topic: method
-f1_keywords: ["atscpsipparser/ICaptionServiceDescriptor.GetCaptionServiceNumber"]
+f1_keywords: 
+ - "atscpsipparser/ICaptionServiceDescriptor.GetCaptionServiceNumber"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

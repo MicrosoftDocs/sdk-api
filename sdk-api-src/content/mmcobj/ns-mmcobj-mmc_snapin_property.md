@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MMC_SNAPIN_PROPERTY, MMC_SNAPIN_PROPERTY structure [MMC], _slate_mmc_snapin_property, mmc.mmc_snapin_property, mmcobj/MMC_SNAPIN_PROPERTY
 ms.topic: struct
-f1_keywords: ["mmcobj/MMC_SNAPIN_PROPERTY"]
+f1_keywords: 
+ - "mmcobj/MMC_SNAPIN_PROPERTY"
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows

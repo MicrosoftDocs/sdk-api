@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EDP.iprotectionpolicymanagerinterop2_requestaccesswithauditinginfoforwindowasync, IProtectionPolicyManagerInterop2 interface,RequestAccessWithAuditingInfoForWindowAsync method, IProtectionPolicyManagerInterop2.RequestAccessWithAuditingInfoForWindowAsync, IProtectionPolicyManagerInterop2::RequestAccessWithAuditingInfoForWindowAsync, RequestAccessWithAuditingInfoForWindowAsync, RequestAccessWithAuditingInfoForWindowAsync method, RequestAccessWithAuditingInfoForWindowAsync method,IProtectionPolicyManagerInterop2 interface, efswrtinterop/IProtectionPolicyManagerInterop2::RequestAccessWithAuditingInfoForWindowAsync
 ms.topic: method
-f1_keywords: ["efswrtinterop/IProtectionPolicyManagerInterop2.RequestAccessWithAuditingInfoForWindowAsync"]
+f1_keywords: 
+ - "efswrtinterop/IProtectionPolicyManagerInterop2.RequestAccessWithAuditingInfoForWindowAsync"
 req.header: efswrtinterop.h
 req.include-header: 
 req.target-type: Windows

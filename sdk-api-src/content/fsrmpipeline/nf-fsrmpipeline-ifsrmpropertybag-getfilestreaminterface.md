@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFileStreamInterface, GetFileStreamInterface method [File Server Resource Manager], GetFileStreamInterface method [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],GetFileStreamInterface method, IFsrmPropertyBag.GetFileStreamInterface, IFsrmPropertyBag::GetFileStreamInterface, fs.ifsrmpropertybag_getfilestreaminterface, fsrm.ifsrmpropertybag_getfilestreaminterface, fsrmpipeline/IFsrmPropertyBag::GetFileStreamInterface
 ms.topic: method
-f1_keywords: ["fsrmpipeline/IFsrmPropertyBag.GetFileStreamInterface"]
+f1_keywords: 
+ - "fsrmpipeline/IFsrmPropertyBag.GetFileStreamInterface"
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

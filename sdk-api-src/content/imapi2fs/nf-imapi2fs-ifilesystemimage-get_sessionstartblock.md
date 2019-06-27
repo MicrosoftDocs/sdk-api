@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_SessionStartBlock method, IFileSystemImage.get_SessionStartBlock, IFileSystemImage::get_SessionStartBlock, get_SessionStartBlock, get_SessionStartBlock method [IMAPI], get_SessionStartBlock method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_sessionstartblock, imapi2fs/IFileSystemImage::get_SessionStartBlock
 ms.topic: method
-f1_keywords: ["imapi2fs/IFileSystemImage.get_SessionStartBlock"]
+f1_keywords: 
+ - "imapi2fs/IFileSystemImage.get_SessionStartBlock"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],put_Frequency method, IBDA_FrequencyFilter.put_Frequency, IBDA_FrequencyFilter::put_Frequency, IBDA_FrequencyFilterput_Frequency, bdaiface/IBDA_FrequencyFilter::put_Frequency, mstv.ibda_frequencyfilter_put_frequency, put_Frequency, put_Frequency method [Microsoft TV Technologies], put_Frequency method [Microsoft TV Technologies],IBDA_FrequencyFilter interface
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_FrequencyFilter.put_Frequency"]
+f1_keywords: 
+ - "bdaiface/IBDA_FrequencyFilter.put_Frequency"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

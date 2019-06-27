@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzRoles, IAzRoles interface [Security], IAzRoles interface [Security],described, azroles/IAzRoles, security.iazroles
 ms.topic: interface
-f1_keywords: ["azroles/IAzRoles"]
+f1_keywords: 
+ - "azroles/IAzRoles"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

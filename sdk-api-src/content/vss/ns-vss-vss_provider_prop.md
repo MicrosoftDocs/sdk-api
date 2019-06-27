@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PVSS_PROVIDER_PROP, PVSS_PROVIDER_PROP, PVSS_PROVIDER_PROP structure pointer [VSS], VSS_PROVIDER_PROP, VSS_PROVIDER_PROP structure [VSS], _win32_vss_provider_prop, base.vss_provider_prop, vss/PVSS_PROVIDER_PROP, vss/VSS_PROVIDER_PROP"
 ms.topic: struct
-f1_keywords: ["vss/VSS_PROVIDER_PROP"]
+f1_keywords: 
+ - "vss/VSS_PROVIDER_PROP"
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

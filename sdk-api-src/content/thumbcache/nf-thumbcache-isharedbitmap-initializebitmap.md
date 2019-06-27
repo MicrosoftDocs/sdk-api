@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISharedBitmap interface [Windows Shell],InitializeBitmap method, ISharedBitmap.InitializeBitmap, ISharedBitmap::InitializeBitmap, InitializeBitmap, InitializeBitmap method [Windows Shell], InitializeBitmap method [Windows Shell],ISharedBitmap interface, WTSAT_ARGB, WTSAT_RGB, WTSAT_UNKNOWN, _shell__InitializeBitmap, shell.ISharedBitmap_InitializeBitmap, thumbcache/ISharedBitmap::InitializeBitmap
 ms.topic: method
-f1_keywords: ["thumbcache/ISharedBitmap.InitializeBitmap"]
+f1_keywords: 
+ - "thumbcache/ISharedBitmap.InitializeBitmap"
 req.header: thumbcache.h
 req.include-header: 
 req.target-type: Windows

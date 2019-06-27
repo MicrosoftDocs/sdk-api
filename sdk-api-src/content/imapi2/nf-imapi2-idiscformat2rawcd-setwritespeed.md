@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],SetWriteSpeed method, IDiscFormat2RawCD.SetWriteSpeed, IDiscFormat2RawCD::SetWriteSpeed, SetWriteSpeed, SetWriteSpeed method [IMAPI], SetWriteSpeed method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_setwritespeed, imapi2/IDiscFormat2RawCD::SetWriteSpeed
 ms.topic: method
-f1_keywords: ["imapi2/IDiscFormat2RawCD.SetWriteSpeed"]
+f1_keywords: 
+ - "imapi2/IDiscFormat2RawCD.SetWriteSpeed"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

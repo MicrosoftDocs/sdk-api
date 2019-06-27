@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateQuota, CreateQuota method [File Server Resource Manager], CreateQuota method [File Server Resource Manager],FsrmQuotaManager class, CreateQuota method [File Server Resource Manager],IFsrmQuotaManager interface, CreateQuota method [File Server Resource Manager],IFsrmQuotaManagerEx interface, FsrmQuotaManager class [File Server Resource Manager],CreateQuota method, IFsrmQuotaManager interface [File Server Resource Manager],CreateQuota method, IFsrmQuotaManager.CreateQuota, IFsrmQuotaManager::CreateQuota, IFsrmQuotaManagerEx interface [File Server Resource Manager],CreateQuota method, IFsrmQuotaManagerEx::CreateQuota, fs.ifsrmquotamanager_createquota, fsrm.ifsrmquotamanager_createquota, fsrmquota/IFsrmQuotaManager::CreateQuota, fsrmquota/IFsrmQuotaManagerEx::CreateQuota
 ms.topic: method
-f1_keywords: ["fsrmquota/IFsrmQuotaManager.CreateQuota"]
+f1_keywords: 
+ - "fsrmquota/IFsrmQuotaManager.CreateQuota"
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows

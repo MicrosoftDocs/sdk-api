@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsCliGetImageHandleFromTransferHandle, WdsCliGetImageHandleFromTransferHandle function [Windows Deployment Services], wds.wdscligetimagehandlefromtransferhandle, wdsclientapi/WdsCliGetImageHandleFromTransferHandle
 ms.topic: function
-f1_keywords: ["wdsclientapi/WdsCliGetImageHandleFromTransferHandle"]
+f1_keywords: 
+ - "wdsclientapi/WdsCliGetImageHandleFromTransferHandle"
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

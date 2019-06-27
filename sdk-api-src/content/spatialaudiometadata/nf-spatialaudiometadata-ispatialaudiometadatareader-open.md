@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioMetadataReader interface [Core Audio],Open method, ISpatialAudioMetadataReader.Open, ISpatialAudioMetadataReader::Open, Open, Open method [Core Audio], Open method [Core Audio],ISpatialAudioMetadataReader interface, coreaudio.ispatialaudiometadatareader_open, spatialaudiometadata/ISpatialAudioMetadataReader::Open
 ms.topic: method
-f1_keywords: ["spatialaudiometadata/ISpatialAudioMetadataReader.Open"]
+f1_keywords: 
+ - "spatialaudiometadata/ISpatialAudioMetadataReader.Open"
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

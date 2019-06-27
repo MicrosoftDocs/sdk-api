@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSTORAGE_DEVICE_POWER_CAP, PSTORAGE_DEVICE_POWER_CAP, PSTORAGE_DEVICE_POWER_CAP structure pointer [Files], STORAGE_DEVICE_POWER_CAP, STORAGE_DEVICE_POWER_CAP structure [Files], fs.storage_device_power_cap, winioctl/PSTORAGE_DEVICE_POWER_CAP, winioctl/STORAGE_DEVICE_POWER_CAP"
 ms.topic: struct
-f1_keywords: ["winioctl/STORAGE_DEVICE_POWER_CAP"]
+f1_keywords: 
+ - "winioctl/STORAGE_DEVICE_POWER_CAP"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

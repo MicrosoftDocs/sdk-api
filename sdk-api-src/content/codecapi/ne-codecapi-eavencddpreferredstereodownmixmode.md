@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncDDPreferredStereoDownMixMode, codecapi/eAVEncDDPreferredStereoDownMixMode_LoRo, codecapi/eAVEncDDPreferredStereoDownMixMode_LtRt, dshow.eavencddpreferredstereodownmixmode, eAVEncDDPreferredStereoDownMixMode, eAVEncDDPreferredStereoDownMixMode enumeration [DirectShow], eAVEncDDPreferredStereoDownMixMode_LoRo, eAVEncDDPreferredStereoDownMixMode_LtRt
 ms.topic: enum
-f1_keywords: ["codecapi/eAVEncDDPreferredStereoDownMixMode"]
+f1_keywords: 
+ - "codecapi/eAVEncDDPreferredStereoDownMixMode"
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteDirectoryObject, DeleteDirectoryObject method [TAPI 2.2], DeleteDirectoryObject method [TAPI 2.2],ITDirectory interface, ITDirectory interface [TAPI 2.2],DeleteDirectoryObject method, ITDirectory.DeleteDirectoryObject, ITDirectory::DeleteDirectoryObject, _tapi3_itdirectory_deletedirectoryobject, rend/ITDirectory::DeleteDirectoryObject, tapi3.itdirectory_deletedirectoryobject
 ms.topic: method
-f1_keywords: ["rend/ITDirectory.DeleteDirectoryObject"]
+f1_keywords: 
+ - "rend/ITDirectory.DeleteDirectoryObject"
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

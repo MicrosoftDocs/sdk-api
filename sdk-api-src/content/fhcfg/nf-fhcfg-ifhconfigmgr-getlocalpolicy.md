@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FhConfigMgr class [Windows API],GetLocalPolicy method, GetLocalPolicy, GetLocalPolicy method [Windows API], GetLocalPolicy method [Windows API],FhConfigMgr class, GetLocalPolicy method [Windows API],IFhConfigMgr interface, IFhConfigMgr interface [Windows API],GetLocalPolicy method, IFhConfigMgr.GetLocalPolicy, IFhConfigMgr::GetLocalPolicy, fhcfg/IFhConfigMgr::GetLocalPolicy, winprog.ifhconfigmgr_getlocalpolicy
 ms.topic: method
-f1_keywords: ["fhcfg/IFhConfigMgr.GetLocalPolicy"]
+f1_keywords: 
+ - "fhcfg/IFhConfigMgr.GetLocalPolicy"
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

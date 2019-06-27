@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMultisessionRandomWrite interface [IMAPI],get_LastWrittenAddress method, IMultisessionRandomWrite.get_LastWrittenAddress, IMultisessionRandomWrite::get_LastWrittenAddress, get_LastWrittenAddress, get_LastWrittenAddress method [IMAPI], get_LastWrittenAddress method [IMAPI],IMultisessionRandomWrite interface, imapi.imultisessionrandomwrite_get_lastwrittenaddress, imapi2/IMultisessionRandomWrite::get_LastWrittenAddress
 ms.topic: method
-f1_keywords: ["imapi2/IMultisessionRandomWrite.get_LastWrittenAddress"]
+f1_keywords: 
+ - "imapi2/IMultisessionRandomWrite.get_LastWrittenAddress"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

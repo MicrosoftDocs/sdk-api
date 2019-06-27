@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemSink, ITfLangBarItemSink interface [Text Services Framework], ITfLangBarItemSink interface [Text Services Framework],described, _tsf_itflangbaritemsink_ref, ctfutb/ITfLangBarItemSink, tsf.itflangbaritemsink
 ms.topic: interface
-f1_keywords: ["ctfutb/ITfLangBarItemSink"]
+f1_keywords: 
+ - "ctfutb/ITfLangBarItemSink"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

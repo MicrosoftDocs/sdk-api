@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMultiMediaStream, IMultiMediaStream interface [DirectShow], IMultiMediaStream interface [DirectShow],described, IMultiMediaStreamInterface, dshow.imultimediastream, mmstream/IMultiMediaStream
 ms.topic: interface
-f1_keywords: ["mmstream/IMultiMediaStream"]
+f1_keywords: 
+ - "mmstream/IMultiMediaStream"
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows

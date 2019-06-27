@@ -4,7 +4,8 @@ title: WLAN_IHV_CONTROL_TYPE
 ms.date: 01/30/19
 ms.keywords: _WLAN_IHV_CONTROL_TYPE, WLAN_IHV_CONTROL_TYPE
 ms.topic: language-reference
-f1_keywords: ["wlanapi/_WLAN_IHV_CONTROL_TYPE"]
+f1_keywords: 
+ - "wlanapi/_WLAN_IHV_CONTROL_TYPE"
 targetos: Windows
 product: Windows
 req.construct-type: enumeration

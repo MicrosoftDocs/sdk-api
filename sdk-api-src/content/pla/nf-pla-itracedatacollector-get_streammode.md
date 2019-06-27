@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITraceDataCollector interface [PLA],StreamMode property, ITraceDataCollector.StreamMode, ITraceDataCollector.get_StreamMode, ITraceDataCollector::StreamMode, ITraceDataCollector::get_StreamMode, ITraceDataCollector::put_StreamMode, StreamMode property [PLA], StreamMode property [PLA],ITraceDataCollector interface, base.itracedatacollector_streammode, get_StreamMode, pla.itracedatacollector_streammode, pla/ITraceDataCollector::StreamMode, pla/ITraceDataCollector::get_StreamMode, pla/ITraceDataCollector::put_StreamMode
 ms.topic: method
-f1_keywords: ["pla/ITraceDataCollector.StreamMode"]
+f1_keywords: 
+ - "pla/ITraceDataCollector.StreamMode"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

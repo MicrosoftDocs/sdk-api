@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MEVT_EVENTPARM, MEVT_EVENTPARM macro [Windows Multimedia], _win32_MEVT_EVENTPARM, mmeapi/MEVT_EVENTPARM, multimedia.mevt_eventparm
 ms.topic: macro
-f1_keywords: ["mmeapi/MEVT_EVENTPARM"]
+f1_keywords: 
+ - "mmeapi/MEVT_EVENTPARM"
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

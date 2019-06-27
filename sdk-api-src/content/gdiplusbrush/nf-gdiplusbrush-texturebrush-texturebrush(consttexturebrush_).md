@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TextureBrush, TextureBrush constructors [GDI+], TextureBrush.TextureBrush, TextureBrush.TextureBrush(const TextureBrush &), TextureBrush::TextureBrush, TextureBrush::TextureBrush(const TextureBrush &), _gdiplus_CLASS_TextureBrush_Constructors, gdiplus._gdiplus_CLASS_TextureBrush_Constructors, gdiplusbrush/TextureBrush
 ms.topic: method
-f1_keywords: ["gdiplusbrush/TextureBrush.TextureBrush"]
+f1_keywords: 
+ - "gdiplusbrush/TextureBrush.TextureBrush"
 req.header: gdiplusbrush.h
 req.include-header: 
 req.target-type: Windows

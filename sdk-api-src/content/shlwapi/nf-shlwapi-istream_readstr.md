@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStream_ReadStr, IStream_ReadStr function [Windows Shell], _shell_IStream_ReadStr, shell.IStream_ReadStr, shlwapi/IStream_ReadStr
 ms.topic: function
-f1_keywords: ["shlwapi/IStream_ReadStr"]
+f1_keywords: 
+ - "shlwapi/IStream_ReadStr"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

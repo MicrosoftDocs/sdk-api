@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDFS_INFO_101, *PDFS_INFO_101, DFS_INFO_101, DFS_INFO_101 structure [Distributed File System], DFS_STORAGE_STATE_ACTIVE, DFS_STORAGE_STATE_OFFLINE, DFS_STORAGE_STATE_ONLINE, DFS_VOLUME_STATE_INCONSISTENT, DFS_VOLUME_STATE_OFFLINE, DFS_VOLUME_STATE_OK, DFS_VOLUME_STATE_ONLINE, DFS_VOLUME_STATE_RESYNCHRONIZE, DFS_VOLUME_STATE_STANDBY, LPDFS_INFO_101, LPDFS_INFO_101 structure pointer [Distributed File System], PDFS_INFO_101, PDFS_INFO_101 structure pointer [Distributed File System], _win32_dfs_info_101_str, dfs.dfs_info_101_str, fs.dfs_info_101_str, lmdfs/DFS_INFO_101, lmdfs/LPDFS_INFO_101, lmdfs/PDFS_INFO_101, netmgmt.dfs_info_101_str"
 ms.topic: struct
-f1_keywords: ["lmdfs/DFS_INFO_101"]
+f1_keywords: 
+ - "lmdfs/DFS_INFO_101"
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPolicyServerId, GetPolicyServerId method [Security], GetPolicyServerId method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetPolicyServerId method, IX509EnrollmentPolicyServer.GetPolicyServerId, IX509EnrollmentPolicyServer::GetPolicyServerId, certenroll/IX509EnrollmentPolicyServer::GetPolicyServerId, security.ix509enrollmentpolicyserver_getpolicyserverid
 ms.topic: method
-f1_keywords: ["certenroll/IX509EnrollmentPolicyServer.GetPolicyServerId"]
+f1_keywords: 
+ - "certenroll/IX509EnrollmentPolicyServer.GetPolicyServerId"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

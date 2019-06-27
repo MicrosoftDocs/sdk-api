@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8afda8c7-bab6-40fd-b20c-6bb29ed4900f, GetContinuityKey, GetContinuityKey method [Media Foundation], GetContinuityKey method [Media Foundation],IMFClock interface, IMFClock interface [Media Foundation],GetContinuityKey method, IMFClock.GetContinuityKey, IMFClock::GetContinuityKey, mf.imfclock_getcontinuitykey, mfidl/IMFClock::GetContinuityKey
 ms.topic: method
-f1_keywords: ["mfidl/IMFClock.GetContinuityKey"]
+f1_keywords: 
+ - "mfidl/IMFClock.GetContinuityKey"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMilliseconds, GetMilliseconds method [Windows Shell], GetMilliseconds method [Windows Shell],IOperationsProgressDialog interface, IOperationsProgressDialog interface [Windows Shell],GetMilliseconds method, IOperationsProgressDialog.GetMilliseconds, IOperationsProgressDialog::GetMilliseconds, _shell_IOperationsProgressDialog_GetMilliseconds, shell.IOperationsProgressDialog_GetMilliseconds, shobjidl_core/IOperationsProgressDialog::GetMilliseconds
 ms.topic: method
-f1_keywords: ["shobjidl_core/IOperationsProgressDialog.GetMilliseconds"]
+f1_keywords: 
+ - "shobjidl_core/IOperationsProgressDialog.GetMilliseconds"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

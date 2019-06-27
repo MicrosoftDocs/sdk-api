@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClientTouchPointer interface [Remote Desktop Services],PointerSpeed property, IRemoteDesktopClientTouchPointer.PointerSpeed, IRemoteDesktopClientTouchPointer.get_PointerSpeed, IRemoteDesktopClientTouchPointer::PointerSpeed, IRemoteDesktopClientTouchPointer::get_PointerSpeed, PointerSpeed property [Remote Desktop Services], PointerSpeed property [Remote Desktop Services],IRemoteDesktopClientTouchPointer interface, get_PointerSpeed, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::PointerSpeed, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::get_PointerSpeed, termserv.iremotedesktopclienttouchpointer_pointerspeed
 ms.topic: method
-f1_keywords: ["rdpappcontainerclient/IRemoteDesktopClientTouchPointer.PointerSpeed"]
+f1_keywords: 
+ - "rdpappcontainerclient/IRemoteDesktopClientTouchPointer.PointerSpeed"
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

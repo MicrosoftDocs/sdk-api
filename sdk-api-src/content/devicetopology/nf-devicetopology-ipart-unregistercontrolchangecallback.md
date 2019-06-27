@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPart interface [Core Audio],UnregisterControlChangeCallback method, IPart.UnregisterControlChangeCallback, IPart::UnregisterControlChangeCallback, IPartUnregisterControlChangeCallback, UnregisterControlChangeCallback, UnregisterControlChangeCallback method [Core Audio], UnregisterControlChangeCallback method [Core Audio],IPart interface, coreaudio.ipart_unregistercontrolchangecallback, devicetopology/IPart::UnregisterControlChangeCallback
 ms.topic: method
-f1_keywords: ["devicetopology/IPart.UnregisterControlChangeCallback"]
+f1_keywords: 
+ - "devicetopology/IPart.UnregisterControlChangeCallback"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

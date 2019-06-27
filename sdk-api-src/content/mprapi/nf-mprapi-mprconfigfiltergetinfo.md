@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprConfigFilterGetInfo, MprConfigFilterGetInfo function [RAS], mprapi/MprConfigFilterGetInfo, rras.mprconfigfiltergetinfo
 ms.topic: function
-f1_keywords: ["mprapi/MprConfigFilterGetInfo"]
+f1_keywords: 
+ - "mprapi/MprConfigFilterGetInfo"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

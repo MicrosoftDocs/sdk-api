@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWsbApplicationAsync interface [Windows Server Backup],QueryStatus method, IWsbApplicationAsync.QueryStatus, IWsbApplicationAsync::QueryStatus, QueryStatus, QueryStatus method [Windows Server Backup], QueryStatus method [Windows Server Backup],IWsbApplicationAsync interface, S_OK, WSBAPP_ASYNC_IN_PROGRESS, wsb.iwsbapplicationasync_querystatus, wsbapp/IWsbApplicationAsync::QueryStatus
 ms.topic: method
-f1_keywords: ["wsbapp/IWsbApplicationAsync.QueryStatus"]
+f1_keywords: 
+ - "wsbapp/IWsbApplicationAsync.QueryStatus"
 req.header: wsbapp.h
 req.include-header: 
 req.target-type: Windows

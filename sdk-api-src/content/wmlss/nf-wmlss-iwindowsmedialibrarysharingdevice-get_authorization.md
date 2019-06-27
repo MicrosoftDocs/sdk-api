@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingDevice interface [Windows Media Library Sharing Services],get_Authorization method, IWindowsMediaLibrarySharingDevice.get_Authorization, IWindowsMediaLibrarySharingDevice::get_Authorization, get_Authorization, get_Authorization method [Windows Media Library Sharing Services], get_Authorization method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDevice interface, wmlss.IWMLSDeviceget_Authorization, wmlss/IWindowsMediaLibrarySharingDevice::get_Authorization
 ms.topic: method
-f1_keywords: ["wmlss/IWindowsMediaLibrarySharingDevice.get_Authorization"]
+f1_keywords: 
+ - "wmlss/IWindowsMediaLibrarySharingDevice.get_Authorization"
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddToSelection, AddToSelection method [Windows Accessibility], AddToSelection method [Windows Accessibility],ISelectionItemProvider interface, ISelectionItemProvider interface [Windows Accessibility],AddToSelection method, ISelectionItemProvider.AddToSelection, ISelectionItemProvider::AddToSelection, uiauto.uiauto_ISelectionItemProvider_AddToSelection, uiauto_ISelectionItemProvider_AddToSelection, uiautomationcore/ISelectionItemProvider::AddToSelection, winauto.uiauto_ISelectionItemProvider_AddToSelection
 ms.topic: method
-f1_keywords: ["uiautomationcore/ISelectionItemProvider.AddToSelection"]
+f1_keywords: 
+ - "uiautomationcore/ISelectionItemProvider.AddToSelection"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

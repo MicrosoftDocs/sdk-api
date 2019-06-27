@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder, IMpegAudioDecoder interface [DirectShow], IMpegAudioDecoder interface [DirectShow],described, IMpegAudioDecoderInterface, dshow.impegaudiodecoder, mpegtype/IMpegAudioDecoder
 ms.topic: interface
-f1_keywords: ["mpegtype/IMpegAudioDecoder"]
+f1_keywords: 
+ - "mpegtype/IMpegAudioDecoder"
 req.header: mpegtype.h
 req.include-header: 
 req.target-type: Windows

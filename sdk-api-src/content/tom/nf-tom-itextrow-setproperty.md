@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetProperty method, ITextRow.SetProperty, ITextRow::SetProperty, SetProperty, SetProperty method [Windows Controls], SetProperty method [Windows Controls],ITextRow interface, controls.itextrow_setproperty, tom/ITextRow::SetProperty
 ms.topic: method
-f1_keywords: ["tom/ITextRow.SetProperty"]
+f1_keywords: 
+ - "tom/ITextRow.SetProperty"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

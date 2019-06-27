@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LocalDiscard, LocalDiscard macro, _win32_localdiscard, base.localdiscard, minwinbase/LocalDiscard
 ms.topic: macro
-f1_keywords: ["minwinbase/LocalDiscard"]
+f1_keywords: 
+ - "minwinbase/LocalDiscard"
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows

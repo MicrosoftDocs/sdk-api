@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddContextMenuItems, AddContextMenuItems method [Failover Cluster], AddContextMenuItems method [Failover Cluster],IWEExtendContextMenu interface, IWEExtendContextMenu interface [Failover Cluster],AddContextMenuItems method, IWEExtendContextMenu.AddContextMenuItems, IWEExtendContextMenu::AddContextMenuItems, _wolf_iweextendcontextmenu_addcontextmenuitems, cluadmex/IWEExtendContextMenu::AddContextMenuItems, mscs.iweextendcontextmenu_addcontextmenuitems
 ms.topic: method
-f1_keywords: ["cluadmex/IWEExtendContextMenu.AddContextMenuItems"]
+f1_keywords: 
+ - "cluadmex/IWEExtendContextMenu.AddContextMenuItems"
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSinH, XMVectorSinH, XMVectorSinH method [DirectX Math Support APIs], dxmath.xmvectorsinh
 ms.topic: function
-f1_keywords: ["directxmath/XMVectorSinH"]
+f1_keywords: 
+ - "directxmath/XMVectorSinH"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

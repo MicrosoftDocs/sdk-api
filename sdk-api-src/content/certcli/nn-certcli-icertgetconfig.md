@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertGetConfig, ICertGetConfig interface [Security], ICertGetConfig interface [Security],described, certcli/ICertGetConfig, security.icertgetconfig
 ms.topic: interface
-f1_keywords: ["certcli/ICertGetConfig"]
+f1_keywords: 
+ - "certcli/ICertGetConfig"
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

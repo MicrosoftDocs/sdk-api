@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetConditionAt, GetConditionAt method [Windows Properties], GetConditionAt method [Windows Properties],IPropertyEnumTypeList interface, IPropertyEnumTypeList interface [Windows Properties],GetConditionAt method, IPropertyEnumTypeList.GetConditionAt, IPropertyEnumTypeList::GetConditionAt, _shell_IPropertyEnumTypeList_GetConditionAt, properties.IPropertyEnumTypeList_GetConditionAt, propsys/IPropertyEnumTypeList::GetConditionAt, shell.IPropertyEnumTypeList_GetConditionAt
 ms.topic: method
-f1_keywords: ["propsys/IPropertyEnumTypeList.GetConditionAt"]
+f1_keywords: 
+ - "propsys/IPropertyEnumTypeList.GetConditionAt"
 req.header: propsys.h
 req.include-header: Propsys.h
 req.target-type: Windows

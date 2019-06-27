@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BrightnessContrast, BrightnessContrast class [GDI+],BrightnessContrast constructor, BrightnessContrast constructor [GDI+], BrightnessContrast constructor [GDI+],BrightnessContrast class, BrightnessContrast.BrightnessContrast, BrightnessContrast::BrightnessContrast, _gdiplus_CLASS_BrightnessContrast_BrightnessContrast_, gdiplus._gdiplus_CLASS_BrightnessContrast_BrightnessContrast_
 ms.topic: method
-f1_keywords: ["gdipluseffects/BrightnessContrast.BrightnessContrast"]
+f1_keywords: 
+ - "gdipluseffects/BrightnessContrast.BrightnessContrast"
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

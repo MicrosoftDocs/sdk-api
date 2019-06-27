@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],get_item method, IWMPPlaylist.get_item, IWMPPlaylist::get_item, IWMPPlaylistget_item, get_item, get_item method [Windows Media Player], get_item method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_get_item, wmp/IWMPPlaylist::get_item
 ms.topic: method
-f1_keywords: ["wmp/IWMPPlaylist.get_item"]
+f1_keywords: 
+ - "wmp/IWMPPlaylist.get_item"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

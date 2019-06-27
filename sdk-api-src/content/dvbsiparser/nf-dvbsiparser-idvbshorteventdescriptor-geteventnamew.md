@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEventNameW, GetEventNameW method [Microsoft TV Technologies], GetEventNameW method [Microsoft TV Technologies],IDvbShortEventDescriptor interface, IDvbShortEventDescriptor interface [Microsoft TV Technologies],GetEventNameW method, IDvbShortEventDescriptor.GetEventNameW, IDvbShortEventDescriptor::GetEventNameW, dvbsiparser/IDvbShortEventDescriptor::GetEventNameW, mstv.idvbshorteventdescriptor_geteventnamew
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbShortEventDescriptor.GetEventNameW"]
+f1_keywords: 
+ - "dvbsiparser/IDvbShortEventDescriptor.GetEventNameW"
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

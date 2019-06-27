@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyTemplate, CopyTemplate method [File Server Resource Manager], CopyTemplate method [File Server Resource Manager],IFsrmFileScreenTemplate interface, IFsrmFileScreenTemplate interface [File Server Resource Manager],CopyTemplate method, IFsrmFileScreenTemplate.CopyTemplate, IFsrmFileScreenTemplate::CopyTemplate, fs.ifsrmfilescreentemplate_copytemplate, fsrm.ifsrmfilescreentemplate_copytemplate, fsrmscreen/IFsrmFileScreenTemplate::CopyTemplate
 ms.topic: method
-f1_keywords: ["fsrmscreen/IFsrmFileScreenTemplate.CopyTemplate"]
+f1_keywords: 
+ - "fsrmscreen/IFsrmFileScreenTemplate.CopyTemplate"
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows

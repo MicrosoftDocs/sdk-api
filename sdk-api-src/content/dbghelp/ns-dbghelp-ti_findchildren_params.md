@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TI_FINDCHILDREN_PARAMS, TI_FINDCHILDREN_PARAMS structure, _TI_FINDCHILDREN_PARAMS, _win32_ti_findchildren_params_str, base.ti_findchildren_params_str, dbghelp/TI_FINDCHILDREN_PARAMS
 ms.topic: struct
-f1_keywords: ["dbghelp/TI_FINDCHILDREN_PARAMS"]
+f1_keywords: 
+ - "dbghelp/TI_FINDCHILDREN_PARAMS"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

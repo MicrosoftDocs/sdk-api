@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawGeometryRealization, DrawGeometryRealization method [Direct2D], DrawGeometryRealization method [Direct2D],ID2D1DeviceContext1 interface, ID2D1DeviceContext1 interface [Direct2D],DrawGeometryRealization method, ID2D1DeviceContext1.DrawGeometryRealization, ID2D1DeviceContext1::DrawGeometryRealization, d2d1_2/ID2D1DeviceContext1::DrawGeometryRealization, direct2d.id2d1devicecontext1_drawgeometryrealization
 ms.topic: method
-f1_keywords: ["d2d1_2/ID2D1DeviceContext1.DrawGeometryRealization"]
+f1_keywords: 
+ - "d2d1_2/ID2D1DeviceContext1.DrawGeometryRealization"
 req.header: d2d1_2.h
 req.include-header: 
 req.target-type: Windows

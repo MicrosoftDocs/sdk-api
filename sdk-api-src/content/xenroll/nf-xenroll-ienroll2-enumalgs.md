@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumAlgs, EnumAlgs method [Security], EnumAlgs method [Security],IEnroll2 interface, IEnroll2 interface [Security],EnumAlgs method, IEnroll2.EnumAlgs, IEnroll2::EnumAlgs, security.ienroll4_enumalgs, xenroll/IEnroll2::EnumAlgs
 ms.topic: method
-f1_keywords: ["xenroll/IEnroll2.EnumAlgs"]
+f1_keywords: 
+ - "xenroll/IEnroll2.EnumAlgs"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],CustomLineCap class, CustomLineCap class [GDI+],Clone method, CustomLineCap.Clone, CustomLineCap::Clone, _gdiplus_CLASS_CustomLineCap_Clone_, gdiplus._gdiplus_CLASS_CustomLineCap_Clone_
 ms.topic: method
-f1_keywords: ["gdiplusheaders/CustomLineCap.Clone"]
+f1_keywords: 
+ - "gdiplusheaders/CustomLineCap.Clone"
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

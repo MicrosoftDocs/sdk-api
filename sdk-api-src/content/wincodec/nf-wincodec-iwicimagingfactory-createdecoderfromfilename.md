@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDecoderFromFilename, CreateDecoderFromFilename method [Windows Imaging Component], CreateDecoderFromFilename method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateDecoderFromFilename method, IWICImagingFactory.CreateDecoderFromFilename, IWICImagingFactory::CreateDecoderFromFilename, _wic_codec_iwicimagingfactory_createdecoderfromfilename, wic._wic_codec_iwicimagingfactory_createdecoderfromfilename, wincodec/IWICImagingFactory::CreateDecoderFromFilename
 ms.topic: method
-f1_keywords: ["wincodec/IWICImagingFactory.CreateDecoderFromFilename"]
+f1_keywords: 
+ - "wincodec/IWICImagingFactory.CreateDecoderFromFilename"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

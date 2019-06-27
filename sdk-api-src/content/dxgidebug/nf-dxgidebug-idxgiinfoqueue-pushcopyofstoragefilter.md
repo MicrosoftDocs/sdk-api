@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PushCopyOfStorageFilter method, IDXGIInfoQueue.PushCopyOfStorageFilter, IDXGIInfoQueue::PushCopyOfStorageFilter, PushCopyOfStorageFilter, PushCopyOfStorageFilter method [DXGI], PushCopyOfStorageFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushcopyofstoragefilter, dxgidebug/IDXGIInfoQueue::PushCopyOfStorageFilter
 ms.topic: method
-f1_keywords: ["dxgidebug/IDXGIInfoQueue.PushCopyOfStorageFilter"]
+f1_keywords: 
+ - "dxgidebug/IDXGIInfoQueue.PushCopyOfStorageFilter"
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

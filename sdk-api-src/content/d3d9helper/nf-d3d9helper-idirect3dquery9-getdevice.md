@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8dd8379e-a2cd-b722-e3cd-771da54e3b51, GetDevice, GetDevice method [Direct3D 9], GetDevice method [Direct3D 9],IDirect3DQuery9 interface, IDirect3DQuery9 interface [Direct3D 9],GetDevice method, IDirect3DQuery9.GetDevice, IDirect3DQuery9::GetDevice, d3d9helper/IDirect3DQuery9::GetDevice, direct3d9.idirect3dquery9__getdevice
 ms.topic: method
-f1_keywords: ["d3d9helper/IDirect3DQuery9.GetDevice"]
+f1_keywords: 
+ - "d3d9helper/IDirect3DQuery9.GetDevice"
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

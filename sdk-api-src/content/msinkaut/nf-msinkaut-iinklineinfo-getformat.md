@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8f894963-7075-46f4-8809-82d1aa7e13e7, GetFormat, GetFormat method [Tablet PC], GetFormat method [Tablet PC],IInkLineInfo interface, IInkLineInfo interface [Tablet PC],GetFormat method, IInkLineInfo.GetFormat, IInkLineInfo::GetFormat, msinkaut/IInkLineInfo::GetFormat, tablet.iinklineinfo_getformat
 ms.topic: method
-f1_keywords: ["msinkaut/IInkLineInfo.GetFormat"]
+f1_keywords: 
+ - "msinkaut/IInkLineInfo.GetFormat"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateEncoderPropertyBag, CreateEncoderPropertyBag method [Windows Imaging Component], CreateEncoderPropertyBag method [Windows Imaging Component],IWICComponentFactory interface, IWICComponentFactory interface [Windows Imaging Component],CreateEncoderPropertyBag method, IWICComponentFactory.CreateEncoderPropertyBag, IWICComponentFactory::CreateEncoderPropertyBag, _wic_codec_iwiccomponentfactory_createencoderpropertybag, wic._wic_codec_iwiccomponentfactory_createencoderpropertybag, wincodecsdk/IWICComponentFactory::CreateEncoderPropertyBag
 ms.topic: method
-f1_keywords: ["wincodecsdk/IWICComponentFactory.CreateEncoderPropertyBag"]
+f1_keywords: 
+ - "wincodecsdk/IWICComponentFactory.CreateEncoderPropertyBag"
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

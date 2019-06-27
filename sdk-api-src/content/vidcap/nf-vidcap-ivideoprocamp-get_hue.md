@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_Hue method, IVideoProcAmp.get_Hue, IVideoProcAmp::get_Hue, IVideoProcAmpget_Hue, dshow.ivideoprocamp_get_hue, get_Hue, get_Hue method [DirectShow], get_Hue method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_Hue
 ms.topic: method
-f1_keywords: ["vidcap/IVideoProcAmp.get_Hue"]
+f1_keywords: 
+ - "vidcap/IVideoProcAmp.get_Hue"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

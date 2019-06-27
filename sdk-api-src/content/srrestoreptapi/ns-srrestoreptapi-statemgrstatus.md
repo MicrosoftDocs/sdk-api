@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSTATEMGRSTATUS, PSTATEMGRSTATUS, PSTATEMGRSTATUS structure pointer [System Restore], STATEMGRSTATUS, STATEMGRSTATUS structure [System Restore], _sr_statemgrstatus_str, sr.statemgrstatus_str, srrestoreptapi/PSTATEMGRSTATUS, srrestoreptapi/STATEMGRSTATUS"
 ms.topic: struct
-f1_keywords: ["srrestoreptapi/STATEMGRSTATUS"]
+f1_keywords: 
+ - "srrestoreptapi/STATEMGRSTATUS"
 req.header: srrestoreptapi.h
 req.include-header: 
 req.target-type: Windows

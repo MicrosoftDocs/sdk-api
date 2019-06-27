@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTurbulenceEffect interface [DirectComposition],SetNumOctaves method, IDCompositionTurbulenceEffect.SetNumOctaves, IDCompositionTurbulenceEffect::SetNumOctaves, SetNumOctaves, SetNumOctaves method [DirectComposition], SetNumOctaves method [DirectComposition],IDCompositionTurbulenceEffect interface, dcomp/IDCompositionTurbulenceEffect::SetNumOctaves, directcomp.idcompositionturbulenceeffect_setnumoctaves
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionTurbulenceEffect.SetNumOctaves"]
+f1_keywords: 
+ - "dcomp/IDCompositionTurbulenceEffect.SetNumOctaves"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

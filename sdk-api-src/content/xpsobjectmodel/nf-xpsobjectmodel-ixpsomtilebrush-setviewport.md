@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMTileBrush interface [XPS Documents and Packaging],SetViewport method, IXpsOMTileBrush.SetViewport, IXpsOMTileBrush::SetViewport, SetViewport, SetViewport method [XPS Documents and Packaging], SetViewport method [XPS Documents and Packaging],IXpsOMTileBrush interface, xps.ixpsomtilebrush_setviewport, xpsobjectmodel/IXpsOMTileBrush::SetViewport
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMTileBrush.SetViewport"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMTileBrush.SetViewport"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

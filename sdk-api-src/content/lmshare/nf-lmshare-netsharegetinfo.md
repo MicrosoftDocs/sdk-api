@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 1005, 2, 501, 502, 503, NetShareGetInfo, NetShareGetInfo function [Files], _win32_netsharegetinfo, fs.netsharegetinfo, lmshare/NetShareGetInfo, netmgmt.netsharegetinfo
 ms.topic: function
-f1_keywords: ["lmshare/NetShareGetInfo"]
+f1_keywords: 
+ - "lmshare/NetShareGetInfo"
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

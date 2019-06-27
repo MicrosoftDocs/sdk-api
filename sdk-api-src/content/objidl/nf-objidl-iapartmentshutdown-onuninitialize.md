@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IApartmentShutdown interface [Windows Runtime],OnUninitialize method, IApartmentShutdown.OnUninitialize, IApartmentShutdown::OnUninitialize, OnUninitialize, OnUninitialize method [Windows Runtime], OnUninitialize method [Windows Runtime],IApartmentShutdown interface, objidl/IApartmentShutdown::OnUninitialize, winrt.iapartmentshutdown_onuninitialize
 ms.topic: method
-f1_keywords: ["objidl/IApartmentShutdown.OnUninitialize"]
+f1_keywords: 
+ - "objidl/IApartmentShutdown.OnUninitialize"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

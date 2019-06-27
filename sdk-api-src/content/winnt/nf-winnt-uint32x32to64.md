@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UInt32x32To64, UInt32x32To64 macro [Windows API], _win32_uint32x32to64, winnt/UInt32x32To64, winprog.uint32x32to64
 ms.topic: macro
-f1_keywords: ["winnt/UInt32x32To64"]
+f1_keywords: 
+ - "winnt/UInt32x32To64"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

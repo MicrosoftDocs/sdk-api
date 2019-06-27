@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsBrowseForContainer, DsBrowseForContainer function [Active Directory], DsBrowseForContainerA, DsBrowseForContainerW, _glines_dsbrowseforcontainer, ad.dsbrowseforcontainer, dsclient/DsBrowseForContainer, dsclient/DsBrowseForContainerA, dsclient/DsBrowseForContainerW
 ms.topic: function
-f1_keywords: ["dsclient/DsBrowseForContainer"]
+f1_keywords: 
+ - "dsclient/DsBrowseForContainer"
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

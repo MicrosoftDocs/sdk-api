@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDsAdminNewObjExt interface [Active Directory],SetObject method, IDsAdminNewObjExt.SetObject, IDsAdminNewObjExt::SetObject, SetObject, SetObject method [Active Directory], SetObject method [Active Directory],IDsAdminNewObjExt interface, _glines_idsadminnewobjext_setobject, ad.idsadminnewobjext__setobject, ad.idsadminnewobjext_setobject, dsadmin/IDsAdminNewObjExt::SetObject
 ms.topic: method
-f1_keywords: ["dsadmin/IDsAdminNewObjExt.SetObject"]
+f1_keywords: 
+ - "dsadmin/IDsAdminNewObjExt.SetObject"
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows

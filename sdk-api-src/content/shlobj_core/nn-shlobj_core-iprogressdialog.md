@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProgressDialog, IProgressDialog interface [Windows Shell], IProgressDialog interface [Windows Shell],described, _win32_IProgressDialog, shell.IProgressDialog, shlobj_core/IProgressDialog
 ms.topic: interface
-f1_keywords: ["shlobj_core/IProgressDialog"]
+f1_keywords: 
+ - "shlobj_core/IProgressDialog"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

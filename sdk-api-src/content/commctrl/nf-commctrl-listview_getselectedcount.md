@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_GetSelectedCount, ListView_GetSelectedCount macro [Windows Controls], _win32_ListView_GetSelectedCount, _win32_ListView_GetSelectedCount_cpp, commctrl/ListView_GetSelectedCount, controls.ListView_GetSelectedCount, controls._win32_ListView_GetSelectedCount
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_GetSelectedCount"]
+f1_keywords: 
+ - "commctrl/ListView_GetSelectedCount"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

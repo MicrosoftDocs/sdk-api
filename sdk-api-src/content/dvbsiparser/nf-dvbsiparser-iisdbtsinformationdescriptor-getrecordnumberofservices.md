@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordNumberOfServices, GetRecordNumberOfServices method [Microsoft TV Technologies], GetRecordNumberOfServices method [Microsoft TV Technologies],IIsdbTSInformationDescriptor interface, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],GetRecordNumberOfServices method, IIsdbTSInformationDescriptor.GetRecordNumberOfServices, IIsdbTSInformationDescriptor::GetRecordNumberOfServices, dvbsiparser/IIsdbTSInformationDescriptor::GetRecordNumberOfServices, mstv.iisdbtsinformationdescriptor_getrecordnumberofservices
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbTSInformationDescriptor.GetRecordNumberOfServices"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbTSInformationDescriptor.GetRecordNumberOfServices"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

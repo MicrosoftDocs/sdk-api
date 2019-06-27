@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWP_IP_VERSION, FWP_IP_VERSION enumeration [Filtering], FWP_IP_VERSION_MAX, FWP_IP_VERSION_NONE, FWP_IP_VERSION_V4, FWP_IP_VERSION_V6, fwp.fwp_ip_version_enum, fwptypes/FWP_IP_VERSION, fwptypes/FWP_IP_VERSION_MAX, fwptypes/FWP_IP_VERSION_NONE, fwptypes/FWP_IP_VERSION_V4, fwptypes/FWP_IP_VERSION_V6
 ms.topic: enum
-f1_keywords: ["fwptypes/FWP_IP_VERSION"]
+f1_keywords: 
+ - "fwptypes/FWP_IP_VERSION"
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows

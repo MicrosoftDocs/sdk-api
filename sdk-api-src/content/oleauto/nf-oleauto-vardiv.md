@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarDiv, VarDiv function [Automation], _oa96_VarDiv, automat.vardiv, oleauto/VarDiv
 ms.topic: function
-f1_keywords: ["oleauto/VarDiv"]
+f1_keywords: 
+ - "oleauto/VarDiv"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

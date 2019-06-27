@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetCallParams, TSPI_lineSetCallParams function [TAPI 2.2], _tspi_tspi_linesetcallparams, tspi.tspi_linesetcallparams, tspi/TSPI_lineSetCallParams
 ms.topic: function
-f1_keywords: ["tspi/TSPI_lineSetCallParams"]
+f1_keywords: 
+ - "tspi/TSPI_lineSetCallParams"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

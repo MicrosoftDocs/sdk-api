@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EXP_PROPERTYSTORAGE, EXP_PROPERTYSTORAGE structure [Windows Shell], _shell_EXP_PROPERTYSTORAGE, shell.EXP_PROPERTYSTORAGE, shlobj_core/EXP_PROPERTYSTORAGE
 ms.topic: struct
-f1_keywords: ["shlobj_core/EXP_PROPERTYSTORAGE"]
+f1_keywords: 
+ - "shlobj_core/EXP_PROPERTYSTORAGE"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

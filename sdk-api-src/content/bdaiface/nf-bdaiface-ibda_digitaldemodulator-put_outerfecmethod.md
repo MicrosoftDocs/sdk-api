@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],put_OuterFECMethod method, IBDA_DigitalDemodulator.put_OuterFECMethod, IBDA_DigitalDemodulator::put_OuterFECMethod, IBDA_DigitalDemodulatorput_OuterFECMethod, bdaiface/IBDA_DigitalDemodulator::put_OuterFECMethod, mstv.ibda_digitaldemodulator_put_outerfecmethod, put_OuterFECMethod, put_OuterFECMethod method [Microsoft TV Technologies], put_OuterFECMethod method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_DigitalDemodulator.put_OuterFECMethod"]
+f1_keywords: 
+ - "bdaiface/IBDA_DigitalDemodulator.put_OuterFECMethod"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StartXpsPrintJob1, StartXpsPrintJob1 function [Windows GDI], gdi.startxpsprintjob1, xpsprint/StartXpsPrintJob1
 ms.topic: function
-f1_keywords: ["xpsprint/StartXpsPrintJob1"]
+f1_keywords: 
+ - "xpsprint/StartXpsPrintJob1"
 req.header: xpsprint.h
 req.include-header: 
 req.target-type: Windows

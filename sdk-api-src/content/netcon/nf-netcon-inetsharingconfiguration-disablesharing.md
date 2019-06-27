@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisableSharing, DisableSharing method [ICS/ICF], DisableSharing method [ICS/ICF],INetSharingConfiguration interface, INetSharingConfiguration interface [ICS/ICF],DisableSharing method, INetSharingConfiguration.DisableSharing, INetSharingConfiguration::DisableSharing, _ics_inetsharingconfiguration_disablesharing, ics.inetsharingconfiguration_disablesharing, netcon/INetSharingConfiguration::DisableSharing
 ms.topic: method
-f1_keywords: ["netcon/INetSharingConfiguration.DisableSharing"]
+f1_keywords: 
+ - "netcon/INetSharingConfiguration.DisableSharing"
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

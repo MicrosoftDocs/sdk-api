@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MoInitMediaType, MoInitMediaType function [DirectShow], dmort/MoInitMediaType, dshow.moinitmediatype
 ms.topic: function
-f1_keywords: ["dmort/MoInitMediaType"]
+f1_keywords: 
+ - "dmort/MoInitMediaType"
 req.header: dmort.h
 req.include-header: Dmo.h
 req.target-type: Windows

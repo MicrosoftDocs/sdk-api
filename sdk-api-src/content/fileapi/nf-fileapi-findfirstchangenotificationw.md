@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FILE_NOTIFY_CHANGE_ATTRIBUTES, FILE_NOTIFY_CHANGE_DIR_NAME, FILE_NOTIFY_CHANGE_FILE_NAME, FILE_NOTIFY_CHANGE_LAST_WRITE, FILE_NOTIFY_CHANGE_SECURITY, FILE_NOTIFY_CHANGE_SIZE, FindFirstChangeNotification, FindFirstChangeNotification function [Files], FindFirstChangeNotificationA, FindFirstChangeNotificationW, _win32_findfirstchangenotification, base.findfirstchangenotification, fileapi/FindFirstChangeNotification, fileapi/FindFirstChangeNotificationA, fileapi/FindFirstChangeNotificationW, fs.findfirstchangenotification, winbase/FindFirstChangeNotification, winbase/FindFirstChangeNotificationA, winbase/FindFirstChangeNotificationW
 ms.topic: function
-f1_keywords: ["fileapi/FindFirstChangeNotification"]
+f1_keywords: 
+ - "fileapi/FindFirstChangeNotification"
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

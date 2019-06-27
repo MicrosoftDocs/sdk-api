@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumRegFilters, IEnumRegFilters interface [DirectShow], IEnumRegFilters interface [DirectShow],described, IEnumRegFiltersInterface, dshow.ienumregfilters, strmif/IEnumRegFilters
 ms.topic: interface
-f1_keywords: ["strmif/IEnumRegFilters"]
+f1_keywords: 
+ - "strmif/IEnumRegFilters"
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumDiscMasterFormats, EnumDiscMasterFormats method [IMAPI], EnumDiscMasterFormats method [IMAPI],IDiscMaster interface, IDiscMaster interface [IMAPI],EnumDiscMasterFormats method, IDiscMaster.EnumDiscMasterFormats, IDiscMaster::EnumDiscMasterFormats, _win32_idiscmaster_enumdiscmasterformats, base.idiscmaster_enumdiscmasterformats, imapi.idiscmaster_enumdiscmasterformats, imapi/IDiscMaster::EnumDiscMasterFormats
 ms.topic: method
-f1_keywords: ["imapi/IDiscMaster.EnumDiscMasterFormats"]
+f1_keywords: 
+ - "imapi/IDiscMaster.EnumDiscMasterFormats"
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

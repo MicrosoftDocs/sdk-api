@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRPOLYDRAW, EMRPOLYDRAW, EMRPOLYDRAW structure [Windows GDI], PEMRPOLYDRAW, PEMRPOLYDRAW structure pointer [Windows GDI], _win32_EMRPOLYDRAW_str, gdi.emrpolydraw, wingdi/EMRPOLYDRAW, wingdi/PEMRPOLYDRAW"
 ms.topic: struct
-f1_keywords: ["wingdi/EMRPOLYDRAW"]
+f1_keywords: 
+ - "wingdi/EMRPOLYDRAW"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSSID, GetSSID method [NativeWIFI], GetSSID method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetSSID method, IDot11AdHocNetwork.GetSSID, IDot11AdHocNetwork::GetSSID, adhoc/IDot11AdHocNetwork::GetSSID, nwifi.idot11adhocnetwork_getssid
 ms.topic: method
-f1_keywords: ["adhoc/IDot11AdHocNetwork.GetSSID"]
+f1_keywords: 
+ - "adhoc/IDot11AdHocNetwork.GetSSID"
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

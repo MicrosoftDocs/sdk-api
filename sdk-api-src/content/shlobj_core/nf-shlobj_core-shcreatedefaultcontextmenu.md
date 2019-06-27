@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCreateDefaultContextMenu, SHCreateDefaultContextMenu function [Windows Shell], _shell_SHCreateDefaultContextMenu, shell.SHCreateDefaultContextMenu, shlobj_core/SHCreateDefaultContextMenu
 ms.topic: function
-f1_keywords: ["shlobj_core/SHCreateDefaultContextMenu"]
+f1_keywords: 
+ - "shlobj_core/SHCreateDefaultContextMenu"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

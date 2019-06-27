@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],start method, IWMPSyncDevice.start, IWMPSyncDevice::start, IWMPSyncDevicestart, start, start method [Windows Media Player], start method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_start, wmp/IWMPSyncDevice::start
 ms.topic: method
-f1_keywords: ["wmp/IWMPSyncDevice.start"]
+f1_keywords: 
+ - "wmp/IWMPSyncDevice.start"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

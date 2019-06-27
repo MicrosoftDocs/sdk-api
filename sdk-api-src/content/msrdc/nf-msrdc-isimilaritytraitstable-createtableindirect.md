@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTableIndirect, CreateTableIndirect method [Remote Differential Compression], CreateTableIndirect method [Remote Differential Compression],ISimilarityTraitsTable interface, ISimilarityTraitsTable interface [Remote Differential Compression],CreateTableIndirect method, ISimilarityTraitsTable.CreateTableIndirect, ISimilarityTraitsTable::CreateTableIndirect, fs.isimilaritytraitstable_createtableindirect, msrdc/ISimilarityTraitsTable::CreateTableIndirect, rdc.isimilaritytraitstable_createtableindirect
 ms.topic: method
-f1_keywords: ["msrdc/ISimilarityTraitsTable.CreateTableIndirect"]
+f1_keywords: 
+ - "msrdc/ISimilarityTraitsTable.CreateTableIndirect"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTempFileName, GetTempFileName function [Files], GetTempFileNameA, GetTempFileNameW, _win32_gettempfilename, base.gettempfilename, fileapi/GetTempFileName, fileapi/GetTempFileNameA, fileapi/GetTempFileNameW, fs.gettempfilename, winbase/GetTempFileName, winbase/GetTempFileNameA, winbase/GetTempFileNameW
 ms.topic: function
-f1_keywords: ["fileapi/GetTempFileName"]
+f1_keywords: 
+ - "fileapi/GetTempFileName"
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

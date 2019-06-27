@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetActiveFlags, GetActiveFlags method [Text Services Framework], GetActiveFlags method [Text Services Framework],ITfThreadMgrEx interface, ITfThreadMgrEx interface [Text Services Framework],GetActiveFlags method, ITfThreadMgrEx.GetActiveFlags, ITfThreadMgrEx::GetActiveFlags, TF_TMF_ACTIVATED, TF_TMF_COMLESS, TF_TMF_CONSOLE, TF_TMF_NOACTIVATETIP, TF_TMF_SECUREMODE, TF_TMF_UIELEMENTENABLEDONLY, TF_TMF_WOW16, msctf/ITfThreadMgrEx::GetActiveFlags, tsf.itfthreadmgrex_getactiveflags
 ms.topic: method
-f1_keywords: ["msctf/ITfThreadMgrEx.GetActiveFlags"]
+f1_keywords: 
+ - "msctf/ITfThreadMgrEx.GetActiveFlags"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

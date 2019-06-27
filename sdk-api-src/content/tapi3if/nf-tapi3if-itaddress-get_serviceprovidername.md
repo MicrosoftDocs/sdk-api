@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_ServiceProviderName method, ITAddress.get_ServiceProviderName, ITAddress::get_ServiceProviderName, _tapi3_itaddress_get_serviceprovidername, get_ServiceProviderName, get_ServiceProviderName method [TAPI 2.2], get_ServiceProviderName method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_serviceprovidername, tapi3if/ITAddress::get_ServiceProviderName
 ms.topic: method
-f1_keywords: ["tapi3if/ITAddress.get_ServiceProviderName"]
+f1_keywords: 
+ - "tapi3if/ITAddress.get_ServiceProviderName"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

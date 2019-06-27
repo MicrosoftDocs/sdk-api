@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxConfiguration, IFaxConfiguration interface [Fax Service], IFaxConfiguration interface [Fax Service],described, _mfax_IFaxConfiguration, fax._mfax_IFaxConfiguration, faxcomex/IFaxConfiguration
 ms.topic: interface
-f1_keywords: ["faxcomex/IFaxConfiguration"]
+f1_keywords: 
+ - "faxcomex/IFaxConfiguration"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

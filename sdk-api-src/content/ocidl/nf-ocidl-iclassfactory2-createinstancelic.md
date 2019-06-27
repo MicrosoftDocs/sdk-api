@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateInstanceLic, CreateInstanceLic method [COM], CreateInstanceLic method [COM],IClassFactory2 interface, IClassFactory2 interface [COM],CreateInstanceLic method, IClassFactory2.CreateInstanceLic, IClassFactory2::CreateInstanceLic, _com_iclassfactory2_createinstancelic, com.iclassfactory2_createinstancelic, ocidl/IClassFactory2::CreateInstanceLic
 ms.topic: method
-f1_keywords: ["ocidl/IClassFactory2.CreateInstanceLic"]
+f1_keywords: 
+ - "ocidl/IClassFactory2.CreateInstanceLic"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

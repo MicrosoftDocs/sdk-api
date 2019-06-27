@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAccessibilityShortDescription, GetAccessibilityShortDescription method [XPS Documents and Packaging], GetAccessibilityShortDescription method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],GetAccessibilityShortDescription method, IXpsOMCanvas.GetAccessibilityShortDescription, IXpsOMCanvas::GetAccessibilityShortDescription, xps.ixpsomcanvas_getaccessibilityshortdescription, xpsobjectmodel/IXpsOMCanvas::GetAccessibilityShortDescription
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMCanvas.GetAccessibilityShortDescription"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMCanvas.GetAccessibilityShortDescription"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbGlobalStore interface [Remote Desktop Services],QuerySessionBySessionId method, ITsSbGlobalStore.QuerySessionBySessionId, ITsSbGlobalStore::QuerySessionBySessionId, QuerySessionBySessionId, QuerySessionBySessionId method [Remote Desktop Services], QuerySessionBySessionId method [Remote Desktop Services],ITsSbGlobalStore interface, sbtsv/ITsSbGlobalStore::QuerySessionBySessionId, termserv.itssbglobalstore_querysessionbysessionid
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbGlobalStore.QuerySessionBySessionId"]
+f1_keywords: 
+ - "sbtsv/ITsSbGlobalStore.QuerySessionBySessionId"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

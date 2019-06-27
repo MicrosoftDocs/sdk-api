@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropSheet_RestartWindows, PropSheet_RestartWindows macro [Windows Controls], _win32_PropSheet_RestartWindows, _win32_PropSheet_RestartWindows_cpp, controls.PropSheet_RestartWindows, controls._win32_PropSheet_RestartWindows, prsht/PropSheet_RestartWindows
 ms.topic: macro
-f1_keywords: ["prsht/PropSheet_RestartWindows"]
+f1_keywords: 
+ - "prsht/PropSheet_RestartWindows"
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

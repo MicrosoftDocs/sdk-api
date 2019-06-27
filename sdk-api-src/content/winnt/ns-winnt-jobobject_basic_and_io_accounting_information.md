@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PJOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION, JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION, JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION structure, PJOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION, PJOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION structure pointer, _JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION, _win32_jobobject_basic_and_io_accounting_information_str, base.jobobject_basic_and_io_accounting_information_str, winnt/JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION, winnt/PJOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION"
 ms.topic: struct
-f1_keywords: ["winnt/JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION"]
+f1_keywords: 
+ - "winnt/JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DefineFuncAsDllEntry, DefineFuncAsDllEntry method [Automation], DefineFuncAsDllEntry method [Automation],ICreateTypeInfo interface, ICreateTypeInfo interface [Automation],DefineFuncAsDllEntry method, ICreateTypeInfo.DefineFuncAsDllEntry, ICreateTypeInfo::DefineFuncAsDllEntry, _oa96_ICreateTypeInfo_DefineFuncAsDllEntry, automat.icreatetypeinfo_definefuncasdllentry, oaidl/ICreateTypeInfo::DefineFuncAsDllEntry
 ms.topic: method
-f1_keywords: ["oaidl/ICreateTypeInfo.DefineFuncAsDllEntry"]
+f1_keywords: 
+ - "oaidl/ICreateTypeInfo.DefineFuncAsDllEntry"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

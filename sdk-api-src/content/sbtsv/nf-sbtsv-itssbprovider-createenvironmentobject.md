@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateEnvironmentObject, CreateEnvironmentObject method [Remote Desktop Services], CreateEnvironmentObject method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreateEnvironmentObject method, ITsSbProvider.CreateEnvironmentObject, ITsSbProvider::CreateEnvironmentObject, sbtsv/ITsSbProvider::CreateEnvironmentObject, termserv.itssbprovider_createenvironmentobject
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbProvider.CreateEnvironmentObject"]
+f1_keywords: 
+ - "sbtsv/ITsSbProvider.CreateEnvironmentObject"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

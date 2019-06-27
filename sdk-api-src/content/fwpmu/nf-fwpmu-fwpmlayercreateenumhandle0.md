@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmLayerCreateEnumHandle0, FwpmLayerCreateEnumHandle0 function [Filtering], fwp.fwpmlayercreateenumhandle0_func, fwpmu/FwpmLayerCreateEnumHandle0
 ms.topic: function
-f1_keywords: ["fwpmu/FwpmLayerCreateEnumHandle0"]
+f1_keywords: 
+ - "fwpmu/FwpmLayerCreateEnumHandle0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

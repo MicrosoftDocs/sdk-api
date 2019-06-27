@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1a8b933f-a4f0-46f5-8b41-df89b6378e9f, IInkCollector interface [Tablet PC],hWnd property, IInkCollector.get_hWnd, IInkCollector.hWnd, IInkCollector.put_hWnd, IInkCollector::get_hWnd, IInkCollector::hWnd, IInkCollector::put_hWnd, InkCollector.get_hWnd, InkCollector.put_hWnd, get_hWnd, hWnd property [Tablet PC], hWnd property [Tablet PC],IInkCollector interface, msinkaut/IInkCollector::get_hWnd, msinkaut/IInkCollector::hWnd, msinkaut/IInkCollector::put_hWnd, put_hWnd, tablet.inkcollector_hwnd
 ms.topic: method
-f1_keywords: ["msinkaut/IInkCollector.hWnd"]
+f1_keywords: 
+ - "msinkaut/IInkCollector.hWnd"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

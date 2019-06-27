@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfDocumentMgr interface [Text Services Framework],Pop method, ITfDocumentMgr.Pop, ITfDocumentMgr::Pop, Pop, Pop method [Text Services Framework], Pop method [Text Services Framework],ITfDocumentMgr interface, _tsf_itfdocumentmgr_pop_ref, msctf/ITfDocumentMgr::Pop, tsf.itfdocumentmgr_pop
 ms.topic: method
-f1_keywords: ["msctf/ITfDocumentMgr.Pop"]
+f1_keywords: 
+ - "msctf/ITfDocumentMgr.Pop"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

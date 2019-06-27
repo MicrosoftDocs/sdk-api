@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiVerifyDiskSpace, MsiVerifyDiskSpace function, _msi_msiverifydiskspace, msiquery/MsiVerifyDiskSpace, setup.msiverifydiskspace
 ms.topic: function
-f1_keywords: ["msiquery/MsiVerifyDiskSpace"]
+f1_keywords: 
+ - "msiquery/MsiVerifyDiskSpace"
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

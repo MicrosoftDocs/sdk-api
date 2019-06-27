@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 71b1af5b-f127-463f-9720-72e789bb2cd1, MFCreateASFStreamSelector, MFCreateASFStreamSelector function [Media Foundation], mf.mfcreateasfstreamselector, wmcontainer/MFCreateASFStreamSelector
 ms.topic: function
-f1_keywords: ["wmcontainer/MFCreateASFStreamSelector"]
+f1_keywords: 
+ - "wmcontainer/MFCreateASFStreamSelector"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

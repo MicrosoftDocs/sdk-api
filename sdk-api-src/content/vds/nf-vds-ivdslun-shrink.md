@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsLun interface [VDS],Shrink method, IVdsLun.Shrink, IVdsLun::Shrink, Shrink, Shrink method [VDS], Shrink method [VDS],IVdsLun interface, base.ivdslun_shrink, vds/IVdsLun::Shrink, vdshwprv/IVdsLun::Shrink
 ms.topic: method
-f1_keywords: ["vds/IVdsLun.Shrink"]
+f1_keywords: 
+ - "vds/IVdsLun.Shrink"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsStartWriterCanonicalization, WsStartWriterCanonicalization function [Web Services for Windows], webservices/WsStartWriterCanonicalization, wsw.wsstartwritercanonicalization
 ms.topic: function
-f1_keywords: ["webservices/WsStartWriterCanonicalization"]
+f1_keywords: 
+ - "webservices/WsStartWriterCanonicalization"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

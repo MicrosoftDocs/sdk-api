@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linegetdevcaps, lineGetDevCaps, lineGetDevCaps function [TAPI 2.2], lineGetDevCapsA, lineGetDevCapsW, tapi/lineGetDevCaps, tapi/lineGetDevCapsA, tapi/lineGetDevCapsW, tapi2.linegetdevcaps"
 ms.topic: function
-f1_keywords: ["tapi/lineGetDevCaps"]
+f1_keywords: 
+ - "tapi/lineGetDevCaps"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

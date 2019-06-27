@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8857e150-1746-4f3f-aaa8-db0f44787621, MFCreateAudioMediaType, MFCreateAudioMediaType function [Media Foundation], mf.mfcreateaudiomediatype, mfapi/MFCreateAudioMediaType
 ms.topic: function
-f1_keywords: ["mfapi/MFCreateAudioMediaType"]
+f1_keywords: 
+ - "mfapi/MFCreateAudioMediaType"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

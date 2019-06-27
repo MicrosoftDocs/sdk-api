@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalEventSinkRegistration interface [TAPI 2.2],UnregisterSink method, ITPluggableTerminalEventSinkRegistration.UnregisterSink, ITPluggableTerminalEventSinkRegistration::UnregisterSink, UnregisterSink, UnregisterSink method [TAPI 2.2], UnregisterSink method [TAPI 2.2],ITPluggableTerminalEventSinkRegistration interface, _tapi3_itpluggableterminaleventsinkregistration_unregistersink, msp/ITPluggableTerminalEventSinkRegistration::UnregisterSink, tapi3.itpluggableterminaleventsinkregistration_unregistersink
 ms.topic: method
-f1_keywords: ["msp/ITPluggableTerminalEventSinkRegistration.UnregisterSink"]
+f1_keywords: 
+ - "msp/ITPluggableTerminalEventSinkRegistration.UnregisterSink"
 req.header: msp.h
 req.include-header: Tapi3.h
 req.target-type: Windows

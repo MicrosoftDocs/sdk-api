@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_GENERICUSBFN_TRANSFER_IN_APPEND_ZERO_PKT, IOCTL_GENERICUSBFN_TRANSFER_IN_APPEND_ZERO_PKT control, IOCTL_GENERICUSBFN_TRANSFER_IN_APPEND_ZERO_PKT control code [Buses], buses.ioctl_genericusbfn_transfer_in_append_zero_pkt, genericusbfnioctl/IOCTL_GENERICUSBFN_TRANSFER_IN_APPEND_ZERO_PKT
 ms.topic: ioctl
-f1_keywords: ["genericusbfnioctl/IOCTL_GENERICUSBFN_TRANSFER_IN_APPEND_ZERO_PKT"]
+f1_keywords: 
+ - "genericusbfnioctl/IOCTL_GENERICUSBFN_TRANSFER_IN_APPEND_ZERO_PKT"
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h
 req.target-type: Windows

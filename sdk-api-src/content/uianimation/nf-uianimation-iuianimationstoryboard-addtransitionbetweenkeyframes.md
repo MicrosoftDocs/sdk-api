@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddTransitionBetweenKeyframes, AddTransitionBetweenKeyframes method [Windows Animation], AddTransitionBetweenKeyframes method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],AddTransitionBetweenKeyframes method, IUIAnimationStoryboard.AddTransitionBetweenKeyframes, IUIAnimationStoryboard::AddTransitionBetweenKeyframes, uianimation.iuianimationstoryboard_addtransitionbetweenkeyframes, uianimation/IUIAnimationStoryboard::AddTransitionBetweenKeyframes
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationStoryboard.AddTransitionBetweenKeyframes"]
+f1_keywords: 
+ - "uianimation/IUIAnimationStoryboard.AddTransitionBetweenKeyframes"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

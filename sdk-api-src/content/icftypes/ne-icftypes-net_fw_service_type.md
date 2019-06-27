@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NET_FW_SERVICE_FILE_AND_PRINT, NET_FW_SERVICE_NONE, NET_FW_SERVICE_REMOTE_DESKTOP, NET_FW_SERVICE_TYPE, NET_FW_SERVICE_TYPE enumeration [ICS/ICF], NET_FW_SERVICE_TYPE_MAX, NET_FW_SERVICE_UPNP, icftypes/NET_FW_SERVICE_FILE_AND_PRINT, icftypes/NET_FW_SERVICE_NONE, icftypes/NET_FW_SERVICE_REMOTE_DESKTOP, icftypes/NET_FW_SERVICE_TYPE, icftypes/NET_FW_SERVICE_TYPE_MAX, icftypes/NET_FW_SERVICE_UPNP, ics.net_fw_service_type
 ms.topic: enum
-f1_keywords: ["icftypes/NET_FW_SERVICE_TYPE"]
+f1_keywords: 
+ - "icftypes/NET_FW_SERVICE_TYPE"
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_search_abandon_page, ldap.ldap__search__abandon__page, ldap.ldap_search_abandon_page, ldap_search_abandon_page, ldap_search_abandon_page function [LDAP], winldap/ldap_search_abandon_page"
 ms.topic: function
-f1_keywords: ["winldap/ldap_search_abandon_page"]
+f1_keywords: 
+ - "winldap/ldap_search_abandon_page"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDUdpAddress interface,SetTTL method, IWSDUdpAddress.SetTTL, IWSDUdpAddress::SetTTL, SetTTL, SetTTL method, SetTTL method,IWSDUdpAddress interface, ncd.iwsdudpaddress_setttl, wsdbase/IWSDUdpAddress::SetTTL
 ms.topic: method
-f1_keywords: ["wsdbase/IWSDUdpAddress.SetTTL"]
+f1_keywords: 
+ - "wsdbase/IWSDUdpAddress.SetTTL"
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

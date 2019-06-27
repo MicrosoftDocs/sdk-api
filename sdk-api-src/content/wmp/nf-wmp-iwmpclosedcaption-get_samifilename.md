@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],get_SAMIFileName method, IWMPClosedCaption.get_SAMIFileName, IWMPClosedCaption::get_SAMIFileName, IWMPClosedCaptionget_SAMIFileName, get_SAMIFileName, get_SAMIFileName method [Windows Media Player], get_SAMIFileName method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_get_samifilename, wmp/IWMPClosedCaption::get_SAMIFileName
 ms.topic: method
-f1_keywords: ["wmp/IWMPClosedCaption.get_SAMIFileName"]
+f1_keywords: 
+ - "wmp/IWMPClosedCaption.get_SAMIFileName"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

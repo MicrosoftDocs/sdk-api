@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteItem, DeleteItem method [Media Foundation], DeleteItem method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],DeleteItem method, IMFAttributes.DeleteItem, IMFAttributes::DeleteItem, ac72e6e4-f930-4de6-92a2-f15e5f9e5d74, mf.imfattributes_deleteitem, mfobjects/IMFAttributes::DeleteItem
 ms.topic: method
-f1_keywords: ["mfobjects/IMFAttributes.DeleteItem"]
+f1_keywords: 
+ - "mfobjects/IMFAttributes.DeleteItem"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

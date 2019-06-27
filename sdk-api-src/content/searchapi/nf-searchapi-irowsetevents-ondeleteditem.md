@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRowsetEvents interface [search],OnDeletedItem method, IRowsetEvents.OnDeletedItem, IRowsetEvents::OnDeletedItem, OnDeletedItem, OnDeletedItem method [search], OnDeletedItem method [search],IRowsetEvents interface, _search_IRowsetEvents_OnDeletedItem, search._search_IRowsetEvents_OnDeletedItem, searchapi/IRowsetEvents::OnDeletedItem
 ms.topic: method
-f1_keywords: ["searchapi/IRowsetEvents.OnDeletedItem"]
+f1_keywords: 
+ - "searchapi/IRowsetEvents.OnDeletedItem"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

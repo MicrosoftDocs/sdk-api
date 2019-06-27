@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DBCONTENTVECTOR, DBCONTENTVECTOR structure [Indexing Service], _idxs_DBCONTENTVECTOR, cmdtree/DBCONTENTVECTOR, indexsrv.dbcontentvector, tagDBCONTENTVECTOR
 ms.topic: struct
-f1_keywords: ["cmdtree/DBCONTENTVECTOR"]
+f1_keywords: 
+ - "cmdtree/DBCONTENTVECTOR"
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OutlineStyles, OutlineStyles enumeration [Windows Accessibility], OutlineStyles_Embossed, OutlineStyles_Engraved, OutlineStyles_None, OutlineStyles_Outline, OutlineStyles_Shadow, uiauto.uiauto_OutlineStylesEnum, uiauto_OutlineStylesEnum, uiautomationcore/OutlineStyles, uiautomationcore/OutlineStyles_Embossed, uiautomationcore/OutlineStyles_Engraved, uiautomationcore/OutlineStyles_None, uiautomationcore/OutlineStyles_Outline, uiautomationcore/OutlineStyles_Shadow, winauto.uiauto_OutlineStylesEnum
 ms.topic: enum
-f1_keywords: ["uiautomationcore/OutlineStyles"]
+f1_keywords: 
+ - "uiautomationcore/OutlineStyles"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

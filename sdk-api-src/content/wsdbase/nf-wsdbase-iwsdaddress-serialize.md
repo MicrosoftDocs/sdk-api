@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDAddress interface,Serialize method, IWSDAddress.Serialize, IWSDAddress::Serialize, Serialize, Serialize method, Serialize method,IWSDAddress interface, ncd.iwsdaddress_serialize, wsdbase/IWSDAddress::Serialize
 ms.topic: method
-f1_keywords: ["wsdbase/IWSDAddress.Serialize"]
+f1_keywords: 
+ - "wsdbase/IWSDAddress.Serialize"
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

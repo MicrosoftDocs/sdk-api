@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePipelineLibrary, CreatePipelineLibrary method, CreatePipelineLibrary method,ID3D12Device1 interface, ID3D12Device1 interface,CreatePipelineLibrary method, ID3D12Device1.CreatePipelineLibrary, ID3D12Device1::CreatePipelineLibrary, d3d12/ID3D12Device1::CreatePipelineLibrary, direct3d12.id3d12device1_createpipelinelibrary
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12Device1.CreatePipelineLibrary"]
+f1_keywords: 
+ - "d3d12/ID3D12Device1.CreatePipelineLibrary"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTemporaryName, GetTemporaryName method [BITS], GetTemporaryName method [BITS],IBackgroundCopyFile3 interface, IBackgroundCopyFile3 interface [BITS],GetTemporaryName method, IBackgroundCopyFile3.GetTemporaryName, IBackgroundCopyFile3::GetTemporaryName, bits.ibackgroundcopyfile3_gettemporaryname, bits3_0/IBackgroundCopyFile3::GetTemporaryName
 ms.topic: method
-f1_keywords: ["bits3_0/IBackgroundCopyFile3.GetTemporaryName"]
+f1_keywords: 
+ - "bits3_0/IBackgroundCopyFile3.GetTemporaryName"
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows

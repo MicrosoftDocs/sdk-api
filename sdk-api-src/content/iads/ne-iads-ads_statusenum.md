@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PADS_STATUS, ADS_STATUS, ADS_STATUSENUM, ADS_STATUSENUM enumeration [ADSI], ADS_STATUS_INVALID_SEARCHPREF, ADS_STATUS_INVALID_SEARCHPREFVALUE, ADS_STATUS_S_OK, _ds_ads_statusenum, adsi.ads__statusenum, adsi.ads_statusenum, iads/ADS_STATUSENUM, iads/ADS_STATUS_INVALID_SEARCHPREF, iads/ADS_STATUS_INVALID_SEARCHPREFVALUE, iads/ADS_STATUS_S_OK"
 ms.topic: enum
-f1_keywords: ["iads/ADS_STATUSENUM"]
+f1_keywords: 
+ - "iads/ADS_STATUSENUM"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

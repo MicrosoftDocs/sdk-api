@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFont2, GetFont2 method [Windows Controls], GetFont2 method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetFont2 method, ITextRange2.GetFont2, ITextRange2::GetFont2, controls.itextrange2_getfont2, tom/ITextRange2::GetFont2
 ms.topic: method
-f1_keywords: ["tom/ITextRange2.GetFont2"]
+f1_keywords: 
+ - "tom/ITextRange2.GetFont2"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

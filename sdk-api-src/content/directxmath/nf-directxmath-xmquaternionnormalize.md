@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionNormalize, XMQuaternionNormalize, XMQuaternionNormalize method [DirectX Math Support APIs], dxmath.xmquaternionnormalize
 ms.topic: function
-f1_keywords: ["directxmath/XMQuaternionNormalize"]
+f1_keywords: 
+ - "directxmath/XMQuaternionNormalize"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

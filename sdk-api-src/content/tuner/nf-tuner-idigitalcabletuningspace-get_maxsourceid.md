@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDigitalCableTuningSpace interface [Microsoft TV Technologies],get_MaxSourceID method, IDigitalCableTuningSpace.get_MaxSourceID, IDigitalCableTuningSpace::get_MaxSourceID, IDigitalCableTuningSpaceget_MaxSourceID, get_MaxSourceID, get_MaxSourceID method [Microsoft TV Technologies], get_MaxSourceID method [Microsoft TV Technologies],IDigitalCableTuningSpace interface, mstv.idigitalcabletuningspace_get_maxsourceid, tuner/IDigitalCableTuningSpace::get_MaxSourceID
 ms.topic: method
-f1_keywords: ["tuner/IDigitalCableTuningSpace.get_MaxSourceID"]
+f1_keywords: 
+ - "tuner/IDigitalCableTuningSpace.get_MaxSourceID"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

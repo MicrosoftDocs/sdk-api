@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRtwqPlatformEvents, IRtwqPlatformEvents interface, IRtwqPlatformEvents interface,described, base.irtwqplatformevents, rtworkq/IRtwqPlatformEvents
 ms.topic: interface
-f1_keywords: ["rtworkq/IRtwqPlatformEvents"]
+f1_keywords: 
+ - "rtworkq/IRtwqPlatformEvents"
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

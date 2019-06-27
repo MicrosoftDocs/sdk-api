@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumCategoryGUIDs, EnumCategoryGUIDs method [Microsoft TV Technologies], EnumCategoryGUIDs method [Microsoft TV Technologies],ITuningSpace interface, ITuningSpace interface [Microsoft TV Technologies],EnumCategoryGUIDs method, ITuningSpace.EnumCategoryGUIDs, ITuningSpace::EnumCategoryGUIDs, ITuningSpaceEnumCategoryGUIDs, mstv.ituningspace_enumcategoryguids, tuner/ITuningSpace::EnumCategoryGUIDs
 ms.topic: method
-f1_keywords: ["tuner/ITuningSpace.EnumCategoryGUIDs"]
+f1_keywords: 
+ - "tuner/ITuningSpace.EnumCategoryGUIDs"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

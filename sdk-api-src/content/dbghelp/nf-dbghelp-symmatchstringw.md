@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymMatchString, SymMatchString function, SymMatchStringW, base.symmatchstring, dbghelp/SymMatchString, dbghelp/SymMatchStringW
 ms.topic: function
-f1_keywords: ["dbghelp/SymMatchString"]
+f1_keywords: 
+ - "dbghelp/SymMatchString"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TimeSpan, TimeSpan structure [Windows Runtime], windows/TimeSpan, winrt.timespan
 ms.topic: struct
-f1_keywords: ["windows.foundation/TimeSpan"]
+f1_keywords: 
+ - "windows.foundation/TimeSpan"
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

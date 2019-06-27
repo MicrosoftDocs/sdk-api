@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddNtmsMediaType, AddNtmsMediaType function [Files], _zaw_addntmsmediatype, base.addntmsmediatype, fs.addntmsmediatype, ntmsapi/AddNtmsMediaType
 ms.topic: function
-f1_keywords: ["ntmsapi/AddNtmsMediaType"]
+f1_keywords: 
+ - "ntmsapi/AddNtmsMediaType"
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

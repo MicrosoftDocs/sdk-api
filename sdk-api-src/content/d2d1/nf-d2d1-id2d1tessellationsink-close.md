@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Direct2D], Close method [Direct2D],ID2D1TessellationSink interface, ID2D1TessellationSink interface [Direct2D],Close method, ID2D1TessellationSink.Close, ID2D1TessellationSink::Close, d2d1/ID2D1TessellationSink::Close, direct2d.ID2D1TessellationSink_Close
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1TessellationSink.Close"]
+f1_keywords: 
+ - "d2d1/ID2D1TessellationSink.Close"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

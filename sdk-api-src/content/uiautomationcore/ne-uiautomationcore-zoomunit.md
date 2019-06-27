@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ZoomUnit, ZoomUnit enumeration [Windows Accessibility], ZoomUnit_LargeDecrement, ZoomUnit_LargeIncrement, ZoomUnit_NoAmount, ZoomUnit_SmallDecrement, ZoomUnit_SmallIncrement, uiautomationcore/ ZoomUnit_NoAmount, uiautomationcore/ZoomUnit, uiautomationcore/ZoomUnit_LargeDecrement, uiautomationcore/ZoomUnit_LargeIncrement, uiautomationcore/ZoomUnit_SmallDecrement, uiautomationcore/ZoomUnit_SmallIncrement, winauto.uiauto_zoomunit
 ms.topic: enum
-f1_keywords: ["uiautomationcore/ZoomUnit"]
+f1_keywords: 
+ - "uiautomationcore/ZoomUnit"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

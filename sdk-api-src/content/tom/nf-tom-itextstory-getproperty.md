@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Windows Controls], GetProperty method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetProperty method, ITextStory.GetProperty, ITextStory::GetProperty, controls.itextstory_getproperty, tom/ITextStory::GetProperty
 ms.topic: method
-f1_keywords: ["tom/ITextStory.GetProperty"]
+f1_keywords: 
+ - "tom/ITextStory.GetProperty"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

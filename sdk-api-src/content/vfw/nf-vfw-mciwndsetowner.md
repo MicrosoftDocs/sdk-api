@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndSetOwner, MCIWndSetOwner macro [Windows Multimedia], _win32_MCIWndSetOwner, multimedia.mciwndsetowner, vfw/MCIWndSetOwner
 ms.topic: macro
-f1_keywords: ["vfw/MCIWndSetOwner"]
+f1_keywords: 
+ - "vfw/MCIWndSetOwner"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrConflictPresenter interface [Windows Shell],PresentConflict method, ISyncMgrConflictPresenter.PresentConflict, ISyncMgrConflictPresenter::PresentConflict, PresentConflict, PresentConflict method [Windows Shell], PresentConflict method [Windows Shell],ISyncMgrConflictPresenter interface, _shell_ISyncMgrConflictPresenter_PresentConflict, shell.ISyncMgrConflictPresenter_PresentConflict, syncmgr/ISyncMgrConflictPresenter::PresentConflict
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrConflictPresenter.PresentConflict"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrConflictPresenter.PresentConflict"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

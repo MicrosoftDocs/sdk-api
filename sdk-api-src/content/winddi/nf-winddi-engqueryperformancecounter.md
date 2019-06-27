@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngQueryPerformanceCounter, EngQueryPerformanceCounter function [Display Devices], display.engqueryperformancecounter, gdifncs_8a5d6431-cd14-42cd-bcd4-2d27342bc08a.xml, winddi/EngQueryPerformanceCounter
 ms.topic: function
-f1_keywords: ["winddi/EngQueryPerformanceCounter"]
+f1_keywords: 
+ - "winddi/EngQueryPerformanceCounter"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ActivateSpatialAudioMetadataReader, ActivateSpatialAudioMetadataReader method [Core Audio], ActivateSpatialAudioMetadataReader method [Core Audio],ISpatialAudioMetadataClient interface, ISpatialAudioMetadataClient interface [Core Audio],ActivateSpatialAudioMetadataReader method, ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataReader, ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataReader, coreaudio.ispatialaudiometadataclient_activatespatialaudiometadatareader, spatialaudiometadata/ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataReader
 ms.topic: method
-f1_keywords: ["spatialaudiometadata/ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataReader"]
+f1_keywords: 
+ - "spatialaudiometadata/ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataReader"
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

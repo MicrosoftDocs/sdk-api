@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_SENDER_DETAILS, WSMAN_SENDER_DETAILS structure [Windows Remote Management], winrm.wsman_sender_details, wsman/WSMAN_SENDER_DETAILS
 ms.topic: struct
-f1_keywords: ["wsman/WSMAN_SENDER_DETAILS"]
+f1_keywords: 
+ - "wsman/WSMAN_SENDER_DETAILS"
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

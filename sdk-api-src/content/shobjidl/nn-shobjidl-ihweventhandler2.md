@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IHWEventHandler2, IHWEventHandler2 interface [Windows Shell], IHWEventHandler2 interface [Windows Shell],described, _shell_IHWEventHandler2, shell.IHWEventHandler2, shobjidl/IHWEventHandler2
 ms.topic: interface
-f1_keywords: ["shobjidl/IHWEventHandler2"]
+f1_keywords: 
+ - "shobjidl/IHWEventHandler2"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

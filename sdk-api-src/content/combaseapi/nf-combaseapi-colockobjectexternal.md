@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoLockObjectExternal, CoLockObjectExternal function [COM], _com_CoLockObjectExternal, com.colockobjectexternal, combaseapi/CoLockObjectExternal
 ms.topic: function
-f1_keywords: ["combaseapi/CoLockObjectExternal"]
+f1_keywords: 
+ - "combaseapi/CoLockObjectExternal"
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

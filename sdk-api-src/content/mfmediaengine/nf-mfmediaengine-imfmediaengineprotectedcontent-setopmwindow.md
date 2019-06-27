@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineProtectedContent interface [Media Foundation],SetOPMWindow method, IMFMediaEngineProtectedContent.SetOPMWindow, IMFMediaEngineProtectedContent::SetOPMWindow, SetOPMWindow, SetOPMWindow method [Media Foundation], SetOPMWindow method [Media Foundation],IMFMediaEngineProtectedContent interface, mf.imfmediaengineprotectedcontent_setopmwindow, mfmediaengine/IMFMediaEngineProtectedContent::SetOPMWindow
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngineProtectedContent.SetOPMWindow"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngineProtectedContent.SetOPMWindow"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

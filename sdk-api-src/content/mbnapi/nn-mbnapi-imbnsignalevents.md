@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnSignalEvents, IMbnSignalEvents interface [Microsoft Broadband Networks], IMbnSignalEvents interface [Microsoft Broadband Networks],described, mbn.imbnsignalevents, mbnapi/IMbnSignalEvents
 ms.topic: interface
-f1_keywords: ["mbnapi/IMbnSignalEvents"]
+f1_keywords: 
+ - "mbnapi/IMbnSignalEvents"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SetOption method, IDvdControl2.SetOption, IDvdControl2::SetOption, IDvdControl2SetOption, SetOption, SetOption method [DirectShow], SetOption method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_setoption, strmif/IDvdControl2::SetOption
 ms.topic: method
-f1_keywords: ["strmif/IDvdControl2.SetOption"]
+f1_keywords: 
+ - "strmif/IDvdControl2.SetOption"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

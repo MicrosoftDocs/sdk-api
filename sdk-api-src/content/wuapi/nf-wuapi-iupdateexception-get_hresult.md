@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HResult property [Windows Update Agent], HResult property [Windows Update Agent],IUpdateException interface, IUpdateException interface [Windows Update Agent],HResult property, IUpdateException.HResult, IUpdateException.get_HResult, IUpdateException::HResult, IUpdateException::get_HResult, get_HResult, wua.iupdateexception_hresult, wuapi/IUpdateException::HResult, wuapi/IUpdateException::get_HResult
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateException.HResult"]
+f1_keywords: 
+ - "wuapi/IUpdateException.HResult"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

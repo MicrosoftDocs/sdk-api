@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddAutomationEvent, AddAutomationEvent method [Windows Accessibility], AddAutomationEvent method [Windows Accessibility],IProxyProviderWinEventSink interface, IProxyProviderWinEventSink interface [Windows Accessibility],AddAutomationEvent method, IProxyProviderWinEventSink.AddAutomationEvent, IProxyProviderWinEventSink::AddAutomationEvent, uiauto.uiauto_IProxyProviderWinEventSink_AddAutomationEvent, uiauto_IProxyProviderWinEventSink_AddAutomationEvent, uiautomationcore/IProxyProviderWinEventSink::AddAutomationEvent, winauto.uiauto_IProxyProviderWinEventSink_AddAutomationEvent
 ms.topic: method
-f1_keywords: ["uiautomationcore/IProxyProviderWinEventSink.AddAutomationEvent"]
+f1_keywords: 
+ - "uiautomationcore/IProxyProviderWinEventSink.AddAutomationEvent"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

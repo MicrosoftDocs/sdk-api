@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMAPPING_PROPERTY_BAG, MAPPING_PROPERTY_BAG, MAPPING_PROPERTY_BAG structure [Internationalization for Windows Applications], PMAPPING_PROPERTY_BAG, PMAPPING_PROPERTY_BAG structure pointer [Internationalization for Windows Applications], elscore/MAPPING_PROPERTY_BAG, elscore/PMAPPING_PROPERTY_BAG, intl.mappingpropertybag"
 ms.topic: struct
-f1_keywords: ["elscore/MAPPING_PROPERTY_BAG"]
+f1_keywords: 
+ - "elscore/MAPPING_PROPERTY_BAG"
 req.header: elscore.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 039d8009-5e5a-4503-9908-7317bc2bf412, GetObject, GetObject method [Media Foundation], GetObject method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetObject method, IMFTopologyNode.GetObject, IMFTopologyNode::GetObject, mf.imftopologynode_getobject, mfidl/IMFTopologyNode::GetObject
 ms.topic: method
-f1_keywords: ["mfidl/IMFTopologyNode.GetObject"]
+f1_keywords: 
+ - "mfidl/IMFTopologyNode.GetObject"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

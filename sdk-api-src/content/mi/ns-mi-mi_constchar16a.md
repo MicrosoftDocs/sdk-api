@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_ConstChar16A, MI_ConstChar16A structure [Windows Management Infrastructure (MI)], mi/MI_ConstChar16A, wmi._mi_constchar16a, wmi_v2.mi_constchar16a
 ms.topic: struct
-f1_keywords: ["mi/MI_ConstChar16A"]
+f1_keywords: 
+ - "mi/MI_ConstChar16A"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

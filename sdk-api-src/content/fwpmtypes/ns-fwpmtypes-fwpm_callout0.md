@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPM_CALLOUT0, FWPM_CALLOUT0 structure [Filtering], FWPM_CALLOUT_FLAG_PERSISTENT, FWPM_CALLOUT_FLAG_REGISTERED, FWPM_CALLOUT_FLAG_USES_PROVIDER_CONTEXT, fwp.fwpm_callout0_struct, fwpmtypes/FWPM_CALLOUT0
 ms.topic: struct
-f1_keywords: ["fwpmtypes/FWPM_CALLOUT0"]
+f1_keywords: 
+ - "fwpmtypes/FWPM_CALLOUT0"
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

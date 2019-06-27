@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUserInput, GetUserInput method [Picture Acquisition], GetUserInput method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],GetUserInput method, IPhotoAcquireProgressCB.GetUserInput, IPhotoAcquireProgressCB::GetUserInput, IPhotoAcquireProgressCBGetUserInput, photoacquire/IPhotoAcquireProgressCB::GetUserInput, picacq.iphotoacquireprogresscb_getuserinput
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoAcquireProgressCB.GetUserInput"]
+f1_keywords: 
+ - "photoacquire/IPhotoAcquireProgressCB.GetUserInput"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

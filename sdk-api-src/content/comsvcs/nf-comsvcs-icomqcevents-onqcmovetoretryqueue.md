@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComQCEvents interface [COM+],OnQCMoveToReTryQueue method, IComQCEvents.OnQCMoveToReTryQueue, IComQCEvents::OnQCMoveToReTryQueue, OnQCMoveToReTryQueue, OnQCMoveToReTryQueue method [COM+], OnQCMoveToReTryQueue method [COM+],IComQCEvents interface, _dtc_IComQCEvents_OnQCMoveToReTryQueue, comsvcs/IComQCEvents::OnQCMoveToReTryQueue, cos.icomqcevents_onqcmovetoretryqueue
 ms.topic: method
-f1_keywords: ["comsvcs/IComQCEvents.OnQCMoveToReTryQueue"]
+f1_keywords: 
+ - "comsvcs/IComQCEvents.OnQCMoveToReTryQueue"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ATM_BLLI, ATM_BLLI structure [Winsock], _win32_atm_blli_2, winsock.atm_blli_2, ws2atm/ATM_BLLI
 ms.topic: struct
-f1_keywords: ["ws2atm/ATM_BLLI"]
+f1_keywords: 
+ - "ws2atm/ATM_BLLI"
 req.header: ws2atm.h
 req.include-header: 
 req.target-type: Windows

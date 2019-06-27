@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BindResourceAsUnorderedAccessViewByName, BindResourceAsUnorderedAccessViewByName method [Direct3D 11], BindResourceAsUnorderedAccessViewByName method [Direct3D 11],ID3D11ModuleInstance interface, ID3D11ModuleInstance interface [Direct3D 11],BindResourceAsUnorderedAccessViewByName method, ID3D11ModuleInstance.BindResourceAsUnorderedAccessViewByName, ID3D11ModuleInstance::BindResourceAsUnorderedAccessViewByName, d3d11shader/ID3D11ModuleInstance::BindResourceAsUnorderedAccessViewByName, direct3d11.id3d11moduleinstance_bindresourceasunorderedaccessviewbyname
 ms.topic: method
-f1_keywords: ["d3d11shader/ID3D11ModuleInstance.BindResourceAsUnorderedAccessViewByName"]
+f1_keywords: 
+ - "d3d11shader/ID3D11ModuleInstance.BindResourceAsUnorderedAccessViewByName"
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

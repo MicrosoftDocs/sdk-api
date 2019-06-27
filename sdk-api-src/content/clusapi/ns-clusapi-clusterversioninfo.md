@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCLUSTERVERSIONINFO, *PCLUSTERVERSIONINFO, CLUSTERVERSIONINFO, CLUSTERVERSIONINFO structure [Failover Cluster], LPCLUSTERVERSIONINFO, LPCLUSTERVERSIONINFO structure pointer [Failover Cluster], PCLUSTERVERSIONINFO, PCLUSTERVERSIONINFO structure pointer [Failover Cluster], _wolf_clusterversioninfo, clusapi/CLUSTERVERSIONINFO, clusapi/LPCLUSTERVERSIONINFO, clusapi/PCLUSTERVERSIONINFO, mscs.clusterversioninfo"
 ms.topic: struct
-f1_keywords: ["clusapi/CLUSTERVERSIONINFO"]
+f1_keywords: 
+ - "clusapi/CLUSTERVERSIONINFO"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromFileTime, InitVariantFromFileTime function [Windows Properties], _shell_InitVariantFromFileTime, properties.InitVariantFromFileTime, propvarutil/InitVariantFromFileTime, shell.InitVariantFromFileTime
 ms.topic: function
-f1_keywords: ["propvarutil/InitVariantFromFileTime"]
+f1_keywords: 
+ - "propvarutil/InitVariantFromFileTime"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

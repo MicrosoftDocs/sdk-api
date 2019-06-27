@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDeviceService, GetDeviceService method [Microsoft Broadband Networks], GetDeviceService method [Microsoft Broadband Networks],IMbnDeviceServicesContext interface, IMbnDeviceServicesContext interface [Microsoft Broadband Networks],GetDeviceService method, IMbnDeviceServicesContext.GetDeviceService, IMbnDeviceServicesContext::GetDeviceService, mbn.imbndeviceservicescontext_getdeviceservice, mbnapi/IMbnDeviceServicesContext::GetDeviceService
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnDeviceServicesContext.GetDeviceService"]
+f1_keywords: 
+ - "mbnapi/IMbnDeviceServicesContext.GetDeviceService"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

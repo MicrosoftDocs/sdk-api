@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPLINELOCATIONENTRY, LINELOCATIONENTRY, LINELOCATIONENTRY structure [TAPI 2.2], LPLINELOCATIONENTRY, LPLINELOCATIONENTRY structure pointer [TAPI 2.2], _tapi2_linelocationentry_str, tapi/LINELOCATIONENTRY, tapi/LPLINELOCATIONENTRY, tapi2.linelocationentry_str"
 ms.topic: struct
-f1_keywords: ["tapi/LINELOCATIONENTRY"]
+f1_keywords: 
+ - "tapi/LINELOCATIONENTRY"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

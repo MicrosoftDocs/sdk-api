@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Application_NewDestinationOptions, MI_Application_NewDestinationOptions function [Windows Management Infrastructure (MI)], mi/MI_Application_NewDestinationOptions, wmi_v2.mi_application_newdestinationoptions
 ms.topic: function
-f1_keywords: ["mi/MI_Application_NewDestinationOptions"]
+f1_keywords: 
+ - "mi/MI_Application_NewDestinationOptions"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

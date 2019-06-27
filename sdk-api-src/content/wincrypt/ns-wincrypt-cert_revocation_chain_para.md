@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_REVOCATION_CHAIN_PARA, CERT_CHAIN_REVOCATION_CHECK_OCSP_CERT, CERT_REVOCATION_CHAIN_PARA, CERT_REVOCATION_CHAIN_PARA structure [Security], PCERT_REVOCATION_CHAIN_PARA, PCERT_REVOCATION_CHAIN_PARA structure pointer [Security], security.cert_revocation_chain_para, wincrypt/CERT_REVOCATION_CHAIN_PARA, wincrypt/PCERT_REVOCATION_CHAIN_PARA"
 ms.topic: struct
-f1_keywords: ["wincrypt/CERT_REVOCATION_CHAIN_PARA"]
+f1_keywords: 
+ - "wincrypt/CERT_REVOCATION_CHAIN_PARA"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

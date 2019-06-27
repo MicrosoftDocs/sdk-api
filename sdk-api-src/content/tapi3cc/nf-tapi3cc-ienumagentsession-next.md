@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumAgentSession interface [TAPI 2.2],Next method, IEnumAgentSession.Next, IEnumAgentSession::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumAgentSession interface, _tapi3_ienumagentsession_next, tapi3.ienumagentsession_next, tapi3cc/IEnumAgentSession::Next
 ms.topic: method
-f1_keywords: ["tapi3cc/IEnumAgentSession.Next"]
+f1_keywords: 
+ - "tapi3cc/IEnumAgentSession.Next"
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

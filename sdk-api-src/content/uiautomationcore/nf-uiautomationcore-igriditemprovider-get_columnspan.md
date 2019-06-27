@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ColumnSpan property [Windows Accessibility], ColumnSpan property [Windows Accessibility],IGridItemProvider interface, IGridItemProvider interface [Windows Accessibility],ColumnSpan property, IGridItemProvider.ColumnSpan, IGridItemProvider.get_ColumnSpan, IGridItemProvider::ColumnSpan, IGridItemProvider::get_ColumnSpan, get_ColumnSpan, uiauto.uiauto_IGridItemProvider_ColumnSpan, uiauto_IGridItemProvider_ColumnSpan, uiautomationcore/IGridItemProvider::ColumnSpan, uiautomationcore/IGridItemProvider::get_ColumnSpan, winauto.uiauto_IGridItemProvider_ColumnSpan
 ms.topic: method
-f1_keywords: ["uiautomationcore/IGridItemProvider.ColumnSpan"]
+f1_keywords: 
+ - "uiautomationcore/IGridItemProvider.ColumnSpan"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

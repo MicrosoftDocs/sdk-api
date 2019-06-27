@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumerateSyncProviders, EnumerateSyncProviders method [Windows Sync], EnumerateSyncProviders method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],EnumerateSyncProviders method, ISyncProviderRegistration.EnumerateSyncProviders, ISyncProviderRegistration::EnumerateSyncProviders, syncregistration/ISyncProviderRegistration::EnumerateSyncProviders, winsync.isyncproviderregistration_enumeratesyncproviders
 ms.topic: method
-f1_keywords: ["syncregistration/ISyncProviderRegistration.EnumerateSyncProviders"]
+f1_keywords: 
+ - "syncregistration/ISyncProviderRegistration.EnumerateSyncProviders"
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

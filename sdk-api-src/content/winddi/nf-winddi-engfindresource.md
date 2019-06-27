@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngFindResource, EngFindResource function [Display Devices], display.engfindresource, gdifncs_93a3a136-5dfb-4c3c-afbc-4a1c475ae0c6.xml, winddi/EngFindResource
 ms.topic: function
-f1_keywords: ["winddi/EngFindResource"]
+f1_keywords: 
+ - "winddi/EngFindResource"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

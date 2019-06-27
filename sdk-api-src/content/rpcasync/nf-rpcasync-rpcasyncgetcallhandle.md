@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcAsyncGetCallHandle, RpcAsyncGetCallHandle macro [RPC], _rpc_rpcasyncgetcallhandle, rpc.rpcasyncgetcallhandle, rpcasync/RpcAsyncGetCallHandle
 ms.topic: macro
-f1_keywords: ["rpcasync/RpcAsyncGetCallHandle"]
+f1_keywords: 
+ - "rpcasync/RpcAsyncGetCallHandle"
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

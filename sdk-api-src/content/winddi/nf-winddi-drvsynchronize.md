@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvSynchronize, DrvSynchronize function [Display Devices], ddifncs_dadafaae-d13a-4a52-b179-a8b14a835a24.xml, display.drvsynchronize, winddi/DrvSynchronize
 ms.topic: function
-f1_keywords: ["winddi/DrvSynchronize"]
+f1_keywords: 
+ - "winddi/DrvSynchronize"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

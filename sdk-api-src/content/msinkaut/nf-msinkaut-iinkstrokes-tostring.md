@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 702ec977-2d87-4d52-916e-423f1df03829, IInkStrokes interface [Tablet PC],ToString method, IInkStrokes.ToString, IInkStrokes::ToString, ToString, ToString method [Tablet PC], ToString method [Tablet PC],IInkStrokes interface, msinkaut/IInkStrokes::ToString, tablet.inkstrokes_tostring
 ms.topic: method
-f1_keywords: ["msinkaut/IInkStrokes.ToString"]
+f1_keywords: 
+ - "msinkaut/IInkStrokes.ToString"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

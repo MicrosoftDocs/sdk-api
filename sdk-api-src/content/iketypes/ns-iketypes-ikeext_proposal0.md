@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_PROPOSAL0, IKEEXT_PROPOSAL0 structure [Filtering], fwp.ikeext_proposal0, iketypes/IKEEXT_PROPOSAL0
 ms.topic: struct
-f1_keywords: ["iketypes/IKEEXT_PROPOSAL0"]
+f1_keywords: 
+ - "iketypes/IKEEXT_PROPOSAL0"
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

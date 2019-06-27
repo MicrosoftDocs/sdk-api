@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],put_AutoVolumeControl method, ITAutomatedPhoneControl.put_AutoVolumeControl, ITAutomatedPhoneControl::put_AutoVolumeControl, _tapi3_itautomatedphonecontrol_put_autovolumecontrol, put_AutoVolumeControl, put_AutoVolumeControl method [TAPI 2.2], put_AutoVolumeControl method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_put_autovolumecontrol, tapi3if/ITAutomatedPhoneControl::put_AutoVolumeControl
 ms.topic: method
-f1_keywords: ["tapi3if/ITAutomatedPhoneControl.put_AutoVolumeControl"]
+f1_keywords: 
+ - "tapi3if/ITAutomatedPhoneControl.put_AutoVolumeControl"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

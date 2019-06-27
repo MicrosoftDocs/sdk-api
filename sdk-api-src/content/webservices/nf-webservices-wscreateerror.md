@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsCreateError, WsCreateError function [Web Services for Windows], webservices/WsCreateError, wsw.wscreateerror
 ms.topic: function
-f1_keywords: ["webservices/WsCreateError"]
+f1_keywords: 
+ - "webservices/WsCreateError"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

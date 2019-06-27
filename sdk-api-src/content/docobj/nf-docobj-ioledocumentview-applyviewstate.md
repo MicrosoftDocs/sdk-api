@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ApplyViewState, ApplyViewState method [COM], ApplyViewState method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],ApplyViewState method, IOleDocumentView.ApplyViewState, IOleDocumentView::ApplyViewState, _ole_ioledocumentview_applyviewstate, com.ioledocumentview_applyviewstate, docobj/IOleDocumentView::ApplyViewState
 ms.topic: method
-f1_keywords: ["docobj/IOleDocumentView.ApplyViewState"]
+f1_keywords: 
+ - "docobj/IOleDocumentView.ApplyViewState"
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

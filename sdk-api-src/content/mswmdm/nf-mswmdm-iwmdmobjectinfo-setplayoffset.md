@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDMObjectInfo interface [windows Media Device Manager],SetPlayOffset method, IWMDMObjectInfo.SetPlayOffset, IWMDMObjectInfo::SetPlayOffset, IWMDMObjectInfoSetPlayOffset, SetPlayOffset, SetPlayOffset method [windows Media Device Manager], SetPlayOffset method [windows Media Device Manager],IWMDMObjectInfo interface, mswmdm/IWMDMObjectInfo::SetPlayOffset, wmdm.iwmdmobjectinfo_setplayoffset
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMObjectInfo.SetPlayOffset"]
+f1_keywords: 
+ - "mswmdm/IWMDMObjectInfo.SetPlayOffset"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

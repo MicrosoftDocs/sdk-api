@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssAdmin interface [VSS],QueryProviders method, IVssAdmin.QueryProviders, IVssAdmin::QueryProviders, QueryProviders, QueryProviders method [VSS], QueryProviders method [VSS],IVssAdmin interface, base.ivssadmin_queryproviders, vsadmin/IVssAdmin::QueryProviders
 ms.topic: method
-f1_keywords: ["vsadmin/IVssAdmin.QueryProviders"]
+f1_keywords: 
+ - "vsadmin/IVssAdmin.QueryProviders"
 req.header: vsadmin.h
 req.include-header: 
 req.target-type: Windows

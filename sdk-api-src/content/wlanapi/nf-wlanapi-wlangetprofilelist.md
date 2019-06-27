@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanGetProfileList, WlanGetProfileList function [NativeWIFI], nwifi.wlangetprofilelist, wlanapi/WlanGetProfileList
 ms.topic: function
-f1_keywords: ["wlanapi/WlanGetProfileList"]
+f1_keywords: 
+ - "wlanapi/WlanGetProfileList"
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

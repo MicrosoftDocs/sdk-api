@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method, GetState method,ISensor interface, ISensor interface,GetState method, ISensor.GetState, ISensor::GetState, sensorsapi/ISensor::GetState, winsensors_com_ref.isensor_getstate
 ms.topic: method
-f1_keywords: ["sensorsapi/ISensor.GetState"]
+f1_keywords: 
+ - "sensorsapi/ISensor.GetState"
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextFormat, IDWriteTextFormat interface [Direct Write], IDWriteTextFormat interface [Direct Write],described, directwrite.IDWriteTextFormat, dwrite/IDWriteTextFormat
 ms.topic: interface
-f1_keywords: ["dwrite/IDWriteTextFormat"]
+f1_keywords: 
+ - "dwrite/IDWriteTextFormat"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

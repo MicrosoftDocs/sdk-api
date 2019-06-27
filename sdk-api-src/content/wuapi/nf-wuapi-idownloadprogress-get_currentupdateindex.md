@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentUpdateIndex property [Windows Update Agent], CurrentUpdateIndex property [Windows Update Agent],IDownloadProgress interface, IDownloadProgress interface [Windows Update Agent],CurrentUpdateIndex property, IDownloadProgress.CurrentUpdateIndex, IDownloadProgress.get_CurrentUpdateIndex, IDownloadProgress::CurrentUpdateIndex, IDownloadProgress::get_CurrentUpdateIndex, get_CurrentUpdateIndex, wua.idownloadprogress_currentupdateindex, wuapi/IDownloadProgress::CurrentUpdateIndex, wuapi/IDownloadProgress::get_CurrentUpdateIndex
 ms.topic: method
-f1_keywords: ["wuapi/IDownloadProgress.CurrentUpdateIndex"]
+f1_keywords: 
+ - "wuapi/IDownloadProgress.CurrentUpdateIndex"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

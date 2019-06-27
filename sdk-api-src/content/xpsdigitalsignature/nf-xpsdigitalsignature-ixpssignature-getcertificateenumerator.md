@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCertificateEnumerator, GetCertificateEnumerator method [XPS Documents and Packaging], GetCertificateEnumerator method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetCertificateEnumerator method, IXpsSignature.GetCertificateEnumerator, IXpsSignature::GetCertificateEnumerator, xps.ixpssignature_getcertificateenumerator, xpsdigitalsignature/IXpsSignature::GetCertificateEnumerator
 ms.topic: method
-f1_keywords: ["xpsdigitalsignature/IXpsSignature.GetCertificateEnumerator"]
+f1_keywords: 
+ - "xpsdigitalsignature/IXpsSignature.GetCertificateEnumerator"
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

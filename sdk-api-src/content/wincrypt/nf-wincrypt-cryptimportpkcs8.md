@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_EXPORTABLE, CRYPT_USER_PROTECTED, CryptImportPKCS8, CryptImportPKCS8 function [Security], security.cryptimportpkcs8, wincrypt/CryptImportPKCS8
 ms.topic: function
-f1_keywords: ["wincrypt/CryptImportPKCS8"]
+f1_keywords: 
+ - "wincrypt/CryptImportPKCS8"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

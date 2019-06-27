@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSHELLDETAILS, LPSHELLDETAILS, LPSHELLDETAILS structure pointer [Windows Shell], LVCFMT_CENTER, LVCFMT_COL_HAS_IMAGES, LVCFMT_LEFT, LVCFMT_RIGHT, SHELLDETAILS, SHELLDETAILS structure [Windows Shell], The alignment of the leftmost column is always left-justified and cannot be changed., _win32_SHELLDETAILS_str, shell.SHELLDETAILS_str, shtypes/LPSHELLDETAILS, shtypes/SHELLDETAILS"
 ms.topic: struct
-f1_keywords: ["shtypes/SHELLDETAILS"]
+f1_keywords: 
+ - "shtypes/SHELLDETAILS"
 req.header: shtypes.h
 req.include-header: 
 req.target-type: Windows

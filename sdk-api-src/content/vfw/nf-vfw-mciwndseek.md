@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndSeek, MCIWndSeek macro [Windows Multimedia], _win32_MCIWndSeek, multimedia.mciwndseek, vfw/MCIWndSeek
 ms.topic: macro
-f1_keywords: ["vfw/MCIWndSeek"]
+f1_keywords: 
+ - "vfw/MCIWndSeek"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

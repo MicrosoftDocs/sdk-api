@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IQualProp interface [DirectShow],get_AvgFrameRate method, IQualProp.get_AvgFrameRate, IQualProp::get_AvgFrameRate, IQualPropget_AvgFrameRate, amvideo/IQualProp::get_AvgFrameRate, dshow.iqualprop_get_avgframerate, get_AvgFrameRate, get_AvgFrameRate method [DirectShow], get_AvgFrameRate method [DirectShow],IQualProp interface
 ms.topic: method
-f1_keywords: ["amvideo/IQualProp.get_AvgFrameRate"]
+f1_keywords: 
+ - "amvideo/IQualProp.get_AvgFrameRate"
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAcHuffmanTable, GetAcHuffmanTable method [Windows Imaging Component], GetAcHuffmanTable method [Windows Imaging Component],IWICJpegFrameEncode interface, IWICJpegFrameEncode interface [Windows Imaging Component],GetAcHuffmanTable method, IWICJpegFrameEncode.GetAcHuffmanTable, IWICJpegFrameEncode::GetAcHuffmanTable, wic.iwicjpegframeencode_getachuffmantable, wincodec/IWICJpegFrameEncode::GetAcHuffmanTable
 ms.topic: method
-f1_keywords: ["wincodec/IWICJpegFrameEncode.GetAcHuffmanTable"]
+f1_keywords: 
+ - "wincodec/IWICJpegFrameEncode.GetAcHuffmanTable"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

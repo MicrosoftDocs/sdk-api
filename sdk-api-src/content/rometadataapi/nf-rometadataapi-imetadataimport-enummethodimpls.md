@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumMethodImpls, EnumMethodImpls method [Windows Runtime], EnumMethodImpls method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumMethodImpls method, IMetaDataImport.EnumMethodImpls, IMetaDataImport::EnumMethodImpls, rometadataapi/IMetaDataImport::EnumMethodImpls, winrt.imetadataimport_enummethodimpls
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataImport.EnumMethodImpls"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataImport.EnumMethodImpls"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

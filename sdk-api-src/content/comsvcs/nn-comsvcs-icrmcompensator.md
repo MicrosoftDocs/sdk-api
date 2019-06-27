@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICrmCompensator, ICrmCompensator interface [COM+], ICrmCompensator interface [COM+],described, _dtc_ICrmCompensator_Interface, comsvcs/ICrmCompensator, cos.icrmcompensator
 ms.topic: interface
-f1_keywords: ["comsvcs/ICrmCompensator"]
+f1_keywords: 
+ - "comsvcs/ICrmCompensator"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

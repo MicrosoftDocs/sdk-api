@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CD3D11_RECT, CD3D11_RECT structure [Direct3D 11], d3d11/CD3D11_RECT, direct3d11.cd3d11_rect
 ms.topic: struct
-f1_keywords: ["d3d11/CD3D11_RECT"]
+f1_keywords: 
+ - "d3d11/CD3D11_RECT"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

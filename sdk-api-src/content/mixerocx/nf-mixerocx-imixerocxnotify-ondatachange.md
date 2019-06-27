@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMixerOCXNotify interface [DirectShow],OnDataChange method, IMixerOCXNotify.OnDataChange, IMixerOCXNotify::OnDataChange, IMixerOCXNotifyOnDataChange, OnDataChange, OnDataChange method [DirectShow], OnDataChange method [DirectShow],IMixerOCXNotify interface, dshow.imixerocxnotify_ondatachange, mixerocx/IMixerOCXNotify::OnDataChange
 ms.topic: method
-f1_keywords: ["mixerocx/IMixerOCXNotify.OnDataChange"]
+f1_keywords: 
+ - "mixerocx/IMixerOCXNotify.OnDataChange"
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMarshalingStream, IMarshalingStream interface [COM], IMarshalingStream interface [COM],described, com.imarshalingstream, objidl/IMarshalingStream
 ms.topic: interface
-f1_keywords: ["objidlbase/IMarshalingStream"]
+f1_keywords: 
+ - "objidlbase/IMarshalingStream"
 req.header: objidlbase.h
 req.include-header: Objidlbase.h
 req.target-type: Windows

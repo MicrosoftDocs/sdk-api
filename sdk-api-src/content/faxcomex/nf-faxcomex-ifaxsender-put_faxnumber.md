@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxNumber property [Fax Service], FaxNumber property [Fax Service],IFaxSender interface, IFaxSender interface [Fax Service],FaxNumber property, IFaxSender.FaxNumber, IFaxSender.get_FaxNumber, IFaxSender.put_FaxNumber, IFaxSender::FaxNumber, IFaxSender::get_FaxNumber, IFaxSender::put_FaxNumber, _mfax_faxsender.faxnumber, fax._mfax_faxsender_cpp_mfax_faxsender_faxnumber_cpp, fax._mfax_faxsender_faxnumber, faxcomex/IFaxSender::FaxNumber, faxcomex/IFaxSender::get_FaxNumber, faxcomex/IFaxSender::put_FaxNumber, put_FaxNumber
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxSender.FaxNumber"]
+f1_keywords: 
+ - "faxcomex/IFaxSender.FaxNumber"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

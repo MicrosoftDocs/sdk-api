@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineHold, TSPI_lineHold function [TAPI 2.2], _tspi_tspi_linehold, tspi.tspi_linehold, tspi/TSPI_lineHold
 ms.topic: function
-f1_keywords: ["tspi/TSPI_lineHold"]
+f1_keywords: 
+ - "tspi/TSPI_lineHold"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

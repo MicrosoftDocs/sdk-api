@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VTBIT_CY, VTBIT_DECIMAL, VTBIT_I1, VTBIT_I2, VTBIT_I4, VTBIT_R4, VTBIT_R8, VTBIT_UI1, VTBIT_UI2, VTBIT_UI4, VarNumFromParseNum, VarNumFromParseNum function [Automation], _oa96_VarNumFromParseNum, automat.varnumfromparsenum, oleauto/VarNumFromParseNum
 ms.topic: function
-f1_keywords: ["oleauto/VarNumFromParseNum"]
+f1_keywords: 
+ - "oleauto/VarNumFromParseNum"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

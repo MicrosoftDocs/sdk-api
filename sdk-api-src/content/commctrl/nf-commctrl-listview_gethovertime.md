@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_GetHoverTime, ListView_GetHoverTime macro [Windows Controls], _win32_ListView_GetHoverTime, _win32_ListView_GetHoverTime_cpp, commctrl/ListView_GetHoverTime, controls.ListView_GetHoverTime, controls._win32_ListView_GetHoverTime
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_GetHoverTime"]
+f1_keywords: 
+ - "commctrl/ListView_GetHoverTime"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

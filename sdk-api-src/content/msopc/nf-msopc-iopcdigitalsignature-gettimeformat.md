@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTimeFormat, GetTimeFormat method [Open Packaging Conventions], GetTimeFormat method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetTimeFormat method, IOpcDigitalSignature.GetTimeFormat, IOpcDigitalSignature::GetTimeFormat, msopc/IOpcDigitalSignature::GetTimeFormat, opc.iopcdigitalsignature_gettimeformat
 ms.topic: method
-f1_keywords: ["msopc/IOpcDigitalSignature.GetTimeFormat"]
+f1_keywords: 
+ - "msopc/IOpcDigitalSignature.GetTimeFormat"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionGaussianBlurEffect, IDCompositionGaussianBlurEffect interface [DirectComposition], IDCompositionGaussianBlurEffect interface [DirectComposition],described, dcomp/IDCompositionGaussianBlurEffect, directcomp.idcompositiongaussianblureffect
 ms.topic: interface
-f1_keywords: ["dcomp/IDCompositionGaussianBlurEffect"]
+f1_keywords: 
+ - "dcomp/IDCompositionGaussianBlurEffect"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

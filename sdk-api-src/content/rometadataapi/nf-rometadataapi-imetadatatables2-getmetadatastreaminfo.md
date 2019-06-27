@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMetaDataStreamInfo, GetMetaDataStreamInfo method [Windows Runtime], GetMetaDataStreamInfo method [Windows Runtime],IMetaDataTables2 interface, IMetaDataTables2 interface [Windows Runtime],GetMetaDataStreamInfo method, IMetaDataTables2.GetMetaDataStreamInfo, IMetaDataTables2::GetMetaDataStreamInfo, rometadataapi/IMetaDataTables2::GetMetaDataStreamInfo, winrt.imetadatatables2_getmetadatastreaminfo
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataTables2.GetMetaDataStreamInfo"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataTables2.GetMetaDataStreamInfo"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

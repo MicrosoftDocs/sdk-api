@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpOidCopy, SnmpOidCopy function [SNMP], _snmp_snmpoidcopy, snmp.snmpoidcopy, winsnmp/SnmpOidCopy
 ms.topic: function
-f1_keywords: ["winsnmp/SnmpOidCopy"]
+f1_keywords: 
+ - "winsnmp/SnmpOidCopy"
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

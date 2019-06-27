@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ESB_DISABLE_BOTH, ESB_DISABLE_DOWN, ESB_DISABLE_LEFT, ESB_DISABLE_LTUP, ESB_DISABLE_RIGHT, ESB_DISABLE_RTDN, ESB_DISABLE_UP, ESB_ENABLE_BOTH, EnableScrollBar, EnableScrollBar function [Windows Controls], SB_BOTH, SB_CTL, SB_HORZ, SB_VERT, _win32_EnableScrollBar, _win32_EnableScrollBar_cpp, controls.EnableScrollBar, controls._win32_EnableScrollBar, winuser/EnableScrollBar
 ms.topic: function
-f1_keywords: ["winuser/EnableScrollBar"]
+f1_keywords: 
+ - "winuser/EnableScrollBar"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

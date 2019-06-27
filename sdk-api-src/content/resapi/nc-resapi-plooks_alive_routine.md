@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LooksAlive, LooksAlive callback, LooksAlive callback function [Failover Cluster], PLOOKS_ALIVE_ROUTINE, PLOOKS_ALIVE_ROUTINE callback function [Failover Cluster], _wolf_looksalive, mscs.looksalive, resapi/LooksAlive, resapi/PLOOKS_ALIVE_ROUTINE
 ms.topic: callback
-f1_keywords: ["resapi/LooksAlive"]
+f1_keywords: 
+ - "resapi/LooksAlive"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OpenCluster, OpenCluster function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER, PCLUSAPI_OPEN_CLUSTER function [Failover Cluster], _wolf_opencluster, clusapi/OpenCluster, clusapi/PCLUSAPI_OPEN_CLUSTER, mscs.opencluster
 ms.topic: function
-f1_keywords: ["clusapi/OpenCluster"]
+f1_keywords: 
+ - "clusapi/OpenCluster"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IESEventServiceConfiguration interface [Microsoft TV Technologies],SetOwner method, IESEventServiceConfiguration.SetOwner, IESEventServiceConfiguration::SetOwner, SetOwner, SetOwner method [Microsoft TV Technologies], SetOwner method [Microsoft TV Technologies],IESEventServiceConfiguration interface, mstv.ieseventserviceconfiguration_setowner, tuner/IESEventServiceConfiguration::SetOwner
 ms.topic: method
-f1_keywords: ["tuner/IESEventServiceConfiguration.SetOwner"]
+f1_keywords: 
+ - "tuner/IESEventServiceConfiguration.SetOwner"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

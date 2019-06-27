@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetWorldTransform, SetWorldTransform function [Windows GDI], _win32_SetWorldTransform, gdi.setworldtransform, wingdi/SetWorldTransform
 ms.topic: function
-f1_keywords: ["wingdi/SetWorldTransform"]
+f1_keywords: 
+ - "wingdi/SetWorldTransform"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

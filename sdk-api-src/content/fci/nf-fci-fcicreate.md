@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FCICreate, FCICreate function [Windows API], fci/FCICreate, winprog.fcicreate
 ms.topic: function
-f1_keywords: ["fci/FCICreate"]
+f1_keywords: 
+ - "fci/FCICreate"
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

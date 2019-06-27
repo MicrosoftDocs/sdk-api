@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDeskBand2 interface [Windows Shell],SetCompositionState method, IDeskBand2.SetCompositionState, IDeskBand2::SetCompositionState, SetCompositionState, SetCompositionState method [Windows Shell], SetCompositionState method [Windows Shell],IDeskBand2 interface, _shell_IDeskBand2_SetCompositionState, shell.IDeskBand2_SetCompositionState, shobjidl/IDeskBand2::SetCompositionState
 ms.topic: method
-f1_keywords: ["shobjidl/IDeskBand2.SetCompositionState"]
+f1_keywords: 
+ - "shobjidl/IDeskBand2.SetCompositionState"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

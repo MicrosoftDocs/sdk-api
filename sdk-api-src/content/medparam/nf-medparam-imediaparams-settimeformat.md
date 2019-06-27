@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaParams interface [DirectShow],SetTimeFormat method, IMediaParams.SetTimeFormat, IMediaParams::SetTimeFormat, IMediaParamsSetTimeFormat, SetTimeFormat, SetTimeFormat method [DirectShow], SetTimeFormat method [DirectShow],IMediaParams interface, dshow.imediaparams_settimeformat, medparam/IMediaParams::SetTimeFormat
 ms.topic: method
-f1_keywords: ["medparam/IMediaParams.SetTimeFormat"]
+f1_keywords: 
+ - "medparam/IMediaParams.SetTimeFormat"
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows

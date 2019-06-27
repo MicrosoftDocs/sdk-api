@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSVirtualChannelPurgeOutput, WTSVirtualChannelPurgeOutput function [Remote Desktop Services], _win32_wtsvirtualchannelpurgeoutput, termserv.wtsvirtualchannelpurgeoutput, wtsapi32/WTSVirtualChannelPurgeOutput
 ms.topic: function
-f1_keywords: ["wtsapi32/WTSVirtualChannelPurgeOutput"]
+f1_keywords: 
+ - "wtsapi32/WTSVirtualChannelPurgeOutput"
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

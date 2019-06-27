@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetCharRep method, ITextFont2.SetCharRep, ITextFont2::SetCharRep, SetCharRep, SetCharRep method [Windows Controls], SetCharRep method [Windows Controls],ITextFont2 interface, controls.itextfont2_setcharrep, tom/ITextFont2::SetCharRep
 ms.topic: method
-f1_keywords: ["tom/ITextFont2.SetCharRep"]
+f1_keywords: 
+ - "tom/ITextFont2.SetCharRep"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

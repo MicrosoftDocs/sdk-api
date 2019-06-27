@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentClassName property [Windows Accessibility], CurrentClassName property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentClassName property, IUIAutomationElement.CurrentClassName, IUIAutomationElement.get_CurrentClassName, IUIAutomationElement::CurrentClassName, IUIAutomationElement::get_CurrentClassName, get_CurrentClassName, uiauto.uiauto_IUIAutomationElement_CurrentClassName, uiauto_IUIAutomationElement_CurrentClassName, uiautomationclient/IUIAutomationElement::CurrentClassName, uiautomationclient/IUIAutomationElement::get_CurrentClassName, winauto.uiauto_IUIAutomationElement_CurrentClassName
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationElement.CurrentClassName"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement.CurrentClassName"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

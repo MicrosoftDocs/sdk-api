@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpDeleteVb, SnmpDeleteVb function [SNMP], _snmp_snmpdeletevb, snmp.snmpdeletevb, winsnmp/SnmpDeleteVb
 ms.topic: function
-f1_keywords: ["winsnmp/SnmpDeleteVb"]
+f1_keywords: 
+ - "winsnmp/SnmpDeleteVb"
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

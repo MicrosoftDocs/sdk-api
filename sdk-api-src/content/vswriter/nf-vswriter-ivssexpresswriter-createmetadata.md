@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateMetadata, CreateMetadata method, CreateMetadata method,IVssExpressWriter interface, IVssExpressWriter interface,CreateMetadata method, IVssExpressWriter.CreateMetadata, IVssExpressWriter::CreateMetadata, base.ivssexpresswriter_createwritermetadata, vswriter/IVssExpressWriter::CreateMetadata
 ms.topic: method
-f1_keywords: ["vswriter/IVssExpressWriter.CreateMetadata"]
+f1_keywords: 
+ - "vswriter/IVssExpressWriter.CreateMetadata"
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows

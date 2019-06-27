@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDocumentTypeFromFile, GetDocumentTypeFromFile method [XPS Documents and Packaging], GetDocumentTypeFromFile method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],GetDocumentTypeFromFile method, IXpsOMObjectFactory1.GetDocumentTypeFromFile, IXpsOMObjectFactory1::GetDocumentTypeFromFile, xps.ixpsomobjectfactory1_getdocumenttypefromfile, xpsobjectmodel_1/IXpsOMObjectFactory1::GetDocumentTypeFromFile
 ms.topic: method
-f1_keywords: ["xpsobjectmodel_1/IXpsOMObjectFactory1.GetDocumentTypeFromFile"]
+f1_keywords: 
+ - "xpsobjectmodel_1/IXpsOMObjectFactory1.GetDocumentTypeFromFile"
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows

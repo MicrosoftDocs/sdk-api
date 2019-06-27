@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPrivateData, GetPrivateData method [Direct3D 9], GetPrivateData method [Direct3D 9],IDirect3DResource9 interface, IDirect3DResource9 interface [Direct3D 9],GetPrivateData method, IDirect3DResource9.GetPrivateData, IDirect3DResource9::GetPrivateData, a3ce4b5e-f58e-cf26-2ef5-896eaf4a5613, d3d9helper/IDirect3DResource9::GetPrivateData, direct3d9.idirect3dresource9__getprivatedata
 ms.topic: method
-f1_keywords: ["d3d9/IDirect3DResource9.GetPrivateData"]
+f1_keywords: 
+ - "d3d9/IDirect3DResource9.GetPrivateData"
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceWebControl, IPortableDeviceWebControl interface [WPD Automation], IPortableDeviceWebControl interface [WPD Automation],described, portabledeviceapi/IPortableDeviceWebControl, wpdauto.iportabledevicewebcontrol
 ms.topic: interface
-f1_keywords: ["portabledeviceapi/IPortableDeviceWebControl"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceWebControl"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawThemeParentBackground, DrawThemeParentBackground function [Windows Controls], controls.DrawThemeParentBackground, controls.inet_DrawThemeParentBackground, inet_DrawThemeParentBackground, inet_DrawThemeParentBackground_cpp, uxtheme/DrawThemeParentBackground
 ms.topic: function
-f1_keywords: ["uxtheme/DrawThemeParentBackground"]
+f1_keywords: 
+ - "uxtheme/DrawThemeParentBackground"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

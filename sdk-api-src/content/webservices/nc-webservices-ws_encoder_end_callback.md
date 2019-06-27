@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_ENCODER_END_CALLBACK, WS_ENCODER_END_CALLBACK callback, WS_ENCODER_END_CALLBACK callback function [Web Services for Windows], webservices/WS_ENCODER_END_CALLBACK, wsw.ws_encoder_end_callback
 ms.topic: callback
-f1_keywords: ["webservices/WS_ENCODER_END_CALLBACK"]
+f1_keywords: 
+ - "webservices/WS_ENCODER_END_CALLBACK"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

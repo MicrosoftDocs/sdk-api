@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RESOURCETYPE_DISK, WNetConnectionDialog, WNetConnectionDialog function [Windows Networking (WNet)], _win32_wnetconnectiondialog, winnetwk/WNetConnectionDialog, wnet.wnetconnectiondialog
 ms.topic: function
-f1_keywords: ["winnetwk/WNetConnectionDialog"]
+f1_keywords: 
+ - "winnetwk/WNetConnectionDialog"
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows

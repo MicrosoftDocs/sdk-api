@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystem interface [VDS],QueryControllers method, IVdsSubSystem.QueryControllers, IVdsSubSystem::QueryControllers, QueryControllers, QueryControllers method [VDS], QueryControllers method [VDS],IVdsSubSystem interface, base.ivdssubsystem_querycontrollers, vds/IVdsSubSystem::QueryControllers, vdshwprv/IVdsSubSystem::QueryControllers
 ms.topic: method
-f1_keywords: ["vds/IVdsSubSystem.QueryControllers"]
+f1_keywords: 
+ - "vds/IVdsSubSystem.QueryControllers"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

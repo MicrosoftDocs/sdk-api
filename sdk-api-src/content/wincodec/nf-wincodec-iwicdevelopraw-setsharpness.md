@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetSharpness method, IWICDevelopRaw.SetSharpness, IWICDevelopRaw::SetSharpness, SetSharpness, SetSharpness method [Windows Imaging Component], SetSharpness method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setsharpness, wic._wic_codec_iwicdevelopraw_setsharpness, wincodec/IWICDevelopRaw::SetSharpness
 ms.topic: method
-f1_keywords: ["wincodec/IWICDevelopRaw.SetSharpness"]
+f1_keywords: 
+ - "wincodec/IWICDevelopRaw.SetSharpness"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

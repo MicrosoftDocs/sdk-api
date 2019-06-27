@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFRegisterLocalSchemeHandler, MFRegisterLocalSchemeHandler function [Media Foundation], mf.mfregisterlocalschemehandler, mfapi/MFRegisterLocalSchemeHandler
 ms.topic: function
-f1_keywords: ["mfapi/MFRegisterLocalSchemeHandler"]
+f1_keywords: 
+ - "mfapi/MFRegisterLocalSchemeHandler"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

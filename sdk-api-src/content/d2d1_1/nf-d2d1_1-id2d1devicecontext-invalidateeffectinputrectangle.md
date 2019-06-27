@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1DeviceContext interface [Direct2D],InvalidateEffectInputRectangle method, ID2D1DeviceContext.InvalidateEffectInputRectangle, ID2D1DeviceContext::InvalidateEffectInputRectangle, InvalidateEffectInputRectangle, InvalidateEffectInputRectangle method [Direct2D], InvalidateEffectInputRectangle method [Direct2D],ID2D1DeviceContext interface, d2d1_1/ID2D1DeviceContext::InvalidateEffectInputRectangle, direct2d.id2d1devicecontext_invalidateeffectinputrectangle
 ms.topic: method
-f1_keywords: ["d2d1_1/ID2D1DeviceContext.InvalidateEffectInputRectangle"]
+f1_keywords: 
+ - "d2d1_1/ID2D1DeviceContext.InvalidateEffectInputRectangle"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

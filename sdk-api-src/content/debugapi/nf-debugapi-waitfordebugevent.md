@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WaitForDebugEvent, WaitForDebugEvent function, _win32_waitfordebugevent, base.waitfordebugevent, debugapi/WaitForDebugEvent
 ms.topic: function
-f1_keywords: ["debugapi/WaitForDebugEvent"]
+f1_keywords: 
+ - "debugapi/WaitForDebugEvent"
 req.header: debugapi.h
 req.include-header: Windows.h
 req.target-type: Windows

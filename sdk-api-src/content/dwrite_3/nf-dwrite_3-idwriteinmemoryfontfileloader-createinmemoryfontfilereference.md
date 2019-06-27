@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateInMemoryFontFileReference, CreateInMemoryFontFileReference method [Direct Write], CreateInMemoryFontFileReference method [Direct Write],IDWriteInMemoryFontFileLoader interface, IDWriteInMemoryFontFileLoader interface [Direct Write],CreateInMemoryFontFileReference method, IDWriteInMemoryFontFileLoader.CreateInMemoryFontFileReference, IDWriteInMemoryFontFileLoader::CreateInMemoryFontFileReference, directwrite.idwriteinmemoryfontfileloader_createinmemoryfontfilereference, dwrite_3/IDWriteInMemoryFontFileLoader::CreateInMemoryFontFileReference
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteInMemoryFontFileLoader.CreateInMemoryFontFileReference"]
+f1_keywords: 
+ - "dwrite_3/IDWriteInMemoryFontFileLoader.CreateInMemoryFontFileReference"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListBox_InsertItemData, ListBox_InsertItemData macro [Windows Controls], _win32_ListBox_InsertItemData, _win32_ListBox_InsertItemData_cpp, controls.ListBox_InsertItemData, controls._win32_ListBox_InsertItemData, windowsx/ListBox_InsertItemData
 ms.topic: macro
-f1_keywords: ["windowsx/ListBox_InsertItemData"]
+f1_keywords: 
+ - "windowsx/ListBox_InsertItemData"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

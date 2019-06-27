@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CryptExportPKCS8, CryptExportPKCS8 function [Security], security.cryptexportpkcs8, wincrypt/CryptExportPKCS8
 ms.topic: function
-f1_keywords: ["wincrypt/CryptExportPKCS8"]
+f1_keywords: 
+ - "wincrypt/CryptExportPKCS8"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseClipboard, CloseClipboard function [Data Exchange], _win32_CloseClipboard, _win32_closeclipboard_cpp, dataxchg.closeclipboard, winui._win32_closeclipboard, winuser/CloseClipboard
 ms.topic: function
-f1_keywords: ["winuser/CloseClipboard"]
+f1_keywords: 
+ - "winuser/CloseClipboard"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

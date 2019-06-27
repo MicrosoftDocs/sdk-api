@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSignatureReader, CreateSignatureReader method [Remote Differential Compression], CreateSignatureReader method [Remote Differential Compression],IRdcLibrary interface, IRdcLibrary interface [Remote Differential Compression],CreateSignatureReader method, IRdcLibrary.CreateSignatureReader, IRdcLibrary::CreateSignatureReader, fs.irdclibrary_createsignaturereader, msrdc/IRdcLibrary::CreateSignatureReader, rdc.irdclibrary_createsignaturereader
 ms.topic: method
-f1_keywords: ["msrdc/IRdcLibrary.CreateSignatureReader"]
+f1_keywords: 
+ - "msrdc/IRdcLibrary.CreateSignatureReader"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

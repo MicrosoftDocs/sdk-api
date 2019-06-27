@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Windows Animation], GetTag method [Windows Animation],IUIAnimationVariable interface, IUIAnimationVariable interface [Windows Animation],GetTag method, IUIAnimationVariable.GetTag, IUIAnimationVariable::GetTag, uianimation.iuianimationvariable_gettag, uianimation/IUIAnimationVariable::GetTag
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationVariable.GetTag"]
+f1_keywords: 
+ - "uianimation/IUIAnimationVariable.GetTag"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

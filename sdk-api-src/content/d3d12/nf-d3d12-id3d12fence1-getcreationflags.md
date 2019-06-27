@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCreationFlags, GetCreationFlags method, GetCreationFlags method,ID3D12fence1 interface, ID3D12Fence1.GetCreationFlags, ID3D12Fence1::GetCreationFlags, ID3D12fence1 interface,GetCreationFlags method, ID3D12fence1::GetCreationFlags, d3d12/ID3D12fence1::GetCreationFlags, direct3d12.id3d12fence1_getcreationflags
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12fence1.GetCreationFlags"]
+f1_keywords: 
+ - "d3d12/ID3D12fence1.GetCreationFlags"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

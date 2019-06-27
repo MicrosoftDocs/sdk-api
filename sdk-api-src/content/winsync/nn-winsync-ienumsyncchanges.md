@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncChanges, IEnumSyncChanges interface [Windows Sync], IEnumSyncChanges interface [Windows Sync],described, winsync.ienumsyncchanges, winsync/IEnumSyncChanges
 ms.topic: interface
-f1_keywords: ["winsync/IEnumSyncChanges"]
+f1_keywords: 
+ - "winsync/IEnumSyncChanges"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

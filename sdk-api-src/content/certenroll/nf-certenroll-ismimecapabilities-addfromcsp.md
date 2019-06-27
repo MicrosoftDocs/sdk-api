@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddFromCsp, AddFromCsp method [Security], AddFromCsp method [Security],ISmimeCapabilities interface, ISmimeCapabilities interface [Security],AddFromCsp method, ISmimeCapabilities.AddFromCsp, ISmimeCapabilities::AddFromCsp, certenroll/ISmimeCapabilities::AddFromCsp, security.ismimecapabilities_addfromcsp_method
 ms.topic: method
-f1_keywords: ["certenroll/ISmimeCapabilities.AddFromCsp"]
+f1_keywords: 
+ - "certenroll/ISmimeCapabilities.AddFromCsp"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

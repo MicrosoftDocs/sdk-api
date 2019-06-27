@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateColorTransformer, CreateColorTransformer method [Windows Imaging Component], CreateColorTransformer method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateColorTransformer method, IWICImagingFactory.CreateColorTransformer, IWICImagingFactory::CreateColorTransformer, _wic_codec_iwicimagingfactory_createcolortransformer, wic._wic_codec_iwicimagingfactory_createcolortransformer, wincodec/IWICImagingFactory::CreateColorTransformer
 ms.topic: method
-f1_keywords: ["wincodec/IWICImagingFactory.CreateColorTransformer"]
+f1_keywords: 
+ - "wincodec/IWICImagingFactory.CreateColorTransformer"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

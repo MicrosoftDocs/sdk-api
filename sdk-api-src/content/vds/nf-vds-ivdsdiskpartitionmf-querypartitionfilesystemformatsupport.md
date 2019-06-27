@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsDiskPartitionMF interface,QueryPartitionFileSystemFormatSupport method, IVdsDiskPartitionMF.QueryPartitionFileSystemFormatSupport, IVdsDiskPartitionMF::QueryPartitionFileSystemFormatSupport, QueryPartitionFileSystemFormatSupport, QueryPartitionFileSystemFormatSupport method, QueryPartitionFileSystemFormatSupport method,IVdsDiskPartitionMF interface, base.ivdsdiskpartitionmf_querypartitionfilesystemformatsupport, vds/IVdsDiskPartitionMF::QueryPartitionFileSystemFormatSupport
 ms.topic: method
-f1_keywords: ["vds/IVdsDiskPartitionMF.QueryPartitionFileSystemFormatSupport"]
+f1_keywords: 
+ - "vds/IVdsDiskPartitionMF.QueryPartitionFileSystemFormatSupport"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

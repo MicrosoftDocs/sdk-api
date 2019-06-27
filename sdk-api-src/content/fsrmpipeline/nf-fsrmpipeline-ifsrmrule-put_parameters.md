@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmRule interface [File Server Resource Manager],Parameters property, IFsrmRule.Parameters, IFsrmRule.put_Parameters, IFsrmRule::Parameters, IFsrmRule::get_Parameters, IFsrmRule::put_Parameters, Parameters property [File Server Resource Manager], Parameters property [File Server Resource Manager],IFsrmRule interface, fs.ifsrmrule_parameters, fsrm.ifsrmrule_parameters, fsrmpipeline/IFsrmRule::Parameters, fsrmpipeline/IFsrmRule::get_Parameters, fsrmpipeline/IFsrmRule::put_Parameters, put_Parameters
 ms.topic: method
-f1_keywords: ["fsrmpipeline/IFsrmRule.Parameters"]
+f1_keywords: 
+ - "fsrmpipeline/IFsrmRule.Parameters"
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

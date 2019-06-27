@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMultisession interface [IMAPI],get_InUse method, IMultisession.get_InUse, IMultisession::get_InUse, get_InUse, get_InUse method [IMAPI], get_InUse method [IMAPI],IMultisession interface, imapi.imultisession_get_inuse, imapi2/IMultisession::get_InUse
 ms.topic: method
-f1_keywords: ["imapi2/IMultisession.get_InUse"]
+f1_keywords: 
+ - "imapi2/IMultisession.get_InUse"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsWinEventHookInstalled, IsWinEventHookInstalled function [Windows Accessibility], _msaa_IsWinEventHookInstalled, msaa.iswineventhookinstalled, winauto.iswineventhookinstalled, winuser/IsWinEventHookInstalled
 ms.topic: function
-f1_keywords: ["winuser/IsWinEventHookInstalled"]
+f1_keywords: 
+ - "winuser/IsWinEventHookInstalled"
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

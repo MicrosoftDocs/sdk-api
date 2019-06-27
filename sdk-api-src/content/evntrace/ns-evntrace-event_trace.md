@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEVENT_TRACE, EVENT_TRACE, EVENT_TRACE structure [ETW], PEVENT_TRACE, PEVENT_TRACE structure pointer [ETW], _EVENT_TRACE, _evt_event_trace, base.event_trace, etw.event_trace, evntrace/EVENT_TRACE, evntrace/PEVENT_TRACE"
 ms.topic: struct
-f1_keywords: ["evntrace/EVENT_TRACE"]
+f1_keywords: 
+ - "evntrace/EVENT_TRACE"
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

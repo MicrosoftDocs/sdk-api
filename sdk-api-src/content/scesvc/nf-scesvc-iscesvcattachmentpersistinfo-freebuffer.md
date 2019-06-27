@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeBuffer, FreeBuffer method [Security], FreeBuffer method [Security],ISceSvcAttachmentPersistInfo interface, ISceSvcAttachmentPersistInfo interface [Security],FreeBuffer method, ISceSvcAttachmentPersistInfo.FreeBuffer, ISceSvcAttachmentPersistInfo::FreeBuffer, _config_iscesvcattachmentpersistinfo_freebuffer, scesvc/ISceSvcAttachmentPersistInfo::FreeBuffer, security.iscesvcattachmentpersistinfo_freebuffer
 ms.topic: method
-f1_keywords: ["scesvc/ISceSvcAttachmentPersistInfo.FreeBuffer"]
+f1_keywords: 
+ - "scesvc/ISceSvcAttachmentPersistInfo.FreeBuffer"
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows

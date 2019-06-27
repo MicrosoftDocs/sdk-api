@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrSimpleStructMarshall, NdrSimpleStructMarshall function [Windows API], rpcndr/NdrSimpleStructMarshall, winprog.ndrsimplestructmarshall
 ms.topic: function
-f1_keywords: ["rpcndr/NdrSimpleStructMarshall"]
+f1_keywords: 
+ - "rpcndr/NdrSimpleStructMarshall"
 req.header: rpcndr.h
 req.include-header: 
 req.target-type: Windows

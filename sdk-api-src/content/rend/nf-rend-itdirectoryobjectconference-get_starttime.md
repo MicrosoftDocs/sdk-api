@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_StartTime method, ITDirectoryObjectConference.get_StartTime, ITDirectoryObjectConference::get_StartTime, _tapi3_itdirectoryobjectconference_get_starttime, get_StartTime, get_StartTime method [TAPI 2.2], get_StartTime method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_StartTime, tapi3.itdirectoryobjectconference_get_starttime
 ms.topic: method
-f1_keywords: ["rend/ITDirectoryObjectConference.get_StartTime"]
+f1_keywords: 
+ - "rend/ITDirectoryObjectConference.get_StartTime"
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

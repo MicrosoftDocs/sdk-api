@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QOSAddSocketToFlow, QOSAddSocketToFlow function [QOS], QOS_NON_ADAPTIVE_FLOW, qos.qosaddsockettoflow, qos2/QOSAddSocketToFlow
 ms.topic: function
-f1_keywords: ["qos2/QOSAddSocketToFlow"]
+f1_keywords: 
+ - "qos2/QOSAddSocketToFlow"
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows

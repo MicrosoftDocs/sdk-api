@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDEVICE_DSM_INPUT, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_DSM_FLAG_RESILIENCY_START_LOAD_BALANCING, DEVICE_DSM_FLAG_RESILIENCY_START_RESYNC, DEVICE_DSM_FLAG_TRIM_NOT_FS_ALLOCATED, DEVICE_DSM_INPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure, DeviceDsmAction_Allocation, DeviceDsmAction_Notification, DeviceDsmAction_OffloadRead, DeviceDsmAction_OffloadWrite, DeviceDsmAction_Repair, DeviceDsmAction_Resiliency, DeviceDsmAction_Scrub, DeviceDsmAction_Trim, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES structure pointer, base.device_manage_data_set_attributes, winioctl/DEVICE_MANAGE_DATA_SET_ATTRIBUTES, winioctl/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES"
 ms.topic: struct
-f1_keywords: ["winioctl/DEVICE_MANAGE_DATA_SET_ATTRIBUTES"]
+f1_keywords: 
+ - "winioctl/DEVICE_MANAGE_DATA_SET_ATTRIBUTES"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

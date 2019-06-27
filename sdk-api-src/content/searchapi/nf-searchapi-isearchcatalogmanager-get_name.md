@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager interface [search],get_Name method, ISearchCatalogManager.get_Name, ISearchCatalogManager::get_Name, _search_ISearchCatalogManager_get_Name, get_Name, get_Name method [search], get_Name method [search],ISearchCatalogManager interface, search._search_ISearchCatalogManager_get_Name, searchapi/ISearchCatalogManager::get_Name
 ms.topic: method
-f1_keywords: ["searchapi/ISearchCatalogManager.get_Name"]
+f1_keywords: 
+ - "searchapi/ISearchCatalogManager.get_Name"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

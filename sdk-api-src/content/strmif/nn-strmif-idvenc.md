@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVEnc, IDVEnc interface [DirectShow], IDVEnc interface [DirectShow],described, IDVEncInterface, dshow.idvenc, strmif/IDVEnc
 ms.topic: interface
-f1_keywords: ["strmif/IDVEnc"]
+f1_keywords: 
+ - "strmif/IDVEnc"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

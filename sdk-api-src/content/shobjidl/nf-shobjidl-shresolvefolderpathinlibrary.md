@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHResolveFolderPathInLibrary, SHResolveFolderPathInLibrary function [Windows Shell], _shell_SHResolveFolderPathInLibrary, shell.SHResolveFolderPathInLibrary, shobjidl/SHResolveFolderPathInLibrary
 ms.topic: function
-f1_keywords: ["shobjidl/SHResolveFolderPathInLibrary"]
+f1_keywords: 
+ - "shobjidl/SHResolveFolderPathInLibrary"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

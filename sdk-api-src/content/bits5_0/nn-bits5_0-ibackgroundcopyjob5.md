@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob5, IBackgroundCopyJob5 interface [BITS], IBackgroundCopyJob5 interface [BITS],described, bits.bits5_functions, bits.ibackgroundcopyjob5, bits5_0/IBackgroundCopyJob5
 ms.topic: interface
-f1_keywords: ["bits5_0/IBackgroundCopyJob5"]
+f1_keywords: 
+ - "bits5_0/IBackgroundCopyJob5"
 req.header: bits5_0.h
 req.include-header: Bits.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDisplayAutoRotationPreferences, GetDisplayAutoRotationPreferences function, base.getdisplayautorotationpreferences, winuser/GetDisplayAutoRotationPreferences
 ms.topic: function
-f1_keywords: ["winuser/GetDisplayAutoRotationPreferences"]
+f1_keywords: 
+ - "winuser/GetDisplayAutoRotationPreferences"
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

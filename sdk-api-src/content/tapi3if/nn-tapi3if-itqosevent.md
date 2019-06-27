@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITQOSEvent, ITQOSEvent interface [TAPI 2.2], ITQOSEvent interface [TAPI 2.2],described, _tapi3_itqosevent, tapi3.itqosevent, tapi3if/ITQOSEvent
 ms.topic: interface
-f1_keywords: ["tapi3if/ITQOSEvent"]
+f1_keywords: 
+ - "tapi3if/ITQOSEvent"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

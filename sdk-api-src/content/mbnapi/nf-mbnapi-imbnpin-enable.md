@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method [Microsoft Broadband Networks], Enable method [Microsoft Broadband Networks],IMbnPin interface, IMbnPin interface [Microsoft Broadband Networks],Enable method, IMbnPin.Enable, IMbnPin::Enable, mbn.imbnpin_enable, mbnapi/IMbnPin::Enable
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnPin.Enable"]
+f1_keywords: 
+ - "mbnapi/IMbnPin.Enable"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

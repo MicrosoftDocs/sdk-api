@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0ed3a8f6-1ea1-44af-ac6e-8712fd59ae31, IMFRealTimeClient interface [Media Foundation],RegisterThreads method, IMFRealTimeClient.RegisterThreads, IMFRealTimeClient::RegisterThreads, RegisterThreads, RegisterThreads method [Media Foundation], RegisterThreads method [Media Foundation],IMFRealTimeClient interface, mf.imfrealtimeclient_registerthreads, mfidl/IMFRealTimeClient::RegisterThreads
 ms.topic: method
-f1_keywords: ["mfidl/IMFRealTimeClient.RegisterThreads"]
+f1_keywords: 
+ - "mfidl/IMFRealTimeClient.RegisterThreads"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnEventLoggingConfigChange method, IFaxServerNotify2.OnEventLoggingConfigChange, IFaxServerNotify2::OnEventLoggingConfigChange, OnEventLoggingConfigChange, OnEventLoggingConfigChange method [Fax Service], OnEventLoggingConfigChange method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnEventLoggingConfigChange, _IFaxServerNotify2::OnEventLoggingConfigChange, _mfax_ifaxservernotify2_oneventloggingconfigchange, fax._mfax_ifaxservernotify2_oneventloggingconfigchange, faxcomex/IFaxServerNotify2::OnEventLoggingConfigChange
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxServerNotify2.OnEventLoggingConfigChange"]
+f1_keywords: 
+ - "faxcomex/IFaxServerNotify2.OnEventLoggingConfigChange"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

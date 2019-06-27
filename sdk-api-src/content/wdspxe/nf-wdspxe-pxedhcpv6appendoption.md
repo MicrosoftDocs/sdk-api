@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PxeDhcpv6AppendOption, PxeDhcpv6AppendOption function [Windows Deployment Services], wds.pxedhcpv6appendoption, wdspxe/PxeDhcpv6AppendOption
 ms.topic: function
-f1_keywords: ["wdspxe/PxeDhcpv6AppendOption"]
+f1_keywords: 
+ - "wdspxe/PxeDhcpv6AppendOption"
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

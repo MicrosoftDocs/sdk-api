@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetXuid, GetXuid method, GetXuid method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetXuid method, IXblIdpAuthTokenResult.GetXuid, IXblIdpAuthTokenResult::GetXuid, xblidp.ixblidpauthtokenresult_getxuid, xblidpauthmanager/IXblIdpAuthTokenResult::GetXuid
 ms.topic: method
-f1_keywords: ["xblidpauthmanager/IXblIdpAuthTokenResult.GetXuid"]
+f1_keywords: 
+ - "xblidpauthmanager/IXblIdpAuthTokenResult.GetXuid"
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

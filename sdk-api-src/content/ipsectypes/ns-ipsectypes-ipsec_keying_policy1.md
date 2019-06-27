@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPSEC_KEYING_POLICY1, IPSEC_KEYING_POLICY1 structure [Filtering], IPSEC_KEYING_POLICY_FLAG_TERMINATING_MATCH, fwp.ipsec_keying_policy1, ipsectypes/IPSEC_KEYING_POLICY1
 ms.topic: struct
-f1_keywords: ["ipsectypes/IPSEC_KEYING_POLICY1"]
+f1_keywords: 
+ - "ipsectypes/IPSEC_KEYING_POLICY1"
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

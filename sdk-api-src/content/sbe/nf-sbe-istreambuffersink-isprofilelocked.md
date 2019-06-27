@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferSink interface [Microsoft TV Technologies],IsProfileLocked method, IStreamBufferSink.IsProfileLocked, IStreamBufferSink::IsProfileLocked, IStreamBufferSinkIsProfileLocked, IsProfileLocked, IsProfileLocked method [Microsoft TV Technologies], IsProfileLocked method [Microsoft TV Technologies],IStreamBufferSink interface, mstv.istreambuffersink_isprofilelocked, sbe/IStreamBufferSink::IsProfileLocked
 ms.topic: method
-f1_keywords: ["sbe/IStreamBufferSink.IsProfileLocked"]
+f1_keywords: 
+ - "sbe/IStreamBufferSink.IsProfileLocked"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

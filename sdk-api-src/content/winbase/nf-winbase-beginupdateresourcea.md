@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginUpdateResource, BeginUpdateResource function [Menus and Other Resources], BeginUpdateResourceA, BeginUpdateResourceW, _win32_BeginUpdateResource, _win32_beginupdateresource_cpp, menurc.beginupdateresource, winbase/BeginUpdateResource, winbase/BeginUpdateResourceA, winbase/BeginUpdateResourceW, winui._win32_beginupdateresource
 ms.topic: function
-f1_keywords: ["winbase/BeginUpdateResource"]
+f1_keywords: 
+ - "winbase/BeginUpdateResource"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

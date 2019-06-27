@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PrjCompleteCommand, PrjCompleteCommand function, ProjFS.prjcompletecommand, projectedfslib/PrjCompleteCommand
 ms.topic: function
-f1_keywords: ["projectedfslib/PrjCompleteCommand"]
+f1_keywords: 
+ - "projectedfslib/PrjCompleteCommand"
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

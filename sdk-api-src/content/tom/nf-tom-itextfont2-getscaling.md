@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetScaling, GetScaling method [Windows Controls], GetScaling method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetScaling method, ITextFont2.GetScaling, ITextFont2::GetScaling, controls.itextfont2_getscaling, tom/ITextFont2::GetScaling
 ms.topic: method
-f1_keywords: ["tom/ITextFont2.GetScaling"]
+f1_keywords: 
+ - "tom/ITextFont2.GetScaling"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

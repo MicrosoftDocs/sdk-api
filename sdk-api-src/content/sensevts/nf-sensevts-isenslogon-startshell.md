@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISensLogon interface [SENS],StartShell method, ISensLogon.StartShell, ISensLogon::StartShell, StartShell, StartShell method [SENS], StartShell method [SENS],ISensLogon interface, _zaw_isenslogon_startshell, sens.isenslogon_startshell, sensevts/ISensLogon::StartShell, syncmgr.isenslogon_startshell
 ms.topic: method
-f1_keywords: ["sensevts/ISensLogon.StartShell"]
+f1_keywords: 
+ - "sensevts/ISensLogon.StartShell"
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows

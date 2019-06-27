@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NPGetPropertyText, NPGetPropertyText function [Security], WNPS_DIR, WNPS_FILE, WNPS_MULT, _mnp_npgetpropertytext, npapi/NPGetPropertyText, security.npgetpropertytext
 ms.topic: function
-f1_keywords: ["npapi/NPGetPropertyText"]
+f1_keywords: 
+ - "npapi/NPGetPropertyText"
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

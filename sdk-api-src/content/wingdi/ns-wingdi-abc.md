@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPABC, *NPABC, *PABC, ABC, ABC structure [Windows GDI], PABC, PABC structure pointer [Windows GDI], _win32_ABC_str, gdi.abc, wingdi/ABC, wingdi/PABC"
 ms.topic: struct
-f1_keywords: ["wingdi/ABC"]
+f1_keywords: 
+ - "wingdi/ABC"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

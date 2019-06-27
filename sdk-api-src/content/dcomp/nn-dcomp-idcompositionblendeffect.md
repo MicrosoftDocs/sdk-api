@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionBlendEffect, IDCompositionBlendEffect interface [DirectComposition], IDCompositionBlendEffect interface [DirectComposition],described, dcomp/IDCompositionBlendEffect, directcomp.idcompositionblendeffect
 ms.topic: interface
-f1_keywords: ["dcomp/IDCompositionBlendEffect"]
+f1_keywords: 
+ - "dcomp/IDCompositionBlendEffect"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

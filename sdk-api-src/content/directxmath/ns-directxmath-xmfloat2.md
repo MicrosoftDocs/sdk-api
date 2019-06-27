@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT2, XMFLOAT2 structure [DirectX Math Support APIs], directxmath/XMFLOAT2, dxmath.xmfloat2
 ms.topic: struct
-f1_keywords: ["directxmath/XMFLOAT2"]
+f1_keywords: 
+ - "directxmath/XMFLOAT2"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

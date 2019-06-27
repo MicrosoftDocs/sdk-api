@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginFlush, BeginFlush method [DirectShow], BeginFlush method [DirectShow],IPin interface, IPin interface [DirectShow],BeginFlush method, IPin.BeginFlush, IPin::BeginFlush, IPinBeginFlush, dshow.ipin_beginflush, strmif/IPin::BeginFlush
 ms.topic: method
-f1_keywords: ["strmif/IPin.BeginFlush"]
+f1_keywords: 
+ - "strmif/IPin.BeginFlush"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngComputeGlyphSet, EngComputeGlyphSet function [Display Devices], display.engcomputeglyphset, gdifncs_ba8356d5-4114-436c-9268-774b8e0918df.xml, winddi/EngComputeGlyphSet
 ms.topic: function
-f1_keywords: ["winddi/EngComputeGlyphSet"]
+f1_keywords: 
+ - "winddi/EngComputeGlyphSet"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

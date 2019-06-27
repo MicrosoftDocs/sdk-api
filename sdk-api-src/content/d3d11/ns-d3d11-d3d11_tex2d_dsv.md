@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 3ffa1de6-be1c-8657-b069-f9b2e05cbbe8, D3D11_TEX2D_DSV, D3D11_TEX2D_DSV structure [Direct3D 11], d3d11/D3D11_TEX2D_DSV, direct3d11.d3d11_tex2d_dsv
 ms.topic: struct
-f1_keywords: ["d3d11/D3D11_TEX2D_DSV"]
+f1_keywords: 
+ - "d3d11/D3D11_TEX2D_DSV"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

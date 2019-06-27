@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INPUT_TRANSFORM, INPUT_TRANSFORM structure [Windows and Messages], _INPUT_TRANSFORM, inputmsg.input_transform, winuser/INPUT_TRANSFORM
 ms.topic: struct
-f1_keywords: ["winuser/INPUT_TRANSFORM"]
+f1_keywords: 
+ - "winuser/INPUT_TRANSFORM"
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

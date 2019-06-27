@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnroll2 interface [Security],SetHStoreRequest method, IEnroll2.SetHStoreRequest, IEnroll2::SetHStoreRequest, SetHStoreRequest, SetHStoreRequest method [Security], SetHStoreRequest method [Security],IEnroll2 interface, security.ienroll4_sethstorerequest, xenroll/IEnroll2::SetHStoreRequest
 ms.topic: method
-f1_keywords: ["xenroll/IEnroll2.SetHStoreRequest"]
+f1_keywords: 
+ - "xenroll/IEnroll2.SetHStoreRequest"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

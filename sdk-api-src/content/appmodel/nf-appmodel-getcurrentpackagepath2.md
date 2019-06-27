@@ -6,7 +6,8 @@ tech.root: appxpkg
 ms.date: 01/31/19
 ms.keywords: GetCurrentPackagePath2
 ms.topic: function
-f1_keywords: ["appmodel/GetCurrentPackagePath2"]
+f1_keywords: 
+ - "appmodel/GetCurrentPackagePath2"
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

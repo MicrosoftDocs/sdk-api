@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumStreamIdMap interface [DirectShow],Reset method, IEnumStreamIdMap.Reset, IEnumStreamIdMap::Reset, IEnumStreamIdMapReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumStreamIdMap interface, dshow.ienumstreamidmap_reset, strmif/IEnumStreamIdMap::Reset
 ms.topic: method
-f1_keywords: ["strmif/IEnumStreamIdMap.Reset"]
+f1_keywords: 
+ - "strmif/IEnumStreamIdMap.Reset"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

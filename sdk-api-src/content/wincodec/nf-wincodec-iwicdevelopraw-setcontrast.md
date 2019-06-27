@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetContrast method, IWICDevelopRaw.SetContrast, IWICDevelopRaw::SetContrast, SetContrast, SetContrast method [Windows Imaging Component], SetContrast method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setcontrast, wic._wic_codec_iwicdevelopraw_setcontrast, wincodec/IWICDevelopRaw::SetContrast
 ms.topic: method
-f1_keywords: ["wincodec/IWICDevelopRaw.SetContrast"]
+f1_keywords: 
+ - "wincodec/IWICDevelopRaw.SetContrast"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

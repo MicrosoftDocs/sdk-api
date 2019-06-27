@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaSample2Config, IMediaSample2Config interface [DirectShow], IMediaSample2Config interface [DirectShow],described, IMediaSample2ConfigInterface, dshow.imediasample2config, strmif/IMediaSample2Config
 ms.topic: interface
-f1_keywords: ["strmif/IMediaSample2Config"]
+f1_keywords: 
+ - "strmif/IMediaSample2Config"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

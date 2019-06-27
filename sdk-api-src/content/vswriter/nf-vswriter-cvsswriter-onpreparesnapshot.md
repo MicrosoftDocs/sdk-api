@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],OnPrepareSnapshot method, CVssWriter.OnPrepareSnapshot, CVssWriter::OnPrepareSnapshot, OnPrepareSnapshot, OnPrepareSnapshot method [VSS], OnPrepareSnapshot method [VSS],CVssWriter interface, _win32_cvsswriter_onpreparesnapshot, base.cvsswriter_onpreparesnapshot, vswriter/CVssWriter::OnPrepareSnapshot
 ms.topic: method
-f1_keywords: ["vswriter/CVssWriter.OnPrepareSnapshot"]
+f1_keywords: 
+ - "vswriter/CVssWriter.OnPrepareSnapshot"
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

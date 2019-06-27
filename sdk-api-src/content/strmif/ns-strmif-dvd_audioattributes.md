@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DVD_AudioAttributes, DVD_AudioAttributes structure [DirectShow], DVD_AudioAttributesStructure, dshow.dvd_audioattributes, strmif/DVD_AudioAttributes
 ms.topic: struct
-f1_keywords: ["strmif/DVD_AudioAttributes"]
+f1_keywords: 
+ - "strmif/DVD_AudioAttributes"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

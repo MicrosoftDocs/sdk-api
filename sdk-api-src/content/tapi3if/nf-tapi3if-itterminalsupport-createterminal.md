@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTerminal, CreateTerminal method [TAPI 2.2], CreateTerminal method [TAPI 2.2],ITTerminalSupport interface, ITTerminalSupport interface [TAPI 2.2],CreateTerminal method, ITTerminalSupport.CreateTerminal, ITTerminalSupport::CreateTerminal, _tapi3_itterminalsupport_createterminal, tapi3.itterminalsupport_createterminal, tapi3if/ITTerminalSupport::CreateTerminal
 ms.topic: method
-f1_keywords: ["tapi3if/ITTerminalSupport.CreateTerminal"]
+f1_keywords: 
+ - "tapi3if/ITTerminalSupport.CreateTerminal"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

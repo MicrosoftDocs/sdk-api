@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ACL_REVISION, ACL_REVISION_DS, AddMandatoryAce, AddMandatoryAce function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, SYSTEM_MANDATORY_LABEL_NO_EXECUTE_UP, SYSTEM_MANDATORY_LABEL_NO_READ_UP, SYSTEM_MANDATORY_LABEL_NO_WRITE_UP, security.addmandatoryace, securitybaseapi/AddMandatoryAce, winbase/AddMandatoryAce
 ms.topic: function
-f1_keywords: ["securitybaseapi/AddMandatoryAce"]
+f1_keywords: 
+ - "securitybaseapi/AddMandatoryAce"
 req.header: securitybaseapi.h
 req.include-header: WinBase.h
 req.target-type: Windows

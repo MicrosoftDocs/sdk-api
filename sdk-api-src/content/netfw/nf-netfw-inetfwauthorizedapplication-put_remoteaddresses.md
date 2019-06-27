@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwAuthorizedApplication interface [ICS/ICF],RemoteAddresses property, INetFwAuthorizedApplication.RemoteAddresses, INetFwAuthorizedApplication.put_RemoteAddresses, INetFwAuthorizedApplication::RemoteAddresses, INetFwAuthorizedApplication::get_RemoteAddresses, INetFwAuthorizedApplication::put_RemoteAddresses, RemoteAddresses property [ICS/ICF], RemoteAddresses property [ICS/ICF],INetFwAuthorizedApplication interface, ics.inetfwauthorizedapplication_remoteaddresses, netfw/INetFwAuthorizedApplication::RemoteAddresses, netfw/INetFwAuthorizedApplication::get_RemoteAddresses, netfw/INetFwAuthorizedApplication::put_RemoteAddresses, put_RemoteAddresses
 ms.topic: method
-f1_keywords: ["netfw/INetFwAuthorizedApplication.RemoteAddresses"]
+f1_keywords: 
+ - "netfw/INetFwAuthorizedApplication.RemoteAddresses"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

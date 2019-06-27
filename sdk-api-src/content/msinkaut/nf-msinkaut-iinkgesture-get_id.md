@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID property [Tablet PC], ID property [Tablet PC],IInkGesture interface, IInkGesture interface [Tablet PC],ID property, IInkGesture.ID, IInkGesture.get_Id, IInkGesture::ID, IInkGesture::get_ID, IInkGesture::get_Id, get_Id, msinkaut/IInkGesture::ID, msinkaut/IInkGesture::get_ID, tablet.iinkgesture_id
 ms.topic: method
-f1_keywords: ["msinkaut/IInkGesture.ID"]
+f1_keywords: 
+ - "msinkaut/IInkGesture.ID"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

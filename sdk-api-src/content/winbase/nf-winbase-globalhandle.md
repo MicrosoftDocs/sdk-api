@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GlobalHandle, GlobalHandle function, _win32_globalhandle, base.globalhandle, winbase/GlobalHandle
 ms.topic: function
-f1_keywords: ["winbase/GlobalHandle"]
+f1_keywords: 
+ - "winbase/GlobalHandle"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

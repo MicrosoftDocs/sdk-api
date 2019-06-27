@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MoveToNtmsMediaPool, MoveToNtmsMediaPool function [Files], _zaw_movetontmsmediapool, base.movetontmsmediapool, fs.movetontmsmediapool, ntmsapi/MoveToNtmsMediaPool
 ms.topic: function
-f1_keywords: ["ntmsapi/MoveToNtmsMediaPool"]
+f1_keywords: 
+ - "ntmsapi/MoveToNtmsMediaPool"
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

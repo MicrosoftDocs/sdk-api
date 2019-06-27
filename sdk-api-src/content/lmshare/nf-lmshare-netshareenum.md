@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, 502, 503, NetShareEnum, NetShareEnum function [Files], _win32_netshareenum, fs.netshareenum, lmshare/NetShareEnum, netmgmt.netshareenum
 ms.topic: function
-f1_keywords: ["lmshare/NetShareEnum"]
+f1_keywords: 
+ - "lmshare/NetShareEnum"
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

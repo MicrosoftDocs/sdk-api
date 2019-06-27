@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMDocumentCollection interface, IXpsOMDocumentCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMDocumentCollection.GetAt, IXpsOMDocumentCollection::GetAt, xps.ixpsomdocumentcollection_getat, xpsobjectmodel/IXpsOMDocumentCollection::GetAt
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMDocumentCollection.GetAt"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMDocumentCollection.GetAt"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

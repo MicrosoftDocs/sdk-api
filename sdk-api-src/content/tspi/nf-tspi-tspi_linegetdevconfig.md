@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGetDevConfig, TSPI_lineGetDevConfig function [TAPI 2.2], _tspi_tspi_linegetdevconfig, tspi.tspi_linegetdevconfig, tspi/TSPI_lineGetDevConfig
 ms.topic: function
-f1_keywords: ["tspi/TSPI_lineGetDevConfig"]
+f1_keywords: 
+ - "tspi/TSPI_lineGetDevConfig"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

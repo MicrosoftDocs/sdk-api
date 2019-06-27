@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IValueProvider interface [Windows Accessibility],SetValue method, IValueProvider.SetValue, IValueProvider::SetValue, SetValue, SetValue method [Windows Accessibility], SetValue method [Windows Accessibility],IValueProvider interface, uiauto.uiauto_IValueProvider_SetValue, uiauto_IValueProvider_SetValue, uiautomationcore/IValueProvider::SetValue, winauto.uiauto_IValueProvider_SetValue
 ms.topic: method
-f1_keywords: ["uiautomationcore/IValueProvider.SetValue"]
+f1_keywords: 
+ - "uiautomationcore/IValueProvider.SetValue"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

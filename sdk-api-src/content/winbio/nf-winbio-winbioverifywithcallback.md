@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinBioVerifyWithCallback, WinBioVerifyWithCallback function [Windows Biometric Framework API], secbiomet.winbioverifywithcallback, winbio/WinBioVerifyWithCallback
 ms.topic: function
-f1_keywords: ["winbio/WinBioVerifyWithCallback"]
+f1_keywords: 
+ - "winbio/WinBioVerifyWithCallback"
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

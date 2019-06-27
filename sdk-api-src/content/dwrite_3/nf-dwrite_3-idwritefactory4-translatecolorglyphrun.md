@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteFactory4 interface [Direct Write],TranslateColorGlyphRun method, IDWriteFactory4.TranslateColorGlyphRun, IDWriteFactory4::TranslateColorGlyphRun, TranslateColorGlyphRun, TranslateColorGlyphRun method [Direct Write], TranslateColorGlyphRun method [Direct Write],IDWriteFactory4 interface, directwrite.idwritefactory4_translatecolorglyphrun, dwrite_3/IDWriteFactory4::TranslateColorGlyphRun
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteFactory4.TranslateColorGlyphRun"]
+f1_keywords: 
+ - "dwrite_3/IDWriteFactory4.TranslateColorGlyphRun"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

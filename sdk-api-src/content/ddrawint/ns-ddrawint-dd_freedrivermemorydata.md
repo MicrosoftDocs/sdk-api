@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_FREEDRIVERMEMORYDATA, DD_FREEDRIVERMEMORYDATA, DD_FREEDRIVERMEMORYDATA structure [Display Devices], ddrawint/DD_FREEDRIVERMEMORYDATA, ddstrcts_a2d4a52f-25d5-4e02-8165-27ceadbddb36.xml, display.dd_freedrivermemorydata"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_FREEDRIVERMEMORYDATA"]
+f1_keywords: 
+ - "ddrawint/DD_FREEDRIVERMEMORYDATA"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICrmCompensator interface [COM+],PrepareRecord method, ICrmCompensator.PrepareRecord, ICrmCompensator::PrepareRecord, PrepareRecord, PrepareRecord method [COM+], PrepareRecord method [COM+],ICrmCompensator interface, _dtc_ICrmCompensator_PrepareRecord, comsvcs/ICrmCompensator::PrepareRecord, cos.icrmcompensator_preparerecord
 ms.topic: method
-f1_keywords: ["comsvcs/ICrmCompensator.PrepareRecord"]
+f1_keywords: 
+ - "comsvcs/ICrmCompensator.PrepareRecord"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

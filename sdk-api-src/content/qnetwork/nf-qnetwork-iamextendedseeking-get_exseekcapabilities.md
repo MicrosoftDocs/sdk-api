@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMExtendedSeeking interface [DirectShow],get_ExSeekCapabilities method, IAMExtendedSeeking.get_ExSeekCapabilities, IAMExtendedSeeking::get_ExSeekCapabilities, IAMExtendedSeekingget_ExSeekCapabilities, dshow.iamextendedseeking_get_exseekcapabilities, get_ExSeekCapabilities, get_ExSeekCapabilities method [DirectShow], get_ExSeekCapabilities method [DirectShow],IAMExtendedSeeking interface, qnetwork/IAMExtendedSeeking::get_ExSeekCapabilities
 ms.topic: method
-f1_keywords: ["qnetwork/IAMExtendedSeeking.get_ExSeekCapabilities"]
+f1_keywords: 
+ - "qnetwork/IAMExtendedSeeking.get_ExSeekCapabilities"
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHRegQueryUSValue, SHRegQueryUSValue function [Windows Shell], SHRegQueryUSValueA, SHRegQueryUSValueW, _win32_SHRegQueryUSValue, shell.SHRegQueryUSValue, shlwapi/SHRegQueryUSValue, shlwapi/SHRegQueryUSValueA, shlwapi/SHRegQueryUSValueW
 ms.topic: function
-f1_keywords: ["shlwapi/SHRegQueryUSValue"]
+f1_keywords: 
+ - "shlwapi/SHRegQueryUSValue"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

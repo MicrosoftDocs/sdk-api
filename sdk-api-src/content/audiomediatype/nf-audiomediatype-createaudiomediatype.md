@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateAudioMediaType, CreateAudioMediaType function [Audio Devices], audio.createaudiomediatype, audio_syseffects_r_3b76e8f4-37c5-479e-91d7-6620c2e2b9db.xml, audiomediatype/CreateAudioMediaType
 ms.topic: function
-f1_keywords: ["audiomediatype/CreateAudioMediaType"]
+f1_keywords: 
+ - "audiomediatype/CreateAudioMediaType"
 req.header: audiomediatype.h
 req.include-header: Audiomediatype.h
 req.target-type: Desktop

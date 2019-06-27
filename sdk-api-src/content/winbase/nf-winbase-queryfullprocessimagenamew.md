@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROCESS_NAME_NATIVE, QueryFullProcessImageName, QueryFullProcessImageName function, QueryFullProcessImageNameA, QueryFullProcessImageNameW, base.queryfullprocessimagename, winbase/QueryFullProcessImageName, winbase/QueryFullProcessImageNameA, winbase/QueryFullProcessImageNameW
 ms.topic: function
-f1_keywords: ["winbase/QueryFullProcessImageName"]
+f1_keywords: 
+ - "winbase/QueryFullProcessImageName"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

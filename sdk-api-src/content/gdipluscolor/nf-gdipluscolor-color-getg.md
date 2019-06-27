@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Color class [GDI+],GetG method, Color.GetG, Color::GetG, GetG, GetG method [GDI+], GetG method [GDI+],Color class, _gdiplus_CLASS_Color_GetG_, gdiplus._gdiplus_CLASS_Color_GetG_
 ms.topic: method
-f1_keywords: ["gdipluscolor/Color.GetG"]
+f1_keywords: 
+ - "gdipluscolor/Color.GetG"
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

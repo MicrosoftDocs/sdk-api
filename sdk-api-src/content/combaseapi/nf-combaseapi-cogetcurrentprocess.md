@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoGetCurrentProcess, CoGetCurrentProcess function [COM], _com_CoGetCurrentProcess, com.cogetcurrentprocess, combaseapi/CoGetCurrentProcess
 ms.topic: function
-f1_keywords: ["combaseapi/CoGetCurrentProcess"]
+f1_keywords: 
+ - "combaseapi/CoGetCurrentProcess"
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

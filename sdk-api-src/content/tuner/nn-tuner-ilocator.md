@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILocator, ILocator interface [Microsoft TV Technologies], ILocator interface [Microsoft TV Technologies],described, ILocatorInterface, mstv.ilocator, tuner/ILocator
 ms.topic: interface
-f1_keywords: ["tuner/ILocator"]
+f1_keywords: 
+ - "tuner/ILocator"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

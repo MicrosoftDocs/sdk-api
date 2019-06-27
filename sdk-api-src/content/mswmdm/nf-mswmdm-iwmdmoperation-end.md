@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: End, End method [windows Media Device Manager], End method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],End method, IWMDMOperation.End, IWMDMOperation::End, IWMDMOperationEnd, mswmdm/IWMDMOperation::End, wmdm.iwmdmoperation_end
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMOperation.End"]
+f1_keywords: 
+ - "mswmdm/IWMDMOperation.End"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

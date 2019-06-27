@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AUTHNEXTSTEP, AUTHNEXTSTEP enumeration [WebDAV], CancelRequest, DefaultBehavior, RetryRequest, davclnt/AUTHNEXTSTEP, davclnt/CancelRequest, davclnt/DefaultBehavior, davclnt/RetryRequest, webdav.authnextstep
 ms.topic: enum
-f1_keywords: ["davclnt/AUTHNEXTSTEP"]
+f1_keywords: 
+ - "davclnt/AUTHNEXTSTEP"
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows

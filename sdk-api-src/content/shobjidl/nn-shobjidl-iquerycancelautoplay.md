@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IQueryCancelAutoPlay, IQueryCancelAutoPlay interface [Windows Shell], IQueryCancelAutoPlay interface [Windows Shell],described, _shell_IQueryCancelAutoPlay, shell.IQueryCancelAutoPlay, shobjidl/IQueryCancelAutoPlay
 ms.topic: interface
-f1_keywords: ["shobjidl/IQueryCancelAutoPlay"]
+f1_keywords: 
+ - "shobjidl/IQueryCancelAutoPlay"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

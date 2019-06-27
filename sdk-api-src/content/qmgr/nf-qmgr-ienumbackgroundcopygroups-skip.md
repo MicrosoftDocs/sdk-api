@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumBackgroundCopyGroups interface [BITS],Skip method, IEnumBackgroundCopyGroups.Skip, IEnumBackgroundCopyGroups::Skip, Skip, Skip method [BITS], Skip method [BITS],IEnumBackgroundCopyGroups interface, bits.ienumbackgroundcopygroups_skip, qmgr/IEnumBackgroundCopyGroups::Skip
 ms.topic: method
-f1_keywords: ["qmgr/IEnumBackgroundCopyGroups.Skip"]
+f1_keywords: 
+ - "qmgr/IEnumBackgroundCopyGroups.Skip"
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCLUSPROP_PARTITION_INFO, CLUSPROP_PARTITION_INFO, CLUSPROP_PARTITION_INFO structure [Failover Cluster], PCLUSPROP_PARTITION_INFO, PCLUSPROP_PARTITION_INFO structure pointer [Failover Cluster], _wolf_clusprop_partition_info, clusapi/CLUSPROP_PARTITION_INFO, clusapi/PCLUSPROP_PARTITION_INFO, mscs.clusprop_partition_info"
 ms.topic: struct
-f1_keywords: ["clusapi/CLUSPROP_PARTITION_INFO"]
+f1_keywords: 
+ - "clusapi/CLUSPROP_PARTITION_INFO"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

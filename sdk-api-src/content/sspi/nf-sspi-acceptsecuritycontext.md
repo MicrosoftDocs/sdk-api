@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ASC_REQ_ALLOCATE_MEMORY, ASC_REQ_CONNECTION, ASC_REQ_DELEGATE, ASC_REQ_EXTENDED_ERROR, ASC_REQ_REPLAY_DETECT, ASC_REQ_SEQUENCE_DETECT, ASC_REQ_STREAM, AcceptSecurityContext, AcceptSecurityContext (CredSSP), AcceptSecurityContext function [Security], security.acceptsecuritycontext__credssp_, sspi/AcceptSecurityContext
 ms.topic: function
-f1_keywords: ["sspi/AcceptSecurityContext"]
+f1_keywords: 
+ - "sspi/AcceptSecurityContext"
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

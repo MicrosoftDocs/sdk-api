@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPackageId, GetPackageId method [App packaging and management], GetPackageId method [App packaging and management],IAppxBundleManifestOptionalBundleInfo interface, IAppxBundleManifestOptionalBundleInfo interface [App packaging and management],GetPackageId method, IAppxBundleManifestOptionalBundleInfo.GetPackageId, IAppxBundleManifestOptionalBundleInfo::GetPackageId, appxpackaging/IAppxBundleManifestOptionalBundleInfo::GetPackageId, appxpkg.iappxbundlemanifestoptionalbundleinfo_getpackageid
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxBundleManifestOptionalBundleInfo.GetPackageId"]
+f1_keywords: 
+ - "appxpackaging/IAppxBundleManifestOptionalBundleInfo.GetPackageId"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

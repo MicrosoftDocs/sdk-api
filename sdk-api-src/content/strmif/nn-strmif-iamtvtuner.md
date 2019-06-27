@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMTVTuner, IAMTVTuner interface [DirectShow], IAMTVTuner interface [DirectShow],described, IAMTVTunerInterface, dshow.iamtvtuner, strmif/IAMTVTuner
 ms.topic: interface
-f1_keywords: ["strmif/IAMTVTuner"]
+f1_keywords: 
+ - "strmif/IAMTVTuner"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

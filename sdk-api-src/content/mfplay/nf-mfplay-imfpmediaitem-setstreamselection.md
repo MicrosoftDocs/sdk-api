@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FALSE, IMFPMediaItem interface [Media Foundation],SetStreamSelection method, IMFPMediaItem.SetStreamSelection, IMFPMediaItem::SetStreamSelection, SetStreamSelection, SetStreamSelection method [Media Foundation], SetStreamSelection method [Media Foundation],IMFPMediaItem interface, TRUE, mf.imfpmediaitem_setstreamselection, mfplay/IMFPMediaItem::SetStreamSelection
 ms.topic: method
-f1_keywords: ["mfplay/IMFPMediaItem.SetStreamSelection"]
+f1_keywords: 
+ - "mfplay/IMFPMediaItem.SetStreamSelection"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

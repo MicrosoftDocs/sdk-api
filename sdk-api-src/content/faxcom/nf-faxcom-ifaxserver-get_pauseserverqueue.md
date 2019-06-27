@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxServer interface [Fax Service],PauseServerQueue property, IFaxServer.PauseServerQueue, IFaxServer.get_PauseServerQueue, IFaxServer.put_PauseServerQueue, IFaxServer::PauseServerQueue, IFaxServer::get_PauseServerQueue, IFaxServer::put_PauseServerQueue, PauseServerQueue property [Fax Service], PauseServerQueue property [Fax Service],IFaxServer interface, _mfax_ifaxserver_get_pauseserverqueue, fax._mfax_ifaxserver_client_mfax_ifaxserver_get_pauseserverqueue_cpp, fax._mfax_ifaxserver_get_pauseserverqueue, faxcom/IFaxServer::PauseServerQueue, faxcom/IFaxServer::get_PauseServerQueue, faxcom/IFaxServer::put_PauseServerQueue, get_PauseServerQueue
 ms.topic: method
-f1_keywords: ["faxcom/IFaxServer.PauseServerQueue"]
+f1_keywords: 
+ - "faxcom/IFaxServer.PauseServerQueue"
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

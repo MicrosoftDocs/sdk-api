@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPSEC_FAILURE_ME, IPSEC_FAILURE_NONE, IPSEC_FAILURE_PEER, IPSEC_FAILURE_POINT, IPSEC_FAILURE_POINT enumeration [Filtering], IPSEC_FAILURE_POINT_MAX, fwp.ipsec_failure_point, ipsectypes/IPSEC_FAILURE_ME, ipsectypes/IPSEC_FAILURE_NONE, ipsectypes/IPSEC_FAILURE_PEER, ipsectypes/IPSEC_FAILURE_POINT, ipsectypes/IPSEC_FAILURE_POINT_MAX
 ms.topic: enum
-f1_keywords: ["ipsectypes/IPSEC_FAILURE_POINT"]
+f1_keywords: 
+ - "ipsectypes/IPSEC_FAILURE_POINT"
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

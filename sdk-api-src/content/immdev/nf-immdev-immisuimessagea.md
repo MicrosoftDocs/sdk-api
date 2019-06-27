@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImmIsUIMessage, ImmIsUIMessage function [Internationalization for Windows Applications], ImmIsUIMessageA, ImmIsUIMessageW, _win32_ImmIsUIMessage, imm/ImmIsUIMessage, imm/ImmIsUIMessageA, imm/ImmIsUIMessageW, intl.immisuimessage
 ms.topic: function
-f1_keywords: ["immdev/ImmIsUIMessage"]
+f1_keywords: 
+ - "immdev/ImmIsUIMessage"
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

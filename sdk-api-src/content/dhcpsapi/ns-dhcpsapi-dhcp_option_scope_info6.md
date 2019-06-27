@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_OPTION_SCOPE_INFO6, DHCP_OPTION_SCOPE_INFO6, DHCP_OPTION_SCOPE_INFO6 structure [DHCP], PDHCP_OPTION_SCOPE_INFO6, PDHCP_OPTION_SCOPE_INFO6 structure pointer [DHCP], dhcp.dhcp_option_scope_info6, dhcpsapi/DHCP_OPTION_SCOPE_INFO6, dhcpsapi/PDHCP_OPTION_SCOPE_INFO6"
 ms.topic: struct
-f1_keywords: ["dhcpsapi/DHCP_OPTION_SCOPE_INFO6"]
+f1_keywords: 
+ - "dhcpsapi/DHCP_OPTION_SCOPE_INFO6"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

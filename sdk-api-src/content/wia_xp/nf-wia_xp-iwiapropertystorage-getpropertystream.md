@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropertyStream, GetPropertyStream method [WIA], GetPropertyStream method [WIA],IWiaPropertyStorage interface, IWiaPropertyStorage interface [WIA],GetPropertyStream method, IWiaPropertyStorage.GetPropertyStream, IWiaPropertyStorage::GetPropertyStream, _wia_IWiaPropertyStorage_GetPropertyStream, wia._wia_IWiaPropertyStorage_GetPropertyStream, wia_xp/IWiaPropertyStorage::GetPropertyStream
 ms.topic: method
-f1_keywords: ["wia_xp/IWiaPropertyStorage.GetPropertyStream"]
+f1_keywords: 
+ - "wia_xp/IWiaPropertyStorage.GetPropertyStream"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

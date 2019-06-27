@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICspInformations interface [Security],_NewEnum property, ICspInformations._NewEnum, ICspInformations.get__NewEnum, ICspInformations::_NewEnum, ICspInformations::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICspInformations interface, certenroll/ICspInformations::_NewEnum, certenroll/ICspInformations::get__NewEnum, get__NewEnum, security.icspinformations__newenum_property
 ms.topic: method
-f1_keywords: ["certenroll/ICspInformations._NewEnum"]
+f1_keywords: 
+ - "certenroll/ICspInformations._NewEnum"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

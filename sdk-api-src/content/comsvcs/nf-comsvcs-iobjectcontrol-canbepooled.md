@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CanBePooled, CanBePooled method [COM+], CanBePooled method [COM+],IObjectControl interface, IObjectControl interface [COM+],CanBePooled method, IObjectControl.CanBePooled, IObjectControl::CanBePooled, _cos_IObjectControl_CanBePooled, comsvcs/IObjectControl::CanBePooled, cos.iobjectcontrol_canbepooled
 ms.topic: method
-f1_keywords: ["comsvcs/IObjectControl.CanBePooled"]
+f1_keywords: 
+ - "comsvcs/IObjectControl.CanBePooled"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

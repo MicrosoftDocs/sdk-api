@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AdjustTokenPrivileges, AdjustTokenPrivileges function [Security], None, SE_PRIVILEGE_ENABLED, SE_PRIVILEGE_REMOVED, _win32_adjusttokenprivileges, security.adjusttokenprivileges, securitybaseapi/AdjustTokenPrivileges
 ms.topic: function
-f1_keywords: ["securitybaseapi/AdjustTokenPrivileges"]
+f1_keywords: 
+ - "securitybaseapi/AdjustTokenPrivileges"
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

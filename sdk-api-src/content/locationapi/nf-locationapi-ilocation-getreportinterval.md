@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetReportInterval, GetReportInterval method [WinLocation], GetReportInterval method [WinLocation],ILocation interface, ILocation interface [WinLocation],GetReportInterval method, ILocation.GetReportInterval, ILocation::GetReportInterval, WinLocation_COM_Ref.ilocation_getreportinterval, locationapi/ILocation::GetReportInterval
 ms.topic: method
-f1_keywords: ["locationapi/ILocation.GetReportInterval"]
+f1_keywords: 
+ - "locationapi/ILocation.GetReportInterval"
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPUSER_INFO_24, *PUSER_INFO_24, LPUSER_INFO_24, LPUSER_INFO_24 structure pointer [Network Management], PUSER_INFO_24, PUSER_INFO_24 structure pointer [Network Management], USER_INFO_24, USER_INFO_24 structure [Network Management], lmaccess/LPUSER_INFO_24, lmaccess/PUSER_INFO_24, lmaccess/USER_INFO_24, netmgmt.user_info_24"
 ms.topic: struct
-f1_keywords: ["lmaccess/USER_INFO_24"]
+f1_keywords: 
+ - "lmaccess/USER_INFO_24"
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

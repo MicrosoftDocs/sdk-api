@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],get_Pilot method, IBDA_DigitalDemodulator2.get_Pilot, IBDA_DigitalDemodulator2::get_Pilot, bdaiface/IBDA_DigitalDemodulator2::get_Pilot, get_Pilot, get_Pilot method [Microsoft TV Technologies], get_Pilot method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface, mstv.ibda_digitaldemodulator2_get_pilot
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_DigitalDemodulator2.get_Pilot"]
+f1_keywords: 
+ - "bdaiface/IBDA_DigitalDemodulator2.get_Pilot"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

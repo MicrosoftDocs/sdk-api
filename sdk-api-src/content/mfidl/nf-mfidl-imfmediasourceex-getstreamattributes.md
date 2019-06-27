@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStreamAttributes, GetStreamAttributes method [Media Foundation], GetStreamAttributes method [Media Foundation],IMFMediaSourceEx interface, IMFMediaSourceEx interface [Media Foundation],GetStreamAttributes method, IMFMediaSourceEx.GetStreamAttributes, IMFMediaSourceEx::GetStreamAttributes, mf.imfmediasourceex_getstreamattributes, mfidl/IMFMediaSourceEx::GetStreamAttributes
 ms.topic: method
-f1_keywords: ["mfidl/IMFMediaSourceEx.GetStreamAttributes"]
+f1_keywords: 
+ - "mfidl/IMFMediaSourceEx.GetStreamAttributes"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

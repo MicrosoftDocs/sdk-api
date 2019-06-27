@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],MaxRatingsLevel method, IMSVidStreamBufferSource.MaxRatingsLevel, IMSVidStreamBufferSource::MaxRatingsLevel, IMSVidStreamBufferSourceMaxRatingsLevel, MaxRatingsLevel, MaxRatingsLevel method [Microsoft TV Technologies], MaxRatingsLevel method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, mstv.imsvidstreambuffersource_maxratingslevel, segment/IMSVidStreamBufferSource::MaxRatingsLevel
 ms.topic: method
-f1_keywords: ["segment/IMSVidStreamBufferSource.MaxRatingsLevel"]
+f1_keywords: 
+ - "segment/IMSVidStreamBufferSource.MaxRatingsLevel"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

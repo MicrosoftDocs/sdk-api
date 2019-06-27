@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AERT_Allocate, AERT_Allocate function [Audio Devices], audio.aert_allocate, audio_syseffects_r_db01d2ca-9a2d-4054-b066-773f2cb54276.xml, baseaudioprocessingobject/AERT_Allocate
 ms.topic: function
-f1_keywords: ["baseaudioprocessingobject/AERT_Allocate"]
+f1_keywords: 
+ - "baseaudioprocessingobject/AERT_Allocate"
 req.header: baseaudioprocessingobject.h
 req.include-header: 
 req.target-type: Universal

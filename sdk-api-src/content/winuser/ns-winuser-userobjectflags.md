@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PUSEROBJECTFLAGS, DF_ALLOWOTHERACCOUNTHOOK, PUSEROBJECTFLAGS, PUSEROBJECTFLAGS structure pointer [Windows Stations and Desktops], USEROBJECTFLAGS, USEROBJECTFLAGS structure [Windows Stations and Desktops], WSF_VISIBLE, _win32_userobjectflags_str, base.userobjectflags_str, tagUSEROBJECTFLAGS, winstation.userobjectflags_str, winuser/PUSEROBJECTFLAGS, winuser/USEROBJECTFLAGS"
 ms.topic: struct
-f1_keywords: ["winuser/USEROBJECTFLAGS"]
+f1_keywords: 
+ - "winuser/USEROBJECTFLAGS"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

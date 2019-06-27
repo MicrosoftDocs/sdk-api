@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 7bb63396-21c2-400d-b9de-c00b90f46d62, IMFASFStreamConfig, IMFASFStreamConfig interface [Media Foundation], IMFASFStreamConfig interface [Media Foundation],described, mf.imfasfstreamconfig, wmcontainer/IMFASFStreamConfig
 ms.topic: interface
-f1_keywords: ["wmcontainer/IMFASFStreamConfig"]
+f1_keywords: 
+ - "wmcontainer/IMFASFStreamConfig"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

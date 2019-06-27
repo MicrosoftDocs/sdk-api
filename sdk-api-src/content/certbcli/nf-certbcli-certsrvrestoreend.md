@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertSrvRestoreEnd, CertSrvRestoreEnd function [Security], _certsrv_certsrvrestoreend, certbcli/CertSrvRestoreEnd, security.certsrvrestoreend
 ms.topic: function
-f1_keywords: ["certbcli/CertSrvRestoreEnd"]
+f1_keywords: 
+ - "certbcli/CertSrvRestoreEnd"
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

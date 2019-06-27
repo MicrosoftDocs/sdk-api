@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataRetrieverCallback interface [Windows Sync],LoadChangeDataComplete method, IDataRetrieverCallback.LoadChangeDataComplete, IDataRetrieverCallback::LoadChangeDataComplete, LoadChangeDataComplete, LoadChangeDataComplete method [Windows Sync], LoadChangeDataComplete method [Windows Sync],IDataRetrieverCallback interface, winsync.idataretrievercallback_loadchangedatacomplete, winsync/IDataRetrieverCallback::LoadChangeDataComplete
 ms.topic: method
-f1_keywords: ["winsync/IDataRetrieverCallback.LoadChangeDataComplete"]
+f1_keywords: 
+ - "winsync/IDataRetrieverCallback.LoadChangeDataComplete"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Filter_Evaluate, MI_Filter_Evaluate function [Windows Management Infrastructure (MI)], mi/MI_Filter_Evaluate, wmi_v2.mi_filter_evaluate
 ms.topic: function
-f1_keywords: ["mi/MI_Filter_Evaluate"]
+f1_keywords: 
+ - "mi/MI_Filter_Evaluate"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WindowPattern_SetWindowVisualState, WindowPattern_SetWindowVisualState function [Windows Accessibility], uiauto.uiauto_WindowPattern_SetVisualStateConPat, uiauto_WindowPattern_SetVisualStateConPat, uiautomationcoreapi/WindowPattern_SetWindowVisualState, winauto.uiauto_WindowPattern_SetVisualStateConPat
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/WindowPattern_SetWindowVisualState"]
+f1_keywords: 
+ - "uiautomationcoreapi/WindowPattern_SetWindowVisualState"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

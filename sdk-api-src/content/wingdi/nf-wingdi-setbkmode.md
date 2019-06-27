@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPAQUE, SetBkMode, SetBkMode function [Windows GDI], TRANSPARENT, _win32_SetBkMode, gdi.setbkmode, wingdi/SetBkMode
 ms.topic: function
-f1_keywords: ["wingdi/SetBkMode"]
+f1_keywords: 
+ - "wingdi/SetBkMode"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

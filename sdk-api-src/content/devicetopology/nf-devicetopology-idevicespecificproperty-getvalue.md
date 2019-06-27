@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [Core Audio], GetValue method [Core Audio],IDeviceSpecificProperty interface, IDeviceSpecificProperty interface [Core Audio],GetValue method, IDeviceSpecificProperty.GetValue, IDeviceSpecificProperty::GetValue, IDeviceSpecificPropertyGetValue, coreaudio.idevicespecificproperty_getvalue, devicetopology/IDeviceSpecificProperty::GetValue
 ms.topic: method
-f1_keywords: ["devicetopology/IDeviceSpecificProperty.GetValue"]
+f1_keywords: 
+ - "devicetopology/IDeviceSpecificProperty.GetValue"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

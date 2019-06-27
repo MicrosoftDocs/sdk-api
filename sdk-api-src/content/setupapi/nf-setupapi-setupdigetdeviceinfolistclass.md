@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetDeviceInfoListClass, SetupDiGetDeviceInfoListClass function [Device and Driver Installation], devinst.setupdigetdeviceinfolistclass, di-rtns_219b6225-e6f3-40b4-8127-709c425a0cad.xml, setupapi/SetupDiGetDeviceInfoListClass
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiGetDeviceInfoListClass"]
+f1_keywords: 
+ - "setupapi/SetupDiGetDeviceInfoListClass"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

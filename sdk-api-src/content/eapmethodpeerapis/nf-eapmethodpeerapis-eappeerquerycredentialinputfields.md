@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapPeerQueryCredentialInputFields, EapPeerQueryCredentialInputFields function [EAPHost], eaphost.eappeerquerycredentialinputfields, eapmethodpeerapis/EapPeerQueryCredentialInputFields
 ms.topic: function
-f1_keywords: ["eapmethodpeerapis/EapPeerQueryCredentialInputFields"]
+f1_keywords: 
+ - "eapmethodpeerapis/EapPeerQueryCredentialInputFields"
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

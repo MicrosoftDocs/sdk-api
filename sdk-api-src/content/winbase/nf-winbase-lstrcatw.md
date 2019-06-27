@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_lstrcat, _win32_lstrcat_cpp, lstrcat, lstrcat function [Menus and Other Resources], lstrcatA, lstrcatW, menurc.lstrcat, winbase/lstrcat, winbase/lstrcatA, winbase/lstrcatW, winui._win32_lstrcat"
 ms.topic: function
-f1_keywords: ["winbase/lstrcat"]
+f1_keywords: 
+ - "winbase/lstrcat"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

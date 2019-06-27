@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPNSPV2SETSERVICEEX, NSPv2SetServiceEx, NSPv2SetServiceEx function [Winsock], RNRSERVICE_DELETE, RNRSERVICE_DEREGISTER, RNRSERVICE_REGISTER, SERVICE_MULTIPLE, winsock.nspv2setserviceex, ws2spi/NSPv2SetServiceEx
 ms.topic: callback
-f1_keywords: ["ws2spi/NSPv2SetServiceEx"]
+f1_keywords: 
+ - "ws2spi/NSPv2SetServiceEx"
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

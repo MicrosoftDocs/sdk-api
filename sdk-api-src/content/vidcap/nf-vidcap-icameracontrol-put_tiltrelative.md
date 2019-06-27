@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],put_TiltRelative method, ICameraControl.put_TiltRelative, ICameraControl::put_TiltRelative, ICameraControlput_TiltRelative, dshow.icameracontrol_put_tiltrelative, put_TiltRelative, put_TiltRelative method [DirectShow], put_TiltRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_TiltRelative
 ms.topic: method
-f1_keywords: ["vidcap/ICameraControl.put_TiltRelative"]
+f1_keywords: 
+ - "vidcap/ICameraControl.put_TiltRelative"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

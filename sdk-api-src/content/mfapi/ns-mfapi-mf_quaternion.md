@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_QUATERNION, MF_QUATERNION structure [Media Foundation], PMF_QUATERNION, PMF_QUATERNION structure pointer [Media Foundation], mf.mf_quaternion, mfapi/MF_QUATERNION, mfapi/PMF_QUATERNION
 ms.topic: struct
-f1_keywords: ["mfapi/MF_QUATERNION"]
+f1_keywords: 
+ - "mfapi/MF_QUATERNION"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

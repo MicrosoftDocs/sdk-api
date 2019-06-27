@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey, IX509PrivateKey interface [Security], IX509PrivateKey interface [Security],described, certenroll/IX509PrivateKey, security.ix509privatekey
 ms.topic: interface
-f1_keywords: ["certenroll/IX509PrivateKey"]
+f1_keywords: 
+ - "certenroll/IX509PrivateKey"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

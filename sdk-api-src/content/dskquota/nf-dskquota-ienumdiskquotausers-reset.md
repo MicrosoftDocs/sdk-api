@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumDiskQuotaUsers interface [Files],Reset method, IEnumDiskQuotaUsers.Reset, IEnumDiskQuotaUsers::Reset, Reset, Reset method [Files], Reset method [Files],IEnumDiskQuotaUsers interface, _win32_ienumdiskquotausers_reset, base.ienumdiskquotausers_reset, dskquota/IEnumDiskQuotaUsers::Reset, fs.ienumdiskquotausers_reset
 ms.topic: method
-f1_keywords: ["dskquota/IEnumDiskQuotaUsers.Reset"]
+f1_keywords: 
+ - "dskquota/IEnumDiskQuotaUsers.Reset"
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

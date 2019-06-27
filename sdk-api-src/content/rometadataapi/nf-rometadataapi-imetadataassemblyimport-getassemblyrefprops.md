@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAssemblyRefProps, GetAssemblyRefProps method [Windows Runtime], GetAssemblyRefProps method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],GetAssemblyRefProps method, IMetaDataAssemblyImport.GetAssemblyRefProps, IMetaDataAssemblyImport::GetAssemblyRefProps, rometadataapi/IMetaDataAssemblyImport::GetAssemblyRefProps, winrt.imetadataassemblyimport_getassemblyrefprops
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataAssemblyImport.GetAssemblyRefProps"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataAssemblyImport.GetAssemblyRefProps"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, CREATE_ALWAYS, CREATE_NEW, CreateFile2, CreateFile2 function [Files], FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, OPEN_ALWAYS, OPEN_EXISTING, TRUNCATE_EXISTING, fileapi/CreateFile2, fs.createfile2
 ms.topic: function
-f1_keywords: ["fileapi/CreateFile2"]
+f1_keywords: 
+ - "fileapi/CreateFile2"
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

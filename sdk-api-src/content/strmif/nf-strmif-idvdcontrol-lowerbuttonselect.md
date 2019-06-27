@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],LowerButtonSelect method, IDvdControl.LowerButtonSelect, IDvdControl::LowerButtonSelect, IDvdControlLowerButtonSelect, LowerButtonSelect, LowerButtonSelect method [DirectShow], LowerButtonSelect method [DirectShow],IDvdControl interface, dshow.idvdcontrol_lowerbuttonselect, strmif/IDvdControl::LowerButtonSelect
 ms.topic: method
-f1_keywords: ["strmif/IDvdControl.LowerButtonSelect"]
+f1_keywords: 
+ - "strmif/IDvdControl.LowerButtonSelect"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

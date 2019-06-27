@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiCollectUserInfo, MsiCollectUserInfo function, MsiCollectUserInfoA, MsiCollectUserInfoW, _msi_msicollectuserinfo, msi/MsiCollectUserInfo, msi/MsiCollectUserInfoA, msi/MsiCollectUserInfoW, setup.msicollectuserinfo
 ms.topic: function
-f1_keywords: ["msi/MsiCollectUserInfo"]
+f1_keywords: 
+ - "msi/MsiCollectUserInfo"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

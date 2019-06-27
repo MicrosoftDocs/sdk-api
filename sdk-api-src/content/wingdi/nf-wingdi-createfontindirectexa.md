@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateFontIndirectEx, CreateFontIndirectEx function [Windows GDI], CreateFontIndirectExA, CreateFontIndirectExW, _win32_CreateFontIndirectEx, gdi.createfontindirectex, wingdi/CreateFontIndirectEx, wingdi/CreateFontIndirectExA, wingdi/CreateFontIndirectExW
 ms.topic: function
-f1_keywords: ["wingdi/CreateFontIndirectEx"]
+f1_keywords: 
+ - "wingdi/CreateFontIndirectEx"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

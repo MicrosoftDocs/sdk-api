@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackage interface [XPS Documents and Packaging],SetCoreProperties method, IXpsOMPackage.SetCoreProperties, IXpsOMPackage::SetCoreProperties, SetCoreProperties, SetCoreProperties method [XPS Documents and Packaging], SetCoreProperties method [XPS Documents and Packaging],IXpsOMPackage interface, xps.ixpsompackage_setcoreproperties, xpsobjectmodel/IXpsOMPackage::SetCoreProperties
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMPackage.SetCoreProperties"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPackage.SetCoreProperties"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetFactoid, SetFactoid function [Tablet PC], f805b364-1e7b-4995-bda9-47bff87fcdfa, recapis/SetFactoid, tablet.setfactoid
 ms.topic: function
-f1_keywords: ["recapis/SetFactoid"]
+f1_keywords: 
+ - "recapis/SetFactoid"
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

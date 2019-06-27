@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxFolders interface [Fax Service],OutgoingArchive property, IFaxFolders.OutgoingArchive, IFaxFolders.get_OutgoingArchive, IFaxFolders::OutgoingArchive, IFaxFolders::get_OutgoingArchive, OutgoingArchive property [Fax Service], OutgoingArchive property [Fax Service],IFaxFolders interface, _mfax_faxfolders.outgoingarchive, fax._mfax_faxfolders_cpp_mfax_faxfolders_outgoingarchive_cpp, fax._mfax_faxfolders_outgoingarchive, faxcomex/IFaxFolders::OutgoingArchive, faxcomex/IFaxFolders::get_OutgoingArchive, get_OutgoingArchive
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxFolders.OutgoingArchive"]
+f1_keywords: 
+ - "faxcomex/IFaxFolders.OutgoingArchive"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

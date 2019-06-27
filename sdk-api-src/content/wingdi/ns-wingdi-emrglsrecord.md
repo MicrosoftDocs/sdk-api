@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRGLSRECORD, EMRGLSRECORD, EMRGLSRECORD structure [Windows GDI], PEMRGLSRECORD, PEMRGLSRECORD structure pointer [Windows GDI], _win32_EMRGLSRECORD_str, gdi.emrglsrecord, wingdi/EMRGLSRECORD, wingdi/PEMRGLSRECORD"
 ms.topic: struct
-f1_keywords: ["wingdi/EMRGLSRECORD"]
+f1_keywords: 
+ - "wingdi/EMRGLSRECORD"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

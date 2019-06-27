@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linemonitormedia, lineMonitorMedia, lineMonitorMedia function [TAPI 2.2], tapi/lineMonitorMedia, tapi2.linemonitormedia"
 ms.topic: function
-f1_keywords: ["tapi/lineMonitorMedia"]
+f1_keywords: 
+ - "tapi/lineMonitorMedia"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

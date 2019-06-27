@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetModuleHandle, GetModuleHandle function, GetModuleHandleA, GetModuleHandleW, _win32_getmodulehandle, base.getmodulehandle, libloaderapi/GetModuleHandle, libloaderapi/GetModuleHandleA, libloaderapi/GetModuleHandleW, winbase/GetModuleHandle, winbase/GetModuleHandleA, winbase/GetModuleHandleW
 ms.topic: function
-f1_keywords: ["libloaderapi/GetModuleHandle"]
+f1_keywords: 
+ - "libloaderapi/GetModuleHandle"
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

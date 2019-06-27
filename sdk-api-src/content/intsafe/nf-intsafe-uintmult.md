@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UIntMult, UIntMult function [Windows Shell], _shell_UIntMult, intsafe/UIntMult, shell.UIntMult
 ms.topic: function
-f1_keywords: ["intsafe/UIntMult"]
+f1_keywords: 
+ - "intsafe/UIntMult"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

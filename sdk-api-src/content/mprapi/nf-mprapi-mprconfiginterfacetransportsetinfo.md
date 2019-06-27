@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceTransportSetInfo, MprConfigInterfaceTransportSetInfo function [RAS], _mpr_mprconfiginterfacetransportsetinfo, mprapi/MprConfigInterfaceTransportSetInfo, rras.mprconfiginterfacetransportsetinfo
 ms.topic: function
-f1_keywords: ["mprapi/MprConfigInterfaceTransportSetInfo"]
+f1_keywords: 
+ - "mprapi/MprConfigInterfaceTransportSetInfo"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

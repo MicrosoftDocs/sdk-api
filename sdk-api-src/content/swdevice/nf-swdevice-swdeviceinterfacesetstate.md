@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SwDeviceInterfaceSetState, SwDeviceInterfaceSetState function, swdevice.swdeviceinterfacesetstate, swdevice/SwDeviceInterfaceSetState
 ms.topic: function
-f1_keywords: ["swdevice/SwDeviceInterfaceSetState"]
+f1_keywords: 
+ - "swdevice/SwDeviceInterfaceSetState"
 req.header: swdevice.h
 req.include-header: 
 req.target-type: Universal

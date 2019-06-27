@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSHARE_INFO_503, *PSHARE_INFO_503, ACCESS_ALL, ACCESS_ATRIB, ACCESS_CREATE, ACCESS_DELETE, ACCESS_EXEC, ACCESS_PERM, ACCESS_READ, ACCESS_WRITE, LPSHARE_INFO_503, LPSHARE_INFO_503 structure pointer [Files], PSHARE_INFO_503, PSHARE_INFO_503 structure pointer [Files], SHARE_INFO_503, SHARE_INFO_503 structure [Files], STYPE_DEVICE, STYPE_DISKTREE, STYPE_IPC, STYPE_PRINTQ, STYPE_SPECIAL, STYPE_TEMPORARY, fs.share_info_503, fs.share_info_503_str, lmshare/LPSHARE_INFO_503, lmshare/PSHARE_INFO_503, lmshare/SHARE_INFO_503"
 ms.topic: struct
-f1_keywords: ["lmshare/SHARE_INFO_503"]
+f1_keywords: 
+ - "lmshare/SHARE_INFO_503"
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

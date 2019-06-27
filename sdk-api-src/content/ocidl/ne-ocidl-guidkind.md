@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GUIDKIND, GUIDKIND enumeration [COM], GUIDKIND_DEFAULT_SOURCE_DISP_IID, _ctrl_GUIDKIND, com.guidkind, ocidl/GUIDKIND, ocidl/GUIDKIND_DEFAULT_SOURCE_DISP_IID
 ms.topic: enum
-f1_keywords: ["ocidl/GUIDKIND"]
+f1_keywords: 
+ - "ocidl/GUIDKIND"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

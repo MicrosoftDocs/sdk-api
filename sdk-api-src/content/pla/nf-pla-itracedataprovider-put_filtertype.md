@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FilterType property [PLA], FilterType property [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],FilterType property, ITraceDataProvider.FilterType, ITraceDataProvider.put_FilterType, ITraceDataProvider::FilterType, ITraceDataProvider::get_FilterType, ITraceDataProvider::put_FilterType, base.itracedataprovider_filtertype, pla.itracedataprovider_filtertype, pla/ITraceDataProvider::FilterType, pla/ITraceDataProvider::get_FilterType, pla/ITraceDataProvider::put_FilterType, put_FilterType
 ms.topic: method
-f1_keywords: ["pla/ITraceDataProvider.FilterType"]
+f1_keywords: 
+ - "pla/ITraceDataProvider.FilterType"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPControls3 interface [Windows Media Player],get_currentPositionTimecode method, IWMPControls3.get_currentPositionTimecode, IWMPControls3::get_currentPositionTimecode, IWMPControls3get_currentPositionTimecode, get_currentPositionTimecode, get_currentPositionTimecode method [Windows Media Player], get_currentPositionTimecode method [Windows Media Player],IWMPControls3 interface, wmp.iwmpcontrols3_get_currentpositiontimecode, wmp/IWMPControls3::get_currentPositionTimecode
 ms.topic: method
-f1_keywords: ["wmp/IWMPControls3.get_currentPositionTimecode"]
+f1_keywords: 
+ - "wmp/IWMPControls3.get_currentPositionTimecode"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

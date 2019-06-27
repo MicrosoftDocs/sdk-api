@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetMenuInfo, SetMenuInfo function [Menus and Other Resources], _win32_SetMenuInfo, _win32_setmenuinfo_cpp, menurc.setmenuinfo, winui._win32_setmenuinfo, winuser/SetMenuInfo
 ms.topic: function
-f1_keywords: ["winuser/SetMenuInfo"]
+f1_keywords: 
+ - "winuser/SetMenuInfo"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

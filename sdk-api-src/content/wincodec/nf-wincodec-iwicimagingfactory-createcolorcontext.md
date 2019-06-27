@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateColorContext, CreateColorContext method [Windows Imaging Component], CreateColorContext method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateColorContext method, IWICImagingFactory.CreateColorContext, IWICImagingFactory::CreateColorContext, _wic_codec_iwicimagingfactory_createcolorcontext, wic._wic_codec_iwicimagingfactory_createcolorcontext, wincodec/IWICImagingFactory::CreateColorContext
 ms.topic: method
-f1_keywords: ["wincodec/IWICImagingFactory.CreateColorContext"]
+f1_keywords: 
+ - "wincodec/IWICImagingFactory.CreateColorContext"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LogoutIScsiTarget, LogoutIscsiTarget, LogoutIscsiTarget function [iSCSI Discovery Library API], iscsidisc.logoutiscsitarget, iscsidsc/LogoutIscsiTarget
 ms.topic: function
-f1_keywords: ["iscsidsc/LogoutIscsiTarget"]
+f1_keywords: 
+ - "iscsidsc/LogoutIscsiTarget"
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

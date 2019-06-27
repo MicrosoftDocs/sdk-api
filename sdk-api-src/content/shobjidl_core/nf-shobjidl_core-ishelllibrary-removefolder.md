@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellLibrary interface [Windows Shell],RemoveFolder method, IShellLibrary.RemoveFolder, IShellLibrary::RemoveFolder, RemoveFolder, RemoveFolder method [Windows Shell], RemoveFolder method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_RemoveFolder, shell.IShellLibrary_RemoveFolder, shobjidl_core/IShellLibrary::RemoveFolder
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellLibrary.RemoveFolder"]
+f1_keywords: 
+ - "shobjidl_core/IShellLibrary.RemoveFolder"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

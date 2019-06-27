@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSCARD_ATRMASK, *PSCARD_ATRMASK, LPSCARD_ATRMASK, LPSCARD_ATRMASK structure pointer [Security], PSCARD_ATRMASK, PSCARD_ATRMASK structure pointer [Security], SCARD_ATRMASK, SCARD_ATRMASK structure [Security], _smart_scard_atrmask, security.scard_atrmask, winscard/LPSCARD_ATRMASK, winscard/PSCARD_ATRMASK, winscard/SCARD_ATRMASK"
 ms.topic: struct
-f1_keywords: ["winscard/SCARD_ATRMASK"]
+f1_keywords: 
+ - "winscard/SCARD_ATRMASK"
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaManagerEx, IFsrmQuotaManagerEx interface [File Server Resource Manager], IFsrmQuotaManagerEx interface [File Server Resource Manager],described, fs.ifsrmquotamanagerex, fsrm.ifsrmquotamanagerex, fsrm/IFsrmQuotaManagerEx
 ms.topic: interface
-f1_keywords: ["fsrmquota/IFsrmQuotaManagerEx"]
+f1_keywords: 
+ - "fsrmquota/IFsrmQuotaManagerEx"
 req.header: fsrmquota.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows

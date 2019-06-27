@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IResultData interface [MMC],SetItem method, IResultData.SetItem, IResultData2 interface [MMC],SetItem method, IResultData2::SetItem, IResultData::SetItem, SetItem, SetItem method [MMC], SetItem method [MMC],IResultData interface, SetItem method [MMC],IResultData2 interface, _slate_iresultdata_setitem, mmc.iresultdata_setitem, mmc/IResultData2::SetItem, mmc/IResultData::SetItem
 ms.topic: method
-f1_keywords: ["mmc/IResultData.SetItem"]
+f1_keywords: 
+ - "mmc/IResultData.SetItem"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectAccess, IWbemObjectAccess interface [Windows Management Instrumentation], IWbemObjectAccess interface [Windows Management Instrumentation],described, _hmm_iwbemobjectaccess, wbemcli/IWbemObjectAccess, wmi.iwbemobjectaccess
 ms.topic: interface
-f1_keywords: ["wbemcli/IWbemObjectAccess"]
+f1_keywords: 
+ - "wbemcli/IWbemObjectAccess"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

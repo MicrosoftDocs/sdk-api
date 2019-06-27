@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcErrorAddRecord, RpcErrorAddRecord function [RPC], _rpc_rpcerroraddrecord, rpc.rpcerroraddrecord, rpcasync/RpcErrorAddRecord
 ms.topic: function
-f1_keywords: ["rpcasync/RpcErrorAddRecord"]
+f1_keywords: 
+ - "rpcasync/RpcErrorAddRecord"
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

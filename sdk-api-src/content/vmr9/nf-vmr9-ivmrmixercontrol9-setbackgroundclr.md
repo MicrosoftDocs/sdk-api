@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl9 interface [DirectShow],SetBackgroundClr method, IVMRMixerControl9.SetBackgroundClr, IVMRMixerControl9::SetBackgroundClr, IVMRMixerControl9SetBackgroundClr, SetBackgroundClr, SetBackgroundClr method [DirectShow], SetBackgroundClr method [DirectShow],IVMRMixerControl9 interface, dshow.ivmrmixercontrol9_setbackgroundclr, vmr9/IVMRMixerControl9::SetBackgroundClr
 ms.topic: method
-f1_keywords: ["vmr9/IVMRMixerControl9.SetBackgroundClr"]
+f1_keywords: 
+ - "vmr9/IVMRMixerControl9.SetBackgroundClr"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

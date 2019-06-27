@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IReferenceClock interface [DirectShow],Unadvise method, IReferenceClock.Unadvise, IReferenceClock::Unadvise, IReferenceClockUnadvise, Unadvise, Unadvise method [DirectShow], Unadvise method [DirectShow],IReferenceClock interface, dshow.ireferenceclock_unadvise, strmif/IReferenceClock::Unadvise
 ms.topic: method
-f1_keywords: ["strmif/IReferenceClock.Unadvise"]
+f1_keywords: 
+ - "strmif/IReferenceClock.Unadvise"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

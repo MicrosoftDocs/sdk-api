@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEffectRequiredInputRectangles, GetEffectRequiredInputRectangles method [Direct2D], GetEffectRequiredInputRectangles method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],GetEffectRequiredInputRectangles method, ID2D1DeviceContext.GetEffectRequiredInputRectangles, ID2D1DeviceContext::GetEffectRequiredInputRectangles, d2d1_1/ID2D1DeviceContext::GetEffectRequiredInputRectangles, direct2d.id2d1devicecontext_geteffectrequiredinputrectangles
 ms.topic: method
-f1_keywords: ["d2d1_1/ID2D1DeviceContext.GetEffectRequiredInputRectangles"]
+f1_keywords: 
+ - "d2d1_1/ID2D1DeviceContext.GetEffectRequiredInputRectangles"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

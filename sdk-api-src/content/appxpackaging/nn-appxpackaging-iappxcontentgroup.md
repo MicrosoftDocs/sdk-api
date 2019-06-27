@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxContentGroup, IAppxContentGroup interface [App packaging and management], IAppxContentGroup interface [App packaging and management],described, appxpackaging/IAppxContentGroup, appxpkg.iappxcontentgroup
 ms.topic: interface
-f1_keywords: ["appxpackaging/IAppxContentGroup"]
+f1_keywords: 
+ - "appxpackaging/IAppxContentGroup"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

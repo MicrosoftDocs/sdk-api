@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskScheduler interface [Task Scheduler],IsOfType method, ITaskScheduler.IsOfType, ITaskScheduler::IsOfType, IsOfType, IsOfType method [Task Scheduler], IsOfType method [Task Scheduler],ITaskScheduler interface, _msb_itaskscheduler_isoftype, mstask/ITaskScheduler::IsOfType, taskschd.itaskscheduler_isoftype
 ms.topic: method
-f1_keywords: ["mstask/ITaskScheduler.IsOfType"]
+f1_keywords: 
+ - "mstask/ITaskScheduler.IsOfType"
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

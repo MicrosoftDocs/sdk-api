@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHTTP_CONNECTION_LIMIT_INFO, *PHTTP_CONNECTION_LIMIT_INFO structure [HTTP], HTTP_CONNECTION_LIMIT_INFO, HTTP_CONNECTION_LIMIT_INFO structure [HTTP], http.http_connection_limit_info, http/*PHTTP_CONNECTION_LIMIT_INFO, http/HTTP_CONNECTION_LIMIT_INFO"
 ms.topic: struct
-f1_keywords: ["http/HTTP_CONNECTION_LIMIT_INFO"]
+f1_keywords: 
+ - "http/HTTP_CONNECTION_LIMIT_INFO"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

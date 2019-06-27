@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D10EffectVectorVariable interface [Direct3D 10],SetBoolVectorArray method, ID3D10EffectVectorVariable.SetBoolVectorArray, ID3D10EffectVectorVariable::SetBoolVectorArray, SetBoolVectorArray, SetBoolVectorArray method [Direct3D 10], SetBoolVectorArray method [Direct3D 10],ID3D10EffectVectorVariable interface, d3d10effect/ID3D10EffectVectorVariable::SetBoolVectorArray, d898b40d-7046-3bfa-967a-dd167091c829, direct3d10.id3d10effectvectorvariable_setboolvectorarray
 ms.topic: method
-f1_keywords: ["d3d10effect/ID3D10EffectVectorVariable.SetBoolVectorArray"]
+f1_keywords: 
+ - "d3d10effect/ID3D10EffectVectorVariable.SetBoolVectorArray"
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

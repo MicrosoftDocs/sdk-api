@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetEnumPerSiteCookieDecision, InternetEnumPerSiteCookieDecision function [WinINet], InternetEnumPerSiteCookieDecisionA, InternetEnumPerSiteCookieDecisionW, wininet.internetenumpersitecookiedecision, winineti/InternetEnumPerSiteCookieDecision, winineti/InternetEnumPerSiteCookieDecisionA, winineti/InternetEnumPerSiteCookieDecisionW
 ms.topic: function
-f1_keywords: ["wininet/InternetEnumPerSiteCookieDecision"]
+f1_keywords: 
+ - "wininet/InternetEnumPerSiteCookieDecision"
 req.header: wininet.h
 req.include-header: Wininet.h, Winineti.h
 req.target-type: Windows

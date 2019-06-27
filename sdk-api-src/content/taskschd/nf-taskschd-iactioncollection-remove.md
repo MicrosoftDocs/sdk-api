@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IActionCollection interface [Task Scheduler],Remove method, IActionCollection.Remove, IActionCollection::Remove, Remove, Remove method [Task Scheduler], Remove method [Task Scheduler],IActionCollection interface, actions [Task Scheduler],removing, taskschd.iactioncollection_remove, taskschd/IActionCollection::Remove
 ms.topic: method
-f1_keywords: ["taskschd/IActionCollection.Remove"]
+f1_keywords: 
+ - "taskschd/IActionCollection.Remove"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

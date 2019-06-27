@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceProperties interface [Windows Portable Devices SDK],SetValues method, IPortableDeviceProperties.SetValues, IPortableDeviceProperties::SetValues, IPortableDevicePropertiesSetValues, SetValues, SetValues method [Windows Portable Devices SDK], SetValues method [Windows Portable Devices SDK],IPortableDeviceProperties interface, portabledeviceapi/IPortableDeviceProperties::SetValues, wpdsdk.iportabledeviceproperties_setvalues
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceProperties.SetValues"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceProperties.SetValues"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

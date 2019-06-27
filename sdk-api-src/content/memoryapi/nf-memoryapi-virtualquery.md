@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VirtualQuery, VirtualQuery function, _win32_virtualquery, base.virtualquery, winbase/VirtualQuery
 ms.topic: function
-f1_keywords: ["memoryapi/VirtualQuery"]
+f1_keywords: 
+ - "memoryapi/VirtualQuery"
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

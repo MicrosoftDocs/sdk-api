@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumWIA_FORMAT_INFO interface [WIA],Reset method, IEnumWIA_FORMAT_INFO.Reset, IEnumWIA_FORMAT_INFO::Reset, Reset, Reset method [WIA], Reset method [WIA],IEnumWIA_FORMAT_INFO interface, _wia_IEnumWIA_FORMAT_INFO_Reset, wia._wia_IEnumWIA_FORMAT_INFO_Reset, wia_xp/IEnumWIA_FORMAT_INFO::Reset
 ms.topic: method
-f1_keywords: ["wia_xp/IEnumWIA_FORMAT_INFO.Reset"]
+f1_keywords: 
+ - "wia_xp/IEnumWIA_FORMAT_INFO.Reset"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

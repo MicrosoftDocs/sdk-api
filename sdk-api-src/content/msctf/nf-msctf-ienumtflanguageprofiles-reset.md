@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTfLanguageProfiles interface [Text Services Framework],Reset method, IEnumTfLanguageProfiles.Reset, IEnumTfLanguageProfiles::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfLanguageProfiles interface, _tsf_ienumtflanguageprofiles_reset_ref, msctf/IEnumTfLanguageProfiles::Reset, tsf.ienumtflanguageprofiles_reset
 ms.topic: method
-f1_keywords: ["msctf/IEnumTfLanguageProfiles.Reset"]
+f1_keywords: 
+ - "msctf/IEnumTfLanguageProfiles.Reset"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

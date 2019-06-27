@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_SHADOW_PROP, D2D1_SHADOW_PROP enumeration [Direct2D], D2D1_SHADOW_PROP_BLUR_STANDARD_DEVIATION, D2D1_SHADOW_PROP_COLOR, D2D1_SHADOW_PROP_OPTIMIZATION, d2d1effects/D2D1_SHADOW_PROP, d2d1effects/D2D1_SHADOW_PROP_BLUR_STANDARD_DEVIATION, d2d1effects/D2D1_SHADOW_PROP_COLOR, d2d1effects/D2D1_SHADOW_PROP_OPTIMIZATION, direct2d.d2d1_shadow_prop
 ms.topic: enum
-f1_keywords: ["d2d1effects/D2D1_SHADOW_PROP"]
+f1_keywords: 
+ - "d2d1effects/D2D1_SHADOW_PROP"
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows

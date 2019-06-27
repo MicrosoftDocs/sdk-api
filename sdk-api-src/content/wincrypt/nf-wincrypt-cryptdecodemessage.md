@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptDecodeMessage, CryptDecodeMessage function [Security], _crypto2_cryptdecodemessage, security.cryptdecodemessage, wincrypt/CryptDecodeMessage
 ms.topic: function
-f1_keywords: ["wincrypt/CryptDecodeMessage"]
+f1_keywords: 
+ - "wincrypt/CryptDecodeMessage"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

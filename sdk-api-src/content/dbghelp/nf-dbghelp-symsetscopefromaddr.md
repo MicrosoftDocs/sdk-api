@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymSetScopeFromAddr, SymSetScopeFromAddr function, base.symsetscopefromaddr, dbghelp/SymSetScopeFromAddr
 ms.topic: function
-f1_keywords: ["dbghelp/SymSetScopeFromAddr"]
+f1_keywords: 
+ - "dbghelp/SymSetScopeFromAddr"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

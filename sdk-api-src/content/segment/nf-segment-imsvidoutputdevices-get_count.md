@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidOutputDevices interface [Microsoft TV Technologies],get_Count method, IMSVidOutputDevices.get_Count, IMSVidOutputDevices::get_Count, IMSVidOutputDevicesget_Count, get_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies],IMSVidOutputDevices interface, mstv.imsvidoutputdevices_get_count, segment/IMSVidOutputDevices::get_Count
 ms.topic: method
-f1_keywords: ["segment/IMSVidOutputDevices.get_Count"]
+f1_keywords: 
+ - "segment/IMSVidOutputDevices.get_Count"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

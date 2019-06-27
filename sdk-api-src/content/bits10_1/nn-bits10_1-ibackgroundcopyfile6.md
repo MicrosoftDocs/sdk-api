@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyFile6, IBackgroundCopyFile6 interface [BITS], IBackgroundCopyFile6 interface [BITS],described, bits.ibackgroundcopyfile6, bits10_1/IBackgroundCopyFile6
 ms.topic: interface
-f1_keywords: ["bits10_1/IBackgroundCopyFile6"]
+f1_keywords: 
+ - "bits10_1/IBackgroundCopyFile6"
 req.header: bits10_1.h
 req.include-header: Bits10_0.h
 req.target-type: Windows

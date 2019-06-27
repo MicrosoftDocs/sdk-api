@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_SETUP_PHASE_TYPE, CLUSTER_SETUP_PHASE_TYPE enumeration [Failover Cluster], ClusterSetupPhaseContinue, ClusterSetupPhaseEnd, ClusterSetupPhaseStart, clusapi/CLUSTER_SETUP_PHASE_TYPE, clusapi/ClusterSetupPhaseContinue, clusapi/ClusterSetupPhaseEnd, clusapi/ClusterSetupPhaseStart, mscs.cluster_setup_phase_type
 ms.topic: enum
-f1_keywords: ["clusapi/CLUSTER_SETUP_PHASE_TYPE"]
+f1_keywords: 
+ - "clusapi/CLUSTER_SETUP_PHASE_TYPE"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

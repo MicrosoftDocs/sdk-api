@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DestroyRecognizer, DestroyRecognizer function [Tablet PC], ffd66ab7-fc11-407e-aedc-267271ecb32c, recapis/DestroyRecognizer, tablet.destroyrecognizer
 ms.topic: function
-f1_keywords: ["recapis/DestroyRecognizer"]
+f1_keywords: 
+ - "recapis/DestroyRecognizer"
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMVideoControl, IAMVideoControl interface [DirectShow], IAMVideoControl interface [DirectShow],described, IAMVideoControlInterface, dshow.iamvideocontrol, strmif/IAMVideoControl
 ms.topic: interface
-f1_keywords: ["strmif/IAMVideoControl"]
+f1_keywords: 
+ - "strmif/IAMVideoControl"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

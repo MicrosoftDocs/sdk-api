@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EulaAccepted property [Windows Update Agent], EulaAccepted property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],EulaAccepted property, IUpdate.EulaAccepted, IUpdate.get_EulaAccepted, IUpdate::EulaAccepted, IUpdate::get_EulaAccepted, get_EulaAccepted, wua.iupdate_eulaaccepted, wuapi/IUpdate::EulaAccepted, wuapi/IUpdate::get_EulaAccepted
 ms.topic: method
-f1_keywords: ["wuapi/IUpdate.EulaAccepted"]
+f1_keywords: 
+ - "wuapi/IUpdate.EulaAccepted"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

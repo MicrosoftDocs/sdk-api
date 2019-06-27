@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: mmTaskSignal, mmTaskSignal function [Windows Multimedia], mmddk/mmTaskSignal, multimedia.mmtasksignal
 ms.topic: function
-f1_keywords: ["mmddk/mmTaskSignal"]
+f1_keywords: 
+ - "mmddk/mmTaskSignal"
 req.header: mmddk.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CONNECT_CMD_SAVECRED, CONNECT_COMMANDLINE, CONNECT_CRED_RESET, CONNECT_CURRENT_MEDIA, CONNECT_INTERACTIVE, CONNECT_PROMPT, CONNECT_REDIRECT, CONNECT_TEMPORARY, CONNECT_UPDATE_PROFILE, CONNECT_UPDATE_RECENT, WNetAddConnection2, WNetAddConnection2 function [Windows Networking (WNet)], WNetAddConnection2A, WNetAddConnection2W, _win32_wnetaddconnection2, dwType, lpLocalName, lpProvider, lpRemoteName, winnetwk/WNetAddConnection2, winnetwk/WNetAddConnection2A, winnetwk/WNetAddConnection2W, wnet.wnetaddconnection2
 ms.topic: function
-f1_keywords: ["winnetwk/WNetAddConnection2"]
+f1_keywords: 
+ - "winnetwk/WNetAddConnection2"
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows

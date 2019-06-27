@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICDdsDecoder, IWICDdsDecoder interface [Windows Imaging Component], IWICDdsDecoder interface [Windows Imaging Component],described, wic.iwicddsdecoder, wincodec/IWICDdsDecoder
 ms.topic: interface
-f1_keywords: ["wincodec/IWICDdsDecoder"]
+f1_keywords: 
+ - "wincodec/IWICDdsDecoder"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

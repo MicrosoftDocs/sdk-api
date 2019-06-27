@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddInterfaces, AddInterfaces method [Security], AddInterfaces method [Security],IAzBizRuleInterfaces interface, IAzBizRuleInterfaces interface [Security],AddInterfaces method, IAzBizRuleInterfaces.AddInterfaces, IAzBizRuleInterfaces::AddInterfaces, azroles/IAzBizRuleInterfaces::AddInterfaces, security.iazbizruleinterfaces_addinterfaces_method
 ms.topic: method
-f1_keywords: ["azroles/IAzBizRuleInterfaces.AddInterfaces"]
+f1_keywords: 
+ - "azroles/IAzBizRuleInterfaces.AddInterfaces"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

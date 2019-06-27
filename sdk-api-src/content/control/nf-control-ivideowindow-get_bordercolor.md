@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_BorderColor method, IVideoWindow.get_BorderColor, IVideoWindow::get_BorderColor, IVideoWindowget_BorderColor, control/IVideoWindow::get_BorderColor, dshow.ivideowindow_get_bordercolor, get_BorderColor, get_BorderColor method [DirectShow], get_BorderColor method [DirectShow],IVideoWindow interface
 ms.topic: method
-f1_keywords: ["control/IVideoWindow.get_BorderColor"]
+f1_keywords: 
+ - "control/IVideoWindow.get_BorderColor"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

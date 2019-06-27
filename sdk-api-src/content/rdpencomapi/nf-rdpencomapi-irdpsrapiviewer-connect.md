@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [RDP], Connect method [RDP],IRDPSRAPIViewer interface, IRDPSRAPIViewer interface [RDP],Connect method, IRDPSRAPIViewer.Connect, IRDPSRAPIViewer::Connect, rdp.irdpsrapiviewer_connect, rdpencomapi/IRDPSRAPIViewer::Connect
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPIViewer.Connect"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIViewer.Connect"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

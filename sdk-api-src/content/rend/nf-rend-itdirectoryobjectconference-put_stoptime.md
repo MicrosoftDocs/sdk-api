@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_StopTime method, ITDirectoryObjectConference.put_StopTime, ITDirectoryObjectConference::put_StopTime, _tapi3_itdirectoryobjectconference_put_stoptime, put_StopTime, put_StopTime method [TAPI 2.2], put_StopTime method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_StopTime, tapi3.itdirectoryobjectconference_put_stoptime
 ms.topic: method
-f1_keywords: ["rend/ITDirectoryObjectConference.put_StopTime"]
+f1_keywords: 
+ - "rend/ITDirectoryObjectConference.put_StopTime"
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

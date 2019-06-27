@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFutureUse2, GetFutureUse2 method [Microsoft TV Technologies], GetFutureUse2 method [Microsoft TV Technologies],IIsdbHierarchicalTransmissionDescriptor interface, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies],GetFutureUse2 method, IIsdbHierarchicalTransmissionDescriptor.GetFutureUse2, IIsdbHierarchicalTransmissionDescriptor::GetFutureUse2, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetFutureUse2, mstv.iisdbhierarchicaltransmissiondescriptor_getfutureuse2
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbHierarchicalTransmissionDescriptor.GetFutureUse2"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbHierarchicalTransmissionDescriptor.GetFutureUse2"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

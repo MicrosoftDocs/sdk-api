@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?Flush@Provider@@MAEXXZ, ?Flush@Provider@@MEAAXXZ, Flush, Flush method [Windows Management Instrumentation], Flush method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],Flush method, Provider.Flush, Provider::Flush, _hmm_provider_flush, provider/Provider::Flush, wmi.provider_flush"
 ms.topic: method
-f1_keywords: ["provider/Provider.Flush"]
+f1_keywords: 
+ - "provider/Provider.Flush"
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows

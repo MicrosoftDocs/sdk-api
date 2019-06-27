@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxDevReportStatus, FaxDevReportStatus function [Fax Service], _mfax_faxdevreportstatus, fax._mfax_faxdevreportstatus, faxdev/FaxDevReportStatus
 ms.topic: function
-f1_keywords: ["faxdev/FaxDevReportStatus"]
+f1_keywords: 
+ - "faxdev/FaxDevReportStatus"
 req.header: faxdev.h
 req.include-header: 
 req.target-type: Windows

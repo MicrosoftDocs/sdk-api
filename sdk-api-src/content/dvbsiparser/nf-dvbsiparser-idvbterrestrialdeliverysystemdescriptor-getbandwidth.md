@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBandwidth, GetBandwidth method [Microsoft TV Technologies], GetBandwidth method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetBandwidth method, IDvbTerrestrialDeliverySystemDescriptor.GetBandwidth, IDvbTerrestrialDeliverySystemDescriptor::GetBandwidth, IDvbTerrestrialDeliverySystemDescriptorGetBandwidth, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetBandwidth, mstv.idvbterrestrialdeliverysystemdescriptor_getbandwidth
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor.GetBandwidth"]
+f1_keywords: 
+ - "dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor.GetBandwidth"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateRefreshableEnum, CreateRefreshableEnum method [Windows Management Instrumentation], CreateRefreshableEnum method [Windows Management Instrumentation],IWbemHiPerfProvider interface, IWbemHiPerfProvider interface [Windows Management Instrumentation],CreateRefreshableEnum method, IWbemHiPerfProvider.CreateRefreshableEnum, IWbemHiPerfProvider::CreateRefreshableEnum, _hmm_iwbemhiperfprovider_createrefreshableenum, wbemprov/IWbemHiPerfProvider::CreateRefreshableEnum, wmi.iwbemhiperfprovider_createrefreshableenum
 ms.topic: method
-f1_keywords: ["wbemprov/IWbemHiPerfProvider.CreateRefreshableEnum"]
+f1_keywords: 
+ - "wbemprov/IWbemHiPerfProvider.CreateRefreshableEnum"
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_CurrentProfiles method, IDiscRecorder2.get_CurrentProfiles, IDiscRecorder2::get_CurrentProfiles, get_CurrentProfiles, get_CurrentProfiles method [IMAPI], get_CurrentProfiles method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_currentprofiles, imapi2/IDiscRecorder2::get_CurrentProfiles
 ms.topic: method
-f1_keywords: ["imapi2/IDiscRecorder2.get_CurrentProfiles"]
+f1_keywords: 
+ - "imapi2/IDiscRecorder2.get_CurrentProfiles"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

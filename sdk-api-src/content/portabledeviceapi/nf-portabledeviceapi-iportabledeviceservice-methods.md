@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceService interface [Windows Portable Devices SDK],Methods method, IPortableDeviceService.Methods, IPortableDeviceService::Methods, Methods, Methods method [Windows Portable Devices SDK], Methods method [Windows Portable Devices SDK],IPortableDeviceService interface, portabledeviceapi/IPortableDeviceService::Methods, wpdsdk.iportabledeviceservice_methods
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceService.Methods"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceService.Methods"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

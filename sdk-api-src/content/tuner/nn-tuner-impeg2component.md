@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMPEG2Component, IMPEG2Component interface [Microsoft TV Technologies], IMPEG2Component interface [Microsoft TV Technologies],described, IMPEG2ComponentInterface, mstv.impeg2component, tuner/IMPEG2Component
 ms.topic: interface
-f1_keywords: ["tuner/IMPEG2Component"]
+f1_keywords: 
+ - "tuner/IMPEG2Component"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

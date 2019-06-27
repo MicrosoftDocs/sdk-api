@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTurbulenceEffect, IDCompositionTurbulenceEffect interface [DirectComposition], IDCompositionTurbulenceEffect interface [DirectComposition],described, dcomp/IDCompositionTurbulenceEffect, directcomp.idcompositionturbulenceeffect
 ms.topic: interface
-f1_keywords: ["dcomp/IDCompositionTurbulenceEffect"]
+f1_keywords: 
+ - "dcomp/IDCompositionTurbulenceEffect"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

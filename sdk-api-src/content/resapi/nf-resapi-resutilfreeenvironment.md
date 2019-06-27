@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_FREE_ENVIRONMENT, PRESUTIL_FREE_ENVIRONMENT function [Failover Cluster], ResUtilFreeEnvironment, ResUtilFreeEnvironment function [Failover Cluster], _wolf_resutilfreeenvironment, mscs.resutilfreeenvironment, resapi/PRESUTIL_FREE_ENVIRONMENT, resapi/ResUtilFreeEnvironment
 ms.topic: function
-f1_keywords: ["resapi/ResUtilFreeEnvironment"]
+f1_keywords: 
+ - "resapi/ResUtilFreeEnvironment"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

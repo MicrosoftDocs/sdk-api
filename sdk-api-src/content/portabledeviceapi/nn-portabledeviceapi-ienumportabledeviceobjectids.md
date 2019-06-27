@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumPortableDeviceObjectIDs, IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK], IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK],described, IEnumPortableDeviceObjectIDsInterface, portabledeviceapi/IEnumPortableDeviceObjectIDs, wpdsdk.ienumportabledeviceobjectids
 ms.topic: interface
-f1_keywords: ["portabledeviceapi/IEnumPortableDeviceObjectIDs"]
+f1_keywords: 
+ - "portabledeviceapi/IEnumPortableDeviceObjectIDs"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

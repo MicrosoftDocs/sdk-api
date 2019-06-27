@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PxeDhcpv6ParseRelayForw, PxeDhcpv6ParseRelayForw function [Windows Deployment Services], wds.pxedhcpv6parserelayforw, wdspxe/PxeDhcpv6ParseRelayForw
 ms.topic: function
-f1_keywords: ["wdspxe/PxeDhcpv6ParseRelayForw"]
+f1_keywords: 
+ - "wdspxe/PxeDhcpv6ParseRelayForw"
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

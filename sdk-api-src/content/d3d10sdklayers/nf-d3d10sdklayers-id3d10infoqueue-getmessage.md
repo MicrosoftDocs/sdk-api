@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 792ee245-051d-ca89-58b7-8d2ebfaf48b6, GetMessage, GetMessage method [Direct3D 10], GetMessage method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetMessage method, ID3D10InfoQueue.GetMessage, ID3D10InfoQueue::GetMessage, d3d10sdklayers/ID3D10InfoQueue::GetMessage, direct3d10.id3d10infoqueue_getmessage
 ms.topic: method
-f1_keywords: ["d3d10sdklayers/ID3D10InfoQueue.GetMessage"]
+f1_keywords: 
+ - "d3d10sdklayers/ID3D10InfoQueue.GetMessage"
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

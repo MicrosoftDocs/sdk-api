@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 919a712f-3f1b-4681-9eeb-958ac349d8f6, Clear, Clear method [Media Foundation], Clear method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],Clear method, IMFTopology.Clear, IMFTopology::Clear, mf.imftopology_clear, mfidl/IMFTopology::Clear
 ms.topic: method
-f1_keywords: ["mfidl/IMFTopology.Clear"]
+f1_keywords: 
+ - "mfidl/IMFTopology.Clear"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

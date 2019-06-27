@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CERT_PE_IMAGE_DIGEST_ALL_IMPORT_INFO, CERT_PE_IMAGE_DIGEST_DEBUG_INFO, CERT_PE_IMAGE_DIGEST_RESOURCES, ImageGetDigestStream, ImageGetDigestStream function, _win32_imagegetdigeststream, base.imagegetdigeststream, imagehlp/ImageGetDigestStream
 ms.topic: function
-f1_keywords: ["imagehlp/ImageGetDigestStream"]
+f1_keywords: 
+ - "imagehlp/ImageGetDigestStream"
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

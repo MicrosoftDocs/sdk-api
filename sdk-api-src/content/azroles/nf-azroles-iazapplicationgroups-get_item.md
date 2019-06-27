@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzApplicationGroups object [Security],Item property, IAzApplicationGroups interface [Security],Item property, IAzApplicationGroups.Item, IAzApplicationGroups.get_Item, IAzApplicationGroups::Item, IAzApplicationGroups::get_Item, Item property [Security], Item property [Security],AzApplicationGroups object, Item property [Security],IAzApplicationGroups interface, azroles/IAzApplicationGroups::Item, azroles/IAzApplicationGroups::get_Item, get_Item, security.iazapplicationgroups_item
 ms.topic: method
-f1_keywords: ["azroles/IAzApplicationGroups.Item"]
+f1_keywords: 
+ - "azroles/IAzApplicationGroups.Item"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

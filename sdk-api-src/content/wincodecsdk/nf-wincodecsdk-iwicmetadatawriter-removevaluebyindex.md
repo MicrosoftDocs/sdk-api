@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataWriter interface [Windows Imaging Component],RemoveValueByIndex method, IWICMetadataWriter.RemoveValueByIndex, IWICMetadataWriter::RemoveValueByIndex, RemoveValueByIndex, RemoveValueByIndex method [Windows Imaging Component], RemoveValueByIndex method [Windows Imaging Component],IWICMetadataWriter interface, _wic_codec_iwicmetadatawriter_removevaluebyindex, wic._wic_codec_iwicmetadatawriter_removevaluebyindex, wincodecsdk/IWICMetadataWriter::RemoveValueByIndex
 ms.topic: method
-f1_keywords: ["wincodecsdk/IWICMetadataWriter.RemoveValueByIndex"]
+f1_keywords: 
+ - "wincodecsdk/IWICMetadataWriter.RemoveValueByIndex"
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

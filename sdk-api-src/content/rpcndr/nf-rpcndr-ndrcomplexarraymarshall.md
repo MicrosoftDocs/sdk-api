@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrComplexArrayMarshall, NdrComplexArrayMarshall function [Windows API], rpcndr/NdrComplexArrayMarshall, winprog.ndrcomplexarraymarshall
 ms.topic: function
-f1_keywords: ["rpcndr/NdrComplexArrayMarshall"]
+f1_keywords: 
+ - "rpcndr/NdrComplexArrayMarshall"
 req.header: rpcndr.h
 req.include-header: 
 req.target-type: Windows

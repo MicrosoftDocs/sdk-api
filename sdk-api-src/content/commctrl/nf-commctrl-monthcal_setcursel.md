@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MonthCal_SetCurSel, MonthCal_SetCurSel macro [Windows Controls], _win32_MonthCal_SetCurSel, _win32_MonthCal_SetCurSel_cpp, commctrl/MonthCal_SetCurSel, controls.MonthCal_SetCurSel, controls._win32_MonthCal_SetCurSel
 ms.topic: macro
-f1_keywords: ["commctrl/MonthCal_SetCurSel"]
+f1_keywords: 
+ - "commctrl/MonthCal_SetCurSel"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

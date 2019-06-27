@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StringCchCatN, StringCchCatN function [Menus and Other Resources], StringCchCatNA, StringCchCatNW, _shell_StringCchCatN, _shell_stringcchcatn_cpp, menurc.stringcchcatn, strsafe/StringCchCatN, strsafe/StringCchCatNA, strsafe/StringCchCatNW, winui._shell_stringcchcatn
 ms.topic: function
-f1_keywords: ["strsafe/StringCchCatN"]
+f1_keywords: 
+ - "strsafe/StringCchCatN"
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows

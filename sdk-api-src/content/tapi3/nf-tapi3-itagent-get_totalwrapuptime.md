@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_TotalWrapUpTime method, ITAgent.get_TotalWrapUpTime, ITAgent::get_TotalWrapUpTime, _tapi3_itagent_get_totalwrapuptime, get_TotalWrapUpTime, get_TotalWrapUpTime method [TAPI 2.2], get_TotalWrapUpTime method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_totalwrapuptime, tapi3cc/ITAgent::get_TotalWrapUpTime
 ms.topic: method
-f1_keywords: ["tapi3/ITAgent.get_TotalWrapUpTime"]
+f1_keywords: 
+ - "tapi3/ITAgent.get_TotalWrapUpTime"
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

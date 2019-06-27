@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetServiceType, GetServiceType method [Windows Media Player], GetServiceType method [Windows Media Player],IWMPRemoteMediaServices interface, IWMPRemoteMediaServices interface [Windows Media Player],GetServiceType method, IWMPRemoteMediaServices.GetServiceType, IWMPRemoteMediaServices::GetServiceType, IWMPRemoteMediaServicesGetServiceType, wmp.iwmpremotemediaservices_getservicetype, wmp/IWMPRemoteMediaServices::GetServiceType
 ms.topic: method
-f1_keywords: ["wmp/IWMPRemoteMediaServices.GetServiceType"]
+f1_keywords: 
+ - "wmp/IWMPRemoteMediaServices.GetServiceType"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

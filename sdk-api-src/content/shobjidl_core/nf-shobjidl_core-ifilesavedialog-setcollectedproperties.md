@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSaveDialog interface [Windows Shell],SetCollectedProperties method, IFileSaveDialog.SetCollectedProperties, IFileSaveDialog::SetCollectedProperties, SetCollectedProperties, SetCollectedProperties method [Windows Shell], SetCollectedProperties method [Windows Shell],IFileSaveDialog interface, shell.IFileSaveDialog_SetCollectedProperties, shell_IFileSaveDialog_SetCollectedProperties, shobjidl_core/IFileSaveDialog::SetCollectedProperties
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileSaveDialog.SetCollectedProperties"]
+f1_keywords: 
+ - "shobjidl_core/IFileSaveDialog.SetCollectedProperties"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

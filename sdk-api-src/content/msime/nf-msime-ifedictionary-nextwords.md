@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFEDictionary interface [Internationalization for Windows Applications],NextWords method, IFEDictionary.NextWords, IFEDictionary::NextWords, NextWords, NextWords method [Internationalization for Windows Applications], NextWords method [Internationalization for Windows Applications],IFEDictionary interface, intl.ifedictionary_nextwords, msime/IFEDictionary::NextWords
 ms.topic: method
-f1_keywords: ["msime/IFEDictionary.NextWords"]
+f1_keywords: 
+ - "msime/IFEDictionary.NextWords"
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWnd, GetWnd method [Text Services Framework], GetWnd method [Text Services Framework],ITfContextView interface, ITfContextView interface [Text Services Framework],GetWnd method, ITfContextView.GetWnd, ITfContextView::GetWnd, _tsf_itfcontextview_getwnd_ref, msctf/ITfContextView::GetWnd, tsf.itfcontextview_getwnd
 ms.topic: method
-f1_keywords: ["msctf/ITfContextView.GetWnd"]
+f1_keywords: 
+ - "msctf/ITfContextView.GetWnd"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

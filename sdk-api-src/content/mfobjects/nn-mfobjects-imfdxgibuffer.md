@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFDXGIBuffer, IMFDXGIBuffer interface [Media Foundation], IMFDXGIBuffer interface [Media Foundation],described, mf.imfdxgibuffer, mfobjects/IMFDXGIBuffer
 ms.topic: interface
-f1_keywords: ["mfobjects/IMFDXGIBuffer"]
+f1_keywords: 
+ - "mfobjects/IMFDXGIBuffer"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

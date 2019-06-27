@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutboundRoutingGroup interface [Fax Service],Status property, IFaxOutboundRoutingGroup.Status, IFaxOutboundRoutingGroup.get_Status, IFaxOutboundRoutingGroup::Status, IFaxOutboundRoutingGroup::get_Status, Status property [Fax Service], Status property [Fax Service],IFaxOutboundRoutingGroup interface, _mfax_faxoutboundroutinggroup.status, fax._mfax_faxoutboundroutinggroup_cpp_mfax_faxoutboundroutinggroup_status_cpp, fax._mfax_faxoutboundroutinggroup_status, faxcomex/IFaxOutboundRoutingGroup::Status, faxcomex/IFaxOutboundRoutingGroup::get_Status, get_Status
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxOutboundRoutingGroup.Status"]
+f1_keywords: 
+ - "faxcomex/IFaxOutboundRoutingGroup.Status"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiEndTransaction, MsiEndTransaction function [Setup API], msi/MsiEndTransaction, setup.msiendtransaction
 ms.topic: function
-f1_keywords: ["msi/MsiEndTransaction"]
+f1_keywords: 
+ - "msi/MsiEndTransaction"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

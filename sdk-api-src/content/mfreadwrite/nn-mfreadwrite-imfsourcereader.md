@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSourceReader, IMFSourceReader interface [Media Foundation], IMFSourceReader interface [Media Foundation],described, mf.imfsourcereader, mfreadwrite/IMFSourceReader
 ms.topic: interface
-f1_keywords: ["mfreadwrite/IMFSourceReader"]
+f1_keywords: 
+ - "mfreadwrite/IMFSourceReader"
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

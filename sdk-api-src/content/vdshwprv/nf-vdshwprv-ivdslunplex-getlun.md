@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLun, GetLun method [VDS], GetLun method [VDS],IVdsLunPlex interface, IVdsLunPlex interface [VDS],GetLun method, IVdsLunPlex.GetLun, IVdsLunPlex::GetLun, base.ivdslunplex_getlun, vds/IVdsLunPlex::GetLun, vdshwprv/IVdsLunPlex::GetLun
 ms.topic: method
-f1_keywords: ["vdshwprv/IVdsLunPlex.GetLun"]
+f1_keywords: 
+ - "vdshwprv/IVdsLunPlex.GetLun"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

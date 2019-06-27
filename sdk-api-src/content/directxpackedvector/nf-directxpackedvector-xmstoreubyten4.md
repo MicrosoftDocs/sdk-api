@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMStoreUByteN4, XMStoreUByteN4, XMStoreUByteN4 method [DirectX Math Support APIs], dxmath.xmstoreubyten4
 ms.topic: function
-f1_keywords: ["directxpackedvector/XMStoreUByteN4"]
+f1_keywords: 
+ - "directxpackedvector/XMStoreUByteN4"
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows

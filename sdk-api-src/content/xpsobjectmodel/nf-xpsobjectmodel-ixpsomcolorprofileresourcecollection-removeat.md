@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMColorProfileResourceCollection.RemoveAt, IXpsOMColorProfileResourceCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, xps.ixpsomcolorprofileresourcecollection_removeat, xpsobjectmodel/IXpsOMColorProfileResourceCollection::RemoveAt
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMColorProfileResourceCollection.RemoveAt"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMColorProfileResourceCollection.RemoveAt"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

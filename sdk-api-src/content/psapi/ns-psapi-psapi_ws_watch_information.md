@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPSAPI_WS_WATCH_INFORMATION, PPSAPI_WS_WATCH_INFORMATION, PPSAPI_WS_WATCH_INFORMATION structure pointer [PSAPI], PSAPI_WS_WATCH_INFORMATION, PSAPI_WS_WATCH_INFORMATION structure [PSAPI], _win32_psapi_ws_watch_information_str, base.psapi_ws_watch_information_str, psapi.psapi_ws_watch_information_str, psapi/PPSAPI_WS_WATCH_INFORMATION, psapi/PSAPI_WS_WATCH_INFORMATION"
 ms.topic: struct
-f1_keywords: ["psapi/PSAPI_WS_WATCH_INFORMATION"]
+f1_keywords: 
+ - "psapi/PSAPI_WS_WATCH_INFORMATION"
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

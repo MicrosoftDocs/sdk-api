@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISBE2MediaTypeProfile, ISBE2MediaTypeProfile interface [Microsoft TV Technologies], ISBE2MediaTypeProfile interface [Microsoft TV Technologies],described, mstv.isbe2mediatypeprofile, sbe/ISBE2MediaTypeProfile
 ms.topic: interface
-f1_keywords: ["sbe/ISBE2MediaTypeProfile"]
+f1_keywords: 
+ - "sbe/ISBE2MediaTypeProfile"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

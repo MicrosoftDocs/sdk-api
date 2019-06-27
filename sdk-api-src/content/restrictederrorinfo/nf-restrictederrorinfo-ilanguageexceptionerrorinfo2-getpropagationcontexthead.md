@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropagationContextHead, GetPropagationContextHead method [Windows Runtime], GetPropagationContextHead method [Windows Runtime],ILanguageExceptionErrorInfo2 interface, ILanguageExceptionErrorInfo2 interface [Windows Runtime],GetPropagationContextHead method, ILanguageExceptionErrorInfo2.GetPropagationContextHead, ILanguageExceptionErrorInfo2::GetPropagationContextHead, restrictederrorinfo/ILanguageExceptionErrorInfo2::GetPropagationContextHead, winrt.ilanguageexceptionerrorinfo2_getpropagationcontexthead
 ms.topic: method
-f1_keywords: ["restrictederrorinfo/ILanguageExceptionErrorInfo2.GetPropagationContextHead"]
+f1_keywords: 
+ - "restrictederrorinfo/ILanguageExceptionErrorInfo2.GetPropagationContextHead"
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows

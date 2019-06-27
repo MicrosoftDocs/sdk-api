@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetworkConnectionEvents interface [Network Awareness],NetworkConnectionPropertyChanged method, INetworkConnectionEvents.NetworkConnectionPropertyChanged, INetworkConnectionEvents::NetworkConnectionPropertyChanged, NetworkConnectionPropertyChanged, NetworkConnectionPropertyChanged method [Network Awareness], NetworkConnectionPropertyChanged method [Network Awareness],INetworkConnectionEvents interface, netlistmgr/INetworkConnectionEvents::NetworkConnectionPropertyChanged, nla.inetworkconnectionevents_networkconnectionpropertychange
 ms.topic: method
-f1_keywords: ["netlistmgr/INetworkConnectionEvents.NetworkConnectionPropertyChanged"]
+f1_keywords: 
+ - "netlistmgr/INetworkConnectionEvents.NetworkConnectionPropertyChanged"
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

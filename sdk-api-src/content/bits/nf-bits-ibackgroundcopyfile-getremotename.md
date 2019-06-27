@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRemoteName, GetRemoteName method [BITS], GetRemoteName method [BITS],IBackgroundCopyFile interface, IBackgroundCopyFile interface [BITS],GetRemoteName method, IBackgroundCopyFile.GetRemoteName, IBackgroundCopyFile::GetRemoteName, _drz_ibackgroundcopyfile_getremotename, bits.ibackgroundcopyfile_getremotename, bits/IBackgroundCopyFile::GetRemoteName
 ms.topic: method
-f1_keywords: ["bits/IBackgroundCopyFile.GetRemoteName"]
+f1_keywords: 
+ - "bits/IBackgroundCopyFile.GetRemoteName"
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

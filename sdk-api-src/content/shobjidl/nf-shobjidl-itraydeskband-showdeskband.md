@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITrayDeskBand interface [Windows Shell],ShowDeskBand method, ITrayDeskBand.ShowDeskBand, ITrayDeskBand::ShowDeskBand, ShowDeskBand, ShowDeskBand method [Windows Shell], ShowDeskBand method [Windows Shell],ITrayDeskBand interface, _shell_ITrayDeskBand_ShowDeskBand, shell.ITrayDeskBand_ShowDeskBand, shobjidl/ITrayDeskBand::ShowDeskBand
 ms.topic: method
-f1_keywords: ["shobjidl/ITrayDeskBand.ShowDeskBand"]
+f1_keywords: 
+ - "shobjidl/ITrayDeskBand.ShowDeskBand"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

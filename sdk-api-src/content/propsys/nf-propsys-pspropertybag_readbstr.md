@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_ReadBSTR, PSPropertyBag_ReadBSTR function [Windows Properties], properties.PSPropertyBag_ReadBSTR, propsys/PSPropertyBag_ReadBSTR, shell.PSPropertyBag_ReadBSTR, shell_PSPropertyBag_ReadBSTR
 ms.topic: function
-f1_keywords: ["propsys/PSPropertyBag_ReadBSTR"]
+f1_keywords: 
+ - "propsys/PSPropertyBag_ReadBSTR"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

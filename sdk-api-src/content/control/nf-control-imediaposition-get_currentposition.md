@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaPosition interface [DirectShow],get_CurrentPosition method, IMediaPosition.get_CurrentPosition, IMediaPosition::get_CurrentPosition, IMediaPositionget_CurrentPosition, control/IMediaPosition::get_CurrentPosition, dshow.imediaposition_get_currentposition, get_CurrentPosition, get_CurrentPosition method [DirectShow], get_CurrentPosition method [DirectShow],IMediaPosition interface
 ms.topic: method
-f1_keywords: ["control/IMediaPosition.get_CurrentPosition"]
+f1_keywords: 
+ - "control/IMediaPosition.get_CurrentPosition"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

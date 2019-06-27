@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPhoneDeviceSpecificEvent interface [TAPI 2.2],get_Phone method, ITPhoneDeviceSpecificEvent.get_Phone, ITPhoneDeviceSpecificEvent::get_Phone, _tapi3_itphonedevicespecificevent_get_phone, get_Phone, get_Phone method [TAPI 2.2], get_Phone method [TAPI 2.2],ITPhoneDeviceSpecificEvent interface, tapi3.itphonedevicespecificevent_get_phone, tapi3if/ITPhoneDeviceSpecificEvent::get_Phone
 ms.topic: method
-f1_keywords: ["tapi3if/ITPhoneDeviceSpecificEvent.get_Phone"]
+f1_keywords: 
+ - "tapi3if/ITPhoneDeviceSpecificEvent.get_Phone"
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

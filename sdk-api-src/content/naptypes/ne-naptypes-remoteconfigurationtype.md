@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RemoteConfigurationType, RemoteConfigurationType enumeration [NAP], nap.remoteconfigurationtype, naptypes/RemoteConfigurationType, naptypes/remoteConfigTypeConfigBlob, naptypes/remoteConfigTypeMachine, remoteConfigTypeConfigBlob, remoteConfigTypeMachine
 ms.topic: enum
-f1_keywords: ["naptypes/RemoteConfigurationType"]
+f1_keywords: 
+ - "naptypes/RemoteConfigurationType"
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows

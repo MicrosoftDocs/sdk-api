@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentOperationMode, GetCurrentOperationMode method [DirectShow], GetCurrentOperationMode method [DirectShow],IDMOVideoOutputOptimizations interface, IDMOVideoOutputOptimizations interface [DirectShow],GetCurrentOperationMode method, IDMOVideoOutputOptimizations.GetCurrentOperationMode, IDMOVideoOutputOptimizations::GetCurrentOperationMode, IDMOVideoOutputOptimizationsGetCurrentOperationMode, dshow.idmovideooutputoptimizations_getcurrentoperationmode, mediaobj/IDMOVideoOutputOptimizations::GetCurrentOperationMode
 ms.topic: method
-f1_keywords: ["mediaobj/IDMOVideoOutputOptimizations.GetCurrentOperationMode"]
+f1_keywords: 
+ - "mediaobj/IDMOVideoOutputOptimizations.GetCurrentOperationMode"
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

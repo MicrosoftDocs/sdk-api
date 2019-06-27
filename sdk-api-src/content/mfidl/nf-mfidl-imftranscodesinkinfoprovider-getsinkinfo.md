@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSinkInfo, GetSinkInfo method [Media Foundation], GetSinkInfo method [Media Foundation],IMFTranscodeSinkInfoProvider interface, IMFTranscodeSinkInfoProvider interface [Media Foundation],GetSinkInfo method, IMFTranscodeSinkInfoProvider.GetSinkInfo, IMFTranscodeSinkInfoProvider::GetSinkInfo, mf.imftranscodesinkinfoprovider_getsinkinfo, mfidl/IMFTranscodeSinkInfoProvider::GetSinkInfo
 ms.topic: method
-f1_keywords: ["mfidl/IMFTranscodeSinkInfoProvider.GetSinkInfo"]
+f1_keywords: 
+ - "mfidl/IMFTranscodeSinkInfoProvider.GetSinkInfo"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

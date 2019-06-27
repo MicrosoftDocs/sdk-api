@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 05/06/2019
 ms.keywords: DirectX::PackedVector.XMHALF4.operator =, DirectX::PackedVector::XMHALF4::operator =, XMHALF4 structure [DirectX Math Support APIs],operator = method, XMHALF4.operator =, XMHALF4.operator-assign, XMHALF4.operator=, XMHALF4::operator-assign, XMHALF4::operator=, dxmath.xmhalf4_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMHALF4 structure, operator=
 ms.topic: method
-f1_keywords: ["directxpackedvector/XMHALF4.operator ="]
+f1_keywords: 
+ - "directxpackedvector/XMHALF4.operator ="
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

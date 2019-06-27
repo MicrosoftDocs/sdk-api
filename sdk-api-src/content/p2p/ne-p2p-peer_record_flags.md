@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PEER_RECORD_FLAGS, PEER_RECORD_FLAGS enumeration [Peer Networking], PEER_RECORD_FLAG_AUTOREFRESH, PEER_RECORD_FLAG_DELETED, p2p.peer_record_flags, p2p/PEER_RECORD_FLAGS, p2p/PEER_RECORD_FLAG_AUTOREFRESH, p2p/PEER_RECORD_FLAG_DELETED
 ms.topic: enum
-f1_keywords: ["p2p/PEER_RECORD_FLAGS"]
+f1_keywords: 
+ - "p2p/PEER_RECORD_FLAGS"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PATHCCH_ALLOW_LONG_PATHS, PATHCCH_DO_NOT_NORMALIZE_SEGMENTS, PATHCCH_ENSURE_IS_EXTENDED_LENGTH_PATH, PATHCCH_ENSURE_TRAILING_SLASH, PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS, PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS, PATHCCH_NONE, PathAllocCombine, PathAllocCombine function [Windows Shell], pathcch/PathAllocCombine, shell.PathAllocCombine
 ms.topic: function
-f1_keywords: ["pathcch/PathAllocCombine"]
+f1_keywords: 
+ - "pathcch/PathAllocCombine"
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PrimaryJabColors, PrimaryJabColors structure [Windows Color System], _color_PrimaryJabColors_str, wcs.primaryjabcolors, wcsplugin/PrimaryJabColors
 ms.topic: struct
-f1_keywords: ["wcsplugin/PrimaryJabColors"]
+f1_keywords: 
+ - "wcsplugin/PrimaryJabColors"
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

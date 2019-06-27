@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbTarget interface [Remote Desktop Services],NumPendingConnections property, ITsSbTarget.NumPendingConnections, ITsSbTarget.get_NumPendingConnections, ITsSbTarget::NumPendingConnections, ITsSbTarget::get_NumPendingConnections, ITsSbTargetEx interface [Remote Desktop Services],NumPendingConnections property, ITsSbTargetEx.NumPendingConnections, ITsSbTargetEx::get_NumPendingConnections, NumPendingConnections property [Remote Desktop Services], NumPendingConnections property [Remote Desktop Services],ITsSbTarget interface, NumPendingConnections property [Remote Desktop Services],ITsSbTargetEx interface, get_NumPendingConnections, sbtsv/ITsSbTarget::NumPendingConnections, sbtsv/ITsSbTarget::get_NumPendingConnections, sbtsv/ITsSbTargetEx::NumPendingConnections, sbtsv/ITsSbTargetEx::get_NumPendingConnections, termserv.itssbtarget_numpendingconnections
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbTarget.NumPendingConnections"]
+f1_keywords: 
+ - "sbtsv/ITsSbTarget.NumPendingConnections"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

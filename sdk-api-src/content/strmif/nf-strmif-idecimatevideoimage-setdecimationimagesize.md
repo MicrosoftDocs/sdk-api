@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDecimateVideoImage interface [DirectShow],SetDecimationImageSize method, IDecimateVideoImage.SetDecimationImageSize, IDecimateVideoImage::SetDecimationImageSize, IDecimateVideoImageSetDecimationImageSize, SetDecimationImageSize, SetDecimationImageSize method [DirectShow], SetDecimationImageSize method [DirectShow],IDecimateVideoImage interface, dshow.idecimatevideoimage_setdecimationimagesize, strmif/IDecimateVideoImage::SetDecimationImageSize
 ms.topic: method
-f1_keywords: ["strmif/IDecimateVideoImage.SetDecimationImageSize"]
+f1_keywords: 
+ - "strmif/IDecimateVideoImage.SetDecimationImageSize"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

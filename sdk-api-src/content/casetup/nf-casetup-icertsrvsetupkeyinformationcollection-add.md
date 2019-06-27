@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICertSrvSetupKeyInformationCollection interface, ICertSrvSetupKeyInformationCollection interface [Security],Add method, ICertSrvSetupKeyInformationCollection.Add, ICertSrvSetupKeyInformationCollection::Add, casetup/ICertSrvSetupKeyInformationCollection::Add, security.icertsrvsetupkeyinformationcollection_add
 ms.topic: method
-f1_keywords: ["casetup/ICertSrvSetupKeyInformationCollection.Add"]
+f1_keywords: 
+ - "casetup/ICertSrvSetupKeyInformationCollection.Add"
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

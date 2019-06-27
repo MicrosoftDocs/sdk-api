@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Draw, Draw method [Direct Write], Draw method [Direct Write],IDWriteInlineObject interface, IDWriteInlineObject interface [Direct Write],Draw method, IDWriteInlineObject.Draw, IDWriteInlineObject::Draw, directwrite.IDWriteInlineObject_Draw, dwrite/IDWriteInlineObject::Draw
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteInlineObject.Draw"]
+f1_keywords: 
+ - "dwrite/IDWriteInlineObject.Draw"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

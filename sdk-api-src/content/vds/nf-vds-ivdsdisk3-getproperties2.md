@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperties2, GetProperties2 method, GetProperties2 method,IVdsDisk3 interface, IVdsDisk3 interface,GetProperties2 method, IVdsDisk3.GetProperties2, IVdsDisk3::GetProperties2, base.ivdsdisk3_getproperties2, vds/IVdsDisk3::GetProperties2
 ms.topic: method
-f1_keywords: ["vds/IVdsDisk3.GetProperties2"]
+f1_keywords: 
+ - "vds/IVdsDisk3.GetProperties2"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

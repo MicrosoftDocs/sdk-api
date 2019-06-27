@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExplorerBrowser interface [Windows Shell],SetRect method, IExplorerBrowser.SetRect, IExplorerBrowser::SetRect, SetRect, SetRect method [Windows Shell], SetRect method [Windows Shell],IExplorerBrowser interface, _shell_IExplorerBrowser_SetRect, shell.IExplorerBrowser_SetRect, shobjidl_core/IExplorerBrowser::SetRect
 ms.topic: method
-f1_keywords: ["shobjidl_core/IExplorerBrowser.SetRect"]
+f1_keywords: 
+ - "shobjidl_core/IExplorerBrowser.SetRect"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

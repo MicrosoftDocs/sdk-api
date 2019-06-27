@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_midiStreamPosition, midiStreamPosition, midiStreamPosition function [Windows Multimedia], mmeapi/midiStreamPosition, multimedia.midistreamposition"
 ms.topic: function
-f1_keywords: ["mmeapi/midiStreamPosition"]
+f1_keywords: 
+ - "mmeapi/midiStreamPosition"
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

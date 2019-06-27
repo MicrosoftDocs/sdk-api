@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IQueryInfo, IQueryInfo interface [Windows Shell], IQueryInfo interface [Windows Shell],described, _win32_IQueryInfo, shell.IQueryInfo, shlobj_core/IQueryInfo
 ms.topic: interface
-f1_keywords: ["shlobj_core/IQueryInfo"]
+f1_keywords: 
+ - "shlobj_core/IQueryInfo"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

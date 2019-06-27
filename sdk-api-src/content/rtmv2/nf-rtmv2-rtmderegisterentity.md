@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtmDeregisterEntity, RtmDeregisterEntity function [RAS], _rtmv2ref_rtmderegisterentity, rras.rtmderegisterentity, rtmv2/RtmDeregisterEntity
 ms.topic: function
-f1_keywords: ["rtmv2/RtmDeregisterEntity"]
+f1_keywords: 
+ - "rtmv2/RtmDeregisterEntity"
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

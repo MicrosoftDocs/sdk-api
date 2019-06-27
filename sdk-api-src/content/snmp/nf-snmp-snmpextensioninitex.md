@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpExtensionInitEx, SnmpExtensionInitEx callback, SnmpExtensionInitEx callback function [SNMP], _snmp_snmpextensioninitex, snmp.snmpextensioninitex, snmp/SnmpExtensionInitEx
 ms.topic: function
-f1_keywords: ["snmp/SnmpExtensionInitEx"]
+f1_keywords: 
+ - "snmp/SnmpExtensionInitEx"
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

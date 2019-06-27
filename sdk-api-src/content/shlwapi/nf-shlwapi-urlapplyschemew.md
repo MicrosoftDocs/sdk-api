@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: URL_APPLY_DEFAULT, URL_APPLY_FORCEAPPLY, URL_APPLY_GUESSFILE, URL_APPLY_GUESSSCHEME, UrlApplyScheme, UrlApplyScheme function [Windows Shell], UrlApplySchemeA, UrlApplySchemeW, _win32_UrlApplyScheme, shell.UrlApplyScheme, shlwapi/UrlApplyScheme, shlwapi/UrlApplySchemeA, shlwapi/UrlApplySchemeW
 ms.topic: function
-f1_keywords: ["shlwapi/UrlApplyScheme"]
+f1_keywords: 
+ - "shlwapi/UrlApplyScheme"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

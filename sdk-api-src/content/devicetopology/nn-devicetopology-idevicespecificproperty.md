@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDeviceSpecificProperty, IDeviceSpecificProperty interface [Core Audio], IDeviceSpecificProperty interface [Core Audio],described, coreaudio.idevicespecificproperty, devicetopology/IDeviceSpecificProperty
 ms.topic: interface
-f1_keywords: ["devicetopology/IDeviceSpecificProperty"]
+f1_keywords: 
+ - "devicetopology/IDeviceSpecificProperty"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

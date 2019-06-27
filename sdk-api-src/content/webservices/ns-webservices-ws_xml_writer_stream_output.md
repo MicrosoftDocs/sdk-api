@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_XML_WRITER_STREAM_OUTPUT, WS_XML_WRITER_STREAM_OUTPUT structure [Web Services for Windows], webservices/WS_XML_WRITER_STREAM_OUTPUT, wsw.ws_xml_writer_stream_output
 ms.topic: struct
-f1_keywords: ["webservices/WS_XML_WRITER_STREAM_OUTPUT"]
+f1_keywords: 
+ - "webservices/WS_XML_WRITER_STREAM_OUTPUT"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

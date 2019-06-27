@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHWnd, GetHWnd method [DirectDraw], GetHWnd method [DirectDraw],IDirectDrawClipper interface, IDirectDrawClipper interface [DirectDraw],GetHWnd method, IDirectDrawClipper.GetHWnd, IDirectDrawClipper::GetHWnd, ddraw/IDirectDrawClipper::GetHWnd, directdraw.idirectdrawclipper_gethwnd
 ms.topic: method
-f1_keywords: ["ddraw/IDirectDrawClipper.GetHWnd"]
+f1_keywords: 
+ - "ddraw/IDirectDrawClipper.GetHWnd"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

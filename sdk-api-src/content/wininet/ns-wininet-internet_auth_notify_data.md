@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INTERNET_AUTH_NOTIFY_DATA, INTERNET_AUTH_NOTIFY_DATA structure [WinINet], _inet_internet_auth_notify_data_structure, wininet.internet_auth_notify_data, wininet/INTERNET_AUTH_NOTIFY_DATA
 ms.topic: struct
-f1_keywords: ["wininet/INTERNET_AUTH_NOTIFY_DATA"]
+f1_keywords: 
+ - "wininet/INTERNET_AUTH_NOTIFY_DATA"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

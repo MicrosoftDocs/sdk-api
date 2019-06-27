@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddCallback, AddCallback method [UPnP APIs], AddCallback method [UPnP APIs],IUPnPService interface, IUPnPService interface [UPnP APIs],AddCallback method, IUPnPService.AddCallback, IUPnPService::AddCallback, _upnp_iupnpservice_addcallback, upnp.iupnpservice_addcallback, upnp/IUPnPService::AddCallback
 ms.topic: method
-f1_keywords: ["upnp/IUPnPService.AddCallback"]
+f1_keywords: 
+ - "upnp/IUPnPService.AddCallback"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

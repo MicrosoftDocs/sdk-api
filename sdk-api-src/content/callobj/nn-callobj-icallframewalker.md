@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICallFrameWalker, ICallFrameWalker interface [COM], ICallFrameWalker interface [COM],described, _com_icallframewalker, callobj/ICallFrameWalker, com.icallframewalker
 ms.topic: interface
-f1_keywords: ["callobj/ICallFrameWalker"]
+f1_keywords: 
+ - "callobj/ICallFrameWalker"
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

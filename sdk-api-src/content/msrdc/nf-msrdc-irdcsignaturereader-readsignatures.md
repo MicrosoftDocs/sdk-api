@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRdcSignatureReader interface [Remote Differential Compression],ReadSignatures method, IRdcSignatureReader.ReadSignatures, IRdcSignatureReader::ReadSignatures, ReadSignatures, ReadSignatures method [Remote Differential Compression], ReadSignatures method [Remote Differential Compression],IRdcSignatureReader interface, fs.irdcsignaturereader_readsignatures, msrdc/IRdcSignatureReader::ReadSignatures, rdc.irdcsignaturereader_readsignatures
 ms.topic: method
-f1_keywords: ["msrdc/IRdcSignatureReader.ReadSignatures"]
+f1_keywords: 
+ - "msrdc/IRdcSignatureReader.ReadSignatures"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

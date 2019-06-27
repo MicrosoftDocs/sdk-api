@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinBioEnrollDiscard, WinBioEnrollDiscard function [Windows Biometric Framework API], secbiomet.winbioenrolldiscard, winbio/WinBioEnrollDiscard
 ms.topic: function
-f1_keywords: ["winbio/WinBioEnrollDiscard"]
+f1_keywords: 
+ - "winbio/WinBioEnrollDiscard"
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

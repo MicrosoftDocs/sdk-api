@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8a880a9a-acd4-4cb1-aea7-4d834ecd9490, EraserWidth property [Tablet PC], EraserWidth property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],EraserWidth property, IInkPicture.EraserWidth, IInkPicture.get_EraserWidth, IInkPicture::EraserWidth, IInkPicture::get_EraserWidth, IInkPicture::put_EraserWidth, InkPicture.get_EraserWidth, InkPicture.put_EraserWidth, get_EraserWidth, msinkaut/IInkPicture::EraserWidth, msinkaut/IInkPicture::get_EraserWidth, msinkaut/IInkPicture::put_EraserWidth, put_EraserWidth, tablet.inkpicture_eraserwidth
 ms.topic: method
-f1_keywords: ["msinkaut/IInkPicture.EraserWidth"]
+f1_keywords: 
+ - "msinkaut/IInkPicture.EraserWidth"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

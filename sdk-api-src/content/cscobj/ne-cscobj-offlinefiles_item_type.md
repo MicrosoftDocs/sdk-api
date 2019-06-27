@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OFFLINEFILES_ITEM_TYPE, OFFLINEFILES_ITEM_TYPE enumeration [Offline Files], OFFLINEFILES_ITEM_TYPE_DIRECTORY, OFFLINEFILES_ITEM_TYPE_FILE, OFFLINEFILES_ITEM_TYPE_SERVER, OFFLINEFILES_ITEM_TYPE_SHARE, cscobj/OFFLINEFILES_ITEM_TYPE, cscobj/OFFLINEFILES_ITEM_TYPE_DIRECTORY, cscobj/OFFLINEFILES_ITEM_TYPE_FILE, cscobj/OFFLINEFILES_ITEM_TYPE_SERVER, cscobj/OFFLINEFILES_ITEM_TYPE_SHARE, of.offlinefiles_item_type
 ms.topic: enum
-f1_keywords: ["cscobj/OFFLINEFILES_ITEM_TYPE"]
+f1_keywords: 
+ - "cscobj/OFFLINEFILES_ITEM_TYPE"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

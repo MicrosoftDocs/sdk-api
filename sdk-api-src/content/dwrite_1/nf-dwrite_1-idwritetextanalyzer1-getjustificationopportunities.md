@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetJustificationOpportunities, GetJustificationOpportunities method [Direct Write], GetJustificationOpportunities method [Direct Write],IDWriteTextAnalyzer1 interface, IDWriteTextAnalyzer1 interface [Direct Write],GetJustificationOpportunities method, IDWriteTextAnalyzer1.GetJustificationOpportunities, IDWriteTextAnalyzer1::GetJustificationOpportunities, directwrite.idwritetextanalyzer1_getjustificationopportunities, dwrite_1/IDWriteTextAnalyzer1::GetJustificationOpportunities
 ms.topic: method
-f1_keywords: ["dwrite_1/IDWriteTextAnalyzer1.GetJustificationOpportunities"]
+f1_keywords: 
+ - "dwrite_1/IDWriteTextAnalyzer1.GetJustificationOpportunities"
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

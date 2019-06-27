@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBindCtx interface [COM],SetBindOptions method, IBindCtx.SetBindOptions, IBindCtx::SetBindOptions, SetBindOptions, SetBindOptions method [COM], SetBindOptions method [COM],IBindCtx interface, _com_ibindctx_setbindoptions, com.ibindctx_setbindoptions, objidl/IBindCtx::SetBindOptions
 ms.topic: method
-f1_keywords: ["objidl/IBindCtx.SetBindOptions"]
+f1_keywords: 
+ - "objidl/IBindCtx.SetBindOptions"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

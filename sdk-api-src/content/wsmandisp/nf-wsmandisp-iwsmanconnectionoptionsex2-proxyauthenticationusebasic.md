@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],ProxyAuthenticationUseBasic method, IWSManConnectionOptionsEx2.ProxyAuthenticationUseBasic, IWSManConnectionOptionsEx2::ProxyAuthenticationUseBasic, ProxyAuthenticationUseBasic, ProxyAuthenticationUseBasic method [Windows Remote Management], ProxyAuthenticationUseBasic method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_proxyauthenticationusebasic, wsmandisp/IWSManConnectionOptionsEx2::ProxyAuthenticationUseBasic
 ms.topic: method
-f1_keywords: ["wsmandisp/IWSManConnectionOptionsEx2.ProxyAuthenticationUseBasic"]
+f1_keywords: 
+ - "wsmandisp/IWSManConnectionOptionsEx2.ProxyAuthenticationUseBasic"
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

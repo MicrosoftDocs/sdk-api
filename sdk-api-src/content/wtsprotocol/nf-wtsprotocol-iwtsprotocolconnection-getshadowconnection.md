@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetShadowConnection, GetShadowConnection method [Remote Desktop Services], GetShadowConnection method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],GetShadowConnection method, IWTSProtocolConnection.GetShadowConnection, IWTSProtocolConnection::GetShadowConnection, termserv.iwtsprotocolconnection_getshadowconnection, wtsprotocol/IWTSProtocolConnection::GetShadowConnection
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWTSProtocolConnection.GetShadowConnection"]
+f1_keywords: 
+ - "wtsprotocol/IWTSProtocolConnection.GetShadowConnection"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

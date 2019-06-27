@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TF_DA_COLOR, TF_DA_COLOR structure [Text Services Framework], _tsf_tf_da_color_ref, msctf/TF_DA_COLOR, tsf.tf_da_color
 ms.topic: struct
-f1_keywords: ["msctf/TF_DA_COLOR"]
+f1_keywords: 
+ - "msctf/TF_DA_COLOR"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

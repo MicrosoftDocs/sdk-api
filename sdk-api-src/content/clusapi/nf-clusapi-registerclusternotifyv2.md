@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PCLUSAPI_REGISTER_CLUSTER_NOTIFY_V2, PCLUSAPI_REGISTER_CLUSTER_NOTIFY_V2 function [Failover Cluster], RegisterClusterNotifyV2, RegisterClusterNotifyV2 function [Failover Cluster], clusapi/PCLUSAPI_REGISTER_CLUSTER_NOTIFY_V2, clusapi/RegisterClusterNotifyV2, mscs.registerclusternotifyv2
 ms.topic: function
-f1_keywords: ["clusapi/RegisterClusterNotifyV2"]
+f1_keywords: 
+ - "clusapi/RegisterClusterNotifyV2"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

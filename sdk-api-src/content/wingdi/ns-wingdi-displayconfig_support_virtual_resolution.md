@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION, DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION structure [Display Devices], display.displayconfig_support_virtual_resolution, wingdi/DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
 ms.topic: struct
-f1_keywords: ["wingdi/DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION"]
+f1_keywords: 
+ - "wingdi/DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

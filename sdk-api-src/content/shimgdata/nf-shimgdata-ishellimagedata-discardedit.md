@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DiscardEdit, DiscardEdit method [Windows Shell], DiscardEdit method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],DiscardEdit method, IShellImageData.DiscardEdit, IShellImageData::DiscardEdit, _shell_IShellImageData_DiscardEdit, shell.IShellImageData_DiscardEdit, shimgdata/IShellImageData::DiscardEdit
 ms.topic: method
-f1_keywords: ["shimgdata/IShellImageData.DiscardEdit"]
+f1_keywords: 
+ - "shimgdata/IShellImageData.DiscardEdit"
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

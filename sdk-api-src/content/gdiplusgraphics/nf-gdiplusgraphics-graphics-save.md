@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],Save method, Graphics.Save, Graphics::Save, Save, Save method [GDI+], Save method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_Save_, gdiplus._gdiplus_CLASS_Graphics_Save_
 ms.topic: method
-f1_keywords: ["gdiplusgraphics/Graphics.Save"]
+f1_keywords: 
+ - "gdiplusgraphics/Graphics.Save"
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

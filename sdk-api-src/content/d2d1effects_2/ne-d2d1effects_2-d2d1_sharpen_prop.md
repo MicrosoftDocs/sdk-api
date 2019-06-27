@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_SHARPEN_PROP, D2D1_SHARPEN_PROP enumeration [Direct2D], D2D1_SHARPEN_PROP_SHARPNESS, D2D1_SHARPEN_PROP_THRESHOLD, d2d1effects_2/D2D1_SHARPEN_PROP, d2d1effects_2/D2D1_SHARPEN_PROP_SHARPNESS, d2d1effects_2/D2D1_SHARPEN_PROP_THRESHOLD, direct2d.d2d1_sharpen_prop
 ms.topic: enum
-f1_keywords: ["d2d1effects_2/D2D1_SHARPEN_PROP"]
+f1_keywords: 
+ - "d2d1effects_2/D2D1_SHARPEN_PROP"
 req.header: d2d1effects_2.h
 req.include-header: 
 req.target-type: Windows

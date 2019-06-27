@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReadPreviousLogRestartArea, ReadPreviousLogRestartArea function [Files], clfsw32/ReadPreviousLogRestartArea, fs.readpreviouslogrestartarea
 ms.topic: function
-f1_keywords: ["clfsw32/ReadPreviousLogRestartArea"]
+f1_keywords: 
+ - "clfsw32/ReadPreviousLogRestartArea"
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

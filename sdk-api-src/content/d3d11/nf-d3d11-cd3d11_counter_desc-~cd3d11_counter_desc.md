@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CD3D11_COUNTER_DESC interface [Direct3D 11],~CD3D11_COUNTER_DESC destructor, CD3D11_COUNTER_DESC.~CD3D11_COUNTER_DESC, CD3D11_COUNTER_DESC::~CD3D11_COUNTER_DESC, CD3D11_COUNTER_DESC::~CD3D11_COUNTER_DESC(), d3d11/CD3D11_COUNTER_DESC::~CD3D11_COUNTER_DESC, direct3d11.cd3d11_counter_desc__cd3d11_counter_desc__, ~CD3D11_COUNTER_DESC, ~CD3D11_COUNTER_DESC destructor [Direct3D 11], ~CD3D11_COUNTER_DESC destructor [Direct3D 11],CD3D11_COUNTER_DESC interface
 ms.topic: method
-f1_keywords: ["d3d11/CD3D11_COUNTER_DESC.~CD3D11_COUNTER_DESC"]
+f1_keywords: 
+ - "d3d11/CD3D11_COUNTER_DESC.~CD3D11_COUNTER_DESC"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

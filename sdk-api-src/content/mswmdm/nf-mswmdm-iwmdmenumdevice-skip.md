@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDMEnumDevice interface [windows Media Device Manager],Skip method, IWMDMEnumDevice.Skip, IWMDMEnumDevice::Skip, IWMDMEnumDeviceSkip, Skip, Skip method [windows Media Device Manager], Skip method [windows Media Device Manager],IWMDMEnumDevice interface, mswmdm/IWMDMEnumDevice::Skip, wmdm.iwmdmenumdevice_skip
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMEnumDevice.Skip"]
+f1_keywords: 
+ - "mswmdm/IWMDMEnumDevice.Skip"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

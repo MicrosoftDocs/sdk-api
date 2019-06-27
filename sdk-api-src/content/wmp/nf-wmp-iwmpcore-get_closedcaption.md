@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_closedCaption method, IWMPCore.get_closedCaption, IWMPCore::get_closedCaption, IWMPCoreget_closedCaption, get_closedCaption, get_closedCaption method [Windows Media Player], get_closedCaption method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_closedcaption, wmp/IWMPCore::get_closedCaption
 ms.topic: method
-f1_keywords: ["wmp/IWMPCore.get_closedCaption"]
+f1_keywords: 
+ - "wmp/IWMPCore.get_closedCaption"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

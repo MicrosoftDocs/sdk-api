@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_FILTER, WSMAN_FILTER structure [Windows Remote Management], winrm.wsman_filter, wsman/WSMAN_FILTER
 ms.topic: struct
-f1_keywords: ["wsman/WSMAN_FILTER"]
+f1_keywords: 
+ - "wsman/WSMAN_FILTER"
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

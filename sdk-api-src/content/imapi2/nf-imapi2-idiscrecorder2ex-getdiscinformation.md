@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDiscInformation, GetDiscInformation method [IMAPI], GetDiscInformation method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetDiscInformation method, IDiscRecorder2Ex.GetDiscInformation, IDiscRecorder2Ex::GetDiscInformation, imapi.idiscrecorder2ex_getdiscinformation, imapi2/IDiscRecorder2Ex::GetDiscInformation
 ms.topic: method
-f1_keywords: ["imapi2/IDiscRecorder2Ex.GetDiscInformation"]
+f1_keywords: 
+ - "imapi2/IDiscRecorder2Ex.GetDiscInformation"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

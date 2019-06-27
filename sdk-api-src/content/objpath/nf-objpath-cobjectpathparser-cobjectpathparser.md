@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "??0CObjectPathParser@@QAE@W4ObjectParserFlags@@@Z, ??0CObjectPathParser@@QEAA@W4ObjectParserFlags@@@Z, CObjectPathParser, CObjectPathParser interface [Windows Management Instrumentation],CObjectPathParser method, CObjectPathParser method [Windows Management Instrumentation], CObjectPathParser method [Windows Management Instrumentation],CObjectPathParser interface, CObjectPathParser.CObjectPathParser, CObjectPathParser::CObjectPathParser, objpath/CObjectPathParser::CObjectPathParser, wmi.cobjectpathparser_cobjectpathparser"
 ms.topic: method
-f1_keywords: ["objpath/CObjectPathParser.CObjectPathParser"]
+f1_keywords: 
+ - "objpath/CObjectPathParser.CObjectPathParser"
 req.header: objpath.h
 req.include-header: ObjPath.h
 req.target-type: Windows

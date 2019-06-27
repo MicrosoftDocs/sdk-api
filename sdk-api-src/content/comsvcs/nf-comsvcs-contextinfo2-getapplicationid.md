@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ContextInfo2 interface [COM+],GetApplicationId method, ContextInfo2.GetApplicationId, ContextInfo2::GetApplicationId, GetApplicationId, GetApplicationId method [COM+], GetApplicationId method [COM+],ContextInfo2 interface, _cos_ContextInfo2_GetApplicationId, comsvcs/ContextInfo2::GetApplicationId, cos.contextinfo2_getapplicationid
 ms.topic: method
-f1_keywords: ["comsvcs/ContextInfo2.GetApplicationId"]
+f1_keywords: 
+ - "comsvcs/ContextInfo2.GetApplicationId"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

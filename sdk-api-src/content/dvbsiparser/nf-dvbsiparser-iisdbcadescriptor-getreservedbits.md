@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetReservedBits, GetReservedBits method [Microsoft TV Technologies], GetReservedBits method [Microsoft TV Technologies],IIsdbCADescriptor interface, IIsdbCADescriptor interface [Microsoft TV Technologies],GetReservedBits method, IIsdbCADescriptor.GetReservedBits, IIsdbCADescriptor::GetReservedBits, dvbsiparser/IIsdbCADescriptor::GetReservedBits, mstv.iisdbcadescriptor_getreservedbits
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbCADescriptor.GetReservedBits"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbCADescriptor.GetReservedBits"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindVertexBuffer, FindVertexBuffer method [Direct2D], FindVertexBuffer method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],FindVertexBuffer method, ID2D1EffectContext.FindVertexBuffer, ID2D1EffectContext::FindVertexBuffer, d2d1effectauthor/ID2D1EffectContext::FindVertexBuffer, direct2d.id2d1contextinternal_findvertexbuffer
 ms.topic: method
-f1_keywords: ["d2d1effectauthor/ID2D1EffectContext.FindVertexBuffer"]
+f1_keywords: 
+ - "d2d1effectauthor/ID2D1EffectContext.FindVertexBuffer"
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

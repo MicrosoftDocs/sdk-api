@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [GPMC], Count property [GPMC],GPMSecurityInfo class, Count property [GPMC],IGPMSecurityInfo interface, GPMSecurityInfo class [GPMC],Count property, IGPMSecurityInfo interface [GPMC],Count property, IGPMSecurityInfo.Count, IGPMSecurityInfo.get_Count, IGPMSecurityInfo::Count, IGPMSecurityInfo::get_Count, _win32_igpmsecurityinfo_get_count, get_Count, gpmc.igpmsecurityinfo_get_count, gpmgmt/IGPMSecurityInfo::Count, gpmgmt/IGPMSecurityInfo::get_Count
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMSecurityInfo.Count"]
+f1_keywords: 
+ - "gpmgmt/IGPMSecurityInfo.Count"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

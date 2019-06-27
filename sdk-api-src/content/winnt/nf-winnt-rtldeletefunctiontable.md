@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlDeleteFunctionTable, RtlDeleteFunctionTable function, base.rtldeletefunctiontable, winnt/RtlDeleteFunctionTable
 ms.topic: function
-f1_keywords: ["winnt/RtlDeleteFunctionTable"]
+f1_keywords: 
+ - "winnt/RtlDeleteFunctionTable"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

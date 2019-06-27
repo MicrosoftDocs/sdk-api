@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckFormatSupport, CheckFormatSupport method [Direct3D 10], CheckFormatSupport method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CheckFormatSupport method, ID3D10Device.CheckFormatSupport, ID3D10Device::CheckFormatSupport, d3d10/ID3D10Device::CheckFormatSupport, direct3d10.id3d10device_checkformatsupport, eaf02733-648b-44c6-4ca7-57aa2cecf913
 ms.topic: method
-f1_keywords: ["d3d10/ID3D10Device.CheckFormatSupport"]
+f1_keywords: 
+ - "d3d10/ID3D10Device.CheckFormatSupport"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

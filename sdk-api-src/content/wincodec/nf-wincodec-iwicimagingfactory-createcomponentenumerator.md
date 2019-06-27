@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateComponentEnumerator, CreateComponentEnumerator method [Windows Imaging Component], CreateComponentEnumerator method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateComponentEnumerator method, IWICImagingFactory.CreateComponentEnumerator, IWICImagingFactory::CreateComponentEnumerator, _wic_codec_iwicimagingfactory_createcomponentenumerator, wic._wic_codec_iwicimagingfactory_createcomponentenumerator, wincodec/IWICImagingFactory::CreateComponentEnumerator
 ms.topic: method
-f1_keywords: ["wincodec/IWICImagingFactory.CreateComponentEnumerator"]
+f1_keywords: 
+ - "wincodec/IWICImagingFactory.CreateComponentEnumerator"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

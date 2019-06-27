@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PFAT_STATISTICS, FAT_STATISTICS, FAT_STATISTICS structure [Files], PFAT_STATISTICS, PFAT_STATISTICS structure pointer [Files], base.fat_statistics_str, fs.fat_statistics_str, winioctl/FAT_STATISTICS, winioctl/PFAT_STATISTICS"
 ms.topic: struct
-f1_keywords: ["winioctl/FAT_STATISTICS"]
+f1_keywords: 
+ - "winioctl/FAT_STATISTICS"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

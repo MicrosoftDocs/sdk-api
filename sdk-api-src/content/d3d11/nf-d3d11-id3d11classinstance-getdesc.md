@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 64584e80-07e5-d72e-198e-074e63a44c16, GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11ClassInstance interface, ID3D11ClassInstance interface [Direct3D 11],GetDesc method, ID3D11ClassInstance.GetDesc, ID3D11ClassInstance::GetDesc, d3d11/ID3D11ClassInstance::GetDesc, direct3d11.id3d11classinstance_getdesc
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11ClassInstance.GetDesc"]
+f1_keywords: 
+ - "d3d11/ID3D11ClassInstance.GetDesc"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [DirectShow], Disconnect method [DirectShow],IFilterGraph interface, Disconnect method [DirectShow],IGraphBuilder interface, IFilterGraph interface [DirectShow],Disconnect method, IFilterGraph.Disconnect, IFilterGraph::Disconnect, IFilterGraphDisconnect, IGraphBuilder interface [DirectShow],Disconnect method, IGraphBuilder.Disconnect, IGraphBuilder::Disconnect, dshow.ifiltergraph_disconnect, strmif/IFilterGraph::Disconnect, strmif/IGraphBuilder::Disconnect
 ms.topic: method
-f1_keywords: ["strmif/IFilterGraph.Disconnect"]
+f1_keywords: 
+ - "strmif/IFilterGraph.Disconnect"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

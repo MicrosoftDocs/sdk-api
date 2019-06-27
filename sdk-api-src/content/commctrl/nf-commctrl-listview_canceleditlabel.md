@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_CancelEditLabel, ListView_CancelEditLabel macro [Windows Controls], _win32_ListView_CancelEditLabel, _win32_ListView_CancelEditLabel_cpp, commctrl/ListView_CancelEditLabel, controls.ListView_CancelEditLabel, controls._win32_ListView_CancelEditLabel
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_CancelEditLabel"]
+f1_keywords: 
+ - "commctrl/ListView_CancelEditLabel"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

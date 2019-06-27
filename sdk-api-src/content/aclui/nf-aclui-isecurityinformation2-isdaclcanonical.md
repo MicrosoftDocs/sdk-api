@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISecurityInformation2 interface [Security],IsDaclCanonical method, ISecurityInformation2.IsDaclCanonical, ISecurityInformation2::IsDaclCanonical, IsDaclCanonical, IsDaclCanonical method [Security], IsDaclCanonical method [Security],ISecurityInformation2 interface, _win32_isecurityinformation2_isdaclcanonical, aclui/ISecurityInformation2::IsDaclCanonical, security.isecurityinformation2_isdaclcanonical
 ms.topic: method
-f1_keywords: ["aclui/ISecurityInformation2.IsDaclCanonical"]
+f1_keywords: 
+ - "aclui/ISecurityInformation2.IsDaclCanonical"
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

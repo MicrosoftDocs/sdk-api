@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICommDlgBrowser3 interface [Windows Shell],OnColumnClicked method, ICommDlgBrowser3.OnColumnClicked, ICommDlgBrowser3::OnColumnClicked, OnColumnClicked, OnColumnClicked method [Windows Shell], OnColumnClicked method [Windows Shell],ICommDlgBrowser3 interface, _shell_ICommDlgBrowser3_OnColumnClicked, shell.ICommDlgBrowser3_OnColumnClicked, shobjidl/ICommDlgBrowser3::OnColumnClicked
 ms.topic: method
-f1_keywords: ["shobjidl/ICommDlgBrowser3.OnColumnClicked"]
+f1_keywords: 
+ - "shobjidl/ICommDlgBrowser3.OnColumnClicked"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

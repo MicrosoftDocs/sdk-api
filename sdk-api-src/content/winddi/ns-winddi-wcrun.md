@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWCRUN, PWCRUN, PWCRUN structure pointer [Display Devices], WCRUN, WCRUN structure [Display Devices], display.wcrun, grstrcts_0ef325fa-6d74-4c0e-87e2-126c05560c5d.xml, winddi/PWCRUN, winddi/WCRUN"
 ms.topic: struct
-f1_keywords: ["winddi/WCRUN"]
+f1_keywords: 
+ - "winddi/WCRUN"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

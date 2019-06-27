@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Class_GetMethod, MI_Class_GetMethod function [Windows Management Infrastructure (MI)], mi/MI_Class_GetMethod, wmi_v2.mi_class_getmethod
 ms.topic: function
-f1_keywords: ["mi/MI_Class_GetMethod"]
+f1_keywords: 
+ - "mi/MI_Class_GetMethod"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

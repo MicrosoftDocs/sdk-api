@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThreadContext, GetThreadContext function, _win32_getthreadcontext, base.getthreadcontext, processthreadsapi/GetThreadContext
 ms.topic: function
-f1_keywords: ["processthreadsapi/GetThreadContext"]
+f1_keywords: 
+ - "processthreadsapi/GetThreadContext"
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

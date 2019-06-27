@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WPCFLAG_IM_LEAVE, WPCFLAG_IM_LEAVE enumeration, WPCFLAG_IM_LEAVE_CONVERSATION_END, WPCFLAG_IM_LEAVE_FORCED, WPCFLAG_IM_LEAVE_NORMAL, parcon.wpcflag_im_leave_flag, wpcevent/WPCFLAG_IM_LEAVE, wpcevent/WPCFLAG_IM_LEAVE_CONVERSATION_END, wpcevent/WPCFLAG_IM_LEAVE_FORCED, wpcevent/WPCFLAG_IM_LEAVE_NORMAL
 ms.topic: enum
-f1_keywords: ["wpcevent/WPCFLAG_IM_LEAVE"]
+f1_keywords: 
+ - "wpcevent/WPCFLAG_IM_LEAVE"
 req.header: wpcevent.h
 req.include-header: 
 req.target-type: Windows

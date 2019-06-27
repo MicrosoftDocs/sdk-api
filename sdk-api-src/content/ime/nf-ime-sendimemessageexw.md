@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SendIMEMessageEx, SendIMEMessageEx function [Windows API], SendIMEMessageExA, SendIMEMessageExW, _win32_SendIMEMessageEx, ime/SendIMEMessageEx, ime/SendIMEMessageExA, ime/SendIMEMessageExW, winprog._win32_sendimemessageex, winui._win32_sendimemessageex
 ms.topic: function
-f1_keywords: ["ime/SendIMEMessageEx"]
+f1_keywords: 
+ - "ime/SendIMEMessageEx"
 req.header: ime.h
 req.include-header: Windows.h
 req.target-type: Windows

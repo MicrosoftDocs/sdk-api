@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_capDriverGetName, capDriverGetName, capDriverGetName macro [Windows Multimedia], multimedia.capdrivergetname, vfw/capDriverGetName"
 ms.topic: macro
-f1_keywords: ["vfw/capDriverGetName"]
+f1_keywords: 
+ - "vfw/capDriverGetName"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

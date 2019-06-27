@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInitializeWithStream, IInitializeWithStream interface [Windows Shell], IInitializeWithStream interface [Windows Shell],described, propsys/IInitializeWithStream, shell.IInitializeWithStream, shell_IInitializeWithStream
 ms.topic: interface
-f1_keywords: ["propsys/IInitializeWithStream"]
+f1_keywords: 
+ - "propsys/IInitializeWithStream"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

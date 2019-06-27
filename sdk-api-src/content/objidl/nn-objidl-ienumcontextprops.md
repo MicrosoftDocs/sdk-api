@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumContextProps, IEnumContextProps interface [COM], IEnumContextProps interface [COM],described, _com_ienumcontextprops, com.ienumcontextprops, objidlbase/IEnumContextProps
 ms.topic: interface
-f1_keywords: ["objidl/IEnumContextProps"]
+f1_keywords: 
+ - "objidl/IEnumContextProps"
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

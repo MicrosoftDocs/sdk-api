@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncProviderInfo, ISyncProviderInfo interface [Windows Sync], ISyncProviderInfo interface [Windows Sync],described, syncregistration/ISyncProviderInfo, winsync.isyncproviderinfo
 ms.topic: interface
-f1_keywords: ["syncregistration/ISyncProviderInfo"]
+f1_keywords: 
+ - "syncregistration/ISyncProviderInfo"
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Task Scheduler], Create method [Task Scheduler],ITaskNamedValueCollection interface, ITaskNamedValueCollection interface [Task Scheduler],Create method, ITaskNamedValueCollection.Create, ITaskNamedValueCollection::Create, taskschd.itasknamedvaluecollection_create, taskschd/ITaskNamedValueCollection::Create
 ms.topic: method
-f1_keywords: ["taskschd/ITaskNamedValueCollection.Create"]
+f1_keywords: 
+ - "taskschd/ITaskNamedValueCollection.Create"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

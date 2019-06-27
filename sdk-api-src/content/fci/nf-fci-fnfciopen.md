@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FNFCIOPEN, FNFCIOPEN macro [Windows API], fci/FNFCIOPEN, winprog.fnfciopen
 ms.topic: macro
-f1_keywords: ["fci/FNFCIOPEN"]
+f1_keywords: 
+ - "fci/FNFCIOPEN"
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

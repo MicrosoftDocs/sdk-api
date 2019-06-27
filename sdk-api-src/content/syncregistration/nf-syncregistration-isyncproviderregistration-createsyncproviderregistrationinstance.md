@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSyncProviderRegistrationInstance, CreateSyncProviderRegistrationInstance method [Windows Sync], CreateSyncProviderRegistrationInstance method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],CreateSyncProviderRegistrationInstance method, ISyncProviderRegistration.CreateSyncProviderRegistrationInstance, ISyncProviderRegistration::CreateSyncProviderRegistrationInstance, syncregistration/ISyncProviderRegistration::CreateSyncProviderRegistrationInstance, winsync.isyncproviderregistration_createsyncproviderregistrationinstance
 ms.topic: method
-f1_keywords: ["syncregistration/ISyncProviderRegistration.CreateSyncProviderRegistrationInstance"]
+f1_keywords: 
+ - "syncregistration/ISyncProviderRegistration.CreateSyncProviderRegistrationInstance"
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TimeProvSysCallbacks, TimeProvSysCallbacks structure, _win32_timeprovsyscallbacks_str, base.timeprovsyscallbacks_str, timeprov/TimeProvSysCallbacks
 ms.topic: struct
-f1_keywords: ["timeprov/TimeProvSysCallbacks"]
+f1_keywords: 
+ - "timeprov/TimeProvSysCallbacks"
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiSourceListAddSource, MsiSourceListAddSource function, MsiSourceListAddSourceA, MsiSourceListAddSourceW, _msi_msisourcelistaddsource, msi/MsiSourceListAddSource, msi/MsiSourceListAddSourceA, msi/MsiSourceListAddSourceW, setup.msisourcelistaddsource
 ms.topic: function
-f1_keywords: ["msi/MsiSourceListAddSource"]
+f1_keywords: 
+ - "msi/MsiSourceListAddSource"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

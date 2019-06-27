@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method, GetType method,ID3D12CommandList interface, ID3D12CommandList interface,GetType method, ID3D12CommandList.GetType, ID3D12CommandList::GetType, d3d12/ID3D12CommandList::GetType, direct3d12.id3d12commandlist_gettype
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12CommandList.GetType"]
+f1_keywords: 
+ - "d3d12/ID3D12CommandList.GetType"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

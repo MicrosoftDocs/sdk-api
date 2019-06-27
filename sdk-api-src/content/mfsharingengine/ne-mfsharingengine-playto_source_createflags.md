@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PLAYTO_CONTROLLER_CREATEFLAGS, PLAYTO_CONTROLLER_CREATEFLAGS enumeration [Media Foundation], PLAYTO_SOURCE_AUDIO, PLAYTO_SOURCE_CREATEFLAGS, PLAYTO_SOURCE_IMAGE, PLAYTO_SOURCE_PROTECTED, PLAYTO_SOURCE_VIDEO, mf.playto_controller_createflags, mf.playto_source_createflags, mfsharingengine/PLAYTO_CONTROLLER_CREATEFLAGS, mfsharingengine/PLAYTO_SOURCE_AUDIO, mfsharingengine/PLAYTO_SOURCE_IMAGE, mfsharingengine/PLAYTO_SOURCE_PROTECTED, mfsharingengine/PLAYTO_SOURCE_VIDEO
 ms.topic: enum
-f1_keywords: ["mfsharingengine/PLAYTO_SOURCE_CREATEFLAGS"]
+f1_keywords: 
+ - "mfsharingengine/PLAYTO_SOURCE_CREATEFLAGS"
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows

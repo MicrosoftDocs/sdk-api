@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VariantToBooleanWithDefault, VariantToBooleanWithDefault function [Windows Properties], _shell_VariantToBooleanWithDefault, properties.VariantToBooleanWithDefault, propvarutil/VariantToBooleanWithDefault, shell.VariantToBooleanWithDefault
 ms.topic: function
-f1_keywords: ["propvarutil/VariantToBooleanWithDefault"]
+f1_keywords: 
+ - "propvarutil/VariantToBooleanWithDefault"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

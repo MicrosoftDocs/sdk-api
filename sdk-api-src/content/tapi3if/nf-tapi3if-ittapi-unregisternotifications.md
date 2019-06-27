@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],UnregisterNotifications method, ITTAPI.UnregisterNotifications, ITTAPI::UnregisterNotifications, UnregisterNotifications, UnregisterNotifications method [TAPI 2.2], UnregisterNotifications method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_unregisternotifications, tapi3.ittapi_unregisternotifications, tapi3if/ITTAPI::UnregisterNotifications
 ms.topic: method
-f1_keywords: ["tapi3if/ITTAPI.UnregisterNotifications"]
+f1_keywords: 
+ - "tapi3if/ITTAPI.UnregisterNotifications"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

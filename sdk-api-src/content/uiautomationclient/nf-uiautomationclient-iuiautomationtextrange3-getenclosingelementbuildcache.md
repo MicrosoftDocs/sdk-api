@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEnclosingElementBuildCache, GetEnclosingElementBuildCache method [Windows Accessibility], GetEnclosingElementBuildCache method [Windows Accessibility],IUIAutomationTextRange3 interface, IUIAutomationTextRange3 interface [Windows Accessibility],GetEnclosingElementBuildCache method, IUIAutomationTextRange3.GetEnclosingElementBuildCache, IUIAutomationTextRange3::GetEnclosingElementBuildCache, uiautomationclient/IUIAutomationTextRange3::GetEnclosingElementBuildCache, winauto.uiauto_IUIAutomationTextRange3_GetEnclosingElementBuildCache
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTextRange3.GetEnclosingElementBuildCache"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTextRange3.GetEnclosingElementBuildCache"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

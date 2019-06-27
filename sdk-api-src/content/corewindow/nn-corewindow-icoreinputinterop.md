@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICoreInputInterop, ICoreInputInterop interface [Windows Runtime], ICoreInputInterop interface [Windows Runtime],described, corewindow/ICoreInputInterop, winrt.icoreinputinterop
 ms.topic: interface
-f1_keywords: ["corewindow/ICoreInputInterop"]
+f1_keywords: 
+ - "corewindow/ICoreInputInterop"
 req.header: corewindow.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TF_DA_LINESTYLE, TF_DA_LINESTYLE enumeration [Text Services Framework], TF_LS_DASH, TF_LS_DOT, TF_LS_NONE, TF_LS_SOLID, TF_LS_SQUIGGLE, _tsf_tf_da_linestyle_ref, msctf/TF_DA_LINESTYLE, msctf/TF_LS_DASH, msctf/TF_LS_DOT, msctf/TF_LS_NONE, msctf/TF_LS_SOLID, msctf/TF_LS_SQUIGGLE, tsf.tf_da_linestyle
 ms.topic: enum
-f1_keywords: ["msctf/TF_DA_LINESTYLE"]
+f1_keywords: 
+ - "msctf/TF_DA_LINESTYLE"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

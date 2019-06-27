@@ -12,7 +12,8 @@ ms.keywords: RoSetErrorReportingFlags, RoSetErrorReportingFlags function [Window
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
-f1_keywords: ["roerrorapi/RoSetErrorReportingFlags"]
+f1_keywords: 
+ - "roerrorapi/RoSetErrorReportingFlags"
 req.header: roerrorapi.h
 req.include-header: Roapi.h
 req.target-type: Windows

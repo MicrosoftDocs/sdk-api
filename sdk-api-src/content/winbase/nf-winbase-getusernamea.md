@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUserName, GetUserName function, GetUserNameA, GetUserNameW, _win32_getusername, base.getusername, winbase/GetUserName, winbase/GetUserNameA, winbase/GetUserNameW
 ms.topic: function
-f1_keywords: ["winbase/GetUserName"]
+f1_keywords: 
+ - "winbase/GetUserName"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

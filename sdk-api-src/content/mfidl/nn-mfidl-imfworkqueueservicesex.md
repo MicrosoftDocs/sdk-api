@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFWorkQueueServicesEx, IMFWorkQueueServicesEx interface [Media Foundation], IMFWorkQueueServicesEx interface [Media Foundation],described, mf.imfworkqueueservicesex, mfidl/IMFWorkQueueServicesEx
 ms.topic: interface
-f1_keywords: ["mfidl/IMFWorkQueueServicesEx"]
+f1_keywords: 
+ - "mfidl/IMFWorkQueueServicesEx"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

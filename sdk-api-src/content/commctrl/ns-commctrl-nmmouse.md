@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPNMMOUSE, LPNMMOUSE, LPNMMOUSE structure pointer [Windows Controls], NMCLICK, NMMOUSE, NMMOUSE structure [Windows Controls], _win32_NMMOUSE, _win32_NMMOUSE_cpp, commctrl/LPNMMOUSE, commctrl/NMMOUSE, controls.NMMOUSE, controls._win32_NMMOUSE"
 ms.topic: struct
-f1_keywords: ["commctrl/NMMOUSE"]
+f1_keywords: 
+ - "commctrl/NMMOUSE"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

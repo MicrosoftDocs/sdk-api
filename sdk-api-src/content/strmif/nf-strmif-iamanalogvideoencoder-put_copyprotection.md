@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoEncoder interface [DirectShow],put_CopyProtection method, IAMAnalogVideoEncoder.put_CopyProtection, IAMAnalogVideoEncoder::put_CopyProtection, IAMAnalogVideoEncoderput_CopyProtection, dshow.iamanalogvideoencoder_put_copyprotection, put_CopyProtection, put_CopyProtection method [DirectShow], put_CopyProtection method [DirectShow],IAMAnalogVideoEncoder interface, strmif/IAMAnalogVideoEncoder::put_CopyProtection
 ms.topic: method
-f1_keywords: ["strmif/IAMAnalogVideoEncoder.put_CopyProtection"]
+f1_keywords: 
+ - "strmif/IAMAnalogVideoEncoder.put_CopyProtection"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

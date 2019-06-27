@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BindToSource, BindToSource method [COM], BindToSource method [COM],IOleLink interface, IOleLink interface [COM],BindToSource method, IOleLink.BindToSource, IOleLink::BindToSource, _ole_iolelink_bindtosource, com.iolelink_bindtosource, oleidl/IOleLink::BindToSource
 ms.topic: method
-f1_keywords: ["oleidl/IOleLink.BindToSource"]
+f1_keywords: 
+ - "oleidl/IOleLink.BindToSource"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

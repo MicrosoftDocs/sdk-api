@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageAttributes class [GDI+],SetGamma method, ImageAttributes.SetGamma, ImageAttributes::SetGamma, SetGamma, SetGamma method [GDI+], SetGamma method [GDI+],ImageAttributes class, _gdiplus_CLASS_ImageAttributes_SetGamma_gamma_type_, gdiplus._gdiplus_CLASS_ImageAttributes_SetGamma_gamma_type_
 ms.topic: method
-f1_keywords: ["gdiplusimageattributes/ImageAttributes.SetGamma"]
+f1_keywords: 
+ - "gdiplusimageattributes/ImageAttributes.SetGamma"
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

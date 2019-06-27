@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsWindowsXPSP3OrGreater, IsWindowsXPSP3OrGreater function, base.iswindowsxpsp3orgreater, versionhelpers/IsWindowsXPSP3OrGreater
 ms.topic: function
-f1_keywords: ["versionhelpers/IsWindowsXPSP3OrGreater"]
+f1_keywords: 
+ - "versionhelpers/IsWindowsXPSP3OrGreater"
 req.header: versionhelpers.h
 req.include-header: 
 req.target-type: Windows

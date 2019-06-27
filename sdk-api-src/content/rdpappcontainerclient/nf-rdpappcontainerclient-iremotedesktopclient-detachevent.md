@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClient interface [Remote Desktop Services],detachEvent method, IRemoteDesktopClient.detachEvent, IRemoteDesktopClient::detachEvent, detachEvent, detachEvent method [Remote Desktop Services], detachEvent method [Remote Desktop Services],IRemoteDesktopClient interface, rdpappcontainerclient/IRemoteDesktopClient::detachEvent, termserv.iremotedesktopclient_detachevent
 ms.topic: method
-f1_keywords: ["rdpappcontainerclient/IRemoteDesktopClient.detachEvent"]
+f1_keywords: 
+ - "rdpappcontainerclient/IRemoteDesktopClient.detachEvent"
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

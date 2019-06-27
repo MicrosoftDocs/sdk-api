@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IObjMgr interface [Windows Shell],Remove method, IObjMgr.Remove, IObjMgr::Remove, Remove, Remove method [Windows Shell], Remove method [Windows Shell],IObjMgr interface, _win32_IObjMgr_Remove, shell.IObjMgr_Remove, shlobj_core/IObjMgr::Remove
 ms.topic: method
-f1_keywords: ["shlobj_core/IObjMgr.Remove"]
+f1_keywords: 
+ - "shlobj_core/IObjMgr.Remove"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

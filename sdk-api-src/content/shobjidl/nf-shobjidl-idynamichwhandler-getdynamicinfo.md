@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDynamicInfo, GetDynamicInfo method [Windows Shell], GetDynamicInfo method [Windows Shell],IDynamicHWHandler interface, IDynamicHWHandler interface [Windows Shell],GetDynamicInfo method, IDynamicHWHandler.GetDynamicInfo, IDynamicHWHandler::GetDynamicInfo, _shell_IDynamicHWHandler_GetDynamicInfo, shell.IDynamicHWHandler_GetDynamicInfo, shobjidl/IDynamicHWHandler::GetDynamicInfo
 ms.topic: method
-f1_keywords: ["shobjidl/IDynamicHWHandler.GetDynamicInfo"]
+f1_keywords: 
+ - "shobjidl/IDynamicHWHandler.GetDynamicInfo"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateTrackedSample, MFCreateTrackedSample function [Media Foundation], mf.mfcreatetrackedsample, mfidl/MFCreateTrackedSample
 ms.topic: function
-f1_keywords: ["mfidl/MFCreateTrackedSample"]
+f1_keywords: 
+ - "mfidl/MFCreateTrackedSample"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

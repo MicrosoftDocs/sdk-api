@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FAIL_FAST_GENERATE_EXCEPTION_ADDRESS, RaiseFailFastException, RaiseFailFastException function, base.raisefailfastexception, errhandlingapi/RaiseFailFastException
 ms.topic: function
-f1_keywords: ["errhandlingapi/RaiseFailFastException"]
+f1_keywords: 
+ - "errhandlingapi/RaiseFailFastException"
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows

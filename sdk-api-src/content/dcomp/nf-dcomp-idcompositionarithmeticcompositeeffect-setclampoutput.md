@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionArithmeticCompositeEffect interface [DirectComposition],SetClampOutput method, IDCompositionArithmeticCompositeEffect.SetClampOutput, IDCompositionArithmeticCompositeEffect::SetClampOutput, SetClampOutput, SetClampOutput method [DirectComposition], SetClampOutput method [DirectComposition],IDCompositionArithmeticCompositeEffect interface, dcomp/IDCompositionArithmeticCompositeEffect::SetClampOutput, directcomp.idcompositionarithmeticcompositeeffect_setclampoutput
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionArithmeticCompositeEffect.SetClampOutput"]
+f1_keywords: 
+ - "dcomp/IDCompositionArithmeticCompositeEffect.SetClampOutput"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

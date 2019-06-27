@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],IncludeSubjectKeyID property, IEnroll4.IncludeSubjectKeyID, IEnroll4.put_IncludeSubjectKeyID, IEnroll4::IncludeSubjectKeyID, IEnroll4::get_IncludeSubjectKeyID, IEnroll4::put_IncludeSubjectKeyID, IncludeSubjectKeyID property [Security], IncludeSubjectKeyID property [Security],IEnroll4 interface, put_IncludeSubjectKeyID, security.ienroll4_includesubjectkeyid, xenroll/IEnroll4::IncludeSubjectKeyID, xenroll/IEnroll4::get_IncludeSubjectKeyID, xenroll/IEnroll4::put_IncludeSubjectKeyID
 ms.topic: method
-f1_keywords: ["xenroll/IEnroll4.IncludeSubjectKeyID"]
+f1_keywords: 
+ - "xenroll/IEnroll4.IncludeSubjectKeyID"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

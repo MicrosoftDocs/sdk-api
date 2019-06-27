@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GenerateSigningKeyPair, GenerateSigningKeyPair method [windows Media Format], GenerateSigningKeyPair method [windows Media Format],IWMDRMWriter interface, IWMDRMWriter interface [windows Media Format],GenerateSigningKeyPair method, IWMDRMWriter.GenerateSigningKeyPair, IWMDRMWriter::GenerateSigningKeyPair, IWMDRMWriterGenerateSigningKeyPair, wmformat.iwmdrmwriter_generatesigningkeypair, wmsdkidl/IWMDRMWriter::GenerateSigningKeyPair
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMDRMWriter.GenerateSigningKeyPair"]
+f1_keywords: 
+ - "wmsdkidl/IWMDRMWriter.GenerateSigningKeyPair"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

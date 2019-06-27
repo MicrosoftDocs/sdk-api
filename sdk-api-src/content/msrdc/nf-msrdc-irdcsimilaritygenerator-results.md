@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRdcSimilarityGenerator interface [Remote Differential Compression],Results method, IRdcSimilarityGenerator.Results, IRdcSimilarityGenerator::Results, Results, Results method [Remote Differential Compression], Results method [Remote Differential Compression],IRdcSimilarityGenerator interface, fs.irdcsimilaritygenerator_results, msrdc/IRdcSimilarityGenerator::Results, rdc.irdcsimilaritygenerator_results
 ms.topic: method
-f1_keywords: ["msrdc/IRdcSimilarityGenerator.Results"]
+f1_keywords: 
+ - "msrdc/IRdcSimilarityGenerator.Results"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

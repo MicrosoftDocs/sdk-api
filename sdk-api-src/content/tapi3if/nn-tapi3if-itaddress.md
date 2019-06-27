@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAddress, ITAddress interface [TAPI 2.2], ITAddress interface [TAPI 2.2],described, _tapi3_itaddress, tapi3.itaddress, tapi3if/ITAddress
 ms.topic: interface
-f1_keywords: ["tapi3if/ITAddress"]
+f1_keywords: 
+ - "tapi3if/ITAddress"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

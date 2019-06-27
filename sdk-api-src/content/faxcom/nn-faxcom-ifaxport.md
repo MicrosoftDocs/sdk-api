@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxPort, IFaxPort interface [Fax Service], IFaxPort interface [Fax Service],described, _mfax_ifaxport, fax._mfax_ifaxport, faxcom/IFaxPort
 ms.topic: interface
-f1_keywords: ["faxcom/IFaxPort"]
+f1_keywords: 
+ - "faxcom/IFaxPort"
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

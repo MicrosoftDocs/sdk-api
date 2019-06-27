@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSidSubAuthority, GetSidSubAuthority function [Security], _win32_getsidsubauthority, security.getsidsubauthority, securitybaseapi/GetSidSubAuthority
 ms.topic: function
-f1_keywords: ["securitybaseapi/GetSidSubAuthority"]
+f1_keywords: 
+ - "securitybaseapi/GetSidSubAuthority"
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

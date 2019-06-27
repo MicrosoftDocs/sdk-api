@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetClassDevsEx, SetupDiGetClassDevsEx function [Device and Driver Installation], SetupDiGetClassDevsExA, SetupDiGetClassDevsExW, devinst.setupdigetclassdevsex, di-rtns_61e59e92-0451-4398-88af-0a14347aa74e.xml, setupapi/SetupDiGetClassDevsEx
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiGetClassDevsEx"]
+f1_keywords: 
+ - "setupapi/SetupDiGetClassDevsEx"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

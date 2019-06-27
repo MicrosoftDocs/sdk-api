@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DNWithBinary, IADsDNWithBinary, IADsDNWithBinary interface [ADSI], IADsDNWithBinary interface [ADSI],described, _ds_iadsdnwithbinary, adsi.iadsdnwithbinary, iads/IADsDNWithBinary
 ms.topic: interface
-f1_keywords: ["iads/IADsDNWithBinary"]
+f1_keywords: 
+ - "iads/IADsDNWithBinary"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

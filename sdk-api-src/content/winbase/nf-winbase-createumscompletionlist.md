@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateUmsCompletionList, CreateUmsCompletionList function, base.createumscompletionlist, winbase/CreateUmsCompletionList
 ms.topic: function
-f1_keywords: ["winbase/CreateUmsCompletionList"]
+f1_keywords: 
+ - "winbase/CreateUmsCompletionList"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

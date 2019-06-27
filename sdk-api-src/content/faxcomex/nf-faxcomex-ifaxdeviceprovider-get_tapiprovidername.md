@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxDeviceProvider interface [Fax Service],TapiProviderName property, IFaxDeviceProvider.TapiProviderName, IFaxDeviceProvider.get_TapiProviderName, IFaxDeviceProvider::TapiProviderName, IFaxDeviceProvider::get_TapiProviderName, TapiProviderName property [Fax Service], TapiProviderName property [Fax Service],IFaxDeviceProvider interface, _mfax_faxdeviceprovider.tapiprovidername, fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_tapiprovidername_cpp, fax._mfax_faxdeviceprovider_tapiprovidername, faxcomex/IFaxDeviceProvider::TapiProviderName, faxcomex/IFaxDeviceProvider::get_TapiProviderName, get_TapiProviderName
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxDeviceProvider.TapiProviderName"]
+f1_keywords: 
+ - "faxcomex/IFaxDeviceProvider.TapiProviderName"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

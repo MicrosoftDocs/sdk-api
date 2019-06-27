@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeBuffer, FreeBuffer method [RDP], FreeBuffer method [RDP],IRDPSRAPITransportStream interface, IRDPSRAPITransportStream interface [RDP],FreeBuffer method, IRDPSRAPITransportStream.FreeBuffer, IRDPSRAPITransportStream::FreeBuffer, rdp.irdpsrapitransportstream_freebuffer, rdpencomapi/IRDPSRAPITransportStream::FreeBuffer
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPITransportStream.FreeBuffer"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPITransportStream.FreeBuffer"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

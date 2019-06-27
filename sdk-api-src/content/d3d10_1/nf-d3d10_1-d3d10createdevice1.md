@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 5003cfd5-5629-9760-cb48-9a25e0a1a3d8, D3D10CreateDevice1, D3D10CreateDevice1 function [Direct3D 10], d3d10_1/D3D10CreateDevice1, direct3d10.d3d10createdevice1
 ms.topic: function
-f1_keywords: ["d3d10_1/D3D10CreateDevice1"]
+f1_keywords: 
+ - "d3d10_1/D3D10CreateDevice1"
 req.header: d3d10_1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxDevice interface [Fax Service],SetExtensionProperty method, IFaxDevice.SetExtensionProperty, IFaxDevice::SetExtensionProperty, SetExtensionProperty, SetExtensionProperty method [Fax Service], SetExtensionProperty method [Fax Service],IFaxDevice interface, _mfax_faxdevice.setextensionproperty, fax._mfax_faxdevice_cpp_mfax_faxdevice_setextensionproperty_cpp, fax._mfax_faxdevice_setextensionproperty, faxcomex/IFaxDevice::SetExtensionProperty
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxDevice.SetExtensionProperty"]
+f1_keywords: 
+ - "faxcomex/IFaxDevice.SetExtensionProperty"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

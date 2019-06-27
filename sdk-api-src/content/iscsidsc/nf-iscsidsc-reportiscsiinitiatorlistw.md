@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReportIScsiInitiatorListW, ReportIscsiInitiatorList, ReportIscsiInitiatorList function [iSCSI Discovery Library API], ReportIscsiInitiatorListA, ReportIscsiInitiatorListW, iscsidisc.reportiscsiinitiatorlist, iscsidsc/ReportIscsiInitiatorList, iscsidsc/ReportIscsiInitiatorListA, iscsidsc/ReportIscsiInitiatorListW
 ms.topic: function
-f1_keywords: ["iscsidsc/ReportIscsiInitiatorList"]
+f1_keywords: 
+ - "iscsidsc/ReportIscsiInitiatorList"
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

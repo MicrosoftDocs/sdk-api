@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VariantGetDoubleElem, VariantGetDoubleElem function [Windows Properties], _shell_VariantGetDoubleElem, properties.VariantGetDoubleElem, propvarutil/VariantGetDoubleElem, shell.VariantGetDoubleElem
 ms.topic: function
-f1_keywords: ["propvarutil/VariantGetDoubleElem"]
+f1_keywords: 
+ - "propvarutil/VariantGetDoubleElem"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

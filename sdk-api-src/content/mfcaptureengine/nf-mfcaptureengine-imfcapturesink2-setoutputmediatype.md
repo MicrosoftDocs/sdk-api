@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureSink2 interface [Media Foundation],SetOutputMediaType method, IMFCaptureSink2.SetOutputMediaType, IMFCaptureSink2::SetOutputMediaType, SetOutputMediaType, SetOutputMediaType method [Media Foundation], SetOutputMediaType method [Media Foundation],IMFCaptureSink2 interface, mf.imfcapturesink2_setoutputmediatype, mfcaptureengine/IMFCaptureSink2::SetOutputMediaType
 ms.topic: method
-f1_keywords: ["mfcaptureengine/IMFCaptureSink2.SetOutputMediaType"]
+f1_keywords: 
+ - "mfcaptureengine/IMFCaptureSink2.SetOutputMediaType"
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMemAllocator, IMemAllocator interface [DirectShow], IMemAllocator interface [DirectShow],described, IMemAllocatorInterface, dshow.imemallocator, strmif/IMemAllocator
 ms.topic: interface
-f1_keywords: ["strmif/IMemAllocator"]
+f1_keywords: 
+ - "strmif/IMemAllocator"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

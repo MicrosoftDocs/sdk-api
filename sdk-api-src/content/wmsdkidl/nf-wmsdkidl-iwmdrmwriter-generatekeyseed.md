@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GenerateKeySeed, GenerateKeySeed method [windows Media Format], GenerateKeySeed method [windows Media Format],IWMDRMWriter interface, IWMDRMWriter interface [windows Media Format],GenerateKeySeed method, IWMDRMWriter.GenerateKeySeed, IWMDRMWriter::GenerateKeySeed, IWMDRMWriterGenerateKeySeed, wmformat.iwmdrmwriter_generatekeyseed, wmsdkidl/IWMDRMWriter::GenerateKeySeed
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMDRMWriter.GenerateKeySeed"]
+f1_keywords: 
+ - "wmsdkidl/IWMDRMWriter.GenerateKeySeed"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

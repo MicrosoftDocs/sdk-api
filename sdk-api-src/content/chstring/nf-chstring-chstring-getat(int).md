@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],GetAt method, CHString.GetAt, CHString.GetAt(int), CHString::GetAt, CHString::GetAt(int), GetAt, GetAt method [Windows Management Instrumentation], GetAt method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getat, chstring/CHString::GetAt, wmi.chstring_getat
 ms.topic: method
-f1_keywords: ["chstring/CHString.GetAt"]
+f1_keywords: 
+ - "chstring/CHString.GetAt"
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

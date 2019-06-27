@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ogl_wglRealizeLayerPalette, opengl.wglrealizelayerpalette, wglRealizeLayerPalette, wglRealizeLayerPalette function [OpenGL], wingdi/wglRealizeLayerPalette"
 ms.topic: function
-f1_keywords: ["wingdi/wglRealizeLayerPalette"]
+f1_keywords: 
+ - "wingdi/wglRealizeLayerPalette"
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

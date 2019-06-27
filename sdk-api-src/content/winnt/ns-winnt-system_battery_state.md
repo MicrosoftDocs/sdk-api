@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSYSTEM_BATTERY_STATE, PSYSTEM_BATTERY_STATE, PSYSTEM_BATTERY_STATE structure pointer, SYSTEM_BATTERY_STATE, SYSTEM_BATTERY_STATE structure, _win32_system_battery_state_str, base.system_battery_state_str, winnt/PSYSTEM_BATTERY_STATE, winnt/SYSTEM_BATTERY_STATE"
 ms.topic: struct
-f1_keywords: ["winnt/SYSTEM_BATTERY_STATE"]
+f1_keywords: 
+ - "winnt/SYSTEM_BATTERY_STATE"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

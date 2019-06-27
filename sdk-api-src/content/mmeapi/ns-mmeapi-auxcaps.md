@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPAUXCAPS, *NPAUXCAPS, *PAUXCAPS, AUXCAPS, AUXCAPS structure [Windows Multimedia], AUXCAPSA, AUXCAPSW, AUXCAPS_AUXIN, AUXCAPS_CDAUDIO, AUXCAPS_LRVOLUME, AUXCAPS_VOLUME, _win32_AUXCAPS_str, auxcaps_tag, mmeapi/AUXCAPS, multimedia.auxcaps"
 ms.topic: struct
-f1_keywords: ["mmeapi/AUXCAPS"]
+f1_keywords: 
+ - "mmeapi/AUXCAPS"
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

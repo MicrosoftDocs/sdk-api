@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFolderFilterSite, IFolderFilterSite interface [Windows Shell], IFolderFilterSite interface [Windows Shell],described, _shell_IFolderFilterSite, shell.IFolderFilterSite, shobjidl_core/IFolderFilterSite
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IFolderFilterSite"]
+f1_keywords: 
+ - "shobjidl_core/IFolderFilterSite"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

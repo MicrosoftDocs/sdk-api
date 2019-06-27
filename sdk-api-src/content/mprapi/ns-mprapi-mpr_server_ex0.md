@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMPR_SERVER_EX0, MPR_SERVER_EX, MPR_SERVER_EX structure [RAS], MPR_SERVER_EX0, MPR_SERVER_EX1, PMPR_SERVER_EX, PMPR_SERVER_EX structure pointer [RAS], _MPR_SERVER_EX0, _MPR_SERVER_EX1, mprapi/MPR_SERVER_EX, mprapi/PMPR_SERVER_EX, rras.mpr_server_ex"
 ms.topic: struct
-f1_keywords: ["mprapi/MPR_SERVER_EX"]
+f1_keywords: 
+ - "mprapi/MPR_SERVER_EX"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

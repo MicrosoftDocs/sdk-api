@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConsole interface [MMC],UpdateAllViews method, IConsole.UpdateAllViews, IConsole::UpdateAllViews, UpdateAllViews, UpdateAllViews method [MMC], UpdateAllViews method [MMC],IConsole interface, mmc.iconsole_updateallviews, mmc/IConsole::UpdateAllViews
 ms.topic: method
-f1_keywords: ["mmc/IConsole.UpdateAllViews"]
+f1_keywords: 
+ - "mmc/IConsole.UpdateAllViews"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

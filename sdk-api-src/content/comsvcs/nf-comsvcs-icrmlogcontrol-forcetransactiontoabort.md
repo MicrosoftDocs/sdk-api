@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ForceTransactionToAbort, ForceTransactionToAbort method [COM+], ForceTransactionToAbort method [COM+],ICrmLogControl interface, ICrmLogControl interface [COM+],ForceTransactionToAbort method, ICrmLogControl.ForceTransactionToAbort, ICrmLogControl::ForceTransactionToAbort, _dtc_ICrmLogControl_ForceTransactionToAbort, comsvcs/ICrmLogControl::ForceTransactionToAbort, cos.icrmlogcontrol_forcetransactiontoabort
 ms.topic: method
-f1_keywords: ["comsvcs/ICrmLogControl.ForceTransactionToAbort"]
+f1_keywords: 
+ - "comsvcs/ICrmLogControl.ForceTransactionToAbort"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IApplicationDestinations interface [Windows Shell],RemoveDestination method, IApplicationDestinations.RemoveDestination, IApplicationDestinations::RemoveDestination, RemoveDestination, RemoveDestination method [Windows Shell], RemoveDestination method [Windows Shell],IApplicationDestinations interface, _shell_IApplicationDestinations_RemoveDestination, shell.IApplicationDestinations_RemoveDestination, shobjidl_core/IApplicationDestinations::RemoveDestination
 ms.topic: method
-f1_keywords: ["shobjidl_core/IApplicationDestinations.RemoveDestination"]
+f1_keywords: 
+ - "shobjidl_core/IApplicationDestinations.RemoveDestination"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxServer interface [Fax Service],ListenToServerEvents method, IFaxServer.ListenToServerEvents, IFaxServer::ListenToServerEvents, ListenToServerEvents, ListenToServerEvents method [Fax Service], ListenToServerEvents method [Fax Service],IFaxServer interface, _mfax_faxserver.listentoserverevents, fax._mfax_faxserver_cpp_mfax_faxserver_listentoserverevents_cpp, fax._mfax_faxserver_listentoserverevents, faxcomex/IFaxServer::ListenToServerEvents
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxServer.ListenToServerEvents"]
+f1_keywords: 
+ - "faxcomex/IFaxServer.ListenToServerEvents"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateComputeShader, CreateComputeShader method [Direct3D 11], CreateComputeShader method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateComputeShader method, ID3D11Device.CreateComputeShader, ID3D11Device::CreateComputeShader, a7f41890-fbe0-bb14-c192-0d0199550830, d3d11/ID3D11Device::CreateComputeShader, direct3d11.id3d11device_createcomputeshader
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11Device.CreateComputeShader"]
+f1_keywords: 
+ - "d3d11/ID3D11Device.CreateComputeShader"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SB_CTL, SB_HORZ, SB_VERT, SetScrollPos, SetScrollPos function [Windows Controls], _win32_SetScrollPos, _win32_SetScrollPos_cpp, controls.SetScrollPos, controls._win32_SetScrollPos, winuser/SetScrollPos
 ms.topic: function
-f1_keywords: ["winuser/SetScrollPos"]
+f1_keywords: 
+ - "winuser/SetScrollPos"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

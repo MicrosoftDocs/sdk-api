@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsFreeMetadata, WsFreeMetadata function [Web Services for Windows], webservices/WsFreeMetadata, wsw.wsfreemetadata
 ms.topic: function
-f1_keywords: ["webservices/WsFreeMetadata"]
+f1_keywords: 
+ - "webservices/WsFreeMetadata"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

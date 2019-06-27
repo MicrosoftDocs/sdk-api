@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventDescSetOpcode, EventDescSetOpcode function [ETW], base.eventdescsetopcode_func, etw.eventdescsetopcode_func, evntprov/EventDescSetOpcode
 ms.topic: function
-f1_keywords: ["evntprov/EventDescSetOpcode"]
+f1_keywords: 
+ - "evntprov/EventDescSetOpcode"
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

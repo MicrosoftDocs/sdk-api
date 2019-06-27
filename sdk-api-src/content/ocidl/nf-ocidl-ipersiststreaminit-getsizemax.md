@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSizeMax, GetSizeMax method [COM], GetSizeMax method [COM],IPersistStreamInit interface, IPersistStreamInit interface [COM],GetSizeMax method, IPersistStreamInit.GetSizeMax, IPersistStreamInit::GetSizeMax, _com_ipersiststreaminit_getsizemax, com.ipersiststreaminit_getsizemax, ocidl/IPersistStreamInit::GetSizeMax
 ms.topic: method
-f1_keywords: ["ocidl/IPersistStreamInit.GetSizeMax"]
+f1_keywords: 
+ - "ocidl/IPersistStreamInit.GetSizeMax"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

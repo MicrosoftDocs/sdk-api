@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClientId property [Security], ClientId property [Security],IEnroll4 interface, IEnroll4 interface [Security],ClientId property, IEnroll4.ClientId, IEnroll4.put_ClientId, IEnroll4::ClientId, IEnroll4::get_ClientId, IEnroll4::put_ClientId, XECI_AUTOENROLL, XECI_CERTREQ, XECI_DISABLE, XECI_REQWIZARD, XECI_XENROLL, put_ClientId, security.ienroll4_clientid, xenroll/IEnroll4::ClientId, xenroll/IEnroll4::get_ClientId, xenroll/IEnroll4::put_ClientId
 ms.topic: method
-f1_keywords: ["xenroll/IEnroll4.ClientId"]
+f1_keywords: 
+ - "xenroll/IEnroll4.ClientId"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

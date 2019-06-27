@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],put_Size method, IFont.put_Size, IFont::put_Size, _ctrl_ifont_put_size, com.ifont_put_size, ocidl/IFont::put_Size, put_Size, put_Size method [COM], put_Size method [COM],IFont interface
 ms.topic: method
-f1_keywords: ["ocidl/IFont.put_Size"]
+f1_keywords: 
+ - "ocidl/IFont.put_Size"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

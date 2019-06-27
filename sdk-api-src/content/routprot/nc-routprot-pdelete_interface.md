@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteInterface, DeleteInterface callback function [RAS], PDELETE_INTERFACE, PDELETE_INTERFACE callback, _mpr_deleteinterface, routprot/DeleteInterface, rras.deleteinterface
 ms.topic: callback
-f1_keywords: ["routprot/DeleteInterface"]
+f1_keywords: 
+ - "routprot/DeleteInterface"
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStagedPackageOrigin, GetStagedPackageOrigin function [App packaging and management], appmodel/GetStagedPackageOrigin, appxpkg.getstagedpackageorigin
 ms.topic: function
-f1_keywords: ["appmodel/GetStagedPackageOrigin"]
+f1_keywords: 
+ - "appmodel/GetStagedPackageOrigin"
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

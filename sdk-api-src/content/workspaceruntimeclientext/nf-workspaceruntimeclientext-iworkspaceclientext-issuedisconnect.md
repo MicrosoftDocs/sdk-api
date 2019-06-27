@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWorkspaceClientExt interface [Remote Desktop Services],IssueDisconnect method, IWorkspaceClientExt.IssueDisconnect, IWorkspaceClientExt::IssueDisconnect, IssueDisconnect, IssueDisconnect method [Remote Desktop Services], IssueDisconnect method [Remote Desktop Services],IWorkspaceClientExt interface, termserv.iworkspaceclientext_issuedisconnect, workspaceruntimeclientext/IWorkspaceClientExt::IssueDisconnect
 ms.topic: method
-f1_keywords: ["workspaceruntimeclientext/IWorkspaceClientExt.IssueDisconnect"]
+f1_keywords: 
+ - "workspaceruntimeclientext/IWorkspaceClientExt.IssueDisconnect"
 req.header: workspaceruntimeclientext.h
 req.include-header: 
 req.target-type: Windows

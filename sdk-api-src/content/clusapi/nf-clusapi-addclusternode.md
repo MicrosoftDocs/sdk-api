@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddClusterNode, AddClusterNode function [Failover Cluster], PCLUSAPI_ADD_CLUSTER_NODE, PCLUSAPI_ADD_CLUSTER_NODE function [Failover Cluster], clusapi/AddClusterNode, clusapi/PCLUSAPI_ADD_CLUSTER_NODE, mscs.addclusternode
 ms.topic: function
-f1_keywords: ["clusapi/AddClusterNode"]
+f1_keywords: 
+ - "clusapi/AddClusterNode"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

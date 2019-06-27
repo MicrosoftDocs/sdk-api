@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateFontFallbackBuilder, CreateFontFallbackBuilder method [Direct Write], CreateFontFallbackBuilder method [Direct Write],IDWriteFactory2 interface, IDWriteFactory2 interface [Direct Write],CreateFontFallbackBuilder method, IDWriteFactory2.CreateFontFallbackBuilder, IDWriteFactory2::CreateFontFallbackBuilder, directwrite.idwritefactory2_createfontfallbackbuilder, dwrite_2/IDWriteFactory2::CreateFontFallbackBuilder
 ms.topic: method
-f1_keywords: ["dwrite_2/IDWriteFactory2.CreateFontFallbackBuilder"]
+f1_keywords: 
+ - "dwrite_2/IDWriteFactory2.CreateFontFallbackBuilder"
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

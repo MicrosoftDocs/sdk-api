@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ControlLevel property [RDP], ControlLevel property [RDP],IRDPSRAPIAttendee interface, ControlLevel property [RDP],RDPSRAPIAttendee object, IRDPSRAPIAttendee interface [RDP],ControlLevel property, IRDPSRAPIAttendee.ControlLevel, IRDPSRAPIAttendee.get_ControlLevel, IRDPSRAPIAttendee::ControlLevel, IRDPSRAPIAttendee::get_ControlLevel, IRDPSRAPIAttendee::put_ControlLevel, RDPSRAPIAttendee object [RDP],ControlLevel property, get_ControlLevel, rdp.irdpsrapiattendee_controllevel, rdpencomapi/IRDPSRAPIAttendee::ControlLevel, rdpencomapi/IRDPSRAPIAttendee::get_ControlLevel, rdpencomapi/IRDPSRAPIAttendee::put_ControlLevel
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPIAttendee.ControlLevel"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIAttendee.ControlLevel"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

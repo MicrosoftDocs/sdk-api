@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get__MixerBitmap method, IMSVidVideoRenderer.get__MixerBitmap, IMSVidVideoRenderer::get__MixerBitmap, IMSVidVideoRendererget__MixerBitmap, get__MixerBitmap, get__MixerBitmap method [Microsoft TV Technologies], get__MixerBitmap method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get__mixerbitmap, segment/IMSVidVideoRenderer::get__MixerBitmap
 ms.topic: method
-f1_keywords: ["segment/IMSVidVideoRenderer.get__MixerBitmap"]
+f1_keywords: 
+ - "segment/IMSVidVideoRenderer.get__MixerBitmap"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddFilterToCache, AddFilterToCache method [DirectShow], AddFilterToCache method [DirectShow],IGraphConfig interface, IGraphConfig interface [DirectShow],AddFilterToCache method, IGraphConfig.AddFilterToCache, IGraphConfig::AddFilterToCache, IGraphConfigAddFilterToCache, dshow.igraphconfig_addfiltertocache, strmif/IGraphConfig::AddFilterToCache
 ms.topic: method
-f1_keywords: ["strmif/IGraphConfig.AddFilterToCache"]
+f1_keywords: 
+ - "strmif/IGraphConfig.AddFilterToCache"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

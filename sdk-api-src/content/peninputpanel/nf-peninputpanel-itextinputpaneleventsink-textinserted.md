@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 61f3c21f-8658-421b-8494-d39a2faacc66, ITextInputPanelEventSink interface [Tablet PC],TextInserted method, ITextInputPanelEventSink.TextInserted, ITextInputPanelEventSink::TextInserted, TextInserted, TextInserted method [Tablet PC], TextInserted method [Tablet PC],ITextInputPanelEventSink interface, peninputpanel/ITextInputPanelEventSink::TextInserted, tablet.itextinputpaneleventsink_textinserted
 ms.topic: method
-f1_keywords: ["peninputpanel/ITextInputPanelEventSink.TextInserted"]
+f1_keywords: 
+ - "peninputpanel/ITextInputPanelEventSink.TextInserted"
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

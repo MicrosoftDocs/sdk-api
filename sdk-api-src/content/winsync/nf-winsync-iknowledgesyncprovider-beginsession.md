@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginSession, BeginSession method [Windows Sync], BeginSession method [Windows Sync],IKnowledgeSyncProvider interface, IKnowledgeSyncProvider interface [Windows Sync],BeginSession method, IKnowledgeSyncProvider.BeginSession, IKnowledgeSyncProvider::BeginSession, winsync.iknowledgesyncprovider_beginsession, winsync/IKnowledgeSyncProvider::BeginSession
 ms.topic: method
-f1_keywords: ["winsync/IKnowledgeSyncProvider.BeginSession"]
+f1_keywords: 
+ - "winsync/IKnowledgeSyncProvider.BeginSession"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSid, GetSid method [Windows Shell], GetSid method [Windows Shell],ICredentialProviderUser interface, ICredentialProviderUser interface [Windows Shell],GetSid method, ICredentialProviderUser.GetSid, ICredentialProviderUser::GetSid, credentialprovider/ICredentialProviderUser::GetSid, shell.ICredentialProviderUser_GetSid
 ms.topic: method
-f1_keywords: ["credentialprovider/ICredentialProviderUser.GetSid"]
+f1_keywords: 
+ - "credentialprovider/ICredentialProviderUser.GetSid"
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

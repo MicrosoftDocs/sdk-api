@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],setProxyBypassForLocal method, IWMPNetwork.setProxyBypassForLocal, IWMPNetwork::setProxyBypassForLocal, IWMPNetworksetProxyBypassForLocal, setProxyBypassForLocal, setProxyBypassForLocal method [Windows Media Player], setProxyBypassForLocal method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_setproxybypassforlocal, wmp/IWMPNetwork::setProxyBypassForLocal
 ms.topic: method
-f1_keywords: ["wmp/IWMPNetwork.setProxyBypassForLocal"]
+f1_keywords: 
+ - "wmp/IWMPNetwork.setProxyBypassForLocal"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

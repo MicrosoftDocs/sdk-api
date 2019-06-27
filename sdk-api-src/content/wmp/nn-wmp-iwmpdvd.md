@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPDVD, IWMPDVD interface [Windows Media Player], IWMPDVD interface [Windows Media Player],described, IWMPDVDInterface, wmp.iwmpdvd, wmp/IWMPDVD
 ms.topic: interface
-f1_keywords: ["wmp/IWMPDVD"]
+f1_keywords: 
+ - "wmp/IWMPDVD"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

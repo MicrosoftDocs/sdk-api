@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDefaultSpacing, GetDefaultSpacing method [Windows Shell], GetDefaultSpacing method [Windows Shell],IFolderView interface, IFolderView interface [Windows Shell],GetDefaultSpacing method, IFolderView.GetDefaultSpacing, IFolderView::GetDefaultSpacing, _shell_IFolderView_GetDefaultSpacing, shell.IFolderView_GetDefaultSpacing, shobjidl_core/IFolderView::GetDefaultSpacing
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFolderView.GetDefaultSpacing"]
+f1_keywords: 
+ - "shobjidl_core/IFolderView.GetDefaultSpacing"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

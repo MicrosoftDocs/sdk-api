@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMultisessionSequential interface [IMAPI],get_StartAddressOfPreviousSession method, IMultisessionSequential.get_StartAddressOfPreviousSession, IMultisessionSequential::get_StartAddressOfPreviousSession, get_StartAddressOfPreviousSession, get_StartAddressOfPreviousSession method [IMAPI], get_StartAddressOfPreviousSession method [IMAPI],IMultisessionSequential interface, imapi.imultisessionsequential_get_startaddressofprevioussession, imapi2/IMultisessionSequential::get_StartAddressOfPreviousSession
 ms.topic: method
-f1_keywords: ["imapi2/IMultisessionSequential.get_StartAddressOfPreviousSession"]
+f1_keywords: 
+ - "imapi2/IMultisessionSequential.get_StartAddressOfPreviousSession"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

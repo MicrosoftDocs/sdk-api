@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPM_SET_HDCP_SRM_PARAMETERS, OPM_SET_HDCP_SRM_PARAMETERS structure [Media Foundation], mf.opm_set_hdcp_srm_parameters, opmapi/OPM_SET_HDCP_SRM_PARAMETERS
 ms.topic: struct
-f1_keywords: ["opmapi/OPM_SET_HDCP_SRM_PARAMETERS"]
+f1_keywords: 
+ - "opmapi/OPM_SET_HDCP_SRM_PARAMETERS"
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

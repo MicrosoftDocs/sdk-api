@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_GetCertRevocationCheck, MI_DestinationOptions_GetCertRevocationCheck function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetCertRevocationCheck, wmi_v2.mi_destinationoptions_getcertrevocationcheck
 ms.topic: function
-f1_keywords: ["mi/MI_DestinationOptions_GetCertRevocationCheck"]
+f1_keywords: 
+ - "mi/MI_DestinationOptions_GetCertRevocationCheck"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

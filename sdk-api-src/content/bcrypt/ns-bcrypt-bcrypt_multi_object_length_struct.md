@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_MULTI_OBJECT_LENGTH_STRUCT, BCRYPT_MULTI_OBJECT_LENGTH_STRUCT structure [Security], bcrypt/BCRYPT_MULTI_OBJECT_LENGTH_STRUCT, security.bcrypt_multi_object_length_struct
 ms.topic: struct
-f1_keywords: ["bcrypt/BCRYPT_MULTI_OBJECT_LENGTH_STRUCT"]
+f1_keywords: 
+ - "bcrypt/BCRYPT_MULTI_OBJECT_LENGTH_STRUCT"
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_FLIPTOGDISURFACEDATA, DD_FLIPTOGDISURFACEDATA, DD_FLIPTOGDISURFACEDATA structure [Display Devices], ddrawint/DD_FLIPTOGDISURFACEDATA, ddstrcts_7e93a017-4f74-43c9-9aaa-6e64da35870d.xml, display.dd_fliptogdisurfacedata"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_FLIPTOGDISURFACEDATA"]
+f1_keywords: 
+ - "ddrawint/DD_FLIPTOGDISURFACEDATA"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

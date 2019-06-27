@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHTTP_REQUEST_AUTH_INFO, *PHTTP_REQUEST_AUTH_INFO structure [HTTP], HTTP_REQUEST_AUTH_FLAG_TOKEN_FOR_CACHED_CRED, HTTP_REQUEST_AUTH_INFO, HTTP_REQUEST_AUTH_INFO structure [HTTP], http.http_request_auth_info, http/*PHTTP_REQUEST_AUTH_INFO, http/HTTP_REQUEST_AUTH_INFO"
 ms.topic: struct
-f1_keywords: ["http/HTTP_REQUEST_AUTH_INFO"]
+f1_keywords: 
+ - "http/HTTP_REQUEST_AUTH_INFO"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

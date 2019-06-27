@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFontRenderingEmSize, GetFontRenderingEmSize method [XPS Documents and Packaging], GetFontRenderingEmSize method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFontRenderingEmSize method, IXpsOMGlyphs.GetFontRenderingEmSize, IXpsOMGlyphs::GetFontRenderingEmSize, xps.ixpsomglyphs_getfontrenderingemsize, xpsobjectmodel/IXpsOMGlyphs::GetFontRenderingEmSize
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGlyphs.GetFontRenderingEmSize"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGlyphs.GetFontRenderingEmSize"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

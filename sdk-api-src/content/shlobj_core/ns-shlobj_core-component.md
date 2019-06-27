@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCOMPONENT, COMPONENT, COMPONENT structure [Windows Shell], COMP_TYPE_CONTROL, COMP_TYPE_HTMLDOC, COMP_TYPE_PICTURE, COMP_TYPE_WEBSITE, IS_FULLSCREEN, IS_NORMAL, IS_SPLIT, LPCOMPONENT, LPCOMPONENT structure pointer [Windows Shell], _tagCOMPONENT, _win32_COMPONENT, shell.COMPONENT, shlobj_core/COMPONENT, shlobj_core/LPCOMPONENT"
 ms.topic: struct
-f1_keywords: ["shlobj_core/COMPONENT"]
+f1_keywords: 
+ - "shlobj_core/COMPONENT"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

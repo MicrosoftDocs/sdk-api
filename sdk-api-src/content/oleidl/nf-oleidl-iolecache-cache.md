@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Cache, Cache method [COM], Cache method [COM],IOleCache interface, IOleCache interface [COM],Cache method, IOleCache.Cache, IOleCache::Cache, _ole_iolecache_cache, com.iolecache_cache, oleidl/IOleCache::Cache
 ms.topic: method
-f1_keywords: ["oleidl/IOleCache.Cache"]
+f1_keywords: 
+ - "oleidl/IOleCache.Cache"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

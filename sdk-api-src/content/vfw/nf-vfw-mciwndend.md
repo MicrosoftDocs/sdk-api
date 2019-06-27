@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndEnd, MCIWndEnd macro [Windows Multimedia], _win32_MCIWndEnd, multimedia.mciwndend, vfw/MCIWndEnd
 ms.topic: macro
-f1_keywords: ["vfw/MCIWndEnd"]
+f1_keywords: 
+ - "vfw/MCIWndEnd"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

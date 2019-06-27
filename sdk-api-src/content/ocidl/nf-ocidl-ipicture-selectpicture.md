@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPicture interface [COM],SelectPicture method, IPicture.SelectPicture, IPicture::SelectPicture, SelectPicture, SelectPicture method [COM], SelectPicture method [COM],IPicture interface, _ctrl_ipicture_selectpicture, com.ipicture_selectpicture, ocidl/IPicture::SelectPicture
 ms.topic: method
-f1_keywords: ["ocidl/IPicture.SelectPicture"]
+f1_keywords: 
+ - "ocidl/IPicture.SelectPicture"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

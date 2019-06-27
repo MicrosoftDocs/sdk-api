@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPolyFillMode, GetPolyFillMode function [Windows GDI], _win32_GetPolyFillMode, gdi.getpolyfillmode, wingdi/GetPolyFillMode
 ms.topic: function
-f1_keywords: ["wingdi/GetPolyFillMode"]
+f1_keywords: 
+ - "wingdi/GetPolyFillMode"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptXmlGetStatus, CryptXmlGetStatus function [Security], cryptxml/CryptXmlGetStatus, security.cryptxmlgetstatus
 ms.topic: function
-f1_keywords: ["cryptxml/CryptXmlGetStatus"]
+f1_keywords: 
+ - "cryptxml/CryptXmlGetStatus"
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

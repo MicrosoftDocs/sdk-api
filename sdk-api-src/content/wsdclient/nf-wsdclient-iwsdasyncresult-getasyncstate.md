@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAsyncState, GetAsyncState method, GetAsyncState method,IWSDAsyncResult interface, IWSDAsyncResult interface,GetAsyncState method, IWSDAsyncResult.GetAsyncState, IWSDAsyncResult::GetAsyncState, ncd.iwsdasyncresult_getasyncstate_method, wsdclient/IWSDAsyncResult::GetAsyncState
 ms.topic: method
-f1_keywords: ["wsdclient/IWSDAsyncResult.GetAsyncState"]
+f1_keywords: 
+ - "wsdclient/IWSDAsyncResult.GetAsyncState"
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

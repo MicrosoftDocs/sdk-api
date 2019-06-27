@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSampleOutputStream, IMFSampleOutputStream interface [Media Foundation], IMFSampleOutputStream interface [Media Foundation],described, mf.imfsampleoutputstream, mfobjects/IMFSampleOutputStream
 ms.topic: interface
-f1_keywords: ["mfobjects/IMFSampleOutputStream"]
+f1_keywords: 
+ - "mfobjects/IMFSampleOutputStream"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

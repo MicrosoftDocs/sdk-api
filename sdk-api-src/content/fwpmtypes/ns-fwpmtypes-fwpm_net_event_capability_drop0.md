@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPM_NET_EVENT_CAPABILITY_DROP0, FWPM_NET_EVENT_CAPABILITY_DROP0 structure [Filtering], fwp.fwpm_net_event_capability_drop0, fwpmtypes/FWPM_NET_EVENT_CAPABILITY_DROP0
 ms.topic: struct
-f1_keywords: ["fwpmtypes/FWPM_NET_EVENT_CAPABILITY_DROP0"]
+f1_keywords: 
+ - "fwpmtypes/FWPM_NET_EVENT_CAPABILITY_DROP0"
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],put_ClientName method, IDiscFormat2TrackAtOnce.put_ClientName, IDiscFormat2TrackAtOnce::put_ClientName, imapi.idiscformat2trackatonce_put_clientname, imapi2/IDiscFormat2TrackAtOnce::put_ClientName, put_ClientName, put_ClientName method [IMAPI], put_ClientName method [IMAPI],IDiscFormat2TrackAtOnce interface
 ms.topic: method
-f1_keywords: ["imapi2/IDiscFormat2TrackAtOnce.put_ClientName"]
+f1_keywords: 
+ - "imapi2/IDiscFormat2TrackAtOnce.put_ClientName"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

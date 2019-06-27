@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WBEMPATH_COMPRESSED, WBEMPATH_GET_NAMESPACE_ONLY, WBEMPATH_GET_ORIGINAL, WBEMPATH_GET_RELATIVE_ONLY, WBEMPATH_GET_SERVER_AND_NAMESPACE_ONLY, WBEMPATH_GET_SERVER_TOO, tag_WBEM_GET_TEXT_FLAGS, tag_WBEM_GET_TEXT_FLAGS enumeration [Windows Management Instrumentation], wmi.tag_wbem_get_text_flags, wmiutils/WBEMPATH_COMPRESSED, wmiutils/WBEMPATH_GET_NAMESPACE_ONLY, wmiutils/WBEMPATH_GET_ORIGINAL, wmiutils/WBEMPATH_GET_RELATIVE_ONLY, wmiutils/WBEMPATH_GET_SERVER_AND_NAMESPACE_ONLY, wmiutils/WBEMPATH_GET_SERVER_TOO, wmiutils/tag_WBEM_GET_TEXT_FLAGS
 ms.topic: enum
-f1_keywords: ["wmiutils/tag_WBEM_GET_TEXT_FLAGS"]
+f1_keywords: 
+ - "wmiutils/tag_WBEM_GET_TEXT_FLAGS"
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

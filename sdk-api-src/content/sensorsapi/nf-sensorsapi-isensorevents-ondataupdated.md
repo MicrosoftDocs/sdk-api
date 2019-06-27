@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISensorEvents interface,OnDataUpdated method, ISensorEvents.OnDataUpdated, ISensorEvents::OnDataUpdated, OnDataUpdated, OnDataUpdated method, OnDataUpdated method,ISensorEvents interface, sensorsapi/ISensorEvents::OnDataUpdated, winsensors_com_ref.isensorevents_ondataupdated
 ms.topic: method
-f1_keywords: ["sensorsapi/ISensorEvents.OnDataUpdated"]
+f1_keywords: 
+ - "sensorsapi/ISensorEvents.OnDataUpdated"
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

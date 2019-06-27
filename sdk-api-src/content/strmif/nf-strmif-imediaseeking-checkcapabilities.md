@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckCapabilities, CheckCapabilities method [DirectShow], CheckCapabilities method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],CheckCapabilities method, IMediaSeeking.CheckCapabilities, IMediaSeeking::CheckCapabilities, IMediaSeekingCheckCapabilities, dshow.imediaseeking_checkcapabilities, strmif/IMediaSeeking::CheckCapabilities
 ms.topic: method
-f1_keywords: ["strmif/IMediaSeeking.CheckCapabilities"]
+f1_keywords: 
+ - "strmif/IMediaSeeking.CheckCapabilities"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

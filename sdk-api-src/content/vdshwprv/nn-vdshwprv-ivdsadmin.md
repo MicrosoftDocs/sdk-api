@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsAdmin, IVdsAdmin interface [VDS], IVdsAdmin interface [VDS],described, base.ivdsadmin, vdshwprv/IVdsAdmin
 ms.topic: interface
-f1_keywords: ["vdshwprv/IVdsAdmin"]
+f1_keywords: 
+ - "vdshwprv/IVdsAdmin"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Core Audio], Close method [Core Audio],ISpatialAudioMetadataReader interface, ISpatialAudioMetadataReader interface [Core Audio],Close method, ISpatialAudioMetadataReader.Close, ISpatialAudioMetadataReader::Close, coreaudio.ispatialaudiometadatareader_close, spatialaudiometadata/ISpatialAudioMetadataReader::Close
 ms.topic: method
-f1_keywords: ["spatialaudiometadata/ISpatialAudioMetadataReader.Close"]
+f1_keywords: 
+ - "spatialaudiometadata/ISpatialAudioMetadataReader.Close"
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

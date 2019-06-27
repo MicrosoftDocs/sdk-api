@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SafeArrayReleaseDescriptor, SafeArrayReleaseDescriptor function [Automation], automat.safearrayreleasedescriptor, oleauto/SafeArrayReleaseDescriptor
 ms.topic: function
-f1_keywords: ["oleauto/SafeArrayReleaseDescriptor"]
+f1_keywords: 
+ - "oleauto/SafeArrayReleaseDescriptor"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPropertyStoreCache interface [Windows Properties],SetValueAndState method, IPropertyStoreCache.SetValueAndState, IPropertyStoreCache::SetValueAndState, SetValueAndState, SetValueAndState method [Windows Properties], SetValueAndState method [Windows Properties],IPropertyStoreCache interface, properties.IPropertyStoreCache_SetValueAndState, propsys/IPropertyStoreCache::SetValueAndState, shell.IPropertyStoreCache_SetValueAndState, shell_IPropertyStoreCache_SetValueAndState
 ms.topic: method
-f1_keywords: ["propsys/IPropertyStoreCache.SetValueAndState"]
+f1_keywords: 
+ - "propsys/IPropertyStoreCache.SetValueAndState"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPriority, GetPriority method [BITS], GetPriority method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetPriority method, IBackgroundCopyJob.GetPriority, IBackgroundCopyJob::GetPriority, _drz_ibackgroundcopyjob_getpriority, bits.ibackgroundcopyjob_getpriority, bits/IBackgroundCopyJob::GetPriority
 ms.topic: method
-f1_keywords: ["bits/IBackgroundCopyJob.GetPriority"]
+f1_keywords: 
+ - "bits/IBackgroundCopyJob.GetPriority"
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiPreviewDialog, MsiPreviewDialog function, MsiPreviewDialogA, MsiPreviewDialogW, _msi_msipreviewdialog, msiquery/MsiPreviewDialog, msiquery/MsiPreviewDialogA, msiquery/MsiPreviewDialogW, setup.msipreviewdialog
 ms.topic: function
-f1_keywords: ["msiquery/MsiPreviewDialog"]
+f1_keywords: 
+ - "msiquery/MsiPreviewDialog"
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

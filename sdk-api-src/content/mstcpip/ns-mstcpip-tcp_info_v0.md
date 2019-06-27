@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTCP_INFO_v0, PTCP_INFO_v0, PTCP_INFO_v0 structure pointer [Winsock], TCP_INFO_v0, TCP_INFO_v0 structure [Winsock], mstcpip/PTCP_INFO_v0, mstcpip/TCP_INFO_v0, winsock.tcp_info_v0"
 ms.topic: struct
-f1_keywords: ["mstcpip/TCP_INFO_v0"]
+f1_keywords: 
+ - "mstcpip/TCP_INFO_v0"
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows

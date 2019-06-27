@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemBitmapButton interface [Text Services Framework],InitMenu method, ITfLangBarItemBitmapButton.InitMenu, ITfLangBarItemBitmapButton::InitMenu, InitMenu, InitMenu method [Text Services Framework], InitMenu method [Text Services Framework],ITfLangBarItemBitmapButton interface, _tsf_itflangbaritembitmapbutton_initmenu_ref, ctfutb/ITfLangBarItemBitmapButton::InitMenu, tsf.itflangbaritembitmapbutton_initmenu
 ms.topic: method
-f1_keywords: ["ctfutb/ITfLangBarItemBitmapButton.InitMenu"]
+f1_keywords: 
+ - "ctfutb/ITfLangBarItemBitmapButton.InitMenu"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

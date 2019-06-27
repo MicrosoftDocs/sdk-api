@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHFlushSFCache, SHFlushSFCache function [Windows Shell], _win32_SHFlushSFCache, shell.SHFlushSFCache, shlobj_core/SHFlushSFCache
 ms.topic: function
-f1_keywords: ["shlobj_core/SHFlushSFCache"]
+f1_keywords: 
+ - "shlobj_core/SHFlushSFCache"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

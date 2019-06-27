@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDISK_EXTENT, DISK_EXTENT, DISK_EXTENT structure [Files], PDISK_EXTENT, PDISK_EXTENT structure pointer [Files], _win32_disk_extent_str, base.disk_extent_str, fs.disk_extent_str, winioctl/DISK_EXTENT, winioctl/PDISK_EXTENT"
 ms.topic: struct
-f1_keywords: ["winioctl/DISK_EXTENT"]
+f1_keywords: 
+ - "winioctl/DISK_EXTENT"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

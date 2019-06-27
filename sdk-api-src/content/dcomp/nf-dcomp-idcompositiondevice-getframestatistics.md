@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFrameStatistics, GetFrameStatistics method [DirectComposition], GetFrameStatistics method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],GetFrameStatistics method, IDCompositionDevice.GetFrameStatistics, IDCompositionDevice::GetFrameStatistics, dcomp/IDCompositionDevice::GetFrameStatistics, directcomp.idcompositiondevice_getframestatistics
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionDevice.GetFrameStatistics"]
+f1_keywords: 
+ - "dcomp/IDCompositionDevice.GetFrameStatistics"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

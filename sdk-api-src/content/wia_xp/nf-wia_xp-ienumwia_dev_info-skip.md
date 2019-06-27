@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumWIA_DEV_INFO interface [WIA],Skip method, IEnumWIA_DEV_INFO.Skip, IEnumWIA_DEV_INFO::Skip, Skip, Skip method [WIA], Skip method [WIA],IEnumWIA_DEV_INFO interface, _wia_IEnumWIA_DEV_INFO_Skip, wia._wia_IEnumWIA_DEV_INFO_Skip, wia_xp/IEnumWIA_DEV_INFO::Skip
 ms.topic: method
-f1_keywords: ["wia_xp/IEnumWIA_DEV_INFO.Skip"]
+f1_keywords: 
+ - "wia_xp/IEnumWIA_DEV_INFO.Skip"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_MEDIASOURCE_STATUS_INFO, MF_MEDIASOURCE_STATUS_INFO enumeration [Streaming Media Devices], MF_MEDIASOURCE_STATUS_INFO_FULLYSUPPORTED, MF_MEDIASOURCE_STATUS_INFO_UNKNOWN, mfidl/MF_MEDIASOURCE_STATUS_INFO, mfidl/MF_MEDIASOURCE_STATUS_INFO_FULLYSUPPORTED, mfidl/MF_MEDIASOURCE_STATUS_INFO_UNKNOWN, stream.mf_mediasource_status_info
 ms.topic: enum
-f1_keywords: ["mfidl/MF_MEDIASOURCE_STATUS_INFO"]
+f1_keywords: 
+ - "mfidl/MF_MEDIASOURCE_STATUS_INFO"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

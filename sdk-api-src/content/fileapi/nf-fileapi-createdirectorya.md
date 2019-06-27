@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDirectory, CreateDirectory function [Files], CreateDirectoryA, CreateDirectoryW, _win32_createdirectory, base.createdirectory, fileapi/CreateDirectory, fileapi/CreateDirectoryA, fileapi/CreateDirectoryW, fs.createdirectory, winbase/CreateDirectory, winbase/CreateDirectoryA, winbase/CreateDirectoryW
 ms.topic: function
-f1_keywords: ["fileapi/CreateDirectory"]
+f1_keywords: 
+ - "fileapi/CreateDirectory"
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

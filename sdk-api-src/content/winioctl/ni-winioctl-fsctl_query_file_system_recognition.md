@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_QUERY_FILE_SYSTEM_RECOGNITION, FSCTL_QUERY_FILE_SYSTEM_RECOGNITION control, FSCTL_QUERY_FILE_SYSTEM_RECOGNITION control code [Files], fs.fsctl_query_file_system_recognition, winioctl/FSCTL_QUERY_FILE_SYSTEM_RECOGNITION
 ms.topic: ioctl
-f1_keywords: ["winioctl/FSCTL_QUERY_FILE_SYSTEM_RECOGNITION"]
+f1_keywords: 
+ - "winioctl/FSCTL_QUERY_FILE_SYSTEM_RECOGNITION"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

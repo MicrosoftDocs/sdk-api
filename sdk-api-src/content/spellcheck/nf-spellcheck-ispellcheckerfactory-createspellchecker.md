@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSpellChecker, CreateSpellChecker method [Internationalization for Windows Applications], CreateSpellChecker method [Internationalization for Windows Applications],ISpellCheckerFactory interface, ISpellCheckerFactory interface [Internationalization for Windows Applications],CreateSpellChecker method, ISpellCheckerFactory.CreateSpellChecker, ISpellCheckerFactory::CreateSpellChecker, intl.ispellcheckerfactory_createspellchecker, spellcheck/ISpellCheckerFactory::CreateSpellChecker
 ms.topic: method
-f1_keywords: ["spellcheck/ISpellCheckerFactory.CreateSpellChecker"]
+f1_keywords: 
+ - "spellcheck/ISpellCheckerFactory.CreateSpellChecker"
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

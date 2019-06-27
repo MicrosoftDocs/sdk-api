@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GHND, GMEM_FIXED, GMEM_MOVEABLE, GMEM_ZEROINIT, GPTR, GlobalAlloc, GlobalAlloc function, _win32_globalalloc, base.globalalloc, winbase/GlobalAlloc
 ms.topic: function
-f1_keywords: ["winbase/GlobalAlloc"]
+f1_keywords: 
+ - "winbase/GlobalAlloc"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

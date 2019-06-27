@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAGetLastError, WSAGetLastError function [Winsock], _win32_wsagetlasterror_2, winsock.wsagetlasterror_2, winsock/WSAGetLastError
 ms.topic: function
-f1_keywords: ["winsock/WSAGetLastError"]
+f1_keywords: 
+ - "winsock/WSAGetLastError"
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows

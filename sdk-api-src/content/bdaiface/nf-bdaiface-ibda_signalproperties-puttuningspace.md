@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_SignalProperties interface [Microsoft TV Technologies],PutTuningSpace method, IBDA_SignalProperties.PutTuningSpace, IBDA_SignalProperties::PutTuningSpace, IBDA_SignalPropertiesPutTuningSpace, PutTuningSpace, PutTuningSpace method [Microsoft TV Technologies], PutTuningSpace method [Microsoft TV Technologies],IBDA_SignalProperties interface, bdaiface/IBDA_SignalProperties::PutTuningSpace, mstv.ibda_signalproperties_puttuningspace
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_SignalProperties.PutTuningSpace"]
+f1_keywords: 
+ - "bdaiface/IBDA_SignalProperties.PutTuningSpace"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

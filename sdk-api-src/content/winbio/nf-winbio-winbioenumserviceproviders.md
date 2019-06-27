@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinBioEnumServiceProviders, WinBioEnumServiceProviders function [Windows Biometric Framework API], secbiomet.winbioenumserviceproviders, winbio/WinBioEnumServiceProviders
 ms.topic: function
-f1_keywords: ["winbio/WinBioEnumServiceProviders"]
+f1_keywords: 
+ - "winbio/WinBioEnumServiceProviders"
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

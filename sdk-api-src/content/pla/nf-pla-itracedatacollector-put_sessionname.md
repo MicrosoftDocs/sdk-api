@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITraceDataCollector interface [PLA],SessionName property, ITraceDataCollector.SessionName, ITraceDataCollector.put_SessionName, ITraceDataCollector::SessionName, ITraceDataCollector::get_SessionName, ITraceDataCollector::put_SessionName, SessionName property [PLA], SessionName property [PLA],ITraceDataCollector interface, base.itracedatacollector_sessionname, pla.itracedatacollector_sessionname, pla/ITraceDataCollector::SessionName, pla/ITraceDataCollector::get_SessionName, pla/ITraceDataCollector::put_SessionName, put_SessionName
 ms.topic: method
-f1_keywords: ["pla/ITraceDataCollector.SessionName"]
+f1_keywords: 
+ - "pla/ITraceDataCollector.SessionName"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

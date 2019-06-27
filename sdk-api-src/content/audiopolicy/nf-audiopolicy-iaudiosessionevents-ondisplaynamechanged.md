@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionEvents interface [Core Audio],OnDisplayNameChanged method, IAudioSessionEvents.OnDisplayNameChanged, IAudioSessionEvents::OnDisplayNameChanged, IAudioSessionEventsOnDisplayNameChanged, OnDisplayNameChanged, OnDisplayNameChanged method [Core Audio], OnDisplayNameChanged method [Core Audio],IAudioSessionEvents interface, audiopolicy/IAudioSessionEvents::OnDisplayNameChanged, coreaudio.iaudiosessionevents_ondisplaynamechanged
 ms.topic: method
-f1_keywords: ["audiopolicy/IAudioSessionEvents.OnDisplayNameChanged"]
+f1_keywords: 
+ - "audiopolicy/IAudioSessionEvents.OnDisplayNameChanged"
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICPalette interface [Windows Imaging Component],IsGrayscale method, IWICPalette.IsGrayscale, IWICPalette::IsGrayscale, IsGrayscale, IsGrayscale method [Windows Imaging Component], IsGrayscale method [Windows Imaging Component],IWICPalette interface, _wic_codec_iwicpalette_isgrayscale, wic._wic_codec_iwicpalette_isgrayscale, wincodec/IWICPalette::IsGrayscale
 ms.topic: method
-f1_keywords: ["wincodec/IWICPalette.IsGrayscale"]
+f1_keywords: 
+ - "wincodec/IWICPalette.IsGrayscale"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

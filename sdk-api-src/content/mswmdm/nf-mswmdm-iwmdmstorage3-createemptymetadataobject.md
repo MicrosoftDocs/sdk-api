@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateEmptyMetadataObject, CreateEmptyMetadataObject method [windows Media Device Manager], CreateEmptyMetadataObject method [windows Media Device Manager],IWMDMStorage3 interface, IWMDMStorage3 interface [windows Media Device Manager],CreateEmptyMetadataObject method, IWMDMStorage3.CreateEmptyMetadataObject, IWMDMStorage3::CreateEmptyMetadataObject, IWMDMStorage3CreateEmptyMetadataObject, mswmdm/IWMDMStorage3::CreateEmptyMetadataObject, wmdm.iwmdmstorage3_createemptymetadataobject
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMStorage3.CreateEmptyMetadataObject"]
+f1_keywords: 
+ - "mswmdm/IWMDMStorage3.CreateEmptyMetadataObject"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

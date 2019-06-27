@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPKU2U_LOGON_SUBMIT_TYPE, PKU2U_LOGON_SUBMIT_TYPE, PKU2U_LOGON_SUBMIT_TYPE enumeration [Security], PPKU2U_LOGON_SUBMIT_TYPE, PPKU2U_LOGON_SUBMIT_TYPE enumeration pointer [Security], Pku2uCertificateS4ULogon, ntsecapi/PKU2U_LOGON_SUBMIT_TYPE, ntsecapi/PPKU2U_LOGON_SUBMIT_TYPE, ntsecapi/Pku2uCertificateS4ULogon, security.pku2u_logon_submit_type"
 ms.topic: enum
-f1_keywords: ["ntsecapi/PKU2U_LOGON_SUBMIT_TYPE"]
+f1_keywords: 
+ - "ntsecapi/PKU2U_LOGON_SUBMIT_TYPE"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

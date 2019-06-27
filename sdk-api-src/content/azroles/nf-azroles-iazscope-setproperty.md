@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AzScope object [Security],SetProperty method, IAzScope interface [Security],SetProperty method, IAzScope.SetProperty, IAzScope::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],AzScope object, SetProperty method [Security],IAzScope interface, azroles/IAzScope::SetProperty, security.iazscope_setproperty
 ms.topic: method
-f1_keywords: ["azroles/IAzScope.SetProperty"]
+f1_keywords: 
+ - "azroles/IAzScope.SetProperty"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

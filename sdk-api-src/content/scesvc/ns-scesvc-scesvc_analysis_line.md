@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSCESVC_ANALYSIS_LINE, PSCESVC_ANALYSIS_LINE, PSCESVC_ANALYSIS_LINE structure pointer [Security], SCESVC_ANALYSIS_LINE, SCESVC_ANALYSIS_LINE structure [Security], _config_scesvc_analysis_line, scesvc/PSCESVC_ANALYSIS_LINE, scesvc/SCESVC_ANALYSIS_LINE, security.scesvc_analysis_line"
 ms.topic: struct
-f1_keywords: ["scesvc/SCESVC_ANALYSIS_LINE"]
+f1_keywords: 
+ - "scesvc/SCESVC_ANALYSIS_LINE"
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows

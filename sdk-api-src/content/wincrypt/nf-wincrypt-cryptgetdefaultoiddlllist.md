@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptGetDefaultOIDDllList, CryptGetDefaultOIDDllList function [Security], _crypto2_cryptgetdefaultoiddlllist, security.cryptgetdefaultoiddlllist, wincrypt/CryptGetDefaultOIDDllList
 ms.topic: function
-f1_keywords: ["wincrypt/CryptGetDefaultOIDDllList"]
+f1_keywords: 
+ - "wincrypt/CryptGetDefaultOIDDllList"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

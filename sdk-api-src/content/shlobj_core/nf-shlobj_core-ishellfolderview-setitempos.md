@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellFolderView interface [Windows Shell],SetItemPos method, IShellFolderView.SetItemPos, IShellFolderView::SetItemPos, SetItemPos, SetItemPos method [Windows Shell], SetItemPos method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_SetItemPos, shell.IShellFolderView_SetItemPos, shlobj_core/IShellFolderView::SetItemPos
 ms.topic: method
-f1_keywords: ["shlobj_core/IShellFolderView.SetItemPos"]
+f1_keywords: 
+ - "shlobj_core/IShellFolderView.SetItemPos"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

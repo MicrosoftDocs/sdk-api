@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_DELETE_FLAG, CERT_SYSTEM_STORE_RELOCATE_FLAG, CertUnregisterSystemStore, CertUnregisterSystemStore function [Security], _crypto2_certunregistersystemstore, security.certunregistersystemstore, wincrypt/CertUnregisterSystemStore
 ms.topic: function
-f1_keywords: ["wincrypt/CertUnregisterSystemStore"]
+f1_keywords: 
+ - "wincrypt/CertUnregisterSystemStore"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

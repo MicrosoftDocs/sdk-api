@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ChildCount property [Windows Accessibility], ChildCount property [Windows Accessibility],IUIAutomationOrCondition interface, IUIAutomationOrCondition interface [Windows Accessibility],ChildCount property, IUIAutomationOrCondition.ChildCount, IUIAutomationOrCondition.get_ChildCount, IUIAutomationOrCondition::ChildCount, IUIAutomationOrCondition::get_ChildCount, get_ChildCount, uiauto.uiauto_IUIAutomationOrCondition_ChildCount, uiauto_IUIAutomationOrCondition_ChildCount, uiautomationclient/IUIAutomationOrCondition::ChildCount, uiautomationclient/IUIAutomationOrCondition::get_ChildCount, winauto.uiauto_IUIAutomationOrCondition_ChildCount
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationOrCondition.ChildCount"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationOrCondition.ChildCount"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

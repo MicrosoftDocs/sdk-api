@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrSimpleStructUnmarshall, NdrSimpleStructUnmarshall function [Windows API], rpcndr/NdrSimpleStructUnmarshall, winprog.ndrsimplestructunmarshall
 ms.topic: function
-f1_keywords: ["rpcndr/NdrSimpleStructUnmarshall"]
+f1_keywords: 
+ - "rpcndr/NdrSimpleStructUnmarshall"
 req.header: rpcndr.h
 req.include-header: 
 req.target-type: Windows

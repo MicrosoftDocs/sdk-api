@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddCertTypeToRequestWStrEx, AddCertTypeToRequestWStrEx method [Security], AddCertTypeToRequestWStrEx method [Security],IEnroll4 interface, IEnroll4 interface [Security],AddCertTypeToRequestWStrEx method, IEnroll4.AddCertTypeToRequestWStrEx, IEnroll4::AddCertTypeToRequestWStrEx, XECT_EXTENSION_V1, XECT_EXTENSION_V2, security.ienroll4_addcerttypetorequestwstrex, xenroll/IEnroll4::AddCertTypeToRequestWStrEx
 ms.topic: method
-f1_keywords: ["xenroll/IEnroll4.AddCertTypeToRequestWStrEx"]
+f1_keywords: 
+ - "xenroll/IEnroll4.AddCertTypeToRequestWStrEx"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

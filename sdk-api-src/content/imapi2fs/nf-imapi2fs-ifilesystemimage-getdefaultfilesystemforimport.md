@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDefaultFileSystemForImport, GetDefaultFileSystemForImport method [IMAPI], GetDefaultFileSystemForImport method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],GetDefaultFileSystemForImport method, IFileSystemImage.GetDefaultFileSystemForImport, IFileSystemImage::GetDefaultFileSystemForImport, imapi.ifilesystemimage_getdefaultfilesystemforimport, imapi2fs/IFileSystemImage::GetDefaultFileSystemForImport
 ms.topic: method
-f1_keywords: ["imapi2fs/IFileSystemImage.GetDefaultFileSystemForImport"]
+f1_keywords: 
+ - "imapi2fs/IFileSystemImage.GetDefaultFileSystemForImport"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

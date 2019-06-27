@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVersionHash, GetVersionHash method [Microsoft TV Technologies], GetVersionHash method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetVersionHash method, IDVB_EIT.GetVersionHash, IDVB_EIT::GetVersionHash, IDVB_EITGetVersionHash, dvbsiparser/IDVB_EIT::GetVersionHash, mstv.idvb_eit_getversionhash
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDVB_EIT.GetVersionHash"]
+f1_keywords: 
+ - "dvbsiparser/IDVB_EIT.GetVersionHash"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: mssip/pfnIsFileSupportedName, pfnIsFileSupportedName, pfnIsFileSupportedName callback, pfnIsFileSupportedName callback function [Security], security.pfnisfilesupportedname
 ms.topic: callback
-f1_keywords: ["mssip/pfnIsFileSupportedName"]
+f1_keywords: 
+ - "mssip/pfnIsFileSupportedName"
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows

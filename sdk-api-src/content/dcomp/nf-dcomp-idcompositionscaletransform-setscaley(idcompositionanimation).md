@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform interface [DirectComposition],SetScaleY method, IDCompositionScaleTransform.SetScaleY, IDCompositionScaleTransform.SetScaleY(IDCompositionAnimation), IDCompositionScaleTransform::SetScaleY, IDCompositionScaleTransform::SetScaleY(IDCompositionAnimation), IDCompositionScaleTransform::SetScaleY(IDCompositionAnimation*), SetScaleY, SetScaleY method [DirectComposition], SetScaleY method [DirectComposition],IDCompositionScaleTransform interface, dcomp/IDCompositionScaleTransform::SetScaleY, directcomp.idcompositionscaletransform_setscaley_idcompositionanimation
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionScaleTransform.SetScaleY"]
+f1_keywords: 
+ - "dcomp/IDCompositionScaleTransform.SetScaleY"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

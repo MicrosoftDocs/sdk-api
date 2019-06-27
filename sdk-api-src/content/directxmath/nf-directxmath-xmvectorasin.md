@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorASin, XMVectorASin, XMVectorASin method [DirectX Math Support APIs], dxmath.xmvectorasin
 ms.topic: function
-f1_keywords: ["directxmath/XMVectorASin"]
+f1_keywords: 
+ - "directxmath/XMVectorASin"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_PROVIDER_REFS, CRYPT_PROVIDER_REFS, CRYPT_PROVIDER_REFS structure [Security], PCRYPT_PROVIDER_REFS, PCRYPT_PROVIDER_REFS structure pointer [Security], bcrypt/CRYPT_PROVIDER_REFS, bcrypt/PCRYPT_PROVIDER_REFS, security.crypt_provider_refs"
 ms.topic: struct
-f1_keywords: ["bcrypt/CRYPT_PROVIDER_REFS"]
+f1_keywords: 
+ - "bcrypt/CRYPT_PROVIDER_REFS"
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

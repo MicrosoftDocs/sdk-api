@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeRenewalCertificate interface [Security],InitializeEncode method, IX509AttributeRenewalCertificate.InitializeEncode, IX509AttributeRenewalCertificate::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509AttributeRenewalCertificate interface, certenroll/IX509AttributeRenewalCertificate::InitializeEncode, security.ix509attributerenewalcertificate_initializeencode_method
 ms.topic: method
-f1_keywords: ["certenroll/IX509AttributeRenewalCertificate.InitializeEncode"]
+f1_keywords: 
+ - "certenroll/IX509AttributeRenewalCertificate.InitializeEncode"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

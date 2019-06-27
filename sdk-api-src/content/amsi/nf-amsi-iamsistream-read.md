@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAmsiStream interface [Antimalware Scan Interface],Read method, IAmsiStream.Read, IAmsiStream::Read, Read, Read method [Antimalware Scan Interface], Read method [Antimalware Scan Interface],IAmsiStream interface, amsi.iamsistream_read, amsi/IAmsiStream::Read
 ms.topic: method
-f1_keywords: ["amsi/IAmsiStream.Read"]
+f1_keywords: 
+ - "amsi/IAmsiStream.Read"
 req.header: amsi.h
 req.include-header: 
 req.target-type: Windows

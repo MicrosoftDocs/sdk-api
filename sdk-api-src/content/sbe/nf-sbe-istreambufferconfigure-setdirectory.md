@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferConfigure interface [Microsoft TV Technologies],SetDirectory method, IStreamBufferConfigure.SetDirectory, IStreamBufferConfigure::SetDirectory, IStreamBufferConfigureSetDirectory, SetDirectory, SetDirectory method [Microsoft TV Technologies], SetDirectory method [Microsoft TV Technologies],IStreamBufferConfigure interface, mstv.istreambufferconfigure_setdirectory, sbe/IStreamBufferConfigure::SetDirectory
 ms.topic: method
-f1_keywords: ["sbe/IStreamBufferConfigure.SetDirectory"]
+f1_keywords: 
+ - "sbe/IStreamBufferConfigure.SetDirectory"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

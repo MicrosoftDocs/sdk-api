@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInput, GetInput method [Task Scheduler], GetInput method [Task Scheduler],ITaskVariables interface, ITaskVariables interface [Task Scheduler],GetInput method, ITaskVariables.GetInput, ITaskVariables::GetInput, taskschd.itaskvariables_getinput, taskschd/ITaskVariables::GetInput
 ms.topic: method
-f1_keywords: ["taskschd/ITaskVariables.GetInput"]
+f1_keywords: 
+ - "taskschd/ITaskVariables.GetInput"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

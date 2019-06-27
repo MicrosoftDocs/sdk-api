@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetZOrder, GetZOrder method [DirectShow], GetZOrder method [DirectShow],IVMRMixerControl interface, IVMRMixerControl interface [DirectShow],GetZOrder method, IVMRMixerControl.GetZOrder, IVMRMixerControl::GetZOrder, IVMRMixerControlGetZOrder, dshow.ivmrmixercontrol_getzorder, strmif/IVMRMixerControl::GetZOrder
 ms.topic: method
-f1_keywords: ["strmif/IVMRMixerControl.GetZOrder"]
+f1_keywords: 
+ - "strmif/IVMRMixerControl.GetZOrder"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

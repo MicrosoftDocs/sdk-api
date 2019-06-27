@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddSelector, AddSelector method [Windows Remote Management], AddSelector method [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],AddSelector method, IWSManResourceLocator.AddSelector, IWSManResourceLocator::AddSelector, winrm.iwsmanresourcelocator_addselector, wsmandisp/IWSManResourceLocator::AddSelector
 ms.topic: method
-f1_keywords: ["wsmandisp/IWSManResourceLocator.AddSelector"]
+f1_keywords: 
+ - "wsmandisp/IWSManResourceLocator.AddSelector"
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

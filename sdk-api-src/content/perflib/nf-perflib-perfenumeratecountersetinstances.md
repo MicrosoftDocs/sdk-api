@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PerfEnumerateCounterSetInstances, PerfEnumerateCounterSetInstances function [Perf], perf.perfenumeratecountersetinstances, perflib/PerfEnumerateCounterSetInstances
 ms.topic: function
-f1_keywords: ["perflib/PerfEnumerateCounterSetInstances"]
+f1_keywords: 
+ - "perflib/PerfEnumerateCounterSetInstances"
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

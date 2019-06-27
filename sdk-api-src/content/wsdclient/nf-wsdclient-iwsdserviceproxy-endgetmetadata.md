@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndGetMetadata, EndGetMetadata method, EndGetMetadata method,IWSDServiceProxy interface, IWSDServiceProxy interface,EndGetMetadata method, IWSDServiceProxy.EndGetMetadata, IWSDServiceProxy::EndGetMetadata, ncd.iwsdserviceproxy_endgetmetadata, wsdclient/IWSDServiceProxy::EndGetMetadata
 ms.topic: method
-f1_keywords: ["wsdclient/IWSDServiceProxy.EndGetMetadata"]
+f1_keywords: 
+ - "wsdclient/IWSDServiceProxy.EndGetMetadata"
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

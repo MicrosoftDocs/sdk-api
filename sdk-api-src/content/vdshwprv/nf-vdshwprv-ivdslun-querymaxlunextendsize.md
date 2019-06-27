@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsLun interface,QueryMaxLunExtendSize method, IVdsLun.QueryMaxLunExtendSize, IVdsLun::QueryMaxLunExtendSize, QueryMaxLunExtendSize, QueryMaxLunExtendSize method, QueryMaxLunExtendSize method,IVdsLun interface, base.ivdslun_querymaxlunextendsize, vds/IVdsLun::QueryMaxLunExtendSize, vdshwprv/IVdsLun::QueryMaxLunExtendSize
 ms.topic: method
-f1_keywords: ["vdshwprv/IVdsLun.QueryMaxLunExtendSize"]
+f1_keywords: 
+ - "vdshwprv/IVdsLun.QueryMaxLunExtendSize"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

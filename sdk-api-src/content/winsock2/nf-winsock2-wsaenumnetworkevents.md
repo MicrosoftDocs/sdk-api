@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAEnumNetworkEvents, WSAEnumNetworkEvents function [Winsock], _win32_wsaenumnetworkevents_2, winsock.wsaenumnetworkevents_2, winsock2/WSAEnumNetworkEvents
 ms.topic: function
-f1_keywords: ["winsock2/WSAEnumNetworkEvents"]
+f1_keywords: 
+ - "winsock2/WSAEnumNetworkEvents"
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

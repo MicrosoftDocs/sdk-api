@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMTunerNotification, IAMTunerNotification interface [DirectShow], IAMTunerNotification interface [DirectShow],described, IAMTunerNotificationInterface, dshow.iamtunernotification, strmif/IAMTunerNotification
 ms.topic: interface
-f1_keywords: ["strmif/IAMTunerNotification"]
+f1_keywords: 
+ - "strmif/IAMTunerNotification"
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

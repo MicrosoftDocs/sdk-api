@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],put_name method, IWMPPlaylist.put_name, IWMPPlaylist::put_name, IWMPPlaylistput_name, put_name, put_name method [Windows Media Player], put_name method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_put_name, wmp/IWMPPlaylist::put_name
 ms.topic: method
-f1_keywords: ["wmp/IWMPPlaylist.put_name"]
+f1_keywords: 
+ - "wmp/IWMPPlaylist.put_name"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

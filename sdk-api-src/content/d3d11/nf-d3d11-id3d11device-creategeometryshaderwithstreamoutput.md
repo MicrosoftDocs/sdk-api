@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 39026c1a-ac13-562f-6f6e-86f1981ebb87, CreateGeometryShaderWithStreamOutput, CreateGeometryShaderWithStreamOutput method [Direct3D 11], CreateGeometryShaderWithStreamOutput method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateGeometryShaderWithStreamOutput method, ID3D11Device.CreateGeometryShaderWithStreamOutput, ID3D11Device::CreateGeometryShaderWithStreamOutput, d3d11/ID3D11Device::CreateGeometryShaderWithStreamOutput, direct3d11.id3d11device_creategeometryshaderwithstreamoutput
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11Device.CreateGeometryShaderWithStreamOutput"]
+f1_keywords: 
+ - "d3d11/ID3D11Device.CreateGeometryShaderWithStreamOutput"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

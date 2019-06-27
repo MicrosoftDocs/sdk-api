@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminInitializeDllEx, MprAdminInitializeDllEx callback, MprAdminInitializeDllEx callback function [RAS], mprapi/MprAdminInitializeDllEx, rras.mpradmininitializedllex
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminInitializeDllEx"]
+f1_keywords: 
+ - "mprapi/MprAdminInitializeDllEx"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

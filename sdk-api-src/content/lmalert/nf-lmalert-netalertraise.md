@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ALERT_ADMIN_EVENT, ALERT_ERRORLOG_EVENT, ALERT_MESSAGE_EVENT, ALERT_PRINT_EVENT, ALERT_USER_EVENT, NetAlertRaise, NetAlertRaise function [Network Management], _win32_netalertraise, lmalert/NetAlertRaise, netmgmt.netalertraise
 ms.topic: function
-f1_keywords: ["lmalert/NetAlertRaise"]
+f1_keywords: 
+ - "lmalert/NetAlertRaise"
 req.header: lmalert.h
 req.include-header: Lm.h
 req.target-type: Windows

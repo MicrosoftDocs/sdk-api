@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 38205573-be63-f56a-8e33-466b9154f1a9, ID3D10Device interface [Direct3D 10],RSSetViewports method, ID3D10Device.RSSetViewports, ID3D10Device::RSSetViewports, RSSetViewports, RSSetViewports method [Direct3D 10], RSSetViewports method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::RSSetViewports, direct3d10.id3d10device_rssetviewports
 ms.topic: method
-f1_keywords: ["d3d10/ID3D10Device.RSSetViewports"]
+f1_keywords: 
+ - "d3d10/ID3D10Device.RSSetViewports"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

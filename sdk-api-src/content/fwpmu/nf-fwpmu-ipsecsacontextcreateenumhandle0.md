@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPsecSaContextCreateEnumHandle0, IPsecSaContextCreateEnumHandle0 function [Filtering], fwp.ipsecsacontextcreateenumhandle0, fwpmu/IPsecSaContextCreateEnumHandle0
 ms.topic: function
-f1_keywords: ["fwpmu/IPsecSaContextCreateEnumHandle0"]
+f1_keywords: 
+ - "fwpmu/IPsecSaContextCreateEnumHandle0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

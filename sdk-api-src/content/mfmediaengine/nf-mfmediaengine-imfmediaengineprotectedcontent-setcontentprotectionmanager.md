@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineProtectedContent interface [Media Foundation],SetContentProtectionManager method, IMFMediaEngineProtectedContent.SetContentProtectionManager, IMFMediaEngineProtectedContent::SetContentProtectionManager, SetContentProtectionManager, SetContentProtectionManager method [Media Foundation], SetContentProtectionManager method [Media Foundation],IMFMediaEngineProtectedContent interface, mf.imfmediaengineprotectedcontent_setcontentprotectionmanager, mfmediaengine/IMFMediaEngineProtectedContent::SetContentProtectionManager
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngineProtectedContent.SetContentProtectionManager"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngineProtectedContent.SetContentProtectionManager"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

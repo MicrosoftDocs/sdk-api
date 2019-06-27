@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Security], Create method [Security],IIdentityProvider interface, IIdentityProvider interface [Security],Create method, IIdentityProvider.Create, IIdentityProvider::Create, identityprovider/IIdentityProvider::Create, security.iidentityprovider_create
 ms.topic: method
-f1_keywords: ["identityprovider/IIdentityProvider.Create"]
+f1_keywords: 
+ - "identityprovider/IIdentityProvider.Create"
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows

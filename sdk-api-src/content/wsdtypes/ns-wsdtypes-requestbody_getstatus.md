@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: REQUESTBODY_GetStatus, REQUESTBODY_GetStatus structure, ncd.requestbody_getstatus, wsdtypes/REQUESTBODY_GetStatus
 ms.topic: struct
-f1_keywords: ["wsdtypes/REQUESTBODY_GetStatus"]
+f1_keywords: 
+ - "wsdtypes/REQUESTBODY_GetStatus"
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

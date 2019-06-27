@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHeight, GetHeight method [GDI+], GetHeight method [GDI+],Image class, Image class [GDI+],GetHeight method, Image.GetHeight, Image::GetHeight, _gdiplus_CLASS_Image_GetHeight_, gdiplus._gdiplus_CLASS_Image_GetHeight_
 ms.topic: method
-f1_keywords: ["gdiplusheaders/Image.GetHeight"]
+f1_keywords: 
+ - "gdiplusheaders/Image.GetHeight"
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

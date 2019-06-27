@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfTextInputProcessor, ITfTextInputProcessor interface [Text Services Framework], ITfTextInputProcessor interface [Text Services Framework],described, _tsf_itftextinputprocessor_ref, msctf/ITfTextInputProcessor, tsf.itftextinputprocessor
 ms.topic: interface
-f1_keywords: ["msctf/ITfTextInputProcessor"]
+f1_keywords: 
+ - "msctf/ITfTextInputProcessor"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

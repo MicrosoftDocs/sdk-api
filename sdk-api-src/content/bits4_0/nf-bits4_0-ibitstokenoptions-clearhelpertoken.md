@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClearHelperToken, ClearHelperToken method [BITS], ClearHelperToken method [BITS],IBitsTokenOptions interface, IBitsTokenOptions interface [BITS],ClearHelperToken method, IBitsTokenOptions.ClearHelperToken, IBitsTokenOptions::ClearHelperToken, bits.ibitstokenoptions_clearhelpertoken, bits4_0/IBitsTokenOptions::ClearHelperToken
 ms.topic: method
-f1_keywords: ["bits4_0/IBitsTokenOptions.ClearHelperToken"]
+f1_keywords: 
+ - "bits4_0/IBitsTokenOptions.ClearHelperToken"
 req.header: bits4_0.h
 req.include-header: 
 req.target-type: Windows

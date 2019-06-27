@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddDllDirectory, AddDllDirectory function, base.adddlldirectory, libloaderapi/AddDllDirectory
 ms.topic: function
-f1_keywords: ["libloaderapi/AddDllDirectory"]
+f1_keywords: 
+ - "libloaderapi/AddDllDirectory"
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

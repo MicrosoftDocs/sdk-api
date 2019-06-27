@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerCollabAddContact, PeerCollabAddContact function [Peer Networking], p2p.peercollabaddcontact, p2p/PeerCollabAddContact
 ms.topic: function
-f1_keywords: ["p2p/PeerCollabAddContact"]
+f1_keywords: 
+ - "p2p/PeerCollabAddContact"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoQueryAuthenticationServices, CoQueryAuthenticationServices function [COM], _com_CoQueryAuthenticationServices, com.coqueryauthenticationservices, combaseapi/CoQueryAuthenticationServices
 ms.topic: function
-f1_keywords: ["combaseapi/CoQueryAuthenticationServices"]
+f1_keywords: 
+ - "combaseapi/CoQueryAuthenticationServices"
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchCrawlScopeManager interface [search],RemoveRoot method, ISearchCrawlScopeManager.RemoveRoot, ISearchCrawlScopeManager::RemoveRoot, RemoveRoot, RemoveRoot method [search], RemoveRoot method [search],ISearchCrawlScopeManager interface, _search_ISearchCrawlScopeManager_RemoveRoot, search._search_ISearchCrawlScopeManager_RemoveRoot, searchapi/ISearchCrawlScopeManager::RemoveRoot
 ms.topic: method
-f1_keywords: ["searchapi/ISearchCrawlScopeManager.RemoveRoot"]
+f1_keywords: 
+ - "searchapi/ISearchCrawlScopeManager.RemoveRoot"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

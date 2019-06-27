@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWINBIO_ASYNC_RESULT, PWINBIO_ASYNC_RESULT, PWINBIO_ASYNC_RESULT structure pointer [Windows Biometric Framework API], WINBIO_ASYNC_RESULT, WINBIO_ASYNC_RESULT structure [Windows Biometric Framework API], secbiomet.winbio_async_result, winbio/PWINBIO_ASYNC_RESULT, winbio/WINBIO_ASYNC_RESULT"
 ms.topic: struct
-f1_keywords: ["winbio/WINBIO_ASYNC_RESULT"]
+f1_keywords: 
+ - "winbio/WINBIO_ASYNC_RESULT"
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows

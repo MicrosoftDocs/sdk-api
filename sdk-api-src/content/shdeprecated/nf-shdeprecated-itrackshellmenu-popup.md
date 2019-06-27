@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITrackShellMenu interface [Windows Shell],Popup method, ITrackShellMenu.Popup, ITrackShellMenu::Popup, Popup, Popup method [Windows Shell], Popup method [Windows Shell],ITrackShellMenu interface, _shell_ITrackShellMenu_Popup, shdeprecated/ITrackShellMenu::Popup, shell.ITrackShellMenu_Popup
 ms.topic: method
-f1_keywords: ["shdeprecated/ITrackShellMenu.Popup"]
+f1_keywords: 
+ - "shdeprecated/ITrackShellMenu.Popup"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

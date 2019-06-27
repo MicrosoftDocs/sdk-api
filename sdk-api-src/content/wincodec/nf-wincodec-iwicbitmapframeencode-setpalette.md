@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],SetPalette method, IWICBitmapFrameEncode.SetPalette, IWICBitmapFrameEncode::SetPalette, SetPalette, SetPalette method [Windows Imaging Component], SetPalette method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_setpalette, wic._wic_codec_iwicbitmapframeencode_setpalette, wincodec/IWICBitmapFrameEncode::SetPalette
 ms.topic: method
-f1_keywords: ["wincodec/IWICBitmapFrameEncode.SetPalette"]
+f1_keywords: 
+ - "wincodec/IWICBitmapFrameEncode.SetPalette"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

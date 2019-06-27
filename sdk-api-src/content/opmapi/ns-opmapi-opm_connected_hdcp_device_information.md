@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPM_CONNECTED_HDCP_DEVICE_INFORMATION, OPM_CONNECTED_HDCP_DEVICE_INFORMATION structure [Media Foundation], OPM_HDCP_FLAG_NONE, OPM_HDCP_FLAG_REPEATER, mf.opm_connected_hdcp_device_information, opmapi/OPM_CONNECTED_HDCP_DEVICE_INFORMATION
 ms.topic: struct
-f1_keywords: ["opmapi/OPM_CONNECTED_HDCP_DEVICE_INFORMATION"]
+f1_keywords: 
+ - "opmapi/OPM_CONNECTED_HDCP_DEVICE_INFORMATION"
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumOleUndoUnits interface [COM],Next method, IEnumOleUndoUnits.Next, IEnumOleUndoUnits::Next, Next, Next method [COM], Next method [COM],IEnumOleUndoUnits interface, _ole_ienumoleundounits_next, com.ienumoleundounits_next, ocidl/IEnumOleUndoUnits::Next
 ms.topic: method
-f1_keywords: ["ocidl/IEnumOleUndoUnits.Next"]
+f1_keywords: 
+ - "ocidl/IEnumOleUndoUnits.Next"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

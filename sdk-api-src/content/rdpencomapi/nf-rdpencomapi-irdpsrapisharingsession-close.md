@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [RDP], Close method [RDP],IRDPSRAPISharingSession interface, Close method [RDP],IRDPSRAPISharingSession2 interface, IRDPSRAPISharingSession interface [RDP],Close method, IRDPSRAPISharingSession.Close, IRDPSRAPISharingSession2 interface [RDP],Close method, IRDPSRAPISharingSession2::Close, IRDPSRAPISharingSession::Close, rdp.irdpsrapisharingsession_close, rdpencomapi/IRDPSRAPISharingSession2::Close, rdpencomapi/IRDPSRAPISharingSession::Close
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPISharingSession2.Close"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPISharingSession2.Close"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

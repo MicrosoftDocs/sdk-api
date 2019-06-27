@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineRedirect, TSPI_lineRedirect function [TAPI 2.2], _tspi_tspi_lineredirect, tspi.tspi_lineredirect, tspi/TSPI_lineRedirect
 ms.topic: function
-f1_keywords: ["tspi/TSPI_lineRedirect"]
+f1_keywords: 
+ - "tspi/TSPI_lineRedirect"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

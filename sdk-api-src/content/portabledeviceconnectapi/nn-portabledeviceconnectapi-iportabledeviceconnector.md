@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceConnector, IPortableDeviceConnector interface [Windows Portable Devices SDK], IPortableDeviceConnector interface [Windows Portable Devices SDK],described, portabledeviceconnectapi/IPortableDeviceConnector, wpdsdk.iportabledeviceconnector
 ms.topic: interface
-f1_keywords: ["portabledeviceconnectapi/IPortableDeviceConnector"]
+f1_keywords: 
+ - "portabledeviceconnectapi/IPortableDeviceConnector"
 req.header: portabledeviceconnectapi.h
 req.include-header: 
 req.target-type: Windows

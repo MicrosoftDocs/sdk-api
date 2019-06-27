@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UI_ANIMATION_UPDATE_NO_CHANGE, UI_ANIMATION_UPDATE_RESULT, UI_ANIMATION_UPDATE_RESULT enumeration [Windows Animation], UI_ANIMATION_UPDATE_VARIABLES_CHANGED, uianimation.ui_animation_update_result, uianimation/UI_ANIMATION_UPDATE_NO_CHANGE, uianimation/UI_ANIMATION_UPDATE_RESULT, uianimation/UI_ANIMATION_UPDATE_VARIABLES_CHANGED
 ms.topic: enum
-f1_keywords: ["uianimation/UI_ANIMATION_UPDATE_RESULT"]
+f1_keywords: 
+ - "uianimation/UI_ANIMATION_UPDATE_RESULT"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

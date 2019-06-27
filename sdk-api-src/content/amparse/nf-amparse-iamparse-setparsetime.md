@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMParse interface [DirectShow],SetParseTime method, IAMParse.SetParseTime, IAMParse::SetParseTime, IAMParseSetParseTime, SetParseTime, SetParseTime method [DirectShow], SetParseTime method [DirectShow],IAMParse interface, amparse/IAMParse::SetParseTime, dshow.iamparse_setparsetime
 ms.topic: method
-f1_keywords: ["amparse/IAMParse.SetParseTime"]
+f1_keywords: 
+ - "amparse/IAMParse.SetParseTime"
 req.header: amparse.h
 req.include-header: 
 req.target-type: Windows

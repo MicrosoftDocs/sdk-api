@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsCaseIgnoreList, IADsCaseIgnoreList interface [ADSI], IADsCaseIgnoreList interface [ADSI],described, _ds_iadscaseignorelist, adsi.iadscaseignorelist, iads/IADsCaseIgnoreList
 ms.topic: interface
-f1_keywords: ["iads/IADsCaseIgnoreList"]
+f1_keywords: 
+ - "iads/IADsCaseIgnoreList"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMaximumTextureMemory, GetMaximumTextureMemory method [Direct2D], GetMaximumTextureMemory method [Direct2D],ID2D1Device interface, ID2D1Device interface [Direct2D],GetMaximumTextureMemory method, ID2D1Device.GetMaximumTextureMemory, ID2D1Device::GetMaximumTextureMemory, d2d1_1/ID2D1Device::GetMaximumTextureMemory, direct2d.id2d1device_getmaximumtexturememory
 ms.topic: method
-f1_keywords: ["d2d1_1/ID2D1Device.GetMaximumTextureMemory"]
+f1_keywords: 
+ - "d2d1_1/ID2D1Device.GetMaximumTextureMemory"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

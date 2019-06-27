@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IObjectWithSelection, IObjectWithSelection interface [Windows Shell], IObjectWithSelection interface [Windows Shell],described, _shell_IObjectWithSelection, shell.IObjectWithSelection, shobjidl_core/IObjectWithSelection
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IObjectWithSelection"]
+f1_keywords: 
+ - "shobjidl_core/IObjectWithSelection"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

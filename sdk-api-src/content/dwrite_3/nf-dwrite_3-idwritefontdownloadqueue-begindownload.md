@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginDownload, BeginDownload method [Direct Write], BeginDownload method [Direct Write],IDWriteFontDownloadQueue interface, IDWriteFontDownloadQueue interface [Direct Write],BeginDownload method, IDWriteFontDownloadQueue.BeginDownload, IDWriteFontDownloadQueue::BeginDownload, directwrite.idwritefontdownloadqueue_begindownload, dwrite_3/IDWriteFontDownloadQueue::BeginDownload
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteFontDownloadQueue.BeginDownload"]
+f1_keywords: 
+ - "dwrite_3/IDWriteFontDownloadQueue.BeginDownload"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

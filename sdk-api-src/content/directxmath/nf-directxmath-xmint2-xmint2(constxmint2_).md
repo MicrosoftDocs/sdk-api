@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: XMINT2, XMINT2 constructor [DirectX Math Support APIs], XMINT2 constructor [DirectX Math Support APIs],XMINT2 structure, XMINT2 structure [DirectX Math Support APIs],XMINT2 constructor, XMINT2.XMINT2, XMINT2.XMINT2(), XMINT2.XMINT2(const XMINT2 &), XMINT2::XMINT2, XMINT2::XMINT2(const XMINT2 &), dxmath.xmint2_ctor_1
 ms.topic: method
-f1_keywords: ["directxmath/XMINT2.XMINT2"]
+f1_keywords: 
+ - "directxmath/XMINT2.XMINT2"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

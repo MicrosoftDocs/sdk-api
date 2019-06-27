@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLocalComputerName, GetLocalComputerName method [Windows Management Instrumentation], GetLocalComputerName method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],GetLocalComputerName method, Provider.GetLocalComputerName, Provider::GetLocalComputerName, _hmm_provider_getlocalcomputername, provider/Provider::GetLocalComputerName, wmi.provider_getlocalcomputername
 ms.topic: method
-f1_keywords: ["provider/Provider.GetLocalComputerName"]
+f1_keywords: 
+ - "provider/Provider.GetLocalComputerName"
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows

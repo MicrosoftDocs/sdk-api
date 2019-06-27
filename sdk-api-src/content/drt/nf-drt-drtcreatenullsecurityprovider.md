@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrtCreateNullSecurityProvider, DrtCreateNullSecurityProvider function [Distributed Routing Tables], drt/DrtCreateNullSecurityProvider, p2p.drtcreatenullsecurityprovider
 ms.topic: function
-f1_keywords: ["drt/DrtCreateNullSecurityProvider"]
+f1_keywords: 
+ - "drt/DrtCreateNullSecurityProvider"
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

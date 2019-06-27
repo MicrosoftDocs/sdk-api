@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService interface [Windows Shell],SetHistoryObject method, IBrowserService.SetHistoryObject, IBrowserService::SetHistoryObject, SetHistoryObject, SetHistoryObject method [Windows Shell], SetHistoryObject method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::SetHistoryObject, shell.IBrowserService_SetHistoryObject, zone_IBrowserService_SetHistoryObject
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService.SetHistoryObject"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService.SetHistoryObject"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

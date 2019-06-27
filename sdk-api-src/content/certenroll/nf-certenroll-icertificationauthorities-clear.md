@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ICertificationAuthorities interface, ICertificationAuthorities interface [Security],Clear method, ICertificationAuthorities.Clear, ICertificationAuthorities::Clear, certenroll/ICertificationAuthorities::Clear, security.icertificationauthorities_clear
 ms.topic: method
-f1_keywords: ["certenroll/ICertificationAuthorities.Clear"]
+f1_keywords: 
+ - "certenroll/ICertificationAuthorities.Clear"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

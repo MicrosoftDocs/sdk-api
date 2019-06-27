@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_VoidTransform, IBDA_VoidTransform interface [Microsoft TV Technologies], IBDA_VoidTransform interface [Microsoft TV Technologies],described, IBDA_VoidTransformInterface, bdaiface/IBDA_VoidTransform, mstv.ibda_voidtransform
 ms.topic: interface
-f1_keywords: ["bdaiface/IBDA_VoidTransform"]
+f1_keywords: 
+ - "bdaiface/IBDA_VoidTransform"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],Clone method, IXpsOMRadialGradientBrush.Clone, IXpsOMRadialGradientBrush::Clone, xps.ixpsomradialgradientbrush_clone, xpsobjectmodel/IXpsOMRadialGradientBrush::Clone
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMRadialGradientBrush.Clone"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMRadialGradientBrush.Clone"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_ENUM_OID_INFO, CRYPT_ENUM_OID_INFO callback function [Security], PFN_CRYPT_ENUM_OID_INFO, PFN_CRYPT_ENUM_OID_INFO callback, security.crypt_enum_oid_info, wincrypt/CRYPT_ENUM_OID_INFO
 ms.topic: callback
-f1_keywords: ["wincrypt/CRYPT_ENUM_OID_INFO"]
+f1_keywords: 
+ - "wincrypt/CRYPT_ENUM_OID_INFO"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

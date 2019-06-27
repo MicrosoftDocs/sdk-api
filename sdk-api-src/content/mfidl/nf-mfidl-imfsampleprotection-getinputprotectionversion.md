@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 26f92775-f8a0-4b85-8cfc-353349325706, GetInputProtectionVersion, GetInputProtectionVersion method [Media Foundation], GetInputProtectionVersion method [Media Foundation],IMFSampleProtection interface, IMFSampleProtection interface [Media Foundation],GetInputProtectionVersion method, IMFSampleProtection.GetInputProtectionVersion, IMFSampleProtection::GetInputProtectionVersion, mf.imfsampleprotection_getinputprotectionversion, mfidl/IMFSampleProtection::GetInputProtectionVersion
 ms.topic: method
-f1_keywords: ["mfidl/IMFSampleProtection.GetInputProtectionVersion"]
+f1_keywords: 
+ - "mfidl/IMFSampleProtection.GetInputProtectionVersion"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

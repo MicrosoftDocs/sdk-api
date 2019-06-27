@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSTRRET, LPSTRRET, LPSTRRET structure pointer [Windows Shell], STRRET, STRRET structure [Windows Shell], STRRET_CSTR, STRRET_OFFSET, STRRET_WSTR, _win32_STRRET, shell.STRRET, shtypes/LPSTRRET, shtypes/STRRET"
 ms.topic: struct
-f1_keywords: ["shtypes/STRRET"]
+f1_keywords: 
+ - "shtypes/STRRET"
 req.header: shtypes.h
 req.include-header: 
 req.target-type: Windows

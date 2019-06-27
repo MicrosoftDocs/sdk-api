@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PUI_EVENTPARAMS, PUI_EVENTPARAMS structure pointer [Windows Ribbon], UI_EVENTPARAMS, UI_EVENTPARAMS structure [Windows Ribbon], uiribbon/PUI_EVENTPARAMS, uiribbon/UI_EVENTPARAMS, windowsribbon.ui_eventparams
 ms.topic: struct
-f1_keywords: ["uiribbon/UI_EVENTPARAMS"]
+f1_keywords: 
+ - "uiribbon/UI_EVENTPARAMS"
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

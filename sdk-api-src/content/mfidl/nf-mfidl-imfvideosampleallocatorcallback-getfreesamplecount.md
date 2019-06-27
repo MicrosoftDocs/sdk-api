@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFreeSampleCount, GetFreeSampleCount method [Media Foundation], GetFreeSampleCount method [Media Foundation],IMFVideoSampleAllocatorCallback interface, IMFVideoSampleAllocatorCallback interface [Media Foundation],GetFreeSampleCount method, IMFVideoSampleAllocatorCallback.GetFreeSampleCount, IMFVideoSampleAllocatorCallback::GetFreeSampleCount, mf.imfvideosampleallocatorcallback_getfreesamplecount, mfidl/IMFVideoSampleAllocatorCallback::GetFreeSampleCount
 ms.topic: method
-f1_keywords: ["mfidl/IMFVideoSampleAllocatorCallback.GetFreeSampleCount"]
+f1_keywords: 
+ - "mfidl/IMFVideoSampleAllocatorCallback.GetFreeSampleCount"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

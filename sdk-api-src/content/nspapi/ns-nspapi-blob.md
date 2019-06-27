@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPBLOB, BLOB, BLOB structure [Winsock], _win32_blob_2, tagBLOB, winsock.blob_2, wtypesbase/BLOB"
 ms.topic: struct
-f1_keywords: ["nspapi/BLOB"]
+f1_keywords: 
+ - "nspapi/BLOB"
 req.header: nspapi.h
 req.include-header: Wtypes.h, Nspapi.h, Winsock2.h, Wtypes.h, Nspapi.h, Winsock2.h
 req.target-type: Windows

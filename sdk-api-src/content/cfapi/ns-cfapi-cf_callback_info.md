@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CF_CALLBACK_INFO, CF_CALLBACK_INFO structure, cfapi/CF_CALLBACK_INFO, cloudApi.cf_callback_info
 ms.topic: struct
-f1_keywords: ["cfapi/CF_CALLBACK_INFO"]
+f1_keywords: 
+ - "cfapi/CF_CALLBACK_INFO"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerCollabGetApplicationRegistrationInfo, PeerCollabGetApplicationRegistrationInfo function [Peer Networking], p2p.peercollabgetapplicationregistrationinfo, p2p/PeerCollabGetApplicationRegistrationInfo
 ms.topic: function
-f1_keywords: ["p2p/PeerCollabGetApplicationRegistrationInfo"]
+f1_keywords: 
+ - "p2p/PeerCollabGetApplicationRegistrationInfo"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

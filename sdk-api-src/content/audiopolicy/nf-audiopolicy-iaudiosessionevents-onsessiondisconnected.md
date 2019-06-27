@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionEvents interface [Core Audio],OnSessionDisconnected method, IAudioSessionEvents.OnSessionDisconnected, IAudioSessionEvents::OnSessionDisconnected, IAudioSessionEventsOnSessionDisconnected, OnSessionDisconnected, OnSessionDisconnected method [Core Audio], OnSessionDisconnected method [Core Audio],IAudioSessionEvents interface, audiopolicy/IAudioSessionEvents::OnSessionDisconnected, coreaudio.iaudiosessionevents_onsessiondisconnected
 ms.topic: method
-f1_keywords: ["audiopolicy/IAudioSessionEvents.OnSessionDisconnected"]
+f1_keywords: 
+ - "audiopolicy/IAudioSessionEvents.OnSessionDisconnected"
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

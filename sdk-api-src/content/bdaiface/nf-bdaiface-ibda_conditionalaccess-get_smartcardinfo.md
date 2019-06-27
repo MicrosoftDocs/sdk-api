@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],get_SmartCardInfo method, IBDA_ConditionalAccess.get_SmartCardInfo, IBDA_ConditionalAccess::get_SmartCardInfo, IBDA_ConditionalAccessget_SmartCardInfo, bdaiface/IBDA_ConditionalAccess::get_SmartCardInfo, get_SmartCardInfo, get_SmartCardInfo method [Microsoft TV Technologies], get_SmartCardInfo method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, mstv.ibda_conditionalaccess_get_smartcardinfo
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_ConditionalAccess.get_SmartCardInfo"]
+f1_keywords: 
+ - "bdaiface/IBDA_ConditionalAccess.get_SmartCardInfo"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

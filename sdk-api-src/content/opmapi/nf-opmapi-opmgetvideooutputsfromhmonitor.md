@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPMGetVideoOutputsFromHMONITOR, OPMGetVideoOutputsFromHMONITOR function [Media Foundation], OPM_VOS_COPP_SEMANTICS, OPM_VOS_OPM_SEMANTICS, mf.opmgetvideooutputsfromhmonitor, opmapi/OPMGetVideoOutputsFromHMONITOR
 ms.topic: function
-f1_keywords: ["opmapi/OPMGetVideoOutputsFromHMONITOR"]
+f1_keywords: 
+ - "opmapi/OPMGetVideoOutputsFromHMONITOR"
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

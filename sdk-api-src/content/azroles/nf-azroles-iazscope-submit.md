@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzScope object [Security],Submit method, IAzScope interface [Security],Submit method, IAzScope.Submit, IAzScope::Submit, Submit, Submit method [Security], Submit method [Security],AzScope object, Submit method [Security],IAzScope interface, azroles/IAzScope::Submit, security.iazscope_submit
 ms.topic: method
-f1_keywords: ["azroles/IAzScope.Submit"]
+f1_keywords: 
+ - "azroles/IAzScope.Submit"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

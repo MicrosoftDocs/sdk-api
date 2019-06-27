@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRootStorage, IRootStorage interface [Structured Storage], IRootStorage interface [Structured Storage],described, _stg_irootstorage, objidl/IRootStorage, stg.irootstorage
 ms.topic: interface
-f1_keywords: ["objidl/IRootStorage"]
+f1_keywords: 
+ - "objidl/IRootStorage"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

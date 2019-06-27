@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfUIElement interface [Text Services Framework],IsShown method, ITfUIElement.IsShown, ITfUIElement::IsShown, IsShown, IsShown method [Text Services Framework], IsShown method [Text Services Framework],ITfUIElement interface, msctf/ITfUIElement::IsShown, tsf.itfuielement_isshown
 ms.topic: method
-f1_keywords: ["msctf/ITfUIElement.IsShown"]
+f1_keywords: 
+ - "msctf/ITfUIElement.IsShown"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

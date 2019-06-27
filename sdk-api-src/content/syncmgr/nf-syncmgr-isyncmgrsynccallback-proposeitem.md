@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSyncCallback interface [Windows Shell],ProposeItem method, ISyncMgrSyncCallback.ProposeItem, ISyncMgrSyncCallback::ProposeItem, ProposeItem, ProposeItem method [Windows Shell], ProposeItem method [Windows Shell],ISyncMgrSyncCallback interface, _shell_ISyncMgrSyncCallback_ProposeItem, shell.ISyncMgrSyncCallback_ProposeItem, syncmgr/ISyncMgrSyncCallback::ProposeItem
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrSyncCallback.ProposeItem"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrSyncCallback.ProposeItem"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

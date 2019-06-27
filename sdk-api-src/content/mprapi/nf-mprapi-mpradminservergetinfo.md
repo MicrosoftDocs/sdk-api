@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminServerGetInfo, MprAdminServerGetInfo function [RAS], _mpr_mpradminservergetinfo, mprapi/MprAdminServerGetInfo, rras.mpradminservergetinfo
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminServerGetInfo"]
+f1_keywords: 
+ - "mprapi/MprAdminServerGetInfo"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

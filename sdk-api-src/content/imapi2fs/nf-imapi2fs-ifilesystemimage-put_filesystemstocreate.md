@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_FileSystemsToCreate method, IFileSystemImage.put_FileSystemsToCreate, IFileSystemImage::put_FileSystemsToCreate, imapi.ifilesystemimage_put_filesystemstocreate, imapi2fs/IFileSystemImage::put_FileSystemsToCreate, put_FileSystemsToCreate, put_FileSystemsToCreate method [IMAPI], put_FileSystemsToCreate method [IMAPI],IFileSystemImage interface
 ms.topic: method
-f1_keywords: ["imapi2fs/IFileSystemImage.put_FileSystemsToCreate"]
+f1_keywords: 
+ - "imapi2fs/IFileSystemImage.put_FileSystemsToCreate"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

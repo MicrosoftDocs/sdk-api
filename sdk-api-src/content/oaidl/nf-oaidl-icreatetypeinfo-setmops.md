@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetMops method, ICreateTypeInfo.SetMops, ICreateTypeInfo::SetMops, SetMops, SetMops method [Automation], SetMops method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetMops, automat.icreatetypeinfo_setmops, oaidl/ICreateTypeInfo::SetMops
 ms.topic: method
-f1_keywords: ["oaidl/ICreateTypeInfo.SetMops"]
+f1_keywords: 
+ - "oaidl/ICreateTypeInfo.SetMops"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

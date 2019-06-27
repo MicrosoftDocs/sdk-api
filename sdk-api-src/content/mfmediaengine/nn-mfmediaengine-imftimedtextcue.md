@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextCue, IMFTimedTextCue interface [Media Foundation], IMFTimedTextCue interface [Media Foundation],described, mf.imftimedtextcue, mfmediaengine/IMFTimedTextCue
 ms.topic: interface
-f1_keywords: ["mfmediaengine/IMFTimedTextCue"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedTextCue"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

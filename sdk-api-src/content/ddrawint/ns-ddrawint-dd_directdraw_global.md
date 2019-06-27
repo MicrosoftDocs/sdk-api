@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_DIRECTDRAW_GLOBAL, DD_DIRECTDRAW_GLOBAL, DD_DIRECTDRAW_GLOBAL structure [Display Devices], ddrawint/DD_DIRECTDRAW_GLOBAL, ddstrcts_d176c3e5-1e8b-4ff6-ba62-2fcfc42a9e5b.xml, display.dd_directdraw_global"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_DIRECTDRAW_GLOBAL"]
+f1_keywords: 
+ - "ddrawint/DD_DIRECTDRAW_GLOBAL"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckNotSupported, CheckNotSupported method [Windows Accessibility], CheckNotSupported method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CheckNotSupported method, IUIAutomation.CheckNotSupported, IUIAutomation::CheckNotSupported, uiauto.uiauto_IUIAutomation_CheckNotSupported, uiauto_IUIAutomation_CheckNotSupported, uiautomationclient/IUIAutomation::CheckNotSupported, winauto.uiauto_IUIAutomation_CheckNotSupported
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomation.CheckNotSupported"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomation.CheckNotSupported"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

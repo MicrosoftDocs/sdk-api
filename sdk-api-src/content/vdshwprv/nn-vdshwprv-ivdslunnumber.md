@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsLunNumber, IVdsLunNumber interface, IVdsLunNumber interface,described, base.ivdslunnumber, vds/IVdsLunNumber, vdshwprv/IVdsLunNumber
 ms.topic: interface
-f1_keywords: ["vdshwprv/IVdsLunNumber"]
+f1_keywords: 
+ - "vdshwprv/IVdsLunNumber"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

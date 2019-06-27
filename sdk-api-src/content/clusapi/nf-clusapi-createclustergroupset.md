@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateClusterGroupSet, CreateClusterGroupSet function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET, PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET function [Failover Cluster], clusapi/CreateClusterGroupSet, clusapi/PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET, mscs.createclustergroupcollection
 ms.topic: function
-f1_keywords: ["clusapi/CreateClusterGroupSet"]
+f1_keywords: 
+ - "clusapi/CreateClusterGroupSet"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_ConstDatetimeField, MI_ConstDatetimeField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ConstDatetimeField, wmi._mi_constdatetimefield, wmi_v2.mi_constdatetimefield
 ms.topic: struct
-f1_keywords: ["mi/MI_ConstDatetimeField"]
+f1_keywords: 
+ - "mi/MI_ConstDatetimeField"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

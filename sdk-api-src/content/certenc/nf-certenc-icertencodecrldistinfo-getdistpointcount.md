@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],GetDistPointCount method, GetDistPointCount, GetDistPointCount method [Security], GetDistPointCount method [Security],CCertEncodeCRLDistInfo object, GetDistPointCount method [Security],ICertEncodeCRLDistInfo interface, ICertEncodeCRLDistInfo interface [Security],GetDistPointCount method, ICertEncodeCRLDistInfo.GetDistPointCount, ICertEncodeCRLDistInfo::GetDistPointCount, _certsrv_icertencodecrldistinfo_getdistpointcount, certenc/ICertEncodeCRLDistInfo::GetDistPointCount, security.icertencodecrldistinfo_getdistpointcount
 ms.topic: method
-f1_keywords: ["certenc/ICertEncodeCRLDistInfo.GetDistPointCount"]
+f1_keywords: 
+ - "certenc/ICertEncodeCRLDistInfo.GetDistPointCount"
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

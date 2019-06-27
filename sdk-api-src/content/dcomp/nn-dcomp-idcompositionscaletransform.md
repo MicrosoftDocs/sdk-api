@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform, IDCompositionScaleTransform interface [DirectComposition], IDCompositionScaleTransform interface [DirectComposition],described, dcomp/IDCompositionScaleTransform, directcomp.idcompositionscaletransform
 ms.topic: interface
-f1_keywords: ["dcomp/IDCompositionScaleTransform"]
+f1_keywords: 
+ - "dcomp/IDCompositionScaleTransform"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

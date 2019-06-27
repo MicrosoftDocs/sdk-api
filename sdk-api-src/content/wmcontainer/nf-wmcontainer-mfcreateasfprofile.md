@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateASFProfile, MFCreateASFProfile function [Media Foundation], fa57fac7-a191-4d5b-89be-319af7b3e09c, mf.mfcreateasfprofile, wmcontainer/MFCreateASFProfile
 ms.topic: function
-f1_keywords: ["wmcontainer/MFCreateASFProfile"]
+f1_keywords: 
+ - "wmcontainer/MFCreateASFProfile"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

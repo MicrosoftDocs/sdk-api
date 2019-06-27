@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFN_CRYPT_XML_WRITE_CALLBACK, PFN_CRYPT_XML_WRITE_CALLBACK callback, PFN_CRYPT_XML_WRITE_CALLBACK callback function [Security], cryptxml/PFN_CRYPT_XML_WRITE_CALLBACK, security.pfn_crypt_xml_write_callback
 ms.topic: callback
-f1_keywords: ["cryptxml/PFN_CRYPT_XML_WRITE_CALLBACK"]
+f1_keywords: 
+ - "cryptxml/PFN_CRYPT_XML_WRITE_CALLBACK"
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

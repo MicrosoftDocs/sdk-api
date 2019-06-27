@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Session_Close, MI_Session_Close function [Windows Management Infrastructure (MI)], mi/MI_Session_Close, wmi_v2.mi_session_close
 ms.topic: function
-f1_keywords: ["mi/MI_Session_Close"]
+f1_keywords: 
+ - "mi/MI_Session_Close"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

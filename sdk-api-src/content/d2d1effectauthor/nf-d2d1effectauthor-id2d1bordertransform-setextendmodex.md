@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1BorderTransform interface [Direct2D],SetExtendModeX method, ID2D1BorderTransform.SetExtendModeX, ID2D1BorderTransform::SetExtendModeX, SetExtendModeX, SetExtendModeX method [Direct2D], SetExtendModeX method [Direct2D],ID2D1BorderTransform interface, d2d1effectauthor/ID2D1BorderTransform::SetExtendModeX, direct2d.id2d1bordertransform_setextendmodex
 ms.topic: method
-f1_keywords: ["d2d1effectauthor/ID2D1BorderTransform.SetExtendModeX"]
+f1_keywords: 
+ - "d2d1effectauthor/ID2D1BorderTransform.SetExtendModeX"
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

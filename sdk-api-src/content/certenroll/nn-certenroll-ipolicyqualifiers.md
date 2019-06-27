@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPolicyQualifiers, IPolicyQualifiers interface [Security], IPolicyQualifiers interface [Security],described, certenroll/IPolicyQualifiers, security.ipolicyqualifiers
 ms.topic: interface
-f1_keywords: ["certenroll/IPolicyQualifiers"]
+f1_keywords: 
+ - "certenroll/IPolicyQualifiers"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

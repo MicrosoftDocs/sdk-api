@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_USN_TRACK_MODIFIED_RANGES, FSCTL_USN_TRACK_MODIFIED_RANGES control, FSCTL_USN_TRACK_MODIFIED_RANGES control code [Files], fs.fsctl_usn_track_modified_ranges, winioctl/FSCTL_USN_TRACK_MODIFIED_RANGES
 ms.topic: ioctl
-f1_keywords: ["winioctl/FSCTL_USN_TRACK_MODIFIED_RANGES"]
+f1_keywords: 
+ - "winioctl/FSCTL_USN_TRACK_MODIFIED_RANGES"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [COM+], CreateInstance method [COM+],ICreateWithTipTransactionEx interface, ICreateWithTipTransactionEx interface [COM+],CreateInstance method, ICreateWithTipTransactionEx.CreateInstance, ICreateWithTipTransactionEx::CreateInstance, _dtc_ICreateWithTipTransactionEx_CreateInstance, comsvcs/ICreateWithTipTransactionEx::CreateInstance, cos.icreatewithtiptransactionex_createinstance
 ms.topic: method
-f1_keywords: ["comsvcs/ICreateWithTipTransactionEx.CreateInstance"]
+f1_keywords: 
+ - "comsvcs/ICreateWithTipTransactionEx.CreateInstance"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

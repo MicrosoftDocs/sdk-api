@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetManagedApplications, GetManagedApplications function [Group Policy], MANAGED_APPS_FROMCATEGORY, MANAGED_APPS_USERAPPLICATIONS, appmgmt/GetManagedApplications, policy.getmanagedapplications
 ms.topic: function
-f1_keywords: ["appmgmt/GetManagedApplications"]
+f1_keywords: 
+ - "appmgmt/GetManagedApplications"
 req.header: appmgmt.h
 req.include-header: 
 req.target-type: Windows

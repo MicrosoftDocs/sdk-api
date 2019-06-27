@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaEvent interface [DirectShow],RestoreDefaultHandling method, IMediaEvent.RestoreDefaultHandling, IMediaEvent::RestoreDefaultHandling, IMediaEventRestoreDefaultHandling, RestoreDefaultHandling, RestoreDefaultHandling method [DirectShow], RestoreDefaultHandling method [DirectShow],IMediaEvent interface, control/IMediaEvent::RestoreDefaultHandling, dshow.imediaevent_restoredefaulthandling
 ms.topic: method
-f1_keywords: ["control/IMediaEvent.RestoreDefaultHandling"]
+f1_keywords: 
+ - "control/IMediaEvent.RestoreDefaultHandling"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

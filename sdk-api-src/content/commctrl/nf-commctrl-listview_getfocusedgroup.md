@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_GetFocusedGroup, ListView_GetFocusedGroup macro [Windows Controls], _shell_ListView_GetFocusedGroup, _shell_ListView_GetFocusedGroup_cpp, commctrl/ListView_GetFocusedGroup, controls.ListView_GetFocusedGroup, controls._shell_ListView_GetFocusedGroup
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_GetFocusedGroup"]
+f1_keywords: 
+ - "commctrl/ListView_GetFocusedGroup"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

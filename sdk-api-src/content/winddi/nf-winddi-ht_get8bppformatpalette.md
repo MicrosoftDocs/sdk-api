@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HT_Get8BPPFormatPalette, HT_Get8BPPFormatPalette function [Display Devices], display.ht_get8bppformatpalette, gdifncs_78b4c867-b035-4cc3-9386-2922df0e9c12.xml, winddi/HT_Get8BPPFormatPalette
 ms.topic: function
-f1_keywords: ["winddi/HT_Get8BPPFormatPalette"]
+f1_keywords: 
+ - "winddi/HT_Get8BPPFormatPalette"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

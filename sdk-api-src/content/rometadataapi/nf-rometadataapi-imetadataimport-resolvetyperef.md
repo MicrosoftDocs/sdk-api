@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMetaDataImport interface [Windows Runtime],ResolveTypeRef method, IMetaDataImport.ResolveTypeRef, IMetaDataImport::ResolveTypeRef, ResolveTypeRef, ResolveTypeRef method [Windows Runtime], ResolveTypeRef method [Windows Runtime],IMetaDataImport interface, rometadataapi/IMetaDataImport::ResolveTypeRef, winrt.imetadataimport_resolvetyperef
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataImport.ResolveTypeRef"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataImport.ResolveTypeRef"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

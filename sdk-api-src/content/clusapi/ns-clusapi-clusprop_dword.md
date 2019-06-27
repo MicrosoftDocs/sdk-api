@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCLUSPROP_DISK_NUMBER, *PCLUSPROP_DISK_SIGNATURE, *PCLUSPROP_DWORD, CLUSPROP_DISK_NUMBER, CLUSPROP_DISK_NUMBER structure [Failover Cluster], CLUSPROP_DISK_SIGNATURE, CLUSPROP_DWORD, PCLUSPROP_DISK_NUMBER, PCLUSPROP_DISK_NUMBER structure pointer [Failover Cluster], _wolf_clusprop_disk_number, clusapi/CLUSPROP_DISK_NUMBER, clusapi/PCLUSPROP_DISK_NUMBER, mscs.clusprop_disk_number"
 ms.topic: struct
-f1_keywords: ["clusapi/CLUSPROP_DISK_NUMBER"]
+f1_keywords: 
+ - "clusapi/CLUSPROP_DISK_NUMBER"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

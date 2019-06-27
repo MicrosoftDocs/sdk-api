@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_KEYGEN_REQUEST_INFO, CERT_KEYGEN_REQUEST_INFO, CERT_KEYGEN_REQUEST_INFO structure [Security], PCERT_KEYGEN_REQUEST_INFO, PCERT_KEYGEN_REQUEST_INFO structure pointer [Security], _crypto2_cert_keygen_request_info, security.cert_keygen_request_info, wincrypt/CERT_KEYGEN_REQUEST_INFO, wincrypt/PCERT_KEYGEN_REQUEST_INFO"
 ms.topic: struct
-f1_keywords: ["wincrypt/CERT_KEYGEN_REQUEST_INFO"]
+f1_keywords: 
+ - "wincrypt/CERT_KEYGEN_REQUEST_INFO"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

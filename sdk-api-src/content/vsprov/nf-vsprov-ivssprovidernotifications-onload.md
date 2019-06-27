@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssProviderNotifications interface [VSS],OnLoad method, IVssProviderNotifications.OnLoad, IVssProviderNotifications::OnLoad, OnLoad, OnLoad method [VSS], OnLoad method [VSS],IVssProviderNotifications interface, base.ivssprovidernotifications_onload, vsprov/IVssProviderNotifications::OnLoad
 ms.topic: method
-f1_keywords: ["vsprov/IVssProviderNotifications.OnLoad"]
+f1_keywords: 
+ - "vsprov/IVssProviderNotifications.OnLoad"
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

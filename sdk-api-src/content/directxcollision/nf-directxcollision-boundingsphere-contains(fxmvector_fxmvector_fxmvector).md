@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundingSphere interface [DirectX Math Support APIs],Contains method, BoundingSphere.Contains, BoundingSphere.Contains(FXMVECTOR,FXMVECTOR,FXMVECTOR), BoundingSphere.Contains(XMVECTOR,XMVECTOR,XMVECTOR), BoundingSphere::Contains, BoundingSphere::Contains(FXMVECTOR,FXMVECTOR,FXMVECTOR), Contains, Contains method [DirectX Math Support APIs], Contains method [DirectX Math Support APIs],BoundingSphere interface, dxmath.boundingsphere_contains_2
 ms.topic: method
-f1_keywords: ["directxcollision/BoundingSphere.Contains"]
+f1_keywords: 
+ - "directxcollision/BoundingSphere.Contains"
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

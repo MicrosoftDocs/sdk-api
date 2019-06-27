@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSensorProfile, IMFSensorProfile interface [Media Foundation], IMFSensorProfile interface [Media Foundation],described, mf.imfsensorprofile, mfidl/IMFSensorProfile
 ms.topic: interface
-f1_keywords: ["mfidl/IMFSensorProfile"]
+f1_keywords: 
+ - "mfidl/IMFSensorProfile"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

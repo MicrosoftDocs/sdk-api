@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl interface [DirectShow],SetMixingPrefs method, IVMRMixerControl.SetMixingPrefs, IVMRMixerControl::SetMixingPrefs, IVMRMixerControlSetOutputRect, SetMixingPrefs, SetMixingPrefs method [DirectShow], SetMixingPrefs method [DirectShow],IVMRMixerControl interface, dshow.ivmrmixercontrol_setmixingprefs, strmif/IVMRMixerControl::SetMixingPrefs
 ms.topic: method
-f1_keywords: ["strmif/IVMRMixerControl.SetMixingPrefs"]
+f1_keywords: 
+ - "strmif/IVMRMixerControl.SetMixingPrefs"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

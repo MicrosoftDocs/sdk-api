@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawStateProc, DrawStateProc callback, DrawStateProc callback function [Windows GDI], _win32_DrawStateProc, gdi.drawstateproc, winuser/DrawStateProc
 ms.topic: callback
-f1_keywords: ["winuser/DrawStateProc"]
+f1_keywords: 
+ - "winuser/DrawStateProc"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFVideoSampleAllocatorEx interface [Media Foundation],InitializeSampleAllocatorEx method, IMFVideoSampleAllocatorEx.InitializeSampleAllocatorEx, IMFVideoSampleAllocatorEx::InitializeSampleAllocatorEx, InitializeSampleAllocatorEx, InitializeSampleAllocatorEx method [Media Foundation], InitializeSampleAllocatorEx method [Media Foundation],IMFVideoSampleAllocatorEx interface, mf.imfvideosampleallocatorex_initializesampleallocatorex, mfidl/IMFVideoSampleAllocatorEx::InitializeSampleAllocatorEx
 ms.topic: method
-f1_keywords: ["mfidl/IMFVideoSampleAllocatorEx.InitializeSampleAllocatorEx"]
+f1_keywords: 
+ - "mfidl/IMFVideoSampleAllocatorEx.InitializeSampleAllocatorEx"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

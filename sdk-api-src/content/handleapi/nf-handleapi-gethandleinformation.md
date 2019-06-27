@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHandleInformation, GetHandleInformation function, HANDLE_FLAG_INHERIT, HANDLE_FLAG_PROTECT_FROM_CLOSE, _win32_gethandleinformation, base.gethandleinformation, handleapi/GetHandleInformation
 ms.topic: function
-f1_keywords: ["handleapi/GetHandleInformation"]
+f1_keywords: 
+ - "handleapi/GetHandleInformation"
 req.header: handleapi.h
 req.include-header: Windows.h
 req.target-type: Windows

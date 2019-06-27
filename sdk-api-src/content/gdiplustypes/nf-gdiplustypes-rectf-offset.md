@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Offset, Offset methods [GDI+], RectF.Offset, RectF::Offset, _gdiplus_CLASS_RectF_Offset_Methods, gdiplus._gdiplus_CLASS_RectF_Offset_Methods, gdiplustypes/Offset
 ms.topic: method
-f1_keywords: ["gdiplustypes/RectF.Offset"]
+f1_keywords: 
+ - "gdiplustypes/RectF.Offset"
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows

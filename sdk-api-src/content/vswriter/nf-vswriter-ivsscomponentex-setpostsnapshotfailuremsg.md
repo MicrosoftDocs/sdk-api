@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssComponentEx interface,SetPostSnapshotFailureMsg method, IVssComponentEx.SetPostSnapshotFailureMsg, IVssComponentEx::SetPostSnapshotFailureMsg, SetPostSnapshotFailureMsg, SetPostSnapshotFailureMsg method, SetPostSnapshotFailureMsg method,IVssComponentEx interface, base.ivsscomponentex_setpostsnapshotfailuremsg, vswriter/IVssComponentEx::SetPostSnapshotFailureMsg
 ms.topic: method
-f1_keywords: ["vswriter/IVssComponentEx.SetPostSnapshotFailureMsg"]
+f1_keywords: 
+ - "vswriter/IVssComponentEx.SetPostSnapshotFailureMsg"
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

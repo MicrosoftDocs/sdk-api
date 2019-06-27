@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],RatingsUnblocked method, IMSVidStreamBufferSourceEvent.RatingsUnblocked, IMSVidStreamBufferSourceEvent::RatingsUnblocked, IMSVidStreamBufferSourceEventRatingsUnblocked, RatingsUnblocked, RatingsUnblocked method [Microsoft TV Technologies], RatingsUnblocked method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, mstv.imsvidstreambuffersourceevent_ratingsunblocked, segment/IMSVidStreamBufferSourceEvent::RatingsUnblocked
 ms.topic: method
-f1_keywords: ["segment/IMSVidStreamBufferSourceEvent.RatingsUnblocked"]
+f1_keywords: 
+ - "segment/IMSVidStreamBufferSourceEvent.RatingsUnblocked"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

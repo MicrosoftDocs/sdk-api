@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsSecurityEnabled, IsSecurityEnabled method [COM+], IsSecurityEnabled method [COM+],ObjectContext interface, ObjectContext interface [COM+],IsSecurityEnabled method, ObjectContext.IsSecurityEnabled, ObjectContext::IsSecurityEnabled, _cos_ObjectContext_IsSecurityEnabled, comsvcs/ObjectContext::IsSecurityEnabled, cos.objectcontext_issecurityenabled
 ms.topic: method
-f1_keywords: ["comsvcs/ObjectContext.IsSecurityEnabled"]
+f1_keywords: 
+ - "comsvcs/ObjectContext.IsSecurityEnabled"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

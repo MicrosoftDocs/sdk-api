@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEndpointProxy, GetEndpointProxy method, GetEndpointProxy method,IWSDServiceProxy interface, IWSDServiceProxy interface,GetEndpointProxy method, IWSDServiceProxy.GetEndpointProxy, IWSDServiceProxy::GetEndpointProxy, ncd.iwsdserviceproxy_getendpointproxy, wsdclient/IWSDServiceProxy::GetEndpointProxy
 ms.topic: method
-f1_keywords: ["wsdclient/IWSDServiceProxy.GetEndpointProxy"]
+f1_keywords: 
+ - "wsdclient/IWSDServiceProxy.GetEndpointProxy"
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHTTP_CHANNEL_BIND_INFO, HTTP_CHANNEL_BIND_INFO, HTTP_CHANNEL_BIND_INFO structure [HTTP], PHTTP_CHANNEL_BIND_INFO, PHTTP_CHANNEL_BIND_INFO structure pointer [HTTP], http.http_channel_bind_info, http/HTTP_CHANNEL_BIND_INFO, http/PHTTP_CHANNEL_BIND_INFO"
 ms.topic: struct
-f1_keywords: ["http/HTTP_CHANNEL_BIND_INFO"]
+f1_keywords: 
+ - "http/HTTP_CHANNEL_BIND_INFO"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronizeCallback interface [Windows Shell],SynchronizeCompleted method, ISyncMgrSynchronizeCallback.SynchronizeCompleted, ISyncMgrSynchronizeCallback::SynchronizeCompleted, SynchronizeCompleted, SynchronizeCompleted method [Windows Shell], SynchronizeCompleted method [Windows Shell],ISyncMgrSynchronizeCallback interface, mobsync/ISyncMgrSynchronizeCallback::SynchronizeCompleted, shell.syncmgr_isyncmgrsynchronizecallback_synchronizecompleted, syncmgr.isyncmgrsynchronizecallback_synchronizecompleted
 ms.topic: method
-f1_keywords: ["mobsync/ISyncMgrSynchronizeCallback.SynchronizeCompleted"]
+f1_keywords: 
+ - "mobsync/ISyncMgrSynchronizeCallback.SynchronizeCompleted"
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

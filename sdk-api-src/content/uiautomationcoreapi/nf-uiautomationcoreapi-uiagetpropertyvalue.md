@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaGetPropertyValue, UiaGetPropertyValue function [Windows Accessibility], uiauto.uiauto_UiaGetPropertyValueAutoMeth, uiauto_UiaGetPropertyValueAutoMeth, uiautomationcoreapi/UiaGetPropertyValue, winauto.uiauto_UiaGetPropertyValueAutoMeth
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/UiaGetPropertyValue"]
+f1_keywords: 
+ - "uiautomationcoreapi/UiaGetPropertyValue"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

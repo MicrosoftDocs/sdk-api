@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Change, Change method [Microsoft Broadband Networks], Change method [Microsoft Broadband Networks],IMbnPin interface, IMbnPin interface [Microsoft Broadband Networks],Change method, IMbnPin.Change, IMbnPin::Change, mbn.imbnpin_change, mbnapi/IMbnPin::Change
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnPin.Change"]
+f1_keywords: 
+ - "mbnapi/IMbnPin.Change"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

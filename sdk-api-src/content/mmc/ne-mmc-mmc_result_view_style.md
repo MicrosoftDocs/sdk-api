@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MMC_NOSORTHEADER, MMC_RESULT_VIEW_STYLE, MMC_RESULT_VIEW_STYLE enumeration [MMC], MMC_SHOWSELALWAYS, MMC_SINGLESEL, _slate_mmc_result_view_style, mmc.mmc_result_view_style, mmc/MMC_NOSORTHEADER, mmc/MMC_RESULT_VIEW_STYLE, mmc/MMC_SHOWSELALWAYS, mmc/MMC_SINGLESEL
 ms.topic: enum
-f1_keywords: ["mmc/MMC_RESULT_VIEW_STYLE"]
+f1_keywords: 
+ - "mmc/MMC_RESULT_VIEW_STYLE"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

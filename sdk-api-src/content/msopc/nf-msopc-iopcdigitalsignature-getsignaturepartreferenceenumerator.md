@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSignaturePartReferenceEnumerator, GetSignaturePartReferenceEnumerator method [Open Packaging Conventions], GetSignaturePartReferenceEnumerator method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetSignaturePartReferenceEnumerator method, IOpcDigitalSignature.GetSignaturePartReferenceEnumerator, IOpcDigitalSignature::GetSignaturePartReferenceEnumerator, msopc/IOpcDigitalSignature::GetSignaturePartReferenceEnumerator, opc.iopcdigitalsignature_getsignaturepartreferenceenumerator
 ms.topic: method
-f1_keywords: ["msopc/IOpcDigitalSignature.GetSignaturePartReferenceEnumerator"]
+f1_keywords: 
+ - "msopc/IOpcDigitalSignature.GetSignaturePartReferenceEnumerator"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

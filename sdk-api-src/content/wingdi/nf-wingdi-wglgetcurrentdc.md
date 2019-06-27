@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ogl_wglGetCurrentDC, opengl.wglgetcurrentdc, wglGetCurrentDC, wglGetCurrentDC function [OpenGL], wingdi/wglGetCurrentDC"
 ms.topic: function
-f1_keywords: ["wingdi/wglGetCurrentDC"]
+f1_keywords: 
+ - "wingdi/wglGetCurrentDC"
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

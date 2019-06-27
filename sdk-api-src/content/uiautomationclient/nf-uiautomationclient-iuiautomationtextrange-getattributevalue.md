@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAttributeValue, GetAttributeValue method [Windows Accessibility], GetAttributeValue method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],GetAttributeValue method, IUIAutomationTextRange.GetAttributeValue, IUIAutomationTextRange::GetAttributeValue, uiauto.uiauto_IUIAutomationTextRange_GetAttributeValue, uiauto_IUIAutomationTextRange_GetAttributeValue, uiautomationclient/IUIAutomationTextRange::GetAttributeValue, winauto.uiauto_IUIAutomationTextRange_GetAttributeValue
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTextRange.GetAttributeValue"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTextRange.GetAttributeValue"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

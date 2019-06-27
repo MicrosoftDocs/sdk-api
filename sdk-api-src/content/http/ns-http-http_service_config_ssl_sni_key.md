@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_SSL_SNI_KEY, HTTP_SERVICE_CONFIG_SSL_SNI_KEY, HTTP_SERVICE_CONFIG_SSL_SNI_KEY structure [HTTP], PHTTP_SERVICE_CONFIG_SSL_SNI_KEY, PHTTP_SERVICE_CONFIG_SSL_SNI_KEY structure pointer [HTTP], http.http_service_config_ssl_sni_key, http/HTTP_SERVICE_CONFIG_SSL_SNI_KEY, http/PHTTP_SERVICE_CONFIG_SSL_SNI_KEY"
 ms.topic: struct
-f1_keywords: ["http/HTTP_SERVICE_CONFIG_SSL_SNI_KEY"]
+f1_keywords: 
+ - "http/HTTP_SERVICE_CONFIG_SSL_SNI_KEY"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

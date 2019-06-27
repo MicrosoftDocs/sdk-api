@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioClient interface [Core Audio],SetEventHandle method, IAudioClient.SetEventHandle, IAudioClient::SetEventHandle, IAudioClientSetEventHandle, SetEventHandle, SetEventHandle method [Core Audio], SetEventHandle method [Core Audio],IAudioClient interface, audioclient/IAudioClient::SetEventHandle, coreaudio.iaudioclient_seteventhandle
 ms.topic: method
-f1_keywords: ["audioclient/IAudioClient.SetEventHandle"]
+f1_keywords: 
+ - "audioclient/IAudioClient.SetEventHandle"
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

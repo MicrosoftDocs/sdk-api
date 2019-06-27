@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISettingsNamespace interface [SMI],RemoveSettingByPath method, ISettingsNamespace.RemoveSettingByPath, ISettingsNamespace::RemoveSettingByPath, RemoveSettingByPath, RemoveSettingByPath method [SMI], RemoveSettingByPath method [SMI],ISettingsNamespace interface, smi.isettingsnamespace_removesettingbypath, wcmconfig/ISettingsNamespace::RemoveSettingByPath
 ms.topic: method
-f1_keywords: ["wcmconfig/ISettingsNamespace.RemoveSettingByPath"]
+f1_keywords: 
+ - "wcmconfig/ISettingsNamespace.RemoveSettingByPath"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

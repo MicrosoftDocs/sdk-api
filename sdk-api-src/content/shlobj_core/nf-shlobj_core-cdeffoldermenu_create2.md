@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CDefFolderMenu_Create2, CDefFolderMenu_Create2 function [Windows Shell], _win32_CDefFolderMenu_Create2, shell.CDefFolderMenu_Create2, shlobj_core/CDefFolderMenu_Create2
 ms.topic: function
-f1_keywords: ["shlobj_core/CDefFolderMenu_Create2"]
+f1_keywords: 
+ - "shlobj_core/CDefFolderMenu_Create2"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

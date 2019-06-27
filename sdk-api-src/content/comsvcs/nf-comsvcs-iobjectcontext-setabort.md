@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IObjectContext interface [COM+],SetAbort method, IObjectContext.SetAbort, IObjectContext::SetAbort, SetAbort, SetAbort method [COM+], SetAbort method [COM+],IObjectContext interface, _cos_IObjectContext_SetAbort, comsvcs/IObjectContext::SetAbort, cos.iobjectcontext_setabort
 ms.topic: method
-f1_keywords: ["comsvcs/IObjectContext.SetAbort"]
+f1_keywords: 
+ - "comsvcs/IObjectContext.SetAbort"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

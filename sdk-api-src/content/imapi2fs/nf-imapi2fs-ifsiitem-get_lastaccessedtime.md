@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsiItem interface [IMAPI],get_LastAccessedTime method, IFsiItem.get_LastAccessedTime, IFsiItem::get_LastAccessedTime, get_LastAccessedTime, get_LastAccessedTime method [IMAPI], get_LastAccessedTime method [IMAPI],IFsiItem interface, imapi.ifsiitem_get_lastaccessedtime, imapi2fs/IFsiItem::get_LastAccessedTime
 ms.topic: method
-f1_keywords: ["imapi2fs/IFsiItem.get_LastAccessedTime"]
+f1_keywords: 
+ - "imapi2fs/IFsiItem.get_LastAccessedTime"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Size, Size structure [Windows Runtime], windows/Size, winrt.size
 ms.topic: struct
-f1_keywords: ["windows.foundation/Size"]
+f1_keywords: 
+ - "windows.foundation/Size"
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AttachToBuffer, AttachToBuffer method [Core Audio], AttachToBuffer method [Core Audio],ISpatialAudioMetadataItemsBuffer interface, ISpatialAudioMetadataItemsBuffer interface [Core Audio],AttachToBuffer method, ISpatialAudioMetadataItemsBuffer.AttachToBuffer, ISpatialAudioMetadataItemsBuffer::AttachToBuffer, coreaudio.ispatialaudiometadataitemsbuffer_attachtobuffer, spatialaudiometadata/ISpatialAudioMetadataItemsBuffer::AttachToBuffer
 ms.topic: method
-f1_keywords: ["spatialaudiometadata/ISpatialAudioMetadataItemsBuffer.AttachToBuffer"]
+f1_keywords: 
+ - "spatialaudiometadata/ISpatialAudioMetadataItemsBuffer.AttachToBuffer"
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

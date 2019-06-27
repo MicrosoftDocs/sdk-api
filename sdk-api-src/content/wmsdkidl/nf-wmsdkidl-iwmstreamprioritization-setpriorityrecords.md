@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMStreamPrioritization interface [windows Media Format],SetPriorityRecords method, IWMStreamPrioritization.SetPriorityRecords, IWMStreamPrioritization::SetPriorityRecords, IWMStreamPrioritizationSetPriorityRecords, SetPriorityRecords, SetPriorityRecords method [windows Media Format], SetPriorityRecords method [windows Media Format],IWMStreamPrioritization interface, wmformat.iwmstreamprioritization_setpriorityrecords, wmsdkidl/IWMStreamPrioritization::SetPriorityRecords
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMStreamPrioritization.SetPriorityRecords"]
+f1_keywords: 
+ - "wmsdkidl/IWMStreamPrioritization.SetPriorityRecords"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

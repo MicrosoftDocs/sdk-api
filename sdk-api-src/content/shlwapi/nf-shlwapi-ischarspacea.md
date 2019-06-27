@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsCharSpace, IsCharSpace function [Windows Shell], IsCharSpaceA, IsCharSpaceW, _shell_IsCharSpace, shell.IsCharSpace, shlwapi/IsCharSpace, shlwapi/IsCharSpaceA, shlwapi/IsCharSpaceW
 ms.topic: function
-f1_keywords: ["shlwapi/IsCharSpace"]
+f1_keywords: 
+ - "shlwapi/IsCharSpace"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

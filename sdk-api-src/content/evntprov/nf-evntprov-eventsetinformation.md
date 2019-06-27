@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventSetInformation, EventSetInformation function [ETW], etw.eventsetinformation, evntprov/EventSetInformation
 ms.topic: function
-f1_keywords: ["evntprov/EventSetInformation"]
+f1_keywords: 
+ - "evntprov/EventSetInformation"
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

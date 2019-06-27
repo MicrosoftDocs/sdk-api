@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkPresenterDesktop, IInkPresenterDesktop interface, IInkPresenterDesktop interface,described, InkPresenterDesktop.iinkpresenterdesktop, inkpresenterdesktop/IInkPresenterDesktop, input_ink.iinkpresenterdesktop
 ms.topic: interface
-f1_keywords: ["inkpresenterdesktop/IInkPresenterDesktop"]
+f1_keywords: 
+ - "inkpresenterdesktop/IInkPresenterDesktop"
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows

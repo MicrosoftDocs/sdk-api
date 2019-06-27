@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISimpleAudioVolume interface [Core Audio],SetMasterVolume method, ISimpleAudioVolume.SetMasterVolume, ISimpleAudioVolume::SetMasterVolume, ISimpleAudioVolumeSetMasterVolume, SetMasterVolume, SetMasterVolume method [Core Audio], SetMasterVolume method [Core Audio],ISimpleAudioVolume interface, audioclient/ISimpleAudioVolume::SetMasterVolume, coreaudio.isimpleaudiovolume_setmastervolume
 ms.topic: method
-f1_keywords: ["audioclient/ISimpleAudioVolume.SetMasterVolume"]
+f1_keywords: 
+ - "audioclient/ISimpleAudioVolume.SetMasterVolume"
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

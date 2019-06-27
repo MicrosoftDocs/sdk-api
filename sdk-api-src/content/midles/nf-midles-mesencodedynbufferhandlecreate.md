@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MesEncodeDynBufferHandleCreate, MesEncodeDynBufferHandleCreate function [RPC], _rpc_mesencodedynbufferhandlecreate, midles/MesEncodeDynBufferHandleCreate, rpc.mesencodedynbufferhandlecreate
 ms.topic: function
-f1_keywords: ["midles/MesEncodeDynBufferHandleCreate"]
+f1_keywords: 
+ - "midles/MesEncodeDynBufferHandleCreate"
 req.header: midles.h
 req.include-header: Rpc.h
 req.target-type: Windows

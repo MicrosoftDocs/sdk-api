@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PISCSI_AUTH_TYPES, ISCSI_AUTH_TYPES, ISCSI_AUTH_TYPES enumeration [iSCSI Discovery Library API], ISCSI_CHAP_AUTH_TYPE, ISCSI_MUTUAL_CHAP_AUTH_TYPE, ISCSI_NO_AUTH_TYPE, iscsidisc.iscsi_auth_types, iscsidsc/ISCSI_AUTH_TYPES, iscsidsc/ISCSI_CHAP_AUTH_TYPE, iscsidsc/ISCSI_MUTUAL_CHAP_AUTH_TYPE, iscsidsc/ISCSI_NO_AUTH_TYPE"
 ms.topic: enum
-f1_keywords: ["iscsidsc/ISCSI_AUTH_TYPES"]
+f1_keywords: 
+ - "iscsidsc/ISCSI_AUTH_TYPES"
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

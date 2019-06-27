@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRegisterTuner interface [Microsoft TV Technologies],Unregister method, IRegisterTuner.Unregister, IRegisterTuner::Unregister, IRegisterTunerUnregister, Unregister, Unregister method [Microsoft TV Technologies], Unregister method [Microsoft TV Technologies],IRegisterTuner interface, mstv.iregistertuner_unregister, tuner/IRegisterTuner::Unregister
 ms.topic: method
-f1_keywords: ["tuner/IRegisterTuner.Unregister"]
+f1_keywords: 
+ - "tuner/IRegisterTuner.Unregister"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

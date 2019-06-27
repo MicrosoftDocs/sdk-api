@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CYPHER_BLOCK, CYPHER_BLOCK structure [MS-CHAP], _CYPHER_BLOCK, mschap.cypher_block, mschapp/CYPHER_BLOCK
 ms.topic: struct
-f1_keywords: ["mschapp/CYPHER_BLOCK"]
+f1_keywords: 
+ - "mschapp/CYPHER_BLOCK"
 req.header: mschapp.h
 req.include-header: 
 req.target-type: Windows

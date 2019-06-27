@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPreviewItem, IPreviewItem interface [Windows Shell], IPreviewItem interface [Windows Shell],described, _shell_IPreviewItem, shell.IPreviewItem, shobjidl_core/IPreviewItem
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IPreviewItem"]
+f1_keywords: 
+ - "shobjidl_core/IPreviewItem"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

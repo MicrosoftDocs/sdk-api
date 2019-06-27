@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D10_TEX2D_DSV, D3D10_TEX2D_DSV structure [Direct3D 10], c7842b23-969e-3b59-100f-750283b6b232, d3d10/D3D10_TEX2D_DSV, direct3d10.d3d10_tex2d_dsv
 ms.topic: struct
-f1_keywords: ["d3d10/D3D10_TEX2D_DSV"]
+f1_keywords: 
+ - "d3d10/D3D10_TEX2D_DSV"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

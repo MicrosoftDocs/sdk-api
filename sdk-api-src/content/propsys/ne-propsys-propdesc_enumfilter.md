@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PDEF_ALL, PDEF_COLUMN, PDEF_INFULLTEXTQUERY, PDEF_NONSYSTEM, PDEF_QUERYABLE, PDEF_SYSTEM, PDEF_VIEWABLE, PROPDESC_ENUMFILTER, PROPDESC_ENUMFILTER enumeration [Windows Properties], properties.PROPDESC_ENUMFILTER, propsys/PDEF_ALL, propsys/PDEF_COLUMN, propsys/PDEF_INFULLTEXTQUERY, propsys/PDEF_NONSYSTEM, propsys/PDEF_QUERYABLE, propsys/PDEF_SYSTEM, propsys/PDEF_VIEWABLE, propsys/PROPDESC_ENUMFILTER, shell.PROPDESC_ENUMFILTER, shell_PROPDESC_ENUMFILTER
 ms.topic: enum
-f1_keywords: ["propsys/PROPDESC_ENUMFILTER"]
+f1_keywords: 
+ - "propsys/PROPDESC_ENUMFILTER"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

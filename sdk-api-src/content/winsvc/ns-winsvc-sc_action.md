@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSC_ACTION, LPSC_ACTION, LPSC_ACTION structure pointer, SC_ACTION, SC_ACTION structure, SC_ACTION_NONE, SC_ACTION_REBOOT, SC_ACTION_RESTART, SC_ACTION_RUN_COMMAND, _win32_sc_action_str, base.sc_action_str, winsvc/LPSC_ACTION, winsvc/SC_ACTION"
 ms.topic: struct
-f1_keywords: ["winsvc/SC_ACTION"]
+f1_keywords: 
+ - "winsvc/SC_ACTION"
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

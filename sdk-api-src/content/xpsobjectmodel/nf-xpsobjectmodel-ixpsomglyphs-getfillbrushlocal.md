@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFillBrushLocal, GetFillBrushLocal method [XPS Documents and Packaging], GetFillBrushLocal method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFillBrushLocal method, IXpsOMGlyphs.GetFillBrushLocal, IXpsOMGlyphs::GetFillBrushLocal, xps.ixpsomglyphs_getfillbrushlocal, xpsobjectmodel/IXpsOMGlyphs::GetFillBrushLocal
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGlyphs.GetFillBrushLocal"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGlyphs.GetFillBrushLocal"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

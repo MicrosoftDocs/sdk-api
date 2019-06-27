@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorageControl2 interface [windows Media Device Manager],Insert2 method, IWMDMStorageControl2.Insert2, IWMDMStorageControl2::Insert2, IWMDMStorageControl2Insert2, Insert2, Insert2 method [windows Media Device Manager], Insert2 method [windows Media Device Manager],IWMDMStorageControl2 interface, mswmdm/IWMDMStorageControl2::Insert2, wmdm.iwmdmstoragecontrol2_insert2
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMStorageControl2.Insert2"]
+f1_keywords: 
+ - "mswmdm/IWMDMStorageControl2.Insert2"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

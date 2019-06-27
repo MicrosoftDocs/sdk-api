@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxDevShutdown, FaxDevShutdown function [Fax Service], _mfax_faxdevshutdown, fax._mfax_faxdevshutdown, faxdev/FaxDevShutdown
 ms.topic: function
-f1_keywords: ["faxdev/FaxDevShutdown"]
+f1_keywords: 
+ - "faxdev/FaxDevShutdown"
 req.header: faxdev.h
 req.include-header: 
 req.target-type: Windows

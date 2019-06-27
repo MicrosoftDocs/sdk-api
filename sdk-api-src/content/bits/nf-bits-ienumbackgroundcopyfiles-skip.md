@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumBackgroundCopyFiles interface [BITS],Skip method, IEnumBackgroundCopyFiles.Skip, IEnumBackgroundCopyFiles::Skip, Skip, Skip method [BITS], Skip method [BITS],IEnumBackgroundCopyFiles interface, _drz_ienumbackgroundcopyfiles_skip, bits.ienumbackgroundcopyfiles_skip, bits/IEnumBackgroundCopyFiles::Skip
 ms.topic: method
-f1_keywords: ["bits/IEnumBackgroundCopyFiles.Skip"]
+f1_keywords: 
+ - "bits/IEnumBackgroundCopyFiles.Skip"
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

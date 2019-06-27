@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSensorDeviceCount, GetSensorDeviceCount method [Media Foundation], GetSensorDeviceCount method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetSensorDeviceCount method, IMFSensorGroup.GetSensorDeviceCount, IMFSensorGroup::GetSensorDeviceCount, mf.imfsensorgroup_getsensordevicecount, mfidl/IMFSensorGroup::GetSensorDeviceCount
 ms.topic: method
-f1_keywords: ["mfidl/IMFSensorGroup.GetSensorDeviceCount"]
+f1_keywords: 
+ - "mfidl/IMFSensorGroup.GetSensorDeviceCount"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

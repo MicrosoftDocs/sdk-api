@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionSaturationEffect, IDCompositionSaturationEffect interface [DirectComposition], IDCompositionSaturationEffect interface [DirectComposition],described, dcomp/IDCompositionSaturationEffect, directcomp.idcompositionsaturationeffect
 ms.topic: interface
-f1_keywords: ["dcomp/IDCompositionSaturationEffect"]
+f1_keywords: 
+ - "dcomp/IDCompositionSaturationEffect"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

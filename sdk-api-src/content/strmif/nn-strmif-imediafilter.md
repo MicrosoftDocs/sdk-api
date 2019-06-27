@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaFilter, IMediaFilter interface [DirectShow], IMediaFilter interface [DirectShow],described, IMediaFilterInterface, dshow.imediafilter, strmif/IMediaFilter
 ms.topic: interface
-f1_keywords: ["strmif/IMediaFilter"]
+f1_keywords: 
+ - "strmif/IMediaFilter"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

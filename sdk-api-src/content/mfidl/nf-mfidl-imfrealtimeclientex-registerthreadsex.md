@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFRealTimeClientEx interface [Media Foundation],RegisterThreadsEx method, IMFRealTimeClientEx.RegisterThreadsEx, IMFRealTimeClientEx::RegisterThreadsEx, RegisterThreadsEx, RegisterThreadsEx method [Media Foundation], RegisterThreadsEx method [Media Foundation],IMFRealTimeClientEx interface, mf.imfrealtimeclientex_registerthreadsex, mfidl/IMFRealTimeClientEx::RegisterThreadsEx
 ms.topic: method
-f1_keywords: ["mfidl/IMFRealTimeClientEx.RegisterThreadsEx"]
+f1_keywords: 
+ - "mfidl/IMFRealTimeClientEx.RegisterThreadsEx"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

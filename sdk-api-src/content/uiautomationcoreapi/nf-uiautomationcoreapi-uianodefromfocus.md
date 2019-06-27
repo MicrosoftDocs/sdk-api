@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaNodeFromFocus, UiaNodeFromFocus function [Windows Accessibility], uiauto.uiauto_UiaNodeFromFocusFunction, uiauto_UiaNodeFromFocusFunction, uiautomationcoreapi/UiaNodeFromFocus, winauto.uiauto_UiaNodeFromFocusFunction
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/UiaNodeFromFocus"]
+f1_keywords: 
+ - "uiautomationcoreapi/UiaNodeFromFocus"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

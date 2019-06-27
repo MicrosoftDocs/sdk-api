@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPage, GetCurrentPage method [Windows Shell], GetCurrentPage method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetCurrentPage method, IShellImageData.GetCurrentPage, IShellImageData::GetCurrentPage, _shell_IShellImageData_GetCurrentPage, shell.IShellImageData_GetCurrentPage, shimgdata/IShellImageData::GetCurrentPage
 ms.topic: method
-f1_keywords: ["shimgdata/IShellImageData.GetCurrentPage"]
+f1_keywords: 
+ - "shimgdata/IShellImageData.GetCurrentPage"
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

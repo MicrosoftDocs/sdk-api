@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropInfoFromId, GetPropInfoFromId method [search], GetPropInfoFromId method [search],IColumnMapper interface, IColumnMapper interface [search],GetPropInfoFromId method, IColumnMapper.GetPropInfoFromId, IColumnMapper::GetPropInfoFromId, indexsrv/IColumnMapper::GetPropInfoFromId, search.icolumnmapper_getpropinfofromid
 ms.topic: method
-f1_keywords: ["indexsrv/IColumnMapper.GetPropInfoFromId"]
+f1_keywords: 
+ - "indexsrv/IColumnMapper.GetPropInfoFromId"
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

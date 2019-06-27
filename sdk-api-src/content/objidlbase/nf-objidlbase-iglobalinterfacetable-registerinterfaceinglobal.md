@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGlobalInterfaceTable interface [COM],RegisterInterfaceInGlobal method, IGlobalInterfaceTable.RegisterInterfaceInGlobal, IGlobalInterfaceTable::RegisterInterfaceInGlobal, RegisterInterfaceInGlobal, RegisterInterfaceInGlobal method [COM], RegisterInterfaceInGlobal method [COM],IGlobalInterfaceTable interface, _com_iglobalinterfacetable_registerinterfaceinglobal, com.iglobalinterfacetable_registerinterfaceinglobal, objidlbase/IGlobalInterfaceTable::RegisterInterfaceInGlobal
 ms.topic: method
-f1_keywords: ["objidlbase/IGlobalInterfaceTable.RegisterInterfaceInGlobal"]
+f1_keywords: 
+ - "objidlbase/IGlobalInterfaceTable.RegisterInterfaceInGlobal"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathMakePretty, PathMakePretty function [Windows Shell], PathMakePrettyA, PathMakePrettyW, _win32_PathMakePretty, shell.PathMakePretty, shlwapi/PathMakePretty, shlwapi/PathMakePrettyA, shlwapi/PathMakePrettyW
 ms.topic: function
-f1_keywords: ["shlwapi/PathMakePretty"]
+f1_keywords: 
+ - "shlwapi/PathMakePretty"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

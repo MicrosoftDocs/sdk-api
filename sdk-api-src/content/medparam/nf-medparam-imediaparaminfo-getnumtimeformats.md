@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumTimeFormats, GetNumTimeFormats method [DirectShow], GetNumTimeFormats method [DirectShow],IMediaParamInfo interface, IMediaParamInfo interface [DirectShow],GetNumTimeFormats method, IMediaParamInfo.GetNumTimeFormats, IMediaParamInfo::GetNumTimeFormats, IMediaParamInfoGetNumTimeFormats, dshow.imediaparaminfo_getnumtimeformats, medparam/IMediaParamInfo::GetNumTimeFormats
 ms.topic: method
-f1_keywords: ["medparam/IMediaParamInfo.GetNumTimeFormats"]
+f1_keywords: 
+ - "medparam/IMediaParamInfo.GetNumTimeFormats"
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateCryptoSession, CreateCryptoSession method [Media Foundation], CreateCryptoSession method [Media Foundation],IDirect3DDevice9Video interface, D3DCRYPTOTYPE_AES128_CTR, D3DCRYPTOTYPE_PROPRIETARY, IDirect3DDevice9Video interface [Media Foundation],CreateCryptoSession method, IDirect3DDevice9Video.CreateCryptoSession, IDirect3DDevice9Video::CreateCryptoSession, d3d9/IDirect3DDevice9Video::CreateCryptoSession, mf.idirect3ddevice9video_createcryptosession
 ms.topic: method
-f1_keywords: ["d3d9/IDirect3DDevice9Video.CreateCryptoSession"]
+f1_keywords: 
+ - "d3d9/IDirect3DDevice9Video.CreateCryptoSession"
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_SUBNET_ELEMENT_DATA_V6, DHCP_SUBNET_ELEMENT_DATA_V6, DHCP_SUBNET_ELEMENT_DATA_V6 structure [DHCP], PDHCP_SUBNET_ELEMENT_DATA_V6, PDHCP_SUBNET_ELEMENT_DATA_V6 structure pointer [DHCP], dhcp.dhcp_subnet_element_data_v6, dhcpsapi/DHCP_SUBNET_ELEMENT_DATA_V6, dhcpsapi/PDHCP_SUBNET_ELEMENT_DATA_V6"
 ms.topic: struct
-f1_keywords: ["dhcpsapi/DHCP_SUBNET_ELEMENT_DATA_V6"]
+f1_keywords: 
+ - "dhcpsapi/DHCP_SUBNET_ELEMENT_DATA_V6"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HandleNotificationEvent, HandleNotificationEvent method [Windows Accessibility], HandleNotificationEvent method [Windows Accessibility],IUIAutomationNotificationEventHandler interface, IUIAutomationNotificationEventHandler interface [Windows Accessibility],HandleNotificationEvent method, IUIAutomationNotificationEventHandler.HandleNotificationEvent, IUIAutomationNotificationEventHandler::HandleNotificationEvent, uiautomationclient/IUIAutomationNotificationEventHandler::HandleNotificationEvent, winauto.IUIAutomationNotificationEventHandler_HandleNotificationEvent
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationNotificationEventHandler.HandleNotificationEvent"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationNotificationEventHandler.HandleNotificationEvent"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

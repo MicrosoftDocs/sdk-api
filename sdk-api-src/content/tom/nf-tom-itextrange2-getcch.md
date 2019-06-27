@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCch, GetCch method [Windows Controls], GetCch method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetCch method, ITextRange2.GetCch, ITextRange2::GetCch, controls.itextrange2_getcch, tom/ITextRange2::GetCch
 ms.topic: method
-f1_keywords: ["tom/ITextRange2.GetCch"]
+f1_keywords: 
+ - "tom/ITextRange2.GetCch"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

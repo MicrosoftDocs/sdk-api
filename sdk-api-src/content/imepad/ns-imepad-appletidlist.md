@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPAPPLETIDLIST, APPLETIDLIST, APPLETIDLIST structure [Internationalization for Windows Applications], PAPPLETIDLIST, PAPPLETIDLIST structure pointer [Internationalization for Windows Applications], imepad/APPLETIDLIST, imepad/PAPPLETIDLIST, intl.appletidlist"
 ms.topic: struct
-f1_keywords: ["imepad/APPLETIDLIST"]
+f1_keywords: 
+ - "imepad/APPLETIDLIST"
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows

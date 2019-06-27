@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDDCOLORKEY, DDCOLORKEY, DDCOLORKEY structure [DirectDraw], LPDDCOLORKEY, LPDDCOLORKEY structure pointer [DirectDraw], ddraw/DDCOLORKEY, ddraw/LPDDCOLORKEY, directdraw.ddcolorkey"
 ms.topic: struct
-f1_keywords: ["ddraw/DDCOLORKEY"]
+f1_keywords: 
+ - "ddraw/DDCOLORKEY"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

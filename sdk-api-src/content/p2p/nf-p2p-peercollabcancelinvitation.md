@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerCollabCancelInvitation, PeerCollabCancelInvitation function [Peer Networking], p2p.peercollabcancelinvitation, p2p/PeerCollabCancelInvitation
 ms.topic: function
-f1_keywords: ["p2p/PeerCollabCancelInvitation"]
+f1_keywords: 
+ - "p2p/PeerCollabCancelInvitation"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

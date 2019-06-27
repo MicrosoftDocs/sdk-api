@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILatLongReport, ILatLongReport interface [WinLocation], ILatLongReport interface [WinLocation],described, locationapi/ILatLongReport, winlocation.ilatlongreport
 ms.topic: interface
-f1_keywords: ["locationapi/ILatLongReport"]
+f1_keywords: 
+ - "locationapi/ILatLongReport"
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

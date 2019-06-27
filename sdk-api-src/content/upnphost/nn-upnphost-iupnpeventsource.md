@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPEventSource, IUPnPEventSource interface [UPnP APIs], IUPnPEventSource interface [UPnP APIs],described, _upnp_iupnpeventsource, upnp.iupnpeventsource, upnphost/IUPnPEventSource
 ms.topic: interface
-f1_keywords: ["upnphost/IUPnPEventSource"]
+f1_keywords: 
+ - "upnphost/IUPnPEventSource"
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

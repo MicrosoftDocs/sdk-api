@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HorizontallyScrollable property [Windows Accessibility], HorizontallyScrollable property [Windows Accessibility],IScrollProvider interface, IScrollProvider interface [Windows Accessibility],HorizontallyScrollable property, IScrollProvider.HorizontallyScrollable, IScrollProvider.get_HorizontallyScrollable, IScrollProvider::HorizontallyScrollable, IScrollProvider::get_HorizontallyScrollable, get_HorizontallyScrollable, uiauto.uiauto_IScrollProvider_HorizontallyScrollable, uiauto_IScrollProvider_HorizontallyScrollable, uiautomationcore/IScrollProvider::HorizontallyScrollable, uiautomationcore/IScrollProvider::get_HorizontallyScrollable, winauto.uiauto_IScrollProvider_HorizontallyScrollable
 ms.topic: method
-f1_keywords: ["uiautomationcore/IScrollProvider.HorizontallyScrollable"]
+f1_keywords: 
+ - "uiautomationcore/IScrollProvider.HorizontallyScrollable"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCLUSTER_HEALTH_FAULT, CLUSTER_HEALTH_FAULT, CLUSTER_HEALTH_FAULT structure [Failover Cluster], PCLUSTER_HEALTH_FAULT, PCLUSTER_HEALTH_FAULT structure pointer [Failover Cluster], mscs.cluster_health_fault, resapi/CLUSTER_HEALTH_FAULT, resapi/PCLUSTER_HEALTH_FAULT"
 ms.topic: struct
-f1_keywords: ["resapi/CLUSTER_HEALTH_FAULT"]
+f1_keywords: 
+ - "resapi/CLUSTER_HEALTH_FAULT"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

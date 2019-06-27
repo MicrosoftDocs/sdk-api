@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DestroyElement, DestroyElement method [Structured Storage], DestroyElement method [Structured Storage],IStorage interface, IStorage interface [Structured Storage],DestroyElement method, IStorage.DestroyElement, IStorage::DestroyElement, _stg_istorage_destroyelement, objidl/IStorage::DestroyElement, stg.istorage_destroyelement
 ms.topic: method
-f1_keywords: ["objidl/IStorage.DestroyElement"]
+f1_keywords: 
+ - "objidl/IStorage.DestroyElement"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

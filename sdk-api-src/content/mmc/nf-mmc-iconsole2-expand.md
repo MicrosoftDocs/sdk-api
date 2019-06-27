@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Expand, Expand method [MMC], Expand method [MMC],IConsole2 interface, IConsole2 interface [MMC],Expand method, IConsole2.Expand, IConsole2::Expand, _slate_iconsole2_expand, mmc.iconsole2_expand, mmc/IConsole2::Expand
 ms.topic: method
-f1_keywords: ["mmc/IConsole2.Expand"]
+f1_keywords: 
+ - "mmc/IConsole2.Expand"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

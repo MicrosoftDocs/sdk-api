@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_lstrlen, _win32_lstrlen_cpp, lstrlen, lstrlen function [Menus and Other Resources], lstrlenA, lstrlenW, menurc.lstrlen, winbase/lstrlen, winbase/lstrlenA, winbase/lstrlenW, winui._win32_lstrlen"
 ms.topic: function
-f1_keywords: ["winbase/lstrlen"]
+f1_keywords: 
+ - "winbase/lstrlen"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

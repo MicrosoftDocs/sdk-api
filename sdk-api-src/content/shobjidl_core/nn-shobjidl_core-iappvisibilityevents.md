@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppVisibilityEvents, IAppVisibilityEvents interface [Windows Shell], IAppVisibilityEvents interface [Windows Shell],described, shell.IAppVisibilityEvents, shobjidl_core/IAppVisibilityEvents
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IAppVisibilityEvents"]
+f1_keywords: 
+ - "shobjidl_core/IAppVisibilityEvents"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

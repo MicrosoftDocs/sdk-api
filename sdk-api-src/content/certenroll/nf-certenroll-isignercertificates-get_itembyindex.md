@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISignerCertificates interface [Security],ItemByIndex property, ISignerCertificates.ItemByIndex, ISignerCertificates.get_ItemByIndex, ISignerCertificates::ItemByIndex, ISignerCertificates::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ISignerCertificates interface, certenroll/ISignerCertificates::ItemByIndex, certenroll/ISignerCertificates::get_ItemByIndex, get_ItemByIndex, security.isignercertificates_itembyindex_property
 ms.topic: method
-f1_keywords: ["certenroll/ISignerCertificates.ItemByIndex"]
+f1_keywords: 
+ - "certenroll/ISignerCertificates.ItemByIndex"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

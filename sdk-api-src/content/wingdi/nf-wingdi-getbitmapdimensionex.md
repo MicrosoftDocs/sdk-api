@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBitmapDimensionEx, GetBitmapDimensionEx function [Windows GDI], _win32_GetBitmapDimensionEx, gdi.getbitmapdimensionex, wingdi/GetBitmapDimensionEx
 ms.topic: function
-f1_keywords: ["wingdi/GetBitmapDimensionEx"]
+f1_keywords: 
+ - "wingdi/GetBitmapDimensionEx"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

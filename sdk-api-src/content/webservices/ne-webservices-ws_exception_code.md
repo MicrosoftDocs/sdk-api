@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_EXCEPTION_CODE, WS_EXCEPTION_CODE enumeration [Web Services for Windows], WS_EXCEPTION_CODE_INTERNAL_FAILURE, WS_EXCEPTION_CODE_USAGE_FAILURE, webservices/WS_EXCEPTION_CODE, webservices/WS_EXCEPTION_CODE_INTERNAL_FAILURE, webservices/WS_EXCEPTION_CODE_USAGE_FAILURE, wsw.ws_exception_code
 ms.topic: enum
-f1_keywords: ["webservices/WS_EXCEPTION_CODE"]
+f1_keywords: 
+ - "webservices/WS_EXCEPTION_CODE"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

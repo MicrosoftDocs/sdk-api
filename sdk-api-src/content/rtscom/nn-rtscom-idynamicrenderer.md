@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6435b297-d6a7-418b-afc0-f8cc0b329842, IDynamicRenderer, IDynamicRenderer interface [Tablet PC], IDynamicRenderer interface [Tablet PC],described, rtscom/IDynamicRenderer, tablet.idynamicrenderer
 ms.topic: interface
-f1_keywords: ["rtscom/IDynamicRenderer"]
+f1_keywords: 
+ - "rtscom/IDynamicRenderer"
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

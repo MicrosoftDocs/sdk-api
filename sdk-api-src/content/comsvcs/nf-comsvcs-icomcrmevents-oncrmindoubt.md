@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMIndoubt method, IComCRMEvents.OnCRMIndoubt, IComCRMEvents::OnCRMIndoubt, OnCRMIndoubt, OnCRMIndoubt method [COM+], OnCRMIndoubt method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMIndoubt, comsvcs/IComCRMEvents::OnCRMIndoubt, cos.icomcrmevents_oncrmindoubt
 ms.topic: method
-f1_keywords: ["comsvcs/IComCRMEvents.OnCRMIndoubt"]
+f1_keywords: 
+ - "comsvcs/IComCRMEvents.OnCRMIndoubt"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

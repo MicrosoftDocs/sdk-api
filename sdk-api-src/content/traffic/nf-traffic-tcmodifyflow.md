@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TcModifyFlow, TcModifyFlow function [QOS], _gqos_tcmodifyflow, qos.tcmodifyflow, traffic/TcModifyFlow
 ms.topic: function
-f1_keywords: ["traffic/TcModifyFlow"]
+f1_keywords: 
+ - "traffic/TcModifyFlow"
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDAllocateLinkedMemory, WSDAllocateLinkedMemory function, ncd.wsdallocatelinkedmemory_func, wsdutil/WSDAllocateLinkedMemory
 ms.topic: function
-f1_keywords: ["wsdutil/WSDAllocateLinkedMemory"]
+f1_keywords: 
+ - "wsdutil/WSDAllocateLinkedMemory"
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

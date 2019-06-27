@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymFromAddr, SymFromAddr function, SymFromAddrW, _win32_symfromaddr, base.symfromaddr, dbghelp/SymFromAddr, dbghelp/SymFromAddrW
 ms.topic: function
-f1_keywords: ["dbghelp/SymFromAddr"]
+f1_keywords: 
+ - "dbghelp/SymFromAddr"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

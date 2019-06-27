@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeCredentialsHandle, FreeCredentialsHandle function [Security], _ssp_freecredentialshandle, security.freecredentialshandle, sspi/FreeCredentialsHandle
 ms.topic: function
-f1_keywords: ["sspi/FreeCredentialsHandle"]
+f1_keywords: 
+ - "sspi/FreeCredentialsHandle"
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

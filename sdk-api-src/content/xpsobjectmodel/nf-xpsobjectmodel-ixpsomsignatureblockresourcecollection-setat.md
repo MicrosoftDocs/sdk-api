@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMSignatureBlockResourceCollection.SetAt, IXpsOMSignatureBlockResourceCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, xps.ixpsomsignatureblockresourcecollection_setat, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::SetAt
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMSignatureBlockResourceCollection.SetAt"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMSignatureBlockResourceCollection.SetAt"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

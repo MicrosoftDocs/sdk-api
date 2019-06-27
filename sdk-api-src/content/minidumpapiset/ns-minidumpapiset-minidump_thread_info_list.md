@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMINIDUMP_THREAD_INFO_LIST, MINIDUMP_THREAD_INFO_LIST, MINIDUMP_THREAD_INFO_LIST structure, PMINIDUMP_THREAD_INFO_LIST, PMINIDUMP_THREAD_INFO_LIST structure pointer, _MINIDUMP_THREAD_INFO_LIST, base.minidump_thread_info_list_str, minidumpapiset/MINIDUMP_THREAD_INFO_LIST, minidumpapiset/PMINIDUMP_THREAD_INFO_LIST"
 ms.topic: struct
-f1_keywords: ["minidumpapiset/MINIDUMP_THREAD_INFO_LIST"]
+f1_keywords: 
+ - "minidumpapiset/MINIDUMP_THREAD_INFO_LIST"
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

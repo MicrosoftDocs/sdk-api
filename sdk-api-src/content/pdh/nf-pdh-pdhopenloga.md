@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PDH_LOG_CREATE_ALWAYS, PDH_LOG_CREATE_NEW, PDH_LOG_OPEN_ALWAYS, PDH_LOG_OPEN_EXISTING, PDH_LOG_OPT_CIRCULAR, PDH_LOG_READ_ACCESS, PDH_LOG_TYPE_BINARY, PDH_LOG_TYPE_CSV, PDH_LOG_TYPE_SQL, PDH_LOG_TYPE_TSV, PDH_LOG_TYPE_UNDEFINED, PDH_LOG_UPDATE_ACCESS, PDH_LOG_USER_STRING, PDH_LOG_WRITE_ACCESS, PdhOpenLog, PdhOpenLog function [Perf], PdhOpenLogA, PdhOpenLogW, _win32_pdhopenlog, base.pdhopenlog, pdh/PdhOpenLog, pdh/PdhOpenLogA, pdh/PdhOpenLogW, perf.pdhopenlog
 ms.topic: function
-f1_keywords: ["pdh/PdhOpenLog"]
+f1_keywords: 
+ - "pdh/PdhOpenLog"
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

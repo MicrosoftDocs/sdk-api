@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_FIND_SZ_PROPERTY, PRESUTIL_FIND_SZ_PROPERTY function [Failover Cluster], ResUtilFindSzProperty, ResUtilFindSzProperty function [Failover Cluster], _wolf_resutilfindszproperty, mscs.resutilfindszproperty, resapi/PRESUTIL_FIND_SZ_PROPERTY, resapi/ResUtilFindSzProperty
 ms.topic: function
-f1_keywords: ["resapi/ResUtilFindSzProperty"]
+f1_keywords: 
+ - "resapi/ResUtilFindSzProperty"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

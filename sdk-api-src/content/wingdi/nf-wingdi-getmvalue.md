@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMValue, GetMValue macro [Windows Color System], _color_GetMValue, wcs.getmvalue, wingdi/GetMValue
 ms.topic: macro
-f1_keywords: ["wingdi/GetMValue"]
+f1_keywords: 
+ - "wingdi/GetMValue"
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

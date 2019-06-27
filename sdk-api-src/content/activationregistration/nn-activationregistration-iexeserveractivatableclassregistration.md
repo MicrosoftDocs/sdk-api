@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExeServerActivatableClassRegistration, IExeServerActivatableClassRegistration interface [Windows Runtime], IExeServerActivatableClassRegistration interface [Windows Runtime],described, activationregistration/IExeServerActivatableClassRegistration, winrt.iexeserveractivatableclassregistration
 ms.topic: interface
-f1_keywords: ["activationregistration/IExeServerActivatableClassRegistration"]
+f1_keywords: 
+ - "activationregistration/IExeServerActivatableClassRegistration"
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GloballyOpenPorts property [ICS/ICF], GloballyOpenPorts property [ICS/ICF],INetFwProfile interface, INetFwProfile interface [ICS/ICF],GloballyOpenPorts property, INetFwProfile.GloballyOpenPorts, INetFwProfile.get_GloballyOpenPorts, INetFwProfile::GloballyOpenPorts, INetFwProfile::get_GloballyOpenPorts, get_GloballyOpenPorts, ics.inetfwprofile_globallyopenports, netfw/INetFwProfile::GloballyOpenPorts, netfw/INetFwProfile::get_GloballyOpenPorts
 ms.topic: method
-f1_keywords: ["netfw/INetFwProfile.GloballyOpenPorts"]
+f1_keywords: 
+ - "netfw/INetFwProfile.GloballyOpenPorts"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

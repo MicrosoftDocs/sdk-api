@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMClearAllRights, DRMClearAllRights function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMClearAllRights, rm.drmclearallrights
 ms.topic: function
-f1_keywords: ["msdrm/DRMClearAllRights"]
+f1_keywords: 
+ - "msdrm/DRMClearAllRights"
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

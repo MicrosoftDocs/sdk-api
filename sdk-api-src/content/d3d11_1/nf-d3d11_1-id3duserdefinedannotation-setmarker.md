@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3DUserDefinedAnnotation interface [Direct3D 11],SetMarker method, ID3DUserDefinedAnnotation.SetMarker, ID3DUserDefinedAnnotation::SetMarker, SetMarker, SetMarker method [Direct3D 11], SetMarker method [Direct3D 11],ID3DUserDefinedAnnotation interface, d3d11_1/ID3DUserDefinedAnnotation::SetMarker, direct3d11.id3duserdefinedannotation_setmarker
 ms.topic: method
-f1_keywords: ["d3d11_1/ID3DUserDefinedAnnotation.SetMarker"]
+f1_keywords: 
+ - "d3d11_1/ID3DUserDefinedAnnotation.SetMarker"
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

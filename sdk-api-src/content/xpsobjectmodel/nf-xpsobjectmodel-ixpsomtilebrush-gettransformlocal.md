@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTransformLocal, GetTransformLocal method [XPS Documents and Packaging], GetTransformLocal method [XPS Documents and Packaging],IXpsOMTileBrush interface, IXpsOMTileBrush interface [XPS Documents and Packaging],GetTransformLocal method, IXpsOMTileBrush.GetTransformLocal, IXpsOMTileBrush::GetTransformLocal, xps.ixpsomtilebrush_gettransformlocal, xpsobjectmodel/IXpsOMTileBrush::GetTransformLocal
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMTileBrush.GetTransformLocal"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMTileBrush.GetTransformLocal"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

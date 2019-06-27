@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItemFloatingRect, GetItemFloatingRect method [Text Services Framework], GetItemFloatingRect method [Text Services Framework],ITfLangBarEventSink interface, ITfLangBarEventSink interface [Text Services Framework],GetItemFloatingRect method, ITfLangBarEventSink.GetItemFloatingRect, ITfLangBarEventSink::GetItemFloatingRect, _tsf_itflangbareventsink_getitemfloatingrect_ref, ctfutb/ITfLangBarEventSink::GetItemFloatingRect, tsf.itflangbareventsink_getitemfloatingrect
 ms.topic: method
-f1_keywords: ["ctfutb/ITfLangBarEventSink.GetItemFloatingRect"]
+f1_keywords: 
+ - "ctfutb/ITfLangBarEventSink.GetItemFloatingRect"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSARecvEx, WSARecvEx function [Winsock], _win32_wsarecvex_2, winsock.wsarecvex_2, winsock/WSARecvEx
 ms.topic: function
-f1_keywords: ["winsock/WSARecvEx"]
+f1_keywords: 
+ - "winsock/WSARecvEx"
 req.header: winsock.h
 req.include-header: Mswsock.h
 req.target-type: Windows

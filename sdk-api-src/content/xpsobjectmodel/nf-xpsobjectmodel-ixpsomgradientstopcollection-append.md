@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMGradientStopCollection interface, IXpsOMGradientStopCollection interface [XPS Documents and Packaging],Append method, IXpsOMGradientStopCollection.Append, IXpsOMGradientStopCollection::Append, xps.ixpsomgradientstopcollection_append, xpsobjectmodel/IXpsOMGradientStopCollection::Append
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGradientStopCollection.Append"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGradientStopCollection.Append"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMultisessionSequential, IMultisessionSequential interface [IMAPI], IMultisessionSequential interface [IMAPI],described, imapi.imultisessionsequential, imapi2/IMultisessionSequential
 ms.topic: interface
-f1_keywords: ["imapi2/IMultisessionSequential"]
+f1_keywords: 
+ - "imapi2/IMultisessionSequential"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

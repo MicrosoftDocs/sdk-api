@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsPack interface [VDS],MigrateDisks method, IVdsPack.MigrateDisks, IVdsPack::MigrateDisks, MigrateDisks, MigrateDisks method [VDS], MigrateDisks method [VDS],IVdsPack interface, base.ivdspack_migratedisks, vds/IVdsPack::MigrateDisks
 ms.topic: method
-f1_keywords: ["vds/IVdsPack.MigrateDisks"]
+f1_keywords: 
+ - "vds/IVdsPack.MigrateDisks"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorReciprocalSqrt, XMVectorReciprocalSqrt, XMVectorReciprocalSqrt method [DirectX Math Support APIs], dxmath.xmvectorreciprocalsqrt
 ms.topic: function
-f1_keywords: ["directxmath/XMVectorReciprocalSqrt"]
+f1_keywords: 
+ - "directxmath/XMVectorReciprocalSqrt"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

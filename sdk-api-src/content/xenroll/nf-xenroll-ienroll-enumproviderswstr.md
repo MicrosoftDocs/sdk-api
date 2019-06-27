@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],enumProvidersWStr method, IEnroll.enumProvidersWStr, IEnroll::enumProvidersWStr, enumProvidersWStr, enumProvidersWStr method [Security], enumProvidersWStr method [Security],IEnroll interface, security.ienroll4_enumproviderswstr, xenroll/IEnroll::enumProvidersWStr
 ms.topic: method
-f1_keywords: ["xenroll/IEnroll.enumProvidersWStr"]
+f1_keywords: 
+ - "xenroll/IEnroll.enumProvidersWStr"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

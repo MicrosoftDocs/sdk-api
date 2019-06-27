@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginProcess, BeginProcess method [XAudio2 Audio Mixing APIs], BeginProcess method [XAudio2 Audio Mixing APIs],CXAPOParametersBase interface, CXAPOParametersBase interface [XAudio2 Audio Mixing APIs],BeginProcess method, CXAPOParametersBase.BeginProcess, CXAPOParametersBase::BeginProcess, xapobase/CXAPOParametersBase::BeginProcess, xaudio2.cxapoparametersbase_beginprocess
 ms.topic: method
-f1_keywords: ["xapobase/CXAPOParametersBase.BeginProcess"]
+f1_keywords: 
+ - "xapobase/CXAPOParametersBase.BeginProcess"
 req.header: xapobase.h
 req.include-header: 
 req.target-type: Windows

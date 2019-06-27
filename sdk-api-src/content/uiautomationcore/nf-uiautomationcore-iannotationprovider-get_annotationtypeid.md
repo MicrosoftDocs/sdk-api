@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AnnotationTypeId property [Windows Accessibility], AnnotationTypeId property [Windows Accessibility],IAnnotationProvider interface, IAnnotationProvider interface [Windows Accessibility],AnnotationTypeId property, IAnnotationProvider.AnnotationTypeId, IAnnotationProvider.get_AnnotationTypeId, IAnnotationProvider::AnnotationTypeId, IAnnotationProvider::get_AnnotationTypeId, get_AnnotationTypeId, uiautomationcore/IAnnotationProvider::AnnotationTypeId, uiautomationcore/IAnnotationProvider::get_AnnotationTypeId, winauto.uiauto_IAnnotationProvider_AnnotationTypeId
 ms.topic: method
-f1_keywords: ["uiautomationcore/IAnnotationProvider.AnnotationTypeId"]
+f1_keywords: 
+ - "uiautomationcore/IAnnotationProvider.AnnotationTypeId"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

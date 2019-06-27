@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],SetTheme method, INameSpaceTreeControl.SetTheme, INameSpaceTreeControl::SetTheme, SetTheme, SetTheme method [Windows Shell], SetTheme method [Windows Shell],INameSpaceTreeControl interface, _shell_INameSpaceTreeControl_SetTheme, shell.INameSpaceTreeControl_SetTheme, shobjidl_core/INameSpaceTreeControl::SetTheme
 ms.topic: method
-f1_keywords: ["shobjidl_core/INameSpaceTreeControl.SetTheme"]
+f1_keywords: 
+ - "shobjidl_core/INameSpaceTreeControl.SetTheme"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

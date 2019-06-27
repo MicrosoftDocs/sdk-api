@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 05/31/2019
 ms.keywords: AddRef, AddRef method [COM], AddRef method [COM],IUnknown interface, IUnknown interface [COM],AddRef method, IUnknown.AddRef, IUnknown::AddRef, _com_iunknown_addref, com.iunknown_addref, unknwn/IUnknown::AddRef
 ms.topic: method
-f1_keywords: ["unknwn/IUnknown.AddRef"]
+f1_keywords: 
+ - "unknwn/IUnknown.AddRef"
 req.header: unknwn.h
 req.include-header: 
 req.target-type: Windows

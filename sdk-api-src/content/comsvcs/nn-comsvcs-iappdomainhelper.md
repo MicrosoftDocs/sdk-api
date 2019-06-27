@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppDomainHelper, IAppDomainHelper interface [COM+], IAppDomainHelper interface [COM+],described, _cos_IAppDomainHelper, comsvcs/IAppDomainHelper, cos.iappdomainhelper
 ms.topic: interface
-f1_keywords: ["comsvcs/IAppDomainHelper"]
+f1_keywords: 
+ - "comsvcs/IAppDomainHelper"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

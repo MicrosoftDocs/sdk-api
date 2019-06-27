@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddArc, AddArc methods [Direct2D], ID2D1GeometrySink.AddArc, ID2D1GeometrySink::AddArc, d2d1/AddArc, direct2d.id2d1geometrysink_addarc
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1GeometrySink::AddArc"]
+f1_keywords: 
+ - "d2d1/ID2D1GeometrySink::AddArc"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

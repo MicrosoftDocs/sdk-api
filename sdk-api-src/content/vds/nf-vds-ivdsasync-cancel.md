@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [VDS], Cancel method [VDS],IVdsAsync interface, IVdsAsync interface [VDS],Cancel method, IVdsAsync.Cancel, IVdsAsync::Cancel, base.ivdsasync_cancel, vds/IVdsAsync::Cancel, vdshwprv/IVdsAsync::Cancel
 ms.topic: method
-f1_keywords: ["vds/IVdsAsync.Cancel"]
+f1_keywords: 
+ - "vds/IVdsAsync.Cancel"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLDAP, LDAP, LDAP structure [LDAP], PLDAP, PLDAP structure pointer [LDAP], _ldap_ldap, ldap.ldap, winldap/LDAP, winldap/PLDAP"
 ms.topic: struct
-f1_keywords: ["winldap/LDAP"]
+f1_keywords: 
+ - "winldap/LDAP"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

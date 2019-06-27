@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GOBJENUMPROC, GOBJENUMPROC callback, GOBJENUMPROC callback function [Windows GDI], _win32_EnumObjectsProc, gdi.enumobjectsproc, wingdi/GOBJENUMPROC
 ms.topic: callback
-f1_keywords: ["wingdi/GOBJENUMPROC"]
+f1_keywords: 
+ - "wingdi/GOBJENUMPROC"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

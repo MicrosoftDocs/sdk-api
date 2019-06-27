@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxSender interface [Fax Service],OfficeLocation property, IFaxSender.OfficeLocation, IFaxSender.get_OfficeLocation, IFaxSender.put_OfficeLocation, IFaxSender::OfficeLocation, IFaxSender::get_OfficeLocation, IFaxSender::put_OfficeLocation, OfficeLocation property [Fax Service], OfficeLocation property [Fax Service],IFaxSender interface, _mfax_faxsender.officelocation, fax._mfax_faxsender_cpp_mfax_faxsender_officelocation_cpp, fax._mfax_faxsender_officelocation, faxcomex/IFaxSender::OfficeLocation, faxcomex/IFaxSender::get_OfficeLocation, faxcomex/IFaxSender::put_OfficeLocation, put_OfficeLocation
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxSender.OfficeLocation"]
+f1_keywords: 
+ - "faxcomex/IFaxSender.OfficeLocation"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

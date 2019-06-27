@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMatchingACT, GetMatchingACT method [Enhanced Storage], GetMatchingACT method [Enhanced Storage],IEnumEnhancedStorageACT interface, IEnumEnhancedStorageACT interface [Enhanced Storage],GetMatchingACT method, IEnumEnhancedStorageACT.GetMatchingACT, IEnumEnhancedStorageACT::GetMatchingACT, ehstorapi/IEnumEnhancedStorageACT::GetMatchingACT, enstor.ienumenhancedstorageact_getmatchingact
 ms.topic: method
-f1_keywords: ["ehstorapi/IEnumEnhancedStorageACT.GetMatchingACT"]
+f1_keywords: 
+ - "ehstorapi/IEnumEnhancedStorageACT.GetMatchingACT"
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

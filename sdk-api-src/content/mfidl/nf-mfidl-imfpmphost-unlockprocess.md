@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 768f4579-5109-4d2b-a93d-f17f6b850c63, IMFPMPHost interface [Media Foundation],UnlockProcess method, IMFPMPHost.UnlockProcess, IMFPMPHost::UnlockProcess, UnlockProcess, UnlockProcess method [Media Foundation], UnlockProcess method [Media Foundation],IMFPMPHost interface, mf.imfpmphost_unlockprocess, mfidl/IMFPMPHost::UnlockProcess
 ms.topic: method
-f1_keywords: ["mfidl/IMFPMPHost.UnlockProcess"]
+f1_keywords: 
+ - "mfidl/IMFPMPHost.UnlockProcess"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

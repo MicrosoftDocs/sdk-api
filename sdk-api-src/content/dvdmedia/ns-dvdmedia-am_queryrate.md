@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AM_QueryRate, AM_QueryRate structure [DirectShow], AM_QueryRateStructure, dshow.am_queryrate, dvdmedia/AM_QueryRate
 ms.topic: struct
-f1_keywords: ["dvdmedia/AM_QueryRate"]
+f1_keywords: 
+ - "dvdmedia/AM_QueryRate"
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows

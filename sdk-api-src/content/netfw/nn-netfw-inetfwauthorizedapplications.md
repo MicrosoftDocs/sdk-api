@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwAuthorizedApplications, INetFwAuthorizedApplications interface [ICS/ICF], INetFwAuthorizedApplications interface [ICS/ICF],described, ics.inetfwauthorizedapplications, netfw/INetFwAuthorizedApplications
 ms.topic: interface
-f1_keywords: ["netfw/INetFwAuthorizedApplications"]
+f1_keywords: 
+ - "netfw/INetFwAuthorizedApplications"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QUA_ADD, QUA_CHANGE, QUA_REMOVE, QueryUpdateAction, QueryUpdateAction enumeration, functiondiscoveryapi/QUA_ADD, functiondiscoveryapi/QUA_CHANGE, functiondiscoveryapi/QUA_REMOVE, functiondiscoveryapi/QueryUpdateAction, ncd.queryupdateaction_enum
 ms.topic: enum
-f1_keywords: ["functiondiscoveryapi/QueryUpdateAction"]
+f1_keywords: 
+ - "functiondiscoveryapi/QueryUpdateAction"
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

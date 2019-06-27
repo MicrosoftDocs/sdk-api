@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClientId property [Security], ClientId property [Security],IX509CertificateRequest interface, IX509CertificateRequest interface [Security],ClientId property, IX509CertificateRequest.ClientId, IX509CertificateRequest.put_ClientId, IX509CertificateRequest::ClientId, IX509CertificateRequest::get_ClientId, IX509CertificateRequest::put_ClientId, certenroll/IX509CertificateRequest::ClientId, certenroll/IX509CertificateRequest::get_ClientId, certenroll/IX509CertificateRequest::put_ClientId, put_ClientId, security.ix509certificaterequest_clientid_property
 ms.topic: method
-f1_keywords: ["certenroll/IX509CertificateRequest.ClientId"]
+f1_keywords: 
+ - "certenroll/IX509CertificateRequest.ClientId"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

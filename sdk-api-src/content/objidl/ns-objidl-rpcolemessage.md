@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRPCOLEMESSAGE, PRPCOLEMESSAGE, PRPCOLEMESSAGE structure pointer [COM], RPCOLEMESSAGE, RPCOLEMESSAGE structure [COM], _com_RPCOLEMESSAGE, com.rpcolemessage, objidlbase/PRPCOLEMESSAGE, objidlbase/RPCOLEMESSAGE, tagRPCOLEMESSAGE"
 ms.topic: struct
-f1_keywords: ["objidl/RPCOLEMESSAGE"]
+f1_keywords: 
+ - "objidl/RPCOLEMESSAGE"
 req.header: objidl.h
 req.include-header: Objidl.h
 req.target-type: Windows

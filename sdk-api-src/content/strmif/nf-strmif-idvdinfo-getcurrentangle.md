@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentAngle, GetCurrentAngle method [DirectShow], GetCurrentAngle method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentAngle method, IDvdInfo.GetCurrentAngle, IDvdInfo::GetCurrentAngle, IDvdInfoGetCurrentAngle, dshow.idvdinfo_getcurrentangle, strmif/IDvdInfo::GetCurrentAngle
 ms.topic: method
-f1_keywords: ["strmif/IDvdInfo.GetCurrentAngle"]
+f1_keywords: 
+ - "strmif/IDvdInfo.GetCurrentAngle"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

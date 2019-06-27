@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaBase interface [File Server Resource Manager],QuotaFlags property, IFsrmQuotaBase.QuotaFlags, IFsrmQuotaBase.get_QuotaFlags, IFsrmQuotaBase::QuotaFlags, IFsrmQuotaBase::get_QuotaFlags, IFsrmQuotaBase::put_QuotaFlags, QuotaFlags property [File Server Resource Manager], QuotaFlags property [File Server Resource Manager],IFsrmQuotaBase interface, fs.ifsrmquotabase_quotaflags, fsrm.ifsrmquotabase_quotaflags, fsrmquota/IFsrmQuotaBase::QuotaFlags, fsrmquota/IFsrmQuotaBase::get_QuotaFlags, fsrmquota/IFsrmQuotaBase::put_QuotaFlags, get_QuotaFlags
 ms.topic: method
-f1_keywords: ["fsrmquota/IFsrmQuotaBase.QuotaFlags"]
+f1_keywords: 
+ - "fsrmquota/IFsrmQuotaBase.QuotaFlags"
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows

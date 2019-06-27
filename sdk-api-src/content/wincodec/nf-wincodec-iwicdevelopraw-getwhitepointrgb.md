@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWhitePointRGB, GetWhitePointRGB method [Windows Imaging Component], GetWhitePointRGB method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetWhitePointRGB method, IWICDevelopRaw.GetWhitePointRGB, IWICDevelopRaw::GetWhitePointRGB, _wic_codec_iwicdevelopraw_getwhitepointrgb, wic._wic_codec_iwicdevelopraw_getwhitepointrgb, wincodec/IWICDevelopRaw::GetWhitePointRGB
 ms.topic: method
-f1_keywords: ["wincodec/IWICDevelopRaw.GetWhitePointRGB"]
+f1_keywords: 
+ - "wincodec/IWICDevelopRaw.GetWhitePointRGB"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

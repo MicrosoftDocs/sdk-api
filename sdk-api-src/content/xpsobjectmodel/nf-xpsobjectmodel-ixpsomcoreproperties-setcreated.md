@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetCreated method, IXpsOMCoreProperties.SetCreated, IXpsOMCoreProperties::SetCreated, SetCreated, SetCreated method [XPS Documents and Packaging], SetCreated method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setcreated, xpsobjectmodel/IXpsOMCoreProperties::SetCreated
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMCoreProperties.SetCreated"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMCoreProperties.SetCreated"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

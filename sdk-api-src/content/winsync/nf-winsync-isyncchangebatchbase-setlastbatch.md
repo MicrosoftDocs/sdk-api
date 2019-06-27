@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeBatchBase interface [Windows Sync],SetLastBatch method, ISyncChangeBatchBase.SetLastBatch, ISyncChangeBatchBase::SetLastBatch, SetLastBatch, SetLastBatch method [Windows Sync], SetLastBatch method [Windows Sync],ISyncChangeBatchBase interface, winsync.isyncchangebatchbase_setlastbatch, winsync/ISyncChangeBatchBase::SetLastBatch
 ms.topic: method
-f1_keywords: ["winsync/ISyncChangeBatchBase.SetLastBatch"]
+f1_keywords: 
+ - "winsync/ISyncChangeBatchBase.SetLastBatch"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

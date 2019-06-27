@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging],SetContent method, IXpsOMStoryFragmentsResource.SetContent, IXpsOMStoryFragmentsResource::SetContent, SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging],IXpsOMStoryFragmentsResource interface, xps.ixpsomstoryfragmentsresource_setcontent, xpsobjectmodel/IXpsOMStoryFragmentsResource::SetContent
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMStoryFragmentsResource.SetContent"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMStoryFragmentsResource.SetContent"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

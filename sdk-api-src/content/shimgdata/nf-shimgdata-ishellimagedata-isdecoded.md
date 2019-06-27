@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],IsDecoded method, IShellImageData.IsDecoded, IShellImageData::IsDecoded, IsDecoded, IsDecoded method [Windows Shell], IsDecoded method [Windows Shell],IShellImageData interface, _shell_IShellImageData_IsDecoded, shell.IShellImageData_IsDecoded, shimgdata/IShellImageData::IsDecoded
 ms.topic: method
-f1_keywords: ["shimgdata/IShellImageData.IsDecoded"]
+f1_keywords: 
+ - "shimgdata/IShellImageData.IsDecoded"
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

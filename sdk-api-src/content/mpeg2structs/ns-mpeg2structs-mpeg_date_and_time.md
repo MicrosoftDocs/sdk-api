@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MPEG_DATE_AND_TIME, MPEG_DATE_AND_TIME structure [Microsoft TV Technologies], mpeg2structs/MPEG_DATE_AND_TIME, mstv.mpeg_date_and_time
 ms.topic: struct
-f1_keywords: ["mpeg2structs/MPEG_DATE_AND_TIME"]
+f1_keywords: 
+ - "mpeg2structs/MPEG_DATE_AND_TIME"
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VBS_ENCLAVE_REPORT_PKG_HEADER, VBS_ENCLAVE_REPORT_PKG_HEADER structure, base.vbs_enclave_report_pkg_header, ntenclv/VBS_ENCLAVE_REPORT_PKG_HEADER
 ms.topic: struct
-f1_keywords: ["ntenclv/VBS_ENCLAVE_REPORT_PKG_HEADER"]
+f1_keywords: 
+ - "ntenclv/VBS_ENCLAVE_REPORT_PKG_HEADER"
 req.header: ntenclv.h
 req.include-header: 
 req.target-type: Windows

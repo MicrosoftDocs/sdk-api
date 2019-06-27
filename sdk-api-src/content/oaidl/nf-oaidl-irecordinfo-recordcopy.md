@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRecordInfo interface [Automation],RecordCopy method, IRecordInfo.RecordCopy, IRecordInfo::RecordCopy, RecordCopy, RecordCopy method [Automation], RecordCopy method [Automation],IRecordInfo interface, _oa96_IRecordInfo_RecordCopy, automat.irecordinfo_recordcopy, oaidl/IRecordInfo::RecordCopy
 ms.topic: method
-f1_keywords: ["oaidl/IRecordInfo.RecordCopy"]
+f1_keywords: 
+ - "oaidl/IRecordInfo.RecordCopy"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

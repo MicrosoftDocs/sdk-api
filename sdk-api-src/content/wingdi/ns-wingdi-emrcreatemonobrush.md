@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRCREATEMONOBRUSH, EMRCREATEMONOBRUSH, EMRCREATEMONOBRUSH structure [Windows GDI], PEMRCREATEMONOBRUSH, PEMRCREATEMONOBRUSH structure pointer [Windows GDI], _win32_EMRCREATEMONOBRUSH_str, gdi.emrcreatemonobrush, wingdi/EMRCREATEMONOBRUSH, wingdi/PEMRCREATEMONOBRUSH"
 ms.topic: struct
-f1_keywords: ["wingdi/EMRCREATEMONOBRUSH"]
+f1_keywords: 
+ - "wingdi/EMRCREATEMONOBRUSH"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

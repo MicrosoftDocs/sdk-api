@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Bitmap, Bitmap class [GDI+],Bitmap constructor, Bitmap constructor [GDI+], Bitmap constructor [GDI+],Bitmap class, Bitmap.Bitmap, Bitmap.Bitmap(IN IStream,IN BOOL), Bitmap.Bitmap(IStream*,BOOL), Bitmap::Bitmap, Bitmap::Bitmap(IN IStream,IN BOOL), _gdiplus_CLASS_Bitmap_Bitmap_stream_useIcm_, gdiplus._gdiplus_CLASS_Bitmap_Bitmap_stream_useIcm_
 ms.topic: method
-f1_keywords: ["gdiplusheaders/Bitmap.Bitmap"]
+f1_keywords: 
+ - "gdiplusheaders/Bitmap.Bitmap"
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

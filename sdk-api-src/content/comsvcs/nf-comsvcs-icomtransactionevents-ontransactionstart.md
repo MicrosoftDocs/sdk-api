@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComTransactionEvents interface [COM+],OnTransactionStart method, IComTransactionEvents.OnTransactionStart, IComTransactionEvents::OnTransactionStart, OnTransactionStart, OnTransactionStart method [COM+], OnTransactionStart method [COM+],IComTransactionEvents interface, _dtc_IComTransactionEvents_OnTransactionStart, comsvcs/IComTransactionEvents::OnTransactionStart, cos.icomtransactionevents_ontransactionstart
 ms.topic: method
-f1_keywords: ["comsvcs/IComTransactionEvents.OnTransactionStart"]
+f1_keywords: 
+ - "comsvcs/IComTransactionEvents.OnTransactionStart"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

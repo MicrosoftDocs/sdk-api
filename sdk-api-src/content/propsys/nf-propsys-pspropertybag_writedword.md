@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_WriteDWORD, PSPropertyBag_WriteDWORD function [Windows Properties], properties.PSPropertyBag_WriteDWORD, propsys/PSPropertyBag_WriteDWORD, shell.PSPropertyBag_WriteDWORD, shell_PSPropertyBag_WriteDWORD
 ms.topic: function
-f1_keywords: ["propsys/PSPropertyBag_WriteDWORD"]
+f1_keywords: 
+ - "propsys/PSPropertyBag_WriteDWORD"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDCreateDeviceProxy2, WSDCreateDeviceProxy2 function, ncd.wsdcreatedeviceproxy2, wsdclient/WSDCreateDeviceProxy2
 ms.topic: function
-f1_keywords: ["wsdclient/WSDCreateDeviceProxy2"]
+f1_keywords: 
+ - "wsdclient/WSDCreateDeviceProxy2"
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

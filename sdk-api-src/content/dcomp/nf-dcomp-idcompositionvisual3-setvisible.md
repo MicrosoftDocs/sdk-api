@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual3 interface [DirectComposition],SetVisible method, IDCompositionVisual3.SetVisible, IDCompositionVisual3::SetVisible, SetVisible, SetVisible method [DirectComposition], SetVisible method [DirectComposition],IDCompositionVisual3 interface, dcomp/IDCompositionVisual3::SetVisible, directcomp.idcompositionvisual3_setvisible
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionVisual3.SetVisible"]
+f1_keywords: 
+ - "dcomp/IDCompositionVisual3.SetVisible"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

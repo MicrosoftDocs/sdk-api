@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RTM_MATCH_FULL, RTM_MATCH_INTERFACE, RTM_MATCH_NEIGHBOUR, RTM_MATCH_NEXTHOP, RTM_MATCH_NONE, RTM_MATCH_OWNER, RTM_MATCH_PREF, RtmGetExactMatchRoute, RtmGetExactMatchRoute function [RAS], _rtmv2ref_rtmgetexactmatchroute, rras.rtmgetexactmatchroute, rtmv2/RtmGetExactMatchRoute
 ms.topic: function
-f1_keywords: ["rtmv2/RtmGetExactMatchRoute"]
+f1_keywords: 
+ - "rtmv2/RtmGetExactMatchRoute"
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

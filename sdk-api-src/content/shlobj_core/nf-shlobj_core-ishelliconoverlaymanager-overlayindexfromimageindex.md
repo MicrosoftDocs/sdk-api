@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellIconOverlayManager interface [Windows Shell],OverlayIndexFromImageIndex method, IShellIconOverlayManager.OverlayIndexFromImageIndex, IShellIconOverlayManager::OverlayIndexFromImageIndex, OverlayIndexFromImageIndex, OverlayIndexFromImageIndex method [Windows Shell], OverlayIndexFromImageIndex method [Windows Shell],IShellIconOverlayManager interface, _win32_IShellIconOverlayManager_OverlayIndexFromImageIndex, shell.IShellIconOverlayManager_OverlayIndexFromImageIndex, shlobj_core/IShellIconOverlayManager::OverlayIndexFromImageIndex
 ms.topic: method
-f1_keywords: ["shlobj_core/IShellIconOverlayManager.OverlayIndexFromImageIndex"]
+f1_keywords: 
+ - "shlobj_core/IShellIconOverlayManager.OverlayIndexFromImageIndex"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_WriteUnknown, PSPropertyBag_WriteUnknown function [Windows Properties], properties.PSPropertyBag_WriteUnknown, propsys/PSPropertyBag_WriteUnknown, shell.PSPropertyBag_WriteUnknown, shell_PSPropertyBag_WriteUnknown
 ms.topic: function
-f1_keywords: ["propsys/PSPropertyBag_WriteUnknown"]
+f1_keywords: 
+ - "propsys/PSPropertyBag_WriteUnknown"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

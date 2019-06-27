@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetClipGeometryLookup method, IXpsOMVisual.SetClipGeometryLookup, IXpsOMVisual::SetClipGeometryLookup, SetClipGeometryLookup, SetClipGeometryLookup method [XPS Documents and Packaging], SetClipGeometryLookup method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setclipgeometrylookup, xpsobjectmodel/IXpsOMVisual::SetClipGeometryLookup
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMVisual.SetClipGeometryLookup"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMVisual.SetClipGeometryLookup"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISecurityInformation4, ISecurityInformation4 interface [Security], ISecurityInformation4 interface [Security],described, aclui/ISecurityInformation4, security.isecurityinformation4
 ms.topic: interface
-f1_keywords: ["aclui/ISecurityInformation4"]
+f1_keywords: 
+ - "aclui/ISecurityInformation4"
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

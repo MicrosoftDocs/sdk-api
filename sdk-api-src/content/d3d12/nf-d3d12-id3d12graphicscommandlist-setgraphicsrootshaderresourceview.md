@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetGraphicsRootShaderResourceView method, ID3D12GraphicsCommandList.SetGraphicsRootShaderResourceView, ID3D12GraphicsCommandList::SetGraphicsRootShaderResourceView, SetGraphicsRootShaderResourceView, SetGraphicsRootShaderResourceView method, SetGraphicsRootShaderResourceView method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetGraphicsRootShaderResourceView, direct3d12.id3d12graphicscommandlist_setgraphicsrootshaderresourceview
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12GraphicsCommandList.SetGraphicsRootShaderResourceView"]
+f1_keywords: 
+ - "d3d12/ID3D12GraphicsCommandList.SetGraphicsRootShaderResourceView"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

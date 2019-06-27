@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFVideoMixerControl2 interface [Media Foundation],SetMixingPrefs method, IMFVideoMixerControl2.SetMixingPrefs, IMFVideoMixerControl2::SetMixingPrefs, SetMixingPrefs, SetMixingPrefs method [Media Foundation], SetMixingPrefs method [Media Foundation],IMFVideoMixerControl2 interface, evr/IMFVideoMixerControl2::SetMixingPrefs, mf.imfvideomixercontrol2_setmixingprefs
 ms.topic: method
-f1_keywords: ["evr/IMFVideoMixerControl2.SetMixingPrefs"]
+f1_keywords: 
+ - "evr/IMFVideoMixerControl2.SetMixingPrefs"
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

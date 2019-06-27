@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPAudioRenderConfig, IWMPAudioRenderConfig interface [Windows Media Player], IWMPAudioRenderConfig interface [Windows Media Player],described, wmp.iwmpaudiorenderconfig, wmprealestate/IWMPAudioRenderConfig
 ms.topic: interface
-f1_keywords: ["wmprealestate/IWMPAudioRenderConfig"]
+f1_keywords: 
+ - "wmprealestate/IWMPAudioRenderConfig"
 req.header: wmprealestate.h
 req.include-header: 
 req.target-type: Windows

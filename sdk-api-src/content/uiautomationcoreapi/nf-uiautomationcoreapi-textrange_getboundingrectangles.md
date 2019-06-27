@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TextRange_GetBoundingRectangles, TextRange_GetBoundingRectangles function [Windows Accessibility], uiauto.uiauto_TextRange_GetBoundingRectanglesConPat, uiauto_TextRange_GetBoundingRectanglesConPat, uiautomationcoreapi/TextRange_GetBoundingRectangles, winauto.uiauto_TextRange_GetBoundingRectanglesConPat
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/TextRange_GetBoundingRectangles"]
+f1_keywords: 
+ - "uiautomationcoreapi/TextRange_GetBoundingRectangles"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

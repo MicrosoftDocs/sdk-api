@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_GETVPORTCONNECTDATA, DD_GETVPORTCONNECTDATA, DD_GETVPORTCONNECTDATA structure [Display Devices], ddrawint/DD_GETVPORTCONNECTDATA, ddstrcts_56b2c83f-8798-4960-8fb6-062ccd1d5dd3.xml, display.dd_getvportconnectdata"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_GETVPORTCONNECTDATA"]
+f1_keywords: 
+ - "ddrawint/DD_GETVPORTCONNECTDATA"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

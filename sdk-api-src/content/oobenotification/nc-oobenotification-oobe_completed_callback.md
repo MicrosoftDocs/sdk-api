@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OOBE_COMPLETED_CALLBACK, OOBE_COMPLETED_CALLBACK callback, OOBE_COMPLETED_CALLBACK callback function, oobenotification/OOBE_COMPLETED_CALLBACK, windowssetupandmigration.oobe_completed_callback
 ms.topic: callback
-f1_keywords: ["oobenotification/OOBE_COMPLETED_CALLBACK"]
+f1_keywords: 
+ - "oobenotification/OOBE_COMPLETED_CALLBACK"
 req.header: oobenotification.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLDAPModA, LDAPMod, LDAPMod structure [LDAP], LDAPModA, LDAP_MOD_ADD (0x00), LDAP_MOD_DELETE (0x01), LDAP_MOD_REPLACE (0x02), PLDAPMod, PLDAPMod structure pointer [LDAP], _ldap_ldapmod, ldap.ldapmod, ldapmodA, ldapmodW, winldap/LDAPMod, winldap/PLDAPMod, winldap/ldapmodA, winldap/ldapmodW"
 ms.topic: struct
-f1_keywords: ["winldap/LDAPMod"]
+f1_keywords: 
+ - "winldap/LDAPMod"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

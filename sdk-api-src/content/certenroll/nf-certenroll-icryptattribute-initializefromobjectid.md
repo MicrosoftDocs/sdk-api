@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICryptAttribute interface [Security],InitializeFromObjectId method, ICryptAttribute.InitializeFromObjectId, ICryptAttribute::InitializeFromObjectId, InitializeFromObjectId, InitializeFromObjectId method [Security], InitializeFromObjectId method [Security],ICryptAttribute interface, certenroll/ICryptAttribute::InitializeFromObjectId, security.icryptattribute_initializefromobjectid_method
 ms.topic: method
-f1_keywords: ["certenroll/ICryptAttribute.InitializeFromObjectId"]
+f1_keywords: 
+ - "certenroll/ICryptAttribute.InitializeFromObjectId"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

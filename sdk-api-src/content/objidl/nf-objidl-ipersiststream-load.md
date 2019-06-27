@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPersistStream interface [COM],Load method, IPersistStream.Load, IPersistStream::Load, Load, Load method [COM], Load method [COM],IPersistStream interface, _com_ipersiststream_load, com.ipersiststream_load, objidl/IPersistStream::Load
 ms.topic: method
-f1_keywords: ["objidl/IPersistStream.Load"]
+f1_keywords: 
+ - "objidl/IPersistStream.Load"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

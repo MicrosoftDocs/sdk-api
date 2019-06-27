@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThreadMarshalInterface, GetThreadMarshalInterface method [Text Services Framework], GetThreadMarshalInterface method [Text Services Framework],ITfLangBarMgr interface, ITfLangBarMgr interface [Text Services Framework],GetThreadMarshalInterface method, ITfLangBarMgr.GetThreadMarshalInterface, ITfLangBarMgr::GetThreadMarshalInterface, _tsf_itflangbarmgr_getthreadmarshalinterface_ref, ctfutb/ITfLangBarMgr::GetThreadMarshalInterface, tsf.itflangbarmgr_getthreadmarshalinterface
 ms.topic: method
-f1_keywords: ["ctfutb/ITfLangBarMgr.GetThreadMarshalInterface"]
+f1_keywords: 
+ - "ctfutb/ITfLangBarMgr.GetThreadMarshalInterface"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

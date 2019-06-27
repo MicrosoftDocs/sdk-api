@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GradientMeshPatch, GradientMeshPatch function [Direct2D], d2d1_3helper/GradientMeshPatch, direct2d.gradientmeshpatch
 ms.topic: function
-f1_keywords: ["d2d1_3helper/GradientMeshPatch"]
+f1_keywords: 
+ - "d2d1_3helper/GradientMeshPatch"
 req.header: d2d1_3helper.h
 req.include-header: 
 req.target-type: Windows

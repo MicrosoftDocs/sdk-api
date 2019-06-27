@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [App packaging and management], GetSize method [App packaging and management],IAppxFile interface, IAppxFile interface [App packaging and management],GetSize method, IAppxFile.GetSize, IAppxFile::GetSize, appxpackaging/IAppxFile::GetSize, appxpkg.iappxfile_getsize
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxFile.GetSize"]
+f1_keywords: 
+ - "appxpackaging/IAppxFile.GetSize"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

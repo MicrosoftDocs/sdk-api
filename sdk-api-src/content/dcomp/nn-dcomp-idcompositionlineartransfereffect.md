@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionLinearTransferEffect, IDCompositionLinearTransferEffect interface [DirectComposition], IDCompositionLinearTransferEffect interface [DirectComposition],described, dcomp/IDCompositionLinearTransferEffect, directcomp.idcompositionlineartransfereffect
 ms.topic: interface
-f1_keywords: ["dcomp/IDCompositionLinearTransferEffect"]
+f1_keywords: 
+ - "dcomp/IDCompositionLinearTransferEffect"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

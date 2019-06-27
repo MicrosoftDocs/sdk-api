@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AppendMenu, AppendMenu function [Menus and Other Resources], AppendMenuA, AppendMenuW, MF_BITMAP, MF_CHECKED, MF_DISABLED, MF_ENABLED, MF_GRAYED, MF_MENUBARBREAK, MF_MENUBREAK, MF_OWNERDRAW, MF_POPUP, MF_SEPARATOR, MF_STRING, MF_UNCHECKED, _win32_AppendMenu, _win32_appendmenu_cpp, menurc.appendmenu, winui._win32_appendmenu, winuser/AppendMenu, winuser/AppendMenuA, winuser/AppendMenuW
 ms.topic: function
-f1_keywords: ["winuser/AppendMenu"]
+f1_keywords: 
+ - "winuser/AppendMenu"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

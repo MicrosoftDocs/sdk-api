@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_INK_NIB_SHAPE, D2D1_INK_NIB_SHAPE enumeration [Direct2D], D2D1_INK_NIB_SHAPE_ROUND, D2D1_INK_NIB_SHAPE_SQUARE, d2d1_3/D2D1_INK_NIB_SHAPE, d2d1_3/D2D1_INK_NIB_SHAPE_ROUND, d2d1_3/D2D1_INK_NIB_SHAPE_SQUARE, direct2d.d2d1_ink_nib_shape
 ms.topic: enum
-f1_keywords: ["d2d1_3/D2D1_INK_NIB_SHAPE"]
+f1_keywords: 
+ - "d2d1_3/D2D1_INK_NIB_SHAPE"
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

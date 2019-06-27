@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSample, GetSample method [Media Foundation], GetSample method [Media Foundation],IMFMuxStreamSampleManager interface, IMFMuxStreamSampleManager interface [Media Foundation],GetSample method, IMFMuxStreamSampleManager.GetSample, IMFMuxStreamSampleManager::GetSample, mf.imfmuxstreamsamplemanager_getsample, mfobjects/IMFMuxStreamSampleManager::GetSample
 ms.topic: method
-f1_keywords: ["mfobjects/IMFMuxStreamSampleManager.GetSample"]
+f1_keywords: 
+ - "mfobjects/IMFMuxStreamSampleManager.GetSample"
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows

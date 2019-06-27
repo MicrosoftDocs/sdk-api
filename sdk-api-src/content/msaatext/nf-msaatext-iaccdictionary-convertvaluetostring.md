@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConvertValueToString, ConvertValueToString method [Windows Accessibility], ConvertValueToString method [Windows Accessibility],IAccDictionary interface, IAccDictionary interface [Windows Accessibility],ConvertValueToString method, IAccDictionary.ConvertValueToString, IAccDictionary::ConvertValueToString, _msaa_IAccDictionary_ConvertValueToString, msaa.iaccdictionary_iaccdictionary__convertvaluetostring, msaatext/IAccDictionary::ConvertValueToString, winauto.iaccdictionary_iaccdictionary__convertvaluetostring
 ms.topic: method
-f1_keywords: ["msaatext/IAccDictionary.ConvertValueToString"]
+f1_keywords: 
+ - "msaatext/IAccDictionary.ConvertValueToString"
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISignerCertificate interface [Security],SignatureInformation property, ISignerCertificate.SignatureInformation, ISignerCertificate.get_SignatureInformation, ISignerCertificate::SignatureInformation, ISignerCertificate::get_SignatureInformation, SignatureInformation property [Security], SignatureInformation property [Security],ISignerCertificate interface, certenroll/ISignerCertificate::SignatureInformation, certenroll/ISignerCertificate::get_SignatureInformation, get_SignatureInformation, security.isignercertificate_signatureinformation_property
 ms.topic: method
-f1_keywords: ["certenroll/ISignerCertificate.SignatureInformation"]
+f1_keywords: 
+ - "certenroll/ISignerCertificate.SignatureInformation"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

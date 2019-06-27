@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PFAX_PORT_INFOA, FAX_PORT_INFO, FAX_PORT_INFO structure [Fax Service], FAX_PORT_INFOA, FAX_PORT_INFOW, FPF_RECEIVE, FPF_SEND, FPF_VIRTUAL, FPS_ABORTING, FPS_ANSWERED, FPS_AVAILABLE, FPS_BAD_ADDRESS, FPS_BUSY, FPS_CALL_BLACKLISTED, FPS_CALL_DELAYED, FPS_COMPLETED, FPS_DIALING, FPS_DISCONNECTED, FPS_FATAL_ERROR, FPS_HANDLED, FPS_INITIALIZING, FPS_NOT_FAX_CALL, FPS_NO_ANSWER, FPS_NO_DIAL_TONE, FPS_OFFLINE, FPS_RECEIVING, FPS_RINGING, FPS_ROUTING, FPS_SENDING, FPS_UNAVAILABLE, PFAX_PORT_INFO, PFAX_PORT_INFO structure pointer [Fax Service], _mfax_fax_port_info_str, fax._mfax_fax_port_info_str, winfax/FAX_PORT_INFO, winfax/FAX_PORT_INFOA, winfax/FAX_PORT_INFOW, winfax/PFAX_PORT_INFO"
 ms.topic: struct
-f1_keywords: ["winfax/FAX_PORT_INFO"]
+f1_keywords: 
+ - "winfax/FAX_PORT_INFO"
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

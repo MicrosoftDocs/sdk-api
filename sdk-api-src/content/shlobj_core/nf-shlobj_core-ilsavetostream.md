@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILSaveToStream, ILSaveToStream function [Windows Shell], _win32_ILSaveToStream, shell.ILSaveToStream, shlobj_core/ILSaveToStream
 ms.topic: function
-f1_keywords: ["shlobj_core/ILSaveToStream"]
+f1_keywords: 
+ - "shlobj_core/ILSaveToStream"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

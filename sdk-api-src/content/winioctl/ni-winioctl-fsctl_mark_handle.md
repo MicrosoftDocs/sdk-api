@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_MARK_HANDLE, FSCTL_MARK_HANDLE control, FSCTL_MARK_HANDLE control code [Files], _win32_fsctl_mark_handle, base.fsctl_mark_handle, fs.fsctl_mark_handle, winioctl/FSCTL_MARK_HANDLE
 ms.topic: ioctl
-f1_keywords: ["winioctl/FSCTL_MARK_HANDLE"]
+f1_keywords: 
+ - "winioctl/FSCTL_MARK_HANDLE"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

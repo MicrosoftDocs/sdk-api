@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStart, GetStart method [Windows Controls], GetStart method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetStart method, ITextRange.GetStart, ITextRange::GetStart, _win32_ITextRange_GetStart, _win32_ITextRange_GetStart_cpp, controls.ITextRange_GetStart, controls._win32_ITextRange_GetStart, tom/ITextRange::GetStart
 ms.topic: method
-f1_keywords: ["tom/ITextRange.GetStart"]
+f1_keywords: 
+ - "tom/ITextRange.GetStart"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

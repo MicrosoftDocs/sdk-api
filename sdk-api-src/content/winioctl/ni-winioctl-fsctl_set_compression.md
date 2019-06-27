@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COMPRESSION_FORMAT_DEFAULT, COMPRESSION_FORMAT_LZNT1, COMPRESSION_FORMAT_NONE, FSCTL_SET_COMPRESSION, FSCTL_SET_COMPRESSION control, FSCTL_SET_COMPRESSION control code [Files], _win32_fsctl_set_compression, all other values, base.fsctl_set_compression, fs.fsctl_set_compression, winioctl/FSCTL_SET_COMPRESSION
 ms.topic: ioctl
-f1_keywords: ["winioctl/FSCTL_SET_COMPRESSION"]
+f1_keywords: 
+ - "winioctl/FSCTL_SET_COMPRESSION"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

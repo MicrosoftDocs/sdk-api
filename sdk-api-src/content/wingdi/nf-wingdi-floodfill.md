@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FloodFill, FloodFill function [Windows GDI], _win32_FloodFill, gdi.floodfill, wingdi/FloodFill
 ms.topic: function
-f1_keywords: ["wingdi/FloodFill"]
+f1_keywords: 
+ - "wingdi/FloodFill"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

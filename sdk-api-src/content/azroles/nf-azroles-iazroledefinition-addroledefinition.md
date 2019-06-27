@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddRoleDefinition, AddRoleDefinition method [Security], AddRoleDefinition method [Security],IAzRoleDefinition interface, IAzRoleDefinition interface [Security],AddRoleDefinition method, IAzRoleDefinition.AddRoleDefinition, IAzRoleDefinition::AddRoleDefinition, azroles/IAzRoleDefinition::AddRoleDefinition, security.iazroledefinition_addroledefinition
 ms.topic: method
-f1_keywords: ["azroles/IAzRoleDefinition.AddRoleDefinition"]
+f1_keywords: 
+ - "azroles/IAzRoleDefinition.AddRoleDefinition"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

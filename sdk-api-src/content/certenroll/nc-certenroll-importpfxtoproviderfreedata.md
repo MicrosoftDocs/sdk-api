@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "ImportPFXToProviderFreeData, (FNIMPORTPFXTOPROVIDERFREEDATA), (FNIMPORTPFXTOPROVIDERFREEDATA) callback function [Security], FNIMPORTPFXTOPROVIDERFREEDATA callback, certenroll/(FNIMPORTPFXTOPROVIDERFREEDATA), fnimportpfxtoproviderfreedata, security.fnimportpfxtoproviderfreedata, wincrypt/(FNIMPORTPFXTOPROVIDERFREEDATA)"
 ms.topic: callback
-f1_keywords: ["certenroll/(FNIMPORTPFXTOPROVIDERFREEDATA)"]
+f1_keywords: 
+ - "certenroll/(FNIMPORTPFXTOPROVIDERFREEDATA)"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

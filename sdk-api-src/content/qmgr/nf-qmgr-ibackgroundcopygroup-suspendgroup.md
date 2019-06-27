@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyGroup interface [BITS],SuspendGroup method, IBackgroundCopyGroup.SuspendGroup, IBackgroundCopyGroup::SuspendGroup, SuspendGroup, SuspendGroup method [BITS], SuspendGroup method [BITS],IBackgroundCopyGroup interface, bits.ibackgroundcopygroup_suspendgroup, qmgr/IBackgroundCopyGroup::SuspendGroup
 ms.topic: method
-f1_keywords: ["qmgr/IBackgroundCopyGroup.SuspendGroup"]
+f1_keywords: 
+ - "qmgr/IBackgroundCopyGroup.SuspendGroup"
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

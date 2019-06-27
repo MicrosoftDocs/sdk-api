@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwRules interface [ICS/ICF],Item method, INetFwRules.Item, INetFwRules::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwRules interface, ics.inetfwrules_item, netfw/INetFwRules::Item
 ms.topic: method
-f1_keywords: ["netfw/INetFwRules.Item"]
+f1_keywords: 
+ - "netfw/INetFwRules.Item"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

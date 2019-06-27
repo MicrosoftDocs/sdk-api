@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Windows Shell], GetCount method [Windows Shell],IObjectArray interface, IObjectArray interface [Windows Shell],GetCount method, IObjectArray.GetCount, IObjectArray::GetCount, _shell_IObjectArray_GetCount, objectarray/IObjectArray::GetCount, shell.IObjectArray_GetCount
 ms.topic: method
-f1_keywords: ["objectarray/IObjectArray.GetCount"]
+f1_keywords: 
+ - "objectarray/IObjectArray.GetCount"
 req.header: objectarray.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSite interface [COM],OnUIDeactivate method, IOleInPlaceSite.OnUIDeactivate, IOleInPlaceSite::OnUIDeactivate, IOleInPlaceSiteWindowless.OnUIDeactivate, OnUIDeactivate, OnUIDeactivate method [COM], OnUIDeactivate method [COM],IOleInPlaceSite interface, _ole_ioleinplacesite_onuideactivate, com.ioleinplacesite_onuideactivate, oleidl/IOleInPlaceSite::OnUIDeactivate
 ms.topic: method
-f1_keywords: ["oleidl/IOleInPlaceSite.OnUIDeactivate"]
+f1_keywords: 
+ - "oleidl/IOleInPlaceSite.OnUIDeactivate"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

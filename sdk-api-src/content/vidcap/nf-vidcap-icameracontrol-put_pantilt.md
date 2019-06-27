@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],put_PanTilt method, ICameraControl.put_PanTilt, ICameraControl::put_PanTilt, ICameraControlput_PanTilt, dshow.icameracontrol_put_pantilt, put_PanTilt, put_PanTilt method [DirectShow], put_PanTilt method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_PanTilt
 ms.topic: method
-f1_keywords: ["vidcap/ICameraControl.put_PanTilt"]
+f1_keywords: 
+ - "vidcap/ICameraControl.put_PanTilt"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

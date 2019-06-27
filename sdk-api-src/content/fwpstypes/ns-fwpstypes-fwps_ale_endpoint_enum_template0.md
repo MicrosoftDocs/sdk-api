@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0, FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0 structure [Network Drivers Starting with Windows Vista], fwpstypes/FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0, netvista.fwps_ale_endpoint_enum_template0, wfp_ref_3_struct_3_fwps_A-E_1d06d4d7-6e8f-4f8d-b57e-96292a680e68.xml
 ms.topic: struct
-f1_keywords: ["fwpstypes/FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0"]
+f1_keywords: 
+ - "fwpstypes/FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0"
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
 req.target-type: Windows

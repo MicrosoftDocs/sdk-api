@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout1 interface [Direct Write],SetCharacterSpacing method, IDWriteTextLayout1.SetCharacterSpacing, IDWriteTextLayout1::SetCharacterSpacing, SetCharacterSpacing, SetCharacterSpacing method [Direct Write], SetCharacterSpacing method [Direct Write],IDWriteTextLayout1 interface, directwrite.idwritetextlayout1_setcharacterspacing, dwrite_1/IDWriteTextLayout1::SetCharacterSpacing
 ms.topic: method
-f1_keywords: ["dwrite_1/IDWriteTextLayout1.SetCharacterSpacing"]
+f1_keywords: 
+ - "dwrite_1/IDWriteTextLayout1.SetCharacterSpacing"
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

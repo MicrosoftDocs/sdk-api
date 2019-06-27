@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetLoop method, IMFMediaEngine.SetLoop, IMFMediaEngine::SetLoop, SetLoop, SetLoop method [Media Foundation], SetLoop method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setloop, mfmediaengine/IMFMediaEngine::SetLoop
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngine.SetLoop"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngine.SetLoop"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

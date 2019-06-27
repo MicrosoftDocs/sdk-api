@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBinaryConverter interface [Security],StringToVariantByteArray method, IBinaryConverter.StringToVariantByteArray, IBinaryConverter::StringToVariantByteArray, StringToVariantByteArray, StringToVariantByteArray method [Security], StringToVariantByteArray method [Security],IBinaryConverter interface, certenroll/IBinaryConverter::StringToVariantByteArray, security.ibinaryconverter_stringtovariantbytearray_method
 ms.topic: method
-f1_keywords: ["certenroll/IBinaryConverter.StringToVariantByteArray"]
+f1_keywords: 
+ - "certenroll/IBinaryConverter.StringToVariantByteArray"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

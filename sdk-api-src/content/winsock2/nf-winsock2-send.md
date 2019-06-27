@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MSG_DONTROUTE, MSG_OOB, _win32_send_2, send, send function [Winsock], winsock.send_2, winsock2/send
 ms.topic: function
-f1_keywords: ["winsock2/send"]
+f1_keywords: 
+ - "winsock2/send"
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

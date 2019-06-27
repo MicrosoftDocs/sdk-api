@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PssWalkMarkerCreate, PssWalkMarkerCreate function, proc_snap.psswalkmarkercreate, processsnapshot/PssWalkMarkerCreate
 ms.topic: function
-f1_keywords: ["processsnapshot/PssWalkMarkerCreate"]
+f1_keywords: 
+ - "processsnapshot/PssWalkMarkerCreate"
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

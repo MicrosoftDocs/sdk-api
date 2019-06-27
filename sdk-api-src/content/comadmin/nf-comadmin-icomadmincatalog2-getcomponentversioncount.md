@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetComponentVersionCount, GetComponentVersionCount method [COM+], GetComponentVersionCount method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],GetComponentVersionCount method, ICOMAdminCatalog2.GetComponentVersionCount, ICOMAdminCatalog2::GetComponentVersionCount, _cos_icomadmincatalog2_GetComponentVersionCount, comadmin/ICOMAdminCatalog2::GetComponentVersionCount, cos.icomadmincatalog2_getcomponentversioncount
 ms.topic: method
-f1_keywords: ["comadmin/ICOMAdminCatalog2.GetComponentVersionCount"]
+f1_keywords: 
+ - "comadmin/ICOMAdminCatalog2.GetComponentVersionCount"
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

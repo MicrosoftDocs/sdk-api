@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PAM_PROPERTY_SPHLI, AM_PROPERTY_SPHLI, AM_PROPERTY_SPHLI structure [DirectShow], PAM_PROPERTY_SPHLI, PAM_PROPERTY_SPHLI structure pointer [DirectShow], dshow.am_property_sphli, dvdmedia/AM_PROPERTY_SPHLI, dvdmedia/PAM_PROPERTY_SPHLI"
 ms.topic: struct
-f1_keywords: ["dvdmedia/AM_PROPERTY_SPHLI"]
+f1_keywords: 
+ - "dvdmedia/AM_PROPERTY_SPHLI"
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows

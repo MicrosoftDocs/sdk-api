@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTextCharset, GetTextCharset function [Internationalization for Windows Applications], _win32_GetTextCharset, intl.gettextcharset, wingdi/GetTextCharset
 ms.topic: function
-f1_keywords: ["wingdi/GetTextCharset"]
+f1_keywords: 
+ - "wingdi/GetTextCharset"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

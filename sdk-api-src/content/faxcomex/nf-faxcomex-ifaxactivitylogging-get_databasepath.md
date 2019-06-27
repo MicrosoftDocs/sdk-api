@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DatabasePath property [Fax Service], DatabasePath property [Fax Service],IFaxActivityLogging interface, IFaxActivityLogging interface [Fax Service],DatabasePath property, IFaxActivityLogging.DatabasePath, IFaxActivityLogging.get_DatabasePath, IFaxActivityLogging.put_DatabasePath, IFaxActivityLogging::DatabasePath, IFaxActivityLogging::get_DatabasePath, IFaxActivityLogging::put_DatabasePath, _mfax_faxactivitylogging.databasepath, fax._mfax_faxactivitylogging_cpp_mfax_faxactivitylogging_databasepath_cpp, fax._mfax_faxactivitylogging_databasepath, faxcomex/IFaxActivityLogging::DatabasePath, faxcomex/IFaxActivityLogging::get_DatabasePath, faxcomex/IFaxActivityLogging::put_DatabasePath, get_DatabasePath
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxActivityLogging.DatabasePath"]
+f1_keywords: 
+ - "faxcomex/IFaxActivityLogging.DatabasePath"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

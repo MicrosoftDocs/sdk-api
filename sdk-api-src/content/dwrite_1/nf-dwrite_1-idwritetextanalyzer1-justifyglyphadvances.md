@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextAnalyzer1 interface [Direct Write],JustifyGlyphAdvances method, IDWriteTextAnalyzer1.JustifyGlyphAdvances, IDWriteTextAnalyzer1::JustifyGlyphAdvances, JustifyGlyphAdvances, JustifyGlyphAdvances method [Direct Write], JustifyGlyphAdvances method [Direct Write],IDWriteTextAnalyzer1 interface, directwrite.idwritetextanalyzer1_justifyglyphadvances, dwrite_1/IDWriteTextAnalyzer1::JustifyGlyphAdvances
 ms.topic: method
-f1_keywords: ["dwrite_1/IDWriteTextAnalyzer1.JustifyGlyphAdvances"]
+f1_keywords: 
+ - "dwrite_1/IDWriteTextAnalyzer1.JustifyGlyphAdvances"
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

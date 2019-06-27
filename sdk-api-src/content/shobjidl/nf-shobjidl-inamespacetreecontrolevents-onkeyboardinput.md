@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnKeyboardInput method, INameSpaceTreeControlEvents.OnKeyboardInput, INameSpaceTreeControlEvents::OnKeyboardInput, OnKeyboardInput, OnKeyboardInput method [Windows Shell], OnKeyboardInput method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnKeyboardInput, shell.INameSpaceTreeControlEvents_OnKeyboardInput, shobjidl/INameSpaceTreeControlEvents::OnKeyboardInput
 ms.topic: method
-f1_keywords: ["shobjidl/INameSpaceTreeControlEvents.OnKeyboardInput"]
+f1_keywords: 
+ - "shobjidl/INameSpaceTreeControlEvents.OnKeyboardInput"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

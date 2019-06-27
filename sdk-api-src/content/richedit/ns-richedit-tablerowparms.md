@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFA_CENTER, PFA_LEFT, PFA_RIGHT, TABLEROWPARMS, TABLEROWPARMS structure [Windows Controls], controls.tablerowparms, richedit/TABLEROWPARMS
 ms.topic: struct
-f1_keywords: ["richedit/TABLEROWPARMS"]
+f1_keywords: 
+ - "richedit/TABLEROWPARMS"
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_CALLBACKMODE_INQUIRE, MI_CALLBACKMODE_REPORT, MI_OperationOptions_SetWriteErrorMode, MI_OperationOptions_SetWriteErrorMode function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetWriteErrorMode, wmi_v2.mi_operationoptions_setwriteerrormode
 ms.topic: function
-f1_keywords: ["mi/MI_OperationOptions_SetWriteErrorMode"]
+f1_keywords: 
+ - "mi/MI_OperationOptions_SetWriteErrorMode"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

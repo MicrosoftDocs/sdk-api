@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 9daf3f6a-842b-088b-a335-a0eed8c5bd16, GetString, GetString method [Direct3D 10], GetString method [Direct3D 10],ID3D10EffectStringVariable interface, ID3D10EffectStringVariable interface [Direct3D 10],GetString method, ID3D10EffectStringVariable.GetString, ID3D10EffectStringVariable::GetString, d3d10effect/ID3D10EffectStringVariable::GetString, direct3d10.id3d10effectstringvariable_getstring
 ms.topic: method
-f1_keywords: ["d3d10effect/ID3D10EffectStringVariable.GetString"]
+f1_keywords: 
+ - "d3d10effect/ID3D10EffectStringVariable.GetString"
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

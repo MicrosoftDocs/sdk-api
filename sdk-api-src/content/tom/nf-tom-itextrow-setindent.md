@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetIndent method, ITextRow.SetIndent, ITextRow::SetIndent, SetIndent, SetIndent method [Windows Controls], SetIndent method [Windows Controls],ITextRow interface, controls.itextrow_setindent, tom/ITextRow::SetIndent
 ms.topic: method
-f1_keywords: ["tom/ITextRow.SetIndent"]
+f1_keywords: 
+ - "tom/ITextRow.SetIndent"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDS_DOMAIN_CONTROLLER_INFO_2W, DS_DOMAIN_CONTROLLER_INFO_2, DS_DOMAIN_CONTROLLER_INFO_2 structure [Active Directory], DS_DOMAIN_CONTROLLER_INFO_2A, DS_DOMAIN_CONTROLLER_INFO_2W, PDS_DOMAIN_CONTROLLER_INFO_2, PDS_DOMAIN_CONTROLLER_INFO_2 structure pointer [Active Directory], ad.ds_domain_controller_info_2, ntdsapi/DS_DOMAIN_CONTROLLER_INFO_2, ntdsapi/DS_DOMAIN_CONTROLLER_INFO_2A, ntdsapi/DS_DOMAIN_CONTROLLER_INFO_2W, ntdsapi/PDS_DOMAIN_CONTROLLER_INFO_2"
 ms.topic: struct
-f1_keywords: ["ntdsapi/DS_DOMAIN_CONTROLLER_INFO_2"]
+f1_keywords: 
+ - "ntdsapi/DS_DOMAIN_CONTROLLER_INFO_2"
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

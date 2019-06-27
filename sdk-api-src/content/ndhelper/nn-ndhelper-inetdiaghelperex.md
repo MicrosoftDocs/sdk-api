@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelperEx, INetDiagHelperEx interface [NDF], INetDiagHelperEx interface [NDF],described, ndf.inetdiaghelperex, ndhelper/INetDiagHelperEx
 ms.topic: interface
-f1_keywords: ["ndhelper/INetDiagHelperEx"]
+f1_keywords: 
+ - "ndhelper/INetDiagHelperEx"
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

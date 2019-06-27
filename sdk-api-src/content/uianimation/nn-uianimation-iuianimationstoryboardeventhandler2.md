@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboardEventHandler2, IUIAnimationStoryboardEventHandler2 interface [Windows Animation], IUIAnimationStoryboardEventHandler2 interface [Windows Animation],described, uianimation.iuianimationstoryboardeventhandler2, uianimation/IUIAnimationStoryboardEventHandler2
 ms.topic: interface
-f1_keywords: ["uianimation/IUIAnimationStoryboardEventHandler2"]
+f1_keywords: 
+ - "uianimation/IUIAnimationStoryboardEventHandler2"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

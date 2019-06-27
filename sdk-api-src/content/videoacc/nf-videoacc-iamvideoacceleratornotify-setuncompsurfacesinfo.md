@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMVideoAcceleratorNotify interface [DirectShow],SetUncompSurfacesInfo method, IAMVideoAcceleratorNotify.SetUncompSurfacesInfo, IAMVideoAcceleratorNotify::SetUncompSurfacesInfo, IAMVideoAcceleratorNotifySetUncompSurfacesInfo, SetUncompSurfacesInfo, SetUncompSurfacesInfo method [DirectShow], SetUncompSurfacesInfo method [DirectShow],IAMVideoAcceleratorNotify interface, dshow.iamvideoacceleratornotify_setuncompsurfacesinfo, videoacc/IAMVideoAcceleratorNotify::SetUncompSurfacesInfo
 ms.topic: method
-f1_keywords: ["videoacc/IAMVideoAcceleratorNotify.SetUncompSurfacesInfo"]
+f1_keywords: 
+ - "videoacc/IAMVideoAcceleratorNotify.SetUncompSurfacesInfo"
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows

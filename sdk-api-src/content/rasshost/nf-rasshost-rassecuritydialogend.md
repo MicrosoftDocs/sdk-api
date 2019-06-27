@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasSecurityDialogEnd, RasSecurityDialogEnd callback, RasSecurityDialogEnd callback function [RAS], _ras_rassecuritydialogend, rasshost/RasSecurityDialogEnd, rras.rassecuritydialogend
 ms.topic: function
-f1_keywords: ["rasshost/RasSecurityDialogEnd"]
+f1_keywords: 
+ - "rasshost/RasSecurityDialogEnd"
 req.header: rasshost.h
 req.include-header: 
 req.target-type: Windows

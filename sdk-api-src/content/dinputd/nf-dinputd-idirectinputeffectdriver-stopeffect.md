@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectInputEffectDriver interface [Human Input Devices],StopEffect method, IDirectInputEffectDriver.StopEffect, IDirectInputEffectDriver::StopEffect, StopEffect, StopEffect method [Human Input Devices], StopEffect method [Human Input Devices],IDirectInputEffectDriver interface, di_ref_8aed81a3-c45d-4b8e-bcfb-2c17e1a708a2.xml, dinputd/IDirectInputEffectDriver::StopEffect, hid.idirectinputeffectdriver_stopeffect
 ms.topic: method
-f1_keywords: ["dinputd/IDirectInputEffectDriver.StopEffect"]
+f1_keywords: 
+ - "dinputd/IDirectInputEffectDriver.StopEffect"
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

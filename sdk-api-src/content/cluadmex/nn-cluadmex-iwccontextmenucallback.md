@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWCContextMenuCallback, IWCContextMenuCallback interface [Failover Cluster], IWCContextMenuCallback interface [Failover Cluster],described, _wolf_iwccontextmenucallback, cluadmex/IWCContextMenuCallback, mscs.iwccontextmenucallback
 ms.topic: interface
-f1_keywords: ["cluadmex/IWCContextMenuCallback"]
+f1_keywords: 
+ - "cluadmex/IWCContextMenuCallback"
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

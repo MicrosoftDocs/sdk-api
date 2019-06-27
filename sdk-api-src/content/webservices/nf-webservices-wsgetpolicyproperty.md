@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsGetPolicyProperty, WsGetPolicyProperty function [Web Services for Windows], webservices/WsGetPolicyProperty, wsw.wsgetpolicyproperty
 ms.topic: function
-f1_keywords: ["webservices/WsGetPolicyProperty"]
+f1_keywords: 
+ - "webservices/WsGetPolicyProperty"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

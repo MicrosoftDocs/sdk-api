@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK, PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK function [Failover Cluster], ResUtilGetPropertiesToParameterBlock, ResUtilGetPropertiesToParameterBlock function [Failover Cluster], _wolf_resutilgetpropertiestoparameterblock, mscs.resutilgetpropertiestoparameterblock, resapi/PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK, resapi/ResUtilGetPropertiesToParameterBlock
 ms.topic: function
-f1_keywords: ["resapi/ResUtilGetPropertiesToParameterBlock"]
+f1_keywords: 
+ - "resapi/ResUtilGetPropertiesToParameterBlock"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

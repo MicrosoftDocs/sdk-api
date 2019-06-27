@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [Network Awareness], GetDescription method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetDescription method, INetwork.GetDescription, INetwork::GetDescription, netlistmgr/INetwork::GetDescription, nla.inetwork_getdescription
 ms.topic: method
-f1_keywords: ["netlistmgr/INetwork.GetDescription"]
+f1_keywords: 
+ - "netlistmgr/INetwork.GetDescription"
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

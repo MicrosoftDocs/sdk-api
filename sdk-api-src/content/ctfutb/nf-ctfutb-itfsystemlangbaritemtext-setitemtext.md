@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfSystemLangBarItemText interface [Text Services Framework],SetItemText method, ITfSystemLangBarItemText.SetItemText, ITfSystemLangBarItemText::SetItemText, SetItemText, SetItemText method [Text Services Framework], SetItemText method [Text Services Framework],ITfSystemLangBarItemText interface, ctfutb/ITfSystemLangBarItemText::SetItemText, tsf.itfsystemlangbaritemtext_setitemtext
 ms.topic: method
-f1_keywords: ["ctfutb/ITfSystemLangBarItemText.SetItemText"]
+f1_keywords: 
+ - "ctfutb/ITfSystemLangBarItemText.SetItemText"
 req.header: ctfutb.h
 req.include-header: Msctf.h
 req.target-type: Windows

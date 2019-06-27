@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSigningStatus, GetSigningStatus method [Windows Imaging Component], GetSigningStatus method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetSigningStatus method, IWICComponentInfo.GetSigningStatus, IWICComponentInfo::GetSigningStatus, _wic_codec_iwiccomponentinfo_getsigningstatus, wic._wic_codec_iwiccomponentinfo_getsigningstatus, wincodec/IWICComponentInfo::GetSigningStatus
 ms.topic: method
-f1_keywords: ["wincodec/IWICComponentInfo.GetSigningStatus"]
+f1_keywords: 
+ - "wincodec/IWICComponentInfo.GetSigningStatus"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

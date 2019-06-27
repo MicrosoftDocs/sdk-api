@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_VERIFY_RESOURCE_SERVICE, PRESUTIL_VERIFY_RESOURCE_SERVICE function [Failover Cluster], ResUtilVerifyResourceService, ResUtilVerifyResourceService function [Failover Cluster], _wolf_resutilverifyresourceservice, mscs.resutilverifyresourceservice, resapi/PRESUTIL_VERIFY_RESOURCE_SERVICE, resapi/ResUtilVerifyResourceService
 ms.topic: function
-f1_keywords: ["resapi/ResUtilVerifyResourceService"]
+f1_keywords: 
+ - "resapi/ResUtilVerifyResourceService"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

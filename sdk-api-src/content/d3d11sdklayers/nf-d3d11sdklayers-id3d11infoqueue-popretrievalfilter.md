@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6a0c889e-c044-ddd7-c47a-3b574db74cca, ID3D11InfoQueue interface [Direct3D 11],PopRetrievalFilter method, ID3D11InfoQueue.PopRetrievalFilter, ID3D11InfoQueue::PopRetrievalFilter, PopRetrievalFilter, PopRetrievalFilter method [Direct3D 11], PopRetrievalFilter method [Direct3D 11],ID3D11InfoQueue interface, d3d11sdklayers/ID3D11InfoQueue::PopRetrievalFilter, direct3d11.id3d11infoqueue_popretrievalfilter
 ms.topic: method
-f1_keywords: ["d3d11sdklayers/ID3D11InfoQueue.PopRetrievalFilter"]
+f1_keywords: 
+ - "d3d11sdklayers/ID3D11InfoQueue.PopRetrievalFilter"
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

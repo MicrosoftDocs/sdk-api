@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequest interface [Security],SuppressDefaults property, IX509CertificateRequest.SuppressDefaults, IX509CertificateRequest.get_SuppressDefaults, IX509CertificateRequest::SuppressDefaults, IX509CertificateRequest::get_SuppressDefaults, IX509CertificateRequest::put_SuppressDefaults, SuppressDefaults property [Security], SuppressDefaults property [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::SuppressDefaults, certenroll/IX509CertificateRequest::get_SuppressDefaults, certenroll/IX509CertificateRequest::put_SuppressDefaults, get_SuppressDefaults, security.ix509certificaterequest_suppressdefaults_property
 ms.topic: method
-f1_keywords: ["certenroll/IX509CertificateRequest.SuppressDefaults"]
+f1_keywords: 
+ - "certenroll/IX509CertificateRequest.SuppressDefaults"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

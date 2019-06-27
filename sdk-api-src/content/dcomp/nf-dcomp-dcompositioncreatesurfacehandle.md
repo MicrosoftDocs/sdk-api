@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COMPOSITIONSURFACE_ALL_ACCESS, COMPOSITIONSURFACE_READ, COMPOSITIONSURFACE_WRITE, DCompositionCreateSurfaceHandle, DCompositionCreateSurfaceHandle function [DirectComposition], dcomp/DCompositionCreateSurfaceHandle, directcomp.dcompositioncreatesurfacehandle
 ms.topic: function
-f1_keywords: ["dcomp/DCompositionCreateSurfaceHandle"]
+f1_keywords: 
+ - "dcomp/DCompositionCreateSurfaceHandle"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],RegisterTab method, ITaskbarList3.RegisterTab, ITaskbarList3::RegisterTab, RegisterTab, RegisterTab method [Windows Shell], RegisterTab method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_RegisterTab, shell.ITaskbarList3_RegisterTab, shobjidl_core/ITaskbarList3::RegisterTab
 ms.topic: method
-f1_keywords: ["shobjidl_core/ITaskbarList3.RegisterTab"]
+f1_keywords: 
+ - "shobjidl_core/ITaskbarList3.RegisterTab"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

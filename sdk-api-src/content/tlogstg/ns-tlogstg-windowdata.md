@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPWINDOWDATA, WINDOWDATA, WINDOWDATA structure [Windows Shell], _shell_WINDOWDATA, shell.WINDOWDATA, tlogstg/WINDOWDATA"
 ms.topic: struct
-f1_keywords: ["tlogstg/WINDOWDATA"]
+f1_keywords: 
+ - "tlogstg/WINDOWDATA"
 req.header: tlogstg.h
 req.include-header: 
 req.target-type: Windows

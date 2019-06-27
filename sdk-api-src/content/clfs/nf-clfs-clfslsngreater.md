@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClfsLsnGreater, LsnGreater, LsnGreater function [Files], clfs/LsnGreater, fs.lsngreater
 ms.topic: function
-f1_keywords: ["clfs/LsnGreater"]
+f1_keywords: 
+ - "clfs/LsnGreater"
 req.header: clfs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Enabled, Enabled method [Offline Files], Enabled method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],Enabled method, IOfflineFilesEvents.Enabled, IOfflineFilesEvents::Enabled, cscobj/IOfflineFilesEvents::Enabled, of.iofflinefilesevents_enabled
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesEvents.Enabled"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesEvents.Enabled"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

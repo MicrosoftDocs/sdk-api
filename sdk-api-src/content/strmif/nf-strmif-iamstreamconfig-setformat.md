@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMStreamConfig interface [DirectShow],SetFormat method, IAMStreamConfig.SetFormat, IAMStreamConfig::SetFormat, IAMStreamConfigSetFormat, SetFormat, SetFormat method [DirectShow], SetFormat method [DirectShow],IAMStreamConfig interface, dshow.iamstreamconfig_setformat, strmif/IAMStreamConfig::SetFormat
 ms.topic: method
-f1_keywords: ["strmif/IAMStreamConfig.SetFormat"]
+f1_keywords: 
+ - "strmif/IAMStreamConfig.SetFormat"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

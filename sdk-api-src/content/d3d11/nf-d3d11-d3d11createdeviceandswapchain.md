@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 7e7df363-d5a2-5b79-817f-3e1d6053d170, D3D11CreateDeviceAndSwapChain, D3D11CreateDeviceAndSwapChain function [Direct3D 11], d3d11/D3D11CreateDeviceAndSwapChain, direct3d11.d3d11createdeviceandswapchain
 ms.topic: function
-f1_keywords: ["d3d11/D3D11CreateDeviceAndSwapChain"]
+f1_keywords: 
+ - "d3d11/D3D11CreateDeviceAndSwapChain"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

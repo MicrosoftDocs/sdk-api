@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMStreamConfig2, IWMStreamConfig2 interface [windows Media Format], IWMStreamConfig2 interface [windows Media Format],described, IWMStreamConfig2Interface, wmformat.iwmstreamconfig2, wmsdkidl/IWMStreamConfig2
 ms.topic: interface
-f1_keywords: ["wmsdkidl/IWMStreamConfig2"]
+f1_keywords: 
+ - "wmsdkidl/IWMStreamConfig2"
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

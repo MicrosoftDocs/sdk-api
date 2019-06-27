@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOutputAvailableType, GetOutputAvailableType method [Streaming Media Devices], GetOutputAvailableType method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetOutputAvailableType method, IMFDeviceTransform.GetOutputAvailableType, IMFDeviceTransform::GetOutputAvailableType, mftransform/IMFDeviceTransform::GetOutputAvailableType, stream.imfdevicetransform_getoutputavailabletype
 ms.topic: method
-f1_keywords: ["mftransform/IMFDeviceTransform.GetOutputAvailableType"]
+f1_keywords: 
+ - "mftransform/IMFDeviceTransform.GetOutputAvailableType"
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

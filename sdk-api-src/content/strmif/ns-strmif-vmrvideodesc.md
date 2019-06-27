@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FALSE, TRUE, VMRVideoDesc, VMRVideoDesc structure [DirectShow], VMRVideoDescStructure, dshow.vmrvideodesc, strmif/VMRVideoDesc
 ms.topic: struct
-f1_keywords: ["strmif/VMRVideoDesc"]
+f1_keywords: 
+ - "strmif/VMRVideoDesc"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

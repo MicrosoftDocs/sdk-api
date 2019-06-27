@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MaxMediaLabel, MaxMediaLabel callback, MaxMediaLabel callback function [Files], _zaw_maxmedialabel, base.maxmedialabel, fs.maxmedialabel, ntmsmli/MaxMediaLabel
 ms.topic: callback
-f1_keywords: ["ntmsmli/MaxMediaLabel"]
+f1_keywords: 
+ - "ntmsmli/MaxMediaLabel"
 req.header: ntmsmli.h
 req.include-header: 
 req.target-type: Windows

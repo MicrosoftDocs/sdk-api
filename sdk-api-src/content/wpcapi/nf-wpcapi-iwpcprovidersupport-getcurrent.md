@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrent, GetCurrent method, GetCurrent method,IWPCProviderSupport interface, IWPCProviderSupport interface,GetCurrent method, IWPCProviderSupport.GetCurrent, IWPCProviderSupport::GetCurrent, parcon.iwpcprovidersupport_getcurrent, wpcapi/IWPCProviderSupport::GetCurrent
 ms.topic: method
-f1_keywords: ["wpcapi/IWPCProviderSupport.GetCurrent"]
+f1_keywords: 
+ - "wpcapi/IWPCProviderSupport.GetCurrent"
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 07aa3147-aab3-5e52-2809-7bddfdb31126, GetDevice, GetDevice method [Direct3D 11], GetDevice method [Direct3D 11],ID3D11DeviceChild interface, ID3D11DeviceChild interface [Direct3D 11],GetDevice method, ID3D11DeviceChild.GetDevice, ID3D11DeviceChild::GetDevice, d3d11/ID3D11DeviceChild::GetDevice, direct3d11.id3d11devicechild_getdevice
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11DeviceChild.GetDevice"]
+f1_keywords: 
+ - "d3d11/ID3D11DeviceChild.GetDevice"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

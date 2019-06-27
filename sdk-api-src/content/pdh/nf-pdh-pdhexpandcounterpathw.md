@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdhExpandCounterPath, PdhExpandCounterPath function [Perf], PdhExpandCounterPathA, PdhExpandCounterPathW, _win32_pdhexpandcounterpath, base.pdhexpandcounterpath, pdh/PdhExpandCounterPath, pdh/PdhExpandCounterPathA, pdh/PdhExpandCounterPathW, perf.pdhexpandcounterpath
 ms.topic: function
-f1_keywords: ["pdh/PdhExpandCounterPath"]
+f1_keywords: 
+ - "pdh/PdhExpandCounterPath"
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

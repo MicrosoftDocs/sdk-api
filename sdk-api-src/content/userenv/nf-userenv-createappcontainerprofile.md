@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateAppContainerProfile, CreateAppContainerProfile function [Windows Shell], shell.createappcontainerprofile, userenv/CreateAppContainerProfile
 ms.topic: function
-f1_keywords: ["userenv/CreateAppContainerProfile"]
+f1_keywords: 
+ - "userenv/CreateAppContainerProfile"
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

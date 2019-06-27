@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDesktopWallpaper interface [Windows Shell],SetSlideshow method, IDesktopWallpaper.SetSlideshow, IDesktopWallpaper::SetSlideshow, SetSlideshow, SetSlideshow method [Windows Shell], SetSlideshow method [Windows Shell],IDesktopWallpaper interface, shell.IDesktopWallpaper_SetSlideshow, shobjidl_core/IDesktopWallpaper::SetSlideshow
 ms.topic: method
-f1_keywords: ["shobjidl_core/IDesktopWallpaper.SetSlideshow"]
+f1_keywords: 
+ - "shobjidl_core/IDesktopWallpaper.SetSlideshow"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

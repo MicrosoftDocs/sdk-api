@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindFirstStreamTransactedW, FindFirstStreamTransactedW function [Files], FindStreamInfoStandard, fs.findfirststreamtransactedw, winbase/FindFirstStreamTransactedW
 ms.topic: function
-f1_keywords: ["winbase/FindFirstStreamTransactedW"]
+f1_keywords: 
+ - "winbase/FindFirstStreamTransactedW"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

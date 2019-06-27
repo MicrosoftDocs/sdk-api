@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWordToLong, ULongToLong, ULongToLong function [Windows Shell], _shell_ULongToLong, intsafe/ULongToLong, shell.ULongToLong
 ms.topic: function
-f1_keywords: ["intsafe/ULongToLong"]
+f1_keywords: 
+ - "intsafe/ULongToLong"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

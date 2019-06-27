@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmFilterGetById0, FwpmFilterGetById0 function [Filtering], fwp.fwpmfiltergetbyid0_func, fwpmu/FwpmFilterGetById0
 ms.topic: function
-f1_keywords: ["fwpmu/FwpmFilterGetById0"]
+f1_keywords: 
+ - "fwpmu/FwpmFilterGetById0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

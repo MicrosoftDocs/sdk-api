@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],PVKFileNameWStr property, IEnroll.PVKFileNameWStr, IEnroll.get_PVKFileNameWStr, IEnroll::PVKFileNameWStr, IEnroll::get_PVKFileNameWStr, IEnroll::put_PVKFileNameWStr, PVKFileNameWStr property [Security], PVKFileNameWStr property [Security],IEnroll interface, get_PVKFileNameWStr, security.ienroll4_pvkfilenamewstr, xenroll/IEnroll::PVKFileNameWStr, xenroll/IEnroll::get_PVKFileNameWStr, xenroll/IEnroll::put_PVKFileNameWStr
 ms.topic: method
-f1_keywords: ["xenroll/IEnroll.PVKFileNameWStr"]
+f1_keywords: 
+ - "xenroll/IEnroll.PVKFileNameWStr"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

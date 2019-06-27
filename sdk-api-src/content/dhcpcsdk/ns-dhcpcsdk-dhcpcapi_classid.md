@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCPCAPI_CLASSID, *LPDHCPCAPI_CLASSID structure [DHCP], *PDHCPCAPI_CLASSID, *PDHCPCAPI_CLASSID structure [DHCP], DHCPCAPI_CLASSID, DHCPCAPI_CLASSID structure [DHCP], dhcp.dhcpcapi_classid, dhcpcsdk/*LPDHCPCAPI_CLASSID, dhcpcsdk/*PDHCPCAPI_CLASSID, dhcpcsdk/DHCPCAPI_CLASSID"
 ms.topic: struct
-f1_keywords: ["dhcpcsdk/DHCPCAPI_CLASSID"]
+f1_keywords: 
+ - "dhcpcsdk/DHCPCAPI_CLASSID"
 req.header: dhcpcsdk.h
 req.include-header: 
 req.target-type: Windows

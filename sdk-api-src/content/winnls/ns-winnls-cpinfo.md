@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCPINFO, CPINFO, CPINFO structure [Internationalization for Windows Applications], LPCPINFO, LPCPINFO structure pointer [Internationalization for Windows Applications], _win32_CPINFO_str, intl.cpinfo, winnls/CPINFO, winnls/LPCPINFO"
 ms.topic: struct
-f1_keywords: ["winnls/CPINFO"]
+f1_keywords: 
+ - "winnls/CPINFO"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

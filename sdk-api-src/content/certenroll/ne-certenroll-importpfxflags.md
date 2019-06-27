@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImportExportable, ImportExportableEncrypted, ImportForceOverwrite, ImportInstallCertificate, ImportInstallChain, ImportInstallChainAndRoot, ImportMachineContext, ImportNoUserProtected, ImportNone, ImportPFXFlags, ImportPFXFlags enumeration [Security], ImportSaveProperties, ImportSilent, ImportUserProtected, ImportUserProtectedHigh, certenroll/ImportExportable, certenroll/ImportExportableEncrypted, certenroll/ImportForceOverwrite, certenroll/ImportInstallCertificate, certenroll/ImportInstallChain, certenroll/ImportInstallChainAndRoot, certenroll/ImportMachineContext, certenroll/ImportNoUserProtected, certenroll/ImportNone, certenroll/ImportPFXFlags, certenroll/ImportSaveProperties, certenroll/ImportSilent, certenroll/ImportUserProtected, certenroll/ImportUserProtectedHigh, security.importpfxflags
 ms.topic: enum
-f1_keywords: ["certenroll/ImportPFXFlags"]
+f1_keywords: 
+ - "certenroll/ImportPFXFlags"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

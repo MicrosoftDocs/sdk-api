@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProgressItems, IProgressItems interface [IMAPI], IProgressItems interface [IMAPI],described, imapi.iprogressitems, imapi2fs/IProgressItems
 ms.topic: interface
-f1_keywords: ["imapi2fs/IProgressItems"]
+f1_keywords: 
+ - "imapi2fs/IProgressItems"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

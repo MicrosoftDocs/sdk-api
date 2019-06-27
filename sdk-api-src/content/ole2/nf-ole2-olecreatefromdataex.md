@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleCreateFromDataEx, OleCreateFromDataEx function [COM], _ole_OleCreateFromDataEx, com.olecreatefromdataex, ole2/OleCreateFromDataEx
 ms.topic: function
-f1_keywords: ["ole2/OleCreateFromDataEx"]
+f1_keywords: 
+ - "ole2/OleCreateFromDataEx"
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

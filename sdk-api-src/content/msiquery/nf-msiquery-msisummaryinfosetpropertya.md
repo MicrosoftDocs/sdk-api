@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiSummaryInfoSetProperty, MsiSummaryInfoSetProperty function, MsiSummaryInfoSetPropertyA, MsiSummaryInfoSetPropertyW, _msi_msisummaryinfosetproperty, msiquery/MsiSummaryInfoSetProperty, msiquery/MsiSummaryInfoSetPropertyA, msiquery/MsiSummaryInfoSetPropertyW, setup.msisummaryinfosetproperty
 ms.topic: function
-f1_keywords: ["msiquery/MsiSummaryInfoSetProperty"]
+f1_keywords: 
+ - "msiquery/MsiSummaryInfoSetProperty"
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

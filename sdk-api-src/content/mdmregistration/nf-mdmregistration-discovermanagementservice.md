@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DiscoverManagementService, DiscoverManagementService function [MDM Registration], mdmreg.discovermanagementservice, mdmregistration/DiscoverManagementService
 ms.topic: function
-f1_keywords: ["mdmregistration/DiscoverManagementService"]
+f1_keywords: 
+ - "mdmregistration/DiscoverManagementService"
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows

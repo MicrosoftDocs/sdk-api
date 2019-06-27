@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferInitialize, IStreamBufferInitialize interface [Microsoft TV Technologies], IStreamBufferInitialize interface [Microsoft TV Technologies],described, IStreamBufferInitializeInterface, mstv.istreambufferinitialize, sbe/IStreamBufferInitialize
 ms.topic: interface
-f1_keywords: ["sbe/IStreamBufferInitialize"]
+f1_keywords: 
+ - "sbe/IStreamBufferInitialize"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

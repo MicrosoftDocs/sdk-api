@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindAllWithOptions, FindAllWithOptions method [Windows Accessibility], FindAllWithOptions method [Windows Accessibility],IUIAutomationElement7 interface, IUIAutomationElement7 interface [Windows Accessibility],FindAllWithOptions method, IUIAutomationElement7.FindAllWithOptions, IUIAutomationElement7::FindAllWithOptions, uiautomationclient/IUIAutomationElement7::FindAllWithOptions, winauto.uiauto_IUIAutomationElement7_FindAllWithOptions, winauto.uiauto_iuiautomationelement_findallwithoptions
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationElement7.FindAllWithOptions"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement7.FindAllWithOptions"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

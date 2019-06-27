@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMediaStream, GetMediaStream method [DirectShow], GetMediaStream method [DirectShow],IMediaStreamFilter interface, IMediaStreamFilter interface [DirectShow],GetMediaStream method, IMediaStreamFilter.GetMediaStream, IMediaStreamFilter::GetMediaStream, IMediaStreamFilterGetMediaStream, amstream/IMediaStreamFilter::GetMediaStream, dshow.imediastreamfilter_getmediastream
 ms.topic: method
-f1_keywords: ["amstream/IMediaStreamFilter.GetMediaStream"]
+f1_keywords: 
+ - "amstream/IMediaStreamFilter.GetMediaStream"
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

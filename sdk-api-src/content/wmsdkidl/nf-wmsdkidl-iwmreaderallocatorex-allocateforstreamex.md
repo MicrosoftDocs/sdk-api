@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllocateForStreamEx, AllocateForStreamEx method [windows Media Format], AllocateForStreamEx method [windows Media Format],IWMReaderAllocatorEx interface, IWMReaderAllocatorEx interface [windows Media Format],AllocateForStreamEx method, IWMReaderAllocatorEx.AllocateForStreamEx, IWMReaderAllocatorEx::AllocateForStreamEx, IWMReaderAllocatorExAllocateForStreamEx, wmformat.iwmreaderallocatorex_allocateforstreamex, wmsdkidl/IWMReaderAllocatorEx::AllocateForStreamEx
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderAllocatorEx.AllocateForStreamEx"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderAllocatorEx.AllocateForStreamEx"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

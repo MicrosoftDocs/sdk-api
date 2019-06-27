@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsMatchPolicyAlternative, WsMatchPolicyAlternative function [Web Services for Windows], webservices/WsMatchPolicyAlternative, wsw.wsmatchpolicyalternative
 ms.topic: function
-f1_keywords: ["webservices/WsMatchPolicyAlternative"]
+f1_keywords: 
+ - "webservices/WsMatchPolicyAlternative"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

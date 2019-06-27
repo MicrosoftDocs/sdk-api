@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewCB interface [Windows Shell],MessageSFVCB method, IShellFolderViewCB.MessageSFVCB, IShellFolderViewCB::MessageSFVCB, MessageSFVCB, MessageSFVCB method [Windows Shell], MessageSFVCB method [Windows Shell],IShellFolderViewCB interface, _win32_IShellFolderViewCB_MessageSFVCB, shell.IShellFolderViewCB_MessageSFVCB, shlobj_core/IShellFolderViewCB::MessageSFVCB
 ms.topic: method
-f1_keywords: ["shlobj_core/IShellFolderViewCB.MessageSFVCB"]
+f1_keywords: 
+ - "shlobj_core/IShellFolderViewCB.MessageSFVCB"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

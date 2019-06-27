@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],PreRestore method, IVssBackupComponents.PreRestore, IVssBackupComponents::PreRestore, PreRestore, PreRestore method [VSS], PreRestore method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_prerestore, base.ivssbackupcomponents_prerestore, vsbackup/IVssBackupComponents::PreRestore
 ms.topic: method
-f1_keywords: ["vsbackup/IVssBackupComponents.PreRestore"]
+f1_keywords: 
+ - "vsbackup/IVssBackupComponents.PreRestore"
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ProviderOptions, ProviderOptions enumeration [Windows Accessibility], ProviderOptions_ClientSideProvider, ProviderOptions_HasNativeIAccessible, ProviderOptions_NonClientAreaProvider, ProviderOptions_OverrideProvider, ProviderOptions_ProviderOwnsSetFocus, ProviderOptions_RefuseNonClientSupport, ProviderOptions_ServerSideProvider, ProviderOptions_UseClientCoordinates, ProviderOptions_UseComThreading, uiauto.uiauto_ProvOptionsEnum, uiauto_ProvOptionsEnum, uiautomationcore/ProviderOptions, uiautomationcore/ProviderOptions_ClientSideProvider, uiautomationcore/ProviderOptions_HasNativeIAccessible, uiautomationcore/ProviderOptions_NonClientAreaProvider, uiautomationcore/ProviderOptions_OverrideProvider, uiautomationcore/ProviderOptions_ProviderOwnsSetFocus, uiautomationcore/ProviderOptions_RefuseNonClientSupport, uiautomationcore/ProviderOptions_ServerSideProvider, uiautomationcore/ProviderOptions_UseClientCoordinates, uiautomationcore/ProviderOptions_UseComThreading, winauto.uiauto_ProvOptionsEnum
 ms.topic: enum
-f1_keywords: ["uiautomationcore/ProviderOptions"]
+f1_keywords: 
+ - "uiautomationcore/ProviderOptions"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

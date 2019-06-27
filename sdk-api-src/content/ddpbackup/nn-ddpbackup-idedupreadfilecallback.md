@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDedupReadFileCallback, IDedupReadFileCallback interface [Data Deduplication API], IDedupReadFileCallback interface [Data Deduplication API],described, ddpbackup/IDedupReadFileCallback, dedup.idedupreadfilecallback
 ms.topic: interface
-f1_keywords: ["ddpbackup/IDedupReadFileCallback"]
+f1_keywords: 
+ - "ddpbackup/IDedupReadFileCallback"
 req.header: ddpbackup.h
 req.include-header: 
 req.target-type: Windows

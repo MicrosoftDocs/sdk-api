@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngLineTo, EngLineTo function [Display Devices], display.englineto, gdifncs_7f51ef7a-df4c-4482-a411-101dff0711d7.xml, winddi/EngLineTo
 ms.topic: function
-f1_keywords: ["winddi/EngLineTo"]
+f1_keywords: 
+ - "winddi/EngLineTo"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

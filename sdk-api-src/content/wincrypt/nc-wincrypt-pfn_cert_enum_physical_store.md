@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertEnumPhysicalStoreCallback, PFN_CERT_ENUM_PHYSICAL_STORE, PFN_CERT_ENUM_PHYSICAL_STORE callback, PFN_CERT_ENUM_PHYSICAL_STORE callback function [Security], security.certenumphysicalstorecallback, wincrypt/PFN_CERT_ENUM_PHYSICAL_STORE
 ms.topic: callback
-f1_keywords: ["wincrypt/PFN_CERT_ENUM_PHYSICAL_STORE"]
+f1_keywords: 
+ - "wincrypt/PFN_CERT_ENUM_PHYSICAL_STORE"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScaleViewportExtEx, ScaleViewportExtEx function [Windows GDI], _win32_ScaleViewportExtEx, gdi.scaleviewportextex, wingdi/ScaleViewportExtEx
 ms.topic: function
-f1_keywords: ["wingdi/ScaleViewportExtEx"]
+f1_keywords: 
+ - "wingdi/ScaleViewportExtEx"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

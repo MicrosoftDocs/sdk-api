@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?Getbool@CInstance@@QBE_NPBGAA_N@Z, ?Getbool@CInstance@@QEBA_NPEBGAEA_N@Z, CInstance interface [Windows Management Instrumentation],Getbool method, CInstance.Getbool, CInstance::Getbool, Getbool, Getbool method [Windows Management Instrumentation], Getbool method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getbool, instance/CInstance::Getbool, wmi.cinstance_getbool"
 ms.topic: method
-f1_keywords: ["instance/CInstance.Getbool"]
+f1_keywords: 
+ - "instance/CInstance.Getbool"
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

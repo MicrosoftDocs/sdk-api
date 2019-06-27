@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystemNaming interface,SetFriendlyName method, IVdsSubSystemNaming.SetFriendlyName, IVdsSubSystemNaming::SetFriendlyName, SetFriendlyName, SetFriendlyName method, SetFriendlyName method,IVdsSubSystemNaming interface, base.ivdssubsystemnaming_setfriendlyname, vds/IVdsSubSystemNaming::SetFriendlyName, vdshwprv/IVdsSubSystemNaming::SetFriendlyName
 ms.topic: method
-f1_keywords: ["vds/IVdsSubSystemNaming.SetFriendlyName"]
+f1_keywords: 
+ - "vds/IVdsSubSystemNaming.SetFriendlyName"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

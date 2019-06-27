@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clip, Clip method [Tablet PC], Clip method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],Clip method, IInkStrokeDisp.Clip, IInkStrokeDisp::Clip, d3733613-fc8e-41f2-9172-07b61fc133dd, msinkaut/IInkStrokeDisp::Clip, tablet.iinkstrokedisp_clip
 ms.topic: method
-f1_keywords: ["msinkaut/IInkStrokeDisp.Clip"]
+f1_keywords: 
+ - "msinkaut/IInkStrokeDisp.Clip"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

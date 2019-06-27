@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CAConfigString property [Security], CAConfigString property [Security],IX509Enrollment interface, IX509Enrollment interface [Security],CAConfigString property, IX509Enrollment.CAConfigString, IX509Enrollment.get_CAConfigString, IX509Enrollment::CAConfigString, IX509Enrollment::get_CAConfigString, certenroll/IX509Enrollment::CAConfigString, certenroll/IX509Enrollment::get_CAConfigString, get_CAConfigString, security.ix509enrollment_caconfigstring_property
 ms.topic: method
-f1_keywords: ["certenroll/IX509Enrollment.CAConfigString"]
+f1_keywords: 
+ - "certenroll/IX509Enrollment.CAConfigString"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

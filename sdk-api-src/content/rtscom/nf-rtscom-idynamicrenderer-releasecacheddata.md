@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 691de815-a5be-4982-a59a-b904c070ede8, IDynamicRenderer interface [Tablet PC],ReleaseCachedData method, IDynamicRenderer.ReleaseCachedData, IDynamicRenderer::ReleaseCachedData, ReleaseCachedData, ReleaseCachedData method [Tablet PC], ReleaseCachedData method [Tablet PC],IDynamicRenderer interface, rtscom/IDynamicRenderer::ReleaseCachedData, tablet.idynamicrenderer_releasecacheddata
 ms.topic: method
-f1_keywords: ["rtscom/IDynamicRenderer.ReleaseCachedData"]
+f1_keywords: 
+ - "rtscom/IDynamicRenderer.ReleaseCachedData"
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

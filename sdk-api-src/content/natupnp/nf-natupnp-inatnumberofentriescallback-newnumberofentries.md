@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INATNumberOfEntriesCallback interface [ICS/ICF],NewNumberOfEntries method, INATNumberOfEntriesCallback.NewNumberOfEntries, INATNumberOfEntriesCallback::NewNumberOfEntries, NewNumberOfEntries, NewNumberOfEntries method [ICS/ICF], NewNumberOfEntries method [ICS/ICF],INATNumberOfEntriesCallback interface, _ics_inatnumberofentriescallback_newnumberofentries, ics.inatnumberofentriescallback_newnumberofentries, natupnp/INATNumberOfEntriesCallback::NewNumberOfEntries
 ms.topic: method
-f1_keywords: ["natupnp/INATNumberOfEntriesCallback.NewNumberOfEntries"]
+f1_keywords: 
+ - "natupnp/INATNumberOfEntriesCallback.NewNumberOfEntries"
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

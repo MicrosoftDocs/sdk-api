@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [Windows Management Instrumentation], GetValue method [Windows Management Instrumentation],IWbemContext interface, IWbemContext interface [Windows Management Instrumentation],GetValue method, IWbemContext.GetValue, IWbemContext::GetValue, _hmm_iwbemcontext_getvalue, wbemcli/IWbemContext::GetValue, wmi.iwbemcontext_getvalue
 ms.topic: method
-f1_keywords: ["wbemcli/IWbemContext.GetValue"]
+f1_keywords: 
+ - "wbemcli/IWbemContext.GetValue"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

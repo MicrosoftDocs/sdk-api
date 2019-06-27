@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],get_Quality method, IAMVideoCompression.get_Quality, IAMVideoCompression::get_Quality, IAMVideoCompressionget_Quality, dshow.iamvideocompression_get_quality, get_Quality, get_Quality method [DirectShow], get_Quality method [DirectShow],IAMVideoCompression interface, strmif/IAMVideoCompression::get_Quality
 ms.topic: method
-f1_keywords: ["strmif/IAMVideoCompression.get_Quality"]
+f1_keywords: 
+ - "strmif/IAMVideoCompression.get_Quality"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

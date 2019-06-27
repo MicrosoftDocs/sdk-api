@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAddressCapabilities interface [TAPI 2.2],get_CompletionMessages method, ITAddressCapabilities.get_CompletionMessages, ITAddressCapabilities::get_CompletionMessages, _tapi3_itaddresscapabilities_get_completionmessages, get_CompletionMessages, get_CompletionMessages method [TAPI 2.2], get_CompletionMessages method [TAPI 2.2],ITAddressCapabilities interface, tapi3.itaddresscapabilities_get_completionmessages, tapi3if/ITAddressCapabilities::get_CompletionMessages
 ms.topic: method
-f1_keywords: ["tapi3if/ITAddressCapabilities.get_CompletionMessages"]
+f1_keywords: 
+ - "tapi3if/ITAddressCapabilities.get_CompletionMessages"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

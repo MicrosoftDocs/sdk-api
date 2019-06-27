@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, IXpsOMFontResourceCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMFontResourceCollection.GetAt, IXpsOMFontResourceCollection::GetAt, xps.ixpsomfontresourcecollection_getat, xpsobjectmodel/IXpsOMFontResourceCollection::GetAt
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMFontResourceCollection.GetAt"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMFontResourceCollection.GetAt"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

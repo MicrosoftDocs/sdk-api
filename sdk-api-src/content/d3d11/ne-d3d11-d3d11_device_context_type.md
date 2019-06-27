@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 04cb26d8-2f58-6bc4-0362-f5112e175882, D3D11_DEVICE_CONTEXT_DEFERRED, D3D11_DEVICE_CONTEXT_IMMEDIATE, D3D11_DEVICE_CONTEXT_TYPE, D3D11_DEVICE_CONTEXT_TYPE enumeration [Direct3D 11], d3d11/D3D11_DEVICE_CONTEXT_DEFERRED, d3d11/D3D11_DEVICE_CONTEXT_IMMEDIATE, d3d11/D3D11_DEVICE_CONTEXT_TYPE, direct3d11.d3d11_device_context_type
 ms.topic: enum
-f1_keywords: ["d3d11/D3D11_DEVICE_CONTEXT_TYPE"]
+f1_keywords: 
+ - "d3d11/D3D11_DEVICE_CONTEXT_TYPE"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

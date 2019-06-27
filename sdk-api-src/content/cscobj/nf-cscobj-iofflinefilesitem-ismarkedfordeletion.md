@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesItem interface [Offline Files],IsMarkedForDeletion method, IOfflineFilesItem.IsMarkedForDeletion, IOfflineFilesItem::IsMarkedForDeletion, IsMarkedForDeletion, IsMarkedForDeletion method [Offline Files], IsMarkedForDeletion method [Offline Files],IOfflineFilesItem interface, cscobj/IOfflineFilesItem::IsMarkedForDeletion, of.iofflinefilesitem_ismarkedfordeletion
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesItem.IsMarkedForDeletion"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesItem.IsMarkedForDeletion"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

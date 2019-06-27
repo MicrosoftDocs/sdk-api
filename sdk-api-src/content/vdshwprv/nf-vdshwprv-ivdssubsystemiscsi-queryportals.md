@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystemIscsi interface [VDS],QueryPortals method, IVdsSubSystemIscsi.QueryPortals, IVdsSubSystemIscsi::QueryPortals, QueryPortals, QueryPortals method [VDS], QueryPortals method [VDS],IVdsSubSystemIscsi interface, base.ivdssubsystemiscsi_queryportals, vds/IVdsSubSystemIscsi::QueryPortals, vdshwprv/IVdsSubSystemIscsi::QueryPortals
 ms.topic: method
-f1_keywords: ["vdshwprv/IVdsSubSystemIscsi.QueryPortals"]
+f1_keywords: 
+ - "vdshwprv/IVdsSubSystemIscsi.QueryPortals"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

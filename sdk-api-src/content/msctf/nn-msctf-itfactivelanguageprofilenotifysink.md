@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfActiveLanguageProfileNotifySink, ITfActiveLanguageProfileNotifySink interface [Text Services Framework], ITfActiveLanguageProfileNotifySink interface [Text Services Framework],described, _tsf_itfactivelanguageprofilenotifysink_ref, msctf/ITfActiveLanguageProfileNotifySink, tsf.itfactivelanguageprofilenotifysink
 ms.topic: interface
-f1_keywords: ["msctf/ITfActiveLanguageProfileNotifySink"]
+f1_keywords: 
+ - "msctf/ITfActiveLanguageProfileNotifySink"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ErrorText property [Security], ErrorText property [Security],IX509EnrollmentStatus interface, IX509EnrollmentStatus interface [Security],ErrorText property, IX509EnrollmentStatus.ErrorText, IX509EnrollmentStatus.get_ErrorText, IX509EnrollmentStatus::ErrorText, IX509EnrollmentStatus::get_ErrorText, certenroll/IX509EnrollmentStatus::ErrorText, certenroll/IX509EnrollmentStatus::get_ErrorText, get_ErrorText, security.ix509enrollmentstatus_errortext_property
 ms.topic: method
-f1_keywords: ["certenroll/IX509EnrollmentStatus.ErrorText"]
+f1_keywords: 
+ - "certenroll/IX509EnrollmentStatus.ErrorText"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

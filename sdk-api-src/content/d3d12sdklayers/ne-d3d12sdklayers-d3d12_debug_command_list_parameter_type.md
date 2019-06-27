@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_DEBUG_COMMAND_LIST_PARAMETER_GPU_BASED_VALIDATION_SETTINGS, D3D12_DEBUG_COMMAND_LIST_PARAMETER_TYPE, D3D12_DEBUG_COMMAND_LIST_PARAMETER_TYPE enumeration, d3d12sdklayers/D3D12_DEBUG_COMMAND_LIST_PARAMETER_GPU_BASED_VALIDATION_SETTINGS, d3d12sdklayers/D3D12_DEBUG_COMMAND_LIST_PARAMETER_TYPE, direct3d12.d3d12_debug_command_list_parameter_type
 ms.topic: enum
-f1_keywords: ["d3d12sdklayers/D3D12_DEBUG_COMMAND_LIST_PARAMETER_TYPE"]
+f1_keywords: 
+ - "d3d12sdklayers/D3D12_DEBUG_COMMAND_LIST_PARAMETER_TYPE"
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

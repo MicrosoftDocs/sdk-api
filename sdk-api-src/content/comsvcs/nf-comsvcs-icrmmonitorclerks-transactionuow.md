@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICrmMonitorClerks interface [COM+],TransactionUOW method, ICrmMonitorClerks.TransactionUOW, ICrmMonitorClerks::TransactionUOW, TransactionUOW, TransactionUOW method [COM+], TransactionUOW method [COM+],ICrmMonitorClerks interface, _dtc_ICrmMonitorClerks_TransactionUOW, comsvcs/ICrmMonitorClerks::TransactionUOW, cos.icrmmonitorclerks_transactionuow
 ms.topic: method
-f1_keywords: ["comsvcs/ICrmMonitorClerks.TransactionUOW"]
+f1_keywords: 
+ - "comsvcs/ICrmMonitorClerks.TransactionUOW"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

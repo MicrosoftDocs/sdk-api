@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PICTUREATTRIBUTES, PICTUREATTRIBUTES enumeration [COM], PICTURE_SCALABLE, PICTURE_TRANSPARENT, _ctrl_PICTURE, com.pictureattributes, ocidl/PICTUREATTRIBUTES, ocidl/PICTURE_SCALABLE, ocidl/PICTURE_TRANSPARENT
 ms.topic: enum
-f1_keywords: ["ocidl/PICTUREATTRIBUTES"]
+f1_keywords: 
+ - "ocidl/PICTUREATTRIBUTES"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

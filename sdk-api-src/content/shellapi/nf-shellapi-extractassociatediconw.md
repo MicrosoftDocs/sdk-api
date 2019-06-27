@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExtractAssociatedIcon, ExtractAssociatedIcon function [Windows Shell], ExtractAssociatedIconA, ExtractAssociatedIconW, _shell_ExtractAssociatedIcon, shell.ExtractAssociatedIcon, shellapi/ExtractAssociatedIcon, shellapi/ExtractAssociatedIconA, shellapi/ExtractAssociatedIconW
 ms.topic: function
-f1_keywords: ["shellapi/ExtractAssociatedIcon"]
+f1_keywords: 
+ - "shellapi/ExtractAssociatedIcon"
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

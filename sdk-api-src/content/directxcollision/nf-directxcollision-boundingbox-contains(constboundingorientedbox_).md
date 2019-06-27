@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundingBox interface [DirectX Math Support APIs],Contains method, BoundingBox.Contains, BoundingBox.Contains(const BoundingOrientedBox &), BoundingBox.Contains(const BoundingOrientedBox&), BoundingBox::Contains, BoundingBox::Contains(const BoundingOrientedBox &), Contains, Contains method [DirectX Math Support APIs], Contains method [DirectX Math Support APIs],BoundingBox interface, dxmath.boundingbox_contains_4
 ms.topic: method
-f1_keywords: ["directxcollision/BoundingBox.Contains"]
+f1_keywords: 
+ - "directxcollision/BoundingBox.Contains"
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

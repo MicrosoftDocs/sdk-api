@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DevicePowerOpen, DevicePowerOpen function, base.devicepoweropen, powrprof/DevicePowerOpen
 ms.topic: function
-f1_keywords: ["powrprof/DevicePowerOpen"]
+f1_keywords: 
+ - "powrprof/DevicePowerOpen"
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

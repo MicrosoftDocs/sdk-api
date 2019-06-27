@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_IMAGE_REF, CRYPT_IMAGE_REF, CRYPT_IMAGE_REF structure [Security], CRYPT_MIN_DEPENDENCIES, CRYPT_PROCESS_ISOLATE, PCRYPT_IMAGE_REF, PCRYPT_IMAGE_REF structure pointer [Security], bcrypt/CRYPT_IMAGE_REF, bcrypt/PCRYPT_IMAGE_REF, security.crypt_image_ref"
 ms.topic: struct
-f1_keywords: ["bcrypt/CRYPT_IMAGE_REF"]
+f1_keywords: 
+ - "bcrypt/CRYPT_IMAGE_REF"
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

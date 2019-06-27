@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPM_OMAC, OPM_OMAC structure [Media Foundation], _OPM_OMAC, ksopmapi/OPM_OMAC, mf.opm_omac
 ms.topic: struct
-f1_keywords: ["opmapi/OPM_OMAC"]
+f1_keywords: 
+ - "opmapi/OPM_OMAC"
 req.header: opmapi.h
 req.include-header: Opmapi.h
 req.target-type: Windows

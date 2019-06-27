@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentThreadType, GetCurrentThreadType method [COM], GetCurrentThreadType method [COM],IComThreadingInfo interface, IComThreadingInfo interface [COM],GetCurrentThreadType method, IComThreadingInfo.GetCurrentThreadType, IComThreadingInfo::GetCurrentThreadType, _com_icomthreadinginfo_getcurrentthreadtype, com.icomthreadinginfo_getcurrentthreadtype, objidlbase/IComThreadingInfo::GetCurrentThreadType
 ms.topic: method
-f1_keywords: ["objidlbase/IComThreadingInfo.GetCurrentThreadType"]
+f1_keywords: 
+ - "objidlbase/IComThreadingInfo.GetCurrentThreadType"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [COM], GetDescription method [COM],IOleUndoUnit interface, IOleUndoUnit interface [COM],GetDescription method, IOleUndoUnit.GetDescription, IOleUndoUnit::GetDescription, _ole_ioleundounit_getdescription, com.ioleundounit_getdescription, ocidl/IOleUndoUnit::GetDescription
 ms.topic: method
-f1_keywords: ["ocidl/IOleUndoUnit.GetDescription"]
+f1_keywords: 
+ - "ocidl/IOleUndoUnit.GetDescription"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

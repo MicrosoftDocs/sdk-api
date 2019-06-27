@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferConfigure2 interface [Microsoft TV Technologies],SetMultiplexedPacketSize method, IStreamBufferConfigure2.SetMultiplexedPacketSize, IStreamBufferConfigure2::SetMultiplexedPacketSize, IStreamBufferConfigure2SetMultiplexedPacketSize, SetMultiplexedPacketSize, SetMultiplexedPacketSize method [Microsoft TV Technologies], SetMultiplexedPacketSize method [Microsoft TV Technologies],IStreamBufferConfigure2 interface, mstv.istreambufferconfigure2_setmultiplexedpacketsize, sbe/IStreamBufferConfigure2::SetMultiplexedPacketSize
 ms.topic: method
-f1_keywords: ["sbe/IStreamBufferConfigure2.SetMultiplexedPacketSize"]
+f1_keywords: 
+ - "sbe/IStreamBufferConfigure2.SetMultiplexedPacketSize"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFNCryptStreamOutputCallback, PFNCryptStreamOutputCallback callback, PFNCryptStreamOutputCallback callback function [Security], ncryptprotect/PFNCryptStreamOutputCallback, security.pfncryptstreamoutputcallback
 ms.topic: callback
-f1_keywords: ["ncryptprotect/PFNCryptStreamOutputCallback"]
+f1_keywords: 
+ - "ncryptprotect/PFNCryptStreamOutputCallback"
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows

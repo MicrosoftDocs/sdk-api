@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StringFormat, StringFormat constructors [GDI+], StringFormat.StringFormat, StringFormat.StringFormat(GpStringFormat,Status), StringFormat::StringFormat, StringFormat::StringFormat(GpStringFormat,Status), _gdiplus_CLASS_StringFormat_Constructors, gdiplus._gdiplus_CLASS_StringFormat_Constructors, gdiplusstringformat/StringFormat
 ms.topic: method
-f1_keywords: ["gdiplusstringformat/StringFormat.StringFormat"]
+f1_keywords: 
+ - "gdiplusstringformat/StringFormat.StringFormat"
 req.header: gdiplusstringformat.h
 req.include-header: 
 req.target-type: Windows

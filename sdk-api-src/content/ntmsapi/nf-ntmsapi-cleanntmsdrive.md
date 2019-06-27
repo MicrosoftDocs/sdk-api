@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CleanNtmsDrive, CleanNtmsDrive function [Files], _zaw_cleanntmsdrive, base.cleanntmsdrive, fs.cleanntmsdrive, ntmsapi/CleanNtmsDrive
 ms.topic: function
-f1_keywords: ["ntmsapi/CleanNtmsDrive"]
+f1_keywords: 
+ - "ntmsapi/CleanNtmsDrive"
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

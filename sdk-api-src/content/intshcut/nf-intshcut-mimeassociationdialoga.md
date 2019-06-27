@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MIMEAssociationDialog, MIMEAssociationDialog function [Windows Shell], MIMEAssociationDialogA, MIMEAssociationDialogW, _win32_MIMEAssociationDialog, intshcut/MIMEAssociationDialog, intshcut/MIMEAssociationDialogA, intshcut/MIMEAssociationDialogW, shell.MIMEAssociationDialog
 ms.topic: function
-f1_keywords: ["intshcut/MIMEAssociationDialog"]
+f1_keywords: 
+ - "intshcut/MIMEAssociationDialog"
 req.header: intshcut.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxDocument interface [Fax Service],Note property, IFaxDocument.Note, IFaxDocument.get_Note, IFaxDocument.put_Note, IFaxDocument::Note, IFaxDocument::get_Note, IFaxDocument::put_Note, Note property [Fax Service], Note property [Fax Service],IFaxDocument interface, _mfax_faxdocument.note, fax._mfax_faxdocument_cpp_mfax_faxdocument_note_cpp, fax._mfax_faxdocument_note, faxcomex/IFaxDocument::Note, faxcomex/IFaxDocument::get_Note, faxcomex/IFaxDocument::put_Note, get_Note
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxDocument.Note"]
+f1_keywords: 
+ - "faxcomex/IFaxDocument.Note"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CALG_DH_EPHEM, CALG_DH_SF, CRYPT_ARCHIVABLE, CRYPT_CREATE_IV, CRYPT_CREATE_SALT, CRYPT_DATA_KEY, CRYPT_EXPORTABLE, CRYPT_FORCE_KEY_PROTECTION_HIGH, CRYPT_INITIATOR, CRYPT_KEK, CRYPT_NO_SALT, CRYPT_ONLINE, CRYPT_PREGEN, CRYPT_RECIPIENT, CRYPT_SF, CRYPT_SGCKEY, CRYPT_USER_PROTECTED, CRYPT_VOLATILE, CryptGenKey, CryptGenKey function [Security], _crypto2_cryptgenkey, security.cryptgenkey, wincrypt/CryptGenKey
 ms.topic: function
-f1_keywords: ["wincrypt/CryptGenKey"]
+f1_keywords: 
+ - "wincrypt/CryptGenKey"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

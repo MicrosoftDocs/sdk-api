@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDRT_SEARCH_INFO, DRT_SEARCH_INFO, DRT_SEARCH_INFO structure [Peer Networking], PDRT_SEARCH_INFO, PDRT_SEARCH_INFO structure pointer [Peer Networking], drt/DRT_SEARCH_INFO, drt/PDRT_SEARCH_INFO, p2p.drt_search_info"
 ms.topic: struct
-f1_keywords: ["drt/DRT_SEARCH_INFO"]
+f1_keywords: 
+ - "drt/DRT_SEARCH_INFO"
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

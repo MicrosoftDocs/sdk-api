@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathIsDirectoryEmpty, PathIsDirectoryEmpty function [Windows Shell], PathIsDirectoryEmptyA, PathIsDirectoryEmptyW, _win32_PathIsDirectoryEmpty, shell.PathIsDirectoryEmpty, shlwapi/PathIsDirectoryEmpty, shlwapi/PathIsDirectoryEmptyA, shlwapi/PathIsDirectoryEmptyW
 ms.topic: function
-f1_keywords: ["shlwapi/PathIsDirectoryEmpty"]
+f1_keywords: 
+ - "shlwapi/PathIsDirectoryEmpty"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

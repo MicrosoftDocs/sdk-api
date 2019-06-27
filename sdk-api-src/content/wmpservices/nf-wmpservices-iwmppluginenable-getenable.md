@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEnable, GetEnable method [Windows Media Player], GetEnable method [Windows Media Player],IWMPPluginEnable interface, IWMPPluginEnable interface [Windows Media Player],GetEnable method, IWMPPluginEnable.GetEnable, IWMPPluginEnable::GetEnable, IWMPPluginEnableGetEnableDSP, wmp.iwmppluginenable_getenable, wmpservices/IWMPPluginEnable::GetEnable
 ms.topic: method
-f1_keywords: ["wmpservices/IWMPPluginEnable.GetEnable"]
+f1_keywords: 
+ - "wmpservices/IWMPPluginEnable.GetEnable"
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

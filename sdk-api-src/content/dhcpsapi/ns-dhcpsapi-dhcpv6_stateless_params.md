@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCPV6_STATELESS_PARAMS, *PDHCPV6_STATELESS_PARAMS, DHCPV6_STATELESS_PARAMS, DHCPV6_STATELESS_PARAMS structure [DHCP], LPDHCPV6_STATELESS_PARAMS, LPDHCPV6_STATELESS_PARAMS structure pointer [DHCP], PDHCPV6_STATELESS_PARAMS, PDHCPV6_STATELESS_PARAMS structure pointer [DHCP], dhcp.dhcpv6_stateless_params, dhcpsapi/DHCPV6_STATELESS_PARAMS, dhcpsapi/LPDHCPV6_STATELESS_PARAMS, dhcpsapi/PDHCPV6_STATELESS_PARAMS"
 ms.topic: struct
-f1_keywords: ["dhcpsapi/DHCPV6_STATELESS_PARAMS"]
+f1_keywords: 
+ - "dhcpsapi/DHCPV6_STATELESS_PARAMS"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

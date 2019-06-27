@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiInstallProduct, MsiInstallProduct function, MsiInstallProductA, MsiInstallProductW, _msi_msiinstallproduct, msi/MsiInstallProduct, msi/MsiInstallProductA, msi/MsiInstallProductW, setup.msiinstallproduct
 ms.topic: function
-f1_keywords: ["msi/MsiInstallProduct"]
+f1_keywords: 
+ - "msi/MsiInstallProduct"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

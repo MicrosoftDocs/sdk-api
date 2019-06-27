@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNewTarget, GetNewTarget method [VSS], GetNewTarget method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetNewTarget method, IVssComponent.GetNewTarget, IVssComponent::GetNewTarget, _win32_ivsscomponent_getnewtarget, base.ivsscomponent_getnewtarget, vswriter/IVssComponent::GetNewTarget
 ms.topic: method
-f1_keywords: ["vswriter/IVssComponent.GetNewTarget"]
+f1_keywords: 
+ - "vswriter/IVssComponent.GetNewTarget"
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WBEMTimeSpan, WBEMTimeSpan class [Windows Management Instrumentation], WBEMTimeSpan class [Windows Management Instrumentation],described, _hmm_wbemtimespan, wbemtime/WBEMTimeSpan, wmi.wbemtimespan
 ms.topic: class
-f1_keywords: ["wbemtime/WBEMTimeSpan"]
+f1_keywords: 
+ - "wbemtime/WBEMTimeSpan"
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

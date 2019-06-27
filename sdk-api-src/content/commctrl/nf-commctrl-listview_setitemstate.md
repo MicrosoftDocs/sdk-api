@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LVIS_CUT, LVIS_DROPHILITED, LVIS_FOCUSED, LVIS_SELECTED, ListView_SetItemState, ListView_SetItemState macro [Windows Controls], _win32_ListView_SetItemState, _win32_ListView_SetItemState_cpp, commctrl/ListView_SetItemState, controls.ListView_SetItemState, controls._win32_ListView_SetItemState
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_SetItemState"]
+f1_keywords: 
+ - "commctrl/ListView_SetItemState"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAdapterId, GetAdapterId method [Network Awareness], GetAdapterId method [Network Awareness],INetworkConnection interface, INetworkConnection interface [Network Awareness],GetAdapterId method, INetworkConnection.GetAdapterId, INetworkConnection::GetAdapterId, netlistmgr/INetworkConnection::GetAdapterId, nla.inetworkconnection_getadapterid
 ms.topic: method
-f1_keywords: ["netlistmgr/INetworkConnection.GetAdapterId"]
+f1_keywords: 
+ - "netlistmgr/INetworkConnection.GetAdapterId"
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

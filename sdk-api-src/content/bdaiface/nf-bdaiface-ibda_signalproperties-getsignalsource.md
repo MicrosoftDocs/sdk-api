@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSignalSource, GetSignalSource method [Microsoft TV Technologies], GetSignalSource method [Microsoft TV Technologies],IBDA_SignalProperties interface, IBDA_SignalProperties interface [Microsoft TV Technologies],GetSignalSource method, IBDA_SignalProperties.GetSignalSource, IBDA_SignalProperties::GetSignalSource, IBDA_SignalPropertiesGetSignalSource, bdaiface/IBDA_SignalProperties::GetSignalSource, mstv.ibda_signalproperties_getsignalsource
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_SignalProperties.GetSignalSource"]
+f1_keywords: 
+ - "bdaiface/IBDA_SignalProperties.GetSignalSource"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

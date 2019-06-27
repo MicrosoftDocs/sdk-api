@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12InfoQueue interface,PushEmptyStorageFilter method, ID3D12InfoQueue.PushEmptyStorageFilter, ID3D12InfoQueue::PushEmptyStorageFilter, PushEmptyStorageFilter, PushEmptyStorageFilter method, PushEmptyStorageFilter method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::PushEmptyStorageFilter, direct3d12.id3d12infoqueue_pushemptystoragefilter
 ms.topic: method
-f1_keywords: ["d3d12sdklayers/ID3D12InfoQueue.PushEmptyStorageFilter"]
+f1_keywords: 
+ - "d3d12sdklayers/ID3D12InfoQueue.PushEmptyStorageFilter"
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

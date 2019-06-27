@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IESIsdbCasResponseEvent, IESIsdbCasResponseEvent interface [DirectShow], IESIsdbCasResponseEvent interface [DirectShow],described, mstv.iesisdbcasresponseevent, tuner/IESIsdbCasResponseEvent
 ms.topic: interface
-f1_keywords: ["tuner/IESIsdbCasResponseEvent"]
+f1_keywords: 
+ - "tuner/IESIsdbCasResponseEvent"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

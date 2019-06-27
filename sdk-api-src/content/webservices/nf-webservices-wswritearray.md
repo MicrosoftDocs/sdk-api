@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsWriteArray, WsWriteArray function [Web Services for Windows], webservices/WsWriteArray, wsw.wswritearray
 ms.topic: function
-f1_keywords: ["webservices/WsWriteArray"]
+f1_keywords: 
+ - "webservices/WsWriteArray"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

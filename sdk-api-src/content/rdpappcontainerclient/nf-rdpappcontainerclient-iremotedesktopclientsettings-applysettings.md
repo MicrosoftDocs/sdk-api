@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ApplySettings, ApplySettings method [Remote Desktop Services], ApplySettings method [Remote Desktop Services],IRemoteDesktopClientSettings interface, IRemoteDesktopClientSettings interface [Remote Desktop Services],ApplySettings method, IRemoteDesktopClientSettings.ApplySettings, IRemoteDesktopClientSettings::ApplySettings, rdpappcontainerclient/IRemoteDesktopClientSettings::ApplySettings, termserv.iremotedesktopclientsettings_applysettings
 ms.topic: method
-f1_keywords: ["rdpappcontainerclient/IRemoteDesktopClientSettings.ApplySettings"]
+f1_keywords: 
+ - "rdpappcontainerclient/IRemoteDesktopClientSettings.ApplySettings"
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

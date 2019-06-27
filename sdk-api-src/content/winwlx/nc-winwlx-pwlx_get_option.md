@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWLX_GET_OPTION, PWLX_GET_OPTION callback, WlxGetOption, WlxGetOption callback function [Security], _gina_wlxgetoption, security.wlxgetoption, winwlx/WlxGetOption
 ms.topic: callback
-f1_keywords: ["winwlx/WlxGetOption"]
+f1_keywords: 
+ - "winwlx/WlxGetOption"
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

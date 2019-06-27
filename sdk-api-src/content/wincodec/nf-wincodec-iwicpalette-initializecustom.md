@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICPalette interface [Windows Imaging Component],InitializeCustom method, IWICPalette.InitializeCustom, IWICPalette::InitializeCustom, InitializeCustom, InitializeCustom method [Windows Imaging Component], InitializeCustom method [Windows Imaging Component],IWICPalette interface, _wic_codec_iwicpalette_initializecustom, wic._wic_codec_iwicpalette_initializecustom, wincodec/IWICPalette::InitializeCustom
 ms.topic: method
-f1_keywords: ["wincodec/IWICPalette.InitializeCustom"]
+f1_keywords: 
+ - "wincodec/IWICPalette.InitializeCustom"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_UseRestrictedCharacterSet method, IFileSystemImage.put_UseRestrictedCharacterSet, IFileSystemImage::put_UseRestrictedCharacterSet, imapi.ifilesystemimage_put_userestrictedcharacterset, imapi2fs/IFileSystemImage::put_UseRestrictedCharacterSet, put_UseRestrictedCharacterSet, put_UseRestrictedCharacterSet method [IMAPI], put_UseRestrictedCharacterSet method [IMAPI],IFileSystemImage interface
 ms.topic: method
-f1_keywords: ["imapi2fs/IFileSystemImage.put_UseRestrictedCharacterSet"]
+f1_keywords: 
+ - "imapi2fs/IFileSystemImage.put_UseRestrictedCharacterSet"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IApartmentShutdown, IApartmentShutdown interface [Windows Runtime], IApartmentShutdown interface [Windows Runtime],described, objidl/IApartmentShutdown, winrt.iapartmentshutdown
 ms.topic: interface
-f1_keywords: ["objidl/IApartmentShutdown"]
+f1_keywords: 
+ - "objidl/IApartmentShutdown"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

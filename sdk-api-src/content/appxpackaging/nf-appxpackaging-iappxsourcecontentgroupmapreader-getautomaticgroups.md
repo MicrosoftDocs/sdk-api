@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAutomaticGroups, GetAutomaticGroups method [App packaging and management], GetAutomaticGroups method [App packaging and management],IAppxSourceContentGroupMapReader interface, IAppxSourceContentGroupMapReader interface [App packaging and management],GetAutomaticGroups method, IAppxSourceContentGroupMapReader.GetAutomaticGroups, IAppxSourceContentGroupMapReader::GetAutomaticGroups, appxpackaging/IAppxSourceContentGroupMapReader::GetAutomaticGroups, appxpkg.iappxsourcecontentgroupmapreader_getautomaticgroups
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxSourceContentGroupMapReader.GetAutomaticGroups"]
+f1_keywords: 
+ - "appxpackaging/IAppxSourceContentGroupMapReader.GetAutomaticGroups"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

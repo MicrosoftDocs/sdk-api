@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHwnd, GetHwnd method [DXGI], GetHwnd method [DXGI],IDXGISwapChain1 interface, IDXGISwapChain1 interface [DXGI],GetHwnd method, IDXGISwapChain1.GetHwnd, IDXGISwapChain1::GetHwnd, direct3ddxgi.idxgiswapchain1_gethwnd, dxgi1_2/IDXGISwapChain1::GetHwnd
 ms.topic: method
-f1_keywords: ["dxgi1_2/IDXGISwapChain1.GetHwnd"]
+f1_keywords: 
+ - "dxgi1_2/IDXGISwapChain1.GetHwnd"
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

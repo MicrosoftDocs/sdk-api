@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMDSPObject interface [windows Media Device Manager],Write method, IMDSPObject.Write, IMDSPObject::Write, IMDSPObjectWrite, Write, Write method [windows Media Device Manager], Write method [windows Media Device Manager],IMDSPObject interface, mswmdm/IMDSPObject::Write, wmdm.imdspobject_write
 ms.topic: method
-f1_keywords: ["mswmdm/IMDSPObject.Write"]
+f1_keywords: 
+ - "mswmdm/IMDSPObject.Write"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

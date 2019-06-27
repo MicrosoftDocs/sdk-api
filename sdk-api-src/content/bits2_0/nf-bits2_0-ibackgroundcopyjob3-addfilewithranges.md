@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddFileWithRanges, AddFileWithRanges method [BITS], AddFileWithRanges method [BITS],IBackgroundCopyJob3 interface, IBackgroundCopyJob3 interface [BITS],AddFileWithRanges method, IBackgroundCopyJob3.AddFileWithRanges, IBackgroundCopyJob3::AddFileWithRanges, bits.ibackgroundcopyjob3_addfilewithranges, bits2_0/IBackgroundCopyJob3::AddFileWithRanges
 ms.topic: method
-f1_keywords: ["bits2_0/IBackgroundCopyJob3.AddFileWithRanges"]
+f1_keywords: 
+ - "bits2_0/IBackgroundCopyJob3.AddFileWithRanges"
 req.header: bits2_0.h
 req.include-header: Bits.h
 req.target-type: Windows

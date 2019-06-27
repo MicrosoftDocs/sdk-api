@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapCodecProgressNotification, IWICBitmapCodecProgressNotification interface [Windows Imaging Component], IWICBitmapCodecProgressNotification interface [Windows Imaging Component],described, _wic_codec_iwicbitmapcodecprogressnotification, wic._wic_codec_iwicbitmapcodecprogressnotification, wincodec/IWICBitmapCodecProgressNotification
 ms.topic: interface
-f1_keywords: ["wincodec/IWICBitmapCodecProgressNotification"]
+f1_keywords: 
+ - "wincodec/IWICBitmapCodecProgressNotification"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

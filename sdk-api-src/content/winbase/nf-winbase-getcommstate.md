@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCommState, GetCommState function, _win32_getcommstate, base.getcommstate, winbase/GetCommState
 ms.topic: function
-f1_keywords: ["winbase/GetCommState"]
+f1_keywords: 
+ - "winbase/GetCommState"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

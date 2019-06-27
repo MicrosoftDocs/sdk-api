@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCreateDefaultPropertiesOp, SHCreateDefaultPropertiesOp function [Windows Shell], _shell_SHCreateDefaultPropertiesOp, shell.SHCreateDefaultPropertiesOp, shobjidl/SHCreateDefaultPropertiesOp
 ms.topic: function
-f1_keywords: ["shobjidl/SHCreateDefaultPropertiesOp"]
+f1_keywords: 
+ - "shobjidl/SHCreateDefaultPropertiesOp"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

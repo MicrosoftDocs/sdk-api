@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_DirectoryCount method, IFileSystemImage.get_DirectoryCount, IFileSystemImage::get_DirectoryCount, get_DirectoryCount, get_DirectoryCount method [IMAPI], get_DirectoryCount method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_directorycount, imapi2fs/IFileSystemImage::get_DirectoryCount
 ms.topic: method
-f1_keywords: ["imapi2fs/IFileSystemImage.get_DirectoryCount"]
+f1_keywords: 
+ - "imapi2fs/IFileSystemImage.get_DirectoryCount"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

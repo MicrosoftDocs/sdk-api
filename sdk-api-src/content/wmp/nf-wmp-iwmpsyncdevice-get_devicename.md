@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_deviceName method, IWMPSyncDevice.get_deviceName, IWMPSyncDevice::get_deviceName, IWMPSyncDeviceget_deviceName, get_deviceName, get_deviceName method [Windows Media Player], get_deviceName method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_devicename, wmp/IWMPSyncDevice::get_deviceName
 ms.topic: method
-f1_keywords: ["wmp/IWMPSyncDevice.get_deviceName"]
+f1_keywords: 
+ - "wmp/IWMPSyncDevice.get_deviceName"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

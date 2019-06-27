@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComResourceEvents interface [COM+],OnResourceCreate method, IComResourceEvents.OnResourceCreate, IComResourceEvents::OnResourceCreate, OnResourceCreate, OnResourceCreate method [COM+], OnResourceCreate method [COM+],IComResourceEvents interface, _dtc_IComResourceEvents_OnResourceCreate, comsvcs/IComResourceEvents::OnResourceCreate, cos.icomresourceevents_onresourcecreate
 ms.topic: method
-f1_keywords: ["comsvcs/IComResourceEvents.OnResourceCreate"]
+f1_keywords: 
+ - "comsvcs/IComResourceEvents.OnResourceCreate"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

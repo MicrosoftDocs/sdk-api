@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthzInitializeRemoteResourceManager, AuthzInitializeRemoteResourceManager function [Security], authz/AuthzInitializeRemoteResourceManager, security.authzinitializeremoteresourcemanager
 ms.topic: function
-f1_keywords: ["authz/AuthzInitializeRemoteResourceManager"]
+f1_keywords: 
+ - "authz/AuthzInitializeRemoteResourceManager"
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

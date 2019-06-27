@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [PLA], Count property [PLA],IFolderActionCollection interface, IFolderActionCollection interface [PLA],Count property, IFolderActionCollection.Count, IFolderActionCollection.get_Count, IFolderActionCollection::Count, IFolderActionCollection::get_Count, base.ifolderactioncollection_count, get_Count, pla.ifolderactioncollection_count, pla/IFolderActionCollection::Count, pla/IFolderActionCollection::get_Count
 ms.topic: method
-f1_keywords: ["pla/IFolderActionCollection.Count"]
+f1_keywords: 
+ - "pla/IFolderActionCollection.Count"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IIdleSettings, IIdleSettings interface [Task Scheduler], IIdleSettings interface [Task Scheduler],described, taskschd.iidlesettings, taskschd/IIdleSettings
 ms.topic: interface
-f1_keywords: ["taskschd/IIdleSettings"]
+f1_keywords: 
+ - "taskschd/IIdleSettings"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

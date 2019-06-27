@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDMLCompiledOperator, IDMLCompiledOperator interface, IDMLCompiledOperator interface,described, direct3d12.idmlcompiledoperator, directml/IDMLCompiledOperator
 ms.topic: interface
-f1_keywords: ["directml/IDMLCompiledOperator"]
+f1_keywords: 
+ - "directml/IDMLCompiledOperator"
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

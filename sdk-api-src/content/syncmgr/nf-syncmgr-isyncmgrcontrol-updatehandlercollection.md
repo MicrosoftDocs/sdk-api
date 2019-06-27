@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateHandlerCollection method, ISyncMgrControl.UpdateHandlerCollection, ISyncMgrControl::UpdateHandlerCollection, UpdateHandlerCollection, UpdateHandlerCollection method [Windows Shell], UpdateHandlerCollection method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateHandlerCollection, shell.ISyncMgrControl_UpdateHandlerCollection, syncmgr/ISyncMgrControl::UpdateHandlerCollection
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrControl.UpdateHandlerCollection"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrControl.UpdateHandlerCollection"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

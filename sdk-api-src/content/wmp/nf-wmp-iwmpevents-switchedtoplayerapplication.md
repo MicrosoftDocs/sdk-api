@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],SwitchedToPlayerApplication method, IWMPEvents.SwitchedToPlayerApplication, IWMPEvents::SwitchedToPlayerApplication, IWMPEventsSwitchedToPlayerApplication, SwitchedToPlayerApplication, SwitchedToPlayerApplication method [Windows Media Player], SwitchedToPlayerApplication method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__switchedtoplayerapplication, wmp/IWMPEvents::SwitchedToPlayerApplication
 ms.topic: method
-f1_keywords: ["wmp/IWMPEvents.SwitchedToPlayerApplication"]
+f1_keywords: 
+ - "wmp/IWMPEvents.SwitchedToPlayerApplication"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

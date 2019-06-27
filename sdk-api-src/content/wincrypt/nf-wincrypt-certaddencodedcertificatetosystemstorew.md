@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertAddEncodedCertificateToSystemStore, CertAddEncodedCertificateToSystemStore function [Security], CertAddEncodedCertificateToSystemStoreA, CertAddEncodedCertificateToSystemStoreW, security.certaddencodedcertificatetosystemstore, wincrypt/CertAddEncodedCertificateToSystemStore, wincrypt/CertAddEncodedCertificateToSystemStoreA, wincrypt/CertAddEncodedCertificateToSystemStoreW
 ms.topic: function
-f1_keywords: ["wincrypt/CertAddEncodedCertificateToSystemStore"]
+f1_keywords: 
+ - "wincrypt/CertAddEncodedCertificateToSystemStore"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

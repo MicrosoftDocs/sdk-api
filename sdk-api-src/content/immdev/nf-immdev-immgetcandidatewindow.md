@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImmGetCandidateWindow, ImmGetCandidateWindow function [Internationalization for Windows Applications], _win32_ImmGetCandidateWindow, imm/ImmGetCandidateWindow, intl.immgetcandidatewindow
 ms.topic: function
-f1_keywords: ["immdev/ImmGetCandidateWindow"]
+f1_keywords: 
+ - "immdev/ImmGetCandidateWindow"
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],PlayStateChange method, IWMPEvents.PlayStateChange, IWMPEvents::PlayStateChange, IWMPEventsPlayStateChange, PlayStateChange, PlayStateChange method [Windows Media Player], PlayStateChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__playstatechange, wmp/IWMPEvents::PlayStateChange
 ms.topic: method
-f1_keywords: ["wmp/IWMPEvents.PlayStateChange"]
+f1_keywords: 
+ - "wmp/IWMPEvents.PlayStateChange"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

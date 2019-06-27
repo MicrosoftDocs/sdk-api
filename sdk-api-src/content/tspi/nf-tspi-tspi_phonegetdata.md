@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneGetData, TSPI_phoneGetData function [TAPI 2.2], _tspi_tspi_phonegetdata, tspi.tspi_phonegetdata, tspi/TSPI_phoneGetData
 ms.topic: function
-f1_keywords: ["tspi/TSPI_phoneGetData"]
+f1_keywords: 
+ - "tspi/TSPI_phoneGetData"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFileProperty, GetFileProperty method [File Server Resource Manager], GetFileProperty method [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],GetFileProperty method, IFsrmPropertyBag.GetFileProperty, IFsrmPropertyBag::GetFileProperty, fs.ifsrmpropertybag_getfileproperty, fsrm.ifsrmpropertybag_getfileproperty, fsrmpipeline/IFsrmPropertyBag::GetFileProperty
 ms.topic: method
-f1_keywords: ["fsrmpipeline/IFsrmPropertyBag.GetFileProperty"]
+f1_keywords: 
+ - "fsrmpipeline/IFsrmPropertyBag.GetFileProperty"
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

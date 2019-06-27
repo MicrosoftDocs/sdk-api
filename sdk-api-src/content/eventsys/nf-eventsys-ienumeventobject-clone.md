@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM+], Clone method [COM+],IEnumEventObject interface, IEnumEventObject interface [COM+],Clone method, IEnumEventObject.Clone, IEnumEventObject::Clone, _cos_ienumeventobject_clone, cos.ienumeventobject_clone, eventsys/IEnumEventObject::Clone
 ms.topic: method
-f1_keywords: ["eventsys/IEnumEventObject.Clone"]
+f1_keywords: 
+ - "eventsys/IEnumEventObject.Clone"
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClassInfo, GetClassInfo function [Windows and Messages], GetClassInfoA, GetClassInfoW, _win32_GetClassInfo, _win32_getclassinfo_cpp, winmsg.getclassinfo, winui._win32_getclassinfo, winuser/GetClassInfo, winuser/GetClassInfoA, winuser/GetClassInfoW
 ms.topic: function
-f1_keywords: ["winuser/GetClassInfo"]
+f1_keywords: 
+ - "winuser/GetClassInfo"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

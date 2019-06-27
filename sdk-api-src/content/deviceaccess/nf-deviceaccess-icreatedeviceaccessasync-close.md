@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Device Access Broker API], Close method [Device Access Broker API],ICreateDeviceAccessAsync interface, ICreateDeviceAccessAsync interface [Device Access Broker API],Close method, ICreateDeviceAccessAsync.Close, ICreateDeviceAccessAsync::Close, deviceaccess.icreatedeviceaccessasync_close, deviceaccess/ICreateDeviceAccessAsync::Close
 ms.topic: method
-f1_keywords: ["deviceaccess/ICreateDeviceAccessAsync.Close"]
+f1_keywords: 
+ - "deviceaccess/ICreateDeviceAccessAsync.Close"
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows

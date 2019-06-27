@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedMinimum property [Windows Accessibility], CachedMinimum property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CachedMinimum property, IUIAutomationRangeValuePattern.CachedMinimum, IUIAutomationRangeValuePattern.get_CachedMinimum, IUIAutomationRangeValuePattern::CachedMinimum, IUIAutomationRangeValuePattern::get_CachedMinimum, get_CachedMinimum, uiauto.uiauto_IUIAutomationRangeValuePattern_CachedMinimum, uiauto_IUIAutomationRangeValuePattern_CachedMinimum, uiautomationclient/IUIAutomationRangeValuePattern::CachedMinimum, uiautomationclient/IUIAutomationRangeValuePattern::get_CachedMinimum, winauto.uiauto_IUIAutomationRangeValuePattern_CachedMinimum
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationRangeValuePattern.CachedMinimum"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationRangeValuePattern.CachedMinimum"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

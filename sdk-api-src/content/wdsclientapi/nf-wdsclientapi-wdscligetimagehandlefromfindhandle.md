@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsCliGetImageHandleFromFindHandle, WdsCliGetImageHandleFromFindHandle function [Windows Deployment Services], wds.wdscligetimagehandlefromfindhandle, wdsclientapi/WdsCliGetImageHandleFromFindHandle
 ms.topic: function
-f1_keywords: ["wdsclientapi/WdsCliGetImageHandleFromFindHandle"]
+f1_keywords: 
+ - "wdsclientapi/WdsCliGetImageHandleFromFindHandle"
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

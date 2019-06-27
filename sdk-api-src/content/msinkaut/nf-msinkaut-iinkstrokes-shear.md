@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 887dd883-1a24-4a78-8f08-f4cd45bf4840, IInkStrokes interface [Tablet PC],Shear method, IInkStrokes.Shear, IInkStrokes::Shear, Shear, Shear method [Tablet PC], Shear method [Tablet PC],IInkStrokes interface, msinkaut/IInkStrokes::Shear, tablet.inkstrokes_shear
 ms.topic: method
-f1_keywords: ["msinkaut/IInkStrokes.Shear"]
+f1_keywords: 
+ - "msinkaut/IInkStrokes.Shear"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IContextMenu interface [Windows Shell],InvokeCommand method, IContextMenu.InvokeCommand, IContextMenu::InvokeCommand, InvokeCommand, InvokeCommand method [Windows Shell], InvokeCommand method [Windows Shell],IContextMenu interface, _win32_IContextMenu_InvokeCommand, _win32_icontextmenu_win32_icontextmenu_invokecommand_cpp, shell.IContextMenu_InvokeCommand, shobjidl_core/IContextMenu::InvokeCommand
 ms.topic: method
-f1_keywords: ["shobjidl_core/IContextMenu.InvokeCommand"]
+f1_keywords: 
+ - "shobjidl_core/IContextMenu.InvokeCommand"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

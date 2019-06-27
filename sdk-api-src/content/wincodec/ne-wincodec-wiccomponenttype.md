@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICAllComponents, WICComponentType, WICComponentType enumeration [Windows Imaging Component], WICDecoder, WICEncoder, WICMetadataReader, WICMetadataWriter, WICPixelFormat, WICPixelFormatConverter, _wic_codec_wiccomponenttype, wic._wic_codec_wiccomponenttype, wincodec/WICAllComponents, wincodec/WICComponentType, wincodec/WICDecoder, wincodec/WICEncoder, wincodec/WICMetadataReader, wincodec/WICMetadataWriter, wincodec/WICPixelFormat, wincodec/WICPixelFormatConverter
 ms.topic: enum
-f1_keywords: ["wincodec/WICComponentType"]
+f1_keywords: 
+ - "wincodec/WICComponentType"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

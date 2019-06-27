@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_PARTITION_PROP, VDS_PARTITION_PROP structure [VDS], base.vds_partition_prop, vds/_VDS_PARTITION_PROP
 ms.topic: struct
-f1_keywords: ["vds/VDS_PARTITION_PROP"]
+f1_keywords: 
+ - "vds/VDS_PARTITION_PROP"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

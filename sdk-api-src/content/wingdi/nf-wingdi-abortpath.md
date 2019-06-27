@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AbortPath, AbortPath function [Windows GDI], _win32_AbortPath, gdi.abortpath, wingdi/AbortPath
 ms.topic: function
-f1_keywords: ["wingdi/AbortPath"]
+f1_keywords: 
+ - "wingdi/AbortPath"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

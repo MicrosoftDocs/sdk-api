@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],get_TerminalClass method, ITPluggableTerminalClassRegistration.get_TerminalClass, ITPluggableTerminalClassRegistration::get_TerminalClass, _tapi3_itpluggableterminalclassregistration_get_terminalclass, get_TerminalClass, get_TerminalClass method [TAPI 2.2], get_TerminalClass method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_get_terminalclass, termmgr/ITPluggableTerminalClassRegistration::get_TerminalClass
 ms.topic: method
-f1_keywords: ["termmgr/ITPluggableTerminalClassRegistration.get_TerminalClass"]
+f1_keywords: 
+ - "termmgr/ITPluggableTerminalClassRegistration.get_TerminalClass"
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIStreamPrevSampleTime, AVIStreamPrevSampleTime macro [Windows Multimedia], _win32_AVIStreamPrevSampleTime, multimedia.avistreamprevsampletime, vfw/AVIStreamPrevSampleTime
 ms.topic: macro
-f1_keywords: ["vfw/AVIStreamPrevSampleTime"]
+f1_keywords: 
+ - "vfw/AVIStreamPrevSampleTime"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

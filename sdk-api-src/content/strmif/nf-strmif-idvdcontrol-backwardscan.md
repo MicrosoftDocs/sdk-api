@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BackwardScan, BackwardScan method [DirectShow], BackwardScan method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],BackwardScan method, IDvdControl.BackwardScan, IDvdControl::BackwardScan, IDvdControlBackwardScan, dshow.idvdcontrol_backwardscan, strmif/IDvdControl::BackwardScan
 ms.topic: method
-f1_keywords: ["strmif/IDvdControl.BackwardScan"]
+f1_keywords: 
+ - "strmif/IDvdControl.BackwardScan"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

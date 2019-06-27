@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPEER_SECURITY_INTERFACE, PEER_SECURITY_INTERFACE, PEER_SECURITY_INTERFACE structure [Peer Networking], PPEER_SECURITY_INTERFACE, PPEER_SECURITY_INTERFACE structure pointer [Peer Networking], p2p.peer_security_interface, p2p/PPEER_SECURITY_INTERFACE, p2p/peer_security_interface_tag"
 ms.topic: struct
-f1_keywords: ["p2p/PEER_SECURITY_INTERFACE"]
+f1_keywords: 
+ - "p2p/PEER_SECURITY_INTERFACE"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

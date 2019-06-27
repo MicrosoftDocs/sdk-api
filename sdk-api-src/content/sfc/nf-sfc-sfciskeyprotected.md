@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: KEY_WOW64_32KEY, KEY_WOW64_64KEY, SfcIsKeyProtected, SfcIsKeyProtected function [Setup API], setup.sfciskeyprotected, sfc/SfcIsKeyProtected
 ms.topic: function
-f1_keywords: ["sfc/SfcIsKeyProtected"]
+f1_keywords: 
+ - "sfc/SfcIsKeyProtected"
 req.header: sfc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACPSink, ITextStoreACPSink interface [Text Services Framework], ITextStoreACPSink interface [Text Services Framework],described, _tsf_itextstoreacpsink_ref, textstor/ITextStoreACPSink, tsf.itextstoreacpsink
 ms.topic: interface
-f1_keywords: ["textstor/ITextStoreACPSink"]
+f1_keywords: 
+ - "textstor/ITextStoreACPSink"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

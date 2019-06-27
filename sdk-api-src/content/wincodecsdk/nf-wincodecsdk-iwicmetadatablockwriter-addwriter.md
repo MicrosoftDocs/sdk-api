@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddWriter, AddWriter method [Windows Imaging Component], AddWriter method [Windows Imaging Component],IWICMetadataBlockWriter interface, IWICMetadataBlockWriter interface [Windows Imaging Component],AddWriter method, IWICMetadataBlockWriter.AddWriter, IWICMetadataBlockWriter::AddWriter, _wic_codec_iwicmetadatablockwriter_addwriter, wic._wic_codec_iwicmetadatablockwriter_addwriter, wincodecsdk/IWICMetadataBlockWriter::AddWriter
 ms.topic: method
-f1_keywords: ["wincodecsdk/IWICMetadataBlockWriter.AddWriter"]
+f1_keywords: 
+ - "wincodecsdk/IWICMetadataBlockWriter.AddWriter"
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

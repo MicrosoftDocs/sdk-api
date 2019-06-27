@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITSGPolicyEngine interface [Remote Desktop Services],IsQuarantineEnabled method, ITSGPolicyEngine.IsQuarantineEnabled, ITSGPolicyEngine::IsQuarantineEnabled, IsQuarantineEnabled, IsQuarantineEnabled method [Remote Desktop Services], IsQuarantineEnabled method [Remote Desktop Services],ITSGPolicyEngine interface, termserv.itsgpolicyengine_isquarantineenabled, tsgpolicyengine/ITSGPolicyEngine::IsQuarantineEnabled
 ms.topic: method
-f1_keywords: ["tsgpolicyengine/ITSGPolicyEngine.IsQuarantineEnabled"]
+f1_keywords: 
+ - "tsgpolicyengine/ITSGPolicyEngine.IsQuarantineEnabled"
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextAnalysisSink, IDWriteTextAnalysisSink interface [Direct Write], IDWriteTextAnalysisSink interface [Direct Write],described, directwrite.idwritetextanalysissink, dwrite/IDWriteTextAnalysisSink
 ms.topic: interface
-f1_keywords: ["dwrite/IDWriteTextAnalysisSink"]
+f1_keywords: 
+ - "dwrite/IDWriteTextAnalysisSink"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

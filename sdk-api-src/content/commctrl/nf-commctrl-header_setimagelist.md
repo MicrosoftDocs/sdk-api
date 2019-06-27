@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Header_SetImageList, Header_SetImageList macro [Windows Controls], _win32_Header_SetImageList, _win32_Header_SetImageList_cpp, commctrl/Header_SetImageList, controls.Header_SetImageList, controls._win32_Header_SetImageList
 ms.topic: macro
-f1_keywords: ["commctrl/Header_SetImageList"]
+f1_keywords: 
+ - "commctrl/Header_SetImageList"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeMemory, FreeMemory callback function [Perf], PERF_MEM_FREE, PERF_MEM_FREE callback, perf.freememory, perflib/FreeMemory
 ms.topic: callback
-f1_keywords: ["perflib/FreeMemory"]
+f1_keywords: 
+ - "perflib/FreeMemory"
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrConflictResolveInfo interface [Windows Shell],SetPresenterChoice method, ISyncMgrConflictResolveInfo.SetPresenterChoice, ISyncMgrConflictResolveInfo::SetPresenterChoice, SetPresenterChoice, SetPresenterChoice method [Windows Shell], SetPresenterChoice method [Windows Shell],ISyncMgrConflictResolveInfo interface, _shell_ISyncMgrConflictResolveInfo_SetPresenterChoice, shell.ISyncMgrConflictResolveInfo_SetPresenterChoice, syncmgr/ISyncMgrConflictResolveInfo::SetPresenterChoice
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrConflictResolveInfo.SetPresenterChoice"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrConflictResolveInfo.SetPresenterChoice"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCORSystemDirectory, GetCORSystemDirectory method [Windows Runtime], GetCORSystemDirectory method [Windows Runtime],IMetaDataDispenserEx interface, IMetaDataDispenserEx interface [Windows Runtime],GetCORSystemDirectory method, IMetaDataDispenserEx.GetCORSystemDirectory, IMetaDataDispenserEx::GetCORSystemDirectory, rometadataapi/IMetaDataDispenserEx::GetCORSystemDirectory, winrt.imetadatadispenserex_getcorsystemdirectory
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataDispenserEx.GetCORSystemDirectory"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataDispenserEx.GetCORSystemDirectory"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

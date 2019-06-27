@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPerformanceCounterDataCollector interface [PLA],LogFileFormat property, IPerformanceCounterDataCollector.LogFileFormat, IPerformanceCounterDataCollector.get_LogFileFormat, IPerformanceCounterDataCollector::LogFileFormat, IPerformanceCounterDataCollector::get_LogFileFormat, IPerformanceCounterDataCollector::put_LogFileFormat, LogFileFormat property [PLA], LogFileFormat property [PLA],IPerformanceCounterDataCollector interface, base.iperformancecounterdatacollector_logfileformat, get_LogFileFormat, pla.iperformancecounterdatacollector_logfileformat, pla/IPerformanceCounterDataCollector::LogFileFormat, pla/IPerformanceCounterDataCollector::get_LogFileFormat, pla/IPerformanceCounterDataCollector::put_LogFileFormat
 ms.topic: method
-f1_keywords: ["pla/IPerformanceCounterDataCollector.LogFileFormat"]
+f1_keywords: 
+ - "pla/IPerformanceCounterDataCollector.LogFileFormat"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_TILE_RANGE_FLAG, D3D11_TILE_RANGE_FLAG enumeration [Direct3D 11], D3D11_TILE_RANGE_NULL, D3D11_TILE_RANGE_REUSE_SINGLE_TILE, D3D11_TILE_RANGE_SKIP, d3d11_2/D3D11_TILE_RANGE_FLAG, d3d11_2/D3D11_TILE_RANGE_NULL, d3d11_2/D3D11_TILE_RANGE_REUSE_SINGLE_TILE, d3d11_2/D3D11_TILE_RANGE_SKIP, direct3d11.d3d11_tile_range_flag
 ms.topic: enum
-f1_keywords: ["d3d11_2/D3D11_TILE_RANGE_FLAG"]
+f1_keywords: 
+ - "d3d11_2/D3D11_TILE_RANGE_FLAG"
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows

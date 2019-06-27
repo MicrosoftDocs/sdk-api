@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNextLogArchiveExtent, GetNextLogArchiveExtent function [Files], clfsw32/GetNextLogArchiveExtent, fs.getnextlogarchiveextent
 ms.topic: function
-f1_keywords: ["clfsw32/GetNextLogArchiveExtent"]
+f1_keywords: 
+ - "clfsw32/GetNextLogArchiveExtent"
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

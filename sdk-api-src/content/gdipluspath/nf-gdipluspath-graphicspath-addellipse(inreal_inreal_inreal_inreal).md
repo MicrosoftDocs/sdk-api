@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddEllipse, AddEllipse method [GDI+], AddEllipse method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddEllipse method, GraphicsPath.AddEllipse, GraphicsPath.AddEllipse(IN REAL,IN REAL,IN REAL,IN REAL), GraphicsPath.AddEllipse(REAL,REAL,REAL,REAL), GraphicsPath::AddEllipse, GraphicsPath::AddEllipse(IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_GraphicsPath_AddEllipse_REAL_x_REAL_y_REAL_width_REAL_height_, gdiplus._gdiplus_CLASS_GraphicsPath_AddEllipse_REAL_x_REAL_y_REAL_width_REAL_height_
 ms.topic: method
-f1_keywords: ["gdipluspath/GraphicsPath.AddEllipse"]
+f1_keywords: 
+ - "gdipluspath/GraphicsPath.AddEllipse"
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

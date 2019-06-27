@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GET_RAWINPUT_CODE_WPARAM, GET_RAWINPUT_CODE_WPARAM macro [Keyboard and Mouse Input], RIM_INPUT, RIM_INPUTSINK, _win32_GET_RAWINPUT_CODE_WPARAM, _win32_get_rawinput_code_wparam_cpp, inputdev.get_rawinput_code_wparam, winui._win32_get_rawinput_code_wparam, winuser/GET_RAWINPUT_CODE_WPARAM
 ms.topic: macro
-f1_keywords: ["winuser/GET_RAWINPUT_CODE_WPARAM"]
+f1_keywords: 
+ - "winuser/GET_RAWINPUT_CODE_WPARAM"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

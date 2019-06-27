@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVersion, GetVersion method [windows Media Device Manager], GetVersion method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetVersion method, IMDSPDevice.GetVersion, IMDSPDevice::GetVersion, IMDSPDeviceGetVersion, mswmdm/IMDSPDevice::GetVersion, wmdm.imdspdevice_getversion
 ms.topic: method
-f1_keywords: ["mswmdm/IMDSPDevice.GetVersion"]
+f1_keywords: 
+ - "mswmdm/IMDSPDevice.GetVersion"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

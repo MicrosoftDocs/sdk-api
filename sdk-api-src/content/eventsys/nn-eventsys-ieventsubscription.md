@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEventSubscription, IEventSubscription interface [COM+], IEventSubscription interface [COM+],described, _cos_IEventSubscription, cos.ieventsubscription, eventsys/IEventSubscription
 ms.topic: interface
-f1_keywords: ["eventsys/IEventSubscription"]
+f1_keywords: 
+ - "eventsys/IEventSubscription"
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

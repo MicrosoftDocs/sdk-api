@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEventClass, IEventClass interface [COM+], IEventClass interface [COM+],described, _cos_IEventClass, cos.ieventclass, eventsys/IEventClass
 ms.topic: interface
-f1_keywords: ["eventsys/IEventClass"]
+f1_keywords: 
+ - "eventsys/IEventClass"
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

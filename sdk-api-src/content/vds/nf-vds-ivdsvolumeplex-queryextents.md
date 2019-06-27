@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumePlex interface [VDS],QueryExtents method, IVdsVolumePlex.QueryExtents, IVdsVolumePlex::QueryExtents, QueryExtents, QueryExtents method [VDS], QueryExtents method [VDS],IVdsVolumePlex interface, base.ivdsvolumeplex_queryextents, vds/IVdsVolumePlex::QueryExtents
 ms.topic: method
-f1_keywords: ["vds/IVdsVolumePlex.QueryExtents"]
+f1_keywords: 
+ - "vds/IVdsVolumePlex.QueryExtents"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

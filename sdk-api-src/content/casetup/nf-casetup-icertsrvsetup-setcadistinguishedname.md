@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup interface [Security],SetCADistinguishedName method, ICertSrvSetup.SetCADistinguishedName, ICertSrvSetup::SetCADistinguishedName, SetCADistinguishedName, SetCADistinguishedName method [Security], SetCADistinguishedName method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::SetCADistinguishedName, security.icertsrvsetup_setcadistinguishedname
 ms.topic: method
-f1_keywords: ["casetup/ICertSrvSetup.SetCADistinguishedName"]
+f1_keywords: 
+ - "casetup/ICertSrvSetup.SetCADistinguishedName"
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

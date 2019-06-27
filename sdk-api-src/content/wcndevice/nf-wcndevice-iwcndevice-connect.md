@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [Windows Connect Now], Connect method [Windows Connect Now],IWCNDevice interface, IWCNDevice interface [Windows Connect Now],Connect method, IWCNDevice.Connect, IWCNDevice::Connect, wcn.iwcndevice_connect, wcndevice/IWCNDevice::Connect
 ms.topic: method
-f1_keywords: ["wcndevice/IWCNDevice.Connect"]
+f1_keywords: 
+ - "wcndevice/IWCNDevice.Connect"
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComTrackingInfoProperties, IComTrackingInfoProperties interface [COM+], IComTrackingInfoProperties interface [COM+],described, _dtc_IComTrackingInfoProperties, comsvcs/IComTrackingInfoProperties, cos.icomtrackinginfoproperties
 ms.topic: interface
-f1_keywords: ["comsvcs/IComTrackingInfoProperties"]
+f1_keywords: 
+ - "comsvcs/IComTrackingInfoProperties"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

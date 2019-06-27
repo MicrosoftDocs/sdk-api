@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsFreeNameResult, DsFreeNameResult function [Active Directory], DsFreeNameResultA, DsFreeNameResultW, _glines_dsfreenameresult, ad.dsfreenameresult, ntdsapi/DsFreeNameResult, ntdsapi/DsFreeNameResultA, ntdsapi/DsFreeNameResultW
 ms.topic: function
-f1_keywords: ["ntdsapi/DsFreeNameResult"]
+f1_keywords: 
+ - "ntdsapi/DsFreeNameResult"
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

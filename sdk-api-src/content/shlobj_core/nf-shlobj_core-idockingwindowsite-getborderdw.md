@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBorderDW, GetBorderDW method [Windows Shell], GetBorderDW method [Windows Shell],IDockingWindowSite interface, IDockingWindowSite interface [Windows Shell],GetBorderDW method, IDockingWindowSite.GetBorderDW, IDockingWindowSite::GetBorderDW, _win32_IDockingWindowSite_GetBorderDW, shell.IDockingWindowSite_GetBorderDW, shlobj_core/IDockingWindowSite::GetBorderDW
 ms.topic: method
-f1_keywords: ["shlobj_core/IDockingWindowSite.GetBorderDW"]
+f1_keywords: 
+ - "shlobj_core/IDockingWindowSite.GetBorderDW"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

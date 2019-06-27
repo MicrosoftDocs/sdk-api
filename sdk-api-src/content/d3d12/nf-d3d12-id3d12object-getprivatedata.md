@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPrivateData, GetPrivateData method, GetPrivateData method,ID3D12Object interface, ID3D12Object interface,GetPrivateData method, ID3D12Object.GetPrivateData, ID3D12Object::GetPrivateData, d3d12/ID3D12Object::GetPrivateData, direct3d12.id3d12object_getprivatedata
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12Object.GetPrivateData"]
+f1_keywords: 
+ - "d3d12/ID3D12Object.GetPrivateData"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

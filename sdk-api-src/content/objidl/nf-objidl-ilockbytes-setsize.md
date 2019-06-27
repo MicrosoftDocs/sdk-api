@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILockBytes interface [Structured Storage],SetSize method, ILockBytes.SetSize, ILockBytes::SetSize, SetSize, SetSize method [Structured Storage], SetSize method [Structured Storage],ILockBytes interface, _stg_ilockbytes_setsize, objidl/ILockBytes::SetSize, stg.ilockbytes_setsize
 ms.topic: method
-f1_keywords: ["objidl/ILockBytes.SetSize"]
+f1_keywords: 
+ - "objidl/ILockBytes.SetSize"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

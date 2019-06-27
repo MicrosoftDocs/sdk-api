@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirect3D9ExOverlayExtension, IDirect3D9ExOverlayExtension interface [Media Foundation], IDirect3D9ExOverlayExtension interface [Media Foundation],described, d3d9/IDirect3D9ExOverlayExtension, mf.idirect3d9exoverlayextension
 ms.topic: interface
-f1_keywords: ["d3d9/IDirect3D9ExOverlayExtension"]
+f1_keywords: 
+ - "d3d9/IDirect3D9ExOverlayExtension"
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced5 interface [windows Media Format],SetPlayerHook method, IWMReaderAdvanced5.SetPlayerHook, IWMReaderAdvanced5::SetPlayerHook, IWMReaderAdvanced5SetPlayerHook, SetPlayerHook, SetPlayerHook method [windows Media Format], SetPlayerHook method [windows Media Format],IWMReaderAdvanced5 interface, wmformat.iwmreaderadvanced5_setplayerhook, wmsdkidl/IWMReaderAdvanced5::SetPlayerHook
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderAdvanced5.SetPlayerHook"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderAdvanced5.SetPlayerHook"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

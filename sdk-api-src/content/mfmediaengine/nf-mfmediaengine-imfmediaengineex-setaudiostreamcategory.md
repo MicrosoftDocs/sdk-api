@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetAudioStreamCategory method, IMFMediaEngineEx.SetAudioStreamCategory, IMFMediaEngineEx::SetAudioStreamCategory, SetAudioStreamCategory, SetAudioStreamCategory method [Media Foundation], SetAudioStreamCategory method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_setaudiostreamcategory, mfmediaengine/IMFMediaEngineEx::SetAudioStreamCategory
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngineEx.SetAudioStreamCategory"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngineEx.SetAudioStreamCategory"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: POLICY_DECISION, POLICY_DECISION structure [QOS], lpmapi/POLICY_DECISION, qos.policy_decision
 ms.topic: struct
-f1_keywords: ["lpmapi/POLICY_DECISION"]
+f1_keywords: 
+ - "lpmapi/POLICY_DECISION"
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

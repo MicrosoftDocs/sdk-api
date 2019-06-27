@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetEntriesInAcl, SetEntriesInAcl function [Security], SetEntriesInAclA, SetEntriesInAclW, _win32_setentriesinacl, aclapi/SetEntriesInAcl, aclapi/SetEntriesInAclA, aclapi/SetEntriesInAclW, security.setentriesinacl
 ms.topic: function
-f1_keywords: ["aclapi/SetEntriesInAcl"]
+f1_keywords: 
+ - "aclapi/SetEntriesInAcl"
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

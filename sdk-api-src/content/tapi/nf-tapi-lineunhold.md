@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_lineunhold, lineUnhold, lineUnhold function [TAPI 2.2], tapi/lineUnhold, tapi2.lineunhold"
 ms.topic: function
-f1_keywords: ["tapi/lineUnhold"]
+f1_keywords: 
+ - "tapi/lineUnhold"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

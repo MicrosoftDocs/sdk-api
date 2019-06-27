@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Button_GetState, Button_GetState macro [Windows Controls], _win32_Button_GetState, _win32_Button_GetState_cpp, controls.Button_GetState, controls._win32_Button_GetState, windowsx/Button_GetState
 ms.topic: macro
-f1_keywords: ["windowsx/Button_GetState"]
+f1_keywords: 
+ - "windowsx/Button_GetState"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

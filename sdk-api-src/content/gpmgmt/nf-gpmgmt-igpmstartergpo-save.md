@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGPMStarterGPO interface [GPMC],Save method, IGPMStarterGPO.Save, IGPMStarterGPO::Save, Save, Save method [GPMC], Save method [GPMC],IGPMStarterGPO interface, gpmc.igpmstartergpo_save, gpmgmt/IGPMStarterGPO::Save
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMStarterGPO.Save"]
+f1_keywords: 
+ - "gpmgmt/IGPMStarterGPO.Save"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

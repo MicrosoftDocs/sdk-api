@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IColumnData, IColumnData interface [MMC], IColumnData interface [MMC],described, _slate_icolumndata, mmc.icolumndata, mmc/IColumnData
 ms.topic: interface
-f1_keywords: ["mmc/IColumnData"]
+f1_keywords: 
+ - "mmc/IColumnData"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

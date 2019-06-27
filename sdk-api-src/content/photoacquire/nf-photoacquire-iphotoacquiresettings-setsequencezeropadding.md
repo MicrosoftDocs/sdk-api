@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],SetSequenceZeroPadding method, IPhotoAcquireSettings.SetSequenceZeroPadding, IPhotoAcquireSettings::SetSequenceZeroPadding, IPhotoAcquireSettingsSetSequenceZeroPadding, SetSequenceZeroPadding, SetSequenceZeroPadding method [Picture Acquisition], SetSequenceZeroPadding method [Picture Acquisition],IPhotoAcquireSettings interface, photoacquire/IPhotoAcquireSettings::SetSequenceZeroPadding, picacq.iphotoacquiresettings_setsequencezeropadding
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoAcquireSettings.SetSequenceZeroPadding"]
+f1_keywords: 
+ - "photoacquire/IPhotoAcquireSettings.SetSequenceZeroPadding"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

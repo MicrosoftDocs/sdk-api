@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportClient interface [Windows Deployment Services],MemoryUtilization property, IWdsTransportClient.MemoryUtilization, IWdsTransportClient.get_MemoryUtilization, IWdsTransportClient::MemoryUtilization, IWdsTransportClient::get_MemoryUtilization, MemoryUtilization property [Windows Deployment Services], MemoryUtilization property [Windows Deployment Services],IWdsTransportClient interface, get_MemoryUtilization, wds.iwdstransportclient_memoryutilization, wdstptmgmt/IWdsTransportClient::MemoryUtilization, wdstptmgmt/IWdsTransportClient::get_MemoryUtilization
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportClient.MemoryUtilization"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportClient.MemoryUtilization"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_TotalSectorsOnMedia method, IDiscFormat2TrackAtOnce.get_TotalSectorsOnMedia, IDiscFormat2TrackAtOnce::get_TotalSectorsOnMedia, get_TotalSectorsOnMedia, get_TotalSectorsOnMedia method [IMAPI], get_TotalSectorsOnMedia method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_totalsectorsonmedia, imapi2/IDiscFormat2TrackAtOnce::get_TotalSectorsOnMedia
 ms.topic: method
-f1_keywords: ["imapi2/IDiscFormat2TrackAtOnce.get_TotalSectorsOnMedia"]
+f1_keywords: 
+ - "imapi2/IDiscFormat2TrackAtOnce.get_TotalSectorsOnMedia"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAllCustData, GetAllCustData method [Automation], GetAllCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetAllCustData method, ITypeInfo2.GetAllCustData, ITypeInfo2::GetAllCustData, _oa96_ITypeInfo2_GetAllCustData, automat.itypeinfo2_getallcustdata, oaidl/ITypeInfo2::GetAllCustData
 ms.topic: method
-f1_keywords: ["oaidl/ITypeInfo2.GetAllCustData"]
+f1_keywords: 
+ - "oaidl/ITypeInfo2.GetAllCustData"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

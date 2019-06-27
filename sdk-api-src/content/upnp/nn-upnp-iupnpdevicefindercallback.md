@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPDeviceFinderCallback, IUPnPDeviceFinderCallback interface [UPnP APIs], IUPnPDeviceFinderCallback interface [UPnP APIs],described, _upnp_iupnpdevicefindercallback, upnp.iupnpdevicefindercallback, upnp/IUPnPDeviceFinderCallback
 ms.topic: interface
-f1_keywords: ["upnp/IUPnPDeviceFinderCallback"]
+f1_keywords: 
+ - "upnp/IUPnPDeviceFinderCallback"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

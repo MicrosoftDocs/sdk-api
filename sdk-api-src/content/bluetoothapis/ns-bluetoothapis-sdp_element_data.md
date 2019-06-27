@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSDP_ELEMENT_DATA, *PSDP_ELEMENT_DATA structure [Bluetooth], SDP_ELEMENT_DATA, SDP_ELEMENT_DATA structure [Bluetooth], bluetooth.sdp_element_data, bluetoothapis/*PSDP_ELEMENT_DATA, bluetoothapis/SDP_ELEMENT_DATA"
 ms.topic: struct
-f1_keywords: ["bluetoothapis/SDP_ELEMENT_DATA"]
+f1_keywords: 
+ - "bluetoothapis/SDP_ELEMENT_DATA"
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

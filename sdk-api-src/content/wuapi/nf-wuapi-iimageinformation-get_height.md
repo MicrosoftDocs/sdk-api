@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Height property [Windows Update Agent], Height property [Windows Update Agent],IImageInformation interface, IImageInformation interface [Windows Update Agent],Height property, IImageInformation.Height, IImageInformation.get_Height, IImageInformation::Height, IImageInformation::get_Height, get_Height, wua.iimageinformation_height, wuapi/IImageInformation::Height, wuapi/IImageInformation::get_Height
 ms.topic: method
-f1_keywords: ["wuapi/IImageInformation.Height"]
+f1_keywords: 
+ - "wuapi/IImageInformation.Height"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

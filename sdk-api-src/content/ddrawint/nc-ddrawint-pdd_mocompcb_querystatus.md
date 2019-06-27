@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdMoCompQueryStatus, DdMoCompQueryStatus callback function [Display Devices], PDD_MOCOMPCB_QUERYSTATUS, PDD_MOCOMPCB_QUERYSTATUS callback, ddfncs_8610d619-2c4f-41b4-8b28-4451019063b7.xml, ddrawint/DdMoCompQueryStatus, display.ddmocompquerystatus
 ms.topic: callback
-f1_keywords: ["ddrawint/DdMoCompQueryStatus"]
+f1_keywords: 
+ - "ddrawint/DdMoCompQueryStatus"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsResetServiceProxy, WsResetServiceProxy function [Web Services for Windows], webservices/WsResetServiceProxy, wsw.wsresetserviceproxy
 ms.topic: function
-f1_keywords: ["webservices/WsResetServiceProxy"]
+f1_keywords: 
+ - "webservices/WsResetServiceProxy"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

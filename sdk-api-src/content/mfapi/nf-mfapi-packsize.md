@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PackSize, PackSize function [Media Foundation], mf.packsize, mfapi/PackSize
 ms.topic: function
-f1_keywords: ["mfapi/PackSize"]
+f1_keywords: 
+ - "mfapi/PackSize"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

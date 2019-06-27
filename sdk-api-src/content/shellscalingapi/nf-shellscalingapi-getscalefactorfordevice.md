@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetScaleFactorForDevice, GetScaleFactorForDevice function [Windows Shell], shell.getscalefactorfordevice, shellscalingapi/GetScaleFactorForDevice
 ms.topic: function
-f1_keywords: ["shellscalingapi/GetScaleFactorForDevice"]
+f1_keywords: 
+ - "shellscalingapi/GetScaleFactorForDevice"
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows

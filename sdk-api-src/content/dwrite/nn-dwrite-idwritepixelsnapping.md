@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWritePixelSnapping, IDWritePixelSnapping interface [Direct Write], IDWritePixelSnapping interface [Direct Write],described, directwrite.IDWritePixelSnapping, dwrite/IDWritePixelSnapping
 ms.topic: interface
-f1_keywords: ["dwrite/IDWritePixelSnapping"]
+f1_keywords: 
+ - "dwrite/IDWritePixelSnapping"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

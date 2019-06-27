@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [File Server Resource Manager], Cancel method [File Server Resource Manager],IFsrmReportJob interface, IFsrmReportJob interface [File Server Resource Manager],Cancel method, IFsrmReportJob.Cancel, IFsrmReportJob::Cancel, fs.ifsrmreportjob_cancel, fsrm.ifsrmreportjob_cancel, fsrmreports/IFsrmReportJob::Cancel
 ms.topic: method
-f1_keywords: ["fsrmreports/IFsrmReportJob.Cancel"]
+f1_keywords: 
+ - "fsrmreports/IFsrmReportJob.Cancel"
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_mute method, IWMPSettings.get_mute, IWMPSettings::get_mute, IWMPSettingsget_mute, get_mute, get_mute method [Windows Media Player], get_mute method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_mute, wmp/IWMPSettings::get_mute
 ms.topic: method
-f1_keywords: ["wmp/IWMPSettings.get_mute"]
+f1_keywords: 
+ - "wmp/IWMPSettings.get_mute"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

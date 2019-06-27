@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetClassWord, SetClassWord function [Windows and Messages], _win32_SetClassWord, _win32_setclassword_cpp, winmsg.setclassword, winui._win32_setclassword, winuser/SetClassWord
 ms.topic: function
-f1_keywords: ["winuser/SetClassWord"]
+f1_keywords: 
+ - "winuser/SetClassWord"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

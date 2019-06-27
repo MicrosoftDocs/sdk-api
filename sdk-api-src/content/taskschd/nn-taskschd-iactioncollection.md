@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IActionCollection, IActionCollection interface [Task Scheduler], IActionCollection interface [Task Scheduler],described, actions [Task Scheduler],collection interface, taskschd.iactioncollection, taskschd/IActionCollection
 ms.topic: interface
-f1_keywords: ["taskschd/IActionCollection"]
+f1_keywords: 
+ - "taskschd/IActionCollection"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

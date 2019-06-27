@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgPathData interface [Direct2D],RemoveSegmentDataAtEnd method, ID2D1SvgPathData.RemoveSegmentDataAtEnd, ID2D1SvgPathData::RemoveSegmentDataAtEnd, RemoveSegmentDataAtEnd, RemoveSegmentDataAtEnd method [Direct2D], RemoveSegmentDataAtEnd method [Direct2D],ID2D1SvgPathData interface, d2d1svg/ID2D1SvgPathData::RemoveSegmentDataAtEnd, direct2d.id2d1svgpathdata_removesegmentdataatend
 ms.topic: method
-f1_keywords: ["d2d1svg/ID2D1SvgPathData.RemoveSegmentDataAtEnd"]
+f1_keywords: 
+ - "d2d1svg/ID2D1SvgPathData.RemoveSegmentDataAtEnd"
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

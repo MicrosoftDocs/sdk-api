@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBaseClass, GetBaseClass method, GetBaseClass method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetBaseClass method, ID3D12ShaderReflectionType.GetBaseClass, ID3D12ShaderReflectionType::GetBaseClass, d3d12shader/ID3D12ShaderReflectionType::GetBaseClass, direct3d12.id3d12shaderreflectiontype_getbaseclass
 ms.topic: method
-f1_keywords: ["d3d12shader/ID3D12ShaderReflectionType.GetBaseClass"]
+f1_keywords: 
+ - "d3d12shader/ID3D12ShaderReflectionType.GetBaseClass"
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

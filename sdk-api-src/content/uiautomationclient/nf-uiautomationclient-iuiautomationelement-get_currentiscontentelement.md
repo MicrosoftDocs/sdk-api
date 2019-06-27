@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentIsContentElement property [Windows Accessibility], CurrentIsContentElement property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentIsContentElement property, IUIAutomationElement.CurrentIsContentElement, IUIAutomationElement.get_CurrentIsContentElement, IUIAutomationElement::CurrentIsContentElement, IUIAutomationElement::get_CurrentIsContentElement, get_CurrentIsContentElement, uiauto.uiauto_IUIAutomationElement_CurrentIsContentElement, uiauto_IUIAutomationElement_CurrentIsContentElement, uiautomationclient/IUIAutomationElement::CurrentIsContentElement, uiautomationclient/IUIAutomationElement::get_CurrentIsContentElement, winauto.uiauto_IUIAutomationElement_CurrentIsContentElement
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationElement.CurrentIsContentElement"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement.CurrentIsContentElement"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

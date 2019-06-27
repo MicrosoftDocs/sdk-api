@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumMediaTypes, EnumMediaTypes method [DirectShow], EnumMediaTypes method [DirectShow],IPin interface, IPin interface [DirectShow],EnumMediaTypes method, IPin.EnumMediaTypes, IPin::EnumMediaTypes, IPinEnumMediaTypes, dshow.ipin_enummediatypes, strmif/IPin::EnumMediaTypes
 ms.topic: method
-f1_keywords: ["strmif/IPin.EnumMediaTypes"]
+f1_keywords: 
+ - "strmif/IPin.EnumMediaTypes"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

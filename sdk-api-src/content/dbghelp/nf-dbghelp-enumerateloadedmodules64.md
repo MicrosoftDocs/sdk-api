@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumerateLoadedModules, EnumerateLoadedModules function, EnumerateLoadedModules64, EnumerateLoadedModules64 function, EnumerateLoadedModulesW64, _win32_enumerateloadedmodules64, base.enumerateloadedmodules64, dbghelp/EnumerateLoadedModules, dbghelp/EnumerateLoadedModules64, dbghelp/EnumerateLoadedModulesW64
 ms.topic: function
-f1_keywords: ["dbghelp/EnumerateLoadedModules64"]
+f1_keywords: 
+ - "dbghelp/EnumerateLoadedModules64"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

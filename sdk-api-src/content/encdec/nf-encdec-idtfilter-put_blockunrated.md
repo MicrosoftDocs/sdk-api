@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDTFilter interface [Microsoft TV Technologies],put_BlockUnRated method, IDTFilter.put_BlockUnRated, IDTFilter::put_BlockUnRated, IDTFilterput_BlockUnRated, encdec/IDTFilter::put_BlockUnRated, mstv.idtfilter_put_blockunrated, put_BlockUnRated, put_BlockUnRated method [Microsoft TV Technologies], put_BlockUnRated method [Microsoft TV Technologies],IDTFilter interface
 ms.topic: method
-f1_keywords: ["encdec/IDTFilter.put_BlockUnRated"]
+f1_keywords: 
+ - "encdec/IDTFilter.put_BlockUnRated"
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_PKCS8_EXPORT_PARAMS, AT_KEYEXCHANGE, AT_SIGNATURE, CRYPT_PKCS8_EXPORT_PARAMS, CRYPT_PKCS8_EXPORT_PARAMS structure [Security], PCRYPT_PKCS8_EXPORT_PARAMS, PCRYPT_PKCS8_EXPORT_PARAMS structure pointer [Security], security.crypt_pkcs8_export_params, wincrypt/CRYPT_PKCS8_EXPORT_PARAMS, wincrypt/PCRYPT_PKCS8_EXPORT_PARAMS"
 ms.topic: struct
-f1_keywords: ["wincrypt/CRYPT_PKCS8_EXPORT_PARAMS"]
+f1_keywords: 
+ - "wincrypt/CRYPT_PKCS8_EXPORT_PARAMS"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

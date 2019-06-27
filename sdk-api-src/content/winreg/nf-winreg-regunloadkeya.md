@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegUnLoadKey, RegUnLoadKey function, RegUnLoadKeyA, RegUnLoadKeyW, _win32_regunloadkey, base.regunloadkey, winreg/RegUnLoadKey, winreg/RegUnLoadKeyA, winreg/RegUnLoadKeyW
 ms.topic: function
-f1_keywords: ["winreg/RegUnLoadKey"]
+f1_keywords: 
+ - "winreg/RegUnLoadKey"
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IASetIndexBuffer, IASetIndexBuffer method, IASetIndexBuffer method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,IASetIndexBuffer method, ID3D12GraphicsCommandList.IASetIndexBuffer, ID3D12GraphicsCommandList::IASetIndexBuffer, d3d12/ID3D12GraphicsCommandList::IASetIndexBuffer, direct3d12.id3d12graphicscommandlist_iasetindexbuffer
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12GraphicsCommandList.IASetIndexBuffer"]
+f1_keywords: 
+ - "d3d12/ID3D12GraphicsCommandList.IASetIndexBuffer"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

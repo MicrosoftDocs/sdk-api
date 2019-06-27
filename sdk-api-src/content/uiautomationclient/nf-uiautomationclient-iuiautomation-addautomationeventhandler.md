@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddAutomationEventHandler, AddAutomationEventHandler method [Windows Accessibility], AddAutomationEventHandler method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],AddAutomationEventHandler method, IUIAutomation.AddAutomationEventHandler, IUIAutomation::AddAutomationEventHandler, uiauto.uiauto_IUIAutomation_AddAutomationEventHandler, uiauto_IUIAutomation_AddAutomationEventHandler, uiautomationclient/IUIAutomation::AddAutomationEventHandler, winauto.uiauto_IUIAutomation_AddAutomationEventHandler
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomation.AddAutomationEventHandler"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomation.AddAutomationEventHandler"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

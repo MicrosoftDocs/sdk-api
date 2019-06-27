@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateEncryptedBundleWriter, CreateEncryptedBundleWriter method [App packaging and management], CreateEncryptedBundleWriter method [App packaging and management],IAppxEncryptionFactory interface, IAppxEncryptionFactory interface [App packaging and management],CreateEncryptedBundleWriter method, IAppxEncryptionFactory.CreateEncryptedBundleWriter, IAppxEncryptionFactory::CreateEncryptedBundleWriter, appxpackaging/IAppxEncryptionFactory::CreateEncryptedBundleWriter, appxpkg.iappxencryptionfactory_createencryptedbundlewriter
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxEncryptionFactory.CreateEncryptedBundleWriter"]
+f1_keywords: 
+ - "appxpackaging/IAppxEncryptionFactory.CreateEncryptedBundleWriter"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

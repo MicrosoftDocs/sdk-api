@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDeviceDispatch, GetDeviceDispatch method [WPD Automation], GetDeviceDispatch method [WPD Automation],IPortableDeviceDispatchFactory interface, IPortableDeviceDispatchFactory interface [WPD Automation],GetDeviceDispatch method, IPortableDeviceDispatchFactory.GetDeviceDispatch, IPortableDeviceDispatchFactory::GetDeviceDispatch, portabledeviceapi/IPortableDeviceDispatchFactory::GetDeviceDispatch, wpdauto.iportabledevicedispatchfactory_getdevicedispatch
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceDispatchFactory.GetDeviceDispatch"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceDispatchFactory.GetDeviceDispatch"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

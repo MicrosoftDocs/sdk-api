@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxDeviceIds, IFaxDeviceIds interface [Fax Service], IFaxDeviceIds interface [Fax Service],described, _mfax_faxdeviceids_cpp, fax._mfax_faxdeviceids_cpp, faxcomex/IFaxDeviceIds
 ms.topic: interface
-f1_keywords: ["faxcomex/IFaxDeviceIds"]
+f1_keywords: 
+ - "faxcomex/IFaxDeviceIds"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

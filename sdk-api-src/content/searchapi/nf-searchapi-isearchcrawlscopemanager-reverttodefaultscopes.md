@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchCrawlScopeManager interface [search],RevertToDefaultScopes method, ISearchCrawlScopeManager.RevertToDefaultScopes, ISearchCrawlScopeManager::RevertToDefaultScopes, RevertToDefaultScopes, RevertToDefaultScopes method [search], RevertToDefaultScopes method [search],ISearchCrawlScopeManager interface, _search_ISearchCrawlScopeManager_RevertToDefaultScopes, search._search_ISearchCrawlScopeManager_RevertToDefaultScopes, searchapi/ISearchCrawlScopeManager::RevertToDefaultScopes
 ms.topic: method
-f1_keywords: ["searchapi/ISearchCrawlScopeManager.RevertToDefaultScopes"]
+f1_keywords: 
+ - "searchapi/ISearchCrawlScopeManager.RevertToDefaultScopes"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

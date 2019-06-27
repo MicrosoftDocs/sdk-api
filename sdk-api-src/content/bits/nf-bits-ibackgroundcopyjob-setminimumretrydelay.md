@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetMinimumRetryDelay method, IBackgroundCopyJob.SetMinimumRetryDelay, IBackgroundCopyJob::SetMinimumRetryDelay, SetMinimumRetryDelay, SetMinimumRetryDelay method [BITS], SetMinimumRetryDelay method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setminimumretrydelay, bits.ibackgroundcopyjob_setminimumretrydelay, bits/IBackgroundCopyJob::SetMinimumRetryDelay
 ms.topic: method
-f1_keywords: ["bits/IBackgroundCopyJob.SetMinimumRetryDelay"]
+f1_keywords: 
+ - "bits/IBackgroundCopyJob.SetMinimumRetryDelay"
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

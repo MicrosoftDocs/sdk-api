@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PEER_SIGNIN_ALL, PEER_SIGNIN_FLAGS, PEER_SIGNIN_FLAGS enumeration [Peer Networking], PEER_SIGNIN_INTERNET, PEER_SIGNIN_NEAR_ME, PEER_SIGNIN_NONE, p2p.peer_signin_flags, p2p/PEER_SIGNIN_ALL, p2p/PEER_SIGNIN_FLAGS, p2p/PEER_SIGNIN_INTERNET, p2p/PEER_SIGNIN_NEAR_ME, p2p/PEER_SIGNIN_NONE
 ms.topic: enum
-f1_keywords: ["p2p/PEER_SIGNIN_FLAGS"]
+f1_keywords: 
+ - "p2p/PEER_SIGNIN_FLAGS"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAsynchronousDataRetriever, IAsynchronousDataRetriever interface [Windows Sync], IAsynchronousDataRetriever interface [Windows Sync],described, winsync.iasynchronousdataretriever, winsync/IAsynchronousDataRetriever
 ms.topic: interface
-f1_keywords: ["winsync/IAsynchronousDataRetriever"]
+f1_keywords: 
+ - "winsync/IAsynchronousDataRetriever"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

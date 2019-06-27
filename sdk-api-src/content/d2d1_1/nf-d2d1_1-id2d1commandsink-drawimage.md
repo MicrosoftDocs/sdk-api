@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawImage, DrawImage method [Direct2D], DrawImage method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],DrawImage method, ID2D1CommandSink.DrawImage, ID2D1CommandSink::DrawImage, d2d1_1/ID2D1CommandSink::DrawImage, direct2d.id2d1commandsink_drawimage
 ms.topic: method
-f1_keywords: ["d2d1_1/ID2D1CommandSink.DrawImage"]
+f1_keywords: 
+ - "d2d1_1/ID2D1CommandSink.DrawImage"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

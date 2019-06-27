@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Beep, Beep function, _win32_beep, base.beep, utilapiset/Beep
 ms.topic: function
-f1_keywords: ["utilapiset/Beep"]
+f1_keywords: 
+ - "utilapiset/Beep"
 req.header: utilapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],RunningStatus property, IFsrmFileManagementJob.RunningStatus, IFsrmFileManagementJob.get_RunningStatus, IFsrmFileManagementJob::RunningStatus, IFsrmFileManagementJob::get_RunningStatus, RunningStatus property [File Server Resource Manager], RunningStatus property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_runningstatus, fsrm.ifsrmfilemanagementjob_runningstatus, fsrmreports/IFsrmFileManagementJob::RunningStatus, fsrmreports/IFsrmFileManagementJob::get_RunningStatus, get_RunningStatus
 ms.topic: method
-f1_keywords: ["fsrmreports/IFsrmFileManagementJob.RunningStatus"]
+f1_keywords: 
+ - "fsrmreports/IFsrmFileManagementJob.RunningStatus"
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CollectionElementValue, CollectionElementValue structure, PCollectionElementValue, PCollectionElementValue structure pointer, xaml_diagnostics.collectionelementvalue, xamlom/CollectionElementValue, xamlom/PCollectionElementValue
 ms.topic: struct
-f1_keywords: ["xamlom/CollectionElementValue"]
+f1_keywords: 
+ - "xamlom/CollectionElementValue"
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

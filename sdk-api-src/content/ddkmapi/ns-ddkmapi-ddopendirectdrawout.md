@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDDOPENDIRECTDRAWOUT, DDOPENDIRECTDRAWOUT, DDOPENDIRECTDRAWOUT structure [Display Devices], LPDDOPENDIRECTDRAWOUT, LPDDOPENDIRECTDRAWOUT structure pointer [Display Devices], ddkmapi/DDOPENDIRECTDRAWOUT, ddkmapi/LPDDOPENDIRECTDRAWOUT, ddstrcts_26b6b5d6-563a-4d01-b2f5-dc984b8d382e.xml, display.ddopendirectdrawout"
 ms.topic: struct
-f1_keywords: ["ddkmapi/DDOPENDIRECTDRAWOUT"]
+f1_keywords: 
+ - "ddkmapi/DDOPENDIRECTDRAWOUT"
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumDeviceCapabilities, EnumDeviceCapabilities method [WIA], EnumDeviceCapabilities method [WIA],IWiaItem interface, IWiaItem interface [WIA],EnumDeviceCapabilities method, IWiaItem.EnumDeviceCapabilities, IWiaItem::EnumDeviceCapabilities, _wia_IWiaItem_EnumDeviceCapabilities, wia._wia_IWiaItem_EnumDeviceCapabilities, wia_xp/IWiaItem::EnumDeviceCapabilities
 ms.topic: method
-f1_keywords: ["wia_xp/IWiaItem.EnumDeviceCapabilities"]
+f1_keywords: 
+ - "wia_xp/IWiaItem.EnumDeviceCapabilities"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

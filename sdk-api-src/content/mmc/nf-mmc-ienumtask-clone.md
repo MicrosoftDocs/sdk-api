@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [MMC], Clone method [MMC],IEnumTASK interface, IEnumTASK interface [MMC],Clone method, IEnumTASK.Clone, IEnumTASK::Clone, _slate_ienumtask_clone, mmc.ienumtask_clone, mmc/IEnumTASK::Clone
 ms.topic: method
-f1_keywords: ["mmc/IEnumTASK.Clone"]
+f1_keywords: 
+ - "mmc/IEnumTASK.Clone"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

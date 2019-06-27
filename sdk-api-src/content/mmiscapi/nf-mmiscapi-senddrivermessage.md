@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRV_CONFIGURE, DRV_INSTALL, DRV_QUERYCONFIGURE, DRV_REMOVE, ISendDriverMessage, SendDriverMessage, SendDriverMessage function [Windows Multimedia], _win32_SendDriverMessage, mmsystem/SendDriverMessage, multimedia.senddrivermessage
 ms.topic: function
-f1_keywords: ["mmiscapi/SendDriverMessage"]
+f1_keywords: 
+ - "mmiscapi/SendDriverMessage"
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows

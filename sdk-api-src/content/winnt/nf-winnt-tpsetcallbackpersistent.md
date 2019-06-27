@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TpSetCallbackPersistent, TpSetCallbackPersistent function, base.tpsetcallbackpersistent, winnt/TpSetCallbackPersistent
 ms.topic: function
-f1_keywords: ["winnt/TpSetCallbackPersistent"]
+f1_keywords: 
+ - "winnt/TpSetCallbackPersistent"
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CStdStubBuffer2_Disconnect, CStdStubBuffer2_Disconnect function [RPC], rpc.cstdstubbuffer2_disconnect, rpcproxy/CStdStubBuffer2_Disconnect
 ms.topic: function
-f1_keywords: ["rpcproxy/CStdStubBuffer2_Disconnect"]
+f1_keywords: 
+ - "rpcproxy/CStdStubBuffer2_Disconnect"
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

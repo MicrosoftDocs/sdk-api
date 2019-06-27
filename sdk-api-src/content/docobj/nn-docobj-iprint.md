@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPrint, IPrint interface [COM], IPrint interface [COM],described, _ctrl_iprint, com.iprint, docobj/IPrint
 ms.topic: interface
-f1_keywords: ["docobj/IPrint"]
+f1_keywords: 
+ - "docobj/IPrint"
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

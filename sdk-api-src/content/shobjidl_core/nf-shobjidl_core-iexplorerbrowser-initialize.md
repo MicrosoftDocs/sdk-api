@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExplorerBrowser interface [Windows Shell],Initialize method, IExplorerBrowser.Initialize, IExplorerBrowser::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IExplorerBrowser interface, _shell_IExplorerBrowser_Initialize, shell.IExplorerBrowser_Initialize, shobjidl_core/IExplorerBrowser::Initialize
 ms.topic: method
-f1_keywords: ["shobjidl_core/IExplorerBrowser.Initialize"]
+f1_keywords: 
+ - "shobjidl_core/IExplorerBrowser.Initialize"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

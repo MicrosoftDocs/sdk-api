@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPENPROPS_INHIBITPIF, OPENPROPS_NONE, PifMgr_OpenProperties, PifMgr_OpenProperties function [Windows Properties], _win32_PifMgr_OpenProperties, properties.PifMgr_OpenProperties, shell.PifMgr_OpenProperties, shlobj_core/PifMgr_OpenProperties
 ms.topic: function
-f1_keywords: ["shlobj_core/PifMgr_OpenProperties"]
+f1_keywords: 
+ - "shlobj_core/PifMgr_OpenProperties"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

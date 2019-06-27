@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEVT_VARIANT, EVT_VARIANT, EVT_VARIANT structure [EventLog], PEVT_VARIANT, PEVT_VARIANT structure pointer [EventLog], wes.evt_variant, winevt/PEVT_VARIANT, winevt/_EVT_VARIANT"
 ms.topic: struct
-f1_keywords: ["winevt/EVT_VARIANT"]
+f1_keywords: 
+ - "winevt/EVT_VARIANT"
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

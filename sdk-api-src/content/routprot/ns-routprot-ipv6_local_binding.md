@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIPV6_LOCAL_BINDING, IPV6_LOCAL_BINDING, IPV6_LOCAL_BINDING structure [RAS], PIPV6_LOCAL_BINDING, PIPV6_LOCAL_BINDING structure pointer [RAS], routprot/IPV6_LOCAL_BINDING, routprot/PIPV6_LOCAL_BINDING, rras.ipv6_local_binding"
 ms.topic: struct
-f1_keywords: ["routprot/IPV6_LOCAL_BINDING"]
+f1_keywords: 
+ - "routprot/IPV6_LOCAL_BINDING"
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

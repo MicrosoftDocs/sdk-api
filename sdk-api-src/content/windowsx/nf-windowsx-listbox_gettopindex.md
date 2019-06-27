@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListBox_GetTopIndex, ListBox_GetTopIndex macro [Windows Controls], _win32_ListBox_GetTopIndex, _win32_ListBox_GetTopIndex_cpp, controls.ListBox_GetTopIndex, controls._win32_ListBox_GetTopIndex, windowsx/ListBox_GetTopIndex
 ms.topic: macro
-f1_keywords: ["windowsx/ListBox_GetTopIndex"]
+f1_keywords: 
+ - "windowsx/ListBox_GetTopIndex"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

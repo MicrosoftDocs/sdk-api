@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorCos, XMVectorCos, XMVectorCos method [DirectX Math Support APIs], dxmath.xmvectorcos
 ms.topic: function
-f1_keywords: ["directxmath/XMVectorCos"]
+f1_keywords: 
+ - "directxmath/XMVectorCos"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

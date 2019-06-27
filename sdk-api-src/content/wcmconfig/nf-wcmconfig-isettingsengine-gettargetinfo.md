@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTargetInfo, GetTargetInfo method [SMI], GetTargetInfo method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],GetTargetInfo method, ISettingsEngine.GetTargetInfo, ISettingsEngine::GetTargetInfo, smi.isettingsengine_gettargetinfo, wcmconfig/ISettingsEngine::GetTargetInfo
 ms.topic: method
-f1_keywords: ["wcmconfig/ISettingsEngine.GetTargetInfo"]
+f1_keywords: 
+ - "wcmconfig/ISettingsEngine.GetTargetInfo"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

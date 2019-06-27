@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_UNICODE_RANGE, DWRITE_UNICODE_RANGE structure [Direct Write], directwrite.dwrite_unicode_range, dwrite_1/DWRITE_UNICODE_RANGE
 ms.topic: struct
-f1_keywords: ["dwrite_1/DWRITE_UNICODE_RANGE"]
+f1_keywords: 
+ - "dwrite_1/DWRITE_UNICODE_RANGE"
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

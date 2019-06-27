@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetScaleFactorForMonitor, GetScaleFactorForMonitor function [Windows Shell], shell.GetScaleFactorForMonitor, shellscalingapi/GetScaleFactorForMonitor
 ms.topic: function
-f1_keywords: ["shellscalingapi/GetScaleFactorForMonitor"]
+f1_keywords: 
+ - "shellscalingapi/GetScaleFactorForMonitor"
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows

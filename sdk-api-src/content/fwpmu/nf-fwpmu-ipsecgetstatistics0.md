@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPsecGetStatistics0, IPsecGetStatistics0 function [Filtering], fwp.ipsecgetstatistics0_func, fwpmu/IPsecGetStatistics0
 ms.topic: function
-f1_keywords: ["fwpmu/IPsecGetStatistics0"]
+f1_keywords: 
+ - "fwpmu/IPsecGetStatistics0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

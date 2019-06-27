@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPrivateEvent interface [TAPI 2.2],get_Call method, ITPrivateEvent.get_Call, ITPrivateEvent::get_Call, _tapi3_itprivateevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITPrivateEvent interface, tapi3.itprivateevent_get_call, tapi3if/ITPrivateEvent::get_Call
 ms.topic: method
-f1_keywords: ["tapi3if/ITPrivateEvent.get_Call"]
+f1_keywords: 
+ - "tapi3if/ITPrivateEvent.get_Call"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

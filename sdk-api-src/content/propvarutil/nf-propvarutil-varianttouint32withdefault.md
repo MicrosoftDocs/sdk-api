@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VariantToUInt32WithDefault, VariantToUInt32WithDefault function [Windows Properties], _shell_VariantToUInt32WithDefault, properties.VariantToUInt32WithDefault, propvarutil/VariantToUInt32WithDefault, shell.VariantToUInt32WithDefault
 ms.topic: function
-f1_keywords: ["propvarutil/VariantToUInt32WithDefault"]
+f1_keywords: 
+ - "propvarutil/VariantToUInt32WithDefault"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

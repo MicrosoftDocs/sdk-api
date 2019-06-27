@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Security], GetName method [Security],IEnumCERTVIEWATTRIBUTE interface, IEnumCERTVIEWATTRIBUTE interface [Security],GetName method, IEnumCERTVIEWATTRIBUTE.GetName, IEnumCERTVIEWATTRIBUTE::GetName, _certsrv_ienumcertviewattribute_getname, certview/IEnumCERTVIEWATTRIBUTE::GetName, security.ienumcertviewattribute_getname
 ms.topic: method
-f1_keywords: ["certview/IEnumCERTVIEWATTRIBUTE.GetName"]
+f1_keywords: 
+ - "certview/IEnumCERTVIEWATTRIBUTE.GetName"
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLatencyClock, GetLatencyClock method [Audio Devices], GetLatencyClock method [Audio Devices],IDirectMusicSynthSink interface, IDirectMusicSynthSink interface [Audio Devices],GetLatencyClock method, IDirectMusicSynthSink.GetLatencyClock, IDirectMusicSynthSink::GetLatencyClock, audio.idirectmusicsynthsink_getlatencyclock, audmp-routines_13de73b3-d0c6-4693-a56c-919628c63efb.xml, dmusics/IDirectMusicSynthSink::GetLatencyClock
 ms.topic: method
-f1_keywords: ["dmusics/IDirectMusicSynthSink.GetLatencyClock"]
+f1_keywords: 
+ - "dmusics/IDirectMusicSynthSink.GetLatencyClock"
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop

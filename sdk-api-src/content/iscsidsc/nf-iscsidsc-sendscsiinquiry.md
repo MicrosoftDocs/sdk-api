@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SendScsiInquiry, SendScsiInquiry function [iSCSI Discovery Library API], iscsidisc.sendscsiinquiry, iscsidsc/SendScsiInquiry
 ms.topic: function
-f1_keywords: ["iscsidsc/SendScsiInquiry"]
+f1_keywords: 
+ - "iscsidsc/SendScsiInquiry"
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

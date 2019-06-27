@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMREXTSELECTCLIPRGN, EMREXTSELECTCLIPRGN, EMREXTSELECTCLIPRGN structure [Windows GDI], PEMREXTSELECTCLIPRGN, PEMREXTSELECTCLIPRGN structure pointer [Windows GDI], _win32_EMREXTSELECTCLIPRGN_str, gdi.emrextselectcliprgn, wingdi/EMREXTSELECTCLIPRGN, wingdi/PEMREXTSELECTCLIPRGN"
 ms.topic: struct
-f1_keywords: ["wingdi/EMREXTSELECTCLIPRGN"]
+f1_keywords: 
+ - "wingdi/EMREXTSELECTCLIPRGN"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

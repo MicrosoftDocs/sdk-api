@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminMIBEntryGetFirst, MprAdminMIBEntryGetFirst function [RAS], _mpr_mpradminmibentrygetfirst, mprapi/MprAdminMIBEntryGetFirst, rras.mpradminmibentrygetfirst
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminMIBEntryGetFirst"]
+f1_keywords: 
+ - "mprapi/MprAdminMIBEntryGetFirst"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

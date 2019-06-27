@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcServerUnregisterIfEx, RpcServerUnregisterIfEx function [RPC], _rpc_rpcserverunregisterifex, rpc.rpcserverunregisterifex, rpcdce/RpcServerUnregisterIfEx
 ms.topic: function
-f1_keywords: ["rpcdce/RpcServerUnregisterIfEx"]
+f1_keywords: 
+ - "rpcdce/RpcServerUnregisterIfEx"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

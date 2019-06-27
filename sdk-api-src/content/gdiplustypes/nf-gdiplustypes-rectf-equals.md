@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Equals, Equals method [GDI+], Equals method [GDI+],RectF class, RectF class [GDI+],Equals method, RectF.Equals, RectF::Equals, _gdiplus_CLASS_RectF_Equals_rect_, gdiplus._gdiplus_CLASS_RectF_Equals_rect_
 ms.topic: method
-f1_keywords: ["gdiplustypes/RectF.Equals"]
+f1_keywords: 
+ - "gdiplustypes/RectF.Equals"
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

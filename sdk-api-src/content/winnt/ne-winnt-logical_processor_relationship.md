@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LOGICAL_PROCESSOR_RELATIONSHIP, LOGICAL_PROCESSOR_RELATIONSHIP enumeration, RelationAll, RelationCache, RelationGroup, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, base.logical_processor_relationship, winnt/LOGICAL_PROCESSOR_RELATIONSHIP, winnt/RelationAll, winnt/RelationCache, winnt/RelationGroup, winnt/RelationNumaNode, winnt/RelationProcessorCore, winnt/RelationProcessorPackage
 ms.topic: enum
-f1_keywords: ["winnt/LOGICAL_PROCESSOR_RELATIONSHIP"]
+f1_keywords: 
+ - "winnt/LOGICAL_PROCESSOR_RELATIONSHIP"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

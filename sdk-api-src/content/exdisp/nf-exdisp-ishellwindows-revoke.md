@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellWindows interface [Windows Shell],Revoke method, IShellWindows.Revoke, IShellWindows::Revoke, Revoke, Revoke method [Windows Shell], Revoke method [Windows Shell],IShellWindows interface, _win32_IShellWindows_Revoke, exdisp/IShellWindows::Revoke, shell.IShellWindows_Revoke
 ms.topic: method
-f1_keywords: ["exdisp/IShellWindows.Revoke"]
+f1_keywords: 
+ - "exdisp/IShellWindows.Revoke"
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows

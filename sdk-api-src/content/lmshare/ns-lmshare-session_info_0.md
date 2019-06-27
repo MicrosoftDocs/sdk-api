@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSESSION_INFO_0, *PSESSION_INFO_0, LPSESSION_INFO_0, LPSESSION_INFO_0 structure pointer [Files], PSESSION_INFO_0, PSESSION_INFO_0 structure pointer [Files], SESSION_INFO_0, SESSION_INFO_0 structure [Files], _win32_session_info_0_str, fs.session_info_0_str, lmshare/LPSESSION_INFO_0, lmshare/PSESSION_INFO_0, lmshare/SESSION_INFO_0, netmgmt.session_info_0_str"
 ms.topic: struct
-f1_keywords: ["lmshare/SESSION_INFO_0"]
+f1_keywords: 
+ - "lmshare/SESSION_INFO_0"
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

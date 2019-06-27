@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddPackageReference, AddPackageReference method [App packaging and management], AddPackageReference method [App packaging and management],IAppxBundleWriter4 interface, IAppxBundleWriter4 interface [App packaging and management],AddPackageReference method, IAppxBundleWriter4.AddPackageReference, IAppxBundleWriter4::AddPackageReference, appxpackaging/IAppxBundleWriter4::AddPackageReference, appxpkg.iappxbundlewriter4_addpackagereference
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxBundleWriter4.AddPackageReference"]
+f1_keywords: 
+ - "appxpackaging/IAppxBundleWriter4.AddPackageReference"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

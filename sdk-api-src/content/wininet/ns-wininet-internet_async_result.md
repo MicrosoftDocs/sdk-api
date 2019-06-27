@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPINTERNET_ASYNC_RESULT, INTERNET_ASYNC_RESULT, INTERNET_ASYNC_RESULT structure [WinINet], LPINTERNET_ASYNC_RESULT, LPINTERNET_ASYNC_RESULT structure pointer [WinINet], _inet_internet_async_result_structure, wininet.internet_async_result, wininet/ LPINTERNET_ASYNC_RESULT, wininet/INTERNET_ASYNC_RESULT"
 ms.topic: struct
-f1_keywords: ["wininet/INTERNET_ASYNC_RESULT"]
+f1_keywords: 
+ - "wininet/INTERNET_ASYNC_RESULT"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

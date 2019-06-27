@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDashCap, GetDashCap method [GDI+], GetDashCap method [GDI+],Pen class, Pen class [GDI+],GetDashCap method, Pen.GetDashCap, Pen::GetDashCap, _gdiplus_CLASS_Pen_GetDashCap_, gdiplus._gdiplus_CLASS_Pen_GetDashCap_
 ms.topic: method
-f1_keywords: ["gdipluspen/Pen.GetDashCap"]
+f1_keywords: 
+ - "gdipluspen/Pen.GetDashCap"
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

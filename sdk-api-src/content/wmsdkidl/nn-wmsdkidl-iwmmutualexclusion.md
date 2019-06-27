@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMMutualExclusion, IWMMutualExclusion interface [windows Media Format], IWMMutualExclusion interface [windows Media Format],described, IWMMutualExclusionInterface, wmformat.iwmmutualexclusion, wmsdkidl/IWMMutualExclusion
 ms.topic: interface
-f1_keywords: ["wmsdkidl/IWMMutualExclusion"]
+f1_keywords: 
+ - "wmsdkidl/IWMMutualExclusion"
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

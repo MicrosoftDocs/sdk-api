@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumeratePreferredPhones, EnumeratePreferredPhones method [TAPI 2.2], EnumeratePreferredPhones method [TAPI 2.2],ITAddress2 interface, ITAddress2 interface [TAPI 2.2],EnumeratePreferredPhones method, ITAddress2.EnumeratePreferredPhones, ITAddress2::EnumeratePreferredPhones, _tapi3_itaddress2_enumeratepreferredphones, tapi3.itaddress2_enumeratepreferredphones, tapi3if/ITAddress2::EnumeratePreferredPhones
 ms.topic: method
-f1_keywords: ["tapi3if/ITAddress2.EnumeratePreferredPhones"]
+f1_keywords: 
+ - "tapi3if/ITAddress2.EnumeratePreferredPhones"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

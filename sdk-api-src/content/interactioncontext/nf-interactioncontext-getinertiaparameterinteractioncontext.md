@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInertiaParameterInteractionContext, GetInertiaParameterInteractionContext function, input_intcontext.getinertiaparameterinteractioncontext, interactioncontext.getinertiaparameterinteractioncontext, interactioncontext/GetInertiaParameterInteractionContext
 ms.topic: function
-f1_keywords: ["interactioncontext/GetInertiaParameterInteractionContext"]
+f1_keywords: 
+ - "interactioncontext/GetInertiaParameterInteractionContext"
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

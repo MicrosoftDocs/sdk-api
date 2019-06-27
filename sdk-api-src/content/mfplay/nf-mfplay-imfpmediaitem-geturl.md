@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetURL, GetURL method [Media Foundation], GetURL method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetURL method, IMFPMediaItem.GetURL, IMFPMediaItem::GetURL, mf.imfpmediaitem_geturl, mfplay/IMFPMediaItem::GetURL
 ms.topic: method
-f1_keywords: ["mfplay/IMFPMediaItem.GetURL"]
+f1_keywords: 
+ - "mfplay/IMFPMediaItem.GetURL"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MachineLearning.winml_binding_desc, PWINML_BINDING_DESC, PWINML_BINDING_DESC structure pointer, WINML_BINDING_DESC, WINML_BINDING_DESC structure, winml/PWINML_BINDING_DESC, winml/WINML_BINDING_DESC
 ms.topic: struct
-f1_keywords: ["winml/WINML_BINDING_DESC"]
+f1_keywords: 
+ - "winml/WINML_BINDING_DESC"
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

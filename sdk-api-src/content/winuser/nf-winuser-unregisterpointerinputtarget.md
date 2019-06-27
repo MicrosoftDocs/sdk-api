@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnregisterPointerInputTarget, UnregisterPointerInputTarget function [Windows Accessibility], inputmsg.getactivepointers, winauto.unregisterpointerinputtarget, winuser/UnregisterPointerInputTarget
 ms.topic: function
-f1_keywords: ["winuser/UnregisterPointerInputTarget"]
+f1_keywords: 
+ - "winuser/UnregisterPointerInputTarget"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

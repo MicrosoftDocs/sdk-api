@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPAMVPSIZE, AMVPSIZE, AMVPSIZE structure [DirectShow], AMVPSIZEStructure, LPAMVPSIZE, LPAMVPSIZE structure pointer [DirectShow], dshow.amvpsize, vptype/AMVPSIZE, vptype/LPAMVPSIZE"
 ms.topic: struct
-f1_keywords: ["vptype/AMVPSIZE"]
+f1_keywords: 
+ - "vptype/AMVPSIZE"
 req.header: vptype.h
 req.include-header: 
 req.target-type: Windows

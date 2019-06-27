@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddScanPackageService, AddScanPackageService method [Windows Update Agent], AddScanPackageService method [Windows Update Agent],IUpdateServiceManager interface, IUpdateServiceManager interface [Windows Update Agent],AddScanPackageService method, IUpdateServiceManager.AddScanPackageService, IUpdateServiceManager::AddScanPackageService, wua.iupdateservicemanager_addscanpackageservice, wuapi/IUpdateServiceManager::AddScanPackageService
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateServiceManager.AddScanPackageService"]
+f1_keywords: 
+ - "wuapi/IUpdateServiceManager.AddScanPackageService"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

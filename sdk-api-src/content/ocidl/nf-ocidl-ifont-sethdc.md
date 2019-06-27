@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],SetHdc method, IFont.SetHdc, IFont::SetHdc, SetHdc, SetHdc method [COM], SetHdc method [COM],IFont interface, _ctrl_ifont_sethdc, com.ifont_sethdc, ocidl/IFont::SetHdc
 ms.topic: method
-f1_keywords: ["ocidl/IFont.SetHdc"]
+f1_keywords: 
+ - "ocidl/IFont.SetHdc"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

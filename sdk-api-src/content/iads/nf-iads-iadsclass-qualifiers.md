@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsClass interface [ADSI],Qualifiers method, IADsClass.Qualifiers, IADsClass::Qualifiers, Qualifiers, Qualifiers method [ADSI], Qualifiers method [ADSI],IADsClass interface, _ds_iadsclass_qualifiers, adsi.iadsclass__qualifiers, adsi.iadsclass_qualifiers, iads/IADsClass::Qualifiers
 ms.topic: method
-f1_keywords: ["iads/IADsClass.Qualifiers"]
+f1_keywords: 
+ - "iads/IADsClass.Qualifiers"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

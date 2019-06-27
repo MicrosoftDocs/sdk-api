@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IValidate interface,OpenDatabase method, IValidate.OpenDatabase, IValidate::OpenDatabase, OpenDatabase, OpenDatabase method, OpenDatabase method,IValidate interface, evalcom2/IValidate::OpenDatabase, setup.ivalidate_opendatabase
 ms.topic: method
-f1_keywords: ["evalcom2/IValidate.OpenDatabase"]
+f1_keywords: 
+ - "evalcom2/IValidate.OpenDatabase"
 req.header: evalcom2.h
 req.include-header: 
 req.target-type: Windows

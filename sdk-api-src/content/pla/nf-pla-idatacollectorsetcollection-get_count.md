@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [PLA], Count property [PLA],IDataCollectorSetCollection interface, IDataCollectorSetCollection interface [PLA],Count property, IDataCollectorSetCollection.Count, IDataCollectorSetCollection.get_Count, IDataCollectorSetCollection::Count, IDataCollectorSetCollection::get_Count, base.idatacollectorsetcollection_count, get_Count, pla.idatacollectorsetcollection_count, pla/IDataCollectorSetCollection::Count, pla/IDataCollectorSetCollection::get_Count
 ms.topic: method
-f1_keywords: ["pla/IDataCollectorSetCollection.Count"]
+f1_keywords: 
+ - "pla/IDataCollectorSetCollection.Count"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

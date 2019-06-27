@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindFirstWithOptions, FindFirstWithOptions method [Windows Accessibility], FindFirstWithOptions method [Windows Accessibility],IUIAutomationElement7 interface, IUIAutomationElement7 interface [Windows Accessibility],FindFirstWithOptions method, IUIAutomationElement7.FindFirstWithOptions, IUIAutomationElement7::FindFirstWithOptions, uiautomationclient/IUIAutomationElement7::FindFirstWithOptions, winauto.uiauto_IUIAutomationElement7_FindFirstWithOptions, winauto.uiauto_iuiautomationelement_findfirstwithoptions
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationElement7.FindFirstWithOptions"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement7.FindFirstWithOptions"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMVideoDecimationProperties, IAMVideoDecimationProperties interface [DirectShow], IAMVideoDecimationProperties interface [DirectShow],described, IAMVideoDecimationPropertiesInterface, dshow.iamvideodecimationproperties, strmif/IAMVideoDecimationProperties
 ms.topic: interface
-f1_keywords: ["strmif/IAMVideoDecimationProperties"]
+f1_keywords: 
+ - "strmif/IAMVideoDecimationProperties"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

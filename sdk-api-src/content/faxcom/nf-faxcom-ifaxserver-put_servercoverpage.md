@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxServer interface [Fax Service],ServerCoverpage property, IFaxServer.ServerCoverpage, IFaxServer.get_ServerCoverpage, IFaxServer.put_ServerCoverpage, IFaxServer::ServerCoverpage, IFaxServer::get_ServerCoverpage, IFaxServer::put_ServerCoverpage, ServerCoverpage property [Fax Service], ServerCoverpage property [Fax Service],IFaxServer interface, _mfax_ifaxserver_get_servercoverpage, fax._mfax_ifaxserver_client_mfax_ifaxserver_get_servercoverpage_cpp, fax._mfax_ifaxserver_get_servercoverpage, faxcom/IFaxServer::ServerCoverpage, faxcom/IFaxServer::get_ServerCoverpage, faxcom/IFaxServer::put_ServerCoverpage, put_ServerCoverpage
 ms.topic: method
-f1_keywords: ["faxcom/IFaxServer.ServerCoverpage"]
+f1_keywords: 
+ - "faxcom/IFaxServer.ServerCoverpage"
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLDepositOfflineConfirmationId, SLDepositOfflineConfirmationId function [Security], security.sldepositofflineconfirmationid, slpublic/SLDepositOfflineConfirmationId
 ms.topic: function
-f1_keywords: ["slpublic/SLDepositOfflineConfirmationId"]
+f1_keywords: 
+ - "slpublic/SLDepositOfflineConfirmationId"
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

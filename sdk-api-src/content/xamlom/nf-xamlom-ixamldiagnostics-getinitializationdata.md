@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInitializationData, GetInitializationData method, GetInitializationData method,IXamlDiagnostics interface, IXamlDiagnostics interface,GetInitializationData method, IXamlDiagnostics.GetInitializationData, IXamlDiagnostics::GetInitializationData, xaml_diagnostics.ixamldiagnostics_getinitializationdata, xamlom/IXamlDiagnostics::GetInitializationData
 ms.topic: method
-f1_keywords: ["xamlom/IXamlDiagnostics.GetInitializationData"]
+f1_keywords: 
+ - "xamlom/IXamlDiagnostics.GetInitializationData"
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

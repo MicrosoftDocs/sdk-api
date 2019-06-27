@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDesktopItemBySource, GetDesktopItemBySource method [Legacy Windows Environment Features], GetDesktopItemBySource method [Legacy Windows Environment Features],IActiveDesktop interface, IActiveDesktop interface [Legacy Windows Environment Features],GetDesktopItemBySource method, IActiveDesktop.GetDesktopItemBySource, IActiveDesktop::GetDesktopItemBySource, _win32_IActiveDesktop_GetDesktopItemBySource, lwef.iactivedesktop_getdesktopitembysource, shell.iactivedesktop_getdesktopitembysource, shlobj_core/IActiveDesktop::GetDesktopItemBySource
 ms.topic: method
-f1_keywords: ["shlobj_core/IActiveDesktop.GetDesktopItemBySource"]
+f1_keywords: 
+ - "shlobj_core/IActiveDesktop.GetDesktopItemBySource"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

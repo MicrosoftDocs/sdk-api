@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWinMLEvaluationContext, IWinMLEvaluationContext interface, IWinMLEvaluationContext interface,described, MachineLearning.iwinmlevaluationcontext, winml/IWinMLEvaluationContext
 ms.topic: interface
-f1_keywords: ["winml/IWinMLEvaluationContext"]
+f1_keywords: 
+ - "winml/IWinMLEvaluationContext"
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

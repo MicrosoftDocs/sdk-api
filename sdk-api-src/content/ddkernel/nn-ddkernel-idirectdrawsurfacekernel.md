@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawKernel, IDirectDrawKernel interface [Display Devices], IDirectDrawKernel interface [Display Devices],described, IDirectDrawSurfaceKernel, ddfncs_c98e7eb5-7e63-4c11-b620-5ca2d811e368.xml, ddkernel/IDirectDrawSurfaceKernel, display.idirectdrawsurfacekernel
 ms.topic: interface
-f1_keywords: ["ddkernel/IDirectDrawKernel"]
+f1_keywords: 
+ - "ddkernel/IDirectDrawKernel"
 req.header: ddkernel.h
 req.include-header: 
 req.target-type: Windows

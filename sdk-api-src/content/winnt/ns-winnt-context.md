@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCONTEXT, CONTEXT, CONTEXT structure, LPCONTEXT, LPCONTEXT structure pointer, _win32_context_str, base.context_str, winnt/CONTEXT, winnt/LPCONTEXT"
 ms.topic: struct
-f1_keywords: ["winnt/CONTEXT"]
+f1_keywords: 
+ - "winnt/CONTEXT"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICodecAPI interface [DirectShow],SetAllSettings method, ICodecAPI.SetAllSettings, ICodecAPI::SetAllSettings, ICodecAPISetAllSettings, SetAllSettings, SetAllSettings method [DirectShow], SetAllSettings method [DirectShow],ICodecAPI interface, dshow.icodecapi_setallsettings, strmif/ICodecAPI::SetAllSettings
 ms.topic: method
-f1_keywords: ["strmif/ICodecAPI.SetAllSettings"]
+f1_keywords: 
+ - "strmif/ICodecAPI.SetAllSettings"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRdcComparator, IRdcComparator interface [Remote Differential Compression], IRdcComparator interface [Remote Differential Compression],described, fs.irdccomparator, msrdc/IRdcComparator, rdc.irdccomparator
 ms.topic: interface
-f1_keywords: ["msrdc/IRdcComparator"]
+f1_keywords: 
+ - "msrdc/IRdcComparator"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

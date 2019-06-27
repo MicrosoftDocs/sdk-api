@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppDomainHelper interface [COM+],Initialize method, IAppDomainHelper.Initialize, IAppDomainHelper::Initialize, Initialize, Initialize method [COM+], Initialize method [COM+],IAppDomainHelper interface, _cos_IAppDomainHelper_Initialize, comsvcs/IAppDomainHelper::Initialize, cos.iappdomainhelper_initialize
 ms.topic: method
-f1_keywords: ["comsvcs/IAppDomainHelper.Initialize"]
+f1_keywords: 
+ - "comsvcs/IAppDomainHelper.Initialize"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

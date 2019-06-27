@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Find, Find method [Windows Controls], Find method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],Find method, ITextRange2.Find, ITextRange2::Find, controls.itextrange2_find, tom/ITextRange2::Find
 ms.topic: method
-f1_keywords: ["tom/ITextRange2.Find"]
+f1_keywords: 
+ - "tom/ITextRange2.Find"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxDevice interface [Fax Service],ReceiveMode property, IFaxDevice.ReceiveMode, IFaxDevice.put_ReceiveMode, IFaxDevice::ReceiveMode, IFaxDevice::get_ReceiveMode, IFaxDevice::put_ReceiveMode, ReceiveMode property [Fax Service], ReceiveMode property [Fax Service],IFaxDevice interface, _mfax_faxdevice.receivemode_cpp, fax._mfax_faxdevice_receivemode_cpp, faxcomex/IFaxDevice::ReceiveMode, faxcomex/IFaxDevice::get_ReceiveMode, faxcomex/IFaxDevice::put_ReceiveMode, put_ReceiveMode
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxDevice.ReceiveMode"]
+f1_keywords: 
+ - "faxcomex/IFaxDevice.ReceiveMode"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

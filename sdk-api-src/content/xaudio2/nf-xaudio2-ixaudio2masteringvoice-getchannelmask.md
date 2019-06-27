@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetChannelMask, GetChannelMask method [XAudio2 Audio Mixing APIs], GetChannelMask method [XAudio2 Audio Mixing APIs],IXAudio2MasteringVoice interface, IXAudio2MasteringVoice interface [XAudio2 Audio Mixing APIs],GetChannelMask method, IXAudio2MasteringVoice.GetChannelMask, IXAudio2MasteringVoice::GetChannelMask, xaudio2.ixaudio2masteringvoice_interface_getchannelmask, xaudio2/IXAudio2MasteringVoice::GetChannelMask
 ms.topic: method
-f1_keywords: ["xaudio2/IXAudio2MasteringVoice.GetChannelMask"]
+f1_keywords: 
+ - "xaudio2/IXAudio2MasteringVoice.GetChannelMask"
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

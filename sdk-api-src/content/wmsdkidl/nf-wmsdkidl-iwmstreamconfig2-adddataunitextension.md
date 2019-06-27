@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddDataUnitExtension, AddDataUnitExtension method [windows Media Format], AddDataUnitExtension method [windows Media Format],IWMStreamConfig2 interface, IWMStreamConfig2 interface [windows Media Format],AddDataUnitExtension method, IWMStreamConfig2.AddDataUnitExtension, IWMStreamConfig2::AddDataUnitExtension, IWMStreamConfig2AddDataUnitExtension, wmformat.iwmstreamconfig2_adddataunitextension, wmsdkidl/IWMStreamConfig2::AddDataUnitExtension
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMStreamConfig2.AddDataUnitExtension"]
+f1_keywords: 
+ - "wmsdkidl/IWMStreamConfig2.AddDataUnitExtension"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

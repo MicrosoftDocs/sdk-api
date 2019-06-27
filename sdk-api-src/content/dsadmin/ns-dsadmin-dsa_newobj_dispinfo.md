@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDSA_NEWOBJ_DISPINFO, DSA_NEWOBJ_DISPINFO, DSA_NEWOBJ_DISPINFO structure [Active Directory], LPDSA_NEWOBJ_DISPINFO, LPDSA_NEWOBJ_DISPINFO structure pointer [Active Directory], ad.dsa_newobj_dispinfo, dsadmin/DSA_NEWOBJ_DISPINFO, dsadmin/LPDSA_NEWOBJ_DISPINFO"
 ms.topic: struct
-f1_keywords: ["dsadmin/DSA_NEWOBJ_DISPINFO"]
+f1_keywords: 
+ - "dsadmin/DSA_NEWOBJ_DISPINFO"
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows

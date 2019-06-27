@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsAddMappedHeader, WsAddMappedHeader function [Web Services for Windows], webservices/WsAddMappedHeader, wsw.wsaddmappedheader
 ms.topic: function
-f1_keywords: ["webservices/WsAddMappedHeader"]
+f1_keywords: 
+ - "webservices/WsAddMappedHeader"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

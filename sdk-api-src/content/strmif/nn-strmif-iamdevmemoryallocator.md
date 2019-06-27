@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMDevMemoryAllocator, IAMDevMemoryAllocator interface [DirectShow], IAMDevMemoryAllocator interface [DirectShow],described, IAMDevMemoryAllocatorInterface, dshow.iamdevmemoryallocator, strmif/IAMDevMemoryAllocator
 ms.topic: interface
-f1_keywords: ["strmif/IAMDevMemoryAllocator"]
+f1_keywords: 
+ - "strmif/IAMDevMemoryAllocator"
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

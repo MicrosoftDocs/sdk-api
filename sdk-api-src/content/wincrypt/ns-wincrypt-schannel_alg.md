@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSCHANNEL_ALG, PSCHANNEL_ALG, PSCHANNEL_ALG structure pointer [Security], SCHANNEL_ALG, SCHANNEL_ALG structure [Security], SCHANNEL_ENC_KEY, SCHANNEL_MAC_KEY, _crypto2_schannel_alg, security.schannel_alg, wincrypt/PSCHANNEL_ALG, wincrypt/SCHANNEL_ALG"
 ms.topic: struct
-f1_keywords: ["wincrypt/SCHANNEL_ALG"]
+f1_keywords: 
+ - "wincrypt/SCHANNEL_ALG"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

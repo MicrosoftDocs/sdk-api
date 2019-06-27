@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInstallationProgress interface [Windows Update Agent],PercentComplete property, IInstallationProgress.PercentComplete, IInstallationProgress.get_PercentComplete, IInstallationProgress::PercentComplete, IInstallationProgress::get_PercentComplete, PercentComplete property [Windows Update Agent], PercentComplete property [Windows Update Agent],IInstallationProgress interface, get_PercentComplete, wua.iinstallationprogress_percentcomplete, wuapi/IInstallationProgress::PercentComplete, wuapi/IInstallationProgress::get_PercentComplete
 ms.topic: method
-f1_keywords: ["wuapi/IInstallationProgress.PercentComplete"]
+f1_keywords: 
+ - "wuapi/IInstallationProgress.PercentComplete"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

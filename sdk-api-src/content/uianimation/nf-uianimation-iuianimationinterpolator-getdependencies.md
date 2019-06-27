@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDependencies, GetDependencies method [Windows Animation], GetDependencies method [Windows Animation],IUIAnimationInterpolator interface, IUIAnimationInterpolator interface [Windows Animation],GetDependencies method, IUIAnimationInterpolator.GetDependencies, IUIAnimationInterpolator::GetDependencies, uianimation.iuianimationinterpolator_getdependencies, uianimation/IUIAnimationInterpolator::GetDependencies
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationInterpolator.GetDependencies"]
+f1_keywords: 
+ - "uianimation/IUIAnimationInterpolator.GetDependencies"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

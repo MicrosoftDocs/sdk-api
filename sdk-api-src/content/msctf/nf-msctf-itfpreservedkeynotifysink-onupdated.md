@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfPreservedKeyNotifySink interface [Text Services Framework],OnUpdated method, ITfPreservedKeyNotifySink.OnUpdated, ITfPreservedKeyNotifySink::OnUpdated, OnUpdated, OnUpdated method [Text Services Framework], OnUpdated method [Text Services Framework],ITfPreservedKeyNotifySink interface, _tsf_itfpreservedkeynotifysink_onupdated_ref, msctf/ITfPreservedKeyNotifySink::OnUpdated, tsf.itfpreservedkeynotifysink_onupdated
 ms.topic: method
-f1_keywords: ["msctf/ITfPreservedKeyNotifySink.OnUpdated"]
+f1_keywords: 
+ - "msctf/ITfPreservedKeyNotifySink.OnUpdated"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

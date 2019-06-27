@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XInputGetBatteryInformation, XInputGetBatteryInformation function [XInput Game Controller APIs], xinput.xinputgetbatteryinformation, xinput/XInputGetBatteryInformation
 ms.topic: function
-f1_keywords: ["xinput/XInputGetBatteryInformation"]
+f1_keywords: 
+ - "xinput/XInputGetBatteryInformation"
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColumnHeaders, GetColumnHeaders method [Windows Accessibility], GetColumnHeaders method [Windows Accessibility],ITableProvider interface, ITableProvider interface [Windows Accessibility],GetColumnHeaders method, ITableProvider.GetColumnHeaders, ITableProvider::GetColumnHeaders, uiauto.uiauto_ITableProvider_GetColumnHeaders, uiauto_ITableProvider_GetColumnHeaders, uiautomationcore/ITableProvider::GetColumnHeaders, winauto.uiauto_ITableProvider_GetColumnHeaders
 ms.topic: method
-f1_keywords: ["uiautomationcore/ITableProvider.GetColumnHeaders"]
+f1_keywords: 
+ - "uiautomationcore/ITableProvider.GetColumnHeaders"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetSocketMediaStreamingMode, SetSocketMediaStreamingMode function [Winsock], socketapi/SetSocketMediaStreamingMode, winsock.setsocketmediastreamingmode
 ms.topic: function
-f1_keywords: ["socketapi/SetSocketMediaStreamingMode"]
+f1_keywords: 
+ - "socketapi/SetSocketMediaStreamingMode"
 req.header: socketapi.h
 req.include-header: 
 req.target-type: Windows

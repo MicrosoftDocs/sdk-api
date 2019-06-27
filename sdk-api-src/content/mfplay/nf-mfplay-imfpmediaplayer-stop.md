@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],Stop method, IMFPMediaPlayer.Stop, IMFPMediaPlayer::Stop, Stop, Stop method [Media Foundation], Stop method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_stop, mfplay/IMFPMediaPlayer::Stop
 ms.topic: method
-f1_keywords: ["mfplay/IMFPMediaPlayer.Stop"]
+f1_keywords: 
+ - "mfplay/IMFPMediaPlayer.Stop"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

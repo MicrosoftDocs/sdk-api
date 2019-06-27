@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNewTargetCount, GetNewTargetCount method [VSS], GetNewTargetCount method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetNewTargetCount method, IVssComponent.GetNewTargetCount, IVssComponent::GetNewTargetCount, _win32_ivsscomponent_getnewtargetcount, base.ivsscomponent_getnewtargetcount, vswriter/IVssComponent::GetNewTargetCount
 ms.topic: method
-f1_keywords: ["vswriter/IVssComponent.GetNewTargetCount"]
+f1_keywords: 
+ - "vswriter/IVssComponent.GetNewTargetCount"
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

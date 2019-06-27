@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],IATSC_STT interface, IATSC_STT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, IATSC_STT.GetTableDescriptorByIndex, IATSC_STT::GetTableDescriptorByIndex, IATSC_STTGetTableDescriptorByIndex, atscpsipparser/IATSC_STT::GetTableDescriptorByIndex, mstv.iatsc_stt_gettabledescriptorbyindex
 ms.topic: method
-f1_keywords: ["atscpsipparser/IATSC_STT.GetTableDescriptorByIndex"]
+f1_keywords: 
+ - "atscpsipparser/IATSC_STT.GetTableDescriptorByIndex"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

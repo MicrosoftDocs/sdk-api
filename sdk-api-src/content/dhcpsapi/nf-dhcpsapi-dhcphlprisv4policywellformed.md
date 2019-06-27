@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpHlprIsV4PolicyWellFormed, DhcpHlprIsV4PolicyWellFormed function [DHCP], dhcp.dhcphlprisv4policywellformed, dhcpsapi/DhcpHlprIsV4PolicyWellFormed
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpHlprIsV4PolicyWellFormed"]
+f1_keywords: 
+ - "dhcpsapi/DhcpHlprIsV4PolicyWellFormed"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

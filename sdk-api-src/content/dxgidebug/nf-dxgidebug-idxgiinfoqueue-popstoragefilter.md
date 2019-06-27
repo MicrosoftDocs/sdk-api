@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PopStorageFilter method, IDXGIInfoQueue.PopStorageFilter, IDXGIInfoQueue::PopStorageFilter, PopStorageFilter, PopStorageFilter method [DXGI], PopStorageFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_popstoragefilter, dxgidebug/IDXGIInfoQueue::PopStorageFilter
 ms.topic: method
-f1_keywords: ["dxgidebug/IDXGIInfoQueue.PopStorageFilter"]
+f1_keywords: 
+ - "dxgidebug/IDXGIInfoQueue.PopStorageFilter"
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

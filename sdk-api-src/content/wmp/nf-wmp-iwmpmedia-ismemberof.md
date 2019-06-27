@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],isMemberOf method, IWMPMedia.isMemberOf, IWMPMedia2 interface [Windows Media Player],isMemberOf method, IWMPMedia2::isMemberOf, IWMPMedia3 interface [Windows Media Player],isMemberOf method, IWMPMedia3::isMemberOf, IWMPMedia::isMemberOf, IWMPMediaisMemberOf, isMemberOf, isMemberOf method [Windows Media Player], isMemberOf method [Windows Media Player],IWMPMedia interface, isMemberOf method [Windows Media Player],IWMPMedia2 interface, isMemberOf method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_ismemberof, wmp/IWMPMedia2::isMemberOf, wmp/IWMPMedia3::isMemberOf, wmp/IWMPMedia::isMemberOf
 ms.topic: method
-f1_keywords: ["wmp/IWMPMedia.isMemberOf"]
+f1_keywords: 
+ - "wmp/IWMPMedia.isMemberOf"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

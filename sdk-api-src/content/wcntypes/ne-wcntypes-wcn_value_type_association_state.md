@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WCN_VALUE_AS_ASSOCIATION_FAILURE, WCN_VALUE_AS_CONFIGURATION_FAILURE, WCN_VALUE_AS_CONNECTION_SUCCESS, WCN_VALUE_AS_IP_FAILURE, WCN_VALUE_AS_NOT_ASSOCIATED, WCN_VALUE_TYPE_ASSOCIATION_STATE, WCN_VALUE_TYPE_ASSOCIATION_STATE enumeration [Windows Connect Now], wcn.wcn_value_type_association_state, wcntypes/WCN_VALUE_AS_ASSOCIATION_FAILURE, wcntypes/WCN_VALUE_AS_CONFIGURATION_FAILURE, wcntypes/WCN_VALUE_AS_CONNECTION_SUCCESS, wcntypes/WCN_VALUE_AS_IP_FAILURE, wcntypes/WCN_VALUE_AS_NOT_ASSOCIATED, wcntypes/WCN_VALUE_TYPE_ASSOCIATION_STATE
 ms.topic: enum
-f1_keywords: ["wcntypes/WCN_VALUE_TYPE_ASSOCIATION_STATE"]
+f1_keywords: 
+ - "wcntypes/WCN_VALUE_TYPE_ASSOCIATION_STATE"
 req.header: wcntypes.h
 req.include-header: 
 req.target-type: Windows

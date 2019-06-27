@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumDateFormats, EnumDateFormats function [Internationalization for Windows Applications], EnumDateFormatsA, EnumDateFormatsW, _win32_EnumDateFormats, intl.enumdateformats, winnls/EnumDateFormats, winnls/EnumDateFormatsA, winnls/EnumDateFormatsW
 ms.topic: function
-f1_keywords: ["winnls/EnumDateFormats"]
+f1_keywords: 
+ - "winnls/EnumDateFormats"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

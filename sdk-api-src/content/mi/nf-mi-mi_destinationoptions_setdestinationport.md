@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_SetDestinationPort, MI_DestinationOptions_SetDestinationPort function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetDestinationPort, wmi_v2.mi_destinationoptions_setdestinationport
 ms.topic: function
-f1_keywords: ["mi/MI_DestinationOptions_SetDestinationPort"]
+f1_keywords: 
+ - "mi/MI_DestinationOptions_SetDestinationPort"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

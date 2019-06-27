@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer interface [Windows Media Player],get_enabled method, IWMPPlayer.get_enabled, IWMPPlayer::get_enabled, IWMPPlayerget_enabled, get_enabled, get_enabled method [Windows Media Player], get_enabled method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_get_enabled, wmp/IWMPPlayer::get_enabled
 ms.topic: method
-f1_keywords: ["wmp/IWMPPlayer.get_enabled"]
+f1_keywords: 
+ - "wmp/IWMPPlayer.get_enabled"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

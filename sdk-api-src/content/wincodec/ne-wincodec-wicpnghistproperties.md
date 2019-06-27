@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICPngHistFrequencies, WICPngHistProperties, WICPngHistProperties enumeration [Windows Imaging Component], _wic_codec_wicpnghistproperties, wic._wic_codec_wicpnghistproperties, wincodec/WICPngHistFrequencies, wincodec/WICPngHistProperties
 ms.topic: enum
-f1_keywords: ["wincodec/WICPngHistProperties"]
+f1_keywords: 
+ - "wincodec/WICPngHistProperties"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

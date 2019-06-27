@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMRemoteDictionaryResource interface [XPS Documents and Packaging],SetDictionary method, IXpsOMRemoteDictionaryResource.SetDictionary, IXpsOMRemoteDictionaryResource::SetDictionary, SetDictionary, SetDictionary method [XPS Documents and Packaging], SetDictionary method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResource interface, xps.ixpsomremotedictionaryresource_setdictionary, xpsobjectmodel/IXpsOMRemoteDictionaryResource::SetDictionary
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMRemoteDictionaryResource.SetDictionary"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMRemoteDictionaryResource.SetDictionary"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

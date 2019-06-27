@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFNetCredential, IMFNetCredential interface [Media Foundation], IMFNetCredential interface [Media Foundation],described, d202e7bc-9ce0-4861-8552-5a4d599b1661, mf.imfnetcredential, mfidl/IMFNetCredential
 ms.topic: interface
-f1_keywords: ["mfidl/IMFNetCredential"]
+f1_keywords: 
+ - "mfidl/IMFNetCredential"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

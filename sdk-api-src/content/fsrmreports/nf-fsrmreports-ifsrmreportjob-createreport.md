@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateReport, CreateReport method [File Server Resource Manager], CreateReport method [File Server Resource Manager],IFsrmReportJob interface, IFsrmReportJob interface [File Server Resource Manager],CreateReport method, IFsrmReportJob.CreateReport, IFsrmReportJob::CreateReport, fs.ifsrmreportjob_createreport, fsrm.ifsrmreportjob_createreport, fsrmreports/IFsrmReportJob::CreateReport
 ms.topic: method
-f1_keywords: ["fsrmreports/IFsrmReportJob.CreateReport"]
+f1_keywords: 
+ - "fsrmreports/IFsrmReportJob.CreateReport"
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

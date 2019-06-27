@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIKEV2_TUNNEL_CONFIG_PARAMS2, IKEV2_TUNNEL_CONFIG_PARAMS2, IKEV2_TUNNEL_CONFIG_PARAMS2 structure [RAS], PIKEV2_TUNNEL_CONFIG_PARAMS2, PIKEV2_TUNNEL_CONFIG_PARAMS2 structure pointer [RAS], mprapi/IKEV2_TUNNEL_CONFIG_PARAMS2, mprapi/PIKEV2_TUNNEL_CONFIG_PARAMS2, rras.ikev2_tunnel_config_params2"
 ms.topic: struct
-f1_keywords: ["mprapi/IKEV2_TUNNEL_CONFIG_PARAMS2"]
+f1_keywords: 
+ - "mprapi/IKEV2_TUNNEL_CONFIG_PARAMS2"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

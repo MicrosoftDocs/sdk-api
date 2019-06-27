@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentActualFrameRate, GetCurrentActualFrameRate method [DirectShow], GetCurrentActualFrameRate method [DirectShow],IAMVideoControl interface, IAMVideoControl interface [DirectShow],GetCurrentActualFrameRate method, IAMVideoControl.GetCurrentActualFrameRate, IAMVideoControl::GetCurrentActualFrameRate, IAMVideoControlGetCurrentActualFrameRate, dshow.iamvideocontrol_getcurrentactualframerate, strmif/IAMVideoControl::GetCurrentActualFrameRate
 ms.topic: method
-f1_keywords: ["strmif/IAMVideoControl.GetCurrentActualFrameRate"]
+f1_keywords: 
+ - "strmif/IAMVideoControl.GetCurrentActualFrameRate"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

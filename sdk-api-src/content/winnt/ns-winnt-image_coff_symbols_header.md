@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIMAGE_COFF_SYMBOLS_HEADER, IMAGE_COFF_SYMBOLS_HEADER, IMAGE_COFF_SYMBOLS_HEADER structure, PIMAGE_COFF_SYMBOLS_HEADER, PIMAGE_COFF_SYMBOLS_HEADER structure pointer, _IMAGE_COFF_SYMBOLS_HEADER, _win32_image_coff_symbols_header_str, base.image_coff_symbols_header_str, winnt/IMAGE_COFF_SYMBOLS_HEADER, winnt/PIMAGE_COFF_SYMBOLS_HEADER"
 ms.topic: struct
-f1_keywords: ["winnt/IMAGE_COFF_SYMBOLS_HEADER"]
+f1_keywords: 
+ - "winnt/IMAGE_COFF_SYMBOLS_HEADER"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

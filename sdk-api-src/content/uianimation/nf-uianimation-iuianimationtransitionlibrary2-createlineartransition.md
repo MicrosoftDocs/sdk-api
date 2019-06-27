@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateLinearTransition, CreateLinearTransition method [Windows Animation], CreateLinearTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateLinearTransition method, IUIAnimationTransitionLibrary2.CreateLinearTransition, IUIAnimationTransitionLibrary2::CreateLinearTransition, uianimation.iuianimationtransitionlibrary2_createlineartransition, uianimation/IUIAnimationTransitionLibrary2::CreateLinearTransition
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationTransitionLibrary2.CreateLinearTransition"]
+f1_keywords: 
+ - "uianimation/IUIAnimationTransitionLibrary2.CreateLinearTransition"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

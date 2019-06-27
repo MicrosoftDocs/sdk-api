@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpRemoveDNSRegistrations, DhcpRemoveDNSRegistrations function [DHCP], dhcp.dhcpremovednsregistrations, dhcpcsdk/DhcpRemoveDNSRegistrations
 ms.topic: function
-f1_keywords: ["dhcpcsdk/DhcpRemoveDNSRegistrations"]
+f1_keywords: 
+ - "dhcpcsdk/DhcpRemoveDNSRegistrations"
 req.header: dhcpcsdk.h
 req.include-header: 
 req.target-type: Windows

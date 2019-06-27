@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPropertyChangeArray, IPropertyChangeArray interface [Windows Properties], IPropertyChangeArray interface [Windows Properties],described, _shell_IPropertyChangeArray, properties.IPropertyChangeArray, propsys/IPropertyChangeArray, shell.IPropertyChangeArray
 ms.topic: interface
-f1_keywords: ["propsys/IPropertyChangeArray"]
+f1_keywords: 
+ - "propsys/IPropertyChangeArray"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],NoNetTransports method, IOfflineFilesEvents.NoNetTransports, IOfflineFilesEvents::NoNetTransports, NoNetTransports, NoNetTransports method [Offline Files], NoNetTransports method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::NoNetTransports, of.iofflinefilesevents_nonettransports
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesEvents.NoNetTransports"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesEvents.NoNetTransports"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

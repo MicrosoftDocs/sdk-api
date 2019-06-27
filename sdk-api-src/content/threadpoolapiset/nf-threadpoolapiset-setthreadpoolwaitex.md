@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolWaitEx, SetThreadpoolWaitEx function, base.setthreadpoolwaitex, threadpoolapiset/SetThreadpoolWaitEx
 ms.topic: function
-f1_keywords: ["threadpoolapiset/SetThreadpoolWaitEx"]
+f1_keywords: 
+ - "threadpoolapiset/SetThreadpoolWaitEx"
 req.header: threadpoolapiset.h
 req.include-header: 
 req.target-type: Windows

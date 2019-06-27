@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPrerequisiteKnowledge, GetPrerequisiteKnowledge method [Windows Sync], GetPrerequisiteKnowledge method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],GetPrerequisiteKnowledge method, ISyncChangeBatchBase.GetPrerequisiteKnowledge, ISyncChangeBatchBase::GetPrerequisiteKnowledge, winsync.isyncchangebatchbase_getprerequisiteknowledge, winsync/ISyncChangeBatchBase::GetPrerequisiteKnowledge
 ms.topic: method
-f1_keywords: ["winsync/ISyncChangeBatchBase.GetPrerequisiteKnowledge"]
+f1_keywords: 
+ - "winsync/ISyncChangeBatchBase.GetPrerequisiteKnowledge"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

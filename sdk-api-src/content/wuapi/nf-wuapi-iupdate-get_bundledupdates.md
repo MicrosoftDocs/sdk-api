@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BundledUpdates property [Windows Update Agent], BundledUpdates property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],BundledUpdates property, IUpdate.BundledUpdates, IUpdate.get_BundledUpdates, IUpdate::BundledUpdates, IUpdate::get_BundledUpdates, get_BundledUpdates, wua.iupdate_bundledupdates, wuapi/IUpdate::BundledUpdates, wuapi/IUpdate::get_BundledUpdates
 ms.topic: method
-f1_keywords: ["wuapi/IUpdate.BundledUpdates"]
+f1_keywords: 
+ - "wuapi/IUpdate.BundledUpdates"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

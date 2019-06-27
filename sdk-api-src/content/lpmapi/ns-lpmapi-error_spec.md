@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ERROR_SPEC, ERROR_SPEC structure [QOS], lpmapi/ERROR_SPEC, qos.error_spec
 ms.topic: struct
-f1_keywords: ["lpmapi/ERROR_SPEC"]
+f1_keywords: 
+ - "lpmapi/ERROR_SPEC"
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

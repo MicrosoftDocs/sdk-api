@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaClose, LsaClose function [Security], _lsa_lsaclose, ntsecapi/LsaClose, security.lsaclose
 ms.topic: function
-f1_keywords: ["ntsecapi/LsaClose"]
+f1_keywords: 
+ - "ntsecapi/LsaClose"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

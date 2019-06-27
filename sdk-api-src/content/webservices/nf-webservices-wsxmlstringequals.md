@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsXmlStringEquals, WsXmlStringEquals function [Web Services for Windows], webservices/WsXmlStringEquals, wsw.wsxmlstringequals
 ms.topic: function
-f1_keywords: ["webservices/WsXmlStringEquals"]
+f1_keywords: 
+ - "webservices/WsXmlStringEquals"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

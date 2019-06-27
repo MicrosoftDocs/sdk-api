@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRunningTask interface [Task Scheduler],Path property, IRunningTask.Path, IRunningTask.get_Path, IRunningTask::Path, IRunningTask::get_Path, Path property [Task Scheduler], Path property [Task Scheduler],IRunningTask interface, get_Path, taskschd.irunningtask_path, taskschd/IRunningTask::Path, taskschd/IRunningTask::get_Path
 ms.topic: method
-f1_keywords: ["taskschd/IRunningTask.Path"]
+f1_keywords: 
+ - "taskschd/IRunningTask.Path"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

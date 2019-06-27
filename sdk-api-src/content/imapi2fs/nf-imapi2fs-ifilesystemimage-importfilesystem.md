@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],ImportFileSystem method, IFileSystemImage.ImportFileSystem, IFileSystemImage::ImportFileSystem, ImportFileSystem, ImportFileSystem method [IMAPI], ImportFileSystem method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_importfilesystem, imapi2fs/IFileSystemImage::ImportFileSystem
 ms.topic: method
-f1_keywords: ["imapi2fs/IFileSystemImage.ImportFileSystem"]
+f1_keywords: 
+ - "imapi2fs/IFileSystemImage.ImportFileSystem"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPControls2 interface [Windows Media Player],step method, IWMPControls2.step, IWMPControls2::step, IWMPControls2step, step, step method [Windows Media Player], step method [Windows Media Player],IWMPControls2 interface, wmp.iwmpcontrols2_step, wmp/IWMPControls2::step
 ms.topic: method
-f1_keywords: ["wmp/IWMPControls2.step"]
+f1_keywords: 
+ - "wmp/IWMPControls2.step"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

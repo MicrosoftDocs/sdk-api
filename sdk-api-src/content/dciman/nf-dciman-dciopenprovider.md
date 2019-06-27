@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DCIOpenProvider, DCIOpenProvider function [Windows API], _dciman_dciopenprovider, dciman/DCIOpenProvider, winprog._dciman_dciopenprovider, winui._dciman_dciopenprovider
 ms.topic: function
-f1_keywords: ["dciman/DCIOpenProvider"]
+f1_keywords: 
+ - "dciman/DCIOpenProvider"
 req.header: dciman.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaPosition interface [DirectShow],get_StopTime method, IMediaPosition.get_StopTime, IMediaPosition::get_StopTime, IMediaPositionget_StopTime, control/IMediaPosition::get_StopTime, dshow.imediaposition_get_stoptime, get_StopTime, get_StopTime method [DirectShow], get_StopTime method [DirectShow],IMediaPosition interface
 ms.topic: method
-f1_keywords: ["control/IMediaPosition.get_StopTime"]
+f1_keywords: 
+ - "control/IMediaPosition.get_StopTime"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

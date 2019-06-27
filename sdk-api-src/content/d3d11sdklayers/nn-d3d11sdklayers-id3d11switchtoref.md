@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6d6b602d-11ba-2e7a-07a9-f2af8fd90578, ID3D11SwitchToRef, ID3D11SwitchToRef interface [Direct3D 11], ID3D11SwitchToRef interface [Direct3D 11],described, d3d11sdklayers/ID3D11SwitchToRef, direct3d11.id3d11switchtoref
 ms.topic: interface
-f1_keywords: ["d3d11sdklayers/ID3D11SwitchToRef"]
+f1_keywords: 
+ - "d3d11sdklayers/ID3D11SwitchToRef"
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

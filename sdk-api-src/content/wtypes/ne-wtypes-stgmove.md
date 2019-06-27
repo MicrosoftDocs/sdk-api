@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: STGMOVE, STGMOVE enumeration [Structured Storage], STGMOVE_COPY, STGMOVE_MOVE, STGMOVE_SHALLOWCOPY, _stg_stgmove, stg.stgmove, wtypes/STGMOVE, wtypes/STGMOVE_COPY, wtypes/STGMOVE_MOVE, wtypes/STGMOVE_SHALLOWCOPY
 ms.topic: enum
-f1_keywords: ["wtypes/STGMOVE"]
+f1_keywords: 
+ - "wtypes/STGMOVE"
 req.header: wtypes.h
 req.include-header: 
 req.target-type: Windows

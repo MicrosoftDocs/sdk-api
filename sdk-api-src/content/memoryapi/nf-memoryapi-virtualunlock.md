@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VirtualUnlock, VirtualUnlock function, _win32_virtualunlock, base.virtualunlock, winbase/VirtualUnlock
 ms.topic: function
-f1_keywords: ["memoryapi/VirtualUnlock"]
+f1_keywords: 
+ - "memoryapi/VirtualUnlock"
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRegisteredTaskCollection interface [Task Scheduler],Item property, IRegisteredTaskCollection.Item, IRegisteredTaskCollection.get_Item, IRegisteredTaskCollection::Item, IRegisteredTaskCollection::get_Item, Item property [Task Scheduler], Item property [Task Scheduler],IRegisteredTaskCollection interface, get_Item, taskschd.iregisteredtaskcollection_item, taskschd/IRegisteredTaskCollection::Item, taskschd/IRegisteredTaskCollection::get_Item
 ms.topic: method
-f1_keywords: ["taskschd/IRegisteredTaskCollection.Item"]
+f1_keywords: 
+ - "taskschd/IRegisteredTaskCollection.Item"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

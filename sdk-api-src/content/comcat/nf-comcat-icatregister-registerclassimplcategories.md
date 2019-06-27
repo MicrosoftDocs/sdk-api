@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICatRegister interface [COM],RegisterClassImplCategories method, ICatRegister.RegisterClassImplCategories, ICatRegister::RegisterClassImplCategories, RegisterClassImplCategories, RegisterClassImplCategories method [COM], RegisterClassImplCategories method [COM],ICatRegister interface, _com_icatregister_registerclassimplcategories, com.icatregister_registerclassimplcategories, comcat/ICatRegister::RegisterClassImplCategories
 ms.topic: method
-f1_keywords: ["comcat/ICatRegister.RegisterClassImplCategories"]
+f1_keywords: 
+ - "comcat/ICatRegister.RegisterClassImplCategories"
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows

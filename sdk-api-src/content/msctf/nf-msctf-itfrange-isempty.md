@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfRange interface [Text Services Framework],IsEmpty method, ITfRange.IsEmpty, ITfRange::IsEmpty, IsEmpty, IsEmpty method [Text Services Framework], IsEmpty method [Text Services Framework],ITfRange interface, _tsf_itfrange_isempty_ref, msctf/ITfRange::IsEmpty, tsf.itfrange_isempty
 ms.topic: method
-f1_keywords: ["msctf/ITfRange.IsEmpty"]
+f1_keywords: 
+ - "msctf/ITfRange.IsEmpty"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

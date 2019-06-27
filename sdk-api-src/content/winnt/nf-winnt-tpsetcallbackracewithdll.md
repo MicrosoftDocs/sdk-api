@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TpSetCallbackRaceWithDll, TpSetCallbackRaceWithDll function, base.tpsetcallbackracewithdll, winnt/TpSetCallbackRaceWithDll
 ms.topic: function
-f1_keywords: ["winnt/TpSetCallbackRaceWithDll"]
+f1_keywords: 
+ - "winnt/TpSetCallbackRaceWithDll"
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

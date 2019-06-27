@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCachedSelection, GetCachedSelection method [Windows Accessibility], GetCachedSelection method [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],GetCachedSelection method, IUIAutomationLegacyIAccessiblePattern.GetCachedSelection, IUIAutomationLegacyIAccessiblePattern::GetCachedSelection, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_GetCachedSelection, uiauto_IUIAutomationLegacyIAccessiblePattern_GetCachedSelection, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::GetCachedSelection, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_GetCachedSelection
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationLegacyIAccessiblePattern.GetCachedSelection"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.GetCachedSelection"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

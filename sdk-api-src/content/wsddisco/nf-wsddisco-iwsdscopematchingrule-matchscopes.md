@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDScopeMatchingRule interface,MatchScopes method, IWSDScopeMatchingRule.MatchScopes, IWSDScopeMatchingRule::MatchScopes, MatchScopes, MatchScopes method, MatchScopes method,IWSDScopeMatchingRule interface, ncd.iwsdscopematchingrule_matchscopes_method, wsddisco/IWSDScopeMatchingRule::MatchScopes
 ms.topic: method
-f1_keywords: ["wsddisco/IWSDScopeMatchingRule.MatchScopes"]
+f1_keywords: 
+ - "wsddisco/IWSDScopeMatchingRule.MatchScopes"
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

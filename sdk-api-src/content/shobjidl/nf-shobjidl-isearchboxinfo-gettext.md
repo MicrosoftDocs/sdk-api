@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetText, GetText method [Windows Shell], GetText method [Windows Shell],ISearchBoxInfo interface, ISearchBoxInfo interface [Windows Shell],GetText method, ISearchBoxInfo.GetText, ISearchBoxInfo::GetText, _shell_ISearchBoxInfo_GetText, shell.ISearchBoxInfo_GetText, shobjidl/ISearchBoxInfo::GetText
 ms.topic: method
-f1_keywords: ["shobjidl/ISearchBoxInfo.GetText"]
+f1_keywords: 
+ - "shobjidl/ISearchBoxInfo.GetText"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

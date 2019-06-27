@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcNsGroupMbrInqDone, RpcNsGroupMbrInqDone function [RPC], _rpc_rpcnsgroupmbrinqdone, rpc.rpcnsgroupmbrinqdone, rpcnsi/RpcNsGroupMbrInqDone
 ms.topic: function
-f1_keywords: ["rpcnsi/RpcNsGroupMbrInqDone"]
+f1_keywords: 
+ - "rpcnsi/RpcNsGroupMbrInqDone"
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows

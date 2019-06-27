@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWnd, GetWnd method [Text Services Framework], GetWnd method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetWnd method, ITextStoreACP.GetWnd, ITextStoreACP::GetWnd, _tsf_itextstoreacp_getwnd_ref, textstor/ITextStoreACP::GetWnd, tsf.itextstoreacp_getwnd
 ms.topic: method
-f1_keywords: ["textstor/ITextStoreACP.GetWnd"]
+f1_keywords: 
+ - "textstor/ITextStoreACP.GetWnd"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

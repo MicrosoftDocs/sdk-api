@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Win32DeleteFile, Win32DeleteFile function [Windows Shell], _shell_Win32DeleteFile, shell.Win32DeleteFile, shlobj_core/Win32DeleteFile
 ms.topic: function
-f1_keywords: ["shlobj_core/Win32DeleteFile"]
+f1_keywords: 
+ - "shlobj_core/Win32DeleteFile"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEnlistmentId, GetEnlistmentId function [Files], fs.getenlistmentid, ktmw32/GetEnlistmentId
 ms.topic: function
-f1_keywords: ["ktmw32/GetEnlistmentId"]
+f1_keywords: 
+ - "ktmw32/GetEnlistmentId"
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

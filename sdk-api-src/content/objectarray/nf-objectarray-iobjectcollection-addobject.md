@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddObject, AddObject method [Windows Shell], AddObject method [Windows Shell],IObjectCollection interface, IObjectCollection interface [Windows Shell],AddObject method, IObjectCollection.AddObject, IObjectCollection::AddObject, _shell_IObjectCollection_AddObject, objectarray/IObjectCollection::AddObject, shell.IObjectCollection_AddObject
 ms.topic: method
-f1_keywords: ["objectarray/IObjectCollection.AddObject"]
+f1_keywords: 
+ - "objectarray/IObjectCollection.AddObject"
 req.header: objectarray.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

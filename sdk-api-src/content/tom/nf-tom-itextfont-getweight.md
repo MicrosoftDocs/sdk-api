@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWeight, GetWeight method [Windows Controls], GetWeight method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetWeight method, ITextFont.GetWeight, ITextFont::GetWeight, _win32_ITextFont_GetWeight, _win32_ITextFont_GetWeight_cpp, controls.ITextFont_GetWeight, controls._win32_ITextFont_GetWeight, tom/ITextFont::GetWeight
 ms.topic: method
-f1_keywords: ["tom/ITextFont.GetWeight"]
+f1_keywords: 
+ - "tom/ITextFont.GetWeight"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

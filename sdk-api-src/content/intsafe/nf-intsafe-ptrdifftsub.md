@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PtrdiffTSub, PtrdiffTSub function [Windows Shell], intsafe/PtrdiffTSub, shell.PtrdiffTSub
 ms.topic: function
-f1_keywords: ["intsafe/PtrdiffTSub"]
+f1_keywords: 
+ - "intsafe/PtrdiffTSub"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

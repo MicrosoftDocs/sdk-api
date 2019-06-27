@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRootElementBuildCache, GetRootElementBuildCache method [Windows Accessibility], GetRootElementBuildCache method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],GetRootElementBuildCache method, IUIAutomation.GetRootElementBuildCache, IUIAutomation::GetRootElementBuildCache, uiauto.uiauto_IUIAutomation_GetRootElementBuildCache, uiauto_IUIAutomation_GetRootElementBuildCache, uiautomationclient/IUIAutomation::GetRootElementBuildCache, winauto.uiauto_IUIAutomation_GetRootElementBuildCache
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomation.GetRootElementBuildCache"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomation.GetRootElementBuildCache"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

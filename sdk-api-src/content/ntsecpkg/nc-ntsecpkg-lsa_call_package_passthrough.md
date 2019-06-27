@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CallPackagePassthrough, CallPackagePassthrough callback function [Security], LSA_CALL_PACKAGE_PASSTHROUGH, LSA_CALL_PACKAGE_PASSTHROUGH callback, _ssp_callpackagepassthrough, ntsecpkg/CallPackagePassthrough, security.callpackagepassthrough
 ms.topic: callback
-f1_keywords: ["ntsecpkg/CallPackagePassthrough"]
+f1_keywords: 
+ - "ntsecpkg/CallPackagePassthrough"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

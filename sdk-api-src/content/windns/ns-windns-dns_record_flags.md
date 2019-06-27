@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DNS_RECORD_FLAGS, DNS_RECORD_FLAGS structure [DNS], _DnsRecordFlags, _dns_dns_record_flags, dns.dns_record_flags, windns/DNS_RECORD_FLAGS
 ms.topic: struct
-f1_keywords: ["windns/DNS_RECORD_FLAGS"]
+f1_keywords: 
+ - "windns/DNS_RECORD_FLAGS"
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

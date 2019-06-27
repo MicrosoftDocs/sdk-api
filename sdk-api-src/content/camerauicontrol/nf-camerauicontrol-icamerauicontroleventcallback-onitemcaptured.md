@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICameraUIControlEventCallback interface [Windows API],OnItemCaptured method, ICameraUIControlEventCallback.OnItemCaptured, ICameraUIControlEventCallback::OnItemCaptured, OnItemCaptured, OnItemCaptured method [Windows API], OnItemCaptured method [Windows API],ICameraUIControlEventCallback interface, camerauicontrol/ICameraUIControlEventCallback::OnItemCaptured, winprog.icamerauicontroleventcallback_onitemcaptured
 ms.topic: method
-f1_keywords: ["camerauicontrol/ICameraUIControlEventCallback.OnItemCaptured"]
+f1_keywords: 
+ - "camerauicontrol/ICameraUIControlEventCallback.OnItemCaptured"
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows

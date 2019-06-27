@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UI_ANIMATION_REPEAT_MODE, UI_ANIMATION_REPEAT_MODE enumeration [Windows Animation], UI_ANIMATION_REPEAT_MODE_ALTERNATE, UI_ANIMATION_REPEAT_MODE_NORMAL, uianimation.ui_animation_repeat_mode, uianimation/UI_ANIMATION_REPEAT_MODE, uianimation/UI_ANIMATION_REPEAT_MODE_ALTERNATE, uianimation/UI_ANIMATION_REPEAT_MODE_NORMAL
 ms.topic: enum
-f1_keywords: ["uianimation/UI_ANIMATION_REPEAT_MODE"]
+f1_keywords: 
+ - "uianimation/UI_ANIMATION_REPEAT_MODE"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

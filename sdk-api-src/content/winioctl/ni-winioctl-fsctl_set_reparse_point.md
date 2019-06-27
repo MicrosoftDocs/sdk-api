@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_SET_REPARSE_POINT, FSCTL_SET_REPARSE_POINT control, FSCTL_SET_REPARSE_POINT control code [Files], _win32_fsctl_set_reparse_point, base.fsctl_set_reparse_point, fs.fsctl_set_reparse_point, winioctl/FSCTL_SET_REPARSE_POINT
 ms.topic: ioctl
-f1_keywords: ["winioctl/FSCTL_SET_REPARSE_POINT"]
+f1_keywords: 
+ - "winioctl/FSCTL_SET_REPARSE_POINT"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

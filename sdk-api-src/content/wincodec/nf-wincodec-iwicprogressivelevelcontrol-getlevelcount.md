@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLevelCount, GetLevelCount method [Windows Imaging Component], GetLevelCount method [Windows Imaging Component],IWICProgressiveLevelControl interface, IWICProgressiveLevelControl interface [Windows Imaging Component],GetLevelCount method, IWICProgressiveLevelControl.GetLevelCount, IWICProgressiveLevelControl::GetLevelCount, _wic_codec_iwicprogressivelevelcontrol_getlevelcount, wic._wic_codec_iwicprogressivelevelcontrol_getlevelcount, wincodec/IWICProgressiveLevelControl::GetLevelCount
 ms.topic: method
-f1_keywords: ["wincodec/IWICProgressiveLevelControl.GetLevelCount"]
+f1_keywords: 
+ - "wincodec/IWICProgressiveLevelControl.GetLevelCount"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [Active Directory], Commit method [Active Directory],IDsAdminNewObjPrimarySite interface, IDsAdminNewObjPrimarySite interface [Active Directory],Commit method, IDsAdminNewObjPrimarySite.Commit, IDsAdminNewObjPrimarySite::Commit, _glines_idsadminnewobjprimarysite_commit, ad.idsadminnewobjprimarysite__commit, ad.idsadminnewobjprimarysite_commit, dsadmin/IDsAdminNewObjPrimarySite::Commit
 ms.topic: method
-f1_keywords: ["dsadmin/IDsAdminNewObjPrimarySite.Commit"]
+f1_keywords: 
+ - "dsadmin/IDsAdminNewObjPrimarySite.Commit"
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows

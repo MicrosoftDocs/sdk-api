@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTextExt, GetTextExt method [Text Services Framework], GetTextExt method [Text Services Framework],ITfContextView interface, ITfContextView interface [Text Services Framework],GetTextExt method, ITfContextView.GetTextExt, ITfContextView::GetTextExt, _tsf_itfcontextview_gettextext_ref, msctf/ITfContextView::GetTextExt, tsf.itfcontextview_gettextext
 ms.topic: method
-f1_keywords: ["msctf/ITfContextView.GetTextExt"]
+f1_keywords: 
+ - "msctf/ITfContextView.GetTextExt"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

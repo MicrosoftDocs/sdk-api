@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSetYPtr, XMVectorSetYPtr, XMVectorSetYPtr method [DirectX Math Support APIs], dxmath.xmvectorsetyptr
 ms.topic: function
-f1_keywords: ["directxmath/XMVectorSetYPtr"]
+f1_keywords: 
+ - "directxmath/XMVectorSetYPtr"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

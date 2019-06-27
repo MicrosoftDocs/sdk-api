@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_SVG_LENGTH_UNITS, D2D1_SVG_LENGTH_UNITS enumeration [Direct2D], D2D1_SVG_LENGTH_UNITS_FORCE_DWORD, D2D1_SVG_LENGTH_UNITS_NUMBER, D2D1_SVG_LENGTH_UNITS_PERCENTAGE, d2d1svg/D2D1_SVG_LENGTH_UNITS, d2d1svg/D2D1_SVG_LENGTH_UNITS_FORCE_DWORD, d2d1svg/D2D1_SVG_LENGTH_UNITS_NUMBER, d2d1svg/D2D1_SVG_LENGTH_UNITS_PERCENTAGE, direct2d.d2d1_svg_length_units
 ms.topic: enum
-f1_keywords: ["d2d1svg/D2D1_SVG_LENGTH_UNITS"]
+f1_keywords: 
+ - "d2d1svg/D2D1_SVG_LENGTH_UNITS"
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncMPVProfile, codecapi/eAVEncMPVProfile_422, codecapi/eAVEncMPVProfile_High, codecapi/eAVEncMPVProfile_Main, codecapi/eAVEncMPVProfile_Simple, codecapi/eAVEncMPVProfile_unknown, dshow.eavencmpvprofile, eAVEncMPVProfile, eAVEncMPVProfile enumeration [DirectShow], eAVEncMPVProfileEnumeration, eAVEncMPVProfile_422, eAVEncMPVProfile_High, eAVEncMPVProfile_Main, eAVEncMPVProfile_Simple, eAVEncMPVProfile_unknown
 ms.topic: enum
-f1_keywords: ["codecapi/eAVEncMPVProfile"]
+f1_keywords: 
+ - "codecapi/eAVEncMPVProfile"
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [Microsoft Broadband Networks], Disconnect method [Microsoft Broadband Networks],IMbnConnection interface, IMbnConnection interface [Microsoft Broadband Networks],Disconnect method, IMbnConnection.Disconnect, IMbnConnection::Disconnect, mbn.imbnconnection_disconnect, mbnapi/IMbnConnection::Disconnect
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnConnection.Disconnect"]
+f1_keywords: 
+ - "mbnapi/IMbnConnection.Disconnect"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

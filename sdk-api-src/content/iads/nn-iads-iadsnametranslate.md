@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsNameTranslate, IADsNameTranslate interface [ADSI], IADsNameTranslate interface [ADSI],described, NameTranslate, _ds_iadsnametranslate, adsi.iadsnametranslate, iads/IADsNameTranslate
 ms.topic: interface
-f1_keywords: ["iads/IADsNameTranslate"]
+f1_keywords: 
+ - "iads/IADsNameTranslate"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

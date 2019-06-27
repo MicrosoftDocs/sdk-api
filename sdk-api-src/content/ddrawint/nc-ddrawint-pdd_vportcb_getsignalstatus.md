@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdVideoPortGetSignalStatus, DdVideoPortGetSignalStatus callback function [Display Devices], PDD_VPORTCB_GETSIGNALSTATUS, PDD_VPORTCB_GETSIGNALSTATUS callback, ddfncs_ed14dce3-e341-436b-90b4-1175b2eae121.xml, ddrawint/DdVideoPortGetSignalStatus, display.ddvideoportgetsignalstatus
 ms.topic: callback
-f1_keywords: ["ddrawint/DdVideoPortGetSignalStatus"]
+f1_keywords: 
+ - "ddrawint/DdVideoPortGetSignalStatus"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

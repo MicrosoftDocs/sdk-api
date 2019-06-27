@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteEnhMetaFile, DeleteEnhMetaFile function [Windows GDI], DeleteEnhMetaFileW, _win32_DeleteEnhMetaFile, gdi.deleteenhmetafile, wingdi/DeleteEnhMetaFile, wingdi/DeleteEnhMetaFileW
 ms.topic: function
-f1_keywords: ["wingdi/DeleteEnhMetaFile"]
+f1_keywords: 
+ - "wingdi/DeleteEnhMetaFile"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDisplays, GetDisplays method [Windows Controls], GetDisplays method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetDisplays method, ITextDocument2.GetDisplays, ITextDocument2::GetDisplays, controls.itextdocument2_getdisplays, tom/ITextDocument2::GetDisplays
 ms.topic: method
-f1_keywords: ["tom/ITextDocument2.GetDisplays"]
+f1_keywords: 
+ - "tom/ITextDocument2.GetDisplays"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

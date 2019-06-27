@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionCompositeEffect interface [DirectComposition],SetMode method, IDCompositionCompositeEffect.SetMode, IDCompositionCompositeEffect::SetMode, SetMode, SetMode method [DirectComposition], SetMode method [DirectComposition],IDCompositionCompositeEffect interface, dcomp/IDCompositionCompositeEffect::SetMode, directcomp.idcompositioncompositeeffect_setmode
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionCompositeEffect.SetMode"]
+f1_keywords: 
+ - "dcomp/IDCompositionCompositeEffect.SetMode"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

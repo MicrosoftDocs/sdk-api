@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemDeletedFromCache method, IOfflineFilesEvents.ItemDeletedFromCache, IOfflineFilesEvents::ItemDeletedFromCache, ItemDeletedFromCache, ItemDeletedFromCache method [Offline Files], ItemDeletedFromCache method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemDeletedFromCache, of.iofflinefilesevents_itemdeletedfromcache
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesEvents.ItemDeletedFromCache"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesEvents.ItemDeletedFromCache"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

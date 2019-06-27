@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: setsourcefilter, setsourcefilter function [Winsock], winsock.setsourcefilter, ws2tcpip/setsourcefilter
 ms.topic: function
-f1_keywords: ["ws2tcpip/setsourcefilter"]
+f1_keywords: 
+ - "ws2tcpip/setsourcefilter"
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

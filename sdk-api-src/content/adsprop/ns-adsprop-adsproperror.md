@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PADSPROPERROR, ADSPROPERROR, ADSPROPERROR structure [Active Directory], PADSPROPERROR, PADSPROPERROR structure pointer [Active Directory], _glines_adsproperror, ad.adsproperror, adsprop/ADSPROPERROR, adsprop/PADSPROPERROR"
 ms.topic: struct
-f1_keywords: ["adsprop/ADSPROPERROR"]
+f1_keywords: 
+ - "adsprop/ADSPROPERROR"
 req.header: adsprop.h
 req.include-header: 
 req.target-type: Windows

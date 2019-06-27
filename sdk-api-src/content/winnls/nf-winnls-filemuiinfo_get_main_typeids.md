@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FILEMUIINFO_GET_MAIN_TYPEIDS, FILEMUIINFO_GET_MAIN_TYPEIDS macro [Internationalization for Windows Applications], _win32_FILEMUIINFO_GET_MAIN_TYPEIDS, intl.filemuiinfo_get_main_typeids, winnls/FILEMUIINFO_GET_MAIN_TYPEIDS
 ms.topic: macro
-f1_keywords: ["winnls/FILEMUIINFO_GET_MAIN_TYPEIDS"]
+f1_keywords: 
+ - "winnls/FILEMUIINFO_GET_MAIN_TYPEIDS"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

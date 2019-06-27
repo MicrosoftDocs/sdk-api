@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PINFCONTEXT, INFCONTEXT, INFCONTEXT structure [Setup API], PINFCONTEXT, PINFCONTEXT structure pointer [Setup API], _setupapi_infcontext_str, setup.infcontext_str, setupapi/INFCONTEXT, setupapi/PINFCONTEXT"
 ms.topic: struct
-f1_keywords: ["setupapi/INFCONTEXT"]
+f1_keywords: 
+ - "setupapi/INFCONTEXT"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

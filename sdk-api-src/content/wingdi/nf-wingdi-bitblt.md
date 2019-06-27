@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BLACKNESS, BitBlt, BitBlt function [Windows GDI], CAPTUREBLT, DSTINVERT, MERGECOPY, MERGEPAINT, NOMIRRORBITMAP, NOTSRCCOPY, NOTSRCERASE, PATCOPY, PATINVERT, PATPAINT, SRCAND, SRCCOPY, SRCERASE, SRCINVERT, SRCPAINT, WHITENESS, _win32_BitBlt, gdi.bitblt, wingdi/BitBlt
 ms.topic: function
-f1_keywords: ["wingdi/BitBlt"]
+f1_keywords: 
+ - "wingdi/BitBlt"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

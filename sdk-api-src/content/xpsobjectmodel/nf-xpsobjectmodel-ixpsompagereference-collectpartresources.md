@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CollectPartResources, CollectPartResources method [XPS Documents and Packaging], CollectPartResources method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],CollectPartResources method, IXpsOMPageReference.CollectPartResources, IXpsOMPageReference::CollectPartResources, xps.ixpsompagereference_collectpartresources, xpsobjectmodel/IXpsOMPageReference::CollectPartResources
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMPageReference.CollectPartResources"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPageReference.CollectPartResources"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

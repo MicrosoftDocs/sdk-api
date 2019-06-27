@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateBoolean, CreateBoolean method [Windows Runtime], CreateBoolean method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateBoolean method, IPropertyValueStatics.CreateBoolean, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateBoolean, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateBoolean, winrt.ipropertyvaluefactory_createboolean, winrt.ipropertyvaluestatics_createboolean
 ms.topic: method
-f1_keywords: ["windows.foundation/IPropertyValueStatics.CreateBoolean"]
+f1_keywords: 
+ - "windows.foundation/IPropertyValueStatics.CreateBoolean"
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

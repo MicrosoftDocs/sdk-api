@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileDialog2 interface [Windows Shell],SetCancelButtonLabel method, IFileDialog2.SetCancelButtonLabel, IFileDialog2::SetCancelButtonLabel, SetCancelButtonLabel, SetCancelButtonLabel method [Windows Shell], SetCancelButtonLabel method [Windows Shell],IFileDialog2 interface, _shell_IFileDialog2_SetCancelButtonLabel, shell.IFileDialog2_SetCancelButtonLabel, shobjidl/IFileDialog2::SetCancelButtonLabel
 ms.topic: method
-f1_keywords: ["shobjidl/IFileDialog2.SetCancelButtonLabel"]
+f1_keywords: 
+ - "shobjidl/IFileDialog2.SetCancelButtonLabel"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

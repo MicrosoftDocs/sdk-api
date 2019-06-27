@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateAndRegisterNewSyncProvider, CreateAndRegisterNewSyncProvider method [Windows Sync], CreateAndRegisterNewSyncProvider method [Windows Sync],ISyncProviderConfigUI interface, ISyncProviderConfigUI interface [Windows Sync],CreateAndRegisterNewSyncProvider method, ISyncProviderConfigUI.CreateAndRegisterNewSyncProvider, ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider, syncregistration/ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider, winsync.isyncproviderconfigui_createandregisternewsyncprovider
 ms.topic: method
-f1_keywords: ["syncregistration/ISyncProviderConfigUI.CreateAndRegisterNewSyncProvider"]
+f1_keywords: 
+ - "syncregistration/ISyncProviderConfigUI.CreateAndRegisterNewSyncProvider"
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

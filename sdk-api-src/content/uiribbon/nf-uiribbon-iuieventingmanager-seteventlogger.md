@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIEventingManager interface [Windows Ribbon],SetEventLogger method, IUIEventingManager.SetEventLogger, IUIEventingManager::SetEventLogger, SetEventLogger, SetEventLogger method [Windows Ribbon], SetEventLogger method [Windows Ribbon],IUIEventingManager interface, uiribbon/IUIEventingManager::SetEventLogger, windowsribbon.iuieventingmanager_seteventlogger
 ms.topic: method
-f1_keywords: ["uiribbon/IUIEventingManager.SetEventLogger"]
+f1_keywords: 
+ - "uiribbon/IUIEventingManager.SetEventLogger"
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetResourcePluginStore, GetResourcePluginStore method [Remote Desktop Services], GetResourcePluginStore method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],GetResourcePluginStore method, ITsSbProvider.GetResourcePluginStore, ITsSbProvider::GetResourcePluginStore, sbtsv/ITsSbProvider::GetResourcePluginStore, termserv.itssbprovider_getresourcepluginstore
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbProvider.GetResourcePluginStore"]
+f1_keywords: 
+ - "sbtsv/ITsSbProvider.GetResourcePluginStore"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

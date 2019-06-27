@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfCompartmentMgr, ITfCompartmentMgr interface [Text Services Framework], ITfCompartmentMgr interface [Text Services Framework],described, _tsf_itfcompartmentmgr_ref, msctf/ITfCompartmentMgr, tsf.itfcompartmentmgr
 ms.topic: interface
-f1_keywords: ["msctf/ITfCompartmentMgr"]
+f1_keywords: 
+ - "msctf/ITfCompartmentMgr"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAnnotationObjects, GetAnnotationObjects method [Windows Accessibility], GetAnnotationObjects method [Windows Accessibility],ISpreadsheetItemProvider interface, ISpreadsheetItemProvider interface [Windows Accessibility],GetAnnotationObjects method, ISpreadsheetItemProvider.GetAnnotationObjects, ISpreadsheetItemProvider::GetAnnotationObjects, uiautomationcore/ISpreadsheetItemProvider::GetAnnotationObjects, winauto.uiauto_ISpreadsheetItemProvider_GetAnnotationObjects
 ms.topic: method
-f1_keywords: ["uiautomationcore/ISpreadsheetItemProvider.GetAnnotationObjects"]
+f1_keywords: 
+ - "uiautomationcore/ISpreadsheetItemProvider.GetAnnotationObjects"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

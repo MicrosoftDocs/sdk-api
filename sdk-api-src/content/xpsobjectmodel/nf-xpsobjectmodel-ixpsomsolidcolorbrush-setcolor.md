@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMSolidColorBrush interface [XPS Documents and Packaging],SetColor method, IXpsOMSolidColorBrush.SetColor, IXpsOMSolidColorBrush::SetColor, SetColor, SetColor method [XPS Documents and Packaging], SetColor method [XPS Documents and Packaging],IXpsOMSolidColorBrush interface, xps.ixpsomsolidcolorbrush_setcolor, xpsobjectmodel/IXpsOMSolidColorBrush::SetColor
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMSolidColorBrush.SetColor"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMSolidColorBrush.SetColor"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsInternetESCEnabled, IsInternetESCEnabled function [Windows Shell], _win32_IsInternetESCEnabled, shell.IsInternetESCEnabled, shlwapi/IsInternetESCEnabled
 ms.topic: function
-f1_keywords: ["shlwapi/IsInternetESCEnabled"]
+f1_keywords: 
+ - "shlwapi/IsInternetESCEnabled"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UIntPtrAdd, UIntPtrAdd function [Windows Shell], _shell_UIntPtrAdd, intsafe/UIntPtrAdd, shell.UIntPtrAdd
 ms.topic: function
-f1_keywords: ["intsafe/UIntPtrAdd"]
+f1_keywords: 
+ - "intsafe/UIntPtrAdd"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

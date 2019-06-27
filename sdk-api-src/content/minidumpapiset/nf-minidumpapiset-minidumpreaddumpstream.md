@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MiniDumpReadDumpStream, MiniDumpReadDumpStream function, _win32_minidumpreaddumpstream, base.minidumpreaddumpstream, minidumpapiset/MiniDumpReadDumpStream
 ms.topic: function
-f1_keywords: ["minidumpapiset/MiniDumpReadDumpStream"]
+f1_keywords: 
+ - "minidumpapiset/MiniDumpReadDumpStream"
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
 req.target-type: Windows

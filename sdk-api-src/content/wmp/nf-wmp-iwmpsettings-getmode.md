@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],getMode method, IWMPSettings.getMode, IWMPSettings::getMode, IWMPSettingsgetMode, getMode, getMode method [Windows Media Player], getMode method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_getmode, wmp/IWMPSettings::getMode
 ms.topic: method
-f1_keywords: ["wmp/IWMPSettings.getMode"]
+f1_keywords: 
+ - "wmp/IWMPSettings.getMode"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

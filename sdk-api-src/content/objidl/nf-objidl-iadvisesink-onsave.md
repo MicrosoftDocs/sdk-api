@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAdviseSink interface [COM],OnSave method, IAdviseSink.OnSave, IAdviseSink::OnSave, OnSave, OnSave method [COM], OnSave method [COM],IAdviseSink interface, _ole_iadvisesink_onsave, com.iadvisesink_onsave, objidl/IAdviseSink::OnSave
 ms.topic: method
-f1_keywords: ["objidl/IAdviseSink.OnSave"]
+f1_keywords: 
+ - "objidl/IAdviseSink.OnSave"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],get_SectorCount method, IRawCDImageTrackInfo.get_SectorCount, IRawCDImageTrackInfo::get_SectorCount, get_SectorCount, get_SectorCount method [IMAPI], get_SectorCount method [IMAPI],IRawCDImageTrackInfo interface, imapi.irawcdimagetrackinfo_get_sectorcount, imapi2/IRawCDImageTrackInfo::get_SectorCount
 ms.topic: method
-f1_keywords: ["imapi2/IRawCDImageTrackInfo.get_SectorCount"]
+f1_keywords: 
+ - "imapi2/IRawCDImageTrackInfo.get_SectorCount"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

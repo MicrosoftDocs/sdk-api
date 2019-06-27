@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPENUM_SERVICE_STATUS_PROCESSW, ENUM_SERVICE_STATUS_PROCESS, ENUM_SERVICE_STATUS_PROCESS structure, ENUM_SERVICE_STATUS_PROCESSA, ENUM_SERVICE_STATUS_PROCESSW, LPENUM_SERVICE_STATUS_PROCESS, LPENUM_SERVICE_STATUS_PROCESS structure pointer, _win32_enum_service_status_process_str, base.enum_service_status_process_str, winsvc/ENUM_SERVICE_STATUS_PROCESS, winsvc/ENUM_SERVICE_STATUS_PROCESSA, winsvc/ENUM_SERVICE_STATUS_PROCESSW, winsvc/LPENUM_SERVICE_STATUS_PROCESS"
 ms.topic: struct
-f1_keywords: ["winsvc/ENUM_SERVICE_STATUS_PROCESS"]
+f1_keywords: 
+ - "winsvc/ENUM_SERVICE_STATUS_PROCESS"
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

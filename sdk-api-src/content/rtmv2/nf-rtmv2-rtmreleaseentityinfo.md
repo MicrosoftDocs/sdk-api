@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtmReleaseEntityInfo, RtmReleaseEntityInfo function [RAS], _rtmv2ref_rtmreleaseentityinfo, rras.rtmreleaseentityinfo, rtmv2/RtmReleaseEntityInfo
 ms.topic: function
-f1_keywords: ["rtmv2/RtmReleaseEntityInfo"]
+f1_keywords: 
+ - "rtmv2/RtmReleaseEntityInfo"
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

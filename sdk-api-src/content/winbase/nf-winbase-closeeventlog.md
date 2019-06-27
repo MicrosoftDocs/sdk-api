@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseEventLog, CloseEventLog function, _win32_closeeventlog, base.closeeventlog, winbase/CloseEventLog
 ms.topic: function
-f1_keywords: ["winbase/CloseEventLog"]
+f1_keywords: 
+ - "winbase/CloseEventLog"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

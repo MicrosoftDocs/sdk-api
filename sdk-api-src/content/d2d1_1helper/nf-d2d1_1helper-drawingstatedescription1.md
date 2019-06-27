@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawingStateDescription1, DrawingStateDescription1 function [Direct2D], d2d1_1helper/DrawingStateDescription1, direct2d.drawingstatedescription1
 ms.topic: function
-f1_keywords: ["d2d1_1helper/DrawingStateDescription1"]
+f1_keywords: 
+ - "d2d1_1helper/DrawingStateDescription1"
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows

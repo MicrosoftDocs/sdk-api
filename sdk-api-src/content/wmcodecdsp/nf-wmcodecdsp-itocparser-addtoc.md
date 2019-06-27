@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddToc, AddToc method [Media Foundation], AddToc method [Media Foundation],ITocParser interface, ITocParser interface [Media Foundation],AddToc method, ITocParser.AddToc, ITocParser::AddToc, codecapi.itocparser_addtoc, mf.itocparser_addtoc, wmcodecdsp/ITocParser::AddToc
 ms.topic: method
-f1_keywords: ["wmcodecdsp/ITocParser.AddToc"]
+f1_keywords: 
+ - "wmcodecdsp/ITocParser.AddToc"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

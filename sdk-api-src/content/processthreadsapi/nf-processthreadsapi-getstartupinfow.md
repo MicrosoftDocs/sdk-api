@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStartupInfo, GetStartupInfo function, GetStartupInfoA, GetStartupInfoW, _win32_getstartupinfo, base.getstartupinfo, processthreadsapi/GetStartupInfo, processthreadsapi/GetStartupInfoA, processthreadsapi/GetStartupInfoW
 ms.topic: function
-f1_keywords: ["processthreadsapi/GetStartupInfo"]
+f1_keywords: 
+ - "processthreadsapi/GetStartupInfo"
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

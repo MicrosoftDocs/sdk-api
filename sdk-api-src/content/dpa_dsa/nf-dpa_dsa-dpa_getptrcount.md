@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DPA_GetPtrCount, DPA_GetPtrCount macro [Windows Controls], _shell_DPA_GetPtrCount, _shell_DPA_GetPtrCount_cpp, controls.DPA_GetPtrCount, controls._shell_DPA_GetPtrCount, dpa_dsa/DPA_GetPtrCount
 ms.topic: macro
-f1_keywords: ["dpa_dsa/DPA_GetPtrCount"]
+f1_keywords: 
+ - "dpa_dsa/DPA_GetPtrCount"
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

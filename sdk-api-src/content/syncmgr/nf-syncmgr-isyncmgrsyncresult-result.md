@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSyncResult interface [Windows Shell],Result method, ISyncMgrSyncResult.Result, ISyncMgrSyncResult::Result, Result, Result method [Windows Shell], Result method [Windows Shell],ISyncMgrSyncResult interface, _shell_ISyncMgrSyncResult_Result, shell.ISyncMgrSyncResult_Result, syncmgr/ISyncMgrSyncResult::Result
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrSyncResult.Result"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrSyncResult.Result"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

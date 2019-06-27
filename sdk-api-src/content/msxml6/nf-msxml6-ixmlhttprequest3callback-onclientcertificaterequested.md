@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest3Callback interface [XMLHttpRequest2],OnClientCertificateRequested method, IXMLHTTPRequest3Callback.OnClientCertificateRequested, IXMLHTTPRequest3Callback::OnClientCertificateRequested, OnClientCertificateRequested, OnClientCertificateRequested method [XMLHttpRequest2], OnClientCertificateRequested method [XMLHttpRequest2],IXMLHTTPRequest3Callback interface, ixhr2.ixmlhttprequest3callback_onclientcertificaterequested, msxml6/IXMLHTTPRequest3Callback::OnClientCertificateRequested
 ms.topic: method
-f1_keywords: ["msxml6/IXMLHTTPRequest3Callback.OnClientCertificateRequested"]
+f1_keywords: 
+ - "msxml6/IXMLHTTPRequest3Callback.OnClientCertificateRequested"
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPerAdapterInfo, GetPerAdapterInfo function [IP Helper], _iphlp_getperadapterinfo, iphlp.getperadapterinfo, iphlpapi/GetPerAdapterInfo
 ms.topic: function
-f1_keywords: ["iphlpapi/GetPerAdapterInfo"]
+f1_keywords: 
+ - "iphlpapi/GetPerAdapterInfo"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

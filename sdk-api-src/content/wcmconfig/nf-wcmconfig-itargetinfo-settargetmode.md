@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITargetInfo interface [SMI],SetTargetMode method, ITargetInfo.SetTargetMode, ITargetInfo::SetTargetMode, SetTargetMode, SetTargetMode method [SMI], SetTargetMode method [SMI],ITargetInfo interface, smi.itargetinfo_settargetmode, wcmconfig/ITargetInfo::SetTargetMode
 ms.topic: method
-f1_keywords: ["wcmconfig/ITargetInfo.SetTargetMode"]
+f1_keywords: 
+ - "wcmconfig/ITargetInfo.SetTargetMode"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

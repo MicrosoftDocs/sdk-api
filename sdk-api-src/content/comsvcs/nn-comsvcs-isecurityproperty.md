@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISecurityProperty, ISecurityProperty interface [COM+], ISecurityProperty interface [COM+],described, _cos_ISecurityProperty, comsvcs/ISecurityProperty, cos.isecurityproperty
 ms.topic: interface
-f1_keywords: ["comsvcs/ISecurityProperty"]
+f1_keywords: 
+ - "comsvcs/ISecurityProperty"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

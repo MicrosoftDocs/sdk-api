@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPointsCount, GetPointsCount method [Direct2D], GetPointsCount method [Direct2D],ID2D1SvgPointCollection interface, ID2D1SvgPointCollection interface [Direct2D],GetPointsCount method, ID2D1SvgPointCollection.GetPointsCount, ID2D1SvgPointCollection::GetPointsCount, d2d1svg/ID2D1SvgPointCollection::GetPointsCount, direct2d.id2d1svgpointcollection_getpointscount
 ms.topic: method
-f1_keywords: ["d2d1svg/ID2D1SvgPointCollection.GetPointsCount"]
+f1_keywords: 
+ - "d2d1svg/ID2D1SvgPointCollection.GetPointsCount"
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

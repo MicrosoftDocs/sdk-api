@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHFindFiles, SHFindFiles function [Windows Shell], _win32_SHFindFiles, shell.SHFindFiles, shlobj_core/SHFindFiles
 ms.topic: function
-f1_keywords: ["shlobj_core/SHFindFiles"]
+f1_keywords: 
+ - "shlobj_core/SHFindFiles"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

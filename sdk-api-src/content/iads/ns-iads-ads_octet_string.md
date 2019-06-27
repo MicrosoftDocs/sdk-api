@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PADS_OCTET_STRING, ADS_OCTET_STRING, ADS_OCTET_STRING structure [ADSI], PADS_OCTET_STRING, PADS_OCTET_STRING structure pointer [ADSI], _ds_ads_octet_string, adsi.ads__octet__string, adsi.ads_octet_string, iads/ADS_OCTET_STRING, iads/PADS_OCTET_STRING"
 ms.topic: struct
-f1_keywords: ["iads/ADS_OCTET_STRING"]
+f1_keywords: 
+ - "iads/ADS_OCTET_STRING"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

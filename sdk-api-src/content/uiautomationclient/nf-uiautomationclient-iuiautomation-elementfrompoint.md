@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ElementFromPoint, ElementFromPoint method [Windows Accessibility], ElementFromPoint method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ElementFromPoint method, IUIAutomation.ElementFromPoint, IUIAutomation::ElementFromPoint, uiauto.uiauto_IUIAutomation_ElementFromPoint, uiauto_IUIAutomation_ElementFromPoint, uiautomationclient/IUIAutomation::ElementFromPoint, winauto.uiauto_IUIAutomation_ElementFromPoint
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomation.ElementFromPoint"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomation.ElementFromPoint"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

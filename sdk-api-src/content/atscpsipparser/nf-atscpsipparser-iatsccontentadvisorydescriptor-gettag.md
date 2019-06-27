@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IAtscContentAdvisoryDescriptor interface, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies],GetTag method, IAtscContentAdvisoryDescriptor.GetTag, IAtscContentAdvisoryDescriptor::GetTag, IAtscContentAdvisoryDescriptorGetTag, atscpsipparser/IAtscContentAdvisoryDescriptor::GetTag, mstv.iatsccontentadvisorydescriptor_gettag
 ms.topic: method
-f1_keywords: ["atscpsipparser/IAtscContentAdvisoryDescriptor.GetTag"]
+f1_keywords: 
+ - "atscpsipparser/IAtscContentAdvisoryDescriptor.GetTag"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConvertInterfaceNameToLuidA, ConvertInterfaceNameToLuidA function [IP Helper], iphlp.convertinterfacenametoluida, netioapi/ConvertInterfaceNameToLuidA
 ms.topic: function
-f1_keywords: ["netioapi/ConvertInterfaceNameToLuidA"]
+f1_keywords: 
+ - "netioapi/ConvertInterfaceNameToLuidA"
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_ManufacturerName method, IUPnPDevice.get_ManufacturerName, IUPnPDevice::get_ManufacturerName, _upnp_iupnpdevice_manufacturername, get_ManufacturerName, get_ManufacturerName method [UPnP APIs], get_ManufacturerName method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_manufacturername, upnp/IUPnPDevice::get_ManufacturerName
 ms.topic: method
-f1_keywords: ["upnp/IUPnPDevice.get_ManufacturerName"]
+f1_keywords: 
+ - "upnp/IUPnPDevice.get_ManufacturerName"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

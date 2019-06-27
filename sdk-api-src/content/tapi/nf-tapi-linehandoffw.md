@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linehandoff, lineHandoff, lineHandoff function [TAPI 2.2], lineHandoffA, lineHandoffW, tapi/lineHandoff, tapi/lineHandoffA, tapi/lineHandoffW, tapi2.linehandoff"
 ms.topic: function
-f1_keywords: ["tapi/lineHandoff"]
+f1_keywords: 
+ - "tapi/lineHandoff"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

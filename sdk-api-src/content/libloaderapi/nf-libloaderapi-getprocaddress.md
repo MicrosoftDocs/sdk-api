@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProcAddress, GetProcAddress function, _win32_getprocaddress, base.getprocaddress, libloaderapi/GetProcAddress, winbase/GetProcAddress
 ms.topic: function
-f1_keywords: ["libloaderapi/GetProcAddress"]
+f1_keywords: 
+ - "libloaderapi/GetProcAddress"
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

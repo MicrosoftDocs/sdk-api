@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellFolder, IShellFolder interface [Windows Shell], IShellFolder interface [Windows Shell],described, _win32_IShellFolder, _win32_IShellFolder_cpp, shell.IShellFolder, shobjidl_core/IShellFolder
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IShellFolder"]
+f1_keywords: 
+ - "shobjidl_core/IShellFolder"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

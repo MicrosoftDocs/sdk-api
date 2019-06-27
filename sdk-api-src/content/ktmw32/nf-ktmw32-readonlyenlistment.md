@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReadOnlyEnlistment, ReadOnlyEnlistment function [Files], fs.readonlyenlistment, ktmw32/ReadOnlyEnlistment
 ms.topic: function
-f1_keywords: ["ktmw32/ReadOnlyEnlistment"]
+f1_keywords: 
+ - "ktmw32/ReadOnlyEnlistment"
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509PolicyServerListManager interface [Security],ItemByIndex property, IX509PolicyServerListManager.ItemByIndex, IX509PolicyServerListManager.get_ItemByIndex, IX509PolicyServerListManager::ItemByIndex, IX509PolicyServerListManager::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IX509PolicyServerListManager interface, certenroll/IX509PolicyServerListManager::ItemByIndex, certenroll/IX509PolicyServerListManager::get_ItemByIndex, get_ItemByIndex, security.ix509policyserverlistmanager_itembyindex
 ms.topic: method
-f1_keywords: ["certenroll/IX509PolicyServerListManager.ItemByIndex"]
+f1_keywords: 
+ - "certenroll/IX509PolicyServerListManager.ItemByIndex"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointOffloadStreamVolume interface [Core Audio],SetChannelVolumes method, IAudioEndpointOffloadStreamVolume.SetChannelVolumes, IAudioEndpointOffloadStreamVolume::SetChannelVolumes, SetChannelVolumes, SetChannelVolumes method [Core Audio], SetChannelVolumes method [Core Audio],IAudioEndpointOffloadStreamVolume interface, audioengineendpoint/IAudioEndpointOffloadStreamVolume::SetChannelVolumes, coreaudio.iaudioendpointoffloadstreamvolume_setchannelvolumes
 ms.topic: method
-f1_keywords: ["audioengineendpoint/IAudioEndpointOffloadStreamVolume.SetChannelVolumes"]
+f1_keywords: 
+ - "audioengineendpoint/IAudioEndpointOffloadStreamVolume.SetChannelVolumes"
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

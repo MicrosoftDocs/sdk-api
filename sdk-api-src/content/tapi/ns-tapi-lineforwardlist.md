@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPLINEFORWARDLIST, LINEFORWARDLIST, LINEFORWARDLIST structure [TAPI 2.2], LPLINEFORWARDLIST, LPLINEFORWARDLIST structure pointer [TAPI 2.2], _tapi2_lineforwardlist_str, tapi/LINEFORWARDLIST, tapi/LPLINEFORWARDLIST, tapi2.lineforwardlist_str"
 ms.topic: struct
-f1_keywords: ["tapi/LINEFORWARDLIST"]
+f1_keywords: 
+ - "tapi/LINEFORWARDLIST"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

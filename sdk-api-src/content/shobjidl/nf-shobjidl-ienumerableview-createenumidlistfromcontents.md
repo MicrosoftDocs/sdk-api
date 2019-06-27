@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateEnumIDListFromContents, CreateEnumIDListFromContents method [Windows Shell], CreateEnumIDListFromContents method [Windows Shell],IEnumerableView interface, IEnumerableView interface [Windows Shell],CreateEnumIDListFromContents method, IEnumerableView.CreateEnumIDListFromContents, IEnumerableView::CreateEnumIDListFromContents, _shell_IEnumerableView_CreateEnumIDListFromContents, shell.IEnumerableView_CreateEnumIDListFromContents, shobjidl/IEnumerableView::CreateEnumIDListFromContents
 ms.topic: method
-f1_keywords: ["shobjidl/IEnumerableView.CreateEnumIDListFromContents"]
+f1_keywords: 
+ - "shobjidl/IEnumerableView.CreateEnumIDListFromContents"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1OffsetTransform interface [Direct2D],SetOffset method, ID2D1OffsetTransform.SetOffset, ID2D1OffsetTransform::SetOffset, SetOffset, SetOffset method [Direct2D], SetOffset method [Direct2D],ID2D1OffsetTransform interface, d2d1effectauthor/ID2D1OffsetTransform::SetOffset, direct2d.id2d1offsettransform_setoffset
 ms.topic: method
-f1_keywords: ["d2d1effectauthor/ID2D1OffsetTransform.SetOffset"]
+f1_keywords: 
+ - "d2d1effectauthor/ID2D1OffsetTransform.SetOffset"
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

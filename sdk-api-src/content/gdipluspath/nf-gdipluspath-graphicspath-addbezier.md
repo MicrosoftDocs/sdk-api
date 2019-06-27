@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddBezier
 ms.topic: language-reference
-f1_keywords: ["gdipluspath/GraphicsPath::AddBezier"]
+f1_keywords: 
+ - "gdipluspath/GraphicsPath::AddBezier"
 targetos: Windows
 product: Windows
 req.assembly: 

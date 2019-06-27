@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateRangeBackup, CreateRangeBackup method [Text Services Framework], CreateRangeBackup method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],CreateRangeBackup method, ITfContext.CreateRangeBackup, ITfContext::CreateRangeBackup, _tsf_itfcontext_createrangebackup_ref, msctf/ITfContext::CreateRangeBackup, tsf.itfcontext_createrangebackup
 ms.topic: method
-f1_keywords: ["msctf/ITfContext.CreateRangeBackup"]
+f1_keywords: 
+ - "msctf/ITfContext.CreateRangeBackup"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

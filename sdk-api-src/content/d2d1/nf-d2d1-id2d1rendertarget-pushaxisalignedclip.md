@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1RenderTarget.PushAxisAlignedClip, ID2D1RenderTarget::PushAxisAlignedClip, PushAxisAlignedClip, PushAxisAlignedClip methods [Direct2D], d2d1_1/PushAxisAlignedClip, direct2d.id2d1rendertarget_pushaxisalignedclip
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1RenderTarget::PushAxisAlignedClip"]
+f1_keywords: 
+ - "d2d1/ID2D1RenderTarget::PushAxisAlignedClip"
 req.header: d2d1.h
 req.include-header: D2d1.h
 req.target-type: Windows

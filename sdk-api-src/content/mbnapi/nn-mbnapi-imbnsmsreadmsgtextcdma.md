@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsReadMsgTextCdma, IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks], IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks],described, mbn.imbnsmsreadmsgtextcdma, mbnapi/IMbnSmsReadMsgTextCdma
 ms.topic: interface
-f1_keywords: ["mbnapi/IMbnSmsReadMsgTextCdma"]
+f1_keywords: 
+ - "mbnapi/IMbnSmsReadMsgTextCdma"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

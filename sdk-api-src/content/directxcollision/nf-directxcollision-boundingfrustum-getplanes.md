@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],GetPlanes method, BoundingFrustum.GetPlanes, BoundingFrustum::GetPlanes, GetPlanes, GetPlanes method [DirectX Math Support APIs], GetPlanes method [DirectX Math Support APIs],BoundingFrustum interface, dxmath.boundingfrustum_getplanes
 ms.topic: method
-f1_keywords: ["directxcollision/BoundingFrustum.GetPlanes"]
+f1_keywords: 
+ - "directxcollision/BoundingFrustum.GetPlanes"
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

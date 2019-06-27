@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FN_HANDLE_CMD, FN_HANDLE_CMD callback, FN_HANDLE_CMD callback function [NetShell], SampleCommand, _netsh_fn_handle_cmd, netsh/FN_HANDLE_CMD, netshell.fn_handle_cmd
 ms.topic: callback
-f1_keywords: ["netsh/FN_HANDLE_CMD"]
+f1_keywords: 
+ - "netsh/FN_HANDLE_CMD"
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

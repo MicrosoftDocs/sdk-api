@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 64da695e-5f56-4f23-9a06-0b0c358e3cc3, MFCreateMediaEvent, MFCreateMediaEvent function [Media Foundation], mf.mfcreatemediaevent, mfapi/MFCreateMediaEvent
 ms.topic: function
-f1_keywords: ["mfapi/MFCreateMediaEvent"]
+f1_keywords: 
+ - "mfapi/MFCreateMediaEvent"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

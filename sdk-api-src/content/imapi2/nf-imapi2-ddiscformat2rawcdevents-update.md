@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DDiscFormat2RawCDEvents interface [IMAPI],Update method, DDiscFormat2RawCDEvents.Update, DDiscFormat2RawCDEvents::Update, Update, Update method [IMAPI], Update method [IMAPI],DDiscFormat2RawCDEvents interface, imapi.ddiscformat2rawcdevents_update, imapi2/DDiscFormat2RawCDEvents::Update
 ms.topic: method
-f1_keywords: ["imapi2/DDiscFormat2RawCDEvents.Update"]
+f1_keywords: 
+ - "imapi2/DDiscFormat2RawCDEvents.Update"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

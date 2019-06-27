@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpatialAudioHrtfDirectivityUnion, SpatialAudioHrtfDirectivityUnion union [Core Audio], coreaudio.spatialaudiohrtfdirectivityunion, spatialaudiohrtf/SpatialAudioHrtfDirectivityUnion
 ms.topic: struct
-f1_keywords: ["spatialaudiohrtf/SpatialAudioHrtfDirectivityUnion"]
+f1_keywords: 
+ - "spatialaudiohrtf/SpatialAudioHrtfDirectivityUnion"
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows

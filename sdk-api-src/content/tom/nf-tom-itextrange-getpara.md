@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPara, GetPara method [Windows Controls], GetPara method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetPara method, ITextRange.GetPara, ITextRange::GetPara, _win32_ITextRange_GetPara, _win32_ITextRange_GetPara_cpp, controls.ITextRange_GetPara, controls._win32_ITextRange_GetPara, tom/ITextRange::GetPara
 ms.topic: method
-f1_keywords: ["tom/ITextRange.GetPara"]
+f1_keywords: 
+ - "tom/ITextRange.GetPara"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

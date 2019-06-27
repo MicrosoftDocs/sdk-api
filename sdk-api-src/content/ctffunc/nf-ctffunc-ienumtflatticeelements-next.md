@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTfLatticeElements interface [Text Services Framework],Next method, IEnumTfLatticeElements.Next, IEnumTfLatticeElements::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfLatticeElements interface, _tsf_ienumtflatticeelements_next_ref, ctffunc/IEnumTfLatticeElements::Next, tsf.ienumtflatticeelements_next
 ms.topic: method
-f1_keywords: ["ctffunc/IEnumTfLatticeElements.Next"]
+f1_keywords: 
+ - "ctffunc/IEnumTfLatticeElements.Next"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

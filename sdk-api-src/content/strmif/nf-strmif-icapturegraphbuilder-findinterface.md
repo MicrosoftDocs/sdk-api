@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindInterface, FindInterface method [DirectShow], FindInterface method [DirectShow],ICaptureGraphBuilder interface, ICaptureGraphBuilder interface [DirectShow],FindInterface method, ICaptureGraphBuilder.FindInterface, ICaptureGraphBuilder::FindInterface, ICaptureGraphBuilderFindInterface, dshow.icapturegraphbuilder_findinterface, strmif/ICaptureGraphBuilder::FindInterface
 ms.topic: method
-f1_keywords: ["strmif/ICaptureGraphBuilder.FindInterface"]
+f1_keywords: 
+ - "strmif/ICaptureGraphBuilder.FindInterface"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

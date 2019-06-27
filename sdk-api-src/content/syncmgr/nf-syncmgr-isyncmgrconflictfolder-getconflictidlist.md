@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetConflictIDList, GetConflictIDList method [Windows Shell], GetConflictIDList method [Windows Shell],ISyncMgrConflictFolder interface, ISyncMgrConflictFolder interface [Windows Shell],GetConflictIDList method, ISyncMgrConflictFolder.GetConflictIDList, ISyncMgrConflictFolder::GetConflictIDList, _shell_ISyncMgrConflictFolder_GetConflictIDList, shell.ISyncMgrConflictFolder_GetConflictIDList, syncmgr/ISyncMgrConflictFolder::GetConflictIDList
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrConflictFolder.GetConflictIDList"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrConflictFolder.GetConflictIDList"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

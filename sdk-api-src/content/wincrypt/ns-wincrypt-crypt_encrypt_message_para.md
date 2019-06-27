@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_ENCRYPT_MESSAGE_PARA, CRYPT_ENCRYPT_MESSAGE_PARA, CRYPT_ENCRYPT_MESSAGE_PARA structure [Security], PCRYPT_ENCRYPT_MESSAGE_PARA, PCRYPT_ENCRYPT_MESSAGE_PARA structure pointer [Security], _crypto2_crypt_encrypt_message_para, security.crypt_encrypt_message_para, wincrypt/CRYPT_ENCRYPT_MESSAGE_PARA, wincrypt/PCRYPT_ENCRYPT_MESSAGE_PARA"
 ms.topic: struct
-f1_keywords: ["wincrypt/CRYPT_ENCRYPT_MESSAGE_PARA"]
+f1_keywords: 
+ - "wincrypt/CRYPT_ENCRYPT_MESSAGE_PARA"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

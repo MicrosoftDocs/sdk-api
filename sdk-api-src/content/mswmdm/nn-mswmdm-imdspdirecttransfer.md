@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMDSPDirectTransfer, IMDSPDirectTransfer interface [windows Media Device Manager], IMDSPDirectTransfer interface [windows Media Device Manager],described, IMDSPDirectTransferInterface, mswmdm/IMDSPDirectTransfer, wmdm.imdspdirecttransfer
 ms.topic: interface
-f1_keywords: ["mswmdm/IMDSPDirectTransfer"]
+f1_keywords: 
+ - "mswmdm/IMDSPDirectTransfer"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

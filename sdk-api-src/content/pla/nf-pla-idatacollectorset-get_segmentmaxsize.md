@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],SegmentMaxSize property, IDataCollectorSet.SegmentMaxSize, IDataCollectorSet.get_SegmentMaxSize, IDataCollectorSet::SegmentMaxSize, IDataCollectorSet::get_SegmentMaxSize, IDataCollectorSet::put_SegmentMaxSize, SegmentMaxSize property [PLA], SegmentMaxSize property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_segmentmaxsize, get_SegmentMaxSize, pla.idatacollectorset_get_segmentmaxsize, pla/IDataCollectorSet::SegmentMaxSize, pla/IDataCollectorSet::get_SegmentMaxSize, pla/IDataCollectorSet::put_SegmentMaxSize
 ms.topic: method
-f1_keywords: ["pla/IDataCollectorSet.SegmentMaxSize"]
+f1_keywords: 
+ - "pla/IDataCollectorSet.SegmentMaxSize"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

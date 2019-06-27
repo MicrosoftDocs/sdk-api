@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUpdateCount, GetUpdateCount method [Windows Sync], GetUpdateCount method [Windows Sync],IFeedClockVector interface, IFeedClockVector interface [Windows Sync],GetUpdateCount method, IFeedClockVector.GetUpdateCount, IFeedClockVector::GetUpdateCount, winsync.ifeedclockvector_getupdatecount, winsync/IFeedClockVector::GetUpdateCount
 ms.topic: method
-f1_keywords: ["winsync/IFeedClockVector.GetUpdateCount"]
+f1_keywords: 
+ - "winsync/IFeedClockVector.GetUpdateCount"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupRemoveFileLogEntry, SetupRemoveFileLogEntry function [Setup API], SetupRemoveFileLogEntryA, SetupRemoveFileLogEntryW, _setupapi_setupremovefilelogentry, setup.setupremovefilelogentry, setupapi/SetupRemoveFileLogEntry, setupapi/SetupRemoveFileLogEntryA, setupapi/SetupRemoveFileLogEntryW
 ms.topic: function
-f1_keywords: ["setupapi/SetupRemoveFileLogEntry"]
+f1_keywords: 
+ - "setupapi/SetupRemoveFileLogEntry"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

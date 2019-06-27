@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAsyncInfo, IAsyncInfo interface [Windows Runtime], IAsyncInfo interface [Windows Runtime],described, asyncinfo/IAsyncInfo, winrt.iasyncinfo
 ms.topic: interface
-f1_keywords: ["asyncinfo/IAsyncInfo"]
+f1_keywords: 
+ - "asyncinfo/IAsyncInfo"
 req.header: asyncinfo.h
 req.include-header: 
 req.target-type: Windows

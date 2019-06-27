@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_SUBRESOURCE_TILING, D3D11_SUBRESOURCE_TILING structure [Direct3D 11], d3d11_2/D3D11_SUBRESOURCE_TILING, direct3d11.d3d11_subresource_tiling
 ms.topic: struct
-f1_keywords: ["d3d11_2/D3D11_SUBRESOURCE_TILING"]
+f1_keywords: 
+ - "d3d11_2/D3D11_SUBRESOURCE_TILING"
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?SetDMTF@WBEMTime@@QAEHQAG@Z, SetDMTF, SetDMTF method [Windows Management Instrumentation], SetDMTF method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],SetDMTF method, WBEMTime.SetDMTF, WBEMTime::SetDMTF, _hmm_wbemtime_setdmtf, wbemtime/WBEMTime::SetDMTF, wmi.wbemtime_setdmtf"
 ms.topic: method
-f1_keywords: ["wbemtime/WBEMTime.SetDMTF"]
+f1_keywords: 
+ - "wbemtime/WBEMTime.SetDMTF"
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEnum, GetEnum method [Windows Shell], GetEnum method [Windows Shell],IQueryAssociations interface, IQueryAssociations interface [Windows Shell],GetEnum method, IQueryAssociations.GetEnum, IQueryAssociations::GetEnum, _win32_IQueryAssociations_GetEnum, shell.IQueryAssociations_GetEnum, shlwapi/IQueryAssociations::GetEnum
 ms.topic: method
-f1_keywords: ["shlwapi/IQueryAssociations.GetEnum"]
+f1_keywords: 
+ - "shlwapi/IQueryAssociations.GetEnum"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

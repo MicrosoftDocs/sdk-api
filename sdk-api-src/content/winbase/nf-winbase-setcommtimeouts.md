@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetCommTimeouts, SetCommTimeouts function, _win32_setcommtimeouts, base.setcommtimeouts, winbase/SetCommTimeouts
 ms.topic: function
-f1_keywords: ["winbase/SetCommTimeouts"]
+f1_keywords: 
+ - "winbase/SetCommTimeouts"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

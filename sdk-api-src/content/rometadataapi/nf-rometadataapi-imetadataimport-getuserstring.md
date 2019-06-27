@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUserString, GetUserString method [Windows Runtime], GetUserString method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetUserString method, IMetaDataImport.GetUserString, IMetaDataImport::GetUserString, rometadataapi/IMetaDataImport::GetUserString, winrt.imetadataimport_getuserstring
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataImport.GetUserString"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataImport.GetUserString"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

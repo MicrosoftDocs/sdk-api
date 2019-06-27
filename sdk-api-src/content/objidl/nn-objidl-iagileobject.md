@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAgileObject, IAgileObject interface [COM], IAgileObject interface [COM],described, com.iagileobject, objidl/IAgileObject
 ms.topic: interface
-f1_keywords: ["objidl/IAgileObject"]
+f1_keywords: 
+ - "objidl/IAgileObject"
 req.header: objidl.h
 req.include-header: Objidlbase.h
 req.target-type: Windows

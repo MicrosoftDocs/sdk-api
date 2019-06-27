@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMVideoDecimationProperties interface [DirectShow],QueryDecimationUsage method, IAMVideoDecimationProperties.QueryDecimationUsage, IAMVideoDecimationProperties::QueryDecimationUsage, IAMVideoDecimationPropertiesQueryDecimationUsage, QueryDecimationUsage, QueryDecimationUsage method [DirectShow], QueryDecimationUsage method [DirectShow],IAMVideoDecimationProperties interface, dshow.iamvideodecimationproperties_querydecimationusage, strmif/IAMVideoDecimationProperties::QueryDecimationUsage
 ms.topic: method
-f1_keywords: ["strmif/IAMVideoDecimationProperties.QueryDecimationUsage"]
+f1_keywords: 
+ - "strmif/IAMVideoDecimationProperties.QueryDecimationUsage"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

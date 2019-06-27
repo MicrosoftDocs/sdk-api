@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetApplicationInstanceId, GetApplicationInstanceId method [COM+], GetApplicationInstanceId method [COM+],IObjectContextInfo2 interface, IObjectContextInfo2 interface [COM+],GetApplicationInstanceId method, IObjectContextInfo2.GetApplicationInstanceId, IObjectContextInfo2::GetApplicationInstanceId, _cos_IObjectContextInfo2_GetApplicationInstanceId, comsvcs/IObjectContextInfo2::GetApplicationInstanceId, cos.iobjectcontextinfo2_getapplicationinstanceid
 ms.topic: method
-f1_keywords: ["comsvcs/IObjectContextInfo2.GetApplicationInstanceId"]
+f1_keywords: 
+ - "comsvcs/IObjectContextInfo2.GetApplicationInstanceId"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

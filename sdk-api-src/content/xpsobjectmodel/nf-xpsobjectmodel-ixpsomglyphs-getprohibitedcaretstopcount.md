@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProhibitedCaretStopCount, GetProhibitedCaretStopCount method [XPS Documents and Packaging], GetProhibitedCaretStopCount method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetProhibitedCaretStopCount method, IXpsOMGlyphs.GetProhibitedCaretStopCount, IXpsOMGlyphs::GetProhibitedCaretStopCount, xps.ixpsomglyphs_getprohibitedcaretstopcount, xpsobjectmodel/IXpsOMGlyphs::GetProhibitedCaretStopCount
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGlyphs.GetProhibitedCaretStopCount"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGlyphs.GetProhibitedCaretStopCount"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

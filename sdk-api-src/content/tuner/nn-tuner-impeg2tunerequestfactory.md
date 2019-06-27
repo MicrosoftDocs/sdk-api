@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMPEG2TuneRequestFactory, IMPEG2TuneRequestFactory interface [Microsoft TV Technologies], IMPEG2TuneRequestFactory interface [Microsoft TV Technologies],described, IMPEG2TuneRequestFactoryInterface, mstv.impeg2tunerequestfactory, tuner/IMPEG2TuneRequestFactory
 ms.topic: interface
-f1_keywords: ["tuner/IMPEG2TuneRequestFactory"]
+f1_keywords: 
+ - "tuner/IMPEG2TuneRequestFactory"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

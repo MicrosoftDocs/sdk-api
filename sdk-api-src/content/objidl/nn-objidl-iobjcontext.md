@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IObjContext, IObjContext interface [COM], IObjContext interface [COM],described, _com_iobjcontext, com.iobjcontext, objidlbase/IObjContext
 ms.topic: interface
-f1_keywords: ["objidl/IObjContext"]
+f1_keywords: 
+ - "objidl/IObjContext"
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

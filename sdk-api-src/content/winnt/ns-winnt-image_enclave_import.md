@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIMAGE_ENCLAVE_IMPORT, IMAGE_ENCLAVE_IMPORT, IMAGE_ENCLAVE_IMPORT structure, IMAGE_ENCLAVE_IMPORT_MATCH_AUTHOR_ID, IMAGE_ENCLAVE_IMPORT_MATCH_FAMILY_ID, IMAGE_ENCLAVE_IMPORT_MATCH_IMAGE_ID, IMAGE_ENCLAVE_IMPORT_MATCH_NONE, IMAGE_ENCLAVE_IMPORT_MATCH_UNIQUE_ID, PIMAGE_ENCLAVE_IMPORT, PIMAGE_ENCLAVE_IMPORT structure pointer, base.image_enclave_import, winnt/IMAGE_ENCLAVE_IMPORT, winnt/PIMAGE_ENCLAVE_IMPORT"
 ms.topic: struct
-f1_keywords: ["winnt/IMAGE_ENCLAVE_IMPORT"]
+f1_keywords: 
+ - "winnt/IMAGE_ENCLAVE_IMPORT"
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

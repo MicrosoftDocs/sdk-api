@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSF_Authenticated, TSF_Hardware, TimeSample, TimeSample structure, _win32_timesample_str, base.timesample_str, timeprov/TimeSample
 ms.topic: struct
-f1_keywords: ["timeprov/TimeSample"]
+f1_keywords: 
+ - "timeprov/TimeSample"
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows

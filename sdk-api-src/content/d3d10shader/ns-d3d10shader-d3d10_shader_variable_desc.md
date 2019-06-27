@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 93d99a1e-6d9e-3991-2e0b-086cd3eee8c0, D3D10_SHADER_VARIABLE_DESC, D3D10_SHADER_VARIABLE_DESC structure [Direct3D 10], d3d10shader/D3D10_SHADER_VARIABLE_DESC, direct3d10.d3d10_shader_variable_desc
 ms.topic: struct
-f1_keywords: ["d3d10shader/D3D10_SHADER_VARIABLE_DESC"]
+f1_keywords: 
+ - "d3d10shader/D3D10_SHADER_VARIABLE_DESC"
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

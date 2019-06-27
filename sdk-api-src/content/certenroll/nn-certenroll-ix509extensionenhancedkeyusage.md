@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionEnhancedKeyUsage, IX509ExtensionEnhancedKeyUsage interface [Security], IX509ExtensionEnhancedKeyUsage interface [Security],described, certenroll/IX509ExtensionEnhancedKeyUsage, security.ix509extensionenhancedkeyusage
 ms.topic: interface
-f1_keywords: ["certenroll/IX509ExtensionEnhancedKeyUsage"]
+f1_keywords: 
+ - "certenroll/IX509ExtensionEnhancedKeyUsage"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

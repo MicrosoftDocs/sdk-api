@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDMDeviceControl, IWMDMDeviceControl interface [windows Media Device Manager], IWMDMDeviceControl interface [windows Media Device Manager],described, IWMDMDeviceControlInterface, mswmdm/IWMDMDeviceControl, wmdm.iwmdmdevicecontrol
 ms.topic: interface
-f1_keywords: ["mswmdm/IWMDMDeviceControl"]
+f1_keywords: 
+ - "mswmdm/IWMDMDeviceControl"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

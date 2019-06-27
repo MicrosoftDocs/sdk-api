@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectXVideoMemoryConfiguration, IDirectXVideoMemoryConfiguration interface [Media Foundation], IDirectXVideoMemoryConfiguration interface [Media Foundation],described, cc2a6180-9698-460a-9a0d-1ee9e15f197f, dxva2api/IDirectXVideoMemoryConfiguration, mf.idirectxvideomemoryconfiguration
 ms.topic: interface
-f1_keywords: ["dxva2api/IDirectXVideoMemoryConfiguration"]
+f1_keywords: 
+ - "dxva2api/IDirectXVideoMemoryConfiguration"
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

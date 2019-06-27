@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GlobalFlags, GlobalFlags function, _win32_globalflags, base.globalflags, winbase/GlobalFlags
 ms.topic: function
-f1_keywords: ["winbase/GlobalFlags"]
+f1_keywords: 
+ - "winbase/GlobalFlags"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

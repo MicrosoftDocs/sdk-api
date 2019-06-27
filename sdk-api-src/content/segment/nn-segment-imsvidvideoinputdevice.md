@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoInputDevice, IMSVidVideoInputDevice interface [Microsoft TV Technologies], IMSVidVideoInputDevice interface [Microsoft TV Technologies],described, mstv.imsvidvideoinputdevice, segment/IMSVidVideoInputDevice
 ms.topic: interface
-f1_keywords: ["segment/IMSVidVideoInputDevice"]
+f1_keywords: 
+ - "segment/IMSVidVideoInputDevice"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 951d74df-11f8-4623-a81b-63e632f80d0e, MFNetCredentialManagerGetParam, MFNetCredentialManagerGetParam structure [Media Foundation], mf.mfnetcredentialmanagergetparam, mfidl/MFNetCredentialManagerGetParam
 ms.topic: struct
-f1_keywords: ["mfidl/MFNetCredentialManagerGetParam"]
+f1_keywords: 
+ - "mfidl/MFNetCredentialManagerGetParam"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

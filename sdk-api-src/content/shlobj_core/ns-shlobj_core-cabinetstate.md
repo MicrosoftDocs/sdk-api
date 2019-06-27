@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCABINETSTATE, CABINETSTATE, CABINETSTATE structure [Windows Shell], FALSE, SHCONTF_FOLDERS, SHCONTF_NONFOLDERS, TRUE, _win32_CABINETSTATE, shell.CABINETSTATE, shlobj_core/CABINETSTATE"
 ms.topic: struct
-f1_keywords: ["shlobj_core/CABINETSTATE"]
+f1_keywords: 
+ - "shlobj_core/CABINETSTATE"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

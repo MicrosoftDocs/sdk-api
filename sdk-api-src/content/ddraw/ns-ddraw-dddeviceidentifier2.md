@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDDDEVICEIDENTIFIER2, DDDEVICEIDENTIFIER2, DDDEVICEIDENTIFIER2 structure [DirectDraw], LPDDDEVICEIDENTIFIER2, LPDDDEVICEIDENTIFIER2 structure pointer [DirectDraw], ddraw/DDDEVICEIDENTIFIER2, ddraw/LPDDDEVICEIDENTIFIER2, directdraw.dddeviceidentifier2"
 ms.topic: struct
-f1_keywords: ["ddraw/DDDEVICEIDENTIFIER2"]
+f1_keywords: 
+ - "ddraw/DDDEVICEIDENTIFIER2"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ApplyTemplate, ApplyTemplate method [File Server Resource Manager], ApplyTemplate method [File Server Resource Manager],IFsrmQuotaObject interface, IFsrmQuotaObject interface [File Server Resource Manager],ApplyTemplate method, IFsrmQuotaObject.ApplyTemplate, IFsrmQuotaObject::ApplyTemplate, fs.ifsrmquotaobject_applytemplate, fsrm.ifsrmquotaobject_applytemplate, fsrmquota/IFsrmQuotaObject::ApplyTemplate
 ms.topic: method
-f1_keywords: ["fsrmquota/IFsrmQuotaObject.ApplyTemplate"]
+f1_keywords: 
+ - "fsrmquota/IFsrmQuotaObject.ApplyTemplate"
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows

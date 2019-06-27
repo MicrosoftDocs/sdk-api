@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [WinLocation], Connect method [WinLocation],ILocationPower interface, ILocationPower interface [WinLocation],Connect method, ILocationPower.Connect, ILocationPower::Connect, WinLocation_COM_Ref.ilocationpower_connect, locationapi/ILocationPower::Connect, winlocation.ilocationpower_connect
 ms.topic: method
-f1_keywords: ["locationapi/ILocationPower.Connect"]
+f1_keywords: 
+ - "locationapi/ILocationPower.Connect"
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPEERDIST_PUBLICATION_OPTIONS, PEERDIST_PUBLICATION_OPTIONS, PEERDIST_PUBLICATION_OPTIONS structure [Peer Networking], PPEERDIST_PUBLICATION_OPTIONS, PPEERDIST_PUBLICATION_OPTIONS structure pointer [Peer Networking], p2p.peerdist_publication_options, peerdist/PEERDIST_PUBLICATION_OPTIONS, peerdist/PPEERDIST_PUBLICATION_OPTIONS"
 ms.topic: struct
-f1_keywords: ["peerdist/PEERDIST_PUBLICATION_OPTIONS"]
+f1_keywords: 
+ - "peerdist/PEERDIST_PUBLICATION_OPTIONS"
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

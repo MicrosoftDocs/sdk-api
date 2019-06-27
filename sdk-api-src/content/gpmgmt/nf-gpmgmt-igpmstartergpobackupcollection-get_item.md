@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGPMStarterGPOBackupCollection interface [GPMC],Item property, IGPMStarterGPOBackupCollection.Item, IGPMStarterGPOBackupCollection.get_Item, IGPMStarterGPOBackupCollection::Item, IGPMStarterGPOBackupCollection::get_Item, Item property [GPMC], Item property [GPMC],IGPMStarterGPOBackupCollection interface, get_Item, gpmc.igpmstartergpobackupcollection_get_item, gpmgmt/IGPMStarterGPOBackupCollection::Item, gpmgmt/IGPMStarterGPOBackupCollection::get_Item
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMStarterGPOBackupCollection.Item"]
+f1_keywords: 
+ - "gpmgmt/IGPMStarterGPOBackupCollection.Item"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

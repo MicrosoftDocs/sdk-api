@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetQuantizationTable, GetQuantizationTable method [Windows Imaging Component], GetQuantizationTable method [Windows Imaging Component],IWICJpegFrameDecode interface, IWICJpegFrameDecode interface [Windows Imaging Component],GetQuantizationTable method, IWICJpegFrameDecode.GetQuantizationTable, IWICJpegFrameDecode::GetQuantizationTable, wic.iwicjpegframedecode_getquantizationtable, wincodec/IWICJpegFrameDecode::GetQuantizationTable
 ms.topic: method
-f1_keywords: ["wincodec/IWICJpegFrameDecode.GetQuantizationTable"]
+f1_keywords: 
+ - "wincodec/IWICJpegFrameDecode.GetQuantizationTable"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

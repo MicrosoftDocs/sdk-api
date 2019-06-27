@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFhScopeIterator interface [Windows API],MoveToNextItem method, IFhScopeIterator.MoveToNextItem, IFhScopeIterator::MoveToNextItem, MoveToNextItem, MoveToNextItem method [Windows API], MoveToNextItem method [Windows API],IFhScopeIterator interface, fhcfg/IFhScopeIterator::MoveToNextItem, winprog.ifhscopeiterator_movetonextitem
 ms.topic: method
-f1_keywords: ["fhcfg/IFhScopeIterator.MoveToNextItem"]
+f1_keywords: 
+ - "fhcfg/IFhScopeIterator.MoveToNextItem"
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetButtonAtPosition, GetButtonAtPosition method [DirectShow], GetButtonAtPosition method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetButtonAtPosition method, IDvdInfo2.GetButtonAtPosition, IDvdInfo2::GetButtonAtPosition, IDvdInfo2GetButtonAtPosition, dshow.idvdinfo2_getbuttonatposition, strmif/IDvdInfo2::GetButtonAtPosition
 ms.topic: method
-f1_keywords: ["strmif/IDvdInfo2.GetButtonAtPosition"]
+f1_keywords: 
+ - "strmif/IDvdInfo2.GetButtonAtPosition"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

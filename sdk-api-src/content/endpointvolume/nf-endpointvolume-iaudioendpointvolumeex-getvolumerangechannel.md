@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVolumeRangeChannel, GetVolumeRangeChannel method [Core Audio], GetVolumeRangeChannel method [Core Audio],IAudioEndpointVolumeEx interface, IAudioEndpointVolumeEx interface [Core Audio],GetVolumeRangeChannel method, IAudioEndpointVolumeEx.GetVolumeRangeChannel, IAudioEndpointVolumeEx::GetVolumeRangeChannel, coreaudio.iaudioendpointvolumeex_getvolumerangechannel, endpointvolume/IAudioEndpointVolumeEx::GetVolumeRangeChannel
 ms.topic: method
-f1_keywords: ["endpointvolume/IAudioEndpointVolumeEx.GetVolumeRangeChannel"]
+f1_keywords: 
+ - "endpointvolume/IAudioEndpointVolumeEx.GetVolumeRangeChannel"
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantCopy, PropVariantCopy function [Windows Properties], _shell_PropVariantCopy, properties.PropVariantCopy, propidl/PropVariantCopy, shell.PropVariantCopy
 ms.topic: function
-f1_keywords: ["propidl/PropVariantCopy"]
+f1_keywords: 
+ - "propidl/PropVariantCopy"
 req.header: propidl.h
 req.include-header: 
 req.target-type: Windows

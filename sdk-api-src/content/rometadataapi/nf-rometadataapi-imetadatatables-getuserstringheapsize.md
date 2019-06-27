@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUserStringHeapSize, GetUserStringHeapSize method [Windows Runtime], GetUserStringHeapSize method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetUserStringHeapSize method, IMetaDataTables.GetUserStringHeapSize, IMetaDataTables::GetUserStringHeapSize, rometadataapi/IMetaDataTables::GetUserStringHeapSize, winrt.imetadatatables_getuserstringheapsize
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataTables.GetUserStringHeapSize"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataTables.GetUserStringHeapSize"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

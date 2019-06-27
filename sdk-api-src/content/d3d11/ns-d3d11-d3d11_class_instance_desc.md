@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 27ba9c43-314f-b252-fc98-8a27455ec5dd, D3D11_CLASS_INSTANCE_DESC, D3D11_CLASS_INSTANCE_DESC structure [Direct3D 11], d3d11/D3D11_CLASS_INSTANCE_DESC, direct3d11.d3d11_class_instance_desc
 ms.topic: struct
-f1_keywords: ["d3d11/D3D11_CLASS_INSTANCE_DESC"]
+f1_keywords: 
+ - "d3d11/D3D11_CLASS_INSTANCE_DESC"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

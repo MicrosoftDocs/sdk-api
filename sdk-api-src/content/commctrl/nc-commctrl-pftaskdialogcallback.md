@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFTASKDIALOGCALLBACK, PFTASKDIALOGCALLBACK callback, PFTASKDIALOGCALLBACK callback function [Windows Controls], _shell_TaskDialogCallbackProc, _shell_TaskDialogCallbackProc_cpp, commctrl/PFTASKDIALOGCALLBACK, controls.TaskDialogCallbackProc, controls._shell_TaskDialogCallbackProc
 ms.topic: callback
-f1_keywords: ["commctrl/PFTASKDIALOGCALLBACK"]
+f1_keywords: 
+ - "commctrl/PFTASKDIALOGCALLBACK"
 req.header: commctrl.h
 req.include-header: Commctrl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTS_THUMBNAILID, WTS_THUMBNAILID structure [Windows Shell], _shell_WTS_THUMBNAILID, shell.WTS_THUMBNAILID, thumbcache/WTS_THUMBNAILID
 ms.topic: struct
-f1_keywords: ["thumbcache/WTS_THUMBNAILID"]
+f1_keywords: 
+ - "thumbcache/WTS_THUMBNAILID"
 req.header: thumbcache.h
 req.include-header: 
 req.target-type: Windows

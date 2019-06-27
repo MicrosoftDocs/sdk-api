@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmEngineOpen0, FwpmEngineOpen0 function [Filtering], fwp.fwpmengineopen0_func, fwpmu/FwpmEngineOpen0
 ms.topic: function
-f1_keywords: ["fwpmu/FwpmEngineOpen0"]
+f1_keywords: 
+ - "fwpmu/FwpmEngineOpen0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

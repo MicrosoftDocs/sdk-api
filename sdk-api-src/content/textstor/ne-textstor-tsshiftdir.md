@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TS_SD_BACKWARD, TS_SD_FORWARD, TsShiftDir, TsShiftDir enumeration [Text Services Framework], _tsf_tsshiftdir_ref, textstor/TS_SD_BACKWARD, textstor/TS_SD_FORWARD, textstor/TsShiftDir, tsf.tsshiftdir
 ms.topic: enum
-f1_keywords: ["textstor/TsShiftDir"]
+f1_keywords: 
+ - "textstor/TsShiftDir"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

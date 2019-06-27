@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConnectedTo, ConnectedTo method [DirectShow], ConnectedTo method [DirectShow],IPin interface, IPin interface [DirectShow],ConnectedTo method, IPin.ConnectedTo, IPin::ConnectedTo, IPinConnectedTo, dshow.ipin_connectedto, strmif/IPin::ConnectedTo
 ms.topic: method
-f1_keywords: ["strmif/IPin.ConnectedTo"]
+f1_keywords: 
+ - "strmif/IPin.ConnectedTo"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

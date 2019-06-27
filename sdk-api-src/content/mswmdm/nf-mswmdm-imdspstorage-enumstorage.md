@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumStorage, EnumStorage method [windows Media Device Manager], EnumStorage method [windows Media Device Manager],IMDSPStorage interface, IMDSPStorage interface [windows Media Device Manager],EnumStorage method, IMDSPStorage.EnumStorage, IMDSPStorage::EnumStorage, IMDSPStorageEnumStorage, mswmdm/IMDSPStorage::EnumStorage, wmdm.imdspstorage_enumstorage
 ms.topic: method
-f1_keywords: ["mswmdm/IMDSPStorage.EnumStorage"]
+f1_keywords: 
+ - "mswmdm/IMDSPStorage.EnumStorage"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

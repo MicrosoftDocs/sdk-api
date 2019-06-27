@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncBegin method, IOfflineFilesEvents.SyncBegin, IOfflineFilesEvents::SyncBegin, SyncBegin, SyncBegin method [Offline Files], SyncBegin method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncBegin, of.iofflinefilesevents_syncbegin
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesEvents.SyncBegin"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesEvents.SyncBegin"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::GetPathPoints
 ms.topic: language-reference
-f1_keywords: ["gdipluspath/GraphicsPath::GetPathPoints"]
+f1_keywords: 
+ - "gdipluspath/GraphicsPath::GetPathPoints"
 targetos: Windows
 product: Windows
 req.assembly: 

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImageResult interface [IMAPI],get_ImageStream method, IFileSystemImageResult.get_ImageStream, IFileSystemImageResult::get_ImageStream, get_ImageStream, get_ImageStream method [IMAPI], get_ImageStream method [IMAPI],IFileSystemImageResult interface, imapi.ifilesystemimageresult_get_imagestream, imapi2fs/IFileSystemImageResult::get_ImageStream
 ms.topic: method
-f1_keywords: ["imapi2fs/IFileSystemImageResult.get_ImageStream"]
+f1_keywords: 
+ - "imapi2fs/IFileSystemImageResult.get_ImageStream"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

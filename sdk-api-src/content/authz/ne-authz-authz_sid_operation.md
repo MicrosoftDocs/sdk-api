@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PAUTHZ_SID_OPERATION, AUTHZ_SID_OPERATION, AUTHZ_SID_OPERATION enumeration [Security], AUTHZ_SID_OPERATION_ADD, AUTHZ_SID_OPERATION_DELETE, AUTHZ_SID_OPERATION_NONE, AUTHZ_SID_OPERATION_REPLACE, AUTHZ_SID_OPERATION_REPLACE_ALL, authz/AUTHZ_SID_OPERATION, authz/AUTHZ_SID_OPERATION_ADD, authz/AUTHZ_SID_OPERATION_DELETE, authz/AUTHZ_SID_OPERATION_NONE, authz/AUTHZ_SID_OPERATION_REPLACE, authz/AUTHZ_SID_OPERATION_REPLACE_ALL, security.authz_sid_operation"
 ms.topic: enum
-f1_keywords: ["authz/AUTHZ_SID_OPERATION"]
+f1_keywords: 
+ - "authz/AUTHZ_SID_OPERATION"
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasEnumEntries, RasEnumEntries function [RAS], RasEnumEntriesA, RasEnumEntriesW, _ras_rasenumentries, ras/RasEnumEntries, ras/RasEnumEntriesA, ras/RasEnumEntriesW, rras.rasenumentries
 ms.topic: function
-f1_keywords: ["ras/RasEnumEntries"]
+f1_keywords: 
+ - "ras/RasEnumEntries"
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

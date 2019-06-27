@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiRecordReadStream, MsiRecordReadStream function, _msi_msirecordreadstream, msiquery/MsiRecordReadStream, setup.msirecordreadstream
 ms.topic: function
-f1_keywords: ["msiquery/MsiRecordReadStream"]
+f1_keywords: 
+ - "msiquery/MsiRecordReadStream"
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

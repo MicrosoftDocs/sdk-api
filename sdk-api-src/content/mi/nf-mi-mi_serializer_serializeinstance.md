@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Serializer_SerializeInstance, MI_Serializer_SerializeInstance function [Windows Management Infrastructure (MI)], mi/MI_Serializer_SerializeInstance, wmi_v2.mi_serializer_serializeinstance
 ms.topic: function
-f1_keywords: ["mi/MI_Serializer_SerializeInstance"]
+f1_keywords: 
+ - "mi/MI_Serializer_SerializeInstance"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

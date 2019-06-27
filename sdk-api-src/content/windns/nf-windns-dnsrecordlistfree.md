@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DnsRecordListFree, DnsRecordListFree function [DNS], _dns_dnsrecordlistfree, dns.dnsrecordlistfree, windns/DnsRecordListFree
 ms.topic: macro
-f1_keywords: ["windns/DnsRecordListFree"]
+f1_keywords: 
+ - "windns/DnsRecordListFree"
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTransformMethod, GetTransformMethod method [Open Packaging Conventions], GetTransformMethod method [Open Packaging Conventions],IOpcSignatureRelationshipReference interface, IOpcSignatureRelationshipReference interface [Open Packaging Conventions],GetTransformMethod method, IOpcSignatureRelationshipReference.GetTransformMethod, IOpcSignatureRelationshipReference::GetTransformMethod, msopc/IOpcSignatureRelationshipReference::GetTransformMethod, opc.iopcsignaturerelationshipreference_gettransformmethod
 ms.topic: method
-f1_keywords: ["msopc/IOpcSignatureRelationshipReference.GetTransformMethod"]
+f1_keywords: 
+ - "msopc/IOpcSignatureRelationshipReference.GetTransformMethod"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

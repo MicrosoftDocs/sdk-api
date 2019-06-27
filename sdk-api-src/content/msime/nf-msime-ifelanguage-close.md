@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Internationalization for Windows Applications], Close method [Internationalization for Windows Applications],IFELanguage interface, IFELanguage interface [Internationalization for Windows Applications],Close method, IFELanguage.Close, IFELanguage::Close, intl.ifelanguage_close, msime/IFELanguage::Close
 ms.topic: method
-f1_keywords: ["msime/IFELanguage.Close"]
+f1_keywords: 
+ - "msime/IFELanguage.Close"
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

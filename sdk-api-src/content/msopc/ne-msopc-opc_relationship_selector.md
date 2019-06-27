@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPC_RELATIONSHIP_SELECTOR, OPC_RELATIONSHIP_SELECTOR enumeration [Open Packaging Conventions], OPC_RELATIONSHIP_SELECT_BY_ID, OPC_RELATIONSHIP_SELECT_BY_TYPE, msopc/OPC_RELATIONSHIP_SELECTOR, msopc/OPC_RELATIONSHIP_SELECT_BY_ID, msopc/OPC_RELATIONSHIP_SELECT_BY_TYPE, opc.opc_relationship_selector
 ms.topic: enum
-f1_keywords: ["msopc/OPC_RELATIONSHIP_SELECTOR"]
+f1_keywords: 
+ - "msopc/OPC_RELATIONSHIP_SELECTOR"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

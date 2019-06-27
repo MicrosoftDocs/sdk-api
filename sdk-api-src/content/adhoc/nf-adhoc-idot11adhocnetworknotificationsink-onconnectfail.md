@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocNetworkNotificationSink interface [NativeWIFI],OnConnectFail method, IDot11AdHocNetworkNotificationSink.OnConnectFail, IDot11AdHocNetworkNotificationSink::OnConnectFail, OnConnectFail, OnConnectFail method [NativeWIFI], OnConnectFail method [NativeWIFI],IDot11AdHocNetworkNotificationSink interface, adhoc/IDot11AdHocNetworkNotificationSink::OnConnectFail, nwifi.idot11adhocnetworknotificationsink_onconnectfail
 ms.topic: method
-f1_keywords: ["adhoc/IDot11AdHocNetworkNotificationSink.OnConnectFail"]
+f1_keywords: 
+ - "adhoc/IDot11AdHocNetworkNotificationSink.OnConnectFail"
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

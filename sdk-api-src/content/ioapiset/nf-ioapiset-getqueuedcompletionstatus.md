@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetQueuedCompletionStatus, GetQueuedCompletionStatus function [Files], _win32_getqueuedcompletionstatus, base.getqueuedcompletionstatus, fs.getqueuedcompletionstatus, ioapiset/GetQueuedCompletionStatus
 ms.topic: function
-f1_keywords: ["ioapiset/GetQueuedCompletionStatus"]
+f1_keywords: 
+ - "ioapiset/GetQueuedCompletionStatus"
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

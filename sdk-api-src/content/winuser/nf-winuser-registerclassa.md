@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegisterClass, RegisterClass function [Windows and Messages], RegisterClassA, RegisterClassW, _win32_RegisterClass, _win32_registerclass_cpp, winmsg.registerclass, winui._win32_registerclass, winuser/RegisterClass, winuser/RegisterClassA, winuser/RegisterClassW
 ms.topic: function
-f1_keywords: ["winuser/RegisterClass"]
+f1_keywords: 
+ - "winuser/RegisterClass"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

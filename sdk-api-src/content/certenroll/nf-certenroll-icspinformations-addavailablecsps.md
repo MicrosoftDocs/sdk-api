@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddAvailableCsps, AddAvailableCsps method [Security], AddAvailableCsps method [Security],ICspInformations interface, ICspInformations interface [Security],AddAvailableCsps method, ICspInformations.AddAvailableCsps, ICspInformations::AddAvailableCsps, certenroll/ICspInformations::AddAvailableCsps, security.icspinformations_addavailablecsps_method
 ms.topic: method
-f1_keywords: ["certenroll/ICspInformations.AddAvailableCsps"]
+f1_keywords: 
+ - "certenroll/ICspInformations.AddAvailableCsps"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

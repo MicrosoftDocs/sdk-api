@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDefaultPropertyCollection, GetDefaultPropertyCollection method [COM], GetDefaultPropertyCollection method [COM],IEventPublisher interface, IEventPublisher interface [COM],GetDefaultPropertyCollection method, IEventPublisher.GetDefaultPropertyCollection, IEventPublisher::GetDefaultPropertyCollection, _com_ieventpublisher_getdefaultpropertycollection, com.ieventpublisher_getdefaultpropertycollection, eventsys/IEventPublisher::GetDefaultPropertyCollection
 ms.topic: method
-f1_keywords: ["eventsys/IEventPublisher.GetDefaultPropertyCollection"]
+f1_keywords: 
+ - "eventsys/IEventPublisher.GetDefaultPropertyCollection"
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

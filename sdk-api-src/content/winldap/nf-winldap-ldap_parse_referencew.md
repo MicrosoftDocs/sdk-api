@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_parse_reference, ldap.ldap__parse__reference, ldap.ldap_parse_reference, ldap_parse_reference, ldap_parse_reference function [LDAP], ldap_parse_referenceA, ldap_parse_referenceW, winldap/ldap_parse_reference, winldap/ldap_parse_referenceA, winldap/ldap_parse_referenceW"
 ms.topic: function
-f1_keywords: ["winldap/ldap_parse_reference"]
+f1_keywords: 
+ - "winldap/ldap_parse_reference"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

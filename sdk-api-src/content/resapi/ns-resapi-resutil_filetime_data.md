@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRESUTIL_FILETIME_DATA, PRESUTIL_FILETIME_DATA, PRESUTIL_FILETIME_DATA structure pointer [Failover Cluster], RESUTIL_FILETIME_DATA, RESUTIL_FILETIME_DATA structure [Failover Cluster], mscs.resutil_filetime_data, resapi/PRESUTIL_FILETIME_DATA, resapi/RESUTIL_FILETIME_DATA"
 ms.topic: struct
-f1_keywords: ["resapi/RESUTIL_FILETIME_DATA"]
+f1_keywords: 
+ - "resapi/RESUTIL_FILETIME_DATA"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

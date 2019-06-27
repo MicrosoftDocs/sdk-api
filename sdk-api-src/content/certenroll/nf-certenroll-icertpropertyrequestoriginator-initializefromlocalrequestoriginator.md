@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyRequestOriginator interface [Security],InitializeFromLocalRequestOriginator method, ICertPropertyRequestOriginator.InitializeFromLocalRequestOriginator, ICertPropertyRequestOriginator::InitializeFromLocalRequestOriginator, InitializeFromLocalRequestOriginator, InitializeFromLocalRequestOriginator method [Security], InitializeFromLocalRequestOriginator method [Security],ICertPropertyRequestOriginator interface, certenroll/ICertPropertyRequestOriginator::InitializeFromLocalRequestOriginator, security.icertpropertyrequestoriginator_initializefromlocalrequestoriginator_method
 ms.topic: method
-f1_keywords: ["certenroll/ICertPropertyRequestOriginator.InitializeFromLocalRequestOriginator"]
+f1_keywords: 
+ - "certenroll/ICertPropertyRequestOriginator.InitializeFromLocalRequestOriginator"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

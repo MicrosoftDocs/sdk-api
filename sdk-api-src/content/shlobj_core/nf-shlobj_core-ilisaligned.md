@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILIsAligned, ILIsAligned function [Windows Shell], _shell_ILIsAligned, shell.ILIsAligned, shlobj_core/ILIsAligned
 ms.topic: function
-f1_keywords: ["shlobj_core/ILIsAligned"]
+f1_keywords: 
+ - "shlobj_core/ILIsAligned"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

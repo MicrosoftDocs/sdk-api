@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICMetadataPattern, WICMetadataPattern structure [Windows Imaging Component], _wic_codec_wicmetadatapattern, wic._wic_codec_wicmetadatapattern, wincodecsdk/WICMetadataPattern
 ms.topic: struct
-f1_keywords: ["wincodecsdk/WICMetadataPattern"]
+f1_keywords: 
+ - "wincodecsdk/WICMetadataPattern"
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

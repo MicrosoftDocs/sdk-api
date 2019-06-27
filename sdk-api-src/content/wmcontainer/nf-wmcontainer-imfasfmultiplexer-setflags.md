@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFASFMultiplexer interface [Media Foundation],SetFlags method, IMFASFMultiplexer.SetFlags, IMFASFMultiplexer::SetFlags, SetFlags, SetFlags method [Media Foundation], SetFlags method [Media Foundation],IMFASFMultiplexer interface, dac4f9b0-e83a-4e99-9a4a-ec1154c929a7, mf.imfasfmultiplexer_setflags, wmcontainer/IMFASFMultiplexer::SetFlags
 ms.topic: method
-f1_keywords: ["wmcontainer/IMFASFMultiplexer.SetFlags"]
+f1_keywords: 
+ - "wmcontainer/IMFASFMultiplexer.SetFlags"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

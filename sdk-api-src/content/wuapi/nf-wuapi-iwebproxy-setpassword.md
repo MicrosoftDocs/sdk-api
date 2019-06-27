@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWebProxy interface [Windows Update Agent],SetPassword method, IWebProxy.SetPassword, IWebProxy::SetPassword, SetPassword, SetPassword method [Windows Update Agent], SetPassword method [Windows Update Agent],IWebProxy interface, wua.iwebproxy_setpassword, wuapi/IWebProxy::SetPassword
 ms.topic: method
-f1_keywords: ["wuapi/IWebProxy.SetPassword"]
+f1_keywords: 
+ - "wuapi/IWebProxy.SetPassword"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPrivateKeyArchiveCertificate, GetPrivateKeyArchiveCertificate method [Security], GetPrivateKeyArchiveCertificate method [Security],IEnroll4 interface, IEnroll4 interface [Security],GetPrivateKeyArchiveCertificate method, IEnroll4.GetPrivateKeyArchiveCertificate, IEnroll4::GetPrivateKeyArchiveCertificate, security.ienroll4_getprivatekeyarchivecertificate, xenroll/IEnroll4::GetPrivateKeyArchiveCertificate
 ms.topic: method
-f1_keywords: ["xenroll/IEnroll4.GetPrivateKeyArchiveCertificate"]
+f1_keywords: 
+ - "xenroll/IEnroll4.GetPrivateKeyArchiveCertificate"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

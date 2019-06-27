@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RPC_IF_ID, RPC_IF_ID structure [RPC], _rpc_rpc_if_id, rpc.rpc_if_id, rpcdce/RPC_IF_ID
 ms.topic: struct
-f1_keywords: ["rpcdce/RPC_IF_ID"]
+f1_keywords: 
+ - "rpcdce/RPC_IF_ID"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

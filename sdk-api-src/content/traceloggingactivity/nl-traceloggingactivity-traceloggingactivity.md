@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingActivity, TraceLoggingActivity class, TraceLoggingActivity class,described, tracelogging.traceloggingactivity, traceloggingactivity/TraceLoggingActivity
 ms.topic: class
-f1_keywords: ["traceloggingactivity/TraceLoggingActivity"]
+f1_keywords: 
+ - "traceloggingactivity/TraceLoggingActivity"
 req.header: traceloggingactivity.h
 req.include-header: 
 req.target-type: Windows

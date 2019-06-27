@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingArchive interface [Fax Service],SizeHigh property, IFaxIncomingArchive.SizeHigh, IFaxIncomingArchive.get_SizeHigh, IFaxIncomingArchive::SizeHigh, IFaxIncomingArchive::get_SizeHigh, SizeHigh property [Fax Service], SizeHigh property [Fax Service],IFaxIncomingArchive interface, _mfax_faxincomingarchive.sizehigh, fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_sizehigh_cpp, fax._mfax_faxincomingarchive_sizehigh, faxcomex/IFaxIncomingArchive::SizeHigh, faxcomex/IFaxIncomingArchive::get_SizeHigh, get_SizeHigh
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxIncomingArchive.SizeHigh"]
+f1_keywords: 
+ - "faxcomex/IFaxIncomingArchive.SizeHigh"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

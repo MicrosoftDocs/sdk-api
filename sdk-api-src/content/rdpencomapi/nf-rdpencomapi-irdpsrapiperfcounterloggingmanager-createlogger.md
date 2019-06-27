@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateLogger, CreateLogger method [RDP], CreateLogger method [RDP],IRDPSRAPIPerfCounterLoggingManager interface, IRDPSRAPIPerfCounterLoggingManager interface [RDP],CreateLogger method, IRDPSRAPIPerfCounterLoggingManager.CreateLogger, IRDPSRAPIPerfCounterLoggingManager::CreateLogger, rdp.irdpsrapiperfcounterloggingmanager_createlogger, rdpencomapi/IRDPSRAPIPerfCounterLoggingManager::CreateLogger
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPIPerfCounterLoggingManager.CreateLogger"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIPerfCounterLoggingManager.CreateLogger"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

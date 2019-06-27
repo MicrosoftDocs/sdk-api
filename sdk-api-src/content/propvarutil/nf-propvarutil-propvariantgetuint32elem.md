@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantGetUInt32Elem, PropVariantGetUInt32Elem function [Windows Properties], _shell_PropVariantGetUInt32Elem, properties.PropVariantGetUInt32Elem, propvarutil/PropVariantGetUInt32Elem, shell.PropVariantGetUInt32Elem
 ms.topic: function
-f1_keywords: ["propvarutil/PropVariantGetUInt32Elem"]
+f1_keywords: 
+ - "propvarutil/PropVariantGetUInt32Elem"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

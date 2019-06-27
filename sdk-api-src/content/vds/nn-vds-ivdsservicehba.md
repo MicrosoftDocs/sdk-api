@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsServiceHba, IVdsServiceHba interface [VDS], IVdsServiceHba interface [VDS],described, base.ivdsservicehba, vds/IVdsServiceHba
 ms.topic: interface
-f1_keywords: ["vds/IVdsServiceHba"]
+f1_keywords: 
+ - "vds/IVdsServiceHba"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

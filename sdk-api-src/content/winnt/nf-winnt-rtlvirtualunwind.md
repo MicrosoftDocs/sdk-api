@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlVirtualUnwind, RtlVirtualUnwind function, UNW_FLAG_CHAININFO, UNW_FLAG_EHANDLER, UNW_FLAG_NHANDLER, UNW_FLAG_UHANDLER, base.rtlvirtualunwind, winnt/RtlVirtualUnwind
 ms.topic: function
-f1_keywords: ["winnt/RtlVirtualUnwind"]
+f1_keywords: 
+ - "winnt/RtlVirtualUnwind"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

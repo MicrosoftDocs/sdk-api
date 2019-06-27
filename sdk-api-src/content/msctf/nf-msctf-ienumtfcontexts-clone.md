@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfContexts interface, IEnumTfContexts interface [Text Services Framework],Clone method, IEnumTfContexts.Clone, IEnumTfContexts::Clone, _tsf_ienumtfcontexts_clone_ref, msctf/IEnumTfContexts::Clone, tsf.ienumtfcontexts_clone
 ms.topic: method
-f1_keywords: ["msctf/IEnumTfContexts.Clone"]
+f1_keywords: 
+ - "msctf/IEnumTfContexts.Clone"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMDomain object [GPMC],GetWMIFilter method, GetWMIFilter, GetWMIFilter method [GPMC], GetWMIFilter method [GPMC],GPMDomain object, GetWMIFilter method [GPMC],IGPMDomain interface, IGPMDomain interface [GPMC],GetWMIFilter method, IGPMDomain.GetWMIFilter, IGPMDomain::GetWMIFilter, _win32_igpmdomain_getwmifilter, gpmc.igpmdomain_getwmifilter, gpmgmt/IGPMDomain::GetWMIFilter
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMDomain.GetWMIFilter"]
+f1_keywords: 
+ - "gpmgmt/IGPMDomain.GetWMIFilter"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

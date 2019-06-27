@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IATSC_ETT interface, IATSC_ETT interface [Microsoft TV Technologies],GetVersionNumber method, IATSC_ETT.GetVersionNumber, IATSC_ETT::GetVersionNumber, IATSC_ETTGetVersionNumber, atscpsipparser/IATSC_ETT::GetVersionNumber, mstv.iatsc_ett_getversionnumber
 ms.topic: method
-f1_keywords: ["atscpsipparser/IATSC_ETT.GetVersionNumber"]
+f1_keywords: 
+ - "atscpsipparser/IATSC_ETT.GetVersionNumber"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

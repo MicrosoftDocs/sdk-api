@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaGetReservedMixedAttributeValue, UiaGetReservedMixedAttributeValue function [Windows Accessibility], uiauto.uiauto_UiaGetReservedMixedAttributeValueAutoMeth, uiauto_UiaGetReservedMixedAttributeValueAutoMeth, uiautomationcoreapi/UiaGetReservedMixedAttributeValue, winauto.uiauto_UiaGetReservedMixedAttributeValueAutoMeth
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/UiaGetReservedMixedAttributeValue"]
+f1_keywords: 
+ - "uiautomationcoreapi/UiaGetReservedMixedAttributeValue"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

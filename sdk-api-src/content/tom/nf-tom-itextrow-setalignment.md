@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetAlignment method, ITextRow.SetAlignment, ITextRow::SetAlignment, SetAlignment, SetAlignment method [Windows Controls], SetAlignment method [Windows Controls],ITextRow interface, controls.itextrow_setalignment, tom/ITextRow::SetAlignment
 ms.topic: method
-f1_keywords: ["tom/ITextRow.SetAlignment"]
+f1_keywords: 
+ - "tom/ITextRow.SetAlignment"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

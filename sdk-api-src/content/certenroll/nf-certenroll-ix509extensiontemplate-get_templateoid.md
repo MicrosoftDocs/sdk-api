@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionTemplate interface [Security],TemplateOid property, IX509ExtensionTemplate.TemplateOid, IX509ExtensionTemplate.get_TemplateOid, IX509ExtensionTemplate::TemplateOid, IX509ExtensionTemplate::get_TemplateOid, TemplateOid property [Security], TemplateOid property [Security],IX509ExtensionTemplate interface, certenroll/IX509ExtensionTemplate::TemplateOid, certenroll/IX509ExtensionTemplate::get_TemplateOid, get_TemplateOid, security.ix509extensiontemplate_templateoid_property
 ms.topic: method
-f1_keywords: ["certenroll/IX509ExtensionTemplate.TemplateOid"]
+f1_keywords: 
+ - "certenroll/IX509ExtensionTemplate.TemplateOid"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

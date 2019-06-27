@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmSubLayerEnum0, FwpmSubLayerEnum0 function [Filtering], fwp.fwpmsublayerenum0_func, fwpmu/FwpmSubLayerEnum0
 ms.topic: function
-f1_keywords: ["fwpmu/FwpmSubLayerEnum0"]
+f1_keywords: 
+ - "fwpmu/FwpmSubLayerEnum0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

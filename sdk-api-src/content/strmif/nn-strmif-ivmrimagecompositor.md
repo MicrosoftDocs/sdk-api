@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRImageCompositor, IVMRImageCompositor interface [DirectShow], IVMRImageCompositor interface [DirectShow],described, IVMRImageCompositorInterface, dshow.ivmrimagecompositor, strmif/IVMRImageCompositor
 ms.topic: interface
-f1_keywords: ["strmif/IVMRImageCompositor"]
+f1_keywords: 
+ - "strmif/IVMRImageCompositor"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

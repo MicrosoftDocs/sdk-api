@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetContactCollection, GetContactCollection method [Windows Contacts], GetContactCollection method [Windows Contacts],IContactManager interface, IContactManager interface [Windows Contacts],GetContactCollection method, IContactManager.GetContactCollection, IContactManager::GetContactCollection, _wincontacts_IContactManager_GetContactCollection, icontact/IContactManager::GetContactCollection, wincontacts._wincontacts_IContactManager_GetContactCollection
 ms.topic: method
-f1_keywords: ["icontact/IContactManager.GetContactCollection"]
+f1_keywords: 
+ - "icontact/IContactManager.GetContactCollection"
 req.header: icontact.h
 req.include-header: 
 req.target-type: Windows

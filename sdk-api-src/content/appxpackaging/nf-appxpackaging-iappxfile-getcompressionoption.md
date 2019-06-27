@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCompressionOption, GetCompressionOption method [App packaging and management], GetCompressionOption method [App packaging and management],IAppxFile interface, IAppxFile interface [App packaging and management],GetCompressionOption method, IAppxFile.GetCompressionOption, IAppxFile::GetCompressionOption, appxpackaging/IAppxFile::GetCompressionOption, appxpkg.iappxfile_getcompressionoption
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxFile.GetCompressionOption"]
+f1_keywords: 
+ - "appxpackaging/IAppxFile.GetCompressionOption"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

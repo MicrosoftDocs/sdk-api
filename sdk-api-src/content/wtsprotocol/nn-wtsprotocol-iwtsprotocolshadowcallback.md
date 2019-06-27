@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolShadowCallback, IWTSProtocolShadowCallback interface [Remote Desktop Services], IWTSProtocolShadowCallback interface [Remote Desktop Services],described, termserv.iwtsprotocolshadowcallback, wtsprotocol/IWTSProtocolShadowCallback
 ms.topic: interface
-f1_keywords: ["wtsprotocol/IWTSProtocolShadowCallback"]
+f1_keywords: 
+ - "wtsprotocol/IWTSProtocolShadowCallback"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

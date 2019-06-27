@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Escape, Escape function [Windows GDI], _win32_Escape_v3, gdi.escape, wingdi/Escape
 ms.topic: function
-f1_keywords: ["wingdi/Escape"]
+f1_keywords: 
+ - "wingdi/Escape"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

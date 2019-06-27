@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UIAutomationParameter, UIAutomationParameter structure [Windows Accessibility], uiauto.uiauto_UIAutomationParameterStruct, uiauto_UIAutomationParameterStruct, uiautomationcore/UIAutomationParameter, winauto.uiauto_UIAutomationParameterStruct
 ms.topic: struct
-f1_keywords: ["uiautomationcore/UIAutomationParameter"]
+f1_keywords: 
+ - "uiautomationcore/UIAutomationParameter"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

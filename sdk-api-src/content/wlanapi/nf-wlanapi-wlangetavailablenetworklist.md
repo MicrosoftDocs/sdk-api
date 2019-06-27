@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WLAN_AVAILABLE_NETWORK_INCLUDE_ALL_ADHOC_PROFILES, WLAN_AVAILABLE_NETWORK_INCLUDE_ALL_MANUAL_HIDDEN_PROFILES, WlanGetAvailableNetworkList, WlanGetAvailableNetworkList function [NativeWIFI], nwifi.wlangetavailablenetworklist, nwifi.wlangetvisiblenetworklist, wlanapi/WlanGetAvailableNetworkList
 ms.topic: function
-f1_keywords: ["wlanapi/WlanGetAvailableNetworkList"]
+f1_keywords: 
+ - "wlanapi/WlanGetAvailableNetworkList"
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

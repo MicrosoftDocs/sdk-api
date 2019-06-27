@@ -12,7 +12,8 @@ ms.keywords: RoOriginateLanguageException, RoOriginateLanguageException function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
-f1_keywords: ["roerrorapi/RoOriginateLanguageException"]
+f1_keywords: 
+ - "roerrorapi/RoOriginateLanguageException"
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows

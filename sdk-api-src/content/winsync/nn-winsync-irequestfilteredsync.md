@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRequestFilteredSync, IRequestFilteredSync interface [Windows Sync], IRequestFilteredSync interface [Windows Sync],described, winsync.irequestfilteredsync, winsync/IRequestFilteredSync
 ms.topic: interface
-f1_keywords: ["winsync/IRequestFilteredSync"]
+f1_keywords: 
+ - "winsync/IRequestFilteredSync"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

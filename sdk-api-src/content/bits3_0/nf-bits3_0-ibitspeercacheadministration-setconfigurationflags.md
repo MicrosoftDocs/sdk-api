@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BG_ENABLE_PEERCACHING_CLIENT, BG_ENABLE_PEERCACHING_SERVER, IBitsPeerCacheAdministration interface [BITS],SetConfigurationFlags method, IBitsPeerCacheAdministration.SetConfigurationFlags, IBitsPeerCacheAdministration::SetConfigurationFlags, SetConfigurationFlags, SetConfigurationFlags method [BITS], SetConfigurationFlags method [BITS],IBitsPeerCacheAdministration interface, bits.ibitspeercacheadministration_setconfigurationflags, bits3_0/IBitsPeerCacheAdministration::SetConfigurationFlags
 ms.topic: method
-f1_keywords: ["bits3_0/IBitsPeerCacheAdministration.SetConfigurationFlags"]
+f1_keywords: 
+ - "bits3_0/IBitsPeerCacheAdministration.SetConfigurationFlags"
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows

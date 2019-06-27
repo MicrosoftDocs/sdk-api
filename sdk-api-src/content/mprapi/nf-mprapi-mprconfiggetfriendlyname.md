@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprConfigGetFriendlyName, MprConfigGetFriendlyName function [RAS], _mpr_mprconfiggetfriendlyname, mprapi/MprConfigGetFriendlyName, rras.mprconfiggetfriendlyname
 ms.topic: function
-f1_keywords: ["mprapi/MprConfigGetFriendlyName"]
+f1_keywords: 
+ - "mprapi/MprConfigGetFriendlyName"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

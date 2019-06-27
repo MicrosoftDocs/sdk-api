@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FILEOP_COPY, FILEOP_DELETE, SetupRemoveSectionFromDiskSpaceList, SetupRemoveSectionFromDiskSpaceList function [Setup API], SetupRemoveSectionFromDiskSpaceListA, SetupRemoveSectionFromDiskSpaceListW, _setupapi_setupremovesectionfromdiskspacelist, setup.setupremovesectionfromdiskspacelist, setupapi/SetupRemoveSectionFromDiskSpaceList, setupapi/SetupRemoveSectionFromDiskSpaceListA, setupapi/SetupRemoveSectionFromDiskSpaceListW
 ms.topic: function
-f1_keywords: ["setupapi/SetupRemoveSectionFromDiskSpaceList"]
+f1_keywords: 
+ - "setupapi/SetupRemoveSectionFromDiskSpaceList"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

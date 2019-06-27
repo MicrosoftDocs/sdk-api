@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLUID, LUID, LUID structure [Core Audio], PLUID, PLUID structure pointer [Core Audio], _LUID, coreaudio.luid, devicetopology/LUID, devicetopology/PLUID"
 ms.topic: struct
-f1_keywords: ["devicetopology/LUID"]
+f1_keywords: 
+ - "devicetopology/LUID"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

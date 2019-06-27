@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPRegistrar interface [UPnP APIs],RegisterDeviceProvider method, IUPnPRegistrar.RegisterDeviceProvider, IUPnPRegistrar::RegisterDeviceProvider, RegisterDeviceProvider, RegisterDeviceProvider method [UPnP APIs], RegisterDeviceProvider method [UPnP APIs],IUPnPRegistrar interface, _upnp_iupnpregistrar_registerdeviceprovider, upnp.iupnpregistrar_registerdeviceprovider, upnphost/IUPnPRegistrar::RegisterDeviceProvider
 ms.topic: method
-f1_keywords: ["upnphost/IUPnPRegistrar.RegisterDeviceProvider"]
+f1_keywords: 
+ - "upnphost/IUPnPRegistrar.RegisterDeviceProvider"
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

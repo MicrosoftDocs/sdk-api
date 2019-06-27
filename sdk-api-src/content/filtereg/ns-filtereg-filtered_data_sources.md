@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FILTERED_DATA_SOURCES, FILTERED_DATA_SOURCES structure [search], filtereg/FILTERED_DATA_SOURCES, search.filtered_data_sources
 ms.topic: struct
-f1_keywords: ["filtereg/FILTERED_DATA_SOURCES"]
+f1_keywords: 
+ - "filtereg/FILTERED_DATA_SOURCES"
 req.header: filtereg.h
 req.include-header: 
 req.target-type: Windows

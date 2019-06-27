@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCMSG_CNG_CONTENT_DECRYPT_INFO, CMSG_CNG_CONTENT_DECRYPT_INFO, CMSG_CNG_CONTENT_DECRYPT_INFO structure [Security], PCMSG_CNG_CONTENT_DECRYPT_INFO, PCMSG_CNG_CONTENT_DECRYPT_INFO structure pointer [Security], security.cmsg_cng_content_decrypt_info, wincrypt/CMSG_CNG_CONTENT_DECRYPT_INFO, wincrypt/PCMSG_CNG_CONTENT_DECRYPT_INFO"
 ms.topic: struct
-f1_keywords: ["wincrypt/CMSG_CNG_CONTENT_DECRYPT_INFO"]
+f1_keywords: 
+ - "wincrypt/CMSG_CNG_CONTENT_DECRYPT_INFO"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssFileShareSnapshotProvider, IVssFileShareSnapshotProvider interface [VSS], IVssFileShareSnapshotProvider interface [VSS],described, base.ivssfilesharesnapshotprovider, vsprov/IVssFileShareSnapshotProvider
 ms.topic: interface
-f1_keywords: ["vsprov/IVssFileShareSnapshotProvider"]
+f1_keywords: 
+ - "vsprov/IVssFileShareSnapshotProvider"
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

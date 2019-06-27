@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentImage, GetCurrentImage method [DirectShow], GetCurrentImage method [DirectShow],IVMRWindowlessControl9 interface, IVMRWindowlessControl9 interface [DirectShow],GetCurrentImage method, IVMRWindowlessControl9.GetCurrentImage, IVMRWindowlessControl9::GetCurrentImage, IVMRWindowlessControl9GetCurrentImage, dshow.ivmrwindowlesscontrol9_getcurrentimage, vmr9/IVMRWindowlessControl9::GetCurrentImage
 ms.topic: method
-f1_keywords: ["vmr9/IVMRWindowlessControl9.GetCurrentImage"]
+f1_keywords: 
+ - "vmr9/IVMRWindowlessControl9.GetCurrentImage"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

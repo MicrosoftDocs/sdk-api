@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminMIBGetTrapInfo, MprAdminMIBGetTrapInfo function [RAS], _mpr_mpradminmibgettrapinfo, mprapi/MprAdminMIBGetTrapInfo, rras.mpradminmibgettrapinfo
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminMIBGetTrapInfo"]
+f1_keywords: 
+ - "mprapi/MprAdminMIBGetTrapInfo"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

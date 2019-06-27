@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLGetPKeyInformation, SLGetPKeyInformation function [Security], SL_DATA_BINARY, SL_DATA_DWORD, SL_DATA_SZ, SL_INFO_KEY_CHANNEL, SL_INFO_KEY_DIGITAL_PID, SL_INFO_KEY_DIGITAL_PID2, SL_INFO_KEY_PARTIAL_PRODUCT_KEY, SL_INFO_KEY_PRODUCT_SKU_ID, security.slgetpkeyinformation, slpublic/SLGetPKeyInformation
 ms.topic: function
-f1_keywords: ["slpublic/SLGetPKeyInformation"]
+f1_keywords: 
+ - "slpublic/SLGetPKeyInformation"
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

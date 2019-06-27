@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSkinManager interface [Windows Media Player],SetVisualStyle method, IWMPSkinManager.SetVisualStyle, IWMPSkinManager::SetVisualStyle, IWMPSkinManagerSetVisualStyle, SetVisualStyle, SetVisualStyle method [Windows Media Player], SetVisualStyle method [Windows Media Player],IWMPSkinManager interface, wmp.iwmpskinmanager_setvisualstyle, wmp/IWMPSkinManager::SetVisualStyle
 ms.topic: method
-f1_keywords: ["wmp/IWMPSkinManager.SetVisualStyle"]
+f1_keywords: 
+ - "wmp/IWMPSkinManager.SetVisualStyle"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

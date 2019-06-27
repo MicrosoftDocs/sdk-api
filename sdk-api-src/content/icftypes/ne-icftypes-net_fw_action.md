@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NET_FW_ACTION, NET_FW_ACTION enumeration [ICS/ICF], NET_FW_ACTION_ALLOW, NET_FW_ACTION_BLOCK, NET_FW_ACTION_MAX, icftypes/NET_FW_ACTION, icftypes/NET_FW_ACTION_ALLOW, icftypes/NET_FW_ACTION_BLOCK, icftypes/NET_FW_ACTION_MAX, ics.net_fw_action
 ms.topic: enum
-f1_keywords: ["icftypes/NET_FW_ACTION"]
+f1_keywords: 
+ - "icftypes/NET_FW_ACTION"
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows

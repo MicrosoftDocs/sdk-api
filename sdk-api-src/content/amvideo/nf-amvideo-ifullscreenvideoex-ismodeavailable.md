@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],IsModeAvailable method, IFullScreenVideoEx.IsModeAvailable, IFullScreenVideoEx::IsModeAvailable, IFullScreenVideoIsModeAvailable, IsModeAvailable, IsModeAvailable method [DirectShow], IsModeAvailable method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::IsModeAvailable, dshow.ifullscreenvideoex_ismodeavailable
 ms.topic: method
-f1_keywords: ["amvideo/IFullScreenVideoEx.IsModeAvailable"]
+f1_keywords: 
+ - "amvideo/IFullScreenVideoEx.IsModeAvailable"
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

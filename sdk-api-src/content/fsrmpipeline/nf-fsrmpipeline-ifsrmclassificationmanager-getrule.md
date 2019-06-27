@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FsrmClassificationManager class [File Server Resource Manager],GetRule method, GetRule, GetRule method [File Server Resource Manager], GetRule method [File Server Resource Manager],FsrmClassificationManager class, GetRule method [File Server Resource Manager],IFsrmClassificationManager interface, GetRule method [File Server Resource Manager],IFsrmClassificationManager2 interface, IFsrmClassificationManager interface [File Server Resource Manager],GetRule method, IFsrmClassificationManager.GetRule, IFsrmClassificationManager2 interface [File Server Resource Manager],GetRule method, IFsrmClassificationManager2::GetRule, IFsrmClassificationManager::GetRule, fs.ifsrmclassificationmanager_getrule, fsrm.ifsrmclassificationmanager_getrule, fsrmpipeline/IFsrmClassificationManager2::GetRule, fsrmpipeline/IFsrmClassificationManager::GetRule
 ms.topic: method
-f1_keywords: ["fsrmpipeline/IFsrmClassificationManager.GetRule"]
+f1_keywords: 
+ - "fsrmpipeline/IFsrmClassificationManager.GetRule"
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows

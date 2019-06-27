@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVisualTreeService, IVisualTreeService interface, IVisualTreeService interface,described, xaml_diagnostics.ivisualtreeservice, xamlom/IVisualTreeService
 ms.topic: interface
-f1_keywords: ["xamlom/IVisualTreeService"]
+f1_keywords: 
+ - "xamlom/IVisualTreeService"
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

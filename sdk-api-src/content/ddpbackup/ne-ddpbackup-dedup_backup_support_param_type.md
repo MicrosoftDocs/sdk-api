@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DEDUP_BACKUP_SUPPORT_PARAM_TYPE, DEDUP_BACKUP_SUPPORT_PARAM_TYPE enumeration [Data Deduplication API], DEDUP_RECONSTRUCT_OPTIMIZED, DEDUP_RECONSTRUCT_UNOPTIMIZED, ddpbackup/DEDUP_BACKUP_SUPPORT_PARAM_TYPE, ddpbackup/DEDUP_RECONSTRUCT_OPTIMIZED, ddpbackup/DEDUP_RECONSTRUCT_UNOPTIMIZED, dedup.dedup_backup_support_param_type
 ms.topic: enum
-f1_keywords: ["ddpbackup/DEDUP_BACKUP_SUPPORT_PARAM_TYPE"]
+f1_keywords: 
+ - "ddpbackup/DEDUP_BACKUP_SUPPORT_PARAM_TYPE"
 req.header: ddpbackup.h
 req.include-header: 
 req.target-type: Windows

@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: Graphics::TranslateClip
 ms.topic: language-reference
-f1_keywords: ["gdiplusgraphics/Graphics::TranslateClip"]
+f1_keywords: 
+ - "gdiplusgraphics/Graphics::TranslateClip"
 targetos: Windows
 product: Windows
 req.assembly: 

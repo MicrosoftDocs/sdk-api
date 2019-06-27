@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],put_Mono method, IAMAudioInputMixer.put_Mono, IAMAudioInputMixer::put_Mono, IAMAudioInputMixerput_Mono, dshow.iamaudioinputmixer_put_mono, put_Mono, put_Mono method [DirectShow], put_Mono method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::put_Mono
 ms.topic: method
-f1_keywords: ["strmif/IAMAudioInputMixer.put_Mono"]
+f1_keywords: 
+ - "strmif/IAMAudioInputMixer.put_Mono"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

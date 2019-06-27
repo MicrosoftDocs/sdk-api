@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPUSER_MODALS_INFO_2, *PUSER_MODALS_INFO_2, LPUSER_MODALS_INFO_2, LPUSER_MODALS_INFO_2 structure pointer [Network Management], PUSER_MODALS_INFO_2, PUSER_MODALS_INFO_2 structure pointer [Network Management], USER_MODALS_INFO_2, USER_MODALS_INFO_2 structure [Network Management], _win32_user_modals_info_2_str, lmaccess/LPUSER_MODALS_INFO_2, lmaccess/PUSER_MODALS_INFO_2, lmaccess/USER_MODALS_INFO_2, netmgmt.user_modals_info_2_str"
 ms.topic: struct
-f1_keywords: ["lmaccess/USER_MODALS_INFO_2"]
+f1_keywords: 
+ - "lmaccess/USER_MODALS_INFO_2"
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

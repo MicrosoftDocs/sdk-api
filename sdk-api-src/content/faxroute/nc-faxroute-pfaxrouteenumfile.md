@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxRouteEnumFile, FaxRouteEnumFile callback function [Fax Service], PFAXROUTEENUMFILE, PFAXROUTEENUMFILE callback, _mfax_faxrouteenumfile, fax._mfax_faxrouteenumfile, faxroute/FaxRouteEnumFile
 ms.topic: callback
-f1_keywords: ["faxroute/FaxRouteEnumFile"]
+f1_keywords: 
+ - "faxroute/FaxRouteEnumFile"
 req.header: faxroute.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PNET_IF_MEDIA_DUPLEX_STATE, MediaDuplexStateFull, MediaDuplexStateHalf, MediaDuplexStateUnknown, NET_IF_MEDIA_DUPLEX_STATE, NET_IF_MEDIA_DUPLEX_STATE enumeration [Network Drivers Starting with Windows Vista], PNET_IF_MEDIA_DUPLEX_STATE, PNET_IF_MEDIA_DUPLEX_STATE enumeration pointer [Network Drivers Starting with Windows Vista], ifdef/MediaDuplexStateFull, ifdef/MediaDuplexStateHalf, ifdef/MediaDuplexStateUnknown, ifdef/NET_IF_MEDIA_DUPLEX_STATE, ifdef/PNET_IF_MEDIA_DUPLEX_STATE, net_if_enums_ref_b609914b-6556-4d4a-b689-4bd78a995bbd.xml, netvista.net_if_media_duplex_state"
 ms.topic: enum
-f1_keywords: ["ifdef/NET_IF_MEDIA_DUPLEX_STATE"]
+f1_keywords: 
+ - "ifdef/NET_IF_MEDIA_DUPLEX_STATE"
 req.header: ifdef.h
 req.include-header: Netioapi.h, Ntddndis.h
 req.target-type: Windows

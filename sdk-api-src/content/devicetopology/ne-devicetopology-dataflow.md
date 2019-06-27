@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DataFlow, DataFlow , DataFlow enumeration [Core Audio], In, Out, coreaudio.dataflow, devicetopology/DataFlow, devicetopology/In, devicetopology/Out
 ms.topic: enum
-f1_keywords: ["devicetopology/DataFlow"]
+f1_keywords: 
+ - "devicetopology/DataFlow"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

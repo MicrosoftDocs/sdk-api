@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DEVICE_AUTHORIZATION_ALLOWED, DEVICE_AUTHORIZATION_DENIED, DEVICE_AUTHORIZATION_UNKNOWN, WindowsMediaLibrarySharingDeviceAuthorizationStatus, WindowsMediaLibrarySharingDeviceAuthorizationStatus enumeration [Windows Media Library Sharing Services], wmlss.WMLSDeviceAuthorizationStatusEnumeration, wmlss/DEVICE_AUTHORIZATION_ALLOWED, wmlss/DEVICE_AUTHORIZATION_DENIED, wmlss/DEVICE_AUTHORIZATION_UNKNOWN, wmlss/WindowsMediaLibrarySharingDeviceAuthorizationStatus
 ms.topic: enum
-f1_keywords: ["wmlss/WindowsMediaLibrarySharingDeviceAuthorizationStatus"]
+f1_keywords: 
+ - "wmlss/WindowsMediaLibrarySharingDeviceAuthorizationStatus"
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows

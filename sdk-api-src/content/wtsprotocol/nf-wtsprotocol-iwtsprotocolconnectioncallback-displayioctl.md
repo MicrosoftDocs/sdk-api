@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisplayIOCtl, DisplayIOCtl method [Remote Desktop Services], DisplayIOCtl method [Remote Desktop Services],IWTSProtocolConnectionCallback interface, IWTSProtocolConnectionCallback interface [Remote Desktop Services],DisplayIOCtl method, IWTSProtocolConnectionCallback.DisplayIOCtl, IWTSProtocolConnectionCallback::DisplayIOCtl, termserv.iwtsprotocolconnectioncallback_displayioctl, wtsprotocol/IWTSProtocolConnectionCallback::DisplayIOCtl
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWTSProtocolConnectionCallback.DisplayIOCtl"]
+f1_keywords: 
+ - "wtsprotocol/IWTSProtocolConnectionCallback.DisplayIOCtl"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

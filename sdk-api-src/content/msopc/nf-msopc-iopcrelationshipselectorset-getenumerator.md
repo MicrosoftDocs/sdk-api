@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions],IOpcRelationshipSelectorSet interface, IOpcRelationshipSelectorSet interface [Open Packaging Conventions],GetEnumerator method, IOpcRelationshipSelectorSet.GetEnumerator, IOpcRelationshipSelectorSet::GetEnumerator, msopc/IOpcRelationshipSelectorSet::GetEnumerator, opc.iopcrelationshipselectorset_getenumerator
 ms.topic: method
-f1_keywords: ["msopc/IOpcRelationshipSelectorSet.GetEnumerator"]
+f1_keywords: 
+ - "msopc/IOpcRelationshipSelectorSet.GetEnumerator"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],remove method, IWMPFolderMonitorServices.remove, IWMPFolderMonitorServices::remove, IWMPFolderMonitorServicesremove, remove, remove method [Windows Media Player], remove method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_remove, wmp/IWMPFolderMonitorServices::remove
 ms.topic: method
-f1_keywords: ["wmp/IWMPFolderMonitorServices.remove"]
+f1_keywords: 
+ - "wmp/IWMPFolderMonitorServices.remove"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

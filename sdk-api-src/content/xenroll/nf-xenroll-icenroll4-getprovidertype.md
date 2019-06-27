@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],getProviderType method, ICEnroll4 interface [Security],getProviderType method, ICEnroll4.getProviderType, ICEnroll4::getProviderType, getProviderType, getProviderType method [Security], getProviderType method [Security],CEnroll object, getProviderType method [Security],ICEnroll4 interface, security.icenroll4_getprovidertype, xenroll/ICEnroll4::getProviderType
 ms.topic: method
-f1_keywords: ["xenroll/ICEnroll4.getProviderType"]
+f1_keywords: 
+ - "xenroll/ICEnroll4.getProviderType"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

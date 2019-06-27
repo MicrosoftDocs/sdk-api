@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPlayLength, GetPlayLength method [windows Media Device Manager], GetPlayLength method [windows Media Device Manager],IWMDMObjectInfo interface, IWMDMObjectInfo interface [windows Media Device Manager],GetPlayLength method, IWMDMObjectInfo.GetPlayLength, IWMDMObjectInfo::GetPlayLength, IWMDMObjectInfoGetPlayLength, mswmdm/IWMDMObjectInfo::GetPlayLength, wmdm.iwmdmobjectinfo_getplaylength
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMObjectInfo.GetPlayLength"]
+f1_keywords: 
+ - "mswmdm/IWMDMObjectInfo.GetPlayLength"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPPHONEMESSAGE, LPPHONEMESSAGE, LPPHONEMESSAGE structure pointer [TAPI 2.2], PHONEMESSAGE, PHONEMESSAGE structure [TAPI 2.2], _tapi2_phonemessage_str, tapi/LPPHONEMESSAGE, tapi/PHONEMESSAGE, tapi2.phonemessage_str"
 ms.topic: struct
-f1_keywords: ["tapi/PHONEMESSAGE"]
+f1_keywords: 
+ - "tapi/PHONEMESSAGE"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

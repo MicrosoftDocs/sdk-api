@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddContent, AddContent method [Direct Manipulation], AddContent method [Direct Manipulation],IDirectManipulationCompositor interface, IDirectManipulationCompositor interface [Direct Manipulation],AddContent method, IDirectManipulationCompositor.AddContent, IDirectManipulationCompositor::AddContent, directmanipulation.idirectmanipulationcompositor_addcontent, directmanipulation/IDirectManipulationCompositor::AddContent
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationCompositor.AddContent"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationCompositor.AddContent"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

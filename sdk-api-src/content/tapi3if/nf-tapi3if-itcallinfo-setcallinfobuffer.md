@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],SetCallInfoBuffer method, ITCallInfo.SetCallInfoBuffer, ITCallInfo::SetCallInfoBuffer, SetCallInfoBuffer, SetCallInfoBuffer method [TAPI 2.2], SetCallInfoBuffer method [TAPI 2.2],ITCallInfo interface, _tapi3_itcallinfo_setcallinfobuffer, tapi3.itcallinfo_setcallinfobuffer, tapi3if/ITCallInfo::SetCallInfoBuffer
 ms.topic: method
-f1_keywords: ["tapi3if/ITCallInfo.SetCallInfoBuffer"]
+f1_keywords: 
+ - "tapi3if/ITCallInfo.SetCallInfoBuffer"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

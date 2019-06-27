@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrSimpleStructBufferSize, NdrSimpleStructBufferSize function [Windows API], rpcndr/NdrSimpleStructBufferSize, winprog.ndrsimplestructbuffersize
 ms.topic: function
-f1_keywords: ["rpcndr/NdrSimpleStructBufferSize"]
+f1_keywords: 
+ - "rpcndr/NdrSimpleStructBufferSize"
 req.header: rpcndr.h
 req.include-header: 
 req.target-type: Windows

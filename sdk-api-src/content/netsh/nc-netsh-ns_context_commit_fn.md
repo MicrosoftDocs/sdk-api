@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NETSH_COMMIT, NETSH_FLUSH, NETSH_SAVE, NETSH_UNCOMMIT, NS_CONTEXT_COMMIT_FN, NS_CONTEXT_COMMIT_FN callback, NS_CONTEXT_COMMIT_FN callback function [NetShell], SampleCommit, _netsh_ns_context_commit_fn, netsh/NS_CONTEXT_COMMIT_FN, netshell.ns_context_commit_fn
 ms.topic: callback
-f1_keywords: ["netsh/NS_CONTEXT_COMMIT_FN"]
+f1_keywords: 
+ - "netsh/NS_CONTEXT_COMMIT_FN"
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

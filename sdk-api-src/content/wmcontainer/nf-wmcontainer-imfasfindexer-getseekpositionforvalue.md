@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSeekPositionForValue, GetSeekPositionForValue method [Media Foundation], GetSeekPositionForValue method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetSeekPositionForValue method, IMFASFIndexer.GetSeekPositionForValue, IMFASFIndexer::GetSeekPositionForValue, c8e9982e-b056-48dc-ac5f-20bf65b475ec, mf.imfasfindexer_getseekpositionforvalue, wmcontainer/IMFASFIndexer::GetSeekPositionForValue
 ms.topic: method
-f1_keywords: ["wmcontainer/IMFASFIndexer.GetSeekPositionForValue"]
+f1_keywords: 
+ - "wmcontainer/IMFASFIndexer.GetSeekPositionForValue"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

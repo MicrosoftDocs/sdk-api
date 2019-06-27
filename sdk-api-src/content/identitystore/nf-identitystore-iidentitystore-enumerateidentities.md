@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumerateIdentities, EnumerateIdentities method [Security], EnumerateIdentities method [Security],IIdentityStore interface, IIdentityStore interface [Security],EnumerateIdentities method, IIdentityStore.EnumerateIdentities, IIdentityStore::EnumerateIdentities, identitystore/IIdentityStore::EnumerateIdentities, security.iidentitystore_enumerateidentities
 ms.topic: method
-f1_keywords: ["identitystore/IIdentityStore.EnumerateIdentities"]
+f1_keywords: 
+ - "identitystore/IIdentityStore.EnumerateIdentities"
 req.header: identitystore.h
 req.include-header: 
 req.target-type: Windows

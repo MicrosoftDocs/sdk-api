@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEndCap, GetEndCap method [GDI+], GetEndCap method [GDI+],Pen class, Pen class [GDI+],GetEndCap method, Pen.GetEndCap, Pen::GetEndCap, _gdiplus_CLASS_Pen_GetEndCap_, gdiplus._gdiplus_CLASS_Pen_GetEndCap_
 ms.topic: method
-f1_keywords: ["gdipluspen/Pen.GetEndCap"]
+f1_keywords: 
+ - "gdipluspen/Pen.GetEndCap"
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

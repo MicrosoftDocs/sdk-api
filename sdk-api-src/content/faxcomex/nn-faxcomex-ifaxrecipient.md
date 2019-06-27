@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxRecipient, IFaxRecipient interface [Fax Service], IFaxRecipient interface [Fax Service],described, _mfax_faxrecipient_cpp, fax._mfax_faxrecipient_cpp, faxcomex/IFaxRecipient
 ms.topic: interface
-f1_keywords: ["faxcomex/IFaxRecipient"]
+f1_keywords: 
+ - "faxcomex/IFaxRecipient"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

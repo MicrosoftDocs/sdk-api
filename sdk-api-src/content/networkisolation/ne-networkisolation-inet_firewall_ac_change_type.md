@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INET_FIREWALL_AC_CHANGE_CREATE, INET_FIREWALL_AC_CHANGE_DELETE, INET_FIREWALL_AC_CHANGE_INVALID, INET_FIREWALL_AC_CHANGE_MAX, INET_FIREWALL_AC_CHANGE_TYPE, INET_FIREWALL_AC_CHANGE_TYPE enumeration [ICS/ICF], ics.inet_firewall_ac_change_type, networkisolation/INET_FIREWALL_AC_CHANGE_CREATE, networkisolation/INET_FIREWALL_AC_CHANGE_DELETE, networkisolation/INET_FIREWALL_AC_CHANGE_INVALID, networkisolation/INET_FIREWALL_AC_CHANGE_MAX, networkisolation/INET_FIREWALL_AC_CHANGE_TYPE
 ms.topic: enum
-f1_keywords: ["networkisolation/INET_FIREWALL_AC_CHANGE_TYPE"]
+f1_keywords: 
+ - "networkisolation/INET_FIREWALL_AC_CHANGE_TYPE"
 req.header: networkisolation.h
 req.include-header: Netfw.h
 req.target-type: Windows

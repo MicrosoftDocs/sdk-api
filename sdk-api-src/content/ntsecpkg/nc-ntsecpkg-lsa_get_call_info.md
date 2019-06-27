@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCallInfo, GetCallInfo callback function [Security], LSA_GET_CALL_INFO, LSA_GET_CALL_INFO callback, _ssp_getcallinfo, ntsecpkg/GetCallInfo, security.getcallinfo
 ms.topic: callback
-f1_keywords: ["ntsecpkg/GetCallInfo"]
+f1_keywords: 
+ - "ntsecpkg/GetCallInfo"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

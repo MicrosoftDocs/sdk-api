@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLogIoStatistics, GetLogIoStatistics function [Files], clfsw32/GetLogIoStatistics, fs.getlogiostatistics
 ms.topic: function
-f1_keywords: ["clfsw32/GetLogIoStatistics"]
+f1_keywords: 
+ - "clfsw32/GetLogIoStatistics"
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

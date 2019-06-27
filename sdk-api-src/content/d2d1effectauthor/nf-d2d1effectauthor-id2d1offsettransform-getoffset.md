@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOffset, GetOffset method [Direct2D], GetOffset method [Direct2D],ID2D1OffsetTransform interface, ID2D1OffsetTransform interface [Direct2D],GetOffset method, ID2D1OffsetTransform.GetOffset, ID2D1OffsetTransform::GetOffset, d2d1effectauthor/ID2D1OffsetTransform::GetOffset, direct2d.id2d1offsettransform_getoffset
 ms.topic: method
-f1_keywords: ["d2d1effectauthor/ID2D1OffsetTransform.GetOffset"]
+f1_keywords: 
+ - "d2d1effectauthor/ID2D1OffsetTransform.GetOffset"
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDMOperation interface [windows Media Device Manager],SetObjectName method, IWMDMOperation.SetObjectName, IWMDMOperation::SetObjectName, IWMDMOperationSetObjectName, SetObjectName, SetObjectName method [windows Media Device Manager], SetObjectName method [windows Media Device Manager],IWMDMOperation interface, mswmdm/IWMDMOperation::SetObjectName, wmdm.iwmdmoperation_setobjectname
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMOperation.SetObjectName"]
+f1_keywords: 
+ - "mswmdm/IWMDMOperation.SetObjectName"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

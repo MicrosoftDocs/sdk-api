@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThreadLocale, GetThreadLocale function [Internationalization for Windows Applications], _win32_GetThreadLocale, intl.getthreadlocale, winnls/GetThreadLocale
 ms.topic: function
-f1_keywords: ["winnls/GetThreadLocale"]
+f1_keywords: 
+ - "winnls/GetThreadLocale"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

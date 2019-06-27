@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStaticPortMapping, IStaticPortMapping interface [ICS/ICF], IStaticPortMapping interface [ICS/ICF],described, _ics_istaticportmapping, ics.istaticportmapping, natupnp/IStaticPortMapping
 ms.topic: interface
-f1_keywords: ["natupnp/IStaticPortMapping"]
+f1_keywords: 
+ - "natupnp/IStaticPortMapping"
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

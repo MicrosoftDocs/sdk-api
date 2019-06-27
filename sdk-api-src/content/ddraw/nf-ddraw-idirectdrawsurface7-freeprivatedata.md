@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreePrivateData, FreePrivateData method [DirectDraw], FreePrivateData method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],FreePrivateData method, IDirectDrawSurface7.FreePrivateData, IDirectDrawSurface7::FreePrivateData, ddraw/IDirectDrawSurface7::FreePrivateData, directdraw.idirectdrawsurface7_freeprivatedata
 ms.topic: method
-f1_keywords: ["ddraw/IDirectDrawSurface7.FreePrivateData"]
+f1_keywords: 
+ - "ddraw/IDirectDrawSurface7.FreePrivateData"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

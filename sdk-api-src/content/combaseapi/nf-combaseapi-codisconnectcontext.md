@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoDisconnectContext, CoDisconnectContext function [COM], _com_CoDisconnectContext, com.codisconnectcontext, combaseapi/CoDisconnectContext
 ms.topic: function
-f1_keywords: ["combaseapi/CoDisconnectContext"]
+f1_keywords: 
+ - "combaseapi/CoDisconnectContext"
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

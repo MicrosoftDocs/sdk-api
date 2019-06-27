@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdhReadRawLogRecord, PdhReadRawLogRecord function [Perf], _win32_pdhreadrawlogrecord, base.pdhreadrawlogrecord, pdh/PdhReadRawLogRecord, perf.pdhreadrawlogrecord
 ms.topic: function
-f1_keywords: ["pdh/PdhReadRawLogRecord"]
+f1_keywords: 
+ - "pdh/PdhReadRawLogRecord"
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

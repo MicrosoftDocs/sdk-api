@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCryptGenerateSymmetricKey, BCryptGenerateSymmetricKey function [Security], bcrypt/BCryptGenerateSymmetricKey, security.bcryptgeneratesymmetrickey_func
 ms.topic: function
-f1_keywords: ["bcrypt/BCryptGenerateSymmetricKey"]
+f1_keywords: 
+ - "bcrypt/BCryptGenerateSymmetricKey"
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

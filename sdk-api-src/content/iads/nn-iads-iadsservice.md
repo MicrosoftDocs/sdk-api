@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsService, IADsService interface [ADSI], IADsService interface [ADSI],described, _ds_iadsservice, adsi.iadsservice, iads/IADsService
 ms.topic: interface
-f1_keywords: ["iads/IADsService"]
+f1_keywords: 
+ - "iads/IADsService"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

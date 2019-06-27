@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITask interface [Task Scheduler],SetApplicationName method, ITask.SetApplicationName, ITask::SetApplicationName, SetApplicationName, SetApplicationName method [Task Scheduler], SetApplicationName method [Task Scheduler],ITask interface, _msb_itask_setapplicationname, mstask/ITask::SetApplicationName, taskschd.itask_setapplicationname
 ms.topic: method
-f1_keywords: ["mstask/ITask.SetApplicationName"]
+f1_keywords: 
+ - "mstask/ITask.SetApplicationName"
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

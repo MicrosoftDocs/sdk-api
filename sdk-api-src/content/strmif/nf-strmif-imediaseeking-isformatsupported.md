@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaSeeking interface [DirectShow],IsFormatSupported method, IMediaSeeking.IsFormatSupported, IMediaSeeking::IsFormatSupported, IMediaSeekingIsFormatSupported, IsFormatSupported, IsFormatSupported method [DirectShow], IsFormatSupported method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_isformatsupported, strmif/IMediaSeeking::IsFormatSupported
 ms.topic: method
-f1_keywords: ["strmif/IMediaSeeking.IsFormatSupported"]
+f1_keywords: 
+ - "strmif/IMediaSeeking.IsFormatSupported"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

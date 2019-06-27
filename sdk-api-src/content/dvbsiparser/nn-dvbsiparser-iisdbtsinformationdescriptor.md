@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IIsdbTSInformationDescriptor, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies], IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbTSInformationDescriptor, mstv.iisdbtsinformationdescriptor
 ms.topic: interface
-f1_keywords: ["dvbsiparser/IIsdbTSInformationDescriptor"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbTSInformationDescriptor"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

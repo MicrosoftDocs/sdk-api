@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamTimeSeek, IMFByteStreamTimeSeek interface [Media Foundation], IMFByteStreamTimeSeek interface [Media Foundation],described, mf.imfbytestreamtimeseek, mfidl/IMFByteStreamTimeSeek
 ms.topic: interface
-f1_keywords: ["mfidl/IMFByteStreamTimeSeek"]
+f1_keywords: 
+ - "mfidl/IMFByteStreamTimeSeek"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

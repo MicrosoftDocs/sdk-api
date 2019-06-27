@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndSubscribeToMultipleOperations, EndSubscribeToMultipleOperations method, EndSubscribeToMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,EndSubscribeToMultipleOperations method, IWSDServiceProxyEventing.EndSubscribeToMultipleOperations, IWSDServiceProxyEventing::EndSubscribeToMultipleOperations, ncd.iwsdserviceproxyeventing_endsubscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::EndSubscribeToMultipleOperations
 ms.topic: method
-f1_keywords: ["wsdclient/IWSDServiceProxyEventing.EndSubscribeToMultipleOperations"]
+f1_keywords: 
+ - "wsdclient/IWSDServiceProxyEventing.EndSubscribeToMultipleOperations"
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

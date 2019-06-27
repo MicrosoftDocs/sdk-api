@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleAdviseHolder, IOleAdviseHolder interface [COM], IOleAdviseHolder interface [COM],described, _ole_ioleadviseholder, com.ioleadviseholder, oleidl/IOleAdviseHolder
 ms.topic: interface
-f1_keywords: ["oleidl/IOleAdviseHolder"]
+f1_keywords: 
+ - "oleidl/IOleAdviseHolder"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITTAPIObjectEvent, ITTAPIObjectEvent interface [TAPI 2.2], ITTAPIObjectEvent interface [TAPI 2.2],described, _tapi3_ittapiobjectevent, tapi3.ittapiobjectevent, tapi3if/ITTAPIObjectEvent
 ms.topic: interface
-f1_keywords: ["tapi3if/ITTAPIObjectEvent"]
+f1_keywords: 
+ - "tapi3if/ITTAPIObjectEvent"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

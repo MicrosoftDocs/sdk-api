@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],fastForward method, IWMPControls.fastForward, IWMPControls::fastForward, IWMPControlsfastForward, fastForward, fastForward method [Windows Media Player], fastForward method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_fastforward, wmp/IWMPControls::fastForward
 ms.topic: method
-f1_keywords: ["wmp/IWMPControls.fastForward"]
+f1_keywords: 
+ - "wmp/IWMPControls.fastForward"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

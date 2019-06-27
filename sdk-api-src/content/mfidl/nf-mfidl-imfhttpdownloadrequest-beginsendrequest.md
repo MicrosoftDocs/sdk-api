@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginSendRequest, BeginSendRequest method [Media Foundation], BeginSendRequest method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],BeginSendRequest method, IMFHttpDownloadRequest.BeginSendRequest, IMFHttpDownloadRequest::BeginSendRequest, mf.imfhttpdownloadrequest_beginsendrequest, mfidl/IMFHttpDownloadRequest::BeginSendRequest
 ms.topic: method
-f1_keywords: ["mfidl/IMFHttpDownloadRequest.BeginSendRequest"]
+f1_keywords: 
+ - "mfidl/IMFHttpDownloadRequest.BeginSendRequest"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

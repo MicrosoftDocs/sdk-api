@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSecPkgContext_EarlyStart, PSecPkgContext_EarlyStart, PSecPkgContext_EarlyStart structure pointer [Security], SecPkgContext_EarlyStart, SecPkgContext_EarlyStart structure [Security], SecPkgContext_EarlyStartA, SecPkgContext_EarlyStartW, _SecPkgContext_EarlyStart, schannel/PSecPkgContext_EarlyStart, schannel/SecPkgContext_EarlyStart, schannel/SecPkgContext_EarlyStartA, schannel/SecPkgContext_EarlyStartW, security.secpkgcontext_earlystart"
 ms.topic: struct
-f1_keywords: ["schannel/SecPkgContext_EarlyStart"]
+f1_keywords: 
+ - "schannel/SecPkgContext_EarlyStart"
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows

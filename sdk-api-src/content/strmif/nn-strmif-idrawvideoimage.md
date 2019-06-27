@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDrawVideoImage, IDrawVideoImage interface [DirectShow], IDrawVideoImage interface [DirectShow],described, IDrawVideoImageInterface, dshow.idrawvideoimage, strmif/IDrawVideoImage
 ms.topic: interface
-f1_keywords: ["strmif/IDrawVideoImage"]
+f1_keywords: 
+ - "strmif/IDrawVideoImage"
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

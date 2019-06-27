@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TextRange_AddToSelection, TextRange_AddToSelection function [Windows Accessibility], uiauto.uiauto_TextRange_AddToSelectionConPat, uiauto_TextRange_AddToSelectionConPat, uiautomationcoreapi/TextRange_AddToSelection, winauto.uiauto_TextRange_AddToSelectionConPat
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/TextRange_AddToSelection"]
+f1_keywords: 
+ - "uiautomationcoreapi/TextRange_AddToSelection"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

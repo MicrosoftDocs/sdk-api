@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDetectTone interface [TAPI 2.2],put_Frequency method, ITDetectTone.put_Frequency, ITDetectTone::put_Frequency, _tapi3_itdetecttone_put_frequency, put_Frequency, put_Frequency method [TAPI 2.2], put_Frequency method [TAPI 2.2],ITDetectTone interface, tapi3.itdetecttone_put_frequency, tapi3if/ITDetectTone::put_Frequency
 ms.topic: method
-f1_keywords: ["tapi3if/ITDetectTone.put_Frequency"]
+f1_keywords: 
+ - "tapi3if/ITDetectTone.put_Frequency"
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

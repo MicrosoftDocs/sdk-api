@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetCreator method, IScheduledWorkItem.SetCreator, IScheduledWorkItem::SetCreator, SetCreator, SetCreator method [Task Scheduler], SetCreator method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setcreator, mstask/IScheduledWorkItem::SetCreator, taskschd.ischeduledworkitem_setcreator
 ms.topic: method
-f1_keywords: ["mstask/IScheduledWorkItem.SetCreator"]
+f1_keywords: 
+ - "mstask/IScheduledWorkItem.SetCreator"
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

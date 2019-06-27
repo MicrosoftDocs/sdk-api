@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDNS_NAPTR_DATA, *PDNS_NAPTR_DATAW, DNS_NAPTR_DATA, DNS_NAPTR_DATA structure [DNS], DNS_NAPTR_DATAW, PDNS_NAPTR_DATA, PDNS_NAPTR_DATA structure pointer [DNS], dns.dns_naptr_data, windns/DNS_NAPTR_DATA, windns/PDNS_NAPTR_DATA"
 ms.topic: struct
-f1_keywords: ["windns/DNS_NAPTR_DATA"]
+f1_keywords: 
+ - "windns/DNS_NAPTR_DATA"
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

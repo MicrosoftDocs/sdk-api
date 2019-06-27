@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MSGFILTER, MSGFILTER structure [Windows Controls], _win32_MSGFILTER_str, _win32_MSGFILTER_str_cpp, controls.MSGFILTER, controls._win32_MSGFILTER_str, richedit/MSGFILTER
 ms.topic: struct
-f1_keywords: ["richedit/MSGFILTER"]
+f1_keywords: 
+ - "richedit/MSGFILTER"
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: stralign/uaw_wcslen, uaw_wcslen, uaw_wcslen function [Windows API], winprog.uaw_wcslen
 ms.topic: function
-f1_keywords: ["stralign/uaw_wcslen"]
+f1_keywords: 
+ - "stralign/uaw_wcslen"
 req.header: stralign.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_capDlgVideoDisplay, capDlgVideoDisplay, capDlgVideoDisplay macro [Windows Multimedia], multimedia.capdlgvideodisplay, vfw/capDlgVideoDisplay"
 ms.topic: macro
-f1_keywords: ["vfw/capDlgVideoDisplay"]
+f1_keywords: 
+ - "vfw/capDlgVideoDisplay"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

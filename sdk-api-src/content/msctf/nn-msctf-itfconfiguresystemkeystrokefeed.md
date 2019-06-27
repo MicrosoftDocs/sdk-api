@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfConfigureSystemKeystrokeFeed, ITfConfigureSystemKeystrokeFeed interface [Text Services Framework], ITfConfigureSystemKeystrokeFeed interface [Text Services Framework],described, _tsf_itfconfiguresystemkeystrokefeed_ref, msctf/ITfConfigureSystemKeystrokeFeed, tsf.itfconfiguresystemkeystrokefeed
 ms.topic: interface
-f1_keywords: ["msctf/ITfConfigureSystemKeystrokeFeed"]
+f1_keywords: 
+ - "msctf/ITfConfigureSystemKeystrokeFeed"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

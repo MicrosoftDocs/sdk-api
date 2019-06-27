@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddMessage, AddMessage method [DXGI], AddMessage method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],AddMessage method, IDXGIInfoQueue.AddMessage, IDXGIInfoQueue::AddMessage, direct3ddxgi.idxgiinfoqueue_addmessage, dxgidebug/IDXGIInfoQueue::AddMessage
 ms.topic: method
-f1_keywords: ["dxgidebug/IDXGIInfoQueue.AddMessage"]
+f1_keywords: 
+ - "dxgidebug/IDXGIInfoQueue.AddMessage"
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

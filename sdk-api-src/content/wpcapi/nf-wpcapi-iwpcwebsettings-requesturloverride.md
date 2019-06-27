@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWPCWebSettings interface,RequestURLOverride method, IWPCWebSettings.RequestURLOverride, IWPCWebSettings::RequestURLOverride, RequestURLOverride, RequestURLOverride method, RequestURLOverride method,IWPCWebSettings interface, parcon.iwpcwebsettings_requesturloverride, wpcapi/IWPCWebSettings::RequestURLOverride
 ms.topic: method
-f1_keywords: ["wpcapi/IWPCWebSettings.RequestURLOverride"]
+f1_keywords: 
+ - "wpcapi/IWPCWebSettings.RequestURLOverride"
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderContextSubscribeChanges0, FwpmProviderContextSubscribeChanges0 function [Filtering], fwp.fwpmprovidercontextsubscribechanges0_func, fwpmu/FwpmProviderContextSubscribeChanges0
 ms.topic: function
-f1_keywords: ["fwpmu/FwpmProviderContextSubscribeChanges0"]
+f1_keywords: 
+ - "fwpmu/FwpmProviderContextSubscribeChanges0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

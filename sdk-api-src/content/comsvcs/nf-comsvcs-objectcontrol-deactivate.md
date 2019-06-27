@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Deactivate, Deactivate method [COM+], Deactivate method [COM+],ObjectControl interface, ObjectControl interface [COM+],Deactivate method, ObjectControl.Deactivate, ObjectControl::Deactivate, _cos_ObjectControl_Deactivate, comsvcs/ObjectControl::Deactivate, cos.objectcontrol_deactivate
 ms.topic: method
-f1_keywords: ["comsvcs/ObjectControl.Deactivate"]
+f1_keywords: 
+ - "comsvcs/ObjectControl.Deactivate"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

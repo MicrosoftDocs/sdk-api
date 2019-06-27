@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCertRequest object [Security],GetCAProperty method, CV_OUT_BASE64, CV_OUT_BASE64HEADER, CV_OUT_BASE64REQUESTHEADER, CV_OUT_BASE64X509CRLHEADER, CV_OUT_BINARY, CV_OUT_HEX, CV_OUT_HEXADDR, CV_OUT_HEXASCII, CV_OUT_HEXASCIIADDR, GetCAProperty, GetCAProperty method [Security], GetCAProperty method [Security],CCertRequest object, GetCAProperty method [Security],ICertRequest interface, GetCAProperty method [Security],ICertRequest2 interface, ICertRequest interface [Security],GetCAProperty method, ICertRequest2 interface [Security],GetCAProperty method, ICertRequest2.GetCAProperty, ICertRequest2::GetCAProperty, ICertRequest::GetCAProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, _certsrv_icertrequest2_getcaproperty, certcli/ICertRequest2::GetCAProperty, certcli/ICertRequest::GetCAProperty, security.icertrequest2_getcaproperty
 ms.topic: method
-f1_keywords: ["certcli/ICertRequest2.GetCAProperty"]
+f1_keywords: 
+ - "certcli/ICertRequest2.GetCAProperty"
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

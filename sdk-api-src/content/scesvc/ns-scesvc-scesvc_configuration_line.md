@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSCESVC_CONFIGURATION_LINE, PSCESVC_CONFIGURATION_LINE, PSCESVC_CONFIGURATION_LINE structure pointer [Security], SCESVC_CONFIGURATION_LINE, SCESVC_CONFIGURATION_LINE structure [Security], _config_scesvc_configuration_line, scesvc/PSCESVC_CONFIGURATION_LINE, scesvc/SCESVC_CONFIGURATION_LINE, security.scesvc_configuration_line"
 ms.topic: struct
-f1_keywords: ["scesvc/SCESVC_CONFIGURATION_LINE"]
+f1_keywords: 
+ - "scesvc/SCESVC_CONFIGURATION_LINE"
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows

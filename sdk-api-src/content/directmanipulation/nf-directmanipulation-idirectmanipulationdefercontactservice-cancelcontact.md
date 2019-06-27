@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CancelContact, CancelContact method [Direct Manipulation], CancelContact method [Direct Manipulation],IDirectManipulationDeferContactService interface, IDirectManipulationDeferContactService interface [Direct Manipulation],CancelContact method, IDirectManipulationDeferContactService.CancelContact, IDirectManipulationDeferContactService::CancelContact, directmanipulation.idirectmanipulationdefercontactservice_cancelcontact, directmanipulation/IDirectManipulationDeferContactService::CancelContact
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationDeferContactService.CancelContact"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationDeferContactService.CancelContact"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

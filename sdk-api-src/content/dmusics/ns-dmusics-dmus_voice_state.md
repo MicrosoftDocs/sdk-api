@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DMUS_VOICE_STATE, DMUS_VOICE_STATE structure [Audio Devices], audio.dmus_voice_state, dmusics/DMUS_VOICE_STATE
 ms.topic: struct
-f1_keywords: ["dmusics/DMUS_VOICE_STATE"]
+f1_keywords: 
+ - "dmusics/DMUS_VOICE_STATE"
 req.header: dmusics.h
 req.include-header: 
 req.target-type: Windows

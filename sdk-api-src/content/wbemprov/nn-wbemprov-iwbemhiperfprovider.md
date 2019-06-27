@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemHiPerfProvider, IWbemHiPerfProvider interface [Windows Management Instrumentation], IWbemHiPerfProvider interface [Windows Management Instrumentation],described, _hmm_iwbemhiperfprovider, wbemprov/IWbemHiPerfProvider, wmi.iwbemhiperfprovider
 ms.topic: interface
-f1_keywords: ["wbemprov/IWbemHiPerfProvider"]
+f1_keywords: 
+ - "wbemprov/IWbemHiPerfProvider"
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFriendlyName, GetFriendlyName method [Security], GetFriendlyName method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetFriendlyName method, IX509EnrollmentPolicyServer.GetFriendlyName, IX509EnrollmentPolicyServer::GetFriendlyName, certenroll/IX509EnrollmentPolicyServer::GetFriendlyName, security.ix509enrollmentpolicyserver_getfriendlyname
 ms.topic: method
-f1_keywords: ["certenroll/IX509EnrollmentPolicyServer.GetFriendlyName"]
+f1_keywords: 
+ - "certenroll/IX509EnrollmentPolicyServer.GetFriendlyName"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

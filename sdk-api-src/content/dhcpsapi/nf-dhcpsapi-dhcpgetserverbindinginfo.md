@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DHCP_ENDPOINT_FLAG_CANT_MODIFY, DhcpGetServerBindingInfo, DhcpGetServerBindingInfo function [DHCP], dhcp.dhcpgetserverbindinginfo, dhcpsapi/DhcpGetServerBindingInfo
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpGetServerBindingInfo"]
+f1_keywords: 
+ - "dhcpsapi/DhcpGetServerBindingInfo"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

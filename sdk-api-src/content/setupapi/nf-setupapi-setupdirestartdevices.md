@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiRestartDevices, SetupDiRestartDevices function [Device and Driver Installation], devinst.setupdirestartdevices, di-rtns_9e27f3b7-c33c-44f1-b804-521d7403ac4f.xml, setupapi/SetupDiRestartDevices
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiRestartDevices"]
+f1_keywords: 
+ - "setupapi/SetupDiRestartDevices"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CommitTransactionAsync, CommitTransactionAsync function [Files], fs.committransactionasync, ktmw32/CommitTransactionAsync
 ms.topic: function
-f1_keywords: ["ktmw32/CommitTransactionAsync"]
+f1_keywords: 
+ - "ktmw32/CommitTransactionAsync"
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

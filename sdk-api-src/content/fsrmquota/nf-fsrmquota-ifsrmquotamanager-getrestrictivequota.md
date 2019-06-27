@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FsrmQuotaManager class [File Server Resource Manager],GetRestrictiveQuota method, GetRestrictiveQuota, GetRestrictiveQuota method [File Server Resource Manager], GetRestrictiveQuota method [File Server Resource Manager],FsrmQuotaManager class, GetRestrictiveQuota method [File Server Resource Manager],IFsrmQuotaManager interface, GetRestrictiveQuota method [File Server Resource Manager],IFsrmQuotaManagerEx interface, IFsrmQuotaManager interface [File Server Resource Manager],GetRestrictiveQuota method, IFsrmQuotaManager.GetRestrictiveQuota, IFsrmQuotaManager::GetRestrictiveQuota, IFsrmQuotaManagerEx interface [File Server Resource Manager],GetRestrictiveQuota method, IFsrmQuotaManagerEx::GetRestrictiveQuota, fs.ifsrmquotamanager_getrestrictivequota, fsrm.ifsrmquotamanager_getrestrictivequota, fsrmquota/IFsrmQuotaManager::GetRestrictiveQuota, fsrmquota/IFsrmQuotaManagerEx::GetRestrictiveQuota
 ms.topic: method
-f1_keywords: ["fsrmquota/IFsrmQuotaManager.GetRestrictiveQuota"]
+f1_keywords: 
+ - "fsrmquota/IFsrmQuotaManager.GetRestrictiveQuota"
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows

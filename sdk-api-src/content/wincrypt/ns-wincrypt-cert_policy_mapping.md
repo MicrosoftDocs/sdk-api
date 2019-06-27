@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_POLICY_MAPPING, CERT_POLICY_MAPPING, CERT_POLICY_MAPPING structure [Security], PCERT_POLICY_MAPPING, PCERT_POLICY_MAPPING structure pointer [Security], _crypto2_cert_policy_mapping, security.cert_policy_mapping, wincrypt/CERT_POLICY_MAPPING, wincrypt/PCERT_POLICY_MAPPING"
 ms.topic: struct
-f1_keywords: ["wincrypt/CERT_POLICY_MAPPING"]
+f1_keywords: 
+ - "wincrypt/CERT_POLICY_MAPPING"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

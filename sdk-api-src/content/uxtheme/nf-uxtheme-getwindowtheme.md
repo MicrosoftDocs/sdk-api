@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWindowTheme, GetWindowTheme function [Windows Controls], controls.GetWindowTheme, controls.inet_GetWindowTheme, inet_GetWindowTheme, inet_GetWindowTheme_cpp, uxtheme/GetWindowTheme
 ms.topic: function
-f1_keywords: ["uxtheme/GetWindowTheme"]
+f1_keywords: 
+ - "uxtheme/GetWindowTheme"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

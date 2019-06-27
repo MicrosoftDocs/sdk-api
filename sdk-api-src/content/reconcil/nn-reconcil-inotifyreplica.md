@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INotifyReplica, INotifyReplica interface [Windows Shell], INotifyReplica interface [Windows Shell],described, _win32_INotifyReplica, reconcil/INotifyReplica, shell.INotifyReplica
 ms.topic: interface
-f1_keywords: ["reconcil/INotifyReplica"]
+f1_keywords: 
+ - "reconcil/INotifyReplica"
 req.header: reconcil.h
 req.include-header: 
 req.target-type: Windows

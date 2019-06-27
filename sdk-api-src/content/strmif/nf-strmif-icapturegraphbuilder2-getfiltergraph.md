@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFiltergraph, GetFiltergraph method [DirectShow], GetFiltergraph method [DirectShow],ICaptureGraphBuilder2 interface, ICaptureGraphBuilder2 interface [DirectShow],GetFiltergraph method, ICaptureGraphBuilder2.GetFiltergraph, ICaptureGraphBuilder2::GetFiltergraph, ICaptureGraphBuilder2GetFiltergraph, dshow.icapturegraphbuilder2_getfiltergraph, strmif/ICaptureGraphBuilder2::GetFiltergraph
 ms.topic: method
-f1_keywords: ["strmif/ICaptureGraphBuilder2.GetFiltergraph"]
+f1_keywords: 
+ - "strmif/ICaptureGraphBuilder2.GetFiltergraph"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointLastBufferControl interface [Core Audio],IsLastBufferControlSupported method, IAudioEndpointLastBufferControl.IsLastBufferControlSupported, IAudioEndpointLastBufferControl::IsLastBufferControlSupported, IsLastBufferControlSupported, IsLastBufferControlSupported method [Core Audio], IsLastBufferControlSupported method [Core Audio],IAudioEndpointLastBufferControl interface, audioengineendpoint/IAudioEndpointLastBufferControl::IsLastBufferControlSupported, coreaudio.iaudioendpointlastbuffercontrol_islastbuffercontrolsupported
 ms.topic: method
-f1_keywords: ["audioengineendpoint/IAudioEndpointLastBufferControl.IsLastBufferControlSupported"]
+f1_keywords: 
+ - "audioengineendpoint/IAudioEndpointLastBufferControl.IsLastBufferControlSupported"
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

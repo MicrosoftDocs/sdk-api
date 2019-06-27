@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCMSG_CTRL_VERIFY_SIGNATURE_EX_PARA, CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA, CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA structure [Security], CMSG_VERIFY_SIGNER_CERT, CMSG_VERIFY_SIGNER_CHAIN, CMSG_VERIFY_SIGNER_NULL, CMSG_VERIFY_SIGNER_PUBKEY, PCMSG_CTRL_VERIFY_SIGNATURE_EX_PARA, PCMSG_CTRL_VERIFY_SIGNATURE_EX_PARA structure pointer [Security], _crypto2_cmsg_ctrl_verify_signature_ex_para, security.cmsg_ctrl_verify_signature_ex_para, wincrypt/CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA, wincrypt/PCMSG_CTRL_VERIFY_SIGNATURE_EX_PARA"
 ms.topic: struct
-f1_keywords: ["wincrypt/CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA"]
+f1_keywords: 
+ - "wincrypt/CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

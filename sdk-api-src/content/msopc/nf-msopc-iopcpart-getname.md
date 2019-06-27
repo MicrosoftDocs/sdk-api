@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Open Packaging Conventions], GetName method [Open Packaging Conventions],IOpcPart interface, IOpcPart interface [Open Packaging Conventions],GetName method, IOpcPart.GetName, IOpcPart::GetName, msopc/IOpcPart::GetName, opc.iopcpart_getname
 ms.topic: method
-f1_keywords: ["msopc/IOpcPart.GetName"]
+f1_keywords: 
+ - "msopc/IOpcPart.GetName"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

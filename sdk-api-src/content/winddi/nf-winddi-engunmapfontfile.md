@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngUnmapFontFile, EngUnmapFontFile function [Display Devices], display.engunmapfontfile, gdifncs_8e66998b-e7dd-4ccb-b388-9b5faf4a64f4.xml, winddi/EngUnmapFontFile
 ms.topic: function
-f1_keywords: ["winddi/EngUnmapFontFile"]
+f1_keywords: 
+ - "winddi/EngUnmapFontFile"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

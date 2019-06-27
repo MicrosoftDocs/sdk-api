@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConnectSucceeded, ConnectSucceeded method [Windows Connect Now], ConnectSucceeded method [Windows Connect Now],IWCNConnectNotify interface, IWCNConnectNotify interface [Windows Connect Now],ConnectSucceeded method, IWCNConnectNotify.ConnectSucceeded, IWCNConnectNotify::ConnectSucceeded, wcn.iwcnconnectnotify_connectsucceeded, wcndevice/IWCNConnectNotify::ConnectSucceeded
 ms.topic: method
-f1_keywords: ["wcndevice/IWCNConnectNotify.ConnectSucceeded"]
+f1_keywords: 
+ - "wcndevice/IWCNConnectNotify.ConnectSucceeded"
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCategory, GetCategory method [Windows Shell], GetCategory method [Windows Shell],ICategorizer interface, ICategorizer interface [Windows Shell],GetCategory method, ICategorizer.GetCategory, ICategorizer::GetCategory, inet_ICategorizer_GetCategory, shell.ICategorizer_GetCategory, shobjidl_core/ICategorizer::GetCategory
 ms.topic: method
-f1_keywords: ["shobjidl_core/ICategorizer.GetCategory"]
+f1_keywords: 
+ - "shobjidl_core/ICategorizer.GetCategory"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

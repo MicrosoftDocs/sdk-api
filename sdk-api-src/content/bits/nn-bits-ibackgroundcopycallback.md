@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyCallback, IBackgroundCopyCallback interface [BITS], IBackgroundCopyCallback interface [BITS],described, _drz_ibackgroundcopycallback, bits.ibackgroundcopycallback, bits/IBackgroundCopyCallback
 ms.topic: interface
-f1_keywords: ["bits/IBackgroundCopyCallback"]
+f1_keywords: 
+ - "bits/IBackgroundCopyCallback"
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ForceLoadProperty, ForceLoadProperty method [Text Services Framework], ForceLoadProperty method [Text Services Framework],ITextStoreACPServices interface, ITextStoreACPServices interface [Text Services Framework],ForceLoadProperty method, ITextStoreACPServices.ForceLoadProperty, ITextStoreACPServices::ForceLoadProperty, _tsf_itextstoreacpservices_forceloadproperty_ref, msctf/ITextStoreACPServices::ForceLoadProperty, tsf.itextstoreacpservices_forceloadproperty
 ms.topic: method
-f1_keywords: ["msctf/ITextStoreACPServices.ForceLoadProperty"]
+f1_keywords: 
+ - "msctf/ITextStoreACPServices.ForceLoadProperty"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

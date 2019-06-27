@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HEAP_CREATE_ENABLE_EXECUTE, HEAP_GENERATE_EXCEPTIONS, HEAP_NO_SERIALIZE, HeapCreate, HeapCreate function, _win32_heapcreate, base.heapcreate, heapapi/HeapCreate, winbase/HeapCreate
 ms.topic: function
-f1_keywords: ["heapapi/HeapCreate"]
+f1_keywords: 
+ - "heapapi/HeapCreate"
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows

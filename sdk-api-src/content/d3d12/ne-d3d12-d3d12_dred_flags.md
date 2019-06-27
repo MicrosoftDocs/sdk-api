@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 02/06/2019
 ms.keywords: D3D12_DRED_FLAGS, D3D12_DRED_FLAGS enumeration, D3D12_DRED_FLAG_NONE, D3D12_DRED_FLAG_FORCE_ENABLE, D3D12_DRED_FLAG_DISABLE_AUTOBREADCRUMBS, d3d12/D3D12_DRED_FLAGS, d3d12/D3D12_DRED_FLAGS enumeration, d3d12/D3D12_DRED_FLAG_NONE, d3d12/D3D12_DRED_FLAG_FORCE_ENABLE, d3d12/D3D12_DRED_FLAG_DISABLE_AUTOBREADCRUMBS, direct3d12.d3d12_dred_flags
 ms.topic: enum
-f1_keywords: ["d3d12/D3D12_DRED_FLAGS"]
+f1_keywords: 
+ - "d3d12/D3D12_DRED_FLAGS"
 targetos: Windows
 product: Windows
 req.construct-type: enumeration

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLogicalProcessorInformation, GetLogicalProcessorInformation function, base.getlogicalprocessorinformation, sysinfoapi/GetLogicalProcessorInformation
 ms.topic: function
-f1_keywords: ["sysinfoapi/GetLogicalProcessorInformation"]
+f1_keywords: 
+ - "sysinfoapi/GetLogicalProcessorInformation"
 req.header: sysinfoapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDigitDetectionEvent interface [TAPI 2.2],get_Digit method, ITDigitDetectionEvent.get_Digit, ITDigitDetectionEvent::get_Digit, _tapi3_itdigitdetectionevent_get_digit, get_Digit, get_Digit method [TAPI 2.2], get_Digit method [TAPI 2.2],ITDigitDetectionEvent interface, tapi3.itdigitdetectionevent_get_digit, tapi3if/ITDigitDetectionEvent::get_Digit
 ms.topic: method
-f1_keywords: ["tapi3if/ITDigitDetectionEvent.get_Digit"]
+f1_keywords: 
+ - "tapi3if/ITDigitDetectionEvent.get_Digit"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

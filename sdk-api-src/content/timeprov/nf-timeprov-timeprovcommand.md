@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TPC_GetSamples, TPC_NetTopoChange, TPC_PollIntervalChanged, TPC_Query, TPC_Shutdown, TPC_TimeJumped, TPC_UpdateConfig, TimeProvCommand, TimeProvCommand callback, TimeProvCommand callback function, _win32_timeprovcommand, base.timeprovcommand, timeprov/TimeProvCommand
 ms.topic: function
-f1_keywords: ["timeprov/TimeProvCommand"]
+f1_keywords: 
+ - "timeprov/TimeProvCommand"
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows

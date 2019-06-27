@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetContractVerificationInfo, GetContractVerificationInfo method [Microsoft TV Technologies], GetContractVerificationInfo method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetContractVerificationInfo method, IIsdbCAContractInformationDescriptor.GetContractVerificationInfo, IIsdbCAContractInformationDescriptor::GetContractVerificationInfo, dvbsiparser/IIsdbCAContractInformationDescriptor::GetContractVerificationInfo, mstv.iisdbcacontractinformationdescriptor_getcontractverificationinfo
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbCAContractInformationDescriptor.GetContractVerificationInfo"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbCAContractInformationDescriptor.GetContractVerificationInfo"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngGetFilePath, EngGetFilePath function [Display Devices], display.enggetfilepath, gdifncs_219a84bc-93a3-4a5f-bf0e-d0087737fdb0.xml, winddi/EngGetFilePath
 ms.topic: function
-f1_keywords: ["winddi/EngGetFilePath"]
+f1_keywords: 
+ - "winddi/EngGetFilePath"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

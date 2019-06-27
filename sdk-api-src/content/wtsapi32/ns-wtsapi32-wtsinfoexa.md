@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWTSINFOEXA, PWTSINFOEX, PWTSINFOEX structure pointer [Remote Desktop Services], WTSINFOEX, WTSINFOEX structure [Remote Desktop Services], WTSINFOEXA, WTSINFOEXW, termserv.wtsinfoex, wtsapi32/PWTSINFOEX, wtsapi32/WTSINFOEX, wtsapi32/WTSINFOEXA, wtsapi32/WTSINFOEXW"
 ms.topic: struct
-f1_keywords: ["wtsapi32/WTSINFOEX"]
+f1_keywords: 
+ - "wtsapi32/WTSINFOEX"
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

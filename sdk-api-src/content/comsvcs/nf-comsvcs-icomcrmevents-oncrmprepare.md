@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMPrepare method, IComCRMEvents.OnCRMPrepare, IComCRMEvents::OnCRMPrepare, OnCRMPrepare, OnCRMPrepare method [COM+], OnCRMPrepare method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMPrepare, comsvcs/IComCRMEvents::OnCRMPrepare, cos.icomcrmevents_oncrmprepare
 ms.topic: method
-f1_keywords: ["comsvcs/IComCRMEvents.OnCRMPrepare"]
+f1_keywords: 
+ - "comsvcs/IComCRMEvents.OnCRMPrepare"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

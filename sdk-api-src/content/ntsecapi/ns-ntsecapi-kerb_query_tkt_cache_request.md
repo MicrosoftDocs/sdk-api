@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PKERB_QUERY_TKT_CACHE_REQUEST, KERB_QUERY_TKT_CACHE_REQUEST, KERB_QUERY_TKT_CACHE_REQUEST structure [Security], PKERB_QUERY_TKT_CACHE_REQUEST, PKERB_QUERY_TKT_CACHE_REQUEST structure pointer [Security], _lsa_kerb_query_tkt_cache_request, ntsecapi/KERB_QUERY_TKT_CACHE_REQUEST, ntsecapi/PKERB_QUERY_TKT_CACHE_REQUEST, security.kerb_query_tkt_cache_request"
 ms.topic: struct
-f1_keywords: ["ntsecapi/KERB_QUERY_TKT_CACHE_REQUEST"]
+f1_keywords: 
+ - "ntsecapi/KERB_QUERY_TKT_CACHE_REQUEST"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

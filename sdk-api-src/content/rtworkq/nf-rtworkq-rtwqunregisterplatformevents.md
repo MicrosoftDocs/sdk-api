@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtwqUnregisterPlatformEvents, RtwqUnregisterPlatformEvents function, base.rtwqunregisterplatformevents, rtworkq/RtwqUnregisterPlatformEvents
 ms.topic: function
-f1_keywords: ["rtworkq/RtwqUnregisterPlatformEvents"]
+f1_keywords: 
+ - "rtworkq/RtwqUnregisterPlatformEvents"
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

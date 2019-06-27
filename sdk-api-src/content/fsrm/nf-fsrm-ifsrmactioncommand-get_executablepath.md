@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExecutablePath property [File Server Resource Manager], ExecutablePath property [File Server Resource Manager],IFsrmActionCommand interface, IFsrmActionCommand interface [File Server Resource Manager],ExecutablePath property, IFsrmActionCommand.ExecutablePath, IFsrmActionCommand.get_ExecutablePath, IFsrmActionCommand::ExecutablePath, IFsrmActionCommand::get_ExecutablePath, IFsrmActionCommand::put_ExecutablePath, fs.ifsrmactioncommand_executablepath, fsrm.ifsrmactioncommand_executablepath, fsrm/IFsrmActionCommand::ExecutablePath, fsrm/IFsrmActionCommand::get_ExecutablePath, fsrm/IFsrmActionCommand::put_ExecutablePath, get_ExecutablePath
 ms.topic: method
-f1_keywords: ["fsrm/IFsrmActionCommand.ExecutablePath"]
+f1_keywords: 
+ - "fsrm/IFsrmActionCommand.ExecutablePath"
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows

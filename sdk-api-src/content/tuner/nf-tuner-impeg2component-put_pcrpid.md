@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMPEG2Component interface [Microsoft TV Technologies],put_PCRPID method, IMPEG2Component.put_PCRPID, IMPEG2Component::put_PCRPID, IMPEG2Componentput_PCRPID, mstv.impeg2component_put_pcrpid, put_PCRPID, put_PCRPID method [Microsoft TV Technologies], put_PCRPID method [Microsoft TV Technologies],IMPEG2Component interface, tuner/IMPEG2Component::put_PCRPID
 ms.topic: method
-f1_keywords: ["tuner/IMPEG2Component.put_PCRPID"]
+f1_keywords: 
+ - "tuner/IMPEG2Component.put_PCRPID"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

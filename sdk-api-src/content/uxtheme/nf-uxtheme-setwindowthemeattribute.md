@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetWindowThemeAttribute, SetWindowThemeAttribute function [Windows Controls], WTA_NONCLIENT, controls.SetWindowThemeAttribute, controls.inet_SetWindowThemeAttribute, inet_SetWindowThemeAttribute, inet_SetWindowThemeAttribute_cpp, uxtheme/SetWindowThemeAttribute
 ms.topic: function
-f1_keywords: ["uxtheme/SetWindowThemeAttribute"]
+f1_keywords: 
+ - "uxtheme/SetWindowThemeAttribute"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

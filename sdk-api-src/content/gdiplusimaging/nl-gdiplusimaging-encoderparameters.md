@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EncoderParameters, EncoderParameters class [GDI+], EncoderParameters class [GDI+],described, _gdiplus_CLASS_EncoderParameters_Class, gdiplus._gdiplus_CLASS_EncoderParameters_Class, gdiplusimaging/EncoderParameters
 ms.topic: class
-f1_keywords: ["gdiplusimaging/EncoderParameters"]
+f1_keywords: 
+ - "gdiplusimaging/EncoderParameters"
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

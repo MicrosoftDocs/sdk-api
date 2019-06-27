@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFile, GetFile method [BITS], GetFile method [BITS],IBackgroundCopyError interface, IBackgroundCopyError interface [BITS],GetFile method, IBackgroundCopyError.GetFile, IBackgroundCopyError::GetFile, _drz_ibackgroundcopyerror_getfile, bits.ibackgroundcopyerror_getfile, bits/IBackgroundCopyError::GetFile
 ms.topic: method
-f1_keywords: ["bits/IBackgroundCopyError.GetFile"]
+f1_keywords: 
+ - "bits/IBackgroundCopyError.GetFile"
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

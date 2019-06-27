@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OpenEventLog, OpenEventLog function, OpenEventLogA, OpenEventLogW, _win32_openeventlog, base.openeventlog, winbase/OpenEventLog, winbase/OpenEventLogA, winbase/OpenEventLogW
 ms.topic: function
-f1_keywords: ["winbase/OpenEventLog"]
+f1_keywords: 
+ - "winbase/OpenEventLog"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

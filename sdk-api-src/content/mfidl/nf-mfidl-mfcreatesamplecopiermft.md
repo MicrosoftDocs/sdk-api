@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateSampleCopierMFT, MFCreateSampleCopierMFT function [Media Foundation], mf.mfcreatesamplecopiermft, mfidl/MFCreateSampleCopierMFT
 ms.topic: function
-f1_keywords: ["mfidl/MFCreateSampleCopierMFT"]
+f1_keywords: 
+ - "mfidl/MFCreateSampleCopierMFT"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

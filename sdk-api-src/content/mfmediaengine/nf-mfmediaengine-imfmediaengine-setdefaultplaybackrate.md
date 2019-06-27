@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetDefaultPlaybackRate method, IMFMediaEngine.SetDefaultPlaybackRate, IMFMediaEngine::SetDefaultPlaybackRate, SetDefaultPlaybackRate, SetDefaultPlaybackRate method [Media Foundation], SetDefaultPlaybackRate method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setdefaultplaybackrate, mfmediaengine/IMFMediaEngine::SetDefaultPlaybackRate
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngine.SetDefaultPlaybackRate"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngine.SetDefaultPlaybackRate"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

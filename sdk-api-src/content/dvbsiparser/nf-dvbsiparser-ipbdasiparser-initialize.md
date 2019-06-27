@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPBDASiParser interface [Microsoft TV Technologies],Initialize method, IPBDASiParser.Initialize, IPBDASiParser::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IPBDASiParser interface, dshow.ipbdasiparser_initialize, dvbsiparser/IPBDASiParser::Initialize, mstv.ipbdasiparser_initialize
 ms.topic: method
-f1_keywords: ["dvbsiparser/IPBDASiParser.Initialize"]
+f1_keywords: 
+ - "dvbsiparser/IPBDASiParser.Initialize"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

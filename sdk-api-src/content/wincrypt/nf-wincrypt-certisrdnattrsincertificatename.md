@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertIsRDNAttrsInCertificateName, CertIsRDNAttrsInCertificateName function [Security], _crypto2_certisrdnattrsincertificatename, security.certisrdnattrsincertificatename, wincrypt/CertIsRDNAttrsInCertificateName
 ms.topic: function
-f1_keywords: ["wincrypt/CertIsRDNAttrsInCertificateName"]
+f1_keywords: 
+ - "wincrypt/CertIsRDNAttrsInCertificateName"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

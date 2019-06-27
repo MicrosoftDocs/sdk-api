@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioRenderClient interface [Core Audio],ReleaseBuffer method, IAudioRenderClient.ReleaseBuffer, IAudioRenderClient::ReleaseBuffer, IAudioRenderClientReleaseBuffer, ReleaseBuffer, ReleaseBuffer method [Core Audio], ReleaseBuffer method [Core Audio],IAudioRenderClient interface, audioclient/IAudioRenderClient::ReleaseBuffer, coreaudio.iaudiorenderclient_releasebuffer
 ms.topic: method
-f1_keywords: ["audioclient/IAudioRenderClient.ReleaseBuffer"]
+f1_keywords: 
+ - "audioclient/IAudioRenderClient.ReleaseBuffer"
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

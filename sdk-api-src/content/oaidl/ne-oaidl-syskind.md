@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SYSKIND, SYSKIND enumeration [Automation], SYS_MAC, SYS_WIN16, SYS_WIN32, SYS_WIN64, _oa96_SYSKIND, automat.syskind, oaidl/SYSKIND, oaidl/SYS_MAC, oaidl/SYS_WIN16, oaidl/SYS_WIN32, oaidl/SYS_WIN64
 ms.topic: enum
-f1_keywords: ["oaidl/SYSKIND"]
+f1_keywords: 
+ - "oaidl/SYSKIND"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

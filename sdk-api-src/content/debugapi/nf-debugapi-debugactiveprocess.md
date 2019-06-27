@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DebugActiveProcess, DebugActiveProcess function, _win32_debugactiveprocess, base.debugactiveprocess, debugapi/DebugActiveProcess
 ms.topic: function
-f1_keywords: ["debugapi/DebugActiveProcess"]
+f1_keywords: 
+ - "debugapi/DebugActiveProcess"
 req.header: debugapi.h
 req.include-header: Windows.h
 req.target-type: Windows

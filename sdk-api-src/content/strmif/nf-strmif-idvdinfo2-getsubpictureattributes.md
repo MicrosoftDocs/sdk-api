@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSubpictureAttributes, GetSubpictureAttributes method [DirectShow], GetSubpictureAttributes method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetSubpictureAttributes method, IDvdInfo2.GetSubpictureAttributes, IDvdInfo2::GetSubpictureAttributes, IDvdInfo2GetSubpictureAttributes, dshow.idvdinfo2_getsubpictureattributes, strmif/IDvdInfo2::GetSubpictureAttributes
 ms.topic: method
-f1_keywords: ["strmif/IDvdInfo2.GetSubpictureAttributes"]
+f1_keywords: 
+ - "strmif/IDvdInfo2.GetSubpictureAttributes"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectOutputConnectorImpl interface [WPF Bitmap Effects],RemoveBackLink method, IMILBitmapEffectOutputConnectorImpl.RemoveBackLink, IMILBitmapEffectOutputConnectorImpl::RemoveBackLink, RemoveBackLink, RemoveBackLink method [WPF Bitmap Effects], RemoveBackLink method [WPF Bitmap Effects],IMILBitmapEffectOutputConnectorImpl interface, _wibe_imilbitmapeffectoutputconnectorimpl_removebacklink, mileffects/IMILBitmapEffectOutputConnectorImpl::RemoveBackLink, wibe._wibe_imilbitmapeffectoutputconnectorimpl_removebacklink
 ms.topic: method
-f1_keywords: ["mileffects/IMILBitmapEffectOutputConnectorImpl.RemoveBackLink"]
+f1_keywords: 
+ - "mileffects/IMILBitmapEffectOutputConnectorImpl.RemoveBackLink"
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

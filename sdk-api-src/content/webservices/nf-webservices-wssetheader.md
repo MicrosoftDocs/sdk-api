@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsSetHeader, WsSetHeader function [Web Services for Windows], webservices/WsSetHeader, wsw.wssetheader
 ms.topic: function
-f1_keywords: ["webservices/WsSetHeader"]
+f1_keywords: 
+ - "webservices/WsSetHeader"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpSetPort, SnmpSetPort function [SNMP], _snmp_snmpsetport, snmp.snmpsetport, winsnmp/SnmpSetPort
 ms.topic: function
-f1_keywords: ["winsnmp/SnmpSetPort"]
+f1_keywords: 
+ - "winsnmp/SnmpSetPort"
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

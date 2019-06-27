@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FsrmPropertyDefinitionType, FsrmPropertyDefinitionType enumeration [File Server Resource Manager], FsrmPropertyDefinitionType_Bool, FsrmPropertyDefinitionType_Date, FsrmPropertyDefinitionType_Int, FsrmPropertyDefinitionType_MultiChoiceList, FsrmPropertyDefinitionType_MultiString, FsrmPropertyDefinitionType_OrderedList, FsrmPropertyDefinitionType_SingleChoiceList, FsrmPropertyDefinitionType_String, FsrmPropertyDefinitionType_Unknown, fs.fsrmpropertydefinitiontype, fsrm.fsrmpropertydefinitiontype, fsrmenums/FsrmPropertyDefinitionType, fsrmenums/FsrmPropertyDefinitionType_Bool, fsrmenums/FsrmPropertyDefinitionType_Date, fsrmenums/FsrmPropertyDefinitionType_Int, fsrmenums/FsrmPropertyDefinitionType_MultiChoiceList, fsrmenums/FsrmPropertyDefinitionType_MultiString, fsrmenums/FsrmPropertyDefinitionType_OrderedList, fsrmenums/FsrmPropertyDefinitionType_SingleChoiceList, fsrmenums/FsrmPropertyDefinitionType_String, fsrmenums/FsrmPropertyDefinitionType_Unknown
 ms.topic: enum
-f1_keywords: ["fsrmenums/FsrmPropertyDefinitionType"]
+f1_keywords: 
+ - "fsrmenums/FsrmPropertyDefinitionType"
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

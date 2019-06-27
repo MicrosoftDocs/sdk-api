@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorLessOrEqual, XMColorLessOrEqual, XMColorLessOrEqual method [DirectX Math Support APIs], dxmath.xmcolorlessorequal
 ms.topic: function
-f1_keywords: ["directxmath/XMColorLessOrEqual"]
+f1_keywords: 
+ - "directxmath/XMColorLessOrEqual"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TdhDeletePayloadFilter, TdhDeletePayloadFilter function [ETW], etw.tdhdeletepayloadfilter, tdh/TdhDeletePayloadFilter
 ms.topic: function
-f1_keywords: ["tdh/TdhDeletePayloadFilter"]
+f1_keywords: 
+ - "tdh/TdhDeletePayloadFilter"
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

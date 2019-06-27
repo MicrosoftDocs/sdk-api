@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLRES_V1_FUNCTION_TABLE, CLRES_V1_FUNCTION_TABLE macro [Failover Cluster], _wolf_clres_v1_function_table, mscs.clres_v1_function_table, resapi/CLRES_V1_FUNCTION_TABLE
 ms.topic: macro
-f1_keywords: ["resapi/CLRES_V1_FUNCTION_TABLE"]
+f1_keywords: 
+ - "resapi/CLRES_V1_FUNCTION_TABLE"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetUseGetInfo, NetUseGetInfo function [Network Management], _win32_netusegetinfo, lmuse/NetUseGetInfo, netmgmt.netusegetinfo
 ms.topic: function
-f1_keywords: ["lmuse/NetUseGetInfo"]
+f1_keywords: 
+ - "lmuse/NetUseGetInfo"
 req.header: lmuse.h
 req.include-header: Lm.h
 req.target-type: Windows

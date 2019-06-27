@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGamma, GetGamma method [Direct Write], GetGamma method [Direct Write],IDWriteRenderingParams interface, IDWriteRenderingParams interface [Direct Write],GetGamma method, IDWriteRenderingParams.GetGamma, IDWriteRenderingParams::GetGamma, directwrite.IDWriteRenderingParams_GetGamma, dwrite/IDWriteRenderingParams::GetGamma
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteRenderingParams.GetGamma"]
+f1_keywords: 
+ - "dwrite/IDWriteRenderingParams.GetGamma"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

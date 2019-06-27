@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_Unlock method, IWMSecureChannel.WMSC_Unlock, IWMSecureChannel::WMSC_Unlock, WMSC_Unlock, WMSC_Unlock method [windows Media Format], WMSC_Unlock method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_unlock, wmsecure/IWMSecureChannel::WMSC_Unlock
 ms.topic: method
-f1_keywords: ["wmsecure/IWMSecureChannel.WMSC_Unlock"]
+f1_keywords: 
+ - "wmsecure/IWMSecureChannel.WMSC_Unlock"
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows

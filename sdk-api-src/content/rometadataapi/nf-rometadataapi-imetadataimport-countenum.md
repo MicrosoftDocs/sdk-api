@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CountEnum, CountEnum method [Windows Runtime], CountEnum method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],CountEnum method, IMetaDataImport.CountEnum, IMetaDataImport::CountEnum, rometadataapi/IMetaDataImport::CountEnum, winrt.imetadataimport_countenum
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataImport.CountEnum"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataImport.CountEnum"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

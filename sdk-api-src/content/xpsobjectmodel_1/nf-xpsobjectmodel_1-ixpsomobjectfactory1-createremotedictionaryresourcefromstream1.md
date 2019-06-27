@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateRemoteDictionaryResourceFromStream1, CreateRemoteDictionaryResourceFromStream1 method [XPS Documents and Packaging], CreateRemoteDictionaryResourceFromStream1 method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],CreateRemoteDictionaryResourceFromStream1 method, IXpsOMObjectFactory1.CreateRemoteDictionaryResourceFromStream1, IXpsOMObjectFactory1::CreateRemoteDictionaryResourceFromStream1, xps.ixpsomobjectfactory1_createremotedictionaryresourcefromstream1, xpsobjectmodel_1/IXpsOMObjectFactory1::CreateRemoteDictionaryResourceFromStream1
 ms.topic: method
-f1_keywords: ["xpsobjectmodel_1/IXpsOMObjectFactory1.CreateRemoteDictionaryResourceFromStream1"]
+f1_keywords: 
+ - "xpsobjectmodel_1/IXpsOMObjectFactory1.CreateRemoteDictionaryResourceFromStream1"
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows

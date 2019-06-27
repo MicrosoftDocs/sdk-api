@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStylusSyncPlugin, GetStylusSyncPlugin method [Tablet PC], GetStylusSyncPlugin method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetStylusSyncPlugin method, IRealTimeStylus.GetStylusSyncPlugin, IRealTimeStylus::GetStylusSyncPlugin, ec587954-cf7c-4f2d-a20d-b401011f7140, rtscom/IRealTimeStylus::GetStylusSyncPlugin, tablet.irealtimestylus_getstylussyncplugin
 ms.topic: method
-f1_keywords: ["rtscom/IRealTimeStylus.GetStylusSyncPlugin"]
+f1_keywords: 
+ - "rtscom/IRealTimeStylus.GetStylusSyncPlugin"
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

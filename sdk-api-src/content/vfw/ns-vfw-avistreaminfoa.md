@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPAVISTREAMINFOA, AVISTREAMINFO, AVISTREAMINFO structure [Windows Multimedia], AVISTREAMINFOA, AVISTREAMINFOW, AVISTREAMINFO_DISABLED, AVISTREAMINFO_FORMATCHANGES, multimedia.avistreaminfo_COLLISION869, multimedia.avistreaminfo_struct, streamtypeAUDIO, streamtypeMIDI, streamtypeTEXT, streamtypeVIDEO, vfw/AVISTREAMINFO"
 ms.topic: struct
-f1_keywords: ["vfw/AVISTREAMINFO"]
+f1_keywords: 
+ - "vfw/AVISTREAMINFO"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob2 interface [Fax Service],ScheduleType property, IFaxOutgoingJob2.ScheduleType, IFaxOutgoingJob2.get_ScheduleType, IFaxOutgoingJob2::ScheduleType, IFaxOutgoingJob2::get_ScheduleType, ScheduleType property [Fax Service], ScheduleType property [Fax Service],IFaxOutgoingJob2 interface, _mfax_faxoutgoingjob.scheduletype, fax._mfax_faxoutgoingjob2_cpp_mfax_faxoutgoingjob_scheduletype_cpp, fax._mfax_faxoutgoingjob_scheduletype, faxcomex/IFaxOutgoingJob2::ScheduleType, faxcomex/IFaxOutgoingJob2::get_ScheduleType, get_ScheduleType
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxOutgoingJob2.ScheduleType"]
+f1_keywords: 
+ - "faxcomex/IFaxOutgoingJob2.ScheduleType"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FlashWindow, FlashWindow function, _win32_flashwindow, base.flashwindow, winuser/FlashWindow
 ms.topic: function
-f1_keywords: ["winuser/FlashWindow"]
+f1_keywords: 
+ - "winuser/FlashWindow"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

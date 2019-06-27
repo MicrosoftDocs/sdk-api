@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_IPMCAST_OIF, *PMIB_IPMCAST_OIF_XP, MIB_IPMCAST_OIF, MIB_IPMCAST_OIF structure [MIB], MIB_IPMCAST_OIF_XP, PMIB_IPMCAST_OIF, PMIB_IPMCAST_OIF structure pointer [MIB], _mpr_mib_ipmcast_oif, ipmib/MIB_IPMCAST_OIF, ipmib/PMIB_IPMCAST_OIF, iprtrmib/MIB_IPMCAST_OIF, iprtrmib/PMIB_IPMCAST_OIF, mib.mib_ipmcast_oif, rras.mib_ipmcast_oif"
 ms.topic: struct
-f1_keywords: ["ipmib/MIB_IPMCAST_OIF"]
+f1_keywords: 
+ - "ipmib/MIB_IPMCAST_OIF"
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

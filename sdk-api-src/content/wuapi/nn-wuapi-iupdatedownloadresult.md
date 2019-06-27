@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateDownloadResult, IUpdateDownloadResult interface [Windows Update Agent], IUpdateDownloadResult interface [Windows Update Agent],described, wua.iupdatedownloadresult, wuapi/IUpdateDownloadResult
 ms.topic: interface
-f1_keywords: ["wuapi/IUpdateDownloadResult"]
+f1_keywords: 
+ - "wuapi/IUpdateDownloadResult"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

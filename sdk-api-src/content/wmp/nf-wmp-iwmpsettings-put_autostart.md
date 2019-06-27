@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_autoStart method, IWMPSettings.put_autoStart, IWMPSettings::put_autoStart, IWMPSettingsput_autoStart, put_autoStart, put_autoStart method [Windows Media Player], put_autoStart method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_autostart, wmp/IWMPSettings::put_autoStart
 ms.topic: method
-f1_keywords: ["wmp/IWMPSettings.put_autoStart"]
+f1_keywords: 
+ - "wmp/IWMPSettings.put_autoStart"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

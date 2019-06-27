@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BindResource, BindResource method [Direct3D 11], BindResource method [Direct3D 11],ID3D11ModuleInstance interface, ID3D11ModuleInstance interface [Direct3D 11],BindResource method, ID3D11ModuleInstance.BindResource, ID3D11ModuleInstance::BindResource, d3d11shader/ID3D11ModuleInstance::BindResource, direct3d11.id3d11moduleinstance_bindresource
 ms.topic: method
-f1_keywords: ["d3d11shader/ID3D11ModuleInstance.BindResource"]
+f1_keywords: 
+ - "d3d11shader/ID3D11ModuleInstance.BindResource"
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

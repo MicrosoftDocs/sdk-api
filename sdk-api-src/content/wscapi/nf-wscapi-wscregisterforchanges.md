@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WscRegisterForChanges, WscRegisterForChanges function [Windows API], winprog.wscregisterforchanges, wscapi/WscRegisterForChanges
 ms.topic: function
-f1_keywords: ["wscapi/WscRegisterForChanges"]
+f1_keywords: 
+ - "wscapi/WscRegisterForChanges"
 req.header: wscapi.h
 req.include-header: 
 req.target-type: Windows

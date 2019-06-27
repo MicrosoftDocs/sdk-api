@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumParams, EnumParams method [Windows Runtime], EnumParams method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumParams method, IMetaDataImport.EnumParams, IMetaDataImport::EnumParams, rometadataapi/IMetaDataImport::EnumParams, winrt.imetadataimport_enumparams
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataImport.EnumParams"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataImport.EnumParams"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

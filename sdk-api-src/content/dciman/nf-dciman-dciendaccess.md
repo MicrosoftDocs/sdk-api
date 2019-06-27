@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DCIEndAccess, DCIEndAccess function [Windows API], _dciman_dciendaccess, dciman/DCIEndAccess, winprog._dciman_dciendaccess, winui._dciman_dciendaccess
 ms.topic: function
-f1_keywords: ["dciman/DCIEndAccess"]
+f1_keywords: 
+ - "dciman/DCIEndAccess"
 req.header: dciman.h
 req.include-header: 
 req.target-type: Windows

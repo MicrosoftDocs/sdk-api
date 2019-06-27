@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AssessmentState property [WinSAT], AssessmentState property [WinSAT],IProvideWinSATResultsInfo interface, IProvideWinSATResultsInfo interface [WinSAT],AssessmentState property, IProvideWinSATResultsInfo.AssessmentState, IProvideWinSATResultsInfo.get_AssessmentState, IProvideWinSATResultsInfo::AssessmentState, IProvideWinSATResultsInfo::get_AssessmentState, get_AssessmentState, winsat.iprovidewinsatresultsinfo_assessmentstate, winsatcominterfacei/IProvideWinSATResultsInfo::AssessmentState, winsatcominterfacei/IProvideWinSATResultsInfo::get_AssessmentState
 ms.topic: method
-f1_keywords: ["winsatcominterfacei/IProvideWinSATResultsInfo.AssessmentState"]
+f1_keywords: 
+ - "winsatcominterfacei/IProvideWinSATResultsInfo.AssessmentState"
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows

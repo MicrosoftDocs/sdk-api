@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleSetContainedObject, OleSetContainedObject function [COM], _ole_OleSetContainedObject, com.olesetcontainedobject, ole2/OleSetContainedObject
 ms.topic: function
-f1_keywords: ["ole2/OleSetContainedObject"]
+f1_keywords: 
+ - "ole2/OleSetContainedObject"
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

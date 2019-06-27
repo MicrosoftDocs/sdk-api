@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GdiComment, GdiComment function [Windows GDI], _win32_GdiComment, gdi.gdicomment, wingdi/GdiComment
 ms.topic: function
-f1_keywords: ["wingdi/GdiComment"]
+f1_keywords: 
+ - "wingdi/GdiComment"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

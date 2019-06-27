@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CITextToFullTree, CITextToFullTree function [Indexing Service], _idxs_CITextToFullTree, indexsrv.citexttofulltree, ntquery/CITextToFullTree
 ms.topic: function
-f1_keywords: ["ntquery/CITextToFullTree"]
+f1_keywords: 
+ - "ntquery/CITextToFullTree"
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

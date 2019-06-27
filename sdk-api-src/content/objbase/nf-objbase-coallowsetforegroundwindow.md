@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoAllowSetForegroundWindow, CoAllowSetForegroundWindow function [COM], _com_CoAllowSetForegroundWindow, com.coallowsetforegroundwindow, objbase/CoAllowSetForegroundWindow
 ms.topic: function
-f1_keywords: ["objbase/CoAllowSetForegroundWindow"]
+f1_keywords: 
+ - "objbase/CoAllowSetForegroundWindow"
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

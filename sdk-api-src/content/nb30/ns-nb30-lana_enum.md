@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLANA_ENUM, LANA_ENUM, LANA_ENUM structure [NetBIOS], PLANA_ENUM, PLANA_ENUM structure pointer [NetBIOS], nb30/LANA_ENUM, nb30/PLANA_ENUM, netbios.lana_enum"
 ms.topic: struct
-f1_keywords: ["nb30/LANA_ENUM"]
+f1_keywords: 
+ - "nb30/LANA_ENUM"
 req.header: nb30.h
 req.include-header: 
 req.target-type: Windows

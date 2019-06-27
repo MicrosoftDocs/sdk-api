@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITraceEvent interface [ETW],SetTimeStamp method, ITraceEvent.SetTimeStamp, ITraceEvent::SetTimeStamp, SetTimeStamp, SetTimeStamp method [ETW], SetTimeStamp method [ETW],ITraceEvent interface, etw.ievent_settimestamp, relogger/ITraceEvent::SetTimeStamp
 ms.topic: method
-f1_keywords: ["relogger/ITraceEvent.SetTimeStamp"]
+f1_keywords: 
+ - "relogger/ITraceEvent.SetTimeStamp"
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

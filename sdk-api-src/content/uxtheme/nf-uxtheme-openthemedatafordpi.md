@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OpenThemeDataForDpi, OpenThemeDataForDpi function [High DPI], hidpi.openthemedatafordpi, uxtheme/OpenThemeDataForDpi
 ms.topic: function
-f1_keywords: ["uxtheme/OpenThemeDataForDpi"]
+f1_keywords: 
+ - "uxtheme/OpenThemeDataForDpi"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

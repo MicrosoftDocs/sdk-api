@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SPR_DESTINATION, SPR_SOURCE, SYNC_PROVIDER_ROLE, SYNC_PROVIDER_ROLE enumeration [Windows Sync], winsync.sync_provider_role, winsync/SPR_DESTINATION, winsync/SPR_SOURCE, winsync/SYNC_PROVIDER_ROLE
 ms.topic: enum
-f1_keywords: ["winsync/SYNC_PROVIDER_ROLE"]
+f1_keywords: 
+ - "winsync/SYNC_PROVIDER_ROLE"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

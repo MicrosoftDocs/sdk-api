@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPreviewHandler interface [Windows Shell],Unload method, IPreviewHandler.Unload, IPreviewHandler::Unload, Unload, Unload method [Windows Shell], Unload method [Windows Shell],IPreviewHandler interface, _shell_IPreviewHandler_Unload, shell.IPreviewHandler_Unload, shobjidl_core/IPreviewHandler::Unload
 ms.topic: method
-f1_keywords: ["shobjidl_core/IPreviewHandler.Unload"]
+f1_keywords: 
+ - "shobjidl_core/IPreviewHandler.Unload"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

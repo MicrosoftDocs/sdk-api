@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetProcessWorkingSetSize, SetProcessWorkingSetSize function, _win32_setprocessworkingsetsize, base.setprocessworkingsetsize, winbase/SetProcessWorkingSetSize
 ms.topic: function
-f1_keywords: ["winbase/SetProcessWorkingSetSize"]
+f1_keywords: 
+ - "winbase/SetProcessWorkingSetSize"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

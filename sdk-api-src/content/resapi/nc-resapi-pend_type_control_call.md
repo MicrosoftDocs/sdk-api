@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndTypeControlCall, EndTypeControlCall callback, EndTypeControlCall callback function [Failover Cluster], PEND_TYPE_CONTROL_CALL, PEND_TYPE_CONTROL_CALL callback function [Failover Cluster], mscs.endtypecontrolcall, resapi/EndTypeControlCall, resapi/PEND_TYPE_CONTROL_CALL
 ms.topic: callback
-f1_keywords: ["resapi/EndTypeControlCall callback"]
+f1_keywords: 
+ - "resapi/EndTypeControlCall callback"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

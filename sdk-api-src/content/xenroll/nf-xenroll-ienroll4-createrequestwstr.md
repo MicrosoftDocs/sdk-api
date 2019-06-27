@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],createRequestWStr method, IEnroll4.createRequestWStr, IEnroll4::createRequestWStr, XECR_CMC, XECR_PKCS10_V1_5, XECR_PKCS10_V2_0, XECR_PKCS7, createRequestWStr, createRequestWStr method [Security], createRequestWStr method [Security],IEnroll4 interface, security.ienroll4_createrequestwstr, xenroll/IEnroll4::createRequestWStr
 ms.topic: method
-f1_keywords: ["xenroll/IEnroll4.createRequestWStr"]
+f1_keywords: 
+ - "xenroll/IEnroll4.createRequestWStr"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

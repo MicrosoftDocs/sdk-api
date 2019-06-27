@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMNetworkStatus, IAMNetworkStatus interface [DirectShow], IAMNetworkStatus interface [DirectShow],described, IAMNetworkStatusInterface, dshow.iamnetworkstatus, qnetwork/IAMNetworkStatus
 ms.topic: interface
-f1_keywords: ["qnetwork/IAMNetworkStatus"]
+f1_keywords: 
+ - "qnetwork/IAMNetworkStatus"
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

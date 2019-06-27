@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetServiceState, GetServiceState method [DirectShow], GetServiceState method [DirectShow],IAMLine21Decoder interface, IAMLine21Decoder interface [DirectShow],GetServiceState method, IAMLine21Decoder.GetServiceState, IAMLine21Decoder::GetServiceState, IAMLine21DecoderGetServiceState, dshow.iamline21decoder_getservicestate, il21dec/IAMLine21Decoder::GetServiceState
 ms.topic: method
-f1_keywords: ["il21dec/IAMLine21Decoder.GetServiceState"]
+f1_keywords: 
+ - "il21dec/IAMLine21Decoder.GetServiceState"
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows

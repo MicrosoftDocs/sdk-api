@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasSetCredentials, RasSetCredentials function [RAS], RasSetCredentialsA, RasSetCredentialsW, _ras_rassetcredentials, ras/RasSetCredentials, ras/RasSetCredentialsA, ras/RasSetCredentialsW, rras.rassetcredentials
 ms.topic: function
-f1_keywords: ["ras/RasSetCredentials"]
+f1_keywords: 
+ - "ras/RasSetCredentials"
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

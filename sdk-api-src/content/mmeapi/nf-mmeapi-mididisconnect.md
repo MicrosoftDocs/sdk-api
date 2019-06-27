@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_midiDisconnect, midiDisconnect, midiDisconnect function [Windows Multimedia], mmeapi/midiDisconnect, multimedia.mididisconnect"
 ms.topic: function
-f1_keywords: ["mmeapi/midiDisconnect"]
+f1_keywords: 
+ - "mmeapi/midiDisconnect"
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

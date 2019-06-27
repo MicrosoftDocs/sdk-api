@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropertyOverrideValue, GetPropertyOverrideValue method [Windows Controls], GetPropertyOverrideValue method [Windows Controls],IRicheditUiaOverrides interface, IRicheditUiaOverrides interface [Windows Controls],GetPropertyOverrideValue method, IRicheditUiaOverrides.GetPropertyOverrideValue, IRicheditUiaOverrides::GetPropertyOverrideValue, controls.irichedituiaoverrides_getpropertyoverridevalue, textserv/IRicheditUiaOverrides::GetPropertyOverrideValue
 ms.topic: method
-f1_keywords: ["textserv/IRicheditUiaOverrides.GetPropertyOverrideValue"]
+f1_keywords: 
+ - "textserv/IRicheditUiaOverrides.GetPropertyOverrideValue"
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

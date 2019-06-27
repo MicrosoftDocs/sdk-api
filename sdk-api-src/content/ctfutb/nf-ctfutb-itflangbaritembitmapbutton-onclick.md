@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemBitmapButton interface [Text Services Framework],OnClick method, ITfLangBarItemBitmapButton.OnClick, ITfLangBarItemBitmapButton::OnClick, OnClick, OnClick method [Text Services Framework], OnClick method [Text Services Framework],ITfLangBarItemBitmapButton interface, _tsf_itflangbaritembitmapbutton_onclick_ref, ctfutb/ITfLangBarItemBitmapButton::OnClick, tsf.itflangbaritembitmapbutton_onclick
 ms.topic: method
-f1_keywords: ["ctfutb/ITfLangBarItemBitmapButton.OnClick"]
+f1_keywords: 
+ - "ctfutb/ITfLangBarItemBitmapButton.OnClick"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

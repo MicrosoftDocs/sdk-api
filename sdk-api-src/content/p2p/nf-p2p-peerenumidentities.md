@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerEnumIdentities, PeerEnumIdentities function [Peer Networking], p2p.peerenumidentities, p2p/PeerEnumIdentities
 ms.topic: function
-f1_keywords: ["p2p/PeerEnumIdentities"]
+f1_keywords: 
+ - "p2p/PeerEnumIdentities"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

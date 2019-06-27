@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GET_WHEEL_DELTA_WPARAM, GET_WHEEL_DELTA_WPARAM macro [Keyboard and Mouse Input], _win32_GET_WHEEL_DELTA_WPARAM, _win32_get_wheel_delta_wparam_cpp, inputdev.get_wheel_delta_wparam, winui._win32_get_wheel_delta_wparam, winuser/GET_WHEEL_DELTA_WPARAM
 ms.topic: macro
-f1_keywords: ["winuser/GET_WHEEL_DELTA_WPARAM"]
+f1_keywords: 
+ - "winuser/GET_WHEEL_DELTA_WPARAM"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarAdd, VarAdd function [Automation], _oa96_VarAdd, automat.varadd, oleauto/VarAdd
 ms.topic: function
-f1_keywords: ["oleauto/VarAdd"]
+f1_keywords: 
+ - "oleauto/VarAdd"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

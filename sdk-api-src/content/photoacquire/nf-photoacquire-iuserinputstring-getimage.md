@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetImage, GetImage method [Picture Acquisition], GetImage method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetImage method, IUserInputString.GetImage, IUserInputString::GetImage, IUserInputStringGetImage, photoacquire/IUserInputString::GetImage, picacq.iuserinputstring_getimage
 ms.topic: method
-f1_keywords: ["photoacquire/IUserInputString.GetImage"]
+f1_keywords: 
+ - "photoacquire/IUserInputString.GetImage"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

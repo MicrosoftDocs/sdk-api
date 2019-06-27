@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseWindow, CloseWindow function [Windows and Messages], _win32_CloseWindow, _win32_closewindow_cpp, winmsg.closewindow, winui._win32_closewindow, winuser/CloseWindow
 ms.topic: function
-f1_keywords: ["winuser/CloseWindow"]
+f1_keywords: 
+ - "winuser/CloseWindow"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

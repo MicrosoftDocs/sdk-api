@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPUB_PLUGIN_PD_ASSIGNMENT_EXISTING, TSPUB_PLUGIN_PD_ASSIGNMENT_NEW, TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE, TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE enumeration [Remote Desktop Services], termserv.tspub_plugin_pd_assignment_type, tspubplugin2com/TSPUB_PLUGIN_PD_ASSIGNMENT_EXISTING, tspubplugin2com/TSPUB_PLUGIN_PD_ASSIGNMENT_NEW, tspubplugin2com/TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE
 ms.topic: enum
-f1_keywords: ["tspubplugin2com/TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE"]
+f1_keywords: 
+ - "tspubplugin2com/TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE"
 req.header: tspubplugin2com.h
 req.include-header: 
 req.target-type: Windows

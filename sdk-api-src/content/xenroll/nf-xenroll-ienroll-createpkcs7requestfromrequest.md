@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePKCS7RequestFromRequest, CreatePKCS7RequestFromRequest method [Security], CreatePKCS7RequestFromRequest method [Security],IEnroll interface, CreatePKCS7RequestFromRequest method [Security],IEnroll2 interface, IEnroll interface [Security],CreatePKCS7RequestFromRequest method, IEnroll.CreatePKCS7RequestFromRequest, IEnroll2 interface [Security],CreatePKCS7RequestFromRequest method, IEnroll2::CreatePKCS7RequestFromRequest, IEnroll::CreatePKCS7RequestFromRequest, security.ienroll4_createpkcs7requestfromrequest, xenroll/IEnroll2::CreatePKCS7RequestFromRequest, xenroll/IEnroll::CreatePKCS7RequestFromRequest
 ms.topic: method
-f1_keywords: ["xenroll/IEnroll.CreatePKCS7RequestFromRequest"]
+f1_keywords: 
+ - "xenroll/IEnroll.CreatePKCS7RequestFromRequest"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

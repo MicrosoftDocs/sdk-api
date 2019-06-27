@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportServicePolicy interface [Windows Deployment Services],IpAddressSource property, IWdsTransportServicePolicy.IpAddressSource, IWdsTransportServicePolicy.get_IpAddressSource, IWdsTransportServicePolicy::IpAddressSource, IWdsTransportServicePolicy::get_IpAddressSource, IWdsTransportServicePolicy::put_IpAddressSource, IpAddressSource property [Windows Deployment Services], IpAddressSource property [Windows Deployment Services],IWdsTransportServicePolicy interface, get_IpAddressSource, wds.iwdstransportservicepolicy_ipaddresssource, wdstptmgmt/IWdsTransportServicePolicy::IpAddressSource, wdstptmgmt/IWdsTransportServicePolicy::get_IpAddressSource, wdstptmgmt/IWdsTransportServicePolicy::put_IpAddressSource
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportServicePolicy.IpAddressSource"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportServicePolicy.IpAddressSource"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

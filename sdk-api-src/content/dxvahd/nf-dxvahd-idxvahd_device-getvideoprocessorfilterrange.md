@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVideoProcessorFilterRange, GetVideoProcessorFilterRange method [Media Foundation], GetVideoProcessorFilterRange method [Media Foundation],IDXVAHD_Device interface, IDXVAHD_Device interface [Media Foundation],GetVideoProcessorFilterRange method, IDXVAHD_Device.GetVideoProcessorFilterRange, IDXVAHD_Device::GetVideoProcessorFilterRange, dxvahd/IDXVAHD_Device::GetVideoProcessorFilterRange, mf.idxvahd_device_getvideoprocessorfilterrange
 ms.topic: method
-f1_keywords: ["dxvahd/IDXVAHD_Device.GetVideoProcessorFilterRange"]
+f1_keywords: 
+ - "dxvahd/IDXVAHD_Device.GetVideoProcessorFilterRange"
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

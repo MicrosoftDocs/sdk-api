@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Enabled property [Tablet PC], Enabled property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],Enabled property, IInkOverlay.Enabled, IInkOverlay.put_Enabled, IInkOverlay::Enabled, IInkOverlay::get_Enabled, IInkOverlay::put_Enabled, InkOverlay.get_Enabled, InkOverlay.put_Enabled, msinkaut/IInkOverlay::Enabled, msinkaut/IInkOverlay::get_Enabled, msinkaut/IInkOverlay::put_Enabled, put_Enabled, tablet.inkoverlay_enabled
 ms.topic: method
-f1_keywords: ["msinkaut/IInkOverlay.Enabled"]
+f1_keywords: 
+ - "msinkaut/IInkOverlay.Enabled"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

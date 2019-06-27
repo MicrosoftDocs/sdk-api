@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_XML_READER_PROPERTIES, WS_XML_READER_PROPERTIES structure [Web Services for Windows], webservices/WS_XML_READER_PROPERTIES, wsw.ws_xml_reader_properties
 ms.topic: struct
-f1_keywords: ["webservices/WS_XML_READER_PROPERTIES"]
+f1_keywords: 
+ - "webservices/WS_XML_READER_PROPERTIES"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

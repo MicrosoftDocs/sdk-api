@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWiaDevMgr, IWiaDevMgr interface [WIA], IWiaDevMgr interface [WIA],described, _wia_IWiaDevMgr, wia._wia_IWiaDevMgr, wia_xp/IWiaDevMgr
 ms.topic: interface
-f1_keywords: ["wia_xp/IWiaDevMgr"]
+f1_keywords: 
+ - "wia_xp/IWiaDevMgr"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

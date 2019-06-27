@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterControlUnitPrivileged, EngineAdapterControlUnitPrivileged callback function [Windows Biometric Framework API], PIBIO_ENGINE_CONTROL_UNIT_PRIVILEGED_FN, PIBIO_ENGINE_CONTROL_UNIT_PRIVILEGED_FN callback, secbiomet.engineadaptercontrolunitprivileged, winbio_adapter/EngineAdapterControlUnitPrivileged
 ms.topic: callback
-f1_keywords: ["winbio_adapter/EngineAdapterControlUnitPrivileged"]
+f1_keywords: 
+ - "winbio_adapter/EngineAdapterControlUnitPrivileged"
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPTranscodePolicy, IWMPTranscodePolicy interface [Windows Media Player], IWMPTranscodePolicy interface [Windows Media Player],described, IWMPTranscodePolicyInterface, wmp.iwmptranscodepolicy, wmpservices/IWMPTranscodePolicy
 ms.topic: interface
-f1_keywords: ["wmpservices/IWMPTranscodePolicy"]
+f1_keywords: 
+ - "wmpservices/IWMPTranscodePolicy"
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

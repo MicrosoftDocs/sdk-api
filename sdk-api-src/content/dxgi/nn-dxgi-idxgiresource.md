@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 74b46980-220f-d8c0-f488-2656b735bb5d, IDXGIResource, IDXGIResource interface [DXGI], IDXGIResource interface [DXGI],described, direct3ddxgi.idxgiresource, dxgi/IDXGIResource
 ms.topic: interface
-f1_keywords: ["dxgi/IDXGIResource"]
+f1_keywords: 
+ - "dxgi/IDXGIResource"
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

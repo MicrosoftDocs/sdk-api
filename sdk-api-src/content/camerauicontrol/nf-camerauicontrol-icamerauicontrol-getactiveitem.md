@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetActiveItem, GetActiveItem method [Windows API], GetActiveItem method [Windows API],ICameraUIControl interface, ICameraUIControl interface [Windows API],GetActiveItem method, ICameraUIControl.GetActiveItem, ICameraUIControl::GetActiveItem, camerauicontrol/ICameraUIControl::GetActiveItem, winprog.icamerauicontrol_getactiveitem
 ms.topic: method
-f1_keywords: ["camerauicontrol/ICameraUIControl.GetActiveItem"]
+f1_keywords: 
+ - "camerauicontrol/ICameraUIControl.GetActiveItem"
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows

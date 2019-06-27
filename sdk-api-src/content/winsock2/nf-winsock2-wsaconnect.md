@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAConnect, WSAConnect function [Winsock], _win32_wsaconnect_2, winsock.wsaconnect_2, winsock2/WSAConnect
 ms.topic: function
-f1_keywords: ["winsock2/WSAConnect"]
+f1_keywords: 
+ - "winsock2/WSAConnect"
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

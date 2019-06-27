@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJobHttpOptions interface [BITS],SetCustomHeaders method, IBackgroundCopyJobHttpOptions.SetCustomHeaders, IBackgroundCopyJobHttpOptions::SetCustomHeaders, SetCustomHeaders, SetCustomHeaders method [BITS], SetCustomHeaders method [BITS],IBackgroundCopyJobHttpOptions interface, bits.ibackgroundcopyjobhttpoptions_setcustomheaders, bits2_5/IBackgroundCopyJobHttpOptions::SetCustomHeaders
 ms.topic: method
-f1_keywords: ["bits2_5/IBackgroundCopyJobHttpOptions.SetCustomHeaders"]
+f1_keywords: 
+ - "bits2_5/IBackgroundCopyJobHttpOptions.SetCustomHeaders"
 req.header: bits2_5.h
 req.include-header: Bits.h
 req.target-type: Windows

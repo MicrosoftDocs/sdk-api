@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_capGetUserData, capGetUserData, capGetUserData macro [Windows Multimedia], multimedia.capgetuserdata, vfw/capGetUserData"
 ms.topic: macro
-f1_keywords: ["vfw/capGetUserData"]
+f1_keywords: 
+ - "vfw/capGetUserData"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

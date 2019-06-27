@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DavGetTheLockOwnerOfTheFile, DavGetTheLockOwnerOfTheFile function [WebDAV], davclnt/DavGetTheLockOwnerOfTheFile, webdav.davgetthelockownerofthefile
 ms.topic: function
-f1_keywords: ["davclnt/DavGetTheLockOwnerOfTheFile"]
+f1_keywords: 
+ - "davclnt/DavGetTheLockOwnerOfTheFile"
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows

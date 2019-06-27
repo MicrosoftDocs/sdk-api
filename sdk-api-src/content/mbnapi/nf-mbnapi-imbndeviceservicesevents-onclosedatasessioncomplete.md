@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnCloseDataSessionComplete method, IMbnDeviceServicesEvents.OnCloseDataSessionComplete, IMbnDeviceServicesEvents::OnCloseDataSessionComplete, OnCloseDataSessionComplete, OnCloseDataSessionComplete method [Microsoft Broadband Networks], OnCloseDataSessionComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onclosedatasessioncomplete, mbnapi/IMbnDeviceServicesEvents::OnCloseDataSessionComplete
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnDeviceServicesEvents.OnCloseDataSessionComplete"]
+f1_keywords: 
+ - "mbnapi/IMbnDeviceServicesEvents.OnCloseDataSessionComplete"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

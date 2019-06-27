@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFStreamingSinkConfig, IMFStreamingSinkConfig interface [Media Foundation], IMFStreamingSinkConfig interface [Media Foundation],described, mf.imfstreamingsinkconfig, mfidl/IMFStreamingSinkConfig
 ms.topic: interface
-f1_keywords: ["mfidl/IMFStreamingSinkConfig"]
+f1_keywords: 
+ - "mfidl/IMFStreamingSinkConfig"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

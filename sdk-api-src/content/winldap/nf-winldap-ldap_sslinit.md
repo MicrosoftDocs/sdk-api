@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_sslinit, ldap.ldap__sslinit, ldap.ldap_sslinit, ldap_sslinit, ldap_sslinit function [LDAP], ldap_sslinitA, ldap_sslinitW, winldap/ldap_sslinit, winldap/ldap_sslinitA, winldap/ldap_sslinitW"
 ms.topic: function
-f1_keywords: ["winldap/ldap_sslinit"]
+f1_keywords: 
+ - "winldap/ldap_sslinit"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

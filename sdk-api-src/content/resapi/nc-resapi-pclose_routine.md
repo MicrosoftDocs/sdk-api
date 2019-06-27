@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, PCLOSE_ROUTINE, PCLOSE_ROUTINE callback, PCLOSE_ROUTINE callback function [Failover Cluster], _wolf_close, mscs.close, resapi/PCLOSE_ROUTINE
 ms.topic: callback
-f1_keywords: ["resapi/PCLOSE_ROUTINE"]
+f1_keywords: 
+ - "resapi/PCLOSE_ROUTINE"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

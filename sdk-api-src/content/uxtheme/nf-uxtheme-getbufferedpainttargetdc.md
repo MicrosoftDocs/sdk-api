@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBufferedPaintTargetDC, GetBufferedPaintTargetDC function [Windows Controls], _shell_GetBufferedPaintTargetDC, _shell_GetBufferedPaintTargetDC_cpp, controls.GetBufferedPaintTargetDC, controls._shell_GetBufferedPaintTargetDC, uxtheme/GetBufferedPaintTargetDC
 ms.topic: function
-f1_keywords: ["uxtheme/GetBufferedPaintTargetDC"]
+f1_keywords: 
+ - "uxtheme/GetBufferedPaintTargetDC"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

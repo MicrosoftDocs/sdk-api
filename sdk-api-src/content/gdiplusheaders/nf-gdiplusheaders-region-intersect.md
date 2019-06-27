@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/20/2019
 ms.keywords: Region::Intersect
 ms.topic: language-reference
-f1_keywords: ["gdiplusheaders/Region::Intersect"]
+f1_keywords: 
+ - "gdiplusheaders/Region::Intersect"
 targetos: Windows
 product: Windows
 req.assembly: 

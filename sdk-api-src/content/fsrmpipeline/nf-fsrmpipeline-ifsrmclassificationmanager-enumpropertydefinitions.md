@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumPropertyDefinitions, EnumPropertyDefinitions method [File Server Resource Manager], EnumPropertyDefinitions method [File Server Resource Manager],FsrmClassificationManager class, EnumPropertyDefinitions method [File Server Resource Manager],IFsrmClassificationManager interface, EnumPropertyDefinitions method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],EnumPropertyDefinitions method, IFsrmClassificationManager interface [File Server Resource Manager],EnumPropertyDefinitions method, IFsrmClassificationManager.EnumPropertyDefinitions, IFsrmClassificationManager2 interface [File Server Resource Manager],EnumPropertyDefinitions method, IFsrmClassificationManager2::EnumPropertyDefinitions, IFsrmClassificationManager::EnumPropertyDefinitions, fs.ifsrmclassificationmanager_enumpropertydefinitions, fsrm.ifsrmclassificationmanager_enumpropertydefinitions, fsrmpipeline/IFsrmClassificationManager2::EnumPropertyDefinitions, fsrmpipeline/IFsrmClassificationManager::EnumPropertyDefinitions
 ms.topic: method
-f1_keywords: ["fsrmpipeline/IFsrmClassificationManager.EnumPropertyDefinitions"]
+f1_keywords: 
+ - "fsrmpipeline/IFsrmClassificationManager.EnumPropertyDefinitions"
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows

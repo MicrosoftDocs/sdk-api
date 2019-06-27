@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [NDF], Cancel method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],Cancel method, INetDiagHelper.Cancel, INetDiagHelper::Cancel, ndf.inetdiaghelpe_cancel, ndhelper/INetDiagHelper::Cancel
 ms.topic: method
-f1_keywords: ["ndhelper/INetDiagHelper.Cancel"]
+f1_keywords: 
+ - "ndhelper/INetDiagHelper.Cancel"
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

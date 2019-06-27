@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,Query method, IVssSoftwareSnapshotProvider.Query, IVssSoftwareSnapshotProvider::Query, Query, Query method, Query method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_query, vsprov/IVssSoftwareSnapshotProvider::Query
 ms.topic: method
-f1_keywords: ["vsprov/IVssSoftwareSnapshotProvider.Query"]
+f1_keywords: 
+ - "vsprov/IVssSoftwareSnapshotProvider.Query"
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

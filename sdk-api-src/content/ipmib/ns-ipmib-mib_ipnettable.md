@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_IPNETTABLE, MIB_IPNETTABLE, MIB_IPNETTABLE structure [MIB], PMIB_IPNETTABLE, PMIB_IPNETTABLE structure pointer [MIB], _mpr_mib_ipnettable, ipmib/MIB_IPNETTABLE, ipmib/PMIB_IPNETTABLE, iprtrmib/MIB_IPNETTABLE, iprtrmib/PMIB_IPNETTABLE, mib.mib_ipnettable, rras.mib_ipnettable"
 ms.topic: struct
-f1_keywords: ["ipmib/MIB_IPNETTABLE"]
+f1_keywords: 
+ - "ipmib/MIB_IPNETTABLE"
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

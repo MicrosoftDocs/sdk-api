@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFPluginControl2 interface [Media Foundation],SetPolicy method, IMFPluginControl2.SetPolicy, IMFPluginControl2::SetPolicy, SetPolicy, SetPolicy method [Media Foundation], SetPolicy method [Media Foundation],IMFPluginControl2 interface, mf.imfplugincontrol2_setpolicy, mfobjects/IMFPluginControl2::SetPolicy
 ms.topic: method
-f1_keywords: ["mfobjects/IMFPluginControl2.SetPolicy"]
+f1_keywords: 
+ - "mfobjects/IMFPluginControl2.SetPolicy"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

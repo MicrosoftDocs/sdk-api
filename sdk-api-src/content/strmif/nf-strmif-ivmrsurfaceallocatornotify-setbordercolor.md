@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocatorNotify interface [DirectShow],SetBorderColor method, IVMRSurfaceAllocatorNotify.SetBorderColor, IVMRSurfaceAllocatorNotify::SetBorderColor, IVMRSurfaceAllocatorNotifySetBorderColor, SetBorderColor, SetBorderColor method [DirectShow], SetBorderColor method [DirectShow],IVMRSurfaceAllocatorNotify interface, dshow.ivmrsurfaceallocatornotify_setbordercolor, strmif/IVMRSurfaceAllocatorNotify::SetBorderColor
 ms.topic: method
-f1_keywords: ["strmif/IVMRSurfaceAllocatorNotify.SetBorderColor"]
+f1_keywords: 
+ - "strmif/IVMRSurfaceAllocatorNotify.SetBorderColor"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

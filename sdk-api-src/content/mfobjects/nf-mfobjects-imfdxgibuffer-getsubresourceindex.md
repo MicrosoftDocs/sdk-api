@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSubresourceIndex, GetSubresourceIndex method [Media Foundation], GetSubresourceIndex method [Media Foundation],IMFDXGIBuffer interface, IMFDXGIBuffer interface [Media Foundation],GetSubresourceIndex method, IMFDXGIBuffer.GetSubresourceIndex, IMFDXGIBuffer::GetSubresourceIndex, mf.imfdxgibuffer_getsubresourceindex, mfobjects/IMFDXGIBuffer::GetSubresourceIndex
 ms.topic: method
-f1_keywords: ["mfobjects/IMFDXGIBuffer.GetSubresourceIndex"]
+f1_keywords: 
+ - "mfobjects/IMFDXGIBuffer.GetSubresourceIndex"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

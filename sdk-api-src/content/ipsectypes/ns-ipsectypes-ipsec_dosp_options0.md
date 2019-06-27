@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPSEC_DOSP_FLAG_DISABLE_AUTHIP, IPSEC_DOSP_FLAG_DISABLE_DEFAULT_BLOCK, IPSEC_DOSP_FLAG_ENABLE_IKEV1, IPSEC_DOSP_FLAG_ENABLE_IKEV2, IPSEC_DOSP_FLAG_FILTER_BLOCK, IPSEC_DOSP_FLAG_FILTER_EXEMPT, IPSEC_DOSP_OPTIONS0, IPSEC_DOSP_OPTIONS0 structure [Filtering], fwp.ipsec_dosp_options0, ipsectypes/IPSEC_DOSP_OPTIONS0
 ms.topic: struct
-f1_keywords: ["ipsectypes/IPSEC_DOSP_OPTIONS0"]
+f1_keywords: 
+ - "ipsectypes/IPSEC_DOSP_OPTIONS0"
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

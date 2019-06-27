@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NtQueryInformationProcess, NtQueryInformationProcess function, ProcessBasicInformation, ProcessBreakOnTermination, ProcessDebugPort, ProcessImageFileName, ProcessSubsystemInformation, ProcessWow64Information, base.ntqueryinformationprocess, winternl/NtQueryInformationProcess
 ms.topic: function
-f1_keywords: ["winternl/NtQueryInformationProcess"]
+f1_keywords: 
+ - "winternl/NtQueryInformationProcess"
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

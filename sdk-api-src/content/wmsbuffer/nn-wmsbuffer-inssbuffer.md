@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INSSBuffer, INSSBuffer interface [windows Media Format], INSSBuffer interface [windows Media Format],described, INSSBufferInterface, wmformat.inssbuffer, wmsbuffer/INSSBuffer
 ms.topic: interface
-f1_keywords: ["wmsbuffer/INSSBuffer"]
+f1_keywords: 
+ - "wmsbuffer/INSSBuffer"
 req.header: wmsbuffer.h
 req.include-header: 
 req.target-type: Windows

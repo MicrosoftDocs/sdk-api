@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStreamCount, GetStreamCount method [DirectShow], GetStreamCount method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetStreamCount method, IMediaObject.GetStreamCount, IMediaObject::GetStreamCount, IMediaObjectGetStreamCount, dshow.imediaobject_getstreamcount, mediaobj/IMediaObject::GetStreamCount
 ms.topic: method
-f1_keywords: ["mediaobj/IMediaObject.GetStreamCount"]
+f1_keywords: 
+ - "mediaobj/IMediaObject.GetStreamCount"
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

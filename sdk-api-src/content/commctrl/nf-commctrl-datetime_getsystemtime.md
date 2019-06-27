@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DateTime_GetSystemtime, DateTime_GetSystemtime macro [Windows Controls], _win32_DateTime_GetSystemtime, _win32_DateTime_GetSystemtime_cpp, commctrl/DateTime_GetSystemtime, controls.DateTime_GetSystemtime, controls._win32_DateTime_GetSystemtime
 ms.topic: macro
-f1_keywords: ["commctrl/DateTime_GetSystemtime"]
+f1_keywords: 
+ - "commctrl/DateTime_GetSystemtime"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

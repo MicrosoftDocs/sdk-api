@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptXmlClose, CryptXmlClose function [Security], cryptxml/CryptXmlClose, security.cryptxmlclose
 ms.topic: function
-f1_keywords: ["cryptxml/CryptXmlClose"]
+f1_keywords: 
+ - "cryptxml/CryptXmlClose"
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

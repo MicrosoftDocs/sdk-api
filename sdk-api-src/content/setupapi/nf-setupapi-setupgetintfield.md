@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupGetIntField, SetupGetIntField function [Setup API], _setupapi_setupgetintfield, setup.setupgetintfield, setupapi/SetupGetIntField
 ms.topic: function
-f1_keywords: ["setupapi/SetupGetIntField"]
+f1_keywords: 
+ - "setupapi/SetupGetIntField"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

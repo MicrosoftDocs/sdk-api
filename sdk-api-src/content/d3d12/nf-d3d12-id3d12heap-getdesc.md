@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12Heap interface, ID3D12Heap interface,GetDesc method, ID3D12Heap.GetDesc, ID3D12Heap::GetDesc, d3d12/ID3D12Heap::GetDesc, direct3d12.id3d12heap_getdesc
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12Heap.GetDesc"]
+f1_keywords: 
+ - "d3d12/ID3D12Heap.GetDesc"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

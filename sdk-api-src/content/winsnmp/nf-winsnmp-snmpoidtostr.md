@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpOidToStr, SnmpOidToStr function [SNMP], _snmp_snmpoidtostr, snmp.snmpoidtostr, winsnmp/SnmpOidToStr
 ms.topic: function
-f1_keywords: ["winsnmp/SnmpOidToStr"]
+f1_keywords: 
+ - "winsnmp/SnmpOidToStr"
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEditProperty, GetEditProperty method [DirectShow], GetEditProperty method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetEditProperty method, IAMExtTransport.GetEditProperty, IAMExtTransport::GetEditProperty, IAMExtTransportGetEditProperty, dshow.iamexttransport_geteditproperty, strmif/IAMExtTransport::GetEditProperty
 ms.topic: method
-f1_keywords: ["strmif/IAMExtTransport.GetEditProperty"]
+f1_keywords: 
+ - "strmif/IAMExtTransport.GetEditProperty"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

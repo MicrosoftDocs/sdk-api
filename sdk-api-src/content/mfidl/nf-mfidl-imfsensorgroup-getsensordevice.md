@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSensorDevice, GetSensorDevice method [Media Foundation], GetSensorDevice method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetSensorDevice method, IMFSensorGroup.GetSensorDevice, IMFSensorGroup::GetSensorDevice, mf.imfsensorgroup_getsensordevice, mfidl/IMFSensorGroup::GetSensorDevice
 ms.topic: method
-f1_keywords: ["mfidl/IMFSensorGroup.GetSensorDevice"]
+f1_keywords: 
+ - "mfidl/IMFSensorGroup.GetSensorDevice"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystem interface [VDS],SetControllerStatus method, IVdsSubSystem.SetControllerStatus, IVdsSubSystem::SetControllerStatus, SetControllerStatus, SetControllerStatus method [VDS], SetControllerStatus method [VDS],IVdsSubSystem interface, base.ivdssubsystem_setcontrollerstatus, vds/IVdsSubSystem::SetControllerStatus, vdshwprv/IVdsSubSystem::SetControllerStatus
 ms.topic: method
-f1_keywords: ["vdshwprv/IVdsSubSystem.SetControllerStatus"]
+f1_keywords: 
+ - "vdshwprv/IVdsSubSystem.SetControllerStatus"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

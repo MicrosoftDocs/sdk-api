@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMetaDataImport interface [Windows Runtime],IsGlobal method, IMetaDataImport.IsGlobal, IMetaDataImport::IsGlobal, IsGlobal, IsGlobal method [Windows Runtime], IsGlobal method [Windows Runtime],IMetaDataImport interface, rometadataapi/IMetaDataImport::IsGlobal, winrt.imetadataimport_isglobal
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataImport.IsGlobal"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataImport.IsGlobal"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

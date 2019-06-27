@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellItemResources, IShellItemResources interface [Windows Shell], IShellItemResources interface [Windows Shell],described, _shell_IShellItemResources, shell.IShellItemResources, shobjidl_core/IShellItemResources
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IShellItemResources"]
+f1_keywords: 
+ - "shobjidl_core/IShellItemResources"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

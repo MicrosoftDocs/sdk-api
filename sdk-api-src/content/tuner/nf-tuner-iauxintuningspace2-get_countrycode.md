@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAuxInTuningSpace2 interface [Microsoft TV Technologies],get_CountryCode method, IAuxInTuningSpace2.get_CountryCode, IAuxInTuningSpace2::get_CountryCode, IAuxInTuningSpace2get_CountryCode, get_CountryCode, get_CountryCode method [Microsoft TV Technologies], get_CountryCode method [Microsoft TV Technologies],IAuxInTuningSpace2 interface, mstv.iauxintuningspace2_get_countrycode, tuner/IAuxInTuningSpace2::get_CountryCode
 ms.topic: method
-f1_keywords: ["tuner/IAuxInTuningSpace2.get_CountryCode"]
+f1_keywords: 
+ - "tuner/IAuxInTuningSpace2.get_CountryCode"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

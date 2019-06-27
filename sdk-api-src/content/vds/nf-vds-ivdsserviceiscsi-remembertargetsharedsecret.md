@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsServiceIscsi interface [VDS],RememberTargetSharedSecret method, IVdsServiceIscsi.RememberTargetSharedSecret, IVdsServiceIscsi::RememberTargetSharedSecret, RememberTargetSharedSecret, RememberTargetSharedSecret method [VDS], RememberTargetSharedSecret method [VDS],IVdsServiceIscsi interface, base.ivdsserviceiscsi_remembertargetsharedsecret, vds/IVdsServiceIscsi::RememberTargetSharedSecret
 ms.topic: method
-f1_keywords: ["vds/IVdsServiceIscsi.RememberTargetSharedSecret"]
+f1_keywords: 
+ - "vds/IVdsServiceIscsi.RememberTargetSharedSecret"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPMetadataPicture interface [Windows Media Player],get_pictureType method, IWMPMetadataPicture.get_pictureType, IWMPMetadataPicture::get_pictureType, IWMPMetadataPictureget_pictureType, get_pictureType, get_pictureType method [Windows Media Player], get_pictureType method [Windows Media Player],IWMPMetadataPicture interface, wmp.iwmpmetadatapicture_get_picturetype, wmp/IWMPMetadataPicture::get_pictureType
 ms.topic: method
-f1_keywords: ["wmp/IWMPMetadataPicture.get_pictureType"]
+f1_keywords: 
+ - "wmp/IWMPMetadataPicture.get_pictureType"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

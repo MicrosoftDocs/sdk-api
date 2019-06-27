@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GenerateReport, GenerateReport method [GPMC], GenerateReport method [GPMC],IGPMGPO interface, IGPMGPO interface [GPMC],GenerateReport method, IGPMGPO.GenerateReport, IGPMGPO::GenerateReport, gpmc.igpmgpo_generatereport, gpmgmt/IGPMGPO::GenerateReport
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMGPO.GenerateReport"]
+f1_keywords: 
+ - "gpmgmt/IGPMGPO.GenerateReport"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

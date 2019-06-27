@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMReaderCallbackAdvanced, IWMReaderCallbackAdvanced interface [windows Media Format], IWMReaderCallbackAdvanced interface [windows Media Format],described, IWMReaderCallbackAdvancedInterface, wmformat.iwmreadercallbackadvanced, wmsdkidl/IWMReaderCallbackAdvanced
 ms.topic: interface
-f1_keywords: ["wmsdkidl/IWMReaderCallbackAdvanced"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderCallbackAdvanced"
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

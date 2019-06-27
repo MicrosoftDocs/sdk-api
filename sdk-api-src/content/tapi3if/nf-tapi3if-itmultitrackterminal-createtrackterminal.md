@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTrackTerminal, CreateTrackTerminal method [TAPI 2.2], CreateTrackTerminal method [TAPI 2.2],ITMultiTrackTerminal interface, ITMultiTrackTerminal interface [TAPI 2.2],CreateTrackTerminal method, ITMultiTrackTerminal.CreateTrackTerminal, ITMultiTrackTerminal::CreateTrackTerminal, _tapi3_itmultitrackterminal_createtrackterminal, tapi3.itmultitrackterminal_createtrackterminal, tapi3if/ITMultiTrackTerminal::CreateTrackTerminal
 ms.topic: method
-f1_keywords: ["tapi3if/ITMultiTrackTerminal.CreateTrackTerminal"]
+f1_keywords: 
+ - "tapi3if/ITMultiTrackTerminal.CreateTrackTerminal"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

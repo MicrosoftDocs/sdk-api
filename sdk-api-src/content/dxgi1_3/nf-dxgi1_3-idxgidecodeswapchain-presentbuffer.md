@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIDecodeSwapChain interface [DXGI],PresentBuffer method, IDXGIDecodeSwapChain.PresentBuffer, IDXGIDecodeSwapChain::PresentBuffer, PresentBuffer, PresentBuffer method [DXGI], PresentBuffer method [DXGI],IDXGIDecodeSwapChain interface, direct3ddxgi.idxgidecodeswapchain_presentbuffer, dxgi1_3/IDXGIDecodeSwapChain::PresentBuffer
 ms.topic: method
-f1_keywords: ["dxgi1_3/IDXGIDecodeSwapChain.PresentBuffer"]
+f1_keywords: 
+ - "dxgi1_3/IDXGIDecodeSwapChain.PresentBuffer"
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

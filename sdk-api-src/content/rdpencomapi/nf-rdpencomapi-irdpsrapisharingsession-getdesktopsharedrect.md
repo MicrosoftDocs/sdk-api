@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDesktopSharedRect, GetDesktopSharedRect method [RDP], GetDesktopSharedRect method [RDP],IRDPSRAPISharingSession interface, GetDesktopSharedRect method [RDP],IRDPSRAPISharingSession2 interface, IRDPSRAPISharingSession interface [RDP],GetDesktopSharedRect method, IRDPSRAPISharingSession.GetDesktopSharedRect, IRDPSRAPISharingSession2 interface [RDP],GetDesktopSharedRect method, IRDPSRAPISharingSession2::GetDesktopSharedRect, IRDPSRAPISharingSession::GetDesktopSharedRect, rdp.irdpsrapisharingsession_getdesktopsharedrect, rdpencomapi/IRDPSRAPISharingSession2::GetDesktopSharedRect, rdpencomapi/IRDPSRAPISharingSession::GetDesktopSharedRect
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPISharingSession2.GetDesktopSharedRect"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPISharingSession2.GetDesktopSharedRect"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

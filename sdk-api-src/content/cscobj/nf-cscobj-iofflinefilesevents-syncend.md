@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncEnd method, IOfflineFilesEvents.SyncEnd, IOfflineFilesEvents::SyncEnd, SyncEnd, SyncEnd method [Offline Files], SyncEnd method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncEnd, of.iofflinefilesevents_syncend
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesEvents.SyncEnd"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesEvents.SyncEnd"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

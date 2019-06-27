@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 9a02aed2-8225-4416-ae54-7ed51c67a149, GetVideoProcessorCaps, GetVideoProcessorCaps method [Media Foundation], GetVideoProcessorCaps method [Media Foundation],IMFVideoProcessor interface, IMFVideoProcessor interface [Media Foundation],GetVideoProcessorCaps method, IMFVideoProcessor.GetVideoProcessorCaps, IMFVideoProcessor::GetVideoProcessorCaps, evr9/IMFVideoProcessor::GetVideoProcessorCaps, mf.imfvideoprocessor_getvideoprocessorcaps
 ms.topic: method
-f1_keywords: ["evr9/IMFVideoProcessor.GetVideoProcessorCaps"]
+f1_keywords: 
+ - "evr9/IMFVideoProcessor.GetVideoProcessorCaps"
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows

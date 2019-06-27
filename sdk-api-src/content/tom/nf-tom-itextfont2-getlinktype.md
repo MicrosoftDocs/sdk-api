@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLinkType, GetLinkType method [Windows Controls], GetLinkType method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetLinkType method, ITextFont2.GetLinkType, ITextFont2::GetLinkType, controls.itextfont2_getlinktype, tom/ITextFont2::GetLinkType, tomAutoLinkEmail, tomAutoLinkPath, tomAutoLinkPhone, tomAutoLinkURL, tomClientLink, tomFriendlyLinkAddress, tomFriendlyLinkName, tomNoLink
 ms.topic: method
-f1_keywords: ["tom/ITextFont2.GetLinkType"]
+f1_keywords: 
+ - "tom/ITextFont2.GetLinkType"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

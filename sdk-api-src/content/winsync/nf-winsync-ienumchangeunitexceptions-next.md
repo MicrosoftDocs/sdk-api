@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumChangeUnitExceptions interface [Windows Sync],Next method, IEnumChangeUnitExceptions.Next, IEnumChangeUnitExceptions::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumChangeUnitExceptions interface, winsync.ienumchangeunitexceptions_next, winsync/IEnumChangeUnitExceptions::Next
 ms.topic: method
-f1_keywords: ["winsync/IEnumChangeUnitExceptions.Next"]
+f1_keywords: 
+ - "winsync/IEnumChangeUnitExceptions.Next"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

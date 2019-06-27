@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MC_BLUE_GAIN, MC_GAIN_TYPE, MC_GAIN_TYPE , MC_GAIN_TYPE enumeration [Monitor Configuration], MC_GREEN_GAIN, MC_RED_GAIN, highlevelmonitorconfigurationapi/MC_BLUE_GAIN, highlevelmonitorconfigurationapi/MC_GAIN_TYPE, highlevelmonitorconfigurationapi/MC_GREEN_GAIN, highlevelmonitorconfigurationapi/MC_RED_GAIN, monitor.mc_gain_type
 ms.topic: enum
-f1_keywords: ["highlevelmonitorconfigurationapi/MC_GAIN_TYPE"]
+f1_keywords: 
+ - "highlevelmonitorconfigurationapi/MC_GAIN_TYPE"
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

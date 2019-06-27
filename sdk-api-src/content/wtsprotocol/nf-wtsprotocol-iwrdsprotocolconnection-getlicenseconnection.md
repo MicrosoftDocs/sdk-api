@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLicenseConnection, GetLicenseConnection method [Remote Desktop Services], GetLicenseConnection method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetLicenseConnection method, IWRdsProtocolConnection.GetLicenseConnection, IWRdsProtocolConnection::GetLicenseConnection, termserv.iwrdsprotocolconnection_getlicenseconnection, wtsprotocol/IWRdsProtocolConnection::GetLicenseConnection
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWRdsProtocolConnection.GetLicenseConnection"]
+f1_keywords: 
+ - "wtsprotocol/IWRdsProtocolConnection.GetLicenseConnection"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

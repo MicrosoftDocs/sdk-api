@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CQAddFormsProc, CQAddFormsProc callback, CQAddFormsProc callback function [Active Directory], LPCQADDFORMSPROC, LPCQADDFORMSPROC callback function pointer [Active Directory], ad.cqaddformsproc, cmnquery/CQAddFormsProc
 ms.topic: callback
-f1_keywords: ["cmnquery/LPCQADDFORMSPROC"]
+f1_keywords: 
+ - "cmnquery/LPCQADDFORMSPROC"
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

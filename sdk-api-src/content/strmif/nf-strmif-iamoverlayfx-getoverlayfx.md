@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOverlayFX, GetOverlayFX method [DirectShow], GetOverlayFX method [DirectShow],IAMOverlayFX interface, IAMOverlayFX interface [DirectShow],GetOverlayFX method, IAMOverlayFX.GetOverlayFX, IAMOverlayFX::GetOverlayFX, IAMOverlayFXGetOverlayFX, dshow.iamoverlayfx_getoverlayfx, strmif/IAMOverlayFX::GetOverlayFX
 ms.topic: method
-f1_keywords: ["strmif/IAMOverlayFX.GetOverlayFX"]
+f1_keywords: 
+ - "strmif/IAMOverlayFX.GetOverlayFX"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

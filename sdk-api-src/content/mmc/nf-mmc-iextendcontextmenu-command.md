@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Command, Command method [MMC], Command method [MMC],IExtendContextMenu interface, IExtendContextMenu interface [MMC],Command method, IExtendContextMenu.Command, IExtendContextMenu::Command, _slate_iextendcontextmenu_command, mmc.iextendcontextmenu_command, mmc/IExtendContextMenu::Command
 ms.topic: method
-f1_keywords: ["mmc/IExtendContextMenu.Command"]
+f1_keywords: 
+ - "mmc/IExtendContextMenu.Command"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

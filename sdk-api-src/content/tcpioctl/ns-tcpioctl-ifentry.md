@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFEntry, IFEntry structure [Windows API], tcpioctl/IFEntry, winprog.ifentry
 ms.topic: struct
-f1_keywords: ["tcpioctl/IFEntry"]
+f1_keywords: 
+ - "tcpioctl/IFEntry"
 req.header: tcpioctl.h
 req.include-header: 
 req.target-type: Windows

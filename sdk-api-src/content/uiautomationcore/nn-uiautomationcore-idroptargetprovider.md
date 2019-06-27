@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDropTargetProvider, IDropTargetProvider interface [Windows Accessibility], IDropTargetProvider interface [Windows Accessibility],described, uiautomationcore/IDropTargetProvider, winauto.uiauto_idroptargetprovider
 ms.topic: interface
-f1_keywords: ["uiautomationcore/IDropTargetProvider"]
+f1_keywords: 
+ - "uiautomationcore/IDropTargetProvider"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

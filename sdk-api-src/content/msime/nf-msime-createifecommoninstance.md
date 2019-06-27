@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateIFECommonInstance, CreateIFECommonInstance function [Internationalization for Windows Applications], intl.createifecommoninstance, msime/CreateIFECommonInstance
 ms.topic: function
-f1_keywords: ["msime/CreateIFECommonInstance"]
+f1_keywords: 
+ - "msime/CreateIFECommonInstance"
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

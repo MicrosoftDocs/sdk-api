@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_ExposureRelative method, ICameraControl.getRange_ExposureRelative, ICameraControl::getRange_ExposureRelative, ICameraControlgetRange_ExposureRelative, dshow.icameracontrol_getrange_exposurerelative, getRange_ExposureRelative, getRange_ExposureRelative method [DirectShow], getRange_ExposureRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_ExposureRelative
 ms.topic: method
-f1_keywords: ["vidcap/ICameraControl.getRange_ExposureRelative"]
+f1_keywords: 
+ - "vidcap/ICameraControl.getRange_ExposureRelative"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

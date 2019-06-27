@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColorKey, GetColorKey method [DirectShow], GetColorKey method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],GetColorKey method, IVMRWindowlessControl.GetColorKey, IVMRWindowlessControl::GetColorKey, IVMRWindowlessControlGetColorKey, dshow.ivmrwindowlesscontrol_getcolorkey, strmif/IVMRWindowlessControl::GetColorKey
 ms.topic: method
-f1_keywords: ["strmif/IVMRWindowlessControl.GetColorKey"]
+f1_keywords: 
+ - "strmif/IVMRWindowlessControl.GetColorKey"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

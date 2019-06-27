@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmFilterSubscriptionsGet0, FwpmFilterSubscriptionsGet0 function [Filtering], fwp.fwpmfiltersubscriptionsget0_func, fwpmu/FwpmFilterSubscriptionsGet0
 ms.topic: function
-f1_keywords: ["fwpmu/FwpmFilterSubscriptionsGet0"]
+f1_keywords: 
+ - "fwpmu/FwpmFilterSubscriptionsGet0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

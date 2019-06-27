@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method [ICS/ICF], Enable method [ICS/ICF],INetSharingPortMapping interface, INetSharingPortMapping interface [ICS/ICF],Enable method, INetSharingPortMapping.Enable, INetSharingPortMapping::Enable, _ics_inetsharingportmapping_enable, ics.inetsharingportmapping_enable, netcon/INetSharingPortMapping::Enable
 ms.topic: method
-f1_keywords: ["netcon/INetSharingPortMapping.Enable"]
+f1_keywords: 
+ - "netcon/INetSharingPortMapping.Enable"
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

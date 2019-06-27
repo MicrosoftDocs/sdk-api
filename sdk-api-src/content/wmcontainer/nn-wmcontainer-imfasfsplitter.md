@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 75d8b2a3-7c50-4dd5-8927-b11eb9f12602, IMFASFSplitter, IMFASFSplitter interface [Media Foundation], IMFASFSplitter interface [Media Foundation],described, mf.imfasfsplitter, wmcontainer/IMFASFSplitter
 ms.topic: interface
-f1_keywords: ["wmcontainer/IMFASFSplitter"]
+f1_keywords: 
+ - "wmcontainer/IMFASFSplitter"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddUrl, AddUrl method [Legacy Windows Environment Features], AddUrl method [Legacy Windows Environment Features],IActiveDesktop interface, IActiveDesktop interface [Legacy Windows Environment Features],AddUrl method, IActiveDesktop.AddUrl, IActiveDesktop::AddUrl, _win32_IActiveDesktop_AddUrl_Method, lwef.iactivedesktop_addurl_method, shell.iactivedesktop_addurl_method, shlobj_core/IActiveDesktop::AddUrl
 ms.topic: method
-f1_keywords: ["shlobj_core/IActiveDesktop.AddUrl"]
+f1_keywords: 
+ - "shlobj_core/IActiveDesktop.AddUrl"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

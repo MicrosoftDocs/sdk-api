@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPAPI_VERSION, API_VERSION, API_VERSION structure, LPAPI_VERSION, LPAPI_VERSION structure pointer, _win32_api_version_str, base.api_version_str, dbghelp/API_VERSION, dbghelp/LPAPI_VERSION"
 ms.topic: struct
-f1_keywords: ["dbghelp/API_VERSION"]
+f1_keywords: 
+ - "dbghelp/API_VERSION"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

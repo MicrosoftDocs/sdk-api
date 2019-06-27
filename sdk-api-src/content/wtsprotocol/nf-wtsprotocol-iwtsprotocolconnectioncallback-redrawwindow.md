@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolConnectionCallback interface [Remote Desktop Services],RedrawWindow method, IWTSProtocolConnectionCallback.RedrawWindow, IWTSProtocolConnectionCallback::RedrawWindow, RedrawWindow, RedrawWindow method [Remote Desktop Services], RedrawWindow method [Remote Desktop Services],IWTSProtocolConnectionCallback interface, termserv.iwtsprotocolconnectioncallback_redrawwindow, wtsprotocol/IWTSProtocolConnectionCallback::RedrawWindow
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWTSProtocolConnectionCallback.RedrawWindow"]
+f1_keywords: 
+ - "wtsprotocol/IWTSProtocolConnectionCallback.RedrawWindow"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Windows Multimedia], Create method [Windows Multimedia],IAVIStream interface, IAVIStream interface [Windows Multimedia],Create method, IAVIStream.Create, IAVIStream::Create, _win32_IAVIStream_Create, multimedia.iavistream_create, vfw/IAVIStream::Create
 ms.topic: method
-f1_keywords: ["vfw/IAVIStream.Create"]
+f1_keywords: 
+ - "vfw/IAVIStream.Create"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

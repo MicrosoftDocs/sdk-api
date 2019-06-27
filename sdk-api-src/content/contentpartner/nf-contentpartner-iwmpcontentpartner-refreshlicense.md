@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],RefreshLicense method, IWMPContentPartner.RefreshLicense, IWMPContentPartner::RefreshLicense, IWMPContentPartnerRefreshLicense, RefreshLicense, RefreshLicense method [Windows Media Player], RefreshLicense method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::RefreshLicense, wmp.iwmpcontentpartner_refreshlicense
 ms.topic: method
-f1_keywords: ["contentpartner/IWMPContentPartner.RefreshLicense"]
+f1_keywords: 
+ - "contentpartner/IWMPContentPartner.RefreshLicense"
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtQuery, EvtQuery function [EventLog], wes.evtquery, winevt/EvtQuery
 ms.topic: function
-f1_keywords: ["winevt/EvtQuery"]
+f1_keywords: 
+ - "winevt/EvtQuery"
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

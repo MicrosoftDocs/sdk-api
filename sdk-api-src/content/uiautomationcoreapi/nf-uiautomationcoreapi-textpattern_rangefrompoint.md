@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TextPattern_RangeFromPoint, TextPattern_RangeFromPoint function [Windows Accessibility], uiauto.uiauto_TextPattern_RangeFromPointConPat, uiauto_TextPattern_RangeFromPointConPat, uiautomationcoreapi/TextPattern_RangeFromPoint, winauto.uiauto_TextPattern_RangeFromPointConPat
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/TextPattern_RangeFromPoint"]
+f1_keywords: 
+ - "uiautomationcoreapi/TextPattern_RangeFromPoint"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

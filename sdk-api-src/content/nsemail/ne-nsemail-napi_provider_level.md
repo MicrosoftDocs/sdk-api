@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NAPI_PROVIDER_LEVEL, NAPI_PROVIDER_LEVEL enumeration [Winsock], ProviderLevel_None, ProviderLevel_Primary, ProviderLevel_Secondary, nsemail/NAPI_PROVIDER_LEVEL, nsemail/ProviderLevel_None, nsemail/ProviderLevel_Primary, nsemail/ProviderLevel_Secondary, winsock.napi_provider_level
 ms.topic: enum
-f1_keywords: ["nsemail/NAPI_PROVIDER_LEVEL"]
+f1_keywords: 
+ - "nsemail/NAPI_PROVIDER_LEVEL"
 req.header: nsemail.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPPARAMDESCEX, LPPARAMDESCEX, LPPARAMDESCEX structure pointer [Automation], PARAMDESCEX, PARAMDESCEX structure [Automation], _oa96_PARAMDESCEX, automat.paramdescex, oaidl/LPPARAMDESCEX, oaidl/PARAMDESCEX"
 ms.topic: struct
-f1_keywords: ["oaidl/PARAMDESCEX"]
+f1_keywords: 
+ - "oaidl/PARAMDESCEX"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

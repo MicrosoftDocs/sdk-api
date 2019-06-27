@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathCchIsRoot, PathCchIsRoot function [Windows Shell], pathcch/PathCchIsRoot, shell.PathCchIsRoot
 ms.topic: function
-f1_keywords: ["pathcch/PathCchIsRoot"]
+f1_keywords: 
+ - "pathcch/PathCchIsRoot"
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows

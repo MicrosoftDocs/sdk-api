@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSupportedCellularClasses, GetSupportedCellularClasses method [Microsoft Broadband Networks], GetSupportedCellularClasses method [Microsoft Broadband Networks],IMbnMultiCarrier interface, IMbnMultiCarrier interface [Microsoft Broadband Networks],GetSupportedCellularClasses method, IMbnMultiCarrier.GetSupportedCellularClasses, IMbnMultiCarrier::GetSupportedCellularClasses, mbn.imbnmulticarrier_getsupportedcellularclasses, mbnapi/IMbnMultiCarrier::GetSupportedCellularClasses
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnMultiCarrier.GetSupportedCellularClasses"]
+f1_keywords: 
+ - "mbnapi/IMbnMultiCarrier.GetSupportedCellularClasses"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

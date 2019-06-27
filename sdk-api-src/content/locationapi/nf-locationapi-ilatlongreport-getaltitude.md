@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAltitude, GetAltitude method [WinLocation], GetAltitude method [WinLocation],ILatLongReport interface, ILatLongReport interface [WinLocation],GetAltitude method, ILatLongReport.GetAltitude, ILatLongReport::GetAltitude, WinLocation_COM_Ref.ilatlongreport_getaltitude, locationapi/ILatLongReport::GetAltitude
 ms.topic: method
-f1_keywords: ["locationapi/ILatLongReport.GetAltitude"]
+f1_keywords: 
+ - "locationapi/ILatLongReport.GetAltitude"
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTransform, GetTransform method [WPF Bitmap Effects], GetTransform method [WPF Bitmap Effects],IMILBitmapEffectRenderContextImpl interface, IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects],GetTransform method, IMILBitmapEffectRenderContextImpl.GetTransform, IMILBitmapEffectRenderContextImpl::GetTransform, _wibe_imilbitmapeffectrendercontextimpl_gettransform, mileffects/IMILBitmapEffectRenderContextImpl::GetTransform, wibe._wibe_imilbitmapeffectrendercontextimpl_gettransform
 ms.topic: method
-f1_keywords: ["mileffects/IMILBitmapEffectRenderContextImpl.GetTransform"]
+f1_keywords: 
+ - "mileffects/IMILBitmapEffectRenderContextImpl.GetTransform"
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSettingByPath, GetSettingByPath method [SMI], GetSettingByPath method [SMI],ISettingsNamespace interface, ISettingsNamespace interface [SMI],GetSettingByPath method, ISettingsNamespace.GetSettingByPath, ISettingsNamespace::GetSettingByPath, smi.isettingsnamespace_getsettingbypath, wcmconfig/ISettingsNamespace::GetSettingByPath
 ms.topic: method
-f1_keywords: ["wcmconfig/ISettingsNamespace.GetSettingByPath"]
+f1_keywords: 
+ - "wcmconfig/ISettingsNamespace.GetSettingByPath"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

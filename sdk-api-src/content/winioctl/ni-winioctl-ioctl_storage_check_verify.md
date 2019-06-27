@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_CHECK_VERIFY, IOCTL_STORAGE_CHECK_VERIFY control, IOCTL_STORAGE_CHECK_VERIFY control code, _win32_ioctl_storage_check_verify, base.ioctl_storage_check_verify, winioctl/IOCTL_STORAGE_CHECK_VERIFY
 ms.topic: ioctl
-f1_keywords: ["winioctl/IOCTL_STORAGE_CHECK_VERIFY"]
+f1_keywords: 
+ - "winioctl/IOCTL_STORAGE_CHECK_VERIFY"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

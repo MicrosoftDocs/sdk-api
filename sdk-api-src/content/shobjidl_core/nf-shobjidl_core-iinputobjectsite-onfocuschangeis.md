@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInputObjectSite interface [Windows Shell],OnFocusChangeIS method, IInputObjectSite.OnFocusChangeIS, IInputObjectSite::OnFocusChangeIS, OnFocusChangeIS, OnFocusChangeIS method [Windows Shell], OnFocusChangeIS method [Windows Shell],IInputObjectSite interface, _win32_IInputObjectSite_OnFocusChangeIS, shell.IInputObjectSite_OnFocusChangeIS, shobjidl_core/IInputObjectSite::OnFocusChangeIS
 ms.topic: method
-f1_keywords: ["shobjidl_core/IInputObjectSite.OnFocusChangeIS"]
+f1_keywords: 
+ - "shobjidl_core/IInputObjectSite.OnFocusChangeIS"
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

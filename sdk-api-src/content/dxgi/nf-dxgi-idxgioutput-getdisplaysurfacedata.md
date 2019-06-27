@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 3af8da91-79a3-e6f5-520c-cc42b8e3e866, GetDisplaySurfaceData, GetDisplaySurfaceData method [DXGI], GetDisplaySurfaceData method [DXGI],IDXGIOutput interface, IDXGIOutput interface [DXGI],GetDisplaySurfaceData method, IDXGIOutput.GetDisplaySurfaceData, IDXGIOutput::GetDisplaySurfaceData, direct3ddxgi.idxgioutput_getdisplaysurfacedata, dxgi/IDXGIOutput::GetDisplaySurfaceData
 ms.topic: method
-f1_keywords: ["dxgi/IDXGIOutput.GetDisplaySurfaceData"]
+f1_keywords: 
+ - "dxgi/IDXGIOutput.GetDisplaySurfaceData"
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

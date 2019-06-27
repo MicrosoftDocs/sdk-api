@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IReferenceClockTimerControl, IReferenceClockTimerControl interface [DirectShow], IReferenceClockTimerControl interface [DirectShow],described, IReferenceClockTimerControlInterface, dshow.ireferenceclocktimercontrol, strmif/IReferenceClockTimerControl
 ms.topic: interface
-f1_keywords: ["strmif/IReferenceClockTimerControl"]
+f1_keywords: 
+ - "strmif/IReferenceClockTimerControl"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

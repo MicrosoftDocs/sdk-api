@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWiaDevMgr interface [WIA],SelectDeviceDlg method, IWiaDevMgr.SelectDeviceDlg, IWiaDevMgr::SelectDeviceDlg, SelectDeviceDlg, SelectDeviceDlg method [WIA], SelectDeviceDlg method [WIA],IWiaDevMgr interface, _wia_IWiaDevMgr_SelectDeviceDlg, wia._wia_IWiaDevMgr_SelectDeviceDlg, wia_xp/IWiaDevMgr::SelectDeviceDlg
 ms.topic: method
-f1_keywords: ["wia_xp/IWiaDevMgr.SelectDeviceDlg"]
+f1_keywords: 
+ - "wia_xp/IWiaDevMgr.SelectDeviceDlg"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

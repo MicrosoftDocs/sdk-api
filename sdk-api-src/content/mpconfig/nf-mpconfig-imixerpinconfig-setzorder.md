@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMixerPinConfig interface [DirectShow],SetZOrder method, IMixerPinConfig.SetZOrder, IMixerPinConfig::SetZOrder, IMixerPinConfigSetZOrder, SetZOrder, SetZOrder method [DirectShow], SetZOrder method [DirectShow],IMixerPinConfig interface, dshow.imixerpinconfig_setzorder, mpconfig/IMixerPinConfig::SetZOrder
 ms.topic: method
-f1_keywords: ["mpconfig/IMixerPinConfig.SetZOrder"]
+f1_keywords: 
+ - "mpconfig/IMixerPinConfig.SetZOrder"
 req.header: mpconfig.h
 req.include-header: 
 req.target-type: Windows

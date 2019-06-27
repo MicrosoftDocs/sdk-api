@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNextUmsListItem, GetNextUmsListItem function, base.getnextumslistitem, winbase/GetNextUmsListItem
 ms.topic: function
-f1_keywords: ["winbase/GetNextUmsListItem"]
+f1_keywords: 
+ - "winbase/GetNextUmsListItem"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

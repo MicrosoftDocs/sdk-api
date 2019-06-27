@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],UseOverlayStretch method, IDirectDrawVideo.UseOverlayStretch, IDirectDrawVideo::UseOverlayStretch, IDirectDrawVideoUseOverlayStretch, UseOverlayStretch, UseOverlayStretch method [DirectShow], UseOverlayStretch method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::UseOverlayStretch, dshow.idirectdrawvideo_useoverlaystretch
 ms.topic: method
-f1_keywords: ["amvideo/IDirectDrawVideo.UseOverlayStretch"]
+f1_keywords: 
+ - "amvideo/IDirectDrawVideo.UseOverlayStretch"
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [Windows Portable Devices SDK], Cancel method [Windows Portable Devices SDK],IEnumPortableDeviceObjectIDs interface, IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK],Cancel method, IEnumPortableDeviceObjectIDs.Cancel, IEnumPortableDeviceObjectIDs::Cancel, IEnumPortableDeviceObjectIDsCancel, portabledeviceapi/IEnumPortableDeviceObjectIDs::Cancel, wpdsdk.ienumportabledeviceobjectids_cancel
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IEnumPortableDeviceObjectIDs.Cancel"]
+f1_keywords: 
+ - "portabledeviceapi/IEnumPortableDeviceObjectIDs.Cancel"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

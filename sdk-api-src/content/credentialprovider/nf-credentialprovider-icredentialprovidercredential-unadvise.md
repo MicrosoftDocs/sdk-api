@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredential interface [Windows Shell],UnAdvise method, ICredentialProviderCredential.UnAdvise, ICredentialProviderCredential::UnAdvise, UnAdvise, UnAdvise method [Windows Shell], UnAdvise method [Windows Shell],ICredentialProviderCredential interface, credentialprovider/ICredentialProviderCredential::UnAdvise, shell.ICredentialProviderCredential_UnAdvise, shell_ICredentialProviderCredential_UnAdvise
 ms.topic: method
-f1_keywords: ["credentialprovider/ICredentialProviderCredential.UnAdvise"]
+f1_keywords: 
+ - "credentialprovider/ICredentialProviderCredential.UnAdvise"
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

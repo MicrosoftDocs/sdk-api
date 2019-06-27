@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRDeinterlaceControl, IVMRDeinterlaceControl interface [DirectShow], IVMRDeinterlaceControl interface [DirectShow],described, IVMRDeinterlaceControlInterface, dshow.ivmrdeinterlacecontrol, strmif/IVMRDeinterlaceControl
 ms.topic: interface
-f1_keywords: ["strmif/IVMRDeinterlaceControl"]
+f1_keywords: 
+ - "strmif/IVMRDeinterlaceControl"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

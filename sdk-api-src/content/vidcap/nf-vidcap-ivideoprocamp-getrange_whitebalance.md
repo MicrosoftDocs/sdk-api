@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_WhiteBalance method, IVideoProcAmp.getRange_WhiteBalance, IVideoProcAmp::getRange_WhiteBalance, IVideoProcAmpgetRange_WhiteBalance, dshow.ivideoprocamp_getrange_whitebalance, getRange_WhiteBalance, getRange_WhiteBalance method [DirectShow], getRange_WhiteBalance method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_WhiteBalance
 ms.topic: method
-f1_keywords: ["vidcap/IVideoProcAmp.getRange_WhiteBalance"]
+f1_keywords: 
+ - "vidcap/IVideoProcAmp.getRange_WhiteBalance"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

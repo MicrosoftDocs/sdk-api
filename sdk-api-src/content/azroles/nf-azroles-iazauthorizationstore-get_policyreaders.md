@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],PolicyReaders property, IAzAuthorizationStore interface [Security],PolicyReaders property, IAzAuthorizationStore.PolicyReaders, IAzAuthorizationStore.get_PolicyReaders, IAzAuthorizationStore::PolicyReaders, IAzAuthorizationStore::get_PolicyReaders, PolicyReaders property [Security], PolicyReaders property [Security],AzAuthorizationStore object, PolicyReaders property [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::PolicyReaders, azroles/IAzAuthorizationStore::get_PolicyReaders, get_PolicyReaders, security.azauthorizationstore_policyreaders
 ms.topic: method
-f1_keywords: ["azroles/IAzAuthorizationStore.PolicyReaders"]
+f1_keywords: 
+ - "azroles/IAzAuthorizationStore.PolicyReaders"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

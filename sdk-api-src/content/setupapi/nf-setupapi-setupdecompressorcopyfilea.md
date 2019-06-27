@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDecompressOrCopyFile, SetupDecompressOrCopyFile function [Setup API], SetupDecompressOrCopyFileA, SetupDecompressOrCopyFileW, _setupapi_setupdecompressorcopyfile, setup.setupdecompressorcopyfile, setupapi/SetupDecompressOrCopyFile, setupapi/SetupDecompressOrCopyFileA, setupapi/SetupDecompressOrCopyFileW
 ms.topic: function
-f1_keywords: ["setupapi/SetupDecompressOrCopyFile"]
+f1_keywords: 
+ - "setupapi/SetupDecompressOrCopyFile"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

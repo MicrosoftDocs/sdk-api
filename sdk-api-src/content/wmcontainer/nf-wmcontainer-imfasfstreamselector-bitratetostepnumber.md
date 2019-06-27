@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BitrateToStepNumber, BitrateToStepNumber method [Media Foundation], BitrateToStepNumber method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],BitrateToStepNumber method, IMFASFStreamSelector.BitrateToStepNumber, IMFASFStreamSelector::BitrateToStepNumber, e2debbce-f6ee-45d7-bf05-2b07aa7719c7, mf.imfasfstreamselector_bitratetostepnumber, wmcontainer/IMFASFStreamSelector::BitrateToStepNumber
 ms.topic: method
-f1_keywords: ["wmcontainer/IMFASFStreamSelector.BitrateToStepNumber"]
+f1_keywords: 
+ - "wmcontainer/IMFASFStreamSelector.BitrateToStepNumber"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

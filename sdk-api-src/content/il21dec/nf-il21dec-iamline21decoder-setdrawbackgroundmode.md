@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMLine21Decoder interface [DirectShow],SetDrawBackgroundMode method, IAMLine21Decoder.SetDrawBackgroundMode, IAMLine21Decoder::SetDrawBackgroundMode, IAMLine21DecoderSetDrawBackgroundMode, SetDrawBackgroundMode, SetDrawBackgroundMode method [DirectShow], SetDrawBackgroundMode method [DirectShow],IAMLine21Decoder interface, dshow.iamline21decoder_setdrawbackgroundmode, il21dec/IAMLine21Decoder::SetDrawBackgroundMode
 ms.topic: method
-f1_keywords: ["il21dec/IAMLine21Decoder.SetDrawBackgroundMode"]
+f1_keywords: 
+ - "il21dec/IAMLine21Decoder.SetDrawBackgroundMode"
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows

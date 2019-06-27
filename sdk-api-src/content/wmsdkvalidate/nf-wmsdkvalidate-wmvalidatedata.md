@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMValidateData, WMValidateData function [windows Media Format], wmformat.wmvalidatedata, wmsdkvalidate/WMValidateData
 ms.topic: function
-f1_keywords: ["wmsdkvalidate/WMValidateData"]
+f1_keywords: 
+ - "wmsdkvalidate/WMValidateData"
 req.header: wmsdkvalidate.h
 req.include-header: Wmsdkidl.h
 req.target-type: Windows

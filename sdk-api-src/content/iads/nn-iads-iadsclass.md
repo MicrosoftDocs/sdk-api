@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsClass, IADsClass interface [ADSI], IADsClass interface [ADSI],described, _ds_iadsclass, adsi.iadsclass, iads/IADsClass
 ms.topic: interface
-f1_keywords: ["iads/IADsClass"]
+f1_keywords: 
+ - "iads/IADsClass"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

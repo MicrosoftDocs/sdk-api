@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VariantGetUInt64Elem, VariantGetUInt64Elem function [Windows Properties], _shell_VariantGetUInt64Elem, properties.VariantGetUInt64Elem, propvarutil/VariantGetUInt64Elem, shell.VariantGetUInt64Elem
 ms.topic: function
-f1_keywords: ["propvarutil/VariantGetUInt64Elem"]
+f1_keywords: 
+ - "propvarutil/VariantGetUInt64Elem"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

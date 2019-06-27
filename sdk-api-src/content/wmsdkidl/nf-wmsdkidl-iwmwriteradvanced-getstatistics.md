@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStatistics, GetStatistics method [windows Media Format], GetStatistics method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],GetStatistics method, IWMWriterAdvanced.GetStatistics, IWMWriterAdvanced::GetStatistics, IWMWriterAdvancedGetStatistics, wmformat.iwmwriteradvanced_getstatistics, wmsdkidl/IWMWriterAdvanced::GetStatistics
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriterAdvanced.GetStatistics"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriterAdvanced.GetStatistics"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

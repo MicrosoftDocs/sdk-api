@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Priority property, IFaxOutgoingJob.Priority, IFaxOutgoingJob.get_Priority, IFaxOutgoingJob::Priority, IFaxOutgoingJob::get_Priority, Priority property [Fax Service], Priority property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.priority, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_priority_cpp, fax._mfax_faxoutgoingjob_priority, faxcomex/IFaxOutgoingJob::Priority, faxcomex/IFaxOutgoingJob::get_Priority, get_Priority
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxOutgoingJob.Priority"]
+f1_keywords: 
+ - "faxcomex/IFaxOutgoingJob.Priority"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

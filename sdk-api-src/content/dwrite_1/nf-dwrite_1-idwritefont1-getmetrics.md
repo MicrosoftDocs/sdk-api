@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMetrics, GetMetrics method [Direct Write], GetMetrics method [Direct Write],IDWriteFont1 interface, IDWriteFont1 interface [Direct Write],GetMetrics method, IDWriteFont1.GetMetrics, IDWriteFont1::GetMetrics, directwrite.idwritefont1_getmetrics, dwrite_1/IDWriteFont1::GetMetrics
 ms.topic: method
-f1_keywords: ["dwrite_1/IDWriteFont1.GetMetrics"]
+f1_keywords: 
+ - "dwrite_1/IDWriteFont1.GetMetrics"
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

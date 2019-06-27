@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DragEnter, DragEnter method [Windows Shell], DragEnter method [Windows Shell],IDropTargetHelper interface, IDropTargetHelper interface [Windows Shell],DragEnter method, IDropTargetHelper.DragEnter, IDropTargetHelper::DragEnter, _win32_IDropTargetHelper_DragEnter, shell.IDropTargetHelper_DragEnter, shobjidl_core/IDropTargetHelper::DragEnter
 ms.topic: method
-f1_keywords: ["shobjidl_core/IDropTargetHelper.DragEnter"]
+f1_keywords: 
+ - "shobjidl_core/IDropTargetHelper.DragEnter"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CF_HYDRATE_FLAGS, CF_HYDRATE_FLAGS enumeration, CF_HYDRATE_FLAG_NONE, cfapi/CF_HYDRATE_FLAGS, cfapi/CF_HYDRATE_FLAG_NONE, cloudApi.cf_hydrate_flags
 ms.topic: enum
-f1_keywords: ["cfapi/CF_HYDRATE_FLAGS"]
+f1_keywords: 
+ - "cfapi/CF_HYDRATE_FLAGS"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

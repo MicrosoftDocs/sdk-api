@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICspInformation interface [Security],Version property, ICspInformation.Version, ICspInformation.get_Version, ICspInformation::Version, ICspInformation::get_Version, Version property [Security], Version property [Security],ICspInformation interface, certenroll/ICspInformation::Version, certenroll/ICspInformation::get_Version, get_Version, security.icspinformation_version_property
 ms.topic: method
-f1_keywords: ["certenroll/ICspInformation.Version"]
+f1_keywords: 
+ - "certenroll/ICspInformation.Version"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

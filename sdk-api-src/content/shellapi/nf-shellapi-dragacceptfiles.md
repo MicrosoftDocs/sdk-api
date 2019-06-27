@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DragAcceptFiles, DragAcceptFiles function [Windows Shell], _win32_DragAcceptFiles, shell.DragAcceptFiles, shellapi/DragAcceptFiles
 ms.topic: function
-f1_keywords: ["shellapi/DragAcceptFiles"]
+f1_keywords: 
+ - "shellapi/DragAcceptFiles"
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

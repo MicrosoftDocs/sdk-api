@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Metafile, Metafile constructors [GDI+], Metafile.Metafile, Metafile.Metafile~r15, Metafile::Metafile, Metafile::Metafile~r15, _gdiplus_CLASS_Metafile_Constructors, gdiplus._gdiplus_CLASS_Metafile_Constructors, gdiplusheaders/Metafile
 ms.topic: method
-f1_keywords: ["gdiplusheaders/Metafile.Metafile"]
+f1_keywords: 
+ - "gdiplusheaders/Metafile.Metafile"
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsRevokeSecurityContext, WsRevokeSecurityContext function [Web Services for Windows], webservices/WsRevokeSecurityContext, wsw.wsrevokesecuritycontext
 ms.topic: function
-f1_keywords: ["webservices/WsRevokeSecurityContext"]
+f1_keywords: 
+ - "webservices/WsRevokeSecurityContext"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

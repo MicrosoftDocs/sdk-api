@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateNotCondition, CreateNotCondition method [Windows Accessibility], CreateNotCondition method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateNotCondition method, IUIAutomation.CreateNotCondition, IUIAutomation::CreateNotCondition, uiauto.uiauto_IUIAutomation_CreateNotCondition, uiauto_IUIAutomation_CreateNotCondition, uiautomationclient/IUIAutomation::CreateNotCondition, winauto.uiauto_IUIAutomation_CreateNotCondition
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomation.CreateNotCondition"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomation.CreateNotCondition"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

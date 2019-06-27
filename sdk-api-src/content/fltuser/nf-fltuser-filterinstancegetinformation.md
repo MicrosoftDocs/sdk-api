@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FilterInstanceGetInformation, FilterInstanceGetInformation function [Installable File System Drivers], FltWin32ApiRef_e34f8425-037b-4c31-8559-2ad32527746f.xml, fltuser/FilterInstanceGetInformation, ifsk.filterinstancegetinformation
 ms.topic: function
-f1_keywords: ["fltuser/FilterInstanceGetInformation"]
+f1_keywords: 
+ - "fltuser/FilterInstanceGetInformation"
 req.header: fltuser.h
 req.include-header: FltUser.h
 req.target-type: Universal

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMsmMerge interface,OpenDatabase method, IMsmMerge.OpenDatabase, IMsmMerge::OpenDatabase, OpenDatabase, OpenDatabase method, OpenDatabase method,IMsmMerge interface, _msi_opendatabase_function, mergemod/IMsmMerge::OpenDatabase, setup.imsmmerge_opendatabase
 ms.topic: method
-f1_keywords: ["mergemod/IMsmMerge.OpenDatabase"]
+f1_keywords: 
+ - "mergemod/IMsmMerge.OpenDatabase"
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

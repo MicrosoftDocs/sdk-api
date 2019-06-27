@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPrintAsyncNotifyDataObject interface [Windows GDI],ReleaseData method, IPrintAsyncNotifyDataObject.ReleaseData, IPrintAsyncNotifyDataObject::ReleaseData, ReleaseData, ReleaseData method [Windows GDI], ReleaseData method [Windows GDI],IPrintAsyncNotifyDataObject interface, _win32_IPrintAsyncNotifyDataObject_ReleaseData, gdi.iprintasyncnotifydataobject_iprintasyncnotifydataobject__releasedata, prnasnot/IPrintAsyncNotifyDataObject::ReleaseData
 ms.topic: method
-f1_keywords: ["prnasnot/IPrintAsyncNotifyDataObject.ReleaseData"]
+f1_keywords: 
+ - "prnasnot/IPrintAsyncNotifyDataObject.ReleaseData"
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows

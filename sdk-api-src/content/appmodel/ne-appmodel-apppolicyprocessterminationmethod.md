@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AppPolicyProcessTerminationMethod, AppPolicyProcessTerminationMethod enumeration [App packaging and management], AppPolicyProcessTerminationMethod_ExitProcess, AppPolicyProcessTerminationMethod_TerminateProcess, appmodel/AppPolicyProcessTerminationMethod, appmodel/AppPolicyProcessTerminationMethod_ExitProcess, appmodel/AppPolicyProcessTerminationMethod_TerminateProcess, appxpkg.apppolicyprocessterminationmethod_enumeration
 ms.topic: enum
-f1_keywords: ["appmodel/AppPolicyProcessTerminationMethod"]
+f1_keywords: 
+ - "appmodel/AppPolicyProcessTerminationMethod"
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

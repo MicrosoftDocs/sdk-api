@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GCL_CONVERSION, GCL_REVERSECONVERSION, GCL_REVERSE_LENGTH, ImmGetConversionList, ImmGetConversionList function [Internationalization for Windows Applications], ImmGetConversionListA, ImmGetConversionListW, _win32_ImmGetConversionList, imm/ImmGetConversionList, imm/ImmGetConversionListA, imm/ImmGetConversionListW, intl.immgetconversionlist
 ms.topic: function
-f1_keywords: ["immdev/ImmGetConversionList"]
+f1_keywords: 
+ - "immdev/ImmGetConversionList"
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

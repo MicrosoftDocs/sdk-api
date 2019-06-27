@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFASYNC_WORKQUEUE_TYPE, MFASYNC_WORKQUEUE_TYPE enumeration [Media Foundation], MF_MULTITHREADED_WORKQUEUE, MF_STANDARD_WORKQUEUE, MF_WINDOW_WORKQUEUE, mf.mfasync_workqueue_type, mfapi/MFASYNC_WORKQUEUE_TYPE, mfapi/MF_MULTITHREADED_WORKQUEUE, mfapi/MF_STANDARD_WORKQUEUE, mfapi/MF_WINDOW_WORKQUEUE
 ms.topic: enum
-f1_keywords: ["mfapi/MFASYNC_WORKQUEUE_TYPE"]
+f1_keywords: 
+ - "mfapi/MFASYNC_WORKQUEUE_TYPE"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

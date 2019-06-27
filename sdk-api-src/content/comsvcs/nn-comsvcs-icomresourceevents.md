@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComResourceEvents, IComResourceEvents interface [COM+], IComResourceEvents interface [COM+],described, _dtc_IComResourceEvents, comsvcs/IComResourceEvents, cos.icomresourceevents
 ms.topic: interface
-f1_keywords: ["comsvcs/IComResourceEvents"]
+f1_keywords: 
+ - "comsvcs/IComResourceEvents"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

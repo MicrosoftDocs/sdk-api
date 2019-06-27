@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetKey, GetKey method [Windows Shell], GetKey method [Windows Shell],IQueryAssociations interface, IQueryAssociations interface [Windows Shell],GetKey method, IQueryAssociations.GetKey, IQueryAssociations::GetKey, _win32_IQueryAssociations_GetKey, shell.IQueryAssociations_GetKey, shlwapi/IQueryAssociations::GetKey
 ms.topic: method
-f1_keywords: ["shlwapi/IQueryAssociations.GetKey"]
+f1_keywords: 
+ - "shlwapi/IQueryAssociations.GetKey"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

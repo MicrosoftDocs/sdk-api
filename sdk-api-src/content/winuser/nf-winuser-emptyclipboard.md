@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EmptyClipboard, EmptyClipboard function [Data Exchange], _win32_EmptyClipboard, _win32_emptyclipboard_cpp, dataxchg.emptyclipboard, winui._win32_emptyclipboard, winuser/EmptyClipboard
 ms.topic: function
-f1_keywords: ["winuser/EmptyClipboard"]
+f1_keywords: 
+ - "winuser/EmptyClipboard"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

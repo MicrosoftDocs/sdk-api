@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AAAccountingDataType, AAAccountingDataType enumeration [Remote Desktop Services], AA_MAIN_SESSION_CLOSED, AA_MAIN_SESSION_CREATION, AA_SUB_SESSION_CLOSED, AA_SUB_SESSION_CREATION, termserv.aaaccountingdatatype, tsgpolicyengine/AAAccountingDataType, tsgpolicyengine/AA_MAIN_SESSION_CLOSED, tsgpolicyengine/AA_MAIN_SESSION_CREATION, tsgpolicyengine/AA_SUB_SESSION_CLOSED, tsgpolicyengine/AA_SUB_SESSION_CREATION
 ms.topic: enum
-f1_keywords: ["tsgpolicyengine/AAAccountingDataType"]
+f1_keywords: 
+ - "tsgpolicyengine/AAAccountingDataType"
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows

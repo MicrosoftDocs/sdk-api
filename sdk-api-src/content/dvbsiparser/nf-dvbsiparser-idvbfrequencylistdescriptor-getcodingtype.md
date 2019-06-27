@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCodingType, GetCodingType method [Microsoft TV Technologies], GetCodingType method [Microsoft TV Technologies],IDvbFrequencyListDescriptor interface, IDvbFrequencyListDescriptor interface [Microsoft TV Technologies],GetCodingType method, IDvbFrequencyListDescriptor.GetCodingType, IDvbFrequencyListDescriptor::GetCodingType, IDvbFrequencyListDescriptorGetCodingType, dvbsiparser/IDvbFrequencyListDescriptor::GetCodingType, mstv.idvbfrequencylistdescriptor_getcodingtype
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbFrequencyListDescriptor.GetCodingType"]
+f1_keywords: 
+ - "dvbsiparser/IDvbFrequencyListDescriptor.GetCodingType"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FilterCreate, FilterCreate function [Installable File System Drivers], FltWin32ApiRef_1f318282-a1f9-40a7-8272-448727603f04.xml, fltuser/FilterCreate, ifsk.filtercreate
 ms.topic: function
-f1_keywords: ["fltuser/FilterCreate"]
+f1_keywords: 
+ - "fltuser/FilterCreate"
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal

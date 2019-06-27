@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEmptyVolumeCache2, IEmptyVolumeCache2 interface [Legacy Windows Environment Features], IEmptyVolumeCache2 interface [Legacy Windows Environment Features],described, _win32_IEmptyVolumeCache2, emptyvc/IEmptyVolumeCache2, lwef.iemptyvolumecache2, shell.iemptyvolumecache2
 ms.topic: interface
-f1_keywords: ["emptyvc/IEmptyVolumeCache2"]
+f1_keywords: 
+ - "emptyvc/IEmptyVolumeCache2"
 req.header: emptyvc.h
 req.include-header: 
 req.target-type: Windows

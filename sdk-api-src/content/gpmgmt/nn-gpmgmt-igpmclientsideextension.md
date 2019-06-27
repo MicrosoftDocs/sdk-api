@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMClientSideExtension, IGPMClientSideExtension, IGPMClientSideExtension interface [GPMC], IGPMClientSideExtension interface [GPMC],described, _win32_igpmclientsideextension, gpmc.igpmclientsideextension, gpmgmt/IGPMClientSideExtension
 ms.topic: interface
-f1_keywords: ["gpmgmt/IGPMClientSideExtension"]
+f1_keywords: 
+ - "gpmgmt/IGPMClientSideExtension"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

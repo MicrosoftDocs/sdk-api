@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SendAsyncProc, SendAsyncProc callback, SendAsyncProc callback function [Windows and Messages], _win32_SendAsyncProc, _win32_sendasyncproc_cpp, winmsg.sendasyncproc, winui._win32_sendasyncproc, winuser/SendAsyncProc
 ms.topic: callback
-f1_keywords: ["winuser/SendAsyncProc"]
+f1_keywords: 
+ - "winuser/SendAsyncProc"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

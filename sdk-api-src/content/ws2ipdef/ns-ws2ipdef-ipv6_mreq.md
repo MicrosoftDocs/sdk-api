@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIPV6_MREQ, IP6_MREQ [Winsock], IPV6_MREQ, IPV6_MREQ structure [Winsock], PIPV6_MREQ, PIPV6_MREQ structure pointer [Winsock], ipv6_mreq, ipv6_mreq structure [Winsock], winsock.ipv6_mreq, ws2ipdef/PIPV6_MREQ, ws2ipdef/ipv6_mreq, ws2tcpip/PIPV6_MREQ, ws2tcpip/ipv6_mreq"
 ms.topic: struct
-f1_keywords: ["ws2ipdef/IPV6_MREQ"]
+f1_keywords: 
+ - "ws2ipdef/IPV6_MREQ"
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
 req.target-type: Windows

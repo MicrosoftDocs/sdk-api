@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GenerateSQLFromUserQuery, GenerateSQLFromUserQuery method [search], GenerateSQLFromUserQuery method [search],ISearchQueryHelper interface, ISearchQueryHelper interface [search],GenerateSQLFromUserQuery method, ISearchQueryHelper.GenerateSQLFromUserQuery, ISearchQueryHelper::GenerateSQLFromUserQuery, _search_ISearchQueryHelper_GenerateSQLFromUserQuery, search._search_ISearchQueryHelper_GenerateSQLFromUserQuery, searchapi/ISearchQueryHelper::GenerateSQLFromUserQuery
 ms.topic: method
-f1_keywords: ["searchapi/ISearchQueryHelper.GenerateSQLFromUserQuery"]
+f1_keywords: 
+ - "searchapi/ISearchQueryHelper.GenerateSQLFromUserQuery"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

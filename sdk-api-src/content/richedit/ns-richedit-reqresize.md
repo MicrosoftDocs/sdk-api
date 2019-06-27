@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: REQRESIZE, REQRESIZE structure [Windows Controls], _win32_REQRESIZE_str, _win32_REQRESIZE_str_cpp, controls.REQRESIZE, controls._win32_REQRESIZE_str, richedit/REQRESIZE
 ms.topic: struct
-f1_keywords: ["richedit/REQRESIZE"]
+f1_keywords: 
+ - "richedit/REQRESIZE"
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

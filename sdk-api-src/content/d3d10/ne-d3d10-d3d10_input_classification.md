@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 324be834-c39b-26f0-18f5-c78924801214, D3D10_INPUT_CLASSIFICATION, D3D10_INPUT_CLASSIFICATION enumeration [Direct3D 10], D3D10_INPUT_PER_INSTANCE_DATA, D3D10_INPUT_PER_VERTEX_DATA, d3d10/D3D10_INPUT_CLASSIFICATION, d3d10/D3D10_INPUT_PER_INSTANCE_DATA, d3d10/D3D10_INPUT_PER_VERTEX_DATA, direct3d10.d3d10_input_classification
 ms.topic: enum
-f1_keywords: ["d3d10/D3D10_INPUT_CLASSIFICATION"]
+f1_keywords: 
+ - "d3d10/D3D10_INPUT_CLASSIFICATION"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

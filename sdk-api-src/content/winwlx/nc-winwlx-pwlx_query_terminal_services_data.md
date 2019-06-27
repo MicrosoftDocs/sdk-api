@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWLX_QUERY_TERMINAL_SERVICES_DATA, PWLX_QUERY_TERMINAL_SERVICES_DATA callback, WlxQueryTerminalServicesData, WlxQueryTerminalServicesData callback function [Security], _gina_wlxqueryterminalservicesdata, security.wlxqueryterminalservicesdata, winwlx/WlxQueryTerminalServicesData
 ms.topic: callback
-f1_keywords: ["winwlx/WlxQueryTerminalServicesData"]
+f1_keywords: 
+ - "winwlx/WlxQueryTerminalServicesData"
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWOW64_LDT_ENTRY, PWOW64_LDT_ENTRY, PWOW64_LDT_ENTRY structure pointer, WOW64_LDT_ENTRY, WOW64_LDT_ENTRY structure, _WOW64_LDT_ENTRY, base.wow64_ldt_entry_str, winnt/LDT_ENTRY, winnt/PWOW64_LDT_ENTRY"
 ms.topic: struct
-f1_keywords: ["winnt/WOW64_LDT_ENTRY"]
+f1_keywords: 
+ - "winnt/WOW64_LDT_ENTRY"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_HASHED_URL, CERT_HASHED_URL, CERT_HASHED_URL structure [Security], PCERT_HASHED_URL, PCERT_HASHED_URL structure pointer [Security], security.cert_hashed_url, wincrypt/CERT_HASHED_URL, wincrypt/PCERT_HASHED_URL"
 ms.topic: struct
-f1_keywords: ["wincrypt/CERT_HASHED_URL"]
+f1_keywords: 
+ - "wincrypt/CERT_HASHED_URL"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPENUMLOGFONTEXDVW, *PENUMLOGFONTEXDVW, ENUMLOGFONTEXDV, ENUMLOGFONTEXDV structure [Windows GDI], ENUMLOGFONTEXDVA, ENUMLOGFONTEXDVW, PENUMLOGFONTEXDV, PENUMLOGFONTEXDV structure pointer [Windows GDI], _win32_ENUMLOGFONTEXDV_str, gdi.enumlogfontexdv, wingdi/ENUMLOGFONTEXDV, wingdi/ENUMLOGFONTEXDVA, wingdi/ENUMLOGFONTEXDVW, wingdi/PENUMLOGFONTEXDV"
 ms.topic: struct
-f1_keywords: ["wingdi/ENUMLOGFONTEXDV"]
+f1_keywords: 
+ - "wingdi/ENUMLOGFONTEXDV"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

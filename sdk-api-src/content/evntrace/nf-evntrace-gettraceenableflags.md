@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTraceEnableFlags, GetTraceEnableFlags function [ETW], _evt_gettraceenableflags, base.gettraceenableflags, etw.gettraceenableflags, evntrace/GetTraceEnableFlags
 ms.topic: function
-f1_keywords: ["evntrace/GetTraceEnableFlags"]
+f1_keywords: 
+ - "evntrace/GetTraceEnableFlags"
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

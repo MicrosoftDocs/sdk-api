@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMStoreUDecN4_XR, XMStoreUDecN4_XR, XMStoreUDecN4_XR method [DirectX Math Support APIs], dxmath._xmstoreudecn4_xr
 ms.topic: function
-f1_keywords: ["directxpackedvector/XMStoreUDecN4_XR"]
+f1_keywords: 
+ - "directxpackedvector/XMStoreUDecN4_XR"
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows

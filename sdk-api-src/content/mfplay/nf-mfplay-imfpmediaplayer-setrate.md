@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetRate method, IMFPMediaPlayer.SetRate, IMFPMediaPlayer::SetRate, SetRate, SetRate method [Media Foundation], SetRate method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setrate, mfplay/IMFPMediaPlayer::SetRate
 ms.topic: method
-f1_keywords: ["mfplay/IMFPMediaPlayer.SetRate"]
+f1_keywords: 
+ - "mfplay/IMFPMediaPlayer.SetRate"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

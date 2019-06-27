@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidEncoder, IMSVidEncoder interface [Microsoft TV Technologies], IMSVidEncoder interface [Microsoft TV Technologies],described, IMSVidEncoderInterface, mstv.imsvidencoder, segment/IMSVidEncoder
 ms.topic: interface
-f1_keywords: ["segment/IMSVidEncoder"]
+f1_keywords: 
+ - "segment/IMSVidEncoder"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

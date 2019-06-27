@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Backup, Backup method [GPMC], Backup method [GPMC],IGPMStarterGPO interface, IGPMStarterGPO interface [GPMC],Backup method, IGPMStarterGPO.Backup, IGPMStarterGPO::Backup, gpmc.igpmstartergpo_backup, gpmgmt/IGPMStarterGPO::Backup
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMStarterGPO.Backup"]
+f1_keywords: 
+ - "gpmgmt/IGPMStarterGPO.Backup"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

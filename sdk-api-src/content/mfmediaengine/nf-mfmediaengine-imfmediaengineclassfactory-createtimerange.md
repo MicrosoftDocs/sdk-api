@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTimeRange, CreateTimeRange method [Media Foundation], CreateTimeRange method [Media Foundation],IMFMediaEngineClassFactory interface, IMFMediaEngineClassFactory interface [Media Foundation],CreateTimeRange method, IMFMediaEngineClassFactory.CreateTimeRange, IMFMediaEngineClassFactory::CreateTimeRange, mf.imfmediaengineclassfactory_createtimerange, mfmediaengine/IMFMediaEngineClassFactory::CreateTimeRange
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngineClassFactory.CreateTimeRange"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngineClassFactory.CreateTimeRange"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

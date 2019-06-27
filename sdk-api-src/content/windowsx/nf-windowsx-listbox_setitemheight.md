@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListBox_SetItemHeight, ListBox_SetItemHeight macro [Windows Controls], _win32_ListBox_SetItemHeight, _win32_ListBox_SetItemHeight_cpp, controls.ListBox_SetItemHeight, controls._win32_ListBox_SetItemHeight, windowsx/ListBox_SetItemHeight
 ms.topic: macro
-f1_keywords: ["windowsx/ListBox_SetItemHeight"]
+f1_keywords: 
+ - "windowsx/ListBox_SetItemHeight"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

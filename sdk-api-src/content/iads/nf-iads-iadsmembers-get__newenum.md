@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsMembers interface [ADSI],get__NewEnum method, IADsMembers.get__NewEnum, IADsMembers::get__NewEnum, _ds_iadsmembers_get__newenum, adsi.iadsmembers__get____newenum, adsi.iadsmembers_get__newenum, get__NewEnum, get__NewEnum method [ADSI], get__NewEnum method [ADSI],IADsMembers interface, iads/IADsMembers::get__NewEnum
 ms.topic: method
-f1_keywords: ["iads/IADsMembers.get__NewEnum"]
+f1_keywords: 
+ - "iads/IADsMembers.get__NewEnum"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

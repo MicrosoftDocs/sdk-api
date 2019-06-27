@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFDeviceTransform interface [Streaming Media Devices],ProcessOutput method, IMFDeviceTransform.ProcessOutput, IMFDeviceTransform::ProcessOutput, ProcessOutput, ProcessOutput method [Streaming Media Devices], ProcessOutput method [Streaming Media Devices],IMFDeviceTransform interface, mftransform/IMFDeviceTransform::ProcessOutput, stream.imfdevicetransform_processoutput
 ms.topic: method
-f1_keywords: ["mftransform/IMFDeviceTransform.ProcessOutput"]
+f1_keywords: 
+ - "mftransform/IMFDeviceTransform.ProcessOutput"
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

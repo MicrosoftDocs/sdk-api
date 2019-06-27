@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertStoreProvSetCRLPropertyCallback, PFN_CERT_STORE_PROV_SET_CRL_PROPERTY, PFN_CERT_STORE_PROV_SET_CRL_PROPERTY callback, PFN_CERT_STORE_PROV_SET_CRL_PROPERTY callback function [Security], _crypto2_certstoreprovsetcrlpropertycallback, security.certstoreprovsetcrlpropertycallback, wincrypt/PFN_CERT_STORE_PROV_SET_CRL_PROPERTY
 ms.topic: callback
-f1_keywords: ["wincrypt/PFN_CERT_STORE_PROV_SET_CRL_PROPERTY"]
+f1_keywords: 
+ - "wincrypt/PFN_CERT_STORE_PROV_SET_CRL_PROPERTY"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

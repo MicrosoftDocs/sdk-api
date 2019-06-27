@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFriendlyIfIndex, GetFriendlyIfIndex function [IP Helper], _iphlp_getfriendlyifindex, iphlp.getfriendlyifindex, iphlpapi/GetFriendlyIfIndex
 ms.topic: function
-f1_keywords: ["iphlpapi/GetFriendlyIfIndex"]
+f1_keywords: 
+ - "iphlpapi/GetFriendlyIfIndex"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

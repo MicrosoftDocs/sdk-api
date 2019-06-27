@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITMediaRecord, ITMediaRecord interface [TAPI 2.2], ITMediaRecord interface [TAPI 2.2],described, _tapi3_itmediarecord, tapi3.itmediarecord, tapi3if/ITMediaRecord
 ms.topic: interface
-f1_keywords: ["tapi3if/ITMediaRecord"]
+f1_keywords: 
+ - "tapi3if/ITMediaRecord"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

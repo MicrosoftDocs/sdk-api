@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPEVENTLOG_FULL_INFORMATION, EVENTLOG_FULL_INFORMATION, EVENTLOG_FULL_INFORMATION structure, LPEVENTLOG_FULL_INFORMATION, LPEVENTLOG_FULL_INFORMATION structure pointer, _EVENTLOG_FULL_INFORMATION, _win32_eventlog_full_information_str, base.eventlog_full_information_str, winbase/EVENTLOG_FULL_INFORMATION, winbase/LPEVENTLOG_FULL_INFORMATION"
 ms.topic: struct
-f1_keywords: ["winbase/EVENTLOG_FULL_INFORMATION"]
+f1_keywords: 
+ - "winbase/EVENTLOG_FULL_INFORMATION"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

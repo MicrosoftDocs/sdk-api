@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetShowFloatingStatus, GetShowFloatingStatus method [Text Services Framework], GetShowFloatingStatus method [Text Services Framework],ITfLangBarMgr interface, ITfLangBarMgr interface [Text Services Framework],GetShowFloatingStatus method, ITfLangBarMgr.GetShowFloatingStatus, ITfLangBarMgr::GetShowFloatingStatus, _tsf_itflangbarmgr_getshowfloatingstatus_ref, ctfutb/ITfLangBarMgr::GetShowFloatingStatus, tsf.itflangbarmgr_getshowfloatingstatus
 ms.topic: method
-f1_keywords: ["ctfutb/ITfLangBarMgr.GetShowFloatingStatus"]
+f1_keywords: 
+ - "ctfutb/ITfLangBarMgr.GetShowFloatingStatus"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

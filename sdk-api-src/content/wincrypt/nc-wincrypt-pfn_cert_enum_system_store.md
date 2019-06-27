@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CERT_SYSTEM_STORE_LOCATION_MASK, CERT_SYSTEM_STORE_RELOCATE_FLAG, CertEnumSystemStoreCallback, PFN_CERT_ENUM_SYSTEM_STORE, PFN_CERT_ENUM_SYSTEM_STORE callback, PFN_CERT_ENUM_SYSTEM_STORE callback function [Security], security.certenumsystemstorecallback, wincrypt/PFN_CERT_ENUM_SYSTEM_STORE
 ms.topic: callback
-f1_keywords: ["wincrypt/PFN_CERT_ENUM_SYSTEM_STORE"]
+f1_keywords: 
+ - "wincrypt/PFN_CERT_ENUM_SYSTEM_STORE"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

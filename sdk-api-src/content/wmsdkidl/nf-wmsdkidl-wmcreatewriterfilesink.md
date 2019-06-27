@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMCreateWriterFileSink, WMCreateWriterFileSink function [windows Media Format], wmformat.wmcreatewriterfilesink, wmsdkidl/WMCreateWriterFileSink
 ms.topic: function
-f1_keywords: ["wmsdkidl/WMCreateWriterFileSink"]
+f1_keywords: 
+ - "wmsdkidl/WMCreateWriterFileSink"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

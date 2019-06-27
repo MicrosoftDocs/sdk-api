@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],OMGetRenderTargets method, ID3D10Device.OMGetRenderTargets, ID3D10Device::OMGetRenderTargets, OMGetRenderTargets, OMGetRenderTargets method [Direct3D 10], OMGetRenderTargets method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::OMGetRenderTargets, direct3d10.id3d10device_omgetrendertargets, f378deb9-1829-aecc-36fe-7c3ab163d523
 ms.topic: method
-f1_keywords: ["d3d10/ID3D10Device.OMGetRenderTargets"]
+f1_keywords: 
+ - "d3d10/ID3D10Device.OMGetRenderTargets"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

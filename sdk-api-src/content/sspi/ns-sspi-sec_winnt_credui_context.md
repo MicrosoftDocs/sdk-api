@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSEC_WINNT_CREDUI_CONTEXT, PSEC_WINNT_CREDUI_CONTEXT, PSEC_WINNT_CREDUI_CONTEXT structure pointer [Security], SEC_WINNT_CREDUI_CONTEXT, SEC_WINNT_CREDUI_CONTEXT structure [Security], security.sec_winnt_credui_context, sspi/PSEC_WINNT_CREDUI_CONTEXT, sspi/SEC_WINNT_CREDUI_CONTEXT"
 ms.topic: struct
-f1_keywords: ["sspi/SEC_WINNT_CREDUI_CONTEXT"]
+f1_keywords: 
+ - "sspi/SEC_WINNT_CREDUI_CONTEXT"
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

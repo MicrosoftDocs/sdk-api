@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Arc, Arc function [Windows GDI], _win32_Arc, gdi.arc, wingdi/Arc
 ms.topic: function
-f1_keywords: ["wingdi/Arc"]
+f1_keywords: 
+ - "wingdi/Arc"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

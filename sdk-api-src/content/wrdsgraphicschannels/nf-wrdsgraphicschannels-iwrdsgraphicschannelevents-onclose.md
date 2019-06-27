@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsGraphicsChannelEvents interface [Remote Desktop Services],OnClose method, IWRdsGraphicsChannelEvents.OnClose, IWRdsGraphicsChannelEvents::OnClose, OnClose, OnClose method [Remote Desktop Services], OnClose method [Remote Desktop Services],IWRdsGraphicsChannelEvents interface, termserv.iwrdsgraphicschannelevents_onclose, wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnClose
 ms.topic: method
-f1_keywords: ["wrdsgraphicschannels/IWRdsGraphicsChannelEvents.OnClose"]
+f1_keywords: 
+ - "wrdsgraphicschannels/IWRdsGraphicsChannelEvents.OnClose"
 req.header: wrdsgraphicschannels.h
 req.include-header: 
 req.target-type: Windows

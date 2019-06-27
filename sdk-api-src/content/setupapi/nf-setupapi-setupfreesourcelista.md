@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupFreeSourceList, SetupFreeSourceList function [Setup API], SetupFreeSourceListA, SetupFreeSourceListW, _setupapi_setupfreesourcelist, setup.setupfreesourcelist, setupapi/SetupFreeSourceList, setupapi/SetupFreeSourceListA, setupapi/SetupFreeSourceListW
 ms.topic: function
-f1_keywords: ["setupapi/SetupFreeSourceList"]
+f1_keywords: 
+ - "setupapi/SetupFreeSourceList"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

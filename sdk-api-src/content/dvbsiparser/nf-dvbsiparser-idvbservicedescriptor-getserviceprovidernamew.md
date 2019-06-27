@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetServiceProviderNameW, GetServiceProviderNameW method [Microsoft TV Technologies], GetServiceProviderNameW method [Microsoft TV Technologies],IDvbServiceDescriptor interface, IDvbServiceDescriptor interface [Microsoft TV Technologies],GetServiceProviderNameW method, IDvbServiceDescriptor.GetServiceProviderNameW, IDvbServiceDescriptor::GetServiceProviderNameW, dvbsiparser/IDvbServiceDescriptor::GetServiceProviderNameW, mstv.idvbservicedescriptor_getserviceprovidernamew
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbServiceDescriptor.GetServiceProviderNameW"]
+f1_keywords: 
+ - "dvbsiparser/IDvbServiceDescriptor.GetServiceProviderNameW"
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

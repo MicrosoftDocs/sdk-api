@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwAuthorizedApplications interface [ICS/ICF],_NewEnum property, INetFwAuthorizedApplications._NewEnum, INetFwAuthorizedApplications.get__NewEnum, INetFwAuthorizedApplications::_NewEnum, INetFwAuthorizedApplications::get__NewEnum, _NewEnum property [ICS/ICF], _NewEnum property [ICS/ICF],INetFwAuthorizedApplications interface, get__NewEnum, ics._newenum_property_of_inetfwauthorizedapplications_newenum, netfw/INetFwAuthorizedApplications::_NewEnum, netfw/INetFwAuthorizedApplications::get__NewEnum
 ms.topic: method
-f1_keywords: ["netfw/INetFwAuthorizedApplications._NewEnum"]
+f1_keywords: 
+ - "netfw/INetFwAuthorizedApplications._NewEnum"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

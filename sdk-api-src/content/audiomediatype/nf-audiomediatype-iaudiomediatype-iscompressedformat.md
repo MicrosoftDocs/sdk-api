@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioMediaType interface [Audio Devices],IsCompressedFormat method, IAudioMediaType.IsCompressedFormat, IAudioMediaType::IsCompressedFormat, IsCompressedFormat, IsCompressedFormat method [Audio Devices], IsCompressedFormat method [Audio Devices],IAudioMediaType interface, audio.iaudiomediatype_iscompressedformat, audio_syseffects_r_be58a0a1-340a-49bd-b47b-6f53ad5258ae.xml, audiomediatype/IAudioMediaType::IsCompressedFormat
 ms.topic: method
-f1_keywords: ["audiomediatype/IAudioMediaType.IsCompressedFormat"]
+f1_keywords: 
+ - "audiomediatype/IAudioMediaType.IsCompressedFormat"
 req.header: audiomediatype.h
 req.include-header: Audiomediatype.h
 req.target-type: Desktop

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocManager, IDot11AdHocManager interface [NativeWIFI], IDot11AdHocManager interface [NativeWIFI],described, adhoc/IDot11AdHocManager, nwifi.idot11adhocmanager
 ms.topic: interface
-f1_keywords: ["adhoc/IDot11AdHocManager"]
+f1_keywords: 
+ - "adhoc/IDot11AdHocManager"
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OfflineClusterGroupEx, OfflineClusterGroupEx function [Failover Cluster], clusapi/OfflineClusterGroupEx, mscs.offlineclustergroupex
 ms.topic: function
-f1_keywords: ["clusapi/OfflineClusterGroupEx"]
+f1_keywords: 
+ - "clusapi/OfflineClusterGroupEx"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

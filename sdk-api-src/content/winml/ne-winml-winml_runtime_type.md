@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MachineLearning.winml_runtime_type, WINML_RUNTIME_CNTK, WINML_RUNTIME_TYPE, WINML_RUNTIME_TYPE enumeration, winml/WINML_RUNTIME_CNTK, winml/WINML_RUNTIME_TYPE
 ms.topic: enum
-f1_keywords: ["winml/WINML_RUNTIME_TYPE"]
+f1_keywords: 
+ - "winml/WINML_RUNTIME_TYPE"
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRASDEVSPECIFICINFO, PRASDEVSPECIFICINFO, PRASDEVSPECIFICINFO structure pointer [RAS], RASDEVSPECIFICINFO, RASDEVSPECIFICINFO structure [RAS], ras/PRASDEVSPECIFICINFO, ras/RASDEVSPECIFICINFO, rras.rasdevspecificinfo"
 ms.topic: struct
-f1_keywords: ["ras/RASDEVSPECIFICINFO"]
+f1_keywords: 
+ - "ras/RASDEVSPECIFICINFO"
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

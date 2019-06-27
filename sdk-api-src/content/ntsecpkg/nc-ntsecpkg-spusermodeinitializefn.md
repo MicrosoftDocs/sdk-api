@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpUserModeInitialize, SpUserModeInitialize callback function [Security], SpUserModeInitializeFn, SpUserModeInitializeFn callback, _ssp_spusermodeinitialize, ntsecpkg/SpUserModeInitialize, security.spusermodeinitialize
 ms.topic: callback
-f1_keywords: ["ntsecpkg/SpUserModeInitialize"]
+f1_keywords: 
+ - "ntsecpkg/SpUserModeInitialize"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

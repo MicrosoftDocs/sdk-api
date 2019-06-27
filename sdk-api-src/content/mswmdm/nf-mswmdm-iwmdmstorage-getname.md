@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [windows Media Device Manager], GetName method [windows Media Device Manager],IWMDMStorage interface, IWMDMStorage interface [windows Media Device Manager],GetName method, IWMDMStorage.GetName, IWMDMStorage::GetName, IWMDMStorageGetName, mswmdm/IWMDMStorage::GetName, wmdm.iwmdmstorage_getname
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMStorage.GetName"]
+f1_keywords: 
+ - "mswmdm/IWMDMStorage.GetName"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

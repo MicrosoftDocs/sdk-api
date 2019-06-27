@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICEnumMetadataItem, IWICEnumMetadataItem interface [Windows Imaging Component], IWICEnumMetadataItem interface [Windows Imaging Component],described, _wic_codec_iwicenummetadataitem, wic._wic_codec_iwicenummetadataitem, wincodec/IWICEnumMetadataItem
 ms.topic: interface
-f1_keywords: ["wincodec/IWICEnumMetadataItem"]
+f1_keywords: 
+ - "wincodec/IWICEnumMetadataItem"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

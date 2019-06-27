@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 9d2ab27f-80cb-4cd9-bd7a-8f56a810bb29, MFAverageTimePerFrameToFrameRate, MFAverageTimePerFrameToFrameRate function [Media Foundation], mf.mfaveragetimeperframetoframerate, mfapi/MFAverageTimePerFrameToFrameRate
 ms.topic: function
-f1_keywords: ["mfapi/MFAverageTimePerFrameToFrameRate"]
+f1_keywords: 
+ - "mfapi/MFAverageTimePerFrameToFrameRate"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

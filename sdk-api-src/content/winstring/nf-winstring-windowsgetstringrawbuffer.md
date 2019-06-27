@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WindowsGetStringRawBuffer, WindowsGetStringRawBuffer function [Windows Runtime], winrt.windowsgetstringrawbuffer, winstring/WindowsGetStringRawBuffer
 ms.topic: function
-f1_keywords: ["winstring/WindowsGetStringRawBuffer"]
+f1_keywords: 
+ - "winstring/WindowsGetStringRawBuffer"
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

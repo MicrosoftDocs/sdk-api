@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateConstantTransition, CreateConstantTransition method [Windows Animation], CreateConstantTransition method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateConstantTransition method, IUIAnimationTransitionLibrary.CreateConstantTransition, IUIAnimationTransitionLibrary::CreateConstantTransition, uianimation.iuianimationtransitionlibrary_createconstanttransition, uianimation/IUIAnimationTransitionLibrary::CreateConstantTransition
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationTransitionLibrary.CreateConstantTransition"]
+f1_keywords: 
+ - "uianimation/IUIAnimationTransitionLibrary.CreateConstantTransition"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

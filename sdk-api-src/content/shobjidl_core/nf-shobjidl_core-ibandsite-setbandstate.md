@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBandSite interface [Windows Shell],SetBandState method, IBandSite.SetBandState, IBandSite::SetBandState, SetBandState, SetBandState method [Windows Shell], SetBandState method [Windows Shell],IBandSite interface, _win32_IBandSite_SetBandState, shell.IBandSite_SetBandState, shobjidl_core/IBandSite::SetBandState
 ms.topic: method
-f1_keywords: ["shobjidl_core/IBandSite.SetBandState"]
+f1_keywords: 
+ - "shobjidl_core/IBandSite.SetBandState"
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h
 req.target-type: Windows

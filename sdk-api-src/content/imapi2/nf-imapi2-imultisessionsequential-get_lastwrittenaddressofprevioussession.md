@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMultisessionSequential interface [IMAPI],get_LastWrittenAddressOfPreviousSession method, IMultisessionSequential.get_LastWrittenAddressOfPreviousSession, IMultisessionSequential::get_LastWrittenAddressOfPreviousSession, get_LastWrittenAddressOfPreviousSession, get_LastWrittenAddressOfPreviousSession method [IMAPI], get_LastWrittenAddressOfPreviousSession method [IMAPI],IMultisessionSequential interface, imapi.imultisessionsequential_get_lastwrittenaddressofprevioussession, imapi2/IMultisessionSequential::get_LastWrittenAddressOfPreviousSession
 ms.topic: method
-f1_keywords: ["imapi2/IMultisessionSequential.get_LastWrittenAddressOfPreviousSession"]
+f1_keywords: 
+ - "imapi2/IMultisessionSequential.get_LastWrittenAddressOfPreviousSession"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

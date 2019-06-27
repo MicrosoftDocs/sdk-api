@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMProfile interface [windows Media Format],SetDescription method, IWMProfile.SetDescription, IWMProfile2 interface [windows Media Format],SetDescription method, IWMProfile2::SetDescription, IWMProfile3 interface [windows Media Format],SetDescription method, IWMProfile3::SetDescription, IWMProfile::SetDescription, IWMProfileSetDescription, SetDescription, SetDescription method [windows Media Format], SetDescription method [windows Media Format],IWMProfile interface, SetDescription method [windows Media Format],IWMProfile2 interface, SetDescription method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile_setdescription, wmsdkidl/IWMProfile2::SetDescription, wmsdkidl/IWMProfile3::SetDescription, wmsdkidl/IWMProfile::SetDescription
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMProfile.SetDescription"]
+f1_keywords: 
+ - "wmsdkidl/IWMProfile.SetDescription"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

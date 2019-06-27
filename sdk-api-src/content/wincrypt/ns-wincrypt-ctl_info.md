@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCTL_INFO, CTL_INFO, CTL_INFO structure [Security], CTL_V1, PCTL_INFO, PCTL_INFO structure pointer [Security], _crypto2_ctl_info, security.ctl_info, wincrypt/CTL_INFO, wincrypt/PCTL_INFO"
 ms.topic: struct
-f1_keywords: ["wincrypt/CTL_INFO"]
+f1_keywords: 
+ - "wincrypt/CTL_INFO"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

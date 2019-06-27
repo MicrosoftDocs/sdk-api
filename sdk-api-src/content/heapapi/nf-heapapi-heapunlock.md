@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HeapUnlock, HeapUnlock function, _win32_heapunlock, base.heapunlock, heapapi/HeapUnlock, winbase/HeapUnlock
 ms.topic: function
-f1_keywords: ["heapapi/HeapUnlock"]
+f1_keywords: 
+ - "heapapi/HeapUnlock"
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCaretType, GetCaretType method [Windows Controls], GetCaretType method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetCaretType method, ITextDocument2.GetCaretType, ITextDocument2::GetCaretType, controls.itextdocument2_getcarettype, tom/ITextDocument2::GetCaretType, tomKoreanBlockCaret, tomNormalCaret, tomNullCaret
 ms.topic: method
-f1_keywords: ["tom/ITextDocument2.GetCaretType"]
+f1_keywords: 
+ - "tom/ITextDocument2.GetCaretType"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

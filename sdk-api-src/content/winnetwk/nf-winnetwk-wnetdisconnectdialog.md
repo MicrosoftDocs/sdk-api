@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RESOURCETYPE_DISK, WNetDisconnectDialog, WNetDisconnectDialog function [Windows Networking (WNet)], _win32_wnetdisconnectdialog, winnetwk/WNetDisconnectDialog, wnet.wnetdisconnectdialog
 ms.topic: function
-f1_keywords: ["winnetwk/WNetDisconnectDialog"]
+f1_keywords: 
+ - "winnetwk/WNetDisconnectDialog"
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows

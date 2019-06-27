@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaParams interface [DirectShow],SetParam method, IMediaParams.SetParam, IMediaParams::SetParam, IMediaParamsSetParam, SetParam, SetParam method [DirectShow], SetParam method [DirectShow],IMediaParams interface, dshow.imediaparams_setparam, medparam/IMediaParams::SetParam
 ms.topic: method
-f1_keywords: ["medparam/IMediaParams.SetParam"]
+f1_keywords: 
+ - "medparam/IMediaParams.SetParam"
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows

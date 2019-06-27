@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellFolderView interface [Windows Shell],QuerySupport method, IShellFolderView.QuerySupport, IShellFolderView::QuerySupport, QuerySupport, QuerySupport method [Windows Shell], QuerySupport method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_QuerySupport, shell.IShellFolderView_QuerySupport, shlobj_core/IShellFolderView::QuerySupport
 ms.topic: method
-f1_keywords: ["shlobj_core/IShellFolderView.QuerySupport"]
+f1_keywords: 
+ - "shlobj_core/IShellFolderView.QuerySupport"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

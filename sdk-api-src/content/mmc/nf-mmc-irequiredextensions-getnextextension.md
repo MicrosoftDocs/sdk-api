@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNextExtension, GetNextExtension method [MMC], GetNextExtension method [MMC],IRequiredExtensions interface, IRequiredExtensions interface [MMC],GetNextExtension method, IRequiredExtensions.GetNextExtension, IRequiredExtensions::GetNextExtension, _slate_irequiredextensions_getnextextension, mmc.irequiredextensions_getnextextension, mmc/IRequiredExtensions::GetNextExtension
 ms.topic: method
-f1_keywords: ["mmc/IRequiredExtensions.GetNextExtension"]
+f1_keywords: 
+ - "mmc/IRequiredExtensions.GetNextExtension"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

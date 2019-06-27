@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Certificate property [Security], Certificate property [Security],IX509Enrollment interface, IX509Enrollment interface [Security],Certificate property, IX509Enrollment.Certificate, IX509Enrollment.get_Certificate, IX509Enrollment::Certificate, IX509Enrollment::get_Certificate, certenroll/IX509Enrollment::Certificate, certenroll/IX509Enrollment::get_Certificate, get_Certificate, security.ix509enrollment_certificate_property
 ms.topic: method
-f1_keywords: ["certenroll/IX509Enrollment.Certificate"]
+f1_keywords: 
+ - "certenroll/IX509Enrollment.Certificate"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

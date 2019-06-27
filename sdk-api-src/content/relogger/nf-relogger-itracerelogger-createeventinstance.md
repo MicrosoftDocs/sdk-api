@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateEventInstance, CreateEventInstance method [ETW], CreateEventInstance method [ETW],ITraceRelogger interface, ITraceRelogger interface [ETW],CreateEventInstance method, ITraceRelogger.CreateEventInstance, ITraceRelogger::CreateEventInstance, etw.itracerelogger_createeventinstance, relogger/ITraceRelogger::CreateEventInstance
 ms.topic: method
-f1_keywords: ["relogger/ITraceRelogger.CreateEventInstance"]
+f1_keywords: 
+ - "relogger/ITraceRelogger.CreateEventInstance"
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

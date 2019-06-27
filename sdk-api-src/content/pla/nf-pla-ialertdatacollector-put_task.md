@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAlertDataCollector interface [PLA],Task property, IAlertDataCollector.Task, IAlertDataCollector.put_Task, IAlertDataCollector::Task, IAlertDataCollector::get_Task, IAlertDataCollector::put_Task, Task property [PLA], Task property [PLA],IAlertDataCollector interface, base.ialertdatacollector_task, pla.ialertdatacollector_task, pla/IAlertDataCollector::Task, pla/IAlertDataCollector::get_Task, pla/IAlertDataCollector::put_Task, put_Task
 ms.topic: method
-f1_keywords: ["pla/IAlertDataCollector.Task"]
+f1_keywords: 
+ - "pla/IAlertDataCollector.Task"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

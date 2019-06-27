@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method, GetProperty method,ISensor interface, ISensor interface,GetProperty method, ISensor.GetProperty, ISensor::GetProperty, sensorsapi/ISensor::GetProperty, winsensors_com_ref.isensor_getproperty
 ms.topic: method
-f1_keywords: ["sensorsapi/ISensor.GetProperty"]
+f1_keywords: 
+ - "sensorsapi/ISensor.GetProperty"
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

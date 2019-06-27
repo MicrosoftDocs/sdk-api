@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPNRP_CLOUD_ID, PNRP_CLOUD_ID, PNRP_CLOUD_ID structure [Peer Networking], PPNRP_CLOUD_ID, PPNRP_CLOUD_ID structure pointer [Peer Networking], p2p.pnrp_cloud_id, pnrpdef/PNRP_CLOUD_ID, pnrpdef/PPNRP_CLOUD_ID"
 ms.topic: struct
-f1_keywords: ["pnrpdef/PNRP_CLOUD_ID"]
+f1_keywords: 
+ - "pnrpdef/PNRP_CLOUD_ID"
 req.header: pnrpdef.h
 req.include-header: 
 req.target-type: Windows

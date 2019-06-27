@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROPERTY_RADIUSSERVERGROUP_SERVERS_COLLECTION, RADIUSSERVERGROUPPROPERTIES, RADIUSSERVERGROUPPROPERTIES enumeration [Network Policy Server], _sdo_radiusservergroupproperties, nps.SDO_radiusservergroupproperties, sdo.radiusservergroupproperties, sdoias/PROPERTY_RADIUSSERVERGROUP_SERVERS_COLLECTION, sdoias/RADIUSSERVERGROUPPROPERTIES
 ms.topic: enum
-f1_keywords: ["sdoias/RADIUSSERVERGROUPPROPERTIES"]
+f1_keywords: 
+ - "sdoias/RADIUSSERVERGROUPPROPERTIES"
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

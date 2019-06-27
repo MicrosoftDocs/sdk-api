@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMWMIFilterCollection class [GPMC],Item property, IGPMWMIFilterCollection interface [GPMC],Item property, IGPMWMIFilterCollection.Item, IGPMWMIFilterCollection.get_Item, IGPMWMIFilterCollection::Item, IGPMWMIFilterCollection::get_Item, Item property [GPMC], Item property [GPMC],GPMWMIFilterCollection class, Item property [GPMC],IGPMWMIFilterCollection interface, _win32_igpmwmifiltercollection_get_item, get_Item, gpmc.igpmwmifiltercollection_get_item, gpmgmt/IGPMWMIFilterCollection::Item, gpmgmt/IGPMWMIFilterCollection::get_Item
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMWMIFilterCollection.Item"]
+f1_keywords: 
+ - "gpmgmt/IGPMWMIFilterCollection.Item"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

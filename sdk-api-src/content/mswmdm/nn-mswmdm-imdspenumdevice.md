@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMDSPEnumDevice, IMDSPEnumDevice interface [windows Media Device Manager], IMDSPEnumDevice interface [windows Media Device Manager],described, IMDSPEnumDeviceInterface, mswmdm/IMDSPEnumDevice, wmdm.imdspenumdevice
 ms.topic: interface
-f1_keywords: ["mswmdm/IMDSPEnumDevice"]
+f1_keywords: 
+ - "mswmdm/IMDSPEnumDevice"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

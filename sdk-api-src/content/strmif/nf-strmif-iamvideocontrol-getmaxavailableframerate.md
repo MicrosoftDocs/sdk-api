@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMaxAvailableFrameRate, GetMaxAvailableFrameRate method [DirectShow], GetMaxAvailableFrameRate method [DirectShow],IAMVideoControl interface, IAMVideoControl interface [DirectShow],GetMaxAvailableFrameRate method, IAMVideoControl.GetMaxAvailableFrameRate, IAMVideoControl::GetMaxAvailableFrameRate, IAMVideoControlGetMaxAvailableFrameRate, dshow.iamvideocontrol_getmaxavailableframerate, strmif/IAMVideoControl::GetMaxAvailableFrameRate
 ms.topic: method
-f1_keywords: ["strmif/IAMVideoControl.GetMaxAvailableFrameRate"]
+f1_keywords: 
+ - "strmif/IAMVideoControl.GetMaxAvailableFrameRate"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

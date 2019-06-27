@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtmCreateRouteListEnum, RtmCreateRouteListEnum function [RAS], _rtmv2ref_rtmcreateroutelistenum, rras.rtmcreateroutelistenum, rtmv2/RtmCreateRouteListEnum
 ms.topic: function
-f1_keywords: ["rtmv2/RtmCreateRouteListEnum"]
+f1_keywords: 
+ - "rtmv2/RtmCreateRouteListEnum"
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

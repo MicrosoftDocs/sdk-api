@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BufferSize property [PLA], BufferSize property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],BufferSize property, ITraceDataCollector.BufferSize, ITraceDataCollector.get_BufferSize, ITraceDataCollector::BufferSize, ITraceDataCollector::get_BufferSize, ITraceDataCollector::put_BufferSize, base.itracedatacollector_buffersize, get_BufferSize, pla.itracedatacollector_buffersize, pla/ITraceDataCollector::BufferSize, pla/ITraceDataCollector::get_BufferSize, pla/ITraceDataCollector::put_BufferSize
 ms.topic: method
-f1_keywords: ["pla/ITraceDataCollector.BufferSize"]
+f1_keywords: 
+ - "pla/ITraceDataCollector.BufferSize"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

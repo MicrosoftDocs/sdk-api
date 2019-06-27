@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryNotification, IFunctionDiscoveryNotification interface, IFunctionDiscoveryNotification interface,described, functiondiscoveryapi/IFunctionDiscoveryNotification, ncd.ifunctiondiscoverynotification
 ms.topic: interface
-f1_keywords: ["functiondiscoveryapi/IFunctionDiscoveryNotification"]
+f1_keywords: 
+ - "functiondiscoveryapi/IFunctionDiscoveryNotification"
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

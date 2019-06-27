@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellLibrary interface [Windows Shell],SaveInKnownFolder method, IShellLibrary.SaveInKnownFolder, IShellLibrary::SaveInKnownFolder, SaveInKnownFolder, SaveInKnownFolder method [Windows Shell], SaveInKnownFolder method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_SaveInKnownFolder, shell.IShellLibrary_SaveInKnownFolder, shobjidl_core/IShellLibrary::SaveInKnownFolder
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellLibrary.SaveInKnownFolder"]
+f1_keywords: 
+ - "shobjidl_core/IShellLibrary.SaveInKnownFolder"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

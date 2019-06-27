@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 46af5ba7-c362-4cfd-ae6d-b698c6403a65, IMFRemoteProxy, IMFRemoteProxy interface [Media Foundation], IMFRemoteProxy interface [Media Foundation],described, mf.imfremoteproxy, mfidl/IMFRemoteProxy
 ms.topic: interface
-f1_keywords: ["mfidl/IMFRemoteProxy"]
+f1_keywords: 
+ - "mfidl/IMFRemoteProxy"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

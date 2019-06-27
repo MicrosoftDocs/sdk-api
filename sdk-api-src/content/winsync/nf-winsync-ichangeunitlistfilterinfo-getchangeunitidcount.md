@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetChangeUnitIdCount, GetChangeUnitIdCount method [Windows Sync], GetChangeUnitIdCount method [Windows Sync],IChangeUnitListFilterInfo interface, IChangeUnitListFilterInfo interface [Windows Sync],GetChangeUnitIdCount method, IChangeUnitListFilterInfo.GetChangeUnitIdCount, IChangeUnitListFilterInfo::GetChangeUnitIdCount, winsync.ichangeunitlistfilterinfo_getchangeunitidcount, winsync/IChangeUnitListFilterInfo::GetChangeUnitIdCount
 ms.topic: method
-f1_keywords: ["winsync/IChangeUnitListFilterInfo.GetChangeUnitIdCount"]
+f1_keywords: 
+ - "winsync/IChangeUnitListFilterInfo.GetChangeUnitIdCount"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

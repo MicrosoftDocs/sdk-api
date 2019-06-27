@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSIT, GetSIT method [Microsoft TV Technologies], GetSIT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetSIT method, IDvbSiParser.GetSIT, IDvbSiParser::GetSIT, IDvbSiParserGetSIT, dvbsiparser/IDvbSiParser::GetSIT, mstv.idvbsiparser_getsit
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbSiParser.GetSIT"]
+f1_keywords: 
+ - "dvbsiparser/IDvbSiParser.GetSIT"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderContextEnum2, FwpmProviderContextEnum2 function [Filtering], fwp.fwpmprovidercontextenum2, fwpmu/FwpmProviderContextEnum2
 ms.topic: function
-f1_keywords: ["fwpmu/FwpmProviderContextEnum2"]
+f1_keywords: 
+ - "fwpmu/FwpmProviderContextEnum2"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

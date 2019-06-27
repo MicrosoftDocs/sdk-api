@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRAS_SECURITY_INFO, PENDING, PRAS_SECURITY_INFO, PRAS_SECURITY_INFO structure pointer [RAS], RAS_SECURITY_INFO, RAS_SECURITY_INFO structure [RAS], SUCCESS, _ras_ras_security_info_str, rasshost/PRAS_SECURITY_INFO, rasshost/RAS_SECURITY_INFO, rras.ras_security_info_str"
 ms.topic: struct
-f1_keywords: ["rasshost/RAS_SECURITY_INFO"]
+f1_keywords: 
+ - "rasshost/RAS_SECURITY_INFO"
 req.header: rasshost.h
 req.include-header: 
 req.target-type: Windows

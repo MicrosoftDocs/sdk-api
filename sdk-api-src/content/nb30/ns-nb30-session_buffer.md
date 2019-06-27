@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSESSION_BUFFER, CALL_PENDING, HANGUP_COMPLETE, HANGUP_PENDING, LISTEN_OUTSTANDING, PSESSION_BUFFER, PSESSION_BUFFER structure pointer [NetBIOS], SESSION_ABORTED, SESSION_BUFFER, SESSION_BUFFER structure [NetBIOS], SESSION_ESTABLISHED, nb30/PSESSION_BUFFER, nb30/SESSION_BUFFER, netbios.session_buffer"
 ms.topic: struct
-f1_keywords: ["nb30/SESSION_BUFFER"]
+f1_keywords: 
+ - "nb30/SESSION_BUFFER"
 req.header: nb30.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICMatchMetadataContent, WICMatchMetadataContent function [Windows Imaging Component], _wic_codec_wicmatchmetadatacontent, wic._wic_codec_wicmatchmetadatacontent, wincodecsdk/WICMatchMetadataContent
 ms.topic: function
-f1_keywords: ["wincodecsdk/WICMatchMetadataContent"]
+f1_keywords: 
+ - "wincodecsdk/WICMatchMetadataContent"
 req.header: wincodecsdk.h
 req.include-header: Wincodec.h
 req.target-type: Windows

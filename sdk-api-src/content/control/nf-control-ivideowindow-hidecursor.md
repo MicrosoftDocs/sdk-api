@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HideCursor, HideCursor method [DirectShow], HideCursor method [DirectShow],IVideoWindow interface, IVideoWindow interface [DirectShow],HideCursor method, IVideoWindow.HideCursor, IVideoWindow::HideCursor, IVideoWindowHideCursor, OAFALSE, OATRUE, control/IVideoWindow::HideCursor, dshow.ivideowindow_hidecursor
 ms.topic: method
-f1_keywords: ["control/IVideoWindow.HideCursor"]
+f1_keywords: 
+ - "control/IVideoWindow.HideCursor"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

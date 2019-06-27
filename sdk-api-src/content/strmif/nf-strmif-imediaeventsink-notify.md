@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaEventSink interface [DirectShow],Notify method, IMediaEventSink.Notify, IMediaEventSink::Notify, IMediaEventSinkNotify, Notify, Notify method [DirectShow], Notify method [DirectShow],IMediaEventSink interface, dshow.imediaeventsink_notify, strmif/IMediaEventSink::Notify
 ms.topic: method
-f1_keywords: ["strmif/IMediaEventSink.Notify"]
+f1_keywords: 
+ - "strmif/IMediaEventSink.Notify"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

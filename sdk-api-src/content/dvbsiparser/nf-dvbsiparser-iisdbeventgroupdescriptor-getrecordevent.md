@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordEvent, GetRecordEvent method [Microsoft TV Technologies], GetRecordEvent method [Microsoft TV Technologies],IIsdbEventGroupDescriptor interface, IIsdbEventGroupDescriptor interface [Microsoft TV Technologies],GetRecordEvent method, IIsdbEventGroupDescriptor.GetRecordEvent, IIsdbEventGroupDescriptor::GetRecordEvent, dvbsiparser/IIsdbEventGroupDescriptor::GetRecordEvent, mstv.iisdbeventgroupdescriptor_getrecordevent
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbEventGroupDescriptor.GetRecordEvent"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbEventGroupDescriptor.GetRecordEvent"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

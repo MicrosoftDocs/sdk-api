@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AD_CLOCKWISE, AD_COUNTERCLOCKWISE, SetArcDirection, SetArcDirection function [Windows GDI], _win32_SetArcDirection, gdi.setarcdirection, wingdi/SetArcDirection
 ms.topic: function
-f1_keywords: ["wingdi/SetArcDirection"]
+f1_keywords: 
+ - "wingdi/SetArcDirection"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

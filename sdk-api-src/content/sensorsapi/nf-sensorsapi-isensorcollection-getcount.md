@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method, GetCount method,ISensorCollection interface, ISensorCollection interface,GetCount method, ISensorCollection.GetCount, ISensorCollection::GetCount, sensorsapi/ISensorCollection::GetCount, winsensors_com_ref.isensorcollection_getcount
 ms.topic: method
-f1_keywords: ["sensorsapi/ISensorCollection.GetCount"]
+f1_keywords: 
+ - "sensorsapi/ISensorCollection.GetCount"
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

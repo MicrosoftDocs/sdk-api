@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IkeextSaDeleteById0, IkeextSaDeleteById0 function [Filtering], fwp.ikeextsadeletebyid0, fwpmu/IkeextSaDeleteById0
 ms.topic: function
-f1_keywords: ["fwpmu/IkeextSaDeleteById0"]
+f1_keywords: 
+ - "fwpmu/IkeextSaDeleteById0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

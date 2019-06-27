@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageList_LoadBitmap, ImageList_LoadBitmap macro [Windows Controls], _win32_ImageList_LoadBitmap, _win32_ImageList_LoadBitmap_cpp, commctrl/ImageList_LoadBitmap, controls.ImageList_LoadBitmap, controls._win32_ImageList_LoadBitmap
 ms.topic: macro
-f1_keywords: ["commctrl/ImageList_LoadBitmap"]
+f1_keywords: 
+ - "commctrl/ImageList_LoadBitmap"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

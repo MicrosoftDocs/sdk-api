@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundingSphere interface [DirectX Math Support APIs],Transform method, BoundingSphere.Transform, BoundingSphere.Transform(BoundingSphere &,float,FXMVECTOR,FXMVECTOR), BoundingSphere.Transform(BoundingSphere&,float,XMVECTOR,XMVECTOR), BoundingSphere::Transform, BoundingSphere::Transform(BoundingSphere &,float,FXMVECTOR,FXMVECTOR), Transform, Transform method [DirectX Math Support APIs], Transform method [DirectX Math Support APIs],BoundingSphere interface, dxmath.boundingsphere_transform_2
 ms.topic: method
-f1_keywords: ["directxcollision/BoundingSphere.Transform"]
+f1_keywords: 
+ - "directxcollision/BoundingSphere.Transform"
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

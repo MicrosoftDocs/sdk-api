@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IChannelIDTuneRequest, IChannelIDTuneRequest interface [Microsoft TV Technologies], IChannelIDTuneRequest interface [Microsoft TV Technologies],described, mstv.ichannelidtunerequest, tuner/IChannelIDTuneRequest
 ms.topic: interface
-f1_keywords: ["tuner/IChannelIDTuneRequest"]
+f1_keywords: 
+ - "tuner/IChannelIDTuneRequest"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedDockPosition property [Windows Accessibility], CachedDockPosition property [Windows Accessibility],IUIAutomationDockPattern interface, IUIAutomationDockPattern interface [Windows Accessibility],CachedDockPosition property, IUIAutomationDockPattern.CachedDockPosition, IUIAutomationDockPattern.get_CachedDockPosition, IUIAutomationDockPattern::CachedDockPosition, IUIAutomationDockPattern::get_CachedDockPosition, get_CachedDockPosition, uiauto.uiauto_IUIAutomationDockPattern_CachedDockPosition, uiauto_IUIAutomationDockPattern_CachedDockPosition, uiautomationclient/IUIAutomationDockPattern::CachedDockPosition, uiautomationclient/IUIAutomationDockPattern::get_CachedDockPosition, winauto.uiauto_IUIAutomationDockPattern_CachedDockPosition
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationDockPattern.CachedDockPosition"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationDockPattern.CachedDockPosition"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

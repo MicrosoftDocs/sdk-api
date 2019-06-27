@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUICollection interface [Windows Ribbon],Insert method, IUICollection.Insert, IUICollection::Insert, Insert, Insert method [Windows Ribbon], Insert method [Windows Ribbon],IUICollection interface, scenicintent_IUICollection_Insert, uiribbon/IUICollection::Insert, windowsribbon.windowsribbon_iuicollection_insert
 ms.topic: method
-f1_keywords: ["uiribbon/IUICollection.Insert"]
+f1_keywords: 
+ - "uiribbon/IUICollection.Insert"
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

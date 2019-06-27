@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddLogfileTraceStream, AddLogfileTraceStream method [ETW], AddLogfileTraceStream method [ETW],ITraceRelogger interface, ITraceRelogger interface [ETW],AddLogfileTraceStream method, ITraceRelogger.AddLogfileTraceStream, ITraceRelogger::AddLogfileTraceStream, etw.itracerelogger_addlogfiletracestream, relogger/ITraceRelogger::AddLogfileTraceStream
 ms.topic: method
-f1_keywords: ["relogger/ITraceRelogger.AddLogfileTraceStream"]
+f1_keywords: 
+ - "relogger/ITraceRelogger.AddLogfileTraceStream"
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioMidrange, IAudioMidrange interface [Core Audio], IAudioMidrange interface [Core Audio],described, coreaudio.iaudiomidrange, devicetopology/IAudioMidrange
 ms.topic: interface
-f1_keywords: ["devicetopology/IAudioMidrange"]
+f1_keywords: 
+ - "devicetopology/IAudioMidrange"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

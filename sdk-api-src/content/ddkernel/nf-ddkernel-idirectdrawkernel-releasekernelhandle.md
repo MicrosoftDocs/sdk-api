@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawKernel interface [Display Devices],ReleaseKernelHandle method, IDirectDrawKernel.ReleaseKernelHandle, IDirectDrawKernel::ReleaseKernelHandle, ReleaseKernelHandle, ReleaseKernelHandle method [Display Devices], ReleaseKernelHandle method [Display Devices],IDirectDrawKernel interface, ddfncs_5bb4adb5-8149-43bf-9a1a-b6447a68adac.xml, ddkernel/IDirectDrawKernel::ReleaseKernelHandle, display.idirectdrawkernel_releasekernelhandle
 ms.topic: method
-f1_keywords: ["ddkernel/IDirectDrawKernel.ReleaseKernelHandle"]
+f1_keywords: 
+ - "ddkernel/IDirectDrawKernel.ReleaseKernelHandle"
 req.header: ddkernel.h
 req.include-header: Ddkernel.h
 req.target-type: Desktop

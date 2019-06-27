@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMCreateSecureChannel_Certified, WMCreateSecureChannel_Certified function [windows Media Format], wmformat.wmcreatesecurechannel_certified, wmsecure/WMCreateSecureChannel_Certified
 ms.topic: function
-f1_keywords: ["wmsecure/WMCreateSecureChannel_Certified"]
+f1_keywords: 
+ - "wmsecure/WMCreateSecureChannel_Certified"
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows

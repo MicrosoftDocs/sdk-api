@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Equals, Equals method [GDI+], Equals method [GDI+],Point class, Point class [GDI+],Equals method, Point.Equals, Point::Equals, _gdiplus_CLASS_Point_Equals_point_, gdiplus._gdiplus_CLASS_Point_Equals_point_
 ms.topic: method
-f1_keywords: ["gdiplustypes/Point.Equals"]
+f1_keywords: 
+ - "gdiplustypes/Point.Equals"
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

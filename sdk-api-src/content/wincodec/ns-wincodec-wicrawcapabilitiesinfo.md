@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICRawCapabilitiesInfo, WICRawCapabilitiesInfo structure [Windows Imaging Component], _wic_codec_wicrawcapabilitiesinfo, wic._wic_codec_wicrawcapabilitiesinfo, wincodec/WICRawCapabilitiesInfo
 ms.topic: struct
-f1_keywords: ["wincodec/WICRawCapabilitiesInfo"]
+f1_keywords: 
+ - "wincodec/WICRawCapabilitiesInfo"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

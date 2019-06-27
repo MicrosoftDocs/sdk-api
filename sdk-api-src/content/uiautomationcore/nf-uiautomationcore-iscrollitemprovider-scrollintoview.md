@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IScrollItemProvider interface [Windows Accessibility],ScrollIntoView method, IScrollItemProvider.ScrollIntoView, IScrollItemProvider::ScrollIntoView, ScrollIntoView, ScrollIntoView method [Windows Accessibility], ScrollIntoView method [Windows Accessibility],IScrollItemProvider interface, uiauto.uiauto_IScrollItemProvider_ScrollIntoView, uiauto_IScrollItemProvider_ScrollIntoView, uiautomationcore/IScrollItemProvider::ScrollIntoView, winauto.uiauto_IScrollItemProvider_ScrollIntoView
 ms.topic: method
-f1_keywords: ["uiautomationcore/IScrollItemProvider.ScrollIntoView"]
+f1_keywords: 
+ - "uiautomationcore/IScrollItemProvider.ScrollIntoView"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

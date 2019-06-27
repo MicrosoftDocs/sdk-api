@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AcceptConnection, AcceptConnection method [Remote Desktop Services], AcceptConnection method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],AcceptConnection method, IWTSProtocolConnection.AcceptConnection, IWTSProtocolConnection::AcceptConnection, termserv.iwtsprotocolconnection_acceptconnection, wtsprotocol/IWTSProtocolConnection::AcceptConnection
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWTSProtocolConnection.AcceptConnection"]
+f1_keywords: 
+ - "wtsprotocol/IWTSProtocolConnection.AcceptConnection"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

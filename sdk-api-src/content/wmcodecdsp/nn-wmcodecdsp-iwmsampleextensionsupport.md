@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMSampleExtensionSupport, IWMSampleExtensionSupport interface [Media Foundation], IWMSampleExtensionSupport interface [Media Foundation],described, codecapi.iwmsampleextensionsupportinterface, mf.iwmsampleextensionsupport, mf.iwmsampleextensionsupportinterface, wmcodecdsp/IWMSampleExtensionSupport
 ms.topic: interface
-f1_keywords: ["wmcodecdsp/IWMSampleExtensionSupport"]
+f1_keywords: 
+ - "wmcodecdsp/IWMSampleExtensionSupport"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

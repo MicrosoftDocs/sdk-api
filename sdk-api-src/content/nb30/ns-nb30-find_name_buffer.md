@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PFIND_NAME_BUFFER, FIND_NAME_BUFFER, FIND_NAME_BUFFER structure [NetBIOS], PFIND_NAME_BUFFER, PFIND_NAME_BUFFER structure pointer [NetBIOS], nb30/FIND_NAME_BUFFER, nb30/PFIND_NAME_BUFFER, netbios.find_name_buffer"
 ms.topic: struct
-f1_keywords: ["nb30/FIND_NAME_BUFFER"]
+f1_keywords: 
+ - "nb30/FIND_NAME_BUFFER"
 req.header: nb30.h
 req.include-header: 
 req.target-type: Windows

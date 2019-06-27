@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, NCRYPT_MACHINE_KEY_FLAG, NCryptKeyName, NCryptKeyName structure [Security], ncrypt/NCryptKeyName, security.ncryptkeyname_struct
 ms.topic: struct
-f1_keywords: ["ncrypt/NCryptKeyName"]
+f1_keywords: 
+ - "ncrypt/NCryptKeyName"
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

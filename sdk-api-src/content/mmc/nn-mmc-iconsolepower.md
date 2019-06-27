@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConsolePower, IConsolePower, IConsolePower interface [MMC], IConsolePower interface [MMC],described, _slate_iconsolepower, mmc.iconsolepower, mmc/IConsolePower
 ms.topic: interface
-f1_keywords: ["mmc/IConsolePower"]
+f1_keywords: 
+ - "mmc/IConsolePower"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

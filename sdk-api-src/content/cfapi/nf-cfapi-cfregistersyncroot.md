@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CfRegisterSyncRoot, CfRegisterSyncRoot function, cfapi/CfRegisterSyncRoot, cloudApi.cfregistersyncroot
 ms.topic: function
-f1_keywords: ["cfapi/CfRegisterSyncRoot"]
+f1_keywords: 
+ - "cfapi/CfRegisterSyncRoot"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

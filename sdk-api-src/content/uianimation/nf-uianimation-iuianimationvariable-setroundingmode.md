@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariable interface [Windows Animation],SetRoundingMode method, IUIAnimationVariable.SetRoundingMode, IUIAnimationVariable::SetRoundingMode, SetRoundingMode, SetRoundingMode method [Windows Animation], SetRoundingMode method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_setroundingmode, uianimation/IUIAnimationVariable::SetRoundingMode
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationVariable.SetRoundingMode"]
+f1_keywords: 
+ - "uianimation/IUIAnimationVariable.SetRoundingMode"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

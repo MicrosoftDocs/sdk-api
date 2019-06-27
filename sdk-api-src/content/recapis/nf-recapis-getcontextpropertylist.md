@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 3d3df56f-d989-4d3b-a0e2-00a7ac0fabd6, GetContextPropertyList, GetContextPropertyList function [Tablet PC], recapis/GetContextPropertyList, tablet.getcontextpropertylist
 ms.topic: function
-f1_keywords: ["recapis/GetContextPropertyList"]
+f1_keywords: 
+ - "recapis/GetContextPropertyList"
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

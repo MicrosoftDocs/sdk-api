@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetChannelVolumes, GetChannelVolumes method [XAudio2 Audio Mixing APIs], GetChannelVolumes method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, IXAudio2Voice interface [XAudio2 Audio Mixing APIs],GetChannelVolumes method, IXAudio2Voice.GetChannelVolumes, IXAudio2Voice::GetChannelVolumes, xaudio2.ixaudio2voice_interface_getchannelvolumes, xaudio2/IXAudio2Voice::GetChannelVolumes
 ms.topic: method
-f1_keywords: ["xaudio2/IXAudio2Voice.GetChannelVolumes"]
+f1_keywords: 
+ - "xaudio2/IXAudio2Voice.GetChannelVolumes"
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

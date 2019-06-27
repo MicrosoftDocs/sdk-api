@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],put_PositionMode method, IMSVidPlayback.put_PositionMode, IMSVidPlayback::put_PositionMode, IMSVidPlaybackput_PositionMode, mstv.imsvidplayback_put_positionmode, put_PositionMode, put_PositionMode method [Microsoft TV Technologies], put_PositionMode method [Microsoft TV Technologies],IMSVidPlayback interface, segment/IMSVidPlayback::put_PositionMode
 ms.topic: method
-f1_keywords: ["segment/IMSVidPlayback.put_PositionMode"]
+f1_keywords: 
+ - "segment/IMSVidPlayback.put_PositionMode"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

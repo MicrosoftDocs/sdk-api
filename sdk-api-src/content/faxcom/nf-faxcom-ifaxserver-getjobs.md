@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetJobs, GetJobs method [Fax Service], GetJobs method [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],GetJobs method, IFaxServer.GetJobs, IFaxServer::GetJobs, _mfax_ifaxserver_getjobs, fax._mfax_ifaxserver_client_mfax_ifaxserver_getjobs_cpp, fax._mfax_ifaxserver_getjobs, faxcom/IFaxServer::GetJobs
 ms.topic: method
-f1_keywords: ["faxcom/IFaxServer.GetJobs"]
+f1_keywords: 
+ - "faxcom/IFaxServer.GetJobs"
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

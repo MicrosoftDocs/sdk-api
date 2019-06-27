@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StrToInt, StrToInt function [Windows Shell], StrToIntA, StrToIntW, _win32_StrToInt, shell.StrToInt, shlwapi/StrToInt, shlwapi/StrToIntA, shlwapi/StrToIntW
 ms.topic: function
-f1_keywords: ["shlwapi/StrToInt"]
+f1_keywords: 
+ - "shlwapi/StrToInt"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

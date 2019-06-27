@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSetByIndexPtr, XMVectorSetByIndexPtr, XMVectorSetByIndexPtr method [DirectX Math Support APIs], dxmath.xmvectorsetbyindexptr
 ms.topic: function
-f1_keywords: ["directxmath/XMVectorSetByIndexPtr"]
+f1_keywords: 
+ - "directxmath/XMVectorSetByIndexPtr"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

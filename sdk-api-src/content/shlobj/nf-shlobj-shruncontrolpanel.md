@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHRunControlPanel, SHRunControlPanel function [Windows Shell], _shell_SHRunControlPanel, shell.SHRunControlPanel, shlobj/SHRunControlPanel
 ms.topic: function
-f1_keywords: ["shlobj/SHRunControlPanel"]
+f1_keywords: 
+ - "shlobj/SHRunControlPanel"
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

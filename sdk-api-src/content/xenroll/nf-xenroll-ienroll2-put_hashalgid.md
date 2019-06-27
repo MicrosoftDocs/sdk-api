@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HashAlgID property [Security], HashAlgID property [Security],IEnroll2 interface, HashAlgID property [Security],IEnroll4 interface, IEnroll2 interface [Security],HashAlgID property, IEnroll2.HashAlgID, IEnroll2.put_HashAlgID, IEnroll2::HashAlgID, IEnroll2::get_HashAlgID, IEnroll2::put_HashAlgID, IEnroll4 interface [Security],HashAlgID property, IEnroll4.HashAlgID, IEnroll4::get_HashAlgID, IEnroll4::put_HashAlgID, get_HashAlgID, put_HashAlgID, security.ienroll4_hashalgid, xenroll/IEnroll2::HashAlgID, xenroll/IEnroll2::get_HashAlgID, xenroll/IEnroll2::put_HashAlgID, xenroll/IEnroll4::HashAlgID, xenroll/IEnroll4::get_HashAlgID, xenroll/IEnroll4::put_HashAlgID
 ms.topic: method
-f1_keywords: ["xenroll/IEnroll2.HashAlgID"]
+f1_keywords: 
+ - "xenroll/IEnroll2.HashAlgID"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

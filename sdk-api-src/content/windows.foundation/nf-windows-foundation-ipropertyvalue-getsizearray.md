@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSizeArray, GetSizeArray method [Windows Runtime], GetSizeArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetSizeArray method, IPropertyValue.GetSizeArray, IPropertyValue.IPropertyValue, IPropertyValue::GetSizeArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetSizeArray, winrt.ipropertyvalue_getsizearray
 ms.topic: method
-f1_keywords: ["windows.foundation/IPropertyValue.GetSizeArray"]
+f1_keywords: 
+ - "windows.foundation/IPropertyValue.GetSizeArray"
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

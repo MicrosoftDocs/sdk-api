@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SOCKET_USAGE_TYPE, SOCKET_USAGE_TYPE enumeration [Winsock], SYSTEM_CRITICAL_SOCKET, mstcpip/SOCKET_USAGE_TYPE, mstcpip/SYSTEM_CRITICAL_SOCKET, winsock.socket_usage_type
 ms.topic: enum
-f1_keywords: ["mstcpip/SOCKET_USAGE_TYPE"]
+f1_keywords: 
+ - "mstcpip/SOCKET_USAGE_TYPE"
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows

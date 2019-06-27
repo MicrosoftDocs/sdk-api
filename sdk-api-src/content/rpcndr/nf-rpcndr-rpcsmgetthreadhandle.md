@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcSmGetThreadHandle, RpcSmGetThreadHandle function [RPC], _rpc_rpcsmgetthreadhandle, rpc.rpcsmgetthreadhandle, rpcndr/RpcSmGetThreadHandle
 ms.topic: function
-f1_keywords: ["rpcndr/RpcSmGetThreadHandle"]
+f1_keywords: 
+ - "rpcndr/RpcSmGetThreadHandle"
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

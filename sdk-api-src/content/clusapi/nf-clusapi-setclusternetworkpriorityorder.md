@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER, PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER function [Failover Cluster], SetClusterNetworkPriorityOrder, SetClusterNetworkPriorityOrder function [Failover Cluster], _wolf_setclusternetworkpriorityorder, clusapi/PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER, clusapi/SetClusterNetworkPriorityOrder, mscs.setclusternetworkpriorityorder
 ms.topic: function
-f1_keywords: ["clusapi/SetClusterNetworkPriorityOrder"]
+f1_keywords: 
+ - "clusapi/SetClusterNetworkPriorityOrder"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

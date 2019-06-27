@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMoniker, IMoniker interface [COM], IMoniker interface [COM],described, _com_imoniker, com.imoniker, objidl/IMoniker
 ms.topic: interface
-f1_keywords: ["objidl/IMoniker"]
+f1_keywords: 
+ - "objidl/IMoniker"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

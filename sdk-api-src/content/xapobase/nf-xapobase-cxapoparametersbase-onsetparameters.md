@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CXAPOParametersBase interface [XAudio2 Audio Mixing APIs],OnSetParameters method, CXAPOParametersBase.OnSetParameters, CXAPOParametersBase::OnSetParameters, OnSetParameters, OnSetParameters method [XAudio2 Audio Mixing APIs], OnSetParameters method [XAudio2 Audio Mixing APIs],CXAPOParametersBase interface, xapobase/CXAPOParametersBase::OnSetParameters, xaudio2.cxapoparametersbase_onsetparameters
 ms.topic: method
-f1_keywords: ["xapobase/CXAPOParametersBase.OnSetParameters"]
+f1_keywords: 
+ - "xapobase/CXAPOParametersBase.OnSetParameters"
 req.header: xapobase.h
 req.include-header: 
 req.target-type: Windows

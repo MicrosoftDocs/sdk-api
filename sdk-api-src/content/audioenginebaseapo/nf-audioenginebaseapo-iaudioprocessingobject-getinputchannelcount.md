@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInputChannelCount, GetInputChannelCount method [Audio Devices], GetInputChannelCount method [Audio Devices],IAudioProcessingObject interface, IAudioProcessingObject interface [Audio Devices],GetInputChannelCount method, IAudioProcessingObject.GetInputChannelCount, IAudioProcessingObject::GetInputChannelCount, audio.iaudioprocessingobject_getinputchannelcount, audioenginebaseapo/IAudioProcessingObject::GetInputChannelCount
 ms.topic: method
-f1_keywords: ["audioenginebaseapo/IAudioProcessingObject.GetInputChannelCount"]
+f1_keywords: 
+ - "audioenginebaseapo/IAudioProcessingObject.GetInputChannelCount"
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Universal

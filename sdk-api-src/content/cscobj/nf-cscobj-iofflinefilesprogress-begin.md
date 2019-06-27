@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Begin, Begin method [Offline Files], Begin method [Offline Files],IOfflineFilesProgress interface, IOfflineFilesProgress interface [Offline Files],Begin method, IOfflineFilesProgress.Begin, IOfflineFilesProgress::Begin, cscobj/IOfflineFilesProgress::Begin, of.iofflinefilesprogress_begin
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesProgress.Begin"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesProgress.Begin"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

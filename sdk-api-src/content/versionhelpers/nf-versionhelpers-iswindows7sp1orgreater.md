@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsWindows7SP1OrGreater, IsWindows7SP1OrGreater function, base.iswindows7sp1orgreater, versionhelpers/IsWindows7SP1OrGreater
 ms.topic: function
-f1_keywords: ["versionhelpers/IsWindows7SP1OrGreater"]
+f1_keywords: 
+ - "versionhelpers/IsWindows7SP1OrGreater"
 req.header: versionhelpers.h
 req.include-header: 
 req.target-type: Windows

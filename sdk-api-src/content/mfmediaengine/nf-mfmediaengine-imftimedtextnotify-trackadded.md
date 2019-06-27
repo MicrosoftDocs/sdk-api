@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextNotify interface [Media Foundation],TrackAdded method, IMFTimedTextNotify.TrackAdded, IMFTimedTextNotify::TrackAdded, TrackAdded, TrackAdded method [Media Foundation], TrackAdded method [Media Foundation],IMFTimedTextNotify interface, mf.imftimedtextnotify_trackadded, mfmediaengine/IMFTimedTextNotify::TrackAdded
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedTextNotify.TrackAdded"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedTextNotify.TrackAdded"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

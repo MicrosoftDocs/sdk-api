@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PrjFillDirEntryBuffer, PrjFillDirEntryBuffer function, ProjFS.prjfilldirentrybuffer, projectedfslib/PrjFillDirEntryBuffer
 ms.topic: function
-f1_keywords: ["projectedfslib/PrjFillDirEntryBuffer"]
+f1_keywords: 
+ - "projectedfslib/PrjFillDirEntryBuffer"
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

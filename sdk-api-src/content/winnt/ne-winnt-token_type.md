@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTOKEN_TYPE, PTOKEN_TYPE, PTOKEN_TYPE enumeration pointer [Security], TOKEN_TYPE, TOKEN_TYPE enumeration [Security], TokenImpersonation, TokenPrimary, _win32_token_type_str, security.token_type, winnt/PTOKEN_TYPE, winnt/TOKEN_TYPE, winnt/TokenImpersonation, winnt/TokenPrimary"
 ms.topic: enum
-f1_keywords: ["winnt/TOKEN_TYPE"]
+f1_keywords: 
+ - "winnt/TOKEN_TYPE"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

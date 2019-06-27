@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_GLYPH_IMAGE_DATA, DWRITE_GLYPH_IMAGE_DATA structure [Direct Write], directwrite.dwrite_glyph_image_data, dwrite_3/DWRITE_GLYPH_IMAGE_DATA
 ms.topic: struct
-f1_keywords: ["dwrite_3/DWRITE_GLYPH_IMAGE_DATA"]
+f1_keywords: 
+ - "dwrite_3/DWRITE_GLYPH_IMAGE_DATA"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

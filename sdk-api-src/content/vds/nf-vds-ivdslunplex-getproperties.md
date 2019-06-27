@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsLunPlex interface, IVdsLunPlex interface [VDS],GetProperties method, IVdsLunPlex.GetProperties, IVdsLunPlex::GetProperties, base.ivdslunplex_getproperties, vds/IVdsLunPlex::GetProperties, vdshwprv/IVdsLunPlex::GetProperties
 ms.topic: method
-f1_keywords: ["vds/IVdsLunPlex.GetProperties"]
+f1_keywords: 
+ - "vds/IVdsLunPlex.GetProperties"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

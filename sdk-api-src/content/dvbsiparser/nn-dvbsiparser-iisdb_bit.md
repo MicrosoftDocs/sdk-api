@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IISDB_BIT, IISDB_BIT interface [Microsoft TV Technologies], IISDB_BIT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_BIT, mstv.iisdb_bit
 ms.topic: interface
-f1_keywords: ["dvbsiparser/IISDB_BIT"]
+f1_keywords: 
+ - "dvbsiparser/IISDB_BIT"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

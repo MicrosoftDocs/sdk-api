@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationValuePattern interface [Windows Accessibility],SetValue method, IUIAutomationValuePattern.SetValue, IUIAutomationValuePattern::SetValue, SetValue, SetValue method [Windows Accessibility], SetValue method [Windows Accessibility],IUIAutomationValuePattern interface, uiauto.uiauto_IUIAutomationValuePattern_SetValue, uiauto_IUIAutomationValuePattern_SetValue, uiautomationclient/IUIAutomationValuePattern::SetValue, winauto.uiauto_IUIAutomationValuePattern_SetValue
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationValuePattern.SetValue"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationValuePattern.SetValue"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

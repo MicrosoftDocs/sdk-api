@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InterlockedIncrement, InterlockedIncrement function, _win32_interlockedincrement, base.interlockedincrement, winnt/InterlockedIncrement
 ms.topic: function
-f1_keywords: ["winnt/InterlockedIncrement"]
+f1_keywords: 
+ - "winnt/InterlockedIncrement"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

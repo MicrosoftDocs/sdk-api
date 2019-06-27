@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTSNameW, GetTSNameW method [Microsoft TV Technologies], GetTSNameW method [Microsoft TV Technologies],IIsdbTSInformationDescriptor interface, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],GetTSNameW method, IIsdbTSInformationDescriptor.GetTSNameW, IIsdbTSInformationDescriptor::GetTSNameW, dvbsiparser/IIsdbTSInformationDescriptor::GetTSNameW, mstv.iisdbtsinformationdescriptor_gettsnamew
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbTSInformationDescriptor.GetTSNameW"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbTSInformationDescriptor.GetTSNameW"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

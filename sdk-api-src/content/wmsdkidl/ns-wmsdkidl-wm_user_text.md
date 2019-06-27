@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WM_USER_TEXT, WM_USER_TEXT structure [windows Media Format], wmformat.wm_user_text, wmsdkidl/WM_USER_TEXT
 ms.topic: struct
-f1_keywords: ["wmsdkidl/WM_USER_TEXT"]
+f1_keywords: 
+ - "wmsdkidl/WM_USER_TEXT"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

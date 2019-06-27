@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HttpSendRequest, HttpSendRequest function [WinINet], HttpSendRequestA, HttpSendRequestW, _inet_httpsendrequest_function, wininet.httpsendrequest, wininet/HttpSendRequest, wininet/HttpSendRequestA, wininet/HttpSendRequestW
 ms.topic: function
-f1_keywords: ["wininet/HttpSendRequest"]
+f1_keywords: 
+ - "wininet/HttpSendRequest"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetPlaybackRate method, IMFMediaEngine.SetPlaybackRate, IMFMediaEngine::SetPlaybackRate, SetPlaybackRate, SetPlaybackRate method [Media Foundation], SetPlaybackRate method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setplaybackrate, mfmediaengine/IMFMediaEngine::SetPlaybackRate
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngine.SetPlaybackRate"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngine.SetPlaybackRate"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

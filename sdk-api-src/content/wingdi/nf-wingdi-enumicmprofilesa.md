@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumICMProfiles, EnumICMProfiles function [Windows Color System], EnumICMProfilesA, EnumICMProfilesW, _color_EnumICMProfiles, wcs.enumicmprofiles, wingdi/EnumICMProfiles, wingdi/EnumICMProfilesA, wingdi/EnumICMProfilesW
 ms.topic: function
-f1_keywords: ["wingdi/EnumICMProfiles"]
+f1_keywords: 
+ - "wingdi/EnumICMProfiles"
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

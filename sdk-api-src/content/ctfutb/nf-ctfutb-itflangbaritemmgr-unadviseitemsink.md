@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemMgr interface [Text Services Framework],UnadviseItemSink method, ITfLangBarItemMgr.UnadviseItemSink, ITfLangBarItemMgr::UnadviseItemSink, UnadviseItemSink, UnadviseItemSink method [Text Services Framework], UnadviseItemSink method [Text Services Framework],ITfLangBarItemMgr interface, _tsf_itflangbaritemmgr_unadviseitemsink_ref, ctfutb/ITfLangBarItemMgr::UnadviseItemSink, tsf.itflangbaritemmgr_unadviseitemsink
 ms.topic: method
-f1_keywords: ["ctfutb/ITfLangBarItemMgr.UnadviseItemSink"]
+f1_keywords: 
+ - "ctfutb/ITfLangBarItemMgr.UnadviseItemSink"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

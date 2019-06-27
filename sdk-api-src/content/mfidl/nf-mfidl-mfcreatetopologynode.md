@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 67c32232-09cb-4098-b80b-4b93ee121190, MFCreateTopologyNode, MFCreateTopologyNode function [Media Foundation], mf.mfcreatetopologynode, mfidl/MFCreateTopologyNode
 ms.topic: function
-f1_keywords: ["mfidl/MFCreateTopologyNode"]
+f1_keywords: 
+ - "mfidl/MFCreateTopologyNode"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

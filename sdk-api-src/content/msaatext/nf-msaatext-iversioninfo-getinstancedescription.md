@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInstanceDescription, GetInstanceDescription method [Windows Accessibility], GetInstanceDescription method [Windows Accessibility],IVersionInfo interface, IVersionInfo interface [Windows Accessibility],GetInstanceDescription method, IVersionInfo.GetInstanceDescription, IVersionInfo::GetInstanceDescription, _msaa_IVersionInfo_GetInstanceDescription, msaa.iversioninfo_iversioninfo__getinstancedescription, msaatext/IVersionInfo::GetInstanceDescription, winauto.iversioninfo_iversioninfo__getinstancedescription
 ms.topic: method
-f1_keywords: ["msaatext/IVersionInfo.GetInstanceDescription"]
+f1_keywords: 
+ - "msaatext/IVersionInfo.GetInstanceDescription"
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

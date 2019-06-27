@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MakeInfinite, MakeInfinite method [GDI+], MakeInfinite method [GDI+],Region class, Region class [GDI+],MakeInfinite method, Region.MakeInfinite, Region::MakeInfinite, _gdiplus_CLASS_Region_MakeInfinite_, gdiplus._gdiplus_CLASS_Region_MakeInfinite_
 ms.topic: method
-f1_keywords: ["gdiplusheaders/Region.MakeInfinite"]
+f1_keywords: 
+ - "gdiplusheaders/Region.MakeInfinite"
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFXVerifyPassword, PFXVerifyPassword function [Security], _crypto2_pfxverifypassword, security.pfxverifypassword, wincrypt/PFXVerifyPassword
 ms.topic: function
-f1_keywords: ["wincrypt/PFXVerifyPassword"]
+f1_keywords: 
+ - "wincrypt/PFXVerifyPassword"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

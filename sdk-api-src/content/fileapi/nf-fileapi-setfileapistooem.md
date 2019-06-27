@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetFileApisToOEM, SetFileApisToOEM function [Files], _win32_setfileapistooem, base.setfileapistooem, fileapi/SetFileApisToOEM, fs.setfileapistooem
 ms.topic: function
-f1_keywords: ["fileapi/SetFileApisToOEM"]
+f1_keywords: 
+ - "fileapi/SetFileApisToOEM"
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTRUSTED_PASSWORD_INFO, PTRUSTED_PASSWORD_INFO, PTRUSTED_PASSWORD_INFO structure pointer [Security], TRUSTED_PASSWORD_INFO, TRUSTED_PASSWORD_INFO structure [Security], _TRUSTED_PASSWORD_INFO, _lsa_trusted_password_info, ntsecapi/PTRUSTED_PASSWORD_INFO, ntsecapi/TRUSTED_PASSWORD_INFO, security.trusted_password_info"
 ms.topic: struct
-f1_keywords: ["ntsecapi/TRUSTED_PASSWORD_INFO"]
+f1_keywords: 
+ - "ntsecapi/TRUSTED_PASSWORD_INFO"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

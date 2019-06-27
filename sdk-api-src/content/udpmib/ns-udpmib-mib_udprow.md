@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_UDPROW, MIB_UDPROW, MIB_UDPROW structure [MIB], PMIB_UDPROW, PMIB_UDPROW structure pointer [MIB], _mpr_mib_udprow, iprtrmib/MIB_UDPROW, iprtrmib/PMIB_UDPROW, mib.mib_udprow, rras.mib_udprow, udpmib/MIB_UDPROW, udpmib/PMIB_UDPROW"
 ms.topic: struct
-f1_keywords: ["udpmib/MIB_UDPROW"]
+f1_keywords: 
+ - "udpmib/MIB_UDPROW"
 req.header: udpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

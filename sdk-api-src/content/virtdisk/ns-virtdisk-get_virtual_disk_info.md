@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PGET_VIRTUAL_DISK_INFO, GET_VIRTUAL_DISK_INFO, GET_VIRTUAL_DISK_INFO structure [VHD], PGET_VIRTUAL_DISK_INFO, PGET_VIRTUAL_DISK_INFO structure pointer [VHD], _GET_VIRTUAL_DISK_INFO, vdssys/GET_VIRTUAL_DISK_INFO, vdssys/PGET_VIRTUAL_DISK_INFO, vhd.get_virtual_disk_info, virtdisk/GET_VIRTUAL_DISK_INFO, virtdisk/PGET_VIRTUAL_DISK_INFO"
 ms.topic: struct
-f1_keywords: ["virtdisk/GET_VIRTUAL_DISK_INFO"]
+f1_keywords: 
+ - "virtdisk/GET_VIRTUAL_DISK_INFO"
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

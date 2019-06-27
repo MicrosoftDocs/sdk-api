@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CancelDeferral, CancelDeferral method [Direct Manipulation], CancelDeferral method [Direct Manipulation],IDirectManipulationDeferContactService interface, IDirectManipulationDeferContactService interface [Direct Manipulation],CancelDeferral method, IDirectManipulationDeferContactService.CancelDeferral, IDirectManipulationDeferContactService::CancelDeferral, directmanipulation.idirectmanipulationdefercontactservice_canceldeferral, directmanipulation/IDirectManipulationDeferContactService::CancelDeferral
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationDeferContactService.CancelDeferral"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationDeferContactService.CancelDeferral"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

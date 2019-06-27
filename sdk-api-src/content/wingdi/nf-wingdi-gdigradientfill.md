@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GRADIENT_FILL_RECT_H, GRADIENT_FILL_RECT_V, GRADIENT_FILL_TRIANGLE, GdiGradientFill, GdiGradientFill function [Windows GDI], gdi.gdigradientfill, wingdi/GdiGradientFill
 ms.topic: function
-f1_keywords: ["wingdi/GdiGradientFill"]
+f1_keywords: 
+ - "wingdi/GdiGradientFill"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

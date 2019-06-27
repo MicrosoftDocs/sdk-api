@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_DiseqCommand, IBDA_DiseqCommand interface [Microsoft TV Technologies], IBDA_DiseqCommand interface [Microsoft TV Technologies],described, bdaiface/IBDA_DiseqCommand, mstv.ibda_diseqcommand
 ms.topic: interface
-f1_keywords: ["bdaiface/IBDA_DiseqCommand"]
+f1_keywords: 
+ - "bdaiface/IBDA_DiseqCommand"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

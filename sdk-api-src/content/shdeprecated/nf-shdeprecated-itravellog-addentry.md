@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddEntry, AddEntry method [Windows Shell], AddEntry method [Windows Shell],ITravelLog interface, FALSE, ITravelLog interface [Windows Shell],AddEntry method, ITravelLog.AddEntry, ITravelLog::AddEntry, TRUE, shdeprecated/ITravelLog::AddEntry, shell.ITravelLog_AddEntry, zone_ITravelLog_AddEntry
 ms.topic: method
-f1_keywords: ["shdeprecated/ITravelLog.AddEntry"]
+f1_keywords: 
+ - "shdeprecated/ITravelLog.AddEntry"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

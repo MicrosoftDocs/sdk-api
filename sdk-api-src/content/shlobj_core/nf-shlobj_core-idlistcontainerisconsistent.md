@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDListContainerIsConsistent, IDListContainerIsConsistent function [Windows Shell], shell.IDListContainerIsConsistent, shlobj_core/IDListContainerIsConsistent
 ms.topic: function
-f1_keywords: ["shlobj_core/IDListContainerIsConsistent"]
+f1_keywords: 
+ - "shlobj_core/IDListContainerIsConsistent"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

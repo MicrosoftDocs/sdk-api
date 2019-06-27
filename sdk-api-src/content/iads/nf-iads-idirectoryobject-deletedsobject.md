@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteDSObject, DeleteDSObject method [ADSI], DeleteDSObject method [ADSI],IDirectoryObject interface, IDirectoryObject interface [ADSI],DeleteDSObject method, IDirectoryObject.DeleteDSObject, IDirectoryObject::DeleteDSObject, _ds_idirectoryobject_deletedsobject, adsi.idirectoryobject__deletedsobject, adsi.idirectoryobject_deletedsobject, iads/IDirectoryObject::DeleteDSObject
 ms.topic: method
-f1_keywords: ["iads/IDirectoryObject.DeleteDSObject"]
+f1_keywords: 
+ - "iads/IDirectoryObject.DeleteDSObject"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

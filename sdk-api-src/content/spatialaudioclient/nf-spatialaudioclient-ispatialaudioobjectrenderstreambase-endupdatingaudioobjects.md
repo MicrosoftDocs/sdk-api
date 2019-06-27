@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndUpdatingAudioObjects, EndUpdatingAudioObjects method [Core Audio], EndUpdatingAudioObjects method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, ISpatialAudioObjectRenderStreamBase interface [Core Audio],EndUpdatingAudioObjects method, ISpatialAudioObjectRenderStreamBase.EndUpdatingAudioObjects, ISpatialAudioObjectRenderStreamBase::EndUpdatingAudioObjects, coreaudio.ispatialaudioobjectrenderstream_endupdatingaudioobjects, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::EndUpdatingAudioObjects
 ms.topic: method
-f1_keywords: ["spatialaudioclient/ISpatialAudioObjectRenderStreamBase.EndUpdatingAudioObjects"]
+f1_keywords: 
+ - "spatialaudioclient/ISpatialAudioObjectRenderStreamBase.EndUpdatingAudioObjects"
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

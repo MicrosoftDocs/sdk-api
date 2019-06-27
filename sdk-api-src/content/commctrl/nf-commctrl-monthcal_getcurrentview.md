@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MonthCal_GetCurrentView, MonthCal_GetCurrentView macro [Windows Controls], _shell_MonthCal_GetCurrentView, _shell_MonthCal_GetCurrentView_cpp, commctrl/MonthCal_GetCurrentView, controls.MonthCal_GetCurrentView, controls._shell_MonthCal_GetCurrentView
 ms.topic: macro
-f1_keywords: ["commctrl/MonthCal_GetCurrentView"]
+f1_keywords: 
+ - "commctrl/MonthCal_GetCurrentView"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

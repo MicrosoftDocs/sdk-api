@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UrlHash, UrlHash function [Windows Shell], UrlHashA, UrlHashW, _win32_UrlHash, shell.UrlHash, shlwapi/UrlHash, shlwapi/UrlHashA, shlwapi/UrlHashW
 ms.topic: function
-f1_keywords: ["shlwapi/UrlHash"]
+f1_keywords: 
+ - "shlwapi/UrlHash"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_TEXT_ALIGNMENT, DWRITE_TEXT_ALIGNMENT enumeration [Direct Write], DWRITE_TEXT_ALIGNMENT_CENTER, DWRITE_TEXT_ALIGNMENT_JUSTIFIED, DWRITE_TEXT_ALIGNMENT_LEADING, DWRITE_TEXT_ALIGNMENT_TRAILING, directwrite.dwrite_text_alignment, dwrite/DWRITE_TEXT_ALIGNMENT, dwrite/DWRITE_TEXT_ALIGNMENT_CENTER, dwrite/DWRITE_TEXT_ALIGNMENT_JUSTIFIED, dwrite/DWRITE_TEXT_ALIGNMENT_LEADING, dwrite/DWRITE_TEXT_ALIGNMENT_TRAILING
 ms.topic: enum
-f1_keywords: ["dwrite/DWRITE_TEXT_ALIGNMENT"]
+f1_keywords: 
+ - "dwrite/DWRITE_TEXT_ALIGNMENT"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

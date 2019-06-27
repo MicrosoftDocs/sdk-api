@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CAStoreTypeWStr property [Security], CAStoreTypeWStr property [Security],IEnroll interface, IEnroll interface [Security],CAStoreTypeWStr property, IEnroll.CAStoreTypeWStr, IEnroll.put_CAStoreTypeWStr, IEnroll::CAStoreTypeWStr, IEnroll::get_CAStoreTypeWStr, IEnroll::put_CAStoreTypeWStr, put_CAStoreTypeWStr, security.ienroll4_castoretypewstr, sz_CERT_STORE_PROV_SYSTEM_W, xenroll/IEnroll::CAStoreTypeWStr, xenroll/IEnroll::get_CAStoreTypeWStr, xenroll/IEnroll::put_CAStoreTypeWStr
 ms.topic: method
-f1_keywords: ["xenroll/IEnroll.CAStoreTypeWStr"]
+f1_keywords: 
+ - "xenroll/IEnroll.CAStoreTypeWStr"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

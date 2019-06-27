@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileDialogEvents interface [Windows Shell],OnFileOk method, IFileDialogEvents.OnFileOk, IFileDialogEvents::OnFileOk, OnFileOk, OnFileOk method [Windows Shell], OnFileOk method [Windows Shell],IFileDialogEvents interface, shell.IFileDialogEvents_OnFileOk, shell_IFileDialogEvents_OnFileOk, shobjidl_core/IFileDialogEvents::OnFileOk
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileDialogEvents.OnFileOk"]
+f1_keywords: 
+ - "shobjidl_core/IFileDialogEvents.OnFileOk"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

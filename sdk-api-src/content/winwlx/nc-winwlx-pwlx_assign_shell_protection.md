@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWLX_ASSIGN_SHELL_PROTECTION, PWLX_ASSIGN_SHELL_PROTECTION callback, WlxAssignShellProtection, WlxAssignShellProtection callback function [Security], _gina_wlxassignshellprotection, security.wlxassignshellprotection, winwlx/WlxAssignShellProtection
 ms.topic: callback
-f1_keywords: ["winwlx/WlxAssignShellProtection"]
+f1_keywords: 
+ - "winwlx/WlxAssignShellProtection"
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

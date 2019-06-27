@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DLGPROC, DLGPROC callback, DLGPROC callback function [Dialog Boxes], _win32_DialogProc, _win32_dialogproc_cpp, dlgbox.dialogproc, winui._win32_dialogproc, winuser/DLGPROC
 ms.topic: callback
-f1_keywords: ["winuser/DLGPROC"]
+f1_keywords: 
+ - "winuser/DLGPROC"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [Remote Desktop Services], Connect method [Remote Desktop Services],IRemoteDesktopClient interface, IRemoteDesktopClient interface [Remote Desktop Services],Connect method, IRemoteDesktopClient.Connect, IRemoteDesktopClient::Connect, rdpappcontainerclient/IRemoteDesktopClient::Connect, termserv.iremotedesktopclient_connect
 ms.topic: method
-f1_keywords: ["rdpappcontainerclient/IRemoteDesktopClient.Connect"]
+f1_keywords: 
+ - "rdpappcontainerclient/IRemoteDesktopClient.Connect"
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

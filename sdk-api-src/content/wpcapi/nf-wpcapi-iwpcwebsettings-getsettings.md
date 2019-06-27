@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSettings, GetSettings method, GetSettings method,IWPCWebSettings interface, IWPCWebSettings interface,GetSettings method, IWPCWebSettings.GetSettings, IWPCWebSettings::GetSettings, WPCFLAG_WEB_SETTING_DOWNLOADSBLOCKED, WPCFLAG_WEB_SETTING_NOTBLOCKED, parcon.iwpcwebsettings_getsettings, wpcapi/IWPCWebSettings::GetSettings
 ms.topic: method
-f1_keywords: ["wpcapi/IWPCWebSettings.GetSettings"]
+f1_keywords: 
+ - "wpcapi/IWPCWebSettings.GetSettings"
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

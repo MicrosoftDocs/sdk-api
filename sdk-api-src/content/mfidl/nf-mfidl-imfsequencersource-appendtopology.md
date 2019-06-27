@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 4ff20d56-6095-495d-89ee-9086c61da8ac, AppendTopology, AppendTopology method [Media Foundation], AppendTopology method [Media Foundation],IMFSequencerSource interface, IMFSequencerSource interface [Media Foundation],AppendTopology method, IMFSequencerSource.AppendTopology, IMFSequencerSource::AppendTopology, mf.imfsequencersource_appendtopology, mfidl/IMFSequencerSource::AppendTopology
 ms.topic: method
-f1_keywords: ["mfidl/IMFSequencerSource.AppendTopology"]
+f1_keywords: 
+ - "mfidl/IMFSequencerSource.AppendTopology"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

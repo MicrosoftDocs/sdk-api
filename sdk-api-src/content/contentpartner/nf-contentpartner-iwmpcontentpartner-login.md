@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],Login method, IWMPContentPartner.Login, IWMPContentPartner::Login, IWMPContentPartnerLogin, Login, Login method [Windows Media Player], Login method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::Login, wmp.iwmpcontentpartner_login
 ms.topic: method
-f1_keywords: ["contentpartner/IWMPContentPartner.Login"]
+f1_keywords: 
+ - "contentpartner/IWMPContentPartner.Login"
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

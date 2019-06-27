@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CommitChanges, CommitChanges method [Windows Contacts], CommitChanges method [Windows Contacts],IContact interface, IContact interface [Windows Contacts],CommitChanges method, IContact.CommitChanges, IContact::CommitChanges, _wincontacts_IContact_CommitChanges, icontact/IContact::CommitChanges, wincontacts._wincontacts_IContact_CommitChanges
 ms.topic: method
-f1_keywords: ["icontact/IContact.CommitChanges"]
+f1_keywords: 
+ - "icontact/IContact.CommitChanges"
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

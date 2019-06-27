@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemContext interface [Windows Management Instrumentation],SetValue method, IWbemContext.SetValue, IWbemContext::SetValue, SetValue, SetValue method [Windows Management Instrumentation], SetValue method [Windows Management Instrumentation],IWbemContext interface, _hmm_iwbemcontext_setvalue, wbemcli/IWbemContext::SetValue, wmi.iwbemcontext_setvalue
 ms.topic: method
-f1_keywords: ["wbemcli/IWbemContext.SetValue"]
+f1_keywords: 
+ - "wbemcli/IWbemContext.SetValue"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

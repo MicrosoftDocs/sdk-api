@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWiaPropertyStorage, IWiaPropertyStorage interface [WIA], IWiaPropertyStorage interface [WIA],described, _wia_IWiaPropertyStorage, wia._wia_IWiaPropertyStorage, wia_xp/IWiaPropertyStorage
 ms.topic: interface
-f1_keywords: ["wia_xp/IWiaPropertyStorage"]
+f1_keywords: 
+ - "wia_xp/IWiaPropertyStorage"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

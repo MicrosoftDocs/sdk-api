@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetImageResource, GetImageResource method [XPS Documents and Packaging], GetImageResource method [XPS Documents and Packaging],IXpsOMImageBrush interface, IXpsOMImageBrush interface [XPS Documents and Packaging],GetImageResource method, IXpsOMImageBrush.GetImageResource, IXpsOMImageBrush::GetImageResource, xps.ixpsomimagebrush_getimageresource, xpsobjectmodel/IXpsOMImageBrush::GetImageResource
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMImageBrush.GetImageResource"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMImageBrush.GetImageResource"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

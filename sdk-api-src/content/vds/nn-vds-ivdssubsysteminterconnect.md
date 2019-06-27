@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystemInterconnect, IVdsSubSystemInterconnect interface, IVdsSubSystemInterconnect interface,described, base.ivdssubsysteminterconnect, vds/IVdsSubSystemInterconnect, vdshwprv/IVdsSubSystemInterconnect
 ms.topic: interface
-f1_keywords: ["vds/IVdsSubSystemInterconnect"]
+f1_keywords: 
+ - "vds/IVdsSubSystemInterconnect"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMWriterFileSink3 interface [windows Media Format],SetAutoIndexing method, IWMWriterFileSink3.SetAutoIndexing, IWMWriterFileSink3::SetAutoIndexing, IWMWriterFileSink3SetAutoIndexing, SetAutoIndexing, SetAutoIndexing method [windows Media Format], SetAutoIndexing method [windows Media Format],IWMWriterFileSink3 interface, wmformat.iwmwriterfilesink3_setautoindexing, wmsdkidl/IWMWriterFileSink3::SetAutoIndexing
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriterFileSink3.SetAutoIndexing"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriterFileSink3.SetAutoIndexing"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

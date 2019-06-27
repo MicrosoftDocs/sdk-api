@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],Restore method, Graphics.Restore, Graphics::Restore, Restore, Restore method [GDI+], Restore method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_Restore_gstate_, gdiplus._gdiplus_CLASS_Graphics_Restore_gstate_
 ms.topic: method
-f1_keywords: ["gdiplusgraphics/Graphics.Restore"]
+f1_keywords: 
+ - "gdiplusgraphics/Graphics.Restore"
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

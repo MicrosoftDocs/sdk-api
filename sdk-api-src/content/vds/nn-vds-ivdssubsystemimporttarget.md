@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystemImportTarget, IVdsSubSystemImportTarget interface [VDS], IVdsSubSystemImportTarget interface [VDS],described, base.ivdssubsystemimporttarget, vds/IVdsSubSystemImportTarget
 ms.topic: interface
-f1_keywords: ["vds/IVdsSubSystemImportTarget"]
+f1_keywords: 
+ - "vds/IVdsSubSystemImportTarget"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

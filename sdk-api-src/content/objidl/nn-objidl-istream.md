@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStream, IStream interface [Structured Storage], IStream interface [Structured Storage],described, _stg_istream, objidl/IStream, stg.istream
 ms.topic: interface
-f1_keywords: ["objidl/IStream"]
+f1_keywords: 
+ - "objidl/IStream"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

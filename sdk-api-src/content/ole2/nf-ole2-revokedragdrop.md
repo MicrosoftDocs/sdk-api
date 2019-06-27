@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RevokeDragDrop, RevokeDragDrop function [COM], _ole_RevokeDragDrop, com.revokedragdrop, ole2/RevokeDragDrop
 ms.topic: function
-f1_keywords: ["ole2/RevokeDragDrop"]
+f1_keywords: 
+ - "ole2/RevokeDragDrop"
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

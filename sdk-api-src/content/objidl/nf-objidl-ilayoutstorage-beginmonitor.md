@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginMonitor, BeginMonitor method [Structured Storage], BeginMonitor method [Structured Storage],ILayoutStorage interface, ILayoutStorage interface [Structured Storage],BeginMonitor method, ILayoutStorage.BeginMonitor, ILayoutStorage::BeginMonitor, _stg_ilayoutstorage_beginmonitor, objidl/ILayoutStorage::BeginMonitor, stg.ilayoutstorage_beginmonitor
 ms.topic: method
-f1_keywords: ["objidl/ILayoutStorage.BeginMonitor"]
+f1_keywords: 
+ - "objidl/ILayoutStorage.BeginMonitor"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

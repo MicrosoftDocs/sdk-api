@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFDLNASinkInit interface [Media Foundation],Initialize method, IMFDLNASinkInit.Initialize, IMFDLNASinkInit::Initialize, Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation],IMFDLNASinkInit interface, mf.imfdlnasinkinit_initialize, mfmp2dlna/IMFDLNASinkInit::Initialize
 ms.topic: method
-f1_keywords: ["mfmp2dlna/IMFDLNASinkInit.Initialize"]
+f1_keywords: 
+ - "mfmp2dlna/IMFDLNASinkInit.Initialize"
 req.header: mfmp2dlna.h
 req.include-header: 
 req.target-type: Windows

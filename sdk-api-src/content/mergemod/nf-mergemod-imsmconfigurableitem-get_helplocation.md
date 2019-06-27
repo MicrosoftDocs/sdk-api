@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMsmConfigurableItem interface,get_HelpLocation method, IMsmConfigurableItem.get_HelpLocation, IMsmConfigurableItem::get_HelpLocation, _msi_get_helplocation_function, get_HelpLocation, get_HelpLocation method, get_HelpLocation method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_HelpLocation, setup.imsmconfigurableitem_get_helplocation
 ms.topic: method
-f1_keywords: ["mergemod/IMsmConfigurableItem.get_HelpLocation"]
+f1_keywords: 
+ - "mergemod/IMsmConfigurableItem.get_HelpLocation"
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

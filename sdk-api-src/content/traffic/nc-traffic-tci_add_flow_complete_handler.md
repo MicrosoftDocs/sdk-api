@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClAddFlowComplete, ClAddFlowComplete callback, ClAddFlowComplete callback function [QOS], TCI_ADD_FLOW_COMPLETE_HANDLER, TCI_ADD_FLOW_COMPLETE_HANDLER callback function [QOS], _gqos_claddflowcomplete, qos.claddflowcomplete, traffic/ClAddFlowComplete
 ms.topic: callback
-f1_keywords: ["traffic/TCI_ADD_FLOW_COMPLETE_HANDLER"]
+f1_keywords: 
+ - "traffic/TCI_ADD_FLOW_COMPLETE_HANDLER"
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

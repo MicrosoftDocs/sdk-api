@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleCreatePropertyFrameIndirect, OleCreatePropertyFrameIndirect function [COM], _ctrl_OleCreatePropertyFrameIndirect, com.olecreatepropertyframeindirect, olectl/OleCreatePropertyFrameIndirect
 ms.topic: function
-f1_keywords: ["olectl/OleCreatePropertyFrameIndirect"]
+f1_keywords: 
+ - "olectl/OleCreatePropertyFrameIndirect"
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows

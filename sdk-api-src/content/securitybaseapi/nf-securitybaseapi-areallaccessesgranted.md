@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AreAllAccessesGranted, AreAllAccessesGranted function [Security], _win32_areallaccessesgranted, security.areallaccessesgranted, securitybaseapi/AreAllAccessesGranted
 ms.topic: function
-f1_keywords: ["securitybaseapi/AreAllAccessesGranted"]
+f1_keywords: 
+ - "securitybaseapi/AreAllAccessesGranted"
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],Preroll method, IWMReaderAdvanced2.Preroll, IWMReaderAdvanced2::Preroll, IWMReaderAdvanced2Preroll, Preroll, Preroll method [windows Media Format], Preroll method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_preroll, wmsdkidl/IWMReaderAdvanced2::Preroll
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderAdvanced2.Preroll"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderAdvanced2.Preroll"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WindowsTrimStringEnd, WindowsTrimStringEnd function [Windows Runtime], winrt.windowstrimstringend, winstring/WindowsTrimStringEnd
 ms.topic: function
-f1_keywords: ["winstring/WindowsTrimStringEnd"]
+f1_keywords: 
+ - "winstring/WindowsTrimStringEnd"
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

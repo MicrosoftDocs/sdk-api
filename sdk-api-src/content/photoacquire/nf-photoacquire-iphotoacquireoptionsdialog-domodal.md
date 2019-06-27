@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DoModal, DoModal method [Picture Acquisition], DoModal method [Picture Acquisition],IPhotoAcquireOptionsDialog interface, IPhotoAcquireOptionsDialog interface [Picture Acquisition],DoModal method, IPhotoAcquireOptionsDialog.DoModal, IPhotoAcquireOptionsDialog::DoModal, IPhotoAcquireOptionsDialogDoModal, photoacquire/IPhotoAcquireOptionsDialog::DoModal, picacq.iphotoacquireoptionsdialog_domodal
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoAcquireOptionsDialog.DoModal"]
+f1_keywords: 
+ - "photoacquire/IPhotoAcquireOptionsDialog.DoModal"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBITSExtensionSetup, IBITSExtensionSetup interface [BITS], IBITSExtensionSetup interface [BITS],described, _drz_ibitsextensionsetup, bits.ibitsextensionsetup, bitscfg/IBITSExtensionSetup
 ms.topic: interface
-f1_keywords: ["bitscfg/IBITSExtensionSetup"]
+f1_keywords: 
+ - "bitscfg/IBITSExtensionSetup"
 req.header: bitscfg.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: KEY_WOW64_32KEY, KEY_WOW64_64KEY, RegDeleteKeyTransacted, RegDeleteKeyTransacted function, RegDeleteKeyTransactedA, RegDeleteKeyTransactedW, base.regdeletekeytransacted, winreg/RegDeleteKeyTransacted, winreg/RegDeleteKeyTransactedA, winreg/RegDeleteKeyTransactedW
 ms.topic: function
-f1_keywords: ["winreg/RegDeleteKeyTransacted"]
+f1_keywords: 
+ - "winreg/RegDeleteKeyTransacted"
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

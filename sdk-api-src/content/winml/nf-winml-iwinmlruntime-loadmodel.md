@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWinMLRuntime interface,LoadModel method, IWinMLRuntime.LoadModel, IWinMLRuntime::LoadModel, LoadModel, LoadModel method, LoadModel method,IWinMLRuntime interface, MachineLearning.iwinmlruntime_loadmodel, winml/IWinMLRuntime::LoadModel
 ms.topic: method
-f1_keywords: ["winml/IWinMLRuntime.LoadModel"]
+f1_keywords: 
+ - "winml/IWinMLRuntime.LoadModel"
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PADS_HOLD, ADS_HOLD, ADS_HOLD structure [ADSI], PADS_HOLD, PADS_HOLD structure pointer [ADSI], _ds_ads_hold, adsi.ads__hold, adsi.ads_hold, iads/ADS_HOLD, iads/PADS_HOLD"
 ms.topic: struct
-f1_keywords: ["iads/ADS_HOLD"]
+f1_keywords: 
+ - "iads/ADS_HOLD"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

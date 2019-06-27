@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ldap.ldap_stop_tls_s, ldap_stop_tls_s, ldap_stop_tls_s function [LDAP], winldap/ldap_stop_tls_s
 ms.topic: function
-f1_keywords: ["winldap/ldap_stop_tls_s"]
+f1_keywords: 
+ - "winldap/ldap_stop_tls_s"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

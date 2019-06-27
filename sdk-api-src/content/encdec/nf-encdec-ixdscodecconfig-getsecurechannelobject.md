@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSecureChannelObject, GetSecureChannelObject method [Microsoft TV Technologies], GetSecureChannelObject method [Microsoft TV Technologies],IXDSCodecConfig interface, IXDSCodecConfig interface [Microsoft TV Technologies],GetSecureChannelObject method, IXDSCodecConfig.GetSecureChannelObject, IXDSCodecConfig::GetSecureChannelObject, IXDSCodecConfigGetSecureChannelObject, encdec/IXDSCodecConfig::GetSecureChannelObject, mstv.ixdscodecconfig_getsecurechannelobject
 ms.topic: method
-f1_keywords: ["encdec/IXDSCodecConfig.GetSecureChannelObject"]
+f1_keywords: 
+ - "encdec/IXDSCodecConfig.GetSecureChannelObject"
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

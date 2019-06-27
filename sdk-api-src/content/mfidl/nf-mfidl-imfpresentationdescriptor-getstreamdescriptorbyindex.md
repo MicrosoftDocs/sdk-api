@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1db28049-cd62-4b1b-932b-b4d4e12fd671, GetStreamDescriptorByIndex, GetStreamDescriptorByIndex method [Media Foundation], GetStreamDescriptorByIndex method [Media Foundation],IMFPresentationDescriptor interface, IMFPresentationDescriptor interface [Media Foundation],GetStreamDescriptorByIndex method, IMFPresentationDescriptor.GetStreamDescriptorByIndex, IMFPresentationDescriptor::GetStreamDescriptorByIndex, mf.imfpresentationdescriptor_getstreamdescriptorbyindex, mfidl/IMFPresentationDescriptor::GetStreamDescriptorByIndex
 ms.topic: method
-f1_keywords: ["mfidl/IMFPresentationDescriptor.GetStreamDescriptorByIndex"]
+f1_keywords: 
+ - "mfidl/IMFPresentationDescriptor.GetStreamDescriptorByIndex"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

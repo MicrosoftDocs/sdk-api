@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckConsistency, CheckConsistency method [Windows Server Backup], CheckConsistency method [Windows Server Backup],IWsbApplicationBackupSupport interface, IWsbApplicationBackupSupport interface [Windows Server Backup],CheckConsistency method, IWsbApplicationBackupSupport.CheckConsistency, IWsbApplicationBackupSupport::CheckConsistency, wsb.iwsbapplicationbackupsupport_checkconsistency, wsbapp/IWsbApplicationBackupSupport::CheckConsistency
 ms.topic: method
-f1_keywords: ["wsbapp/IWsbApplicationBackupSupport.CheckConsistency"]
+f1_keywords: 
+ - "wsbapp/IWsbApplicationBackupSupport.CheckConsistency"
 req.header: wsbapp.h
 req.include-header: 
 req.target-type: Windows

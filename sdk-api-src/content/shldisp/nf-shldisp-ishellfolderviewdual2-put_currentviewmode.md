@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewDual2 interface [Windows Shell],put_CurrentViewMode method, IShellFolderViewDual2.put_CurrentViewMode, IShellFolderViewDual2::put_CurrentViewMode, _shell_IShellFolderViewDual2_put_CurrentViewMode, put_CurrentViewMode, put_CurrentViewMode method [Windows Shell], put_CurrentViewMode method [Windows Shell],IShellFolderViewDual2 interface, shell.IShellFolderViewDual2_put_CurrentViewMode, shldisp/IShellFolderViewDual2::put_CurrentViewMode
 ms.topic: method
-f1_keywords: ["shldisp/IShellFolderViewDual2.put_CurrentViewMode"]
+f1_keywords: 
+ - "shldisp/IShellFolderViewDual2.put_CurrentViewMode"
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

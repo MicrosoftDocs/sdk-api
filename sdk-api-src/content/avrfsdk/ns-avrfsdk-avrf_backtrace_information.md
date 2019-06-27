@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PAVRF_BACKTRACE_INFORMATION, AVRF_BACKTRACE_INFORMATION, AVRF_BACKTRACE_INFORMATION structure [Windows API], avrfsdk/AVRF_BACKTRACE_INFORMATION, base.avrf_backtrace_information, winprog.avrf_backtrace_information"
 ms.topic: struct
-f1_keywords: ["avrfsdk/AVRF_BACKTRACE_INFORMATION"]
+f1_keywords: 
+ - "avrfsdk/AVRF_BACKTRACE_INFORMATION"
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows

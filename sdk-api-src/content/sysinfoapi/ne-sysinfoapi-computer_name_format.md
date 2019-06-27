@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COMPUTER_NAME_FORMAT, COMPUTER_NAME_FORMAT enumeration, ComputerNameDnsDomain, ComputerNameDnsFullyQualified, ComputerNameDnsHostname, ComputerNameMax, ComputerNameNetBIOS, ComputerNamePhysicalDnsDomain, ComputerNamePhysicalDnsFullyQualified, ComputerNamePhysicalDnsHostname, ComputerNamePhysicalNetBIOS, _COMPUTER_NAME_FORMAT, _win32_computer_name_format_str, base.computer_name_format_str, sysinfoapi/COMPUTER_NAME_FORMAT, sysinfoapi/ComputerNameDnsDomain, sysinfoapi/ComputerNameDnsFullyQualified, sysinfoapi/ComputerNameDnsHostname, sysinfoapi/ComputerNameMax, sysinfoapi/ComputerNameNetBIOS, sysinfoapi/ComputerNamePhysicalDnsDomain, sysinfoapi/ComputerNamePhysicalDnsFullyQualified, sysinfoapi/ComputerNamePhysicalDnsHostname, sysinfoapi/ComputerNamePhysicalNetBIOS
 ms.topic: enum
-f1_keywords: ["sysinfoapi/COMPUTER_NAME_FORMAT"]
+f1_keywords: 
+ - "sysinfoapi/COMPUTER_NAME_FORMAT"
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

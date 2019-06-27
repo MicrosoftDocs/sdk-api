@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MBN_PIN_INFO, MBN_PIN_INFO structure [Microsoft Broadband Networks], mbn.mbn_pin_info, mbnapi/MBN_PIN_INFO
 ms.topic: struct
-f1_keywords: ["mbnapi/MBN_PIN_INFO"]
+f1_keywords: 
+ - "mbnapi/MBN_PIN_INFO"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

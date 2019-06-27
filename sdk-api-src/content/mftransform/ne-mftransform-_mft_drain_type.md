@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8243b154-be93-4a81-9990-f022dc8cb736, MFT_DRAIN_NO_TAILS, MFT_DRAIN_PRODUCE_TAILS, _MFT_DRAIN_TYPE, _MFT_DRAIN_TYPE enumeration [Media Foundation], mf._mft_drain_type, mftransform/MFT_DRAIN_NO_TAILS, mftransform/MFT_DRAIN_PRODUCE_TAILS, mftransform/_MFT_DRAIN_TYPE
 ms.topic: enum
-f1_keywords: ["mftransform/_MFT_DRAIN_TYPE"]
+f1_keywords: 
+ - "mftransform/_MFT_DRAIN_TYPE"
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SizeofResource, SizeofResource function [Menus and Other Resources], _win32_SizeofResource, _win32_sizeofresource_cpp, libloaderapi/SizeofResource, menurc.sizeofresource, winui._win32_sizeofresource
 ms.topic: function
-f1_keywords: ["libloaderapi/SizeofResource"]
+f1_keywords: 
+ - "libloaderapi/SizeofResource"
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

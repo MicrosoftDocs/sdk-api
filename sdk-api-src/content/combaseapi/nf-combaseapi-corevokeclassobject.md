@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoRevokeClassObject, CoRevokeClassObject function [COM], _com_CoRevokeClassObject, com.corevokeclassobject, combaseapi/CoRevokeClassObject
 ms.topic: function
-f1_keywords: ["combaseapi/CoRevokeClassObject"]
+f1_keywords: 
+ - "combaseapi/CoRevokeClassObject"
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 3, NetLocalGroupAddMembers, NetLocalGroupAddMembers function [Network Management], _win32_netlocalgroupaddmembers, lmaccess/NetLocalGroupAddMembers, netmgmt.netlocalgroupaddmembers
 ms.topic: function
-f1_keywords: ["lmaccess/NetLocalGroupAddMembers"]
+f1_keywords: 
+ - "lmaccess/NetLocalGroupAddMembers"
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

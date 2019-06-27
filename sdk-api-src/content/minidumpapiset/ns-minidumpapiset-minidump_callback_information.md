@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMINIDUMP_CALLBACK_INFORMATION, MINIDUMP_CALLBACK_INFORMATION, MINIDUMP_CALLBACK_INFORMATION structure, PMINIDUMP_CALLBACK_INFORMATION, PMINIDUMP_CALLBACK_INFORMATION structure pointer, _MINIDUMP_CALLBACK_INFORMATION, _win32_minidump_callback_information_str, base.minidump_callback_information_str, minidumpapiset/MINIDUMP_CALLBACK_INFORMATION, minidumpapiset/PMINIDUMP_CALLBACK_INFORMATION"
 ms.topic: struct
-f1_keywords: ["minidumpapiset/MINIDUMP_CALLBACK_INFORMATION"]
+f1_keywords: 
+ - "minidumpapiset/MINIDUMP_CALLBACK_INFORMATION"
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

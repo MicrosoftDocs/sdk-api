@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SfcGetNextProtectedFile, SfcGetNextProtectedFile function [Setup API], _win32_sfcgetnextprotectedfile, setup.sfcgetnextprotectedfile, sfc/SfcGetNextProtectedFile
 ms.topic: function
-f1_keywords: ["sfc/SfcGetNextProtectedFile"]
+f1_keywords: 
+ - "sfc/SfcGetNextProtectedFile"
 req.header: sfc.h
 req.include-header: 
 req.target-type: Windows

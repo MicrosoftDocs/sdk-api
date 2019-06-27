@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_LUN_INFORMATION, VDS_LUN_INFORMATION structure [VDS], base.vds_lun_information, vdslun/_VDS_LUN_INFORMATION
 ms.topic: struct
-f1_keywords: ["vdslun/VDS_LUN_INFORMATION"]
+f1_keywords: 
+ - "vdslun/VDS_LUN_INFORMATION"
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers
 req.target-type: Windows

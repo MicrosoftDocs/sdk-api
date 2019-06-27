@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_Disconnect method, IWMSecureChannel.WMSC_Disconnect, IWMSecureChannel::WMSC_Disconnect, WMSC_Disconnect, WMSC_Disconnect method [windows Media Format], WMSC_Disconnect method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_disconnect, wmsecure/IWMSecureChannel::WMSC_Disconnect
 ms.topic: method
-f1_keywords: ["wmsecure/IWMSecureChannel.WMSC_Disconnect"]
+f1_keywords: 
+ - "wmsecure/IWMSecureChannel.WMSC_Disconnect"
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows

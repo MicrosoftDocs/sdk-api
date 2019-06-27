@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeClientBuffer, FreeClientBuffer callback function [Security], LSA_FREE_CLIENT_BUFFER, LSA_FREE_CLIENT_BUFFER callback, _lsa_freeclientbuffer, ntsecpkg/FreeClientBuffer, security.freeclientbuffer
 ms.topic: callback
-f1_keywords: ["ntsecpkg/FreeClientBuffer"]
+f1_keywords: 
+ - "ntsecpkg/FreeClientBuffer"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

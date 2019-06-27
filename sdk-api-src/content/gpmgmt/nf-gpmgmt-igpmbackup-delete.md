@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [GPMC], Delete method [GPMC],GPMBackup class, Delete method [GPMC],IGPMBackup interface, GPMBackup class [GPMC],Delete method, IGPMBackup interface [GPMC],Delete method, IGPMBackup.Delete, IGPMBackup::Delete, _win32_igpmbackup_delete, gpmc.igpmbackup_delete, gpmgmt/IGPMBackup::Delete
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMBackup.Delete"]
+f1_keywords: 
+ - "gpmgmt/IGPMBackup.Delete"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

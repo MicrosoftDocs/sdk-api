@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDTFilter interface [Microsoft TV Technologies],get_BlockUnRatedDelay method, IDTFilter.get_BlockUnRatedDelay, IDTFilter::get_BlockUnRatedDelay, IDTFilterget_BlockUnRatedDelay, encdec/IDTFilter::get_BlockUnRatedDelay, get_BlockUnRatedDelay, get_BlockUnRatedDelay method [Microsoft TV Technologies], get_BlockUnRatedDelay method [Microsoft TV Technologies],IDTFilter interface, mstv.idtfilter_get_blockunrateddelay
 ms.topic: method
-f1_keywords: ["encdec/IDTFilter.get_BlockUnRatedDelay"]
+f1_keywords: 
+ - "encdec/IDTFilter.get_BlockUnRatedDelay"
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

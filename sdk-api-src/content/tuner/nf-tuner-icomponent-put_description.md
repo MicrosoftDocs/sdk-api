@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComponent interface [Microsoft TV Technologies],put_Description method, IComponent.put_Description, IComponent::put_Description, IComponentput_Description, mstv.icomponent_put_description, put_Description, put_Description method [Microsoft TV Technologies], put_Description method [Microsoft TV Technologies],IComponent interface, tuner/IComponent::put_Description
 ms.topic: method
-f1_keywords: ["tuner/IComponent.put_Description"]
+f1_keywords: 
+ - "tuner/IComponent.put_Description"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

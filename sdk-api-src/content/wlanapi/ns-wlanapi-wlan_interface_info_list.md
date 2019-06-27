@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWLAN_INTERFACE_INFO_LIST, PWLAN_INTERFACE_INFO_LIST, PWLAN_INTERFACE_INFO_LIST structure pointer [NativeWIFI], WLAN_INTERFACE_INFO_LIST, WLAN_INTERFACE_INFO_LIST structure [NativeWIFI], nwifi.wlan_interface_info_list, wlanapi/PWLAN_INTERFACE_INFO_LIST, wlanapi/WLAN_INTERFACE_INFO_LIST"
 ms.topic: struct
-f1_keywords: ["wlanapi/WLAN_INTERFACE_INFO_LIST"]
+f1_keywords: 
+ - "wlanapi/WLAN_INTERFACE_INFO_LIST"
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

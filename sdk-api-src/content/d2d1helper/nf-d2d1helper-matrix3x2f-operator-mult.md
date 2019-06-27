@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1.Matrix3x2F.operator*, D2D1::Matrix3x2F::operator*, Matrix3x2F interface [Direct2D],operator* method, Matrix3x2F.operator*, Matrix3x2F.operator-mult, Matrix3x2F::operator*, Matrix3x2F::operator-mult, d2d1helper/Matrix3x2F::operator*, direct2d.matrix3x2f_operator_, operator*, operator* method [Direct2D], operator* method [Direct2D],Matrix3x2F interface
 ms.topic: method
-f1_keywords: ["d2d1helper/Matrix3x2F.operator*"]
+f1_keywords: 
+ - "d2d1helper/Matrix3x2F.operator*"
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

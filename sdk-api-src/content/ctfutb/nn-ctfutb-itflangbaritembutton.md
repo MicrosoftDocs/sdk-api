@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemButton, ITfLangBarItemButton interface [Text Services Framework], ITfLangBarItemButton interface [Text Services Framework],described, _tsf_itflangbaritembutton_ref, ctfutb/ITfLangBarItemButton, tsf.itflangbaritembutton
 ms.topic: interface
-f1_keywords: ["ctfutb/ITfLangBarItemButton"]
+f1_keywords: 
+ - "ctfutb/ITfLangBarItemButton"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

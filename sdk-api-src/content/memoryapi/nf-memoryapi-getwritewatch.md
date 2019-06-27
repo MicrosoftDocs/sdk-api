@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWriteWatch, GetWriteWatch function, _win32_getwritewatch, base.getwritewatch, winbase/GetWriteWatch
 ms.topic: function
-f1_keywords: ["memoryapi/GetWriteWatch"]
+f1_keywords: 
+ - "memoryapi/GetWriteWatch"
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

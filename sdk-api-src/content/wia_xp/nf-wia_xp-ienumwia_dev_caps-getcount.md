@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [WIA], GetCount method [WIA],IEnumWIA_DEV_CAPS interface, IEnumWIA_DEV_CAPS interface [WIA],GetCount method, IEnumWIA_DEV_CAPS.GetCount, IEnumWIA_DEV_CAPS::GetCount, _wia_IEnumWIA_DEV_CAPS_GetCount, wia._wia_IEnumWIA_DEV_CAPS_GetCount, wia_xp/IEnumWIA_DEV_CAPS::GetCount
 ms.topic: method
-f1_keywords: ["wia_xp/IEnumWIA_DEV_CAPS.GetCount"]
+f1_keywords: 
+ - "wia_xp/IEnumWIA_DEV_CAPS.GetCount"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

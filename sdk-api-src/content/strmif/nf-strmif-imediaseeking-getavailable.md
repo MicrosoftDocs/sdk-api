@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAvailable, GetAvailable method [DirectShow], GetAvailable method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetAvailable method, IMediaSeeking.GetAvailable, IMediaSeeking::GetAvailable, IMediaSeekingGetAvailable, dshow.imediaseeking_getavailable, strmif/IMediaSeeking::GetAvailable
 ms.topic: method
-f1_keywords: ["strmif/IMediaSeeking.GetAvailable"]
+f1_keywords: 
+ - "strmif/IMediaSeeking.GetAvailable"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

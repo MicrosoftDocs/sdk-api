@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCREATE_CLUSTER_CONFIG, CREATE_CLUSTER_CONFIG, CREATE_CLUSTER_CONFIG structure [Failover Cluster], PCREATE_CLUSTER_CONFIG, PCREATE_CLUSTER_CONFIG structure pointer [Failover Cluster], clusapi/CREATE_CLUSTER_CONFIG, clusapi/PCREATE_CLUSTER_CONFIG, mscs.create_cluster_config"
 ms.topic: struct
-f1_keywords: ["clusapi/CREATE_CLUSTER_CONFIG"]
+f1_keywords: 
+ - "clusapi/CREATE_CLUSTER_CONFIG"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

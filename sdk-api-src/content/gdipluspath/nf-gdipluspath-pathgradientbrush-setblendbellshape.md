@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush class [GDI+],SetBlendBellShape method, PathGradientBrush.SetBlendBellShape, PathGradientBrush::SetBlendBellShape, SetBlendBellShape, SetBlendBellShape method [GDI+], SetBlendBellShape method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_SetBlendBellShape_focus_scale_, gdiplus._gdiplus_CLASS_PathGradientBrush_SetBlendBellShape_focus_scale_
 ms.topic: method
-f1_keywords: ["gdipluspath/PathGradientBrush.SetBlendBellShape"]
+f1_keywords: 
+ - "gdipluspath/PathGradientBrush.SetBlendBellShape"
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

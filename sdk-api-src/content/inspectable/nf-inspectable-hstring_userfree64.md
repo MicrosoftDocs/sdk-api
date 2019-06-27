@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HSTRING_UserFree64, HSTRING_UserFree64 function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserFree64, winrt.hstring_userfree64
 ms.topic: function
-f1_keywords: ["inspectable/HSTRING_UserFree64"]
+f1_keywords: 
+ - "inspectable/HSTRING_UserFree64"
 req.header: inspectable.h
 req.include-header: Winstring.h, Inspectable.h
 req.target-type: Windows

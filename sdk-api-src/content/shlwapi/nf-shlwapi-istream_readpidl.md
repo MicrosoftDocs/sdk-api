@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStream_ReadPidl, IStream_ReadPidl function [Windows Shell], _shell_IStream_ReadPidl, shell.IStream_ReadPidl, shlwapi/IStream_ReadPidl
 ms.topic: function
-f1_keywords: ["shlwapi/IStream_ReadPidl"]
+f1_keywords: 
+ - "shlwapi/IStream_ReadPidl"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PerfQueryCounterInfo, PerfQueryCounterInfo function [Perf], perf.perfquerycounterinfo, perflib/PerfQueryCounterInfo
 ms.topic: function
-f1_keywords: ["perflib/PerfQueryCounterInfo"]
+f1_keywords: 
+ - "perflib/PerfQueryCounterInfo"
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

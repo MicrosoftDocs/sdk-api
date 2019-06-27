@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptExportPublicKeyInfo, CryptExportPublicKeyInfo function [Security], _crypto2_cryptexportpublickeyinfo, security.cryptexportpublickeyinfo, wincrypt/CryptExportPublicKeyInfo
 ms.topic: function
-f1_keywords: ["wincrypt/CryptExportPublicKeyInfo"]
+f1_keywords: 
+ - "wincrypt/CryptExportPublicKeyInfo"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

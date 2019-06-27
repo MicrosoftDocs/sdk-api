@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::IsVisible
 ms.topic: language-reference
-f1_keywords: ["gdipluspath/GraphicsPath::IsVisible"]
+f1_keywords: 
+ - "gdipluspath/GraphicsPath::IsVisible"
 targetos: Windows
 product: Windows
 req.assembly: 

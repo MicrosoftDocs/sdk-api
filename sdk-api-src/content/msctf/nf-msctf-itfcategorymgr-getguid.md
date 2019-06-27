@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGUID, GetGUID method [Text Services Framework], GetGUID method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],GetGUID method, ITfCategoryMgr.GetGUID, ITfCategoryMgr::GetGUID, _tsf_itfcategorymgr_getguid_ref, msctf/ITfCategoryMgr::GetGUID, tsf.itfcategorymgr_getguid
 ms.topic: method
-f1_keywords: ["msctf/ITfCategoryMgr.GetGUID"]
+f1_keywords: 
+ - "msctf/ITfCategoryMgr.GetGUID"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

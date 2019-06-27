@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HrtfDirectivityCardioid, HrtfDirectivityCardioid structure [XAudio2 Audio Mixing APIs], PHrtfDirectivityCardioid, PHrtfDirectivityCardioid structure pointer [XAudio2 Audio Mixing APIs], hrtfapoapi/HrtfDirectivityCardioid, hrtfapoapi/PHrtfDirectivityCardioid, xaudio2.hrtfdirectivitycardioid
 ms.topic: struct
-f1_keywords: ["hrtfapoapi/HrtfDirectivityCardioid"]
+f1_keywords: 
+ - "hrtfapoapi/HrtfDirectivityCardioid"
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows

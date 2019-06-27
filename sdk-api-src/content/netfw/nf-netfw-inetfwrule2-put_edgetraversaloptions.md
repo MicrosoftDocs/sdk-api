@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EdgeTraversalOptions property [ICS/ICF], EdgeTraversalOptions property [ICS/ICF],INetFwRule2 interface, INetFwRule2 interface [ICS/ICF],EdgeTraversalOptions property, INetFwRule2.EdgeTraversalOptions, INetFwRule2.put_EdgeTraversalOptions, INetFwRule2::EdgeTraversalOptions, INetFwRule2::get_EdgeTraversalOptions, INetFwRule2::put_EdgeTraversalOptions, ics.inetfwrule2_edgetraversaloptions, netfw/INetFwRule2::EdgeTraversalOptions, netfw/INetFwRule2::get_EdgeTraversalOptions, netfw/INetFwRule2::put_EdgeTraversalOptions, put_EdgeTraversalOptions
 ms.topic: method
-f1_keywords: ["netfw/INetFwRule2.EdgeTraversalOptions"]
+f1_keywords: 
+ - "netfw/INetFwRule2.EdgeTraversalOptions"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

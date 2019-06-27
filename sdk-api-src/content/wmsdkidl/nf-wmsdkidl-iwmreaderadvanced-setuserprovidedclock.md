@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced interface [windows Media Format],SetUserProvidedClock method, IWMReaderAdvanced.SetUserProvidedClock, IWMReaderAdvanced::SetUserProvidedClock, IWMReaderAdvancedSetUserProvidedClock, SetUserProvidedClock, SetUserProvidedClock method [windows Media Format], SetUserProvidedClock method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_setuserprovidedclock, wmsdkidl/IWMReaderAdvanced::SetUserProvidedClock
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderAdvanced.SetUserProvidedClock"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderAdvanced.SetUserProvidedClock"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

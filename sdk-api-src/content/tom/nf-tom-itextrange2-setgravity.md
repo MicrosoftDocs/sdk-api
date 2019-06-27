@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetGravity method, ITextRange2.SetGravity, ITextRange2::SetGravity, SetGravity, SetGravity method [Windows Controls], SetGravity method [Windows Controls],ITextRange2 interface, controls.itextrange2_setgravity, tom/ITextRange2::SetGravity, tomGravityBack, tomGravityFore, tomGravityIn, tomGravityOut, tomGravityUI
 ms.topic: method
-f1_keywords: ["tom/ITextRange2.SetGravity"]
+f1_keywords: 
+ - "tom/ITextRange2.SetGravity"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSubStream, IEnumSubStream interface [TAPI 2.2], IEnumSubStream interface [TAPI 2.2],described, _tapi3_ienumsubstream, tapi3.ienumsubstream, tapi3if/IEnumSubStream
 ms.topic: interface
-f1_keywords: ["tapi3if/IEnumSubStream"]
+f1_keywords: 
+ - "tapi3if/IEnumSubStream"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

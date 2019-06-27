@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsCreateHeap, WsCreateHeap function [Web Services for Windows], webservices/WsCreateHeap, wsw.wscreateheap
 ms.topic: function
-f1_keywords: ["webservices/WsCreateHeap"]
+f1_keywords: 
+ - "webservices/WsCreateHeap"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAttributeValues, GetAttributeValues method [Windows Accessibility], GetAttributeValues method [Windows Accessibility],IUIAutomationTextRange3 interface, IUIAutomationTextRange3 interface [Windows Accessibility],GetAttributeValues method, IUIAutomationTextRange3.GetAttributeValues, IUIAutomationTextRange3::GetAttributeValues, uiautomationclient/IUIAutomationTextRange3::GetAttributeValues, winauto.uiauto_IUIAutomationTextRange3_GetAttributeValues
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTextRange3.GetAttributeValues"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTextRange3.GetAttributeValues"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

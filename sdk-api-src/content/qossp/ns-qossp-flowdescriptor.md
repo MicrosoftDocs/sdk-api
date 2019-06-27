@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPFLOWDESCRIPTOR, *LPFLOWDESCRIPTOR structure [QOS], FLOWDESCRIPTOR, FLOWDESCRIPTOR structure [QOS], qos.flowdescriptor, qossp/*LPFLOWDESCRIPTOR, qossp/FLOWDESCRIPTOR"
 ms.topic: struct
-f1_keywords: ["qossp/FLOWDESCRIPTOR"]
+f1_keywords: 
+ - "qossp/FLOWDESCRIPTOR"
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows

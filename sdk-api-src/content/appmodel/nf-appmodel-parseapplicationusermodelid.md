@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ParseApplicationUserModelId, ParseApplicationUserModelId function [App packaging and management], appmodel/ParseApplicationUserModelId, appxpkg.parseapplicationusermodelid
 ms.topic: function
-f1_keywords: ["appmodel/ParseApplicationUserModelId"]
+f1_keywords: 
+ - "appmodel/ParseApplicationUserModelId"
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

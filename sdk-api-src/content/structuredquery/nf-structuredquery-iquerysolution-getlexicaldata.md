@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLexicalData, GetLexicalData method [search], GetLexicalData method [search],IQuerySolution interface, IQuerySolution interface [search],GetLexicalData method, IQuerySolution.GetLexicalData, IQuerySolution::GetLexicalData, _search_IQuerySolution_GetLexicalData, search._search_IQuerySolution_GetLexicalData, structuredquery/IQuerySolution::GetLexicalData
 ms.topic: method
-f1_keywords: ["structuredquery/IQuerySolution.GetLexicalData"]
+f1_keywords: 
+ - "structuredquery/IQuerySolution.GetLexicalData"
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

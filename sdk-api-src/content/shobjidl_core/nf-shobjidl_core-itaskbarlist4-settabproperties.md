@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList4 interface [Windows Shell],SetTabProperties method, ITaskbarList4.SetTabProperties, ITaskbarList4::SetTabProperties, SetTabProperties, SetTabProperties method [Windows Shell], SetTabProperties method [Windows Shell],ITaskbarList4 interface, _shell_ITaskbarList4_SetTabProperties, shell.ITaskbarList4_SetTabProperties, shobjidl_core/ITaskbarList4::SetTabProperties
 ms.topic: method
-f1_keywords: ["shobjidl_core/ITaskbarList4.SetTabProperties"]
+f1_keywords: 
+ - "shobjidl_core/ITaskbarList4.SetTabProperties"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

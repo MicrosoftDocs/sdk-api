@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DetectAutoProxyUrl, DetectAutoProxyUrl function [WinINet], PROXY_AUTO_DETECT_TYPE_DHCP, PROXY_AUTO_DETECT_TYPE_DNS_A, _inet_detectautoproxyurl_function, wininet.detectautoproxyurl, winineti/DetectAutoProxyUrl
 ms.topic: function
-f1_keywords: ["winineti/DetectAutoProxyUrl"]
+f1_keywords: 
+ - "winineti/DetectAutoProxyUrl"
 req.header: winineti.h
 req.include-header: Wininet.h
 req.target-type: Windows

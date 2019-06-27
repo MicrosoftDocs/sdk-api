@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager2 interface [search],PrioritizeMatchingURLs method, ISearchCatalogManager2.PrioritizeMatchingURLs, ISearchCatalogManager2::PrioritizeMatchingURLs, PrioritizeMatchingURLs, PrioritizeMatchingURLs method [search], PrioritizeMatchingURLs method [search],ISearchCatalogManager2 interface, _search_ISearchCatalogManager2_PrioritizeMatchingURLs, search._search_ISearchCatalogManager2_PrioritizeMatchingURLs, searchapi/ISearchCatalogManager2::PrioritizeMatchingURLs
 ms.topic: method
-f1_keywords: ["searchapi/ISearchCatalogManager2.PrioritizeMatchingURLs"]
+f1_keywords: 
+ - "searchapi/ISearchCatalogManager2.PrioritizeMatchingURLs"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MC_HEIGHT, MC_SIZE_TYPE, MC_SIZE_TYPE , MC_SIZE_TYPE enumeration [Monitor Configuration], MC_WIDTH, highlevelmonitorconfigurationapi/MC_HEIGHT, highlevelmonitorconfigurationapi/MC_SIZE_TYPE, highlevelmonitorconfigurationapi/MC_WIDTH, monitor.mc_size_type
 ms.topic: enum
-f1_keywords: ["highlevelmonitorconfigurationapi/MC_SIZE_TYPE"]
+f1_keywords: 
+ - "highlevelmonitorconfigurationapi/MC_SIZE_TYPE"
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

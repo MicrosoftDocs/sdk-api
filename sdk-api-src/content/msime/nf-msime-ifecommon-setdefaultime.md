@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFECommon interface [Internationalization for Windows Applications],SetDefaultIME method, IFECommon.SetDefaultIME, IFECommon::SetDefaultIME, SetDefaultIME, SetDefaultIME method [Internationalization for Windows Applications], SetDefaultIME method [Internationalization for Windows Applications],IFECommon interface, intl.ifecommon_setdefaultime, msime/IFECommon::SetDefaultIME
 ms.topic: method
-f1_keywords: ["msime/IFECommon.SetDefaultIME"]
+f1_keywords: 
+ - "msime/IFECommon.SetDefaultIME"
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

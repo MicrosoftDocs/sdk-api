@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MoCopyMediaType, MoCopyMediaType function [DirectShow], dmort/MoCopyMediaType, dshow.mocopymediatype
 ms.topic: function
-f1_keywords: ["dmort/MoCopyMediaType"]
+f1_keywords: 
+ - "dmort/MoCopyMediaType"
 req.header: dmort.h
 req.include-header: Dmo.h
 req.target-type: Windows

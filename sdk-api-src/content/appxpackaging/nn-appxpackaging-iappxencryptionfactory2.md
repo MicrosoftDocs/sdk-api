@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxEncryptionFactory2, IAppxEncryptionFactory2 interface [App packaging and management], IAppxEncryptionFactory2 interface [App packaging and management],described, appxpackaging/IAppxEncryptionFactory2, appxpkg.iappxencryptionfactory2
 ms.topic: interface
-f1_keywords: ["appxpackaging/IAppxEncryptionFactory2"]
+f1_keywords: 
+ - "appxpackaging/IAppxEncryptionFactory2"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationNavigationEvents, IWebApplicationNavigationEvents interface [Debugging Windows Store apps], IWebApplicationNavigationEvents interface [Debugging Windows Store apps],described, debug.iwebapplicationnavigationevents, webapplication/IWebApplicationNavigationEvents
 ms.topic: interface
-f1_keywords: ["webapplication/IWebApplicationNavigationEvents"]
+f1_keywords: 
+ - "webapplication/IWebApplicationNavigationEvents"
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSECPKG_PRIMARY_CRED, PRIMARY_CRED_CACHED_LOGON, PRIMARY_CRED_CLEAR_PASSWORD, PRIMARY_CRED_OWF_PASSWORD, PRIMARY_CRED_UPDATE, PSECPKG_PRIMARY_CRED, PSECPKG_PRIMARY_CRED structure pointer [Security], SECPKG_PRIMARY_CRED, SECPKG_PRIMARY_CRED structure [Security], _ssp_secpkg_primary_cred, ntsecpkg/PSECPKG_PRIMARY_CRED, ntsecpkg/SECPKG_PRIMARY_CRED, security.secpkg_primary_cred"
 ms.topic: struct
-f1_keywords: ["ntsecpkg/SECPKG_PRIMARY_CRED"]
+f1_keywords: 
+ - "ntsecpkg/SECPKG_PRIMARY_CRED"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

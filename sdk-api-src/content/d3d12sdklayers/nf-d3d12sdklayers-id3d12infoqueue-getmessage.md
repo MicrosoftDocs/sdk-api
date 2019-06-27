@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMessage, GetMessage method, GetMessage method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetMessage method, ID3D12InfoQueue.GetMessage, ID3D12InfoQueue::GetMessage, d3d12sdklayers/ID3D12InfoQueue::GetMessage, direct3d12.id3d12infoqueue_getmessage
 ms.topic: method
-f1_keywords: ["d3d12sdklayers/ID3D12InfoQueue.GetMessage"]
+f1_keywords: 
+ - "d3d12sdklayers/ID3D12InfoQueue.GetMessage"
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

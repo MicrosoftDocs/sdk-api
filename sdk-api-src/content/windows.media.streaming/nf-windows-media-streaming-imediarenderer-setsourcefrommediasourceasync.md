@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],SetSourceFromMediaSourceAsync method, IMediaRenderer.SetSourceFromMediaSourceAsync, IMediaRenderer.streaming, IMediaRenderer::SetSourceFromMediaSourceAsync, IMediaRenderer::streaming, SetSourceFromMediaSourceAsync, SetSourceFromMediaSourceAsync method [Media Streaming API], SetSourceFromMediaSourceAsync method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_setsourcefrommediasourceasync, windows/IMediaRenderer::SetSourceFromMediaSourceAsync
 ms.topic: method
-f1_keywords: ["windows.media.streaming/IMediaRenderer.SetSourceFromMediaSourceAsync"]
+f1_keywords: 
+ - "windows.media.streaming/IMediaRenderer.SetSourceFromMediaSourceAsync"
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetAutospaceParens method, ITextFont2.SetAutospaceParens, ITextFont2::SetAutospaceParens, SetAutospaceParens, SetAutospaceParens method [Windows Controls], SetAutospaceParens method [Windows Controls],ITextFont2 interface, controls.itextfont2_setautospaceparens, tom/ITextFont2::SetAutospaceParens
 ms.topic: method
-f1_keywords: ["tom/ITextFont2.SetAutospaceParens"]
+f1_keywords: 
+ - "tom/ITextFont2.SetAutospaceParens"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

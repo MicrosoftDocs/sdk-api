@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTimes, GetTimes method [Windows Shell], GetTimes method [Windows Shell],IShellItemResources interface, IShellItemResources interface [Windows Shell],GetTimes method, IShellItemResources.GetTimes, IShellItemResources::GetTimes, _shell_IShellItemResources_GetTimes, shell.IShellItemResources_GetTimes, shobjidl_core/IShellItemResources::GetTimes
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellItemResources.GetTimes"]
+f1_keywords: 
+ - "shobjidl_core/IShellItemResources.GetTimes"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

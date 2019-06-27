@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IContextProperties, IContextProperties interface [COM+], IContextProperties interface [COM+],described, _cos_IContextProperties, comsvcs/IContextProperties, cos.icontextproperties
 ms.topic: interface
-f1_keywords: ["comsvcs/IContextProperties"]
+f1_keywords: 
+ - "comsvcs/IContextProperties"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

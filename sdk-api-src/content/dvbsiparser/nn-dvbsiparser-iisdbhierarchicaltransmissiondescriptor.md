@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IIsdbHierarchicalTransmissionDescriptor, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies], IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor, mstv.iisdbhierarchicaltransmissiondescriptor
 ms.topic: interface
-f1_keywords: ["dvbsiparser/IIsdbHierarchicalTransmissionDescriptor"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbHierarchicalTransmissionDescriptor"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

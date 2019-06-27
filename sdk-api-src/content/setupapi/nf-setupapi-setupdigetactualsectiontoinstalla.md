@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetActualSectionToInstall, SetupDiGetActualSectionToInstall function [Device and Driver Installation], SetupDiGetActualSectionToInstallA, SetupDiGetActualSectionToInstallW, devinst.setupdigetactualsectiontoinstall, di-rtns_fce32f02-ef7f-4a51-a559-5f0da3738906.xml, setupapi/SetupDiGetActualSectionToInstall
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiGetActualSectionToInstall"]
+f1_keywords: 
+ - "setupapi/SetupDiGetActualSectionToInstall"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

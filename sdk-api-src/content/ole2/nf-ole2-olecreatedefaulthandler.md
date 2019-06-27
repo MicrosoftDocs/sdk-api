@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleCreateDefaultHandler, OleCreateDefaultHandler function [COM], _ole_OleCreateDefaultHandler, com.olecreatedefaulthandler, ole2/OleCreateDefaultHandler
 ms.topic: function
-f1_keywords: ["ole2/OleCreateDefaultHandler"]
+f1_keywords: 
+ - "ole2/OleCreateDefaultHandler"
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

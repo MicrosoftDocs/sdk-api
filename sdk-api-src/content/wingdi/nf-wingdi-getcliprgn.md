@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClipRgn, GetClipRgn function [Windows GDI], _win32_GetClipRgn, gdi.getcliprgn, wingdi/GetClipRgn
 ms.topic: function
-f1_keywords: ["wingdi/GetClipRgn"]
+f1_keywords: 
+ - "wingdi/GetClipRgn"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

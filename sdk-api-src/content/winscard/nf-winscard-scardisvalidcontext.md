@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SCardIsValidContext, SCardIsValidContext function [Security], _smart_scardisvalidcontext, security.scardisvalidcontext, winscard/SCardIsValidContext
 ms.topic: function
-f1_keywords: ["winscard/SCardIsValidContext"]
+f1_keywords: 
+ - "winscard/SCardIsValidContext"
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

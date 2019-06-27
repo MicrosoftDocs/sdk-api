@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CF_SYNC_ROOT_INFO_BASIC, CF_SYNC_ROOT_INFO_CLASS, CF_SYNC_ROOT_INFO_CLASS enumeration, CF_SYNC_ROOT_INFO_PROVIDER, CF_SYNC_ROOT_INFO_STANDARD, cfapi/CF_SYNC_ROOT_INFO_BASIC, cfapi/CF_SYNC_ROOT_INFO_CLASS, cfapi/CF_SYNC_ROOT_INFO_PROVIDER, cfapi/CF_SYNC_ROOT_INFO_STANDARD, cloudApi.cf_sync_root_info_class
 ms.topic: enum
-f1_keywords: ["cfapi/CF_SYNC_ROOT_INFO_CLASS"]
+f1_keywords: 
+ - "cfapi/CF_SYNC_ROOT_INFO_CLASS"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetUrlCacheEntryGroup, SetUrlCacheEntryGroup function [WinINet], SetUrlCacheEntryGroupA, SetUrlCacheEntryGroupW, _inet_seturlcacheentrygroup_function, wininet.seturlcacheentrygroup, wininet/SetUrlCacheEntryGroup, wininet/SetUrlCacheEntryGroupA, wininet/SetUrlCacheEntryGroupW
 ms.topic: function
-f1_keywords: ["wininet/SetUrlCacheEntryGroup"]
+f1_keywords: 
+ - "wininet/SetUrlCacheEntryGroup"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

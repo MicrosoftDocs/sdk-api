@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICspAlgorithm, ICspAlgorithm interface [Security], ICspAlgorithm interface [Security],described, certenroll/ICspAlgorithm, security.icspalgorithm
 ms.topic: interface
-f1_keywords: ["certenroll/ICspAlgorithm"]
+f1_keywords: 
+ - "certenroll/ICspAlgorithm"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

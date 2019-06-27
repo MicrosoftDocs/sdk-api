@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetShowBackgroundAlways, GetShowBackgroundAlways method [Media Foundation], GetShowBackgroundAlways method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetShowBackgroundAlways method, IMFTimedTextStyle.GetShowBackgroundAlways, IMFTimedTextStyle::GetShowBackgroundAlways, mf.imftimedtextstyle_getshowbackgroundalways, mfmediaengine/IMFTimedTextStyle::GetShowBackgroundAlways
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedTextStyle.GetShowBackgroundAlways"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedTextStyle.GetShowBackgroundAlways"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

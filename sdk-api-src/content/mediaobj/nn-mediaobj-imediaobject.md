@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaObject, IMediaObject interface [DirectShow], IMediaObject interface [DirectShow],described, IMediaObjectInterface, dshow.imediaobject, mediaobj/IMediaObject
 ms.topic: interface
-f1_keywords: ["mediaobj/IMediaObject"]
+f1_keywords: 
+ - "mediaobj/IMediaObject"
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

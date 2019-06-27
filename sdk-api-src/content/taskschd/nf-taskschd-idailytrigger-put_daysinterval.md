@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DaysInterval property [Task Scheduler], DaysInterval property [Task Scheduler],IDailyTrigger interface, IDailyTrigger interface [Task Scheduler],DaysInterval property, IDailyTrigger.DaysInterval, IDailyTrigger.put_DaysInterval, IDailyTrigger::DaysInterval, IDailyTrigger::get_DaysInterval, IDailyTrigger::put_DaysInterval, put_DaysInterval, taskschd.idailytrigger_daysinterval, taskschd/IDailyTrigger::DaysInterval, taskschd/IDailyTrigger::get_DaysInterval, taskschd/IDailyTrigger::put_DaysInterval
 ms.topic: method
-f1_keywords: ["taskschd/IDailyTrigger.DaysInterval"]
+f1_keywords: 
+ - "taskschd/IDailyTrigger.DaysInterval"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

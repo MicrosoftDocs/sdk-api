@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextAnalysisSink interface [Direct Write],SetNumberSubstitution method, IDWriteTextAnalysisSink.SetNumberSubstitution, IDWriteTextAnalysisSink::SetNumberSubstitution, SetNumberSubstitution, SetNumberSubstitution method [Direct Write], SetNumberSubstitution method [Direct Write],IDWriteTextAnalysisSink interface, directwrite.idwritetextanalysissink_setnumbersubstitution, dwrite/IDWriteTextAnalysisSink::SetNumberSubstitution
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextAnalysisSink.SetNumberSubstitution"]
+f1_keywords: 
+ - "dwrite/IDWriteTextAnalysisSink.SetNumberSubstitution"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

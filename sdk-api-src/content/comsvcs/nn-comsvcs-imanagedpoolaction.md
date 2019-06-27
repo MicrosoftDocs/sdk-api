@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IManagedPoolAction, IManagedPoolAction interface [COM+], IManagedPoolAction interface [COM+],described, _cos_IManagedPoolAction, comsvcs/IManagedPoolAction, cos.imanagedpoolaction
 ms.topic: interface
-f1_keywords: ["comsvcs/IManagedPoolAction"]
+f1_keywords: 
+ - "comsvcs/IManagedPoolAction"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

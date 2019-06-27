@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPROCESS_MITIGATION_ASLR_POLICY, PPROCESS_MITIGATION_ASLR_POLICY, PPROCESS_MITIGATION_ASLR_POLICY structure pointer, PROCESS_MITIGATION_ASLR_POLICY, PROCESS_MITIGATION_ASLR_POLICY structure, _PROCESS_MITIGATION_ASLR_POLICY, base.process_mitigation_aslr_policy, winnt/PPROCESS_MITIGATION_ASLR_POLICY, winnt/PROCESS_MITIGATION_ASLR_POLICY"
 ms.topic: struct
-f1_keywords: ["winnt/PROCESS_MITIGATION_ASLR_POLICY"]
+f1_keywords: 
+ - "winnt/PROCESS_MITIGATION_ASLR_POLICY"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

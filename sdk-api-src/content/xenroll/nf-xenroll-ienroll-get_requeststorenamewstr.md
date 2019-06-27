@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],RequestStoreNameWStr property, IEnroll.RequestStoreNameWStr, IEnroll.get_RequestStoreNameWStr, IEnroll4 interface [Security],RequestStoreNameWStr property, IEnroll4.RequestStoreNameWStr, IEnroll4::get_RequestStoreNameWStr, IEnroll4::put_RequestStoreNameWStr, IEnroll::RequestStoreNameWStr, IEnroll::get_RequestStoreNameWStr, IEnroll::put_RequestStoreNameWStr, RequestStoreNameWStr property [Security], RequestStoreNameWStr property [Security],IEnroll interface, RequestStoreNameWStr property [Security],IEnroll4 interface, get_RequestStoreNameWStr, put_RequestStoreNameWStr, security.ienroll4_requeststorenamewstr, xenroll/IEnroll4::RequestStoreNameWStr, xenroll/IEnroll4::get_RequestStoreNameWStr, xenroll/IEnroll4::put_RequestStoreNameWStr, xenroll/IEnroll::RequestStoreNameWStr, xenroll/IEnroll::get_RequestStoreNameWStr, xenroll/IEnroll::put_RequestStoreNameWStr
 ms.topic: method
-f1_keywords: ["xenroll/IEnroll.RequestStoreNameWStr"]
+f1_keywords: 
+ - "xenroll/IEnroll.RequestStoreNameWStr"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

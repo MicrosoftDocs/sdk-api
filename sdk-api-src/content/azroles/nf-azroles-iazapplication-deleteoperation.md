@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],DeleteOperation method, DeleteOperation, DeleteOperation method [Security], DeleteOperation method [Security],AzApplication object, DeleteOperation method [Security],IAzApplication interface, IAzApplication interface [Security],DeleteOperation method, IAzApplication.DeleteOperation, IAzApplication::DeleteOperation, azroles/IAzApplication::DeleteOperation, security.iazapplication_deleteoperation
 ms.topic: method
-f1_keywords: ["azroles/IAzApplication.DeleteOperation"]
+f1_keywords: 
+ - "azroles/IAzApplication.DeleteOperation"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

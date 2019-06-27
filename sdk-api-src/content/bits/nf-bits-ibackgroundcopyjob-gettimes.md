@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTimes, GetTimes method [BITS], GetTimes method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetTimes method, IBackgroundCopyJob.GetTimes, IBackgroundCopyJob::GetTimes, _drz_ibackgroundcopyjob_gettimes, bits.ibackgroundcopyjob_gettimes, bits/IBackgroundCopyJob::GetTimes
 ms.topic: method
-f1_keywords: ["bits/IBackgroundCopyJob.GetTimes"]
+f1_keywords: 
+ - "bits/IBackgroundCopyJob.GetTimes"
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

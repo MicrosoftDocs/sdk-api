@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddStreamForRecord, AddStreamForRecord method [windows Media Format], AddStreamForRecord method [windows Media Format],IWMMutualExclusion2 interface, IWMMutualExclusion2 interface [windows Media Format],AddStreamForRecord method, IWMMutualExclusion2.AddStreamForRecord, IWMMutualExclusion2::AddStreamForRecord, IWMMutualExclusion2AddStreamForRecord, wmformat.iwmmutualexclusion2_addstreamforrecord, wmsdkidl/IWMMutualExclusion2::AddStreamForRecord
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMMutualExclusion2.AddStreamForRecord"]
+f1_keywords: 
+ - "wmsdkidl/IWMMutualExclusion2.AddStreamForRecord"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

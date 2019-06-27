@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireProgressCB interface [Picture Acquisition],StartDelete method, IPhotoAcquireProgressCB.StartDelete, IPhotoAcquireProgressCB::StartDelete, IPhotoAcquireProgressCBStartDelete, StartDelete, StartDelete method [Picture Acquisition], StartDelete method [Picture Acquisition],IPhotoAcquireProgressCB interface, photoacquire/IPhotoAcquireProgressCB::StartDelete, picacq.iphotoacquireprogresscb_startdelete
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoAcquireProgressCB.StartDelete"]
+f1_keywords: 
+ - "photoacquire/IPhotoAcquireProgressCB.StartDelete"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRIO_EXTENSION_FUNCTION_TABLE, PRIO_EXTENSION_FUNCTION_TABLE, PRIO_EXTENSION_FUNCTION_TABLE structure pointer [Winsock], RIO_EXTENSION_FUNCTION_TABLE, RIO_EXTENSION_FUNCTION_TABLE structure [Winsock], mswsockdef/PRIO_EXTENSION_FUNCTION_TABLE, mswsockdef/RIO_EXTENSION_FUNCTION_TABLE, winsock.rio_extension_function_table"
 ms.topic: struct
-f1_keywords: ["mswsock/RIO_EXTENSION_FUNCTION_TABLE"]
+f1_keywords: 
+ - "mswsock/RIO_EXTENSION_FUNCTION_TABLE"
 req.header: mswsock.h
 req.include-header: Mswsock.h
 req.target-type: Windows

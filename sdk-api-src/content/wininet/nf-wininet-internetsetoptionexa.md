@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetSetOptionEx, InternetSetOptionEx function [WinINet], InternetSetOptionExA, InternetSetOptionExW, _inet_internetsetoptionex_function, wininet.internetsetoptionex, wininet/InternetSetOptionEx, wininet/InternetSetOptionExA, wininet/InternetSetOptionExW
 ms.topic: function
-f1_keywords: ["wininet/InternetSetOptionEx"]
+f1_keywords: 
+ - "wininet/InternetSetOptionEx"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

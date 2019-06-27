@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolShadowConnection, IWTSProtocolShadowConnection interface [Remote Desktop Services], IWTSProtocolShadowConnection interface [Remote Desktop Services],described, termserv.iwtsprotocolshadowconnection, wtsprotocol/IWTSProtocolShadowConnection
 ms.topic: interface
-f1_keywords: ["wtsprotocol/IWTSProtocolShadowConnection"]
+f1_keywords: 
+ - "wtsprotocol/IWTSProtocolShadowConnection"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

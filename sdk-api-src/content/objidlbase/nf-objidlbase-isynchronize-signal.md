@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISynchronize interface [COM],Signal method, ISynchronize.Signal, ISynchronize::Signal, Signal, Signal method [COM], Signal method [COM],ISynchronize interface, _com_isynchronize_signal, com.isynchronize_signal, objidlbase/ISynchronize::Signal
 ms.topic: method
-f1_keywords: ["objidlbase/ISynchronize.Signal"]
+f1_keywords: 
+ - "objidlbase/ISynchronize.Signal"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

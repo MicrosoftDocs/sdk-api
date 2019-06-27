@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindToolbar, FindToolbar method [Windows Shell], FindToolbar method [Windows Shell],IDockingWindowFrame interface, IDockingWindowFrame interface [Windows Shell],FindToolbar method, IDockingWindowFrame.FindToolbar, IDockingWindowFrame::FindToolbar, _win32_IDockingWindowFrame_FindToolbar, shell.IDockingWindowFrame_FindToolbar, shlobj/IDockingWindowFrame::FindToolbar
 ms.topic: method
-f1_keywords: ["shlobj/IDockingWindowFrame.FindToolbar"]
+f1_keywords: 
+ - "shlobj/IDockingWindowFrame.FindToolbar"
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

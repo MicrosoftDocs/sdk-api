@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],SetMode method, IOperationsProgressDialog.SetMode, IOperationsProgressDialog::SetMode, PDM_DEFAULT, PDM_ERRORSBLOCKING, PDM_INDETERMINATE, PDM_PREFLIGHT, PDM_RUN, PDM_UNDOING, SetMode, SetMode method [Windows Shell], SetMode method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_SetMode, shell.IOperationsProgressDialog_SetMode, shobjidl_core/IOperationsProgressDialog::SetMode
 ms.topic: method
-f1_keywords: ["shobjidl_core/IOperationsProgressDialog.SetMode"]
+f1_keywords: 
+ - "shobjidl_core/IOperationsProgressDialog.SetMode"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

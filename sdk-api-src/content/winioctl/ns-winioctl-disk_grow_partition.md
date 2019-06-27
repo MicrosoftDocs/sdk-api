@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDISK_GROW_PARTITION, DISK_GROW_PARTITION, DISK_GROW_PARTITION structure [Files], PDISK_GROW_PARTITION, PDISK_GROW_PARTITION structure pointer [Files], base.disk_grow_partition_str, fs.disk_grow_partition_str, winioctl/DISK_GROW_PARTITION, winioctl/PDISK_GROW_PARTITION"
 ms.topic: struct
-f1_keywords: ["winioctl/DISK_GROW_PARTITION"]
+f1_keywords: 
+ - "winioctl/DISK_GROW_PARTITION"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

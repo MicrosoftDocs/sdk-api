@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellWindows interface [Windows Shell],Register method, IShellWindows.Register, IShellWindows::Register, Register, Register method [Windows Shell], Register method [Windows Shell],IShellWindows interface, _win32_IShellWindows_Register, exdisp/IShellWindows::Register, shell.IShellWindows_Register
 ms.topic: method
-f1_keywords: ["exdisp/IShellWindows.Register"]
+f1_keywords: 
+ - "exdisp/IShellWindows.Register"
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows

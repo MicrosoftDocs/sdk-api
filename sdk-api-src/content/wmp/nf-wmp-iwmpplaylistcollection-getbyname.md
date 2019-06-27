@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylistCollection interface [Windows Media Player],getByName method, IWMPPlaylistCollection.getByName, IWMPPlaylistCollection::getByName, IWMPPlaylistCollectiongetByName, getByName, getByName method [Windows Media Player], getByName method [Windows Media Player],IWMPPlaylistCollection interface, wmp.iwmpplaylistcollection_getbyname, wmp/IWMPPlaylistCollection::getByName
 ms.topic: method
-f1_keywords: ["wmp/IWMPPlaylistCollection.getByName"]
+f1_keywords: 
+ - "wmp/IWMPPlaylistCollection.getByName"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

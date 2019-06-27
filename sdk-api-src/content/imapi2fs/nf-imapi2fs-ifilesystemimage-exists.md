@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Exists, Exists method [IMAPI], Exists method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],Exists method, IFileSystemImage.Exists, IFileSystemImage::Exists, imapi.ifilesystemimage_exists, imapi2fs/IFileSystemImage::Exists
 ms.topic: method
-f1_keywords: ["imapi2fs/IFileSystemImage.Exists"]
+f1_keywords: 
+ - "imapi2fs/IFileSystemImage.Exists"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

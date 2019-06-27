@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxGetConfiguration, FaxGetConfiguration function [Fax Service], FaxGetConfigurationA, FaxGetConfigurationW, _mfax_faxgetconfiguration, fax._mfax_faxgetconfiguration, winfax/FaxGetConfiguration, winfax/FaxGetConfigurationA, winfax/FaxGetConfigurationW
 ms.topic: function
-f1_keywords: ["winfax/FaxGetConfiguration"]
+f1_keywords: 
+ - "winfax/FaxGetConfiguration"
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

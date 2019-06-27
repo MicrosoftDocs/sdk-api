@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UNDOCK_REASON, UNDOCK_REASON enumeration [Windows Shell], UR_MONITOR_DISCONNECT, UR_RESOLUTION_CHANGE, shell.UNDOCK_REASON, shobjidl/UNDOCK_REASON, shobjidl/UR_MONITOR_DISCONNECT, shobjidl/UR_RESOLUTION_CHANGE
 ms.topic: enum
-f1_keywords: ["shobjidl/UNDOCK_REASON"]
+f1_keywords: 
+ - "shobjidl/UNDOCK_REASON"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

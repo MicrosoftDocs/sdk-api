@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPortableDevicePropertiesBulk interface [Windows Portable Devices SDK],QueueGetValuesByObjectFormat method, IPortableDevicePropertiesBulk.QueueGetValuesByObjectFormat, IPortableDevicePropertiesBulk::QueueGetValuesByObjectFormat, IPortableDevicePropertiesBulkQueueGetValuesByObjectFormat, QueueGetValuesByObjectFormat, QueueGetValuesByObjectFormat method [Windows Portable Devices SDK], QueueGetValuesByObjectFormat method [Windows Portable Devices SDK],IPortableDevicePropertiesBulk interface, portabledeviceapi/IPortableDevicePropertiesBulk::QueueGetValuesByObjectFormat, wpdsdk.iportabledevicepropertiesbulk_queuegetvaluesbyobjectformat
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDevicePropertiesBulk.QueueGetValuesByObjectFormat"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDevicePropertiesBulk.QueueGetValuesByObjectFormat"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

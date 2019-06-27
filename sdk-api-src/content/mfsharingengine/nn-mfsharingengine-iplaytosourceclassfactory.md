@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPlayToSourceClassFactory, IPlayToSourceClassFactory interface [Media Foundation], IPlayToSourceClassFactory interface [Media Foundation],described, mf.iplaytocontrollerclassfactory, mf.iplaytosourceclassfactory, mfsharingengine/IPlayToSourceClassFactory
 ms.topic: interface
-f1_keywords: ["mfsharingengine/IPlayToSourceClassFactory"]
+f1_keywords: 
+ - "mfsharingengine/IPlayToSourceClassFactory"
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows

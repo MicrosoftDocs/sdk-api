@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [NativeWIFI], Disconnect method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],Disconnect method, IDot11AdHocNetwork.Disconnect, IDot11AdHocNetwork::Disconnect, adhoc/IDot11AdHocNetwork::Disconnect, nwifi.idot11adhocnetwork_disconnect
 ms.topic: method
-f1_keywords: ["adhoc/IDot11AdHocNetwork.Disconnect"]
+f1_keywords: 
+ - "adhoc/IDot11AdHocNetwork.Disconnect"
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

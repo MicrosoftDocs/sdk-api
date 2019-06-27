@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDSCOLUMN, DSCOLUMN, DSCOLUMN structure [Active Directory], DSCOLUMNPROP_ADSPATH, DSCOLUMNPROP_OBJECTCLASS, LPDSCOLUMN, LPDSCOLUMN structure pointer [Active Directory], _glines_dscolumn, ad.dscolumn, dsquery/DSCOLUMN, dsquery/LPDSCOLUMN"
 ms.topic: struct
-f1_keywords: ["dsquery/DSCOLUMN"]
+f1_keywords: 
+ - "dsquery/DSCOLUMN"
 req.header: dsquery.h
 req.include-header: 
 req.target-type: Windows

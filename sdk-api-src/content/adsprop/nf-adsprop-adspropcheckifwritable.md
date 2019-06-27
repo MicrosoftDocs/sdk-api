@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADsPropCheckIfWritable, ADsPropCheckIfWritable function [Active Directory], _glines_adspropcheckifwritable, ad.adspropcheckifwritable, adsprop/ADsPropCheckIfWritable
 ms.topic: function
-f1_keywords: ["adsprop/ADsPropCheckIfWritable"]
+f1_keywords: 
+ - "adsprop/ADsPropCheckIfWritable"
 req.header: adsprop.h
 req.include-header: 
 req.target-type: Windows

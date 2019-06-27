@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IContext interface [COM],RemoveProperty method, IContext.RemoveProperty, IContext::RemoveProperty, RemoveProperty, RemoveProperty method [COM], RemoveProperty method [COM],IContext interface, _com_icontext_removeproperty, com.icontext_removeproperty, objidlbase/IContext::RemoveProperty
 ms.topic: method
-f1_keywords: ["objidlbase/IContext.RemoveProperty"]
+f1_keywords: 
+ - "objidlbase/IContext.RemoveProperty"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

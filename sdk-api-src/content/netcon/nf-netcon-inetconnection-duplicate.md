@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Duplicate, Duplicate method [ICS/ICF], Duplicate method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],Duplicate method, INetConnection.Duplicate, INetConnection::Duplicate, _ics_inetconnection_duplicate, ics.inetconnection_duplicate, netcon/INetConnection::Duplicate
 ms.topic: method
-f1_keywords: ["netcon/INetConnection.Duplicate"]
+f1_keywords: 
+ - "netcon/INetConnection.Duplicate"
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

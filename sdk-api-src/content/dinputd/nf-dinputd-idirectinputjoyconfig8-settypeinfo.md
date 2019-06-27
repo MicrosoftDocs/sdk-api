@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],SetTypeInfo method, IDirectInputJoyConfig8.SetTypeInfo, IDirectInputJoyConfig8::SetTypeInfo, SetTypeInfo, SetTypeInfo method [Human Input Devices], SetTypeInfo method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_7cfc73ae-57b7-45a0-8466-c52fe481b980.xml, dinputd/IDirectInputJoyConfig8::SetTypeInfo, hid.idirectinputjoyconfig8_settypeinfo
 ms.topic: method
-f1_keywords: ["dinputd/IDirectInputJoyConfig8.SetTypeInfo"]
+f1_keywords: 
+ - "dinputd/IDirectInputJoyConfig8.SetTypeInfo"
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

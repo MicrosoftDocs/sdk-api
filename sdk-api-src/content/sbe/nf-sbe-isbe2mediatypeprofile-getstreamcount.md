@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStreamCount, GetStreamCount method [Microsoft TV Technologies], GetStreamCount method [Microsoft TV Technologies],ISBE2MediaTypeProfile interface, ISBE2MediaTypeProfile interface [Microsoft TV Technologies],GetStreamCount method, ISBE2MediaTypeProfile.GetStreamCount, ISBE2MediaTypeProfile::GetStreamCount, mstv.isbe2mediatypeprofile_getstreamcount, sbe/ISBE2MediaTypeProfile::GetStreamCount
 ms.topic: method
-f1_keywords: ["sbe/ISBE2MediaTypeProfile.GetStreamCount"]
+f1_keywords: 
+ - "sbe/ISBE2MediaTypeProfile.GetStreamCount"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

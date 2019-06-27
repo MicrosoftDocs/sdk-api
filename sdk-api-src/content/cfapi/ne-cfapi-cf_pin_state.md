@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CF_PIN_STATE, CF_PIN_STATE enumeration, CF_PIN_STATE_EXCLUDED, CF_PIN_STATE_INHERIT, CF_PIN_STATE_PINNED, CF_PIN_STATE_UNPINNED, CF_PIN_STATE_UNSPECIFIED, cfapi/CF_PIN_STATE, cfapi/CF_PIN_STATE_EXCLUDED, cfapi/CF_PIN_STATE_INHERIT, cfapi/CF_PIN_STATE_PINNED, cfapi/CF_PIN_STATE_UNPINNED, cfapi/CF_PIN_STATE_UNSPECIFIED, cloudApi.cf_pin_state
 ms.topic: enum
-f1_keywords: ["cfapi/CF_PIN_STATE"]
+f1_keywords: 
+ - "cfapi/CF_PIN_STATE"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

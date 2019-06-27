@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCachedBlob, GetCachedBlob method, GetCachedBlob method,ID3D12PipelineState interface, ID3D12PipelineState interface,GetCachedBlob method, ID3D12PipelineState.GetCachedBlob, ID3D12PipelineState::GetCachedBlob, d3d12/ID3D12PipelineState::GetCachedBlob, direct3d12.id3d12pipelinestate_getcachedblob
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12PipelineState.GetCachedBlob"]
+f1_keywords: 
+ - "d3d12/ID3D12PipelineState.GetCachedBlob"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

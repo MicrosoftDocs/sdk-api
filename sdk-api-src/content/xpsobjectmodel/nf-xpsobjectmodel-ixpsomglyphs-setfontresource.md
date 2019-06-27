@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetFontResource method, IXpsOMGlyphs.SetFontResource, IXpsOMGlyphs::SetFontResource, SetFontResource, SetFontResource method [XPS Documents and Packaging], SetFontResource method [XPS Documents and Packaging],IXpsOMGlyphs interface, xps.ixpsomglyphs_setfontresource, xpsobjectmodel/IXpsOMGlyphs::SetFontResource
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGlyphs.SetFontResource"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGlyphs.SetFontResource"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

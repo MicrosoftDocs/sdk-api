@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0181f051-1b3b-7933-88f6-5ddfa2b8cf74, D3D10_INPUT_ELEMENT_DESC, D3D10_INPUT_ELEMENT_DESC structure [Direct3D 10], d3d10/D3D10_INPUT_ELEMENT_DESC, direct3d10.d3d10_input_element_desc
 ms.topic: struct
-f1_keywords: ["d3d10/D3D10_INPUT_ELEMENT_DESC"]
+f1_keywords: 
+ - "d3d10/D3D10_INPUT_ELEMENT_DESC"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

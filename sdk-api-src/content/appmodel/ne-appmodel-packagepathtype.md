@@ -6,7 +6,8 @@ tech.root: appxpkg
 ms.date: 01/31/19
 ms.keywords: PackagePathType
 ms.topic: enum
-f1_keywords: ["appmodel/PackagePathType"]
+f1_keywords: 
+ - "appmodel/PackagePathType"
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: appmodel.h

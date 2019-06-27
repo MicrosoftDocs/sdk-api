@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMVideoDecoderHurryup, IWMVideoDecoderHurryup interface [Media Foundation], IWMVideoDecoderHurryup interface [Media Foundation],described, codecapi.iwmvideodecoderhurryupinterface, mf.iwmvideodecoderhurryup, mf.iwmvideodecoderhurryupinterface, wmcodecdsp/IWMVideoDecoderHurryup
 ms.topic: interface
-f1_keywords: ["wmcodecdsp/IWMVideoDecoderHurryup"]
+f1_keywords: 
+ - "wmcodecdsp/IWMVideoDecoderHurryup"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

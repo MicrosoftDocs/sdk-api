@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BSTR_UserFree64, BSTR_UserFree64 function [Automation], automat.bstr_userfree64, oaidl/BSTR_UserFree64
 ms.topic: function
-f1_keywords: ["oaidl/BSTR_UserFree64"]
+f1_keywords: 
+ - "oaidl/BSTR_UserFree64"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

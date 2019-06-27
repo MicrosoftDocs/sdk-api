@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BUTTONPRESSED, CHECKED, ENABLED, HIDDEN, INDETERMINATE, MMC_BUTTON_STATE, MMC_BUTTON_STATE enumeration [MMC], _slate_mmc_button_state, mmc.mmc_button_state, mmc/BUTTONPRESSED, mmc/CHECKED, mmc/ENABLED, mmc/HIDDEN, mmc/INDETERMINATE, mmc/MMC_BUTTON_STATE
 ms.topic: enum
-f1_keywords: ["mmc/MMC_BUTTON_STATE"]
+f1_keywords: 
+ - "mmc/MMC_BUTTON_STATE"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetCenterX method, IDCompositionScaleTransform3D.SetCenterX, IDCompositionScaleTransform3D.SetCenterX(IDCompositionAnimation), IDCompositionScaleTransform3D::SetCenterX, IDCompositionScaleTransform3D::SetCenterX(IDCompositionAnimation), IDCompositionScaleTransform3D::SetCenterX(IDCompositionAnimation*), SetCenterX, SetCenterX method [DirectComposition], SetCenterX method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetCenterX, directcomp.idcompositionscaletransform3d_setcenterx_idcompositionanimation
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionScaleTransform3D.SetCenterX"]
+f1_keywords: 
+ - "dcomp/IDCompositionScaleTransform3D.SetCenterX"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

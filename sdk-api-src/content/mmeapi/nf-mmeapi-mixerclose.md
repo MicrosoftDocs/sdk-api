@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_mixerClose, mixerClose, mixerClose function [Windows Multimedia], mmeapi/mixerClose, multimedia.mixerclose"
 ms.topic: function
-f1_keywords: ["mmeapi/mixerClose"]
+f1_keywords: 
+ - "mmeapi/mixerClose"
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

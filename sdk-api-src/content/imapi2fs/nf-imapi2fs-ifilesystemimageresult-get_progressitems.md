@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImageResult interface [IMAPI],get_ProgressItems method, IFileSystemImageResult.get_ProgressItems, IFileSystemImageResult::get_ProgressItems, get_ProgressItems, get_ProgressItems method [IMAPI], get_ProgressItems method [IMAPI],IFileSystemImageResult interface, imapi.ifilesystemimageresult_get_progressitems, imapi2fs/IFileSystemImageResult::get_ProgressItems
 ms.topic: method
-f1_keywords: ["imapi2fs/IFileSystemImageResult.get_ProgressItems"]
+f1_keywords: 
+ - "imapi2fs/IFileSystemImageResult.get_ProgressItems"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

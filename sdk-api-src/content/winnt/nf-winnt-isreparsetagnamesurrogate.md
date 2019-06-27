@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsReparseTagNameSurrogate, IsReparseTagNameSurrogate macro [Files], _win32_isreparsetagnamesurrogate, base.isreparsetagnamesurrogate, fs.isreparsetagnamesurrogate, winnt/IsReparseTagNameSurrogate
 ms.topic: macro
-f1_keywords: ["winnt/IsReparseTagNameSurrogate"]
+f1_keywords: 
+ - "winnt/IsReparseTagNameSurrogate"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

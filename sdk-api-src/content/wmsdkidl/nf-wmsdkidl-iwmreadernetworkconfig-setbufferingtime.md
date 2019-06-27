@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetBufferingTime method, IWMReaderNetworkConfig.SetBufferingTime, IWMReaderNetworkConfig::SetBufferingTime, IWMReaderNetworkConfigSetBufferingTime, SetBufferingTime, SetBufferingTime method [windows Media Format], SetBufferingTime method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setbufferingtime, wmsdkidl/IWMReaderNetworkConfig::SetBufferingTime
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderNetworkConfig.SetBufferingTime"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderNetworkConfig.SetBufferingTime"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

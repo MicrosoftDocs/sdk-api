@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],ITransferSource interface, ITransferSource interface [Windows Shell],Advise method, ITransferSource.Advise, ITransferSource::Advise, _shell_ITransferSource_Advise, shell.ITransferSource_Advise, shobjidl_core/ITransferSource::Advise
 ms.topic: method
-f1_keywords: ["shobjidl_core/ITransferSource.Advise"]
+f1_keywords: 
+ - "shobjidl_core/ITransferSource.Advise"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

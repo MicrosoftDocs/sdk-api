@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateAnimationVariable, CreateAnimationVariable method [Windows Animation], CreateAnimationVariable method [Windows Animation],IUIAnimationManager interface, IUIAnimationManager interface [Windows Animation],CreateAnimationVariable method, IUIAnimationManager.CreateAnimationVariable, IUIAnimationManager::CreateAnimationVariable, uianimation.iuianimationmanager_createanimationvariable, uianimation/IUIAnimationManager::CreateAnimationVariable
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationManager.CreateAnimationVariable"]
+f1_keywords: 
+ - "uianimation/IUIAnimationManager.CreateAnimationVariable"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

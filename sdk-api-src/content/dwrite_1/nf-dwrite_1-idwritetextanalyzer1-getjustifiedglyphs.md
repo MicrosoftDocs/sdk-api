@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetJustifiedGlyphs, GetJustifiedGlyphs method [Direct Write], GetJustifiedGlyphs method [Direct Write],IDWriteTextAnalyzer1 interface, IDWriteTextAnalyzer1 interface [Direct Write],GetJustifiedGlyphs method, IDWriteTextAnalyzer1.GetJustifiedGlyphs, IDWriteTextAnalyzer1::GetJustifiedGlyphs, directwrite.idwritetextanalyzer1_getjustifiedglyphs, dwrite_1/IDWriteTextAnalyzer1::GetJustifiedGlyphs
 ms.topic: method
-f1_keywords: ["dwrite_1/IDWriteTextAnalyzer1.GetJustifiedGlyphs"]
+f1_keywords: 
+ - "dwrite_1/IDWriteTextAnalyzer1.GetJustifiedGlyphs"
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

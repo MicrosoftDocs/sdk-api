@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AppPolicyThreadInitializationType, AppPolicyThreadInitializationType enumeration [App packaging and management], AppPolicyThreadInitializationType_InitializeWinRT, AppPolicyThreadInitializationType_None, appmodel/AppPolicyThreadInitializationType, appmodel/AppPolicyThreadInitializationType_InitializeWinRT, appmodel/AppPolicyThreadInitializationType_None, appxpkg.apppolicythreadinitializationtype_enumeration
 ms.topic: enum
-f1_keywords: ["appmodel/AppPolicyThreadInitializationType"]
+f1_keywords: 
+ - "appmodel/AppPolicyThreadInitializationType"
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

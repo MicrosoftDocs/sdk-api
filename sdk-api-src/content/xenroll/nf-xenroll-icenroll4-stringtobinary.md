@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],stringToBinary method, ICEnroll4 interface [Security],stringToBinary method, ICEnroll4.stringToBinary, ICEnroll4::stringToBinary, _xen_icenroll4_stringtobinary, security.icenroll4_stringtobinary, stringToBinary, stringToBinary method [Security], stringToBinary method [Security],CEnroll object, stringToBinary method [Security],ICEnroll4 interface, xenroll/ICEnroll4::stringToBinary
 ms.topic: method
-f1_keywords: ["xenroll/ICEnroll4.stringToBinary"]
+f1_keywords: 
+ - "xenroll/ICEnroll4.stringToBinary"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIdParameters, GetIdParameters method [Windows Sync], GetIdParameters method [Windows Sync],IAsynchronousDataRetriever interface, IAsynchronousDataRetriever interface [Windows Sync],GetIdParameters method, IAsynchronousDataRetriever.GetIdParameters, IAsynchronousDataRetriever::GetIdParameters, winsync.iasynchronousdataretriever_getidparameters, winsync/IAsynchronousDataRetriever::GetIdParameters
 ms.topic: method
-f1_keywords: ["winsync/IAsynchronousDataRetriever.GetIdParameters"]
+f1_keywords: 
+ - "winsync/IAsynchronousDataRetriever.GetIdParameters"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

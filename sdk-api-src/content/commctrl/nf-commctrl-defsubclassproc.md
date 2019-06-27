@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DefSubclassProc, DefSubclassProc function [Windows Shell], commctrl/DefSubclassProc, inet_DefSubclassProc, shell.DefSubclassProc
 ms.topic: function
-f1_keywords: ["commctrl/DefSubclassProc"]
+f1_keywords: 
+ - "commctrl/DefSubclassProc"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

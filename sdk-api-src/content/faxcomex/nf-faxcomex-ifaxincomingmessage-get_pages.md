@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessage interface [Fax Service],Pages property, IFaxIncomingMessage.Pages, IFaxIncomingMessage.get_Pages, IFaxIncomingMessage::Pages, IFaxIncomingMessage::get_Pages, Pages property [Fax Service], Pages property [Fax Service],IFaxIncomingMessage interface, _mfax_faxincomingmessage.pages, fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_pages_cpp, fax._mfax_faxincomingmessage_pages, faxcomex/IFaxIncomingMessage::Pages, faxcomex/IFaxIncomingMessage::get_Pages, get_Pages
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxIncomingMessage.Pages"]
+f1_keywords: 
+ - "faxcomex/IFaxIncomingMessage.Pages"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

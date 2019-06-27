@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFN_CRYPT_XML_ENUM_ALG_INFO, PFN_CRYPT_XML_ENUM_ALG_INFO callback, PFN_CRYPT_XML_ENUM_ALG_INFO callback function [Security], cryptxml/PFN_CRYPT_XML_ENUM_ALG_INFO, security.pfn_crypt_xml_enum_alg_info
 ms.topic: callback
-f1_keywords: ["cryptxml/PFN_CRYPT_XML_ENUM_ALG_INFO"]
+f1_keywords: 
+ - "cryptxml/PFN_CRYPT_XML_ENUM_ALG_INFO"
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

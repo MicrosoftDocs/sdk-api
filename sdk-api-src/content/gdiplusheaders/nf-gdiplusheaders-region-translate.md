@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/20/2019
 ms.keywords: Region::Translate
 ms.topic: language-reference
-f1_keywords: ["gdiplusheaders/Region::Translate"]
+f1_keywords: 
+ - "gdiplusheaders/Region::Translate"
 targetos: Windows
 product: Windows
 req.assembly: 

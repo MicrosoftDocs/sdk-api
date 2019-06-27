@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEnableResends, GetEnableResends method [windows Media Format], GetEnableResends method [windows Media Format],IWMReaderNetworkConfig2 interface, IWMReaderNetworkConfig2 interface [windows Media Format],GetEnableResends method, IWMReaderNetworkConfig2.GetEnableResends, IWMReaderNetworkConfig2::GetEnableResends, IWMReaderNetworkConfig2GetEnableResends, wmformat.iwmreadernetworkconfig2_getenableresends, wmsdkidl/IWMReaderNetworkConfig2::GetEnableResends
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderNetworkConfig2.GetEnableResends"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderNetworkConfig2.GetEnableResends"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

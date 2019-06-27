@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanGetSecuritySettings, WlanGetSecuritySettings function [NativeWIFI], nwifi.wlangetsecuritysettings, wlan_opcode_value_type_set_by_group_policy, wlan_opcode_value_type_set_by_user, wlanapi/WlanGetSecuritySettings
 ms.topic: function
-f1_keywords: ["wlanapi/WlanGetSecuritySettings"]
+f1_keywords: 
+ - "wlanapi/WlanGetSecuritySettings"
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

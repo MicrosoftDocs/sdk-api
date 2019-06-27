@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DxTransfer, DxTransfer callback function [Display Devices], PDX_TRANSFER, PDX_TRANSFER callback, VideoMiniPort_DxApiFunctions_f6a3f689-7e04-4dec-850c-fa47b5ac1543.xml, display.dxtransfer, dxmini/DxTransfer
 ms.topic: callback
-f1_keywords: ["dxmini/DxTransfer"]
+f1_keywords: 
+ - "dxmini/DxTransfer"
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Desktop

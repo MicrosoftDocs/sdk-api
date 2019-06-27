@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISelectionProvider interface [Windows Accessibility],IsSelectionRequired property, ISelectionProvider.IsSelectionRequired, ISelectionProvider.get_IsSelectionRequired, ISelectionProvider::IsSelectionRequired, ISelectionProvider::get_IsSelectionRequired, IsSelectionRequired property [Windows Accessibility], IsSelectionRequired property [Windows Accessibility],ISelectionProvider interface, get_IsSelectionRequired, uiauto.uiauto_ISelectionProvider_IsSelectionRequired, uiauto_ISelectionProvider_IsSelectionRequired, uiautomationcore/ISelectionProvider::IsSelectionRequired, uiautomationcore/ISelectionProvider::get_IsSelectionRequired, winauto.uiauto_ISelectionProvider_IsSelectionRequired
 ms.topic: method
-f1_keywords: ["uiautomationcore/ISelectionProvider.IsSelectionRequired"]
+f1_keywords: 
+ - "uiautomationcore/ISelectionProvider.IsSelectionRequired"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

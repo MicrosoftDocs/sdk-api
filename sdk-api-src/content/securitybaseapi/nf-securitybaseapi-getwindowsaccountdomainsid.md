@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWindowsAccountDomainSid, GetWindowsAccountDomainSid function [Security], _win32_getwindowsaccountdomainsid, security.getwindowsaccountdomainsid, securitybaseapi/GetWindowsAccountDomainSid
 ms.topic: function
-f1_keywords: ["securitybaseapi/GetWindowsAccountDomainSid"]
+f1_keywords: 
+ - "securitybaseapi/GetWindowsAccountDomainSid"
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

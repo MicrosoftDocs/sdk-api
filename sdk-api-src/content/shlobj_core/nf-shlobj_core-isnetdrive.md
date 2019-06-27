@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsNetDrive, IsNetDrive function [Windows Shell], _win32_IsNetDrive, shell.IsNetDrive, shlobj_core/IsNetDrive
 ms.topic: function
-f1_keywords: ["shlobj_core/IsNetDrive"]
+f1_keywords: 
+ - "shlobj_core/IsNetDrive"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

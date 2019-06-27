@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUserAuthData, GetUserAuthData callback function [Security], LSA_GET_USER_AUTH_DATA, LSA_GET_USER_AUTH_DATA callback, _ssp_getuserauthdata, ntsecpkg/GetUserAuthData, security.getuserauthdata
 ms.topic: callback
-f1_keywords: ["ntsecpkg/GetUserAuthData"]
+f1_keywords: 
+ - "ntsecpkg/GetUserAuthData"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

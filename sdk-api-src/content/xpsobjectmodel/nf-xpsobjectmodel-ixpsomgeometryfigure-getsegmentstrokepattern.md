@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSegmentStrokePattern, GetSegmentStrokePattern method [XPS Documents and Packaging], GetSegmentStrokePattern method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetSegmentStrokePattern method, IXpsOMGeometryFigure.GetSegmentStrokePattern, IXpsOMGeometryFigure::GetSegmentStrokePattern, xps.ixpsomgeometryfigure_getsegmentstrokepattern, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentStrokePattern
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGeometryFigure.GetSegmentStrokePattern"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGeometryFigure.GetSegmentStrokePattern"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProfferService interface [Windows Shell],RevokeService method, IProfferService.RevokeService, IProfferService::RevokeService, RevokeService, RevokeService method [Windows Shell], RevokeService method [Windows Shell],IProfferService interface, inet_IProfferService_RevokeService, shell.IProfferService_RevokeService, shobjidl_core/IProfferService::RevokeService
 ms.topic: method
-f1_keywords: ["shobjidl_core/IProfferService.RevokeService"]
+f1_keywords: 
+ - "shobjidl_core/IProfferService.RevokeService"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

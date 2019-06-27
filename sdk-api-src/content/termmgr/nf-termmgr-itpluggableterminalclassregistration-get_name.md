@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],get_Name method, ITPluggableTerminalClassRegistration.get_Name, ITPluggableTerminalClassRegistration::get_Name, _tapi3_itpluggableterminalclassregistration_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_get_name, termmgr/ITPluggableTerminalClassRegistration::get_Name
 ms.topic: method
-f1_keywords: ["termmgr/ITPluggableTerminalClassRegistration.get_Name"]
+f1_keywords: 
+ - "termmgr/ITPluggableTerminalClassRegistration.get_Name"
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

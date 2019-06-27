@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFormattedText2, GetFormattedText2 method [Windows Controls], GetFormattedText2 method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetFormattedText2 method, ITextRange2.GetFormattedText2, ITextRange2::GetFormattedText2, controls.itextrange2_getformattedtext2, tom/ITextRange2::GetFormattedText2
 ms.topic: method
-f1_keywords: ["tom/ITextRange2.GetFormattedText2"]
+f1_keywords: 
+ - "tom/ITextRange2.GetFormattedText2"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Capabilities, Capabilities method [Windows Portable Devices SDK], Capabilities method [Windows Portable Devices SDK],IPortableDevice interface, IPortableDevice interface [Windows Portable Devices SDK],Capabilities method, IPortableDevice.Capabilities, IPortableDevice::Capabilities, IPortableDeviceCapabilities, portabledeviceapi/IPortableDevice::Capabilities, wpdsdk.iportabledevice_capabilities
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDevice.Capabilities"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDevice.Capabilities"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

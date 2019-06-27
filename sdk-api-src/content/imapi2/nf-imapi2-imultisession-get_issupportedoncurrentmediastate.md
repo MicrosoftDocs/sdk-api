@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMultisession interface [IMAPI],get_IsSupportedOnCurrentMediaState method, IMultisession.get_IsSupportedOnCurrentMediaState, IMultisession::get_IsSupportedOnCurrentMediaState, get_IsSupportedOnCurrentMediaState, get_IsSupportedOnCurrentMediaState method [IMAPI], get_IsSupportedOnCurrentMediaState method [IMAPI],IMultisession interface, imapi.imultisession_get_issupportedoncurrentmediastate, imapi2/IMultisession::get_IsSupportedOnCurrentMediaState
 ms.topic: method
-f1_keywords: ["imapi2/IMultisession.get_IsSupportedOnCurrentMediaState"]
+f1_keywords: 
+ - "imapi2/IMultisession.get_IsSupportedOnCurrentMediaState"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

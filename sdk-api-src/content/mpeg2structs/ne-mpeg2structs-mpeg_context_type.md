@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MPEG_CONTEXT_BCS_DEMUX, MPEG_CONTEXT_TYPE, MPEG_CONTEXT_TYPE enumeration [Microsoft TV Technologies], MPEG_CONTEXT_WINSOCK, mpeg2structs/MPEG_CONTEXT_BCS_DEMUX, mpeg2structs/MPEG_CONTEXT_TYPE, mpeg2structs/MPEG_CONTEXT_WINSOCK, mstv.mpeg_context_type
 ms.topic: enum
-f1_keywords: ["mpeg2structs/MPEG_CONTEXT_TYPE"]
+f1_keywords: 
+ - "mpeg2structs/MPEG_CONTEXT_TYPE"
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows

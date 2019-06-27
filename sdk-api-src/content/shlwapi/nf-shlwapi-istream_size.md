@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStream_Size, IStream_Size function [Windows Shell], _win32_IStream_Size, shell.IStream_Size, shlwapi/IStream_Size
 ms.topic: function
-f1_keywords: ["shlwapi/IStream_Size"]
+f1_keywords: 
+ - "shlwapi/IStream_Size"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

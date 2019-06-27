@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasEnumConnections, RasEnumConnections function [RAS], RasEnumConnectionsA, RasEnumConnectionsW, _ras_rasenumconnections, ras/RasEnumConnections, ras/RasEnumConnectionsA, ras/RasEnumConnectionsW, rras.rasenumconnections
 ms.topic: function
-f1_keywords: ["ras/RasEnumConnections"]
+f1_keywords: 
+ - "ras/RasEnumConnections"
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

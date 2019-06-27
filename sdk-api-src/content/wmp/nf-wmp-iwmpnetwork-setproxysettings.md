@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],setProxySettings method, IWMPNetwork.setProxySettings, IWMPNetwork::setProxySettings, IWMPNetworksetProxySettings, setProxySettings, setProxySettings method [Windows Media Player], setProxySettings method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_setproxysettings, wmp/IWMPNetwork::setProxySettings
 ms.topic: method
-f1_keywords: ["wmp/IWMPNetwork.setProxySettings"]
+f1_keywords: 
+ - "wmp/IWMPNetwork.setProxySettings"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

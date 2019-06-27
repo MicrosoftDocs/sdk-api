@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ShortToULongPtr, ShortToULongPtr function [Windows Shell], intsafe/ShortToULongPtr, shell.ShortToULongPtr
 ms.topic: function
-f1_keywords: ["intsafe/ShortToULongPtr"]
+f1_keywords: 
+ - "intsafe/ShortToULongPtr"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

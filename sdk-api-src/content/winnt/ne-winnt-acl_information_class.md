@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ACL_INFORMATION_CLASS, ACL_INFORMATION_CLASS enumeration [Security], AclRevisionInformation, AclSizeInformation, _win32_acl_information_class_str, security.acl_information_class, winnt/ACL_INFORMATION_CLASS, winnt/AclRevisionInformation, winnt/AclSizeInformation
 ms.topic: enum
-f1_keywords: ["winnt/ACL_INFORMATION_CLASS"]
+f1_keywords: 
+ - "winnt/ACL_INFORMATION_CLASS"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

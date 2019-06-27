@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationInterpolator2 interface [Windows Animation],SetDuration method, IUIAnimationInterpolator2.SetDuration, IUIAnimationInterpolator2::SetDuration, SetDuration, SetDuration method [Windows Animation], SetDuration method [Windows Animation],IUIAnimationInterpolator2 interface, uianimation.iuianimationinterpolator2_setduration, uianimation/IUIAnimationInterpolator2::SetDuration
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationInterpolator2.SetDuration"]
+f1_keywords: 
+ - "uianimation/IUIAnimationInterpolator2.SetDuration"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

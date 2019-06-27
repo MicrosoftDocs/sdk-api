@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanSetSecuritySettings, WlanSetSecuritySettings function [NativeWIFI], nwifi.wlansetsecuritysettings, wlanapi/WlanSetSecuritySettings
 ms.topic: function
-f1_keywords: ["wlanapi/WlanSetSecuritySettings"]
+f1_keywords: 
+ - "wlanapi/WlanSetSecuritySettings"
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

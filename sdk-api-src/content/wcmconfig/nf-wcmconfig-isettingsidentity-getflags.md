@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [SMI], GetFlags method [SMI],ISettingsIdentity interface, ISettingsIdentity interface [SMI],GetFlags method, ISettingsIdentity.GetFlags, ISettingsIdentity::GetFlags, smi.isettingsidentity_getflags, wcmconfig/ISettingsIdentity::GetFlags
 ms.topic: method
-f1_keywords: ["wcmconfig/ISettingsIdentity.GetFlags"]
+f1_keywords: 
+ - "wcmconfig/ISettingsIdentity.GetFlags"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

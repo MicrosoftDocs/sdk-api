@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LSA_OPEN_TOKEN_BY_LOGON_ID, LSA_OPEN_TOKEN_BY_LOGON_ID callback, OpenTokenByLogonId, OpenTokenByLogonId callback function [Security], ntsecpkg/OpenTokenByLogonId, security.opentokenbylogonid
 ms.topic: callback
-f1_keywords: ["ntsecpkg/OpenTokenByLogonId"]
+f1_keywords: 
+ - "ntsecpkg/OpenTokenByLogonId"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

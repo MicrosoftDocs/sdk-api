@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddFunctionName, AddFunctionName method [Tablet PC], AddFunctionName method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],AddFunctionName method, IMathInputControl.AddFunctionName, IMathInputControl::AddFunctionName, micaut/IMathInputControl::AddFunctionName, tablet.imathinputcontrol_addfunctionname
 ms.topic: method
-f1_keywords: ["micaut/IMathInputControl.AddFunctionName"]
+f1_keywords: 
+ - "micaut/IMathInputControl.AddFunctionName"
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows

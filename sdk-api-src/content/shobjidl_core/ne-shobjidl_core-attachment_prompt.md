@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ATTACHMENT_PROMPT, ATTACHMENT_PROMPT enumeration [Windows Shell], ATTACHMENT_PROMPT_EXEC, ATTACHMENT_PROMPT_EXEC_OR_SAVE, ATTACHMENT_PROMPT_NONE, ATTACHMENT_PROMPT_SAVE, _win32_ATTACHMENT_PROMPT, shell.ATTACHMENT_PROMPT, shobjidl_core/ATTACHMENT_PROMPT, shobjidl_core/ATTACHMENT_PROMPT_EXEC, shobjidl_core/ATTACHMENT_PROMPT_EXEC_OR_SAVE, shobjidl_core/ATTACHMENT_PROMPT_NONE, shobjidl_core/ATTACHMENT_PROMPT_SAVE
 ms.topic: enum
-f1_keywords: ["shobjidl_core/ATTACHMENT_PROMPT"]
+f1_keywords: 
+ - "shobjidl_core/ATTACHMENT_PROMPT"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

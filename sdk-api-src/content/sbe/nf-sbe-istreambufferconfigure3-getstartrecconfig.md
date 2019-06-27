@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStartRecConfig, GetStartRecConfig method [Microsoft TV Technologies], GetStartRecConfig method [Microsoft TV Technologies],IStreamBufferConfigure3 interface, IStreamBufferConfigure3 interface [Microsoft TV Technologies],GetStartRecConfig method, IStreamBufferConfigure3.GetStartRecConfig, IStreamBufferConfigure3::GetStartRecConfig, IStreamBufferConfigure3GetStartRecConfig, mstv.istreambufferconfigure3_getstartrecconfig, sbe/IStreamBufferConfigure3::GetStartRecConfig
 ms.topic: method
-f1_keywords: ["sbe/IStreamBufferConfigure3.GetStartRecConfig"]
+f1_keywords: 
+ - "sbe/IStreamBufferConfigure3.GetStartRecConfig"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

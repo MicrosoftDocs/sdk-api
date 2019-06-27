@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDirectoryTransacted, CreateDirectoryTransacted function [Files], CreateDirectoryTransactedA, CreateDirectoryTransactedW, fs.createdirectorytransacted, winbase/CreateDirectoryTransacted, winbase/CreateDirectoryTransactedA, winbase/CreateDirectoryTransactedW
 ms.topic: function
-f1_keywords: ["winbase/CreateDirectoryTransacted"]
+f1_keywords: 
+ - "winbase/CreateDirectoryTransacted"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

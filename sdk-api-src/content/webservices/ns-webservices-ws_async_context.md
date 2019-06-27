@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_ASYNC_CONTEXT, WS_ASYNC_CONTEXT structure [Web Services for Windows], webservices/WS_ASYNC_CONTEXT, wsw.ws_async_context
 ms.topic: struct
-f1_keywords: ["webservices/WS_ASYNC_CONTEXT"]
+f1_keywords: 
+ - "webservices/WS_ASYNC_CONTEXT"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

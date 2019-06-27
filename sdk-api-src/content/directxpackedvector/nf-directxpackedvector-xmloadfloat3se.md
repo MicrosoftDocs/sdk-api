@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMLoadFloat3SE, XMLoadFloat3SE, XMLoadFloat3SE method [DirectX Math Support APIs], dxmath.xmloadfloat3se
 ms.topic: function
-f1_keywords: ["directxpackedvector/XMLoadFloat3SE"]
+f1_keywords: 
+ - "directxpackedvector/XMLoadFloat3SE"
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows

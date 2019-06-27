@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarMgr interface [Text Services Framework],RestoreLastFocus method, ITfLangBarMgr.RestoreLastFocus, ITfLangBarMgr::RestoreLastFocus, RestoreLastFocus, RestoreLastFocus method [Text Services Framework], RestoreLastFocus method [Text Services Framework],ITfLangBarMgr interface, _tsf_itflangbarmgr_restorelastfocus_ref, ctfutb/ITfLangBarMgr::RestoreLastFocus, tsf.itflangbarmgr_restorelastfocus
 ms.topic: method
-f1_keywords: ["ctfutb/ITfLangBarMgr.RestoreLastFocus"]
+f1_keywords: 
+ - "ctfutb/ITfLangBarMgr.RestoreLastFocus"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

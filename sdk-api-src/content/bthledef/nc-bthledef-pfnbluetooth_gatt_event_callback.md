@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BluetoothGattEventCallback, BluetoothGattEventCallback callback function [Bluetooth Devices], PFNBLUETOOTH_GATT_EVENT_CALLBACK, PFNBLUETOOTH_GATT_EVENT_CALLBACK callback, bltooth.bluetooth_gatt_notification_callback_function, bthledef/BluetoothGattEventCallback
 ms.topic: callback
-f1_keywords: ["bthledef/BluetoothGattEventCallback"]
+f1_keywords: 
+ - "bthledef/BluetoothGattEventCallback"
 req.header: bthledef.h
 req.include-header: 
 req.target-type: Desktop

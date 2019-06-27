@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_GetToolbarItem method, IBrowserService2._GetToolbarItem, IBrowserService2::_GetToolbarItem, _GetToolbarItem, _GetToolbarItem method [Windows Shell], _GetToolbarItem method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_GetToolbarItem, shell.IBrowserService2__GetToolbarItem, zone_IBrowserService2__GetToolbarItem
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService2._GetToolbarItem"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService2._GetToolbarItem"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

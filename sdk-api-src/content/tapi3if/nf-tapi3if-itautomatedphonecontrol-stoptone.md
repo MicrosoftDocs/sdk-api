@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],StopTone method, ITAutomatedPhoneControl.StopTone, ITAutomatedPhoneControl::StopTone, StopTone, StopTone method [TAPI 2.2], StopTone method [TAPI 2.2],ITAutomatedPhoneControl interface, _tapi3_itautomatedphonecontrol_stoptone, tapi3.itautomatedphonecontrol_stoptone, tapi3if/ITAutomatedPhoneControl::StopTone
 ms.topic: method
-f1_keywords: ["tapi3if/ITAutomatedPhoneControl.StopTone"]
+f1_keywords: 
+ - "tapi3if/ITAutomatedPhoneControl.StopTone"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

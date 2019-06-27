@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleControl interface [COM],OnMnemonic method, IOleControl.OnMnemonic, IOleControl::OnMnemonic, OnMnemonic, OnMnemonic method [COM], OnMnemonic method [COM],IOleControl interface, _ctrl_iolecontrol_onmnemonic, com.iolecontrol_onmnemonic, ocidl/IOleControl::OnMnemonic
 ms.topic: method
-f1_keywords: ["ocidl/IOleControl.OnMnemonic"]
+f1_keywords: 
+ - "ocidl/IOleControl.OnMnemonic"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

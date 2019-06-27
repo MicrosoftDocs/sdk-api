@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MGM_FORWARD_STATE, MGM_JOIN_STATE_FLAG, MgmAddGroupMembershipEntry, MgmAddGroupMembershipEntry function [RAS], _mpr_mgmaddgroupmembershipentry, mgm/MgmAddGroupMembershipEntry, rras.mgmaddgroupmembershipentry
 ms.topic: function
-f1_keywords: ["mgm/MgmAddGroupMembershipEntry"]
+f1_keywords: 
+ - "mgm/MgmAddGroupMembershipEntry"
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

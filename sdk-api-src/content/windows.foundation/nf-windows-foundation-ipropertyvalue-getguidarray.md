@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGuidArray, GetGuidArray method [Windows Runtime], GetGuidArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetGuidArray method, IPropertyValue.GetGuidArray, IPropertyValue.IPropertyValue, IPropertyValue::GetGuidArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetGuidArray, winrt.ipropertyvalue_getguidarray
 ms.topic: method
-f1_keywords: ["windows.foundation/IPropertyValue.GetGuidArray"]
+f1_keywords: 
+ - "windows.foundation/IPropertyValue.GetGuidArray"
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

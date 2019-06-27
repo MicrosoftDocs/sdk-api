@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPNMLVCACHEHINT, NMLVCACHEHINT, NMLVCACHEHINT structure [Windows Controls], PNMLVCACHEHINT, PNMLVCACHEHINT structure pointer [Windows Controls], _win32_NMLVCACHEHINT, _win32_NMLVCACHEHINT_cpp, commctrl/NMLVCACHEHINT, commctrl/PNMLVCACHEHINT, controls.NMLVCACHEHINT, controls._win32_NMLVCACHEHINT"
 ms.topic: struct
-f1_keywords: ["commctrl/NMLVCACHEHINT"]
+f1_keywords: 
+ - "commctrl/NMLVCACHEHINT"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

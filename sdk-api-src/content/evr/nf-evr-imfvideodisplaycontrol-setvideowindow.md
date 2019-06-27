@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 50bc345c-ee44-4174-9b1a-e406041096b5, IMFVideoDisplayControl interface [Media Foundation],SetVideoWindow method, IMFVideoDisplayControl.SetVideoWindow, IMFVideoDisplayControl::SetVideoWindow, SetVideoWindow, SetVideoWindow method [Media Foundation], SetVideoWindow method [Media Foundation],IMFVideoDisplayControl interface, evr/IMFVideoDisplayControl::SetVideoWindow, mf.imfvideodisplaycontrol_setvideowindow
 ms.topic: method
-f1_keywords: ["evr/IMFVideoDisplayControl.SetVideoWindow"]
+f1_keywords: 
+ - "evr/IMFVideoDisplayControl.SetVideoWindow"
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

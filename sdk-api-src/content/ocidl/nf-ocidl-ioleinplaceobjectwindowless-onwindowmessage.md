@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceObjectWindowless interface [COM],OnWindowMessage method, IOleInPlaceObjectWindowless.OnWindowMessage, IOleInPlaceObjectWindowless::OnWindowMessage, OnWindowMessage, OnWindowMessage method [COM], OnWindowMessage method [COM],IOleInPlaceObjectWindowless interface, _ole_ioleinplaceobjectwindowless_onwindowmessage, com.ioleinplaceobjectwindowless_onwindowmessage, ocidl/IOleInPlaceObjectWindowless::OnWindowMessage
 ms.topic: method
-f1_keywords: ["ocidl/IOleInPlaceObjectWindowless.OnWindowMessage"]
+f1_keywords: 
+ - "ocidl/IOleInPlaceObjectWindowless.OnWindowMessage"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

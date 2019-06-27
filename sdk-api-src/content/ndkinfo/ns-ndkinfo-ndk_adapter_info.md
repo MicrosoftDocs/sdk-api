@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NDK_ADAPTER_FLAG_CQ_INTERRUPT_MODERATION_SUPPORTED, NDK_ADAPTER_FLAG_CQ_RESIZE_SUPPORTED, NDK_ADAPTER_FLAG_IN_ORDER_DMA_SUPPORTED, NDK_ADAPTER_FLAG_LOOPBACK_CONNECTIONS_SUPPORTED, NDK_ADAPTER_FLAG_MULTI_ENGINE_SUPPORTED, NDK_ADAPTER_FLAG_RDMA_READ_LOCAL_INVALIDATE_SUPPORTED, NDK_ADAPTER_FLAG_RDMA_READ_SINK_NOT_REQUIRED, NDK_ADAPTER_INFO, NDK_ADAPTER_INFO structure [Network Drivers Starting with Windows Vista], ndkinfo/NDK_ADAPTER_INFO, netvista.ndk_adapter_info
 ms.topic: struct
-f1_keywords: ["ndkinfo/NDK_ADAPTER_INFO"]
+f1_keywords: 
+ - "ndkinfo/NDK_ADAPTER_INFO"
 req.header: ndkinfo.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

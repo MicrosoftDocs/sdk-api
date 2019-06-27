@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_OPTION_VALUE, DHCP_OPTION_VALUE, DHCP_OPTION_VALUE structure [DHCP], LPDHCP_OPTION_VALUE, LPDHCP_OPTION_VALUE structure pointer [DHCP], dhcp.dhcp_option_value, dhcpsapi/LPDHCP_OPTION_VALUE, dhcpsapi/_DHCP_OPTION_VALUE"
 ms.topic: struct
-f1_keywords: ["dhcpsapi/DHCP_OPTION_VALUE"]
+f1_keywords: 
+ - "dhcpsapi/DHCP_OPTION_VALUE"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

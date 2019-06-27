@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngReleaseSemaphore, EngReleaseSemaphore function [Display Devices], display.engreleasesemaphore, gdifncs_e4181ebe-43c7-4a59-8f19-e1c37f89524b.xml, winddi/EngReleaseSemaphore
 ms.topic: function
-f1_keywords: ["winddi/EngReleaseSemaphore"]
+f1_keywords: 
+ - "winddi/EngReleaseSemaphore"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FALSE, ITravelLog interface [Windows Shell],UpdateEntry method, ITravelLog.UpdateEntry, ITravelLog::UpdateEntry, TRUE, UpdateEntry, UpdateEntry method [Windows Shell], UpdateEntry method [Windows Shell],ITravelLog interface, shdeprecated/ITravelLog::UpdateEntry, shell.ITravelLog_UpdateEntry, zone_ITravelLog_UpdateEntry
 ms.topic: method
-f1_keywords: ["shdeprecated/ITravelLog.UpdateEntry"]
+f1_keywords: 
+ - "shdeprecated/ITravelLog.UpdateEntry"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

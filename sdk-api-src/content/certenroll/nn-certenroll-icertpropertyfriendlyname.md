@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyFriendlyName, ICertPropertyFriendlyName interface [Security], ICertPropertyFriendlyName interface [Security],described, certenroll/ICertPropertyFriendlyName, security.icertpropertyfriendlyname
 ms.topic: interface
-f1_keywords: ["certenroll/ICertPropertyFriendlyName"]
+f1_keywords: 
+ - "certenroll/ICertPropertyFriendlyName"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

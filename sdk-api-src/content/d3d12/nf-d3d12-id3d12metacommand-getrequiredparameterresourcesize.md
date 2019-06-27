@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRequiredParameterResourceSize, GetRequiredParameterResourceSize method, GetRequiredParameterResourceSize method,ID3D12MetaCommand interface, ID3D12MetaCommand interface,GetRequiredParameterResourceSize method, ID3D12MetaCommand.GetRequiredParameterResourceSize, ID3D12MetaCommand::GetRequiredParameterResourceSize, d3d12/ID3D12MetaCommand::GetRequiredParameterResourceSize, direct3d12.id3d12metacommand_getrequiredparameterresourcesize
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12MetaCommand.GetRequiredParameterResourceSize"]
+f1_keywords: 
+ - "d3d12/ID3D12MetaCommand.GetRequiredParameterResourceSize"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

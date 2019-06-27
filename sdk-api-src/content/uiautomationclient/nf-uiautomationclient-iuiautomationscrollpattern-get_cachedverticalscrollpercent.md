@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedVerticalScrollPercent property [Windows Accessibility], CachedVerticalScrollPercent property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CachedVerticalScrollPercent property, IUIAutomationScrollPattern.CachedVerticalScrollPercent, IUIAutomationScrollPattern.get_CachedVerticalScrollPercent, IUIAutomationScrollPattern::CachedVerticalScrollPercent, IUIAutomationScrollPattern::get_CachedVerticalScrollPercent, get_CachedVerticalScrollPercent, uiauto.uiauto_IUIAutomationScrollPattern_CachedVerticalScrollPercent, uiauto_IUIAutomationScrollPattern_CachedVerticalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::CachedVerticalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::get_CachedVerticalScrollPercent, winauto.uiauto_IUIAutomationScrollPattern_CachedVerticalScrollPercent
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationScrollPattern.CachedVerticalScrollPercent"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationScrollPattern.CachedVerticalScrollPercent"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

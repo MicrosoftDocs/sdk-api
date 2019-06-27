@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PEERDIST_STATUS, PEERDIST_STATUS enumeration [Peer Networking], PEERDIST_STATUS_AVAILABLE, PEERDIST_STATUS_DISABLED, PEERDIST_STATUS_UNAVAILABLE, p2p.peerdist_status, peerdist/PEERDIST_STATUS, peerdist/PEERDIST_STATUS_AVAILABLE, peerdist/PEERDIST_STATUS_DISABLED, peerdist/PEERDIST_STATUS_UNAVAILABLE
 ms.topic: enum
-f1_keywords: ["peerdist/PEERDIST_STATUS"]
+f1_keywords: 
+ - "peerdist/PEERDIST_STATUS"
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

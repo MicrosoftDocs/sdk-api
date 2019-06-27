@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathUnquoteSpaces, PathUnquoteSpaces function [Windows Shell], PathUnquoteSpacesA, PathUnquoteSpacesW, _win32_PathUnquoteSpaces, shell.PathUnquoteSpaces, shlwapi/PathUnquoteSpaces, shlwapi/PathUnquoteSpacesA, shlwapi/PathUnquoteSpacesW
 ms.topic: function
-f1_keywords: ["shlwapi/PathUnquoteSpaces"]
+f1_keywords: 
+ - "shlwapi/PathUnquoteSpaces"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

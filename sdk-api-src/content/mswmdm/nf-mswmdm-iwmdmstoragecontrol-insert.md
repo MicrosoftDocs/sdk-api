@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorageControl interface [windows Media Device Manager],Insert method, IWMDMStorageControl.Insert, IWMDMStorageControl::Insert, IWMDMStorageControlInsert, Insert, Insert method [windows Media Device Manager], Insert method [windows Media Device Manager],IWMDMStorageControl interface, mswmdm/IWMDMStorageControl::Insert, wmdm.iwmdmstoragecontrol_insert
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMStorageControl.Insert"]
+f1_keywords: 
+ - "mswmdm/IWMDMStorageControl.Insert"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbSession interface [Remote Desktop Services],State property, ITsSbSession.State, ITsSbSession.get_State, ITsSbSession::State, ITsSbSession::get_State, ITsSbSession::put_State, State property [Remote Desktop Services], State property [Remote Desktop Services],ITsSbSession interface, get_State, sbtsv/ITsSbSession::State, sbtsv/ITsSbSession::get_State, sbtsv/ITsSbSession::put_State, termserv.itssbsession_state
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbSession.State"]
+f1_keywords: 
+ - "sbtsv/ITsSbSession.State"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

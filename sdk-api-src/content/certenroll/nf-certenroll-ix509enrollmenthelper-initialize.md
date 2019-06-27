@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509EnrollmentHelper interface [Security],Initialize method, IX509EnrollmentHelper.Initialize, IX509EnrollmentHelper::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509EnrollmentHelper interface, certenroll/IX509EnrollmentHelper::Initialize, security.ix509enrollmenthelper_initialize
 ms.topic: method
-f1_keywords: ["certenroll/IX509EnrollmentHelper.Initialize"]
+f1_keywords: 
+ - "certenroll/IX509EnrollmentHelper.Initialize"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

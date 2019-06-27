@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COMPRESSION_FORMAT_LZNT1, COMPRESSION_FORMAT_NONE, FSCTL_GET_COMPRESSION, FSCTL_GET_COMPRESSION control, FSCTL_GET_COMPRESSION control code [Files], _win32_fsctl_get_compression, all other values, base.fsctl_get_compression, fs.fsctl_get_compression, winioctl/FSCTL_GET_COMPRESSION
 ms.topic: ioctl
-f1_keywords: ["winioctl/FSCTL_GET_COMPRESSION"]
+f1_keywords: 
+ - "winioctl/FSCTL_GET_COMPRESSION"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

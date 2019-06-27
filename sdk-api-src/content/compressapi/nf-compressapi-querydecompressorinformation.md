@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QueryDecompressorInformation, QueryDecompressorInformation function [Compression API], cmpapi.querydecompressorinformation, compressapi/QueryDecompressorInformation
 ms.topic: function
-f1_keywords: ["compressapi/QueryDecompressorInformation"]
+f1_keywords: 
+ - "compressapi/QueryDecompressorInformation"
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows

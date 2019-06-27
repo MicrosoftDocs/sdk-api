@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QOSCancel, QOSCancel function [QOS], qos.qoscancel, qos2/QOSCancel
 ms.topic: function
-f1_keywords: ["qos2/QOSCancel"]
+f1_keywords: 
+ - "qos2/QOSCancel"
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows

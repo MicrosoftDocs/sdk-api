@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvEnableSurface, DrvEnableSurface function [Display Devices], ddifncs_c0044970-ac75-4dae-af55-f6fd87079dbb.xml, display.drvenablesurface, winddi/DrvEnableSurface
 ms.topic: function
-f1_keywords: ["winddi/DrvEnableSurface"]
+f1_keywords: 
+ - "winddi/DrvEnableSurface"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

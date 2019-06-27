@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 3f695ab4-8174-402f-b7d6-810f149f5153, IInkCursorButtons, IInkCursorButtons interface [Tablet PC], IInkCursorButtons interface [Tablet PC],described, msinkaut/IInkCursorButtons, tablet.iinkcursorbuttons
 ms.topic: interface
-f1_keywords: ["msinkaut/IInkCursorButtons"]
+f1_keywords: 
+ - "msinkaut/IInkCursorButtons"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

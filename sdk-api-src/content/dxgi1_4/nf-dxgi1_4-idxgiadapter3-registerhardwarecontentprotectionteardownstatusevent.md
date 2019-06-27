@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIAdapter3 interface [DXGI],RegisterHardwareContentProtectionTeardownStatusEvent method, IDXGIAdapter3.RegisterHardwareContentProtectionTeardownStatusEvent, IDXGIAdapter3::RegisterHardwareContentProtectionTeardownStatusEvent, RegisterHardwareContentProtectionTeardownStatusEvent, RegisterHardwareContentProtectionTeardownStatusEvent method [DXGI], RegisterHardwareContentProtectionTeardownStatusEvent method [DXGI],IDXGIAdapter3 interface, direct3ddxgi.idxgiadapter3_registerhardwarecontentprotectionteardownstatusevent, dxgi1_4/IDXGIAdapter3::RegisterHardwareContentProtectionTeardownStatusEvent
 ms.topic: method
-f1_keywords: ["dxgi1_4/IDXGIAdapter3.RegisterHardwareContentProtectionTeardownStatusEvent"]
+f1_keywords: 
+ - "dxgi1_4/IDXGIAdapter3.RegisterHardwareContentProtectionTeardownStatusEvent"
 req.header: dxgi1_4.h
 req.include-header: DXGI1_3.h
 req.target-type: Windows

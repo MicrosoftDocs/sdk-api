@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VkKeyScanEx, VkKeyScanEx function [Keyboard and Mouse Input], VkKeyScanExA, VkKeyScanExW, _win32_VkKeyScanEx, _win32_vkkeyscanex_cpp, inputdev.vkkeyscanex, winui._win32_vkkeyscanex, winuser/VkKeyScanEx, winuser/VkKeyScanExA, winuser/VkKeyScanExW
 ms.topic: function
-f1_keywords: ["winuser/VkKeyScanEx"]
+f1_keywords: 
+ - "winuser/VkKeyScanEx"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

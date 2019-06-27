@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarCyCmp, VarCyCmp function [Automation], _oa96_VarCyCmp, automat.varcycmp, oleauto/VarCyCmp
 ms.topic: function
-f1_keywords: ["oleauto/VarCyCmp"]
+f1_keywords: 
+ - "oleauto/VarCyCmp"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

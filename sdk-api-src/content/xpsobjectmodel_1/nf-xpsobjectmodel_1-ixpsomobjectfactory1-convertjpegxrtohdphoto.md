@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConvertJpegXRToHDPhoto, ConvertJpegXRToHDPhoto method [XPS Documents and Packaging], ConvertJpegXRToHDPhoto method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],ConvertJpegXRToHDPhoto method, IXpsOMObjectFactory1.ConvertJpegXRToHDPhoto, IXpsOMObjectFactory1::ConvertJpegXRToHDPhoto, xps.ixpsomobjectfactory1_convertjpegxrtohdphoto, xpsobjectmodel_1/IXpsOMObjectFactory1::ConvertJpegXRToHDPhoto
 ms.topic: method
-f1_keywords: ["xpsobjectmodel_1/IXpsOMObjectFactory1.ConvertJpegXRToHDPhoto"]
+f1_keywords: 
+ - "xpsobjectmodel_1/IXpsOMObjectFactory1.ConvertJpegXRToHDPhoto"
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows

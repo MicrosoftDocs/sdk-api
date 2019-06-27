@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_UDPTABLE_OWNER_MODULE, MIB_UDPTABLE_OWNER_MODULE, MIB_UDPTABLE_OWNER_MODULE structure [MIB], PMIB_UDPTABLE_OWNER_MODULE, PMIB_UDPTABLE_OWNER_MODULE structure pointer [MIB], iprtrmib/MIB_UDPTABLE_OWNER_MODULE, iprtrmib/PMIB_UDPTABLE_OWNER_MODULE, mib.mib_udptable_owner_module, udpmib/MIB_UDPTABLE_OWNER_MODULE, udpmib/PMIB_UDPTABLE_OWNER_MODULE"
 ms.topic: struct
-f1_keywords: ["udpmib/MIB_UDPTABLE_OWNER_MODULE"]
+f1_keywords: 
+ - "udpmib/MIB_UDPTABLE_OWNER_MODULE"
 req.header: udpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

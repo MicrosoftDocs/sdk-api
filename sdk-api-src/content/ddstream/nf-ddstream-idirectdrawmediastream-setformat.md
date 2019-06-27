@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawMediaStream interface [DirectShow],SetFormat method, IDirectDrawMediaStream.SetFormat, IDirectDrawMediaStream::SetFormat, IDirectDrawMediaStreamSetFormat, SetFormat, SetFormat method [DirectShow], SetFormat method [DirectShow],IDirectDrawMediaStream interface, ddstream/IDirectDrawMediaStream::SetFormat, dshow.idirectdrawmediastream_setformat
 ms.topic: method
-f1_keywords: ["ddstream/IDirectDrawMediaStream.SetFormat"]
+f1_keywords: 
+ - "ddstream/IDirectDrawMediaStream.SetFormat"
 req.header: ddstream.h
 req.include-header: 
 req.target-type: Windows

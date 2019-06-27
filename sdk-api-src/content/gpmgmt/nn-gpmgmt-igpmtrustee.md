@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMTrustee, IGPMTrustee, IGPMTrustee interface [GPMC], IGPMTrustee interface [GPMC],described, _win32_igpmtrustee, gpmc.igpmtrustee, gpmgmt/IGPMTrustee
 ms.topic: interface
-f1_keywords: ["gpmgmt/IGPMTrustee"]
+f1_keywords: 
+ - "gpmgmt/IGPMTrustee"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_SMIME_CAPABILITIES, CRYPT_SMIME_CAPABILITIES, CRYPT_SMIME_CAPABILITIES structure [Security], PCRYPT_SMIME_CAPABILITIES, PCRYPT_SMIME_CAPABILITIES structure pointer [Security], _crypto2_crypt_smime_capabilities, security.crypt_smime_capabilities, wincrypt/CRYPT_SMIME_CAPABILITIES, wincrypt/PCRYPT_SMIME_CAPABILITIES"
 ms.topic: struct
-f1_keywords: ["wincrypt/CRYPT_SMIME_CAPABILITIES"]
+f1_keywords: 
+ - "wincrypt/CRYPT_SMIME_CAPABILITIES"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

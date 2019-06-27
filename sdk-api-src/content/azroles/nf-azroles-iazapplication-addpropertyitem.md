@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_DELEGATED_POLICY_USERS, AZ_PROP_DELEGATED_POLICY_USERS_NAME, AZ_PROP_POLICY_ADMINS, AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS, AZ_PROP_POLICY_READERS_NAME, AddPropertyItem, AddPropertyItem method [Security], AddPropertyItem method [Security],AzApplication object, AddPropertyItem method [Security],IAzApplication interface, AzApplication object [Security],AddPropertyItem method, IAzApplication interface [Security],AddPropertyItem method, IAzApplication.AddPropertyItem, IAzApplication::AddPropertyItem, azroles/IAzApplication::AddPropertyItem, security.iazapplication_addpropertyitem
 ms.topic: method
-f1_keywords: ["azroles/IAzApplication.AddPropertyItem"]
+f1_keywords: 
+ - "azroles/IAzApplication.AddPropertyItem"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

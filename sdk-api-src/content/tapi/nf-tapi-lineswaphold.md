@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_lineswaphold, lineSwapHold, lineSwapHold function [TAPI 2.2], tapi/lineSwapHold, tapi2.lineswaphold"
 ms.topic: function
-f1_keywords: ["tapi/lineSwapHold"]
+f1_keywords: 
+ - "tapi/lineSwapHold"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

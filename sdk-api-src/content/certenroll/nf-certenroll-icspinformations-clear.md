@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ICspInformations interface, ICspInformations interface [Security],Clear method, ICspInformations.Clear, ICspInformations::Clear, certenroll/ICspInformations::Clear, security.icspinformations_clear_method
 ms.topic: method
-f1_keywords: ["certenroll/ICspInformations.Clear"]
+f1_keywords: 
+ - "certenroll/ICspInformations.Clear"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

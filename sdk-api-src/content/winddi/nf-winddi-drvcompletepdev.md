@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvCompletePDEV, DrvCompletePDEV function [Display Devices], ddifncs_7d8109c8-3f74-4ae2-99d3-e2d18ff4cc32.xml, display.drvcompletepdev, winddi/DrvCompletePDEV
 ms.topic: function
-f1_keywords: ["winddi/DrvCompletePDEV"]
+f1_keywords: 
+ - "winddi/DrvCompletePDEV"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

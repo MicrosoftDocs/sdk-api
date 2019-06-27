@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColorControls, GetColorControls method [DirectDraw], GetColorControls method [DirectDraw],IDirectDrawColorControl interface, IDirectDrawColorControl interface [DirectDraw],GetColorControls method, IDirectDrawColorControl.GetColorControls, IDirectDrawColorControl::GetColorControls, ddraw/IDirectDrawColorControl::GetColorControls, directdraw.idirectdrawcolorcontrol_getcolorcontrols
 ms.topic: method
-f1_keywords: ["ddraw/IDirectDrawColorControl.GetColorControls"]
+f1_keywords: 
+ - "ddraw/IDirectDrawColorControl.GetColorControls"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

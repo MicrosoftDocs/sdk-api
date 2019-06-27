@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetShaderIdentifier, GetShaderIdentifier method, GetShaderIdentifier method,ID3D12StateObjectProperties interface, ID3D12StateObjectProperties interface,GetShaderIdentifier method, ID3D12StateObjectProperties.GetShaderIdentifier, ID3D12StateObjectProperties::GetShaderIdentifier, d3d12/ID3D12StateObjectProperties::GetShaderIdentifier, direct3d12.id3d12stateobjectproperties_getshaderidentifier
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12StateObjectProperties.GetShaderIdentifier"]
+f1_keywords: 
+ - "d3d12/ID3D12StateObjectProperties.GetShaderIdentifier"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

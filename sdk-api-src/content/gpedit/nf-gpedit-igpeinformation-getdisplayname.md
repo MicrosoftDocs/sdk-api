@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Group Policy], GetDisplayName method [Group Policy],IGPEInformation interface, IGPEInformation interface [Group Policy],GetDisplayName method, IGPEInformation.GetDisplayName, IGPEInformation::GetDisplayName, _win32_igpeinformation_getdisplayname, gpedit/IGPEInformation::GetDisplayName, policy.igpeinformation_getdisplayname
 ms.topic: method
-f1_keywords: ["gpedit/IGPEInformation.GetDisplayName"]
+f1_keywords: 
+ - "gpedit/IGPEInformation.GetDisplayName"
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

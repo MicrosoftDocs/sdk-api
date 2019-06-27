@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],View method, IMSVidCtl.View, IMSVidCtl::View, IMSVidCtlView, View, View method [Microsoft TV Technologies], View method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_view, msvidctl/IMSVidCtl::View
 ms.topic: method
-f1_keywords: ["msvidctl/IMSVidCtl.View"]
+f1_keywords: 
+ - "msvidctl/IMSVidCtl.View"
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnroll2 interface [Security],SetHStoreROOT method, IEnroll2.SetHStoreROOT, IEnroll2::SetHStoreROOT, SetHStoreROOT, SetHStoreROOT method [Security], SetHStoreROOT method [Security],IEnroll2 interface, security.ienroll4_sethstoreroot, xenroll/IEnroll2::SetHStoreROOT
 ms.topic: method
-f1_keywords: ["xenroll/IEnroll2.SetHStoreROOT"]
+f1_keywords: 
+ - "xenroll/IEnroll2.SetHStoreROOT"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

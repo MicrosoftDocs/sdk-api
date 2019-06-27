@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMinimumSupportedVersion, GetMinimumSupportedVersion method [Windows Sync], GetMinimumSupportedVersion method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],GetMinimumSupportedVersion method, ISyncKnowledge2.GetMinimumSupportedVersion, ISyncKnowledge2::GetMinimumSupportedVersion, winsync.isyncknowledge2_getminimumsupportedversion, winsync/ISyncKnowledge2::GetMinimumSupportedVersion
 ms.topic: method
-f1_keywords: ["winsync/ISyncKnowledge2.GetMinimumSupportedVersion"]
+f1_keywords: 
+ - "winsync/ISyncKnowledge2.GetMinimumSupportedVersion"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

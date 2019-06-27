@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMenuItemID, GetMenuItemID function [Menus and Other Resources], _win32_GetMenuItemID, _win32_getmenuitemid_cpp, menurc.getmenuitemid, winui._win32_getmenuitemid, winuser/GetMenuItemID
 ms.topic: function
-f1_keywords: ["winuser/GetMenuItemID"]
+f1_keywords: 
+ - "winuser/GetMenuItemID"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

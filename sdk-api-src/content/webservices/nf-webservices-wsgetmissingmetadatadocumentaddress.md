@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsGetMissingMetadataDocumentAddress, WsGetMissingMetadataDocumentAddress function [Web Services for Windows], webservices/WsGetMissingMetadataDocumentAddress, wsw.wsgetmissingmetadatadocumentaddress
 ms.topic: function
-f1_keywords: ["webservices/WsGetMissingMetadataDocumentAddress"]
+f1_keywords: 
+ - "webservices/WsGetMissingMetadataDocumentAddress"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

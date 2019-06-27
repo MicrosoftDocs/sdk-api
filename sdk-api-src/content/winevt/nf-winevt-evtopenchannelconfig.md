@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtOpenChannelConfig, EvtOpenChannelConfig function [EventLog], wes.evtopenchannelconfig, winevt/EvtOpenChannelConfig
 ms.topic: function
-f1_keywords: ["winevt/EvtOpenChannelConfig"]
+f1_keywords: 
+ - "winevt/EvtOpenChannelConfig"
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

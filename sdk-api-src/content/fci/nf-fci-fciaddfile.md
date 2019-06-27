@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FCIAddFile, FCIAddFile function [Windows API], fci/FCIAddFile, tcompTYPE_MSZIP, tcompTYPE_NONE, winprog.fciaddfile
 ms.topic: function
-f1_keywords: ["fci/FCIAddFile"]
+f1_keywords: 
+ - "fci/FCIAddFile"
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_SEQUENCE_OF_ANY, CRYPT_SEQUENCE_OF_ANY, CRYPT_SEQUENCE_OF_ANY structure [Security], PCRYPT_SEQUENCE_OF_ANY, PCRYPT_SEQUENCE_OF_ANY structure pointer [Security], _crypto2_crypt_sequence_of_any, security.crypt_sequence_of_any, wincrypt/CRYPT_SEQUENCE_OF_ANY, wincrypt/PCRYPT_SEQUENCE_OF_ANY"
 ms.topic: struct
-f1_keywords: ["wincrypt/CRYPT_SEQUENCE_OF_ANY"]
+f1_keywords: 
+ - "wincrypt/CRYPT_SEQUENCE_OF_ANY"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

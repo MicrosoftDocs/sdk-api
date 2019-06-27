@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfFnShowHelp, ITfFnShowHelp interface [Text Services Framework], ITfFnShowHelp interface [Text Services Framework],described, _tsf_itffnshowhelp_ref, ctffunc/ITfFnShowHelp, tsf.itffnshowhelp
 ms.topic: interface
-f1_keywords: ["ctffunc/ITfFnShowHelp"]
+f1_keywords: 
+ - "ctffunc/ITfFnShowHelp"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMTSCall, IMTSCall interface [COM+], IMTSCall interface [COM+],described, _cos_IMTSCall, comsvcs/IMTSCall, cos.imtscall
 ms.topic: interface
-f1_keywords: ["comsvcs/IMTSCall"]
+f1_keywords: 
+ - "comsvcs/IMTSCall"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

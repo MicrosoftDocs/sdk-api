@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Audio, MSVidSinkStreams, MSVidSinkStreams enumeration [Microsoft TV Technologies], MSVidSinkStreamsEnumeration, Other, Video, mstv.msvidsinkstreams, segment/Audio, segment/MSVidSinkStreams, segment/Other, segment/Video
 ms.topic: enum
-f1_keywords: ["segment/MSVidSinkStreams"]
+f1_keywords: 
+ - "segment/MSVidSinkStreams"
 req.header: segment.h
 req.include-header: Dshow.h
 req.target-type: Windows

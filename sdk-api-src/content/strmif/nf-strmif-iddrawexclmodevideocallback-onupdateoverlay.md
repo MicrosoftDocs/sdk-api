@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDDrawExclModeVideoCallback interface [DirectShow],OnUpdateOverlay method, IDDrawExclModeVideoCallback.OnUpdateOverlay, IDDrawExclModeVideoCallback::OnUpdateOverlay, IDDrawExclModeVideoCallbackOnUpdateOverlay, OnUpdateOverlay, OnUpdateOverlay method [DirectShow], OnUpdateOverlay method [DirectShow],IDDrawExclModeVideoCallback interface, dshow.iddrawexclmodevideocallback_onupdateoverlay, strmif/IDDrawExclModeVideoCallback::OnUpdateOverlay
 ms.topic: method
-f1_keywords: ["strmif/IDDrawExclModeVideoCallback.OnUpdateOverlay"]
+f1_keywords: 
+ - "strmif/IDDrawExclModeVideoCallback.OnUpdateOverlay"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

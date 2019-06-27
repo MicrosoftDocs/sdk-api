@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_DUP_STRING, PRESUTIL_DUP_STRING function [Failover Cluster], ResUtilDupString, ResUtilDupString function [Failover Cluster], _wolf_resutildupstring, mscs.resutildupstring, resapi/PRESUTIL_DUP_STRING, resapi/ResUtilDupString
 ms.topic: function
-f1_keywords: ["resapi/ResUtilDupString"]
+f1_keywords: 
+ - "resapi/ResUtilDupString"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

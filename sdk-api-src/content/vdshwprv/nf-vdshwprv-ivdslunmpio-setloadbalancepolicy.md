@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsLunMpio interface [VDS],SetLoadBalancePolicy method, IVdsLunMpio.SetLoadBalancePolicy, IVdsLunMpio::SetLoadBalancePolicy, SetLoadBalancePolicy, SetLoadBalancePolicy method [VDS], SetLoadBalancePolicy method [VDS],IVdsLunMpio interface, base.ivdslunmpio_setloadbalancepolicy, vds/IVdsLunMpio::SetLoadBalancePolicy, vdshwprv/IVdsLunMpio::SetLoadBalancePolicy
 ms.topic: method
-f1_keywords: ["vdshwprv/IVdsLunMpio.SetLoadBalancePolicy"]
+f1_keywords: 
+ - "vdshwprv/IVdsLunMpio.SetLoadBalancePolicy"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

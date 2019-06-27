@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSimpleColorProfile, GetSimpleColorProfile method [Direct2D], GetSimpleColorProfile method [Direct2D],ID2D1ColorContext1 interface, ID2D1ColorContext1 interface [Direct2D],GetSimpleColorProfile method, ID2D1ColorContext1.GetSimpleColorProfile, ID2D1ColorContext1::GetSimpleColorProfile, d2d1_3/ID2D1ColorContext1::GetSimpleColorProfile, direct2d.id2d1colorcontext1_getsimplecolorprofile
 ms.topic: method
-f1_keywords: ["d2d1_3/ID2D1ColorContext1.GetSimpleColorProfile"]
+f1_keywords: 
+ - "d2d1_3/ID2D1ColorContext1.GetSimpleColorProfile"
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHistoryObject, GetHistoryObject method [Windows Shell], GetHistoryObject method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetHistoryObject method, IBrowserService.GetHistoryObject, IBrowserService::GetHistoryObject, shdeprecated/IBrowserService::GetHistoryObject, shell.IBrowserService_GetHistoryObject, zone_IBrowserService_GetHistoryObject
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService.GetHistoryObject"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService.GetHistoryObject"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Matrix4x4F interface [Direct2D],RotationY method, Matrix4x4F.RotationY, Matrix4x4F::RotationY, RotationY, RotationY method [Direct2D], RotationY method [Direct2D],Matrix4x4F interface, d2d1_1helper/Matrix4x4F::RotationY, direct2d.matrix4x4f_rotationy
 ms.topic: method
-f1_keywords: ["d2d1_1helper/Matrix4x4F.RotationY"]
+f1_keywords: 
+ - "d2d1_1helper/Matrix4x4F.RotationY"
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows

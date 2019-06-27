@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProgressNotify interface [COM],OnProgress method, IProgressNotify.OnProgress, IProgressNotify::OnProgress, OnProgress, OnProgress method [COM], OnProgress method [COM],IProgressNotify interface, _com_iprogressnotify_onprogress, com.iprogressnotify_onprogress, objidl/IProgressNotify::OnProgress
 ms.topic: method
-f1_keywords: ["objidl/IProgressNotify.OnProgress"]
+f1_keywords: 
+ - "objidl/IProgressNotify.OnProgress"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

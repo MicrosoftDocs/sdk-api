@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Edit_GetZoom, Edit_GetZoom macro [Windows Controls], commctrl/Edit_GetZoom, controls.edit_getzoom
 ms.topic: macro
-f1_keywords: ["commctrl/Edit_GetZoom"]
+f1_keywords: 
+ - "commctrl/Edit_GetZoom"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

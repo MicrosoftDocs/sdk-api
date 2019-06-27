@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVENT_INFO_CLASS, EVENT_INFO_CLASS enumeration [ETW], EventProviderBinaryTrackInfo, EventProviderSetTraits, EventProviderUseDescriptorType, MaxEventInfo, etw.event_info_class, evntprov/EVENT_INFO_CLASS, evntprov/EventProviderBinaryTrackInfo, evntprov/EventProviderSetTraits, evntprov/EventProviderUseDescriptorType, evntprov/MaxEventInfo
 ms.topic: enum
-f1_keywords: ["evntprov/EVENT_INFO_CLASS"]
+f1_keywords: 
+ - "evntprov/EVENT_INFO_CLASS"
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

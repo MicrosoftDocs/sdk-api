@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMTIMETYPE, DRMTIMETYPE enumeration [Active Directory Rights Management Services SDK 1.0], DRMTIMETYPE_SYSTEMLOCAL, DRMTIMETYPE_SYSTEMUTC, msdrmdefs/DRMTIMETYPE, msdrmdefs/DRMTIMETYPE_SYSTEMLOCAL, msdrmdefs/DRMTIMETYPE_SYSTEMUTC, rm.drmtimetype
 ms.topic: enum
-f1_keywords: ["msdrmdefs/DRMTIMETYPE"]
+f1_keywords: 
+ - "msdrmdefs/DRMTIMETYPE"
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows

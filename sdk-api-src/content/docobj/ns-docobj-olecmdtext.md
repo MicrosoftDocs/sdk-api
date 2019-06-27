@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OLECMDTEXT, OLECMDTEXT structure [COM], _ole_OLECMDTEXT, com.olecmdtext, docobj/OLECMDTEXT
 ms.topic: struct
-f1_keywords: ["docobj/OLECMDTEXT"]
+f1_keywords: 
+ - "docobj/OLECMDTEXT"
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

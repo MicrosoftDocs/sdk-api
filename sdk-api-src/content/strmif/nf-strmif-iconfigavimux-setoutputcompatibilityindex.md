@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConfigAviMux interface [DirectShow],SetOutputCompatibilityIndex method, IConfigAviMux.SetOutputCompatibilityIndex, IConfigAviMux::SetOutputCompatibilityIndex, IConfigAviMuxSetOutputCompatibilityIndex, SetOutputCompatibilityIndex, SetOutputCompatibilityIndex method [DirectShow], SetOutputCompatibilityIndex method [DirectShow],IConfigAviMux interface, dshow.iconfigavimux_setoutputcompatibilityindex, strmif/IConfigAviMux::SetOutputCompatibilityIndex
 ms.topic: method
-f1_keywords: ["strmif/IConfigAviMux.SetOutputCompatibilityIndex"]
+f1_keywords: 
+ - "strmif/IConfigAviMux.SetOutputCompatibilityIndex"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

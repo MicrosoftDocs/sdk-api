@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NCryptStreamUpdate, NCryptStreamUpdate function [Security], ncryptprotect/NCryptStreamUpdate, security.ncryptstreamupdate
 ms.topic: function
-f1_keywords: ["ncryptprotect/NCryptStreamUpdate"]
+f1_keywords: 
+ - "ncryptprotect/NCryptStreamUpdate"
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptUninstallDefaultContext, CryptUninstallDefaultContext function [Security], _crypto2_cryptuninstalldefaultcontext, security.cryptuninstalldefaultcontext, wincrypt/CryptUninstallDefaultContext
 ms.topic: function
-f1_keywords: ["wincrypt/CryptUninstallDefaultContext"]
+f1_keywords: 
+ - "wincrypt/CryptUninstallDefaultContext"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

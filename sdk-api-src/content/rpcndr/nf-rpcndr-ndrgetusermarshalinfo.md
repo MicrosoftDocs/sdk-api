@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrGetUserMarshalInfo, NdrGetUserMarshalInfo function [RPC], _rpc_ndrgetusermarshalinfo, rpc.ndrgetusermarshalinfo, rpcndr/NdrGetUserMarshalInfo
 ms.topic: function
-f1_keywords: ["rpcndr/NdrGetUserMarshalInfo"]
+f1_keywords: 
+ - "rpcndr/NdrGetUserMarshalInfo"
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

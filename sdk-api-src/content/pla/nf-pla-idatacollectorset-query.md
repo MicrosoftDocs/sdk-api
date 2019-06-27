@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],Query method, IDataCollectorSet.Query, IDataCollectorSet::Query, Query, Query method [PLA], Query method [PLA],IDataCollectorSet interface, base.idatacollectorset_query, pla.idatacollectorset_query, pla/IDataCollectorSet::Query
 ms.topic: method
-f1_keywords: ["pla/IDataCollectorSet.Query"]
+f1_keywords: 
+ - "pla/IDataCollectorSet.Query"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

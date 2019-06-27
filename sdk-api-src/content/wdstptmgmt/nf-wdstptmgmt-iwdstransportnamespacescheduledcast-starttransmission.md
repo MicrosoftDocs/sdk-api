@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespaceScheduledCast interface [Windows Deployment Services],StartTransmission method, IWdsTransportNamespaceScheduledCast.StartTransmission, IWdsTransportNamespaceScheduledCast::StartTransmission, StartTransmission, StartTransmission method [Windows Deployment Services], StartTransmission method [Windows Deployment Services],IWdsTransportNamespaceScheduledCast interface, wds.iwdstransportnamespacescheduledcast_starttransmission, wdstptmgmt/IWdsTransportNamespaceScheduledCast::StartTransmission
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportNamespaceScheduledCast.StartTransmission"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportNamespaceScheduledCast.StartTransmission"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

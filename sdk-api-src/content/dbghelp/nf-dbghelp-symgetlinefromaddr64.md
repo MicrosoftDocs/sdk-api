@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymGetLineFromAddr, SymGetLineFromAddr function, SymGetLineFromAddr64, SymGetLineFromAddr64 function, SymGetLineFromAddrW64, _win32_symgetlinefromaddr64, base.symgetlinefromaddr64, dbghelp/SymGetLineFromAddr, dbghelp/SymGetLineFromAddr64, dbghelp/SymGetLineFromAddrW64
 ms.topic: function
-f1_keywords: ["dbghelp/SymGetLineFromAddr64"]
+f1_keywords: 
+ - "dbghelp/SymGetLineFromAddr64"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

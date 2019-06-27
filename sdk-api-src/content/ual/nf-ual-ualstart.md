@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UalStart, UalStart function [User Access Logging], ual.ualstart, ual/UalStart
 ms.topic: function
-f1_keywords: ["ual/UalStart"]
+f1_keywords: 
+ - "ual/UalStart"
 req.header: ual.h
 req.include-header: 
 req.target-type: Windows

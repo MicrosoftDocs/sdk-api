@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_count_references, ldap.ldap__count__references, ldap.ldap_count_references, ldap_count_references, ldap_count_references function [LDAP], winldap/ldap_count_references"
 ms.topic: function
-f1_keywords: ["winldap/ldap_count_references"]
+f1_keywords: 
+ - "winldap/ldap_count_references"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDAttachment, IWSDAttachment interface, IWSDAttachment interface,described, ncd.iwsdattachment, wsdattachment/IWSDAttachment
 ms.topic: interface
-f1_keywords: ["wsdattachment/IWSDAttachment"]
+f1_keywords: 
+ - "wsdattachment/IWSDAttachment"
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

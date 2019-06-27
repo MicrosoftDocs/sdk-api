@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateUserBatch, CreateUserBatch method [Files], CreateUserBatch method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],CreateUserBatch method, IDiskQuotaControl.CreateUserBatch, IDiskQuotaControl::CreateUserBatch, _win32_idiskquotacontrol_createuserbatch, base.idiskquotacontrol_createuserbatch, dskquota/IDiskQuotaControl::CreateUserBatch, fs.idiskquotacontrol_createuserbatch
 ms.topic: method
-f1_keywords: ["dskquota/IDiskQuotaControl.CreateUserBatch"]
+f1_keywords: 
+ - "dskquota/IDiskQuotaControl.CreateUserBatch"
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptSIPVerifyIndirectData, CryptSIPVerifyIndirectData function [Security], mssip/CryptSIPVerifyIndirectData, security.cryptsipverifyindirectdata
 ms.topic: function
-f1_keywords: ["mssip/CryptSIPVerifyIndirectData"]
+f1_keywords: 
+ - "mssip/CryptSIPVerifyIndirectData"
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows

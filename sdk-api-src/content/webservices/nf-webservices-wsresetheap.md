@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsResetHeap, WsResetHeap function [Web Services for Windows], webservices/WsResetHeap, wsw.wsresetheap
 ms.topic: function
-f1_keywords: ["webservices/WsResetHeap"]
+f1_keywords: 
+ - "webservices/WsResetHeap"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPISharingSession interface [RDP],Open method, IRDPSRAPISharingSession.Open, IRDPSRAPISharingSession2 interface [RDP],Open method, IRDPSRAPISharingSession2::Open, IRDPSRAPISharingSession::Open, Open, Open method [RDP], Open method [RDP],IRDPSRAPISharingSession interface, Open method [RDP],IRDPSRAPISharingSession2 interface, rdp.irdpsrapisharingsession_open, rdpencomapi/IRDPSRAPISharingSession2::Open, rdpencomapi/IRDPSRAPISharingSession::Open
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPISharingSession2.Open"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPISharingSession2.Open"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

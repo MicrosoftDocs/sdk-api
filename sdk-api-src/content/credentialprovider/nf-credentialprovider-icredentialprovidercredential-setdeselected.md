@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredential interface [Windows Shell],SetDeselected method, ICredentialProviderCredential.SetDeselected, ICredentialProviderCredential::SetDeselected, SetDeselected, SetDeselected method [Windows Shell], SetDeselected method [Windows Shell],ICredentialProviderCredential interface, _shell_ICredentialProviderCredential_SetDeselected, credentialprovider/ICredentialProviderCredential::SetDeselected, shell.ICredentialProviderCredential_SetDeselected
 ms.topic: method
-f1_keywords: ["credentialprovider/ICredentialProviderCredential.SetDeselected"]
+f1_keywords: 
+ - "credentialprovider/ICredentialProviderCredential.SetDeselected"
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

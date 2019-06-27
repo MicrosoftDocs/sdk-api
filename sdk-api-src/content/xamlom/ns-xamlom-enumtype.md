@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumType, EnumType structure, PEnumType, PEnumType structure pointer, xaml_diagnostics.enumtype, xamlom/EnumType, xamlom/PEnumType
 ms.topic: struct
-f1_keywords: ["xamlom/EnumType"]
+f1_keywords: 
+ - "xamlom/EnumType"
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

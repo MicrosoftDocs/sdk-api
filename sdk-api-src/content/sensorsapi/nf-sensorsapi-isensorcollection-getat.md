@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method, GetAt method,ISensorCollection interface, ISensorCollection interface,GetAt method, ISensorCollection.GetAt, ISensorCollection::GetAt, sensorsapi/ISensorCollection::GetAt, winsensors_com_ref.isensorcollection_getat
 ms.topic: method
-f1_keywords: ["sensorsapi/ISensorCollection.GetAt"]
+f1_keywords: 
+ - "sensorsapi/ISensorCollection.GetAt"
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

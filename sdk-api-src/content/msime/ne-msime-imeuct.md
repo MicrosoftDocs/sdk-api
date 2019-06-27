@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFED_UCT_NONE, IFED_UCT_STRING_SJIS, IFED_UCT_STRING_UNICODE, IFED_UCT_USER_DEFINED, IMEUCT, IMEUCT enumeration [Internationalization for Windows Applications], intl.imeuct, msime/IFED_UCT_NONE, msime/IFED_UCT_STRING_SJIS, msime/IFED_UCT_STRING_UNICODE, msime/IFED_UCT_USER_DEFINED, msime/IMEUCT
 ms.topic: enum
-f1_keywords: ["msime/IMEUCT"]
+f1_keywords: 
+ - "msime/IMEUCT"
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

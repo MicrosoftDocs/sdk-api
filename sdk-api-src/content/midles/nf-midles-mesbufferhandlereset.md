@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MesBufferHandleReset, MesBufferHandleReset function [RPC], _rpc_mesbufferhandlereset, midles/MesBufferHandleReset, rpc.mesbufferhandlereset
 ms.topic: function
-f1_keywords: ["midles/MesBufferHandleReset"]
+f1_keywords: 
+ - "midles/MesBufferHandleReset"
 req.header: midles.h
 req.include-header: Rpc.h
 req.target-type: Windows

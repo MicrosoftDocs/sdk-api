@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Matrix, Matrix class [GDI+], Matrix class [GDI+],described, _gdiplus_CLASS_Matrix_Class, gdiplus._gdiplus_CLASS_Matrix_Class, gdiplusmatrix/Matrix
 ms.topic: class
-f1_keywords: ["gdiplusmatrix/Matrix"]
+f1_keywords: 
+ - "gdiplusmatrix/Matrix"
 req.header: gdiplusmatrix.h
 req.include-header: 
 req.target-type: Windows

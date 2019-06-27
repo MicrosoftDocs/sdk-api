@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumMessagesDeniedByStorageFilter, GetNumMessagesDeniedByStorageFilter method [DXGI], GetNumMessagesDeniedByStorageFilter method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetNumMessagesDeniedByStorageFilter method, IDXGIInfoQueue.GetNumMessagesDeniedByStorageFilter, IDXGIInfoQueue::GetNumMessagesDeniedByStorageFilter, direct3ddxgi.idxgiinfoqueue_getnummessagesdeniedbystoragefilter, dxgidebug/IDXGIInfoQueue::GetNumMessagesDeniedByStorageFilter
 ms.topic: method
-f1_keywords: ["dxgidebug/IDXGIInfoQueue.GetNumMessagesDeniedByStorageFilter"]
+f1_keywords: 
+ - "dxgidebug/IDXGIInfoQueue.GetNumMessagesDeniedByStorageFilter"
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

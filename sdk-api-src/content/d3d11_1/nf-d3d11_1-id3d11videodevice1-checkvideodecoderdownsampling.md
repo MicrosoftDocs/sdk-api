@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckVideoDecoderDownsampling, CheckVideoDecoderDownsampling method [Media Foundation], CheckVideoDecoderDownsampling method [Media Foundation],ID3D11VideoDevice1 interface, ID3D11VideoDevice1 interface [Media Foundation],CheckVideoDecoderDownsampling method, ID3D11VideoDevice1.CheckVideoDecoderDownsampling, ID3D11VideoDevice1::CheckVideoDecoderDownsampling, d3d11_1/ID3D11VideoDevice1::CheckVideoDecoderDownsampling, mf.id3d11videodevice1_checkvideodecoderdownsampling
 ms.topic: method
-f1_keywords: ["d3d11_1/ID3D11VideoDevice1.CheckVideoDecoderDownsampling"]
+f1_keywords: 
+ - "d3d11_1/ID3D11VideoDevice1.CheckVideoDecoderDownsampling"
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 90e06f28-a9a0-3b66-9901-3e60886b896d, ID3D11DeviceContext interface [Direct3D 11],SOGetTargets method, ID3D11DeviceContext.SOGetTargets, ID3D11DeviceContext::SOGetTargets, SOGetTargets, SOGetTargets method [Direct3D 11], SOGetTargets method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::SOGetTargets, direct3d11.id3d11devicecontext_sogettargets
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11DeviceContext.SOGetTargets"]
+f1_keywords: 
+ - "d3d11/ID3D11DeviceContext.SOGetTargets"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

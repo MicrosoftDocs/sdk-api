@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TranslateAccelerator, TranslateAccelerator function [Menus and Other Resources], TranslateAcceleratorA, TranslateAcceleratorW, _win32_TranslateAccelerator, _win32_translateaccelerator_cpp, menurc.translateaccelerator, winui._win32_translateaccelerator, winuser/TranslateAccelerator, winuser/TranslateAcceleratorA, winuser/TranslateAcceleratorW
 ms.topic: function
-f1_keywords: ["winuser/TranslateAccelerator"]
+f1_keywords: 
+ - "winuser/TranslateAccelerator"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

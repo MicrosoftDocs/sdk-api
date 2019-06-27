@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisableWdsTransportServices, DisableWdsTransportServices method [Windows Deployment Services], DisableWdsTransportServices method [Windows Deployment Services],IWdsTransportConfigurationManager interface, IWdsTransportConfigurationManager interface [Windows Deployment Services],DisableWdsTransportServices method, IWdsTransportConfigurationManager.DisableWdsTransportServices, IWdsTransportConfigurationManager::DisableWdsTransportServices, wds.iwdstransportconfigurationmanager_disablewdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::DisableWdsTransportServices
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportConfigurationManager.DisableWdsTransportServices"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportConfigurationManager.DisableWdsTransportServices"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMGetClientVersion, DRMGetClientVersion function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetClientVersion, rm.drmgetclientversion
 ms.topic: function
-f1_keywords: ["msdrm/DRMGetClientVersion"]
+f1_keywords: 
+ - "msdrm/DRMGetClientVersion"
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

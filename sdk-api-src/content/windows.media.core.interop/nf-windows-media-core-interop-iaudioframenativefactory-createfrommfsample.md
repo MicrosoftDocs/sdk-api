@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateFromMFSample, CreateFromMFSample method [Windows Runtime], CreateFromMFSample method [Windows Runtime],IAudioFrameNativeFactory interface, IAudioFrameNativeFactory interface [Windows Runtime],CreateFromMFSample method, IAudioFrameNativeFactory.CreateFromMFSample, IAudioFrameNativeFactory.core, IAudioFrameNativeFactory::CreateFromMFSample, IAudioFrameNativeFactory::core, windows/IAudioFrameNativeFactory::CreateFromMFSample, winrt.iaudioframenativefactory_createfrommfsample
 ms.topic: method
-f1_keywords: ["windows.media.core.interop/IAudioFrameNativeFactory.CreateFromMFSample"]
+f1_keywords: 
+ - "windows.media.core.interop/IAudioFrameNativeFactory.CreateFromMFSample"
 req.header: windows.media.core.interop.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CITextToSelectTree, CITextToSelectTree function [Indexing Service], _idxs_CITextToSelectTree, indexsrv.citexttoselecttree, ntquery/CITextToSelectTree
 ms.topic: function
-f1_keywords: ["ntquery/CITextToSelectTree"]
+f1_keywords: 
+ - "ntquery/CITextToSelectTree"
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 425a4a37-6fd3-4724-9d18-c39cc2862ef7, IMFAudioMediaType, IMFAudioMediaType interface [Media Foundation], IMFAudioMediaType interface [Media Foundation],described, mf.imfaudiomediatype, mfobjects/IMFAudioMediaType
 ms.topic: interface
-f1_keywords: ["mfobjects/IMFAudioMediaType"]
+f1_keywords: 
+ - "mfobjects/IMFAudioMediaType"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

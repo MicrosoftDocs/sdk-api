@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfFnPropertyUIStatus, ITfFnPropertyUIStatus interface [Text Services Framework], ITfFnPropertyUIStatus interface [Text Services Framework],described, _tsf_itffnpropertyuistatus_ref, ctffunc/ITfFnPropertyUIStatus, tsf.itffnpropertyuistatus
 ms.topic: interface
-f1_keywords: ["ctffunc/ITfFnPropertyUIStatus"]
+f1_keywords: 
+ - "ctffunc/ITfFnPropertyUIStatus"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

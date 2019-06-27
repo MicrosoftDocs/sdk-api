@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ColorHLSToRGB, ColorHLSToRGB function [Windows Shell], _win32_ColorHLSToRGB, shell.ColorHLSToRGB, shlwapi/ColorHLSToRGB
 ms.topic: function
-f1_keywords: ["shlwapi/ColorHLSToRGB"]
+f1_keywords: 
+ - "shlwapi/ColorHLSToRGB"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

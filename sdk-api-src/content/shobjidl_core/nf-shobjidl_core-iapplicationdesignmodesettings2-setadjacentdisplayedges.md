@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADE_LEFT, ADE_NONE, ADE_RIGHT, IApplicationDesignModeSettings2 interface [Windows Shell],SetAdjacentDisplayEdges method, IApplicationDesignModeSettings2.SetAdjacentDisplayEdges, IApplicationDesignModeSettings2::SetAdjacentDisplayEdges, SetAdjacentDisplayEdges, SetAdjacentDisplayEdges method [Windows Shell], SetAdjacentDisplayEdges method [Windows Shell],IApplicationDesignModeSettings2 interface, shell.IApplicationDesignModeSettings2_SetAdjacentDisplayEdges, shobjidl_core/IApplicationDesignModeSettings2::SetAdjacentDisplayEdges
 ms.topic: method
-f1_keywords: ["shobjidl_core/IApplicationDesignModeSettings2.SetAdjacentDisplayEdges"]
+f1_keywords: 
+ - "shobjidl_core/IApplicationDesignModeSettings2.SetAdjacentDisplayEdges"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

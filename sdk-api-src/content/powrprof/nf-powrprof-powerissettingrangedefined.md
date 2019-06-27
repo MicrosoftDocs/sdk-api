@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PowerIsSettingRangeDefined, PowerIsSettingRangeDefined function, base.powerissettingrangedefined, powrprof/PowerIsSettingRangeDefined
 ms.topic: function
-f1_keywords: ["powrprof/PowerIsSettingRangeDefined"]
+f1_keywords: 
+ - "powrprof/PowerIsSettingRangeDefined"
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

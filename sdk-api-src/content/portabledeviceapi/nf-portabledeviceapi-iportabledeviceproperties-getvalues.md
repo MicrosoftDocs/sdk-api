@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetValues, GetValues method [Windows Portable Devices SDK], GetValues method [Windows Portable Devices SDK],IPortableDeviceProperties interface, IPortableDeviceProperties interface [Windows Portable Devices SDK],GetValues method, IPortableDeviceProperties.GetValues, IPortableDeviceProperties::GetValues, IPortableDevicePropertiesGetValues, portabledeviceapi/IPortableDeviceProperties::GetValues, wpdsdk.iportabledeviceproperties_getvalues
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceProperties.GetValues"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceProperties.GetValues"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

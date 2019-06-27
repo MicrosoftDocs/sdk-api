@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PQOS_SET_FLOW, PQOS_SET_FLOW, PQOS_SET_FLOW enumeration pointer [QOS], QOSSetOutgoingDSCPValue, QOSSetOutgoingRate, QOSSetTrafficType, QOS_SET_FLOW, QOS_SET_FLOW enumeration [QOS], qos.qos_set_flow, qos2/PQOS_SET_FLOW, qos2/QOSSetOutgoingDSCPValue, qos2/QOSSetOutgoingRate, qos2/QOSSetTrafficType, qos2/QOS_SET_FLOW"
 ms.topic: enum
-f1_keywords: ["qos2/QOS_SET_FLOW"]
+f1_keywords: 
+ - "qos2/QOS_SET_FLOW"
 req.header: qos2.h
 req.include-header: 
 req.target-type: Windows

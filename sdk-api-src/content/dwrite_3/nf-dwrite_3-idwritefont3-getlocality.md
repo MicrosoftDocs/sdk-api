@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLocality, GetLocality method [Direct Write], GetLocality method [Direct Write],IDWriteFont3 interface, IDWriteFont3 interface [Direct Write],GetLocality method, IDWriteFont3.GetLocality, IDWriteFont3::GetLocality, directwrite.idwritefont3_getlocality, dwrite_3/IDWriteFont3::GetLocality
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteFont3.GetLocality"]
+f1_keywords: 
+ - "dwrite_3/IDWriteFont3.GetLocality"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

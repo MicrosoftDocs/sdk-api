@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MMCPropertyHelp, MMCPropertyHelp callback, MMCPropertyHelp callback function [MMC], _slate_mmcpropertyhelp, mmc.mmcpropertyhelp, mmc/MMCPropertyHelp
 ms.topic: function
-f1_keywords: ["mmc/MMCPropertyHelp"]
+f1_keywords: 
+ - "mmc/MMCPropertyHelp"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

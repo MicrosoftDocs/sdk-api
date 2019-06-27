@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateWindowEx, CreateWindowEx function [Windows and Messages], CreateWindowExA, CreateWindowExW, _win32_CreateWindowEx, _win32_createwindowex_cpp, winmsg.createwindowex, winui._win32_createwindowex, winuser/CreateWindowEx, winuser/CreateWindowExA, winuser/CreateWindowExW
 ms.topic: function
-f1_keywords: ["winuser/CreateWindowEx"]
+f1_keywords: 
+ - "winuser/CreateWindowEx"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

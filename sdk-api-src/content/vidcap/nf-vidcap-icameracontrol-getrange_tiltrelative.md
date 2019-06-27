@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_TiltRelative method, ICameraControl.getRange_TiltRelative, ICameraControl::getRange_TiltRelative, ICameraControlgetRange_TiltRelative, dshow.icameracontrol_getrange_tiltrelative, getRange_TiltRelative, getRange_TiltRelative method [DirectShow], getRange_TiltRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_TiltRelative
 ms.topic: method
-f1_keywords: ["vidcap/ICameraControl.getRange_TiltRelative"]
+f1_keywords: 
+ - "vidcap/ICameraControl.getRange_TiltRelative"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

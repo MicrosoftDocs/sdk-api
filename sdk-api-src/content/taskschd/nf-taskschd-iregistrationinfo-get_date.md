@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Date property [Task Scheduler], Date property [Task Scheduler],IRegistrationInfo interface, IRegistrationInfo interface [Task Scheduler],Date property, IRegistrationInfo.Date, IRegistrationInfo.get_Date, IRegistrationInfo::Date, IRegistrationInfo::get_Date, IRegistrationInfo::put_Date, get_Date, taskschd.iregistrationinfo_date, taskschd/IRegistrationInfo::Date, taskschd/IRegistrationInfo::get_Date, taskschd/IRegistrationInfo::put_Date
 ms.topic: method
-f1_keywords: ["taskschd/IRegistrationInfo.Date"]
+f1_keywords: 
+ - "taskschd/IRegistrationInfo.Date"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

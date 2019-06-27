@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 79d64632-a0ac-4c1b-83e3-76c9fbd11da9, SCROLLDIRECTION, SCROLLDIRECTION enumeration [Tablet PC], SCROLLDIRECTION_DOWN, SCROLLDIRECTION_UP, tabflicks/SCROLLDIRECTION, tabflicks/SCROLLDIRECTION_DOWN, tabflicks/SCROLLDIRECTION_UP, tablet.scrolldirection
 ms.topic: enum
-f1_keywords: ["tabflicks/SCROLLDIRECTION"]
+f1_keywords: 
+ - "tabflicks/SCROLLDIRECTION"
 req.header: tabflicks.h
 req.include-header: 
 req.target-type: Windows

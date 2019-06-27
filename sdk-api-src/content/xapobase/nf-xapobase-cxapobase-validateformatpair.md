@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CXAPOBase interface [XAudio2 Audio Mixing APIs],ValidateFormatPair method, CXAPOBase.ValidateFormatPair, CXAPOBase::ValidateFormatPair, ValidateFormatPair, ValidateFormatPair method [XAudio2 Audio Mixing APIs], ValidateFormatPair method [XAudio2 Audio Mixing APIs],CXAPOBase interface, xapobase/CXAPOBase::ValidateFormatPair, xaudio2.cxapobase_validateformatpair
 ms.topic: method
-f1_keywords: ["xapobase/CXAPOBase.ValidateFormatPair"]
+f1_keywords: 
+ - "xapobase/CXAPOBase.ValidateFormatPair"
 req.header: xapobase.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SizeTToInt, SizeTToInt function [Windows Shell], ULongPtrToInt, _shell_SizeTToInt, intsafe/SizeTToInt, shell.SizeTToInt
 ms.topic: function
-f1_keywords: ["intsafe/SizeTToInt"]
+f1_keywords: 
+ - "intsafe/SizeTToInt"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

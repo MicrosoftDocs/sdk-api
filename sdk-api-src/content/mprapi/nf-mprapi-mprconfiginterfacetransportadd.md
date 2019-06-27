@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceTransportAdd, MprConfigInterfaceTransportAdd function [RAS], _mpr_mprconfiginterfacetransportadd, mprapi/MprConfigInterfaceTransportAdd, rras.mprconfiginterfacetransportadd
 ms.topic: function
-f1_keywords: ["mprapi/MprConfigInterfaceTransportAdd"]
+f1_keywords: 
+ - "mprapi/MprConfigInterfaceTransportAdd"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

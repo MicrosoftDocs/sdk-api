@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvGetTrueTypeFile, DrvGetTrueTypeFile function [Display Devices], ddifncs_ce14ab7e-837a-4e44-bae6-7630912ff16a.xml, display.drvgettruetypefile, winddi/DrvGetTrueTypeFile
 ms.topic: function
-f1_keywords: ["winddi/DrvGetTrueTypeFile"]
+f1_keywords: 
+ - "winddi/DrvGetTrueTypeFile"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

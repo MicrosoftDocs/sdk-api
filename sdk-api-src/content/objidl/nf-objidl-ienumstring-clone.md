@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumString interface, IEnumString interface [COM],Clone method, IEnumString.Clone, IEnumString::Clone, _com_ienumstring_clone, com.ienumstring_clone, objidlbase/IEnumString::Clone
 ms.topic: method
-f1_keywords: ["objidl/IEnumString.Clone"]
+f1_keywords: 
+ - "objidl/IEnumString.Clone"
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundingOrientedBox interface [DirectX Math Support APIs],Contains method, BoundingOrientedBox.Contains, BoundingOrientedBox.Contains(FXMVECTOR,FXMVECTOR,FXMVECTOR), BoundingOrientedBox.Contains(XMVECTOR,XMVECTOR,XMVECTOR), BoundingOrientedBox::Contains, BoundingOrientedBox::Contains(FXMVECTOR,FXMVECTOR,FXMVECTOR), Contains, Contains method [DirectX Math Support APIs], Contains method [DirectX Math Support APIs],BoundingOrientedBox interface, dxmath.boundingorientedbox_contains_2
 ms.topic: method
-f1_keywords: ["directxcollision/BoundingOrientedBox.Contains"]
+f1_keywords: 
+ - "directxcollision/BoundingOrientedBox.Contains"
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSP_INF_SIGNER_INFO_V1_W, PSP_INF_SIGNER_INFO, PSP_INF_SIGNER_INFO structure pointer [Setup API], SP_INF_SIGNER_INFO, SP_INF_SIGNER_INFO structure [Setup API], SP_INF_SIGNER_INFO_V1, SP_INF_SIGNER_INFO_V1_W, SP_INF_SIGNER_INFO_W, _setupapi_filepaths_signerinfo, setup.sp_inf_signer_info, setupapi/PSP_INF_SIGNER_INFO, setupapi/SP_INF_SIGNER_INFO"
 ms.topic: struct
-f1_keywords: ["setupapi/SP_INF_SIGNER_INFO"]
+f1_keywords: 
+ - "setupapi/SP_INF_SIGNER_INFO"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

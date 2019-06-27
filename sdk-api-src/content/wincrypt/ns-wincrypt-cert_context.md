@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_CONTEXT, CERT_CONTEXT, CERT_CONTEXT structure [Security], PCCERT_CONTEXT, PCCERT_CONTEXT structure pointer [Security], PCERT_CONTEXT, PCERT_CONTEXT structure pointer [Security], _crypto2_cert_context, security.cert_context, wincrypt/CERT_CONTEXT, wincrypt/PCCERT_CONTEXT, wincrypt/PCERT_CONTEXT"
 ms.topic: struct
-f1_keywords: ["wincrypt/CERT_CONTEXT"]
+f1_keywords: 
+ - "wincrypt/CERT_CONTEXT"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

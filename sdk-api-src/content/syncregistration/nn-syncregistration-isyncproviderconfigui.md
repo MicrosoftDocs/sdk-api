@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncProviderConfigUI, ISyncProviderConfigUI interface [Windows Sync], ISyncProviderConfigUI interface [Windows Sync],described, syncregistration/ISyncProviderConfigUI, winsync.isyncproviderconfigui
 ms.topic: interface
-f1_keywords: ["syncregistration/ISyncProviderConfigUI"]
+f1_keywords: 
+ - "syncregistration/ISyncProviderConfigUI"
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

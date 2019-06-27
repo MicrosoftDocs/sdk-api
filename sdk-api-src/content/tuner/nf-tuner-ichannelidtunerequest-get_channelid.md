@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ChannelID property [Microsoft TV Technologies], ChannelID property [Microsoft TV Technologies],IChannelIDTuneRequest interface, IChannelIDTuneRequest interface [Microsoft TV Technologies],ChannelID property, IChannelIDTuneRequest.ChannelID, IChannelIDTuneRequest.get_ChannelID, IChannelIDTuneRequest::ChannelID, IChannelIDTuneRequest::get_ChannelID, IChannelIDTuneRequest::put_ChannelID, get_ChannelID, mstv.ichannelidtunerequest_channelid, tuner/IChannelIDTuneRequest::ChannelID, tuner/IChannelIDTuneRequest::get_ChannelID, tuner/IChannelIDTuneRequest::put_ChannelID
 ms.topic: method
-f1_keywords: ["tuner/IChannelIDTuneRequest.ChannelID"]
+f1_keywords: 
+ - "tuner/IChannelIDTuneRequest.ChannelID"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

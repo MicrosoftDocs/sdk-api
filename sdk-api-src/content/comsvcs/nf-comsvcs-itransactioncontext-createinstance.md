@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [COM+], CreateInstance method [COM+],ITransactionContext interface, ITransactionContext interface [COM+],CreateInstance method, ITransactionContext.CreateInstance, ITransactionContext::CreateInstance, _cos_ITransactionContext_CreateInstance, comsvcs/ITransactionContext::CreateInstance, cos.itransactioncontext_createinstance
 ms.topic: method
-f1_keywords: ["comsvcs/ITransactionContext.CreateInstance"]
+f1_keywords: 
+ - "comsvcs/ITransactionContext.CreateInstance"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

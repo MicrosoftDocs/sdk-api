@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngUnsecureMem, EngUnsecureMem function [Display Devices], display.engunsecuremem, gdifncs_3e27ea5f-a5a9-40c8-8540-79499664f97d.xml, winddi/EngUnsecureMem
 ms.topic: function
-f1_keywords: ["winddi/EngUnsecureMem"]
+f1_keywords: 
+ - "winddi/EngUnsecureMem"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

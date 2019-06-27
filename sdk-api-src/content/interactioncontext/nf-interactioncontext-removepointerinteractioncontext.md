@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RemovePointerInteractionContext, RemovePointerInteractionContext function, input_intcontext.removepointerinteractioncontext, interactioncontext.removepointerinteractioncontext, interactioncontext/RemovePointerInteractionContext
 ms.topic: function
-f1_keywords: ["interactioncontext/RemovePointerInteractionContext"]
+f1_keywords: 
+ - "interactioncontext/RemovePointerInteractionContext"
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

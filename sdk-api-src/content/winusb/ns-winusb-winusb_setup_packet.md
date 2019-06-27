@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWINUSB_SETUP_PACKET, PWINUSB_SETUP_PACKET, PWINUSB_SETUP_PACKET structure pointer [Buses], WINUSB_SETUP_PACKET, WINUSB_SETUP_PACKET structure [Buses], buses.winusb_setup_packet, usbstrct_8a7725be-7ee3-4715-8498-3168b011c2dd.xml, winusb/PWINUSB_SETUP_PACKET, winusb/WINUSB_SETUP_PACKET"
 ms.topic: struct
-f1_keywords: ["winusb/WINUSB_SETUP_PACKET"]
+f1_keywords: 
+ - "winusb/WINUSB_SETUP_PACKET"
 req.header: winusb.h
 req.include-header: Winusbio.h
 req.target-type: Windows

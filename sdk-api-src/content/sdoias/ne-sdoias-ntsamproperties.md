@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NTSAMPROPERTIES, NTSAMPROPERTIES enumeration [Network Policy Server], PROPERTY_NTSAM_ALLOW_LM_AUTHENTICATION, _sdo_ntsamproperties, nps.SDO_ntsamproperties, sdo.ntsamproperties, sdoias/NTSAMPROPERTIES, sdoias/PROPERTY_NTSAM_ALLOW_LM_AUTHENTICATION
 ms.topic: enum
-f1_keywords: ["sdoias/NTSAMPROPERTIES"]
+f1_keywords: 
+ - "sdoias/NTSAMPROPERTIES"
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmSubLayerGetByKey0, FwpmSubLayerGetByKey0 function [Filtering], fwp.fwpmsublayergetbykey0_func, fwpmu/FwpmSubLayerGetByKey0
 ms.topic: function
-f1_keywords: ["fwpmu/FwpmSubLayerGetByKey0"]
+f1_keywords: 
+ - "fwpmu/FwpmSubLayerGetByKey0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

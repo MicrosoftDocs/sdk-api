@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFieldProps, GetFieldProps method [Windows Runtime], GetFieldProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetFieldProps method, IMetaDataImport.GetFieldProps, IMetaDataImport::GetFieldProps, rometadataapi/IMetaDataImport::GetFieldProps, winrt.imetadataimport_getfieldprops
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataImport.GetFieldProps"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataImport.GetFieldProps"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

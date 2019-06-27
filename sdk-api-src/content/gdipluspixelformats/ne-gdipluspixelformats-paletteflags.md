@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PaletteFlags, PaletteFlags enumeration [GDI+], PaletteFlagsGrayScale, PaletteFlagsHalftone, PaletteFlagsHasAlpha, _gdiplus_ENUM_PaletteFlags, gdiplus._gdiplus_ENUM_PaletteFlags, gdipluspixelformats/PaletteFlags, gdipluspixelformats/PaletteFlagsGrayScale, gdipluspixelformats/PaletteFlagsHalftone, gdipluspixelformats/PaletteFlagsHasAlpha
 ms.topic: enum
-f1_keywords: ["gdipluspixelformats/PaletteFlags"]
+f1_keywords: 
+ - "gdipluspixelformats/PaletteFlags"
 req.header: gdipluspixelformats.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DDEnumCallbackEx, DDEnumCallbackEx callback function [DirectDraw], LPDDENUMCALLBACKEX, LPDDENUMCALLBACKEX callback, LPDDENUMCALLBACKEXA, LPDDENUMCALLBACKEXW, ddraw/DDEnumCallbackEx, directdraw.ddenumcallbackex
 ms.topic: callback
-f1_keywords: ["ddraw/DDEnumCallbackEx"]
+f1_keywords: 
+ - "ddraw/DDEnumCallbackEx"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

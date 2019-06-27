@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],Scopes property, IAzApplication interface [Security],Scopes property, IAzApplication.Scopes, IAzApplication.get_Scopes, IAzApplication::Scopes, IAzApplication::get_Scopes, Scopes property [Security], Scopes property [Security],AzApplication object, Scopes property [Security],IAzApplication interface, azroles/IAzApplication::Scopes, azroles/IAzApplication::get_Scopes, get_Scopes, security.iazapplication_scopes
 ms.topic: method
-f1_keywords: ["azroles/IAzApplication.Scopes"]
+f1_keywords: 
+ - "azroles/IAzApplication.Scopes"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

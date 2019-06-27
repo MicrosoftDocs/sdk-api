@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccessible, IAccessible interface [Windows Accessibility], IAccessible interface [Windows Accessibility],described, _msaa_IAccessible, msaa.iaccessible, oleacc/IAccessible, winauto.iaccessible
 ms.topic: interface
-f1_keywords: ["oleacc/IAccessible"]
+f1_keywords: 
+ - "oleacc/IAccessible"
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

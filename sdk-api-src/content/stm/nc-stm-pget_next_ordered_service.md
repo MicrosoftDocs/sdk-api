@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNextOrderedService, GetNextOrderedService callback function [RAS], PGET_NEXT_ORDERED_SERVICE, PGET_NEXT_ORDERED_SERVICE callback, _mpr_getnextorderedservice, rras.getnextorderedservice, stm/GetNextOrderedService
 ms.topic: callback
-f1_keywords: ["stm/GetNextOrderedService"]
+f1_keywords: 
+ - "stm/GetNextOrderedService"
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows

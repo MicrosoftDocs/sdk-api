@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeResource, FreeResource method [COM+], FreeResource method [COM+],IHolder interface, IHolder interface [COM+],FreeResource method, IHolder.FreeResource, IHolder::FreeResource, _dtc_IHolder_FreeResource, comsvcs/IHolder::FreeResource, cos.iholder_freeresource
 ms.topic: method
-f1_keywords: ["comsvcs/IHolder.FreeResource"]
+f1_keywords: 
+ - "comsvcs/IHolder.FreeResource"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

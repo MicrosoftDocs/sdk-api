@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SNDDEV_ERR, SNDDEV_ERR , SNDDEV_ERR enumeration [DirectShow], SNDDEV_ERREnumeration, SNDDEV_ERROR_AddBuffer, SNDDEV_ERROR_Close, SNDDEV_ERROR_GetCaps, SNDDEV_ERROR_GetPosition, SNDDEV_ERROR_Open, SNDDEV_ERROR_Pause, SNDDEV_ERROR_PrepareHeader, SNDDEV_ERROR_Query, SNDDEV_ERROR_Reset, SNDDEV_ERROR_Restart, SNDDEV_ERROR_Start, SNDDEV_ERROR_Stop, SNDDEV_ERROR_UnprepareHeader, SNDDEV_ERROR_Write, audevcod/SNDDEV_ERR, audevcod/SNDDEV_ERROR_AddBuffer, audevcod/SNDDEV_ERROR_Close, audevcod/SNDDEV_ERROR_GetCaps, audevcod/SNDDEV_ERROR_GetPosition, audevcod/SNDDEV_ERROR_Open, audevcod/SNDDEV_ERROR_Pause, audevcod/SNDDEV_ERROR_PrepareHeader, audevcod/SNDDEV_ERROR_Query, audevcod/SNDDEV_ERROR_Reset, audevcod/SNDDEV_ERROR_Restart, audevcod/SNDDEV_ERROR_Start, audevcod/SNDDEV_ERROR_Stop, audevcod/SNDDEV_ERROR_UnprepareHeader, audevcod/SNDDEV_ERROR_Write, dshow.snddev_err
 ms.topic: enum
-f1_keywords: ["audevcod/SNDDEV_ERR"]
+f1_keywords: 
+ - "audevcod/SNDDEV_ERR"
 req.header: audevcod.h
 req.include-header: Dshow.h
 req.target-type: Windows

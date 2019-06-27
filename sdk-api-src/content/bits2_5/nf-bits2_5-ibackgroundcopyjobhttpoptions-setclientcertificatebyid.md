@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CA, IBackgroundCopyJobHttpOptions interface [BITS],SetClientCertificateByID method, IBackgroundCopyJobHttpOptions.SetClientCertificateByID, IBackgroundCopyJobHttpOptions::SetClientCertificateByID, MY, ROOT, SPC, SetClientCertificateByID, SetClientCertificateByID method [BITS], SetClientCertificateByID method [BITS],IBackgroundCopyJobHttpOptions interface, bits.ibackgroundcopyjobhttpoptions_setclientcertificatebyid, bits2_5/IBackgroundCopyJobHttpOptions::SetClientCertificateByID
 ms.topic: method
-f1_keywords: ["bits2_5/IBackgroundCopyJobHttpOptions.SetClientCertificateByID"]
+f1_keywords: 
+ - "bits2_5/IBackgroundCopyJobHttpOptions.SetClientCertificateByID"
 req.header: bits2_5.h
 req.include-header: Bits.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComThreadEvents interface [COM+],OnThreadUnBind method, IComThreadEvents.OnThreadUnBind, IComThreadEvents::OnThreadUnBind, OnThreadUnBind, OnThreadUnBind method [COM+], OnThreadUnBind method [COM+],IComThreadEvents interface, _dtc_IComThreadEvents_OnThreadUnBind, comsvcs/IComThreadEvents::OnThreadUnBind, cos.icomthreadevents_onthreadunbind
 ms.topic: method
-f1_keywords: ["comsvcs/IComThreadEvents.OnThreadUnBind"]
+f1_keywords: 
+ - "comsvcs/IComThreadEvents.OnThreadUnBind"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPWSABUF, LPWSABUF, LPWSABUF structure pointer [Winsock], WSABUF, WSABUF structure [Winsock], WSABUFA, _win32_wsabuf_2, winsock.wsabuf_2, ws2def/LPWSABUF, ws2def/WSABUF"
 ms.topic: struct
-f1_keywords: ["ws2def/WSABUF"]
+f1_keywords: 
+ - "ws2def/WSABUF"
 req.header: ws2def.h
 req.include-header: Winsock2.h
 req.target-type: Windows

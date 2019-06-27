@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGuideDataProperty, IGuideDataProperty interface [Microsoft TV Technologies], IGuideDataProperty interface [Microsoft TV Technologies],described, IGuideDataPropertyInterface, bdatif/IGuideDataProperty, mstv.iguidedataproperty
 ms.topic: interface
-f1_keywords: ["bdatif/IGuideDataProperty"]
+f1_keywords: 
+ - "bdatif/IGuideDataProperty"
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

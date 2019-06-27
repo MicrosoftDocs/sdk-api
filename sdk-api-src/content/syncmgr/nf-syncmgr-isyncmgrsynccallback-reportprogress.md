@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSyncCallback interface [Windows Shell],ReportProgress method, ISyncMgrSyncCallback.ReportProgress, ISyncMgrSyncCallback::ReportProgress, ReportProgress, ReportProgress method [Windows Shell], ReportProgress method [Windows Shell],ISyncMgrSyncCallback interface, _shell_ISyncMgrSyncCallback_ReportProgress, shell.ISyncMgrSyncCallback_ReportProgress, syncmgr/ISyncMgrSyncCallback::ReportProgress
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrSyncCallback.ReportProgress"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrSyncCallback.ReportProgress"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetServerComputerNameAdd, NetServerComputerNameAdd function [Network Management], _win32_netservercomputernameadd, lmserver/NetServerComputerNameAdd, netmgmt.netservercomputernameadd
 ms.topic: function
-f1_keywords: ["lmserver/NetServerComputerNameAdd"]
+f1_keywords: 
+ - "lmserver/NetServerComputerNameAdd"
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows

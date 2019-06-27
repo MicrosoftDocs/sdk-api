@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DISPPARAMS, DISPPARAMS structure [Automation], _oa96_DISPPARAMS, automat.dispparams, oaidl/DISPPARAMS
 ms.topic: struct
-f1_keywords: ["oaidl/DISPPARAMS"]
+f1_keywords: 
+ - "oaidl/DISPPARAMS"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

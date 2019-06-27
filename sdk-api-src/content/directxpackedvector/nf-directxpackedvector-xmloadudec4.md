@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMLoadUDec4, XMLoadUDec4, XMLoadUDec4 method [DirectX Math Support APIs], dxmath.xmloadudec4
 ms.topic: function
-f1_keywords: ["directxpackedvector/XMLoadUDec4"]
+f1_keywords: 
+ - "directxpackedvector/XMLoadUDec4"
 req.header: directxpackedvector.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

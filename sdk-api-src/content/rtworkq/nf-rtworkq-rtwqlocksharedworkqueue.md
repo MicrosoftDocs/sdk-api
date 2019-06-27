@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtwqLockSharedWorkQueue, RtwqLockSharedWorkQueue function, base.rtwqlocksharedworkqueue, rtworkq/RtwqLockSharedWorkQueue
 ms.topic: function
-f1_keywords: ["rtworkq/RtwqLockSharedWorkQueue"]
+f1_keywords: 
+ - "rtworkq/RtwqLockSharedWorkQueue"
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

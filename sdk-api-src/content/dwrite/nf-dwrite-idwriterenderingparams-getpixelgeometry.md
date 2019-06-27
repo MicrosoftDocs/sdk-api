@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPixelGeometry, GetPixelGeometry method [Direct Write], GetPixelGeometry method [Direct Write],IDWriteRenderingParams interface, IDWriteRenderingParams interface [Direct Write],GetPixelGeometry method, IDWriteRenderingParams.GetPixelGeometry, IDWriteRenderingParams::GetPixelGeometry, directwrite.IDWriteRenderingParams_GetPixelGeometry, dwrite/IDWriteRenderingParams::GetPixelGeometry
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteRenderingParams.GetPixelGeometry"]
+f1_keywords: 
+ - "dwrite/IDWriteRenderingParams.GetPixelGeometry"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

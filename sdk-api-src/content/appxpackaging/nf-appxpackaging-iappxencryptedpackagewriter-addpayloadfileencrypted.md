@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddPayloadFileEncrypted, AddPayloadFileEncrypted method [App packaging and management], AddPayloadFileEncrypted method [App packaging and management],IAppxEncryptedPackageWriter interface, IAppxEncryptedPackageWriter interface [App packaging and management],AddPayloadFileEncrypted method, IAppxEncryptedPackageWriter.AddPayloadFileEncrypted, IAppxEncryptedPackageWriter::AddPayloadFileEncrypted, appxpackaging/IAppxEncryptedPackageWriter::AddPayloadFileEncrypted, appxpkg.iappxencryptedpackagewriter_addpayloadfileencrypted
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxEncryptedPackageWriter.AddPayloadFileEncrypted"]
+f1_keywords: 
+ - "appxpackaging/IAppxEncryptedPackageWriter.AddPayloadFileEncrypted"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

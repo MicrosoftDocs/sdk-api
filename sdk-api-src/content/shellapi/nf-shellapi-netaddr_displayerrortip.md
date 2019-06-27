@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetAddr_DisplayErrorTip, NetAddr_DisplayErrorTip macro [Windows Shell], _shell_NetAddr_DisplayErrorTip, shell.NetAddr_DisplayErrorTip, shellapi/NetAddr_DisplayErrorTip
 ms.topic: macro
-f1_keywords: ["shellapi/NetAddr_DisplayErrorTip"]
+f1_keywords: 
+ - "shellapi/NetAddr_DisplayErrorTip"
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationFrameInfoProvider, IDirectManipulationFrameInfoProvider interface [Direct Manipulation], IDirectManipulationFrameInfoProvider interface [Direct Manipulation],described, directmanipulation.idirectmanipulationframeinfoprovider, directmanipulation/IDirectManipulationFrameInfoProvider
 ms.topic: interface
-f1_keywords: ["directmanipulation/IDirectManipulationFrameInfoProvider"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationFrameInfoProvider"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

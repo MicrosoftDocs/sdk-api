@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DiscountRateEnd property [Fax Service], DiscountRateEnd property [Fax Service],IFaxOutgoingQueue interface, IFaxOutgoingQueue interface [Fax Service],DiscountRateEnd property, IFaxOutgoingQueue.DiscountRateEnd, IFaxOutgoingQueue.get_DiscountRateEnd, IFaxOutgoingQueue.put_DiscountRateEnd, IFaxOutgoingQueue::DiscountRateEnd, IFaxOutgoingQueue::get_DiscountRateEnd, IFaxOutgoingQueue::put_DiscountRateEnd, _mfax_faxoutgoingqueue.discountrateend, fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_discountrateend_cpp, fax._mfax_faxoutgoingqueue_discountrateend, faxcomex/IFaxOutgoingQueue::DiscountRateEnd, faxcomex/IFaxOutgoingQueue::get_DiscountRateEnd, faxcomex/IFaxOutgoingQueue::put_DiscountRateEnd, get_DiscountRateEnd
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxOutgoingQueue.DiscountRateEnd"]
+f1_keywords: 
+ - "faxcomex/IFaxOutgoingQueue.DiscountRateEnd"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

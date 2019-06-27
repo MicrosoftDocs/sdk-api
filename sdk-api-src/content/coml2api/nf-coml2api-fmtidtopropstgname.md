@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FmtIdToPropStgName, FmtIdToPropStgName function [Structured Storage], _stg_fmtidtopropstgname, coml2api/FmtIdToPropStgName, stg.fmtidtopropstgname
 ms.topic: function
-f1_keywords: ["coml2api/FmtIdToPropStgName"]
+f1_keywords: 
+ - "coml2api/FmtIdToPropStgName"
 req.header: coml2api.h
 req.include-header: Propidl.h
 req.target-type: Windows

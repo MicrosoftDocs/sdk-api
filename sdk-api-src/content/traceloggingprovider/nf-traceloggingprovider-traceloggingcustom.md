@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingCustom, TraceLoggingCustom macro, tracelogging.traceloggingcustom, traceloggingprovider/TraceLoggingCustom
 ms.topic: macro
-f1_keywords: ["traceloggingprovider/TraceLoggingCustom"]
+f1_keywords: 
+ - "traceloggingprovider/TraceLoggingCustom"
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows

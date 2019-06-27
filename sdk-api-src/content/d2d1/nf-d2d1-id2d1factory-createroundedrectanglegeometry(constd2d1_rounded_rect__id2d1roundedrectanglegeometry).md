@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateRoundedRectangleGeometry, CreateRoundedRectangleGeometry method [Direct2D], CreateRoundedRectangleGeometry method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateRoundedRectangleGeometry method, ID2D1Factory.CreateRoundedRectangleGeometry, ID2D1Factory.CreateRoundedRectangleGeometry(const D2D1_ROUNDED_RECT &,ID2D1RoundedRectangleGeometry), ID2D1Factory::CreateRoundedRectangleGeometry, ID2D1Factory::CreateRoundedRectangleGeometry(const D2D1_ROUNDED_RECT &,ID2D1RoundedRectangleGeometry), d2d1/ID2D1Factory::CreateRoundedRectangleGeometry, direct2d.ID2D1Factory_CreateRoundedRectangleGeometry_ref_D2D1_ROUNDED_RECT_ptr_ptr_ID2D1RoundedRectangleGeometry
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1Factory.CreateRoundedRectangleGeometry"]
+f1_keywords: 
+ - "d2d1/ID2D1Factory.CreateRoundedRectangleGeometry"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

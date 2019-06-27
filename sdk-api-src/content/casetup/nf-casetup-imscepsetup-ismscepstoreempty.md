@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSCEPSetup interface [Security],IsMSCEPStoreEmpty method, IMSCEPSetup.IsMSCEPStoreEmpty, IMSCEPSetup::IsMSCEPStoreEmpty, IsMSCEPStoreEmpty, IsMSCEPStoreEmpty method [Security], IsMSCEPStoreEmpty method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::IsMSCEPStoreEmpty, security.imscepsetup_ismscepstoreempty
 ms.topic: method
-f1_keywords: ["casetup/IMSCEPSetup.IsMSCEPStoreEmpty"]
+f1_keywords: 
+ - "casetup/IMSCEPSetup.IsMSCEPStoreEmpty"
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

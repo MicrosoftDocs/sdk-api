@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLGetInstalledProductKeyIds, SLGetInstalledProductKeyIds function [Security], security.slgetinstalledproductkeyids, slpublic/SLGetInstalledProductKeyIds
 ms.topic: function
-f1_keywords: ["slpublic/SLGetInstalledProductKeyIds"]
+f1_keywords: 
+ - "slpublic/SLGetInstalledProductKeyIds"
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindFirstUrlCacheEntry, FindFirstUrlCacheEntry function [WinINet], FindFirstUrlCacheEntryA, FindFirstUrlCacheEntryW, _inet_findfirsturlcacheentry_function, wininet.findfirsturlcacheentry, wininet/FindFirstUrlCacheEntry, wininet/FindFirstUrlCacheEntryA, wininet/FindFirstUrlCacheEntryW
 ms.topic: function
-f1_keywords: ["wininet/FindFirstUrlCacheEntry"]
+f1_keywords: 
+ - "wininet/FindFirstUrlCacheEntry"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

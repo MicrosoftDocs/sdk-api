@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindWindowSW, FindWindowSW method [Windows Shell], FindWindowSW method [Windows Shell],IShellWindows interface, IShellWindows interface [Windows Shell],FindWindowSW method, IShellWindows.FindWindowSW, IShellWindows::FindWindowSW, _win32_IShellWindows_FindWindowSW, exdisp/IShellWindows::FindWindowSW, shell.IShellWindows_FindWindowSW
 ms.topic: method
-f1_keywords: ["exdisp/IShellWindows.FindWindowSW"]
+f1_keywords: 
+ - "exdisp/IShellWindows.FindWindowSW"
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows

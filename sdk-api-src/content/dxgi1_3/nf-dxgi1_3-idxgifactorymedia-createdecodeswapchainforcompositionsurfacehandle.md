@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDecodeSwapChainForCompositionSurfaceHandle, CreateDecodeSwapChainForCompositionSurfaceHandle method [DXGI], CreateDecodeSwapChainForCompositionSurfaceHandle method [DXGI],IDXGIFactoryMedia interface, IDXGIFactoryMedia interface [DXGI],CreateDecodeSwapChainForCompositionSurfaceHandle method, IDXGIFactoryMedia.CreateDecodeSwapChainForCompositionSurfaceHandle, IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle, direct3ddxgi.idxgifactorymedia_createdecodeswapchainforcompositionsurfacehandle, dxgi1_3/IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle
 ms.topic: method
-f1_keywords: ["dxgi1_3/IDXGIFactoryMedia.CreateDecodeSwapChainForCompositionSurfaceHandle"]
+f1_keywords: 
+ - "dxgi1_3/IDXGIFactoryMedia.CreateDecodeSwapChainForCompositionSurfaceHandle"
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

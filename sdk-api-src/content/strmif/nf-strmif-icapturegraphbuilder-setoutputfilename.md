@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICaptureGraphBuilder interface [DirectShow],SetOutputFileName method, ICaptureGraphBuilder.SetOutputFileName, ICaptureGraphBuilder::SetOutputFileName, ICaptureGraphBuilderSetOutputFileName, SetOutputFileName, SetOutputFileName method [DirectShow], SetOutputFileName method [DirectShow],ICaptureGraphBuilder interface, dshow.icapturegraphbuilder_setoutputfilename, strmif/ICaptureGraphBuilder::SetOutputFileName
 ms.topic: method
-f1_keywords: ["strmif/ICaptureGraphBuilder.SetOutputFileName"]
+f1_keywords: 
+ - "strmif/ICaptureGraphBuilder.SetOutputFileName"
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

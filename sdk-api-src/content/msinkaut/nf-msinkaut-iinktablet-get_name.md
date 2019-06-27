@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkTablet interface [Tablet PC],Name property, IInkTablet.Name, IInkTablet.get_Name, IInkTablet::Name, IInkTablet::get_Name, Name property [Tablet PC], Name property [Tablet PC],IInkTablet interface, get_Name, msinkaut/IInkTablet::Name, msinkaut/IInkTablet::get_Name, tablet.iinktablet_name
 ms.topic: method
-f1_keywords: ["msinkaut/IInkTablet.Name"]
+f1_keywords: 
+ - "msinkaut/IInkTablet.Name"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColumnCount, GetColumnCount method [Windows Sync], GetColumnCount method [Windows Sync],ICoreFragment interface, ICoreFragment interface [Windows Sync],GetColumnCount method, ICoreFragment.GetColumnCount, ICoreFragment::GetColumnCount, winsync.icorefragment_getcolumncount, winsync/ICoreFragment::GetColumnCount
 ms.topic: method
-f1_keywords: ["winsync/ICoreFragment.GetColumnCount"]
+f1_keywords: 
+ - "winsync/ICoreFragment.GetColumnCount"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

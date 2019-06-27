@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],StartHandlerSync method, ISyncMgrControl.StartHandlerSync, ISyncMgrControl::StartHandlerSync, StartHandlerSync, StartHandlerSync method [Windows Shell], StartHandlerSync method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_StartHandlerSync, shell.ISyncMgrControl_StartHandlerSync, syncmgr/ISyncMgrControl::StartHandlerSync
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrControl.StartHandlerSync"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrControl.StartHandlerSync"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

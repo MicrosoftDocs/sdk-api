@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DataCollectorType, DataCollectorType enumeration [PLA], base.datacollectortype, pla.datacollectortype, pla/DataCollectorType, pla/plaAlert, pla/plaApiTrace, pla/plaConfiguration, pla/plaPerformanceCounter, pla/plaTrace, plaAlert, plaApiTrace, plaConfiguration, plaPerformanceCounter, plaTrace
 ms.topic: enum
-f1_keywords: ["pla/DataCollectorType"]
+f1_keywords: 
+ - "pla/DataCollectorType"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

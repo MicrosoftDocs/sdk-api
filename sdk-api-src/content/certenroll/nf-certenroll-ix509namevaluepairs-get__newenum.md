@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509NameValuePairs interface [Security],_NewEnum property, IX509NameValuePairs._NewEnum, IX509NameValuePairs.get__NewEnum, IX509NameValuePairs::_NewEnum, IX509NameValuePairs::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IX509NameValuePairs interface, certenroll/IX509NameValuePairs::_NewEnum, certenroll/IX509NameValuePairs::get__NewEnum, get__NewEnum, security.ix509namevaluepairs__newenum_property
 ms.topic: method
-f1_keywords: ["certenroll/IX509NameValuePairs._NewEnum"]
+f1_keywords: 
+ - "certenroll/IX509NameValuePairs._NewEnum"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

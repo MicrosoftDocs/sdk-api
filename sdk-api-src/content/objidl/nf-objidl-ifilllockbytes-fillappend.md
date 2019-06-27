@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FillAppend, FillAppend method [Structured Storage], FillAppend method [Structured Storage],IFillLockBytes interface, IFillLockBytes interface [Structured Storage],FillAppend method, IFillLockBytes.FillAppend, IFillLockBytes::FillAppend, _stg_ifilllockbytes_fillappend, objidl/IFillLockBytes::FillAppend, stg.ifilllockbytes_fillappend
 ms.topic: method
-f1_keywords: ["objidl/IFillLockBytes.FillAppend"]
+f1_keywords: 
+ - "objidl/IFillLockBytes.FillAppend"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

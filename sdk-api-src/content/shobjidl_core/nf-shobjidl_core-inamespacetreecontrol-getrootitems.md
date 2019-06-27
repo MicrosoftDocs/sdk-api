@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRootItems, GetRootItems method [Windows Shell], GetRootItems method [Windows Shell],INameSpaceTreeControl interface, INameSpaceTreeControl interface [Windows Shell],GetRootItems method, INameSpaceTreeControl.GetRootItems, INameSpaceTreeControl::GetRootItems, _shell_INameSpaceTreeControl_GetRootItems, shell.INameSpaceTreeControl_GetRootItems, shobjidl_core/INameSpaceTreeControl::GetRootItems
 ms.topic: method
-f1_keywords: ["shobjidl_core/INameSpaceTreeControl.GetRootItems"]
+f1_keywords: 
+ - "shobjidl_core/INameSpaceTreeControl.GetRootItems"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

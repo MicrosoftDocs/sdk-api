@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HttpWaitForDemandStart, HttpWaitForDemandStart function [HTTP], http.httpwaitfordemandstart, http/HttpWaitForDemandStart
 ms.topic: function
-f1_keywords: ["http/HttpWaitForDemandStart"]
+f1_keywords: 
+ - "http/HttpWaitForDemandStart"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

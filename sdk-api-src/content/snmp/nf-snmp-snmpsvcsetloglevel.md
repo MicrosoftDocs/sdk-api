@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SNMP_LOG_ERROR, SNMP_LOG_FATAL, SNMP_LOG_SILENT, SNMP_LOG_TRACE, SNMP_LOG_VERBOSE, SNMP_LOG_WARNING, SnmpSvcSetLogLevel, SnmpSvcSetLogLevel function [SNMP], _snmp_snmpsvcsetloglevel, snmp.snmpsvcsetloglevel, snmp/SnmpSvcSetLogLevel
 ms.topic: function
-f1_keywords: ["snmp/SnmpSvcSetLogLevel"]
+f1_keywords: 
+ - "snmp/SnmpSvcSetLogLevel"
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUserDictionariesRegistrar interface [Internationalization for Windows Applications],UnregisterUserDictionary method, IUserDictionariesRegistrar.UnregisterUserDictionary, IUserDictionariesRegistrar::UnregisterUserDictionary, UnregisterUserDictionary, UnregisterUserDictionary method [Internationalization for Windows Applications], UnregisterUserDictionary method [Internationalization for Windows Applications],IUserDictionariesRegistrar interface, intl.iuserdictionariesregistrar_unregisteruserdictionary, spellcheck/IUserDictionariesRegistrar::UnregisterUserDictionary
 ms.topic: method
-f1_keywords: ["spellcheck/IUserDictionariesRegistrar.UnregisterUserDictionary"]
+f1_keywords: 
+ - "spellcheck/IUserDictionariesRegistrar.UnregisterUserDictionary"
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

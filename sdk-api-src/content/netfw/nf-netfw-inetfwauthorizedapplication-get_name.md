@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwAuthorizedApplication interface [ICS/ICF],Name property, INetFwAuthorizedApplication.Name, INetFwAuthorizedApplication.get_Name, INetFwAuthorizedApplication::Name, INetFwAuthorizedApplication::get_Name, INetFwAuthorizedApplication::put_Name, Name property [ICS/ICF], Name property [ICS/ICF],INetFwAuthorizedApplication interface, get_Name, ics.inetfwauthorizedapplication_name, netfw/INetFwAuthorizedApplication::Name, netfw/INetFwAuthorizedApplication::get_Name, netfw/INetFwAuthorizedApplication::put_Name
 ms.topic: method
-f1_keywords: ["netfw/INetFwAuthorizedApplication.Name"]
+f1_keywords: 
+ - "netfw/INetFwAuthorizedApplication.Name"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

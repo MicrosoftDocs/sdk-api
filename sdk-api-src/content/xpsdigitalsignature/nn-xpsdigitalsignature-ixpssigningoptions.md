@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsSigningOptions, IXpsSigningOptions interface [XPS Documents and Packaging], IXpsSigningOptions interface [XPS Documents and Packaging],described, xps.ixpssigningoptions, xpsdigitalsignature/IXpsSigningOptions
 ms.topic: interface
-f1_keywords: ["xpsdigitalsignature/IXpsSigningOptions"]
+f1_keywords: 
+ - "xpsdigitalsignature/IXpsSigningOptions"
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

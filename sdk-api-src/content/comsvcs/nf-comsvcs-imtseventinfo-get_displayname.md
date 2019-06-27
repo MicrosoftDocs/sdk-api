@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMtsEventInfo interface [COM+],get_DisplayName method, IMtsEventInfo.get_DisplayName, IMtsEventInfo::get_DisplayName, _dtc_IMtsEventInfo_DisplayName, comsvcs/IMtsEventInfo::get_DisplayName, cos.imtseventinfo_get_displayname, get_DisplayName, get_DisplayName method [COM+], get_DisplayName method [COM+],IMtsEventInfo interface
 ms.topic: method
-f1_keywords: ["comsvcs/IMtsEventInfo.get_DisplayName"]
+f1_keywords: 
+ - "comsvcs/IMtsEventInfo.get_DisplayName"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

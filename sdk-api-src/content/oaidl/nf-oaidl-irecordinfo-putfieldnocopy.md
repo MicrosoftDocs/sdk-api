@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRecordInfo interface [Automation],PutFieldNoCopy method, IRecordInfo.PutFieldNoCopy, IRecordInfo::PutFieldNoCopy, PutFieldNoCopy, PutFieldNoCopy method [Automation], PutFieldNoCopy method [Automation],IRecordInfo interface, _oa96_IRecordInfo_PutFieldNoCopy, automat.irecordinfo_putfieldnocopy, oaidl/IRecordInfo::PutFieldNoCopy
 ms.topic: method
-f1_keywords: ["oaidl/IRecordInfo.PutFieldNoCopy"]
+f1_keywords: 
+ - "oaidl/IRecordInfo.PutFieldNoCopy"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

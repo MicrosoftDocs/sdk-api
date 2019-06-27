@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], IWRdsProtocolConnection interface [Remote Desktop Services],described, termserv.iwrdsprotocolconnection, wtsprotocol/IWRdsProtocolConnection
 ms.topic: interface
-f1_keywords: ["wtsprotocol/IWRdsProtocolConnection"]
+f1_keywords: 
+ - "wtsprotocol/IWRdsProtocolConnection"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

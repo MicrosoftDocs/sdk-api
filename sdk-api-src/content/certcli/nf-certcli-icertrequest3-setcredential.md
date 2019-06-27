@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCertRequest object [Security],SetCredential method, ICertRequest3 class [Security],SetCredential method, ICertRequest3.SetCredential, ICertRequest3::SetCredential, SetCredential, SetCredential method [Security], SetCredential method [Security],CCertRequest object, SetCredential method [Security],ICertRequest3 class, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certcli/ICertRequest3::SetCredential, security.icertrequest3_setcredential
 ms.topic: method
-f1_keywords: ["certcli/ICertRequest3.SetCredential"]
+f1_keywords: 
+ - "certcli/ICertRequest3.SetCredential"
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

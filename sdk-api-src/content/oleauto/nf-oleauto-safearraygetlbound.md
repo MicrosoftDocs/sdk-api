@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SafeArrayGetLBound, SafeArrayGetLBound function [Automation], _oa96_SafeArrayGetLBound, automat.safearraygetlbound, oleauto/SafeArrayGetLBound
 ms.topic: function
-f1_keywords: ["oleauto/SafeArrayGetLBound"]
+f1_keywords: 
+ - "oleauto/SafeArrayGetLBound"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

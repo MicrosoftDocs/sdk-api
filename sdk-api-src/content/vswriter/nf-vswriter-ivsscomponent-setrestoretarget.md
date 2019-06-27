@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssComponent interface [VSS],SetRestoreTarget method, IVssComponent.SetRestoreTarget, IVssComponent::SetRestoreTarget, SetRestoreTarget, SetRestoreTarget method [VSS], SetRestoreTarget method [VSS],IVssComponent interface, _win32_ivsscomponent_setrestoretarget, base.ivsscomponent_setrestoretarget, vswriter/IVssComponent::SetRestoreTarget
 ms.topic: method
-f1_keywords: ["vswriter/IVssComponent.SetRestoreTarget"]
+f1_keywords: 
+ - "vswriter/IVssComponent.SetRestoreTarget"
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

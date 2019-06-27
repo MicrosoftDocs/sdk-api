@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDirectory interface [TAPI 2.2],ModifyDirectoryObject method, ITDirectory.ModifyDirectoryObject, ITDirectory::ModifyDirectoryObject, ModifyDirectoryObject, ModifyDirectoryObject method [TAPI 2.2], ModifyDirectoryObject method [TAPI 2.2],ITDirectory interface, _tapi3_itdirectory_modifydirectoryobject, rend/ITDirectory::ModifyDirectoryObject, tapi3.itdirectory_modifydirectoryobject
 ms.topic: method
-f1_keywords: ["rend/ITDirectory.ModifyDirectoryObject"]
+f1_keywords: 
+ - "rend/ITDirectory.ModifyDirectoryObject"
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

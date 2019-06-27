@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndSCPDDownload, EndSCPDDownload method [UPnP APIs], EndSCPDDownload method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],EndSCPDDownload method, IUPnPServiceAsync.EndSCPDDownload, IUPnPServiceAsync::EndSCPDDownload, upnp.iupnpserviceasync_endscpddownload, upnp/IUPnPServiceAsync::EndSCPDDownload
 ms.topic: method
-f1_keywords: ["upnp/IUPnPServiceAsync.EndSCPDDownload"]
+f1_keywords: 
+ - "upnp/IUPnPServiceAsync.EndSCPDDownload"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

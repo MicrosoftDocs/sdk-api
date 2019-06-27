@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetContentTransform, GetContentTransform method [Direct Manipulation], GetContentTransform method [Direct Manipulation],IDirectManipulationContent interface, IDirectManipulationContent interface [Direct Manipulation],GetContentTransform method, IDirectManipulationContent.GetContentTransform, IDirectManipulationContent::GetContentTransform, directmanipulation.idirectmanipulationcontent_getcontenttransform, directmanipulation/IDirectManipulationContent::GetContentTransform
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationContent.GetContentTransform"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationContent.GetContentTransform"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

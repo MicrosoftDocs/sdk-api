@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointVolumeCallback interface [Core Audio],OnNotify method, IAudioEndpointVolumeCallback.OnNotify, IAudioEndpointVolumeCallback::OnNotify, IAudioEndpointVolumeCallbackOnNotify, OnNotify, OnNotify method [Core Audio], OnNotify method [Core Audio],IAudioEndpointVolumeCallback interface, coreaudio.iaudioendpointvolumecallback_onnotify, endpointvolume/IAudioEndpointVolumeCallback::OnNotify
 ms.topic: method
-f1_keywords: ["endpointvolume/IAudioEndpointVolumeCallback.OnNotify"]
+f1_keywords: 
+ - "endpointvolume/IAudioEndpointVolumeCallback.OnNotify"
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CapturedMetadataWhiteBalanceGains, CapturedMetadataWhiteBalanceGains structure [Streaming Media Devices], mfapi/CapturedMetadataWhiteBalanceGains, stream.capturedmetadatawhitebalancegains
 ms.topic: struct
-f1_keywords: ["mfapi/CapturedMetadataWhiteBalanceGains"]
+f1_keywords: 
+ - "mfapi/CapturedMetadataWhiteBalanceGains"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

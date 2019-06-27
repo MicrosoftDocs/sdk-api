@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpModifyClass, DhcpModifyClass function [DHCP], dhcp.dhcpmodifyclass, dhcpsapi/DhcpModifyClass
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpModifyClass"]
+f1_keywords: 
+ - "dhcpsapi/DhcpModifyClass"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

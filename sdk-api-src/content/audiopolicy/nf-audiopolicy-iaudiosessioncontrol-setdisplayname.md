@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionControl interface [Core Audio],SetDisplayName method, IAudioSessionControl.SetDisplayName, IAudioSessionControl::SetDisplayName, IAudioSessionControlSetDisplayName, SetDisplayName, SetDisplayName method [Core Audio], SetDisplayName method [Core Audio],IAudioSessionControl interface, audiopolicy/IAudioSessionControl::SetDisplayName, coreaudio.iaudiosessioncontrol_setdisplayname
 ms.topic: method
-f1_keywords: ["audiopolicy/IAudioSessionControl.SetDisplayName"]
+f1_keywords: 
+ - "audiopolicy/IAudioSessionControl.SetDisplayName"
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

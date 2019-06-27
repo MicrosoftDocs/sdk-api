@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetNextVisible, TreeView_GetNextVisible macro [Windows Controls], _win32_TreeView_GetNextVisible, _win32_TreeView_GetNextVisible_cpp, commctrl/TreeView_GetNextVisible, controls.TreeView_GetNextVisible, controls._win32_TreeView_GetNextVisible
 ms.topic: macro
-f1_keywords: ["commctrl/TreeView_GetNextVisible"]
+f1_keywords: 
+ - "commctrl/TreeView_GetNextVisible"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

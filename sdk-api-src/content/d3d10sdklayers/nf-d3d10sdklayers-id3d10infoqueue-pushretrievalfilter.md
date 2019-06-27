@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D10InfoQueue interface [Direct3D 10],PushRetrievalFilter method, ID3D10InfoQueue.PushRetrievalFilter, ID3D10InfoQueue::PushRetrievalFilter, PushRetrievalFilter, PushRetrievalFilter method [Direct3D 10], PushRetrievalFilter method [Direct3D 10],ID3D10InfoQueue interface, ad14b6be-b819-2484-f834-370d1676b87d, d3d10sdklayers/ID3D10InfoQueue::PushRetrievalFilter, direct3d10.id3d10infoqueue_pushretrievalfilter
 ms.topic: method
-f1_keywords: ["d3d10sdklayers/ID3D10InfoQueue.PushRetrievalFilter"]
+f1_keywords: 
+ - "d3d10sdklayers/ID3D10InfoQueue.PushRetrievalFilter"
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

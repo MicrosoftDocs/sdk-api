@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EncryptionOff, EncryptionOff method [Microsoft TV Technologies], EncryptionOff method [Microsoft TV Technologies],IMSVidStreamBufferSinkEvent2 interface, IMSVidStreamBufferSinkEvent2 interface [Microsoft TV Technologies],EncryptionOff method, IMSVidStreamBufferSinkEvent2.EncryptionOff, IMSVidStreamBufferSinkEvent2::EncryptionOff, IMSVidStreamBufferSinkEvent2EncryptionOff, mstv.imsvidstreambuffersinkevent2_encryptionoff, segment/IMSVidStreamBufferSinkEvent2::EncryptionOff
 ms.topic: method
-f1_keywords: ["segment/IMSVidStreamBufferSinkEvent2.EncryptionOff"]
+f1_keywords: 
+ - "segment/IMSVidStreamBufferSinkEvent2.EncryptionOff"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

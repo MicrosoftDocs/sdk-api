@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?GetNamespaceConnection@CWbemProviderGlue@@SAPEAUIWbemServices@@PEBG@Z, ?GetNamespaceConnection@CWbemProviderGlue@@SGPAUIWbemServices@@PBG@Z, CWbemProviderGlue interface [Windows Management Instrumentation],GetNameSpaceConnection method, CWbemProviderGlue.GetNamespaceConnection, CWbemProviderGlue.GetNamespaceConnection(LPCWSTR,MethodContext), CWbemProviderGlue::GetNameSpaceConnection, CWbemProviderGlue::GetNamespaceConnection, CWbemProviderGlue::GetNamespaceConnection(LPCWSTR,MethodContext), GetNameSpaceConnection method [Windows Management Instrumentation], GetNameSpaceConnection method [Windows Management Instrumentation],CWbemProviderGlue interface, GetNamespaceConnection, _hmm_cwbemproviderglue_getnamespaceconnection, wbemglue/CWbemProviderGlue::GetNameSpaceConnection, wmi.cwbemproviderglue_getnamespaceconnection"
 ms.topic: method
-f1_keywords: ["wbemglue/CWbemProviderGlue.GetNameSpaceConnection"]
+f1_keywords: 
+ - "wbemglue/CWbemProviderGlue.GetNameSpaceConnection"
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows

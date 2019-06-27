@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [Windows Accessibility], Count property [Windows Accessibility],IUIAutomationProxyFactoryMapping interface, IUIAutomationProxyFactoryMapping interface [Windows Accessibility],Count property, IUIAutomationProxyFactoryMapping.Count, IUIAutomationProxyFactoryMapping.get_Count, IUIAutomationProxyFactoryMapping::Count, IUIAutomationProxyFactoryMapping::get_Count, get_Count, uiauto.uiauto_IUIAutomationProxyFactoryMapping_Count, uiauto_IUIAutomationProxyFactoryMapping_Count, uiautomationclient/IUIAutomationProxyFactoryMapping::Count, uiautomationclient/IUIAutomationProxyFactoryMapping::get_Count, winauto.uiauto_IUIAutomationProxyFactoryMapping_Count
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationProxyFactoryMapping.Count"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationProxyFactoryMapping.Count"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

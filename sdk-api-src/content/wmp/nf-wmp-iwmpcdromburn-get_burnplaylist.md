@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],get_burnPlaylist method, IWMPCdromBurn.get_burnPlaylist, IWMPCdromBurn::get_burnPlaylist, IWMPCdromBurnget_burnPlaylist, get_burnPlaylist, get_burnPlaylist method [Windows Media Player], get_burnPlaylist method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_get_burnplaylist, wmp/IWMPCdromBurn::get_burnPlaylist
 ms.topic: method
-f1_keywords: ["wmp/IWMPCdromBurn.get_burnPlaylist"]
+f1_keywords: 
+ - "wmp/IWMPCdromBurn.get_burnPlaylist"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 95304c4b-5772-79d5-e004-826cea33692b, CreateGeometryShader, CreateGeometryShader method [Direct3D 10], CreateGeometryShader method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateGeometryShader method, ID3D10Device.CreateGeometryShader, ID3D10Device::CreateGeometryShader, d3d10/ID3D10Device::CreateGeometryShader, direct3d10.id3d10device_creategeometryshader
 ms.topic: method
-f1_keywords: ["d3d10/ID3D10Device.CreateGeometryShader"]
+f1_keywords: 
+ - "d3d10/ID3D10Device.CreateGeometryShader"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

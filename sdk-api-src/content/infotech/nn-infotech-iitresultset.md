@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IITResultSet, IITResultSet interface [HTML Help Workshop], IITResultSet interface [HTML Help Workshop],described, htmlhelp.iitresultset, infotech/IITResultSet, refIITResultSetInterface
 ms.topic: interface
-f1_keywords: ["infotech/IITResultSet"]
+f1_keywords: 
+ - "infotech/IITResultSet"
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDictionary, IXpsOMDictionary interface [XPS Documents and Packaging], IXpsOMDictionary interface [XPS Documents and Packaging],described, xps.ixpsomdictionary, xpsobjectmodel/IXpsOMDictionary
 ms.topic: interface
-f1_keywords: ["xpsobjectmodel/IXpsOMDictionary"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMDictionary"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

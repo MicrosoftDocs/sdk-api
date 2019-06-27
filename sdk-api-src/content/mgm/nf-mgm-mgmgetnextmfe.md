@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MgmGetNextMfe, MgmGetNextMfe function [RAS], _mpr_mgmgetnextmfe, mgm/MgmGetNextMfe, rras.mgmgetnextmfe
 ms.topic: function
-f1_keywords: ["mgm/MgmGetNextMfe"]
+f1_keywords: 
+ - "mgm/MgmGetNextMfe"
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

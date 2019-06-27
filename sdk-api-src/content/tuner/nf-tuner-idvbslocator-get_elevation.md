@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],get_Elevation method, IDVBSLocator.get_Elevation, IDVBSLocator::get_Elevation, IDVBSLocatorget_Elevation, get_Elevation, get_Elevation method [Microsoft TV Technologies], get_Elevation method [Microsoft TV Technologies],IDVBSLocator interface, mstv.idvbslocator_get_elevation, tuner/IDVBSLocator::get_Elevation
 ms.topic: method
-f1_keywords: ["tuner/IDVBSLocator.get_Elevation"]
+f1_keywords: 
+ - "tuner/IDVBSLocator.get_Elevation"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

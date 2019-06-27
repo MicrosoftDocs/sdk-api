@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Deployment Services], Clone method [Windows Deployment Services],IWdsTransportNamespace interface, IWdsTransportNamespace interface [Windows Deployment Services],Clone method, IWdsTransportNamespace.Clone, IWdsTransportNamespace::Clone, wds.iwdstransportnamespace_clone, wdstptmgmt/IWdsTransportNamespace::Clone
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportNamespace.Clone"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportNamespace.Clone"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

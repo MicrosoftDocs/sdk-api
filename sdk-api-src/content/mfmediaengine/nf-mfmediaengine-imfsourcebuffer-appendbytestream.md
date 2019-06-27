@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AppendByteStream, AppendByteStream method [Media Foundation], AppendByteStream method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],AppendByteStream method, IMFSourceBuffer.AppendByteStream, IMFSourceBuffer::AppendByteStream, mf.imfsourcebuffer_appendbytestream, mfmediaengine/IMFSourceBuffer::AppendByteStream
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFSourceBuffer.AppendByteStream"]
+f1_keywords: 
+ - "mfmediaengine/IMFSourceBuffer.AppendByteStream"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckCryptoSessionStatus, CheckCryptoSessionStatus method [Media Foundation], CheckCryptoSessionStatus method [Media Foundation],ID3D11VideoContext1 interface, ID3D11VideoContext1 interface [Media Foundation],CheckCryptoSessionStatus method, ID3D11VideoContext1.CheckCryptoSessionStatus, ID3D11VideoContext1::CheckCryptoSessionStatus, d3d11_1/ID3D11VideoContext1::CheckCryptoSessionStatus, mf.id3d11videocontext1_checkcryptosessionstatus
 ms.topic: method
-f1_keywords: ["d3d11_1/ID3D11VideoContext1.CheckCryptoSessionStatus"]
+f1_keywords: 
+ - "d3d11_1/ID3D11VideoContext1.CheckCryptoSessionStatus"
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

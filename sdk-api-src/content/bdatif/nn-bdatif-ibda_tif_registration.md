@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_TIF_REGISTRATION, IBDA_TIF_REGISTRATION interface [Microsoft TV Technologies], IBDA_TIF_REGISTRATION interface [Microsoft TV Technologies],described, IBDA_TIF_REGISTRATIONInterface, bdatif/IBDA_TIF_REGISTRATION, mstv.ibda_tif_registration
 ms.topic: interface
-f1_keywords: ["bdatif/IBDA_TIF_REGISTRATION"]
+f1_keywords: 
+ - "bdatif/IBDA_TIF_REGISTRATION"
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

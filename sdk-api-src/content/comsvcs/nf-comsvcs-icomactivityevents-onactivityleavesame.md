@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComActivityEvents interface [COM+],OnActivityLeaveSame method, IComActivityEvents.OnActivityLeaveSame, IComActivityEvents::OnActivityLeaveSame, OnActivityLeaveSame, OnActivityLeaveSame method [COM+], OnActivityLeaveSame method [COM+],IComActivityEvents interface, _dtc_IComActivityEvents_OnActivityLeaveSame, comsvcs/IComActivityEvents::OnActivityLeaveSame, cos.icomactivityevents_onactivityleavesame
 ms.topic: method
-f1_keywords: ["comsvcs/IComActivityEvents.OnActivityLeaveSame"]
+f1_keywords: 
+ - "comsvcs/IComActivityEvents.OnActivityLeaveSame"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

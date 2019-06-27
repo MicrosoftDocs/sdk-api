@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllocateLsaHeap, AllocateLsaHeap callback function [Security], LSA_ALLOCATE_LSA_HEAP, LSA_ALLOCATE_LSA_HEAP callback, _lsa_allocatelsaheap, ntsecpkg/AllocateLsaHeap, security.allocatelsaheap
 ms.topic: callback
-f1_keywords: ["ntsecpkg/AllocateLsaHeap"]
+f1_keywords: 
+ - "ntsecpkg/AllocateLsaHeap"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

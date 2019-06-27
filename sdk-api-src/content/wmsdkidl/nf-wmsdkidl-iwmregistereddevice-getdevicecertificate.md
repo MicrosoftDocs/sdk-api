@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDeviceCertificate, GetDeviceCertificate method [windows Media Format], GetDeviceCertificate method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetDeviceCertificate method, IWMRegisteredDevice.GetDeviceCertificate, IWMRegisteredDevice::GetDeviceCertificate, IWMRegisteredDeviceGetDeviceCertificate, wmformat.iwmregistereddevice_getdevicecertificate, wmsdkidl/IWMRegisteredDevice::GetDeviceCertificate
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMRegisteredDevice.GetDeviceCertificate"]
+f1_keywords: 
+ - "wmsdkidl/IWMRegisteredDevice.GetDeviceCertificate"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

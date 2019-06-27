@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPageReference interface [XPS Documents and Packaging],SetStoryFragmentsResource method, IXpsOMPageReference.SetStoryFragmentsResource, IXpsOMPageReference::SetStoryFragmentsResource, SetStoryFragmentsResource, SetStoryFragmentsResource method [XPS Documents and Packaging], SetStoryFragmentsResource method [XPS Documents and Packaging],IXpsOMPageReference interface, xps.ixpsompagereference_setstoryfragmentsresource, xpsobjectmodel/IXpsOMPageReference::SetStoryFragmentsResource
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMPageReference.SetStoryFragmentsResource"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPageReference.SetStoryFragmentsResource"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

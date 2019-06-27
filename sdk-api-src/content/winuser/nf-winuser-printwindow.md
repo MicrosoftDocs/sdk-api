@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PW_CLIENTONLY, PrintWindow, PrintWindow function [Windows GDI], _win32_PrintWindow, gdi.printwindow, winuser/PrintWindow
 ms.topic: function
-f1_keywords: ["winuser/PrintWindow"]
+f1_keywords: 
+ - "winuser/PrintWindow"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

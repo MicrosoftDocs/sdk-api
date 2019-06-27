@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetGetDCName, NetGetDCName function [Network Management], _win32_netgetdcname, lmaccess/NetGetDCName, netmgmt.netgetdcname
 ms.topic: function
-f1_keywords: ["lmaccess/NetGetDCName"]
+f1_keywords: 
+ - "lmaccess/NetGetDCName"
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

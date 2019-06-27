@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseNtmsNotification, CloseNtmsNotification function [Files], _zaw_closentmsnotification, base.closentmsnotification, fs.closentmsnotification, ntmsapi/CloseNtmsNotification
 ms.topic: function
-f1_keywords: ["ntmsapi/CloseNtmsNotification"]
+f1_keywords: 
+ - "ntmsapi/CloseNtmsNotification"
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

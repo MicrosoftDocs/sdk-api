@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PALETTERGB, PALETTERGB macro [Windows GDI], _win32_PALETTERGB, gdi.palettergb, wingdi/PALETTERGB
 ms.topic: macro
-f1_keywords: ["wingdi/PALETTERGB"]
+f1_keywords: 
+ - "wingdi/PALETTERGB"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

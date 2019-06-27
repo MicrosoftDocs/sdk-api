@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TpSetCallbackThreadpool, TpSetCallbackThreadpool function, base.tpsetcallbackthreadpool, winnt/TpSetCallbackThreadpool
 ms.topic: function
-f1_keywords: ["winnt/TpSetCallbackThreadpool"]
+f1_keywords: 
+ - "winnt/TpSetCallbackThreadpool"
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

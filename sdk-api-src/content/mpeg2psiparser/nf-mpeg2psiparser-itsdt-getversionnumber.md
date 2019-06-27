@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],ITSDT interface, ITSDT interface [Microsoft TV Technologies],GetVersionNumber method, ITSDT.GetVersionNumber, ITSDT::GetVersionNumber, ITSDTGetVersionNumber, mpeg2psiparser/ITSDT::GetVersionNumber, mstv.itsdt_getversionnumber
 ms.topic: method
-f1_keywords: ["mpeg2psiparser/ITSDT.GetVersionNumber"]
+f1_keywords: 
+ - "mpeg2psiparser/ITSDT.GetVersionNumber"
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsSignatureBlockCollection interface, IXpsSignatureBlockCollection interface [XPS Documents and Packaging],GetAt method, IXpsSignatureBlockCollection.GetAt, IXpsSignatureBlockCollection::GetAt, xps.ixpssignatureblockcollection_getat, xpsdigitalsignature/IXpsSignatureBlockCollection::GetAt
 ms.topic: method
-f1_keywords: ["xpsdigitalsignature/IXpsSignatureBlockCollection.GetAt"]
+f1_keywords: 
+ - "xpsdigitalsignature/IXpsSignatureBlockCollection.GetAt"
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

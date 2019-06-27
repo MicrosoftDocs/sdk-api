@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectUser, ITDirectoryObjectUser interface [TAPI 2.2], ITDirectoryObjectUser interface [TAPI 2.2],described, _tapi3_itdirectoryobjectuser, rend/ITDirectoryObjectUser, tapi3.itdirectoryobjectuser
 ms.topic: interface
-f1_keywords: ["rend/ITDirectoryObjectUser"]
+f1_keywords: 
+ - "rend/ITDirectoryObjectUser"
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

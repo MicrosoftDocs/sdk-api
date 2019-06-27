@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsAppThemed, IsAppThemed function [Windows Controls], controls.IsAppThemed, controls.inet_IsAppThemed, inet_IsAppThemed, inet_IsAppThemed_cpp, uxtheme/IsAppThemed
 ms.topic: function
-f1_keywords: ["uxtheme/IsAppThemed"]
+f1_keywords: 
+ - "uxtheme/IsAppThemed"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

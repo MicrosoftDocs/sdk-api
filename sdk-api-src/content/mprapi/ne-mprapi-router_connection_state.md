@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ROUTER_CONNECTION_STATE, ROUTER_CONNECTION_STATE enumeration [RAS], ROUTER_IF_STATE_CONNECTED, ROUTER_IF_STATE_CONNECTING, ROUTER_IF_STATE_DISCONNECTED, ROUTER_IF_STATE_UNREACHABLE, _mpr_router_connection_state, mprapi/ROUTER_CONNECTION_STATE, mprapi/ROUTER_IF_STATE_CONNECTED, mprapi/ROUTER_IF_STATE_CONNECTING, mprapi/ROUTER_IF_STATE_DISCONNECTED, mprapi/ROUTER_IF_STATE_UNREACHABLE, rras.router_connection_state
 ms.topic: enum
-f1_keywords: ["mprapi/ROUTER_CONNECTION_STATE"]
+f1_keywords: 
+ - "mprapi/ROUTER_CONNECTION_STATE"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

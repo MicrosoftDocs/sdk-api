@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMI_OBJ_TEXT_LAST, WMI_OBJ_TEXT_WMI_EXT1, WMI_OBJ_TEXT_WMI_EXT10, WMI_OBJ_TEXT_WMI_EXT2, WMI_OBJ_TEXT_WMI_EXT3, WMI_OBJ_TEXT_WMI_EXT4, WMI_OBJ_TEXT_WMI_EXT5, WMI_OBJ_TEXT_WMI_EXT6, WMI_OBJ_TEXT_WMI_EXT7, WMI_OBJ_TEXT_WMI_EXT8, WMI_OBJ_TEXT_WMI_EXT9, WbemObjectTextFormatEnum, WbemObjectTextFormatEnum enumeration [Windows Management Instrumentation], _hmm_wbemobjecttextformatenum, wbemObjectTextFormatCIMDTD20, wbemObjectTextFormatWMIDTD20, wbemdisp/WMI_OBJ_TEXT_LAST, wbemdisp/WMI_OBJ_TEXT_WMI_EXT1, wbemdisp/WMI_OBJ_TEXT_WMI_EXT10, wbemdisp/WMI_OBJ_TEXT_WMI_EXT2, wbemdisp/WMI_OBJ_TEXT_WMI_EXT3, wbemdisp/WMI_OBJ_TEXT_WMI_EXT4, wbemdisp/WMI_OBJ_TEXT_WMI_EXT5, wbemdisp/WMI_OBJ_TEXT_WMI_EXT6, wbemdisp/WMI_OBJ_TEXT_WMI_EXT7, wbemdisp/WMI_OBJ_TEXT_WMI_EXT8, wbemdisp/WMI_OBJ_TEXT_WMI_EXT9, wbemdisp/WbemObjectTextFormatEnum, wbemdisp/wbemObjectTextFormatCIMDTD20, wbemdisp/wbemObjectTextFormatWMIDTD20, wmi.wbemobjecttextformatenum
 ms.topic: enum
-f1_keywords: ["wbemdisp/WbemObjectTextFormatEnum"]
+f1_keywords: 
+ - "wbemdisp/WbemObjectTextFormatEnum"
 req.header: wbemdisp.h
 req.include-header: 
 req.target-type: Windows

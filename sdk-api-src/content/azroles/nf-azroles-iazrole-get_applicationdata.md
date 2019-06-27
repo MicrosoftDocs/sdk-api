@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ApplicationData property [Security], ApplicationData property [Security],AzRole object, ApplicationData property [Security],IAzRole interface, AzRole object [Security],ApplicationData property, IAzRole interface [Security],ApplicationData property, IAzRole.ApplicationData, IAzRole.get_ApplicationData, IAzRole::ApplicationData, IAzRole::get_ApplicationData, IAzRole::put_ApplicationData, azroles/IAzRole::ApplicationData, azroles/IAzRole::get_ApplicationData, azroles/IAzRole::put_ApplicationData, get_ApplicationData, security.iazrole_applicationdata
 ms.topic: method
-f1_keywords: ["azroles/IAzRole.ApplicationData"]
+f1_keywords: 
+ - "azroles/IAzRole.ApplicationData"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

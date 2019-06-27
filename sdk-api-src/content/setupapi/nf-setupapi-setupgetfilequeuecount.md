@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FILEOP_BACKUP, FILEOP_COPY, FILEOP_DELETE, FILEOP_RENAME, SetupGetFileQueueCount, SetupGetFileQueueCount function [Setup API], _setupapi_setupgetfilequeuecount, setup.setupgetfilequeuecount, setupapi/SetupGetFileQueueCount
 ms.topic: function
-f1_keywords: ["setupapi/SetupGetFileQueueCount"]
+f1_keywords: 
+ - "setupapi/SetupGetFileQueueCount"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

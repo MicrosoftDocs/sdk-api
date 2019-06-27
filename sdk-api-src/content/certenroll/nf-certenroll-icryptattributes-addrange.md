@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddRange, AddRange method [Security], AddRange method [Security],ICryptAttributes interface, ICryptAttributes interface [Security],AddRange method, ICryptAttributes.AddRange, ICryptAttributes::AddRange, certenroll/ICryptAttributes::AddRange, security.icryptattributes_addrange_method
 ms.topic: method
-f1_keywords: ["certenroll/ICryptAttributes.AddRange"]
+f1_keywords: 
+ - "certenroll/ICryptAttributes.AddRange"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

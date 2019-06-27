@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WcmSettingType, WcmSettingType enumeration [SMI], settingTypeComplex, settingTypeList, settingTypeScalar, smi.wcmsettingtype, wcmconfig/WcmSettingType, wcmconfig/settingTypeComplex, wcmconfig/settingTypeList, wcmconfig/settingTypeScalar
 ms.topic: enum
-f1_keywords: ["wcmconfig/WcmSettingType"]
+f1_keywords: 
+ - "wcmconfig/WcmSettingType"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

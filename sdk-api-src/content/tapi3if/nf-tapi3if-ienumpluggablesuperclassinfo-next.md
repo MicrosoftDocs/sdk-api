@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumPluggableSuperclassInfo interface [TAPI 2.2],Next method, IEnumPluggableSuperclassInfo.Next, IEnumPluggableSuperclassInfo::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumPluggableSuperclassInfo interface, _tapi3_ienumpluggablesuperclassinfo_next, tapi3.ienumpluggablesuperclassinfo_next, tapi3if/IEnumPluggableSuperclassInfo::Next
 ms.topic: method
-f1_keywords: ["tapi3if/IEnumPluggableSuperclassInfo.Next"]
+f1_keywords: 
+ - "tapi3if/IEnumPluggableSuperclassInfo.Next"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

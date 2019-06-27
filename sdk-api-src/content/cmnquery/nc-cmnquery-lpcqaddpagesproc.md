@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CQAddPagesProc, CQAddPagesProc callback, CQAddPagesProc callback function [Active Directory], LPCQADDPAGESPROC, LPCQADDPAGESPROC callback function pointer [Active Directory], ad.cqaddpagesproc, cmnquery/CQAddPagesProc
 ms.topic: callback
-f1_keywords: ["cmnquery/LPCQADDPAGESPROC"]
+f1_keywords: 
+ - "cmnquery/LPCQADDPAGESPROC"
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

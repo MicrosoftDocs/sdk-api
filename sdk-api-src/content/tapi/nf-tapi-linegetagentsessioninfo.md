@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linegetagentsessioninfo, lineGetAgentSessionInfo, lineGetAgentSessionInfo function [TAPI 2.2], tapi/lineGetAgentSessionInfo, tapi2.linegetagentsessioninfo"
 ms.topic: function
-f1_keywords: ["tapi/lineGetAgentSessionInfo"]
+f1_keywords: 
+ - "tapi/lineGetAgentSessionInfo"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RoUninitialize, RoUninitialize function [Windows Runtime], WinRTUninitialize, roapi/RoUninitialize, roapi/WinRTUninitialize, winrt.rouninitialize, winrt.winrtuninitialize
 ms.topic: function
-f1_keywords: ["roapi/RoUninitialize"]
+f1_keywords: 
+ - "roapi/RoUninitialize"
 req.header: roapi.h
 req.include-header: 
 req.target-type: Windows

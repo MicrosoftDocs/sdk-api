@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPDVD interface [Windows Media Player],topMenu method, IWMPDVD.topMenu, IWMPDVD::topMenu, IWMPDVDtopMenu, topMenu, topMenu method [Windows Media Player], topMenu method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_topmenu, wmp/IWMPDVD::topMenu
 ms.topic: method
-f1_keywords: ["wmp/IWMPDVD.topMenu"]
+f1_keywords: 
+ - "wmp/IWMPDVD.topMenu"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

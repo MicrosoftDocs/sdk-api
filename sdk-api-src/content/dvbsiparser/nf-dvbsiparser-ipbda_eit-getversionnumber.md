@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetVersionNumber method, IPBDA_EIT.GetVersionNumber, IPBDA_EIT::GetVersionNumber, dvbsiparser/IPBDA_EIT::GetVersionNumber, mstv.ipbda_eit_getversionnumber
 ms.topic: method
-f1_keywords: ["dvbsiparser/IPBDA_EIT.GetVersionNumber"]
+f1_keywords: 
+ - "dvbsiparser/IPBDA_EIT.GetVersionNumber"
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

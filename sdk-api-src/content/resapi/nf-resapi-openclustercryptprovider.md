@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OpenClusterCryptProvider, OpenClusterCryptProvider function [Failover Cluster], POPEN_CLUSTER_CRYPT_PROVIDER, POPEN_CLUSTER_CRYPT_PROVIDER function [Failover Cluster], PROV_DH_SCHANNEL, PROV_DSS, PROV_DSS_DH, PROV_EC_ECDSA_FULL, PROV_EC_ECDSA_SIG, PROV_EC_ECNRA_FULL, PROV_EC_ECNRA_SIG, PROV_FORTEZZA, PROV_INTEL_SEC, PROV_MS_EXCHANGE, PROV_REPLACE_OWF, PROV_RNG, PROV_RSA_AES, PROV_RSA_FULL, PROV_RSA_SCHANNEL, PROV_RSA_SIG, PROV_SPYRUS_LYNKS, PROV_SSL, mscs.openclustercryptprovider, resapi/OpenClusterCryptProvider, resapi/POPEN_CLUSTER_CRYPT_PROVIDER
 ms.topic: function
-f1_keywords: ["resapi/OpenClusterCryptProvider"]
+f1_keywords: 
+ - "resapi/OpenClusterCryptProvider"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

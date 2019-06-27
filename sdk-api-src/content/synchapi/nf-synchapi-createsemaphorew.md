@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSemaphoreA, CreateSemaphoreW, CreateSemaphoreW function, _win32_createsemaphore, base.createsemaphore, synchapi/CreateSemaphoreA, synchapi/CreateSemaphoreW
 ms.topic: function
-f1_keywords: ["synchapi/CreateSemaphoreW"]
+f1_keywords: 
+ - "synchapi/CreateSemaphoreW"
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows

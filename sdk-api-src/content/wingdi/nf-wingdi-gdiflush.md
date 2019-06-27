@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GdiFlush, GdiFlush function [Windows GDI], _win32_GdiFlush, gdi.gdiflush, wingdi/GdiFlush
 ms.topic: function
-f1_keywords: ["wingdi/GdiFlush"]
+f1_keywords: 
+ - "wingdi/GdiFlush"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

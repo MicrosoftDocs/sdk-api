@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSidIdentifierAuthority, GetSidIdentifierAuthority function [Security], _win32_getsididentifierauthority, security.getsididentifierauthority, securitybaseapi/GetSidIdentifierAuthority
 ms.topic: function
-f1_keywords: ["securitybaseapi/GetSidIdentifierAuthority"]
+f1_keywords: 
+ - "securitybaseapi/GetSidIdentifierAuthority"
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

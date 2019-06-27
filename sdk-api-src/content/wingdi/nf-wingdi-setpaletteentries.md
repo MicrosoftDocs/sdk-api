@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetPaletteEntries, SetPaletteEntries function [Windows GDI], _win32_SetPaletteEntries, gdi.setpaletteentries, wingdi/SetPaletteEntries
 ms.topic: function
-f1_keywords: ["wingdi/SetPaletteEntries"]
+f1_keywords: 
+ - "wingdi/SetPaletteEntries"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

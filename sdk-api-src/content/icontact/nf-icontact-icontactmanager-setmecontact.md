@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IContactManager interface [Windows Contacts],SetMeContact method, IContactManager.SetMeContact, IContactManager::SetMeContact, SetMeContact, SetMeContact method [Windows Contacts], SetMeContact method [Windows Contacts],IContactManager interface, _wincontacts_IContactManager_SetMeContact, icontact/IContactManager::SetMeContact, wincontacts._wincontacts_IContactManager_SetMeContact
 ms.topic: method
-f1_keywords: ["icontact/IContactManager.SetMeContact"]
+f1_keywords: 
+ - "icontact/IContactManager.SetMeContact"
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

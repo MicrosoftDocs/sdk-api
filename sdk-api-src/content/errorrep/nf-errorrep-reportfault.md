@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReportFault, ReportFault function [Windows Error Reporting], _win32_reportfault, base.reportfault, errorrep/ReportFault, wer.reportfault
 ms.topic: function
-f1_keywords: ["errorrep/ReportFault"]
+f1_keywords: 
+ - "errorrep/ReportFault"
 req.header: errorrep.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_DatetimeA, MI_DatetimeA structure [Windows Management Infrastructure (MI)], mi/MI_DatetimeA, wmi._mi_datetimea, wmi_v2.mi_datetimea
 ms.topic: struct
-f1_keywords: ["mi/MI_DatetimeA"]
+f1_keywords: 
+ - "mi/MI_DatetimeA"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

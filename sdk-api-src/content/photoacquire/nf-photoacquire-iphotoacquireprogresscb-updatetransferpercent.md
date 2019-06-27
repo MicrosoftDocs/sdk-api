@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireProgressCB interface [Picture Acquisition],UpdateTransferPercent method, IPhotoAcquireProgressCB.UpdateTransferPercent, IPhotoAcquireProgressCB::UpdateTransferPercent, IPhotoAcquireProgressCBUpdateTransferPercent, UpdateTransferPercent, UpdateTransferPercent method [Picture Acquisition], UpdateTransferPercent method [Picture Acquisition],IPhotoAcquireProgressCB interface, photoacquire/IPhotoAcquireProgressCB::UpdateTransferPercent, picacq.iphotoacquireprogresscb_updatetransferpercent
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoAcquireProgressCB.UpdateTransferPercent"]
+f1_keywords: 
+ - "photoacquire/IPhotoAcquireProgressCB.UpdateTransferPercent"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

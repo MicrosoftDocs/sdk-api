@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateCompositionSurfaceForHandle, CreateCompositionSurfaceForHandle method, CreateCompositionSurfaceForHandle method,ICompositorInterop interface, ICompositorInterop interface,CreateCompositionSurfaceForHandle method, ICompositorInterop.CreateCompositionSurfaceForHandle, ICompositorInterop.composition, ICompositorInterop::CreateCompositionSurfaceForHandle, ICompositorInterop::composition, w_ui_comp.icompositorinterop_createcompositionsurfaceforhandle, windows/ICompositorInterop::CreateCompositionSurfaceForHandle
 ms.topic: method
-f1_keywords: ["windows.ui.composition.interop/ICompositorInterop.CreateCompositionSurfaceForHandle"]
+f1_keywords: 
+ - "windows.ui.composition.interop/ICompositorInterop.CreateCompositionSurfaceForHandle"
 req.header: windows.ui.composition.interop.h
 req.include-header: 
 req.target-type: Windows

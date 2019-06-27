@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWTSSBPlugin interface [Remote Desktop Services],Initialize method, IWTSSBPlugin.Initialize, IWTSSBPlugin::Initialize, Initialize, Initialize method [Remote Desktop Services], Initialize method [Remote Desktop Services],IWTSSBPlugin interface, termserv.iwtssbplugin_initialize, tssbx/IWTSSBPlugin::Initialize
 ms.topic: method
-f1_keywords: ["tssbx/IWTSSBPlugin.Initialize"]
+f1_keywords: 
+ - "tssbx/IWTSSBPlugin.Initialize"
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows

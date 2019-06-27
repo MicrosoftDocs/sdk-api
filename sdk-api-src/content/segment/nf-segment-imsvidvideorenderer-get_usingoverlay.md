@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_UsingOverlay method, IMSVidVideoRenderer.get_UsingOverlay, IMSVidVideoRenderer::get_UsingOverlay, IMSVidVideoRendererget_UsingOverlay, get_UsingOverlay, get_UsingOverlay method [Microsoft TV Technologies], get_UsingOverlay method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_usingoverlay, segment/IMSVidVideoRenderer::get_UsingOverlay
 ms.topic: method
-f1_keywords: ["segment/IMSVidVideoRenderer.get_UsingOverlay"]
+f1_keywords: 
+ - "segment/IMSVidVideoRenderer.get_UsingOverlay"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

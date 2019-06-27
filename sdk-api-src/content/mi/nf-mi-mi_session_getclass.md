@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Session_GetClass, MI_Session_GetClass function [Windows Management Infrastructure (MI)], mi/MI_Session_GetClass, wmi_v2.mi_session_getclass
 ms.topic: function
-f1_keywords: ["mi/MI_Session_GetClass"]
+f1_keywords: 
+ - "mi/MI_Session_GetClass"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

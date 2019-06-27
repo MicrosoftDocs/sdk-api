@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Device_ID_List_Size_Ex, CM_Get_Device_ID_List_Size_Ex function [Device and Driver Installation], CM_Get_Device_ID_List_Size_ExW, cfgmgr32/CM_Get_Device_ID_List_Size_Ex, cfgmgr32/CM_Get_Device_ID_List_Size_ExW, cfgmgrfn_2e9a6787-1578-48c1-9f3b-5d1ee266f9ac.xml, devinst.cm_get_device_id_list_size_ex
 ms.topic: function
-f1_keywords: ["cfgmgr32/CM_Get_Device_ID_List_Size_Ex"]
+f1_keywords: 
+ - "cfgmgr32/CM_Get_Device_ID_List_Size_Ex"
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

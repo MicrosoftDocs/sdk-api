@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],put_accName method, IAccessible.put_accName, IAccessible::put_accName, oleacc/IAccessible::put_accName, put_accName, put_accName method [Windows Accessibility], put_accName method [Windows Accessibility],IAccessible interface, winauto.iaccessible_put_accname
 ms.topic: method
-f1_keywords: ["oleacc/IAccessible.put_accName"]
+f1_keywords: 
+ - "oleacc/IAccessible.put_accName"
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

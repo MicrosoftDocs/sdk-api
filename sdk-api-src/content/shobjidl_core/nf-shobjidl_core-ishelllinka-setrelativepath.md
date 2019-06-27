@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellLink interface [Windows Shell],SetRelativePath method, IShellLink::SetRelativePath, IShellLinkA interface [Windows Shell],SetRelativePath method, IShellLinkA.SetRelativePath, IShellLinkA::SetRelativePath, IShellLinkW interface [Windows Shell],SetRelativePath method, IShellLinkW::SetRelativePath, SetRelativePath, SetRelativePath method [Windows Shell], SetRelativePath method [Windows Shell],IShellLink interface, SetRelativePath method [Windows Shell],IShellLinkA interface, SetRelativePath method [Windows Shell],IShellLinkW interface, _win32_IShellLink_SetRelativePath, shell.IShellLink_SetRelativePath, shobjidl_core/IShellLink::SetRelativePath, shobjidl_core/IShellLinkA::SetRelativePath, shobjidl_core/IShellLinkW::SetRelativePath
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellLink.SetRelativePath"]
+f1_keywords: 
+ - "shobjidl_core/IShellLink.SetRelativePath"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

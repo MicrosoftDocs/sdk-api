@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColorSpace, GetColorSpace method [DXGI], GetColorSpace method [DXGI],IDXGIDecodeSwapChain interface, IDXGIDecodeSwapChain interface [DXGI],GetColorSpace method, IDXGIDecodeSwapChain.GetColorSpace, IDXGIDecodeSwapChain::GetColorSpace, direct3ddxgi.idxgidecodeswapchain_getcolorspace, dxgi1_3/IDXGIDecodeSwapChain::GetColorSpace
 ms.topic: method
-f1_keywords: ["dxgi1_3/IDXGIDecodeSwapChain.GetColorSpace"]
+f1_keywords: 
+ - "dxgi1_3/IDXGIDecodeSwapChain.GetColorSpace"
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

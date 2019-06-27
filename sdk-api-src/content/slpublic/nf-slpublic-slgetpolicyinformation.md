@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLGetPolicyInformation, SLGetPolicyInformation function [Security], SL_DATA_BINARY, SL_DATA_DWORD, SL_DATA_SZ, security.slgetpolicyinformation, slpublic/SLGetPolicyInformation
 ms.topic: function
-f1_keywords: ["slpublic/SLGetPolicyInformation"]
+f1_keywords: 
+ - "slpublic/SLGetPolicyInformation"
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

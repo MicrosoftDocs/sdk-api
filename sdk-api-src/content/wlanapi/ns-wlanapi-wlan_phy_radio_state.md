@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWLAN_PHY_RADIO_STATE, PWLAN_PHY_RADIO_STATE, PWLAN_PHY_RADIO_STATE structure pointer [NativeWIFI], WLAN_PHY_RADIO_STATE, WLAN_PHY_RADIO_STATE structure [NativeWIFI], nwifi.wlan_phy_radio_state, wlanapi/PWLAN_PHY_RADIO_STATE, wlanapi/WLAN_PHY_RADIO_STATE"
 ms.topic: struct
-f1_keywords: ["wlanapi/WLAN_PHY_RADIO_STATE"]
+f1_keywords: 
+ - "wlanapi/WLAN_PHY_RADIO_STATE"
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

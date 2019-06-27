@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMStoreFloat3PK, XMStoreFloat3PK, XMStoreFloat3PK method [DirectX Math Support APIs], dxmath.xmstorefloat3pk
 ms.topic: function
-f1_keywords: ["directxpackedvector/XMStoreFloat3PK"]
+f1_keywords: 
+ - "directxpackedvector/XMStoreFloat3PK"
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows

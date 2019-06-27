@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureEngine interface [Media Foundation],StopPreview method, IMFCaptureEngine.StopPreview, IMFCaptureEngine::StopPreview, StopPreview, StopPreview method [Media Foundation], StopPreview method [Media Foundation],IMFCaptureEngine interface, mf.imfcaptureengine_stoppreview, mfcaptureengine/IMFCaptureEngine::StopPreview
 ms.topic: method
-f1_keywords: ["mfcaptureengine/IMFCaptureEngine.StopPreview"]
+f1_keywords: 
+ - "mfcaptureengine/IMFCaptureEngine.StopPreview"
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

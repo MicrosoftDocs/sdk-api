@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_Enabled method, IMSVidCtl.get_Enabled, IMSVidCtl::get_Enabled, IMSVidCtlget_Enabled, get_Enabled, get_Enabled method [Microsoft TV Technologies], get_Enabled method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_enabled, msvidctl/IMSVidCtl::get_Enabled
 ms.topic: method
-f1_keywords: ["msvidctl/IMSVidCtl.get_Enabled"]
+f1_keywords: 
+ - "msvidctl/IMSVidCtl.get_Enabled"
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows

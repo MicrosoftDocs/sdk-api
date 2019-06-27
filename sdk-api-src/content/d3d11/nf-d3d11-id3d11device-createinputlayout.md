@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 7e1008d3-1c16-4b6f-6b61-949b59c5f6d2, CreateInputLayout, CreateInputLayout method [Direct3D 11], CreateInputLayout method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateInputLayout method, ID3D11Device.CreateInputLayout, ID3D11Device::CreateInputLayout, d3d11/ID3D11Device::CreateInputLayout, direct3d11.id3d11device_createinputlayout
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11Device.CreateInputLayout"]
+f1_keywords: 
+ - "d3d11/ID3D11Device.CreateInputLayout"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

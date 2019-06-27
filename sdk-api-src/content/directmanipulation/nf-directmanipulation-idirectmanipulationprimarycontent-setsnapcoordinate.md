@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetSnapCoordinate method, IDirectManipulationPrimaryContent.SetSnapCoordinate, IDirectManipulationPrimaryContent::SetSnapCoordinate, SetSnapCoordinate, SetSnapCoordinate method [Direct Manipulation], SetSnapCoordinate method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_setsnapcoordinate, directmanipulation/IDirectManipulationPrimaryContent::SetSnapCoordinate
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationPrimaryContent.SetSnapCoordinate"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationPrimaryContent.SetSnapCoordinate"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

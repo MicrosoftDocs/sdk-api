@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorATan, XMVectorATan, XMVectorATan method [DirectX Math Support APIs], dxmath.xmvectoratan
 ms.topic: function
-f1_keywords: ["directxmath/XMVectorATan"]
+f1_keywords: 
+ - "directxmath/XMVectorATan"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

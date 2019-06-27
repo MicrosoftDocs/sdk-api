@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12Fence, ID3D12Fence interface, ID3D12Fence interface,described, d3d12/ID3D12Fence, direct3d12.id3d12fence
 ms.topic: interface
-f1_keywords: ["d3d12/ID3D12Fence"]
+f1_keywords: 
+ - "d3d12/ID3D12Fence"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

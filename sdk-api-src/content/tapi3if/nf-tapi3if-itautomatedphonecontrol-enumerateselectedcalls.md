@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumerateSelectedCalls, EnumerateSelectedCalls method [TAPI 2.2], EnumerateSelectedCalls method [TAPI 2.2],ITAutomatedPhoneControl interface, ITAutomatedPhoneControl interface [TAPI 2.2],EnumerateSelectedCalls method, ITAutomatedPhoneControl.EnumerateSelectedCalls, ITAutomatedPhoneControl::EnumerateSelectedCalls, _tapi3_itautomatedphonecontrol_enumerateselectedcalls, tapi3.itautomatedphonecontrol_enumerateselectedcalls, tapi3if/ITAutomatedPhoneControl::EnumerateSelectedCalls
 ms.topic: method
-f1_keywords: ["tapi3if/ITAutomatedPhoneControl.EnumerateSelectedCalls"]
+f1_keywords: 
+ - "tapi3if/ITAutomatedPhoneControl.EnumerateSelectedCalls"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumPeers, EnumPeers method [BITS], EnumPeers method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],EnumPeers method, IBitsPeerCacheAdministration.EnumPeers, IBitsPeerCacheAdministration::EnumPeers, bits.ibitspeercacheadministration_enumpeers, bits3_0/IBitsPeerCacheAdministration::EnumPeers
 ms.topic: method
-f1_keywords: ["bits3_0/IBitsPeerCacheAdministration.EnumPeers"]
+f1_keywords: 
+ - "bits3_0/IBitsPeerCacheAdministration.EnumPeers"
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows

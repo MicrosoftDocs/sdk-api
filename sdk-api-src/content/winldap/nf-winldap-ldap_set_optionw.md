@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_set_option, ldap.ldap__set__option, ldap.ldap_set_option, ldap_set_option, ldap_set_option function [LDAP], ldap_set_optionW, winldap/ldap_set_option, winldap/ldap_set_optionW"
 ms.topic: function
-f1_keywords: ["winldap/ldap_set_option"]
+f1_keywords: 
+ - "winldap/ldap_set_option"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

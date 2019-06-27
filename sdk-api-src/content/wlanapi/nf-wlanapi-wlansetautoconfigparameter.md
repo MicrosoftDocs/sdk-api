@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanSetAutoConfigParameter, WlanSetAutoConfigParameter function [NativeWIFI], nwifi.wlansetautoconfigparameter, wlan_autoconf_opcode_allow_explicit_creds, wlan_autoconf_opcode_allow_virtual_station_extensibility, wlan_autoconf_opcode_block_period, wlan_autoconf_opcode_show_denied_networks, wlanapi/WlanSetAutoConfigParameter
 ms.topic: function
-f1_keywords: ["wlanapi/WlanSetAutoConfigParameter"]
+f1_keywords: 
+ - "wlanapi/WlanSetAutoConfigParameter"
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

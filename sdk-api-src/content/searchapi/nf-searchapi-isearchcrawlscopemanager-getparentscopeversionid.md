@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetParentScopeVersionId, GetParentScopeVersionId method [search], GetParentScopeVersionId method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],GetParentScopeVersionId method, ISearchCrawlScopeManager.GetParentScopeVersionId, ISearchCrawlScopeManager::GetParentScopeVersionId, _search_ISearchCrawlScopeManager_GetParentScopeVersionId, search._search_ISearchCrawlScopeManager_GetParentScopeVersionId, searchapi/ISearchCrawlScopeManager::GetParentScopeVersionId
 ms.topic: method
-f1_keywords: ["searchapi/ISearchCrawlScopeManager.GetParentScopeVersionId"]
+f1_keywords: 
+ - "searchapi/ISearchCrawlScopeManager.GetParentScopeVersionId"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

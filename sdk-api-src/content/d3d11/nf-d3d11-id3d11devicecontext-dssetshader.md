@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DSSetShader, DSSetShader method [Direct3D 11], DSSetShader method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DSSetShader method, ID3D11DeviceContext.DSSetShader, ID3D11DeviceContext::DSSetShader, b38d5392-9654-20ac-d78c-5d92274289d3, d3d11/ID3D11DeviceContext::DSSetShader, direct3d11.id3d11devicecontext_dssetshader
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11DeviceContext.DSSetShader"]
+f1_keywords: 
+ - "d3d11/ID3D11DeviceContext.DSSetShader"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],Name property, IAzApplication interface [Security],Name property, IAzApplication.Name, IAzApplication.put_Name, IAzApplication::Name, IAzApplication::get_Name, IAzApplication::put_Name, Name property [Security], Name property [Security],AzApplication object, Name property [Security],IAzApplication interface, azroles/IAzApplication::Name, azroles/IAzApplication::get_Name, azroles/IAzApplication::put_Name, put_Name, security.iazapplication_name
 ms.topic: method
-f1_keywords: ["azroles/IAzApplication.Name"]
+f1_keywords: 
+ - "azroles/IAzApplication.Name"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

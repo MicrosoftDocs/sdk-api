@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetParameterValues, GetParameterValues method [DirectShow], GetParameterValues method [DirectShow],ICodecAPI interface, ICodecAPI interface [DirectShow],GetParameterValues method, ICodecAPI.GetParameterValues, ICodecAPI::GetParameterValues, ICodecAPIGetParameterValues, dshow.icodecapi_getparametervalues, strmif/ICodecAPI::GetParameterValues
 ms.topic: method
-f1_keywords: ["strmif/ICodecAPI.GetParameterValues"]
+f1_keywords: 
+ - "strmif/ICodecAPI.GetParameterValues"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRESOURCE_STATUS, ClusterResourceFailed, ClusterResourceOffline, ClusterResourceOfflinePending, ClusterResourceOnline, ClusterResourceOnlinePending, ClusterResourceStateUnknown, PRESOURCE_STATUS, PRESOURCE_STATUS structure pointer [Failover Cluster], RESOURCE_STATUS, RESOURCE_STATUS structure [Failover Cluster], _wolf_resource_status, mscs.resource_status, resapi/PRESOURCE_STATUS, resapi/RESOURCE_STATUS"
 ms.topic: struct
-f1_keywords: ["resapi/RESOURCE_STATUS"]
+f1_keywords: 
+ - "resapi/RESOURCE_STATUS"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

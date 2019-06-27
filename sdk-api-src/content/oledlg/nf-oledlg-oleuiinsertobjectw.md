@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleUIInsertObject, OleUIInsertObject function [COM], OleUIInsertObjectA, OleUIInsertObjectW, _ole_OleUIInsertObject, com.oleuiinsertobject, oledlg/OleUIInsertObject, oledlg/OleUIInsertObjectA, oledlg/OleUIInsertObjectW
 ms.topic: function
-f1_keywords: ["oledlg/OleUIInsertObject"]
+f1_keywords: 
+ - "oledlg/OleUIInsertObject"
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

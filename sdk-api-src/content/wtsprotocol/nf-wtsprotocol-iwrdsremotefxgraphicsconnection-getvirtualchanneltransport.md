@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVirtualChannelTransport, GetVirtualChannelTransport method [Remote Desktop Services], GetVirtualChannelTransport method [Remote Desktop Services],IWRdsRemoteFXGraphicsConnection interface, IWRdsRemoteFXGraphicsConnection interface [Remote Desktop Services],GetVirtualChannelTransport method, IWRdsRemoteFXGraphicsConnection.GetVirtualChannelTransport, IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport, termserv.iwrdsremotefxgraphicsconnection_getvirtualchanneltransport, wtsprotocol/IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWRdsRemoteFXGraphicsConnection.GetVirtualChannelTransport"]
+f1_keywords: 
+ - "wtsprotocol/IWRdsRemoteFXGraphicsConnection.GetVirtualChannelTransport"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

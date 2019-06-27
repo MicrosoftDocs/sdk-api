@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPServiceCallback interface [UPnP APIs],ServiceInstanceDied method, IUPnPServiceCallback.ServiceInstanceDied, IUPnPServiceCallback::ServiceInstanceDied, ServiceInstanceDied, ServiceInstanceDied method [UPnP APIs], ServiceInstanceDied method [UPnP APIs],IUPnPServiceCallback interface, _upnp_iupnpservicecallback_serviceinstancedied, upnp.iupnpservicecallback_serviceinstancedied, upnp/IUPnPServiceCallback::ServiceInstanceDied
 ms.topic: method
-f1_keywords: ["upnp/IUPnPServiceCallback.ServiceInstanceDied"]
+f1_keywords: 
+ - "upnp/IUPnPServiceCallback.ServiceInstanceDied"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

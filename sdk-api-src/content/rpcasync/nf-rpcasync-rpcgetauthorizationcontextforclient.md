@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcGetAuthorizationContextForClient, RpcGetAuthorizationContextForClient function [RPC], _rpc_rpcgetauthorizationcontextforclient, rpc.rpcgetauthorizationcontextforclient, rpcasync/RpcGetAuthorizationContextForClient
 ms.topic: function
-f1_keywords: ["rpcasync/RpcGetAuthorizationContextForClient"]
+f1_keywords: 
+ - "rpcasync/RpcGetAuthorizationContextForClient"
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMVideoProcAmp interface [DirectShow],Set method, IAMVideoProcAmp.Set, IAMVideoProcAmp::Set, IAMVideoProcAmpSet, Set, Set method [DirectShow], Set method [DirectShow],IAMVideoProcAmp interface, dshow.iamvideoprocamp_set, strmif/IAMVideoProcAmp::Set
 ms.topic: method
-f1_keywords: ["strmif/IAMVideoProcAmp.Set"]
+f1_keywords: 
+ - "strmif/IAMVideoProcAmp.Set"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

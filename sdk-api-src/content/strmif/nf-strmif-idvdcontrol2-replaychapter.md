@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],ReplayChapter method, IDvdControl2.ReplayChapter, IDvdControl2::ReplayChapter, IDvdControl2ReplayChapter, ReplayChapter, ReplayChapter method [DirectShow], ReplayChapter method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_replaychapter, strmif/IDvdControl2::ReplayChapter
 ms.topic: method
-f1_keywords: ["strmif/IDvdControl2.ReplayChapter"]
+f1_keywords: 
+ - "strmif/IDvdControl2.ReplayChapter"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

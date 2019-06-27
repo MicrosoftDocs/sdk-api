@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetConfigPrefs, GetConfigPrefs method [Media Foundation], GetConfigPrefs method [Media Foundation],IEVRFilterConfigEx interface, IEVRFilterConfigEx interface [Media Foundation],GetConfigPrefs method, IEVRFilterConfigEx.GetConfigPrefs, IEVRFilterConfigEx::GetConfigPrefs, evr/IEVRFilterConfigEx::GetConfigPrefs, mf.ievrfilterconfigex_getconfigprefs
 ms.topic: method
-f1_keywords: ["evr/IEVRFilterConfigEx.GetConfigPrefs"]
+f1_keywords: 
+ - "evr/IEVRFilterConfigEx.GetConfigPrefs"
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

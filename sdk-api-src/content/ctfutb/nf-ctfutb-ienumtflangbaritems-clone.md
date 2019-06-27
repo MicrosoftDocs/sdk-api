@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfLangBarItems interface, IEnumTfLangBarItems interface [Text Services Framework],Clone method, IEnumTfLangBarItems.Clone, IEnumTfLangBarItems::Clone, _tsf_ienumtflangbaritems_clone_ref, ctfutb/IEnumTfLangBarItems::Clone, tsf.ienumtflangbaritems_clone
 ms.topic: method
-f1_keywords: ["ctfutb/IEnumTfLangBarItems.Clone"]
+f1_keywords: 
+ - "ctfutb/IEnumTfLangBarItems.Clone"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

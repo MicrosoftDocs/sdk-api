@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCD_Structures_c8b6e9f2-0855-478f-a091-78b57b19d596.xml, DISPLAYCONFIG_SOURCE_MODE, DISPLAYCONFIG_SOURCE_MODE structure [Display Devices], display.displayconfig_source_mode, wingdi/DISPLAYCONFIG_SOURCE_MODE
 ms.topic: struct
-f1_keywords: ["wingdi/DISPLAYCONFIG_SOURCE_MODE"]
+f1_keywords: 
+ - "wingdi/DISPLAYCONFIG_SOURCE_MODE"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

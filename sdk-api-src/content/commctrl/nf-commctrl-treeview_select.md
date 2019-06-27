@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TVGN_CARET, TVGN_DROPHILITE, TVGN_FIRSTVISIBLE, TreeView_Select, TreeView_Select macro [Windows Controls], _win32_TreeView_Select, _win32_TreeView_Select_cpp, commctrl/TreeView_Select, controls.TreeView_Select, controls._win32_TreeView_Select
 ms.topic: macro
-f1_keywords: ["commctrl/TreeView_Select"]
+f1_keywords: 
+ - "commctrl/TreeView_Select"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProcessLock, IProcessLock interface [COM], IProcessLock interface [COM],described, _com_iprocesslock, com.iprocesslock, objidl/IProcessLock
 ms.topic: interface
-f1_keywords: ["objidl/IProcessLock"]
+f1_keywords: 
+ - "objidl/IProcessLock"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

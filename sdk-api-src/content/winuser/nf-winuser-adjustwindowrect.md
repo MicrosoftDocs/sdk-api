@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AdjustWindowRect, AdjustWindowRect function [Windows and Messages], _win32_AdjustWindowRect, _win32_adjustwindowrect_cpp, winmsg.adjustwindowrect, winui._win32_adjustwindowrect, winuser/AdjustWindowRect
 ms.topic: function
-f1_keywords: ["winuser/AdjustWindowRect"]
+f1_keywords: 
+ - "winuser/AdjustWindowRect"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

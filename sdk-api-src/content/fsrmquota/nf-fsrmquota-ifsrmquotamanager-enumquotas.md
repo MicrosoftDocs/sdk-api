@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumQuotas, EnumQuotas method [File Server Resource Manager], EnumQuotas method [File Server Resource Manager],FsrmQuotaManager class, EnumQuotas method [File Server Resource Manager],IFsrmQuotaManager interface, EnumQuotas method [File Server Resource Manager],IFsrmQuotaManagerEx interface, FsrmQuotaManager class [File Server Resource Manager],EnumQuotas method, IFsrmQuotaManager interface [File Server Resource Manager],EnumQuotas method, IFsrmQuotaManager.EnumQuotas, IFsrmQuotaManager::EnumQuotas, IFsrmQuotaManagerEx interface [File Server Resource Manager],EnumQuotas method, IFsrmQuotaManagerEx::EnumQuotas, fs.ifsrmquotamanager_enumquotas, fsrm.ifsrmquotamanager_enumquotas, fsrmquota/IFsrmQuotaManager::EnumQuotas, fsrmquota/IFsrmQuotaManagerEx::EnumQuotas
 ms.topic: method
-f1_keywords: ["fsrmquota/IFsrmQuotaManager.EnumQuotas"]
+f1_keywords: 
+ - "fsrmquota/IFsrmQuotaManager.EnumQuotas"
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAvailableSize, GetAvailableSize method [Windows Shell], GetAvailableSize method [Windows Shell],IAccessibilityDockingService interface, IAccessibilityDockingService interface [Windows Shell],GetAvailableSize method, IAccessibilityDockingService.GetAvailableSize, IAccessibilityDockingService::GetAvailableSize, shell.IAccessibilityDockingService_GetAvailableSize, shobjidl/IAccessibilityDockingService::GetAvailableSize
 ms.topic: method
-f1_keywords: ["shobjidl/IAccessibilityDockingService.GetAvailableSize"]
+f1_keywords: 
+ - "shobjidl/IAccessibilityDockingService.GetAvailableSize"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

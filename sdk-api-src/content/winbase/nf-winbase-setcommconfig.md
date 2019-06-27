@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetCommConfig, SetCommConfig function, _win32_setcommconfig, base.setcommconfig, winbase/SetCommConfig
 ms.topic: function
-f1_keywords: ["winbase/SetCommConfig"]
+f1_keywords: 
+ - "winbase/SetCommConfig"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

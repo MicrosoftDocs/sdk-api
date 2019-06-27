@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GraphicsPath class [GDI+],SetMarker method, GraphicsPath.SetMarker, GraphicsPath::SetMarker, SetMarker, SetMarker method [GDI+], SetMarker method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_SetMarker_, gdiplus._gdiplus_CLASS_GraphicsPath_SetMarker_
 ms.topic: method
-f1_keywords: ["gdipluspath/GraphicsPath.SetMarker"]
+f1_keywords: 
+ - "gdipluspath/GraphicsPath.SetMarker"
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

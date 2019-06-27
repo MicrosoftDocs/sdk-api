@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInitializeSpy, IInitializeSpy interface [COM], IInitializeSpy interface [COM],described, _com_iinitializespy, com.iinitializespy, objidl/IInitializeSpy
 ms.topic: interface
-f1_keywords: ["objidl/IInitializeSpy"]
+f1_keywords: 
+ - "objidl/IInitializeSpy"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdatesSettings2, IAutomaticUpdatesSettings2 interface [Windows Update Agent], IAutomaticUpdatesSettings2 interface [Windows Update Agent],described, wua.iautomaticupdatessettings2, wuapi/IAutomaticUpdatesSettings2
 ms.topic: interface
-f1_keywords: ["wuapi/IAutomaticUpdatesSettings2"]
+f1_keywords: 
+ - "wuapi/IAutomaticUpdatesSettings2"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

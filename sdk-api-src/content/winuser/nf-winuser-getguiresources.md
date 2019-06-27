@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GR_GDIOBJECTS, GR_GDIOBJECTS_PEAK, GR_USEROBJECTS, GR_USEROBJECTS_PEAK, GetGuiResources, GetGuiResources function, _win32_getguiresources, base.getguiresources, winuser/GetGuiResources
 ms.topic: function
-f1_keywords: ["winuser/GetGuiResources"]
+f1_keywords: 
+ - "winuser/GetGuiResources"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

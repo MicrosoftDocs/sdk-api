@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_IPINTERFACE_TABLE, MIB_IPINTERFACE_TABLE, MIB_IPINTERFACE_TABLE structure [MIB], PMIB_IPINTERFACE_TABLE, PMIB_IPINTERFACE_TABLE structure pointer [MIB], _MIB_IPINTERFACE_TABLE, mib.mib_ipinterface_table, netioapi/MIB_IPINTERFACE_TABLE, netioapi/PMIB_IPINTERFACE_TABLE"
 ms.topic: struct
-f1_keywords: ["netioapi/MIB_IPINTERFACE_TABLE"]
+f1_keywords: 
+ - "netioapi/MIB_IPINTERFACE_TABLE"
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

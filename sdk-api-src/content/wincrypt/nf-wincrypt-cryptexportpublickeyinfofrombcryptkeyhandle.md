@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG, CRYPT_OID_INFO_PUBKEY_SIGN_KEY_FLAG, CryptExportPublicKeyInfoFromBCryptKeyHandle, CryptExportPublicKeyInfoFromBCryptKeyHandle function [Security], security.cryptexportpublickeyinfofrombcryptkeyhandle, wincrypt/CryptExportPublicKeyInfoFromBCryptKeyHandle
 ms.topic: function
-f1_keywords: ["wincrypt/CryptExportPublicKeyInfoFromBCryptKeyHandle"]
+f1_keywords: 
+ - "wincrypt/CryptExportPublicKeyInfoFromBCryptKeyHandle"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

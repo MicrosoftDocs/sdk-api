@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_BooleanAField, MI_BooleanAField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_BooleanAField, wmi._mi_booleanafield, wmi_v2.mi_booleanafield
 ms.topic: struct
-f1_keywords: ["mi/MI_BooleanAField"]
+f1_keywords: 
+ - "mi/MI_BooleanAField"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

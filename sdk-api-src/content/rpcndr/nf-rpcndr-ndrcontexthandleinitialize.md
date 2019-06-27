@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrContextHandleInitialize, NdrContextHandleInitialize function [RPC], rpc.ndrcontexthandleinitialize, rpcndr/NdrContextHandleInitialize
 ms.topic: function
-f1_keywords: ["rpcndr/NdrContextHandleInitialize"]
+f1_keywords: 
+ - "rpcndr/NdrContextHandleInitialize"
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

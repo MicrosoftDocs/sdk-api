@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseClusterGroupSet, CloseClusterGroupSet function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER_GROUP_SET, PCLUSAPI_CLOSE_CLUSTER_GROUP_SET function [Failover Cluster], clusapi/CloseClusterGroupSet, clusapi/PCLUSAPI_CLOSE_CLUSTER_GROUP_SET, mscs.closeclustergroupcollection
 ms.topic: function
-f1_keywords: ["clusapi/CloseClusterGroupSet"]
+f1_keywords: 
+ - "clusapi/CloseClusterGroupSet"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

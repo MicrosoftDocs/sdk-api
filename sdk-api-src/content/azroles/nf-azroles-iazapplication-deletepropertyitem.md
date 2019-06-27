@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_DELEGATED_POLICY_USERS, AZ_PROP_DELEGATED_POLICY_USERS_NAME, AZ_PROP_POLICY_ADMINS, AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS, AZ_PROP_POLICY_READERS_NAME, AzApplication object [Security],DeletePropertyItem method, DeletePropertyItem, DeletePropertyItem method [Security], DeletePropertyItem method [Security],AzApplication object, DeletePropertyItem method [Security],IAzApplication interface, IAzApplication interface [Security],DeletePropertyItem method, IAzApplication.DeletePropertyItem, IAzApplication::DeletePropertyItem, azroles/IAzApplication::DeletePropertyItem, security.iazapplication_deletepropertyitem
 ms.topic: method
-f1_keywords: ["azroles/IAzApplication.DeletePropertyItem"]
+f1_keywords: 
+ - "azroles/IAzApplication.DeletePropertyItem"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ArchivedKeyHash property [Security], ArchivedKeyHash property [Security],ICertPropertyArchivedKeyHash interface, ICertPropertyArchivedKeyHash interface [Security],ArchivedKeyHash property, ICertPropertyArchivedKeyHash.ArchivedKeyHash, ICertPropertyArchivedKeyHash.get_ArchivedKeyHash, ICertPropertyArchivedKeyHash::ArchivedKeyHash, ICertPropertyArchivedKeyHash::get_ArchivedKeyHash, certenroll/ICertPropertyArchivedKeyHash::ArchivedKeyHash, certenroll/ICertPropertyArchivedKeyHash::get_ArchivedKeyHash, get_ArchivedKeyHash, security.icertpropertyarchivedkeyhash_archivedkeyhash
 ms.topic: method
-f1_keywords: ["certenroll/ICertPropertyArchivedKeyHash.ArchivedKeyHash"]
+f1_keywords: 
+ - "certenroll/ICertPropertyArchivedKeyHash.ArchivedKeyHash"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

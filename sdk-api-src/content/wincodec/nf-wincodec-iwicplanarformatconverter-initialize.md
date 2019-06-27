@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICPlanarFormatConverter interface [Windows Imaging Component],Initialize method, IWICPlanarFormatConverter.Initialize, IWICPlanarFormatConverter::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICPlanarFormatConverter interface, wic.iwicplanarformatconverter_initialize, wincodec/IWICPlanarFormatConverter::Initialize
 ms.topic: method
-f1_keywords: ["wincodec/IWICPlanarFormatConverter.Initialize"]
+f1_keywords: 
+ - "wincodec/IWICPlanarFormatConverter.Initialize"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

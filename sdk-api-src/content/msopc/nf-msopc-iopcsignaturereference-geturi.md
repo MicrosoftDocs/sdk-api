@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUri, GetUri method [Open Packaging Conventions], GetUri method [Open Packaging Conventions],IOpcSignatureReference interface, IOpcSignatureReference interface [Open Packaging Conventions],GetUri method, IOpcSignatureReference.GetUri, IOpcSignatureReference::GetUri, msopc/IOpcSignatureReference::GetUri, opc.iopcsignaturereference_geturi
 ms.topic: method
-f1_keywords: ["msopc/IOpcSignatureReference.GetUri"]
+f1_keywords: 
+ - "msopc/IOpcSignatureReference.GetUri"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

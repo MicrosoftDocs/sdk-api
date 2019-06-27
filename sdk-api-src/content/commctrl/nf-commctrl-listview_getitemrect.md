@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LVIR_BOUNDS, LVIR_ICON, LVIR_LABEL, LVIR_SELECTBOUNDS, ListView_GetItemRect, ListView_GetItemRect macro [Windows Controls], _win32_ListView_GetItemRect, _win32_ListView_GetItemRect_cpp, commctrl/ListView_GetItemRect, controls.ListView_GetItemRect, controls._win32_ListView_GetItemRect
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_GetItemRect"]
+f1_keywords: 
+ - "commctrl/ListView_GetItemRect"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

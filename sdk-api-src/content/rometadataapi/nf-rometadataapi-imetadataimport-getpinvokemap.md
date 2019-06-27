@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPinvokeMap, GetPinvokeMap method [Windows Runtime], GetPinvokeMap method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetPinvokeMap method, IMetaDataImport.GetPinvokeMap, IMetaDataImport::GetPinvokeMap, rometadataapi/IMetaDataImport::GetPinvokeMap, winrt.imetadataimport_getpinvokemap
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataImport.GetPinvokeMap"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataImport.GetPinvokeMap"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

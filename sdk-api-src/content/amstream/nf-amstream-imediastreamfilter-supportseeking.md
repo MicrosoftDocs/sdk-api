@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaStreamFilter interface [DirectShow],SupportSeeking method, IMediaStreamFilter.SupportSeeking, IMediaStreamFilter::SupportSeeking, IMediaStreamFilterSupportSeeking, SupportSeeking, SupportSeeking method [DirectShow], SupportSeeking method [DirectShow],IMediaStreamFilter interface, amstream/IMediaStreamFilter::SupportSeeking, dshow.imediastreamfilter_supportseeking
 ms.topic: method
-f1_keywords: ["amstream/IMediaStreamFilter.SupportSeeking"]
+f1_keywords: 
+ - "amstream/IMediaStreamFilter.SupportSeeking"
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

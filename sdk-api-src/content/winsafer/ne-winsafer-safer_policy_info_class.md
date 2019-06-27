@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SAFER_POLICY_INFO_CLASS, SAFER_POLICY_INFO_CLASS enumeration [Security], SaferPolicyDefaultLevel, SaferPolicyEnableTransparentEnforcement, SaferPolicyEvaluateUserScope, SaferPolicyLevelList, SaferPolicyScopeFlags, _mnp_safer_policy_info_class, security.safer_policy_info_class, winsafer/SAFER_POLICY_INFO_CLASS, winsafer/SaferPolicyDefaultLevel, winsafer/SaferPolicyEnableTransparentEnforcement, winsafer/SaferPolicyEvaluateUserScope, winsafer/SaferPolicyLevelList, winsafer/SaferPolicyScopeFlags
 ms.topic: enum
-f1_keywords: ["winsafer/SAFER_POLICY_INFO_CLASS"]
+f1_keywords: 
+ - "winsafer/SAFER_POLICY_INFO_CLASS"
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SERIALIZEDPROPERTYVALUE, SERIALIZEDPROPERTYVALUE structure [Windows Shell], _shell_SERIALIZEDPROPERTYVALUE, propidl/SERIALIZEDPROPERTYVALUE, shell.SERIALIZEDPROPERTYVALUE
 ms.topic: struct
-f1_keywords: ["propidl/SERIALIZEDPROPERTYVALUE"]
+f1_keywords: 
+ - "propidl/SERIALIZEDPROPERTYVALUE"
 req.header: propidl.h
 req.include-header: 
 req.target-type: Windows

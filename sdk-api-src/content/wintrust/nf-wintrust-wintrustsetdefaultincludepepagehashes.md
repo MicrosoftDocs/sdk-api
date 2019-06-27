@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WintrustSetDefaultIncludePEPageHashes, WintrustSetDefaultIncludePEPageHashes function [Security], security.wintrustsetdefaultincludepepagehashes, wintrust/WintrustSetDefaultIncludePEPageHashes
 ms.topic: function
-f1_keywords: ["wintrust/WintrustSetDefaultIncludePEPageHashes"]
+f1_keywords: 
+ - "wintrust/WintrustSetDefaultIncludePEPageHashes"
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDelayedPropertyStore, GetDelayedPropertyStore method [Windows Shell], GetDelayedPropertyStore method [Windows Shell],IDelayedPropertyStoreFactory interface, IDelayedPropertyStoreFactory interface [Windows Shell],GetDelayedPropertyStore method, IDelayedPropertyStoreFactory.GetDelayedPropertyStore, IDelayedPropertyStoreFactory::GetDelayedPropertyStore, STOREID_FALLBACK, STOREID_FILE, STOREID_INNATE, _shell_IDelayedPropertyStoreFactory_GetDelayedPropertyStore, propsys/IDelayedPropertyStoreFactory::GetDelayedPropertyStore, shell.IDelayedPropertyStoreFactory_GetDelayedPropertyStore
 ms.topic: method
-f1_keywords: ["propsys/IDelayedPropertyStoreFactory.GetDelayedPropertyStore"]
+f1_keywords: 
+ - "propsys/IDelayedPropertyStoreFactory.GetDelayedPropertyStore"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

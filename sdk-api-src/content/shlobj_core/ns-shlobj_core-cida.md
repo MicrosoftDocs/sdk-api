@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPIDA, CIDA, CIDA structure [Windows Shell], LPIDA, LPIDA structure pointer [Windows Shell], _IDA, _win32_CIDA, shell.CIDA, shlobj_core/CIDA, shlobj_core/LPIDA"
 ms.topic: struct
-f1_keywords: ["shlobj_core/CIDA"]
+f1_keywords: 
+ - "shlobj_core/CIDA"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

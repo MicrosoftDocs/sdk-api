@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStringCollection interface [Windows Update Agent],Insert method, IStringCollection.Insert, IStringCollection::Insert, Insert, Insert method [Windows Update Agent], Insert method [Windows Update Agent],IStringCollection interface, wua.istringcollection_insert, wuapi/IStringCollection::Insert
 ms.topic: method
-f1_keywords: ["wuapi/IStringCollection.Insert"]
+f1_keywords: 
+ - "wuapi/IStringCollection.Insert"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

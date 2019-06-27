@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentClockTransactionManager, GetCurrentClockTransactionManager function [Files], fs.getcurrentclocktransactionmanager_func, ktmw32/GetCurrentClockTransactionManager
 ms.topic: function
-f1_keywords: ["ktmw32/GetCurrentClockTransactionManager"]
+f1_keywords: 
+ - "ktmw32/GetCurrentClockTransactionManager"
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMMDeviceEnumerator, IMMDeviceEnumerator interface [Core Audio], IMMDeviceEnumerator interface [Core Audio],described, coreaudio.immdeviceenumerator, mmdeviceapi/IMMDeviceEnumerator
 ms.topic: interface
-f1_keywords: ["mmdeviceapi/IMMDeviceEnumerator"]
+f1_keywords: 
+ - "mmdeviceapi/IMMDeviceEnumerator"
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPPOLYTEXTA, *NPPOLYTEXTA, *PPOLYTEXTA, POLYTEXT, POLYTEXT structure [Windows GDI], POLYTEXTA, POLYTEXTW, PPOLYTEXT, PPOLYTEXT structure pointer [Windows GDI], _win32_POLYTEXT_str, gdi.polytext, wingdi/POLYTEXT, wingdi/POLYTEXTA, wingdi/POLYTEXTW, wingdi/PPOLYTEXT"
 ms.topic: struct
-f1_keywords: ["wingdi/POLYTEXT"]
+f1_keywords: 
+ - "wingdi/POLYTEXT"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

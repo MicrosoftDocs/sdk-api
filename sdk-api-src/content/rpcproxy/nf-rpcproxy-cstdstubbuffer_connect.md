@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CStdStubBuffer_Connect, CStdStubBuffer_Connect function [RPC], rpc.cstdstubbuffer_connect, rpcproxy/CStdStubBuffer_Connect
 ms.topic: function
-f1_keywords: ["rpcproxy/CStdStubBuffer_Connect"]
+f1_keywords: 
+ - "rpcproxy/CStdStubBuffer_Connect"
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

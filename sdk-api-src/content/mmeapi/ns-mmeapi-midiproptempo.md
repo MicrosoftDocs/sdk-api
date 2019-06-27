@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPMIDIPROPTEMPO, MIDIPROPTEMPO, MIDIPROPTEMPO structure [Windows Multimedia], _win32_MIDIPROPTEMPO_str, midiproptempo_tag, mmeapi/MIDIPROPTEMPO, multimedia.midiproptempo"
 ms.topic: struct
-f1_keywords: ["mmeapi/MIDIPROPTEMPO"]
+f1_keywords: 
+ - "mmeapi/MIDIPROPTEMPO"
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

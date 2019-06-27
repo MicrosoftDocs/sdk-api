@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDMLObject, IDMLObject interface, IDMLObject interface,described, direct3d12.idmlobject, directml/IDMLObject
 ms.topic: interface
-f1_keywords: ["directml/IDMLObject"]
+f1_keywords: 
+ - "directml/IDMLObject"
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

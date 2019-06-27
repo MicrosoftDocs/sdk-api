@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHttpStatus, GetHttpStatus method [Media Foundation], GetHttpStatus method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetHttpStatus method, IMFHttpDownloadRequest.GetHttpStatus, IMFHttpDownloadRequest::GetHttpStatus, mf.imfhttpdownloadrequest_gethttpstatus, mfidl/IMFHttpDownloadRequest::GetHttpStatus
 ms.topic: method
-f1_keywords: ["mfidl/IMFHttpDownloadRequest.GetHttpStatus"]
+f1_keywords: 
+ - "mfidl/IMFHttpDownloadRequest.GetHttpStatus"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

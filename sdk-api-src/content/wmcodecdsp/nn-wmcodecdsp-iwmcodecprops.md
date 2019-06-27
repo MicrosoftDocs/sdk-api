@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMCodecProps, IWMCodecProps interface [Media Foundation], IWMCodecProps interface [Media Foundation],described, codecapi.iwmcodecpropsinterface, mf.iwmcodecprops, mf.iwmcodecpropsinterface, wmcodecdsp/IWMCodecProps
 ms.topic: interface
-f1_keywords: ["wmcodecdsp/IWMCodecProps"]
+f1_keywords: 
+ - "wmcodecdsp/IWMCodecProps"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

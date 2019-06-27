@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DLLVERSIONINFO2, DLLVERSIONINFO2 structure [Windows Shell], _win32_DLLVERSIONINFO2_0rjh, shell.DLLVERSIONINFO2_0rjh, shlwapi/DLLVERSIONINFO2
 ms.topic: struct
-f1_keywords: ["shlwapi/DLLVERSIONINFO2"]
+f1_keywords: 
+ - "shlwapi/DLLVERSIONINFO2"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

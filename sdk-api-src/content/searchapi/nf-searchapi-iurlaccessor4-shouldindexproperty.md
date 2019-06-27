@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUrlAccessor4 interface [search],ShouldIndexProperty method, IUrlAccessor4.ShouldIndexProperty, IUrlAccessor4::ShouldIndexProperty, ShouldIndexProperty, ShouldIndexProperty method [search], ShouldIndexProperty method [search],IUrlAccessor4 interface, search.iurlaccessor4_shouldindexproperty, searchapi/IUrlAccessor4::ShouldIndexProperty
 ms.topic: method
-f1_keywords: ["searchapi/IUrlAccessor4.ShouldIndexProperty"]
+f1_keywords: 
+ - "searchapi/IUrlAccessor4.ShouldIndexProperty"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

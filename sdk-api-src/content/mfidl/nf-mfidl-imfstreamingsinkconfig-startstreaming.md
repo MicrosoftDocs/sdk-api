@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FALSE, IMFStreamingSinkConfig interface [Media Foundation],StartStreaming method, IMFStreamingSinkConfig.StartStreaming, IMFStreamingSinkConfig::StartStreaming, StartStreaming, StartStreaming method [Media Foundation], StartStreaming method [Media Foundation],IMFStreamingSinkConfig interface, TRUE, mf.imfstreamingsinkconfig_startstreaming, mfidl/IMFStreamingSinkConfig::StartStreaming
 ms.topic: method
-f1_keywords: ["mfidl/IMFStreamingSinkConfig.StartStreaming"]
+f1_keywords: 
+ - "mfidl/IMFStreamingSinkConfig.StartStreaming"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

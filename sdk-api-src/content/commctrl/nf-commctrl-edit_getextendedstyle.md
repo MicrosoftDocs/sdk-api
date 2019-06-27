@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Edit_GetExtendedStyle, Edit_GetExtendedStyle macro [Windows Controls], commctrl/Edit_GetExtendedStyle, controls.edit_getextendedstyle
 ms.topic: macro
-f1_keywords: ["commctrl/Edit_GetExtendedStyle"]
+f1_keywords: 
+ - "commctrl/Edit_GetExtendedStyle"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

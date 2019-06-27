@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITRendezvous interface [TAPI 2.2],get_DefaultDirectories method, ITRendezvous.get_DefaultDirectories, ITRendezvous::get_DefaultDirectories, _tapi3_itrendezvous_get_defaultdirectories, get_DefaultDirectories, get_DefaultDirectories method [TAPI 2.2], get_DefaultDirectories method [TAPI 2.2],ITRendezvous interface, rend/ITRendezvous::get_DefaultDirectories, tapi3.itrendezvous_get_defaultdirectories
 ms.topic: method
-f1_keywords: ["rend/ITRendezvous.get_DefaultDirectories"]
+f1_keywords: 
+ - "rend/ITRendezvous.get_DefaultDirectories"
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

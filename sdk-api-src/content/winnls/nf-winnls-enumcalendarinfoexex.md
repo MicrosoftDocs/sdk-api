@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumCalendarInfoExEx, EnumCalendarInfoExEx function [Internationalization for Windows Applications], _win32_EnumCalendarInfoExEx, intl.enumcalendarinfoexex, winnls/EnumCalendarInfoExEx
 ms.topic: function
-f1_keywords: ["winnls/EnumCalendarInfoExEx"]
+f1_keywords: 
+ - "winnls/EnumCalendarInfoExEx"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

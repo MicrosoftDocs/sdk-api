@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateLinearTransferEffect, CreateLinearTransferEffect method [DirectComposition], CreateLinearTransferEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateLinearTransferEffect method, IDCompositionDevice3.CreateLinearTransferEffect, IDCompositionDevice3::CreateLinearTransferEffect, dcomp/IDCompositionDevice3::CreateLinearTransferEffect, directcomp.idcompositiondevice3_createlineartransfereffect
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionDevice3.CreateLinearTransferEffect"]
+f1_keywords: 
+ - "dcomp/IDCompositionDevice3.CreateLinearTransferEffect"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

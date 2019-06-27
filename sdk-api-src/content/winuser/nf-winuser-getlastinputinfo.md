@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLastInputInfo, GetLastInputInfo function [Keyboard and Mouse Input], _win32_GetLastInputInfo, _win32_getlastinputinfo_cpp, inputdev.getlastinputinfo, winui._win32_getlastinputinfo, winuser/GetLastInputInfo
 ms.topic: function
-f1_keywords: ["winuser/GetLastInputInfo"]
+f1_keywords: 
+ - "winuser/GetLastInputInfo"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

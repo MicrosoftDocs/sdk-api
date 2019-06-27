@@ -5,7 +5,8 @@ description: Encapsulates a list of graphics commands for rendering, extending t
 ms.date: 05/20/2019
 ms.keywords: ID3D12GraphicsCommandList5
 ms.topic: language-reference
-f1_keywords: ["d3d12/ID3D12GraphicsCommandList5"]
+f1_keywords: 
+ - "d3d12/ID3D12GraphicsCommandList5"
 targetos: Windows
 product: Windows
 req.assembly: 

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxReceiptOptions interface [Fax Service],Save method, IFaxReceiptOptions.Save, IFaxReceiptOptions::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxReceiptOptions interface, _mfax_faxreceiptoptions.save, fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_save_cpp, fax._mfax_faxreceiptoptions_save, faxcomex/IFaxReceiptOptions::Save
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxReceiptOptions.Save"]
+f1_keywords: 
+ - "faxcomex/IFaxReceiptOptions.Save"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

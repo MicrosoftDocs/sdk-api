@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Apply, Apply method [Network Policy Server], Apply method [Network Policy Server],ISdo interface, ISdo interface [Network Policy Server],Apply method, ISdo.Apply, ISdo::Apply, _sdo_isdo_apply, nps.SDO_isdo_apply, sdo.isdo_apply, sdoias/ISdo::Apply
 ms.topic: method
-f1_keywords: ["sdoias/ISdo.Apply"]
+f1_keywords: 
+ - "sdoias/ISdo.Apply"
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

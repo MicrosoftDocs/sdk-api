@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndFlush, EndFlush method [DirectShow], EndFlush method [DirectShow],IAsyncReader interface, IAsyncReader interface [DirectShow],EndFlush method, IAsyncReader.EndFlush, IAsyncReader::EndFlush, IAsyncReaderEndFlush, dshow.iasyncreader_endflush, strmif/IAsyncReader::EndFlush
 ms.topic: method
-f1_keywords: ["strmif/IAsyncReader.EndFlush"]
+f1_keywords: 
+ - "strmif/IAsyncReader.EndFlush"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

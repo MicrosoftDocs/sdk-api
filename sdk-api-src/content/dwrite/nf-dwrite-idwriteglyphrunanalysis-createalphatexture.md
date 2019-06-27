@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateAlphaTexture, CreateAlphaTexture method [Direct Write], CreateAlphaTexture method [Direct Write],IDWriteGlyphRunAnalysis interface, IDWriteGlyphRunAnalysis interface [Direct Write],CreateAlphaTexture method, IDWriteGlyphRunAnalysis.CreateAlphaTexture, IDWriteGlyphRunAnalysis::CreateAlphaTexture, directwrite.IDWriteGlyphRunAnalysis_CreateAlphaTexture, dwrite/IDWriteGlyphRunAnalysis::CreateAlphaTexture
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteGlyphRunAnalysis.CreateAlphaTexture"]
+f1_keywords: 
+ - "dwrite/IDWriteGlyphRunAnalysis.CreateAlphaTexture"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

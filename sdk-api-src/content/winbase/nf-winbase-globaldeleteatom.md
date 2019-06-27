@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GlobalDeleteAtom, GlobalDeleteAtom function [Data Exchange], _win32_GlobalDeleteAtom, _win32_globaldeleteatom_cpp, dataxchg.globaldeleteatom, winbase/GlobalDeleteAtom, winui._win32_globaldeleteatom
 ms.topic: function
-f1_keywords: ["winbase/GlobalDeleteAtom"]
+f1_keywords: 
+ - "winbase/GlobalDeleteAtom"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

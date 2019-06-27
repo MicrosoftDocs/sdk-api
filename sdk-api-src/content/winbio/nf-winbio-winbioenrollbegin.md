@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinBioEnrollBegin, WinBioEnrollBegin function [Windows Biometric Framework API], secbiomet.winbioenrollbegin, winbio/WinBioEnrollBegin
 ms.topic: function
-f1_keywords: ["winbio/WinBioEnrollBegin"]
+f1_keywords: 
+ - "winbio/WinBioEnrollBegin"
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

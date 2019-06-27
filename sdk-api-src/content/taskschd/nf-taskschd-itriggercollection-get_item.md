@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITriggerCollection interface [Task Scheduler],Item property, ITriggerCollection.Item, ITriggerCollection.get_Item, ITriggerCollection::Item, ITriggerCollection::get_Item, Item property [Task Scheduler], Item property [Task Scheduler],ITriggerCollection interface, get_Item, taskschd.itriggercollection_item, taskschd/ITriggerCollection::Item, taskschd/ITriggerCollection::get_Item
 ms.topic: method
-f1_keywords: ["taskschd/ITriggerCollection.Item"]
+f1_keywords: 
+ - "taskschd/ITriggerCollection.Item"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

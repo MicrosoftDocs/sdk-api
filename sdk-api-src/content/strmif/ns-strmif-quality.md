@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Quality, Quality structure [DirectShow], QualityStructure, dshow.quality, strmif/Quality
 ms.topic: struct
-f1_keywords: ["strmif/Quality"]
+f1_keywords: 
+ - "strmif/Quality"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

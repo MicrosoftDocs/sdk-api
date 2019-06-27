@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12InfoQueue interface,SetBreakOnSeverity method, ID3D12InfoQueue.SetBreakOnSeverity, ID3D12InfoQueue::SetBreakOnSeverity, SetBreakOnSeverity, SetBreakOnSeverity method, SetBreakOnSeverity method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::SetBreakOnSeverity, direct3d12.id3d12infoqueue_setbreakonseverity
 ms.topic: method
-f1_keywords: ["d3d12sdklayers/ID3D12InfoQueue.SetBreakOnSeverity"]
+f1_keywords: 
+ - "d3d12sdklayers/ID3D12InfoQueue.SetBreakOnSeverity"
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

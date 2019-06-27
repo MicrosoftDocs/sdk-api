@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FsrmPipelineModuleConnector class [File Server Resource Manager],HostingProcessPid property, HostingProcessPid property [File Server Resource Manager], HostingProcessPid property [File Server Resource Manager],FsrmPipelineModuleConnector class, HostingProcessPid property [File Server Resource Manager],IFsrmPipelineModuleConnector interface, IFsrmPipelineModuleConnector interface [File Server Resource Manager],HostingProcessPid property, IFsrmPipelineModuleConnector.HostingProcessPid, IFsrmPipelineModuleConnector.get_HostingProcessPid, IFsrmPipelineModuleConnector::HostingProcessPid, IFsrmPipelineModuleConnector::get_HostingProcessPid, fs.ifsrmpipelinemoduleconnector_hostingprocesspid, fsrm.ifsrmpipelinemoduleconnector_hostingprocesspid, fsrmpipeline/IFsrmPipelineModuleConnector::HostingProcessPid, fsrmpipeline/IFsrmPipelineModuleConnector::get_HostingProcessPid, get_HostingProcessPid
 ms.topic: method
-f1_keywords: ["fsrmpipeline/IFsrmPipelineModuleConnector.HostingProcessPid"]
+f1_keywords: 
+ - "fsrmpipeline/IFsrmPipelineModuleConnector.HostingProcessPid"
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows

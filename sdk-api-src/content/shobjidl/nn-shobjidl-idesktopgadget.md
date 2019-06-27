@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDesktopGadget, IDesktopGadget interface [Windows Shell], IDesktopGadget interface [Windows Shell],described, _shell_IDesktopGadget, shell.IDesktopGadget, shobjidl/IDesktopGadget
 ms.topic: interface
-f1_keywords: ["shobjidl/IDesktopGadget"]
+f1_keywords: 
+ - "shobjidl/IDesktopGadget"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

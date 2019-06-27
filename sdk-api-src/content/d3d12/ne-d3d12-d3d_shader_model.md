@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D_SHADER_MODEL, D3D_SHADER_MODEL enumeration, D3D_SHADER_MODEL_5_1, D3D_SHADER_MODEL_6_0, D3D_SHADER_MODEL_6_1, d3d12/D3D_SHADER_MODEL, d3d12/D3D_SHADER_MODEL_5_1, d3d12/D3D_SHADER_MODEL_6_0, d3d12/D3D_SHADER_MODEL_6_1, direct3d12.d3d_shader_model
 ms.topic: enum
-f1_keywords: ["d3d12/D3D_SHADER_MODEL"]
+f1_keywords: 
+ - "d3d12/D3D_SHADER_MODEL"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFrameworkInputPane interface [Windows Shell],Location method, IFrameworkInputPane.Location, IFrameworkInputPane::Location, Location, Location method [Windows Shell], Location method [Windows Shell],IFrameworkInputPane interface, shell.IFrameworkInputPane_Location, shobjidl_core/IFrameworkInputPane::Location
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFrameworkInputPane.Location"]
+f1_keywords: 
+ - "shobjidl_core/IFrameworkInputPane.Location"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

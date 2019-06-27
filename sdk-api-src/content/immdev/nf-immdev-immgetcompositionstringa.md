@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImmGetCompositionString, ImmGetCompositionString function [Internationalization for Windows Applications], ImmGetCompositionStringA, ImmGetCompositionStringW, _win32_ImmGetCompositionString, imm/ImmGetCompositionString, imm/ImmGetCompositionStringA, imm/ImmGetCompositionStringW, intl.immgetcompositionstring
 ms.topic: function
-f1_keywords: ["immdev/ImmGetCompositionString"]
+f1_keywords: 
+ - "immdev/ImmGetCompositionString"
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

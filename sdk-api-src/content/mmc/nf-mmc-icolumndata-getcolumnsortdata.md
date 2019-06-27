@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColumnSortData, GetColumnSortData method [MMC], GetColumnSortData method [MMC],IColumnData interface, IColumnData interface [MMC],GetColumnSortData method, IColumnData.GetColumnSortData, IColumnData::GetColumnSortData, _slate_icolumndata_getcolumnsortdata, mmc.icolumndata_getcolumnsortdata, mmc/IColumnData::GetColumnSortData
 ms.topic: method
-f1_keywords: ["mmc/IColumnData.GetColumnSortData"]
+f1_keywords: 
+ - "mmc/IColumnData.GetColumnSortData"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

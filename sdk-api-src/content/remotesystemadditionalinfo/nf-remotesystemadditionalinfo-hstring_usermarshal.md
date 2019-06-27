@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HSTRING_UserMarshal, HSTRING_UserMarshal function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserMarshal, winrt.hstring_usermarshal
 ms.topic: function
-f1_keywords: ["remotesystemadditionalinfo/HSTRING_UserMarshal"]
+f1_keywords: 
+ - "remotesystemadditionalinfo/HSTRING_UserMarshal"
 req.header: remotesystemadditionalinfo.h
 req.include-header: Winstring.h, Inspectable.h
 req.target-type: Windows

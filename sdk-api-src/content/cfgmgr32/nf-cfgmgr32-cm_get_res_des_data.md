@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Res_Des_Data, CM_Get_Res_Des_Data function [Device and Driver Installation], cfgmgr32/CM_Get_Res_Des_Data, cfgmgrfn_76c92157-2495-4c52-a25f-9a02d83cff75.xml, devinst.cm_get_res_des_data
 ms.topic: function
-f1_keywords: ["cfgmgr32/CM_Get_Res_Des_Data"]
+f1_keywords: 
+ - "cfgmgr32/CM_Get_Res_Des_Data"
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectInputEffectDriver interface [Human Input Devices],SendForceFeedbackCommand method, IDirectInputEffectDriver.SendForceFeedbackCommand, IDirectInputEffectDriver::SendForceFeedbackCommand, SendForceFeedbackCommand, SendForceFeedbackCommand method [Human Input Devices], SendForceFeedbackCommand method [Human Input Devices],IDirectInputEffectDriver interface, di_ref_48773665-821d-428e-a637-7dc77a85cd39.xml, dinputd/IDirectInputEffectDriver::SendForceFeedbackCommand, hid.idirectinputeffectdriver_sendforcefeedbackcommand
 ms.topic: method
-f1_keywords: ["dinputd/IDirectInputEffectDriver.SendForceFeedbackCommand"]
+f1_keywords: 
+ - "dinputd/IDirectInputEffectDriver.SendForceFeedbackCommand"
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

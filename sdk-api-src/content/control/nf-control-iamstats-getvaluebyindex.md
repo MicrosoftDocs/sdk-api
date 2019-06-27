@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetValueByIndex, GetValueByIndex method [DirectShow], GetValueByIndex method [DirectShow],IAMStats interface, IAMStats interface [DirectShow],GetValueByIndex method, IAMStats.GetValueByIndex, IAMStats::GetValueByIndex, IAMStatsGetValueByIndex, control/IAMStats::GetValueByIndex, dshow.iamstats_getvaluebyindex
 ms.topic: method
-f1_keywords: ["control/IAMStats.GetValueByIndex"]
+f1_keywords: 
+ - "control/IAMStats.GetValueByIndex"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

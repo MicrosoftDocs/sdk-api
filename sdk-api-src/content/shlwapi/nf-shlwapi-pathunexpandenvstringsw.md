@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathUnExpandEnvStrings, PathUnExpandEnvStrings function [Windows Shell], PathUnExpandEnvStringsA, PathUnExpandEnvStringsW, _win32_PathUnExpandEnvStrings, shell.PathUnExpandEnvStrings, shlwapi/PathUnExpandEnvStrings, shlwapi/PathUnExpandEnvStringsA, shlwapi/PathUnExpandEnvStringsW
 ms.topic: function
-f1_keywords: ["shlwapi/PathUnExpandEnvStrings"]
+f1_keywords: 
+ - "shlwapi/PathUnExpandEnvStrings"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

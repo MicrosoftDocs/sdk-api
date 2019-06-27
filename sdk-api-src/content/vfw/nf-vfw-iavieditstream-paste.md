@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAVIEditStream interface [Windows Multimedia],Paste method, IAVIEditStream.Paste, IAVIEditStream::Paste, Paste, Paste method [Windows Multimedia], Paste method [Windows Multimedia],IAVIEditStream interface, _win32_IAVIEditStream_Paste, multimedia.iavieditstream_paste, vfw/IAVIEditStream::Paste
 ms.topic: method
-f1_keywords: ["vfw/IAVIEditStream.Paste"]
+f1_keywords: 
+ - "vfw/IAVIEditStream.Paste"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Escape, Escape method [WIA], Escape method [WIA],IWiaItemExtras interface, IWiaItemExtras interface [WIA],Escape method, IWiaItemExtras.Escape, IWiaItemExtras::Escape, _wia_IWiaItemExtras_Escape, wia._wia_IWiaItemExtras_Escape, wia_xp/IWiaItemExtras::Escape
 ms.topic: method
-f1_keywords: ["wia_xp/IWiaItemExtras.Escape"]
+f1_keywords: 
+ - "wia_xp/IWiaItemExtras.Escape"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

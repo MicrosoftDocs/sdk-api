@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumDot11AdHocNetworks, IEnumDot11AdHocNetworks interface [NativeWIFI], IEnumDot11AdHocNetworks interface [NativeWIFI],described, adhoc/IEnumDot11AdHocNetworks, nwifi.ienumdot11adhocnetworks
 ms.topic: interface
-f1_keywords: ["adhoc/IEnumDot11AdHocNetworks"]
+f1_keywords: 
+ - "adhoc/IEnumDot11AdHocNetworks"
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

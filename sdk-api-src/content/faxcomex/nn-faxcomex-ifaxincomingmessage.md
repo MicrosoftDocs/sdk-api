@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessage, IFaxIncomingMessage interface [Fax Service], IFaxIncomingMessage interface [Fax Service],described, _mfax_faxincomingmessage_cpp, fax._mfax_faxincomingmessage_cpp, faxcomex/IFaxIncomingMessage
 ms.topic: interface
-f1_keywords: ["faxcomex/IFaxIncomingMessage"]
+f1_keywords: 
+ - "faxcomex/IFaxIncomingMessage"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaNodeFromProvider, UiaNodeFromProvider function [Windows Accessibility], uiauto.uiauto_UiaNodeFromProviderFunction, uiauto_UiaNodeFromProviderFunction, uiautomationcoreapi/UiaNodeFromProvider, winauto.uiauto_UiaNodeFromProviderFunction
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/UiaNodeFromProvider"]
+f1_keywords: 
+ - "uiautomationcoreapi/UiaNodeFromProvider"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1e1c906e-c832-4df1-96f5-86e690c3c34e, MF_FILEFLAGS_ALLOW_WRITE_SHARING, MF_FILEFLAGS_NOBUFFERING, MF_FILEFLAGS_NONE, MF_FILE_FLAGS, MF_FILE_FLAGS enumeration [Media Foundation], mf.mf_file_flags, mfobjects/MF_FILEFLAGS_ALLOW_WRITE_SHARING, mfobjects/MF_FILEFLAGS_NOBUFFERING, mfobjects/MF_FILEFLAGS_NONE, mfobjects/MF_FILE_FLAGS
 ms.topic: enum
-f1_keywords: ["mfobjects/MF_FILE_FLAGS"]
+f1_keywords: 
+ - "mfobjects/MF_FILE_FLAGS"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

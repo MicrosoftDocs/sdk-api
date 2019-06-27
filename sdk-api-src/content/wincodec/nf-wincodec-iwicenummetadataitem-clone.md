@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Imaging Component], Clone method [Windows Imaging Component],IWICEnumMetadataItem interface, IWICEnumMetadataItem interface [Windows Imaging Component],Clone method, IWICEnumMetadataItem.Clone, IWICEnumMetadataItem::Clone, _wic_codec_iwicenummetadataitem_clone, wic._wic_codec_iwicenummetadataitem_clone, wincodec/IWICEnumMetadataItem::Clone
 ms.topic: method
-f1_keywords: ["wincodec/IWICEnumMetadataItem.Clone"]
+f1_keywords: 
+ - "wincodec/IWICEnumMetadataItem.Clone"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

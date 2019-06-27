@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRules, GetRules method [Fax Service], GetRules method [Fax Service],IFaxOutboundRouting interface, IFaxOutboundRouting interface [Fax Service],GetRules method, IFaxOutboundRouting.GetRules, IFaxOutboundRouting::GetRules, _mfax_faxoutboundrouting.getrules_cpp, fax._mfax_faxoutboundrouting_getrules_cpp, faxcomex/IFaxOutboundRouting::GetRules
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxOutboundRouting.GetRules"]
+f1_keywords: 
+ - "faxcomex/IFaxOutboundRouting.GetRules"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

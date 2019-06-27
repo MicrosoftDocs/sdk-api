@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_htons_2, htons, htons function [Winsock], winsock.htons_2, winsock/htons"
 ms.topic: function
-f1_keywords: ["winsock2/htons"]
+f1_keywords: 
+ - "winsock2/htons"
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows

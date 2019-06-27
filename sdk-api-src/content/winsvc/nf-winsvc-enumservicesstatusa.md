@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumServicesStatus, EnumServicesStatus function, EnumServicesStatusA, EnumServicesStatusW, SERVICE_ACTIVE, SERVICE_DRIVER, SERVICE_FILE_SYSTEM_DRIVER, SERVICE_INACTIVE, SERVICE_KERNEL_DRIVER, SERVICE_STATE_ALL, SERVICE_WIN32, SERVICE_WIN32_OWN_PROCESS, SERVICE_WIN32_SHARE_PROCESS, _win32_enumservicesstatus, base.enumservicesstatus, winsvc/EnumServicesStatus, winsvc/EnumServicesStatusA, winsvc/EnumServicesStatusW
 ms.topic: function
-f1_keywords: ["winsvc/EnumServicesStatus"]
+f1_keywords: 
+ - "winsvc/EnumServicesStatus"
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

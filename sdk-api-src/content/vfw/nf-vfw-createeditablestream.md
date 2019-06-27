@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateEditableStream, CreateEditableStream function [Windows Multimedia], _win32_CreateEditableStream, multimedia.createeditablestream, vfw/CreateEditableStream
 ms.topic: function
-f1_keywords: ["vfw/CreateEditableStream"]
+f1_keywords: 
+ - "vfw/CreateEditableStream"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

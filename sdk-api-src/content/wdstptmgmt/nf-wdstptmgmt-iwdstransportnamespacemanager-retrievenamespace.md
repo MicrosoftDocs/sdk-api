@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespaceManager interface [Windows Deployment Services],RetrieveNamespace method, IWdsTransportNamespaceManager.RetrieveNamespace, IWdsTransportNamespaceManager::RetrieveNamespace, RetrieveNamespace, RetrieveNamespace method [Windows Deployment Services], RetrieveNamespace method [Windows Deployment Services],IWdsTransportNamespaceManager interface, wds.iwdstransportnamespacemanager_retrievenamespace, wdstptmgmt/IWdsTransportNamespaceManager::RetrieveNamespace
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportNamespaceManager.RetrieveNamespace"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportNamespaceManager.RetrieveNamespace"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPWKSTA_INFO_102, *PWKSTA_INFO_102, LPWKSTA_INFO_102, LPWKSTA_INFO_102 structure pointer [Network Management], PLATFORM_ID_DOS, PLATFORM_ID_NT, PLATFORM_ID_OS2, PLATFORM_ID_OSF, PLATFORM_ID_VMS, PWKSTA_INFO_102, PWKSTA_INFO_102 structure pointer [Network Management], WKSTA_INFO_102, WKSTA_INFO_102 structure [Network Management], _win32_wksta_info_102_str, lmwksta/LPWKSTA_INFO_102, lmwksta/PWKSTA_INFO_102, lmwksta/WKSTA_INFO_102, netmgmt.wksta_info_102_str"
 ms.topic: struct
-f1_keywords: ["lmwksta/WKSTA_INFO_102"]
+f1_keywords: 
+ - "lmwksta/WKSTA_INFO_102"
 req.header: lmwksta.h
 req.include-header: Lm.h
 req.target-type: Windows

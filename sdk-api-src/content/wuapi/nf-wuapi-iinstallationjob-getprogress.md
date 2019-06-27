@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProgress, GetProgress method [Windows Update Agent], GetProgress method [Windows Update Agent],IInstallationJob interface, IInstallationJob interface [Windows Update Agent],GetProgress method, IInstallationJob.GetProgress, IInstallationJob::GetProgress, wua.iinstallationjob_getprogress, wuapi/IInstallationJob::GetProgress
 ms.topic: method
-f1_keywords: ["wuapi/IInstallationJob.GetProgress"]
+f1_keywords: 
+ - "wuapi/IInstallationJob.GetProgress"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

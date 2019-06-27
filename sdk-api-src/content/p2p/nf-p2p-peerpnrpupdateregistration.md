@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpUpdateRegistration, PeerPnrpUpdateRegistration function [Peer Networking], p2p.peerpnrpupdateregistration, p2p/PeerPnrpUpdateRegistration
 ms.topic: function
-f1_keywords: ["p2p/PeerPnrpUpdateRegistration"]
+f1_keywords: 
+ - "p2p/PeerPnrpUpdateRegistration"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

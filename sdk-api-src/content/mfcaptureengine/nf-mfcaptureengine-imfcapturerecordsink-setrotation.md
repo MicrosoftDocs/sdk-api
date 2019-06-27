@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureRecordSink interface [Media Foundation],SetRotation method, IMFCaptureRecordSink.SetRotation, IMFCaptureRecordSink::SetRotation, SetRotation, SetRotation method [Media Foundation], SetRotation method [Media Foundation],IMFCaptureRecordSink interface, mf.imfcapturerecordsink_setrotation, mfcaptureengine/IMFCaptureRecordSink::SetRotation
 ms.topic: method
-f1_keywords: ["mfcaptureengine/IMFCaptureRecordSink.SetRotation"]
+f1_keywords: 
+ - "mfcaptureengine/IMFCaptureRecordSink.SetRotation"
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

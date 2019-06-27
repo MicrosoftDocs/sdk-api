@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAAsyncGetServByName, WSAAsyncGetServByName function [Winsock], _win32_wsaasyncgetservbyname_2, winsock.wsaasyncgetservbyname_2, winsock/WSAAsyncGetServByName
 ms.topic: function
-f1_keywords: ["winsock2/WSAAsyncGetServByName"]
+f1_keywords: 
+ - "winsock2/WSAAsyncGetServByName"
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows

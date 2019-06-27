@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AsyncOperationComplete, AsyncOperationComplete method, AsyncOperationComplete method,IWSDAsyncCallback interface, IWSDAsyncCallback interface,AsyncOperationComplete method, IWSDAsyncCallback.AsyncOperationComplete, IWSDAsyncCallback::AsyncOperationComplete, ncd.iwsdasynccallback_asyncoperationcomplete_method, wsdclient/IWSDAsyncCallback::AsyncOperationComplete
 ms.topic: method
-f1_keywords: ["wsdclient/IWSDAsyncCallback.AsyncOperationComplete"]
+f1_keywords: 
+ - "wsdclient/IWSDAsyncCallback.AsyncOperationComplete"
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

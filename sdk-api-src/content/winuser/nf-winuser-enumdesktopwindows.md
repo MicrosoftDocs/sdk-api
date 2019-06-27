@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumDesktopWindows, EnumDesktopWindows function [Windows Stations and Desktops], _win32_enumdesktopwindows, base.enumdesktopwindows, winstation.enumdesktopwindows, winuser/EnumDesktopWindows
 ms.topic: function
-f1_keywords: ["winuser/EnumDesktopWindows"]
+f1_keywords: 
+ - "winuser/EnumDesktopWindows"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

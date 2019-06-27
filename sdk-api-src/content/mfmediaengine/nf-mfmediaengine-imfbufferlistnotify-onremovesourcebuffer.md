@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFBufferListNotify interface [Media Foundation],OnRemoveSourceBuffer method, IMFBufferListNotify.OnRemoveSourceBuffer, IMFBufferListNotify::OnRemoveSourceBuffer, OnRemoveSourceBuffer, OnRemoveSourceBuffer method [Media Foundation], OnRemoveSourceBuffer method [Media Foundation],IMFBufferListNotify interface, mf.imfbufferlistnotify_onremovesourcebuffer, mfmediaengine/IMFBufferListNotify::OnRemoveSourceBuffer
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFBufferListNotify.OnRemoveSourceBuffer"]
+f1_keywords: 
+ - "mfmediaengine/IMFBufferListNotify.OnRemoveSourceBuffer"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PGROUP_INFO_3, GROUP_INFO_3, GROUP_INFO_3 structure [Network Management], PGROUP_INFO_3, PGROUP_INFO_3 structure pointer [Network Management], _win32_group_info_3_str, lmaccess/GROUP_INFO_3, lmaccess/PGROUP_INFO_3, netmgmt.group_info_3_str"
 ms.topic: struct
-f1_keywords: ["lmaccess/GROUP_INFO_3"]
+f1_keywords: 
+ - "lmaccess/GROUP_INFO_3"
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

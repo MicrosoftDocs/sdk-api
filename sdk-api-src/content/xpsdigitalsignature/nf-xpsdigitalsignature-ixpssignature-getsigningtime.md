@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSigningTime, GetSigningTime method [XPS Documents and Packaging], GetSigningTime method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetSigningTime method, IXpsSignature.GetSigningTime, IXpsSignature::GetSigningTime, xps.ixpssignature_getsigningtime, xpsdigitalsignature/IXpsSignature::GetSigningTime
 ms.topic: method
-f1_keywords: ["xpsdigitalsignature/IXpsSignature.GetSigningTime"]
+f1_keywords: 
+ - "xpsdigitalsignature/IXpsSignature.GetSigningTime"
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CIBuildQueryNode, CIBuildQueryNode function [Indexing Service], _idxs_CIBuildQueryNode, indexsrv.cibuildquerynode, ntquery/CIBuildQueryNode
 ms.topic: function
-f1_keywords: ["ntquery/CIBuildQueryNode"]
+f1_keywords: 
+ - "ntquery/CIBuildQueryNode"
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

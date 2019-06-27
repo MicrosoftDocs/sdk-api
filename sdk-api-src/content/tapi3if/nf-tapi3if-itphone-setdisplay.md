@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],SetDisplay method, ITPhone.SetDisplay, ITPhone::SetDisplay, SetDisplay, SetDisplay method [TAPI 2.2], SetDisplay method [TAPI 2.2],ITPhone interface, _tapi3_itphone_setdisplay, tapi3.itphone_setdisplay, tapi3if/ITPhone::SetDisplay
 ms.topic: method
-f1_keywords: ["tapi3if/ITPhone.SetDisplay"]
+f1_keywords: 
+ - "tapi3if/ITPhone.SetDisplay"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

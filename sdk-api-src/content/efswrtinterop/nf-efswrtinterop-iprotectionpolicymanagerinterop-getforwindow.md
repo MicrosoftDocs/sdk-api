@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EDP.iprotectionpolicymanager_getforwindow, GetForWindow, GetForWindow method, GetForWindow method,IProtectionPolicyManagerInterop interface, IProtectionPolicyManagerInterop interface,GetForWindow method, IProtectionPolicyManagerInterop.GetForWindow, IProtectionPolicyManagerInterop::GetForWindow, efswrtinterop/IProtectionPolicyManagerInterop::GetForWindow
 ms.topic: method
-f1_keywords: ["efswrtinterop/IProtectionPolicyManagerInterop.GetForWindow"]
+f1_keywords: 
+ - "efswrtinterop/IProtectionPolicyManagerInterop.GetForWindow"
 req.header: efswrtinterop.h
 req.include-header: 
 req.target-type: Windows

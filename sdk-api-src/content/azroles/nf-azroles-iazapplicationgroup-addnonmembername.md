@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddNonMemberName, AddNonMemberName method [Security], AddNonMemberName method [Security],AzApplicationGroup object, AddNonMemberName method [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AddNonMemberName method, IAzApplicationGroup interface [Security],AddNonMemberName method, IAzApplicationGroup.AddNonMemberName, IAzApplicationGroup::AddNonMemberName, azroles/IAzApplicationGroup::AddNonMemberName, security.iazapplicationgroup_addnonmembername
 ms.topic: method
-f1_keywords: ["azroles/IAzApplicationGroup.AddNonMemberName"]
+f1_keywords: 
+ - "azroles/IAzApplicationGroup.AddNonMemberName"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

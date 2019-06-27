@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumerateEnvironmentsByProvider, EnumerateEnvironmentsByProvider method [Remote Desktop Services], EnumerateEnvironmentsByProvider method [Remote Desktop Services],ITsSbGlobalStore interface, ITsSbGlobalStore interface [Remote Desktop Services],EnumerateEnvironmentsByProvider method, ITsSbGlobalStore.EnumerateEnvironmentsByProvider, ITsSbGlobalStore::EnumerateEnvironmentsByProvider, sbtsv/ITsSbGlobalStore::EnumerateEnvironmentsByProvider, termserv.itssbglobalstore_enumerateenvironmentsbyprovider
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbGlobalStore.EnumerateEnvironmentsByProvider"]
+f1_keywords: 
+ - "sbtsv/ITsSbGlobalStore.EnumerateEnvironmentsByProvider"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

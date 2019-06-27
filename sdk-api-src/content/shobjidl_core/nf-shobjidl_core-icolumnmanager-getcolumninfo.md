@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColumnInfo, GetColumnInfo method [Windows Shell], GetColumnInfo method [Windows Shell],IColumnManager interface, IColumnManager interface [Windows Shell],GetColumnInfo method, IColumnManager.GetColumnInfo, IColumnManager::GetColumnInfo, shell.IColumnManager_GetColumnInfo, shell_IColumnManager_GetColumnInfo, shobjidl_core/IColumnManager::GetColumnInfo
 ms.topic: method
-f1_keywords: ["shobjidl_core/IColumnManager.GetColumnInfo"]
+f1_keywords: 
+ - "shobjidl_core/IColumnManager.GetColumnInfo"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DestroyManagedStub, DestroyManagedStub method [COM+], DestroyManagedStub method [COM+],IManagedActivationEvents interface, IManagedActivationEvents interface [COM+],DestroyManagedStub method, IManagedActivationEvents.DestroyManagedStub, IManagedActivationEvents::DestroyManagedStub, _cos_IManagedActivationEvents_DestroyManagedStub, comsvcs/IManagedActivationEvents::DestroyManagedStub, cos.imanagedactivationevents_destroymanagedstub
 ms.topic: method
-f1_keywords: ["comsvcs/IManagedActivationEvents.DestroyManagedStub"]
+f1_keywords: 
+ - "comsvcs/IManagedActivationEvents.DestroyManagedStub"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -6,7 +6,8 @@ description: Transforms the BoundingSphere.
 ms.date: 04/22/19
 ms.keywords: BoundingSphere::Transform
 ms.topic: language-reference
-f1_keywords: ["directxcollision/BoundingSphere::Transform"]
+f1_keywords: 
+ - "directxcollision/BoundingSphere::Transform"
 targetos: Windows
 product: Windows
 req.assembly: 

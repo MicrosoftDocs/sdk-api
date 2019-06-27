@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEXFAT_STATISTICS, EXFAT_STATISTICS, EXFAT_STATISTICS structure [Files], PEXFAT_STATISTICS, PEXFAT_STATISTICS structure pointer [Files], fs.exfat_statistics, winioctl/EXFAT_STATISTICS, winioctl/PEXFAT_STATISTICS"
 ms.topic: struct
-f1_keywords: ["winioctl/EXFAT_STATISTICS"]
+f1_keywords: 
+ - "winioctl/EXFAT_STATISTICS"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFormatGUID, GetFormatGUID method [Windows Imaging Component], GetFormatGUID method [Windows Imaging Component],IWICPixelFormatInfo interface, IWICPixelFormatInfo interface [Windows Imaging Component],GetFormatGUID method, IWICPixelFormatInfo.GetFormatGUID, IWICPixelFormatInfo::GetFormatGUID, _wic_codec_iwicpixelformatinfo_getformatguid, wic._wic_codec_iwicpixelformatinfo_getformatguid, wincodec/IWICPixelFormatInfo::GetFormatGUID
 ms.topic: method
-f1_keywords: ["wincodec/IWICPixelFormatInfo.GetFormatGUID"]
+f1_keywords: 
+ - "wincodec/IWICPixelFormatInfo.GetFormatGUID"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

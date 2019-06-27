@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVB_SDT interface [Microsoft TV Technologies],RegisterForNextTable method, IDVB_SDT.RegisterForNextTable, IDVB_SDT::RegisterForNextTable, IDVB_SDTRegisterForNextTable, RegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies],IDVB_SDT interface, dvbsiparser/IDVB_SDT::RegisterForNextTable, mstv.idvb_sdt_registerfornexttable
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDVB_SDT.RegisterForNextTable"]
+f1_keywords: 
+ - "dvbsiparser/IDVB_SDT.RegisterForNextTable"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

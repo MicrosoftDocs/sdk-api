@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEventSubscription interface [COM+],OwnerSID property, IEventSubscription.OwnerSID, IEventSubscription.put_OwnerSID, IEventSubscription::OwnerSID, IEventSubscription::get_OwnerSID, IEventSubscription::put_OwnerSID, OwnerSID property [COM+], OwnerSID property [COM+],IEventSubscription interface, cos.ieventsubscription_ownersid, eventsys/IEventSubscription::OwnerSID, eventsys/IEventSubscription::get_OwnerSID, eventsys/IEventSubscription::put_OwnerSID, put_OwnerSID
 ms.topic: method
-f1_keywords: ["eventsys/IEventSubscription.OwnerSID"]
+f1_keywords: 
+ - "eventsys/IEventSubscription.OwnerSID"
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

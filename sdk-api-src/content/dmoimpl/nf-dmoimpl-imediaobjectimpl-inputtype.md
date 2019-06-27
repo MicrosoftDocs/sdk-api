@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaObjectImpl interface [DirectShow],InputType method, IMediaObjectImpl.InputType, IMediaObjectImpl::InputType, IMediaObjectImplInputType, InputType, InputType method [DirectShow], InputType method [DirectShow],IMediaObjectImpl interface, dmoimpl/IMediaObjectImpl::InputType, dshow.imediaobjectimpl_inputtype
 ms.topic: method
-f1_keywords: ["dmoimpl/IMediaObjectImpl.InputType"]
+f1_keywords: 
+ - "dmoimpl/IMediaObjectImpl.InputType"
 req.header: dmoimpl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMcastLeaseInfo, IMcastLeaseInfo interface [TAPI 2.2], IMcastLeaseInfo interface [TAPI 2.2],described, _tapi3_imcastleaseinfo, mdhcp/IMcastLeaseInfo, tapi3.imcastleaseinfo
 ms.topic: interface
-f1_keywords: ["mdhcp/IMcastLeaseInfo"]
+f1_keywords: 
+ - "mdhcp/IMcastLeaseInfo"
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

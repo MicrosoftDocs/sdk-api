@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClearMediaItem, ClearMediaItem method [Media Foundation], ClearMediaItem method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],ClearMediaItem method, IMFPMediaPlayer.ClearMediaItem, IMFPMediaPlayer::ClearMediaItem, mf.imfpmediaplayer_clearmediaitem, mfplay/IMFPMediaPlayer::ClearMediaItem
 ms.topic: method
-f1_keywords: ["mfplay/IMFPMediaPlayer.ClearMediaItem"]
+f1_keywords: 
+ - "mfplay/IMFPMediaPlayer.ClearMediaItem"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

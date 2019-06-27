@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapPeerGetConfigBlobAndUserBlob, EapPeerGetConfigBlobAndUserBlob function [EAPHost], eaphost.eappeergetconfigblobanduserblob, eapmethodpeerapis/EapPeerGetConfigBlobAndUserBlob
 ms.topic: function
-f1_keywords: ["eapmethodpeerapis/EapPeerGetConfigBlobAndUserBlob"]
+f1_keywords: 
+ - "eapmethodpeerapis/EapPeerGetConfigBlobAndUserBlob"
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

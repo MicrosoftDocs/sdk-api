@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AccessibleChildren, AccessibleChildren function [Windows Accessibility], _msaa_AccessibleChildren, msaa.accessiblechildren, oleacc/AccessibleChildren, winauto.accessiblechildren
 ms.topic: function
-f1_keywords: ["oleacc/AccessibleChildren"]
+f1_keywords: 
+ - "oleacc/AccessibleChildren"
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

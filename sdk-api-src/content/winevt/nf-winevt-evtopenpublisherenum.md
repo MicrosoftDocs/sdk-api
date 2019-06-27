@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtOpenPublisherEnum, EvtOpenPublisherEnum function [EventLog], wes.evtopenpublisherenum, winevt/EvtOpenPublisherEnum
 ms.topic: function
-f1_keywords: ["winevt/EvtOpenPublisherEnum"]
+f1_keywords: 
+ - "winevt/EvtOpenPublisherEnum"
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

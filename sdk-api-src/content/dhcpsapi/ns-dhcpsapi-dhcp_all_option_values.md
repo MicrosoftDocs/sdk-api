@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_ALL_OPTION_VALUES, DHCP_ALL_OPTION_VALUES, DHCP_ALL_OPTION_VALUES structure [DHCP], LPDHCP_ALL_OPTION_VALUES, LPDHCP_ALL_OPTION_VALUES structure pointer [DHCP], dhcp.dhcp_all_option_values, dhcpsapi/LPDHCP_ALL_OPTION_VALUES, dhcpsapi/_DHCP_ALL_OPTION_VALUES"
 ms.topic: struct
-f1_keywords: ["dhcpsapi/DHCP_ALL_OPTION_VALUES"]
+f1_keywords: 
+ - "dhcpsapi/DHCP_ALL_OPTION_VALUES"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

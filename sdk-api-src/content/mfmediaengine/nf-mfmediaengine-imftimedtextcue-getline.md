@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLine, GetLine method [Media Foundation], GetLine method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetLine method, IMFTimedTextCue.GetLine, IMFTimedTextCue::GetLine, mf.imftimedtextcue_getline, mfmediaengine/IMFTimedTextCue::GetLine
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedTextCue.GetLine"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedTextCue.GetLine"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

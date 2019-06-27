@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGroupSubsetCount, GetGroupSubsetCount method [Windows Shell], GetGroupSubsetCount method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetGroupSubsetCount method, IFolderView2.GetGroupSubsetCount, IFolderView2::GetGroupSubsetCount, _shell_IFolderView2_GetGroupSubsetCount, shell.IFolderView2_GetGroupSubsetCount, shobjidl_core/IFolderView2::GetGroupSubsetCount
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFolderView2.GetGroupSubsetCount"]
+f1_keywords: 
+ - "shobjidl_core/IFolderView2.GetGroupSubsetCount"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

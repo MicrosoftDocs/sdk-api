@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPrivateData, GetPrivateData method, GetPrivateData method,IDMLObject interface, IDMLObject interface,GetPrivateData method, IDMLObject.GetPrivateData, IDMLObject::GetPrivateData, direct3d12.idmlobject_getprivatedata, directml/IDMLObject::GetPrivateData
 ms.topic: method
-f1_keywords: ["directml/IDMLObject.GetPrivateData"]
+f1_keywords: 
+ - "directml/IDMLObject.GetPrivateData"
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpDecodeMsg, SnmpDecodeMsg function [SNMP], _snmp_snmpdecodemsg, snmp.snmpdecodemsg, winsnmp/SnmpDecodeMsg
 ms.topic: function
-f1_keywords: ["winsnmp/SnmpDecodeMsg"]
+f1_keywords: 
+ - "winsnmp/SnmpDecodeMsg"
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

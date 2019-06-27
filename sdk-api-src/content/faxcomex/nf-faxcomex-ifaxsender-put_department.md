@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Department property [Fax Service], Department property [Fax Service],IFaxSender interface, IFaxSender interface [Fax Service],Department property, IFaxSender.Department, IFaxSender.get_Department, IFaxSender.put_Department, IFaxSender::Department, IFaxSender::get_Department, IFaxSender::put_Department, _mfax_faxsender.department, fax._mfax_faxsender_cpp_mfax_faxsender_department_cpp, fax._mfax_faxsender_department, faxcomex/IFaxSender::Department, faxcomex/IFaxSender::get_Department, faxcomex/IFaxSender::put_Department, put_Department
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxSender.Department"]
+f1_keywords: 
+ - "faxcomex/IFaxSender.Department"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

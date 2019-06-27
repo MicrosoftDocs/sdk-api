@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreateDevEnum, ICreateDevEnum interface [DirectShow], ICreateDevEnum interface [DirectShow],described, ICreateDevEnumInterface, dshow.icreatedevenum, strmif/ICreateDevEnum
 ms.topic: interface
-f1_keywords: ["strmif/ICreateDevEnum"]
+f1_keywords: 
+ - "strmif/ICreateDevEnum"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

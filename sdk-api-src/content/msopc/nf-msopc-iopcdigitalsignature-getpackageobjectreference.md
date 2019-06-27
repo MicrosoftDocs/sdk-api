@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPackageObjectReference, GetPackageObjectReference method [Open Packaging Conventions], GetPackageObjectReference method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetPackageObjectReference method, IOpcDigitalSignature.GetPackageObjectReference, IOpcDigitalSignature::GetPackageObjectReference, msopc/IOpcDigitalSignature::GetPackageObjectReference, opc.iopcdigitalsignature_getpackageobjectreference
 ms.topic: method
-f1_keywords: ["msopc/IOpcDigitalSignature.GetPackageObjectReference"]
+f1_keywords: 
+ - "msopc/IOpcDigitalSignature.GetPackageObjectReference"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

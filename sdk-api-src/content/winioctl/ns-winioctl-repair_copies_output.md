@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PREPAIR_COPIES_OUTPUT, PREPAIR_COPIES_OUTPUT, PREPAIR_COPIES_OUTPUT structure pointer [Files], REPAIR_COPIES_OUTPUT, REPAIR_COPIES_OUTPUT structure [Files], fs.repair_copies_output, winioctl/PREPAIR_COPIES_OUTPUT, winioctl/REPAIR_COPIES_OUTPUT"
 ms.topic: struct
-f1_keywords: ["winioctl/REPAIR_COPIES_OUTPUT"]
+f1_keywords: 
+ - "winioctl/REPAIR_COPIES_OUTPUT"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

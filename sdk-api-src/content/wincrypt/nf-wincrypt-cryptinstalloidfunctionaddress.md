@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptInstallOIDFunctionAddress, CryptInstallOIDFunctionAddress function [Security], _crypto2_cryptinstalloidfunctionaddress, security.cryptinstalloidfunctionaddress, wincrypt/CryptInstallOIDFunctionAddress
 ms.topic: function
-f1_keywords: ["wincrypt/CryptInstallOIDFunctionAddress"]
+f1_keywords: 
+ - "wincrypt/CryptInstallOIDFunctionAddress"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

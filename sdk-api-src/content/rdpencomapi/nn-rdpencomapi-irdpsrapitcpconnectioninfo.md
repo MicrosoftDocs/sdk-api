@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITcpConnectionInfo, IRDPSRAPITcpConnectionInfo interface [RDP], IRDPSRAPITcpConnectionInfo interface [RDP],described, rdp.irdpsrapitcpconnectioninfo, rdpencomapi/IRDPSRAPITcpConnectionInfo
 ms.topic: interface
-f1_keywords: ["rdpencomapi/IRDPSRAPITcpConnectionInfo"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPITcpConnectionInfo"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

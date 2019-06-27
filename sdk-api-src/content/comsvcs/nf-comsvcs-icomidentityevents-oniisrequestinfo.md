@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComIdentityEvents interface [COM+],OnIISRequestInfo method, IComIdentityEvents.OnIISRequestInfo, IComIdentityEvents::OnIISRequestInfo, OnIISRequestInfo, OnIISRequestInfo method [COM+], OnIISRequestInfo method [COM+],IComIdentityEvents interface, _dtc_IComIdentityEvents_OnIISRequestInfo, comsvcs/IComIdentityEvents::OnIISRequestInfo, cos.icomidentityevents_oniisrequestinfo
 ms.topic: method
-f1_keywords: ["comsvcs/IComIdentityEvents.OnIISRequestInfo"]
+f1_keywords: 
+ - "comsvcs/IComIdentityEvents.OnIISRequestInfo"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPrivateData, GetPrivateData method [Microsoft TV Technologies], GetPrivateData method [Microsoft TV Technologies],IDvbLinkageDescriptor interface, IDvbLinkageDescriptor interface [Microsoft TV Technologies],GetPrivateData method, IDvbLinkageDescriptor.GetPrivateData, IDvbLinkageDescriptor::GetPrivateData, dvbsiparser/IDvbLinkageDescriptor::GetPrivateData, mstv.idvblinkagedescriptor_getprivatedata
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbLinkageDescriptor.GetPrivateData"]
+f1_keywords: 
+ - "dvbsiparser/IDvbLinkageDescriptor.GetPrivateData"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDROPFILES, DROPFILES, DROPFILES structure [Windows Shell], LPDROPFILES, LPDROPFILES structure pointer [Windows Shell], _DROPFILES, _win32_DROPFILES, shell.DROPFILES, shlobj_core/DROPFILES, shlobj_core/LPDROPFILES"
 ms.topic: struct
-f1_keywords: ["shlobj_core/DROPFILES"]
+f1_keywords: 
+ - "shlobj_core/DROPFILES"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

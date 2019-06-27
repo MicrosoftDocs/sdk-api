@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ObjectOpenAuditAlarm, ObjectOpenAuditAlarm function [Security], ObjectOpenAuditAlarmA, ObjectOpenAuditAlarmW, _win32_objectopenauditalarm, security.objectopenauditalarm, winbase/ObjectOpenAuditAlarm, winbase/ObjectOpenAuditAlarmA, winbase/ObjectOpenAuditAlarmW
 ms.topic: function
-f1_keywords: ["winbase/ObjectOpenAuditAlarm"]
+f1_keywords: 
+ - "winbase/ObjectOpenAuditAlarm"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

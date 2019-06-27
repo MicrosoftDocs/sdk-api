@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxDeviceProvider interface [Fax Service],MajorBuild property, IFaxDeviceProvider.MajorBuild, IFaxDeviceProvider.get_MajorBuild, IFaxDeviceProvider::MajorBuild, IFaxDeviceProvider::get_MajorBuild, MajorBuild property [Fax Service], MajorBuild property [Fax Service],IFaxDeviceProvider interface, _mfax_faxdeviceprovider.majorbuild, fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_majorbuild_cpp, fax._mfax_faxdeviceprovider_majorbuild, faxcomex/IFaxDeviceProvider::MajorBuild, faxcomex/IFaxDeviceProvider::get_MajorBuild, get_MajorBuild
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxDeviceProvider.MajorBuild"]
+f1_keywords: 
+ - "faxcomex/IFaxDeviceProvider.MajorBuild"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

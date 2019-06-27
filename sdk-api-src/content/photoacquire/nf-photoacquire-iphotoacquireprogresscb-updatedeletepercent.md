@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireProgressCB interface [Picture Acquisition],UpdateDeletePercent method, IPhotoAcquireProgressCB.UpdateDeletePercent, IPhotoAcquireProgressCB::UpdateDeletePercent, IPhotoAcquireProgressCBUpdateDeletePercent, UpdateDeletePercent, UpdateDeletePercent method [Picture Acquisition], UpdateDeletePercent method [Picture Acquisition],IPhotoAcquireProgressCB interface, photoacquire/IPhotoAcquireProgressCB::UpdateDeletePercent, picacq.iphotoacquireprogresscb_updatedeletepercent
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoAcquireProgressCB.UpdateDeletePercent"]
+f1_keywords: 
+ - "photoacquire/IPhotoAcquireProgressCB.UpdateDeletePercent"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

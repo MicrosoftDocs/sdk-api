@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentHorizontallyScrollable property [Windows Accessibility], CurrentHorizontallyScrollable property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CurrentHorizontallyScrollable property, IUIAutomationScrollPattern.CurrentHorizontallyScrollable, IUIAutomationScrollPattern.get_CurrentHorizontallyScrollable, IUIAutomationScrollPattern::CurrentHorizontallyScrollable, IUIAutomationScrollPattern::get_CurrentHorizontallyScrollable, get_CurrentHorizontallyScrollable, uiauto.uiauto_IUIAutomationScrollPattern_CurrentHorizontallyScrollable, uiauto_IUIAutomationScrollPattern_CurrentHorizontallyScrollable, uiautomationclient/IUIAutomationScrollPattern::CurrentHorizontallyScrollable, uiautomationclient/IUIAutomationScrollPattern::get_CurrentHorizontallyScrollable, winauto.uiauto_IUIAutomationScrollPattern_CurrentHorizontallyScrollable
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationScrollPattern.CurrentHorizontallyScrollable"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationScrollPattern.CurrentHorizontallyScrollable"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

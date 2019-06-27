@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertProperty interface [Security],InitializeDecode method, ICertProperty.InitializeDecode, ICertProperty::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],ICertProperty interface, certenroll/ICertProperty::InitializeDecode, security.icertproperty_initializedecode_method
 ms.topic: method
-f1_keywords: ["certenroll/ICertProperty.InitializeDecode"]
+f1_keywords: 
+ - "certenroll/ICertProperty.InitializeDecode"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

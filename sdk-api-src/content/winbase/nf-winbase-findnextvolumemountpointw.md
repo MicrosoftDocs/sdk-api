@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindNextVolumeMountPoint, FindNextVolumeMountPoint function [Files], FindNextVolumeMountPointA, FindNextVolumeMountPointW, _win32_findnextvolumemountpoint, base.findnextvolumemountpoint, fs.findnextvolumemountpoint, winbase/FindNextVolumeMountPoint, winbase/FindNextVolumeMountPointA, winbase/FindNextVolumeMountPointW
 ms.topic: function
-f1_keywords: ["winbase/FindNextVolumeMountPoint"]
+f1_keywords: 
+ - "winbase/FindNextVolumeMountPoint"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

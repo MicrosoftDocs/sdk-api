@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleManifestReader2, IAppxBundleManifestReader2 interface [App packaging and management], IAppxBundleManifestReader2 interface [App packaging and management],described, appxpackaging/IAppxBundleManifestReader2, appxpkg.iappxbundlemanifestreader2
 ms.topic: interface
-f1_keywords: ["appxpackaging/IAppxBundleManifestReader2"]
+f1_keywords: 
+ - "appxpackaging/IAppxBundleManifestReader2"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

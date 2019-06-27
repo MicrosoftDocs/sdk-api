@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundaryRight property [Windows Touch], BoundaryRight property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],BoundaryRight property, IInertiaProcessor.BoundaryRight, IInertiaProcessor.put_BoundaryRight, IInertiaProcessor::BoundaryRight, IInertiaProcessor::get_BoundaryRight, IInertiaProcessor::put_BoundaryRight, manipulations/IInertiaProcessor::BoundaryRight, manipulations/IInertiaProcessor::get_BoundaryRight, manipulations/IInertiaProcessor::put_BoundaryRight, put_BoundaryRight, wintouch.iinertiaprocessor_rightboundary
 ms.topic: method
-f1_keywords: ["manipulations/IInertiaProcessor.BoundaryRight"]
+f1_keywords: 
+ - "manipulations/IInertiaProcessor.BoundaryRight"
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows

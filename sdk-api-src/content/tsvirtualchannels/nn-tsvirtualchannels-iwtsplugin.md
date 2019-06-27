@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWTSPlugin, IWTSPlugin interface [Remote Desktop Services], IWTSPlugin interface [Remote Desktop Services],described, termserv.iwtsplugin, tsvirtualchannels/IWTSPlugin
 ms.topic: interface
-f1_keywords: ["tsvirtualchannels/IWTSPlugin"]
+f1_keywords: 
+ - "tsvirtualchannels/IWTSPlugin"
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

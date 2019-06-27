@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetChannelVolumeLevel, GetChannelVolumeLevel method [Core Audio], GetChannelVolumeLevel method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetChannelVolumeLevel method, IAudioEndpointVolume.GetChannelVolumeLevel, IAudioEndpointVolume::GetChannelVolumeLevel, IAudioEndpointVolumeGetChannelVolumeLevel, coreaudio.iaudioendpointvolume_getchannelvolumelevel, endpointvolume/IAudioEndpointVolume::GetChannelVolumeLevel
 ms.topic: method
-f1_keywords: ["endpointvolume/IAudioEndpointVolume.GetChannelVolumeLevel"]
+f1_keywords: 
+ - "endpointvolume/IAudioEndpointVolume.GetChannelVolumeLevel"
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPOINTFLOAT, POINTFLOAT, POINTFLOAT structure [OpenGL], PPOINTFLOAT, PPOINTFLOAT structure pointer [OpenGL], _ogl_POINTFLOAT, opengl.pointfloat, wingdi/POINTFLOAT, wingdi/PPOINTFLOAT"
 ms.topic: struct
-f1_keywords: ["wingdi/POINTFLOAT"]
+f1_keywords: 
+ - "wingdi/POINTFLOAT"
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

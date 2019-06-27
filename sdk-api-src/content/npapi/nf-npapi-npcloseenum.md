@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NPCloseEnum, NPCloseEnum function [Security], _mnp_npcloseenum, npapi/NPCloseEnum, security.npcloseenum
 ms.topic: function
-f1_keywords: ["npapi/NPCloseEnum"]
+f1_keywords: 
+ - "npapi/NPCloseEnum"
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

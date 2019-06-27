@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetStatus method, CInstance.GetStatus, CInstance::GetStatus, GetStatus, GetStatus method [Windows Management Instrumentation], GetStatus method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getstatus, instance/CInstance::GetStatus, wmi.cinstance_getstatus
 ms.topic: method
-f1_keywords: ["instance/CInstance.GetStatus"]
+f1_keywords: 
+ - "instance/CInstance.GetStatus"
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

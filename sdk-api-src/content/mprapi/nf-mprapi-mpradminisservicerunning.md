@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminIsServiceRunning, MprAdminIsServiceRunning function [RAS], _mpr_mpradminisservicerunning, mprapi/MprAdminIsServiceRunning, rras.mpradminisservicerunning
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminIsServiceRunning"]
+f1_keywords: 
+ - "mprapi/MprAdminIsServiceRunning"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

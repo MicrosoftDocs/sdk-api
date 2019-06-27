@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMethod, GetMethod method [Windows Management Instrumentation], GetMethod method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetMethod method, IWbemClassObject.GetMethod, IWbemClassObject::GetMethod, _hmm_iwbemclassobject_getmethod, wbemcli/IWbemClassObject::GetMethod, wmi.iwbemclassobject_getmethod
 ms.topic: method
-f1_keywords: ["wbemcli/IWbemClassObject.GetMethod"]
+f1_keywords: 
+ - "wbemcli/IWbemClassObject.GetMethod"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

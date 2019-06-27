@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISecurityCallContext interface [COM+],get_Item method, ISecurityCallContext.get_Item, ISecurityCallContext::get_Item, _cos_ISecurityCallContext_get_Item, comsvcs/ISecurityCallContext::get_Item, cos.isecuritycallcontext_get_item, get_Item, get_Item method [COM+], get_Item method [COM+],ISecurityCallContext interface
 ms.topic: method
-f1_keywords: ["comsvcs/ISecurityCallContext.get_Item"]
+f1_keywords: 
+ - "comsvcs/ISecurityCallContext.get_Item"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

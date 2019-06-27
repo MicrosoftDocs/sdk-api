@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxSetCursor2 method, ITextHost2.TxSetCursor2, ITextHost2::TxSetCursor2, TxSetCursor2, TxSetCursor2 method [Windows Controls], TxSetCursor2 method [Windows Controls],ITextHost2 interface, controls.itexthost2_txsetcursor2, textserv/ITextHost2::TxSetCursor2
 ms.topic: method
-f1_keywords: ["textserv/ITextHost2.TxSetCursor2"]
+f1_keywords: 
+ - "textserv/ITextHost2.TxSetCursor2"
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

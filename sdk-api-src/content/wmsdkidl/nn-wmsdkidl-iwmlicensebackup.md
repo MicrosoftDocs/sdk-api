@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMLicenseBackup, IWMLicenseBackup interface [windows Media Format], IWMLicenseBackup interface [windows Media Format],described, IWMLicenseBackupInterface, wmformat.iwmlicensebackup, wmsdkidl/IWMLicenseBackup
 ms.topic: interface
-f1_keywords: ["wmsdkidl/IWMLicenseBackup"]
+f1_keywords: 
+ - "wmsdkidl/IWMLicenseBackup"
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

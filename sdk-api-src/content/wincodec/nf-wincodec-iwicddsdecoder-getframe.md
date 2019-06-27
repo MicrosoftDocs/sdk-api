@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFrame, GetFrame method [Windows Imaging Component], GetFrame method [Windows Imaging Component],IWICDdsDecoder interface, IWICDdsDecoder interface [Windows Imaging Component],GetFrame method, IWICDdsDecoder.GetFrame, IWICDdsDecoder::GetFrame, wic.iwicddsdecoder_getframe, wincodec/IWICDdsDecoder::GetFrame
 ms.topic: method
-f1_keywords: ["wincodec/IWICDdsDecoder.GetFrame"]
+f1_keywords: 
+ - "wincodec/IWICDdsDecoder.GetFrame"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

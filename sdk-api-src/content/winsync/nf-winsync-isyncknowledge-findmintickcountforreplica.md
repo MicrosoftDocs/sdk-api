@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindMinTickCountForReplica, FindMinTickCountForReplica method [Windows Sync], FindMinTickCountForReplica method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],FindMinTickCountForReplica method, ISyncKnowledge.FindMinTickCountForReplica, ISyncKnowledge::FindMinTickCountForReplica, winsync.isyncknowledge_findmintickcountforreplica, winsync/ISyncKnowledge::FindMinTickCountForReplica
 ms.topic: method
-f1_keywords: ["winsync/ISyncKnowledge.FindMinTickCountForReplica"]
+f1_keywords: 
+ - "winsync/ISyncKnowledge.FindMinTickCountForReplica"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

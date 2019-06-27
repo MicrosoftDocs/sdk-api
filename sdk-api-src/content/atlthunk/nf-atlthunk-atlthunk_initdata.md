@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AtlThunk_InitData, AtlThunk_InitData function, atlthunk/AtlThunk_InitData, base.atlthunk_initdata
 ms.topic: function
-f1_keywords: ["atlthunk/AtlThunk_InitData"]
+f1_keywords: 
+ - "atlthunk/AtlThunk_InitData"
 req.header: atlthunk.h
 req.include-header: 
 req.target-type: Windows

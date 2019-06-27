@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSensorDevice, IMFSensorDevice interface [Media Foundation], IMFSensorDevice interface [Media Foundation],described, mf.imfsensordevice, mfidl/IMFSensorDevice
 ms.topic: interface
-f1_keywords: ["mfidl/IMFSensorDevice"]
+f1_keywords: 
+ - "mfidl/IMFSensorDevice"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

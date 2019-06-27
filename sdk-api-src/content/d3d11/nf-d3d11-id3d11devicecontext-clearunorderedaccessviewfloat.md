@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 2a51f18d-5ea4-ef19-5a3f-a879736bdf6a, ClearUnorderedAccessViewFloat, ClearUnorderedAccessViewFloat method [Direct3D 11], ClearUnorderedAccessViewFloat method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],ClearUnorderedAccessViewFloat method, ID3D11DeviceContext.ClearUnorderedAccessViewFloat, ID3D11DeviceContext::ClearUnorderedAccessViewFloat, d3d11/ID3D11DeviceContext::ClearUnorderedAccessViewFloat, direct3d11.id3d11devicecontext_clearunorderedaccessviewfloat
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11DeviceContext.ClearUnorderedAccessViewFloat"]
+f1_keywords: 
+ - "d3d11/ID3D11DeviceContext.ClearUnorderedAccessViewFloat"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

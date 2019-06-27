@@ -4,7 +4,8 @@ title: DSA_Sort
 ms.date: 01/30/19
 ms.keywords: DSA_Sort
 ms.topic: language-reference
-f1_keywords: ["dpa_dsa/DSA_Sort"]
+f1_keywords: 
+ - "dpa_dsa/DSA_Sort"
 targetos: Windows
 product: Windows
 req.assembly: 

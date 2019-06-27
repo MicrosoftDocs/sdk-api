@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TpSetCallbackActivationContext, TpSetCallbackActivationContext function, base.tpsetcallbackactivationcontext, winnt/TpSetCallbackActivationContext
 ms.topic: function
-f1_keywords: ["winnt/TpSetCallbackActivationContext"]
+f1_keywords: 
+ - "winnt/TpSetCallbackActivationContext"
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

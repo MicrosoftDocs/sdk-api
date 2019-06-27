@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPrivateProfileInt, GetPrivateProfileInt function, GetPrivateProfileIntA, GetPrivateProfileIntW, _win32_getprivateprofileint, base.getprivateprofileint, winbase/GetPrivateProfileInt, winbase/GetPrivateProfileIntA, winbase/GetPrivateProfileIntW
 ms.topic: function
-f1_keywords: ["winbase/GetPrivateProfileInt"]
+f1_keywords: 
+ - "winbase/GetPrivateProfileInt"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

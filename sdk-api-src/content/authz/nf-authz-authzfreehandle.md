@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthzFreeHandle, AuthzFreeHandle function [Security], _win32_authzfreehandle, authz/AuthzFreeHandle, security.authzfreehandle
 ms.topic: function
-f1_keywords: ["authz/AuthzFreeHandle"]
+f1_keywords: 
+ - "authz/AuthzFreeHandle"
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

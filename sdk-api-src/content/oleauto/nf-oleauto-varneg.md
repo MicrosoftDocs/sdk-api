@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarNeg, VarNeg function [Automation], _oa96_VarNeg, automat.varneg, oleauto/VarNeg
 ms.topic: function
-f1_keywords: ["oleauto/VarNeg"]
+f1_keywords: 
+ - "oleauto/VarNeg"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: Graphics::ExcludeClip
 ms.topic: language-reference
-f1_keywords: ["gdiplusgraphics/Graphics::ExcludeClip"]
+f1_keywords: 
+ - "gdiplusgraphics/Graphics::ExcludeClip"
 targetos: Windows
 product: Windows
 req.assembly: 

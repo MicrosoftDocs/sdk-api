@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],get_computerHomeMediaSharingAllowedState method, IWindowsMediaLibrarySharingServices.get_computerHomeMediaSharingAllowedState, IWindowsMediaLibrarySharingServices::get_computerHomeMediaSharingAllowedState, get_computerHomeMediaSharingAllowedState, get_computerHomeMediaSharingAllowedState method [Windows Media Library Sharing Services], get_computerHomeMediaSharingAllowedState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSget_computerHomeMediaSharingAllowedState, wmlss/IWindowsMediaLibrarySharingServices::get_computerHomeMediaSharingAllowedState
 ms.topic: method
-f1_keywords: ["wmlss/IWindowsMediaLibrarySharingServices.get_computerHomeMediaSharingAllowedState"]
+f1_keywords: 
+ - "wmlss/IWindowsMediaLibrarySharingServices.get_computerHomeMediaSharingAllowedState"
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows

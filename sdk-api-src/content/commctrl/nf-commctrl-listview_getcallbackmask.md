@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_GetCallbackMask, ListView_GetCallbackMask macro [Windows Controls], _win32_ListView_GetCallbackMask, _win32_ListView_GetCallbackMask_cpp, commctrl/ListView_GetCallbackMask, controls.ListView_GetCallbackMask, controls._win32_ListView_GetCallbackMask
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_GetCallbackMask"]
+f1_keywords: 
+ - "commctrl/ListView_GetCallbackMask"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

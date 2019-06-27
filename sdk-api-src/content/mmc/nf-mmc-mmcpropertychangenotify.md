@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MMCPropertyChangeNotify, MMCPropertyChangeNotify callback, MMCPropertyChangeNotify callback function [MMC], _slate_mmcpropertychangenotify, mmc.mmcpropertychangenotify, mmc/MMCPropertyChangeNotify
 ms.topic: function
-f1_keywords: ["mmc/MMCPropertyChangeNotify"]
+f1_keywords: 
+ - "mmc/MMCPropertyChangeNotify"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

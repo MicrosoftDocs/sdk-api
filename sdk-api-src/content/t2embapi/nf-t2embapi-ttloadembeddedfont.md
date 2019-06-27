@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EMBED_EDITABLE, EMBED_INSTALLABLE, EMBED_NOEMBEDDING, EMBED_PREVIEWPRINT, LICENSE_DEFAULT, LICENSE_EDITABLE, LICENSE_INSTALLABLE, LICENSE_NOEMBEDDING, LICENSE_PREVIEWPRINT, TTLOAD_FONT_IN_SYSSTARTUP, TTLOAD_FONT_SUBSETTED, TTLOAD_PRIVATE, TTLoadEmbeddedFont, TTLoadEmbeddedFont function [Windows GDI], _win32_TTLoadEmbeddedFont, gdi.ttloadembeddedfont, t2embapi/TTLoadEmbeddedFont
 ms.topic: function
-f1_keywords: ["t2embapi/TTLoadEmbeddedFont"]
+f1_keywords: 
+ - "t2embapi/TTLoadEmbeddedFont"
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows

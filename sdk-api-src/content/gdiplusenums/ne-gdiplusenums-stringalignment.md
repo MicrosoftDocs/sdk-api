@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StringAlignment, StringAlignment enumeration [GDI+], StringAlignmentCenter, StringAlignmentFar, StringAlignmentNear, _gdiplus_ENUM_StringAlignment, gdiplus._gdiplus_ENUM_StringAlignment, gdiplusenums/StringAlignment, gdiplusenums/StringAlignmentCenter, gdiplusenums/StringAlignmentFar, gdiplusenums/StringAlignmentNear
 ms.topic: enum
-f1_keywords: ["gdiplusenums/StringAlignment"]
+f1_keywords: 
+ - "gdiplusenums/StringAlignment"
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

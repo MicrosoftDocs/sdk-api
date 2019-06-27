@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITCallingCard interface [TAPI 2.2],get_Options method, ITCallingCard.get_Options, ITCallingCard::get_Options, _tapi3_itcallingcard_get_options, get_Options, get_Options method [TAPI 2.2], get_Options method [TAPI 2.2],ITCallingCard interface, tapi3.itcallingcard_get_options, tapi3if/ITCallingCard::get_Options
 ms.topic: method
-f1_keywords: ["tapi3if/ITCallingCard.get_Options"]
+f1_keywords: 
+ - "tapi3if/ITCallingCard.get_Options"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

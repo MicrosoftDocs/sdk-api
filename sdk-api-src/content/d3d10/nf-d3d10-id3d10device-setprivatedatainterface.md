@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],SetPrivateDataInterface method, ID3D10Device.SetPrivateDataInterface, ID3D10Device::SetPrivateDataInterface, SetPrivateDataInterface, SetPrivateDataInterface method [Direct3D 10], SetPrivateDataInterface method [Direct3D 10],ID3D10Device interface, ccad749b-460a-23ce-65bc-0e174fbf3d65, d3d10/ID3D10Device::SetPrivateDataInterface, direct3d10.id3d10device_setprivatedatainterface
 ms.topic: method
-f1_keywords: ["d3d10/ID3D10Device.SetPrivateDataInterface"]
+f1_keywords: 
+ - "d3d10/ID3D10Device.SetPrivateDataInterface"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SspiValidateAuthIdentity, SspiValidateAuthIdentity function [Security], security.sspivalidateauthidentity, sspi/SspiValidateAuthIdentity
 ms.topic: function
-f1_keywords: ["sspi/SspiValidateAuthIdentity"]
+f1_keywords: 
+ - "sspi/SspiValidateAuthIdentity"
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

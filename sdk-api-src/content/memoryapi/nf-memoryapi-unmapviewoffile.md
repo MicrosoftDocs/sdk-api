@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnmapViewOfFile, UnmapViewOfFile function, _win32_unmapviewoffile, base.unmapviewoffile, fs.unmapviewoffile, winbase/UnmapViewOfFile
 ms.topic: function
-f1_keywords: ["memoryapi/UnmapViewOfFile"]
+f1_keywords: 
+ - "memoryapi/UnmapViewOfFile"
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

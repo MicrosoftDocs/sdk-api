@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 4e599157-93d6-486f-9498-899e5b53f24b, CreateContext, CreateContext function [Tablet PC], recapis/CreateContext, tablet.createcontext
 ms.topic: function
-f1_keywords: ["recapis/CreateContext"]
+f1_keywords: 
+ - "recapis/CreateContext"
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

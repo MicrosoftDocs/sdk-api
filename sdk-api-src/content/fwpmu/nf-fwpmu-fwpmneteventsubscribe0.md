@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmNetEventSubscribe0, FwpmNetEventSubscribe0 function [Filtering], fwp.fwpmneteventsubscribe0, fwpmu/FwpmNetEventSubscribe0
 ms.topic: function
-f1_keywords: ["fwpmu/FwpmNetEventSubscribe0"]
+f1_keywords: 
+ - "fwpmu/FwpmNetEventSubscribe0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

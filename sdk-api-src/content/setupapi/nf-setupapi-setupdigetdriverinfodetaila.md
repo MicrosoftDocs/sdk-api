@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetDriverInfoDetail, SetupDiGetDriverInfoDetail function [Device and Driver Installation], SetupDiGetDriverInfoDetailA, SetupDiGetDriverInfoDetailW, devinst.setupdigetdriverinfodetail, di-rtns_5a2fb98d-54ee-4290-9969-f5e12d77cbcf.xml, setupapi/SetupDiGetDriverInfoDetail
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiGetDriverInfoDetail"]
+f1_keywords: 
+ - "setupapi/SetupDiGetDriverInfoDetail"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TimeProvOpen, TimeProvOpen callback, TimeProvOpen callback function, _win32_timeprovopen, base.timeprovopen, timeprov/TimeProvOpen
 ms.topic: function
-f1_keywords: ["timeprov/TimeProvOpen"]
+f1_keywords: 
+ - "timeprov/TimeProvOpen"
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows

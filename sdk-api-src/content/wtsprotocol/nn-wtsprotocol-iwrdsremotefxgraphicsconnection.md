@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsRemoteFXGraphicsConnection, IWRdsRemoteFXGraphicsConnection interface [Remote Desktop Services], IWRdsRemoteFXGraphicsConnection interface [Remote Desktop Services],described, termserv.iwrdsremotefxgraphicsconnection, wtsprotocol/IWRdsRemoteFXGraphicsConnection
 ms.topic: interface
-f1_keywords: ["wtsprotocol/IWRdsRemoteFXGraphicsConnection"]
+f1_keywords: 
+ - "wtsprotocol/IWRdsRemoteFXGraphicsConnection"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

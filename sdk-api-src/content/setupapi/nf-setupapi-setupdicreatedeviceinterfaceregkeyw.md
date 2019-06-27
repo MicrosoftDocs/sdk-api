@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiCreateDeviceInterfaceRegKey, SetupDiCreateDeviceInterfaceRegKey function [Device and Driver Installation], SetupDiCreateDeviceInterfaceRegKeyA, SetupDiCreateDeviceInterfaceRegKeyW, devinst.setupdicreatedeviceinterfaceregkey, di-rtns_4b18b81a-e8ae-4d04-ae67-26cb21472e23.xml, setupapi/SetupDiCreateDeviceInterfaceRegKey
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiCreateDeviceInterfaceRegKey"]
+f1_keywords: 
+ - "setupapi/SetupDiCreateDeviceInterfaceRegKey"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

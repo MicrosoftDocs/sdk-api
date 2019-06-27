@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceGetHandle, MprConfigInterfaceGetHandle function [RAS], _mpr_mprconfiginterfacegethandle, mprapi/MprConfigInterfaceGetHandle, rras.mprconfiginterfacegethandle
 ms.topic: function
-f1_keywords: ["mprapi/MprConfigInterfaceGetHandle"]
+f1_keywords: 
+ - "mprapi/MprConfigInterfaceGetHandle"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

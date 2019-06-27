@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNamedValue, GetNamedValue method [Windows Shell], GetNamedValue method [Windows Shell],INamedPropertyStore interface, INamedPropertyStore interface [Windows Shell],GetNamedValue method, INamedPropertyStore.GetNamedValue, INamedPropertyStore::GetNamedValue, _shell_INamedPropertyStore_GetNamedValue, propsys/INamedPropertyStore::GetNamedValue, shell.INamedPropertyStore_GetNamedValue
 ms.topic: method
-f1_keywords: ["propsys/INamedPropertyStore.GetNamedValue"]
+f1_keywords: 
+ - "propsys/INamedPropertyStore.GetNamedValue"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

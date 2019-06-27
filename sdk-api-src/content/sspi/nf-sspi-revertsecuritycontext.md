@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RevertSecurityContext, RevertSecurityContext function [Security], _ssp_revertsecuritycontext, security.revertsecuritycontext, sspi/RevertSecurityContext
 ms.topic: function
-f1_keywords: ["sspi/RevertSecurityContext"]
+f1_keywords: 
+ - "sspi/RevertSecurityContext"
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

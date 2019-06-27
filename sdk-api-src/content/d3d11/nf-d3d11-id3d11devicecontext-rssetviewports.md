@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceContext interface [Direct3D 11],RSSetViewports method, ID3D11DeviceContext.RSSetViewports, ID3D11DeviceContext::RSSetViewports, RSSetViewports, RSSetViewports method [Direct3D 11], RSSetViewports method [Direct3D 11],ID3D11DeviceContext interface, cdf57cc3-a89c-db1a-5bd9-f1eec144bfe0, d3d11/ID3D11DeviceContext::RSSetViewports, direct3d11.id3d11devicecontext_rssetviewports
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11DeviceContext.RSSetViewports"]
+f1_keywords: 
+ - "d3d11/ID3D11DeviceContext.RSSetViewports"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

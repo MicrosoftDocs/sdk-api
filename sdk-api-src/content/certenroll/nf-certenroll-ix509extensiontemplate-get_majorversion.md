@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionTemplate interface [Security],MajorVersion property, IX509ExtensionTemplate.MajorVersion, IX509ExtensionTemplate.get_MajorVersion, IX509ExtensionTemplate::MajorVersion, IX509ExtensionTemplate::get_MajorVersion, MajorVersion property [Security], MajorVersion property [Security],IX509ExtensionTemplate interface, certenroll/IX509ExtensionTemplate::MajorVersion, certenroll/IX509ExtensionTemplate::get_MajorVersion, get_MajorVersion, security.ix509extensiontemplate_majorversion_property
 ms.topic: method
-f1_keywords: ["certenroll/IX509ExtensionTemplate.MajorVersion"]
+f1_keywords: 
+ - "certenroll/IX509ExtensionTemplate.MajorVersion"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

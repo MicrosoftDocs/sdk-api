@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddFilter, AddFilter method [DirectShow], AddFilter method [DirectShow],IFilterGraph interface, IFilterGraph interface [DirectShow],AddFilter method, IFilterGraph.AddFilter, IFilterGraph::AddFilter, IFilterGraphAddFilter, dshow.ifiltergraph_addfilter, strmif/IFilterGraph::AddFilter
 ms.topic: method
-f1_keywords: ["strmif/IFilterGraph.AddFilter"]
+f1_keywords: 
+ - "strmif/IFilterGraph.AddFilter"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

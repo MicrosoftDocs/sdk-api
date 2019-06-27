@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSECPKG_GSS_INFO, PSECPKG_GSS_INFO, PSECPKG_GSS_INFO structure pointer [Security], SECPKG_GSS_INFO, SECPKG_GSS_INFO structure [Security], _ssp_secpkg_gss_info, ntsecpkg/PSECPKG_GSS_INFO, ntsecpkg/SECPKG_GSS_INFO, security.secpkg_gss_info"
 ms.topic: struct
-f1_keywords: ["ntsecpkg/SECPKG_GSS_INFO"]
+f1_keywords: 
+ - "ntsecpkg/SECPKG_GSS_INFO"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

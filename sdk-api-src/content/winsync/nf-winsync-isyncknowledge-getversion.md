@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVersion, GetVersion method [Windows Sync], GetVersion method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetVersion method, ISyncKnowledge.GetVersion, ISyncKnowledge::GetVersion, winsync.isyncknowledge_getversion, winsync/ISyncKnowledge::GetVersion
 ms.topic: method
-f1_keywords: ["winsync/ISyncKnowledge.GetVersion"]
+f1_keywords: 
+ - "winsync/ISyncKnowledge.GetVersion"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

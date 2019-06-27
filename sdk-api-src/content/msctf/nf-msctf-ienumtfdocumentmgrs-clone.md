@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfDocumentMgrs interface, IEnumTfDocumentMgrs interface [Text Services Framework],Clone method, IEnumTfDocumentMgrs.Clone, IEnumTfDocumentMgrs::Clone, _tsf_ienumtfdocumentmgrs_clone_ref, msctf/IEnumTfDocumentMgrs::Clone, tsf.ienumtfdocumentmgrs_clone
 ms.topic: method
-f1_keywords: ["msctf/IEnumTfDocumentMgrs.Clone"]
+f1_keywords: 
+ - "msctf/IEnumTfDocumentMgrs.Clone"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

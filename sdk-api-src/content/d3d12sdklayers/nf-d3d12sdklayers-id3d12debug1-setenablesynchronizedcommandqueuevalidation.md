@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12Debug1 interface,SetEnableSynchronizedCommandQueueValidation method, ID3D12Debug1.SetEnableSynchronizedCommandQueueValidation, ID3D12Debug1::SetEnableSynchronizedCommandQueueValidation, SetEnableSynchronizedCommandQueueValidation, SetEnableSynchronizedCommandQueueValidation method, SetEnableSynchronizedCommandQueueValidation method,ID3D12Debug1 interface, d3d12sdklayers/ID3D12Debug1::SetEnableSynchronizedCommandQueueValidation, direct3d12.id3d12debugdevice1_setenablesynchronizedcommandqueuevalidation
 ms.topic: method
-f1_keywords: ["d3d12sdklayers/ID3D12Debug1.SetEnableSynchronizedCommandQueueValidation"]
+f1_keywords: 
+ - "d3d12sdklayers/ID3D12Debug1.SetEnableSynchronizedCommandQueueValidation"
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

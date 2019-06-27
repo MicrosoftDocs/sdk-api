@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IServiceSxSConfig, IServiceSxSConfig interface [COM+], IServiceSxSConfig interface [COM+],described, _cos_IServiceSxsConfig, comsvcs/IServiceSxSConfig, cos.iservicesxsconfig
 ms.topic: interface
-f1_keywords: ["comsvcs/IServiceSxSConfig"]
+f1_keywords: 
+ - "comsvcs/IServiceSxSConfig"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

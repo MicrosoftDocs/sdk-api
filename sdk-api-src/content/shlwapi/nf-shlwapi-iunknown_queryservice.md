@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUnknown_QueryService, IUnknown_QueryService function [Windows Shell], _shell_IUnknown_QueryService, shell.IUnknown_QueryService, shlwapi/IUnknown_QueryService
 ms.topic: function
-f1_keywords: ["shlwapi/IUnknown_QueryService"]
+f1_keywords: 
+ - "shlwapi/IUnknown_QueryService"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

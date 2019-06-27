@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NPLogonNotify, NPLogonNotify function [Security], SvcCtl, WinSta_0, _mnp_nplogonnotify, npapi/NPLogonNotify, security.nplogonnotify
 ms.topic: function
-f1_keywords: ["npapi/NPLogonNotify"]
+f1_keywords: 
+ - "npapi/NPLogonNotify"
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

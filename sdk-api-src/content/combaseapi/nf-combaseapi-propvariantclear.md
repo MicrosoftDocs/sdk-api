@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantClear, PropVariantClear function [Structured Storage], _stg_propvariantclear, combaseapi/PropVariantClear, stg.propvariantclear
 ms.topic: function
-f1_keywords: ["combaseapi/PropVariantClear"]
+f1_keywords: 
+ - "combaseapi/PropVariantClear"
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows

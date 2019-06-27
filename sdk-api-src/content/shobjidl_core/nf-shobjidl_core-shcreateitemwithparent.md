@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCreateItemWithParent, SHCreateItemWithParent function [Windows Shell], _shell_SHCreateItemWithParent, shell.SHCreateItemWithParent, shobjidl_core/SHCreateItemWithParent
 ms.topic: function
-f1_keywords: ["shobjidl_core/SHCreateItemWithParent"]
+f1_keywords: 
+ - "shobjidl_core/SHCreateItemWithParent"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

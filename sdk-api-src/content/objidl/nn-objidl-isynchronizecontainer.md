@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISynchronizeContainer, ISynchronizeContainer interface [COM], ISynchronizeContainer interface [COM],described, _com_isynchronizecontainer, com.isynchronizecontainer, objidlbase/ISynchronizeContainer
 ms.topic: interface
-f1_keywords: ["objidl/ISynchronizeContainer"]
+f1_keywords: 
+ - "objidl/ISynchronizeContainer"
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

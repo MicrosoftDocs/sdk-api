@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BLUETOOTH_FIND_RADIO_PARAMS, BLUETOOTH_FIND_RADIO_PARAMS structure [Bluetooth], bluetooth.bluetooth_find_radio_params, bluetoothapis/BLUETOOTH_FIND_RADIO_PARAMS
 ms.topic: struct
-f1_keywords: ["bluetoothapis/BLUETOOTH_FIND_RADIO_PARAMS"]
+f1_keywords: 
+ - "bluetoothapis/BLUETOOTH_FIND_RADIO_PARAMS"
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

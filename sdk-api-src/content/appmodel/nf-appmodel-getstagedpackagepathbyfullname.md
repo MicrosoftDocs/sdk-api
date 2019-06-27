@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStagedPackagePathByFullName, GetStagedPackagePathByFullName function [App packaging and management], appmodel/GetStagedPackagePathByFullName, appxpkg.getstagedpackagepathbyfullname
 ms.topic: function
-f1_keywords: ["appmodel/GetStagedPackagePathByFullName"]
+f1_keywords: 
+ - "appmodel/GetStagedPackagePathByFullName"
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

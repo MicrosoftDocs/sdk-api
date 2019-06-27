@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateUrlCacheContainer, CreateUrlCacheContainer function [WinINet], CreateUrlCacheContainerA, CreateUrlCacheContainerW, wininet.createurlcachecontainer, winineti/CreateUrlCacheContainer
 ms.topic: function
-f1_keywords: ["winineti/CreateUrlCacheContainer"]
+f1_keywords: 
+ - "winineti/CreateUrlCacheContainer"
 req.header: winineti.h
 req.include-header: 
 req.target-type: Windows

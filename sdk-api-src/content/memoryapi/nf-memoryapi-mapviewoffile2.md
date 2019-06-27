@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MapViewOfFile2, MapViewOfFile2 function, base.mapviewoffile2, winbase/MapViewOfFile2
 ms.topic: function
-f1_keywords: ["memoryapi/MapViewOfFile2"]
+f1_keywords: 
+ - "memoryapi/MapViewOfFile2"
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

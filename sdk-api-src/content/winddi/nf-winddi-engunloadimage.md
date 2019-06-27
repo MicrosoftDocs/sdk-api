@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngUnloadImage, EngUnloadImage function [Display Devices], display.engunloadimage, gdifncs_e20ef926-cd02-4fdc-bd92-3a9d201b7566.xml, winddi/EngUnloadImage
 ms.topic: macro
-f1_keywords: ["winddi/EngUnloadImage"]
+f1_keywords: 
+ - "winddi/EngUnloadImage"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiGetProductProperty, MsiGetProductProperty function, MsiGetProductPropertyA, MsiGetProductPropertyW, _msi_msigetproductproperty, msi/MsiGetProductProperty, msi/MsiGetProductPropertyA, msi/MsiGetProductPropertyW, setup.msigetproductproperty
 ms.topic: function
-f1_keywords: ["msi/MsiGetProductProperty"]
+f1_keywords: 
+ - "msi/MsiGetProductProperty"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

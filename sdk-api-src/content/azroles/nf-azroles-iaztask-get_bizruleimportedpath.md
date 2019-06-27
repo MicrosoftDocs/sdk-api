@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzTask object [Security],BizRuleImportedPath property, BizRuleImportedPath property [Security], BizRuleImportedPath property [Security],AzTask object, BizRuleImportedPath property [Security],IAzTask interface, IAzTask interface [Security],BizRuleImportedPath property, IAzTask.BizRuleImportedPath, IAzTask.get_BizRuleImportedPath, IAzTask::BizRuleImportedPath, IAzTask::get_BizRuleImportedPath, IAzTask::put_BizRuleImportedPath, azroles/IAzTask::BizRuleImportedPath, azroles/IAzTask::get_BizRuleImportedPath, azroles/IAzTask::put_BizRuleImportedPath, get_BizRuleImportedPath, security.iaztask_bizruleimportedpath
 ms.topic: method
-f1_keywords: ["azroles/IAzTask.BizRuleImportedPath"]
+f1_keywords: 
+ - "azroles/IAzTask.BizRuleImportedPath"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

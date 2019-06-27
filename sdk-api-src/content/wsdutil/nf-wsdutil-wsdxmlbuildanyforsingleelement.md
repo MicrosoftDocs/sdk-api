@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDXMLBuildAnyForSingleElement, WSDXMLBuildAnyForSingleElement function, ncd.wsdxmlbuildanyforsingleelement, wsdutil/WSDXMLBuildAnyForSingleElement
 ms.topic: function
-f1_keywords: ["wsdutil/WSDXMLBuildAnyForSingleElement"]
+f1_keywords: 
+ - "wsdutil/WSDXMLBuildAnyForSingleElement"
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

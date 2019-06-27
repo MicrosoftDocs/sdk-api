@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataHandlerInfo, IWICMetadataHandlerInfo interface [Windows Imaging Component], IWICMetadataHandlerInfo interface [Windows Imaging Component],described, _wic_codec_iwicmetadatahandlerinfo, wic._wic_codec_iwicmetadatahandlerinfo, wincodecsdk/IWICMetadataHandlerInfo
 ms.topic: interface
-f1_keywords: ["wincodecsdk/IWICMetadataHandlerInfo"]
+f1_keywords: 
+ - "wincodecsdk/IWICMetadataHandlerInfo"
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorAdd, XMVectorAdd, XMVectorAdd method [DirectX Math Support APIs], dxmath.xmvectoradd
 ms.topic: function
-f1_keywords: ["directxmath/XMVectorAdd"]
+f1_keywords: 
+ - "directxmath/XMVectorAdd"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

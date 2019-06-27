@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVDecCommonInputFormat, AVDecCommonInputFormat method [Microsoft TV Technologies], AVDecCommonInputFormat method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVDecCommonInputFormat method, IMSVidAudioRendererEvent2.AVDecCommonInputFormat, IMSVidAudioRendererEvent2::AVDecCommonInputFormat, mstv.imsvidaudiorendererevent2_avdeccommoninputformat, segment/IMSVidAudioRendererEvent2::AVDecCommonInputFormat
 ms.topic: method
-f1_keywords: ["segment/IMSVidAudioRendererEvent2.AVDecCommonInputFormat"]
+f1_keywords: 
+ - "segment/IMSVidAudioRendererEvent2.AVDecCommonInputFormat"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

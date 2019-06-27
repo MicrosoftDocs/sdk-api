@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropertyInfo, GetPropertyInfo method [Windows Controls], GetPropertyInfo method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetPropertyInfo method, ITextFont2.GetPropertyInfo, ITextFont2::GetPropertyInfo, controls.itextfont2_getpropertyinfo, tom/ITextFont2::GetPropertyInfo
 ms.topic: method
-f1_keywords: ["tom/ITextFont2.GetPropertyInfo"]
+f1_keywords: 
+ - "tom/ITextFont2.GetPropertyInfo"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzApplicationGroup object [Security],DeleteNonMemberName method, DeleteNonMemberName, DeleteNonMemberName method [Security], DeleteNonMemberName method [Security],AzApplicationGroup object, DeleteNonMemberName method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteNonMemberName method, IAzApplicationGroup.DeleteNonMemberName, IAzApplicationGroup::DeleteNonMemberName, azroles/IAzApplicationGroup::DeleteNonMemberName, security.iazapplicationgroup_deletenonmembername
 ms.topic: method
-f1_keywords: ["azroles/IAzApplicationGroup.DeleteNonMemberName"]
+f1_keywords: 
+ - "azroles/IAzApplicationGroup.DeleteNonMemberName"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlFreeAnsiString, RtlFreeAnsiString function [Windows API], winprog.rtlfreeansistring, winternl/RtlFreeAnsiString, winui.rtlfreeansistring
 ms.topic: function
-f1_keywords: ["winternl/RtlFreeAnsiString"]
+f1_keywords: 
+ - "winternl/RtlFreeAnsiString"
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

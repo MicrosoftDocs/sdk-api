@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitializeFlatSB, InitializeFlatSB function [Windows Controls], _win32_InitializeFlatSB, _win32_InitializeFlatSB_cpp, commctrl/InitializeFlatSB, controls.InitializeFlatSB, controls._win32_InitializeFlatSB
 ms.topic: function
-f1_keywords: ["commctrl/InitializeFlatSB"]
+f1_keywords: 
+ - "commctrl/InitializeFlatSB"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

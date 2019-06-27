@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],SetMessageCountLimit method, IDXGIInfoQueue.SetMessageCountLimit, IDXGIInfoQueue::SetMessageCountLimit, SetMessageCountLimit, SetMessageCountLimit method [DXGI], SetMessageCountLimit method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_setmessagecountlimit, dxgidebug/IDXGIInfoQueue::SetMessageCountLimit
 ms.topic: method
-f1_keywords: ["dxgidebug/IDXGIInfoQueue.SetMessageCountLimit"]
+f1_keywords: 
+ - "dxgidebug/IDXGIInfoQueue.SetMessageCountLimit"
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

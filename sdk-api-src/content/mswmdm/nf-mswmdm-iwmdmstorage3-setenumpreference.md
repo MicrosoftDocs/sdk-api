@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorage3 interface [windows Media Device Manager],SetEnumPreference method, IWMDMStorage3.SetEnumPreference, IWMDMStorage3::SetEnumPreference, IWMDMStorage3SetEnumPreference, SetEnumPreference, SetEnumPreference method [windows Media Device Manager], SetEnumPreference method [windows Media Device Manager],IWMDMStorage3 interface, mswmdm/IWMDMStorage3::SetEnumPreference, wmdm.iwmdmstorage3_setenumpreference
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMStorage3.SetEnumPreference"]
+f1_keywords: 
+ - "mswmdm/IWMDMStorage3.SetEnumPreference"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

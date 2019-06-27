@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMREXTCREATEFONTINDIRECTW, *PEMREXTCREATEFONTINDIRECTW structure [Windows GDI], EMREXTCREATEFONTINDIRECTW, EMREXTCREATEFONTINDIRECTW structure [Windows GDI], _win32_EMREXTCREATEFONTINDIRECTW_str, gdi.emrextcreatefontindirectw, wingdi/*PEMREXTCREATEFONTINDIRECTW, wingdi/EMREXTCREATEFONTINDIRECTW"
 ms.topic: struct
-f1_keywords: ["wingdi/EMREXTCREATEFONTINDIRECTW"]
+f1_keywords: 
+ - "wingdi/EMREXTCREATEFONTINDIRECTW"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

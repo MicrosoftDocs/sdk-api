@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUseToBrowseItem, IUseToBrowseItem interface [Windows Shell], IUseToBrowseItem interface [Windows Shell],described, _shell_IUseToBrowseItem, shell.IUseToBrowseItem, shobjidl/IUseToBrowseItem
 ms.topic: interface
-f1_keywords: ["shobjidl/IUseToBrowseItem"]
+f1_keywords: 
+ - "shobjidl/IUseToBrowseItem"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS, AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS, AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS structure [Security], PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS, PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS structure pointer [Security], _crypto2_authenticode_extra_cert_chain_policy_status, security.authenticode_extra_cert_chain_policy_status, wincrypt/AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS, wincrypt/PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS"
 ms.topic: struct
-f1_keywords: ["wincrypt/AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS"]
+f1_keywords: 
+ - "wincrypt/AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

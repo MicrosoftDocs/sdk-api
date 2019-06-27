@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HRESULT_SEVERITY, HRESULT_SEVERITY macro [COM], _com_HRESULT_SEVERITY, com.hresult_severity, com.hresult_severity_macro, winerror/HRESULT_SEVERITY
 ms.topic: macro
-f1_keywords: ["winerror/HRESULT_SEVERITY"]
+f1_keywords: 
+ - "winerror/HRESULT_SEVERITY"
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows

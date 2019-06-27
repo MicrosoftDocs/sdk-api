@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetViewName, GetViewName method [Windows Accessibility], GetViewName method [Windows Accessibility],IUIAutomationMultipleViewPattern interface, IUIAutomationMultipleViewPattern interface [Windows Accessibility],GetViewName method, IUIAutomationMultipleViewPattern.GetViewName, IUIAutomationMultipleViewPattern::GetViewName, uiauto.uiauto_IUIAutomationMultipleViewPattern_GetViewName, uiauto_IUIAutomationMultipleViewPattern_GetViewName, uiautomationclient/IUIAutomationMultipleViewPattern::GetViewName, winauto.uiauto_IUIAutomationMultipleViewPattern_GetViewName
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationMultipleViewPattern.GetViewName"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationMultipleViewPattern.GetViewName"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

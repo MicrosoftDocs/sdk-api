@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBufferingTime, GetBufferingTime method [windows Media Format], GetBufferingTime method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetBufferingTime method, IWMReaderNetworkConfig.GetBufferingTime, IWMReaderNetworkConfig::GetBufferingTime, IWMReaderNetworkConfigGetBufferingTime, wmformat.iwmreadernetworkconfig_getbufferingtime, wmsdkidl/IWMReaderNetworkConfig::GetBufferingTime
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderNetworkConfig.GetBufferingTime"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderNetworkConfig.GetBufferingTime"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

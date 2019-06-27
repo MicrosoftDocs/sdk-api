@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSCreateSimplePropertyChange, PSCreateSimplePropertyChange function [Windows Properties], _shell_PSCreateSimplePropertyChange, properties.PSCreateSimplePropertyChange, propsys/PSCreateSimplePropertyChange, shell.PSCreateSimplePropertyChange
 ms.topic: function
-f1_keywords: ["propsys/PSCreateSimplePropertyChange"]
+f1_keywords: 
+ - "propsys/PSCreateSimplePropertyChange"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

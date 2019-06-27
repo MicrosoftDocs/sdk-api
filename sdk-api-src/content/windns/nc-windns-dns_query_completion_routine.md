@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DNS_QUERY_COMPLETION_ROUTINE, DNS_QUERY_COMPLETION_ROUTINE callback, DNS_QUERY_COMPLETION_ROUTINE callback function [DNS], dns.dns_query_completion_routine, windns/DNS_QUERY_COMPLETION_ROUTINE
 ms.topic: callback
-f1_keywords: ["windns/DNS_QUERY_COMPLETION_ROUTINE"]
+f1_keywords: 
+ - "windns/DNS_QUERY_COMPLETION_ROUTINE"
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

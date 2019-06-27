@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProviderPropertyConstraintCollection, IProviderPropertyConstraintCollection interface, IProviderPropertyConstraintCollection interface,described, functiondiscoveryprovider/IProviderPropertyConstraintCollection, ncd.iproviderpropertyconstraintcollection
 ms.topic: interface
-f1_keywords: ["functiondiscoveryprovider/IProviderPropertyConstraintCollection"]
+f1_keywords: 
+ - "functiondiscoveryprovider/IProviderPropertyConstraintCollection"
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

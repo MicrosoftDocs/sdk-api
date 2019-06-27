@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FILE_CACHE_MAX_HARD_ENABLE, FILE_CACHE_MIN_HARD_ENABLE, GetSystemFileCacheSize, GetSystemFileCacheSize function, base.getsystemfilecachesize, winbase/GetSystemFileCacheSize
 ms.topic: function
-f1_keywords: ["memoryapi/GetSystemFileCacheSize"]
+f1_keywords: 
+ - "memoryapi/GetSystemFileCacheSize"
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

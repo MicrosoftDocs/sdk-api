@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DllUnregisterServer, DllUnregisterServer function [COM], _com_DllUnregisterServer, com.dllunregisterserver, olectl/DllUnregisterServer
 ms.topic: function
-f1_keywords: ["olectl/DllUnregisterServer"]
+f1_keywords: 
+ - "olectl/DllUnregisterServer"
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows

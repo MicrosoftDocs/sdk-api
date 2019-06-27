@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSourceReaderCallback interface [Media Foundation],OnReadSample method, IMFSourceReaderCallback.OnReadSample, IMFSourceReaderCallback::OnReadSample, OnReadSample, OnReadSample method [Media Foundation], OnReadSample method [Media Foundation],IMFSourceReaderCallback interface, mf.imfsourcereadercallback_onreadsample, mfreadwrite/IMFSourceReaderCallback::OnReadSample
 ms.topic: method
-f1_keywords: ["mfreadwrite/IMFSourceReaderCallback.OnReadSample"]
+f1_keywords: 
+ - "mfreadwrite/IMFSourceReaderCallback.OnReadSample"
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

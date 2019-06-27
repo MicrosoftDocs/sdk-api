@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUnknown_AddRef_Proxy, IUnknown_AddRef_Proxy function [RPC], rpc.iunknown_addref_proxy, unknwnbase/IUnknown_AddRef_Proxy
 ms.topic: function
-f1_keywords: ["unknwnbase/IUnknown_AddRef_Proxy"]
+f1_keywords: 
+ - "unknwnbase/IUnknown_AddRef_Proxy"
 req.header: unknwnbase.h
 req.include-header: Unknwn.h
 req.target-type: Windows

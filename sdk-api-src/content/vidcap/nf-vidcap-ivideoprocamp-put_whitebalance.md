@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_WhiteBalance method, IVideoProcAmp.put_WhiteBalance, IVideoProcAmp::put_WhiteBalance, IVideoProcAmpput_WhiteBalance, dshow.ivideoprocamp_put_whitebalance, put_WhiteBalance, put_WhiteBalance method [DirectShow], put_WhiteBalance method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_WhiteBalance
 ms.topic: method
-f1_keywords: ["vidcap/IVideoProcAmp.put_WhiteBalance"]
+f1_keywords: 
+ - "vidcap/IVideoProcAmp.put_WhiteBalance"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

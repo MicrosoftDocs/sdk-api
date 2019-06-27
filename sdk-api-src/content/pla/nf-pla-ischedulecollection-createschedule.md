@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSchedule, CreateSchedule method [PLA], CreateSchedule method [PLA],IScheduleCollection interface, IScheduleCollection interface [PLA],CreateSchedule method, IScheduleCollection.CreateSchedule, IScheduleCollection::CreateSchedule, pla.ischedulecollection_createschedule, pla/IScheduleCollection::CreateSchedule
 ms.topic: method
-f1_keywords: ["pla/IScheduleCollection.CreateSchedule"]
+f1_keywords: 
+ - "pla/IScheduleCollection.CreateSchedule"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

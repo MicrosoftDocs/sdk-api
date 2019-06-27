@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReallocADsMem, ReallocADsMem function [ADSI], _ds_reallocadsmem, adshlp/ReallocADsMem, adsi.reallocadsmem
 ms.topic: function
-f1_keywords: ["adshlp/ReallocADsMem"]
+f1_keywords: 
+ - "adshlp/ReallocADsMem"
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows

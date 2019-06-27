@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConnectNotify, ConnectNotify method [Remote Desktop Services], ConnectNotify method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],ConnectNotify method, IWTSProtocolConnection.ConnectNotify, IWTSProtocolConnection::ConnectNotify, termserv.iwtsprotocolconnection_connectnotify, wtsprotocol/IWTSProtocolConnection::ConnectNotify
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWTSProtocolConnection.ConnectNotify"]
+f1_keywords: 
+ - "wtsprotocol/IWTSProtocolConnection.ConnectNotify"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

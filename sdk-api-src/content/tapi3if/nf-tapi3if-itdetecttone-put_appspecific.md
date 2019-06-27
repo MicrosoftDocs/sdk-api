@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDetectTone interface [TAPI 2.2],put_AppSpecific method, ITDetectTone.put_AppSpecific, ITDetectTone::put_AppSpecific, _tapi3_itdetecttone_put_appspecific, put_AppSpecific, put_AppSpecific method [TAPI 2.2], put_AppSpecific method [TAPI 2.2],ITDetectTone interface, tapi3.itdetecttone_put_appspecific, tapi3if/ITDetectTone::put_AppSpecific
 ms.topic: method
-f1_keywords: ["tapi3if/ITDetectTone.put_AppSpecific"]
+f1_keywords: 
+ - "tapi3if/ITDetectTone.put_AppSpecific"
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

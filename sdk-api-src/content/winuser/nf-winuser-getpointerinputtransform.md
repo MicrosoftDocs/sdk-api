@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPointerInputTransform, GetPointerInputTransform function [Input Messages and Notifications], inputmsg.getpointerinputtransform, winuser/GetPointerInputTransform
 ms.topic: function
-f1_keywords: ["winuser/GetPointerInputTransform"]
+f1_keywords: 
+ - "winuser/GetPointerInputTransform"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

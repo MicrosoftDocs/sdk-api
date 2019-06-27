@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HasCharacter, HasCharacter method [Direct Write], HasCharacter method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],HasCharacter method, IDWriteFontFace3.HasCharacter, IDWriteFontFace3::HasCharacter, directwrite.idwritefontface3_hascharacter, dwrite_3/IDWriteFontFace3::HasCharacter
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteFontFace3.HasCharacter"]
+f1_keywords: 
+ - "dwrite_3/IDWriteFontFace3.HasCharacter"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

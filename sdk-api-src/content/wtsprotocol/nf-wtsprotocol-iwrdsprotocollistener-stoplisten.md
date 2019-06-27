@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolListener interface [Remote Desktop Services],StopListen method, IWRdsProtocolListener.StopListen, IWRdsProtocolListener::StopListen, StopListen, StopListen method [Remote Desktop Services], StopListen method [Remote Desktop Services],IWRdsProtocolListener interface, termserv.iwrdsprotocollistener_stoplisten, wtsprotocol/IWRdsProtocolListener::StopListen
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWRdsProtocolListener.StopListen"]
+f1_keywords: 
+ - "wtsprotocol/IWRdsProtocolListener.StopListen"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSegmentData, GetSegmentData method [XPS Documents and Packaging], GetSegmentData method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetSegmentData method, IXpsOMGeometryFigure.GetSegmentData, IXpsOMGeometryFigure::GetSegmentData, xps.ixpsomgeometryfigure_getsegmentdata, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentData
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGeometryFigure.GetSegmentData"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGeometryFigure.GetSegmentData"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

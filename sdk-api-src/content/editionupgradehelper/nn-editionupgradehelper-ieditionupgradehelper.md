@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEditionUpgradeHelper, IEditionUpgradeHelper interface [Windows API], IEditionUpgradeHelper interface [Windows API],described, editionupgradehelper/IEditionUpgradeHelper, winprog.ieditionupgradehelper
 ms.topic: interface
-f1_keywords: ["editionupgradehelper/IEditionUpgradeHelper"]
+f1_keywords: 
+ - "editionupgradehelper/IEditionUpgradeHelper"
 req.header: editionupgradehelper.h
 req.include-header: 
 req.target-type: Windows

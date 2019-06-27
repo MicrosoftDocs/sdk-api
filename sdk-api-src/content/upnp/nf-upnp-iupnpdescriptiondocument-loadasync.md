@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPDescriptionDocument interface [UPnP APIs],LoadAsync method, IUPnPDescriptionDocument.LoadAsync, IUPnPDescriptionDocument::LoadAsync, LoadAsync, LoadAsync method [UPnP APIs], LoadAsync method [UPnP APIs],IUPnPDescriptionDocument interface, _upnp_iupnpdescriptiondocument_loadasync, upnp.iupnpdescriptiondocument_loadasync, upnp/IUPnPDescriptionDocument::LoadAsync
 ms.topic: method
-f1_keywords: ["upnp/IUPnPDescriptionDocument.LoadAsync"]
+f1_keywords: 
+ - "upnp/IUPnPDescriptionDocument.LoadAsync"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

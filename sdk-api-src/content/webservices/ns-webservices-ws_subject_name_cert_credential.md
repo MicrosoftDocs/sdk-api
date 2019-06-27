@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_SUBJECT_NAME_CERT_CREDENTIAL, WS_SUBJECT_NAME_CERT_CREDENTIAL structure [Web Services for Windows], webservices/WS_SUBJECT_NAME_CERT_CREDENTIAL, wsw.ws_subject_name_cert_credential
 ms.topic: struct
-f1_keywords: ["webservices/WS_SUBJECT_NAME_CERT_CREDENTIAL"]
+f1_keywords: 
+ - "webservices/WS_SUBJECT_NAME_CERT_CREDENTIAL"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

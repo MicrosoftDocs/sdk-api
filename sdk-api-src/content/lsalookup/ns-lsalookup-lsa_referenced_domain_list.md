@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLSA_REFERENCED_DOMAIN_LIST, LSA_REFERENCED_DOMAIN_LIST, LSA_REFERENCED_DOMAIN_LIST structure [Security], PLSA_REFERENCED_DOMAIN_LIST, PLSA_REFERENCED_DOMAIN_LIST structure pointer [Security], _LSA_REFERENCED_DOMAIN_LIST, _lsa_lsa_referenced_domain_list, lsalookup/LSA_REFERENCED_DOMAIN_LIST, lsalookup/PLSA_REFERENCED_DOMAIN_LIST, security.lsa_referenced_domain_list"
 ms.topic: struct
-f1_keywords: ["lsalookup/LSA_REFERENCED_DOMAIN_LIST"]
+f1_keywords: 
+ - "lsalookup/LSA_REFERENCED_DOMAIN_LIST"
 req.header: lsalookup.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IntersectClipRect, IntersectClipRect function [Windows GDI], _win32_IntersectClipRect, gdi.intersectcliprect, wingdi/IntersectClipRect
 ms.topic: function
-f1_keywords: ["wingdi/IntersectClipRect"]
+f1_keywords: 
+ - "wingdi/IntersectClipRect"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

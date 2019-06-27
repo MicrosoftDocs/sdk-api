@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TerminateJobObject, TerminateJobObject function, _win32_terminatejobobject, base.terminatejobobject, winbase/TerminateJobObject
 ms.topic: function
-f1_keywords: ["jobapi2/TerminateJobObject"]
+f1_keywords: 
+ - "jobapi2/TerminateJobObject"
 req.header: jobapi2.h
 req.include-header: Windows.h, Jobapi2.h
 req.target-type: Windows

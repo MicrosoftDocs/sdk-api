@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsiFileItem2 interface [IMAPI],get_IsNamedStream method, IFsiFileItem2.get_IsNamedStream, IFsiFileItem2::get_IsNamedStream, get_IsNamedStream, get_IsNamedStream method [IMAPI], get_IsNamedStream method [IMAPI],IFsiFileItem2 interface, imapi.ifsifileitem2_get_isnamedstream, imapi2fs/IFsiFileItem2::get_IsNamedStream
 ms.topic: method
-f1_keywords: ["imapi2fs/IFsiFileItem2.get_IsNamedStream"]
+f1_keywords: 
+ - "imapi2fs/IFsiFileItem2.get_IsNamedStream"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

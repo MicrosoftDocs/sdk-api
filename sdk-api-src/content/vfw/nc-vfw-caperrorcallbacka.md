@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CAPERRORCALLBACKA, CAPERRORCALLBACKW, _win32_capErrorCallback, capErrorCallback, capErrorCallback callback, capErrorCallback callback function [Windows Multimedia], multimedia.caperrorcallback, vfw/CAPERRORCALLBACKA, vfw/CAPERRORCALLBACKW, vfw/capErrorCallback
 ms.topic: callback
-f1_keywords: ["vfw/capErrorCallback"]
+f1_keywords: 
+ - "vfw/capErrorCallback"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

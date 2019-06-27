@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDeviceManufacturer, GetDeviceManufacturer method [Windows Portable Devices SDK], GetDeviceManufacturer method [Windows Portable Devices SDK],IPortableDeviceManager interface, IPortableDeviceManager interface [Windows Portable Devices SDK],GetDeviceManufacturer method, IPortableDeviceManager.GetDeviceManufacturer, IPortableDeviceManager::GetDeviceManufacturer, IPortableDeviceManagerGetDeviceManufacturer, portabledeviceapi/IPortableDeviceManager::GetDeviceManufacturer, wpdsdk.iportabledevicemanager_getdevicemanufacturer
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceManager.GetDeviceManufacturer"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceManager.GetDeviceManufacturer"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

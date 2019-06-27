@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetClipFactor method, IFullScreenVideoEx.SetClipFactor, IFullScreenVideoEx::SetClipFactor, IFullScreenVideoSetClipFactor, SetClipFactor, SetClipFactor method [DirectShow], SetClipFactor method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetClipFactor, dshow.ifullscreenvideoex_setclipfactor
 ms.topic: method
-f1_keywords: ["amvideo/IFullScreenVideoEx.SetClipFactor"]
+f1_keywords: 
+ - "amvideo/IFullScreenVideoEx.SetClipFactor"
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

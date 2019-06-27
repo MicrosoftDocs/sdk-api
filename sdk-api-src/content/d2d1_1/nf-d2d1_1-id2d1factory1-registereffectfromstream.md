@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1Factory1 interface [Direct2D],RegisterEffectFromStream method, ID2D1Factory1.RegisterEffectFromStream, ID2D1Factory1::RegisterEffectFromStream, RegisterEffectFromStream, RegisterEffectFromStream method [Direct2D], RegisterEffectFromStream method [Direct2D],ID2D1Factory1 interface, d2d1_1/ID2D1Factory1::RegisterEffectFromStream, direct2d.id2d1factory1_registereffectfromstream
 ms.topic: method
-f1_keywords: ["d2d1_1/ID2D1Factory1.RegisterEffectFromStream"]
+f1_keywords: 
+ - "d2d1_1/ID2D1Factory1.RegisterEffectFromStream"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

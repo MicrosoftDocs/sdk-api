@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TreeView_EndEditLabelNow, TreeView_EndEditLabelNow macro [Windows Controls], _win32_TreeView_EndEditLabelNow, _win32_TreeView_EndEditLabelNow_cpp, commctrl/TreeView_EndEditLabelNow, controls.TreeView_EndEditLabelNow, controls._win32_TreeView_EndEditLabelNow
 ms.topic: macro
-f1_keywords: ["commctrl/TreeView_EndEditLabelNow"]
+f1_keywords: 
+ - "commctrl/TreeView_EndEditLabelNow"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

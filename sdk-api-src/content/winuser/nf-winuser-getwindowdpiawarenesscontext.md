@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWindowDpiAwarenessContext, GetWindowDpiAwarenessContext function [High DPI], hidpi.getwindowdpiawarenesscontext, winuser/GetWindowDpiAwarenessContext
 ms.topic: function
-f1_keywords: ["winuser/GetWindowDpiAwarenessContext"]
+f1_keywords: 
+ - "winuser/GetWindowDpiAwarenessContext"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

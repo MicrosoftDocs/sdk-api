@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRWindowlessControl9 interface [DirectShow],SetVideoPosition method, IVMRWindowlessControl9.SetVideoPosition, IVMRWindowlessControl9::SetVideoPosition, IVMRWindowlessControl9SetVideoPosition, SetVideoPosition, SetVideoPosition method [DirectShow], SetVideoPosition method [DirectShow],IVMRWindowlessControl9 interface, dshow.ivmrwindowlesscontrol9_setvideoposition, vmr9/IVMRWindowlessControl9::SetVideoPosition
 ms.topic: method
-f1_keywords: ["vmr9/IVMRWindowlessControl9.SetVideoPosition"]
+f1_keywords: 
+ - "vmr9/IVMRWindowlessControl9.SetVideoPosition"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

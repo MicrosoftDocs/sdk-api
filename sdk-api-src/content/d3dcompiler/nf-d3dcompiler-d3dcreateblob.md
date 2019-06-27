@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3DCreateBlob, D3DCreateBlob function [HLSL], d3dcompiler/D3DCreateBlob, direct3dhlsl.d3dcreateblob
 ms.topic: function
-f1_keywords: ["d3dcompiler/D3DCreateBlob"]
+f1_keywords: 
+ - "d3dcompiler/D3DCreateBlob"
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

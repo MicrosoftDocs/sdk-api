@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID_PARAMETERS, ID_PARAMETERS structure [Windows Sync], winsync.id_parameters, winsync/ID_PARAMETERS
 ms.topic: struct
-f1_keywords: ["winsync/ID_PARAMETERS"]
+f1_keywords: 
+ - "winsync/ID_PARAMETERS"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

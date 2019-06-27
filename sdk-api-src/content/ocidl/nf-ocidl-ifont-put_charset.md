@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],put_Charset method, IFont.put_Charset, IFont::put_Charset, _ctrl_ifont_put_charset, com.ifont_put_charset, ocidl/IFont::put_Charset, put_Charset, put_Charset method [COM], put_Charset method [COM],IFont interface
 ms.topic: method
-f1_keywords: ["ocidl/IFont.put_Charset"]
+f1_keywords: 
+ - "ocidl/IFont.put_Charset"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

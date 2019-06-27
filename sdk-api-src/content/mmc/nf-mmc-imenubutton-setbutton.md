@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMenuButton interface [MMC],SetButton method, IMenuButton.SetButton, IMenuButton::SetButton, SetButton, SetButton method [MMC], SetButton method [MMC],IMenuButton interface, _slate_imenubutton_setbutton, mmc.imenubutton_setbutton, mmc/IMenuButton::SetButton
 ms.topic: method
-f1_keywords: ["mmc/IMenuButton.SetButton"]
+f1_keywords: 
+ - "mmc/IMenuButton.SetButton"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DIB_PAL_COLORS, DIB_RGB_COLORS, SetDIBitsToDevice, SetDIBitsToDevice function [Windows GDI], _win32_SetDIBitsToDevice, gdi.setdibitstodevice, wingdi/SetDIBitsToDevice
 ms.topic: function
-f1_keywords: ["wingdi/SetDIBitsToDevice"]
+f1_keywords: 
+ - "wingdi/SetDIBitsToDevice"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IIdleTrigger, IIdleTrigger interface [Task Scheduler], IIdleTrigger interface [Task Scheduler],described, idle trigger [Task Scheduler],interface, taskschd.iidletrigger, taskschd/IIdleTrigger
 ms.topic: interface
-f1_keywords: ["taskschd/IIdleTrigger"]
+f1_keywords: 
+ - "taskschd/IIdleTrigger"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

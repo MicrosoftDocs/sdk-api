@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpCApiCleanup, DhcpCApiCleanup function [DHCP], _dhcp_dhcpcapicleanup, dhcp.dhcpcapicleanup, dhcpcsdk/DhcpCApiCleanup
 ms.topic: function
-f1_keywords: ["dhcpcsdk/DhcpCApiCleanup"]
+f1_keywords: 
+ - "dhcpcsdk/DhcpCApiCleanup"
 req.header: dhcpcsdk.h
 req.include-header: 
 req.target-type: Windows

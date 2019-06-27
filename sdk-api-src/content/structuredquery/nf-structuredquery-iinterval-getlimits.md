@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLimits, GetLimits method [search], GetLimits method [search],IInterval interface, IInterval interface [search],GetLimits method, IInterval.GetLimits, IInterval::GetLimits, _search_IInterval_GetLimits, search._search_IInterval_GetLimits, structuredquery/IInterval::GetLimits
 ms.topic: method
-f1_keywords: ["structuredquery/IInterval.GetLimits"]
+f1_keywords: 
+ - "structuredquery/IInterval.GetLimits"
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

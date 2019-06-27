@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeviceServiceID property [Microsoft Broadband Networks], DeviceServiceID property [Microsoft Broadband Networks],IMbnDeviceService interface, IMbnDeviceService interface [Microsoft Broadband Networks],DeviceServiceID property, IMbnDeviceService.DeviceServiceID, IMbnDeviceService.get_DeviceServiceID, IMbnDeviceService::DeviceServiceID, IMbnDeviceService::get_DeviceServiceID, get_DeviceServiceID, mbn.imbndeviceservice_deviceserviceid, mbnapi/IMbnDeviceService::DeviceServiceID, mbnapi/IMbnDeviceService::get_DeviceServiceID
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnDeviceService.DeviceServiceID"]
+f1_keywords: 
+ - "mbnapi/IMbnDeviceService.DeviceServiceID"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

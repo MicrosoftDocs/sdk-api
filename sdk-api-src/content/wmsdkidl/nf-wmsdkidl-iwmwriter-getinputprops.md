@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInputProps, GetInputProps method [windows Media Format], GetInputProps method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],GetInputProps method, IWMWriter.GetInputProps, IWMWriter::GetInputProps, IWMWriterGetInputProps, wmformat.iwmwriter_getinputprops, wmsdkidl/IWMWriter::GetInputProps
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriter.GetInputProps"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriter.GetInputProps"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

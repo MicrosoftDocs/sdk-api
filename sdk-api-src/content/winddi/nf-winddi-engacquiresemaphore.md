@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngAcquireSemaphore, EngAcquireSemaphore function [Display Devices], display.engacquiresemaphore, gdifncs_eae93ab5-f0f0-4d4e-a857-50ec8698527b.xml, winddi/EngAcquireSemaphore
 ms.topic: function
-f1_keywords: ["winddi/EngAcquireSemaphore"]
+f1_keywords: 
+ - "winddi/EngAcquireSemaphore"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

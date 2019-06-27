@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTouchInputInfo, GetTouchInputInfo function [Windows Touch], wintouch.gettouchinputinfo, winuser/GetTouchInputInfo
 ms.topic: function
-f1_keywords: ["winuser/GetTouchInputInfo"]
+f1_keywords: 
+ - "winuser/GetTouchInputInfo"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

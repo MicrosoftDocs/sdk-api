@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetChangeState, GetChangeState method [Microsoft TV Technologies], GetChangeState method [Microsoft TV Technologies],IBDA_DeviceControl interface, IBDA_DeviceControl interface [Microsoft TV Technologies],GetChangeState method, IBDA_DeviceControl.GetChangeState, IBDA_DeviceControl::GetChangeState, IBDA_DeviceControlGetChangeState, bdaiface/IBDA_DeviceControl::GetChangeState, mstv.ibda_devicecontrol_getchangestate
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_DeviceControl.GetChangeState"]
+f1_keywords: 
+ - "bdaiface/IBDA_DeviceControl.GetChangeState"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

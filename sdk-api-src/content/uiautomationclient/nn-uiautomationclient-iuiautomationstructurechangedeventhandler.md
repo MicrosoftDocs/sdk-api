@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationStructureChangedEventHandler, IUIAutomationStructureChangedEventHandler interface [Windows Accessibility], IUIAutomationStructureChangedEventHandler interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationStructureChangedEventHandler, uiauto_IUIAutomationStructureChangedEventHandler, uiautomationclient/IUIAutomationStructureChangedEventHandler, winauto.uiauto_IUIAutomationStructureChangedEventHandler
 ms.topic: interface
-f1_keywords: ["uiautomationclient/IUIAutomationStructureChangedEventHandler"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationStructureChangedEventHandler"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

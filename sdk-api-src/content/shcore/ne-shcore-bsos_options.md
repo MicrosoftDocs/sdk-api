@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BSOS_DEFAULT, BSOS_OPTIONS, BSOS_OPTIONS enumeration [Windows Runtime], BSOS_PREFERDESTINATIONSTREAM, shcore/BSOS_DEFAULT, shcore/BSOS_OPTIONS, shcore/BSOS_PREFERDESTINATIONSTREAM, winrt.bsos_options
 ms.topic: enum
-f1_keywords: ["shcore/BSOS_OPTIONS"]
+f1_keywords: 
+ - "shcore/BSOS_OPTIONS"
 req.header: shcore.h
 req.include-header: 
 req.target-type: Windows

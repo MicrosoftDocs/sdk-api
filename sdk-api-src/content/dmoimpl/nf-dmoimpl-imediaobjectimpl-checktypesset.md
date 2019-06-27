@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckTypesSet, CheckTypesSet method [DirectShow], CheckTypesSet method [DirectShow],IMediaObjectImpl interface, IMediaObjectImpl interface [DirectShow],CheckTypesSet method, IMediaObjectImpl.CheckTypesSet, IMediaObjectImpl::CheckTypesSet, IMediaObjectImplCheckTypesSet, dmoimpl/IMediaObjectImpl::CheckTypesSet, dshow.imediaobjectimpl_checktypesset
 ms.topic: method
-f1_keywords: ["dmoimpl/IMediaObjectImpl.CheckTypesSet"]
+f1_keywords: 
+ - "dmoimpl/IMediaObjectImpl.CheckTypesSet"
 req.header: dmoimpl.h
 req.include-header: 
 req.target-type: Windows

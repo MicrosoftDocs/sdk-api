@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WIC8BIMIptcDigestIptcDigest, WIC8BIMIptcDigestPString, WIC8BIMIptcDigestProperties, WIC8BIMIptcDigestProperties enumeration [Windows Imaging Component], _wic_codec_wic8bimiptcdigestproperties, wic._wic_codec_wic8bimiptcdigestproperties, wincodec/WIC8BIMIptcDigestIptcDigest, wincodec/WIC8BIMIptcDigestPString, wincodec/WIC8BIMIptcDigestProperties
 ms.topic: enum
-f1_keywords: ["wincodec/WIC8BIMIptcDigestProperties"]
+f1_keywords: 
+ - "wincodec/WIC8BIMIptcDigestProperties"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

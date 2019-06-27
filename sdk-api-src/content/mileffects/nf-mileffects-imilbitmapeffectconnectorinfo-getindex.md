@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIndex, GetIndex method [WPF Bitmap Effects], GetIndex method [WPF Bitmap Effects],IMILBitmapEffectConnectorInfo interface, IMILBitmapEffectConnectorInfo interface [WPF Bitmap Effects],GetIndex method, IMILBitmapEffectConnectorInfo.GetIndex, IMILBitmapEffectConnectorInfo::GetIndex, _wibe_imilbitmapeffectconnectorinfo_getindex, mileffects/IMILBitmapEffectConnectorInfo::GetIndex, wibe._wibe_imilbitmapeffectconnectorinfo_getindex
 ms.topic: method
-f1_keywords: ["mileffects/IMILBitmapEffectConnectorInfo.GetIndex"]
+f1_keywords: 
+ - "mileffects/IMILBitmapEffectConnectorInfo.GetIndex"
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

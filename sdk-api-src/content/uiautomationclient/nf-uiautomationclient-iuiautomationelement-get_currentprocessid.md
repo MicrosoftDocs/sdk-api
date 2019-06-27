@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentProcessId property [Windows Accessibility], CurrentProcessId property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentProcessId property, IUIAutomationElement.CurrentProcessId, IUIAutomationElement.get_CurrentProcessId, IUIAutomationElement::CurrentProcessId, IUIAutomationElement::get_CurrentProcessId, get_CurrentProcessId, uiauto.uiauto_IUIAutomationElement_CurrentProcessId, uiauto_IUIAutomationElement_CurrentProcessId, uiautomationclient/IUIAutomationElement::CurrentProcessId, uiautomationclient/IUIAutomationElement::get_CurrentProcessId, winauto.uiauto_IUIAutomationElement_CurrentProcessId
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationElement.CurrentProcessId"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement.CurrentProcessId"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

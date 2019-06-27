@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMathInputControl interface [Tablet PC],LoadInk method, IMathInputControl.LoadInk, IMathInputControl::LoadInk, LoadInk, LoadInk method [Tablet PC], LoadInk method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::LoadInk, tablet.imathinputcontrol_loadink
 ms.topic: method
-f1_keywords: ["micaut/IMathInputControl.LoadInk"]
+f1_keywords: 
+ - "micaut/IMathInputControl.LoadInk"
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows

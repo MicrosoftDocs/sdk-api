@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc interface [Fax Service],SenderAddress property, IFaxDoc.SenderAddress, IFaxDoc.put_SenderAddress, IFaxDoc::SenderAddress, IFaxDoc::get_SenderAddress, IFaxDoc::put_SenderAddress, SenderAddress property [Fax Service], SenderAddress property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_senderaddress, fax._mfax_ifaxdoc_get_senderaddress, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_senderaddress_cpp, faxcom/IFaxDoc::SenderAddress, faxcom/IFaxDoc::get_SenderAddress, faxcom/IFaxDoc::put_SenderAddress, put_SenderAddress
 ms.topic: method
-f1_keywords: ["faxcom/IFaxDoc.SenderAddress"]
+f1_keywords: 
+ - "faxcom/IFaxDoc.SenderAddress"
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

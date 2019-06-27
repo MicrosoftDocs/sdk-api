@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FCACHE_RICHCREATE_CALLBACK, FCACHE_RICHCREATE_CALLBACK callback, FCACHE_RICHCREATE_CALLBACK callback function [Windows API], filehc/FCACHE_RICHCREATE_CALLBACK, winprog.fcache_richcreate_callback
 ms.topic: callback
-f1_keywords: ["filehc/FCACHE_RICHCREATE_CALLBACK"]
+f1_keywords: 
+ - "filehc/FCACHE_RICHCREATE_CALLBACK"
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

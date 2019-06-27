@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumContextProps interface [COM],Reset method, IEnumContextProps.Reset, IEnumContextProps::Reset, Reset, Reset method [COM], Reset method [COM],IEnumContextProps interface, _com_ienumcontextprops_reset, com.ienumcontextprops_reset, objidlbase/IEnumContextProps::Reset
 ms.topic: method
-f1_keywords: ["objidlbase/IEnumContextProps.Reset"]
+f1_keywords: 
+ - "objidlbase/IEnumContextProps.Reset"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

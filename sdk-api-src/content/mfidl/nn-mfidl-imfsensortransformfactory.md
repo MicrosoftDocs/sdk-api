@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSensorTransformFactory, IMFSensorTransformFactory interface [Media Foundation], IMFSensorTransformFactory interface [Media Foundation],described, mf.imfsensortransformfactory, mfidl/IMFSensorTransformFactory
 ms.topic: interface
-f1_keywords: ["mfidl/IMFSensorTransformFactory"]
+f1_keywords: 
+ - "mfidl/IMFSensorTransformFactory"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

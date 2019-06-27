@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SCardControl, SCardControl function [Security], _smart_scardcontrol, security.scardcontrol, winscard/SCardControl
 ms.topic: function
-f1_keywords: ["winscard/SCardControl"]
+f1_keywords: 
+ - "winscard/SCardControl"
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

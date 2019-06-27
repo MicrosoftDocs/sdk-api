@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AbortRecordVariants, AbortRecordVariants method [COM+], AbortRecordVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],AbortRecordVariants method, ICrmCompensatorVariants.AbortRecordVariants, ICrmCompensatorVariants::AbortRecordVariants, _dtc_ICrmCompensatorVariants_AbortRecordVariants, comsvcs/ICrmCompensatorVariants::AbortRecordVariants, cos.icrmcompensatorvariants_abortrecordvariants
 ms.topic: method
-f1_keywords: ["comsvcs/ICrmCompensatorVariants.AbortRecordVariants"]
+f1_keywords: 
+ - "comsvcs/ICrmCompensatorVariants.AbortRecordVariants"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

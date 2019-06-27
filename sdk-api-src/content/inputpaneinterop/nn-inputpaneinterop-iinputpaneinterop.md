@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInputPaneInterop, IInputPaneInterop interface [Windows Runtime], IInputPaneInterop interface [Windows Runtime],described, inputpaneinterop/IInputPaneInterop, winrt.iinputpaneinterop
 ms.topic: interface
-f1_keywords: ["inputpaneinterop/IInputPaneInterop"]
+f1_keywords: 
+ - "inputpaneinterop/IInputPaneInterop"
 req.header: inputpaneinterop.h
 req.include-header: 
 req.target-type: Windows

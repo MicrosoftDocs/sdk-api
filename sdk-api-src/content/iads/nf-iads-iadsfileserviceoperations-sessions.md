@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsFileServiceOperations interface [ADSI],Sessions method, IADsFileServiceOperations.Sessions, IADsFileServiceOperations::Sessions, Sessions, Sessions method [ADSI], Sessions method [ADSI],IADsFileServiceOperations interface, _ds_iadsfileserviceoperations_sessions, adsi.iadsfileserviceoperations__sessions, adsi.iadsfileserviceoperations_sessions, iads/IADsFileServiceOperations::Sessions
 ms.topic: method
-f1_keywords: ["iads/IADsFileServiceOperations.Sessions"]
+f1_keywords: 
+ - "iads/IADsFileServiceOperations.Sessions"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

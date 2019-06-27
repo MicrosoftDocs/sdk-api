@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRootItemId, GetRootItemId method [Windows Sync], GetRootItemId method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetRootItemId method, ISyncChange.GetRootItemId, ISyncChange::GetRootItemId, winsync.isyncchange_getrootitemid, winsync/ISyncChange::GetRootItemId
 ms.topic: method
-f1_keywords: ["winsync/ISyncChange.GetRootItemId"]
+f1_keywords: 
+ - "winsync/ISyncChange.GetRootItemId"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

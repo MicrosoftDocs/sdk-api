@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPMIDIOPENDESC, MIDIOPENDESC, MIDIOPENDESC structure [Audio Devices], aud-prop_47abc723-0254-493a-9bc0-ac9faa73a2e8.xml, audio.midiopendesc, mmddk/MIDIOPENDESC"
 ms.topic: struct
-f1_keywords: ["mmddk/MIDIOPENDESC"]
+f1_keywords: 
+ - "mmddk/MIDIOPENDESC"
 req.header: mmddk.h
 req.include-header: Mmddk.h, Mmsystem.h, Windows.h
 req.target-type: Windows

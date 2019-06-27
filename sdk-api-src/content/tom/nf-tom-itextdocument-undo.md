@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextDocument interface [Windows Controls],Undo method, ITextDocument.Undo, ITextDocument::Undo, Undo, Undo method [Windows Controls], Undo method [Windows Controls],ITextDocument interface, _win32_ITextDocument_Undo, _win32_ITextDocument_Undo_cpp, controls.ITextDocument_Undo, controls._win32_ITextDocument_Undo, tom/ITextDocument::Undo
 ms.topic: method
-f1_keywords: ["tom/ITextDocument.Undo"]
+f1_keywords: 
+ - "tom/ITextDocument.Undo"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

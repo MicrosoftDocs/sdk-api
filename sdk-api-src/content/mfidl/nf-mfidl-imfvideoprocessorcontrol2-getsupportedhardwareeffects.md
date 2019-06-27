@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSupportedHardwareEffects, GetSupportedHardwareEffects method [Media Foundation], GetSupportedHardwareEffects method [Media Foundation],IMFVideoProcessorControl2 interface, IMFVideoProcessorControl2 interface [Media Foundation],GetSupportedHardwareEffects method, IMFVideoProcessorControl2.GetSupportedHardwareEffects, IMFVideoProcessorControl2::GetSupportedHardwareEffects, mf.imfvideoprocessorcontrol2_getsupportedhardwareeffects, mfidl/IMFVideoProcessorControl2::GetSupportedHardwareEffects
 ms.topic: method
-f1_keywords: ["mfidl/IMFVideoProcessorControl2.GetSupportedHardwareEffects"]
+f1_keywords: 
+ - "mfidl/IMFVideoProcessorControl2.GetSupportedHardwareEffects"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

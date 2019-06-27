@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GamutBoundaryDescription, GamutBoundaryDescription structure [Windows Color System], _color_GamutBoundaryDescription_str, wcs.gamutboundarydescription, wcsplugin/GamutBoundaryDescription
 ms.topic: struct
-f1_keywords: ["wcsplugin/GamutBoundaryDescription"]
+f1_keywords: 
+ - "wcsplugin/GamutBoundaryDescription"
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

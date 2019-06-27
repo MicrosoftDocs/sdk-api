@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSyncCallback interface [Windows Shell],ReportEvent method, ISyncMgrSyncCallback.ReportEvent, ISyncMgrSyncCallback::ReportEvent, ReportEvent, ReportEvent method [Windows Shell], ReportEvent method [Windows Shell],ISyncMgrSyncCallback interface, _shell_ISyncMgrSyncCallback_ReportEvent, shell.ISyncMgrSyncCallback_ReportEvent, syncmgr/ISyncMgrSyncCallback::ReportEvent
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrSyncCallback.ReportEvent"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrSyncCallback.ReportEvent"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

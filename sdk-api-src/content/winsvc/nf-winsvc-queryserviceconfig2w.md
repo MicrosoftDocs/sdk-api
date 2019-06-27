@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QueryServiceConfig2, QueryServiceConfig2 function, QueryServiceConfig2A, QueryServiceConfig2W, SERVICE_CONFIG_DELAYED_AUTO_START_INFO, SERVICE_CONFIG_DESCRIPTION, SERVICE_CONFIG_FAILURE_ACTIONS, SERVICE_CONFIG_FAILURE_ACTIONS_FLAG, SERVICE_CONFIG_LAUNCH_PROTECTED, SERVICE_CONFIG_PREFERRED_NODE, SERVICE_CONFIG_PRESHUTDOWN_INFO, SERVICE_CONFIG_REQUIRED_PRIVILEGES_INFO, SERVICE_CONFIG_SERVICE_SID_INFO, SERVICE_CONFIG_TRIGGER_INFO, _win32_queryserviceconfig2, base.queryserviceconfig2, winsvc/QueryServiceConfig2, winsvc/QueryServiceConfig2A, winsvc/QueryServiceConfig2W
 ms.topic: function
-f1_keywords: ["winsvc/QueryServiceConfig2"]
+f1_keywords: 
+ - "winsvc/QueryServiceConfig2"
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

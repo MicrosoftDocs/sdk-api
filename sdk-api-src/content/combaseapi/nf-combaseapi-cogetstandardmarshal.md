@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoGetStandardMarshal, CoGetStandardMarshal function [COM], _com_CoGetStandardMarshal, com.cogetstandardmarshal, combaseapi/CoGetStandardMarshal
 ms.topic: function
-f1_keywords: ["combaseapi/CoGetStandardMarshal"]
+f1_keywords: 
+ - "combaseapi/CoGetStandardMarshal"
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

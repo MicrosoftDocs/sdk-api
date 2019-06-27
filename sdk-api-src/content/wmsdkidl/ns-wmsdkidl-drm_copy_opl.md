@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRM_COPY_OPL, DRM_COPY_OPL structure [windows Media Format], structure [windows Media Format], wmformat.drm_copy_opl, wmsdkidl/DRM_COPY_OPL
 ms.topic: struct
-f1_keywords: ["wmsdkidl/DRM_COPY_OPL"]
+f1_keywords: 
+ - "wmsdkidl/DRM_COPY_OPL"
 req.header: wmsdkidl.h
 req.include-header: Drmexternals.h
 req.target-type: Windows

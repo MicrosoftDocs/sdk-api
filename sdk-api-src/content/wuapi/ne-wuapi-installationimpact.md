@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InstallationImpact, InstallationImpact enumeration [Windows Update Agent], iiMinor, iiNormal, iiRequiresExclusiveHandling, wua.installationimpact, wuapi/InstallationImpact, wuapi/iiMinor, wuapi/iiNormal, wuapi/iiRequiresExclusiveHandling
 ms.topic: enum
-f1_keywords: ["wuapi/InstallationImpact"]
+f1_keywords: 
+ - "wuapi/InstallationImpact"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

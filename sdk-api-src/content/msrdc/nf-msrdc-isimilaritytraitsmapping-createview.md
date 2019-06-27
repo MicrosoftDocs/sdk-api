@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateView, CreateView method [Remote Differential Compression], CreateView method [Remote Differential Compression],ISimilarityTraitsMapping interface, ISimilarityTraitsMapping interface [Remote Differential Compression],CreateView method, ISimilarityTraitsMapping.CreateView, ISimilarityTraitsMapping::CreateView, fs.isimilaritytraitsmapping_createview, msrdc/ISimilarityTraitsMapping::CreateView, rdc.isimilaritytraitsmapping_createview
 ms.topic: method
-f1_keywords: ["msrdc/ISimilarityTraitsMapping.CreateView"]
+f1_keywords: 
+ - "msrdc/ISimilarityTraitsMapping.CreateView"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

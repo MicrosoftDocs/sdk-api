@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddCodecInfo, AddCodecInfo method [windows Media Format], AddCodecInfo method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo3 interface [windows Media Format],AddCodecInfo method, IWMHeaderInfo3.AddCodecInfo, IWMHeaderInfo3::AddCodecInfo, IWMHeaderInfo3AddCodecInfo, wmformat.iwmheaderinfo3_addcodecinfo, wmsdkidl/IWMHeaderInfo3::AddCodecInfo
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMHeaderInfo3.AddCodecInfo"]
+f1_keywords: 
+ - "wmsdkidl/IWMHeaderInfo3.AddCodecInfo"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

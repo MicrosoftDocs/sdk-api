@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Server_GetVersion, MI_Server_GetVersion callback, MI_Server_GetVersion callback function [Windows Management Infrastructure (MI)], mi/MI_Server_GetVersion, wmi_v2.mi_server_getversion
 ms.topic: function
-f1_keywords: ["mi/MI_Server_GetVersion"]
+f1_keywords: 
+ - "mi/MI_Server_GetVersion"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

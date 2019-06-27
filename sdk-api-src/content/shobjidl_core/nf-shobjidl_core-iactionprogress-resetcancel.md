@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IActionProgress interface [Windows Shell],ResetCancel method, IActionProgress.ResetCancel, IActionProgress::ResetCancel, ResetCancel, ResetCancel method [Windows Shell], ResetCancel method [Windows Shell],IActionProgress interface, shell.IActionProgress_ResetCancel, shell_IActionProgress_ResetCancel, shobjidl_core/IActionProgress::ResetCancel
 ms.topic: method
-f1_keywords: ["shobjidl_core/IActionProgress.ResetCancel"]
+f1_keywords: 
+ - "shobjidl_core/IActionProgress.ResetCancel"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

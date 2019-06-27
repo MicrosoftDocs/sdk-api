@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_State method, ITAgentSession.get_State, ITAgentSession::get_State, _tapi3_itagentsession_get_state, get_State, get_State method [TAPI 2.2], get_State method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_state, tapi3cc/ITAgentSession::get_State
 ms.topic: method
-f1_keywords: ["tapi3cc/ITAgentSession.get_State"]
+f1_keywords: 
+ - "tapi3cc/ITAgentSession.get_State"
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

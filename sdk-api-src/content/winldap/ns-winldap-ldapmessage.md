@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLDAPMessage, LDAPMessage, LDAPMessage structure [LDAP], PLDAPMessage, PLDAPMessage structure pointer [LDAP], _ldap_ldapmessage, ldap.ldapmessage, winldap/LDAPMessage, winldap/PLDAPMessage"
 ms.topic: struct
-f1_keywords: ["winldap/LDAPMessage"]
+f1_keywords: 
+ - "winldap/LDAPMessage"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerUrl interface [Security],RemoveFromRegistry method, IX509PolicyServerUrl.RemoveFromRegistry, IX509PolicyServerUrl::RemoveFromRegistry, RemoveFromRegistry, RemoveFromRegistry method [Security], RemoveFromRegistry method [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::RemoveFromRegistry, security.ix509policyserverurl_removefromregistry
 ms.topic: method
-f1_keywords: ["certenroll/IX509PolicyServerUrl.RemoveFromRegistry"]
+f1_keywords: 
+ - "certenroll/IX509PolicyServerUrl.RemoveFromRegistry"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

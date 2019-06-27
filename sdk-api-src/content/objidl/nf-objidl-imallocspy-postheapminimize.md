@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMallocSpy interface [COM],PostHeapMinimize method, IMallocSpy.PostHeapMinimize, IMallocSpy::PostHeapMinimize, PostHeapMinimize, PostHeapMinimize method [COM], PostHeapMinimize method [COM],IMallocSpy interface, _com_imallocspy_postheapminimize, com.imallocspy_postheapminimize, objidl/IMallocSpy::PostHeapMinimize
 ms.topic: method
-f1_keywords: ["objidl/IMallocSpy.PostHeapMinimize"]
+f1_keywords: 
+ - "objidl/IMallocSpy.PostHeapMinimize"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetOffsetX method, IDCompositionVisual.SetOffsetX, IDCompositionVisual.SetOffsetX(float), IDCompositionVisual::SetOffsetX, IDCompositionVisual::SetOffsetX(float), SetOffsetX, SetOffsetX method [DirectComposition], SetOffsetX method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetOffsetX, directcomp.idcompositionvisual_setoffsetx_float
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionVisual.SetOffsetX"]
+f1_keywords: 
+ - "dcomp/IDCompositionVisual.SetOffsetX"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

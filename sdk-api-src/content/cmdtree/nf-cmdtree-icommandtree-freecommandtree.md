@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeCommandTree, FreeCommandTree method [Indexing Service], FreeCommandTree method [Indexing Service],ICommandTree interface, ICommandTree interface [Indexing Service],FreeCommandTree method, ICommandTree.FreeCommandTree, ICommandTree::FreeCommandTree, _idxs_ICommandTree_FreeCommandTree, cmdtree/ICommandTree::FreeCommandTree, indexsrv.icommandtree_freecommandtree
 ms.topic: method
-f1_keywords: ["cmdtree/ICommandTree.FreeCommandTree"]
+f1_keywords: 
+ - "cmdtree/ICommandTree.FreeCommandTree"
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

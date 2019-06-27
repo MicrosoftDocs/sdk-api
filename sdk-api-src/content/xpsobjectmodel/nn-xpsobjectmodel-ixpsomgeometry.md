@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometry, IXpsOMGeometry interface [XPS Documents and Packaging], IXpsOMGeometry interface [XPS Documents and Packaging],described, xps.ixpsomgeometry, xpsobjectmodel/IXpsOMGeometry
 ms.topic: interface
-f1_keywords: ["xpsobjectmodel/IXpsOMGeometry"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGeometry"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

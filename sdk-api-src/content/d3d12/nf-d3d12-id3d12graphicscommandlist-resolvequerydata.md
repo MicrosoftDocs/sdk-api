@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,ResolveQueryData method, ID3D12GraphicsCommandList.ResolveQueryData, ID3D12GraphicsCommandList::ResolveQueryData, ResolveQueryData, ResolveQueryData method, ResolveQueryData method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::ResolveQueryData, direct3d12.id3d12graphicscommandlist_resolvequerydata
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12GraphicsCommandList.ResolveQueryData"]
+f1_keywords: 
+ - "d3d12/ID3D12GraphicsCommandList.ResolveQueryData"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

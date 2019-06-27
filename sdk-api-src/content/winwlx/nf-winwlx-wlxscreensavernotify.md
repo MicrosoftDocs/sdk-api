@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlxScreenSaverNotify, WlxScreenSaverNotify function [Security], _gina_wlxscreensavernotify, security.wlxscreensavernotify, winwlx/WlxScreenSaverNotify
 ms.topic: function
-f1_keywords: ["winwlx/WlxScreenSaverNotify"]
+f1_keywords: 
+ - "winwlx/WlxScreenSaverNotify"
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

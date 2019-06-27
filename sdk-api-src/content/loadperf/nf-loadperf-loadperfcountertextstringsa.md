@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LoadPerfCounterTextStrings, LoadPerfCounterTextStrings function [Perf], LoadPerfCounterTextStringsA, LoadPerfCounterTextStringsW, _win32_loadperfcountertextstrings, base.loadperfcountertextstrings, loadperf/LoadPerfCounterTextStrings, loadperf/LoadPerfCounterTextStringsA, loadperf/LoadPerfCounterTextStringsW, perf.loadperfcountertextstrings
 ms.topic: function
-f1_keywords: ["loadperf/LoadPerfCounterTextStrings"]
+f1_keywords: 
+ - "loadperf/LoadPerfCounterTextStrings"
 req.header: loadperf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProvideTaskPage, IProvideTaskPage interface [Task Scheduler], IProvideTaskPage interface [Task Scheduler],described, _msb_iprovidetaskpage, mstask/IProvideTaskPage, taskschd.iprovidetaskpage
 ms.topic: interface
-f1_keywords: ["mstask/IProvideTaskPage"]
+f1_keywords: 
+ - "mstask/IProvideTaskPage"
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

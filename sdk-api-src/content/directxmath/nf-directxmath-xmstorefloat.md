@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMStoreFloat, XMStoreFloat, XMStoreFloat method [DirectX Math Support APIs], dxmath.xmstorefloat
 ms.topic: function
-f1_keywords: ["directxmath/XMStoreFloat"]
+f1_keywords: 
+ - "directxmath/XMStoreFloat"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

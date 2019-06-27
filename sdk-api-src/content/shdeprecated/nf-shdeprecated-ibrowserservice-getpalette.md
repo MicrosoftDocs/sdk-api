@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPalette, GetPalette method [Windows Shell], GetPalette method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetPalette method, IBrowserService.GetPalette, IBrowserService::GetPalette, shdeprecated/IBrowserService::GetPalette, shell.IBrowserService_GetPalette, zone_IBrowserService_GetPalette
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService.GetPalette"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService.GetPalette"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

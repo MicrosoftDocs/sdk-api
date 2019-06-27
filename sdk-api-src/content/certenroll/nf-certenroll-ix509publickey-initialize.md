@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509PublicKey interface [Security],Initialize method, IX509PublicKey.Initialize, IX509PublicKey::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509PublicKey interface, certenroll/IX509PublicKey::Initialize, security.ix509publickey_initialize_method
 ms.topic: method
-f1_keywords: ["certenroll/IX509PublicKey.Initialize"]
+f1_keywords: 
+ - "certenroll/IX509PublicKey.Initialize"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

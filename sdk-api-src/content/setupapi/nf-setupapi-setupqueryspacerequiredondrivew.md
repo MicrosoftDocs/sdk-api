@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupQuerySpaceRequiredOnDrive, SetupQuerySpaceRequiredOnDrive function [Setup API], SetupQuerySpaceRequiredOnDriveA, SetupQuerySpaceRequiredOnDriveW, _setupapi_setupqueryspacerequiredondrive, setup.setupqueryspacerequiredondrive, setupapi/SetupQuerySpaceRequiredOnDrive, setupapi/SetupQuerySpaceRequiredOnDriveA, setupapi/SetupQuerySpaceRequiredOnDriveW
 ms.topic: function
-f1_keywords: ["setupapi/SetupQuerySpaceRequiredOnDrive"]
+f1_keywords: 
+ - "setupapi/SetupQuerySpaceRequiredOnDrive"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

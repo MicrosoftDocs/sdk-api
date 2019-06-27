@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWRDS_CONNECTION_SETTINGS, PWRDS_CONNECTION_SETTINGS, PWRDS_CONNECTION_SETTINGS structure pointer [Remote Desktop Services], WRDS_CONNECTION_SETTINGS, WRDS_CONNECTION_SETTINGS structure [Remote Desktop Services], WRDS_CONNECTION_SETTING_LEVEL_1, termserv.wrds_connection_settings, wtsdefs/PWRDS_CONNECTION_SETTINGS, wtsdefs/WRDS_CONNECTION_SETTINGS"
 ms.topic: struct
-f1_keywords: ["wtsdefs/WRDS_CONNECTION_SETTINGS"]
+f1_keywords: 
+ - "wtsdefs/WRDS_CONNECTION_SETTINGS"
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

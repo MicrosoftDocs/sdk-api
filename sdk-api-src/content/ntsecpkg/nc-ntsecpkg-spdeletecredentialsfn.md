@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpDeleteCredentials, SpDeleteCredentials callback function [Security], SpDeleteCredentialsFn, SpDeleteCredentialsFn callback, _ssp_spdeletecredentials, ntsecpkg/SpDeleteCredentials, security.spdeletecredentials
 ms.topic: callback
-f1_keywords: ["ntsecpkg/SpDeleteCredentials"]
+f1_keywords: 
+ - "ntsecpkg/SpDeleteCredentials"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

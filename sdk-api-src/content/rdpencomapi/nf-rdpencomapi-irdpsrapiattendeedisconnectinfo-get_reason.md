@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIAttendeeDisconnectInfo interface [RDP],Reason property, IRDPSRAPIAttendeeDisconnectInfo.Reason, IRDPSRAPIAttendeeDisconnectInfo.get_Reason, IRDPSRAPIAttendeeDisconnectInfo::Reason, IRDPSRAPIAttendeeDisconnectInfo::get_Reason, RDPSRAPIAttendeeDisconnectInfo object [RDP],Reason property, Reason property [RDP], Reason property [RDP],IRDPSRAPIAttendeeDisconnectInfo interface, Reason property [RDP],RDPSRAPIAttendeeDisconnectInfo object, get_Reason, rdp.irdpsrapiattendeedisconnectinfo_reason, rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo::Reason, rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo::get_Reason
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo.Reason"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo.Reason"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

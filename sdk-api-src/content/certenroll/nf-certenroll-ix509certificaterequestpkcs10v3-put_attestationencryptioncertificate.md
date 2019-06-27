@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AttestationEncryptionCertificate property [Security], AttestationEncryptionCertificate property [Security],IX509CertificateRequestPkcs10V3 interface, IX509CertificateRequestPkcs10V3 interface [Security],AttestationEncryptionCertificate property, IX509CertificateRequestPkcs10V3.AttestationEncryptionCertificate, IX509CertificateRequestPkcs10V3.put_AttestationEncryptionCertificate, IX509CertificateRequestPkcs10V3::AttestationEncryptionCertificate, IX509CertificateRequestPkcs10V3::get_AttestationEncryptionCertificate, IX509CertificateRequestPkcs10V3::put_AttestationEncryptionCertificate, certenroll/IX509CertificateRequestPkcs10V3::AttestationEncryptionCertificate, certenroll/IX509CertificateRequestPkcs10V3::get_AttestationEncryptionCertificate, certenroll/IX509CertificateRequestPkcs10V3::put_AttestationEncryptionCertificate, put_AttestationEncryptionCertificate, security.ix509certificaterequestpkcs10v3_attestationencryptioncertificate
 ms.topic: method
-f1_keywords: ["certenroll/IX509CertificateRequestPkcs10V3.AttestationEncryptionCertificate"]
+f1_keywords: 
+ - "certenroll/IX509CertificateRequestPkcs10V3.AttestationEncryptionCertificate"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

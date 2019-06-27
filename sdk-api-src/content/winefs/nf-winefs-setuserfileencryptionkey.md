@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetUserFileEncryptionKey, SetUserFileEncryptionKey function [Files], _win32_setuserfileencryptionkey, base.setuserfileencryptionkey, fs.setuserfileencryptionkey, winefs/SetUserFileEncryptionKey
 ms.topic: function
-f1_keywords: ["winefs/SetUserFileEncryptionKey"]
+f1_keywords: 
+ - "winefs/SetUserFileEncryptionKey"
 req.header: winefs.h
 req.include-header: Windows.h
 req.target-type: Windows

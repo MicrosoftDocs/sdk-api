@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],SubmitDecoderBuffers method, ID3D11VideoContext.SubmitDecoderBuffers, ID3D11VideoContext::SubmitDecoderBuffers, SubmitDecoderBuffers, SubmitDecoderBuffers method [Media Foundation], SubmitDecoderBuffers method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::SubmitDecoderBuffers, mf.id3d11videocontext_submitdecoderbuffers
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11VideoContext.SubmitDecoderBuffers"]
+f1_keywords: 
+ - "d3d11/ID3D11VideoContext.SubmitDecoderBuffers"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

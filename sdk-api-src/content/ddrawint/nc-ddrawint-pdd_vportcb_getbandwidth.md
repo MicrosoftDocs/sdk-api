@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdVideoPortGetBandwidth, DdVideoPortGetBandwidth callback function [Display Devices], PDD_VPORTCB_GETBANDWIDTH, PDD_VPORTCB_GETBANDWIDTH callback, ddfncs_e47d95f4-8b95-4344-a1d0-f036007ac802.xml, ddrawint/DdVideoPortGetBandwidth, display.ddvideoportgetbandwidth
 ms.topic: callback
-f1_keywords: ["ddrawint/DdVideoPortGetBandwidth"]
+f1_keywords: 
+ - "ddrawint/DdVideoPortGetBandwidth"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumDirectoryObject interface, IEnumDirectoryObject interface [TAPI 2.2],Clone method, IEnumDirectoryObject.Clone, IEnumDirectoryObject::Clone, _tapi3_ienumdirectoryobject_clone, rend/IEnumDirectoryObject::Clone, tapi3.ienumdirectoryobject_clone
 ms.topic: method
-f1_keywords: ["rend/IEnumDirectoryObject.Clone"]
+f1_keywords: 
+ - "rend/IEnumDirectoryObject.Clone"
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

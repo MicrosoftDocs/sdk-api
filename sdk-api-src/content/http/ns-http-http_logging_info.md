@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHTTP_LOGGING_INFO, *PHTTP_LOGGING_INFO structure [HTTP], HTTP_LOGGING_FLAG_LOCAL_TIME_ROLLOVER, HTTP_LOGGING_FLAG_LOG_ERRORS_ONLY, HTTP_LOGGING_FLAG_LOG_SUCCESS_ONLY, HTTP_LOGGING_FLAG_USE_UTF8_CONVERSION, HTTP_LOGGING_INFO, HTTP_LOGGING_INFO structure [HTTP], HttpLoggingRolloverDaily, HttpLoggingRolloverHourly, HttpLoggingRolloverMonthly, HttpLoggingRolloverSize, HttpLoggingRolloverWeekly, HttpLoggingTypeIIS, HttpLoggingTypeNCSA, HttpLoggingTypeRaw, HttpLoggingTypeW3C, http.http_logging_info, http/*PHTTP_LOGGING_INFO, http/HTTP_LOGGING_INFO"
 ms.topic: struct
-f1_keywords: ["http/HTTP_LOGGING_INFO"]
+f1_keywords: 
+ - "http/HTTP_LOGGING_INFO"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

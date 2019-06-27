@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPIMESTRUCT, *NPIMESTRUCT, *PIMESTRUCT, IMESTRUCT, IMESTRUCT structure [Windows API], IME_ENTERWORDREGISTERMODE, IME_GETCONVERSIONMODE, IME_GET_MODE, IME_MOVECONVERTWINDOW, IME_SETCONVERSIONFONTEX, IME_SETCONVERSIONMODE, IME_SETCONVERSIONWINDOW, IME_SETLEVEL, IME_SETOPEN, IME_SET_MODEK, PIMESTRUCT, PIMESTRUCT structure pointer [Windows API], _win32_IMESTRUCT, ime/IMESTRUCT, ime/PIMESTRUCT, tagIMESTRUCT, winprog._win32_imestruct, winui._win32_imestruct"
 ms.topic: struct
-f1_keywords: ["ime/IMESTRUCT"]
+f1_keywords: 
+ - "ime/IMESTRUCT"
 req.header: ime.h
 req.include-header: 
 req.target-type: Windows

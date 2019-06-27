@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptUpdateProtectedState, CryptUpdateProtectedState function [Security], dpapi/CryptUpdateProtectedState, security.cryptupdateprotectedstate, wincrypt/CryptUpdateProtectedState
 ms.topic: function
-f1_keywords: ["dpapi/CryptUpdateProtectedState"]
+f1_keywords: 
+ - "dpapi/CryptUpdateProtectedState"
 req.header: dpapi.h
 req.include-header: 
 req.target-type: Windows

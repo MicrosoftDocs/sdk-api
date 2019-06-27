@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRedirectionCapabilities, GetRedirectionCapabilities method [Windows Shell], GetRedirectionCapabilities method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetRedirectionCapabilities method, IKnownFolder.GetRedirectionCapabilities, IKnownFolder::GetRedirectionCapabilities, _shell_IKnownFolder_GetRedirectionCapabilities, shell.IKnownFolder_GetRedirectionCapabilities, shobjidl_core/IKnownFolder::GetRedirectionCapabilities
 ms.topic: method
-f1_keywords: ["shobjidl_core/IKnownFolder.GetRedirectionCapabilities"]
+f1_keywords: 
+ - "shobjidl_core/IKnownFolder.GetRedirectionCapabilities"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

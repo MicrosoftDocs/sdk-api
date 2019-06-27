@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetVideoSourceRect method, IMFPMediaPlayer.SetVideoSourceRect, IMFPMediaPlayer::SetVideoSourceRect, SetVideoSourceRect, SetVideoSourceRect method [Media Foundation], SetVideoSourceRect method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setvideosourcerect, mfplay/IMFPMediaPlayer::SetVideoSourceRect
 ms.topic: method
-f1_keywords: ["mfplay/IMFPMediaPlayer.SetVideoSourceRect"]
+f1_keywords: 
+ - "mfplay/IMFPMediaPlayer.SetVideoSourceRect"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

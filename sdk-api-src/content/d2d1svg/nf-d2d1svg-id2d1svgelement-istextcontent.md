@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgElement interface [Direct2D],IsTextContent method, ID2D1SvgElement.IsTextContent, ID2D1SvgElement::IsTextContent, IsTextContent, IsTextContent method [Direct2D], IsTextContent method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::IsTextContent, direct2d.id2d1svgelement_istextcontent
 ms.topic: method
-f1_keywords: ["d2d1svg/ID2D1SvgElement.IsTextContent"]
+f1_keywords: 
+ - "d2d1svg/ID2D1SvgElement.IsTextContent"
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

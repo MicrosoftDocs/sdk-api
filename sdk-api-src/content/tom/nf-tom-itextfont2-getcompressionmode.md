@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCompressionMode, GetCompressionMode method [Windows Controls], GetCompressionMode method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetCompressionMode method, ITextFont2.GetCompressionMode, ITextFont2::GetCompressionMode, controls.itextfont2_getcompressionmode, tom/ITextFont2::GetCompressionMode, tomCompressNone (default), tomCompressPunctuation, tomCompressPunctuationAndKana
 ms.topic: method
-f1_keywords: ["tom/ITextFont2.GetCompressionMode"]
+f1_keywords: 
+ - "tom/ITextFont2.GetCompressionMode"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

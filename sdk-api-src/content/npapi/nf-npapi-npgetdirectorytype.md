@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NPGetDirectoryType, NPGetDirectoryType function [Security], _mnp_npgetdirectorytype, npapi/NPGetDirectoryType, security.npgetdirectorytype
 ms.topic: function
-f1_keywords: ["npapi/NPGetDirectoryType"]
+f1_keywords: 
+ - "npapi/NPGetDirectoryType"
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

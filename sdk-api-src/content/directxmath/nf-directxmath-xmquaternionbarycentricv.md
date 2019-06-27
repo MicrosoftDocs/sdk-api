@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionBaryCentricV, XMQuaternionBaryCentricV, XMQuaternionBaryCentricV method [DirectX Math Support APIs], dxmath.xmquaternionbarycentricv
 ms.topic: function
-f1_keywords: ["directxmath/XMQuaternionBaryCentricV"]
+f1_keywords: 
+ - "directxmath/XMQuaternionBaryCentricV"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

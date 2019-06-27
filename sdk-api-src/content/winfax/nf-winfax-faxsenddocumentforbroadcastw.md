@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxSendDocumentForBroadcast, FaxSendDocumentForBroadcast function [Fax Service], FaxSendDocumentForBroadcastA, FaxSendDocumentForBroadcastW, _mfax_faxsenddocumentforbroadcast, fax._mfax_faxsenddocumentforbroadcast, winfax/FaxSendDocumentForBroadcast, winfax/FaxSendDocumentForBroadcastA, winfax/FaxSendDocumentForBroadcastW
 ms.topic: function
-f1_keywords: ["winfax/FaxSendDocumentForBroadcast"]
+f1_keywords: 
+ - "winfax/FaxSendDocumentForBroadcast"
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

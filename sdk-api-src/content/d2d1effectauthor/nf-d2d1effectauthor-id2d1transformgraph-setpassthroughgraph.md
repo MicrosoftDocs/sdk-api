@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1TransformGraph interface [Direct2D],SetPassthroughGraph method, ID2D1TransformGraph.SetPassthroughGraph, ID2D1TransformGraph::SetPassthroughGraph, SetPassthroughGraph, SetPassthroughGraph method [Direct2D], SetPassthroughGraph method [Direct2D],ID2D1TransformGraph interface, d2d1effectauthor/ID2D1TransformGraph::SetPassthroughGraph, direct2d.id2d1transformgraph_setpassthroughgraph
 ms.topic: method
-f1_keywords: ["d2d1effectauthor/ID2D1TransformGraph.SetPassthroughGraph"]
+f1_keywords: 
+ - "d2d1effectauthor/ID2D1TransformGraph.SetPassthroughGraph"
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

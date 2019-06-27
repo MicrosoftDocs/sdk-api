@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MGM_MFE_STATS_0, MGM_MFE_STATS_1, MgmGetMfeStats, MgmGetMfeStats function [RAS], _mpr_mgmgetmfestats, mgm/MgmGetMfeStats, rras.mgmgetmfestats
 ms.topic: function
-f1_keywords: ["mgm/MgmGetMfeStats"]
+f1_keywords: 
+ - "mgm/MgmGetMfeStats"
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

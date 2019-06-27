@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentOptimizeForVisualContent property [Windows Accessibility], CurrentOptimizeForVisualContent property [Windows Accessibility],IUIAutomationElement2 interface, IUIAutomationElement2 interface [Windows Accessibility],CurrentOptimizeForVisualContent property, IUIAutomationElement2.CurrentOptimizeForVisualContent, IUIAutomationElement2.get_CurrentOptimizeForVisualContent, IUIAutomationElement2::CurrentOptimizeForVisualContent, IUIAutomationElement2::get_CurrentOptimizeForVisualContent, get_CurrentOptimizeForVisualContent, uiautomationclient/IUIAutomationElement2::CurrentOptimizeForVisualContent, uiautomationclient/IUIAutomationElement2::get_CurrentOptimizeForVisualContent, winauto.uiauto_IUIAutomationElement_CurrentOptimizeForVisualContent
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationElement2.CurrentOptimizeForVisualContent"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement2.CurrentOptimizeForVisualContent"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

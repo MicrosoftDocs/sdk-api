@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVariableFromTag, GetVariableFromTag method [Windows Animation], GetVariableFromTag method [Windows Animation],IUIAnimationManager interface, IUIAnimationManager interface [Windows Animation],GetVariableFromTag method, IUIAnimationManager.GetVariableFromTag, IUIAnimationManager::GetVariableFromTag, uianimation.iuianimationmanager_getvariablefromtag, uianimation/IUIAnimationManager::GetVariableFromTag
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationManager.GetVariableFromTag"]
+f1_keywords: 
+ - "uianimation/IUIAnimationManager.GetVariableFromTag"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

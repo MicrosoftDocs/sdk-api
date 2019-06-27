@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRangeEndOffset, GetRangeEndOffset method [Media Foundation], GetRangeEndOffset method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetRangeEndOffset method, IMFHttpDownloadRequest.GetRangeEndOffset, IMFHttpDownloadRequest::GetRangeEndOffset, mf.imfhttpdownloadrequest_getrangeendoffset, mfidl/IMFHttpDownloadRequest::GetRangeEndOffset
 ms.topic: method
-f1_keywords: ["mfidl/IMFHttpDownloadRequest.GetRangeEndOffset"]
+f1_keywords: 
+ - "mfidl/IMFHttpDownloadRequest.GetRangeEndOffset"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

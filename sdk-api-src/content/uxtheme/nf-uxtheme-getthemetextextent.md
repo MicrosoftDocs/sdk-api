@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThemeTextExtent, GetThemeTextExtent function [Windows Controls], controls.GetThemeTextExtent, controls.inet_GetThemeTextExtent, inet_GetThemeTextExtent, inet_GetThemeTextExtent_cpp, uxtheme/GetThemeTextExtent
 ms.topic: function
-f1_keywords: ["uxtheme/GetThemeTextExtent"]
+f1_keywords: 
+ - "uxtheme/GetThemeTextExtent"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

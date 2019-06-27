@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymGetSourceVarFromToken, SymGetSourceVarFromToken function, SymGetSourceVarFromTokenW, base.symgetsourcevarfromtoken, dbghelp/SymGetSourceVarFromToken, dbghelp/SymGetSourceVarFromTokenW
 ms.topic: function
-f1_keywords: ["dbghelp/SymGetSourceVarFromToken"]
+f1_keywords: 
+ - "dbghelp/SymGetSourceVarFromToken"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MappingGetServices, MappingGetServices function [Internationalization for Windows Applications], elscore/MappingGetServices, intl.mappinggetservices
 ms.topic: function
-f1_keywords: ["elscore/MappingGetServices"]
+f1_keywords: 
+ - "elscore/MappingGetServices"
 req.header: elscore.h
 req.include-header: 
 req.target-type: Windows

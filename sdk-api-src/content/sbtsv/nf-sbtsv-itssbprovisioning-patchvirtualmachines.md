@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbProvisioning interface [Remote Desktop Services],PatchVirtualMachines method, ITsSbProvisioning.PatchVirtualMachines, ITsSbProvisioning::PatchVirtualMachines, PatchVirtualMachines, PatchVirtualMachines method [Remote Desktop Services], PatchVirtualMachines method [Remote Desktop Services],ITsSbProvisioning interface, sbtsv/ITsSbProvisioning::PatchVirtualMachines, termserv.itssbprovisioning_patchvirtualmachines
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbProvisioning.PatchVirtualMachines"]
+f1_keywords: 
+ - "sbtsv/ITsSbProvisioning.PatchVirtualMachines"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

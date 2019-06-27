@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UShortToByte, UShortToUInt8, UShortToUInt8 function [Windows Shell], WordToByte, intsafe/UShortToUInt8, shell.UShortToUInt8
 ms.topic: function
-f1_keywords: ["intsafe/UShortToUInt8"]
+f1_keywords: 
+ - "intsafe/UShortToUInt8"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

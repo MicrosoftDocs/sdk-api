@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDecimateVideoImage, IDecimateVideoImage interface [DirectShow], IDecimateVideoImage interface [DirectShow],described, IDecimateVideoImageInterface, dshow.idecimatevideoimage, strmif/IDecimateVideoImage
 ms.topic: interface
-f1_keywords: ["strmif/IDecimateVideoImage"]
+f1_keywords: 
+ - "strmif/IDecimateVideoImage"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

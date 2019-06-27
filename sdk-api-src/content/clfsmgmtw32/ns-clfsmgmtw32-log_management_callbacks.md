@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLOG_MANAGEMENT_CALLBACKS, LOG_MANAGEMENT_CALLBACKS, LOG_MANAGEMENT_CALLBACKS structure [Files], PLOG_MANAGEMENT_CALLBACKS, PLOG_MANAGEMENT_CALLBACKS structure pointer [Files], clfsmgmtw32/LOG_MANAGEMENT_CALLBACKS, clfsmgmtw32/PLOG_MANAGEMENT_CALLBACKS, fs.log_management_callbacks"
 ms.topic: struct
-f1_keywords: ["clfsmgmtw32/LOG_MANAGEMENT_CALLBACKS"]
+f1_keywords: 
+ - "clfsmgmtw32/LOG_MANAGEMENT_CALLBACKS"
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClientDisplay property [Remote Desktop Services], ClientDisplay property [Remote Desktop Services],ITsSbSession interface, ITsSbSession interface [Remote Desktop Services],ClientDisplay property, ITsSbSession.ClientDisplay, ITsSbSession.get_ClientDisplay, ITsSbSession::ClientDisplay, ITsSbSession::get_ClientDisplay, ITsSbSession::put_ClientDisplay, get_ClientDisplay, sbtsv/ITsSbSession::ClientDisplay, sbtsv/ITsSbSession::get_ClientDisplay, sbtsv/ITsSbSession::put_ClientDisplay, termserv.itssbsession_clientdisplay
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbSession.ClientDisplay"]
+f1_keywords: 
+ - "sbtsv/ITsSbSession.ClientDisplay"
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
 req.target-type: Windows

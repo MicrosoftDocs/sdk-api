@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumStoredMessages, GetNumStoredMessages method, GetNumStoredMessages method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetNumStoredMessages method, ID3D12InfoQueue.GetNumStoredMessages, ID3D12InfoQueue::GetNumStoredMessages, d3d12sdklayers/ID3D12InfoQueue::GetNumStoredMessages, direct3d12.id3d12infoqueue_getnumstoredmessages
 ms.topic: method
-f1_keywords: ["d3d12sdklayers/ID3D12InfoQueue.GetNumStoredMessages"]
+f1_keywords: 
+ - "d3d12sdklayers/ID3D12InfoQueue.GetNumStoredMessages"
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTaskFlags, GetTaskFlags method [Task Scheduler], GetTaskFlags method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetTaskFlags method, ITask.GetTaskFlags, ITask::GetTaskFlags, _msb_itask_gettaskflags, mstask/ITask::GetTaskFlags, taskschd.itask_gettaskflags
 ms.topic: method
-f1_keywords: ["mstask/ITask.GetTaskFlags"]
+f1_keywords: 
+ - "mstask/ITask.GetTaskFlags"
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

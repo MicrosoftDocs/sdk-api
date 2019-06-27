@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDServiceProxy interface,SetEventingStatusCallback method, IWSDServiceProxy.SetEventingStatusCallback, IWSDServiceProxy::SetEventingStatusCallback, SetEventingStatusCallback, SetEventingStatusCallback method, SetEventingStatusCallback method,IWSDServiceProxy interface, ncd.iwsdserviceproxy_seteventingstatuscallback, wsdclient/IWSDServiceProxy::SetEventingStatusCallback
 ms.topic: method
-f1_keywords: ["wsdclient/IWSDServiceProxy.SetEventingStatusCallback"]
+f1_keywords: 
+ - "wsdclient/IWSDServiceProxy.SetEventingStatusCallback"
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

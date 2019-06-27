@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsCreatePartitionEx, IVdsCreatePartitionEx interface [VDS], IVdsCreatePartitionEx interface [VDS],described, base.ivdscreatepartitionex, vds/IVdsCreatePartitionEx
 ms.topic: interface
-f1_keywords: ["vds/IVdsCreatePartitionEx"]
+f1_keywords: 
+ - "vds/IVdsCreatePartitionEx"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

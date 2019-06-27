@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteAllStrings, DeleteAllStrings method [MMC], DeleteAllStrings method [MMC],IStringTable interface, IStringTable interface [MMC],DeleteAllStrings method, IStringTable.DeleteAllStrings, IStringTable::DeleteAllStrings, _slate_istringtable_deleteallstrings, mmc.istringtable_deleteallstrings, mmc/IStringTable::DeleteAllStrings
 ms.topic: method
-f1_keywords: ["mmc/IStringTable.DeleteAllStrings"]
+f1_keywords: 
+ - "mmc/IStringTable.DeleteAllStrings"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxDeviceIds interface [Fax Service],SetOrder method, IFaxDeviceIds.SetOrder, IFaxDeviceIds::SetOrder, SetOrder, SetOrder method [Fax Service], SetOrder method [Fax Service],IFaxDeviceIds interface, _mfax_faxdeviceids.setorder, fax._mfax_faxdeviceids_cpp_mfax_faxdeviceids_setorder_cpp, fax._mfax_faxdeviceids_setorder, faxcomex/IFaxDeviceIds::SetOrder
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxDeviceIds.SetOrder"]
+f1_keywords: 
+ - "faxcomex/IFaxDeviceIds.SetOrder"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIpForwardTable, GetIpForwardTable function [IP Helper], _iphlp_getipforwardtable, iphlp.getipforwardtable, iphlpapi/GetIpForwardTable
 ms.topic: function
-f1_keywords: ["iphlpapi/GetIpForwardTable"]
+f1_keywords: 
+ - "iphlpapi/GetIpForwardTable"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

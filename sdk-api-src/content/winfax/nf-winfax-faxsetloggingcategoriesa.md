@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxSetLoggingCategories, FaxSetLoggingCategories function [Fax Service], FaxSetLoggingCategoriesA, FaxSetLoggingCategoriesW, _mfax_faxsetloggingcategories, fax._mfax_faxsetloggingcategories, winfax/FaxSetLoggingCategories, winfax/FaxSetLoggingCategoriesA, winfax/FaxSetLoggingCategoriesW
 ms.topic: function
-f1_keywords: ["winfax/FaxSetLoggingCategories"]
+f1_keywords: 
+ - "winfax/FaxSetLoggingCategories"
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

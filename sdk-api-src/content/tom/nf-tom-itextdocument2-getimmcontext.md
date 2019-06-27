@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetImmContext, GetImmContext method [Windows Controls], GetImmContext method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetImmContext method, ITextDocument2.GetImmContext, ITextDocument2::GetImmContext, controls.itextdocument2_getimmcontext, tom/ITextDocument2::GetImmContext
 ms.topic: method
-f1_keywords: ["tom/ITextDocument2.GetImmContext"]
+f1_keywords: 
+ - "tom/ITextDocument2.GetImmContext"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

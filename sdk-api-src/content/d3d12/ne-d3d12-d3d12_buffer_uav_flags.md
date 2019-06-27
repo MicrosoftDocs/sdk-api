@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_BUFFER_UAV_FLAGS, D3D12_BUFFER_UAV_FLAGS enumeration, D3D12_BUFFER_UAV_FLAG_NONE, D3D12_BUFFER_UAV_FLAG_RAW, d3d12/D3D12_BUFFER_UAV_FLAGS, d3d12/D3D12_BUFFER_UAV_FLAG_NONE, d3d12/D3D12_BUFFER_UAV_FLAG_RAW, direct3d12.d3d12_buffer_uav_flags
 ms.topic: enum
-f1_keywords: ["d3d12/D3D12_BUFFER_UAV_FLAGS"]
+f1_keywords: 
+ - "d3d12/D3D12_BUFFER_UAV_FLAGS"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

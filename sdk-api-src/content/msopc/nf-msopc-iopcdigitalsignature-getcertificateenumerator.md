@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCertificateEnumerator, GetCertificateEnumerator method [Open Packaging Conventions], GetCertificateEnumerator method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetCertificateEnumerator method, IOpcDigitalSignature.GetCertificateEnumerator, IOpcDigitalSignature::GetCertificateEnumerator, msopc/IOpcDigitalSignature::GetCertificateEnumerator, opc.iopcdigitalsignature_getcertificateenumerator
 ms.topic: method
-f1_keywords: ["msopc/IOpcDigitalSignature.GetCertificateEnumerator"]
+f1_keywords: 
+ - "msopc/IOpcDigitalSignature.GetCertificateEnumerator"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

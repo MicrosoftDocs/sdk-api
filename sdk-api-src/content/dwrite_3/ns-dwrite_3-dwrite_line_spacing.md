@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_LINE_SPACING, DWRITE_LINE_SPACING structure [Direct Write], directwrite.dwrite_line_spacing, dwrite_3/DWRITE_LINE_SPACING
 ms.topic: struct
-f1_keywords: ["dwrite_3/DWRITE_LINE_SPACING"]
+f1_keywords: 
+ - "dwrite_3/DWRITE_LINE_SPACING"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

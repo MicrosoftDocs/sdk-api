@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateClusterNotifyPortV2, CreateClusterNotifyPortV2 function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2, PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2 function [Failover Cluster], clusapi/CreateClusterNotifyPortV2, clusapi/PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2, mscs.createclusternotifyportv2
 ms.topic: function
-f1_keywords: ["clusapi/CreateClusterNotifyPortV2"]
+f1_keywords: 
+ - "clusapi/CreateClusterNotifyPortV2"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

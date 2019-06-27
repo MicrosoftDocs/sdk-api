@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDateStamp, GetDateStamp method [Windows Shell], GetDateStamp method [Windows Shell],IExtractImage2 interface, IExtractImage2 interface [Windows Shell],GetDateStamp method, IExtractImage2.GetDateStamp, IExtractImage2::GetDateStamp, _win32_IExtractImage2_GetDateStamp, shell.IExtractImage2_GetDateStamp, shobjidl_core/IExtractImage2::GetDateStamp
 ms.topic: method
-f1_keywords: ["shobjidl_core/IExtractImage2.GetDateStamp"]
+f1_keywords: 
+ - "shobjidl_core/IExtractImage2.GetDateStamp"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

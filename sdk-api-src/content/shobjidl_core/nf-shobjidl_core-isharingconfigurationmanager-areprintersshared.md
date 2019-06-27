@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ArePrintersShared, ArePrintersShared method [Windows Shell], ArePrintersShared method [Windows Shell],ISharingConfigurationManager interface, ISharingConfigurationManager interface [Windows Shell],ArePrintersShared method, ISharingConfigurationManager.ArePrintersShared, ISharingConfigurationManager::ArePrintersShared, _shell_ISharingConfigurationManager_ArePrintersShared, shell.ISharingConfigurationManager_ArePrintersShared, shobjidl_core/ISharingConfigurationManager::ArePrintersShared
 ms.topic: method
-f1_keywords: ["shobjidl_core/ISharingConfigurationManager.ArePrintersShared"]
+f1_keywords: 
+ - "shobjidl_core/ISharingConfigurationManager.ArePrintersShared"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

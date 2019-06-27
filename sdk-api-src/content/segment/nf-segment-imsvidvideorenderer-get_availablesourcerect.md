@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_AvailableSourceRect method, IMSVidVideoRenderer.get_AvailableSourceRect, IMSVidVideoRenderer::get_AvailableSourceRect, IMSVidVideoRendererget_AvailableSourceRect, get_AvailableSourceRect, get_AvailableSourceRect method [Microsoft TV Technologies], get_AvailableSourceRect method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_availablesourcerect, segment/IMSVidVideoRenderer::get_AvailableSourceRect
 ms.topic: method
-f1_keywords: ["segment/IMSVidVideoRenderer.get_AvailableSourceRect"]
+f1_keywords: 
+ - "segment/IMSVidVideoRenderer.get_AvailableSourceRect"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

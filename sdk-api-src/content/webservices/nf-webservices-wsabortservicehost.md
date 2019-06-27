@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsAbortServiceHost, WsAbortServiceHost function [Web Services for Windows], webservices/WsAbortServiceHost, wsw.wsabortservicehost
 ms.topic: function
-f1_keywords: ["webservices/WsAbortServiceHost"]
+f1_keywords: 
+ - "webservices/WsAbortServiceHost"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

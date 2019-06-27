@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SPDIT_CLASSDRIVER, SPDIT_COMPATDRIVER, SetupDiBuildDriverInfoList, SetupDiBuildDriverInfoList function [Device and Driver Installation], devinst.setupdibuilddriverinfolist, di-rtns_dd9aa1be-1a67-4cc6-8a06-5db71eecd322.xml, setupapi/SetupDiBuildDriverInfoList
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiBuildDriverInfoList"]
+f1_keywords: 
+ - "setupapi/SetupDiBuildDriverInfoList"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

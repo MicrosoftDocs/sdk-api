@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComApp2Events interface [COM+],OnAppShutdown2 method, IComApp2Events.OnAppShutdown2, IComApp2Events::OnAppShutdown2, OnAppShutdown2, OnAppShutdown2 method [COM+], OnAppShutdown2 method [COM+],IComApp2Events interface, _dtc_IComApp2Events_OnAppShutdown2, comsvcs/IComApp2Events::OnAppShutdown2, cos.icomapp2events_onappshutdown2
 ms.topic: method
-f1_keywords: ["comsvcs/IComApp2Events.OnAppShutdown2"]
+f1_keywords: 
+ - "comsvcs/IComApp2Events.OnAppShutdown2"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentService, GetCurrentService method [DirectShow], GetCurrentService method [DirectShow],IAMLine21Decoder interface, IAMLine21Decoder interface [DirectShow],GetCurrentService method, IAMLine21Decoder.GetCurrentService, IAMLine21Decoder::GetCurrentService, IAMLine21DecoderGetCurrentService, dshow.iamline21decoder_getcurrentservice, il21dec/IAMLine21Decoder::GetCurrentService
 ms.topic: method
-f1_keywords: ["il21dec/IAMLine21Decoder.GetCurrentService"]
+f1_keywords: 
+ - "il21dec/IAMLine21Decoder.GetCurrentService"
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows

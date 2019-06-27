@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_joyConfigChanged, joyConfigChanged, joyConfigChanged function [Windows Multimedia], joystickapi/joyConfigChanged, multimedia.joyconfigchanged"
 ms.topic: function
-f1_keywords: ["joystickapi/joyConfigChanged"]
+f1_keywords: 
+ - "joystickapi/joyConfigChanged"
 req.header: joystickapi.h
 req.include-header: Dinput.h
 req.target-type: Windows

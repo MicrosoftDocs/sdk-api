@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInfo, GetInfo method [COM], GetInfo method [COM],ICallFrame interface, ICallFrame interface [COM],GetInfo method, ICallFrame.GetInfo, ICallFrame::GetInfo, _com_icallframe_getinfo, callobj/ICallFrame::GetInfo, com.icallframe_getinfo
 ms.topic: method
-f1_keywords: ["callobj/ICallFrame.GetInfo"]
+f1_keywords: 
+ - "callobj/ICallFrame.GetInfo"
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

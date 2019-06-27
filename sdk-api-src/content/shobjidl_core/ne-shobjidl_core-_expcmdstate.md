@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ECS_CHECKBOX, ECS_CHECKED, ECS_DISABLED, ECS_ENABLED, ECS_HIDDEN, ECS_RADIOCHECK, EXPCMDSTATE, EXPCMDSTATE enumeration [Windows Shell], _EXPCMDSTATE, _shell_EXPCMDSTATE, shell.EXPCMDSTATE, shobjidl_core/ECS_CHECKBOX, shobjidl_core/ECS_CHECKED, shobjidl_core/ECS_DISABLED, shobjidl_core/ECS_ENABLED, shobjidl_core/ECS_HIDDEN, shobjidl_core/ECS_RADIOCHECK, shobjidl_core/EXPCMDSTATE
 ms.topic: enum
-f1_keywords: ["shobjidl_core/EXPCMDSTATE"]
+f1_keywords: 
+ - "shobjidl_core/EXPCMDSTATE"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

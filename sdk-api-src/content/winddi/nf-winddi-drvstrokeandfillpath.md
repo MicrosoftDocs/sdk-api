@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvStrokeAndFillPath, DrvStrokeAndFillPath function [Display Devices], ddifncs_ca3b1895-31d0-4c1b-b47c-df61ccef2afa.xml, display.drvstrokeandfillpath, winddi/DrvStrokeAndFillPath
 ms.topic: function
-f1_keywords: ["winddi/DrvStrokeAndFillPath"]
+f1_keywords: 
+ - "winddi/DrvStrokeAndFillPath"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

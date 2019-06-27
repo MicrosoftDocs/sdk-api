@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1156e7b1-1ba9-fab9-ab1a-7695c94278e9, GetPrivateData, GetPrivateData method [Direct3D 10], GetPrivateData method [Direct3D 10],ID3D10DeviceChild interface, ID3D10DeviceChild interface [Direct3D 10],GetPrivateData method, ID3D10DeviceChild.GetPrivateData, ID3D10DeviceChild::GetPrivateData, d3d10/ID3D10DeviceChild::GetPrivateData, direct3d10.id3d10devicechild_getprivatedata
 ms.topic: method
-f1_keywords: ["d3d10/ID3D10DeviceChild.GetPrivateData"]
+f1_keywords: 
+ - "d3d10/ID3D10DeviceChild.GetPrivateData"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

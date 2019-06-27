@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVT_SYSTEM_PROPERTY_ID, EVT_SYSTEM_PROPERTY_ID enumeration [EventLog], EvtSystemActivityID, EvtSystemChannel, EvtSystemComputer, EvtSystemEventID, EvtSystemEventRecordId, EvtSystemKeywords, EvtSystemLevel, EvtSystemOpcode, EvtSystemProcessID, EvtSystemPropertyIdEND, EvtSystemProviderGuid, EvtSystemProviderName, EvtSystemQualifiers, EvtSystemRelatedActivityID, EvtSystemTask, EvtSystemThreadID, EvtSystemTimeCreated, EvtSystemUserID, EvtSystemVersion, wes.evt_system_property_id, winevt/EVT_SYSTEM_PROPERTY_ID, winevt/EvtSystemActivityID, winevt/EvtSystemChannel, winevt/EvtSystemComputer, winevt/EvtSystemEventID, winevt/EvtSystemEventRecordId, winevt/EvtSystemKeywords, winevt/EvtSystemLevel, winevt/EvtSystemOpcode, winevt/EvtSystemProcessID, winevt/EvtSystemPropertyIdEND, winevt/EvtSystemProviderGuid, winevt/EvtSystemProviderName, winevt/EvtSystemQualifiers, winevt/EvtSystemRelatedActivityID, winevt/EvtSystemTask, winevt/EvtSystemThreadID, winevt/EvtSystemTimeCreated, winevt/EvtSystemUserID, winevt/EvtSystemVersion
 ms.topic: enum
-f1_keywords: ["winevt/EVT_SYSTEM_PROPERTY_ID"]
+f1_keywords: 
+ - "winevt/EVT_SYSTEM_PROPERTY_ID"
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

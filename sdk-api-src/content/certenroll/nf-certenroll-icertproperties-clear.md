@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ICertProperties interface, ICertProperties interface [Security],Clear method, ICertProperties.Clear, ICertProperties::Clear, certenroll/ICertProperties::Clear, security.icertproperties_clear_method
 ms.topic: method
-f1_keywords: ["certenroll/ICertProperties.Clear"]
+f1_keywords: 
+ - "certenroll/ICertProperties.Clear"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

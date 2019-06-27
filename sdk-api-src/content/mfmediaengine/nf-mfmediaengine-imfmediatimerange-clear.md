@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Media Foundation], Clear method [Media Foundation],IMFMediaTimeRange interface, IMFMediaTimeRange interface [Media Foundation],Clear method, IMFMediaTimeRange.Clear, IMFMediaTimeRange::Clear, mf.imfmediatimerange_clear, mfmediaengine/IMFMediaTimeRange::Clear
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaTimeRange.Clear"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaTimeRange.Clear"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

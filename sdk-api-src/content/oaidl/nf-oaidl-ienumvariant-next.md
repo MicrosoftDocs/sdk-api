@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumVARIANT interface [Automation],Next method, IEnumVARIANT.Next, IEnumVARIANT::Next, Next, Next method [Automation], Next method [Automation],IEnumVARIANT interface, _oa96_IEnumVARIANT::Next, automat.ienumvariant_next, oaidl/IEnumVARIANT::Next
 ms.topic: method
-f1_keywords: ["oaidl/IEnumVARIANT.Next"]
+f1_keywords: 
+ - "oaidl/IEnumVARIANT.Next"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

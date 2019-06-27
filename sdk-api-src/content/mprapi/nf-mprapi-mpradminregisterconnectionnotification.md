@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminRegisterConnectionNotification, MprAdminRegisterConnectionNotification function [RAS], _mpr_mpradminregisterconnectionnotification, mprapi/MprAdminRegisterConnectionNotification, rras.mpradminregisterconnectionnotification
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminRegisterConnectionNotification"]
+f1_keywords: 
+ - "mprapi/MprAdminRegisterConnectionNotification"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

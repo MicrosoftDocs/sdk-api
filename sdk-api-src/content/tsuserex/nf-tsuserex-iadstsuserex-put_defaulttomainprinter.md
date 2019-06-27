@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DefaultToMainPrinter property [Remote Desktop Services], DefaultToMainPrinter property [Remote Desktop Services],IADsTSUserEx interface, IADsTSUserEx interface [Remote Desktop Services],DefaultToMainPrinter property, IADsTSUserEx.DefaultToMainPrinter, IADsTSUserEx.put_DefaultToMainPrinter, IADsTSUserEx::DefaultToMainPrinter, IADsTSUserEx::get_DefaultToMainPrinter, IADsTSUserEx::put_DefaultToMainPrinter, put_DefaultToMainPrinter, termserv.iadstsuserex_defaulttomainprinter, tsuserex/IADsTSUserEx::DefaultToMainPrinter, tsuserex/IADsTSUserEx::get_DefaultToMainPrinter, tsuserex/IADsTSUserEx::put_DefaultToMainPrinter
 ms.topic: method
-f1_keywords: ["tsuserex/IADsTSUserEx.DefaultToMainPrinter"]
+f1_keywords: 
+ - "tsuserex/IADsTSUserEx.DefaultToMainPrinter"
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronizeCallback interface [Windows Shell],ShowErrorCompleted method, ISyncMgrSynchronizeCallback.ShowErrorCompleted, ISyncMgrSynchronizeCallback::ShowErrorCompleted, ShowErrorCompleted, ShowErrorCompleted method [Windows Shell], ShowErrorCompleted method [Windows Shell],ISyncMgrSynchronizeCallback interface, mobsync/ISyncMgrSynchronizeCallback::ShowErrorCompleted, shell.syncmgr_isyncmgrsynchronizecallback_showerrorcompleted, syncmgr.isyncmgrsynchronizecallback_showerrorcompleted
 ms.topic: method
-f1_keywords: ["mobsync/ISyncMgrSynchronizeCallback.ShowErrorCompleted"]
+f1_keywords: 
+ - "mobsync/ISyncMgrSynchronizeCallback.ShowErrorCompleted"
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

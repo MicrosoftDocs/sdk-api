@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllowOutboundParameterProblem property [ICS/ICF], AllowOutboundParameterProblem property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowOutboundParameterProblem property, INetFwIcmpSettings.AllowOutboundParameterProblem, INetFwIcmpSettings.get_AllowOutboundParameterProblem, INetFwIcmpSettings::AllowOutboundParameterProblem, INetFwIcmpSettings::get_AllowOutboundParameterProblem, INetFwIcmpSettings::put_AllowOutboundParameterProblem, get_AllowOutboundParameterProblem, ics.inetfwicmpsettings_allowoutboundparameterproblem, netfw/INetFwIcmpSettings::AllowOutboundParameterProblem, netfw/INetFwIcmpSettings::get_AllowOutboundParameterProblem, netfw/INetFwIcmpSettings::put_AllowOutboundParameterProblem
 ms.topic: method
-f1_keywords: ["netfw/INetFwIcmpSettings.AllowOutboundParameterProblem"]
+f1_keywords: 
+ - "netfw/INetFwIcmpSettings.AllowOutboundParameterProblem"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

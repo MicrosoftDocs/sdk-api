@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImpersonateAnonymousToken, ImpersonateAnonymousToken function [Security], _win32_impersonateanonymoustoken, security.impersonateanonymoustoken, securitybaseapi/ImpersonateAnonymousToken
 ms.topic: function
-f1_keywords: ["securitybaseapi/ImpersonateAnonymousToken"]
+f1_keywords: 
+ - "securitybaseapi/ImpersonateAnonymousToken"
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

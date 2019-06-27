@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [COM], GetObject method [COM],IRunningObjectTable interface, IRunningObjectTable interface [COM],GetObject method, IRunningObjectTable.GetObject, IRunningObjectTable::GetObject, _com_irunningobjecttable_getobject, com.irunningobjecttable_getobject, objidl/IRunningObjectTable::GetObject
 ms.topic: method
-f1_keywords: ["objidl/IRunningObjectTable.GetObject"]
+f1_keywords: 
+ - "objidl/IRunningObjectTable.GetObject"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

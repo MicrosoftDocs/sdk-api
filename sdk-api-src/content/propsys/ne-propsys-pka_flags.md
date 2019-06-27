@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PKA_APPEND, PKA_DELETE, PKA_FLAGS, PKA_FLAGS enumeration [Windows Properties], PKA_SET, _shell_PKA_FLAGS, properties.PKA_FLAGS, propsys/PKA_APPEND, propsys/PKA_DELETE, propsys/PKA_FLAGS, propsys/PKA_SET, shell.PKA_FLAGS
 ms.topic: enum
-f1_keywords: ["propsys/PKA_FLAGS"]
+f1_keywords: 
+ - "propsys/PKA_FLAGS"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

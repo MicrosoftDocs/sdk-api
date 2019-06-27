@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronize interface [Windows Shell],PrepareForSync method, ISyncMgrSynchronize.PrepareForSync, ISyncMgrSynchronize::PrepareForSync, PrepareForSync, PrepareForSync method [Windows Shell], PrepareForSync method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::PrepareForSync, shell.syncmgr_isyncmgrsynchronize_prepareforsync, syncmgr.isyncmgrsynchronize_prepareforsync
 ms.topic: method
-f1_keywords: ["mobsync/ISyncMgrSynchronize.PrepareForSync"]
+f1_keywords: 
+ - "mobsync/ISyncMgrSynchronize.PrepareForSync"
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

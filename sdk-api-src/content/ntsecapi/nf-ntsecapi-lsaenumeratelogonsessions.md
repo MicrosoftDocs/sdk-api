@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaEnumerateLogonSessions, LsaEnumerateLogonSessions function [Security], _lsa_lsaenumeratelogonsessions, ntsecapi/LsaEnumerateLogonSessions, security.lsaenumeratelogonsessions
 ms.topic: function
-f1_keywords: ["ntsecapi/LsaEnumerateLogonSessions"]
+f1_keywords: 
+ - "ntsecapi/LsaEnumerateLogonSessions"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

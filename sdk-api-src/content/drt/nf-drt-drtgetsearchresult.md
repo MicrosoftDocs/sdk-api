@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrtGetSearchResult, DrtGetSearchResult function [Peer Networking], drt/DrtGetSearchResult, p2p.drtgetsearchresult
 ms.topic: function
-f1_keywords: ["drt/DrtGetSearchResult"]
+f1_keywords: 
+ - "drt/DrtGetSearchResult"
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

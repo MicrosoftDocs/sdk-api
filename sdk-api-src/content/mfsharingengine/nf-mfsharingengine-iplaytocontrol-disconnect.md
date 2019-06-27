@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [Media Foundation], Disconnect method [Media Foundation],IPlayToControl interface, IPlayToControl interface [Media Foundation],Disconnect method, IPlayToControl.Disconnect, IPlayToControl::Disconnect, mf.iplaytocontrol_disconnect, mfsharingengine/IPlayToControl::Disconnect
 ms.topic: method
-f1_keywords: ["mfsharingengine/IPlayToControl.Disconnect"]
+f1_keywords: 
+ - "mfsharingengine/IPlayToControl.Disconnect"
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows

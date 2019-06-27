@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVBFormat, IVBFormat interface [COM], IVBFormat interface [COM],described, _com_IVBFormat, com.ivbformat, vbinterf/IVBFormat
 ms.topic: interface
-f1_keywords: ["vbinterf/IVBFormat"]
+f1_keywords: 
+ - "vbinterf/IVBFormat"
 req.header: vbinterf.h
 req.include-header: 
 req.target-type: Windows

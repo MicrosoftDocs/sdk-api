@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncCallback2 interface [Windows Sync],OnChangeFailed method, ISyncCallback2.OnChangeFailed, ISyncCallback2::OnChangeFailed, OnChangeFailed, OnChangeFailed method [Windows Sync], OnChangeFailed method [Windows Sync],ISyncCallback2 interface, winsync.isynccallback2_onchangefailed, winsync/ISyncCallback2::OnChangeFailed
 ms.topic: method
-f1_keywords: ["winsync/ISyncCallback2.OnChangeFailed"]
+f1_keywords: 
+ - "winsync/ISyncCallback2.OnChangeFailed"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

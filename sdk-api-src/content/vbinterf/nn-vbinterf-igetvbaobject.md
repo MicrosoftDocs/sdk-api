@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGetVBAObject, IGetVBAObject interface [COM], IGetVBAObject interface [COM],described, _com_IGetVBAObject, com.igetvbaobject, vbinterf/IGetVBAObject
 ms.topic: interface
-f1_keywords: ["vbinterf/IGetVBAObject"]
+f1_keywords: 
+ - "vbinterf/IGetVBAObject"
 req.header: vbinterf.h
 req.include-header: 
 req.target-type: Windows

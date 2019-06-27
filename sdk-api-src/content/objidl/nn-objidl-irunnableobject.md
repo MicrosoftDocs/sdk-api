@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRunnableObject, IRunnableObject interface [COM], IRunnableObject interface [COM],described, _com_irunnableobject, com.irunnableobject, objidl/IRunnableObject
 ms.topic: interface
-f1_keywords: ["objidl/IRunnableObject"]
+f1_keywords: 
+ - "objidl/IRunnableObject"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

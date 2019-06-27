@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WM_SYNCHRONISED_LYRICS, WM_SYNCHRONISED_LYRICS structure [windows Media Format], wmformat.wm_synchronised_lyrics, wmsdkidl/WM_SYNCHRONISED_LYRICS
 ms.topic: struct
-f1_keywords: ["wmsdkidl/WM_SYNCHRONISED_LYRICS"]
+f1_keywords: 
+ - "wmsdkidl/WM_SYNCHRONISED_LYRICS"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

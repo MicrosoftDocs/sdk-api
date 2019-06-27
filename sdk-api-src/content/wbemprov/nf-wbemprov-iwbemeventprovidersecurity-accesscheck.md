@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AccessCheck, AccessCheck method [Windows Management Instrumentation], AccessCheck method [Windows Management Instrumentation],IWbemEventProviderSecurity interface, IWbemEventProviderSecurity interface [Windows Management Instrumentation],AccessCheck method, IWbemEventProviderSecurity.AccessCheck, IWbemEventProviderSecurity::AccessCheck, _hmm_iwbemeventprovidersecurity_accesscheck, wbemprov/IWbemEventProviderSecurity::AccessCheck, wmi.iwbemeventprovidersecurity_accesscheck
 ms.topic: method
-f1_keywords: ["wbemprov/IWbemEventProviderSecurity.AccessCheck"]
+f1_keywords: 
+ - "wbemprov/IWbemEventProviderSecurity.AccessCheck"
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

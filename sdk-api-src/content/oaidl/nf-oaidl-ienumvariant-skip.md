@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumVARIANT interface [Automation],Skip method, IEnumVARIANT.Skip, IEnumVARIANT::Skip, Skip, Skip method [Automation], Skip method [Automation],IEnumVARIANT interface, _oa96_IEnumVARIANT::Skip, automat.ienumvariant_skip, oaidl/IEnumVARIANT::Skip
 ms.topic: method
-f1_keywords: ["oaidl/IEnumVARIANT.Skip"]
+f1_keywords: 
+ - "oaidl/IEnumVARIANT.Skip"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPortableDevicePropertiesBulk interface [Windows Portable Devices SDK],QueueSetValuesByObjectList method, IPortableDevicePropertiesBulk.QueueSetValuesByObjectList, IPortableDevicePropertiesBulk::QueueSetValuesByObjectList, IPortableDevicePropertiesBulkQueueSetValuesByObjectList, QueueSetValuesByObjectList, QueueSetValuesByObjectList method [Windows Portable Devices SDK], QueueSetValuesByObjectList method [Windows Portable Devices SDK],IPortableDevicePropertiesBulk interface, portabledeviceapi/IPortableDevicePropertiesBulk::QueueSetValuesByObjectList, wpdsdk.iportabledevicepropertiesbulk_queuesetvaluesbyobjectlist
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDevicePropertiesBulk.QueueSetValuesByObjectList"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDevicePropertiesBulk.QueueSetValuesByObjectList"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

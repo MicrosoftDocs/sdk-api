@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpInstanceInit, SpInstanceInit callback function [Security], SpInstanceInitFn, SpInstanceInitFn callback, _ssp_spinstanceinit, ntsecpkg/SpInstanceInit, security.spinstanceinit
 ms.topic: callback
-f1_keywords: ["ntsecpkg/SpInstanceInit"]
+f1_keywords: 
+ - "ntsecpkg/SpInstanceInit"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

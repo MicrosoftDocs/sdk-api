@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMCloseQueryHandle, DRMCloseQueryHandle function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCloseQueryHandle, rm.drmclosequeryhandle
 ms.topic: function
-f1_keywords: ["msdrm/DRMCloseQueryHandle"]
+f1_keywords: 
+ - "msdrm/DRMCloseQueryHandle"
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

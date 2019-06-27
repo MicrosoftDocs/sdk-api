@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SignalFileOpen, SignalFileOpen function [Windows Shell], _win32_SignalFileOpen, shell.SignalFileOpen, shlobj_core/SignalFileOpen
 ms.topic: function
-f1_keywords: ["shlobj_core/SignalFileOpen"]
+f1_keywords: 
+ - "shlobj_core/SignalFileOpen"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

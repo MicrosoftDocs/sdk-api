@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMINIDUMP_INCLUDE_MODULE_CALLBACK, MINIDUMP_INCLUDE_MODULE_CALLBACK, MINIDUMP_INCLUDE_MODULE_CALLBACK structure, PMINIDUMP_INCLUDE_MODULE_CALLBACK, PMINIDUMP_INCLUDE_MODULE_CALLBACK structure pointer, _MINIDUMP_INCLUDE_MODULE_CALLBACK, _win32_minidump_include_module_callback_str, base.minidump_include_module_callback_str, minidumpapiset/MINIDUMP_INCLUDE_MODULE_CALLBACK, minidumpapiset/PMINIDUMP_INCLUDE_MODULE_CALLBACK"
 ms.topic: struct
-f1_keywords: ["minidumpapiset/MINIDUMP_INCLUDE_MODULE_CALLBACK"]
+f1_keywords: 
+ - "minidumpapiset/MINIDUMP_INCLUDE_MODULE_CALLBACK"
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

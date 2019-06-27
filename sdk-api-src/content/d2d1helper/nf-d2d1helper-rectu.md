@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RectU, RectU function [Direct2D], d2d1helper/RectU, direct2d.rectu
 ms.topic: function
-f1_keywords: ["d2d1helper/RectU"]
+f1_keywords: 
+ - "d2d1helper/RectU"
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

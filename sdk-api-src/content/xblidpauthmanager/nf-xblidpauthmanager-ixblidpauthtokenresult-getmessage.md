@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMessage, GetMessage method, GetMessage method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetMessage method, IXblIdpAuthTokenResult.GetMessage, IXblIdpAuthTokenResult::GetMessage, xblidp.ixblidpauthtokenresult_getmessage, xblidpauthmanager/IXblIdpAuthTokenResult::GetMessage
 ms.topic: method
-f1_keywords: ["xblidpauthmanager/IXblIdpAuthTokenResult.GetMessage"]
+f1_keywords: 
+ - "xblidpauthmanager/IXblIdpAuthTokenResult.GetMessage"
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

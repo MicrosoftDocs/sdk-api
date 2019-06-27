@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchRoot interface [search],put_FollowDirectories method, ISearchRoot.put_FollowDirectories, ISearchRoot::put_FollowDirectories, _search_ISearchRoot_put_FollowDirectories, put_FollowDirectories, put_FollowDirectories method [search], put_FollowDirectories method [search],ISearchRoot interface, search._search_ISearchRoot_put_FollowDirectories, searchapi/ISearchRoot::put_FollowDirectories
 ms.topic: method
-f1_keywords: ["searchapi/ISearchRoot.put_FollowDirectories"]
+f1_keywords: 
+ - "searchapi/ISearchRoot.put_FollowDirectories"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

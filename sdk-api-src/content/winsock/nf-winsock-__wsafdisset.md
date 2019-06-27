@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "__WSAFDIsSet, __WSAFDIsSet function [Winsock], winsock.wsafdisset, winsock/__WSAFDIsSet"
 ms.topic: function
-f1_keywords: ["winsock/__WSAFDIsSet"]
+f1_keywords: 
+ - "winsock/__WSAFDIsSet"
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows

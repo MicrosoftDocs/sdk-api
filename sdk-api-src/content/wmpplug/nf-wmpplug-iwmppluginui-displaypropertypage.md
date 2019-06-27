@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisplayPropertyPage, DisplayPropertyPage method [Windows Media Player], DisplayPropertyPage method [Windows Media Player],IWMPPluginUI interface, IWMPPluginUI interface [Windows Media Player],DisplayPropertyPage method, IWMPPluginUI.DisplayPropertyPage, IWMPPluginUI::DisplayPropertyPage, IWMPPluginUIDisplayPropertyPage, wmp.iwmppluginui_displaypropertypage, wmpplug/IWMPPluginUI::DisplayPropertyPage
 ms.topic: method
-f1_keywords: ["wmpplug/IWMPPluginUI.DisplayPropertyPage"]
+f1_keywords: 
+ - "wmpplug/IWMPPluginUI.DisplayPropertyPage"
 req.header: wmpplug.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCryptDeleteContext, BCryptDeleteContext function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, bcrypt/BCryptDeleteContext, security.bcryptdeletecontext
 ms.topic: function
-f1_keywords: ["bcrypt/BCryptDeleteContext"]
+f1_keywords: 
+ - "bcrypt/BCryptDeleteContext"
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

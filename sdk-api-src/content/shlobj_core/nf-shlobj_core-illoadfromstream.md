@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILLoadFromStream, ILLoadFromStream function [Windows Shell], _win32_ILLoadFromStream, shell.ILLoadFromStream, shlobj_core/ILLoadFromStream
 ms.topic: function
-f1_keywords: ["shlobj_core/ILLoadFromStream"]
+f1_keywords: 
+ - "shlobj_core/ILLoadFromStream"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

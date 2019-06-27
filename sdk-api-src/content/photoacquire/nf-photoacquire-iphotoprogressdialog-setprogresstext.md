@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetProgressText method, IPhotoProgressDialog.SetProgressText, IPhotoProgressDialog::SetProgressText, IPhotoProgressDialogSetProgressText, SetProgressText, SetProgressText method [Picture Acquisition], SetProgressText method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetProgressText, picacq.iphotoprogressdialog_setprogresstext
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoProgressDialog.SetProgressText"]
+f1_keywords: 
+ - "photoacquire/IPhotoProgressDialog.SetProgressText"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

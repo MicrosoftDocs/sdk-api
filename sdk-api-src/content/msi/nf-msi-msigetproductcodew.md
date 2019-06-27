@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiGetProductCode, MsiGetProductCode function, MsiGetProductCodeA, MsiGetProductCodeW, _msi_msigetproductcode, msi/MsiGetProductCode, msi/MsiGetProductCodeA, msi/MsiGetProductCodeW, setup.msigetproductcode
 ms.topic: function
-f1_keywords: ["msi/MsiGetProductCode"]
+f1_keywords: 
+ - "msi/MsiGetProductCode"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

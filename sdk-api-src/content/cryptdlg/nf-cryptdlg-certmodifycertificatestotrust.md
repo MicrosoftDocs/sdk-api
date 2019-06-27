@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertModifyCertificatesToTrust, CertModifyCertificatesToTrust function [Security], cryptdlg/CertModifyCertificatesToTrust, security.certmodifycertificatestotrust
 ms.topic: function
-f1_keywords: ["cryptdlg/CertModifyCertificatesToTrust"]
+f1_keywords: 
+ - "cryptdlg/CertModifyCertificatesToTrust"
 req.header: cryptdlg.h
 req.include-header: 
 req.target-type: Windows

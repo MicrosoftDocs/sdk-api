@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation5, IUIAutomation5 interface [Windows Accessibility], IUIAutomation5 interface [Windows Accessibility],described, uiautomationclient/IUIAutomation5, winauto.uiauto_IUIAutomation5
 ms.topic: interface
-f1_keywords: ["uiautomationclient/IUIAutomation5"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomation5"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

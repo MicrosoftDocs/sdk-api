@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IQueryParser interface [search],Parse method, IQueryParser.Parse, IQueryParser::Parse, Parse, Parse method [search], Parse method [search],IQueryParser interface, _search_IQueryParser_Parse, search._search_IQueryParser_Parse, structuredquery/IQueryParser::Parse
 ms.topic: method
-f1_keywords: ["structuredquery/IQueryParser.Parse"]
+f1_keywords: 
+ - "structuredquery/IQueryParser.Parse"
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

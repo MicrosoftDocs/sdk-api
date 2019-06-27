@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentUmsThread, GetCurrentUmsThread function, base.getcurrentumsthread, winbase/GetCurrentUmsThread
 ms.topic: function
-f1_keywords: ["winbase/GetCurrentUmsThread"]
+f1_keywords: 
+ - "winbase/GetCurrentUmsThread"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

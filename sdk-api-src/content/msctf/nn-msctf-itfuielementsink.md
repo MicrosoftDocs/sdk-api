@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfUIElementSink, ITfUIElementSink interface [Text Services Framework], ITfUIElementSink interface [Text Services Framework],described, _tsf_itfuielementsink_ref, msctf/ITfUIElementSink, tsf.itfuielementsink
 ms.topic: interface
-f1_keywords: ["msctf/ITfUIElementSink"]
+f1_keywords: 
+ - "msctf/ITfUIElementSink"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

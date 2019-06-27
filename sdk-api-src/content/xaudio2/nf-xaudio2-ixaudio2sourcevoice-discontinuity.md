@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Discontinuity, Discontinuity method [XAudio2 Audio Mixing APIs], Discontinuity method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],Discontinuity method, IXAudio2SourceVoice.Discontinuity, IXAudio2SourceVoice::Discontinuity, xaudio2.ixaudio2sourcevoice_interface_discontinuity_, xaudio2/IXAudio2SourceVoice::Discontinuity
 ms.topic: method
-f1_keywords: ["xaudio2/IXAudio2SourceVoice.Discontinuity"]
+f1_keywords: 
+ - "xaudio2/IXAudio2SourceVoice.Discontinuity"
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

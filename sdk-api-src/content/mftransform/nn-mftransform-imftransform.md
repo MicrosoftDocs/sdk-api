@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 3cc502d8-d364-43b9-b0b6-d9474c002b20, IMFTransform, IMFTransform interface [Media Foundation], IMFTransform interface [Media Foundation],described, mf.imftransform, mftransform/IMFTransform
 ms.topic: interface
-f1_keywords: ["mftransform/IMFTransform"]
+f1_keywords: 
+ - "mftransform/IMFTransform"
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

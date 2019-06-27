@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_Rating method, IAMMediaContent.get_Rating, IAMMediaContent::get_Rating, IAMMediaContentget_Rating, dshow.iammediacontent_get_rating, get_Rating, get_Rating method [DirectShow], get_Rating method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Rating
 ms.topic: method
-f1_keywords: ["qnetwork/IAMMediaContent.get_Rating"]
+f1_keywords: 
+ - "qnetwork/IAMMediaContent.get_Rating"
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

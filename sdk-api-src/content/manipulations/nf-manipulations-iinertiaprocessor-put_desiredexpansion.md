@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DesiredExpansion property [Windows Touch], DesiredExpansion property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],DesiredExpansion property, IInertiaProcessor.DesiredExpansion, IInertiaProcessor.put_DesiredExpansion, IInertiaProcessor::DesiredExpansion, IInertiaProcessor::get_DesiredExpansion, IInertiaProcessor::put_DesiredExpansion, manipulations/IInertiaProcessor::DesiredExpansion, manipulations/IInertiaProcessor::get_DesiredExpansion, manipulations/IInertiaProcessor::put_DesiredExpansion, put_DesiredExpansion, wintouch.iinertiaprocessor_desiredexpansion
 ms.topic: method
-f1_keywords: ["manipulations/IInertiaProcessor.DesiredExpansion"]
+f1_keywords: 
+ - "manipulations/IInertiaProcessor.DesiredExpansion"
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows

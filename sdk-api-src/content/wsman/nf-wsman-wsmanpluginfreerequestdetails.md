@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSManPluginFreeRequestDetails, WSManPluginFreeRequestDetails function [Windows Remote Management], winrm.wsmanpluginfreerequestdetails, wsman/WSManPluginFreeRequestDetails
 ms.topic: function
-f1_keywords: ["wsman/WSManPluginFreeRequestDetails"]
+f1_keywords: 
+ - "wsman/WSManPluginFreeRequestDetails"
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

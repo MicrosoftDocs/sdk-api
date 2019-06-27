@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMEDLG, IMEDLG structure [Internationalization for Windows Applications], PIMEDLG, PIMEDLG structure pointer [Internationalization for Windows Applications], intl.imedlg, msime/IMEDLG, msime/PIMEDLG
 ms.topic: struct
-f1_keywords: ["msime/IMEDLG"]
+f1_keywords: 
+ - "msime/IMEDLG"
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

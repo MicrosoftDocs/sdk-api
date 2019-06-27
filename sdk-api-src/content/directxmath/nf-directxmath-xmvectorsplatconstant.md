@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSplatConstant, XMVectorSplatConstant, XMVectorSplatConstant method [DirectX Math Support APIs], dxmath.xmvectorsplatconstant
 ms.topic: function
-f1_keywords: ["directxmath/XMVectorSplatConstant"]
+f1_keywords: 
+ - "directxmath/XMVectorSplatConstant"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

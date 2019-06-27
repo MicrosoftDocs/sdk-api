@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SIZETAdd, SIZETAdd function [Windows Shell], ULongLongAdd, _shell_SIZETAdd, intsafe/SIZETAdd, shell.SIZETAdd, shell.SIZETAdd_1
 ms.topic: function
-f1_keywords: ["intsafe/SIZETAdd"]
+f1_keywords: 
+ - "intsafe/SIZETAdd"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

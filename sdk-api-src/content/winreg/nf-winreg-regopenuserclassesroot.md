@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegOpenUserClassesRoot, RegOpenUserClassesRoot function, _win32_regopenuserclassesroot, base.regopenuserclassesroot, winreg/RegOpenUserClassesRoot
 ms.topic: function
-f1_keywords: ["winreg/RegOpenUserClassesRoot"]
+f1_keywords: 
+ - "winreg/RegOpenUserClassesRoot"
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

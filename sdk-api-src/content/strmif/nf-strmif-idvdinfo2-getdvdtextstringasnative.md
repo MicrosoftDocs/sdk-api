@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDVDTextStringAsNative, GetDVDTextStringAsNative method [DirectShow], GetDVDTextStringAsNative method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDVDTextStringAsNative method, IDvdInfo2.GetDVDTextStringAsNative, IDvdInfo2::GetDVDTextStringAsNative, IDvdInfo2GetDVDTextStringAsNative, dshow.idvdinfo2_getdvdtextstringasnative, strmif/IDvdInfo2::GetDVDTextStringAsNative
 ms.topic: method
-f1_keywords: ["strmif/IDvdInfo2.GetDVDTextStringAsNative"]
+f1_keywords: 
+ - "strmif/IDvdInfo2.GetDVDTextStringAsNative"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

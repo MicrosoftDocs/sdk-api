@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathGetArgs, PathGetArgs function [Windows Shell], PathGetArgsA, PathGetArgsW, _win32_PathGetArgs, shell.PathGetArgs, shlwapi/PathGetArgs, shlwapi/PathGetArgsA, shlwapi/PathGetArgsW
 ms.topic: function
-f1_keywords: ["shlwapi/PathGetArgs"]
+f1_keywords: 
+ - "shlwapi/PathGetArgs"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MultiplyExtract128, MultiplyExtract128 function [Windows API], winnt/MultiplyExtract128, winprog.multiplyextract128
 ms.topic: function
-f1_keywords: ["winnt/MultiplyExtract128"]
+f1_keywords: 
+ - "winnt/MultiplyExtract128"
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

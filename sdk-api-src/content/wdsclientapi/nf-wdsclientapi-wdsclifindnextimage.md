@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsCliFindNextImage, WdsCliFindNextImage function [Windows Deployment Services], wds.wdsclifindnextimage, wdsclientapi/WdsCliFindNextImage
 ms.topic: function
-f1_keywords: ["wdsclientapi/WdsCliFindNextImage"]
+f1_keywords: 
+ - "wdsclientapi/WdsCliFindNextImage"
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

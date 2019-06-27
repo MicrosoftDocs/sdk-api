@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFRemovePeriodicCallback, MFRemovePeriodicCallback function [Media Foundation], e70cdad3-c330-4368-8ef8-d616157b5e72, mf.mfremoveperiodiccallback, mfapi/MFRemovePeriodicCallback
 ms.topic: function
-f1_keywords: ["mfapi/MFRemovePeriodicCallback"]
+f1_keywords: 
+ - "mfapi/MFRemovePeriodicCallback"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

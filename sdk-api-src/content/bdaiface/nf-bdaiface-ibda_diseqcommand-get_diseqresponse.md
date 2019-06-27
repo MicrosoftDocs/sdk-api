@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_DiseqCommand interface [Microsoft TV Technologies],get_DiseqResponse method, IBDA_DiseqCommand.get_DiseqResponse, IBDA_DiseqCommand::get_DiseqResponse, bdaiface/IBDA_DiseqCommand::get_DiseqResponse, get_DiseqResponse, get_DiseqResponse method [Microsoft TV Technologies], get_DiseqResponse method [Microsoft TV Technologies],IBDA_DiseqCommand interface, mstv.ibda_diseqcommand_get_diseqresponse
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_DiseqCommand.get_DiseqResponse"]
+f1_keywords: 
+ - "bdaiface/IBDA_DiseqCommand.get_DiseqResponse"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

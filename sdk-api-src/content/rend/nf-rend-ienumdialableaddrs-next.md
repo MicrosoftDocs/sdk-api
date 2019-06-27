@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumDialableAddrs interface [TAPI 2.2],Next method, IEnumDialableAddrs.Next, IEnumDialableAddrs::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumDialableAddrs interface, _tapi3_ienumdialableaddrs_next, rend/IEnumDialableAddrs::Next, tapi3.ienumdialableaddrs_next
 ms.topic: method
-f1_keywords: ["rend/IEnumDialableAddrs.Next"]
+f1_keywords: 
+ - "rend/IEnumDialableAddrs.Next"
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

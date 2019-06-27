@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTypeDefProps, GetTypeDefProps method [Windows Runtime], GetTypeDefProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetTypeDefProps method, IMetaDataImport.GetTypeDefProps, IMetaDataImport::GetTypeDefProps, rometadataapi/IMetaDataImport::GetTypeDefProps, winrt.imetadataimport_gettypedefprops
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataImport.GetTypeDefProps"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataImport.GetTypeDefProps"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

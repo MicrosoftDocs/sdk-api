@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTAPE_SET_POSITION, PTAPE_SET_POSITION, PTAPE_SET_POSITION structure pointer [Backup], TAPE_ABSOLUTE_BLOCK, TAPE_LOGICAL_BLOCK, TAPE_REWIND, TAPE_SET_POSITION, TAPE_SET_POSITION structure [Backup], TAPE_SPACE_END_OF_DATA, TAPE_SPACE_FILEMARKS, TAPE_SPACE_RELATIVE_BLOCKS, TAPE_SPACE_SEQUENTIAL_FMKS, TAPE_SPACE_SEQUENTIAL_SMKS, TAPE_SPACE_SETMARKS, _TAPE_SET_POSITION, _win32_tape_set_position_str, backup.tape_set_position_str, winnt/PTAPE_SET_POSITION, winnt/TAPE_SET_POSITION"
 ms.topic: struct
-f1_keywords: ["winnt/TAPE_SET_POSITION"]
+f1_keywords: 
+ - "winnt/TAPE_SET_POSITION"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

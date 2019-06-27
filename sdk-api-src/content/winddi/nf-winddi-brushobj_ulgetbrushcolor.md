@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BRUSHOBJ_ulGetBrushColor, BRUSHOBJ_ulGetBrushColor function [Display Devices], display.brushobj_ulgetbrushcolor, gdifncs_d103f229-9c90-4dbc-ba0b-e909a8371cd8.xml, winddi/BRUSHOBJ_ulGetBrushColor
 ms.topic: function
-f1_keywords: ["winddi/BRUSHOBJ_ulGetBrushColor"]
+f1_keywords: 
+ - "winddi/BRUSHOBJ_ulGetBrushColor"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

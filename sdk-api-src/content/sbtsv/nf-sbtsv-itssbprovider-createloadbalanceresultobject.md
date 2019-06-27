@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateLoadBalanceResultObject, CreateLoadBalanceResultObject method [Remote Desktop Services], CreateLoadBalanceResultObject method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreateLoadBalanceResultObject method, ITsSbProvider.CreateLoadBalanceResultObject, ITsSbProvider::CreateLoadBalanceResultObject, sbtsv/ITsSbProvider::CreateLoadBalanceResultObject, termserv.itssbprovider_createloadbalanceresultobject
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbProvider.CreateLoadBalanceResultObject"]
+f1_keywords: 
+ - "sbtsv/ITsSbProvider.CreateLoadBalanceResultObject"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzRole object [Security],MembersName property, IAzRole interface [Security],MembersName property, IAzRole.MembersName, IAzRole.get_MembersName, IAzRole::MembersName, IAzRole::get_MembersName, MembersName property [Security], MembersName property [Security],AzRole object, MembersName property [Security],IAzRole interface, azroles/IAzRole::MembersName, azroles/IAzRole::get_MembersName, get_MembersName, security.iazrole_membersname
 ms.topic: method
-f1_keywords: ["azroles/IAzRole.MembersName"]
+f1_keywords: 
+ - "azroles/IAzRole.MembersName"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComActivityEvents interface [COM+],OnActivityLeave method, IComActivityEvents.OnActivityLeave, IComActivityEvents::OnActivityLeave, OnActivityLeave, OnActivityLeave method [COM+], OnActivityLeave method [COM+],IComActivityEvents interface, _dtc_IComActivityEvents_OnActivityLeave, comsvcs/IComActivityEvents::OnActivityLeave, cos.icomactivityevents_onactivityleave
 ms.topic: method
-f1_keywords: ["comsvcs/IComActivityEvents.OnActivityLeave"]
+f1_keywords: 
+ - "comsvcs/IComActivityEvents.OnActivityLeave"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

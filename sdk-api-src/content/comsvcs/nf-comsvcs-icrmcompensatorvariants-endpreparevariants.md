@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndPrepareVariants, EndPrepareVariants method [COM+], EndPrepareVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],EndPrepareVariants method, ICrmCompensatorVariants.EndPrepareVariants, ICrmCompensatorVariants::EndPrepareVariants, _dtc_ICrmCompensatorVariants_EndPrepareVariants, comsvcs/ICrmCompensatorVariants::EndPrepareVariants, cos.icrmcompensatorvariants_endpreparevariants
 ms.topic: method
-f1_keywords: ["comsvcs/ICrmCompensatorVariants.EndPrepareVariants"]
+f1_keywords: 
+ - "comsvcs/ICrmCompensatorVariants.EndPrepareVariants"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

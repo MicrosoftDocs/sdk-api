@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ATTRIBUTEINFO, ATTRIBUTEINFO enumeration [Network Policy Server], DESCRIPTION, LDAPNAME, NAME, RESTRICTIONS, SYNTAX, VENDORID, VENDORTYPE, _sdo_attributeinfo, nps.SDO_attributeinfo, sdo.attributeinfo, sdoias/ATTRIBUTEINFO, sdoias/DESCRIPTION, sdoias/LDAPNAME, sdoias/NAME, sdoias/RESTRICTIONS, sdoias/SYNTAX, sdoias/VENDORID, sdoias/VENDORTYPE
 ms.topic: enum
-f1_keywords: ["sdoias/ATTRIBUTEINFO"]
+f1_keywords: 
+ - "sdoias/ATTRIBUTEINFO"
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

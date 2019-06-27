@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertChainFindByIssuerCallback, PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK, PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK callback, PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK callback function [Security], security.certchainfindbyissuercallback, wincrypt/PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK
 ms.topic: callback
-f1_keywords: ["wincrypt/PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK"]
+f1_keywords: 
+ - "wincrypt/PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

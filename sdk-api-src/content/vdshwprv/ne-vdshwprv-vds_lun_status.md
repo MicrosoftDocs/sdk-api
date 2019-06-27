@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PVDS_LUN_STATUS, VDS_LS_FAILED, VDS_LS_NOT_READY, VDS_LS_OFFLINE, VDS_LS_ONLINE, VDS_LS_UNKNOWN, VDS_LUN_STATUS, VDS_LUN_STATUS enumeration [VDS], base.vds_lun_status, vds/VDS_LS_FAILED, vds/VDS_LS_NOT_READY, vds/VDS_LS_OFFLINE, vds/VDS_LS_ONLINE, vds/VDS_LS_UNKNOWN, vds/VDS_LUN_STATUS, vdshwprv/VDS_LS_FAILED, vdshwprv/VDS_LS_NOT_READY, vdshwprv/VDS_LS_OFFLINE, vdshwprv/VDS_LS_ONLINE, vdshwprv/VDS_LS_UNKNOWN, vdshwprv/VDS_LUN_STATUS"
 ms.topic: enum
-f1_keywords: ["vdshwprv/VDS_LUN_STATUS"]
+f1_keywords: 
+ - "vdshwprv/VDS_LUN_STATUS"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

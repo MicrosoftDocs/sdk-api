@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMWriterSink interface [windows Media Format],IsRealTime method, IWMWriterSink.IsRealTime, IWMWriterSink::IsRealTime, IWMWriterSinkIsRealTime, IsRealTime, IsRealTime method [windows Media Format], IsRealTime method [windows Media Format],IWMWriterSink interface, wmformat.iwmwritersink_isrealtime, wmsdkidl/IWMWriterSink::IsRealTime
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriterSink.IsRealTime"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriterSink.IsRealTime"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

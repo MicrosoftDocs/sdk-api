@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseDeviceHandle, CloseDeviceHandle method [Media Foundation], CloseDeviceHandle method [Media Foundation],IMFDXGIDeviceManager interface, IMFDXGIDeviceManager interface [Media Foundation],CloseDeviceHandle method, IMFDXGIDeviceManager.CloseDeviceHandle, IMFDXGIDeviceManager::CloseDeviceHandle, mf.imfdxgidevicemanager_closedevicehandle, mfobjects/IMFDXGIDeviceManager::CloseDeviceHandle
 ms.topic: method
-f1_keywords: ["mfobjects/IMFDXGIDeviceManager.CloseDeviceHandle"]
+f1_keywords: 
+ - "mfobjects/IMFDXGIDeviceManager.CloseDeviceHandle"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

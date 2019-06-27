@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXGI_ADAPTER_DESC3, DXGI_ADAPTER_DESC3 structure [DXGI], direct3ddxgi.dxgi_adapter_desc3, dxgi1_6/DXGI_ADAPTER_DESC3
 ms.topic: struct
-f1_keywords: ["dxgi1_6/DXGI_ADAPTER_DESC3"]
+f1_keywords: 
+ - "dxgi1_6/DXGI_ADAPTER_DESC3"
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows

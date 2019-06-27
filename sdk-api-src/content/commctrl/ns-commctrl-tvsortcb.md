@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPTVSORTCB, LPTVSORTCB, LPTVSORTCB structure pointer [Windows Controls], TVSORTCB, TVSORTCB structure [Windows Controls], _win32_TVSORTCB, _win32_TVSORTCB_cpp, commctrl/LPTVSORTCB, commctrl/TVSORTCB, controls.TVSORTCB, controls._win32_TVSORTCB"
 ms.topic: struct
-f1_keywords: ["commctrl/TVSORTCB"]
+f1_keywords: 
+ - "commctrl/TVSORTCB"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

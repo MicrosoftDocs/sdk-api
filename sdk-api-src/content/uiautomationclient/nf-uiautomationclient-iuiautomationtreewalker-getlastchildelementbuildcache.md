@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLastChildElementBuildCache, GetLastChildElementBuildCache method [Windows Accessibility], GetLastChildElementBuildCache method [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],GetLastChildElementBuildCache method, IUIAutomationTreeWalker.GetLastChildElementBuildCache, IUIAutomationTreeWalker::GetLastChildElementBuildCache, uiauto.uiauto_IUIAutomationTreeWalker_GetLastChildBuildCache, uiauto_IUIAutomationTreeWalker_GetLastChildBuildCache, uiautomationclient/IUIAutomationTreeWalker::GetLastChildElementBuildCache, winauto.uiauto_IUIAutomationTreeWalker_GetLastChildBuildCache
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTreeWalker.GetLastChildElementBuildCache"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTreeWalker.GetLastChildElementBuildCache"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

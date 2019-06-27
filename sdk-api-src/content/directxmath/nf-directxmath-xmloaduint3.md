@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadUInt3, XMLoadUInt3, XMLoadUInt3 method [DirectX Math Support APIs], dxmath.xmloaduint3
 ms.topic: function
-f1_keywords: ["directxmath/XMLoadUInt3"]
+f1_keywords: 
+ - "directxmath/XMLoadUInt3"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

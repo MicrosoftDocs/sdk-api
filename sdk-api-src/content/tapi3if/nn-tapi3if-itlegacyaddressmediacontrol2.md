@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITLegacyAddressMediaControl2, ITLegacyAddressMediaControl2 interface [TAPI 2.2], ITLegacyAddressMediaControl2 interface [TAPI 2.2],described, _tapi3_itlegacyaddressmediacontrol2, tapi3.itlegacyaddressmediacontrol2, tapi3if/ITLegacyAddressMediaControl2
 ms.topic: interface
-f1_keywords: ["tapi3if/ITLegacyAddressMediaControl2"]
+f1_keywords: 
+ - "tapi3if/ITLegacyAddressMediaControl2"
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

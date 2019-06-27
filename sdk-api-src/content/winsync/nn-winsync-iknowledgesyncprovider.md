@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IKnowledgeSyncProvider, IKnowledgeSyncProvider interface [Windows Sync], IKnowledgeSyncProvider interface [Windows Sync],described, winsync.iknowledgesyncprovider, winsync/IKnowledgeSyncProvider
 ms.topic: interface
-f1_keywords: ["winsync/IKnowledgeSyncProvider"]
+f1_keywords: 
+ - "winsync/IKnowledgeSyncProvider"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpatialAudioHrtfDistanceDecayType, SpatialAudioHrtfDistanceDecayType enumeration [Core Audio], SpatialAudioHrtfDistanceDecay_CustomDecay, SpatialAudioHrtfDistanceDecay_NaturalDecay, coreaudio.spatialaudiohrtfdistancedecaytype, spatialaudiohrtf/ SpatialAudioHrtfDistanceDecay_NaturalDecay, spatialaudiohrtf/SpatialAudioHrtfDistanceDecayType, spatialaudiohrtf/SpatialAudioHrtfDistanceDecay_CustomDecay
 ms.topic: enum
-f1_keywords: ["spatialaudiohrtf/SpatialAudioHrtfDistanceDecayType"]
+f1_keywords: 
+ - "spatialaudiohrtf/SpatialAudioHrtfDistanceDecayType"
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows

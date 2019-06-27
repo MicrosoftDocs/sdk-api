@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VMRALLOCATIONINFO, VMRALLOCATIONINFO structure [DirectShow], VMRALLOCATIONINFOStructure, dshow.vmrallocationinfo, strmif/VMRALLOCATIONINFO
 ms.topic: struct
-f1_keywords: ["strmif/VMRALLOCATIONINFO"]
+f1_keywords: 
+ - "strmif/VMRALLOCATIONINFO"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

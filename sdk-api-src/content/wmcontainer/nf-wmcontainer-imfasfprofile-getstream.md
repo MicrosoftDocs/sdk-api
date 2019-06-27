@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 918f6534-811e-42f6-9836-1c77816007fa, GetStream, GetStream method [Media Foundation], GetStream method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],GetStream method, IMFASFProfile.GetStream, IMFASFProfile::GetStream, mf.imfasfprofile_getstream, wmcontainer/IMFASFProfile::GetStream
 ms.topic: method
-f1_keywords: ["wmcontainer/IMFASFProfile.GetStream"]
+f1_keywords: 
+ - "wmcontainer/IMFASFProfile.GetStream"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

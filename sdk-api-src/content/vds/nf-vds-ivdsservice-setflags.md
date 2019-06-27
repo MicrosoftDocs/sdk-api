@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsService interface [VDS],SetFlags method, IVdsService.SetFlags, IVdsService::SetFlags, SetFlags, SetFlags method [VDS], SetFlags method [VDS],IVdsService interface, base.ivdsservice_setflags, vds/IVdsService::SetFlags
 ms.topic: method
-f1_keywords: ["vds/IVdsService.SetFlags"]
+f1_keywords: 
+ - "vds/IVdsService.SetFlags"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

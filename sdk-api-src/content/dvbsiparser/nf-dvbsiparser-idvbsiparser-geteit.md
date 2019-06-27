@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEIT, GetEIT method [Microsoft TV Technologies], GetEIT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetEIT method, IDvbSiParser.GetEIT, IDvbSiParser::GetEIT, IDvbSiParserGetEIT, dvbsiparser/IDvbSiParser::GetEIT, mstv.idvbsiparser_geteit
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbSiParser.GetEIT"]
+f1_keywords: 
+ - "dvbsiparser/IDvbSiParser.GetEIT"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

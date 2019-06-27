@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMINIDUMP_THREAD_EX, MINIDUMP_THREAD_EX, MINIDUMP_THREAD_EX structure, PMINIDUMP_THREAD_EX, PMINIDUMP_THREAD_EX structure pointer, _MINIDUMP_THREAD_EX, _win32_minidump_thread_ex_str, base.minidump_thread_ex_str, minidumpapiset/MINIDUMP_THREAD_EX, minidumpapiset/PMINIDUMP_THREAD_EX"
 ms.topic: struct
-f1_keywords: ["minidumpapiset/MINIDUMP_THREAD_EX"]
+f1_keywords: 
+ - "minidumpapiset/MINIDUMP_THREAD_EX"
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

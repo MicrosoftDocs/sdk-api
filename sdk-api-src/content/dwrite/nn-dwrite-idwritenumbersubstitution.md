@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteNumberSubstitution, IDWriteNumberSubstitution interface [Direct Write], IDWriteNumberSubstitution interface [Direct Write],described, directwrite.IDWriteNumberSubstitution, dwrite/IDWriteNumberSubstitution
 ms.topic: interface
-f1_keywords: ["dwrite/IDWriteNumberSubstitution"]
+f1_keywords: 
+ - "dwrite/IDWriteNumberSubstitution"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

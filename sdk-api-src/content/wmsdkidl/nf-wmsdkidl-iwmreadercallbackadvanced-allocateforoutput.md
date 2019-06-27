@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllocateForOutput, AllocateForOutput method [windows Media Format], AllocateForOutput method [windows Media Format],IWMReaderCallbackAdvanced interface, IWMReaderCallbackAdvanced interface [windows Media Format],AllocateForOutput method, IWMReaderCallbackAdvanced.AllocateForOutput, IWMReaderCallbackAdvanced::AllocateForOutput, IWMReaderCallbackAdvancedAllocateForOutput, wmformat.iwmreadercallbackadvanced_allocateforoutput, wmsdkidl/IWMReaderCallbackAdvanced::AllocateForOutput
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderCallbackAdvanced.AllocateForOutput"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderCallbackAdvanced.AllocateForOutput"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

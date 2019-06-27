@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteImplType, DeleteImplType method [Automation], DeleteImplType method [Automation],ICreateTypeInfo2 interface, ICreateTypeInfo2 interface [Automation],DeleteImplType method, ICreateTypeInfo2.DeleteImplType, ICreateTypeInfo2::DeleteImplType, _oa96_ICreateTypeInfo2_DeleteImplType, automat.icreatetypeinfo2_deleteimpltype, oaidl/ICreateTypeInfo2::DeleteImplType
 ms.topic: method
-f1_keywords: ["oaidl/ICreateTypeInfo2.DeleteImplType"]
+f1_keywords: 
+ - "oaidl/ICreateTypeInfo2.DeleteImplType"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

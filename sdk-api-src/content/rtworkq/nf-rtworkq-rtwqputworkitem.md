@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtwqPutWorkItem, RtwqPutWorkItem function, base.rtwqputworkitem, rtworkq/RtwqPutWorkItem
 ms.topic: function
-f1_keywords: ["rtworkq/RtwqPutWorkItem"]
+f1_keywords: 
+ - "rtworkq/RtwqPutWorkItem"
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

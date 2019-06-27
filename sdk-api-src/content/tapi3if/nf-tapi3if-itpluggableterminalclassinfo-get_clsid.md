@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassInfo interface [TAPI 2.2],get_CLSID method, ITPluggableTerminalClassInfo.get_CLSID, ITPluggableTerminalClassInfo::get_CLSID, _tapi3_itpluggableterminalclassinfo_get_clsid, get_CLSID, get_CLSID method [TAPI 2.2], get_CLSID method [TAPI 2.2],ITPluggableTerminalClassInfo interface, tapi3.itpluggableterminalclassinfo_get_clsid, tapi3if/ITPluggableTerminalClassInfo::get_CLSID
 ms.topic: method
-f1_keywords: ["tapi3if/ITPluggableTerminalClassInfo.get_CLSID"]
+f1_keywords: 
+ - "tapi3if/ITPluggableTerminalClassInfo.get_CLSID"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

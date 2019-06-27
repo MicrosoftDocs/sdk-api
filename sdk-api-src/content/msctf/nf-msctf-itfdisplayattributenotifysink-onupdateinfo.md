@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfDisplayAttributeNotifySink interface [Text Services Framework],OnUpdateInfo method, ITfDisplayAttributeNotifySink.OnUpdateInfo, ITfDisplayAttributeNotifySink::OnUpdateInfo, OnUpdateInfo, OnUpdateInfo method [Text Services Framework], OnUpdateInfo method [Text Services Framework],ITfDisplayAttributeNotifySink interface, _tsf_itfdisplayattributenotifysink_onupdateinfo_ref, msctf/ITfDisplayAttributeNotifySink::OnUpdateInfo, tsf.itfdisplayattributenotifysink_onupdateinfo
 ms.topic: method
-f1_keywords: ["msctf/ITfDisplayAttributeNotifySink.OnUpdateInfo"]
+f1_keywords: 
+ - "msctf/ITfDisplayAttributeNotifySink.OnUpdateInfo"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

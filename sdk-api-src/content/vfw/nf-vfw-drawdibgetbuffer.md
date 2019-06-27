@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawDibGetBuffer, DrawDibGetBuffer function [Windows Multimedia], _win32_DrawDibGetBuffer, multimedia.drawdibgetbuffer, vfw/DrawDibGetBuffer
 ms.topic: function
-f1_keywords: ["vfw/DrawDibGetBuffer"]
+f1_keywords: 
+ - "vfw/DrawDibGetBuffer"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFGetTopoNodeCurrentType, MFGetTopoNodeCurrentType function [Media Foundation], mf.mfgettoponodecurrenttype, mfidl/MFGetTopoNodeCurrentType
 ms.topic: function
-f1_keywords: ["mfidl/MFGetTopoNodeCurrentType"]
+f1_keywords: 
+ - "mfidl/MFGetTopoNodeCurrentType"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT, PSR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT, PSR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT structure pointer [Failover Cluster], SR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT, SR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT structure [Failover Cluster], clusapi/PSR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT, clusapi/SR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT, mscs.sr_resource_type_replicated_disks_result"
 ms.topic: struct
-f1_keywords: ["clusapi/SR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT"]
+f1_keywords: 
+ - "clusapi/SR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

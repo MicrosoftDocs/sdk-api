@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWnd, GetWnd method [Text Services Framework], GetWnd method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetWnd method, ITextStoreAnchor.GetWnd, ITextStoreAnchor::GetWnd, textstor/ITextStoreAnchor::GetWnd, tsf.itextstoreanchor_getwnd
 ms.topic: method
-f1_keywords: ["textstor/ITextStoreAnchor.GetWnd"]
+f1_keywords: 
+ - "textstor/ITextStoreAnchor.GetWnd"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

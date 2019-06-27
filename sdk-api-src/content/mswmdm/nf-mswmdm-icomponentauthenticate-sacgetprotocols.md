@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComponentAuthenticate interface [windows Media Device Manager],SACGetProtocols method, IComponentAuthenticate.SACGetProtocols, IComponentAuthenticate::SACGetProtocols, IComponentAuthenticateSACGetProtocols, SACGetProtocols, SACGetProtocols method [windows Media Device Manager], SACGetProtocols method [windows Media Device Manager],IComponentAuthenticate interface, mswmdm/IComponentAuthenticate::SACGetProtocols, wmdm.icomponentauthenticate_sacgetprotocols
 ms.topic: method
-f1_keywords: ["mswmdm/IComponentAuthenticate.SACGetProtocols"]
+f1_keywords: 
+ - "mswmdm/IComponentAuthenticate.SACGetProtocols"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

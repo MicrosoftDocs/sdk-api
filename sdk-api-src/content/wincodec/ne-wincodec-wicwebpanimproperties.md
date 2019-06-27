@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICWebpAnimLoopCount, WICWebpAnimProperties, WICWebpAnimProperties enumeration [Windows Imaging Component], wic.wicwebpanimproperties, wincodec/WICWebpAnimLoopCount, wincodec/WICWebpAnimProperties
 ms.topic: enum
-f1_keywords: ["wincodec/WICWebpAnimProperties"]
+f1_keywords: 
+ - "wincodec/WICWebpAnimProperties"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

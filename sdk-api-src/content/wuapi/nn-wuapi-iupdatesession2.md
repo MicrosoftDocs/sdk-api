@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateSession2, IUpdateSession2 interface [Windows Update Agent], IUpdateSession2 interface [Windows Update Agent],described, wua.iupdatesession2, wuapi/IUpdateSession2
 ms.topic: interface
-f1_keywords: ["wuapi/IUpdateSession2"]
+f1_keywords: 
+ - "wuapi/IUpdateSession2"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

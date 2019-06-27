@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILegacyIAccessibleProvider interface [Windows Accessibility],SetValue method, ILegacyIAccessibleProvider.SetValue, ILegacyIAccessibleProvider::SetValue, SetValue, SetValue method [Windows Accessibility], SetValue method [Windows Accessibility],ILegacyIAccessibleProvider interface, uiauto.uiauto_ILegacyIAccessibleProvider_SetValue, uiauto_ILegacyIAccessibleProvider_SetValue, uiautomationcore/ILegacyIAccessibleProvider::SetValue, winauto.uiauto_ILegacyIAccessibleProvider_SetValue
 ms.topic: method
-f1_keywords: ["uiautomationcore/ILegacyIAccessibleProvider.SetValue"]
+f1_keywords: 
+ - "uiautomationcore/ILegacyIAccessibleProvider.SetValue"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

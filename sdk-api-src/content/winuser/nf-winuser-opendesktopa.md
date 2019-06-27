@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DF_ALLOWOTHERACCOUNTHOOK, OpenDesktop, OpenDesktop function [Windows Stations and Desktops], OpenDesktopA, OpenDesktopW, _win32_opendesktop, base.opendesktop, winstation.opendesktop, winuser/OpenDesktop, winuser/OpenDesktopA, winuser/OpenDesktopW
 ms.topic: function
-f1_keywords: ["winuser/OpenDesktop"]
+f1_keywords: 
+ - "winuser/OpenDesktop"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

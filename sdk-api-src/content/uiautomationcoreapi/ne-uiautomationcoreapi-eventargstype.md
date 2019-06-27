@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventArgsType, EventArgsType enumeration [Windows Accessibility], EventArgsType_AsyncContentLoaded, EventArgsType_Changes, EventArgsType_Notification, EventArgsType_PropertyChanged, EventArgsType_Simple, EventArgsType_StructureChanged, EventArgsType_TextEditTextChanged, EventArgsType_WindowClosed, uiauto.uiauto_EventArgsTypeEnum, uiauto_EventArgsTypeEnum, uiautomationcoreapi/EventArgsType, uiautomationcoreapi/EventArgsType_AsyncContentLoaded, uiautomationcoreapi/EventArgsType_Changes, uiautomationcoreapi/EventArgsType_Notification, uiautomationcoreapi/EventArgsType_PropertyChanged, uiautomationcoreapi/EventArgsType_Simple, uiautomationcoreapi/EventArgsType_StructureChanged, uiautomationcoreapi/EventArgsType_TextEditTextChanged, uiautomationcoreapi/EventArgsType_WindowClosed, winauto.uiauto_EventArgsTypeEnum
 ms.topic: enum
-f1_keywords: ["uiautomationcoreapi/EventArgsType"]
+f1_keywords: 
+ - "uiautomationcoreapi/EventArgsType"
 req.header: uiautomationcoreapi.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 2537e691-2137-4e4b-90a0-6749a6ceb144, DXVA2FloatToFixed, DXVA2FloatToFixed function [Media Foundation], dxva2api/DXVA2FloatToFixed, mf.dxva2floattofixed
 ms.topic: function
-f1_keywords: ["dxva2api/DXVA2FloatToFixed"]
+f1_keywords: 
+ - "dxva2api/DXVA2FloatToFixed"
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

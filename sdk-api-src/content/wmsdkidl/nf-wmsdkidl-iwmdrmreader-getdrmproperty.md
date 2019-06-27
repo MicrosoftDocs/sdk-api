@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDRMProperty, GetDRMProperty method [windows Media Format], GetDRMProperty method [windows Media Format],IWMDRMReader interface, IWMDRMReader interface [windows Media Format],GetDRMProperty method, IWMDRMReader.GetDRMProperty, IWMDRMReader::GetDRMProperty, IWMDRMReaderGetDRMProperty, wmformat.iwmdrmreader_getdrmproperty, wmsdkidl/IWMDRMReader::GetDRMProperty
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMDRMReader.GetDRMProperty"]
+f1_keywords: 
+ - "wmsdkidl/IWMDRMReader.GetDRMProperty"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

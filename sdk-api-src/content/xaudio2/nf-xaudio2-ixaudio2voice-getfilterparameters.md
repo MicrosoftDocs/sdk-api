@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFilterParameters, GetFilterParameters method [XAudio2 Audio Mixing APIs], GetFilterParameters method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, IXAudio2Voice interface [XAudio2 Audio Mixing APIs],GetFilterParameters method, IXAudio2Voice.GetFilterParameters, IXAudio2Voice::GetFilterParameters, xaudio2.ixaudio2voice_interface_getfilterparameters, xaudio2/IXAudio2Voice::GetFilterParameters
 ms.topic: method
-f1_keywords: ["xaudio2/IXAudio2Voice.GetFilterParameters"]
+f1_keywords: 
+ - "xaudio2/IXAudio2Voice.GetFilterParameters"
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

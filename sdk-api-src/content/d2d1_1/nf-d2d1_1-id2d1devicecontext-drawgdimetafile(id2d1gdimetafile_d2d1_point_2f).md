@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawGdiMetafile, DrawGdiMetafile method [Direct2D], DrawGdiMetafile method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],DrawGdiMetafile method, ID2D1DeviceContext.DrawGdiMetafile, ID2D1DeviceContext.DrawGdiMetafile(ID2D1GdiMetafile,D2D1_POINT_2F), ID2D1DeviceContext::DrawGdiMetafile, ID2D1DeviceContext::DrawGdiMetafile(ID2D1GdiMetafile,D2D1_POINT_2F), d2d1_1/ID2D1DeviceContext::DrawGdiMetafile, direct2d.id2d1devicecontext_drawgdimetafile
 ms.topic: method
-f1_keywords: ["d2d1_1/ID2D1DeviceContext.DrawGdiMetafile"]
+f1_keywords: 
+ - "d2d1_1/ID2D1DeviceContext.DrawGdiMetafile"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

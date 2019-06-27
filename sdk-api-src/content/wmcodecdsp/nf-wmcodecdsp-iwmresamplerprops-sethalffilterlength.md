@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMResamplerProps interface [Media Foundation],SetHalfFilterLength method, IWMResamplerProps.SetHalfFilterLength, IWMResamplerProps::SetHalfFilterLength, SetHalfFilterLength, SetHalfFilterLength method [Media Foundation], SetHalfFilterLength method [Media Foundation],IWMResamplerProps interface, codecapi.iwmresamplerpropssethalffilterlength, mf.iwmresamplerpropssethalffilterlength, wmcodecdsp/IWMResamplerProps::SetHalfFilterLength
 ms.topic: method
-f1_keywords: ["wmcodecdsp/IWMResamplerProps.SetHalfFilterLength"]
+f1_keywords: 
+ - "wmcodecdsp/IWMResamplerProps.SetHalfFilterLength"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

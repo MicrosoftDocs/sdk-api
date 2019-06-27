@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDlgItemText, GetDlgItemText function [Dialog Boxes], GetDlgItemTextA, GetDlgItemTextW, _win32_GetDlgItemText, _win32_getdlgitemtext_cpp, dlgbox.getdlgitemtext, winui._win32_getdlgitemtext, winuser/GetDlgItemText, winuser/GetDlgItemTextA, winuser/GetDlgItemTextW
 ms.topic: function
-f1_keywords: ["winuser/GetDlgItemText"]
+f1_keywords: 
+ - "winuser/GetDlgItemText"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

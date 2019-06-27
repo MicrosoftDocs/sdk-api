@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportServer interface [Windows Deployment Services],SetupManager property, IWdsTransportServer.SetupManager, IWdsTransportServer.get_SetupManager, IWdsTransportServer::SetupManager, IWdsTransportServer::get_SetupManager, SetupManager property [Windows Deployment Services], SetupManager property [Windows Deployment Services],IWdsTransportServer interface, get_SetupManager, wds.iwdstransportserver_setupmanager, wdstptmgmt/IWdsTransportServer::SetupManager, wdstptmgmt/IWdsTransportServer::get_SetupManager
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportServer.SetupManager"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportServer.SetupManager"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

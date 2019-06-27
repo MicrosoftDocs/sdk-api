@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromVariantArrayElem, InitVariantFromVariantArrayElem function [Windows Properties], _shell_InitVariantFromVariantArrayElem, properties.InitVariantFromVariantArrayElem, propvarutil/InitVariantFromVariantArrayElem, shell.InitVariantFromVariantArrayElem
 ms.topic: function
-f1_keywords: ["propvarutil/InitVariantFromVariantArrayElem"]
+f1_keywords: 
+ - "propvarutil/InitVariantFromVariantArrayElem"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

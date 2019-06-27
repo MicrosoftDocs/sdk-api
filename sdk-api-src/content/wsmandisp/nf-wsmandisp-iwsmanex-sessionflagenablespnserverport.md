@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagEnableSPNServerPort method, IWSManEx.SessionFlagEnableSPNServerPort, IWSManEx::SessionFlagEnableSPNServerPort, SessionFlagEnableSPNServerPort, SessionFlagEnableSPNServerPort method [Windows Remote Management], SessionFlagEnableSPNServerPort method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagenablespnserverport, wsmandisp/IWSManEx::SessionFlagEnableSPNServerPort
 ms.topic: method
-f1_keywords: ["wsmandisp/IWSManEx.SessionFlagEnableSPNServerPort"]
+f1_keywords: 
+ - "wsmandisp/IWSManEx.SessionFlagEnableSPNServerPort"
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

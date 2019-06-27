@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginDrag, BeginDrag method [Windows Controls], BeginDrag method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],BeginDrag method, IImageList.BeginDrag, IImageList::BeginDrag, comctl_IImageList_BeginDrag, comctl_IImageList_BeginDrag_cpp, commoncontrols/IImageList::BeginDrag, controls.IImageList_BeginDrag, controls.comctl_IImageList_BeginDrag
 ms.topic: method
-f1_keywords: ["commoncontrols/IImageList.BeginDrag"]
+f1_keywords: 
+ - "commoncontrols/IImageList.BeginDrag"
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

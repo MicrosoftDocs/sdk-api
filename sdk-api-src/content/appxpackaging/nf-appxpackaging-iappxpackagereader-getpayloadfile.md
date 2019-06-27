@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPayloadFile, GetPayloadFile method [App packaging and management], GetPayloadFile method [App packaging and management],IAppxPackageReader interface, IAppxPackageReader interface [App packaging and management],GetPayloadFile method, IAppxPackageReader.GetPayloadFile, IAppxPackageReader::GetPayloadFile, appxpackaging/IAppxPackageReader::GetPayloadFile, appxpkg.iappxpackagereader_getpayloadfile
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxPackageReader.GetPayloadFile"]
+f1_keywords: 
+ - "appxpackaging/IAppxPackageReader.GetPayloadFile"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

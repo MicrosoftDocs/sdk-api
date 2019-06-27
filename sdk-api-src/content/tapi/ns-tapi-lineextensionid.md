@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPLINEEXTENSIONID, LINEEXTENSIONID, LINEEXTENSIONID structure [TAPI 2.2], LPLINEEXTENSIONID, LPLINEEXTENSIONID structure pointer [TAPI 2.2], _tapi2_lineextensionid_str, tapi/LINEEXTENSIONID, tapi/LPLINEEXTENSIONID, tapi2.lineextensionid_str"
 ms.topic: struct
-f1_keywords: ["tapi/LINEEXTENSIONID"]
+f1_keywords: 
+ - "tapi/LINEEXTENSIONID"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

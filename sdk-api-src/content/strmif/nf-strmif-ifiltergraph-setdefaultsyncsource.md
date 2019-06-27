@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFilterGraph interface [DirectShow],SetDefaultSyncSource method, IFilterGraph.SetDefaultSyncSource, IFilterGraph::SetDefaultSyncSource, IFilterGraphSetDefaultSyncSource, SetDefaultSyncSource, SetDefaultSyncSource method [DirectShow], SetDefaultSyncSource method [DirectShow],IFilterGraph interface, dshow.ifiltergraph_setdefaultsyncsource, strmif/IFilterGraph::SetDefaultSyncSource
 ms.topic: method
-f1_keywords: ["strmif/IFilterGraph.SetDefaultSyncSource"]
+f1_keywords: 
+ - "strmif/IFilterGraph.SetDefaultSyncSource"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

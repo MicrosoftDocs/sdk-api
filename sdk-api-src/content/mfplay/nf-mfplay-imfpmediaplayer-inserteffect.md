@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FALSE, IMFPMediaPlayer interface [Media Foundation],InsertEffect method, IMFPMediaPlayer.InsertEffect, IMFPMediaPlayer::InsertEffect, InsertEffect, InsertEffect method [Media Foundation], InsertEffect method [Media Foundation],IMFPMediaPlayer interface, TRUE, mf.imfpmediaplayer_inserteffect, mfplay/IMFPMediaPlayer::InsertEffect
 ms.topic: method
-f1_keywords: ["mfplay/IMFPMediaPlayer.InsertEffect"]
+f1_keywords: 
+ - "mfplay/IMFPMediaPlayer.InsertEffect"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

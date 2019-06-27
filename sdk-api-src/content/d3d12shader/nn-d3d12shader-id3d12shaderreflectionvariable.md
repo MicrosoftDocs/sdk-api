@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12ShaderReflectionVariable, ID3D12ShaderReflectionVariable interface, ID3D12ShaderReflectionVariable interface,described, d3d12shader/ID3D12ShaderReflectionVariable, direct3d12.id3d12shaderreflectionvariable
 ms.topic: interface
-f1_keywords: ["d3d12shader/ID3D12ShaderReflectionVariable"]
+f1_keywords: 
+ - "d3d12shader/ID3D12ShaderReflectionVariable"
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestReader5, IAppxManifestReader5 interface [App packaging and management], IAppxManifestReader5 interface [App packaging and management],described, appxpackaging/IAppxManifestReader5, appxpkg.iappxmanifestreader5
 ms.topic: interface
-f1_keywords: ["appxpackaging/IAppxManifestReader5"]
+f1_keywords: 
+ - "appxpackaging/IAppxManifestReader5"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

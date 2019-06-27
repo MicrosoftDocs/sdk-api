@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumConnections, IEnumConnections interface [COM], IEnumConnections interface [COM],described, _com_ienumconnections, com.ienumconnections, ocidl/IEnumConnections
 ms.topic: interface
-f1_keywords: ["ocidl/IEnumConnections"]
+f1_keywords: 
+ - "ocidl/IEnumConnections"
 req.header: ocidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

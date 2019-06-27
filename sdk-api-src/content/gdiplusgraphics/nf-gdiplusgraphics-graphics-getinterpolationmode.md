@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInterpolationMode, GetInterpolationMode method [GDI+], GetInterpolationMode method [GDI+],Graphics class, Graphics class [GDI+],GetInterpolationMode method, Graphics.GetInterpolationMode, Graphics::GetInterpolationMode, _gdiplus_CLASS_Graphics_GetInterpolationMode_, gdiplus._gdiplus_CLASS_Graphics_GetInterpolationMode_
 ms.topic: method
-f1_keywords: ["gdiplusgraphics/Graphics.GetInterpolationMode"]
+f1_keywords: 
+ - "gdiplusgraphics/Graphics.GetInterpolationMode"
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

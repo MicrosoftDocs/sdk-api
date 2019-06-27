@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [Microsoft Broadband Networks], Connect method [Microsoft Broadband Networks],IMbnConnection interface, IMbnConnection interface [Microsoft Broadband Networks],Connect method, IMbnConnection.Connect, IMbnConnection::Connect, mbn.imbnconnection_connect, mbnapi/IMbnConnection::Connect
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnConnection.Connect"]
+f1_keywords: 
+ - "mbnapi/IMbnConnection.Connect"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

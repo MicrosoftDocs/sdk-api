@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionColorMatrixEffect interface [DirectComposition],SetAlphaMode method, IDCompositionColorMatrixEffect.SetAlphaMode, IDCompositionColorMatrixEffect::SetAlphaMode, SetAlphaMode, SetAlphaMode method [DirectComposition], SetAlphaMode method [DirectComposition],IDCompositionColorMatrixEffect interface, dcomp/IDCompositionColorMatrixEffect::SetAlphaMode, directcomp.idcompositioncolormatrixeffect_setalphamode
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionColorMatrixEffect.SetAlphaMode"]
+f1_keywords: 
+ - "dcomp/IDCompositionColorMatrixEffect.SetAlphaMode"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

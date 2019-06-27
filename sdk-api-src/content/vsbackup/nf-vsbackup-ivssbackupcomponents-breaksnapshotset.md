@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BreakSnapshotSet, BreakSnapshotSet method [VSS], BreakSnapshotSet method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],BreakSnapshotSet method, IVssBackupComponents.BreakSnapshotSet, IVssBackupComponents::BreakSnapshotSet, _win32_ivssbackupcomponents_breaksnapshotset, base.ivssbackupcomponents_breaksnapshotset, vsbackup/IVssBackupComponents::BreakSnapshotSet
 ms.topic: method
-f1_keywords: ["vsbackup/IVssBackupComponents.BreakSnapshotSet"]
+f1_keywords: 
+ - "vsbackup/IVssBackupComponents.BreakSnapshotSet"
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMONMSGSTRUCT, MONMSGSTRUCT, MONMSGSTRUCT structure [Data Exchange], PMONMSGSTRUCT, PMONMSGSTRUCT structure pointer [Data Exchange], _win32_MONMSGSTRUCT_str, _win32_monmsgstruct_str_cpp, dataxchg.monmsgstruct_str, ddeml/MONMSGSTRUCT, ddeml/PMONMSGSTRUCT, winui._win32_monmsgstruct_str"
 ms.topic: struct
-f1_keywords: ["ddeml/MONMSGSTRUCT"]
+f1_keywords: 
+ - "ddeml/MONMSGSTRUCT"
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

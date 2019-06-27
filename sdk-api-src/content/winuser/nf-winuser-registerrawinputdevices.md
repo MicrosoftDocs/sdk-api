@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegisterRawInputDevices, RegisterRawInputDevices function [Keyboard and Mouse Input], _win32_RegisterRawInputDevices, _win32_registerrawinputdevices_cpp, inputdev.registerrawinputdevices, winui._win32_registerrawinputdevices, winuser/RegisterRawInputDevices
 ms.topic: function
-f1_keywords: ["winuser/RegisterRawInputDevices"]
+f1_keywords: 
+ - "winuser/RegisterRawInputDevices"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

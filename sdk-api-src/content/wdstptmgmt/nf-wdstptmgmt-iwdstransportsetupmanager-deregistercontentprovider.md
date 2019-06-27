@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeregisterContentProvider, DeregisterContentProvider method [Windows Deployment Services], DeregisterContentProvider method [Windows Deployment Services],IWdsTransportSetupManager interface, IWdsTransportSetupManager interface [Windows Deployment Services],DeregisterContentProvider method, IWdsTransportSetupManager.DeregisterContentProvider, IWdsTransportSetupManager::DeregisterContentProvider, wds.iwdstransportsetupmanager_deregistercontentprovider, wdstptmgmt/IWdsTransportSetupManager::DeregisterContentProvider
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportSetupManager.DeregisterContentProvider"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportSetupManager.DeregisterContentProvider"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

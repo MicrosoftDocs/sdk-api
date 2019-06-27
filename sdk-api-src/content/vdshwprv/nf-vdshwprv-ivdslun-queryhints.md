@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsLun interface [VDS],QueryHints method, IVdsLun.QueryHints, IVdsLun::QueryHints, QueryHints, QueryHints method [VDS], QueryHints method [VDS],IVdsLun interface, base.ivdslun_queryhints, vds/IVdsLun::QueryHints, vdshwprv/IVdsLun::QueryHints
 ms.topic: method
-f1_keywords: ["vdshwprv/IVdsLun.QueryHints"]
+f1_keywords: 
+ - "vdshwprv/IVdsLun.QueryHints"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

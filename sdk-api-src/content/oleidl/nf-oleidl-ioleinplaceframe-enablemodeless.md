@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnableModeless, EnableModeless method [COM], EnableModeless method [COM],IOleInPlaceFrame interface, IOleInPlaceFrame interface [COM],EnableModeless method, IOleInPlaceFrame.EnableModeless, IOleInPlaceFrame::EnableModeless, _ole_ioleinplaceframe_enablemodeless, com.ioleinplaceframe_enablemodeless, oleidl/IOleInPlaceFrame::EnableModeless
 ms.topic: method
-f1_keywords: ["oleidl/IOleInPlaceFrame.EnableModeless"]
+f1_keywords: 
+ - "oleidl/IOleInPlaceFrame.EnableModeless"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

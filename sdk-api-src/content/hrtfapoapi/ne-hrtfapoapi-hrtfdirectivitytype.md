@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Cardioid, Cone, HrtfDirectivityType, HrtfDirectivityType enumeration [XAudio2 Audio Mixing APIs], OmniDirectional, hrtfapoapi/ Cardioid, hrtfapoapi/ OmniDirectional, hrtfapoapi/Cone, hrtfapoapi/HrtfDirectivityType, xaudio2.hrtfdirectivitytype
 ms.topic: enum
-f1_keywords: ["hrtfapoapi/HrtfDirectivityType"]
+f1_keywords: 
+ - "hrtfapoapi/HrtfDirectivityType"
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows

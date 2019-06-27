@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Tbsi_Revoke_Attestation, Tbsi_Revoke_Attestation function [TBS], tbs.tbsi_revoke_attestation, tbs/Tbsi_Revoke_Attestation
 ms.topic: function
-f1_keywords: ["tbs/Tbsi_Revoke_Attestation"]
+f1_keywords: 
+ - "tbs/Tbsi_Revoke_Attestation"
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows

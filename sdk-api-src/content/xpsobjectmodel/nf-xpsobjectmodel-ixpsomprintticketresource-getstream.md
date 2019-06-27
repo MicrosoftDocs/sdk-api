@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging],IXpsOMPrintTicketResource interface, IXpsOMPrintTicketResource interface [XPS Documents and Packaging],GetStream method, IXpsOMPrintTicketResource.GetStream, IXpsOMPrintTicketResource::GetStream, xps.ixpsomprintticketresource_getstream, xpsobjectmodel/IXpsOMPrintTicketResource::GetStream
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMPrintTicketResource.GetStream"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPrintTicketResource.GetStream"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

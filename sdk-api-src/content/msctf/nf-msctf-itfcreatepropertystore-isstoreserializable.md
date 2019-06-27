@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfCreatePropertyStore interface [Text Services Framework],IsStoreSerializable method, ITfCreatePropertyStore.IsStoreSerializable, ITfCreatePropertyStore::IsStoreSerializable, IsStoreSerializable, IsStoreSerializable method [Text Services Framework], IsStoreSerializable method [Text Services Framework],ITfCreatePropertyStore interface, _tsf_itfcreatepropertystore_isstoreserializable_ref, msctf/ITfCreatePropertyStore::IsStoreSerializable, tsf.itfcreatepropertystore_isstoreserializable
 ms.topic: method
-f1_keywords: ["msctf/ITfCreatePropertyStore.IsStoreSerializable"]
+f1_keywords: 
+ - "msctf/ITfCreatePropertyStore.IsStoreSerializable"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

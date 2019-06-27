@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 3b8edbcf-2f3c-dbad-9241-29cfd861f8cf, CD3D10_TEXTURE1D_DESC, D3D10_TEXTURE1D_DESC, D3D10_TEXTURE1D_DESC structure [Direct3D 10], d3d10/D3D10_TEXTURE1D_DESC, direct3d10.d3d10_texture1d_desc
 ms.topic: struct
-f1_keywords: ["d3d10/D3D10_TEXTURE1D_DESC"]
+f1_keywords: 
+ - "d3d10/D3D10_TEXTURE1D_DESC"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

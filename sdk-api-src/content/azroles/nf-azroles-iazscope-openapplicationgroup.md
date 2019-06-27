@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzScope object [Security],OpenApplicationGroup method, IAzScope interface [Security],OpenApplicationGroup method, IAzScope.OpenApplicationGroup, IAzScope::OpenApplicationGroup, OpenApplicationGroup, OpenApplicationGroup method [Security], OpenApplicationGroup method [Security],AzScope object, OpenApplicationGroup method [Security],IAzScope interface, azroles/IAzScope::OpenApplicationGroup, security.iazscope_openapplicationgroup
 ms.topic: method
-f1_keywords: ["azroles/IAzScope.OpenApplicationGroup"]
+f1_keywords: 
+ - "azroles/IAzScope.OpenApplicationGroup"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

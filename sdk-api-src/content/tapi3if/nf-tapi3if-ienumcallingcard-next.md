@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumCallingCard interface [TAPI 2.2],Next method, IEnumCallingCard.Next, IEnumCallingCard::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumCallingCard interface, _tapi3_ienumcallingcard_next, tapi3.ienumcallingcard_next, tapi3if/IEnumCallingCard::Next
 ms.topic: method
-f1_keywords: ["tapi3if/IEnumCallingCard.Next"]
+f1_keywords: 
+ - "tapi3if/IEnumCallingCard.Next"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Windows Imaging Component], GetCount method [Windows Imaging Component],IWICMetadataBlockReader interface, IWICMetadataBlockReader interface [Windows Imaging Component],GetCount method, IWICMetadataBlockReader.GetCount, IWICMetadataBlockReader::GetCount, _wic_codec_iwicmetadatablockreader_getcount, wic._wic_codec_iwicmetadatablockreader_getcount, wincodecsdk/IWICMetadataBlockReader::GetCount
 ms.topic: method
-f1_keywords: ["wincodecsdk/IWICMetadataBlockReader.GetCount"]
+f1_keywords: 
+ - "wincodecsdk/IWICMetadataBlockReader.GetCount"
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

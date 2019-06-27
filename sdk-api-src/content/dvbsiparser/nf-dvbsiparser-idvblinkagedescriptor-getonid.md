@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetONId, GetONId method [Microsoft TV Technologies], GetONId method [Microsoft TV Technologies],IDvbLinkageDescriptor interface, IDvbLinkageDescriptor interface [Microsoft TV Technologies],GetONId method, IDvbLinkageDescriptor.GetONId, IDvbLinkageDescriptor::GetONId, dvbsiparser/IDvbLinkageDescriptor::GetONId, mstv.idvblinkagedescriptor_getonid
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbLinkageDescriptor.GetONId"]
+f1_keywords: 
+ - "dvbsiparser/IDvbLinkageDescriptor.GetONId"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

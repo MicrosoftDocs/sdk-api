@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAAsyncGetHostByAddr, WSAAsyncGetHostByAddr function [Winsock], _win32_wsaasyncgethostbyaddr_2, winsock.wsaasyncgethostbyaddr_2, wsipv6ok/WSAAsyncGetHostByAddr
 ms.topic: function
-f1_keywords: ["winsock/WSAAsyncGetHostByAddr"]
+f1_keywords: 
+ - "winsock/WSAAsyncGetHostByAddr"
 req.header: winsock.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows

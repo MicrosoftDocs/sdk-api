@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICComponentEnumerateBuiltInOnly, WICComponentEnumerateDefault, WICComponentEnumerateDisabled, WICComponentEnumerateOptions, WICComponentEnumerateOptions enumeration [Windows Imaging Component], WICComponentEnumerateRefresh, WICComponentEnumerateUnsigned, _wic_codec_wiccomponentenumerateoptions, wic._wic_codec_wiccomponentenumerateoptions, wincodec/WICComponentEnumerateBuiltInOnly, wincodec/WICComponentEnumerateDefault, wincodec/WICComponentEnumerateDisabled, wincodec/WICComponentEnumerateOptions, wincodec/WICComponentEnumerateRefresh, wincodec/WICComponentEnumerateUnsigned
 ms.topic: enum
-f1_keywords: ["wincodec/WICComponentEnumerateOptions"]
+f1_keywords: 
+ - "wincodec/WICComponentEnumerateOptions"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

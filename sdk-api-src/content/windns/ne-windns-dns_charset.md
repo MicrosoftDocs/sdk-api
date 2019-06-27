@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DNS_CHARSET, DNS_CHARSET enumeration [DNS], DnsCharSetAnsi, DnsCharSetUnicode, DnsCharSetUnknown, DnsCharSetUtf8, dns.dns_charset, windns/DNS_CHARSET, windns/DnsCharSetAnsi, windns/DnsCharSetUnicode, windns/DnsCharSetUnknown, windns/DnsCharSetUtf8
 ms.topic: enum
-f1_keywords: ["windns/DNS_CHARSET"]
+f1_keywords: 
+ - "windns/DNS_CHARSET"
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

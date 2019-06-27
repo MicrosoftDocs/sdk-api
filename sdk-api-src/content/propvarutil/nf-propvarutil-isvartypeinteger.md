@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsVarTypeInteger, IsVarTypeInteger function [Windows Properties], _shell_IsVarTypeInteger, properties.IsVarTypeInteger, propvarutil/IsVarTypeInteger, shell.IsVarTypeInteger
 ms.topic: function
-f1_keywords: ["propvarutil/IsVarTypeInteger"]
+f1_keywords: 
+ - "propvarutil/IsVarTypeInteger"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

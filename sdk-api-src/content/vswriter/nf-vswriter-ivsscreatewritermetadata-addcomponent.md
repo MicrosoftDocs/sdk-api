@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddComponent, AddComponent method [VSS], AddComponent method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddComponent method, IVssCreateWriterMetadata.AddComponent, IVssCreateWriterMetadata::AddComponent, _win32_ivsscreatewritermetadata_addcomponent, base.ivsscreatewritermetadata_addcomponent, vswriter/IVssCreateWriterMetadata::AddComponent
 ms.topic: method
-f1_keywords: ["vswriter/IVssCreateWriterMetadata.AddComponent"]
+f1_keywords: 
+ - "vswriter/IVssCreateWriterMetadata.AddComponent"
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

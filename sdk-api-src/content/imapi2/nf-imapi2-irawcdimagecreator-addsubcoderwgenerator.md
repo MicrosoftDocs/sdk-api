@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddSubcodeRWGenerator, AddSubcodeRWGenerator method [IMAPI], AddSubcodeRWGenerator method [IMAPI],IRawCDImageCreator interface, IRawCDImageCreator interface [IMAPI],AddSubcodeRWGenerator method, IRawCDImageCreator.AddSubcodeRWGenerator, IRawCDImageCreator::AddSubcodeRWGenerator, imapi.irawcdimagecreator_addsubcoderwgenerator, imapi2/IRawCDImageCreator::AddSubcodeRWGenerator
 ms.topic: method
-f1_keywords: ["imapi2/IRawCDImageCreator.AddSubcodeRWGenerator"]
+f1_keywords: 
+ - "imapi2/IRawCDImageCreator.AddSubcodeRWGenerator"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespaceScheduledCastAutoStart interface [Windows Deployment Services],StartTime property, IWdsTransportNamespaceScheduledCastAutoStart.StartTime, IWdsTransportNamespaceScheduledCastAutoStart.put_StartTime, IWdsTransportNamespaceScheduledCastAutoStart::StartTime, IWdsTransportNamespaceScheduledCastAutoStart::get_StartTime, IWdsTransportNamespaceScheduledCastAutoStart::put_StartTime, StartTime property [Windows Deployment Services], StartTime property [Windows Deployment Services],IWdsTransportNamespaceScheduledCastAutoStart interface, put_StartTime, wds.iwdstransportnamespacescheduledcastautostart_starttime, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart::StartTime, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart::get_StartTime, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart::put_StartTime
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart.StartTime"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart.StartTime"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPNSPLOOKUPSERVICEBEGIN, LUP_ADDRCONFIG, LUP_CONTAINERS, LUP_DEEP, LUP_DUAL_ADDR, LUP_FLUSHCACHE, LUP_FLUSHPREVIOUS, LUP_NEAREST, LUP_NOCONTAINERS, LUP_NON_AUTHORITATIVE, LUP_RES_RESERVICE, LUP_RETURN_ADDR, LUP_RETURN_ALIASES, LUP_RETURN_ALL, LUP_RETURN_BLOB, LUP_RETURN_COMMENT, LUP_RETURN_NAME, LUP_RETURN_PREFERRED_NAMES, LUP_RETURN_QUERY_STRING, LUP_RETURN_TYPE, LUP_RETURN_VERSION, LUP_SECURE, NSPLookupServiceBegin, NSPLookupServiceBegin function [Winsock], _win32_nsplookupservicebegin_2, winsock.nsplookupservicebegin_2, ws2spi/NSPLookupServiceBegin
 ms.topic: callback
-f1_keywords: ["ws2spi/NSPLookupServiceBegin"]
+f1_keywords: 
+ - "ws2spi/NSPLookupServiceBegin"
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

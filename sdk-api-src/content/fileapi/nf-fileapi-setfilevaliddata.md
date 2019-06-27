@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetFileValidData, SetFileValidData function [Files], _win32_setfilevaliddata, base.setfilevaliddata, fileapi/SetFileValidData, fs.setfilevaliddata, winbase/SetFileValidData
 ms.topic: function
-f1_keywords: ["fileapi/SetFileValidData"]
+f1_keywords: 
+ - "fileapi/SetFileValidData"
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

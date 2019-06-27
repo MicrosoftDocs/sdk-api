@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IASetInputLayout, IASetInputLayout method [Direct3D 11], IASetInputLayout method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],IASetInputLayout method, ID3D11DeviceContext.IASetInputLayout, ID3D11DeviceContext::IASetInputLayout, d3d11/ID3D11DeviceContext::IASetInputLayout, direct3d11.id3d11devicecontext_iasetinputlayout, f3e6f365-7707-18d4-cb39-e78b1f31d4c8
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11DeviceContext.IASetInputLayout"]
+f1_keywords: 
+ - "d3d11/ID3D11DeviceContext.IASetInputLayout"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProcessId, GetProcessId method [Media Foundation], GetProcessId method [Media Foundation],IMFSensorProcessActivity interface, IMFSensorProcessActivity interface [Media Foundation],GetProcessId method, IMFSensorProcessActivity.GetProcessId, IMFSensorProcessActivity::GetProcessId, mf.imfsensorprocessactivity_getprocessid, mfidl/IMFSensorProcessActivity::GetProcessId
 ms.topic: method
-f1_keywords: ["mfidl/IMFSensorProcessActivity.GetProcessId"]
+f1_keywords: 
+ - "mfidl/IMFSensorProcessActivity.GetProcessId"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICCompressGetSize, ICCompressGetSize macro [Windows Multimedia], _win32_ICCompressGetSize, multimedia.iccompressgetsize, vfw/ICCompressGetSize
 ms.topic: macro
-f1_keywords: ["vfw/ICCompressGetSize"]
+f1_keywords: 
+ - "vfw/ICCompressGetSize"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_SVG_ASPECT_SCALING, D2D1_SVG_ASPECT_SCALING enumeration [Direct2D], D2D1_SVG_ASPECT_SCALING_FORCE_DWORD, D2D1_SVG_ASPECT_SCALING_MEET, D2D1_SVG_ASPECT_SCALING_SLICE, d2d1svg/D2D1_SVG_ASPECT_SCALING, d2d1svg/D2D1_SVG_ASPECT_SCALING_FORCE_DWORD, d2d1svg/D2D1_SVG_ASPECT_SCALING_MEET, d2d1svg/D2D1_SVG_ASPECT_SCALING_SLICE, direct2d.d2d1_svg_aspect_scaling
 ms.topic: enum
-f1_keywords: ["d2d1svg/D2D1_SVG_ASPECT_SCALING"]
+f1_keywords: 
+ - "d2d1svg/D2D1_SVG_ASPECT_SCALING"
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

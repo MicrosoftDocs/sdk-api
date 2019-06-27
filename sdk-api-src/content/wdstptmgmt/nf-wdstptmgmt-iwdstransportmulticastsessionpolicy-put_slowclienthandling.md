@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportMulticastSessionPolicy interface [Windows Deployment Services],SlowClientHandling property, IWdsTransportMulticastSessionPolicy.SlowClientHandling, IWdsTransportMulticastSessionPolicy.put_SlowClientHandling, IWdsTransportMulticastSessionPolicy::SlowClientHandling, IWdsTransportMulticastSessionPolicy::get_SlowClientHandling, IWdsTransportMulticastSessionPolicy::put_SlowClientHandling, SlowClientHandling property [Windows Deployment Services], SlowClientHandling property [Windows Deployment Services],IWdsTransportMulticastSessionPolicy interface, put_SlowClientHandling, wds.iwdstransportmulticastsessionpolicy_slowclienthandling, wdstptmgmt/IWdsTransportMulticastSessionPolicy::SlowClientHandling, wdstptmgmt/IWdsTransportMulticastSessionPolicy::get_SlowClientHandling, wdstptmgmt/IWdsTransportMulticastSessionPolicy::put_SlowClientHandling
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportMulticastSessionPolicy.SlowClientHandling"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportMulticastSessionPolicy.SlowClientHandling"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeforeNavigate, BeforeNavigate method [Debugging Windows Store apps], BeforeNavigate method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, IWebApplicationNavigationEvents interface [Debugging Windows Store apps],BeforeNavigate method, IWebApplicationNavigationEvents.BeforeNavigate, IWebApplicationNavigationEvents::BeforeNavigate, debug.iwebapplicationnavigationevents_beforenavigate, webapplication/IWebApplicationNavigationEvents::BeforeNavigate
 ms.topic: method
-f1_keywords: ["webapplication/IWebApplicationNavigationEvents.BeforeNavigate"]
+f1_keywords: 
+ - "webapplication/IWebApplicationNavigationEvents.BeforeNavigate"
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEventPublisher interface [COM],PutDefaultProperty method, IEventPublisher.PutDefaultProperty, IEventPublisher::PutDefaultProperty, PutDefaultProperty, PutDefaultProperty method [COM], PutDefaultProperty method [COM],IEventPublisher interface, _com_ieventpublisher_putdefaultproperty, com.ieventpublisher_putdefaultproperty, eventsys/IEventPublisher::PutDefaultProperty
 ms.topic: method
-f1_keywords: ["eventsys/IEventPublisher.PutDefaultProperty"]
+f1_keywords: 
+ - "eventsys/IEventPublisher.PutDefaultProperty"
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

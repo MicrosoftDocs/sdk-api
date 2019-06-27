@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThreadPriorityBoost, GetThreadPriorityBoost function, _win32_getthreadpriorityboost, base.getthreadpriorityboost, processthreadsapi/GetThreadPriorityBoost, winbase/GetThreadPriorityBoost
 ms.topic: function
-f1_keywords: ["processthreadsapi/GetThreadPriorityBoost"]
+f1_keywords: 
+ - "processthreadsapi/GetThreadPriorityBoost"
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows

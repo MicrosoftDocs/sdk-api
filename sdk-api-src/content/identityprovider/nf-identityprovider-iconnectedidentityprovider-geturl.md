@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUrl, GetUrl method [Security], GetUrl method [Security],IConnectedIdentityProvider interface, IConnectedIdentityProvider interface [Security],GetUrl method, IConnectedIdentityProvider.GetUrl, IConnectedIdentityProvider::GetUrl, identityprovider/IConnectedIdentityProvider::GetUrl, security.iconnectedidentityprovider_geturl
 ms.topic: method
-f1_keywords: ["identityprovider/IConnectedIdentityProvider.GetUrl"]
+f1_keywords: 
+ - "identityprovider/IConnectedIdentityProvider.GetUrl"
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows

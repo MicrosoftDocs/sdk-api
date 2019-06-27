@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTfInputProcessorProfiles, IEnumTfInputProcessorProfiles interface [Text Services Framework], IEnumTfInputProcessorProfiles interface [Text Services Framework],described, _tsf_ienumtfinputprocessorprofiles_ref, msctf/IEnumTfInputProcessorProfiles, tsf.ienumtfinputprocessorprofiles
 ms.topic: interface
-f1_keywords: ["msctf/IEnumTfInputProcessorProfiles"]
+f1_keywords: 
+ - "msctf/IEnumTfInputProcessorProfiles"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

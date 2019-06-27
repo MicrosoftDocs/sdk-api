@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinHttpWebSocketQueryCloseStatus, WinHttpWebSocketQueryCloseStatus function [WinHTTP], http.winhttpwebsocketqueryclosestatus, winhttp/WinHttpWebSocketQueryCloseStatus
 ms.topic: function
-f1_keywords: ["winhttp/WinHttpWebSocketQueryCloseStatus"]
+f1_keywords: 
+ - "winhttp/WinHttpWebSocketQueryCloseStatus"
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

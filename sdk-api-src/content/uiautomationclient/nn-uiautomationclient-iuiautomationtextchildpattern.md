@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextChildPattern, IUIAutomationTextChildPattern interface [Windows Accessibility], IUIAutomationTextChildPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationTextChildPattern, winauto.uiauto_IUIAutomationTextChildPattern
 ms.topic: interface
-f1_keywords: ["uiautomationclient/IUIAutomationTextChildPattern"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTextChildPattern"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

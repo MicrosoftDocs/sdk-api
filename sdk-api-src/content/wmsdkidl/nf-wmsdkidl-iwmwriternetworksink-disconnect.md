@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [windows Media Format], Disconnect method [windows Media Format],IWMWriterNetworkSink interface, IWMWriterNetworkSink interface [windows Media Format],Disconnect method, IWMWriterNetworkSink.Disconnect, IWMWriterNetworkSink::Disconnect, IWMWriterNetworkSinkDisconnect, wmformat.iwmwriternetworksink_disconnect, wmsdkidl/IWMWriterNetworkSink::Disconnect
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriterNetworkSink.Disconnect"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriterNetworkSink.Disconnect"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

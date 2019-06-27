@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThemeBackgroundContentRect, GetThemeBackgroundContentRect function [Windows Controls], controls.GetThemeBackgroundContentRect, controls.inet_GetThemeBackgroundContentRect, inet_GetThemeBackgroundContentRect, inet_GetThemeBackgroundContentRect_cpp, uxtheme/GetThemeBackgroundContentRect
 ms.topic: function
-f1_keywords: ["uxtheme/GetThemeBackgroundContentRect"]
+f1_keywords: 
+ - "uxtheme/GetThemeBackgroundContentRect"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

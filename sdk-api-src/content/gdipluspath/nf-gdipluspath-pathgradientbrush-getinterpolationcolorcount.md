@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInterpolationColorCount, GetInterpolationColorCount method [GDI+], GetInterpolationColorCount method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetInterpolationColorCount method, PathGradientBrush.GetInterpolationColorCount, PathGradientBrush::GetInterpolationColorCount, _gdiplus_CLASS_PathGradientBrush_GetInterpolationColorCount_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetInterpolationColorCount_
 ms.topic: method
-f1_keywords: ["gdipluspath/PathGradientBrush.GetInterpolationColorCount"]
+f1_keywords: 
+ - "gdipluspath/PathGradientBrush.GetInterpolationColorCount"
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

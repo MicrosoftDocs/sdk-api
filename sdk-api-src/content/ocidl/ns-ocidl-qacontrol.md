@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QACONTROL, QACONTROL structure [COM], _ctrl_QACONTROL, com.qacontrol, ocidl/QACONTROL
 ms.topic: struct
-f1_keywords: ["ocidl/QACONTROL"]
+f1_keywords: 
+ - "ocidl/QACONTROL"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

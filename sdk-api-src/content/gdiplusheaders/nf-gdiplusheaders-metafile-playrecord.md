@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Metafile class [GDI+],PlayRecord method, Metafile.PlayRecord, Metafile::PlayRecord, PlayRecord, PlayRecord method [GDI+], PlayRecord method [GDI+],Metafile class, _gdiplus_CLASS_Metafile_PlayRecord_recordType_flags_dataSize_data_, gdiplus._gdiplus_CLASS_Metafile_PlayRecord_recordType_flags_dataSize_data_
 ms.topic: method
-f1_keywords: ["gdiplusheaders/Metafile.PlayRecord"]
+f1_keywords: 
+ - "gdiplusheaders/Metafile.PlayRecord"
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICDrawOpen, ICDrawOpen macro [Windows Multimedia], _win32_ICDrawOpen, multimedia.icdrawopen, vfw/ICDrawOpen
 ms.topic: macro
-f1_keywords: ["vfw/ICDrawOpen"]
+f1_keywords: 
+ - "vfw/ICDrawOpen"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScriptGetFontLanguageTags, ScriptGetFontLanguageTags function [Internationalization for Windows Applications], _win32_ScriptGetFontLanguageTags, intl.scriptgetfontlanguagetags, usp10/ScriptGetFontLanguageTags
 ms.topic: function
-f1_keywords: ["usp10/ScriptGetFontLanguageTags"]
+f1_keywords: 
+ - "usp10/ScriptGetFontLanguageTags"
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

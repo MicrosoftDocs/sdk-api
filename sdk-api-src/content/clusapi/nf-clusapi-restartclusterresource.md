@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PCLUSAPI_RESTART_CLUSTER_RESOURCE, PCLUSAPI_RESTART_CLUSTER_RESOURCE function [Failover Cluster], RestartClusterResource, RestartClusterResource function [Failover Cluster], clusapi/PCLUSAPI_RESTART_CLUSTER_RESOURCE, clusapi/RestartClusterResource, mscs.restartclusterresource
 ms.topic: function
-f1_keywords: ["clusapi/RestartClusterResource"]
+f1_keywords: 
+ - "clusapi/RestartClusterResource"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

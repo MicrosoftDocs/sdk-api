@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTime, GetTime method [DirectShow], GetTime method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetTime method, IMediaSample.GetTime, IMediaSample::GetTime, IMediaSampleGetTime, dshow.imediasample_gettime, strmif/IMediaSample::GetTime
 ms.topic: method
-f1_keywords: ["strmif/IMediaSample.GetTime"]
+f1_keywords: 
+ - "strmif/IMediaSample.GetTime"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

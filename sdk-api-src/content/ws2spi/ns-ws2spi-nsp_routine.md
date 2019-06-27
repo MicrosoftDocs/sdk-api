@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPNSP_ROUTINE, NSP_ROUTINE, NSP_ROUTINE structure [Winsock], NSP_ROUTINE,FAR * LPNSP_ROUTINE, NSP_ROUTINE,FAR * LPNSP_ROUTINE structure [Winsock], winsock.nsp_routine, ws2spi/NSP_ROUTINE"
 ms.topic: struct
-f1_keywords: ["ws2spi/NSP_ROUTINE, FAR * LPNSP_ROUTINE"]
+f1_keywords: 
+ - "ws2spi/NSP_ROUTINE, FAR * LPNSP_ROUTINE"
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

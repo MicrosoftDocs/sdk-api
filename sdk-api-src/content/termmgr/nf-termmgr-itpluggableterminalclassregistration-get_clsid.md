@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],get_CLSID method, ITPluggableTerminalClassRegistration.get_CLSID, ITPluggableTerminalClassRegistration::get_CLSID, _tapi3_itpluggableterminalclassregistration_get_clsid, get_CLSID, get_CLSID method [TAPI 2.2], get_CLSID method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_get_clsid, termmgr/ITPluggableTerminalClassRegistration::get_CLSID
 ms.topic: method
-f1_keywords: ["termmgr/ITPluggableTerminalClassRegistration.get_CLSID"]
+f1_keywords: 
+ - "termmgr/ITPluggableTerminalClassRegistration.get_CLSID"
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOffset, GetOffset method [XPS Documents and Packaging], GetOffset method [XPS Documents and Packaging],IXpsOMGradientStop interface, IXpsOMGradientStop interface [XPS Documents and Packaging],GetOffset method, IXpsOMGradientStop.GetOffset, IXpsOMGradientStop::GetOffset, xps.ixpsomgradientstop_getoffset, xpsobjectmodel/IXpsOMGradientStop::GetOffset
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGradientStop.GetOffset"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGradientStop.GetOffset"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

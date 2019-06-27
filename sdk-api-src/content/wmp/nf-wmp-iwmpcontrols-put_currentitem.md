@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],put_currentItem method, IWMPControls.put_currentItem, IWMPControls::put_currentItem, IWMPControlsput_currentItem, put_currentItem, put_currentItem method [Windows Media Player], put_currentItem method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_put_currentitem, wmp/IWMPControls::put_currentItem
 ms.topic: method
-f1_keywords: ["wmp/IWMPControls.put_currentItem"]
+f1_keywords: 
+ - "wmp/IWMPControls.put_currentItem"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

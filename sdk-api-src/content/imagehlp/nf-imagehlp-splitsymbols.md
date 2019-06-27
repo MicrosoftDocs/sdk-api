@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SPLITSYM_EXTRACT_ALL, SPLITSYM_REMOVE_PRIVATE, SPLITSYM_SYMBOLPATH_IS_SRC, SplitSymbols, SplitSymbols function, _win32_splitsymbols, base.splitsymbols, imagehlp/SplitSymbols
 ms.topic: function
-f1_keywords: ["imagehlp/SplitSymbols"]
+f1_keywords: 
+ - "imagehlp/SplitSymbols"
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IKsJackSinkInformation, IKsJackSinkInformation interface [Core Audio], IKsJackSinkInformation interface [Core Audio],described, coreaudio.iksjacksinkinformation, devicetopology/IKsJackSinkInformation
 ms.topic: interface
-f1_keywords: ["devicetopology/IKsJackSinkInformation"]
+f1_keywords: 
+ - "devicetopology/IKsJackSinkInformation"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

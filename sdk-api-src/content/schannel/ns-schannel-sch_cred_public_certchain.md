@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSCH_CRED_PUBLIC_CERTCHAIN, PSCH_CRED_PUBLIC_CERTCHAIN, PSCH_CRED_PUBLIC_CERTCHAIN structure pointer [Security], SCH_CRED_PUBLIC_CERTCHAIN, SCH_CRED_PUBLIC_CERTCHAIN structure [Security], _ssp_sch_cred_public_certchain, schannel/PSCH_CRED_PUBLIC_CERTCHAIN, schannel/SCH_CRED_PUBLIC_CERTCHAIN, security.sch_cred_public_certchain"
 ms.topic: struct
-f1_keywords: ["schannel/SCH_CRED_PUBLIC_CERTCHAIN"]
+f1_keywords: 
+ - "schannel/SCH_CRED_PUBLIC_CERTCHAIN"
 req.header: schannel.h
 req.include-header: Schnlsp.h
 req.target-type: Windows

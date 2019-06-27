@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INamespaceWalk, INamespaceWalk interface [Windows Shell], INamespaceWalk interface [Windows Shell],described, _win32_INamespaceWalk, shell.INamespaceWalk, shobjidl_core/INamespaceWalk
 ms.topic: interface
-f1_keywords: ["shobjidl_core/INamespaceWalk"]
+f1_keywords: 
+ - "shobjidl_core/INamespaceWalk"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

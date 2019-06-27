@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegisterActiveObject, RegisterActiveObject function [Automation], _oa96_RegisterActiveObject, automat.registeractiveobject, oleauto/RegisterActiveObject
 ms.topic: function
-f1_keywords: ["oleauto/RegisterActiveObject"]
+f1_keywords: 
+ - "oleauto/RegisterActiveObject"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

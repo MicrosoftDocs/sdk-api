@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RPC_EXTENDED_ERROR_INFO, RPC_EXTENDED_ERROR_INFO structure [RPC], _rpc_rpc_extended_error_info, rpc.rpc_extended_error_info, rpcasync/RPC_EXTENDED_ERROR_INFO
 ms.topic: struct
-f1_keywords: ["rpcasync/RPC_EXTENDED_ERROR_INFO"]
+f1_keywords: 
+ - "rpcasync/RPC_EXTENDED_ERROR_INFO"
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

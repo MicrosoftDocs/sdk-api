@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPersistQuery interface [Active Directory],ReadString method, IPersistQuery.ReadString, IPersistQuery::ReadString, ReadString, ReadString method [Active Directory], ReadString method [Active Directory],IPersistQuery interface, _glines_ipersistquery_readstring, ad.ipersistquery__readstring, ad.ipersistquery_readstring, cmnquery/IPersistQuery::ReadString
 ms.topic: method
-f1_keywords: ["cmnquery/IPersistQuery.ReadString"]
+f1_keywords: 
+ - "cmnquery/IPersistQuery.ReadString"
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

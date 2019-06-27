@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FinishInitialization, FinishInitialization method [Media Foundation], FinishInitialization method [Media Foundation],IOPMVideoOutput interface, IOPMVideoOutput interface [Media Foundation],FinishInitialization method, IOPMVideoOutput.FinishInitialization, IOPMVideoOutput::FinishInitialization, mf.iopmvideooutput_iopmvideooutput__finishinitialization, opmapi/IOPMVideoOutput::FinishInitialization
 ms.topic: method
-f1_keywords: ["opmapi/IOPMVideoOutput.FinishInitialization"]
+f1_keywords: 
+ - "opmapi/IOPMVideoOutput.FinishInitialization"
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

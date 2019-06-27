@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProtocolHandlerSite, IProtocolHandlerSite interface [search], IProtocolHandlerSite interface [search],described, _search_IProtocolHandlerSite, search._search_IProtocolHandlerSite, searchapi/IProtocolHandlerSite
 ms.topic: interface
-f1_keywords: ["searchapi/IProtocolHandlerSite"]
+f1_keywords: 
+ - "searchapi/IProtocolHandlerSite"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

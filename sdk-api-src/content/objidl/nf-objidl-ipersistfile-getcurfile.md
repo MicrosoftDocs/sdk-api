@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurFile, GetCurFile method [COM], GetCurFile method [COM],IPersistFile interface, IPersistFile interface [COM],GetCurFile method, IPersistFile.GetCurFile, IPersistFile::GetCurFile, _com_ipersistfile_getcurfile, com.ipersistfile_getcurfile, objidl/IPersistFile::GetCurFile
 ms.topic: method
-f1_keywords: ["objidl/IPersistFile.GetCurFile"]
+f1_keywords: 
+ - "objidl/IPersistFile.GetCurFile"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

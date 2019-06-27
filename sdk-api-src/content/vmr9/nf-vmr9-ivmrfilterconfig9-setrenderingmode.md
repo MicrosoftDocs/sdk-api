@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRFilterConfig9 interface [DirectShow],SetRenderingMode method, IVMRFilterConfig9.SetRenderingMode, IVMRFilterConfig9::SetRenderingMode, IVMRFilterConfig9SetRenderingMode, SetRenderingMode, SetRenderingMode method [DirectShow], SetRenderingMode method [DirectShow],IVMRFilterConfig9 interface, dshow.ivmrfilterconfig9_setrenderingmode, vmr9/IVMRFilterConfig9::SetRenderingMode
 ms.topic: method
-f1_keywords: ["vmr9/IVMRFilterConfig9.SetRenderingMode"]
+f1_keywords: 
+ - "vmr9/IVMRFilterConfig9.SetRenderingMode"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

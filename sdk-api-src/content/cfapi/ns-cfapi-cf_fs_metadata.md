@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CF_FS_METADATA, CF_FS_METADATA structure, cfapi/CF_FS_METADATA, cloudApi.cf_fs_metadata
 ms.topic: struct
-f1_keywords: ["cfapi/CF_FS_METADATA"]
+f1_keywords: 
+ - "cfapi/CF_FS_METADATA"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

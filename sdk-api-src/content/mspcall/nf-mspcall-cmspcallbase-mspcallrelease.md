@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CMSPCallBase interface [TAPI 2.2],MSPCallRelease method, CMSPCallBase.MSPCallRelease, CMSPCallBase::MSPCallRelease, MSPCallRelease, MSPCallRelease method [TAPI 2.2], MSPCallRelease method [TAPI 2.2],CMSPCallBase interface, _tapi3_cmspcallbase_mspcallrelease, mspcall/CMSPCallBase::MSPCallRelease, tapi3.cmspcallbase_mspcallrelease
 ms.topic: method
-f1_keywords: ["mspcall/CMSPCallBase.MSPCallRelease"]
+f1_keywords: 
+ - "mspcall/CMSPCallBase.MSPCallRelease"
 req.header: mspcall.h
 req.include-header: 
 req.target-type: Windows

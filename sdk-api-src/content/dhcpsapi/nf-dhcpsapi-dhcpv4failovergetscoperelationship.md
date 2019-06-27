@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpV4FailoverGetScopeRelationship, DhcpV4FailoverGetScopeRelationship function [DHCP], dhcp.dhcpv4failovergetscoperelationship, dhcpsapi/DhcpV4FailoverGetScopeRelationship
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpV4FailoverGetScopeRelationship"]
+f1_keywords: 
+ - "dhcpsapi/DhcpV4FailoverGetScopeRelationship"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

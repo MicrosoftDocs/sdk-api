@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSubType, GetSubType method [Core Audio], GetSubType method [Core Audio],IPart interface, IPart interface [Core Audio],GetSubType method, IPart.GetSubType, IPart::GetSubType, IPartGetSubType, coreaudio.ipart_getsubtype, devicetopology/IPart::GetSubType
 ms.topic: method
-f1_keywords: ["devicetopology/IPart.GetSubType"]
+f1_keywords: 
+ - "devicetopology/IPart.GetSubType"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

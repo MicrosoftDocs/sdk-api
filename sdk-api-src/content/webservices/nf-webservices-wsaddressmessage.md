@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsAddressMessage, WsAddressMessage function [Web Services for Windows], webservices/WsAddressMessage, wsw.wsaddressmessage
 ms.topic: function
-f1_keywords: ["webservices/WsAddressMessage"]
+f1_keywords: 
+ - "webservices/WsAddressMessage"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

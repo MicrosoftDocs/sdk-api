@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],ReceiveTSPAddressData method, CMSPAddress.ReceiveTSPAddressData, CMSPAddress::ReceiveTSPAddressData, ReceiveTSPAddressData, ReceiveTSPAddressData method [TAPI 2.2], ReceiveTSPAddressData method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_receivetspaddressdata, mspaddr/CMSPAddress::ReceiveTSPAddressData, tapi3.cmspaddress_receivetspaddressdata
 ms.topic: method
-f1_keywords: ["mspaddr/CMSPAddress.ReceiveTSPAddressData"]
+f1_keywords: 
+ - "mspaddr/CMSPAddress.ReceiveTSPAddressData"
 req.header: mspaddr.h
 req.include-header: 
 req.target-type: Windows

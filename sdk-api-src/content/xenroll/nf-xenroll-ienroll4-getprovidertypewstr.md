@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],getProviderTypeWStr method, IEnroll4.getProviderTypeWStr, IEnroll4::getProviderTypeWStr, getProviderTypeWStr, getProviderTypeWStr method [Security], getProviderTypeWStr method [Security],IEnroll4 interface, security.ienroll4_getprovidertypewstr, xenroll/IEnroll4::getProviderTypeWStr
 ms.topic: method
-f1_keywords: ["xenroll/IEnroll4.getProviderTypeWStr"]
+f1_keywords: 
+ - "xenroll/IEnroll4.getProviderTypeWStr"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

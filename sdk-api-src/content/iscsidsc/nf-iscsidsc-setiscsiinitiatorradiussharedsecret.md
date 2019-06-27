@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetIScsiInitiatorRADIUSSharedSecret, SetIscsiInitiatorRADIUSSharedSecret, SetIscsiInitiatorRADIUSSharedSecret function [iSCSI Discovery Library API], iscsidisc.setiscsiinitiatorradiussharedsecret, iscsidsc/SetIscsiInitiatorRADIUSSharedSecret
 ms.topic: function
-f1_keywords: ["iscsidsc/SetIscsiInitiatorRADIUSSharedSecret"]
+f1_keywords: 
+ - "iscsidsc/SetIscsiInitiatorRADIUSSharedSecret"
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

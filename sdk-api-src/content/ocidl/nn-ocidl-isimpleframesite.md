@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISimpleFrameSite, ISimpleFrameSite interface [COM], ISimpleFrameSite interface [COM],described, _ctrl_isimpleframesite, com.isimpleframesite, ocidl/ISimpleFrameSite
 ms.topic: interface
-f1_keywords: ["ocidl/ISimpleFrameSite"]
+f1_keywords: 
+ - "ocidl/ISimpleFrameSite"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

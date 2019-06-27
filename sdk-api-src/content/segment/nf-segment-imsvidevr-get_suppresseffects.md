@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidEVR interface [Microsoft TV Technologies],get_SuppressEffects method, IMSVidEVR.get_SuppressEffects, IMSVidEVR::get_SuppressEffects, IMSVidEVRget_SuppressEffects, get_SuppressEffects, get_SuppressEffects method [Microsoft TV Technologies], get_SuppressEffects method [Microsoft TV Technologies],IMSVidEVR interface, mstv.imsvidevr_get_suppresseffects, segment/IMSVidEVR::get_SuppressEffects
 ms.topic: method
-f1_keywords: ["segment/IMSVidEVR.get_SuppressEffects"]
+f1_keywords: 
+ - "segment/IMSVidEVR.get_SuppressEffects"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

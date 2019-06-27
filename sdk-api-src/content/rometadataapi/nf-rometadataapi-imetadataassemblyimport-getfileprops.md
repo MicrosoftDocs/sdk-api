@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFileProps, GetFileProps method [Windows Runtime], GetFileProps method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],GetFileProps method, IMetaDataAssemblyImport.GetFileProps, IMetaDataAssemblyImport::GetFileProps, rometadataapi/IMetaDataAssemblyImport::GetFileProps, winrt.imetadataassemblyimport_getfileprops
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataAssemblyImport.GetFileProps"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataAssemblyImport.GetFileProps"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

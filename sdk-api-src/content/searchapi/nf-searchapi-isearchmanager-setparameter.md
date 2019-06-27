@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchManager interface [search],SetParameter method, ISearchManager.SetParameter, ISearchManager::SetParameter, SetParameter, SetParameter method [search], SetParameter method [search],ISearchManager interface, _search_ISearchManager_SetParameter, search._search_ISearchManager_SetParameter, searchapi/ISearchManager::SetParameter
 ms.topic: method
-f1_keywords: ["searchapi/ISearchManager.SetParameter"]
+f1_keywords: 
+ - "searchapi/ISearchManager.SetParameter"
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows

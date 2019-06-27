@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfSystemLangBarItemSink interface [Text Services Framework],OnMenuSelect method, ITfSystemLangBarItemSink.OnMenuSelect, ITfSystemLangBarItemSink::OnMenuSelect, OnMenuSelect, OnMenuSelect method [Text Services Framework], OnMenuSelect method [Text Services Framework],ITfSystemLangBarItemSink interface, _tsf_itfsystemlangbaritemsink_onmenuselect_ref, ctfutb/ITfSystemLangBarItemSink::OnMenuSelect, tsf.itfsystemlangbaritemsink_onmenuselect
 ms.topic: method
-f1_keywords: ["ctfutb/ITfSystemLangBarItemSink.OnMenuSelect"]
+f1_keywords: 
+ - "ctfutb/ITfSystemLangBarItemSink.OnMenuSelect"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FhConfigMgr class [Windows API],SaveConfiguration method, IFhConfigMgr interface [Windows API],SaveConfiguration method, IFhConfigMgr.SaveConfiguration, IFhConfigMgr::SaveConfiguration, SaveConfiguration, SaveConfiguration method [Windows API], SaveConfiguration method [Windows API],FhConfigMgr class, SaveConfiguration method [Windows API],IFhConfigMgr interface, fhcfg/IFhConfigMgr::SaveConfiguration, winprog.ifhconfigmgr_saveconfiguration
 ms.topic: method
-f1_keywords: ["fhcfg/IFhConfigMgr.SaveConfiguration"]
+f1_keywords: 
+ - "fhcfg/IFhConfigMgr.SaveConfiguration"
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

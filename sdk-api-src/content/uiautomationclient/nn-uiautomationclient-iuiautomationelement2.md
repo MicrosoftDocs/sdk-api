@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationElement2, IUIAutomationElement2 interface [Windows Accessibility], IUIAutomationElement2 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationElement2, winauto.uiauto_IUIAutomationElement2
 ms.topic: interface
-f1_keywords: ["uiautomationclient/IUIAutomationElement2"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement2"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

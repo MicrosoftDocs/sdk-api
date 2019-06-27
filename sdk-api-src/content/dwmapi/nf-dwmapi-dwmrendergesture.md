@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DwmRenderGesture, DwmRenderGesture function [Desktop Window Manager], dwm.dwmrendergesture, dwmapi/DwmRenderGesture
 ms.topic: function
-f1_keywords: ["dwmapi/DwmRenderGesture"]
+f1_keywords: 
+ - "dwmapi/DwmRenderGesture"
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

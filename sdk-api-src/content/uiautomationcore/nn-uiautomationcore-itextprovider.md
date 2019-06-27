@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextProvider, ITextProvider interface [Windows Accessibility], ITextProvider interface [Windows Accessibility],described, uiauto.uiauto_ITextProvider, uiauto_ITextProvider, uiautomationcore/ITextProvider, winauto.uiauto_ITextProvider
 ms.topic: interface
-f1_keywords: ["uiautomationcore/ITextProvider"]
+f1_keywords: 
+ - "uiautomationcore/ITextProvider"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

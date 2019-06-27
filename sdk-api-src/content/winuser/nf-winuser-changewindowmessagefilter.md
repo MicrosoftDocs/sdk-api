@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ChangeWindowMessageFilter, ChangeWindowMessageFilter function [Windows and Messages], MSGFLT_ADD, MSGFLT_REMOVE, _win32_ChangeWindowMessageFilter, _win32_changewindowmessagefilter_cpp, winmsg.changewindowmessagefilter, winui._win32_changewindowmessagefilter, winuser/ChangeWindowMessageFilter
 ms.topic: function
-f1_keywords: ["winuser/ChangeWindowMessageFilter"]
+f1_keywords: 
+ - "winuser/ChangeWindowMessageFilter"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

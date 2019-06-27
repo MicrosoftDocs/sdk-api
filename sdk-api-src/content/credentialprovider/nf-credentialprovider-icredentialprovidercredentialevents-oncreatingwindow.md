@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],OnCreatingWindow method, ICredentialProviderCredentialEvents.OnCreatingWindow, ICredentialProviderCredentialEvents::OnCreatingWindow, OnCreatingWindow, OnCreatingWindow method [Windows Shell], OnCreatingWindow method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_OnCreatingWindow, credentialprovider/ICredentialProviderCredentialEvents::OnCreatingWindow, shell.ICredentialProviderCredentialEvents_OnCreatingWindow
 ms.topic: method
-f1_keywords: ["credentialprovider/ICredentialProviderCredentialEvents.OnCreatingWindow"]
+f1_keywords: 
+ - "credentialprovider/ICredentialProviderCredentialEvents.OnCreatingWindow"
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

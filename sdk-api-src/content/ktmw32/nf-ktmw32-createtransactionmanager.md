@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTransactionManager, CreateTransactionManager function [Files], TRANSACTION_MANAGER_VOLATILE, fs.createtransactionmanager, ktmw32/CreateTransactionManager
 ms.topic: function
-f1_keywords: ["ktmw32/CreateTransactionManager"]
+f1_keywords: 
+ - "ktmw32/CreateTransactionManager"
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

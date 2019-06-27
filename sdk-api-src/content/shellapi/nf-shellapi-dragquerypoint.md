@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DragQueryPoint, DragQueryPoint function [Windows Shell], _win32_DragQueryPoint, shell.DragQueryPoint, shellapi/DragQueryPoint
 ms.topic: function
-f1_keywords: ["shellapi/DragQueryPoint"]
+f1_keywords: 
+ - "shellapi/DragQueryPoint"
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

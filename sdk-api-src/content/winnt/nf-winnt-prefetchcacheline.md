@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PF_NON_TEMPORAL_LEVEL_ALL, PF_TEMPORAL_LEVEL_1, PreFetchCacheLine, PreFetchCacheLine macro, base.prefetchcacheline, winnt/PreFetchCacheLine
 ms.topic: macro
-f1_keywords: ["winnt/PreFetchCacheLine"]
+f1_keywords: 
+ - "winnt/PreFetchCacheLine"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

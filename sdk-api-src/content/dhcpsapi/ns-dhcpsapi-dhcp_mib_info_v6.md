@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_MIB_INFO_V6, DHCP_MIB_INFO_V6, DHCP_MIB_INFO_V6 structure [DHCP], PDHCP_MIB_INFO_V6, PDHCP_MIB_INFO_V6 structure pointer [DHCP], dhcp.dhcp_mib_info_v6, dhcpsapi/DHCP_MIB_INFO_V6, dhcpsapi/PDHCP_MIB_INFO_V6"
 ms.topic: struct
-f1_keywords: ["dhcpsapi/DHCP_MIB_INFO_V6"]
+f1_keywords: 
+ - "dhcpsapi/DHCP_MIB_INFO_V6"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

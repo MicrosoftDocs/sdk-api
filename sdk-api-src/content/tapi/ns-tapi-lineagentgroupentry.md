@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPLINEAGENTGROUPENTRY, LINEAGENTGROUPENTRY, LINEAGENTGROUPENTRY structure [TAPI 2.2], LPLINEAGENTGROUPENTRY, LPLINEAGENTGROUPENTRY structure pointer [TAPI 2.2], _tapi2_lineagentgroupentry_str, tapi/LINEAGENTGROUPENTRY, tapi/LPLINEAGENTGROUPENTRY, tapi2.lineagentgroupentry_str"
 ms.topic: struct
-f1_keywords: ["tapi/LINEAGENTGROUPENTRY"]
+f1_keywords: 
+ - "tapi/LINEAGENTGROUPENTRY"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

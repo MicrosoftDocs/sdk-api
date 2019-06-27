@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],Id property, ISpellCheckProvider.Id, ISpellCheckProvider.get_Id, ISpellCheckProvider::Id, ISpellCheckProvider::get_Id, Id property [Internationalization for Windows Applications], Id property [Internationalization for Windows Applications],ISpellCheckProvider interface, get_Id, intl.ispellcheckprovider_id, spellcheckprovider/ISpellCheckProvider::Id, spellcheckprovider/ISpellCheckProvider::get_Id
 ms.topic: method
-f1_keywords: ["spellcheckprovider/ISpellCheckProvider.Id"]
+f1_keywords: 
+ - "spellcheckprovider/ISpellCheckProvider.Id"
 req.header: spellcheckprovider.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISelector interface [DirectShow],put_SourceNodeId method, ISelector.put_SourceNodeId, ISelector::put_SourceNodeId, ISelectorput_SourceNodeId, dshow.iselector_put_sourcenodeid, put_SourceNodeId, put_SourceNodeId method [DirectShow], put_SourceNodeId method [DirectShow],ISelector interface, vidcap/ISelector::put_SourceNodeId
 ms.topic: method
-f1_keywords: ["vidcap/ISelector.put_SourceNodeId"]
+f1_keywords: 
+ - "vidcap/ISelector.put_SourceNodeId"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

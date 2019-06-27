@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumViews, EnumViews method [COM], EnumViews method [COM],IOleDocument interface, IOleDocument interface [COM],EnumViews method, IOleDocument.EnumViews, IOleDocument::EnumViews, _ole_ioledocument_enumviews, com.ioledocument_enumviews, docobj/IOleDocument::EnumViews
 ms.topic: method
-f1_keywords: ["docobj/IOleDocument.EnumViews"]
+f1_keywords: 
+ - "docobj/IOleDocument.EnumViews"
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

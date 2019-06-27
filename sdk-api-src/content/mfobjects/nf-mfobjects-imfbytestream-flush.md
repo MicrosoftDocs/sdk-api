@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 16ea6c38-52f3-405e-8a8f-be5d0527099c, Flush, Flush method [Media Foundation], Flush method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],Flush method, IMFByteStream.Flush, IMFByteStream::Flush, mf.imfbytestream_flush, mfobjects/IMFByteStream::Flush
 ms.topic: method
-f1_keywords: ["mfobjects/IMFByteStream.Flush"]
+f1_keywords: 
+ - "mfobjects/IMFByteStream.Flush"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

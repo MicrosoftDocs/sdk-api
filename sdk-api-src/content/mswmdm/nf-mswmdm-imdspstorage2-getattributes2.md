@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAttributes2, GetAttributes2 method [windows Media Device Manager], GetAttributes2 method [windows Media Device Manager],IMDSPStorage2 interface, IMDSPStorage2 interface [windows Media Device Manager],GetAttributes2 method, IMDSPStorage2.GetAttributes2, IMDSPStorage2::GetAttributes2, IMDSPStorage2GetAttributes2, mswmdm/IMDSPStorage2::GetAttributes2, wmdm.imdspstorage2_getattributes2
 ms.topic: method
-f1_keywords: ["mswmdm/IMDSPStorage2.GetAttributes2"]
+f1_keywords: 
+ - "mswmdm/IMDSPStorage2.GetAttributes2"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

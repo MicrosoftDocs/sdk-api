@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],get_Bandwidth method, IBDA_FrequencyFilter.get_Bandwidth, IBDA_FrequencyFilter::get_Bandwidth, IBDA_FrequencyFilterget_Bandwidth, bdaiface/IBDA_FrequencyFilter::get_Bandwidth, get_Bandwidth, get_Bandwidth method [Microsoft TV Technologies], get_Bandwidth method [Microsoft TV Technologies],IBDA_FrequencyFilter interface, mstv.ibda_frequencyfilter_get_bandwidth
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_FrequencyFilter.get_Bandwidth"]
+f1_keywords: 
+ - "bdaiface/IBDA_FrequencyFilter.get_Bandwidth"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

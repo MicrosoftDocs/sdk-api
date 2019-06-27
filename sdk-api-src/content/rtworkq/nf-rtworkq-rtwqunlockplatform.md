@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtwqUnlockPlatform, RtwqUnlockPlatform function, base.rtwqunlockplatform, rtworkq/RtwqUnlockPlatform
 ms.topic: function
-f1_keywords: ["rtworkq/RtwqUnlockPlatform"]
+f1_keywords: 
+ - "rtworkq/RtwqUnlockPlatform"
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

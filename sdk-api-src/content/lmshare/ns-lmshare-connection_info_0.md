@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCONNECTION_INFO_0, *PCONNECTION_INFO_0, CONNECTION_INFO_0, CONNECTION_INFO_0 structure [Files], LPCONNECTION_INFO_0, LPCONNECTION_INFO_0 structure pointer [Files], PCONNECTION_INFO_0, PCONNECTION_INFO_0 structure pointer [Files], _win32_connection_info_0_str, fs.connection_info_0_str, lmshare/CONNECTION_INFO_0, lmshare/LPCONNECTION_INFO_0, lmshare/PCONNECTION_INFO_0, netmgmt.connection_info_0_str"
 ms.topic: struct
-f1_keywords: ["lmshare/CONNECTION_INFO_0"]
+f1_keywords: 
+ - "lmshare/CONNECTION_INFO_0"
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiEnumPatches, MsiEnumPatches function, MsiEnumPatchesA, MsiEnumPatchesW, _msi_msienumpatches, msi/MsiEnumPatches, msi/MsiEnumPatchesA, msi/MsiEnumPatchesW, setup.msienumpatches
 ms.topic: function
-f1_keywords: ["msi/MsiEnumPatches"]
+f1_keywords: 
+ - "msi/MsiEnumPatches"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

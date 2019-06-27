@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DismountNtmsDrive, DismountNtmsDrive function [Files], _zaw_dismountntmsdrive, base.dismountntmsdrive, fs.dismountntmsdrive, ntmsapi/DismountNtmsDrive
 ms.topic: function
-f1_keywords: ["ntmsapi/DismountNtmsDrive"]
+f1_keywords: 
+ - "ntmsapi/DismountNtmsDrive"
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

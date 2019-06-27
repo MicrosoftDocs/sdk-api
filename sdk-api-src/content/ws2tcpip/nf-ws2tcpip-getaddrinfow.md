@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAddrInfoW, GetAddrInfoW function [Winsock], winsock.getaddrinfow, ws2tcpip/GetAddrInfoW
 ms.topic: function
-f1_keywords: ["ws2tcpip/GetAddrInfoW"]
+f1_keywords: 
+ - "ws2tcpip/GetAddrInfoW"
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

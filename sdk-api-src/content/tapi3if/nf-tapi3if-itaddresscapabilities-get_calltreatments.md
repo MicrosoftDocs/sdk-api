@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAddressCapabilities interface [TAPI 2.2],get_CallTreatments method, ITAddressCapabilities.get_CallTreatments, ITAddressCapabilities::get_CallTreatments, _tapi3_itaddresscapabilities_get_calltreatments, get_CallTreatments, get_CallTreatments method [TAPI 2.2], get_CallTreatments method [TAPI 2.2],ITAddressCapabilities interface, tapi3.itaddresscapabilities_get_calltreatments, tapi3if/ITAddressCapabilities::get_CallTreatments
 ms.topic: method
-f1_keywords: ["tapi3if/ITAddressCapabilities.get_CallTreatments"]
+f1_keywords: 
+ - "tapi3if/ITAddressCapabilities.get_CallTreatments"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

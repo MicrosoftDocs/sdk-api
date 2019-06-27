@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeviceInfo, DeviceInfo method [DirectShow], DeviceInfo method [DirectShow],IAMDeviceRemoval interface, IAMDeviceRemoval interface [DirectShow],DeviceInfo method, IAMDeviceRemoval.DeviceInfo, IAMDeviceRemoval::DeviceInfo, IAMDeviceRemovalDeviceInfo, dshow.iamdeviceremoval_deviceinfo, strmif/IAMDeviceRemoval::DeviceInfo
 ms.topic: method
-f1_keywords: ["strmif/IAMDeviceRemoval.DeviceInfo"]
+f1_keywords: 
+ - "strmif/IAMDeviceRemoval.DeviceInfo"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

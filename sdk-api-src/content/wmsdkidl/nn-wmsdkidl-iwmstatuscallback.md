@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMStatusCallback, IWMStatusCallback interface [windows Media Format], IWMStatusCallback interface [windows Media Format],described, IWMStatusCallbackInterface, wmformat.iwmstatuscallback, wmsdkidl/IWMStatusCallback
 ms.topic: interface
-f1_keywords: ["wmsdkidl/IWMStatusCallback"]
+f1_keywords: 
+ - "wmsdkidl/IWMStatusCallback"
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

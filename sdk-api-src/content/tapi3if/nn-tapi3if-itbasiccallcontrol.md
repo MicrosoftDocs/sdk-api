@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl, ITBasicCallControl interface [TAPI 2.2], ITBasicCallControl interface [TAPI 2.2],described, _tapi3_itbasiccallcontrol, tapi3.itbasiccallcontrol, tapi3if/ITBasicCallControl
 ms.topic: interface
-f1_keywords: ["tapi3if/ITBasicCallControl"]
+f1_keywords: 
+ - "tapi3if/ITBasicCallControl"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

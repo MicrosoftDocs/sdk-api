@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlxStartApplication, WlxStartApplication function [Security], _gina_wlxstartapplication, security.wlxstartapplication, winwlx/WlxStartApplication
 ms.topic: function
-f1_keywords: ["winwlx/WlxStartApplication"]
+f1_keywords: 
+ - "winwlx/WlxStartApplication"
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

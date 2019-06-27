@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbLoadBalancing interface [Remote Desktop Services],Terminate method, ITsSbLoadBalancing::Terminate, ITsSbOrchestration interface [Remote Desktop Services],Terminate method, ITsSbOrchestration::Terminate, ITsSbPlacement interface [Remote Desktop Services],Terminate method, ITsSbPlacement::Terminate, ITsSbPlugin interface [Remote Desktop Services],Terminate method, ITsSbPlugin.Terminate, ITsSbPlugin::Terminate, ITsSbProvisioning interface [Remote Desktop Services],Terminate method, ITsSbProvisioning::Terminate, ITsSbResourcePlugin interface [Remote Desktop Services],Terminate method, ITsSbResourcePlugin::Terminate, ITsSbTaskPlugin interface [Remote Desktop Services],Terminate method, ITsSbTaskPlugin::Terminate, Terminate, Terminate method [Remote Desktop Services], Terminate method [Remote Desktop Services],ITsSbLoadBalancing interface, Terminate method [Remote Desktop Services],ITsSbOrchestration interface, Terminate method [Remote Desktop Services],ITsSbPlacement interface, Terminate method [Remote Desktop Services],ITsSbPlugin interface, Terminate method [Remote Desktop Services],ITsSbProvisioning interface, Terminate method [Remote Desktop Services],ITsSbResourcePlugin interface, Terminate method [Remote Desktop Services],ITsSbTaskPlugin interface, sbtsv/ITsSbLoadBalancing::Terminate, sbtsv/ITsSbOrchestration::Terminate, sbtsv/ITsSbPlacement::Terminate, sbtsv/ITsSbPlugin::Terminate, sbtsv/ITsSbProvisioning::Terminate, sbtsv/ITsSbResourcePlugin::Terminate, sbtsv/ITsSbTaskPlugin::Terminate, termserv.itssbplugin_terminate
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbPlugin.Terminate"]
+f1_keywords: 
+ - "sbtsv/ITsSbPlugin.Terminate"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

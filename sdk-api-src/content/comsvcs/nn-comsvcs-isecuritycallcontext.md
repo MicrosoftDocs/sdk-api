@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISecurityCallContext, ISecurityCallContext interface [COM+], ISecurityCallContext interface [COM+],described, _cos_ISecurityCallContext, comsvcs/ISecurityCallContext, cos.isecuritycallcontext
 ms.topic: interface
-f1_keywords: ["comsvcs/ISecurityCallContext"]
+f1_keywords: 
+ - "comsvcs/ISecurityCallContext"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

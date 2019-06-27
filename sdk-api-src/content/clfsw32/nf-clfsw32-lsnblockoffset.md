@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsnBlockOffset, LsnBlockOffset function [Files], clfsw32/LsnBlockOffset, fs.lsnblockoffset
 ms.topic: function
-f1_keywords: ["clfsw32/LsnBlockOffset"]
+f1_keywords: 
+ - "clfsw32/LsnBlockOffset"
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_phonesetgain, phoneSetGain, phoneSetGain function [TAPI 2.2], tapi/phoneSetGain, tapi2.phonesetgain"
 ms.topic: function
-f1_keywords: ["tapi/phoneSetGain"]
+f1_keywords: 
+ - "tapi/phoneSetGain"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],PrevPage method, IShellImageData.PrevPage, IShellImageData::PrevPage, PrevPage, PrevPage method [Windows Shell], PrevPage method [Windows Shell],IShellImageData interface, _shell_IShellImageData_PrevPage, shell.IShellImageData_PrevPage, shimgdata/IShellImageData::PrevPage
 ms.topic: method
-f1_keywords: ["shimgdata/IShellImageData.PrevPage"]
+f1_keywords: 
+ - "shimgdata/IShellImageData.PrevPage"
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

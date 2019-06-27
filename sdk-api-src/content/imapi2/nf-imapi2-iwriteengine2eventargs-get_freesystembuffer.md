@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2EventArgs interface [IMAPI],get_FreeSystemBuffer method, IWriteEngine2EventArgs.get_FreeSystemBuffer, IWriteEngine2EventArgs::get_FreeSystemBuffer, get_FreeSystemBuffer, get_FreeSystemBuffer method [IMAPI], get_FreeSystemBuffer method [IMAPI],IWriteEngine2EventArgs interface, imapi.iwriteengine2eventargs_get_freesystembuffer, imapi2/IWriteEngine2EventArgs::get_FreeSystemBuffer
 ms.topic: method
-f1_keywords: ["imapi2/IWriteEngine2EventArgs.get_FreeSystemBuffer"]
+f1_keywords: 
+ - "imapi2/IWriteEngine2EventArgs.get_FreeSystemBuffer"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

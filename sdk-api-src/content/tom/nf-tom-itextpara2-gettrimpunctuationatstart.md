@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTrimPunctuationAtStart, GetTrimPunctuationAtStart method [Windows Controls], GetTrimPunctuationAtStart method [Windows Controls],ITextPara2 interface, ITextPara2 interface [Windows Controls],GetTrimPunctuationAtStart method, ITextPara2.GetTrimPunctuationAtStart, ITextPara2::GetTrimPunctuationAtStart, controls.itextpara2_gettrimpunctuationatstart, tom/ITextPara2::GetTrimPunctuationAtStart
 ms.topic: method
-f1_keywords: ["tom/ITextPara2.GetTrimPunctuationAtStart"]
+f1_keywords: 
+ - "tom/ITextPara2.GetTrimPunctuationAtStart"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

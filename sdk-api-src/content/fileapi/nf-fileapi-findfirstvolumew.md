@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindFirstVolume, FindFirstVolume function [Files], FindFirstVolumeA, FindFirstVolumeW, _win32_findfirstvolume, base.findfirstvolume, fileapi/FindFirstVolume, fileapi/FindFirstVolumeA, fileapi/FindFirstVolumeW, fs.findfirstvolume, winbase/FindFirstVolume, winbase/FindFirstVolumeA, winbase/FindFirstVolumeW
 ms.topic: function
-f1_keywords: ["fileapi/FindFirstVolume"]
+f1_keywords: 
+ - "fileapi/FindFirstVolume"
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

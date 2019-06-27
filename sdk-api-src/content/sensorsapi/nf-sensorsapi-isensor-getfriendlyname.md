@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFriendlyName, GetFriendlyName method, GetFriendlyName method,ISensor interface, ISensor interface,GetFriendlyName method, ISensor.GetFriendlyName, ISensor::GetFriendlyName, sensorsapi/ISensor::GetFriendlyName, winsensors_com_ref.isensor_getfriendlyname
 ms.topic: method
-f1_keywords: ["sensorsapi/ISensor.GetFriendlyName"]
+f1_keywords: 
+ - "sensorsapi/ISensor.GetFriendlyName"
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

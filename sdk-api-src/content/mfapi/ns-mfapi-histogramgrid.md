@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HistogramGrid, HistogramGrid structure [Streaming Media Devices], mfapi/HistogramGrid, stream.histogramgrid
 ms.topic: struct
-f1_keywords: ["mfapi/HistogramGrid"]
+f1_keywords: 
+ - "mfapi/HistogramGrid"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

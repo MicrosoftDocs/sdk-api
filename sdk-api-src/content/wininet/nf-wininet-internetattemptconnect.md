@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetAttemptConnect, InternetAttemptConnect function [WinINet], _inet_internetattemptconnect_function, wininet.internetattemptconnect, wininet/InternetAttemptConnect
 ms.topic: function
-f1_keywords: ["wininet/InternetAttemptConnect"]
+f1_keywords: 
+ - "wininet/InternetAttemptConnect"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

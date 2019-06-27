@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_ModelName method, IUPnPDevice.get_ModelName, IUPnPDevice::get_ModelName, _upnp_iupnpdevice_modelname, get_ModelName, get_ModelName method [UPnP APIs], get_ModelName method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_modelname, upnp/IUPnPDevice::get_ModelName
 ms.topic: method
-f1_keywords: ["upnp/IUPnPDevice.get_ModelName"]
+f1_keywords: 
+ - "upnp/IUPnPDevice.get_ModelName"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

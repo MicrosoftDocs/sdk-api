@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ERROR_AUTH_INTERNAL, ERROR_CANNOT_GET_LANA, ERROR_NETBIOS_ERROR, ERROR_SERVER_NOT_RESPONDING, RasDialFunc2, RasDialFunc2 callback, RasDialFunc2 callback function [RAS], _ras_rasdialfunc2, ras/RasDialFunc2, rras.rasdialfunc2
 ms.topic: callback
-f1_keywords: ["ras/RasDialFunc2"]
+f1_keywords: 
+ - "ras/RasDialFunc2"
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

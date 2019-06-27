@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateBitmap, CreateBitmap function [Windows GDI], _win32_CreateBitmap, gdi.createbitmap, wingdi/CreateBitmap
 ms.topic: function
-f1_keywords: ["wingdi/CreateBitmap"]
+f1_keywords: 
+ - "wingdi/CreateBitmap"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

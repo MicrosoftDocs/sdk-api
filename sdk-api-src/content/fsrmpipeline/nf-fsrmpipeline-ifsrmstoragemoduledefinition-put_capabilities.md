@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Capabilities property [File Server Resource Manager], Capabilities property [File Server Resource Manager],IFsrmStorageModuleDefinition interface, IFsrmStorageModuleDefinition interface [File Server Resource Manager],Capabilities property, IFsrmStorageModuleDefinition.Capabilities, IFsrmStorageModuleDefinition.put_Capabilities, IFsrmStorageModuleDefinition::Capabilities, IFsrmStorageModuleDefinition::get_Capabilities, IFsrmStorageModuleDefinition::put_Capabilities, fs.ifsrmstoragemoduledefinition_capabilities, fsrm.ifsrmstoragemoduledefinition_capabilities, fsrmpipeline/IFsrmStorageModuleDefinition::Capabilities, fsrmpipeline/IFsrmStorageModuleDefinition::get_Capabilities, fsrmpipeline/IFsrmStorageModuleDefinition::put_Capabilities, put_Capabilities
 ms.topic: method
-f1_keywords: ["fsrmpipeline/IFsrmStorageModuleDefinition.Capabilities"]
+f1_keywords: 
+ - "fsrmpipeline/IFsrmStorageModuleDefinition.Capabilities"
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

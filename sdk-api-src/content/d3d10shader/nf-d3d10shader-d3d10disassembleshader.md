@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 3e4c4f2f-1754-2bbc-636d-9cea485ffad1, D3D10DisassembleShader, D3D10DisassembleShader function [Direct3D 10], d3d10shader/D3D10DisassembleShader, direct3d10.d3d10disassembleshader
 ms.topic: function
-f1_keywords: ["d3d10shader/D3D10DisassembleShader"]
+f1_keywords: 
+ - "d3d10shader/D3D10DisassembleShader"
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

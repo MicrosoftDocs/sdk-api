@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaGetUpdatedCache, UiaGetUpdatedCache function [Windows Accessibility], uiauto.uiauto_UiaGetUpdatedCacheAutoMeth, uiauto_UiaGetUpdatedCacheAutoMeth, uiautomationcoreapi/UiaGetUpdatedCache, winauto.uiauto_UiaGetUpdatedCacheAutoMeth
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/UiaGetUpdatedCache"]
+f1_keywords: 
+ - "uiautomationcoreapi/UiaGetUpdatedCache"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoGetInterfaceAndReleaseStream, CoGetInterfaceAndReleaseStream function [COM], _com_CoGetInterfaceAndReleaseStream, com.cogetinterfaceandreleasestream, combaseapi/CoGetInterfaceAndReleaseStream
 ms.topic: function
-f1_keywords: ["combaseapi/CoGetInterfaceAndReleaseStream"]
+f1_keywords: 
+ - "combaseapi/CoGetInterfaceAndReleaseStream"
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_ApproximateViewRect, ListView_ApproximateViewRect macro [Windows Controls], _win32_ListView_ApproximateViewRect, _win32_ListView_ApproximateViewRect_cpp, commctrl/ListView_ApproximateViewRect, controls.ListView_ApproximateViewRect, controls._win32_ListView_ApproximateViewRect
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_ApproximateViewRect"]
+f1_keywords: 
+ - "commctrl/ListView_ApproximateViewRect"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

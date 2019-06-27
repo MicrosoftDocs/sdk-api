@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Abort, Abort method [XMLHttpRequest2], Abort method [XMLHttpRequest2],IXMLHTTPRequest2 interface, IXMLHTTPRequest2 interface [XMLHttpRequest2],Abort method, IXMLHTTPRequest2.Abort, IXMLHTTPRequest2::Abort, ixhr2.ixmlhttprequest2_abort, msxml6/IXMLHTTPRequest2::Abort
 ms.topic: method
-f1_keywords: ["msxml6/IXMLHTTPRequest2.Abort"]
+f1_keywords: 
+ - "msxml6/IXMLHTTPRequest2.Abort"
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

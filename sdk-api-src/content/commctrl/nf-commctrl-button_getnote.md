@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Button_GetNote, Button_GetNote macro [Windows Controls], _shell_Button_GetNote, _shell_Button_GetNote_cpp, commctrl/Button_GetNote, controls.Button_GetNote, controls._shell_Button_GetNote
 ms.topic: macro
-f1_keywords: ["commctrl/Button_GetNote"]
+f1_keywords: 
+ - "commctrl/Button_GetNote"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

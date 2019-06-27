@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentAudioAttributes, GetCurrentAudioAttributes method [DirectShow], GetCurrentAudioAttributes method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentAudioAttributes method, IDvdInfo.GetCurrentAudioAttributes, IDvdInfo::GetCurrentAudioAttributes, IDvdInfoGetCurrentAudioAttributes, dshow.idvdinfo_getcurrentaudioattributes, strmif/IDvdInfo::GetCurrentAudioAttributes
 ms.topic: method
-f1_keywords: ["strmif/IDvdInfo.GetCurrentAudioAttributes"]
+f1_keywords: 
+ - "strmif/IDvdInfo.GetCurrentAudioAttributes"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

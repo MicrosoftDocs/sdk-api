@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationUpdateManager, IDirectManipulationUpdateManager interface [Direct Manipulation], IDirectManipulationUpdateManager interface [Direct Manipulation],described, directmanipulation.idirectmanipulationupdatemanager, directmanipulation/IDirectManipulationUpdateManager
 ms.topic: interface
-f1_keywords: ["directmanipulation/IDirectManipulationUpdateManager"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationUpdateManager"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

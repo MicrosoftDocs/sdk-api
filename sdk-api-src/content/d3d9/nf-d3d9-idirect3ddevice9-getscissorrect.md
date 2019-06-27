@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 7de78b9b-0918-15ce-f2b5-f1b433033d52, GetScissorRect, GetScissorRect method [Direct3D 9], GetScissorRect method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetScissorRect method, IDirect3DDevice9.GetScissorRect, IDirect3DDevice9::GetScissorRect, d3d9helper/IDirect3DDevice9::GetScissorRect, direct3d9.idirect3ddevice9__getscissorrect
 ms.topic: method
-f1_keywords: ["d3d9/IDirect3DDevice9.GetScissorRect"]
+f1_keywords: 
+ - "d3d9/IDirect3DDevice9.GetScissorRect"
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

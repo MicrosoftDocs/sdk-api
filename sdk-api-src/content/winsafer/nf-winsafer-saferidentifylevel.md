@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SaferIdentifyLevel, SaferIdentifyLevel function [Security], _mnp_saferidentifylevel, security.saferidentifylevel, winsafer/SaferIdentifyLevel
 ms.topic: function
-f1_keywords: ["winsafer/SaferIdentifyLevel"]
+f1_keywords: 
+ - "winsafer/SaferIdentifyLevel"
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows

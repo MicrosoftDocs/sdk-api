@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLogicalDrives, GetLogicalDrives function [Files], _win32_getlogicaldrives, base.getlogicaldrives, fileapi/GetLogicalDrives, fs.getlogicaldrives, winbase/GetLogicalDrives
 ms.topic: function
-f1_keywords: ["fileapi/GetLogicalDrives"]
+f1_keywords: 
+ - "fileapi/GetLogicalDrives"
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsGetChannelProperty, WsGetChannelProperty function [Web Services for Windows], webservices/WsGetChannelProperty, wsw.wsgetchannelproperty
 ms.topic: function
-f1_keywords: ["webservices/WsGetChannelProperty"]
+f1_keywords: 
+ - "webservices/WsGetChannelProperty"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/20/2019
 ms.keywords: Image::Save
 ms.topic: language-reference
-f1_keywords: ["gdiplusheaders/Image::Save"]
+f1_keywords: 
+ - "gdiplusheaders/Image::Save"
 targetos: Windows
 product: Windows
 req.assembly: 

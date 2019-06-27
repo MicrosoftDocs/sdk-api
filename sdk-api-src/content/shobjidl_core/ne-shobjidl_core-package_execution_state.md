@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PACKAGE_EXECUTION_STATE, PACKAGE_EXECUTION_STATE enumeration [Windows Shell], PES_RUNNING, PES_SUSPENDED, PES_SUSPENDING, PES_TERMINATED, PES_UNKNOWN, shell.PACKAGE_EXECUTION_STATE, shobjidl_core/PACKAGE_EXECUTION_STATE, shobjidl_core/PES_RUNNING, shobjidl_core/PES_SUSPENDED, shobjidl_core/PES_SUSPENDING, shobjidl_core/PES_TERMINATED, shobjidl_core/PES_UNKNOWN
 ms.topic: enum
-f1_keywords: ["shobjidl_core/PACKAGE_EXECUTION_STATE"]
+f1_keywords: 
+ - "shobjidl_core/PACKAGE_EXECUTION_STATE"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

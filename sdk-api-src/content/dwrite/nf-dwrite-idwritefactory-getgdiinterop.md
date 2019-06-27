@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGdiInterop, GetGdiInterop method [Direct Write], GetGdiInterop method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],GetGdiInterop method, IDWriteFactory.GetGdiInterop, IDWriteFactory::GetGdiInterop, directwrite.IDWriteFactory_GetGdiInterop, dwrite/IDWriteFactory::GetGdiInterop
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteFactory.GetGdiInterop"]
+f1_keywords: 
+ - "dwrite/IDWriteFactory.GetGdiInterop"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

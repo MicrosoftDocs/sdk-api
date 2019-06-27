@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFilterMapper interface [DirectShow],UnregisterFilter method, IFilterMapper.UnregisterFilter, IFilterMapper::UnregisterFilter, IFilterMapperUnregisterFilter, UnregisterFilter, UnregisterFilter method [DirectShow], UnregisterFilter method [DirectShow],IFilterMapper interface, dshow.ifiltermapper_unregisterfilter, strmif/IFilterMapper::UnregisterFilter
 ms.topic: method
-f1_keywords: ["strmif/IFilterMapper.UnregisterFilter"]
+f1_keywords: 
+ - "strmif/IFilterMapper.UnregisterFilter"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

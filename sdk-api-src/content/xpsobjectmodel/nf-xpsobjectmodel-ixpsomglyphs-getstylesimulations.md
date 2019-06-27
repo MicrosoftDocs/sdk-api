@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStyleSimulations, GetStyleSimulations method [XPS Documents and Packaging], GetStyleSimulations method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetStyleSimulations method, IXpsOMGlyphs.GetStyleSimulations, IXpsOMGlyphs::GetStyleSimulations, xps.ixpsomglyphs_getstylesimulations, xpsobjectmodel/IXpsOMGlyphs::GetStyleSimulations
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGlyphs.GetStyleSimulations"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGlyphs.GetStyleSimulations"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ActivateMe, ActivateMe method [COM], ActivateMe method [COM],IOleDocumentSite interface, IOleDocumentSite interface [COM],ActivateMe method, IOleDocumentSite.ActivateMe, IOleDocumentSite::ActivateMe, _ole_ioledocumentsite_activateme, com.ioledocumentsite_activateme, docobj/IOleDocumentSite::ActivateMe
 ms.topic: method
-f1_keywords: ["docobj/IOleDocumentSite.ActivateMe"]
+f1_keywords: 
+ - "docobj/IOleDocumentSite.ActivateMe"
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

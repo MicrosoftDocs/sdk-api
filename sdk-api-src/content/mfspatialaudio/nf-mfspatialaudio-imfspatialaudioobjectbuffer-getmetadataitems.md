@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMetadataItems, GetMetadataItems method [Media Foundation], GetMetadataItems method [Media Foundation],IMFSpatialAudioObjectBuffer interface, IMFSpatialAudioObjectBuffer interface [Media Foundation],GetMetadataItems method, IMFSpatialAudioObjectBuffer.GetMetadataItems, IMFSpatialAudioObjectBuffer::GetMetadataItems, mf.imfspatialaudioobjectbuffer_getmetadataitems, mfspatialaudio/IMFSpatialAudioObjectBuffer::GetMetadataItems
 ms.topic: method
-f1_keywords: ["mfspatialaudio/IMFSpatialAudioObjectBuffer.GetMetadataItems"]
+f1_keywords: 
+ - "mfspatialaudio/IMFSpatialAudioObjectBuffer.GetMetadataItems"
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPropertyNotifySink interface [COM],OnChanged method, IPropertyNotifySink.OnChanged, IPropertyNotifySink::OnChanged, OnChanged, OnChanged method [COM], OnChanged method [COM],IPropertyNotifySink interface, _ctrl_ipropertynotifysink_onchanged, com.ipropertynotifysink_onchanged, ocidl/IPropertyNotifySink::OnChanged
 ms.topic: method
-f1_keywords: ["ocidl/IPropertyNotifySink.OnChanged"]
+f1_keywords: 
+ - "ocidl/IPropertyNotifySink.OnChanged"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdMoCompGetFormats, DdMoCompGetFormats callback function [Display Devices], PDD_MOCOMPCB_GETFORMATS, PDD_MOCOMPCB_GETFORMATS callback, ddfncs_bc9cd90d-e40c-4ddd-9415-3d02c4620618.xml, ddrawint/DdMoCompGetFormats, display.ddmocompgetformats
 ms.topic: callback
-f1_keywords: ["ddrawint/DdMoCompGetFormats"]
+f1_keywords: 
+ - "ddrawint/DdMoCompGetFormats"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

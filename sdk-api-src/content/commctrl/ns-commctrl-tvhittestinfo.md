@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPTVHITTESTINFO, LPTVHITTESTINFO, LPTVHITTESTINFO structure pointer [Windows Controls], TVHITTESTINFO, TVHITTESTINFO structure [Windows Controls], TVHT_ABOVE, TVHT_BELOW, TVHT_NOWHERE, TVHT_ONITEM, TVHT_ONITEMBUTTON, TVHT_ONITEMICON, TVHT_ONITEMINDENT, TVHT_ONITEMLABEL, TVHT_ONITEMRIGHT, TVHT_ONITEMSTATEICON, TVHT_TOLEFT, TVHT_TORIGHT, _win32_TVHITTESTINFO, _win32_TVHITTESTINFO_cpp, commctrl/LPTVHITTESTINFO, commctrl/TVHITTESTINFO, controls.TVHITTESTINFO, controls._win32_TVHITTESTINFO"
 ms.topic: struct
-f1_keywords: ["commctrl/TVHITTESTINFO"]
+f1_keywords: 
+ - "commctrl/TVHITTESTINFO"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

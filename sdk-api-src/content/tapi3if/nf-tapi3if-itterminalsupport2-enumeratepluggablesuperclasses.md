@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumeratePluggableSuperclasses, EnumeratePluggableSuperclasses method [TAPI 2.2], EnumeratePluggableSuperclasses method [TAPI 2.2],ITTerminalSupport2 interface, ITTerminalSupport2 interface [TAPI 2.2],EnumeratePluggableSuperclasses method, ITTerminalSupport2.EnumeratePluggableSuperclasses, ITTerminalSupport2::EnumeratePluggableSuperclasses, _tapi3_itterminalsupport2_enumeratepluggablesuperclasses, tapi3.itterminalsupport2_enumeratepluggablesuperclasses, tapi3if/ITTerminalSupport2::EnumeratePluggableSuperclasses
 ms.topic: method
-f1_keywords: ["tapi3if/ITTerminalSupport2.EnumeratePluggableSuperclasses"]
+f1_keywords: 
+ - "tapi3if/ITTerminalSupport2.EnumeratePluggableSuperclasses"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

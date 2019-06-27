@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ACTIVATIONTYPE, ActivationType, ActivationType enumeration [Windows Runtime], ActivationType_InProcess, ActivationType_OutOfProcess, ActivationType_RemoteProcess, __x_ABI_CWindows_CFoundation_CActivationType, activationregistration/ActivationType, activationregistration/ActivationType_InProcess, activationregistration/ActivationType_OutOfProcess, activationregistration/ActivationType_RemoteProcess, winrt.activationtype
 ms.topic: enum
-f1_keywords: ["objidl/ActivationType"]
+f1_keywords: 
+ - "objidl/ActivationType"
 req.header: objidl.h
 req.include-header: Objidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemDisconnected method, IOfflineFilesEvents.ItemDisconnected, IOfflineFilesEvents::ItemDisconnected, ItemDisconnected, ItemDisconnected method [Offline Files], ItemDisconnected method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemDisconnected, of.iofflinefilesevents_itemdisconnected
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesEvents.ItemDisconnected"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesEvents.ItemDisconnected"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

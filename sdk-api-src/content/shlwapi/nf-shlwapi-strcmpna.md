@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StrCmpN, StrCmpN function [Windows Shell], StrCmpNA, StrCmpNW, _win32_StrCmpN, shell.StrCmpN, shlwapi/StrCmpN, shlwapi/StrCmpNA, shlwapi/StrCmpNW
 ms.topic: function
-f1_keywords: ["shlwapi/StrCmpN"]
+f1_keywords: 
+ - "shlwapi/StrCmpN"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

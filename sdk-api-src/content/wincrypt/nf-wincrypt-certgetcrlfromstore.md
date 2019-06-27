@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_BASE_CRL_FLAG, CERT_STORE_DELTA_CRL_FLAG, CERT_STORE_SIGNATURE_FLAG, CERT_STORE_TIME_VALIDITY_FLAG, CertGetCRLFromStore, CertGetCRLFromStore function [Security], _crypto2_certgetcrlfromstore, security.certgetcrlfromstore, wincrypt/CertGetCRLFromStore
 ms.topic: function
-f1_keywords: ["wincrypt/CertGetCRLFromStore"]
+f1_keywords: 
+ - "wincrypt/CertGetCRLFromStore"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ogl_wglGetProcAddress, opengl.wglgetprocaddress, wglGetProcAddress, wglGetProcAddress function [OpenGL], wingdi/wglGetProcAddress"
 ms.topic: function
-f1_keywords: ["wingdi/wglGetProcAddress"]
+f1_keywords: 
+ - "wingdi/wglGetProcAddress"
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

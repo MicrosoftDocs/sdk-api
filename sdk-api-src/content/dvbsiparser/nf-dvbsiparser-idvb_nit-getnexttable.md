@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNextTable, GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],GetNextTable method, IDVB_NIT.GetNextTable, IDVB_NIT::GetNextTable, IDVB_NITGetNextTable, dvbsiparser/IDVB_NIT::GetNextTable, mstv.idvb_nit_getnexttable
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDVB_NIT.GetNextTable"]
+f1_keywords: 
+ - "dvbsiparser/IDVB_NIT.GetNextTable"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

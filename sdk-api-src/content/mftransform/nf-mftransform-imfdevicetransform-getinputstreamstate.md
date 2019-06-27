@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInputStreamState, GetInputStreamState method [Streaming Media Devices], GetInputStreamState method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetInputStreamState method, IMFDeviceTransform.GetInputStreamState, IMFDeviceTransform::GetInputStreamState, mftransform/IMFDeviceTransform::GetInputStreamState, stream.imfdevicetransform_getinputstreamstate
 ms.topic: method
-f1_keywords: ["mftransform/IMFDeviceTransform.GetInputStreamState"]
+f1_keywords: 
+ - "mftransform/IMFDeviceTransform.GetInputStreamState"
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

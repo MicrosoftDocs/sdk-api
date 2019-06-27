@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextSelection2, ITextSelection2 interface [Windows Controls], ITextSelection2 interface [Windows Controls],described, controls.itextselection2, tom/ITextSelection2
 ms.topic: interface
-f1_keywords: ["tom/ITextSelection2"]
+f1_keywords: 
+ - "tom/ITextSelection2"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

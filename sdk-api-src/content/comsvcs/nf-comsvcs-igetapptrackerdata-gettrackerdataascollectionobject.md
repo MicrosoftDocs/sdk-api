@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTrackerDataAsCollectionObject, GetTrackerDataAsCollectionObject method [COM+], GetTrackerDataAsCollectionObject method [COM+],IGetAppTrackerData interface, IGetAppTrackerData interface [COM+],GetTrackerDataAsCollectionObject method, IGetAppTrackerData.GetTrackerDataAsCollectionObject, IGetAppTrackerData::GetTrackerDataAsCollectionObject, comsvcs/IGetAppTrackerData::GetTrackerDataAsCollectionObject, cos.igetapptrackerdata_gettrackerdataascollectionobject
 ms.topic: method
-f1_keywords: ["comsvcs/IGetAppTrackerData.GetTrackerDataAsCollectionObject"]
+f1_keywords: 
+ - "comsvcs/IGetAppTrackerData.GetTrackerDataAsCollectionObject"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

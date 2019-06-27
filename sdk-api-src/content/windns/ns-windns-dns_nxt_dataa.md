@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDNS_NXT_DATA, *PDNS_NXT_DATAA, DNS_NXT_DATA, DNS_NXT_DATA structure [DNS], DNS_NXT_DATAA, PDNS_NXT_DATA, PDNS_NXT_DATA structure pointer [DNS], _dns_dns_nxt_data, dns.dns_nxt_data, windns/DNS_NXT_DATA, windns/PDNS_NXT_DATA"
 ms.topic: struct
-f1_keywords: ["windns/DNS_NXT_DATA"]
+f1_keywords: 
+ - "windns/DNS_NXT_DATA"
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

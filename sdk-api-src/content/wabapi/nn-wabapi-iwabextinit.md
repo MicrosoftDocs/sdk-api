@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWABExtInit, IWABExtInit interface [Windows Address Book], IWABExtInit interface [Windows Address Book],described, _wab_IWABExtInit, wab._wab_IWABExtInit, wabapi/IWABExtInit
 ms.topic: interface
-f1_keywords: ["wabapi/IWABExtInit"]
+f1_keywords: 
+ - "wabapi/IWABExtInit"
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScriptGetFontFeatureTags, ScriptGetFontFeatureTags function [Internationalization for Windows Applications], _win32_ScriptGetFontFeatureTags, intl.scriptgetfontfeaturetags, usp10/ScriptGetFontFeatureTags
 ms.topic: function
-f1_keywords: ["usp10/ScriptGetFontFeatureTags"]
+f1_keywords: 
+ - "usp10/ScriptGetFontFeatureTags"
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

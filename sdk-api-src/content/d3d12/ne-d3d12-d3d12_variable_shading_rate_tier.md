@@ -5,7 +5,8 @@ description: Defines constants that specify a shading rate tier (for variable-ra
 ms.date: 05/20/2019
 ms.keywords: D3D12_VARIABLE_SHADING_RATE_TIER
 ms.topic: language-reference
-f1_keywords: ["d3d12/D3D12_VARIABLE_SHADING_RATE_TIER"]
+f1_keywords: 
+ - "d3d12/D3D12_VARIABLE_SHADING_RATE_TIER"
 targetos: Windows
 product: Windows
 req.construct-type: enumeration

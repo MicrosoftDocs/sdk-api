@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetRedDisable method, IDCompositionLinearTransferEffect.SetRedDisable, IDCompositionLinearTransferEffect::SetRedDisable, SetRedDisable, SetRedDisable method [DirectComposition], SetRedDisable method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetRedDisable, directcomp.idcompositionlineartransfereffect_setreddisable
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionLinearTransferEffect.SetRedDisable"]
+f1_keywords: 
+ - "dcomp/IDCompositionLinearTransferEffect.SetRedDisable"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

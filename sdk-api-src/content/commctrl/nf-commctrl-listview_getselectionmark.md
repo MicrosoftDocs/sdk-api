@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_GetSelectionMark, ListView_GetSelectionMark macro [Windows Controls], _win32_ListView_GetSelectionMark, _win32_ListView_GetSelectionMark_cpp, commctrl/ListView_GetSelectionMark, controls.ListView_GetSelectionMark, controls._win32_ListView_GetSelectionMark
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_GetSelectionMark"]
+f1_keywords: 
+ - "commctrl/ListView_GetSelectionMark"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

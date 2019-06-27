@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetOpacity method, IXpsOMVisual.SetOpacity, IXpsOMVisual::SetOpacity, SetOpacity, SetOpacity method [XPS Documents and Packaging], SetOpacity method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setopacity, xpsobjectmodel/IXpsOMVisual::SetOpacity
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMVisual.SetOpacity"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMVisual.SetOpacity"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

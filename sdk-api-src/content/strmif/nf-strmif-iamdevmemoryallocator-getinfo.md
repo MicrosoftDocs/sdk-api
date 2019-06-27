@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInfo, GetInfo method [DirectShow], GetInfo method [DirectShow],IAMDevMemoryAllocator interface, IAMDevMemoryAllocator interface [DirectShow],GetInfo method, IAMDevMemoryAllocator.GetInfo, IAMDevMemoryAllocator::GetInfo, IAMDevMemoryAllocatorGetInfo, dshow.iamdevmemoryallocator_getinfo, strmif/IAMDevMemoryAllocator::GetInfo
 ms.topic: method
-f1_keywords: ["strmif/IAMDevMemoryAllocator.GetInfo"]
+f1_keywords: 
+ - "strmif/IAMDevMemoryAllocator.GetInfo"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

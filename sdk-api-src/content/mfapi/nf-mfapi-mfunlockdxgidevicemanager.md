@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFUnlockDXGIDeviceManager, MFUnlockDXGIDeviceManager function [Media Foundation], mf.mfunlockdxgidevicemanager, mfapi/MFUnlockDXGIDeviceManager
 ms.topic: function
-f1_keywords: ["mfapi/MFUnlockDXGIDeviceManager"]
+f1_keywords: 
+ - "mfapi/MFUnlockDXGIDeviceManager"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

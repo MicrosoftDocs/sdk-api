@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_SCRIPT_ANALYSIS, DWRITE_SCRIPT_ANALYSIS structure [Direct Write], directwrite.dwrite_script_analysis, dwrite/DWRITE_SCRIPT_ANALYSIS
 ms.topic: struct
-f1_keywords: ["dwrite/DWRITE_SCRIPT_ANALYSIS"]
+f1_keywords: 
+ - "dwrite/DWRITE_SCRIPT_ANALYSIS"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

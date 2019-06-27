@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 7c9a406d-6144-4e9c-b62c-1d9c691391f0, DeleteProperty, DeleteProperty method [Media Foundation], DeleteProperty method [Media Foundation],IMFMetadata interface, IMFMetadata interface [Media Foundation],DeleteProperty method, IMFMetadata.DeleteProperty, IMFMetadata::DeleteProperty, mf.imfmetadata_deleteproperty, mfidl/IMFMetadata::DeleteProperty
 ms.topic: method
-f1_keywords: ["mfidl/IMFMetadata.DeleteProperty"]
+f1_keywords: 
+ - "mfidl/IMFMetadata.DeleteProperty"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

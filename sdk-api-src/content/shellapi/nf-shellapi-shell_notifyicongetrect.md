@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Shell_NotifyIconGetRect, Shell_NotifyIconGetRect function [Windows Shell], _shell_Shell_NotifyIconGetRect, shell.Shell_NotifyIconGetRect, shellapi/Shell_NotifyIconGetRect
 ms.topic: function
-f1_keywords: ["shellapi/Shell_NotifyIconGetRect"]
+f1_keywords: 
+ - "shellapi/Shell_NotifyIconGetRect"
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

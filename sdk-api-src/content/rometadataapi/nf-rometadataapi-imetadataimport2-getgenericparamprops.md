@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGenericParamProps, GetGenericParamProps method [Windows Runtime], GetGenericParamProps method [Windows Runtime],IMetaDataImport2 interface, IMetaDataImport2 interface [Windows Runtime],GetGenericParamProps method, IMetaDataImport2.GetGenericParamProps, IMetaDataImport2::GetGenericParamProps, rometadataapi/IMetaDataImport2::GetGenericParamProps, winrt.imetadataimport2_getgenericparamprops
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataImport2.GetGenericParamProps"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataImport2.GetGenericParamProps"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

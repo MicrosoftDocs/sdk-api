@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExecuteSearch, ExecuteSearch method [ADSI], ExecuteSearch method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],ExecuteSearch method, IDirectorySearch.ExecuteSearch, IDirectorySearch::ExecuteSearch, _ds_idirectorysearch_executesearch, adsi.idirectorysearch__executesearch, adsi.idirectorysearch_executesearch, iads/IDirectorySearch::ExecuteSearch
 ms.topic: method
-f1_keywords: ["iads/IDirectorySearch.ExecuteSearch"]
+f1_keywords: 
+ - "iads/IDirectorySearch.ExecuteSearch"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

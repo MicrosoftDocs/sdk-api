@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetUmsThreadInformation, SetUmsThreadInformation function, base.setumsthreadinformation, winbase/SetUmsThreadInformation
 ms.topic: function
-f1_keywords: ["winbase/SetUmsThreadInformation"]
+f1_keywords: 
+ - "winbase/SetUmsThreadInformation"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

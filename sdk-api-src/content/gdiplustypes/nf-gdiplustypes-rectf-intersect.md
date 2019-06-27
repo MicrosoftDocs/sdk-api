@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Intersect, Intersect methods [GDI+], RectF.Intersect, RectF::Intersect, _gdiplus_CLASS_RectF_Intersect_Methods, gdiplus._gdiplus_CLASS_RectF_Intersect_Methods, gdiplustypes/Intersect
 ms.topic: method
-f1_keywords: ["gdiplustypes/RectF.Intersect"]
+f1_keywords: 
+ - "gdiplustypes/RectF.Intersect"
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows

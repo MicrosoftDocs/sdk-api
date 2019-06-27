@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ShutdownBlockReasonCreate, ShutdownBlockReasonCreate function, base.shutdownblockreasoncreate, winuser/ShutdownBlockReasonCreate
 ms.topic: function
-f1_keywords: ["winuser/ShutdownBlockReasonCreate"]
+f1_keywords: 
+ - "winuser/ShutdownBlockReasonCreate"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

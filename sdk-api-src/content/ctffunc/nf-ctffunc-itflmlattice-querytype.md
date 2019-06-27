@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfLMLattice interface [Text Services Framework],QueryType method, ITfLMLattice.QueryType, ITfLMLattice::QueryType, QueryType, QueryType method [Text Services Framework], QueryType method [Text Services Framework],ITfLMLattice interface, _tsf_itflmlattice_querytype_ref, ctffunc/ITfLMLattice::QueryType, tsf.itflmlattice_querytype
 ms.topic: method
-f1_keywords: ["ctffunc/ITfLMLattice.QueryType"]
+f1_keywords: 
+ - "ctffunc/ITfLMLattice.QueryType"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

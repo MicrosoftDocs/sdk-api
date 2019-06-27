@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDDrawSurface, GetDDrawSurface method [DirectShow], GetDDrawSurface method [DirectShow],IDDrawExclModeVideo interface, IDDrawExclModeVideo interface [DirectShow],GetDDrawSurface method, IDDrawExclModeVideo.GetDDrawSurface, IDDrawExclModeVideo::GetDDrawSurface, IDDrawExclModeVideoGetDDrawSurface, dshow.iddrawexclmodevideo_getddrawsurface, strmif/IDDrawExclModeVideo::GetDDrawSurface
 ms.topic: method
-f1_keywords: ["strmif/IDDrawExclModeVideo.GetDDrawSurface"]
+f1_keywords: 
+ - "strmif/IDDrawExclModeVideo.GetDDrawSurface"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

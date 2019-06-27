@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPROCESS_MEMORY_EXHAUSTION_TYPE, PMETypeFailFastOnCommitFailure, PMETypeMax, PPROCESS_MEMORY_EXHAUSTION_TYPE, PPROCESS_MEMORY_EXHAUSTION_TYPE enumeration pointer, PROCESS_MEMORY_EXHAUSTION_TYPE, PROCESS_MEMORY_EXHAUSTION_TYPE enumeration, base.process_memory_exhaustion_type, processthreadsapi/ PMETypeFailFastOnCommitFailure, processthreadsapi/ PMETypeMax, processthreadsapi/PPROCESS_MEMORY_EXHAUSTION_TYPE, processthreadsapi/PROCESS_MEMORY_EXHAUSTION_TYPE"
 ms.topic: enum
-f1_keywords: ["processthreadsapi/PROCESS_MEMORY_EXHAUSTION_TYPE"]
+f1_keywords: 
+ - "processthreadsapi/PROCESS_MEMORY_EXHAUSTION_TYPE"
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

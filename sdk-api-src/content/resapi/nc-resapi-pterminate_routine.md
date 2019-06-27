@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PTERMINATE_ROUTINE, PTERMINATE_ROUTINE callback function [Failover Cluster], Terminate, Terminate callback, Terminate callback function [Failover Cluster], _wolf_terminate, mscs.terminate, resapi/PTERMINATE_ROUTINE, resapi/Terminate
 ms.topic: callback
-f1_keywords: ["resapi/Terminate"]
+f1_keywords: 
+ - "resapi/Terminate"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

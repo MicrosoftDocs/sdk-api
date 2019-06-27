@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScriptString_pSize, ScriptString_pSize function [Internationalization for Windows Applications], _win32_ScriptString_pSize, intl.scriptstring_psize, usp10/ScriptString_pSize
 ms.topic: function
-f1_keywords: ["usp10/ScriptString_pSize"]
+f1_keywords: 
+ - "usp10/ScriptString_pSize"
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

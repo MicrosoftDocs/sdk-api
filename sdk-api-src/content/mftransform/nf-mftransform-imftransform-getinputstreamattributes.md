@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 2698da30-6913-41a9-9d98-f124cf31e591, GetInputStreamAttributes, GetInputStreamAttributes method [Media Foundation], GetInputStreamAttributes method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetInputStreamAttributes method, IMFTransform.GetInputStreamAttributes, IMFTransform::GetInputStreamAttributes, mf.imftransform_getinputstreamattributes, mftransform/IMFTransform::GetInputStreamAttributes
 ms.topic: method
-f1_keywords: ["mftransform/IMFTransform.GetInputStreamAttributes"]
+f1_keywords: 
+ - "mftransform/IMFTransform.GetInputStreamAttributes"
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

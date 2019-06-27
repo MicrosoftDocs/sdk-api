@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IntPtrToLong, IntPtrToLong function [Windows Shell], _shell_IntPtrToLong, intsafe/IntPtrToLong, shell.IntPtrToLong
 ms.topic: function
-f1_keywords: ["intsafe/IntPtrToLong"]
+f1_keywords: 
+ - "intsafe/IntPtrToLong"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

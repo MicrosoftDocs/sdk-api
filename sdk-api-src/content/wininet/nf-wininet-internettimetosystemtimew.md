@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetTimeToSystemTime, InternetTimeToSystemTime function [WinINet], InternetTimeToSystemTimeA, InternetTimeToSystemTimeW, _inet_internettimetosystemtime_function, wininet.internettimetosystemtime, wininet/InternetTimeToSystemTime, wininet/InternetTimeToSystemTimeA, wininet/InternetTimeToSystemTimeW
 ms.topic: function
-f1_keywords: ["wininet/InternetTimeToSystemTime"]
+f1_keywords: 
+ - "wininet/InternetTimeToSystemTime"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

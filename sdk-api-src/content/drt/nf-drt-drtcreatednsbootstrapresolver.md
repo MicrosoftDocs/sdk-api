@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrtCreateDnsBootstrapResolver, DrtCreateDnsBootstrapResolver function [Distributed Routing Tables], drt/DrtCreateDnsBootstrapResolver, p2p.drtcreatednsbootstrapresolver
 ms.topic: function
-f1_keywords: ["drt/DrtCreateDnsBootstrapResolver"]
+f1_keywords: 
+ - "drt/DrtCreateDnsBootstrapResolver"
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

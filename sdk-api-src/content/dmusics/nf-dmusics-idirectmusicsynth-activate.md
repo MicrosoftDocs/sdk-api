@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method [Audio Devices], Activate method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],Activate method, IDirectMusicSynth.Activate, IDirectMusicSynth::Activate, audio.idirectmusicsynth_activate, audmp-routines_56894d17-83db-4b4f-8e26-58103856a97e.xml, dmusics/IDirectMusicSynth::Activate
 ms.topic: method
-f1_keywords: ["dmusics/IDirectMusicSynth.Activate"]
+f1_keywords: 
+ - "dmusics/IDirectMusicSynth.Activate"
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop

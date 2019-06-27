@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11Device4 interface [Direct3D 11],RegisterDeviceRemovedEvent method, ID3D11Device4.RegisterDeviceRemovedEvent, ID3D11Device4::RegisterDeviceRemovedEvent, RegisterDeviceRemovedEvent, RegisterDeviceRemovedEvent method [Direct3D 11], RegisterDeviceRemovedEvent method [Direct3D 11],ID3D11Device4 interface, d3d11_4/ID3D11Device4::RegisterDeviceRemovedEvent, direct3d11.id3d11device4_registerdeviceremovedevent
 ms.topic: method
-f1_keywords: ["d3d11_4/ID3D11Device4.RegisterDeviceRemovedEvent"]
+f1_keywords: 
+ - "d3d11_4/ID3D11Device4.RegisterDeviceRemovedEvent"
 req.header: d3d11_4.h
 req.include-header: 
 req.target-type: Windows

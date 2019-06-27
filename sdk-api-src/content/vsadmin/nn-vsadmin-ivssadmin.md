@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssAdmin, IVssAdmin interface [VSS], IVssAdmin interface [VSS],described, base.ivssadmin, vsadmin/IVssAdmin
 ms.topic: interface
-f1_keywords: ["vsadmin/IVssAdmin"]
+f1_keywords: 
+ - "vsadmin/IVssAdmin"
 req.header: vsadmin.h
 req.include-header: 
 req.target-type: Windows

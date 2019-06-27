@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMSecurityInfo class [GPMC],Item property, IGPMSecurityInfo interface [GPMC],Item property, IGPMSecurityInfo.Item, IGPMSecurityInfo.get_Item, IGPMSecurityInfo::Item, IGPMSecurityInfo::get_Item, Item property [GPMC], Item property [GPMC],GPMSecurityInfo class, Item property [GPMC],IGPMSecurityInfo interface, _win32_igpmsecurityinfo_get_item, get_Item, gpmc.igpmsecurityinfo_get_item, gpmgmt/IGPMSecurityInfo::Item, gpmgmt/IGPMSecurityInfo::get_Item
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMSecurityInfo.Item"]
+f1_keywords: 
+ - "gpmgmt/IGPMSecurityInfo.Item"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

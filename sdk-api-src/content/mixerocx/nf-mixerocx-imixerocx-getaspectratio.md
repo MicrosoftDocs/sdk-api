@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAspectRatio, GetAspectRatio method [DirectShow], GetAspectRatio method [DirectShow],IMixerOCX interface, IMixerOCX interface [DirectShow],GetAspectRatio method, IMixerOCX.GetAspectRatio, IMixerOCX::GetAspectRatio, IMixerOCXGetAspectRatio, dshow.imixerocx_getaspectratio, mixerocx/IMixerOCX::GetAspectRatio
 ms.topic: method
-f1_keywords: ["mixerocx/IMixerOCX.GetAspectRatio"]
+f1_keywords: 
+ - "mixerocx/IMixerOCX.GetAspectRatio"
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows

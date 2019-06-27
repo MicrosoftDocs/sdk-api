@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDeviceModels, GetDeviceModels method [Windows Imaging Component], GetDeviceModels method [Windows Imaging Component],IWICMetadataHandlerInfo interface, IWICMetadataHandlerInfo interface [Windows Imaging Component],GetDeviceModels method, IWICMetadataHandlerInfo.GetDeviceModels, IWICMetadataHandlerInfo::GetDeviceModels, _wic_codec_iwicmetadatahandlerinfo_getdevicemodels, wic._wic_codec_iwicmetadatahandlerinfo_getdevicemodels, wincodecsdk/IWICMetadataHandlerInfo::GetDeviceModels
 ms.topic: method
-f1_keywords: ["wincodecsdk/IWICMetadataHandlerInfo.GetDeviceModels"]
+f1_keywords: 
+ - "wincodecsdk/IWICMetadataHandlerInfo.GetDeviceModels"
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

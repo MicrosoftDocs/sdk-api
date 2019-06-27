@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICPlanarFormatConverter, IWICPlanarFormatConverter interface [Windows Imaging Component], IWICPlanarFormatConverter interface [Windows Imaging Component],described, wic.iwicplanarformatconverter, wincodec/IWICPlanarFormatConverter
 ms.topic: interface
-f1_keywords: ["wincodec/IWICPlanarFormatConverter"]
+f1_keywords: 
+ - "wincodec/IWICPlanarFormatConverter"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

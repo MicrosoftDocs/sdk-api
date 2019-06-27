@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2Length, XMVector2Length, XMVector2Length method [DirectX Math Support APIs], dxmath.xmvector2length
 ms.topic: function
-f1_keywords: ["directxmath/XMVector2Length"]
+f1_keywords: 
+ - "directxmath/XMVector2Length"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

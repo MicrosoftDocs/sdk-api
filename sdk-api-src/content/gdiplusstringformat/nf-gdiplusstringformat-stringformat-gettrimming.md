@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTrimming, GetTrimming method [GDI+], GetTrimming method [GDI+],StringFormat class, StringFormat class [GDI+],GetTrimming method, StringFormat.GetTrimming, StringFormat::GetTrimming, _gdiplus_CLASS_StringFormat_GetTrimming_, gdiplus._gdiplus_CLASS_StringFormat_GetTrimming_
 ms.topic: method
-f1_keywords: ["gdiplusstringformat/StringFormat.GetTrimming"]
+f1_keywords: 
+ - "gdiplusstringformat/StringFormat.GetTrimming"
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

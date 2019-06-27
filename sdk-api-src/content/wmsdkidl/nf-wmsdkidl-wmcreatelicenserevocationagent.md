@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMCreateLicenseRevocationAgent, WMCreateLicenseRevocationAgent function [windows Media Format], wmformat.wmcreatelicenserevocationagent, wmsdkidl/WMCreateLicenseRevocationAgent
 ms.topic: function
-f1_keywords: ["wmsdkidl/WMCreateLicenseRevocationAgent"]
+f1_keywords: 
+ - "wmsdkidl/WMCreateLicenseRevocationAgent"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

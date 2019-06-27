@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchFolderItemFactory, ISearchFolderItemFactory interface [Windows Shell], ISearchFolderItemFactory interface [Windows Shell],described, _shell_ISearchFolderItemFactory, shell.ISearchFolderItemFactory, shobjidl_core/ISearchFolderItemFactory
 ms.topic: interface
-f1_keywords: ["shobjidl_core/ISearchFolderItemFactory"]
+f1_keywords: 
+ - "shobjidl_core/ISearchFolderItemFactory"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

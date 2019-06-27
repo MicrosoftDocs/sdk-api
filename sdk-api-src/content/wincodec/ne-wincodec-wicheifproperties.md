@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICHeifOrientation, WICHeifProperties, WICHeifProperties enumeration [Windows Imaging Component], wic.wicheifproperties, wincodec/WICHeifOrientation, wincodec/WICHeifProperties
 ms.topic: enum
-f1_keywords: ["wincodec/WICHeifProperties"]
+f1_keywords: 
+ - "wincodec/WICHeifProperties"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

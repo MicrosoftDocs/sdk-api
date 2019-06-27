@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsFileOnClusterSharedVolume, IsFileOnClusterSharedVolume function [Failover Cluster], PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME, PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME function [Failover Cluster], clusapi/IsFileOnClusterSharedVolume, clusapi/PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME, mscs.isfileonclustersharedvolume
 ms.topic: function
-f1_keywords: ["clusapi/IsFileOnClusterSharedVolume"]
+f1_keywords: 
+ - "clusapi/IsFileOnClusterSharedVolume"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

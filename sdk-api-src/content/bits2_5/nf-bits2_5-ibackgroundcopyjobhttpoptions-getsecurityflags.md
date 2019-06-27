@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BG_HTTP_REDIRECT_POLICY_ALLOW_HTTPS_TO_HTTP, BG_HTTP_REDIRECT_POLICY_ALLOW_REPORT, BG_HTTP_REDIRECT_POLICY_ALLOW_SILENT, BG_HTTP_REDIRECT_POLICY_DISALLOW, BG_HTTP_REDIRECT_POLICY_MASK, BG_SSL_ENABLE_CRL_CHECK, BG_SSL_IGNORE_CERT_CN_INVALID, BG_SSL_IGNORE_CERT_DATE_INVALID, BG_SSL_IGNORE_CERT_WRONG_USAGE, BG_SSL_IGNORE_UNKNOWN_CA, GetSecurityFlags, GetSecurityFlags method [BITS], GetSecurityFlags method [BITS],IBackgroundCopyJobHttpOptions interface, IBackgroundCopyJobHttpOptions interface [BITS],GetSecurityFlags method, IBackgroundCopyJobHttpOptions.GetSecurityFlags, IBackgroundCopyJobHttpOptions::GetSecurityFlags, bits.ibackgroundcopyjobhttpoptions_getsecurityflags, bits2_5/IBackgroundCopyJobHttpOptions::GetSecurityFlags
 ms.topic: method
-f1_keywords: ["bits2_5/IBackgroundCopyJobHttpOptions.GetSecurityFlags"]
+f1_keywords: 
+ - "bits2_5/IBackgroundCopyJobHttpOptions.GetSecurityFlags"
 req.header: bits2_5.h
 req.include-header: Bits.h
 req.target-type: Windows

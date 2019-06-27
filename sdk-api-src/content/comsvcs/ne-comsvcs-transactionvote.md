@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TransactionVote, TransactionVote enumeration [COM+], TxAbort, TxCommit, _cos_TransactionVote, comsvcs/TransactionVote, comsvcs/TxAbort, comsvcs/TxCommit, cos.transactionvote
 ms.topic: enum
-f1_keywords: ["comsvcs/TransactionVote"]
+f1_keywords: 
+ - "comsvcs/TransactionVote"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

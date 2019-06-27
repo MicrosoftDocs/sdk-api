@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PVDS_PORT_PROP, VDS_PORT_PROP, VDS_PORT_PROP structure [VDS], base.vds_port_prop, vds/_VDS_PORT_PROP, vdshwprv/_VDS_PORT_PROP"
 ms.topic: struct
-f1_keywords: ["vdshwprv/VDS_PORT_PROP"]
+f1_keywords: 
+ - "vdshwprv/VDS_PORT_PROP"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

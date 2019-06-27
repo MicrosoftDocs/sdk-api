@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidClosedCaptioning, IMSVidClosedCaptioning interface [Microsoft TV Technologies], IMSVidClosedCaptioning interface [Microsoft TV Technologies],described, IMSVidClosedCaptioningInterface, mstv.imsvidclosedcaptioning, segment/IMSVidClosedCaptioning
 ms.topic: interface
-f1_keywords: ["segment/IMSVidClosedCaptioning"]
+f1_keywords: 
+ - "segment/IMSVidClosedCaptioning"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComObjectPoolEvents2 interface [COM+],OnObjPoolCreatePool method, IComObjectPoolEvents2.OnObjPoolCreatePool, IComObjectPoolEvents2::OnObjPoolCreatePool, OnObjPoolCreatePool, OnObjPoolCreatePool method [COM+], OnObjPoolCreatePool method [COM+],IComObjectPoolEvents2 interface, _dtc_IComObjectPoolEvents2_OnObjPoolCreatePool, comsvcs/IComObjectPoolEvents2::OnObjPoolCreatePool, cos.icomobjectpoolevents2_onobjpoolcreatepool
 ms.topic: method
-f1_keywords: ["comsvcs/IComObjectPoolEvents2.OnObjPoolCreatePool"]
+f1_keywords: 
+ - "comsvcs/IComObjectPoolEvents2.OnObjPoolCreatePool"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

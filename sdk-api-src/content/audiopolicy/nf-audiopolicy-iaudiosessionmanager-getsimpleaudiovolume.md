@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSimpleAudioVolume, GetSimpleAudioVolume method [Core Audio], GetSimpleAudioVolume method [Core Audio],IAudioSessionManager interface, IAudioSessionManager interface [Core Audio],GetSimpleAudioVolume method, IAudioSessionManager.GetSimpleAudioVolume, IAudioSessionManager::GetSimpleAudioVolume, IAudioSessionManagerGetSimpleAudioVolume, audiopolicy/IAudioSessionManager::GetSimpleAudioVolume, coreaudio.iaudiosessionmanager_getsimpleaudiovolume
 ms.topic: method
-f1_keywords: ["audiopolicy/IAudioSessionManager.GetSimpleAudioVolume"]
+f1_keywords: 
+ - "audiopolicy/IAudioSessionManager.GetSimpleAudioVolume"
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

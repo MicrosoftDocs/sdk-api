@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateD3DBuffer, CreateD3DBuffer callback function [Display Devices], PDD_CREATESURFACE, PDD_CREATESURFACE callback, d3dfncs_065c964d-8e17-4ec1-9b9a-c74d2f91aa27.xml, ddrawint/CreateD3DBuffer, display.created3dbuffer
 ms.topic: callback
-f1_keywords: ["ddrawint/CreateD3DBuffer"]
+f1_keywords: 
+ - "ddrawint/CreateD3DBuffer"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

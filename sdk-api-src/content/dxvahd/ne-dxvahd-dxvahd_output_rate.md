@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_OUTPUT_RATE, DXVAHD_OUTPUT_RATE enumeration [Media Foundation], DXVAHD_OUTPUT_RATE_CUSTOM, DXVAHD_OUTPUT_RATE_HALF, DXVAHD_OUTPUT_RATE_NORMAL, dxvahd/DXVAHD_OUTPUT_RATE, dxvahd/DXVAHD_OUTPUT_RATE_CUSTOM, dxvahd/DXVAHD_OUTPUT_RATE_HALF, dxvahd/DXVAHD_OUTPUT_RATE_NORMAL, mf.dxvahd_output_rate
 ms.topic: enum
-f1_keywords: ["dxvahd/DXVAHD_OUTPUT_RATE"]
+f1_keywords: 
+ - "dxvahd/DXVAHD_OUTPUT_RATE"
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

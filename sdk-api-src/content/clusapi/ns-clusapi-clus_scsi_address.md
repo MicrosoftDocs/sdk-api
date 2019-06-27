@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCLUS_SCSI_ADDRESS, CLUS_SCSI_ADDRESS, CLUS_SCSI_ADDRESS structure [Failover Cluster], PCLUS_SCSI_ADDRESS, PCLUS_SCSI_ADDRESS structure pointer [Failover Cluster], _wolf_clus_scsi_address, clusapi/CLUS_SCSI_ADDRESS, clusapi/PCLUS_SCSI_ADDRESS, mscs.clus_scsi_address"
 ms.topic: struct
-f1_keywords: ["clusapi/CLUS_SCSI_ADDRESS"]
+f1_keywords: 
+ - "clusapi/CLUS_SCSI_ADDRESS"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

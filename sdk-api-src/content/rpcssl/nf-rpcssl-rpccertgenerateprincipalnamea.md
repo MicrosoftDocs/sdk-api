@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcCertGeneratePrincipalName, RpcCertGeneratePrincipalName function [RPC], RpcCertGeneratePrincipalNameA, RpcCertGeneratePrincipalNameW, _rpc_rpccertgenerateprincipalname, rpc.rpccertgenerateprincipalname, rpcssl/RpcCertGeneratePrincipalName, rpcssl/RpcCertGeneratePrincipalNameA, rpcssl/RpcCertGeneratePrincipalNameW
 ms.topic: function
-f1_keywords: ["rpcssl/RpcCertGeneratePrincipalName"]
+f1_keywords: 
+ - "rpcssl/RpcCertGeneratePrincipalName"
 req.header: rpcssl.h
 req.include-header: Rpc.h
 req.target-type: Windows

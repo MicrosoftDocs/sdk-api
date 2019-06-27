@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NCryptIsKeyHandle, NCryptIsKeyHandle function [Security], ncrypt/NCryptIsKeyHandle, security.ncryptiskeyhandle
 ms.topic: function
-f1_keywords: ["ncrypt/NCryptIsKeyHandle"]
+f1_keywords: 
+ - "ncrypt/NCryptIsKeyHandle"
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

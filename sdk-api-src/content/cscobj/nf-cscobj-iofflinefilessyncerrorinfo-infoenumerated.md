@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesSyncErrorInfo interface [Offline Files],InfoEnumerated method, IOfflineFilesSyncErrorInfo.InfoEnumerated, IOfflineFilesSyncErrorInfo::InfoEnumerated, InfoEnumerated, InfoEnumerated method [Offline Files], InfoEnumerated method [Offline Files],IOfflineFilesSyncErrorInfo interface, cscobj/IOfflineFilesSyncErrorInfo::InfoEnumerated, of.iofflinefilessyncerrorinfo_infoenumerated
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesSyncErrorInfo.InfoEnumerated"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesSyncErrorInfo.InfoEnumerated"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

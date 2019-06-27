@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetworkConnection, INetworkConnection interface [Network Awareness], INetworkConnection interface [Network Awareness],described, netlistmgr/INetworkConnection, nla.inetworkconnection
 ms.topic: interface
-f1_keywords: ["netlistmgr/INetworkConnection"]
+f1_keywords: 
+ - "netlistmgr/INetworkConnection"
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

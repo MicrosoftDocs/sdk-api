@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWLX_CHANGE_PASSWORD_NOTIFY, PWLX_CHANGE_PASSWORD_NOTIFY callback, WlxChangePasswordNotify, WlxChangePasswordNotify callback function [Security], _gina_wlxchangepasswordnotify, security.wlxchangepasswordnotify, winwlx/WlxChangePasswordNotify
 ms.topic: callback
-f1_keywords: ["winwlx/WlxChangePasswordNotify"]
+f1_keywords: 
+ - "winwlx/WlxChangePasswordNotify"
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [Media Foundation], CreateInstance method [Media Foundation],IMFMediaEngineClassFactory interface, IMFMediaEngineClassFactory interface [Media Foundation],CreateInstance method, IMFMediaEngineClassFactory.CreateInstance, IMFMediaEngineClassFactory::CreateInstance, mf.imfmediaengineclassfactory_createinstance, mfmediaengine/IMFMediaEngineClassFactory::CreateInstance
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngineClassFactory.CreateInstance"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngineClassFactory.CreateInstance"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

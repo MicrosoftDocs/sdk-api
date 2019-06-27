@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPM_TUNNEL_FLAG_ENABLE_VIRTUAL_IF_TUNNELING, FWPM_TUNNEL_FLAG_POINT_TO_POINT, FwpmIPsecTunnelAdd1, FwpmIpsecTunnelAdd1, FwpmIpsecTunnelAdd1 function [Filtering], fwp.fwpmipsectunneladd1, fwpmu/FwpmIpsecTunnelAdd1
 ms.topic: function
-f1_keywords: ["fwpmu/FwpmIpsecTunnelAdd1"]
+f1_keywords: 
+ - "fwpmu/FwpmIpsecTunnelAdd1"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITimeTrigger interface [Task Scheduler],RandomDelay property, ITimeTrigger.RandomDelay, ITimeTrigger.put_RandomDelay, ITimeTrigger::RandomDelay, ITimeTrigger::get_RandomDelay, ITimeTrigger::put_RandomDelay, RandomDelay property [Task Scheduler], RandomDelay property [Task Scheduler],ITimeTrigger interface, put_RandomDelay, taskschd.itimetrigger_randomdelay, taskschd/ITimeTrigger::RandomDelay, taskschd/ITimeTrigger::get_RandomDelay, taskschd/ITimeTrigger::put_RandomDelay
 ms.topic: method
-f1_keywords: ["taskschd/ITimeTrigger.RandomDelay"]
+f1_keywords: 
+ - "taskschd/ITimeTrigger.RandomDelay"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

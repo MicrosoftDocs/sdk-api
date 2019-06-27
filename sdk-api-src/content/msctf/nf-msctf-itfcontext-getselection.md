@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSelection, GetSelection method [Text Services Framework], GetSelection method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetSelection method, ITfContext.GetSelection, ITfContext::GetSelection, _tsf_itfcontext_getselection_ref, msctf/ITfContext::GetSelection, tsf.itfcontext_getselection
 ms.topic: method
-f1_keywords: ["msctf/ITfContext.GetSelection"]
+f1_keywords: 
+ - "msctf/ITfContext.GetSelection"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTemplate, GetTemplate method [Windows Media Player], GetTemplate method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetTemplate method, IWMPContentPartner.GetTemplate, IWMPContentPartner::GetTemplate, IWMPContentPartnerGetTemplate, contentpartner/IWMPContentPartner::GetTemplate, wmp.iwmpcontentpartner_gettemplate
 ms.topic: method
-f1_keywords: ["contentpartner/IWMPContentPartner.GetTemplate"]
+f1_keywords: 
+ - "contentpartner/IWMPContentPartner.GetTemplate"
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

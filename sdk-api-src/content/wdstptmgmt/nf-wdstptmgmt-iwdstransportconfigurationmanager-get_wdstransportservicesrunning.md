@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportConfigurationManager interface [Windows Deployment Services],WdsTransportServicesRunning property, IWdsTransportConfigurationManager.WdsTransportServicesRunning, IWdsTransportConfigurationManager.get_WdsTransportServicesRunning, IWdsTransportConfigurationManager::WdsTransportServicesRunning, IWdsTransportConfigurationManager::get_WdsTransportServicesRunning, WdsTransportServicesRunning property [Windows Deployment Services], WdsTransportServicesRunning property [Windows Deployment Services],IWdsTransportConfigurationManager interface, get_WdsTransportServicesRunning, wds.iwdstransportconfigurationmanager_wdstransportservicesrunning, wdstptmgmt/IWdsTransportConfigurationManager::WdsTransportServicesRunning, wdstptmgmt/IWdsTransportConfigurationManager::get_WdsTransportServicesRunning
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportConfigurationManager.WdsTransportServicesRunning"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportConfigurationManager.WdsTransportServicesRunning"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

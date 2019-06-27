@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 02/20/2019
 ms.keywords: BITS_FILE_PROPERTY_ID, BITS_FILE_PROPERTY_ID enumeration [BITS], BITS_FILE_PROPERTY_ID_HTTP_RESPONSE_HEADERS, bits.bits_file_property_id, bits5_0/BITS_FILE_PROPERTY_ID, bits5_0/BITS_FILE_PROPERTY_ID_HTTP_RESPONSE_HEADERS
 ms.topic: enum
-f1_keywords: ["bits5_0/BITS_FILE_PROPERTY_ID"]
+f1_keywords: 
+ - "bits5_0/BITS_FILE_PROPERTY_ID"
 req.header: bits5_0.h
 req.include-header: 
 req.target-type: Windows

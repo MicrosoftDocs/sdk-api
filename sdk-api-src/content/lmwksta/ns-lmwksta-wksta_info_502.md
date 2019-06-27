@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPWKSTA_INFO_502, *PWKSTA_INFO_502, LPWKSTA_INFO_502, LPWKSTA_INFO_502 structure pointer [Network Management], PWKSTA_INFO_502, PWKSTA_INFO_502 structure pointer [Network Management], WKSTA_INFO_502, WKSTA_INFO_502 structure [Network Management], _win32_wksta_info_502_str, lmwksta/LPWKSTA_INFO_502, lmwksta/PWKSTA_INFO_502, lmwksta/WKSTA_INFO_502, netmgmt.wksta_info_502_str"
 ms.topic: struct
-f1_keywords: ["lmwksta/WKSTA_INFO_502"]
+f1_keywords: 
+ - "lmwksta/WKSTA_INFO_502"
 req.header: lmwksta.h
 req.include-header: Lm.h
 req.target-type: Windows

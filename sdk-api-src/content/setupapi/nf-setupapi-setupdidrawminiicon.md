@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiDrawMiniIcon, SetupDiDrawMiniIcon function [Device and Driver Installation], devinst.setupdidrawminiicon, di-rtns_b85627e0-4b6a-4198-b4b9-8a1afaa09a9a.xml, setupapi/SetupDiDrawMiniIcon
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiDrawMiniIcon"]
+f1_keywords: 
+ - "setupapi/SetupDiDrawMiniIcon"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

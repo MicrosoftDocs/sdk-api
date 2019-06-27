@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVACompBufferInfo, DXVACompBufferInfo structure [Media Foundation], _DXVACompBufferInfo, dxva9typ/DXVACompBufferInfo, mf.dxvacompbufferinfo
 ms.topic: struct
-f1_keywords: ["dxva9typ/DXVACompBufferInfo"]
+f1_keywords: 
+ - "dxva9typ/DXVACompBufferInfo"
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows

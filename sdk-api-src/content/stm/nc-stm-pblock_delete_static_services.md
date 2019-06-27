@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BlockDeleteStaticServices, BlockDeleteStaticServices callback function [RAS], PBLOCK_DELETE_STATIC_SERVICES, PBLOCK_DELETE_STATIC_SERVICES callback, _mpr_blockdeletestaticservices, rras.blockdeletestaticservices, stm/BlockDeleteStaticServices
 ms.topic: callback
-f1_keywords: ["stm/BlockDeleteStaticServices"]
+f1_keywords: 
+ - "stm/BlockDeleteStaticServices"
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows

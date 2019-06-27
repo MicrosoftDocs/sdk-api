@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TreeView_SetExtendedStyle, TreeView_SetExtendedStyle macro [Windows Controls], _shell_TreeView_SetExtendedStyle, _shell_TreeView_SetExtendedStyle_cpp, commctrl/TreeView_SetExtendedStyle, controls.TreeView_SetExtendedStyle, controls._shell_TreeView_SetExtendedStyle
 ms.topic: macro
-f1_keywords: ["commctrl/TreeView_SetExtendedStyle"]
+f1_keywords: 
+ - "commctrl/TreeView_SetExtendedStyle"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

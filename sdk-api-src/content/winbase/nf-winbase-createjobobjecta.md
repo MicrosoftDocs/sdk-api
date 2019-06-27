@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateJobObject, CreateJobObject function, CreateJobObjectA, CreateJobObjectW, _win32_createjobobject, base.createjobobject, winbase/CreateJobObject, winbase/CreateJobObjectA, winbase/CreateJobObjectW
 ms.topic: function
-f1_keywords: ["winbase/CreateJobObject"]
+f1_keywords: 
+ - "winbase/CreateJobObject"
 req.header: winbase.h
 req.include-header: Windows.h, Jobapi2.h
 req.target-type: Windows

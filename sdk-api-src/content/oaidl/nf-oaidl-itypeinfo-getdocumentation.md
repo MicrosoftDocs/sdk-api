@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDocumentation, GetDocumentation method [Automation], GetDocumentation method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetDocumentation method, ITypeInfo.GetDocumentation, ITypeInfo::GetDocumentation, _oa96_ITypeInfo_GetDocumentation, automat.itypeinfo_getdocumentation, oaidl/ITypeInfo::GetDocumentation
 ms.topic: method
-f1_keywords: ["oaidl/ITypeInfo.GetDocumentation"]
+f1_keywords: 
+ - "oaidl/ITypeInfo.GetDocumentation"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

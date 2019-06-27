@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClearPersistentIScsiDevices, ClearPersistentiScsiDevices, ClearPersistentiScsiDevices function [iSCSI Discovery Library API], iscsidisc.clearpersistentiscsidevices, iscsidsc/ClearPersistentiScsiDevices
 ms.topic: function
-f1_keywords: ["iscsidsc/ClearPersistentiScsiDevices"]
+f1_keywords: 
+ - "iscsidsc/ClearPersistentiScsiDevices"
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

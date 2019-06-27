@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WebSocketCompleteAction, WebSocketCompleteAction function [Websocket Protocol Component API], websock.websocketcompleteaction, websocket/WebSocketCompleteAction
 ms.topic: function
-f1_keywords: ["websocket/WebSocketCompleteAction"]
+f1_keywords: 
+ - "websocket/WebSocketCompleteAction"
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows

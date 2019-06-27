@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssFileShareSnapshotProvider interface [VSS],SetContext method, IVssFileShareSnapshotProvider.SetContext, IVssFileShareSnapshotProvider::SetContext, SetContext, SetContext method [VSS], SetContext method [VSS],IVssFileShareSnapshotProvider interface, base.ivssfilesharesnapshotprovider_setcontext, vsprov/IVssFileShareSnapshotProvider::SetContext
 ms.topic: method
-f1_keywords: ["vsprov/IVssFileShareSnapshotProvider.SetContext"]
+f1_keywords: 
+ - "vsprov/IVssFileShareSnapshotProvider.SetContext"
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Enabled property [Tablet PC], Enabled property [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],Enabled property, IInkEdit.Enabled, IInkEdit.put_Enabled, IInkEdit::Enabled, IInkEdit::get_Enabled, IInkEdit::put_Enabled, InkEdit.get_Enabled, InkEdit.put_Enabled, get_Enabled, inked/IInkEdit::Enabled, inked/IInkEdit::get_Enabled, inked/IInkEdit::put_Enabled, put_Enabled, tablet.inkedit_enabled
 ms.topic: method
-f1_keywords: ["inked/IInkEdit.Enabled"]
+f1_keywords: 
+ - "inked/IInkEdit.Enabled"
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

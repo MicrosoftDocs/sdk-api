@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],getAll method, IWMPMediaCollection.getAll, IWMPMediaCollection::getAll, IWMPMediaCollectiongetAll, getAll, getAll method [Windows Media Player], getAll method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_getall, wmp/IWMPMediaCollection::getAll
 ms.topic: method
-f1_keywords: ["wmp/IWMPMediaCollection.getAll"]
+f1_keywords: 
+ - "wmp/IWMPMediaCollection.getAll"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

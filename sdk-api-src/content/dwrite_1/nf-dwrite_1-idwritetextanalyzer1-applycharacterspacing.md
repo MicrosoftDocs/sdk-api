@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ApplyCharacterSpacing, ApplyCharacterSpacing method [Direct Write], ApplyCharacterSpacing method [Direct Write],IDWriteTextAnalyzer1 interface, IDWriteTextAnalyzer1 interface [Direct Write],ApplyCharacterSpacing method, IDWriteTextAnalyzer1.ApplyCharacterSpacing, IDWriteTextAnalyzer1::ApplyCharacterSpacing, directwrite.idwritetextanalyzer1_applycharacterspacing, dwrite_1/IDWriteTextAnalyzer1::ApplyCharacterSpacing
 ms.topic: method
-f1_keywords: ["dwrite_1/IDWriteTextAnalyzer1.ApplyCharacterSpacing"]
+f1_keywords: 
+ - "dwrite_1/IDWriteTextAnalyzer1.ApplyCharacterSpacing"
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

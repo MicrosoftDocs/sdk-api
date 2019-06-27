@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWindowsUpdateAgentInfo, IWindowsUpdateAgentInfo interface [Windows Update Agent], IWindowsUpdateAgentInfo interface [Windows Update Agent],described, wua.iwindowsupdateagentinfo, wuapi/IWindowsUpdateAgentInfo
 ms.topic: interface
-f1_keywords: ["wuapi/IWindowsUpdateAgentInfo"]
+f1_keywords: 
+ - "wuapi/IWindowsUpdateAgentInfo"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

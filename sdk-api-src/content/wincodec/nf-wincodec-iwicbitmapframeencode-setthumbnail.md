@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],SetThumbnail method, IWICBitmapFrameEncode.SetThumbnail, IWICBitmapFrameEncode::SetThumbnail, SetThumbnail, SetThumbnail method [Windows Imaging Component], SetThumbnail method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_setthumbnail, wic._wic_codec_iwicbitmapframeencode_setthumbnail, wincodec/IWICBitmapFrameEncode::SetThumbnail
 ms.topic: method
-f1_keywords: ["wincodec/IWICBitmapFrameEncode.SetThumbnail"]
+f1_keywords: 
+ - "wincodec/IWICBitmapFrameEncode.SetThumbnail"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

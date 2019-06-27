@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITSGAuthorizeConnectionSink interface [Remote Desktop Services],OnConnectionAuthorized method, ITSGAuthorizeConnectionSink.OnConnectionAuthorized, ITSGAuthorizeConnectionSink::OnConnectionAuthorized, OnConnectionAuthorized, OnConnectionAuthorized method [Remote Desktop Services], OnConnectionAuthorized method [Remote Desktop Services],ITSGAuthorizeConnectionSink interface, SESSION_TIMEOUT_ACTION_DISCONNECT, SESSION_TIMEOUT_ACTION_SILENT_REAUTH, termserv.itsgauthorizeconnectionsink_onconnectionauthorized, tsgpolicyengine/ITSGAuthorizeConnectionSink::OnConnectionAuthorized
 ms.topic: method
-f1_keywords: ["tsgpolicyengine/ITSGAuthorizeConnectionSink.OnConnectionAuthorized"]
+f1_keywords: 
+ - "tsgpolicyengine/ITSGAuthorizeConnectionSink.OnConnectionAuthorized"
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows

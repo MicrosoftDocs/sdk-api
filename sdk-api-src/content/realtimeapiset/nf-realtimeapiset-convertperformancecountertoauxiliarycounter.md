@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConvertPerformanceCounterToAuxiliaryCounter, ConvertPerformanceCounterToAuxiliaryCounter function, base.convertperformancecountertoauxiliarycounter, realtimeapiset/ConvertPerformanceCounterToAuxiliaryCounter
 ms.topic: function
-f1_keywords: ["realtimeapiset/ConvertPerformanceCounterToAuxiliaryCounter"]
+f1_keywords: 
+ - "realtimeapiset/ConvertPerformanceCounterToAuxiliaryCounter"
 req.header: realtimeapiset.h
 req.include-header: 
 req.target-type: Windows

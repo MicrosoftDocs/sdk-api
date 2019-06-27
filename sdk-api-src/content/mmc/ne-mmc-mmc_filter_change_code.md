@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCC_DISABLE, MFCC_ENABLE, MFCC_VALUE_CHANGE, MMC_FILTER_CHANGE_CODE, MMC_FILTER_CHANGE_CODE enumeration [MMC], _slate_mmc_filter_change_code, mmc.mmc_filter_change_code, mmc/MFCC_DISABLE, mmc/MFCC_ENABLE, mmc/MFCC_VALUE_CHANGE, mmc/MMC_FILTER_CHANGE_CODE
 ms.topic: enum
-f1_keywords: ["mmc/MMC_FILTER_CHANGE_CODE"]
+f1_keywords: 
+ - "mmc/MMC_FILTER_CHANGE_CODE"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumTasks, EnumTasks method [MMC], EnumTasks method [MMC],IExtendTaskPad interface, IExtendTaskPad interface [MMC],EnumTasks method, IExtendTaskPad.EnumTasks, IExtendTaskPad::EnumTasks, _slate_iextendtaskpad_enumtasks, mmc.iextendtaskpad_enumtasks, mmc/IExtendTaskPad::EnumTasks
 ms.topic: method
-f1_keywords: ["mmc/IExtendTaskPad.EnumTasks"]
+f1_keywords: 
+ - "mmc/IExtendTaskPad.EnumTasks"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ProcessBufferedPacketsInteractionContext, ProcessBufferedPacketsInteractionContext function, input_intcontext.processbufferedpacketsinteractioncontext, interactioncontext.processbufferedpacketsinteractioncontext, interactioncontext/ProcessBufferedPacketsInteractionContext
 ms.topic: function
-f1_keywords: ["interactioncontext/ProcessBufferedPacketsInteractionContext"]
+f1_keywords: 
+ - "interactioncontext/ProcessBufferedPacketsInteractionContext"
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

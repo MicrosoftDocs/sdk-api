@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentIsEnabled property [Windows Accessibility], CurrentIsEnabled property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentIsEnabled property, IUIAutomationElement.CurrentIsEnabled, IUIAutomationElement.get_CurrentIsEnabled, IUIAutomationElement::CurrentIsEnabled, IUIAutomationElement::get_CurrentIsEnabled, get_CurrentIsEnabled, uiauto.uiauto_IUIAutomationElement_CurrentIsEnabled, uiauto_IUIAutomationElement_CurrentIsEnabled, uiautomationclient/IUIAutomationElement::CurrentIsEnabled, uiautomationclient/IUIAutomationElement::get_CurrentIsEnabled, winauto.uiauto_IUIAutomationElement_CurrentIsEnabled
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationElement.CurrentIsEnabled"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement.CurrentIsEnabled"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

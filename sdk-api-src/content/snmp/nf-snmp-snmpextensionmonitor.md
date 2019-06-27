@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpExtensionMonitor, SnmpExtensionMonitor callback, SnmpExtensionMonitor callback function [SNMP], _snmp_snmpextensionmonitor, snmp.snmpextensionmonitor, snmp/SnmpExtensionMonitor
 ms.topic: function
-f1_keywords: ["snmp/SnmpExtensionMonitor"]
+f1_keywords: 
+ - "snmp/SnmpExtensionMonitor"
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

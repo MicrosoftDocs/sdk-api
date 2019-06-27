@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBlocks, GetBlocks method [App packaging and management], GetBlocks method [App packaging and management],IAppxBlockMapFile interface, IAppxBlockMapFile interface [App packaging and management],GetBlocks method, IAppxBlockMapFile.GetBlocks, IAppxBlockMapFile::GetBlocks, appxpackaging/IAppxBlockMapFile::GetBlocks, appxpkg.iappxblockmapfile_getblocks
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxBlockMapFile.GetBlocks"]
+f1_keywords: 
+ - "appxpackaging/IAppxBlockMapFile.GetBlocks"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

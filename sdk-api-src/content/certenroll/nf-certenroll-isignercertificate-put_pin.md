@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISignerCertificate interface [Security],Pin property, ISignerCertificate.Pin, ISignerCertificate.put_Pin, ISignerCertificate::Pin, ISignerCertificate::put_Pin, Pin property [Security], Pin property [Security],ISignerCertificate interface, certenroll/ISignerCertificate::Pin, certenroll/ISignerCertificate::put_Pin, put_Pin, security.isignercertificate_pin_property
 ms.topic: method
-f1_keywords: ["certenroll/ISignerCertificate.Pin"]
+f1_keywords: 
+ - "certenroll/ISignerCertificate.Pin"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

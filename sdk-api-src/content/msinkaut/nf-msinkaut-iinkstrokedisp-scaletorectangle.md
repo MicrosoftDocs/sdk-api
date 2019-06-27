@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8bc22004-3781-4018-9a92-88958039248c, IInkStrokeDisp interface [Tablet PC],ScaleToRectangle method, IInkStrokeDisp.ScaleToRectangle, IInkStrokeDisp::ScaleToRectangle, ScaleToRectangle, ScaleToRectangle method [Tablet PC], ScaleToRectangle method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::ScaleToRectangle, tablet.iinkstrokedisp_scaletorectangle
 ms.topic: method
-f1_keywords: ["msinkaut/IInkStrokeDisp.ScaleToRectangle"]
+f1_keywords: 
+ - "msinkaut/IInkStrokeDisp.ScaleToRectangle"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

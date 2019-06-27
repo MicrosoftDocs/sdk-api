@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAAsyncGetServByPort, WSAAsyncGetServByPort function [Winsock], _win32_wsaasyncgetservbyport_2, winsock.wsaasyncgetservbyport_2, winsock/WSAAsyncGetServByPort
 ms.topic: function
-f1_keywords: ["winsock/WSAAsyncGetServByPort"]
+f1_keywords: 
+ - "winsock/WSAAsyncGetServByPort"
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsReadQualifiedName, WsReadQualifiedName function [Web Services for Windows], webservices/WsReadQualifiedName, wsw.wsreadqualifiedname
 ms.topic: function
-f1_keywords: ["webservices/WsReadQualifiedName"]
+f1_keywords: 
+ - "webservices/WsReadQualifiedName"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

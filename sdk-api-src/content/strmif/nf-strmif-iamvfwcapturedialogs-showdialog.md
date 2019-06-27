@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMVfwCaptureDialogs interface [DirectShow],ShowDialog method, IAMVfwCaptureDialogs.ShowDialog, IAMVfwCaptureDialogs::ShowDialog, IAMVfwCaptureDialogsShowDialog, ShowDialog, ShowDialog method [DirectShow], ShowDialog method [DirectShow],IAMVfwCaptureDialogs interface, dshow.iamvfwcapturedialogs_showdialog, strmif/IAMVfwCaptureDialogs::ShowDialog
 ms.topic: method
-f1_keywords: ["strmif/IAMVfwCaptureDialogs.ShowDialog"]
+f1_keywords: 
+ - "strmif/IAMVfwCaptureDialogs.ShowDialog"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

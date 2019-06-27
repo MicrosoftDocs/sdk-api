@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetInlineObject method, IDWriteTextLayout.SetInlineObject, IDWriteTextLayout::SetInlineObject, SetInlineObject, SetInlineObject method [Direct Write], SetInlineObject method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetInlineObject, dwrite/IDWriteTextLayout::SetInlineObject
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextLayout.SetInlineObject"]
+f1_keywords: 
+ - "dwrite/IDWriteTextLayout.SetInlineObject"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

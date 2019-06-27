@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateBoundaryDescriptor, CreateBoundaryDescriptor function, CreateBoundaryDescriptorA, CreateBoundaryDescriptorW, base.createboundarydescriptor, winbase/CreateBoundaryDescriptor, winbase/CreateBoundaryDescriptorA, winbase/CreateBoundaryDescriptorW
 ms.topic: function
-f1_keywords: ["winbase/CreateBoundaryDescriptor"]
+f1_keywords: 
+ - "winbase/CreateBoundaryDescriptor"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

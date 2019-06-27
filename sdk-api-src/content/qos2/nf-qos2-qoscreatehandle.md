@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QOSCreateHandle, QOSCreateHandle function [QOS], qos.qoscreatehandle, qos2/QOSCreateHandle
 ms.topic: function
-f1_keywords: ["qos2/QOSCreateHandle"]
+f1_keywords: 
+ - "qos2/QOSCreateHandle"
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],KeyDown method, IWMPEvents.KeyDown, IWMPEvents::KeyDown, IWMPEventsKeyDown, KeyDown, KeyDown method [Windows Media Player], KeyDown method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__keydown, wmp/IWMPEvents::KeyDown
 ms.topic: method
-f1_keywords: ["wmp/IWMPEvents.KeyDown"]
+f1_keywords: 
+ - "wmp/IWMPEvents.KeyDown"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

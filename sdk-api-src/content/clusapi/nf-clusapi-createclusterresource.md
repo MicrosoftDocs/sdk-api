@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_RESOURCE_DEFAULT_MONITOR, CLUSTER_RESOURCE_SEPARATE_MONITOR, CreateClusterResource, CreateClusterResource function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_RESOURCE, PCLUSAPI_CREATE_CLUSTER_RESOURCE function [Failover Cluster], _wolf_createclusterresource, clusapi/CreateClusterResource, clusapi/PCLUSAPI_CREATE_CLUSTER_RESOURCE, mscs.createclusterresource
 ms.topic: function
-f1_keywords: ["clusapi/CreateClusterResource"]
+f1_keywords: 
+ - "clusapi/CreateClusterResource"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

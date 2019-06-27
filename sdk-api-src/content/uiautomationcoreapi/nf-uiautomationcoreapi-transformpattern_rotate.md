@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TransformPattern_Rotate, TransformPattern_Rotate function [Windows Accessibility], uiauto.uiauto_TransformPattern_RotateConPat, uiauto_TransformPattern_RotateConPat, uiautomationcoreapi/TransformPattern_Rotate, winauto.uiauto_TransformPattern_RotateConPat
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/TransformPattern_Rotate"]
+f1_keywords: 
+ - "uiautomationcoreapi/TransformPattern_Rotate"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

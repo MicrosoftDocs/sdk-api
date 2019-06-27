@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPISharingSession interface [RDP],VirtualChannelManager property, IRDPSRAPISharingSession.VirtualChannelManager, IRDPSRAPISharingSession.get_VirtualChannelManager, IRDPSRAPISharingSession2 interface [RDP],VirtualChannelManager property, IRDPSRAPISharingSession2.VirtualChannelManager, IRDPSRAPISharingSession2::VirtualChannelManager, IRDPSRAPISharingSession2::get_VirtualChannelManager, IRDPSRAPISharingSession::get_VirtualChannelManager, RDPSession object [RDP],VirtualChannelManager property, VirtualChannelManager property [RDP], VirtualChannelManager property [RDP],IRDPSRAPISharingSession interface, VirtualChannelManager property [RDP],IRDPSRAPISharingSession2 interface, VirtualChannelManager property [RDP],RDPSession object, get_VirtualChannelManager, rdp.irdpsrapisharingsession_virtualchannelmanager, rdpencomapi/IRDPSRAPISharingSession2::VirtualChannelManager, rdpencomapi/IRDPSRAPISharingSession2::get_VirtualChannelManager, rdpencomapi/IRDPSRAPISharingSession::VirtualChannelManager, rdpencomapi/IRDPSRAPISharingSession::get_VirtualChannelManager
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPISharingSession2.VirtualChannelManager"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPISharingSession2.VirtualChannelManager"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VMR9ARMode_LetterBox, VMR9ARMode_None, VMR9AspectRatioMode, VMR9AspectRatioMode , VMR9AspectRatioMode enumeration [DirectShow], VMR9AspectRatioModeEnumeration, dshow.vmr9aspectratiomode, vmr9/VMR9ARMode_LetterBox, vmr9/VMR9ARMode_None, vmr9/VMR9AspectRatioMode
 ms.topic: enum
-f1_keywords: ["vmr9/VMR9AspectRatioMode"]
+f1_keywords: 
+ - "vmr9/VMR9AspectRatioMode"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

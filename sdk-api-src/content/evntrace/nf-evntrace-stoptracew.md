@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StopTrace, StopTrace function [ETW], StopTraceA, StopTraceW, _evt_stoptrace, base.stoptrace, etw.stoptrace, evntrace/StopTrace, evntrace/StopTraceA, evntrace/StopTraceW
 ms.topic: function
-f1_keywords: ["evntrace/StopTrace"]
+f1_keywords: 
+ - "evntrace/StopTrace"
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

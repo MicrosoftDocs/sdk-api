@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1e719900-db58-430d-9059-efb3f884f6f0, ITextInputPanel, ITextInputPanel interface [Tablet PC], ITextInputPanel interface [Tablet PC],described, peninputpanel/ITextInputPanel, tablet.itextinputpanel
 ms.topic: interface
-f1_keywords: ["peninputpanel/ITextInputPanel"]
+f1_keywords: 
+ - "peninputpanel/ITextInputPanel"
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

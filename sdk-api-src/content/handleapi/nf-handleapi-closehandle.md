@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseHandle, CloseHandle function, _win32_closehandle, base.closehandle, handleapi/CloseHandle
 ms.topic: function
-f1_keywords: ["handleapi/CloseHandle"]
+f1_keywords: 
+ - "handleapi/CloseHandle"
 req.header: handleapi.h
 req.include-header: Windows.h
 req.target-type: Windows

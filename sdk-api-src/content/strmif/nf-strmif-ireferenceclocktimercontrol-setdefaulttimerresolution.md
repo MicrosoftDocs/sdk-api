@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IReferenceClockTimerControl interface [DirectShow],SetDefaultTimerResolution method, IReferenceClockTimerControl.SetDefaultTimerResolution, IReferenceClockTimerControl::SetDefaultTimerResolution, IReferenceClockTimerControlSetDefaultTimerResoluti, SetDefaultTimerResolution, SetDefaultTimerResolution method [DirectShow], SetDefaultTimerResolution method [DirectShow],IReferenceClockTimerControl interface, dshow.ireferenceclocktimercontrol_setdefaulttimerresolution, strmif/IReferenceClockTimerControl::SetDefaultTimerResolution
 ms.topic: method
-f1_keywords: ["strmif/IReferenceClockTimerControl.SetDefaultTimerResolution"]
+f1_keywords: 
+ - "strmif/IReferenceClockTimerControl.SetDefaultTimerResolution"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

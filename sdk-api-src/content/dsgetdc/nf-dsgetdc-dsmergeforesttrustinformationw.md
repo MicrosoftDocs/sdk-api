@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsMergeForestTrustInformationW, DsMergeForestTrustInformationW function [Active Directory], ad.dsmergeforesttrustinformationw, dsgetdc/DsMergeForestTrustInformationW
 ms.topic: function
-f1_keywords: ["dsgetdc/DsMergeForestTrustInformationW"]
+f1_keywords: 
+ - "dsgetdc/DsMergeForestTrustInformationW"
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows

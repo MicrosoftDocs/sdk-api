@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixPerspectiveLH, XMMatrixPerspectiveLH, XMMatrixPerspectiveLH method [DirectX Math Support APIs], dxmath.xmmatrixperspectivelh
 ms.topic: function
-f1_keywords: ["directxmath/XMMatrixPerspectiveLH"]
+f1_keywords: 
+ - "directxmath/XMMatrixPerspectiveLH"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

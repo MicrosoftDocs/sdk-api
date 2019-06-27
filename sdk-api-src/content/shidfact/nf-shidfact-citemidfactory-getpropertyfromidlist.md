@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],GetPropertyFromIDList method, CItemIDFactory.GetPropertyFromIDList, CItemIDFactory::GetPropertyFromIDList, GetPropertyFromIDList, GetPropertyFromIDList method [Windows Shell], GetPropertyFromIDList method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_getpropertyfromidlist_key, shidfact/CItemIDFactory::GetPropertyFromIDList
 ms.topic: method
-f1_keywords: ["shidfact/GetPropertyFromIDList.GetPropertyFromIDList"]
+f1_keywords: 
+ - "shidfact/GetPropertyFromIDList.GetPropertyFromIDList"
 req.header: shidfact.h
 req.include-header: 
 req.target-type: Windows

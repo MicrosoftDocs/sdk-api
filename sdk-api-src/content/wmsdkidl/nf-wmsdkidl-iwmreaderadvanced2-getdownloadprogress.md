@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDownloadProgress, GetDownloadProgress method [windows Media Format], GetDownloadProgress method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetDownloadProgress method, IWMReaderAdvanced2.GetDownloadProgress, IWMReaderAdvanced2::GetDownloadProgress, IWMReaderAdvanced2GetDownloadProgress, wmformat.iwmreaderadvanced2_getdownloadprogress, wmsdkidl/IWMReaderAdvanced2::GetDownloadProgress
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderAdvanced2.GetDownloadProgress"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderAdvanced2.GetDownloadProgress"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

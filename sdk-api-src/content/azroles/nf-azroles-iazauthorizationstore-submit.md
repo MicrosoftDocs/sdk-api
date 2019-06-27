@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],Submit method, IAzAuthorizationStore interface [Security],Submit method, IAzAuthorizationStore.Submit, IAzAuthorizationStore::Submit, Submit, Submit method [Security], Submit method [Security],AzAuthorizationStore object, Submit method [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::Submit, security.azauthorizationstore_submit
 ms.topic: method
-f1_keywords: ["azroles/AzAuthorizationStore.Submit"]
+f1_keywords: 
+ - "azroles/AzAuthorizationStore.Submit"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

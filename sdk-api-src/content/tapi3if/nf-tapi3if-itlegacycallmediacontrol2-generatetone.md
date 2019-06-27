@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GenerateTone, GenerateTone method [TAPI 2.2], GenerateTone method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],GenerateTone method, ITLegacyCallMediaControl2.GenerateTone, ITLegacyCallMediaControl2::GenerateTone, _tapi3_itlegacycallmediacontrol2_generatetone, tapi3.itlegacycallmediacontrol2_generatetone, tapi3if/ITLegacyCallMediaControl2::GenerateTone
 ms.topic: method
-f1_keywords: ["tapi3if/ITLegacyCallMediaControl2.GenerateTone"]
+f1_keywords: 
+ - "tapi3if/ITLegacyCallMediaControl2.GenerateTone"
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

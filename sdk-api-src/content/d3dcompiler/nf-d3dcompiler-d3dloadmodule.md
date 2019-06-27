@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3DLoadModule, D3DLoadModule function [HLSL], d3dcompiler/D3DLoadModule, direct3dhlsl.d3dloadmodule
 ms.topic: function
-f1_keywords: ["d3dcompiler/D3DLoadModule"]
+f1_keywords: 
+ - "d3dcompiler/D3DLoadModule"
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRESUTIL_ULARGEINT_DATA, PRESUTIL_ULARGEINT_DATA, PRESUTIL_ULARGEINT_DATA structure pointer [Failover Cluster], RESUTIL_ULARGEINT_DATA, RESUTIL_ULARGEINT_DATA structure [Failover Cluster], _wolf_resutil_ulargeint_data, mscs.resutil_ulargeint_data, resapi/PRESUTIL_ULARGEINT_DATA, resapi/RESUTIL_ULARGEINT_DATA"
 ms.topic: struct
-f1_keywords: ["resapi/RESUTIL_ULARGEINT_DATA"]
+f1_keywords: 
+ - "resapi/RESUTIL_ULARGEINT_DATA"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_COLORCONTROLCALLBACKS, DD_COLORCONTROLCALLBACKS, DD_COLORCONTROLCALLBACKS structure [Display Devices], PDD_COLORCONTROLCALLBACKS, PDD_COLORCONTROLCALLBACKS structure pointer [Display Devices], ddrawint/DD_COLORCONTROLCALLBACKS, ddrawint/PDD_COLORCONTROLCALLBACKS, ddstrcts_2e14797b-2bd8-4107-8085-60f8b5838bda.xml, display.dd_colorcontrolcallbacks"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_COLORCONTROLCALLBACKS"]
+f1_keywords: 
+ - "ddrawint/DD_COLORCONTROLCALLBACKS"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCLSID, GetCLSID method [COM+], GetCLSID method [COM+],ICOMLBArguments interface, ICOMLBArguments interface [COM+],GetCLSID method, ICOMLBArguments.GetCLSID, ICOMLBArguments::GetCLSID, _cos_ICOMLBArguments_GetCLSID, comsvcs/ICOMLBArguments::GetCLSID, cos.icomlbarguments_getclsid
 ms.topic: method
-f1_keywords: ["comsvcs/ICOMLBArguments.GetCLSID"]
+f1_keywords: 
+ - "comsvcs/ICOMLBArguments.GetCLSID"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

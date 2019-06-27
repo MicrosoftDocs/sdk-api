@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpMgrOpen, SnmpMgrOpen function [SNMP], _snmp_snmpmgropen, mgmtapi/SnmpMgrOpen, snmp.snmpmgropen
 ms.topic: function
-f1_keywords: ["mgmtapi/SnmpMgrOpen"]
+f1_keywords: 
+ - "mgmtapi/SnmpMgrOpen"
 req.header: mgmtapi.h
 req.include-header: 
 req.target-type: Windows

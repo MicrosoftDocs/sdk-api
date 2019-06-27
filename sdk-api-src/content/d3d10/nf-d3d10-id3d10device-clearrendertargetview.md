@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 3433c2e0-695b-85b1-b1ed-77a71348bc1f, ClearRenderTargetView, ClearRenderTargetView method [Direct3D 10], ClearRenderTargetView method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],ClearRenderTargetView method, ID3D10Device.ClearRenderTargetView, ID3D10Device::ClearRenderTargetView, d3d10/ID3D10Device::ClearRenderTargetView, direct3d10.id3d10device_clearrendertargetview
 ms.topic: method
-f1_keywords: ["d3d10/ID3D10Device.ClearRenderTargetView"]
+f1_keywords: 
+ - "d3d10/ID3D10Device.ClearRenderTargetView"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

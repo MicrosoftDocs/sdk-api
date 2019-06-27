@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo2 interface [Automation],SetHelpStringContext method, ICreateTypeInfo2.SetHelpStringContext, ICreateTypeInfo2::SetHelpStringContext, SetHelpStringContext, SetHelpStringContext method [Automation], SetHelpStringContext method [Automation],ICreateTypeInfo2 interface, _oa96_ICreateTypeInfo2_SetHelpStringContext, automat.icreatetypeinfo2_sethelpstringcontext, oaidl/ICreateTypeInfo2::SetHelpStringContext
 ms.topic: method
-f1_keywords: ["oaidl/ICreateTypeInfo2.SetHelpStringContext"]
+f1_keywords: 
+ - "oaidl/ICreateTypeInfo2.SetHelpStringContext"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

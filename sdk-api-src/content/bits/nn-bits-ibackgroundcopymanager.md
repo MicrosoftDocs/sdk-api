@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyManager, IBackgroundCopyManager interface [BITS], IBackgroundCopyManager interface [BITS],described, _drz_ibackgroundcopymanager, bits.ibackgroundcopymanager, bits/IBackgroundCopyManager
 ms.topic: interface
-f1_keywords: ["bits/IBackgroundCopyManager"]
+f1_keywords: 
+ - "bits/IBackgroundCopyManager"
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

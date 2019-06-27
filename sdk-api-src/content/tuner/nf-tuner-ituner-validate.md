@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],Validate method, ITuner.Validate, ITuner::Validate, ITunerValidate, Validate, Validate method [Microsoft TV Technologies], Validate method [Microsoft TV Technologies],ITuner interface, mstv.ituner_validate, tuner/ITuner::Validate
 ms.topic: method
-f1_keywords: ["tuner/ITuner.Validate"]
+f1_keywords: 
+ - "tuner/ITuner.Validate"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

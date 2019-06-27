@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExecMethod, ExecMethod method [Windows Management Instrumentation], ExecMethod method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],ExecMethod method, IWbemServices.ExecMethod, IWbemServices::ExecMethod, _hmm_iwbemservices_execmethod, wbemcli/IWbemServices::ExecMethod, wmi.iwbemservices_execmethod
 ms.topic: method
-f1_keywords: ["wbemcli/IWbemServices.ExecMethod"]
+f1_keywords: 
+ - "wbemcli/IWbemServices.ExecMethod"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XMINT3, XMINT3 constructor [DirectX Math Support APIs], XMINT3 constructor [DirectX Math Support APIs],XMINT3 structure, XMINT3 structure [DirectX Math Support APIs],XMINT3 constructor, XMINT3.XMINT3, XMINT3.XMINT3(const int32_t), XMINT3.XMINT3(const int32_t*), XMINT3::XMINT3, XMINT3::XMINT3(const int32_t), dxmath.xmint3_ctor_3
 ms.topic: method
-f1_keywords: ["directxmath/XMINT3.XMINT3"]
+f1_keywords: 
+ - "directxmath/XMINT3.XMINT3"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

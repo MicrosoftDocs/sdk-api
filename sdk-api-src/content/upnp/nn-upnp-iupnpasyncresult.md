@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPAsyncResult, IUPnPAsyncResult interface [UPnP APIs], IUPnPAsyncResult interface [UPnP APIs],described, upnp.iupnpasyncresult, upnp/IUPnPAsyncResult
 ms.topic: interface
-f1_keywords: ["upnp/IUPnPAsyncResult"]
+f1_keywords: 
+ - "upnp/IUPnPAsyncResult"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

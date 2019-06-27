@@ -11,7 +11,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddSink, AddSink method [windows Media Format], AddSink method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],AddSink method, IWMWriterAdvanced.AddSink, IWMWriterAdvanced::AddSink, IWMWriterAdvancedAddSink, wmformat.iwmwriteradvanced_addsink, wmsdkidl/IWMWriterAdvanced::AddSink
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriterAdvanced.AddSink"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriterAdvanced.AddSink"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

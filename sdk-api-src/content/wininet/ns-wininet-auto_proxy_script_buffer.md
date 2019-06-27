@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPAUTO_PROXY_SCRIPT_BUFFER, AUTO_PROXY_SCRIPT_BUFFER, AUTO_PROXY_SCRIPT_BUFFER structure [WinINet], wininet.auto_proxy_script_buffer, wininet/AUTO_PROXY_SCRIPT_BUFFER"
 ms.topic: struct
-f1_keywords: ["wininet/AUTO_PROXY_SCRIPT_BUFFER"]
+f1_keywords: 
+ - "wininet/AUTO_PROXY_SCRIPT_BUFFER"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

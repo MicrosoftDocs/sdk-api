@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOpacityMaskBrush, GetOpacityMaskBrush method [XPS Documents and Packaging], GetOpacityMaskBrush method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetOpacityMaskBrush method, IXpsOMVisual.GetOpacityMaskBrush, IXpsOMVisual::GetOpacityMaskBrush, xps.ixpsomvisual_getopacitymaskbrush, xpsobjectmodel/IXpsOMVisual::GetOpacityMaskBrush
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMVisual.GetOpacityMaskBrush"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMVisual.GetOpacityMaskBrush"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

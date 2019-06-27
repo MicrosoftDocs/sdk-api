@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTOUCH_HIT_TESTING_PROXIMITY_EVALUATION, PTOUCH_HIT_TESTING_PROXIMITY_EVALUATION, PTOUCH_HIT_TESTING_PROXIMITY_EVALUATION structure pointer, TOUCH_HIT_TESTING_PROXIMITY_EVALUATION, TOUCH_HIT_TESTING_PROXIMITY_EVALUATION structure, input_touchhittest.touch_hit_testing_proximity_evaluation, tagTOUCH_HIT_TESTING_PROXIMITY_EVALUATION, touch_hittest.touch_hit_testing_proximity_evaluation, winuser/PTOUCH_HIT_TESTING_PROXIMITY_EVALUATION, winuser/TOUCH_HIT_TESTING_PROXIMITY_EVALUATION"
 ms.topic: struct
-f1_keywords: ["winuser/TOUCH_HIT_TESTING_PROXIMITY_EVALUATION"]
+f1_keywords: 
+ - "winuser/TOUCH_HIT_TESTING_PROXIMITY_EVALUATION"
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

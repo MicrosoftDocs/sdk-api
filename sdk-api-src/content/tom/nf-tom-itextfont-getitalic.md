@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItalic, GetItalic method [Windows Controls], GetItalic method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetItalic method, ITextFont.GetItalic, ITextFont::GetItalic, _win32_ITextFont_GetItalic, _win32_ITextFont_GetItalic_cpp, controls.ITextFont_GetItalic, controls._win32_ITextFont_GetItalic, tom/ITextFont::GetItalic
 ms.topic: method
-f1_keywords: ["tom/ITextFont.GetItalic"]
+f1_keywords: 
+ - "tom/ITextFont.GetItalic"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

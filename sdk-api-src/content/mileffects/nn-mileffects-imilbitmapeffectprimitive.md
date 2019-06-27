@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectPrimitive, IMILBitmapEffectPrimitive interface [WPF Bitmap Effects], IMILBitmapEffectPrimitive interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectprimitive, mileffects/IMILBitmapEffectPrimitive, wibe._wibe_imilbitmapeffectprimitive
 ms.topic: interface
-f1_keywords: ["mileffects/IMILBitmapEffectPrimitive"]
+f1_keywords: 
+ - "mileffects/IMILBitmapEffectPrimitive"
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

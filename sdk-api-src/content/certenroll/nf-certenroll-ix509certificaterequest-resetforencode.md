@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequest interface [Security],ResetForEncode method, IX509CertificateRequest.ResetForEncode, IX509CertificateRequest::ResetForEncode, ResetForEncode, ResetForEncode method [Security], ResetForEncode method [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::ResetForEncode, security.ix509certificaterequest_resetforencode_method
 ms.topic: method
-f1_keywords: ["certenroll/IX509CertificateRequest.ResetForEncode"]
+f1_keywords: 
+ - "certenroll/IX509CertificateRequest.ResetForEncode"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

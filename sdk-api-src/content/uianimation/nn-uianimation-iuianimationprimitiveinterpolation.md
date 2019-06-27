@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationPrimitiveInterpolation, IUIAnimationPrimitiveInterpolation interface [Windows Animation], IUIAnimationPrimitiveInterpolation interface [Windows Animation],described, uianimation.iuianimationprimitiveinterpolation, uianimation/IUIAnimationPrimitiveInterpolation
 ms.topic: interface
-f1_keywords: ["uianimation/IUIAnimationPrimitiveInterpolation"]
+f1_keywords: 
+ - "uianimation/IUIAnimationPrimitiveInterpolation"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

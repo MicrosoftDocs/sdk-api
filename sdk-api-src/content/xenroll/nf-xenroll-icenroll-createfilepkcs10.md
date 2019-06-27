@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],createFilePKCS10 method, ICEnroll interface [Security],createFilePKCS10 method, ICEnroll.createFilePKCS10, ICEnroll2 interface [Security],createFilePKCS10 method, ICEnroll2::createFilePKCS10, ICEnroll3 interface [Security],createFilePKCS10 method, ICEnroll3::createFilePKCS10, ICEnroll4 interface [Security],createFilePKCS10 method, ICEnroll4::createFilePKCS10, ICEnroll::createFilePKCS10, createFilePKCS10, createFilePKCS10 method [Security], createFilePKCS10 method [Security],CEnroll object, createFilePKCS10 method [Security],ICEnroll interface, createFilePKCS10 method [Security],ICEnroll2 interface, createFilePKCS10 method [Security],ICEnroll3 interface, createFilePKCS10 method [Security],ICEnroll4 interface, security.icenroll4_createfilepkcs10, xenroll/ICEnroll2::createFilePKCS10, xenroll/ICEnroll3::createFilePKCS10, xenroll/ICEnroll4::createFilePKCS10, xenroll/ICEnroll::createFilePKCS10
 ms.topic: method
-f1_keywords: ["xenroll/ICEnroll4.createFilePKCS10"]
+f1_keywords: 
+ - "xenroll/ICEnroll4.createFilePKCS10"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

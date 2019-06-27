@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSCProductList interface [Windows API],get_Count method, IWSCProductList.get_Count, IWSCProductList::get_Count, get_Count, get_Count method [Windows API], get_Count method [Windows API],IWSCProductList interface, iwscapi/IWSCProductList::get_Count, winprog.iwscproductlist_count
 ms.topic: method
-f1_keywords: ["iwscapi/IWSCProductList.get_Count"]
+f1_keywords: 
+ - "iwscapi/IWSCProductList.get_Count"
 req.header: iwscapi.h
 req.include-header: 
 req.target-type: Windows

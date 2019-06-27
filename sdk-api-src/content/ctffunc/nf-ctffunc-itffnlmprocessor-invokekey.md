@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfFnLMProcessor interface [Text Services Framework],InvokeKey method, ITfFnLMProcessor.InvokeKey, ITfFnLMProcessor::InvokeKey, InvokeKey, InvokeKey method [Text Services Framework], InvokeKey method [Text Services Framework],ITfFnLMProcessor interface, _tsf_itffnlmprocessor_invokekey_ref, ctffunc/ITfFnLMProcessor::InvokeKey, tsf.itffnlmprocessor_invokekey
 ms.topic: method
-f1_keywords: ["ctffunc/ITfFnLMProcessor.InvokeKey"]
+f1_keywords: 
+ - "ctffunc/ITfFnLMProcessor.InvokeKey"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

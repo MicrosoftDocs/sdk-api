@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRangeCount, GetRangeCount method [Windows Sync], GetRangeCount method [Windows Sync],ICoreFragment interface, ICoreFragment interface [Windows Sync],GetRangeCount method, ICoreFragment.GetRangeCount, ICoreFragment::GetRangeCount, winsync.icorefragment_getrangecount, winsync/ICoreFragment::GetRangeCount
 ms.topic: method
-f1_keywords: ["winsync/ICoreFragment.GetRangeCount"]
+f1_keywords: 
+ - "winsync/ICoreFragment.GetRangeCount"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

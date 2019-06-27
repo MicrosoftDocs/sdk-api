@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerDistGetStatus, PeerDistGetStatus function [Peer Networking], p2p.peerdistgetstatus, peerdist/PeerDistGetStatus
 ms.topic: function
-f1_keywords: ["peerdist/PeerDistGetStatus"]
+f1_keywords: 
+ - "peerdist/PeerDistGetStatus"
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

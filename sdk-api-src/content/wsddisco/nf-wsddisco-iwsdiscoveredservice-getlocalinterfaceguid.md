@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLocalInterfaceGUID, GetLocalInterfaceGUID method, GetLocalInterfaceGUID method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetLocalInterfaceGUID method, IWSDiscoveredService.GetLocalInterfaceGUID, IWSDiscoveredService::GetLocalInterfaceGUID, ncd.iwsdiscoveredservice_getlocalinterfaceguid, wsddisco/IWSDiscoveredService::GetLocalInterfaceGUID
 ms.topic: method
-f1_keywords: ["wsddisco/IWSDiscoveredService.GetLocalInterfaceGUID"]
+f1_keywords: 
+ - "wsddisco/IWSDiscoveredService.GetLocalInterfaceGUID"
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

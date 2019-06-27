@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPMAT2, LPMAT2, LPMAT2 structure pointer [Windows GDI], MAT2, MAT2 structure [Windows GDI], _win32_MAT2_str, gdi.mat2, wingdi/LPMAT2, wingdi/MAT2"
 ms.topic: struct
-f1_keywords: ["wingdi/MAT2"]
+f1_keywords: 
+ - "wingdi/MAT2"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

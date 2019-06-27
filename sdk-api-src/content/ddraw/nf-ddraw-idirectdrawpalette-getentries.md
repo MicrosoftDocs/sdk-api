@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEntries, GetEntries method [DirectDraw], GetEntries method [DirectDraw],IDirectDrawPalette interface, IDirectDrawPalette interface [DirectDraw],GetEntries method, IDirectDrawPalette.GetEntries, IDirectDrawPalette::GetEntries, ddraw/IDirectDrawPalette::GetEntries, directdraw.idirectdrawpalette_getentries
 ms.topic: method
-f1_keywords: ["ddraw/IDirectDrawPalette.GetEntries"]
+f1_keywords: 
+ - "ddraw/IDirectDrawPalette.GetEntries"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

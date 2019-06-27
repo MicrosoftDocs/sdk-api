@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateClusterNameAccount, CreateClusterNameAccount function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_NAME_ACCOUNT, PCLUSAPI_CREATE_CLUSTER_NAME_ACCOUNT function [Failover Cluster], clusapi/CreateClusterNameAccount, clusapi/PCLUSAPI_CREATE_CLUSTER_NAME_ACCOUNT, mscs.createclusternameaccount
 ms.topic: function
-f1_keywords: ["clusapi/CreateClusterNameAccount"]
+f1_keywords: 
+ - "clusapi/CreateClusterNameAccount"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

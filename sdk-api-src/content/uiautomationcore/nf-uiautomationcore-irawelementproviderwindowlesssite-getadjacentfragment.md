@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAdjacentFragment, GetAdjacentFragment method [Windows Accessibility], GetAdjacentFragment method [Windows Accessibility],IRawElementProviderWindowlessSite interface, IRawElementProviderWindowlessSite interface [Windows Accessibility],GetAdjacentFragment method, IRawElementProviderWindowlessSite.GetAdjacentFragment, IRawElementProviderWindowlessSite::GetAdjacentFragment, uiautomationcore/IRawElementProviderWindowlessSite::GetAdjacentFragment, winauto.uiauto_IRawElementProviderWindowlessSite_GetAdjacentFragment
 ms.topic: method
-f1_keywords: ["uiautomationcore/IRawElementProviderWindowlessSite.GetAdjacentFragment"]
+f1_keywords: 
+ - "uiautomationcore/IRawElementProviderWindowlessSite.GetAdjacentFragment"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

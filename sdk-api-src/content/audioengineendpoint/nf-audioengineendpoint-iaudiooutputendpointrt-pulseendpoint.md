@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioOutputEndpointRT interface [Remote Desktop Services],PulseEndpoint method, IAudioOutputEndpointRT.PulseEndpoint, IAudioOutputEndpointRT::PulseEndpoint, PulseEndpoint, PulseEndpoint method [Remote Desktop Services], PulseEndpoint method [Remote Desktop Services],IAudioOutputEndpointRT interface, audioengineendpoint/IAudioOutputEndpointRT::PulseEndpoint, termserv.iaudiooutputendpointrt_pulseendpoint
 ms.topic: method
-f1_keywords: ["audioengineendpoint/IAudioOutputEndpointRT.PulseEndpoint"]
+f1_keywords: 
+ - "audioengineendpoint/IAudioOutputEndpointRT.PulseEndpoint"
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

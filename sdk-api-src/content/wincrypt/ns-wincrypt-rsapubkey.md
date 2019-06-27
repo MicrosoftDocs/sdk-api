@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RSAPUBKEY, RSAPUBKEY structure [Security], _crypto2_rsapubkey, security.rsapubkey, wincrypt/RSAPUBKEY
 ms.topic: struct
-f1_keywords: ["wincrypt/RSAPUBKEY"]
+f1_keywords: 
+ - "wincrypt/RSAPUBKEY"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PssWalkMarkerSeekToBeginning, PssWalkMarkerSeekToBeginning function, proc_snap.psswalkmarkerseektobeginning, processsnapshot/PssWalkMarkerSeekToBeginning
 ms.topic: function
-f1_keywords: ["processsnapshot/PssWalkMarkerSeekToBeginning"]
+f1_keywords: 
+ - "processsnapshot/PssWalkMarkerSeekToBeginning"
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISensor, ISensor interface [WinSensors], ISensor interface [WinSensors],described, sensorsapi/ISensor, winsensors.isensor
 ms.topic: interface
-f1_keywords: ["sensorsapi/ISensor"]
+f1_keywords: 
+ - "sensorsapi/ISensor"
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

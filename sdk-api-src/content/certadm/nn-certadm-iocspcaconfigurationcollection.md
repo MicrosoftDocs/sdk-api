@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCSPCAConfigurationCollection, IOCSPCAConfigurationCollection interface [Security], IOCSPCAConfigurationCollection interface [Security],described, certadm/IOCSPCAConfigurationCollection, security.iocspcaconfigurationcollection
 ms.topic: interface
-f1_keywords: ["certadm/IOCSPCAConfigurationCollection"]
+f1_keywords: 
+ - "certadm/IOCSPCAConfigurationCollection"
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

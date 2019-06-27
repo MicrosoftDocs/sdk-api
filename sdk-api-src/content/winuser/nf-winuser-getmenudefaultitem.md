@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GMDI_GOINTOPOPUPS, GMDI_USEDISABLED, GetMenuDefaultItem, GetMenuDefaultItem function [Menus and Other Resources], _win32_GetMenuDefaultItem, _win32_getmenudefaultitem_cpp, menurc.getmenudefaultitem, winui._win32_getmenudefaultitem, winuser/GetMenuDefaultItem
 ms.topic: function
-f1_keywords: ["winuser/GetMenuDefaultItem"]
+f1_keywords: 
+ - "winuser/GetMenuDefaultItem"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

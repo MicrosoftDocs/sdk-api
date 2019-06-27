@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INewWindowManager, INewWindowManager interface [Windows Shell], INewWindowManager interface [Windows Shell],described, _shell_INewWindowManager, shell.INewWindowManager, shobjidl_core/INewWindowManager
 ms.topic: interface
-f1_keywords: ["shobjidl_core/INewWindowManager"]
+f1_keywords: 
+ - "shobjidl_core/INewWindowManager"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetResourceDescription, GetResourceDescription method [Windows Shell], GetResourceDescription method [Windows Shell],IShellItemResources interface, IShellItemResources interface [Windows Shell],GetResourceDescription method, IShellItemResources.GetResourceDescription, IShellItemResources::GetResourceDescription, _shell_IShellItemResources_GetResourceDescription, shell.IShellItemResources_GetResourceDescription, shobjidl_core/IShellItemResources::GetResourceDescription
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellItemResources.GetResourceDescription"]
+f1_keywords: 
+ - "shobjidl_core/IShellItemResources.GetResourceDescription"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

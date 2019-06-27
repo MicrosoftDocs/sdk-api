@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsReadBody, WsReadBody function [Web Services for Windows], webservices/WsReadBody, wsw.wsreadbody
 ms.topic: function
-f1_keywords: ["webservices/WsReadBody"]
+f1_keywords: 
+ - "webservices/WsReadBody"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

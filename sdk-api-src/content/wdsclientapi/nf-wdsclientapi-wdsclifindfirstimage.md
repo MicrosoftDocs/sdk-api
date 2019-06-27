@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsCliFindFirstImage, WdsCliFindFirstImage function [Windows Deployment Services], wds.wdsclifindfirstimage, wdsclientapi/WdsCliFindFirstImage
 ms.topic: function
-f1_keywords: ["wdsclientapi/WdsCliFindFirstImage"]
+f1_keywords: 
+ - "wdsclientapi/WdsCliFindFirstImage"
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDFS_INFO_200, *PDFS_INFO_200, DFS_INFO_200, DFS_INFO_200 structure [Distributed File System], LPDFS_INFO_200, LPDFS_INFO_200 structure pointer [Distributed File System], PDFS_INFO_200, PDFS_INFO_200 structure pointer [Distributed File System], _win32_dfs_info_200_str, dfs.dfs_info_200_str, fs.dfs_info_200_str, lmdfs/DFS_INFO_200, lmdfs/LPDFS_INFO_200, lmdfs/PDFS_INFO_200, netmgmt.dfs_info_200_str"
 ms.topic: struct
-f1_keywords: ["lmdfs/DFS_INFO_200"]
+f1_keywords: 
+ - "lmdfs/DFS_INFO_200"
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

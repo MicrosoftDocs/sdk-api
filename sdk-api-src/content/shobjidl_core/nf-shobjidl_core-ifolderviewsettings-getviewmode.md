@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetViewMode, GetViewMode method [Windows Shell], GetViewMode method [Windows Shell],IFolderViewSettings interface, IFolderViewSettings interface [Windows Shell],GetViewMode method, IFolderViewSettings.GetViewMode, IFolderViewSettings::GetViewMode, _shell_IFolderViewSettings_GetViewMode, shell.IFolderViewSettings_GetViewMode, shobjidl_core/IFolderViewSettings::GetViewMode
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFolderViewSettings.GetViewMode"]
+f1_keywords: 
+ - "shobjidl_core/IFolderViewSettings.GetViewMode"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DIFsrmClassificationEvents, DIFsrmClassificationEvents interface [File Server Resource Manager], DIFsrmClassificationEvents interface [File Server Resource Manager],described, fs.difsrmclassificationevents, fsrm.difsrmclassificationevents, fsrmtlb/DIFsrmClassificationEvents
 ms.topic: interface
-f1_keywords: ["fsrmtlb/DIFsrmClassificationEvents"]
+f1_keywords: 
+ - "fsrmtlb/DIFsrmClassificationEvents"
 req.header: fsrmtlb.h
 req.include-header: 
 req.target-type: Windows

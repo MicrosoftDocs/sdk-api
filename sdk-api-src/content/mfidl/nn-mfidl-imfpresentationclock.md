@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 979c4f77-cbee-468c-8f6b-e68442d89025, IMFPresentationClock, IMFPresentationClock interface [Media Foundation], IMFPresentationClock interface [Media Foundation],described, mf.imfpresentationclock, mfidl/IMFPresentationClock
 ms.topic: interface
-f1_keywords: ["mfidl/IMFPresentationClock"]
+f1_keywords: 
+ - "mfidl/IMFPresentationClock"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

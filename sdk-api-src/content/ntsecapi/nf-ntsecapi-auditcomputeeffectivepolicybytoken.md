@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuditComputeEffectivePolicyByToken, AuditComputeEffectivePolicyByToken function [Security], ntsecapi/AuditComputeEffectivePolicyByToken, security.auditcomputeeffectivepolicybytoken_func
 ms.topic: function
-f1_keywords: ["ntsecapi/AuditComputeEffectivePolicyByToken"]
+f1_keywords: 
+ - "ntsecapi/AuditComputeEffectivePolicyByToken"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

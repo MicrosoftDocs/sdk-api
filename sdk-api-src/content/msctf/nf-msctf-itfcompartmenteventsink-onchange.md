@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfCompartmentEventSink interface [Text Services Framework],OnChange method, ITfCompartmentEventSink.OnChange, ITfCompartmentEventSink::OnChange, OnChange, OnChange method [Text Services Framework], OnChange method [Text Services Framework],ITfCompartmentEventSink interface, _tsf_itfcompartmenteventsink_onchange_ref, msctf/ITfCompartmentEventSink::OnChange, tsf.itfcompartmenteventsink_onchange
 ms.topic: method
-f1_keywords: ["msctf/ITfCompartmentEventSink.OnChange"]
+f1_keywords: 
+ - "msctf/ITfCompartmentEventSink.OnChange"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

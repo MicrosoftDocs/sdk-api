@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAutoArrange, GetAutoArrange method [Windows Shell], GetAutoArrange method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetAutoArrange method, IShellFolderView.GetAutoArrange, IShellFolderView::GetAutoArrange, _shell_IShellFolderView_GetAutoArrange, shell.IShellFolderView_GetAutoArrange, shlobj_core/IShellFolderView::GetAutoArrange
 ms.topic: method
-f1_keywords: ["shlobj_core/IShellFolderView.GetAutoArrange"]
+f1_keywords: 
+ - "shlobj_core/IShellFolderView.GetAutoArrange"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

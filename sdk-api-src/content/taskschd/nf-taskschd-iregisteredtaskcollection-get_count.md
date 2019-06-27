@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],IRegisteredTaskCollection interface, IRegisteredTaskCollection interface [Task Scheduler],Count property, IRegisteredTaskCollection.Count, IRegisteredTaskCollection.get_Count, IRegisteredTaskCollection::Count, IRegisteredTaskCollection::get_Count, get_Count, taskschd.iregisteredtaskcollection_count, taskschd/IRegisteredTaskCollection::Count, taskschd/IRegisteredTaskCollection::get_Count
 ms.topic: method
-f1_keywords: ["taskschd/IRegisteredTaskCollection.Count"]
+f1_keywords: 
+ - "taskschd/IRegisteredTaskCollection.Count"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

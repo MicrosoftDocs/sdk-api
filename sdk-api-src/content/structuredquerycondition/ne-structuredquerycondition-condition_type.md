@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CONDITION_TYPE, CONDITION_TYPE enumeration [search], CT_AND_CONDITION, CT_LEAF_CONDITION, CT_NOT_CONDITION, CT_OR_CONDITION, _search_CONDITION_TYPE, search._search_CONDITION_TYPE, structuredquerycondition/CONDITION_TYPE, structuredquerycondition/CT_AND_CONDITION, structuredquerycondition/CT_LEAF_CONDITION, structuredquerycondition/CT_NOT_CONDITION, structuredquerycondition/CT_OR_CONDITION
 ms.topic: enum
-f1_keywords: ["structuredquerycondition/CONDITION_TYPE"]
+f1_keywords: 
+ - "structuredquerycondition/CONDITION_TYPE"
 req.header: structuredquerycondition.h
 req.include-header: 
 req.target-type: Windows

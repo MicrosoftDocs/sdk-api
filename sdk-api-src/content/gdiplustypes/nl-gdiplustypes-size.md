@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Size, Size class [GDI+], Size class [GDI+],described, _gdiplus_CLASS_Size_Class, gdiplus._gdiplus_CLASS_Size_Class, gdiplustypes/Size
 ms.topic: class
-f1_keywords: ["gdiplustypes/Size"]
+f1_keywords: 
+ - "gdiplustypes/Size"
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows

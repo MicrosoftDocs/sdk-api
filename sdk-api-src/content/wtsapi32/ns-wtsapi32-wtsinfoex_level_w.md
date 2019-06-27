@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWTSINFOEX_LEVEL_W, PWTSINFOEX_LEVEL, PWTSINFOEX_LEVEL union pointer [Remote Desktop Services], WTSINFOEX_LEVEL, WTSINFOEX_LEVEL union [Remote Desktop Services], WTSINFOEX_LEVEL_A, WTSINFOEX_LEVEL_W, termserv.wtsinfoex_level, wtsapi32/PWTSINFOEX_LEVEL, wtsapi32/WTSINFOEX_LEVEL, wtsapi32/WTSINFOEX_LEVEL_A, wtsapi32/WTSINFOEX_LEVEL_W"
 ms.topic: struct
-f1_keywords: ["wtsapi32/WTSINFOEX_LEVEL"]
+f1_keywords: 
+ - "wtsapi32/WTSINFOEX_LEVEL"
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

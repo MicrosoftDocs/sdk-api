@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MoDuplicateMediaType, MoDuplicateMediaType function [DirectShow], dmort/MoDuplicateMediaType, dshow.moduplicatemediatype
 ms.topic: function
-f1_keywords: ["dmort/MoDuplicateMediaType"]
+f1_keywords: 
+ - "dmort/MoDuplicateMediaType"
 req.header: dmort.h
 req.include-header: Dmo.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMMigrationTable class [GPMC],GetEntries method, GetEntries, GetEntries method [GPMC], GetEntries method [GPMC],GPMMigrationTable class, GetEntries method [GPMC],IGPMMigrationTable interface, IGPMMigrationTable interface [GPMC],GetEntries method, IGPMMigrationTable.GetEntries, IGPMMigrationTable::GetEntries, gpmc.igpmmigrationtable_getentries, gpmgmt/IGPMMigrationTable::GetEntries
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMMigrationTable.GetEntries"]
+f1_keywords: 
+ - "gpmgmt/IGPMMigrationTable.GetEntries"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

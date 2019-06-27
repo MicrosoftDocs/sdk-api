@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProviderQueryConstraintCollection interface,Item method, IProviderQueryConstraintCollection.Item, IProviderQueryConstraintCollection::Item, Item, Item method, Item method,IProviderQueryConstraintCollection interface, functiondiscoveryprovider/IProviderQueryConstraintCollection::Item, ncd.iproviderqueryconstraintcollection_item
 ms.topic: method
-f1_keywords: ["functiondiscoveryprovider/IProviderQueryConstraintCollection.Item"]
+f1_keywords: 
+ - "functiondiscoveryprovider/IProviderQueryConstraintCollection.Item"
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

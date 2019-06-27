@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnSelectionChanged method, INameSpaceTreeControlEvents.OnSelectionChanged, INameSpaceTreeControlEvents::OnSelectionChanged, OnSelectionChanged, OnSelectionChanged method [Windows Shell], OnSelectionChanged method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnSelectionChanged, shell.INameSpaceTreeControlEvents_OnSelectionChanged, shobjidl/INameSpaceTreeControlEvents::OnSelectionChanged
 ms.topic: method
-f1_keywords: ["shobjidl/INameSpaceTreeControlEvents.OnSelectionChanged"]
+f1_keywords: 
+ - "shobjidl/INameSpaceTreeControlEvents.OnSelectionChanged"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

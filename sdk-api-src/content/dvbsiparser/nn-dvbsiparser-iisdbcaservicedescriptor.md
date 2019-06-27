@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IIsdbCAServiceDescriptor, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies], IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbCAServiceDescriptor, mstv.iisdbcaservicedescriptor
 ms.topic: interface
-f1_keywords: ["dvbsiparser/IIsdbCAServiceDescriptor"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbCAServiceDescriptor"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

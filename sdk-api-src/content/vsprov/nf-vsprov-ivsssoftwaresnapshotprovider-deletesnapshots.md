@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteSnapshots, DeleteSnapshots method, DeleteSnapshots method,IVssSoftwareSnapshotProvider interface, IVssSoftwareSnapshotProvider interface,DeleteSnapshots method, IVssSoftwareSnapshotProvider.DeleteSnapshots, IVssSoftwareSnapshotProvider::DeleteSnapshots, base.ivsssoftwaresnapshotprovider_deletesnapshots, vsprov/IVssSoftwareSnapshotProvider::DeleteSnapshots
 ms.topic: method
-f1_keywords: ["vsprov/IVssSoftwareSnapshotProvider.DeleteSnapshots"]
+f1_keywords: 
+ - "vsprov/IVssSoftwareSnapshotProvider.DeleteSnapshots"
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

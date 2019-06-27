@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Diagnostic, Diagnostic method [WIA], Diagnostic method [WIA],IWiaItem interface, IWiaItem interface [WIA],Diagnostic method, IWiaItem.Diagnostic, IWiaItem::Diagnostic, _wia_IWiaItem_Diagnostic, wia._wia_IWiaItem_Diagnostic, wia_xp/IWiaItem::Diagnostic
 ms.topic: method
-f1_keywords: ["wia_xp/IWiaItem.Diagnostic"]
+f1_keywords: 
+ - "wia_xp/IWiaItem.Diagnostic"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

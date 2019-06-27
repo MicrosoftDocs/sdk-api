@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTuneRequests interface [Microsoft TV Technologies],Reset method, IEnumTuneRequests.Reset, IEnumTuneRequests::Reset, IEnumTuneRequestsReset, Reset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies],IEnumTuneRequests interface, bdatif/IEnumTuneRequests::Reset, mstv.ienumtunerequests_reset
 ms.topic: method
-f1_keywords: ["bdatif/IEnumTuneRequests.Reset"]
+f1_keywords: 
+ - "bdatif/IEnumTuneRequests.Reset"
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

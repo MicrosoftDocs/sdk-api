@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIconLocation, GetIconLocation method [Windows Shell], GetIconLocation method [Windows Shell],IAssocHandler interface, IAssocHandler interface [Windows Shell],GetIconLocation method, IAssocHandler.GetIconLocation, IAssocHandler::GetIconLocation, _shell_IAssocHandler_GetIconLocation, shell.IAssocHandler_GetIconLocation, shobjidl_core/IAssocHandler::GetIconLocation
 ms.topic: method
-f1_keywords: ["shobjidl_core/IAssocHandler.GetIconLocation"]
+f1_keywords: 
+ - "shobjidl_core/IAssocHandler.GetIconLocation"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

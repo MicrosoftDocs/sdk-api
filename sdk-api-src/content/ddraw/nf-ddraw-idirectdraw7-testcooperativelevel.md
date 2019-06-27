@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectDraw7 interface [DirectDraw],TestCooperativeLevel method, IDirectDraw7.TestCooperativeLevel, IDirectDraw7::TestCooperativeLevel, TestCooperativeLevel, TestCooperativeLevel method [DirectDraw], TestCooperativeLevel method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::TestCooperativeLevel, directdraw.idirectdraw7_testcooperativelevel
 ms.topic: method
-f1_keywords: ["ddraw/IDirectDraw7.TestCooperativeLevel"]
+f1_keywords: 
+ - "ddraw/IDirectDraw7.TestCooperativeLevel"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

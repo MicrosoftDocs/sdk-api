@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStringAttribute, GetStringAttribute method [Windows Connect Now], GetStringAttribute method [Windows Connect Now],IWCNDevice interface, IWCNDevice interface [Windows Connect Now],GetStringAttribute method, IWCNDevice.GetStringAttribute, IWCNDevice::GetStringAttribute, wcn.iwcndevice_getstringattribute, wcndevice/IWCNDevice::GetStringAttribute
 ms.topic: method
-f1_keywords: ["wcndevice/IWCNDevice.GetStringAttribute"]
+f1_keywords: 
+ - "wcndevice/IWCNDevice.GetStringAttribute"
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMAbort method, IComCRMEvents.OnCRMAbort, IComCRMEvents::OnCRMAbort, OnCRMAbort, OnCRMAbort method [COM+], OnCRMAbort method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMAbort, comsvcs/IComCRMEvents::OnCRMAbort, cos.icomcrmevents_oncrmabort
 ms.topic: method
-f1_keywords: ["comsvcs/IComCRMEvents.OnCRMAbort"]
+f1_keywords: 
+ - "comsvcs/IComCRMEvents.OnCRMAbort"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

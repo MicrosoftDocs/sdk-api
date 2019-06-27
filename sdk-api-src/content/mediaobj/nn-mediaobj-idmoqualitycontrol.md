@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDMOQualityControl, IDMOQualityControl interface [DirectShow], IDMOQualityControl interface [DirectShow],described, IDMOQualityControlInterface, dshow.idmoqualitycontrol, mediaobj/IDMOQualityControl
 ms.topic: interface
-f1_keywords: ["mediaobj/IDMOQualityControl"]
+f1_keywords: 
+ - "mediaobj/IDMOQualityControl"
 req.header: mediaobj.h
 req.include-header: Dmoguids.lib
 req.target-type: Windows

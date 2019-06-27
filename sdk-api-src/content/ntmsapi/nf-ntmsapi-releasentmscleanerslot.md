@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReleaseNtmsCleanerSlot, ReleaseNtmsCleanerSlot function [Files], _zaw_releasentmscleanerslot, base.releasentmscleanerslot, fs.releasentmscleanerslot, ntmsapi/ReleaseNtmsCleanerSlot
 ms.topic: function
-f1_keywords: ["ntmsapi/ReleaseNtmsCleanerSlot"]
+f1_keywords: 
+ - "ntmsapi/ReleaseNtmsCleanerSlot"
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DavFreeCredCallback, DavFreeCredCallback callback function [WebDAV], PFNDAVAUTHCALLBACK_FREECRED, PFNDAVAUTHCALLBACK_FREECRED callback, davclnt/DavFreeCredCallback, webdav.freecredcallback
 ms.topic: callback
-f1_keywords: ["davclnt/DavFreeCredCallback"]
+f1_keywords: 
+ - "davclnt/DavFreeCredCallback"
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows

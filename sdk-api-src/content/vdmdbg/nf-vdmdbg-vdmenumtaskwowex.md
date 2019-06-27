@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDMEnumTaskWOWEx, VDMEnumTaskWOWEx function [Windows API], vdmdbg/VDMEnumTaskWOWEx, winprog.vdmenumtaskwowex
 ms.topic: function
-f1_keywords: ["vdmdbg/VDMEnumTaskWOWEx"]
+f1_keywords: 
+ - "vdmdbg/VDMEnumTaskWOWEx"
 req.header: vdmdbg.h
 req.include-header: 
 req.target-type: Windows

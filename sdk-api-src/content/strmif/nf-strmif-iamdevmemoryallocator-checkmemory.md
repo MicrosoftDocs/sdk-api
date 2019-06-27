@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckMemory, CheckMemory method [DirectShow], CheckMemory method [DirectShow],IAMDevMemoryAllocator interface, IAMDevMemoryAllocator interface [DirectShow],CheckMemory method, IAMDevMemoryAllocator.CheckMemory, IAMDevMemoryAllocator::CheckMemory, IAMDevMemoryAllocatorCheckMemory, dshow.iamdevmemoryallocator_checkmemory, strmif/IAMDevMemoryAllocator::CheckMemory
 ms.topic: method
-f1_keywords: ["strmif/IAMDevMemoryAllocator.CheckMemory"]
+f1_keywords: 
+ - "strmif/IAMDevMemoryAllocator.CheckMemory"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

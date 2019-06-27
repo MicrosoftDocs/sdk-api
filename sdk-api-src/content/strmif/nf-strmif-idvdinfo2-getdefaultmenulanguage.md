@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDefaultMenuLanguage, GetDefaultMenuLanguage method [DirectShow], GetDefaultMenuLanguage method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDefaultMenuLanguage method, IDvdInfo2.GetDefaultMenuLanguage, IDvdInfo2::GetDefaultMenuLanguage, IDvdInfo2GetDefaultMenuLanguage, dshow.idvdinfo2_getdefaultmenulanguage, strmif/IDvdInfo2::GetDefaultMenuLanguage
 ms.topic: method
-f1_keywords: ["strmif/IDvdInfo2.GetDefaultMenuLanguage"]
+f1_keywords: 
+ - "strmif/IDvdInfo2.GetDefaultMenuLanguage"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

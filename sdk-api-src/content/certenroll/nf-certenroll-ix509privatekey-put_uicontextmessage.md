@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],UIContextMessage property, IX509PrivateKey.UIContextMessage, IX509PrivateKey.put_UIContextMessage, IX509PrivateKey::UIContextMessage, IX509PrivateKey::get_UIContextMessage, IX509PrivateKey::put_UIContextMessage, UIContextMessage property [Security], UIContextMessage property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::UIContextMessage, certenroll/IX509PrivateKey::get_UIContextMessage, certenroll/IX509PrivateKey::put_UIContextMessage, put_UIContextMessage, security.ix509privatekey_uicontextmessage_property
 ms.topic: method
-f1_keywords: ["certenroll/IX509PrivateKey.UIContextMessage"]
+f1_keywords: 
+ - "certenroll/IX509PrivateKey.UIContextMessage"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNextColumnName, GetNextColumnName method [ADSI], GetNextColumnName method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],GetNextColumnName method, IDirectorySearch.GetNextColumnName, IDirectorySearch::GetNextColumnName, _ds_idirectorysearch_getnextcolumnname, adsi.idirectorysearch__getnextcolumnname, adsi.idirectorysearch_getnextcolumnname, iads/IDirectorySearch::GetNextColumnName
 ms.topic: method
-f1_keywords: ["iads/IDirectorySearch.GetNextColumnName"]
+f1_keywords: 
+ - "iads/IDirectorySearch.GetNextColumnName"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

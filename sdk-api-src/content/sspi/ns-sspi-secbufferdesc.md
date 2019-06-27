@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSecBufferDesc, PSecBufferDesc, PSecBufferDesc structure pointer [Security], SecBufferDesc, SecBufferDesc structure [Security], _ssp_secbufferdesc, security.secbufferdesc, sspi/PSecBufferDesc, sspi/SecBufferDesc"
 ms.topic: struct
-f1_keywords: ["sspi/SecBufferDesc"]
+f1_keywords: 
+ - "sspi/SecBufferDesc"
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

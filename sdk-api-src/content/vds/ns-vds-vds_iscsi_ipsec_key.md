@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_ISCSI_IPSEC_KEY, VDS_ISCSI_IPSEC_KEY structure [VDS], base.vds_iscsi_ipsec_key, vds/VDS_ISCSI_IPSEC_KEY, vdshwprv/VDS_ISCSI_IPSEC_KEY
 ms.topic: struct
-f1_keywords: ["vds/VDS_ISCSI_IPSEC_KEY"]
+f1_keywords: 
+ - "vds/VDS_ISCSI_IPSEC_KEY"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

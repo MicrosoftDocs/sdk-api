@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RemoveLogPolicy, RemoveLogPolicy function [Files], clfsmgmtw32/RemoveLogPolicy, fs.removelogpolicy
 ms.topic: function
-f1_keywords: ["clfsmgmtw32/RemoveLogPolicy"]
+f1_keywords: 
+ - "clfsmgmtw32/RemoveLogPolicy"
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows

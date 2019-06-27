@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILegacyIAccessibleProvider interface [Windows Accessibility],Role property, ILegacyIAccessibleProvider.Role, ILegacyIAccessibleProvider.get_Role, ILegacyIAccessibleProvider::Role, ILegacyIAccessibleProvider::get_Role, Role property [Windows Accessibility], Role property [Windows Accessibility],ILegacyIAccessibleProvider interface, get_Role, uiauto.uiauto_ILegacyIAccessibleProvider_Role, uiauto_ILegacyIAccessibleProvider_Role, uiautomationcore/ILegacyIAccessibleProvider::Role, uiautomationcore/ILegacyIAccessibleProvider::get_Role, winauto.uiauto_ILegacyIAccessibleProvider_Role
 ms.topic: method
-f1_keywords: ["uiautomationcore/ILegacyIAccessibleProvider.Role"]
+f1_keywords: 
+ - "uiautomationcore/ILegacyIAccessibleProvider.Role"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

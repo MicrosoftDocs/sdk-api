@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThreadErrorMode, GetThreadErrorMode function, base.getthreaderrormode, errhandlingapi/GetThreadErrorMode
 ms.topic: function
-f1_keywords: ["errhandlingapi/GetThreadErrorMode"]
+f1_keywords: 
+ - "errhandlingapi/GetThreadErrorMode"
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows

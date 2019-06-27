@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthorizeResource, AuthorizeResource method [Remote Desktop Services], AuthorizeResource method [Remote Desktop Services],ITSGPolicyEngine interface, ITSGPolicyEngine interface [Remote Desktop Services],AuthorizeResource method, ITSGPolicyEngine.AuthorizeResource, ITSGPolicyEngine::AuthorizeResource, termserv.itsgpolicyengine_authorizeresource, tsgpolicyengine/ITSGPolicyEngine::AuthorizeResource
 ms.topic: method
-f1_keywords: ["tsgpolicyengine/ITSGPolicyEngine.AuthorizeResource"]
+f1_keywords: 
+ - "tsgpolicyengine/ITSGPolicyEngine.AuthorizeResource"
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows

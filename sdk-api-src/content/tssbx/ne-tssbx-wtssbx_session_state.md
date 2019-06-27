@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSSBX_SESSION_STATE, WTSSBX_SESSION_STATE enumeration [Remote Desktop Services], WTSSBX_SESSION_STATE_ACTIVE, WTSSBX_SESSION_STATE_DISCONNECTED, WTSSBX_SESSION_STATE_UNSPEC, termserv.wtssbx_session_state, tssbx/WTSSBX_SESSION_STATE, tssbx/WTSSBX_SESSION_STATE_ACTIVE, tssbx/WTSSBX_SESSION_STATE_DISCONNECTED, tssbx/WTSSBX_SESSION_STATE_UNSPEC
 ms.topic: enum
-f1_keywords: ["tssbx/WTSSBX_SESSION_STATE"]
+f1_keywords: 
+ - "tssbx/WTSSBX_SESSION_STATE"
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows

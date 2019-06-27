@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DnsQueryConfig, DnsQueryConfig function [DNS], _dns_dnsqueryconfig, dns.dnsqueryconfig, windns/DnsQueryConfig
 ms.topic: function
-f1_keywords: ["windns/DnsQueryConfig"]
+f1_keywords: 
+ - "windns/DnsQueryConfig"
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

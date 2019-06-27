@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboard2 interface [Windows Animation],SetStoryboardEventHandler method, IUIAnimationStoryboard2.SetStoryboardEventHandler, IUIAnimationStoryboard2::SetStoryboardEventHandler, SetStoryboardEventHandler, SetStoryboardEventHandler method [Windows Animation], SetStoryboardEventHandler method [Windows Animation],IUIAnimationStoryboard2 interface, uianimation.iuianimationstoryboard2_setstoryboardeventhandler, uianimation/IUIAnimationStoryboard2::SetStoryboardEventHandler
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationStoryboard2.SetStoryboardEventHandler"]
+f1_keywords: 
+ - "uianimation/IUIAnimationStoryboard2.SetStoryboardEventHandler"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

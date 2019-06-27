@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnabledUnicodeRanges property [Tablet PC], EnabledUnicodeRanges property [Tablet PC],IInkRecognizerContext2 interface, IInkRecognizerContext2 interface [Tablet PC],EnabledUnicodeRanges property, IInkRecognizerContext2.EnabledUnicodeRanges, IInkRecognizerContext2.get_EnabledUnicodeRanges, IInkRecognizerContext2.put_EnabledUnicodeRanges, IInkRecognizerContext2::EnabledUnicodeRanges, IInkRecognizerContext2::get_EnabledUnicodeRanges, IInkRecognizerContext2::put_EnabledUnicodeRanges, msinkaut/IInkRecognizerContext2::EnabledUnicodeRanges, msinkaut/IInkRecognizerContext2::get_EnabledUnicodeRanges, msinkaut/IInkRecognizerContext2::put_EnabledUnicodeRanges, put_EnabledUnicodeRanges, tablet.iinkrecognizercontext2_enabledunicoderanges
 ms.topic: method
-f1_keywords: ["msinkaut/IInkRecognizerContext2.EnabledUnicodeRanges"]
+f1_keywords: 
+ - "msinkaut/IInkRecognizerContext2.EnabledUnicodeRanges"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

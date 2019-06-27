@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWscProduct interface [Windows API],get_SignatureStatus method, IWscProduct.get_SignatureStatus, IWscProduct::get_SignatureStatus, get_SignatureStatus, get_SignatureStatus method [Windows API], get_SignatureStatus method [Windows API],IWscProduct interface, iwscapi/IWscProduct::get_SignatureStatus, winprog.iwscproduct_signaturestatus
 ms.topic: method
-f1_keywords: ["iwscapi/IWscProduct.get_SignatureStatus"]
+f1_keywords: 
+ - "iwscapi/IWscProduct.get_SignatureStatus"
 req.header: iwscapi.h
 req.include-header: 
 req.target-type: Windows

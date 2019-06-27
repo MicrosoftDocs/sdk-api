@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPMetadataPicture interface [Windows Media Player],get_description method, IWMPMetadataPicture.get_description, IWMPMetadataPicture::get_description, IWMPMetadataPictureget_description, get_description, get_description method [Windows Media Player], get_description method [Windows Media Player],IWMPMetadataPicture interface, wmp.iwmpmetadatapicture_get_description, wmp/IWMPMetadataPicture::get_description
 ms.topic: method
-f1_keywords: ["wmp/IWMPMetadataPicture.get_description"]
+f1_keywords: 
+ - "wmp/IWMPMetadataPicture.get_description"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

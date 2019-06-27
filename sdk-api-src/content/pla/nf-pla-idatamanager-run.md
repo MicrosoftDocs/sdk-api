@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataManager interface [PLA],Run method, IDataManager.Run, IDataManager::Run, Run, Run method [PLA], Run method [PLA],IDataManager interface, base.idatamanager_run, pla.idatamanager_run, pla/IDataManager::Run
 ms.topic: method
-f1_keywords: ["pla/IDataManager.Run"]
+f1_keywords: 
+ - "pla/IDataManager.Run"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

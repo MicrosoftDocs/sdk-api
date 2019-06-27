@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ObjectContext interface [COM+],get_ContextInfo method, ObjectContext.get_ContextInfo, ObjectContext::get_ContextInfo, _cos_ObjectContext_get_ContextInfo, comsvcs/ObjectContext::get_ContextInfo, cos.objectcontext_get_contextinfo, get_ContextInfo, get_ContextInfo method [COM+], get_ContextInfo method [COM+],ObjectContext interface
 ms.topic: method
-f1_keywords: ["comsvcs/ObjectContext.get_ContextInfo"]
+f1_keywords: 
+ - "comsvcs/ObjectContext.get_ContextInfo"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

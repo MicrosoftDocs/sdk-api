@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RedEyeCorrection, RedEyeCorrection class [GDI+], RedEyeCorrection class [GDI+],described, _gdiplus_CLASS_RedEyeCorrection_Class, gdiplus._gdiplus_CLASS_RedEyeCorrection_Class, gdipluseffects/RedEyeCorrection
 ms.topic: class
-f1_keywords: ["gdipluseffects/RedEyeCorrection"]
+f1_keywords: 
+ - "gdipluseffects/RedEyeCorrection"
 req.header: gdipluseffects.h
 req.include-header: 
 req.target-type: Windows

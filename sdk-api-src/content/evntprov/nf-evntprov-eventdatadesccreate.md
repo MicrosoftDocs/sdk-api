@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventDataDescCreate, EventDataDescCreate function [ETW], base.eventdatadesccreate_func, etw.eventdatadesccreate_func, evntprov/EventDataDescCreate
 ms.topic: function
-f1_keywords: ["evntprov/EventDataDescCreate"]
+f1_keywords: 
+ - "evntprov/EventDataDescCreate"
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

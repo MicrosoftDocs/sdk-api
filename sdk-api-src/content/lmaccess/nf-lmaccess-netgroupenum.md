@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, 3, NetGroupEnum, NetGroupEnum function [Network Management], _win32_netgroupenum, lmaccess/NetGroupEnum, netmgmt.netgroupenum
 ms.topic: function
-f1_keywords: ["lmaccess/NetGroupEnum"]
+f1_keywords: 
+ - "lmaccess/NetGroupEnum"
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

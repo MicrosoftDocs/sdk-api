@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateVolume, CreateVolume method [VDS], CreateVolume method [VDS],IVdsPack interface, IVdsPack interface [VDS],CreateVolume method, IVdsPack.CreateVolume, IVdsPack::CreateVolume, base.ivdspack_createvolume, vds/IVdsPack::CreateVolume
 ms.topic: method
-f1_keywords: ["vds/IVdsPack.CreateVolume"]
+f1_keywords: 
+ - "vds/IVdsPack.CreateVolume"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

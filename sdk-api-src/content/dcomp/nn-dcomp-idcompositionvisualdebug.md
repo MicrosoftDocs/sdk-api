@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisualDebug, IDCompositionVisualDebug interface [DirectComposition], IDCompositionVisualDebug interface [DirectComposition],described, dcomp/IDCompositionVisualDebug, directcomp.idcompositionvisualdebug
 ms.topic: interface
-f1_keywords: ["dcomp/IDCompositionVisualDebug"]
+f1_keywords: 
+ - "dcomp/IDCompositionVisualDebug"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

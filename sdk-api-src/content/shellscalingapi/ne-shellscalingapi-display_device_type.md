@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DEVICE_IMMERSIVE, DEVICE_PRIMARY, DISPLAY_DEVICE_TYPE, DISPLAY_DEVICE_TYPE enumeration [Windows Shell], shell.display_device_type, shellscalingapi/DEVICE_IMMERSIVE, shellscalingapi/DEVICE_PRIMARY, shellscalingapi/DISPLAY_DEVICE_TYPE
 ms.topic: enum
-f1_keywords: ["shellscalingapi/DISPLAY_DEVICE_TYPE"]
+f1_keywords: 
+ - "shellscalingapi/DISPLAY_DEVICE_TYPE"
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows

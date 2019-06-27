@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSB_OB_ET_DATETIME, WSB_OB_ET_MAX, WSB_OB_ET_NUMBER, WSB_OB_ET_SIZE, WSB_OB_ET_STRING, WSB_OB_ET_TIME, WSB_OB_ET_UNDEFINED, WSB_OB_STATUS_ENTRY_PAIR_TYPE, WSB_OB_STATUS_ENTRY_PAIR_TYPE enumeration [Windows Server Backup], wsb.wsb_ob_status_entry_pair_type, wsbonline/WSB_OB_ET_DATETIME, wsbonline/WSB_OB_ET_MAX, wsbonline/WSB_OB_ET_NUMBER, wsbonline/WSB_OB_ET_SIZE, wsbonline/WSB_OB_ET_STRING, wsbonline/WSB_OB_ET_TIME, wsbonline/WSB_OB_ET_UNDEFINED, wsbonline/WSB_OB_STATUS_ENTRY_PAIR_TYPE
 ms.topic: enum
-f1_keywords: ["wsbonline/WSB_OB_STATUS_ENTRY_PAIR_TYPE"]
+f1_keywords: 
+ - "wsbonline/WSB_OB_STATUS_ENTRY_PAIR_TYPE"
 req.header: wsbonline.h
 req.include-header: 
 req.target-type: Windows

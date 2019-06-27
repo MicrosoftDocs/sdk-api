@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRdcLibrary, IRdcLibrary interface [Remote Differential Compression], IRdcLibrary interface [Remote Differential Compression],described, fs.irdclibrary, msrdc/IRdcLibrary, rdc.irdclibrary
 ms.topic: interface
-f1_keywords: ["msrdc/IRdcLibrary"]
+f1_keywords: 
+ - "msrdc/IRdcLibrary"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

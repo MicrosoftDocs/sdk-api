@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateRoleAssignment, CreateRoleAssignment method [Security], CreateRoleAssignment method [Security],IAzApplication3 interface, IAzApplication3 interface [Security],CreateRoleAssignment method, IAzApplication3.CreateRoleAssignment, IAzApplication3::CreateRoleAssignment, azroles/IAzApplication3::CreateRoleAssignment, security.iazapplication3_createroleassignment
 ms.topic: method
-f1_keywords: ["azroles/IAzApplication3.CreateRoleAssignment"]
+f1_keywords: 
+ - "azroles/IAzApplication3.CreateRoleAssignment"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

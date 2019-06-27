@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_TRANSFORMED_IMAGE_SOURCE_PROPERTIES, D2D1_TRANSFORMED_IMAGE_SOURCE_PROPERTIES structure [Direct2D], d2d1_3/D2D1_TRANSFORMED_IMAGE_SOURCE_PROPERTIES, direct2d.d2d1_transformed_image_source_properties
 ms.topic: struct
-f1_keywords: ["d2d1_3/D2D1_TRANSFORMED_IMAGE_SOURCE_PROPERTIES"]
+f1_keywords: 
+ - "d2d1_3/D2D1_TRANSFORMED_IMAGE_SOURCE_PROPERTIES"
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

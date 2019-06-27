@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FontFamily, FontFamily class [GDI+], FontFamily class [GDI+],described, _gdiplus_CLASS_FontFamily_Class, gdiplus._gdiplus_CLASS_FontFamily_Class, gdiplusheaders/FontFamily
 ms.topic: class
-f1_keywords: ["gdiplusheaders/FontFamily"]
+f1_keywords: 
+ - "gdiplusheaders/FontFamily"
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows

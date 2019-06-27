@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTfFunctionProviders interface [Text Services Framework],Reset method, IEnumTfFunctionProviders.Reset, IEnumTfFunctionProviders::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfFunctionProviders interface, _tsf_ienumtffunctionproviders_reset_ref, msctf/IEnumTfFunctionProviders::Reset, tsf.ienumtffunctionproviders_reset
 ms.topic: method
-f1_keywords: ["msctf/IEnumTfFunctionProviders.Reset"]
+f1_keywords: 
+ - "msctf/IEnumTfFunctionProviders.Reset"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

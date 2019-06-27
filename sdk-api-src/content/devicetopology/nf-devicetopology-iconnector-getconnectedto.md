@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetConnectedTo, GetConnectedTo method [Core Audio], GetConnectedTo method [Core Audio],IConnector interface, IConnector interface [Core Audio],GetConnectedTo method, IConnector.GetConnectedTo, IConnector::GetConnectedTo, IConnectorGetConnectedTo, coreaudio.iconnector_getconnectedto, devicetopology/IConnector::GetConnectedTo
 ms.topic: method
-f1_keywords: ["devicetopology/IConnector.GetConnectedTo"]
+f1_keywords: 
+ - "devicetopology/IConnector.GetConnectedTo"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

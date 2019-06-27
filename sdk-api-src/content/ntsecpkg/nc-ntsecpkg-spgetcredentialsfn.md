@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpGetCredentials, SpGetCredentials callback function [Security], SpGetCredentialsFn, SpGetCredentialsFn callback, _ssp_spgetcredentials, ntsecpkg/SpGetCredentials, security.spgetcredentials
 ms.topic: callback
-f1_keywords: ["ntsecpkg/SpGetCredentials"]
+f1_keywords: 
+ - "ntsecpkg/SpGetCredentials"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

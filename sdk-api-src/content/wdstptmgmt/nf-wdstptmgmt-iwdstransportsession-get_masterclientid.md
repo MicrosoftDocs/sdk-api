@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportSession interface [Windows Deployment Services],MasterClientId property, IWdsTransportSession.MasterClientId, IWdsTransportSession.get_MasterClientId, IWdsTransportSession::MasterClientId, IWdsTransportSession::get_MasterClientId, MasterClientId property [Windows Deployment Services], MasterClientId property [Windows Deployment Services],IWdsTransportSession interface, get_MasterClientId, wds.iwdstransportsession_masterclientid, wdstptmgmt/IWdsTransportSession::MasterClientId, wdstptmgmt/IWdsTransportSession::get_MasterClientId
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportSession.MasterClientId"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportSession.MasterClientId"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_IPSinkControl, IBDA_IPSinkControl interface [Microsoft TV Technologies], IBDA_IPSinkControl interface [Microsoft TV Technologies],described, IBDA_IPSinkControlInterface, bdaiface/IBDA_IPSinkControl, mstv.ibda_ipsinkcontrol
 ms.topic: interface
-f1_keywords: ["bdaiface/IBDA_IPSinkControl"]
+f1_keywords: 
+ - "bdaiface/IBDA_IPSinkControl"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

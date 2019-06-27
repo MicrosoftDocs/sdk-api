@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDefaultValue, GetDefaultValue method [DirectShow], GetDefaultValue method [DirectShow],ICodecAPI interface, ICodecAPI interface [DirectShow],GetDefaultValue method, ICodecAPI.GetDefaultValue, ICodecAPI::GetDefaultValue, ICodecAPIGetDefaultValue, dshow.icodecapi_getdefaultvalue, strmif/ICodecAPI::GetDefaultValue
 ms.topic: method
-f1_keywords: ["strmif/ICodecAPI.GetDefaultValue"]
+f1_keywords: 
+ - "strmif/ICodecAPI.GetDefaultValue"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndSetTimers, MCIWndSetTimers macro [Windows Multimedia], _win32_MCIWndSetTimers, multimedia.mciwndsettimers, vfw/MCIWndSetTimers
 ms.topic: macro
-f1_keywords: ["vfw/MCIWndSetTimers"]
+f1_keywords: 
+ - "vfw/MCIWndSetTimers"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

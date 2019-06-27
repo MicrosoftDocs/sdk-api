@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiInstallDevice, SetupDiInstallDevice function [Device and Driver Installation], devinst.setupdiinstalldevice, di-rtns_5b8edbe1-3653-41c6-8a61-12f11544ff08.xml, setupapi/SetupDiInstallDevice
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiInstallDevice"]
+f1_keywords: 
+ - "setupapi/SetupDiInstallDevice"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

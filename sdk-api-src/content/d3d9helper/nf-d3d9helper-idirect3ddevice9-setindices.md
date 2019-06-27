@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetIndices method, IDirect3DDevice9.SetIndices, IDirect3DDevice9::SetIndices, SetIndices, SetIndices method [Direct3D 9], SetIndices method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetIndices, direct3d9.idirect3ddevice9__setindices, f1b39c78-eab2-fb54-c553-da8d9f26d06b
 ms.topic: method
-f1_keywords: ["d3d9helper/IDirect3DDevice9.SetIndices"]
+f1_keywords: 
+ - "d3d9helper/IDirect3DDevice9.SetIndices"
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

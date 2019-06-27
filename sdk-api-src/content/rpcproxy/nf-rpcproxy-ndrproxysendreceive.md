@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrProxySendReceive, NdrProxySendReceive function [RPC], rpc.ndrproxysendreceive, rpcproxy/NdrProxySendReceive
 ms.topic: function
-f1_keywords: ["rpcproxy/NdrProxySendReceive"]
+f1_keywords: 
+ - "rpcproxy/NdrProxySendReceive"
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

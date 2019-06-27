@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyAutoEnroll interface [Security],TemplateName property, ICertPropertyAutoEnroll.TemplateName, ICertPropertyAutoEnroll.get_TemplateName, ICertPropertyAutoEnroll::TemplateName, ICertPropertyAutoEnroll::get_TemplateName, TemplateName property [Security], TemplateName property [Security],ICertPropertyAutoEnroll interface, certenroll/ICertPropertyAutoEnroll::TemplateName, certenroll/ICertPropertyAutoEnroll::get_TemplateName, get_TemplateName, security.icertpropertyautoenroll_templatename_property
 ms.topic: method
-f1_keywords: ["certenroll/ICertPropertyAutoEnroll.TemplateName"]
+f1_keywords: 
+ - "certenroll/ICertPropertyAutoEnroll.TemplateName"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

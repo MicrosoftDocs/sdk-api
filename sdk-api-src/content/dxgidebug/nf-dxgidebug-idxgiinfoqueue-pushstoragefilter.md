@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PushStorageFilter method, IDXGIInfoQueue.PushStorageFilter, IDXGIInfoQueue::PushStorageFilter, PushStorageFilter, PushStorageFilter method [DXGI], PushStorageFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushstoragefilter, dxgidebug/IDXGIInfoQueue::PushStorageFilter
 ms.topic: method
-f1_keywords: ["dxgidebug/IDXGIInfoQueue.PushStorageFilter"]
+f1_keywords: 
+ - "dxgidebug/IDXGIInfoQueue.PushStorageFilter"
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

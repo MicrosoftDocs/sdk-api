@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPolicyQualifier interface [Security],Qualifier property, IPolicyQualifier.Qualifier, IPolicyQualifier.get_Qualifier, IPolicyQualifier::Qualifier, IPolicyQualifier::get_Qualifier, Qualifier property [Security], Qualifier property [Security],IPolicyQualifier interface, certenroll/IPolicyQualifier::Qualifier, certenroll/IPolicyQualifier::get_Qualifier, get_Qualifier, security.ipolicyqualifier_qualifier_property
 ms.topic: method
-f1_keywords: ["certenroll/IPolicyQualifier.Qualifier"]
+f1_keywords: 
+ - "certenroll/IPolicyQualifier.Qualifier"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

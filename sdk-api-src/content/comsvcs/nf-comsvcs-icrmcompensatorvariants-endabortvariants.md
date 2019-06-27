@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndAbortVariants, EndAbortVariants method [COM+], EndAbortVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],EndAbortVariants method, ICrmCompensatorVariants.EndAbortVariants, ICrmCompensatorVariants::EndAbortVariants, _dtc_ICrmCompensatorVariants_EndAbortVariants, comsvcs/ICrmCompensatorVariants::EndAbortVariants, cos.icrmcompensatorvariants_endabortvariants
 ms.topic: method
-f1_keywords: ["comsvcs/ICrmCompensatorVariants.EndAbortVariants"]
+f1_keywords: 
+ - "comsvcs/ICrmCompensatorVariants.EndAbortVariants"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

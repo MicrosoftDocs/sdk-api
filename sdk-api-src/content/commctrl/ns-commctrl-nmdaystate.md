@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPNMDAYSTATE, LPNMDAYSTATE, LPNMDAYSTATE structure pointer [Windows Controls], NMDAYSTATE, NMDAYSTATE structure [Windows Controls], _win32_NMDAYSTATE, _win32_NMDAYSTATE_cpp, commctrl/LPNMDAYSTATE, commctrl/NMDAYSTATE, controls.NMDAYSTATE, controls._win32_NMDAYSTATE"
 ms.topic: struct
-f1_keywords: ["commctrl/NMDAYSTATE"]
+f1_keywords: 
+ - "commctrl/NMDAYSTATE"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_DoNotDisturb method, ITAddress.get_DoNotDisturb, ITAddress::get_DoNotDisturb, _tapi3_itaddress_get_donotdisturb, get_DoNotDisturb, get_DoNotDisturb method [TAPI 2.2], get_DoNotDisturb method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_donotdisturb, tapi3if/ITAddress::get_DoNotDisturb
 ms.topic: method
-f1_keywords: ["tapi3if/ITAddress.get_DoNotDisturb"]
+f1_keywords: 
+ - "tapi3if/ITAddress.get_DoNotDisturb"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

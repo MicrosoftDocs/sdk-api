@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SspiPrepareForCredRead, SspiPrepareForCredRead function [Security], security.sspiprepareforcredread, sspi/SspiPrepareForCredRead
 ms.topic: function
-f1_keywords: ["sspi/SspiPrepareForCredRead"]
+f1_keywords: 
+ - "sspi/SspiPrepareForCredRead"
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

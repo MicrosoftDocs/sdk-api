@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PATHOBJ_vEnumStartClipLines, PATHOBJ_vEnumStartClipLines function [Display Devices], display.pathobj_venumstartcliplines, gdifncs_f5446bec-830c-4946-b899-1d9a957b44ef.xml, winddi/PATHOBJ_vEnumStartClipLines
 ms.topic: function
-f1_keywords: ["winddi/PATHOBJ_vEnumStartClipLines"]
+f1_keywords: 
+ - "winddi/PATHOBJ_vEnumStartClipLines"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

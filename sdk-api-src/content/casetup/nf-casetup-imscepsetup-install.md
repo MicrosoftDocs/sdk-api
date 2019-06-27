@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSCEPSetup interface [Security],Install method, IMSCEPSetup.Install, IMSCEPSetup::Install, Install, Install method [Security], Install method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::Install, security.imscepsetup_install
 ms.topic: method
-f1_keywords: ["casetup/IMSCEPSetup.Install"]
+f1_keywords: 
+ - "casetup/IMSCEPSetup.Install"
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinBioGetEnrolledFactors, WinBioGetEnrolledFactors function [Windows Biometric Framework API], secbiomet.winbiogetenrolledfactors, winbio/WinBioGetEnrolledFactors
 ms.topic: function
-f1_keywords: ["winbio/WinBioGetEnrolledFactors"]
+f1_keywords: 
+ - "winbio/WinBioGetEnrolledFactors"
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows

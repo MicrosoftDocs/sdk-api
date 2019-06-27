@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DwmTransitionOwnedWindow, DwmTransitionOwnedWindow function [Desktop Window Manager], dwm.dwmtransitionownedwindow, dwmapi/DwmTransitionOwnedWindow
 ms.topic: function
-f1_keywords: ["dwmapi/DwmTransitionOwnedWindow"]
+f1_keywords: 
+ - "dwmapi/DwmTransitionOwnedWindow"
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

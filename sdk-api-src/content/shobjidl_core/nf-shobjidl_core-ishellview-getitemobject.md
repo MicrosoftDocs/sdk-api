@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItemObject, GetItemObject method [Windows Shell], GetItemObject method [Windows Shell],IShellView interface, IShellView interface [Windows Shell],GetItemObject method, IShellView.GetItemObject, IShellView::GetItemObject, _win32_IShellView_GetItemObject, shell.IShellView_GetItemObject, shobjidl_core/IShellView::GetItemObject
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellView.GetItemObject"]
+f1_keywords: 
+ - "shobjidl_core/IShellView.GetItemObject"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

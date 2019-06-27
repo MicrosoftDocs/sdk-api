@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRepairInfo, PRepairInfo, PRepairInfo structure pointer [NDF], RF_CONTACT_ADMIN, RF_INFORMATION_ONLY, RF_REPRO, RF_RESERVED, RF_RESERVED_CA, RF_RESERVED_LNI, RF_USER_ACTION, RF_USER_CONFIRMATION, RF_VALIDATE_HELPTOPIC, RF_WORKAROUND, RepairInfo, RepairInfo structure [NDF], ndattrib/PRepairInfo, ndattrib/RepairInfo, ndf.repairinfo"
 ms.topic: struct
-f1_keywords: ["ndattrib/RepairInfo"]
+f1_keywords: 
+ - "ndattrib/RepairInfo"
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCTL_VERIFY_USAGE_PARA, CTL_VERIFY_USAGE_PARA, CTL_VERIFY_USAGE_PARA structure [Security], PCTL_VERIFY_USAGE_PARA, PCTL_VERIFY_USAGE_PARA structure pointer [Security], _crypto2_ctl_verify_usage_para, security.ctl_verify_usage_para, wincrypt/CTL_VERIFY_USAGE_PARA, wincrypt/PCTL_VERIFY_USAGE_PARA"
 ms.topic: struct
-f1_keywords: ["wincrypt/CTL_VERIFY_USAGE_PARA"]
+f1_keywords: 
+ - "wincrypt/CTL_VERIFY_USAGE_PARA"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

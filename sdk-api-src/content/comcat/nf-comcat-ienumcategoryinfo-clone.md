@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumCATEGORYINFO interface, IEnumCATEGORYINFO interface [COM],Clone method, IEnumCATEGORYINFO.Clone, IEnumCATEGORYINFO::Clone, _com_ienumcategoryinfo_clone, com.ienumcategoryinfo_clone, comcat/IEnumCATEGORYINFO::Clone
 ms.topic: method
-f1_keywords: ["comcat/IEnumCATEGORYINFO.Clone"]
+f1_keywords: 
+ - "comcat/IEnumCATEGORYINFO.Clone"
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows

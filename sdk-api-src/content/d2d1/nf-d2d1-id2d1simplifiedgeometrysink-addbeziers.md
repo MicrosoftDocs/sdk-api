@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddBeziers, AddBeziers method [Direct2D], AddBeziers method [Direct2D],ID2D1SimplifiedGeometrySink interface, ID2D1SimplifiedGeometrySink interface [Direct2D],AddBeziers method, ID2D1SimplifiedGeometrySink.AddBeziers, ID2D1SimplifiedGeometrySink::AddBeziers, d2d1/ID2D1SimplifiedGeometrySink::AddBeziers, direct2d.ID2D1SimplifiedGeometrySink_AddBeziers
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1SimplifiedGeometrySink.AddBeziers"]
+f1_keywords: 
+ - "d2d1/ID2D1SimplifiedGeometrySink.AddBeziers"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

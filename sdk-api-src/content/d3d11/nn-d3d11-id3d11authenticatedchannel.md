@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11AuthenticatedChannel, ID3D11AuthenticatedChannel interface [Media Foundation], ID3D11AuthenticatedChannel interface [Media Foundation],described, d3d11/ID3D11AuthenticatedChannel, mf.id3d11authenticatedchannel
 ms.topic: interface
-f1_keywords: ["d3d11/ID3D11AuthenticatedChannel"]
+f1_keywords: 
+ - "d3d11/ID3D11AuthenticatedChannel"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

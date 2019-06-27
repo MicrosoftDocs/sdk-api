@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],LayOut method, ICreateTypeInfo.LayOut, ICreateTypeInfo::LayOut, LayOut, LayOut method [Automation], LayOut method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_LayOut, automat.icreatetypeinfo_layout, oaidl/ICreateTypeInfo::LayOut
 ms.topic: method
-f1_keywords: ["oaidl/ICreateTypeInfo.LayOut"]
+f1_keywords: 
+ - "oaidl/ICreateTypeInfo.LayOut"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

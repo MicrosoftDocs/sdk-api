@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITScriptableAudioFormat, ITScriptableAudioFormat interface [TAPI 2.2], ITScriptableAudioFormat interface [TAPI 2.2],described, _tapi3_itscriptableaudioformat, tapi3.itscriptableaudioformat, tapi3if/ITScriptableAudioFormat
 ms.topic: interface
-f1_keywords: ["tapi3if/ITScriptableAudioFormat"]
+f1_keywords: 
+ - "tapi3if/ITScriptableAudioFormat"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

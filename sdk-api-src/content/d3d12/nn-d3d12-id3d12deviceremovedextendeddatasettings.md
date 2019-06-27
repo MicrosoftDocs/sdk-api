@@ -8,7 +8,8 @@ ms.author: windowssdkdev
 ms.date: 02/08/2019
 ms.keywords: ID3D12DeviceRemovedExtendedDataSettings, ID3D12DeviceRemovedExtendedDataSettings interface, ID3D12DeviceRemovedExtendedDataSettings interface,described, d3d12/ID3D12DeviceRemovedExtendedDataSettings, direct3d12.id3d12deviceremovedextendeddatasettings
 ms.topic: interface
-f1_keywords: ["d3d12/ID3D12DeviceRemovedExtendedDataSettings"]
+f1_keywords: 
+ - "d3d12/ID3D12DeviceRemovedExtendedDataSettings"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

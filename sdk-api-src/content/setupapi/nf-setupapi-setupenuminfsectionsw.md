@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupEnumInfSections, SetupEnumInfSections function [Setup API], SetupEnumInfSectionsA, SetupEnumInfSectionsW, setup.setupenuminfsections, setupapi/SetupEnumInfSections, setupapi/SetupEnumInfSectionsA, setupapi/SetupEnumInfSectionsW
 ms.topic: function
-f1_keywords: ["setupapi/SetupEnumInfSections"]
+f1_keywords: 
+ - "setupapi/SetupEnumInfSections"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

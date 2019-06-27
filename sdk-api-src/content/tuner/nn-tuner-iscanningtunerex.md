@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IScanningTunerEx, IScanningTunerEx interface [Microsoft TV Technologies], IScanningTunerEx interface [Microsoft TV Technologies],described, IScanningTunerExInterface, mstv.iscanningtunerex, tuner/IScanningTunerEx
 ms.topic: interface
-f1_keywords: ["tuner/IScanningTunerEx"]
+f1_keywords: 
+ - "tuner/IScanningTunerEx"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

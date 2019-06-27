@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_PropertySet_AddElement, MI_PropertySet_AddElement function [Windows Management Infrastructure (MI)], mi/MI_PropertySet_AddElement, wmi_v2.mi_propertyset_addelement
 ms.topic: function
-f1_keywords: ["mi/MI_PropertySet_AddElement"]
+f1_keywords: 
+ - "mi/MI_PropertySet_AddElement"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

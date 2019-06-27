@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcNsGroupMbrRemove, RpcNsGroupMbrRemove function [RPC], RpcNsGroupMbrRemoveA, RpcNsGroupMbrRemoveW, _rpc_rpcnsgroupmbrremove, rpc.rpcnsgroupmbrremove, rpcnsi/RpcNsGroupMbrRemove, rpcnsi/RpcNsGroupMbrRemoveA, rpcnsi/RpcNsGroupMbrRemoveW
 ms.topic: function
-f1_keywords: ["rpcnsi/RpcNsGroupMbrRemove"]
+f1_keywords: 
+ - "rpcnsi/RpcNsGroupMbrRemove"
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows

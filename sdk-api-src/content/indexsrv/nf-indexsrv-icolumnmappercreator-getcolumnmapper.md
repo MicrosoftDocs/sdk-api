@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColumnMapper, GetColumnMapper method [search], GetColumnMapper method [search],IColumnMapperCreator interface, IColumnMapperCreator interface [search],GetColumnMapper method, IColumnMapperCreator.GetColumnMapper, IColumnMapperCreator::GetColumnMapper, indexsrv/IColumnMapperCreator::GetColumnMapper, search.icolumnmappercreator_getcolumnmapper
 ms.topic: method
-f1_keywords: ["indexsrv/IColumnMapperCreator.GetColumnMapper"]
+f1_keywords: 
+ - "indexsrv/IColumnMapperCreator.GetColumnMapper"
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

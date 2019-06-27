@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStorageFilterStackSize, GetStorageFilterStackSize method [Direct3D 11], GetStorageFilterStackSize method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],GetStorageFilterStackSize method, ID3D11InfoQueue.GetStorageFilterStackSize, ID3D11InfoQueue::GetStorageFilterStackSize, d3d11sdklayers/ID3D11InfoQueue::GetStorageFilterStackSize, direct3d11.id3d11infoqueue_getstoragefilterstacksize, fd4c45f1-2d2d-49f4-5579-667932470fb1
 ms.topic: method
-f1_keywords: ["d3d11sdklayers/ID3D11InfoQueue.GetStorageFilterStackSize"]
+f1_keywords: 
+ - "d3d11sdklayers/ID3D11InfoQueue.GetStorageFilterStackSize"
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

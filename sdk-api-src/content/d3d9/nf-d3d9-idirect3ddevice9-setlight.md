@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 01be5e3b-cd10-6899-0e92-5f0874741380, IDirect3DDevice9 interface [Direct3D 9],SetLight method, IDirect3DDevice9.SetLight, IDirect3DDevice9::SetLight, SetLight, SetLight method [Direct3D 9], SetLight method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetLight, direct3d9.idirect3ddevice9__setlight
 ms.topic: method
-f1_keywords: ["d3d9/IDirect3DDevice9.SetLight"]
+f1_keywords: 
+ - "d3d9/IDirect3DDevice9.SetLight"
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12PipelineLibrary1 interface,LoadPipeline method, ID3D12PipelineLibrary1.LoadPipeline, ID3D12PipelineLibrary1::LoadPipeline, LoadPipeline, LoadPipeline method, LoadPipeline method,ID3D12PipelineLibrary1 interface, d3d12/ID3D12PipelineLibrary1::LoadPipeline, direct3d12.id3d12pipelinelibrary1_loadpipeline
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12PipelineLibrary1.LoadPipeline"]
+f1_keywords: 
+ - "d3d12/ID3D12PipelineLibrary1.LoadPipeline"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

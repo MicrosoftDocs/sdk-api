@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMESSAGE_RESOURCE_DATA, MESSAGE_RESOURCE_DATA, MESSAGE_RESOURCE_DATA structure [Menus and Other Resources], PMESSAGE_RESOURCE_DATA, PMESSAGE_RESOURCE_DATA structure pointer [Menus and Other Resources], _win32_MESSAGE_RESOURCE_DATA_str, _win32_message_resource_data_str_cpp, menurc.message_resource_data, winnt/MESSAGE_RESOURCE_DATA, winnt/PMESSAGE_RESOURCE_DATA, winui._win32_message_resource_data_str"
 ms.topic: struct
-f1_keywords: ["winnt/MESSAGE_RESOURCE_DATA"]
+f1_keywords: 
+ - "winnt/MESSAGE_RESOURCE_DATA"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

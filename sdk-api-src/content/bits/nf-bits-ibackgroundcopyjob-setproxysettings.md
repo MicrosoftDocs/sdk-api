@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetProxySettings method, IBackgroundCopyJob.SetProxySettings, IBackgroundCopyJob::SetProxySettings, SetProxySettings, SetProxySettings method [BITS], SetProxySettings method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setproxysettings, bits.ibackgroundcopyjob_setproxysettings, bits/IBackgroundCopyJob::SetProxySettings
 ms.topic: method
-f1_keywords: ["bits/IBackgroundCopyJob.SetProxySettings"]
+f1_keywords: 
+ - "bits/IBackgroundCopyJob.SetProxySettings"
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbEnvironment interface [Remote Desktop Services],ServerWeight property, ITsSbEnvironment.ServerWeight, ITsSbEnvironment.get_ServerWeight, ITsSbEnvironment::ServerWeight, ITsSbEnvironment::get_ServerWeight, ServerWeight property [Remote Desktop Services], ServerWeight property [Remote Desktop Services],ITsSbEnvironment interface, get_ServerWeight, sbtsv/ITsSbEnvironment::ServerWeight, sbtsv/ITsSbEnvironment::get_ServerWeight, termserv.itssbenvironment_serverweight
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbEnvironment.ServerWeight"]
+f1_keywords: 
+ - "sbtsv/ITsSbEnvironment.ServerWeight"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

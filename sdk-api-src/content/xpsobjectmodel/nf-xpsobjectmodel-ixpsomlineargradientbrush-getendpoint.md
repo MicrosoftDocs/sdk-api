@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEndPoint, GetEndPoint method [XPS Documents and Packaging], GetEndPoint method [XPS Documents and Packaging],IXpsOMLinearGradientBrush interface, IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],GetEndPoint method, IXpsOMLinearGradientBrush.GetEndPoint, IXpsOMLinearGradientBrush::GetEndPoint, xps.ixpsomlineargradientbrush_getendpoint, xpsobjectmodel/IXpsOMLinearGradientBrush::GetEndPoint
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMLinearGradientBrush.GetEndPoint"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMLinearGradientBrush.GetEndPoint"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

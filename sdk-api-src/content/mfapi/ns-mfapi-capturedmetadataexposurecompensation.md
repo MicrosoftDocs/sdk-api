@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CapturedMetadataExposureCompensation, CapturedMetadataExposureCompensation structure [Streaming Media Devices], mfapi/CapturedMetadataExposureCompensation, stream.capturedmetadataexposurecompensation
 ms.topic: struct
-f1_keywords: ["mfapi/CapturedMetadataExposureCompensation"]
+f1_keywords: 
+ - "mfapi/CapturedMetadataExposureCompensation"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

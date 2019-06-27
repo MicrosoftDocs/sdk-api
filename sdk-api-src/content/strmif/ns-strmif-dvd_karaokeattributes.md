@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DVD_KaraokeAttributes, DVD_KaraokeAttributes structure [DirectShow], DVD_KaraokeAttributesStructure, dshow.dvd_karaokeattributes, strmif/DVD_KaraokeAttributes
 ms.topic: struct
-f1_keywords: ["strmif/DVD_KaraokeAttributes"]
+f1_keywords: 
+ - "strmif/DVD_KaraokeAttributes"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

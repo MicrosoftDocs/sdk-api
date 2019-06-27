@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WNetRestoreConnectionW, WNetRestoreConnectionW function [Windows Networking (WNet)], winnetwk/WNetRestoreConnectionW, wnet.wnetrestoreconnectionw
 ms.topic: function
-f1_keywords: ["winnetwk/WNetRestoreConnectionW"]
+f1_keywords: 
+ - "winnetwk/WNetRestoreConnectionW"
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows

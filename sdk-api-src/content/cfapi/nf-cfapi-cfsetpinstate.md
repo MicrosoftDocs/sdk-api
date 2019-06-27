@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CfSetPinState, CfSetPinState function, cfapi/CfSetPinState, cloudApi.cfsetpinstate
 ms.topic: function
-f1_keywords: ["cfapi/CfSetPinState"]
+f1_keywords: 
+ - "cfapi/CfSetPinState"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

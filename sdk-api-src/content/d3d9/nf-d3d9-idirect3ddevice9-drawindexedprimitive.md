@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawIndexedPrimitive, DrawIndexedPrimitive method [Direct3D 9], DrawIndexedPrimitive method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],DrawIndexedPrimitive method, IDirect3DDevice9.DrawIndexedPrimitive, IDirect3DDevice9::DrawIndexedPrimitive, a022738b-ecda-9413-683b-50134f542560, d3d9helper/IDirect3DDevice9::DrawIndexedPrimitive, direct3d9.idirect3ddevice9__drawindexedprimitive
 ms.topic: method
-f1_keywords: ["d3d9/IDirect3DDevice9.DrawIndexedPrimitive"]
+f1_keywords: 
+ - "d3d9/IDirect3DDevice9.DrawIndexedPrimitive"
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

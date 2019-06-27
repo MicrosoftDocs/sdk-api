@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetDrawBackgroundMode method, IAMWstDecoder.SetDrawBackgroundMode, IAMWstDecoder::SetDrawBackgroundMode, IAMWstDecoderSetDrawBackgroundMode, SetDrawBackgroundMode, SetDrawBackgroundMode method [DirectShow], SetDrawBackgroundMode method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setdrawbackgroundmode, iwstdec/IAMWstDecoder::SetDrawBackgroundMode
 ms.topic: method
-f1_keywords: ["iwstdec/IAMWstDecoder.SetDrawBackgroundMode"]
+f1_keywords: 
+ - "iwstdec/IAMWstDecoder.SetDrawBackgroundMode"
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows

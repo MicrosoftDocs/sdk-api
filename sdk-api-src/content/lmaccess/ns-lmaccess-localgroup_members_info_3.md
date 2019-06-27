@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPLOCALGROUP_MEMBERS_INFO_3, *PLOCALGROUP_MEMBERS_INFO_3, LOCALGROUP_MEMBERS_INFO_3, LOCALGROUP_MEMBERS_INFO_3 structure [Network Management], _win32_localgroup_members_info_3_str, lmaccess/LOCALGROUP_MEMBERS_INFO_3, netmgmt.localgroup_members_info_3_str"
 ms.topic: struct
-f1_keywords: ["lmaccess/LOCALGROUP_MEMBERS_INFO_3"]
+f1_keywords: 
+ - "lmaccess/LOCALGROUP_MEMBERS_INFO_3"
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

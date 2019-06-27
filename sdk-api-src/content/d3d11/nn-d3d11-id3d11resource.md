@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11Resource, ID3D11Resource interface [Direct3D 11], ID3D11Resource interface [Direct3D 11],described, d3d11/ID3D11Resource, d8e977b3-ff67-b931-bf00-8a95c24e06b7, direct3d11.id3d11resource
 ms.topic: interface
-f1_keywords: ["d3d11/ID3D11Resource"]
+f1_keywords: 
+ - "d3d11/ID3D11Resource"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

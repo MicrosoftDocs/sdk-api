@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDeviceDriverBaseName, GetDeviceDriverBaseName function [PSAPI], GetDeviceDriverBaseNameA, GetDeviceDriverBaseNameW, K32GetDeviceDriverBaseName, K32GetDeviceDriverBaseNameA, K32GetDeviceDriverBaseNameW, _win32_getdevicedriverbasename, base.getdevicedriverbasename, psapi.getdevicedriverbasename, psapi/GetDeviceDriverBaseName, psapi/GetDeviceDriverBaseNameA, psapi/GetDeviceDriverBaseNameW, psapi/K32GetDeviceDriverBaseName, psapi/K32GetDeviceDriverBaseNameA, psapi/K32GetDeviceDriverBaseNameW
 ms.topic: function
-f1_keywords: ["psapi/GetDeviceDriverBaseName"]
+f1_keywords: 
+ - "psapi/GetDeviceDriverBaseName"
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

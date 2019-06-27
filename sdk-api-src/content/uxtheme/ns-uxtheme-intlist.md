@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PINTLIST, INTLIST, INTLIST structure [Windows Controls], PINTLIST, PINTLIST structure pointer [Windows Controls], controls.INTLIST, controls.inet_INTLIST, inet_INTLIST, inet_INTLIST_cpp, uxtheme/INTLIST, uxtheme/PINTLIST"
 ms.topic: struct
-f1_keywords: ["uxtheme/INTLIST"]
+f1_keywords: 
+ - "uxtheme/INTLIST"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

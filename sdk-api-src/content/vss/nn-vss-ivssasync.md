@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssAsync, IVssAsync interface [VSS], IVssAsync interface [VSS],described, _win32_ivssasync, base.ivssasync, vss/IVssAsync
 ms.topic: interface
-f1_keywords: ["vss/IVssAsync"]
+f1_keywords: 
+ - "vss/IVssAsync"
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnableHardwareEffects, EnableHardwareEffects method [Media Foundation], EnableHardwareEffects method [Media Foundation],IMFVideoProcessorControl2 interface, IMFVideoProcessorControl2 interface [Media Foundation],EnableHardwareEffects method, IMFVideoProcessorControl2.EnableHardwareEffects, IMFVideoProcessorControl2::EnableHardwareEffects, mf.imfvideoprocessorcontrol2_enablehardwareeffects, mfidl/IMFVideoProcessorControl2::EnableHardwareEffects
 ms.topic: method
-f1_keywords: ["mfidl/IMFVideoProcessorControl2.EnableHardwareEffects"]
+f1_keywords: 
+ - "mfidl/IMFVideoProcessorControl2.EnableHardwareEffects"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

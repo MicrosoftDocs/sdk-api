@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetViewStatus, GetViewStatus method [COM], GetViewStatus method [COM],IViewObjectEx interface, IViewObjectEx interface [COM],GetViewStatus method, IViewObjectEx.GetViewStatus, IViewObjectEx::GetViewStatus, _ole_iviewobjectex_getviewstatus, com.iviewobjectex_getviewstatus, ocidl/IViewObjectEx::GetViewStatus
 ms.topic: method
-f1_keywords: ["ocidl/IViewObjectEx.GetViewStatus"]
+f1_keywords: 
+ - "ocidl/IViewObjectEx.GetViewStatus"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

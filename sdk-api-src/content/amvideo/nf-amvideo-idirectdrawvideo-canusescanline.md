@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CanUseScanLine, CanUseScanLine method [DirectShow], CanUseScanLine method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],CanUseScanLine method, IDirectDrawVideo.CanUseScanLine, IDirectDrawVideo::CanUseScanLine, IDirectDrawVideoCanUseScanLine, amvideo/IDirectDrawVideo::CanUseScanLine, dshow.idirectdrawvideo_canusescanline
 ms.topic: method
-f1_keywords: ["amvideo/IDirectDrawVideo.CanUseScanLine"]
+f1_keywords: 
+ - "amvideo/IDirectDrawVideo.CanUseScanLine"
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PAPPSTATE_CHANGE_ROUTINE, PAPPSTATE_CHANGE_ROUTINE function, PAPPSTATE_CHANGE_ROUTINE function pointer [Windows Shell], appnotify/PAPPSTATE_CHANGE_ROUTINE, shell.PAPPSTATE_CHANGE_ROUTINE
 ms.topic: callback
-f1_keywords: ["appnotify/PAPPSTATE_CHANGE_ROUTINE"]
+f1_keywords: 
+ - "appnotify/PAPPSTATE_CHANGE_ROUTINE"
 req.header: appnotify.h
 req.include-header: 
 req.target-type: Windows

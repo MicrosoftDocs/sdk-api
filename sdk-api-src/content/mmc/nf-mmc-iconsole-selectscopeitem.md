@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConsole interface [MMC],SelectScopeItem method, IConsole.SelectScopeItem, IConsole::SelectScopeItem, SelectScopeItem, SelectScopeItem method [MMC], SelectScopeItem method [MMC],IConsole interface, mmc.iconsole_selectscopeitem, mmc/IConsole::SelectScopeItem
 ms.topic: method
-f1_keywords: ["mmc/IConsole.SelectScopeItem"]
+f1_keywords: 
+ - "mmc/IConsole.SelectScopeItem"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

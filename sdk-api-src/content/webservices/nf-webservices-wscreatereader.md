@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsCreateReader, WsCreateReader function [Web Services for Windows], webservices/WsCreateReader, wsw.wscreatereader
 ms.topic: function
-f1_keywords: ["webservices/WsCreateReader"]
+f1_keywords: 
+ - "webservices/WsCreateReader"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

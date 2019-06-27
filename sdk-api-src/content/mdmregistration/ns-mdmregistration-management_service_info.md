@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMANAGEMENT_SERVICE_INFO, MANAGEMENT_SERVICE_INFO, MANAGEMENT_SERVICE_INFO structure [MDM Registration], PMANAGEMENT_SERVICE_INFO, PMANAGEMENT_SERVICE_INFO structure pointer [MDM Registration], mdmreg.management_service_info, mdmregistration/MANAGEMENT_SERVICE_INFO, mdmregistration/PMANAGEMENT_SERVICE_INFO"
 ms.topic: struct
-f1_keywords: ["mdmregistration/MANAGEMENT_SERVICE_INFO"]
+f1_keywords: 
+ - "mdmregistration/MANAGEMENT_SERVICE_INFO"
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows

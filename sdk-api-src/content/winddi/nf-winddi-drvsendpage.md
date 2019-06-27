@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvSendPage, DrvSendPage function [Display Devices], ddifncs_4211c283-c7c9-493d-b673-0fdc0d8ad04f.xml, display.drvsendpage, winddi/DrvSendPage
 ms.topic: function
-f1_keywords: ["winddi/DrvSendPage"]
+f1_keywords: 
+ - "winddi/DrvSendPage"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

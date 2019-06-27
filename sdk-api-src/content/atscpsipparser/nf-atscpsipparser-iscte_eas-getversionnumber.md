@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetVersionNumber method, ISCTE_EAS.GetVersionNumber, ISCTE_EAS::GetVersionNumber, ISCTE_EASGetVersionNumber, atscpsipparser/ISCTE_EAS::GetVersionNumber, mstv.iscte_eas_getversionnumber
 ms.topic: method
-f1_keywords: ["atscpsipparser/ISCTE_EAS.GetVersionNumber"]
+f1_keywords: 
+ - "atscpsipparser/ISCTE_EAS.GetVersionNumber"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

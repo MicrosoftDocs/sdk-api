@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVisualProperties interface [Windows Shell],SetColor method, IVisualProperties.SetColor, IVisualProperties::SetColor, SetColor, SetColor method [Windows Shell], SetColor method [Windows Shell],IVisualProperties interface, _shell_IVisualProperties_SetColor, shell.IVisualProperties_SetColor, shobjidl/IVisualProperties::SetColor
 ms.topic: method
-f1_keywords: ["shobjidl/IVisualProperties.SetColor"]
+f1_keywords: 
+ - "shobjidl/IVisualProperties.SetColor"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

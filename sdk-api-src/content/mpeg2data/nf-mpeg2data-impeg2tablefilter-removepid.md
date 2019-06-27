@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMpeg2TableFilter interface [Microsoft TV Technologies],RemovePID method, IMpeg2TableFilter.RemovePID, IMpeg2TableFilter::RemovePID, IMpeg2TableFilterRemovePID, RemovePID, RemovePID method [Microsoft TV Technologies], RemovePID method [Microsoft TV Technologies],IMpeg2TableFilter interface, mpeg2data/IMpeg2TableFilter::RemovePID, mstv.impeg2tablefilter_removepid
 ms.topic: method
-f1_keywords: ["mpeg2data/IMpeg2TableFilter.RemovePID"]
+f1_keywords: 
+ - "mpeg2data/IMpeg2TableFilter.RemovePID"
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows

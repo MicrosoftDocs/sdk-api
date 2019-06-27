@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddRequestHeaders, AddRequestHeaders method [UPnP APIs], AddRequestHeaders method [UPnP APIs],IUPnPHttpHeaderControl interface, IUPnPHttpHeaderControl interface [UPnP APIs],AddRequestHeaders method, IUPnPHttpHeaderControl.AddRequestHeaders, IUPnPHttpHeaderControl::AddRequestHeaders, upnp.iupnphttpheadercontrol_addrequestheaders, upnp/IUPnPHttpHeaderControl::AddRequestHeaders
 ms.topic: method
-f1_keywords: ["upnp/IUPnPHttpHeaderControl.AddRequestHeaders"]
+f1_keywords: 
+ - "upnp/IUPnPHttpHeaderControl.AddRequestHeaders"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTitleBarInfo, GetTitleBarInfo function [Windows and Messages], _win32_GetTitleBarInfo, _win32_gettitlebarinfo_cpp, winmsg.gettitlebarinfo, winui._win32_gettitlebarinfo, winuser/GetTitleBarInfo
 ms.topic: function
-f1_keywords: ["winuser/GetTitleBarInfo"]
+f1_keywords: 
+ - "winuser/GetTitleBarInfo"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHRemoveFolderPathFromLibrary, SHRemoveFolderPathFromLibrary function [Windows Shell], _shell_SHRemoveFolderPathFromLibrary, shell.SHRemoveFolderPathFromLibrary, shobjidl_core/SHRemoveFolderPathFromLibrary
 ms.topic: function
-f1_keywords: ["shobjidl_core/SHRemoveFolderPathFromLibrary"]
+f1_keywords: 
+ - "shobjidl_core/SHRemoveFolderPathFromLibrary"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

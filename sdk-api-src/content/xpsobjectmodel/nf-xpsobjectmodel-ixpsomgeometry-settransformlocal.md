@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometry interface [XPS Documents and Packaging],SetTransformLocal method, IXpsOMGeometry.SetTransformLocal, IXpsOMGeometry::SetTransformLocal, SetTransformLocal, SetTransformLocal method [XPS Documents and Packaging], SetTransformLocal method [XPS Documents and Packaging],IXpsOMGeometry interface, xps.ixpsomgeometry_settransformlocal, xpsobjectmodel/IXpsOMGeometry::SetTransformLocal
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGeometry.SetTransformLocal"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGeometry.SetTransformLocal"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchRoot interface [search],put_AuthenticationType method, ISearchRoot.put_AuthenticationType, ISearchRoot::put_AuthenticationType, _search_ISearchRoot_put_AuthenticationType, put_AuthenticationType, put_AuthenticationType method [search], put_AuthenticationType method [search],ISearchRoot interface, search._search_ISearchRoot_put_AuthenticationType, searchapi/ISearchRoot::put_AuthenticationType
 ms.topic: method
-f1_keywords: ["searchapi/ISearchRoot.put_AuthenticationType"]
+f1_keywords: 
+ - "searchapi/ISearchRoot.put_AuthenticationType"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

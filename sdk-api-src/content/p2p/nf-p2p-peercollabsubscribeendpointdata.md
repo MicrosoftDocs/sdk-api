@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerCollabSubscribeEndpointData, PeerCollabSubscribeEndpointData function [Peer Networking], p2p.peercollabsubscribeendpointdata, p2p/PeerCollabSubscribeEndpointData
 ms.topic: function
-f1_keywords: ["p2p/PeerCollabSubscribeEndpointData"]
+f1_keywords: 
+ - "p2p/PeerCollabSubscribeEndpointData"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

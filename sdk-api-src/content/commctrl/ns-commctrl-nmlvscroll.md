@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPNMLVSCROLL, LPNMLVSCROLL, LPNMLVSCROLL structure pointer [Windows Controls], NMLVSCROLL, NMLVSCROLL structure [Windows Controls], commctrl/LPNMLVSCROLL, commctrl/NMLVSCROLL, controls.NMLVSCROLL, controls.inet_NMLVSCROLL, inet_NMLVSCROLL, inet_NMLVSCROLL_cpp"
 ms.topic: struct
-f1_keywords: ["commctrl/NMLVSCROLL"]
+f1_keywords: 
+ - "commctrl/NMLVSCROLL"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

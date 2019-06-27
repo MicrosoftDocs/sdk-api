@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PifMgr_GetProperties, PifMgr_GetProperties function [Windows Properties], _win32_PifMgr_GetProperties, properties.PifMgr_GetProperties, shell.PifMgr_GetProperties, shlobj_core/PifMgr_GetProperties
 ms.topic: function
-f1_keywords: ["shlobj_core/PifMgr_GetProperties"]
+f1_keywords: 
+ - "shlobj_core/PifMgr_GetProperties"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

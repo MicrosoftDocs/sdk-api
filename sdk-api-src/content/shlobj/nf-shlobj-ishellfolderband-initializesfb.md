@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellFolderBand interface [Windows Shell],InitializeSFB method, IShellFolderBand.InitializeSFB, IShellFolderBand::InitializeSFB, InitializeSFB, InitializeSFB method [Windows Shell], InitializeSFB method [Windows Shell],IShellFolderBand interface, _win32_IShellFolderBand_InitializeSFB, shell.IShellFolderBand_InitializeSFB, shlobj/IShellFolderBand::InitializeSFB
 ms.topic: method
-f1_keywords: ["shlobj/IShellFolderBand.InitializeSFB"]
+f1_keywords: 
+ - "shlobj/IShellFolderBand.InitializeSFB"
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

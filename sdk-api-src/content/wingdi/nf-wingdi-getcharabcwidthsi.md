@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCharABCWidthsI, GetCharABCWidthsI function [Windows GDI], _win32_GetCharABCWidthsI, gdi.getcharabcwidthsi, wingdi/GetCharABCWidthsI
 ms.topic: function
-f1_keywords: ["wingdi/GetCharABCWidthsI"]
+f1_keywords: 
+ - "wingdi/GetCharABCWidthsI"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

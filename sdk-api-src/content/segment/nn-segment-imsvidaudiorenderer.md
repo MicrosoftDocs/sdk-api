@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidAudioRenderer, IMSVidAudioRenderer interface [Microsoft TV Technologies], IMSVidAudioRenderer interface [Microsoft TV Technologies],described, IMSVidAudioRendererInterface, mstv.imsvidaudiorenderer, segment/IMSVidAudioRenderer
 ms.topic: interface
-f1_keywords: ["segment/IMSVidAudioRenderer"]
+f1_keywords: 
+ - "segment/IMSVidAudioRenderer"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

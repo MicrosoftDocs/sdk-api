@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Base, Base method [search], Base method [search],IEntity interface, IEntity interface [search],Base method, IEntity.Base, IEntity::Base, _search_IEntity_Base, search._search_IEntity_Base, structuredquery/IEntity::Base
 ms.topic: method
-f1_keywords: ["structuredquery/IEntity.Base"]
+f1_keywords: 
+ - "structuredquery/IEntity.Base"
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

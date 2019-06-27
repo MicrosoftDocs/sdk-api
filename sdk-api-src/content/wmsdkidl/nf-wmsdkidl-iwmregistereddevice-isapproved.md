@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMRegisteredDevice interface [windows Media Format],IsApproved method, IWMRegisteredDevice.IsApproved, IWMRegisteredDevice::IsApproved, IWMRegisteredDeviceIsApproved, IsApproved, IsApproved method [windows Media Format], IsApproved method [windows Media Format],IWMRegisteredDevice interface, wmformat.iwmregistereddevice_isapproved, wmsdkidl/IWMRegisteredDevice::IsApproved
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMRegisteredDevice.IsApproved"]
+f1_keywords: 
+ - "wmsdkidl/IWMRegisteredDevice.IsApproved"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

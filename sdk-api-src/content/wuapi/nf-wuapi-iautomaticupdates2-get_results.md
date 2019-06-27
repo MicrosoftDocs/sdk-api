@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdates2 interface [Windows Update Agent],get_Results method, IAutomaticUpdates2.get_Results, IAutomaticUpdates2::get_Results, get_Results, get_Results method [Windows Update Agent], get_Results method [Windows Update Agent],IAutomaticUpdates2 interface, wua.iautomaticupdates2_results, wuapi/IAutomaticUpdates2::get_Results
 ms.topic: method
-f1_keywords: ["wuapi/IAutomaticUpdates2.get_Results"]
+f1_keywords: 
+ - "wuapi/IAutomaticUpdates2.get_Results"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

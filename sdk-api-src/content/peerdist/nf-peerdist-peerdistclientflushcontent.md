@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerDistClientFlushContent, PeerDistClientFlushContent function [Peer Networking], p2p.peerdistclientflushcontent, peerdist/PeerDistClientFlushContent
 ms.topic: function
-f1_keywords: ["peerdist/PeerDistClientFlushContent"]
+f1_keywords: 
+ - "peerdist/PeerDistClientFlushContent"
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetApplications, GetApplications method [App packaging and management], GetApplications method [App packaging and management],IAppxManifestReader interface, IAppxManifestReader interface [App packaging and management],GetApplications method, IAppxManifestReader.GetApplications, IAppxManifestReader::GetApplications, appxpackaging/IAppxManifestReader::GetApplications, appxpkg.iappxmanifestreader_getapplications
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxManifestReader.GetApplications"]
+f1_keywords: 
+ - "appxpackaging/IAppxManifestReader.GetApplications"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

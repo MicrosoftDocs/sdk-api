@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [PLA], Clear method [PLA],IValueMap interface, IValueMap interface [PLA],Clear method, IValueMap.Clear, IValueMap::Clear, base.ivaluemap_clear, pla.ivaluemap_clear, pla/IValueMap::Clear
 ms.topic: method
-f1_keywords: ["pla/IValueMap.Clear"]
+f1_keywords: 
+ - "pla/IValueMap.Clear"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

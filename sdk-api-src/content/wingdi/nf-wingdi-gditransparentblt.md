@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GdiTransparentBlt, GdiTransparentBlt function [Windows GDI], gdi.gditransparentblt, wingdi/GdiTransparentBlt
 ms.topic: function
-f1_keywords: ["wingdi/GdiTransparentBlt"]
+f1_keywords: 
+ - "wingdi/GdiTransparentBlt"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

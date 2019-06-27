@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPipeByte, IPipeByte interface [COM], IPipeByte interface [COM],described, _com_ipipebyte, com.ipipebyte, objidlbase/IPipeByte
 ms.topic: interface
-f1_keywords: ["objidlbase/IPipeByte"]
+f1_keywords: 
+ - "objidlbase/IPipeByte"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

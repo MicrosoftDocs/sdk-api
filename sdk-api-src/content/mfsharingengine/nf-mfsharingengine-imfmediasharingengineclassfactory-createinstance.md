@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [Media Foundation], CreateInstance method [Media Foundation],IMFMediaSharingEngineClassFactory interface, IMFMediaSharingEngineClassFactory interface [Media Foundation],CreateInstance method, IMFMediaSharingEngineClassFactory.CreateInstance, IMFMediaSharingEngineClassFactory::CreateInstance, mf.imfmediasharingengineclassfactory_createinstance, mfsharingengine/IMFMediaSharingEngineClassFactory::CreateInstance
 ms.topic: method
-f1_keywords: ["mfsharingengine/IMFMediaSharingEngineClassFactory.CreateInstance"]
+f1_keywords: 
+ - "mfsharingengine/IMFMediaSharingEngineClassFactory.CreateInstance"
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbDigitalCopyControlDescriptor interface, IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbDigitalCopyControlDescriptor.GetLength, IIsdbDigitalCopyControlDescriptor::GetLength, dvbsiparser/IIsdbDigitalCopyControlDescriptor::GetLength, mstv.iisdbdigitalcopycontroldescriptor_getlength
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbDigitalCopyControlDescriptor.GetLength"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbDigitalCopyControlDescriptor.GetLength"
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

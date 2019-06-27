@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PBATTERY_WMI_TEMPERATURE, BATTERY_WMI_TEMPERATURE, BATTERY_WMI_TEMPERATURE structure [Battery Devices], PBATTERY_WMI_TEMPERATURE, PBATTERY_WMI_TEMPERATURE structure pointer [Battery Devices], batclass/BATTERY_WMI_TEMPERATURE, batclass/PBATTERY_WMI_TEMPERATURE, battery.battery_wmi_temperature"
 ms.topic: struct
-f1_keywords: ["batclass/BATTERY_WMI_TEMPERATURE"]
+f1_keywords: 
+ - "batclass/BATTERY_WMI_TEMPERATURE"
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Windows

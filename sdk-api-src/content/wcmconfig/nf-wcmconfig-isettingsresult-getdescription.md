@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [SMI], GetDescription method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetDescription method, ISettingsResult.GetDescription, ISettingsResult::GetDescription, smi.isettingsresult_getdescription, wcmconfig/ISettingsResult::GetDescription
 ms.topic: method
-f1_keywords: ["wcmconfig/ISettingsResult.GetDescription"]
+f1_keywords: 
+ - "wcmconfig/ISettingsResult.GetDescription"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymSrvGetSupplement, SymSrvGetSupplement function, SymSrvGetSupplementW, base.symsrvgetsupplement, dbghelp/SymSrvGetSupplement, dbghelp/SymSrvGetSupplementW
 ms.topic: function
-f1_keywords: ["dbghelp/SymSrvGetSupplement"]
+f1_keywords: 
+ - "dbghelp/SymSrvGetSupplement"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

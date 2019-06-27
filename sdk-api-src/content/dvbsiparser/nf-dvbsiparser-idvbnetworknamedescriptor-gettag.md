@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbNetworkNameDescriptor interface, IDvbNetworkNameDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbNetworkNameDescriptor.GetTag, IDvbNetworkNameDescriptor::GetTag, dvbsiparser/IDvbNetworkNameDescriptor::GetTag, mstv.idvbnetworknamedescriptor_gettag
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbNetworkNameDescriptor.GetTag"]
+f1_keywords: 
+ - "dvbsiparser/IDvbNetworkNameDescriptor.GetTag"
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

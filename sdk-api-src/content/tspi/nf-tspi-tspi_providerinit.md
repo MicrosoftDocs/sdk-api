@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_providerInit, TSPI_providerInit function [TAPI 2.2], _tspi_tspi_providerinit, tspi.tspi_providerinit, tspi/TSPI_providerInit
 ms.topic: function
-f1_keywords: ["tspi/TSPI_providerInit"]
+f1_keywords: 
+ - "tspi/TSPI_providerInit"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

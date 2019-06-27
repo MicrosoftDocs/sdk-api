@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanHostedNetworkQueryProperty, WlanHostedNetworkQueryProperty function [NativeWIFI], nwifi.wlanhostednetworkqueryproperty, wlanapi/WlanHostedNetworkQueryProperty
 ms.topic: function
-f1_keywords: ["wlanapi/WlanHostedNetworkQueryProperty"]
+f1_keywords: 
+ - "wlanapi/WlanHostedNetworkQueryProperty"
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

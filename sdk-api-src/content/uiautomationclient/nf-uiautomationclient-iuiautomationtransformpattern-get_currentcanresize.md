@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentCanResize property [Windows Accessibility], CurrentCanResize property [Windows Accessibility],IUIAutomationTransformPattern interface, IUIAutomationTransformPattern interface [Windows Accessibility],CurrentCanResize property, IUIAutomationTransformPattern.CurrentCanResize, IUIAutomationTransformPattern.get_CurrentCanResize, IUIAutomationTransformPattern::CurrentCanResize, IUIAutomationTransformPattern::get_CurrentCanResize, get_CurrentCanResize, uiauto.uiauto_IUIAutomationTransformPattern_CurrentCanResize, uiauto_IUIAutomationTransformPattern_CurrentCanResize, uiautomationclient/IUIAutomationTransformPattern::CurrentCanResize, uiautomationclient/IUIAutomationTransformPattern::get_CurrentCanResize, winauto.uiauto_IUIAutomationTransformPattern_CurrentCanResize
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTransformPattern.CurrentCanResize"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTransformPattern.CurrentCanResize"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

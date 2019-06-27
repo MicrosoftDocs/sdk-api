@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMWriterAdvanced interface [windows Media Format],WriteStreamSample method, IWMWriterAdvanced.WriteStreamSample, IWMWriterAdvanced::WriteStreamSample, IWMWriterAdvancedWriteStreamSample, WriteStreamSample, WriteStreamSample method [windows Media Format], WriteStreamSample method [windows Media Format],IWMWriterAdvanced interface, wmformat.iwmwriteradvanced_writestreamsample, wmsdkidl/IWMWriterAdvanced::WriteStreamSample
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriterAdvanced.WriteStreamSample"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriterAdvanced.WriteStreamSample"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

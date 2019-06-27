@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindVolumeClose, FindVolumeClose function [Files], _win32_findvolumeclose, base.findvolumeclose, fileapi/FindVolumeClose, fs.findvolumeclose, winbase/FindVolumeClose
 ms.topic: function
-f1_keywords: ["fileapi/FindVolumeClose"]
+f1_keywords: 
+ - "fileapi/FindVolumeClose"
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

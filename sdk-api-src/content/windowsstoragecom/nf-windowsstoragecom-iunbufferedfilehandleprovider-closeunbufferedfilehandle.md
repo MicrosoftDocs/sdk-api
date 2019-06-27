@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseUnbufferedFileHandle, CloseUnbufferedFileHandle method [Windows Runtime], CloseUnbufferedFileHandle method [Windows Runtime],IUnbufferedFileHandleProvider interface, IUnbufferedFileHandleProvider interface [Windows Runtime],CloseUnbufferedFileHandle method, IUnbufferedFileHandleProvider.CloseUnbufferedFileHandle, IUnbufferedFileHandleProvider::CloseUnbufferedFileHandle, windowsstoragecom/IUnbufferedFileHandleProvider::CloseUnbufferedFileHandle, winrt.iunbufferedfilehandleprovider_closeunbufferedfilehandle
 ms.topic: method
-f1_keywords: ["windowsstoragecom/IUnbufferedFileHandleProvider.CloseUnbufferedFileHandle"]
+f1_keywords: 
+ - "windowsstoragecom/IUnbufferedFileHandleProvider.CloseUnbufferedFileHandle"
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows

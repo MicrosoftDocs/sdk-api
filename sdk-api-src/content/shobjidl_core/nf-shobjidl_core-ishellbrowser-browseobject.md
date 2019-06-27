@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BrowseObject, BrowseObject method [Windows Shell], BrowseObject method [Windows Shell],IShellBrowser interface, IShellBrowser interface [Windows Shell],BrowseObject method, IShellBrowser.BrowseObject, IShellBrowser::BrowseObject, SBSP_ABSOLUTE, SBSP_ACTIVATE_NOFOCUS, SBSP_ALLOW_AUTONAVIGATE, SBSP_CALLERUNTRUSTED, SBSP_CREATENOHISTORY, SBSP_DEFBROWSER, SBSP_DEFMODE, SBSP_EXPLOREMODE, SBSP_FEEDNAVIGATION, SBSP_HELPMODE, SBSP_INITIATEDBYHLINKFRAME, SBSP_KEEPSAMETEMPLATE, SBSP_KEEPWORDWHEELTEXT, SBSP_NAVIGATEBACK, SBSP_NAVIGATEFORWARD, SBSP_NEWBROWSER, SBSP_NOAUTOSELECT, SBSP_NOTRANSFERHIST, SBSP_OPENMODE, SBSP_PARENT, SBSP_PLAYNOSOUND, SBSP_REDIRECT, SBSP_RELATIVE, SBSP_SAMEBROWSER, SBSP_TRUSTEDFORACTIVEX, SBSP_TRUSTFIRSTDOWNLOAD, SBSP_UNTRUSTEDFORDOWNLOAD, SBSP_WRITENOHISTORY, _win32_IShellBrowser_BrowseObject, shell.IShellBrowser_BrowseObject, shobjidl_core/IShellBrowser::BrowseObject
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellBrowser.BrowseObject"]
+f1_keywords: 
+ - "shobjidl_core/IShellBrowser.BrowseObject"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

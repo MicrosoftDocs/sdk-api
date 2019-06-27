@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCacheTime, GetCacheTime method [NDF], GetCacheTime method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetCacheTime method, INetDiagHelper.GetCacheTime, INetDiagHelper::GetCacheTime, ndf.inetdiaghelpe_getcachetime, ndhelper/INetDiagHelper::GetCacheTime
 ms.topic: method
-f1_keywords: ["ndhelper/INetDiagHelper.GetCacheTime"]
+f1_keywords: 
+ - "ndhelper/INetDiagHelper.GetCacheTime"
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

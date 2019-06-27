@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDefaultQuotaLimit, GetDefaultQuotaLimit method [Files], GetDefaultQuotaLimit method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],GetDefaultQuotaLimit method, IDiskQuotaControl.GetDefaultQuotaLimit, IDiskQuotaControl::GetDefaultQuotaLimit, _win32_idiskquotacontrol_getdefaultquotalimit, base.idiskquotacontrol_getdefaultquotalimit, dskquota/IDiskQuotaControl::GetDefaultQuotaLimit, fs.idiskquotacontrol_getdefaultquotalimit
 ms.topic: method
-f1_keywords: ["dskquota/IDiskQuotaControl.GetDefaultQuotaLimit"]
+f1_keywords: 
+ - "dskquota/IDiskQuotaControl.GetDefaultQuotaLimit"
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITStreamControl interface [TAPI 2.2],RemoveStream method, ITStreamControl.RemoveStream, ITStreamControl::RemoveStream, RemoveStream, RemoveStream method [TAPI 2.2], RemoveStream method [TAPI 2.2],ITStreamControl interface, _tapi3_itstreamcontrol_removestream, tapi3.itstreamcontrol_removestream, tapi3if/ITStreamControl::RemoveStream
 ms.topic: method
-f1_keywords: ["tapi3if/ITStreamControl.RemoveStream"]
+f1_keywords: 
+ - "tapi3if/ITStreamControl.RemoveStream"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

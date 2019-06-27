@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkOverlay interface [Tablet PC],SetAllTabletsMode method, IInkOverlay.SetAllTabletsMode, IInkOverlay::SetAllTabletsMode, SetAllTabletsMode, SetAllTabletsMode method [Tablet PC], SetAllTabletsMode method [Tablet PC],IInkOverlay interface, cb41bc4c-c8fe-4cd6-8049-8cb44a2716a8, msinkaut/IInkOverlay::SetAllTabletsMode, tablet.inkoverlay_setalltabletsmode
 ms.topic: method
-f1_keywords: ["msinkaut/IInkOverlay.SetAllTabletsMode"]
+f1_keywords: 
+ - "msinkaut/IInkOverlay.SetAllTabletsMode"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

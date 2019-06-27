@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RDCOMPARE, RDCOMPARE structure [MMC], _slate_rdcompare, mmc.rdcompare, mmc/RDCOMPARE
 ms.topic: struct
-f1_keywords: ["mmc/RDCOMPARE"]
+f1_keywords: 
+ - "mmc/RDCOMPARE"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

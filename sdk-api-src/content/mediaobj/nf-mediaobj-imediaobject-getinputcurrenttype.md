@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInputCurrentType, GetInputCurrentType method [DirectShow], GetInputCurrentType method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetInputCurrentType method, IMediaObject.GetInputCurrentType, IMediaObject::GetInputCurrentType, IMediaObjectGetInputCurrentType, dshow.imediaobject_getinputcurrenttype, mediaobj/IMediaObject::GetInputCurrentType
 ms.topic: method
-f1_keywords: ["mediaobj/IMediaObject.GetInputCurrentType"]
+f1_keywords: 
+ - "mediaobj/IMediaObject.GetInputCurrentType"
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

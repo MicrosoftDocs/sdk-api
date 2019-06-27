@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_GetVideoProcessStreamStatePrivate, PDXVAHDSW_GetVideoProcessStreamStatePrivate callback, PDXVAHDSW_GetVideoProcessStreamStatePrivate callback function [Media Foundation], dxvahd/PDXVAHDSW_GetVideoProcessStreamStatePrivate, mf.pdxvahdsw_getvideoprocessstreamstateprivate
 ms.topic: callback
-f1_keywords: ["dxvahd/PDXVAHDSW_GetVideoProcessStreamStatePrivate"]
+f1_keywords: 
+ - "dxvahd/PDXVAHDSW_GetVideoProcessStreamStatePrivate"
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

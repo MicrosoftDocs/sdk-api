@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITQueue interface [TAPI 2.2],get_CurrentCallsQueued method, ITQueue.get_CurrentCallsQueued, ITQueue::get_CurrentCallsQueued, _tapi3_itqueue_get_currentcallsqueued, get_CurrentCallsQueued, get_CurrentCallsQueued method [TAPI 2.2], get_CurrentCallsQueued method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_currentcallsqueued, tapi3cc/ITQueue::get_CurrentCallsQueued
 ms.topic: method
-f1_keywords: ["tapi3/ITQueue.get_CurrentCallsQueued"]
+f1_keywords: 
+ - "tapi3/ITQueue.get_CurrentCallsQueued"
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

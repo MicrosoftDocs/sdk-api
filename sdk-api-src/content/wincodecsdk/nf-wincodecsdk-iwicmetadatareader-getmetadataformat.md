@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMetadataFormat, GetMetadataFormat method [Windows Imaging Component], GetMetadataFormat method [Windows Imaging Component],IWICMetadataReader interface, IWICMetadataReader interface [Windows Imaging Component],GetMetadataFormat method, IWICMetadataReader.GetMetadataFormat, IWICMetadataReader::GetMetadataFormat, _wic_codec_iwicmetadatareader_getmetadataformat, wic._wic_codec_iwicmetadatareader_getmetadataformat, wincodecsdk/IWICMetadataReader::GetMetadataFormat
 ms.topic: method
-f1_keywords: ["wincodecsdk/IWICMetadataReader.GetMetadataFormat"]
+f1_keywords: 
+ - "wincodecsdk/IWICMetadataReader.GetMetadataFormat"
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropName, GetPropName method [COM+], GetPropName method [COM+],IComTrackingInfoProperties interface, IComTrackingInfoProperties interface [COM+],GetPropName method, IComTrackingInfoProperties.GetPropName, IComTrackingInfoProperties::GetPropName, _dtc_IComTrackingInfoProperties_GetPropName, comsvcs/IComTrackingInfoProperties::GetPropName, cos.icomtrackinginfoproperties_getpropname
 ms.topic: method
-f1_keywords: ["comsvcs/IComTrackingInfoProperties.GetPropName"]
+f1_keywords: 
+ - "comsvcs/IComTrackingInfoProperties.GetPropName"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

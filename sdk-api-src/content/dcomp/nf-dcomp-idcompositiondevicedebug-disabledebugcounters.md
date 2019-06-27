@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisableDebugCounters, DisableDebugCounters method [DirectComposition], DisableDebugCounters method [DirectComposition],IDCompositionDeviceDebug interface, IDCompositionDeviceDebug interface [DirectComposition],DisableDebugCounters method, IDCompositionDeviceDebug.DisableDebugCounters, IDCompositionDeviceDebug::DisableDebugCounters, dcomp/IDCompositionDeviceDebug::DisableDebugCounters, directcomp.idcompositiondevicedebug_disabledebugcounters
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionDeviceDebug.DisableDebugCounters"]
+f1_keywords: 
+ - "dcomp/IDCompositionDeviceDebug.DisableDebugCounters"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

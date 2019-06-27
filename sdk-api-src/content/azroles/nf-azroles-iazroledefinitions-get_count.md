@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],IAzRoleDefinitions interface, IAzRoleDefinitions interface [Security],Count property, IAzRoleDefinitions.Count, IAzRoleDefinitions.get_Count, IAzRoleDefinitions::Count, IAzRoleDefinitions::get_Count, azroles/IAzRoleDefinitions::Count, azroles/IAzRoleDefinitions::get_Count, get_Count, security.iazroledefinitions_count
 ms.topic: method
-f1_keywords: ["azroles/IAzRoleDefinitions.Count"]
+f1_keywords: 
+ - "azroles/IAzRoleDefinitions.Count"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

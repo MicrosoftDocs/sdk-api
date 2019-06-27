@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePartUri, CreatePartUri method [Open Packaging Conventions], CreatePartUri method [Open Packaging Conventions],IOpcFactory interface, IOpcFactory interface [Open Packaging Conventions],CreatePartUri method, IOpcFactory.CreatePartUri, IOpcFactory::CreatePartUri, msopc/IOpcFactory::CreatePartUri, opc.iopcfactory_createparturi
 ms.topic: method
-f1_keywords: ["msopc/IOpcFactory.CreatePartUri"]
+f1_keywords: 
+ - "msopc/IOpcFactory.CreatePartUri"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method, GetValue method,IProviderProperties interface, IProviderProperties interface,GetValue method, IProviderProperties.GetValue, IProviderProperties::GetValue, functiondiscoveryprovider/IProviderProperties::GetValue, ncd.iproviderproperties_getvalue_method
 ms.topic: method
-f1_keywords: ["functiondiscoveryprovider/IProviderProperties.GetValue"]
+f1_keywords: 
+ - "functiondiscoveryprovider/IProviderProperties.GetValue"
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

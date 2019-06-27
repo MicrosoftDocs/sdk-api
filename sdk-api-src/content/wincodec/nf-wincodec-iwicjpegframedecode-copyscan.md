@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyScan, CopyScan method [Windows Imaging Component], CopyScan method [Windows Imaging Component],IWICJpegFrameDecode interface, IWICJpegFrameDecode interface [Windows Imaging Component],CopyScan method, IWICJpegFrameDecode.CopyScan, IWICJpegFrameDecode::CopyScan, wic.iwicjpegframedecode_copyscan, wincodec/IWICJpegFrameDecode::CopyScan
 ms.topic: method
-f1_keywords: ["wincodec/IWICJpegFrameDecode.CopyScan"]
+f1_keywords: 
+ - "wincodec/IWICJpegFrameDecode.CopyScan"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8c95b1de-8974-445c-8070-41552ea83e53, IMFAsyncResult, IMFAsyncResult interface [Media Foundation], IMFAsyncResult interface [Media Foundation],described, mf.imfasyncresult, mfobjects/IMFAsyncResult
 ms.topic: interface
-f1_keywords: ["mfobjects/IMFAsyncResult"]
+f1_keywords: 
+ - "mfobjects/IMFAsyncResult"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

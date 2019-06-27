@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetImplTypeFlags method, ICreateTypeInfo.SetImplTypeFlags, ICreateTypeInfo::SetImplTypeFlags, SetImplTypeFlags, SetImplTypeFlags method [Automation], SetImplTypeFlags method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetImplTypeFlags, automat.icreatetypeinfo_setimpltypeflags, oaidl/ICreateTypeInfo::SetImplTypeFlags
 ms.topic: method
-f1_keywords: ["oaidl/ICreateTypeInfo.SetImplTypeFlags"]
+f1_keywords: 
+ - "oaidl/ICreateTypeInfo.SetImplTypeFlags"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

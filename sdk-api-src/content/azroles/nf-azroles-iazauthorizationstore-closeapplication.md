@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AZ_AZSTORE_FORCE_APPLICATION_CLOSE, AzAuthorizationStore object [Security],CloseApplication method, CloseApplication, CloseApplication method [Security], CloseApplication method [Security],AzAuthorizationStore object, CloseApplication method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],CloseApplication method, IAzAuthorizationStore.CloseApplication, IAzAuthorizationStore::CloseApplication, azroles/IAzAuthorizationStore::CloseApplication, security.azauthorizationstore_closeapplication
 ms.topic: method
-f1_keywords: ["azroles/AzAuthorizationStore.CloseApplication"]
+f1_keywords: 
+ - "azroles/AzAuthorizationStore.CloseApplication"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

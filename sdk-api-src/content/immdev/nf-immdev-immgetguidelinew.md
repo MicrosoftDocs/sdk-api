@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GGL_INDEX, GGL_LEVEL, GGL_PRIVATE, GGL_STRING, ImmGetGuideLine, ImmGetGuideLine function [Internationalization for Windows Applications], ImmGetGuideLineA, ImmGetGuideLineW, _win32_ImmGetGuideLine, imm/ImmGetGuideLine, imm/ImmGetGuideLineA, imm/ImmGetGuideLineW, intl.immgetguideline
 ms.topic: function
-f1_keywords: ["immdev/ImmGetGuideLine"]
+f1_keywords: 
+ - "immdev/ImmGetGuideLine"
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

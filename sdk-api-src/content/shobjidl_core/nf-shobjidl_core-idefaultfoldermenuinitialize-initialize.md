@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDefaultFolderMenuInitialize interface [Windows Shell],Initialize method, IDefaultFolderMenuInitialize.Initialize, IDefaultFolderMenuInitialize::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IDefaultFolderMenuInitialize interface, shell.IDefaultFolderMenuInitialize_Initialize, shobjidl_core/IDefaultFolderMenuInitialize::Initialize
 ms.topic: method
-f1_keywords: ["shobjidl_core/IDefaultFolderMenuInitialize.Initialize"]
+f1_keywords: 
+ - "shobjidl_core/IDefaultFolderMenuInitialize.Initialize"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

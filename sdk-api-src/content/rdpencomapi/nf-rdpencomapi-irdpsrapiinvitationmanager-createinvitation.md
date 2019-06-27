@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateInvitation, CreateInvitation method [RDP], CreateInvitation method [RDP],IRDPSRAPIInvitationManager interface, IRDPSRAPIInvitationManager interface [RDP],CreateInvitation method, IRDPSRAPIInvitationManager.CreateInvitation, IRDPSRAPIInvitationManager::CreateInvitation, rdp.irdpsrapiinvitationmanager_createinvitation, rdpencomapi/IRDPSRAPIInvitationManager::CreateInvitation
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPIInvitationManager.CreateInvitation"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIInvitationManager.CreateInvitation"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

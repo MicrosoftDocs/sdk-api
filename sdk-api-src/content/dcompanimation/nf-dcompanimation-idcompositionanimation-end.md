@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: End, End method [DirectComposition], End method [DirectComposition],IDCompositionAnimation interface, IDCompositionAnimation interface [DirectComposition],End method, IDCompositionAnimation.End, IDCompositionAnimation::End, dcompanimation/IDCompositionAnimation::End, directcomp.idcompositionanimation_end
 ms.topic: method
-f1_keywords: ["dcompanimation/IDCompositionAnimation.End"]
+f1_keywords: 
+ - "dcompanimation/IDCompositionAnimation.End"
 req.header: dcompanimation.h
 req.include-header: 
 req.target-type: Windows

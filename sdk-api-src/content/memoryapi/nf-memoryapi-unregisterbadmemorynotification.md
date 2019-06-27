@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnregisterBadMemoryNotification, UnregisterBadMemoryNotification function, base.unregisterbadmemorynotification, winbase/UnregisterBadMemoryNotification
 ms.topic: function
-f1_keywords: ["memoryapi/UnregisterBadMemoryNotification"]
+f1_keywords: 
+ - "memoryapi/UnregisterBadMemoryNotification"
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

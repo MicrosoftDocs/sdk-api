@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExamineData, ExamineData method [windows Media Device Manager], ExamineData method [windows Media Device Manager],ISCPSecureQuery interface, ISCPSecureQuery interface [windows Media Device Manager],ExamineData method, ISCPSecureQuery.ExamineData, ISCPSecureQuery::ExamineData, ISCPSecureQueryExamineData, mswmdm/ISCPSecureQuery::ExamineData, wmdm.iscpsecurequery_examinedata
 ms.topic: method
-f1_keywords: ["mswmdm/ISCPSecureQuery.ExamineData"]
+f1_keywords: 
+ - "mswmdm/ISCPSecureQuery.ExamineData"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

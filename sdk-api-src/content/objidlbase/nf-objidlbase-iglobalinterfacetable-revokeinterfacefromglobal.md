@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGlobalInterfaceTable interface [COM],RevokeInterfaceFromGlobal method, IGlobalInterfaceTable.RevokeInterfaceFromGlobal, IGlobalInterfaceTable::RevokeInterfaceFromGlobal, RevokeInterfaceFromGlobal, RevokeInterfaceFromGlobal method [COM], RevokeInterfaceFromGlobal method [COM],IGlobalInterfaceTable interface, _com_iglobalinterfacetable_revokeinterfacefromglobal, com.iglobalinterfacetable_revokeinterfacefromglobal, objidlbase/IGlobalInterfaceTable::RevokeInterfaceFromGlobal
 ms.topic: method
-f1_keywords: ["objidlbase/IGlobalInterfaceTable.RevokeInterfaceFromGlobal"]
+f1_keywords: 
+ - "objidlbase/IGlobalInterfaceTable.RevokeInterfaceFromGlobal"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMasterVolume, GetMasterVolume method [Core Audio], GetMasterVolume method [Core Audio],ISimpleAudioVolume interface, ISimpleAudioVolume interface [Core Audio],GetMasterVolume method, ISimpleAudioVolume.GetMasterVolume, ISimpleAudioVolume::GetMasterVolume, ISimpleAudioVolumeGetMasterVolume, audioclient/ISimpleAudioVolume::GetMasterVolume, coreaudio.isimpleaudiovolume_getmastervolume
 ms.topic: method
-f1_keywords: ["audioclient/ISimpleAudioVolume.GetMasterVolume"]
+f1_keywords: 
+ - "audioclient/ISimpleAudioVolume.GetMasterVolume"
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

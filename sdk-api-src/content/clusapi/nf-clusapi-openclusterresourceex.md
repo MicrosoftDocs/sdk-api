@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OpenClusterResourceEx, OpenClusterResourceEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX, PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX function [Failover Cluster], clusapi/OpenClusterResourceEx, clusapi/PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX, mscs.openclusterresourceex
 ms.topic: function
-f1_keywords: ["clusapi/OpenClusterResourceEx"]
+f1_keywords: 
+ - "clusapi/OpenClusterResourceEx"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_AuthorName method, IAMMediaContent.get_AuthorName, IAMMediaContent::get_AuthorName, IAMMediaContentget_AuthorName, dshow.iammediacontent_get_authorname, get_AuthorName, get_AuthorName method [DirectShow], get_AuthorName method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_AuthorName
 ms.topic: method
-f1_keywords: ["qnetwork/IAMMediaContent.get_AuthorName"]
+f1_keywords: 
+ - "qnetwork/IAMMediaContent.get_AuthorName"
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

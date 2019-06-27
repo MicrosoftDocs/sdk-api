@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleDocumentView interface [COM],SaveViewState method, IOleDocumentView.SaveViewState, IOleDocumentView::SaveViewState, SaveViewState, SaveViewState method [COM], SaveViewState method [COM],IOleDocumentView interface, _ole_ioledocumentview_saveviewstate, com.ioledocumentview_saveviewstate, docobj/IOleDocumentView::SaveViewState
 ms.topic: method
-f1_keywords: ["docobj/IOleDocumentView.SaveViewState"]
+f1_keywords: 
+ - "docobj/IOleDocumentView.SaveViewState"
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumProgressItems interface [IMAPI],Reset method, IEnumProgressItems.Reset, IEnumProgressItems::Reset, Reset, Reset method [IMAPI], Reset method [IMAPI],IEnumProgressItems interface, imapi.ienumprogressitems_reset, imapi2fs/IEnumProgressItems::Reset
 ms.topic: method
-f1_keywords: ["imapi2fs/IEnumProgressItems.Reset"]
+f1_keywords: 
+ - "imapi2fs/IEnumProgressItems.Reset"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

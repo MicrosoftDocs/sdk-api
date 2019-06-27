@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarEventSink interface [Text Services Framework],OnModalInput method, ITfLangBarEventSink.OnModalInput, ITfLangBarEventSink::OnModalInput, OnModalInput, OnModalInput method [Text Services Framework], OnModalInput method [Text Services Framework],ITfLangBarEventSink interface, _tsf_itflangbareventsink_onmodalinput_ref, ctfutb/ITfLangBarEventSink::OnModalInput, tsf.itflangbareventsink_onmodalinput
 ms.topic: method
-f1_keywords: ["ctfutb/ITfLangBarEventSink.OnModalInput"]
+f1_keywords: 
+ - "ctfutb/ITfLangBarEventSink.OnModalInput"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

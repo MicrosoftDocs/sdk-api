@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BindSampler, BindSampler method [Direct3D 11], BindSampler method [Direct3D 11],ID3D11ModuleInstance interface, ID3D11ModuleInstance interface [Direct3D 11],BindSampler method, ID3D11ModuleInstance.BindSampler, ID3D11ModuleInstance::BindSampler, d3d11shader/ID3D11ModuleInstance::BindSampler, direct3d11.id3d11moduleinstance_bindsampler
 ms.topic: method
-f1_keywords: ["d3d11shader/ID3D11ModuleInstance.BindSampler"]
+f1_keywords: 
+ - "d3d11shader/ID3D11ModuleInstance.BindSampler"
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

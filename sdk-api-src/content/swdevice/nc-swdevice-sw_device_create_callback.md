@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SW_DEVICE_CREATE_CALLBACK, SW_DEVICE_CREATE_CALLBACK function, SW_DEVICE_CREATE_CALLBACK function pointer, swdevice.sw_device_create_callback, swdevice/SW_DEVICE_CREATE_CALLBACK
 ms.topic: callback
-f1_keywords: ["swdevice/SW_DEVICE_CREATE_CALLBACK"]
+f1_keywords: 
+ - "swdevice/SW_DEVICE_CREATE_CALLBACK"
 req.header: swdevice.h
 req.include-header: 
 req.target-type: Desktop

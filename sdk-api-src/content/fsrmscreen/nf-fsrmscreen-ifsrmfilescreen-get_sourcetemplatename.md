@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileScreen interface [File Server Resource Manager],SourceTemplateName property, IFsrmFileScreen.SourceTemplateName, IFsrmFileScreen.get_SourceTemplateName, IFsrmFileScreen::SourceTemplateName, IFsrmFileScreen::get_SourceTemplateName, SourceTemplateName property [File Server Resource Manager], SourceTemplateName property [File Server Resource Manager],IFsrmFileScreen interface, fs.ifsrmfilescreen_sourcetemplatename, fsrm.ifsrmfilescreen_sourcetemplatename, fsrmscreen/IFsrmFileScreen::SourceTemplateName, fsrmscreen/IFsrmFileScreen::get_SourceTemplateName, get_SourceTemplateName
 ms.topic: method
-f1_keywords: ["fsrmscreen/IFsrmFileScreen.SourceTemplateName"]
+f1_keywords: 
+ - "fsrmscreen/IFsrmFileScreen.SourceTemplateName"
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrOleFree, NdrOleFree function [RPC], rpc.ndrolefree, rpcndr/NdrOleFree
 ms.topic: function
-f1_keywords: ["rpcndr/NdrOleFree"]
+f1_keywords: 
+ - "rpcndr/NdrOleFree"
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

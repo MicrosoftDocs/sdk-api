@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICDecompressGetFormat, ICDecompressGetFormat macro [Windows Multimedia], _win32_ICDecompressGetFormat, multimedia.icdecompressgetformat, vfw/ICDecompressGetFormat
 ms.topic: macro
-f1_keywords: ["vfw/ICDecompressGetFormat"]
+f1_keywords: 
+ - "vfw/ICDecompressGetFormat"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAVIStream interface [Windows Multimedia],Write method, IAVIStream.Write, IAVIStream::Write, Write, Write method [Windows Multimedia], Write method [Windows Multimedia],IAVIStream interface, _win32_IAVIStream_Write, multimedia.iavistream_write, vfw/IAVIStream::Write
 ms.topic: method
-f1_keywords: ["vfw/IAVIStream.Write"]
+f1_keywords: 
+ - "vfw/IAVIStream.Write"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

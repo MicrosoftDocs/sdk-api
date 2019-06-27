@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGetClusterObjectInfo, IGetClusterObjectInfo interface [Failover Cluster], IGetClusterObjectInfo interface [Failover Cluster],described, _wolf_igetclusterobjectinfo, cluadmex/IGetClusterObjectInfo, mscs.igetclusterobjectinfo
 ms.topic: interface
-f1_keywords: ["cluadmex/IGetClusterObjectInfo"]
+f1_keywords: 
+ - "cluadmex/IGetClusterObjectInfo"
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

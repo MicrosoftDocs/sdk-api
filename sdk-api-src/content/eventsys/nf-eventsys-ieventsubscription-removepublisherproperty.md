@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEventSubscription interface [COM+],RemovePublisherProperty method, IEventSubscription.RemovePublisherProperty, IEventSubscription::RemovePublisherProperty, RemovePublisherProperty, RemovePublisherProperty method [COM+], RemovePublisherProperty method [COM+],IEventSubscription interface, _cos_IEventSubscription_RemovePublisherProperty, cos.ieventsubscription_removepublisherproperty, eventsys/IEventSubscription::RemovePublisherProperty
 ms.topic: method
-f1_keywords: ["eventsys/IEventSubscription.RemovePublisherProperty"]
+f1_keywords: 
+ - "eventsys/IEventSubscription.RemovePublisherProperty"
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

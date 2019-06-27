@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumSyncMgrSyncItems interface, IEnumSyncMgrSyncItems interface [Windows Shell],Clone method, IEnumSyncMgrSyncItems.Clone, IEnumSyncMgrSyncItems::Clone, _shell_IEnumSyncMgrSyncItems_Clone, shell.IEnumSyncMgrSyncItems_Clone, syncmgr/IEnumSyncMgrSyncItems::Clone
 ms.topic: method
-f1_keywords: ["syncmgr/IEnumSyncMgrSyncItems.Clone"]
+f1_keywords: 
+ - "syncmgr/IEnumSyncMgrSyncItems.Clone"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

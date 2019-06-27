@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFileExtensions, GetFileExtensions method [Windows Imaging Component], GetFileExtensions method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],GetFileExtensions method, IWICBitmapCodecInfo.GetFileExtensions, IWICBitmapCodecInfo::GetFileExtensions, _wic_codec_iwicbitmapcodecinfo_getfileextensions, wic._wic_codec_iwicbitmapcodecinfo_getfileextensions, wincodec/IWICBitmapCodecInfo::GetFileExtensions
 ms.topic: method
-f1_keywords: ["wincodec/IWICBitmapCodecInfo.GetFileExtensions"]
+f1_keywords: 
+ - "wincodec/IWICBitmapCodecInfo.GetFileExtensions"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

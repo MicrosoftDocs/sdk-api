@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuditLookupCategoryName, AuditLookupCategoryName function [Security], AuditLookupCategoryNameA, AuditLookupCategoryNameW, ntsecapi/AuditLookupCategoryName, ntsecapi/AuditLookupCategoryNameA, ntsecapi/AuditLookupCategoryNameW, security.auditlookupcategoryname_func
 ms.topic: function
-f1_keywords: ["ntsecapi/AuditLookupCategoryName"]
+f1_keywords: 
+ - "ntsecapi/AuditLookupCategoryName"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

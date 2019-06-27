@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasEnumDevices, RasEnumDevices function [RAS], RasEnumDevicesA, RasEnumDevicesW, _ras_rasenumdevices, ras/RasEnumDevices, ras/RasEnumDevicesA, ras/RasEnumDevicesW, rras.rasenumdevices
 ms.topic: function
-f1_keywords: ["ras/RasEnumDevices"]
+f1_keywords: 
+ - "ras/RasEnumDevices"
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

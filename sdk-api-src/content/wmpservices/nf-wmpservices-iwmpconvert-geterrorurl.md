@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetErrorURL, GetErrorURL method [Windows Media Player], GetErrorURL method [Windows Media Player],IWMPConvert interface, IWMPConvert interface [Windows Media Player],GetErrorURL method, IWMPConvert.GetErrorURL, IWMPConvert::GetErrorURL, IWMPConvertGetErrorURL, wmp.iwmpconvert_geterrorurl, wmpservices/IWMPConvert::GetErrorURL
 ms.topic: method
-f1_keywords: ["wmpservices/IWMPConvert.GetErrorURL"]
+f1_keywords: 
+ - "wmpservices/IWMPConvert.GetErrorURL"
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

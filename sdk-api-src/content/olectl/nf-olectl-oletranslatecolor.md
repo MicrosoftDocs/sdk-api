@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleTranslateColor, OleTranslateColor function [COM], _ctrl_OleTranslateColor, com.oletranslatecolor, olectl/OleTranslateColor
 ms.topic: function
-f1_keywords: ["olectl/OleTranslateColor"]
+f1_keywords: 
+ - "olectl/OleTranslateColor"
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows

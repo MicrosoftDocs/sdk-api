@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTransportType, GetTransportType method [windows Media Format], GetTransportType method [windows Media Format],IWMStreamConfig2 interface, IWMStreamConfig2 interface [windows Media Format],GetTransportType method, IWMStreamConfig2.GetTransportType, IWMStreamConfig2::GetTransportType, IWMStreamConfig2GetTransportType, wmformat.iwmstreamconfig2_gettransporttype, wmsdkidl/IWMStreamConfig2::GetTransportType
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMStreamConfig2.GetTransportType"]
+f1_keywords: 
+ - "wmsdkidl/IWMStreamConfig2.GetTransportType"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

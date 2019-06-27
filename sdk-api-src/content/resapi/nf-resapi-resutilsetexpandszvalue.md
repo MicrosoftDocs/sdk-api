@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_SET_EXPAND_SZ_VALUE, PRESUTIL_SET_EXPAND_SZ_VALUE function [Failover Cluster], ResUtilSetExpandSzValue, ResUtilSetExpandSzValue function [Failover Cluster], _wolf_resutilsetexpandszvalue, mscs.resutilsetexpandszvalue, resapi/PRESUTIL_SET_EXPAND_SZ_VALUE, resapi/ResUtilSetExpandSzValue
 ms.topic: function
-f1_keywords: ["resapi/ResUtilSetExpandSzValue"]
+f1_keywords: 
+ - "resapi/ResUtilSetExpandSzValue"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

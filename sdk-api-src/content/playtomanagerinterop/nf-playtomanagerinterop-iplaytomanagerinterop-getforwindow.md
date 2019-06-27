@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetForWindow, GetForWindow method [Windows Runtime], GetForWindow method [Windows Runtime],IPlayToManagerInterop interface, IPlayToManagerInterop interface [Windows Runtime],GetForWindow method, IPlayToManagerInterop.GetForWindow, IPlayToManagerInterop::GetForWindow, playtomanagerinterop/IPlayToManagerInterop::GetForWindow, winrt.iplaytomanagerinterop_getforwindow
 ms.topic: method
-f1_keywords: ["playtomanagerinterop/IPlayToManagerInterop.GetForWindow"]
+f1_keywords: 
+ - "playtomanagerinterop/IPlayToManagerInterop.GetForWindow"
 req.header: playtomanagerinterop.h
 req.include-header: 
 req.target-type: Windows

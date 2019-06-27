@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumStoredMessagesAllowedByRetrievalFilters, GetNumStoredMessagesAllowedByRetrievalFilters method [DXGI], GetNumStoredMessagesAllowedByRetrievalFilters method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetNumStoredMessagesAllowedByRetrievalFilters method, IDXGIInfoQueue.GetNumStoredMessagesAllowedByRetrievalFilters, IDXGIInfoQueue::GetNumStoredMessagesAllowedByRetrievalFilters, direct3ddxgi.idxgiinfoqueue_getnumstoredmessagesallowedbyretrievalfilters, dxgidebug/IDXGIInfoQueue::GetNumStoredMessagesAllowedByRetrievalFilters
 ms.topic: method
-f1_keywords: ["dxgidebug/IDXGIInfoQueue.GetNumStoredMessagesAllowedByRetrievalFilters"]
+f1_keywords: 
+ - "dxgidebug/IDXGIInfoQueue.GetNumStoredMessagesAllowedByRetrievalFilters"
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

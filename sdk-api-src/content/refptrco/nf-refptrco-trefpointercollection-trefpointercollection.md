@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TRefPointerCollection, TRefPointerCollection interface [Windows Management Instrumentation],TRefPointerCollection method, TRefPointerCollection method [Windows Management Instrumentation], TRefPointerCollection method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection.TRefPointerCollection, TRefPointerCollection::TRefPointerCollection, _hmm_trefpointercollection_trefpointercollection, refptrco/TRefPointerCollection::TRefPointerCollection, wmi.trefpointercollection_trefpointercollection
 ms.topic: method
-f1_keywords: ["refptrco/TRefPointerCollection.TRefPointerCollection"]
+f1_keywords: 
+ - "refptrco/TRefPointerCollection.TRefPointerCollection"
 req.header: refptrco.h
 req.include-header: FwCommon.h
 req.target-type: Windows

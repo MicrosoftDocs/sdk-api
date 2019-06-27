@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 5922d4df-f6ec-4fce-1a94-3779ba7e2830, CheckInterfaceSupport, CheckInterfaceSupport method [DXGI], CheckInterfaceSupport method [DXGI],IDXGIAdapter interface, IDXGIAdapter interface [DXGI],CheckInterfaceSupport method, IDXGIAdapter.CheckInterfaceSupport, IDXGIAdapter::CheckInterfaceSupport, direct3ddxgi.idxgiadapter_checkinterfacesupport, dxgi/IDXGIAdapter::CheckInterfaceSupport
 ms.topic: method
-f1_keywords: ["dxgi/IDXGIAdapter.CheckInterfaceSupport"]
+f1_keywords: 
+ - "dxgi/IDXGIAdapter.CheckInterfaceSupport"
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

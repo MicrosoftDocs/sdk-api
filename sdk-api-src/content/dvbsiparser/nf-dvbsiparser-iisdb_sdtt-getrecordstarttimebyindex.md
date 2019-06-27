@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordStartTimeByIndex, GetRecordStartTimeByIndex method [Microsoft TV Technologies], GetRecordStartTimeByIndex method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordStartTimeByIndex method, IISDB_SDTT.GetRecordStartTimeByIndex, IISDB_SDTT::GetRecordStartTimeByIndex, dvbsiparser/IISDB_SDTT::GetRecordStartTimeByIndex, mstv.iisdb_sdtt_getrecordstarttimebyindex
 ms.topic: method
-f1_keywords: ["dvbsiparser/IISDB_SDTT.GetRecordStartTimeByIndex"]
+f1_keywords: 
+ - "dvbsiparser/IISDB_SDTT.GetRecordStartTimeByIndex"
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

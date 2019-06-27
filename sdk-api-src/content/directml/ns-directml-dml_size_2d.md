@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DML_SIZE_2D, DML_SIZE_2D structure, direct3d12.dml_size_2d, directml/DML_SIZE_2D
 ms.topic: struct
-f1_keywords: ["directml/DML_SIZE_2D"]
+f1_keywords: 
+ - "directml/DML_SIZE_2D"
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

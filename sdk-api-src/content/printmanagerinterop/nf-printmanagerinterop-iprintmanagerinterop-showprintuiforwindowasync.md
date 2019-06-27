@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPrintManagerInterop interface [Windows Runtime],ShowPrintUIForWindowAsync method, IPrintManagerInterop.ShowPrintUIForWindowAsync, IPrintManagerInterop::ShowPrintUIForWindowAsync, ShowPrintUIForWindowAsync, ShowPrintUIForWindowAsync method [Windows Runtime], ShowPrintUIForWindowAsync method [Windows Runtime],IPrintManagerInterop interface, printmanagerinterop/IPrintManagerInterop::ShowPrintUIForWindowAsync, winrt.iprintmanagerinterop_showprintuiforwindowasync
 ms.topic: method
-f1_keywords: ["printmanagerinterop/IPrintManagerInterop.ShowPrintUIForWindowAsync"]
+f1_keywords: 
+ - "printmanagerinterop/IPrintManagerInterop.ShowPrintUIForWindowAsync"
 req.header: printmanagerinterop.h
 req.include-header: 
 req.target-type: Windows

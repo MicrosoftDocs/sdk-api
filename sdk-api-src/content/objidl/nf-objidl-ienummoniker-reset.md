@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumMoniker interface [COM],Reset method, IEnumMoniker.Reset, IEnumMoniker::Reset, Reset, Reset method [COM], Reset method [COM],IEnumMoniker interface, _ole_ienummoniker_reset, com.ienummoniker_reset, objidl/IEnumMoniker::Reset
 ms.topic: method
-f1_keywords: ["objidl/IEnumMoniker.Reset"]
+f1_keywords: 
+ - "objidl/IEnumMoniker.Reset"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

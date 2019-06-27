@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextRangeProvider2, ITextRangeProvider2 interface [Windows Accessibility], ITextRangeProvider2 interface [Windows Accessibility],described, uiautomationcore/ITextRangeProvider2, winauto.uiauto_ITextRangeProvider2
 ms.topic: interface
-f1_keywords: ["uiautomationcore/ITextRangeProvider2"]
+f1_keywords: 
+ - "uiautomationcore/ITextRangeProvider2"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

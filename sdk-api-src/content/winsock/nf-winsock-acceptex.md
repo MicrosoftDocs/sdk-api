@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AcceptEx, AcceptEx function [Winsock], _win32_acceptex_2, winsock.acceptex_2, winsock/AcceptEx
 ms.topic: function
-f1_keywords: ["winsock/AcceptEx"]
+f1_keywords: 
+ - "winsock/AcceptEx"
 req.header: winsock.h
 req.include-header: Mswsock.h
 req.target-type: Windows

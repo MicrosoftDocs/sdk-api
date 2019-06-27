@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWLX_DISPATCH_VERSION_1_2, PWLX_DISPATCH_VERSION_1_2, PWLX_DISPATCH_VERSION_1_2 structure pointer [Security], WLX_DISPATCH_VERSION_1_2, WLX_DISPATCH_VERSION_1_2 structure [Security], _gina_wlx_dispatch_version_1_2, security.wlx_dispatch_version_1_2, winwlx/PWLX_DISPATCH_VERSION_1_2, winwlx/WLX_DISPATCH_VERSION_1_2"
 ms.topic: struct
-f1_keywords: ["winwlx/WLX_DISPATCH_VERSION_1_2"]
+f1_keywords: 
+ - "winwlx/WLX_DISPATCH_VERSION_1_2"
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

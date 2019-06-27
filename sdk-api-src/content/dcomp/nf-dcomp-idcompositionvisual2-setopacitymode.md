@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual2 interface [DirectComposition],SetOpacityMode method, IDCompositionVisual2.SetOpacityMode, IDCompositionVisual2::SetOpacityMode, SetOpacityMode, SetOpacityMode method [DirectComposition], SetOpacityMode method [DirectComposition],IDCompositionVisual2 interface, dcomp/IDCompositionVisual2::SetOpacityMode, directcomp.idcompositionvisual2_setopacitymode
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionVisual2.SetOpacityMode"]
+f1_keywords: 
+ - "dcomp/IDCompositionVisual2.SetOpacityMode"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

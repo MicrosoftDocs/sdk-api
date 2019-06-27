@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDestinationPosition, GetDestinationPosition method [DirectShow], GetDestinationPosition method [DirectShow],IBasicVideo interface, IBasicVideo interface [DirectShow],GetDestinationPosition method, IBasicVideo.GetDestinationPosition, IBasicVideo::GetDestinationPosition, IBasicVideoGetDestinationPosition, control/IBasicVideo::GetDestinationPosition, dshow.ibasicvideo_getdestinationposition
 ms.topic: method
-f1_keywords: ["control/IBasicVideo.GetDestinationPosition"]
+f1_keywords: 
+ - "control/IBasicVideo.GetDestinationPosition"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

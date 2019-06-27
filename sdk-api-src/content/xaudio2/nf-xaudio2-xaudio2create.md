@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XAudio2Create, XAudio2Create function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2create, xaudio2/XAudio2Create
 ms.topic: function
-f1_keywords: ["xaudio2/XAudio2Create"]
+f1_keywords: 
+ - "xaudio2/XAudio2Create"
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

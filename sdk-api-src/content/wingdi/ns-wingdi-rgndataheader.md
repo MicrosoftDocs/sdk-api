@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRGNDATAHEADER, PRGNDATAHEADER, PRGNDATAHEADER structure pointer [Windows GDI], RGNDATAHEADER, RGNDATAHEADER structure [Windows GDI], _RGNDATAHEADER, _win32_RGNDATAHEADER_str, gdi.rgndataheader, wingdi/PRGNDATAHEADER, wingdi/RGNDATAHEADER"
 ms.topic: struct
-f1_keywords: ["wingdi/RGNDATAHEADER"]
+f1_keywords: 
+ - "wingdi/RGNDATAHEADER"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

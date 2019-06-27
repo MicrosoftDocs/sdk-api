@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_DISK_STATUS, VDS_DISK_STATUS enumeration [VDS], VDS_DS_FAILED, VDS_DS_MISSING, VDS_DS_NOT_READY, VDS_DS_NO_MEDIA, VDS_DS_OFFLINE, VDS_DS_ONLINE, VDS_DS_UNKNOWN, base.vds_disk_status, vds/VDS_DISK_STATUS, vds/VDS_DS_FAILED, vds/VDS_DS_MISSING, vds/VDS_DS_NOT_READY, vds/VDS_DS_NO_MEDIA, vds/VDS_DS_OFFLINE, vds/VDS_DS_ONLINE, vds/VDS_DS_UNKNOWN
 ms.topic: enum
-f1_keywords: ["vds/VDS_DISK_STATUS"]
+f1_keywords: 
+ - "vds/VDS_DISK_STATUS"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

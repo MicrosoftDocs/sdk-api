@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NPGetUser, NPGetUser function [Security], _mnp_npgetuser, npapi/NPGetUser, security.npgetuser
 ms.topic: function
-f1_keywords: ["npapi/NPGetUser"]
+f1_keywords: 
+ - "npapi/NPGetUser"
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

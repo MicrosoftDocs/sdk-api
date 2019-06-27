@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICCompressorChoose, ICCompressorChoose function [Windows Multimedia], _win32_ICCompressorChoose, multimedia.iccompressorchoose, vfw/ICCompressorChoose
 ms.topic: function
-f1_keywords: ["vfw/ICCompressorChoose"]
+f1_keywords: 
+ - "vfw/ICCompressorChoose"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

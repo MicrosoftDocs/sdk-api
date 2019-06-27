@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPropertyValue, IPropertyValue interface [Windows Runtime], IPropertyValue interface [Windows Runtime],described, windows/IPropertyValue, winrt.ipropertyvalue
 ms.topic: interface
-f1_keywords: ["windows.foundation/IPropertyValue"]
+f1_keywords: 
+ - "windows.foundation/IPropertyValue"
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

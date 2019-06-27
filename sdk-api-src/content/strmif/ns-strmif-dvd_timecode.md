@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DVD_TIMECODE, DVD_TIMECODE structure [DirectShow], DVD_TIMECODEStructure, dshow.dvd_timecode, strmif/DVD_TIMECODE
 ms.topic: struct
-f1_keywords: ["strmif/DVD_TIMECODE"]
+f1_keywords: 
+ - "strmif/DVD_TIMECODE"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

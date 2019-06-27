@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LineJoin, LineJoin enumeration [GDI+], LineJoinBevel, LineJoinMiter, LineJoinMiterClipped, LineJoinRound, _gdiplus_ENUM_LineJoin, gdiplus._gdiplus_ENUM_LineJoin, gdiplusenums/LineJoin, gdiplusenums/LineJoinBevel, gdiplusenums/LineJoinMiter, gdiplusenums/LineJoinMiterClipped, gdiplusenums/LineJoinRound
 ms.topic: enum
-f1_keywords: ["gdiplusenums/LineJoin"]
+f1_keywords: 
+ - "gdiplusenums/LineJoin"
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

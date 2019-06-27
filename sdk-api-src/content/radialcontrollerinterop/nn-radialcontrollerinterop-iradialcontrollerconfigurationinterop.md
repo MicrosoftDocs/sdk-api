@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRadialControllerConfigurationInterop, IRadialControllerConfigurationInterop interface, IRadialControllerConfigurationInterop interface,described, Input_Radial.iradialcontrollerconfigurationinterop, radialcontrollerinterop/IRadialControllerConfigurationInterop
 ms.topic: interface
-f1_keywords: ["radialcontrollerinterop/IRadialControllerConfigurationInterop"]
+f1_keywords: 
+ - "radialcontrollerinterop/IRadialControllerConfigurationInterop"
 req.header: radialcontrollerinterop.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOutputMediaType, GetOutputMediaType method [Media Foundation], GetOutputMediaType method [Media Foundation],IMFCaptureSink interface, IMFCaptureSink interface [Media Foundation],GetOutputMediaType method, IMFCaptureSink.GetOutputMediaType, IMFCaptureSink::GetOutputMediaType, mf.imfcapturesink_getoutputmediatype, mfcaptureengine/IMFCaptureSink::GetOutputMediaType
 ms.topic: method
-f1_keywords: ["mfcaptureengine/IMFCaptureSink.GetOutputMediaType"]
+f1_keywords: 
+ - "mfcaptureengine/IMFCaptureSink.GetOutputMediaType"
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

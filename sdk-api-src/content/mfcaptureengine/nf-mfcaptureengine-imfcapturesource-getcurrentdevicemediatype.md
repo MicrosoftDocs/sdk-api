@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentDeviceMediaType, GetCurrentDeviceMediaType method [Media Foundation], GetCurrentDeviceMediaType method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetCurrentDeviceMediaType method, IMFCaptureSource.GetCurrentDeviceMediaType, IMFCaptureSource::GetCurrentDeviceMediaType, MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM, mf.imfcapturesource_getcurrentdevicemediatype, mfcaptureengine/IMFCaptureSource::GetCurrentDeviceMediaType
 ms.topic: method
-f1_keywords: ["mfcaptureengine/IMFCaptureSource.GetCurrentDeviceMediaType"]
+f1_keywords: 
+ - "mfcaptureengine/IMFCaptureSource.GetCurrentDeviceMediaType"
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

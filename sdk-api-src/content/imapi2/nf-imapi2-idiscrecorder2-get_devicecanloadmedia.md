@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_DeviceCanLoadMedia method, IDiscRecorder2.get_DeviceCanLoadMedia, IDiscRecorder2::get_DeviceCanLoadMedia, get_DeviceCanLoadMedia, get_DeviceCanLoadMedia method [IMAPI], get_DeviceCanLoadMedia method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_devicecanloadmedia, imapi2/IDiscRecorder2::get_DeviceCanLoadMedia
 ms.topic: method
-f1_keywords: ["imapi2/IDiscRecorder2.get_DeviceCanLoadMedia"]
+f1_keywords: 
+ - "imapi2/IDiscRecorder2.get_DeviceCanLoadMedia"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

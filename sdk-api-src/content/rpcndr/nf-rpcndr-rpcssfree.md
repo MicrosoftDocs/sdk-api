@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcSsFree, RpcSsFree function [RPC], _rpc_rpcssfree, rpc.rpcssfree, rpcndr/RpcSsFree
 ms.topic: function
-f1_keywords: ["rpcndr/RpcSsFree"]
+f1_keywords: 
+ - "rpcndr/RpcSsFree"
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

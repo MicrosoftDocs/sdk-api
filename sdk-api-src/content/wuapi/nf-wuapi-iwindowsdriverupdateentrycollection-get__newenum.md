@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWindowsDriverUpdateEntryCollection interface [Windows Update Agent],_NewEnum property, IWindowsDriverUpdateEntryCollection._NewEnum, IWindowsDriverUpdateEntryCollection.get__NewEnum, IWindowsDriverUpdateEntryCollection::_NewEnum, IWindowsDriverUpdateEntryCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],IWindowsDriverUpdateEntryCollection interface, get__NewEnum, wua.iwindowsdriverupdateentrycollection__newenum, wuapi/IWindowsDriverUpdateEntryCollection::_NewEnum, wuapi/IWindowsDriverUpdateEntryCollection::get__NewEnum
 ms.topic: method
-f1_keywords: ["wuapi/IWindowsDriverUpdateEntryCollection._NewEnum"]
+f1_keywords: 
+ - "wuapi/IWindowsDriverUpdateEntryCollection._NewEnum"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

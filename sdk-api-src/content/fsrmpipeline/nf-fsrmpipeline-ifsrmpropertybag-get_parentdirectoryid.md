@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],ParentDirectoryId property, IFsrmPropertyBag.ParentDirectoryId, IFsrmPropertyBag.get_ParentDirectoryId, IFsrmPropertyBag::ParentDirectoryId, IFsrmPropertyBag::get_ParentDirectoryId, ParentDirectoryId property [File Server Resource Manager], ParentDirectoryId property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_parentdirectoryid, fsrm.ifsrmpropertybag_parentdirectoryid, fsrmpipeline/IFsrmPropertyBag::ParentDirectoryId, fsrmpipeline/IFsrmPropertyBag::get_ParentDirectoryId, get_ParentDirectoryId
 ms.topic: method
-f1_keywords: ["fsrmpipeline/IFsrmPropertyBag.ParentDirectoryId"]
+f1_keywords: 
+ - "fsrmpipeline/IFsrmPropertyBag.ParentDirectoryId"
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

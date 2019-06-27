@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HttpCloseUrlGroup, HttpCloseUrlGroup function [HTTP], http.httpcloseurlgroup, http/HttpCloseUrlGroup
 ms.topic: function
-f1_keywords: ["http/HttpCloseUrlGroup"]
+f1_keywords: 
+ - "http/HttpCloseUrlGroup"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

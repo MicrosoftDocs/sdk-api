@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TraceEventInstance, TraceEventInstance function [ETW], _evt_traceeventinstance, base.traceeventinstance, etw.traceeventinstance, evntrace/TraceEventInstance
 ms.topic: function
-f1_keywords: ["evntrace/TraceEventInstance"]
+f1_keywords: 
+ - "evntrace/TraceEventInstance"
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],put_DisableConsumerDvdCompatibilityMode method, IDiscFormat2Data.put_DisableConsumerDvdCompatibilityMode, IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode, imapi.idiscformat2data_put_disableconsumerdvdcompatibilitymode, imapi2/IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode, put_DisableConsumerDvdCompatibilityMode, put_DisableConsumerDvdCompatibilityMode method [IMAPI], put_DisableConsumerDvdCompatibilityMode method [IMAPI],IDiscFormat2Data interface
 ms.topic: method
-f1_keywords: ["imapi2/IDiscFormat2Data.put_DisableConsumerDvdCompatibilityMode"]
+f1_keywords: 
+ - "imapi2/IDiscFormat2Data.put_DisableConsumerDvdCompatibilityMode"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

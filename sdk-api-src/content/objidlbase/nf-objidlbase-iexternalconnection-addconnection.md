@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddConnection, AddConnection method [COM], AddConnection method [COM],IExternalConnection interface, IExternalConnection interface [COM],AddConnection method, IExternalConnection.AddConnection, IExternalConnection::AddConnection, _com_iexternalconnection_addconnection, com.iexternalconnection_addconnection, objidlbase/IExternalConnection::AddConnection
 ms.topic: method
-f1_keywords: ["objidlbase/IExternalConnection.AddConnection"]
+f1_keywords: 
+ - "objidlbase/IExternalConnection.AddConnection"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

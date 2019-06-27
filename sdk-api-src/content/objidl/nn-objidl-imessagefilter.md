@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMessageFilter, IMessageFilter interface [COM], IMessageFilter interface [COM],described, _com_imessagefilter, com.imessagefilter, objidl/IMessageFilter
 ms.topic: interface
-f1_keywords: ["objidl/IMessageFilter"]
+f1_keywords: 
+ - "objidl/IMessageFilter"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

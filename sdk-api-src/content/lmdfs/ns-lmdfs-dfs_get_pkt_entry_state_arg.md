@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDFS_GET_PKT_ENTRY_STATE_ARG, DFS_GET_PKT_ENTRY_STATE_ARG, DFS_GET_PKT_ENTRY_STATE_ARG structure [Distributed File System], PDFS_GET_PKT_ENTRY_STATE_ARG, PDFS_GET_PKT_ENTRY_STATE_ARG structure pointer [Distributed File System], dfs.dfs_get_pkt_entry_state_arg, lmdfs/DFS_GET_PKT_ENTRY_STATE_ARG, lmdfs/PDFS_GET_PKT_ENTRY_STATE_ARG"
 ms.topic: struct
-f1_keywords: ["lmdfs/DFS_GET_PKT_ENTRY_STATE_ARG"]
+f1_keywords: 
+ - "lmdfs/DFS_GET_PKT_ENTRY_STATE_ARG"
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

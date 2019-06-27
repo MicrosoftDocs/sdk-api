@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITraceRelogger, ITraceRelogger interface [ETW], ITraceRelogger interface [ETW],described, etw.itracerelogger, relogger/ITraceRelogger
 ms.topic: interface
-f1_keywords: ["relogger/ITraceRelogger"]
+f1_keywords: 
+ - "relogger/ITraceRelogger"
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

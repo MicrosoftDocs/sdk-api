@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPlayerHook interface [windows Media Format],PreDecode method, IWMPlayerHook.PreDecode, IWMPlayerHook::PreDecode, IWMPlayerHookPreDecode, PreDecode, PreDecode method [windows Media Format], PreDecode method [windows Media Format],IWMPlayerHook interface, wmformat.iwmplayerhook_predecode, wmsdkidl/IWMPlayerHook::PreDecode
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMPlayerHook.PreDecode"]
+f1_keywords: 
+ - "wmsdkidl/IWMPlayerHook.PreDecode"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

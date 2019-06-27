@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStreamCount, GetStreamCount method [Streaming Media Devices], GetStreamCount method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetStreamCount method, IMFDeviceTransform.GetStreamCount, IMFDeviceTransform::GetStreamCount, mftransform/IMFDeviceTransform::GetStreamCount, stream.imfdevicetransform_getstreamcount
 ms.topic: method
-f1_keywords: ["mftransform/IMFDeviceTransform.GetStreamCount"]
+f1_keywords: 
+ - "mftransform/IMFDeviceTransform.GetStreamCount"
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

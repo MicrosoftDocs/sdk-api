@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentVerticalViewSize property [Windows Accessibility], CurrentVerticalViewSize property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CurrentVerticalViewSize property, IUIAutomationScrollPattern.CurrentVerticalViewSize, IUIAutomationScrollPattern.get_CurrentVerticalViewSize, IUIAutomationScrollPattern::CurrentVerticalViewSize, IUIAutomationScrollPattern::get_CurrentVerticalViewSize, get_CurrentVerticalViewSize, uiauto.uiauto_IUIAutomationScrollPattern_CurrentVerticalViewSize, uiauto_IUIAutomationScrollPattern_CurrentVerticalViewSize, uiautomationclient/IUIAutomationScrollPattern::CurrentVerticalViewSize, uiautomationclient/IUIAutomationScrollPattern::get_CurrentVerticalViewSize, winauto.uiauto_IUIAutomationScrollPattern_CurrentVerticalViewSize
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationScrollPattern.CurrentVerticalViewSize"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationScrollPattern.CurrentVerticalViewSize"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

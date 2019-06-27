@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPStringCollection2 interface [Windows Media Player],isIdentical method, IWMPStringCollection2.isIdentical, IWMPStringCollection2::isIdentical, IWMPStringCollection2isIdentical, isIdentical, isIdentical method [Windows Media Player], isIdentical method [Windows Media Player],IWMPStringCollection2 interface, wmp.iwmpstringcollection2_isidentical, wmp/IWMPStringCollection2::isIdentical
 ms.topic: method
-f1_keywords: ["wmp/IWMPStringCollection2.isIdentical"]
+f1_keywords: 
+ - "wmp/IWMPStringCollection2.isIdentical"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

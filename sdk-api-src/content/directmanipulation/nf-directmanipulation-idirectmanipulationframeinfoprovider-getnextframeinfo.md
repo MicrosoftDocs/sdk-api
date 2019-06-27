@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNextFrameInfo, GetNextFrameInfo method [Direct Manipulation], GetNextFrameInfo method [Direct Manipulation],IDirectManipulationFrameInfoProvider interface, IDirectManipulationFrameInfoProvider interface [Direct Manipulation],GetNextFrameInfo method, IDirectManipulationFrameInfoProvider.GetNextFrameInfo, IDirectManipulationFrameInfoProvider::GetNextFrameInfo, directmanipulation.idirectmanipulationframeinfoprovider_getnextframeinfo, directmanipulation/IDirectManipulationFrameInfoProvider::GetNextFrameInfo
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationFrameInfoProvider.GetNextFrameInfo"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationFrameInfoProvider.GetNextFrameInfo"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

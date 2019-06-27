@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DBPARAMETER, DBPARAMETER structure [Indexing Service], _idxs_DBPARAMETER, cmdtree/DBPARAMETER, indexsrv.dbparameter, tagDBPARAMETER
 ms.topic: struct
-f1_keywords: ["cmdtree/DBPARAMETER"]
+f1_keywords: 
+ - "cmdtree/DBPARAMETER"
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

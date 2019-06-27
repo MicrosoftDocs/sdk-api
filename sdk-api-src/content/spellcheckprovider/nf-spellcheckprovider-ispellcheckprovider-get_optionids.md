@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],OptionIds property, ISpellCheckProvider.OptionIds, ISpellCheckProvider.get_OptionIds, ISpellCheckProvider::OptionIds, ISpellCheckProvider::get_OptionIds, OptionIds property [Internationalization for Windows Applications], OptionIds property [Internationalization for Windows Applications],ISpellCheckProvider interface, get_OptionIds, intl.ispellcheckprovider_optionids, spellcheckprovider/ISpellCheckProvider::OptionIds, spellcheckprovider/ISpellCheckProvider::get_OptionIds
 ms.topic: method
-f1_keywords: ["spellcheckprovider/ISpellCheckProvider.OptionIds"]
+f1_keywords: 
+ - "spellcheckprovider/ISpellCheckProvider.OptionIds"
 req.header: spellcheckprovider.h
 req.include-header: 
 req.target-type: Windows

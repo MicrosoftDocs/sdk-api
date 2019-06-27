@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOEMCP, GetOEMCP function [Internationalization for Windows Applications], _win32_GetOEMCP, intl.getoemcp, winnls/GetOEMCP
 ms.topic: function
-f1_keywords: ["winnls/GetOEMCP"]
+f1_keywords: 
+ - "winnls/GetOEMCP"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLocationCodes, GetLocationCodes method [Microsoft TV Technologies], GetLocationCodes method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetLocationCodes method, ISCTE_EAS.GetLocationCodes, ISCTE_EAS::GetLocationCodes, ISCTE_EASGetLocationCodes, atscpsipparser/ISCTE_EAS::GetLocationCodes, mstv.iscte_eas_getlocationcodes
 ms.topic: method
-f1_keywords: ["atscpsipparser/ISCTE_EAS.GetLocationCodes"]
+f1_keywords: 
+ - "atscpsipparser/ISCTE_EAS.GetLocationCodes"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

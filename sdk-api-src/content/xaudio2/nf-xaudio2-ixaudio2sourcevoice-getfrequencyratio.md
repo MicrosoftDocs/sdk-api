@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFrequencyRatio, GetFrequencyRatio method [XAudio2 Audio Mixing APIs], GetFrequencyRatio method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],GetFrequencyRatio method, IXAudio2SourceVoice.GetFrequencyRatio, IXAudio2SourceVoice::GetFrequencyRatio, xaudio2.ixaudio2sourcevoice_interface_getfrequencyratio, xaudio2/IXAudio2SourceVoice::GetFrequencyRatio
 ms.topic: method
-f1_keywords: ["xaudio2/IXAudio2SourceVoice.GetFrequencyRatio"]
+f1_keywords: 
+ - "xaudio2/IXAudio2SourceVoice.GetFrequencyRatio"
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

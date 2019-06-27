@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BindOutputs, BindOutputs method, BindOutputs method,IDMLBindingTable interface, IDMLBindingTable interface,BindOutputs method, IDMLBindingTable.BindOutputs, IDMLBindingTable::BindOutputs, direct3d12.idmlbindingtable_bindoutputs, directml/IDMLBindingTable::BindOutputs
 ms.topic: method
-f1_keywords: ["directml/IDMLBindingTable.BindOutputs"]
+f1_keywords: 
+ - "directml/IDMLBindingTable.BindOutputs"
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

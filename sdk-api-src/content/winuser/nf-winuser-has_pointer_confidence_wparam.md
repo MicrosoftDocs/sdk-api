@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HAS_POINTER_CONFIDENCE_WPARAM, HAS_POINTER_CONFIDENCE_WPARAM macro [Input Messages and Notifications], inputmsg.has_pointer_confidence_wparam, winuser/HAS_POINTER_CONFIDENCE_WPARAM
 ms.topic: macro
-f1_keywords: ["winuser/HAS_POINTER_CONFIDENCE_WPARAM"]
+f1_keywords: 
+ - "winuser/HAS_POINTER_CONFIDENCE_WPARAM"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

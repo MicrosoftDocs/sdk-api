@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMDeleteLicense, DRMDeleteLicense function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDeleteLicense, rm.drmdeletelicense
 ms.topic: function
-f1_keywords: ["msdrm/DRMDeleteLicense"]
+f1_keywords: 
+ - "msdrm/DRMDeleteLicense"
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

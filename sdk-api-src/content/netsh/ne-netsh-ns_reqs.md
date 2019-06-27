@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NS_REQS, NS_REQS enumeration [NetShell], netsh/NS_REQS, netshell.ns_reqs
 ms.topic: enum
-f1_keywords: ["netsh/NS_REQS"]
+f1_keywords: 
+ - "netsh/NS_REQS"
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

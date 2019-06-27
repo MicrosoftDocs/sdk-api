@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROPERTYKEY, PROPERTYKEY structure [Windows Properties], _shell_PROPERTYKEY, _shell_PROPERTYKEY_cpp, properties.PROPERTYKEY, shell.PROPERTYKEY, wtypes/PROPERTYKEY
 ms.topic: struct
-f1_keywords: ["wtypes/PROPERTYKEY"]
+f1_keywords: 
+ - "wtypes/PROPERTYKEY"
 req.header: wtypes.h
 req.include-header: 
 req.target-type: Windows

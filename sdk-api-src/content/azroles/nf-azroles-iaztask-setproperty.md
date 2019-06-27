@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_DESCRIPTION, AZ_PROP_IS_ROLE_DEFINITION, AZ_PROP_NAME, AZ_PROP_TASK_BIZRULE, AZ_PROP_TASK_BIZRULE_LANGUAGE, AZ_PROP_TASK_IS_ROLE_DEFINITION, AzTask object [Security],SetProperty method, IAzTask interface [Security],SetProperty method, IAzTask.SetProperty, IAzTask::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],AzTask object, SetProperty method [Security],IAzTask interface, azroles/IAzTask::SetProperty, security.iaztask_setproperty
 ms.topic: method
-f1_keywords: ["azroles/IAzTask.SetProperty"]
+f1_keywords: 
+ - "azroles/IAzTask.SetProperty"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

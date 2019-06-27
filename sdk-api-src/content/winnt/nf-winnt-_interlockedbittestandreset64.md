@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InterlockedBitTestAndReset64, InterlockedBitTestAndReset64 function, _interlockedbittestandreset64, base.interlockedbittestandreset64, winnt/InterlockedBitTestAndReset64
 ms.topic: function
-f1_keywords: ["winnt/InterlockedBitTestAndReset64"]
+f1_keywords: 
+ - "winnt/InterlockedBitTestAndReset64"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

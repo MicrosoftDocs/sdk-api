@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NET_FW_PROFILE_CURRENT, NET_FW_PROFILE_DOMAIN, NET_FW_PROFILE_STANDARD, NET_FW_PROFILE_TYPE, NET_FW_PROFILE_TYPE enumeration [ICS/ICF], NET_FW_PROFILE_TYPE_, NET_FW_PROFILE_TYPE_MAX, icftypes/NET_FW_PROFILE_CURRENT, icftypes/NET_FW_PROFILE_DOMAIN, icftypes/NET_FW_PROFILE_STANDARD, icftypes/NET_FW_PROFILE_TYPE, icftypes/NET_FW_PROFILE_TYPE_MAX, ics.net_fw_profile_type
 ms.topic: enum
-f1_keywords: ["icftypes/NET_FW_PROFILE_TYPE"]
+f1_keywords: 
+ - "icftypes/NET_FW_PROFILE_TYPE"
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows

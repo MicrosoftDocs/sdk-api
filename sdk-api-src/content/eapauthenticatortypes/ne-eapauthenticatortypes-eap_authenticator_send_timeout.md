@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EAP_AUTHENTICATOR_SEND_TIMEOUT, EAP_AUTHENTICATOR_SEND_TIMEOUT enumeration [EAPHost], EAP_AUTHENTICATOR_SEND_TIMEOUT_BASIC, EAP_AUTHENTICATOR_SEND_TIMEOUT_INTERACTIVE, EAP_AUTHENTICATOR_SEND_TIMEOUT_NONE, eapauthenticatortypes/EAP_AUTHENTICATOR_SEND_TIMEOUT, eapauthenticatortypes/EAP_AUTHENTICATOR_SEND_TIMEOUT_BASIC, eapauthenticatortypes/EAP_AUTHENTICATOR_SEND_TIMEOUT_INTERACTIVE, eapauthenticatortypes/EAP_AUTHENTICATOR_SEND_TIMEOUT_NONE, eaphost.eap_authenticator_send_timeout
 ms.topic: enum
-f1_keywords: ["eapauthenticatortypes/EAP_AUTHENTICATOR_SEND_TIMEOUT"]
+f1_keywords: 
+ - "eapauthenticatortypes/EAP_AUTHENTICATOR_SEND_TIMEOUT"
 req.header: eapauthenticatortypes.h
 req.include-header: 
 req.target-type: Windows

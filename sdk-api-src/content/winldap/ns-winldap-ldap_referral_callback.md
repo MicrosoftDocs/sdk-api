@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLDAP_REFERRAL_CALLBACK, LDAP_REFERRAL_CALLBACK, LDAP_REFERRAL_CALLBACK structure [LDAP], PLDAP_REFERRAL_CALLBACK, PLDAP_REFERRAL_CALLBACK structure pointer [LDAP], _ldap_ldap_referral_callback, ldap.ldap__referral__callback, ldap.ldap_referral_callback, winldap/LDAP_REFERRAL_CALLBACK, winldap/PLDAP_REFERRAL_CALLBACK"
 ms.topic: struct
-f1_keywords: ["winldap/LDAP_REFERRAL_CALLBACK"]
+f1_keywords: 
+ - "winldap/LDAP_REFERRAL_CALLBACK"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

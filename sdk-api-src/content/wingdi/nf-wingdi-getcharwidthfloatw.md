@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCharWidthFloat, GetCharWidthFloat function [Windows GDI], GetCharWidthFloatA, GetCharWidthFloatW, _win32_GetCharWidthFloat, gdi.getcharwidthfloat, wingdi/GetCharWidthFloat, wingdi/GetCharWidthFloatA, wingdi/GetCharWidthFloatW
 ms.topic: function
-f1_keywords: ["wingdi/GetCharWidthFloat"]
+f1_keywords: 
+ - "wingdi/GetCharWidthFloat"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

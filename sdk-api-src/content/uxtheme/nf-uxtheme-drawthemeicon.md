@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawThemeIcon, DrawThemeIcon function [Windows Controls], controls.DrawThemeIcon, controls.inet_DrawThemeIcon, inet_DrawThemeIcon, inet_DrawThemeIcon_cpp, uxtheme/DrawThemeIcon
 ms.topic: function
-f1_keywords: ["uxtheme/DrawThemeIcon"]
+f1_keywords: 
+ - "uxtheme/DrawThemeIcon"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

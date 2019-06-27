@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateEventHandlerGroup, CreateEventHandlerGroup method [Windows Accessibility], CreateEventHandlerGroup method [Windows Accessibility],IUIAutomation6 interface, IUIAutomation6 interface [Windows Accessibility],CreateEventHandlerGroup method, IUIAutomation6.CreateEventHandlerGroup, IUIAutomation6::CreateEventHandlerGroup, uiautomationclient/IUIAutomation6::CreateEventHandlerGroup, winauto.uiauto_IUIAutomation6_CreateEventHandlerGroup
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomation6.CreateEventHandlerGroup"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomation6.CreateEventHandlerGroup"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseCluster, CloseCluster function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER, PCLUSAPI_CLOSE_CLUSTER function [Failover Cluster], _wolf_closecluster, clusapi/CloseCluster, clusapi/PCLUSAPI_CLOSE_CLUSTER, mscs.closecluster
 ms.topic: function
-f1_keywords: ["clusapi/CloseCluster"]
+f1_keywords: 
+ - "clusapi/CloseCluster"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

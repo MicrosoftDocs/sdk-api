@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestApplicationsEnumerator, IAppxManifestApplicationsEnumerator interface [App packaging and management], IAppxManifestApplicationsEnumerator interface [App packaging and management],described, appxpackaging/IAppxManifestApplicationsEnumerator, appxpkg.iappxmanifestapplicationsenumerator
 ms.topic: interface
-f1_keywords: ["appxpackaging/IAppxManifestApplicationsEnumerator"]
+f1_keywords: 
+ - "appxpackaging/IAppxManifestApplicationsEnumerator"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

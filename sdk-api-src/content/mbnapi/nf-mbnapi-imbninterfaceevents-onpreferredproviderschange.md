@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnPreferredProvidersChange method, IMbnInterfaceEvents.OnPreferredProvidersChange, IMbnInterfaceEvents::OnPreferredProvidersChange, OnPreferredProvidersChange, OnPreferredProvidersChange method [Microsoft Broadband Networks], OnPreferredProvidersChange method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, mbn.imbninterfaceevents_onpreferredproviderschange, mbnapi/IMbnInterfaceEvents::OnPreferredProvidersChange
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnInterfaceEvents.OnPreferredProvidersChange"]
+f1_keywords: 
+ - "mbnapi/IMbnInterfaceEvents.OnPreferredProvidersChange"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

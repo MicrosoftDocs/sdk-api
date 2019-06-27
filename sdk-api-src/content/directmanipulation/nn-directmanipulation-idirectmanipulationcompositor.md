@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationCompositor, IDirectManipulationCompositor interface [Direct Manipulation], IDirectManipulationCompositor interface [Direct Manipulation],described, directmanipulation.idirectmanipulationcompositor, directmanipulation/IDirectManipulationCompositor
 ms.topic: interface
-f1_keywords: ["directmanipulation/IDirectManipulationCompositor"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationCompositor"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

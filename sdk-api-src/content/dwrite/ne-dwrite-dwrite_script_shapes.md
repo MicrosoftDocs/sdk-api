@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_SCRIPT_SHAPES, DWRITE_SCRIPT_SHAPES enumeration [Direct Write], DWRITE_SCRIPT_SHAPES_DEFAULT, DWRITE_SCRIPT_SHAPES_NO_VISUAL, directwrite.dwrite_script_shapes, dwrite/DWRITE_SCRIPT_SHAPES, dwrite/DWRITE_SCRIPT_SHAPES_DEFAULT, dwrite/DWRITE_SCRIPT_SHAPES_NO_VISUAL
 ms.topic: enum
-f1_keywords: ["dwrite/DWRITE_SCRIPT_SHAPES"]
+f1_keywords: 
+ - "dwrite/DWRITE_SCRIPT_SHAPES"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

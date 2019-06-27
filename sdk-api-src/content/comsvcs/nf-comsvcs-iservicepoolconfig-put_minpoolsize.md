@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IServicePoolConfig interface [COM+],put_MinPoolSize method, IServicePoolConfig.put_MinPoolSize, IServicePoolConfig::put_MinPoolSize, comsvcs/IServicePoolConfig::put_MinPoolSize, cos.iservicepoolconfig_put_minpoolsize, put_MinPoolSize, put_MinPoolSize method [COM+], put_MinPoolSize method [COM+],IServicePoolConfig interface
 ms.topic: method
-f1_keywords: ["comsvcs/IServicePoolConfig.put_MinPoolSize"]
+f1_keywords: 
+ - "comsvcs/IServicePoolConfig.put_MinPoolSize"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumFORMATETC interface, IEnumFORMATETC interface [COM],Clone method, IEnumFORMATETC.Clone, IEnumFORMATETC::Clone, _ole_ienumformatetc_clone, com.ienumformatetc_clone, objidl/IEnumFORMATETC::Clone
 ms.topic: method
-f1_keywords: ["objidl/IEnumFORMATETC.Clone"]
+f1_keywords: 
+ - "objidl/IEnumFORMATETC.Clone"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

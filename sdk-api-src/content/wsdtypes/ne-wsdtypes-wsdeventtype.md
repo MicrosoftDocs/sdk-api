@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDET_INCOMING_FAULT, WSDET_INCOMING_MESSAGE, WSDET_NONE, WSDET_RESPONSE_TIMEOUT, WSDET_TRANSMISSION_FAILURE, WSDEventType, WSDEventType enumeration, ncd.wsdeventtype_enum, wsdtypes/WSDET_INCOMING_FAULT, wsdtypes/WSDET_INCOMING_MESSAGE, wsdtypes/WSDET_NONE, wsdtypes/WSDET_RESPONSE_TIMEOUT, wsdtypes/WSDET_TRANSMISSION_FAILURE, wsdtypes/WSDEventType
 ms.topic: enum
-f1_keywords: ["wsdtypes/WSDEventType"]
+f1_keywords: 
+ - "wsdtypes/WSDEventType"
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

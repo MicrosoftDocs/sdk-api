@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecorderType, GetRecorderType method [IMAPI], GetRecorderType method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],GetRecorderType method, IDiscRecorder.GetRecorderType, IDiscRecorder::GetRecorderType, RECORDER_CDR, RECORDER_CDRW, _win32_idiscrecorder_getrecordertype, base.idiscrecorder_getrecordertype, imapi.idiscrecorder_getrecordertype, imapi/IDiscRecorder::GetRecorderType
 ms.topic: method
-f1_keywords: ["imapi/IDiscRecorder.GetRecorderType"]
+f1_keywords: 
+ - "imapi/IDiscRecorder.GetRecorderType"
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

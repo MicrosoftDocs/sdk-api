@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ber_peek_tag, ber_peek_tag, ber_peek_tag function [LDAP], ldap.ber__peek__tag, ldap.ber_peek_tag, winber/ber_peek_tag"
 ms.topic: function
-f1_keywords: ["winber/ber_peek_tag"]
+f1_keywords: 
+ - "winber/ber_peek_tag"
 req.header: winber.h
 req.include-header: 
 req.target-type: Windows

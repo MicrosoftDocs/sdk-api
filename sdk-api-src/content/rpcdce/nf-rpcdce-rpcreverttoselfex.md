@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcRevertToSelfEx, RpcRevertToSelfEx function [RPC], _rpc_rpcreverttoselfex, rpc.rpcreverttoselfex, rpcdce/RpcRevertToSelfEx
 ms.topic: function
-f1_keywords: ["rpcdce/RpcRevertToSelfEx"]
+f1_keywords: 
+ - "rpcdce/RpcRevertToSelfEx"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHEnumerateUnreadMailAccounts, SHEnumerateUnreadMailAccounts function [Windows Shell], SHEnumerateUnreadMailAccountsA, SHEnumerateUnreadMailAccountsW, _shell_SHEnumerateUnreadMailAccounts, shell.SHEnumerateUnreadMailAccounts, shellapi/SHEnumerateUnreadMailAccounts, shellapi/SHEnumerateUnreadMailAccountsA, shellapi/SHEnumerateUnreadMailAccountsW
 ms.topic: function
-f1_keywords: ["shellapi/SHEnumerateUnreadMailAccounts"]
+f1_keywords: 
+ - "shellapi/SHEnumerateUnreadMailAccounts"
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

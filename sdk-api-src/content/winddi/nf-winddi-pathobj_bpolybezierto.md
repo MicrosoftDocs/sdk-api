@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PATHOBJ_bPolyBezierTo, PATHOBJ_bPolyBezierTo function [Display Devices], display.pathobj_bpolybezierto, gdifncs_787796de-11ca-457d-8084-8eb0af187eef.xml, winddi/PATHOBJ_bPolyBezierTo
 ms.topic: function
-f1_keywords: ["winddi/PATHOBJ_bPolyBezierTo"]
+f1_keywords: 
+ - "winddi/PATHOBJ_bPolyBezierTo"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

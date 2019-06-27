@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IApplicationDestinations interface [Windows Shell],SetAppID method, IApplicationDestinations.SetAppID, IApplicationDestinations::SetAppID, SetAppID, SetAppID method [Windows Shell], SetAppID method [Windows Shell],IApplicationDestinations interface, _shell_IApplicationDestinations_SetAppID, shell.IApplicationDestinations_SetAppID, shobjidl_core/IApplicationDestinations::SetAppID
 ms.topic: method
-f1_keywords: ["shobjidl_core/IApplicationDestinations.SetAppID"]
+f1_keywords: 
+ - "shobjidl_core/IApplicationDestinations.SetAppID"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1SimplifiedGeometrySink interface [Direct2D],SetFillMode method, ID2D1SimplifiedGeometrySink.SetFillMode, ID2D1SimplifiedGeometrySink::SetFillMode, SetFillMode, SetFillMode method [Direct2D], SetFillMode method [Direct2D],ID2D1SimplifiedGeometrySink interface, d2d1/ID2D1SimplifiedGeometrySink::SetFillMode, direct2d.ID2D1SimplifiedGeometrySink_SetFillMode
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1SimplifiedGeometrySink.SetFillMode"]
+f1_keywords: 
+ - "d2d1/ID2D1SimplifiedGeometrySink.SetFillMode"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: POINTER_DEVICE_CURSOR_TYPE, POINTER_DEVICE_CURSOR_TYPE enumeration, POINTER_DEVICE_CURSOR_TYPE_ERASER, POINTER_DEVICE_CURSOR_TYPE_MAX, POINTER_DEVICE_CURSOR_TYPE_TIP, POINTER_DEVICE_CURSOR_TYPE_UNKNOWN, input_pointerdevice.pointer_device_cursor_type, unifiedinputstack.pointer_device_cursor_type, winuser/POINTER_DEVICE_CURSOR_TYPE, winuser/POINTER_DEVICE_CURSOR_TYPE_ERASER, winuser/POINTER_DEVICE_CURSOR_TYPE_MAX, winuser/POINTER_DEVICE_CURSOR_TYPE_TIP, winuser/POINTER_DEVICE_CURSOR_TYPE_UNKNOWN
 ms.topic: enum
-f1_keywords: ["winuser/POINTER_DEVICE_CURSOR_TYPE"]
+f1_keywords: 
+ - "winuser/POINTER_DEVICE_CURSOR_TYPE"
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

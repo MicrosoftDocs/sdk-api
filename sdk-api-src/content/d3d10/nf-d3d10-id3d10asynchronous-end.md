@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 453b6ede-999a-d914-5698-e6749585c82e, End, End method [Direct3D 10], End method [Direct3D 10],ID3D10Asynchronous interface, ID3D10Asynchronous interface [Direct3D 10],End method, ID3D10Asynchronous.End, ID3D10Asynchronous::End, d3d10/ID3D10Asynchronous::End, direct3d10.id3d10asynchronous_end
 ms.topic: method
-f1_keywords: ["d3d10/ID3D10Asynchronous.End"]
+f1_keywords: 
+ - "d3d10/ID3D10Asynchronous.End"
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

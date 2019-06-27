@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkPicture interface [Tablet PC],SupportHighContrastSelectionUI property, IInkPicture.SupportHighContrastSelectionUI, IInkPicture.put_SupportHighContrastSelectionUI, IInkPicture::SupportHighContrastSelectionUI, IInkPicture::get_SupportHighContrastSelectionUI, IInkPicture::put_SupportHighContrastSelectionUI, InkPicture.get_SupportHighContrastSelectionUI, InkPicture.put_SupportHighContrastSelectionUI, SupportHighContrastSelectionUI property [Tablet PC], SupportHighContrastSelectionUI property [Tablet PC],IInkPicture interface, f522a998-89f0-4d8d-bb19-949d62f5a786, get_SupportHighContrastSelectionUI, msinkaut/IInkPicture::SupportHighContrastSelectionUI, msinkaut/IInkPicture::get_SupportHighContrastSelectionUI, msinkaut/IInkPicture::put_SupportHighContrastSelectionUI, put_SupportHighContrastSelectionUI, tablet.inkpicture_supporthighcontrastselectionui
 ms.topic: method
-f1_keywords: ["msinkaut/IInkPicture.SupportHighContrastSelectionUI"]
+f1_keywords: 
+ - "msinkaut/IInkPicture.SupportHighContrastSelectionUI"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

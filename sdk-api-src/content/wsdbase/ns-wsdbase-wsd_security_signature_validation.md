@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWSD_SECURITY_SIGNATURE_VALIDATION, WSD_SECURITY_SIGNATURE_VALIDATION, WSD_SECURITY_SIGNATURE_VALIDATION structure, _WSD_SECURITY_SIGNATURE_VALIDATION, ncd.wsd_security_signature_validation, wsdbase/WSD_SECURITY_SIGNATURE_VALIDATION"
 ms.topic: struct
-f1_keywords: ["wsdbase/WSD_SECURITY_SIGNATURE_VALIDATION"]
+f1_keywords: 
+ - "wsdbase/WSD_SECURITY_SIGNATURE_VALIDATION"
 req.header: wsdbase.h
 req.include-header: Windows.h
 req.target-type: Windows

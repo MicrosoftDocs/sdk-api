@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanGetNetworkBssList, WlanGetNetworkBssList function [NativeWIFI], dot11_BSS_type_any, dot11_BSS_type_independent, dot11_BSS_type_infrastructure, nwifi.wlangetnetworkbsslist, wlanapi/WlanGetNetworkBssList
 ms.topic: function
-f1_keywords: ["wlanapi/WlanGetNetworkBssList"]
+f1_keywords: 
+ - "wlanapi/WlanGetNetworkBssList"
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

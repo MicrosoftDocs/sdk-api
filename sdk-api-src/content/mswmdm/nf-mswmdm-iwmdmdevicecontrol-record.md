@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDMDeviceControl interface [windows Media Device Manager],Record method, IWMDMDeviceControl.Record, IWMDMDeviceControl::Record, IWMDMDeviceControlRecord, Record, Record method [windows Media Device Manager], Record method [windows Media Device Manager],IWMDMDeviceControl interface, mswmdm/IWMDMDeviceControl::Record, wmdm.iwmdmdevicecontrol_record
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMDeviceControl.Record"]
+f1_keywords: 
+ - "mswmdm/IWMDMDeviceControl.Record"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDRMTranscryptor interface [windows Media Format],Initialize method, IWMDRMTranscryptor.Initialize, IWMDRMTranscryptor::Initialize, IWMDRMTranscryptorInitialize, Initialize, Initialize method [windows Media Format], Initialize method [windows Media Format],IWMDRMTranscryptor interface, wmformat.iwmdrmtranscryptor_initialize, wmsdkidl/IWMDRMTranscryptor::Initialize
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMDRMTranscryptor.Initialize"]
+f1_keywords: 
+ - "wmsdkidl/IWMDRMTranscryptor.Initialize"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EcRemoveObjectArrayElement, EcRemoveObjectArrayElement function, evcoll/EcRemoveObjectArrayElement, wec.ecremoveobjectarrayelement, wes.ecremoveobjectarrayelement
 ms.topic: function
-f1_keywords: ["evcoll/EcRemoveObjectArrayElement"]
+f1_keywords: 
+ - "evcoll/EcRemoveObjectArrayElement"
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateADTSMediaSink, MFCreateADTSMediaSink function [Media Foundation], mf.mfcreateadtsmediasink, mfidl/MFCreateADTSMediaSink
 ms.topic: function
-f1_keywords: ["mfidl/MFCreateADTSMediaSink"]
+f1_keywords: 
+ - "mfidl/MFCreateADTSMediaSink"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

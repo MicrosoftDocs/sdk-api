@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLanguageCode, GetLanguageCode method [Microsoft TV Technologies], GetLanguageCode method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetLanguageCode method, IIsdbAudioComponentDescriptor.GetLanguageCode, IIsdbAudioComponentDescriptor::GetLanguageCode, dvbsiparser/IIsdbAudioComponentDescriptor::GetLanguageCode, mstv.iisdbaudiocomponentdescriptor_getlanguagecode
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbAudioComponentDescriptor.GetLanguageCode"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbAudioComponentDescriptor.GetLanguageCode"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

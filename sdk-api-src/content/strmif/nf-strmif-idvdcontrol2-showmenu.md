@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],ShowMenu method, IDvdControl2.ShowMenu, IDvdControl2::ShowMenu, IDvdControl2ShowMenu, ShowMenu, ShowMenu method [DirectShow], ShowMenu method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_showmenu, strmif/IDvdControl2::ShowMenu
 ms.topic: method
-f1_keywords: ["strmif/IDvdControl2.ShowMenu"]
+f1_keywords: 
+ - "strmif/IDvdControl2.ShowMenu"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

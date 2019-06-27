@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeStringArray object [Security],Decode method, Decode, Decode method [Security], Decode method [Security],CCertEncodeStringArray object, Decode method [Security],ICertEncodeStringArray interface, ICertEncodeStringArray interface [Security],Decode method, ICertEncodeStringArray.Decode, ICertEncodeStringArray::Decode, _certsrv_icertencodestringarray_decode, certenc/ICertEncodeStringArray::Decode, security.icertencodestringarray_decode
 ms.topic: method
-f1_keywords: ["certenc/ICertEncodeStringArray.Decode"]
+f1_keywords: 
+ - "certenc/ICertEncodeStringArray.Decode"
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

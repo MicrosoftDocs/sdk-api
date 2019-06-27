@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetFileSecurity, SetFileSecurity function [Security], SetFileSecurityA, SetFileSecurityW, _win32_setfilesecurity, security.setfilesecurity, winbase/SetFileSecurity, winbase/SetFileSecurityA, winbase/SetFileSecurityW
 ms.topic: function
-f1_keywords: ["winbase/SetFileSecurity"]
+f1_keywords: 
+ - "winbase/SetFileSecurity"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

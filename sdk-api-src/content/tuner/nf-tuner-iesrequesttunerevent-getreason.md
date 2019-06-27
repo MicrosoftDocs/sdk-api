@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetReason, GetReason method [Microsoft TV Technologies], GetReason method [Microsoft TV Technologies],IESRequestTunerEvent interface, IESRequestTunerEvent interface [Microsoft TV Technologies],GetReason method, IESRequestTunerEvent.GetReason, IESRequestTunerEvent::GetReason, mstv.iesrequesttunerevent_getreason, tuner/IESRequestTunerEvent::GetReason
 ms.topic: method
-f1_keywords: ["tuner/IESRequestTunerEvent.GetReason"]
+f1_keywords: 
+ - "tuner/IESRequestTunerEvent.GetReason"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

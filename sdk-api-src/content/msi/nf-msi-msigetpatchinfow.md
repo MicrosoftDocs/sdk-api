@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INSTALLPROPERTY_LOCALPACKAGE, MsiGetPatchInfo, MsiGetPatchInfo function, MsiGetPatchInfoA, MsiGetPatchInfoW, _msi_msigetpatchinfo, msi/MsiGetPatchInfo, msi/MsiGetPatchInfoA, msi/MsiGetPatchInfoW, setup.msigetpatchinfo
 ms.topic: function
-f1_keywords: ["msi/MsiGetPatchInfo"]
+f1_keywords: 
+ - "msi/MsiGetPatchInfo"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

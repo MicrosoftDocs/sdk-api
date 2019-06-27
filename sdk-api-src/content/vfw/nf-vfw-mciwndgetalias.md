@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetAlias, MCIWndGetAlias macro [Windows Multimedia], _win32_MCIWndGetAlias, multimedia.mciwndgetalias, vfw/MCIWndGetAlias
 ms.topic: macro
-f1_keywords: ["vfw/MCIWndGetAlias"]
+f1_keywords: 
+ - "vfw/MCIWndGetAlias"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPCore3 interface [Windows Media Player],newPlaylist method, IWMPCore3.newPlaylist, IWMPCore3::newPlaylist, IWMPCore3newPlaylist, newPlaylist, newPlaylist method [Windows Media Player], newPlaylist method [Windows Media Player],IWMPCore3 interface, wmp.iwmpcore3_newplaylist, wmp/IWMPCore3::newPlaylist
 ms.topic: method
-f1_keywords: ["wmp/IWMPCore3.newPlaylist"]
+f1_keywords: 
+ - "wmp/IWMPCore3.newPlaylist"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DiscardAlternateVideoFrames, DiscardAlternateVideoFrames method [DirectShow], DiscardAlternateVideoFrames method [DirectShow],IDVSplitter interface, IDVSplitter interface [DirectShow],DiscardAlternateVideoFrames method, IDVSplitter.DiscardAlternateVideoFrames, IDVSplitter::DiscardAlternateVideoFrames, IDVSplitterDiscardAlternateVideoFrames, dshow.idvsplitter_discardalternatevideoframes, strmif/IDVSplitter::DiscardAlternateVideoFrames
 ms.topic: method
-f1_keywords: ["strmif/IDVSplitter.DiscardAlternateVideoFrames"]
+f1_keywords: 
+ - "strmif/IDVSplitter.DiscardAlternateVideoFrames"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

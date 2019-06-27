@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscMaster interface [IMAPI],SetActiveDiscRecorder method, IDiscMaster.SetActiveDiscRecorder, IDiscMaster::SetActiveDiscRecorder, SetActiveDiscRecorder, SetActiveDiscRecorder method [IMAPI], SetActiveDiscRecorder method [IMAPI],IDiscMaster interface, _win32_idiscmaster_setactivediscrecorder, base.idiscmaster_setactivediscrecorder, imapi.idiscmaster_setactivediscrecorder, imapi/IDiscMaster::SetActiveDiscRecorder
 ms.topic: method
-f1_keywords: ["imapi/IDiscMaster.SetActiveDiscRecorder"]
+f1_keywords: 
+ - "imapi/IDiscMaster.SetActiveDiscRecorder"
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

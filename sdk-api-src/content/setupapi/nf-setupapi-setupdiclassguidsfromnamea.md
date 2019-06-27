@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiClassGuidsFromName, SetupDiClassGuidsFromName function [Device and Driver Installation], SetupDiClassGuidsFromNameA, SetupDiClassGuidsFromNameW, devinst.setupdiclassguidsfromname, di-rtns_6b309545-3832-4802-9668-21a107f3c651.xml, setupapi/SetupDiClassGuidsFromName
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiClassGuidsFromName"]
+f1_keywords: 
+ - "setupapi/SetupDiClassGuidsFromName"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

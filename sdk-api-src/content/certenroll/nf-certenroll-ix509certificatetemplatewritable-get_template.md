@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateTemplateWritable interface [Security],Template property, IX509CertificateTemplateWritable.Template, IX509CertificateTemplateWritable.get_Template, IX509CertificateTemplateWritable::Template, IX509CertificateTemplateWritable::get_Template, Template property [Security], Template property [Security],IX509CertificateTemplateWritable interface, certenroll/IX509CertificateTemplateWritable::Template, certenroll/IX509CertificateTemplateWritable::get_Template, get_Template, security.ix509certificatetemplatewritable_template
 ms.topic: method
-f1_keywords: ["certenroll/IX509CertificateTemplateWritable.Template"]
+f1_keywords: 
+ - "certenroll/IX509CertificateTemplateWritable.Template"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

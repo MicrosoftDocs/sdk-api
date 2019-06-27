@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncSessionState interface [Windows Sync],SetForgottenKnowledgeRecoveryRange method, ISyncSessionState.SetForgottenKnowledgeRecoveryRange, ISyncSessionState::SetForgottenKnowledgeRecoveryRange, SetForgottenKnowledgeRecoveryRange, SetForgottenKnowledgeRecoveryRange method [Windows Sync], SetForgottenKnowledgeRecoveryRange method [Windows Sync],ISyncSessionState interface, winsync.isyncsessionstate_setforgottenknowledgerecoveryrange, winsync/ISyncSessionState::SetForgottenKnowledgeRecoveryRange
 ms.topic: method
-f1_keywords: ["winsync/ISyncSessionState.SetForgottenKnowledgeRecoveryRange"]
+f1_keywords: 
+ - "winsync/ISyncSessionState.SetForgottenKnowledgeRecoveryRange"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

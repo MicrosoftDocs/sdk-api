@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_CHANGER_GET_PARAMETERS, IOCTL_CHANGER_GET_PARAMETERS control, IOCTL_CHANGER_GET_PARAMETERS control code, _win32_ioctl_changer_get_parameters, base.ioctl_changer_get_parameters, winioctl/IOCTL_CHANGER_GET_PARAMETERS
 ms.topic: ioctl
-f1_keywords: ["winioctl/IOCTL_CHANGER_GET_PARAMETERS"]
+f1_keywords: 
+ - "winioctl/IOCTL_CHANGER_GET_PARAMETERS"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

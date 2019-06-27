@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAlpha, GetAlpha method [DirectShow], GetAlpha method [DirectShow],IVMRMixerControl interface, IVMRMixerControl interface [DirectShow],GetAlpha method, IVMRMixerControl.GetAlpha, IVMRMixerControl::GetAlpha, IVMRMixerControlGetAlpha, dshow.ivmrmixercontrol_getalpha, strmif/IVMRMixerControl::GetAlpha
 ms.topic: method
-f1_keywords: ["strmif/IVMRMixerControl.GetAlpha"]
+f1_keywords: 
+ - "strmif/IVMRMixerControl.GetAlpha"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

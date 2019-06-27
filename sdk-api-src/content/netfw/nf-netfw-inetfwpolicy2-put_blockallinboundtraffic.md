@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BlockAllInboundTraffic property [ICS/ICF], BlockAllInboundTraffic property [ICS/ICF],INetFwPolicy2 interface, INetFwPolicy2 interface [ICS/ICF],BlockAllInboundTraffic property, INetFwPolicy2.BlockAllInboundTraffic, INetFwPolicy2.put_BlockAllInboundTraffic, INetFwPolicy2::BlockAllInboundTraffic, INetFwPolicy2::get_BlockAllInboundTraffic, INetFwPolicy2::put_BlockAllInboundTraffic, ics.inetfwpolicy2_exceptionsnotallowed, netfw/INetFwPolicy2::BlockAllInboundTraffic, netfw/INetFwPolicy2::get_BlockAllInboundTraffic, netfw/INetFwPolicy2::put_BlockAllInboundTraffic, put_BlockAllInboundTraffic
 ms.topic: method
-f1_keywords: ["netfw/INetFwPolicy2.BlockAllInboundTraffic"]
+f1_keywords: 
+ - "netfw/INetFwPolicy2.BlockAllInboundTraffic"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

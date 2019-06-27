@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoCreateGuid, CoCreateGuid function [COM], _com_CoCreateGuid, com.cocreateguid, combaseapi/CoCreateGuid
 ms.topic: function
-f1_keywords: ["combaseapi/CoCreateGuid"]
+f1_keywords: 
+ - "combaseapi/CoCreateGuid"
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

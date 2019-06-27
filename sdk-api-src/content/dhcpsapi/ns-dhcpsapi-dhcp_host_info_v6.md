@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_HOST_INFO_V6, DHCP_HOST_INFO_V6, DHCP_HOST_INFO_V6 structure [DHCP], PDHCP_HOST_INFO_V6, PDHCP_HOST_INFO_V6 structure pointer [DHCP], dhcp.dhcp_host_info_v6, dhcpsapi/DHCP_HOST_INFO_V6, dhcpsapi/PDHCP_HOST_INFO_V6"
 ms.topic: struct
-f1_keywords: ["dhcpsapi/DHCP_HOST_INFO_V6"]
+f1_keywords: 
+ - "dhcpsapi/DHCP_HOST_INFO_V6"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

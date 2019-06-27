@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ContextInfo interface [COM+],IsInTransaction method, ContextInfo.IsInTransaction, ContextInfo::IsInTransaction, IsInTransaction, IsInTransaction method [COM+], IsInTransaction method [COM+],ContextInfo interface, _cos_ContextInfo_IsInTransaction, comsvcs/ContextInfo::IsInTransaction, cos.contextinfo_isintransaction
 ms.topic: method
-f1_keywords: ["comsvcs/ContextInfo.IsInTransaction"]
+f1_keywords: 
+ - "comsvcs/ContextInfo.IsInTransaction"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumDisplayDevices, EnumDisplayDevices function [Windows GDI], EnumDisplayDevicesA, EnumDisplayDevicesW, _win32_EnumDisplayDevices, gdi.enumdisplaydevices, winuser/EnumDisplayDevices, winuser/EnumDisplayDevicesA, winuser/EnumDisplayDevicesW
 ms.topic: function
-f1_keywords: ["winuser/EnumDisplayDevices"]
+f1_keywords: 
+ - "winuser/EnumDisplayDevices"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

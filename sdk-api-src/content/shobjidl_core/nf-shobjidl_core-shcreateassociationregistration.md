@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCreateAssociationRegistration, SHCreateAssociationRegistration function [Windows Shell], _shell_SHCreateAssociationRegistration, shell.SHCreateAssociationRegistration, shobjidl_core/SHCreateAssociationRegistration
 ms.topic: function
-f1_keywords: ["shobjidl_core/SHCreateAssociationRegistration"]
+f1_keywords: 
+ - "shobjidl_core/SHCreateAssociationRegistration"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

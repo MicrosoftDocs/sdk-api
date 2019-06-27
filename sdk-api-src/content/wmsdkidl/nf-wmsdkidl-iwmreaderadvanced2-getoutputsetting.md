@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOutputSetting, GetOutputSetting method [windows Media Format], GetOutputSetting method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetOutputSetting method, IWMReaderAdvanced2.GetOutputSetting, IWMReaderAdvanced2::GetOutputSetting, IWMReaderAdvanced2GetOutputSetting, wmformat.iwmreaderadvanced2_getoutputsetting, wmsdkidl/IWMReaderAdvanced2::GetOutputSetting
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderAdvanced2.GetOutputSetting"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderAdvanced2.GetOutputSetting"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

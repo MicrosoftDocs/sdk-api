@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisplayNo, DisplayYes, EnrollmentDisplayStatus, EnrollmentDisplayStatus enumeration [Security], certenroll/DisplayNo, certenroll/DisplayYes, certenroll/EnrollmentDisplayStatus, security.enrollmentdisplaystatus_enum
 ms.topic: enum
-f1_keywords: ["certenroll/EnrollmentDisplayStatus"]
+f1_keywords: 
+ - "certenroll/EnrollmentDisplayStatus"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

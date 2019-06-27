@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsPushBytes, WsPushBytes function [Web Services for Windows], webservices/WsPushBytes, wsw.wspushbytes
 ms.topic: function
-f1_keywords: ["webservices/WsPushBytes"]
+f1_keywords: 
+ - "webservices/WsPushBytes"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

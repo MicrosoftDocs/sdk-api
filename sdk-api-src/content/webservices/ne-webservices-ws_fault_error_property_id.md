@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_FAULT_ERROR_PROPERTY_ACTION, WS_FAULT_ERROR_PROPERTY_FAULT, WS_FAULT_ERROR_PROPERTY_HEADER, WS_FAULT_ERROR_PROPERTY_ID, WS_FAULT_ERROR_PROPERTY_ID enumeration [Web Services for Windows], webservices/WS_FAULT_ERROR_PROPERTY_ACTION, webservices/WS_FAULT_ERROR_PROPERTY_FAULT, webservices/WS_FAULT_ERROR_PROPERTY_HEADER, webservices/WS_FAULT_ERROR_PROPERTY_ID, wsw.ws_fault_error_property_id
 ms.topic: enum
-f1_keywords: ["webservices/WS_FAULT_ERROR_PROPERTY_ID"]
+f1_keywords: 
+ - "webservices/WS_FAULT_ERROR_PROPERTY_ID"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

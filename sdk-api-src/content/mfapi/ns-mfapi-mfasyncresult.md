@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFASYNCRESULT, MFASYNCRESULT structure [Media Foundation], fffa32d6-5e9f-42a1-9978-04f5726528bc, mf.mfasyncresult, mfapi/MFASYNCRESULT
 ms.topic: struct
-f1_keywords: ["mfapi/MFASYNCRESULT"]
+f1_keywords: 
+ - "mfapi/MFASYNCRESULT"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

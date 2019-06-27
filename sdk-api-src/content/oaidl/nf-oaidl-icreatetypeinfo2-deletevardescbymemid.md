@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteVarDescByMemId, DeleteVarDescByMemId method [Automation], DeleteVarDescByMemId method [Automation],ICreateTypeInfo2 interface, ICreateTypeInfo2 interface [Automation],DeleteVarDescByMemId method, ICreateTypeInfo2.DeleteVarDescByMemId, ICreateTypeInfo2::DeleteVarDescByMemId, _oa96_ICreateTypeInfo2_DeleteVarDescByMemId, automat.icreatetypeinfo2_deletevardescbymemid, oaidl/ICreateTypeInfo2::DeleteVarDescByMemId
 ms.topic: method
-f1_keywords: ["oaidl/ICreateTypeInfo2.DeleteVarDescByMemId"]
+f1_keywords: 
+ - "oaidl/ICreateTypeInfo2.DeleteVarDescByMemId"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

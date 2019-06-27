@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_ResultingImageType method, IRawCDImageCreator.get_ResultingImageType, IRawCDImageCreator::get_ResultingImageType, get_ResultingImageType, get_ResultingImageType method [IMAPI], get_ResultingImageType method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_resultingimagetype, imapi2/IRawCDImageCreator::get_ResultingImageType
 ms.topic: method
-f1_keywords: ["imapi2/IRawCDImageCreator.get_ResultingImageType"]
+f1_keywords: 
+ - "imapi2/IRawCDImageCreator.get_ResultingImageType"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMediaItem, GetMediaItem method [Media Foundation], GetMediaItem method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetMediaItem method, IMFPMediaPlayer.GetMediaItem, IMFPMediaPlayer::GetMediaItem, mf.imfpmediaplayer_getmediaitem, mfplay/IMFPMediaPlayer::GetMediaItem
 ms.topic: method
-f1_keywords: ["mfplay/IMFPMediaPlayer.GetMediaItem"]
+f1_keywords: 
+ - "mfplay/IMFPMediaPlayer.GetMediaItem"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

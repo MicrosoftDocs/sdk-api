@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskService interface [Task Scheduler],NewTask method, ITaskService.NewTask, ITaskService::NewTask, NewTask, NewTask method [Task Scheduler], NewTask method [Task Scheduler],ITaskService interface, taskschd.itaskservice_newtask, taskschd/ITaskService::NewTask
 ms.topic: method
-f1_keywords: ["taskschd/ITaskService.NewTask"]
+f1_keywords: 
+ - "taskschd/ITaskService.NewTask"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

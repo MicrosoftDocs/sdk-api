@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMGetProcAddress, DRMGetProcAddress function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetProcAddress, rm.drmgetprocaddress
 ms.topic: function
-f1_keywords: ["msdrm/DRMGetProcAddress"]
+f1_keywords: 
+ - "msdrm/DRMGetProcAddress"
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

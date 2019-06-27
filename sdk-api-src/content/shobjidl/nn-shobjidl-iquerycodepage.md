@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IQueryCodePage, IQueryCodePage interface [Windows Shell], IQueryCodePage interface [Windows Shell],described, _shell_IQueryCodePage, shell.IQueryCodePage, shobjidl/IQueryCodePage
 ms.topic: interface
-f1_keywords: ["shobjidl/IQueryCodePage"]
+f1_keywords: 
+ - "shobjidl/IQueryCodePage"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

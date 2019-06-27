@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateDXGISurfaceBuffer, MFCreateDXGISurfaceBuffer function [Media Foundation], mf.mfcreatedxgisurfacebuffer, mfapi/MFCreateDXGISurfaceBuffer
 ms.topic: function
-f1_keywords: ["mfapi/MFCreateDXGISurfaceBuffer"]
+f1_keywords: 
+ - "mfapi/MFCreateDXGISurfaceBuffer"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

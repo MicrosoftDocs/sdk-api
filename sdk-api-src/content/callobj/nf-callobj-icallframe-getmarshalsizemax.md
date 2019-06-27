@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMarshalSizeMax, GetMarshalSizeMax method [COM], GetMarshalSizeMax method [COM],ICallFrame interface, ICallFrame interface [COM],GetMarshalSizeMax method, ICallFrame.GetMarshalSizeMax, ICallFrame::GetMarshalSizeMax, _com_icallframe_getmarshalsizemax, callobj/ICallFrame::GetMarshalSizeMax, com.icallframe_getmarshalsizemax
 ms.topic: method
-f1_keywords: ["callobj/ICallFrame.GetMarshalSizeMax"]
+f1_keywords: 
+ - "callobj/ICallFrame.GetMarshalSizeMax"
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

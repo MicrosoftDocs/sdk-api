@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StopWatchMode, StopWatchMode function [Windows Shell], _win32_StopWatchMode, shell.StopWatchMode, shlwapi/StopWatchMode
 ms.topic: function
-f1_keywords: ["shlwapi/StopWatchMode"]
+f1_keywords: 
+ - "shlwapi/StopWatchMode"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

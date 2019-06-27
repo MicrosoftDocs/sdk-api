@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetReverseConversion, GetReverseConversion method [Text Services Framework], GetReverseConversion method [Text Services Framework],ITfReverseConversionMgr interface, ITfReverseConversionMgr interface [Text Services Framework],GetReverseConversion method, ITfReverseConversionMgr.GetReverseConversion, ITfReverseConversionMgr::GetReverseConversion, TF_RCM_COMLESS, TF_RCM_HINT_COLLISION, TF_RCM_HINT_READING_LENGTH, TF_RCM_VKEY, msctf/ITfReverseConversionMgr::GetReverseConversion, tsf.itfreverseconversionmgr_getreverseconversion
 ms.topic: method
-f1_keywords: ["msctf/ITfReverseConversionMgr.GetReverseConversion"]
+f1_keywords: 
+ - "msctf/ITfReverseConversionMgr.GetReverseConversion"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

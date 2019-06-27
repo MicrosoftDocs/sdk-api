@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],Refresh method, IMSVidCtl.Refresh, IMSVidCtl::Refresh, IMSVidCtlRefresh, Refresh, Refresh method [Microsoft TV Technologies], Refresh method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_refresh, msvidctl/IMSVidCtl::Refresh
 ms.topic: method
-f1_keywords: ["msvidctl/IMSVidCtl.Refresh"]
+f1_keywords: 
+ - "msvidctl/IMSVidCtl.Refresh"
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows

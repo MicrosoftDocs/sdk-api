@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],IsProtected method, IMFMediaEngineEx.IsProtected, IMFMediaEngineEx::IsProtected, IsProtected, IsProtected method [Media Foundation], IsProtected method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_isprotected, mfmediaengine/IMFMediaEngineEx::IsProtected
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngineEx.IsProtected"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngineEx.IsProtected"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

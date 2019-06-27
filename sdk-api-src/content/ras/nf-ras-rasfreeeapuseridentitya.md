@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasFreeEapUserIdentity, RasFreeEapUserIdentity function [RAS], RasFreeEapUserIdentityA, RasFreeEapUserIdentityW, _ras_rasfreeeapuseridentity, ras/RasFreeEapUserIdentity, ras/RasFreeEapUserIdentityA, ras/RasFreeEapUserIdentityW, rras.rasfreeeapuseridentity
 ms.topic: function
-f1_keywords: ["ras/RasFreeEapUserIdentity"]
+f1_keywords: 
+ - "ras/RasFreeEapUserIdentity"
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

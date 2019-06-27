@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [ADSI], Add method [ADSI],IADsGroup interface, IADsGroup interface [ADSI],Add method, IADsGroup.Add, IADsGroup::Add, _ds_iadsgroup_add, adsi.iadsgroup__add, adsi.iadsgroup_add, iads/IADsGroup::Add
 ms.topic: method
-f1_keywords: ["iads/IADsGroup.Add"]
+f1_keywords: 
+ - "iads/IADsGroup.Add"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

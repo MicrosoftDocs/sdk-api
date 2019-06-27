@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMCodecOutputTimestamp, IWMCodecOutputTimestamp interface [Media Foundation], IWMCodecOutputTimestamp interface [Media Foundation],described, codecapi.iwmcodecoutputtimestampinterface, mf.iwmcodecoutputtimestampinterface, wmcodecdsp/IWMCodecOutputTimestamp
 ms.topic: interface
-f1_keywords: ["wmcodecdsp/IWMCodecOutputTimestamp"]
+f1_keywords: 
+ - "wmcodecdsp/IWMCodecOutputTimestamp"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

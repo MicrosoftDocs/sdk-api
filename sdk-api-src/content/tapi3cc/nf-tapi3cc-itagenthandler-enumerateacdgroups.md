@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumerateACDGroups, EnumerateACDGroups method [TAPI 2.2], EnumerateACDGroups method [TAPI 2.2],ITAgentHandler interface, ITAgentHandler interface [TAPI 2.2],EnumerateACDGroups method, ITAgentHandler.EnumerateACDGroups, ITAgentHandler::EnumerateACDGroups, _tapi3_itagenthandler_enumerateacdgroups, tapi3.itagenthandler_enumerateacdgroups, tapi3cc/ITAgentHandler::EnumerateACDGroups
 ms.topic: method
-f1_keywords: ["tapi3cc/ITAgentHandler.EnumerateACDGroups"]
+f1_keywords: 
+ - "tapi3cc/ITAgentHandler.EnumerateACDGroups"
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

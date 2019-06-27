@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsLunPlex interface [VDS],QueryExtents method, IVdsLunPlex.QueryExtents, IVdsLunPlex::QueryExtents, QueryExtents, QueryExtents method [VDS], QueryExtents method [VDS],IVdsLunPlex interface, base.ivdslunplex_queryextents, vds/IVdsLunPlex::QueryExtents, vdshwprv/IVdsLunPlex::QueryExtents
 ms.topic: method
-f1_keywords: ["vds/IVdsLunPlex.QueryExtents"]
+f1_keywords: 
+ - "vds/IVdsLunPlex.QueryExtents"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

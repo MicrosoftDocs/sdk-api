@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1OffsetTransform, ID2D1OffsetTransform interface [Direct2D], ID2D1OffsetTransform interface [Direct2D],described, d2d1effectauthor/ID2D1OffsetTransform, direct2d.id2d1offsettransform
 ms.topic: interface
-f1_keywords: ["d2d1effectauthor/ID2D1OffsetTransform"]
+f1_keywords: 
+ - "d2d1effectauthor/ID2D1OffsetTransform"
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

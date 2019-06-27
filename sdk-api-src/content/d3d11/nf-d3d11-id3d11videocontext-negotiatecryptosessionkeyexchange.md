@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],NegotiateCryptoSessionKeyExchange method, ID3D11VideoContext.NegotiateCryptoSessionKeyExchange, ID3D11VideoContext::NegotiateCryptoSessionKeyExchange, NegotiateCryptoSessionKeyExchange, NegotiateCryptoSessionKeyExchange method [Media Foundation], NegotiateCryptoSessionKeyExchange method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::NegotiateCryptoSessionKeyExchange, mf.id3d11videocontext_negotiatecryptosessionkeyexchange
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11VideoContext.NegotiateCryptoSessionKeyExchange"]
+f1_keywords: 
+ - "d3d11/ID3D11VideoContext.NegotiateCryptoSessionKeyExchange"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

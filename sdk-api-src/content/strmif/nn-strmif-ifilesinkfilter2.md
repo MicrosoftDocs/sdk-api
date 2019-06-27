@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSinkFilter2, IFileSinkFilter2 interface [DirectShow], IFileSinkFilter2 interface [DirectShow],described, IFileSinkFilter2Interface, dshow.ifilesinkfilter2, strmif/IFileSinkFilter2
 ms.topic: interface
-f1_keywords: ["strmif/IFileSinkFilter2"]
+f1_keywords: 
+ - "strmif/IFileSinkFilter2"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

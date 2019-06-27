@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngFreeModule, EngFreeModule function [Display Devices], display.engfreemodule, gdifncs_23d84e6d-60e7-43a4-af20-3234c8581190.xml, winddi/EngFreeModule
 ms.topic: function
-f1_keywords: ["winddi/EngFreeModule"]
+f1_keywords: 
+ - "winddi/EngFreeModule"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

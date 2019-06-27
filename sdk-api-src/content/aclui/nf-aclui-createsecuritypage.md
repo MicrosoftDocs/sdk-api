@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSecurityPage, CreateSecurityPage function [Security], _win32_createsecuritypage, aclui/CreateSecurityPage, security.createsecuritypage
 ms.topic: function
-f1_keywords: ["aclui/CreateSecurityPage"]
+f1_keywords: 
+ - "aclui/CreateSecurityPage"
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

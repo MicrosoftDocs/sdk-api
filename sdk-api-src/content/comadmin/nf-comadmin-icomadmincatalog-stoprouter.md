@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],StopRouter method, ICOMAdminCatalog.StopRouter, ICOMAdminCatalog::StopRouter, StopRouter, StopRouter method [COM+], StopRouter method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_StopRouter, comadmin/ICOMAdminCatalog::StopRouter, cos.icomadmincatalog_stoprouter
 ms.topic: method
-f1_keywords: ["comadmin/ICOMAdminCatalog.StopRouter"]
+f1_keywords: 
+ - "comadmin/ICOMAdminCatalog.StopRouter"
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Actions property [Remote Desktop Services], Actions property [Remote Desktop Services],IRemoteDesktopClient interface, IRemoteDesktopClient interface [Remote Desktop Services],Actions property, IRemoteDesktopClient.Actions, IRemoteDesktopClient.get_Actions, IRemoteDesktopClient::Actions, IRemoteDesktopClient::get_Actions, get_Actions, rdpappcontainerclient/IRemoteDesktopClient::Actions, rdpappcontainerclient/IRemoteDesktopClient::get_Actions, termserv.iremotedesktopclient_actions
 ms.topic: method
-f1_keywords: ["rdpappcontainerclient/IRemoteDesktopClient.Actions"]
+f1_keywords: 
+ - "rdpappcontainerclient/IRemoteDesktopClient.Actions"
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

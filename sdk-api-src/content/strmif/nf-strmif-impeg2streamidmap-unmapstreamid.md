@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMPEG2StreamIdMap interface [DirectShow],UnmapStreamId method, IMPEG2StreamIdMap.UnmapStreamId, IMPEG2StreamIdMap::UnmapStreamId, IMPEG2StreamIdMapUnmapStreamId, UnmapStreamId, UnmapStreamId method [DirectShow], UnmapStreamId method [DirectShow],IMPEG2StreamIdMap interface, dshow.impeg2streamidmap_unmapstreamid, strmif/IMPEG2StreamIdMap::UnmapStreamId
 ms.topic: method
-f1_keywords: ["strmif/IMPEG2StreamIdMap.UnmapStreamId"]
+f1_keywords: 
+ - "strmif/IMPEG2StreamIdMap.UnmapStreamId"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

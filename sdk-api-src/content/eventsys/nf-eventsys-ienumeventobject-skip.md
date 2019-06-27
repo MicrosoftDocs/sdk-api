@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumEventObject interface [COM+],Skip method, IEnumEventObject.Skip, IEnumEventObject::Skip, Skip, Skip method [COM+], Skip method [COM+],IEnumEventObject interface, _cos_ienumeventobject_skip, cos.ienumeventobject_skip, eventsys/IEnumEventObject::Skip
 ms.topic: method
-f1_keywords: ["eventsys/IEnumEventObject.Skip"]
+f1_keywords: 
+ - "eventsys/IEnumEventObject.Skip"
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPersistStream interface [COM],IsDirty method, IPersistStream.IsDirty, IPersistStream::IsDirty, IsDirty, IsDirty method [COM], IsDirty method [COM],IPersistStream interface, _com_ipersiststream_isdirty, com.ipersiststream_isdirty, objidl/IPersistStream::IsDirty
 ms.topic: method
-f1_keywords: ["objidl/IPersistStream.IsDirty"]
+f1_keywords: 
+ - "objidl/IPersistStream.IsDirty"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

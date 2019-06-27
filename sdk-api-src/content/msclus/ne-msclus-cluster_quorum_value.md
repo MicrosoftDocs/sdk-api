@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_QUORUM_LOST, CLUSTER_QUORUM_MAINTAINED, CLUSTER_QUORUM_VALUE, CLUSTER_QUORUM_VALUE enumeration [Failover Cluster], msclus/CLUSTER_QUORUM_LOST, msclus/CLUSTER_QUORUM_MAINTAINED, msclus/CLUSTER_QUORUM_VALUE, mscs.cluster_quorum_value
 ms.topic: enum
-f1_keywords: ["msclus/CLUSTER_QUORUM_VALUE"]
+f1_keywords: 
+ - "msclus/CLUSTER_QUORUM_VALUE"
 req.header: msclus.h
 req.include-header: ClusAPI.h
 req.target-type: Windows

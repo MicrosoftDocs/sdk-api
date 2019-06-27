@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCREATE_PROCESS_DEBUG_INFO, CREATE_PROCESS_DEBUG_INFO, CREATE_PROCESS_DEBUG_INFO structure, LPCREATE_PROCESS_DEBUG_INFO, LPCREATE_PROCESS_DEBUG_INFO structure pointer, _CREATE_PROCESS_DEBUG_INFO, _win32_create_process_debug_info_str, base.create_process_debug_info_str, minwinbase/CREATE_PROCESS_DEBUG_INFO, minwinbase/LPCREATE_PROCESS_DEBUG_INFO"
 ms.topic: struct
-f1_keywords: ["minwinbase/CREATE_PROCESS_DEBUG_INFO"]
+f1_keywords: 
+ - "minwinbase/CREATE_PROCESS_DEBUG_INFO"
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows

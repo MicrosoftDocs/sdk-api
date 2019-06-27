@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMCreateClientSession, DRMCreateClientSession function [Active Directory Rights Management Services SDK 1.0], DRM_DEFAULTGROUPIDTYPE_PASSPORT, DRM_DEFAULTGROUPIDTYPE_WINDOWSAUTH, msdrm/DRMCreateClientSession, rm.drmcreateclientsession
 ms.topic: function
-f1_keywords: ["msdrm/DRMCreateClientSession"]
+f1_keywords: 
+ - "msdrm/DRMCreateClientSession"
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

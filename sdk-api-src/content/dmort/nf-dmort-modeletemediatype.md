@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MoDeleteMediaType, MoDeleteMediaType function [DirectShow], dmort/MoDeleteMediaType, dshow.modeletemediatype
 ms.topic: function
-f1_keywords: ["dmort/MoDeleteMediaType"]
+f1_keywords: 
+ - "dmort/MoDeleteMediaType"
 req.header: dmort.h
 req.include-header: Dmo.h
 req.target-type: Windows

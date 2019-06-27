@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSyncMergeHandler, IFileSyncMergeHandler interface [Windows Shell], IFileSyncMergeHandler interface [Windows Shell],described, shell.IFileSyncMergeHandler, shobjidl_core/IFileSyncMergeHandler
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IFileSyncMergeHandler"]
+f1_keywords: 
+ - "shobjidl_core/IFileSyncMergeHandler"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

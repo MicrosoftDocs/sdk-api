@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetContext, GetContext method [Text Services Framework], GetContext method [Text Services Framework],ITfReadOnlyProperty interface, ITfReadOnlyProperty interface [Text Services Framework],GetContext method, ITfReadOnlyProperty.GetContext, ITfReadOnlyProperty::GetContext, _tsf_itfreadonlyproperty_getcontext_ref, msctf/ITfReadOnlyProperty::GetContext, tsf.itfreadonlyproperty_getcontext
 ms.topic: method
-f1_keywords: ["msctf/ITfReadOnlyProperty.GetContext"]
+f1_keywords: 
+ - "msctf/ITfReadOnlyProperty.GetContext"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

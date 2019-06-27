@@ -8,7 +8,8 @@ tech.root: Bits
 ms.author: windowssdkdev
 ms.date: 05/09/2019
 ms.topic: method
-f1_keywords: ["bits10_3/IBackgroundCopyJobHttpOptions3::MakeCustomHeadersWriteOnly"]
+f1_keywords: 
+ - "bits10_3/IBackgroundCopyJobHttpOptions3::MakeCustomHeadersWriteOnly"
 targetos: Windows
 product: Windows
 req.assembly: 

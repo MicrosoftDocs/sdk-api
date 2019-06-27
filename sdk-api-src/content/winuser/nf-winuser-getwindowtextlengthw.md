@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWindowTextLength, GetWindowTextLength function [Windows and Messages], GetWindowTextLengthA, GetWindowTextLengthW, _win32_GetWindowTextLength, _win32_getwindowtextlength_cpp, winmsg.getwindowtextlength, winui._win32_getwindowtextlength, winuser/GetWindowTextLength, winuser/GetWindowTextLengthA, winuser/GetWindowTextLengthW
 ms.topic: function
-f1_keywords: ["winuser/GetWindowTextLength"]
+f1_keywords: 
+ - "winuser/GetWindowTextLength"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

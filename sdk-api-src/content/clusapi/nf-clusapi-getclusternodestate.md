@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClusterNodeState, GetClusterNodeState function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NODE_STATE, PCLUSAPI_GET_CLUSTER_NODE_STATE function [Failover Cluster], _wolf_getclusternodestate, clusapi/GetClusterNodeState, clusapi/PCLUSAPI_GET_CLUSTER_NODE_STATE, mscs.getclusternodestate
 ms.topic: function
-f1_keywords: ["clusapi/GetClusterNodeState"]
+f1_keywords: 
+ - "clusapi/GetClusterNodeState"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

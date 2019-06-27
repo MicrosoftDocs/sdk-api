@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TextPattern_GetSelection, TextPattern_GetSelection function [Windows Accessibility], uiauto.uiauto_TextPattern_GetSelectionConPat, uiauto_TextPattern_GetSelectionConPat, uiautomationcoreapi/TextPattern_GetSelection, winauto.uiauto_TextPattern_GetSelectionConPat
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/TextPattern_GetSelection"]
+f1_keywords: 
+ - "uiautomationcoreapi/TextPattern_GetSelection"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509SignatureInformation interface [Security],Parameters property, IX509SignatureInformation.Parameters, IX509SignatureInformation.put_Parameters, IX509SignatureInformation::Parameters, IX509SignatureInformation::get_Parameters, IX509SignatureInformation::put_Parameters, Parameters property [Security], Parameters property [Security],IX509SignatureInformation interface, certenroll/IX509SignatureInformation::Parameters, certenroll/IX509SignatureInformation::get_Parameters, certenroll/IX509SignatureInformation::put_Parameters, put_Parameters, security.ix509signatureinformation_parameters_property
 ms.topic: method
-f1_keywords: ["certenroll/IX509SignatureInformation.Parameters"]
+f1_keywords: 
+ - "certenroll/IX509SignatureInformation.Parameters"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

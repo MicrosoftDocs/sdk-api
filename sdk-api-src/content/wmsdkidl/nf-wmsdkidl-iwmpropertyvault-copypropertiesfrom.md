@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyPropertiesFrom, CopyPropertiesFrom method [windows Media Format], CopyPropertiesFrom method [windows Media Format],IWMPropertyVault interface, IWMPropertyVault interface [windows Media Format],CopyPropertiesFrom method, IWMPropertyVault.CopyPropertiesFrom, IWMPropertyVault::CopyPropertiesFrom, IWMPropertyVaultCopyPropertiesFrom, wmformat.iwmpropertyvault_copypropertiesfrom, wmsdkidl/IWMPropertyVault::CopyPropertiesFrom
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMPropertyVault.CopyPropertiesFrom"]
+f1_keywords: 
+ - "wmsdkidl/IWMPropertyVault.CopyPropertiesFrom"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

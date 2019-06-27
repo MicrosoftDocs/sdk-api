@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColor, GetColor method [Windows Shell], GetColor method [Windows Shell],IVisualProperties interface, IVisualProperties interface [Windows Shell],GetColor method, IVisualProperties.GetColor, IVisualProperties::GetColor, _shell_IVisualProperties_GetColor, shell.IVisualProperties_GetColor, shobjidl/IVisualProperties::GetColor
 ms.topic: method
-f1_keywords: ["shobjidl/IVisualProperties.GetColor"]
+f1_keywords: 
+ - "shobjidl/IVisualProperties.GetColor"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

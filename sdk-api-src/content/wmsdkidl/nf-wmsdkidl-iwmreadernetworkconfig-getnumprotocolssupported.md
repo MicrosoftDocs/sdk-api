@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumProtocolsSupported, GetNumProtocolsSupported method [windows Media Format], GetNumProtocolsSupported method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetNumProtocolsSupported method, IWMReaderNetworkConfig.GetNumProtocolsSupported, IWMReaderNetworkConfig::GetNumProtocolsSupported, IWMReaderNetworkConfigGetNumProtocolsSupported, wmformat.iwmreadernetworkconfig_getnumprotocolssupported, wmsdkidl/IWMReaderNetworkConfig::GetNumProtocolsSupported
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderNetworkConfig.GetNumProtocolsSupported"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderNetworkConfig.GetNumProtocolsSupported"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

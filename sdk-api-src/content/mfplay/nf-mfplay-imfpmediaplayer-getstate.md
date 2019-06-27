@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [Media Foundation], GetState method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetState method, IMFPMediaPlayer.GetState, IMFPMediaPlayer::GetState, mf.imfpmediaplayer_getstate, mfplay/IMFPMediaPlayer::GetState
 ms.topic: method
-f1_keywords: ["mfplay/IMFPMediaPlayer.GetState"]
+f1_keywords: 
+ - "mfplay/IMFPMediaPlayer.GetState"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

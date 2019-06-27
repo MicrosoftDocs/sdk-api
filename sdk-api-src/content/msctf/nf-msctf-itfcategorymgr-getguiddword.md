@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGUIDDWORD, GetGUIDDWORD method [Text Services Framework], GetGUIDDWORD method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],GetGUIDDWORD method, ITfCategoryMgr.GetGUIDDWORD, ITfCategoryMgr::GetGUIDDWORD, _tsf_itfcategorymgr_getguiddword_ref, msctf/ITfCategoryMgr::GetGUIDDWORD, tsf.itfcategorymgr_getguiddword
 ms.topic: method
-f1_keywords: ["msctf/ITfCategoryMgr.GetGUIDDWORD"]
+f1_keywords: 
+ - "msctf/ITfCategoryMgr.GetGUIDDWORD"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

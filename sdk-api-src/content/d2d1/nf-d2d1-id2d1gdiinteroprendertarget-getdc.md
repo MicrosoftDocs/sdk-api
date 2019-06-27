@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDC, GetDC method [Direct2D], GetDC method [Direct2D],ID2D1GdiInteropRenderTarget interface, ID2D1GdiInteropRenderTarget interface [Direct2D],GetDC method, ID2D1GdiInteropRenderTarget.GetDC, ID2D1GdiInteropRenderTarget::GetDC, d2d1/ID2D1GdiInteropRenderTarget::GetDC, direct2d.ID2D1GdiInteropRenderTarget_GetDC
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1GdiInteropRenderTarget.GetDC"]
+f1_keywords: 
+ - "d2d1/ID2D1GdiInteropRenderTarget.GetDC"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

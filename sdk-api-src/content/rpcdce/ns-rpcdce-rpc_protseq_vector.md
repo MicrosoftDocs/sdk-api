@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RPC_PROTSEQ_VECTOR, RPC_PROTSEQ_VECTOR structure [RPC], _rpc_rpc_protseq_vector, rpc.rpc_protseq_vector, rpcdce/RPC_PROTSEQ_VECTOR
 ms.topic: struct
-f1_keywords: ["rpcdce/RPC_PROTSEQ_VECTOR"]
+f1_keywords: 
+ - "rpcdce/RPC_PROTSEQ_VECTOR"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

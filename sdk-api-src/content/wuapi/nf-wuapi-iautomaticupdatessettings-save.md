@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],Save method, IAutomaticUpdatesSettings.Save, IAutomaticUpdatesSettings::Save, Save, Save method [Windows Update Agent], Save method [Windows Update Agent],IAutomaticUpdatesSettings interface, wua.iautomaticupdatessettings_save, wuapi/IAutomaticUpdatesSettings::Save
 ms.topic: method
-f1_keywords: ["wuapi/IAutomaticUpdatesSettings.Save"]
+f1_keywords: 
+ - "wuapi/IAutomaticUpdatesSettings.Save"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CIPROPERTYDEF, CIPROPERTYDEF structure [Indexing Service], _idxs_CIPROPERTYDEF, indexsrv.cipropertydef, ntquery/CIPROPERTYDEF
 ms.topic: struct
-f1_keywords: ["ntquery/CIPROPERTYDEF"]
+f1_keywords: 
+ - "ntquery/CIPROPERTYDEF"
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSTATPROPSTG interface [Structured Storage],Next method, IEnumSTATPROPSTG.Next, IEnumSTATPROPSTG::Next, Next, Next method [Structured Storage], Next method [Structured Storage],IEnumSTATPROPSTG interface, propidlbase/IEnumSTATPROPSTG::Next, stg.ienumstatpropstg_next
 ms.topic: method
-f1_keywords: ["propidl/IEnumSTATPROPSTG.Next"]
+f1_keywords: 
+ - "propidl/IEnumSTATPROPSTG.Next"
 req.header: propidl.h
 req.include-header: Propidl.h
 req.target-type: Windows

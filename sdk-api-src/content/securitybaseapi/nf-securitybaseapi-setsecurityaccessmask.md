@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetSecurityAccessMask, SetSecurityAccessMask function [Security], security.setsecurityaccessmask, securitybaseapi/SetSecurityAccessMask, winbase/SetSecurityAccessMask
 ms.topic: function
-f1_keywords: ["securitybaseapi/SetSecurityAccessMask"]
+f1_keywords: 
+ - "securitybaseapi/SetSecurityAccessMask"
 req.header: securitybaseapi.h
 req.include-header: WinBase.h
 req.target-type: Windows

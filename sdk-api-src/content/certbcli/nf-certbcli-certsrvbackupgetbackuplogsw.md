@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CSBFT_LOG, CSBFT_PATCH_FILE, CertSrvBackupGetBackupLogs, CertSrvBackupGetBackupLogs function [Security], CertSrvBackupGetBackupLogsW, _certsrv_certsrvbackupgetbackuplogs, certbcli/CertSrvBackupGetBackupLogs, certbcli/CertSrvBackupGetBackupLogsW, security.certsrvbackupgetbackuplogs
 ms.topic: function
-f1_keywords: ["certbcli/CertSrvBackupGetBackupLogs"]
+f1_keywords: 
+ - "certbcli/CertSrvBackupGetBackupLogs"
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

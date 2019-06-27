@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWiaLog, IWiaLog interface [WIA], IWiaLog interface [WIA],described, _wia_IWiaLog, wia._wia_IWiaLog, wia_xp/IWiaLog
 ms.topic: interface
-f1_keywords: ["wia_xp/IWiaLog"]
+f1_keywords: 
+ - "wia_xp/IWiaLog"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

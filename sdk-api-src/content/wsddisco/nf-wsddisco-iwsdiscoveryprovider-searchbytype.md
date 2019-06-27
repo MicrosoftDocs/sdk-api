@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryProvider interface,SearchByType method, IWSDiscoveryProvider.SearchByType, IWSDiscoveryProvider::SearchByType, SearchByType, SearchByType method, SearchByType method,IWSDiscoveryProvider interface, ncd.iwsdiscoveryprovider_searchbytype_method, wsddisco/IWSDiscoveryProvider::SearchByType
 ms.topic: method
-f1_keywords: ["wsddisco/IWSDiscoveryProvider.SearchByType"]
+f1_keywords: 
+ - "wsddisco/IWSDiscoveryProvider.SearchByType"
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

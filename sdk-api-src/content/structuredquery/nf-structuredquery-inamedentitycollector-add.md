@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [search], Add method [search],INamedEntityCollector interface, INamedEntityCollector interface [search],Add method, INamedEntityCollector.Add, INamedEntityCollector::Add, _search_INamedEntityCollector_Add, search._search_INamedEntityCollector_Add, structuredquery/INamedEntityCollector::Add
 ms.topic: method
-f1_keywords: ["structuredquery/INamedEntityCollector.Add"]
+f1_keywords: 
+ - "structuredquery/INamedEntityCollector.Add"
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

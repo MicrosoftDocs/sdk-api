@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMWriterFileSink2 interface [windows Media Format],Start method, IWMWriterFileSink2.Start, IWMWriterFileSink2::Start, IWMWriterFileSink2Start, Start, Start method [windows Media Format], Start method [windows Media Format],IWMWriterFileSink2 interface, wmformat.iwmwriterfilesink2_start, wmsdkidl/IWMWriterFileSink2::Start
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriterFileSink2.Start"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriterFileSink2.Start"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

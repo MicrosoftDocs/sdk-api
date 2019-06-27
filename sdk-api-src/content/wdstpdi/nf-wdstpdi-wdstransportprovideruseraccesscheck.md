@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderUserAccessCheck, WdsTransportProviderUserAccessCheck callback, WdsTransportProviderUserAccessCheck callback function [Windows Deployment Services], wds.wdstransportprovideruseraccesscheck, wdstpdi/WdsTransportProviderUserAccessCheck
 ms.topic: function
-f1_keywords: ["wdstpdi/WdsTransportProviderUserAccessCheck"]
+f1_keywords: 
+ - "wdstpdi/WdsTransportProviderUserAccessCheck"
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

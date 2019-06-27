@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [WIA], Clone method [WIA],IEnumWIA_FORMAT_INFO interface, IEnumWIA_FORMAT_INFO interface [WIA],Clone method, IEnumWIA_FORMAT_INFO.Clone, IEnumWIA_FORMAT_INFO::Clone, _wia_IEnumWIA_FORMAT_INFO_Clone, wia._wia_IEnumWIA_FORMAT_INFO_Clone, wia_xp/IEnumWIA_FORMAT_INFO::Clone
 ms.topic: method
-f1_keywords: ["wia_xp/IEnumWIA_FORMAT_INFO.Clone"]
+f1_keywords: 
+ - "wia_xp/IEnumWIA_FORMAT_INFO.Clone"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

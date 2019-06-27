@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMsmDependency interface,get_Language method, IMsmDependency.get_Language, IMsmDependency::get_Language, _msi_get_language_function_dependency_object_, get_Language, get_Language method, get_Language method,IMsmDependency interface, mergemod/IMsmDependency::get_Language, setup.imsmdependency_get_language
 ms.topic: method
-f1_keywords: ["mergemod/IMsmDependency.get_Language"]
+f1_keywords: 
+ - "mergemod/IMsmDependency.get_Language"
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDsObjectPickerCredentials interface [Active Directory],SetCredentials method, IDsObjectPickerCredentials.SetCredentials, IDsObjectPickerCredentials::SetCredentials, SetCredentials, SetCredentials method [Active Directory], SetCredentials method [Active Directory],IDsObjectPickerCredentials interface, ad.idsobjectpickercredentials_setcredentials, objsel/IDsObjectPickerCredentials::SetCredentials
 ms.topic: method
-f1_keywords: ["objsel/IDsObjectPickerCredentials.SetCredentials"]
+f1_keywords: 
+ - "objsel/IDsObjectPickerCredentials.SetCredentials"
 req.header: objsel.h
 req.include-header: 
 req.target-type: Windows

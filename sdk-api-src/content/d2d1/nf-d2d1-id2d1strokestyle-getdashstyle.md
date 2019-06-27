@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDashStyle, GetDashStyle method [Direct2D], GetDashStyle method [Direct2D],ID2D1StrokeStyle interface, ID2D1StrokeStyle interface [Direct2D],GetDashStyle method, ID2D1StrokeStyle.GetDashStyle, ID2D1StrokeStyle::GetDashStyle, d2d1/ID2D1StrokeStyle::GetDashStyle, direct2d.ID2D1StrokeStyle_GetDashStyle
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1StrokeStyle.GetDashStyle"]
+f1_keywords: 
+ - "d2d1/ID2D1StrokeStyle.GetDashStyle"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

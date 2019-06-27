@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICEnroll, ICEnroll interface [Security], ICEnroll interface [Security],described, _xen_icenroll, security.icenroll, xenroll/ICEnroll
 ms.topic: interface
-f1_keywords: ["xenroll/ICEnroll"]
+f1_keywords: 
+ - "xenroll/ICEnroll"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

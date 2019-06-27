@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsWriteQualifiedName, WsWriteQualifiedName function [Web Services for Windows], webservices/WsWriteQualifiedName, wsw.wswritequalifiedname
 ms.topic: function
-f1_keywords: ["webservices/WsWriteQualifiedName"]
+f1_keywords: 
+ - "webservices/WsWriteQualifiedName"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

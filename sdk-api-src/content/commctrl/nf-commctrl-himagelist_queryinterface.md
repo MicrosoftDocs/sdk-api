@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HIMAGELIST_QueryInterface, HIMAGELIST_QueryInterface function [Windows Controls], _shell_HIMAGELIST_QueryInterface, _shell_HIMAGELIST_QueryInterface_cpp, commctrl/HIMAGELIST_QueryInterface, controls.HIMAGELIST_QueryInterface, controls._shell_HIMAGELIST_QueryInterface
 ms.topic: function
-f1_keywords: ["commctrl/HIMAGELIST_QueryInterface"]
+f1_keywords: 
+ - "commctrl/HIMAGELIST_QueryInterface"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

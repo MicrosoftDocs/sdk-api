@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsIdentity, IsIdentity method [GDI+], IsIdentity method [GDI+],Matrix class, Matrix class [GDI+],IsIdentity method, Matrix.IsIdentity, Matrix::IsIdentity, _gdiplus_CLASS_Matrix_IsIdentity_, gdiplus._gdiplus_CLASS_Matrix_IsIdentity_
 ms.topic: method
-f1_keywords: ["gdiplusmatrix/Matrix.IsIdentity"]
+f1_keywords: 
+ - "gdiplusmatrix/Matrix.IsIdentity"
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CfRevertPlaceholder, CfRevertPlaceholder function, cfapi/CfRevertPlaceholder, cloudApi.cfrevertplaceholder
 ms.topic: function
-f1_keywords: ["cfapi/CfRevertPlaceholder"]
+f1_keywords: 
+ - "cfapi/CfRevertPlaceholder"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

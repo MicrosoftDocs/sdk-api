@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLISTVIEWMODE, LISTVIEWMODE, ListMode_Detail, ListMode_Filtered, ListMode_Large_Icons, ListMode_List, ListMode_Small_Icons, ListViewMode, ListViewMode enumeration [MMC], PLISTVIEWMODE, PLISTVIEWMODE enumeration pointer [MMC], PPLISTVIEWMODE, PPLISTVIEWMODE enumeration pointer [MMC], _ListViewMode, _ListViewMode enumeration [MMC], _slate_listviewmode, mmc.listviewmode, mmcobj/ListMode_Detail, mmcobj/ListMode_Filtered, mmcobj/ListMode_Large_Icons, mmcobj/ListMode_List, mmcobj/ListMode_Small_Icons, mmcobj/ListViewMode, mmcobj/PLISTVIEWMODE, mmcobj/PPLISTVIEWMODE"
 ms.topic: enum
-f1_keywords: ["mmcobj/_ListViewMode"]
+f1_keywords: 
+ - "mmcobj/_ListViewMode"
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows

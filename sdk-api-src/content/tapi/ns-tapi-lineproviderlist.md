@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPLINEPROVIDERLIST, LINEPROVIDERLIST, LINEPROVIDERLIST structure [TAPI 2.2], LPLINEPROVIDERLIST, LPLINEPROVIDERLIST structure pointer [TAPI 2.2], _tapi2_lineproviderlist_str, tapi/LINEPROVIDERLIST, tapi/LPLINEPROVIDERLIST, tapi2.lineproviderlist_str"
 ms.topic: struct
-f1_keywords: ["tapi/LINEPROVIDERLIST"]
+f1_keywords: 
+ - "tapi/LINEPROVIDERLIST"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

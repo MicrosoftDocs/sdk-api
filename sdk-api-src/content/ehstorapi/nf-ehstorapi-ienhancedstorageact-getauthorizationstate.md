@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAuthorizationState, GetAuthorizationState method [Enhanced Storage], GetAuthorizationState method [Enhanced Storage],IEnhancedStorageACT interface, IEnhancedStorageACT interface [Enhanced Storage],GetAuthorizationState method, IEnhancedStorageACT.GetAuthorizationState, IEnhancedStorageACT::GetAuthorizationState, ehstorapi/IEnhancedStorageACT::GetAuthorizationState, enstor.ienhancedstorageact_getauthorizationstate
 ms.topic: method
-f1_keywords: ["ehstorapi/IEnhancedStorageACT.GetAuthorizationState"]
+f1_keywords: 
+ - "ehstorapi/IEnhancedStorageACT.GetAuthorizationState"
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

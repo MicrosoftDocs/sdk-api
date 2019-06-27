@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionBrightnessEffect, IDCompositionBrightnessEffect interface [DirectComposition], IDCompositionBrightnessEffect interface [DirectComposition],described, dcomp/IDCompositionBrightnessEffect, directcomp.idcompositionbrightnesseffect
 ms.topic: interface
-f1_keywords: ["dcomp/IDCompositionBrightnessEffect"]
+f1_keywords: 
+ - "dcomp/IDCompositionBrightnessEffect"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

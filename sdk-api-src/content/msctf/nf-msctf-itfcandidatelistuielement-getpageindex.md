@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPageIndex, GetPageIndex method [Text Services Framework], GetPageIndex method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetPageIndex method, ITfCandidateListUIElement.GetPageIndex, ITfCandidateListUIElement::GetPageIndex, msctf/ITfCandidateListUIElement::GetPageIndex, tsf.itfcandidatelistuielement_getpageindex
 ms.topic: method
-f1_keywords: ["msctf/ITfCandidateListUIElement.GetPageIndex"]
+f1_keywords: 
+ - "msctf/ITfCandidateListUIElement.GetPageIndex"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

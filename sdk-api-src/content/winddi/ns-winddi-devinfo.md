@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDEVINFO, DEVINFO, DEVINFO structure [Display Devices], PDEVINFO, PDEVINFO structure pointer [Display Devices], display.devinfo, grstrcts_a5bb2e1a-5348-4453-a5ef-674b4693dbed.xml, winddi/DEVINFO, winddi/PDEVINFO"
 ms.topic: struct
-f1_keywords: ["winddi/DEVINFO"]
+f1_keywords: 
+ - "winddi/DEVINFO"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

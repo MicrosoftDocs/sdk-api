@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseEnum, CloseEnum method [Windows Runtime], CloseEnum method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],CloseEnum method, IMetaDataAssemblyImport.CloseEnum, IMetaDataAssemblyImport::CloseEnum, rometadataapi/IMetaDataAssemblyImport::CloseEnum, winrt.imetadataassemblyimport_closeenum
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataAssemblyImport.CloseEnum"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataAssemblyImport.CloseEnum"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

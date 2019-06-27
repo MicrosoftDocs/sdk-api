@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MapDialogRect, MapDialogRect function [Dialog Boxes], _win32_MapDialogRect, _win32_mapdialogrect_cpp, dlgbox.mapdialogrect, winui._win32_mapdialogrect, winuser/MapDialogRect
 ms.topic: function
-f1_keywords: ["winuser/MapDialogRect"]
+f1_keywords: 
+ - "winuser/MapDialogRect"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

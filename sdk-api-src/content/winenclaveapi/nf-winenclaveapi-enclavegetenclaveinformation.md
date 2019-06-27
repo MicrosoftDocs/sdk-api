@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnclaveGetEnclaveInformation, EnclaveGetEnclaveInformation function, base.enclavegetenclaveinformation, winenclaveapi/EnclaveGetEnclaveInformation
 ms.topic: function
-f1_keywords: ["winenclaveapi/EnclaveGetEnclaveInformation"]
+f1_keywords: 
+ - "winenclaveapi/EnclaveGetEnclaveInformation"
 req.header: winenclaveapi.h
 req.include-header: 
 req.target-type: Windows

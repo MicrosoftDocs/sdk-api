@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsiItem interface [IMAPI],get_CreationTime method, IFsiItem.get_CreationTime, IFsiItem::get_CreationTime, get_CreationTime, get_CreationTime method [IMAPI], get_CreationTime method [IMAPI],IFsiItem interface, imapi.ifsiitem_get_creationtime, imapi2fs/IFsiItem::get_CreationTime
 ms.topic: method
-f1_keywords: ["imapi2fs/IFsiItem.get_CreationTime"]
+f1_keywords: 
+ - "imapi2fs/IFsiItem.get_CreationTime"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

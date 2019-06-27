@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3AngleBetweenNormalsEst, XMVector3AngleBetweenNormalsEst, XMVector3AngleBetweenNormalsEst method [DirectX Math Support APIs], dxmath.xmvector3anglebetweennormalsest
 ms.topic: function
-f1_keywords: ["directxmath/XMVector3AngleBetweenNormalsEst"]
+f1_keywords: 
+ - "directxmath/XMVector3AngleBetweenNormalsEst"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

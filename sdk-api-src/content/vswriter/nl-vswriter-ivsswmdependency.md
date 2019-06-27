@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssWMDependency, IVssWMDependency interface [VSS], IVssWMDependency interface [VSS],described, _win32_ivsswmdependency, base.ivsswmdependency, vswriter/IVssWMDependency
 ms.topic: class
-f1_keywords: ["vswriter/IVssWMDependency"]
+f1_keywords: 
+ - "vswriter/IVssWMDependency"
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

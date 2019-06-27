@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfUIElementSink interface [Text Services Framework],UpdateUIElement method, ITfUIElementSink.UpdateUIElement, ITfUIElementSink::UpdateUIElement, UpdateUIElement, UpdateUIElement method [Text Services Framework], UpdateUIElement method [Text Services Framework],ITfUIElementSink interface, msctf/ITfUIElementSink::UpdateUIElement, tsf.itfuielementsink_updateuielement
 ms.topic: method
-f1_keywords: ["msctf/ITfUIElementSink.UpdateUIElement"]
+f1_keywords: 
+ - "msctf/ITfUIElementSink.UpdateUIElement"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

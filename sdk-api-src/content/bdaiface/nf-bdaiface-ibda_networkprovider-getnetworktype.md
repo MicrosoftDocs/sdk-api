@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNetworkType, GetNetworkType method [Microsoft TV Technologies], GetNetworkType method [Microsoft TV Technologies],IBDA_NetworkProvider interface, IBDA_NetworkProvider interface [Microsoft TV Technologies],GetNetworkType method, IBDA_NetworkProvider.GetNetworkType, IBDA_NetworkProvider::GetNetworkType, IBDA_NetworkProviderGetNetworkType, bdaiface/IBDA_NetworkProvider::GetNetworkType, mstv.ibda_networkprovider_getnetworktype
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_NetworkProvider.GetNetworkType"]
+f1_keywords: 
+ - "bdaiface/IBDA_NetworkProvider.GetNetworkType"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

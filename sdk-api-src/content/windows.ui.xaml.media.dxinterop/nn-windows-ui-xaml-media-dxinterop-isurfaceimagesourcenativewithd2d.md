@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISurfaceImageSourceNativeWithD2D, ISurfaceImageSourceNativeWithD2D interface [Windows Runtime], ISurfaceImageSourceNativeWithD2D interface [Windows Runtime],described, windows/ISurfaceImageSourceNativeWithD2D, winrt.isurfaceimagesourcenativewithd2d
 ms.topic: interface
-f1_keywords: ["windows.ui.xaml.media.dxinterop/ISurfaceImageSourceNativeWithD2D"]
+f1_keywords: 
+ - "windows.ui.xaml.media.dxinterop/ISurfaceImageSourceNativeWithD2D"
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows

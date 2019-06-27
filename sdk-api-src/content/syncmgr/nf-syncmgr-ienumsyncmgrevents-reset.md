@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncMgrEvents interface [Windows Shell],Reset method, IEnumSyncMgrEvents.Reset, IEnumSyncMgrEvents::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumSyncMgrEvents interface, _shell_IEnumSyncMgrEvents_Reset, shell.IEnumSyncMgrEvents_Reset, syncmgr/IEnumSyncMgrEvents::Reset
 ms.topic: method
-f1_keywords: ["syncmgr/IEnumSyncMgrEvents.Reset"]
+f1_keywords: 
+ - "syncmgr/IEnumSyncMgrEvents.Reset"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

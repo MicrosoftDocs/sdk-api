@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumFilters interface, IEnumFilters interface [DirectShow],Clone method, IEnumFilters.Clone, IEnumFilters::Clone, IEnumFiltersClone, dshow.ienumfilters_clone, strmif/IEnumFilters::Clone
 ms.topic: method
-f1_keywords: ["strmif/IEnumFilters.Clone"]
+f1_keywords: 
+ - "strmif/IEnumFilters.Clone"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

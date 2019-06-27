@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_BLOB_ARRAY, CRYPT_BLOB_ARRAY, CRYPT_BLOB_ARRAY structure [Security], PCRYPT_BLOB_ARRAY, PCRYPT_BLOB_ARRAY structure pointer [Security], security.crypt_blob_array, wincrypt/CRYPT_BLOB_ARRAY, wincrypt/PCRYPT_BLOB_ARRAY"
 ms.topic: struct
-f1_keywords: ["wincrypt/CRYPT_BLOB_ARRAY"]
+f1_keywords: 
+ - "wincrypt/CRYPT_BLOB_ARRAY"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_SPN_ADD_SPN_OP, DS_SPN_DELETE_SPN_OP, DS_SPN_REPLACE_SPN_OP, DsServerRegisterSpn, DsServerRegisterSpn function [Active Directory], DsServerRegisterSpnA, DsServerRegisterSpnW, _glines_dsserverregisterspn, ad.dsserverregisterspn, ntdsapi/DsServerRegisterSpn, ntdsapi/DsServerRegisterSpnA, ntdsapi/DsServerRegisterSpnW
 ms.topic: function
-f1_keywords: ["ntdsapi/DsServerRegisterSpn"]
+f1_keywords: 
+ - "ntdsapi/DsServerRegisterSpn"
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

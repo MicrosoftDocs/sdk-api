@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDrive, GetDrive method [VDS], GetDrive method [VDS],IVdsSubSystem interface, IVdsSubSystem interface [VDS],GetDrive method, IVdsSubSystem.GetDrive, IVdsSubSystem::GetDrive, base.ivdssubsystem_getdrive, vds/IVdsSubSystem::GetDrive, vdshwprv/IVdsSubSystem::GetDrive
 ms.topic: method
-f1_keywords: ["vdshwprv/IVdsSubSystem.GetDrive"]
+f1_keywords: 
+ - "vdshwprv/IVdsSubSystem.GetDrive"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

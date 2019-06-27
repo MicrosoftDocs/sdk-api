@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ACLO_CURRENTDIR, ACLO_DESKTOP, ACLO_FAVORITES, ACLO_FILESYSDIRS, ACLO_FILESYSONLY, ACLO_MYCOMPUTER, ACLO_NONE, IACList2 interface [Windows Shell],SetOptions method, IACList2.SetOptions, IACList2::SetOptions, SetOptions, SetOptions method [Windows Shell], SetOptions method [Windows Shell],IACList2 interface, _win32_IACList2_SetOptions, shell.IACList2_SetOptions, shlobj_core/IACList2::SetOptions
 ms.topic: method
-f1_keywords: ["shlobj_core/IACList2.SetOptions"]
+f1_keywords: 
+ - "shlobj_core/IACList2.SetOptions"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFASFSplitter interface [Media Foundation],Initialize method, IMFASFSplitter.Initialize, IMFASFSplitter::Initialize, Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation],IMFASFSplitter interface, dd69c2f9-dabf-4bba-bb3b-75ec3208c189, mf.imfasfsplitter_initialize, wmcontainer/IMFASFSplitter::Initialize
 ms.topic: method
-f1_keywords: ["wmcontainer/IMFASFSplitter.Initialize"]
+f1_keywords: 
+ - "wmcontainer/IMFASFSplitter.Initialize"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

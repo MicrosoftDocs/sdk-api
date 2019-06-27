@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PMGM_LOCAL_JOIN_CALLBACK, PMGM_LOCAL_JOIN_CALLBACK callback, PMGM_LOCAL_JOIN_CALLBACK callback function [RAS], _mpr_pmgm_local_join_callback, mgm/PMGM_LOCAL_JOIN_CALLBACK, rras.pmgm_local_join_callback
 ms.topic: callback
-f1_keywords: ["mgm/PMGM_LOCAL_JOIN_CALLBACK"]
+f1_keywords: 
+ - "mgm/PMGM_LOCAL_JOIN_CALLBACK"
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

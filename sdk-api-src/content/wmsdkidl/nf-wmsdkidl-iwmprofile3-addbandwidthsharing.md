@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddBandwidthSharing, AddBandwidthSharing method [windows Media Format], AddBandwidthSharing method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],AddBandwidthSharing method, IWMProfile3.AddBandwidthSharing, IWMProfile3::AddBandwidthSharing, IWMProfile3AddBandwidthSharing, wmformat.iwmprofile3_addbandwidthsharing, wmsdkidl/IWMProfile3::AddBandwidthSharing
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMProfile3.AddBandwidthSharing"]
+f1_keywords: 
+ - "wmsdkidl/IWMProfile3.AddBandwidthSharing"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

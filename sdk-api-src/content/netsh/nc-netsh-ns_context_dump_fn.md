@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NS_CONTEXT_DUMP_FN, NS_CONTEXT_DUMP_FN callback, NS_CONTEXT_DUMP_FN callback function [NetShell], _netsh_ns_context_dump_fn, netsh/NS_CONTEXT_DUMP_FN, netshell.ns_context_dump_fn
 ms.topic: callback
-f1_keywords: ["netsh/NS_CONTEXT_DUMP_FN"]
+f1_keywords: 
+ - "netsh/NS_CONTEXT_DUMP_FN"
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

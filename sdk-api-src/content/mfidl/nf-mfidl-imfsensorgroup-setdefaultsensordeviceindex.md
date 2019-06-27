@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSensorGroup interface [Media Foundation],SetDefaultSensorDeviceIndex method, IMFSensorGroup.SetDefaultSensorDeviceIndex, IMFSensorGroup::SetDefaultSensorDeviceIndex, SetDefaultSensorDeviceIndex, SetDefaultSensorDeviceIndex method [Media Foundation], SetDefaultSensorDeviceIndex method [Media Foundation],IMFSensorGroup interface, mf.imfsensorgroup_setdefaultsensordeviceindex, mfidl/IMFSensorGroup::SetDefaultSensorDeviceIndex
 ms.topic: method
-f1_keywords: ["mfidl/IMFSensorGroup.SetDefaultSensorDeviceIndex"]
+f1_keywords: 
+ - "mfidl/IMFSensorGroup.SetDefaultSensorDeviceIndex"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

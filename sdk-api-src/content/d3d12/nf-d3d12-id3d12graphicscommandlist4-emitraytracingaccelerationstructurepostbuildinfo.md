@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EmitRaytracingAccelerationStructurePostbuildInfo, EmitRaytracingAccelerationStructurePostbuildInfo method, EmitRaytracingAccelerationStructurePostbuildInfo method,ID3D12GraphicsCommandList4 interface, ID3D12GraphicsCommandList4 interface,EmitRaytracingAccelerationStructurePostbuildInfo method, ID3D12GraphicsCommandList4.EmitRaytracingAccelerationStructurePostbuildInfo, ID3D12GraphicsCommandList4::EmitRaytracingAccelerationStructurePostbuildInfo, d3d12/ID3D12GraphicsCommandList4::EmitRaytracingAccelerationStructurePostbuildInfo, direct3d12.id3d12graphicscommandlist4_emitraytracingaccelerationstructurepostbuildinfo
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12GraphicsCommandList4.EmitRaytracingAccelerationStructurePostbuildInfo"]
+f1_keywords: 
+ - "d3d12/ID3D12GraphicsCommandList4.EmitRaytracingAccelerationStructurePostbuildInfo"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

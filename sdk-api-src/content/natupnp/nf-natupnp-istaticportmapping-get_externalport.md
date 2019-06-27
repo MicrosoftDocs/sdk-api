@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStaticPortMapping interface [ICS/ICF],get_ExternalPort method, IStaticPortMapping.get_ExternalPort, IStaticPortMapping::get_ExternalPort, _ics_istaticportmapping_get_externalport, get_ExternalPort, get_ExternalPort method [ICS/ICF], get_ExternalPort method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_externalport, natupnp/IStaticPortMapping::get_ExternalPort
 ms.topic: method
-f1_keywords: ["natupnp/IStaticPortMapping.get_ExternalPort"]
+f1_keywords: 
+ - "natupnp/IStaticPortMapping.get_ExternalPort"
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

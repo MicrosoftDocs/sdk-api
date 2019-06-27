@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Hiding, Hiding method [Windows Shell], Hiding method [Windows Shell],IFrameworkInputPaneHandler interface, IFrameworkInputPaneHandler interface [Windows Shell],Hiding method, IFrameworkInputPaneHandler.Hiding, IFrameworkInputPaneHandler::Hiding, shell.IFrameworkInputPaneHandler_Hiding, shobjidl_core/IFrameworkInputPaneHandler::Hiding
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFrameworkInputPaneHandler.Hiding"]
+f1_keywords: 
+ - "shobjidl_core/IFrameworkInputPaneHandler.Hiding"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

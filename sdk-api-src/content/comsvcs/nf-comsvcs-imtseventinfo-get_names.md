@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMtsEventInfo interface [COM+],get_Names method, IMtsEventInfo.get_Names, IMtsEventInfo::get_Names, _dtc_IMtsEventInfo_Names, comsvcs/IMtsEventInfo::get_Names, cos.imtseventinfo_get_names, get_Names, get_Names method [COM+], get_Names method [COM+],IMtsEventInfo interface
 ms.topic: method
-f1_keywords: ["comsvcs/IMtsEventInfo.get_Names"]
+f1_keywords: 
+ - "comsvcs/IMtsEventInfo.get_Names"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

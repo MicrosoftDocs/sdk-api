@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellLink, IShellLink interface [Windows Shell], IShellLink interface [Windows Shell],described, IShellLinkA, IShellLinkW, _win32_IShellLink, _win32_IShellLink_cpp, shell.IShellLink, shobjidl_core/IShellLink
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IShellLink"]
+f1_keywords: 
+ - "shobjidl_core/IShellLink"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

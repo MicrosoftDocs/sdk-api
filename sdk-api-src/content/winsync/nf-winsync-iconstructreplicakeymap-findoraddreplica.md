@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindOrAddReplica, FindOrAddReplica method [Windows Sync], FindOrAddReplica method [Windows Sync],IConstructReplicaKeyMap interface, IConstructReplicaKeyMap interface [Windows Sync],FindOrAddReplica method, IConstructReplicaKeyMap.FindOrAddReplica, IConstructReplicaKeyMap::FindOrAddReplica, winsync.iconstructreplicakeymap_findoraddreplica, winsync/IConstructReplicaKeyMap::FindOrAddReplica
 ms.topic: method
-f1_keywords: ["winsync/IConstructReplicaKeyMap.FindOrAddReplica"]
+f1_keywords: 
+ - "winsync/IConstructReplicaKeyMap.FindOrAddReplica"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_GET_MEDIA_TYPES_EX, IOCTL_STORAGE_GET_MEDIA_TYPES_EX control, IOCTL_STORAGE_GET_MEDIA_TYPES_EX control code, _win32_ioctl_storage_get_media_types_ex, base.ioctl_storage_get_media_types_ex, winioctl/IOCTL_STORAGE_GET_MEDIA_TYPES_EX
 ms.topic: ioctl
-f1_keywords: ["winioctl/IOCTL_STORAGE_GET_MEDIA_TYPES_EX"]
+f1_keywords: 
+ - "winioctl/IOCTL_STORAGE_GET_MEDIA_TYPES_EX"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

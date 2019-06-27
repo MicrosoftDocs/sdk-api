@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDeviceIcon, IDeviceIcon interface [Media Streaming API], IDeviceIcon interface [Media Streaming API],described, mediastreaming.ideviceicon, windows/IDeviceIcon
 ms.topic: interface
-f1_keywords: ["windows.media.streaming/IDeviceIcon"]
+f1_keywords: 
+ - "windows.media.streaming/IDeviceIcon"
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

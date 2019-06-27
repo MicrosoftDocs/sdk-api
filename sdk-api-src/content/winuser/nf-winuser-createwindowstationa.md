@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateWindowStation, CreateWindowStation function [Windows Stations and Desktops], CreateWindowStationA, CreateWindowStationW, _win32_createwindowstation, base.createwindowstation, winstation.createwindowstation, winuser/CreateWindowStation, winuser/CreateWindowStationA, winuser/CreateWindowStationW
 ms.topic: function
-f1_keywords: ["winuser/CreateWindowStation"]
+f1_keywords: 
+ - "winuser/CreateWindowStation"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

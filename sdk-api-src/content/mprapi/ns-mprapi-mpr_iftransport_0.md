@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMPR_IFTRANSPORT_0, MPR_IFTRANSPORT_0, MPR_IFTRANSPORT_0 structure [RAS], PMPR_IFTRANSPORT_0, PMPR_IFTRANSPORT_0 structure pointer [RAS], _mpr_mpr_iftransport_0, mprapi/MPR_IFTRANSPORT_0, mprapi/PMPR_IFTRANSPORT_0, rras.mpr_iftransport_0"
 ms.topic: struct
-f1_keywords: ["mprapi/MPR_IFTRANSPORT_0"]
+f1_keywords: 
+ - "mprapi/MPR_IFTRANSPORT_0"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

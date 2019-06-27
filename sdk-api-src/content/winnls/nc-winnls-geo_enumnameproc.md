@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Geo_EnumNameProc, Geo_EnumNameProc callback, Geo_EnumNameProc callback function [Internationalization for Windows Applications], intl.geo_enumnameproc, winnls/Geo_EnumNameProc
 ms.topic: callback
-f1_keywords: ["winnls/Geo_EnumNameProc"]
+f1_keywords: 
+ - "winnls/Geo_EnumNameProc"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

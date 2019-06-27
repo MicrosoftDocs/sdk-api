@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IntlStrEqNI, IntlStrEqNI function [Windows Shell], IntlStrEqNIA, IntlStrEqNIW, _win32_IntlStrEqNI, shell.IntlStrEqNI, shlwapi/IntlStrEqNI, shlwapi/IntlStrEqNIA, shlwapi/IntlStrEqNIW
 ms.topic: macro
-f1_keywords: ["shlwapi/IntlStrEqNI"]
+f1_keywords: 
+ - "shlwapi/IntlStrEqNI"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

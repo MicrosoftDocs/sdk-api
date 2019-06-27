@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMsmDependency, IMsmDependency interface, IMsmDependency interface,described, mergemod/IMsmDependency, setup.imsmdependency_interface
 ms.topic: interface
-f1_keywords: ["mergemod/IMsmDependency"]
+f1_keywords: 
+ - "mergemod/IMsmDependency"
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

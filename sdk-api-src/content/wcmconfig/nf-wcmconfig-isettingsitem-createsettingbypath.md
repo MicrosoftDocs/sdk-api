@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSettingByPath, CreateSettingByPath method [SMI], CreateSettingByPath method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],CreateSettingByPath method, ISettingsItem.CreateSettingByPath, ISettingsItem::CreateSettingByPath, smi.isettingsitem_createsettingbypath, wcmconfig/ISettingsItem::CreateSettingByPath
 ms.topic: method
-f1_keywords: ["wcmconfig/ISettingsItem.CreateSettingByPath"]
+f1_keywords: 
+ - "wcmconfig/ISettingsItem.CreateSettingByPath"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

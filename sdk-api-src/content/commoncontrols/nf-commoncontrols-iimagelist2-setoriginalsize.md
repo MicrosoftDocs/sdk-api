@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IImageList2 interface [Windows Controls],SetOriginalSize method, IImageList2.SetOriginalSize, IImageList2::SetOriginalSize, SetOriginalSize, SetOriginalSize method [Windows Controls], SetOriginalSize method [Windows Controls],IImageList2 interface, _shell_IImageList2_SetOriginalSize, _shell_IImageList2_SetOriginalSize_cpp, commoncontrols/IImageList2::SetOriginalSize, controls.IImageList2_SetOriginalSize, controls._shell_IImageList2_SetOriginalSize
 ms.topic: method
-f1_keywords: ["commoncontrols/IImageList2.SetOriginalSize"]
+f1_keywords: 
+ - "commoncontrols/IImageList2.SetOriginalSize"
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

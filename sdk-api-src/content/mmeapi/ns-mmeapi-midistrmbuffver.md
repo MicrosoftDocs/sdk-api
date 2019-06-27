@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MIDISTRMBUFFVER, MIDISTRMBUFFVER structure [Windows Multimedia], _win32_MIDISTRMBUFFVER_str, midistrmbuffver_tag, mmeapi/MIDISTRMBUFFVER, multimedia.midistrmbuffver
 ms.topic: struct
-f1_keywords: ["mmeapi/MIDISTRMBUFFVER"]
+f1_keywords: 
+ - "mmeapi/MIDISTRMBUFFVER"
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

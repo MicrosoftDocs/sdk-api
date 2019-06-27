@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbTaskPluginNotifySink, ITsSbTaskPluginNotifySink interface [Remote Desktop Services], ITsSbTaskPluginNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbTaskPluginNotifySink, termserv.itssbtaskpluginnotifysink
 ms.topic: interface
-f1_keywords: ["sbtsv/ITsSbTaskPluginNotifySink"]
+f1_keywords: 
+ - "sbtsv/ITsSbTaskPluginNotifySink"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMessageView interface [MMC],SetIcon method, IMessageView.SetIcon, IMessageView::SetIcon, SetIcon, SetIcon method [MMC], SetIcon method [MMC],IMessageView interface, _slate_imessageview_seticon, mmc.imessageview_seticon, mmc/IMessageView::SetIcon
 ms.topic: method
-f1_keywords: ["mmc/IMessageView.SetIcon"]
+f1_keywords: 
+ - "mmc/IMessageView.SetIcon"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

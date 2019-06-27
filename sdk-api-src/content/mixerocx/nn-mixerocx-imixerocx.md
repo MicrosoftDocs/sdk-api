@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMixerOCX, IMixerOCX interface [DirectShow], IMixerOCX interface [DirectShow],described, IMixerOCXInterface, dshow.imixerocx, mixerocx/IMixerOCX
 ms.topic: interface
-f1_keywords: ["mixerocx/IMixerOCX"]
+f1_keywords: 
+ - "mixerocx/IMixerOCX"
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows

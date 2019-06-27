@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmvSwitchEventsSetSecurityInfo0, FwpmvSwitchEventsSetSecurityInfo0 function [Filtering], fwp.fwpmvswitcheventssetsecurityinfo0, fwpmu/FwpmvSwitchEventsSetSecurityInfo0
 ms.topic: function
-f1_keywords: ["fwpmu/FwpmvSwitchEventsSetSecurityInfo0"]
+f1_keywords: 
+ - "fwpmu/FwpmvSwitchEventsSetSecurityInfo0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

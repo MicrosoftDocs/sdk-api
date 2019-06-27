@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConstructReplicaKeyMap, IConstructReplicaKeyMap interface [Windows Sync], IConstructReplicaKeyMap interface [Windows Sync],described, winsync.iconstructreplicakeymap, winsync/IConstructReplicaKeyMap
 ms.topic: interface
-f1_keywords: ["winsync/IConstructReplicaKeyMap"]
+f1_keywords: 
+ - "winsync/IConstructReplicaKeyMap"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

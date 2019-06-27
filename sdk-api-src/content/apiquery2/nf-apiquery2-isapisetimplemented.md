@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsApiSetImplemented, IsApiSetImplemented function [Windows API], apiquery2/IsApiSetImplemented, winprog.isapisetimplemented
 ms.topic: function
-f1_keywords: ["apiquery2/IsApiSetImplemented"]
+f1_keywords: 
+ - "apiquery2/IsApiSetImplemented"
 req.header: apiquery2.h
 req.include-header: 
 req.target-type: Windows

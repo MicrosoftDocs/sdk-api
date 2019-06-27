@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_KEYBOARD_SET_TYPEMATIC, IOCTL_KEYBOARD_SET_TYPEMATIC control, IOCTL_KEYBOARD_SET_TYPEMATIC control code [Human Input Devices], hid.ioctl_keyboard_set_typematic2, i8042ref_1df6c763-6fbd-4a76-810a-7b0e6f624e9f.xml, ntddkbd/IOCTL_KEYBOARD_SET_TYPEMATIC
 ms.topic: ioctl
-f1_keywords: ["ntddkbd/IOCTL_KEYBOARD_SET_TYPEMATIC"]
+f1_keywords: 
+ - "ntddkbd/IOCTL_KEYBOARD_SET_TYPEMATIC"
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
 req.target-type: Windows

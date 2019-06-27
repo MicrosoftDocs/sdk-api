@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIP_ADAPTER_WINS_SERVER_ADDRESS, *PIP_ADAPTER_WINS_SERVER_ADDRESS_LH, IP_ADAPTER_WINS_SERVER_ADDRESS, IP_ADAPTER_WINS_SERVER_ADDRESS structure [IP Helper], IP_ADAPTER_WINS_SERVER_ADDRESS_LH, PIP_ADAPTER_WINS_SERVER_ADDRESS, PIP_ADAPTER_WINS_SERVER_ADDRESS structure pointer [IP Helper], iphlp.ip_adapter_wins_server_address, iptypes/IP_ADAPTER_WINS_SERVER_ADDRESS, iptypes/PIP_ADAPTER_WINS_SERVER_ADDRESS"
 ms.topic: struct
-f1_keywords: ["iptypes/IP_ADAPTER_WINS_SERVER_ADDRESS"]
+f1_keywords: 
+ - "iptypes/IP_ADAPTER_WINS_SERVER_ADDRESS"
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

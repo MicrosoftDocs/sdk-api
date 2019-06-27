@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FileIOCompletionRoutine, FileIOCompletionRoutine callback, FileIOCompletionRoutine callback function [Files], LPOVERLAPPED_COMPLETION_ROUTINE, LPOVERLAPPED_COMPLETION_ROUTINE callback function [Files], _win32_fileiocompletionroutine, base.fileiocompletionroutine, fs.fileiocompletionroutine, minwinbase/FileIOCompletionRoutine, minwinbase/LPOVERLAPPED_COMPLETION_ROUTINE
 ms.topic: callback
-f1_keywords: ["minwinbase/FileIOCompletionRoutine"]
+f1_keywords: 
+ - "minwinbase/FileIOCompletionRoutine"
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows

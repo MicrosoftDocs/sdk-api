@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSpriteBatch, CreateSpriteBatch method [Direct2D], CreateSpriteBatch method [Direct2D],ID2D1DeviceContext3 interface, ID2D1DeviceContext3 interface [Direct2D],CreateSpriteBatch method, ID2D1DeviceContext3.CreateSpriteBatch, ID2D1DeviceContext3::CreateSpriteBatch, d2d1_3/ID2D1DeviceContext3::CreateSpriteBatch, direct2d.id2d1devicecontext3_createspritebatch
 ms.topic: method
-f1_keywords: ["d2d1_3/ID2D1DeviceContext3.CreateSpriteBatch"]
+f1_keywords: 
+ - "d2d1_3/ID2D1DeviceContext3.CreateSpriteBatch"
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

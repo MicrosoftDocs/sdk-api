@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlxNegotiate, WlxNegotiate function [Security], _gina_wlxnegotiate, security.wlxnegotiate, winwlx/WlxNegotiate
 ms.topic: function
-f1_keywords: ["winwlx/WlxNegotiate"]
+f1_keywords: 
+ - "winwlx/WlxNegotiate"
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FPSPS_DEFAULT, FPSPS_READONLY, FPSPS_TREAT_NEW_VALUES_AS_DIRTY, IPersistSerializedPropStorage interface [Windows Shell],SetFlags method, IPersistSerializedPropStorage.SetFlags, IPersistSerializedPropStorage::SetFlags, SetFlags, SetFlags method [Windows Shell], SetFlags method [Windows Shell],IPersistSerializedPropStorage interface, _shell_IPersistSerializedPropStorage_SetFlags, propsys/IPersistSerializedPropStorage::SetFlags, shell.IPersistSerializedPropStorage_SetFlags
 ms.topic: method
-f1_keywords: ["propsys/IPersistSerializedPropStorage.SetFlags"]
+f1_keywords: 
+ - "propsys/IPersistSerializedPropStorage.SetFlags"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

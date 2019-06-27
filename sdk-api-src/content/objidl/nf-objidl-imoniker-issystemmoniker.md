@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMoniker interface [COM],IsSystemMoniker method, IMoniker.IsSystemMoniker, IMoniker::IsSystemMoniker, IsSystemMoniker, IsSystemMoniker method [COM], IsSystemMoniker method [COM],IMoniker interface, _com_imoniker_issystemmoniker, com.imoniker_issystemmoniker, objidl/IMoniker::IsSystemMoniker
 ms.topic: method
-f1_keywords: ["objidl/IMoniker.IsSystemMoniker"]
+f1_keywords: 
+ - "objidl/IMoniker.IsSystemMoniker"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_ALPHA_MODE, D2D1_ALPHA_MODE enumeration [Direct2D], D2D1_ALPHA_MODE_IGNORE, D2D1_ALPHA_MODE_PREMULTIPLIED, D2D1_ALPHA_MODE_STRAIGHT, D2D1_ALPHA_MODE_UNKNOWN, dcommon/D2D1_ALPHA_MODE, dcommon/D2D1_ALPHA_MODE_IGNORE, dcommon/D2D1_ALPHA_MODE_PREMULTIPLIED, dcommon/D2D1_ALPHA_MODE_STRAIGHT, dcommon/D2D1_ALPHA_MODE_UNKNOWN, direct2d.D2D1_ALPHA_MODE
 ms.topic: enum
-f1_keywords: ["dcommon/D2D1_ALPHA_MODE"]
+f1_keywords: 
+ - "dcommon/D2D1_ALPHA_MODE"
 req.header: dcommon.h
 req.include-header: D2d1.h
 req.target-type: Windows

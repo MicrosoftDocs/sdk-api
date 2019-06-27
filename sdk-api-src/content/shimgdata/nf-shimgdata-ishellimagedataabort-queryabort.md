@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellImageDataAbort interface [Windows Shell],QueryAbort method, IShellImageDataAbort.QueryAbort, IShellImageDataAbort::QueryAbort, QueryAbort, QueryAbort method [Windows Shell], QueryAbort method [Windows Shell],IShellImageDataAbort interface, _shell_IShellImageDataAbort_QueryAbort, shell.IShellImageDataAbort_QueryAbort, shimgdata/IShellImageDataAbort::QueryAbort
 ms.topic: method
-f1_keywords: ["shimgdata/IShellImageDataAbort.QueryAbort"]
+f1_keywords: 
+ - "shimgdata/IShellImageDataAbort.QueryAbort"
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

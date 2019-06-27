@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0779360e-d58a-0694-026e-d85fdc97bf60, ID3D11Query, ID3D11Query interface [Direct3D 11], ID3D11Query interface [Direct3D 11],described, d3d11/ID3D11Query, direct3d11.id3d11query
 ms.topic: interface
-f1_keywords: ["d3d11/ID3D11Query"]
+f1_keywords: 
+ - "d3d11/ID3D11Query"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

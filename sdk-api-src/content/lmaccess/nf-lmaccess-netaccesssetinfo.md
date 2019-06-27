@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1, NetAccessSetInfo, NetAccessSetInfo function [Network Management], _win32_netaccesssetinfo, lmaccess/NetAccessSetInfo, netmgmt.netaccesssetinfo
 ms.topic: function
-f1_keywords: ["lmaccess/NetAccessSetInfo"]
+f1_keywords: 
+ - "lmaccess/NetAccessSetInfo"
 req.header: lmaccess.h
 req.include-header: Lm.h, Lmaccess.h
 req.target-type: Windows

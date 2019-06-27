@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDuplicate2, GetDuplicate2 method [Windows Controls], GetDuplicate2 method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetDuplicate2 method, ITextFont2.GetDuplicate2, ITextFont2::GetDuplicate2, controls.itextfont2_getduplicate2, tom/ITextFont2::GetDuplicate2
 ms.topic: method
-f1_keywords: ["tom/ITextFont2.GetDuplicate2"]
+f1_keywords: 
+ - "tom/ITextFont2.GetDuplicate2"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

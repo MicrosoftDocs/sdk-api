@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequestPkcs7V2 interface [Security],InitializeFromTemplate method, IX509CertificateRequestPkcs7V2.InitializeFromTemplate, IX509CertificateRequestPkcs7V2::InitializeFromTemplate, InitializeFromTemplate, InitializeFromTemplate method [Security], InitializeFromTemplate method [Security],IX509CertificateRequestPkcs7V2 interface, certenroll/IX509CertificateRequestPkcs7V2::InitializeFromTemplate, security.ix509certificaterequestpkcs7v2_initializefromtemplate
 ms.topic: method
-f1_keywords: ["certenroll/IX509CertificateRequestPkcs7V2.InitializeFromTemplate"]
+f1_keywords: 
+ - "certenroll/IX509CertificateRequestPkcs7V2.InitializeFromTemplate"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

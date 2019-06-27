@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FhReassociation class [Windows API],ValidateTarget method, IFhReassociation interface [Windows API],ValidateTarget method, IFhReassociation.ValidateTarget, IFhReassociation::ValidateTarget, ValidateTarget, ValidateTarget method [Windows API], ValidateTarget method [Windows API],FhReassociation class, ValidateTarget method [Windows API],IFhReassociation interface, fhcfg/IFhReassociation::ValidateTarget, winprog.ifhreassociation_validatetarget
 ms.topic: method
-f1_keywords: ["fhcfg/IFhReassociation.ValidateTarget"]
+f1_keywords: 
+ - "fhcfg/IFhReassociation.ValidateTarget"
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

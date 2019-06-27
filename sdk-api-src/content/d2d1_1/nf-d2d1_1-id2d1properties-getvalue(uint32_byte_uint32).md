@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [Direct2D], GetValue method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetValue method, ID2D1Properties.GetValue, ID2D1Properties.GetValue(UINT32,BYTE,UINT32), ID2D1Properties::GetValue, ID2D1Properties::GetValue(UINT32,BYTE*,UINT32), ID2D1Properties::GetValue(UINT32,BYTE,UINT32), d2d1_1/ID2D1Properties::GetValue, direct2d.id2d1properties_getvalue
 ms.topic: method
-f1_keywords: ["d2d1_1/ID2D1Properties.GetValue"]
+f1_keywords: 
+ - "d2d1_1/ID2D1Properties.GetValue"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

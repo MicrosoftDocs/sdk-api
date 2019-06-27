@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathCanonicalize, PathCanonicalize function [Windows Shell], PathCanonicalizeA, PathCanonicalizeW, _win32_PathCanonicalize, shell.PathCanonicalize, shlwapi/PathCanonicalize, shlwapi/PathCanonicalizeA, shlwapi/PathCanonicalizeW
 ms.topic: function
-f1_keywords: ["shlwapi/PathCanonicalize"]
+f1_keywords: 
+ - "shlwapi/PathCanonicalize"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

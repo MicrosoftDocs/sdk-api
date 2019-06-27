@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],Load method, IMFMediaEngine.Load, IMFMediaEngine::Load, Load, Load method [Media Foundation], Load method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_load, mfmediaengine/IMFMediaEngine::Load
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngine.Load"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngine.Load"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

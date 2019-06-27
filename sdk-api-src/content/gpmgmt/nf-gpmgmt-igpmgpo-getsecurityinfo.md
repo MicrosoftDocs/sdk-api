@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMGPO class [GPMC],GetSecurityInfo method, GetSecurityInfo, GetSecurityInfo method [GPMC], GetSecurityInfo method [GPMC],GPMGPO class, GetSecurityInfo method [GPMC],IGPMGPO interface, IGPMGPO interface [GPMC],GetSecurityInfo method, IGPMGPO.GetSecurityInfo, IGPMGPO::GetSecurityInfo, _win32_igpmgpo_getsecurityinfo, gpmc.igpmgpo_getsecurityinfo, gpmgmt/IGPMGPO::GetSecurityInfo
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMGPO.GetSecurityInfo"]
+f1_keywords: 
+ - "gpmgmt/IGPMGPO.GetSecurityInfo"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

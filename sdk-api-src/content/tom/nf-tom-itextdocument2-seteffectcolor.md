@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetEffectColor method, ITextDocument2.SetEffectColor, ITextDocument2::SetEffectColor, SetEffectColor, SetEffectColor method [Windows Controls], SetEffectColor method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_seteffectcolor, tom/ITextDocument2::SetEffectColor
 ms.topic: method
-f1_keywords: ["tom/ITextDocument2.SetEffectColor"]
+f1_keywords: 
+ - "tom/ITextDocument2.SetEffectColor"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

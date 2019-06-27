@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linecreateagentsession, lineCreateAgentSession, lineCreateAgentSession function [TAPI 2.2], lineCreateAgentSessionA, lineCreateAgentSessionW, tapi/lineCreateAgentSession, tapi/lineCreateAgentSessionA, tapi/lineCreateAgentSessionW, tapi2.linecreateagentsession"
 ms.topic: function
-f1_keywords: ["tapi/lineCreateAgentSession"]
+f1_keywords: 
+ - "tapi/lineCreateAgentSession"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

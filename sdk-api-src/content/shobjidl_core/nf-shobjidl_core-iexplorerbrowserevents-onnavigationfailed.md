@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExplorerBrowserEvents interface [Windows Shell],OnNavigationFailed method, IExplorerBrowserEvents.OnNavigationFailed, IExplorerBrowserEvents::OnNavigationFailed, OnNavigationFailed, OnNavigationFailed method [Windows Shell], OnNavigationFailed method [Windows Shell],IExplorerBrowserEvents interface, _shell_IExplorerBrowserEvents_OnNavigationFailed, shell.IExplorerBrowserEvents_OnNavigationFailed, shobjidl_core/IExplorerBrowserEvents::OnNavigationFailed
 ms.topic: method
-f1_keywords: ["shobjidl_core/IExplorerBrowserEvents.OnNavigationFailed"]
+f1_keywords: 
+ - "shobjidl_core/IExplorerBrowserEvents.OnNavigationFailed"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

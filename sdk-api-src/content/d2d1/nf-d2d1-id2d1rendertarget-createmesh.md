@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateMesh, CreateMesh method [Direct2D], CreateMesh method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],CreateMesh method, ID2D1RenderTarget.CreateMesh, ID2D1RenderTarget::CreateMesh, d2d1/ID2D1RenderTarget::CreateMesh, direct2d.ID2D1RenderTarget_CreateMesh
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1RenderTarget.CreateMesh"]
+f1_keywords: 
+ - "d2d1/ID2D1RenderTarget.CreateMesh"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxPackageEditor interface [App packaging and management],UpdateEncryptedPackage method, IAppxPackageEditor.UpdateEncryptedPackage, IAppxPackageEditor::UpdateEncryptedPackage, UpdateEncryptedPackage, UpdateEncryptedPackage method [App packaging and management], UpdateEncryptedPackage method [App packaging and management],IAppxPackageEditor interface, appxpackaging/IAppxPackageEditor::UpdateEncryptedPackage, appxpkg.iappxpackageeditor_updateencryptedpackage
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxPackageEditor.UpdateEncryptedPackage"]
+f1_keywords: 
+ - "appxpackaging/IAppxPackageEditor.UpdateEncryptedPackage"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

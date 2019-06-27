@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateOperator, CreateOperator method, CreateOperator method,IDMLDevice interface, IDMLDevice interface,CreateOperator method, IDMLDevice.CreateOperator, IDMLDevice::CreateOperator, direct3d12.idmldevice_createoperator, directml/IDMLDevice::CreateOperator
 ms.topic: method
-f1_keywords: ["directml/IDMLDevice.CreateOperator"]
+f1_keywords: 
+ - "directml/IDMLDevice.CreateOperator"
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

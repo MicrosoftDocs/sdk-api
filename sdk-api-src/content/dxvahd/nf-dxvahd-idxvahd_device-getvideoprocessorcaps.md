@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVideoProcessorCaps, GetVideoProcessorCaps method [Media Foundation], GetVideoProcessorCaps method [Media Foundation],IDXVAHD_Device interface, IDXVAHD_Device interface [Media Foundation],GetVideoProcessorCaps method, IDXVAHD_Device.GetVideoProcessorCaps, IDXVAHD_Device::GetVideoProcessorCaps, dxvahd/IDXVAHD_Device::GetVideoProcessorCaps, mf.idxvahd_device_getvideoprocessorcaps
 ms.topic: method
-f1_keywords: ["dxvahd/IDXVAHD_Device.GetVideoProcessorCaps"]
+f1_keywords: 
+ - "dxvahd/IDXVAHD_Device.GetVideoProcessorCaps"
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

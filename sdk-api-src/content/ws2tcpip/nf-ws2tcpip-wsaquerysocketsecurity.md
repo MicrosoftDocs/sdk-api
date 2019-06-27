@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAQuerySocketSecurity, WSAQuerySocketSecurity function [Winsock], winsock.wsaquerysocketsecurity, ws2tcpip/WSAQuerySocketSecurity
 ms.topic: function
-f1_keywords: ["ws2tcpip/WSAQuerySocketSecurity"]
+f1_keywords: 
+ - "ws2tcpip/WSAQuerySocketSecurity"
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

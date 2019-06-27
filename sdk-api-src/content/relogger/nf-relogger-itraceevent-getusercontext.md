@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUserContext, GetUserContext method [ETW], GetUserContext method [ETW],ITraceEvent interface, ITraceEvent interface [ETW],GetUserContext method, ITraceEvent.GetUserContext, ITraceEvent::GetUserContext, etw.ievent_getusercontext, relogger/ITraceEvent::GetUserContext
 ms.topic: method
-f1_keywords: ["relogger/ITraceEvent.GetUserContext"]
+f1_keywords: 
+ - "relogger/ITraceEvent.GetUserContext"
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

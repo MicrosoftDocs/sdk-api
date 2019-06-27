@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPM_HDCP_KEY_SELECTION_VECTOR, OPM_HDCP_KEY_SELECTION_VECTOR structure [Media Foundation], mf.opm_hdcp_key_selection_vector, opmapi/OPM_HDCP_KEY_SELECTION_VECTOR
 ms.topic: struct
-f1_keywords: ["opmapi/OPM_HDCP_KEY_SELECTION_VECTOR"]
+f1_keywords: 
+ - "opmapi/OPM_HDCP_KEY_SELECTION_VECTOR"
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

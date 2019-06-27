@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnhancedStorageSilo interface [Enhanced Storage],SendCommand method, IEnhancedStorageSilo.SendCommand, IEnhancedStorageSilo::SendCommand, SendCommand, SendCommand method [Enhanced Storage], SendCommand method [Enhanced Storage],IEnhancedStorageSilo interface, ehstorapi/IEnhancedStorageSilo::SendCommand, enstor.ienhancedstoragesilo_sendcommand
 ms.topic: method
-f1_keywords: ["ehstorapi/IEnhancedStorageSilo.SendCommand"]
+f1_keywords: 
+ - "ehstorapi/IEnhancedStorageSilo.SendCommand"
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

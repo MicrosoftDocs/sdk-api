@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProxyPort, GetProxyPort method [windows Media Format], GetProxyPort method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetProxyPort method, IWMReaderNetworkConfig.GetProxyPort, IWMReaderNetworkConfig::GetProxyPort, IWMReaderNetworkConfigGetProxyPort, wmformat.iwmreadernetworkconfig_getproxyport, wmsdkidl/IWMReaderNetworkConfig::GetProxyPort
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderNetworkConfig.GetProxyPort"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderNetworkConfig.GetProxyPort"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

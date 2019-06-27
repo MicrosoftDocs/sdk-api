@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwRule3 interface [ICS/ICF],SecureFlags property, INetFwRule3.SecureFlags, INetFwRule3.get_SecureFlags, INetFwRule3::SecureFlags, INetFwRule3::get_SecureFlags, INetFwRule3::put_SecureFlags, SecureFlags property [ICS/ICF], SecureFlags property [ICS/ICF],INetFwRule3 interface, get_SecureFlags, ics.inetfwrule3_secureflags, netfw/INetFwRule3::SecureFlags, netfw/INetFwRule3::get_SecureFlags, netfw/INetFwRule3::put_SecureFlags
 ms.topic: method
-f1_keywords: ["netfw/INetFwRule3.SecureFlags"]
+f1_keywords: 
+ - "netfw/INetFwRule3.SecureFlags"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

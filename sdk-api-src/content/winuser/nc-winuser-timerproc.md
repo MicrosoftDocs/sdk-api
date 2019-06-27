@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TimerProc, TimerProc callback, TimerProc callback function [Windows and Messages], _win32_TimerProc, _win32_timerproc_cpp, winmsg.timerproc, winui._win32_timerproc, winuser/TimerProc
 ms.topic: callback
-f1_keywords: ["winuser/TimerProc"]
+f1_keywords: 
+ - "winuser/TimerProc"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

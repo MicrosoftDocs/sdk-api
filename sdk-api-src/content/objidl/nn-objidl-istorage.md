@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStorage, IStorage interface [Structured Storage], IStorage interface [Structured Storage],described, _stg_istorage, objidl/IStorage, stg.istorage
 ms.topic: interface
-f1_keywords: ["objidl/IStorage"]
+f1_keywords: 
+ - "objidl/IStorage"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

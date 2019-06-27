@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMetaDataDispenser interface [Windows Runtime],OpenScope method, IMetaDataDispenser.OpenScope, IMetaDataDispenser::OpenScope, OpenScope, OpenScope method [Windows Runtime], OpenScope method [Windows Runtime],IMetaDataDispenser interface, rometadataapi/IMetaDataDispenser::OpenScope, winrt.imetadatadispenser_openscope
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataDispenser.OpenScope"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataDispenser.OpenScope"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

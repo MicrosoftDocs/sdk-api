@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVideoAcceleratorGUIDs, GetVideoAcceleratorGUIDs method [DirectShow], GetVideoAcceleratorGUIDs method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],GetVideoAcceleratorGUIDs method, IAMVideoAccelerator.GetVideoAcceleratorGUIDs, IAMVideoAccelerator::GetVideoAcceleratorGUIDs, IAMVideoAcceleratorGetVideoAcceleratorGUIDs, dshow.iamvideoaccelerator_getvideoacceleratorguids, videoacc/IAMVideoAccelerator::GetVideoAcceleratorGUIDs
 ms.topic: method
-f1_keywords: ["videoacc/IAMVideoAccelerator.GetVideoAcceleratorGUIDs"]
+f1_keywords: 
+ - "videoacc/IAMVideoAccelerator.GetVideoAcceleratorGUIDs"
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows

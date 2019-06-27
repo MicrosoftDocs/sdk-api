@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FLOATOBJ_GetFloat, FLOATOBJ_GetFloat function [Display Devices], display.floatobj_getfloat, gdifncs_6f6c6936-a1f3-41d0-835d-52abc1140cc2.xml, winddi/FLOATOBJ_GetFloat
 ms.topic: function
-f1_keywords: ["winddi/FLOATOBJ_GetFloat"]
+f1_keywords: 
+ - "winddi/FLOATOBJ_GetFloat"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

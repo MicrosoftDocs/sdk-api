@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IKsNodeControl interface [DirectShow],put_NodeId method, IKsNodeControl.put_NodeId, IKsNodeControl::put_NodeId, IKsNodeControlput_NodeId, dshow.iksnodecontrol_put_nodeid, put_NodeId, put_NodeId method [DirectShow], put_NodeId method [DirectShow],IKsNodeControl interface, vidcap/IKsNodeControl::put_NodeId
 ms.topic: method
-f1_keywords: ["vidcap/IKsNodeControl.put_NodeId"]
+f1_keywords: 
+ - "vidcap/IKsNodeControl.put_NodeId"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

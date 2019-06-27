@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzClientContext3, IAzClientContext3 interface [Security], IAzClientContext3 interface [Security],described, azroles/IAzClientContext3, security.iazclientcontext3
 ms.topic: interface
-f1_keywords: ["azroles/IAzClientContext3"]
+f1_keywords: 
+ - "azroles/IAzClientContext3"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

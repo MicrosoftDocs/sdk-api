@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],IntSafeArrayToNativeArray method, IUIAutomation.IntSafeArrayToNativeArray, IUIAutomation::IntSafeArrayToNativeArray, IntSafeArrayToNativeArray, IntSafeArrayToNativeArray method [Windows Accessibility], IntSafeArrayToNativeArray method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_IntSafeArrayToNativeArray, uiauto_IUIAutomation_IntSafeArrayToNativeArray, uiautomationclient/IUIAutomation::IntSafeArrayToNativeArray, winauto.uiauto_IUIAutomation_IntSafeArrayToNativeArray
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomation.IntSafeArrayToNativeArray"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomation.IntSafeArrayToNativeArray"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

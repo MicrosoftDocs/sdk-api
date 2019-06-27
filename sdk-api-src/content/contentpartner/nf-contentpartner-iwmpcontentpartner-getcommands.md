@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCommands, GetCommands method [Windows Media Player], GetCommands method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetCommands method, IWMPContentPartner.GetCommands, IWMPContentPartner::GetCommands, IWMPContentPartnerGetCommands, contentpartner/IWMPContentPartner::GetCommands, wmp.iwmpcontentpartner_getcommands
 ms.topic: method
-f1_keywords: ["contentpartner/IWMPContentPartner.GetCommands"]
+f1_keywords: 
+ - "contentpartner/IWMPContentPartner.GetCommands"
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

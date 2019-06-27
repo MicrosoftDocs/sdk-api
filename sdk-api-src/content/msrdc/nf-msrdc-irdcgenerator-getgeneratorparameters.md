@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGeneratorParameters, GetGeneratorParameters method [Remote Differential Compression], GetGeneratorParameters method [Remote Differential Compression],IRdcGenerator interface, IRdcGenerator interface [Remote Differential Compression],GetGeneratorParameters method, IRdcGenerator.GetGeneratorParameters, IRdcGenerator::GetGeneratorParameters, fs.irdcgenerator_getgeneratorparameters, msrdc/IRdcGenerator::GetGeneratorParameters, rdc.irdcgenerator_getgeneratorparameters
 ms.topic: method
-f1_keywords: ["msrdc/IRdcGenerator.GetGeneratorParameters"]
+f1_keywords: 
+ - "msrdc/IRdcGenerator.GetGeneratorParameters"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EditInternalPort, EditInternalPort method [ICS/ICF], EditInternalPort method [ICS/ICF],IStaticPortMapping interface, IStaticPortMapping interface [ICS/ICF],EditInternalPort method, IStaticPortMapping.EditInternalPort, IStaticPortMapping::EditInternalPort, _ics_istaticportmapping_editinternalport, ics.istaticportmapping_editinternalport, natupnp/IStaticPortMapping::EditInternalPort
 ms.topic: method
-f1_keywords: ["natupnp/IStaticPortMapping.EditInternalPort"]
+f1_keywords: 
+ - "natupnp/IStaticPortMapping.EditInternalPort"
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

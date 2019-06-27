@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleUIAddVerbMenu, OleUIAddVerbMenu function [COM], OleUIAddVerbMenuA, OleUIAddVerbMenuW, _ole_OleUIAddVerbMenu, com.oleuiaddverbmenu, oledlg/OleUIAddVerbMenu, oledlg/OleUIAddVerbMenuA, oledlg/OleUIAddVerbMenuW
 ms.topic: function
-f1_keywords: ["oledlg/OleUIAddVerbMenu"]
+f1_keywords: 
+ - "oledlg/OleUIAddVerbMenu"
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

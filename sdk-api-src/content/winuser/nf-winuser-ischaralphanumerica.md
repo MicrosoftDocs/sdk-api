@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsCharAlphaNumeric, IsCharAlphaNumeric function [Menus and Other Resources], IsCharAlphaNumericA, IsCharAlphaNumericW, _win32_IsCharAlphaNumeric, _win32_ischaralphanumeric_cpp, menurc.ischaralphanumeric, winui._win32_ischaralphanumeric, winuser/IsCharAlphaNumeric, winuser/IsCharAlphaNumericA, winuser/IsCharAlphaNumericW
 ms.topic: function
-f1_keywords: ["winuser/IsCharAlphaNumeric"]
+f1_keywords: 
+ - "winuser/IsCharAlphaNumeric"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

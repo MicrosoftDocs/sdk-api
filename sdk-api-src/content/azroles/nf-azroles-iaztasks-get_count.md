@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzTasks object [Security],Count property, Count property [Security], Count property [Security],AzTasks object, Count property [Security],IAzTasks interface, IAzTasks interface [Security],Count property, IAzTasks.Count, IAzTasks.get_Count, IAzTasks::Count, IAzTasks::get_Count, azroles/IAzTasks::Count, azroles/IAzTasks::get_Count, get_Count, security.iaztasks_count
 ms.topic: method
-f1_keywords: ["azroles/IAzTasks.Count"]
+f1_keywords: 
+ - "azroles/IAzTasks.Count"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

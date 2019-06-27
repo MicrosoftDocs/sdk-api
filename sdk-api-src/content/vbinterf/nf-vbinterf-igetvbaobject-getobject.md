@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [COM], GetObject method [COM],IGetVBAObject interface, IGetVBAObject interface [COM],GetObject method, IGetVBAObject.GetObject, IGetVBAObject::GetObject, _com_IGetVBAObject_GetObject, com.igetvbaobject_getobject, vbinterf/IGetVBAObject::GetObject
 ms.topic: method
-f1_keywords: ["vbinterf/IGetVBAObject.GetObject"]
+f1_keywords: 
+ - "vbinterf/IGetVBAObject.GetObject"
 req.header: vbinterf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INTERNET_CONNECTION_CONFIGURED, INTERNET_CONNECTION_LAN, INTERNET_CONNECTION_MODEM, INTERNET_CONNECTION_MODEM_BUSY, INTERNET_CONNECTION_OFFLINE, INTERNET_CONNECTION_PROXY, INTERNET_RAS_INSTALLED, InternetGetConnectedState, InternetGetConnectedState function [WinINet], _inet_internetgetconnectedstate_function, wininet.internetgetconnectedstate, winineti/InternetGetConnectedState
 ms.topic: function
-f1_keywords: ["wininet/InternetGetConnectedState"]
+f1_keywords: 
+ - "wininet/InternetGetConnectedState"
 req.header: wininet.h
 req.include-header: Wininet.h
 req.target-type: Windows

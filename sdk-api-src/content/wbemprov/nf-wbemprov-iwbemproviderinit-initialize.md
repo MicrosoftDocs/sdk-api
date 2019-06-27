@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemProviderInit interface [Windows Management Instrumentation],Initialize method, IWbemProviderInit.Initialize, IWbemProviderInit::Initialize, Initialize, Initialize method [Windows Management Instrumentation], Initialize method [Windows Management Instrumentation],IWbemProviderInit interface, _hmm_iwbemproviderinit_initialize, wbemprov/IWbemProviderInit::Initialize, wmi.iwbemproviderinit_initialize
 ms.topic: method
-f1_keywords: ["wbemprov/IWbemProviderInit.Initialize"]
+f1_keywords: 
+ - "wbemprov/IWbemProviderInit.Initialize"
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

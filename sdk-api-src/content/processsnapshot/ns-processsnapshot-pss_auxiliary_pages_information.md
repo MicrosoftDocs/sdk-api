@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSS_AUXILIARY_PAGES_INFORMATION, PSS_AUXILIARY_PAGES_INFORMATION structure, proc_snap.pss_auxiliary_pages_information, processsnapshot/PSS_AUXILIARY_PAGES_INFORMATION
 ms.topic: struct
-f1_keywords: ["processsnapshot/PSS_AUXILIARY_PAGES_INFORMATION"]
+f1_keywords: 
+ - "processsnapshot/PSS_AUXILIARY_PAGES_INFORMATION"
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

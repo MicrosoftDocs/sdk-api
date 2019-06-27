@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAttributes, GetAttributes method [NDF], GetAttributes method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetAttributes method, INetDiagHelper.GetAttributes, INetDiagHelper::GetAttributes, ndf.inetdiaghelpe_getattributes, ndhelper/INetDiagHelper::GetAttributes
 ms.topic: method
-f1_keywords: ["ndhelper/INetDiagHelper.GetAttributes"]
+f1_keywords: 
+ - "ndhelper/INetDiagHelper.GetAttributes"
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

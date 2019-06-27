@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSinkEvent4.WriteFailureClear, IMSVidStreamBufferSinkEvent4::WriteFailureClear, IMSVidstreamBufferSinkEvent4 interface [Microsoft TV Technologies],WriteFailureClear method, IMSVidstreamBufferSinkEvent4::WriteFailureClear, WriteFailureClear, WriteFailureClear method [Microsoft TV Technologies], WriteFailureClear method [Microsoft TV Technologies],IMSVidstreamBufferSinkEvent4 interface, mstv.imsvidstreambuffersinkevent4_writefailureclear, segment/IMSVidstreamBufferSinkEvent4::WriteFailureClear
 ms.topic: method
-f1_keywords: ["segment/IMSVidstreamBufferSinkEvent4.WriteFailureClear"]
+f1_keywords: 
+ - "segment/IMSVidstreamBufferSinkEvent4.WriteFailureClear"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateOperatorInitializer, CreateOperatorInitializer method, CreateOperatorInitializer method,IDMLDevice interface, IDMLDevice interface,CreateOperatorInitializer method, IDMLDevice.CreateOperatorInitializer, IDMLDevice::CreateOperatorInitializer, direct3d12.idmldevice_createoperatorinitializer, directml/IDMLDevice::CreateOperatorInitializer
 ms.topic: method
-f1_keywords: ["directml/IDMLDevice.CreateOperatorInitializer"]
+f1_keywords: 
+ - "directml/IDMLDevice.CreateOperatorInitializer"
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

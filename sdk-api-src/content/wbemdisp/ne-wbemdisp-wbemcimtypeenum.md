@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WbemCimTypeEnum, WbemCimTypeEnum enumeration [Windows Management Instrumentation], WbemCimtypeEnum, _hmm_wbemcimtypeenum, wbemCimtypeBoolean, wbemCimtypeChar16, wbemCimtypeDatetime, wbemCimtypeObject, wbemCimtypeReal32, wbemCimtypeReal64, wbemCimtypeReference, wbemCimtypeSint16, wbemCimtypeSint32, wbemCimtypeSint64, wbemCimtypeSint8, wbemCimtypeString, wbemCimtypeUint16, wbemCimtypeUint32, wbemCimtypeUint64, wbemCimtypeUint8, wbemdisp/WbemCimTypeEnum, wbemdisp/wbemCimtypeBoolean, wbemdisp/wbemCimtypeChar16, wbemdisp/wbemCimtypeDatetime, wbemdisp/wbemCimtypeObject, wbemdisp/wbemCimtypeReal32, wbemdisp/wbemCimtypeReal64, wbemdisp/wbemCimtypeReference, wbemdisp/wbemCimtypeSint16, wbemdisp/wbemCimtypeSint32, wbemdisp/wbemCimtypeSint64, wbemdisp/wbemCimtypeSint8, wbemdisp/wbemCimtypeString, wbemdisp/wbemCimtypeUint16, wbemdisp/wbemCimtypeUint32, wbemdisp/wbemCimtypeUint64, wbemdisp/wbemCimtypeUint8, wmi.wbemcimtypeenum
 ms.topic: enum
-f1_keywords: ["wbemdisp/WbemCimTypeEnum"]
+f1_keywords: 
+ - "wbemdisp/WbemCimTypeEnum"
 req.header: wbemdisp.h
 req.include-header: 
 req.target-type: Windows

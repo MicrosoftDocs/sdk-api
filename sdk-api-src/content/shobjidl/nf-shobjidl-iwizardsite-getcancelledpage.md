@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCancelledPage, GetCancelledPage method [Windows Shell], GetCancelledPage method [Windows Shell],IWizardSite interface, IWizardSite interface [Windows Shell],GetCancelledPage method, IWizardSite.GetCancelledPage, IWizardSite::GetCancelledPage, _shell_IWizardSite_GetCancelledPage, shell.IWizardSite_GetCancelledPage, shobjidl/IWizardSite::GetCancelledPage
 ms.topic: method
-f1_keywords: ["shobjidl/IWizardSite.GetCancelledPage"]
+f1_keywords: 
+ - "shobjidl/IWizardSite.GetCancelledPage"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

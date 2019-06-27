@@ -4,7 +4,8 @@ title: WLAN_INTERFACE_STATE
 ms.date: 01/30/19
 ms.keywords: _WLAN_INTERFACE_STATE, WLAN_INTERFACE_STATE
 ms.topic: language-reference
-f1_keywords: ["wlanapi/_WLAN_INTERFACE_STATE"]
+f1_keywords: 
+ - "wlanapi/_WLAN_INTERFACE_STATE"
 targetos: Windows
 product: Windows
 req.construct-type: enumeration

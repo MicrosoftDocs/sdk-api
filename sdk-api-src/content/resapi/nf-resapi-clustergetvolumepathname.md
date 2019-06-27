@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterGetVolumePathName, ClusterGetVolumePathName function [Failover Cluster], PCLUSTER_GET_VOLUME_PATH_NAME, PCLUSTER_GET_VOLUME_PATH_NAME function [Failover Cluster], mscs.clustergetvolumepathname, resapi/ClusterGetVolumePathName, resapi/PCLUSTER_GET_VOLUME_PATH_NAME
 ms.topic: function
-f1_keywords: ["resapi/ClusterGetVolumePathName"]
+f1_keywords: 
+ - "resapi/ClusterGetVolumePathName"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

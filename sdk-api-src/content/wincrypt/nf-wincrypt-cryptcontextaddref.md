@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptContextAddRef, CryptContextAddRef function [Security], _crypto2_cryptcontextaddref, security.cryptcontextaddref, wincrypt/CryptContextAddRef
 ms.topic: function
-f1_keywords: ["wincrypt/CryptContextAddRef"]
+f1_keywords: 
+ - "wincrypt/CryptContextAddRef"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

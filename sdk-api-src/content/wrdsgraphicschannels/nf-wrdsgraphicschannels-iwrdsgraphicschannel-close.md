@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Remote Desktop Services], Close method [Remote Desktop Services],IWRdsGraphicsChannel interface, IWRdsGraphicsChannel interface [Remote Desktop Services],Close method, IWRdsGraphicsChannel.Close, IWRdsGraphicsChannel::Close, termserv.iwrdsgraphicschannel_close, wrdsgraphicschannels/IWRdsGraphicsChannel::Close
 ms.topic: method
-f1_keywords: ["wrdsgraphicschannels/IWRdsGraphicsChannel.Close"]
+f1_keywords: 
+ - "wrdsgraphicschannels/IWRdsGraphicsChannel.Close"
 req.header: wrdsgraphicschannels.h
 req.include-header: 
 req.target-type: Windows

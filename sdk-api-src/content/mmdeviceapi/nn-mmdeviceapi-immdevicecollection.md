@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMMDeviceCollection, IMMDeviceCollection interface [Core Audio], IMMDeviceCollection interface [Core Audio],described, coreaudio.immdevicecollection, mmdeviceapi/IMMDeviceCollection
 ms.topic: interface
-f1_keywords: ["mmdeviceapi/IMMDeviceCollection"]
+f1_keywords: 
+ - "mmdeviceapi/IMMDeviceCollection"
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

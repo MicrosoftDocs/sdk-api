@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentGrabbedItems, GetCurrentGrabbedItems method [Windows Accessibility], GetCurrentGrabbedItems method [Windows Accessibility],IUIAutomationDragPattern interface, IUIAutomationDragPattern interface [Windows Accessibility],GetCurrentGrabbedItems method, IUIAutomationDragPattern.GetCurrentGrabbedItems, IUIAutomationDragPattern::GetCurrentGrabbedItems, uiautomationclient/IUIAutomationDragPattern::GetCurrentGrabbedItems, winauto.uiauto_iuiautomationdragpattern_getcurrentgrabbeditems
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationDragPattern.GetCurrentGrabbedItems"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationDragPattern.GetCurrentGrabbedItems"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

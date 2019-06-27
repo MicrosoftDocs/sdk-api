@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],NetTransportArrived method, IOfflineFilesEvents.NetTransportArrived, IOfflineFilesEvents::NetTransportArrived, NetTransportArrived, NetTransportArrived method [Offline Files], NetTransportArrived method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::NetTransportArrived, of.iofflinefilesevents_nettransportarrived
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesEvents.NetTransportArrived"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesEvents.NetTransportArrived"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

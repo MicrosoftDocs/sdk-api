@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICGetState, ICGetState macro [Windows Multimedia], _win32_ICGetState, multimedia.icgetstate, vfw/ICGetState
 ms.topic: macro
-f1_keywords: ["vfw/ICGetState"]
+f1_keywords: 
+ - "vfw/ICGetState"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

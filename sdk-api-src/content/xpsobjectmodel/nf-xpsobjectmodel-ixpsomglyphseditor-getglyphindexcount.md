@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGlyphIndexCount, GetGlyphIndexCount method [XPS Documents and Packaging], GetGlyphIndexCount method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetGlyphIndexCount method, IXpsOMGlyphsEditor.GetGlyphIndexCount, IXpsOMGlyphsEditor::GetGlyphIndexCount, xps.ixpsomglyphseditor_getglyphindexcount, xpsobjectmodel/IXpsOMGlyphsEditor::GetGlyphIndexCount
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGlyphsEditor.GetGlyphIndexCount"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGlyphsEditor.GetGlyphIndexCount"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

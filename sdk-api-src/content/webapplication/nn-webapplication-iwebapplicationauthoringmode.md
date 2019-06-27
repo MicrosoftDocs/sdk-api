@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationAuthoringMode, IWebApplicationAuthoringMode interface [Debugging Windows Store apps], IWebApplicationAuthoringMode interface [Debugging Windows Store apps],described, debug.iwebapplicationauthoringmode, webapplication/IWebApplicationAuthoringMode
 ms.topic: interface
-f1_keywords: ["webapplication/IWebApplicationAuthoringMode"]
+f1_keywords: 
+ - "webapplication/IWebApplicationAuthoringMode"
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

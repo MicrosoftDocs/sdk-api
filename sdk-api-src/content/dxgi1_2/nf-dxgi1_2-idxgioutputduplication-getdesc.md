@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method [DXGI], GetDesc method [DXGI],IDXGIOutputDuplication interface, IDXGIOutputDuplication interface [DXGI],GetDesc method, IDXGIOutputDuplication.GetDesc, IDXGIOutputDuplication::GetDesc, direct3ddxgi.idxgioutputduplication_getdesc, dxgi1_2/IDXGIOutputDuplication::GetDesc
 ms.topic: method
-f1_keywords: ["dxgi1_2/IDXGIOutputDuplication.GetDesc"]
+f1_keywords: 
+ - "dxgi1_2/IDXGIOutputDuplication.GetDesc"
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

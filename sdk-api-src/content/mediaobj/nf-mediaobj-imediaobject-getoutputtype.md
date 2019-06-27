@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOutputType, GetOutputType method [DirectShow], GetOutputType method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetOutputType method, IMediaObject.GetOutputType, IMediaObject::GetOutputType, IMediaObjectGetOutputType, dshow.imediaobject_getoutputtype, mediaobj/IMediaObject::GetOutputType
 ms.topic: method
-f1_keywords: ["mediaobj/IMediaObject.GetOutputType"]
+f1_keywords: 
+ - "mediaobj/IMediaObject.GetOutputType"
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

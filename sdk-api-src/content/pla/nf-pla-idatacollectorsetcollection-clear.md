@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [PLA], Clear method [PLA],IDataCollectorSetCollection interface, IDataCollectorSetCollection interface [PLA],Clear method, IDataCollectorSetCollection.Clear, IDataCollectorSetCollection::Clear, base.idatacollectorsetcollection_clear, pla.idatacollectorsetcollection_clear, pla/IDataCollectorSetCollection::Clear
 ms.topic: method
-f1_keywords: ["pla/IDataCollectorSetCollection.Clear"]
+f1_keywords: 
+ - "pla/IDataCollectorSetCollection.Clear"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

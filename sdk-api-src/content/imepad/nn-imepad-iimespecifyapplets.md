@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IImeSpecifyApplets, IImeSpecifyApplets interface [Internationalization for Windows Applications], IImeSpecifyApplets interface [Internationalization for Windows Applications],described, imepad/IImeSpecifyApplets, intl.iimespecifyapplets
 ms.topic: interface
-f1_keywords: ["imepad/IImeSpecifyApplets"]
+f1_keywords: 
+ - "imepad/IImeSpecifyApplets"
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows

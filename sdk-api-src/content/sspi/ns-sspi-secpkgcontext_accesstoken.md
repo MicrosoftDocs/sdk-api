@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSecPkgContext_AccessToken, PSecPkgContext_AccessToken, PSecPkgContext_AccessToken structure pointer [Security], SecPkgContext_AccessToken, SecPkgContext_AccessToken structure [Security], security.secpkgcontext_accesstoken, sspi/PSecPkgContext_AccessToken, sspi/SecPkgContext_AccessToken"
 ms.topic: struct
-f1_keywords: ["sspi/SecPkgContext_AccessToken"]
+f1_keywords: 
+ - "sspi/SecPkgContext_AccessToken"
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMDeviceRemoval, IAMDeviceRemoval interface [DirectShow], IAMDeviceRemoval interface [DirectShow],described, IAMDeviceRemovalInterface, dshow.iamdeviceremoval, strmif/IAMDeviceRemoval
 ms.topic: interface
-f1_keywords: ["strmif/IAMDeviceRemoval"]
+f1_keywords: 
+ - "strmif/IAMDeviceRemoval"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

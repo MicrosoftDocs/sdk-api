@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIManagerEventSink interface [Text Services Framework],OnWindowUpdated method, IUIManagerEventSink.OnWindowUpdated, IUIManagerEventSink::OnWindowUpdated, OnWindowUpdated, OnWindowUpdated method [Text Services Framework], OnWindowUpdated method [Text Services Framework],IUIManagerEventSink interface, ctffunc/IUIManagerEventSink::OnWindowUpdated, tsf.iuimanagereventsink_onwindowupdated
 ms.topic: method
-f1_keywords: ["ctffunc/IUIManagerEventSink.OnWindowUpdated"]
+f1_keywords: 
+ - "ctffunc/IUIManagerEventSink.OnWindowUpdated"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

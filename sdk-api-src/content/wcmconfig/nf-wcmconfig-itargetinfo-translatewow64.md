@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITargetInfo interface [SMI],TranslateWow64 method, ITargetInfo.TranslateWow64, ITargetInfo::TranslateWow64, TranslateWow64, TranslateWow64 method [SMI], TranslateWow64 method [SMI],ITargetInfo interface, smi.itargetinfo_translatewow64, wcmconfig/ITargetInfo::TranslateWow64
 ms.topic: method
-f1_keywords: ["wcmconfig/ITargetInfo.TranslateWow64"]
+f1_keywords: 
+ - "wcmconfig/ITargetInfo.TranslateWow64"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

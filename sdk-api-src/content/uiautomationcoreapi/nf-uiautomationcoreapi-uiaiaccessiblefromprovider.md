@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UIA_IAFP_DEFAULT, UIA_IAFP_UNWRAP_BRIDGE, UiaIAccessibleFromProvider, UiaIAccessibleFromProvider function [Windows Accessibility], uiautomationcoreapi/UiaIAccessibleFromProvider, winauto.uiauto_UiaIAccessibleFromProvider
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/UiaIAccessibleFromProvider"]
+f1_keywords: 
+ - "uiautomationcoreapi/UiaIAccessibleFromProvider"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

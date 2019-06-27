@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentZoomMinimum property [Windows Accessibility], CurrentZoomMinimum property [Windows Accessibility],IUIAutomationTransformPattern2 interface, IUIAutomationTransformPattern2 interface [Windows Accessibility],CurrentZoomMinimum property, IUIAutomationTransformPattern2.CurrentZoomMinimum, IUIAutomationTransformPattern2.get_CurrentZoomMinimum, IUIAutomationTransformPattern2::CurrentZoomMinimum, IUIAutomationTransformPattern2::get_CurrentZoomMinimum, get_CurrentZoomMinimum, uiautomationclient/IUIAutomationTransformPattern2::CurrentZoomMinimum, uiautomationclient/IUIAutomationTransformPattern2::get_CurrentZoomMinimum, winauto.iuiautomationtransformpattern2_currentzoomminimum
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTransformPattern2.CurrentZoomMinimum"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTransformPattern2.CurrentZoomMinimum"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

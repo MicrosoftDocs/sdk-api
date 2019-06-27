@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectSinkEx interface [Windows Management Instrumentation],WriteProgress method, IWbemObjectSinkEx.WriteProgress, IWbemObjectSinkEx::WriteProgress, WriteProgress, WriteProgress method [Windows Management Instrumentation], WriteProgress method [Windows Management Instrumentation],IWbemObjectSinkEx interface, wbemcli/IWbemObjectSinkEx::WriteProgress, wmi.iwbemobjectsinkex_writeprogress
 ms.topic: method
-f1_keywords: ["wbemcli/IWbemObjectSinkEx.WriteProgress"]
+f1_keywords: 
+ - "wbemcli/IWbemObjectSinkEx.WriteProgress"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

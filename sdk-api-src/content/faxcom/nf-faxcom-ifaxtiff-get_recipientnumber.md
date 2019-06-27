@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxTiff interface [Fax Service],RecipientNumber property, IFaxTiff.RecipientNumber, IFaxTiff.get_RecipientNumber, IFaxTiff::RecipientNumber, IFaxTiff::get_RecipientNumber, RecipientNumber property [Fax Service], RecipientNumber property [Fax Service],IFaxTiff interface, _mfax_ifaxtiff_get_recipientnumber, fax._mfax_ifaxtiff_get_recipientnumber, fax._mfax_ifaxtiff_mfax_ifaxtiff_get_recipientnumber_cpp, faxcom/IFaxTiff::RecipientNumber, faxcom/IFaxTiff::get_RecipientNumber, get_RecipientNumber
 ms.topic: method
-f1_keywords: ["faxcom/IFaxTiff.RecipientNumber"]
+f1_keywords: 
+ - "faxcom/IFaxTiff.RecipientNumber"
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

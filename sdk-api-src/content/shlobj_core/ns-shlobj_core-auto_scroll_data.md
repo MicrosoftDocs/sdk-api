@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AUTO_SCROLL_DATA, AUTO_SCROLL_DATA structure [Windows Shell], _win32_AUTO_SCROLL_DATA_str, shell.AUTO_SCROLL_DATA_str, shlobj_core/AUTO_SCROLL_DATA
 ms.topic: struct
-f1_keywords: ["shlobj_core/AUTO_SCROLL_DATA"]
+f1_keywords: 
+ - "shlobj_core/AUTO_SCROLL_DATA"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

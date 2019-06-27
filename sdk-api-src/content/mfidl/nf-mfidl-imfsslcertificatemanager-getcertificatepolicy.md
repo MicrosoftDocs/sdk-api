@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCertificatePolicy, GetCertificatePolicy method [Media Foundation], GetCertificatePolicy method [Media Foundation],IMFSSLCertificateManager interface, IMFSSLCertificateManager interface [Media Foundation],GetCertificatePolicy method, IMFSSLCertificateManager.GetCertificatePolicy, IMFSSLCertificateManager::GetCertificatePolicy, mf.imfsslcertificatemanager_getcertificatepolicy, mfidl/IMFSSLCertificateManager::GetCertificatePolicy
 ms.topic: method
-f1_keywords: ["mfidl/IMFSSLCertificateManager.GetCertificatePolicy"]
+f1_keywords: 
+ - "mfidl/IMFSSLCertificateManager.GetCertificatePolicy"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIP_LOCAL_BINDING, IP_LOCAL_BINDING, IP_LOCAL_BINDING structure [RAS], PIP_LOCAL_BINDING, PIP_LOCAL_BINDING structure pointer [RAS], _mpr_ip_local_binding, routprot/IP_LOCAL_BINDING, routprot/PIP_LOCAL_BINDING, rras.ip_local_binding"
 ms.topic: struct
-f1_keywords: ["routprot/IP_LOCAL_BINDING"]
+f1_keywords: 
+ - "routprot/IP_LOCAL_BINDING"
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

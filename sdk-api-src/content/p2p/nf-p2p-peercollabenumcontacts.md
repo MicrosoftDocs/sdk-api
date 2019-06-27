@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerCollabEnumContacts, PeerCollabEnumContacts function [Peer Networking], p2p.peercollabenumcontacts, p2p/PeerCollabEnumContacts
 ms.topic: function
-f1_keywords: ["p2p/PeerCollabEnumContacts"]
+f1_keywords: 
+ - "p2p/PeerCollabEnumContacts"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

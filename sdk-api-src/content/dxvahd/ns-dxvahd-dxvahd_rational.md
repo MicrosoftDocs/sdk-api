@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_RATIONAL, DXVAHD_RATIONAL structure [Media Foundation], dxvahd/DXVAHD_RATIONAL, mf.dxvahd_rational
 ms.topic: struct
-f1_keywords: ["dxvahd/DXVAHD_RATIONAL"]
+f1_keywords: 
+ - "dxvahd/DXVAHD_RATIONAL"
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

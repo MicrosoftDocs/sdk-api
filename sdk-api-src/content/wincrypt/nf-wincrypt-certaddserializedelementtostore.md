@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_NEWER, CERT_STORE_ADD_NEWER_INHERIT_PROPERTIES, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES, CERT_STORE_ADD_USE_EXISTING, CERT_STORE_ALL_CONTEXT_FLAG, CERT_STORE_CERTIFICATE_CONTEXT, CERT_STORE_CERTIFICATE_CONTEXT_FLAG, CERT_STORE_CRL_CONTEXT, CERT_STORE_CRL_CONTEXT_FLAG, CERT_STORE_CTL_CONTEXT, CERT_STORE_CTL_CONTEXT_FLAG, CertAddSerializedElementToStore, CertAddSerializedElementToStore function [Security], _crypto2_certaddserializedelementtostore, security.certaddserializedelementtostore, wincrypt/CertAddSerializedElementToStore
 ms.topic: function
-f1_keywords: ["wincrypt/CertAddSerializedElementToStore"]
+f1_keywords: 
+ - "wincrypt/CertAddSerializedElementToStore"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

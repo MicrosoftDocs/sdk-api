@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPWSPSOCKET, WSPSocket, WSPSocket function [Winsock], _win32_wspsocket_2, winsock.wspsocket_2, ws2spi/WSPSocket
 ms.topic: callback
-f1_keywords: ["ws2spi/WSPSocket"]
+f1_keywords: 
+ - "ws2spi/WSPSocket"
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

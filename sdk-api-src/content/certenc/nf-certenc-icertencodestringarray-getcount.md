@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeStringArray object [Security],GetCount method, GetCount, GetCount method [Security], GetCount method [Security],CCertEncodeStringArray object, GetCount method [Security],ICertEncodeStringArray interface, ICertEncodeStringArray interface [Security],GetCount method, ICertEncodeStringArray.GetCount, ICertEncodeStringArray::GetCount, _certsrv_icertencodestringarray_getcount, certenc/ICertEncodeStringArray::GetCount, security.icertencodestringarray_getcount
 ms.topic: method
-f1_keywords: ["certenc/ICertEncodeStringArray.GetCount"]
+f1_keywords: 
+ - "certenc/ICertEncodeStringArray.GetCount"
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

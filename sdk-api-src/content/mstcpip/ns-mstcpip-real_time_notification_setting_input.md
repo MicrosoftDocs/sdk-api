@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PREAL_TIME_NOTIFICATION_SETTING_INPUT, PREAL_TIME_NOTIFICATION_SETTING_INPUT, PREAL_TIME_NOTIFICATION_SETTING_INPUT structure pointer [Winsock], REAL_TIME_NOTIFICATION_SETTING_INPUT, REAL_TIME_NOTIFICATION_SETTING_INPUT structure [Winsock], mstcpip/PREAL_TIME_NOTIFICATION_SETTING_INPUT, mstcpip/REAL_TIME_NOTIFICATION_SETTING_INPUT, winsock.real_time_notification_setting_input"
 ms.topic: struct
-f1_keywords: ["mstcpip/REAL_TIME_NOTIFICATION_SETTING_INPUT"]
+f1_keywords: 
+ - "mstcpip/REAL_TIME_NOTIFICATION_SETTING_INPUT"
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows

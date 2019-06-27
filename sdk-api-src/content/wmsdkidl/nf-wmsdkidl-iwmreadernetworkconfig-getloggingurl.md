@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLoggingUrl, GetLoggingUrl method [windows Media Format], GetLoggingUrl method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetLoggingUrl method, IWMReaderNetworkConfig.GetLoggingUrl, IWMReaderNetworkConfig::GetLoggingUrl, IWMReaderNetworkConfigGetLoggingUrl, wmformat.iwmreadernetworkconfig_getloggingurl, wmsdkidl/IWMReaderNetworkConfig::GetLoggingUrl
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderNetworkConfig.GetLoggingUrl"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderNetworkConfig.GetLoggingUrl"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

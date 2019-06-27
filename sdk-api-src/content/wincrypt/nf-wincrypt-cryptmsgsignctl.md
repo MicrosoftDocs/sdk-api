@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptMsgSignCTL, CryptMsgSignCTL function [Security], _crypto2_cryptmsgsignctl, security.cryptmsgsignctl, wincrypt/CryptMsgSignCTL
 ms.topic: function
-f1_keywords: ["wincrypt/CryptMsgSignCTL"]
+f1_keywords: 
+ - "wincrypt/CryptMsgSignCTL"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

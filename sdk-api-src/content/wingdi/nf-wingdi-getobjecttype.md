@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetObjectType, GetObjectType function [Windows GDI], _win32_GetObjectType, gdi.getobjecttype, wingdi/GetObjectType
 ms.topic: function
-f1_keywords: ["wingdi/GetObjectType"]
+f1_keywords: 
+ - "wingdi/GetObjectType"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],get_StartingSectorsPerSecond method, IWriteEngine2.get_StartingSectorsPerSecond, IWriteEngine2::get_StartingSectorsPerSecond, get_StartingSectorsPerSecond, get_StartingSectorsPerSecond method [IMAPI], get_StartingSectorsPerSecond method [IMAPI],IWriteEngine2 interface, imapi.iwriteengine2_get_startingsectorspersecond, imapi2/IWriteEngine2::get_StartingSectorsPerSecond
 ms.topic: method
-f1_keywords: ["imapi2/IWriteEngine2.get_StartingSectorsPerSecond"]
+f1_keywords: 
+ - "imapi2/IWriteEngine2.get_StartingSectorsPerSecond"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

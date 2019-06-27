@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DefDriverProc, DefDriverProc function [Windows Multimedia], DrvDefDriverProc, _win32_DefDriverProc, mmsystem/DefDriverProc, multimedia.defdriverproc
 ms.topic: function
-f1_keywords: ["mmiscapi/DefDriverProc"]
+f1_keywords: 
+ - "mmiscapi/DefDriverProc"
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],Update method, ITextDocument2.Update, ITextDocument2::Update, Update, Update method [Windows Controls], Update method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_update, tom/ITextDocument2::Update
 ms.topic: method
-f1_keywords: ["tom/ITextDocument2.Update"]
+f1_keywords: 
+ - "tom/ITextDocument2.Update"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

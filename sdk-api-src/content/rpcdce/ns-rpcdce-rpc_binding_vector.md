@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RPC_BINDING_VECTOR, RPC_BINDING_VECTOR structure [RPC], _rpc_rpc_binding_vector, rpc.rpc_binding_vector, rpcdce/RPC_BINDING_VECTOR
 ms.topic: struct
-f1_keywords: ["rpcdce/RPC_BINDING_VECTOR"]
+f1_keywords: 
+ - "rpcdce/RPC_BINDING_VECTOR"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

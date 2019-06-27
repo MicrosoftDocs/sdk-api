@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IColumnData interface [MMC],SetColumnConfigData method, IColumnData.SetColumnConfigData, IColumnData::SetColumnConfigData, SetColumnConfigData, SetColumnConfigData method [MMC], SetColumnConfigData method [MMC],IColumnData interface, _slate_icolumndata_setcolumnconfigdata, mmc.icolumndata_setcolumnconfigdata, mmc/IColumnData::SetColumnConfigData
 ms.topic: method
-f1_keywords: ["mmc/IColumnData.SetColumnConfigData"]
+f1_keywords: 
+ - "mmc/IColumnData.SetColumnConfigData"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

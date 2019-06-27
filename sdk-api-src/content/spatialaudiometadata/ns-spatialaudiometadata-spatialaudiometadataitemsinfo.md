@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSpatialAudioMetadataItemsInfo, PSpatialAudioMetadataItemsInfo structure pointer [Core Audio], SpatialAudioMetadataItemsInfo, SpatialAudioMetadataItemsInfo structure [Core Audio], coreaudio.spatialaudiometadataitemsinfo, spatialaudiometadata/PSpatialAudioMetadataItemsInfo, spatialaudiometadata/SpatialAudioMetadataItemsInfo
 ms.topic: struct
-f1_keywords: ["spatialaudiometadata/SpatialAudioMetadataItemsInfo"]
+f1_keywords: 
+ - "spatialaudiometadata/SpatialAudioMetadataItemsInfo"
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

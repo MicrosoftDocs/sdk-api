@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EcInsertObjectArrayElement, EcInsertObjectArrayElement function, evcoll/EcInsertObjectArrayElement, wec.ecinsertobjectarrayelement, wes.ecinsertobjectarrayelement
 ms.topic: function
-f1_keywords: ["evcoll/EcInsertObjectArrayElement"]
+f1_keywords: 
+ - "evcoll/EcInsertObjectArrayElement"
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

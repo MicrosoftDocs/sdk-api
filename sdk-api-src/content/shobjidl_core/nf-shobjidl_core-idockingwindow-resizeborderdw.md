@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDockingWindow interface [Windows Shell],ResizeBorderDW method, IDockingWindow.ResizeBorderDW, IDockingWindow::ResizeBorderDW, ResizeBorderDW, ResizeBorderDW method [Windows Shell], ResizeBorderDW method [Windows Shell],IDockingWindow interface, _win32_IDockingWindow_ResizeBorderDW, shell.IDockingWindow_ResizeBorderDW, shobjidl_core/IDockingWindow::ResizeBorderDW
 ms.topic: method
-f1_keywords: ["shobjidl_core/IDockingWindow.ResizeBorderDW"]
+f1_keywords: 
+ - "shobjidl_core/IDockingWindow.ResizeBorderDW"
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

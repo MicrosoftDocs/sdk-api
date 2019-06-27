@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioProcessingObject interface [Audio Devices],Initialize method, IAudioProcessingObject.Initialize, IAudioProcessingObject::Initialize, Initialize, Initialize method [Audio Devices], Initialize method [Audio Devices],IAudioProcessingObject interface, audio.iaudioprocessingobject_initialize, audio_syseffects_r_00c2b464-0c56-4357-ab5f-fdcdfb6a2414.xml, audioenginebaseapo/IAudioProcessingObject::Initialize
 ms.topic: method
-f1_keywords: ["audioenginebaseapo/IAudioProcessingObject.Initialize"]
+f1_keywords: 
+ - "audioenginebaseapo/IAudioProcessingObject.Initialize"
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Universal

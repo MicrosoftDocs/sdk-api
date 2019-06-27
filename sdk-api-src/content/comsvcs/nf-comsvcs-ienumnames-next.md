@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumNames interface [COM+],Next method, IEnumNames.Next, IEnumNames::Next, Next, Next method [COM+], Next method [COM+],IEnumNames interface, _cos_IEnumNames_Next, comsvcs/IEnumNames::Next, cos.ienumnames_next
 ms.topic: method
-f1_keywords: ["comsvcs/IEnumNames.Next"]
+f1_keywords: 
+ - "comsvcs/IEnumNames.Next"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

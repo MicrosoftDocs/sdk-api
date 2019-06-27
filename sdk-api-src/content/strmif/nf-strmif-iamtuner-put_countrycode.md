@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMTuner interface [DirectShow],put_CountryCode method, IAMTuner.put_CountryCode, IAMTuner::put_CountryCode, IAMTunerput_CountryCode, dshow.iamtuner_put_countrycode, put_CountryCode, put_CountryCode method [DirectShow], put_CountryCode method [DirectShow],IAMTuner interface, strmif/IAMTuner::put_CountryCode
 ms.topic: method
-f1_keywords: ["strmif/IAMTuner.put_CountryCode"]
+f1_keywords: 
+ - "strmif/IAMTuner.put_CountryCode"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

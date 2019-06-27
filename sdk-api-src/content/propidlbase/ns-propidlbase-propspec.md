@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROPSPEC, PROPSPEC [Strctd Stg], PROPSPEC structure [Structured Storage], PRSPEC_LPWSTR, PRSPEC_PROPID, _stg_propspec, propidlbase/PROPSPEC, stg.propspec, tagPROPSPEC
 ms.topic: struct
-f1_keywords: ["propidlbase/PROPSPEC"]
+f1_keywords: 
+ - "propidlbase/PROPSPEC"
 req.header: propidlbase.h
 req.include-header: Propidl.h
 req.target-type: Windows

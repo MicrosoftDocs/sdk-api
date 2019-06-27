@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPrivateDevices, GetPrivateDevices method [Windows Portable Devices SDK], GetPrivateDevices method [Windows Portable Devices SDK],IPortableDeviceManager interface, IPortableDeviceManager interface [Windows Portable Devices SDK],GetPrivateDevices method, IPortableDeviceManager.GetPrivateDevices, IPortableDeviceManager::GetPrivateDevices, IPortableDeviceManagerGetPrivateDevices, portabledeviceapi/IPortableDeviceManager::GetPrivateDevices, wpdsdk.iportabledevicemanager_getprivatedevices
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceManager.GetPrivateDevices"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceManager.GetPrivateDevices"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

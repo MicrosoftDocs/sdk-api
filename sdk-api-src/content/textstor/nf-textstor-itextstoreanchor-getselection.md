@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSelection, GetSelection method [Text Services Framework], GetSelection method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetSelection method, ITextStoreAnchor.GetSelection, ITextStoreAnchor::GetSelection, textstor/ITextStoreAnchor::GetSelection, tsf.itextstoreanchor_getselection
 ms.topic: method
-f1_keywords: ["textstor/ITextStoreAnchor.GetSelection"]
+f1_keywords: 
+ - "textstor/ITextStoreAnchor.GetSelection"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

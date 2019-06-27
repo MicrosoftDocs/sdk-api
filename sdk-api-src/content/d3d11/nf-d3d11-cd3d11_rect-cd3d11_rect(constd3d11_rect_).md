@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 05/06/2019
 ms.keywords: CD3D11_RECT, CD3D11_RECT constructor [Direct3D 11], CD3D11_RECT constructor [Direct3D 11],CD3D11_RECT interface, CD3D11_RECT interface [Direct3D 11],CD3D11_RECT constructor, CD3D11_RECT.CD3D11_RECT, CD3D11_RECT.CD3D11_RECT(const D3D11_RECT &), CD3D11_RECT::CD3D11_RECT, CD3D11_RECT::CD3D11_RECT(), CD3D11_RECT::CD3D11_RECT(const D3D11_RECT &), d3d11/CD3D11_RECT::CD3D11_RECT, direct3d11.cd3d11_rect_cd3d11_rect
 ms.topic: method
-f1_keywords: ["d3d11/CD3D11_RECT.CD3D11_RECT"]
+f1_keywords: 
+ - "d3d11/CD3D11_RECT.CD3D11_RECT"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CredFindBestCredential, CredFindBestCredential function [Security], CredFindBestCredentialA, CredFindBestCredentialW, security.credfindbestcredential, wincred/CredFindBestCredential, wincred/CredFindBestCredentialA, wincred/CredFindBestCredentialW
 ms.topic: function
-f1_keywords: ["wincred/CredFindBestCredential"]
+f1_keywords: 
+ - "wincred/CredFindBestCredential"
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

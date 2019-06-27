@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaEventEx interface [DirectShow],SetNotifyWindow method, IMediaEventEx.SetNotifyWindow, IMediaEventEx::SetNotifyWindow, IMediaEventExSetNotifyWindow, SetNotifyWindow, SetNotifyWindow method [DirectShow], SetNotifyWindow method [DirectShow],IMediaEventEx interface, control/IMediaEventEx::SetNotifyWindow, dshow.imediaeventex_setnotifywindow
 ms.topic: method
-f1_keywords: ["control/IMediaEventEx.SetNotifyWindow"]
+f1_keywords: 
+ - "control/IMediaEventEx.SetNotifyWindow"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

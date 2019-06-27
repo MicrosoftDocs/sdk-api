@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetworkEvents interface [Network Awareness],NetworkDeleted method, INetworkEvents.NetworkDeleted, INetworkEvents::NetworkDeleted, NetworkDeleted, NetworkDeleted method [Network Awareness], NetworkDeleted method [Network Awareness],INetworkEvents interface, netlistmgr/INetworkEvents::NetworkDeleted, nla.inetworkevents_networkdeleted
 ms.topic: method
-f1_keywords: ["netlistmgr/INetworkEvents.NetworkDeleted"]
+f1_keywords: 
+ - "netlistmgr/INetworkEvents.NetworkDeleted"
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

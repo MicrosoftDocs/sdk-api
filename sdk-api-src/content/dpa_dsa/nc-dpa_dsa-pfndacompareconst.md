@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFNDACOMPARECONST, PFNDACOMPARECONST callback, PFNDACOMPARECONST callback function [Windows Controls], PFNDPACOMPARECONST, PFNDSACOMPARECONST, _shell_PFNDACOMPARECONST, _shell_PFNDACOMPARECONST_cpp, controls.PFNDACOMPARECONST, controls._shell_PFNDACOMPARECONST, dpa_dsa/PFNDACOMPARECONST
 ms.topic: callback
-f1_keywords: ["dpa_dsa/PFNDACOMPARECONST"]
+f1_keywords: 
+ - "dpa_dsa/PFNDACOMPARECONST"
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

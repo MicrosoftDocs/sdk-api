@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMsmError interface,get_Language method, IMsmError.get_Language, IMsmError::get_Language, _msi_get_language_function_error_object_, get_Language, get_Language method, get_Language method,IMsmError interface, mergemod/IMsmError::get_Language, setup.imsmerror_get_language
 ms.topic: method
-f1_keywords: ["mergemod/IMsmError.get_Language"]
+f1_keywords: 
+ - "mergemod/IMsmError.get_Language"
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

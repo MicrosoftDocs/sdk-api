@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DynamicRendering property [Tablet PC], DynamicRendering property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],DynamicRendering property, IInkPicture.DynamicRendering, IInkPicture.get_DynamicRendering, IInkPicture::DynamicRendering, IInkPicture::get_DynamicRendering, IInkPicture::put_DynamicRendering, InkPicture.get_DynamicRendering, InkPicture.put_DynamicRendering, get_DynamicRendering, msinkaut/IInkPicture::DynamicRendering, msinkaut/IInkPicture::get_DynamicRendering, msinkaut/IInkPicture::put_DynamicRendering, put_DynamicRendering, tablet.inkpicture_dynamicrendering
 ms.topic: method
-f1_keywords: ["msinkaut/IInkPicture.DynamicRendering"]
+f1_keywords: 
+ - "msinkaut/IInkPicture.DynamicRendering"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

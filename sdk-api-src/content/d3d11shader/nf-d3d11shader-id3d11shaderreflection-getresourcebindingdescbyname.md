@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 70b00d95-7ff3-a94d-2a18-469be48c36b3, GetResourceBindingDescByName, GetResourceBindingDescByName method [Direct3D 11], GetResourceBindingDescByName method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetResourceBindingDescByName method, ID3D11ShaderReflection.GetResourceBindingDescByName, ID3D11ShaderReflection::GetResourceBindingDescByName, d3d11shader/ID3D11ShaderReflection::GetResourceBindingDescByName, direct3d11.id3d11shaderreflection_getresourcebindingdescbyname
 ms.topic: method
-f1_keywords: ["d3d11shader/ID3D11ShaderReflection.GetResourceBindingDescByName"]
+f1_keywords: 
+ - "d3d11shader/ID3D11ShaderReflection.GetResourceBindingDescByName"
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

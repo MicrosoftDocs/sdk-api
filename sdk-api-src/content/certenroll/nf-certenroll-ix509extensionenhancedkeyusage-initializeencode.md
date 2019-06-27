@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionEnhancedKeyUsage interface [Security],InitializeEncode method, IX509ExtensionEnhancedKeyUsage.InitializeEncode, IX509ExtensionEnhancedKeyUsage::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionEnhancedKeyUsage interface, certenroll/IX509ExtensionEnhancedKeyUsage::InitializeEncode, security.ix509extensionenhancedkeyusage_initializeencode_method
 ms.topic: method
-f1_keywords: ["certenroll/IX509ExtensionEnhancedKeyUsage.InitializeEncode"]
+f1_keywords: 
+ - "certenroll/IX509ExtensionEnhancedKeyUsage.InitializeEncode"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

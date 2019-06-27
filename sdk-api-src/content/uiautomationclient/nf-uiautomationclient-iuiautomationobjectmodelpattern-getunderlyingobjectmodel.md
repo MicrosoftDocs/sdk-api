@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUnderlyingObjectModel, GetUnderlyingObjectModel method [Windows Accessibility], GetUnderlyingObjectModel method [Windows Accessibility],IUIAutomationObjectModelPattern interface, IUIAutomationObjectModelPattern interface [Windows Accessibility],GetUnderlyingObjectModel method, IUIAutomationObjectModelPattern.GetUnderlyingObjectModel, IUIAutomationObjectModelPattern::GetUnderlyingObjectModel, uiautomationclient/IUIAutomationObjectModelPattern::GetUnderlyingObjectModel, winauto.uiauto_IUIAutomationObjectModelPattern_GetUnderlyingObjectModel
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationObjectModelPattern.GetUnderlyingObjectModel"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationObjectModelPattern.GetUnderlyingObjectModel"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

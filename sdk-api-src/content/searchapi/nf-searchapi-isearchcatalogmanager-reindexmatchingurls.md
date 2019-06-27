@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager interface [search],ReindexMatchingURLs method, ISearchCatalogManager.ReindexMatchingURLs, ISearchCatalogManager::ReindexMatchingURLs, ReindexMatchingURLs, ReindexMatchingURLs method [search], ReindexMatchingURLs method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_ReindexMatchingURLs, search._search_ISearchCatalogManager_ReindexMatchingURLs, searchapi/ISearchCatalogManager::ReindexMatchingURLs
 ms.topic: method
-f1_keywords: ["searchapi/ISearchCatalogManager.ReindexMatchingURLs"]
+f1_keywords: 
+ - "searchapi/ISearchCatalogManager.ReindexMatchingURLs"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

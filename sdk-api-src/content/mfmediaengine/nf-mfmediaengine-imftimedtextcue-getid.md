@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetId, GetId method [Media Foundation], GetId method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetId method, IMFTimedTextCue.GetId, IMFTimedTextCue::GetId, mf.imftimedtextcue_getid, mfmediaengine/IMFTimedTextCue::GetId
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedTextCue.GetId"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedTextCue.GetId"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

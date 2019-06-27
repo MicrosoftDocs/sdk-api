@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MONITOR_DEFAULTTONEAREST, MONITOR_DEFAULTTONULL, MONITOR_DEFAULTTOPRIMARY, MonitorFromRect, MonitorFromRect function [Windows GDI], _win32_MonitorFromRect, gdi.monitorfromrect, winuser/MonitorFromRect
 ms.topic: function
-f1_keywords: ["winuser/MonitorFromRect"]
+f1_keywords: 
+ - "winuser/MonitorFromRect"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

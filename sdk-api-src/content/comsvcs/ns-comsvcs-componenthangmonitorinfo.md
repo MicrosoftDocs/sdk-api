@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComponentHangMonitorInfo, ComponentHangMonitorInfo structure [COM+], comsvcs/ComponentHangMonitorInfo, cos.componenthangmonitorinfo
 ms.topic: struct
-f1_keywords: ["comsvcs/ComponentHangMonitorInfo"]
+f1_keywords: 
+ - "comsvcs/ComponentHangMonitorInfo"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

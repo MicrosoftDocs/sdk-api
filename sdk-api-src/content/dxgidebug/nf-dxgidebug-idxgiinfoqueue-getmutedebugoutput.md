@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMuteDebugOutput, GetMuteDebugOutput method [DXGI], GetMuteDebugOutput method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetMuteDebugOutput method, IDXGIInfoQueue.GetMuteDebugOutput, IDXGIInfoQueue::GetMuteDebugOutput, direct3ddxgi.idxgiinfoqueue_getmutedebugoutput, dxgidebug/IDXGIInfoQueue::GetMuteDebugOutput
 ms.topic: method
-f1_keywords: ["dxgidebug/IDXGIInfoQueue.GetMuteDebugOutput"]
+f1_keywords: 
+ - "dxgidebug/IDXGIInfoQueue.GetMuteDebugOutput"
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

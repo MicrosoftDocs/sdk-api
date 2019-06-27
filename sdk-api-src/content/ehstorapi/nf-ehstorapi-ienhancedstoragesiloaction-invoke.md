@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnhancedStorageSiloAction interface [Enhanced Storage],Invoke method, IEnhancedStorageSiloAction.Invoke, IEnhancedStorageSiloAction::Invoke, Invoke, Invoke method [Enhanced Storage], Invoke method [Enhanced Storage],IEnhancedStorageSiloAction interface, ehstorapi/IEnhancedStorageSiloAction::Invoke, enstor.ienhancedstoragesiloaction_invoke
 ms.topic: method
-f1_keywords: ["ehstorapi/IEnhancedStorageSiloAction.Invoke"]
+f1_keywords: 
+ - "ehstorapi/IEnhancedStorageSiloAction.Invoke"
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

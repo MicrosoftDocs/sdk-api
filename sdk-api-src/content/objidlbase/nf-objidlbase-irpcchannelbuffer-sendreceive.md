@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRpcChannelBuffer interface [COM],SendReceive method, IRpcChannelBuffer.SendReceive, IRpcChannelBuffer::SendReceive, SendReceive, SendReceive method [COM], SendReceive method [COM],IRpcChannelBuffer interface, _com_irpcchannelbuffer_sendreceive, com.irpcchannelbuffer_sendreceive, objidlbase/IRpcChannelBuffer::SendReceive
 ms.topic: method
-f1_keywords: ["objidlbase/IRpcChannelBuffer.SendReceive"]
+f1_keywords: 
+ - "objidlbase/IRpcChannelBuffer.SendReceive"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

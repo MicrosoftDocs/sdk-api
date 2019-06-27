@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IScanningTuner interface [Microsoft TV Technologies],ScanUp method, IScanningTuner.ScanUp, IScanningTuner::ScanUp, IScanningTunerScanUp, ScanUp, ScanUp method [Microsoft TV Technologies], ScanUp method [Microsoft TV Technologies],IScanningTuner interface, mstv.iscanningtuner_scanup, tuner/IScanningTuner::ScanUp
 ms.topic: method
-f1_keywords: ["tuner/IScanningTuner.ScanUp"]
+f1_keywords: 
+ - "tuner/IScanningTuner.ScanUp"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

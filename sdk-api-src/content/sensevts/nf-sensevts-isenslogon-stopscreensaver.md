@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISensLogon interface [SENS],StopScreenSaver method, ISensLogon.StopScreenSaver, ISensLogon::StopScreenSaver, StopScreenSaver, StopScreenSaver method [SENS], StopScreenSaver method [SENS],ISensLogon interface, _zaw_isenslogon_stopscreensaver, sens.isenslogon_stopscreensaver, sensevts/ISensLogon::StopScreenSaver, syncmgr.isenslogon_stopscreensaver
 ms.topic: method
-f1_keywords: ["sensevts/ISensLogon.StopScreenSaver"]
+f1_keywords: 
+ - "sensevts/ISensLogon.StopScreenSaver"
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows

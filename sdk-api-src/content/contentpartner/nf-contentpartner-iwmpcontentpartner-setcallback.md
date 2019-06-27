@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],SetCallback method, IWMPContentPartner.SetCallback, IWMPContentPartner::SetCallback, IWMPContentPartnerSetCallback, SetCallback, SetCallback method [Windows Media Player], SetCallback method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::SetCallback, wmp.iwmpcontentpartner_setcallback
 ms.topic: method
-f1_keywords: ["contentpartner/IWMPContentPartner.SetCallback"]
+f1_keywords: 
+ - "contentpartner/IWMPContentPartner.SetCallback"
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FsrmPipelineModuleConnector class [File Server Resource Manager],ModuleImplementation property, IFsrmPipelineModuleConnector interface [File Server Resource Manager],ModuleImplementation property, IFsrmPipelineModuleConnector.ModuleImplementation, IFsrmPipelineModuleConnector.get_ModuleImplementation, IFsrmPipelineModuleConnector::ModuleImplementation, IFsrmPipelineModuleConnector::get_ModuleImplementation, ModuleImplementation property [File Server Resource Manager], ModuleImplementation property [File Server Resource Manager],FsrmPipelineModuleConnector class, ModuleImplementation property [File Server Resource Manager],IFsrmPipelineModuleConnector interface, fs.ifsrmpipelinemoduleconnector_moduleimplementation, fsrm.ifsrmpipelinemoduleconnector_moduleimplementation, fsrmpipeline/IFsrmPipelineModuleConnector::ModuleImplementation, fsrmpipeline/IFsrmPipelineModuleConnector::get_ModuleImplementation, get_ModuleImplementation
 ms.topic: method
-f1_keywords: ["fsrmpipeline/IFsrmPipelineModuleConnector.ModuleImplementation"]
+f1_keywords: 
+ - "fsrmpipeline/IFsrmPipelineModuleConnector.ModuleImplementation"
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows

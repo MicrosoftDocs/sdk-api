@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentView, GetCurrentView method [Windows Shell], GetCurrentView method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],GetCurrentView method, IExplorerBrowser.GetCurrentView, IExplorerBrowser::GetCurrentView, _shell_IExplorerBrowser_GetCurrentView, shell.IExplorerBrowser_GetCurrentView, shobjidl_core/IExplorerBrowser::GetCurrentView
 ms.topic: method
-f1_keywords: ["shobjidl_core/IExplorerBrowser.GetCurrentView"]
+f1_keywords: 
+ - "shobjidl_core/IExplorerBrowser.GetCurrentView"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

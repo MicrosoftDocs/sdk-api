@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linegetmessage, lineGetMessage, lineGetMessage function [TAPI 2.2], tapi/lineGetMessage, tapi2.linegetmessage"
 ms.topic: function
-f1_keywords: ["tapi/lineGetMessage"]
+f1_keywords: 
+ - "tapi/lineGetMessage"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

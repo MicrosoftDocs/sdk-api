@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComponent2, IComponent2 interface [MMC], IComponent2 interface [MMC],described, _slate_icomponent2, mmc.icomponent2, mmc/IComponent2
 ms.topic: interface
-f1_keywords: ["mmc/IComponent2"]
+f1_keywords: 
+ - "mmc/IComponent2"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

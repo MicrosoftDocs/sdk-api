@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngSort, EngSort function [Display Devices], display.engsort, gdifncs_d675bef7-30d0-4e0d-a798-a397b282ce48.xml, winddi/EngSort
 ms.topic: function
-f1_keywords: ["winddi/EngSort"]
+f1_keywords: 
+ - "winddi/EngSort"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

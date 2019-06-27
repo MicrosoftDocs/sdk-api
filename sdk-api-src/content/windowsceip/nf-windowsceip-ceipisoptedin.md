@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CeipIsOptedIn, CeipIsOptedIn function, base.ceipisoptedin, windowsceip/ CeipIsOptedIn
 ms.topic: function
-f1_keywords: ["windowsceip/CeipIsOptedIn"]
+f1_keywords: 
+ - "windowsceip/CeipIsOptedIn"
 req.header: windowsceip.h
 req.include-header: 
 req.target-type: Windows

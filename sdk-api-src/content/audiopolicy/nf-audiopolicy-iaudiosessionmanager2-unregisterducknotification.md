@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionManager2 interface [Core Audio],UnregisterDuckNotification method, IAudioSessionManager2.UnregisterDuckNotification, IAudioSessionManager2::UnregisterDuckNotification, UnregisterDuckNotification, UnregisterDuckNotification method [Core Audio], UnregisterDuckNotification method [Core Audio],IAudioSessionManager2 interface, audiopolicy/IAudioSessionManager2::UnregisterDuckNotification, coreaudio.iaudiosessionmanager2_unregisterducknotification
 ms.topic: method
-f1_keywords: ["audiopolicy/IAudioSessionManager2.UnregisterDuckNotification"]
+f1_keywords: 
+ - "audiopolicy/IAudioSessionManager2.UnregisterDuckNotification"
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

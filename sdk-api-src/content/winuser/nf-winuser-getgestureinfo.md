@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGestureInfo, GetGestureInfo function [Windows Touch], wintouch.getgestureinfo, winuser/GetGestureInfo
 ms.topic: function
-f1_keywords: ["winuser/GetGestureInfo"]
+f1_keywords: 
+ - "winuser/GetGestureInfo"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

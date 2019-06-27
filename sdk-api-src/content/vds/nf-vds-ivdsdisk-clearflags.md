@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClearFlags, ClearFlags method [VDS], ClearFlags method [VDS],IVdsDisk interface, IVdsDisk interface [VDS],ClearFlags method, IVdsDisk.ClearFlags, IVdsDisk::ClearFlags, base.ivdsdisk_clearflags, vds/IVdsDisk::ClearFlags
 ms.topic: method
-f1_keywords: ["vds/IVdsDisk.ClearFlags"]
+f1_keywords: 
+ - "vds/IVdsDisk.ClearFlags"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

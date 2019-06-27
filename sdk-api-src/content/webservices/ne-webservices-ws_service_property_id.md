@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_PROPERTY_CLOSE_TIMEOUT, WS_SERVICE_PROPERTY_FAULT_DISCLOSURE, WS_SERVICE_PROPERTY_FAULT_LANGID, WS_SERVICE_PROPERTY_HOST_STATE, WS_SERVICE_PROPERTY_HOST_USER_STATE, WS_SERVICE_PROPERTY_ID, WS_SERVICE_PROPERTY_ID enumeration [Web Services for Windows], WS_SERVICE_PROPERTY_METADATA, webservices/WS_SERVICE_PROPERTY_CLOSE_TIMEOUT, webservices/WS_SERVICE_PROPERTY_FAULT_DISCLOSURE, webservices/WS_SERVICE_PROPERTY_FAULT_LANGID, webservices/WS_SERVICE_PROPERTY_HOST_STATE, webservices/WS_SERVICE_PROPERTY_HOST_USER_STATE, webservices/WS_SERVICE_PROPERTY_ID, webservices/WS_SERVICE_PROPERTY_METADATA, wsw.ws_service_property_id
 ms.topic: enum
-f1_keywords: ["webservices/WS_SERVICE_PROPERTY_ID"]
+f1_keywords: 
+ - "webservices/WS_SERVICE_PROPERTY_ID"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRunnableObject interface [COM],IsRunning method, IRunnableObject.IsRunning, IRunnableObject::IsRunning, IsRunning, IsRunning method [COM], IsRunning method [COM],IRunnableObject interface, _com_irunnableobject_isrunning, com.irunnableobject_isrunning, objidl/IRunnableObject::IsRunning
 ms.topic: method
-f1_keywords: ["objidl/IRunnableObject.IsRunning"]
+f1_keywords: 
+ - "objidl/IRunnableObject.IsRunning"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateFX, CreateFX function [XAudio2 Audio Mixing APIs], xapofx/CreateFX, xaudio2.createfx
 ms.topic: function
-f1_keywords: ["xapofx/CreateFX"]
+f1_keywords: 
+ - "xapofx/CreateFX"
 req.header: xapofx.h
 req.include-header: 
 req.target-type: Windows

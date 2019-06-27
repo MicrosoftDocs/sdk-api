@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsServiceOperations interface [ADSI],SetPassword method, IADsServiceOperations.SetPassword, IADsServiceOperations::SetPassword, SetPassword, SetPassword method [ADSI], SetPassword method [ADSI],IADsServiceOperations interface, _ds_iadsserviceoperations_setpassword, adsi.iadsserviceoperations__setpassword, adsi.iadsserviceoperations_setpassword, iads/IADsServiceOperations::SetPassword
 ms.topic: method
-f1_keywords: ["iads/IADsServiceOperations.SetPassword"]
+f1_keywords: 
+ - "iads/IADsServiceOperations.SetPassword"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

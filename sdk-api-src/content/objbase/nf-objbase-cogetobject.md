@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoGetObject, CoGetObject function [COM], _com_CoGetObject, com.cogetobject, objbase/CoGetObject
 ms.topic: function
-f1_keywords: ["objbase/CoGetObject"]
+f1_keywords: 
+ - "objbase/CoGetObject"
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

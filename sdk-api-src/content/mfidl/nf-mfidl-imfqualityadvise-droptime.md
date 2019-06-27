@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 60d27190-7bed-427c-9018-2926c85815fe, DropTime, DropTime method [Media Foundation], DropTime method [Media Foundation],IMFQualityAdvise interface, IMFQualityAdvise interface [Media Foundation],DropTime method, IMFQualityAdvise.DropTime, IMFQualityAdvise::DropTime, mf.imfqualityadvise_droptime, mfidl/IMFQualityAdvise::DropTime
 ms.topic: method
-f1_keywords: ["mfidl/IMFQualityAdvise.DropTime"]
+f1_keywords: 
+ - "mfidl/IMFQualityAdvise.DropTime"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICodecAPI, ICodecAPI interface [DirectShow], ICodecAPI interface [DirectShow],described, ICodecAPIInterface, dshow.icodecapi, strmif/ICodecAPI
 ms.topic: interface
-f1_keywords: ["strmif/ICodecAPI"]
+f1_keywords: 
+ - "strmif/ICodecAPI"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

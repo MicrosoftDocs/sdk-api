@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpcFactory, IOpcFactory interface [Open Packaging Conventions], IOpcFactory interface [Open Packaging Conventions],described, msopc/IOpcFactory, opc.iopcfactory
 ms.topic: interface
-f1_keywords: ["msopc/IOpcFactory"]
+f1_keywords: 
+ - "msopc/IOpcFactory"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

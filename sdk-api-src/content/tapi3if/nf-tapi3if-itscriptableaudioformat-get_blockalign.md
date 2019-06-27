@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],get_BlockAlign method, ITScriptableAudioFormat.get_BlockAlign, ITScriptableAudioFormat::get_BlockAlign, _tapi3_itscriptableaudioformat_get_blockalign, get_BlockAlign, get_BlockAlign method [TAPI 2.2], get_BlockAlign method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_get_blockalign, tapi3if/ITScriptableAudioFormat::get_BlockAlign
 ms.topic: method
-f1_keywords: ["tapi3if/ITScriptableAudioFormat.get_BlockAlign"]
+f1_keywords: 
+ - "tapi3if/ITScriptableAudioFormat.get_BlockAlign"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

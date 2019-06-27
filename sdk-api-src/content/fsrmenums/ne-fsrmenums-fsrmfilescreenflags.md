@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FsrmFileScreenFlags, FsrmFileScreenFlags enumeration [File Server Resource Manager], FsrmFileScreenFlags_Enforce, fs.fsrmfilescreenflags, fsrm.fsrmfilescreenflags, fsrmenums/FsrmFileScreenFlags, fsrmenums/FsrmFileScreenFlags_Enforce
 ms.topic: enum
-f1_keywords: ["fsrmenums/FsrmFileScreenFlags"]
+f1_keywords: 
+ - "fsrmenums/FsrmFileScreenFlags"
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkCollector, IInkCollector interface [Tablet PC], IInkCollector interface [Tablet PC],described, msinkaut/IInkCollector, tablet.iinkcollector
 ms.topic: interface
-f1_keywords: ["msinkaut/IInkCollector"]
+f1_keywords: 
+ - "msinkaut/IInkCollector"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

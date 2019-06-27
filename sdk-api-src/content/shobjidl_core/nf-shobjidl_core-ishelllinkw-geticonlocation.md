@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIconLocation, GetIconLocation method [Windows Shell], GetIconLocation method [Windows Shell],IShellLink interface, GetIconLocation method [Windows Shell],IShellLinkA interface, GetIconLocation method [Windows Shell],IShellLinkW interface, IShellLink interface [Windows Shell],GetIconLocation method, IShellLink::GetIconLocation, IShellLinkA interface [Windows Shell],GetIconLocation method, IShellLinkA::GetIconLocation, IShellLinkW interface [Windows Shell],GetIconLocation method, IShellLinkW.GetIconLocation, IShellLinkW::GetIconLocation, _win32_IShellLink_GetIconLocation, shell.IShellLink_GetIconLocation, shobjidl_core/IShellLink::GetIconLocation, shobjidl_core/IShellLinkA::GetIconLocation, shobjidl_core/IShellLinkW::GetIconLocation
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellLink.GetIconLocation"]
+f1_keywords: 
+ - "shobjidl_core/IShellLink.GetIconLocation"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

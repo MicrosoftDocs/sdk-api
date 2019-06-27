@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IS_ADSPEC_BODY, IS_ADSPEC_BODY structure [QOS], lpmapi/IS_ADSPEC_BODY, qos.is_adspec_body
 ms.topic: struct
-f1_keywords: ["lpmapi/IS_ADSPEC_BODY"]
+f1_keywords: 
+ - "lpmapi/IS_ADSPEC_BODY"
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

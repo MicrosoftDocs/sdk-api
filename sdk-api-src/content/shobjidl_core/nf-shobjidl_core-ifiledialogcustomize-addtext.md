@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddText, AddText method [Windows Shell], AddText method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddText method, IFileDialogCustomize.AddText, IFileDialogCustomize::AddText, shell.IFileDialogCustomize_AddText, shell_IFileDialogCustomize_AddText, shobjidl_core/IFileDialogCustomize::AddText
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileDialogCustomize.AddText"]
+f1_keywords: 
+ - "shobjidl_core/IFileDialogCustomize.AddText"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

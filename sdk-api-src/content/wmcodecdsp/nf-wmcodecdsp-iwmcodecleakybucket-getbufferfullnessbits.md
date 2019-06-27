@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBufferFullnessBits, GetBufferFullnessBits method [Media Foundation], GetBufferFullnessBits method [Media Foundation],IWMCodecLeakyBucket interface, IWMCodecLeakyBucket interface [Media Foundation],GetBufferFullnessBits method, IWMCodecLeakyBucket.GetBufferFullnessBits, IWMCodecLeakyBucket::GetBufferFullnessBits, codecapi.iwmcodecleakybucketgetbufferfullnessbits, codecapi.iwmcodecleakybuffergetbufferfullnessbits, mf.iwmcodecleakybucketgetbufferfullnessbits, wmcodecdsp/IWMCodecLeakyBucket::GetBufferFullnessBits
 ms.topic: method
-f1_keywords: ["wmcodecdsp/IWMCodecLeakyBucket.GetBufferFullnessBits"]
+f1_keywords: 
+ - "wmcodecdsp/IWMCodecLeakyBucket.GetBufferFullnessBits"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

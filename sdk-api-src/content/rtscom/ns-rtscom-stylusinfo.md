@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StylusInfo, StylusInfo structure [Tablet PC], d2642082-e18c-4f91-b08c-e25aa388a2a3, rtscom/StylusInfo, tablet.stylusinfo
 ms.topic: struct
-f1_keywords: ["rtscom/StylusInfo"]
+f1_keywords: 
+ - "rtscom/StylusInfo"
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

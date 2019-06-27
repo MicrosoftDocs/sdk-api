@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWorkspaceRegistration2 interface [Remote Desktop Services],RemoveResourceEx method, IWorkspaceRegistration2.RemoveResourceEx, IWorkspaceRegistration2::RemoveResourceEx, RemoveResourceEx, RemoveResourceEx method [Remote Desktop Services], RemoveResourceEx method [Remote Desktop Services],IWorkspaceRegistration2 interface, RemoveResourceEx method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],RemoveResourceEx method, termserv.iworkspaceregistration2_removeresourceex, workspaceruntime/IWorkspaceRegistration2::RemoveResourceEx
 ms.topic: method
-f1_keywords: ["workspaceruntime/IWorkspaceRegistration2::RemoveResourceEx"]
+f1_keywords: 
+ - "workspaceruntime/IWorkspaceRegistration2::RemoveResourceEx"
 req.header: workspaceruntime.h
 req.include-header: Workspaceruntime.h
 req.target-type: Windows

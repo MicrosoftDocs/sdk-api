@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPatches, GetPatches method [Direct2D], GetPatches method [Direct2D],ID2D1GradientMesh interface, ID2D1GradientMesh interface [Direct2D],GetPatches method, ID2D1GradientMesh.GetPatches, ID2D1GradientMesh::GetPatches, d2d1_3/ID2D1GradientMesh::GetPatches, direct2d.id2d1gradientmesh_getpatches
 ms.topic: method
-f1_keywords: ["d2d1_3/ID2D1GradientMesh.GetPatches"]
+f1_keywords: 
+ - "d2d1_3/ID2D1GradientMesh.GetPatches"
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

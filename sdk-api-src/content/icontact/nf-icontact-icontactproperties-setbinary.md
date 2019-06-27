@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IContactProperties interface [Windows Contacts],SetBinary method, IContactProperties.SetBinary, IContactProperties::SetBinary, SetBinary, SetBinary method [Windows Contacts], SetBinary method [Windows Contacts],IContactProperties interface, _wincontacts_IContactProperties_SetBinary, icontact/IContactProperties::SetBinary, wincontacts._wincontacts_IContactProperties_SetBinary
 ms.topic: method
-f1_keywords: ["icontact/IContactProperties.SetBinary"]
+f1_keywords: 
+ - "icontact/IContactProperties.SetBinary"
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

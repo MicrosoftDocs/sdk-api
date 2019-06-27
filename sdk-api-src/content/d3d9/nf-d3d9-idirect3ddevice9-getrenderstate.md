@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 2d20be3d-5ba4-bf91-6270-0a3b1c346d9d, GetRenderState, GetRenderState method [Direct3D 9], GetRenderState method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetRenderState method, IDirect3DDevice9.GetRenderState, IDirect3DDevice9::GetRenderState, d3d9helper/IDirect3DDevice9::GetRenderState, direct3d9.idirect3ddevice9__getrenderstate
 ms.topic: method
-f1_keywords: ["d3d9/IDirect3DDevice9.GetRenderState"]
+f1_keywords: 
+ - "d3d9/IDirect3DDevice9.GetRenderState"
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

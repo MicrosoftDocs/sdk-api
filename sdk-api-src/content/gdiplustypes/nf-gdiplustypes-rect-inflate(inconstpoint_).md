@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Inflate, Inflate method [GDI+], Inflate method [GDI+],Rect class, Rect class [GDI+],Inflate method, Rect.Inflate, Rect.Inflate(IN const Point &), Rect.Inflate(const Point&), Rect::Inflate, Rect::Inflate(IN const Point &), _gdiplus_CLASS_Rect_Inflate_point_, gdiplus._gdiplus_CLASS_Rect_Inflate_point_
 ms.topic: method
-f1_keywords: ["gdiplustypes/Rect.Inflate"]
+f1_keywords: 
+ - "gdiplustypes/Rect.Inflate"
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

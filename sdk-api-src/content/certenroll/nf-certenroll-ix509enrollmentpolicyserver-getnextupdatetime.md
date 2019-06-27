@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNextUpdateTime, GetNextUpdateTime method [Security], GetNextUpdateTime method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetNextUpdateTime method, IX509EnrollmentPolicyServer.GetNextUpdateTime, IX509EnrollmentPolicyServer::GetNextUpdateTime, certenroll/IX509EnrollmentPolicyServer::GetNextUpdateTime, security.ix509enrollmentpolicyserver_getnextupdatetime
 ms.topic: method
-f1_keywords: ["certenroll/IX509EnrollmentPolicyServer.GetNextUpdateTime"]
+f1_keywords: 
+ - "certenroll/IX509EnrollmentPolicyServer.GetNextUpdateTime"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

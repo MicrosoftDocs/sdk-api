@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCursorPos, GetCursorPos function [Menus and Other Resources], _win32_GetCursorPos, _win32_getcursorpos_cpp, menurc.getcursorpos, winui._win32_getcursorpos, winuser/GetCursorPos
 ms.topic: function
-f1_keywords: ["winuser/GetCursorPos"]
+f1_keywords: 
+ - "winuser/GetCursorPos"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

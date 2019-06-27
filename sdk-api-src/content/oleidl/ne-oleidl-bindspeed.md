@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BINDSPEED, BINDSPEED enumeration [COM], BINDSPEED_IMMEDIATE, BINDSPEED_INDEFINITE, BINDSPEED_MODERATE, _com_BINDSPEED, com.bindspeed, oleidl/BINDSPEED, oleidl/BINDSPEED_IMMEDIATE, oleidl/BINDSPEED_INDEFINITE, oleidl/BINDSPEED_MODERATE
 ms.topic: enum
-f1_keywords: ["oleidl/BINDSPEED"]
+f1_keywords: 
+ - "oleidl/BINDSPEED"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

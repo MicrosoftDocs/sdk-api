@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePrivateNamespace, CreatePrivateNamespace function, CreatePrivateNamespaceA, CreatePrivateNamespaceW, base.createprivatenamespace, winbase/CreatePrivateNamespace, winbase/CreatePrivateNamespaceA, winbase/CreatePrivateNamespaceW
 ms.topic: function
-f1_keywords: ["winbase/CreatePrivateNamespace"]
+f1_keywords: 
+ - "winbase/CreatePrivateNamespace"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

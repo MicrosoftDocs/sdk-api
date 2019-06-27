@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PADAPTER_STATUS, ADAPTER_STATUS, ADAPTER_STATUS structure [NetBIOS], PADAPTER_STATUS, PADAPTER_STATUS structure pointer [NetBIOS], nb30/ADAPTER_STATUS, nb30/PADAPTER_STATUS, netbios.adapter_status"
 ms.topic: struct
-f1_keywords: ["nb30/ADAPTER_STATUS"]
+f1_keywords: 
+ - "nb30/ADAPTER_STATUS"
 req.header: nb30.h
 req.include-header: 
 req.target-type: Windows

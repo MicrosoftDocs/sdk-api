@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob5 interface [BITS],SetProperty method, IBackgroundCopyJob5.SetProperty, IBackgroundCopyJob5::SetProperty, SetProperty, SetProperty method [BITS], SetProperty method [BITS],IBackgroundCopyJob5 interface, bits.ibackgroundcopyjob5_setproperty, bits5_0/IBackgroundCopyJob5::SetProperty
 ms.topic: method
-f1_keywords: ["bits5_0/IBackgroundCopyJob5.SetProperty"]
+f1_keywords: 
+ - "bits5_0/IBackgroundCopyJob5.SetProperty"
 req.header: bits5_0.h
 req.include-header: Bits.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumFeedClockVector interface [Windows Sync],Reset method, IEnumFeedClockVector.Reset, IEnumFeedClockVector::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumFeedClockVector interface, winsync.ienumfeedclockvector_reset, winsync/IEnumFeedClockVector::Reset
 ms.topic: method
-f1_keywords: ["winsync/IEnumFeedClockVector.Reset"]
+f1_keywords: 
+ - "winsync/IEnumFeedClockVector.Reset"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

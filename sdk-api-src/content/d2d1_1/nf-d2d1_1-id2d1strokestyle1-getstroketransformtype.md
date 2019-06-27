@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStrokeTransformType, GetStrokeTransformType method [Direct2D], GetStrokeTransformType method [Direct2D],ID2D1StrokeStyle1 interface, ID2D1StrokeStyle1 interface [Direct2D],GetStrokeTransformType method, ID2D1StrokeStyle1.GetStrokeTransformType, ID2D1StrokeStyle1::GetStrokeTransformType, d2d1_1/ID2D1StrokeStyle1::GetStrokeTransformType, direct2d.id2d1strokestyle1_getstroketransformtype
 ms.topic: method
-f1_keywords: ["d2d1_1/ID2D1StrokeStyle1.GetStrokeTransformType"]
+f1_keywords: 
+ - "d2d1_1/ID2D1StrokeStyle1.GetStrokeTransformType"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

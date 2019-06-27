@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTimestampForLoadedLibrary, GetTimestampForLoadedLibrary function, _win32_gettimestampforloadedlibrary, base.gettimestampforloadedlibrary, dbghelp/GetTimestampForLoadedLibrary
 ms.topic: function
-f1_keywords: ["dbghelp/GetTimestampForLoadedLibrary"]
+f1_keywords: 
+ - "dbghelp/GetTimestampForLoadedLibrary"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

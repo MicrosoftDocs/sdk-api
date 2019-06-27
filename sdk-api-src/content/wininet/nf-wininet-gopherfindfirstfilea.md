@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GopherFindFirstFile, GopherFindFirstFile function [WinINet], GopherFindFirstFileA, GopherFindFirstFileW, _inet_gopherfindfirstfile_function, wininet.gopherfindfirstfile, wininet/GopherFindFirstFile, wininet/GopherFindFirstFileA, wininet/GopherFindFirstFileW
 ms.topic: function
-f1_keywords: ["wininet/GopherFindFirstFile"]
+f1_keywords: 
+ - "wininet/GopherFindFirstFile"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

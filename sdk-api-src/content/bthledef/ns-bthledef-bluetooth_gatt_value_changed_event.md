@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PBLUETOOTH_GATT_VALUE_CHANGED_EVENT, BLUETOOTH_GATT_VALUE_CHANGED_EVENT, BLUETOOTH_GATT_VALUE_CHANGED_EVENT structure [Bluetooth Devices], PBLUETOOTH_GATT_VALUE_CHANGED_EVENT, PBLUETOOTH_GATT_VALUE_CHANGED_EVENT structure pointer [Bluetooth Devices], bltooth.bluetooth_gatt_value_changed_event, bthledef/BLUETOOTH_GATT_VALUE_CHANGED_EVENT, bthledef/PBLUETOOTH_GATT_VALUE_CHANGED_EVENT"
 ms.topic: struct
-f1_keywords: ["bthledef/BLUETOOTH_GATT_VALUE_CHANGED_EVENT"]
+f1_keywords: 
+ - "bthledef/BLUETOOTH_GATT_VALUE_CHANGED_EVENT"
 req.header: bthledef.h
 req.include-header: BthLEDef.h
 req.target-type: Windows

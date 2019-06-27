@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingJob, IFaxIncomingJob interface [Fax Service], IFaxIncomingJob interface [Fax Service],described, _mfax_faxincomingjob_cpp, fax._mfax_faxincomingjob_cpp, faxcomex/IFaxIncomingJob
 ms.topic: interface
-f1_keywords: ["faxcomex/IFaxIncomingJob"]
+f1_keywords: 
+ - "faxcomex/IFaxIncomingJob"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

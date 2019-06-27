@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetThreadDesktop, SetThreadDesktop function [Windows Stations and Desktops], _win32_setthreaddesktop, base.setthreaddesktop, winstation.setthreaddesktop, winuser/SetThreadDesktop
 ms.topic: function
-f1_keywords: ["winuser/SetThreadDesktop"]
+f1_keywords: 
+ - "winuser/SetThreadDesktop"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_TryShell2Rename method, IBrowserService2._TryShell2Rename, IBrowserService2::_TryShell2Rename, _TryShell2Rename, _TryShell2Rename method [Windows Shell], _TryShell2Rename method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_TryShell2Rename, shell.IBrowserService2__TryShell2Rename, zone_IBrowserService2__TryShell2Rename
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService2._TryShell2Rename"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService2._TryShell2Rename"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEventPublisher interface [COM],PublisherID property, IEventPublisher.PublisherID, IEventPublisher.put_PublisherID, IEventPublisher::PublisherID, IEventPublisher::put_PublisherID, PublisherID property [COM], PublisherID property [COM],IEventPublisher interface, _com_ieventpublisher_publisherid, com.ieventpublisher_publisherid, eventsys/IEventPublisher::PublisherID, eventsys/IEventPublisher::put_PublisherID, put_PublisherID
 ms.topic: method
-f1_keywords: ["eventsys/IEventPublisher.PublisherID"]
+f1_keywords: 
+ - "eventsys/IEventPublisher.PublisherID"
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

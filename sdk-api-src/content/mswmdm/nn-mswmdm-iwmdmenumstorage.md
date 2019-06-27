@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDMEnumStorage, IWMDMEnumStorage interface [windows Media Device Manager], IWMDMEnumStorage interface [windows Media Device Manager],described, IWMDMEnumStorageInterface, mswmdm/IWMDMEnumStorage, wmdm.iwmdmenumstorage
 ms.topic: interface
-f1_keywords: ["mswmdm/IWMDMEnumStorage"]
+f1_keywords: 
+ - "mswmdm/IWMDMEnumStorage"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfQueryEmbedded, ITfQueryEmbedded interface [Text Services Framework], ITfQueryEmbedded interface [Text Services Framework],described, _tsf_itfqueryembedded_ref, msctf/ITfQueryEmbedded, tsf.itfqueryembedded
 ms.topic: interface
-f1_keywords: ["msctf/ITfQueryEmbedded"]
+f1_keywords: 
+ - "msctf/ITfQueryEmbedded"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

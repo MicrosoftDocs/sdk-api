@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 16444da2-68f2-4d94-8c6f-9e512d51e5e9, GetClock, GetClock method [Media Foundation], GetClock method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],GetClock method, IMFMediaSession.GetClock, IMFMediaSession::GetClock, mf.imfmediasession_getclock, mfidl/IMFMediaSession::GetClock
 ms.topic: method
-f1_keywords: ["mfidl/IMFMediaSession.GetClock"]
+f1_keywords: 
+ - "mfidl/IMFMediaSession.GetClock"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

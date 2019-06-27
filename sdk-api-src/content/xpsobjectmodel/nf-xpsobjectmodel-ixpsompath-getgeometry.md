@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGeometry, GetGeometry method [XPS Documents and Packaging], GetGeometry method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetGeometry method, IXpsOMPath.GetGeometry, IXpsOMPath::GetGeometry, xps.ixpsompath_getgeometry, xpsobjectmodel/IXpsOMPath::GetGeometry
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMPath.GetGeometry"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPath.GetGeometry"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

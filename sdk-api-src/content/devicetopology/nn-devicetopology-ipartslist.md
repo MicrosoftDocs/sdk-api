@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPartsList, IPartsList interface [Core Audio], IPartsList interface [Core Audio],described, coreaudio.ipartslist, devicetopology/IPartsList
 ms.topic: interface
-f1_keywords: ["devicetopology/IPartsList"]
+f1_keywords: 
+ - "devicetopology/IPartsList"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

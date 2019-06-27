@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemRenamed method, IOfflineFilesEvents.ItemRenamed, IOfflineFilesEvents::ItemRenamed, ItemRenamed, ItemRenamed method [Offline Files], ItemRenamed method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemRenamed, of.iofflinefilesevents_itemrenamed
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesEvents.ItemRenamed"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesEvents.ItemRenamed"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 3de20b27-6ffa-11bb-e9a5-d1af96f798ac, GetDisplayModeEx, GetDisplayModeEx method [Direct3D 9], GetDisplayModeEx method [Direct3D 9],IDirect3DDevice9Ex interface, IDirect3DDevice9Ex interface [Direct3D 9],GetDisplayModeEx method, IDirect3DDevice9Ex.GetDisplayModeEx, IDirect3DDevice9Ex::GetDisplayModeEx, d3d9/IDirect3DDevice9Ex::GetDisplayModeEx, direct3d9.idirect3ddevice9ex_getdisplaymodeex
 ms.topic: method
-f1_keywords: ["d3d9/IDirect3DDevice9Ex.GetDisplayModeEx"]
+f1_keywords: 
+ - "d3d9/IDirect3DDevice9Ex.GetDisplayModeEx"
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiSummaryInfoGetPropertyCount, MsiSummaryInfoGetPropertyCount function, _msi_msisummaryinfogetpropertycount, msiquery/MsiSummaryInfoGetPropertyCount, setup.msisummaryinfogetpropertycount
 ms.topic: function
-f1_keywords: ["msiquery/MsiSummaryInfoGetPropertyCount"]
+f1_keywords: 
+ - "msiquery/MsiSummaryInfoGetPropertyCount"
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TF_CreateLangBarMgr, TF_CreateLangBarMgr function [Text Services Framework], msctf/TF_CreateLangBarMgr, tsf.tf_createlangbarmgr
 ms.topic: function
-f1_keywords: ["msctf/TF_CreateLangBarMgr"]
+f1_keywords: 
+ - "msctf/TF_CreateLangBarMgr"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

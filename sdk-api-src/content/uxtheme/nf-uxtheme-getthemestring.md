@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThemeString, GetThemeString function [Windows Controls], controls.GetThemeString, controls.inet_GetThemeString, inet_GetThemeString, inet_GetThemeString_cpp, uxtheme/GetThemeString
 ms.topic: function
-f1_keywords: ["uxtheme/GetThemeString"]
+f1_keywords: 
+ - "uxtheme/GetThemeString"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

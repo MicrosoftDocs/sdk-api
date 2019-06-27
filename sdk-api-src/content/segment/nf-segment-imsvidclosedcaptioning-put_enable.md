@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidClosedCaptioning interface [Microsoft TV Technologies],put_Enable method, IMSVidClosedCaptioning.put_Enable, IMSVidClosedCaptioning::put_Enable, IMSVidClosedCaptioningput_Enable, mstv.imsvidclosedcaptioning_put_enable, put_Enable, put_Enable method [Microsoft TV Technologies], put_Enable method [Microsoft TV Technologies],IMSVidClosedCaptioning interface, segment/IMSVidClosedCaptioning::put_Enable
 ms.topic: method
-f1_keywords: ["segment/IMSVidClosedCaptioning.put_Enable"]
+f1_keywords: 
+ - "segment/IMSVidClosedCaptioning.put_Enable"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

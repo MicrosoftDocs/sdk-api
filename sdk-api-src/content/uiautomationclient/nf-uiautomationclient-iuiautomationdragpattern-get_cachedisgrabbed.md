@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedIsGrabbed property [Windows Accessibility], CachedIsGrabbed property [Windows Accessibility],IUIAutomationDragPattern interface, IUIAutomationDragPattern interface [Windows Accessibility],CachedIsGrabbed property, IUIAutomationDragPattern.CachedIsGrabbed, IUIAutomationDragPattern.get_CachedIsGrabbed, IUIAutomationDragPattern::CachedIsGrabbed, IUIAutomationDragPattern::get_CachedIsGrabbed, get_CachedIsGrabbed, uiautomationclient/IUIAutomationDragPattern::CachedIsGrabbed, uiautomationclient/IUIAutomationDragPattern::get_CachedIsGrabbed, winauto.uiauto_iuiautomationdragpattern_cachedisgrabbed
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationDragPattern.CachedIsGrabbed"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationDragPattern.CachedIsGrabbed"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

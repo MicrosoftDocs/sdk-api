@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DispCallFunc, DispCallFunc function [Automation], _oa96_DispCallFunc, automat.dispcallfunc, oleauto/DispCallFunc
 ms.topic: function
-f1_keywords: ["oleauto/DispCallFunc"]
+f1_keywords: 
+ - "oleauto/DispCallFunc"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

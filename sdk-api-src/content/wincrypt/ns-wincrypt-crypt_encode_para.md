@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_ENCODE_PARA, CRYPT_ENCODE_PARA, CRYPT_ENCODE_PARA structure [Security], PCRYPT_ENCODE_PARA, PCRYPT_ENCODE_PARA structure pointer [Security], _crypto2_crypt_encode_para, security.crypt_encode_para, wincrypt/CRYPT_ENCODE_PARA, wincrypt/PCRYPT_ENCODE_PARA"
 ms.topic: struct
-f1_keywords: ["wincrypt/CRYPT_ENCODE_PARA"]
+f1_keywords: 
+ - "wincrypt/CRYPT_ENCODE_PARA"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 4c3ded7e-51ef-4141-98f2-48b318ba9453, MFCreateASFMultiplexer, MFCreateASFMultiplexer function [Media Foundation], mf.mfcreateasfmultiplexer, wmcontainer/MFCreateASFMultiplexer
 ms.topic: function
-f1_keywords: ["wmcontainer/MFCreateASFMultiplexer"]
+f1_keywords: 
+ - "wmcontainer/MFCreateASFMultiplexer"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

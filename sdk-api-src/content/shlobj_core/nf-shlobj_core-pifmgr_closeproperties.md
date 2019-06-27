@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLOSEPROPS_DISCARD, CLOSEPROPS_NONE, PifMgr_CloseProperties, PifMgr_CloseProperties function [Windows Properties], _win32_PifMgr_CloseProperties, properties.PifMgr_CloseProperties, shell.PifMgr_CloseProperties, shlobj_core/PifMgr_CloseProperties
 ms.topic: function
-f1_keywords: ["shlobj_core/PifMgr_CloseProperties"]
+f1_keywords: 
+ - "shlobj_core/PifMgr_CloseProperties"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

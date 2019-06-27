@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWINBIO_ENROLL_CAPTURE_CALLBACK, PWINBIO_ENROLL_CAPTURE_CALLBACK function, PWINBIO_ENROLL_CAPTURE_CALLBACK function pointer [Windows Biometric Framework API], secbiomet.pwinbio_enroll_capture_callback, winbio/PWINBIO_ENROLL_CAPTURE_CALLBACK
 ms.topic: callback
-f1_keywords: ["winbio/PWINBIO_ENROLL_CAPTURE_CALLBACK"]
+f1_keywords: 
+ - "winbio/PWINBIO_ENROLL_CAPTURE_CALLBACK"
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows

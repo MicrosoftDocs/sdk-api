@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVideoProcessorCustomRates, GetVideoProcessorCustomRates method [Media Foundation], GetVideoProcessorCustomRates method [Media Foundation],IDXVAHD_Device interface, IDXVAHD_Device interface [Media Foundation],GetVideoProcessorCustomRates method, IDXVAHD_Device.GetVideoProcessorCustomRates, IDXVAHD_Device::GetVideoProcessorCustomRates, dxvahd/IDXVAHD_Device::GetVideoProcessorCustomRates, mf.idxvahd_device_getvideoprocessorcustomrates
 ms.topic: method
-f1_keywords: ["dxvahd/IDXVAHD_Device.GetVideoProcessorCustomRates"]
+f1_keywords: 
+ - "dxvahd/IDXVAHD_Device.GetVideoProcessorCustomRates"
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

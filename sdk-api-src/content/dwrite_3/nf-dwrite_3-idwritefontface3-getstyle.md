@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStyle, GetStyle method [Direct Write], GetStyle method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],GetStyle method, IDWriteFontFace3.GetStyle, IDWriteFontFace3::GetStyle, directwrite.idwritefontface3_getstyle, dwrite_3/IDWriteFontFace3::GetStyle
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteFontFace3.GetStyle"]
+f1_keywords: 
+ - "dwrite_3/IDWriteFontFace3.GetStyle"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

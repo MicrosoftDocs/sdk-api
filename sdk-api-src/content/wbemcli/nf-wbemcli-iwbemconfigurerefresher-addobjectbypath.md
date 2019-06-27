@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddObjectByPath, AddObjectByPath method [Windows Management Instrumentation], AddObjectByPath method [Windows Management Instrumentation],IWbemConfigureRefresher interface, IWbemConfigureRefresher interface [Windows Management Instrumentation],AddObjectByPath method, IWbemConfigureRefresher.AddObjectByPath, IWbemConfigureRefresher::AddObjectByPath, _hmm_iwbemconfigurerefresher_addobjectbypath, wbemcli/IWbemConfigureRefresher::AddObjectByPath, wmi.iwbemconfigurerefresher_addobjectbypath
 ms.topic: method
-f1_keywords: ["wbemcli/IWbemConfigureRefresher.AddObjectByPath"]
+f1_keywords: 
+ - "wbemcli/IWbemConfigureRefresher.AddObjectByPath"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

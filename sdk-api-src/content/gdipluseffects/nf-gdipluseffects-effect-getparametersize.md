@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Effect class [GDI+],GetParameterSize method, Effect.GetParameterSize, Effect::GetParameterSize, GetParameterSize, GetParameterSize method [GDI+], GetParameterSize method [GDI+],Effect class, _gdiplus_CLASS_Effect_GetParameterSize_, gdiplus._gdiplus_CLASS_Effect_GetParameterSize_
 ms.topic: method
-f1_keywords: ["gdipluseffects/Effect.GetParameterSize"]
+f1_keywords: 
+ - "gdipluseffects/Effect.GetParameterSize"
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

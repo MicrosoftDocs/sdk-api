@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IContextMenuCallback, IContextMenuCallback interface [MMC], IContextMenuCallback interface [MMC],described, _slate_icontextmenucallback, mmc.icontextmenucallback, mmc/IContextMenuCallback
 ms.topic: interface
-f1_keywords: ["mmc/IContextMenuCallback"]
+f1_keywords: 
+ - "mmc/IContextMenuCallback"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

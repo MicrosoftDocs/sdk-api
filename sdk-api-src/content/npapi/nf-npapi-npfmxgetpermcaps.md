@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NPFMXGetPermCaps, NPFMXGetPermCaps function [Security], _mnp_npfmxgetpermcaps, npapi/NPFMXGetPermCaps, security.npfmxgetpermcaps
 ms.topic: function
-f1_keywords: ["npapi/NPFMXGetPermCaps"]
+f1_keywords: 
+ - "npapi/NPFMXGetPermCaps"
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

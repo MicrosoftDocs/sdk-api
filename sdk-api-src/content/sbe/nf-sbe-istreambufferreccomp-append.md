@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [Microsoft TV Technologies], Append method [Microsoft TV Technologies],IStreamBufferRecComp interface, IStreamBufferRecComp interface [Microsoft TV Technologies],Append method, IStreamBufferRecComp.Append, IStreamBufferRecComp::Append, IStreamBufferRecCompAppend, mstv.istreambufferreccomp_append, sbe/IStreamBufferRecComp::Append
 ms.topic: method
-f1_keywords: ["sbe/IStreamBufferRecComp.Append"]
+f1_keywords: 
+ - "sbe/IStreamBufferRecComp.Append"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

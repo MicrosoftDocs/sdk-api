@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetMute method, IMFPMediaPlayer.SetMute, IMFPMediaPlayer::SetMute, SetMute, SetMute method [Media Foundation], SetMute method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setmute, mfplay/IMFPMediaPlayer::SetMute
 ms.topic: method
-f1_keywords: ["mfplay/IMFPMediaPlayer.SetMute"]
+f1_keywords: 
+ - "mfplay/IMFPMediaPlayer.SetMute"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

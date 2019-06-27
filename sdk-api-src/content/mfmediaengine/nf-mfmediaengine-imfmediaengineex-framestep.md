@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FrameStep, FrameStep method [Media Foundation], FrameStep method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],FrameStep method, IMFMediaEngineEx.FrameStep, IMFMediaEngineEx::FrameStep, mf.imfmediaengineex_framestep, mfmediaengine/IMFMediaEngineEx::FrameStep
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngineEx.FrameStep"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngineEx.FrameStep"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

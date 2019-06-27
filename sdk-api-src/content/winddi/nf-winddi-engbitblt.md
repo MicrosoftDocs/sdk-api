@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngBitBlt, EngBitBlt function [Display Devices], display.engbitblt, gdifncs_ec19b94a-e653-4ecb-9c5a-2ddc8d1745c6.xml, winddi/EngBitBlt
 ms.topic: function
-f1_keywords: ["winddi/EngBitBlt"]
+f1_keywords: 
+ - "winddi/EngBitBlt"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

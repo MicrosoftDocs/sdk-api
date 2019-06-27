@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalEventSink, ITPluggableTerminalEventSink interface [TAPI 2.2], ITPluggableTerminalEventSink interface [TAPI 2.2],described, _tapi3_itpluggableterminaleventsink, msp/ITPluggableTerminalEventSink, tapi3.itpluggableterminaleventsink
 ms.topic: interface
-f1_keywords: ["tapi3/ITPluggableTerminalEventSink"]
+f1_keywords: 
+ - "tapi3/ITPluggableTerminalEventSink"
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FNFCIFREE, FNFCIFREE macro [Windows API], fci/FNFCIFREE, winprog.fnfcifree
 ms.topic: macro
-f1_keywords: ["fci/FNFCIFREE"]
+f1_keywords: 
+ - "fci/FNFCIFREE"
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

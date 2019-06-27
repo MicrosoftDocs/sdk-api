@@ -9,7 +9,8 @@ tech.root: Bits
 ms.author: windowssdkdev
 ms.date: 05/09/2019
 ms.topic: interface
-f1_keywords: ["bits10_3/IBackgroundCopyServerCertificateValidationCallback"]
+f1_keywords: 
+ - "bits10_3/IBackgroundCopyServerCertificateValidationCallback"
 targetos: Windows
 product: Windows
 req.assembly: 

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetKeywords method, IXpsOMCoreProperties.SetKeywords, IXpsOMCoreProperties::SetKeywords, SetKeywords, SetKeywords method [XPS Documents and Packaging], SetKeywords method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setkeywords, xpsobjectmodel/IXpsOMCoreProperties::SetKeywords
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMCoreProperties.SetKeywords"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMCoreProperties.SetKeywords"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

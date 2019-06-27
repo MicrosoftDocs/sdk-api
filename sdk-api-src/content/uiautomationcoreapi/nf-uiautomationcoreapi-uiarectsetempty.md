@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaRectSetEmpty, UiaRectSetEmpty function [Windows Accessibility], uiauto.uiauto_UiaRectSetEmptyFunction, uiauto_UiaRectSetEmptyFunction, uiautomationcoreapi/UiaRectSetEmpty, winauto.uiauto_UiaRectSetEmptyFunction
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/UiaRectSetEmpty"]
+f1_keywords: 
+ - "uiautomationcoreapi/UiaRectSetEmpty"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegisterScaleChangeNotifications, RegisterScaleChangeNotifications function [Windows Shell], shell.RegisterScaleChangeNotifications, shellscalingapi/RegisterScaleChangeNotifications
 ms.topic: function
-f1_keywords: ["shellscalingapi/RegisterScaleChangeNotifications"]
+f1_keywords: 
+ - "shellscalingapi/RegisterScaleChangeNotifications"
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows

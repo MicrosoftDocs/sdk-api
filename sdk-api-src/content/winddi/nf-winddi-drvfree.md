@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvFree, DrvFree function [Display Devices], ddifncs_c3b37742-3ce6-477b-a28c-065cd60c38cd.xml, display.drvfree, winddi/DrvFree
 ms.topic: function
-f1_keywords: ["winddi/DrvFree"]
+f1_keywords: 
+ - "winddi/DrvFree"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

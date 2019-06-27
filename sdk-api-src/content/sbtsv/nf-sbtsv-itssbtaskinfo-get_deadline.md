@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Deadline property [Remote Desktop Services], Deadline property [Remote Desktop Services],ITsSbTaskInfo interface, ITsSbTaskInfo interface [Remote Desktop Services],Deadline property, ITsSbTaskInfo.Deadline, ITsSbTaskInfo.get_Deadline, ITsSbTaskInfo::Deadline, ITsSbTaskInfo::get_Deadline, get_Deadline, sbtsv/ITsSbTaskInfo::Deadline, sbtsv/ITsSbTaskInfo::get_Deadline, termserv.itssbtaskinfo_deadline
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbTaskInfo.Deadline"]
+f1_keywords: 
+ - "sbtsv/ITsSbTaskInfo.Deadline"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

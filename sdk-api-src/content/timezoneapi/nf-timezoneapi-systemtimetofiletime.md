@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SystemTimeToFileTime, SystemTimeToFileTime function, _win32_systemtimetofiletime, base.systemtimetofiletime, timezoneapi/SystemTimeToFileTime
 ms.topic: function
-f1_keywords: ["timezoneapi/SystemTimeToFileTime"]
+f1_keywords: 
+ - "timezoneapi/SystemTimeToFileTime"
 req.header: timezoneapi.h
 req.include-header: Windows.h
 req.target-type: Windows

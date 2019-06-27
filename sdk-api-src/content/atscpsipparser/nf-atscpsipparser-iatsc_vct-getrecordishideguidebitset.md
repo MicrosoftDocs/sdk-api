@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordIsHideGuideBitSet, GetRecordIsHideGuideBitSet method [Microsoft TV Technologies], GetRecordIsHideGuideBitSet method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordIsHideGuideBitSet method, IATSC_VCT.GetRecordIsHideGuideBitSet, IATSC_VCT::GetRecordIsHideGuideBitSet, IATSC_VCTGetRecordIsHideGuideBitSet, atscpsipparser/IATSC_VCT::GetRecordIsHideGuideBitSet, mstv.iatsc_vct_getrecordishideguidebitset
 ms.topic: method
-f1_keywords: ["atscpsipparser/IATSC_VCT.GetRecordIsHideGuideBitSet"]
+f1_keywords: 
+ - "atscpsipparser/IATSC_VCT.GetRecordIsHideGuideBitSet"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

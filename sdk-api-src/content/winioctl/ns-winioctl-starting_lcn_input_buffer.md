@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSTARTING_LCN_INPUT_BUFFER, PSTARTING_LCN_INPUT_BUFFER, PSTARTING_LCN_INPUT_BUFFER structure pointer [Files], STARTING_LCN_INPUT_BUFFER, STARTING_LCN_INPUT_BUFFER structure [Files], _win32_starting_lcn_input_buffer_str, base.starting_lcn_input_buffer_str, fs.starting_lcn_input_buffer_str, winioctl/PSTARTING_LCN_INPUT_BUFFER, winioctl/STARTING_LCN_INPUT_BUFFER"
 ms.topic: struct
-f1_keywords: ["winioctl/STARTING_LCN_INPUT_BUFFER"]
+f1_keywords: 
+ - "winioctl/STARTING_LCN_INPUT_BUFFER"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

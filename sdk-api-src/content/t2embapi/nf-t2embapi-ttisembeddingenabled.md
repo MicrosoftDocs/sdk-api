@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TTIsEmbeddingEnabled, TTIsEmbeddingEnabled function [Windows GDI], _win32_TTIsEmbeddingEnabled, gdi.ttisembeddingenabled, t2embapi/TTIsEmbeddingEnabled
 ms.topic: function
-f1_keywords: ["t2embapi/TTIsEmbeddingEnabled"]
+f1_keywords: 
+ - "t2embapi/TTIsEmbeddingEnabled"
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows

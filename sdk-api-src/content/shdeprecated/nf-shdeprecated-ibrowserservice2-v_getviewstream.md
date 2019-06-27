@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],v_GetViewStream method, IBrowserService2.v_GetViewStream, IBrowserService2::v_GetViewStream, shdeprecated/IBrowserService2::v_GetViewStream, shell.IBrowserService2_v_GetViewStream, v_GetViewStream, v_GetViewStream method [Windows Shell], v_GetViewStream method [Windows Shell],IBrowserService2 interface, zone_IBrowserService2_v_GetViewStream
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService2.v_GetViewStream"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService2.v_GetViewStream"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

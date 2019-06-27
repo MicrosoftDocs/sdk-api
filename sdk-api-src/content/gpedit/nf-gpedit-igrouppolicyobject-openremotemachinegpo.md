@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPO_OPEN_LOAD_REGISTRY, GPO_OPEN_READ_ONLY, IGroupPolicyObject interface [Group Policy],OpenRemoteMachineGPO method, IGroupPolicyObject.OpenRemoteMachineGPO, IGroupPolicyObject::OpenRemoteMachineGPO, OpenRemoteMachineGPO, OpenRemoteMachineGPO method [Group Policy], OpenRemoteMachineGPO method [Group Policy],IGroupPolicyObject interface, _win32_igrouppolicyobject_openremotemachinegpo, gpedit/IGroupPolicyObject::OpenRemoteMachineGPO, policy.igrouppolicyobject_openremotemachinegpo
 ms.topic: method
-f1_keywords: ["gpedit/IGroupPolicyObject.OpenRemoteMachineGPO"]
+f1_keywords: 
+ - "gpedit/IGroupPolicyObject.OpenRemoteMachineGPO"
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

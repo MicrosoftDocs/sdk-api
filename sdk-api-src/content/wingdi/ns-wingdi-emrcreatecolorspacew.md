@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRCREATECOLORSPACEW, EMRCREATECOLORSPACEW, EMRCREATECOLORSPACEW structure [Windows GDI], PEMRCREATECOLORSPACEW, PEMRCREATECOLORSPACEW structure pointer [Windows GDI], _win32_EMRCREATECOLORSPACEW_str, gdi.emrcreatecolorspacew, wingdi/EMRCREATECOLORSPACEW, wingdi/PEMRCREATECOLORSPACEW"
 ms.topic: struct
-f1_keywords: ["wingdi/EMRCREATECOLORSPACEW"]
+f1_keywords: 
+ - "wingdi/EMRCREATECOLORSPACEW"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

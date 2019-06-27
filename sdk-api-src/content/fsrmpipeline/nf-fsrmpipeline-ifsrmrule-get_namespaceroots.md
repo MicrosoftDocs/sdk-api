@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmRule interface [File Server Resource Manager],NamespaceRoots property, IFsrmRule.NamespaceRoots, IFsrmRule.get_NamespaceRoots, IFsrmRule::NamespaceRoots, IFsrmRule::get_NamespaceRoots, IFsrmRule::put_NamespaceRoots, NamespaceRoots property [File Server Resource Manager], NamespaceRoots property [File Server Resource Manager],IFsrmRule interface, fs.ifsrmrule_namespaceroots, fsrm.ifsrmrule_namespaceroots, fsrmpipeline/IFsrmRule::NamespaceRoots, fsrmpipeline/IFsrmRule::get_NamespaceRoots, fsrmpipeline/IFsrmRule::put_NamespaceRoots, get_NamespaceRoots
 ms.topic: method
-f1_keywords: ["fsrmpipeline/IFsrmRule.NamespaceRoots"]
+f1_keywords: 
+ - "fsrmpipeline/IFsrmRule.NamespaceRoots"
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

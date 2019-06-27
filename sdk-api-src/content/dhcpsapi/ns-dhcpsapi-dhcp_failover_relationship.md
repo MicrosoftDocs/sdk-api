@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_FAILOVER_RELATIONSHIP, DHCP_FAILOVER_RELATIONSHIP, DHCP_FAILOVER_RELATIONSHIP structure [DHCP], LPDHCP_FAILOVER_RELATIONSHIP, LPDHCP_FAILOVER_RELATIONSHIP structure pointer [DHCP], dhcp.dhcp_failover_relationship, dhcpsapi/DHCP_FAILOVER_RELATIONSHIP, dhcpsapi/LPDHCP_FAILOVER_RELATIONSHIP"
 ms.topic: struct
-f1_keywords: ["dhcpsapi/DHCP_FAILOVER_RELATIONSHIP"]
+f1_keywords: 
+ - "dhcpsapi/DHCP_FAILOVER_RELATIONSHIP"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

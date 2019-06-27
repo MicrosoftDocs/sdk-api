@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPOLEUIPASTEENTRYA, *POLEUIPASTEENTRYA, LPOLEUIPASTEENTRY, LPOLEUIPASTEENTRY structure pointer [COM], OLEUIPASTEENTRY, OLEUIPASTEENTRY structure [COM], OLEUIPASTEENTRYA, OLEUIPASTEENTRYW, POLEUIPASTEENTRY, POLEUIPASTEENTRY structure pointer [COM], _ole_OLEUIPASTEENTRY, com.oleuipasteentry_struct, oledlg/LPOLEUIPASTEENTRY, oledlg/OLEUIPASTEENTRY, oledlg/OLEUIPASTEENTRYA, oledlg/OLEUIPASTEENTRYW, oledlg/POLEUIPASTEENTRY"
 ms.topic: struct
-f1_keywords: ["oledlg/OLEUIPASTEENTRY"]
+f1_keywords: 
+ - "oledlg/OLEUIPASTEENTRY"
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

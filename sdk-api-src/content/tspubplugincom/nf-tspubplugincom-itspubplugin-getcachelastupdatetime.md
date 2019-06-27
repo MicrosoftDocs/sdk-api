@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCacheLastUpdateTime, GetCacheLastUpdateTime method [Remote Desktop Services], GetCacheLastUpdateTime method [Remote Desktop Services],ItsPubPlugin interface, ItsPubPlugin interface [Remote Desktop Services],GetCacheLastUpdateTime method, ItsPubPlugin.GetCacheLastUpdateTime, ItsPubPlugin::GetCacheLastUpdateTime, termserv.itspubplugin_getcachelastupdatetime, tspubplugincom/ItsPubPlugin::GetCacheLastUpdateTime
 ms.topic: method
-f1_keywords: ["tspubplugincom/ItsPubPlugin.GetCacheLastUpdateTime"]
+f1_keywords: 
+ - "tspubplugincom/ItsPubPlugin.GetCacheLastUpdateTime"
 req.header: tspubplugincom.h
 req.include-header: 
 req.target-type: Windows

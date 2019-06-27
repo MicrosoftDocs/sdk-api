@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTooltipText, GetTooltipText method [Picture Acquisition], GetTooltipText method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetTooltipText method, IUserInputString.GetTooltipText, IUserInputString::GetTooltipText, IUserInputStringGetTooltipText, photoacquire/IUserInputString::GetTooltipText, picacq.iuserinputstring_gettooltiptext
 ms.topic: method
-f1_keywords: ["photoacquire/IUserInputString.GetTooltipText"]
+f1_keywords: 
+ - "photoacquire/IUserInputString.GetTooltipText"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

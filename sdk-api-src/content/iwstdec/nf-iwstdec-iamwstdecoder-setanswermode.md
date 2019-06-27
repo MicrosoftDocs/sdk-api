@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetAnswerMode method, IAMWstDecoder.SetAnswerMode, IAMWstDecoder::SetAnswerMode, IAMWstDecoderSetAnswerMode, SetAnswerMode, SetAnswerMode method [DirectShow], SetAnswerMode method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setanswermode, iwstdec/IAMWstDecoder::SetAnswerMode
 ms.topic: method
-f1_keywords: ["iwstdec/IAMWstDecoder.SetAnswerMode"]
+f1_keywords: 
+ - "iwstdec/IAMWstDecoder.SetAnswerMode"
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumWbemClassObject interface [Windows Management Instrumentation],Next method, IEnumWbemClassObject.Next, IEnumWbemClassObject::Next, Next, Next method [Windows Management Instrumentation], Next method [Windows Management Instrumentation],IEnumWbemClassObject interface, _hmm_ienumwbemclassobject_next, wbemcli/IEnumWbemClassObject::Next, wmi.ienumwbemclassobject_next
 ms.topic: method
-f1_keywords: ["wbemcli/IEnumWbemClassObject.Next"]
+f1_keywords: 
+ - "wbemcli/IEnumWbemClassObject.Next"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

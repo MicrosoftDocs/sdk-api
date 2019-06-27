@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupRemoveFromSourceList, SetupRemoveFromSourceList function [Setup API], SetupRemoveFromSourceListA, SetupRemoveFromSourceListW, _setupapi_setupremovefromsourcelist, setup.setupremovefromsourcelist, setupapi/SetupRemoveFromSourceList, setupapi/SetupRemoveFromSourceListA, setupapi/SetupRemoveFromSourceListW
 ms.topic: function
-f1_keywords: ["setupapi/SetupRemoveFromSourceList"]
+f1_keywords: 
+ - "setupapi/SetupRemoveFromSourceList"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

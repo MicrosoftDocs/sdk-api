@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThreadWaitChain, GetThreadWaitChain function, WCT_OUT_OF_PROC_COM_FLAG, WCT_OUT_OF_PROC_CS_FLAG, WCT_OUT_OF_PROC_FLAG, base.getthreadwaitchain, wct/GetThreadWaitChain
 ms.topic: function
-f1_keywords: ["wct/GetThreadWaitChain"]
+f1_keywords: 
+ - "wct/GetThreadWaitChain"
 req.header: wct.h
 req.include-header: 
 req.target-type: Windows

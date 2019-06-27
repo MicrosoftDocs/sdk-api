@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ControlViewWalker property [Windows Accessibility], ControlViewWalker property [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ControlViewWalker property, IUIAutomation.ControlViewWalker, IUIAutomation.get_ControlViewWalker, IUIAutomation::ControlViewWalker, IUIAutomation::get_ControlViewWalker, get_ControlViewWalker, uiauto.uiauto_IUIAutomation_ControlViewWalker, uiauto_IUIAutomation_ControlViewWalker, uiautomationclient/IUIAutomation::ControlViewWalker, uiautomationclient/IUIAutomation::get_ControlViewWalker, winauto.uiauto_IUIAutomation_ControlViewWalker
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomation.ControlViewWalker"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomation.ControlViewWalker"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

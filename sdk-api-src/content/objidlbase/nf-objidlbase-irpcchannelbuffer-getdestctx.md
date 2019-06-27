@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDestCtx, GetDestCtx method [COM], GetDestCtx method [COM],IRpcChannelBuffer interface, IRpcChannelBuffer interface [COM],GetDestCtx method, IRpcChannelBuffer.GetDestCtx, IRpcChannelBuffer::GetDestCtx, _com_irpcchannelbuffer_getdestctx, com.irpcchannelbuffer_getdestctx, objidlbase/IRpcChannelBuffer::GetDestCtx
 ms.topic: method
-f1_keywords: ["objidlbase/IRpcChannelBuffer.GetDestCtx"]
+f1_keywords: 
+ - "objidlbase/IRpcChannelBuffer.GetDestCtx"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

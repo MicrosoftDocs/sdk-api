@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetConnectionBandwidth method, IWMReaderNetworkConfig.SetConnectionBandwidth, IWMReaderNetworkConfig::SetConnectionBandwidth, IWMReaderNetworkConfigSetConnectionBandwidth, SetConnectionBandwidth, SetConnectionBandwidth method [windows Media Format], SetConnectionBandwidth method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setconnectionbandwidth, wmsdkidl/IWMReaderNetworkConfig::SetConnectionBandwidth
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderNetworkConfig.SetConnectionBandwidth"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderNetworkConfig.SetConnectionBandwidth"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertRemoveStoreFromCollection, CertRemoveStoreFromCollection function [Security], _crypto2_certremovestorefromcollection, security.certremovestorefromcollection, wincrypt/CertRemoveStoreFromCollection
 ms.topic: function
-f1_keywords: ["wincrypt/CertRemoveStoreFromCollection"]
+f1_keywords: 
+ - "wincrypt/CertRemoveStoreFromCollection"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

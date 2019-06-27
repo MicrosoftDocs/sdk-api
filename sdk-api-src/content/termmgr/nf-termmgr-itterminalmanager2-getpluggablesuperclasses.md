@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPluggableSuperclasses, GetPluggableSuperclasses method [TAPI 2.2], GetPluggableSuperclasses method [TAPI 2.2],ITTerminalManager2 interface, ITTerminalManager2 interface [TAPI 2.2],GetPluggableSuperclasses method, ITTerminalManager2.GetPluggableSuperclasses, ITTerminalManager2::GetPluggableSuperclasses, _tapi3_itterminalmanager2_getpluggablesuperclasses, tapi3.itterminalmanager2_getpluggablesuperclasses, termmgr/ITTerminalManager2::GetPluggableSuperclasses
 ms.topic: method
-f1_keywords: ["termmgr/ITTerminalManager2.GetPluggableSuperclasses"]
+f1_keywords: 
+ - "termmgr/ITTerminalManager2.GetPluggableSuperclasses"
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

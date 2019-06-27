@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],PlaylistCollectionChange method, IWMPEvents.PlaylistCollectionChange, IWMPEvents::PlaylistCollectionChange, IWMPEventsPlaylistCollectionChange, PlaylistCollectionChange, PlaylistCollectionChange method [Windows Media Player], PlaylistCollectionChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__playlistcollectionchange, wmp/IWMPEvents::PlaylistCollectionChange
 ms.topic: method
-f1_keywords: ["wmp/IWMPEvents.PlaylistCollectionChange"]
+f1_keywords: 
+ - "wmp/IWMPEvents.PlaylistCollectionChange"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

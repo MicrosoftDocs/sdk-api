@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantToInt32Vector, PropVariantToInt32Vector function [Windows Properties], _shell_PropVariantToInt32Vector, properties.PropVariantToInt32Vector, propvarutil/PropVariantToInt32Vector, shell.PropVariantToInt32Vector
 ms.topic: function
-f1_keywords: ["propvarutil/PropVariantToInt32Vector"]
+f1_keywords: 
+ - "propvarutil/PropVariantToInt32Vector"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

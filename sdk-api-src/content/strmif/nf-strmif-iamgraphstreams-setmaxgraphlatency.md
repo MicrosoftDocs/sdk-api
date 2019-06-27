@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMGraphStreams interface [DirectShow],SetMaxGraphLatency method, IAMGraphStreams.SetMaxGraphLatency, IAMGraphStreams::SetMaxGraphLatency, IAMGraphStreamsSetMaxGraphLatency, SetMaxGraphLatency, SetMaxGraphLatency method [DirectShow], SetMaxGraphLatency method [DirectShow],IAMGraphStreams interface, dshow.iamgraphstreams_setmaxgraphlatency, strmif/IAMGraphStreams::SetMaxGraphLatency
 ms.topic: method
-f1_keywords: ["strmif/IAMGraphStreams.SetMaxGraphLatency"]
+f1_keywords: 
+ - "strmif/IAMGraphStreams.SetMaxGraphLatency"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

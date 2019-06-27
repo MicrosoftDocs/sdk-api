@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasDeleteEntry, RasDeleteEntry function [RAS], RasDeleteEntryA, RasDeleteEntryW, _ras_rasdeleteentry, ras/RasDeleteEntry, ras/RasDeleteEntryA, ras/RasDeleteEntryW, rras.rasdeleteentry
 ms.topic: function
-f1_keywords: ["ras/RasDeleteEntry"]
+f1_keywords: 
+ - "ras/RasDeleteEntry"
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

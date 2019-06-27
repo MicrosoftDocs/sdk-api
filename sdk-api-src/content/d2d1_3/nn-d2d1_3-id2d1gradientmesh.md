@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1GradientMesh, ID2D1GradientMesh interface [Direct2D], ID2D1GradientMesh interface [Direct2D],described, d2d1_3/ID2D1GradientMesh, direct2d.id2d1gradientmesh
 ms.topic: interface
-f1_keywords: ["d2d1_3/ID2D1GradientMesh"]
+f1_keywords: 
+ - "d2d1_3/ID2D1GradientMesh"
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

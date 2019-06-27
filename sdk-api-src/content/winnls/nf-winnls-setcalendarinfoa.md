@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetCalendarInfo, SetCalendarInfo function [Internationalization for Windows Applications], SetCalendarInfoA, SetCalendarInfoW, _win32_SetCalendarInfo, intl.setcalendarinfo, winnls/SetCalendarInfo, winnls/SetCalendarInfoA, winnls/SetCalendarInfoW
 ms.topic: function
-f1_keywords: ["winnls/SetCalendarInfo"]
+f1_keywords: 
+ - "winnls/SetCalendarInfo"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

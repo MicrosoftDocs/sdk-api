@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush class [GDI+],ResetTransform method, PathGradientBrush.ResetTransform, PathGradientBrush::ResetTransform, ResetTransform, ResetTransform method [GDI+], ResetTransform method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_ResetTransform_, gdiplus._gdiplus_CLASS_PathGradientBrush_ResetTransform_
 ms.topic: method
-f1_keywords: ["gdipluspath/PathGradientBrush.ResetTransform"]
+f1_keywords: 
+ - "gdipluspath/PathGradientBrush.ResetTransform"
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

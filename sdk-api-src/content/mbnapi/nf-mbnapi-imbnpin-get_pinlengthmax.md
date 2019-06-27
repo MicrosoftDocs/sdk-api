@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnPin interface [Microsoft Broadband Networks],PinLengthMax property, IMbnPin.PinLengthMax, IMbnPin.get_PinLengthMax, IMbnPin::PinLengthMax, IMbnPin::get_PinLengthMax, PinLengthMax property [Microsoft Broadband Networks], PinLengthMax property [Microsoft Broadband Networks],IMbnPin interface, get_PinLengthMax, mbn.imbnpin_pinlengthmax, mbnapi/IMbnPin::PinLengthMax, mbnapi/IMbnPin::get_PinLengthMax
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnPin.PinLengthMax"]
+f1_keywords: 
+ - "mbnapi/IMbnPin.PinLengthMax"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

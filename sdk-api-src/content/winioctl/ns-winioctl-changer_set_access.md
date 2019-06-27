@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCHANGER_SET_ACCESS, CHANGER_SET_ACCESS, CHANGER_SET_ACCESS structure, EXTEND_IEPORT, LOCK_ELEMENT, PCHANGER_SET_ACCESS, PCHANGER_SET_ACCESS structure pointer, RETRACT_IEPORT, UNLOCK_ELEMENT, _win32_changer_set_access_str, base.changer_set_access_str, winioctl/CHANGER_SET_ACCESS, winioctl/PCHANGER_SET_ACCESS"
 ms.topic: struct
-f1_keywords: ["winioctl/CHANGER_SET_ACCESS"]
+f1_keywords: 
+ - "winioctl/CHANGER_SET_ACCESS"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

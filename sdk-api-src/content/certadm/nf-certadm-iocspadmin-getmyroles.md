@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMyRoles, GetMyRoles method [Security], GetMyRoles method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetMyRoles method, IOCSPAdmin.GetMyRoles, IOCSPAdmin::GetMyRoles, certadm/IOCSPAdmin::GetMyRoles, security.iocspadmin_getmyroles_method
 ms.topic: method
-f1_keywords: ["certadm/IOCSPAdmin.GetMyRoles"]
+f1_keywords: 
+ - "certadm/IOCSPAdmin.GetMyRoles"
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMessageW, GetMessageW method [Text Services Framework], GetMessageW method [Text Services Framework],ITfMessagePump interface, ITfMessagePump interface [Text Services Framework],GetMessageW method, ITfMessagePump.GetMessageW, ITfMessagePump::GetMessageW, _tsf_itfmessagepump_getmessagew_ref, msctf/ITfMessagePump::GetMessageW, tsf.itfmessagepump_getmessagew
 ms.topic: method
-f1_keywords: ["msctf/ITfMessagePump.GetMessageW"]
+f1_keywords: 
+ - "msctf/ITfMessagePump.GetMessageW"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

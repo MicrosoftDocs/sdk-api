@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateTranscodeProfile, MFCreateTranscodeProfile function [Media Foundation], mf.mfcreatetranscodeprofile, mfidl/MFCreateTranscodeProfile
 ms.topic: function
-f1_keywords: ["mfidl/MFCreateTranscodeProfile"]
+f1_keywords: 
+ - "mfidl/MFCreateTranscodeProfile"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

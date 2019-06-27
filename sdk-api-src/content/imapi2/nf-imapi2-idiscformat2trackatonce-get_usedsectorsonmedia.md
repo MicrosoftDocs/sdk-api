@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_UsedSectorsOnMedia method, IDiscFormat2TrackAtOnce.get_UsedSectorsOnMedia, IDiscFormat2TrackAtOnce::get_UsedSectorsOnMedia, get_UsedSectorsOnMedia, get_UsedSectorsOnMedia method [IMAPI], get_UsedSectorsOnMedia method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_usedsectorsonmedia, imapi2/IDiscFormat2TrackAtOnce::get_UsedSectorsOnMedia
 ms.topic: method
-f1_keywords: ["imapi2/IDiscFormat2TrackAtOnce.get_UsedSectorsOnMedia"]
+f1_keywords: 
+ - "imapi2/IDiscFormat2TrackAtOnce.get_UsedSectorsOnMedia"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

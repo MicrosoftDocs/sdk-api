@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioStreamVolume, IAudioStreamVolume interface [Core Audio], IAudioStreamVolume interface [Core Audio],described, audioclient/IAudioStreamVolume, coreaudio.iaudiostreamvolume
 ms.topic: interface
-f1_keywords: ["audioclient/IAudioStreamVolume"]
+f1_keywords: 
+ - "audioclient/IAudioStreamVolume"
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

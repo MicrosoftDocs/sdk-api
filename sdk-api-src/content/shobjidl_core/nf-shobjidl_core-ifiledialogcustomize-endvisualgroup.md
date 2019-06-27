@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndVisualGroup, EndVisualGroup method [Windows Shell], EndVisualGroup method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],EndVisualGroup method, IFileDialogCustomize.EndVisualGroup, IFileDialogCustomize::EndVisualGroup, shell.IFileDialogCustomize_EndVisualGroup, shell_IFileDialogCustomize_EndVisualGroup, shobjidl_core/IFileDialogCustomize::EndVisualGroup
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileDialogCustomize.EndVisualGroup"]
+f1_keywords: 
+ - "shobjidl_core/IFileDialogCustomize.EndVisualGroup"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

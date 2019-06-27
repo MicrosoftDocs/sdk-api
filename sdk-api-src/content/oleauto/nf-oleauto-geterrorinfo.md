@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetErrorInfo, GetErrorInfo function [Automation], _oa96_GetErrorInfo, automat.geterrorinfo, oleauto/GetErrorInfo
 ms.topic: function
-f1_keywords: ["oleauto/GetErrorInfo"]
+f1_keywords: 
+ - "oleauto/GetErrorInfo"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMTunerNotification interface [DirectShow],OnEvent method, IAMTunerNotification.OnEvent, IAMTunerNotification::OnEvent, IAMTunerNotificationOnEvent, OnEvent, OnEvent method [DirectShow], OnEvent method [DirectShow],IAMTunerNotification interface, dshow.iamtunernotification_onevent, strmif/IAMTunerNotification::OnEvent
 ms.topic: method
-f1_keywords: ["strmif/IAMTunerNotification.OnEvent"]
+f1_keywords: 
+ - "strmif/IAMTunerNotification.OnEvent"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IToc interface [Media Foundation],SetDescriptor method, IToc.SetDescriptor, IToc::SetDescriptor, SetDescriptor, SetDescriptor method [Media Foundation], SetDescriptor method [Media Foundation],IToc interface, codecapi.itoc_setdescriptor, mf.itoc_setdescriptor, wmcodecdsp/IToc::SetDescriptor
 ms.topic: method
-f1_keywords: ["wmcodecdsp/IToc.SetDescriptor"]
+f1_keywords: 
+ - "wmcodecdsp/IToc.SetDescriptor"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

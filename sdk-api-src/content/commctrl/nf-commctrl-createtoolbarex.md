@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateToolbarEx, CreateToolbarEx function [Windows Controls], _win32_CreateToolbarEx, _win32_CreateToolbarEx_cpp, commctrl/CreateToolbarEx, controls.CreateToolbarEx, controls._win32_CreateToolbarEx
 ms.topic: function
-f1_keywords: ["commctrl/CreateToolbarEx"]
+f1_keywords: 
+ - "commctrl/CreateToolbarEx"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 97053d10-5ac7-40c0-b46b-77d401284d58, GetNode, GetNode method [Media Foundation], GetNode method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetNode method, IMFTopology.GetNode, IMFTopology::GetNode, mf.imftopology_getnode, mfidl/IMFTopology::GetNode
 ms.topic: method
-f1_keywords: ["mfidl/IMFTopology.GetNode"]
+f1_keywords: 
+ - "mfidl/IMFTopology.GetNode"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

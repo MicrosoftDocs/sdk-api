@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ApplyControlToken, ApplyControlToken function [Security], _ssp_applycontroltoken, security.applycontroltoken, sspi/ApplyControlToken
 ms.topic: function
-f1_keywords: ["sspi/ApplyControlToken"]
+f1_keywords: 
+ - "sspi/ApplyControlToken"
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

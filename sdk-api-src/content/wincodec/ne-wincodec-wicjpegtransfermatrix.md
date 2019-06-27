@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICJpegTransferMatrix, WICJpegTransferMatrix enumeration [Windows Imaging Component], WICJpegTransferMatrixBT601, WICJpegTransferMatrixIdentity, WICJpegTransferMatrix_FORCE_DWORD, wic.wicjpegtransfermatrix, wincodec/WICJpegTransferMatrix, wincodec/WICJpegTransferMatrixBT601, wincodec/WICJpegTransferMatrixIdentity, wincodec/WICJpegTransferMatrix_FORCE_DWORD
 ms.topic: enum
-f1_keywords: ["wincodec/WICJpegTransferMatrix"]
+f1_keywords: 
+ - "wincodec/WICJpegTransferMatrix"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

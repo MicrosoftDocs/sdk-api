@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItemChoiceCount, GetItemChoiceCount method [Windows Shell], GetItemChoiceCount method [Windows Shell],ISyncMgrConflictResolveInfo interface, ISyncMgrConflictResolveInfo interface [Windows Shell],GetItemChoiceCount method, ISyncMgrConflictResolveInfo.GetItemChoiceCount, ISyncMgrConflictResolveInfo::GetItemChoiceCount, _shell_ISyncMgrConflictResolveInfo_GetItemChoiceCount, shell.ISyncMgrConflictResolveInfo_GetItemChoiceCount, syncmgr/ISyncMgrConflictResolveInfo::GetItemChoiceCount
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrConflictResolveInfo.GetItemChoiceCount"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrConflictResolveInfo.GetItemChoiceCount"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

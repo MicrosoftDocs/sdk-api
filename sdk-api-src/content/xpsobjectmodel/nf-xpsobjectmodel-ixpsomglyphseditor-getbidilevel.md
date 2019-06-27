@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBidiLevel, GetBidiLevel method [XPS Documents and Packaging], GetBidiLevel method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetBidiLevel method, IXpsOMGlyphsEditor.GetBidiLevel, IXpsOMGlyphsEditor::GetBidiLevel, xps.ixpsomglyphseditor_getbidilevel, xpsobjectmodel/IXpsOMGlyphsEditor::GetBidiLevel
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGlyphsEditor.GetBidiLevel"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGlyphsEditor.GetBidiLevel"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportSession interface [Windows Deployment Services],RetrieveClients method, IWdsTransportSession.RetrieveClients, IWdsTransportSession::RetrieveClients, RetrieveClients, RetrieveClients method [Windows Deployment Services], RetrieveClients method [Windows Deployment Services],IWdsTransportSession interface, wds.iwdstransportsession_retrieveclients, wdstptmgmt/IWdsTransportSession::RetrieveClients
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportSession.RetrieveClients"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportSession.RetrieveClients"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

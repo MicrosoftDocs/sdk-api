@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "??1CObjectPathParser@@QAE@XZ, ??1CObjectPathParser@@QEAA@XZ, CObjectPathParser, CObjectPathParser class [Windows Management Instrumentation], CObjectPathParser class [Windows Management Instrumentation],described, objpath/CObjectPathParser, wmi.cobjectpathparser"
 ms.topic: class
-f1_keywords: ["objpath/CObjectPathParser"]
+f1_keywords: 
+ - "objpath/CObjectPathParser"
 req.header: objpath.h
 req.include-header: ObjPath.h
 req.target-type: Windows

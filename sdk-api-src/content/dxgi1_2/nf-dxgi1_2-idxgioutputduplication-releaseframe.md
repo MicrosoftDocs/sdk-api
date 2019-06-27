@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIOutputDuplication interface [DXGI],ReleaseFrame method, IDXGIOutputDuplication.ReleaseFrame, IDXGIOutputDuplication::ReleaseFrame, ReleaseFrame, ReleaseFrame method [DXGI], ReleaseFrame method [DXGI],IDXGIOutputDuplication interface, direct3ddxgi.idxgioutputduplication_releaseframe, dxgi1_2/IDXGIOutputDuplication::ReleaseFrame
 ms.topic: method
-f1_keywords: ["dxgi1_2/IDXGIOutputDuplication.ReleaseFrame"]
+f1_keywords: 
+ - "dxgi1_2/IDXGIOutputDuplication.ReleaseFrame"
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

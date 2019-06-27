@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeLsaHeap, FreeLsaHeap callback function [Security], LSA_FREE_LSA_HEAP, LSA_FREE_LSA_HEAP callback, _lsa_freelsaheap, ntlsa/FreeLsaHeap, security.freelsaheap
 ms.topic: callback
-f1_keywords: ["ntlsa/FreeLsaHeap"]
+f1_keywords: 
+ - "ntlsa/FreeLsaHeap"
 req.header: ntlsa.h
 req.include-header: 
 req.target-type: Windows

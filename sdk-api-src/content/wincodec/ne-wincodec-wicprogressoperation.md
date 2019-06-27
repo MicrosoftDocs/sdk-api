@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICProgressOperation, WICProgressOperation enumeration [Windows Imaging Component], WICProgressOperationAll, WICProgressOperationCopyPixels, WICProgressOperationWritePixels, _wic_codec_wicprogressoperation, wic._wic_codec_wicprogressoperation, wincodec/WICProgressOperation, wincodec/WICProgressOperationAll, wincodec/WICProgressOperationCopyPixels, wincodec/WICProgressOperationWritePixels
 ms.topic: enum
-f1_keywords: ["wincodec/WICProgressOperation"]
+f1_keywords: 
+ - "wincodec/WICProgressOperation"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

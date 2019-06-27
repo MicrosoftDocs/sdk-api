@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpAddress interface,SetPath method, IWSDHttpAddress.SetPath, IWSDHttpAddress::SetPath, SetPath, SetPath method, SetPath method,IWSDHttpAddress interface, ncd.iwsdhttpaddress_setpath, wsdbase/IWSDHttpAddress::SetPath
 ms.topic: method
-f1_keywords: ["wsdbase/IWSDHttpAddress.SetPath"]
+f1_keywords: 
+ - "wsdbase/IWSDHttpAddress.SetPath"
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

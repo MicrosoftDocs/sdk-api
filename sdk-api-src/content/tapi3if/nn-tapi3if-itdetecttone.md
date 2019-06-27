@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDetectTone, ITDetectTone interface [TAPI 2.2], ITDetectTone interface [TAPI 2.2],described, _tapi3_itdetecttone, tapi3.itdetecttone, tapi3if/ITDetectTone
 ms.topic: interface
-f1_keywords: ["tapi3if/ITDetectTone"]
+f1_keywords: 
+ - "tapi3if/ITDetectTone"
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

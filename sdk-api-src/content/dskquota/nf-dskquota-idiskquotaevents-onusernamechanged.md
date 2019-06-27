@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaEvents interface [Files],OnUserNameChanged method, IDiskQuotaEvents.OnUserNameChanged, IDiskQuotaEvents::OnUserNameChanged, OnUserNameChanged, OnUserNameChanged method [Files], OnUserNameChanged method [Files],IDiskQuotaEvents interface, _win32_idiskquotaevents_onusernamechanged, base.idiskquotaevents_onusernamechanged, dskquota/IDiskQuotaEvents::OnUserNameChanged, fs.idiskquotaevents_onusernamechanged
 ms.topic: method
-f1_keywords: ["dskquota/IDiskQuotaEvents.OnUserNameChanged"]
+f1_keywords: 
+ - "dskquota/IDiskQuotaEvents.OnUserNameChanged"
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

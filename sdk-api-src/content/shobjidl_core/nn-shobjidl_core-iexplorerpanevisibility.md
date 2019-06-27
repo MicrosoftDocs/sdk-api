@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExplorerPaneVisibility, IExplorerPaneVisibility interface [Windows Shell], IExplorerPaneVisibility interface [Windows Shell],described, _shell_IExplorerPaneVisibility, shell.IExplorerPaneVisibility, shobjidl_core/IExplorerPaneVisibility
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IExplorerPaneVisibility"]
+f1_keywords: 
+ - "shobjidl_core/IExplorerPaneVisibility"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

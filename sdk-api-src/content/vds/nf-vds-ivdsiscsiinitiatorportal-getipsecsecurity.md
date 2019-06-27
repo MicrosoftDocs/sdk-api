@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIpsecSecurity, GetIpsecSecurity method [VDS], GetIpsecSecurity method [VDS],IVdsIscsiInitiatorPortal interface, IVdsIscsiInitiatorPortal interface [VDS],GetIpsecSecurity method, IVdsIscsiInitiatorPortal.GetIpsecSecurity, IVdsIscsiInitiatorPortal::GetIpsecSecurity, base.ivdsiscsiinitiatorportal_getipsecsecurity, vds/IVdsIscsiInitiatorPortal::GetIpsecSecurity
 ms.topic: method
-f1_keywords: ["vds/IVdsIscsiInitiatorPortal.GetIpsecSecurity"]
+f1_keywords: 
+ - "vds/IVdsIscsiInitiatorPortal.GetIpsecSecurity"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

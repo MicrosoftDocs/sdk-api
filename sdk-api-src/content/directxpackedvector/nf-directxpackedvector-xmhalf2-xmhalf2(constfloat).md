@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 05/06/2019
 ms.keywords: XMHALF2, XMHALF2 constructor [DirectX Math Support APIs], XMHALF2 constructor [DirectX Math Support APIs],XMHALF2 structure, XMHALF2 structure [DirectX Math Support APIs],XMHALF2 constructor, XMHALF2.XMHALF2, XMHALF2.XMHALF2(), XMHALF2.XMHALF2(const float), XMHALF2::XMHALF2, XMHALF2::XMHALF2(const float), dxmath.xmhalf2_ctor_1
 ms.topic: method
-f1_keywords: ["directxpackedvector/XMHALF2.XMHALF2"]
+f1_keywords: 
+ - "directxpackedvector/XMHALF2.XMHALF2"
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

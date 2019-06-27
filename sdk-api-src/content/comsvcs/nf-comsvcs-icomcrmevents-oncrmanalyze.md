@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMAnalyze method, IComCRMEvents.OnCRMAnalyze, IComCRMEvents::OnCRMAnalyze, OnCRMAnalyze, OnCRMAnalyze method [COM+], OnCRMAnalyze method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMAnalyze, comsvcs/IComCRMEvents::OnCRMAnalyze, cos.icomcrmevents_oncrmanalyze
 ms.topic: method
-f1_keywords: ["comsvcs/IComCRMEvents.OnCRMAnalyze"]
+f1_keywords: 
+ - "comsvcs/IComCRMEvents.OnCRMAnalyze"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

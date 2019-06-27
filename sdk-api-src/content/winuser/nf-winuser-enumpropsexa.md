@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumPropsEx, EnumPropsEx function [Windows and Messages], EnumPropsExA, EnumPropsExW, _win32_EnumPropsEx, _win32_enumpropsex_cpp, winmsg.enumpropsex, winui._win32_enumpropsex, winuser/EnumPropsEx, winuser/EnumPropsExA, winuser/EnumPropsExW
 ms.topic: function
-f1_keywords: ["winuser/EnumPropsEx"]
+f1_keywords: 
+ - "winuser/EnumPropsEx"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

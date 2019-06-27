@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBTuneRequest interface [Microsoft TV Technologies],get_SID method, IDVBTuneRequest.get_SID, IDVBTuneRequest::get_SID, IDVBTuneRequestget_SID, get_SID, get_SID method [Microsoft TV Technologies], get_SID method [Microsoft TV Technologies],IDVBTuneRequest interface, mstv.idvbtunerequest_get_sid, tuner/IDVBTuneRequest::get_SID
 ms.topic: method
-f1_keywords: ["tuner/IDVBTuneRequest.get_SID"]
+f1_keywords: 
+ - "tuner/IDVBTuneRequest.get_SID"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

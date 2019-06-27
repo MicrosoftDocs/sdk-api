@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITransformProvider2 interface [Windows Accessibility],ZoomMinimum property, ITransformProvider2.ZoomMinimum, ITransformProvider2.get_ZoomMinimum, ITransformProvider2::ZoomMinimum, ITransformProvider2::get_ZoomMinimum, ZoomMinimum property [Windows Accessibility], ZoomMinimum property [Windows Accessibility],ITransformProvider2 interface, get_ZoomMinimum, uiautomationcore/ITransformProvider2::ZoomMinimum, uiautomationcore/ITransformProvider2::get_ZoomMinimum, winauto.uiauto_itransformprovider2_zoomminimum
 ms.topic: method
-f1_keywords: ["uiautomationcore/ITransformProvider2.ZoomMinimum"]
+f1_keywords: 
+ - "uiautomationcore/ITransformProvider2.ZoomMinimum"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

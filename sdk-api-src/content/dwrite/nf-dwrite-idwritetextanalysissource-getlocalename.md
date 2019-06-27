@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLocaleName, GetLocaleName method [Direct Write], GetLocaleName method [Direct Write],IDWriteTextAnalysisSource interface, IDWriteTextAnalysisSource interface [Direct Write],GetLocaleName method, IDWriteTextAnalysisSource.GetLocaleName, IDWriteTextAnalysisSource::GetLocaleName, directwrite.idwritetextanalysissource_getlocalename, dwrite/IDWriteTextAnalysisSource::GetLocaleName
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextAnalysisSource.GetLocaleName"]
+f1_keywords: 
+ - "dwrite/IDWriteTextAnalysisSource.GetLocaleName"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

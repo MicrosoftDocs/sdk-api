@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThemeTimingFunction, GetThemeTimingFunction function [Windows Controls], controls.getthemetimingfunction, uxtheme/GetThemeTimingFunction
 ms.topic: function
-f1_keywords: ["uxtheme/GetThemeTimingFunction"]
+f1_keywords: 
+ - "uxtheme/GetThemeTimingFunction"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

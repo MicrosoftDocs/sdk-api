@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDTFilter2 interface [Microsoft TV Technologies],get_ChallengeUrl method, IDTFilter2.get_ChallengeUrl, IDTFilter2::get_ChallengeUrl, IDTFilter2get_ChallengeUrl, encdec/IDTFilter2::get_ChallengeUrl, get_ChallengeUrl, get_ChallengeUrl method [Microsoft TV Technologies], get_ChallengeUrl method [Microsoft TV Technologies],IDTFilter2 interface, mstv.idtfilter2_get_challengeurl
 ms.topic: method
-f1_keywords: ["encdec/IDTFilter2.get_ChallengeUrl"]
+f1_keywords: 
+ - "encdec/IDTFilter2.get_ChallengeUrl"
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupQueueDeleteSection, SetupQueueDeleteSection function [Setup API], SetupQueueDeleteSectionA, SetupQueueDeleteSectionW, _setupapi_setupqueuedeletesection, setup.setupqueuedeletesection, setupapi/SetupQueueDeleteSection, setupapi/SetupQueueDeleteSectionA, setupapi/SetupQueueDeleteSectionW
 ms.topic: function
-f1_keywords: ["setupapi/SetupQueueDeleteSection"]
+f1_keywords: 
+ - "setupapi/SetupQueueDeleteSection"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

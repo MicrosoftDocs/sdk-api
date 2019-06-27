@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScriptPositionSingleGlyph, ScriptPositionSingleGlyph function [Internationalization for Windows Applications], _win32_ScriptPositionSingleGlyph, intl.scriptpositionsingleglyph, usp10/ScriptPositionSingleGlyph
 ms.topic: function
-f1_keywords: ["usp10/ScriptPositionSingleGlyph"]
+f1_keywords: 
+ - "usp10/ScriptPositionSingleGlyph"
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

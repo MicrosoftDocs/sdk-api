@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: False, GroupBroadcastReceipts property [Fax Service], GroupBroadcastReceipts property [Fax Service],IFaxOutgoingJob interface, IFaxOutgoingJob interface [Fax Service],GroupBroadcastReceipts property, IFaxOutgoingJob.GroupBroadcastReceipts, IFaxOutgoingJob.get_GroupBroadcastReceipts, IFaxOutgoingJob::GroupBroadcastReceipts, IFaxOutgoingJob::get_GroupBroadcastReceipts, True, _mfax_faxoutgoingjob.groupbroadcastreceipts, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_groupbroadcastreceipts_cpp, fax._mfax_faxoutgoingjob_groupbroadcastreceipts, faxcomex/IFaxOutgoingJob::GroupBroadcastReceipts, faxcomex/IFaxOutgoingJob::get_GroupBroadcastReceipts, get_GroupBroadcastReceipts
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxOutgoingJob.GroupBroadcastReceipts"]
+f1_keywords: 
+ - "faxcomex/IFaxOutgoingJob.GroupBroadcastReceipts"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_SetSelectedColumn, ListView_SetSelectedColumn macro [Windows Controls], _win32_ListView_SetSelectedColumn, _win32_ListView_SetSelectedColumn_cpp, commctrl/ListView_SetSelectedColumn, controls.ListView_SetSelectedColumn, controls._win32_ListView_SetSelectedColumn
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_SetSelectedColumn"]
+f1_keywords: 
+ - "commctrl/ListView_SetSelectedColumn"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

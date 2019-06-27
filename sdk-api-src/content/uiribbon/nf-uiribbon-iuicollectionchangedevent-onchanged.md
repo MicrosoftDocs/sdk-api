@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUICollectionChangedEvent interface [Windows Ribbon],OnChanged method, IUICollectionChangedEvent.OnChanged, IUICollectionChangedEvent::OnChanged, OnChanged, OnChanged method [Windows Ribbon], OnChanged method [Windows Ribbon],IUICollectionChangedEvent interface, scenicintent_IUICollectionChangedEvent_OnChanged, uiribbon/IUICollectionChangedEvent::OnChanged, windowsribbon.windowsribbon_iuicollectionchangedevent_onchanged
 ms.topic: method
-f1_keywords: ["uiribbon/IUICollectionChangedEvent.OnChanged"]
+f1_keywords: 
+ - "uiribbon/IUICollectionChangedEvent.OnChanged"
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

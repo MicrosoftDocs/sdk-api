@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linegetid, lineGetID, lineGetID function [TAPI 2.2], lineGetIDA, lineGetIDW, tapi/lineGetID, tapi/lineGetIDA, tapi/lineGetIDW, tapi2.linegetid"
 ms.topic: function
-f1_keywords: ["tapi/lineGetID"]
+f1_keywords: 
+ - "tapi/lineGetID"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

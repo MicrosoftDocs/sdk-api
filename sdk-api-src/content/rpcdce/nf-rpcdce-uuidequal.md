@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UuidEqual, UuidEqual function [RPC], _rpc_uuidequal, rpc.uuidequal, rpcdce/UuidEqual
 ms.topic: function
-f1_keywords: ["rpcdce/UuidEqual"]
+f1_keywords: 
+ - "rpcdce/UuidEqual"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

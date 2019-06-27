@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IClassFactory interface [COM],LockServer method, IClassFactory.LockServer, IClassFactory::LockServer, LockServer, LockServer method [COM], LockServer method [COM],IClassFactory interface, _com_iclassfactory_lockserver, com.iclassfactory_lockserver, unknwnbase/IClassFactory::LockServer
 ms.topic: method
-f1_keywords: ["unknwnbase/IClassFactory.LockServer"]
+f1_keywords: 
+ - "unknwnbase/IClassFactory.LockServer"
 req.header: unknwnbase.h
 req.include-header: Unknwn.h
 req.target-type: Windows

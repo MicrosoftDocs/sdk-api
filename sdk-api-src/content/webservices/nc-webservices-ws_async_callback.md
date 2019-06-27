@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_ASYNC_CALLBACK, WS_ASYNC_CALLBACK callback, WS_ASYNC_CALLBACK callback function [Web Services for Windows], webservices/WS_ASYNC_CALLBACK, wsw.ws_async_callback
 ms.topic: callback
-f1_keywords: ["webservices/WS_ASYNC_CALLBACK"]
+f1_keywords: 
+ - "webservices/WS_ASYNC_CALLBACK"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

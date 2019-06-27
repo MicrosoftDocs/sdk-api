@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ICertificatePolicies interface, ICertificatePolicies interface [Security],Clear method, ICertificatePolicies.Clear, ICertificatePolicies::Clear, certenroll/ICertificatePolicies::Clear, security.icertificatepolicies_clear_method
 ms.topic: method
-f1_keywords: ["certenroll/ICertificatePolicies.Clear"]
+f1_keywords: 
+ - "certenroll/ICertificatePolicies.Clear"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

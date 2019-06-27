@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AUTHZ_RM_FLAG_INITIALIZE_UNDER_IMPERSONATION, AUTHZ_RM_FLAG_NO_AUDIT, AUTHZ_RM_FLAG_NO_CENTRALIZED_ACCESS_POLICIES, AuthzInitializeResourceManager, AuthzInitializeResourceManager function [Security], _win32_authzinitializeresourcemanager, authz/AuthzInitializeResourceManager, security.authzinitializeresourcemanager
 ms.topic: function
-f1_keywords: ["authz/AuthzInitializeResourceManager"]
+f1_keywords: 
+ - "authz/AuthzInitializeResourceManager"
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

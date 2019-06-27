@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumPublishedApps, IEnumPublishedApps interface [Windows Shell], IEnumPublishedApps interface [Windows Shell],described, inet_IEnumPublishedApps, shappmgr/IEnumPublishedApps, shell.IEnumPublishedApps
 ms.topic: interface
-f1_keywords: ["shappmgr/IEnumPublishedApps"]
+f1_keywords: 
+ - "shappmgr/IEnumPublishedApps"
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

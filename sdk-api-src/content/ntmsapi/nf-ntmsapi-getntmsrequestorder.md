@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNtmsRequestOrder, GetNtmsRequestOrder function [Files], _zaw_getntmsrequestorder, base.getntmsrequestorder, fs.getntmsrequestorder, ntmsapi/GetNtmsRequestOrder
 ms.topic: function
-f1_keywords: ["ntmsapi/GetNtmsRequestOrder"]
+f1_keywords: 
+ - "ntmsapi/GetNtmsRequestOrder"
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

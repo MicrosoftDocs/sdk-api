@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CompareRuntimeIds, CompareRuntimeIds method [Windows Accessibility], CompareRuntimeIds method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CompareRuntimeIds method, IUIAutomation.CompareRuntimeIds, IUIAutomation::CompareRuntimeIds, uiauto.uiauto_IUIAutomation_CompareRuntimeIds, uiauto_IUIAutomation_CompareRuntimeIds, uiautomationclient/IUIAutomation::CompareRuntimeIds, winauto.uiauto_IUIAutomation_CompareRuntimeIds
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomation.CompareRuntimeIds"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomation.CompareRuntimeIds"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

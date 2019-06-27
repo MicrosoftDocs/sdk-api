@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_phoneconfigdialog, phoneConfigDialog, phoneConfigDialog function [TAPI 2.2], phoneConfigDialogA, phoneConfigDialogW, tapi/phoneConfigDialog, tapi/phoneConfigDialogA, tapi/phoneConfigDialogW, tapi2.phoneconfigdialog"
 ms.topic: function
-f1_keywords: ["tapi/phoneConfigDialog"]
+f1_keywords: 
+ - "tapi/phoneConfigDialog"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

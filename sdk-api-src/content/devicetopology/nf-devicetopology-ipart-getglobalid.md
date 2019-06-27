@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGlobalId, GetGlobalId method [Core Audio], GetGlobalId method [Core Audio],IPart interface, IPart interface [Core Audio],GetGlobalId method, IPart.GetGlobalId, IPart::GetGlobalId, IPartGetGlobalId, coreaudio.ipart_getglobalid, devicetopology/IPart::GetGlobalId
 ms.topic: method
-f1_keywords: ["devicetopology/IPart.GetGlobalId"]
+f1_keywords: 
+ - "devicetopology/IPart.GetGlobalId"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

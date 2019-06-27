@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CStdStubBuffer_DebugServerQueryInterface, CStdStubBuffer_DebugServerQueryInterface function [RPC], rpc.cstdstubbuffer_debugserverqueryinterface, rpcproxy/CStdStubBuffer_DebugServerQueryInterface
 ms.topic: function
-f1_keywords: ["rpcproxy/CStdStubBuffer_DebugServerQueryInterface"]
+f1_keywords: 
+ - "rpcproxy/CStdStubBuffer_DebugServerQueryInterface"
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

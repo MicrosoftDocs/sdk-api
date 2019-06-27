@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSManReceiveShellOutput, WSManReceiveShellOutput function [Windows Remote Management], winrm.wsmanreceiveshelloutput, wsman/WSManReceiveShellOutput
 ms.topic: function
-f1_keywords: ["wsman/WSManReceiveShellOutput"]
+f1_keywords: 
+ - "wsman/WSManReceiveShellOutput"
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

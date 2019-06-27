@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzOperation object [Security],Writable property, IAzOperation interface [Security],Writable property, IAzOperation.Writable, IAzOperation.get_Writable, IAzOperation::Writable, IAzOperation::get_Writable, Writable property [Security], Writable property [Security],AzOperation object, Writable property [Security],IAzOperation interface, azroles/IAzOperation::Writable, azroles/IAzOperation::get_Writable, get_Writable, security.iazoperation_writable
 ms.topic: method
-f1_keywords: ["azroles/IAzOperation.Writable"]
+f1_keywords: 
+ - "azroles/IAzOperation.Writable"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

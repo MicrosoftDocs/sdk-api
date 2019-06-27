@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawBeziers
 ms.topic: language-reference
-f1_keywords: ["gdiplusgraphics/Graphics::DrawBeziers"]
+f1_keywords: 
+ - "gdiplusgraphics/Graphics::DrawBeziers"
 targetos: Windows
 product: Windows
 req.assembly: 

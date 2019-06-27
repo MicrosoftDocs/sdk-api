@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],CreateTask method, CreateTask, CreateTask method [Security], CreateTask method [Security],AzApplication object, CreateTask method [Security],IAzApplication interface, IAzApplication interface [Security],CreateTask method, IAzApplication.CreateTask, IAzApplication::CreateTask, azroles/IAzApplication::CreateTask, security.iazapplication_createtask
 ms.topic: method
-f1_keywords: ["azroles/IAzApplication.CreateTask"]
+f1_keywords: 
+ - "azroles/IAzApplication.CreateTask"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumSyncProviderConfigUIInfos interface, IEnumSyncProviderConfigUIInfos interface [Windows Sync],Clone method, IEnumSyncProviderConfigUIInfos.Clone, IEnumSyncProviderConfigUIInfos::Clone, syncregistration/IEnumSyncProviderConfigUIInfos::Clone, winsync.ienumsyncproviderconfiguiinfos_clone
 ms.topic: method
-f1_keywords: ["syncregistration/IEnumSyncProviderConfigUIInfos.Clone"]
+f1_keywords: 
+ - "syncregistration/IEnumSyncProviderConfigUIInfos.Clone"
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

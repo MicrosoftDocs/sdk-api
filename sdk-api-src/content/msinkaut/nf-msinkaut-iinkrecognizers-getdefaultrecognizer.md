@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 499a257d-72de-4121-a98f-c827a3fef611, GetDefaultRecognizer, GetDefaultRecognizer method [Tablet PC], GetDefaultRecognizer method [Tablet PC],IInkRecognizers interface, IInkRecognizers interface [Tablet PC],GetDefaultRecognizer method, IInkRecognizers.GetDefaultRecognizer, IInkRecognizers::GetDefaultRecognizer, msinkaut/IInkRecognizers::GetDefaultRecognizer, tablet.inkrecognizers_getdefaultrecognizer
 ms.topic: method
-f1_keywords: ["msinkaut/IInkRecognizers.GetDefaultRecognizer"]
+f1_keywords: 
+ - "msinkaut/IInkRecognizers.GetDefaultRecognizer"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

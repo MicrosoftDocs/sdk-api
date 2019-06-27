@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],put_UnratedDelay method, IMSVidStreamBufferSource.put_UnratedDelay, IMSVidStreamBufferSource::put_UnratedDelay, IMSVidStreamBufferSourceput_UnratedDelay, mstv.imsvidstreambuffersource_put_unrateddelay, put_UnratedDelay, put_UnratedDelay method [Microsoft TV Technologies], put_UnratedDelay method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, segment/IMSVidStreamBufferSource::put_UnratedDelay
 ms.topic: method
-f1_keywords: ["segment/IMSVidStreamBufferSource.put_UnratedDelay"]
+f1_keywords: 
+ - "segment/IMSVidStreamBufferSource.put_UnratedDelay"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

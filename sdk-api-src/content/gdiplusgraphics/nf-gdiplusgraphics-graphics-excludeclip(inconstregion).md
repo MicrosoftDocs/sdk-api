@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExcludeClip, ExcludeClip method [GDI+], ExcludeClip method [GDI+],Graphics class, Graphics class [GDI+],ExcludeClip method, Graphics.ExcludeClip, Graphics.ExcludeClip(IN const Region), Graphics.ExcludeClip(const Region*), Graphics::ExcludeClip, Graphics::ExcludeClip(IN const Region), _gdiplus_CLASS_Graphics_ExcludeClip_region_, gdiplus._gdiplus_CLASS_Graphics_ExcludeClip_region_
 ms.topic: method
-f1_keywords: ["gdiplusgraphics/Graphics.ExcludeClip"]
+f1_keywords: 
+ - "gdiplusgraphics/Graphics.ExcludeClip"
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

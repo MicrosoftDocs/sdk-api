@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TextRange_Compare, TextRange_Compare function [Windows Accessibility], uiauto.uiauto_TextRange_CompareConPat, uiauto_TextRange_CompareConPat, uiautomationcoreapi/TextRange_Compare, winauto.uiauto_TextRange_CompareConPat
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/TextRange_Compare"]
+f1_keywords: 
+ - "uiautomationcoreapi/TextRange_Compare"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

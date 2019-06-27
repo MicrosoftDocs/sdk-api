@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTabbedTextExtent, GetTabbedTextExtent function [Windows GDI], GetTabbedTextExtentA, GetTabbedTextExtentW, _win32_GetTabbedTextExtent, gdi.gettabbedtextextent, winuser/GetTabbedTextExtent, winuser/GetTabbedTextExtentA, winuser/GetTabbedTextExtentW
 ms.topic: function
-f1_keywords: ["winuser/GetTabbedTextExtent"]
+f1_keywords: 
+ - "winuser/GetTabbedTextExtent"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

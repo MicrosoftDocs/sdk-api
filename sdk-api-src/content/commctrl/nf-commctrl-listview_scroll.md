@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_Scroll, ListView_Scroll macro [Windows Controls], _win32_ListView_Scroll, _win32_ListView_Scroll_cpp, commctrl/ListView_Scroll, controls.ListView_Scroll, controls._win32_ListView_Scroll
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_Scroll"]
+f1_keywords: 
+ - "commctrl/ListView_Scroll"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

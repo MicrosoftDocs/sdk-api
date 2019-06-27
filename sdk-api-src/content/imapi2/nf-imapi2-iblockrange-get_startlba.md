@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBlockRange interface [IMAPI],get_StartLba method, IBlockRange.get_StartLba, IBlockRange::get_StartLba, get_StartLba, get_StartLba method [IMAPI], get_StartLba method [IMAPI],IBlockRange interface, imapi.iblockrange_get_startlba, imapi2/IBlockRange::get_StartLba
 ms.topic: method
-f1_keywords: ["imapi2/IBlockRange.get_StartLba"]
+f1_keywords: 
+ - "imapi2/IBlockRange.get_StartLba"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

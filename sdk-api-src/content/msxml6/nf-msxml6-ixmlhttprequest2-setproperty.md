@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],SetProperty method, IXMLHTTPRequest2.SetProperty, IXMLHTTPRequest2::SetProperty, SetProperty, SetProperty method [XMLHttpRequest2], SetProperty method [XMLHttpRequest2],IXMLHTTPRequest2 interface, XHR_PROP_EXTENDED_ERROR, XHR_PROP_IGNORE_CERT_ERRORS, XHR_PROP_NO_AUTH, XHR_PROP_NO_CACHE, XHR_PROP_NO_CRED_PROMPT, XHR_PROP_NO_DEFAULT_HEADERS, XHR_PROP_QUERY_STRING_UTF8, XHR_PROP_REPORT_REDIRECT_STATUS, XHR_PROP_TIMEOUT, ixhr2.ixmlhttprequest2_setproperty, msxml6/IXMLHTTPRequest2::SetProperty
 ms.topic: method
-f1_keywords: ["msxml6/IXMLHTTPRequest2.SetProperty"]
+f1_keywords: 
+ - "msxml6/IXMLHTTPRequest2.SetProperty"
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

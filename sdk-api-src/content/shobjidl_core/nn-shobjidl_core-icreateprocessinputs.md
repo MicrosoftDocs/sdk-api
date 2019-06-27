@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreateProcessInputs, ICreateProcessInputs interface [Windows Shell], ICreateProcessInputs interface [Windows Shell],described, shell.icreateprocessinputs, shobjidl_core/ICreateProcessInputs
 ms.topic: interface
-f1_keywords: ["shobjidl_core/ICreateProcessInputs"]
+f1_keywords: 
+ - "shobjidl_core/ICreateProcessInputs"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

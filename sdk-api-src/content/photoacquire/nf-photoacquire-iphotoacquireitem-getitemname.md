@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItemName, GetItemName method [Picture Acquisition], GetItemName method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],GetItemName method, IPhotoAcquireItem.GetItemName, IPhotoAcquireItem::GetItemName, IPhotoAcquireItemGetItemName, photoacquire/IPhotoAcquireItem::GetItemName, picacq.iphotoacquireitem_getitemname
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoAcquireItem.GetItemName"]
+f1_keywords: 
+ - "photoacquire/IPhotoAcquireItem.GetItemName"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

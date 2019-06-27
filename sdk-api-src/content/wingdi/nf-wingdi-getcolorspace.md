@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColorSpace, GetColorSpace function [Windows Color System], _color_GetColorSpace, wcs.getcolorspace, wingdi/GetColorSpace
 ms.topic: function
-f1_keywords: ["wingdi/GetColorSpace"]
+f1_keywords: 
+ - "wingdi/GetColorSpace"
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

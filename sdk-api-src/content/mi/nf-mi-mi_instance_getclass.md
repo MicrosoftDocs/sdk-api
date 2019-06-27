@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Instance_GetClass, MI_Instance_GetClass function [Windows Management Infrastructure (MI)], mi/MI_Instance_GetClass, wmi_v2.mi_instance_getclass
 ms.topic: function
-f1_keywords: ["mi/MI_Instance_GetClass"]
+f1_keywords: 
+ - "mi/MI_Instance_GetClass"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

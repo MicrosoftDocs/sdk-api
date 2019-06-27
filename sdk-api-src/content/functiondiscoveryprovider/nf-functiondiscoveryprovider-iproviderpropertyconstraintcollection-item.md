@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProviderPropertyConstraintCollection interface,Item method, IProviderPropertyConstraintCollection.Item, IProviderPropertyConstraintCollection::Item, Item, Item method, Item method,IProviderPropertyConstraintCollection interface, functiondiscoveryprovider/IProviderPropertyConstraintCollection::Item, ncd.iproviderpropertyconstraintcollection_item
 ms.topic: method
-f1_keywords: ["functiondiscoveryprovider/IProviderPropertyConstraintCollection.Item"]
+f1_keywords: 
+ - "functiondiscoveryprovider/IProviderPropertyConstraintCollection.Item"
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

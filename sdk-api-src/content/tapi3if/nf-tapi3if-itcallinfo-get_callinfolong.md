@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],get_CallInfoLong method, ITCallInfo.get_CallInfoLong, ITCallInfo::get_CallInfoLong, _tapi3_itcallinfo_get_callinfolong, get_CallInfoLong, get_CallInfoLong method [TAPI 2.2], get_CallInfoLong method [TAPI 2.2],ITCallInfo interface, tapi3.itcallinfo_get_callinfolong, tapi3if/ITCallInfo::get_CallInfoLong
 ms.topic: method
-f1_keywords: ["tapi3if/ITCallInfo.get_CallInfoLong"]
+f1_keywords: 
+ - "tapi3if/ITCallInfo.get_CallInfoLong"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

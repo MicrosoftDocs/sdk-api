@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedIsControlElement property [Windows Accessibility], CachedIsControlElement property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedIsControlElement property, IUIAutomationElement.CachedIsControlElement, IUIAutomationElement.get_CachedIsControlElement, IUIAutomationElement::CachedIsControlElement, IUIAutomationElement::get_CachedIsControlElement, get_CachedIsControlElement, uiauto.uiauto_IUIAutomationElement_CachedIsControlElement, uiauto_IUIAutomationElement_CachedIsControlElement, uiautomationclient/IUIAutomationElement::CachedIsControlElement, uiautomationclient/IUIAutomationElement::get_CachedIsControlElement, winauto.uiauto_IUIAutomationElement_CachedIsControlElement
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationElement.CachedIsControlElement"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement.CachedIsControlElement"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

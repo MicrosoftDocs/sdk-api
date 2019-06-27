@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumGuideDataProperties interface [Microsoft TV Technologies],Next method, IEnumGuideDataProperties.Next, IEnumGuideDataProperties::Next, IEnumGuideDataPropertiesNext, Next, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies],IEnumGuideDataProperties interface, bdatif/IEnumGuideDataProperties::Next, mstv.ienumguidedataproperties_next
 ms.topic: method
-f1_keywords: ["bdatif/IEnumGuideDataProperties.Next"]
+f1_keywords: 
+ - "bdatif/IEnumGuideDataProperties.Next"
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

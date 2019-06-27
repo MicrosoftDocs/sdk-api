@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LdapUnicodeToUTF8, LdapUnicodeToUTF8 function [LDAP], _ldap_ldapunicodetoutf8, ldap.ldapunicodetoutf8, winldap/LdapUnicodeToUTF8
 ms.topic: function
-f1_keywords: ["winldap/LdapUnicodeToUTF8"]
+f1_keywords: 
+ - "winldap/LdapUnicodeToUTF8"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

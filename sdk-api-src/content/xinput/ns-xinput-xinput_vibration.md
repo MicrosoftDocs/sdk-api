@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PXINPUT_VIBRATION, PXINPUT_VIBRATION, PXINPUT_VIBRATION structure pointer [XInput Game Controller APIs], XINPUT_VIBRATION, XINPUT_VIBRATION structure [XInput Game Controller APIs], xinput.xinput_vibration, xinput/PXINPUT_VIBRATION, xinput/XINPUT_VIBRATION"
 ms.topic: struct
-f1_keywords: ["xinput/XINPUT_VIBRATION"]
+f1_keywords: 
+ - "xinput/XINPUT_VIBRATION"
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows

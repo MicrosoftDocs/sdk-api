@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCertificate, GetCertificate method [Media Foundation], GetCertificate method [Media Foundation],ID3D11AuthenticatedChannel interface, ID3D11AuthenticatedChannel interface [Media Foundation],GetCertificate method, ID3D11AuthenticatedChannel.GetCertificate, ID3D11AuthenticatedChannel::GetCertificate, d3d11/ID3D11AuthenticatedChannel::GetCertificate, mf.id3d11authenticatedchannel_getcertificate
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11AuthenticatedChannel.GetCertificate"]
+f1_keywords: 
+ - "d3d11/ID3D11AuthenticatedChannel.GetCertificate"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

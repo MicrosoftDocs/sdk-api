@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumProgressItems interface [IMAPI],Skip method, IEnumProgressItems.Skip, IEnumProgressItems::Skip, Skip, Skip method [IMAPI], Skip method [IMAPI],IEnumProgressItems interface, imapi.ienumprogressitems_skip, imapi2fs/IEnumProgressItems::Skip
 ms.topic: method
-f1_keywords: ["imapi2fs/IEnumProgressItems.Skip"]
+f1_keywords: 
+ - "imapi2fs/IEnumProgressItems.Skip"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

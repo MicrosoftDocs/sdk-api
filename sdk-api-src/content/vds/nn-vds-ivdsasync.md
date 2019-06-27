@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsAsync, IVdsAsync interface [VDS], IVdsAsync interface [VDS],described, base.ivdsasync, vds/IVdsAsync, vdshwprv/IVdsAsync
 ms.topic: interface
-f1_keywords: ["vds/IVdsAsync"]
+f1_keywords: 
+ - "vds/IVdsAsync"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

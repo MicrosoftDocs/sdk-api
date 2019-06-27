@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPNONCLIENTMETRICSW, *PNONCLIENTMETRICSW, LPNONCLIENTMETRICS, LPNONCLIENTMETRICS structure pointer [Windows and Messages], NONCLIENTMETRICS, NONCLIENTMETRICS structure [Windows and Messages], NONCLIENTMETRICSA, NONCLIENTMETRICSW, PNONCLIENTMETRICS, PNONCLIENTMETRICS structure pointer [Windows and Messages], _win32_nonclientmetrics_str, base.nonclientmetrics_str, nonclientmetrics_str_cpp, tagNONCLIENTMETRICS, winmsg.nonclientmetrics_str, winui.nonclientmetrics_str, winuser/LPNONCLIENTMETRICS, winuser/NONCLIENTMETRICS, winuser/NONCLIENTMETRICSA, winuser/NONCLIENTMETRICSW, winuser/PNONCLIENTMETRICS"
 ms.topic: struct
-f1_keywords: ["winuser/NONCLIENTMETRICS"]
+f1_keywords: 
+ - "winuser/NONCLIENTMETRICS"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

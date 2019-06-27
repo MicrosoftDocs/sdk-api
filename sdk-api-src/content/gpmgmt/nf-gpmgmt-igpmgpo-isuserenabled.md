@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMGPO class [GPMC],IsUserEnabled method, IGPMGPO interface [GPMC],IsUserEnabled method, IGPMGPO.IsUserEnabled, IGPMGPO::IsUserEnabled, IsUserEnabled, IsUserEnabled method [GPMC], IsUserEnabled method [GPMC],GPMGPO class, IsUserEnabled method [GPMC],IGPMGPO interface, _win32_igpmgpo_isuserenabled, gpmc.igpmgpo_isuserenabled, gpmgmt/IGPMGPO::IsUserEnabled
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMGPO.IsUserEnabled"]
+f1_keywords: 
+ - "gpmgmt/IGPMGPO.IsUserEnabled"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

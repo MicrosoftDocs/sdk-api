@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWSDUdpRetransmitParams, PWSDUdpRetransmitParams structure pointer, WSDUdpRetransmitParams, WSDUdpRetransmitParams structure, _WSDUdpRetransmitParams, ncd.wsdupdretransmitparams, wsdbase/PWSDUdpRetransmitParams, wsdbase/WSDUdpRetransmitParams
 ms.topic: struct
-f1_keywords: ["wsdbase/WSDUdpRetransmitParams"]
+f1_keywords: 
+ - "wsdbase/WSDUdpRetransmitParams"
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

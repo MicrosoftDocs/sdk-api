@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetErrorInfo, GetErrorInfo method, GetErrorInfo method,IWSDEndpointProxy interface, IWSDEndpointProxy interface,GetErrorInfo method, IWSDEndpointProxy.GetErrorInfo, IWSDEndpointProxy::GetErrorInfo, ncd.iwsdendpointproxy_geterrorinfo, wsdclient/IWSDEndpointProxy::GetErrorInfo
 ms.topic: method
-f1_keywords: ["wsdclient/IWSDEndpointProxy.GetErrorInfo"]
+f1_keywords: 
+ - "wsdclient/IWSDEndpointProxy.GetErrorInfo"
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

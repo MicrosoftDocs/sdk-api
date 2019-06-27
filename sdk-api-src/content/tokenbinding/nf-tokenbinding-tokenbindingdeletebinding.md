@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TokenBindingDeleteBinding, TokenBindingDeleteBinding function [Security], security.tokenbindingdeletebinding, tokenbinding/TokenBindingDeleteBinding
 ms.topic: function
-f1_keywords: ["tokenbinding/TokenBindingDeleteBinding"]
+f1_keywords: 
+ - "tokenbinding/TokenBindingDeleteBinding"
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows

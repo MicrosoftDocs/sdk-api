@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIApplication interface [Windows Ribbon],OnDestroyUICommand method, IUIApplication.OnDestroyUICommand, IUIApplication::OnDestroyUICommand, OnDestroyUICommand, OnDestroyUICommand method [Windows Ribbon], OnDestroyUICommand method [Windows Ribbon],IUIApplication interface, scenicintent_IUIApplication_OnDestroyUICommand, uiribbon/IUIApplication::OnDestroyUICommand, windowsribbon.windowsribbon_iuiapplication_ondestroyuicommand
 ms.topic: method
-f1_keywords: ["uiribbon/IUIApplication.OnDestroyUICommand"]
+f1_keywords: 
+ - "uiribbon/IUIApplication.OnDestroyUICommand"
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

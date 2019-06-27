@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAVIStream interface [Windows Multimedia],SetFormat method, IAVIStream.SetFormat, IAVIStream::SetFormat, SetFormat, SetFormat method [Windows Multimedia], SetFormat method [Windows Multimedia],IAVIStream interface, _win32_IAVIStream_SetFormat, multimedia.iavistream_setformat, vfw/IAVIStream::SetFormat
 ms.topic: method
-f1_keywords: ["vfw/IAVIStream.SetFormat"]
+f1_keywords: 
+ - "vfw/IAVIStream.SetFormat"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

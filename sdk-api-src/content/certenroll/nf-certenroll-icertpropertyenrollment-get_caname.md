@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CAName property [Security], CAName property [Security],ICertPropertyEnrollment interface, ICertPropertyEnrollment interface [Security],CAName property, ICertPropertyEnrollment.CAName, ICertPropertyEnrollment.get_CAName, ICertPropertyEnrollment::CAName, ICertPropertyEnrollment::get_CAName, certenroll/ICertPropertyEnrollment::CAName, certenroll/ICertPropertyEnrollment::get_CAName, get_CAName, security.icertpropertyenrollment_caname_property
 ms.topic: method
-f1_keywords: ["certenroll/ICertPropertyEnrollment.CAName"]
+f1_keywords: 
+ - "certenroll/ICertPropertyEnrollment.CAName"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

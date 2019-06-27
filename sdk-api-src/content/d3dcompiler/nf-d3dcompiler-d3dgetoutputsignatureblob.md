@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 7e5f0af9-0b60-521e-b5f2-72b0c89909a0, D3DGetOutputSignatureBlob, D3DGetOutputSignatureBlob function [HLSL], d3dcompiler/D3DGetOutputSignatureBlob, direct3dhlsl.d3dgetoutputsignatureblob
 ms.topic: function
-f1_keywords: ["d3dcompiler/D3DGetOutputSignatureBlob"]
+f1_keywords: 
+ - "d3dcompiler/D3DGetOutputSignatureBlob"
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

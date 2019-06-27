@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExcludedInterfaces property [ICS/ICF], ExcludedInterfaces property [ICS/ICF],INetFwPolicy2 interface, INetFwPolicy2 interface [ICS/ICF],ExcludedInterfaces property, INetFwPolicy2.ExcludedInterfaces, INetFwPolicy2.put_ExcludedInterfaces, INetFwPolicy2::ExcludedInterfaces, INetFwPolicy2::get_ExcludedInterfaces, INetFwPolicy2::put_ExcludedInterfaces, ics.inetfwpolicy2_excludedinterfaces, netfw/INetFwPolicy2::ExcludedInterfaces, netfw/INetFwPolicy2::get_ExcludedInterfaces, netfw/INetFwPolicy2::put_ExcludedInterfaces, put_ExcludedInterfaces
 ms.topic: method
-f1_keywords: ["netfw/INetFwPolicy2.ExcludedInterfaces"]
+f1_keywords: 
+ - "netfw/INetFwPolicy2.ExcludedInterfaces"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

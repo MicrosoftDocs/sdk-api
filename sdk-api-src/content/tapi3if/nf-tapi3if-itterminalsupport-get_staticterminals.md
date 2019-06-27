@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITTerminalSupport interface [TAPI 2.2],get_StaticTerminals method, ITTerminalSupport.get_StaticTerminals, ITTerminalSupport::get_StaticTerminals, _tapi3_itterminalsupport_get_staticterminals, get_StaticTerminals, get_StaticTerminals method [TAPI 2.2], get_StaticTerminals method [TAPI 2.2],ITTerminalSupport interface, tapi3.itterminalsupport_get_staticterminals, tapi3if/ITTerminalSupport::get_StaticTerminals
 ms.topic: method
-f1_keywords: ["tapi3if/ITTerminalSupport.get_StaticTerminals"]
+f1_keywords: 
+ - "tapi3if/ITTerminalSupport.get_StaticTerminals"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

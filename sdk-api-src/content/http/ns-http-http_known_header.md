@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHTTP_KNOWN_HEADER, HTTP_KNOWN_HEADER, HTTP_KNOWN_HEADER structure [HTTP], PHTTP_KNOWN_HEADER, PHTTP_KNOWN_HEADER structure pointer [HTTP], _http_http_known_header, http.http_known_header, http/HTTP_KNOWN_HEADER, http/PHTTP_KNOWN_HEADER"
 ms.topic: struct
-f1_keywords: ["http/HTTP_KNOWN_HEADER"]
+f1_keywords: 
+ - "http/HTTP_KNOWN_HEADER"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

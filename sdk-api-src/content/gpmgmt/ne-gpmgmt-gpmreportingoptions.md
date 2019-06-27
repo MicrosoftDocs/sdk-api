@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMReportingOptions, GPMReportingOptions enumeration [GPMC], gpmc.gpmreportingoptions, gpmgmt/GPMReportingOptions, gpmgmt/opReportComments, gpmgmt/opReportLegacy, opReportComments, opReportLegacy
 ms.topic: enum
-f1_keywords: ["gpmgmt/GPMReportingOptions"]
+f1_keywords: 
+ - "gpmgmt/GPMReportingOptions"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

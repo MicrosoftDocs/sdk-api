@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCOLORMAP, COLORMAP, COLORMAP structure [Windows Controls], LPCOLORMAP, LPCOLORMAP structure pointer [Windows Controls], _win32_COLORMAP, _win32_COLORMAP_cpp, commctrl/COLORMAP, commctrl/LPCOLORMAP, controls.COLORMAP, controls._win32_COLORMAP"
 ms.topic: struct
-f1_keywords: ["commctrl/COLORMAP"]
+f1_keywords: 
+ - "commctrl/COLORMAP"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

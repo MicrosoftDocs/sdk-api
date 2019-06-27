@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 4d296764-a00a-407d-a963-62c138976ccc, DXVA2_AYUVSample8, DXVA2_AYUVSample8 structure [Media Foundation], dxva2api/DXVA2_AYUVSample8, mf.dxva2_ayuvsample8
 ms.topic: struct
-f1_keywords: ["dxva2api/DXVA2_AYUVSample8"]
+f1_keywords: 
+ - "dxva2api/DXVA2_AYUVSample8"
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

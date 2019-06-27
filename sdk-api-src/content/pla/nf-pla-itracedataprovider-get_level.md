@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITraceDataProvider interface [PLA],Level property, ITraceDataProvider.Level, ITraceDataProvider.get_Level, ITraceDataProvider::Level, ITraceDataProvider::get_Level, Level property [PLA], Level property [PLA],ITraceDataProvider interface, base.itracedataprovider_level, get_Level, pla.itracedataprovider_level, pla/ITraceDataProvider::Level, pla/ITraceDataProvider::get_Level
 ms.topic: method
-f1_keywords: ["pla/ITraceDataProvider.Level"]
+f1_keywords: 
+ - "pla/ITraceDataProvider.Level"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

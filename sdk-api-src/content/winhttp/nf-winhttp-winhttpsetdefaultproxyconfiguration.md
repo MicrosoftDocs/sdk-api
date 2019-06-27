@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinHttpSetDefaultProxyConfiguration, WinHttpSetDefaultProxyConfiguration function [WinHTTP], http.winhttpsetdefaultproxyconfiguration, winhttp.winhttpsetdefaultproxyconfiguration_function, winhttp/WinHttpSetDefaultProxyConfiguration
 ms.topic: function
-f1_keywords: ["winhttp/WinHttpSetDefaultProxyConfiguration"]
+f1_keywords: 
+ - "winhttp/WinHttpSetDefaultProxyConfiguration"
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

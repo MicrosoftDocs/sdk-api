@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Edit_GetLine, Edit_GetLine macro [Windows Controls], _win32_Edit_GetLine, _win32_Edit_GetLine_cpp, controls.Edit_GetLine, controls._win32_Edit_GetLine, windowsx/Edit_GetLine
 ms.topic: macro
-f1_keywords: ["windowsx/Edit_GetLine"]
+f1_keywords: 
+ - "windowsx/Edit_GetLine"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

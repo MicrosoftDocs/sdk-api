@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FillAt, FillAt method [Structured Storage], FillAt method [Structured Storage],IFillLockBytes interface, IFillLockBytes interface [Structured Storage],FillAt method, IFillLockBytes.FillAt, IFillLockBytes::FillAt, _stg_ifilllockbytes_fillat, objidl/IFillLockBytes::FillAt, stg.ifilllockbytes_fillat
 ms.topic: method
-f1_keywords: ["objidl/IFillLockBytes.FillAt"]
+f1_keywords: 
+ - "objidl/IFillLockBytes.FillAt"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

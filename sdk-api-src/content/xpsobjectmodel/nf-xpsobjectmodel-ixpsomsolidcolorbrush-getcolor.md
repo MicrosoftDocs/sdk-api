@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColor, GetColor method [XPS Documents and Packaging], GetColor method [XPS Documents and Packaging],IXpsOMSolidColorBrush interface, IXpsOMSolidColorBrush interface [XPS Documents and Packaging],GetColor method, IXpsOMSolidColorBrush.GetColor, IXpsOMSolidColorBrush::GetColor, xps.ixpsomsolidcolorbrush_getcolor, xpsobjectmodel/IXpsOMSolidColorBrush::GetColor
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMSolidColorBrush.GetColor"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMSolidColorBrush.GetColor"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

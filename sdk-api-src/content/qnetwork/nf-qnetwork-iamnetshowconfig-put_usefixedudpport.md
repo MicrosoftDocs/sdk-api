@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_UseFixedUDPPort method, IAMNetShowConfig.put_UseFixedUDPPort, IAMNetShowConfig::put_UseFixedUDPPort, IAMNetShowConfigput_UseFixedUDPPort, dshow.iamnetshowconfig_put_usefixedudpport, put_UseFixedUDPPort, put_UseFixedUDPPort method [DirectShow], put_UseFixedUDPPort method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_UseFixedUDPPort
 ms.topic: method
-f1_keywords: ["qnetwork/IAMNetShowConfig.put_UseFixedUDPPort"]
+f1_keywords: 
+ - "qnetwork/IAMNetShowConfig.put_UseFixedUDPPort"
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

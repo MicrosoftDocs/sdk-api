@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],get_burnState method, IWMPCdromBurn.get_burnState, IWMPCdromBurn::get_burnState, IWMPCdromBurnget_burnState, get_burnState, get_burnState method [Windows Media Player], get_burnState method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_get_burnstate, wmp/IWMPCdromBurn::get_burnState
 ms.topic: method
-f1_keywords: ["wmp/IWMPCdromBurn.get_burnState"]
+f1_keywords: 
+ - "wmp/IWMPCdromBurn.get_burnState"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSourceAttributes, GetSourceAttributes method [Media Foundation], GetSourceAttributes method [Media Foundation],IMFMediaSourceEx interface, IMFMediaSourceEx interface [Media Foundation],GetSourceAttributes method, IMFMediaSourceEx.GetSourceAttributes, IMFMediaSourceEx::GetSourceAttributes, mf.imfmediasourceex_getsourceattributes, mfidl/IMFMediaSourceEx::GetSourceAttributes
 ms.topic: method
-f1_keywords: ["mfidl/IMFMediaSourceEx.GetSourceAttributes"]
+f1_keywords: 
+ - "mfidl/IMFMediaSourceEx.GetSourceAttributes"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

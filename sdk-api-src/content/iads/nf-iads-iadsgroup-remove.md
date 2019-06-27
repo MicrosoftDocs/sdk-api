@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsGroup interface [ADSI],Remove method, IADsGroup.Remove, IADsGroup::Remove, Remove, Remove method [ADSI], Remove method [ADSI],IADsGroup interface, _ds_iadsgroup_remove, adsi.iadsgroup__remove, adsi.iadsgroup_remove, iads/IADsGroup::Remove
 ms.topic: method
-f1_keywords: ["iads/IADsGroup.Remove"]
+f1_keywords: 
+ - "iads/IADsGroup.Remove"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

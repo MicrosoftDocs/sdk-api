@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDevice, GetDevice method [DXGI], GetDevice method [DXGI],IDXGIDeviceSubObject interface, IDXGIDeviceSubObject interface [DXGI],GetDevice method, IDXGIDeviceSubObject.GetDevice, IDXGIDeviceSubObject::GetDevice, b3dce65b-334c-0973-c391-77df6912fc77, direct3ddxgi.idxgidevicesubobject_getdevice, dxgi/IDXGIDeviceSubObject::GetDevice
 ms.topic: method
-f1_keywords: ["dxgi/IDXGIDeviceSubObject.GetDevice"]
+f1_keywords: 
+ - "dxgi/IDXGIDeviceSubObject.GetDevice"
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

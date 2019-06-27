@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentThreadStackLimits, GetCurrentThreadStackLimits function, base.getcurrentthreadstacklimits, processthreadsapi/GetCurrentThreadStackLimits
 ms.topic: function
-f1_keywords: ["processthreadsapi/GetCurrentThreadStackLimits"]
+f1_keywords: 
+ - "processthreadsapi/GetCurrentThreadStackLimits"
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSTORAGE_DESCRIPTOR_HEADER, PSTORAGE_DESCRIPTOR_HEADER, PSTORAGE_DESCRIPTOR_HEADER structure pointer [Files], STORAGE_DESCRIPTOR_HEADER, STORAGE_DESCRIPTOR_HEADER structure [Files], fs.storage_descriptor_header, winioctl/PSTORAGE_DESCRIPTOR_HEADER, winioctl/STORAGE_DESCRIPTOR_HEADER"
 ms.topic: struct
-f1_keywords: ["winioctl/STORAGE_DESCRIPTOR_HEADER"]
+f1_keywords: 
+ - "winioctl/STORAGE_DESCRIPTOR_HEADER"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

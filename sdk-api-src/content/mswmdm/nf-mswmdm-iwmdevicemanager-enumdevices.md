@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumDevices, EnumDevices method [windows Media Device Manager], EnumDevices method [windows Media Device Manager],IWMDeviceManager interface, IWMDeviceManager interface [windows Media Device Manager],EnumDevices method, IWMDeviceManager.EnumDevices, IWMDeviceManager::EnumDevices, IWMDeviceManagerEnumDevices, mswmdm/IWMDeviceManager::EnumDevices, wmdm.iwmdevicemanager_enumdevices
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDeviceManager.EnumDevices"]
+f1_keywords: 
+ - "mswmdm/IWMDeviceManager.EnumDevices"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

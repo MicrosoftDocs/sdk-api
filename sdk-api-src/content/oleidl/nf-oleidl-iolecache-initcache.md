@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleCache interface [COM],InitCache method, IOleCache.InitCache, IOleCache::InitCache, InitCache, InitCache method [COM], InitCache method [COM],IOleCache interface, _ole_iolecache_initcache, com.iolecache_initcache, oleidl/IOleCache::InitCache
 ms.topic: method
-f1_keywords: ["oleidl/IOleCache.InitCache"]
+f1_keywords: 
+ - "oleidl/IOleCache.InitCache"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

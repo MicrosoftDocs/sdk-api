@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsGetDcNext, DsGetDcNext function [Active Directory], DsGetDcNextA, DsGetDcNextW, ad.dsgetdcnext, dsgetdc/DsGetDcNext, dsgetdc/DsGetDcNextA, dsgetdc/DsGetDcNextW
 ms.topic: function
-f1_keywords: ["dsgetdc/DsGetDcNext"]
+f1_keywords: 
+ - "dsgetdc/DsGetDcNext"
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows

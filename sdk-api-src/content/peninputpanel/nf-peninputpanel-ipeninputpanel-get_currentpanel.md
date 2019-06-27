@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 536ba874-b9f9-45c9-bf9a-a64679afc861, CurrentPanel property [Tablet PC], CurrentPanel property [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],CurrentPanel property, IPenInputPanel.CurrentPanel, IPenInputPanel.get_CurrentPanel, IPenInputPanel::CurrentPanel, IPenInputPanel::get_CurrentPanel, IPenInputPanel::put_CurrentPanel, PenInputPanel.get_CurrentPanel, PenInputPanel.put_CurrentPanel, get_CurrentPanel, peninputpanel/IPenInputPanel::CurrentPanel, peninputpanel/IPenInputPanel::get_CurrentPanel, peninputpanel/IPenInputPanel::put_CurrentPanel, put_CurrentPanel, tablet.peninputpanel_currentpanel
 ms.topic: method
-f1_keywords: ["peninputpanel/IPenInputPanel.CurrentPanel"]
+f1_keywords: 
+ - "peninputpanel/IPenInputPanel.CurrentPanel"
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

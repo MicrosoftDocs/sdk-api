@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisableBITSUploads, DisableBITSUploads method [BITS], DisableBITSUploads method [BITS],IBITSExtensionSetup interface, IBITSExtensionSetup interface [BITS],DisableBITSUploads method, IBITSExtensionSetup.DisableBITSUploads, IBITSExtensionSetup::DisableBITSUploads, _drz_ibitsextensionsetup_disablebitsuploads, bits.ibitsextensionsetup_disablebitsuploads, bitscfg/IBITSExtensionSetup::DisableBITSUploads
 ms.topic: method
-f1_keywords: ["bitscfg/IBITSExtensionSetup.DisableBITSUploads"]
+f1_keywords: 
+ - "bitscfg/IBITSExtensionSetup.DisableBITSUploads"
 req.header: bitscfg.h
 req.include-header: 
 req.target-type: Windows

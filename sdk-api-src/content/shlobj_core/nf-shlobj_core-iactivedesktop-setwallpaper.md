@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IActiveDesktop interface [Legacy Windows Environment Features],SetWallpaper method, IActiveDesktop.SetWallpaper, IActiveDesktop::SetWallpaper, SetWallpaper, SetWallpaper method [Legacy Windows Environment Features], SetWallpaper method [Legacy Windows Environment Features],IActiveDesktop interface, _win32_IActiveDesktop_SetWallpaper, lwef.iactivedesktop_setwallpaper, shell.iactivedesktop_setwallpaper, shlobj_core/IActiveDesktop::SetWallpaper
 ms.topic: method
-f1_keywords: ["shlobj_core/IActiveDesktop.SetWallpaper"]
+f1_keywords: 
+ - "shlobj_core/IActiveDesktop.SetWallpaper"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

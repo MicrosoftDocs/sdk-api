@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumOLEVERB interface [COM],Skip method, IEnumOLEVERB.Skip, IEnumOLEVERB::Skip, Skip, Skip method [COM], Skip method [COM],IEnumOLEVERB interface, _ole_ienumoleverb_skip, com.ienumoleverb_skip, oleidl/IEnumOLEVERB::Skip
 ms.topic: method
-f1_keywords: ["oleidl/IEnumOLEVERB.Skip"]
+f1_keywords: 
+ - "oleidl/IEnumOLEVERB.Skip"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

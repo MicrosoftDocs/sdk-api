@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_GetSelectedColumn, ListView_GetSelectedColumn macro [Windows Controls], _win32_ListView_GetSelectedColumn, _win32_ListView_GetSelectedColumn_cpp, commctrl/ListView_GetSelectedColumn, controls.ListView_GetSelectedColumn, controls._win32_ListView_GetSelectedColumn
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_GetSelectedColumn"]
+f1_keywords: 
+ - "commctrl/ListView_GetSelectedColumn"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

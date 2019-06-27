@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [windows Media Format], Close method [windows Media Format],IWMWriterFileSink2 interface, IWMWriterFileSink2 interface [windows Media Format],Close method, IWMWriterFileSink2.Close, IWMWriterFileSink2::Close, IWMWriterFileSink2Close, wmformat.iwmwriterfilesink2_close, wmsdkidl/IWMWriterFileSink2::Close
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriterFileSink2.Close"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriterFileSink2.Close"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

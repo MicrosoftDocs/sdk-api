@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTransportStreamId, GetTransportStreamId method [Microsoft TV Technologies], GetTransportStreamId method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetTransportStreamId method, IDVB_EIT.GetTransportStreamId, IDVB_EIT::GetTransportStreamId, IDVB_EITGetTransportStreamId, dvbsiparser/IDVB_EIT::GetTransportStreamId, mstv.idvb_eit_gettransportstreamid
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDVB_EIT.GetTransportStreamId"]
+f1_keywords: 
+ - "dvbsiparser/IDVB_EIT.GetTransportStreamId"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

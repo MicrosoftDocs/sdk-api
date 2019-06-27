@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnionRect, UnionRect function [Windows GDI], _win32_UnionRect, gdi.unionrect, winuser/UnionRect
 ms.topic: function
-f1_keywords: ["winuser/UnionRect"]
+f1_keywords: 
+ - "winuser/UnionRect"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

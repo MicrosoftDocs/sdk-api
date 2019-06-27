@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourceNotification interface [Remote Desktop Services],NotifySessionChange method, ITsSbResourceNotification.NotifySessionChange, ITsSbResourceNotification::NotifySessionChange, NotifySessionChange, NotifySessionChange method [Remote Desktop Services], NotifySessionChange method [Remote Desktop Services],ITsSbResourceNotification interface, sbtsv/ITsSbResourceNotification::NotifySessionChange, termserv.itssbresourcenotification_notifysessionchange
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbResourceNotification.NotifySessionChange"]
+f1_keywords: 
+ - "sbtsv/ITsSbResourceNotification.NotifySessionChange"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

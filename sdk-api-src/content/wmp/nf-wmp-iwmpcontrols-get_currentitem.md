@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],get_currentItem method, IWMPControls.get_currentItem, IWMPControls::get_currentItem, IWMPControlsget_currentItem, get_currentItem, get_currentItem method [Windows Media Player], get_currentItem method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_get_currentitem, wmp/IWMPControls::get_currentItem
 ms.topic: method
-f1_keywords: ["wmp/IWMPControls.get_currentItem"]
+f1_keywords: 
+ - "wmp/IWMPControls.get_currentItem"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

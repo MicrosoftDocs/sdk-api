@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPhraseSink interface [search],PutSmallPhrase method, IPhraseSink.PutSmallPhrase, IPhraseSink::PutSmallPhrase, PutSmallPhrase, PutSmallPhrase method [search], PutSmallPhrase method [search],IPhraseSink interface, indexsrv/IPhraseSink::PutSmallPhrase, search.iphrasesink_putsmallphrase
 ms.topic: method
-f1_keywords: ["indexsrv/IPhraseSink.PutSmallPhrase"]
+f1_keywords: 
+ - "indexsrv/IPhraseSink.PutSmallPhrase"
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxSender interface [Fax Service],SaveDefaultSender method, IFaxSender.SaveDefaultSender, IFaxSender::SaveDefaultSender, SaveDefaultSender, SaveDefaultSender method [Fax Service], SaveDefaultSender method [Fax Service],IFaxSender interface, _mfax_faxsender.savedefaultsender, fax._mfax_faxsender_cpp_mfax_faxsender_savedefaultsender_cpp, fax._mfax_faxsender_savedefaultsender, faxcomex/IFaxSender::SaveDefaultSender
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxSender.SaveDefaultSender"]
+f1_keywords: 
+ - "faxcomex/IFaxSender.SaveDefaultSender"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

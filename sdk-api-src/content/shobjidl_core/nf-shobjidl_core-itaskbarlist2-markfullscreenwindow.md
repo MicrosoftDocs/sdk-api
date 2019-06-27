@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList2 interface [Windows Shell],MarkFullscreenWindow method, ITaskbarList2.MarkFullscreenWindow, ITaskbarList2::MarkFullscreenWindow, MarkFullscreenWindow, MarkFullscreenWindow method [Windows Shell], MarkFullscreenWindow method [Windows Shell],ITaskbarList2 interface, shell.ITaskbarList2_MarkFullscreenWindow, shell_ITaskbarList2_MarkFullscreenWindow, shobjidl_core/ITaskbarList2::MarkFullscreenWindow
 ms.topic: method
-f1_keywords: ["shobjidl_core/ITaskbarList2.MarkFullscreenWindow"]
+f1_keywords: 
+ - "shobjidl_core/ITaskbarList2.MarkFullscreenWindow"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVerticalGlyphVariants, GetVerticalGlyphVariants method [Direct Write], GetVerticalGlyphVariants method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],GetVerticalGlyphVariants method, IDWriteFontFace1.GetVerticalGlyphVariants, IDWriteFontFace1::GetVerticalGlyphVariants, directwrite.idwritefontface1_getverticalglyphvariants, dwrite_1/IDWriteFontFace1::GetVerticalGlyphVariants
 ms.topic: method
-f1_keywords: ["dwrite_1/IDWriteFontFace1.GetVerticalGlyphVariants"]
+f1_keywords: 
+ - "dwrite_1/IDWriteFontFace1.GetVerticalGlyphVariants"
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

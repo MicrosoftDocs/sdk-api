@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D10_CT_CBUFFER, D3D10_CT_TBUFFER, D3D11_CT_CBUFFER, D3D11_CT_INTERFACE_POINTERS, D3D11_CT_RESOURCE_BIND_INFO, D3D11_CT_TBUFFER, D3D_CBUFFER_TYPE, D3D_CBUFFER_TYPE enumeration [Direct3D 11], D3D_CT_CBUFFER, D3D_CT_INTERFACE_POINTERS, D3D_CT_RESOURCE_BIND_INFO, D3D_CT_TBUFFER, d3dcommon/D3D10_CT_CBUFFER, d3dcommon/D3D10_CT_TBUFFER, d3dcommon/D3D11_CT_CBUFFER, d3dcommon/D3D11_CT_INTERFACE_POINTERS, d3dcommon/D3D11_CT_RESOURCE_BIND_INFO, d3dcommon/D3D11_CT_TBUFFER, d3dcommon/D3D_CBUFFER_TYPE, d3dcommon/D3D_CT_CBUFFER, d3dcommon/D3D_CT_INTERFACE_POINTERS, d3dcommon/D3D_CT_RESOURCE_BIND_INFO, d3dcommon/D3D_CT_TBUFFER, direct3d11.d3d_cbuffer_type
 ms.topic: enum
-f1_keywords: ["d3dcommon/D3D_CBUFFER_TYPE"]
+f1_keywords: 
+ - "d3dcommon/D3D_CBUFFER_TYPE"
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDesignGlyphAdvances, GetDesignGlyphAdvances method [Direct Write], GetDesignGlyphAdvances method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],GetDesignGlyphAdvances method, IDWriteFontFace1.GetDesignGlyphAdvances, IDWriteFontFace1::GetDesignGlyphAdvances, directwrite.idwritefontface1_getdesignglyphadvances, dwrite_1/IDWriteFontFace1::GetDesignGlyphAdvances
 ms.topic: method
-f1_keywords: ["dwrite_1/IDWriteFontFace1.GetDesignGlyphAdvances"]
+f1_keywords: 
+ - "dwrite_1/IDWriteFontFace1.GetDesignGlyphAdvances"
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

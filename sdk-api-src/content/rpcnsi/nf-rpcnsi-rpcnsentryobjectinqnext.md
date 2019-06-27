@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcNsEntryObjectInqNext, RpcNsEntryObjectInqNext function [RPC], _rpc_rpcnsentryobjectinqnext, rpc.rpcnsentryobjectinqnext, rpcnsi/RpcNsEntryObjectInqNext
 ms.topic: function
-f1_keywords: ["rpcnsi/RpcNsEntryObjectInqNext"]
+f1_keywords: 
+ - "rpcnsi/RpcNsEntryObjectInqNext"
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows

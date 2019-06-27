@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateMenu, CreateMenu function [Menus and Other Resources], _win32_CreateMenu, _win32_createmenu_cpp, menurc.createmenu, winui._win32_createmenu, winuser/CreateMenu
 ms.topic: function
-f1_keywords: ["winuser/CreateMenu"]
+f1_keywords: 
+ - "winuser/CreateMenu"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

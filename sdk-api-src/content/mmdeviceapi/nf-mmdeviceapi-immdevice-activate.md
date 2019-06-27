@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method [Core Audio], Activate method [Core Audio],IMMDevice interface, IMMDevice interface [Core Audio],Activate method, IMMDevice.Activate, IMMDevice::Activate, IMMDeviceActivate, coreaudio.immdevice_activate, mmdeviceapi/IMMDevice::Activate
 ms.topic: method
-f1_keywords: ["mmdeviceapi/IMMDevice.Activate"]
+f1_keywords: 
+ - "mmdeviceapi/IMMDevice.Activate"
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

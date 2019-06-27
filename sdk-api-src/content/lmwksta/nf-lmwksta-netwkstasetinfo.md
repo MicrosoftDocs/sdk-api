@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 100, 101, 102, 502, NetWkstaSetInfo, NetWkstaSetInfo function [Network Management], _win32_netwkstasetinfo, lmwksta/NetWkstaSetInfo, netmgmt.netwkstasetinfo
 ms.topic: function
-f1_keywords: ["lmwksta/NetWkstaSetInfo"]
+f1_keywords: 
+ - "lmwksta/NetWkstaSetInfo"
 req.header: lmwksta.h
 req.include-header: Lm.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThemePosition, GetThemePosition function [Windows Controls], controls.GetThemePosition, controls.inet_GetThemePosition, inet_GetThemePosition, inet_GetThemePosition_cpp, uxtheme/GetThemePosition
 ms.topic: function
-f1_keywords: ["uxtheme/GetThemePosition"]
+f1_keywords: 
+ - "uxtheme/GetThemePosition"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

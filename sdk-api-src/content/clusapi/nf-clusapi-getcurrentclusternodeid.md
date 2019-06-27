@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentClusterNodeId, GetCurrentClusterNodeId macro [Failover Cluster], clusapi/GetCurrentClusterNodeId, mscs.getcurrentclusternodeid
 ms.topic: macro
-f1_keywords: ["clusapi/GetCurrentClusterNodeId"]
+f1_keywords: 
+ - "clusapi/GetCurrentClusterNodeId"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

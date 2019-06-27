@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [UPnP APIs], Advise method [UPnP APIs],IUPnPEventSource interface, IUPnPEventSource interface [UPnP APIs],Advise method, IUPnPEventSource.Advise, IUPnPEventSource::Advise, _upnp_iupnpeventsource_advise, upnp.iupnpeventsource_advise, upnphost/IUPnPEventSource::Advise
 ms.topic: method
-f1_keywords: ["upnphost/IUPnPEventSource.Advise"]
+f1_keywords: 
+ - "upnphost/IUPnPEventSource.Advise"
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

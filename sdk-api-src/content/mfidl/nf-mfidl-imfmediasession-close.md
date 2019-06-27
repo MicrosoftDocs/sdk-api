@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6ed118ae-7538-4ef6-81fc-b762f709838f, Close, Close method [Media Foundation], Close method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],Close method, IMFMediaSession.Close, IMFMediaSession::Close, mf.imfmediasession_close, mfidl/IMFMediaSession::Close
 ms.topic: method
-f1_keywords: ["mfidl/IMFMediaSession.Close"]
+f1_keywords: 
+ - "mfidl/IMFMediaSession.Close"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

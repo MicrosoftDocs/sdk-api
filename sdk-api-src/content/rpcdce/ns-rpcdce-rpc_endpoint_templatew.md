@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRPC_ENDPOINT_TEMPLATEW, PRPC_ENDPOINT_TEMPLATE, PRPC_ENDPOINT_TEMPLATE structure pointer [RPC], RPC_ENDPOINT_TEMPLATE, RPC_ENDPOINT_TEMPLATE structure [RPC], RPC_ENDPOINT_TEMPLATEA, RPC_ENDPOINT_TEMPLATEW, rpc.rpc_endpoint_template, rpcdce/PRPC_ENDPOINT_TEMPLATE, rpcdce/RPC_ENDPOINT_TEMPLATE, rpcdce/RPC_ENDPOINT_TEMPLATEA, rpcdce/RPC_ENDPOINT_TEMPLATEW"
 ms.topic: struct
-f1_keywords: ["rpcdce/RPC_ENDPOINT_TEMPLATE"]
+f1_keywords: 
+ - "rpcdce/RPC_ENDPOINT_TEMPLATE"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

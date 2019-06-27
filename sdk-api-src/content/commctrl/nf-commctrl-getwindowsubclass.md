@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWindowSubclass, GetWindowSubclass function [Windows Shell], commctrl/GetWindowSubclass, inet_GetWindowSubclass, shell.GetWindowSubclass
 ms.topic: function
-f1_keywords: ["commctrl/GetWindowSubclass"]
+f1_keywords: 
+ - "commctrl/GetWindowSubclass"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

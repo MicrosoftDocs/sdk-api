@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packaging],Write1 method, IXpsOMRemoteDictionaryResource1.Write1, IXpsOMRemoteDictionaryResource1::Write1, Write1, Write1 method [XPS Documents and Packaging], Write1 method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResource1 interface, xps.ixpsomremotedictionaryresource1_write1, xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1::Write1
 ms.topic: method
-f1_keywords: ["xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1.Write1"]
+f1_keywords: 
+ - "xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1.Write1"
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows

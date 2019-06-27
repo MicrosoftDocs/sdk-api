@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindFontFaceReference, FindFontFaceReference method [Direct Write], FindFontFaceReference method [Direct Write],IDWriteFontSet interface, IDWriteFontSet interface [Direct Write],FindFontFaceReference method, IDWriteFontSet.FindFontFaceReference, IDWriteFontSet::FindFontFaceReference, directwrite.idwritefontset_findfontfacereference, dwrite_3/IDWriteFontSet::FindFontFaceReference
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteFontSet.FindFontFaceReference"]
+f1_keywords: 
+ - "dwrite_3/IDWriteFontSet.FindFontFaceReference"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMObjectFactory1, IXpsOMObjectFactory1 interface [XPS Documents and Packaging], IXpsOMObjectFactory1 interface [XPS Documents and Packaging],described, xps.ixpsomobjectfactory1, xpsobjectmodel_1/IXpsOMObjectFactory1
 ms.topic: interface
-f1_keywords: ["xpsobjectmodel_1/IXpsOMObjectFactory1"]
+f1_keywords: 
+ - "xpsobjectmodel_1/IXpsOMObjectFactory1"
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows

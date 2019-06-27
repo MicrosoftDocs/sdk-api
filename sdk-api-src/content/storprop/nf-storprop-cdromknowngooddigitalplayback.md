@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CdromKnownGoodDigitalPlayback, CdromKnownGoodDigitalPlayback function, base.cdromknowngooddigitalplayback, storprop/CdromKnownGoodDigitalPlayback
 ms.topic: function
-f1_keywords: ["storprop/CdromKnownGoodDigitalPlayback"]
+f1_keywords: 
+ - "storprop/CdromKnownGoodDigitalPlayback"
 req.header: storprop.h
 req.include-header: 
 req.target-type: Windows

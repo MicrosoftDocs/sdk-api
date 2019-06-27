@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFN_CRYPT_XML_DATA_PROVIDER_CLOSE, PFN_CRYPT_XML_DATA_PROVIDER_CLOSE callback, PFN_CRYPT_XML_DATA_PROVIDER_CLOSE callback function [Security], cryptxml/PFN_CRYPT_XML_DATA_PROVIDER_CLOSE, security.pfn_crypt_xml_data_provider_close
 ms.topic: callback
-f1_keywords: ["cryptxml/PFN_CRYPT_XML_DATA_PROVIDER_CLOSE"]
+f1_keywords: 
+ - "cryptxml/PFN_CRYPT_XML_DATA_PROVIDER_CLOSE"
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

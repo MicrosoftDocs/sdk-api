@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICDrawRealize, ICDrawRealize macro [Windows Multimedia], _win32_ICDrawRealize, multimedia.icdrawrealize, vfw/ICDrawRealize
 ms.topic: macro
-f1_keywords: ["vfw/ICDrawRealize"]
+f1_keywords: 
+ - "vfw/ICDrawRealize"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

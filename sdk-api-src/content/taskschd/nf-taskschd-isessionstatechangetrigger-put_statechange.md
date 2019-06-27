@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISessionStateChangeTrigger interface [Task Scheduler],StateChange property, ISessionStateChangeTrigger.StateChange, ISessionStateChangeTrigger.put_StateChange, ISessionStateChangeTrigger::StateChange, ISessionStateChangeTrigger::get_StateChange, ISessionStateChangeTrigger::put_StateChange, StateChange property [Task Scheduler], StateChange property [Task Scheduler],ISessionStateChangeTrigger interface, TASK_CONSOLE_CONNECT, TASK_CONSOLE_DISCONNECT, TASK_REMOTE_CONNECT, TASK_REMOTE_DISCONNECT, TASK_SESSION_LOCK, TASK_SESSION_UNLOCK, put_StateChange, taskschd.isessionstatechangetrigger_statechange, taskschd/ISessionStateChangeTrigger::StateChange, taskschd/ISessionStateChangeTrigger::get_StateChange, taskschd/ISessionStateChangeTrigger::put_StateChange
 ms.topic: method
-f1_keywords: ["taskschd/ISessionStateChangeTrigger.StateChange"]
+f1_keywords: 
+ - "taskschd/ISessionStateChangeTrigger.StateChange"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

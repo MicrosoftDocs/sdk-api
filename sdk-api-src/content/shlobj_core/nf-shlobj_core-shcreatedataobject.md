@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCreateDataObject, SHCreateDataObject function [Windows Shell], _shell_SHCreateDataObject, shell.SHCreateDataObject, shlobj_core/SHCreateDataObject
 ms.topic: function
-f1_keywords: ["shlobj_core/SHCreateDataObject"]
+f1_keywords: 
+ - "shlobj_core/SHCreateDataObject"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

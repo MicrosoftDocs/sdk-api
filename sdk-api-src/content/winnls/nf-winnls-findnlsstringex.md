@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FIND_ENDSWITH, FIND_FROMEND, FIND_FROMSTART, FIND_STARTSWITH, FindNLSStringEx, FindNLSStringEx function [Internationalization for Windows Applications], LINGUISTIC_IGNORECASE, LINGUISTIC_IGNOREDIACRITIC, NORM_IGNORECASE, NORM_IGNOREKANATYPE, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREWIDTH, NORM_LINGUISTIC_CASING, _win32_FindNLSStringEx, intl.findnlsstringex, winnls/FindNLSStringEx
 ms.topic: function
-f1_keywords: ["winnls/FindNLSStringEx"]
+f1_keywords: 
+ - "winnls/FindNLSStringEx"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

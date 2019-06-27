@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageList_EndDrag, ImageList_EndDrag function [Windows Controls], _win32_ImageList_EndDrag, _win32_ImageList_EndDrag_cpp, commctrl/ImageList_EndDrag, controls.ImageList_EndDrag, controls._win32_ImageList_EndDrag
 ms.topic: function
-f1_keywords: ["commctrl/ImageList_EndDrag"]
+f1_keywords: 
+ - "commctrl/ImageList_EndDrag"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

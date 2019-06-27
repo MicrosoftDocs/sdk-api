@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnVendorSpecificEvents, IMbnVendorSpecificEvents interface [Microsoft Broadband Networks], IMbnVendorSpecificEvents interface [Microsoft Broadband Networks],described, mbn.imbnvendorspecificevents, mbnapi/IMbnVendorSpecificEvents
 ms.topic: interface
-f1_keywords: ["mbnapi/IMbnVendorSpecificEvents"]
+f1_keywords: 
+ - "mbnapi/IMbnVendorSpecificEvents"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

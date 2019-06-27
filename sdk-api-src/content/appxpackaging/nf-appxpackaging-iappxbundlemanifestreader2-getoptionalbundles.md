@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOptionalBundles, GetOptionalBundles method [App packaging and management], GetOptionalBundles method [App packaging and management],IAppxBundleManifestReader2 interface, IAppxBundleManifestReader2 interface [App packaging and management],GetOptionalBundles method, IAppxBundleManifestReader2.GetOptionalBundles, IAppxBundleManifestReader2::GetOptionalBundles, appxpackaging/IAppxBundleManifestReader2::GetOptionalBundles, appxpkg.iappxbundlemanifestreader2_getoptionalbundles
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxBundleManifestReader2.GetOptionalBundles"]
+f1_keywords: 
+ - "appxpackaging/IAppxBundleManifestReader2.GetOptionalBundles"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

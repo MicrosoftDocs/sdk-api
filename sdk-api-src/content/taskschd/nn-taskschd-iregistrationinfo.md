@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRegistrationInfo, IRegistrationInfo interface [Task Scheduler], IRegistrationInfo interface [Task Scheduler],described, registration information [Task Scheduler],interface, taskschd.iregistrationinfo, taskschd/IRegistrationInfo
 ms.topic: interface
-f1_keywords: ["taskschd/IRegistrationInfo"]
+f1_keywords: 
+ - "taskschd/IRegistrationInfo"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCopyOutputLevels, GetCopyOutputLevels method [windows Media Format], GetCopyOutputLevels method [windows Media Format],IWMDRMReader2 interface, IWMDRMReader2 interface [windows Media Format],GetCopyOutputLevels method, IWMDRMReader2.GetCopyOutputLevels, IWMDRMReader2::GetCopyOutputLevels, IWMDRMReader2GetCopyOutputLevels, wmformat.iwmdrmreader2_getcopyoutputlevels, wmsdkidl/IWMDRMReader2::GetCopyOutputLevels
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMDRMReader2.GetCopyOutputLevels"]
+f1_keywords: 
+ - "wmsdkidl/IWMDRMReader2.GetCopyOutputLevels"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

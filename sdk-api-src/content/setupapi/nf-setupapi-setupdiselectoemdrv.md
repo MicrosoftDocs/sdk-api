@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiSelectOEMDrv, SetupDiSelectOEMDrv function [Device and Driver Installation], devinst.setupdiselectoemdrv, di-rtns_00ac5dd3-d358-4f14-b8ea-20231051ed8d.xml, setupapi/SetupDiSelectOEMDrv
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiSelectOEMDrv"]
+f1_keywords: 
+ - "setupapi/SetupDiSelectOEMDrv"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

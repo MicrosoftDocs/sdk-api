@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAppContainerFolderPath, GetAppContainerFolderPath function [Windows Shell], shell.getappcontainerfolderpath, userenv/GetAppContainerFolderPath
 ms.topic: function
-f1_keywords: ["userenv/GetAppContainerFolderPath"]
+f1_keywords: 
+ - "userenv/GetAppContainerFolderPath"
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGuidValue, GetGuidValue method [UPnP APIs], GetGuidValue method [UPnP APIs],IUPnPRemoteEndpointInfo interface, IUPnPRemoteEndpointInfo interface [UPnP APIs],GetGuidValue method, IUPnPRemoteEndpointInfo.GetGuidValue, IUPnPRemoteEndpointInfo::GetGuidValue, upnp.iupnpremoteendpointinfo_getguidvalue, upnphost/IUPnPRemoteEndpointInfo::GetGuidValue
 ms.topic: method
-f1_keywords: ["upnphost/IUPnPRemoteEndpointInfo.GetGuidValue"]
+f1_keywords: 
+ - "upnphost/IUPnPRemoteEndpointInfo.GetGuidValue"
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

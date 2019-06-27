@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BG_NOTIFY_DISABLE, BG_NOTIFY_FILE_RANGES_TRANSFERRED, BG_NOTIFY_FILE_TRANSFERRED, BG_NOTIFY_JOB_ERROR, BG_NOTIFY_JOB_MODIFICATION, BG_NOTIFY_JOB_TRANSFERRED, IBackgroundCopyJob interface [BITS],SetNotifyFlags method, IBackgroundCopyJob.SetNotifyFlags, IBackgroundCopyJob::SetNotifyFlags, SetNotifyFlags, SetNotifyFlags method [BITS], SetNotifyFlags method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setnotifyflags, bits.ibackgroundcopyjob_setnotifyflags, bits/IBackgroundCopyJob::SetNotifyFlags
 ms.topic: method
-f1_keywords: ["bits/IBackgroundCopyJob.SetNotifyFlags"]
+f1_keywords: 
+ - "bits/IBackgroundCopyJob.SetNotifyFlags"
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

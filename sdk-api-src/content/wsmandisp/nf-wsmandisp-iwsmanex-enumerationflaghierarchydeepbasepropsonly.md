@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumerationFlagHierarchyDeepBasePropsOnly, EnumerationFlagHierarchyDeepBasePropsOnly method [Windows Remote Management], EnumerationFlagHierarchyDeepBasePropsOnly method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagHierarchyDeepBasePropsOnly method, IWSManEx.EnumerationFlagHierarchyDeepBasePropsOnly, IWSManEx::EnumerationFlagHierarchyDeepBasePropsOnly, winrm.iwsmanex_enumerationflaghierarchydeepbasepropsonly, wsmandisp/IWSManEx::EnumerationFlagHierarchyDeepBasePropsOnly
 ms.topic: method
-f1_keywords: ["wsmandisp/IWSManEx.EnumerationFlagHierarchyDeepBasePropsOnly"]
+f1_keywords: 
+ - "wsmandisp/IWSManEx.EnumerationFlagHierarchyDeepBasePropsOnly"
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

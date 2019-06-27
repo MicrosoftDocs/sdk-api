@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NTMS_LMIDINFORMATION, NTMS_LMIDINFORMATION structure [Files], _zaw_ntms_lmidinformation, base.ntms_lmidinformation, fs.ntms_lmidinformation, ntmsapi/NTMS_LMIDINFORMATION
 ms.topic: struct
-f1_keywords: ["ntmsapi/NTMS_LMIDINFORMATION"]
+f1_keywords: 
+ - "ntmsapi/NTMS_LMIDINFORMATION"
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

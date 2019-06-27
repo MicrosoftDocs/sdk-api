@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPPHONEINITIALIZEEXPARAMS, LPPHONEINITIALIZEEXPARAMS, LPPHONEINITIALIZEEXPARAMS structure pointer [TAPI 2.2], PHONEINITIALIZEEXPARAMS, PHONEINITIALIZEEXPARAMS structure [TAPI 2.2], _tapi2_phoneinitializeexparams_str, tapi/LPPHONEINITIALIZEEXPARAMS, tapi/PHONEINITIALIZEEXPARAMS, tapi2.phoneinitializeexparams_str"
 ms.topic: struct
-f1_keywords: ["tapi/PHONEINITIALIZEEXPARAMS"]
+f1_keywords: 
+ - "tapi/PHONEINITIALIZEEXPARAMS"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateStatusWindow, CreateStatusWindow function [Windows Controls], CreateStatusWindowA, CreateStatusWindowW, _win32_CreateStatusWindow, _win32_CreateStatusWindow_cpp, commctrl/CreateStatusWindow, commctrl/CreateStatusWindowA, commctrl/CreateStatusWindowW, controls.CreateStatusWindow, controls._win32_CreateStatusWindow
 ms.topic: function
-f1_keywords: ["commctrl/CreateStatusWindow"]
+f1_keywords: 
+ - "commctrl/CreateStatusWindow"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

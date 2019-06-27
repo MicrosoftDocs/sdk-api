@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteStream, DeleteStream method [Microsoft TV Technologies], DeleteStream method [Microsoft TV Technologies],ISBE2MediaTypeProfile interface, ISBE2MediaTypeProfile interface [Microsoft TV Technologies],DeleteStream method, ISBE2MediaTypeProfile.DeleteStream, ISBE2MediaTypeProfile::DeleteStream, mstv.isbe2mediatypeprofile_deletestream, sbe/ISBE2MediaTypeProfile::DeleteStream
 ms.topic: method
-f1_keywords: ["sbe/ISBE2MediaTypeProfile.DeleteStream"]
+f1_keywords: 
+ - "sbe/ISBE2MediaTypeProfile.DeleteStream"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

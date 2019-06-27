@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndSetSpeed, MCIWndSetSpeed macro [Windows Multimedia], _win32_MCIWndSetSpeed, multimedia.mciwndsetspeed, vfw/MCIWndSetSpeed
 ms.topic: macro
-f1_keywords: ["vfw/MCIWndSetSpeed"]
+f1_keywords: 
+ - "vfw/MCIWndSetSpeed"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

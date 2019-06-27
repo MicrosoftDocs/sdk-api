@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TASK_STATE, TASK_STATE enumeration [Task Scheduler], TASK_STATE_DISABLED, TASK_STATE_QUEUED, TASK_STATE_READY, TASK_STATE_RUNNING, TASK_STATE_UNKNOWN, taskschd.task_state, taskschd/TASK_STATE, taskschd/TASK_STATE_DISABLED, taskschd/TASK_STATE_QUEUED, taskschd/TASK_STATE_READY, taskschd/TASK_STATE_RUNNING, taskschd/TASK_STATE_UNKNOWN
 ms.topic: enum
-f1_keywords: ["taskschd/TASK_STATE"]
+f1_keywords: 
+ - "taskschd/TASK_STATE"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

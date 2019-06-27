@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpV4EnumPolicies, DhcpV4EnumPolicies function [DHCP], dhcp.dhcpv4enumpolicies, dhcpsapi/DhcpV4EnumPolicies
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpV4EnumPolicies"]
+f1_keywords: 
+ - "dhcpsapi/DhcpV4EnumPolicies"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

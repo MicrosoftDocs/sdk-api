@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [BITS], Clone method [BITS],IEnumBitsPeers interface, IEnumBitsPeers interface [BITS],Clone method, IEnumBitsPeers.Clone, IEnumBitsPeers::Clone, bits.ienumbitspeers_clone, bits3_0/IEnumBitsPeers::Clone
 ms.topic: method
-f1_keywords: ["bits3_0/IEnumBitsPeers.Clone"]
+f1_keywords: 
+ - "bits3_0/IEnumBitsPeers.Clone"
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows

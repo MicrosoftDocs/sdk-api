@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_QualifierSet_GetQualifier, MI_QualifierSet_GetQualifier function [Windows Management Infrastructure (MI)], mi/MI_QualifierSet_GetQualifier, wmi_v2.mi_qualifierset_getqualifier
 ms.topic: function
-f1_keywords: ["mi/MI_QualifierSet_GetQualifier"]
+f1_keywords: 
+ - "mi/MI_QualifierSet_GetQualifier"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Static_SetText, Static_SetText macro [Windows Controls], _win32_Static_SetText, _win32_Static_SetText_cpp, controls.Static_SetText, controls._win32_Static_SetText, windowsx/Static_SetText
 ms.topic: macro
-f1_keywords: ["windowsx/Static_SetText"]
+f1_keywords: 
+ - "windowsx/Static_SetText"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

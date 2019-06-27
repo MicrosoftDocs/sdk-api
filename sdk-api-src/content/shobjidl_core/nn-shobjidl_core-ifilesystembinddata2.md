@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemBindData2, IFileSystemBindData2 interface [Windows Shell], IFileSystemBindData2 interface [Windows Shell],described, _shell_IFileSystemBindData2, shell.IFileSystemBindData2, shobjidl_core/IFileSystemBindData2
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IFileSystemBindData2"]
+f1_keywords: 
+ - "shobjidl_core/IFileSystemBindData2"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

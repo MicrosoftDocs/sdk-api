@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 07410292-1cdc-6e8c-f5a7-81000df37961, ID3D10ShaderReflectionType, ID3D10ShaderReflectionType interface [Direct3D 10], ID3D10ShaderReflectionType interface [Direct3D 10],described, d3d10shader/ID3D10ShaderReflectionType, direct3d10.id3d10shaderreflectiontype
 ms.topic: interface
-f1_keywords: ["d3d10shader/ID3D10ShaderReflectionType"]
+f1_keywords: 
+ - "d3d10shader/ID3D10ShaderReflectionType"
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

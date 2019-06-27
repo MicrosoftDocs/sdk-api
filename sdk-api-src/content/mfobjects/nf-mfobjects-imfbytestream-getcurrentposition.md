@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPosition, GetCurrentPosition method [Media Foundation], GetCurrentPosition method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],GetCurrentPosition method, IMFByteStream.GetCurrentPosition, IMFByteStream::GetCurrentPosition, de36742a-a8a5-4f40-9fea-af89d9a6bf2e, mf.imfbytestream_getcurrentposition, mfobjects/IMFByteStream::GetCurrentPosition
 ms.topic: method
-f1_keywords: ["mfobjects/IMFByteStream.GetCurrentPosition"]
+f1_keywords: 
+ - "mfobjects/IMFByteStream.GetCurrentPosition"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

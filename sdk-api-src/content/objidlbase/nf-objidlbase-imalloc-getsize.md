@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [COM], GetSize method [COM],IMalloc interface, IMalloc interface [COM],GetSize method, IMalloc.GetSize, IMalloc::GetSize, _com_imalloc_getsize, com.imalloc_getsize, objidlbase/IMalloc::GetSize
 ms.topic: method
-f1_keywords: ["objidlbase/IMalloc.GetSize"]
+f1_keywords: 
+ - "objidlbase/IMalloc.GetSize"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

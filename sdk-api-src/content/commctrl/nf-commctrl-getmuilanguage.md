@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMUILanguage, GetMUILanguage function [Windows Controls], _win32_GetMUILanguage, _win32_GetMUILanguage_cpp, commctrl/GetMUILanguage, controls.GetMUILanguage, controls._win32_GetMUILanguage
 ms.topic: function
-f1_keywords: ["commctrl/GetMUILanguage"]
+f1_keywords: 
+ - "commctrl/GetMUILanguage"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

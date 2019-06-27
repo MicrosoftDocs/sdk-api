@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3dGetDriverState, D3dGetDriverState callback function [Display Devices], PDD_GETDRIVERSTATE, PDD_GETDRIVERSTATE callback, d3dfncs_e2c93c0f-5d2e-47b2-b8df-b527db9b121e.xml, ddrawint/D3dGetDriverState, display.d3dgetdriverstate
 ms.topic: callback
-f1_keywords: ["ddrawint/D3dGetDriverState"]
+f1_keywords: 
+ - "ddrawint/D3dGetDriverState"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

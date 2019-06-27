@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TunerInputAntenna, TunerInputCable, TunerInputType, TunerInputType enumeration [DirectShow], TunerInputTypeEnumeration, dshow.tunerinputtype, strmif/TunerInputAntenna, strmif/TunerInputCable, strmif/TunerInputType
 ms.topic: enum
-f1_keywords: ["strmif/TunerInputType"]
+f1_keywords: 
+ - "strmif/TunerInputType"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

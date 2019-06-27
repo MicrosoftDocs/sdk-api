@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumerateFarms, EnumerateFarms method [Remote Desktop Services], EnumerateFarms method [Remote Desktop Services],ITsSbResourcePluginStore interface, EnumerateFarms method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],EnumerateFarms method, ITsSbResourcePluginStore.EnumerateFarms, ITsSbResourcePluginStore::EnumerateFarms, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],EnumerateFarms method, ITsSbResourcePluginStoreEx::EnumerateFarms, sbtsv/ITsSbResourcePluginStore::EnumerateFarms, sbtsv/ITsSbResourcePluginStoreEx::EnumerateFarms, termserv.itssbresourcepluginstore_enumeratefarms
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbResourcePluginStore.EnumerateFarms"]
+f1_keywords: 
+ - "sbtsv/ITsSbResourcePluginStore.EnumerateFarms"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

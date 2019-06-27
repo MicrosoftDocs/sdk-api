@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeviceId property [Fax Service], DeviceId property [Fax Service],IFaxIncomingJob interface, IFaxIncomingJob interface [Fax Service],DeviceId property, IFaxIncomingJob.DeviceId, IFaxIncomingJob.get_DeviceId, IFaxIncomingJob::DeviceId, IFaxIncomingJob::get_DeviceId, _mfax_faxincomingjob.deviceid, fax._mfax_faxincomingjob_cpp_mfax_faxincomingjob_deviceid_cpp, fax._mfax_faxincomingjob_deviceid, faxcomex/IFaxIncomingJob::DeviceId, faxcomex/IFaxIncomingJob::get_DeviceId, get_DeviceId
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxIncomingJob.DeviceId"]
+f1_keywords: 
+ - "faxcomex/IFaxIncomingJob.DeviceId"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

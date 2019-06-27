@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPrivateEvent interface [TAPI 2.2],get_Address method, ITPrivateEvent.get_Address, ITPrivateEvent::get_Address, _tapi3_itprivateevent_get_address, get_Address, get_Address method [TAPI 2.2], get_Address method [TAPI 2.2],ITPrivateEvent interface, tapi3.itprivateevent_get_address, tapi3if/ITPrivateEvent::get_Address
 ms.topic: method
-f1_keywords: ["tapi3if/ITPrivateEvent.get_Address"]
+f1_keywords: 
+ - "tapi3if/ITPrivateEvent.get_Address"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

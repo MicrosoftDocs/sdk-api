@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_VERTEX_USAGE, D2D1_VERTEX_USAGE enumeration [Direct2D], D2D1_VERTEX_USAGE_DYNAMIC, D2D1_VERTEX_USAGE_STATIC, d2d1effectauthor/D2D1_VERTEX_USAGE, d2d1effectauthor/D2D1_VERTEX_USAGE_DYNAMIC, d2d1effectauthor/D2D1_VERTEX_USAGE_STATIC, direct2d.d2d1_vertex_usage
 ms.topic: enum
-f1_keywords: ["d2d1effectauthor/D2D1_VERTEX_USAGE"]
+f1_keywords: 
+ - "d2d1effectauthor/D2D1_VERTEX_USAGE"
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

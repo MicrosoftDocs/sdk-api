@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],Put method, IWbemClassObject.Put, IWbemClassObject::Put, Put, Put method [Windows Management Instrumentation], Put method [Windows Management Instrumentation],IWbemClassObject interface, _hmm_iwbemclassobject_put, wbemcli/IWbemClassObject::Put, wmi.iwbemclassobject_put
 ms.topic: method
-f1_keywords: ["wbemcli/IWbemClassObject.Put"]
+f1_keywords: 
+ - "wbemcli/IWbemClassObject.Put"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

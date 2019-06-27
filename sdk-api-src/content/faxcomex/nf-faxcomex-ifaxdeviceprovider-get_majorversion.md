@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxDeviceProvider interface [Fax Service],MajorVersion property, IFaxDeviceProvider.MajorVersion, IFaxDeviceProvider.get_MajorVersion, IFaxDeviceProvider::MajorVersion, IFaxDeviceProvider::get_MajorVersion, MajorVersion property [Fax Service], MajorVersion property [Fax Service],IFaxDeviceProvider interface, _mfax_faxdeviceprovider.majorversion, fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_majorversion_cpp, fax._mfax_faxdeviceprovider_majorversion, faxcomex/IFaxDeviceProvider::MajorVersion, faxcomex/IFaxDeviceProvider::get_MajorVersion, get_MajorVersion
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxDeviceProvider.MajorVersion"]
+f1_keywords: 
+ - "faxcomex/IFaxDeviceProvider.MajorVersion"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

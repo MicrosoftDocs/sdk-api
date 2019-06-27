@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ProcessPointerFramesInteractionContext, ProcessPointerFramesInteractionContext function, input_intcontext.processpointerframesinteractioncontext, interactioncontext.processpointerframesinteractioncontext, interactioncontext/ProcessPointerFramesInteractionContext
 ms.topic: function
-f1_keywords: ["interactioncontext/ProcessPointerFramesInteractionContext"]
+f1_keywords: 
+ - "interactioncontext/ProcessPointerFramesInteractionContext"
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

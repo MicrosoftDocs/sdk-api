@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AcquireObjectIdRange, AcquireObjectIdRange method [Windows Accessibility], AcquireObjectIdRange method [Windows Accessibility],IAccessibleWindowlessSite interface, IAccessibleWindowlessSite interface [Windows Accessibility],AcquireObjectIdRange method, IAccessibleWindowlessSite.AcquireObjectIdRange, IAccessibleWindowlessSite::AcquireObjectIdRange, oleacc/IAccessibleWindowlessSite::AcquireObjectIdRange, winauto.uiauto_IAccessibleWindowlessSite_AcquireObjectIdRange
 ms.topic: method
-f1_keywords: ["oleacc/IAccessibleWindowlessSite.AcquireObjectIdRange"]
+f1_keywords: 
+ - "oleacc/IAccessibleWindowlessSite.AcquireObjectIdRange"
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

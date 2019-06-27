@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MakeLocalPath, MakeLocalPath method [Windows Management Instrumentation], MakeLocalPath method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],MakeLocalPath method, Provider.MakeLocalPath, Provider::MakeLocalPath, _hmm_provider_makelocalpath, provider/Provider::MakeLocalPath, wmi.provider_makelocalpath
 ms.topic: method
-f1_keywords: ["provider/Provider.MakeLocalPath"]
+f1_keywords: 
+ - "provider/Provider.MakeLocalPath"
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows

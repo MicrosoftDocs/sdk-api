@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComObjectPoolEvents, IComObjectPoolEvents interface [COM+], IComObjectPoolEvents interface [COM+],described, _dtc_IComObjectPoolEvents, comsvcs/IComObjectPoolEvents, cos.icomobjectpoolevents
 ms.topic: interface
-f1_keywords: ["comsvcs/IComObjectPoolEvents"]
+f1_keywords: 
+ - "comsvcs/IComObjectPoolEvents"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

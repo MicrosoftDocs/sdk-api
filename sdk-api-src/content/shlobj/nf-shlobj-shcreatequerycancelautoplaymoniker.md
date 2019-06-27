@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCreateQueryCancelAutoPlayMoniker, SHCreateQueryCancelAutoPlayMoniker function [Windows Shell], _shell_SHCreateQueryCancelAutoPlayMoniker, shell.SHCreateQueryCancelAutoPlayMoniker, shlobj/SHCreateQueryCancelAutoPlayMoniker
 ms.topic: function
-f1_keywords: ["shlobj/SHCreateQueryCancelAutoPlayMoniker"]
+f1_keywords: 
+ - "shlobj/SHCreateQueryCancelAutoPlayMoniker"
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

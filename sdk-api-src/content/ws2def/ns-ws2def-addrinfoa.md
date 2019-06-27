@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PADDRINFOA, ADDRINFOA, ADDRINFOA structure [Winsock], AF_BTH, AF_INET, AF_INET6, AF_IRDA, AF_NETBIOS, AF_UNSPEC, AI_ADDRCONFIG, AI_ALL, AI_CANONNAME, AI_FILESERVER, AI_FQDN, AI_NON_AUTHORITATIVE, AI_NUMERICHOST, AI_PASSIVE, AI_RETURN_PREFERRED_NAMES, AI_SECURE, AI_V4MAPPED, IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, PADDRINFOA, PADDRINFOA structure pointer [Winsock], SOCK_DGRAM, SOCK_RAW, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, _win32_addrinfo_2, addrinfo, addrinfo structure [Winsock], winsock.addrinfo_2, ws2def/PADDRINFOA, ws2def/addrinfo, ws2tcpip/PADDRINFOA, ws2tcpip/addrinfo, wspiapi/PADDRINFOA, wspiapi/addrinfo"
 ms.topic: struct
-f1_keywords: ["ws2def/ADDRINFOA"]
+f1_keywords: 
+ - "ws2def/ADDRINFOA"
 req.header: ws2def.h
 req.include-header: 
 req.target-type: Windows

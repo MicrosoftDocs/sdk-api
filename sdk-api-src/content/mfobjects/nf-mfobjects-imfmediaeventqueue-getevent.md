@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEvent, GetEvent method [Media Foundation], GetEvent method [Media Foundation],IMFMediaEventQueue interface, IMFMediaEventQueue interface [Media Foundation],GetEvent method, IMFMediaEventQueue.GetEvent, IMFMediaEventQueue::GetEvent, b7c48607-f410-47ee-8cc6-38123919da55, mf.imfmediaeventqueue_getevent, mfobjects/IMFMediaEventQueue::GetEvent
 ms.topic: method
-f1_keywords: ["mfobjects/IMFMediaEventQueue.GetEvent"]
+f1_keywords: 
+ - "mfobjects/IMFMediaEventQueue.GetEvent"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

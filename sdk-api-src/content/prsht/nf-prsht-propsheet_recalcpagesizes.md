@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropSheet_RecalcPageSizes, PropSheet_RecalcPageSizes macro [Windows Controls], _win32_PropSheet_RecalcPageSizes, _win32_PropSheet_RecalcPageSizes_cpp, controls.PropSheet_RecalcPageSizes, controls._win32_PropSheet_RecalcPageSizes, prsht/PropSheet_RecalcPageSizes
 ms.topic: macro
-f1_keywords: ["prsht/PropSheet_RecalcPageSizes"]
+f1_keywords: 
+ - "prsht/PropSheet_RecalcPageSizes"
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

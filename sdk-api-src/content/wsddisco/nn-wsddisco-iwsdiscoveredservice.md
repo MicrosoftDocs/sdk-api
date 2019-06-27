@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveredService, IWSDiscoveredService interface, IWSDiscoveredService interface,described, ncd.iwsdiscoveredservice, wsddisco/IWSDiscoveredService
 ms.topic: interface
-f1_keywords: ["wsddisco/IWSDiscoveredService"]
+f1_keywords: 
+ - "wsddisco/IWSDiscoveredService"
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

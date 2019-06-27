@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SEC_WINNT_AUTH_DATA_TYPE_CERT, SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA, SEC_WINNT_AUTH_DATA_TYPE_PASSWORD, SspiGetCredUIContext, SspiGetCredUIContext function [Security], security.sspigetcreduicontext, sspi/SspiGetCredUIContext
 ms.topic: function
-f1_keywords: ["sspi/SspiGetCredUIContext"]
+f1_keywords: 
+ - "sspi/SspiGetCredUIContext"
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

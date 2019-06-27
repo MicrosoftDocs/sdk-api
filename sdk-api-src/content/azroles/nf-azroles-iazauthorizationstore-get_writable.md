@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],Writable property, IAzAuthorizationStore interface [Security],Writable property, IAzAuthorizationStore.Writable, IAzAuthorizationStore.get_Writable, IAzAuthorizationStore::Writable, IAzAuthorizationStore::get_Writable, Writable property [Security], Writable property [Security],AzAuthorizationStore object, Writable property [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::Writable, azroles/IAzAuthorizationStore::get_Writable, get_Writable, security.azauthorizationstore_writable
 ms.topic: method
-f1_keywords: ["azroles/IAzAuthorizationStore.Writable"]
+f1_keywords: 
+ - "azroles/IAzAuthorizationStore.Writable"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

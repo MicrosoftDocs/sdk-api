@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ItsPubPlugin interface [Remote Desktop Services],pluginVersion property, ItsPubPlugin.get_pluginVersion, ItsPubPlugin.pluginVersion, ItsPubPlugin::get_pluginVersion, ItsPubPlugin::pluginVersion, get_pluginVersion, pluginVersion property [Remote Desktop Services], pluginVersion property [Remote Desktop Services],ItsPubPlugin interface, termserv.itspubplugin_pluginversion, tspubplugincom/ItsPubPlugin::get_pluginVersion, tspubplugincom/ItsPubPlugin::pluginVersion
 ms.topic: method
-f1_keywords: ["tspubplugincom/ItsPubPlugin.pluginVersion"]
+f1_keywords: 
+ - "tspubplugincom/ItsPubPlugin.pluginVersion"
 req.header: tspubplugincom.h
 req.include-header: 
 req.target-type: Windows

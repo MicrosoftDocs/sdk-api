@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateFalseCondition, CreateFalseCondition method [Windows Accessibility], CreateFalseCondition method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateFalseCondition method, IUIAutomation.CreateFalseCondition, IUIAutomation::CreateFalseCondition, uiauto.uiauto_IUIAutomation_CreateFalseCondition, uiauto_IUIAutomation_CreateFalseCondition, uiautomationclient/IUIAutomation::CreateFalseCondition, winauto.uiauto_IUIAutomation_CreateFalseCondition
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomation.CreateFalseCondition"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomation.CreateFalseCondition"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

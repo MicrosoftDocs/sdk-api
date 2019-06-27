@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentShape property [Windows Accessibility], CurrentShape property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CurrentShape property, IUIAutomationStylesPattern.CurrentShape, IUIAutomationStylesPattern.get_CurrentShape, IUIAutomationStylesPattern::CurrentShape, IUIAutomationStylesPattern::get_CurrentShape, get_CurrentShape, uiautomationclient/IUIAutomationStylesPattern::CurrentShape, uiautomationclient/IUIAutomationStylesPattern::get_CurrentShape, winauto.uiauto_IUIAutomationStylesPattern_CurrentShape
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationStylesPattern.CurrentShape"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationStylesPattern.CurrentShape"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

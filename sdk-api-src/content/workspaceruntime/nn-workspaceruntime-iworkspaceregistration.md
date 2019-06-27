@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWorkspaceRegistration, IWorkspaceRegistration interface [Remote Desktop Services], IWorkspaceRegistration interface [Remote Desktop Services],described, termserv.iworkspaceregistration, workspaceruntime/IWorkspaceRegistration
 ms.topic: interface
-f1_keywords: ["workspaceruntime/IWorkspaceRegistration"]
+f1_keywords: 
+ - "workspaceruntime/IWorkspaceRegistration"
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows

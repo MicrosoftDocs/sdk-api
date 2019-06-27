@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Media Foundation], Close method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],Close method, IMFByteStream.Close, IMFByteStream::Close, d5f704ab-fa3f-4a53-9b97-eb48a75e481b, mf.imfbytestream_close, mfobjects/IMFByteStream::Close
 ms.topic: method
-f1_keywords: ["mfobjects/IMFByteStream.Close"]
+f1_keywords: 
+ - "mfobjects/IMFByteStream.Close"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

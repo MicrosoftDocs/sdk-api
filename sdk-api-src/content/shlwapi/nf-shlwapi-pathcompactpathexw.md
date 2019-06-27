@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathCompactPathEx, PathCompactPathEx function [Windows Shell], PathCompactPathExA, PathCompactPathExW, _win32_PathCompactPathEx, shell.PathCompactPathEx, shlwapi/PathCompactPathEx, shlwapi/PathCompactPathExA, shlwapi/PathCompactPathExW
 ms.topic: function
-f1_keywords: ["shlwapi/PathCompactPathEx"]
+f1_keywords: 
+ - "shlwapi/PathCompactPathEx"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

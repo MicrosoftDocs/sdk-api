@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextRangeProvider interface [Windows Accessibility],MoveEndpointByUnit method, ITextRangeProvider.MoveEndpointByUnit, ITextRangeProvider::MoveEndpointByUnit, MoveEndpointByUnit, MoveEndpointByUnit method [Windows Accessibility], MoveEndpointByUnit method [Windows Accessibility],ITextRangeProvider interface, uiauto.uiauto_ITextRangeProvider_MoveEndpointByUnit, uiauto_ITextRangeProvider_MoveEndpointByUnit, uiautomationcore/ITextRangeProvider::MoveEndpointByUnit, winauto.uiauto_ITextRangeProvider_MoveEndpointByUnit
 ms.topic: method
-f1_keywords: ["uiautomationcore/ITextRangeProvider.MoveEndpointByUnit"]
+f1_keywords: 
+ - "uiautomationcore/ITextRangeProvider.MoveEndpointByUnit"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

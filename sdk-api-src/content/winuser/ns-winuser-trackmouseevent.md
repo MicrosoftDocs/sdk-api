@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPTRACKMOUSEEVENT, LPTRACKMOUSEEVENT, LPTRACKMOUSEEVENT structure pointer [Keyboard and Mouse Input], TME_CANCEL, TME_HOVER, TME_LEAVE, TME_NONCLIENT, TME_QUERY, TRACKMOUSEEVENT, TRACKMOUSEEVENT structure [Keyboard and Mouse Input], _win32_TRACKMOUSEEVENT_str, _win32_trackmouseevent_str_cpp, inputdev.trackmouseevent_str, winui._win32_trackmouseevent_str, winuser/LPTRACKMOUSEEVENT, winuser/TRACKMOUSEEVENT"
 ms.topic: struct
-f1_keywords: ["winuser/TRACKMOUSEEVENT"]
+f1_keywords: 
+ - "winuser/TRACKMOUSEEVENT"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

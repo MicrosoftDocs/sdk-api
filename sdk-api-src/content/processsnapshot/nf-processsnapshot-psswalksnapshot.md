@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PssWalkSnapshot, PssWalkSnapshot function, proc_snap.psswalksnapshot, processsnapshot/PssWalkSnapshot
 ms.topic: function
-f1_keywords: ["processsnapshot/PssWalkSnapshot"]
+f1_keywords: 
+ - "processsnapshot/PssWalkSnapshot"
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

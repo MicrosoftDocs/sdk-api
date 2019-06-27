@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_CTRL_AUTO_RESYNC, CERT_STORE_CTRL_CANCEL_NOTIFY, CERT_STORE_CTRL_COMMIT, CERT_STORE_CTRL_COMMIT_CLEAR_FLAG, CERT_STORE_CTRL_COMMIT_FORCE_FLAG, CERT_STORE_CTRL_INHIBIT_DUPLICATE_HANDLE_FLAG, CERT_STORE_CTRL_NOTIFY_CHANGE, CERT_STORE_CTRL_RESYNC, CertControlStore, CertControlStore function [Security], _crypto2_certcontrolstore, security.certcontrolstore, wincrypt/CertControlStore
 ms.topic: function
-f1_keywords: ["wincrypt/CertControlStore"]
+f1_keywords: 
+ - "wincrypt/CertControlStore"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

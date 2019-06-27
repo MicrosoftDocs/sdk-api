@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl9 interface [DirectShow],SetMixingPrefs method, IVMRMixerControl9.SetMixingPrefs, IVMRMixerControl9::SetMixingPrefs, IVMRMixerControl9SetMixingPrefs, SetMixingPrefs, SetMixingPrefs method [DirectShow], SetMixingPrefs method [DirectShow],IVMRMixerControl9 interface, dshow.ivmrmixercontrol9_setmixingprefs, vmr9/IVMRMixerControl9::SetMixingPrefs
 ms.topic: method
-f1_keywords: ["vmr9/IVMRMixerControl9.SetMixingPrefs"]
+f1_keywords: 
+ - "vmr9/IVMRMixerControl9.SetMixingPrefs"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

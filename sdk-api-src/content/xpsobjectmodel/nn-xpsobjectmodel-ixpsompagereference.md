@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPageReference, IXpsOMPageReference interface [XPS Documents and Packaging], IXpsOMPageReference interface [XPS Documents and Packaging],described, xps.ixpsompagereference, xpsobjectmodel/IXpsOMPageReference
 ms.topic: interface
-f1_keywords: ["xpsobjectmodel/IXpsOMPageReference"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPageReference"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

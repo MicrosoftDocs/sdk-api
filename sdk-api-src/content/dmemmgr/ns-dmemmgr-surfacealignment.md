@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSURFACEALIGNMENT, SURFACEALIGNMENT, SURFACEALIGNMENT structure [Display Devices], display.surfacealignment, dmemmgr/SURFACEALIGNMENT, grstrcts_8ab8c373-9600-45dc-9f16-f6c4de52a0c7.xml"
 ms.topic: struct
-f1_keywords: ["dmemmgr/SURFACEALIGNMENT"]
+f1_keywords: 
+ - "dmemmgr/SURFACEALIGNMENT"
 req.header: dmemmgr.h
 req.include-header: Winddi.h
 req.target-type: Windows

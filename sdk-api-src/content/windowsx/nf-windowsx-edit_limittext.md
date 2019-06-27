@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Edit_LimitText, Edit_LimitText macro [Windows Controls], _win32_Edit_LimitText, _win32_Edit_LimitText_cpp, controls.Edit_LimitText, controls._win32_Edit_LimitText, windowsx/Edit_LimitText
 ms.topic: macro
-f1_keywords: ["windowsx/Edit_LimitText"]
+f1_keywords: 
+ - "windowsx/Edit_LimitText"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

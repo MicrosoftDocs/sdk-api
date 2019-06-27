@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FALSE, IRegTreeItem interface [Windows Shell],SetCheckState method, IRegTreeItem.SetCheckState, IRegTreeItem::SetCheckState, SetCheckState, SetCheckState method [Windows Shell], SetCheckState method [Windows Shell],IRegTreeItem interface, TRUE, _win32_IRegTreeItem_SetCheckState, shell.IRegTreeItem_SetCheckState, shobjidl_core/IRegTreeItem::SetCheckState
 ms.topic: method
-f1_keywords: ["shobjidl_core/IRegTreeItem.SetCheckState"]
+f1_keywords: 
+ - "shobjidl_core/IRegTreeItem.SetCheckState"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

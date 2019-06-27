@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPM_TXN_READ_ONLY, FwpmTransactionBegin0, FwpmTransactionBegin0 function [Filtering], fwp.fwpmtransactionbegin0_func, fwpmu/FwpmTransactionBegin0
 ms.topic: function
-f1_keywords: ["fwpmu/FwpmTransactionBegin0"]
+f1_keywords: 
+ - "fwpmu/FwpmTransactionBegin0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

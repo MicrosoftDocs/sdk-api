@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateRequest, CreateRequest method [XPS Documents and Packaging], CreateRequest method [XPS Documents and Packaging],IXpsSignatureBlock interface, IXpsSignatureBlock interface [XPS Documents and Packaging],CreateRequest method, IXpsSignatureBlock.CreateRequest, IXpsSignatureBlock::CreateRequest, xps.ixpssignatureblock_createrequest, xpsdigitalsignature/IXpsSignatureBlock::CreateRequest
 ms.topic: method
-f1_keywords: ["xpsdigitalsignature/IXpsSignatureBlock.CreateRequest"]
+f1_keywords: 
+ - "xpsdigitalsignature/IXpsSignatureBlock.CreateRequest"
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

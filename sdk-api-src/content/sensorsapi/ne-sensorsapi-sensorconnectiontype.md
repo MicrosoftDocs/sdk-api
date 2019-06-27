@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SENSOR_CONNECTION_TYPE_PC_ATTACHED, SENSOR_CONNECTION_TYPE_PC_EXTERNAL, SENSOR_CONNECTION_TYPE_PC_INTEGRATED, SensorConnectionType, SensorConnectionType enumeration, sensorsapi/ SENSOR_CONNECTION_TYPE_PC_EXTERNAL, sensorsapi/SENSOR_CONNECTION_TYPE_PC_ATTACHED, sensorsapi/SENSOR_CONNECTION_TYPE_PC_INTEGRATED, sensorsapi/SensorConnectionType, winsensors_com_ref.sensorconnectiontype
 ms.topic: enum
-f1_keywords: ["sensorsapi/SensorConnectionType"]
+f1_keywords: 
+ - "sensorsapi/SensorConnectionType"
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPLOGFONTW, *NPLOGFONTW, *PLOGFONTW, LOGFONT, LOGFONT structure [Windows GDI], LOGFONTA, LOGFONTW, PLOGFONT, PLOGFONT structure pointer [Windows GDI], _win32_LOGFONT_str, gdi.logfont, wingdi/LOGFONT, wingdi/LOGFONTA, wingdi/LOGFONTW, wingdi/PLOGFONT"
 ms.topic: struct
-f1_keywords: ["wingdi/LOGFONT"]
+f1_keywords: 
+ - "wingdi/LOGFONT"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWLAN_STATISTICS, PWLAN_STATISTICS, PWLAN_STATISTICS structure pointer [NativeWIFI], WLAN_STATISTICS, WLAN_STATISTICS structure [NativeWIFI], nwifi.wlan_statistics, wlanapi/PWLAN_STATISTICS, wlanapi/WLAN_STATISTICS"
 ms.topic: struct
-f1_keywords: ["wlanapi/WLAN_STATISTICS"]
+f1_keywords: 
+ - "wlanapi/WLAN_STATISTICS"
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

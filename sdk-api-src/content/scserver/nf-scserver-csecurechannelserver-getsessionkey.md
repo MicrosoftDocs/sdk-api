@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelServer class [windows Media Device Manager],GetSessionKey method, CSecureChannelServer.GetSessionKey, CSecureChannelServer::GetSessionKey, CSecureChannelServerGetSessionKey, GetSessionKey, GetSessionKey method [windows Media Device Manager], GetSessionKey method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::GetSessionKey, wmdm.csecurechannelserver_getsessionkey
 ms.topic: method
-f1_keywords: ["scserver/CSecureChannelServer.GetSessionKey"]
+f1_keywords: 
+ - "scserver/CSecureChannelServer.GetSessionKey"
 req.header: scserver.h
 req.include-header: 
 req.target-type: Windows

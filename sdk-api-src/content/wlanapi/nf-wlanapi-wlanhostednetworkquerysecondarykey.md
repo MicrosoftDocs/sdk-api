@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanHostedNetworkQuerySecondaryKey, WlanHostedNetworkQuerySecondaryKey function [NativeWIFI], nwifi.wlanhostednetworkquerysecondarykey, wlanapi/WlanHostedNetworkQuerySecondaryKey
 ms.topic: function
-f1_keywords: ["wlanapi/WlanHostedNetworkQuerySecondaryKey"]
+f1_keywords: 
+ - "wlanapi/WlanHostedNetworkQuerySecondaryKey"
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

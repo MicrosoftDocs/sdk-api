@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Security], Close method [Security],IX509EndorsementKey interface, IX509EndorsementKey interface [Security],Close method, IX509EndorsementKey.Close, IX509EndorsementKey::Close, certenroll/IX509EndorsementKey::Close, security.ix509endorsementkey_close
 ms.topic: method
-f1_keywords: ["certenroll/IX509EndorsementKey.Close"]
+f1_keywords: 
+ - "certenroll/IX509EndorsementKey.Close"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

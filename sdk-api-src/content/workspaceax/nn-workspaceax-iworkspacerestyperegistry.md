@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWorkspaceResTypeRegistry, IWorkspaceResTypeRegistry interface [Remote Desktop Services], IWorkspaceResTypeRegistry interface [Remote Desktop Services],described, termserv.iworkspacerestyperegistry, workspaceax/IWorkspaceResTypeRegistry
 ms.topic: interface
-f1_keywords: ["workspaceax/IWorkspaceResTypeRegistry"]
+f1_keywords: 
+ - "workspaceax/IWorkspaceResTypeRegistry"
 req.header: workspaceax.h
 req.include-header: 
 req.target-type: Windows

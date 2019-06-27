@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ENHMETAHEADER3, ENHMETAHEADER3 structure [GDI+], _gdiplus_STRUC_ENHMETAHEADER3, gdiplus._gdiplus_STRUC_ENHMETAHEADER3, gdiplusmetaheader/ENHMETAHEADER3
 ms.topic: struct
-f1_keywords: ["gdiplusmetaheader/ENHMETAHEADER3"]
+f1_keywords: 
+ - "gdiplusmetaheader/ENHMETAHEADER3"
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

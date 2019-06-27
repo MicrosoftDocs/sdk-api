@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindNextVolume, FindNextVolume function [Files], FindNextVolumeA, FindNextVolumeW, _win32_findnextvolume, base.findnextvolume, fileapi/FindNextVolume, fileapi/FindNextVolumeA, fileapi/FindNextVolumeW, fs.findnextvolume, winbase/FindNextVolume, winbase/FindNextVolumeA, winbase/FindNextVolumeW
 ms.topic: function
-f1_keywords: ["winbase/FindNextVolume"]
+f1_keywords: 
+ - "winbase/FindNextVolume"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

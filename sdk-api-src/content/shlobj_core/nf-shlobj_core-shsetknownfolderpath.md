@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: KF_FLAG_DONT_UNEXPAND, SHSetKnownFolderPath, SHSetKnownFolderPath function [Windows Shell], _shell_SHSetKnownFolderPath, shell.SHSetKnownFolderPath, shlobj_core/SHSetKnownFolderPath
 ms.topic: function
-f1_keywords: ["shlobj_core/SHSetKnownFolderPath"]
+f1_keywords: 
+ - "shlobj_core/SHSetKnownFolderPath"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

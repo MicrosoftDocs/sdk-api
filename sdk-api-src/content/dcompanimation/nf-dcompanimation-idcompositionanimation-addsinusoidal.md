@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddSinusoidal, AddSinusoidal method [DirectComposition], AddSinusoidal method [DirectComposition],IDCompositionAnimation interface, IDCompositionAnimation interface [DirectComposition],AddSinusoidal method, IDCompositionAnimation.AddSinusoidal, IDCompositionAnimation::AddSinusoidal, dcompanimation/IDCompositionAnimation::AddSinusoidal, directcomp.idcompositionanimation_addsinusoidal
 ms.topic: method
-f1_keywords: ["dcompanimation/IDCompositionAnimation.AddSinusoidal"]
+f1_keywords: 
+ - "dcompanimation/IDCompositionAnimation.AddSinusoidal"
 req.header: dcompanimation.h
 req.include-header: 
 req.target-type: Windows

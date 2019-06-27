@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExtractImage, IExtractImage interface [Windows Shell], IExtractImage interface [Windows Shell],described, _win32_IExtractImage, shell.IExtractImage, shobjidl_core/IExtractImage
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IExtractImage"]
+f1_keywords: 
+ - "shobjidl_core/IExtractImage"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

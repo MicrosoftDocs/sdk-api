@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpAddress interface,SetSecure method, IWSDHttpAddress.SetSecure, IWSDHttpAddress::SetSecure, SetSecure, SetSecure method, SetSecure method,IWSDHttpAddress interface, ncd.iwsdhttpaddress_setsecure, wsdbase/IWSDHttpAddress::SetSecure
 ms.topic: method
-f1_keywords: ["wsdbase/IWSDHttpAddress.SetSecure"]
+f1_keywords: 
+ - "wsdbase/IWSDHttpAddress.SetSecure"
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

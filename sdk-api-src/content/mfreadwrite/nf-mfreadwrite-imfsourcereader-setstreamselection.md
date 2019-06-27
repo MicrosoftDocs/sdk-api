@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSourceReader interface [Media Foundation],SetStreamSelection method, IMFSourceReader.SetStreamSelection, IMFSourceReader::SetStreamSelection, MF_SOURCE_READER_ALL_STREAMS, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, SetStreamSelection, SetStreamSelection method [Media Foundation], SetStreamSelection method [Media Foundation],IMFSourceReader interface, mf.imfsourcereader_setstreamselection, mfreadwrite/IMFSourceReader::SetStreamSelection
 ms.topic: method
-f1_keywords: ["mfreadwrite/IMFSourceReader.SetStreamSelection"]
+f1_keywords: 
+ - "mfreadwrite/IMFSourceReader.SetStreamSelection"
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

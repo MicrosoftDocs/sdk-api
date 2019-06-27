@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateSensorGroup, MFCreateSensorGroup function [Media Foundation], mf.mfcreatesensorgroup, mfidl/MFCreateSensorGroup
 ms.topic: function
-f1_keywords: ["mfidl/MFCreateSensorGroup"]
+f1_keywords: 
+ - "mfidl/MFCreateSensorGroup"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

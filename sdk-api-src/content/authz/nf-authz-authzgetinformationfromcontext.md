@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthzGetInformationFromContext, AuthzGetInformationFromContext function [Security], _win32_authzgetinformationfromcontext, authz/AuthzGetInformationFromContext, security.authzgetinformationfromcontext
 ms.topic: function
-f1_keywords: ["authz/AuthzGetInformationFromContext"]
+f1_keywords: 
+ - "authz/AuthzGetInformationFromContext"
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_CHANGER_GET_PRODUCT_DATA, IOCTL_CHANGER_GET_PRODUCT_DATA control, IOCTL_CHANGER_GET_PRODUCT_DATA control code, _win32_ioctl_changer_get_product_data, base.ioctl_changer_get_product_data, winioctl/IOCTL_CHANGER_GET_PRODUCT_DATA
 ms.topic: ioctl
-f1_keywords: ["winioctl/IOCTL_CHANGER_GET_PRODUCT_DATA"]
+f1_keywords: 
+ - "winioctl/IOCTL_CHANGER_GET_PRODUCT_DATA"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

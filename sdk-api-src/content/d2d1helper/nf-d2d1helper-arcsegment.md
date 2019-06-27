@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ArcSegment, ArcSegment function [Direct2D], d2d1helper/ArcSegment, direct2d.arcsegment
 ms.topic: function
-f1_keywords: ["d2d1helper/ArcSegment"]
+f1_keywords: 
+ - "d2d1helper/ArcSegment"
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

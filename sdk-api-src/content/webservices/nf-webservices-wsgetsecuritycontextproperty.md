@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsGetSecurityContextProperty, WsGetSecurityContextProperty function [Web Services for Windows], webservices/WsGetSecurityContextProperty, wsw.wsgetsecuritycontextproperty
 ms.topic: function
-f1_keywords: ["webservices/WsGetSecurityContextProperty"]
+f1_keywords: 
+ - "webservices/WsGetSecurityContextProperty"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

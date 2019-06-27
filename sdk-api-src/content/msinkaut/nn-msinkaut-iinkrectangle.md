@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkRectangle, IInkRectangle interface [Tablet PC], IInkRectangle interface [Tablet PC],described, msinkaut/IInkRectangle, tablet.iinkrectangle
 ms.topic: interface
-f1_keywords: ["msinkaut/IInkRectangle"]
+f1_keywords: 
+ - "msinkaut/IInkRectangle"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

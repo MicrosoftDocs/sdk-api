@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_FLIPVPORTDATA, DD_FLIPVPORTDATA, DD_FLIPVPORTDATA structure [Display Devices], ddrawint/DD_FLIPVPORTDATA, ddstrcts_9af598a7-a7fc-40f2-a1dd-355964f60da9.xml, display.dd_flipvportdata"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_FLIPVPORTDATA"]
+f1_keywords: 
+ - "ddrawint/DD_FLIPVPORTDATA"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

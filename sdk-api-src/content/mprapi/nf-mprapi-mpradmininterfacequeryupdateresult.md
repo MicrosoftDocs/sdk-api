@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceQueryUpdateResult, MprAdminInterfaceQueryUpdateResult function [RAS], _mpr_mpradmininterfacequeryupdateresult, mprapi/MprAdminInterfaceQueryUpdateResult, rras.mpradmininterfacequeryupdateresult
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminInterfaceQueryUpdateResult"]
+f1_keywords: 
+ - "mprapi/MprAdminInterfaceQueryUpdateResult"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

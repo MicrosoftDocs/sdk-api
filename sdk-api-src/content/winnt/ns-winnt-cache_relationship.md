@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCACHE_RELATIONSHIP, CACHE_RELATIONSHIP, CACHE_RELATIONSHIP structure, PCACHE_RELATIONSHIP, PCACHE_RELATIONSHIP structure pointer, _CACHE_RELATIONSHIP, base.cache_relationship, winnt/CACHE_RELATIONSHIP, winnt/PCACHE_RELATIONSHIP"
 ms.topic: struct
-f1_keywords: ["winnt/CACHE_RELATIONSHIP"]
+f1_keywords: 
+ - "winnt/CACHE_RELATIONSHIP"
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtSetComTimeout, RpcMgmtSetComTimeout function [RPC], _rpc_rpcmgmtsetcomtimeout, rpc.rpcmgmtsetcomtimeout, rpcdce/RpcMgmtSetComTimeout
 ms.topic: function
-f1_keywords: ["rpcdce/RpcMgmtSetComTimeout"]
+f1_keywords: 
+ - "rpcdce/RpcMgmtSetComTimeout"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PVDS_VOLUME_PROP, PVDS_VOLUME_PROP, PVDS_VOLUME_PROP structure pointer [VDS], VDS_VOLUME_PROP, VDS_VOLUME_PROP structure [VDS], base.vds_volume_prop, vds/PVDS_VOLUME_PROP, vds/_VDS_VOLUME_PROP"
 ms.topic: struct
-f1_keywords: ["vds/VDS_VOLUME_PROP"]
+f1_keywords: 
+ - "vds/VDS_VOLUME_PROP"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

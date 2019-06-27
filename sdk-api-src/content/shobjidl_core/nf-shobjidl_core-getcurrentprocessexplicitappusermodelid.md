@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentProcessExplicitAppUserModelID, GetCurrentProcessExplicitAppUserModelID function [Windows Shell], _shell_GetCurrentProcessExplicitAppUserModelID, _shell_GetCurrentProcessExplicitAppUserModelID_cpp, shell.GetCurrentProcessExplicitAppUserModelID, shobjidl_core/GetCurrentProcessExplicitAppUserModelID
 ms.topic: function
-f1_keywords: ["shobjidl_core/GetCurrentProcessExplicitAppUserModelID"]
+f1_keywords: 
+ - "shobjidl_core/GetCurrentProcessExplicitAppUserModelID"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

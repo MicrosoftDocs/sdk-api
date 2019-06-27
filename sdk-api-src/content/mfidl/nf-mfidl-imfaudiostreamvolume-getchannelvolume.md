@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 5cfcc3a8-2911-45a3-8322-bf4e3b023dd2, GetChannelVolume, GetChannelVolume method [Media Foundation], GetChannelVolume method [Media Foundation],IMFAudioStreamVolume interface, IMFAudioStreamVolume interface [Media Foundation],GetChannelVolume method, IMFAudioStreamVolume.GetChannelVolume, IMFAudioStreamVolume::GetChannelVolume, mf.imfaudiostreamvolume_getchannelvolume, mfidl/IMFAudioStreamVolume::GetChannelVolume
 ms.topic: method
-f1_keywords: ["mfidl/IMFAudioStreamVolume.GetChannelVolume"]
+f1_keywords: 
+ - "mfidl/IMFAudioStreamVolume.GetChannelVolume"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

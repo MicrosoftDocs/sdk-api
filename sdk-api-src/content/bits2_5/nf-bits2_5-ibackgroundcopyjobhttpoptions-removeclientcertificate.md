@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJobHttpOptions interface [BITS],RemoveClientCertificate method, IBackgroundCopyJobHttpOptions.RemoveClientCertificate, IBackgroundCopyJobHttpOptions::RemoveClientCertificate, RemoveClientCertificate, RemoveClientCertificate method [BITS], RemoveClientCertificate method [BITS],IBackgroundCopyJobHttpOptions interface, bits.ibackgroundcopyjobhttpoptions_removeclientcertificate, bits2_5/IBackgroundCopyJobHttpOptions::RemoveClientCertificate
 ms.topic: method
-f1_keywords: ["bits2_5/IBackgroundCopyJobHttpOptions.RemoveClientCertificate"]
+f1_keywords: 
+ - "bits2_5/IBackgroundCopyJobHttpOptions.RemoveClientCertificate"
 req.header: bits2_5.h
 req.include-header: Bits.h
 req.target-type: Windows

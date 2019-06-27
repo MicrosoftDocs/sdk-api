@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBrowserIndex, GetBrowserIndex method [Windows Shell], GetBrowserIndex method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetBrowserIndex method, IBrowserService.GetBrowserIndex, IBrowserService::GetBrowserIndex, shdeprecated/IBrowserService::GetBrowserIndex, shell.IBrowserService_GetBrowserIndex, zone_IBrowserService_GetBrowserIndex
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService.GetBrowserIndex"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService.GetBrowserIndex"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

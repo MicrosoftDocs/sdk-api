@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMF2DBuffer2 interface [Media Foundation],Lock2DSize method, IMF2DBuffer2.Lock2DSize, IMF2DBuffer2::Lock2DSize, Lock2DSize, Lock2DSize method [Media Foundation], Lock2DSize method [Media Foundation],IMF2DBuffer2 interface, mf.imf2dbuffer2_lock2dsize, mfobjects/IMF2DBuffer2::Lock2DSize
 ms.topic: method
-f1_keywords: ["mfobjects/IMF2DBuffer2.Lock2DSize"]
+f1_keywords: 
+ - "mfobjects/IMF2DBuffer2.Lock2DSize"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

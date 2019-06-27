@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetReconstructedVideoFrameSize, GetReconstructedVideoFrameSize method [Media Foundation], GetReconstructedVideoFrameSize method [Media Foundation],IWMVideoDecoderReconBuffer interface, IWMVideoDecoderReconBuffer interface [Media Foundation],GetReconstructedVideoFrameSize method, IWMVideoDecoderReconBuffer.GetReconstructedVideoFrameSize, IWMVideoDecoderReconBuffer::GetReconstructedVideoFrameSize, codecapi.iwmvideodecoderreconbuffergetreconstructedvideoframesize, mf.iwmvideodecoderreconbuffergetreconstructedvideoframesize, wmcodecdsp/IWMVideoDecoderReconBuffer::GetReconstructedVideoFrameSize
 ms.topic: method
-f1_keywords: ["wmcodecdsp/IWMVideoDecoderReconBuffer.GetReconstructedVideoFrameSize"]
+f1_keywords: 
+ - "wmcodecdsp/IWMVideoDecoderReconBuffer.GetReconstructedVideoFrameSize"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

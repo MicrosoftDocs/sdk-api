@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method, GetDescription method,IWinMLModel interface, IWinMLModel interface,GetDescription method, IWinMLModel.GetDescription, IWinMLModel::GetDescription, MachineLearning.iwinmlmodel_getdescription, winml/IWinMLModel::GetDescription
 ms.topic: method
-f1_keywords: ["winml/IWinMLModel.GetDescription"]
+f1_keywords: 
+ - "winml/IWinMLModel.GetDescription"
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

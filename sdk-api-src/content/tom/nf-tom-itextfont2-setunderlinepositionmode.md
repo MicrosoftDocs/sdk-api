@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetUnderlinePositionMode method, ITextFont2.SetUnderlinePositionMode, ITextFont2::SetUnderlinePositionMode, SetUnderlinePositionMode, SetUnderlinePositionMode method [Windows Controls], SetUnderlinePositionMode method [Windows Controls],ITextFont2 interface, controls.itextfont2_setunderlinepositionmode, tom/ITextFont2::SetUnderlinePositionMode
 ms.topic: method
-f1_keywords: ["tom/ITextFont2.SetUnderlinePositionMode"]
+f1_keywords: 
+ - "tom/ITextFont2.SetUnderlinePositionMode"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

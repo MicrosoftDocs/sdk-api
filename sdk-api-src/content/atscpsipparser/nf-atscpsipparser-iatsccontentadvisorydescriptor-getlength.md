@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IAtscContentAdvisoryDescriptor interface, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies],GetLength method, IAtscContentAdvisoryDescriptor.GetLength, IAtscContentAdvisoryDescriptor::GetLength, IAtscContentAdvisoryDescriptorGetLength, atscpsipparser/IAtscContentAdvisoryDescriptor::GetLength, mstv.iatsccontentadvisorydescriptor_getlength
 ms.topic: method
-f1_keywords: ["atscpsipparser/IAtscContentAdvisoryDescriptor.GetLength"]
+f1_keywords: 
+ - "atscpsipparser/IAtscContentAdvisoryDescriptor.GetLength"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

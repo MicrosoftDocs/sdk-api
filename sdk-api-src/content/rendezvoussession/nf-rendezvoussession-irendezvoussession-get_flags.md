@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Flags property [Remote Assistance], Flags property [Remote Assistance],IRendezvousSession interface, IRendezvousSession interface [Remote Assistance],Flags property, IRendezvousSession.Flags, IRendezvousSession.get_Flags, IRendezvousSession::Flags, IRendezvousSession::get_Flags, get_Flags, remoteassist.remoteassist_IRendezvousSession_Flags, remoteassist_IRendezvousSession_Flags, rendezvoussession/IRendezvousSession::Flags, rendezvoussession/IRendezvousSession::get_Flags
 ms.topic: method
-f1_keywords: ["rendezvoussession/IRendezvousSession.Flags"]
+f1_keywords: 
+ - "rendezvoussession/IRendezvousSession.Flags"
 req.header: rendezvoussession.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateWindow, CreateWindow function [Windows and Messages], CreateWindowA, CreateWindowW, _win32_CreateWindow, _win32_createwindow_cpp, winmsg.createwindow, winui._win32_createwindow, winuser/CreateWindow, winuser/CreateWindowA, winuser/CreateWindowW
 ms.topic: macro
-f1_keywords: ["winuser/CreateWindow"]
+f1_keywords: 
+ - "winuser/CreateWindow"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

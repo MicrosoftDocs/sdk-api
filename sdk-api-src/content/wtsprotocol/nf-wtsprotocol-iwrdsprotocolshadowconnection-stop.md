@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolShadowConnection interface [Remote Desktop Services],Stop method, IWRdsProtocolShadowConnection.Stop, IWRdsProtocolShadowConnection::Stop, Stop, Stop method [Remote Desktop Services], Stop method [Remote Desktop Services],IWRdsProtocolShadowConnection interface, termserv.iwrdsprotocolshadowconnection_stop, wtsprotocol/IWRdsProtocolShadowConnection::Stop
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWRdsProtocolShadowConnection.Stop"]
+f1_keywords: 
+ - "wtsprotocol/IWRdsProtocolShadowConnection.Stop"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRegisteredSyncProvider, IRegisteredSyncProvider interface [Windows Sync], IRegisteredSyncProvider interface [Windows Sync],described, syncregistration/IRegisteredSyncProvider, winsync.iregisteredsyncprovider
 ms.topic: interface
-f1_keywords: ["syncregistration/IRegisteredSyncProvider"]
+f1_keywords: 
+ - "syncregistration/IRegisteredSyncProvider"
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStyle, GetStyle method [Windows Controls], GetStyle method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetStyle method, ITextPara.GetStyle, ITextPara::GetStyle, _win32_ITextPara_GetStyle, _win32_ITextPara_GetStyle_cpp, controls.ITextPara_GetStyle, controls._win32_ITextPara_GetStyle, tom/ITextPara::GetStyle
 ms.topic: method
-f1_keywords: ["tom/ITextPara.GetStyle"]
+f1_keywords: 
+ - "tom/ITextPara.GetStyle"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

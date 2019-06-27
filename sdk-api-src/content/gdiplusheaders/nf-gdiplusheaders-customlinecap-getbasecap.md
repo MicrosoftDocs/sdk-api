@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CustomLineCap class [GDI+],GetBaseCap method, CustomLineCap.GetBaseCap, CustomLineCap::GetBaseCap, GetBaseCap, GetBaseCap method [GDI+], GetBaseCap method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_GetBaseCap_, gdiplus._gdiplus_CLASS_CustomLineCap_GetBaseCap_
 ms.topic: method
-f1_keywords: ["gdiplusheaders/CustomLineCap.GetBaseCap"]
+f1_keywords: 
+ - "gdiplusheaders/CustomLineCap.GetBaseCap"
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

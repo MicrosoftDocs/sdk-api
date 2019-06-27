@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawVideo, IDirectDrawVideo interface [DirectShow], IDirectDrawVideo interface [DirectShow],described, IDirectDrawVideoInterface, amvideo/IDirectDrawVideo, dshow.idirectdrawvideo
 ms.topic: interface
-f1_keywords: ["amvideo/IDirectDrawVideo"]
+f1_keywords: 
+ - "amvideo/IDirectDrawVideo"
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

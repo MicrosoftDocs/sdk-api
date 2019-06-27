@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMsaAppId, GetMsaAppId method, GetMsaAppId method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetMsaAppId method, IXblIdpAuthTokenResult.GetMsaAppId, IXblIdpAuthTokenResult::GetMsaAppId, xblidp.ixblidpauthtokenresult_getmsaappid, xblidpauthmanager/IXblIdpAuthTokenResult::GetMsaAppId
 ms.topic: method
-f1_keywords: ["xblidpauthmanager/IXblIdpAuthTokenResult.GetMsaAppId"]
+f1_keywords: 
+ - "xblidpauthmanager/IXblIdpAuthTokenResult.GetMsaAppId"
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

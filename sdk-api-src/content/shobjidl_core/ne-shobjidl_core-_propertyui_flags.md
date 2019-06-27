@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROPERTYUI_FLAGS, PROPERTYUI_FLAGS enumeration [Windows Properties], PUIF_DEFAULT, PUIF_NOLABELININFOTIP, PUIF_RIGHTALIGN, _PROPERTYUI_FLAGS, _shell_PROPERTYUI_FLAGS, properties.PROPERTYUI_FLAGS, shell.PROPERTYUI_FLAGS, shobjidl_core/PROPERTYUI_FLAGS, shobjidl_core/PUIF_DEFAULT, shobjidl_core/PUIF_NOLABELININFOTIP, shobjidl_core/PUIF_RIGHTALIGN
 ms.topic: enum
-f1_keywords: ["shobjidl_core/PROPERTYUI_FLAGS"]
+f1_keywords: 
+ - "shobjidl_core/PROPERTYUI_FLAGS"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

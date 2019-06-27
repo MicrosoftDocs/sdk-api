@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPM_FIELD0, FWPM_FIELD0 structure [Filtering], FWPM_FIELD0_, fwp.fwpm_field0_struct, fwpmtypes/FWPM_FIELD0
 ms.topic: struct
-f1_keywords: ["fwpmtypes/FWPM_FIELD0"]
+f1_keywords: 
+ - "fwpmtypes/FWPM_FIELD0"
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

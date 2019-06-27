@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LoadEnclaveData, LoadEnclaveData function, base.loadenclavedata, enclaveapi/LoadEnclaveData
 ms.topic: function
-f1_keywords: ["enclaveapi/LoadEnclaveData"]
+f1_keywords: 
+ - "enclaveapi/LoadEnclaveData"
 req.header: enclaveapi.h
 req.include-header: Winbase.h
 req.target-type: Windows

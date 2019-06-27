@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetFont2 method, ITextRange2.SetFont2, ITextRange2::SetFont2, SetFont2, SetFont2 method [Windows Controls], SetFont2 method [Windows Controls],ITextRange2 interface, controls.itextrange2_setfont2, tom/ITextRange2::SetFont2
 ms.topic: method
-f1_keywords: ["tom/ITextRange2.SetFont2"]
+f1_keywords: 
+ - "tom/ITextRange2.SetFont2"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

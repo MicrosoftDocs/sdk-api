@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGroupGetRecord, PeerGroupGetRecord function [Peer Networking], p2p.peergroupgetrecord, p2p/PeerGroupGetRecord
 ms.topic: function
-f1_keywords: ["p2p/PeerGroupGetRecord"]
+f1_keywords: 
+ - "p2p/PeerGroupGetRecord"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

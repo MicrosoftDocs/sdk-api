@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartnerCallback interface [Windows Media Player],UpdateDeviceComplete method, IWMPContentPartnerCallback.UpdateDeviceComplete, IWMPContentPartnerCallback::UpdateDeviceComplete, IWMPContentPartnerCallbackUpdateDeviceComplete, UpdateDeviceComplete, UpdateDeviceComplete method [Windows Media Player], UpdateDeviceComplete method [Windows Media Player],IWMPContentPartnerCallback interface, contentpartner/IWMPContentPartnerCallback::UpdateDeviceComplete, wmp.iwmpcontentpartnercallback_updatedevicecomplete
 ms.topic: method
-f1_keywords: ["contentpartner/IWMPContentPartnerCallback.UpdateDeviceComplete"]
+f1_keywords: 
+ - "contentpartner/IWMPContentPartnerCallback.UpdateDeviceComplete"
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExecMethod, ExecMethod method [Windows Management Instrumentation], ExecMethod method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],ExecMethod method, Provider.ExecMethod, Provider::ExecMethod, _hmm_provider_execmethod, provider/Provider::ExecMethod, wmi.provider_execmethod
 ms.topic: method
-f1_keywords: ["provider/Provider.ExecMethod"]
+f1_keywords: 
+ - "provider/Provider.ExecMethod"
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows

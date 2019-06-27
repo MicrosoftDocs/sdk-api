@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectInteriorInputConnector, IMILBitmapEffectInteriorInputConnector interface [WPF Bitmap Effects], IMILBitmapEffectInteriorInputConnector interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectinteriorinputconnector, mileffects/IMILBitmapEffectInteriorInputConnector, wibe._wibe_imilbitmapeffectinteriorinputconnector
 ms.topic: interface
-f1_keywords: ["mileffects/IMILBitmapEffectInteriorInputConnector"]
+f1_keywords: 
+ - "mileffects/IMILBitmapEffectInteriorInputConnector"
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

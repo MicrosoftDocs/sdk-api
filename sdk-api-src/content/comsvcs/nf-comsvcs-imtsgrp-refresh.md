@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMtsGrp interface [COM+],Refresh method, IMtsGrp.Refresh, IMtsGrp::Refresh, Refresh, Refresh method [COM+], Refresh method [COM+],IMtsGrp interface, _dtc_IMtsGrp_Refresh, comsvcs/IMtsGrp::Refresh, cos.imtsgrp_refresh
 ms.topic: method
-f1_keywords: ["comsvcs/IMtsGrp.Refresh"]
+f1_keywords: 
+ - "comsvcs/IMtsGrp.Refresh"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

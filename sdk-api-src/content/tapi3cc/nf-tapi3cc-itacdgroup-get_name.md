@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITACDGroup interface [TAPI 2.2],get_Name method, ITACDGroup.get_Name, ITACDGroup::get_Name, _tapi3_itacdgroup_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITACDGroup interface, tapi3.itacdgroup_get_name, tapi3cc/ITACDGroup::get_Name
 ms.topic: method
-f1_keywords: ["tapi3cc/ITACDGroup.get_Name"]
+f1_keywords: 
+ - "tapi3cc/ITACDGroup.get_Name"
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

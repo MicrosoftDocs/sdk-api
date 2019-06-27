@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBreakOnID, GetBreakOnID method, GetBreakOnID method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetBreakOnID method, ID3D12InfoQueue.GetBreakOnID, ID3D12InfoQueue::GetBreakOnID, d3d12sdklayers/ID3D12InfoQueue::GetBreakOnID, direct3d12.id3d12infoqueue_getbreakonid
 ms.topic: method
-f1_keywords: ["d3d12sdklayers/ID3D12InfoQueue.GetBreakOnID"]
+f1_keywords: 
+ - "d3d12sdklayers/ID3D12InfoQueue.GetBreakOnID"
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

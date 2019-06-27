@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynth interface [Audio Devices],SetSynthSink method, IDirectMusicSynth.SetSynthSink, IDirectMusicSynth::SetSynthSink, SetSynthSink, SetSynthSink method [Audio Devices], SetSynthSink method [Audio Devices],IDirectMusicSynth interface, audio.idirectmusicsynth_setsynthsink, audmp-routines_4a1e1c4d-af5d-4141-8740-308cf711184e.xml, dmusics/IDirectMusicSynth::SetSynthSink
 ms.topic: method
-f1_keywords: ["dmusics/IDirectMusicSynth.SetSynthSink"]
+f1_keywords: 
+ - "dmusics/IDirectMusicSynth.SetSynthSink"
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop

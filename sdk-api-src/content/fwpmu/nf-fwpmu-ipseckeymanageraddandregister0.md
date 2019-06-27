@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPsecKeyManagerAddAndRegister0, IPsecKeyManagerAddAndRegister0 function [Filtering], fwp.ipseckeymanageraddandregister0, fwpmu/IPsecKeyManagerAddAndRegister0
 ms.topic: function
-f1_keywords: ["fwpmu/IPsecKeyManagerAddAndRegister0"]
+f1_keywords: 
+ - "fwpmu/IPsecKeyManagerAddAndRegister0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITravelEntry interface [Windows Shell],Invoke method, ITravelEntry.Invoke, ITravelEntry::Invoke, Invoke, Invoke method [Windows Shell], Invoke method [Windows Shell],ITravelEntry interface, shdeprecated/ITravelEntry::Invoke, shell.ITravelEntry_Invoke, zone_ITravelEntry_Invoke
 ms.topic: method
-f1_keywords: ["shdeprecated/ITravelEntry.Invoke"]
+f1_keywords: 
+ - "shdeprecated/ITravelEntry.Invoke"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

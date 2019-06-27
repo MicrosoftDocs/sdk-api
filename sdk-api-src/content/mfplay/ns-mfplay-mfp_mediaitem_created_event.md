@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFP_MEDIAITEM_CREATED_EVENT, MFP_MEDIAITEM_CREATED_EVENT structure [Media Foundation], mf.mfp_mediaitem_created_event, mfplay/MFP_MEDIAITEM_CREATED_EVENT
 ms.topic: struct
-f1_keywords: ["mfplay/MFP_MEDIAITEM_CREATED_EVENT"]
+f1_keywords: 
+ - "mfplay/MFP_MEDIAITEM_CREATED_EVENT"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

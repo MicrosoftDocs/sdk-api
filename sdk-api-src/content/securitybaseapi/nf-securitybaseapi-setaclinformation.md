@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetAclInformation, SetAclInformation function [Security], _win32_setaclinformation, security.setaclinformation, securitybaseapi/SetAclInformation
 ms.topic: function
-f1_keywords: ["securitybaseapi/SetAclInformation"]
+f1_keywords: 
+ - "securitybaseapi/SetAclInformation"
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

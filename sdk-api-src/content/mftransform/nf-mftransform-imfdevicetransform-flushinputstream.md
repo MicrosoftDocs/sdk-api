@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FlushInputStream, FlushInputStream method [Streaming Media Devices], FlushInputStream method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],FlushInputStream method, IMFDeviceTransform.FlushInputStream, IMFDeviceTransform::FlushInputStream, mftransform/IMFDeviceTransform::FlushInputStream, stream.imfdevicetransform_flushinputstream
 ms.topic: method
-f1_keywords: ["mftransform/IMFDeviceTransform.FlushInputStream"]
+f1_keywords: 
+ - "mftransform/IMFDeviceTransform.FlushInputStream"
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

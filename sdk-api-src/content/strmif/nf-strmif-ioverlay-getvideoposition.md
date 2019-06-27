@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVideoPosition, GetVideoPosition method [DirectShow], GetVideoPosition method [DirectShow],IOverlay interface, IOverlay interface [DirectShow],GetVideoPosition method, IOverlay.GetVideoPosition, IOverlay::GetVideoPosition, IOverlayGetVideoPosition, dshow.ioverlay_getvideoposition, strmif/IOverlay::GetVideoPosition
 ms.topic: method
-f1_keywords: ["strmif/IOverlay.GetVideoPosition"]
+f1_keywords: 
+ - "strmif/IOverlay.GetVideoPosition"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_INITIATE_REPAIR, FSCTL_INITIATE_REPAIR control, FSCTL_INITIATE_REPAIR control code [Files], fs.fsctl_initiate_repair, winioctl/FSCTL_INITIATE_REPAIR
 ms.topic: ioctl
-f1_keywords: ["winioctl/FSCTL_INITIATE_REPAIR"]
+f1_keywords: 
+ - "winioctl/FSCTL_INITIATE_REPAIR"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

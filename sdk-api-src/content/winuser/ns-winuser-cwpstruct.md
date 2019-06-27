@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCWPSTRUCT, *NPCWPSTRUCT, *PCWPSTRUCT, CWPSTRUCT, CWPSTRUCT structure [Windows and Messages], LPCWPSTRUCT, LPCWPSTRUCT structure pointer [Windows and Messages], PCWPSTRUCT, PCWPSTRUCT structure pointer [Windows and Messages], _win32_CWPSTRUCT_str, _win32_cwpstruct_str_cpp, winmsg.cwpstruct, winui._win32_cwpstruct_str, winuser/CWPSTRUCT, winuser/LPCWPSTRUCT, winuser/PCWPSTRUCT"
 ms.topic: struct
-f1_keywords: ["winuser/CWPSTRUCT"]
+f1_keywords: 
+ - "winuser/CWPSTRUCT"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

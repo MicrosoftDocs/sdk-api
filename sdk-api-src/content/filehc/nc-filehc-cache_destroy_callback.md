@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CACHE_DESTROY_CALLBACK, CACHE_DESTROY_CALLBACK callback, CACHE_DESTROY_CALLBACK callback function [Windows API], filehc/CACHE_DESTROY_CALLBACK, winprog.cache_destroy_callback
 ms.topic: callback
-f1_keywords: ["filehc/CACHE_DESTROY_CALLBACK"]
+f1_keywords: 
+ - "filehc/CACHE_DESTROY_CALLBACK"
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

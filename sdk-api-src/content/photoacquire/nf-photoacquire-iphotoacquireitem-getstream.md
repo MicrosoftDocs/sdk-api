@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [Picture Acquisition], GetStream method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],GetStream method, IPhotoAcquireItem.GetStream, IPhotoAcquireItem::GetStream, IPhotoAcquireItemGetStream, photoacquire/IPhotoAcquireItem::GetStream, picacq.iphotoacquireitem_getstream
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoAcquireItem.GetStream"]
+f1_keywords: 
+ - "photoacquire/IPhotoAcquireItem.GetStream"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

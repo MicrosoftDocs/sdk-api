@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_IrisRelative method, ICameraControl.getRange_IrisRelative, ICameraControl::getRange_IrisRelative, ICameraControlgetRange_IrisRelative, dshow.icameracontrol_getrange_irisrelative, getRange_IrisRelative, getRange_IrisRelative method [DirectShow], getRange_IrisRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_IrisRelative
 ms.topic: method
-f1_keywords: ["vidcap/ICameraControl.getRange_IrisRelative"]
+f1_keywords: 
+ - "vidcap/ICameraControl.getRange_IrisRelative"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

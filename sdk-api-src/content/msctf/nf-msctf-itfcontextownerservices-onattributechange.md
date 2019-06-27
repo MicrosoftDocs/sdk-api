@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfContextOwnerServices interface [Text Services Framework],OnAttributeChange method, ITfContextOwnerServices.OnAttributeChange, ITfContextOwnerServices::OnAttributeChange, OnAttributeChange, OnAttributeChange method [Text Services Framework], OnAttributeChange method [Text Services Framework],ITfContextOwnerServices interface, _tsf_itfcontextownerservices_onattributechange_ref, msctf/ITfContextOwnerServices::OnAttributeChange, tsf.itfcontextownerservices_onattributechange
 ms.topic: method
-f1_keywords: ["msctf/ITfContextOwnerServices.OnAttributeChange"]
+f1_keywords: 
+ - "msctf/ITfContextOwnerServices.OnAttributeChange"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

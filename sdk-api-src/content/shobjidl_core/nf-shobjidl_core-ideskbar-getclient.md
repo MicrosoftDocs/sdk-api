@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClient, GetClient method [Windows Shell], GetClient method [Windows Shell],IDeskBar interface, IDeskBar interface [Windows Shell],GetClient method, IDeskBar.GetClient, IDeskBar::GetClient, _win32_IDeskBar_GetClient, shell.IDeskBar_GetClient, shobjidl_core/IDeskBar::GetClient
 ms.topic: method
-f1_keywords: ["shobjidl_core/IDeskBar.GetClient"]
+f1_keywords: 
+ - "shobjidl_core/IDeskBar.GetClient"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

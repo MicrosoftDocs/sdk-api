@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorXYZToSRGB, XMColorXYZToSRGB, XMColorXYZToSRGB method [DirectX Math Support APIs], dxmath.xmcolorxyztosrgb
 ms.topic: function
-f1_keywords: ["directxmath/XMColorXYZToSRGB"]
+f1_keywords: 
+ - "directxmath/XMColorXYZToSRGB"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

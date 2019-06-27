@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExportPublicKey, ExportPublicKey method [Security], ExportPublicKey method [Security],IX509EndorsementKey interface, IX509EndorsementKey interface [Security],ExportPublicKey method, IX509EndorsementKey.ExportPublicKey, IX509EndorsementKey::ExportPublicKey, certenroll/IX509EndorsementKey::ExportPublicKey, security.ix509endorsementkey_exportpublickey
 ms.topic: method
-f1_keywords: ["certenroll/IX509EndorsementKey.ExportPublicKey"]
+f1_keywords: 
+ - "certenroll/IX509EndorsementKey.ExportPublicKey"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

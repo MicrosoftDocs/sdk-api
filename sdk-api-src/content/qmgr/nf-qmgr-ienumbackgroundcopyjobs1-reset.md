@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumBackgroundCopyJobs1 interface [BITS],Reset method, IEnumBackgroundCopyJobs1.Reset, IEnumBackgroundCopyJobs1::Reset, Reset, Reset method [BITS], Reset method [BITS],IEnumBackgroundCopyJobs1 interface, bits.ienumbackgroundcopyjobs1_reset, qmgr/IEnumBackgroundCopyJobs1::Reset
 ms.topic: method
-f1_keywords: ["qmgr/IEnumBackgroundCopyJobs1.Reset"]
+f1_keywords: 
+ - "qmgr/IEnumBackgroundCopyJobs1.Reset"
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

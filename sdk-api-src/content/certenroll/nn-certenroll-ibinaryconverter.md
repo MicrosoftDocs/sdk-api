@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBinaryConverter, IBinaryConverter interface [Security], IBinaryConverter interface [Security],described, certenroll/IBinaryConverter, security.ibinaryconverter
 ms.topic: interface
-f1_keywords: ["certenroll/IBinaryConverter"]
+f1_keywords: 
+ - "certenroll/IBinaryConverter"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

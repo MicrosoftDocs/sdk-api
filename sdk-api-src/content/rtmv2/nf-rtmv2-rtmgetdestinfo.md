@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtmGetDestInfo, RtmGetDestInfo function [RAS], _rtmv2ref_rtmgetdestinfo, rras.rtmgetdestinfo, rtmv2/RtmGetDestInfo
 ms.topic: function
-f1_keywords: ["rtmv2/RtmGetDestInfo"]
+f1_keywords: 
+ - "rtmv2/RtmGetDestInfo"
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

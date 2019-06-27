@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInverseScale, GetInverseScale method [Direct3D 11], GetInverseScale method [Direct3D 11],ID3DX11FFT interface, ID3DX11FFT interface [Direct3D 11],GetInverseScale method, ID3DX11FFT.GetInverseScale, ID3DX11FFT::GetInverseScale, a23a27f6-fe6a-bb3f-cfa4-e42a5f44baf7, d3dcsx/ID3DX11FFT::GetInverseScale, direct3d11.id3dx11fft_getinversescale
 ms.topic: method
-f1_keywords: ["d3dcsx/ID3DX11FFT.GetInverseScale"]
+f1_keywords: 
+ - "d3dcsx/ID3DX11FFT.GetInverseScale"
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

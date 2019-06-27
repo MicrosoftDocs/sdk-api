@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPropertySystem interface [Windows Properties],RefreshPropertySchema method, IPropertySystem.RefreshPropertySchema, IPropertySystem::RefreshPropertySchema, RefreshPropertySchema, RefreshPropertySchema method [Windows Properties], RefreshPropertySchema method [Windows Properties],IPropertySystem interface, properties.IPropertySystem_RefreshPropertySchema, propsys/IPropertySystem::RefreshPropertySchema, shell.IPropertySystem_RefreshPropertySchema, shell_IPropertySystem_RefreshPropertySchema
 ms.topic: method
-f1_keywords: ["propsys/IPropertySystem.RefreshPropertySchema"]
+f1_keywords: 
+ - "propsys/IPropertySystem.RefreshPropertySchema"
 req.header: propsys.h
 req.include-header: Propsys.h
 req.target-type: Windows

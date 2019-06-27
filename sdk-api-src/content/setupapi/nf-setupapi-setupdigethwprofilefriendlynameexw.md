@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetHwProfileFriendlyNameEx, SetupDiGetHwProfileFriendlyNameEx function [Device and Driver Installation], SetupDiGetHwProfileFriendlyNameExA, SetupDiGetHwProfileFriendlyNameExW, devinst.setupdigethwprofilefriendlynameex, di-rtns_43d54c1e-047c-491c-93a1-cd5eff918a58.xml, setupapi/SetupDiGetHwProfileFriendlyNameEx
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiGetHwProfileFriendlyNameEx"]
+f1_keywords: 
+ - "setupapi/SetupDiGetHwProfileFriendlyNameEx"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

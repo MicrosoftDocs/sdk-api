@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleConvertOLESTREAMToIStorageEx, OleConvertOLESTREAMToIStorageEx function [Structured Storage], _stg_oleconvertolestreamtoistorageex, ole2/OleConvertOLESTREAMToIStorageEx, stg.oleconvertolestreamtoistorageex
 ms.topic: function
-f1_keywords: ["ole2/OleConvertOLESTREAMToIStorageEx"]
+f1_keywords: 
+ - "ole2/OleConvertOLESTREAMToIStorageEx"
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [Security], GetFlags method [Security],IEnumCERTVIEWEXTENSION interface, IEnumCERTVIEWEXTENSION interface [Security],GetFlags method, IEnumCERTVIEWEXTENSION.GetFlags, IEnumCERTVIEWEXTENSION::GetFlags, _certsrv_ienumcertviewextension_getflags, certview/IEnumCERTVIEWEXTENSION::GetFlags, security.ienumcertviewextension_getflags
 ms.topic: method
-f1_keywords: ["certview/IEnumCERTVIEWEXTENSION.GetFlags"]
+f1_keywords: 
+ - "certview/IEnumCERTVIEWEXTENSION.GetFlags"
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

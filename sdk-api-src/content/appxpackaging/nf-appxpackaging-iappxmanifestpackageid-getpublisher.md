@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPublisher, GetPublisher method [App packaging and management], GetPublisher method [App packaging and management],IAppxManifestPackageId interface, IAppxManifestPackageId interface [App packaging and management],GetPublisher method, IAppxManifestPackageId.GetPublisher, IAppxManifestPackageId::GetPublisher, appxpackaging/IAppxManifestPackageId::GetPublisher, appxpkg.iappxmanifestpackageid_getpublisher
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxManifestPackageId.GetPublisher"]
+f1_keywords: 
+ - "appxpackaging/IAppxManifestPackageId.GetPublisher"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

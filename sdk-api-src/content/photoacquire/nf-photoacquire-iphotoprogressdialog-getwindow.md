@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWindow, GetWindow method [Picture Acquisition], GetWindow method [Picture Acquisition],IPhotoProgressDialog interface, IPhotoProgressDialog interface [Picture Acquisition],GetWindow method, IPhotoProgressDialog.GetWindow, IPhotoProgressDialog::GetWindow, IPhotoProgressDialogGetWindow, photoacquire/IPhotoProgressDialog::GetWindow, picacq.iphotoprogressdialog_getwindow
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoProgressDialog.GetWindow"]
+f1_keywords: 
+ - "photoacquire/IPhotoProgressDialog.GetWindow"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

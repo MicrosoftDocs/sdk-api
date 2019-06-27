@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISBE2EnumStream, ISBE2EnumStream interface [Microsoft TV Technologies], ISBE2EnumStream interface [Microsoft TV Technologies],described, mstv.isbe2enumstream, sbe/ISBE2EnumStream
 ms.topic: interface
-f1_keywords: ["sbe/ISBE2EnumStream"]
+f1_keywords: 
+ - "sbe/ISBE2EnumStream"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

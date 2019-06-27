@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_Gain method, IVideoProcAmp.getRange_Gain, IVideoProcAmp::getRange_Gain, IVideoProcAmpgetRange_Gain, dshow.ivideoprocamp_getrange_gain, getRange_Gain, getRange_Gain method [DirectShow], getRange_Gain method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_Gain
 ms.topic: method
-f1_keywords: ["vidcap/IVideoProcAmp.getRange_Gain"]
+f1_keywords: 
+ - "vidcap/IVideoProcAmp.getRange_Gain"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

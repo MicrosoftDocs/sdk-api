@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FsrmFileManagementJobManager class [File Server Resource Manager],GetFileManagementJob method, GetFileManagementJob, GetFileManagementJob method [File Server Resource Manager], GetFileManagementJob method [File Server Resource Manager],FsrmFileManagementJobManager class, GetFileManagementJob method [File Server Resource Manager],IFsrmFileManagementJobManager interface, IFsrmFileManagementJobManager interface [File Server Resource Manager],GetFileManagementJob method, IFsrmFileManagementJobManager.GetFileManagementJob, IFsrmFileManagementJobManager::GetFileManagementJob, fs.ifsrmfilemanagementjobmanager_getfilemanagementjob, fsrm.ifsrmfilemanagementjobmanager_getfilemanagementjob, fsrmreports/IFsrmFileManagementJobManager::GetFileManagementJob
 ms.topic: method
-f1_keywords: ["fsrmreports/IFsrmFileManagementJobManager.GetFileManagementJob"]
+f1_keywords: 
+ - "fsrmreports/IFsrmFileManagementJobManager.GetFileManagementJob"
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

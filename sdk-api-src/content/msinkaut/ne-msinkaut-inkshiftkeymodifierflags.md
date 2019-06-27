@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 03c2e5d4-fcba-4b6c-9982-54b451ef129d, IKM_Alt, IKM_Control, IKM_Shift, InkShiftKeyModifierFlags, InkShiftKeyModifierFlags enumeration [Tablet PC], msinkaut/IKM_Alt, msinkaut/IKM_Control, msinkaut/IKM_Shift, msinkaut/InkShiftKeyModifierFlags, tablet.inkshiftkeymodifierflags
 ms.topic: enum
-f1_keywords: ["msinkaut/InkShiftKeyModifierFlags"]
+f1_keywords: 
+ - "msinkaut/InkShiftKeyModifierFlags"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateUInt8Array, CreateUInt8Array method [Windows Runtime], CreateUInt8Array method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateUInt8Array method, IPropertyValueStatics.CreateUInt8Array, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateUInt8Array, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateUInt8Array, winrt.ipropertyvaluefactory_createuint8array, winrt.ipropertyvaluestatics_createuint8array
 ms.topic: method
-f1_keywords: ["windows.foundation/IPropertyValueStatics.CreateUInt8Array"]
+f1_keywords: 
+ - "windows.foundation/IPropertyValueStatics.CreateUInt8Array"
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

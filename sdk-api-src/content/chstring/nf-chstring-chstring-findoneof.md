@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],FindOneOf method, CHString.FindOneOf, CHString::FindOneOf, FindOneOf, FindOneOf method [Windows Management Instrumentation], FindOneOf method [Windows Management Instrumentation],CHString interface, _hmm_chstring_findoneof, chstring/CHString::FindOneOf, wmi.chstring_findoneof
 ms.topic: method
-f1_keywords: ["chstring/CHString.FindOneOf"]
+f1_keywords: 
+ - "chstring/CHString.FindOneOf"
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

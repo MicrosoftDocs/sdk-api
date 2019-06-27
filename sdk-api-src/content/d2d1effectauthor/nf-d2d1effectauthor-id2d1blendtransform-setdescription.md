@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1BlendTransform interface [Direct2D],SetDescription method, ID2D1BlendTransform.SetDescription, ID2D1BlendTransform::SetDescription, SetDescription, SetDescription method [Direct2D], SetDescription method [Direct2D],ID2D1BlendTransform interface, d2d1effectauthor/ID2D1BlendTransform::SetDescription, direct2d.id2d1blendtransform_setdescription
 ms.topic: method
-f1_keywords: ["d2d1effectauthor/ID2D1BlendTransform.SetDescription"]
+f1_keywords: 
+ - "d2d1effectauthor/ID2D1BlendTransform.SetDescription"
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

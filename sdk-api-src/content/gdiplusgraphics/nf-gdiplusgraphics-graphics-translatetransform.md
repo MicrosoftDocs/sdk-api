@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],TranslateTransform method, Graphics.TranslateTransform, Graphics::TranslateTransform, TranslateTransform, TranslateTransform method [GDI+], TranslateTransform method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_TranslateTransform_dx_dy_order_, gdiplus._gdiplus_CLASS_Graphics_TranslateTransform_dx_dy_order_
 ms.topic: method
-f1_keywords: ["gdiplusgraphics/Graphics.TranslateTransform"]
+f1_keywords: 
+ - "gdiplusgraphics/Graphics.TranslateTransform"
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

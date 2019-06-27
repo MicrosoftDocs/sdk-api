@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPropertyChangeArray interface [Windows Properties],IsKeyInArray method, IPropertyChangeArray.IsKeyInArray, IPropertyChangeArray::IsKeyInArray, IsKeyInArray, IsKeyInArray method [Windows Properties], IsKeyInArray method [Windows Properties],IPropertyChangeArray interface, _shell_IPropertyChangeArray_IsKeyInArray, properties.IPropertyChangeArray_IsKeyInArray, propsys/IPropertyChangeArray::IsKeyInArray, shell.IPropertyChangeArray_IsKeyInArray
 ms.topic: method
-f1_keywords: ["propsys/IPropertyChangeArray.IsKeyInArray"]
+f1_keywords: 
+ - "propsys/IPropertyChangeArray.IsKeyInArray"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

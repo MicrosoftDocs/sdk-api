@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509SCEPEnrollment, IX509SCEPEnrollment interface [Security], IX509SCEPEnrollment interface [Security],described, certenroll/IX509SCEPEnrollment, security.ix509scepenrollment
 ms.topic: interface
-f1_keywords: ["certenroll/IX509SCEPEnrollment"]
+f1_keywords: 
+ - "certenroll/IX509SCEPEnrollment"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

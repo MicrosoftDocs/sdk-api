@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPlayerParentalLevel, GetPlayerParentalLevel method [DirectShow], GetPlayerParentalLevel method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetPlayerParentalLevel method, IDvdInfo.GetPlayerParentalLevel, IDvdInfo::GetPlayerParentalLevel, IDvdInfoGetPlayerParentalLevel, dshow.idvdinfo_getplayerparentallevel, strmif/IDvdInfo::GetPlayerParentalLevel
 ms.topic: method
-f1_keywords: ["strmif/IDvdInfo.GetPlayerParentalLevel"]
+f1_keywords: 
+ - "strmif/IDvdInfo.GetPlayerParentalLevel"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

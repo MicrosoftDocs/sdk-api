@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetAccountInformation method, IScheduledWorkItem.SetAccountInformation, IScheduledWorkItem::SetAccountInformation, SetAccountInformation, SetAccountInformation method [Task Scheduler], SetAccountInformation method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setaccountinformation, mstask/IScheduledWorkItem::SetAccountInformation, taskschd.ischeduledworkitem_setaccountinformation
 ms.topic: method
-f1_keywords: ["mstask/IScheduledWorkItem.SetAccountInformation"]
+f1_keywords: 
+ - "mstask/IScheduledWorkItem.SetAccountInformation"
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

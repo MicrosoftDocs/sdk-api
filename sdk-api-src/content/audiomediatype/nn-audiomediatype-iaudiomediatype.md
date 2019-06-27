@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioMediaType, IAudioMediaType interface [Audio Devices], IAudioMediaType interface [Audio Devices],described, audio.iaudiomediatype, audio_syseffects_r_8b31a96c-76bb-4090-a0e3-e7e16fb98ddc.xml, audiomediatype/IAudioMediaType
 ms.topic: interface
-f1_keywords: ["audiomediatype/IAudioMediaType"]
+f1_keywords: 
+ - "audiomediatype/IAudioMediaType"
 req.header: audiomediatype.h
 req.include-header: 
 req.target-type: Windows

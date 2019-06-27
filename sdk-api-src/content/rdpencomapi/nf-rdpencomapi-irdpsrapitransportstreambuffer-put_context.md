@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Context property [RDP], Context property [RDP],IRDPSRAPITransportStreamBuffer interface, IRDPSRAPITransportStreamBuffer interface [RDP],Context property, IRDPSRAPITransportStreamBuffer.Context, IRDPSRAPITransportStreamBuffer.put_Context, IRDPSRAPITransportStreamBuffer::Context, IRDPSRAPITransportStreamBuffer::get_Context, IRDPSRAPITransportStreamBuffer::put_Context, put_Context, rdp.irdpsrapitransportstreambuffer_context, rdpencomapi/IRDPSRAPITransportStreamBuffer::Context, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_Context, rdpencomapi/IRDPSRAPITransportStreamBuffer::put_Context
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPITransportStreamBuffer.Context"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPITransportStreamBuffer.Context"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

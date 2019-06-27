@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_ParameterSet_GetMethodReturnType, MI_ParameterSet_GetMethodReturnType function [Windows Management Infrastructure (MI)], mi/MI_ParameterSet_GetMethodReturnType, wmi_v2.mi_parameterset_getmethodreturntype
 ms.topic: function
-f1_keywords: ["mi/MI_ParameterSet_GetMethodReturnType"]
+f1_keywords: 
+ - "mi/MI_ParameterSet_GetMethodReturnType"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

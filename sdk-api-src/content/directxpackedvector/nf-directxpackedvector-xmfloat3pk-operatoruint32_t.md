@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMFLOAT3PK.operator uint32_t, DirectX::PackedVector::XMFLOAT3PK::operator uint32_t, XMFLOAT3PK structure [DirectX Math Support APIs],operator uint32_t method, XMFLOAT3PK.operator uint32_t, XMFLOAT3PK::operator uint32_t, dxmath.xmfloat3pk_operator_uint32_t, operator uint32_t, operator uint32_t method [DirectX Math Support APIs], operator uint32_t method [DirectX Math Support APIs],XMFLOAT3PK structure
 ms.topic: method
-f1_keywords: ["directxpackedvector/XMFLOAT3PK.operator uint32_t"]
+f1_keywords: 
+ - "directxpackedvector/XMFLOAT3PK.operator uint32_t"
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

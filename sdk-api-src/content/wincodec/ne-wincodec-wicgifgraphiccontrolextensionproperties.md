@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICGifGraphicControlExtensionDelay, WICGifGraphicControlExtensionDisposal, WICGifGraphicControlExtensionProperties, WICGifGraphicControlExtensionProperties enumeration [Windows Imaging Component], WICGifGraphicControlExtensionTransparencyFlag, WICGifGraphicControlExtensionTransparentColorIndex, WICGifGraphicControlExtensionUserInputFlag, _wic_codec_wicgifgraphiccontrolextensionproperties, wic._wic_codec_wicgifgraphiccontrolextensionproperties, wincodec/WICGifGraphicControlExtensionDelay, wincodec/WICGifGraphicControlExtensionDisposal, wincodec/WICGifGraphicControlExtensionProperties, wincodec/WICGifGraphicControlExtensionTransparencyFlag, wincodec/WICGifGraphicControlExtensionTransparentColorIndex, wincodec/WICGifGraphicControlExtensionUserInputFlag
 ms.topic: enum
-f1_keywords: ["wincodec/WICGifGraphicControlExtensionProperties"]
+f1_keywords: 
+ - "wincodec/WICGifGraphicControlExtensionProperties"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

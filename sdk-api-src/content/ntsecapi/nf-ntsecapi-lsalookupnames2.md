@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LSA_LOOKUP_ISOLATED_AS_LOCAL, LsaLookupNames2, LsaLookupNames2 function [Security], _lsa_lsalookupnames2, ntsecapi/LsaLookupNames2, security.lsalookupnames2
 ms.topic: function
-f1_keywords: ["ntsecapi/LsaLookupNames2"]
+f1_keywords: 
+ - "ntsecapi/LsaLookupNames2"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

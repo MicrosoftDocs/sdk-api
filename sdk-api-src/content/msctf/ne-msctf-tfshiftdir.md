@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TF_SD_BACKWARD, TF_SD_FORWARD, TfShiftDir, TfShiftDir enumeration [Text Services Framework], _tsf_tfshiftdir_ref, msctf/TF_SD_BACKWARD, msctf/TF_SD_FORWARD, msctf/TfShiftDir, tsf.tfshiftdir
 ms.topic: enum
-f1_keywords: ["msctf/TfShiftDir"]
+f1_keywords: 
+ - "msctf/TfShiftDir"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

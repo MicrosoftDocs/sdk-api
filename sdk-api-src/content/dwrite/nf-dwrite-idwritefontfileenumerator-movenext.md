@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFileEnumerator interface [Direct Write],MoveNext method, IDWriteFontFileEnumerator.MoveNext, IDWriteFontFileEnumerator::MoveNext, MoveNext, MoveNext method [Direct Write], MoveNext method [Direct Write],IDWriteFontFileEnumerator interface, directwrite.IDWriteFontFileEnumerator_MoveNext, dwrite/IDWriteFontFileEnumerator::MoveNext
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteFontFileEnumerator.MoveNext"]
+f1_keywords: 
+ - "dwrite/IDWriteFontFileEnumerator.MoveNext"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

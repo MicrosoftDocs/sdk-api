@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RoRegisterForApartmentShutdown, RoRegisterForApartmentShutdown function [Windows Runtime], roapi/RoRegisterForApartmentShutdown, winrt.roregisterforapartmentshutdown
 ms.topic: function
-f1_keywords: ["roapi/RoRegisterForApartmentShutdown"]
+f1_keywords: 
+ - "roapi/RoRegisterForApartmentShutdown"
 req.header: roapi.h
 req.include-header: 
 req.target-type: Windows

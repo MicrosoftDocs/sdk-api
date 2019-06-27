@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTextAlignment, GetTextAlignment method [Direct Write], GetTextAlignment method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetTextAlignment method, IDWriteTextFormat.GetTextAlignment, IDWriteTextFormat::GetTextAlignment, directwrite.IDWriteTextFormat_GetTextAlignment, dwrite/IDWriteTextFormat::GetTextAlignment
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextFormat.GetTextAlignment"]
+f1_keywords: 
+ - "dwrite/IDWriteTextFormat.GetTextAlignment"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

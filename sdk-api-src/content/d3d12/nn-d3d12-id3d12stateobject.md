@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12StateObject, ID3D12StateObject interface, ID3D12StateObject interface,described, d3d12/ID3D12StateObject, direct3d12.id3d12stateobject
 ms.topic: interface
-f1_keywords: ["d3d12/ID3D12StateObject"]
+f1_keywords: 
+ - "d3d12/ID3D12StateObject"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

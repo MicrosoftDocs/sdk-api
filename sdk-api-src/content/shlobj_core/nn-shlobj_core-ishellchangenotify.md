@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellChangeNotify, IShellChangeNotify interface [Windows Shell], IShellChangeNotify interface [Windows Shell],described, _win32_IShellChangeNotify, shell.IShellChangeNotify, shlobj_core/IShellChangeNotify
 ms.topic: interface
-f1_keywords: ["shlobj_core/IShellChangeNotify"]
+f1_keywords: 
+ - "shlobj_core/IShellChangeNotify"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

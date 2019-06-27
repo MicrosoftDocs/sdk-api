@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpatialAudioHrtfDistanceDecay, SpatialAudioHrtfDistanceDecay union [Core Audio], coreaudio.spatialaudiohrtfdistancedecay, spatialaudiohrtf/SpatialAudioHrtfDistanceDecay
 ms.topic: struct
-f1_keywords: ["spatialaudiohrtf/SpatialAudioHrtfDistanceDecay"]
+f1_keywords: 
+ - "spatialaudiohrtf/SpatialAudioHrtfDistanceDecay"
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows

@@ -4,7 +4,8 @@ title: BIND_OPTS3
 ms.date: 01/30/19
 ms.keywords: tagBIND_OPTS3, BIND_OPTS3
 ms.topic: language-reference
-f1_keywords: ["objidl/tagBIND_OPTS3"]
+f1_keywords: 
+ - "objidl/tagBIND_OPTS3"
 targetos: Windows
 product: Windows
 req.construct-type: structure

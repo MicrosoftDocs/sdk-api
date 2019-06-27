@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SORTCOLUMN, SORTCOLUMN structure [Windows Shell], SORT_ASCENDING, SORT_DESCENDING, _shell_SORTCOLUMN, shell.SORTCOLUMN, shobjidl_core/SORTCOLUMN
 ms.topic: struct
-f1_keywords: ["shobjidl_core/SORTCOLUMN"]
+f1_keywords: 
+ - "shobjidl_core/SORTCOLUMN"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

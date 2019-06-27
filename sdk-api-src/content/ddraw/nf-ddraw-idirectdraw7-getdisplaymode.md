@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDisplayMode, GetDisplayMode method [DirectDraw], GetDisplayMode method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetDisplayMode method, IDirectDraw7.GetDisplayMode, IDirectDraw7::GetDisplayMode, ddraw/IDirectDraw7::GetDisplayMode, directdraw.idirectdraw7_getdisplaymode
 ms.topic: method
-f1_keywords: ["ddraw/IDirectDraw7.GetDisplayMode"]
+f1_keywords: 
+ - "ddraw/IDirectDraw7.GetDisplayMode"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

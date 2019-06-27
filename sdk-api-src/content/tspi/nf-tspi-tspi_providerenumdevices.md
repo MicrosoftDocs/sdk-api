@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_providerEnumDevices, TSPI_providerEnumDevices function [TAPI 2.2], _tspi_tspi_providerenumdevices, tspi.tspi_providerenumdevices, tspi/TSPI_providerEnumDevices
 ms.topic: function
-f1_keywords: ["tspi/TSPI_providerEnumDevices"]
+f1_keywords: 
+ - "tspi/TSPI_providerEnumDevices"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

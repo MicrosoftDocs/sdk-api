@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],put_Rate method, IMSVidPlayback.put_Rate, IMSVidPlayback::put_Rate, IMSVidPlaybackput_Rate, mstv.imsvidplayback_put_rate, put_Rate, put_Rate method [Microsoft TV Technologies], put_Rate method [Microsoft TV Technologies],IMSVidPlayback interface, segment/IMSVidPlayback::put_Rate
 ms.topic: method
-f1_keywords: ["segment/IMSVidPlayback.put_Rate"]
+f1_keywords: 
+ - "segment/IMSVidPlayback.put_Rate"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

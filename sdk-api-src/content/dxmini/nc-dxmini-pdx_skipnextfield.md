@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DxSkipNextField, DxSkipNextField callback function [Display Devices], PDX_SKIPNEXTFIELD, PDX_SKIPNEXTFIELD callback, VideoMiniPort_DxApiFunctions_417d791c-4050-4c35-aecb-bbf62e8a3e2f.xml, display.dxskipnextfield, dxmini/DxSkipNextField
 ms.topic: callback
-f1_keywords: ["dxmini/DxSkipNextField"]
+f1_keywords: 
+ - "dxmini/DxSkipNextField"
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Desktop

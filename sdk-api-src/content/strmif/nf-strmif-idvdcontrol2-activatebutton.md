@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ActivateButton, ActivateButton method [DirectShow], ActivateButton method [DirectShow],IDvdControl2 interface, IDvdControl2 interface [DirectShow],ActivateButton method, IDvdControl2.ActivateButton, IDvdControl2::ActivateButton, IDvdControl2ActivateButton, dshow.idvdcontrol2_activatebutton, strmif/IDvdControl2::ActivateButton
 ms.topic: method
-f1_keywords: ["strmif/IDvdControl2.ActivateButton"]
+f1_keywords: 
+ - "strmif/IDvdControl2.ActivateButton"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

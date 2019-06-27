@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateIpNetEntry, CreateIpNetEntry function [IP Helper], _iphlp_createipnetentry, iphlp.createipnetentry, iphlpapi/CreateIpNetEntry
 ms.topic: function
-f1_keywords: ["iphlpapi/CreateIpNetEntry"]
+f1_keywords: 
+ - "iphlpapi/CreateIpNetEntry"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

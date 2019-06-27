@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxCloseA, FaxCloseW, PFAXCLOSE, PFAXCLOSE callback, PFAXCLOSE callback function [Fax Service], _mfax_faxclose, fax._mfax_faxclose, winfax/FaxCloseA, winfax/FaxCloseW, winfax/PFAXCLOSE
 ms.topic: callback
-f1_keywords: ["winfax/PFAXCLOSE"]
+f1_keywords: 
+ - "winfax/PFAXCLOSE"
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

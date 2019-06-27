@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WscUnRegisterChanges, WscUnRegisterChanges function [Windows API], winprog.wscunregisterchanges, wscapi/WscUnRegisterChanges
 ms.topic: function
-f1_keywords: ["wscapi/WscUnRegisterChanges"]
+f1_keywords: 
+ - "wscapi/WscUnRegisterChanges"
 req.header: wscapi.h
 req.include-header: 
 req.target-type: Windows

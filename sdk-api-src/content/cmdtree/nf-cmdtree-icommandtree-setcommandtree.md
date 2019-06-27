@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICommandTree interface [Indexing Service],SetCommandTree method, ICommandTree.SetCommandTree, ICommandTree::SetCommandTree, SetCommandTree, SetCommandTree method [Indexing Service], SetCommandTree method [Indexing Service],ICommandTree interface, _idxs_ICommandTree_SetCommandTree, cmdtree/ICommandTree::SetCommandTree, indexsrv.icommandtree_setcommandtree
 ms.topic: method
-f1_keywords: ["cmdtree/ICommandTree.SetCommandTree"]
+f1_keywords: 
+ - "cmdtree/ICommandTree.SetCommandTree"
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

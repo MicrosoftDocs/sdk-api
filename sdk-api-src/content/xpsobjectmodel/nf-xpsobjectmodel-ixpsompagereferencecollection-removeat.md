@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPageReferenceCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMPageReferenceCollection.RemoveAt, IXpsOMPageReferenceCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMPageReferenceCollection interface, xps.ixpsompagereferencecollection_removeat, xpsobjectmodel/IXpsOMPageReferenceCollection::RemoveAt
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMPageReferenceCollection.RemoveAt"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPageReferenceCollection.RemoveAt"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

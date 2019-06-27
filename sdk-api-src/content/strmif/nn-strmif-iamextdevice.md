@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMExtDevice, IAMExtDevice interface [DirectShow], IAMExtDevice interface [DirectShow],described, IAMExtDeviceInterface, dshow.iamextdevice, strmif/IAMExtDevice
 ms.topic: interface
-f1_keywords: ["strmif/IAMExtDevice"]
+f1_keywords: 
+ - "strmif/IAMExtDevice"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTeredoPort, GetTeredoPort function [IP Helper], iphlp.getteredoport, netioapi/GetTeredoPort
 ms.topic: function
-f1_keywords: ["netioapi/GetTeredoPort"]
+f1_keywords: 
+ - "netioapi/GetTeredoPort"
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

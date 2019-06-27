@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthorizeConnection, AuthorizeConnection method [Remote Desktop Services], AuthorizeConnection method [Remote Desktop Services],ITSGPolicyEngine interface, ITSGPolicyEngine interface [Remote Desktop Services],AuthorizeConnection method, ITSGPolicyEngine.AuthorizeConnection, ITSGPolicyEngine::AuthorizeConnection, termserv.itsgpolicyengine_authorizeconnection, tsgpolicyengine/ITSGPolicyEngine::AuthorizeConnection
 ms.topic: method
-f1_keywords: ["tsgpolicyengine/ITSGPolicyEngine.AuthorizeConnection"]
+f1_keywords: 
+ - "tsgpolicyengine/ITSGPolicyEngine.AuthorizeConnection"
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows

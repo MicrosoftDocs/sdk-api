@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IATSC_MGT interface, IATSC_MGT interface [Microsoft TV Technologies],GetCountOfRecords method, IATSC_MGT.GetCountOfRecords, IATSC_MGT::GetCountOfRecords, IATSC_MGTGetCountOfRecords, atscpsipparser/IATSC_MGT::GetCountOfRecords, mstv.iatsc_mgt_getcountofrecords
 ms.topic: method
-f1_keywords: ["atscpsipparser/IATSC_MGT.GetCountOfRecords"]
+f1_keywords: 
+ - "atscpsipparser/IATSC_MGT.GetCountOfRecords"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

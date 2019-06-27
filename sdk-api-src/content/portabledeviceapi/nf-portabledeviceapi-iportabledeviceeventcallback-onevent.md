@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceEventCallback interface [Windows Portable Devices SDK],OnEvent method, IPortableDeviceEventCallback.OnEvent, IPortableDeviceEventCallback::OnEvent, IPortableDeviceEventCallbackOnEvent, OnEvent, OnEvent method [Windows Portable Devices SDK], OnEvent method [Windows Portable Devices SDK],IPortableDeviceEventCallback interface, portabledeviceapi/IPortableDeviceEventCallback::OnEvent, wpdsdk.iportabledeviceeventcallback_onevent
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceEventCallback.OnEvent"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceEventCallback.OnEvent"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

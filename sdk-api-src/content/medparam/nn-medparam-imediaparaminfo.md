@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaParamInfo, IMediaParamInfo interface [DirectShow], IMediaParamInfo interface [DirectShow],described, IMediaParamInfoInterface, dshow.imediaparaminfo, medparam/IMediaParamInfo
 ms.topic: interface
-f1_keywords: ["medparam/IMediaParamInfo"]
+f1_keywords: 
+ - "medparam/IMediaParamInfo"
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows

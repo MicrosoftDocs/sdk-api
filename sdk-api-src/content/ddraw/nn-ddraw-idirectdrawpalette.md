@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawPalette, IDirectDrawPalette interface [DirectDraw], IDirectDrawPalette interface [DirectDraw],described, ddraw/IDirectDrawPalette, directdraw.idirectdrawpalette
 ms.topic: interface
-f1_keywords: ["ddraw/IDirectDrawPalette"]
+f1_keywords: 
+ - "ddraw/IDirectDrawPalette"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

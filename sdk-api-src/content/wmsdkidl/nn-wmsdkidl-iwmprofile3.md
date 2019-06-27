@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMProfile3, IWMProfile3 interface [windows Media Format], IWMProfile3 interface [windows Media Format],described, IWMProfile3Interface, wmformat.iwmprofile3, wmsdkidl/IWMProfile3
 ms.topic: interface
-f1_keywords: ["wmsdkidl/IWMProfile3"]
+f1_keywords: 
+ - "wmsdkidl/IWMProfile3"
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

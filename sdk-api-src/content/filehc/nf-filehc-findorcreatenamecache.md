@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindOrCreateNameCache, FindOrCreateNameCache function [Windows API], filehc/FindOrCreateNameCache, winprog._findorcreatenamecache
 ms.topic: function
-f1_keywords: ["filehc/FindOrCreateNameCache"]
+f1_keywords: 
+ - "filehc/FindOrCreateNameCache"
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

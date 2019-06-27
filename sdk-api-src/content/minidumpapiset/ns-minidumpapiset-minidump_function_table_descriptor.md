@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMINIDUMP_FUNCTION_TABLE_DESCRIPTOR, MINIDUMP_FUNCTION_TABLE_DESCRIPTOR, MINIDUMP_FUNCTION_TABLE_DESCRIPTOR structure, PMINIDUMP_FUNCTION_TABLE_DESCRIPTOR, PMINIDUMP_FUNCTION_TABLE_DESCRIPTOR structure pointer, _MINIDUMP_FUNCTION_TABLE_DESCRIPTOR, _win32_minidump_function_table_descriptor_str, base.minidump_function_table_descriptor_str, minidumpapiset/MINIDUMP_FUNCTION_TABLE_DESCRIPTOR, minidumpapiset/PMINIDUMP_FUNCTION_TABLE_DESCRIPTOR"
 ms.topic: struct
-f1_keywords: ["minidumpapiset/MINIDUMP_FUNCTION_TABLE_DESCRIPTOR"]
+f1_keywords: 
+ - "minidumpapiset/MINIDUMP_FUNCTION_TABLE_DESCRIPTOR"
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

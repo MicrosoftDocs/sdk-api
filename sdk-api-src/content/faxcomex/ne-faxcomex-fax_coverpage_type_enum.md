@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FAX_COVERPAGE_TYPE_ENUM, FAX_COVERPAGE_TYPE_ENUM enumeration [Fax Service], _mfax_fax_coverpage_type_enum, fax._mfax_fax_coverpage_type_enum, faxcomex/FAX_COVERPAGE_TYPE_ENUM, faxcomex/fcptLOCAL, faxcomex/fcptNONE, faxcomex/fcptSERVER, fcptLOCAL, fcptNONE, fcptSERVER
 ms.topic: enum
-f1_keywords: ["faxcomex/FAX_COVERPAGE_TYPE_ENUM"]
+f1_keywords: 
+ - "faxcomex/FAX_COVERPAGE_TYPE_ENUM"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

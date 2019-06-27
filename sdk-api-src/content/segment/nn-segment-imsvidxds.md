@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidXDS, IMSVidXDS interface [Microsoft TV Technologies], IMSVidXDS interface [Microsoft TV Technologies],described, IMSVidXDSInterface, mstv.imsvidxds, segment/IMSVidXDS
 ms.topic: interface
-f1_keywords: ["segment/IMSVidXDS"]
+f1_keywords: 
+ - "segment/IMSVidXDS"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

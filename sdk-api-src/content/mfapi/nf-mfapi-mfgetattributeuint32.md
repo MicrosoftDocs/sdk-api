@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFGetAttributeUINT32, MFGetAttributeUINT32 function [Media Foundation], b79f3b2c-6293-41b2-afe7-4a0b2c27b34f, mf.mfgetattributeuint32, mfapi/MFGetAttributeUINT32
 ms.topic: function
-f1_keywords: ["mfapi/MFGetAttributeUINT32"]
+f1_keywords: 
+ - "mfapi/MFGetAttributeUINT32"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

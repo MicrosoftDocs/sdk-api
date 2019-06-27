@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngUnmapEvent, EngUnmapEvent function [Display Devices], display.engunmapevent, gdifncs_0f5f2320-13d2-471a-93b6-739f9ecbd620.xml, winddi/EngUnmapEvent
 ms.topic: function
-f1_keywords: ["winddi/EngUnmapEvent"]
+f1_keywords: 
+ - "winddi/EngUnmapEvent"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

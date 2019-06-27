@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertSelectCertificate, CertSelectCertificate function [Security], CertSelectCertificateA, CertSelectCertificateW, cryptdlg/CertSelectCertificate, cryptdlg/CertSelectCertificateA, cryptdlg/CertSelectCertificateW, security.certselectcertificate
 ms.topic: function
-f1_keywords: ["cryptdlg/CertSelectCertificate"]
+f1_keywords: 
+ - "cryptdlg/CertSelectCertificate"
 req.header: cryptdlg.h
 req.include-header: 
 req.target-type: Windows

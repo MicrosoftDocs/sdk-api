@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICDdsDimension, WICDdsDimension enumeration [Windows Imaging Component], WICDdsTexture1D, WICDdsTexture2D, WICDdsTexture3D, WICDdsTextureCube, wic.wicddsdimension, wincodec/WICDdsDimension, wincodec/WICDdsTexture1D, wincodec/WICDdsTexture2D, wincodec/WICDdsTexture3D, wincodec/WICDdsTextureCube
 ms.topic: enum
-f1_keywords: ["wincodec/WICDdsDimension"]
+f1_keywords: 
+ - "wincodec/WICDdsDimension"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

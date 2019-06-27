@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHRegDeleteEmptyUSKey, SHRegDeleteEmptyUSKey function [Windows Shell], SHRegDeleteEmptyUSKeyA, SHRegDeleteEmptyUSKeyW, _win32_SHRegDeleteEmptyUSKey, shell.SHRegDeleteEmptyUSKey, shlwapi/SHRegDeleteEmptyUSKey, shlwapi/SHRegDeleteEmptyUSKeyA, shlwapi/SHRegDeleteEmptyUSKeyW
 ms.topic: function
-f1_keywords: ["shlwapi/SHRegDeleteEmptyUSKey"]
+f1_keywords: 
+ - "shlwapi/SHRegDeleteEmptyUSKey"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

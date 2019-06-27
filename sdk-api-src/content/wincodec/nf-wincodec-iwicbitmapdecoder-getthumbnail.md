@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThumbnail, GetThumbnail method [Windows Imaging Component], GetThumbnail method [Windows Imaging Component],IWICBitmapDecoder interface, IWICBitmapDecoder interface [Windows Imaging Component],GetThumbnail method, IWICBitmapDecoder.GetThumbnail, IWICBitmapDecoder::GetThumbnail, _wic_codec_iwicbitmapdecoder_getthumbnail, wic._wic_codec_iwicbitmapdecoder_getthumbnail, wincodec/IWICBitmapDecoder::GetThumbnail
 ms.topic: method
-f1_keywords: ["wincodec/IWICBitmapDecoder.GetThumbnail"]
+f1_keywords: 
+ - "wincodec/IWICBitmapDecoder.GetThumbnail"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

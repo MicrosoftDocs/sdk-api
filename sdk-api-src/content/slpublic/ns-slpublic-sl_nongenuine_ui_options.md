@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SL_NONGENUINE_UI_OPTIONS, SL_NONGENUINE_UI_OPTIONS structure [Security], security.sl_nongenuine_ui_options, slpublic/SL_NONGENUINE_UI_OPTIONS
 ms.topic: struct
-f1_keywords: ["slpublic/SL_NONGENUINE_UI_OPTIONS"]
+f1_keywords: 
+ - "slpublic/SL_NONGENUINE_UI_OPTIONS"
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

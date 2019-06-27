@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCommandOptions, GetCommandOptions method [Windows Portable Devices SDK], GetCommandOptions method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetCommandOptions method, IPortableDeviceCapabilities.GetCommandOptions, IPortableDeviceCapabilities::GetCommandOptions, IPortableDeviceCapabilitiesGetCommandOptions, portabledeviceapi/IPortableDeviceCapabilities::GetCommandOptions, wpdsdk.iportabledevicecapabilities_getcommandoptions
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceCapabilities.GetCommandOptions"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceCapabilities.GetCommandOptions"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

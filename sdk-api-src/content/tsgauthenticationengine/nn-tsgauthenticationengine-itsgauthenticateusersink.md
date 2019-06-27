@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITSGAuthenticateUserSink, ITSGAuthenticateUserSink interface [Remote Desktop Services], ITSGAuthenticateUserSink interface [Remote Desktop Services],described, termserv.itsgauthenticateusersink, tsgauthenticationengine/ITSGAuthenticateUserSink
 ms.topic: interface
-f1_keywords: ["tsgauthenticationengine/ITSGAuthenticateUserSink"]
+f1_keywords: 
+ - "tsgauthenticationengine/ITSGAuthenticateUserSink"
 req.header: tsgauthenticationengine.h
 req.include-header: 
 req.target-type: Windows

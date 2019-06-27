@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DockPattern_SetDockPosition, DockPattern_SetDockPosition function [Windows Accessibility], uiauto.uiauto_DockPattern_SetDockPositionConPat, uiauto_DockPattern_SetDockPositionConPat, uiautomationcoreapi/DockPattern_SetDockPosition, winauto.uiauto_DockPattern_SetDockPositionConPat
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/DockPattern_SetDockPosition"]
+f1_keywords: 
+ - "uiautomationcoreapi/DockPattern_SetDockPosition"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

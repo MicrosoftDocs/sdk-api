@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThemeRect, GetThemeRect function [Windows Controls], controls.GetThemeRect, controls.inet_GetThemeRect, inet_GetThemeRect, inet_GetThemeRect_cpp, uxtheme/GetThemeRect
 ms.topic: function
-f1_keywords: ["uxtheme/GetThemeRect"]
+f1_keywords: 
+ - "uxtheme/GetThemeRect"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SynchronizedInputPattern_StartListening, SynchronizedInputPattern_StartListening function [Windows Accessibility], uiauto.uiauto_SynchronizedInputPattern_StartListening, uiauto_SynchronizedInputPattern_StartListening, uiautomationcoreapi/SynchronizedInputPattern_StartListening, winauto.uiauto_SynchronizedInputPattern_StartListening
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/SynchronizedInputPattern_StartListening"]
+f1_keywords: 
+ - "uiautomationcoreapi/SynchronizedInputPattern_StartListening"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

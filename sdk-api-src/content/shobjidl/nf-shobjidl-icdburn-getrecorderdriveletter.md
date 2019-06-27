@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecorderDriveLetter, GetRecorderDriveLetter method [Windows Shell], GetRecorderDriveLetter method [Windows Shell],ICDBurn interface, ICDBurn interface [Windows Shell],GetRecorderDriveLetter method, ICDBurn.GetRecorderDriveLetter, ICDBurn::GetRecorderDriveLetter, _shell_ICDBurn_GetRecorderDriveLetter, shell.ICDBurn_GetRecorderDriveLetter, shobjidl/ICDBurn::GetRecorderDriveLetter
 ms.topic: method
-f1_keywords: ["shobjidl/ICDBurn.GetRecorderDriveLetter"]
+f1_keywords: 
+ - "shobjidl/ICDBurn.GetRecorderDriveLetter"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

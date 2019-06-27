@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupInitDefaultQueueCallback, SetupInitDefaultQueueCallback function [Setup API], _setupapi_setupinitdefaultqueuecallback, setup.setupinitdefaultqueuecallback, setupapi/SetupInitDefaultQueueCallback
 ms.topic: function
-f1_keywords: ["setupapi/SetupInitDefaultQueueCallback"]
+f1_keywords: 
+ - "setupapi/SetupInitDefaultQueueCallback"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

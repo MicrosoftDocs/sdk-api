@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterRegCloseKey, ClusterRegCloseKey function [Failover Cluster], _wolf_clusterregclosekey, clusapi/ClusterRegCloseKey, mscs.clusterregclosekey
 ms.topic: function
-f1_keywords: ["clusapi/ClusterRegCloseKey"]
+f1_keywords: 
+ - "clusapi/ClusterRegCloseKey"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

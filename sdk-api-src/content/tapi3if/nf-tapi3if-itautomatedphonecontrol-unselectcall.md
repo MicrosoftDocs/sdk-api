@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],UnselectCall method, ITAutomatedPhoneControl.UnselectCall, ITAutomatedPhoneControl::UnselectCall, UnselectCall, UnselectCall method [TAPI 2.2], UnselectCall method [TAPI 2.2],ITAutomatedPhoneControl interface, _tapi3_itautomatedphonecontrol_unselectcall, tapi3.itautomatedphonecontrol_unselectcall, tapi3if/ITAutomatedPhoneControl::UnselectCall
 ms.topic: method
-f1_keywords: ["tapi3if/ITAutomatedPhoneControl.UnselectCall"]
+f1_keywords: 
+ - "tapi3if/ITAutomatedPhoneControl.UnselectCall"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

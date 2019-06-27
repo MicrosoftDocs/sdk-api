@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReportRadiusServerList, ReportRadiusServerList function [iSCSI Discovery Library API], ReportRadiusServerListA, ReportRadiusServerListW, iscsidisc.reportradiusserverlist, iscsidsc/ReportRadiusServerList, iscsidsc/ReportRadiusServerListA, iscsidsc/ReportRadiusServerListW
 ms.topic: function
-f1_keywords: ["iscsidsc/ReportRadiusServerList"]
+f1_keywords: 
+ - "iscsidsc/ReportRadiusServerList"
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

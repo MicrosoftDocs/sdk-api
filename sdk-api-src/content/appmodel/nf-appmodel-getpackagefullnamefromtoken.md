@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPackageFullNameFromToken, GetPackageFullNameFromToken function [App packaging and management], appmodel/GetPackageFullNameFromToken, appxpkg.getpackagefullnamefromtoken
 ms.topic: function
-f1_keywords: ["appmodel/GetPackageFullNameFromToken"]
+f1_keywords: 
+ - "appmodel/GetPackageFullNameFromToken"
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

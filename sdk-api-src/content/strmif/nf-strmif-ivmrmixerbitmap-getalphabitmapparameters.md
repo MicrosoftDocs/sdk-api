@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAlphaBitmapParameters, GetAlphaBitmapParameters method [DirectShow], GetAlphaBitmapParameters method [DirectShow],IVMRMixerBitmap interface, IVMRMixerBitmap interface [DirectShow],GetAlphaBitmapParameters method, IVMRMixerBitmap.GetAlphaBitmapParameters, IVMRMixerBitmap::GetAlphaBitmapParameters, IVMRMixerBitmapGetAlphaBitmapParameters, dshow.ivmrmixerbitmap_getalphabitmapparameters, strmif/IVMRMixerBitmap::GetAlphaBitmapParameters
 ms.topic: method
-f1_keywords: ["strmif/IVMRMixerBitmap.GetAlphaBitmapParameters"]
+f1_keywords: 
+ - "strmif/IVMRMixerBitmap.GetAlphaBitmapParameters"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

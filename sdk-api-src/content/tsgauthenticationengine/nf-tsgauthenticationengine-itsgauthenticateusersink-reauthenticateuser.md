@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITSGAuthenticateUserSink interface [Remote Desktop Services],ReauthenticateUser method, ITSGAuthenticateUserSink.ReauthenticateUser, ITSGAuthenticateUserSink::ReauthenticateUser, ReauthenticateUser, ReauthenticateUser method [Remote Desktop Services], ReauthenticateUser method [Remote Desktop Services],ITSGAuthenticateUserSink interface, termserv.itsgauthenticateusersink_reauthenticateuser, tsgauthenticationengine/ITSGAuthenticateUserSink::ReauthenticateUser
 ms.topic: method
-f1_keywords: ["tsgauthenticationengine/ITSGAuthenticateUserSink.ReauthenticateUser"]
+f1_keywords: 
+ - "tsgauthenticationengine/ITSGAuthenticateUserSink.ReauthenticateUser"
 req.header: tsgauthenticationengine.h
 req.include-header: 
 req.target-type: Windows

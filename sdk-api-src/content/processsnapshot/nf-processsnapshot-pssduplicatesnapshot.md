@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PssDuplicateSnapshot, PssDuplicateSnapshot function, proc_snap.pssduplicatesnapshot, processsnapshot/PssDuplicateSnapshot
 ms.topic: function
-f1_keywords: ["processsnapshot/PssDuplicateSnapshot"]
+f1_keywords: 
+ - "processsnapshot/PssDuplicateSnapshot"
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

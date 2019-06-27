@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetKaraokeAttributes, GetKaraokeAttributes method [DirectShow], GetKaraokeAttributes method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetKaraokeAttributes method, IDvdInfo2.GetKaraokeAttributes, IDvdInfo2::GetKaraokeAttributes, IDvdInfo2GetKaraokeAttributes, dshow.idvdinfo2_getkaraokeattributes, strmif/IDvdInfo2::GetKaraokeAttributes
 ms.topic: method
-f1_keywords: ["strmif/IDvdInfo2.GetKaraokeAttributes"]
+f1_keywords: 
+ - "strmif/IDvdInfo2.GetKaraokeAttributes"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

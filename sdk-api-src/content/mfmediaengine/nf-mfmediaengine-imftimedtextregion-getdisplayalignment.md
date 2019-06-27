@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDisplayAlignment, GetDisplayAlignment method [Media Foundation], GetDisplayAlignment method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetDisplayAlignment method, IMFTimedTextRegion.GetDisplayAlignment, IMFTimedTextRegion::GetDisplayAlignment, mf.imftimedtextregion_getdisplayalignment, mfmediaengine/IMFTimedTextRegion::GetDisplayAlignment
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedTextRegion.GetDisplayAlignment"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedTextRegion.GetDisplayAlignment"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

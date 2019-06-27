@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetTransformParent method, IDCompositionVisual.SetTransformParent, IDCompositionVisual::SetTransformParent, SetTransformParent, SetTransformParent method [DirectComposition], SetTransformParent method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetTransformParent, directcomp.idcompositionvisual_settransformparent
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionVisual.SetTransformParent"]
+f1_keywords: 
+ - "dcomp/IDCompositionVisual.SetTransformParent"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

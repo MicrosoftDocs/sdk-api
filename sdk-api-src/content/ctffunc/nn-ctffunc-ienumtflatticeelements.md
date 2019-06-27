@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTfLatticeElements, IEnumTfLatticeElements interface [Text Services Framework], IEnumTfLatticeElements interface [Text Services Framework],described, _tsf_ienumtflatticeelements_ref, ctffunc/IEnumTfLatticeElements, tsf.ienumtflatticeelements
 ms.topic: interface
-f1_keywords: ["ctffunc/IEnumTfLatticeElements"]
+f1_keywords: 
+ - "ctffunc/IEnumTfLatticeElements"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

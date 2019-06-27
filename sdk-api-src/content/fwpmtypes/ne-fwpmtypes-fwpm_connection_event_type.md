@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPM_CONNECTION_EVENT_ADD, FWPM_CONNECTION_EVENT_DELETE, FWPM_CONNECTION_EVENT_MAX, FWPM_CONNECTION_EVENT_TYPE, FWPM_CONNECTION_EVENT_TYPE enumeration [Filtering], fwp.fwpm_connection_event_type, fwpmtypes/FWPM_CONNECTION_EVENT_ADD, fwpmtypes/FWPM_CONNECTION_EVENT_DELETE, fwpmtypes/FWPM_CONNECTION_EVENT_MAX, fwpmtypes/FWPM_CONNECTION_EVENT_TYPE
 ms.topic: enum
-f1_keywords: ["fwpmtypes/FWPM_CONNECTION_EVENT_TYPE"]
+f1_keywords: 
+ - "fwpmtypes/FWPM_CONNECTION_EVENT_TYPE"
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

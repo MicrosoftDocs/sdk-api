@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Disable, EnableInputNoNotify, EnableInputNotify, EnableNoInputNoNotify, EnableNoInputNotify, EnableRemoteControl property [Remote Desktop Services], EnableRemoteControl property [Remote Desktop Services],IADsTSUserEx interface, IADsTSUserEx interface [Remote Desktop Services],EnableRemoteControl property, IADsTSUserEx.EnableRemoteControl, IADsTSUserEx.get_EnableRemoteControl, IADsTSUserEx::EnableRemoteControl, IADsTSUserEx::get_EnableRemoteControl, IADsTSUserEx::put_EnableRemoteControl, get_EnableRemoteControl, termserv.iadstsuserex_enableremotecontrol, tsuserex/IADsTSUserEx::EnableRemoteControl, tsuserex/IADsTSUserEx::get_EnableRemoteControl, tsuserex/IADsTSUserEx::put_EnableRemoteControl
 ms.topic: method
-f1_keywords: ["tsuserex/IADsTSUserEx.EnableRemoteControl"]
+f1_keywords: 
+ - "tsuserex/IADsTSUserEx.EnableRemoteControl"
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows

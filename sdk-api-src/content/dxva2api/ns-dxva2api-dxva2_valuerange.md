@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVA2_ValueRange, DXVA2_ValueRange structure [Media Foundation], dxva2api/DXVA2_ValueRange, e01328bb-9069-4874-aa35-b3c9bc1c6094, mf.dxva2_valuerange
 ms.topic: struct
-f1_keywords: ["dxva2api/DXVA2_ValueRange"]
+f1_keywords: 
+ - "dxva2api/DXVA2_ValueRange"
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

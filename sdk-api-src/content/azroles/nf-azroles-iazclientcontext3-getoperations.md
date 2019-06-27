@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOperations, GetOperations method [Security], GetOperations method [Security],IAzClientContext3 interface, IAzClientContext3 interface [Security],GetOperations method, IAzClientContext3.GetOperations, IAzClientContext3::GetOperations, azroles/IAzClientContext3::GetOperations, security.iazclientcontext3_getoperations_method
 ms.topic: method
-f1_keywords: ["azroles/IAzClientContext3.GetOperations"]
+f1_keywords: 
+ - "azroles/IAzClientContext3.GetOperations"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AM_PUSHSOURCECAPS_INTERNAL_RM, AM_PUSHSOURCECAPS_NOT_LIVE, AM_PUSHSOURCECAPS_PRIVATE_CLOCK, AM_PUSHSOURCEREQS_USE_STREAM_CLOCK, AM_PUSHSOURCE_FLAGS, AM_PUSHSOURCE_FLAGSEnumeration, _AM_PUSHSOURCE_FLAGS, _AM_PUSHSOURCE_FLAGS enumeration [DirectShow], dshow.am_pushsource_flags, strmif/AM_PUSHSOURCECAPS_INTERNAL_RM, strmif/AM_PUSHSOURCECAPS_NOT_LIVE, strmif/AM_PUSHSOURCECAPS_PRIVATE_CLOCK, strmif/AM_PUSHSOURCEREQS_USE_STREAM_CLOCK, strmif/_AM_PUSHSOURCE_FLAGS
 ms.topic: enum
-f1_keywords: ["strmif/_AM_PUSHSOURCE_FLAGS"]
+f1_keywords: 
+ - "strmif/_AM_PUSHSOURCE_FLAGS"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

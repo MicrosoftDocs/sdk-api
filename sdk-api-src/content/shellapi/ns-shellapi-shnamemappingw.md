@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSHNAMEMAPPINGW, LPSHNAMEMAPPING, LPSHNAMEMAPPING structure pointer [Windows Shell], SHNAMEMAPPING, SHNAMEMAPPING structure [Windows Shell], SHNAMEMAPPINGW, _win32_SHNAMEMAPPING, shell.SHNAMEMAPPING, shellapi/LPSHNAMEMAPPING, shellapi/SHNAMEMAPPING"
 ms.topic: struct
-f1_keywords: ["shellapi/SHNAMEMAPPING"]
+f1_keywords: 
+ - "shellapi/SHNAMEMAPPING"
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

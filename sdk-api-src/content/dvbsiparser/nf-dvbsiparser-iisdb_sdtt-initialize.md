@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IISDB_SDTT interface [Microsoft TV Technologies],Initialize method, IISDB_SDTT.Initialize, IISDB_SDTT::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IISDB_SDTT interface, dvbsiparser/IISDB_SDTT::Initialize, mstv.iisdb_sdtt_initialize
 ms.topic: method
-f1_keywords: ["dvbsiparser/IISDB_SDTT.Initialize"]
+f1_keywords: 
+ - "dvbsiparser/IISDB_SDTT.Initialize"
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

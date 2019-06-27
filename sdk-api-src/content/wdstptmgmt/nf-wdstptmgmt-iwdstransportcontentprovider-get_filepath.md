@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FilePath property [Windows Deployment Services], FilePath property [Windows Deployment Services],IWdsTransportContentProvider interface, IWdsTransportContentProvider interface [Windows Deployment Services],FilePath property, IWdsTransportContentProvider.FilePath, IWdsTransportContentProvider.get_FilePath, IWdsTransportContentProvider::FilePath, IWdsTransportContentProvider::get_FilePath, get_FilePath, wds.iwdstransportcontentprovider_filepath, wdstptmgmt/IWdsTransportContentProvider::FilePath, wdstptmgmt/IWdsTransportContentProvider::get_FilePath
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportContentProvider.FilePath"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportContentProvider.FilePath"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

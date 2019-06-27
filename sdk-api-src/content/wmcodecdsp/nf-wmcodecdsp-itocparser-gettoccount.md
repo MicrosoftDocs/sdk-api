@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTocCount, GetTocCount method [Media Foundation], GetTocCount method [Media Foundation],ITocParser interface, ITocParser interface [Media Foundation],GetTocCount method, ITocParser.GetTocCount, ITocParser::GetTocCount, codecapi.itocparser_gettoccount, mf.itocparser_gettoccount, wmcodecdsp/ITocParser::GetTocCount
 ms.topic: method
-f1_keywords: ["wmcodecdsp/ITocParser.GetTocCount"]
+f1_keywords: 
+ - "wmcodecdsp/ITocParser.GetTocCount"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

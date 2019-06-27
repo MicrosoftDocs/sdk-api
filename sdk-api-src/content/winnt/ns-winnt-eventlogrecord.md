@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEVENTLOGRECORD, EVENTLOGRECORD, EVENTLOGRECORD structure, EVENTLOG_AUDIT_FAILURE, EVENTLOG_AUDIT_SUCCESS, EVENTLOG_ERROR_TYPE, EVENTLOG_INFORMATION_TYPE, EVENTLOG_WARNING_TYPE, PEVENTLOGRECORD, PEVENTLOGRECORD structure pointer, _EVENTLOGRECORD, _win32_eventlogrecord_str, base.eventlogrecord_str, winnt/EVENTLOGRECORD, winnt/PEVENTLOGRECORD"
 ms.topic: struct
-f1_keywords: ["winnt/EVENTLOGRECORD"]
+f1_keywords: 
+ - "winnt/EVENTLOGRECORD"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

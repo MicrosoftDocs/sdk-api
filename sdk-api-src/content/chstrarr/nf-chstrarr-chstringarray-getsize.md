@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?GetSize@CHStringArray@@QEBAHXZ, CHStringArray interface [Windows Management Instrumentation],GetSize method, CHStringArray.GetSize, CHStringArray::GetSize, GetSize, GetSize method [Windows Management Instrumentation], GetSize method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_getsize, chstrarr/CHStringArray::GetSize, wmi.chstringarray_getsize"
 ms.topic: method
-f1_keywords: ["chstrarr/CHStringArray.GetSize"]
+f1_keywords: 
+ - "chstrarr/CHStringArray.GetSize"
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows

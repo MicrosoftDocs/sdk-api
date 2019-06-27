@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPLOGPEN, *NPLOGPEN, *PLOGPEN, LOGPEN, LOGPEN structure [Windows GDI], PLOGPEN, PLOGPEN structure pointer [Windows GDI], _win32_LOGPEN_str, gdi.logpen, wingdi/LOGPEN, wingdi/PLOGPEN"
 ms.topic: struct
-f1_keywords: ["wingdi/LOGPEN"]
+f1_keywords: 
+ - "wingdi/LOGPEN"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

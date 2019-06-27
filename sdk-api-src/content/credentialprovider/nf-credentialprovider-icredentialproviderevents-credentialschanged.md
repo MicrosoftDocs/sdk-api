@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CredentialsChanged, CredentialsChanged method [Windows Shell], CredentialsChanged method [Windows Shell],ICredentialProviderEvents interface, ICredentialProviderEvents interface [Windows Shell],CredentialsChanged method, ICredentialProviderEvents.CredentialsChanged, ICredentialProviderEvents::CredentialsChanged, credentialprovider/ICredentialProviderEvents::CredentialsChanged, shell.ICredentialProviderEvents_CredentialsChanged, shell_ICredentialProviderEvents_CredentialsChanged
 ms.topic: method
-f1_keywords: ["credentialprovider/ICredentialProviderEvents.CredentialsChanged"]
+f1_keywords: 
+ - "credentialprovider/ICredentialProviderEvents.CredentialsChanged"
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

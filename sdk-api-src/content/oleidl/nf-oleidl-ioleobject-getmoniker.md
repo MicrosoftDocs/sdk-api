@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMoniker, GetMoniker method [COM], GetMoniker method [COM],IOleObject interface, IOleObject interface [COM],GetMoniker method, IOleObject.GetMoniker, IOleObject::GetMoniker, _ole_ioleobject_getmoniker, com.ioleobject_getmoniker, oleidl/IOleObject::GetMoniker
 ms.topic: method
-f1_keywords: ["oleidl/IOleObject.GetMoniker"]
+f1_keywords: 
+ - "oleidl/IOleObject.GetMoniker"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

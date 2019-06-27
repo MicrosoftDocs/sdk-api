@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIndexMode, GetIndexMode method [DirectShow], GetIndexMode method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],GetIndexMode method, IConfigAsfWriter.GetIndexMode, IConfigAsfWriter::GetIndexMode, IConfigAsfWriterGetIndexMode, dshow.iconfigasfwriter_getindexmode, dshowasf/IConfigAsfWriter::GetIndexMode
 ms.topic: method
-f1_keywords: ["dshowasf/IConfigAsfWriter.GetIndexMode"]
+f1_keywords: 
+ - "dshowasf/IConfigAsfWriter.GetIndexMode"
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows

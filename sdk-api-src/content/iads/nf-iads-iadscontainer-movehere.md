@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsContainer interface [ADSI],MoveHere method, IADsContainer.MoveHere, IADsContainer::MoveHere, MoveHere, MoveHere method [ADSI], MoveHere method [ADSI],IADsContainer interface, _ds_iadscontainer_movehere, adsi.iadscontainer__movehere, adsi.iadscontainer_movehere, iads/IADsContainer::MoveHere
 ms.topic: method
-f1_keywords: ["iads/IADsContainer.MoveHere"]
+f1_keywords: 
+ - "iads/IADsContainer.MoveHere"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

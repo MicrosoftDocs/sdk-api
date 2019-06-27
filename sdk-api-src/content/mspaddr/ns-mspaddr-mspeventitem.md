@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMSPEVENTITEM, MSPEVENTITEM, MSPEVENTITEM structure [TAPI 2.2], PMSPEVENTITEM, PMSPEVENTITEM structure pointer [TAPI 2.2], _tapi3_mspeventitem, mspaddr/MSPEVENTITEM, mspaddr/PMSPEVENTITEM, tapi3.mspeventitem"
 ms.topic: struct
-f1_keywords: ["mspaddr/MSPEVENTITEM"]
+f1_keywords: 
+ - "mspaddr/MSPEVENTITEM"
 req.header: mspaddr.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [GDI+], GetSize method [GDI+],RectF class, RectF class [GDI+],GetSize method, RectF.GetSize, RectF::GetSize, _gdiplus_CLASS_RectF_GetSize_size_, gdiplus._gdiplus_CLASS_RectF_GetSize_size_
 ms.topic: method
-f1_keywords: ["gdiplustypes/RectF.GetSize"]
+f1_keywords: 
+ - "gdiplustypes/RectF.GetSize"
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

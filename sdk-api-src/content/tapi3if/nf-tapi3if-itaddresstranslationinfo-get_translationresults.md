@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAddressTranslationInfo interface [TAPI 2.2],get_TranslationResults method, ITAddressTranslationInfo.get_TranslationResults, ITAddressTranslationInfo::get_TranslationResults, _tapi3_itaddresstranslationinfo_get_translationresults, get_TranslationResults, get_TranslationResults method [TAPI 2.2], get_TranslationResults method [TAPI 2.2],ITAddressTranslationInfo interface, tapi3.itaddresstranslationinfo_get_translationresults, tapi3if/ITAddressTranslationInfo::get_TranslationResults
 ms.topic: method
-f1_keywords: ["tapi3if/ITAddressTranslationInfo.get_TranslationResults"]
+f1_keywords: 
+ - "tapi3if/ITAddressTranslationInfo.get_TranslationResults"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

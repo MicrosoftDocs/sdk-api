@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IParseAndCreateItem interface [Windows Shell],SetItem method, IParseAndCreateItem.SetItem, IParseAndCreateItem::SetItem, SetItem, SetItem method [Windows Shell], SetItem method [Windows Shell],IParseAndCreateItem interface, _shell_IParseAndCreateItem_SetItem, shell.IParseAndCreateItem_SetItem, shobjidl_core/IParseAndCreateItem::SetItem
 ms.topic: method
-f1_keywords: ["shobjidl_core/IParseAndCreateItem.SetItem"]
+f1_keywords: 
+ - "shobjidl_core/IParseAndCreateItem.SetItem"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDRMTranscryptor interface [windows Media Format],Read method, IWMDRMTranscryptor.Read, IWMDRMTranscryptor::Read, IWMDRMTranscryptorRead, Read, Read method [windows Media Format], Read method [windows Media Format],IWMDRMTranscryptor interface, wmformat.iwmdrmtranscryptor_read, wmsdkidl/IWMDRMTranscryptor::Read
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMDRMTranscryptor.Read"]
+f1_keywords: 
+ - "wmsdkidl/IWMDRMTranscryptor.Read"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

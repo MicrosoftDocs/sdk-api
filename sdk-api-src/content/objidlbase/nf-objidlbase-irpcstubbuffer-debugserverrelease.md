@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DebugServerRelease, DebugServerRelease method [COM], DebugServerRelease method [COM],IRpcStubBuffer interface, IRpcStubBuffer interface [COM],DebugServerRelease method, IRpcStubBuffer.DebugServerRelease, IRpcStubBuffer::DebugServerRelease, _com_irpcstubbuffer_debugserverrelease, com.irpcstubbuffer_debugserverrelease, objidlbase/IRpcStubBuffer::DebugServerRelease
 ms.topic: method
-f1_keywords: ["objidlbase/IRpcStubBuffer.DebugServerRelease"]
+f1_keywords: 
+ - "objidlbase/IRpcStubBuffer.DebugServerRelease"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

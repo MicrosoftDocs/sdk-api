@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],SetLOD method, IDirectDrawSurface7.SetLOD, IDirectDrawSurface7::SetLOD, SetLOD, SetLOD method [DirectDraw], SetLOD method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetLOD, directdraw.idirectdrawsurface7_setlod
 ms.topic: method
-f1_keywords: ["ddraw/IDirectDrawSurface7.SetLOD"]
+f1_keywords: 
+ - "ddraw/IDirectDrawSurface7.SetLOD"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

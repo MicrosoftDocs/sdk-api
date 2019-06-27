@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher interface,UnRegisterNotificationSink method, IWSDiscoveryPublisher.UnRegisterNotificationSink, IWSDiscoveryPublisher::UnRegisterNotificationSink, UnRegisterNotificationSink, UnRegisterNotificationSink method, UnRegisterNotificationSink method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_unregisternotificationsink_method, wsddisco/IWSDiscoveryPublisher::UnRegisterNotificationSink
 ms.topic: method
-f1_keywords: ["wsddisco/IWSDiscoveryPublisher.UnRegisterNotificationSink"]
+f1_keywords: 
+ - "wsddisco/IWSDiscoveryPublisher.UnRegisterNotificationSink"
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

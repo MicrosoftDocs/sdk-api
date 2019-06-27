@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddStream, AddStream method [windows Media Format], AddStream method [windows Media Format],IWMStreamList interface, IWMStreamList interface [windows Media Format],AddStream method, IWMStreamList.AddStream, IWMStreamList::AddStream, IWMStreamListAddStream, wmformat.iwmstreamlist_addstream, wmsdkidl/IWMStreamList::AddStream
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMStreamList.AddStream"]
+f1_keywords: 
+ - "wmsdkidl/IWMStreamList.AddStream"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

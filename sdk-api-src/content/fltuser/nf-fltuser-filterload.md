@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FilterLoad, FilterLoad function [Installable File System Drivers], FltWin32ApiRef_273c18c5-9474-4605-80a1-1bc4cb9e4e7b.xml, fltuser/FilterLoad, ifsk.filterload
 ms.topic: function
-f1_keywords: ["fltuser/FilterLoad"]
+f1_keywords: 
+ - "fltuser/FilterLoad"
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal

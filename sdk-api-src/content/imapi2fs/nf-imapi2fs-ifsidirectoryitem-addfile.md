@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddFile, AddFile method [IMAPI], AddFile method [IMAPI],IFsiDirectoryItem interface, IFsiDirectoryItem interface [IMAPI],AddFile method, IFsiDirectoryItem.AddFile, IFsiDirectoryItem::AddFile, imapi.ifsidirectoryitem_addfile, imapi2fs/IFsiDirectoryItem::AddFile
 ms.topic: method
-f1_keywords: ["imapi2fs/IFsiDirectoryItem.AddFile"]
+f1_keywords: 
+ - "imapi2fs/IFsiDirectoryItem.AddFile"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

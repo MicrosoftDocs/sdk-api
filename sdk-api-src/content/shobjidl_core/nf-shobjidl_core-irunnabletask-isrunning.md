@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRunnableTask interface [Windows Shell],IsRunning method, IRunnableTask.IsRunning, IRunnableTask::IsRunning, IsRunning, IsRunning method [Windows Shell], IsRunning method [Windows Shell],IRunnableTask interface, _win32_IRunnableTask_IsRunning, shell.IRunnableTask_IsRunning, shobjidl_core/IRunnableTask::IsRunning
 ms.topic: method
-f1_keywords: ["shobjidl_core/IRunnableTask.IsRunning"]
+f1_keywords: 
+ - "shobjidl_core/IRunnableTask.IsRunning"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

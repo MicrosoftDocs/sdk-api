@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MetafileFrameUnit, MetafileFrameUnit enumeration [GDI+], MetafileFrameUnitDocument, MetafileFrameUnitGdi, MetafileFrameUnitInch, MetafileFrameUnitMillimeter, MetafileFrameUnitPixel, MetafileFrameUnitPoint, _gdiplus_ENUM_MetafileFrameUnit, gdiplus._gdiplus_ENUM_MetafileFrameUnit, gdiplusenums/MetafileFrameUnit, gdiplusenums/MetafileFrameUnitDocument, gdiplusenums/MetafileFrameUnitGdi, gdiplusenums/MetafileFrameUnitInch, gdiplusenums/MetafileFrameUnitMillimeter, gdiplusenums/MetafileFrameUnitPixel, gdiplusenums/MetafileFrameUnitPoint
 ms.topic: enum
-f1_keywords: ["gdiplusenums/MetafileFrameUnit"]
+f1_keywords: 
+ - "gdiplusenums/MetafileFrameUnit"
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

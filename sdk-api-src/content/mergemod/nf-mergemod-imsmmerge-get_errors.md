@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMsmMerge interface,get_Errors method, IMsmMerge.get_Errors, IMsmMerge::get_Errors, _msi_get_errors_function, get_Errors, get_Errors method, get_Errors method,IMsmMerge interface, mergemod/IMsmMerge::get_Errors, setup.imsmmerge_get_errors
 ms.topic: method
-f1_keywords: ["mergemod/IMsmMerge.get_Errors"]
+f1_keywords: 
+ - "mergemod/IMsmMerge.get_Errors"
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

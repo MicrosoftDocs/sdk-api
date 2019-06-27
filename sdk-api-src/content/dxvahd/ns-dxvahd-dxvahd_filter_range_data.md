@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_FILTER_RANGE_DATA, DXVAHD_FILTER_RANGE_DATA structure [Media Foundation], dxvahd/DXVAHD_FILTER_RANGE_DATA, mf.dxvahd_filter_range_data
 ms.topic: struct
-f1_keywords: ["dxvahd/DXVAHD_FILTER_RANGE_DATA"]
+f1_keywords: 
+ - "dxvahd/DXVAHD_FILTER_RANGE_DATA"
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

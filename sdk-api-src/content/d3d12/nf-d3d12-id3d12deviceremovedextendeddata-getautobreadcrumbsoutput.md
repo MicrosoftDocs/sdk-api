@@ -9,7 +9,8 @@ ms.author: windowssdkdev
 ms.date: 02/08/2019
 ms.keywords: GetAutoBreadcrumbsOutput, GetAutoBreadcrumbsOutput method, ID3D12DeviceRemovedExtendedData, ID3D12DeviceRemovedExtendedData interface, ID3D12DeviceRemovedExtendedData.GetAutoBreadcrumbsOutput, ID3D12DeviceRemovedExtendedData::GetAutoBreadcrumbsOutput, d3d12/ID3D12DeviceRemovedExtendedData::GetAutoBreadcrumbsOutput, direct3d12.id3d12deviceremovedextendeddata_getautobreadcrumbsoutput
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12DeviceRemovedExtendedData::GetAutoBreadcrumbsOutput"]
+f1_keywords: 
+ - "d3d12/ID3D12DeviceRemovedExtendedData::GetAutoBreadcrumbsOutput"
 req.construct-type: function
 req.ddi-compliance: 
 req.header: d3d12.h

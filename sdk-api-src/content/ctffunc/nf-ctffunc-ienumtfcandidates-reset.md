@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTfCandidates interface [Text Services Framework],Reset method, IEnumTfCandidates.Reset, IEnumTfCandidates::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfCandidates interface, _tsf_ienumtfcandidates_reset_ref, ctffunc/IEnumTfCandidates::Reset, tsf.ienumtfcandidates_reset
 ms.topic: method
-f1_keywords: ["ctffunc/IEnumTfCandidates.Reset"]
+f1_keywords: 
+ - "ctffunc/IEnumTfCandidates.Reset"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

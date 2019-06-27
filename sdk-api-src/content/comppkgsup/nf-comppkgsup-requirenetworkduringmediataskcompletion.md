@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RequireNetworkDuringMediaTaskCompletion, RequireNetworkDuringMediaTaskCompletion function [Windows API], comppkgsup/RequireNetworkDuringMediaTaskCompletion, winprog.requirenetworkduringmediataskcompletion
 ms.topic: function
-f1_keywords: ["comppkgsup/RequireNetworkDuringMediaTaskCompletion"]
+f1_keywords: 
+ - "comppkgsup/RequireNetworkDuringMediaTaskCompletion"
 req.header: comppkgsup.h
 req.include-header: 
 req.target-type: Windows

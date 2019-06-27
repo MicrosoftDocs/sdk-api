@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtNextEventMetadata, EvtNextEventMetadata function [EventLog], wes.evtnexteventmetadata, winevt/EvtNextEventMetadata
 ms.topic: function
-f1_keywords: ["winevt/EvtNextEventMetadata"]
+f1_keywords: 
+ - "winevt/EvtNextEventMetadata"
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

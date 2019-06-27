@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DISCARDCACHE, DISCARDCACHE enumeration [COM], DISCARDCACHE_NOSAVE, DISCARDCACHE_SAVEIFDIRTY, _ole_DISCARDCACHE, com.discardcache, oleidl/DISCARDCACHE, oleidl/DISCARDCACHE_NOSAVE, oleidl/DISCARDCACHE_SAVEIFDIRTY
 ms.topic: enum
-f1_keywords: ["oleidl/DISCARDCACHE"]
+f1_keywords: 
+ - "oleidl/DISCARDCACHE"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

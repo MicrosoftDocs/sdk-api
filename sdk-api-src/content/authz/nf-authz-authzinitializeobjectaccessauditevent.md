@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AUTHZ_NO_ALLOC_STRINGS, AUTHZ_NO_FAILURE_AUDIT, AUTHZ_NO_SUCCESS_AUDIT, AuthzInitializeObjectAccessAuditEvent, AuthzInitializeObjectAccessAuditEvent function [Security], _win32_authzinitializeobjectaccessauditevent, authz/AuthzInitializeObjectAccessAuditEvent, security.authzinitializeobjectaccessauditevent
 ms.topic: function
-f1_keywords: ["authz/AuthzInitializeObjectAccessAuditEvent"]
+f1_keywords: 
+ - "authz/AuthzInitializeObjectAccessAuditEvent"
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarUI1FromBool, VarUI1FromBool function [Automation], _oa96_VarUI1FromBool, automat.varui1frombool, oleauto/VarUI1FromBool
 ms.topic: function
-f1_keywords: ["oleauto/VarUI1FromBool"]
+f1_keywords: 
+ - "oleauto/VarUI1FromBool"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

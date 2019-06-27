@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHostURL, GetHostURL method [windows Media Format], GetHostURL method [windows Media Format],IWMWriterNetworkSink interface, IWMWriterNetworkSink interface [windows Media Format],GetHostURL method, IWMWriterNetworkSink.GetHostURL, IWMWriterNetworkSink::GetHostURL, IWMWriterNetworkSinkGetHostURL, wmformat.iwmwriternetworksink_gethosturl, wmsdkidl/IWMWriterNetworkSink::GetHostURL
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriterNetworkSink.GetHostURL"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriterNetworkSink.GetHostURL"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

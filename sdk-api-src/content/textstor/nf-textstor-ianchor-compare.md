@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "+1, -1, 0, Compare, Compare method [Text Services Framework], Compare method [Text Services Framework],IAnchor interface, IAnchor interface [Text Services Framework],Compare method, IAnchor.Compare, IAnchor::Compare, textstor/IAnchor::Compare, tsf.ianchor_compare"
 ms.topic: method
-f1_keywords: ["textstor/IAnchor.Compare"]
+f1_keywords: 
+ - "textstor/IAnchor.Compare"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

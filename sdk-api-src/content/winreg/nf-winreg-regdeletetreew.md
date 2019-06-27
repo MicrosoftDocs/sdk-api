@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegDeleteTree, RegDeleteTree function, RegDeleteTreeA, RegDeleteTreeW, base.regdeletetree, winreg/RegDeleteTree, winreg/RegDeleteTreeA, winreg/RegDeleteTreeW
 ms.topic: function
-f1_keywords: ["winreg/RegDeleteTree"]
+f1_keywords: 
+ - "winreg/RegDeleteTree"
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

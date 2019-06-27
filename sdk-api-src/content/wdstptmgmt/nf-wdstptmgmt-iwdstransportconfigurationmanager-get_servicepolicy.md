@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportConfigurationManager interface [Windows Deployment Services],ServicePolicy property, IWdsTransportConfigurationManager.ServicePolicy, IWdsTransportConfigurationManager.get_ServicePolicy, IWdsTransportConfigurationManager::ServicePolicy, IWdsTransportConfigurationManager::get_ServicePolicy, ServicePolicy property [Windows Deployment Services], ServicePolicy property [Windows Deployment Services],IWdsTransportConfigurationManager interface, get_ServicePolicy, wds.iwdstransportconfigurationmanager_servicepolicy, wdstptmgmt/IWdsTransportConfigurationManager::ServicePolicy, wdstptmgmt/IWdsTransportConfigurationManager::get_ServicePolicy
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportConfigurationManager.ServicePolicy"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportConfigurationManager.ServicePolicy"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

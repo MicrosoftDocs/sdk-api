@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsCliGetDriverQueryXml, WdsCliGetDriverQueryXml function [Windows Deployment Services], wds.wdscligetdriverqueryxml, wdsclientapi/WdsCliGetDriverQueryXml
 ms.topic: function
-f1_keywords: ["wdsclientapi/WdsCliGetDriverQueryXml"]
+f1_keywords: 
+ - "wdsclientapi/WdsCliGetDriverQueryXml"
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

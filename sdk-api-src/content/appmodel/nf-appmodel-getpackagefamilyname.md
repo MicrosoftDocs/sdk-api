@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPackageFamilyName, GetPackageFamilyName function [App packaging and management], appmodel/GetPackageFamilyName, appxpkg.getpackagefamilyname
 ms.topic: function
-f1_keywords: ["appmodel/GetPackageFamilyName"]
+f1_keywords: 
+ - "appmodel/GetPackageFamilyName"
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

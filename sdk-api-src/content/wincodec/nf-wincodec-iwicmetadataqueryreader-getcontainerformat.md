@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetContainerFormat, GetContainerFormat method [Windows Imaging Component], GetContainerFormat method [Windows Imaging Component],IWICMetadataQueryReader interface, IWICMetadataQueryReader interface [Windows Imaging Component],GetContainerFormat method, IWICMetadataQueryReader.GetContainerFormat, IWICMetadataQueryReader::GetContainerFormat, _wic_codec_iwicmetadataqueryreader_getcontainerformat, wic._wic_codec_iwicmetadataqueryreader_getcontainerformat, wincodec/IWICMetadataQueryReader::GetContainerFormat
 ms.topic: method
-f1_keywords: ["wincodec/IWICMetadataQueryReader.GetContainerFormat"]
+f1_keywords: 
+ - "wincodec/IWICMetadataQueryReader.GetContainerFormat"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

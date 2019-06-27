@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSSetPropertyValue, PSSetPropertyValue function [Windows Properties], _shell_PSSetPropertyValue, properties.PSSetPropertyValue, propsys/PSSetPropertyValue, shell.PSSetPropertyValue
 ms.topic: function
-f1_keywords: ["propsys/PSSetPropertyValue"]
+f1_keywords: 
+ - "propsys/PSSetPropertyValue"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

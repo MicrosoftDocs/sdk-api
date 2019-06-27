@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [RDP], Close method [RDP],IRDPSRAPITransportStream interface, IRDPSRAPITransportStream interface [RDP],Close method, IRDPSRAPITransportStream.Close, IRDPSRAPITransportStream::Close, rdp.irdpsrapitransportstream_close, rdpencomapi/IRDPSRAPITransportStream::Close
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPITransportStream.Close"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPITransportStream.Close"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

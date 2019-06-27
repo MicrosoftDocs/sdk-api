@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PerfCreateInstance, PerfCreateInstance function [Perf], base.perfcreateinstance, perf.perfcreateinstance, perflib/PerfCreateInstance
 ms.topic: function
-f1_keywords: ["perflib/PerfCreateInstance"]
+f1_keywords: 
+ - "perflib/PerfCreateInstance"
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

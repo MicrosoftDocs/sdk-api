@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CompleteOperations, CompleteOperations method [windows Media Format], CompleteOperations method [windows Media Format],IWMWriterFileSink3 interface, IWMWriterFileSink3 interface [windows Media Format],CompleteOperations method, IWMWriterFileSink3.CompleteOperations, IWMWriterFileSink3::CompleteOperations, IWMWriterFileSink3CompleteOperations, wmformat.iwmwriterfilesink3_completeoperations, wmsdkidl/IWMWriterFileSink3::CompleteOperations
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriterFileSink3.CompleteOperations"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriterFileSink3.CompleteOperations"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AppPolicyGetProcessTerminationMethod, AppPolicyGetProcessTerminationMethod function [App packaging and management], appmodel/AppPolicyGetProcessTerminationMethod, appxpkg.apppolicygetprocessterminationmethod_function
 ms.topic: function
-f1_keywords: ["appmodel/AppPolicyGetProcessTerminationMethod"]
+f1_keywords: 
+ - "appmodel/AppPolicyGetProcessTerminationMethod"
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

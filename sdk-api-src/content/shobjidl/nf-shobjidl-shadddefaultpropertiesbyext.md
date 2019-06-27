@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHAddDefaultPropertiesByExt, SHAddDefaultPropertiesByExt function [Windows Properties], _shell_SHAddDefaultPropertiesByExt, properties.SHAddDefaultPropertiesByExt, shell.SHAddDefaultPropertiesByExt, shobjidl/SHAddDefaultPropertiesByExt
 ms.topic: function
-f1_keywords: ["shobjidl/SHAddDefaultPropertiesByExt"]
+f1_keywords: 
+ - "shobjidl/SHAddDefaultPropertiesByExt"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

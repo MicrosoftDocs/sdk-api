@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IThreadPoolKnobs, IThreadPoolKnobs interface [COM+], IThreadPoolKnobs interface [COM+],described, _cos_IThreadPoolKnobs, comsvcs/IThreadPoolKnobs, cos.ithreadpoolknobs
 ms.topic: interface
-f1_keywords: ["comsvcs/IThreadPoolKnobs"]
+f1_keywords: 
+ - "comsvcs/IThreadPoolKnobs"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

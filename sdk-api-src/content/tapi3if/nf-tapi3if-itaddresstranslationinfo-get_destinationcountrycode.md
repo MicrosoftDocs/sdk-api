@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAddressTranslationInfo interface [TAPI 2.2],get_DestinationCountryCode method, ITAddressTranslationInfo.get_DestinationCountryCode, ITAddressTranslationInfo::get_DestinationCountryCode, _tapi3_itaddresstranslationinfo_get_destinationcountrycode, get_DestinationCountryCode, get_DestinationCountryCode method [TAPI 2.2], get_DestinationCountryCode method [TAPI 2.2],ITAddressTranslationInfo interface, tapi3.itaddresstranslationinfo_get_destinationcountrycode, tapi3if/ITAddressTranslationInfo::get_DestinationCountryCode
 ms.topic: method
-f1_keywords: ["tapi3if/ITAddressTranslationInfo.get_DestinationCountryCode"]
+f1_keywords: 
+ - "tapi3if/ITAddressTranslationInfo.get_DestinationCountryCode"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

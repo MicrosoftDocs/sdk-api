@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCD_Structures_3e3c709d-4dda-4a28-9aaa-2e0c54247601.xml, DISPLAYCONFIG_2DREGION, DISPLAYCONFIG_2DREGION structure [Display Devices], display.displayconfig_2dregion, wingdi/DISPLAYCONFIG_2DREGION
 ms.topic: struct
-f1_keywords: ["wingdi/DISPLAYCONFIG_2DREGION"]
+f1_keywords: 
+ - "wingdi/DISPLAYCONFIG_2DREGION"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

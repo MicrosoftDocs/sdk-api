@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DwmUpdateThumbnailProperties, DwmUpdateThumbnailProperties function [Desktop Window Manager], _udwm_dwmupdatethumbnailproperties, _udwm_dwmupdatethumbnailproperties_cpp, dwm.dwmupdatethumbnailproperties, dwmapi/DwmUpdateThumbnailProperties, winui._udwm_dwmupdatethumbnailproperties
 ms.topic: function
-f1_keywords: ["dwmapi/DwmUpdateThumbnailProperties"]
+f1_keywords: 
+ - "dwmapi/DwmUpdateThumbnailProperties"
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

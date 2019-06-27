@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpellChecker2 interface [Internationalization for Windows Applications],Remove method, ISpellChecker2.Remove, ISpellChecker2::Remove, Remove, Remove method [Internationalization for Windows Applications], Remove method [Internationalization for Windows Applications],ISpellChecker2 interface, intl.ispellchecker2_remove, spellcheck/ISpellChecker2::Remove
 ms.topic: method
-f1_keywords: ["spellcheck/ISpellChecker2.Remove"]
+f1_keywords: 
+ - "spellcheck/ISpellChecker2.Remove"
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMDSPObjectInfo interface [windows Media Device Manager],SetPlayLength method, IMDSPObjectInfo.SetPlayLength, IMDSPObjectInfo::SetPlayLength, IMDSPObjectInfoSetPlayLength, SetPlayLength, SetPlayLength method [windows Media Device Manager], SetPlayLength method [windows Media Device Manager],IMDSPObjectInfo interface, mswmdm/IMDSPObjectInfo::SetPlayLength, wmdm.imdspobjectinfo_setplaylength
 ms.topic: method
-f1_keywords: ["mswmdm/IMDSPObjectInfo.SetPlayLength"]
+f1_keywords: 
+ - "mswmdm/IMDSPObjectInfo.SetPlayLength"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

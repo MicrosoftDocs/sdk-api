@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],SupportUrl property, IUpdate.SupportUrl, IUpdate.get_SupportUrl, IUpdate::SupportUrl, IUpdate::get_SupportUrl, SupportUrl property [Windows Update Agent], SupportUrl property [Windows Update Agent],IUpdate interface, get_SupportUrl, wua.iupdate_supporturl, wuapi/IUpdate::SupportUrl, wuapi/IUpdate::get_SupportUrl
 ms.topic: method
-f1_keywords: ["wuapi/IUpdate.SupportUrl"]
+f1_keywords: 
+ - "wuapi/IUpdate.SupportUrl"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

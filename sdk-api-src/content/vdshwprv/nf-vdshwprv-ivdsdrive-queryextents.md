@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsDrive interface [VDS],QueryExtents method, IVdsDrive.QueryExtents, IVdsDrive::QueryExtents, QueryExtents, QueryExtents method [VDS], QueryExtents method [VDS],IVdsDrive interface, base.ivdsdrive_queryextents, vds/IVdsDrive::QueryExtents, vdshwprv/IVdsDrive::QueryExtents
 ms.topic: method
-f1_keywords: ["vdshwprv/IVdsDrive.QueryExtents"]
+f1_keywords: 
+ - "vdshwprv/IVdsDrive.QueryExtents"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

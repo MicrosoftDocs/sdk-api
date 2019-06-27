@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDWORD_DWORD, DWORD_DWORD, DWORD_DWORD structure [DHCP], LPDWORD_DWORD, LPDWORD_DWORD structure pointer [DHCP], dhcp.dword_dword, dhcpsapi/LPDWORD_DWORD, dhcpsapi/_DWORD_DWORD"
 ms.topic: struct
-f1_keywords: ["dhcpsapi/DWORD_DWORD"]
+f1_keywords: 
+ - "dhcpsapi/DWORD_DWORD"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

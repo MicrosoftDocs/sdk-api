@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [TAPI 2.2], Close method [TAPI 2.2],ITPhone interface, ITPhone interface [TAPI 2.2],Close method, ITPhone.Close, ITPhone::Close, _tapi3_itphone_close, tapi3.itphone_close, tapi3if/ITPhone::Close
 ms.topic: method
-f1_keywords: ["tapi3if/ITPhone.Close"]
+f1_keywords: 
+ - "tapi3if/ITPhone.Close"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

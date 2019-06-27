@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SysmonBatchAddCounters, SysmonBatchAddFiles, SysmonBatchNone, SysmonBatchReason, SysmonBatchReason enumeration [SysMon], isysmon/SysmonBatchAddCounters, isysmon/SysmonBatchAddFiles, isysmon/SysmonBatchNone, isysmon/SysmonBatchReason, sysmon.sysmonbatchreason
 ms.topic: enum
-f1_keywords: ["isysmon/SysmonBatchReason"]
+f1_keywords: 
+ - "isysmon/SysmonBatchReason"
 req.header: isysmon.h
 req.include-header: 
 req.target-type: Windows

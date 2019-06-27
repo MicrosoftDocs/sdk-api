@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_BufferingTime method, IAMNetShowConfig.get_BufferingTime, IAMNetShowConfig::get_BufferingTime, IAMNetShowConfigget_BufferingTime, dshow.iamnetshowconfig_get_bufferingtime, get_BufferingTime, get_BufferingTime method [DirectShow], get_BufferingTime method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_BufferingTime
 ms.topic: method
-f1_keywords: ["qnetwork/IAMNetShowConfig.get_BufferingTime"]
+f1_keywords: 
+ - "qnetwork/IAMNetShowConfig.get_BufferingTime"
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

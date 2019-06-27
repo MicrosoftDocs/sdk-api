@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMSecurityInfo, IGPMSecurityInfo, IGPMSecurityInfo interface [GPMC], IGPMSecurityInfo interface [GPMC],described, _win32_igpmsecurityinfo, gpmc.igpmsecurityinfo, gpmgmt/IGPMSecurityInfo
 ms.topic: interface
-f1_keywords: ["gpmgmt/IGPMSecurityInfo"]
+f1_keywords: 
+ - "gpmgmt/IGPMSecurityInfo"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

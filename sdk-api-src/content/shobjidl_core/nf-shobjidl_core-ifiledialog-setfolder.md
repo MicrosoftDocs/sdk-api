@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetFolder method, IFileDialog.SetFolder, IFileDialog::SetFolder, SetFolder, SetFolder method [Windows Shell], SetFolder method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetFolder, shell_IFileDialog_SetFolder, shobjidl_core/IFileDialog::SetFolder
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileDialog.SetFolder"]
+f1_keywords: 
+ - "shobjidl_core/IFileDialog.SetFolder"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

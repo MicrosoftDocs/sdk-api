@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumNetworks interface [Network Awareness],get__NewEnum method, IEnumNetworks.get__NewEnum, IEnumNetworks::get__NewEnum, get__NewEnum, get__NewEnum method [Network Awareness], get__NewEnum method [Network Awareness],IEnumNetworks interface, netlistmgr/IEnumNetworks::get__NewEnum, nla.ienumnetworks_get__newenum
 ms.topic: method
-f1_keywords: ["netlistmgr/IEnumNetworks.get__NewEnum"]
+f1_keywords: 
+ - "netlistmgr/IEnumNetworks.get__NewEnum"
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

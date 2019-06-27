@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMSignatureBlockResourceCollection.InsertAt, IXpsOMSignatureBlockResourceCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, xps.ixpsomsignatureblockresourcecollection_insertat, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::InsertAt
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMSignatureBlockResourceCollection.InsertAt"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMSignatureBlockResourceCollection.InsertAt"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

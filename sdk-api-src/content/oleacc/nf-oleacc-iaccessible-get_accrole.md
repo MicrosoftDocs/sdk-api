@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accRole method, IAccessible.get_accRole, IAccessible::get_accRole, _msaa_IAccessible_get_accRole, get_accRole, get_accRole method [Windows Accessibility], get_accRole method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accrole, oleacc/IAccessible::get_accRole, winauto.iaccessible_iaccessible__get_accrole
 ms.topic: method
-f1_keywords: ["oleacc/IAccessible.get_accRole"]
+f1_keywords: 
+ - "oleacc/IAccessible.get_accRole"
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

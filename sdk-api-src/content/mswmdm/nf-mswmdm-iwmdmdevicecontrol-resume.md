@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDMDeviceControl interface [windows Media Device Manager],Resume method, IWMDMDeviceControl.Resume, IWMDMDeviceControl::Resume, IWMDMDeviceControlResume, Resume, Resume method [windows Media Device Manager], Resume method [windows Media Device Manager],IWMDMDeviceControl interface, mswmdm/IWMDMDeviceControl::Resume, wmdm.iwmdmdevicecontrol_resume
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMDeviceControl.Resume"]
+f1_keywords: 
+ - "mswmdm/IWMDMDeviceControl.Resume"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

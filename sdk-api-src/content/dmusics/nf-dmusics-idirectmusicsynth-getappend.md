@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAppend, GetAppend method [Audio Devices], GetAppend method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],GetAppend method, IDirectMusicSynth.GetAppend, IDirectMusicSynth::GetAppend, audio.idirectmusicsynth_getappend, audmp-routines_691b2730-4c18-43c7-b5cd-1ee1f94c5e3d.xml, dmusics/IDirectMusicSynth::GetAppend
 ms.topic: method
-f1_keywords: ["dmusics/IDirectMusicSynth.GetAppend"]
+f1_keywords: 
+ - "dmusics/IDirectMusicSynth.GetAppend"
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop

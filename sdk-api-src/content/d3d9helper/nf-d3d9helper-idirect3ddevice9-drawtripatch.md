@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 4db7630f-e9d1-c5ec-df98-7a2f4cde37cc, DrawTriPatch, DrawTriPatch method [Direct3D 9], DrawTriPatch method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],DrawTriPatch method, IDirect3DDevice9.DrawTriPatch, IDirect3DDevice9::DrawTriPatch, d3d9helper/IDirect3DDevice9::DrawTriPatch, direct3d9.idirect3ddevice9__drawtripatch
 ms.topic: method
-f1_keywords: ["d3d9helper/IDirect3DDevice9.DrawTriPatch"]
+f1_keywords: 
+ - "d3d9helper/IDirect3DDevice9.DrawTriPatch"
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

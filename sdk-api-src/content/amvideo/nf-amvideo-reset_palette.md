@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RESET_PALETTE, RESET_PALETTE macro [DirectShow], amvideo/RESET_PALETTE, dshow.reset_palette
 ms.topic: macro
-f1_keywords: ["amvideo/RESET_PALETTE"]
+f1_keywords: 
+ - "amvideo/RESET_PALETTE"
 req.header: amvideo.h
 req.include-header: Streams.h
 req.target-type: Windows

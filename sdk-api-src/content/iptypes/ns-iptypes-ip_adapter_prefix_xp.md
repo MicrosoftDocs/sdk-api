@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIP_ADAPTER_PREFIX, *PIP_ADAPTER_PREFIX_XP, IP_ADAPTER_PREFIX, IP_ADAPTER_PREFIX structure [IP Helper], IP_ADAPTER_PREFIX_XP, PIP_ADAPTER_PREFIX, PIP_ADAPTER_PREFIX structure pointer [IP Helper], iphlp.ip_adapter_prefix, iptypes/IP_ADAPTER_PREFIX, iptypes/PIP_ADAPTER_PREFIX"
 ms.topic: struct
-f1_keywords: ["iptypes/IP_ADAPTER_PREFIX"]
+f1_keywords: 
+ - "iptypes/IP_ADAPTER_PREFIX"
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

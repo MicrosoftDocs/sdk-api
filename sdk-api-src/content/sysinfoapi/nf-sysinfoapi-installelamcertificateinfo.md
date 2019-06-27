@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InstallELAMCertificateInfo, InstallELAMCertificateInfo function, base.installelamcertificateinfo, sysinfoapi/InstallELAMCertificateInfo
 ms.topic: function
-f1_keywords: ["sysinfoapi/InstallELAMCertificateInfo"]
+f1_keywords: 
+ - "sysinfoapi/InstallELAMCertificateInfo"
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

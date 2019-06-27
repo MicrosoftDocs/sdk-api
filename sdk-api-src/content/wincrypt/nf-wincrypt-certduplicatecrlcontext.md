@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertDuplicateCRLContext, CertDuplicateCRLContext function [Security], _crypto2_certduplicatecrlcontext, security.certduplicatecrlcontext, wincrypt/CertDuplicateCRLContext
 ms.topic: function
-f1_keywords: ["wincrypt/CertDuplicateCRLContext"]
+f1_keywords: 
+ - "wincrypt/CertDuplicateCRLContext"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

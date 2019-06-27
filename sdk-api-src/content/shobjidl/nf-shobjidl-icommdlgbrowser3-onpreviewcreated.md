@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICommDlgBrowser3 interface [Windows Shell],OnPreViewCreated method, ICommDlgBrowser3.OnPreViewCreated, ICommDlgBrowser3::OnPreViewCreated, OnPreViewCreated, OnPreViewCreated method [Windows Shell], OnPreViewCreated method [Windows Shell],ICommDlgBrowser3 interface, _shell_ICommDlgBrowser3_OnPreViewCreated, shell.ICommDlgBrowser3_OnPreViewCreated, shobjidl/ICommDlgBrowser3::OnPreViewCreated
 ms.topic: method
-f1_keywords: ["shobjidl/ICommDlgBrowser3.OnPreViewCreated"]
+f1_keywords: 
+ - "shobjidl/ICommDlgBrowser3.OnPreViewCreated"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog2 interface [COM+],PauseApplicationInstances method, ICOMAdminCatalog2.PauseApplicationInstances, ICOMAdminCatalog2::PauseApplicationInstances, PauseApplicationInstances, PauseApplicationInstances method [COM+], PauseApplicationInstances method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_PauseApplicationInstances, comadmin/ICOMAdminCatalog2::PauseApplicationInstances, cos.icomadmincatalog2_pauseapplicationinstances
 ms.topic: method
-f1_keywords: ["comadmin/ICOMAdminCatalog2.PauseApplicationInstances"]
+f1_keywords: 
+ - "comadmin/ICOMAdminCatalog2.PauseApplicationInstances"
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

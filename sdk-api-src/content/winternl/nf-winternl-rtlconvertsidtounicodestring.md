@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlConvertSidToUnicodeString, RtlConvertSidToUnicodeString function [Security], security.rtlconvertsidtounicodestring, winternl/RtlConvertSidToUnicodeString
 ms.topic: function
-f1_keywords: ["winternl/RtlConvertSidToUnicodeString"]
+f1_keywords: 
+ - "winternl/RtlConvertSidToUnicodeString"
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

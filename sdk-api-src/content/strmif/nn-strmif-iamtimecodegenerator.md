@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMTimecodeGenerator, IAMTimecodeGenerator interface [DirectShow], IAMTimecodeGenerator interface [DirectShow],described, IAMTimecodeGeneratorInterface, dshow.iamtimecodegenerator, strmif/IAMTimecodeGenerator
 ms.topic: interface
-f1_keywords: ["strmif/IAMTimecodeGenerator"]
+f1_keywords: 
+ - "strmif/IAMTimecodeGenerator"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

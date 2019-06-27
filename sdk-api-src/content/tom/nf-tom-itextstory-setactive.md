@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextStory interface [Windows Controls],SetActive method, ITextStory.SetActive, ITextStory::SetActive, SetActive, SetActive method [Windows Controls], SetActive method [Windows Controls],ITextStory interface, controls.itextstory_setactive, tom/ITextStory::SetActive
 ms.topic: method
-f1_keywords: ["tom/ITextStory.SetActive"]
+f1_keywords: 
+ - "tom/ITextStory.SetActive"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

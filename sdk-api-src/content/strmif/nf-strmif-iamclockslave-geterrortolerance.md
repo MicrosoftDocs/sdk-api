@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetErrorTolerance, GetErrorTolerance method [DirectShow], GetErrorTolerance method [DirectShow],IAMClockSlave interface, IAMClockSlave interface [DirectShow],GetErrorTolerance method, IAMClockSlave.GetErrorTolerance, IAMClockSlave::GetErrorTolerance, IAMClockSlaveGetErrorTolerance, dshow.iamclockslave_geterrortolerance, strmif/IAMClockSlave::GetErrorTolerance
 ms.topic: method
-f1_keywords: ["strmif/IAMClockSlave.GetErrorTolerance"]
+f1_keywords: 
+ - "strmif/IAMClockSlave.GetErrorTolerance"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

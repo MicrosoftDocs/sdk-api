@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListBox_SelectString, ListBox_SelectString macro [Windows Controls], _win32_ListBox_SelectString, _win32_ListBox_SelectString_cpp, controls.ListBox_SelectString, controls._win32_ListBox_SelectString, windowsx/ListBox_SelectString
 ms.topic: macro
-f1_keywords: ["windowsx/ListBox_SelectString"]
+f1_keywords: 
+ - "windowsx/ListBox_SelectString"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

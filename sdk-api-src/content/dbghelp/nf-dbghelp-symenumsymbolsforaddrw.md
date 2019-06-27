@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymEnumSymbolsForAddr, SymEnumSymbolsForAddr function, SymEnumSymbolsForAddrW, _win32_symenumsymbolsforaddr, base.symenumsymbolsforaddr, dbghelp/SymEnumSymbolsForAddr, dbghelp/SymEnumSymbolsForAddrW
 ms.topic: function
-f1_keywords: ["dbghelp/SymEnumSymbolsForAddr"]
+f1_keywords: 
+ - "dbghelp/SymEnumSymbolsForAddr"
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

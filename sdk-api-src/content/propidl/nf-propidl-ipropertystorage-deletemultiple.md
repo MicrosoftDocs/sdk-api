@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteMultiple, DeleteMultiple method [Structured Storage], DeleteMultiple method [Structured Storage],IPropertyStorage interface, IPropertyStorage [Strctd Stg],DeleteMultiple, IPropertyStorage interface [Structured Storage],DeleteMultiple method, IPropertyStorage.DeleteMultiple, IPropertyStorage::DeleteMultiple, _stg_ipropertystorage_deletemultiple, propidl/IPropertyStorage::DeleteMultiple, stg.ipropertystorage_deletemultiple
 ms.topic: method
-f1_keywords: ["propidl/IPropertyStorage.DeleteMultiple"]
+f1_keywords: 
+ - "propidl/IPropertyStorage.DeleteMultiple"
 req.header: propidl.h
 req.include-header: Objbase.h, Propidlbase.h
 req.target-type: Windows

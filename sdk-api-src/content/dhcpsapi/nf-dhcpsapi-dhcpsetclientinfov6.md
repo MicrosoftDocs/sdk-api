@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpSetClientInfoV6, DhcpSetClientInfoV6 function [DHCP], dhcp.dhcpsetclientinfov6, dhcpsapi/DhcpSetClientInfoV6
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpSetClientInfoV6"]
+f1_keywords: 
+ - "dhcpsapi/DhcpSetClientInfoV6"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcAsyncRegisterInfo, RpcAsyncRegisterInfo function [RPC], _rpc_rpcasyncregisterinfo, rpc.rpcasyncregisterinfo, rpcasync/RpcAsyncRegisterInfo
 ms.topic: function
-f1_keywords: ["rpcasync/RpcAsyncRegisterInfo"]
+f1_keywords: 
+ - "rpcasync/RpcAsyncRegisterInfo"
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

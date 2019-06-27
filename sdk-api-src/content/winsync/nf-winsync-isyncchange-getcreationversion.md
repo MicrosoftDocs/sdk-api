@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCreationVersion, GetCreationVersion method [Windows Sync], GetCreationVersion method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetCreationVersion method, ISyncChange.GetCreationVersion, ISyncChange::GetCreationVersion, winsync.isyncchange_getcreationversion, winsync/ISyncChange::GetCreationVersion
 ms.topic: method
-f1_keywords: ["winsync/ISyncChange.GetCreationVersion"]
+f1_keywords: 
+ - "winsync/ISyncChange.GetCreationVersion"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

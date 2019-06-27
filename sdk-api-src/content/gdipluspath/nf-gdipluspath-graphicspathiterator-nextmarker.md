@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: GraphicsPathIterator::NextMarker
 ms.topic: language-reference
-f1_keywords: ["gdipluspath/GraphicsPathIterator::NextMarker"]
+f1_keywords: 
+ - "gdipluspath/GraphicsPathIterator::NextMarker"
 targetos: Windows
 product: Windows
 req.assembly: 

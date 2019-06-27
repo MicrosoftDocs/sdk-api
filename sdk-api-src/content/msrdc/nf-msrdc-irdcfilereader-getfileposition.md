@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFilePosition, GetFilePosition method [Remote Differential Compression], GetFilePosition method [Remote Differential Compression],IRdcFileReader interface, IRdcFileReader interface [Remote Differential Compression],GetFilePosition method, IRdcFileReader.GetFilePosition, IRdcFileReader::GetFilePosition, fs.irdcfilereader_getfileposition, msrdc/IRdcFileReader::GetFilePosition, rdc.irdcfilereader_getfileposition
 ms.topic: method
-f1_keywords: ["msrdc/IRdcFileReader.GetFilePosition"]
+f1_keywords: 
+ - "msrdc/IRdcFileReader.GetFilePosition"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

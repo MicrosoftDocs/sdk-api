@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisplayParseError, DisplayParseError method [Windows Shell], DisplayParseError method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],DisplayParseError method, IBrowserService.DisplayParseError, IBrowserService::DisplayParseError, shdeprecated/IBrowserService::DisplayParseError, shell.IBrowserService_DisplayParseError, zone_IBrowserService_DisplayParseError
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService.DisplayParseError"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService.DisplayParseError"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

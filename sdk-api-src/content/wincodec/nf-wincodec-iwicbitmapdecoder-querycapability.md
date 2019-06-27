@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapDecoder interface [Windows Imaging Component],QueryCapability method, IWICBitmapDecoder.QueryCapability, IWICBitmapDecoder::QueryCapability, QueryCapability, QueryCapability method [Windows Imaging Component], QueryCapability method [Windows Imaging Component],IWICBitmapDecoder interface, _wic_codec_iwicbitmapdecoder_querycapability, wic._wic_codec_iwicbitmapdecoder_querycapability, wincodec/IWICBitmapDecoder::QueryCapability
 ms.topic: method
-f1_keywords: ["wincodec/IWICBitmapDecoder.QueryCapability"]
+f1_keywords: 
+ - "wincodec/IWICBitmapDecoder.QueryCapability"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

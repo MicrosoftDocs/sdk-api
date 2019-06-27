@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],put_friendlyName method, IWMPSyncDevice.put_friendlyName, IWMPSyncDevice::put_friendlyName, IWMPSyncDeviceput_friendlyName, put_friendlyName, put_friendlyName method [Windows Media Player], put_friendlyName method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_put_friendlyname, wmp/IWMPSyncDevice::put_friendlyName
 ms.topic: method
-f1_keywords: ["wmp/IWMPSyncDevice.put_friendlyName"]
+f1_keywords: 
+ - "wmp/IWMPSyncDevice.put_friendlyName"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

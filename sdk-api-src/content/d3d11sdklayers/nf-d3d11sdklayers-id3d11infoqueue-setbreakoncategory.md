@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 17afaa7e-0f5c-964c-84e9-887599f0d947, ID3D11InfoQueue interface [Direct3D 11],SetBreakOnCategory method, ID3D11InfoQueue.SetBreakOnCategory, ID3D11InfoQueue::SetBreakOnCategory, SetBreakOnCategory, SetBreakOnCategory method [Direct3D 11], SetBreakOnCategory method [Direct3D 11],ID3D11InfoQueue interface, d3d11sdklayers/ID3D11InfoQueue::SetBreakOnCategory, direct3d11.id3d11infoqueue_setbreakoncategory
 ms.topic: method
-f1_keywords: ["d3d11sdklayers/ID3D11InfoQueue.SetBreakOnCategory"]
+f1_keywords: 
+ - "d3d11sdklayers/ID3D11InfoQueue.SetBreakOnCategory"
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

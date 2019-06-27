@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisableSystemKeystrokeFeed, DisableSystemKeystrokeFeed method [Text Services Framework], DisableSystemKeystrokeFeed method [Text Services Framework],ITfConfigureSystemKeystrokeFeed interface, ITfConfigureSystemKeystrokeFeed interface [Text Services Framework],DisableSystemKeystrokeFeed method, ITfConfigureSystemKeystrokeFeed.DisableSystemKeystrokeFeed, ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed, _tsf_itfconfiguresystemkeystrokefeed_disablesystemkeystrokefeed_ref, msctf/ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed, tsf.itfconfiguresystemkeystrokefeed_disablesystemkeystrokefeed
 ms.topic: method
-f1_keywords: ["msctf/ITfConfigureSystemKeystrokeFeed.DisableSystemKeystrokeFeed"]
+f1_keywords: 
+ - "msctf/ITfConfigureSystemKeystrokeFeed.DisableSystemKeystrokeFeed"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

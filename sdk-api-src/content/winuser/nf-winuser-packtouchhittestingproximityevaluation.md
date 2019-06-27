@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PackTouchHitTestingProximityEvaluation, PackTouchHitTestingProximityEvaluation function, input_touchhittest.packtouchhittestingproximityevaluation, touch_hittest.packtouchhittestingproximityevaluation, winuser/PackTouchHitTestingProximityEvaluation
 ms.topic: function
-f1_keywords: ["winuser/PackTouchHitTestingProximityEvaluation"]
+f1_keywords: 
+ - "winuser/PackTouchHitTestingProximityEvaluation"
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

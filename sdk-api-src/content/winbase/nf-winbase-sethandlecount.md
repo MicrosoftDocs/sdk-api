@@ -4,6 +4,8 @@ title: SetHandleCount
 ms.date: 4/26/2019
 ms.keywords: SetHandleCount
 ms.topic: language-reference
+f1_keywords:
+ - "winbase/SetHandleCount"
 targetos: Windows
 product: Windows
 req.assembly: 
@@ -52,4 +54,5 @@ The number of available file handles.
 ## -remarks
 
 ## -see-also
-
+f1_keywords: 
+ - "winbase/SetFirmwareEnvironmentVariable"

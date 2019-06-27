@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADSI_DIALECT_ENUM, ADSI_DIALECT_ENUM enumeration [ADSI], ADSI_DIALECT_LDAP, ADSI_DIALECT_SQL, _ds_adsi_dialect_enum, adsi.adsi__dialect__enum, adsi.adsi_dialect_enum, iads/ADSI_DIALECT_ENUM, iads/ADSI_DIALECT_LDAP, iads/ADSI_DIALECT_SQL
 ms.topic: enum
-f1_keywords: ["iads/ADSI_DIALECT_ENUM"]
+f1_keywords: 
+ - "iads/ADSI_DIALECT_ENUM"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

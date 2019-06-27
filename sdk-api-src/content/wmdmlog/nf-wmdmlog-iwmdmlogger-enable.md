@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method [windows Media Device Manager], Enable method [windows Media Device Manager],IWMDMLogger interface, IWMDMLogger interface [windows Media Device Manager],Enable method, IWMDMLogger.Enable, IWMDMLogger::Enable, IWMDMLoggerEnable, wmdm.iwmdmlogger_enable, wmdmlog/IWMDMLogger::Enable
 ms.topic: method
-f1_keywords: ["wmdmlog/IWMDMLogger.Enable"]
+f1_keywords: 
+ - "wmdmlog/IWMDMLogger.Enable"
 req.header: wmdmlog.h
 req.include-header: 
 req.target-type: Windows

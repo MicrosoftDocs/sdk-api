@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutboundRoutingGroups interface [Fax Service],get__NewEnum method, IFaxOutboundRoutingGroups.get__NewEnum, IFaxOutboundRoutingGroups::get__NewEnum, _mfax_ifaxoutboundroutinggroups_get__newenum, fax._mfax_ifaxoutboundroutinggroups_get__newenum, faxcomex/IFaxOutboundRoutingGroups::get__NewEnum, get__NewEnum, get__NewEnum method [Fax Service], get__NewEnum method [Fax Service],IFaxOutboundRoutingGroups interface
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxOutboundRoutingGroups.get__NewEnum"]
+f1_keywords: 
+ - "faxcomex/IFaxOutboundRoutingGroups.get__NewEnum"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

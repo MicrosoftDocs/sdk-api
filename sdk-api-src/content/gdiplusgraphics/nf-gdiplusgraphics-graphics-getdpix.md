@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDpiX, GetDpiX method [GDI+], GetDpiX method [GDI+],Graphics class, Graphics class [GDI+],GetDpiX method, Graphics.GetDpiX, Graphics::GetDpiX, _gdiplus_CLASS_Graphics_GetDpiX_, gdiplus._gdiplus_CLASS_Graphics_GetDpiX_
 ms.topic: method
-f1_keywords: ["gdiplusgraphics/Graphics.GetDpiX"]
+f1_keywords: 
+ - "gdiplusgraphics/Graphics.GetDpiX"
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

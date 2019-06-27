@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_VOLUME_PLEX_STATUS, VDS_VOLUME_PLEX_STATUS enumeration [VDS], VDS_VPS_FAILED, VDS_VPS_NO_MEDIA, VDS_VPS_ONLINE, VDS_VPS_UNKNOWN, base.vds_volume_plex_status, vds/VDS_VOLUME_PLEX_STATUS, vds/VDS_VPS_FAILED, vds/VDS_VPS_NO_MEDIA, vds/VDS_VPS_ONLINE, vds/VDS_VPS_UNKNOWN
 ms.topic: enum
-f1_keywords: ["vds/VDS_VOLUME_PLEX_STATUS"]
+f1_keywords: 
+ - "vds/VDS_VOLUME_PLEX_STATUS"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

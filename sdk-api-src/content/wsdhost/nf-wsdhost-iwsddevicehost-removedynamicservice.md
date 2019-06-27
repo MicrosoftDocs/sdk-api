@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,RemoveDynamicService method, IWSDDeviceHost.RemoveDynamicService, IWSDDeviceHost::RemoveDynamicService, RemoveDynamicService, RemoveDynamicService method, RemoveDynamicService method,IWSDDeviceHost interface, ncd.iwsddevicehost_removedynamicservice_method, wsdhost/IWSDDeviceHost::RemoveDynamicService
 ms.topic: method
-f1_keywords: ["wsdhost/IWSDDeviceHost.RemoveDynamicService"]
+f1_keywords: 
+ - "wsdhost/IWSDDeviceHost.RemoveDynamicService"
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

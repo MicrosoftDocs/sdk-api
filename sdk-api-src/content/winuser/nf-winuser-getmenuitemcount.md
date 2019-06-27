@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMenuItemCount, GetMenuItemCount function [Menus and Other Resources], _win32_GetMenuItemCount, _win32_getmenuitemcount_cpp, menurc.getmenuitemcount, winui._win32_getmenuitemcount, winuser/GetMenuItemCount
 ms.topic: function
-f1_keywords: ["winuser/GetMenuItemCount"]
+f1_keywords: 
+ - "winuser/GetMenuItemCount"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

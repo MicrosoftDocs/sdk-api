@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsDlgButtonChecked, IsDlgButtonChecked function [Windows Controls], _win32_IsDlgButtonChecked, _win32_IsDlgButtonChecked_cpp, controls.IsDlgButtonChecked, controls._win32_IsDlgButtonChecked, winuser/IsDlgButtonChecked
 ms.topic: function
-f1_keywords: ["winuser/IsDlgButtonChecked"]
+f1_keywords: 
+ - "winuser/IsDlgButtonChecked"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

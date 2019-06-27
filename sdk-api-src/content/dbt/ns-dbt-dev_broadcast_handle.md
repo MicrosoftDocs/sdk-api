@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDEV_BROADCAST_HANDLE, DEV_BROADCAST_HANDLE, DEV_BROADCAST_HANDLE structure, PDEV_BROADCAST_HANDLE, PDEV_BROADCAST_HANDLE structure pointer, _win32_dev_broadcast_handle_str, base.dev_broadcast_handle_str, dbt/DEV_BROADCAST_HANDLE, dbt/PDEV_BROADCAST_HANDLE"
 ms.topic: struct
-f1_keywords: ["dbt/DEV_BROADCAST_HANDLE"]
+f1_keywords: 
+ - "dbt/DEV_BROADCAST_HANDLE"
 req.header: dbt.h
 req.include-header: 
 req.target-type: Windows

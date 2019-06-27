@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIndividualEmmMessage, GetIndividualEmmMessage method [Microsoft TV Technologies], GetIndividualEmmMessage method [Microsoft TV Technologies],IISDB_EMM interface, IISDB_EMM interface [Microsoft TV Technologies],GetIndividualEmmMessage method, IISDB_EMM.GetIndividualEmmMessage, IISDB_EMM::GetIndividualEmmMessage, dvbsiparser/IISDB_EMM::GetIndividualEmmMessage, mstv.iisdb_emm_getindividualemmmessage
 ms.topic: method
-f1_keywords: ["dvbsiparser/IISDB_EMM.GetIndividualEmmMessage"]
+f1_keywords: 
+ - "dvbsiparser/IISDB_EMM.GetIndividualEmmMessage"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

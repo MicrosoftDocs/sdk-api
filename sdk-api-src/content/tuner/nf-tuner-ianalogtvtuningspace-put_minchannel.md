@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],put_MinChannel method, IAnalogTVTuningSpace.put_MinChannel, IAnalogTVTuningSpace::put_MinChannel, IAnalogTVTuningSpaceput_MinChannel, mstv.ianalogtvtuningspace_put_minchannel, put_MinChannel, put_MinChannel method [Microsoft TV Technologies], put_MinChannel method [Microsoft TV Technologies],IAnalogTVTuningSpace interface, tuner/IAnalogTVTuningSpace::put_MinChannel
 ms.topic: method
-f1_keywords: ["tuner/IAnalogTVTuningSpace.put_MinChannel"]
+f1_keywords: 
+ - "tuner/IAnalogTVTuningSpace.put_MinChannel"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

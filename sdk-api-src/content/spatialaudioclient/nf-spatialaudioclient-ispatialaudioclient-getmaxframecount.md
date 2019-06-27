@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMaxFrameCount, GetMaxFrameCount method [Core Audio], GetMaxFrameCount method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],GetMaxFrameCount method, ISpatialAudioClient.GetMaxFrameCount, ISpatialAudioClient::GetMaxFrameCount, coreaudio.ispatialaudioclient_getmaxframecount, spatialaudioclient/ISpatialAudioClient::GetMaxFrameCount
 ms.topic: method
-f1_keywords: ["spatialaudioclient/ISpatialAudioClient.GetMaxFrameCount"]
+f1_keywords: 
+ - "spatialaudioclient/ISpatialAudioClient.GetMaxFrameCount"
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

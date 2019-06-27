@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISecurityProperty interface [COM+],ReleaseSID method, ISecurityProperty.ReleaseSID, ISecurityProperty::ReleaseSID, ReleaseSID, ReleaseSID method [COM+], ReleaseSID method [COM+],ISecurityProperty interface, _cos_ISecurityProperty_ReleaseSID, comsvcs/ISecurityProperty::ReleaseSID, cos.isecurityproperty_releasesid
 ms.topic: method
-f1_keywords: ["comsvcs/ISecurityProperty.ReleaseSID"]
+f1_keywords: 
+ - "comsvcs/ISecurityProperty.ReleaseSID"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

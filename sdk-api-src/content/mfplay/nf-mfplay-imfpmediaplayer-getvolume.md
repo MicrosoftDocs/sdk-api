@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVolume, GetVolume method [Media Foundation], GetVolume method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetVolume method, IMFPMediaPlayer.GetVolume, IMFPMediaPlayer::GetVolume, mf.imfpmediaplayer_getvolume, mfplay/IMFPMediaPlayer::GetVolume
 ms.topic: method
-f1_keywords: ["mfplay/IMFPMediaPlayer.GetVolume"]
+f1_keywords: 
+ - "mfplay/IMFPMediaPlayer.GetVolume"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

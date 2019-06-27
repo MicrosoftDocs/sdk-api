@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNestedClassProps, GetNestedClassProps method [Windows Runtime], GetNestedClassProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetNestedClassProps method, IMetaDataImport.GetNestedClassProps, IMetaDataImport::GetNestedClassProps, rometadataapi/IMetaDataImport::GetNestedClassProps, winrt.imetadataimport_getnestedclassprops
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataImport.GetNestedClassProps"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataImport.GetNestedClassProps"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

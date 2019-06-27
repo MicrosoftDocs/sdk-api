@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateCommandAllocator, CreateCommandAllocator method, CreateCommandAllocator method,ID3D12Device interface, ID3D12Device interface,CreateCommandAllocator method, ID3D12Device.CreateCommandAllocator, ID3D12Device::CreateCommandAllocator, d3d12/ID3D12Device::CreateCommandAllocator, direct3d12.id3d12device_createcommandallocator
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12Device.CreateCommandAllocator"]
+f1_keywords: 
+ - "d3d12/ID3D12Device.CreateCommandAllocator"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

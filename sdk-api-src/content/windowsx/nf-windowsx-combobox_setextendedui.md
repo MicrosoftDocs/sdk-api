@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComboBox_SetExtendedUI, ComboBox_SetExtendedUI macro [Windows Controls], _win32_ComboBox_SetExtendedUI, _win32_ComboBox_SetExtendedUI_cpp, controls.ComboBox_SetExtendedUI, controls._win32_ComboBox_SetExtendedUI, windowsx/ComboBox_SetExtendedUI
 ms.topic: macro
-f1_keywords: ["windowsx/ComboBox_SetExtendedUI"]
+f1_keywords: 
+ - "windowsx/ComboBox_SetExtendedUI"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

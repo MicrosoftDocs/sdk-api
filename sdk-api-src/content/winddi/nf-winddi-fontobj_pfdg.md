@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FONTOBJ_pfdg, FONTOBJ_pfdg function [Display Devices], display.fontobj_pfdg, gdifncs_858ebe0b-c792-4472-967d-cdf46ec12c28.xml, winddi/FONTOBJ_pfdg
 ms.topic: function
-f1_keywords: ["winddi/FONTOBJ_pfdg"]
+f1_keywords: 
+ - "winddi/FONTOBJ_pfdg"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

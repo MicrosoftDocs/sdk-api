@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinHttpGetProxyForUrl, WinHttpGetProxyForUrl function [WinHTTP], http.winhttpgetproxyforurl, winhttp/WinHttpGetProxyForUrl
 ms.topic: function
-f1_keywords: ["winhttp/WinHttpGetProxyForUrl"]
+f1_keywords: 
+ - "winhttp/WinHttpGetProxyForUrl"
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Get, Get method [Windows Management Instrumentation], Get method [Windows Management Instrumentation],IWbemQualifierSet interface, IWbemQualifierSet interface [Windows Management Instrumentation],Get method, IWbemQualifierSet.Get, IWbemQualifierSet::Get, _hmm_iwbemqualifierset_get, wbemcli/IWbemQualifierSet::Get, wmi.iwbemqualifierset_get
 ms.topic: method
-f1_keywords: ["wbemcli/IWbemQualifierSet.Get"]
+f1_keywords: 
+ - "wbemcli/IWbemQualifierSet.Get"
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

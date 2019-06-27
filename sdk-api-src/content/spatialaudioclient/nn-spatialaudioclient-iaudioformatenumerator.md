@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioFormatEnumerator, IAudioFormatEnumerator interface [Core Audio], IAudioFormatEnumerator interface [Core Audio],described, coreaudio.iaudioformatenumerator, spatialaudioclient/IAudioFormatEnumerator
 ms.topic: interface
-f1_keywords: ["spatialaudioclient/IAudioFormatEnumerator"]
+f1_keywords: 
+ - "spatialaudioclient/IAudioFormatEnumerator"
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

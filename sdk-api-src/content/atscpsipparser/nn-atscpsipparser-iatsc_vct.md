@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], IATSC_VCT interface [Microsoft TV Technologies],described, IATSC_VCTInterface, atscpsipparser/IATSC_VCT, mstv.iatsc_vct
 ms.topic: interface
-f1_keywords: ["atscpsipparser/IATSC_VCT"]
+f1_keywords: 
+ - "atscpsipparser/IATSC_VCT"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

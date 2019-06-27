@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],ReleaseMedia method, IDiscFormat2TrackAtOnce.ReleaseMedia, IDiscFormat2TrackAtOnce::ReleaseMedia, ReleaseMedia, ReleaseMedia method [IMAPI], ReleaseMedia method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_releasemedia, imapi2/IDiscFormat2TrackAtOnce::ReleaseMedia
 ms.topic: method
-f1_keywords: ["imapi2/IDiscFormat2TrackAtOnce.ReleaseMedia"]
+f1_keywords: 
+ - "imapi2/IDiscFormat2TrackAtOnce.ReleaseMedia"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

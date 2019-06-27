@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtCreateBookmark, EvtCreateBookmark function [EventLog], wes.evtcreatebookmark, winevt/EvtCreateBookmark
 ms.topic: function
-f1_keywords: ["winevt/EvtCreateBookmark"]
+f1_keywords: 
+ - "winevt/EvtCreateBookmark"
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMsmConfigureModule interface,ProvideIntegerData method, IMsmConfigureModule.ProvideIntegerData, IMsmConfigureModule::ProvideIntegerData, ProvideIntegerData, ProvideIntegerData method, ProvideIntegerData method,IMsmConfigureModule interface, _msi_provideintegerdata_function, mergemod/IMsmConfigureModule::ProvideIntegerData, setup.imsmconfiguremodule_provideintegerdata
 ms.topic: method
-f1_keywords: ["mergemod/IMsmConfigureModule.ProvideIntegerData"]
+f1_keywords: 
+ - "mergemod/IMsmConfigureModule.ProvideIntegerData"
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

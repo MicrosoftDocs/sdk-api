@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SEARCH_COLUMN_PROPERTIES, SEARCH_COLUMN_PROPERTIES structure [search], _SEARCH_COLUMN_PROPERTIES, _search_SEARCH_COLUMN_PROPERTIES, search._search_SEARCH_COLUMN_PROPERTIES, searchapi/SEARCH_COLUMN_PROPERTIES
 ms.topic: struct
-f1_keywords: ["searchapi/SEARCH_COLUMN_PROPERTIES"]
+f1_keywords: 
+ - "searchapi/SEARCH_COLUMN_PROPERTIES"
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows

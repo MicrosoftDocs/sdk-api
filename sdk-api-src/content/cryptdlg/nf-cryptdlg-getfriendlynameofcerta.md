@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFriendlyNameOfCert, GetFriendlyNameOfCert function [Security], GetFriendlyNameOfCertA, GetFriendlyNameOfCertW, cryptdlg/GetFriendlyNameOfCert, cryptdlg/GetFriendlyNameOfCertA, cryptdlg/GetFriendlyNameOfCertW, security.getfriendlynameofcert
 ms.topic: function
-f1_keywords: ["cryptdlg/GetFriendlyNameOfCert"]
+f1_keywords: 
+ - "cryptdlg/GetFriendlyNameOfCert"
 req.header: cryptdlg.h
 req.include-header: 
 req.target-type: Windows

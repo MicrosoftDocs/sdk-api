@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IImageList interface [Windows Controls],SetOverlayImage method, IImageList.SetOverlayImage, IImageList::SetOverlayImage, SetOverlayImage, SetOverlayImage method [Windows Controls], SetOverlayImage method [Windows Controls],IImageList interface, comctl_IImageList_SetOverlayImage, comctl_IImageList_SetOverlayImage_cpp, commoncontrols/IImageList::SetOverlayImage, controls.IImageList_SetOverlayImage, controls.comctl_IImageList_SetOverlayImage
 ms.topic: method
-f1_keywords: ["commoncontrols/IImageList.SetOverlayImage"]
+f1_keywords: 
+ - "commoncontrols/IImageList.SetOverlayImage"
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

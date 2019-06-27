@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteNtmsDrive, DeleteNtmsDrive function [Files], _zaw_deletentmsdrive, base.deletentmsdrive, fs.deletentmsdrive, ntmsapi/DeleteNtmsDrive
 ms.topic: function
-f1_keywords: ["ntmsapi/DeleteNtmsDrive"]
+f1_keywords: 
+ - "ntmsapi/DeleteNtmsDrive"
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

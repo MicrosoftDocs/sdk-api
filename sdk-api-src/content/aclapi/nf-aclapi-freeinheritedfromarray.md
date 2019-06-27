@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeInheritedFromArray, FreeInheritedFromArray function [Security], _win32_freeinheritedfromarray, aclapi/FreeInheritedFromArray, security.freeinheritedfromarray
 ms.topic: function
-f1_keywords: ["aclapi/FreeInheritedFromArray"]
+f1_keywords: 
+ - "aclapi/FreeInheritedFromArray"
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

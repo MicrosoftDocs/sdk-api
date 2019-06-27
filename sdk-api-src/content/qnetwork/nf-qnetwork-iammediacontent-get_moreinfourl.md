@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_MoreInfoURL method, IAMMediaContent.get_MoreInfoURL, IAMMediaContent::get_MoreInfoURL, IAMMediaContentget_MoreInfoURL, dshow.iammediacontent_get_moreinfourl, get_MoreInfoURL, get_MoreInfoURL method [DirectShow], get_MoreInfoURL method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_MoreInfoURL
 ms.topic: method
-f1_keywords: ["qnetwork/IAMMediaContent.get_MoreInfoURL"]
+f1_keywords: 
+ - "qnetwork/IAMMediaContent.get_MoreInfoURL"
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

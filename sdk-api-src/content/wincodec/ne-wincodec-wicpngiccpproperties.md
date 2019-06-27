@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICPngIccpProfileData, WICPngIccpProfileName, WICPngIccpProperties, WICPngIccpProperties enumeration [Windows Imaging Component], _wic_codec_wicpngiccpproperties, wic._wic_codec_wicpngiccpproperties, wincodec/WICPngIccpProfileData, wincodec/WICPngIccpProfileName, wincodec/WICPngIccpProperties
 ms.topic: enum
-f1_keywords: ["wincodec/WICPngIccpProperties"]
+f1_keywords: 
+ - "wincodec/WICPngIccpProperties"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

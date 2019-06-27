@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemBitmapButton, ITfLangBarItemBitmapButton interface [Text Services Framework], ITfLangBarItemBitmapButton interface [Text Services Framework],described, _tsf_itflangbaritembitmapbutton_ref, ctfutb/ITfLangBarItemBitmapButton, tsf.itflangbaritembitmapbutton
 ms.topic: interface
-f1_keywords: ["ctfutb/ITfLangBarItemBitmapButton"]
+f1_keywords: 
+ - "ctfutb/ITfLangBarItemBitmapButton"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HrtfDistanceDecay, HrtfDistanceDecay structure [XAudio2 Audio Mixing APIs], PHrtfDistanceDecay, PHrtfDistanceDecay structure pointer [XAudio2 Audio Mixing APIs], hrtfapoapi/HrtfDistanceDecay, hrtfapoapi/PHrtfDistanceDecay, xaudio2.hrtfdistancedecay
 ms.topic: struct
-f1_keywords: ["hrtfapoapi/HrtfDistanceDecay"]
+f1_keywords: 
+ - "hrtfapoapi/HrtfDistanceDecay"
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows

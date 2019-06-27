@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumEventObject interface [COM+],Next method, IEnumEventObject.Next, IEnumEventObject::Next, Next, Next method [COM+], Next method [COM+],IEnumEventObject interface, _cos_ienumeventobject_next, cos.ienumeventobject_next, eventsys/IEnumEventObject::Next
 ms.topic: method
-f1_keywords: ["eventsys/IEnumEventObject.Next"]
+f1_keywords: 
+ - "eventsys/IEnumEventObject.Next"
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

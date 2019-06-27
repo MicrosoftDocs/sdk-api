@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?Commit@Provider@@IAEJPAVCInstance@@_N@Z, ?Commit@Provider@@IEAAJPEAVCInstance@@_N@Z, Commit, Commit method [Windows Management Instrumentation], Commit method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],Commit method, Provider.Commit, Provider::Commit, _hmm_provider_commit, provider/Provider::Commit, wmi.provider_commit"
 ms.topic: method
-f1_keywords: ["provider/Provider.Commit"]
+f1_keywords: 
+ - "provider/Provider.Commit"
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LIBRARYMANAGEDIALOGOPTIONS, LIBRARYMANAGEDIALOGOPTIONS enumeration [Windows Shell], LMD_ALLOWUNINDEXABLENETWORKLOCATIONS, LMD_DEFAULT, _shell_LIBRARYMANAGEDIALOGOPTIONS, shell.LIBRARYMANAGEDIALOGOPTIONS, shobjidl_core/LIBRARYMANAGEDIALOGOPTIONS, shobjidl_core/LMD_ALLOWUNINDEXABLENETWORKLOCATIONS, shobjidl_core/LMD_DEFAULT
 ms.topic: enum
-f1_keywords: ["shobjidl_core/LIBRARYMANAGEDIALOGOPTIONS"]
+f1_keywords: 
+ - "shobjidl_core/LIBRARYMANAGEDIALOGOPTIONS"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

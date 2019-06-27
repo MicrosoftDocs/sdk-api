@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHSaveLibraryInFolderPath, SHSaveLibraryInFolderPath function [Windows Shell], _shell_SHSaveLibraryInFolderPath, shell.SHSaveLibraryInFolderPath, shobjidl_core/SHSaveLibraryInFolderPath
 ms.topic: function
-f1_keywords: ["shobjidl_core/SHSaveLibraryInFolderPath"]
+f1_keywords: 
+ - "shobjidl_core/SHSaveLibraryInFolderPath"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

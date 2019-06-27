@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADS_PATHTYPE_ENUM, ADS_PATHTYPE_ENUM enumeration [ADSI], ADS_PATH_FILE, ADS_PATH_FILESHARE, ADS_PATH_REGISTRY, _ds_ads_pathtype_enum, adsi.ads__pathtype__enum, adsi.ads_pathtype_enum, iads/ADS_PATHTYPE_ENUM, iads/ADS_PATH_FILE, iads/ADS_PATH_FILESHARE, iads/ADS_PATH_REGISTRY
 ms.topic: enum
-f1_keywords: ["iads/ADS_PATHTYPE_ENUM"]
+f1_keywords: 
+ - "iads/ADS_PATHTYPE_ENUM"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMonthlyTrigger, IMonthlyTrigger interface [Task Scheduler], IMonthlyTrigger interface [Task Scheduler],described, monthly trigger [Task Scheduler],interface, taskschd.imonthlytrigger, taskschd/IMonthlyTrigger
 ms.topic: interface
-f1_keywords: ["taskschd/IMonthlyTrigger"]
+f1_keywords: 
+ - "taskschd/IMonthlyTrigger"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

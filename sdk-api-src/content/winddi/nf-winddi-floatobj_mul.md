@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FLOATOBJ_Mul, FLOATOBJ_Mul function [Display Devices], display.floatobj_mul, gdifncs_1647a791-7781-4e67-a7b1-06b283c32b0b.xml, winddi/FLOATOBJ_Mul
 ms.topic: function
-f1_keywords: ["winddi/FLOATOBJ_Mul"]
+f1_keywords: 
+ - "winddi/FLOATOBJ_Mul"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

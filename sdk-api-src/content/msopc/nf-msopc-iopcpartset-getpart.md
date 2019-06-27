@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPart, GetPart method [Open Packaging Conventions], GetPart method [Open Packaging Conventions],IOpcPartSet interface, IOpcPartSet interface [Open Packaging Conventions],GetPart method, IOpcPartSet.GetPart, IOpcPartSet::GetPart, msopc/IOpcPartSet::GetPart, opc.iopcpartset_getpart
 ms.topic: method
-f1_keywords: ["msopc/IOpcPartSet.GetPart"]
+f1_keywords: 
+ - "msopc/IOpcPartSet.GetPart"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

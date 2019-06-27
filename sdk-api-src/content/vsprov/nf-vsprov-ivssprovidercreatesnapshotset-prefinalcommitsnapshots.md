@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssProviderCreateSnapshotSet interface [VSS],PreFinalCommitSnapshots method, IVssProviderCreateSnapshotSet.PreFinalCommitSnapshots, IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots, PreFinalCommitSnapshots, PreFinalCommitSnapshots method [VSS], PreFinalCommitSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, base.ivssprovidercreatesnapshotset_prefinalcommitsnapshots, vsprov/IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots
 ms.topic: method
-f1_keywords: ["vsprov/IVssProviderCreateSnapshotSet.PreFinalCommitSnapshots"]
+f1_keywords: 
+ - "vsprov/IVssProviderCreateSnapshotSet.PreFinalCommitSnapshots"
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

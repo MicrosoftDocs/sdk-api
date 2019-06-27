@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPAT_ENUM, *PAT_ENUM, AT_ENUM, AT_ENUM structure [Network Management], JOB_EXEC_ERROR, JOB_NONINTERACTIVE, JOB_RUNS_TODAY, JOB_RUN_PERIODICALLY, LPAT_ENUM, LPAT_ENUM structure pointer [Network Management], PAT_ENUM, PAT_ENUM structure pointer [Network Management], _win32_at_enum_str, lmat/AT_ENUM, lmat/LPAT_ENUM, lmat/PAT_ENUM, netmgmt.at_enum_str"
 ms.topic: struct
-f1_keywords: ["lmat/AT_ENUM"]
+f1_keywords: 
+ - "lmat/AT_ENUM"
 req.header: lmat.h
 req.include-header: Lm.h
 req.target-type: Windows

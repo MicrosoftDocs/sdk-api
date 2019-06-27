@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],QueryAuthenticatedChannel method, ID3D11VideoContext.QueryAuthenticatedChannel, ID3D11VideoContext::QueryAuthenticatedChannel, QueryAuthenticatedChannel, QueryAuthenticatedChannel method [Media Foundation], QueryAuthenticatedChannel method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::QueryAuthenticatedChannel, mf.id3d11videocontext_queryauthenticatedchannel
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11VideoContext.QueryAuthenticatedChannel"]
+f1_keywords: 
+ - "d3d11/ID3D11VideoContext.QueryAuthenticatedChannel"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

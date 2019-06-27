@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndPreprocessingPass, EndPreprocessingPass method [windows Media Format], EndPreprocessingPass method [windows Media Format],IWMWriterPreprocess interface, IWMWriterPreprocess interface [windows Media Format],EndPreprocessingPass method, IWMWriterPreprocess.EndPreprocessingPass, IWMWriterPreprocess::EndPreprocessingPass, IWMWriterPreprocessEndPreprocessingPass, wmformat.iwmwriterpreprocess_endpreprocessingpass, wmsdkidl/IWMWriterPreprocess::EndPreprocessingPass
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriterPreprocess.EndPreprocessingPass"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriterPreprocess.EndPreprocessingPass"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

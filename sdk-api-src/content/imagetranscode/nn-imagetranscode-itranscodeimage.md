@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITranscodeImage, ITranscodeImage interface [Windows Shell], ITranscodeImage interface [Windows Shell],described, _shell_ITranscodeImage, imagetranscode/ITranscodeImage, shell.ITranscodeImage
 ms.topic: interface
-f1_keywords: ["imagetranscode/ITranscodeImage"]
+f1_keywords: 
+ - "imagetranscode/ITranscodeImage"
 req.header: imagetranscode.h
 req.include-header: 
 req.target-type: Windows

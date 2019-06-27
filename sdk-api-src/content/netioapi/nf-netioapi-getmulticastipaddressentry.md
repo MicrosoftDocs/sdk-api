@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMulticastIpAddressEntry, GetMulticastIpAddressEntry function [IP Helper], iphlp.getmulticastipaddressentry, netioapi/GetMulticastIpAddressEntry
 ms.topic: function
-f1_keywords: ["netioapi/GetMulticastIpAddressEntry"]
+f1_keywords: 
+ - "netioapi/GetMulticastIpAddressEntry"
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

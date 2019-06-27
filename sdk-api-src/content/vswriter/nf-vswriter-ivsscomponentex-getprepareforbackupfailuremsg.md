@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPrepareForBackupFailureMsg, GetPrepareForBackupFailureMsg method, GetPrepareForBackupFailureMsg method,IVssComponentEx interface, IVssComponentEx interface,GetPrepareForBackupFailureMsg method, IVssComponentEx.GetPrepareForBackupFailureMsg, IVssComponentEx::GetPrepareForBackupFailureMsg, base.ivsscomponentex_getprepareforbackupfailuremsg, vswriter/IVssComponentEx::GetPrepareForBackupFailureMsg
 ms.topic: method
-f1_keywords: ["vswriter/IVssComponentEx.GetPrepareForBackupFailureMsg"]
+f1_keywords: 
+ - "vswriter/IVssComponentEx.GetPrepareForBackupFailureMsg"
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcAsyncAbortCall, RpcAsyncAbortCall function [RPC], _rpc_rpcasyncabortcall, rpc.rpcasyncabortcall, rpcasync/RpcAsyncAbortCall
 ms.topic: function
-f1_keywords: ["rpcasync/RpcAsyncAbortCall"]
+f1_keywords: 
+ - "rpcasync/RpcAsyncAbortCall"
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

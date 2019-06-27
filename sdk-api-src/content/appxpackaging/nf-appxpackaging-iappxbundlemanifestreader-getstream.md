@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [App packaging and management], GetStream method [App packaging and management],IAppxBundleManifestReader interface, IAppxBundleManifestReader interface [App packaging and management],GetStream method, IAppxBundleManifestReader.GetStream, IAppxBundleManifestReader::GetStream, appxpackaging/IAppxBundleManifestReader::GetStream, appxpkg.iappxbundlemanifestreader_getstream
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxBundleManifestReader.GetStream"]
+f1_keywords: 
+ - "appxpackaging/IAppxBundleManifestReader.GetStream"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkPresenterDesktop interface,SetSize method, IInkPresenterDesktop.SetSize, IInkPresenterDesktop::SetSize, InkPresenterDesktop.iinkpresenterdesktop_setsize, SetSize, SetSize method, SetSize method,IInkPresenterDesktop interface, inkpresenterdesktop/IInkPresenterDesktop::SetSize, input_ink.iinkpresenterdesktop_setsize
 ms.topic: method
-f1_keywords: ["inkpresenterdesktop/IInkPresenterDesktop.SetSize"]
+f1_keywords: 
+ - "inkpresenterdesktop/IInkPresenterDesktop.SetSize"
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows

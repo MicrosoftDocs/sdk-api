@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EncryptPackage, EncryptPackage method [App packaging and management], EncryptPackage method [App packaging and management],IAppxEncryptionFactory3 interface, IAppxEncryptionFactory3 interface [App packaging and management],EncryptPackage method, IAppxEncryptionFactory3.EncryptPackage, IAppxEncryptionFactory3::EncryptPackage, appxpackaging/IAppxEncryptionFactory3::EncryptPackage, appxpkg.iappxencryptionfactory3_encryptpackage
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxEncryptionFactory3.EncryptPackage"]
+f1_keywords: 
+ - "appxpackaging/IAppxEncryptionFactory3.EncryptPackage"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

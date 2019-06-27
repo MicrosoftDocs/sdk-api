@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: APPLICATION_VIEW_SIZE_PREFERENCE, APPLICATION_VIEW_SIZE_PREFERENCE enumeration [Windows Shell], AVSP_DEFAULT, AVSP_USE_HALF, AVSP_USE_LESS, AVSP_USE_MINIMUM, AVSP_USE_MORE, AVSP_USE_NONE, shell.APPLICATION_VIEW_SIZE_PREFERENCE, shobjidl_core/APPLICATION_VIEW_SIZE_PREFERENCE, shobjidl_core/AVSP_DEFAULT, shobjidl_core/AVSP_USE_HALF, shobjidl_core/AVSP_USE_LESS, shobjidl_core/AVSP_USE_MINIMUM, shobjidl_core/AVSP_USE_MORE, shobjidl_core/AVSP_USE_NONE
 ms.topic: enum
-f1_keywords: ["shobjidl_core/APPLICATION_VIEW_SIZE_PREFERENCE"]
+f1_keywords: 
+ - "shobjidl_core/APPLICATION_VIEW_SIZE_PREFERENCE"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

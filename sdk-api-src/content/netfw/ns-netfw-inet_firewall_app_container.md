@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PINET_FIREWALL_APP_CONTAINER, INET_FIREWALL_APP_CONTAINER, INET_FIREWALL_APP_CONTAINER structure [ICS/ICF], PINET_FIREWALL_APP_CONTAINER, PINET_FIREWALL_APP_CONTAINER structure pointer [ICS/ICF], _INET_FIREWALL_APP_CONTAINER, ics.inet_firewall_app_container, networkisolation/INET_FIREWALL_APP_CONTAINER, networkisolation/PINET_FIREWALL_APP_CONTAINER"
 ms.topic: struct
-f1_keywords: ["netfw/INET_FIREWALL_APP_CONTAINER"]
+f1_keywords: 
+ - "netfw/INET_FIREWALL_APP_CONTAINER"
 req.header: netfw.h
 req.include-header: Netfw.h
 req.target-type: Windows

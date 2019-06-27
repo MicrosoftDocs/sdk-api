@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RM_RECEIVER_STATS, RM_RECEIVER_STATS structure [Winsock], winsock.rm_receiver_stats, wsrm/RM_RECEIVER_STATS
 ms.topic: struct
-f1_keywords: ["wsrm/RM_RECEIVER_STATS"]
+f1_keywords: 
+ - "wsrm/RM_RECEIVER_STATS"
 req.header: wsrm.h
 req.include-header: 
 req.target-type: Windows

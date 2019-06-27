@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkRecognizerContext, IInkRecognizerContext interface [Tablet PC], IInkRecognizerContext interface [Tablet PC],described, msinkaut/IInkRecognizerContext, tablet.iinkrecognizercontext
 ms.topic: interface
-f1_keywords: ["msinkaut/IInkRecognizerContext"]
+f1_keywords: 
+ - "msinkaut/IInkRecognizerContext"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateBitmapFromSourceRect, CreateBitmapFromSourceRect method [Windows Imaging Component], CreateBitmapFromSourceRect method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateBitmapFromSourceRect method, IWICImagingFactory.CreateBitmapFromSourceRect, IWICImagingFactory::CreateBitmapFromSourceRect, _wic_codec_iwicimagingfactory_createbitmapfromsourcerect, wic._wic_codec_iwicimagingfactory_createbitmapfromsourcerect, wincodec/IWICImagingFactory::CreateBitmapFromSourceRect
 ms.topic: method
-f1_keywords: ["wincodec/IWICImagingFactory.CreateBitmapFromSourceRect"]
+f1_keywords: 
+ - "wincodec/IWICImagingFactory.CreateBitmapFromSourceRect"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

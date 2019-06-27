@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsServiceIscsi, IVdsServiceIscsi interface [VDS], IVdsServiceIscsi interface [VDS],described, base.ivdsserviceiscsi, vds/IVdsServiceIscsi
 ms.topic: interface
-f1_keywords: ["vds/IVdsServiceIscsi"]
+f1_keywords: 
+ - "vds/IVdsServiceIscsi"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

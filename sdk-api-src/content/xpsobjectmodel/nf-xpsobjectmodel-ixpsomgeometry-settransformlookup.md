@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometry interface [XPS Documents and Packaging],SetTransformLookup method, IXpsOMGeometry.SetTransformLookup, IXpsOMGeometry::SetTransformLookup, SetTransformLookup, SetTransformLookup method [XPS Documents and Packaging], SetTransformLookup method [XPS Documents and Packaging],IXpsOMGeometry interface, xps.ixpsomgeometry_settransformlookup, xpsobjectmodel/IXpsOMGeometry::SetTransformLookup
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGeometry.SetTransformLookup"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGeometry.SetTransformLookup"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

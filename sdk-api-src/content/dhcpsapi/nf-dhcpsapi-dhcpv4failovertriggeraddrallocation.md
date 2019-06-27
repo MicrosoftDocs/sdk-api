@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpV4FailoverTriggerAddrAllocation, DhcpV4FailoverTriggerAddrAllocation function [DHCP], dhcp.dhcpv4failovertriggeraddrallocation, dhcpsapi/DhcpV4FailoverTriggerAddrAllocation
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpV4FailoverTriggerAddrAllocation"]
+f1_keywords: 
+ - "dhcpsapi/DhcpV4FailoverTriggerAddrAllocation"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

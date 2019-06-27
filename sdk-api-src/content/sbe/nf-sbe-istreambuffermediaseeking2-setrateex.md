@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferMediaSeeking2 interface [Microsoft TV Technologies],SetRateEx method, IStreamBufferMediaSeeking2.SetRateEx, IStreamBufferMediaSeeking2::SetRateEx, IStreamBufferMediaSeeking2SetRateEx, SetRateEx, SetRateEx method [Microsoft TV Technologies], SetRateEx method [Microsoft TV Technologies],IStreamBufferMediaSeeking2 interface, mstv.istreambuffermediaseeking2_setrateex, sbe/IStreamBufferMediaSeeking2::SetRateEx
 ms.topic: method
-f1_keywords: ["sbe/IStreamBufferMediaSeeking2.SetRateEx"]
+f1_keywords: 
+ - "sbe/IStreamBufferMediaSeeking2.SetRateEx"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_CREATE_USN_JOURNAL, FSCTL_CREATE_USN_JOURNAL control, FSCTL_CREATE_USN_JOURNAL control code [Files], _win32_fsctl_create_usn_journal, base.fsctl_create_usn_journal, fs.fsctl_create_usn_journal, winioctl/FSCTL_CREATE_USN_JOURNAL
 ms.topic: ioctl
-f1_keywords: ["winioctl/FSCTL_CREATE_USN_JOURNAL"]
+f1_keywords: 
+ - "winioctl/FSCTL_CREATE_USN_JOURNAL"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

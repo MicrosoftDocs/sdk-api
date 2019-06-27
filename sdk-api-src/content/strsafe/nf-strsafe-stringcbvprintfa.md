@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StringCbVPrintf, StringCbVPrintf function [Menus and Other Resources], StringCbVPrintfA, StringCbVPrintfW, _shell_StringCbVPrintf, _shell_stringcbvprintf_cpp, menurc.stringcbvprintf, strsafe/StringCbVPrintf, strsafe/StringCbVPrintfA, strsafe/StringCbVPrintfW, winui._shell_stringcbvprintf
 ms.topic: function
-f1_keywords: ["strsafe/StringCbVPrintf"]
+f1_keywords: 
+ - "strsafe/StringCbVPrintf"
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows

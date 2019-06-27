@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_GetVideoProcessBltStatePrivate, PDXVAHDSW_GetVideoProcessBltStatePrivate callback, PDXVAHDSW_GetVideoProcessBltStatePrivate callback function [Media Foundation], dxvahd/PDXVAHDSW_GetVideoProcessBltStatePrivate, mf.pdxvahdsw_getvideoprocessbltstateprivate
 ms.topic: callback
-f1_keywords: ["dxvahd/PDXVAHDSW_GetVideoProcessBltStatePrivate"]
+f1_keywords: 
+ - "dxvahd/PDXVAHDSW_GetVideoProcessBltStatePrivate"
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

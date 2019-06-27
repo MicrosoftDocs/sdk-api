@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],enumContainersWStr method, IEnroll.enumContainersWStr, IEnroll::enumContainersWStr, enumContainersWStr, enumContainersWStr method [Security], enumContainersWStr method [Security],IEnroll interface, security.ienroll4_enumcontainerswstr, xenroll/IEnroll::enumContainersWStr
 ms.topic: method
-f1_keywords: ["xenroll/IEnroll.enumContainersWStr"]
+f1_keywords: 
+ - "xenroll/IEnroll.enumContainersWStr"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

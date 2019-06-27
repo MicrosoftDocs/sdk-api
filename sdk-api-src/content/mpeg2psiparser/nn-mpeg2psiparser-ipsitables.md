@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPSITables, IPSITables interface [Microsoft TV Technologies], IPSITables interface [Microsoft TV Technologies],described, mpeg2psiparser/IPSITables, mstv.ipsitables
 ms.topic: interface
-f1_keywords: ["mpeg2psiparser/IPSITables"]
+f1_keywords: 
+ - "mpeg2psiparser/IPSITables"
 req.header: mpeg2psiparser.h
 req.include-header: Mpeg2PsiParser.idl
 req.target-type: Windows

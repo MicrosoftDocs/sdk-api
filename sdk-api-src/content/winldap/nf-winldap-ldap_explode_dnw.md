@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_explode_dn, ldap.ldap__explode__dn, ldap.ldap_explode_dn, ldap_explode_dn, ldap_explode_dn function [LDAP], ldap_explode_dnA, ldap_explode_dnW, winldap/ldap_explode_dn, winldap/ldap_explode_dnA, winldap/ldap_explode_dnW"
 ms.topic: function
-f1_keywords: ["winldap/ldap_explode_dn"]
+f1_keywords: 
+ - "winldap/ldap_explode_dn"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

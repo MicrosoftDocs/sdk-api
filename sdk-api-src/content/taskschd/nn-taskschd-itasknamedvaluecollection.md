@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskNamedValueCollection, ITaskNamedValueCollection interface [Task Scheduler], ITaskNamedValueCollection interface [Task Scheduler],described, taskschd.itasknamedvaluecollection, taskschd/ITaskNamedValueCollection
 ms.topic: interface
-f1_keywords: ["taskschd/ITaskNamedValueCollection"]
+f1_keywords: 
+ - "taskschd/ITaskNamedValueCollection"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

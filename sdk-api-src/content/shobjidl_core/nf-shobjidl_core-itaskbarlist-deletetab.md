@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteTab, DeleteTab method [Windows Shell], DeleteTab method [Windows Shell],ITaskbarList interface, ITaskbarList interface [Windows Shell],DeleteTab method, ITaskbarList.DeleteTab, ITaskbarList::DeleteTab, _win32_ITaskbarList_DeleteTab, shell.ITaskbarList_DeleteTab, shobjidl_core/ITaskbarList::DeleteTab
 ms.topic: method
-f1_keywords: ["shobjidl_core/ITaskbarList.DeleteTab"]
+f1_keywords: 
+ - "shobjidl_core/ITaskbarList.DeleteTab"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

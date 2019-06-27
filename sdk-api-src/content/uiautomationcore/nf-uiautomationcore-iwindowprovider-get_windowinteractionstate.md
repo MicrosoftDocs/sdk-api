@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWindowProvider interface [Windows Accessibility],WindowInteractionState property, IWindowProvider.WindowInteractionState, IWindowProvider.get_WindowInteractionState, IWindowProvider::WindowInteractionState, IWindowProvider::get_WindowInteractionState, WindowInteractionState property [Windows Accessibility], WindowInteractionState property [Windows Accessibility],IWindowProvider interface, get_WindowInteractionState, uiauto.uiauto_IWindowProvider_WindowInteractionState, uiauto_IWindowProvider_WindowInteractionState, uiautomationcore/IWindowProvider::WindowInteractionState, uiautomationcore/IWindowProvider::get_WindowInteractionState, winauto.uiauto_IWindowProvider_WindowInteractionState
 ms.topic: method
-f1_keywords: ["uiautomationcore/IWindowProvider.WindowInteractionState"]
+f1_keywords: 
+ - "uiautomationcore/IWindowProvider.WindowInteractionState"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

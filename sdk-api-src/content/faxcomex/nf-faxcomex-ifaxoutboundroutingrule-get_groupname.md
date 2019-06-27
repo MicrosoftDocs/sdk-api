@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GroupName property [Fax Service], GroupName property [Fax Service],IFaxOutboundRoutingRule interface, IFaxOutboundRoutingRule interface [Fax Service],GroupName property, IFaxOutboundRoutingRule.GroupName, IFaxOutboundRoutingRule.get_GroupName, IFaxOutboundRoutingRule.put_GroupName, IFaxOutboundRoutingRule::GroupName, IFaxOutboundRoutingRule::get_GroupName, IFaxOutboundRoutingRule::put_GroupName, _mfax_faxoutboundroutingrule.groupname, fax._mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_groupname_cpp, fax._mfax_faxoutboundroutingrule_groupname, faxcomex/IFaxOutboundRoutingRule::GroupName, faxcomex/IFaxOutboundRoutingRule::get_GroupName, faxcomex/IFaxOutboundRoutingRule::put_GroupName, get_GroupName
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxOutboundRoutingRule.GroupName"]
+f1_keywords: 
+ - "faxcomex/IFaxOutboundRoutingRule.GroupName"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

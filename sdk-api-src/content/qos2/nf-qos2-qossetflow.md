@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QOSSetFlow, QOSSetFlow function [QOS], QOSSetOutgoingDSCPValue, QOSSetOutgoingRate, QOSSetTrafficType, qos.qossetoutgoingrate, qos2/QOSSetFlow
 ms.topic: function
-f1_keywords: ["qos2/QOSSetFlow"]
+f1_keywords: 
+ - "qos2/QOSSetFlow"
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows

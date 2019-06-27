@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: STROBJ_vEnumStart, STROBJ_vEnumStart function [Display Devices], display.strobj_venumstart, gdifncs_f0be3fdf-8725-4f9c-8487-0aaa95a13ede.xml, winddi/STROBJ_vEnumStart
 ms.topic: function
-f1_keywords: ["winddi/STROBJ_vEnumStart"]
+f1_keywords: 
+ - "winddi/STROBJ_vEnumStart"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

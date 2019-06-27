@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMetaDataDispenser, IMetaDataDispenser interface [Windows Runtime], IMetaDataDispenser interface [Windows Runtime],described, rometadataapi/IMetaDataDispenser, winrt.imetadatadispenser
 ms.topic: interface
-f1_keywords: ["rometadataapi/IMetaDataDispenser"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataDispenser"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

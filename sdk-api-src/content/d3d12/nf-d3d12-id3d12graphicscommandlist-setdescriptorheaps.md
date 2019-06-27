@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetDescriptorHeaps method, ID3D12GraphicsCommandList.SetDescriptorHeaps, ID3D12GraphicsCommandList::SetDescriptorHeaps, SetDescriptorHeaps, SetDescriptorHeaps method, SetDescriptorHeaps method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetDescriptorHeaps, direct3d12.id3d12graphicscommandlist_setdescriptorheaps
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12GraphicsCommandList.SetDescriptorHeaps"]
+f1_keywords: 
+ - "d3d12/ID3D12GraphicsCommandList.SetDescriptorHeaps"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],IsHideOnDeactivate method, IFullScreenVideoEx.IsHideOnDeactivate, IFullScreenVideoEx::IsHideOnDeactivate, IFullScreenVideoIsHideOnDeactivate, IsHideOnDeactivate, IsHideOnDeactivate method [DirectShow], IsHideOnDeactivate method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::IsHideOnDeactivate, dshow.ifullscreenvideoex_ishideondeactivate
 ms.topic: method
-f1_keywords: ["amvideo/IFullScreenVideoEx.IsHideOnDeactivate"]
+f1_keywords: 
+ - "amvideo/IFullScreenVideoEx.IsHideOnDeactivate"
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

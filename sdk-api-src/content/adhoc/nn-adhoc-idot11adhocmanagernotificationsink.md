@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocManagerNotificationSink, IDot11AdHocManagerNotificationSink interface [NativeWIFI], IDot11AdHocManagerNotificationSink interface [NativeWIFI],described, adhoc/IDot11AdHocManagerNotificationSink, nwifi.idot11adhocmanagernotificationsink
 ms.topic: interface
-f1_keywords: ["adhoc/IDot11AdHocManagerNotificationSink"]
+f1_keywords: 
+ - "adhoc/IDot11AdHocManagerNotificationSink"
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

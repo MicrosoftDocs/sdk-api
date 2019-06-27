@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateEncryptedPackageWriter, CreateEncryptedPackageWriter method [App packaging and management], CreateEncryptedPackageWriter method [App packaging and management],IAppxEncryptionFactory2 interface, IAppxEncryptionFactory2 interface [App packaging and management],CreateEncryptedPackageWriter method, IAppxEncryptionFactory2.CreateEncryptedPackageWriter, IAppxEncryptionFactory2::CreateEncryptedPackageWriter, appxpackaging/IAppxEncryptionFactory2::CreateEncryptedPackageWriter, appxpkg.iappxencryptionfactory2_createencryptedpackagewriter
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxEncryptionFactory2.CreateEncryptedPackageWriter"]
+f1_keywords: 
+ - "appxpackaging/IAppxEncryptionFactory2.CreateEncryptedPackageWriter"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

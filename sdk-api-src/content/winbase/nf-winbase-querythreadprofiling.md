@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QueryThreadProfiling, QueryThreadProfiling function [Hardware Counter Profiling], hcp.querythreadprofiling, winbase/QueryThreadProfiling
 ms.topic: function
-f1_keywords: ["winbase/QueryThreadProfiling"]
+f1_keywords: 
+ - "winbase/QueryThreadProfiling"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

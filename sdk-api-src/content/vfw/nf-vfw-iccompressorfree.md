@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICCompressorFree, ICCompressorFree function [Windows Multimedia], _win32_ICCompressorFree, multimedia.iccompressorfree, vfw/ICCompressorFree
 ms.topic: function
-f1_keywords: ["vfw/ICCompressorFree"]
+f1_keywords: 
+ - "vfw/ICCompressorFree"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

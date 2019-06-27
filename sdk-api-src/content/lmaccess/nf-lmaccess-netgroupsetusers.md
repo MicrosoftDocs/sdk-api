@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, NetGroupSetUsers, NetGroupSetUsers function [Network Management], _win32_netgroupsetusers, lmaccess/NetGroupSetUsers, netmgmt.netgroupsetusers
 ms.topic: function
-f1_keywords: ["lmaccess/NetGroupSetUsers"]
+f1_keywords: 
+ - "lmaccess/NetGroupSetUsers"
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

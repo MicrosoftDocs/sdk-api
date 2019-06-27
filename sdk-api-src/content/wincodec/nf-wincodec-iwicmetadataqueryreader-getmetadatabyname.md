@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMetadataByName, GetMetadataByName method [Windows Imaging Component], GetMetadataByName method [Windows Imaging Component],IWICMetadataQueryReader interface, IWICMetadataQueryReader interface [Windows Imaging Component],GetMetadataByName method, IWICMetadataQueryReader.GetMetadataByName, IWICMetadataQueryReader::GetMetadataByName, _wic_codec_iwicmetadataqueryreader_getmetadatabyname, wic._wic_codec_iwicmetadataqueryreader_getmetadatabyname, wincodec/IWICMetadataQueryReader::GetMetadataByName
 ms.topic: method
-f1_keywords: ["wincodec/IWICMetadataQueryReader.GetMetadataByName"]
+f1_keywords: 
+ - "wincodec/IWICMetadataQueryReader.GetMetadataByName"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

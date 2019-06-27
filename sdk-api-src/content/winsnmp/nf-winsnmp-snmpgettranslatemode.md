@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SNMPAPI_TRANSLATED, SNMPAPI_UNTRANSLATED_V1, SNMPAPI_UNTRANSLATED_V2, SnmpGetTranslateMode, SnmpGetTranslateMode function [SNMP], _snmp_snmpgettranslatemode, snmp.snmpgettranslatemode, winsnmp/SnmpGetTranslateMode
 ms.topic: function
-f1_keywords: ["winsnmp/SnmpGetTranslateMode"]
+f1_keywords: 
+ - "winsnmp/SnmpGetTranslateMode"
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

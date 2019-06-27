@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs],OnBufferStart method, IXAudio2VoiceCallback.OnBufferStart, IXAudio2VoiceCallback::OnBufferStart, OnBufferStart, OnBufferStart method [XAudio2 Audio Mixing APIs], OnBufferStart method [XAudio2 Audio Mixing APIs],IXAudio2VoiceCallback interface, xaudio2.ixaudio2voicecallback_interface_onbufferstart, xaudio2/IXAudio2VoiceCallback::OnBufferStart
 ms.topic: method
-f1_keywords: ["xaudio2/IXAudio2VoiceCallback.OnBufferStart"]
+f1_keywords: 
+ - "xaudio2/IXAudio2VoiceCallback.OnBufferStart"
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

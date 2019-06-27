@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Windows GDI], Close method [Windows GDI],IXpsPrintJobStream interface, IXpsPrintJobStream interface [Windows GDI],Close method, IXpsPrintJobStream.Close, IXpsPrintJobStream::Close, gdi.ixpsprintjobstream_close, xpsprint/IXpsPrintJobStream::Close
 ms.topic: method
-f1_keywords: ["xpsprint/IXpsPrintJobStream.Close"]
+f1_keywords: 
+ - "xpsprint/IXpsPrintJobStream.Close"
 req.header: xpsprint.h
 req.include-header: 
 req.target-type: Windows

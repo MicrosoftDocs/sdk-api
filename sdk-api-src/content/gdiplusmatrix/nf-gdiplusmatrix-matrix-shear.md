@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Matrix class [GDI+],Shear method, Matrix.Shear, Matrix::Shear, Shear, Shear method [GDI+], Shear method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_Shear_shearX_shearY_order_, gdiplus._gdiplus_CLASS_Matrix_Shear_shearX_shearY_order_
 ms.topic: method
-f1_keywords: ["gdiplusmatrix/Matrix.Shear"]
+f1_keywords: 
+ - "gdiplusmatrix/Matrix.Shear"
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

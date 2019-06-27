@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IClassFactory, IClassFactory interface [COM], IClassFactory interface [COM],described, _com_iclassfactory, com.iclassfactory, unknwnbase/IClassFactory
 ms.topic: interface
-f1_keywords: ["unknwn/IClassFactory"]
+f1_keywords: 
+ - "unknwn/IClassFactory"
 req.header: unknwn.h
 req.include-header: Unknwn.h
 req.target-type: Windows

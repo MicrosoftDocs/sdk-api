@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEmbeddedObject, GetEmbeddedObject method [Windows Controls], GetEmbeddedObject method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetEmbeddedObject method, ITextRange.GetEmbeddedObject, ITextRange::GetEmbeddedObject, _win32_ITextRange_GetEmbeddedObject, _win32_ITextRange_GetEmbeddedObject_cpp, controls.ITextRange_GetEmbeddedObject, controls._win32_ITextRange_GetEmbeddedObject, tom/ITextRange::GetEmbeddedObject
 ms.topic: method
-f1_keywords: ["tom/ITextRange.GetEmbeddedObject"]
+f1_keywords: 
+ - "tom/ITextRange.GetEmbeddedObject"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

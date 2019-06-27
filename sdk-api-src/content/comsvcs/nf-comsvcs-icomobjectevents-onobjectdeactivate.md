@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComObjectEvents interface [COM+],OnObjectDeactivate method, IComObjectEvents.OnObjectDeactivate, IComObjectEvents::OnObjectDeactivate, OnObjectDeactivate, OnObjectDeactivate method [COM+], OnObjectDeactivate method [COM+],IComObjectEvents interface, _dtc_IComObjectEvents_OnObjectDeactivate, comsvcs/IComObjectEvents::OnObjectDeactivate, cos.icomobjectevents_onobjectdeactivate
 ms.topic: method
-f1_keywords: ["comsvcs/IComObjectEvents.OnObjectDeactivate"]
+f1_keywords: 
+ - "comsvcs/IComObjectEvents.OnObjectDeactivate"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

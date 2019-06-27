@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBootOptions interface [IMAPI],get_ImageSize method, IBootOptions.get_ImageSize, IBootOptions::get_ImageSize, get_ImageSize, get_ImageSize method [IMAPI], get_ImageSize method [IMAPI],IBootOptions interface, imapi.ibootoptions_get_imagesize, imapi2fs/IBootOptions::get_ImageSize
 ms.topic: method
-f1_keywords: ["imapi2fs/IBootOptions.get_ImageSize"]
+f1_keywords: 
+ - "imapi2fs/IBootOptions.get_ImageSize"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

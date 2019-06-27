@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMMNotificationClient, IMMNotificationClient interface [Core Audio], IMMNotificationClient interface [Core Audio],described, coreaudio.immnotificationclient, mmdeviceapi/IMMNotificationClient
 ms.topic: interface
-f1_keywords: ["mmdeviceapi/IMMNotificationClient"]
+f1_keywords: 
+ - "mmdeviceapi/IMMNotificationClient"
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

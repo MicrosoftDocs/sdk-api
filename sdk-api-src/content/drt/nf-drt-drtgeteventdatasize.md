@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrtGetEventDataSize, DrtGetEventDataSize function [Peer Networking], drt/DrtGetEventDataSize, p2p.drtgeteventdatasize
 ms.topic: function
-f1_keywords: ["drt/DrtGetEventDataSize"]
+f1_keywords: 
+ - "drt/DrtGetEventDataSize"
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

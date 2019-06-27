@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISupportErrorInfo interface [Automation],InterfaceSupportsErrorInfo method, ISupportErrorInfo.InterfaceSupportsErrorInfo, ISupportErrorInfo::InterfaceSupportsErrorInfo, InterfaceSupportsErrorInfo, InterfaceSupportsErrorInfo method [Automation], InterfaceSupportsErrorInfo method [Automation],ISupportErrorInfo interface, _oa96_ISupportErrorInfo_InterfaceSupportsErrorInfo, automat.isupporterrorinfo_interfacesupportserrorinfo, oaidl/ISupportErrorInfo::InterfaceSupportsErrorInfo
 ms.topic: method
-f1_keywords: ["oaidl/ISupportErrorInfo.InterfaceSupportsErrorInfo"]
+f1_keywords: 
+ - "oaidl/ISupportErrorInfo.InterfaceSupportsErrorInfo"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

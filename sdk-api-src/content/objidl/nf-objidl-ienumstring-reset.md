@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumString interface [COM],Reset method, IEnumString.Reset, IEnumString::Reset, Reset, Reset method [COM], Reset method [COM],IEnumString interface, _com_ienumstring_reset, com.ienumstring_reset, objidlbase/IEnumString::Reset
 ms.topic: method
-f1_keywords: ["objidl/IEnumString.Reset"]
+f1_keywords: 
+ - "objidl/IEnumString.Reset"
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

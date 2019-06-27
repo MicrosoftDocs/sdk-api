@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport2, IDirectManipulationViewport2 interface [Direct Manipulation], IDirectManipulationViewport2 interface [Direct Manipulation],described, directmanipulation.idirectmanipulationviewport2, directmanipulation/IDirectManipulationViewport2
 ms.topic: interface
-f1_keywords: ["directmanipulation/IDirectManipulationViewport2"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationViewport2"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

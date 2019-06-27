@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsAcceptChannel, WsAcceptChannel function [Web Services for Windows], webservices/WsAcceptChannel, wsw.wsacceptchannel
 ms.topic: function
-f1_keywords: ["webservices/WsAcceptChannel"]
+f1_keywords: 
+ - "webservices/WsAcceptChannel"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

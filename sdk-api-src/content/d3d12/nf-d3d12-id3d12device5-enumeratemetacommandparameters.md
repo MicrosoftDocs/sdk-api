@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumerateMetaCommandParameters, EnumerateMetaCommandParameters method, EnumerateMetaCommandParameters method,ID3D12Device5 interface, ID3D12Device5 interface,EnumerateMetaCommandParameters method, ID3D12Device5.EnumerateMetaCommandParameters, ID3D12Device5::EnumerateMetaCommandParameters, d3d12/ID3D12Device5::EnumerateMetaCommandParameters, direct3d12.id3d12device5_enumeratemetacommandparameters
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12Device5.EnumerateMetaCommandParameters"]
+f1_keywords: 
+ - "d3d12/ID3D12Device5.EnumerateMetaCommandParameters"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

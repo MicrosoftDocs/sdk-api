@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextDocument, ITextDocument interface [Windows Controls], ITextDocument interface [Windows Controls],described, _win32_ITextDocument, _win32_ITextDocument_cpp, controls.ITextDocument, controls._win32_ITextDocument, tom/ITextDocument
 ms.topic: interface
-f1_keywords: ["tom/ITextDocument"]
+f1_keywords: 
+ - "tom/ITextDocument"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

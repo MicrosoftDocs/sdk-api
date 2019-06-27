@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PVDS_DRIVE_PROP2, PVDS_DRIVE_PROP2, PVDS_DRIVE_PROP2 structure pointer, VDS_DRIVE_PROP2, VDS_DRIVE_PROP2 structure, VDS_H_FAILED, VDS_H_HEALTHY, VDS_H_PENDING_FAILURE, VDS_H_REPLACED, VDS_H_UNKNOWN, base.vds_drive_prop2, vds/PVDS_DRIVE_PROP2, vds/VDS_DRIVE_PROP2, vdshwprv/PVDS_DRIVE_PROP2, vdshwprv/VDS_DRIVE_PROP2"
 ms.topic: struct
-f1_keywords: ["vds/VDS_DRIVE_PROP2"]
+f1_keywords: 
+ - "vds/VDS_DRIVE_PROP2"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

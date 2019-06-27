@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddAccount, AddAccount method [Fax Service], AddAccount method [Fax Service],IFaxAccountSet interface, IFaxAccountSet interface [Fax Service],AddAccount method, IFaxAccountSet.AddAccount, IFaxAccountSet::AddAccount, _mfax_faxaccountset.addaccount, fax._mfax_faxaccountset_addaccount, fax._mfax_faxaccountset_cpp_mfax_faxaccountset_addaccount_cpp, faxcomex/IFaxAccountSet::AddAccount
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxAccountSet.AddAccount"]
+f1_keywords: 
+ - "faxcomex/IFaxAccountSet.AddAccount"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

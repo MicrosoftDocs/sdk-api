@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPDescriptionDocument interface [UPnP APIs],Load method, IUPnPDescriptionDocument.Load, IUPnPDescriptionDocument::Load, Load, Load method [UPnP APIs], Load method [UPnP APIs],IUPnPDescriptionDocument interface, _upnp_iupnpdescriptiondocument_load, upnp.iupnpdescriptiondocument_load, upnp/IUPnPDescriptionDocument::Load
 ms.topic: method
-f1_keywords: ["upnp/IUPnPDescriptionDocument.Load"]
+f1_keywords: 
+ - "upnp/IUPnPDescriptionDocument.Load"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

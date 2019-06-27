@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMPR_CREDENTIALSEX_1, MPR_CREDENTIALSEX_1, MPR_CREDENTIALSEX_1 structure [RAS], PMPR_CREDENTIALSEX_1, PMPR_CREDENTIALSEX_1 structure pointer [RAS], _MPR_CREDENTIALSEX_1, _mpr_mpr_credentialsex_1, mprapi/MPR_CREDENTIALSEX_1, mprapi/PMPR_CREDENTIALSEX_1, rras.mpr_credentialsex_1"
 ms.topic: struct
-f1_keywords: ["mprapi/MPR_CREDENTIALSEX_1"]
+f1_keywords: 
+ - "mprapi/MPR_CREDENTIALSEX_1"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

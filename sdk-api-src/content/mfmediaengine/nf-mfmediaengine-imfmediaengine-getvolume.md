@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVolume, GetVolume method [Media Foundation], GetVolume method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetVolume method, IMFMediaEngine.GetVolume, IMFMediaEngine::GetVolume, mf.imfmediaengine_getvolume, mfmediaengine/IMFMediaEngine::GetVolume
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngine.GetVolume"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngine.GetVolume"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

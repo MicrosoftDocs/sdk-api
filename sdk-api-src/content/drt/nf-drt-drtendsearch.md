@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrtEndSearch, DrtEndSearch function [Peer Networking], drt/DrtEndSearch, p2p.drtendsearch
 ms.topic: function
-f1_keywords: ["drt/DrtEndSearch"]
+f1_keywords: 
+ - "drt/DrtEndSearch"
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

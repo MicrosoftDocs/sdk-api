@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasGetSubEntryHandle, RasGetSubEntryHandle function [RAS], RasGetSubEntryHandleA, RasGetSubEntryHandleW, _ras_rasgetsubentryhandle, ras/RasGetSubEntryHandle, ras/RasGetSubEntryHandleA, ras/RasGetSubEntryHandleW, rras.rasgetsubentryhandle
 ms.topic: function
-f1_keywords: ["ras/RasGetSubEntryHandle"]
+f1_keywords: 
+ - "ras/RasGetSubEntryHandle"
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ContainsKnowledgeForChangeUnit, ContainsKnowledgeForChangeUnit method [Windows Sync], ContainsKnowledgeForChangeUnit method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],ContainsKnowledgeForChangeUnit method, ISyncKnowledge2.ContainsKnowledgeForChangeUnit, ISyncKnowledge2::ContainsKnowledgeForChangeUnit, winsync.isyncknowledge2_containsknowledgeforchangeunit, winsync/ISyncKnowledge2::ContainsKnowledgeForChangeUnit
 ms.topic: method
-f1_keywords: ["winsync/ISyncKnowledge2.ContainsKnowledgeForChangeUnit"]
+f1_keywords: 
+ - "winsync/ISyncKnowledge2.ContainsKnowledgeForChangeUnit"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

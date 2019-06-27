@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DragEnter, DragEnter method [COM], DragEnter method [COM],IDropTarget interface, IDropTarget interface [COM],DragEnter method, IDropTarget.DragEnter, IDropTarget::DragEnter, _ole_idroptarget_dragenter, com.idroptarget_dragenter, oleidl/IDropTarget::DragEnter
 ms.topic: method
-f1_keywords: ["oleidl/IDropTarget.DragEnter"]
+f1_keywords: 
+ - "oleidl/IDropTarget.DragEnter"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

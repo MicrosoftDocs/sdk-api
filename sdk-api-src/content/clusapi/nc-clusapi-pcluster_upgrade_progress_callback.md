@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterUpgradeProgressCallback, ClusterUpgradeProgressCallback callback, ClusterUpgradeProgressCallback callback function [Failover Cluster], PCLUSTER_UPGRADE_PROGRESS_CALLBACK, PCLUSTER_UPGRADE_PROGRESS_CALLBACK callback function [Failover Cluster], clusapi/ClusterUpgradeProgressCallback, clusapi/PCLUSTER_UPGRADE_PROGRESS_CALLBACK, mscs.clusterupgradeprogresscallback
 ms.topic: callback
-f1_keywords: ["clusapi/ClusterUpgradeProgressCallback"]
+f1_keywords: 
+ - "clusapi/ClusterUpgradeProgressCallback"
 req.header: clusapi.h
 req.include-header: CluAPI.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FtpDeleteFile, FtpDeleteFile function [WinINet], FtpDeleteFileA, FtpDeleteFileW, _inet_ftpdeletefile_function, wininet.ftpdeletefile, wininet/FtpDeleteFile, wininet/FtpDeleteFileA, wininet/FtpDeleteFileW
 ms.topic: function
-f1_keywords: ["wininet/FtpDeleteFile"]
+f1_keywords: 
+ - "wininet/FtpDeleteFile"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddLoggingUrl, AddLoggingUrl method [windows Media Format], AddLoggingUrl method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],AddLoggingUrl method, IWMReaderNetworkConfig.AddLoggingUrl, IWMReaderNetworkConfig::AddLoggingUrl, IWMReaderNetworkConfigAddLoggingUrl, wmformat.iwmreadernetworkconfig_addloggingurl, wmsdkidl/IWMReaderNetworkConfig::AddLoggingUrl
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderNetworkConfig.AddLoggingUrl"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderNetworkConfig.AddLoggingUrl"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

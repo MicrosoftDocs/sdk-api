@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WerReportApplicationCrash, WerReportApplicationHang, WerReportCreate, WerReportCreate function [Windows Error Reporting], WerReportCritical, WerReportInvalid, WerReportKernel, WerReportNonCritical, base.werreportcreate, wer.werreportcreate, werapi/WerReportCreate
 ms.topic: function
-f1_keywords: ["werapi/WerReportCreate"]
+f1_keywords: 
+ - "werapi/WerReportCreate"
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

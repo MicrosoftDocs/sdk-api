@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRegisteredDeviceByID, GetRegisteredDeviceByID method [windows Media Format], GetRegisteredDeviceByID method [windows Media Format],IWMDeviceRegistration interface, IWMDeviceRegistration interface [windows Media Format],GetRegisteredDeviceByID method, IWMDeviceRegistration.GetRegisteredDeviceByID, IWMDeviceRegistration::GetRegisteredDeviceByID, IWMDeviceRegistrationGetRegisteredDeviceByID, wmformat.iwmdeviceregistration_getregistereddevicebyid, wmsdkidl/IWMDeviceRegistration::GetRegisteredDeviceByID
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMDeviceRegistration.GetRegisteredDeviceByID"]
+f1_keywords: 
+ - "wmsdkidl/IWMDeviceRegistration.GetRegisteredDeviceByID"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

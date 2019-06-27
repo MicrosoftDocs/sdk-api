@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PACL_REVISION_INFORMATION, ACL_REVISION_INFORMATION, ACL_REVISION_INFORMATION structure [Security], PACL_REVISION_INFORMATION, PACL_REVISION_INFORMATION structure pointer [Security], _ACL_REVISION_INFORMATION, _win32_acl_revision_information_str, security.acl_revision_information, winnt/ACL_REVISION_INFORMATION, winnt/PACL_REVISION_INFORMATION"
 ms.topic: struct
-f1_keywords: ["winnt/ACL_REVISION_INFORMATION"]
+f1_keywords: 
+ - "winnt/ACL_REVISION_INFORMATION"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

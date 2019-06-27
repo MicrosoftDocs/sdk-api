@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OfflineFilesEnable, OfflineFilesEnable function [Offline Files], cscapi/OfflineFilesEnable, of.offlinefilesenable
 ms.topic: function
-f1_keywords: ["cscapi/OfflineFilesEnable"]
+f1_keywords: 
+ - "cscapi/OfflineFilesEnable"
 req.header: cscapi.h
 req.include-header: 
 req.target-type: Windows

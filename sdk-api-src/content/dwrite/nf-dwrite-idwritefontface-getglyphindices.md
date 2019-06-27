@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGlyphIndices, GetGlyphIndices method [Direct Write], GetGlyphIndices method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetGlyphIndices method, IDWriteFontFace.GetGlyphIndices, IDWriteFontFace::GetGlyphIndices, directwrite.IDWriteFontFace_GetGlyphIndices, dwrite/IDWriteFontFace::GetGlyphIndices
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteFontFace.GetGlyphIndices"]
+f1_keywords: 
+ - "dwrite/IDWriteFontFace.GetGlyphIndices"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DCIBeginAccess, DCIBeginAccess function [Windows API], _dciman_dcibeginaccess, dciman/DCIBeginAccess, winprog._dciman_dcibeginaccess, winui._dciman_dcibeginaccess
 ms.topic: function
-f1_keywords: ["dciman/DCIBeginAccess"]
+f1_keywords: 
+ - "dciman/DCIBeginAccess"
 req.header: dciman.h
 req.include-header: 
 req.target-type: Windows

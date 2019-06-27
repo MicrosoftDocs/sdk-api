@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services],OnJobCreated method, ITsSbProvisioningPluginNotifySink.OnJobCreated, ITsSbProvisioningPluginNotifySink::OnJobCreated, OnJobCreated, OnJobCreated method [Remote Desktop Services], OnJobCreated method [Remote Desktop Services],ITsSbProvisioningPluginNotifySink interface, sbtsv/ITsSbProvisioningPluginNotifySink::OnJobCreated, termserv.itssbprovisioningpluginnotifysink_onjobcreated
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbProvisioningPluginNotifySink.OnJobCreated"]
+f1_keywords: 
+ - "sbtsv/ITsSbProvisioningPluginNotifySink.OnJobCreated"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

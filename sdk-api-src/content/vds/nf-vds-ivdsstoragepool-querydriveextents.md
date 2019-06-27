@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsStoragePool interface,QueryDriveExtents method, IVdsStoragePool.QueryDriveExtents, IVdsStoragePool::QueryDriveExtents, QueryDriveExtents, QueryDriveExtents method, QueryDriveExtents method,IVdsStoragePool interface, base.ivdsstoragepool_querydriveextents, vds/IVdsStoragePool::QueryDriveExtents, vdshwprv/IVdsStoragePool::QueryDriveExtents
 ms.topic: method
-f1_keywords: ["vds/IVdsStoragePool.QueryDriveExtents"]
+f1_keywords: 
+ - "vds/IVdsStoragePool.QueryDriveExtents"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

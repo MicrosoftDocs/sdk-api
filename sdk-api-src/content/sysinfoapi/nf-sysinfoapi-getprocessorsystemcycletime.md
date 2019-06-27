@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProcessorSystemCycleTime, GetProcessorSystemCycleTime function, base.getprocessorsystemcycletime, sysinfoapi/GetProcessorSystemCycleTime
 ms.topic: function
-f1_keywords: ["sysinfoapi/GetProcessorSystemCycleTime"]
+f1_keywords: 
+ - "sysinfoapi/GetProcessorSystemCycleTime"
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

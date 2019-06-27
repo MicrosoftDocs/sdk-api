@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VMR9MonitorInfo, VMR9MonitorInfo structure [DirectShow], VMR9MonitorInfoStructure, dshow.vmr9monitorinfo, vmr9/VMR9MonitorInfo
 ms.topic: struct
-f1_keywords: ["vmr9/VMR9MonitorInfo"]
+f1_keywords: 
+ - "vmr9/VMR9MonitorInfo"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

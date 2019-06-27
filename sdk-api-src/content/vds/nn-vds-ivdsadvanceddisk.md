@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsAdvancedDisk, IVdsAdvancedDisk interface [VDS], IVdsAdvancedDisk interface [VDS],described, base.ivdsadvanceddisk, vds/IVdsAdvancedDisk
 ms.topic: interface
-f1_keywords: ["vds/IVdsAdvancedDisk"]
+f1_keywords: 
+ - "vds/IVdsAdvancedDisk"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

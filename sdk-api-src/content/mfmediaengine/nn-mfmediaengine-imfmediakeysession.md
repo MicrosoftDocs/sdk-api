@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaKeySession, IMFMediaKeySession interface [Media Foundation], IMFMediaKeySession interface [Media Foundation],described, mf.imfmediakeysession, mfmediaengine/IMFMediaKeySession
 ms.topic: interface
-f1_keywords: ["mfmediaengine/IMFMediaKeySession"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaKeySession"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

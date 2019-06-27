@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaUserBatch, IDiskQuotaUserBatch interface [Files], IDiskQuotaUserBatch interface [Files],described, _win32_idiskquotauserbatch, base.idiskquotauserbatch, dskquota/IDiskQuotaUserBatch, fs.idiskquotauserbatch
 ms.topic: interface
-f1_keywords: ["dskquota/IDiskQuotaUserBatch"]
+f1_keywords: 
+ - "dskquota/IDiskQuotaUserBatch"
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

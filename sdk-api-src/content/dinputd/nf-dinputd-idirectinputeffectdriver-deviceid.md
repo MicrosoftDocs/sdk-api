@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeviceID, DeviceID method [Human Input Devices], DeviceID method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],DeviceID method, IDirectInputEffectDriver.DeviceID, IDirectInputEffectDriver::DeviceID, di_ref_80f2cc7f-de04-4497-a245-b6abaf0a98d1.xml, dinputd/IDirectInputEffectDriver::DeviceID, hid.idirectinputeffectdriver_deviceid
 ms.topic: method
-f1_keywords: ["dinputd/IDirectInputEffectDriver.DeviceID"]
+f1_keywords: 
+ - "dinputd/IDirectInputEffectDriver.DeviceID"
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

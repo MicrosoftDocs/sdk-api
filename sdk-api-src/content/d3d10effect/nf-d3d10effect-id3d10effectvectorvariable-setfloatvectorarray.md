@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 9eb5f7ae-71eb-f3ae-ea6e-cc78dd935434, ID3D10EffectVectorVariable interface [Direct3D 10],SetFloatVectorArray method, ID3D10EffectVectorVariable.SetFloatVectorArray, ID3D10EffectVectorVariable::SetFloatVectorArray, SetFloatVectorArray, SetFloatVectorArray method [Direct3D 10], SetFloatVectorArray method [Direct3D 10],ID3D10EffectVectorVariable interface, d3d10effect/ID3D10EffectVectorVariable::SetFloatVectorArray, direct3d10.id3d10effectvectorvariable_setfloatvectorarray
 ms.topic: method
-f1_keywords: ["d3d10effect/ID3D10EffectVectorVariable.SetFloatVectorArray"]
+f1_keywords: 
+ - "d3d10effect/ID3D10EffectVectorVariable.SetFloatVectorArray"
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

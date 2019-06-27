@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_CREDENTIAL_INFO, CERT_CREDENTIAL_INFO, CERT_CREDENTIAL_INFO structure [Security], PCERT_CREDENTIAL_INFO, PCERT_CREDENTIAL_INFO structure pointer [Security], _cred_cert_credential_info, security.cert_credential_info, wincred/CERT_CREDENTIAL_INFO, wincred/PCERT_CREDENTIAL_INFO"
 ms.topic: struct
-f1_keywords: ["wincred/CERT_CREDENTIAL_INFO"]
+f1_keywords: 
+ - "wincred/CERT_CREDENTIAL_INFO"
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

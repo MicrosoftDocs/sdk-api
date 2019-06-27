@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetErrorRadius, GetErrorRadius method [WinLocation], GetErrorRadius method [WinLocation],ILatLongReport interface, ILatLongReport interface [WinLocation],GetErrorRadius method, ILatLongReport.GetErrorRadius, ILatLongReport::GetErrorRadius, WinLocation_COM_Ref.ilatlongreport_geterrorradius, locationapi/ILatLongReport::GetErrorRadius
 ms.topic: method
-f1_keywords: ["locationapi/ILatLongReport.GetErrorRadius"]
+f1_keywords: 
+ - "locationapi/ILatLongReport.GetErrorRadius"
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

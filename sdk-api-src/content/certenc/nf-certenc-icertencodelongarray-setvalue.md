@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeLongArray object [Security],SetValue method, ICertEncodeLongArray interface [Security],SetValue method, ICertEncodeLongArray.SetValue, ICertEncodeLongArray::SetValue, SetValue, SetValue method [Security], SetValue method [Security],CCertEncodeLongArray object, SetValue method [Security],ICertEncodeLongArray interface, _certsrv_icertencodelongarray_setvalue, certenc/ICertEncodeLongArray::SetValue, security.icertencodelongarray_setvalue
 ms.topic: method
-f1_keywords: ["certenc/ICertEncodeLongArray.SetValue"]
+f1_keywords: 
+ - "certenc/ICertEncodeLongArray.SetValue"
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

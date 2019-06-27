@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWscProduct, IWscProduct interface [Windows API], IWscProduct interface [Windows API],described, iwscapi/IWscProduct, winprog.iwscproduct
 ms.topic: interface
-f1_keywords: ["iwscapi/IWscProduct"]
+f1_keywords: 
+ - "iwscapi/IWscProduct"
 req.header: iwscapi.h
 req.include-header: 
 req.target-type: Windows

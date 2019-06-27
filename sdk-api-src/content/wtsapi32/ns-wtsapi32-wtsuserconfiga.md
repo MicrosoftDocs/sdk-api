@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWTSUSERCONFIGA, PWTSUSERCONFIG, PWTSUSERCONFIG structure pointer [Remote Desktop Services], WTSUSERCONFIG, WTSUSERCONFIG structure [Remote Desktop Services], WTSUSERCONFIGA, WTSUSERCONFIGW, termserv.wtsuserconfig, wtsapi32/PWTSUSERCONFIG, wtsapi32/WTSUSERCONFIG, wtsapi32/WTSUSERCONFIGA, wtsapi32/WTSUSERCONFIGW"
 ms.topic: struct
-f1_keywords: ["wtsapi32/WTSUSERCONFIG"]
+f1_keywords: 
+ - "wtsapi32/WTSUSERCONFIG"
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

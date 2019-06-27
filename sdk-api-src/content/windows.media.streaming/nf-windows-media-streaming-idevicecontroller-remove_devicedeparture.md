@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDeviceController interface [Media Streaming API],remove_DeviceDeparture method, IDeviceController.remove_DeviceDeparture, IDeviceController.streaming, IDeviceController::remove_DeviceDeparture, IDeviceController::streaming, mediastreaming.idevicecontroller_remove_devicedeparture, remove_DeviceDeparture, remove_DeviceDeparture method [Media Streaming API], remove_DeviceDeparture method [Media Streaming API],IDeviceController interface, windows/IDeviceController::remove_DeviceDeparture
 ms.topic: method
-f1_keywords: ["windows.media.streaming/IDeviceController.remove_DeviceDeparture"]
+f1_keywords: 
+ - "windows.media.streaming/IDeviceController.remove_DeviceDeparture"
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

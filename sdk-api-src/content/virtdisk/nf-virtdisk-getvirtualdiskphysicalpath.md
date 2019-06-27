@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVirtualDiskPhysicalPath, GetVirtualDiskPhysicalPath function [VHD], vdssys/GetVirtualDiskPhysicalPath, vhd.getvirtualdiskphysicalpath, virtdisk/GetVirtualDiskPhysicalPath
 ms.topic: function
-f1_keywords: ["virtdisk/GetVirtualDiskPhysicalPath"]
+f1_keywords: 
+ - "virtdisk/GetVirtualDiskPhysicalPath"
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

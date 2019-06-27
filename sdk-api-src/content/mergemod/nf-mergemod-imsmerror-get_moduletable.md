@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMsmError interface,get_ModuleTable method, IMsmError.get_ModuleTable, IMsmError::get_ModuleTable, _msi_get_moduletable_function, get_ModuleTable, get_ModuleTable method, get_ModuleTable method,IMsmError interface, mergemod/IMsmError::get_ModuleTable, setup.imsmerror_get_moduletable
 ms.topic: method
-f1_keywords: ["mergemod/IMsmError.get_ModuleTable"]
+f1_keywords: 
+ - "mergemod/IMsmError.get_ModuleTable"
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

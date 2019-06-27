@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdeImpersonateClient, DdeImpersonateClient function [Data Exchange], _win32_DdeImpersonateClient, _win32_ddeimpersonateclient_cpp, dataxchg.ddeimpersonateclient, ddeml/DdeImpersonateClient, winui._win32_ddeimpersonateclient
 ms.topic: function
-f1_keywords: ["ddeml/DdeImpersonateClient"]
+f1_keywords: 
+ - "ddeml/DdeImpersonateClient"
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

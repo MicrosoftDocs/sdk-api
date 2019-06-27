@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_GetPacketIntegrity, MI_DestinationOptions_GetPacketIntegrity function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetPacketIntegrity, wmi_v2.mi_destinationoptions_getpacketintegrity
 ms.topic: function
-f1_keywords: ["mi/MI_DestinationOptions_GetPacketIntegrity"]
+f1_keywords: 
+ - "mi/MI_DestinationOptions_GetPacketIntegrity"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

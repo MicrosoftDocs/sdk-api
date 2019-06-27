@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_NumberOfIncomingCalls method, ITAgent.get_NumberOfIncomingCalls, ITAgent::get_NumberOfIncomingCalls, _tapi3_itagent_get_numberofincomingcalls, get_NumberOfIncomingCalls, get_NumberOfIncomingCalls method [TAPI 2.2], get_NumberOfIncomingCalls method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_numberofincomingcalls, tapi3cc/ITAgent::get_NumberOfIncomingCalls
 ms.topic: method
-f1_keywords: ["tapi3cc/ITAgent.get_NumberOfIncomingCalls"]
+f1_keywords: 
+ - "tapi3cc/ITAgent.get_NumberOfIncomingCalls"
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

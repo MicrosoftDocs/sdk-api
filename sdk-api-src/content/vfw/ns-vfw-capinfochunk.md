@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCAPINFOCHUNK, *PCAPINFOCHUNK, CAPINFOCHUNK, CAPINFOCHUNK structure [Windows Multimedia], _win32_CAPINFOCHUNK_str, multimedia.capinfochunk, vfw/CAPINFOCHUNK"
 ms.topic: struct
-f1_keywords: ["vfw/CAPINFOCHUNK"]
+f1_keywords: 
+ - "vfw/CAPINFOCHUNK"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

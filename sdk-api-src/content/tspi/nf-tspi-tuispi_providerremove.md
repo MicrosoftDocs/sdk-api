@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TUISPI_providerRemove, TUISPI_providerRemove function [TAPI 2.2], _tspi_tuispi_providerremove, tspi.tuispi_providerremove, tspi/TUISPI_providerRemove
 ms.topic: function
-f1_keywords: ["tspi/TUISPI_providerRemove"]
+f1_keywords: 
+ - "tspi/TUISPI_providerRemove"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

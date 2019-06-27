@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISettingsContext interface [SMI],RevertSetting method, ISettingsContext.RevertSetting, ISettingsContext::RevertSetting, RevertSetting, RevertSetting method [SMI], RevertSetting method [SMI],ISettingsContext interface, smi.isettingscontext_revertsetting, wcmconfig/ISettingsContext::RevertSetting
 ms.topic: method
-f1_keywords: ["wcmconfig/ISettingsContext.RevertSetting"]
+f1_keywords: 
+ - "wcmconfig/ISettingsContext.RevertSetting"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDocumentMgr, GetDocumentMgr method [Text Services Framework], GetDocumentMgr method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetDocumentMgr method, ITfCandidateListUIElement.GetDocumentMgr, ITfCandidateListUIElement::GetDocumentMgr, msctf/ITfCandidateListUIElement::GetDocumentMgr, tsf.itfcandidatelistuielement_getdocumentmgr
 ms.topic: method
-f1_keywords: ["msctf/ITfCandidateListUIElement.GetDocumentMgr"]
+f1_keywords: 
+ - "msctf/ITfCandidateListUIElement.GetDocumentMgr"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

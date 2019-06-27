@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIDList, GetIDList method [Windows Shell], GetIDList method [Windows Shell],IPersistIDList interface, IPersistIDList interface [Windows Shell],GetIDList method, IPersistIDList.GetIDList, IPersistIDList::GetIDList, inet_IPersistIDList_GetIDList, shell.IPersistIDList_GetIDList, shobjidl_core/IPersistIDList::GetIDList
 ms.topic: method
-f1_keywords: ["shobjidl_core/IPersistIDList.GetIDList"]
+f1_keywords: 
+ - "shobjidl_core/IPersistIDList.GetIDList"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

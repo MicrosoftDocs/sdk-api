@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsSetMessageProperty, WsSetMessageProperty function [Web Services for Windows], webservices/WsSetMessageProperty, wsw.wssetmessageproperty
 ms.topic: function
-f1_keywords: ["webservices/WsSetMessageProperty"]
+f1_keywords: 
+ - "webservices/WsSetMessageProperty"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

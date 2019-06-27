@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTASK_TRIGGER, PTASK_TRIGGER, PTASK_TRIGGER structure pointer [Task Scheduler], TASK_TRIGGER, TASK_TRIGGER structure [Task Scheduler], _msb_task_trigger, mstask/PTASK_TRIGGER, mstask/TASK_TRIGGER, taskschd.task_trigger, triggers [Task Scheduler],structures,TASK_TRIGGER"
 ms.topic: struct
-f1_keywords: ["mstask/TASK_TRIGGER"]
+f1_keywords: 
+ - "mstask/TASK_TRIGGER"
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

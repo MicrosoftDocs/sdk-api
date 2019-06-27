@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICSendMessage, ICSendMessage function [Windows Multimedia], _win32_ICSendMessage, multimedia.icsendmessage, vfw/ICSendMessage
 ms.topic: function
-f1_keywords: ["vfw/ICSendMessage"]
+f1_keywords: 
+ - "vfw/ICSendMessage"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

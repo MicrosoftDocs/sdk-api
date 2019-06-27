@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingValue, TraceLoggingValue macro, tracelogging.traceloggingvalue, traceloggingprovider/TraceLoggingValue
 ms.topic: macro
-f1_keywords: ["traceloggingprovider/TraceLoggingValue"]
+f1_keywords: 
+ - "traceloggingprovider/TraceLoggingValue"
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows

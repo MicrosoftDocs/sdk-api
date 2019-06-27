@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SYNCMGR_CANCEL_REQUEST, SYNCMGR_CANCEL_REQUEST enumeration [Windows Shell], SYNCMGR_CR_CANCEL_ALL, SYNCMGR_CR_CANCEL_ITEM, SYNCMGR_CR_MAX, SYNCMGR_CR_NONE, shell.SYNCMGR_CANCEL_REQUEST, shell_SYNCMGR_CANCEL_REQUEST, syncmgr/SYNCMGR_CANCEL_REQUEST, syncmgr/SYNCMGR_CR_CANCEL_ALL, syncmgr/SYNCMGR_CR_CANCEL_ITEM, syncmgr/SYNCMGR_CR_MAX, syncmgr/SYNCMGR_CR_NONE
 ms.topic: enum
-f1_keywords: ["syncmgr/SYNCMGR_CANCEL_REQUEST"]
+f1_keywords: 
+ - "syncmgr/SYNCMGR_CANCEL_REQUEST"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

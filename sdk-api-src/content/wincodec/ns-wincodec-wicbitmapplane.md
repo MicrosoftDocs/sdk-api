@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWICBitmapPlane, PWICBitmapPlane structure pointer [Windows Imaging Component], WICBitmapPlane, WICBitmapPlane structure [Windows Imaging Component], wic.wicbitmapplane, wincodec/PWICBitmapPlane, wincodec/WICBitmapPlane
 ms.topic: struct
-f1_keywords: ["wincodec/WICBitmapPlane"]
+f1_keywords: 
+ - "wincodec/WICBitmapPlane"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

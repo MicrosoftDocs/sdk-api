@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PREGISTER_APPINSTANCE, PREGISTER_APPINSTANCE function [Failover Cluster], RegisterAppInstance, RegisterAppInstance function [Failover Cluster], mscs.registerappinstance, smbclnt/PREGISTER_APPINSTANCE, smbclnt/RegisterAppInstance
 ms.topic: function
-f1_keywords: ["smbclnt/RegisterAppInstance"]
+f1_keywords: 
+ - "smbclnt/RegisterAppInstance"
 req.header: smbclnt.h
 req.include-header: 
 req.target-type: Windows

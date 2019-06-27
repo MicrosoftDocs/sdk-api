@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolConnection interface [Remote Desktop Services],QueryProperty method, IWTSProtocolConnection.QueryProperty, IWTSProtocolConnection::QueryProperty, PROPERTY_DYNAMIC_TIME_ZONE_INFORMATION, QueryProperty, QueryProperty method [Remote Desktop Services], QueryProperty method [Remote Desktop Services],IWTSProtocolConnection interface, WTS_QUERY_ALLOWED_INITIAL_APP, WTS_QUERY_AUDIOENUM_DLL, WTS_QUERY_LOGON_SCREEN_SIZE, WTS_QUERY_MF_FORMAT_SUPPORT, termserv.iwtsprotocolconnection_queryproperty, wtsprotocol/IWTSProtocolConnection::QueryProperty
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWTSProtocolConnection.QueryProperty"]
+f1_keywords: 
+ - "wtsprotocol/IWTSProtocolConnection.QueryProperty"
 req.header: wtsprotocol.h
 req.include-header: Wtsdefs.h
 req.target-type: Windows

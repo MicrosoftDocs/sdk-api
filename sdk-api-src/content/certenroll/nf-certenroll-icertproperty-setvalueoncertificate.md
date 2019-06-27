@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertProperty interface [Security],SetValueOnCertificate method, ICertProperty.SetValueOnCertificate, ICertProperty::SetValueOnCertificate, SetValueOnCertificate, SetValueOnCertificate method [Security], SetValueOnCertificate method [Security],ICertProperty interface, certenroll/ICertProperty::SetValueOnCertificate, security.icertproperty_setvalueoncertificate_method
 ms.topic: method
-f1_keywords: ["certenroll/ICertProperty.SetValueOnCertificate"]
+f1_keywords: 
+ - "certenroll/ICertProperty.SetValueOnCertificate"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

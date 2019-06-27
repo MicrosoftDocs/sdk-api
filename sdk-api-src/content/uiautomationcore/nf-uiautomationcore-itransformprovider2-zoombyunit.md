@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITransformProvider2 interface [Windows Accessibility],ZoomByUnit method, ITransformProvider2.ZoomByUnit, ITransformProvider2::ZoomByUnit, ZoomByUnit, ZoomByUnit method [Windows Accessibility], ZoomByUnit method [Windows Accessibility],ITransformProvider2 interface, uiautomationcore/ITransformProvider2::ZoomByUnit, winauto.uiauto_itransformprovider2_zoombyunit
 ms.topic: method
-f1_keywords: ["uiautomationcore/ITransformProvider2.ZoomByUnit"]
+f1_keywords: 
+ - "uiautomationcore/ITransformProvider2.ZoomByUnit"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

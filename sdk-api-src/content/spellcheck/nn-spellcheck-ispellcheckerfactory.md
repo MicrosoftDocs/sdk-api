@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpellCheckerFactory, ISpellCheckerFactory interface [Internationalization for Windows Applications], ISpellCheckerFactory interface [Internationalization for Windows Applications],described, intl.ispellcheckerfactory, spellcheck/ISpellCheckerFactory
 ms.topic: interface
-f1_keywords: ["spellcheck/ISpellCheckerFactory"]
+f1_keywords: 
+ - "spellcheck/ISpellCheckerFactory"
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

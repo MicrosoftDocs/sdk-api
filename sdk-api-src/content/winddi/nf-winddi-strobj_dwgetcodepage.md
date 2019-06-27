@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: STROBJ_dwGetCodePage, STROBJ_dwGetCodePage function [Display Devices], display.strobj_dwgetcodepage, gdifncs_e446480e-8516-4138-8121-1c9665fc22d9.xml, winddi/STROBJ_dwGetCodePage
 ms.topic: function
-f1_keywords: ["winddi/STROBJ_dwGetCodePage"]
+f1_keywords: 
+ - "winddi/STROBJ_dwGetCodePage"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

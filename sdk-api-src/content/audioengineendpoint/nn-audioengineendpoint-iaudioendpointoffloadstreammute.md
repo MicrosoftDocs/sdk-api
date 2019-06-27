@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointOffloadStreamMute, IAudioEndpointOffloadStreamMute interface [Core Audio], IAudioEndpointOffloadStreamMute interface [Core Audio],described, audioengineendpoint/IAudioEndpointOffloadStreamMute, coreaudio.iaudioendpointoffloadstreammute
 ms.topic: interface
-f1_keywords: ["audioengineendpoint/IAudioEndpointOffloadStreamMute"]
+f1_keywords: 
+ - "audioengineendpoint/IAudioEndpointOffloadStreamMute"
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

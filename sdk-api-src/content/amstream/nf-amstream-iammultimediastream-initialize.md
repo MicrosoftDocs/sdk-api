@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMMultiMediaStream interface [DirectShow],Initialize method, IAMMultiMediaStream.Initialize, IAMMultiMediaStream::Initialize, IAMMultiMediaStreamInitialize, Initialize, Initialize method [DirectShow], Initialize method [DirectShow],IAMMultiMediaStream interface, amstream/IAMMultiMediaStream::Initialize, dshow.iammultimediastream_initialize
 ms.topic: method
-f1_keywords: ["amstream/IAMMultiMediaStream.Initialize"]
+f1_keywords: 
+ - "amstream/IAMMultiMediaStream.Initialize"
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

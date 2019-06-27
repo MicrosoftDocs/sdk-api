@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInitialProfile, GetInitialProfile method [Microsoft TV Technologies], GetInitialProfile method [Microsoft TV Technologies],ISBE2Crossbar interface, ISBE2Crossbar interface [Microsoft TV Technologies],GetInitialProfile method, ISBE2Crossbar.GetInitialProfile, ISBE2Crossbar::GetInitialProfile, mstv.isbe2crossbar_getinitialprofile, sbe/ISBE2Crossbar::GetInitialProfile
 ms.topic: method
-f1_keywords: ["sbe/ISBE2Crossbar.GetInitialProfile"]
+f1_keywords: 
+ - "sbe/ISBE2Crossbar.GetInitialProfile"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

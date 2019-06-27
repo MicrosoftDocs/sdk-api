@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_MEDIA_ENGINE_CANPLAY, MF_MEDIA_ENGINE_CANPLAY enumeration [Media Foundation], MF_MEDIA_ENGINE_CANPLAY_MAYBE, MF_MEDIA_ENGINE_CANPLAY_NOT_SUPPORTED, MF_MEDIA_ENGINE_CANPLAY_PROBABLY, mf.mf_media_engine_canplay, mfmediaengine/MF_MEDIA_ENGINE_CANPLAY, mfmediaengine/MF_MEDIA_ENGINE_CANPLAY_MAYBE, mfmediaengine/MF_MEDIA_ENGINE_CANPLAY_NOT_SUPPORTED, mfmediaengine/MF_MEDIA_ENGINE_CANPLAY_PROBABLY
 ms.topic: enum
-f1_keywords: ["mfmediaengine/MF_MEDIA_ENGINE_CANPLAY"]
+f1_keywords: 
+ - "mfmediaengine/MF_MEDIA_ENGINE_CANPLAY"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSCEPSetup, IMSCEPSetup interface [Security], IMSCEPSetup interface [Security],described, casetup/IMSCEPSetup, security.imscepsetup
 ms.topic: interface
-f1_keywords: ["casetup/IMSCEPSetup"]
+f1_keywords: 
+ - "casetup/IMSCEPSetup"
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

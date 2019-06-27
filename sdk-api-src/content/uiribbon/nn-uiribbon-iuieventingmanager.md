@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIEventingManager, IUIEventingManager interface [Windows Ribbon], IUIEventingManager interface [Windows Ribbon],described, uiribbon/IUIEventingManager, windowsribbon.iuieventingmanager
 ms.topic: interface
-f1_keywords: ["uiribbon/IUIEventingManager"]
+f1_keywords: 
+ - "uiribbon/IUIEventingManager"
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

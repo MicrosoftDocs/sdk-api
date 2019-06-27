@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetLastError, SetLastError function, _win32_setlasterror, base.setlasterror, errhandlingapi/SetLastError
 ms.topic: function
-f1_keywords: ["errhandlingapi/SetLastError"]
+f1_keywords: 
+ - "errhandlingapi/SetLastError"
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows

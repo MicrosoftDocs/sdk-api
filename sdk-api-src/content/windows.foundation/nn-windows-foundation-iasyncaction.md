@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAsyncAction, IAsyncAction interface [Windows Runtime], IAsyncAction interface [Windows Runtime],described, windows/IAsyncAction, winrt.iasyncaction
 ms.topic: interface
-f1_keywords: ["windows.foundation/IAsyncAction"]
+f1_keywords: 
+ - "windows.foundation/IAsyncAction"
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgElement interface [Direct2D],ReplaceChild method, ID2D1SvgElement.ReplaceChild, ID2D1SvgElement::ReplaceChild, ReplaceChild, ReplaceChild method [Direct2D], ReplaceChild method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::ReplaceChild, direct2d.id2d1svgelement_replacechild
 ms.topic: method
-f1_keywords: ["d2d1svg/ID2D1SvgElement.ReplaceChild"]
+f1_keywords: 
+ - "d2d1svg/ID2D1SvgElement.ReplaceChild"
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

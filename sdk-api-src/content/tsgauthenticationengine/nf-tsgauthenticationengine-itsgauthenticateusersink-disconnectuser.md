@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisconnectUser, DisconnectUser method [Remote Desktop Services], DisconnectUser method [Remote Desktop Services],ITSGAuthenticateUserSink interface, ITSGAuthenticateUserSink interface [Remote Desktop Services],DisconnectUser method, ITSGAuthenticateUserSink.DisconnectUser, ITSGAuthenticateUserSink::DisconnectUser, termserv.itsgauthenticateusersink_disconnectuser, tsgauthenticationengine/ITSGAuthenticateUserSink::DisconnectUser
 ms.topic: method
-f1_keywords: ["tsgauthenticationengine/ITSGAuthenticateUserSink.DisconnectUser"]
+f1_keywords: 
+ - "tsgauthenticationengine/ITSGAuthenticateUserSink.DisconnectUser"
 req.header: tsgauthenticationengine.h
 req.include-header: 
 req.target-type: Windows

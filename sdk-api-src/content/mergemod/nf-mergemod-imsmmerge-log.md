@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMsmMerge interface,Log method, IMsmMerge.Log, IMsmMerge::Log, Log, Log method, Log method,IMsmMerge interface, _msi_log_function, mergemod/IMsmMerge::Log, setup.imsmmerge_log
 ms.topic: method
-f1_keywords: ["mergemod/IMsmMerge.Log"]
+f1_keywords: 
+ - "mergemod/IMsmMerge.Log"
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

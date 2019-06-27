@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineCreateMSPInstance, TSPI_lineCreateMSPInstance function [TAPI 2.2], _tspi_tspi_linecreatemspinstance, tspi.tspi_linecreatemspinstance, tspi/TSPI_lineCreateMSPInstance
 ms.topic: function
-f1_keywords: ["tspi/TSPI_lineCreateMSPInstance"]
+f1_keywords: 
+ - "tspi/TSPI_lineCreateMSPInstance"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

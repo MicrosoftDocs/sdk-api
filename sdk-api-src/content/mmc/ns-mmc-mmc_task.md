@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MMC_ACTION_ID, MMC_ACTION_LINK, MMC_ACTION_SCRIPT, MMC_TASK, MMC_TASK structure [MMC], _slate_mmc_task, mmc.mmc_task, mmc/MMC_TASK
 ms.topic: struct
-f1_keywords: ["mmc/MMC_TASK"]
+f1_keywords: 
+ - "mmc/MMC_TASK"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

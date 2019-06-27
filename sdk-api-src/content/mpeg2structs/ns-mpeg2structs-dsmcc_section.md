@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDSMCC_SECTION, DSMCC_SECTION, DSMCC_SECTION structure [Microsoft TV Technologies], PDSMCC_SECTION, PDSMCC_SECTION structure pointer [Microsoft TV Technologies], mpeg2structs/DSMCC_SECTION, mpeg2structs/PDSMCC_SECTION, mstv.dsmcc_section"
 ms.topic: struct
-f1_keywords: ["mpeg2structs/DSMCC_SECTION"]
+f1_keywords: 
+ - "mpeg2structs/DSMCC_SECTION"
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows

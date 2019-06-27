@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FlushTrace, FlushTrace function [ETW], FlushTraceA, FlushTraceW, _evt_flushtrace, base.flushtrace, etw.flushtrace, evntrace/FlushTrace, evntrace/FlushTraceA, evntrace/FlushTraceW
 ms.topic: function
-f1_keywords: ["evntrace/FlushTrace"]
+f1_keywords: 
+ - "evntrace/FlushTrace"
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

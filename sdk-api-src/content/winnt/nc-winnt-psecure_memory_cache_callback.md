@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSECURE_MEMORY_CACHE_CALLBACK, PSECURE_MEMORY_CACHE_CALLBACK callback function, SecureMemoryCacheCallback, SecureMemoryCacheCallback callback, SecureMemoryCacheCallback callback function, base.securememorycachecallback, winnt/PSECURE_MEMORY_CACHE_CALLBACK, winnt/SecureMemoryCacheCallback
 ms.topic: callback
-f1_keywords: ["winnt/SecureMemoryCacheCallback"]
+f1_keywords: 
+ - "winnt/SecureMemoryCacheCallback"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

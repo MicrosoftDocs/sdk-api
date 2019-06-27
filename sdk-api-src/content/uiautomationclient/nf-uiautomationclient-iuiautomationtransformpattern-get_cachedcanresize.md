@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedCanResize property [Windows Accessibility], CachedCanResize property [Windows Accessibility],IUIAutomationTransformPattern interface, IUIAutomationTransformPattern interface [Windows Accessibility],CachedCanResize property, IUIAutomationTransformPattern.CachedCanResize, IUIAutomationTransformPattern.get_CachedCanResize, IUIAutomationTransformPattern::CachedCanResize, IUIAutomationTransformPattern::get_CachedCanResize, get_CachedCanResize, uiauto.uiauto_IUIAutomationTransformPattern_CachedCanResize, uiauto_IUIAutomationTransformPattern_CachedCanResize, uiautomationclient/IUIAutomationTransformPattern::CachedCanResize, uiautomationclient/IUIAutomationTransformPattern::get_CachedCanResize, winauto.uiauto_IUIAutomationTransformPattern_CachedCanResize
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTransformPattern.CachedCanResize"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTransformPattern.CachedCanResize"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

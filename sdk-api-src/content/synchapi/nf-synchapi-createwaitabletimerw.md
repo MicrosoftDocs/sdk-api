@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateWaitableTimer, CreateWaitableTimer function, CreateWaitableTimerA, CreateWaitableTimerW, _win32_createwaitabletimer, base.createwaitabletimer, synchapi/CreateWaitableTimer, synchapi/CreateWaitableTimerA, synchapi/CreateWaitableTimerW
 ms.topic: function
-f1_keywords: ["synchapi/CreateWaitableTimer"]
+f1_keywords: 
+ - "synchapi/CreateWaitableTimer"
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows

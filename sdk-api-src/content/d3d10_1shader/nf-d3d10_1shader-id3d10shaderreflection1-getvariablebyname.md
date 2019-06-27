@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 949e282a-c8c8-2ae4-0a72-0b158bbcc614, GetVariableByName, GetVariableByName method [Direct3D 10], GetVariableByName method [Direct3D 10],ID3D10ShaderReflection1 interface, ID3D10ShaderReflection1 interface [Direct3D 10],GetVariableByName method, ID3D10ShaderReflection1.GetVariableByName, ID3D10ShaderReflection1::GetVariableByName, d3d10_1shader/ID3D10ShaderReflection1::GetVariableByName, direct3d10.id3d10shaderreflection1_getvariablebyname
 ms.topic: method
-f1_keywords: ["d3d10_1shader/ID3D10ShaderReflection1.GetVariableByName"]
+f1_keywords: 
+ - "d3d10_1shader/ID3D10ShaderReflection1.GetVariableByName"
 req.header: d3d10_1shader.h
 req.include-header: 
 req.target-type: Windows

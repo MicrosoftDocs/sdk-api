@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetServices, GetServices method [Microsoft TV Technologies], GetServices method [Microsoft TV Technologies],IBDA_GuideDataDeliveryService interface, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],GetServices method, IBDA_GuideDataDeliveryService.GetServices, IBDA_GuideDataDeliveryService::GetServices, bdaiface/IBDA_GuideDataDeliveryService::GetServices, mstv.ibda_guidedatadeliveryservice_getservices
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_GuideDataDeliveryService.GetServices"]
+f1_keywords: 
+ - "bdaiface/IBDA_GuideDataDeliveryService.GetServices"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

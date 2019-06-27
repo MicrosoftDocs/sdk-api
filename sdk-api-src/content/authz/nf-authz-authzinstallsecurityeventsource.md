@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthzInstallSecurityEventSource, AuthzInstallSecurityEventSource function [Security], authz/AuthzInstallSecurityEventSource, security.authzinstallsecurityeventsource
 ms.topic: function
-f1_keywords: ["authz/AuthzInstallSecurityEventSource"]
+f1_keywords: 
+ - "authz/AuthzInstallSecurityEventSource"
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

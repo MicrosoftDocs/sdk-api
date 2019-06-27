@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,SetSnapshotProperty method, IVssSoftwareSnapshotProvider.SetSnapshotProperty, IVssSoftwareSnapshotProvider::SetSnapshotProperty, SetSnapshotProperty, SetSnapshotProperty method, SetSnapshotProperty method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_setsnapshotproperty, vsprov/IVssSoftwareSnapshotProvider::SetSnapshotProperty
 ms.topic: method
-f1_keywords: ["vsprov/IVssSoftwareSnapshotProvider.SetSnapshotProperty"]
+f1_keywords: 
+ - "vsprov/IVssSoftwareSnapshotProvider.SetSnapshotProperty"
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

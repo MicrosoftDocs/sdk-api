@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurve, GetCurve method [Windows Animation], GetCurve method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetCurve method, IUIAnimationVariable2.GetCurve, IUIAnimationVariable2::GetCurve, uianimation.iuianimationvariable2_getcurve, uianimation/IUIAnimationVariable2::GetCurve
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationVariable2.GetCurve"]
+f1_keywords: 
+ - "uianimation/IUIAnimationVariable2.GetCurve"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

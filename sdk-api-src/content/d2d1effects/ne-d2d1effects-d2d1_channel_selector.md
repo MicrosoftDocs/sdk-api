@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_CHANNEL_SELECTOR, D2D1_CHANNEL_SELECTOR enumeration [Direct2D], D2D1_CHANNEL_SELECTOR_A, D2D1_CHANNEL_SELECTOR_B, D2D1_CHANNEL_SELECTOR_G, D2D1_CHANNEL_SELECTOR_R, d2d1effects/D2D1_CHANNEL_SELECTOR, d2d1effects/D2D1_CHANNEL_SELECTOR_A, d2d1effects/D2D1_CHANNEL_SELECTOR_B, d2d1effects/D2D1_CHANNEL_SELECTOR_G, d2d1effects/D2D1_CHANNEL_SELECTOR_R, direct2d.d2d1_channel_selector
 ms.topic: enum
-f1_keywords: ["d2d1effects/D2D1_CHANNEL_SELECTOR"]
+f1_keywords: 
+ - "d2d1effects/D2D1_CHANNEL_SELECTOR"
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Ellipse, Ellipse function [Windows GDI], _win32_Ellipse, gdi.ellipse, wingdi/Ellipse
 ms.topic: function
-f1_keywords: ["wingdi/Ellipse"]
+f1_keywords: 
+ - "wingdi/Ellipse"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

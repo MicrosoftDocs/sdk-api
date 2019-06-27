@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawRectangles
 ms.topic: language-reference
-f1_keywords: ["gdiplusgraphics/Graphics::DrawRectangles"]
+f1_keywords: 
+ - "gdiplusgraphics/Graphics::DrawRectangles"
 targetos: Windows
 product: Windows
 req.assembly: 

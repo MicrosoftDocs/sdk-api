@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SizeF, SizeF class [GDI+],SizeF constructor, SizeF constructor [GDI+], SizeF constructor [GDI+],SizeF class, SizeF.SizeF, SizeF.SizeF(IN const SizeF &), SizeF.SizeF(const SizeF&), SizeF::SizeF, SizeF::SizeF(IN const SizeF &), _gdiplus_CLASS_SizeF_SizeF_size_, gdiplus._gdiplus_CLASS_SizeF_SizeF_size_
 ms.topic: method
-f1_keywords: ["gdiplustypes/SizeF.SizeF"]
+f1_keywords: 
+ - "gdiplustypes/SizeF.SizeF"
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

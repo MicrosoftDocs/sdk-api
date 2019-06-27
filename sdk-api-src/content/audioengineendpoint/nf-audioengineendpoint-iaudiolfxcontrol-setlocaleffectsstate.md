@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioLfxControl interface [Core Audio],SetLocalEffectsState method, IAudioLfxControl.SetLocalEffectsState, IAudioLfxControl::SetLocalEffectsState, SetLocalEffectsState, SetLocalEffectsState method [Core Audio], SetLocalEffectsState method [Core Audio],IAudioLfxControl interface, audioengineendpoint/IAudioLfxControl::SetLocalEffectsState, coreaudio.iaudiolfxcontrol_setlocaleffectsstate
 ms.topic: method
-f1_keywords: ["audioengineendpoint/IAudioLfxControl.SetLocalEffectsState"]
+f1_keywords: 
+ - "audioengineendpoint/IAudioLfxControl.SetLocalEffectsState"
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

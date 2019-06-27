@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScriptGetGlyphABCWidth, ScriptGetGlyphABCWidth function [Internationalization for Windows Applications], _win32_ScriptGetGlyphABCWidth, intl.scriptgetglyphabcwidth, usp10/ScriptGetGlyphABCWidth
 ms.topic: function
-f1_keywords: ["usp10/ScriptGetGlyphABCWidth"]
+f1_keywords: 
+ - "usp10/ScriptGetGlyphABCWidth"
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

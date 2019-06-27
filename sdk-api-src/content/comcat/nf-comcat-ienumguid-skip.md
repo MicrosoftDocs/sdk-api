@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumGUID interface [COM],Skip method, IEnumGUID.Skip, IEnumGUID::Skip, Skip, Skip method [COM], Skip method [COM],IEnumGUID interface, _com_ienumguid_skip, com.ienumguid_skip, comcat/IEnumGUID::Skip
 ms.topic: method
-f1_keywords: ["comcat/IEnumGUID.Skip"]
+f1_keywords: 
+ - "comcat/IEnumGUID.Skip"
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows

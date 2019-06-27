@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddAudioTrack, AddAudioTrack method [IMAPI], AddAudioTrack method [IMAPI],IDiscFormat2TrackAtOnce interface, IDiscFormat2TrackAtOnce interface [IMAPI],AddAudioTrack method, IDiscFormat2TrackAtOnce.AddAudioTrack, IDiscFormat2TrackAtOnce::AddAudioTrack, imapi.idiscformat2trackatonce_addaudiotrack, imapi2/IDiscFormat2TrackAtOnce::AddAudioTrack
 ms.topic: method
-f1_keywords: ["imapi2/IDiscFormat2TrackAtOnce.AddAudioTrack"]
+f1_keywords: 
+ - "imapi2/IDiscFormat2TrackAtOnce.AddAudioTrack"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

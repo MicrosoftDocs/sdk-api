@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPreferredSize, GetPreferredSize method [Text Services Framework], GetPreferredSize method [Text Services Framework],ITfLangBarItemBalloon interface, ITfLangBarItemBalloon interface [Text Services Framework],GetPreferredSize method, ITfLangBarItemBalloon.GetPreferredSize, ITfLangBarItemBalloon::GetPreferredSize, _tsf_itflangbaritemballoon_getpreferredsize_ref, ctfutb/ITfLangBarItemBalloon::GetPreferredSize, tsf.itflangbaritemballoon_getpreferredsize
 ms.topic: method
-f1_keywords: ["ctfutb/ITfLangBarItemBalloon.GetPreferredSize"]
+f1_keywords: 
+ - "ctfutb/ITfLangBarItemBalloon.GetPreferredSize"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

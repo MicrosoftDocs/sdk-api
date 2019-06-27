@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RemoveIScsiStaticTargetW, RemoveIscsiStaticTarget, RemoveIscsiStaticTarget function [iSCSI Discovery Library API], RemoveIscsiStaticTargetA, RemoveIscsiStaticTargetW, iscsidisc.removeiscsistatictarget, iscsidsc/RemoveIscsiStaticTarget, iscsidsc/RemoveIscsiStaticTargetA, iscsidsc/RemoveIscsiStaticTargetW
 ms.topic: function
-f1_keywords: ["iscsidsc/RemoveIscsiStaticTarget"]
+f1_keywords: 
+ - "iscsidsc/RemoveIscsiStaticTarget"
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

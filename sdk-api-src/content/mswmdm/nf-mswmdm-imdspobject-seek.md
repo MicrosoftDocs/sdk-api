@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMDSPObject interface [windows Media Device Manager],Seek method, IMDSPObject.Seek, IMDSPObject::Seek, IMDSPObjectSeek, Seek, Seek method [windows Media Device Manager], Seek method [windows Media Device Manager],IMDSPObject interface, mswmdm/IMDSPObject::Seek, wmdm.imdspobject_seek
 ms.topic: method
-f1_keywords: ["mswmdm/IMDSPObject.Seek"]
+f1_keywords: 
+ - "mswmdm/IMDSPObject.Seek"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

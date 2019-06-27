@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3DX11_FFT_CREATE_FLAG, D3DX11_FFT_CREATE_FLAG enumeration [Direct3D 11], D3DX11_FFT_CREATE_FLAG_NO_PRECOMPUTE_BUFFERS, ce09326a-8047-adf4-4d4a-86bfd0c74400, d3dcsx/D3DX11_FFT_CREATE_FLAG, d3dcsx/D3DX11_FFT_CREATE_FLAG_NO_PRECOMPUTE_BUFFERS, direct3d11.d3dx11_fft_create_flag
 ms.topic: enum
-f1_keywords: ["d3dcsx/D3DX11_FFT_CREATE_FLAG"]
+f1_keywords: 
+ - "d3dcsx/D3DX11_FFT_CREATE_FLAG"
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

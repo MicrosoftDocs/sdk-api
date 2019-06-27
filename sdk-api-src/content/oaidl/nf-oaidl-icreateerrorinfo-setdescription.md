@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreateErrorInfo interface [Automation],SetDescription method, ICreateErrorInfo.SetDescription, ICreateErrorInfo::SetDescription, SetDescription, SetDescription method [Automation], SetDescription method [Automation],ICreateErrorInfo interface, _oa96_ICreateErrorInfo_SetDescription, automat.icreateerrorinfo_setdescription, oaidl/ICreateErrorInfo::SetDescription
 ms.topic: method
-f1_keywords: ["oaidl/ICreateErrorInfo.SetDescription"]
+f1_keywords: 
+ - "oaidl/ICreateErrorInfo.SetDescription"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

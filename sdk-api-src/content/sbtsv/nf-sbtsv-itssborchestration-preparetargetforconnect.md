@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbOrchestration interface [Remote Desktop Services],PrepareTargetForConnect method, ITsSbOrchestration.PrepareTargetForConnect, ITsSbOrchestration::PrepareTargetForConnect, PrepareTargetForConnect, PrepareTargetForConnect method [Remote Desktop Services], PrepareTargetForConnect method [Remote Desktop Services],ITsSbOrchestration interface, sbtsv/ITsSbOrchestration::PrepareTargetForConnect, termserv.itssborchestration_preparetargetforconnect
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbOrchestration.PrepareTargetForConnect"]
+f1_keywords: 
+ - "sbtsv/ITsSbOrchestration.PrepareTargetForConnect"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

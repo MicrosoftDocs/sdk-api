@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeviceProblemNumber property [Windows Update Agent], DeviceProblemNumber property [Windows Update Agent],IWindowsDriverUpdateEntry interface, IWindowsDriverUpdateEntry interface [Windows Update Agent],DeviceProblemNumber property, IWindowsDriverUpdateEntry.DeviceProblemNumber, IWindowsDriverUpdateEntry.get_DeviceProblemNumber, IWindowsDriverUpdateEntry::DeviceProblemNumber, IWindowsDriverUpdateEntry::get_DeviceProblemNumber, get_DeviceProblemNumber, wua.iwindowsdriverupdateentry_deviceproblemnumber, wuapi/IWindowsDriverUpdateEntry::DeviceProblemNumber, wuapi/IWindowsDriverUpdateEntry::get_DeviceProblemNumber
 ms.topic: method
-f1_keywords: ["wuapi/IWindowsDriverUpdateEntry.DeviceProblemNumber"]
+f1_keywords: 
+ - "wuapi/IWindowsDriverUpdateEntry.DeviceProblemNumber"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

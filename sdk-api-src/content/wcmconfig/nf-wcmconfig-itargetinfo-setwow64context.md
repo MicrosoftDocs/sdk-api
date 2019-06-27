@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITargetInfo interface [SMI],SetWow64Context method, ITargetInfo.SetWow64Context, ITargetInfo::SetWow64Context, SetWow64Context, SetWow64Context method [SMI], SetWow64Context method [SMI],ITargetInfo interface, smi.itargetinfo_setwow64context, wcmconfig/ITargetInfo::SetWow64Context
 ms.topic: method
-f1_keywords: ["wcmconfig/ITargetInfo.SetWow64Context"]
+f1_keywords: 
+ - "wcmconfig/ITargetInfo.SetWow64Context"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

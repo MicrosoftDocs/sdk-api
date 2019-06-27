@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFQualityManager interface [Media Foundation],NotifyProcessInput method, IMFQualityManager.NotifyProcessInput, IMFQualityManager::NotifyProcessInput, NotifyProcessInput, NotifyProcessInput method [Media Foundation], NotifyProcessInput method [Media Foundation],IMFQualityManager interface, c6e35d03-ca83-4078-bcc1-b9c1d988de01, mf.imfqualitymanager_notifyprocessinput, mfidl/IMFQualityManager::NotifyProcessInput
 ms.topic: method
-f1_keywords: ["mfidl/IMFQualityManager.NotifyProcessInput"]
+f1_keywords: 
+ - "mfidl/IMFQualityManager.NotifyProcessInput"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UpdateColors, UpdateColors function [Windows GDI], _win32_UpdateColors, gdi.updatecolors, wingdi/UpdateColors
 ms.topic: function
-f1_keywords: ["wingdi/UpdateColors"]
+f1_keywords: 
+ - "wingdi/UpdateColors"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSample, CreateSample method [DirectShow], CreateSample method [DirectShow],IAMMediaTypeStream interface, IAMMediaTypeStream interface [DirectShow],CreateSample method, IAMMediaTypeStream.CreateSample, IAMMediaTypeStream::CreateSample, IAMMediaTypeStreamCreateSample, amstream/IAMMediaTypeStream::CreateSample, dshow.iammediatypestream_createsample
 ms.topic: method
-f1_keywords: ["amstream/IAMMediaTypeStream.CreateSample"]
+f1_keywords: 
+ - "amstream/IAMMediaTypeStream.CreateSample"
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

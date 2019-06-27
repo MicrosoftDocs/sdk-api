@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],put_LNBSwitch method, IDVBSTuningSpace.put_LNBSwitch, IDVBSTuningSpace::put_LNBSwitch, IDVBSTuningSpaceput_LNBSwitch, mstv.idvbstuningspace_put_lnbswitch, put_LNBSwitch, put_LNBSwitch method [Microsoft TV Technologies], put_LNBSwitch method [Microsoft TV Technologies],IDVBSTuningSpace interface, tuner/IDVBSTuningSpace::put_LNBSwitch
 ms.topic: method
-f1_keywords: ["tuner/IDVBSTuningSpace.put_LNBSwitch"]
+f1_keywords: 
+ - "tuner/IDVBSTuningSpace.put_LNBSwitch"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

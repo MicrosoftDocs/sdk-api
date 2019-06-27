@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NS_OSVERSIONCHECK, NS_OSVERSIONCHECK callback, NS_OSVERSIONCHECK callback function [NetShell], SampleOsVersionCheck, _netsh_ns_osversioncheck, netsh/NS_OSVERSIONCHECK, netshell.ns_osversioncheck
 ms.topic: callback
-f1_keywords: ["netsh/NS_OSVERSIONCHECK"]
+f1_keywords: 
+ - "netsh/NS_OSVERSIONCHECK"
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

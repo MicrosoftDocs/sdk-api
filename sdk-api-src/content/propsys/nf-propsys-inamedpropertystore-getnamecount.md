@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNameCount, GetNameCount method [Windows Shell], GetNameCount method [Windows Shell],INamedPropertyStore interface, INamedPropertyStore interface [Windows Shell],GetNameCount method, INamedPropertyStore.GetNameCount, INamedPropertyStore::GetNameCount, _shell_INamedPropertyStore_GetNameCount, propsys/INamedPropertyStore::GetNameCount, shell.INamedPropertyStore_GetNameCount
 ms.topic: method
-f1_keywords: ["propsys/INamedPropertyStore.GetNameCount"]
+f1_keywords: 
+ - "propsys/INamedPropertyStore.GetNameCount"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

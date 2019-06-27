@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLoop, GetLoop method [Media Foundation], GetLoop method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetLoop method, IMFMediaEngine.GetLoop, IMFMediaEngine::GetLoop, mf.imfmediaengine_getloop, mfmediaengine/IMFMediaEngine::GetLoop
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngine.GetLoop"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngine.GetLoop"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

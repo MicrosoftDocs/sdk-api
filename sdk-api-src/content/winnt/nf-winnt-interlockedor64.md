@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InterlockedOr64, InterlockedOr64 function, base.interlockedor64, winnt/InterlockedOr64
 ms.topic: function
-f1_keywords: ["winnt/InterlockedOr64"]
+f1_keywords: 
+ - "winnt/InterlockedOr64"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

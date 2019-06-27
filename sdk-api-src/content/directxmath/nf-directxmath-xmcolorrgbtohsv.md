@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorRGBToHSV, XMColorRGBToHSV, XMColorRGBToHSV method [DirectX Math Support APIs], dxmath.xmcolorrgbtohsv
 ms.topic: function
-f1_keywords: ["directxmath/XMColorRGBToHSV"]
+f1_keywords: 
+ - "directxmath/XMColorRGBToHSV"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

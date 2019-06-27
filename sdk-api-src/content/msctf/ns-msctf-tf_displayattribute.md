@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TF_DISPLAYATTRIBUTE, TF_DISPLAYATTRIBUTE structure [Text Services Framework], _tsf_tf_displayattribute_ref, msctf/TF_DISPLAYATTRIBUTE, tsf.tf_displayattribute
 ms.topic: struct
-f1_keywords: ["msctf/TF_DISPLAYATTRIBUTE"]
+f1_keywords: 
+ - "msctf/TF_DISPLAYATTRIBUTE"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

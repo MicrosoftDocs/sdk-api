@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WPCFLAG_LOGOFF_TYPE, WPCFLAG_LOGOFF_TYPE enumeration, WPCFLAG_LOGOFF_TYPE_FORCEDFUS, WPCFLAG_LOGOFF_TYPE_FUS, WPCFLAG_LOGOFF_TYPE_LOGOUT, WPCFLAG_LOGOFF_TYPE_RESTART, WPCFLAG_LOGOFF_TYPE_SHUTDOWN, parcon.wpcflag_logoff_type, wpcevent/WPCFLAG_LOGOFF_TYPE, wpcevent/WPCFLAG_LOGOFF_TYPE_FORCEDFUS, wpcevent/WPCFLAG_LOGOFF_TYPE_FUS, wpcevent/WPCFLAG_LOGOFF_TYPE_LOGOUT, wpcevent/WPCFLAG_LOGOFF_TYPE_RESTART, wpcevent/WPCFLAG_LOGOFF_TYPE_SHUTDOWN
 ms.topic: enum
-f1_keywords: ["wpcevent/WPCFLAG_LOGOFF_TYPE"]
+f1_keywords: 
+ - "wpcevent/WPCFLAG_LOGOFF_TYPE"
 req.header: wpcevent.h
 req.include-header: 
 req.target-type: Windows

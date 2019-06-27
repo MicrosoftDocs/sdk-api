@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnableExtendedButtons, EnableExtendedButtons method [Tablet PC], EnableExtendedButtons method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],EnableExtendedButtons method, IMathInputControl.EnableExtendedButtons, IMathInputControl::EnableExtendedButtons, micaut/IMathInputControl::EnableExtendedButtons, tablet.imathinputcontrol_enableextendedbuttons
 ms.topic: method
-f1_keywords: ["micaut/IMathInputControl.EnableExtendedButtons"]
+f1_keywords: 
+ - "micaut/IMathInputControl.EnableExtendedButtons"
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows

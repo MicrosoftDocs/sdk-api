@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCLUS_MAINTENANCE_MODE_INFO, CLUS_MAINTENANCE_MODE_INFO, CLUS_MAINTENANCE_MODE_INFO structure [Failover Cluster], PCLUS_MAINTENANCE_MODE_INFO, PCLUS_MAINTENANCE_MODE_INFO structure pointer [Failover Cluster], clusapi/CLUS_MAINTENANCE_MODE_INFO, clusapi/PCLUS_MAINTENANCE_MODE_INFO, mscs.clus_maintenance_mode_info"
 ms.topic: struct
-f1_keywords: ["clusapi/CLUS_MAINTENANCE_MODE_INFO"]
+f1_keywords: 
+ - "clusapi/CLUS_MAINTENANCE_MODE_INFO"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

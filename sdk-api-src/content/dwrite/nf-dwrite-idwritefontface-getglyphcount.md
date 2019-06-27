@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGlyphCount, GetGlyphCount method [Direct Write], GetGlyphCount method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetGlyphCount method, IDWriteFontFace.GetGlyphCount, IDWriteFontFace::GetGlyphCount, directwrite.IDWriteFontFace_GetGlyphCount, dwrite/IDWriteFontFace::GetGlyphCount
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteFontFace.GetGlyphCount"]
+f1_keywords: 
+ - "dwrite/IDWriteFontFace.GetGlyphCount"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

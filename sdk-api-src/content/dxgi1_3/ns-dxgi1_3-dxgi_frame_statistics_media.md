@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXGI_FRAME_STATISTICS_MEDIA, DXGI_FRAME_STATISTICS_MEDIA structure [DXGI], direct3ddxgi.dxgi_frame_statistics_media, dxgi1_3/DXGI_FRAME_STATISTICS_MEDIA
 ms.topic: struct
-f1_keywords: ["dxgi1_3/DXGI_FRAME_STATISTICS_MEDIA"]
+f1_keywords: 
+ - "dxgi1_3/DXGI_FRAME_STATISTICS_MEDIA"
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

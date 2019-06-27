@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndRecord, MCIWndRecord macro [Windows Multimedia], _win32_MCIWndRecord, multimedia.mciwndrecord, vfw/MCIWndRecord
 ms.topic: macro
-f1_keywords: ["vfw/MCIWndRecord"]
+f1_keywords: 
+ - "vfw/MCIWndRecord"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

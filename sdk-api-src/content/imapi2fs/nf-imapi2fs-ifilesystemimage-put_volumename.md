@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_VolumeName method, IFileSystemImage.put_VolumeName, IFileSystemImage::put_VolumeName, imapi.ifilesystemimage_put_volumename, imapi2fs/IFileSystemImage::put_VolumeName, put_VolumeName, put_VolumeName method [IMAPI], put_VolumeName method [IMAPI],IFileSystemImage interface
 ms.topic: method
-f1_keywords: ["imapi2fs/IFileSystemImage.put_VolumeName"]
+f1_keywords: 
+ - "imapi2fs/IFileSystemImage.put_VolumeName"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

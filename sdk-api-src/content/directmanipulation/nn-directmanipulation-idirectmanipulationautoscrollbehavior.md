@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationAutoScrollBehavior, IDirectManipulationAutoScrollBehavior interface [Direct Manipulation], IDirectManipulationAutoScrollBehavior interface [Direct Manipulation],described, directmanipulation.idirectmanipulationautoscrollbehavior, directmanipulation/IDirectManipulationAutoScrollBehavior
 ms.topic: interface
-f1_keywords: ["directmanipulation/IDirectManipulationAutoScrollBehavior"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationAutoScrollBehavior"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

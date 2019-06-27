@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClientMonitorData, GetClientMonitorData method [Remote Desktop Services], GetClientMonitorData method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetClientMonitorData method, IWRdsProtocolConnection.GetClientMonitorData, IWRdsProtocolConnection::GetClientMonitorData, termserv.iwrdsprotocolconnection_getclientmonitordata, termserv.iwrdsremotefxgraphicsconnection_getclientmonitordata, wtsprotocol/IWRdsProtocolConnection::GetClientMonitorData
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWRdsProtocolConnection.GetClientMonitorData"]
+f1_keywords: 
+ - "wtsprotocol/IWRdsProtocolConnection.GetClientMonitorData"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

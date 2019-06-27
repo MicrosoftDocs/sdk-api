@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPicture interface [COM],get_CurDC method, IPicture.get_CurDC, IPicture::get_CurDC, _ctrl_ipicture_get_curdc, com.ipicture_get_curdc, get_CurDC, get_CurDC method [COM], get_CurDC method [COM],IPicture interface, ocidl/IPicture::get_CurDC
 ms.topic: method
-f1_keywords: ["ocidl/IPicture.get_CurDC"]
+f1_keywords: 
+ - "ocidl/IPicture.get_CurDC"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

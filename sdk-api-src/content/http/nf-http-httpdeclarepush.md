@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HttpDeclarePush, HttpDeclarePush function [HTTP], http.httpdeclarepush, http/HttpDeclarePush
 ms.topic: function
-f1_keywords: ["http/HttpDeclarePush"]
+f1_keywords: 
+ - "http/HttpDeclarePush"
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

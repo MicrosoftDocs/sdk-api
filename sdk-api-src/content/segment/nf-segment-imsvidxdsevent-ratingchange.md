@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidXDSEvent interface [Microsoft TV Technologies],RatingChange method, IMSVidXDSEvent.RatingChange, IMSVidXDSEvent::RatingChange, IMSVidXDSEventRatingChange, RatingChange, RatingChange method [Microsoft TV Technologies], RatingChange method [Microsoft TV Technologies],IMSVidXDSEvent interface, mstv.imsvidxdsevent_ratingchange, segment/IMSVidXDSEvent::RatingChange
 ms.topic: method
-f1_keywords: ["segment/IMSVidXDSEvent.RatingChange"]
+f1_keywords: 
+ - "segment/IMSVidXDSEvent.RatingChange"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

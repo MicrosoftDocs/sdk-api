@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertFreeServerOcspResponseContext, CertFreeServerOcspResponseContext function [Security], security.certfreeserverocspresponsecontext, wincrypt/CertFreeServerOcspResponseContext
 ms.topic: function
-f1_keywords: ["wincrypt/CertFreeServerOcspResponseContext"]
+f1_keywords: 
+ - "wincrypt/CertFreeServerOcspResponseContext"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

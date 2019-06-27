@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Archived property [Security], Archived property [Security],ICertPropertyArchived interface, ICertPropertyArchived interface [Security],Archived property, ICertPropertyArchived.Archived, ICertPropertyArchived.get_Archived, ICertPropertyArchived::Archived, ICertPropertyArchived::get_Archived, certenroll/ICertPropertyArchived::Archived, certenroll/ICertPropertyArchived::get_Archived, get_Archived, security.icertpropertyarchived_archived_property
 ms.topic: method
-f1_keywords: ["certenroll/ICertPropertyArchived.Archived"]
+f1_keywords: 
+ - "certenroll/ICertPropertyArchived.Archived"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

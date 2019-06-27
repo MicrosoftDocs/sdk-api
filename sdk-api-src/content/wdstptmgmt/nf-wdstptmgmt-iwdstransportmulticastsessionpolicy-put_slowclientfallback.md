@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportMulticastSessionPolicy interface [Windows Deployment Services],SlowClientFallback property, IWdsTransportMulticastSessionPolicy.SlowClientFallback, IWdsTransportMulticastSessionPolicy.put_SlowClientFallback, IWdsTransportMulticastSessionPolicy::SlowClientFallback, IWdsTransportMulticastSessionPolicy::get_SlowClientFallback, IWdsTransportMulticastSessionPolicy::put_SlowClientFallback, SlowClientFallback property [Windows Deployment Services], SlowClientFallback property [Windows Deployment Services],IWdsTransportMulticastSessionPolicy interface, put_SlowClientFallback, wds.iwdstransportmulticastsessionpolicy_slowclientfallback, wdstptmgmt/IWdsTransportMulticastSessionPolicy::SlowClientFallback, wdstptmgmt/IWdsTransportMulticastSessionPolicy::get_SlowClientFallback, wdstptmgmt/IWdsTransportMulticastSessionPolicy::put_SlowClientFallback
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportMulticastSessionPolicy.SlowClientFallback"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportMulticastSessionPolicy.SlowClientFallback"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

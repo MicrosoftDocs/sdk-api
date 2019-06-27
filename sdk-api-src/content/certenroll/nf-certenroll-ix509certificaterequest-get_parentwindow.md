@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequest interface [Security],ParentWindow property, IX509CertificateRequest.ParentWindow, IX509CertificateRequest.get_ParentWindow, IX509CertificateRequest::ParentWindow, IX509CertificateRequest::get_ParentWindow, IX509CertificateRequest::put_ParentWindow, ParentWindow property [Security], ParentWindow property [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::ParentWindow, certenroll/IX509CertificateRequest::get_ParentWindow, certenroll/IX509CertificateRequest::put_ParentWindow, get_ParentWindow, security.ix509certificaterequest_parentwindow_property
 ms.topic: method
-f1_keywords: ["certenroll/IX509CertificateRequest.ParentWindow"]
+f1_keywords: 
+ - "certenroll/IX509CertificateRequest.ParentWindow"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

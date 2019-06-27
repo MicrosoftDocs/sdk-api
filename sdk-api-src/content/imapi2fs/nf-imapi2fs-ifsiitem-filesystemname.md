@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FileSystemName, FileSystemName method [IMAPI], FileSystemName method [IMAPI],IFsiItem interface, IFsiItem interface [IMAPI],FileSystemName method, IFsiItem.FileSystemName, IFsiItem::FileSystemName, imapi.ifsiitem_filesystemname, imapi2fs/IFsiItem::FileSystemName
 ms.topic: method
-f1_keywords: ["imapi2fs/IFsiItem.FileSystemName"]
+f1_keywords: 
+ - "imapi2fs/IFsiItem.FileSystemName"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

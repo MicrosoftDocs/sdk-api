@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 7be4c32f-d116-4a08-857f-1a59b5ccfb12, AutomaticEnable, AutomaticEnable method [Media Foundation], AutomaticEnable method [Media Foundation],IMFContentEnabler interface, IMFContentEnabler interface [Media Foundation],AutomaticEnable method, IMFContentEnabler.AutomaticEnable, IMFContentEnabler::AutomaticEnable, mf.imfcontentenabler_automaticenable, mfidl/IMFContentEnabler::AutomaticEnable
 ms.topic: method
-f1_keywords: ["mfidl/IMFContentEnabler.AutomaticEnable"]
+f1_keywords: 
+ - "mfidl/IMFContentEnabler.AutomaticEnable"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

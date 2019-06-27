@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceServiceMethods interface [Windows Portable Devices SDK],InvokeAsync method, IPortableDeviceServiceMethods.InvokeAsync, IPortableDeviceServiceMethods::InvokeAsync, InvokeAsync, InvokeAsync method [Windows Portable Devices SDK], InvokeAsync method [Windows Portable Devices SDK],IPortableDeviceServiceMethods interface, portabledeviceapi/IPortableDeviceServiceMethods::InvokeAsync, wpdsdk.iportabledeviceservicemethods_invokeasync
 ms.topic: method
-f1_keywords: ["portabledeviceapi/IPortableDeviceServiceMethods.InvokeAsync"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceServiceMethods.InvokeAsync"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

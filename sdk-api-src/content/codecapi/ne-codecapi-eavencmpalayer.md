@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncMPALayer, codecapi/eAVEncMPALayer_1, codecapi/eAVEncMPALayer_2, codecapi/eAVEncMPALayer_3, dshow.eavencmpalayer, eAVEncMPALayer, eAVEncMPALayer enumeration [DirectShow], eAVEncMPALayerEnumeration, eAVEncMPALayer_1, eAVEncMPALayer_2, eAVEncMPALayer_3
 ms.topic: enum
-f1_keywords: ["codecapi/eAVEncMPALayer"]
+f1_keywords: 
+ - "codecapi/eAVEncMPALayer"
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

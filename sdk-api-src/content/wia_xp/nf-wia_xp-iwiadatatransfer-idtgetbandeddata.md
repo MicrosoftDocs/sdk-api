@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWiaDataTransfer interface [WIA],idtGetBandedData method, IWiaDataTransfer.idtGetBandedData, IWiaDataTransfer::idtGetBandedData, _wia_IWiaDataTransfer_idtGetBandedData, idtGetBandedData, idtGetBandedData method [WIA], idtGetBandedData method [WIA],IWiaDataTransfer interface, wia._wia_IWiaDataTransfer_idtGetBandedData, wia_xp/IWiaDataTransfer::idtGetBandedData
 ms.topic: method
-f1_keywords: ["wia_xp/IWiaDataTransfer.idtGetBandedData"]
+f1_keywords: 
+ - "wia_xp/IWiaDataTransfer.idtGetBandedData"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

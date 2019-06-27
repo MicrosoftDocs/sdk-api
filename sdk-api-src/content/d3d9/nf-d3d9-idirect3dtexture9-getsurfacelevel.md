@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSurfaceLevel, GetSurfaceLevel method [Direct3D 9], GetSurfaceLevel method [Direct3D 9],IDirect3DTexture9 interface, IDirect3DTexture9 interface [Direct3D 9],GetSurfaceLevel method, IDirect3DTexture9.GetSurfaceLevel, IDirect3DTexture9::GetSurfaceLevel, ba29c84a-8d60-aa0a-9eae-f64e0534c051, d3d9helper/IDirect3DTexture9::GetSurfaceLevel, direct3d9.idirect3dtexture9__getsurfacelevel
 ms.topic: method
-f1_keywords: ["d3d9/IDirect3DTexture9.GetSurfaceLevel"]
+f1_keywords: 
+ - "d3d9/IDirect3DTexture9.GetSurfaceLevel"
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

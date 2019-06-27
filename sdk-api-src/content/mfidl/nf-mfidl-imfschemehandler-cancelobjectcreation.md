@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 662a4c47-95f8-4a84-ab2b-96e51d13906c, CancelObjectCreation, CancelObjectCreation method [Media Foundation], CancelObjectCreation method [Media Foundation],IMFSchemeHandler interface, IMFSchemeHandler interface [Media Foundation],CancelObjectCreation method, IMFSchemeHandler.CancelObjectCreation, IMFSchemeHandler::CancelObjectCreation, mf.imfschemehandler_cancelobjectcreation, mfidl/IMFSchemeHandler::CancelObjectCreation
 ms.topic: method
-f1_keywords: ["mfidl/IMFSchemeHandler.CancelObjectCreation"]
+f1_keywords: 
+ - "mfidl/IMFSchemeHandler.CancelObjectCreation"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

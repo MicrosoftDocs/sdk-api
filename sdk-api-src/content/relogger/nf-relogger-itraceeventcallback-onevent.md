@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITraceEventCallback interface [ETW],OnEvent method, ITraceEventCallback.OnEvent, ITraceEventCallback::OnEvent, OnEvent, OnEvent method [ETW], OnEvent method [ETW],ITraceEventCallback interface, etw.ieventcallback_onevent, relogger/ITraceEventCallback::OnEvent
 ms.topic: method
-f1_keywords: ["relogger/ITraceEventCallback.OnEvent"]
+f1_keywords: 
+ - "relogger/ITraceEventCallback.OnEvent"
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

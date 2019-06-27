@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapPeerGetMethodProperties, EapPeerGetMethodProperties function [EAPHost], eaphost.eappeergetmethodproperties, eapmethodpeerapis/EapPeerGetMethodProperties
 ms.topic: function
-f1_keywords: ["eapmethodpeerapis/EapPeerGetMethodProperties"]
+f1_keywords: 
+ - "eapmethodpeerapis/EapPeerGetMethodProperties"
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

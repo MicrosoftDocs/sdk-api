@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorModulate, XMColorModulate, XMColorModulate method [DirectX Math Support APIs], dxmath.xmcolormodulate
 ms.topic: function
-f1_keywords: ["directxmath/XMColorModulate"]
+f1_keywords: 
+ - "directxmath/XMColorModulate"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

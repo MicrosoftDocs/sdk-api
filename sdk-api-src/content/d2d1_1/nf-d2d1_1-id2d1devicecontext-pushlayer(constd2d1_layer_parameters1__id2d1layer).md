@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1DeviceContext interface [Direct2D],PushLayer method, ID2D1DeviceContext.PushLayer, ID2D1DeviceContext.PushLayer(const D2D1_LAYER_PARAMETERS1 &,ID2D1Layer), ID2D1DeviceContext::PushLayer, ID2D1DeviceContext::PushLayer(const D2D1_LAYER_PARAMETERS1 &,ID2D1Layer), PushLayer, PushLayer method [Direct2D], PushLayer method [Direct2D],ID2D1DeviceContext interface, d2d1_1/ID2D1DeviceContext::PushLayer, direct2d.id2d1devicecontext_pushlayer
 ms.topic: method
-f1_keywords: ["d2d1_1/ID2D1DeviceContext.PushLayer"]
+f1_keywords: 
+ - "d2d1_1/ID2D1DeviceContext.PushLayer"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

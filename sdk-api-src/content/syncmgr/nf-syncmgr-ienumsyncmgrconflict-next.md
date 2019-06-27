@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncMgrConflict interface [Windows Shell],Next method, IEnumSyncMgrConflict.Next, IEnumSyncMgrConflict::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumSyncMgrConflict interface, _shell_IEnumSyncMgrConflict_Next, shell.IEnumSyncMgrConflict_Next, syncmgr/IEnumSyncMgrConflict::Next
 ms.topic: method
-f1_keywords: ["syncmgr/IEnumSyncMgrConflict.Next"]
+f1_keywords: 
+ - "syncmgr/IEnumSyncMgrConflict.Next"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

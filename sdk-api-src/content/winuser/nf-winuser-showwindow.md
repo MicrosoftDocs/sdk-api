@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SW_FORCEMINIMIZE, SW_HIDE, SW_MAXIMIZE, SW_MINIMIZE, SW_RESTORE, SW_SHOW, SW_SHOWDEFAULT, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNA, SW_SHOWNOACTIVATE, SW_SHOWNORMAL, ShowWindow, ShowWindow function [Windows and Messages], _win32_ShowWindow, _win32_showwindow_cpp, winmsg.showwindow, winui._win32_showwindow, winuser/ShowWindow
 ms.topic: function
-f1_keywords: ["winuser/ShowWindow"]
+f1_keywords: 
+ - "winuser/ShowWindow"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

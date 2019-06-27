@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MachineLearning.winml_model_desc, PWINML_MODEL_DESC, PWINML_MODEL_DESC structure pointer, WINML_MODEL_DESC, WINML_MODEL_DESC structure, winml/PWINML_MODEL_DESC, winml/WINML_MODEL_DESC
 ms.topic: struct
-f1_keywords: ["winml/WINML_MODEL_DESC"]
+f1_keywords: 
+ - "winml/WINML_MODEL_DESC"
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

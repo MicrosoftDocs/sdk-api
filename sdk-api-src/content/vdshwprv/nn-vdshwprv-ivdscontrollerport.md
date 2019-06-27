@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsControllerPort, IVdsControllerPort interface [VDS], IVdsControllerPort interface [VDS],described, base.ivdscontrollerport, vds/IVdsControllerPort, vdshwprv/IVdsControllerPort
 ms.topic: interface
-f1_keywords: ["vdshwprv/IVdsControllerPort"]
+f1_keywords: 
+ - "vdshwprv/IVdsControllerPort"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

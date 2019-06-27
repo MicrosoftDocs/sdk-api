@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddAttribute, AddAttribute method [windows Media Format], AddAttribute method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo3 interface [windows Media Format],AddAttribute method, IWMHeaderInfo3.AddAttribute, IWMHeaderInfo3::AddAttribute, IWMHeaderInfo3AddAttribute, wmformat.iwmheaderinfo3_addattribute, wmsdkidl/IWMHeaderInfo3::AddAttribute
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMHeaderInfo3.AddAttribute"]
+f1_keywords: 
+ - "wmsdkidl/IWMHeaderInfo3.AddAttribute"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

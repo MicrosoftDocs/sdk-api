@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRendererStatistics, GetRendererStatistics method [Remote Desktop Services], GetRendererStatistics method [Remote Desktop Services],IWTSBitmapRenderer interface, IWTSBitmapRenderer interface [Remote Desktop Services],GetRendererStatistics method, IWTSBitmapRenderer.GetRendererStatistics, IWTSBitmapRenderer::GetRendererStatistics, termserv.iwtsbitmaprenderer_getrendererstatistics, tsvirtualchannels/IWTSBitmapRenderer::GetRendererStatistics
 ms.topic: method
-f1_keywords: ["tsvirtualchannels/IWTSBitmapRenderer.GetRendererStatistics"]
+f1_keywords: 
+ - "tsvirtualchannels/IWTSBitmapRenderer.GetRendererStatistics"
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

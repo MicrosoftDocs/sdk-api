@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMulticastListSize, GetMulticastListSize method [Microsoft TV Technologies], GetMulticastListSize method [Microsoft TV Technologies],IBDA_IPV6Filter interface, IBDA_IPV6Filter interface [Microsoft TV Technologies],GetMulticastListSize method, IBDA_IPV6Filter.GetMulticastListSize, IBDA_IPV6Filter::GetMulticastListSize, IBDA_IPV6FilterGetMulticastListSize, bdaiface/IBDA_IPV6Filter::GetMulticastListSize, mstv.ibda_ipv6filter_getmulticastlistsize
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_IPV6Filter.GetMulticastListSize"]
+f1_keywords: 
+ - "bdaiface/IBDA_IPV6Filter.GetMulticastListSize"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

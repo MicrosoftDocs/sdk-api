@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationAnnotationPattern, IUIAutomationAnnotationPattern interface [Windows Accessibility], IUIAutomationAnnotationPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationAnnotationPattern, winauto.uiauto_IUIAutomationAnnotationPattern
 ms.topic: interface
-f1_keywords: ["uiautomationclient/IUIAutomationAnnotationPattern"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationAnnotationPattern"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

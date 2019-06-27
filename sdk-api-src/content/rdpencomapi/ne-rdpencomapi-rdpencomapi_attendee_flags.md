@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ATTENDEE_FLAGS_LOCAL, RDPENCOMAPI_ATTENDEE_FLAGS, RDPENCOMAPI_ATTENDEE_FLAGS enumeration [RDP], rdp.rdpencomapi_attendee_flags, rdpencomapi/ATTENDEE_FLAGS_LOCAL, rdpencomapi/RDPENCOMAPI_ATTENDEE_FLAGS
 ms.topic: enum
-f1_keywords: ["rdpencomapi/RDPENCOMAPI_ATTENDEE_FLAGS"]
+f1_keywords: 
+ - "rdpencomapi/RDPENCOMAPI_ATTENDEE_FLAGS"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

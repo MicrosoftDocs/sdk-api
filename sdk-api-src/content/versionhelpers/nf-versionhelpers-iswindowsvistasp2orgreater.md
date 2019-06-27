@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsWindowsVistaSP2OrGreater, IsWindowsVistaSP2OrGreater function, base.iswindowsvistasp2orgreater, versionhelpers/IsWindowsVistaSP2OrGreater
 ms.topic: function
-f1_keywords: ["versionhelpers/IsWindowsVistaSP2OrGreater"]
+f1_keywords: 
+ - "versionhelpers/IsWindowsVistaSP2OrGreater"
 req.header: versionhelpers.h
 req.include-header: 
 req.target-type: Windows

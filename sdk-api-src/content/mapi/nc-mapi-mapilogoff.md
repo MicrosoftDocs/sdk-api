@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MAPILogoff, MAPILogoff callback, MAPILogoff callback function, mapi.mapilogoff, mapi/MAPILogoff
 ms.topic: callback
-f1_keywords: ["mapi/MAPILogoff"]
+f1_keywords: 
+ - "mapi/MAPILogoff"
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows

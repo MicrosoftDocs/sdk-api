@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],add_TransportParametersUpdate method, IMediaRenderer.add_TransportParametersUpdate, IMediaRenderer.streaming, IMediaRenderer::add_TransportParametersUpdate, IMediaRenderer::streaming, add_TransportParametersUpdate, add_TransportParametersUpdate method [Media Streaming API], add_TransportParametersUpdate method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_add_transportparametersupdate, windows/IMediaRenderer::add_TransportParametersUpdate
 ms.topic: method
-f1_keywords: ["windows.media.streaming/IMediaRenderer.add_TransportParametersUpdate"]
+f1_keywords: 
+ - "windows.media.streaming/IMediaRenderer.add_TransportParametersUpdate"
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

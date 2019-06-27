@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventDescGetLevel, EventDescGetLevel function [ETW], base.eventdescgetlevel_func, etw.eventdescgetlevel_func, evntprov/EventDescGetLevel
 ms.topic: function
-f1_keywords: ["evntprov/EventDescGetLevel"]
+f1_keywords: 
+ - "evntprov/EventDescGetLevel"
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

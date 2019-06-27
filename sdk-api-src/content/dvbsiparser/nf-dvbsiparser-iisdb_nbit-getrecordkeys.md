@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordKeys, GetRecordKeys method [Microsoft TV Technologies], GetRecordKeys method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordKeys method, IISDB_NBIT.GetRecordKeys, IISDB_NBIT::GetRecordKeys, dvbsiparser/IISDB_NBIT::GetRecordKeys, mstv.iisdb_nbit_getrecordkeys
 ms.topic: method
-f1_keywords: ["dvbsiparser/IISDB_NBIT.GetRecordKeys"]
+f1_keywords: 
+ - "dvbsiparser/IISDB_NBIT.GetRecordKeys"
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInstanceId, GetInstanceId method [Windows Sync], GetInstanceId method [Windows Sync],IRegisteredSyncProvider interface, IRegisteredSyncProvider interface [Windows Sync],GetInstanceId method, IRegisteredSyncProvider.GetInstanceId, IRegisteredSyncProvider::GetInstanceId, syncregistration/IRegisteredSyncProvider::GetInstanceId, winsync.iregisteredsyncprovider_getinstanceid
 ms.topic: method
-f1_keywords: ["syncregistration/IRegisteredSyncProvider.GetInstanceId"]
+f1_keywords: 
+ - "syncregistration/IRegisteredSyncProvider.GetInstanceId"
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

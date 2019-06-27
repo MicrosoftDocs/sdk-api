@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureRequest interface [XPS Documents and Packaging],SetSigningLocale method, IXpsSignatureRequest.SetSigningLocale, IXpsSignatureRequest::SetSigningLocale, SetSigningLocale, SetSigningLocale method [XPS Documents and Packaging], SetSigningLocale method [XPS Documents and Packaging],IXpsSignatureRequest interface, xps.ixpssignaturerequest_setsigninglocale, xpsdigitalsignature/IXpsSignatureRequest::SetSigningLocale
 ms.topic: method
-f1_keywords: ["xpsdigitalsignature/IXpsSignatureRequest.SetSigningLocale"]
+f1_keywords: 
+ - "xpsdigitalsignature/IXpsSignatureRequest.SetSigningLocale"
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

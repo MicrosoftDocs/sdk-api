@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSource2 interface [Microsoft TV Technologies],get_CCCounter method, IMSVidStreamBufferSource2.get_CCCounter, IMSVidStreamBufferSource2::get_CCCounter, IMSVidStreamBufferSource2get_CCCounter, get_CCCounter, get_CCCounter method [Microsoft TV Technologies], get_CCCounter method [Microsoft TV Technologies],IMSVidStreamBufferSource2 interface, mstv.imsvidstreambuffersource2_get_cccounter, segment/IMSVidStreamBufferSource2::get_CCCounter
 ms.topic: method
-f1_keywords: ["segment/IMSVidStreamBufferSource2.get_CCCounter"]
+f1_keywords: 
+ - "segment/IMSVidStreamBufferSource2.get_CCCounter"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

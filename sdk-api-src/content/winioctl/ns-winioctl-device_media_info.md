@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDEVICE_MEDIA_INFO, DEVICE_MEDIA_INFO, DEVICE_MEDIA_INFO structure, MEDIA_CURRENTLY_MOUNTED, MEDIA_ERASEABLE, MEDIA_READ_ONLY, MEDIA_READ_WRITE, MEDIA_WRITE_ONCE, MEDIA_WRITE_PROTECTED, PDEVICE_MEDIA_INFO, PDEVICE_MEDIA_INFO structure pointer, _win32_device_media_info_str, base.device_media_info_str, winioctl/DEVICE_MEDIA_INFO, winioctl/PDEVICE_MEDIA_INFO"
 ms.topic: struct
-f1_keywords: ["winioctl/DEVICE_MEDIA_INFO"]
+f1_keywords: 
+ - "winioctl/DEVICE_MEDIA_INFO"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

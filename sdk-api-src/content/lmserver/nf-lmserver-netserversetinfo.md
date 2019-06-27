@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 101, 102, 402, 403, NetServerSetInfo, NetServerSetInfo function [Network Management], _win32_netserversetinfo, lmserver/NetServerSetInfo, netmgmt.netserversetinfo
 ms.topic: function
-f1_keywords: ["lmserver/NetServerSetInfo"]
+f1_keywords: 
+ - "lmserver/NetServerSetInfo"
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows

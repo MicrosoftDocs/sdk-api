@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColumnCount, GetColumnCount method [Windows Shell], GetColumnCount method [Windows Shell],IColumnManager interface, IColumnManager interface [Windows Shell],GetColumnCount method, IColumnManager.GetColumnCount, IColumnManager::GetColumnCount, shell.IColumnManager_GetColumnCount, shell_IColumnManager_GetColumnCount, shobjidl_core/IColumnManager::GetColumnCount
 ms.topic: method
-f1_keywords: ["shobjidl_core/IColumnManager.GetColumnCount"]
+f1_keywords: 
+ - "shobjidl_core/IColumnManager.GetColumnCount"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

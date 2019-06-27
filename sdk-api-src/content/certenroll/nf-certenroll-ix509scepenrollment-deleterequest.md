@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteRequest, DeleteRequest method [Security], DeleteRequest method [Security],IX509SCEPEnrollment interface, IX509SCEPEnrollment interface [Security],DeleteRequest method, IX509SCEPEnrollment.DeleteRequest, IX509SCEPEnrollment::DeleteRequest, certenroll/IX509SCEPEnrollment::DeleteRequest, security.ix509scepenrollment_deleterequest
 ms.topic: method
-f1_keywords: ["certenroll/IX509SCEPEnrollment.DeleteRequest"]
+f1_keywords: 
+ - "certenroll/IX509SCEPEnrollment.DeleteRequest"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

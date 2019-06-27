@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetForegroundWindow, SetForegroundWindow function [Windows and Messages], _win32_SetForegroundWindow, _win32_setforegroundwindow_cpp, winmsg.setforegroundwindow, winui._win32_setforegroundwindow, winuser/SetForegroundWindow
 ms.topic: function
-f1_keywords: ["winuser/SetForegroundWindow"]
+f1_keywords: 
+ - "winuser/SetForegroundWindow"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

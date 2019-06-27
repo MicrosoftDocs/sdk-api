@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [RDP], Disconnect method [RDP],IRDPSRAPIViewer interface, IRDPSRAPIViewer interface [RDP],Disconnect method, IRDPSRAPIViewer.Disconnect, IRDPSRAPIViewer::Disconnect, rdp.irdpsrapiviewer_disconnect, rdpencomapi/IRDPSRAPIViewer::Disconnect
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPIViewer.Disconnect"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIViewer.Disconnect"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

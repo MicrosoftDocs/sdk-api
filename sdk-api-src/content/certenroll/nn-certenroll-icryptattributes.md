@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICryptAttributes, ICryptAttributes interface [Security], ICryptAttributes interface [Security],described, certenroll/ICryptAttributes, security.icryptattributes
 ms.topic: interface
-f1_keywords: ["certenroll/ICryptAttributes"]
+f1_keywords: 
+ - "certenroll/ICryptAttributes"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

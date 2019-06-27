@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSTORAGE_COMPONENT_HEALTH_STATUS, HealthStatusDisabled, HealthStatusFailed, HealthStatusNormal, HealthStatusThrottled, HealthStatusUnknown, HealthStatusWarning, PSTORAGE_COMPONENT_HEALTH_STATUS, PSTORAGE_COMPONENT_HEALTH_STATUS enumeration pointer [Files], STORAGE_COMPONENT_HEALTH_STATUS, _STORAGE_COMPONENT_HEALTH_STATUS, _STORAGE_COMPONENT_HEALTH_STATUS enumeration [Files], fs.storage_component_health_status, winioctl/HealthStatusDisabled, winioctl/HealthStatusFailed, winioctl/HealthStatusNormal, winioctl/HealthStatusThrottled, winioctl/HealthStatusUnknown, winioctl/HealthStatusWarning, winioctl/PSTORAGE_COMPONENT_HEALTH_STATUS, winioctl/_STORAGE_COMPONENT_HEALTH_STATUS"
 ms.topic: enum
-f1_keywords: ["winioctl/STORAGE_COMPONENT_HEALTH_STATUS"]
+f1_keywords: 
+ - "winioctl/STORAGE_COMPONENT_HEALTH_STATUS"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

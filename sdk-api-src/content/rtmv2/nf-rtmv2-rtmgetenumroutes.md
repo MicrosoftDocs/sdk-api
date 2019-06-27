@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtmGetEnumRoutes, RtmGetEnumRoutes function [RAS], _rtmv2ref_rtmgetenumroutes, rras.rtmgetenumroutes, rtmv2/RtmGetEnumRoutes
 ms.topic: function
-f1_keywords: ["rtmv2/RtmGetEnumRoutes"]
+f1_keywords: 
+ - "rtmv2/RtmGetEnumRoutes"
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

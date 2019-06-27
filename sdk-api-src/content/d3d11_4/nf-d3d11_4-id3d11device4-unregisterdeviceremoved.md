@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11Device4 interface [Direct3D 11],UnregisterDeviceRemoved method, ID3D11Device4.UnregisterDeviceRemoved, ID3D11Device4::UnregisterDeviceRemoved, UnregisterDeviceRemoved, UnregisterDeviceRemoved method [Direct3D 11], UnregisterDeviceRemoved method [Direct3D 11],ID3D11Device4 interface, d3d11_4/ID3D11Device4::UnregisterDeviceRemoved, direct3d11.id3d11device4_unregisterdeviceremoved
 ms.topic: method
-f1_keywords: ["d3d11_4/ID3D11Device4.UnregisterDeviceRemoved"]
+f1_keywords: 
+ - "d3d11_4/ID3D11Device4.UnregisterDeviceRemoved"
 req.header: d3d11_4.h
 req.include-header: 
 req.target-type: Windows

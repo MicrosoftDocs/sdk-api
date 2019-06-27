@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIterationInfo, GetIterationInfo method [Windows Shell], GetIterationInfo method [Windows Shell],ISyncMgrConflictResolveInfo interface, ISyncMgrConflictResolveInfo interface [Windows Shell],GetIterationInfo method, ISyncMgrConflictResolveInfo.GetIterationInfo, ISyncMgrConflictResolveInfo::GetIterationInfo, _shell_ISyncMgrConflictResolveInfo_GetIterationInfo, shell.ISyncMgrConflictResolveInfo_GetIterationInfo, syncmgr/ISyncMgrConflictResolveInfo::GetIterationInfo
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrConflictResolveInfo.GetIterationInfo"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrConflictResolveInfo.GetIterationInfo"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

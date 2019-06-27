@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListBox_DeleteString, ListBox_DeleteString macro [Windows Controls], _win32_ListBox_DeleteString, _win32_ListBox_DeleteString_cpp, controls.ListBox_DeleteString, controls._win32_ListBox_DeleteString, windowsx/ListBox_DeleteString
 ms.topic: macro
-f1_keywords: ["windowsx/ListBox_DeleteString"]
+f1_keywords: 
+ - "windowsx/ListBox_DeleteString"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

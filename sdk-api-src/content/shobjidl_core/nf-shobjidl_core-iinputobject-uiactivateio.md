@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInputObject interface [Windows Shell],UIActivateIO method, IInputObject.UIActivateIO, IInputObject::UIActivateIO, UIActivateIO, UIActivateIO method [Windows Shell], UIActivateIO method [Windows Shell],IInputObject interface, _win32_IInputObject_UIActivateIO, shell.IInputObject_UIActivateIO, shobjidl_core/IInputObject::UIActivateIO
 ms.topic: method
-f1_keywords: ["shobjidl_core/IInputObject.UIActivateIO"]
+f1_keywords: 
+ - "shobjidl_core/IInputObject.UIActivateIO"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

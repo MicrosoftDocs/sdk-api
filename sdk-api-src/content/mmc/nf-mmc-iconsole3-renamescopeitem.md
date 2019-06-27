@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConsole3 interface [MMC],RenameScopeItem method, IConsole3.RenameScopeItem, IConsole3::RenameScopeItem, RenameScopeItem, RenameScopeItem method [MMC], RenameScopeItem method [MMC],IConsole3 interface, _slate_iconsole3_renamescopeitem, mmc.iconsole3_renamescopeitem, mmc/IConsole3::RenameScopeItem
 ms.topic: method
-f1_keywords: ["mmc/IConsole3.RenameScopeItem"]
+f1_keywords: 
+ - "mmc/IConsole3.RenameScopeItem"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

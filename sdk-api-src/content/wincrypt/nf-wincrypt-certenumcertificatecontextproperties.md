@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertEnumCertificateContextProperties, CertEnumCertificateContextProperties function [Security], _crypto2_certenumcertificatecontextproperties, security.certenumcertificatecontextproperties, wincrypt/CertEnumCertificateContextProperties
 ms.topic: function
-f1_keywords: ["wincrypt/CertEnumCertificateContextProperties"]
+f1_keywords: 
+ - "wincrypt/CertEnumCertificateContextProperties"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

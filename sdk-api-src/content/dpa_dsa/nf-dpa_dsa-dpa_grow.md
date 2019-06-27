@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DPA_Grow, DPA_Grow function [Windows Controls], _shell_DPA_Grow, _shell_DPA_Grow_cpp, controls.DPA_Grow, controls._shell_DPA_Grow, dpa_dsa/DPA_Grow
 ms.topic: function
-f1_keywords: ["dpa_dsa/DPA_Grow"]
+f1_keywords: 
+ - "dpa_dsa/DPA_Grow"
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

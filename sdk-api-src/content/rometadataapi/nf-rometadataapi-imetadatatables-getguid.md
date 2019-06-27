@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGuid, GetGuid method [Windows Runtime], GetGuid method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetGuid method, IMetaDataTables.GetGuid, IMetaDataTables::GetGuid, rometadataapi/IMetaDataTables::GetGuid, winrt.imetadatatables_getguid
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataTables.GetGuid"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataTables.GetGuid"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

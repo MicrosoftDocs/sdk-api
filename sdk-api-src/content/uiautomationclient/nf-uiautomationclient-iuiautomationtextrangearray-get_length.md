@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextRangeArray interface [Windows Accessibility],Length property, IUIAutomationTextRangeArray.Length, IUIAutomationTextRangeArray.get_Length, IUIAutomationTextRangeArray::Length, IUIAutomationTextRangeArray::get_Length, Length property [Windows Accessibility], Length property [Windows Accessibility],IUIAutomationTextRangeArray interface, get_Length, uiauto.uiauto_IUIAutomationTextRangeArray_Length, uiauto_IUIAutomationTextRangeArray_Length, uiautomationclient/IUIAutomationTextRangeArray::Length, uiautomationclient/IUIAutomationTextRangeArray::get_Length, winauto.uiauto_IUIAutomationTextRangeArray_Length
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTextRangeArray.Length"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTextRangeArray.Length"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

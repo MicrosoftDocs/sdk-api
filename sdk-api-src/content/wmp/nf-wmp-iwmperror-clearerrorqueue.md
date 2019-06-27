@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPError interface [Windows Media Player],clearErrorQueue method, IWMPError.clearErrorQueue, IWMPError::clearErrorQueue, IWMPErrorclearErrorQueue, clearErrorQueue, clearErrorQueue method [Windows Media Player], clearErrorQueue method [Windows Media Player],IWMPError interface, wmp.iwmperror_clearerrorqueue, wmp/IWMPError::clearErrorQueue
 ms.topic: method
-f1_keywords: ["wmp/IWMPError.clearErrorQueue"]
+f1_keywords: 
+ - "wmp/IWMPError.clearErrorQueue"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

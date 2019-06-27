@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndQuery, EndQuery method, EndQuery method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,EndQuery method, ID3D12GraphicsCommandList.EndQuery, ID3D12GraphicsCommandList::EndQuery, d3d12/ID3D12GraphicsCommandList::EndQuery, direct3d12.id3d12graphicscommandlist_endquery
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12GraphicsCommandList.EndQuery"]
+f1_keywords: 
+ - "d3d12/ID3D12GraphicsCommandList.EndQuery"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

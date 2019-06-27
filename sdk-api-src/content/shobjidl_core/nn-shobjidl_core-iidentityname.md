@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IIdentityName, IIdentityName interface [Windows Shell], IIdentityName interface [Windows Shell],described, _shell_IIdentityName, shell.IIdentityName, shobjidl_core/IIdentityName
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IIdentityName"]
+f1_keywords: 
+ - "shobjidl_core/IIdentityName"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

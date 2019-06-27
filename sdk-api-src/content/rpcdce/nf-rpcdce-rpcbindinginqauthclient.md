@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcBindingInqAuthClient, RpcBindingInqAuthClient function [RPC], RpcBindingInqAuthClientA, RpcBindingInqAuthClientW, _rpc_rpcbindinginqauthclient, rpc.rpcbindinginqauthclient, rpcdce/RpcBindingInqAuthClient, rpcdce/RpcBindingInqAuthClientA, rpcdce/RpcBindingInqAuthClientW
 ms.topic: function
-f1_keywords: ["rpcdce/RpcBindingInqAuthClient"]
+f1_keywords: 
+ - "rpcdce/RpcBindingInqAuthClient"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

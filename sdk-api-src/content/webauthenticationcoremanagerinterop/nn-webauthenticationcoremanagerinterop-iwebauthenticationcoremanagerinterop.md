@@ -5,7 +5,8 @@ description: Contains core methods for obtaining tokens from web account provide
 ms.date: 5/28/2019
 ms.keywords: IWebAuthenticationCoreManagerInterop
 ms.topic: language-reference
-f1_keywords: ["webauthenticationcoremanagerinterop/IWebAuthenticationCoreManagerInterop"]
+f1_keywords: 
+ - "webauthenticationcoremanagerinterop/IWebAuthenticationCoreManagerInterop"
 targetos: Windows
 product: Windows
 req.assembly: 

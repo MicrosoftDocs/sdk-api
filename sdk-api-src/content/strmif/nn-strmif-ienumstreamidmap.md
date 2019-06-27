@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumStreamIdMap, IEnumStreamIdMap interface [DirectShow], IEnumStreamIdMap interface [DirectShow],described, IEnumStreamIdMapInterface, dshow.ienumstreamidmap, strmif/IEnumStreamIdMap
 ms.topic: interface
-f1_keywords: ["strmif/IEnumStreamIdMap"]
+f1_keywords: 
+ - "strmif/IEnumStreamIdMap"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

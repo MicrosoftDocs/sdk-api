@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyToCache, CopyToCache method [Windows Update Agent], CopyToCache method [Windows Update Agent],IUpdate2 interface, IUpdate2 interface [Windows Update Agent],CopyToCache method, IUpdate2.CopyToCache, IUpdate2::CopyToCache, wua.iupdate2_copytocache, wuapi/IUpdate2::CopyToCache
 ms.topic: method
-f1_keywords: ["wuapi/IUpdate2.CopyToCache"]
+f1_keywords: 
+ - "wuapi/IUpdate2.CopyToCache"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

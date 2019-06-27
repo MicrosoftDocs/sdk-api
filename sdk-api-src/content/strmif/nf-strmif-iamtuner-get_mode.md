@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMTuner interface [DirectShow],get_Mode method, IAMTuner.get_Mode, IAMTuner::get_Mode, IAMTunerget_Mode, dshow.iamtuner_get_mode, get_Mode, get_Mode method [DirectShow], get_Mode method [DirectShow],IAMTuner interface, strmif/IAMTuner::get_Mode
 ms.topic: method
-f1_keywords: ["strmif/IAMTuner.get_Mode"]
+f1_keywords: 
+ - "strmif/IAMTuner.get_Mode"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

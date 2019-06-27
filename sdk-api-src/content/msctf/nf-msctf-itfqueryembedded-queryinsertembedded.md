@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfQueryEmbedded interface [Text Services Framework],QueryInsertEmbedded method, ITfQueryEmbedded.QueryInsertEmbedded, ITfQueryEmbedded::QueryInsertEmbedded, QueryInsertEmbedded, QueryInsertEmbedded method [Text Services Framework], QueryInsertEmbedded method [Text Services Framework],ITfQueryEmbedded interface, _tsf_itfqueryembedded_queryinsertembedded_ref, msctf/ITfQueryEmbedded::QueryInsertEmbedded, tsf.itfqueryembedded_queryinsertembedded
 ms.topic: method
-f1_keywords: ["msctf/ITfQueryEmbedded.QueryInsertEmbedded"]
+f1_keywords: 
+ - "msctf/ITfQueryEmbedded.QueryInsertEmbedded"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

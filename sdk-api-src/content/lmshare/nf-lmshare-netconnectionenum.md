@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, NetConnectionEnum, NetConnectionEnum function [Files], _win32_netconnectionenum, fs.netconnectionenum, lmshare/NetConnectionEnum, netmgmt.netconnectionenum
 ms.topic: function
-f1_keywords: ["lmshare/NetConnectionEnum"]
+f1_keywords: 
+ - "lmshare/NetConnectionEnum"
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

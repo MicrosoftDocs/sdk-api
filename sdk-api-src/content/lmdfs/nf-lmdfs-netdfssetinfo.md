@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 100, 101, 102, 103, 104, 105, 106, 107, 150, NetDfsSetInfo, NetDfsSetInfo function [Distributed File System], _win32_netdfssetinfo, dfs.netdfssetinfo, fs.netdfssetinfo, lmdfs/NetDfsSetInfo, netmgmt.netdfssetinfo
 ms.topic: function
-f1_keywords: ["lmdfs/NetDfsSetInfo"]
+f1_keywords: 
+ - "lmdfs/NetDfsSetInfo"
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

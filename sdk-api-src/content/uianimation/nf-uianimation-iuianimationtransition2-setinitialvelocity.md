@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTransition2 interface [Windows Animation],SetInitialVelocity method, IUIAnimationTransition2.SetInitialVelocity, IUIAnimationTransition2::SetInitialVelocity, SetInitialVelocity, SetInitialVelocity method [Windows Animation], SetInitialVelocity method [Windows Animation],IUIAnimationTransition2 interface, uianimation.iuianimationtransition2_setinitialvelocity, uianimation/IUIAnimationTransition2::SetInitialVelocity
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationTransition2.SetInitialVelocity"]
+f1_keywords: 
+ - "uianimation/IUIAnimationTransition2.SetInitialVelocity"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

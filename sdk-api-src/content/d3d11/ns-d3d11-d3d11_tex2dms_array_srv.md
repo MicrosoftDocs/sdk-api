@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 4eeb5c82-a7a5-65c2-774b-c2c491076826, D3D11_TEX2DMS_ARRAY_SRV, D3D11_TEX2DMS_ARRAY_SRV structure [Direct3D 11], d3d11/D3D11_TEX2DMS_ARRAY_SRV, direct3d11.d3d11_tex2dms_array_srv
 ms.topic: struct
-f1_keywords: ["d3d11/D3D11_TEX2DMS_ARRAY_SRV"]
+f1_keywords: 
+ - "d3d11/D3D11_TEX2DMS_ARRAY_SRV"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

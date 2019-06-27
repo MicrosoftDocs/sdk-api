@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateTemplateWritable interface [Security],Property property, IX509CertificateTemplateWritable.Property, IX509CertificateTemplateWritable.get_Property, IX509CertificateTemplateWritable::Property, IX509CertificateTemplateWritable::get_Property, IX509CertificateTemplateWritable::put_Property, Property property [Security], Property property [Security],IX509CertificateTemplateWritable interface, certenroll/IX509CertificateTemplateWritable::Property, certenroll/IX509CertificateTemplateWritable::get_Property, certenroll/IX509CertificateTemplateWritable::put_Property, get_Property, security.ix509certificatetemplatewritable_property
 ms.topic: method
-f1_keywords: ["certenroll/IX509CertificateTemplateWritable.Property"]
+f1_keywords: 
+ - "certenroll/IX509CertificateTemplateWritable.Property"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImmSimulateHotKey, ImmSimulateHotKey function [Internationalization for Windows Applications], _win32_ImmSimulateHotKey, imm/ImmSimulateHotKey, intl.immsimulatehotkey
 ms.topic: function
-f1_keywords: ["imm/ImmSimulateHotKey"]
+f1_keywords: 
+ - "imm/ImmSimulateHotKey"
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

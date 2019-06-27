@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],get_Roll method, ICameraControl.get_Roll, ICameraControl::get_Roll, ICameraControlget_Roll, dshow.icameracontrol_get_roll, get_Roll, get_Roll method [DirectShow], get_Roll method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_Roll
 ms.topic: method
-f1_keywords: ["vidcap/ICameraControl.get_Roll"]
+f1_keywords: 
+ - "vidcap/ICameraControl.get_Roll"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

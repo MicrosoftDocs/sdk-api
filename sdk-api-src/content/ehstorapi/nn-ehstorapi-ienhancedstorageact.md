@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnhancedStorageACT, IEnhancedStorageACT interface [Enhanced Storage], IEnhancedStorageACT interface [Enhanced Storage],described, ehstorapi/IEnhancedStorageACT, enstor.ienhancedstorageact
 ms.topic: interface
-f1_keywords: ["ehstorapi/IEnhancedStorageACT"]
+f1_keywords: 
+ - "ehstorapi/IEnhancedStorageACT"
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

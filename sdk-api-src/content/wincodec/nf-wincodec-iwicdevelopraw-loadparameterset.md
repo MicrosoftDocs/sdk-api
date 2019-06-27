@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],LoadParameterSet method, IWICDevelopRaw.LoadParameterSet, IWICDevelopRaw::LoadParameterSet, LoadParameterSet, LoadParameterSet method [Windows Imaging Component], LoadParameterSet method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_loadparameterset, wic._wic_codec_iwicdevelopraw_loadparameterset, wincodec/IWICDevelopRaw::LoadParameterSet
 ms.topic: method
-f1_keywords: ["wincodec/IWICDevelopRaw.LoadParameterSet"]
+f1_keywords: 
+ - "wincodec/IWICDevelopRaw.LoadParameterSet"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

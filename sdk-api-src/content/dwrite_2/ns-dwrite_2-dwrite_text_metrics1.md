@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_TEXT_METRICS1, DWRITE_TEXT_METRICS1 structure [Direct Write], PDWRITE_TEXT_METRICS1, PDWRITE_TEXT_METRICS1 structure pointer [Direct Write], directwrite.dwrite_text_metrics1, dwrite_2/DWRITE_TEXT_METRICS1, dwrite_2/PDWRITE_TEXT_METRICS1
 ms.topic: struct
-f1_keywords: ["dwrite_2/DWRITE_TEXT_METRICS1"]
+f1_keywords: 
+ - "dwrite_2/DWRITE_TEXT_METRICS1"
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

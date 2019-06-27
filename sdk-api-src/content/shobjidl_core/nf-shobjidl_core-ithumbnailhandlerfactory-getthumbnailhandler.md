@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThumbnailHandler, GetThumbnailHandler method [Windows Shell], GetThumbnailHandler method [Windows Shell],IThumbnailHandlerFactory interface, IThumbnailHandlerFactory interface [Windows Shell],GetThumbnailHandler method, IThumbnailHandlerFactory.GetThumbnailHandler, IThumbnailHandlerFactory::GetThumbnailHandler, _shell_IThumbnailHandlerFactory_GetThumbnailHandler, shell.IThumbnailHandlerFactory_GetThumbnailHandler, shobjidl_core/IThumbnailHandlerFactory::GetThumbnailHandler
 ms.topic: method
-f1_keywords: ["shobjidl_core/IThumbnailHandlerFactory.GetThumbnailHandler"]
+f1_keywords: 
+ - "shobjidl_core/IThumbnailHandlerFactory.GetThumbnailHandler"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextProvider2 interface [Windows Accessibility],RangeFromAnnotation method, ITextProvider2.RangeFromAnnotation, ITextProvider2::RangeFromAnnotation, RangeFromAnnotation, RangeFromAnnotation method [Windows Accessibility], RangeFromAnnotation method [Windows Accessibility],ITextProvider2 interface, uiautomationcore/ITextProvider2::RangeFromAnnotation, winauto.uiauto_itextprovider2_rangefromannotation
 ms.topic: method
-f1_keywords: ["uiautomationcore/ITextProvider2.RangeFromAnnotation"]
+f1_keywords: 
+ - "uiautomationcore/ITextProvider2.RangeFromAnnotation"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

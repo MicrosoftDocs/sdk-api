@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPM_HDCP_FORCE_ULONG, OPM_HDCP_OFF, OPM_HDCP_ON, OPM_HDCP_PROTECTION_LEVEL, OPM_HDCP_PROTECTION_LEVEL enumeration [Media Foundation], mf.opm_hdcp_protection_level, opmapi/OPM_HDCP_FORCE_ULONG, opmapi/OPM_HDCP_OFF, opmapi/OPM_HDCP_ON, opmapi/OPM_HDCP_PROTECTION_LEVEL
 ms.topic: enum
-f1_keywords: ["opmapi/OPM_HDCP_PROTECTION_LEVEL"]
+f1_keywords: 
+ - "opmapi/OPM_HDCP_PROTECTION_LEVEL"
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

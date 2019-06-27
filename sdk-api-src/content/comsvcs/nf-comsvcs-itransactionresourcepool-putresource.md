@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITransactionResourcePool interface [COM+],PutResource method, ITransactionResourcePool.PutResource, ITransactionResourcePool::PutResource, PutResource, PutResource method [COM+], PutResource method [COM+],ITransactionResourcePool interface, _cos_ITransactionResourcePool_PutResource, comsvcs/ITransactionResourcePool::PutResource, cos.itransactionresourcepool_putresource
 ms.topic: method
-f1_keywords: ["comsvcs/ITransactionResourcePool.PutResource"]
+f1_keywords: 
+ - "comsvcs/ITransactionResourcePool.PutResource"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

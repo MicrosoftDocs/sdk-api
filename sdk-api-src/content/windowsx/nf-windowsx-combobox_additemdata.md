@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComboBox_AddItemData, ComboBox_AddItemData macro [Windows Controls], _win32_ComboBox_AddItemData, _win32_ComboBox_AddItemData_cpp, controls.ComboBox_AddItemData, controls._win32_ComboBox_AddItemData, windowsx/ComboBox_AddItemData
 ms.topic: macro
-f1_keywords: ["windowsx/ComboBox_AddItemData"]
+f1_keywords: 
+ - "windowsx/ComboBox_AddItemData"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

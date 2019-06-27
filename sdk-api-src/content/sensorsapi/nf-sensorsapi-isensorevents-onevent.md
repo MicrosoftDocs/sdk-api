@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISensorEvents interface,OnEvent method, ISensorEvents.OnEvent, ISensorEvents::OnEvent, OnEvent, OnEvent method, OnEvent method,ISensorEvents interface, sensorsapi/ISensorEvents::OnEvent, winsensors_com_ref.isensorevents_onevent
 ms.topic: method
-f1_keywords: ["sensorsapi/ISensorEvents.OnEvent"]
+f1_keywords: 
+ - "sensorsapi/ISensorEvents.OnEvent"
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

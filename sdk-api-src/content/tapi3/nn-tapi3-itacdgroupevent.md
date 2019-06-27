@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITACDGroupEvent, ITACDGroupEvent interface [TAPI 2.2], ITACDGroupEvent interface [TAPI 2.2],described, _tapi3_itacdgroupevent, tapi3.itacdgroupevent, tapi3cc/ITACDGroupEvent
 ms.topic: interface
-f1_keywords: ["tapi3/ITACDGroupEvent"]
+f1_keywords: 
+ - "tapi3/ITACDGroupEvent"
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

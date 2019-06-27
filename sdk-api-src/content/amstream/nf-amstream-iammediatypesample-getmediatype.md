@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMediaType, GetMediaType method [DirectShow], GetMediaType method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetMediaType method, IAMMediaTypeSample.GetMediaType, IAMMediaTypeSample::GetMediaType, IAMMediaTypeSampleGetMediaType, amstream/IAMMediaTypeSample::GetMediaType, dshow.iammediatypesample_getmediatype
 ms.topic: method
-f1_keywords: ["amstream/IAMMediaTypeSample.GetMediaType"]
+f1_keywords: 
+ - "amstream/IAMMediaTypeSample.GetMediaType"
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

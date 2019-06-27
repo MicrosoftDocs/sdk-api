@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInheritSource, GetInheritSource method [Security], GetInheritSource method [Security],ISecurityObjectTypeInfo interface, ISecurityObjectTypeInfo interface [Security],GetInheritSource method, ISecurityObjectTypeInfo.GetInheritSource, ISecurityObjectTypeInfo::GetInheritSource, aclui/ISecurityObjectTypeInfo::GetInheritSource, security.isecurityobjecttypeinfo_getinheritsource
 ms.topic: method
-f1_keywords: ["aclui/ISecurityObjectTypeInfo.GetInheritSource"]
+f1_keywords: 
+ - "aclui/ISecurityObjectTypeInfo.GetInheritSource"
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDictionaryItem, GetDictionaryItem method, GetDictionaryItem method,IVisualTreeService3 interface, IVisualTreeService3 interface,GetDictionaryItem method, IVisualTreeService3.GetDictionaryItem, IVisualTreeService3::GetDictionaryItem, xaml_diagnostics.ivisualtreeservice3_getdictionaryitem, xamlom/IVisualTreeService3::GetDictionaryItem
 ms.topic: method
-f1_keywords: ["xamlom/IVisualTreeService3.GetDictionaryItem"]
+f1_keywords: 
+ - "xamlom/IVisualTreeService3.GetDictionaryItem"
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

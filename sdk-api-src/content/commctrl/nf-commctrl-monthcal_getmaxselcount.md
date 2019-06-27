@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MonthCal_GetMaxSelCount, MonthCal_GetMaxSelCount macro [Windows Controls], _win32_MonthCal_GetMaxSelCount, _win32_MonthCal_GetMaxSelCount_cpp, commctrl/MonthCal_GetMaxSelCount, controls.MonthCal_GetMaxSelCount, controls._win32_MonthCal_GetMaxSelCount
 ms.topic: macro
-f1_keywords: ["commctrl/MonthCal_GetMaxSelCount"]
+f1_keywords: 
+ - "commctrl/MonthCal_GetMaxSelCount"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

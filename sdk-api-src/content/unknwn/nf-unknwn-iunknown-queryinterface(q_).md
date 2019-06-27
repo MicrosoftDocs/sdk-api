@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 05/31/2019
 ms.keywords: IUnknown interface [COM],QueryInterface method, IUnknown.QueryInterface, IUnknown.QueryInterface(Q,), IUnknown::QueryInterface, IUnknown::QueryInterface(Q,), QueryInterface, QueryInterface method [COM], QueryInterface method [COM],IUnknown interface, _com_iunknown_queryinterface, com.iunknown_queryinterface, unknwn/IUnknown::QueryInterface
 ms.topic: method
-f1_keywords: ["unknwn/IUnknown.QueryInterface"]
+f1_keywords: 
+ - "unknwn/IUnknown.QueryInterface"
 req.header: unknwn.h
 req.include-header: 
 req.target-type: Windows

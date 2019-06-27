@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICFastMetadataEncoder, IWICFastMetadataEncoder interface [Windows Imaging Component], IWICFastMetadataEncoder interface [Windows Imaging Component],described, _wic_codec_iwicfastmetadataencoder, wic._wic_codec_iwicfastmetadataencoder, wincodec/IWICFastMetadataEncoder
 ms.topic: interface
-f1_keywords: ["wincodec/IWICFastMetadataEncoder"]
+f1_keywords: 
+ - "wincodec/IWICFastMetadataEncoder"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

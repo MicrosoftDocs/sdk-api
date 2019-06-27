@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdCreateDirectDrawObject, DdCreateDirectDrawObject function [Windows API], GdiEntry1, _dxgkernel_ddcreatedirectdrawobject, ddrawgdi/DdCreateDirectDrawObject, ddrawgdi/GdiEntry1, winprog._dxgkernel_ddcreatedirectdrawobject, winui._dxgkernel_ddcreatedirectdrawobject
 ms.topic: function
-f1_keywords: ["ddrawgdi/DdCreateDirectDrawObject"]
+f1_keywords: 
+ - "ddrawgdi/DdCreateDirectDrawObject"
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows

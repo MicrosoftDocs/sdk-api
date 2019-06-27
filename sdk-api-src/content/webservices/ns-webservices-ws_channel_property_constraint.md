@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_CHANNEL_PROPERTY_CONSTRAINT, WS_CHANNEL_PROPERTY_CONSTRAINT structure [Web Services for Windows], webservices/WS_CHANNEL_PROPERTY_CONSTRAINT, wsw.ws_channel_property_constraint
 ms.topic: struct
-f1_keywords: ["webservices/WS_CHANNEL_PROPERTY_CONSTRAINT"]
+f1_keywords: 
+ - "webservices/WS_CHANNEL_PROPERTY_CONSTRAINT"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

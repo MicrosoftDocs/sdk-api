@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngBugCheckEx, EngBugCheckEx function [Display Devices], display.engbugcheckex, gdifncs_0ed66a9e-1824-45cc-9237-ab0910e72915.xml, winddi/EngBugCheckEx
 ms.topic: function
-f1_keywords: ["winddi/EngBugCheckEx"]
+f1_keywords: 
+ - "winddi/EngBugCheckEx"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

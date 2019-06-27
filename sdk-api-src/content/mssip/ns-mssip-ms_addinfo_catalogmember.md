@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMS_ADDINFO_CATALOGMEMBER, MS_ADDINFO_CATALOGMEMBER, MS_ADDINFO_CATALOGMEMBER structure [Security], PMS_ADDINFO_CATALOGMEMBER, PMS_ADDINFO_CATALOGMEMBER structure pointer [Security], mssip/MS_ADDINFO_CATALOGMEMBER_, mssip/PMS_ADDINFO_CATALOGMEMBER, security.ms_addinfo_catalogmember"
 ms.topic: struct
-f1_keywords: ["mssip/MS_ADDINFO_CATALOGMEMBER"]
+f1_keywords: 
+ - "mssip/MS_ADDINFO_CATALOGMEMBER"
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows

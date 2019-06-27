@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILockBytes interface [Structured Storage],Stat method, ILockBytes.Stat, ILockBytes::Stat, Stat, Stat method [Structured Storage], Stat method [Structured Storage],ILockBytes interface, _stg_ilockbytes_stat, objidl/ILockBytes::Stat, stg.ilockbytes_stat
 ms.topic: method
-f1_keywords: ["objidl/ILockBytes.Stat"]
+f1_keywords: 
+ - "objidl/ILockBytes.Stat"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

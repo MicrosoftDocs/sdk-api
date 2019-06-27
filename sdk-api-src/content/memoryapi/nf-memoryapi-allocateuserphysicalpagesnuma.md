@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllocateUserPhysicalPagesNuma, AllocateUserPhysicalPagesNuma function, base.allocateuserphysicalpagesnuma, winbase/AllocateUserPhysicalPagesNuma
 ms.topic: function
-f1_keywords: ["memoryapi/AllocateUserPhysicalPagesNuma"]
+f1_keywords: 
+ - "memoryapi/AllocateUserPhysicalPagesNuma"
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

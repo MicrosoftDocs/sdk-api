@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindItemEx, FindItemEx method [Offline Files], FindItemEx method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],FindItemEx method, IOfflineFilesCache.FindItemEx, IOfflineFilesCache::FindItemEx, OFFLINEFILES_ITEM_QUERY_ADMIN, OFFLINEFILES_ITEM_QUERY_CONNECTIONSTATE, OFFLINEFILES_ITEM_QUERY_INCLUDETRANSPARENTCACHE, OFFLINEFILES_ITEM_QUERY_LOCALDIRTYBYTECOUNT, OFFLINEFILES_ITEM_QUERY_REMOTEDIRTYBYTECOUNT, OFFLINEFILES_ITEM_QUERY_REMOTEINFO, cscobj/IOfflineFilesCache::FindItemEx, of.iofflinefilescache_finditemex
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesCache.FindItemEx"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesCache.FindItemEx"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

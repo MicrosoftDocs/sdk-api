@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetUseDel, NetUseDel function [Network Management], USE_FORCE, USE_LOTS_OF_FORCE, USE_NOFORCE, _win32_netusedel, lmuse/NetUseDel, netmgmt.netusedel
 ms.topic: function
-f1_keywords: ["lmuse/NetUseDel"]
+f1_keywords: 
+ - "lmuse/NetUseDel"
 req.header: lmuse.h
 req.include-header: Lm.h
 req.target-type: Windows

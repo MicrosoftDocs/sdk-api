@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISharingConfigurationManager interface [Windows Shell],StopSharingPrinters method, ISharingConfigurationManager.StopSharingPrinters, ISharingConfigurationManager::StopSharingPrinters, StopSharingPrinters, StopSharingPrinters method [Windows Shell], StopSharingPrinters method [Windows Shell],ISharingConfigurationManager interface, _shell_ISharingConfigurationManager_StopSharingPrinters, shell.ISharingConfigurationManager_StopSharingPrinters, shobjidl_core/ISharingConfigurationManager::StopSharingPrinters
 ms.topic: method
-f1_keywords: ["shobjidl_core/ISharingConfigurationManager.StopSharingPrinters"]
+f1_keywords: 
+ - "shobjidl_core/ISharingConfigurationManager.StopSharingPrinters"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

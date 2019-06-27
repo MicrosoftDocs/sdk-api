@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WriteFile, WriteFile function [Files], _win32_writefile, base.writefile, fileapi/WriteFile, fs.writefile, winbase/WriteFile
 ms.topic: function
-f1_keywords: ["fileapi/WriteFile"]
+f1_keywords: 
+ - "fileapi/WriteFile"
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

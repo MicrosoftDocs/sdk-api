@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISignerCertificate, ISignerCertificate interface [Security], ISignerCertificate interface [Security],described, certenroll/ISignerCertificate, security.isignercertificate
 ms.topic: interface
-f1_keywords: ["certenroll/ISignerCertificate"]
+f1_keywords: 
+ - "certenroll/ISignerCertificate"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

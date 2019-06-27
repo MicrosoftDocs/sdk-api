@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetParamProps, GetParamProps method [Windows Runtime], GetParamProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetParamProps method, IMetaDataImport.GetParamProps, IMetaDataImport::GetParamProps, rometadataapi/IMetaDataImport::GetParamProps, winrt.imetadataimport_getparamprops
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataImport.GetParamProps"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataImport.GetParamProps"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

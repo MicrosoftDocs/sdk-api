@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICMapSchemaToName, WICMapSchemaToName function [Windows Imaging Component], _wic_codec_wicmapschematoname, wic._wic_codec_wicmapschematoname, wincodec/WICMapSchemaToName
 ms.topic: function
-f1_keywords: ["wincodec/WICMapSchemaToName"]
+f1_keywords: 
+ - "wincodec/WICMapSchemaToName"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

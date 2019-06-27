@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewDual2, IShellFolderViewDual2 interface [Windows Shell], IShellFolderViewDual2 interface [Windows Shell],described, _shell_IShellFolderViewDual2, shell.IShellFolderViewDual2, shldisp/IShellFolderViewDual2
 ms.topic: interface
-f1_keywords: ["shldisp/IShellFolderViewDual2"]
+f1_keywords: 
+ - "shldisp/IShellFolderViewDual2"
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

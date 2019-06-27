@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkOverlay interface [Tablet PC],Renderer property, IInkOverlay.Renderer, IInkOverlay.get_Renderer, IInkOverlay::Renderer, IInkOverlay::get_Renderer, IInkOverlay::put_Renderer, InkOverlay.get_Renderer, InkOverlay.put_Renderer, Renderer property [Tablet PC], Renderer property [Tablet PC],IInkOverlay interface, get_Renderer, msinkaut/IInkOverlay::Renderer, msinkaut/IInkOverlay::get_Renderer, msinkaut/IInkOverlay::put_Renderer, putref_Renderer, tablet.inkoverlay_renderer
 ms.topic: method
-f1_keywords: ["msinkaut/IInkOverlay.Renderer"]
+f1_keywords: 
+ - "msinkaut/IInkOverlay.Renderer"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

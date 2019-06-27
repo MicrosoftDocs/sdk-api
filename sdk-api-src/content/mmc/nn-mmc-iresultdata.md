@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IResultData, IResultData interface [MMC], IResultData interface [MMC],described, _slate_iresultdata, mmc.iresultdata, mmc/IResultData
 ms.topic: interface
-f1_keywords: ["mmc/IResultData"]
+f1_keywords: 
+ - "mmc/IResultData"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DecoderBeginFrame, DecoderBeginFrame method [Media Foundation], DecoderBeginFrame method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],DecoderBeginFrame method, ID3D11VideoContext.DecoderBeginFrame, ID3D11VideoContext::DecoderBeginFrame, d3d11/ID3D11VideoContext::DecoderBeginFrame, mf.id3d11videocontext_decoderbeginframe
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11VideoContext.DecoderBeginFrame"]
+f1_keywords: 
+ - "d3d11/ID3D11VideoContext.DecoderBeginFrame"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

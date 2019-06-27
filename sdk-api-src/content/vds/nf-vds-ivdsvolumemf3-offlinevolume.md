@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeMF3 interface,OfflineVolume method, IVdsVolumeMF3.OfflineVolume, IVdsVolumeMF3::OfflineVolume, OfflineVolume, OfflineVolume method, OfflineVolume method,IVdsVolumeMF3 interface, base.ivdsvolumemf3_offlinevolume, vds/IVdsVolumeMF3::OfflineVolume
 ms.topic: method
-f1_keywords: ["vds/IVdsVolumeMF3.OfflineVolume"]
+f1_keywords: 
+ - "vds/IVdsVolumeMF3.OfflineVolume"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

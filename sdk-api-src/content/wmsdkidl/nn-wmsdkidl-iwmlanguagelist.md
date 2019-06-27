@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMLanguageList, IWMLanguageList interface [windows Media Format], IWMLanguageList interface [windows Media Format],described, IWMLanguageListInterface, wmformat.iwmlanguagelist, wmsdkidl/IWMLanguageList
 ms.topic: interface
-f1_keywords: ["wmsdkidl/IWMLanguageList"]
+f1_keywords: 
+ - "wmsdkidl/IWMLanguageList"
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

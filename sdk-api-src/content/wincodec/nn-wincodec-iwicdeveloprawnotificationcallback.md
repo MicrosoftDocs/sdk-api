@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRawNotificationCallback, IWICDevelopRawNotificationCallback interface [Windows Imaging Component], IWICDevelopRawNotificationCallback interface [Windows Imaging Component],described, _wic_codec_iwicdeveloprawnotificationcallback, wic._wic_codec_iwicdeveloprawnotificationcallback, wincodec/IWICDevelopRawNotificationCallback
 ms.topic: interface
-f1_keywords: ["wincodec/IWICDevelopRawNotificationCallback"]
+f1_keywords: 
+ - "wincodec/IWICDevelopRawNotificationCallback"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

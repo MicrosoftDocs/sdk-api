@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawString, DrawString method [GDI+], DrawString method [GDI+],Graphics class, Graphics class [GDI+],DrawString method, Graphics.DrawString, Graphics.DrawString(const WCHAR*,INT,const Font*,const PointF&,const StringFormat*,const Brush*), Graphics.DrawString(const WCHAR,INT,const Font,const PointF &,const StringFormat,const Brush), Graphics::DrawString, Graphics::DrawString(const WCHAR,INT,const Font,const PointF &,const StringFormat,const Brush), _gdiplus_CLASS_Graphics_DrawString_string_length_font_origin_stringFormat_brush_, gdiplus._gdiplus_CLASS_Graphics_DrawString_string_length_font_origin_stringFormat_brush_
 ms.topic: method
-f1_keywords: ["gdiplusgraphics/Graphics.DrawString"]
+f1_keywords: 
+ - "gdiplusgraphics/Graphics.DrawString"
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

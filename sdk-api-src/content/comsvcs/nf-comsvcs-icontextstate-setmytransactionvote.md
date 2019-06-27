@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IContextState interface [COM+],SetMyTransactionVote method, IContextState.SetMyTransactionVote, IContextState::SetMyTransactionVote, SetMyTransactionVote, SetMyTransactionVote method [COM+], SetMyTransactionVote method [COM+],IContextState interface, _cos_IContextState_SetMyTransactionVote, comsvcs/IContextState::SetMyTransactionVote, cos.icontextstate_setmytransactionvote
 ms.topic: method
-f1_keywords: ["comsvcs/IContextState.SetMyTransactionVote"]
+f1_keywords: 
+ - "comsvcs/IContextState.SetMyTransactionVote"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

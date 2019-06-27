@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SelectClipRgn, SelectClipRgn function [Windows GDI], _win32_SelectClipRgn, gdi.selectcliprgn, wingdi/SelectClipRgn
 ms.topic: function
-f1_keywords: ["wingdi/SelectClipRgn"]
+f1_keywords: 
+ - "wingdi/SelectClipRgn"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

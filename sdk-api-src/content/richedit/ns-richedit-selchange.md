@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SELCHANGE, SELCHANGE structure [Windows Controls], SEL_MULTICHAR, SEL_MULTIOBJECT, SEL_OBJECT, SEL_TEXT, _win32_SELCHANGE_str, _win32_SELCHANGE_str_cpp, controls.SELCHANGE, controls._win32_SELCHANGE_str, richedit/SELCHANGE
 ms.topic: struct
-f1_keywords: ["richedit/SELCHANGE"]
+f1_keywords: 
+ - "richedit/SELCHANGE"
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

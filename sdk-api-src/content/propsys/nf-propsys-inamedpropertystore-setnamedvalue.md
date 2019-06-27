@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INamedPropertyStore interface [Windows Shell],SetNamedValue method, INamedPropertyStore.SetNamedValue, INamedPropertyStore::SetNamedValue, SetNamedValue, SetNamedValue method [Windows Shell], SetNamedValue method [Windows Shell],INamedPropertyStore interface, _shell_INamedPropertyStore_SetNamedValue, propsys/INamedPropertyStore::SetNamedValue, shell.INamedPropertyStore_SetNamedValue
 ms.topic: method
-f1_keywords: ["propsys/INamedPropertyStore.SetNamedValue"]
+f1_keywords: 
+ - "propsys/INamedPropertyStore.SetNamedValue"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

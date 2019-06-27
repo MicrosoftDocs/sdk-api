@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WslLaunch, WslLaunch function, wsl.wsllaunch, wslapi/WslLaunch
 ms.topic: function
-f1_keywords: ["wslapi/WslLaunch"]
+f1_keywords: 
+ - "wslapi/WslLaunch"
 req.header: wslapi.h
 req.include-header: 
 req.target-type: Windows

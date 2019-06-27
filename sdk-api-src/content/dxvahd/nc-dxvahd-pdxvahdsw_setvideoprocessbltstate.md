@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_SetVideoProcessBltState, PDXVAHDSW_SetVideoProcessBltState callback, PDXVAHDSW_SetVideoProcessBltState callback function [Media Foundation], dxvahd/PDXVAHDSW_SetVideoProcessBltState, mf.pdxvahdsw_setvideoprocessbltstate
 ms.topic: callback
-f1_keywords: ["dxvahd/PDXVAHDSW_SetVideoProcessBltState"]
+f1_keywords: 
+ - "dxvahd/PDXVAHDSW_SetVideoProcessBltState"
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

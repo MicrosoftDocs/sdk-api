@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRdcFileReader interface [Remote Differential Compression],Read method, IRdcFileReader.Read, IRdcFileReader::Read, Read, Read method [Remote Differential Compression], Read method [Remote Differential Compression],IRdcFileReader interface, fs.irdcfilereader_read, msrdc/IRdcFileReader::Read, rdc.irdcfilereader_read
 ms.topic: method
-f1_keywords: ["msrdc/IRdcFileReader.Read"]
+f1_keywords: 
+ - "msrdc/IRdcFileReader.Read"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [COM+], Add method [COM+],IEventObjectCollection interface, IEventObjectCollection interface [COM+],Add method, IEventObjectCollection.Add, IEventObjectCollection::Add, _cos_IEventObjectCollection_Add, cos.ieventobjectcollection_add, eventsys/IEventObjectCollection::Add
 ms.topic: method
-f1_keywords: ["eventsys/IEventObjectCollection.Add"]
+f1_keywords: 
+ - "eventsys/IEventObjectCollection.Add"
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

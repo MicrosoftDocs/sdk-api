@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SafeArrayDestroyDescriptor, SafeArrayDestroyDescriptor function [Automation], _oa96_SafeArrayDestroyDescriptor, automat.safearraydestroydescriptor, oleauto/SafeArrayDestroyDescriptor
 ms.topic: function
-f1_keywords: ["oleauto/SafeArrayDestroyDescriptor"]
+f1_keywords: 
+ - "oleauto/SafeArrayDestroyDescriptor"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

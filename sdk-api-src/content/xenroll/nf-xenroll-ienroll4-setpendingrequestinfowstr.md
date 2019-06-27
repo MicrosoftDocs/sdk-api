@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],setPendingRequestInfoWStr method, IEnroll4.setPendingRequestInfoWStr, IEnroll4::setPendingRequestInfoWStr, security.ienroll4_setpendingrequestinfowstr, setPendingRequestInfoWStr, setPendingRequestInfoWStr method [Security], setPendingRequestInfoWStr method [Security],IEnroll4 interface, xenroll/IEnroll4::setPendingRequestInfoWStr
 ms.topic: method
-f1_keywords: ["xenroll/IEnroll4.setPendingRequestInfoWStr"]
+f1_keywords: 
+ - "xenroll/IEnroll4.setPendingRequestInfoWStr"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPDVD interface [Windows Media Player],resume method, IWMPDVD.resume, IWMPDVD::resume, IWMPDVDresume, resume, resume method [Windows Media Player], resume method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_resume, wmp/IWMPDVD::resume
 ms.topic: method
-f1_keywords: ["wmp/IWMPDVD.resume"]
+f1_keywords: 
+ - "wmp/IWMPDVD.resume"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

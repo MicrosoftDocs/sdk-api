@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSignalStrength, GetSignalStrength method [Microsoft Broadband Networks], GetSignalStrength method [Microsoft Broadband Networks],IMbnSignal interface, IMbnSignal interface [Microsoft Broadband Networks],GetSignalStrength method, IMbnSignal.GetSignalStrength, IMbnSignal::GetSignalStrength, mbn.imbnsignal_getsignalstrength, mbnapi/IMbnSignal::GetSignalStrength
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnSignal.GetSignalStrength"]
+f1_keywords: 
+ - "mbnapi/IMbnSignal.GetSignalStrength"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

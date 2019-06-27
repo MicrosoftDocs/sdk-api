@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminDeviceEnum, MprAdminDeviceEnum function [RAS], mprapi/MprAdminDeviceEnum, rras.mpradmindeviceenum
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminDeviceEnum"]
+f1_keywords: 
+ - "mprapi/MprAdminDeviceEnum"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

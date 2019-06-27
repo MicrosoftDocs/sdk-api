@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePipe, CreatePipe function, _win32_createpipe, base.createpipe, namedpipeapi/CreatePipe
 ms.topic: function
-f1_keywords: ["namedpipeapi/CreatePipe"]
+f1_keywords: 
+ - "namedpipeapi/CreatePipe"
 req.header: namedpipeapi.h
 req.include-header: 
 req.target-type: Windows

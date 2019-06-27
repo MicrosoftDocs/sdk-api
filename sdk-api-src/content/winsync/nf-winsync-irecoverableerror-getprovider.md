@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProvider, GetProvider method [Windows Sync], GetProvider method [Windows Sync],IRecoverableError interface, IRecoverableError interface [Windows Sync],GetProvider method, IRecoverableError.GetProvider, IRecoverableError::GetProvider, winsync.irecoverableerror_getprovider, winsync/IRecoverableError::GetProvider
 ms.topic: method
-f1_keywords: ["winsync/IRecoverableError.GetProvider"]
+f1_keywords: 
+ - "winsync/IRecoverableError.GetProvider"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

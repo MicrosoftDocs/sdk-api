@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CMSPAddress object [TAPI 2.2],ShutdownMSPCallHelper method, CMSPAddress.ShutdownMSPCallHelper, ShutdownMSPCallHelper, ShutdownMSPCallHelper method [TAPI 2.2], ShutdownMSPCallHelper method [TAPI 2.2],CMSPAddress object, _tapi3_cmspaddress_shutdownmspcallhelper, tapi3.cmspaddress_shutdownmspcallhelper
 ms.topic: function
-f1_keywords: ["mspaddr/CMSPAddress.ShutdownMSPCallHelper"]
+f1_keywords: 
+ - "mspaddr/CMSPAddress.ShutdownMSPCallHelper"
 req.header: mspaddr.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMPPlayState, WMPPlayState enumeration [Windows Media Player], wmp.wmpplaystate, wmp/WMPPlayState, wmp/wmppsBuffering, wmp/wmppsLast, wmp/wmppsMediaEnded, wmp/wmppsPaused, wmp/wmppsPlaying, wmp/wmppsReady, wmp/wmppsReconnecting, wmp/wmppsScanForward, wmp/wmppsScanReverse, wmp/wmppsStopped, wmp/wmppsTransitioning, wmp/wmppsUndefined, wmp/wmppsWaiting, wmppsBuffering, wmppsLast, wmppsMediaEnded, wmppsPaused, wmppsPlaying, wmppsReady, wmppsReconnecting, wmppsScanForward, wmppsScanReverse, wmppsStopped, wmppsTransitioning, wmppsUndefined, wmppsWaiting
 ms.topic: enum
-f1_keywords: ["wmp/WMPPlayState"]
+f1_keywords: 
+ - "wmp/WMPPlayState"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

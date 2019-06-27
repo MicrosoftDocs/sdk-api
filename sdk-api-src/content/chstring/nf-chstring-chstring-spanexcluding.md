@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],SpanExcluding method, CHString.SpanExcluding, CHString::SpanExcluding, SpanExcluding, SpanExcluding method [Windows Management Instrumentation], SpanExcluding method [Windows Management Instrumentation],CHString interface, _hmm_chstring_spanexcluding, chstring/CHString::SpanExcluding, wmi.chstring_spanexcluding
 ms.topic: method
-f1_keywords: ["chstring/CHString.SpanExcluding"]
+f1_keywords: 
+ - "chstring/CHString.SpanExcluding"
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

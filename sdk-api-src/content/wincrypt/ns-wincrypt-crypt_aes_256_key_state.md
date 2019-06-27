@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_AES_256_KEY_STATE, CRYPT_AES_256_KEY_STATE, CRYPT_AES_256_KEY_STATE structure [Security], PCRYPT_AES_256_KEY_STATE, PCRYPT_AES_256_KEY_STATE structure pointer [Security], security.crypt_aes_256_key_state, wincrypt/CRYPT_AES_256_KEY_STATE, wincrypt/PCRYPT_AES_256_KEY_STATE"
 ms.topic: struct
-f1_keywords: ["wincrypt/CRYPT_AES_256_KEY_STATE"]
+f1_keywords: 
+ - "wincrypt/CRYPT_AES_256_KEY_STATE"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

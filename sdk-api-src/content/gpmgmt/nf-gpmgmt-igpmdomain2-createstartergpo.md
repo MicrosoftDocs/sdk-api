@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateStarterGPO, CreateStarterGPO method [GPMC], CreateStarterGPO method [GPMC],IGPMDomain2 interface, IGPMDomain2 interface [GPMC],CreateStarterGPO method, IGPMDomain2.CreateStarterGPO, IGPMDomain2::CreateStarterGPO, gpmc.igpmdomain2_createstartergpo, gpmgmt/IGPMDomain2::CreateStarterGPO
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMDomain2.CreateStarterGPO"]
+f1_keywords: 
+ - "gpmgmt/IGPMDomain2.CreateStarterGPO"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

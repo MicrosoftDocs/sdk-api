@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectDraw7 interface [DirectDraw],StartModeTest method, IDirectDraw7.StartModeTest, IDirectDraw7::StartModeTest, StartModeTest, StartModeTest method [DirectDraw], StartModeTest method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::StartModeTest, directdraw.idirectdraw7_startmodetest
 ms.topic: method
-f1_keywords: ["ddraw/IDirectDraw7.StartModeTest"]
+f1_keywords: 
+ - "ddraw/IDirectDraw7.StartModeTest"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

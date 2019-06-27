@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPNEWTEXTMETRICW, *NPNEWTEXTMETRICW, *PNEWTEXTMETRICW, NEWTEXTMETRIC, NEWTEXTMETRIC structure [Windows GDI], NEWTEXTMETRICA, NEWTEXTMETRICW, PNEWTEXTMETRIC, PNEWTEXTMETRIC structure pointer [Windows GDI], _win32_NEWTEXTMETRIC_str, gdi.newtextmetric, wingdi/NEWTEXTMETRIC, wingdi/NEWTEXTMETRICA, wingdi/NEWTEXTMETRICW, wingdi/PNEWTEXTMETRIC"
 ms.topic: struct
-f1_keywords: ["wingdi/NEWTEXTMETRIC"]
+f1_keywords: 
+ - "wingdi/NEWTEXTMETRIC"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

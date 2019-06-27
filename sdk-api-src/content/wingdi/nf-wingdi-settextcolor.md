@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetTextColor, SetTextColor function [Windows GDI], _win32_SetTextColor, gdi.settextcolor, wingdi/SetTextColor
 ms.topic: function
-f1_keywords: ["wingdi/SetTextColor"]
+f1_keywords: 
+ - "wingdi/SetTextColor"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

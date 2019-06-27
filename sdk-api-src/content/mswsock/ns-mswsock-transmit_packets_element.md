@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPTRANSMIT_PACKETS_ELEMENT, *PTRANSMIT_PACKETS_ELEMENT, TP_ELEMENT_EOP, TP_ELEMENT_FILE, TP_ELEMENT_MEMORY, TRANSMIT_PACKETS_ELEMENT, TRANSMIT_PACKETS_ELEMENT structure [Winsock], _win32_transmit_packets_element_2, mswsock/TRANSMIT_PACKETS_ELEMENT, winsock.transmit_packets_element_2"
 ms.topic: struct
-f1_keywords: ["mswsock/TRANSMIT_PACKETS_ELEMENT"]
+f1_keywords: 
+ - "mswsock/TRANSMIT_PACKETS_ELEMENT"
 req.header: mswsock.h
 req.include-header: 
 req.target-type: Windows

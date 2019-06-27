@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIdentificationData, GetIdentificationData method [VDS], GetIdentificationData method [VDS],IVdsLun interface, IVdsLun interface [VDS],GetIdentificationData method, IVdsLun.GetIdentificationData, IVdsLun::GetIdentificationData, base.ivdslun_getidentificationdata, vds/IVdsLun::GetIdentificationData, vdshwprv/IVdsLun::GetIdentificationData
 ms.topic: method
-f1_keywords: ["vds/IVdsLun.GetIdentificationData"]
+f1_keywords: 
+ - "vds/IVdsLun.GetIdentificationData"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

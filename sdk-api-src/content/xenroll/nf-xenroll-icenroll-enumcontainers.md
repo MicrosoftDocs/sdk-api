@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],enumContainers method, ICEnroll interface [Security],enumContainers method, ICEnroll.enumContainers, ICEnroll2 interface [Security],enumContainers method, ICEnroll2::enumContainers, ICEnroll3 interface [Security],enumContainers method, ICEnroll3::enumContainers, ICEnroll4 interface [Security],enumContainers method, ICEnroll4::enumContainers, ICEnroll::enumContainers, enumContainers, enumContainers method [Security], enumContainers method [Security],CEnroll object, enumContainers method [Security],ICEnroll interface, enumContainers method [Security],ICEnroll2 interface, enumContainers method [Security],ICEnroll3 interface, enumContainers method [Security],ICEnroll4 interface, security.icenroll4_enumcontainers, xenroll/ICEnroll2::enumContainers, xenroll/ICEnroll3::enumContainers, xenroll/ICEnroll4::enumContainers, xenroll/ICEnroll::enumContainers
 ms.topic: method
-f1_keywords: ["xenroll/ICEnroll4.enumContainers"]
+f1_keywords: 
+ - "xenroll/ICEnroll4.enumContainers"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

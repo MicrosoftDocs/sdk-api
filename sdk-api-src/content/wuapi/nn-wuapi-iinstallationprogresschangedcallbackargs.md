@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInstallationProgressChangedCallbackArgs, IInstallationProgressChangedCallbackArgs interface [Windows Update Agent], IInstallationProgressChangedCallbackArgs interface [Windows Update Agent],described, wua.iinstallationprogresschangedcallbackargs, wuapi/IInstallationProgressChangedCallbackArgs
 ms.topic: interface
-f1_keywords: ["wuapi/IInstallationProgressChangedCallbackArgs"]
+f1_keywords: 
+ - "wuapi/IInstallationProgressChangedCallbackArgs"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

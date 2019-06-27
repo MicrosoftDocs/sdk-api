@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IContextProperties interface [COM+],RemoveProperty method, IContextProperties.RemoveProperty, IContextProperties::RemoveProperty, RemoveProperty, RemoveProperty method [COM+], RemoveProperty method [COM+],IContextProperties interface, _cos_IContextProperties_RemoveProperty, comsvcs/IContextProperties::RemoveProperty, cos.icontextproperties_removeproperty
 ms.topic: method
-f1_keywords: ["comsvcs/IContextProperties.RemoveProperty"]
+f1_keywords: 
+ - "comsvcs/IContextProperties.RemoveProperty"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

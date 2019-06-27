@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsProviderSupport, IVdsProviderSupport interface, IVdsProviderSupport interface,described, base.ivdsprovidersupport, vds/IVdsProviderSupport, vdshwprv/IVdsProviderSupport
 ms.topic: interface
-f1_keywords: ["vdshwprv/IVdsProviderSupport"]
+f1_keywords: 
+ - "vdshwprv/IVdsProviderSupport"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

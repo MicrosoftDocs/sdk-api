@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllowSmallerSize, ExtractIfNotCached, ResizeThumbnail, ReturnOnlyIfCached, ThumbnailStreamCacheOptions, ThumbnailStreamCacheOptions enumeration [Windows Shell], shell.thumbnailstreamcacheoptions, thumbnailstreamcache/AllowSmallerSize, thumbnailstreamcache/ExtractIfNotCached, thumbnailstreamcache/ResizeThumbnail, thumbnailstreamcache/ReturnOnlyIfCached, thumbnailstreamcache/ThumbnailStreamCacheOptions
 ms.topic: enum
-f1_keywords: ["thumbnailstreamcache/ThumbnailStreamCacheOptions"]
+f1_keywords: 
+ - "thumbnailstreamcache/ThumbnailStreamCacheOptions"
 req.header: thumbnailstreamcache.h
 req.include-header: 
 req.target-type: Windows

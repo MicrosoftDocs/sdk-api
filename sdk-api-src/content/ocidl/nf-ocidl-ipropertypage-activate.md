@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method [COM], Activate method [COM],IPropertyPage interface, IPropertyPage interface [COM],Activate method, IPropertyPage.Activate, IPropertyPage::Activate, _ctrl_ipropertypage_activate, com.ipropertypage_activate, ocidl/IPropertyPage::Activate
 ms.topic: method
-f1_keywords: ["ocidl/IPropertyPage.Activate"]
+f1_keywords: 
+ - "ocidl/IPropertyPage.Activate"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

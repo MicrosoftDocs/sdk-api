@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTfInputProcessorProfiles interface [Text Services Framework],Skip method, IEnumTfInputProcessorProfiles.Skip, IEnumTfInputProcessorProfiles::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfInputProcessorProfiles interface, msctf/IEnumTfInputProcessorProfiles::Skip, tsf.ienumtfinputprocessorprofiles_skip
 ms.topic: method
-f1_keywords: ["msctf/IEnumTfInputProcessorProfiles.Skip"]
+f1_keywords: 
+ - "msctf/IEnumTfInputProcessorProfiles.Skip"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

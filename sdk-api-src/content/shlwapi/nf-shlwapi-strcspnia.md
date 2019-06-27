@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StrCSpnI, StrCSpnI function [Windows Shell], StrCSpnIA, StrCSpnIW, _win32_StrCSpnI, shell.StrCSpnI, shlwapi/StrCSpnI, shlwapi/StrCSpnIA, shlwapi/StrCSpnIW
 ms.topic: function
-f1_keywords: ["shlwapi/StrCSpnI"]
+f1_keywords: 
+ - "shlwapi/StrCSpnI"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

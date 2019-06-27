@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CanDelete, CanDelete method [Picture Acquisition], CanDelete method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],CanDelete method, IPhotoAcquireItem.CanDelete, IPhotoAcquireItem::CanDelete, IPhotoAcquireItemCanDelete, photoacquire/IPhotoAcquireItem::CanDelete, picacq.iphotoacquireitem_candelete
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoAcquireItem.CanDelete"]
+f1_keywords: 
+ - "photoacquire/IPhotoAcquireItem.CanDelete"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

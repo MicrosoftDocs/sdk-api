@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSecureChannelObject, GetSecureChannelObject method [Microsoft TV Technologies], GetSecureChannelObject method [Microsoft TV Technologies],IETFilterConfig interface, IETFilterConfig interface [Microsoft TV Technologies],GetSecureChannelObject method, IETFilterConfig.GetSecureChannelObject, IETFilterConfig::GetSecureChannelObject, IETFilterConfigGetSecureChannelObject, encdec/IETFilterConfig::GetSecureChannelObject, mstv.ietfilterconfig_getsecurechannelobject
 ms.topic: method
-f1_keywords: ["encdec/IETFilterConfig.GetSecureChannelObject"]
+f1_keywords: 
+ - "encdec/IETFilterConfig.GetSecureChannelObject"
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo2 interface [Automation],SetVarCustData method, ICreateTypeInfo2.SetVarCustData, ICreateTypeInfo2::SetVarCustData, SetVarCustData, SetVarCustData method [Automation], SetVarCustData method [Automation],ICreateTypeInfo2 interface, _oa96_ICreateTypeInfo2_SetVarCustData, automat.icreatetypeinfo2_setvarcustdata, oaidl/ICreateTypeInfo2::SetVarCustData
 ms.topic: method
-f1_keywords: ["oaidl/ICreateTypeInfo2.SetVarCustData"]
+f1_keywords: 
+ - "oaidl/ICreateTypeInfo2.SetVarCustData"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

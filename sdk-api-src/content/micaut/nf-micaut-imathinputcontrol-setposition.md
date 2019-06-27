@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMathInputControl interface [Tablet PC],SetPosition method, IMathInputControl.SetPosition, IMathInputControl::SetPosition, SetPosition, SetPosition method [Tablet PC], SetPosition method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::SetPosition, tablet.imathinputcontrol_setposition
 ms.topic: method
-f1_keywords: ["micaut/IMathInputControl.SetPosition"]
+f1_keywords: 
+ - "micaut/IMathInputControl.SetPosition"
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows

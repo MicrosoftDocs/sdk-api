@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClassFile, GetClassFile function [COM], _com_GetClassFile, com.getclassfile, objbase/GetClassFile
 ms.topic: function
-f1_keywords: ["objbase/GetClassFile"]
+f1_keywords: 
+ - "objbase/GetClassFile"
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

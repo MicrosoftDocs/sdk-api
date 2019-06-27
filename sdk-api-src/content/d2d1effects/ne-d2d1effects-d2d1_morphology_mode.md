@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_MORPHOLOGY_MODE, D2D1_MORPHOLOGY_MODE enumeration [Direct2D], D2D1_MORPHOLOGY_MODE_DILATE, D2D1_MORPHOLOGY_MODE_ERODE, d2d1effects/D2D1_MORPHOLOGY_MODE, d2d1effects/D2D1_MORPHOLOGY_MODE_DILATE, d2d1effects/D2D1_MORPHOLOGY_MODE_ERODE, direct2d.d2d1_morphology_mode
 ms.topic: enum
-f1_keywords: ["d2d1effects/D2D1_MORPHOLOGY_MODE"]
+f1_keywords: 
+ - "d2d1effects/D2D1_MORPHOLOGY_MODE"
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIdealVideoSize, GetIdealVideoSize method [Media Foundation], GetIdealVideoSize method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetIdealVideoSize method, IMFPMediaPlayer.GetIdealVideoSize, IMFPMediaPlayer::GetIdealVideoSize, mf.imfpmediaplayer_getidealvideosize, mfplay/IMFPMediaPlayer::GetIdealVideoSize
 ms.topic: method
-f1_keywords: ["mfplay/IMFPMediaPlayer.GetIdealVideoSize"]
+f1_keywords: 
+ - "mfplay/IMFPMediaPlayer.GetIdealVideoSize"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

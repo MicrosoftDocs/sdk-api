@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISignerCertificate interface [Security],UIContextMessage property, ISignerCertificate.UIContextMessage, ISignerCertificate.put_UIContextMessage, ISignerCertificate::UIContextMessage, ISignerCertificate::get_UIContextMessage, ISignerCertificate::put_UIContextMessage, UIContextMessage property [Security], UIContextMessage property [Security],ISignerCertificate interface, certenroll/ISignerCertificate::UIContextMessage, certenroll/ISignerCertificate::get_UIContextMessage, certenroll/ISignerCertificate::put_UIContextMessage, put_UIContextMessage, security.isignercertificate_uicontextmessage_property
 ms.topic: method
-f1_keywords: ["certenroll/ISignerCertificate.UIContextMessage"]
+f1_keywords: 
+ - "certenroll/ISignerCertificate.UIContextMessage"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

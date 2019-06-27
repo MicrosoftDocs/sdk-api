@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPartById, GetPartById method [Core Audio], GetPartById method [Core Audio],IDeviceTopology interface, IDeviceTopology interface [Core Audio],GetPartById method, IDeviceTopology.GetPartById, IDeviceTopology::GetPartById, IDeviceTopologyGetPartById, coreaudio.idevicetopology_getpartbyid, devicetopology/IDeviceTopology::GetPartById
 ms.topic: method
-f1_keywords: ["devicetopology/IDeviceTopology.GetPartById"]
+f1_keywords: 
+ - "devicetopology/IDeviceTopology.GetPartById"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfMouseTracker, ITfMouseTracker interface [Text Services Framework], ITfMouseTracker interface [Text Services Framework],described, _tsf_itfmousetracker_ref, msctf/ITfMouseTracker, tsf.itfmousetracker
 ms.topic: interface
-f1_keywords: ["msctf/ITfMouseTracker"]
+f1_keywords: 
+ - "msctf/ITfMouseTracker"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsServiceIscsi interface [VDS],SetAllIpsecTunnelAddresses method, IVdsServiceIscsi.SetAllIpsecTunnelAddresses, IVdsServiceIscsi::SetAllIpsecTunnelAddresses, SetAllIpsecTunnelAddresses, SetAllIpsecTunnelAddresses method [VDS], SetAllIpsecTunnelAddresses method [VDS],IVdsServiceIscsi interface, base.ivdsserviceiscsi_setallipsectunneladdresses, vds/IVdsServiceIscsi::SetAllIpsecTunnelAddresses
 ms.topic: method
-f1_keywords: ["vds/IVdsServiceIscsi.SetAllIpsecTunnelAddresses"]
+f1_keywords: 
+ - "vds/IVdsServiceIscsi.SetAllIpsecTunnelAddresses"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

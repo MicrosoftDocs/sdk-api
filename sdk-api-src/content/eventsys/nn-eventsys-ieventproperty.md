@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEventProperty, IEventProperty interface [COM], IEventProperty interface [COM],described, _com_ieventproperty, com.ieventproperty, eventsys/IEventProperty
 ms.topic: interface
-f1_keywords: ["eventsys/IEventProperty"]
+f1_keywords: 
+ - "eventsys/IEventProperty"
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

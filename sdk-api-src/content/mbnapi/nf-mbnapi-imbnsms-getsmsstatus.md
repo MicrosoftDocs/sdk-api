@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSmsStatus, GetSmsStatus method [Microsoft Broadband Networks], GetSmsStatus method [Microsoft Broadband Networks],IMbnSms interface, IMbnSms interface [Microsoft Broadband Networks],GetSmsStatus method, IMbnSms.GetSmsStatus, IMbnSms::GetSmsStatus, mbn.imbnsms_getsmsstatus, mbnapi/IMbnSms::GetSmsStatus
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnSms.GetSmsStatus"]
+f1_keywords: 
+ - "mbnapi/IMbnSms.GetSmsStatus"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

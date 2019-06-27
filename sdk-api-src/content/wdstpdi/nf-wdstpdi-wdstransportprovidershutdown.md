@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderShutdown, WdsTransportProviderShutdown callback, WdsTransportProviderShutdown callback function [Windows Deployment Services], wds.wdstransportprovidershutdown, wdstpdi/WdsTransportProviderShutdown
 ms.topic: function
-f1_keywords: ["wdstpdi/WdsTransportProviderShutdown"]
+f1_keywords: 
+ - "wdstpdi/WdsTransportProviderShutdown"
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

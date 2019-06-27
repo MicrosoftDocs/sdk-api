@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetName method, IXpsOMPage.SetName, IXpsOMPage::SetName, SetName, SetName method [XPS Documents and Packaging], SetName method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_setname, xpsobjectmodel/IXpsOMPage::SetName
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMPage.SetName"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPage.SetName"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

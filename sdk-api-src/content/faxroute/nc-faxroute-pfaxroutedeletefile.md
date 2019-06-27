@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxRouteDeleteFile, FaxRouteDeleteFile callback function [Fax Service], PFAXROUTEDELETEFILE, PFAXROUTEDELETEFILE callback, _mfax_faxroutedeletefile, fax._mfax_faxroutedeletefile, faxroute/FaxRouteDeleteFile
 ms.topic: callback
-f1_keywords: ["faxroute/FaxRouteDeleteFile"]
+f1_keywords: 
+ - "faxroute/FaxRouteDeleteFile"
 req.header: faxroute.h
 req.include-header: 
 req.target-type: Windows

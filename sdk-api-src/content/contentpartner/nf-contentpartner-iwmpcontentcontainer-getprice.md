@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPrice, GetPrice method [Windows Media Player], GetPrice method [Windows Media Player],IWMPContentContainer interface, IWMPContentContainer interface [Windows Media Player],GetPrice method, IWMPContentContainer.GetPrice, IWMPContentContainer::GetPrice, IWMPContentContainerGetPrice, contentpartner/IWMPContentContainer::GetPrice, wmp.iwmpcontentcontainer_getprice
 ms.topic: method
-f1_keywords: ["contentpartner/IWMPContentContainer.GetPrice"]
+f1_keywords: 
+ - "contentpartner/IWMPContentContainer.GetPrice"
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

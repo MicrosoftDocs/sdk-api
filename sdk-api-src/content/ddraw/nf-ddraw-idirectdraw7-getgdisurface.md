@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGDISurface, GetGDISurface method [DirectDraw], GetGDISurface method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetGDISurface method, IDirectDraw7.GetGDISurface, IDirectDraw7::GetGDISurface, ddraw/IDirectDraw7::GetGDISurface, directdraw.idirectdraw7_getgdisurface
 ms.topic: method
-f1_keywords: ["ddraw/IDirectDraw7.GetGDISurface"]
+f1_keywords: 
+ - "ddraw/IDirectDraw7.GetGDISurface"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

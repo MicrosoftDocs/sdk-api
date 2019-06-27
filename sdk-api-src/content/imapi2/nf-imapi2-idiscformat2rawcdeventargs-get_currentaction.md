@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCDEventArgs interface [IMAPI],get_CurrentAction method, IDiscFormat2RawCDEventArgs.get_CurrentAction, IDiscFormat2RawCDEventArgs::get_CurrentAction, get_CurrentAction, get_CurrentAction method [IMAPI], get_CurrentAction method [IMAPI],IDiscFormat2RawCDEventArgs interface, imapi.idiscformat2rawcdeventargs_get_currentaction, imapi2/IDiscFormat2RawCDEventArgs::get_CurrentAction
 ms.topic: method
-f1_keywords: ["imapi2/IDiscFormat2RawCDEventArgs.get_CurrentAction"]
+f1_keywords: 
+ - "imapi2/IDiscFormat2RawCDEventArgs.get_CurrentAction"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

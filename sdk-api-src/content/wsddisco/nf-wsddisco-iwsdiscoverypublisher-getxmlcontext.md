@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetXMLContext, GetXMLContext method, GetXMLContext method,IWSDiscoveryPublisher interface, IWSDiscoveryPublisher interface,GetXMLContext method, IWSDiscoveryPublisher.GetXMLContext, IWSDiscoveryPublisher::GetXMLContext, ncd.iwsdiscoverypublisher_getxmlcontext, wsddisco/IWSDiscoveryPublisher::GetXMLContext
 ms.topic: method
-f1_keywords: ["wsddisco/IWSDiscoveryPublisher.GetXMLContext"]
+f1_keywords: 
+ - "wsddisco/IWSDiscoveryPublisher.GetXMLContext"
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

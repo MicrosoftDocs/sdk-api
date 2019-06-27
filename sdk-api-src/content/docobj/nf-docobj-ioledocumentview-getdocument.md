@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDocument, GetDocument method [COM], GetDocument method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],GetDocument method, IOleDocumentView.GetDocument, IOleDocumentView::GetDocument, _ole_ioledocumentview_getdocument, com.ioledocumentview_getdocument, docobj/IOleDocumentView::GetDocument
 ms.topic: method
-f1_keywords: ["docobj/IOleDocumentView.GetDocument"]
+f1_keywords: 
+ - "docobj/IOleDocumentView.GetDocument"
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

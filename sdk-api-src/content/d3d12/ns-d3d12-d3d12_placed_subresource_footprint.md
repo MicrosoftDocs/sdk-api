@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_PLACED_SUBRESOURCE_FOOTPRINT, D3D12_PLACED_SUBRESOURCE_FOOTPRINT structure, d3d12/D3D12_PLACED_SUBRESOURCE_FOOTPRINT, direct3d12.d3d12_placed_subresource_footprint
 ms.topic: struct
-f1_keywords: ["d3d12/D3D12_PLACED_SUBRESOURCE_FOOTPRINT"]
+f1_keywords: 
+ - "d3d12/D3D12_PLACED_SUBRESOURCE_FOOTPRINT"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

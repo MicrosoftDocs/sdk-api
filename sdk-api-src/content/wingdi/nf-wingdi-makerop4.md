@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MAKEROP4, MAKEROP4 macro [Windows GDI], _win32_MAKEROP4, gdi.makerop4, wingdi/MAKEROP4
 ms.topic: macro
-f1_keywords: ["wingdi/MAKEROP4"]
+f1_keywords: 
+ - "wingdi/MAKEROP4"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

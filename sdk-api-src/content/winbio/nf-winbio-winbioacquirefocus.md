@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinBioAcquireFocus, WinBioAcquireFocus function [Windows Biometric Framework API], secbiomet.winbioacquirefocus, winbio/WinBioAcquireFocus
 ms.topic: function
-f1_keywords: ["winbio/WinBioAcquireFocus"]
+f1_keywords: 
+ - "winbio/WinBioAcquireFocus"
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

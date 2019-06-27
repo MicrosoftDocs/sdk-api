@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSelectorType, GetSelectorType method [Open Packaging Conventions], GetSelectorType method [Open Packaging Conventions],IOpcRelationshipSelector interface, IOpcRelationshipSelector interface [Open Packaging Conventions],GetSelectorType method, IOpcRelationshipSelector.GetSelectorType, IOpcRelationshipSelector::GetSelectorType, msopc/IOpcRelationshipSelector::GetSelectorType, opc.iopcrelationshipselector_getselectortype
 ms.topic: method
-f1_keywords: ["msopc/IOpcRelationshipSelector.GetSelectorType"]
+f1_keywords: 
+ - "msopc/IOpcRelationshipSelector.GetSelectorType"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

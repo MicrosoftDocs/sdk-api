@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SinglePhaseReject, SinglePhaseReject function [Files], fs.singlephasereject, ktmw32/SinglePhaseReject
 ms.topic: function
-f1_keywords: ["ktmw32/SinglePhaseReject"]
+f1_keywords: 
+ - "ktmw32/SinglePhaseReject"
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

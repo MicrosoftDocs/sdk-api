@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLBServer, GetLBServer method [COM+], GetLBServer method [COM+],ISelectCOMLBServer interface, ISelectCOMLBServer interface [COM+],GetLBServer method, ISelectCOMLBServer.GetLBServer, ISelectCOMLBServer::GetLBServer, _cos_ISelectCOMLBServer_GetLBServer, comsvcs/ISelectCOMLBServer::GetLBServer, cos.iselectcomlbserver_getlbserver
 ms.topic: method
-f1_keywords: ["comsvcs/ISelectCOMLBServer.GetLBServer"]
+f1_keywords: 
+ - "comsvcs/ISelectCOMLBServer.GetLBServer"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

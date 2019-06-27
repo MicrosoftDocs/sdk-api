@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SwitchDesktop, SwitchDesktop function [Windows Stations and Desktops], base.switchdesktop, winstation.switchdesktop, winuser/SwitchDesktop
 ms.topic: function
-f1_keywords: ["winuser/SwitchDesktop"]
+f1_keywords: 
+ - "winuser/SwitchDesktop"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

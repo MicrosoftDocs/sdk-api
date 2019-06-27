@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCapabilities, GetCapabilities method [Windows Shell], GetCapabilities method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],GetCapabilities method, ISyncMgrHandler.GetCapabilities, ISyncMgrHandler::GetCapabilities, _shell_ISyncMgrHandler_GetCapabilities, shell.ISyncMgrHandler_GetCapabilities, syncmgr/ISyncMgrHandler::GetCapabilities
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrHandler.GetCapabilities"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrHandler.GetCapabilities"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

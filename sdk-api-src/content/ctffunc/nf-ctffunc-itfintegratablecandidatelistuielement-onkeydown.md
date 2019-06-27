@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfIntegratableCandidateListUIElement interface [Text Services Framework],OnKeyDown method, ITfIntegratableCandidateListUIElement.OnKeyDown, ITfIntegratableCandidateListUIElement::OnKeyDown, OnKeyDown, OnKeyDown method [Text Services Framework], OnKeyDown method [Text Services Framework],ITfIntegratableCandidateListUIElement interface, ctffunc/ITfIntegratableCandidateListUIElement::OnKeyDown, tsf.itfintegratablecandidatelistuielement_onkeydown
 ms.topic: method
-f1_keywords: ["ctffunc/ITfIntegratableCandidateListUIElement.OnKeyDown"]
+f1_keywords: 
+ - "ctffunc/ITfIntegratableCandidateListUIElement.OnKeyDown"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixAffineTransformation2D, XMMatrixAffineTransformation2D, XMMatrixAffineTransformation2D method [DirectX Math Support APIs], dxmath.xmmatrixaffinetransformation2d
 ms.topic: function
-f1_keywords: ["directxmath/XMMatrixAffineTransformation2D"]
+f1_keywords: 
+ - "directxmath/XMMatrixAffineTransformation2D"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

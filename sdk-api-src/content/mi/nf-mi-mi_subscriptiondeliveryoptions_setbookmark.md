@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_SUBSCRIBE_BOOKMARK_NEWEST, MI_SUBSCRIBE_BOOKMARK_OLDEST, MI_SubscriptionDeliveryOptions_SetBookmark, MI_SubscriptionDeliveryOptions_SetBookmark function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_SetBookmark, wmi_v2.mi_subscriptiondeliveryoptions_setbookmark
 ms.topic: function
-f1_keywords: ["mi/MI_SubscriptionDeliveryOptions_SetBookmark"]
+f1_keywords: 
+ - "mi/MI_SubscriptionDeliveryOptions_SetBookmark"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

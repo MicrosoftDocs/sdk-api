@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1f73a12c-1aa7-270f-b79f-ea48eb3ec3f5, ID3D11DeviceChild interface [Direct3D 11],SetPrivateData method, ID3D11DeviceChild.SetPrivateData, ID3D11DeviceChild::SetPrivateData, SetPrivateData, SetPrivateData method [Direct3D 11], SetPrivateData method [Direct3D 11],ID3D11DeviceChild interface, d3d11/ID3D11DeviceChild::SetPrivateData, direct3d11.id3d11devicechild_setprivatedata
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11DeviceChild.SetPrivateData"]
+f1_keywords: 
+ - "d3d11/ID3D11DeviceChild.SetPrivateData"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

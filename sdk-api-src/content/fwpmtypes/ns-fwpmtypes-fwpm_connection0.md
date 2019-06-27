@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPM_CONNECTION0, FWPM_CONNECTION0 structure [Filtering], fwp.fwpm_connection0, fwpmtypes/FWPM_CONNECTION0
 ms.topic: struct
-f1_keywords: ["fwpmtypes/FWPM_CONNECTION0"]
+f1_keywords: 
+ - "fwpmtypes/FWPM_CONNECTION0"
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

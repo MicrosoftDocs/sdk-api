@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetToolTips, TreeView_GetToolTips macro [Windows Controls], _win32_TreeView_GetToolTips, _win32_TreeView_GetToolTips_cpp, commctrl/TreeView_GetToolTips, controls.TreeView_GetToolTips, controls._win32_TreeView_GetToolTips
 ms.topic: macro
-f1_keywords: ["commctrl/TreeView_GetToolTips"]
+f1_keywords: 
+ - "commctrl/TreeView_GetToolTips"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

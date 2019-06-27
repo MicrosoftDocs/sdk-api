@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetSource, MCIWndGetSource macro [Windows Multimedia], _win32_MCIWndGetSource, multimedia.mciwndgetsource, vfw/MCIWndGetSource
 ms.topic: macro
-f1_keywords: ["vfw/MCIWndGetSource"]
+f1_keywords: 
+ - "vfw/MCIWndGetSource"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

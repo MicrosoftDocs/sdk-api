@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupCloseLog, SetupCloseLog function [Setup API], _setupapi_setupcloselog, setup.setupcloselog, setupapi/SetupCloseLog
 ms.topic: function
-f1_keywords: ["setupapi/SetupCloseLog"]
+f1_keywords: 
+ - "setupapi/SetupCloseLog"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

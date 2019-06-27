@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsController interface, IVdsController interface [VDS],GetProperties method, IVdsController.GetProperties, IVdsController::GetProperties, base.ivdscontroller_getproperties, vds/IVdsController::GetProperties, vdshwprv/IVdsController::GetProperties
 ms.topic: method
-f1_keywords: ["vdshwprv/IVdsController.GetProperties"]
+f1_keywords: 
+ - "vdshwprv/IVdsController.GetProperties"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

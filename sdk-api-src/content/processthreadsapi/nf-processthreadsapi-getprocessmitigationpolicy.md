@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProcessMitigationPolicy, GetProcessMitigationPolicy function, ProcessASLRPolicy, ProcessControlFlowGuardPolicy, ProcessDEPPolicy, ProcessDynamicCodePolicy, ProcessExtensionPointDisablePolicy, ProcessFontDisablePolicy, ProcessImageLoadPolicy, ProcessMitigationOptionsMask, ProcessSideChannelIsolationPolicy, ProcessSignaturePolicy, ProcessStrictHandleCheckPolicy, ProcessSystemCallDisablePolicy, base.getprocessmitigationpolicy, processthreadsapi/GetProcessMitigationPolicy
 ms.topic: function
-f1_keywords: ["processthreadsapi/GetProcessMitigationPolicy"]
+f1_keywords: 
+ - "processthreadsapi/GetProcessMitigationPolicy"
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows

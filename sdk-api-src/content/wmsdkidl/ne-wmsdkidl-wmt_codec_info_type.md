@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMT_CODECINFO_AUDIO, WMT_CODECINFO_UNKNOWN, WMT_CODECINFO_VIDEO, WMT_CODEC_INFO_TYPE, WMT_CODEC_INFO_TYPE enumeration [windows Media Format], wmformat.wmt_codec_info_type, wmsdkidl/WMT_CODECINFO_AUDIO, wmsdkidl/WMT_CODECINFO_UNKNOWN, wmsdkidl/WMT_CODECINFO_VIDEO, wmsdkidl/WMT_CODEC_INFO_TYPE
 ms.topic: enum
-f1_keywords: ["wmsdkidl/WMT_CODEC_INFO_TYPE"]
+f1_keywords: 
+ - "wmsdkidl/WMT_CODEC_INFO_TYPE"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

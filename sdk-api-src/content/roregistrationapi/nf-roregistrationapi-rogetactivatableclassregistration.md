@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RoGetActivatableClassRegistration, RoGetActivatableClassRegistration function [Windows Runtime], roregistrationapi/RoGetActivatableClassRegistration, winrt.rogetactivatableclassregistration
 ms.topic: function
-f1_keywords: ["roregistrationapi/RoGetActivatableClassRegistration"]
+f1_keywords: 
+ - "roregistrationapi/RoGetActivatableClassRegistration"
 req.header: roregistrationapi.h
 req.include-header: 
 req.target-type: Windows

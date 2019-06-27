@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_MapCrToWin32Err, CM_MapCrToWin32Err function [Device and Driver Installation], cfgmgr32/CM_MapCrToWin32Err, devinst.cm_mapcrtowin32err
 ms.topic: function
-f1_keywords: ["cfgmgr32/CM_MapCrToWin32Err"]
+f1_keywords: 
+ - "cfgmgr32/CM_MapCrToWin32Err"
 req.header: cfgmgr32.h
 req.include-header: 
 req.target-type: Universal

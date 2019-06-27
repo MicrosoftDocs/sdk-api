@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateUI, CreateUI method [Internationalization for Windows Applications], CreateUI method [Internationalization for Windows Applications],IImePadApplet interface, IImePadApplet interface [Internationalization for Windows Applications],CreateUI method, IImePadApplet.CreateUI, IImePadApplet::CreateUI, imepad/IImePadApplet::CreateUI, intl.iimepadapplet_createui
 ms.topic: method
-f1_keywords: ["imepad/IImePadApplet.CreateUI"]
+f1_keywords: 
+ - "imepad/IImePadApplet.CreateUI"
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetMessageNameAdd, NetMessageNameAdd function [Network Management], _win32_netmessagenameadd, lmmsg/NetMessageNameAdd, netmgmt.netmessagenameadd
 ms.topic: function
-f1_keywords: ["lmmsg/NetMessageNameAdd"]
+f1_keywords: 
+ - "lmmsg/NetMessageNameAdd"
 req.header: lmmsg.h
 req.include-header: Lm.h
 req.target-type: Windows

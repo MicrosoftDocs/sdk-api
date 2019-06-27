@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 88e41418-934c-2f28-baec-b4fa95311890, GetAnnotationByName, GetAnnotationByName method [Direct3D 10], GetAnnotationByName method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],GetAnnotationByName method, ID3D10EffectVariable.GetAnnotationByName, ID3D10EffectVariable::GetAnnotationByName, d3d10effect/ID3D10EffectVariable::GetAnnotationByName, direct3d10.id3d10effectvariable_getannotationbyname
 ms.topic: method
-f1_keywords: ["d3d10effect/ID3D10EffectVariable.GetAnnotationByName"]
+f1_keywords: 
+ - "d3d10effect/ID3D10EffectVariable.GetAnnotationByName"
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

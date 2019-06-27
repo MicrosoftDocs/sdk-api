@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1InkStyle interface [Direct2D],SetNibShape method, ID2D1InkStyle.SetNibShape, ID2D1InkStyle::SetNibShape, SetNibShape, SetNibShape method [Direct2D], SetNibShape method [Direct2D],ID2D1InkStyle interface, d2d1_3/ID2D1InkStyle::SetNibShape, direct2d.id2d1inkstyle_setnibshape
 ms.topic: method
-f1_keywords: ["d2d1_3/ID2D1InkStyle.SetNibShape"]
+f1_keywords: 
+ - "d2d1_3/ID2D1InkStyle.SetNibShape"
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

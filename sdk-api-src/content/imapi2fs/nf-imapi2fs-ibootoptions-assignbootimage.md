@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AssignBootImage, AssignBootImage method [IMAPI], AssignBootImage method [IMAPI],IBootOptions interface, IBootOptions interface [IMAPI],AssignBootImage method, IBootOptions.AssignBootImage, IBootOptions::AssignBootImage, imapi.ibootoptions_assignbootimage, imapi2fs/IBootOptions::AssignBootImage
 ms.topic: method
-f1_keywords: ["imapi2fs/IBootOptions.AssignBootImage"]
+f1_keywords: 
+ - "imapi2fs/IBootOptions.AssignBootImage"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

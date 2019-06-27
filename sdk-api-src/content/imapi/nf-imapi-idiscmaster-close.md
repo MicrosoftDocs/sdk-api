@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [IMAPI], Close method [IMAPI],IDiscMaster interface, IDiscMaster interface [IMAPI],Close method, IDiscMaster.Close, IDiscMaster::Close, _win32_idiscmaster_close, base.idiscmaster_close, imapi.idiscmaster_close, imapi/IDiscMaster::Close
 ms.topic: method
-f1_keywords: ["imapi/IDiscMaster.Close"]
+f1_keywords: 
+ - "imapi/IDiscMaster.Close"
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProgramIdentifier, GetProgramIdentifier method [Microsoft TV Technologies], GetProgramIdentifier method [Microsoft TV Technologies],ISectionList interface, ISectionList interface [Microsoft TV Technologies],GetProgramIdentifier method, ISectionList.GetProgramIdentifier, ISectionList::GetProgramIdentifier, ISectionListGetProgramIdentifier, mpeg2data/ISectionList::GetProgramIdentifier, mstv.isectionlist_getprogramidentifier
 ms.topic: method
-f1_keywords: ["mpeg2data/ISectionList.GetProgramIdentifier"]
+f1_keywords: 
+ - "mpeg2data/ISectionList.GetProgramIdentifier"
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows

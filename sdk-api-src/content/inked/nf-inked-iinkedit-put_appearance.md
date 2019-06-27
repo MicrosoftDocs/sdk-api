@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Appearance property [Tablet PC], Appearance property [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],Appearance property, IInkEdit.Appearance, IInkEdit.put_Appearance, IInkEdit::Appearance, IInkEdit::get_Appearance, IInkEdit::put_Appearance, InkEdit.get_Appearance, InkEdit.put_Appearance, get_Appearance, inked/IInkEdit::Appearance, inked/IInkEdit::get_Appearance, inked/IInkEdit::put_Appearance, put_Appearance, tablet.inkedit_appearance
 ms.topic: method
-f1_keywords: ["inked/IInkEdit.Appearance"]
+f1_keywords: 
+ - "inked/IInkEdit.Appearance"
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

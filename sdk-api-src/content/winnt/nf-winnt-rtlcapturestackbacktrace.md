@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CaptureStackBackTrace, RtlCaptureStackBackTrace, RtlCaptureStackBackTrace routine [Installable File System Drivers], ifsk.rtlcapturestackbacktrace, rtlref_c329ad74-ebb1-478d-a0d2-fd2ae2c8da2a.xml, winnt/CaptureStackBackTrace, winnt/RtlCaptureStackBackTrace
 ms.topic: function
-f1_keywords: ["winnt/RtlCaptureStackBackTrace"]
+f1_keywords: 
+ - "winnt/RtlCaptureStackBackTrace"
 req.header: winnt.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal

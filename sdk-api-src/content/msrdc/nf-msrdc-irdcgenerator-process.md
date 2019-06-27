@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRdcGenerator interface [Remote Differential Compression],Process method, IRdcGenerator.Process, IRdcGenerator::Process, Process, Process method [Remote Differential Compression], Process method [Remote Differential Compression],IRdcGenerator interface, fs.irdcgenerator_process, msrdc/IRdcGenerator::Process, rdc.irdcgenerator_process
 ms.topic: method
-f1_keywords: ["msrdc/IRdcGenerator.Process"]
+f1_keywords: 
+ - "msrdc/IRdcGenerator.Process"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

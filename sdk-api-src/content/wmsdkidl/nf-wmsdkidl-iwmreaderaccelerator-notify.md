@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAccelerator interface [windows Media Format],Notify method, IWMReaderAccelerator.Notify, IWMReaderAccelerator::Notify, IWMReaderAcceleratorNotify, Notify, Notify method [windows Media Format], Notify method [windows Media Format],IWMReaderAccelerator interface, wmformat.iwmreaderaccelerator_notify, wmsdkidl/IWMReaderAccelerator::Notify
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderAccelerator.Notify"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderAccelerator.Notify"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

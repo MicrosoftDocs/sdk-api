@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],SetAt method, CHString.SetAt, CHString::SetAt, SetAt, SetAt method [Windows Management Instrumentation], SetAt method [Windows Management Instrumentation],CHString interface, _hmm_chstring_setat, chstring/CHString::SetAt, wmi.chstring_setat
 ms.topic: method
-f1_keywords: ["chstring/CHString.SetAt"]
+f1_keywords: 
+ - "chstring/CHString.SetAt"
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

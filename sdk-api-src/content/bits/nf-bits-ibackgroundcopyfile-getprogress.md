@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProgress, GetProgress method [BITS], GetProgress method [BITS],IBackgroundCopyFile interface, IBackgroundCopyFile interface [BITS],GetProgress method, IBackgroundCopyFile.GetProgress, IBackgroundCopyFile::GetProgress, _drz_ibackgroundcopyfile_getprogress, bits.ibackgroundcopyfile_getprogress, bits/IBackgroundCopyFile::GetProgress
 ms.topic: method
-f1_keywords: ["bits/IBackgroundCopyFile.GetProgress"]
+f1_keywords: 
+ - "bits/IBackgroundCopyFile.GetProgress"
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

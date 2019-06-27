@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyApplications, CopyApplications method [COM+], CopyApplications method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],CopyApplications method, ICOMAdminCatalog2.CopyApplications, ICOMAdminCatalog2::CopyApplications, _cos_icomadmincatalog2_CopyApplications, comadmin/ICOMAdminCatalog2::CopyApplications, cos.icomadmincatalog2_copyapplications
 ms.topic: method
-f1_keywords: ["comadmin/ICOMAdminCatalog2.CopyApplications"]
+f1_keywords: 
+ - "comadmin/ICOMAdminCatalog2.CopyApplications"
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

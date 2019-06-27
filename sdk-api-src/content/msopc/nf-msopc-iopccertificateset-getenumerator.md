@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions],IOpcCertificateSet interface, IOpcCertificateSet interface [Open Packaging Conventions],GetEnumerator method, IOpcCertificateSet.GetEnumerator, IOpcCertificateSet::GetEnumerator, msopc/IOpcCertificateSet::GetEnumerator, opc.iopccertificateset_getenumerator
 ms.topic: method
-f1_keywords: ["msopc/IOpcCertificateSet.GetEnumerator"]
+f1_keywords: 
+ - "msopc/IOpcCertificateSet.GetEnumerator"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FlsSetValue, FlsSetValue function, _win32_flssetvalue, base.flssetvalue, fibersapi/FlsSetValue, winbase/FlsSetValue
 ms.topic: function
-f1_keywords: ["fibersapi/FlsSetValue"]
+f1_keywords: 
+ - "fibersapi/FlsSetValue"
 req.header: fibersapi.h
 req.include-header: 
 req.target-type: Windows

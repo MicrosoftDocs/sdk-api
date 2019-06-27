@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilOidToA, SnmpUtilOidToA function [SNMP], _snmp_snmputiloidtoa, snmp.snmputiloidtoa, snmp/SnmpUtilOidToA
 ms.topic: function
-f1_keywords: ["snmp/SnmpUtilOidToA"]
+f1_keywords: 
+ - "snmp/SnmpUtilOidToA"
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

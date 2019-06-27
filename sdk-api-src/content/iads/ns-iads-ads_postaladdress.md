@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PADS_POSTALADDRESS, ADS_POSTALADDRESS, ADS_POSTALADDRESS structure [ADSI], PADS_POSTALADDRESS, PADS_POSTALADDRESS structure pointer [ADSI], _ds_ads_postaladdress, adsi.ads__postaladdress, adsi.ads_postaladdress, iads/ADS_POSTALADDRESS, iads/PADS_POSTALADDRESS"
 ms.topic: struct
-f1_keywords: ["iads/ADS_POSTALADDRESS"]
+f1_keywords: 
+ - "iads/ADS_POSTALADDRESS"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

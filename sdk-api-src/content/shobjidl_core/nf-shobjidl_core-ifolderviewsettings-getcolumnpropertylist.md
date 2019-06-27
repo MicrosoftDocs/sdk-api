@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColumnPropertyList, GetColumnPropertyList method [Windows Shell], GetColumnPropertyList method [Windows Shell],IFolderViewSettings interface, IFolderViewSettings interface [Windows Shell],GetColumnPropertyList method, IFolderViewSettings.GetColumnPropertyList, IFolderViewSettings::GetColumnPropertyList, _shell_IFolderViewSettings_GetColumnPropertyList, shell.IFolderViewSettings_GetColumnPropertyList, shobjidl_core/IFolderViewSettings::GetColumnPropertyList
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFolderViewSettings.GetColumnPropertyList"]
+f1_keywords: 
+ - "shobjidl_core/IFolderViewSettings.GetColumnPropertyList"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

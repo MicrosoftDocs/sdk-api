@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTfPropertyValue interface [Text Services Framework],Next method, IEnumTfPropertyValue.Next, IEnumTfPropertyValue::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfPropertyValue interface, _tsf_ienumtfpropertyvalue_next_ref, msctf/IEnumTfPropertyValue::Next, tsf.ienumtfpropertyvalue_next
 ms.topic: method
-f1_keywords: ["msctf/IEnumTfPropertyValue.Next"]
+f1_keywords: 
+ - "msctf/IEnumTfPropertyValue.Next"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

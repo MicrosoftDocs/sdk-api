@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_IF_TABLE2, MIB_IF_TABLE2, MIB_IF_TABLE2 structure [MIB], PMIB_IF_TABLE2, PMIB_IF_TABLE2 structure pointer [MIB], _MIB_IF_TABLE2, mib.mib_if_table2, netioapi/MIB_IF_TABLE2, netioapi/PMIB_IF_TABLE2"
 ms.topic: struct
-f1_keywords: ["netioapi/MIB_IF_TABLE2"]
+f1_keywords: 
+ - "netioapi/MIB_IF_TABLE2"
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

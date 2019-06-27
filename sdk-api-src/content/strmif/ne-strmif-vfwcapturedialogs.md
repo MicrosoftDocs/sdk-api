@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VfwCaptureDialog_Display, VfwCaptureDialog_Format, VfwCaptureDialog_Source, VfwCaptureDialogs, VfwCaptureDialogs enumeration [DirectShow], VfwCaptureDialogsEnumeration, dshow.vfwcapturedialogs, strmif/VfwCaptureDialog_Display, strmif/VfwCaptureDialog_Format, strmif/VfwCaptureDialog_Source, strmif/VfwCaptureDialogs
 ms.topic: enum
-f1_keywords: ["strmif/VfwCaptureDialogs"]
+f1_keywords: 
+ - "strmif/VfwCaptureDialogs"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

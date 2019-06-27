@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTrimming, GetTrimming method [Direct Write], GetTrimming method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetTrimming method, IDWriteTextFormat.GetTrimming, IDWriteTextFormat::GetTrimming, directwrite.IDWriteTextFormat_GetTrimming, dwrite/IDWriteTextFormat::GetTrimming
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextFormat.GetTrimming"]
+f1_keywords: 
+ - "dwrite/IDWriteTextFormat.GetTrimming"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

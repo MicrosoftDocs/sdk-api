@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBoolean, GetBoolean method [Windows Runtime], GetBoolean method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetBoolean method, IPropertyValue.GetBoolean, IPropertyValue.IPropertyValue, IPropertyValue::GetBoolean, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetBoolean, winrt.ipropertyvalue_getboolean
 ms.topic: method
-f1_keywords: ["windows.foundation/IPropertyValue.GetBoolean"]
+f1_keywords: 
+ - "windows.foundation/IPropertyValue.GetBoolean"
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

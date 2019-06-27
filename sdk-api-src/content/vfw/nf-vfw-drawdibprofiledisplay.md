@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawDibProfileDisplay, DrawDibProfileDisplay function [Windows Multimedia], _win32_DrawDibProfileDisplay, multimedia.drawdibprofiledisplay, vfw/DrawDibProfileDisplay
 ms.topic: function
-f1_keywords: ["vfw/DrawDibProfileDisplay"]
+f1_keywords: 
+ - "vfw/DrawDibProfileDisplay"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

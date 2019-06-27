@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WER_FAULT_REPORTING_ALWAYS_SHOW_UI, WER_FAULT_REPORTING_FLAG_DISABLE_THREAD_SUSPENSION, WER_FAULT_REPORTING_FLAG_NOHEAP, WER_FAULT_REPORTING_FLAG_QUEUE, WER_FAULT_REPORTING_FLAG_QUEUE_UPLOAD, WerSetFlags, WerSetFlags function [Windows Error Reporting], base.wersetflags, wer.wersetflags, werapi/WerSetFlags
 ms.topic: function
-f1_keywords: ["werapi/WerSetFlags"]
+f1_keywords: 
+ - "werapi/WerSetFlags"
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

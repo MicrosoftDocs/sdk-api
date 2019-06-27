@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCREDUIWIN_MARSHALED_CONTEXT, CREDUIWIN_MARSHALED_CONTEXT, CREDUIWIN_MARSHALED_CONTEXT structure [Security], PCREDUIWIN_MARSHALED_CONTEXT, PCREDUIWIN_MARSHALED_CONTEXT structure pointer [Security], security.creduiwin_marshaled_context, sspi/CREDUIWIN_MARSHALED_CONTEXT, sspi/PCREDUIWIN_MARSHALED_CONTEXT"
 ms.topic: struct
-f1_keywords: ["sspi/CREDUIWIN_MARSHALED_CONTEXT"]
+f1_keywords: 
+ - "sspi/CREDUIWIN_MARSHALED_CONTEXT"
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellChangeNotify interface [Windows Shell],OnChange method, IShellChangeNotify.OnChange, IShellChangeNotify::OnChange, OnChange, OnChange method [Windows Shell], OnChange method [Windows Shell],IShellChangeNotify interface, SHCNE_ALLEVENTS, SHCNE_ASSOCCHANGED, SHCNE_ATTRIBUTES, SHCNE_CREATE, SHCNE_DELETE, SHCNE_DISKEVENTS, SHCNE_DRIVEADD, SHCNE_DRIVEADDGUI, SHCNE_DRIVEREMOVED, SHCNE_FREESPACE, SHCNE_GLOBALEVENTS, SHCNE_INTERRUPT, SHCNE_MEDIAINSERTED, SHCNE_MEDIAREMOVED, SHCNE_MKDIR, SHCNE_NETSHARE, SHCNE_NETUNSHARE, SHCNE_RENAMEFOLDER, SHCNE_RENAMEITEM, SHCNE_RMDIR, SHCNE_SERVERDISCONNECT, SHCNE_UPDATEDIR, SHCNE_UPDATEIMAGE, SHCNE_UPDATEITEM, _win32_IShellChangeNotify_OnChange, shell.IShellChangeNotify_OnChange, shlobj_core/IShellChangeNotify::OnChange
 ms.topic: method
-f1_keywords: ["shlobj_core/IShellChangeNotify.OnChange"]
+f1_keywords: 
+ - "shlobj_core/IShellChangeNotify.OnChange"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMarshal interface [COM],UnmarshalInterface method, IMarshal.UnmarshalInterface, IMarshal::UnmarshalInterface, UnmarshalInterface, UnmarshalInterface method [COM], UnmarshalInterface method [COM],IMarshal interface, _com_imarshal_unmarshalinterface, com.imarshal_unmarshalinterface, objidlbase/IMarshal::UnmarshalInterface
 ms.topic: method
-f1_keywords: ["objidl/IMarshal.UnmarshalInterface"]
+f1_keywords: 
+ - "objidl/IMarshal.UnmarshalInterface"
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

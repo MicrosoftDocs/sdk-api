@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RDPSRAPI_KBD_SYNC_FLAG, RDPSRAPI_KBD_SYNC_FLAG enumeration [RDP], RDPSRAPI_KBD_SYNC_FLAG_CAPS_LOCK, RDPSRAPI_KBD_SYNC_FLAG_KANA_LOCK, RDPSRAPI_KBD_SYNC_FLAG_NUM_LOCK, RDPSRAPI_KBD_SYNC_FLAG_SCROLL_LOCK, rdp.rdpsrapi_kbd_sync_flag, rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG, rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG_CAPS_LOCK, rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG_KANA_LOCK, rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG_NUM_LOCK, rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG_SCROLL_LOCK
 ms.topic: enum
-f1_keywords: ["rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG"]
+f1_keywords: 
+ - "rdpencomapi/RDPSRAPI_KBD_SYNC_FLAG"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

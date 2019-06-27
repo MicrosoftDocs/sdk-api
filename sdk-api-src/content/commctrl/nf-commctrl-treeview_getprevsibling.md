@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetPrevSibling, TreeView_GetPrevSibling macro [Windows Controls], _win32_TreeView_GetPrevSibling, _win32_TreeView_GetPrevSibling_cpp, commctrl/TreeView_GetPrevSibling, controls.TreeView_GetPrevSibling, controls._win32_TreeView_GetPrevSibling
 ms.topic: macro
-f1_keywords: ["commctrl/TreeView_GetPrevSibling"]
+f1_keywords: 
+ - "commctrl/TreeView_GetPrevSibling"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

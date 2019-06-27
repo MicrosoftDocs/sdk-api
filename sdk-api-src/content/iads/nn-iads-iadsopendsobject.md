@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsOpenDSObject, IADsOpenDSObject interface [ADSI], IADsOpenDSObject interface [ADSI],described, _ds_iadsopendsobject, adsi.iadsopendsobject, iads/IADsOpenDSObject
 ms.topic: interface
-f1_keywords: ["iads/IADsOpenDSObject"]
+f1_keywords: 
+ - "iads/IADsOpenDSObject"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

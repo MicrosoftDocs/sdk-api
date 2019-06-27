@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 47f33235-6bb5-4103-82b4-87210b0e695c, IMFCollection interface [Media Foundation],RemoveElement method, IMFCollection.RemoveElement, IMFCollection::RemoveElement, RemoveElement, RemoveElement method [Media Foundation], RemoveElement method [Media Foundation],IMFCollection interface, mf.imfcollection_removeelement, mfobjects/IMFCollection::RemoveElement
 ms.topic: method
-f1_keywords: ["mfobjects/IMFCollection.RemoveElement"]
+f1_keywords: 
+ - "mfobjects/IMFCollection.RemoveElement"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

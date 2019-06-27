@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWM_CONTROLLER_GET_INFO_OUTPUT, PWM_CONTROLLER_INFO, PWM_CONTROLLER_INFO structure, base.pwm_controller_info, pwm/PWM_CONTROLLER_INFO
 ms.topic: struct
-f1_keywords: ["pwm/PWM_CONTROLLER_INFO"]
+f1_keywords: 
+ - "pwm/PWM_CONTROLLER_INFO"
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows

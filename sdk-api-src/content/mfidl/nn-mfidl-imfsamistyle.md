@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSAMIStyle, IMFSAMIStyle interface [Media Foundation], IMFSAMIStyle interface [Media Foundation],described, c4887c52-57af-4783-b853-11fe6ad3510e, mf.imfsamistyle, mfidl/IMFSAMIStyle
 ms.topic: interface
-f1_keywords: ["mfidl/IMFSAMIStyle"]
+f1_keywords: 
+ - "mfidl/IMFSAMIStyle"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

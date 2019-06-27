@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSidLengthRequired, GetSidLengthRequired function [Security], _win32_getsidlengthrequired, security.getsidlengthrequired, securitybaseapi/GetSidLengthRequired
 ms.topic: function
-f1_keywords: ["securitybaseapi/GetSidLengthRequired"]
+f1_keywords: 
+ - "securitybaseapi/GetSidLengthRequired"
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

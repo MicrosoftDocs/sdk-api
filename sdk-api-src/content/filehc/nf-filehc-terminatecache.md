@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TerminateCache, TerminateCache function [Windows API], filehc/TerminateCache, winprog._terminatecache
 ms.topic: function
-f1_keywords: ["filehc/TerminateCache"]
+f1_keywords: 
+ - "filehc/TerminateCache"
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

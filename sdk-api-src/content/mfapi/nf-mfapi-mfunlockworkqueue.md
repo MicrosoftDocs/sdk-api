@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFUnlockWorkQueue, MFUnlockWorkQueue function [Media Foundation], bbc22fa7-b4d7-47b2-b065-099fbb2ed092, mf.mfunlockworkqueue, mfapi/MFUnlockWorkQueue
 ms.topic: function
-f1_keywords: ["mfapi/MFUnlockWorkQueue"]
+f1_keywords: 
+ - "mfapi/MFUnlockWorkQueue"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

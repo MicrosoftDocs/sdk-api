@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathFileExists, PathFileExists function [Windows Shell], PathFileExistsA, PathFileExistsW, _win32_PathFileExists, shell.PathFileExists, shlwapi/PathFileExists, shlwapi/PathFileExistsA, shlwapi/PathFileExistsW
 ms.topic: function
-f1_keywords: ["shlwapi/PathFileExists"]
+f1_keywords: 
+ - "shlwapi/PathFileExists"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

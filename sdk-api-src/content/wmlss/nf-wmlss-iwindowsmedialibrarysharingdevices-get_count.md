@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingDevices interface [Windows Media Library Sharing Services],get_Count method, IWindowsMediaLibrarySharingDevices.get_Count, IWindowsMediaLibrarySharingDevices::get_Count, get_Count, get_Count method [Windows Media Library Sharing Services], get_Count method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDevices interface, wmlss.IWMLSDevicesget_Count, wmlss/IWindowsMediaLibrarySharingDevices::get_Count
 ms.topic: method
-f1_keywords: ["wmlss/IWindowsMediaLibrarySharingDevices.get_Count"]
+f1_keywords: 
+ - "wmlss/IWindowsMediaLibrarySharingDevices.get_Count"
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows

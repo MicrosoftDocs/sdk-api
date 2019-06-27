@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStringProperty, GetStringProperty method [Windows API], GetStringProperty method [Windows API],IFhTarget interface, IFhTarget interface [Windows API],GetStringProperty method, IFhTarget.GetStringProperty, IFhTarget::GetStringProperty, fhcfg/IFhTarget::GetStringProperty, winprog.ifhtarget_getstringproperty
 ms.topic: method
-f1_keywords: ["fhcfg/IFhTarget.GetStringProperty"]
+f1_keywords: 
+ - "fhcfg/IFhTarget.GetStringProperty"
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFTimedText interface [Media Foundation],RemoveTrack method, IMFTimedText.RemoveTrack, IMFTimedText::RemoveTrack, RemoveTrack, RemoveTrack method [Media Foundation], RemoveTrack method [Media Foundation],IMFTimedText interface, mf.imftimedtext_removetrack, mfmediaengine/IMFTimedText::RemoveTrack
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedText.RemoveTrack"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedText.RemoveTrack"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

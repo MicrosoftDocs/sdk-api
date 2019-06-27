@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PowerSettingUnregisterNotification, PowerSettingUnregisterNotification function, base.powersettingunregisternotification, powersetting/PowerSettingUnregisterNotification, powrprof/PowerSettingUnregisterNotification
 ms.topic: function
-f1_keywords: ["powersetting/PowerSettingUnregisterNotification"]
+f1_keywords: 
+ - "powersetting/PowerSettingUnregisterNotification"
 req.header: powersetting.h
 req.include-header: 
 req.target-type: Windows

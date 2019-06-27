@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionSlerp, XMQuaternionSlerp, XMQuaternionSlerp method [DirectX Math Support APIs], dxmath.xmquaternionslerp
 ms.topic: function
-f1_keywords: ["directxmath/XMQuaternionSlerp"]
+f1_keywords: 
+ - "directxmath/XMQuaternionSlerp"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accDescription method, IAccessible.get_accDescription, IAccessible::get_accDescription, _msaa_IAccessible_get_accDescription, get_accDescription, get_accDescription method [Windows Accessibility], get_accDescription method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accdescription, oleacc/IAccessible::get_accDescription, winauto.iaccessible_iaccessible__get_accdescription
 ms.topic: method
-f1_keywords: ["oleacc/IAccessible.get_accDescription"]
+f1_keywords: 
+ - "oleacc/IAccessible.get_accDescription"
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

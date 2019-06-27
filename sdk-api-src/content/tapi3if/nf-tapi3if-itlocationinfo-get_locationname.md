@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_LocationName method, ITLocationInfo.get_LocationName, ITLocationInfo::get_LocationName, _tapi3_itlocationinfo_get_locationname, get_LocationName, get_LocationName method [TAPI 2.2], get_LocationName method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_locationname, tapi3if/ITLocationInfo::get_LocationName
 ms.topic: method
-f1_keywords: ["tapi3if/ITLocationInfo.get_LocationName"]
+f1_keywords: 
+ - "tapi3if/ITLocationInfo.get_LocationName"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

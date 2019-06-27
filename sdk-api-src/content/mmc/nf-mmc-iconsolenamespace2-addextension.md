@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddExtension, AddExtension method [MMC], AddExtension method [MMC],IConsoleNameSpace2 interface, IConsoleNameSpace2 interface [MMC],AddExtension method, IConsoleNameSpace2.AddExtension, IConsoleNameSpace2::AddExtension, _slate_iconsolenamespace2_addextension, mmc.iconsolenamespace2_addextension, mmc/IConsoleNameSpace2::AddExtension
 ms.topic: method
-f1_keywords: ["mmc/IConsoleNameSpace2.AddExtension"]
+f1_keywords: 
+ - "mmc/IConsoleNameSpace2.AddExtension"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

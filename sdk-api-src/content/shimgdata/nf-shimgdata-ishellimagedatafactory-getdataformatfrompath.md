@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDataFormatFromPath, GetDataFormatFromPath method [Windows Shell], GetDataFormatFromPath method [Windows Shell],IShellImageDataFactory interface, IShellImageDataFactory interface [Windows Shell],GetDataFormatFromPath method, IShellImageDataFactory.GetDataFormatFromPath, IShellImageDataFactory::GetDataFormatFromPath, _shell_IShellImageDataFactory_GetDataFormatFromPath, shell.IShellImageDataFactory_GetDataFormatFromPath, shimgdata/IShellImageDataFactory::GetDataFormatFromPath
 ms.topic: method
-f1_keywords: ["shimgdata/IShellImageDataFactory.GetDataFormatFromPath"]
+f1_keywords: 
+ - "shimgdata/IShellImageDataFactory.GetDataFormatFromPath"
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

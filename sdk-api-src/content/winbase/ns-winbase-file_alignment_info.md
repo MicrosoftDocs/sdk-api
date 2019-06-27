@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PFILE_ALIGNMENT_INFO, FILE_ALIGNMENT_INFO, FILE_ALIGNMENT_INFO structure [Files], PFILE_ALIGNMENT_INFO, PFILE_ALIGNMENT_INFO structure pointer [Files], _FILE_ALIGNMENT_INFO, fs.file_alignment_info, winbase/FILE_ALIGNMENT_INFO, winbase/PFILE_ALIGNMENT_INFO"
 ms.topic: struct
-f1_keywords: ["winbase/FILE_ALIGNMENT_INFO"]
+f1_keywords: 
+ - "winbase/FILE_ALIGNMENT_INFO"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPERFORMACE_INFORMATION, *PPERFORMANCE_INFORMATION, PERFORMACE_INFORMATION, PERFORMANCE_INFORMATION, PERFORMANCE_INFORMATION structure [PSAPI], PPERFORMANCE_INFORMATION, PPERFORMANCE_INFORMATION structure pointer [PSAPI], _win32_performance_information_str, base.performance_information_str, psapi.performance_information_str, psapi/PERFORMANCE_INFORMATION, psapi/PPERFORMANCE_INFORMATION"
 ms.topic: struct
-f1_keywords: ["psapi/PERFORMANCE_INFORMATION"]
+f1_keywords: 
+ - "psapi/PERFORMANCE_INFORMATION"
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

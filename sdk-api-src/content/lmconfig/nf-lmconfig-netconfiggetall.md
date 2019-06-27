@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetConfigGetAll, NetConfigGetAll function [Network Management], _win32_netconfiggetall, lmconfig/NetConfigGetAll, netmgmt.netconfiggetall
 ms.topic: function
-f1_keywords: ["lmconfig/NetConfigGetAll"]
+f1_keywords: 
+ - "lmconfig/NetConfigGetAll"
 req.header: lmconfig.h
 req.include-header: 
 req.target-type: Windows

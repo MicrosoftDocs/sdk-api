@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BitmapBrushProperties, BitmapBrushProperties function [Direct2D], d2d1helper/BitmapBrushProperties, direct2d.bitmapbrushproperties
 ms.topic: function
-f1_keywords: ["d2d1helper/BitmapBrushProperties"]
+f1_keywords: 
+ - "d2d1helper/BitmapBrushProperties"
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

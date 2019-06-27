@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDragProvider interface [Windows Accessibility],IsGrabbed property, IDragProvider.IsGrabbed, IDragProvider.get_IsGrabbed, IDragProvider::IsGrabbed, IDragProvider::get_IsGrabbed, IsGrabbed property [Windows Accessibility], IsGrabbed property [Windows Accessibility],IDragProvider interface, get_IsGrabbed, uiautomationcore/IDragProvider::IsGrabbed, uiautomationcore/IDragProvider::get_IsGrabbed, winauto.uiauto_idragprovider_isgrabbed
 ms.topic: method
-f1_keywords: ["uiautomationcore/IDragProvider.IsGrabbed"]
+f1_keywords: 
+ - "uiautomationcore/IDragProvider.IsGrabbed"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

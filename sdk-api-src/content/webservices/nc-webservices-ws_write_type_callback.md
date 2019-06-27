@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_WRITE_TYPE_CALLBACK, WS_WRITE_TYPE_CALLBACK callback, WS_WRITE_TYPE_CALLBACK callback function [Web Services for Windows], webservices/WS_WRITE_TYPE_CALLBACK, wsw.ws_write_type_callback
 ms.topic: callback
-f1_keywords: ["webservices/WS_WRITE_TYPE_CALLBACK"]
+f1_keywords: 
+ - "webservices/WS_WRITE_TYPE_CALLBACK"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

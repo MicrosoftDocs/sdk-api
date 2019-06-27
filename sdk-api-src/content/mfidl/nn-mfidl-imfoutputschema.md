@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFOutputSchema, IMFOutputSchema interface [Media Foundation], IMFOutputSchema interface [Media Foundation],described, d0786628-dde9-43a9-8e81-0b0c396ad426, mf.imfoutputschema, mfidl/IMFOutputSchema
 ms.topic: interface
-f1_keywords: ["mfidl/IMFOutputSchema"]
+f1_keywords: 
+ - "mfidl/IMFOutputSchema"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

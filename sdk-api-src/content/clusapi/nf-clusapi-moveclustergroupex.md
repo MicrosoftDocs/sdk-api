@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLUSAPI_GROUP_MOVE_FAILBACK, CLUSAPI_GROUP_MOVE_HIGH_PRIORITY_START, CLUSAPI_GROUP_MOVE_IGNORE_RESOURCE_STATUS, CLUSAPI_GROUP_MOVE_QUEUE_ENABLED, CLUSAPI_GROUP_MOVE_RETURN_TO_SOURCE_NODE_ON_ERROR, MoveClusterGroupEx, MoveClusterGroupEx function [Failover Cluster], clusapi/MoveClusterGroupEx, mscs.moveclustergroupex
 ms.topic: function
-f1_keywords: ["clusapi/MoveClusterGroupEx"]
+f1_keywords: 
+ - "clusapi/MoveClusterGroupEx"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

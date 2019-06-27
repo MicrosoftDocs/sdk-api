@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsiNamedStreams interface [IMAPI],get_Item method, IFsiNamedStreams.get_Item, IFsiNamedStreams::get_Item, get_Item, get_Item method [IMAPI], get_Item method [IMAPI],IFsiNamedStreams interface, imapi.ifsinamedstreams_get_item, imapi2fs/IFsiNamedStreams::get_Item
 ms.topic: method
-f1_keywords: ["imapi2fs/IFsiNamedStreams.get_Item"]
+f1_keywords: 
+ - "imapi2fs/IFsiNamedStreams.get_Item"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

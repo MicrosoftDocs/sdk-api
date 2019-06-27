@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncSessionState interface [Windows Sync],LoadInfoFromChangeApplication method, ISyncSessionState.LoadInfoFromChangeApplication, ISyncSessionState::LoadInfoFromChangeApplication, LoadInfoFromChangeApplication, LoadInfoFromChangeApplication method [Windows Sync], LoadInfoFromChangeApplication method [Windows Sync],ISyncSessionState interface, winsync.isyncsessionstate_loadinfofromchangeapplication, winsync/ISyncSessionState::LoadInfoFromChangeApplication
 ms.topic: method
-f1_keywords: ["winsync/ISyncSessionState.LoadInfoFromChangeApplication"]
+f1_keywords: 
+ - "winsync/ISyncSessionState.LoadInfoFromChangeApplication"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

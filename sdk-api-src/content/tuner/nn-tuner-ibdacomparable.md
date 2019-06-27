@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDAComparable, IBDAComparable interface [Microsoft TV Technologies], IBDAComparable interface [Microsoft TV Technologies],described, IBDAComparableInterface, mstv.ibdacomparable, tuner/IBDAComparable
 ms.topic: interface
-f1_keywords: ["tuner/IBDAComparable"]
+f1_keywords: 
+ - "tuner/IBDAComparable"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

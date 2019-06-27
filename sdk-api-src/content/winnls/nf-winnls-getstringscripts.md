@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GSS_ALLOW_INHERITED_COMMON, GetStringScripts, GetStringScripts function [Internationalization for Windows Applications], _win32_GetStringScripts, intl.getstringscripts, winnls/GetStringScripts
 ms.topic: function
-f1_keywords: ["winnls/GetStringScripts"]
+f1_keywords: 
+ - "winnls/GetStringScripts"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMWriterAdvanced interface [windows Media Format],RemoveSink method, IWMWriterAdvanced.RemoveSink, IWMWriterAdvanced::RemoveSink, IWMWriterAdvancedRemoveSink, RemoveSink, RemoveSink method [windows Media Format], RemoveSink method [windows Media Format],IWMWriterAdvanced interface, wmformat.iwmwriteradvanced_removesink, wmsdkidl/IWMWriterAdvanced::RemoveSink
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriterAdvanced.RemoveSink"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriterAdvanced.RemoveSink"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

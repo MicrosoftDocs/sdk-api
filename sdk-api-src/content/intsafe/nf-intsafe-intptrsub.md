@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IntPtrSub, IntPtrSub function [Windows Shell], intsafe/IntPtrSub, shell.IntPtrSub
 ms.topic: function
-f1_keywords: ["intsafe/IntPtrSub"]
+f1_keywords: 
+ - "intsafe/IntPtrSub"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

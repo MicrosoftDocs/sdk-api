@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFlowDirection, GetFlowDirection method [Direct Write], GetFlowDirection method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetFlowDirection method, IDWriteTextFormat.GetFlowDirection, IDWriteTextFormat::GetFlowDirection, directwrite.IDWriteTextFormat_GetFlowDirection, dwrite/IDWriteTextFormat::GetFlowDirection
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextFormat.GetFlowDirection"]
+f1_keywords: 
+ - "dwrite/IDWriteTextFormat.GetFlowDirection"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

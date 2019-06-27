@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDllServerActivatableClassRegistration, IDllServerActivatableClassRegistration interface [Windows Runtime], IDllServerActivatableClassRegistration interface [Windows Runtime],described, activationregistration/IDllServerActivatableClassRegistration, winrt.idllserveractivatableclassregistration
 ms.topic: interface
-f1_keywords: ["activationregistration/IDllServerActivatableClassRegistration"]
+f1_keywords: 
+ - "activationregistration/IDllServerActivatableClassRegistration"
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

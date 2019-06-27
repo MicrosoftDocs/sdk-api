@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchRoot interface [search],put_Password method, ISearchRoot.put_Password, ISearchRoot::put_Password, _search_ISearchRoot_put_Password, put_Password, put_Password method [search], put_Password method [search],ISearchRoot interface, search._search_ISearchRoot_put_Password, searchapi/ISearchRoot::put_Password
 ms.topic: method
-f1_keywords: ["searchapi/ISearchRoot.put_Password"]
+f1_keywords: 
+ - "searchapi/ISearchRoot.put_Password"
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows

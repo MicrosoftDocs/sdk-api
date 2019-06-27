@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [windows Media Device Manager], GetStatus method [windows Media Device Manager],IWMDMStorageGlobals interface, IWMDMStorageGlobals interface [windows Media Device Manager],GetStatus method, IWMDMStorageGlobals.GetStatus, IWMDMStorageGlobals::GetStatus, IWMDMStorageGlobalsGetStatus, mswmdm/IWMDMStorageGlobals::GetStatus, wmdm.iwmdmstorageglobals_getstatus
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMStorageGlobals.GetStatus"]
+f1_keywords: 
+ - "mswmdm/IWMDMStorageGlobals.GetStatus"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyCallback interface [BITS],JobTransferred method, IBackgroundCopyCallback.JobTransferred, IBackgroundCopyCallback::JobTransferred, JobTransferred, JobTransferred method [BITS], JobTransferred method [BITS],IBackgroundCopyCallback interface, _drz_ibackgroundcopycallback_jobtransferred, bits.ibackgroundcopycallback_jobtransferred, bits/IBackgroundCopyCallback::JobTransferred
 ms.topic: method
-f1_keywords: ["bits/IBackgroundCopyCallback.JobTransferred"]
+f1_keywords: 
+ - "bits/IBackgroundCopyCallback.JobTransferred"
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

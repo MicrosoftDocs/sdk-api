@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetSystemTimeAdjustment, SetSystemTimeAdjustment function, _win32_setsystemtimeadjustment, base.setsystemtimeadjustment, sysinfoapi/SetSystemTimeAdjustment
 ms.topic: function
-f1_keywords: ["sysinfoapi/SetSystemTimeAdjustment"]
+f1_keywords: 
+ - "sysinfoapi/SetSystemTimeAdjustment"
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

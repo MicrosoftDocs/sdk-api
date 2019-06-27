@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDynamicTerminal, CreateDynamicTerminal method [TAPI 2.2], CreateDynamicTerminal method [TAPI 2.2],ITTerminalManager interface, ITTerminalManager interface [TAPI 2.2],CreateDynamicTerminal method, ITTerminalManager.CreateDynamicTerminal, ITTerminalManager::CreateDynamicTerminal, _tapi3_itterminalmanager_createdynamicterminal, tapi3.itterminalmanager_createdynamicterminal, termmgr/ITTerminalManager::CreateDynamicTerminal
 ms.topic: method
-f1_keywords: ["termmgr/ITTerminalManager.CreateDynamicTerminal"]
+f1_keywords: 
+ - "termmgr/ITTerminalManager.CreateDynamicTerminal"
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

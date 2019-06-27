@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFTranscodeSinkInfoProvider, IMFTranscodeSinkInfoProvider interface [Media Foundation], IMFTranscodeSinkInfoProvider interface [Media Foundation],described, mf.imftranscodesinkinfoprovider, mfidl/IMFTranscodeSinkInfoProvider
 ms.topic: interface
-f1_keywords: ["mfidl/IMFTranscodeSinkInfoProvider"]
+f1_keywords: 
+ - "mfidl/IMFTranscodeSinkInfoProvider"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

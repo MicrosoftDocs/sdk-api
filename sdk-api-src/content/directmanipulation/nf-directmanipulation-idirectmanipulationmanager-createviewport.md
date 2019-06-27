@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateViewport, CreateViewport method [Direct Manipulation], CreateViewport method [Direct Manipulation],IDirectManipulationManager interface, IDirectManipulationManager interface [Direct Manipulation],CreateViewport method, IDirectManipulationManager.CreateViewport, IDirectManipulationManager::CreateViewport, directmanipulation.idirectmanipulationmanager_createviewport, directmanipulation/IDirectManipulationManager::CreateViewport
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationManager.CreateViewport"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationManager.CreateViewport"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

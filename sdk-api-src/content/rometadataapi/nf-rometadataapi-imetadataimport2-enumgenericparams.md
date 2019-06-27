@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumGenericParams, EnumGenericParams method [Windows Runtime], EnumGenericParams method [Windows Runtime],IMetaDataImport2 interface, IMetaDataImport2 interface [Windows Runtime],EnumGenericParams method, IMetaDataImport2.EnumGenericParams, IMetaDataImport2::EnumGenericParams, rometadataapi/IMetaDataImport2::EnumGenericParams, winrt.imetadataimport2_enumgenericparams
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataImport2.EnumGenericParams"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataImport2.EnumGenericParams"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

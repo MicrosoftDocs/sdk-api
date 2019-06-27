@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AttachMediaSource, AttachMediaSource method [Media Foundation], AttachMediaSource method [Media Foundation],IMFMediaEngineSupportsSourceTransfer interface, IMFMediaEngineSupportsSourceTransfer interface [Media Foundation],AttachMediaSource method, IMFMediaEngineSupportsSourceTransfer.AttachMediaSource, IMFMediaEngineSupportsSourceTransfer::AttachMediaSource, mf.imfmediaenginesupportssourcetransfer_attachmediasource, mfmediaengine/IMFMediaEngineSupportsSourceTransfer::AttachMediaSource
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngineSupportsSourceTransfer.AttachMediaSource"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngineSupportsSourceTransfer.AttachMediaSource"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

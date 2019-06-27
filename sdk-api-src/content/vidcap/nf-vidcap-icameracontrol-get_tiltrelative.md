@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],get_TiltRelative method, ICameraControl.get_TiltRelative, ICameraControl::get_TiltRelative, ICameraControlget_TiltRelative, dshow.icameracontrol_get_tiltrelative, get_TiltRelative, get_TiltRelative method [DirectShow], get_TiltRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_TiltRelative
 ms.topic: method
-f1_keywords: ["vidcap/ICameraControl.get_TiltRelative"]
+f1_keywords: 
+ - "vidcap/ICameraControl.get_TiltRelative"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

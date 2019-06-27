@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRJ_NOTIFICATION_CB, PRJ_NOTIFICATION_CB callback, PRJ_NOTIFICATION_CB callback function, ProjFS.prj_notification_cb, projectedfslib/PRJ_NOTIFICATION_CB
 ms.topic: callback
-f1_keywords: ["projectedfslib/PRJ_NOTIFICATION_CB"]
+f1_keywords: 
+ - "projectedfslib/PRJ_NOTIFICATION_CB"
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

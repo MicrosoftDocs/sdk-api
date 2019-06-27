@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupQueryInfVersionInformation, SetupQueryInfVersionInformation function [Setup API], SetupQueryInfVersionInformationA, SetupQueryInfVersionInformationW, _setupapi_setupqueryinfversioninformation, setup.setupqueryinfversioninformation, setupapi/SetupQueryInfVersionInformation, setupapi/SetupQueryInfVersionInformationA, setupapi/SetupQueryInfVersionInformationW
 ms.topic: function
-f1_keywords: ["setupapi/SetupQueryInfVersionInformation"]
+f1_keywords: 
+ - "setupapi/SetupQueryInfVersionInformation"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgGlyphStyle interface [Direct2D],SetStroke method, ID2D1SvgGlyphStyle.SetStroke, ID2D1SvgGlyphStyle::SetStroke, SetStroke, SetStroke method [Direct2D], SetStroke method [Direct2D],ID2D1SvgGlyphStyle interface, d2d1_3/ID2D1SvgGlyphStyle::SetStroke, direct2d.id2d1svgglyphstyle_setstroke
 ms.topic: method
-f1_keywords: ["d2d1_3/ID2D1SvgGlyphStyle.SetStroke"]
+f1_keywords: 
+ - "d2d1_3/ID2D1SvgGlyphStyle.SetStroke"
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateAudioTrack, CreateAudioTrack method [IMAPI], CreateAudioTrack method [IMAPI],IRedbookDiscMaster interface, IRedbookDiscMaster interface [IMAPI],CreateAudioTrack method, IRedbookDiscMaster.CreateAudioTrack, IRedbookDiscMaster::CreateAudioTrack, _win32_iredbookdiscmaster_createaudiotrack, base.iredbookdiscmaster_createaudiotrack, imapi.iredbookdiscmaster_createaudiotrack, imapi/IRedbookDiscMaster::CreateAudioTrack
 ms.topic: method
-f1_keywords: ["imapi/IRedbookDiscMaster.CreateAudioTrack"]
+f1_keywords: 
+ - "imapi/IRedbookDiscMaster.CreateAudioTrack"
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

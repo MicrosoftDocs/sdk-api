@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_closesocket_2, closesocket, closesocket function [Winsock], winsock.closesocket_2, winsock/closesocket"
 ms.topic: function
-f1_keywords: ["winsock2/closesocket"]
+f1_keywords: 
+ - "winsock2/closesocket"
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTransition, CreateTransition method [Windows Animation], CreateTransition method [Windows Animation],IUIAnimationTransitionFactory interface, IUIAnimationTransitionFactory interface [Windows Animation],CreateTransition method, IUIAnimationTransitionFactory.CreateTransition, IUIAnimationTransitionFactory::CreateTransition, uianimation.iuianimationtransitionfactory_createtransition, uianimation/IUIAnimationTransitionFactory::CreateTransition
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationTransitionFactory.CreateTransition"]
+f1_keywords: 
+ - "uianimation/IUIAnimationTransitionFactory.CreateTransition"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

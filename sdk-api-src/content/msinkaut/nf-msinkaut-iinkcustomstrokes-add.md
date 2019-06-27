@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 482906b2-131e-4baa-8ed7-c11f79f05e4b, Add, Add method [Tablet PC], Add method [Tablet PC],IInkCustomStrokes interface, IInkCustomStrokes interface [Tablet PC],Add method, IInkCustomStrokes.Add, IInkCustomStrokes::Add, msinkaut/IInkCustomStrokes::Add, tablet.iinkcustomstrokes_add
 ms.topic: method
-f1_keywords: ["msinkaut/IInkCustomStrokes.Add"]
+f1_keywords: 
+ - "msinkaut/IInkCustomStrokes.Add"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTerminalClass interface [TAPI 2.2],Reset method, IEnumTerminalClass.Reset, IEnumTerminalClass::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumTerminalClass interface, _tapi3_ienumterminalclass_reset, tapi3.ienumterminalclass_reset, tapi3if/IEnumTerminalClass::Reset
 ms.topic: method
-f1_keywords: ["tapi3if/IEnumTerminalClass.Reset"]
+f1_keywords: 
+ - "tapi3if/IEnumTerminalClass.Reset"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

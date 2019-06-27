@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXDSCodecConfig interface [Microsoft TV Technologies],SetPauseBufferTime method, IXDSCodecConfig.SetPauseBufferTime, IXDSCodecConfig::SetPauseBufferTime, IXDSCodecConfigSetPauseBufferTime, SetPauseBufferTime, SetPauseBufferTime method [Microsoft TV Technologies], SetPauseBufferTime method [Microsoft TV Technologies],IXDSCodecConfig interface, encdec/IXDSCodecConfig::SetPauseBufferTime, mstv.ixdscodecconfig_setpausebuffertime
 ms.topic: method
-f1_keywords: ["encdec/IXDSCodecConfig.SetPauseBufferTime"]
+f1_keywords: 
+ - "encdec/IXDSCodecConfig.SetPauseBufferTime"
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

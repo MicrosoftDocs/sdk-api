@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDIOBJECTATTRIBUTES, DIOBJECTATTRIBUTES, DIOBJECTATTRIBUTES structure [Human Input Devices], di_ref_c88696fe-68b4-4b0e-88dd-96be38e0bdd4.xml, dinputd/DIOBJECTATTRIBUTES, hid.diobjectattributes"
 ms.topic: struct
-f1_keywords: ["dinputd/DIOBJECTATTRIBUTES"]
+f1_keywords: 
+ - "dinputd/DIOBJECTATTRIBUTES"
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Windows

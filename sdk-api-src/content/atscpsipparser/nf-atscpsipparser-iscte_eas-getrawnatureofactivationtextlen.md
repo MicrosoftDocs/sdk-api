@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRawNatureOfActivationTextLen, GetRawNatureOfActivationTextLen method [Microsoft TV Technologies], GetRawNatureOfActivationTextLen method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetRawNatureOfActivationTextLen method, ISCTE_EAS.GetRawNatureOfActivationTextLen, ISCTE_EAS::GetRawNatureOfActivationTextLen, atscpsipparser/ISCTE_EAS::GetRawNatureOfActivationTextLen, mstv.iscte_eas_getrawnatureofactivationtextlen
 ms.topic: method
-f1_keywords: ["atscpsipparser/ISCTE_EAS.GetRawNatureOfActivationTextLen"]
+f1_keywords: 
+ - "atscpsipparser/ISCTE_EAS.GetRawNatureOfActivationTextLen"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

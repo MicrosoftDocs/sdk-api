@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarDecFromStr, VarDecFromStr function [Automation], _oa96_VarDecFromStr, automat.vardecfromstr, oleauto/VarDecFromStr
 ms.topic: function
-f1_keywords: ["oleauto/VarDecFromStr"]
+f1_keywords: 
+ - "oleauto/VarDecFromStr"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

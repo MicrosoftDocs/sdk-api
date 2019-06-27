@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetImageWorldBounds, GetImageWorldBounds method [Direct2D], GetImageWorldBounds method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],GetImageWorldBounds method, ID2D1DeviceContext.GetImageWorldBounds, ID2D1DeviceContext::GetImageWorldBounds, d2d1_1/ID2D1DeviceContext::GetImageWorldBounds, direct2d.id2d1devicecontext_getimageworldbounds
 ms.topic: method
-f1_keywords: ["d2d1_1/ID2D1DeviceContext.GetImageWorldBounds"]
+f1_keywords: 
+ - "d2d1_1/ID2D1DeviceContext.GetImageWorldBounds"
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

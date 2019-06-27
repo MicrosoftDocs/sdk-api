@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginQueryStateVariable, BeginQueryStateVariable method [UPnP APIs], BeginQueryStateVariable method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],BeginQueryStateVariable method, IUPnPServiceAsync.BeginQueryStateVariable, IUPnPServiceAsync::BeginQueryStateVariable, upnp.iupnpserviceasync_beginquerystatevariable, upnp/IUPnPServiceAsync::BeginQueryStateVariable
 ms.topic: method
-f1_keywords: ["upnp/IUPnPServiceAsync.BeginQueryStateVariable"]
+f1_keywords: 
+ - "upnp/IUPnPServiceAsync.BeginQueryStateVariable"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

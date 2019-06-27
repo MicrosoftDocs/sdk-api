@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SoH, SoH structure [NAP], SoHRequest, SoHRequest structure [NAP], SoHResponse, SoHResponse structure [NAP], nap.soh_struct, naptypes/SoH, naptypes/SoHRequest, naptypes/SoHResponse
 ms.topic: struct
-f1_keywords: ["naptypes/SoH"]
+f1_keywords: 
+ - "naptypes/SoH"
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, ISCTE_EAS.GetCountOfTableDescriptors, ISCTE_EAS::GetCountOfTableDescriptors, ISCTE_EASGetCountOfTableDescriptors, atscpsipparser/ISCTE_EAS::GetCountOfTableDescriptors, mstv.iscte_eas_getcountoftabledescriptors
 ms.topic: method
-f1_keywords: ["atscpsipparser/ISCTE_EAS.GetCountOfTableDescriptors"]
+f1_keywords: 
+ - "atscpsipparser/ISCTE_EAS.GetCountOfTableDescriptors"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

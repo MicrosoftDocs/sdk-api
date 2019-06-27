@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AdjustTokenGroups, AdjustTokenGroups function [Security], _win32_adjusttokengroups, security.adjusttokengroups, securitybaseapi/AdjustTokenGroups
 ms.topic: function
-f1_keywords: ["securitybaseapi/AdjustTokenGroups"]
+f1_keywords: 
+ - "securitybaseapi/AdjustTokenGroups"
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

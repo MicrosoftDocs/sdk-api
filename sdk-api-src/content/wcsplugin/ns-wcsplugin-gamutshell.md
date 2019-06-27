@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GamutShell, GamutShell structure [Windows Color System], _color_GamutShell_str, wcs.gamutshell, wcsplugin/GamutShell
 ms.topic: struct
-f1_keywords: ["wcsplugin/GamutShell"]
+f1_keywords: 
+ - "wcsplugin/GamutShell"
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

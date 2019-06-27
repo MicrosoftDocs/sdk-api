@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPMGetVideoOutputForTarget, OPMGetVideoOutputForTarget function [Media Foundation], OPM_VOS_COPP_SEMANTICS, OPM_VOS_OPM_SEMANTICS, mf.opmgetvideooutputfortarget, opmapi/OPMGetVideoOutputForTarget
 ms.topic: function
-f1_keywords: ["opmapi/OPMGetVideoOutputForTarget"]
+f1_keywords: 
+ - "opmapi/OPMGetVideoOutputForTarget"
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

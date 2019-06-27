@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DnsReplaceRecordSet, DnsReplaceRecordSet function [DNS], DnsReplaceRecordSetA, DnsReplaceRecordSetUTF8, DnsReplaceRecordSetW, _dns_dnsreplacerecordset, dns.dnsreplacerecordset, windns/DnsReplaceRecordSet, windns/DnsReplaceRecordSetA, windns/DnsReplaceRecordSetUTF8, windns/DnsReplaceRecordSetW
 ms.topic: function
-f1_keywords: ["windns/DnsReplaceRecordSet"]
+f1_keywords: 
+ - "windns/DnsReplaceRecordSet"
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

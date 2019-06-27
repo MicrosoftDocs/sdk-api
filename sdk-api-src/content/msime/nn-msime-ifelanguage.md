@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFELanguage, IFELanguage interface [Internationalization for Windows Applications], IFELanguage interface [Internationalization for Windows Applications],described, intl.ifelanguage, msime/IFELanguage
 ms.topic: interface
-f1_keywords: ["msime/IFELanguage"]
+f1_keywords: 
+ - "msime/IFELanguage"
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

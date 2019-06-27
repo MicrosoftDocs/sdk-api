@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSCDeinstallProvider, WSCDeinstallProvider function [Winsock], _win32_wscdeinstallprovider_2, winsock.wscdeinstallprovider_2, ws2spi/WSCDeinstallProvider
 ms.topic: function
-f1_keywords: ["ws2spi/WSCDeinstallProvider"]
+f1_keywords: 
+ - "ws2spi/WSCDeinstallProvider"
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

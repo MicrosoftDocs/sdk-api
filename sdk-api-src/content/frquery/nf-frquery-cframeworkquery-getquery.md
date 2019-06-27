@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?GetQuery@CFrameworkQuery@@QAEABVCHString@@XZ, CFrameworkQuery interface [Windows Management Instrumentation],GetQuery method, CFrameworkQuery.GetQuery, CFrameworkQuery::GetQuery, GetQuery, GetQuery method [Windows Management Instrumentation], GetQuery method [Windows Management Instrumentation],CFrameworkQuery interface, _hmm_cframeworkquery_getquery, frquery/CFrameworkQuery::GetQuery, wmi.cframeworkquery_getquery"
 ms.topic: method
-f1_keywords: ["frquery/CFrameworkQuery.GetQuery"]
+f1_keywords: 
+ - "frquery/CFrameworkQuery.GetQuery"
 req.header: frquery.h
 req.include-header: FwCommon.h
 req.target-type: Windows

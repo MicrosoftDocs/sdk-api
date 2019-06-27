@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Display property [Security], Display property [Security],IX509EnrollmentStatus interface, IX509EnrollmentStatus interface [Security],Display property, IX509EnrollmentStatus.Display, IX509EnrollmentStatus.get_Display, IX509EnrollmentStatus::Display, IX509EnrollmentStatus::get_Display, IX509EnrollmentStatus::put_Display, certenroll/IX509EnrollmentStatus::Display, certenroll/IX509EnrollmentStatus::get_Display, certenroll/IX509EnrollmentStatus::put_Display, get_Display, security.ix509enrollmentstatus_display_property
 ms.topic: method
-f1_keywords: ["certenroll/IX509EnrollmentStatus.Display"]
+f1_keywords: 
+ - "certenroll/IX509EnrollmentStatus.Display"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

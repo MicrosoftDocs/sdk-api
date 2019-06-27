@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndSession, EndSession method [Windows Sync], EndSession method [Windows Sync],IKnowledgeSyncProvider interface, IKnowledgeSyncProvider interface [Windows Sync],EndSession method, IKnowledgeSyncProvider.EndSession, IKnowledgeSyncProvider::EndSession, winsync.iknowledgesyncprovider_endsession, winsync/IKnowledgeSyncProvider::EndSession
 ms.topic: method
-f1_keywords: ["winsync/IKnowledgeSyncProvider.EndSession"]
+f1_keywords: 
+ - "winsync/IKnowledgeSyncProvider.EndSession"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

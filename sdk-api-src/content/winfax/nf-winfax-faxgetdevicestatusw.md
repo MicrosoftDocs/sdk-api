@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxGetDeviceStatus, FaxGetDeviceStatus function [Fax Service], FaxGetDeviceStatusA, FaxGetDeviceStatusW, _mfax_faxgetdevicestatus, fax._mfax_faxgetdevicestatus, winfax/FaxGetDeviceStatus, winfax/FaxGetDeviceStatusA, winfax/FaxGetDeviceStatusW
 ms.topic: function
-f1_keywords: ["winfax/FaxGetDeviceStatus"]
+f1_keywords: 
+ - "winfax/FaxGetDeviceStatus"
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

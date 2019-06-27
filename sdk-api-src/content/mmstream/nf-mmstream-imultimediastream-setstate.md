@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMultiMediaStream interface [DirectShow],SetState method, IMultiMediaStream.SetState, IMultiMediaStream::SetState, IMultiMediaStreamSetState, SetState, SetState method [DirectShow], SetState method [DirectShow],IMultiMediaStream interface, dshow.imultimediastream_setstate, mmstream/IMultiMediaStream::SetState
 ms.topic: method
-f1_keywords: ["mmstream/IMultiMediaStream.SetState"]
+f1_keywords: 
+ - "mmstream/IMultiMediaStream.SetState"
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPFUNCDESC, FUNCDESC, FUNCDESC structure [Automation], LPFUNCDESC, LPFUNCDESC structure pointer [Automation], _oa96_FUNCDESC, automat.funcdesc, oaidl/FUNCDESC, oaidl/LPFUNCDESC"
 ms.topic: struct
-f1_keywords: ["oaidl/FUNCDESC"]
+f1_keywords: 
+ - "oaidl/FUNCDESC"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

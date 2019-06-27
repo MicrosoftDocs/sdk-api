@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnPropertyItemCommit method, INameSpaceTreeControlEvents.OnPropertyItemCommit, INameSpaceTreeControlEvents::OnPropertyItemCommit, OnPropertyItemCommit, OnPropertyItemCommit method [Windows Shell], OnPropertyItemCommit method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnPropertyItemCommit, shell.INameSpaceTreeControlEvents_OnPropertyItemCommit, shobjidl/INameSpaceTreeControlEvents::OnPropertyItemCommit
 ms.topic: method
-f1_keywords: ["shobjidl/INameSpaceTreeControlEvents.OnPropertyItemCommit"]
+f1_keywords: 
+ - "shobjidl/INameSpaceTreeControlEvents.OnPropertyItemCommit"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

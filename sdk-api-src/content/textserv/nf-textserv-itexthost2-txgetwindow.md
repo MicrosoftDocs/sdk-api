@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxGetWindow method, ITextHost2.TxGetWindow, ITextHost2::TxGetWindow, TxGetWindow, TxGetWindow method [Windows Controls], TxGetWindow method [Windows Controls],ITextHost2 interface, controls.itexthost2_txgetwindow, textserv/ITextHost2::TxGetWindow
 ms.topic: method
-f1_keywords: ["textserv/ITextHost2.TxGetWindow"]
+f1_keywords: 
+ - "textserv/ITextHost2.TxGetWindow"
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

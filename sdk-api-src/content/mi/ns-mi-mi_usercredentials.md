@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_AUTH_TYPE_BASIC, MI_AUTH_TYPE_CLIENT_CERTS, MI_AUTH_TYPE_CREDSSP, MI_AUTH_TYPE_DEFAULT, MI_AUTH_TYPE_DIGEST, MI_AUTH_TYPE_ISSUER_CERT, MI_AUTH_TYPE_KERBEROS, MI_AUTH_TYPE_NEGO_NO_CREDS, MI_AUTH_TYPE_NEGO_WITH_CREDS, MI_AUTH_TYPE_NONE, MI_AUTH_TYPE_NTLM, MI_UserCredentials, MI_UserCredentials structure [Windows Management Infrastructure (MI)], mi/MI_UserCredentials, wmi._mi_usercredentials, wmi_v2.mi_usercredentials
 ms.topic: struct
-f1_keywords: ["mi/MI_UserCredentials"]
+f1_keywords: 
+ - "mi/MI_UserCredentials"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

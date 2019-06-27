@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExplorerBrowser interface [Windows Shell],RemoveAll method, IExplorerBrowser.RemoveAll, IExplorerBrowser::RemoveAll, RemoveAll, RemoveAll method [Windows Shell], RemoveAll method [Windows Shell],IExplorerBrowser interface, _shell_IExplorerBrowser_RemoveAll, shell.IExplorerBrowser_RemoveAll, shobjidl_core/IExplorerBrowser::RemoveAll
 ms.topic: method
-f1_keywords: ["shobjidl_core/IExplorerBrowser.RemoveAll"]
+f1_keywords: 
+ - "shobjidl_core/IExplorerBrowser.RemoveAll"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

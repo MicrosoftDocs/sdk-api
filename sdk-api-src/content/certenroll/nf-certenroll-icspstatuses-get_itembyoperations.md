@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICspStatuses interface [Security],ItemByOperations property, ICspStatuses.ItemByOperations, ICspStatuses.get_ItemByOperations, ICspStatuses::ItemByOperations, ICspStatuses::get_ItemByOperations, ItemByOperations property [Security], ItemByOperations property [Security],ICspStatuses interface, certenroll/ICspStatuses::ItemByOperations, certenroll/ICspStatuses::get_ItemByOperations, get_ItemByOperations, security.icspstatuses_itembyoperations_property
 ms.topic: method
-f1_keywords: ["certenroll/ICspStatuses.ItemByOperations"]
+f1_keywords: 
+ - "certenroll/ICspStatuses.ItemByOperations"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

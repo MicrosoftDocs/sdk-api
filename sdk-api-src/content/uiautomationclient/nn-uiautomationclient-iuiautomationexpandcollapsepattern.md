@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationExpandCollapsePattern, IUIAutomationExpandCollapsePattern interface [Windows Accessibility], IUIAutomationExpandCollapsePattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationExpandCollapsePattern, uiauto_IUIAutomationExpandCollapsePattern, uiautomationclient/IUIAutomationExpandCollapsePattern, winauto.uiauto_IUIAutomationExpandCollapsePattern
 ms.topic: interface
-f1_keywords: ["uiautomationclient/IUIAutomationExpandCollapsePattern"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationExpandCollapsePattern"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

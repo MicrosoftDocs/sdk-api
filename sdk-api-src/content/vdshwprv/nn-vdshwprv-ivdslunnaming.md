@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsLunNaming, IVdsLunNaming interface [VDS], IVdsLunNaming interface [VDS],described, base.ivdslunnaming, vds/IVdsLunNaming, vdshwprv/IVdsLunNaming
 ms.topic: interface
-f1_keywords: ["vdshwprv/IVdsLunNaming"]
+f1_keywords: 
+ - "vdshwprv/IVdsLunNaming"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

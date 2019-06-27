@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapPeerShutdown, EapPeerShutdown function [EAPHost], eaphost.eappeershutdown, eapmethodpeerapis/EapPeerShutdown
 ms.topic: function
-f1_keywords: ["eapmethodpeerapis/EapPeerShutdown"]
+f1_keywords: 
+ - "eapmethodpeerapis/EapPeerShutdown"
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

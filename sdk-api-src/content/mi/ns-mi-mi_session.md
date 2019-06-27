@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Session, MI_Session structure [Windows Management Infrastructure (MI)], mi/MI_Session, wmi._mi_session, wmi_v2.mi_session
 ms.topic: struct
-f1_keywords: ["mi/MI_Session"]
+f1_keywords: 
+ - "mi/MI_Session"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

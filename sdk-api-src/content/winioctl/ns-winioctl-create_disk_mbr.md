@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCREATE_DISK_MBR, CREATE_DISK_MBR, CREATE_DISK_MBR structure [Files], PCREATE_DISK_MBR, PCREATE_DISK_MBR structure pointer [Files], _win32_create_disk_mbr_str, base.create_disk_mbr_str, fs.create_disk_mbr_str, winioctl/CREATE_DISK_MBR, winioctl/PCREATE_DISK_MBR"
 ms.topic: struct
-f1_keywords: ["winioctl/CREATE_DISK_MBR"]
+f1_keywords: 
+ - "winioctl/CREATE_DISK_MBR"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

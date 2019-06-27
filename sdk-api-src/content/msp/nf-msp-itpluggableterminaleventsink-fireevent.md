@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FireEvent, FireEvent method [TAPI 2.2], FireEvent method [TAPI 2.2],ITPluggableTerminalEventSink interface, ITPluggableTerminalEventSink interface [TAPI 2.2],FireEvent method, ITPluggableTerminalEventSink.FireEvent, ITPluggableTerminalEventSink::FireEvent, _tapi3_itpluggableterminaleventsink_fireevent, msp/ITPluggableTerminalEventSink::FireEvent, tapi3.itpluggableterminaleventsink_fireevent
 ms.topic: method
-f1_keywords: ["msp/ITPluggableTerminalEventSink.FireEvent"]
+f1_keywords: 
+ - "msp/ITPluggableTerminalEventSink.FireEvent"
 req.header: msp.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMachineName, GetMachineName method [COM+], GetMachineName method [COM+],ICOMLBArguments interface, ICOMLBArguments interface [COM+],GetMachineName method, ICOMLBArguments.GetMachineName, ICOMLBArguments::GetMachineName, _cos_ICOMLBArguments_GetMachineName, comsvcs/ICOMLBArguments::GetMachineName, cos.icomlbarguments_getmachinename
 ms.topic: method
-f1_keywords: ["comsvcs/ICOMLBArguments.GetMachineName"]
+f1_keywords: 
+ - "comsvcs/ICOMLBArguments.GetMachineName"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

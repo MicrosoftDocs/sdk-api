@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeDateArray object [Security],GetValue method, GetValue, GetValue method [Security], GetValue method [Security],CCertEncodeDateArray object, GetValue method [Security],ICertEncodeDateArray interface, ICertEncodeDateArray interface [Security],GetValue method, ICertEncodeDateArray.GetValue, ICertEncodeDateArray::GetValue, _certsrv_icertencodedatearray_getvalue, certenc/ICertEncodeDateArray::GetValue, security.icertencodedatearray_getvalue
 ms.topic: method
-f1_keywords: ["certenc/ICertEncodeDateArray.GetValue"]
+f1_keywords: 
+ - "certenc/ICertEncodeDateArray.GetValue"
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8d9f638d-18e5-edcf-f803-bb2b87bf911a, D3D10GetShaderDebugInfo, D3D10GetShaderDebugInfo function [Direct3D 10], d3d10shader/D3D10GetShaderDebugInfo, direct3d10.d3d10getshaderdebuginfo
 ms.topic: function
-f1_keywords: ["d3d10shader/D3D10GetShaderDebugInfo"]
+f1_keywords: 
+ - "d3d10shader/D3D10GetShaderDebugInfo"
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

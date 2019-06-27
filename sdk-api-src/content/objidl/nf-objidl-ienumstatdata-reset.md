@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSTATDATA interface [COM],Reset method, IEnumSTATDATA.Reset, IEnumSTATDATA::Reset, Reset, Reset method [COM], Reset method [COM],IEnumSTATDATA interface, _ole_ienumstatdata_reset, com.ienumstatdata_reset, objidl/IEnumSTATDATA::Reset
 ms.topic: method
-f1_keywords: ["objidl/IEnumSTATDATA.Reset"]
+f1_keywords: 
+ - "objidl/IEnumSTATDATA.Reset"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

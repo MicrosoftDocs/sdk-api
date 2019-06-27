@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCHANGER_ELEMENT, CHANGER_ELEMENT, CHANGER_ELEMENT structure, PCHANGER_ELEMENT, PCHANGER_ELEMENT structure pointer, _win32_changer_element_str, base.changer_element_str, winioctl/CHANGER_ELEMENT, winioctl/PCHANGER_ELEMENT"
 ms.topic: struct
-f1_keywords: ["winioctl/CHANGER_ELEMENT"]
+f1_keywords: 
+ - "winioctl/CHANGER_ELEMENT"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

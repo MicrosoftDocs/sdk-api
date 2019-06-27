@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PKERB_INTERACTIVE_UNLOCK_LOGON, KERB_INTERACTIVE_UNLOCK_LOGON, KERB_INTERACTIVE_UNLOCK_LOGON structure [Security], PKERB_INTERACTIVE_UNLOCK_LOGON, PKERB_INTERACTIVE_UNLOCK_LOGON structure pointer [Security], ntsecapi/KERB_INTERACTIVE_UNLOCK_LOGON, ntsecapi/PKERB_INTERACTIVE_UNLOCK_LOGON, security.kerb_interactive_unlock_logon"
 ms.topic: struct
-f1_keywords: ["ntsecapi/KERB_INTERACTIVE_UNLOCK_LOGON"]
+f1_keywords: 
+ - "ntsecapi/KERB_INTERACTIVE_UNLOCK_LOGON"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

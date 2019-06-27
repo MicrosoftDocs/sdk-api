@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumFilters, IEnumFilters interface [DirectShow], IEnumFilters interface [DirectShow],described, IEnumFiltersInterface, dshow.ienumfilters, strmif/IEnumFilters
 ms.topic: interface
-f1_keywords: ["strmif/IEnumFilters"]
+f1_keywords: 
+ - "strmif/IEnumFilters"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

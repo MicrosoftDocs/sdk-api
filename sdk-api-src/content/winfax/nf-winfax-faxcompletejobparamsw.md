@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxCompleteJobParams, FaxCompleteJobParams function [Fax Service], FaxCompleteJobParamsA, FaxCompleteJobParamsW, _mfax_faxcompletejobparams, fax._mfax_faxcompletejobparams, winfax/FaxCompleteJobParams, winfax/FaxCompleteJobParamsA, winfax/FaxCompleteJobParamsW
 ms.topic: function
-f1_keywords: ["winfax/FaxCompleteJobParams"]
+f1_keywords: 
+ - "winfax/FaxCompleteJobParams"
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

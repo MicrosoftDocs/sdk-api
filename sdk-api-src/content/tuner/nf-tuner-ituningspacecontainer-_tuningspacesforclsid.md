@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],_TuningSpacesForCLSID method, ITuningSpaceContainer._TuningSpacesForCLSID, ITuningSpaceContainer::_TuningSpacesForCLSID, ITuningSpaceContainer_TuningSpacesForCLSID, _TuningSpacesForCLSID, _TuningSpacesForCLSID method [Microsoft TV Technologies], _TuningSpacesForCLSID method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer__tuningspacesforclsid, tuner/ITuningSpaceContainer::_TuningSpacesForCLSID
 ms.topic: method
-f1_keywords: ["tuner/ITuningSpaceContainer._TuningSpacesForCLSID"]
+f1_keywords: 
+ - "tuner/ITuningSpaceContainer._TuningSpacesForCLSID"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

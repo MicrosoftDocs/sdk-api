@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],Stop method, IDirectManipulationViewport.Stop, IDirectManipulationViewport::Stop, Stop, Stop method [Direct Manipulation], Stop method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_stop, directmanipulation/IDirectManipulationViewport::Stop
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationViewport.Stop"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationViewport.Stop"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

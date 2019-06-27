@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIcon, GetIcon method [Windows Shell], GetIcon method [Windows Shell],IShellLibrary interface, IShellLibrary interface [Windows Shell],GetIcon method, IShellLibrary.GetIcon, IShellLibrary::GetIcon, _shell_IShellLibrary_GetIcon, shell.IShellLibrary_GetIcon, shobjidl_core/IShellLibrary::GetIcon
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellLibrary.GetIcon"]
+f1_keywords: 
+ - "shobjidl_core/IShellLibrary.GetIcon"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HTTP/1.0, HTTP/1.1, HttpOpenRequest, HttpOpenRequest function [WinINet], HttpOpenRequestA, HttpOpenRequestW, _inet_httpopenrequest_function, wininet.httpopenrequest, wininet/HttpOpenRequest, wininet/HttpOpenRequestA, wininet/HttpOpenRequestW
 ms.topic: function
-f1_keywords: ["wininet/HttpOpenRequest"]
+f1_keywords: 
+ - "wininet/HttpOpenRequest"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

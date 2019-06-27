@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantToDouble, PropVariantToDouble function [Windows Properties], properties.PropVariantToDouble, propvarutil/PropVariantToDouble, shell.PropVariantToDouble, shell_PropVariantToDouble
 ms.topic: function
-f1_keywords: ["propvarutil/PropVariantToDouble"]
+f1_keywords: 
+ - "propvarutil/PropVariantToDouble"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

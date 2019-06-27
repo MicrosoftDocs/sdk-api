@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDigitalLocatorput_SymbolRate, ILocator interface [Microsoft TV Technologies],put_SymbolRate method, ILocator.put_SymbolRate, ILocator::put_SymbolRate, mstv.ilocator_put_symbolrate, put_SymbolRate, put_SymbolRate method [Microsoft TV Technologies], put_SymbolRate method [Microsoft TV Technologies],ILocator interface, tuner/ILocator::put_SymbolRate
 ms.topic: method
-f1_keywords: ["tuner/ILocator.put_SymbolRate"]
+f1_keywords: 
+ - "tuner/ILocator.put_SymbolRate"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

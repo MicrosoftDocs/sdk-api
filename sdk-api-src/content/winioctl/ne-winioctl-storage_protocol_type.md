@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSTORAGE_PROTOCOL_TYPE, PSTORAGE_PROTOCOL_TYPE, PSTORAGE_PROTOCOL_TYPE enumeration pointer [Files], ProtocolTypeAta, ProtocolTypeMaxReserved, ProtocolTypeNvme, ProtocolTypeProprietary, ProtocolTypeScsi, ProtocolTypeSd, ProtocolTypeUnknown, STORAGE_PROTOCOL_TYPE, _STORAGE_PROTOCOL_TYPE, _STORAGE_PROTOCOL_TYPE enumeration [Files], fs.storage_protocol_type, winioctl/PSTORAGE_PROTOCOL_TYPE, winioctl/ProtocolTypeAta, winioctl/ProtocolTypeMaxReserved, winioctl/ProtocolTypeNvme, winioctl/ProtocolTypeProprietary, winioctl/ProtocolTypeScsi, winioctl/ProtocolTypeSd, winioctl/ProtocolTypeUnknown, winioctl/_STORAGE_PROTOCOL_TYPE"
 ms.topic: enum
-f1_keywords: ["winioctl/STORAGE_PROTOCOL_TYPE"]
+f1_keywords: 
+ - "winioctl/STORAGE_PROTOCOL_TYPE"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

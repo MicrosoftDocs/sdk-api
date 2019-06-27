@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGraphSetPresence, PeerGraphSetPresence function [Peer Networking], p2p.peergraphsetpresence, p2p/PeerGraphSetPresence
 ms.topic: function
-f1_keywords: ["p2p/PeerGraphSetPresence"]
+f1_keywords: 
+ - "p2p/PeerGraphSetPresence"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

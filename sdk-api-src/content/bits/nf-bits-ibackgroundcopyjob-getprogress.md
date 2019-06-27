@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProgress, GetProgress method [BITS], GetProgress method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetProgress method, IBackgroundCopyJob.GetProgress, IBackgroundCopyJob::GetProgress, _drz_ibackgroundcopyjob_getprogress, bits.ibackgroundcopyjob_getprogress, bits/IBackgroundCopyJob::GetProgress
 ms.topic: method
-f1_keywords: ["bits/IBackgroundCopyJob.GetProgress"]
+f1_keywords: 
+ - "bits/IBackgroundCopyJob.GetProgress"
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

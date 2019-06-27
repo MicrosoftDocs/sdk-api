@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupInstallFromInfSection, SetupInstallFromInfSection function [Setup API], SetupInstallFromInfSectionA, SetupInstallFromInfSectionW, _setupapi_setupinstallfrominfsection, setup.setupinstallfrominfsection, setupapi/SetupInstallFromInfSection, setupapi/SetupInstallFromInfSectionA, setupapi/SetupInstallFromInfSectionW
 ms.topic: function
-f1_keywords: ["setupapi/SetupInstallFromInfSection"]
+f1_keywords: 
+ - "setupapi/SetupInstallFromInfSection"
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

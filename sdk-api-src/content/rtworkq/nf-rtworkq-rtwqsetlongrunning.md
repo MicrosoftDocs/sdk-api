@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtwqSetLongRunning, RtwqSetLongRunning function, base.rtwqsetlongrunning, rtworkq/RtwqSetLongRunning
 ms.topic: function
-f1_keywords: ["rtworkq/RtwqSetLongRunning"]
+f1_keywords: 
+ - "rtworkq/RtwqSetLongRunning"
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

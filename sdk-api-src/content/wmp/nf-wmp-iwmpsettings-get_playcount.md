@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_playCount method, IWMPSettings.get_playCount, IWMPSettings::get_playCount, IWMPSettingsget_playCount, get_playCount, get_playCount method [Windows Media Player], get_playCount method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_playcount, wmp/IWMPSettings::get_playCount
 ms.topic: method
-f1_keywords: ["wmp/IWMPSettings.get_playCount"]
+f1_keywords: 
+ - "wmp/IWMPSettings.get_playCount"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

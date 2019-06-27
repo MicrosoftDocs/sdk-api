@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linegetcountry, lineGetCountry, lineGetCountry function [TAPI 2.2], lineGetCountryA, lineGetCountryW, tapi/lineGetCountry, tapi/lineGetCountryA, tapi/lineGetCountryW, tapi2.linegetcountry"
 ms.topic: function
-f1_keywords: ["tapi/lineGetCountry"]
+f1_keywords: 
+ - "tapi/lineGetCountry"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

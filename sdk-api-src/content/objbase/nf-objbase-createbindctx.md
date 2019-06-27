@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateBindCtx, CreateBindCtx function [COM], _com_CreateBindCtx, com.createbindctx, objbase/CreateBindCtx
 ms.topic: function
-f1_keywords: ["objbase/CreateBindCtx"]
+f1_keywords: 
+ - "objbase/CreateBindCtx"
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

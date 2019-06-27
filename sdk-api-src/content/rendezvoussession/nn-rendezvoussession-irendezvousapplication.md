@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRendezvousApplication, IRendezvousApplication interface [Remote Assistance], IRendezvousApplication interface [Remote Assistance],described, remoteassist.remoteassist_IRendezvousApplication, remoteassist_IRendezvousApplication, rendezvoussession/IRendezvousApplication
 ms.topic: interface
-f1_keywords: ["rendezvoussession/IRendezvousApplication"]
+f1_keywords: 
+ - "rendezvoussession/IRendezvousApplication"
 req.header: rendezvoussession.h
 req.include-header: 
 req.target-type: Windows

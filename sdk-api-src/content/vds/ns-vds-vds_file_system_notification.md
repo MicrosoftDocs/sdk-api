@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_FILE_SYSTEM_NOTIFICATION, VDS_FILE_SYSTEM_NOTIFICATION structure [VDS], VDS_NF_FILE_SYSTEM_FORMAT_PROGRESS, VDS_NF_FILE_SYSTEM_MODIFY, base.vds_file_system_notification, vds/_VDS_FILE_SYSTEM_NOTIFICATION, vdshwprv/_VDS_FILE_SYSTEM_NOTIFICATION
 ms.topic: struct
-f1_keywords: ["vds/VDS_FILE_SYSTEM_NOTIFICATION"]
+f1_keywords: 
+ - "vds/VDS_FILE_SYSTEM_NOTIFICATION"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

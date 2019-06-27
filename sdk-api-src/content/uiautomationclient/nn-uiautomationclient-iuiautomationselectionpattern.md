@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationSelectionPattern, IUIAutomationSelectionPattern interface [Windows Accessibility], IUIAutomationSelectionPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationSelectionPattern, uiauto_IUIAutomationSelectionPattern, uiautomationclient/IUIAutomationSelectionPattern, winauto.uiauto_IUIAutomationSelectionPattern
 ms.topic: interface
-f1_keywords: ["uiautomationclient/IUIAutomationSelectionPattern"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationSelectionPattern"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

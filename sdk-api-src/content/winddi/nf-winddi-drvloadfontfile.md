@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvLoadFontFile, DrvLoadFontFile function [Display Devices], ddifncs_42238b28-ad71-4df8-b572-4ffd7ca2d3c1.xml, display.drvloadfontfile, winddi/DrvLoadFontFile
 ms.topic: function
-f1_keywords: ["winddi/DrvLoadFontFile"]
+f1_keywords: 
+ - "winddi/DrvLoadFontFile"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

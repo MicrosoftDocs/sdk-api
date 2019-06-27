@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IHeaderCtrl interface [MMC],SetColumnWidth method, IHeaderCtrl.SetColumnWidth, IHeaderCtrl::SetColumnWidth, MMCLV_AUTO, SetColumnWidth, SetColumnWidth method [MMC], SetColumnWidth method [MMC],IHeaderCtrl interface, mmc.iheaderctrl_setcolumnwidth, mmc/IHeaderCtrl::SetColumnWidth
 ms.topic: method
-f1_keywords: ["mmc/IHeaderCtrl.SetColumnWidth"]
+f1_keywords: 
+ - "mmc/IHeaderCtrl.SetColumnWidth"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

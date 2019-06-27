@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExcludeClipRect, ExcludeClipRect function [Windows GDI], _win32_ExcludeClipRect, gdi.excludecliprect, wingdi/ExcludeClipRect
 ms.topic: function
-f1_keywords: ["wingdi/ExcludeClipRect"]
+f1_keywords: 
+ - "wingdi/ExcludeClipRect"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

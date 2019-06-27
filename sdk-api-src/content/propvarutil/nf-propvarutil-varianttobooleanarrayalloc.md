@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VariantToBooleanArrayAlloc, VariantToBooleanArrayAlloc function [Windows Properties], _shell_VariantToBooleanArrayAlloc, properties.VariantToBooleanArrayAlloc, propvarutil/VariantToBooleanArrayAlloc, shell.VariantToBooleanArrayAlloc
 ms.topic: function
-f1_keywords: ["propvarutil/VariantToBooleanArrayAlloc"]
+f1_keywords: 
+ - "propvarutil/VariantToBooleanArrayAlloc"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

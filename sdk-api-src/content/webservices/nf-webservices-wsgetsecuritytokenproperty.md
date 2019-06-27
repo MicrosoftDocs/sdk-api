@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsGetSecurityTokenProperty, WsGetSecurityTokenProperty function [Web Services for Windows], webservices/WsGetSecurityTokenProperty, wsw.wsgetsecuritytokenproperty
 ms.topic: function
-f1_keywords: ["webservices/WsGetSecurityTokenProperty"]
+f1_keywords: 
+ - "webservices/WsGetSecurityTokenProperty"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

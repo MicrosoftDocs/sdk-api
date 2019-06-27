@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LINEMAPPER, _tapi2_lineopen, lineOpen, lineOpen function [TAPI 2.2], lineOpenA, lineOpenW, tapi/lineOpen, tapi/lineOpenA, tapi/lineOpenW, tapi2.lineopen
 ms.topic: function
-f1_keywords: ["tapi/lineOpen"]
+f1_keywords: 
+ - "tapi/lineOpen"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSTORAGE_TEMPERATURE_INFO, PSTORAGE_TEMPERATURE_INFO, PSTORAGE_TEMPERATURE_INFO structure pointer [Files], STORAGE_TEMPERATURE_INFO, STORAGE_TEMPERATURE_INFO structure [Files], fs.storage_temperature_info, winioctl/PSTORAGE_TEMPERATURE_INFO, winioctl/STORAGE_TEMPERATURE_INFO"
 ms.topic: struct
-f1_keywords: ["winioctl/STORAGE_TEMPERATURE_INFO"]
+f1_keywords: 
+ - "winioctl/STORAGE_TEMPERATURE_INFO"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

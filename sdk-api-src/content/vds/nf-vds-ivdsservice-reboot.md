@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsService interface [VDS],Reboot method, IVdsService.Reboot, IVdsService::Reboot, Reboot, Reboot method [VDS], Reboot method [VDS],IVdsService interface, base.ivdsservice_reboot, vds/IVdsService::Reboot
 ms.topic: method
-f1_keywords: ["vds/IVdsService.Reboot"]
+f1_keywords: 
+ - "vds/IVdsService.Reboot"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

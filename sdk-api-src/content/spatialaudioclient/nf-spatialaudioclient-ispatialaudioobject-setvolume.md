@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObject interface [Core Audio],SetVolume method, ISpatialAudioObject.SetVolume, ISpatialAudioObject::SetVolume, SetVolume, SetVolume method [Core Audio], SetVolume method [Core Audio],ISpatialAudioObject interface, coreaudio.ispatialaudioobject_setvolume, spatialaudioclient/ISpatialAudioObject::SetVolume
 ms.topic: method
-f1_keywords: ["spatialaudioclient/ISpatialAudioObject.SetVolume"]
+f1_keywords: 
+ - "spatialaudioclient/ISpatialAudioObject.SetVolume"
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FALSE, IXpsOMPath interface [XPS Documents and Packaging],SetSnapsToPixels method, IXpsOMPath.SetSnapsToPixels, IXpsOMPath::SetSnapsToPixels, SetSnapsToPixels, SetSnapsToPixels method [XPS Documents and Packaging], SetSnapsToPixels method [XPS Documents and Packaging],IXpsOMPath interface, TRUE, xps.ixpsompath_setsnapstopixels, xpsobjectmodel/IXpsOMPath::SetSnapsToPixels
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMPath.SetSnapsToPixels"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMPath.SetSnapsToPixels"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

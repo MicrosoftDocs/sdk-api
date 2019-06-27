@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 26bbf961-5a2a-c5ce-e1d3-3723caf1e453, CreateTexture1D, CreateTexture1D method [Direct3D 11], CreateTexture1D method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateTexture1D method, ID3D11Device.CreateTexture1D, ID3D11Device::CreateTexture1D, d3d11/ID3D11Device::CreateTexture1D, direct3d11.id3d11device_createtexture1d
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11Device.CreateTexture1D"]
+f1_keywords: 
+ - "d3d11/ID3D11Device.CreateTexture1D"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

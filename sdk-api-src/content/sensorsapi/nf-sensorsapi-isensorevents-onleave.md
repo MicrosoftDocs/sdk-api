@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISensorEvents interface,OnLeave method, ISensorEvents.OnLeave, ISensorEvents::OnLeave, OnLeave, OnLeave method, OnLeave method,ISensorEvents interface, sensorsapi/ISensorEvents::OnLeave, winsensors_com_ref.isensorevents_onleave
 ms.topic: method
-f1_keywords: ["sensorsapi/ISensorEvents.OnLeave"]
+f1_keywords: 
+ - "sensorsapi/ISensorEvents.OnLeave"
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

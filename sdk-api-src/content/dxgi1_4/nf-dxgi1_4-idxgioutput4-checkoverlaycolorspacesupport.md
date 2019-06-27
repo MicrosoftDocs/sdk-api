@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckOverlayColorSpaceSupport, CheckOverlayColorSpaceSupport method [DXGI], CheckOverlayColorSpaceSupport method [DXGI],IDXGIOutput4 interface, IDXGIOutput4 interface [DXGI],CheckOverlayColorSpaceSupport method, IDXGIOutput4.CheckOverlayColorSpaceSupport, IDXGIOutput4::CheckOverlayColorSpaceSupport, direct3ddxgi.idxgioutput4_checkoverlaycolorspacesupport, dxgi1_4/IDXGIOutput4::CheckOverlayColorSpaceSupport
 ms.topic: method
-f1_keywords: ["dxgi1_4/IDXGIOutput4.CheckOverlayColorSpaceSupport"]
+f1_keywords: 
+ - "dxgi1_4/IDXGIOutput4.CheckOverlayColorSpaceSupport"
 req.header: dxgi1_4.h
 req.include-header: 
 req.target-type: Windows

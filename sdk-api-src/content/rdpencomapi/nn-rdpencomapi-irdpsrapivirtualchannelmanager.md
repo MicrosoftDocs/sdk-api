@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIVirtualChannelManager, IRDPSRAPIVirtualChannelManager interface [RDP], IRDPSRAPIVirtualChannelManager interface [RDP],described, rdp.irdpsrapivirtualchannelmanager, rdpencomapi/IRDPSRAPIVirtualChannelManager
 ms.topic: interface
-f1_keywords: ["rdpencomapi/IRDPSRAPIVirtualChannelManager"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIVirtualChannelManager"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

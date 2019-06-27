@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbProvisioningPluginNotifySink, ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services], ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbProvisioningPluginNotifySink, termserv.itssbprovisioningpluginnotifysink
 ms.topic: interface
-f1_keywords: ["sbtsv/ITsSbProvisioningPluginNotifySink"]
+f1_keywords: 
+ - "sbtsv/ITsSbProvisioningPluginNotifySink"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

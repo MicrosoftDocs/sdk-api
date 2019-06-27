@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISnapinHelp2, ISnapinHelp2 interface [MMC], ISnapinHelp2 interface [MMC],described, _slate_isnapinhelp2, mmc.isnapinhelp2, mmc/ISnapinHelp2
 ms.topic: interface
-f1_keywords: ["mmc/ISnapinHelp2"]
+f1_keywords: 
+ - "mmc/ISnapinHelp2"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

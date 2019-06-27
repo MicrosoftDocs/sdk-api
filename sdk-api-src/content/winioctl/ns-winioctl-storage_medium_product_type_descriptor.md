@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure pointer [Files], STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure [Files], fs.storage_medium_product_type_descriptor, winioctl/PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, winioctl/STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR"
 ms.topic: struct
-f1_keywords: ["winioctl/STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR"]
+f1_keywords: 
+ - "winioctl/STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

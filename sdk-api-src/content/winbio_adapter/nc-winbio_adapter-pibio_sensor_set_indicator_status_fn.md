@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PIBIO_SENSOR_SET_INDICATOR_STATUS_FN, PIBIO_SENSOR_SET_INDICATOR_STATUS_FN callback, SensorAdapterSetIndicatorStatus, SensorAdapterSetIndicatorStatus callback function [Windows Biometric Framework API], secbiomet.sensoradaptersetindicatorstatus, winbio_adapter/SensorAdapterSetIndicatorStatus
 ms.topic: callback
-f1_keywords: ["winbio_adapter/SensorAdapterSetIndicatorStatus"]
+f1_keywords: 
+ - "winbio_adapter/SensorAdapterSetIndicatorStatus"
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

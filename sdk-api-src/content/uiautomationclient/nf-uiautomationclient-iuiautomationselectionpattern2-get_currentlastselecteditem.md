@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentLastSelectedItem property [Windows Accessibility], CurrentLastSelectedItem property [Windows Accessibility],IUIAutomationSelectionPattern2 interface, IUIAutomationSelectionPattern2 interface [Windows Accessibility],CurrentLastSelectedItem property, IUIAutomationSelectionPattern2.CurrentLastSelectedItem, IUIAutomationSelectionPattern2.get_CurrentLastSelectedItem, IUIAutomationSelectionPattern2::CurrentLastSelectedItem, IUIAutomationSelectionPattern2::get_CurrentLastSelectedItem, get_CurrentLastSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::CurrentLastSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::get_CurrentLastSelectedItem, winauto.uiauto_IUIAutomationSelectionPattern2_CurrentLastSelectedItem
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationSelectionPattern2.CurrentLastSelectedItem"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationSelectionPattern2.CurrentLastSelectedItem"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

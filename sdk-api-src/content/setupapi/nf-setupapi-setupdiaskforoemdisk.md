@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiAskForOEMDisk, SetupDiAskForOEMDisk function [Device and Driver Installation], devinst.setupdiaskforoemdisk, di-rtns_4b903984-cb48-48d3-9de8-dc68a79128c2.xml, setupapi/SetupDiAskForOEMDisk
 ms.topic: function
-f1_keywords: ["setupapi/SetupDiAskForOEMDisk"]
+f1_keywords: 
+ - "setupapi/SetupDiAskForOEMDisk"
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetSaturation method, IWICDevelopRaw.SetSaturation, IWICDevelopRaw::SetSaturation, SetSaturation, SetSaturation method [Windows Imaging Component], SetSaturation method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setsaturation, wic._wic_codec_iwicdevelopraw_setsaturation, wincodec/IWICDevelopRaw::SetSaturation
 ms.topic: method
-f1_keywords: ["wincodec/IWICDevelopRaw.SetSaturation"]
+f1_keywords: 
+ - "wincodec/IWICDevelopRaw.SetSaturation"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WM_PORT_NUMBER_RANGE, WM_PORT_NUMBER_RANGE structure [windows Media Format], structure [windows Media Format], wmformat.wm_port_number_range, wmsdkidl/WM_PORT_NUMBER_RANGE
 ms.topic: struct
-f1_keywords: ["wmsdkidl/WM_PORT_NUMBER_RANGE"]
+f1_keywords: 
+ - "wmsdkidl/WM_PORT_NUMBER_RANGE"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

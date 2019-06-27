@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFileSize, GetFileSize method [Direct Write], GetFileSize method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],GetFileSize method, IDWriteFontFaceReference.GetFileSize, IDWriteFontFaceReference::GetFileSize, directwrite.idwritefontfacereference_getfilesize, dwrite_3/IDWriteFontFaceReference::GetFileSize
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteFontFaceReference.GetFileSize"]
+f1_keywords: 
+ - "dwrite_3/IDWriteFontFaceReference.GetFileSize"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

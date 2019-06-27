@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_capGetStatus, capGetStatus, capGetStatus macro [Windows Multimedia], multimedia.capgetstatus, vfw/capGetStatus"
 ms.topic: macro
-f1_keywords: ["vfw/capGetStatus"]
+f1_keywords: 
+ - "vfw/capGetStatus"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

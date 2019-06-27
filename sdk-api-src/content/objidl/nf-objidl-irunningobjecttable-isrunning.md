@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRunningObjectTable interface [COM],IsRunning method, IRunningObjectTable.IsRunning, IRunningObjectTable::IsRunning, IsRunning, IsRunning method [COM], IsRunning method [COM],IRunningObjectTable interface, _com_irunningobjecttable_isrunning, com.irunningobjecttable_isrunning, objidl/IRunningObjectTable::IsRunning
 ms.topic: method
-f1_keywords: ["objidl/IRunningObjectTable.IsRunning"]
+f1_keywords: 
+ - "objidl/IRunningObjectTable.IsRunning"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

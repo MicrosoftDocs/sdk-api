@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationCustomNavigationPattern interface [Windows Accessibility],Navigate method, IUIAutomationCustomNavigationPattern.Navigate, IUIAutomationCustomNavigationPattern::Navigate, Navigate, Navigate method [Windows Accessibility], Navigate method [Windows Accessibility],IUIAutomationCustomNavigationPattern interface, uiautomationclient/IUIAutomationCustomNavigationPattern::Navigate, winauto.uiauto_IUIAutomationCustomNavigationPattern_Navigate
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationCustomNavigationPattern.Navigate"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationCustomNavigationPattern.Navigate"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

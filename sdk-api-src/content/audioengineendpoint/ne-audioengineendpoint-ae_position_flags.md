@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AE_POSITION_FLAGS, AE_POSITION_FLAGS enumeration [Remote Desktop Services], POSITION_CONTINUOUS, POSITION_DISCONTINUOUS, POSITION_INVALID, POSITION_QPC_ERROR, audioengineendpoint/AE_POSITION_FLAGS, audioengineendpoint/POSITION_CONTINUOUS, audioengineendpoint/POSITION_DISCONTINUOUS, audioengineendpoint/POSITION_INVALID, audioengineendpoint/POSITION_QPC_ERROR, termserv.ae_position_flags
 ms.topic: enum
-f1_keywords: ["audioengineendpoint/AE_POSITION_FLAGS"]
+f1_keywords: 
+ - "audioengineendpoint/AE_POSITION_FLAGS"
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

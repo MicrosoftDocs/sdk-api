@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnPinManager, IMbnPinManager interface [Microsoft Broadband Networks], IMbnPinManager interface [Microsoft Broadband Networks],described, mbn.imbnpinmanager, mbnapi/IMbnPinManager
 ms.topic: interface
-f1_keywords: ["mbnapi/IMbnPinManager"]
+f1_keywords: 
+ - "mbnapi/IMbnPinManager"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

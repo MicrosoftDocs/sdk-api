@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetAnycastIpAddressTable, GetAnycastIpAddressTable function [IP Helper], iphlp.getanycastipaddresstable, netioapi/GetAnycastIpAddressTable
 ms.topic: function
-f1_keywords: ["netioapi/GetAnycastIpAddressTable"]
+f1_keywords: 
+ - "netioapi/GetAnycastIpAddressTable"
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

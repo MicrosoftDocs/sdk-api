@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 3b2c8cfc-05e6-4b53-b709-72291ee78471, GetBoundingBox, GetBoundingBox method [Tablet PC], GetBoundingBox method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],GetBoundingBox method, IInkStrokeDisp.GetBoundingBox, IInkStrokeDisp::GetBoundingBox, msinkaut/IInkStrokeDisp::GetBoundingBox, tablet.iinkstrokedisp_getboundingbox
 ms.topic: method
-f1_keywords: ["msinkaut/IInkStrokeDisp.GetBoundingBox"]
+f1_keywords: 
+ - "msinkaut/IInkStrokeDisp.GetBoundingBox"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

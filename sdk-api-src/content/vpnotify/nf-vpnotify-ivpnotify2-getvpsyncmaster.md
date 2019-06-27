@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVPSyncMaster, GetVPSyncMaster method [DirectShow], GetVPSyncMaster method [DirectShow],IVPNotify2 interface, IVPNotify2 interface [DirectShow],GetVPSyncMaster method, IVPNotify2.GetVPSyncMaster, IVPNotify2::GetVPSyncMaster, IVPNotify2GetVPSyncMaster, dshow.ivpnotify2_getvpsyncmaster, vpnotify/IVPNotify2::GetVPSyncMaster
 ms.topic: method
-f1_keywords: ["vpnotify/IVPNotify2.GetVPSyncMaster"]
+f1_keywords: 
+ - "vpnotify/IVPNotify2.GetVPSyncMaster"
 req.header: vpnotify.h
 req.include-header: 
 req.target-type: Windows

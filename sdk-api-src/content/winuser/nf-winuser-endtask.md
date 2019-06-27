@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndTask, EndTask function [Windows and Messages], _win32_EndTask, _win32_endtask_cpp, winmsg.endtask, winui._win32_endtask, winuser/EndTask
 ms.topic: function
-f1_keywords: ["winuser/EndTask"]
+f1_keywords: 
+ - "winuser/EndTask"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

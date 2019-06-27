@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Flush, Flush method [DirectShow], Flush method [DirectShow],IMediaStreamFilter interface, IMediaStreamFilter interface [DirectShow],Flush method, IMediaStreamFilter.Flush, IMediaStreamFilter::Flush, IMediaStreamFilterFlush, amstream/IMediaStreamFilter::Flush, dshow.imediastreamfilter_flush
 ms.topic: method
-f1_keywords: ["amstream/IMediaStreamFilter.Flush"]
+f1_keywords: 
+ - "amstream/IMediaStreamFilter.Flush"
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

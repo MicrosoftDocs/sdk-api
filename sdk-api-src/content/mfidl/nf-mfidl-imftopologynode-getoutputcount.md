@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOutputCount, GetOutputCount method [Media Foundation], GetOutputCount method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetOutputCount method, IMFTopologyNode.GetOutputCount, IMFTopologyNode::GetOutputCount, dc964c38-9dac-491f-9d70-b1ba7b7001ad, mf.imftopologynode_getoutputcount, mfidl/IMFTopologyNode::GetOutputCount
 ms.topic: method
-f1_keywords: ["mfidl/IMFTopologyNode.GetOutputCount"]
+f1_keywords: 
+ - "mfidl/IMFTopologyNode.GetOutputCount"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenter9, IVMRImagePresenter9 interface [DirectShow], IVMRImagePresenter9 interface [DirectShow],described, IVMRImagePresenter9Interface, dshow.ivmrimagepresenter9, vmr9/IVMRImagePresenter9
 ms.topic: interface
-f1_keywords: ["vmr9/IVMRImagePresenter9"]
+f1_keywords: 
+ - "vmr9/IVMRImagePresenter9"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

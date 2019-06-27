@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDeviceAttributes, GetDeviceAttributes method [Media Foundation], GetDeviceAttributes method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetDeviceAttributes method, IMFSensorDevice.GetDeviceAttributes, IMFSensorDevice::GetDeviceAttributes, mf.imfsensordevice_getdeviceattributes, mfidl/IMFSensorDevice::GetDeviceAttributes
 ms.topic: method
-f1_keywords: ["mfidl/IMFSensorDevice.GetDeviceAttributes"]
+f1_keywords: 
+ - "mfidl/IMFSensorDevice.GetDeviceAttributes"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

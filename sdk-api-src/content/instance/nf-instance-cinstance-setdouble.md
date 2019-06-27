@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],SetDOUBLE method, CInstance.SetDOUBLE, CInstance::SetDOUBLE, SetDOUBLE, SetDOUBLE method [Windows Management Instrumentation], SetDOUBLE method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setdouble, instance/CInstance::SetDOUBLE, wmi.cinstance_setdouble
 ms.topic: method
-f1_keywords: ["instance/CInstance.SetDOUBLE"]
+f1_keywords: 
+ - "instance/CInstance.SetDOUBLE"
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

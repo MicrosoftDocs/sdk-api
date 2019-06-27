@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MagSetWindowFilterList, MagSetWindowFilterList function [Magnification API], magapi.magapi_MagSetWindowFilterList, magapi_MagSetWindowFilterList, magnification/MagSetWindowFilterList
 ms.topic: function
-f1_keywords: ["magnification/MagSetWindowFilterList"]
+f1_keywords: 
+ - "magnification/MagSetWindowFilterList"
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows

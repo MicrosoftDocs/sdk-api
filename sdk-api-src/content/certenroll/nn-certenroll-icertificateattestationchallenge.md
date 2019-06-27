@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertificateAttestationChallenge, ICertificateAttestationChallenge interface [Security], ICertificateAttestationChallenge interface [Security],described, certenroll/ICertificateAttestationChallenge, security.icertificateattestationchallenge
 ms.topic: interface
-f1_keywords: ["certenroll/ICertificateAttestationChallenge"]
+f1_keywords: 
+ - "certenroll/ICertificateAttestationChallenge"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

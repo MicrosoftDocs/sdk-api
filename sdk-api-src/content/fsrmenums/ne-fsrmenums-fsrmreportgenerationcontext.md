@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FsrmReportGenerationContext, FsrmReportGenerationContext enumeration [File Server Resource Manager], FsrmReportGenerationContext_IncidentReport, FsrmReportGenerationContext_InteractiveReport, FsrmReportGenerationContext_ScheduledReport, FsrmReportGenerationContext_Undefined, fs.fsrmreportgenerationcontext, fsrm.fsrmreportgenerationcontext, fsrmenums/FsrmReportGenerationContext, fsrmenums/FsrmReportGenerationContext_IncidentReport, fsrmenums/FsrmReportGenerationContext_InteractiveReport, fsrmenums/FsrmReportGenerationContext_ScheduledReport, fsrmenums/FsrmReportGenerationContext_Undefined
 ms.topic: enum
-f1_keywords: ["fsrmenums/FsrmReportGenerationContext"]
+f1_keywords: 
+ - "fsrmenums/FsrmReportGenerationContext"
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

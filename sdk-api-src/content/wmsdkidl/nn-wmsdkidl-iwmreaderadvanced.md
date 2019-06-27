@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced, IWMReaderAdvanced interface [windows Media Format], IWMReaderAdvanced interface [windows Media Format],described, IWMReaderAdvancedInterface, wmformat.iwmreaderadvanced, wmsdkidl/IWMReaderAdvanced
 ms.topic: interface
-f1_keywords: ["wmsdkidl/IWMReaderAdvanced"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderAdvanced"
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

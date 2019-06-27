@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceRegistration, IUpdateServiceRegistration interface [Windows Update Agent], IUpdateServiceRegistration interface [Windows Update Agent],described, wua.iupdateserviceregistration, wuapi/IUpdateServiceRegistration
 ms.topic: interface
-f1_keywords: ["wuapi/IUpdateServiceRegistration"]
+f1_keywords: 
+ - "wuapi/IUpdateServiceRegistration"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

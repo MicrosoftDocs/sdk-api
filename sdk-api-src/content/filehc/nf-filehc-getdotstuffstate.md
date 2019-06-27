@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDotStuffState, GetDotStuffState function [Windows API], filehc/GetDotStuffState, winprog._getdotstuffstate
 ms.topic: function
-f1_keywords: ["filehc/GetDotStuffState"]
+f1_keywords: 
+ - "filehc/GetDotStuffState"
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

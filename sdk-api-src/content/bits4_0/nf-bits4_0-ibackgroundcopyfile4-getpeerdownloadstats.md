@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPeerDownloadStats, GetPeerDownloadStats method [BITS], GetPeerDownloadStats method [BITS],IBackgroundCopyFile4 interface, IBackgroundCopyFile4 interface [BITS],GetPeerDownloadStats method, IBackgroundCopyFile4.GetPeerDownloadStats, IBackgroundCopyFile4::GetPeerDownloadStats, bits.ibackgroundcopyfile4_getpeerdownloadstats, bits4_0/IBackgroundCopyFile4::GetPeerDownloadStats
 ms.topic: method
-f1_keywords: ["bits4_0/IBackgroundCopyFile4.GetPeerDownloadStats"]
+f1_keywords: 
+ - "bits4_0/IBackgroundCopyFile4.GetPeerDownloadStats"
 req.header: bits4_0.h
 req.include-header: 
 req.target-type: Windows

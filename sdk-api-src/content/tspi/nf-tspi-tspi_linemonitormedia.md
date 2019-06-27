@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineMonitorMedia, TSPI_lineMonitorMedia function [TAPI 2.2], _tspi_tspi_linemonitormedia, tspi.tspi_linemonitormedia, tspi/TSPI_lineMonitorMedia
 ms.topic: function
-f1_keywords: ["tspi/TSPI_lineMonitorMedia"]
+f1_keywords: 
+ - "tspi/TSPI_lineMonitorMedia"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

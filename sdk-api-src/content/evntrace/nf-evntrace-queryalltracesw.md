@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QueryAllTraces, QueryAllTraces function [ETW], QueryAllTracesA, QueryAllTracesW, _evt_queryalltraces, base.queryalltraces, etw.queryalltraces, evntrace/QueryAllTraces, evntrace/QueryAllTracesA, evntrace/QueryAllTracesW
 ms.topic: function
-f1_keywords: ["evntrace/QueryAllTraces"]
+f1_keywords: 
+ - "evntrace/QueryAllTraces"
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

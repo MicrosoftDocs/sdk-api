@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AZ_CLIENT_CONTEXT_SKIP_LDAP_QUERY, GetAssignedScopesPage, GetAssignedScopesPage method [Security], GetAssignedScopesPage method [Security],IAzClientContext2 interface, IAzClientContext2 interface [Security],GetAssignedScopesPage method, IAzClientContext2.GetAssignedScopesPage, IAzClientContext2::GetAssignedScopesPage, azroles/IAzClientContext2::GetAssignedScopesPage, security.iazclientcontext2_getassignedscopespage
 ms.topic: method
-f1_keywords: ["azroles/IAzClientContext2.GetAssignedScopesPage"]
+f1_keywords: 
+ - "azroles/IAzClientContext2.GetAssignedScopesPage"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

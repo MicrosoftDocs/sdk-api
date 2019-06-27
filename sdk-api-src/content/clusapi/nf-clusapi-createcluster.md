@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateCluster, CreateCluster function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER, PCLUSAPI_CREATE_CLUSTER function [Failover Cluster], clusapi/CreateCluster, clusapi/PCLUSAPI_CREATE_CLUSTER, mscs.createcluster
 ms.topic: function
-f1_keywords: ["clusapi/CreateCluster"]
+f1_keywords: 
+ - "clusapi/CreateCluster"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

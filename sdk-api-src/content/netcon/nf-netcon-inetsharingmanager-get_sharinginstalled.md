@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetSharingManager interface [ICS/ICF],get_SharingInstalled method, INetSharingManager.get_SharingInstalled, INetSharingManager::get_SharingInstalled, _ics_inetsharingmanager_get_sharinginstalled, get_SharingInstalled, get_SharingInstalled method [ICS/ICF], get_SharingInstalled method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_sharinginstalled, netcon/INetSharingManager::get_SharingInstalled
 ms.topic: method
-f1_keywords: ["netcon/INetSharingManager.get_SharingInstalled"]
+f1_keywords: 
+ - "netcon/INetSharingManager.get_SharingInstalled"
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

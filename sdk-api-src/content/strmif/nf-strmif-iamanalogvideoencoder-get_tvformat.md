@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoEncoder interface [DirectShow],get_TVFormat method, IAMAnalogVideoEncoder.get_TVFormat, IAMAnalogVideoEncoder::get_TVFormat, IAMAnalogVideoEncoderget_TVFormat, dshow.iamanalogvideoencoder_get_tvformat, get_TVFormat, get_TVFormat method [DirectShow], get_TVFormat method [DirectShow],IAMAnalogVideoEncoder interface, strmif/IAMAnalogVideoEncoder::get_TVFormat
 ms.topic: method
-f1_keywords: ["strmif/IAMAnalogVideoEncoder.get_TVFormat"]
+f1_keywords: 
+ - "strmif/IAMAnalogVideoEncoder.get_TVFormat"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

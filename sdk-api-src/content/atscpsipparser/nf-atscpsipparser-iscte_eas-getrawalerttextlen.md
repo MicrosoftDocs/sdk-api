@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRawAlertTextLen, GetRawAlertTextLen method [Microsoft TV Technologies], GetRawAlertTextLen method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetRawAlertTextLen method, ISCTE_EAS.GetRawAlertTextLen, ISCTE_EAS::GetRawAlertTextLen, atscpsipparser/ISCTE_EAS::GetRawAlertTextLen, mstv.iscte_eas_getrawalerttextlen
 ms.topic: method
-f1_keywords: ["atscpsipparser/ISCTE_EAS.GetRawAlertTextLen"]
+f1_keywords: 
+ - "atscpsipparser/ISCTE_EAS.GetRawAlertTextLen"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

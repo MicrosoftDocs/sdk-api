@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition],SetTitle method, IPhotoAcquireDeviceSelectionDialog.SetTitle, IPhotoAcquireDeviceSelectionDialog::SetTitle, IPhotoAcquireDeviceSelectionDialogSetTitle, SetTitle, SetTitle method [Picture Acquisition], SetTitle method [Picture Acquisition],IPhotoAcquireDeviceSelectionDialog interface, photoacquire/IPhotoAcquireDeviceSelectionDialog::SetTitle, picacq.iphotoacquiredeviceselectiondialog_settitle
 ms.topic: method
-f1_keywords: ["photoacquire/IPhotoAcquireDeviceSelectionDialog.SetTitle"]
+f1_keywords: 
+ - "photoacquire/IPhotoAcquireDeviceSelectionDialog.SetTitle"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

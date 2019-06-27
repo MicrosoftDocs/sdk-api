@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAttachedSurface, GetAttachedSurface method [DirectDraw], GetAttachedSurface method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetAttachedSurface method, IDirectDrawSurface7.GetAttachedSurface, IDirectDrawSurface7::GetAttachedSurface, ddraw/IDirectDrawSurface7::GetAttachedSurface, directdraw.idirectdrawsurface7_getattachedsurface
 ms.topic: method
-f1_keywords: ["ddraw/IDirectDrawSurface7.GetAttachedSurface"]
+f1_keywords: 
+ - "ddraw/IDirectDrawSurface7.GetAttachedSurface"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

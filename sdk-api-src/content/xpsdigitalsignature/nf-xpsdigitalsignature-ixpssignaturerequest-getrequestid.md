@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRequestId, GetRequestId method [XPS Documents and Packaging], GetRequestId method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetRequestId method, IXpsSignatureRequest.GetRequestId, IXpsSignatureRequest::GetRequestId, xps.ixpssignaturerequest_getrequestid, xpsdigitalsignature/IXpsSignatureRequest::GetRequestId
 ms.topic: method
-f1_keywords: ["xpsdigitalsignature/IXpsSignatureRequest.GetRequestId"]
+f1_keywords: 
+ - "xpsdigitalsignature/IXpsSignatureRequest.GetRequestId"
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

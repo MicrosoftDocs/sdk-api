@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiEnumComponentCosts, MsiEnumComponentCosts function, MsiEnumComponentCostsA, MsiEnumComponentCostsW, _msi_msienumcomponentcosts, msiquery/MsiEnumComponentCosts, msiquery/MsiEnumComponentCostsA, msiquery/MsiEnumComponentCostsW, setup.msienumcomponentcosts
 ms.topic: function
-f1_keywords: ["msiquery/MsiEnumComponentCosts"]
+f1_keywords: 
+ - "msiquery/MsiEnumComponentCosts"
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

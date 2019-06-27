@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [Windows Imaging Component], Commit method [Windows Imaging Component],IWICBitmapEncoder interface, IWICBitmapEncoder interface [Windows Imaging Component],Commit method, IWICBitmapEncoder.Commit, IWICBitmapEncoder::Commit, _wic_codec_iwicbitmapencoder_commit, wic._wic_codec_iwicbitmapencoder_commit, wincodec/IWICBitmapEncoder::Commit
 ms.topic: method
-f1_keywords: ["wincodec/IWICBitmapEncoder.Commit"]
+f1_keywords: 
+ - "wincodec/IWICBitmapEncoder.Commit"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

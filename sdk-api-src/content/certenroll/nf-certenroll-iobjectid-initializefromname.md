@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IObjectId interface [Security],InitializeFromName method, IObjectId.InitializeFromName, IObjectId::InitializeFromName, InitializeFromName, InitializeFromName method [Security], InitializeFromName method [Security],IObjectId interface, certenroll/IObjectId::InitializeFromName, security.iobjectid_initializefromname_method
 ms.topic: method
-f1_keywords: ["certenroll/IObjectId.InitializeFromName"]
+f1_keywords: 
+ - "certenroll/IObjectId.InitializeFromName"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCT_RESULT = 0x8001, CCT_SCOPE = 0x8000, IComponent2 interface [MMC],QueryDispatch method, IComponent2.QueryDispatch, IComponent2::QueryDispatch, QueryDispatch, QueryDispatch method [MMC], QueryDispatch method [MMC],IComponent2 interface, _slate_icomponent2_querydispatch, mmc.icomponent2_querydispatch, mmc/IComponent2::QueryDispatch
 ms.topic: method
-f1_keywords: ["mmc/IComponent2.QueryDispatch"]
+f1_keywords: 
+ - "mmc/IComponent2.QueryDispatch"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

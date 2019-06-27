@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTarget, CreateTarget method [VDS], CreateTarget method [VDS],IVdsSubSystemIscsi interface, IVdsSubSystemIscsi interface [VDS],CreateTarget method, IVdsSubSystemIscsi.CreateTarget, IVdsSubSystemIscsi::CreateTarget, base.ivdssubsystemiscsi_createtarget, vds/IVdsSubSystemIscsi::CreateTarget, vdshwprv/IVdsSubSystemIscsi::CreateTarget
 ms.topic: method
-f1_keywords: ["vds/IVdsSubSystemIscsi.CreateTarget"]
+f1_keywords: 
+ - "vds/IVdsSubSystemIscsi.CreateTarget"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

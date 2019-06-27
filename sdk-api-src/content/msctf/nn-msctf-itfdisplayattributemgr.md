@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfDisplayAttributeMgr, ITfDisplayAttributeMgr interface [Text Services Framework], ITfDisplayAttributeMgr interface [Text Services Framework],described, _tsf_itfdisplayattributemgr_ref, msctf/ITfDisplayAttributeMgr, tsf.itfdisplayattributemgr
 ms.topic: interface
-f1_keywords: ["msctf/ITfDisplayAttributeMgr"]
+f1_keywords: 
+ - "msctf/ITfDisplayAttributeMgr"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

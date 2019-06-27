@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwServiceRestriction interface [ICS/ICF],Rules property, INetFwServiceRestriction.Rules, INetFwServiceRestriction.get_Rules, INetFwServiceRestriction::Rules, INetFwServiceRestriction::get_Rules, Rules property [ICS/ICF], Rules property [ICS/ICF],INetFwServiceRestriction interface, get_Rules, ics.inetfwservicerestriction_rules, netfw/INetFwServiceRestriction::Rules, netfw/INetFwServiceRestriction::get_Rules
 ms.topic: method
-f1_keywords: ["netfw/INetFwServiceRestriction.Rules"]
+f1_keywords: 
+ - "netfw/INetFwServiceRestriction.Rules"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

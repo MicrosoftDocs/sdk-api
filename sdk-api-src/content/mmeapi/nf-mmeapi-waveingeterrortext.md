@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_waveInGetErrorText, mmeapi/waveInGetErrorText, multimedia.waveingeterrortext, waveInGetErrorText, waveInGetErrorText function [Windows Multimedia]"
 ms.topic: function
-f1_keywords: ["mmeapi/waveInGetErrorText"]
+f1_keywords: 
+ - "mmeapi/waveInGetErrorText"
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMStoreShort2, XMStoreShort2, XMStoreShort2 method [DirectX Math Support APIs], dxmath.xmstoreshort2
 ms.topic: function
-f1_keywords: ["directxpackedvector/XMStoreShort2"]
+f1_keywords: 
+ - "directxpackedvector/XMStoreShort2"
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_baseURL method, IWMPSettings.put_baseURL, IWMPSettings::put_baseURL, IWMPSettingsput_baseURL, put_baseURL, put_baseURL method [Windows Media Player], put_baseURL method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_baseurl, wmp/IWMPSettings::put_baseURL
 ms.topic: method
-f1_keywords: ["wmp/IWMPSettings.put_baseURL"]
+f1_keywords: 
+ - "wmp/IWMPSettings.put_baseURL"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

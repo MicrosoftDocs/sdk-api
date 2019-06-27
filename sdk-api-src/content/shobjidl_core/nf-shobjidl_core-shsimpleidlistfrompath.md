@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHSimpleIDListFromPath, SHSimpleIDListFromPath function [Windows Shell], _win32_SHSimpleIDListFromPath, shell.SHSimpleIDListFromPath, shobjidl_core/SHSimpleIDListFromPath
 ms.topic: function
-f1_keywords: ["shobjidl_core/SHSimpleIDListFromPath"]
+f1_keywords: 
+ - "shobjidl_core/SHSimpleIDListFromPath"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxServer interface [Fax Service],UnregisterDeviceProvider method, IFaxServer.UnregisterDeviceProvider, IFaxServer::UnregisterDeviceProvider, UnregisterDeviceProvider, UnregisterDeviceProvider method [Fax Service], UnregisterDeviceProvider method [Fax Service],IFaxServer interface, _mfax_faxserver.unregisterdeviceprovider, fax._mfax_faxserver_cpp_mfax_faxserver_unregisterdeviceprovider_cpp, fax._mfax_faxserver_unregisterdeviceprovider, faxcomex/IFaxServer::UnregisterDeviceProvider
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxServer.UnregisterDeviceProvider"]
+f1_keywords: 
+ - "faxcomex/IFaxServer.UnregisterDeviceProvider"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

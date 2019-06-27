@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptXmlEncode, CryptXmlEncode function [Security], cryptxml/CryptXmlEncode, security.cryptxmlencode
 ms.topic: function
-f1_keywords: ["cryptxml/CryptXmlEncode"]
+f1_keywords: 
+ - "cryptxml/CryptXmlEncode"
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

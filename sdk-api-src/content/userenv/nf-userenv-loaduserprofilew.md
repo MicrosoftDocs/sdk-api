@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LoadUserProfile, LoadUserProfile function [Windows Shell], LoadUserProfileA, LoadUserProfileW, _shell_LoadUserProfile, shell.LoadUserProfile, userenv/LoadUserProfile, userenv/LoadUserProfileA, userenv/LoadUserProfileW
 ms.topic: function
-f1_keywords: ["userenv/LoadUserProfile"]
+f1_keywords: 
+ - "userenv/LoadUserProfile"
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

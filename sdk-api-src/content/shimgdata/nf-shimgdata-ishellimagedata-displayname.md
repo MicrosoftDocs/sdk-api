@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisplayName, DisplayName method [Windows Shell], DisplayName method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],DisplayName method, IShellImageData.DisplayName, IShellImageData::DisplayName, _shell_IShellImageData_DisplayName, shell.IShellImageData_DisplayName, shimgdata/IShellImageData::DisplayName
 ms.topic: method
-f1_keywords: ["shimgdata/IShellImageData.DisplayName"]
+f1_keywords: 
+ - "shimgdata/IShellImageData.DisplayName"
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

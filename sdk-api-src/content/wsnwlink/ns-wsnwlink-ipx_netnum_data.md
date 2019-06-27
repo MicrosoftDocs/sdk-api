@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIPX_NETNUM_DATA, IPX_NETNUM_DATA, IPX_NETNUM_DATA structure [Winsock], PIPX_NETNUM_DATA, PIPX_NETNUM_DATA structure pointer [Winsock], _win32_ipx_netnum_data_2, winsock.ipx_netnum_data_2, wsnwlink/IPX_NETNUM_DATA, wsnwlink/PIPX_NETNUM_DATA"
 ms.topic: struct
-f1_keywords: ["wsnwlink/IPX_NETNUM_DATA"]
+f1_keywords: 
+ - "wsnwlink/IPX_NETNUM_DATA"
 req.header: wsnwlink.h
 req.include-header: 
 req.target-type: Windows

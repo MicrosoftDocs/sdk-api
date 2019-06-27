@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRAS_USER_1, PRAS_USER_1, PRAS_USER_1 structure pointer [RAS], RASPRIV2_DialinPolicy, RASPRIV_AdminSetCallback, RASPRIV_CallerSetCallback, RASPRIV_DialinPrivilege, RASPRIV_NoCallback, RAS_USER_1, RAS_USER_1 structure [RAS], _mpr_ras_user_1, mprapi/PRAS_USER_1, mprapi/RAS_USER_1, rras.ras_user_1"
 ms.topic: struct
-f1_keywords: ["mprapi/RAS_USER_1"]
+f1_keywords: 
+ - "mprapi/RAS_USER_1"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

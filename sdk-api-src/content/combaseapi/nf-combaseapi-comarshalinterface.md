@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoMarshalInterface, CoMarshalInterface function [COM], _com_CoMarshalInterface, com.comarshalinterface, combaseapi/CoMarshalInterface
 ms.topic: function
-f1_keywords: ["combaseapi/CoMarshalInterface"]
+f1_keywords: 
+ - "combaseapi/CoMarshalInterface"
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

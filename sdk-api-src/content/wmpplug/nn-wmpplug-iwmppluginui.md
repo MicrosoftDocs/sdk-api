@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPPluginUI, IWMPPluginUI interface [Windows Media Player], IWMPPluginUI interface [Windows Media Player],described, IWMPPluginUIInterface, wmp.iwmppluginui, wmpplug/IWMPPluginUI
 ms.topic: interface
-f1_keywords: ["wmpplug/IWMPPluginUI"]
+f1_keywords: 
+ - "wmpplug/IWMPPluginUI"
 req.header: wmpplug.h
 req.include-header: 
 req.target-type: Windows

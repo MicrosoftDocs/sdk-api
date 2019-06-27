@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],OnCommand method, IBrowserService2.OnCommand, IBrowserService2::OnCommand, OnCommand, OnCommand method [Windows Shell], OnCommand method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::OnCommand, shell.IBrowserService2_OnCommand, zone_IBrowserService2_OnCommand
 ms.topic: method
-f1_keywords: ["shdeprecated/IBrowserService2.OnCommand"]
+f1_keywords: 
+ - "shdeprecated/IBrowserService2.OnCommand"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

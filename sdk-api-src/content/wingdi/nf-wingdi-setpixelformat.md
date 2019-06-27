@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetPixelFormat, SetPixelFormat function [OpenGL], _ogl_SetPixelFormat, opengl.setpixelformat, wingdi/SetPixelFormat
 ms.topic: function
-f1_keywords: ["wingdi/SetPixelFormat"]
+f1_keywords: 
+ - "wingdi/SetPixelFormat"
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

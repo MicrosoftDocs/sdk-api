@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_XML_BUFFER_PROPERTY_ID, WS_XML_BUFFER_PROPERTY_ID enumeration [Web Services for Windows], webservices/WS_XML_BUFFER_PROPERTY_ID, wsw.ws_xml_buffer_property_id
 ms.topic: enum
-f1_keywords: ["webservices/WS_XML_BUFFER_PROPERTY_ID"]
+f1_keywords: 
+ - "webservices/WS_XML_BUFFER_PROPERTY_ID"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITSubStream interface [TAPI 2.2],StartSubStream method, ITSubStream.StartSubStream, ITSubStream::StartSubStream, StartSubStream, StartSubStream method [TAPI 2.2], StartSubStream method [TAPI 2.2],ITSubStream interface, _tapi3_itsubstream_startsubstream, tapi3.itsubstream_startsubstream, tapi3if/ITSubStream::StartSubStream
 ms.topic: method
-f1_keywords: ["tapi3if/ITSubStream.StartSubStream"]
+f1_keywords: 
+ - "tapi3if/ITSubStream.StartSubStream"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

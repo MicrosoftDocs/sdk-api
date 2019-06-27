@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComTransaction2Events interface [COM+],OnTransactionCommit2 method, IComTransaction2Events.OnTransactionCommit2, IComTransaction2Events::OnTransactionCommit2, OnTransactionCommit2, OnTransactionCommit2 method [COM+], OnTransactionCommit2 method [COM+],IComTransaction2Events interface, _dtc_icomtransaction2events_ontransactioncommit2, comsvcs/IComTransaction2Events::OnTransactionCommit2, cos.icomtransaction2events_ontransactioncommit2
 ms.topic: method
-f1_keywords: ["comsvcs/IComTransaction2Events.OnTransactionCommit2"]
+f1_keywords: 
+ - "comsvcs/IComTransaction2Events.OnTransactionCommit2"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

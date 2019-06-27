@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumberChildren, GetNumberChildren method [WPF Bitmap Effects], GetNumberChildren method [WPF Bitmap Effects],IMILBitmapEffectGroupImpl interface, IMILBitmapEffectGroupImpl interface [WPF Bitmap Effects],GetNumberChildren method, IMILBitmapEffectGroupImpl.GetNumberChildren, IMILBitmapEffectGroupImpl::GetNumberChildren, _wibe_imilbitmapeffectgroupimpl_getnumberchildren, mileffects/IMILBitmapEffectGroupImpl::GetNumberChildren, wibe._wibe_imilbitmapeffectgroupimpl_getnumberchildren
 ms.topic: method
-f1_keywords: ["mileffects/IMILBitmapEffectGroupImpl.GetNumberChildren"]
+f1_keywords: 
+ - "mileffects/IMILBitmapEffectGroupImpl.GetNumberChildren"
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

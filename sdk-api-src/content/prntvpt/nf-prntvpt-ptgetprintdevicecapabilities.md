@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PTGetPrintDeviceCapabilities, PTGetPrintDeviceCapabilities function [XPS Documents and Packaging], prntvpt/PTGetPrintDeviceCapabilities, xps.ptgetprintdevicecapabilities
 ms.topic: function
-f1_keywords: ["prntvpt/PTGetPrintDeviceCapabilities"]
+f1_keywords: 
+ - "prntvpt/PTGetPrintDeviceCapabilities"
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows

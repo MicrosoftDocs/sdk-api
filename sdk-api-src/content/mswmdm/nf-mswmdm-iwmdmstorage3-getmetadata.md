@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMetadata, GetMetadata method [windows Media Device Manager], GetMetadata method [windows Media Device Manager],IWMDMStorage3 interface, IWMDMStorage3 interface [windows Media Device Manager],GetMetadata method, IWMDMStorage3.GetMetadata, IWMDMStorage3::GetMetadata, IWMDMStorage3GetMetadata, mswmdm/IWMDMStorage3::GetMetadata, wmdm.iwmdmstorage3_getmetadata
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMStorage3.GetMetadata"]
+f1_keywords: 
+ - "mswmdm/IWMDMStorage3.GetMetadata"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

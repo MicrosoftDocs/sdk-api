@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetPrivateObjectSecurity, SetPrivateObjectSecurity function [Security], _win32_setprivateobjectsecurity, security.setprivateobjectsecurity, securitybaseapi/SetPrivateObjectSecurity
 ms.topic: function
-f1_keywords: ["securitybaseapi/SetPrivateObjectSecurity"]
+f1_keywords: 
+ - "securitybaseapi/SetPrivateObjectSecurity"
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

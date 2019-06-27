@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MIB_IF_ADMIN_STATUS_DOWN, MIB_IF_ADMIN_STATUS_UP, SetIfEntry, SetIfEntry function [IP Helper], _iphlp_setifentry, iphlp.setifentry, iphlpapi/SetIfEntry
 ms.topic: function
-f1_keywords: ["iphlpapi/SetIfEntry"]
+f1_keywords: 
+ - "iphlpapi/SetIfEntry"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

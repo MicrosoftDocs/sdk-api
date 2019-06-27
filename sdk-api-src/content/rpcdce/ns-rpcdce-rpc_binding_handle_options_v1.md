@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRPC_BINDING_HANDLE_OPTIONS_V1, RPC_BHO_DONTLINGER, RPC_BHO_NONCAUSAL, RPC_BINDING_HANDLE_OPTIONS, RPC_BINDING_HANDLE_OPTIONS structure [RPC], RPC_BINDING_HANDLE_OPTIONS_V1, RPC_BINDING_HANDLE_OPTIONS_V1 structure [RPC], rpc.rpc_binding_handle_options_v1, rpcdce/RPC_BINDING_HANDLE_OPTIONS, rpcdce/RPC_BINDING_HANDLE_OPTIONS_V1"
 ms.topic: struct
-f1_keywords: ["rpcdce/RPC_BINDING_HANDLE_OPTIONS_V1"]
+f1_keywords: 
+ - "rpcdce/RPC_BINDING_HANDLE_OPTIONS_V1"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

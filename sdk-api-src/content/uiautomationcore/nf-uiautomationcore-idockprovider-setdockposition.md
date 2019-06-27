@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDockProvider interface [Windows Accessibility],SetDockPosition method, IDockProvider.SetDockPosition, IDockProvider::SetDockPosition, SetDockPosition, SetDockPosition method [Windows Accessibility], SetDockPosition method [Windows Accessibility],IDockProvider interface, uiauto.uiauto_IDockProvider_SetDockPosition, uiauto_IDockProvider_SetDockPosition, uiautomationcore/IDockProvider::SetDockPosition, winauto.uiauto_IDockProvider_SetDockPosition
 ms.topic: method
-f1_keywords: ["uiautomationcore/IDockProvider.SetDockPosition"]
+f1_keywords: 
+ - "uiautomationcore/IDockProvider.SetDockPosition"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

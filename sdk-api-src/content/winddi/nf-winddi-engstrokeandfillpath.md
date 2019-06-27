@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngStrokeAndFillPath, EngStrokeAndFillPath function [Display Devices], display.engstrokeandfillpath, gdifncs_aad2693d-6a0e-40ab-ad95-aa38e77c7651.xml, winddi/EngStrokeAndFillPath
 ms.topic: function
-f1_keywords: ["winddi/EngStrokeAndFillPath"]
+f1_keywords: 
+ - "winddi/EngStrokeAndFillPath"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

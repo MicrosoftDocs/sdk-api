@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Flags property [Security], Flags property [Security],IX509PolicyServerUrl interface, IX509PolicyServerUrl interface [Security],Flags property, IX509PolicyServerUrl.Flags, IX509PolicyServerUrl.get_Flags, IX509PolicyServerUrl::Flags, IX509PolicyServerUrl::get_Flags, IX509PolicyServerUrl::put_Flags, PsfLocationGroupPolicy, PsfLocationRegistry, certenroll/IX509PolicyServerUrl::Flags, certenroll/IX509PolicyServerUrl::get_Flags, certenroll/IX509PolicyServerUrl::put_Flags, get_Flags, security.ix509policyserverurl_flags
 ms.topic: method
-f1_keywords: ["certenroll/IX509PolicyServerUrl.Flags"]
+f1_keywords: 
+ - "certenroll/IX509PolicyServerUrl.Flags"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

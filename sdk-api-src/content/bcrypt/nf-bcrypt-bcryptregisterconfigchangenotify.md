@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCryptRegisterConfigChangeNotify, BCryptRegisterConfigChangeNotify function [Security], BCryptRegisterConfigChangeNotify(HANDLE*), bcrypt/BCryptRegisterConfigChangeNotify, security.bcryptregisterconfigchangenotify_handle
 ms.topic: function
-f1_keywords: ["bcrypt/BCryptRegisterConfigChangeNotify"]
+f1_keywords: 
+ - "bcrypt/BCryptRegisterConfigChangeNotify"
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

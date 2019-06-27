@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_ITEM_RANGE, WS_ITEM_RANGE structure [Web Services for Windows], webservices/WS_ITEM_RANGE, wsw.ws_item_range
 ms.topic: struct
-f1_keywords: ["webservices/WS_ITEM_RANGE"]
+f1_keywords: 
+ - "webservices/WS_ITEM_RANGE"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

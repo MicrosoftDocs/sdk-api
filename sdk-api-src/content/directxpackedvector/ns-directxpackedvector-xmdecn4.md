@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XMDECN4, XMDECN4 structure [DirectX Math Support APIs], directxpackedvector/XMDECN4, dxmath.xmdecn4
 ms.topic: struct
-f1_keywords: ["directxpackedvector/XMDECN4"]
+f1_keywords: 
+ - "directxpackedvector/XMDECN4"
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

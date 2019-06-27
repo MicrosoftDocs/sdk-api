@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetScriptProperties, GetScriptProperties method [Direct Write], GetScriptProperties method [Direct Write],IDWriteTextAnalyzer1 interface, IDWriteTextAnalyzer1 interface [Direct Write],GetScriptProperties method, IDWriteTextAnalyzer1.GetScriptProperties, IDWriteTextAnalyzer1::GetScriptProperties, directwrite.idwritetextanalyzer1_getscriptproperties, dwrite_1/IDWriteTextAnalyzer1::GetScriptProperties
 ms.topic: method
-f1_keywords: ["dwrite_1/IDWriteTextAnalyzer1.GetScriptProperties"]
+f1_keywords: 
+ - "dwrite_1/IDWriteTextAnalyzer1.GetScriptProperties"
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

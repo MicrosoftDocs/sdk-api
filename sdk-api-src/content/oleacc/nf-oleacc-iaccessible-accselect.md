@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accSelect method, IAccessible.accSelect, IAccessible::accSelect, _msaa_IAccessible_accSelect, accSelect, accSelect method [Windows Accessibility], accSelect method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__accselect, oleacc/IAccessible::accSelect, winauto.iaccessible_iaccessible__accselect
 ms.topic: method
-f1_keywords: ["oleacc/IAccessible.accSelect"]
+f1_keywords: 
+ - "oleacc/IAccessible.accSelect"
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

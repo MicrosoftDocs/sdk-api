@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVISaveOptionsFree, AVISaveOptionsFree function [Windows Multimedia], _win32_AVISaveOptionsFree, multimedia.avisaveoptionsfree, vfw/AVISaveOptionsFree
 ms.topic: function
-f1_keywords: ["vfw/AVISaveOptionsFree"]
+f1_keywords: 
+ - "vfw/AVISaveOptionsFree"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

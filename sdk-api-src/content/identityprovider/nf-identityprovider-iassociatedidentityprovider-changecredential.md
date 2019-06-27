@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ChangeCredential, ChangeCredential method [Security], ChangeCredential method [Security],IAssociatedIdentityProvider interface, IAssociatedIdentityProvider interface [Security],ChangeCredential method, IAssociatedIdentityProvider.ChangeCredential, IAssociatedIdentityProvider::ChangeCredential, identityprovider/IAssociatedIdentityProvider::ChangeCredential, identitystore/IAssociatedIdentityProvider::ChangeCredential, security.iassociatedidentityprovider_changecredential
 ms.topic: method
-f1_keywords: ["identityprovider/IAssociatedIdentityProvider.ChangeCredential"]
+f1_keywords: 
+ - "identityprovider/IAssociatedIdentityProvider.ChangeCredential"
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows

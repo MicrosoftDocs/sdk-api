@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceSetInfo, MprConfigInterfaceSetInfo function [RAS], _mpr_mprconfiginterfacesetinfo, mprapi/MprConfigInterfaceSetInfo, rras.mprconfiginterfacesetinfo
 ms.topic: function
-f1_keywords: ["mprapi/MprConfigInterfaceSetInfo"]
+f1_keywords: 
+ - "mprapi/MprConfigInterfaceSetInfo"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCells, GetCells method [Windows Controls], GetCells method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetCells method, ITextRange2.GetCells, ITextRange2::GetCells, controls.itextrange2_getcells, tom/ITextRange2::GetCells
 ms.topic: method
-f1_keywords: ["tom/ITextRange2.GetCells"]
+f1_keywords: 
+ - "tom/ITextRange2.GetCells"
 req.header: tom.h
 req.include-header: Tom.h
 req.target-type: Windows

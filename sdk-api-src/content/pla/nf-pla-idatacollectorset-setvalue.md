@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],SetValue method, IDataCollectorSet.SetValue, IDataCollectorSet::SetValue, SetValue, SetValue method [PLA], SetValue method [PLA],IDataCollectorSet interface, base.idatacollectorset_setvalue, pla.idatacollectorset_setvalue, pla/IDataCollectorSet::SetValue
 ms.topic: method
-f1_keywords: ["pla/IDataCollectorSet.SetValue"]
+f1_keywords: 
+ - "pla/IDataCollectorSet.SetValue"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

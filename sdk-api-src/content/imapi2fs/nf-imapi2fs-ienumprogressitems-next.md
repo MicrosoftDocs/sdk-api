@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumProgressItems interface [IMAPI],Next method, IEnumProgressItems.Next, IEnumProgressItems::Next, Next, Next method [IMAPI], Next method [IMAPI],IEnumProgressItems interface, imapi.ienumprogressitems_next, imapi2fs/IEnumProgressItems::Next
 ms.topic: method
-f1_keywords: ["imapi2fs/IEnumProgressItems.Next"]
+f1_keywords: 
+ - "imapi2fs/IEnumProgressItems.Next"
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

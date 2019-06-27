@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUpdateOptions, GetUpdateOptions method [COM], GetUpdateOptions method [COM],IOleLink interface, IOleLink interface [COM],GetUpdateOptions method, IOleLink.GetUpdateOptions, IOleLink::GetUpdateOptions, _ole_iolelink_getupdateoptions, com.iolelink_getupdateoptions, oleidl/IOleLink::GetUpdateOptions
 ms.topic: method
-f1_keywords: ["oleidl/IOleLink.GetUpdateOptions"]
+f1_keywords: 
+ - "oleidl/IOleLink.GetUpdateOptions"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

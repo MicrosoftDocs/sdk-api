@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorClamp, XMVectorClamp, XMVectorClamp method [DirectX Math Support APIs], dxmath.xmvectorclamp
 ms.topic: function
-f1_keywords: ["directxmath/XMVectorClamp"]
+f1_keywords: 
+ - "directxmath/XMVectorClamp"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

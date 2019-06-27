@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLUSPROP_BINARY_DECLARE, CLUSPROP_BINARY_DECLARE macro [Failover Cluster], _wolf_clusprop_binary_declare, clusapi/CLUSPROP_BINARY_DECLARE, mscs.clusprop_binary_declare
 ms.topic: macro
-f1_keywords: ["clusapi/CLUSPROP_BINARY_DECLARE"]
+f1_keywords: 
+ - "clusapi/CLUSPROP_BINARY_DECLARE"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

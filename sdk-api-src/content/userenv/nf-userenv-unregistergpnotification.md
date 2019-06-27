@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnregisterGPNotification, UnregisterGPNotification function [Group Policy], _win32_unregistergpnotification, policy.unregistergpnotification, userenv/UnregisterGPNotification
 ms.topic: function
-f1_keywords: ["userenv/UnregisterGPNotification"]
+f1_keywords: 
+ - "userenv/UnregisterGPNotification"
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

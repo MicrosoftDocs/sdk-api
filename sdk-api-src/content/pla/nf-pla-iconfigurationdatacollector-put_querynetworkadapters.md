@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConfigurationDataCollector interface [PLA],QueryNetworkAdapters property, IConfigurationDataCollector.QueryNetworkAdapters, IConfigurationDataCollector.put_QueryNetworkAdapters, IConfigurationDataCollector::QueryNetworkAdapters, IConfigurationDataCollector::get_QueryNetworkAdapters, IConfigurationDataCollector::put_QueryNetworkAdapters, QueryNetworkAdapters property [PLA], QueryNetworkAdapters property [PLA],IConfigurationDataCollector interface, base.iconfigurationdatacollector_querynetworkadapters, pla.iconfigurationdatacollector_querynetworkadapters, pla/IConfigurationDataCollector::QueryNetworkAdapters, pla/IConfigurationDataCollector::get_QueryNetworkAdapters, pla/IConfigurationDataCollector::put_QueryNetworkAdapters, put_QueryNetworkAdapters
 ms.topic: method
-f1_keywords: ["pla/IConfigurationDataCollector.QueryNetworkAdapters"]
+f1_keywords: 
+ - "pla/IConfigurationDataCollector.QueryNetworkAdapters"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPlaybackControl, IPlaybackControl interface [COM+], IPlaybackControl interface [COM+],described, _cos_IPlaybackControl, comsvcs/IPlaybackControl, cos.iplaybackcontrol
 ms.topic: interface
-f1_keywords: ["comsvcs/IPlaybackControl"]
+f1_keywords: 
+ - "comsvcs/IPlaybackControl"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWLX_CREATE_USER_DESKTOP, PWLX_CREATE_USER_DESKTOP callback, WLX_CREATE_INSTANCE_ONLY, WLX_CREATE_USER, WlxCreateUserDesktop, WlxCreateUserDesktop callback function [Security], _gina_wlxcreateuserdesktop, security.wlxcreateuserdesktop, winwlx/WlxCreateUserDesktop
 ms.topic: callback
-f1_keywords: ["winwlx/WlxCreateUserDesktop"]
+f1_keywords: 
+ - "winwlx/WlxCreateUserDesktop"
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

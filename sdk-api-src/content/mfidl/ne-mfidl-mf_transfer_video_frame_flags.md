@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_TRANSFER_VIDEO_FRAME_DEFAULT, MF_TRANSFER_VIDEO_FRAME_FLAGS, MF_TRANSFER_VIDEO_FRAME_FLAGS enumeration [Streaming Media Devices], MF_TRANSFER_VIDEO_FRAME_IGNORE_PAR, MF_TRANSFER_VIDEO_FRAME_STRETCH, mfidl/MF_TRANSFER_VIDEO_FRAME_DEFAULT, mfidl/MF_TRANSFER_VIDEO_FRAME_FLAGS, mfidl/MF_TRANSFER_VIDEO_FRAME_IGNORE_PAR, mfidl/MF_TRANSFER_VIDEO_FRAME_STRETCH, stream.mf_transfer_video_frame_flags
 ms.topic: enum
-f1_keywords: ["mfidl/MF_TRANSFER_VIDEO_FRAME_FLAGS"]
+f1_keywords: 
+ - "mfidl/MF_TRANSFER_VIDEO_FRAME_FLAGS"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPNMCUSTOMTEXT, LPNMCUSTOMTEXT, LPNMCUSTOMTEXT structure pointer [Windows Controls], NMCUSTOMTEXT, NMCUSTOMTEXT structure [Windows Controls], _shell_NMCUSTOMTEXT, _shell_NMCUSTOMTEXT_cpp, commctrl/LPNMCUSTOMTEXT, commctrl/NMCUSTOMTEXT, controls.NMCUSTOMTEXT, controls._shell_NMCUSTOMTEXT"
 ms.topic: struct
-f1_keywords: ["commctrl/NMCUSTOMTEXT"]
+f1_keywords: 
+ - "commctrl/NMCUSTOMTEXT"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

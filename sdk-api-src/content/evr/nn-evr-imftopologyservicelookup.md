@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFTopologyServiceLookup, IMFTopologyServiceLookup interface [Media Foundation], IMFTopologyServiceLookup interface [Media Foundation],described, a912c17a-40ef-441c-bfc9-7ef49d22070f, evr/IMFTopologyServiceLookup, mf.imftopologyservicelookup
 ms.topic: interface
-f1_keywords: ["evr/IMFTopologyServiceLookup"]
+f1_keywords: 
+ - "evr/IMFTopologyServiceLookup"
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

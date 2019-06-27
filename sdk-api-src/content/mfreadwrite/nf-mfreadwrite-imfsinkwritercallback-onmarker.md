@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriterCallback interface [Media Foundation],OnMarker method, IMFSinkWriterCallback.OnMarker, IMFSinkWriterCallback::OnMarker, OnMarker, OnMarker method [Media Foundation], OnMarker method [Media Foundation],IMFSinkWriterCallback interface, mf.imfsinkwritercallback_onmarker, mfreadwrite/IMFSinkWriterCallback::OnMarker
 ms.topic: method
-f1_keywords: ["mfreadwrite/IMFSinkWriterCallback.OnMarker"]
+f1_keywords: 
+ - "mfreadwrite/IMFSinkWriterCallback.OnMarker"
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

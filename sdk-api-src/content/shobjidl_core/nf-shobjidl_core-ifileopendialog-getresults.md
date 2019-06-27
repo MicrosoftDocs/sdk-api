@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetResults, GetResults method [Windows Shell], GetResults method [Windows Shell],IFileOpenDialog interface, IFileOpenDialog interface [Windows Shell],GetResults method, IFileOpenDialog.GetResults, IFileOpenDialog::GetResults, shell.IFileOpenDialog_GetResults, shell_IFileOpenDialog_GetResults, shobjidl_core/IFileOpenDialog::GetResults
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileOpenDialog.GetResults"]
+f1_keywords: 
+ - "shobjidl_core/IFileOpenDialog.GetResults"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDockingWindowSite, IDockingWindowSite interface [Windows Shell], IDockingWindowSite interface [Windows Shell],described, _win32_IDockingWindowSite, shell.IDockingWindowSite, shlobj_core/IDockingWindowSite
 ms.topic: interface
-f1_keywords: ["shlobj_core/IDockingWindowSite"]
+f1_keywords: 
+ - "shlobj_core/IDockingWindowSite"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

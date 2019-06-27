@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_PWM_CONTROLLER_GET_INFO, IOCTL_PWM_CONTROLLER_GET_INFO control, IOCTL_PWM_CONTROLLER_GET_INFO control code, base.ioctl_pwm_controller_get_info, pwm/IOCTL_PWM_CONTROLLER_GET_INFO
 ms.topic: ioctl
-f1_keywords: ["pwm/IOCTL_PWM_CONTROLLER_GET_INFO"]
+f1_keywords: 
+ - "pwm/IOCTL_PWM_CONTROLLER_GET_INFO"
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows

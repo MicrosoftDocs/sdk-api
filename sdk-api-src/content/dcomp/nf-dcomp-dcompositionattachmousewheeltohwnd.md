@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DCompositionAttachMouseWheelToHwnd, DCompositionAttachMouseWheelToHwnd function [DirectComposition], dcomp/DCompositionAttachMouseWheelToHwnd, directcomp.dcompositionattachmousewheeltohwnd
 ms.topic: function
-f1_keywords: ["dcomp/DCompositionAttachMouseWheelToHwnd"]
+f1_keywords: 
+ - "dcomp/DCompositionAttachMouseWheelToHwnd"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMVideoMediaProps interface [windows Media Format],SetMaxKeyFrameSpacing method, IWMVideoMediaProps.SetMaxKeyFrameSpacing, IWMVideoMediaProps::SetMaxKeyFrameSpacing, IWMVideoMediaPropsSetMaxKeyFrameSpacing, SetMaxKeyFrameSpacing, SetMaxKeyFrameSpacing method [windows Media Format], SetMaxKeyFrameSpacing method [windows Media Format],IWMVideoMediaProps interface, wmformat.iwmvideomediaprops_setmaxkeyframespacing, wmsdkidl/IWMVideoMediaProps::SetMaxKeyFrameSpacing
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMVideoMediaProps.SetMaxKeyFrameSpacing"]
+f1_keywords: 
+ - "wmsdkidl/IWMVideoMediaProps.SetMaxKeyFrameSpacing"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

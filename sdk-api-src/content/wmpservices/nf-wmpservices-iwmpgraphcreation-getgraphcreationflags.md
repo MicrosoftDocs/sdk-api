@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGraphCreationFlags, GetGraphCreationFlags method [Windows Media Player], GetGraphCreationFlags method [Windows Media Player],IWMPGraphCreation interface, IWMPGraphCreation interface [Windows Media Player],GetGraphCreationFlags method, IWMPGraphCreation.GetGraphCreationFlags, IWMPGraphCreation::GetGraphCreationFlags, IWMPGraphCreationGetGraphCreationFlags, wmp.iwmpgraphcreation_getgraphcreationflags, wmpservices/IWMPGraphCreation::GetGraphCreationFlags
 ms.topic: method
-f1_keywords: ["wmpservices/IWMPGraphCreation.GetGraphCreationFlags"]
+f1_keywords: 
+ - "wmpservices/IWMPGraphCreation.GetGraphCreationFlags"
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

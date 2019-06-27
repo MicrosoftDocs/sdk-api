@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IkeextSaCreateEnumHandle0, IkeextSaCreateEnumHandle0 function [Filtering], fwp.ikeextsacreateenumhandle0, fwpmu/IkeextSaCreateEnumHandle0
 ms.topic: function
-f1_keywords: ["fwpmu/IkeextSaCreateEnumHandle0"]
+f1_keywords: 
+ - "fwpmu/IkeextSaCreateEnumHandle0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

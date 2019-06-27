@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPersistStorage, IPersistStorage interface [COM], IPersistStorage interface [COM],described, _com_ipersiststorage, com.ipersiststorage, objidl/IPersistStorage
 ms.topic: interface
-f1_keywords: ["objidl/IPersistStorage"]
+f1_keywords: 
+ - "objidl/IPersistStorage"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

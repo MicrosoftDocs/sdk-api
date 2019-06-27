@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_UDPROW_OWNER_PID, MIB_UDPROW_OWNER_PID, MIB_UDPROW_OWNER_PID structure [MIB], PMIB_UDPROW_OWNER_PID, PMIB_UDPROW_OWNER_PID structure pointer [MIB], iprtrmib/MIB_UDPROW_OWNER_PID, iprtrmib/PMIB_UDPROW_OWNER_PID, mib.mib_udprow_owner_pid, udpmib/MIB_UDPROW_OWNER_PID, udpmib/PMIB_UDPROW_OWNER_PID"
 ms.topic: struct
-f1_keywords: ["udpmib/MIB_UDPROW_OWNER_PID"]
+f1_keywords: 
+ - "udpmib/MIB_UDPROW_OWNER_PID"
 req.header: udpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

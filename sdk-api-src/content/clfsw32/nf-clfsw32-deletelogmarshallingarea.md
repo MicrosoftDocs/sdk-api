@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteLogMarshallingArea, DeleteLogMarshallingArea function [Files], clfsw32/DeleteLogMarshallingArea, fs.deletelogmarshalingarea, fs.deletelogmarshallingarea
 ms.topic: function
-f1_keywords: ["clfsw32/DeleteLogMarshallingArea"]
+f1_keywords: 
+ - "clfsw32/DeleteLogMarshallingArea"
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

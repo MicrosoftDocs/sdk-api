@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetTimer, SetTimer function [Windows and Messages], _win32_SetTimer, _win32_settimer_cpp, winmsg.settimer, winui._win32_settimer, winuser/SetTimer
 ms.topic: function
-f1_keywords: ["winuser/SetTimer"]
+f1_keywords: 
+ - "winuser/SetTimer"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

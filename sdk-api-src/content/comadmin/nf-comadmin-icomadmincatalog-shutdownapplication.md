@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],ShutdownApplication method, ICOMAdminCatalog.ShutdownApplication, ICOMAdminCatalog::ShutdownApplication, ShutdownApplication, ShutdownApplication method [COM+], ShutdownApplication method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_ShutdownApplication, comadmin/ICOMAdminCatalog::ShutdownApplication, cos.icomadmincatalog_shutdownapplication
 ms.topic: method
-f1_keywords: ["comadmin/ICOMAdminCatalog.ShutdownApplication"]
+f1_keywords: 
+ - "comadmin/ICOMAdminCatalog.ShutdownApplication"
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

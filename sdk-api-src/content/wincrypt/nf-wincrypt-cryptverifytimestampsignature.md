@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptVerifyTimeStampSignature, CryptVerifyTimeStampSignature function [Security], security.cryptverifytimestampsignature, wincrypt/CryptVerifyTimeStampSignature
 ms.topic: function
-f1_keywords: ["wincrypt/CryptVerifyTimeStampSignature"]
+f1_keywords: 
+ - "wincrypt/CryptVerifyTimeStampSignature"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

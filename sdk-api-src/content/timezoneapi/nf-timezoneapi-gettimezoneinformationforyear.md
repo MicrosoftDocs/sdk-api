@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTimeZoneInformationForYear, GetTimeZoneInformationForYear function, base.gettimezoneinformationforyear, timezoneapi/GetTimeZoneInformationForYear
 ms.topic: function
-f1_keywords: ["timezoneapi/GetTimeZoneInformationForYear"]
+f1_keywords: 
+ - "timezoneapi/GetTimeZoneInformationForYear"
 req.header: timezoneapi.h
 req.include-header: Windows.h
 req.target-type: Windows

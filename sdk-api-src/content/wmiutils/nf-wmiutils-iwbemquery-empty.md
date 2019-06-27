@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Empty, Empty method [Windows Management Instrumentation], Empty method [Windows Management Instrumentation],IWbemQuery interface, IWbemQuery interface [Windows Management Instrumentation],Empty method, IWbemQuery.Empty, IWbemQuery::Empty, _hmm_iwbemquery_empty, wmi.iwbemquery_empty, wmiutils/IWbemQuery::Empty
 ms.topic: method
-f1_keywords: ["wmiutils/IWbemQuery.Empty"]
+f1_keywords: 
+ - "wmiutils/IWbemQuery.Empty"
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRdcFileWriter, IRdcFileWriter interface [Remote Differential Compression], IRdcFileWriter interface [Remote Differential Compression],described, fs.irdcfilewriter, msrdc/IRdcFileWriter, rdc.irdcfilewriter
 ms.topic: interface
-f1_keywords: ["msrdc/IRdcFileWriter"]
+f1_keywords: 
+ - "msrdc/IRdcFileWriter"
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

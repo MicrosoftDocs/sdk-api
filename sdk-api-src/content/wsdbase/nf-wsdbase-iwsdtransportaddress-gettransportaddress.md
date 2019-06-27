@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTransportAddress, GetTransportAddress method, GetTransportAddress method,IWSDTransportAddress interface, IWSDTransportAddress interface,GetTransportAddress method, IWSDTransportAddress.GetTransportAddress, IWSDTransportAddress::GetTransportAddress, ncd.iwsdtransportaddress_gettransportaddress, wsdbase/IWSDTransportAddress::GetTransportAddress
 ms.topic: method
-f1_keywords: ["wsdbase/IWSDTransportAddress.GetTransportAddress"]
+f1_keywords: 
+ - "wsdbase/IWSDTransportAddress.GetTransportAddress"
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

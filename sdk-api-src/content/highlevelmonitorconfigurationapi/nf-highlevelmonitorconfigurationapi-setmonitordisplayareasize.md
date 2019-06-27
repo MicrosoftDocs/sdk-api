@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetMonitorDisplayAreaSize, SetMonitorDisplayAreaSize function [Monitor Configuration], highlevelmonitorconfigurationapi/SetMonitorDisplayAreaSize, monitor.setmonitordisplayareasize
 ms.topic: function
-f1_keywords: ["highlevelmonitorconfigurationapi/SetMonitorDisplayAreaSize"]
+f1_keywords: 
+ - "highlevelmonitorconfigurationapi/SetMonitorDisplayAreaSize"
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

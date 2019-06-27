@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDVDDirectory, GetDVDDirectory method [DirectShow], GetDVDDirectory method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDVDDirectory method, IDvdInfo2.GetDVDDirectory, IDvdInfo2::GetDVDDirectory, IDvdInfo2GetDVDDirectory, dshow.idvdinfo2_getdvddirectory, strmif/IDvdInfo2::GetDVDDirectory
 ms.topic: method
-f1_keywords: ["strmif/IDvdInfo2.GetDVDDirectory"]
+f1_keywords: 
+ - "strmif/IDvdInfo2.GetDVDDirectory"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

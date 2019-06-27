@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMGPO object [GPMC],Import method, IGPMGPO interface [GPMC],Import method, IGPMGPO.Import, IGPMGPO::Import, Import, Import method [GPMC], Import method [GPMC],GPMGPO object, Import method [GPMC],IGPMGPO interface, _win32_igpmgpo_import, gpmc.igpmgpo_import, gpmgmt/IGPMGPO::Import
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMGPO.Import"]
+f1_keywords: 
+ - "gpmgmt/IGPMGPO.Import"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

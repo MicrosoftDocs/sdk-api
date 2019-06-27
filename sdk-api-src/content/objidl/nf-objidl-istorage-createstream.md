@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateStream, CreateStream method [Structured Storage], CreateStream method [Structured Storage],IStorage interface, IStorage interface [Structured Storage],CreateStream method, IStorage.CreateStream, IStorage::CreateStream, _stg_istorage_createstream, objidl/IStorage::CreateStream, stg.istorage_createstream
 ms.topic: method
-f1_keywords: ["objidl/IStorage.CreateStream"]
+f1_keywords: 
+ - "objidl/IStorage.CreateStream"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

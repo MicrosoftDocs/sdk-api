@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbShortEventDescriptor interface, IDvbShortEventDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbShortEventDescriptor.GetTag, IDvbShortEventDescriptor::GetTag, dvbsiparser/IDvbShortEventDescriptor::GetTag, mstv.idvbshorteventdescriptor_gettag
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbShortEventDescriptor.GetTag"]
+f1_keywords: 
+ - "dvbsiparser/IDvbShortEventDescriptor.GetTag"
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

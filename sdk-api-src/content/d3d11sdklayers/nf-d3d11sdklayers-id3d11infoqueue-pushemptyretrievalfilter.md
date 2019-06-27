@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 7de89d7b-e322-173f-aed7-4b318336eadc, ID3D11InfoQueue interface [Direct3D 11],PushEmptyRetrievalFilter method, ID3D11InfoQueue.PushEmptyRetrievalFilter, ID3D11InfoQueue::PushEmptyRetrievalFilter, PushEmptyRetrievalFilter, PushEmptyRetrievalFilter method [Direct3D 11], PushEmptyRetrievalFilter method [Direct3D 11],ID3D11InfoQueue interface, d3d11sdklayers/ID3D11InfoQueue::PushEmptyRetrievalFilter, direct3d11.id3d11infoqueue_pushemptyretrievalfilter
 ms.topic: method
-f1_keywords: ["d3d11sdklayers/ID3D11InfoQueue.PushEmptyRetrievalFilter"]
+f1_keywords: 
+ - "d3d11sdklayers/ID3D11InfoQueue.PushEmptyRetrievalFilter"
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

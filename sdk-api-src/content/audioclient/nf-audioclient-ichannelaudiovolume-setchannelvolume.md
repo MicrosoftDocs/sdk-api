@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IChannelAudioVolume interface [Core Audio],SetChannelVolume method, IChannelAudioVolume.SetChannelVolume, IChannelAudioVolume::SetChannelVolume, IChannelAudioVolumeSetChannelVolume, SetChannelVolume, SetChannelVolume method [Core Audio], SetChannelVolume method [Core Audio],IChannelAudioVolume interface, audioclient/IChannelAudioVolume::SetChannelVolume, coreaudio.ichannelaudiovolume_setchannelvolume
 ms.topic: method
-f1_keywords: ["audioclient/IChannelAudioVolume.SetChannelVolume"]
+f1_keywords: 
+ - "audioclient/IChannelAudioVolume.SetChannelVolume"
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

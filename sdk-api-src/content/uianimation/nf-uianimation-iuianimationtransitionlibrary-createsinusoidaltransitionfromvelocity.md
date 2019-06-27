@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSinusoidalTransitionFromVelocity, CreateSinusoidalTransitionFromVelocity method [Windows Animation], CreateSinusoidalTransitionFromVelocity method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateSinusoidalTransitionFromVelocity method, IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromVelocity, IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromVelocity, uianimation.iuianimationtransitionlibrary_createsinusoidaltransitionfromvelocity, uianimation/IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromVelocity
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromVelocity"]
+f1_keywords: 
+ - "uianimation/IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromVelocity"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

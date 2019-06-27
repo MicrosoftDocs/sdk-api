@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrContextHandleMemorySize, NdrContextHandleMemorySize function [RPC], rpc.ndrcontexthandlememorysize, rpcndr/NdrContextHandleMemorySize
 ms.topic: function
-f1_keywords: ["rpcndr/NdrContextHandleMemorySize"]
+f1_keywords: 
+ - "rpcndr/NdrContextHandleMemorySize"
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

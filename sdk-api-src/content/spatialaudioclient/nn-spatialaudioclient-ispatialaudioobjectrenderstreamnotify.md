@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectRenderStreamNotify, ISpatialAudioObjectRenderStreamNotify interface [Core Audio], ISpatialAudioObjectRenderStreamNotify interface [Core Audio],described, coreaudio.ispatialaudioobjectrenderstreamnotify, spatialaudioclient/ISpatialAudioObjectRenderStreamNotify
 ms.topic: interface
-f1_keywords: ["spatialaudioclient/ISpatialAudioObjectRenderStreamNotify"]
+f1_keywords: 
+ - "spatialaudioclient/ISpatialAudioObjectRenderStreamNotify"
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

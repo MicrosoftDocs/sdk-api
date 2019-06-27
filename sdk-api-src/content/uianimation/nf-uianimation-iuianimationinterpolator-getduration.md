@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDuration, GetDuration method [Windows Animation], GetDuration method [Windows Animation],IUIAnimationInterpolator interface, IUIAnimationInterpolator interface [Windows Animation],GetDuration method, IUIAnimationInterpolator.GetDuration, IUIAnimationInterpolator::GetDuration, uianimation.iuianimationinterpolator_getduration, uianimation/IUIAnimationInterpolator::GetDuration
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationInterpolator.GetDuration"]
+f1_keywords: 
+ - "uianimation/IUIAnimationInterpolator.GetDuration"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

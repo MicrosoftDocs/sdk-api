@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIDecodeSwapChain interface [DXGI],SetTargetRect method, IDXGIDecodeSwapChain.SetTargetRect, IDXGIDecodeSwapChain::SetTargetRect, SetTargetRect, SetTargetRect method [DXGI], SetTargetRect method [DXGI],IDXGIDecodeSwapChain interface, direct3ddxgi.idxgidecodeswapchain_settargetrect, dxgi1_3/IDXGIDecodeSwapChain::SetTargetRect
 ms.topic: method
-f1_keywords: ["dxgi1_3/IDXGIDecodeSwapChain.SetTargetRect"]
+f1_keywords: 
+ - "dxgi1_3/IDXGIDecodeSwapChain.SetTargetRect"
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

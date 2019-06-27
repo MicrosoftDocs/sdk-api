@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 7cfc335e-94a2-b744-65d5-5e6014ce4ff5, IDirect3DQuery9 interface [Direct3D 9],Issue method, IDirect3DQuery9.Issue, IDirect3DQuery9::Issue, Issue, Issue method [Direct3D 9], Issue method [Direct3D 9],IDirect3DQuery9 interface, d3d9helper/IDirect3DQuery9::Issue, direct3d9.idirect3dquery9__issue
 ms.topic: method
-f1_keywords: ["d3d9/IDirect3DQuery9.Issue"]
+f1_keywords: 
+ - "d3d9/IDirect3DQuery9.Issue"
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantToUInt64WithDefault, PropVariantToUInt64WithDefault function [Windows Properties], properties.PropVariantToUInt64WithDefault, propvarutil/PropVariantToUInt64WithDefault, shell.PropVariantToUInt64WithDefault, shell_PropVariantToUInt64WithDefault
 ms.topic: function
-f1_keywords: ["propvarutil/PropVariantToUInt64WithDefault"]
+f1_keywords: 
+ - "propvarutil/PropVariantToUInt64WithDefault"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

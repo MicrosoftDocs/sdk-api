@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11DepthStencilView interface, ID3D11DepthStencilView interface [Direct3D 11],GetDesc method, ID3D11DepthStencilView.GetDesc, ID3D11DepthStencilView::GetDesc, a6b6e6e5-533d-8ea1-7645-eae1b36b5a5a, d3d11/ID3D11DepthStencilView::GetDesc, direct3d11.id3d11depthstencilview_getdesc
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11DepthStencilView.GetDesc"]
+f1_keywords: 
+ - "d3d11/ID3D11DepthStencilView.GetDesc"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

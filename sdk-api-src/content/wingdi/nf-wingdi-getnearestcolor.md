@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNearestColor, GetNearestColor function [Windows GDI], _win32_GetNearestColor, gdi.getnearestcolor, wingdi/GetNearestColor
 ms.topic: function
-f1_keywords: ["wingdi/GetNearestColor"]
+f1_keywords: 
+ - "wingdi/GetNearestColor"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

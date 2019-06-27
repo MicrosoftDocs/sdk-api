@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICPlanarBitmapFrameEncode, IWICPlanarBitmapFrameEncode interface [Windows Imaging Component], IWICPlanarBitmapFrameEncode interface [Windows Imaging Component],described, wic.iwicplanarbitmapframeencode, wincodec/IWICPlanarBitmapFrameEncode
 ms.topic: interface
-f1_keywords: ["wincodec/IWICPlanarBitmapFrameEncode"]
+f1_keywords: 
+ - "wincodec/IWICPlanarBitmapFrameEncode"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

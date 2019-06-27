@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbServiceNotification interface [Remote Desktop Services],NotifyServiceFailure method, ITsSbServiceNotification.NotifyServiceFailure, ITsSbServiceNotification::NotifyServiceFailure, NotifyServiceFailure, NotifyServiceFailure method [Remote Desktop Services], NotifyServiceFailure method [Remote Desktop Services],ITsSbServiceNotification interface, sbtsv/ITsSbServiceNotification::NotifyServiceFailure, termserv.itssbservicenotification_notifyservicefailure
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbServiceNotification.NotifyServiceFailure"]
+f1_keywords: 
+ - "sbtsv/ITsSbServiceNotification.NotifyServiceFailure"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

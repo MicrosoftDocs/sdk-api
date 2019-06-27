@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMessageMover interface [COM+],put_CommitBatchSize method, IMessageMover.put_CommitBatchSize, IMessageMover::put_CommitBatchSize, comsvcs/IMessageMover::put_CommitBatchSize, cos.imessagemover_put_commitbatchsize, put_CommitBatchSize, put_CommitBatchSize method [COM+], put_CommitBatchSize method [COM+],IMessageMover interface
 ms.topic: method
-f1_keywords: ["comsvcs/IMessageMover.put_CommitBatchSize"]
+f1_keywords: 
+ - "comsvcs/IMessageMover.put_CommitBatchSize"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

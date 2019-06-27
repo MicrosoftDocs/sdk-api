@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILocationReport, ILocationReport interface [WinLocation], ILocationReport interface [WinLocation],described, locationapi/ILocationReport, winlocation.ilocationreport
 ms.topic: interface
-f1_keywords: ["locationapi/ILocationReport"]
+f1_keywords: 
+ - "locationapi/ILocationReport"
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

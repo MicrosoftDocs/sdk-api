@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextStyle interface [Media Foundation],IsExternal method, IMFTimedTextStyle.IsExternal, IMFTimedTextStyle::IsExternal, IsExternal, IsExternal method [Media Foundation], IsExternal method [Media Foundation],IMFTimedTextStyle interface, mf.imftimedtextstyle_isexternal, mfmediaengine/IMFTimedTextStyle::IsExternal
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedTextStyle.IsExternal"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedTextStyle.IsExternal"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

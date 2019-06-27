@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RemoveISNSServerA, RemoveIsnsServer, RemoveIsnsServer function [iSCSI Discovery Library API], RemoveIsnsServerA, RemoveIsnsServerW, iscsidisc.removeisnsserver, iscsidsc/RemoveIsnsServer, iscsidsc/RemoveIsnsServerA, iscsidsc/RemoveIsnsServerW
 ms.topic: function
-f1_keywords: ["iscsidsc/RemoveIsnsServer"]
+f1_keywords: 
+ - "iscsidsc/RemoveIsnsServer"
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCD_Structures_e251116b-4e11-42a0-9171-fa3935003510.xml, DISPLAYCONFIG_TARGET_MODE, DISPLAYCONFIG_TARGET_MODE structure [Display Devices], display.displayconfig_target_mode, wingdi/DISPLAYCONFIG_TARGET_MODE
 ms.topic: struct
-f1_keywords: ["wingdi/DISPLAYCONFIG_TARGET_MODE"]
+f1_keywords: 
+ - "wingdi/DISPLAYCONFIG_TARGET_MODE"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

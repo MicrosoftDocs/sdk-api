@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLSA_DISPATCH_TABLE, LSA_DISPATCH_TABLE, LSA_DISPATCH_TABLE structure [Security], PLSA_DISPATCH_TABLE, PLSA_DISPATCH_TABLE structure pointer [Security], _LSA_DISPATCH_TABLE, _lsa_lsa_dispatch_table, ntsecpkg/LSA_DISPATCH_TABLE, ntsecpkg/PLSA_DISPATCH_TABLE, security.lsa_dispatch_table"
 ms.topic: struct
-f1_keywords: ["ntsecpkg/LSA_DISPATCH_TABLE"]
+f1_keywords: 
+ - "ntsecpkg/LSA_DISPATCH_TABLE"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

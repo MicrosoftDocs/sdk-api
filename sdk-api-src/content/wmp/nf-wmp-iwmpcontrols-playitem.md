@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],playItem method, IWMPControls.playItem, IWMPControls::playItem, IWMPControlsplayItem, playItem, playItem method [Windows Media Player], playItem method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_playitem, wmp/IWMPControls::playItem
 ms.topic: method
-f1_keywords: ["wmp/IWMPControls.playItem"]
+f1_keywords: 
+ - "wmp/IWMPControls.playItem"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

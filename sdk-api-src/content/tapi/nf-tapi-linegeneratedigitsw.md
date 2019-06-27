@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linegeneratedigits, lineGenerateDigits, lineGenerateDigits function [TAPI 2.2], lineGenerateDigitsA, lineGenerateDigitsW, tapi/lineGenerateDigits, tapi/lineGenerateDigitsA, tapi/lineGenerateDigitsW, tapi2.linegeneratedigits"
 ms.topic: function
-f1_keywords: ["tapi/lineGenerateDigits"]
+f1_keywords: 
+ - "tapi/lineGenerateDigits"
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

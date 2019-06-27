@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetVirtualDiskInformation, SetVirtualDiskInformation function [VHD], vdssys/SetVirtualDiskInformation, vhd.setvirtualdiskinformation, virtdisk/SetVirtualDiskInformation
 ms.topic: function
-f1_keywords: ["virtdisk/SetVirtualDiskInformation"]
+f1_keywords: 
+ - "virtdisk/SetVirtualDiskInformation"
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

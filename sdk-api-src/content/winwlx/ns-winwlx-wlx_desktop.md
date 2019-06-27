@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWLX_DESKTOP, PWLX_DESKTOP, PWLX_DESKTOP structure pointer [Security], WLX_DESKTOP, WLX_DESKTOP structure [Security], WLX_DESKTOP_HANDLE, WLX_DESKTOP_NAME, _gina_wlx_desktop, security.wlx_desktop, winwlx/PWLX_DESKTOP, winwlx/WLX_DESKTOP"
 ms.topic: struct
-f1_keywords: ["winwlx/WLX_DESKTOP"]
+f1_keywords: 
+ - "winwlx/WLX_DESKTOP"
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

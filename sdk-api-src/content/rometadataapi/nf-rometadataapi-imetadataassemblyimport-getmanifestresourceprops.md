@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetManifestResourceProps, GetManifestResourceProps method [Windows Runtime], GetManifestResourceProps method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],GetManifestResourceProps method, IMetaDataAssemblyImport.GetManifestResourceProps, IMetaDataAssemblyImport::GetManifestResourceProps, rometadataapi/IMetaDataAssemblyImport::GetManifestResourceProps, winrt.imetadataassemblyimport_getmanifestresourceprops
 ms.topic: method
-f1_keywords: ["rometadataapi/IMetaDataAssemblyImport.GetManifestResourceProps"]
+f1_keywords: 
+ - "rometadataapi/IMetaDataAssemblyImport.GetManifestResourceProps"
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

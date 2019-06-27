@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImportNtmsDatabase, ImportNtmsDatabase function [Files], _zaw_importntmsdatabase, base.importntmsdatabase, fs.importntmsdatabase, ntmsapi/ImportNtmsDatabase
 ms.topic: function
-f1_keywords: ["ntmsapi/ImportNtmsDatabase"]
+f1_keywords: 
+ - "ntmsapi/ImportNtmsDatabase"
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

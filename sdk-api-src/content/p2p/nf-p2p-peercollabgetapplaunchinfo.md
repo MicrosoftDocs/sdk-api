@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerCollabGetAppLaunchInfo, PeerCollabGetAppLaunchInfo function [Peer Networking], p2p.peercollabgetapplaunchinfo, p2p/PeerCollabGetAppLaunchInfo
 ms.topic: function
-f1_keywords: ["p2p/PeerCollabGetAppLaunchInfo"]
+f1_keywords: 
+ - "p2p/PeerCollabGetAppLaunchInfo"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

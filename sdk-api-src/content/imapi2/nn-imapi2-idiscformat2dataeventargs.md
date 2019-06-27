@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2DataEventArgs, IDiscFormat2DataEventArgs interface [IMAPI], IDiscFormat2DataEventArgs interface [IMAPI],described, imapi.idiscformat2dataeventargs, imapi2/IDiscFormat2DataEventArgs
 ms.topic: interface
-f1_keywords: ["imapi2/IDiscFormat2DataEventArgs"]
+f1_keywords: 
+ - "imapi2/IDiscFormat2DataEventArgs"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

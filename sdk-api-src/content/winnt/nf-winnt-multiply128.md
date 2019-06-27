@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Multiply128, Multiply128 function [Windows API], winnt/Multiply128, winprog.multiply128
 ms.topic: function
-f1_keywords: ["winnt/Multiply128"]
+f1_keywords: 
+ - "winnt/Multiply128"
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

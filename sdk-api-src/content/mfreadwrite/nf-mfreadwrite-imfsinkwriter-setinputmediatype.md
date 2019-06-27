@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriter interface [Media Foundation],SetInputMediaType method, IMFSinkWriter.SetInputMediaType, IMFSinkWriter::SetInputMediaType, SetInputMediaType, SetInputMediaType method [Media Foundation], SetInputMediaType method [Media Foundation],IMFSinkWriter interface, mf.imfsinkwriter_setinputmediatype, mfreadwrite/IMFSinkWriter::SetInputMediaType
 ms.topic: method
-f1_keywords: ["mfreadwrite/IMFSinkWriter.SetInputMediaType"]
+f1_keywords: 
+ - "mfreadwrite/IMFSinkWriter.SetInputMediaType"
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

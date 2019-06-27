@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ButtonSelectAndActivate, ButtonSelectAndActivate method [DirectShow], ButtonSelectAndActivate method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],ButtonSelectAndActivate method, IDvdControl.ButtonSelectAndActivate, IDvdControl::ButtonSelectAndActivate, IDvdControlButtonSelectAndActivate, dshow.idvdcontrol_buttonselectandactivate, strmif/IDvdControl::ButtonSelectAndActivate
 ms.topic: method
-f1_keywords: ["strmif/IDvdControl.ButtonSelectAndActivate"]
+f1_keywords: 
+ - "strmif/IDvdControl.ButtonSelectAndActivate"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

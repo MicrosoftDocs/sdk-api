@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMDSPEnumDevice interface [windows Media Device Manager],Next method, IMDSPEnumDevice.Next, IMDSPEnumDevice::Next, IMDSPEnumDeviceNext, Next, Next method [windows Media Device Manager], Next method [windows Media Device Manager],IMDSPEnumDevice interface, mswmdm/IMDSPEnumDevice::Next, wmdm.imdspenumdevice_next
 ms.topic: method
-f1_keywords: ["mswmdm/IMDSPEnumDevice.Next"]
+f1_keywords: 
+ - "mswmdm/IMDSPEnumDevice.Next"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

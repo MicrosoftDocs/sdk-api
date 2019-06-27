@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: REGCLS, REGCLS enumeration [COM], REGCLS_AGILE, REGCLS_MULTIPLEUSE, REGCLS_MULTI_SEPARATE, REGCLS_SINGLEUSE, REGCLS_SURROGATE, REGCLS_SUSPENDED, _com_REGCLS, com.regcls, combaseapi/REGCLS, combaseapi/REGCLS_AGILE, combaseapi/REGCLS_MULTIPLEUSE, combaseapi/REGCLS_MULTI_SEPARATE, combaseapi/REGCLS_SINGLEUSE, combaseapi/REGCLS_SURROGATE, combaseapi/REGCLS_SUSPENDED
 ms.topic: enum
-f1_keywords: ["combaseapi/REGCLS"]
+f1_keywords: 
+ - "combaseapi/REGCLS"
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

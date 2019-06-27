@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFillLockBytes, IFillLockBytes interface [Structured Storage], IFillLockBytes interface [Structured Storage],described, _stg_ifilllockbytes, objidl/IFillLockBytes, stg.ifilllockbytes
 ms.topic: interface
-f1_keywords: ["objidl/IFillLockBytes"]
+f1_keywords: 
+ - "objidl/IFillLockBytes"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

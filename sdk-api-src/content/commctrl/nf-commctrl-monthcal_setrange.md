@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GDTR_MAX, GDTR_MIN, MonthCal_SetRange, MonthCal_SetRange macro [Windows Controls], _win32_MonthCal_SetRange, _win32_MonthCal_SetRange_cpp, commctrl/MonthCal_SetRange, controls.MonthCal_SetRange, controls._win32_MonthCal_SetRange
 ms.topic: macro
-f1_keywords: ["commctrl/MonthCal_SetRange"]
+f1_keywords: 
+ - "commctrl/MonthCal_SetRange"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

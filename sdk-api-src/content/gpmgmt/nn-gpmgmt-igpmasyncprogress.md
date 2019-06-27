@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGPMAsyncProgress, IGPMAsyncProgress interface [GPMC], IGPMAsyncProgress interface [GPMC],described, _win32_igpmasyncprogress, gpmc.igpmasyncprogress, gpmgmt/IGPMAsyncProgress
 ms.topic: interface
-f1_keywords: ["gpmgmt/IGPMAsyncProgress"]
+f1_keywords: 
+ - "gpmgmt/IGPMAsyncProgress"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

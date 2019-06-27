@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTrusteeType, GetTrusteeType function [Security], GetTrusteeTypeA, GetTrusteeTypeW, _win32_gettrusteetype, aclapi/GetTrusteeType, aclapi/GetTrusteeTypeA, aclapi/GetTrusteeTypeW, security.gettrusteetype
 ms.topic: function
-f1_keywords: ["aclapi/GetTrusteeType"]
+f1_keywords: 
+ - "aclapi/GetTrusteeType"
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

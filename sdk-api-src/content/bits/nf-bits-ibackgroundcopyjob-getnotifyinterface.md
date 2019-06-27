@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNotifyInterface, GetNotifyInterface method [BITS], GetNotifyInterface method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetNotifyInterface method, IBackgroundCopyJob.GetNotifyInterface, IBackgroundCopyJob::GetNotifyInterface, _drz_ibackgroundcopyjob_getnotifyinterface, bits.ibackgroundcopyjob_getnotifyinterface, bits/IBackgroundCopyJob::GetNotifyInterface
 ms.topic: method
-f1_keywords: ["bits/IBackgroundCopyJob.GetNotifyInterface"]
+f1_keywords: 
+ - "bits/IBackgroundCopyJob.GetNotifyInterface"
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

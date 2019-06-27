@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BuildCommDCB, BuildCommDCB function, BuildCommDCBA, BuildCommDCBW, _win32_buildcommdcb, base.buildcommdcb, winbase/BuildCommDCB, winbase/BuildCommDCBA, winbase/BuildCommDCBW
 ms.topic: function
-f1_keywords: ["winbase/BuildCommDCB"]
+f1_keywords: 
+ - "winbase/BuildCommDCB"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

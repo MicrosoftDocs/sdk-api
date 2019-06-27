@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindNextStreamW, FindNextStreamW function [Files], _win32_findnextstreamw, base.findnextstreamw, fileapi/FindNextStreamW, fs.findnextstreamw
 ms.topic: function
-f1_keywords: ["fileapi/FindNextStreamW"]
+f1_keywords: 
+ - "fileapi/FindNextStreamW"
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows

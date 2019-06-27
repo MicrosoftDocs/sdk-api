@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbTaskInfo interface [Remote Desktop Services],Label property, ITsSbTaskInfo.Label, ITsSbTaskInfo.get_Label, ITsSbTaskInfo::Label, ITsSbTaskInfo::get_Label, Label property [Remote Desktop Services], Label property [Remote Desktop Services],ITsSbTaskInfo interface, get_Label, sbtsv/ITsSbTaskInfo::Label, sbtsv/ITsSbTaskInfo::get_Label, termserv.itssbtaskinfo_label
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbTaskInfo.Label"]
+f1_keywords: 
+ - "sbtsv/ITsSbTaskInfo.Label"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

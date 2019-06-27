@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCertServerExit object [Security],EnumerateAttributes method, EnumerateAttributes, EnumerateAttributes method [Security], EnumerateAttributes method [Security],CCertServerExit object, EnumerateAttributes method [Security],ICertServerExit interface, ICertServerExit interface [Security],EnumerateAttributes method, ICertServerExit.EnumerateAttributes, ICertServerExit::EnumerateAttributes, _certsrv_icertserverexit_enumerateattributes, certif/ICertServerExit::EnumerateAttributes, security.icertserverexit_enumerateattributes
 ms.topic: method
-f1_keywords: ["certif/ICertServerExit.EnumerateAttributes"]
+f1_keywords: 
+ - "certif/ICertServerExit.EnumerateAttributes"
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows

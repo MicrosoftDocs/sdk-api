@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SwapMouseButton, SwapMouseButton function [Keyboard and Mouse Input], _win32_SwapMouseButton, _win32_swapmousebutton_cpp, inputdev.swapmousebutton, winui._win32_swapmousebutton, winuser/SwapMouseButton
 ms.topic: function
-f1_keywords: ["winuser/SwapMouseButton"]
+f1_keywords: 
+ - "winuser/SwapMouseButton"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

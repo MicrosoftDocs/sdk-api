@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CredFreeCredentialsFn, CredFreeCredentialsFn callback, CrediFreeCredentials, CrediFreeCredentials callback function [Security], ntsecpkg/CrediFreeCredentials, security.credifreecredentials
 ms.topic: callback
-f1_keywords: ["ntsecpkg/CrediFreeCredentials"]
+f1_keywords: 
+ - "ntsecpkg/CrediFreeCredentials"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

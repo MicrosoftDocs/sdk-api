@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PINET_PORT_RESERVATION_TOKEN, INET_PORT_RESERVATION_TOKEN, INET_PORT_RESERVATION_TOKEN structure [Winsock], PINET_PORT_RESERVATION_TOKEN, PINET_PORT_RESERVATION_TOKEN structure pointer [Winsock], mstcpip/INET_PORT_RESERVATION_TOKEN, mstcpip/PINET_PORT_RESERVATION_TOKEN, winsock.inet_port_reservation_token"
 ms.topic: struct
-f1_keywords: ["mstcpip/INET_PORT_RESERVATION_TOKEN"]
+f1_keywords: 
+ - "mstcpip/INET_PORT_RESERVATION_TOKEN"
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows

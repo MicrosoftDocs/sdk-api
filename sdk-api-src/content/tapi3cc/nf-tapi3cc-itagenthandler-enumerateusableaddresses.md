@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumerateUsableAddresses, EnumerateUsableAddresses method [TAPI 2.2], EnumerateUsableAddresses method [TAPI 2.2],ITAgentHandler interface, ITAgentHandler interface [TAPI 2.2],EnumerateUsableAddresses method, ITAgentHandler.EnumerateUsableAddresses, ITAgentHandler::EnumerateUsableAddresses, _tapi3_itagenthandler_enumerateusableaddresses, tapi3.itagenthandler_enumerateusableaddresses, tapi3cc/ITAgentHandler::EnumerateUsableAddresses
 ms.topic: method
-f1_keywords: ["tapi3cc/ITAgentHandler.EnumerateUsableAddresses"]
+f1_keywords: 
+ - "tapi3cc/ITAgentHandler.EnumerateUsableAddresses"
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

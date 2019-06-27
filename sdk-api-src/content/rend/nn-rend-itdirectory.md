@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDirectory, ITDirectory interface [TAPI 2.2], ITDirectory interface [TAPI 2.2],described, _tapi3_itdirectory, rend/ITDirectory, tapi3.itdirectory
 ms.topic: interface
-f1_keywords: ["rend/ITDirectory"]
+f1_keywords: 
+ - "rend/ITDirectory"
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfContextOwnerCompositionSink interface [Text Services Framework],OnUpdateComposition method, ITfContextOwnerCompositionSink.OnUpdateComposition, ITfContextOwnerCompositionSink::OnUpdateComposition, OnUpdateComposition, OnUpdateComposition method [Text Services Framework], OnUpdateComposition method [Text Services Framework],ITfContextOwnerCompositionSink interface, _tsf_itfcontextownercompositionsink_onupdatecomposition_ref, msctf/ITfContextOwnerCompositionSink::OnUpdateComposition, tsf.itfcontextownercompositionsink_onupdatecomposition
 ms.topic: method
-f1_keywords: ["msctf/ITfContextOwnerCompositionSink.OnUpdateComposition"]
+f1_keywords: 
+ - "msctf/ITfContextOwnerCompositionSink.OnUpdateComposition"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

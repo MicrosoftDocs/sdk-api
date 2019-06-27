@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectDraw7, IDirectDraw7 interface [DirectDraw], IDirectDraw7 interface [DirectDraw],described, ddraw/IDirectDraw7, directdraw.idirectdraw7
 ms.topic: interface
-f1_keywords: ["ddraw/IDirectDraw7"]
+f1_keywords: 
+ - "ddraw/IDirectDraw7"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

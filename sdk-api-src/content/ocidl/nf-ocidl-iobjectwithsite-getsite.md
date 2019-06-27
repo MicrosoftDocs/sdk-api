@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSite, GetSite method [COM], GetSite method [COM],IObjectWithSite interface, IObjectWithSite interface [COM],GetSite method, IObjectWithSite.GetSite, IObjectWithSite::GetSite, _ole_iobjectwithsite_getsite, com.iobjectwithsite_getsite, ocidl/IObjectWithSite::GetSite
 ms.topic: method
-f1_keywords: ["ocidl/IObjectWithSite.GetSite"]
+f1_keywords: 
+ - "ocidl/IObjectWithSite.GetSite"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

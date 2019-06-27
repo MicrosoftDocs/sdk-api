@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtmReleaseRoutes, RtmReleaseRoutes function [RAS], _rtmv2ref_rtmreleaseroutes, rras.rtmreleaseroutes, rtmv2/RtmReleaseRoutes
 ms.topic: function
-f1_keywords: ["rtmv2/RtmReleaseRoutes"]
+f1_keywords: 
+ - "rtmv2/RtmReleaseRoutes"
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

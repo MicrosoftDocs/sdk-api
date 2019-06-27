@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthFlags property [Security], AuthFlags property [Security],IX509PolicyServerUrl interface, IX509PolicyServerUrl interface [Security],AuthFlags property, IX509PolicyServerUrl.AuthFlags, IX509PolicyServerUrl.get_AuthFlags, IX509PolicyServerUrl::AuthFlags, IX509PolicyServerUrl::get_AuthFlags, IX509PolicyServerUrl::put_AuthFlags, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/IX509PolicyServerUrl::AuthFlags, certenroll/IX509PolicyServerUrl::get_AuthFlags, certenroll/IX509PolicyServerUrl::put_AuthFlags, get_AuthFlags, security.ix509policyserverurl_authflags
 ms.topic: method
-f1_keywords: ["certenroll/IX509PolicyServerUrl.AuthFlags"]
+f1_keywords: 
+ - "certenroll/IX509PolicyServerUrl.AuthFlags"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PVDS_DISK_PROP2, PVDS_DISK_PROP2, PVDS_DISK_PROP2 structure pointer, VDS_DISK_PROP2, VDS_DISK_PROP2 structure, VDS_H_FAILED, VDS_H_FAILING, VDS_H_HEALTHY, VDS_H_UNKNOWN, base.vds_disk_prop2, vds/PVDS_DISK_PROP2, vds/VDS_DISK_PROP2"
 ms.topic: struct
-f1_keywords: ["vds/VDS_DISK_PROP2"]
+f1_keywords: 
+ - "vds/VDS_DISK_PROP2"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

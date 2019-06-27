@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6581ca11-abcb-9ae4-0972-0f8f36933283, D3D11_MAPPED_SUBRESOURCE, D3D11_MAPPED_SUBRESOURCE structure [Direct3D 11], d3d11/D3D11_MAPPED_SUBRESOURCE, direct3d11.d3d11_mapped_subresource
 ms.topic: struct
-f1_keywords: ["d3d11/D3D11_MAPPED_SUBRESOURCE"]
+f1_keywords: 
+ - "d3d11/D3D11_MAPPED_SUBRESOURCE"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

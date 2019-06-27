@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SCardListCards, SCardListCards function [Security], SCardListCardsA, SCardListCardsW, _smart_scardlistcards, security.scardlistcards, winscard/SCardListCards, winscard/SCardListCardsA, winscard/SCardListCardsW
 ms.topic: function
-f1_keywords: ["winscard/SCardListCards"]
+f1_keywords: 
+ - "winscard/SCardListCards"
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

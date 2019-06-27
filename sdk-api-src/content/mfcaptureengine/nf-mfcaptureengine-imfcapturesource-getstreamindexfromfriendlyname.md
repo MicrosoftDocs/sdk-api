@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStreamIndexFromFriendlyName, GetStreamIndexFromFriendlyName method [Media Foundation], GetStreamIndexFromFriendlyName method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetStreamIndexFromFriendlyName method, IMFCaptureSource.GetStreamIndexFromFriendlyName, IMFCaptureSource::GetStreamIndexFromFriendlyName, mf.imfcapturesource_getstreamindexfromfriendlyname, mfcaptureengine/IMFCaptureSource::GetStreamIndexFromFriendlyName
 ms.topic: method
-f1_keywords: ["mfcaptureengine/IMFCaptureSource.GetStreamIndexFromFriendlyName"]
+f1_keywords: 
+ - "mfcaptureengine/IMFCaptureSource.GetStreamIndexFromFriendlyName"
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

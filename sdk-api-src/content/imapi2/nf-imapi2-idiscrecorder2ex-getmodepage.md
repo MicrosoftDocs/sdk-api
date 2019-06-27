@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetModePage, GetModePage method [IMAPI], GetModePage method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetModePage method, IDiscRecorder2Ex.GetModePage, IDiscRecorder2Ex::GetModePage, imapi.idiscrecorder2ex_getmodepage, imapi2/IDiscRecorder2Ex::GetModePage
 ms.topic: method
-f1_keywords: ["imapi2/IDiscRecorder2Ex.GetModePage"]
+f1_keywords: 
+ - "imapi2/IDiscRecorder2Ex.GetModePage"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

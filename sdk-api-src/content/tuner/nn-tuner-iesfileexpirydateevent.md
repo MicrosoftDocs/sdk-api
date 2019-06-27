@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IESFileExpiryDateEvent, IESFileExpiryDateEvent interface [Microsoft TV Technologies], IESFileExpiryDateEvent interface [Microsoft TV Technologies],described, mstv.iesfileexpirydateevent, tuner/IESFileExpiryDateEvent
 ms.topic: interface
-f1_keywords: ["tuner/IESFileExpiryDateEvent"]
+f1_keywords: 
+ - "tuner/IESFileExpiryDateEvent"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

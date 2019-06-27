@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcNsProfileEltInqDone, RpcNsProfileEltInqDone function [RPC], _rpc_rpcnsprofileeltinqdone, rpc.rpcnsprofileeltinqdone, rpcnsi/RpcNsProfileEltInqDone
 ms.topic: function
-f1_keywords: ["rpcnsi/RpcNsProfileEltInqDone"]
+f1_keywords: 
+ - "rpcnsi/RpcNsProfileEltInqDone"
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows

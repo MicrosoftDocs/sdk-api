@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSecPkgContext_SessionKey, PSecPkgContext_SessionKey, PSecPkgContext_SessionKey structure pointer [Security], SecPkgContext_SessionKey, SecPkgContext_SessionKey structure [Security], security.secpkgcontext_sessionkey, sspi/PSecPkgContext_SessionKey, sspi/SecPkgContext_SessionKey"
 ms.topic: struct
-f1_keywords: ["sspi/SecPkgContext_SessionKey"]
+f1_keywords: 
+ - "sspi/SecPkgContext_SessionKey"
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

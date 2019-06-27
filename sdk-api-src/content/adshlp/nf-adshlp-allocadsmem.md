@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllocADsMem, AllocADsMem function [ADSI], _ds_allocadsmem, adshlp/AllocADsMem, adsi.allocadsmem
 ms.topic: function
-f1_keywords: ["adshlp/AllocADsMem"]
+f1_keywords: 
+ - "adshlp/AllocADsMem"
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows

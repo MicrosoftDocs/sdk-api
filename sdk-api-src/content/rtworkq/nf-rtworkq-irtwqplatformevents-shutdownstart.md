@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRtwqPlatformEvents interface,ShutdownStart method, IRtwqPlatformEvents.ShutdownStart, IRtwqPlatformEvents::ShutdownStart, ShutdownStart, ShutdownStart method, ShutdownStart method,IRtwqPlatformEvents interface, base.irtwqplatformevents_shutdownstart, rtworkq/IRtwqPlatformEvents::ShutdownStart
 ms.topic: method
-f1_keywords: ["rtworkq/IRtwqPlatformEvents.ShutdownStart"]
+f1_keywords: 
+ - "rtworkq/IRtwqPlatformEvents.ShutdownStart"
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

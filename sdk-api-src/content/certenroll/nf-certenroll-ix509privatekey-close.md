@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Security], Close method [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],Close method, IX509PrivateKey.Close, IX509PrivateKey::Close, certenroll/IX509PrivateKey::Close, security.ix509privatekey_close_method
 ms.topic: method
-f1_keywords: ["certenroll/IX509PrivateKey.Close"]
+f1_keywords: 
+ - "certenroll/IX509PrivateKey.Close"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

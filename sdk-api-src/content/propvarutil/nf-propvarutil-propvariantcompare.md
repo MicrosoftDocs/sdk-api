@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantCompare, PropVariantCompare function [Windows Properties], _shell_PropVariantCompare, properties.PropVariantCompare, propvarutil/PropVariantCompare, shell.PropVariantCompare
 ms.topic: function
-f1_keywords: ["propvarutil/PropVariantCompare"]
+f1_keywords: 
+ - "propvarutil/PropVariantCompare"
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

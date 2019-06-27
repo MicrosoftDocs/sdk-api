@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D10StateBlock interface [Direct3D 10],ReleaseAllDeviceObjects method, ID3D10StateBlock.ReleaseAllDeviceObjects, ID3D10StateBlock::ReleaseAllDeviceObjects, ReleaseAllDeviceObjects, ReleaseAllDeviceObjects method [Direct3D 10], ReleaseAllDeviceObjects method [Direct3D 10],ID3D10StateBlock interface, d3d10effect/ID3D10StateBlock::ReleaseAllDeviceObjects, direct3d10.id3d10stateblock_releasealldeviceobjects, fbca6160-5745-e714-9c14-1caf025016ad
 ms.topic: method
-f1_keywords: ["d3d10effect/ID3D10StateBlock.ReleaseAllDeviceObjects"]
+f1_keywords: 
+ - "d3d10effect/ID3D10StateBlock.ReleaseAllDeviceObjects"
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

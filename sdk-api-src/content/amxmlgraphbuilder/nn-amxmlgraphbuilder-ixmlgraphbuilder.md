@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXMLGraphBuilder, IXMLGraphBuilder interface [DirectShow], IXMLGraphBuilder interface [DirectShow],described, IXMLGraphBuilderInterface, amxmlgraphbuilder/IXMLGraphBuilder, dshow.ixmlgraphbuilder
 ms.topic: interface
-f1_keywords: ["amxmlgraphbuilder/IXMLGraphBuilder"]
+f1_keywords: 
+ - "amxmlgraphbuilder/IXMLGraphBuilder"
 req.header: amxmlgraphbuilder.h
 req.include-header: 
 req.target-type: Windows

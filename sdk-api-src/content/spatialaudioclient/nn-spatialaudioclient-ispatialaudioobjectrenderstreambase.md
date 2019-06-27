@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectRenderStreamBase, ISpatialAudioObjectRenderStreamBase interface [Core Audio], ISpatialAudioObjectRenderStreamBase interface [Core Audio],described, coreaudio.ispatialaudioobjectrenderstreambase, spatialaudioclient/ISpatialAudioObjectRenderStreamBase
 ms.topic: interface
-f1_keywords: ["spatialaudioclient/ISpatialAudioObjectRenderStreamBase"]
+f1_keywords: 
+ - "spatialaudioclient/ISpatialAudioObjectRenderStreamBase"
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

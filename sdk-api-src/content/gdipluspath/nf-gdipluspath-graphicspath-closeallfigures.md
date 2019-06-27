@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseAllFigures, CloseAllFigures method [GDI+], CloseAllFigures method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],CloseAllFigures method, GraphicsPath.CloseAllFigures, GraphicsPath::CloseAllFigures, _gdiplus_CLASS_GraphicsPath_CloseAllFigures_, gdiplus._gdiplus_CLASS_GraphicsPath_CloseAllFigures_
 ms.topic: method
-f1_keywords: ["gdipluspath/GraphicsPath.CloseAllFigures"]
+f1_keywords: 
+ - "gdipluspath/GraphicsPath.CloseAllFigures"
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

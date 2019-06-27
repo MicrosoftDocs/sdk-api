@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICommDlgBrowser interface [Windows Shell],OnDefaultCommand method, ICommDlgBrowser.OnDefaultCommand, ICommDlgBrowser::OnDefaultCommand, OnDefaultCommand, OnDefaultCommand method [Windows Shell], OnDefaultCommand method [Windows Shell],ICommDlgBrowser interface, _win32_ICommDlgBrowser_OnDefaultCommand, shell.ICommDlgBrowser_OnDefaultCommand, shobjidl_core/ICommDlgBrowser::OnDefaultCommand
 ms.topic: method
-f1_keywords: ["shobjidl_core/ICommDlgBrowser.OnDefaultCommand"]
+f1_keywords: 
+ - "shobjidl_core/ICommDlgBrowser.OnDefaultCommand"
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

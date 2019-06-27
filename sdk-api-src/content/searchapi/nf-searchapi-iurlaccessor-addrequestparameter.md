@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddRequestParameter, AddRequestParameter method [search], AddRequestParameter method [search],IUrlAccessor interface, IUrlAccessor interface [search],AddRequestParameter method, IUrlAccessor.AddRequestParameter, IUrlAccessor::AddRequestParameter, _search_IUrlAccessor_AddRequestParameter, search._search_IUrlAccessor_AddRequestParameter, searchapi/IUrlAccessor::AddRequestParameter
 ms.topic: method
-f1_keywords: ["searchapi/IUrlAccessor.AddRequestParameter"]
+f1_keywords: 
+ - "searchapi/IUrlAccessor.AddRequestParameter"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

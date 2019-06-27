@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathCommonPrefix, PathCommonPrefix function [Windows Shell], PathCommonPrefixA, PathCommonPrefixW, _win32_PathCommonPrefix, shell.PathCommonPrefix, shlwapi/PathCommonPrefix, shlwapi/PathCommonPrefixA, shlwapi/PathCommonPrefixW
 ms.topic: function
-f1_keywords: ["shlwapi/PathCommonPrefix"]
+f1_keywords: 
+ - "shlwapi/PathCommonPrefix"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

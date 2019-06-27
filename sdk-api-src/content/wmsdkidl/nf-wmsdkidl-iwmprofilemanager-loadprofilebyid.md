@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMProfileManager interface [windows Media Format],LoadProfileByID method, IWMProfileManager.LoadProfileByID, IWMProfileManager::LoadProfileByID, IWMProfileManagerLoadProfileByID, LoadProfileByID, LoadProfileByID method [windows Media Format], LoadProfileByID method [windows Media Format],IWMProfileManager interface, wmformat.iwmprofilemanager_loadprofilebyid, wmsdkidl/IWMProfileManager::LoadProfileByID
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMProfileManager.LoadProfileByID"]
+f1_keywords: 
+ - "wmsdkidl/IWMProfileManager.LoadProfileByID"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

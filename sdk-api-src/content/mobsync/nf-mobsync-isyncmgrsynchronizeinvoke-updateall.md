@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronizeInvoke interface [Windows Shell],UpdateAll method, ISyncMgrSynchronizeInvoke.UpdateAll, ISyncMgrSynchronizeInvoke::UpdateAll, UpdateAll, UpdateAll method [Windows Shell], UpdateAll method [Windows Shell],ISyncMgrSynchronizeInvoke interface, mobsync/ISyncMgrSynchronizeInvoke::UpdateAll, shell.syncmgr_isyncmgrsynchronizeinvoke_updateall, syncmgr.isyncmgrsynchronizeinvoke_updateall
 ms.topic: method
-f1_keywords: ["mobsync/ISyncMgrSynchronizeInvoke.UpdateAll"]
+f1_keywords: 
+ - "mobsync/ISyncMgrSynchronizeInvoke.UpdateAll"
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

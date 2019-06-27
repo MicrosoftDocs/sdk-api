@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderRefreshSettings, WdsTransportProviderRefreshSettings callback, WdsTransportProviderRefreshSettings callback function [Windows Deployment Services], wds.wdstransportproviderrefreshsettings, wdstpdi/WdsTransportProviderRefreshSettings
 ms.topic: function
-f1_keywords: ["wdstpdi/WdsTransportProviderRefreshSettings"]
+f1_keywords: 
+ - "wdstpdi/WdsTransportProviderRefreshSettings"
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

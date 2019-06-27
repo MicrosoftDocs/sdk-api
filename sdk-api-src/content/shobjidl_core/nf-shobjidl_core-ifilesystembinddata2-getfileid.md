@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFileID, GetFileID method [Windows Shell], GetFileID method [Windows Shell],IFileSystemBindData2 interface, IFileSystemBindData2 interface [Windows Shell],GetFileID method, IFileSystemBindData2.GetFileID, IFileSystemBindData2::GetFileID, _shell_IFileSystemBindData2_GetFileID, shell.IFileSystemBindData2_GetFileID, shobjidl_core/IFileSystemBindData2::GetFileID
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileSystemBindData2.GetFileID"]
+f1_keywords: 
+ - "shobjidl_core/IFileSystemBindData2.GetFileID"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

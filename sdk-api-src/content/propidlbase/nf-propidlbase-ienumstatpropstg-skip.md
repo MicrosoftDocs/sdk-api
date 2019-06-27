@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSTATPROPSTG interface [Structured Storage],Skip method, IEnumSTATPROPSTG.Skip, IEnumSTATPROPSTG::Skip, Skip, Skip method [Structured Storage], Skip method [Structured Storage],IEnumSTATPROPSTG interface, propidlbase/IEnumSTATPROPSTG::Skip, stg.ienumstatpropstg_skip
 ms.topic: method
-f1_keywords: ["propidlbase/IEnumSTATPROPSTG.Skip"]
+f1_keywords: 
+ - "propidlbase/IEnumSTATPROPSTG.Skip"
 req.header: propidlbase.h
 req.include-header: Propidl.h
 req.target-type: Windows

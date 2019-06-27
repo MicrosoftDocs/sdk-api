@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetNetworkInformation, SetNetworkInformation function [Network Drivers Starting with Windows Vista], iphelper_d0cffca7-e9e7-404a-ab30-e2a2d6f66c14.xml, netioapi/SetNetworkInformation, netvista.setnetworkinformation
 ms.topic: function
-f1_keywords: ["netioapi/SetNetworkInformation"]
+f1_keywords: 
+ - "netioapi/SetNetworkInformation"
 req.header: netioapi.h
 req.include-header: 
 req.target-type: Windows

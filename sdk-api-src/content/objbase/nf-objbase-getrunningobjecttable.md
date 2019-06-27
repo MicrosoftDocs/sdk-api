@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRunningObjectTable, GetRunningObjectTable function [COM], _com_GetRunningObjectTable, com.getrunningobjecttable, objbase/GetRunningObjectTable
 ms.topic: function
-f1_keywords: ["objbase/GetRunningObjectTable"]
+f1_keywords: 
+ - "objbase/GetRunningObjectTable"
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetBorderColor method, IMFPMediaPlayer.SetBorderColor, IMFPMediaPlayer::SetBorderColor, SetBorderColor, SetBorderColor method [Media Foundation], SetBorderColor method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setbordercolor, mfplay/IMFPMediaPlayer::SetBorderColor
 ms.topic: method
-f1_keywords: ["mfplay/IMFPMediaPlayer.SetBorderColor"]
+f1_keywords: 
+ - "mfplay/IMFPMediaPlayer.SetBorderColor"
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

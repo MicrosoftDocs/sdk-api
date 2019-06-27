@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XPS_DASH, XPS_DASH structure [XPS Documents and Packaging], xps.xps_dash, xpsobjectmodel/XPS_DASH
 ms.topic: struct
-f1_keywords: ["xpsobjectmodel/XPS_DASH"]
+f1_keywords: 
+ - "xpsobjectmodel/XPS_DASH"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSS_PERFORMANCE_COUNTERS, PSS_PERFORMANCE_COUNTERS structure, proc_snap.pss_performance_counters, processsnapshot/PSS_PERFORMANCE_COUNTERS
 ms.topic: struct
-f1_keywords: ["processsnapshot/PSS_PERFORMANCE_COUNTERS"]
+f1_keywords: 
+ - "processsnapshot/PSS_PERFORMANCE_COUNTERS"
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

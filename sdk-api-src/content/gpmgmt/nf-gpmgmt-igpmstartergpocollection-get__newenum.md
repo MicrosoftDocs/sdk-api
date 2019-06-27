@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGPMStarterGPOCollection interface [GPMC],get__NewEnum method, IGPMStarterGPOCollection.get__NewEnum, IGPMStarterGPOCollection::get__NewEnum, get__NewEnum, get__NewEnum method [GPMC], get__NewEnum method [GPMC],IGPMStarterGPOCollection interface, gpmc.igpmstartergpocollection_get__newenum, gpmgmt/IGPMStarterGPOCollection::get__NewEnum
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMStarterGPOCollection.get__NewEnum"]
+f1_keywords: 
+ - "gpmgmt/IGPMStarterGPOCollection.get__NewEnum"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

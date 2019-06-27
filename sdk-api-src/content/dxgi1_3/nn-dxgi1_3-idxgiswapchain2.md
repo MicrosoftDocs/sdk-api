@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChain2, IDXGISwapChain2 interface [DXGI], IDXGISwapChain2 interface [DXGI],described, direct3ddxgi.idxgiswapchain2, dxgi1_3/IDXGISwapChain2
 ms.topic: interface
-f1_keywords: ["dxgi1_3/IDXGISwapChain2"]
+f1_keywords: 
+ - "dxgi1_3/IDXGISwapChain2"
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

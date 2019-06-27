@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],InformUIClosed method, IBDA_ConditionalAccess.InformUIClosed, IBDA_ConditionalAccess::InformUIClosed, IBDA_ConditionalAccessInformUIClosed, InformUIClosed, InformUIClosed method [Microsoft TV Technologies], InformUIClosed method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, bdaiface/IBDA_ConditionalAccess::InformUIClosed, mstv.ibda_conditionalaccess_informuiclosed
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_ConditionalAccess.InformUIClosed"]
+f1_keywords: 
+ - "bdaiface/IBDA_ConditionalAccess.InformUIClosed"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

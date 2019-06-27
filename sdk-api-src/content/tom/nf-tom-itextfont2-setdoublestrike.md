@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetDoubleStrike method, ITextFont2.SetDoubleStrike, ITextFont2::SetDoubleStrike, SetDoubleStrike, SetDoubleStrike method [Windows Controls], SetDoubleStrike method [Windows Controls],ITextFont2 interface, controls.itextfont2_setdoublestrike, tom/ITextFont2::SetDoubleStrike
 ms.topic: method
-f1_keywords: ["tom/ITextFont2.SetDoubleStrike"]
+f1_keywords: 
+ - "tom/ITextFont2.SetDoubleStrike"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

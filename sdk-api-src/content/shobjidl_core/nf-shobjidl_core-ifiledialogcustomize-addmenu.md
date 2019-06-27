@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddMenu, AddMenu method [Windows Shell], AddMenu method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddMenu method, IFileDialogCustomize.AddMenu, IFileDialogCustomize::AddMenu, shell.IFileDialogCustomize_AddMenu, shell_IFileDialogCustomize_AddMenu, shobjidl_core/IFileDialogCustomize::AddMenu
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileDialogCustomize.AddMenu"]
+f1_keywords: 
+ - "shobjidl_core/IFileDialogCustomize.AddMenu"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

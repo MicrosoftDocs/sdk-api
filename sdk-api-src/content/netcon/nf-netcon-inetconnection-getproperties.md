@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [ICS/ICF], GetProperties method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],GetProperties method, INetConnection.GetProperties, INetConnection::GetProperties, _ics_inetconnection_getproperties, ics.inetconnection_getproperties, netcon/INetConnection::GetProperties
 ms.topic: method
-f1_keywords: ["netcon/INetConnection.GetProperties"]
+f1_keywords: 
+ - "netcon/INetConnection.GetProperties"
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

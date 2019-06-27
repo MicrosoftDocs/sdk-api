@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRetrievalFilterStackSize, GetRetrievalFilterStackSize method [DXGI], GetRetrievalFilterStackSize method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetRetrievalFilterStackSize method, IDXGIInfoQueue.GetRetrievalFilterStackSize, IDXGIInfoQueue::GetRetrievalFilterStackSize, direct3ddxgi.idxgiinfoqueue_getretrievalfilterstacksize, dxgidebug/IDXGIInfoQueue::GetRetrievalFilterStackSize
 ms.topic: method
-f1_keywords: ["dxgidebug/IDXGIInfoQueue.GetRetrievalFilterStackSize"]
+f1_keywords: 
+ - "dxgidebug/IDXGIInfoQueue.GetRetrievalFilterStackSize"
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

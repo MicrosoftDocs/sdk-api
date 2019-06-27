@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAttributes, GetAttributes method [Media Foundation], GetAttributes method [Media Foundation],IMFMuxStreamAttributesManager interface, IMFMuxStreamAttributesManager interface [Media Foundation],GetAttributes method, IMFMuxStreamAttributesManager.GetAttributes, IMFMuxStreamAttributesManager::GetAttributes, mf.imfmuxstreamattributesmanager_getattributes, mfobjects/IMFMuxStreamAttributesManager::GetAttributes
 ms.topic: method
-f1_keywords: ["mfobjects/IMFMuxStreamAttributesManager.GetAttributes"]
+f1_keywords: 
+ - "mfobjects/IMFMuxStreamAttributesManager.GetAttributes"
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows

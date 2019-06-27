@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddBezier, AddBezier method [Direct2D], AddBezier method [Direct2D],ID2D1GeometrySink interface, ID2D1GeometrySink interface [Direct2D],AddBezier method, ID2D1GeometrySink.AddBezier, ID2D1GeometrySink.AddBezier(const D2D1_BEZIER_SEGMENT), ID2D1GeometrySink::AddBezier, ID2D1GeometrySink::AddBezier(const D2D1_BEZIER_SEGMENT), d2d1/ID2D1GeometrySink::AddBezier, direct2d.ID2D1GeometrySink_AddBezier_ptr_D2D1_BEZIER_SEGMENT
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1GeometrySink.AddBezier"]
+f1_keywords: 
+ - "d2d1/ID2D1GeometrySink.AddBezier"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

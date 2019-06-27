@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawStrikethrough, DrawStrikethrough method [Direct Write], DrawStrikethrough method [Direct Write],IDWriteTextRenderer interface, IDWriteTextRenderer interface [Direct Write],DrawStrikethrough method, IDWriteTextRenderer.DrawStrikethrough, IDWriteTextRenderer::DrawStrikethrough, directwrite.IDWriteTextRenderer_DrawStrikethrough, dwrite/IDWriteTextRenderer::DrawStrikethrough
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextRenderer.DrawStrikethrough"]
+f1_keywords: 
+ - "dwrite/IDWriteTextRenderer.DrawStrikethrough"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

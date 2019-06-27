@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGlyphPlacements, GetGlyphPlacements method [Direct Write], GetGlyphPlacements method [Direct Write],IDWriteTextAnalyzer interface, IDWriteTextAnalyzer interface [Direct Write],GetGlyphPlacements method, IDWriteTextAnalyzer.GetGlyphPlacements, IDWriteTextAnalyzer::GetGlyphPlacements, directwrite.IDWriteTextAnalyzer_GetGlyphPlacements, dwrite/IDWriteTextAnalyzer::GetGlyphPlacements
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextAnalyzer.GetGlyphPlacements"]
+f1_keywords: 
+ - "dwrite/IDWriteTextAnalyzer.GetGlyphPlacements"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

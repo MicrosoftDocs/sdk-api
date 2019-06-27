@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiDetermineApplicablePatches, MsiDetermineApplicablePatches function, MsiDetermineApplicablePatchesA, MsiDetermineApplicablePatchesW, msi/MsiDetermineApplicablePatches, msi/MsiDetermineApplicablePatchesA, msi/MsiDetermineApplicablePatchesW, setup.msidetermineapplicablepatches
 ms.topic: function
-f1_keywords: ["msi/MsiDetermineApplicablePatches"]
+f1_keywords: 
+ - "msi/MsiDetermineApplicablePatches"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

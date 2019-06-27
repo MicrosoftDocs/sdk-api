@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSEC_WINNT_AUTH_IDENTITY, *PSEC_WINNT_AUTH_IDENTITY structure [RPC], *PSEC_WINNT_AUTH_IDENTITY_W, SEC_WINNT_AUTH_IDENTITY, SEC_WINNT_AUTH_IDENTITY structure [RPC], SEC_WINNT_AUTH_IDENTITY_A, SEC_WINNT_AUTH_IDENTITY_ANSI, SEC_WINNT_AUTH_IDENTITY_UNICODE, SEC_WINNT_AUTH_IDENTITY_W, _SEC_WINNT_AUTH_IDENTITY_A, _SEC_WINNT_AUTH_IDENTITY_W, _rpc_sec_winnt_auth_identity, rpc.sec_winnt_auth_identity, rpcdce/*PSEC_WINNT_AUTH_IDENTITY, rpcdce/SEC_WINNT_AUTH_IDENTITY"
 ms.topic: struct
-f1_keywords: ["rpcdce/SEC_WINNT_AUTH_IDENTITY"]
+f1_keywords: 
+ - "rpcdce/SEC_WINNT_AUTH_IDENTITY"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

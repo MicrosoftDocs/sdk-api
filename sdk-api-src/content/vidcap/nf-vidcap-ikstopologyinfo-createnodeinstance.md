@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateNodeInstance, CreateNodeInstance method [DirectShow], CreateNodeInstance method [DirectShow],IKsTopologyInfo interface, IKsTopologyInfo interface [DirectShow],CreateNodeInstance method, IKsTopologyInfo.CreateNodeInstance, IKsTopologyInfo::CreateNodeInstance, IKsTopologyInfoCreateNodeInstance, dshow.ikstopologyinfo_createnodeinstance, vidcap/IKsTopologyInfo::CreateNodeInstance
 ms.topic: method
-f1_keywords: ["vidcap/IKsTopologyInfo.CreateNodeInstance"]
+f1_keywords: 
+ - "vidcap/IKsTopologyInfo.CreateNodeInstance"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

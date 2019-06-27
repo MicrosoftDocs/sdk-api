@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1GdiInteropRenderTarget interface [Direct2D],ReleaseDC method, ID2D1GdiInteropRenderTarget.ReleaseDC, ID2D1GdiInteropRenderTarget::ReleaseDC, ReleaseDC, ReleaseDC method [Direct2D], ReleaseDC method [Direct2D],ID2D1GdiInteropRenderTarget interface, d2d1/ID2D1GdiInteropRenderTarget::ReleaseDC, direct2d.ID2D1GdiInteropRenderTarget_ReleaseDC
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1GdiInteropRenderTarget.ReleaseDC"]
+f1_keywords: 
+ - "d2d1/ID2D1GdiInteropRenderTarget.ReleaseDC"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

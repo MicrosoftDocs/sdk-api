@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EncryptionBlt, EncryptionBlt method [Media Foundation], EncryptionBlt method [Media Foundation],IDirect3DCryptoSession9 interface, IDirect3DCryptoSession9 interface [Media Foundation],EncryptionBlt method, IDirect3DCryptoSession9.EncryptionBlt, IDirect3DCryptoSession9::EncryptionBlt, d3d9/IDirect3DCryptoSession9::EncryptionBlt, mf.idirect3dcryptosession9_encryptionblt
 ms.topic: method
-f1_keywords: ["d3d9/IDirect3DCryptoSession9.EncryptionBlt"]
+f1_keywords: 
+ - "d3d9/IDirect3DCryptoSession9.EncryptionBlt"
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

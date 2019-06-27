@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],getCertContextFromPKCS7 method, IEnroll.getCertContextFromPKCS7, IEnroll2 interface [Security],getCertContextFromPKCS7 method, IEnroll2::getCertContextFromPKCS7, IEnroll::getCertContextFromPKCS7, getCertContextFromPKCS7, getCertContextFromPKCS7 method [Security], getCertContextFromPKCS7 method [Security],IEnroll interface, getCertContextFromPKCS7 method [Security],IEnroll2 interface, security.ienroll4_getcertcontextfrompkcs7, xenroll/IEnroll2::getCertContextFromPKCS7, xenroll/IEnroll::getCertContextFromPKCS7
 ms.topic: method
-f1_keywords: ["xenroll/IEnroll.getCertContextFromPKCS7"]
+f1_keywords: 
+ - "xenroll/IEnroll.getCertContextFromPKCS7"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

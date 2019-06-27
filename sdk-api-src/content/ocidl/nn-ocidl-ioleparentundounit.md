@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleParentUndoUnit, IOleParentUndoUnit interface [COM], IOleParentUndoUnit interface [COM],described, _ole_ioleparentundounit, com.ioleparentundounit, ocidl/IOleParentUndoUnit
 ms.topic: interface
-f1_keywords: ["ocidl/IOleParentUndoUnit"]
+f1_keywords: 
+ - "ocidl/IOleParentUndoUnit"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

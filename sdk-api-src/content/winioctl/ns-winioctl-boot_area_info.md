@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PBOOT_AREA_INFO, BOOT_AREA_INFO, BOOT_AREA_INFO structure [Files], PBOOT_AREA_INFO, PBOOT_AREA_INFO structure pointer [Files], fs.boot_area_info, winioctl/BOOT_AREA_INFO, winioctl/PBOOT_AREA_INFO"
 ms.topic: struct
-f1_keywords: ["winioctl/BOOT_AREA_INFO"]
+f1_keywords: 
+ - "winioctl/BOOT_AREA_INFO"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

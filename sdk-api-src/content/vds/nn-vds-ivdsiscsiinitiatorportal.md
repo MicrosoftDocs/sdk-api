@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiInitiatorPortal, IVdsIscsiInitiatorPortal interface [VDS], IVdsIscsiInitiatorPortal interface [VDS],described, base.ivdsiscsiinitiatorportal, vds/IVdsIscsiInitiatorPortal
 ms.topic: interface
-f1_keywords: ["vds/IVdsIscsiInitiatorPortal"]
+f1_keywords: 
+ - "vds/IVdsIscsiInitiatorPortal"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

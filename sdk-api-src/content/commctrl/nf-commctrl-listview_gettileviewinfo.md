@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_GetTileViewInfo, ListView_GetTileViewInfo macro [Windows Controls], _win32_ListView_GetTileViewInfo, _win32_ListView_GetTileViewInfo_cpp, commctrl/ListView_GetTileViewInfo, controls.ListView_GetTileViewInfo, controls._win32_ListView_GetTileViewInfo
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_GetTileViewInfo"]
+f1_keywords: 
+ - "commctrl/ListView_GetTileViewInfo"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

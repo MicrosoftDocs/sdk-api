@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BatteryClassQueryWmiDataBlock, BatteryClassQueryWmiDataBlock routine [Battery Devices], bat-rtn_da940bf9-529c-4fd7-a02f-b1d9ee8ea28f.xml, batclass/BatteryClassQueryWmiDataBlock, battery.batteryclassquerywmidatablock
 ms.topic: function
-f1_keywords: ["batclass/BatteryClassQueryWmiDataBlock"]
+f1_keywords: 
+ - "batclass/BatteryClassQueryWmiDataBlock"
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Desktop

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSTART_COMPLETE, PSTART_COMPLETE callback, StartComplete, StartComplete callback function [RAS], _mpr_startcomplete, routprot/StartComplete, rras.startcomplete
 ms.topic: callback
-f1_keywords: ["routprot/StartComplete"]
+f1_keywords: 
+ - "routprot/StartComplete"
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

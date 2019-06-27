@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdMoCompGetBuffInfo, DdMoCompGetBuffInfo callback function [Display Devices], PDD_MOCOMPCB_GETCOMPBUFFINFO, PDD_MOCOMPCB_GETCOMPBUFFINFO callback, ddfncs_6b92e5df-6051-4481-a2a6-bb0f4cc4fd8e.xml, ddrawint/DdMoCompGetBuffInfo, display.ddmocompgetbuffinfo
 ms.topic: callback
-f1_keywords: ["ddrawint/DdMoCompGetBuffInfo"]
+f1_keywords: 
+ - "ddrawint/DdMoCompGetBuffInfo"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

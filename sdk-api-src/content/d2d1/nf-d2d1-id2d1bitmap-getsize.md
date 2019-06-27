@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [Direct2D], GetSize method [Direct2D],ID2D1Bitmap interface, ID2D1Bitmap interface [Direct2D],GetSize method, ID2D1Bitmap.GetSize, ID2D1Bitmap::GetSize, d2d1/ID2D1Bitmap::GetSize, direct2d.ID2D1Bitmap_GetSize
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1Bitmap.GetSize"]
+f1_keywords: 
+ - "d2d1/ID2D1Bitmap.GetSize"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBackingFileCount, GetBackingFileCount method [Microsoft TV Technologies], GetBackingFileCount method [Microsoft TV Technologies],IStreamBufferConfigure interface, IStreamBufferConfigure interface [Microsoft TV Technologies],GetBackingFileCount method, IStreamBufferConfigure.GetBackingFileCount, IStreamBufferConfigure::GetBackingFileCount, IStreamBufferConfigureGetBackingFileCount, mstv.istreambufferconfigure_getbackingfilecount, sbe/IStreamBufferConfigure::GetBackingFileCount
 ms.topic: method
-f1_keywords: ["sbe/IStreamBufferConfigure.GetBackingFileCount"]
+f1_keywords: 
+ - "sbe/IStreamBufferConfigure.GetBackingFileCount"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

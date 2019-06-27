@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_HEADER_VERSION, WS_SECURITY_HEADER_VERSION enumeration [Web Services for Windows], WS_SECURITY_HEADER_VERSION_1_0, WS_SECURITY_HEADER_VERSION_1_1, webservices/WS_SECURITY_HEADER_VERSION, webservices/WS_SECURITY_HEADER_VERSION_1_0, webservices/WS_SECURITY_HEADER_VERSION_1_1, wsw.ws_security_header_version
 ms.topic: enum
-f1_keywords: ["webservices/WS_SECURITY_HEADER_VERSION"]
+f1_keywords: 
+ - "webservices/WS_SECURITY_HEADER_VERSION"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

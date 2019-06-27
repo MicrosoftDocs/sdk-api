@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVideoFrameNativeFactory, IVideoFrameNativeFactory interface [Windows Runtime], IVideoFrameNativeFactory interface [Windows Runtime],described, windows/IVideoFrameNativeFactory, winrt.ivideoframenativefactory
 ms.topic: interface
-f1_keywords: ["windows.media.core.interop/IVideoFrameNativeFactory"]
+f1_keywords: 
+ - "windows.media.core.interop/IVideoFrameNativeFactory"
 req.header: windows.media.core.interop.h
 req.include-header: 
 req.target-type: Windows

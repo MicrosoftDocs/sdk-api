@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetIMEInProgress method, ITextDocument2.SetIMEInProgress, ITextDocument2::SetIMEInProgress, SetIMEInProgress, SetIMEInProgress method [Windows Controls], SetIMEInProgress method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_setimeinprogress, tom/ITextDocument2::SetIMEInProgress
 ms.topic: method
-f1_keywords: ["tom/ITextDocument2.SetIMEInProgress"]
+f1_keywords: 
+ - "tom/ITextDocument2.SetIMEInProgress"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

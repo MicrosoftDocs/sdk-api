@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MesEncodeFixedBufferHandleCreate, MesEncodeFixedBufferHandleCreate function [RPC], _rpc_mesencodefixedbufferhandlecreate, midles/MesEncodeFixedBufferHandleCreate, rpc.mesencodefixedbufferhandlecreate
 ms.topic: function
-f1_keywords: ["midles/MesEncodeFixedBufferHandleCreate"]
+f1_keywords: 
+ - "midles/MesEncodeFixedBufferHandleCreate"
 req.header: midles.h
 req.include-header: Rpc.h
 req.target-type: Windows

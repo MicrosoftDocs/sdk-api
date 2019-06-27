@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumContextProps interface [COM],Skip method, IEnumContextProps.Skip, IEnumContextProps::Skip, Skip, Skip method [COM], Skip method [COM],IEnumContextProps interface, _com_ienumcontextprops_skip, com.ienumcontextprops_skip, objidlbase/IEnumContextProps::Skip
 ms.topic: method
-f1_keywords: ["objidlbase/IEnumContextProps.Skip"]
+f1_keywords: 
+ - "objidlbase/IEnumContextProps.Skip"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

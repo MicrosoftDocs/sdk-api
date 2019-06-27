@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAsyncKeyState, GetAsyncKeyState function [Keyboard and Mouse Input], _win32_GetAsyncKeyState, _win32_getasynckeystate_cpp, inputdev.getasynckeystate, winui._win32_getasynckeystate, winuser/GetAsyncKeyState
 ms.topic: function
-f1_keywords: ["winuser/GetAsyncKeyState"]
+f1_keywords: 
+ - "winuser/GetAsyncKeyState"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

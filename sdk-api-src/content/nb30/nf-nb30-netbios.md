@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Netbios, Netbios function [NetBIOS], nb30/Netbios, netbios.netbios
 ms.topic: function
-f1_keywords: ["nb30/Netbios"]
+f1_keywords: 
+ - "nb30/Netbios"
 req.header: nb30.h
 req.include-header: 
 req.target-type: Windows

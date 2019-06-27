@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncCallback interface [Windows Sync],OnRecoverableError method, ISyncCallback.OnRecoverableError, ISyncCallback::OnRecoverableError, OnRecoverableError, OnRecoverableError method [Windows Sync], OnRecoverableError method [Windows Sync],ISyncCallback interface, winsync.isynccallback_onrecoverableerror, winsync/ISyncCallback::OnRecoverableError
 ms.topic: method
-f1_keywords: ["winsync/ISyncCallback.OnRecoverableError"]
+f1_keywords: 
+ - "winsync/ISyncCallback.OnRecoverableError"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

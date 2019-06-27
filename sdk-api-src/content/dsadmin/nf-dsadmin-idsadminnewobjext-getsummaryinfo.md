@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSummaryInfo, GetSummaryInfo method [Active Directory], GetSummaryInfo method [Active Directory],IDsAdminNewObjExt interface, IDsAdminNewObjExt interface [Active Directory],GetSummaryInfo method, IDsAdminNewObjExt.GetSummaryInfo, IDsAdminNewObjExt::GetSummaryInfo, _glines_idsadminnewobjext_getsummaryinfo, ad.idsadminnewobjext__getsummaryinfo, ad.idsadminnewobjext_getsummaryinfo, dsadmin/IDsAdminNewObjExt::GetSummaryInfo
 ms.topic: method
-f1_keywords: ["dsadmin/IDsAdminNewObjExt.GetSummaryInfo"]
+f1_keywords: 
+ - "dsadmin/IDsAdminNewObjExt.GetSummaryInfo"
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows

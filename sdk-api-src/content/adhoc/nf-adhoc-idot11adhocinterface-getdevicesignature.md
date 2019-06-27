@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDeviceSignature, GetDeviceSignature method [NativeWIFI], GetDeviceSignature method [NativeWIFI],IDot11AdHocInterface interface, IDot11AdHocInterface interface [NativeWIFI],GetDeviceSignature method, IDot11AdHocInterface.GetDeviceSignature, IDot11AdHocInterface::GetDeviceSignature, adhoc/IDot11AdHocInterface::GetDeviceSignature, nwifi.idot11adhocinterface_getdevicesignature
 ms.topic: method
-f1_keywords: ["adhoc/IDot11AdHocInterface.GetDeviceSignature"]
+f1_keywords: 
+ - "adhoc/IDot11AdHocInterface.GetDeviceSignature"
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

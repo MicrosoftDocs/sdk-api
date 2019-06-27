@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_MEDIA_ENGINE_NETWORK, MF_MEDIA_ENGINE_NETWORK enumeration [Media Foundation], MF_MEDIA_ENGINE_NETWORK_EMPTY, MF_MEDIA_ENGINE_NETWORK_IDLE, MF_MEDIA_ENGINE_NETWORK_LOADING, MF_MEDIA_ENGINE_NETWORK_NO_SOURCE, mf.mf_media_engine_network, mfmediaengine/MF_MEDIA_ENGINE_NETWORK, mfmediaengine/MF_MEDIA_ENGINE_NETWORK_EMPTY, mfmediaengine/MF_MEDIA_ENGINE_NETWORK_IDLE, mfmediaengine/MF_MEDIA_ENGINE_NETWORK_LOADING, mfmediaengine/MF_MEDIA_ENGINE_NETWORK_NO_SOURCE
 ms.topic: enum
-f1_keywords: ["mfmediaengine/MF_MEDIA_ENGINE_NETWORK"]
+f1_keywords: 
+ - "mfmediaengine/MF_MEDIA_ENGINE_NETWORK"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

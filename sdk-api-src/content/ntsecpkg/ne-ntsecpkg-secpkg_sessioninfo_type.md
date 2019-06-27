@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SECPKG_SESSIONINFO_TYPE, SECPKG_SESSIONINFO_TYPE enumeration [Security], SecSessionPrimaryCred, ntsecpkg/SECPKG_SESSIONINFO_TYPE, ntsecpkg/SecSessionPrimaryCred, security.secpkg_sessioninfo_type
 ms.topic: enum
-f1_keywords: ["ntsecpkg/SECPKG_SESSIONINFO_TYPE"]
+f1_keywords: 
+ - "ntsecpkg/SECPKG_SESSIONINFO_TYPE"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

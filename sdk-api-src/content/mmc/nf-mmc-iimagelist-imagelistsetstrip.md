@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IImageList interface [MMC],ImageListSetStrip method, IImageList.ImageListSetStrip, IImageList::ImageListSetStrip, ImageListSetStrip, ImageListSetStrip method [MMC], ImageListSetStrip method [MMC],IImageList interface, _slate_iimagelist_imagelistsetstrip, mmc.iimagelist_imagelistsetstrip, mmc/IImageList::ImageListSetStrip
 ms.topic: method
-f1_keywords: ["mmc/IImageList.ImageListSetStrip"]
+f1_keywords: 
+ - "mmc/IImageList.ImageListSetStrip"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

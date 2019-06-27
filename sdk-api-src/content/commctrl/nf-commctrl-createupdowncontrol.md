@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateUpDownControl, CreateUpDownControl function [Windows Controls], _win32_CreateUpDownControl, _win32_CreateUpDownControl_cpp, commctrl/CreateUpDownControl, controls.CreateUpDownControl, controls._win32_CreateUpDownControl
 ms.topic: function
-f1_keywords: ["commctrl/CreateUpDownControl"]
+f1_keywords: 
+ - "commctrl/CreateUpDownControl"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

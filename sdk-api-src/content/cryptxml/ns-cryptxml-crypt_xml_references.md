@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_XML_REFERENCES, CRYPT_XML_REFERENCES, CRYPT_XML_REFERENCES structure [Security], PCRYPT_XML_REFERENCES, PCRYPT_XML_REFERENCES structure pointer [Security], cryptxml/CRYPT_XML_REFERENCES, cryptxml/PCRYPT_XML_REFERENCES, security.crypt_xml_references"
 ms.topic: struct
-f1_keywords: ["cryptxml/CRYPT_XML_REFERENCES"]
+f1_keywords: 
+ - "cryptxml/CRYPT_XML_REFERENCES"
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

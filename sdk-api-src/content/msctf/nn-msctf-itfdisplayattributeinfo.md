@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfDisplayAttributeInfo, ITfDisplayAttributeInfo interface [Text Services Framework], ITfDisplayAttributeInfo interface [Text Services Framework],described, _tsf_itfdisplayattributeinfo_ref, msctf/ITfDisplayAttributeInfo, tsf.itfdisplayattributeinfo
 ms.topic: interface
-f1_keywords: ["msctf/ITfDisplayAttributeInfo"]
+f1_keywords: 
+ - "msctf/ITfDisplayAttributeInfo"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

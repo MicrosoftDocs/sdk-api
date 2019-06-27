@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiGetProperty, MsiGetProperty function, MsiGetPropertyA, MsiGetPropertyW, _msi_msigetproperty, msiquery/MsiGetProperty, msiquery/MsiGetPropertyA, msiquery/MsiGetPropertyW, setup.msigetproperty
 ms.topic: function
-f1_keywords: ["msiquery/MsiGetProperty"]
+f1_keywords: 
+ - "msiquery/MsiGetProperty"
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

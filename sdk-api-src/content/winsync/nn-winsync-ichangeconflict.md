@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IChangeConflict, IChangeConflict interface [Windows Sync], IChangeConflict interface [Windows Sync],described, winsync.ichangeconflict, winsync/IChangeConflict
 ms.topic: interface
-f1_keywords: ["winsync/IChangeConflict"]
+f1_keywords: 
+ - "winsync/IChangeConflict"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

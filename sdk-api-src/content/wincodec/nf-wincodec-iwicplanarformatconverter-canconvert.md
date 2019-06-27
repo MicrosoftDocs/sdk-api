@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CanConvert, CanConvert method [Windows Imaging Component], CanConvert method [Windows Imaging Component],IWICPlanarFormatConverter interface, IWICPlanarFormatConverter interface [Windows Imaging Component],CanConvert method, IWICPlanarFormatConverter.CanConvert, IWICPlanarFormatConverter::CanConvert, wic.iwicplanarformatconverter_canconvert, wincodec/IWICPlanarFormatConverter::CanConvert
 ms.topic: method
-f1_keywords: ["wincodec/IWICPlanarFormatConverter.CanConvert"]
+f1_keywords: 
+ - "wincodec/IWICPlanarFormatConverter.CanConvert"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

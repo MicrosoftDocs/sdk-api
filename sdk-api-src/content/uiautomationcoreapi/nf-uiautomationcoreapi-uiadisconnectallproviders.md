@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaDisconnectAllProviders, UiaDisconnectAllProviders function [Windows Accessibility], uiautomationcoreapi/UiaDisconnectAllProviders, winauto.uiauto_UiaDisconnectAllProviders
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/UiaDisconnectAllProviders"]
+f1_keywords: 
+ - "uiautomationcoreapi/UiaDisconnectAllProviders"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

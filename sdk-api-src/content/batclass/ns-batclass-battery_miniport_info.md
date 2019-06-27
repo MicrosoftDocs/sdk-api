@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PBATTERY_MINIPORT_INFO, BATTERY_MINIPORT_INFO, BATTERY_MINIPORT_INFO structure [Battery Devices], PBATTERY_MINIPORT_INFO, PBATTERY_MINIPORT_INFO structure pointer [Battery Devices], bat-struct_0ef66c9a-61df-4c49-94f1-78e41e5b9bfb.xml, batclass/BATTERY_MINIPORT_INFO, batclass/PBATTERY_MINIPORT_INFO, battery.battery_miniport_info"
 ms.topic: struct
-f1_keywords: ["batclass/BATTERY_MINIPORT_INFO"]
+f1_keywords: 
+ - "batclass/BATTERY_MINIPORT_INFO"
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Windows

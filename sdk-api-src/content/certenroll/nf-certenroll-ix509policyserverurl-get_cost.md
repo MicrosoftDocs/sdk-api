@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Cost property [Security], Cost property [Security],IX509PolicyServerUrl interface, IX509PolicyServerUrl interface [Security],Cost property, IX509PolicyServerUrl.Cost, IX509PolicyServerUrl.get_Cost, IX509PolicyServerUrl::Cost, IX509PolicyServerUrl::get_Cost, IX509PolicyServerUrl::put_Cost, certenroll/IX509PolicyServerUrl::Cost, certenroll/IX509PolicyServerUrl::get_Cost, certenroll/IX509PolicyServerUrl::put_Cost, get_Cost, security.ix509policyserverurl_cost
 ms.topic: method
-f1_keywords: ["certenroll/IX509PolicyServerUrl.Cost"]
+f1_keywords: 
+ - "certenroll/IX509PolicyServerUrl.Cost"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

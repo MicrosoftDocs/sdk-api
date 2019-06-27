@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateChar16Array, CreateChar16Array method [Windows Runtime], CreateChar16Array method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateChar16Array method, IPropertyValueStatics.CreateChar16Array, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateChar16Array, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateChar16Array, winrt.ipropertyvaluefactory_createchar16array, winrt.ipropertyvaluestatics_createchar16array
 ms.topic: method
-f1_keywords: ["windows.foundation/IPropertyValueStatics.CreateChar16Array"]
+f1_keywords: 
+ - "windows.foundation/IPropertyValueStatics.CreateChar16Array"
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

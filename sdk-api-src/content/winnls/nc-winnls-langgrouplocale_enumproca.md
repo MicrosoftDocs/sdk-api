@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LANGGROUPLOCALE_ENUMPROC, LANGGROUPLOCALE_ENUMPROC callback, LANGGROUPLOCALE_ENUMPROC callback function [Internationalization for Windows Applications], LANGGROUPLOCALE_ENUMPROCA, LANGGROUPLOCALE_ENUMPROCW, _win32_EnumLanguageGroupLocalesProc, intl.enumlanguagegrouplocalesproc, winnls/LANGGROUPLOCALE_ENUMPROC
 ms.topic: callback
-f1_keywords: ["winnls/LANGGROUPLOCALE_ENUMPROC"]
+f1_keywords: 
+ - "winnls/LANGGROUPLOCALE_ENUMPROC"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

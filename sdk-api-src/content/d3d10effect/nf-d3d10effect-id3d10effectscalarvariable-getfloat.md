@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 82c6ea47-878e-a6aa-0990-a6dfce382da6, GetFloat, GetFloat method [Direct3D 10], GetFloat method [Direct3D 10],ID3D10EffectScalarVariable interface, ID3D10EffectScalarVariable interface [Direct3D 10],GetFloat method, ID3D10EffectScalarVariable.GetFloat, ID3D10EffectScalarVariable::GetFloat, d3d10effect/ID3D10EffectScalarVariable::GetFloat, direct3d10.id3d10effectscalarvariable_getfloat
 ms.topic: method
-f1_keywords: ["d3d10effect/ID3D10EffectScalarVariable.GetFloat"]
+f1_keywords: 
+ - "d3d10effect/ID3D10EffectScalarVariable.GetFloat"
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

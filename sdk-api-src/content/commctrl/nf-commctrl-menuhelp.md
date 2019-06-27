@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MenuHelp, MenuHelp function [Windows Controls], _win32_MenuHelp, _win32_MenuHelp_cpp, commctrl/MenuHelp, controls.MenuHelp, controls._win32_MenuHelp
 ms.topic: function
-f1_keywords: ["commctrl/MenuHelp"]
+f1_keywords: 
+ - "commctrl/MenuHelp"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

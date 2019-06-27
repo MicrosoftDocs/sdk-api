@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BG_AUTH_CREDENTIALS_UNION, BG_AUTH_CREDENTIALS_UNION union [BITS], _drz_bg_auth_credentials_union, bits.bg_auth_credentials_union, bits1_5/BG_AUTH_CREDENTIALS_UNION
 ms.topic: struct
-f1_keywords: ["bits1_5/BG_AUTH_CREDENTIALS_UNION"]
+f1_keywords: 
+ - "bits1_5/BG_AUTH_CREDENTIALS_UNION"
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows

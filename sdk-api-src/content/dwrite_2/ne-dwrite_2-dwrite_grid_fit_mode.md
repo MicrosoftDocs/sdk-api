@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_GRID_FIT_MODE, DWRITE_GRID_FIT_MODE enumeration [Direct Write], DWRITE_GRID_FIT_MODE_DEFAULT, DWRITE_GRID_FIT_MODE_DISABLED, DWRITE_GRID_FIT_MODE_ENABLED, directwrite.dwrite_grid_fit_mode, dwrite_2/DWRITE_GRID_FIT_MODE, dwrite_2/DWRITE_GRID_FIT_MODE_DEFAULT, dwrite_2/DWRITE_GRID_FIT_MODE_DISABLED, dwrite_2/DWRITE_GRID_FIT_MODE_ENABLED
 ms.topic: enum
-f1_keywords: ["dwrite_2/DWRITE_GRID_FIT_MODE"]
+f1_keywords: 
+ - "dwrite_2/DWRITE_GRID_FIT_MODE"
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiRecordClearData, MsiRecordClearData function, _msi_msirecordcleardata, msiquery/MsiRecordClearData, setup.msirecordcleardata
 ms.topic: function
-f1_keywords: ["msiquery/MsiRecordClearData"]
+f1_keywords: 
+ - "msiquery/MsiRecordClearData"
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

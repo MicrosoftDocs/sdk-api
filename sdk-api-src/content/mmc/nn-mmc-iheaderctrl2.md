@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IHeaderCtrl2, IHeaderCtrl2 interface [MMC], IHeaderCtrl2 interface [MMC],described, _slate_iheaderctrl2, mmc.iheaderctrl2, mmc/IHeaderCtrl2
 ms.topic: interface
-f1_keywords: ["mmc/IHeaderCtrl2"]
+f1_keywords: 
+ - "mmc/IHeaderCtrl2"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

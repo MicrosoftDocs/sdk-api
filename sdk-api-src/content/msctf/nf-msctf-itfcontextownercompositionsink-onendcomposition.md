@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfContextOwnerCompositionSink interface [Text Services Framework],OnEndComposition method, ITfContextOwnerCompositionSink.OnEndComposition, ITfContextOwnerCompositionSink::OnEndComposition, OnEndComposition, OnEndComposition method [Text Services Framework], OnEndComposition method [Text Services Framework],ITfContextOwnerCompositionSink interface, _tsf_itfcontextownercompositionsink_onendcomposition_ref, msctf/ITfContextOwnerCompositionSink::OnEndComposition, tsf.itfcontextownercompositionsink_onendcomposition
 ms.topic: method
-f1_keywords: ["msctf/ITfContextOwnerCompositionSink.OnEndComposition"]
+f1_keywords: 
+ - "msctf/ITfContextOwnerCompositionSink.OnEndComposition"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

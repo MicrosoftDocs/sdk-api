@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoalesceEventsOptions, CoalesceEventsOptions enumeration [Windows Accessibility], CoalesceEventsOptions_Disabled, CoalesceEventsOptions_Enabled, uiautomationclient/CoalesceEventsOptions, uiautomationclient/CoalesceEventsOptions_Disabled, uiautomationclient/CoalesceEventsOptions_Enabled, winauto.uiauto_coalesceeventsoptions_enum
 ms.topic: enum
-f1_keywords: ["uiautomationclient/CoalesceEventsOptions"]
+f1_keywords: 
+ - "uiautomationclient/CoalesceEventsOptions"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

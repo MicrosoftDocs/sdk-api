@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FormatForDisplay, FormatForDisplay method [Windows Properties], FormatForDisplay method [Windows Properties],IPropertyUI interface, IPropertyUI interface [Windows Properties],FormatForDisplay method, IPropertyUI.FormatForDisplay, IPropertyUI::FormatForDisplay, PUIFFDF_DEFAULT, PUIFFDF_FRIENDLYDATE, PUIFFDF_NOTIME, PUIFFDF_RIGHTTOLEFT, PUIFFDF_SHORTFORMAT, _shell_IPropertyUI_FormatForDisplay, properties.IPropertyUI_FormatForDisplay, shell.IPropertyUI_FormatForDisplay, shobjidl_core/IPropertyUI::FormatForDisplay
 ms.topic: method
-f1_keywords: ["shobjidl_core/IPropertyUI.FormatForDisplay"]
+f1_keywords: 
+ - "shobjidl_core/IPropertyUI.FormatForDisplay"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

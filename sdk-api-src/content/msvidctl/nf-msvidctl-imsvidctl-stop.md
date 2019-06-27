@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],Stop method, IMSVidCtl.Stop, IMSVidCtl::Stop, IMSVidCtlStop, Stop, Stop method [Microsoft TV Technologies], Stop method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_stop, msvidctl/IMSVidCtl::Stop
 ms.topic: method
-f1_keywords: ["msvidctl/IMSVidCtl.Stop"]
+f1_keywords: 
+ - "msvidctl/IMSVidCtl.Stop"
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows

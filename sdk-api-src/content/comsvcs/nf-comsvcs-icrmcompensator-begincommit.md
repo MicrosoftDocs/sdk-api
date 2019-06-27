@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginCommit, BeginCommit method [COM+], BeginCommit method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],BeginCommit method, ICrmCompensator.BeginCommit, ICrmCompensator::BeginCommit, _dtc_ICrmCompensator_BeginCommit, comsvcs/ICrmCompensator::BeginCommit, cos.icrmcompensator_begincommit
 ms.topic: method
-f1_keywords: ["comsvcs/ICrmCompensator.BeginCommit"]
+f1_keywords: 
+ - "comsvcs/ICrmCompensator.BeginCommit"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

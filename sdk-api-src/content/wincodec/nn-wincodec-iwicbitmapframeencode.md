@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapFrameEncode, IWICBitmapFrameEncode interface [Windows Imaging Component], IWICBitmapFrameEncode interface [Windows Imaging Component],described, _wic_codec_iwicbitmapframeencode, wic._wic_codec_iwicbitmapframeencode, wincodec/IWICBitmapFrameEncode
 ms.topic: interface
-f1_keywords: ["wincodec/IWICBitmapFrameEncode"]
+f1_keywords: 
+ - "wincodec/IWICBitmapFrameEncode"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

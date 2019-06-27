@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointFormatControl, IAudioEndpointFormatControl interface [Core Audio], IAudioEndpointFormatControl interface [Core Audio],described, audioendpoints/IAudioEndpointFormatControl, coreaudio.iaudioendpointformatcontrol
 ms.topic: interface
-f1_keywords: ["audioendpoints/IAudioEndpointFormatControl"]
+f1_keywords: 
+ - "audioendpoints/IAudioEndpointFormatControl"
 req.header: audioendpoints.h
 req.include-header: 
 req.target-type: Windows

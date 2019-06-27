@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMBackupRestoreProps interface [windows Media Format],RemoveProp method, IWMBackupRestoreProps.RemoveProp, IWMBackupRestoreProps::RemoveProp, IWMBackupRestorePropsRemoveProp, RemoveProp, RemoveProp method [windows Media Format], RemoveProp method [windows Media Format],IWMBackupRestoreProps interface, wmformat.iwmbackuprestoreprops_removeprop, wmsdkidl/IWMBackupRestoreProps::RemoveProp
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMBackupRestoreProps.RemoveProp"]
+f1_keywords: 
+ - "wmsdkidl/IWMBackupRestoreProps.RemoveProp"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

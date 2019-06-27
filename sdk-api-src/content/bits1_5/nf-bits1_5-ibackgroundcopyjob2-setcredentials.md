@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob2 interface [BITS],SetCredentials method, IBackgroundCopyJob2.SetCredentials, IBackgroundCopyJob2::SetCredentials, SetCredentials, SetCredentials method [BITS], SetCredentials method [BITS],IBackgroundCopyJob2 interface, _drz_ibackgroundcopyjob2_setcredentials, bits.ibackgroundcopyjob2_setcredentials, bits1_5/IBackgroundCopyJob2::SetCredentials
 ms.topic: method
-f1_keywords: ["bits1_5/IBackgroundCopyJob2.SetCredentials"]
+f1_keywords: 
+ - "bits1_5/IBackgroundCopyJob2.SetCredentials"
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows

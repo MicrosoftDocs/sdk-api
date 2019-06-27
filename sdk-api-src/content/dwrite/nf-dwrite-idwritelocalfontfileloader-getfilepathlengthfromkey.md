@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFilePathLengthFromKey, GetFilePathLengthFromKey method [Direct Write], GetFilePathLengthFromKey method [Direct Write],IDWriteLocalFontFileLoader interface, IDWriteLocalFontFileLoader interface [Direct Write],GetFilePathLengthFromKey method, IDWriteLocalFontFileLoader.GetFilePathLengthFromKey, IDWriteLocalFontFileLoader::GetFilePathLengthFromKey, directwrite.idwritelocalfontfileloader_getfilepathlengthfromkey, dwrite/IDWriteLocalFontFileLoader::GetFilePathLengthFromKey
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteLocalFontFileLoader.GetFilePathLengthFromKey"]
+f1_keywords: 
+ - "dwrite/IDWriteLocalFontFileLoader.GetFilePathLengthFromKey"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

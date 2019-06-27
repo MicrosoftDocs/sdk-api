@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceDataStream, IPortableDeviceDataStream interface [Windows Portable Devices SDK], IPortableDeviceDataStream interface [Windows Portable Devices SDK],described, IPortableDeviceDataStreamInterface, portabledeviceapi/IPortableDeviceDataStream, wpdsdk.iportabledevicedatastream
 ms.topic: interface
-f1_keywords: ["portabledeviceapi/IPortableDeviceDataStream"]
+f1_keywords: 
+ - "portabledeviceapi/IPortableDeviceDataStream"
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

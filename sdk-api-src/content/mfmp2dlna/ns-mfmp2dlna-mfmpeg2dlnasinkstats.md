@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFMPEG2DLNASINKSTATS, MFMPEG2DLNASINKSTATS structure [Media Foundation], mf.mfmpeg2dlnasinkstats, mfmp2dlna/MFMPEG2DLNASINKSTATS
 ms.topic: struct
-f1_keywords: ["mfmp2dlna/MFMPEG2DLNASINKSTATS"]
+f1_keywords: 
+ - "mfmp2dlna/MFMPEG2DLNASINKSTATS"
 req.header: mfmp2dlna.h
 req.include-header: 
 req.target-type: Windows

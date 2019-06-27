@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetId, GetId method [Media Foundation], GetId method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetId method, IMFTimedTextTrack.GetId, IMFTimedTextTrack::GetId, mf.imftimedtexttrack_getid, mfmediaengine/IMFTimedTextTrack::GetId
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedTextTrack.GetId"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedTextTrack.GetId"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

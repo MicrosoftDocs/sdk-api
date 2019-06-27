@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPreference, GetPreference method [Offline Files], GetPreference method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetPreference method, IOfflineFilesSetting.GetPreference, IOfflineFilesSetting::GetPreference, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, cscobj/IOfflineFilesSetting::GetPreference, of.iofflinefilessetting_getpreference
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesSetting.GetPreference"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesSetting.GetPreference"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

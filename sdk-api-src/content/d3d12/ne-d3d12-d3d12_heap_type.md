@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_HEAP_TYPE, D3D12_HEAP_TYPE enumeration, D3D12_HEAP_TYPE_CUSTOM, D3D12_HEAP_TYPE_DEFAULT, D3D12_HEAP_TYPE_READBACK, D3D12_HEAP_TYPE_UPLOAD, d3d12/D3D12_HEAP_TYPE, d3d12/D3D12_HEAP_TYPE_CUSTOM, d3d12/D3D12_HEAP_TYPE_DEFAULT, d3d12/D3D12_HEAP_TYPE_READBACK, d3d12/D3D12_HEAP_TYPE_UPLOAD, direct3d12.d3d12_heap_type
 ms.topic: enum
-f1_keywords: ["d3d12/D3D12_HEAP_TYPE"]
+f1_keywords: 
+ - "d3d12/D3D12_HEAP_TYPE"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

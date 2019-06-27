@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdeKeepStringHandle, DdeKeepStringHandle function [Data Exchange], _win32_DdeKeepStringHandle, _win32_ddekeepstringhandle_cpp, dataxchg.ddekeepstringhandle, ddeml/DdeKeepStringHandle, winui._win32_ddekeepstringhandle
 ms.topic: function
-f1_keywords: ["ddeml/DdeKeepStringHandle"]
+f1_keywords: 
+ - "ddeml/DdeKeepStringHandle"
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbEmergencyInformationDescriptor interface, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbEmergencyInformationDescriptor.GetLength, IIsdbEmergencyInformationDescriptor::GetLength, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetLength, mstv.iisdbemergencyinformationdescriptor_getlength
 ms.topic: method
-f1_keywords: ["dvbsiparser/IIsdbEmergencyInformationDescriptor.GetLength"]
+f1_keywords: 
+ - "dvbsiparser/IIsdbEmergencyInformationDescriptor.GetLength"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

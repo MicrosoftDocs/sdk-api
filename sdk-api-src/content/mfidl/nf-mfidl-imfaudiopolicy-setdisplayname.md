@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 4cd48400-8d12-4a6b-95fd-bf6ae7700cb8, IMFAudioPolicy interface [Media Foundation],SetDisplayName method, IMFAudioPolicy.SetDisplayName, IMFAudioPolicy::SetDisplayName, SetDisplayName, SetDisplayName method [Media Foundation], SetDisplayName method [Media Foundation],IMFAudioPolicy interface, mf.imfaudiopolicy_setdisplayname, mfidl/IMFAudioPolicy::SetDisplayName
 ms.topic: method
-f1_keywords: ["mfidl/IMFAudioPolicy.SetDisplayName"]
+f1_keywords: 
+ - "mfidl/IMFAudioPolicy.SetDisplayName"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

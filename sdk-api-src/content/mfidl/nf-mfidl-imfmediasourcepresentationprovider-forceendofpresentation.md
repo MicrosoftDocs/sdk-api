@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ForceEndOfPresentation, ForceEndOfPresentation method [Media Foundation], ForceEndOfPresentation method [Media Foundation],IMFMediaSourcePresentationProvider interface, IMFMediaSourcePresentationProvider interface [Media Foundation],ForceEndOfPresentation method, IMFMediaSourcePresentationProvider.ForceEndOfPresentation, IMFMediaSourcePresentationProvider::ForceEndOfPresentation, fb2896f9-c397-4a0d-b8fe-b03ff4f08dda, mf.imfmediasourcepresentationprovider_forceendofpresentation, mfidl/IMFMediaSourcePresentationProvider::ForceEndOfPresentation
 ms.topic: method
-f1_keywords: ["mfidl/IMFMediaSourcePresentationProvider.ForceEndOfPresentation"]
+f1_keywords: 
+ - "mfidl/IMFMediaSourcePresentationProvider.ForceEndOfPresentation"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

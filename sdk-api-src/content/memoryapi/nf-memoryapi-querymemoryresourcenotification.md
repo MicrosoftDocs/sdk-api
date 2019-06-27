@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QueryMemoryResourceNotification, QueryMemoryResourceNotification function, _win32_querymemoryresourcenotification, base.querymemoryresourcenotification, winbase/QueryMemoryResourceNotification
 ms.topic: function
-f1_keywords: ["memoryapi/QueryMemoryResourceNotification"]
+f1_keywords: 
+ - "memoryapi/QueryMemoryResourceNotification"
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

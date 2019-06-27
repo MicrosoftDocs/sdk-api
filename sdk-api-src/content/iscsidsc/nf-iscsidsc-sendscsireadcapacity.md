@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SendScsiReadCapacity, SendScsiReadCapacity function [iSCSI Discovery Library API], iscsidisc.sendscsireadcapacity, iscsidsc/SendScsiReadCapacity
 ms.topic: function
-f1_keywords: ["iscsidsc/SendScsiReadCapacity"]
+f1_keywords: 
+ - "iscsidsc/SendScsiReadCapacity"
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

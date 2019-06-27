@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BindTemporaryResource, BindTemporaryResource method, BindTemporaryResource method,IDMLBindingTable interface, IDMLBindingTable interface,BindTemporaryResource method, IDMLBindingTable.BindTemporaryResource, IDMLBindingTable::BindTemporaryResource, direct3d12.idmlbindingtable_bindtemporaryresource, directml/IDMLBindingTable::BindTemporaryResource
 ms.topic: method
-f1_keywords: ["directml/IDMLBindingTable.BindTemporaryResource"]
+f1_keywords: 
+ - "directml/IDMLBindingTable.BindTemporaryResource"
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

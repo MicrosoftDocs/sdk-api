@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxSecurity interface [Fax Service],Refresh method, IFaxSecurity.Refresh, IFaxSecurity::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxSecurity interface, _mfax_faxsecurity.refresh, fax._mfax_faxsecurity_cpp_mfax_faxsecurity_refresh_cpp, fax._mfax_faxsecurity_refresh, faxcomex/IFaxSecurity::Refresh
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxSecurity.Refresh"]
+f1_keywords: 
+ - "faxcomex/IFaxSecurity.Refresh"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

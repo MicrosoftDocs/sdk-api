@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [ICS/ICF], Add method [ICS/ICF],INetFwRules interface, INetFwRules interface [ICS/ICF],Add method, INetFwRules.Add, INetFwRules::Add, ics.inetfwrules_add, netfw/INetFwRules::Add
 ms.topic: method
-f1_keywords: ["netfw/INetFwRules.Add"]
+f1_keywords: 
+ - "netfw/INetFwRules.Add"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

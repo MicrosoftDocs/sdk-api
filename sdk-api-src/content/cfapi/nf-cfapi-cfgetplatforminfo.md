@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CfGetPlatformInfo, CfGetPlatformInfo function, cfapi/CfGetPlatformInfo, cloudApi.cfgetplatforminfo
 ms.topic: function
-f1_keywords: ["cfapi/CfGetPlatformInfo"]
+f1_keywords: 
+ - "cfapi/CfGetPlatformInfo"
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

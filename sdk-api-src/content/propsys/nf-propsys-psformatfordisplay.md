@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSFormatForDisplay, PSFormatForDisplay function [Windows Properties], properties.PSFormatForDisplay, propsys/PSFormatForDisplay, shell.PSFormatForDisplay, shell_PSFormatForDisplay
 ms.topic: function
-f1_keywords: ["propsys/PSFormatForDisplay"]
+f1_keywords: 
+ - "propsys/PSFormatForDisplay"
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

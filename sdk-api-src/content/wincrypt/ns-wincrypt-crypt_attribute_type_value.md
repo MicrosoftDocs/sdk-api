@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_ATTRIBUTE_TYPE_VALUE, CRYPT_ATTRIBUTE_TYPE_VALUE, CRYPT_ATTRIBUTE_TYPE_VALUE structure [Security], PCRYPT_ATTRIBUTE_TYPE_VALUE, PCRYPT_ATTRIBUTE_TYPE_VALUE structure pointer [Security], _crypto2_crypt_attribute_type_value, security.crypt_attribute_type_value, wincrypt/CRYPT_ATTRIBUTE_TYPE_VALUE, wincrypt/PCRYPT_ATTRIBUTE_TYPE_VALUE"
 ms.topic: struct
-f1_keywords: ["wincrypt/CRYPT_ATTRIBUTE_TYPE_VALUE"]
+f1_keywords: 
+ - "wincrypt/CRYPT_ATTRIBUTE_TYPE_VALUE"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

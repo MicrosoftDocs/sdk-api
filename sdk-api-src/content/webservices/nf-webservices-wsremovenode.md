@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsRemoveNode, WsRemoveNode function [Web Services for Windows], webservices/WsRemoveNode, wsw.wsremovenode
 ms.topic: function
-f1_keywords: ["webservices/WsRemoveNode"]
+f1_keywords: 
+ - "webservices/WsRemoveNode"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

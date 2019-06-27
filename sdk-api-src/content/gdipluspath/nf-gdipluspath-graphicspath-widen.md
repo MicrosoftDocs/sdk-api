@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GraphicsPath class [GDI+],Widen method, GraphicsPath.Widen, GraphicsPath::Widen, Widen, Widen method [GDI+], Widen method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_Widen_pen_matrix_flatness_, gdiplus._gdiplus_CLASS_GraphicsPath_Widen_pen_matrix_flatness_
 ms.topic: method
-f1_keywords: ["gdipluspath/GraphicsPath.Widen"]
+f1_keywords: 
+ - "gdipluspath/GraphicsPath.Widen"
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

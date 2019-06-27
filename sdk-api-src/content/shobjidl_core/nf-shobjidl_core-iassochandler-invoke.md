@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAssocHandler interface [Windows Shell],Invoke method, IAssocHandler.Invoke, IAssocHandler::Invoke, Invoke, Invoke method [Windows Shell], Invoke method [Windows Shell],IAssocHandler interface, _shell_IAssocHandler_Invoke, shell.IAssocHandler_Invoke, shobjidl_core/IAssocHandler::Invoke
 ms.topic: method
-f1_keywords: ["shobjidl_core/IAssocHandler.Invoke"]
+f1_keywords: 
+ - "shobjidl_core/IAssocHandler.Invoke"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

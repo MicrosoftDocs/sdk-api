@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAttributeSet, IAttributeSet interface [Microsoft TV Technologies], IAttributeSet interface [Microsoft TV Technologies],described, IAttributeSetInterface, dsattrib/IAttributeSet, mstv.iattributeset
 ms.topic: interface
-f1_keywords: ["dsattrib/IAttributeSet"]
+f1_keywords: 
+ - "dsattrib/IAttributeSet"
 req.header: dsattrib.h
 req.include-header: 
 req.target-type: Windows

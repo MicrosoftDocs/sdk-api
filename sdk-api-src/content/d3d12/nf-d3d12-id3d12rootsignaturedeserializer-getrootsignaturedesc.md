@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRootSignatureDesc, GetRootSignatureDesc method, GetRootSignatureDesc method,ID3D12RootSignatureDeserializer interface, ID3D12RootSignatureDeserializer interface,GetRootSignatureDesc method, ID3D12RootSignatureDeserializer.GetRootSignatureDesc, ID3D12RootSignatureDeserializer::GetRootSignatureDesc, d3d12/ID3D12RootSignatureDeserializer::GetRootSignatureDesc, direct3d12.id3d12rootsignaturedeserializer_getrootsignaturedesc
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12RootSignatureDeserializer.GetRootSignatureDesc"]
+f1_keywords: 
+ - "d3d12/ID3D12RootSignatureDeserializer.GetRootSignatureDesc"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "??0WBEMTime@@QAE@ABU_FILETIME@@@Z, ??0WBEMTime@@QEAA@AEBU_FILETIME@@@Z, WBEMTime, WBEMTime constructor [Windows Management Instrumentation], WBEMTime constructor [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],WBEMTime constructor, WBEMTime.WBEMTime, WBEMTime.WBEMTime(const FILETIME &), WBEMTime::WBEMTime, WBEMTime::WBEMTime(const FILETIME &), WBEMTime::WBEMTime(const FILETIME&), wbemtime/WBEMTime::WBEMTime, wmi.wbemtime_wbemtime_const_filetime__"
 ms.topic: method
-f1_keywords: ["wbemtime/WBEMTime.WBEMTime"]
+f1_keywords: 
+ - "wbemtime/WBEMTime.WBEMTime"
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

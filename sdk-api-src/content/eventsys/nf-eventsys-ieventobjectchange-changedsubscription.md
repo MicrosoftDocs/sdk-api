@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ChangedSubscription, ChangedSubscription method [COM+], ChangedSubscription method [COM+],IEventObjectChange interface, IEventObjectChange interface [COM+],ChangedSubscription method, IEventObjectChange.ChangedSubscription, IEventObjectChange::ChangedSubscription, _cos_IEventObjectChange_ChangedSubscription, cos.ieventobjectchange_changedsubscription, eventsys/IEventObjectChange::ChangedSubscription
 ms.topic: method
-f1_keywords: ["eventsys/IEventObjectChange.ChangedSubscription"]
+f1_keywords: 
+ - "eventsys/IEventObjectChange.ChangedSubscription"
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

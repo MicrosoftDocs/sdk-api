@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvFillPath, DrvFillPath function [Display Devices], ddifncs_176fcd15-80b2-49da-a11d-a1ed5ca67201.xml, display.drvfillpath, winddi/DrvFillPath
 ms.topic: function
-f1_keywords: ["winddi/DrvFillPath"]
+f1_keywords: 
+ - "winddi/DrvFillPath"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

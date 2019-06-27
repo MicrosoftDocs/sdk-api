@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpV4EnumSubnetReservations, DhcpV4EnumSubnetReservations function [DHCP], dhcp.dhcpv4enumsubnetreservations, dhcpsapi/DhcpV4EnumSubnetReservations
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpV4EnumSubnetReservations"]
+f1_keywords: 
+ - "dhcpsapi/DhcpV4EnumSubnetReservations"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

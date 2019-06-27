@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInitResults, GetInitResults method [windows Media Format], GetInitResults method [windows Media Format],IWMReaderPlaylistBurn interface, IWMReaderPlaylistBurn interface [windows Media Format],GetInitResults method, IWMReaderPlaylistBurn.GetInitResults, IWMReaderPlaylistBurn::GetInitResults, IWMReaderPlaylistBurnGetInitResults, wmformat.iwmreaderplaylistburn_getinitresults, wmsdkidl/IWMReaderPlaylistBurn::GetInitResults
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMReaderPlaylistBurn.GetInitResults"]
+f1_keywords: 
+ - "wmsdkidl/IWMReaderPlaylistBurn.GetInitResults"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

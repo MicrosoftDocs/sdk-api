@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRM callback, DRMCallback, DRMCallback callback function [Active Directory Rights Management Services SDK 1.0], msdrmdefs/DRMCallback, rm.callback_prototype
 ms.topic: callback
-f1_keywords: ["msdrmdefs/DRMCallback"]
+f1_keywords: 
+ - "msdrmdefs/DRMCallback"
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows

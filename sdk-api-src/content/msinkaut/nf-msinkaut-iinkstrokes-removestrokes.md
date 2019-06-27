@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6f90d175-747c-4bf5-978a-286b69bf068a, IInkStrokes interface [Tablet PC],RemoveStrokes method, IInkStrokes.RemoveStrokes, IInkStrokes::RemoveStrokes, RemoveStrokes, RemoveStrokes method [Tablet PC], RemoveStrokes method [Tablet PC],IInkStrokes interface, msinkaut/IInkStrokes::RemoveStrokes, tablet.inkstrokes_removestrokes
 ms.topic: method
-f1_keywords: ["msinkaut/IInkStrokes.RemoveStrokes"]
+f1_keywords: 
+ - "msinkaut/IInkStrokes.RemoveStrokes"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

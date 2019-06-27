@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRIVEROBJ, DRIVEROBJ structure [Display Devices], display.driverobj, grstrcts_8b5c3216-cbe0-4ddf-97b3-c54b39f996cb.xml, winddi/DRIVEROBJ
 ms.topic: struct
-f1_keywords: ["winddi/DRIVEROBJ"]
+f1_keywords: 
+ - "winddi/DRIVEROBJ"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

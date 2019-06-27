@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegisterAppStateChangeNotification, RegisterAppStateChangeNotification function [Windows Shell], appnotify/RegisterAppStateChangeNotification, shell.RegisterAppStateChangeNotification
 ms.topic: function
-f1_keywords: ["appnotify/RegisterAppStateChangeNotification"]
+f1_keywords: 
+ - "appnotify/RegisterAppStateChangeNotification"
 req.header: appnotify.h
 req.include-header: 
 req.target-type: Windows

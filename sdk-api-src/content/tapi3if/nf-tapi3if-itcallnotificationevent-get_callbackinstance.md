@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITCallNotificationEvent interface [TAPI 2.2],get_CallbackInstance method, ITCallNotificationEvent.get_CallbackInstance, ITCallNotificationEvent::get_CallbackInstance, _tapi3_itcallnotificationevent_get_callbackinstance, get_CallbackInstance, get_CallbackInstance method [TAPI 2.2], get_CallbackInstance method [TAPI 2.2],ITCallNotificationEvent interface, tapi3.itcallnotificationevent_get_callbackinstance, tapi3if/ITCallNotificationEvent::get_CallbackInstance
 ms.topic: method
-f1_keywords: ["tapi3if/ITCallNotificationEvent.get_CallbackInstance"]
+f1_keywords: 
+ - "tapi3if/ITCallNotificationEvent.get_CallbackInstance"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

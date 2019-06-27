@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropCount, GetPropCount method [windows Media Format], GetPropCount method [windows Media Format],IWMBackupRestoreProps interface, IWMBackupRestoreProps interface [windows Media Format],GetPropCount method, IWMBackupRestoreProps.GetPropCount, IWMBackupRestoreProps::GetPropCount, IWMBackupRestorePropsGetPropCount, wmformat.iwmbackuprestoreprops_getpropcount, wmsdkidl/IWMBackupRestoreProps::GetPropCount
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMBackupRestoreProps.GetPropCount"]
+f1_keywords: 
+ - "wmsdkidl/IWMBackupRestoreProps.GetPropCount"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

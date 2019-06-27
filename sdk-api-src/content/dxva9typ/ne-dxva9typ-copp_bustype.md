@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COPP_BusType, COPP_BusType , COPP_BusType enumeration [DirectShow], COPP_BusTypeEnumeration, COPP_BusType_AGP, COPP_BusType_ForceDWORD, COPP_BusType_Integrated, COPP_BusType_PCI, COPP_BusType_PCIExpress, COPP_BusType_PCIX, COPP_BusType_Unknown, dshow.copp_bustype, dxva9typ/COPP_BusType, dxva9typ/COPP_BusType_AGP, dxva9typ/COPP_BusType_ForceDWORD, dxva9typ/COPP_BusType_Integrated, dxva9typ/COPP_BusType_PCI, dxva9typ/COPP_BusType_PCIExpress, dxva9typ/COPP_BusType_PCIX, dxva9typ/COPP_BusType_Unknown
 ms.topic: enum
-f1_keywords: ["dxva9typ/COPP_BusType"]
+f1_keywords: 
+ - "dxva9typ/COPP_BusType"
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows

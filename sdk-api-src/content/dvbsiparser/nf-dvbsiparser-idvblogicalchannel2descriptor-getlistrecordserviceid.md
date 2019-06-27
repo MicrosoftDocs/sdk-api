@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetListRecordServiceId, GetListRecordServiceId method [Microsoft TV Technologies], GetListRecordServiceId method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetListRecordServiceId method, IDvbLogicalChannel2Descriptor.GetListRecordServiceId, IDvbLogicalChannel2Descriptor::GetListRecordServiceId, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListRecordServiceId, mstv.idvblogicalchannel2descriptor_getlistrecordserviceid
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbLogicalChannel2Descriptor.GetListRecordServiceId"]
+f1_keywords: 
+ - "dvbsiparser/IDvbLogicalChannel2Descriptor.GetListRecordServiceId"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

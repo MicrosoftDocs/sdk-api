@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],TuneByChannel method, IBDA_ConditionalAccess.TuneByChannel, IBDA_ConditionalAccess::TuneByChannel, IBDA_ConditionalAccessTuneByChannel, TuneByChannel, TuneByChannel method [Microsoft TV Technologies], TuneByChannel method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, bdaiface/IBDA_ConditionalAccess::TuneByChannel, mstv.ibda_conditionalaccess_tunebychannel
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_ConditionalAccess.TuneByChannel"]
+f1_keywords: 
+ - "bdaiface/IBDA_ConditionalAccess.TuneByChannel"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

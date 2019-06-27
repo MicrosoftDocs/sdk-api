@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ResolveNeighbor, ResolveNeighbor function [IP Helper], iphlp.resolveneighbor, iphlpapi/ResolveNeighbor
 ms.topic: function
-f1_keywords: ["iphlpapi/ResolveNeighbor"]
+f1_keywords: 
+ - "iphlpapi/ResolveNeighbor"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

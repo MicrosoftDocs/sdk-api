@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Disable, Disable method [Microsoft Broadband Networks], Disable method [Microsoft Broadband Networks],IMbnPin interface, IMbnPin interface [Microsoft Broadband Networks],Disable method, IMbnPin.Disable, IMbnPin::Disable, mbn.imbnpin_disable, mbnapi/IMbnPin::Disable
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnPin.Disable"]
+f1_keywords: 
+ - "mbnapi/IMbnPin.Disable"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

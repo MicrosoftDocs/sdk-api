@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckDriverMatchingIdentifier, CheckDriverMatchingIdentifier method, CheckDriverMatchingIdentifier method,ID3D12Device5 interface, ID3D12Device5 interface,CheckDriverMatchingIdentifier method, ID3D12Device5.CheckDriverMatchingIdentifier, ID3D12Device5::CheckDriverMatchingIdentifier, d3d12/ID3D12Device5::CheckDriverMatchingIdentifier, direct3d12.id3d12device5_checkdrivermatchingidentifier
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12Device5.CheckDriverMatchingIdentifier"]
+f1_keywords: 
+ - "d3d12/ID3D12Device5.CheckDriverMatchingIdentifier"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

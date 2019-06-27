@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 9c993147-3711-45ad-8996-e1434fd4b657, IRealTimeStylus interface [Tablet PC],RemoveStylusAsyncPlugin method, IRealTimeStylus.RemoveStylusAsyncPlugin, IRealTimeStylus::RemoveStylusAsyncPlugin, RemoveStylusAsyncPlugin, RemoveStylusAsyncPlugin method [Tablet PC], RemoveStylusAsyncPlugin method [Tablet PC],IRealTimeStylus interface, rtscom/IRealTimeStylus::RemoveStylusAsyncPlugin, tablet.irealtimestylus_removestylusasyncplugin
 ms.topic: method
-f1_keywords: ["rtscom/IRealTimeStylus.RemoveStylusAsyncPlugin"]
+f1_keywords: 
+ - "rtscom/IRealTimeStylus.RemoveStylusAsyncPlugin"
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

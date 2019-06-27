@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DiagnosticsPolicy property [Windows Deployment Services], DiagnosticsPolicy property [Windows Deployment Services],IWdsTransportConfigurationManager interface, IWdsTransportConfigurationManager interface [Windows Deployment Services],DiagnosticsPolicy property, IWdsTransportConfigurationManager.DiagnosticsPolicy, IWdsTransportConfigurationManager.get_DiagnosticsPolicy, IWdsTransportConfigurationManager::DiagnosticsPolicy, IWdsTransportConfigurationManager::get_DiagnosticsPolicy, get_DiagnosticsPolicy, wds.iwdstransportconfigurationmanager_diagnosticspolicy, wdstptmgmt/IWdsTransportConfigurationManager::DiagnosticsPolicy, wdstptmgmt/IWdsTransportConfigurationManager::get_DiagnosticsPolicy
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportConfigurationManager.DiagnosticsPolicy"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportConfigurationManager.DiagnosticsPolicy"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

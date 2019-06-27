@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetActiveTopology, GetActiveTopology method [Display Devices], GetActiveTopology method [Display Devices],IViewHelper interface, IViewHelper interface [Display Devices],GetActiveTopology method, IViewHelper.GetActiveTopology, IViewHelper::GetActiveTopology, TMM_Ref_584d74ec-d61d-4119-87c6-94de6b568a6f.xml, cloneviewhelper/IViewHelper::GetActiveTopology, display.iviewhelper_getactivetopology
 ms.topic: method
-f1_keywords: ["cloneviewhelper/IViewHelper.GetActiveTopology"]
+f1_keywords: 
+ - "cloneviewhelper/IViewHelper.GetActiveTopology"
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
 req.target-type: Windows

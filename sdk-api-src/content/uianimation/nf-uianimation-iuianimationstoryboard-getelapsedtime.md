@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetElapsedTime, GetElapsedTime method [Windows Animation], GetElapsedTime method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],GetElapsedTime method, IUIAnimationStoryboard.GetElapsedTime, IUIAnimationStoryboard::GetElapsedTime, uianimation.iuianimationstoryboard_getelapsedtime, uianimation/IUIAnimationStoryboard::GetElapsedTime
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationStoryboard.GetElapsedTime"]
+f1_keywords: 
+ - "uianimation/IUIAnimationStoryboard.GetElapsedTime"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

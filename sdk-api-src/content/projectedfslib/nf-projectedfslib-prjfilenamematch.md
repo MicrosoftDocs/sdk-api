@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PrjFileNameMatch, PrjFileNameMatch function, ProjFS.prjfilenamematch, projectedfslib/PrjFileNameMatch
 ms.topic: function
-f1_keywords: ["projectedfslib/PrjFileNameMatch"]
+f1_keywords: 
+ - "projectedfslib/PrjFileNameMatch"
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

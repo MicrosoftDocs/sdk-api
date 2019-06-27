@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSurfaceFromDC, GetSurfaceFromDC method [DirectDraw], GetSurfaceFromDC method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetSurfaceFromDC method, IDirectDraw7.GetSurfaceFromDC, IDirectDraw7::GetSurfaceFromDC, ddraw/IDirectDraw7::GetSurfaceFromDC, directdraw.idirectdraw7_getsurfacefromdc
 ms.topic: method
-f1_keywords: ["ddraw/IDirectDraw7.GetSurfaceFromDC"]
+f1_keywords: 
+ - "ddraw/IDirectDraw7.GetSurfaceFromDC"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

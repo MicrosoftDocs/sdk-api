@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLDAPVLVInfo, LDAPVLVInfo, LDAPVLVInfo structure [LDAP], _ldap_ldapvlvinfo, ldap.ldapvlvinfo, winldap/LDAPVLVInfo"
 ms.topic: struct
-f1_keywords: ["winldap/LDAPVLVInfo"]
+f1_keywords: 
+ - "winldap/LDAPVLVInfo"
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

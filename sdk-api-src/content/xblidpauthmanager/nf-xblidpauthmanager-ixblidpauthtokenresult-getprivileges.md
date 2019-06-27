@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPrivileges, GetPrivileges method, GetPrivileges method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetPrivileges method, IXblIdpAuthTokenResult.GetPrivileges, IXblIdpAuthTokenResult::GetPrivileges, xblidp.ixblidpauthtokenresult_getprivileges, xblidpauthmanager/IXblIdpAuthTokenResult::GetPrivileges
 ms.topic: method
-f1_keywords: ["xblidpauthmanager/IXblIdpAuthTokenResult.GetPrivileges"]
+f1_keywords: 
+ - "xblidpauthmanager/IXblIdpAuthTokenResult.GetPrivileges"
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

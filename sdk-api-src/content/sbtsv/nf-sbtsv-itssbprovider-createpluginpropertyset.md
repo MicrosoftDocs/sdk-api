@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePluginPropertySet, CreatePluginPropertySet method [Remote Desktop Services], CreatePluginPropertySet method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreatePluginPropertySet method, ITsSbProvider.CreatePluginPropertySet, ITsSbProvider::CreatePluginPropertySet, sbtsv/ITsSbProvider::CreatePluginPropertySet, termserv.itssbprovider_createpluginpropertyset
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbProvider.CreatePluginPropertySet"]
+f1_keywords: 
+ - "sbtsv/ITsSbProvider.CreatePluginPropertySet"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

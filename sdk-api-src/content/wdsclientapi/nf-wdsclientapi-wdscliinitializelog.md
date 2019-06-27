@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROCESSOR_ARCHITECTURE_AMD64, PROCESSOR_ARCHITECTURE_IA64, PROCESSOR_ARCHITECTURE_INTEL, WdsCliInitializeLog, WdsCliInitializeLog function [Windows Deployment Services], wds.wdscliinitializelog, wdsclientapi/WdsCliInitializeLog
 ms.topic: function
-f1_keywords: ["wdsclientapi/WdsCliInitializeLog"]
+f1_keywords: 
+ - "wdsclientapi/WdsCliInitializeLog"
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Device_ID_List_Ex, CM_Get_Device_ID_List_Ex function [Device and Driver Installation], CM_Get_Device_ID_List_ExW, cfgmgr32/CM_Get_Device_ID_List_Ex, cfgmgr32/CM_Get_Device_ID_List_ExW, cfgmgrfn_85ea1296-d9ef-46fd-8893-b44cd188ed6f.xml, devinst.cm_get_device_id_list_ex
 ms.topic: function
-f1_keywords: ["cfgmgr32/CM_Get_Device_ID_List_Ex"]
+f1_keywords: 
+ - "cfgmgr32/CM_Get_Device_ID_List_Ex"
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathIsFileSpec, PathIsFileSpec function [Windows Shell], PathIsFileSpecA, PathIsFileSpecW, _win32_PathIsFileSpec, shell.PathIsFileSpec, shlwapi/PathIsFileSpec, shlwapi/PathIsFileSpecA, shlwapi/PathIsFileSpecW
 ms.topic: function
-f1_keywords: ["shlwapi/PathIsFileSpec"]
+f1_keywords: 
+ - "shlwapi/PathIsFileSpec"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

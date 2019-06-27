@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumResourceLanguagesEx, EnumResourceLanguagesEx function [Menus and Other Resources], EnumResourceLanguagesExA, EnumResourceLanguagesExW, RESOURCE_ENUM_LN, RESOURCE_ENUM_MUI, RESOURCE_ENUM_MUI_SYSTEM, RESOURCE_ENUM_VALIDATE, _win32_EnumResourceLanguagesEx, _win32_enumresourcelanguagesex_cpp, libloaderapi/EnumResourceLanguagesEx, libloaderapi/EnumResourceLanguagesExA, libloaderapi/EnumResourceLanguagesExW, menurc.enumresourcelanguagesex, winui._win32_enumresourcelanguagesex
 ms.topic: function
-f1_keywords: ["libloaderapi/EnumResourceLanguagesEx"]
+f1_keywords: 
+ - "libloaderapi/EnumResourceLanguagesEx"
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

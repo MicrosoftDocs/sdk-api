@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpV6SetStatelessStoreParams, DhcpV6SetStatelessStoreParams function [DHCP], dhcp.dhcpv6setstatelessstoreparams, dhcpsapi/DhcpV6SetStatelessStoreParams
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpV6SetStatelessStoreParams"]
+f1_keywords: 
+ - "dhcpsapi/DhcpV6SetStatelessStoreParams"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

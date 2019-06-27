@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TransformPattern_Resize, TransformPattern_Resize function [Windows Accessibility], uiauto.uiauto_TransformPattern_ResizeConPat, uiauto_TransformPattern_ResizeConPat, uiautomationcoreapi/TransformPattern_Resize, winauto.uiauto_TransformPattern_ResizeConPat
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/TransformPattern_Resize"]
+f1_keywords: 
+ - "uiautomationcoreapi/TransformPattern_Resize"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

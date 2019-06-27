@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IServiceActivity, IServiceActivity interface [COM+], IServiceActivity interface [COM+],described, _cos_IServiceActivity, comsvcs/IServiceActivity, cos.iserviceactivity
 ms.topic: interface
-f1_keywords: ["comsvcs/IServiceActivity"]
+f1_keywords: 
+ - "comsvcs/IServiceActivity"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

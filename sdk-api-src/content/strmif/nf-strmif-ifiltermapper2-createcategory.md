@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateCategory, CreateCategory method [DirectShow], CreateCategory method [DirectShow],IFilterMapper2 interface, IFilterMapper2 interface [DirectShow],CreateCategory method, IFilterMapper2.CreateCategory, IFilterMapper2::CreateCategory, IFilterMapper2CreateCategory, dshow.ifiltermapper2_createcategory, strmif/IFilterMapper2::CreateCategory
 ms.topic: method
-f1_keywords: ["strmif/IFilterMapper2.CreateCategory"]
+f1_keywords: 
+ - "strmif/IFilterMapper2.CreateCategory"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

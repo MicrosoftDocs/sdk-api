@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeviceDlg, DeviceDlg method [WIA], DeviceDlg method [WIA],IWiaItem interface, IWiaItem interface [WIA],DeviceDlg method, IWiaItem.DeviceDlg, IWiaItem::DeviceDlg, _wia_IWiaItem_DeviceDlg, wia._wia_IWiaItem_DeviceDlg, wia_xp/IWiaItem::DeviceDlg
 ms.topic: method
-f1_keywords: ["wia_xp/IWiaItem.DeviceDlg"]
+f1_keywords: 
+ - "wia_xp/IWiaItem.DeviceDlg"
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

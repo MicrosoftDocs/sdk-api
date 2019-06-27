@@ -4,6 +4,8 @@ title: Provider::~Provider
 ms.date: 4/26/2019
 ms.keywords: Provider::~Provider
 ms.topic: language-reference
+f1_keywords:
+ - "provider/Provider::~Provider"
 targetos: Windows
 product: Windows
 req.assembly: 
@@ -44,4 +46,5 @@ Destructor for the [Provider](nl-provider-provider) class.
 ## -remarks
 
 ## -see-also
-
+f1_keywords: 
+ - "provider/Provider.ValidateQueryFlags"

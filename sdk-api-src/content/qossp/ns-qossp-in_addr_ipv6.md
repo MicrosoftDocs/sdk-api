@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCIN_ADDR_IPV6, *LPCIN_ADDR_IPV6 structure [QOS], *LPIN_ADDR_IPV6, IN_ADDR_IPV6, IN_ADDR_IPV6 structure [QOS], qos.in_addr_ipv6, qossp/*LPCIN_ADDR_IPV6, qossp/IN_ADDR_IPV6"
 ms.topic: struct
-f1_keywords: ["qossp/IN_ADDR_IPV6"]
+f1_keywords: 
+ - "qossp/IN_ADDR_IPV6"
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows

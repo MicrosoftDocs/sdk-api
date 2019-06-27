@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddStream, AddStream method [Media Foundation], AddStream method [Media Foundation],IMFSinkWriter interface, IMFSinkWriter interface [Media Foundation],AddStream method, IMFSinkWriter.AddStream, IMFSinkWriter::AddStream, mf.imfsinkwriter_addstream, mfreadwrite/IMFSinkWriter::AddStream
 ms.topic: method
-f1_keywords: ["mfreadwrite/IMFSinkWriter.AddStream"]
+f1_keywords: 
+ - "mfreadwrite/IMFSinkWriter.AddStream"
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

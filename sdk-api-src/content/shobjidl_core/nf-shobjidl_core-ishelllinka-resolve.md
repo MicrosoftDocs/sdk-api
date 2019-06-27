@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellLink interface [Windows Shell],Resolve method, IShellLink::Resolve, IShellLinkA interface [Windows Shell],Resolve method, IShellLinkA.Resolve, IShellLinkA::Resolve, IShellLinkW interface [Windows Shell],Resolve method, IShellLinkW::Resolve, Resolve, Resolve method [Windows Shell], Resolve method [Windows Shell],IShellLink interface, Resolve method [Windows Shell],IShellLinkA interface, Resolve method [Windows Shell],IShellLinkW interface, SLR_ANY_MATCH, SLR_INVOKE_MSI, SLR_KNOWNFOLDER, SLR_MACHINE_IN_LOCAL_TARGET, SLR_NOLINKINFO, SLR_NOSEARCH, SLR_NOTRACK, SLR_NOUPDATE, SLR_NO_UI, SLR_NO_UI_WITH_MSG_PUMP, SLR_OFFER_DELETE_WITHOUT_FILE, SLR_UPDATE, SLR_UPDATE_MACHINE_AND_SID, _win32_IShellLink_Resolve, shell.IShellLink_Resolve, shobjidl_core/IShellLink::Resolve, shobjidl_core/IShellLinkA::Resolve, shobjidl_core/IShellLinkW::Resolve
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellLink.Resolve"]
+f1_keywords: 
+ - "shobjidl_core/IShellLink.Resolve"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

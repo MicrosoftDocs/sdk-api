@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesGhostInfo, IOfflineFilesGhostInfo interface [Offline Files], IOfflineFilesGhostInfo interface [Offline Files],described, cscobj/IOfflineFilesGhostInfo, of.iofflinefilesghostinfo
 ms.topic: interface
-f1_keywords: ["cscobj/IOfflineFilesGhostInfo"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesGhostInfo"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

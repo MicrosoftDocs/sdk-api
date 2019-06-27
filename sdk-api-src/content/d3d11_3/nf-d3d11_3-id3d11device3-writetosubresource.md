@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11Device3 interface [Direct3D 11],WriteToSubresource method, ID3D11Device3.WriteToSubresource, ID3D11Device3::WriteToSubresource, WriteToSubresource, WriteToSubresource method [Direct3D 11], WriteToSubresource method [Direct3D 11],ID3D11Device3 interface, d3d11_3/ID3D11Device3::WriteToSubresource, direct3d11.id3d11device3_writetosubresource
 ms.topic: method
-f1_keywords: ["d3d11_3/ID3D11Device3.WriteToSubresource"]
+f1_keywords: 
+ - "d3d11_3/ID3D11Device3.WriteToSubresource"
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows

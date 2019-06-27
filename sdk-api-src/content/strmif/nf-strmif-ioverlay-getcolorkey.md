@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColorKey, GetColorKey method [DirectShow], GetColorKey method [DirectShow],IOverlay interface, IOverlay interface [DirectShow],GetColorKey method, IOverlay.GetColorKey, IOverlay::GetColorKey, IOverlayGetColorKey, dshow.ioverlay_getcolorkey, strmif/IOverlay::GetColorKey
 ms.topic: method
-f1_keywords: ["strmif/IOverlay.GetColorKey"]
+f1_keywords: 
+ - "strmif/IOverlay.GetColorKey"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

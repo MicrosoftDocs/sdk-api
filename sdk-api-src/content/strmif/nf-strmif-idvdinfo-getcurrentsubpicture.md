@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentSubpicture, GetCurrentSubpicture method [DirectShow], GetCurrentSubpicture method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentSubpicture method, IDvdInfo.GetCurrentSubpicture, IDvdInfo::GetCurrentSubpicture, IDvdInfoGetCurrentSubpicture, dshow.idvdinfo_getcurrentsubpicture, strmif/IDvdInfo::GetCurrentSubpicture
 ms.topic: method
-f1_keywords: ["strmif/IDvdInfo.GetCurrentSubpicture"]
+f1_keywords: 
+ - "strmif/IDvdInfo.GetCurrentSubpicture"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

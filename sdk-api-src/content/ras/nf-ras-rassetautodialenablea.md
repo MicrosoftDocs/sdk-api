@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasSetAutodialEnable, RasSetAutodialEnable function [RAS], RasSetAutodialEnableA, RasSetAutodialEnableW, _ras_rassetautodialenable, ras/RasSetAutodialEnable, ras/RasSetAutodialEnableA, ras/RasSetAutodialEnableW, rras.rassetautodialenable
 ms.topic: function
-f1_keywords: ["ras/RasSetAutodialEnable"]
+f1_keywords: 
+ - "ras/RasSetAutodialEnable"
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

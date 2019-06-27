@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],SignerCertificate property, ICEnroll4 interface [Security],SignerCertificate property, ICEnroll4.SignerCertificate, ICEnroll4.put_SignerCertificate, ICEnroll4::SignerCertificate, ICEnroll4::put_SignerCertificate, SignerCertificate property [Security], SignerCertificate property [Security],CEnroll object, SignerCertificate property [Security],ICEnroll4 interface, put_SignerCertificate, security.icenroll4_signercertificate, xenroll/ICEnroll4::SignerCertificate, xenroll/ICEnroll4::put_SignerCertificate
 ms.topic: method
-f1_keywords: ["xenroll/ICEnroll4.SignerCertificate"]
+f1_keywords: 
+ - "xenroll/ICEnroll4.SignerCertificate"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

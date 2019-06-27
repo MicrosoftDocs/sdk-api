@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],get_RollOff method, IBDA_DigitalDemodulator2.get_RollOff, IBDA_DigitalDemodulator2::get_RollOff, bdaiface/IBDA_DigitalDemodulator2::get_RollOff, get_RollOff, get_RollOff method [Microsoft TV Technologies], get_RollOff method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface, mstv.ibda_digitaldemodulator2_get_rolloff
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_DigitalDemodulator2.get_RollOff"]
+f1_keywords: 
+ - "bdaiface/IBDA_DigitalDemodulator2.get_RollOff"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

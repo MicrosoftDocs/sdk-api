@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],KeySpec property, IOCSPCAConfiguration.KeySpec, IOCSPCAConfiguration.get_KeySpec, IOCSPCAConfiguration::KeySpec, IOCSPCAConfiguration::get_KeySpec, KeySpec property [Security], KeySpec property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::KeySpec, certadm/IOCSPCAConfiguration::get_KeySpec, get_KeySpec, security.iocspcaconfiguration_keyspec_method
 ms.topic: method
-f1_keywords: ["certadm/IOCSPCAConfiguration.KeySpec"]
+f1_keywords: 
+ - "certadm/IOCSPCAConfiguration.KeySpec"
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

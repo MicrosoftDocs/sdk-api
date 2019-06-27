@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTableTransferEffect, CreateTableTransferEffect method [DirectComposition], CreateTableTransferEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateTableTransferEffect method, IDCompositionDevice3.CreateTableTransferEffect, IDCompositionDevice3::CreateTableTransferEffect, dcomp/IDCompositionDevice3::CreateTableTransferEffect, directcomp.idcompositiondevice3_createtabletransfereffect
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionDevice3.CreateTableTransferEffect"]
+f1_keywords: 
+ - "dcomp/IDCompositionDevice3.CreateTableTransferEffect"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

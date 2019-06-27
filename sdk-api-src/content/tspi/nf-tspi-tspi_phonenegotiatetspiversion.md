@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneNegotiateTSPIVersion, TSPI_phoneNegotiateTSPIVersion function [TAPI 2.2], _tspi_tspi_phonenegotiatetspiversion, tspi.tspi_phonenegotiatetspiversion, tspi/TSPI_phoneNegotiateTSPIVersion
 ms.topic: function
-f1_keywords: ["tspi/TSPI_phoneNegotiateTSPIVersion"]
+f1_keywords: 
+ - "tspi/TSPI_phoneNegotiateTSPIVersion"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

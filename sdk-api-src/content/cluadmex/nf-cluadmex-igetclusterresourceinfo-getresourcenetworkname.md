@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetResourceNetworkName, GetResourceNetworkName method [Failover Cluster], GetResourceNetworkName method [Failover Cluster],IGetClusterResourceInfo interface, IGetClusterResourceInfo interface [Failover Cluster],GetResourceNetworkName method, IGetClusterResourceInfo.GetResourceNetworkName, IGetClusterResourceInfo::GetResourceNetworkName, _wolf_igetclusterresourceinfo_getresourcenetworkname, cluadmex/IGetClusterResourceInfo::GetResourceNetworkName, mscs.igetclusterresourceinfo_getresourcenetworkname
 ms.topic: method
-f1_keywords: ["cluadmex/IGetClusterResourceInfo.GetResourceNetworkName"]
+f1_keywords: 
+ - "cluadmex/IGetClusterResourceInfo.GetResourceNetworkName"
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

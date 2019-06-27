@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],put_Channels method, ITScriptableAudioFormat.put_Channels, ITScriptableAudioFormat::put_Channels, _tapi3_itscriptableaudioformat_put_channels, put_Channels, put_Channels method [TAPI 2.2], put_Channels method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_put_channels, tapi3if/ITScriptableAudioFormat::put_Channels
 ms.topic: method
-f1_keywords: ["tapi3if/ITScriptableAudioFormat.put_Channels"]
+f1_keywords: 
+ - "tapi3if/ITScriptableAudioFormat.put_Channels"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

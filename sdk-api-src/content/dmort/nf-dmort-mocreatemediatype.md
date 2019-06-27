@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MoCreateMediaType, MoCreateMediaType function [DirectShow], dmort/MoCreateMediaType, dshow.mocreatemediatype
 ms.topic: function
-f1_keywords: ["dmort/MoCreateMediaType"]
+f1_keywords: 
+ - "dmort/MoCreateMediaType"
 req.header: dmort.h
 req.include-header: Dmo.h
 req.target-type: Windows

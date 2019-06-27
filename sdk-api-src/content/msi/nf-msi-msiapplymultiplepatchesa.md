@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiApplyMultiplePatches, MsiApplyMultiplePatches function, MsiApplyMultiplePatchesA, MsiApplyMultiplePatchesW, msi/MsiApplyMultiplePatches, msi/MsiApplyMultiplePatchesA, msi/MsiApplyMultiplePatchesW, setup.msiapplymultiplepatches
 ms.topic: function
-f1_keywords: ["msi/MsiApplyMultiplePatches"]
+f1_keywords: 
+ - "msi/MsiApplyMultiplePatches"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateConflicts method, ISyncMgrControl.UpdateConflicts, ISyncMgrControl::UpdateConflicts, UpdateConflicts, UpdateConflicts method [Windows Shell], UpdateConflicts method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateConflicts, shell.ISyncMgrControl_UpdateConflicts, syncmgr/ISyncMgrControl::UpdateConflicts
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrControl.UpdateConflicts"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrControl.UpdateConflicts"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

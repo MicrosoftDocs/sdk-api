@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],get_PFramesPerKeyFrame method, IAMVideoCompression.get_PFramesPerKeyFrame, IAMVideoCompression::get_PFramesPerKeyFrame, IAMVideoCompressionget_PFramesPerKeyFrame, dshow.iamvideocompression_get_pframesperkeyframe, get_PFramesPerKeyFrame, get_PFramesPerKeyFrame method [DirectShow], get_PFramesPerKeyFrame method [DirectShow],IAMVideoCompression interface, strmif/IAMVideoCompression::get_PFramesPerKeyFrame
 ms.topic: method
-f1_keywords: ["strmif/IAMVideoCompression.get_PFramesPerKeyFrame"]
+f1_keywords: 
+ - "strmif/IAMVideoCompression.get_PFramesPerKeyFrame"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

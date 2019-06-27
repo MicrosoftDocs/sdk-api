@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsCrackUnquotedMangledRdn, DsCrackUnquotedMangledRdn function [Active Directory], DsCrackUnquotedMangledRdnA, DsCrackUnquotedMangledRdnW, _glines_dscrackunquotedmangledrdn, ad.dscrackunquotedmangledrdn, dsparse/DsCrackUnquotedMangledRdn, dsparse/DsCrackUnquotedMangledRdnA, dsparse/DsCrackUnquotedMangledRdnW
 ms.topic: function
-f1_keywords: ["dsparse/DsCrackUnquotedMangledRdn"]
+f1_keywords: 
+ - "dsparse/DsCrackUnquotedMangledRdn"
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
 req.target-type: Windows

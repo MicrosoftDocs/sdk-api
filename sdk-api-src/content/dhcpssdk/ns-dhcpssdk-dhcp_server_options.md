@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_SERVER_OPTIONS, *LPDHCP_SERVER_OPTIONS structure [DHCP], DHCP_SERVER_OPTIONS, DHCP_SERVER_OPTIONS structure [DHCP], dhcp.dhcp_server_options, dhcpssdk/*LPDHCP_SERVER_OPTIONS, dhcpssdk/DHCP_SERVER_OPTIONS"
 ms.topic: struct
-f1_keywords: ["dhcpssdk/DHCP_SERVER_OPTIONS"]
+f1_keywords: 
+ - "dhcpssdk/DHCP_SERVER_OPTIONS"
 req.header: dhcpssdk.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHoldPage, GetHoldPage method [DirectShow], GetHoldPage method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetHoldPage method, IAMWstDecoder.GetHoldPage, IAMWstDecoder::GetHoldPage, IAMWstDecoderGetHoldPage, dshow.iamwstdecoder_getholdpage, iwstdec/IAMWstDecoder::GetHoldPage
 ms.topic: method
-f1_keywords: ["iwstdec/IAMWstDecoder.GetHoldPage"]
+f1_keywords: 
+ - "iwstdec/IAMWstDecoder.GetHoldPage"
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows

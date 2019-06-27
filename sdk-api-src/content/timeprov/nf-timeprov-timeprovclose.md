@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TimeProvClose, TimeProvClose callback, TimeProvClose callback function, _win32_timeprovclose, base.timeprovclose, timeprov/TimeProvClose
 ms.topic: function
-f1_keywords: ["timeprov/TimeProvClose"]
+f1_keywords: 
+ - "timeprov/TimeProvClose"
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows

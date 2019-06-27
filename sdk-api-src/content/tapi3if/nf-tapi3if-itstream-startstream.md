@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITStream interface [TAPI 2.2],StartStream method, ITStream.StartStream, ITStream::StartStream, StartStream, StartStream method [TAPI 2.2], StartStream method [TAPI 2.2],ITStream interface, _tapi3_itstream_startstream, tapi3.itstream_startstream, tapi3if/ITStream::StartStream
 ms.topic: method
-f1_keywords: ["tapi3if/ITStream.StartStream"]
+f1_keywords: 
+ - "tapi3if/ITStream.StartStream"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

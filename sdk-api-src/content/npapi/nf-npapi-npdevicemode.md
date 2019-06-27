@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NPDeviceMode, NPDeviceMode function [Security], _mnp_npdevicemode, npapi/NPDeviceMode, security.npdevicemode
 ms.topic: function
-f1_keywords: ["npapi/NPDeviceMode"]
+f1_keywords: 
+ - "npapi/NPDeviceMode"
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

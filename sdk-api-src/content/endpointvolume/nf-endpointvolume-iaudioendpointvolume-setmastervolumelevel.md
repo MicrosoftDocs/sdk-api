@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],SetMasterVolumeLevel method, IAudioEndpointVolume.SetMasterVolumeLevel, IAudioEndpointVolume::SetMasterVolumeLevel, IAudioEndpointVolumeSetMasterVolumeLevel, SetMasterVolumeLevel, SetMasterVolumeLevel method [Core Audio], SetMasterVolumeLevel method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_setmastervolumelevel, endpointvolume/IAudioEndpointVolume::SetMasterVolumeLevel
 ms.topic: method
-f1_keywords: ["endpointvolume/IAudioEndpointVolume.SetMasterVolumeLevel"]
+f1_keywords: 
+ - "endpointvolume/IAudioEndpointVolume.SetMasterVolumeLevel"
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

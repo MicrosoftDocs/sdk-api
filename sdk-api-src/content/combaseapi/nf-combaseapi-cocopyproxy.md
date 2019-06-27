@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoCopyProxy, CoCopyProxy function [COM], _com_CoCopyProxy, com.cocopyproxy, combaseapi/CoCopyProxy
 ms.topic: function
-f1_keywords: ["combaseapi/CoCopyProxy"]
+f1_keywords: 
+ - "combaseapi/CoCopyProxy"
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

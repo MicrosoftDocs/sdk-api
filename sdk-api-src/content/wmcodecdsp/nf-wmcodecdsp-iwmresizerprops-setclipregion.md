@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMResizerProps interface [Media Foundation],SetClipRegion method, IWMResizerProps.SetClipRegion, IWMResizerProps::SetClipRegion, SetClipRegion, SetClipRegion method [Media Foundation], SetClipRegion method [Media Foundation],IWMResizerProps interface, codecapi.iwmresizerpropssetclipregion, mf.iwmresizerpropssetclipregion, wmcodecdsp/IWMResizerProps::SetClipRegion
 ms.topic: method
-f1_keywords: ["wmcodecdsp/IWMResizerProps.SetClipRegion"]
+f1_keywords: 
+ - "wmcodecdsp/IWMResizerProps.SetClipRegion"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDescriptiveText, GetDescriptiveText method [MMC], GetDescriptiveText method [MMC],IExtendTaskPad interface, IExtendTaskPad interface [MMC],GetDescriptiveText method, IExtendTaskPad.GetDescriptiveText, IExtendTaskPad::GetDescriptiveText, _slate_iextendtaskpad_getdescriptivetext, mmc.iextendtaskpad_getdescriptivetext, mmc/IExtendTaskPad::GetDescriptiveText
 ms.topic: method
-f1_keywords: ["mmc/IExtendTaskPad.GetDescriptiveText"]
+f1_keywords: 
+ - "mmc/IExtendTaskPad.GetDescriptiveText"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

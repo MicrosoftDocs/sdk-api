@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DVD_MultichannelAudioAttributes, DVD_MultichannelAudioAttributes structure [DirectShow], DVD_MultichannelAudioAttributesStructure, dshow.dvd_multichannelaudioattributes, strmif/DVD_MultichannelAudioAttributes
 ms.topic: struct
-f1_keywords: ["strmif/DVD_MultichannelAudioAttributes"]
+f1_keywords: 
+ - "strmif/DVD_MultichannelAudioAttributes"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

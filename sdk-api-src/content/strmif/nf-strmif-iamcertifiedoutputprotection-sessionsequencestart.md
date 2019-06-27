@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMCertifiedOutputProtection interface [DirectShow],SessionSequenceStart method, IAMCertifiedOutputProtection.SessionSequenceStart, IAMCertifiedOutputProtection::SessionSequenceStart, IAMCertifiedOutputProtectionSessionSequenceStart, SessionSequenceStart, SessionSequenceStart method [DirectShow], SessionSequenceStart method [DirectShow],IAMCertifiedOutputProtection interface, dshow.iamcertifiedoutputprotection_sessionsequencestart, strmif/IAMCertifiedOutputProtection::SessionSequenceStart
 ms.topic: method
-f1_keywords: ["strmif/IAMCertifiedOutputProtection.SessionSequenceStart"]
+f1_keywords: 
+ - "strmif/IAMCertifiedOutputProtection.SessionSequenceStart"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

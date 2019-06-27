@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GdiplusBase class [GDI+],operator delete method, GdiplusBase.operator delete, GdiplusBase::operator delete, _gdiplus_CLASS_GdiplusBase_operator_delete_in_pVoid_, gdiplus._gdiplus_CLASS_GdiplusBase_operator_delete_in_pVoid_, operator delete, operator delete method [GDI+], operator delete method [GDI+],GdiplusBase class
 ms.topic: method
-f1_keywords: ["gdiplusbase/GdiplusBase.operator delete"]
+f1_keywords: 
+ - "gdiplusbase/GdiplusBase.operator delete"
 req.header: gdiplusbase.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

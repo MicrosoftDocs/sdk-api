@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PKERB_SMART_CARD_UNLOCK_LOGON, KERB_SMART_CARD_UNLOCK_LOGON, KERB_SMART_CARD_UNLOCK_LOGON structure [Security], PKERB_SMART_CARD_UNLOCK_LOGON, PKERB_SMART_CARD_UNLOCK_LOGON structure pointer [Security], ntsecapi/KERB_SMART_CARD_UNLOCK_LOGON, ntsecapi/PKERB_SMART_CARD_UNLOCK_LOGON, security.kerb_smart_card_unlock_logon"
 ms.topic: struct
-f1_keywords: ["ntsecapi/KERB_SMART_CARD_UNLOCK_LOGON"]
+f1_keywords: 
+ - "ntsecapi/KERB_SMART_CARD_UNLOCK_LOGON"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

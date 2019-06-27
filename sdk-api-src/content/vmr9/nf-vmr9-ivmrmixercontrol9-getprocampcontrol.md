@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProcAmpControl, GetProcAmpControl method [DirectShow], GetProcAmpControl method [DirectShow],IVMRMixerControl9 interface, IVMRMixerControl9 interface [DirectShow],GetProcAmpControl method, IVMRMixerControl9.GetProcAmpControl, IVMRMixerControl9::GetProcAmpControl, IVMRMixerControl9GetProcAmpControl, dshow.ivmrmixercontrol9_getprocampcontrol, vmr9/IVMRMixerControl9::GetProcAmpControl
 ms.topic: method
-f1_keywords: ["vmr9/IVMRMixerControl9.GetProcAmpControl"]
+f1_keywords: 
+ - "vmr9/IVMRMixerControl9.GetProcAmpControl"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

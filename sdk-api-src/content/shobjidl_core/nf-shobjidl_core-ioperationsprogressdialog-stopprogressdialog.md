@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],StopProgressDialog method, IOperationsProgressDialog.StopProgressDialog, IOperationsProgressDialog::StopProgressDialog, StopProgressDialog, StopProgressDialog method [Windows Shell], StopProgressDialog method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_StopProgressDialog, shell.IOperationsProgressDialog_StopProgressDialog, shobjidl_core/IOperationsProgressDialog::StopProgressDialog
 ms.topic: method
-f1_keywords: ["shobjidl_core/IOperationsProgressDialog.StopProgressDialog"]
+f1_keywords: 
+ - "shobjidl_core/IOperationsProgressDialog.StopProgressDialog"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

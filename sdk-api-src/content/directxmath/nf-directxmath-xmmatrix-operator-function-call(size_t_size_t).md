@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XMMATRIX structure [DirectX Math Support APIs],operator () method, XMMATRIX.operator ()(size_t,size_t), XMMATRIX.operator (size_t,size_t), XMMATRIX.operator(), XMMATRIX.operator-function-call(size_t,size_t), XMMATRIX::operator(), XMMATRIX::operator-function-call(size_t,size_t), dxmath.xmmatrix_operator_parens_1, operator () method [DirectX Math Support APIs], operator () method [DirectX Math Support APIs],XMMATRIX structure, operator()
 ms.topic: method
-f1_keywords: ["directxmath/XMMATRIX.operator ()"]
+f1_keywords: 
+ - "directxmath/XMMATRIX.operator ()"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

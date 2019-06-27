@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],StaleDataRead method, IMSVidStreamBufferSourceEvent.StaleDataRead, IMSVidStreamBufferSourceEvent::StaleDataRead, IMSVidStreamBufferSourceEventStaleDataRead, StaleDataRead, StaleDataRead method [Microsoft TV Technologies], StaleDataRead method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, mstv.imsvidstreambuffersourceevent_staledataread, segment/IMSVidStreamBufferSourceEvent::StaleDataRead
 ms.topic: method
-f1_keywords: ["segment/IMSVidStreamBufferSourceEvent.StaleDataRead"]
+f1_keywords: 
+ - "segment/IMSVidStreamBufferSourceEvent.StaleDataRead"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, CRYPT_FORMAT_STR_MULTI_LINE, CRYPT_FORMAT_STR_NO_HEX, CryptFormatObject, CryptFormatObject function [Security], SPC_FINANCIAL_CRITERIA_OBJID, SPC_SP_AGENCY_INFO_OBJID, _crypto2_cryptformatobject, security.cryptformatobject, szOID_AUTHORITY_INFO_ACCESS, szOID_AUTHORITY_KEY_IDENTIFIER2, szOID_BASIC_CONSTRAINTS2, szOID_CERT_POLICIES, szOID_CRL_DIST_POINTS, szOID_CRL_REASON_CODE, szOID_ENHANCED_KEY_USAGE, szOID_ISSUER_ALT_NAME2, szOID_KEY_ATTRIBUTES, szOID_KEY_USAGE, szOID_KEY_USAGE_RESTRICTION, szOID_NEXT_UPDATE_LOCATION, szOID_RSA_SMIMECapabilities, szOID_SUBJECT_ALT_NAME2, szOID_SUBJECT_KEY_IDENTIFIER, wincrypt/CryptFormatObject
 ms.topic: function
-f1_keywords: ["wincrypt/CryptFormatObject"]
+f1_keywords: 
+ - "wincrypt/CryptFormatObject"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

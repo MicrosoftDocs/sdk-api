@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProtocolHandles, GetProtocolHandles method [Remote Desktop Services], GetProtocolHandles method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],GetProtocolHandles method, IWTSProtocolConnection.GetProtocolHandles, IWTSProtocolConnection::GetProtocolHandles, termserv.iwtsprotocolconnection_getprotocolhandles, wtsprotocol/IWTSProtocolConnection::GetProtocolHandles
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWTSProtocolConnection.GetProtocolHandles"]
+f1_keywords: 
+ - "wtsprotocol/IWTSProtocolConnection.GetProtocolHandles"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

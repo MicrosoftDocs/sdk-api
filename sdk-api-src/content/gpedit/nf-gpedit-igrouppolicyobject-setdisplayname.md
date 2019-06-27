@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGroupPolicyObject interface [Group Policy],SetDisplayName method, IGroupPolicyObject.SetDisplayName, IGroupPolicyObject::SetDisplayName, SetDisplayName, SetDisplayName method [Group Policy], SetDisplayName method [Group Policy],IGroupPolicyObject interface, _win32_igrouppolicyobject_setdisplayname, gpedit/IGroupPolicyObject::SetDisplayName, policy.igrouppolicyobject_setdisplayname
 ms.topic: method
-f1_keywords: ["gpedit/IGroupPolicyObject.SetDisplayName"]
+f1_keywords: 
+ - "gpedit/IGroupPolicyObject.SetDisplayName"
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

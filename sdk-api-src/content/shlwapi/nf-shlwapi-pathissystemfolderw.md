@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathIsSystemFolder, PathIsSystemFolder function [Windows Shell], PathIsSystemFolderA, PathIsSystemFolderW, _win32_PathIsSystemFolder, shell.PathIsSystemFolder, shlwapi/PathIsSystemFolder, shlwapi/PathIsSystemFolderA, shlwapi/PathIsSystemFolderW
 ms.topic: function
-f1_keywords: ["shlwapi/PathIsSystemFolder"]
+f1_keywords: 
+ - "shlwapi/PathIsSystemFolder"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

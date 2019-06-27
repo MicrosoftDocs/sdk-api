@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSARevertImpersonation, WSARevertImpersonation function [Winsock], winsock.wsarevertimpersonation, ws2tcpip/WSARevertImpersonation
 ms.topic: function
-f1_keywords: ["ws2tcpip/WSARevertImpersonation"]
+f1_keywords: 
+ - "ws2tcpip/WSARevertImpersonation"
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

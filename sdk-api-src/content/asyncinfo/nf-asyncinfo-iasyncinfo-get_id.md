@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAsyncInfo interface [Windows Runtime],Id property, IAsyncInfo.Id, IAsyncInfo.get_Id, IAsyncInfo::Id, IAsyncInfo::get_Id, Id property [Windows Runtime], Id property [Windows Runtime],IAsyncInfo interface, asyncinfo/IAsyncInfo::Id, asyncinfo/IAsyncInfo::get_Id, get_Id, winrt.iasyncinfo_id
 ms.topic: method
-f1_keywords: ["asyncinfo/IAsyncInfo.Id"]
+f1_keywords: 
+ - "asyncinfo/IAsyncInfo.Id"
 req.header: asyncinfo.h
 req.include-header: 
 req.target-type: Windows

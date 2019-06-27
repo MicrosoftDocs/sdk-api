@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateProvider, CreateProvider method [Windows Accessibility], CreateProvider method [Windows Accessibility],IUIAutomationProxyFactory interface, IUIAutomationProxyFactory interface [Windows Accessibility],CreateProvider method, IUIAutomationProxyFactory.CreateProvider, IUIAutomationProxyFactory::CreateProvider, uiauto.uiauto_IUIAutomationProxyFactory_CreateProvider, uiauto_IUIAutomationProxyFactory_CreateProvider, uiautomationclient/IUIAutomationProxyFactory::CreateProvider, winauto.uiauto_IUIAutomationProxyFactory_CreateProvider
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationProxyFactory.CreateProvider"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationProxyFactory.CreateProvider"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

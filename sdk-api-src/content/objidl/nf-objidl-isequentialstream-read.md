@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISequentialStream interface [Structured Storage],Read method, ISequentialStream.Read, ISequentialStream::Read, Read, Read method [Structured Storage], Read method [Structured Storage],ISequentialStream interface, _stg_isequentialstream_read, objidl/ISequentialStream::Read, stg.isequentialstream_read
 ms.topic: method
-f1_keywords: ["objidl/ISequentialStream.Read"]
+f1_keywords: 
+ - "objidl/ISequentialStream.Read"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICameraUIControlEventCallback interface [Windows API],OnClosed method, ICameraUIControlEventCallback.OnClosed, ICameraUIControlEventCallback::OnClosed, OnClosed, OnClosed method [Windows API], OnClosed method [Windows API],ICameraUIControlEventCallback interface, camerauicontrol/ICameraUIControlEventCallback::OnClosed, winprog.icamerauicontroleventcallback_onclosed
 ms.topic: method
-f1_keywords: ["camerauicontrol/ICameraUIControlEventCallback.OnClosed"]
+f1_keywords: 
+ - "camerauicontrol/ICameraUIControlEventCallback.OnClosed"
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows

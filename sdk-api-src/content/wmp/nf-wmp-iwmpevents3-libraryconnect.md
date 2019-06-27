@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents3 interface [Windows Media Player],LibraryConnect method, IWMPEvents3.LibraryConnect, IWMPEvents3::LibraryConnect, IWMPEvents3LibraryConnect, LibraryConnect, LibraryConnect method [Windows Media Player], LibraryConnect method [Windows Media Player],IWMPEvents3 interface, wmp.iwmpevents3_iwmpevents3__libraryconnect, wmp/IWMPEvents3::LibraryConnect
 ms.topic: method
-f1_keywords: ["wmp/IWMPEvents3.LibraryConnect"]
+f1_keywords: 
+ - "wmp/IWMPEvents3.LibraryConnect"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

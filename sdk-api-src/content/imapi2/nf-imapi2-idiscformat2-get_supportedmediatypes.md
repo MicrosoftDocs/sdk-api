@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2 interface [IMAPI],get_SupportedMediaTypes method, IDiscFormat2.get_SupportedMediaTypes, IDiscFormat2::get_SupportedMediaTypes, get_SupportedMediaTypes, get_SupportedMediaTypes method [IMAPI], get_SupportedMediaTypes method [IMAPI],IDiscFormat2 interface, imapi.idiscformat2_get_supportedmediatypes, imapi2/IDiscFormat2::get_SupportedMediaTypes
 ms.topic: method
-f1_keywords: ["imapi2/IDiscFormat2.get_SupportedMediaTypes"]
+f1_keywords: 
+ - "imapi2/IDiscFormat2.get_SupportedMediaTypes"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

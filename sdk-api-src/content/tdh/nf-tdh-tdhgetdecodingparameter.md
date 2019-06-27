@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TdhGetDecodingParameter, TdhGetDecodingParameter function [ETW], etw.tdhgetdecodingparameter, tdh/TdhGetDecodingParameter
 ms.topic: function
-f1_keywords: ["tdh/TdhGetDecodingParameter"]
+f1_keywords: 
+ - "tdh/TdhGetDecodingParameter"
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

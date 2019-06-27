@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RESTART_NO_CRASH, RESTART_NO_HANG, RESTART_NO_PATCH, RESTART_NO_REBOOT, RegisterApplicationRestart, RegisterApplicationRestart function [Recovery], base.registerapplicationrestart, recovery.registerapplicationrestart, winbase/RegisterApplicationRestart
 ms.topic: function
-f1_keywords: ["winbase/RegisterApplicationRestart"]
+f1_keywords: 
+ - "winbase/RegisterApplicationRestart"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

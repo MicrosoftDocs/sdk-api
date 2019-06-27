@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],IsCommandSessionOpen property, IMbnDeviceService.IsCommandSessionOpen, IMbnDeviceService.get_IsCommandSessionOpen, IMbnDeviceService::IsCommandSessionOpen, IMbnDeviceService::get_IsCommandSessionOpen, IsCommandSessionOpen property [Microsoft Broadband Networks], IsCommandSessionOpen property [Microsoft Broadband Networks],IMbnDeviceService interface, get_IsCommandSessionOpen, mbn.imbndeviceservice_iscommandsessionopen, mbnapi/IMbnDeviceService::IsCommandSessionOpen, mbnapi/IMbnDeviceService::get_IsCommandSessionOpen
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnDeviceService.IsCommandSessionOpen"]
+f1_keywords: 
+ - "mbnapi/IMbnDeviceService.IsCommandSessionOpen"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

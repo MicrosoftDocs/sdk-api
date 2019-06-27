@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWTS_PROTOCOL_COUNTERS, PWRDS_PROTOCOL_COUNTERS, PWRDS_PROTOCOL_COUNTERS structure pointer [Remote Desktop Services], PWTS_PROTOCOL_COUNTERS, PWTS_PROTOCOL_COUNTERS structure pointer [Remote Desktop Services], WRDS_PROTOCOL_COUNTERS, WRDS_PROTOCOL_COUNTERS structure [Remote Desktop Services], WTS_PROTOCOL_COUNTERS, WTS_PROTOCOL_COUNTERS structure [Remote Desktop Services], termserv.wts_protocol_counters, wtsdefs/PWRDS_PROTOCOL_COUNTERS, wtsdefs/PWTS_PROTOCOL_COUNTERS, wtsdefs/WRDS_PROTOCOL_COUNTERS, wtsdefs/WTS_PROTOCOL_COUNTERS"
 ms.topic: struct
-f1_keywords: ["wtsdefs/WTS_PROTOCOL_COUNTERS"]
+f1_keywords: 
+ - "wtsdefs/WTS_PROTOCOL_COUNTERS"
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyDescriptorsSimple, CopyDescriptorsSimple method, CopyDescriptorsSimple method,ID3D12Device interface, ID3D12Device interface,CopyDescriptorsSimple method, ID3D12Device.CopyDescriptorsSimple, ID3D12Device::CopyDescriptorsSimple, d3d12/ID3D12Device::CopyDescriptorsSimple, direct3d12.id3d12device_copydescriptorssimple
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12Device.CopyDescriptorsSimple"]
+f1_keywords: 
+ - "d3d12/ID3D12Device.CopyDescriptorsSimple"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

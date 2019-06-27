@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 05/20/2019
 ms.keywords: Region::Xor
 ms.topic: language-reference
-f1_keywords: ["gdiplusheaders/Region::Xor"]
+f1_keywords: 
+ - "gdiplusheaders/Region::Xor"
 targetos: Windows
 product: Windows
 req.assembly: 

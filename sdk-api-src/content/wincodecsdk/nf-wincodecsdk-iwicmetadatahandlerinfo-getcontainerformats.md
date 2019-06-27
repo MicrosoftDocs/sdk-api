@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetContainerFormats, GetContainerFormats method [Windows Imaging Component], GetContainerFormats method [Windows Imaging Component],IWICMetadataHandlerInfo interface, IWICMetadataHandlerInfo interface [Windows Imaging Component],GetContainerFormats method, IWICMetadataHandlerInfo.GetContainerFormats, IWICMetadataHandlerInfo::GetContainerFormats, _wic_codec_iwicmetadatahandlerinfo_getcontainerformats, wic._wic_codec_iwicmetadatahandlerinfo_getcontainerformats, wincodecsdk/IWICMetadataHandlerInfo::GetContainerFormats
 ms.topic: method
-f1_keywords: ["wincodecsdk/IWICMetadataHandlerInfo.GetContainerFormats"]
+f1_keywords: 
+ - "wincodecsdk/IWICMetadataHandlerInfo.GetContainerFormats"
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

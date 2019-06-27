@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateMediaSourceExtension, CreateMediaSourceExtension method [Media Foundation], CreateMediaSourceExtension method [Media Foundation],IMFMediaEngineClassFactoryEx interface, IMFMediaEngineClassFactoryEx interface [Media Foundation],CreateMediaSourceExtension method, IMFMediaEngineClassFactoryEx.CreateMediaSourceExtension, IMFMediaEngineClassFactoryEx::CreateMediaSourceExtension, mf.imfmediaengineclassfactoryex_createmediasourceextension, mfmediaengine/IMFMediaEngineClassFactoryEx::CreateMediaSourceExtension
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngineClassFactoryEx.CreateMediaSourceExtension"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngineClassFactoryEx.CreateMediaSourceExtension"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

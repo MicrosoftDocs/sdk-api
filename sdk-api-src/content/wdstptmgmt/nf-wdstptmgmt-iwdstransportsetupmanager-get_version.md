@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportSetupManager interface [Windows Deployment Services],Version property, IWdsTransportSetupManager.Version, IWdsTransportSetupManager.get_Version, IWdsTransportSetupManager::Version, IWdsTransportSetupManager::get_Version, Version property [Windows Deployment Services], Version property [Windows Deployment Services],IWdsTransportSetupManager interface, get_Version, wds.iwdstransportsetupmanager_version, wdstptmgmt/IWdsTransportSetupManager::Version, wdstptmgmt/IWdsTransportSetupManager::get_Version
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportSetupManager.Version"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportSetupManager.Version"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3dDestroyDDLocal, D3dDestroyDDLocal callback function [Display Devices], PDD_DESTROYDDLOCAL, PDD_DESTROYDDLOCAL callback, d3dfncs_3480b8ff-c19d-4495-ab5e-d5ef4e326967.xml, ddrawint/D3dDestroyDDLocal, display.d3ddestroyddlocal
 ms.topic: callback
-f1_keywords: ["ddrawint/D3dDestroyDDLocal"]
+f1_keywords: 
+ - "ddrawint/D3dDestroyDDLocal"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

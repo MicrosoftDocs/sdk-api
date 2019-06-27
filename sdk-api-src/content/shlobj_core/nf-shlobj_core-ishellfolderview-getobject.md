@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [Windows Shell], GetObject method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetObject method, IShellFolderView.GetObject, IShellFolderView::GetObject, _shell_IShellFolderView_GetObject, shell.IShellFolderView_GetObject, shlobj_core/IShellFolderView::GetObject
 ms.topic: method
-f1_keywords: ["shlobj_core/IShellFolderView.GetObject"]
+f1_keywords: 
+ - "shlobj_core/IShellFolderView.GetObject"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

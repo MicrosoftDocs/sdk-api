@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSTORAGE_BUS_TYPE, BusType1394, BusTypeAta, BusTypeAtapi, BusTypeFibre, BusTypeMaxReserved, BusTypeRAID, BusTypeSas, BusTypeSata, BusTypeScsi, BusTypeSsa, BusTypeUnknown, BusTypeUsb, BusTypeiSCSI, PSTORAGE_BUS_TYPE, PSTORAGE_BUS_TYPE enumeration pointer, STORAGE_BUS_TYPE, STORAGE_BUS_TYPE enumeration, _win32_storage_bus_type, base.storage_bus_type, winioctl/BusType1394, winioctl/BusTypeAta, winioctl/BusTypeAtapi, winioctl/BusTypeFibre, winioctl/BusTypeMaxReserved, winioctl/BusTypeRAID, winioctl/BusTypeSas, winioctl/BusTypeSata, winioctl/BusTypeScsi, winioctl/BusTypeSsa, winioctl/BusTypeUnknown, winioctl/BusTypeUsb, winioctl/BusTypeiSCSI, winioctl/PSTORAGE_BUS_TYPE, winioctl/STORAGE_BUS_TYPE"
 ms.topic: enum
-f1_keywords: ["winioctl/STORAGE_BUS_TYPE"]
+f1_keywords: 
+ - "winioctl/STORAGE_BUS_TYPE"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

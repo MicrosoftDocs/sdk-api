@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpGetTimeout, SnmpGetTimeout function [SNMP], _snmp_snmpgettimeout, snmp.snmpgettimeout, winsnmp/SnmpGetTimeout
 ms.topic: function
-f1_keywords: ["winsnmp/SnmpGetTimeout"]
+f1_keywords: 
+ - "winsnmp/SnmpGetTimeout"
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

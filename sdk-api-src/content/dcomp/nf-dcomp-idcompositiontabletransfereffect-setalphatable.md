@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetAlphaTable method, IDCompositionTableTransferEffect.SetAlphaTable, IDCompositionTableTransferEffect::SetAlphaTable, SetAlphaTable, SetAlphaTable method [DirectComposition], SetAlphaTable method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetAlphaTable, directcomp.idcompositiontabletransfereffect_setalphatable
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionTableTransferEffect.SetAlphaTable"]
+f1_keywords: 
+ - "dcomp/IDCompositionTableTransferEffect.SetAlphaTable"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

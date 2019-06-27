@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapPeerGetInfo, EapPeerGetInfo function [EAPHost], eaphost.eappeergetinfo, eapmethodpeerapis/EapPeerGetInfo
 ms.topic: function
-f1_keywords: ["eapmethodpeerapis/EapPeerGetInfo"]
+f1_keywords: 
+ - "eapmethodpeerapis/EapPeerGetInfo"
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMTuner interface [DirectShow],Logout method, IAMTuner.Logout, IAMTuner::Logout, IAMTunerLogout, Logout, Logout method [DirectShow], Logout method [DirectShow],IAMTuner interface, dshow.iamtuner_logout, strmif/IAMTuner::Logout
 ms.topic: method
-f1_keywords: ["strmif/IAMTuner.Logout"]
+f1_keywords: 
+ - "strmif/IAMTuner.Logout"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

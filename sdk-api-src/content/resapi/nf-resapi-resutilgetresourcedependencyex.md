@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENCY_EX, PRESUTIL_GET_RESOURCE_DEPENDENCY_EX function [Failover Cluster], ResUtilGetResourceDependencyEx, ResUtilGetResourceDependencyEx function [Failover Cluster], mscs.resutilgetresourcedependencyex, resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY_EX, resapi/ResUtilGetResourceDependencyEx
 ms.topic: function
-f1_keywords: ["resapi/ResUtilGetResourceDependencyEx"]
+f1_keywords: 
+ - "resapi/ResUtilGetResourceDependencyEx"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

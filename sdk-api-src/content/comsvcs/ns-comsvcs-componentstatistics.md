@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComponentStatistics, ComponentStatistics structure [COM+], comsvcs/ComponentStatistics, cos.componentstatistics
 ms.topic: struct
-f1_keywords: ["comsvcs/ComponentStatistics"]
+f1_keywords: 
+ - "comsvcs/ComponentStatistics"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

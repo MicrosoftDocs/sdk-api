@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],ProxyAuthenticationUseNegotiate method, IWSManConnectionOptionsEx2.ProxyAuthenticationUseNegotiate, IWSManConnectionOptionsEx2::ProxyAuthenticationUseNegotiate, ProxyAuthenticationUseNegotiate, ProxyAuthenticationUseNegotiate method [Windows Remote Management], ProxyAuthenticationUseNegotiate method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_proxyauthenticationusenegotiate, wsmandisp/IWSManConnectionOptionsEx2::ProxyAuthenticationUseNegotiate
 ms.topic: method
-f1_keywords: ["wsmandisp/IWSManConnectionOptionsEx2.ProxyAuthenticationUseNegotiate"]
+f1_keywords: 
+ - "wsmandisp/IWSManConnectionOptionsEx2.ProxyAuthenticationUseNegotiate"
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

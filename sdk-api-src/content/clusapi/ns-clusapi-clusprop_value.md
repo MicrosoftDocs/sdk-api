@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCLUSPROP_VALUE, CLUSPROP_VALUE, CLUSPROP_VALUE structure [Failover Cluster], PCLUSPROP_VALUE, PCLUSPROP_VALUE structure pointer [Failover Cluster], _wolf_clusprop_value, clusapi/CLUSPROP_VALUE, clusapi/PCLUSPROP_VALUE, mscs.clusprop_value"
 ms.topic: struct
-f1_keywords: ["clusapi/CLUSPROP_VALUE"]
+f1_keywords: 
+ - "clusapi/CLUSPROP_VALUE"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPStringCollection2 interface [Windows Media Player],getAttributeCountByType method, IWMPStringCollection2.getAttributeCountByType, IWMPStringCollection2::getAttributeCountByType, IWMPStringCollection2getAttributeCountByType, getAttributeCountByType, getAttributeCountByType method [Windows Media Player], getAttributeCountByType method [Windows Media Player],IWMPStringCollection2 interface, wmp.iwmpstringcollection2_getattributecountbytype, wmp/IWMPStringCollection2::getAttributeCountByType
 ms.topic: method
-f1_keywords: ["wmp/IWMPStringCollection2.getAttributeCountByType"]
+f1_keywords: 
+ - "wmp/IWMPStringCollection2.getAttributeCountByType"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

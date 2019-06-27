@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStringLength, GetStringLength method [Direct Write], GetStringLength method [Direct Write],IDWriteLocalizedStrings interface, IDWriteLocalizedStrings interface [Direct Write],GetStringLength method, IDWriteLocalizedStrings.GetStringLength, IDWriteLocalizedStrings::GetStringLength, directwrite.IDWriteLocalizedStrings_GetStringLength, dwrite/IDWriteLocalizedStrings::GetStringLength
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteLocalizedStrings.GetStringLength"]
+f1_keywords: 
+ - "dwrite/IDWriteLocalizedStrings.GetStringLength"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

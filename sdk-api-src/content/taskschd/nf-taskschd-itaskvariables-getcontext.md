@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetContext, GetContext method [Task Scheduler], GetContext method [Task Scheduler],ITaskVariables interface, ITaskVariables interface [Task Scheduler],GetContext method, ITaskVariables.GetContext, ITaskVariables::GetContext, taskschd.itaskvariables_getcontext, taskschd/ITaskVariables::GetContext
 ms.topic: method
-f1_keywords: ["taskschd/ITaskVariables.GetContext"]
+f1_keywords: 
+ - "taskschd/ITaskVariables.GetContext"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

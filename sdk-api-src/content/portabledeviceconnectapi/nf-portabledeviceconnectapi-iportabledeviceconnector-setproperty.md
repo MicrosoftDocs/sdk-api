@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceConnector interface [Windows Portable Devices SDK],SetProperty method, IPortableDeviceConnector.SetProperty, IPortableDeviceConnector::SetProperty, SetProperty, SetProperty method [Windows Portable Devices SDK], SetProperty method [Windows Portable Devices SDK],IPortableDeviceConnector interface, devpkey/IPortableDeviceConnector::SetProperty, portabledeviceconnectapi/IPortableDeviceConnector::SetProperty, wpdsdk.iportabledeviceconnector_setproperty
 ms.topic: method
-f1_keywords: ["portabledeviceconnectapi/IPortableDeviceConnector.SetProperty"]
+f1_keywords: 
+ - "portabledeviceconnectapi/IPortableDeviceConnector.SetProperty"
 req.header: portabledeviceconnectapi.h
 req.include-header: 
 req.target-type: Windows

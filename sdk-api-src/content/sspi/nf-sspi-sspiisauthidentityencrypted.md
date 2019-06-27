@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SspiIsAuthIdentityEncrypted, SspiIsAuthIdentityEncrypted function [Security], security.sspiisauthidentityencrypted, sspi/SspiIsAuthIdentityEncrypted
 ms.topic: function
-f1_keywords: ["sspi/SspiIsAuthIdentityEncrypted"]
+f1_keywords: 
+ - "sspi/SspiIsAuthIdentityEncrypted"
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

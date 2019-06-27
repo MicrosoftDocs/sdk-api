@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorReplicate, XMVectorReplicate, XMVectorReplicate method [DirectX Math Support APIs], dxmath.xmvectorreplicate
 ms.topic: function
-f1_keywords: ["directxmath/XMVectorReplicate"]
+f1_keywords: 
+ - "directxmath/XMVectorReplicate"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

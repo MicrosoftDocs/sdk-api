@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPROCESS_MITIGATION_FONT_DISABLE_POLICY, PPROCESS_MITIGATION_FONT_DISABLE_POLICY, PPROCESS_MITIGATION_FONT_DISABLE_POLICY structure pointer, PROCESS_MITIGATION_FONT_DISABLE_POLICY, PROCESS_MITIGATION_FONT_DISABLE_POLICY structure, base.process_mitigation_font_disable_policy, winnt/PPROCESS_MITIGATION_FONT_DISABLE_POLICY, winnt/PROCESS_MITIGATION_FONT_DISABLE_POLICY"
 ms.topic: struct
-f1_keywords: ["winnt/PROCESS_MITIGATION_FONT_DISABLE_POLICY"]
+f1_keywords: 
+ - "winnt/PROCESS_MITIGATION_FONT_DISABLE_POLICY"
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

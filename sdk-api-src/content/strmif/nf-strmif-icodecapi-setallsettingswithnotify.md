@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICodecAPI interface [DirectShow],SetAllSettingsWithNotify method, ICodecAPI.SetAllSettingsWithNotify, ICodecAPI::SetAllSettingsWithNotify, ICodecAPISetAllSettingsWithNotify, SetAllSettingsWithNotify, SetAllSettingsWithNotify method [DirectShow], SetAllSettingsWithNotify method [DirectShow],ICodecAPI interface, dshow.icodecapi_setallsettingswithnotify, strmif/ICodecAPI::SetAllSettingsWithNotify
 ms.topic: method
-f1_keywords: ["strmif/ICodecAPI.SetAllSettingsWithNotify"]
+f1_keywords: 
+ - "strmif/ICodecAPI.SetAllSettingsWithNotify"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

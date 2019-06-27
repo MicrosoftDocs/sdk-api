@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SECOND_IPADDRESS, SECOND_IPADDRESS macro [Windows Controls], _win32_SECOND_IPADDRESS, _win32_SECOND_IPADDRESS_cpp, commctrl/SECOND_IPADDRESS, controls.SECOND_IPADDRESS, controls._win32_SECOND_IPADDRESS
 ms.topic: macro
-f1_keywords: ["commctrl/SECOND_IPADDRESS"]
+f1_keywords: 
+ - "commctrl/SECOND_IPADDRESS"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

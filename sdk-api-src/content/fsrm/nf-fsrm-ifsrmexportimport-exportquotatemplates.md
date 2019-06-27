@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExportQuotaTemplates, ExportQuotaTemplates method [File Server Resource Manager], ExportQuotaTemplates method [File Server Resource Manager],FsrmExportImport class, ExportQuotaTemplates method [File Server Resource Manager],IFsrmExportImport interface, FsrmExportImport class [File Server Resource Manager],ExportQuotaTemplates method, IFsrmExportImport interface [File Server Resource Manager],ExportQuotaTemplates method, IFsrmExportImport.ExportQuotaTemplates, IFsrmExportImport::ExportQuotaTemplates, fs.ifsrmexportimport_exportquotatemplates, fsrm.ifsrmexportimport_exportquotatemplates, fsrm/IFsrmExportImport::ExportQuotaTemplates
 ms.topic: method
-f1_keywords: ["fsrm/IFsrmExportImport.ExportQuotaTemplates"]
+f1_keywords: 
+ - "fsrm/IFsrmExportImport.ExportQuotaTemplates"
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows

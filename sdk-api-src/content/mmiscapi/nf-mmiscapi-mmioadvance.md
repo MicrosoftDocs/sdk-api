@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_mmioAdvance, mmioAdvance, mmioAdvance function [Windows Multimedia], mmsystem/mmioAdvance, multimedia.mmioadvance"
 ms.topic: function
-f1_keywords: ["mmiscapi/mmioAdvance"]
+f1_keywords: 
+ - "mmiscapi/mmioAdvance"
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows

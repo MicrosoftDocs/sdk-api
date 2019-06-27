@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMWriterFileSink3 interface [windows Media Format],SetUnbufferedIO method, IWMWriterFileSink3.SetUnbufferedIO, IWMWriterFileSink3::SetUnbufferedIO, IWMWriterFileSink3SetUnbufferedIO, SetUnbufferedIO, SetUnbufferedIO method [windows Media Format], SetUnbufferedIO method [windows Media Format],IWMWriterFileSink3 interface, wmformat.iwmwriterfilesink3_setunbufferedio, wmsdkidl/IWMWriterFileSink3::SetUnbufferedIO
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriterFileSink3.SetUnbufferedIO"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriterFileSink3.SetUnbufferedIO"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

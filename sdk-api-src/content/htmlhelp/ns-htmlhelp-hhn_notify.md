@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HHN_NOTIFY, HHN_NOTIFY structure [HTML Help Workshop], htmlhelp.hhn_notify_structure, htmlhelp/HHN_NOTIFY, vsconStrhhnnotify
 ms.topic: struct
-f1_keywords: ["htmlhelp/HHN_NOTIFY"]
+f1_keywords: 
+ - "htmlhelp/HHN_NOTIFY"
 req.header: htmlhelp.h
 req.include-header: 
 req.target-type: Windows

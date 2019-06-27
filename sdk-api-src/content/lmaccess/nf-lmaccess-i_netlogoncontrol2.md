@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: I_NetLogonControl2, I_NetLogonControl2 function [Windows API], NETLOGON_CONTROL_CHANGE_PASSWORD, NETLOGON_CONTROL_FORCE_DNS_REG, NETLOGON_CONTROL_PDC_REPLICATE, NETLOGON_CONTROL_QUERY, NETLOGON_CONTROL_QUERY_DNS_REG, NETLOGON_CONTROL_REDISCOVER, NETLOGON_CONTROL_REPLICATE, NETLOGON_CONTROL_SYNCHRONIZE, NETLOGON_CONTROL_TC_QUERY, NETLOGON_CONTROL_TC_VERIFY, NETLOGON_INFO_1, NETLOGON_INFO_2, NETLOGON_INFO_3, NETLOGON_INFO_4, lmaccess/I_NetLogonControl2, winprog.i_netlogoncontrol2
 ms.topic: function
-f1_keywords: ["lmaccess/I_NetLogonControl2"]
+f1_keywords: 
+ - "lmaccess/I_NetLogonControl2"
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows

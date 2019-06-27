@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],Open method, ITPhone.Open, ITPhone::Open, Open, Open method [TAPI 2.2], Open method [TAPI 2.2],ITPhone interface, _tapi3_itphone_open, tapi3.itphone_open, tapi3if/ITPhone::Open
 ms.topic: method
-f1_keywords: ["tapi3if/ITPhone.Open"]
+f1_keywords: 
+ - "tapi3if/ITPhone.Open"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

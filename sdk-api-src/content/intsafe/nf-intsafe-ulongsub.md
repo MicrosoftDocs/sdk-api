@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWordSub, ULongSub, ULongSub function [Windows Shell], _shell_ULongSub, intsafe/ULongSub, shell.ULongSub
 ms.topic: function
-f1_keywords: ["intsafe/ULongSub"]
+f1_keywords: 
+ - "intsafe/ULongSub"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

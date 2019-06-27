@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITraceEvent interface [ETW],SetThreadId method, ITraceEvent.SetThreadId, ITraceEvent::SetThreadId, SetThreadId, SetThreadId method [ETW], SetThreadId method [ETW],ITraceEvent interface, etw.ievent_setthreadid, relogger/ITraceEvent::SetThreadId
 ms.topic: method
-f1_keywords: ["relogger/ITraceEvent.SetThreadId"]
+f1_keywords: 
+ - "relogger/ITraceEvent.SetThreadId"
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

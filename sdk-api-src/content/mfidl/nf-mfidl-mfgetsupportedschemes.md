@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFGetSupportedSchemes, MFGetSupportedSchemes function [Media Foundation], b40315fc-7e2b-4573-a98f-840b6ce31dd3, mf.mfgetsupportedschemes, mfidl/MFGetSupportedSchemes
 ms.topic: function
-f1_keywords: ["mfidl/MFGetSupportedSchemes"]
+f1_keywords: 
+ - "mfidl/MFGetSupportedSchemes"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

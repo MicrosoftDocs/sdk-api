@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMDocument interface, IXpsOMDocument interface [XPS Documents and Packaging],Clone method, IXpsOMDocument.Clone, IXpsOMDocument::Clone, xps.ixpsomdocument_clone, xpsobjectmodel/IXpsOMDocument::Clone
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMDocument.Clone"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMDocument.Clone"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

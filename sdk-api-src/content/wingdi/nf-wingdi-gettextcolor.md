@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTextColor, GetTextColor function [Windows GDI], _win32_GetTextColor, gdi.gettextcolor, wingdi/GetTextColor
 ms.topic: function
-f1_keywords: ["wingdi/GetTextColor"]
+f1_keywords: 
+ - "wingdi/GetTextColor"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

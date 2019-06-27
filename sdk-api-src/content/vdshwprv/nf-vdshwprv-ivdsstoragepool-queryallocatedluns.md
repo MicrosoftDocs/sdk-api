@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsStoragePool interface,QueryAllocatedLuns method, IVdsStoragePool.QueryAllocatedLuns, IVdsStoragePool::QueryAllocatedLuns, QueryAllocatedLuns, QueryAllocatedLuns method, QueryAllocatedLuns method,IVdsStoragePool interface, base.ivdsstoragepool_queryallocatedluns, vds/IVdsStoragePool::QueryAllocatedLuns, vdshwprv/IVdsStoragePool::QueryAllocatedLuns
 ms.topic: method
-f1_keywords: ["vdshwprv/IVdsStoragePool.QueryAllocatedLuns"]
+f1_keywords: 
+ - "vdshwprv/IVdsStoragePool.QueryAllocatedLuns"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdhGetDefaultPerfObject, PdhGetDefaultPerfObject function [Perf], PdhGetDefaultPerfObjectA, PdhGetDefaultPerfObjectW, _win32_pdhgetdefaultperfobject, base.pdhgetdefaultperfobject, pdh/PdhGetDefaultPerfObject, pdh/PdhGetDefaultPerfObjectA, pdh/PdhGetDefaultPerfObjectW, perf.pdhgetdefaultperfobject
 ms.topic: function
-f1_keywords: ["pdh/PdhGetDefaultPerfObject"]
+f1_keywords: 
+ - "pdh/PdhGetDefaultPerfObject"
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

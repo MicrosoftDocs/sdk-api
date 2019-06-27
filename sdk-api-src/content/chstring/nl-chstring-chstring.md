@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "??1CHString@@QAE@XZ, ??1CHString@@QEAA@XZ, CHString, CHString class [Windows Management Instrumentation], CHString class [Windows Management Instrumentation],described, _hmm_chstring, chstring/CHString, wmi.chstring"
 ms.topic: class
-f1_keywords: ["chstring/CHString"]
+f1_keywords: 
+ - "chstring/CHString"
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

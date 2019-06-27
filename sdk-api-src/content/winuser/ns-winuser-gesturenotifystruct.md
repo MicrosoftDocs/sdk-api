@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PGESTURENOTIFYSTRUCT, GESTURENOTIFYSTRUCT, GESTURENOTIFYSTRUCT structure [Windows Touch], PGESTURENOTIFYSTRUCT, PGESTURENOTIFYSTRUCT structure pointer [Windows Touch], tagGESTURENOTIFYSTRUCT, wintouch.gesturenotifystruct, winuser/GESTURENOTIFYSTRUCT, winuser/PGESTURENOTIFYSTRUCT"
 ms.topic: struct
-f1_keywords: ["winuser/GESTURENOTIFYSTRUCT"]
+f1_keywords: 
+ - "winuser/GESTURENOTIFYSTRUCT"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

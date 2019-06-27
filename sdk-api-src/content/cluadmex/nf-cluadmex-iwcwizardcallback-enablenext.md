@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnableNext, EnableNext method [Failover Cluster], EnableNext method [Failover Cluster],IWCWizardCallback interface, IWCWizardCallback interface [Failover Cluster],EnableNext method, IWCWizardCallback.EnableNext, IWCWizardCallback::EnableNext, _wolf_iwcwizardcallback_enablenext, cluadmex/IWCWizardCallback::EnableNext, mscs.iwcwizardcallback_enablenext
 ms.topic: method
-f1_keywords: ["cluadmex/IWCWizardCallback.EnableNext"]
+f1_keywords: 
+ - "cluadmex/IWCWizardCallback.EnableNext"
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

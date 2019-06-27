@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateCall, CreateCall method [COM], CreateCall method [COM],ICallFactory interface, ICallFactory interface [COM],CreateCall method, ICallFactory.CreateCall, ICallFactory::CreateCall, _com_icallfactory_createcall, com.icallfactory_createcall, objidlbase/ICallFactory::CreateCall
 ms.topic: method
-f1_keywords: ["objidlbase/ICallFactory.CreateCall"]
+f1_keywords: 
+ - "objidlbase/ICallFactory.CreateCall"
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDefaultMenuText, GetDefaultMenuText method [Windows Shell], GetDefaultMenuText method [Windows Shell],ICommDlgBrowser2 interface, ICommDlgBrowser2 interface [Windows Shell],GetDefaultMenuText method, ICommDlgBrowser2.GetDefaultMenuText, ICommDlgBrowser2::GetDefaultMenuText, _win32_ICommDlgBrowser2_GetDefaultMenuText, shell.ICommDlgBrowser2_GetDefaultMenuText, shobjidl_core/ICommDlgBrowser2::GetDefaultMenuText
 ms.topic: method
-f1_keywords: ["shobjidl_core/ICommDlgBrowser2.GetDefaultMenuText"]
+f1_keywords: 
+ - "shobjidl_core/ICommDlgBrowser2.GetDefaultMenuText"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

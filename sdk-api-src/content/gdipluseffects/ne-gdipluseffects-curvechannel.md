@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurveChannel, CurveChannel enumeration [GDI+], CurveChannelAll, CurveChannelBlue, CurveChannelGreen, CurveChannelRed, _gdiplus_ENUM_CurveChannel, gdiplus._gdiplus_ENUM_CurveChannel, gdipluseffects/CurveChannel, gdipluseffects/CurveChannelAll, gdipluseffects/CurveChannelBlue, gdipluseffects/CurveChannelGreen, gdipluseffects/CurveChannelRed
 ms.topic: enum
-f1_keywords: ["gdipluseffects/CurveChannel"]
+f1_keywords: 
+ - "gdipluseffects/CurveChannel"
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

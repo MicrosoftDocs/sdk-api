@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AdjustableArrowCap class [GDI+],SetWidth method, AdjustableArrowCap.SetWidth, AdjustableArrowCap::SetWidth, SetWidth, SetWidth method [GDI+], SetWidth method [GDI+],AdjustableArrowCap class, _gdiplus_CLASS_AdjustableArrowCap_SetWidth_width_, gdiplus._gdiplus_CLASS_AdjustableArrowCap_SetWidth_width_
 ms.topic: method
-f1_keywords: ["gdipluslinecaps/AdjustableArrowCap.SetWidth"]
+f1_keywords: 
+ - "gdipluslinecaps/AdjustableArrowCap.SetWidth"
 req.header: gdipluslinecaps.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

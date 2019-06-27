@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlInstallFunctionTableCallback, RtlInstallFunctionTableCallback function, base.rtlinstallfunctiontablecallback, winnt/RtlInstallFunctionTableCallback
 ms.topic: function
-f1_keywords: ["winnt/RtlInstallFunctionTableCallback"]
+f1_keywords: 
+ - "winnt/RtlInstallFunctionTableCallback"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

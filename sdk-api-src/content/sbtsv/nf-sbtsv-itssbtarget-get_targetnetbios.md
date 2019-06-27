@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbTarget interface [Remote Desktop Services],TargetNetbios property, ITsSbTarget.TargetNetbios, ITsSbTarget.get_TargetNetbios, ITsSbTarget::TargetNetbios, ITsSbTarget::get_TargetNetbios, ITsSbTarget::put_TargetNetbios, ITsSbTargetEx interface [Remote Desktop Services],TargetNetbios property, ITsSbTargetEx.TargetNetbios, ITsSbTargetEx::get_TargetNetbios, ITsSbTargetEx::put_TargetNetbios, TargetNetbios property [Remote Desktop Services], TargetNetbios property [Remote Desktop Services],ITsSbTarget interface, TargetNetbios property [Remote Desktop Services],ITsSbTargetEx interface, get_TargetNetbios, sbtsv/ITsSbTarget::TargetNetbios, sbtsv/ITsSbTarget::get_TargetNetbios, sbtsv/ITsSbTarget::put_TargetNetbios, sbtsv/ITsSbTargetEx::TargetNetbios, sbtsv/ITsSbTargetEx::get_TargetNetbios, sbtsv/ITsSbTargetEx::put_TargetNetbios, termserv.itssbtarget_targetnetbios
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbTarget.TargetNetbios"]
+f1_keywords: 
+ - "sbtsv/ITsSbTarget.TargetNetbios"
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
 req.target-type: Windows

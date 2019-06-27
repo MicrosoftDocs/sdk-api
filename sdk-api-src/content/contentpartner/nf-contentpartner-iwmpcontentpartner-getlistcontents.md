@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetListContents, GetListContents method [Windows Media Player], GetListContents method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetListContents method, IWMPContentPartner.GetListContents, IWMPContentPartner::GetListContents, IWMPContentPartnerGetListContents, contentpartner/IWMPContentPartner::GetListContents, wmp.iwmpcontentpartner_getlistcontents
 ms.topic: method
-f1_keywords: ["contentpartner/IWMPContentPartner.GetListContents"]
+f1_keywords: 
+ - "contentpartner/IWMPContentPartner.GetListContents"
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

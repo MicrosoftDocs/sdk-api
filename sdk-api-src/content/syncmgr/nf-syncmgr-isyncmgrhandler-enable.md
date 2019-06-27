@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method [Windows Shell], Enable method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],Enable method, ISyncMgrHandler.Enable, ISyncMgrHandler::Enable, _shell_ISyncMgrHandler_Enable, shell.ISyncMgrHandler_Enable, syncmgr/ISyncMgrHandler::Enable
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrHandler.Enable"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrHandler.Enable"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

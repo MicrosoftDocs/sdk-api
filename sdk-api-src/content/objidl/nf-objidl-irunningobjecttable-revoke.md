@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRunningObjectTable interface [COM],Revoke method, IRunningObjectTable.Revoke, IRunningObjectTable::Revoke, Revoke, Revoke method [COM], Revoke method [COM],IRunningObjectTable interface, _com_irunningobjecttable_revoke, com.irunningobjecttable_revoke, objidl/IRunningObjectTable::Revoke
 ms.topic: method
-f1_keywords: ["objidl/IRunningObjectTable.Revoke"]
+f1_keywords: 
+ - "objidl/IRunningObjectTable.Revoke"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

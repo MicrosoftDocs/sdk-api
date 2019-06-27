@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbParentalRatingDescriptor interface, IDvbParentalRatingDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbParentalRatingDescriptor.GetLength, IDvbParentalRatingDescriptor::GetLength, dvbsiparser/IDvbParentalRatingDescriptor::GetLength, mstv.idvbparentalratingdescriptor_getlength
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDvbParentalRatingDescriptor.GetLength"]
+f1_keywords: 
+ - "dvbsiparser/IDvbParentalRatingDescriptor.GetLength"
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

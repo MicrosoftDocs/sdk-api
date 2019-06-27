@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CMF_ASYNCVERBSTATE, CMF_CANRENAME, CMF_DEFAULTONLY, CMF_DISABLEDVERBS, CMF_DONOTPICKDEFAULT, CMF_EXPLORE, CMF_EXTENDEDVERBS, CMF_INCLUDESTATIC, CMF_ITEMMENU, CMF_NODEFAULT, CMF_NORMAL, CMF_NOVERBS, CMF_OPTIMIZEFORINVOKE, CMF_RESERVED, CMF_SYNCCASCADEMENU, CMF_VERBSONLY, DoContextMenuPopup, DoContextMenuPopup method [Windows Shell], DoContextMenuPopup method [Windows Shell],IContextMenuSite interface, IContextMenuSite interface [Windows Shell],DoContextMenuPopup method, IContextMenuSite.DoContextMenuPopup, IContextMenuSite::DoContextMenuPopup, _shell_IContextMenuSite_DoContextMenuPopup, shell.IContextMenuSite_DoContextMenuPopup, shobjidl_core/IContextMenuSite::DoContextMenuPopup
 ms.topic: method
-f1_keywords: ["shobjidl_core/IContextMenuSite.DoContextMenuPopup"]
+f1_keywords: 
+ - "shobjidl_core/IContextMenuSite.DoContextMenuPopup"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

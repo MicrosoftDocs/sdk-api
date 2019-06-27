@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDRMReader2, IWMDRMReader2 interface [windows Media Format], IWMDRMReader2 interface [windows Media Format],described, IWMDRMReader2Interface, wmformat.iwmdrmreader2, wmsdkidl/IWMDRMReader2
 ms.topic: interface
-f1_keywords: ["wmsdkidl/IWMDRMReader2"]
+f1_keywords: 
+ - "wmsdkidl/IWMDRMReader2"
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

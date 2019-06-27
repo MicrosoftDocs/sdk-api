@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertificationAuthorities interface [Security],Remove method, ICertificationAuthorities.Remove, ICertificationAuthorities::Remove, Remove, Remove method [Security], Remove method [Security],ICertificationAuthorities interface, certenroll/ICertificationAuthorities::Remove, security.icertificationauthorities_remove
 ms.topic: method
-f1_keywords: ["certenroll/ICertificationAuthorities.Remove"]
+f1_keywords: 
+ - "certenroll/ICertificationAuthorities.Remove"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

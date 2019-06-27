@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlCaptureContext, RtlCaptureContext function, base.rtlcapturecontext, winnt/RtlCaptureContext
 ms.topic: function
-f1_keywords: ["winnt/RtlCaptureContext"]
+f1_keywords: 
+ - "winnt/RtlCaptureContext"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

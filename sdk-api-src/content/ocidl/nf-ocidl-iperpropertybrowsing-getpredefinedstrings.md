@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPredefinedStrings, GetPredefinedStrings method [COM], GetPredefinedStrings method [COM],IPerPropertyBrowsing interface, IPerPropertyBrowsing interface [COM],GetPredefinedStrings method, IPerPropertyBrowsing.GetPredefinedStrings, IPerPropertyBrowsing::GetPredefinedStrings, _ctrl_iperpropertybrowsing_getpredefinedstrings, com.iperpropertybrowsing_getpredefinedstrings, ocidl/IPerPropertyBrowsing::GetPredefinedStrings
 ms.topic: method
-f1_keywords: ["ocidl/IPerPropertyBrowsing.GetPredefinedStrings"]
+f1_keywords: 
+ - "ocidl/IPerPropertyBrowsing.GetPredefinedStrings"
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

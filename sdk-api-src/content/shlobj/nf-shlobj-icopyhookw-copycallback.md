@@ -9,7 +9,8 @@ ms.author: windowssdkdev
 ms.date: 01/30/19
 ms.keywords: ICopyHookW::CopyCallback
 ms.topic: language-reference
-f1_keywords: ["shlobj/ICopyHookW::CopyCallback"]
+f1_keywords: 
+ - "shlobj/ICopyHookW::CopyCallback"
 targetos: Windows
 product: Windows
 req.assembly: 

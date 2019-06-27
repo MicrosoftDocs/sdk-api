@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNativeVideoSize, GetNativeVideoSize method [Media Foundation], GetNativeVideoSize method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetNativeVideoSize method, IMFMediaEngine.GetNativeVideoSize, IMFMediaEngine::GetNativeVideoSize, mf.imfmediaengine_getnativevideosize, mfmediaengine/IMFMediaEngine::GetNativeVideoSize
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFMediaEngine.GetNativeVideoSize"]
+f1_keywords: 
+ - "mfmediaengine/IMFMediaEngine.GetNativeVideoSize"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

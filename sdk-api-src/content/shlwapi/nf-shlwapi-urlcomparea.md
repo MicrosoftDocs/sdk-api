@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UrlCompare, UrlCompare function [Windows Shell], UrlCompareA, UrlCompareW, _win32_UrlCompare, shell.UrlCompare, shlwapi/UrlCompare, shlwapi/UrlCompareA, shlwapi/UrlCompareW
 ms.topic: function
-f1_keywords: ["shlwapi/UrlCompare"]
+f1_keywords: 
+ - "shlwapi/UrlCompare"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

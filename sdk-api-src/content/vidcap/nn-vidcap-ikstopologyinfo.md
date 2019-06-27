@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IKsTopologyInfo, IKsTopologyInfo interface [DirectShow], IKsTopologyInfo interface [DirectShow],described, IKsTopologyInfoInterface, dshow.ikstopologyinfo, vidcap/IKsTopologyInfo
 ms.topic: interface
-f1_keywords: ["vidcap/IKsTopologyInfo"]
+f1_keywords: 
+ - "vidcap/IKsTopologyInfo"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

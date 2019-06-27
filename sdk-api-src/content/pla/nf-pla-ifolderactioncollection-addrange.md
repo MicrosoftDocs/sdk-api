@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddRange, AddRange method [PLA], AddRange method [PLA],IFolderActionCollection interface, IFolderActionCollection interface [PLA],AddRange method, IFolderActionCollection.AddRange, IFolderActionCollection::AddRange, base.ifolderactioncollection_addrange, pla.ifolderactioncollection_addrange, pla/IFolderActionCollection::AddRange
 ms.topic: method
-f1_keywords: ["pla/IFolderActionCollection.AddRange"]
+f1_keywords: 
+ - "pla/IFolderActionCollection.AddRange"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

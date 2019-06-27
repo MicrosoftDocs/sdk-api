@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarEqv, VarEqv function [Automation], _oa96_VarEqv, automat.vareqv, oleauto/VarEqv
 ms.topic: function
-f1_keywords: ["oleauto/VarEqv"]
+f1_keywords: 
+ - "oleauto/VarEqv"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

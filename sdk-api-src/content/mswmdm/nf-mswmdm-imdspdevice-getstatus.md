@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [windows Media Device Manager], GetStatus method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetStatus method, IMDSPDevice.GetStatus, IMDSPDevice::GetStatus, IMDSPDeviceGetStatus, mswmdm/IMDSPDevice::GetStatus, wmdm.imdspdevice_getstatus
 ms.topic: method
-f1_keywords: ["mswmdm/IMDSPDevice.GetStatus"]
+f1_keywords: 
+ - "mswmdm/IMDSPDevice.GetStatus"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

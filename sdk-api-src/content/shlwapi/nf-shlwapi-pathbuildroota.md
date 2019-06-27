@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathBuildRoot, PathBuildRoot function [Windows Shell], PathBuildRootA, PathBuildRootW, _win32_PathBuildRoot, shell.PathBuildRoot, shlwapi/PathBuildRoot, shlwapi/PathBuildRootA, shlwapi/PathBuildRootW
 ms.topic: function
-f1_keywords: ["shlwapi/PathBuildRoot"]
+f1_keywords: 
+ - "shlwapi/PathBuildRoot"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

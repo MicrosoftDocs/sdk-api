@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetWindowThemeNonClientAttributes, SetWindowThemeNonClientAttributes function [Windows Controls], _shell_SetWindowThemeNonClientAttributes, _shell_SetWindowThemeNonClientAttributes_cpp, controls.SetWindowThemeNonClientAttributes, controls._shell_SetWindowThemeNonClientAttributes, uxtheme/SetWindowThemeNonClientAttributes
 ms.topic: function
-f1_keywords: ["uxtheme/SetWindowThemeNonClientAttributes"]
+f1_keywords: 
+ - "uxtheme/SetWindowThemeNonClientAttributes"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

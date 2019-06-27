@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddMember, AddMember method [Security], AddMember method [Security],AzApplicationGroup object, AddMember method [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AddMember method, IAzApplicationGroup interface [Security],AddMember method, IAzApplicationGroup.AddMember, IAzApplicationGroup::AddMember, azroles/IAzApplicationGroup::AddMember, security.iazapplicationgroup_addmember
 ms.topic: method
-f1_keywords: ["azroles/IAzApplicationGroup.AddMember"]
+f1_keywords: 
+ - "azroles/IAzApplicationGroup.AddMember"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

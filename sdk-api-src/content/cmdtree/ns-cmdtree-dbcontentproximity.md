@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DBCONTENTPROXIMITY, DBCONTENTPROXIMITY structure [Indexing Service], _idxs_DBCONTENTPROXIMITY, cmdtree/DBCONTENTPROXIMITY, indexsrv.dbcontentproximity, tagDBCONTENTPROXIMITY
 ms.topic: struct
-f1_keywords: ["cmdtree/DBCONTENTPROXIMITY"]
+f1_keywords: 
+ - "cmdtree/DBCONTENTPROXIMITY"
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

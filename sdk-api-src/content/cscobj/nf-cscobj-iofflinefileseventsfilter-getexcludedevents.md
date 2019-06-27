@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetExcludedEvents, GetExcludedEvents method [Offline Files], GetExcludedEvents method [Offline Files],IOfflineFilesEventsFilter interface, IOfflineFilesEventsFilter interface [Offline Files],GetExcludedEvents method, IOfflineFilesEventsFilter.GetExcludedEvents, IOfflineFilesEventsFilter::GetExcludedEvents, cscobj/IOfflineFilesEventsFilter::GetExcludedEvents, of.iofflinefileseventsfilter_getexcludedevents
 ms.topic: method
-f1_keywords: ["cscobj/IOfflineFilesEventsFilter.GetExcludedEvents"]
+f1_keywords: 
+ - "cscobj/IOfflineFilesEventsFilter.GetExcludedEvents"
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

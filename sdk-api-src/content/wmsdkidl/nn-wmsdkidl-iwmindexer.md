@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMIndexer, IWMIndexer interface [windows Media Format], IWMIndexer interface [windows Media Format],described, IWMIndexerInterface, wmformat.iwmindexer, wmsdkidl/IWMIndexer
 ms.topic: interface
-f1_keywords: ["wmsdkidl/IWMIndexer"]
+f1_keywords: 
+ - "wmsdkidl/IWMIndexer"
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

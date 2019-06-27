@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumClockVector interface [Windows Sync],Next method, IEnumClockVector.Next, IEnumClockVector::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumClockVector interface, winsync.ienumclockvector_next, winsync/IEnumClockVector::Next
 ms.topic: method
-f1_keywords: ["winsync/IEnumClockVector.Next"]
+f1_keywords: 
+ - "winsync/IEnumClockVector.Next"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

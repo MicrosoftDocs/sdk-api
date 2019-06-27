@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVideoPaletteEntries, GetVideoPaletteEntries method [DirectShow], GetVideoPaletteEntries method [DirectShow],IBasicVideo interface, IBasicVideo interface [DirectShow],GetVideoPaletteEntries method, IBasicVideo.GetVideoPaletteEntries, IBasicVideo::GetVideoPaletteEntries, IBasicVideoGetVideoPaletteEntries, control/IBasicVideo::GetVideoPaletteEntries, dshow.ibasicvideo_getvideopaletteentries
 ms.topic: method
-f1_keywords: ["control/IBasicVideo.GetVideoPaletteEntries"]
+f1_keywords: 
+ - "control/IBasicVideo.GetVideoPaletteEntries"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

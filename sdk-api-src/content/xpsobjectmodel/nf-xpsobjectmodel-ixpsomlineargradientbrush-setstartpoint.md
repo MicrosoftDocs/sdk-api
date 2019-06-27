@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],SetStartPoint method, IXpsOMLinearGradientBrush.SetStartPoint, IXpsOMLinearGradientBrush::SetStartPoint, SetStartPoint, SetStartPoint method [XPS Documents and Packaging], SetStartPoint method [XPS Documents and Packaging],IXpsOMLinearGradientBrush interface, xps.ixpsomlineargradientbrush_setstartpoint, xpsobjectmodel/IXpsOMLinearGradientBrush::SetStartPoint
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMLinearGradientBrush.SetStartPoint"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMLinearGradientBrush.SetStartPoint"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

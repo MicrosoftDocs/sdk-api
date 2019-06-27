@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SwapBuffers, SwapBuffers function [OpenGL], _ogl_SwapBuffers, opengl.swapbuffers, wingdi/SwapBuffers
 ms.topic: function
-f1_keywords: ["wingdi/SwapBuffers"]
+f1_keywords: 
+ - "wingdi/SwapBuffers"
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

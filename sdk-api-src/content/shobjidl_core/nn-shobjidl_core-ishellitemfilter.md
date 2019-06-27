@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellItemFilter, IShellItemFilter interface [Windows Shell], IShellItemFilter interface [Windows Shell],described, _shell_IShellItemFilter, shell.IShellItemFilter, shobjidl_core/IShellItemFilter
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IShellItemFilter"]
+f1_keywords: 
+ - "shobjidl_core/IShellItemFilter"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

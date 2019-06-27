@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateStorage, CreateStorage method [Structured Storage], CreateStorage method [Structured Storage],IStorage interface, IStorage interface [Structured Storage],CreateStorage method, IStorage.CreateStorage, IStorage::CreateStorage, _stg_istorage_createstorage, objidl/IStorage::CreateStorage, stg.istorage_createstorage
 ms.topic: method
-f1_keywords: ["objidl/IStorage.CreateStorage"]
+f1_keywords: 
+ - "objidl/IStorage.CreateStorage"
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

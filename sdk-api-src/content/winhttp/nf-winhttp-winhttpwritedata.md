@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinHttpWriteData, WinHttpWriteData function [WinHTTP], http.winhttpwritedata, winhttp.winhttpwritedata_function, winhttp/WinHttpWriteData
 ms.topic: function
-f1_keywords: ["winhttp/WinHttpWriteData"]
+f1_keywords: 
+ - "winhttp/WinHttpWriteData"
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontSetBuilder, IDWriteFontSetBuilder interface [Direct Write], IDWriteFontSetBuilder interface [Direct Write],described, directwrite.idwritefontsetbuilder, dwrite_3/IDWriteFontSetBuilder
 ms.topic: interface
-f1_keywords: ["dwrite_3/IDWriteFontSetBuilder"]
+f1_keywords: 
+ - "dwrite_3/IDWriteFontSetBuilder"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

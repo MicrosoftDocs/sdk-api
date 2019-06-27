@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRawInputBuffer, GetRawInputBuffer function [Keyboard and Mouse Input], _win32_GetRawInputBuffer, _win32_getrawinputbuffer_cpp, inputdev.getrawinputbuffer, winui._win32_getrawinputbuffer, winuser/GetRawInputBuffer
 ms.topic: function
-f1_keywords: ["winuser/GetRawInputBuffer"]
+f1_keywords: 
+ - "winuser/GetRawInputBuffer"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

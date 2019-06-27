@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_LOOKUP_STREAM_FROM_CLUSTER, FSCTL_LOOKUP_STREAM_FROM_CLUSTER control, FSCTL_LOOKUP_STREAM_FROM_CLUSTER control code [Files], fs.fsctl_lookup_stream_from_cluster, winioctl/FSCTL_LOOKUP_STREAM_FROM_CLUSTER
 ms.topic: ioctl
-f1_keywords: ["winioctl/FSCTL_LOOKUP_STREAM_FROM_CLUSTER"]
+f1_keywords: 
+ - "winioctl/FSCTL_LOOKUP_STREAM_FROM_CLUSTER"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

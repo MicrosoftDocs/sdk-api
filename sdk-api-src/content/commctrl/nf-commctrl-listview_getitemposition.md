@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_GetItemPosition, ListView_GetItemPosition macro [Windows Controls], _win32_ListView_GetItemPosition, _win32_ListView_GetItemPosition_cpp, commctrl/ListView_GetItemPosition, controls.ListView_GetItemPosition, controls._win32_ListView_GetItemPosition
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_GetItemPosition"]
+f1_keywords: 
+ - "commctrl/ListView_GetItemPosition"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

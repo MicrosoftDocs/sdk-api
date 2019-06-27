@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSECPKG_USER_FUNCTION_TABLE, PSECPKG_USER_FUNCTION_TABLE, PSECPKG_USER_FUNCTION_TABLE structure pointer [Security], SECPKG_USER_FUNCTION_TABLE, SECPKG_USER_FUNCTION_TABLE structure [Security], _ssp_secpkg_user_function_table, ntsecpkg/PSECPKG_USER_FUNCTION_TABLE, ntsecpkg/SECPKG_USER_FUNCTION_TABLE, security.secpkg_user_function_table"
 ms.topic: struct
-f1_keywords: ["ntsecpkg/SECPKG_USER_FUNCTION_TABLE"]
+f1_keywords: 
+ - "ntsecpkg/SECPKG_USER_FUNCTION_TABLE"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

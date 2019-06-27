@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptCATGetAttrInfo, CryptCATGetAttrInfo function [Security], mscat/CryptCATGetAttrInfo, security.cryptcatgetattrinfo
 ms.topic: function
-f1_keywords: ["mscat/CryptCATGetAttrInfo"]
+f1_keywords: 
+ - "mscat/CryptCATGetAttrInfo"
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

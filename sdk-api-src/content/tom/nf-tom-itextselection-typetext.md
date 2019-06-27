@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextSelection interface [Windows Controls],TypeText method, ITextSelection.TypeText, ITextSelection::TypeText, TypeText, TypeText method [Windows Controls], TypeText method [Windows Controls],ITextSelection interface, _win32_ITextSelection_TypeText, _win32_ITextSelection_TypeText_cpp, controls.ITextSelection_TypeText, controls._win32_ITextSelection_TypeText, tom/ITextSelection::TypeText
 ms.topic: method
-f1_keywords: ["tom/ITextSelection.TypeText"]
+f1_keywords: 
+ - "tom/ITextSelection.TypeText"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

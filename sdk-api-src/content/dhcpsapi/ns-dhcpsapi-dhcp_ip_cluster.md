@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_IP_CLUSTER, DHCP_IP_CLUSTER, DHCP_IP_CLUSTER structure [DHCP], LPDHCP_IP_CLUSTER, LPDHCP_IP_CLUSTER structure pointer [DHCP], dhcp.dhcp_ip_cluster, dhcpsapi/LPDHCP_IP_CLUSTER, dhcpsapi/_DHCP_IP_CLUSTER"
 ms.topic: struct
-f1_keywords: ["dhcpsapi/DHCP_IP_CLUSTER"]
+f1_keywords: 
+ - "dhcpsapi/DHCP_IP_CLUSTER"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmReportJob interface [File Server Resource Manager],LastError property, IFsrmReportJob.LastError, IFsrmReportJob.get_LastError, IFsrmReportJob::LastError, IFsrmReportJob::get_LastError, LastError property [File Server Resource Manager], LastError property [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_lasterror, fsrm.ifsrmreportjob_lasterror, fsrmreports/IFsrmReportJob::LastError, fsrmreports/IFsrmReportJob::get_LastError, get_LastError
 ms.topic: method
-f1_keywords: ["fsrmreports/IFsrmReportJob.LastError"]
+f1_keywords: 
+ - "fsrmreports/IFsrmReportJob.LastError"
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

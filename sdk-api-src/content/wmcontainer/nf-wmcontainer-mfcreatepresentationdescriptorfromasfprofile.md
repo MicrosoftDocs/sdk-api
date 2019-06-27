@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreatePresentationDescriptorFromASFProfile, MFCreatePresentationDescriptorFromASFProfile function [Media Foundation], e36ac685-4ebe-4fc6-a17a-f36b9d667add, mf.mfcreatepresentationdescriptorfromasfprofile, wmcontainer/MFCreatePresentationDescriptorFromASFProfile
 ms.topic: function
-f1_keywords: ["wmcontainer/MFCreatePresentationDescriptorFromASFProfile"]
+f1_keywords: 
+ - "wmcontainer/MFCreatePresentationDescriptorFromASFProfile"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

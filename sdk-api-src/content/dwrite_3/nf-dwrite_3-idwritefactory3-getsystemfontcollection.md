@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSystemFontCollection, GetSystemFontCollection method [Direct Write], GetSystemFontCollection method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],GetSystemFontCollection method, IDWriteFactory3.GetSystemFontCollection, IDWriteFactory3::GetSystemFontCollection, directwrite.idwritefactory3_getsystemfontcollection, dwrite_3/IDWriteFactory3::GetSystemFontCollection
 ms.topic: method
-f1_keywords: ["dwrite_3/IDWriteFactory3.GetSystemFontCollection"]
+f1_keywords: 
+ - "dwrite_3/IDWriteFactory3.GetSystemFontCollection"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

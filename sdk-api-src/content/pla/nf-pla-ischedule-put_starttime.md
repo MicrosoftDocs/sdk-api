@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISchedule interface [PLA],StartTime property, ISchedule.StartTime, ISchedule.put_StartTime, ISchedule::StartTime, ISchedule::get_StartTime, ISchedule::put_StartTime, StartTime property [PLA], StartTime property [PLA],ISchedule interface, base.ischedule_starttime, pla.ischedule_starttime, pla/ISchedule::StartTime, pla/ISchedule::get_StartTime, pla/ISchedule::put_StartTime, put_StartTime
 ms.topic: method
-f1_keywords: ["pla/ISchedule.StartTime"]
+f1_keywords: 
+ - "pla/ISchedule.StartTime"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

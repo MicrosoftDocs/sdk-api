@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnDevicesConfigChange method, IFaxServerNotify2.OnDevicesConfigChange, IFaxServerNotify2::OnDevicesConfigChange, OnDevicesConfigChange, OnDevicesConfigChange method [Fax Service], OnDevicesConfigChange method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnDevicesConfigChange, _IFaxServerNotify2::OnDevicesConfigChange, _mfax_ifaxservernotify2_ondevicesconfigchange, fax._mfax_ifaxservernotify2_ondevicesconfigchange, faxcomex/IFaxServerNotify2::OnDevicesConfigChange
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxServerNotify2.OnDevicesConfigChange"]
+f1_keywords: 
+ - "faxcomex/IFaxServerNotify2.OnDevicesConfigChange"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

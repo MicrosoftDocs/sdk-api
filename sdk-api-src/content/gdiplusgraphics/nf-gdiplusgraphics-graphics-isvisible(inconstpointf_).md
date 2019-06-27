@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],IsVisible method, Graphics.IsVisible, Graphics.IsVisible(IN const PointF &), Graphics.IsVisible(const PointF&), Graphics::IsVisible, Graphics::IsVisible(IN const PointF &), IsVisible, IsVisible method [GDI+], IsVisible method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_IsVisible_PointF_point_, gdiplus._gdiplus_CLASS_Graphics_IsVisible_PointF_point_
 ms.topic: method
-f1_keywords: ["gdiplusgraphics/Graphics.IsVisible"]
+f1_keywords: 
+ - "gdiplusgraphics/Graphics.IsVisible"
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPTYPEATTR, LPTYPEATTR, LPTYPEATTR structure pointer [Automation], TYPEATTR, TYPEATTR structure [Automation], _oa96_TYPEATTR, automat.typeattr, oaidl/LPTYPEATTR, oaidl/TYPEATTR"
 ms.topic: struct
-f1_keywords: ["oaidl/TYPEATTR"]
+f1_keywords: 
+ - "oaidl/TYPEATTR"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

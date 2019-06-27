@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICallUnmarshal interface [COM],ReleaseMarshalData method, ICallUnmarshal.ReleaseMarshalData, ICallUnmarshal::ReleaseMarshalData, ReleaseMarshalData, ReleaseMarshalData method [COM], ReleaseMarshalData method [COM],ICallUnmarshal interface, _com_icallunmarshal_releasemarshaldata, callobj/ICallUnmarshal::ReleaseMarshalData, com.icallunmarshal_releasemarshaldata
 ms.topic: method
-f1_keywords: ["callobj/ICallUnmarshal.ReleaseMarshalData"]
+f1_keywords: 
+ - "callobj/ICallUnmarshal.ReleaseMarshalData"
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

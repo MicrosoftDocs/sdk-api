@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFSensorDeviceMode, MFSensorDeviceMode enumeration [Media Foundation], MFSensorDeviceMode_Controller, MFSensorDeviceMode_Shared, mf.mfsensordevicemode, mfidl/MFSensorDeviceMode, mfidl/MFSensorDeviceMode_Controller, mfidl/MFSensorDeviceMode_Shared
 ms.topic: enum
-f1_keywords: ["mfidl/MFSensorDeviceMode"]
+f1_keywords: 
+ - "mfidl/MFSensorDeviceMode"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

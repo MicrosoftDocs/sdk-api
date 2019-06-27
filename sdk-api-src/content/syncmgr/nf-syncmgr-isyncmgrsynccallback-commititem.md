@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CommitItem, CommitItem method [Windows Shell], CommitItem method [Windows Shell],ISyncMgrSyncCallback interface, ISyncMgrSyncCallback interface [Windows Shell],CommitItem method, ISyncMgrSyncCallback.CommitItem, ISyncMgrSyncCallback::CommitItem, _shell_ISyncMgrSyncCallback_CommitItem, shell.ISyncMgrSyncCallback_CommitItem, syncmgr/ISyncMgrSyncCallback::CommitItem
 ms.topic: method
-f1_keywords: ["syncmgr/ISyncMgrSyncCallback.CommitItem"]
+f1_keywords: 
+ - "syncmgr/ISyncMgrSyncCallback.CommitItem"
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

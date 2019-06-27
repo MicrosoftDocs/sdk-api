@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [Security], Delete method [Security],IIdentityProvider interface, IIdentityProvider interface [Security],Delete method, IIdentityProvider.Delete, IIdentityProvider::Delete, identityprovider/IIdentityProvider::Delete, security.iidentityprovider_delete
 ms.topic: method
-f1_keywords: ["identityprovider/IIdentityProvider.Delete"]
+f1_keywords: 
+ - "identityprovider/IIdentityProvider.Delete"
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows

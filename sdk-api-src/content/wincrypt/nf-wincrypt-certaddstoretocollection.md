@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertAddStoreToCollection, CertAddStoreToCollection function [Security], _crypto2_certaddstoretocollection, security.certaddstoretocollection, wincrypt/CertAddStoreToCollection
 ms.topic: function
-f1_keywords: ["wincrypt/CertAddStoreToCollection"]
+f1_keywords: 
+ - "wincrypt/CertAddStoreToCollection"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

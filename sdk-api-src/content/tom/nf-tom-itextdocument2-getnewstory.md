@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNewStory, GetNewStory method [Windows Controls], GetNewStory method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetNewStory method, ITextDocument2.GetNewStory, ITextDocument2::GetNewStory, controls.itextdocument2_getnewstory, tom/ITextDocument2::GetNewStory
 ms.topic: method
-f1_keywords: ["tom/ITextDocument2.GetNewStory"]
+f1_keywords: 
+ - "tom/ITextDocument2.GetNewStory"
 req.header: tom.h
 req.include-header: Tom.h
 req.target-type: Windows

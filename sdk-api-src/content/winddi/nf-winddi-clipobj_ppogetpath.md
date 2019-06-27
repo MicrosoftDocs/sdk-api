@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLIPOBJ_ppoGetPath, CLIPOBJ_ppoGetPath function [Display Devices], display.clipobj_ppogetpath, gdifncs_576284af-4aef-45be-b10a-2504c8e3451f.xml, winddi/CLIPOBJ_ppoGetPath
 ms.topic: function
-f1_keywords: ["winddi/CLIPOBJ_ppoGetPath"]
+f1_keywords: 
+ - "winddi/CLIPOBJ_ppoGetPath"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

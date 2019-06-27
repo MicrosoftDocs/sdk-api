@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddPropertySheetPage, AddPropertySheetPage method [Failover Cluster], AddPropertySheetPage method [Failover Cluster],IWCPropertySheetCallback interface, IWCPropertySheetCallback interface [Failover Cluster],AddPropertySheetPage method, IWCPropertySheetCallback.AddPropertySheetPage, IWCPropertySheetCallback::AddPropertySheetPage, _wolf_iwcpropertysheetcallback_addpropertysheetpage, cluadmex/IWCPropertySheetCallback::AddPropertySheetPage, mscs.iwcpropertysheetcallback_addpropertysheetpage
 ms.topic: method
-f1_keywords: ["cluadmex/IWCPropertySheetCallback.AddPropertySheetPage"]
+f1_keywords: 
+ - "cluadmex/IWCPropertySheetCallback.AddPropertySheetPage"
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

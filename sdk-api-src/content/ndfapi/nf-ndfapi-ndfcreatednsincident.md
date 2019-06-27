@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdfCreateDNSIncident, NdfCreateDNSIncident function [NDF], ndf.ndfcreatednsincident, ndfapi/NdfCreateDNSIncident
 ms.topic: function
-f1_keywords: ["ndfapi/NdfCreateDNSIncident"]
+f1_keywords: 
+ - "ndfapi/NdfCreateDNSIncident"
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows

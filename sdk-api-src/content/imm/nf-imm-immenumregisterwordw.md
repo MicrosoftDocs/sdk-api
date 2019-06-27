@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImmEnumRegisterWord, ImmEnumRegisterWord function [Internationalization for Windows Applications], ImmEnumRegisterWordA, ImmEnumRegisterWordW, _win32_ImmEnumRegisterWord, imm/ImmEnumRegisterWord, imm/ImmEnumRegisterWordA, imm/ImmEnumRegisterWordW, intl.immenumregisterword
 ms.topic: function
-f1_keywords: ["imm/ImmEnumRegisterWord"]
+f1_keywords: 
+ - "imm/ImmEnumRegisterWord"
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

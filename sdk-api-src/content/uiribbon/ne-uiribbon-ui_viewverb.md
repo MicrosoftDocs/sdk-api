@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UI_VIEWVERB, UI_VIEWVERB enumeration [Windows Ribbon], UI_VIEWVERB_CREATE, UI_VIEWVERB_DESTROY, UI_VIEWVERB_ERROR, UI_VIEWVERB_SIZE, scenicintent_UI_VIEWVERB, uiribbon/UI_VIEWVERB, uiribbon/UI_VIEWVERB_CREATE, uiribbon/UI_VIEWVERB_DESTROY, uiribbon/UI_VIEWVERB_ERROR, uiribbon/UI_VIEWVERB_SIZE, windowsribbon.windowsribbon_ui_viewverb
 ms.topic: enum
-f1_keywords: ["uiribbon/UI_VIEWVERB"]
+f1_keywords: 
+ - "uiribbon/UI_VIEWVERB"
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

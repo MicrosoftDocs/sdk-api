@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProgressDialog interface [Windows Shell],StartProgressDialog method, IProgressDialog.StartProgressDialog, IProgressDialog::StartProgressDialog, PROGDLG_AUTOTIME, PROGDLG_MARQUEEPROGRESS, PROGDLG_MODAL, PROGDLG_NOCANCEL, PROGDLG_NOMINIMIZE, PROGDLG_NOPROGRESSBAR, PROGDLG_NORMAL, PROGDLG_NOTIME, StartProgressDialog, StartProgressDialog method [Windows Shell], StartProgressDialog method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_StartProgressDialog, shell.IProgressDialog_StartProgressDialog, shlobj_core/IProgressDialog::StartProgressDialog
 ms.topic: method
-f1_keywords: ["shlobj_core/IProgressDialog.StartProgressDialog"]
+f1_keywords: 
+ - "shlobj_core/IProgressDialog.StartProgressDialog"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

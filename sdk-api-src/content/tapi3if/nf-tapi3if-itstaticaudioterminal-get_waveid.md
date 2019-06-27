@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITStaticAudioTerminal interface [TAPI 2.2],get_WaveId method, ITStaticAudioTerminal.get_WaveId, ITStaticAudioTerminal::get_WaveId, _tapi3_itstaticaudioterminal_get_waveid, get_WaveId, get_WaveId method [TAPI 2.2], get_WaveId method [TAPI 2.2],ITStaticAudioTerminal interface, tapi3.itstaticaudioterminal_get_waveid, tapi3if/ITStaticAudioTerminal::get_WaveId
 ms.topic: method
-f1_keywords: ["tapi3if/ITStaticAudioTerminal.get_WaveId"]
+f1_keywords: 
+ - "tapi3if/ITStaticAudioTerminal.get_WaveId"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

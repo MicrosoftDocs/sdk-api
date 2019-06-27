@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_capFileSetInfoChunk, capFileSetInfoChunk, capFileSetInfoChunk macro [Windows Multimedia], multimedia.capfilesetinfochunk, vfw/capFileSetInfoChunk"
 ms.topic: macro
-f1_keywords: ["vfw/capFileSetInfoChunk"]
+f1_keywords: 
+ - "vfw/capFileSetInfoChunk"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClockType, ClockType enumeration [PLA], base.clocktype, pla.clocktype, pla/ClockType, pla/plaCycle, pla/plaPerformance, pla/plaSystem, pla/plaTimeStamp, plaCycle, plaPerformance, plaSystem, plaTimeStamp
 ms.topic: enum
-f1_keywords: ["pla/ClockType"]
+f1_keywords: 
+ - "pla/ClockType"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

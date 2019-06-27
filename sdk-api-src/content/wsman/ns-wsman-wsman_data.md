@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_DATA, WSMAN_DATA structure [Windows Remote Management], winrm.wsman_data, wsman/WSMAN_DATA
 ms.topic: struct
-f1_keywords: ["wsman/WSMAN_DATA"]
+f1_keywords: 
+ - "wsman/WSMAN_DATA"
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

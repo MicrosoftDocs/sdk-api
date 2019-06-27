@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],MeasureString method, Graphics.MeasureString, Graphics.MeasureString(IN const WCHAR,IN INT,IN const Font,IN const PointF &,OUT RectF), Graphics.MeasureString(const WCHAR*,INT,const Font*,const PointF&,RectF*), Graphics::MeasureString, Graphics::MeasureString(IN const WCHAR,IN INT,IN const Font,IN const PointF &,OUT RectF), MeasureString, MeasureString method [GDI+], MeasureString method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_MeasureString_string_length_font_origin_boundingBox_, gdiplus._gdiplus_CLASS_Graphics_MeasureString_string_length_font_origin_boundingBox_
 ms.topic: method
-f1_keywords: ["gdiplusgraphics/Graphics.MeasureString"]
+f1_keywords: 
+ - "gdiplusgraphics/Graphics.MeasureString"
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinUsb_SetPipePolicy, WinUsb_SetPipePolicy function [Buses], buses.winusb_setpipepolicy, winusb/WinUsb_SetPipePolicy, winusbfunc_8a973602-4564-42df-9adf-b7ea6a0339e9.xml
 ms.topic: function
-f1_keywords: ["winusb/WinUsb_SetPipePolicy"]
+f1_keywords: 
+ - "winusb/WinUsb_SetPipePolicy"
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

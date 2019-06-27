@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngFntCacheAlloc, EngFntCacheAlloc function [Display Devices], display.engfntcachealloc, gdifncs_c2f9bace-a686-42e3-b72c-bd6d109786a6.xml, winddi/EngFntCacheAlloc
 ms.topic: function
-f1_keywords: ["winddi/EngFntCacheAlloc"]
+f1_keywords: 
+ - "winddi/EngFntCacheAlloc"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

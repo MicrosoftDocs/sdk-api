@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDIBColorTable, GetDIBColorTable function [Windows GDI], _win32_GetDIBColorTable, gdi.getdibcolortable, wingdi/GetDIBColorTable
 ms.topic: function
-f1_keywords: ["wingdi/GetDIBColorTable"]
+f1_keywords: 
+ - "wingdi/GetDIBColorTable"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

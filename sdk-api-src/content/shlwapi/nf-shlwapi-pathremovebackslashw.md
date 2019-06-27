@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathRemoveBackslash, PathRemoveBackslash function [Windows Shell], PathRemoveBackslashA, PathRemoveBackslashW, _win32_PathRemoveBackslash, shell.PathRemoveBackslash, shlwapi/PathRemoveBackslash, shlwapi/PathRemoveBackslashA, shlwapi/PathRemoveBackslashW
 ms.topic: function
-f1_keywords: ["shlwapi/PathRemoveBackslash"]
+f1_keywords: 
+ - "shlwapi/PathRemoveBackslash"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

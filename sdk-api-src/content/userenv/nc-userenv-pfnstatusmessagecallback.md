@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFNSTATUSMESSAGECALLBACK, PFNSTATUSMESSAGECALLBACK callback, PFNSTATUSMESSAGECALLBACK callback function [Group Policy], StatusMessageCallback, _win32_statusmessagecallback, policy.statusmessagecallback, userenv/PFNSTATUSMESSAGECALLBACK
 ms.topic: callback
-f1_keywords: ["userenv/PFNSTATUSMESSAGECALLBACK"]
+f1_keywords: 
+ - "userenv/PFNSTATUSMESSAGECALLBACK"
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

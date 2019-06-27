@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixTransformation, XMMatrixTransformation, XMMatrixTransformation method [DirectX Math Support APIs], dxmath.xmmatrixtransformation
 ms.topic: function
-f1_keywords: ["directxmath/XMMatrixTransformation"]
+f1_keywords: 
+ - "directxmath/XMMatrixTransformation"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

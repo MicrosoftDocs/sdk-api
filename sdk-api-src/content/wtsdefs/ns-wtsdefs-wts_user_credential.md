@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWTS_USER_CREDENTIAL, PWRDS_USER_CREDENTIAL, PWRDS_USER_CREDENTIAL structure pointer [Remote Desktop Services], PWTS_USER_CREDENTIAL, PWTS_USER_CREDENTIAL structure pointer [Remote Desktop Services], WRDS_USER_CREDENTIAL, WRDS_USER_CREDENTIAL structure [Remote Desktop Services], WTS_USER_CREDENTIAL, WTS_USER_CREDENTIAL structure [Remote Desktop Services], termserv.wts_user_credential, wtsdefs/PWRDS_USER_CREDENTIAL, wtsdefs/PWTS_USER_CREDENTIAL, wtsdefs/WRDS_USER_CREDENTIAL, wtsdefs/WTS_USER_CREDENTIAL"
 ms.topic: struct
-f1_keywords: ["wtsdefs/WTS_USER_CREDENTIAL"]
+f1_keywords: 
+ - "wtsdefs/WTS_USER_CREDENTIAL"
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

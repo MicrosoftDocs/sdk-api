@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CHANNEL_PRIORITY, CHANNEL_PRIORITY enumeration [RDP], CHANNEL_PRIORITY_HI, CHANNEL_PRIORITY_LO, CHANNEL_PRIORITY_MED, rdp.channel_priority, rdpencomapi/CHANNEL_PRIORITY, rdpencomapi/CHANNEL_PRIORITY_HI, rdpencomapi/CHANNEL_PRIORITY_LO, rdpencomapi/CHANNEL_PRIORITY_MED
 ms.topic: enum
-f1_keywords: ["rdpencomapi/CHANNEL_PRIORITY"]
+f1_keywords: 
+ - "rdpencomapi/CHANNEL_PRIORITY"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

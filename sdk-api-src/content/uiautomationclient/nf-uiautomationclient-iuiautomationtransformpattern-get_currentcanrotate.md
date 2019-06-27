@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentCanRotate property [Windows Accessibility], CurrentCanRotate property [Windows Accessibility],IUIAutomationTransformPattern interface, IUIAutomationTransformPattern interface [Windows Accessibility],CurrentCanRotate property, IUIAutomationTransformPattern.CurrentCanRotate, IUIAutomationTransformPattern.get_CurrentCanRotate, IUIAutomationTransformPattern::CurrentCanRotate, IUIAutomationTransformPattern::get_CurrentCanRotate, get_CurrentCanRotate, uiauto.uiauto_IUIAutomationTransformPattern_CurrentCanRotate, uiauto_IUIAutomationTransformPattern_CurrentCanRotate, uiautomationclient/IUIAutomationTransformPattern::CurrentCanRotate, uiautomationclient/IUIAutomationTransformPattern::get_CurrentCanRotate, winauto.uiauto_IUIAutomationTransformPattern_CurrentCanRotate
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationTransformPattern.CurrentCanRotate"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationTransformPattern.CurrentCanRotate"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

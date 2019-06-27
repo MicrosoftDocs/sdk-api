@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOutputParameterDesc, GetOutputParameterDesc method [Direct3D 10], GetOutputParameterDesc method [Direct3D 10],ID3D10ShaderReflection interface, ID3D10ShaderReflection interface [Direct3D 10],GetOutputParameterDesc method, ID3D10ShaderReflection.GetOutputParameterDesc, ID3D10ShaderReflection::GetOutputParameterDesc, d3d10shader/ID3D10ShaderReflection::GetOutputParameterDesc, direct3d10.id3d10shaderreflection_getoutputparameterdesc, e1ba0a0a-1c0d-b2cd-1246-59c039de1f0c
 ms.topic: method
-f1_keywords: ["d3d10shader/ID3D10ShaderReflection.GetOutputParameterDesc"]
+f1_keywords: 
+ - "d3d10shader/ID3D10ShaderReflection.GetOutputParameterDesc"
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

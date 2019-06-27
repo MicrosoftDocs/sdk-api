@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_KEYINFO_PARAM, CRYPT_XML_KEYINFO_PARAM structure [Security], cryptxml/CRYPT_XML_KEYINFO_PARAM, security.crypt_xml_keyinfo_param
 ms.topic: struct
-f1_keywords: ["cryptxml/CRYPT_XML_KEYINFO_PARAM"]
+f1_keywords: 
+ - "cryptxml/CRYPT_XML_KEYINFO_PARAM"
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

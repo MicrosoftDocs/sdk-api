@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColumns, GetColumns method [Windows Shell], GetColumns method [Windows Shell],IColumnManager interface, IColumnManager interface [Windows Shell],GetColumns method, IColumnManager.GetColumns, IColumnManager::GetColumns, shell.IColumnManager_GetColumns, shell_IColumnManager_GetColumns, shobjidl_core/IColumnManager::GetColumns
 ms.topic: method
-f1_keywords: ["shobjidl_core/IColumnManager.GetColumns"]
+f1_keywords: 
+ - "shobjidl_core/IColumnManager.GetColumns"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrConformantStringBufferSize, NdrConformantStringBufferSize function [RPC], rpc.ndrconformantstringbuffersize, rpcndr/NdrConformantStringBufferSize
 ms.topic: function
-f1_keywords: ["rpcndr/NdrConformantStringBufferSize"]
+f1_keywords: 
+ - "rpcndr/NdrConformantStringBufferSize"
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

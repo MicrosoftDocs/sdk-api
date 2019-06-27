@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateCall, CreateCall method [TAPI 2.2], CreateCall method [TAPI 2.2],ITAddress interface, ITAddress interface [TAPI 2.2],CreateCall method, ITAddress.CreateCall, ITAddress::CreateCall, _tapi3_itaddress_createcall, tapi3.itaddress_createcall, tapi3if/ITAddress::CreateCall
 ms.topic: method
-f1_keywords: ["tapi3if/ITAddress.CreateCall"]
+f1_keywords: 
+ - "tapi3if/ITAddress.CreateCall"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ContainsChange, ContainsChange method [Windows Sync], ContainsChange method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],ContainsChange method, ISyncKnowledge.ContainsChange, ISyncKnowledge::ContainsChange, winsync.isyncknowledge_containschange, winsync/ISyncKnowledge::ContainsChange
 ms.topic: method
-f1_keywords: ["winsync/ISyncKnowledge.ContainsChange"]
+f1_keywords: 
+ - "winsync/ISyncKnowledge.ContainsChange"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

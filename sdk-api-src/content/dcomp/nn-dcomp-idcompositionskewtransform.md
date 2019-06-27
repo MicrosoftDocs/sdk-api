@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionSkewTransform, IDCompositionSkewTransform interface [DirectComposition], IDCompositionSkewTransform interface [DirectComposition],described, dcomp/IDCompositionSkewTransform, directcomp.idcompositionskewtransform
 ms.topic: interface
-f1_keywords: ["dcomp/IDCompositionSkewTransform"]
+f1_keywords: 
+ - "dcomp/IDCompositionSkewTransform"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

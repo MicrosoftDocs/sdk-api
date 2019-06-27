@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpV4FailoverGetSystemTime, DhcpV4FailoverGetSystemTime function [DHCP], dhcp.dhcpv4failovergetsystemtime, dhcpsapi/DhcpV4FailoverGetSystemTime
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpV4FailoverGetSystemTime"]
+f1_keywords: 
+ - "dhcpsapi/DhcpV4FailoverGetSystemTime"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_PROVIDER_DEFUSAGE, CRYPT_PROVIDER_DEFUSAGE, CRYPT_PROVIDER_DEFUSAGE structure [Security], PCRYPT_PROVIDER_DEFUSAGE, PCRYPT_PROVIDER_DEFUSAGE structure pointer [Security], security.crypt_provider_defusage, wintrust/CRYPT_PROVIDER_DEFUSAGE, wintrust/PCRYPT_PROVIDER_DEFUSAGE"
 ms.topic: struct
-f1_keywords: ["wintrust/CRYPT_PROVIDER_DEFUSAGE"]
+f1_keywords: 
+ - "wintrust/CRYPT_PROVIDER_DEFUSAGE"
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

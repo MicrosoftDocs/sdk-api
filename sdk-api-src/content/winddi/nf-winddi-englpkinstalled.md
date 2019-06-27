@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngLpkInstalled, EngLpkInstalled function [Display Devices], display.englpkinstalled, gdifncs_75e34695-7344-475a-95c3-eeec27db1d34.xml, winddi/EngLpkInstalled
 ms.topic: function
-f1_keywords: ["winddi/EngLpkInstalled"]
+f1_keywords: 
+ - "winddi/EngLpkInstalled"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

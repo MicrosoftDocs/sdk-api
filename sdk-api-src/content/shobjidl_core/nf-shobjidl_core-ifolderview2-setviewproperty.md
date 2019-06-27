@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetViewProperty method, IFolderView2.SetViewProperty, IFolderView2::SetViewProperty, SetViewProperty, SetViewProperty method [Windows Shell], SetViewProperty method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetViewProperty, shell.IFolderView2_SetViewProperty, shobjidl_core/IFolderView2::SetViewProperty
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFolderView2.SetViewProperty"]
+f1_keywords: 
+ - "shobjidl_core/IFolderView2.SetViewProperty"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

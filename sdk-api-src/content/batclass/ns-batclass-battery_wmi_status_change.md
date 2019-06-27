@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PBATTERY_WMI_STATUS_CHANGE, BATTERY_WMI_STATUS_CHANGE, BATTERY_WMI_STATUS_CHANGE structure [Battery Devices], PBATTERY_WMI_STATUS_CHANGE, PBATTERY_WMI_STATUS_CHANGE structure pointer [Battery Devices], batclass/BATTERY_WMI_STATUS_CHANGE, batclass/PBATTERY_WMI_STATUS_CHANGE, battery.battery_wmi_status_change"
 ms.topic: struct
-f1_keywords: ["batclass/BATTERY_WMI_STATUS_CHANGE"]
+f1_keywords: 
+ - "batclass/BATTERY_WMI_STATUS_CHANGE"
 req.header: batclass.h
 req.include-header: 
 req.target-type: Windows

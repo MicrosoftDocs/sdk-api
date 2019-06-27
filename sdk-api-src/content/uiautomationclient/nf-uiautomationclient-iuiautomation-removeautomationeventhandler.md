@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],RemoveAutomationEventHandler method, IUIAutomation.RemoveAutomationEventHandler, IUIAutomation::RemoveAutomationEventHandler, RemoveAutomationEventHandler, RemoveAutomationEventHandler method [Windows Accessibility], RemoveAutomationEventHandler method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_RemoveAutomationEventHandler, uiauto_IUIAutomation_RemoveAutomationEventHandler, uiautomationclient/IUIAutomation::RemoveAutomationEventHandler, winauto.uiauto_IUIAutomation_RemoveAutomationEventHandler
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomation.RemoveAutomationEventHandler"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomation.RemoveAutomationEventHandler"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

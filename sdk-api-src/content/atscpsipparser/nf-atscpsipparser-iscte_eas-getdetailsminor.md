@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDetailsMinor, GetDetailsMinor method [Microsoft TV Technologies], GetDetailsMinor method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetDetailsMinor method, ISCTE_EAS.GetDetailsMinor, ISCTE_EAS::GetDetailsMinor, ISCTE_EASGetDetailsMinor, atscpsipparser/ISCTE_EAS::GetDetailsMinor, mstv.iscte_eas_getdetailsminor
 ms.topic: method
-f1_keywords: ["atscpsipparser/ISCTE_EAS.GetDetailsMinor"]
+f1_keywords: 
+ - "atscpsipparser/ISCTE_EAS.GetDetailsMinor"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

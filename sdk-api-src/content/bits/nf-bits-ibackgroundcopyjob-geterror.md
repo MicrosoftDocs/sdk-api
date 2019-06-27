@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetError, GetError method [BITS], GetError method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetError method, IBackgroundCopyJob.GetError, IBackgroundCopyJob::GetError, _drz_ibackgroundcopyjob_geterror, bits.ibackgroundcopyjob_geterror, bits/IBackgroundCopyJob::GetError
 ms.topic: method
-f1_keywords: ["bits/IBackgroundCopyJob.GetError"]
+f1_keywords: 
+ - "bits/IBackgroundCopyJob.GetError"
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],SetWriteSpeed method, IDiscFormat2Data.SetWriteSpeed, IDiscFormat2Data::SetWriteSpeed, SetWriteSpeed, SetWriteSpeed method [IMAPI], SetWriteSpeed method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_setwritespeed, imapi2/IDiscFormat2Data::SetWriteSpeed
 ms.topic: method
-f1_keywords: ["imapi2/IDiscFormat2Data.SetWriteSpeed"]
+f1_keywords: 
+ - "imapi2/IDiscFormat2Data.SetWriteSpeed"
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

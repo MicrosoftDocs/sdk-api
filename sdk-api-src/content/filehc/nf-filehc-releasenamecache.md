@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReleaseNameCache, ReleaseNameCache function [Windows API], filehc/ReleaseNameCache, winprog._releasenamecache
 ms.topic: function
-f1_keywords: ["filehc/ReleaseNameCache"]
+f1_keywords: 
+ - "filehc/ReleaseNameCache"
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

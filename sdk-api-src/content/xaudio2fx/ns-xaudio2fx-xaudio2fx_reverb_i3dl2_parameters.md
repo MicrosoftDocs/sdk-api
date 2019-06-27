@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XAUDIO2FX_REVERB_I3DL2_PARAMETERS, XAUDIO2FX_REVERB_I3DL2_PARAMETERS structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2fx_reverb_i3dl2_parameters, xaudio2fx/XAUDIO2FX_REVERB_I3DL2_PARAMETERS
 ms.topic: struct
-f1_keywords: ["xaudio2fx/XAUDIO2FX_REVERB_I3DL2_PARAMETERS"]
+f1_keywords: 
+ - "xaudio2fx/XAUDIO2FX_REVERB_I3DL2_PARAMETERS"
 req.header: xaudio2fx.h
 req.include-header: 
 req.target-type: Windows

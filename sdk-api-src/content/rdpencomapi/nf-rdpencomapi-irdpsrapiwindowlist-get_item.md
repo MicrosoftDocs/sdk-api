@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIWindowList interface [RDP],Item property, IRDPSRAPIWindowList.Item, IRDPSRAPIWindowList.get_Item, IRDPSRAPIWindowList::Item, IRDPSRAPIWindowList::get_Item, Item property [RDP], Item property [RDP],IRDPSRAPIWindowList interface, Item property [RDP],RDPSRAPIWindowList object, RDPSRAPIWindowList object [RDP],Item property, get_Item, rdp.irdpsrapiwindowlist_item, rdpencomapi/IRDPSRAPIWindowList::Item, rdpencomapi/IRDPSRAPIWindowList::get_Item
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPIWindowList.Item"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPIWindowList.Item"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

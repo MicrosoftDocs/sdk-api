@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarI2FromCy, VarI2FromCy function [Automation], _oa96_VarI2FromCy, automat.vari2fromcy, oleauto/VarI2FromCy
 ms.topic: function
-f1_keywords: ["oleauto/VarI2FromCy"]
+f1_keywords: 
+ - "oleauto/VarI2FromCy"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WscGetSecurityProviderHealth, WscGetSecurityProviderHealth function [Windows API], winprog.wscgetsecurityproviderhealth, wscapi/WscGetSecurityProviderHealth
 ms.topic: function
-f1_keywords: ["wscapi/WscGetSecurityProviderHealth"]
+f1_keywords: 
+ - "wscapi/WscGetSecurityProviderHealth"
 req.header: wscapi.h
 req.include-header: 
 req.target-type: Windows

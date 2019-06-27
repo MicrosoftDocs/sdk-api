@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSpecifiedMetadata, GetSpecifiedMetadata method [windows Media Device Manager], GetSpecifiedMetadata method [windows Media Device Manager],IMDSPStorage4 interface, IMDSPStorage4 interface [windows Media Device Manager],GetSpecifiedMetadata method, IMDSPStorage4.GetSpecifiedMetadata, IMDSPStorage4::GetSpecifiedMetadata, IMDSPStorage4GetSpecifiedMetadata, mswmdm/IMDSPStorage4::GetSpecifiedMetadata, wmdm.imdspstorage4_getspecifiedmetadata
 ms.topic: method
-f1_keywords: ["mswmdm/IMDSPStorage4.GetSpecifiedMetadata"]
+f1_keywords: 
+ - "mswmdm/IMDSPStorage4.GetSpecifiedMetadata"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

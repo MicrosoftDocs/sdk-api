@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],PreDisconnect method, IWRdsProtocolConnection.PreDisconnect, IWRdsProtocolConnection::PreDisconnect, PreDisconnect, PreDisconnect method [Remote Desktop Services], PreDisconnect method [Remote Desktop Services],IWRdsProtocolConnection interface, termserv.iwrdsprotocolconnection_predisconnect, wtsprotocol/IWRdsProtocolConnection::PreDisconnect
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWRdsProtocolConnection.PreDisconnect"]
+f1_keywords: 
+ - "wtsprotocol/IWRdsProtocolConnection.PreDisconnect"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

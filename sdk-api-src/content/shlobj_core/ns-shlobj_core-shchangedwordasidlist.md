@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSHChangeDWORDAsIDList, LPSHChangeDWORDAsIDList, LPSHChangeDWORDAsIDList structure pointer [Windows Shell], SHChangeDWORDAsIDList, SHChangeDWORDAsIDList structure [Windows Shell], _SHChangeDWORDAsIDList, _shell_SHChangeDWORDAsIDList, shell.SHChangeDWORDAsIDList, shlobj_core/LPSHChangeDWORDAsIDList, shlobj_core/SHChangeDWORDAsIDList"
 ms.topic: struct
-f1_keywords: ["shlobj_core/SHChangeDWORDAsIDList"]
+f1_keywords: 
+ - "shlobj_core/SHChangeDWORDAsIDList"
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CHANNEL_ACCESS_ENUM, CHANNEL_ACCESS_ENUM enumeration [RDP], CHANNEL_ACCESS_ENUM_NONE, CHANNEL_ACCESS_ENUM_SENDRECEIVE, rdp.channel_access_enum, rdpencomapi/CHANNEL_ACCESS_ENUM, rdpencomapi/CHANNEL_ACCESS_ENUM_NONE, rdpencomapi/CHANNEL_ACCESS_ENUM_SENDRECEIVE
 ms.topic: enum
-f1_keywords: ["rdpencomapi/CHANNEL_ACCESS_ENUM"]
+f1_keywords: 
+ - "rdpencomapi/CHANNEL_ACCESS_ENUM"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

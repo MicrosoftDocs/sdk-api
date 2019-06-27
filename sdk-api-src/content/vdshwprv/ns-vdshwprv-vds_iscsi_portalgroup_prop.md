@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PVDS_ISCSI_PORTALGROUP_PROP, VDS_ISCSI_PORTALGROUP_PROP, VDS_ISCSI_PORTALGROUP_PROP structure [VDS], base.vds_iscsi_portalgroup_prop, vds/VDS_ISCSI_PORTALGROUP_PROP, vdshwprv/VDS_ISCSI_PORTALGROUP_PROP"
 ms.topic: struct
-f1_keywords: ["vdshwprv/VDS_ISCSI_PORTALGROUP_PROP"]
+f1_keywords: 
+ - "vdshwprv/VDS_ISCSI_PORTALGROUP_PROP"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

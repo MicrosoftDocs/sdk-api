@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPPHYSICAL_MONITOR, LPPHYSICAL_MONITOR, LPPHYSICAL_MONITOR structure pointer [Monitor Configuration], PHYSICAL_MONITOR, PHYSICAL_MONITOR structure [Monitor Configuration], monitor.physical_monitor, physicalmonitorenumerationapi/LPPHYSICAL_MONITOR, physicalmonitorenumerationapi/PHYSICAL_MONITOR"
 ms.topic: struct
-f1_keywords: ["physicalmonitorenumerationapi/PHYSICAL_MONITOR"]
+f1_keywords: 
+ - "physicalmonitorenumerationapi/PHYSICAL_MONITOR"
 req.header: physicalmonitorenumerationapi.h
 req.include-header: 
 req.target-type: Windows

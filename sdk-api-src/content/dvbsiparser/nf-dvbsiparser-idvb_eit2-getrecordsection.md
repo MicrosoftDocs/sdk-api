@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordSection, GetRecordSection method [Microsoft TV Technologies], GetRecordSection method [Microsoft TV Technologies],IDVB_EIT2 interface, IDVB_EIT2 interface [Microsoft TV Technologies],GetRecordSection method, IDVB_EIT2.GetRecordSection, IDVB_EIT2::GetRecordSection, dvbsiparser/IDVB_EIT2::GetRecordSection, mstv.idvb_eit2_getrecordsection
 ms.topic: method
-f1_keywords: ["dvbsiparser/IDVB_EIT2.GetRecordSection"]
+f1_keywords: 
+ - "dvbsiparser/IDVB_EIT2.GetRecordSection"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

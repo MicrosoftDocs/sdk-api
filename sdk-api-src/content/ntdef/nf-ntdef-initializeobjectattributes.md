@@ -8,6 +8,8 @@ ms.assetid: ee89a9af-0bdf-476e-b4e3-eb60662e160d
 ms.date: 04/30/2018
 ms.keywords: InitializeObjectAttributes, InitializeObjectAttributes macro [Kernel-Mode Driver Architecture], k107_f7e00cf9-9598-4835-b51a-3df9e003587e.xml, kernel.initializeobjectattributes, ntdef/InitializeObjectAttributes
 ms.topic: macro
+f1_keywords:
+ - "ntdef/- InitializeObjectAttributes"
 req.header: ntdef.h
 req.include-header: Wdm.h, Ntddk.h, Ntdef.h
 req.target-type: Desktop
@@ -181,4 +183,5 @@ Note that <b>InitializeObjectAttributes</b> always sets the <b>SecurityQualityOf
  
 
 
-
+f1_keywords: 
+ - "ntdef/FIELD_OFFSET"

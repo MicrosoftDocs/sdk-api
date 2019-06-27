@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NLM_NETWORK_CLASS, NLM_NETWORK_CLASS enumeration [Network Awareness], NLM_NETWORK_IDENTIFIED, NLM_NETWORK_IDENTIFYING, NLM_NETWORK_UNIDENTIFIED, netlistmgr/NLM_NETWORK_CLASS, netlistmgr/NLM_NETWORK_IDENTIFIED, netlistmgr/NLM_NETWORK_IDENTIFYING, netlistmgr/NLM_NETWORK_UNIDENTIFIED, nla.nlm_network_class
 ms.topic: enum
-f1_keywords: ["netlistmgr/NLM_NETWORK_CLASS"]
+f1_keywords: 
+ - "netlistmgr/NLM_NETWORK_CLASS"
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

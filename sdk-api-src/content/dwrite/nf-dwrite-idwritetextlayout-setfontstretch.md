@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetFontStretch method, IDWriteTextLayout.SetFontStretch, IDWriteTextLayout::SetFontStretch, SetFontStretch, SetFontStretch method [Direct Write], SetFontStretch method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetFontStretch, dwrite/IDWriteTextLayout::SetFontStretch
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextLayout.SetFontStretch"]
+f1_keywords: 
+ - "dwrite/IDWriteTextLayout.SetFontStretch"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

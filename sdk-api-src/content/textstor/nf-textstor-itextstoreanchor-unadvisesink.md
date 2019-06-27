@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],UnadviseSink method, ITextStoreAnchor.UnadviseSink, ITextStoreAnchor::UnadviseSink, UnadviseSink, UnadviseSink method [Text Services Framework], UnadviseSink method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::UnadviseSink, tsf.itextstoreanchor_unadvisesink
 ms.topic: method
-f1_keywords: ["textstor/ITextStoreAnchor.UnadviseSink"]
+f1_keywords: 
+ - "textstor/ITextStoreAnchor.UnadviseSink"
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

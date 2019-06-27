@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPAMVABeginFrameInfo, AMVABeginFrameInfo, AMVABeginFrameInfo structure [DirectShow], AMVABeginFrameInfoStructure, LPAMVABeginFrameInfo, LPAMVABeginFrameInfo structure pointer [DirectShow], amva/AMVABeginFrameInfo, amva/LPAMVABeginFrameInfo, dshow.amvabeginframeinfo"
 ms.topic: struct
-f1_keywords: ["amva/AMVABeginFrameInfo"]
+f1_keywords: 
+ - "amva/AMVABeginFrameInfo"
 req.header: amva.h
 req.include-header: Videoacc.h
 req.target-type: Windows

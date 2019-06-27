@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWCNDevice interface [Windows Connect Now],Unadvise method, IWCNDevice.Unadvise, IWCNDevice::Unadvise, Unadvise, Unadvise method [Windows Connect Now], Unadvise method [Windows Connect Now],IWCNDevice interface, wcn.iwcndevice_unadvise, wcndevice/IWCNDevice::Unadvise
 ms.topic: method
-f1_keywords: ["wcndevice/IWCNDevice.Unadvise"]
+f1_keywords: 
+ - "wcndevice/IWCNDevice.Unadvise"
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows

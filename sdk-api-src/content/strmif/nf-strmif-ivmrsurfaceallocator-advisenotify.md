@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AdviseNotify, AdviseNotify method [DirectShow], AdviseNotify method [DirectShow],IVMRSurfaceAllocator interface, IVMRSurfaceAllocator interface [DirectShow],AdviseNotify method, IVMRSurfaceAllocator.AdviseNotify, IVMRSurfaceAllocator::AdviseNotify, IVMRSurfaceAllocatorAdviseNotify, dshow.ivmrsurfaceallocator_advisenotify, strmif/IVMRSurfaceAllocator::AdviseNotify
 ms.topic: method
-f1_keywords: ["strmif/IVMRSurfaceAllocator.AdviseNotify"]
+f1_keywords: 
+ - "strmif/IVMRSurfaceAllocator.AdviseNotify"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDiagnosticsInfo, GetDiagnosticsInfo method [NDF], GetDiagnosticsInfo method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetDiagnosticsInfo method, INetDiagHelper.GetDiagnosticsInfo, INetDiagHelper::GetDiagnosticsInfo, ndf.inetdiaghelpe_getdiagnosticsinfo, ndhelper/INetDiagHelper::GetDiagnosticsInfo
 ms.topic: method
-f1_keywords: ["ndhelper/INetDiagHelper.GetDiagnosticsInfo"]
+f1_keywords: 
+ - "ndhelper/INetDiagHelper.GetDiagnosticsInfo"
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

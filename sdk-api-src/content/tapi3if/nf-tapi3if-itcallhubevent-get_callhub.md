@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITCallHubEvent interface [TAPI 2.2],get_CallHub method, ITCallHubEvent.get_CallHub, ITCallHubEvent::get_CallHub, _tapi3_itcallhubevent_get_callhub, get_CallHub, get_CallHub method [TAPI 2.2], get_CallHub method [TAPI 2.2],ITCallHubEvent interface, tapi3.itcallhubevent_get_callhub, tapi3if/ITCallHubEvent::get_CallHub
 ms.topic: method
-f1_keywords: ["tapi3if/ITCallHubEvent.get_CallHub"]
+f1_keywords: 
+ - "tapi3if/ITCallHubEvent.get_CallHub"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

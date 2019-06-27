@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICPngSrgbProperties, WICPngSrgbProperties enumeration [Windows Imaging Component], WICPngSrgbRenderingIntent, _wic_codec_wicpngsrgbproperties, wic._wic_codec_wicpngsrgbproperties, wincodec/WICPngSrgbProperties, wincodec/WICPngSrgbRenderingIntent
 ms.topic: enum
-f1_keywords: ["wincodec/WICPngSrgbProperties"]
+f1_keywords: 
+ - "wincodec/WICPngSrgbProperties"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

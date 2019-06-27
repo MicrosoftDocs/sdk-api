@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchRoot, ISearchRoot interface [search], ISearchRoot interface [search],described, _search_ISearchRoot, search._search_ISearchRoot, searchapi/ISearchRoot
 ms.topic: interface
-f1_keywords: ["searchapi/ISearchRoot"]
+f1_keywords: 
+ - "searchapi/ISearchRoot"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

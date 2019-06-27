@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COMEVENTSYSCHANGEINFO, COMEVENTSYSCHANGEINFO structure [COM+], _cos_COMEVENTSYSCHANGEINFO, cos.comeventsyschangeinfo, eventsys/COMEVENTSYSCHANGEINFO
 ms.topic: struct
-f1_keywords: ["eventsys/COMEVENTSYSCHANGEINFO"]
+f1_keywords: 
+ - "eventsys/COMEVENTSYSCHANGEINFO"
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

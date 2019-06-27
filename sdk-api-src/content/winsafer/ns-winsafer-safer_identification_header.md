@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSAFER_IDENTIFICATION_HEADER, PSAFER_IDENTIFICATION_HEADER, PSAFER_IDENTIFICATION_HEADER structure pointer [Security], SAFER_IDENTIFICATION_HEADER, SAFER_IDENTIFICATION_HEADER structure [Security], SaferIdentityDefault, SaferIdentityTypeCertificate, SaferIdentityTypeImageHash, SaferIdentityTypeImageName, SaferIdentityTypeUrlZone, _mnp_safer_identification_header, security.safer_identification_header, winsafer/PSAFER_IDENTIFICATION_HEADER, winsafer/SAFER_IDENTIFICATION_HEADER"
 ms.topic: struct
-f1_keywords: ["winsafer/SAFER_IDENTIFICATION_HEADER"]
+f1_keywords: 
+ - "winsafer/SAFER_IDENTIFICATION_HEADER"
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows

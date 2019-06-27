@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Task Scheduler], Clear method [Task Scheduler],ITriggerCollection interface, ITriggerCollection interface [Task Scheduler],Clear method, ITriggerCollection.Clear, ITriggerCollection::Clear, taskschd.itriggercollection_clear, taskschd/ITriggerCollection::Clear
 ms.topic: method
-f1_keywords: ["taskschd/ITriggerCollection.Clear"]
+f1_keywords: 
+ - "taskschd/ITriggerCollection.Clear"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

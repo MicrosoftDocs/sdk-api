@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Default property [Security], Default property [Security],IX509PolicyServerUrl interface, IX509PolicyServerUrl interface [Security],Default property, IX509PolicyServerUrl.Default, IX509PolicyServerUrl.get_Default, IX509PolicyServerUrl::Default, IX509PolicyServerUrl::get_Default, IX509PolicyServerUrl::put_Default, certenroll/IX509PolicyServerUrl::Default, certenroll/IX509PolicyServerUrl::get_Default, certenroll/IX509PolicyServerUrl::put_Default, get_Default, security.ix509policyserverurl_default
 ms.topic: method
-f1_keywords: ["certenroll/IX509PolicyServerUrl.Default"]
+f1_keywords: 
+ - "certenroll/IX509PolicyServerUrl.Default"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

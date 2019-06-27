@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPPP_EAP_OUTPUT, PPPP_EAP_OUTPUT, PPPP_EAP_OUTPUT structure pointer [EAP], PPP_EAP_OUTPUT, PPP_EAP_OUTPUT structure [EAP], _eap_ppp_eap_output, eap.ppp_eap_output, raseapif/PPPP_EAP_OUTPUT, raseapif/PPP_EAP_OUTPUT"
 ms.topic: struct
-f1_keywords: ["raseapif/PPP_EAP_OUTPUT"]
+f1_keywords: 
+ - "raseapif/PPP_EAP_OUTPUT"
 req.header: raseapif.h
 req.include-header: 
 req.target-type: Windows

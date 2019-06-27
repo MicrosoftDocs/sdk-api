@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMTVTuner interface [DirectShow],put_ConnectInput method, IAMTVTuner.put_ConnectInput, IAMTVTuner::put_ConnectInput, IAMTVTunerput_ConnectInput, dshow.iamtvtuner_put_connectinput, put_ConnectInput, put_ConnectInput method [DirectShow], put_ConnectInput method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::put_ConnectInput
 ms.topic: method
-f1_keywords: ["strmif/IAMTVTuner.put_ConnectInput"]
+f1_keywords: 
+ - "strmif/IAMTVTuner.put_ConnectInput"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

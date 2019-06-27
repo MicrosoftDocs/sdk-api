@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumProcessModules, EnumProcessModules function [PSAPI], K32EnumProcessModules, _win32_enumprocessmodules, base.enumprocessmodules, psapi.enumprocessmodules, psapi/EnumProcessModules, psapi/K32EnumProcessModules
 ms.topic: function
-f1_keywords: ["psapi/EnumProcessModules"]
+f1_keywords: 
+ - "psapi/EnumProcessModules"
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

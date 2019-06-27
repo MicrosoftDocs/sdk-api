@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DestroyResourceS, DestroyResourceS method [COM+], DestroyResourceS method [COM+],IDispenserDriver interface, IDispenserDriver interface [COM+],DestroyResourceS method, IDispenserDriver.DestroyResourceS, IDispenserDriver::DestroyResourceS, _dtc_IDispenserDriver_DestroyResourceS, comsvcs/IDispenserDriver::DestroyResourceS, cos.idispenserdriver_destroyresources
 ms.topic: method
-f1_keywords: ["comsvcs/IDispenserDriver.DestroyResourceS"]
+f1_keywords: 
+ - "comsvcs/IDispenserDriver.DestroyResourceS"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

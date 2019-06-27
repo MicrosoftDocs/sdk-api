@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminMIBBufferFree, MprAdminMIBBufferFree function [RAS], _mpr_mpradminmibbufferfree, mprapi/MprAdminMIBBufferFree, rras.mpradminmibbufferfree
 ms.topic: function
-f1_keywords: ["mprapi/MprAdminMIBBufferFree"]
+f1_keywords: 
+ - "mprapi/MprAdminMIBBufferFree"
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzRole object [Security],Name property, IAzRole interface [Security],Name property, IAzRole.Name, IAzRole.put_Name, IAzRole::Name, IAzRole::get_Name, IAzRole::put_Name, Name property [Security], Name property [Security],AzRole object, Name property [Security],IAzRole interface, azroles/IAzRole::Name, azroles/IAzRole::get_Name, azroles/IAzRole::put_Name, put_Name, security.iazrole_name
 ms.topic: method
-f1_keywords: ["azroles/IAzRole.Name"]
+f1_keywords: 
+ - "azroles/IAzRole.Name"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

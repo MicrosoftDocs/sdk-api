@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetGuid method, ICreateTypeInfo.SetGuid, ICreateTypeInfo::SetGuid, SetGuid, SetGuid method [Automation], SetGuid method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetGuid, automat.icreatetypeinfo_setguid, oaidl/ICreateTypeInfo::SetGuid
 ms.topic: method
-f1_keywords: ["oaidl/ICreateTypeInfo.SetGuid"]
+f1_keywords: 
+ - "oaidl/ICreateTypeInfo.SetGuid"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

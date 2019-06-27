@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_CREATE_DIRECTORY_TREE, PRESUTIL_CREATE_DIRECTORY_TREE function [Failover Cluster], ResUtilCreateDirectoryTree, ResUtilCreateDirectoryTree function [Failover Cluster], _wolf_resutilcreatedirectorytree, mscs.resutilcreatedirectorytree, resapi/PRESUTIL_CREATE_DIRECTORY_TREE, resapi/ResUtilCreateDirectoryTree
 ms.topic: function
-f1_keywords: ["resapi/ResUtilCreateDirectoryTree"]
+f1_keywords: 
+ - "resapi/ResUtilCreateDirectoryTree"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

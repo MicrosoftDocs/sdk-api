@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidVMR9, IMSVidVMR9 interface [Microsoft TV Technologies], IMSVidVMR9 interface [Microsoft TV Technologies],described, IMSVidVMR9Interface, mstv.imsvidvmr9, segment/IMSVidVMR9
 ms.topic: interface
-f1_keywords: ["segment/IMSVidVMR9"]
+f1_keywords: 
+ - "segment/IMSVidVMR9"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

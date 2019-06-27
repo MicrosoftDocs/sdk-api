@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],TitlePlay method, IDvdControl.TitlePlay, IDvdControl::TitlePlay, IDvdControlTitlePlay, TitlePlay, TitlePlay method [DirectShow], TitlePlay method [DirectShow],IDvdControl interface, dshow.idvdcontrol_titleplay, strmif/IDvdControl::TitlePlay
 ms.topic: method
-f1_keywords: ["strmif/IDvdControl.TitlePlay"]
+f1_keywords: 
+ - "strmif/IDvdControl.TitlePlay"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

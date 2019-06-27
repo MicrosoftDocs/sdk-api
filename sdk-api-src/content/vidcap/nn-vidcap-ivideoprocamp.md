@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], IVideoProcAmp interface [DirectShow],described, IVideoProcAmpInterface, dshow.ivideoprocamp, vidcap/IVideoProcAmp
 ms.topic: interface
-f1_keywords: ["vidcap/IVideoProcAmp"]
+f1_keywords: 
+ - "vidcap/IVideoProcAmp"
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

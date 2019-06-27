@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropertyHandlerFromPath, GetPropertyHandlerFromPath method [Windows Shell], GetPropertyHandlerFromPath method [Windows Shell],IStorageProviderHandler interface, IStorageProviderHandler interface [Windows Shell],GetPropertyHandlerFromPath method, IStorageProviderHandler.GetPropertyHandlerFromPath, IStorageProviderHandler::GetPropertyHandlerFromPath, shell.istorageproviderhandler_getpropertyhandlerfrompath, storageprovider/IStorageProviderHandler::GetPropertyHandlerFromPath
 ms.topic: method
-f1_keywords: ["storageprovider/IStorageProviderHandler.GetPropertyHandlerFromPath"]
+f1_keywords: 
+ - "storageprovider/IStorageProviderHandler.GetPropertyHandlerFromPath"
 req.header: storageprovider.h
 req.include-header: 
 req.target-type: Windows

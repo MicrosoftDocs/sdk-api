@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*POCSP_REQUEST_INFO, OCSP_REQUEST_INFO, OCSP_REQUEST_INFO structure [Security], OCSP_REQUEST_V1, POCSP_REQUEST_INFO, POCSP_REQUEST_INFO structure pointer [Security], security.ocsp_request_info, wincrypt/OCSP_REQUEST_INFO, wincrypt/POCSP_REQUEST_INFO"
 ms.topic: struct
-f1_keywords: ["wincrypt/OCSP_REQUEST_INFO"]
+f1_keywords: 
+ - "wincrypt/OCSP_REQUEST_INFO"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

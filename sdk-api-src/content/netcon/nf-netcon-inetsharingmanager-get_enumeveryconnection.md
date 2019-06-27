@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetSharingManager interface [ICS/ICF],get_EnumEveryConnection method, INetSharingManager.get_EnumEveryConnection, INetSharingManager::get_EnumEveryConnection, _ics_inetsharingmanager_get_enumeveryconnection, get_EnumEveryConnection, get_EnumEveryConnection method [ICS/ICF], get_EnumEveryConnection method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_enumeveryconnection, netcon/INetSharingManager::get_EnumEveryConnection
 ms.topic: method
-f1_keywords: ["netcon/INetSharingManager.get_EnumEveryConnection"]
+f1_keywords: 
+ - "netcon/INetSharingManager.get_EnumEveryConnection"
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEasyReader, GetEasyReader method [Microsoft TV Technologies], GetEasyReader method [Microsoft TV Technologies],ICaptionServiceDescriptor interface, ICaptionServiceDescriptor interface [Microsoft TV Technologies],GetEasyReader method, ICaptionServiceDescriptor.GetEasyReader, ICaptionServiceDescriptor::GetEasyReader, ICaptionServiceDescriptorGetEasyReader, atscpsipparser/ICaptionServiceDescriptor::GetEasyReader, mstv.icaptionservicedescriptor_geteasyreader
 ms.topic: method
-f1_keywords: ["atscpsipparser/ICaptionServiceDescriptor.GetEasyReader"]
+f1_keywords: 
+ - "atscpsipparser/ICaptionServiceDescriptor.GetEasyReader"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

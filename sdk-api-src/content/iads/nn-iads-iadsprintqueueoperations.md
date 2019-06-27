@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsPrintQueueOperations, IADsPrintQueueOperations interface [ADSI], IADsPrintQueueOperations interface [ADSI],described, _ds_iadsprintqueueoperations, adsi.iadsprintqueueoperations, iads/IADsPrintQueueOperations
 ms.topic: interface
-f1_keywords: ["iads/IADsPrintQueueOperations"]
+f1_keywords: 
+ - "iads/IADsPrintQueueOperations"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

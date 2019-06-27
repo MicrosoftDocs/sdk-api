@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginPath, BeginPath function [Windows GDI], _win32_BeginPath, gdi.beginpath, wingdi/BeginPath
 ms.topic: function
-f1_keywords: ["wingdi/BeginPath"]
+f1_keywords: 
+ - "wingdi/BeginPath"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

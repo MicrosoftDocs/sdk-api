@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawImage, DrawImage method [GDI+], DrawImage method [GDI+],Graphics class, Graphics class [GDI+],DrawImage method, Graphics.DrawImage, Graphics.DrawImage(IN Image,IN INT,IN INT), Graphics.DrawImage(Image*,INT,INT), Graphics::DrawImage, Graphics::DrawImage(IN Image,IN INT,IN INT), _gdiplus_CLASS_Graphics_DrawImage_Image_image_INT_x_INT_y_, gdiplus._gdiplus_CLASS_Graphics_DrawImage_Image_image_INT_x_INT_y_
 ms.topic: method
-f1_keywords: ["gdiplusgraphics/Graphics.DrawImage"]
+f1_keywords: 
+ - "gdiplusgraphics/Graphics.DrawImage"
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmStorageModuleImplementation interface [File Server Resource Manager],LoadProperties method, IFsrmStorageModuleImplementation.LoadProperties, IFsrmStorageModuleImplementation::LoadProperties, LoadProperties, LoadProperties method [File Server Resource Manager], LoadProperties method [File Server Resource Manager],IFsrmStorageModuleImplementation interface, fs.ifsrmstoragemoduleimplementation_loadproperties, fsrm.ifsrmstoragemoduleimplementation_loadproperties, fsrmpipeline/IFsrmStorageModuleImplementation::LoadProperties
 ms.topic: method
-f1_keywords: ["fsrmpipeline/IFsrmStorageModuleImplementation.LoadProperties"]
+f1_keywords: 
+ - "fsrmpipeline/IFsrmStorageModuleImplementation.LoadProperties"
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMonitor, GetMonitor method [DirectShow], GetMonitor method [DirectShow],IVMRMonitorConfig interface, IVMRMonitorConfig interface [DirectShow],GetMonitor method, IVMRMonitorConfig.GetMonitor, IVMRMonitorConfig::GetMonitor, IVMRMonitorConfigGetMonitor, dshow.ivmrmonitorconfig_getmonitor, strmif/IVMRMonitorConfig::GetMonitor
 ms.topic: method
-f1_keywords: ["strmif/IVMRMonitorConfig.GetMonitor"]
+f1_keywords: 
+ - "strmif/IVMRMonitorConfig.GetMonitor"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

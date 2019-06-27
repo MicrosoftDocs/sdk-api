@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpUndoRequestParams, DhcpUndoRequestParams function [DHCP], _dhcp_dhcpundorequestparams, dhcp.dhcpundorequestparams, dhcpcsdk/DhcpUndoRequestParams
 ms.topic: function
-f1_keywords: ["dhcpcsdk/DhcpUndoRequestParams"]
+f1_keywords: 
+ - "dhcpcsdk/DhcpUndoRequestParams"
 req.header: dhcpcsdk.h
 req.include-header: 
 req.target-type: Windows

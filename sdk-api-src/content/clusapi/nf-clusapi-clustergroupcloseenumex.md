@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterGroupCloseEnumEx, ClusterGroupCloseEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM_EX, PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM_EX function [Failover Cluster], clusapi/ClusterGroupCloseEnumEx, clusapi/PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM_EX, mscs.clustergroupcloseenumex
 ms.topic: function
-f1_keywords: ["clusapi/ClusterGroupCloseEnumEx"]
+f1_keywords: 
+ - "clusapi/ClusterGroupCloseEnumEx"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

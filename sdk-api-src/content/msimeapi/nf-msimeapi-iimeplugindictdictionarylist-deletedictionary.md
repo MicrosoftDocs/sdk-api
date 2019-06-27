@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteDictionary, DeleteDictionary method [Internationalization for Windows Applications], DeleteDictionary method [Internationalization for Windows Applications],IImePlugInDictDictionaryList interface, IImePlugInDictDictionaryList interface [Internationalization for Windows Applications],DeleteDictionary method, IImePlugInDictDictionaryList.DeleteDictionary, IImePlugInDictDictionaryList::DeleteDictionary, intl.iimeplugindictdictionarylist_deletedictionary, msimeapi/IImePlugInDictDictionaryList::DeleteDictionary
 ms.topic: method
-f1_keywords: ["msimeapi/IImePlugInDictDictionaryList.DeleteDictionary"]
+f1_keywords: 
+ - "msimeapi/IImePlugInDictDictionaryList.DeleteDictionary"
 req.header: msimeapi.h
 req.include-header: 
 req.target-type: Windows

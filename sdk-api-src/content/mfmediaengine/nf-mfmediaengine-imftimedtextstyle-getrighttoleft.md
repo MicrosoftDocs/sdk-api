@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRightToLeft, GetRightToLeft method [Media Foundation], GetRightToLeft method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetRightToLeft method, IMFTimedTextStyle.GetRightToLeft, IMFTimedTextStyle::GetRightToLeft, mf.imftimedtextstyle_getrighttoleft, mfmediaengine/IMFTimedTextStyle::GetRightToLeft
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedTextStyle.GetRightToLeft"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedTextStyle.GetRightToLeft"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

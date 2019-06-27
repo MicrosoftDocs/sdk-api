@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_EnableTCP method, IAMNetShowConfig.put_EnableTCP, IAMNetShowConfig::put_EnableTCP, IAMNetShowConfigput_EnableTCP, dshow.iamnetshowconfig_put_enabletcp, put_EnableTCP, put_EnableTCP method [DirectShow], put_EnableTCP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_EnableTCP
 ms.topic: method
-f1_keywords: ["qnetwork/IAMNetShowConfig.put_EnableTCP"]
+f1_keywords: 
+ - "qnetwork/IAMNetShowConfig.put_EnableTCP"
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

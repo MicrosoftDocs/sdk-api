@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSampleGrabberSinkCallback2, IMFSampleGrabberSinkCallback2 interface [Media Foundation], IMFSampleGrabberSinkCallback2 interface [Media Foundation],described, mf.imfsamplegrabbersinkcallback2, mfidl/IMFSampleGrabberSinkCallback2
 ms.topic: interface
-f1_keywords: ["mfidl/IMFSampleGrabberSinkCallback2"]
+f1_keywords: 
+ - "mfidl/IMFSampleGrabberSinkCallback2"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

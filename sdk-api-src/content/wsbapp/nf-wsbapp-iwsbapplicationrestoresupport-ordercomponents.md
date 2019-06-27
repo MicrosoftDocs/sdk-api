@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWsbApplicationRestoreSupport interface [Windows Server Backup],OrderComponents method, IWsbApplicationRestoreSupport.OrderComponents, IWsbApplicationRestoreSupport::OrderComponents, OrderComponents, OrderComponents method [Windows Server Backup], OrderComponents method [Windows Server Backup],IWsbApplicationRestoreSupport interface, wsb.iwsbapplicationrestoresupport_ordercomponents, wsbapp/IWsbApplicationRestoreSupport::OrderComponents
 ms.topic: method
-f1_keywords: ["wsbapp/IWsbApplicationRestoreSupport.OrderComponents"]
+f1_keywords: 
+ - "wsbapp/IWsbApplicationRestoreSupport.OrderComponents"
 req.header: wsbapp.h
 req.include-header: 
 req.target-type: Windows

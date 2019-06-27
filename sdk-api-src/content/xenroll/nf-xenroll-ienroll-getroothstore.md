@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],getROOTHStore method, IEnroll.getROOTHStore, IEnroll4 interface [Security],getROOTHStore method, IEnroll4::getROOTHStore, IEnroll::getROOTHStore, getROOTHStore, getROOTHStore method [Security], getROOTHStore method [Security],IEnroll interface, getROOTHStore method [Security],IEnroll4 interface, security.ienroll4_getroothstore, xenroll/IEnroll4::getROOTHStore, xenroll/IEnroll::getROOTHStore
 ms.topic: method
-f1_keywords: ["xenroll/IEnroll.getROOTHStore"]
+f1_keywords: 
+ - "xenroll/IEnroll.getROOTHStore"
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

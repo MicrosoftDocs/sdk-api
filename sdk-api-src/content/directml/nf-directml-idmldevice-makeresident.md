@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDMLDevice interface,MakeResident method, IDMLDevice.MakeResident, IDMLDevice::MakeResident, MakeResident, MakeResident method, MakeResident method,IDMLDevice interface, direct3d12.idmldevice_makeresident, directml/IDMLDevice::MakeResident
 ms.topic: method
-f1_keywords: ["directml/IDMLDevice.MakeResident"]
+f1_keywords: 
+ - "directml/IDMLDevice.MakeResident"
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

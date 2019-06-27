@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHash, GetHash method [App packaging and management], GetHash method [App packaging and management],IAppxBlockMapBlock interface, IAppxBlockMapBlock interface [App packaging and management],GetHash method, IAppxBlockMapBlock.GetHash, IAppxBlockMapBlock::GetHash, appxpackaging/IAppxBlockMapBlock::GetHash, appxpkg.iappxblockmapblock_gethash
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxBlockMapBlock.GetHash"]
+f1_keywords: 
+ - "appxpackaging/IAppxBlockMapBlock.GetHash"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

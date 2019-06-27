@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetService, GetService method [Remote Desktop Services], GetService method [Remote Desktop Services],IWTSPluginServiceProvider interface, IWTSPluginServiceProvider interface [Remote Desktop Services],GetService method, IWTSPluginServiceProvider.GetService, IWTSPluginServiceProvider::GetService, RDCLIENT_BITMAP_RENDER_SERVICE, termserv.iwtspluginserviceprovider_getservice, tsvirtualchannels/IWTSPluginServiceProvider::GetService
 ms.topic: method
-f1_keywords: ["tsvirtualchannels/IWTSPluginServiceProvider.GetService"]
+f1_keywords: 
+ - "tsvirtualchannels/IWTSPluginServiceProvider.GetService"
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

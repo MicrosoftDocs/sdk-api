@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XMU565, XMU565 structure [DirectX Math Support APIs], directxpackedvector/XMU565, dxmath.xmu565
 ms.topic: struct
-f1_keywords: ["directxpackedvector/XMU565"]
+f1_keywords: 
+ - "directxpackedvector/XMU565"
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

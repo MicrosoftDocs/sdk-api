@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DefMDIChildProc, DefMDIChildProc function [Windows and Messages], DefMDIChildProcA, DefMDIChildProcW, _win32_DefMDIChildProc, _win32_defmdichildproc_cpp, winmsg.defmdichildproc, winui._win32_defmdichildproc, winuser/DefMDIChildProc, winuser/DefMDIChildProcA, winuser/DefMDIChildProcW
 ms.topic: function
-f1_keywords: ["winuser/DefMDIChildProc"]
+f1_keywords: 
+ - "winuser/DefMDIChildProc"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentFolderFlags, GetCurrentFolderFlags method [Windows Shell], GetCurrentFolderFlags method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetCurrentFolderFlags method, IFolderView2.GetCurrentFolderFlags, IFolderView2::GetCurrentFolderFlags, _shell_IFolderView2_GetCurrentFolderFlags, shell.IFolderView2_GetCurrentFolderFlags, shobjidl_core/IFolderView2::GetCurrentFolderFlags
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFolderView2.GetCurrentFolderFlags"]
+f1_keywords: 
+ - "shobjidl_core/IFolderView2.GetCurrentFolderFlags"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

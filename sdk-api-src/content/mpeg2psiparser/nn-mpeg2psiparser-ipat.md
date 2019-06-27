@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPAT, IPAT interface [Microsoft TV Technologies], IPAT interface [Microsoft TV Technologies],described, IPATInterface, mpeg2psiparser/IPAT, mstv.ipat
 ms.topic: interface
-f1_keywords: ["mpeg2psiparser/IPAT"]
+f1_keywords: 
+ - "mpeg2psiparser/IPAT"
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsCatalogFile, IsCatalogFile function [Security], mscat/IsCatalogFile, security.iscatalogfile
 ms.topic: function
-f1_keywords: ["mscat/IsCatalogFile"]
+f1_keywords: 
+ - "mscat/IsCatalogFile"
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

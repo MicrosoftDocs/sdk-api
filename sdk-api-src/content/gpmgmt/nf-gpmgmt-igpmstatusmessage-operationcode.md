@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMStatusMessage class [GPMC],OperationCode method, IGPMStatusMessage interface [GPMC],OperationCode method, IGPMStatusMessage.OperationCode, IGPMStatusMessage::OperationCode, OperationCode, OperationCode method [GPMC], OperationCode method [GPMC],GPMStatusMessage class, OperationCode method [GPMC],IGPMStatusMessage interface, _win32_igpmstatusmessage_operationcode, gpmc.igpmstatusmessage_operationcode, gpmgmt/IGPMStatusMessage::OperationCode
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMStatusMessage.OperationCode"]
+f1_keywords: 
+ - "gpmgmt/IGPMStatusMessage.OperationCode"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

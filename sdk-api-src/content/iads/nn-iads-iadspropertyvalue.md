@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsPropertyValue, IADsPropertyValue interface [ADSI], IADsPropertyValue interface [ADSI],described, PropertyValue, _ds_iadspropertyvalue, adsi.iadspropertyvalue, iads/IADsPropertyValue
 ms.topic: interface
-f1_keywords: ["iads/IADsPropertyValue"]
+f1_keywords: 
+ - "iads/IADsPropertyValue"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

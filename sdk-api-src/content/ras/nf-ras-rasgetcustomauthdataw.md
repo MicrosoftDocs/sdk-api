@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasGetCustomAuthData, RasGetCustomAuthData function [RAS], RasGetCustomAuthDataA, RasGetCustomAuthDataW, _ras_rasgetcustomauthdata, ras/RasGetCustomAuthData, ras/RasGetCustomAuthDataA, ras/RasGetCustomAuthDataW, rras.rasgetcustomauthdata
 ms.topic: function
-f1_keywords: ["ras/RasGetCustomAuthData"]
+f1_keywords: 
+ - "ras/RasGetCustomAuthData"
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

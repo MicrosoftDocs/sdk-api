@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionGaussianBlurEffect interface [DirectComposition],SetBorderMode method, IDCompositionGaussianBlurEffect.SetBorderMode, IDCompositionGaussianBlurEffect::SetBorderMode, SetBorderMode, SetBorderMode method [DirectComposition], SetBorderMode method [DirectComposition],IDCompositionGaussianBlurEffect interface, dcomp/IDCompositionGaussianBlurEffect::SetBorderMode, directcomp.idcompositiongaussianblureffect_setbordermode
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionGaussianBlurEffect.SetBorderMode"]
+f1_keywords: 
+ - "dcomp/IDCompositionGaussianBlurEffect.SetBorderMode"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerCollabSetObject, PeerCollabSetObject function [Peer Networking], p2p.peercollabsetobject, p2p/PeerCollabSetObject
 ms.topic: function
-f1_keywords: ["p2p/PeerCollabSetObject"]
+f1_keywords: 
+ - "p2p/PeerCollabSetObject"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509EnrollmentPolicyServer interface [Security],SetCredential method, IX509EnrollmentPolicyServer.SetCredential, IX509EnrollmentPolicyServer::SetCredential, SetCredential, SetCredential method [Security], SetCredential method [Security],IX509EnrollmentPolicyServer interface, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/IX509EnrollmentPolicyServer::SetCredential, security.ix509enrollmentpolicyserver_setcredential
 ms.topic: method
-f1_keywords: ["certenroll/IX509EnrollmentPolicyServer.SetCredential"]
+f1_keywords: 
+ - "certenroll/IX509EnrollmentPolicyServer.SetCredential"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

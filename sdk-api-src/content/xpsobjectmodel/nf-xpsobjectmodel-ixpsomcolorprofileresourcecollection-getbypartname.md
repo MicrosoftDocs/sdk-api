@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetByPartName, GetByPartName method [XPS Documents and Packaging], GetByPartName method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],GetByPartName method, IXpsOMColorProfileResourceCollection.GetByPartName, IXpsOMColorProfileResourceCollection::GetByPartName, xps.ixpsomcolorprofileresourcecollection_getbypartname, xpsobjectmodel/IXpsOMColorProfileResourceCollection::GetByPartName
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMColorProfileResourceCollection.GetByPartName"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMColorProfileResourceCollection.GetByPartName"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

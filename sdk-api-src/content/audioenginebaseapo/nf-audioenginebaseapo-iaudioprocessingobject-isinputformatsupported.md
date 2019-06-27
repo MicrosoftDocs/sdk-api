@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioProcessingObject interface [Audio Devices],IsInputFormatSupported method, IAudioProcessingObject.IsInputFormatSupported, IAudioProcessingObject::IsInputFormatSupported, IsInputFormatSupported, IsInputFormatSupported method [Audio Devices], IsInputFormatSupported method [Audio Devices],IAudioProcessingObject interface, audio.iaudioprocessingobject_isinputformatsupported, audio_syseffects_r_d9f38647-9d9e-4776-98d4-1a9904271dc1.xml, audioenginebaseapo/IAudioProcessingObject::IsInputFormatSupported
 ms.topic: method
-f1_keywords: ["audioenginebaseapo/IAudioProcessingObject.IsInputFormatSupported"]
+f1_keywords: 
+ - "audioenginebaseapo/IAudioProcessingObject.IsInputFormatSupported"
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Universal

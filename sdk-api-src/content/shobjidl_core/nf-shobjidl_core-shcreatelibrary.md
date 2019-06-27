@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCreateLibrary, SHCreateLibrary function [Windows Shell], _shell_SHCreateLibrary, shell.SHCreateLibrary, shobjidl_core/SHCreateLibrary
 ms.topic: function
-f1_keywords: ["shobjidl_core/SHCreateLibrary"]
+f1_keywords: 
+ - "shobjidl_core/SHCreateLibrary"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

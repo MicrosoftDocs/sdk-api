@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NtQueryInformationThread, NtQueryInformationThread function, base.ntqueryinformationthread, winternl/NtQueryInformationThread
 ms.topic: function
-f1_keywords: ["winternl/NtQueryInformationThread"]
+f1_keywords: 
+ - "winternl/NtQueryInformationThread"
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

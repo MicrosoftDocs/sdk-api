@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AnalyzeBidi, AnalyzeBidi method [Direct Write], AnalyzeBidi method [Direct Write],IDWriteTextAnalyzer interface, IDWriteTextAnalyzer interface [Direct Write],AnalyzeBidi method, IDWriteTextAnalyzer.AnalyzeBidi, IDWriteTextAnalyzer::AnalyzeBidi, directwrite.IDWriteTextAnalyzer_AnalyzeBidi, dwrite/IDWriteTextAnalyzer::AnalyzeBidi
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextAnalyzer.AnalyzeBidi"]
+f1_keywords: 
+ - "dwrite/IDWriteTextAnalyzer.AnalyzeBidi"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

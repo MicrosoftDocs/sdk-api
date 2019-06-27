@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDRVCONFIGINFO, *NPDRVCONFIGINFO, *PDRVCONFIGINFO, DRVCONFIGINFO, DRVCONFIGINFO structure [Windows Multimedia], _win32_DRVCONFIGINFO_str, mmsystem/DRVCONFIGINFO, multimedia.drvconfiginfo, tagDRVCONFIGINFO"
 ms.topic: struct
-f1_keywords: ["mmiscapi/DRVCONFIGINFO"]
+f1_keywords: 
+ - "mmiscapi/DRVCONFIGINFO"
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows

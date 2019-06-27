@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundingBox, BoundingBox constructor [DirectX Math Support APIs], BoundingBox constructor [DirectX Math Support APIs],BoundingBox interface, BoundingBox interface [DirectX Math Support APIs],BoundingBox constructor, BoundingBox.BoundingBox, BoundingBox.BoundingBox(), BoundingBox.BoundingBox(const BoundingBox &), BoundingBox::BoundingBox, BoundingBox::BoundingBox(const BoundingBox &), dxmath.boundingbox_ctor_3
 ms.topic: method
-f1_keywords: ["directxcollision/BoundingBox.BoundingBox"]
+f1_keywords: 
+ - "directxcollision/BoundingBox.BoundingBox"
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

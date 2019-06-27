@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WindowsSubstring, WindowsSubstring function [Windows Runtime], winrt.windowssubstring, winstring/WindowsSubstring
 ms.topic: function
-f1_keywords: ["winstring/WindowsSubstring"]
+f1_keywords: 
+ - "winstring/WindowsSubstring"
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

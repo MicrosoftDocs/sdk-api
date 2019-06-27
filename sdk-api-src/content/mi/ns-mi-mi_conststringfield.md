@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_ConstStringField, MI_ConstStringField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ConstStringField, wmi._mi_conststringfield, wmi_v2.mi_conststringfield
 ms.topic: struct
-f1_keywords: ["mi/MI_ConstStringField"]
+f1_keywords: 
+ - "mi/MI_ConstStringField"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

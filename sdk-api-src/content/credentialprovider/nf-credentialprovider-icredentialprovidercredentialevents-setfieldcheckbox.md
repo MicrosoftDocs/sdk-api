@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFieldCheckbox method, ICredentialProviderCredentialEvents.SetFieldCheckbox, ICredentialProviderCredentialEvents::SetFieldCheckbox, SetFieldCheckbox, SetFieldCheckbox method [Windows Shell], SetFieldCheckbox method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_SetFieldCheckbox, credentialprovider/ICredentialProviderCredentialEvents::SetFieldCheckbox, shell.ICredentialProviderCredentialEvents_SetFieldCheckbox
 ms.topic: method
-f1_keywords: ["credentialprovider/ICredentialProviderCredentialEvents.SetFieldCheckbox"]
+f1_keywords: 
+ - "credentialprovider/ICredentialProviderCredentialEvents.SetFieldCheckbox"
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

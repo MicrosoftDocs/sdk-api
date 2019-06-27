@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWsbApplicationBackupSupport, IWsbApplicationBackupSupport interface [Windows Server Backup], IWsbApplicationBackupSupport interface [Windows Server Backup],described, wsb.iwsbapplicationbackupsupport, wsbapp/IWsbApplicationBackupSupport
 ms.topic: interface
-f1_keywords: ["wsbapp/IWsbApplicationBackupSupport"]
+f1_keywords: 
+ - "wsbapp/IWsbApplicationBackupSupport"
 req.header: wsbapp.h
 req.include-header: 
 req.target-type: Windows

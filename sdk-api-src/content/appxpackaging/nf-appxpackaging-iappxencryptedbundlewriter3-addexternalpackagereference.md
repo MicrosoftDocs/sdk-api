@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddExternalPackageReference, AddExternalPackageReference method [App packaging and management], AddExternalPackageReference method [App packaging and management],IAppxEncryptedBundleWriter3 interface, IAppxEncryptedBundleWriter3 interface [App packaging and management],AddExternalPackageReference method, IAppxEncryptedBundleWriter3.AddExternalPackageReference, IAppxEncryptedBundleWriter3::AddExternalPackageReference, appxpackaging/IAppxEncryptedBundleWriter3::AddExternalPackageReference, appxpkg.iappxencryptedbundlewriter3_addexternalpackagereference
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxEncryptedBundleWriter3.AddExternalPackageReference"]
+f1_keywords: 
+ - "appxpackaging/IAppxEncryptedBundleWriter3.AddExternalPackageReference"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

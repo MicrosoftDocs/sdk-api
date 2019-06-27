@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_STORAGE_DEVICE_ID_DESCRIPTOR, VDS_STORAGE_DEVICE_ID_DESCRIPTOR structure [VDS], base.vds_storage_device_id_descriptor, vdslun/_VDS_STORAGE_DEVICE_ID_DESCRIPTOR
 ms.topic: struct
-f1_keywords: ["vdslun/VDS_STORAGE_DEVICE_ID_DESCRIPTOR"]
+f1_keywords: 
+ - "vdslun/VDS_STORAGE_DEVICE_ID_DESCRIPTOR"
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers
 req.target-type: Windows

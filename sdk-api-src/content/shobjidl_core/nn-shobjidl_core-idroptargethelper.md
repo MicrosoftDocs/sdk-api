@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDropTargetHelper, IDropTargetHelper interface [Windows Shell], IDropTargetHelper interface [Windows Shell],described, _win32_IDropTargetHelper, shell.IDropTargetHelper, shobjidl_core/IDropTargetHelper
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IDropTargetHelper"]
+f1_keywords: 
+ - "shobjidl_core/IDropTargetHelper"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

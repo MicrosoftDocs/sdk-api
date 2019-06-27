@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSelectedItems, GetSelectedItems method [Windows API], GetSelectedItems method [Windows API],ICameraUIControl interface, ICameraUIControl interface [Windows API],GetSelectedItems method, ICameraUIControl.GetSelectedItems, ICameraUIControl::GetSelectedItems, camerauicontrol/ICameraUIControl::GetSelectedItems, winprog.icamerauicontrol_getselecteditems
 ms.topic: method
-f1_keywords: ["camerauicontrol/ICameraUIControl.GetSelectedItems"]
+f1_keywords: 
+ - "camerauicontrol/ICameraUIControl.GetSelectedItems"
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows

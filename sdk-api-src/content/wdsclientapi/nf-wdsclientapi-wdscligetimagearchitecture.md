@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROCESSOR_ARCHITECTURE_AMD64, PROCESSOR_ARCHITECTURE_IA64, PROCESSOR_ARCHITECTURE_INTEL, WdsCliGetImageArchitecture, WdsCliGetImageArchitecture function [Windows Deployment Services], wds.wdscligetimagearchitecture, wdsclientapi/WdsCliGetImageArchitecture
 ms.topic: function
-f1_keywords: ["wdsclientapi/WdsCliGetImageArchitecture"]
+f1_keywords: 
+ - "wdsclientapi/WdsCliGetImageArchitecture"
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

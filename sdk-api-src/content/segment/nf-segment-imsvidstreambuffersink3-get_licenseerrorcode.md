@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],get_LicenseErrorCode method, IMSVidStreamBufferSink3.get_LicenseErrorCode, IMSVidStreamBufferSink3::get_LicenseErrorCode, IMSVidStreamBufferSink3get_LicenseErrorCode, get_LicenseErrorCode, get_LicenseErrorCode method [Microsoft TV Technologies], get_LicenseErrorCode method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, mstv.imsvidstreambuffersink3_get_licenseerrorcode, segment/IMSVidStreamBufferSink3::get_LicenseErrorCode
 ms.topic: method
-f1_keywords: ["segment/IMSVidStreamBufferSink3.get_LicenseErrorCode"]
+f1_keywords: 
+ - "segment/IMSVidStreamBufferSink3.get_LicenseErrorCode"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetVolumeLabel, SetVolumeLabel function [Files], SetVolumeLabelA, SetVolumeLabelW, _win32_setvolumelabel, base.setvolumelabel, fs.setvolumelabel, winbase/SetVolumeLabel, winbase/SetVolumeLabelA, winbase/SetVolumeLabelW
 ms.topic: function
-f1_keywords: ["winbase/SetVolumeLabel"]
+f1_keywords: 
+ - "winbase/SetVolumeLabel"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMAsyncCancel, IGPMAsyncCancel, IGPMAsyncCancel interface [GPMC], IGPMAsyncCancel interface [GPMC],described, _win32_igpmasynccancel, gpmc.igpmasynccancel, gpmgmt/IGPMAsyncCancel
 ms.topic: interface
-f1_keywords: ["gpmgmt/IGPMAsyncCancel"]
+f1_keywords: 
+ - "gpmgmt/IGPMAsyncCancel"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

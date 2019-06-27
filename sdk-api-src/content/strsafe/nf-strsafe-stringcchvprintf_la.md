@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StringCchVPrintf_l, StringCchVPrintf_l function [Menus and Other Resources], StringCchVPrintf_lA, StringCchVPrintf_lW, menurc.stringcchvprintf_l, strsafe/StringCchVPrintf_l, strsafe/StringCchVPrintf_lA, strsafe/StringCchVPrintf_lW
 ms.topic: function
-f1_keywords: ["strsafe/StringCchVPrintf_l"]
+f1_keywords: 
+ - "strsafe/StringCchVPrintf_l"
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows

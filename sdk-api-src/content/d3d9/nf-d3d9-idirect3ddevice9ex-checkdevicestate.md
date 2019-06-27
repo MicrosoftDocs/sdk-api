@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 7c555cdc-567a-be2d-d677-3b3df3746e0b, CheckDeviceState, CheckDeviceState method [Direct3D 9], CheckDeviceState method [Direct3D 9],IDirect3DDevice9Ex interface, IDirect3DDevice9Ex interface [Direct3D 9],CheckDeviceState method, IDirect3DDevice9Ex.CheckDeviceState, IDirect3DDevice9Ex::CheckDeviceState, d3d9/IDirect3DDevice9Ex::CheckDeviceState, direct3d9.idirect3ddevice9ex_checkdevicestate
 ms.topic: method
-f1_keywords: ["d3d9/IDirect3DDevice9Ex.CheckDeviceState"]
+f1_keywords: 
+ - "d3d9/IDirect3DDevice9Ex.CheckDeviceState"
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

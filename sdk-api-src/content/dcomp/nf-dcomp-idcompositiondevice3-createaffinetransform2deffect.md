@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateAffineTransform2DEffect, CreateAffineTransform2DEffect method [DirectComposition], CreateAffineTransform2DEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateAffineTransform2DEffect method, IDCompositionDevice3.CreateAffineTransform2DEffect, IDCompositionDevice3::CreateAffineTransform2DEffect, dcomp/IDCompositionDevice3::CreateAffineTransform2DEffect, directcomp.idcompositiondevice3_createaffinetransform2deffect
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionDevice3.CreateAffineTransform2DEffect"]
+f1_keywords: 
+ - "dcomp/IDCompositionDevice3.CreateAffineTransform2DEffect"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

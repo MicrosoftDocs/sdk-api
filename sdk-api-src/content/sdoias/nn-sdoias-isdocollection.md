@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISdoCollection, ISdoCollection interface [Network Policy Server], ISdoCollection interface [Network Policy Server],described, _sdo_isdocollection, nps.SDO_isdocollection, sdo.isdocollection, sdoias/ISdoCollection
 ms.topic: interface
-f1_keywords: ["sdoias/ISdoCollection"]
+f1_keywords: 
+ - "sdoias/ISdoCollection"
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

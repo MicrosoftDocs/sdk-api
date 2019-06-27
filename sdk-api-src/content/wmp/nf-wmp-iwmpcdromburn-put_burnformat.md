@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],put_burnFormat method, IWMPCdromBurn.put_burnFormat, IWMPCdromBurn::put_burnFormat, IWMPCdromBurnput_burnFormat, put_burnFormat, put_burnFormat method [Windows Media Player], put_burnFormat method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_put_burnformat, wmp/IWMPCdromBurn::put_burnFormat
 ms.topic: method
-f1_keywords: ["wmp/IWMPCdromBurn.put_burnFormat"]
+f1_keywords: 
+ - "wmp/IWMPCdromBurn.put_burnFormat"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

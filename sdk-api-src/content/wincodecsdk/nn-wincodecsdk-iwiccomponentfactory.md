@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICComponentFactory, IWICComponentFactory interface [Windows Imaging Component], IWICComponentFactory interface [Windows Imaging Component],described, _wic_codec_iwiccomponentfactory, wic._wic_codec_iwiccomponentfactory, wincodecsdk/IWICComponentFactory
 ms.topic: interface
-f1_keywords: ["wincodecsdk/IWICComponentFactory"]
+f1_keywords: 
+ - "wincodecsdk/IWICComponentFactory"
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuxUlibIsDLLSynchronizationHeld, AuxUlibIsDLLSynchronizationHeld function [Windows API], aux_ulib/AuxUlibIsDLLSynchronizationHeld, winprog.auxulibisdllsynchronizationheld
 ms.topic: function
-f1_keywords: ["aux_ulib/AuxUlibIsDLLSynchronizationHeld"]
+f1_keywords: 
+ - "aux_ulib/AuxUlibIsDLLSynchronizationHeld"
 req.header: aux_ulib.h
 req.include-header: 
 req.target-type: Windows

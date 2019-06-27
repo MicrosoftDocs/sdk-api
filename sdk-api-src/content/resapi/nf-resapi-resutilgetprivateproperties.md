@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_PRIVATE_PROPERTIES, PRESUTIL_GET_PRIVATE_PROPERTIES function [Failover Cluster], ResUtilGetPrivateProperties, ResUtilGetPrivateProperties function [Failover Cluster], _wolf_resutilgetprivateproperties, mscs.resutilgetprivateproperties, resapi/PRESUTIL_GET_PRIVATE_PROPERTIES, resapi/ResUtilGetPrivateProperties
 ms.topic: function
-f1_keywords: ["resapi/ResUtilGetPrivateProperties"]
+f1_keywords: 
+ - "resapi/ResUtilGetPrivateProperties"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

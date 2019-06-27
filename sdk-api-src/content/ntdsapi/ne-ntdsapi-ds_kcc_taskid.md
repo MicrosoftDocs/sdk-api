@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_KCC_TASKID, DS_KCC_TASKID enumeration [Active Directory], DS_KCC_TASKID_UPDATE_TOPOLOGY, ad.ds_kcc_taskid, ntdsapi/DS_KCC_TASKID, ntdsapi/DS_KCC_TASKID_UPDATE_TOPOLOGY
 ms.topic: enum
-f1_keywords: ["ntdsapi/DS_KCC_TASKID"]
+f1_keywords: 
+ - "ntdsapi/DS_KCC_TASKID"
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

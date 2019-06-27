@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMathInputControl interface [Tablet PC],SetOwnerWindow method, IMathInputControl.SetOwnerWindow, IMathInputControl::SetOwnerWindow, SetOwnerWindow, SetOwnerWindow method [Tablet PC], SetOwnerWindow method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::SetOwnerWindow, tablet.imathinputcontrol_setownerwindow
 ms.topic: method
-f1_keywords: ["micaut/IMathInputControl.SetOwnerWindow"]
+f1_keywords: 
+ - "micaut/IMathInputControl.SetOwnerWindow"
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows

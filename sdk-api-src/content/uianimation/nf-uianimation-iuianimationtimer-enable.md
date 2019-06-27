@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method [Windows Animation], Enable method [Windows Animation],IUIAnimationTimer interface, IUIAnimationTimer interface [Windows Animation],Enable method, IUIAnimationTimer.Enable, IUIAnimationTimer::Enable, uianimation.iuianimationtimer_enable, uianimation/IUIAnimationTimer::Enable
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationTimer.Enable"]
+f1_keywords: 
+ - "uianimation/IUIAnimationTimer.Enable"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

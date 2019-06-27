@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest3 interface [XMLHttpRequest2],SetClientCertificate method, IXMLHTTPRequest3.SetClientCertificate, IXMLHTTPRequest3::SetClientCertificate, SetClientCertificate, SetClientCertificate method [XMLHttpRequest2], SetClientCertificate method [XMLHttpRequest2],IXMLHTTPRequest3 interface, ixhr2.ixmlhttprequest3_setclientcertificate, msxml6/IXMLHTTPRequest3::SetClientCertificate
 ms.topic: method
-f1_keywords: ["msxml6/IXMLHTTPRequest3.SetClientCertificate"]
+f1_keywords: 
+ - "msxml6/IXMLHTTPRequest3.SetClientCertificate"
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

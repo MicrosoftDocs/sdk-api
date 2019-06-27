@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchProtocolThreadContext, ISearchProtocolThreadContext interface [search], ISearchProtocolThreadContext interface [search],described, _search_ISearchProtocolThreadContext, search._search_ISearchProtocolThreadContext, searchapi/ISearchProtocolThreadContext
 ms.topic: interface
-f1_keywords: ["searchapi/ISearchProtocolThreadContext"]
+f1_keywords: 
+ - "searchapi/ISearchProtocolThreadContext"
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

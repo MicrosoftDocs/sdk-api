@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IContextProperties interface [COM+],SetProperty method, IContextProperties.SetProperty, IContextProperties::SetProperty, SetProperty, SetProperty method [COM+], SetProperty method [COM+],IContextProperties interface, _cos_IContextProperties_SetProperty, comsvcs/IContextProperties::SetProperty, cos.icontextproperties_setproperty
 ms.topic: method
-f1_keywords: ["comsvcs/IContextProperties.SetProperty"]
+f1_keywords: 
+ - "comsvcs/IContextProperties.SetProperty"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

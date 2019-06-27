@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStringTypeA, GetStringTypeA function [Internationalization for Windows Applications], _win32_GetStringTypeA, _win32_GetStringTypeA_cpp, intl.getstringtypea, winnls/GetStringTypeA, winui._win32_GetStringTypeA
 ms.topic: function
-f1_keywords: ["winnls/GetStringTypeA"]
+f1_keywords: 
+ - "winnls/GetStringTypeA"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

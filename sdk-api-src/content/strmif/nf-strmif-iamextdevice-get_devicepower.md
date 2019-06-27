@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMExtDevice interface [DirectShow],get_DevicePower method, IAMExtDevice.get_DevicePower, IAMExtDevice::get_DevicePower, IAMExtDeviceget_DevicePower, dshow.iamextdevice_get_devicepower, get_DevicePower, get_DevicePower method [DirectShow], get_DevicePower method [DirectShow],IAMExtDevice interface, strmif/IAMExtDevice::get_DevicePower
 ms.topic: method
-f1_keywords: ["strmif/IAMExtDevice.get_DevicePower"]
+f1_keywords: 
+ - "strmif/IAMExtDevice.get_DevicePower"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

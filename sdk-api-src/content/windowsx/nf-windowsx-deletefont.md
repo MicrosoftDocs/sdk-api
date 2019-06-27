@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteFont, DeleteFont macro [Windows GDI], _win32_DeleteFont, gdi.deletefont, windowsx/DeleteFont
 ms.topic: macro
-f1_keywords: ["windowsx/DeleteFont"]
+f1_keywords: 
+ - "windowsx/DeleteFont"
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

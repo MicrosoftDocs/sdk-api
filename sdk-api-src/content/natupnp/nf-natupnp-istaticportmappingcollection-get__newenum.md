@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStaticPortMappingCollection interface [ICS/ICF],get__NewEnum method, IStaticPortMappingCollection.get__NewEnum, IStaticPortMappingCollection::get__NewEnum, _ics_istaticportmappingcollection_get__newenum, get__NewEnum, get__NewEnum method [ICS/ICF], get__NewEnum method [ICS/ICF],IStaticPortMappingCollection interface, ics.istaticportmappingcollection_get__newenum, natupnp/IStaticPortMappingCollection::get__NewEnum
 ms.topic: method
-f1_keywords: ["natupnp/IStaticPortMappingCollection.get__NewEnum"]
+f1_keywords: 
+ - "natupnp/IStaticPortMappingCollection.get__NewEnum"
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

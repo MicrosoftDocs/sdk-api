@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsCreateXmlSecurityToken, WsCreateXmlSecurityToken function [Web Services for Windows], webservices/WsCreateXmlSecurityToken, wsw.wscreatexmlsecuritytoken
 ms.topic: function
-f1_keywords: ["webservices/WsCreateXmlSecurityToken"]
+f1_keywords: 
+ - "webservices/WsCreateXmlSecurityToken"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

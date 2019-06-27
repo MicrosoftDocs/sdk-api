@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpMessageParameters interface,SetContext method, IWSDHttpMessageParameters.SetContext, IWSDHttpMessageParameters::SetContext, SetContext, SetContext method, SetContext method,IWSDHttpMessageParameters interface, ncd.iwsdhttpmessageparameters_setcontext, wsdbase/IWSDHttpMessageParameters::SetContext
 ms.topic: method
-f1_keywords: ["wsdbase/IWSDHttpMessageParameters.SetContext"]
+f1_keywords: 
+ - "wsdbase/IWSDHttpMessageParameters.SetContext"
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

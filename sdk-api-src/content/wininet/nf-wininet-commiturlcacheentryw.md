@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CommitUrlCacheEntryW, CommitUrlCacheEntryW function [WinINet], _inet_commiturlcacheentry_function, wininet.commiturlcacheentry, wininet.commiturlcacheentryw, wininet/CommitUrlCacheEntryW
 ms.topic: function
-f1_keywords: ["wininet/CommitUrlCacheEntryW"]
+f1_keywords: 
+ - "wininet/CommitUrlCacheEntryW"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

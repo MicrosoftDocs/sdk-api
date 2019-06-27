@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSectorSize, GetSectorSize method [Windows Shell], GetSectorSize method [Windows Shell],IStreamUnbufferedInfo interface, IStreamUnbufferedInfo interface [Windows Shell],GetSectorSize method, IStreamUnbufferedInfo.GetSectorSize, IStreamUnbufferedInfo::GetSectorSize, _shell_IStreamUnbufferedInfo_GetSectorSize, shell.IStreamUnbufferedInfo_GetSectorSize, shobjidl/IStreamUnbufferedInfo::GetSectorSize
 ms.topic: method
-f1_keywords: ["shobjidl/IStreamUnbufferedInfo.GetSectorSize"]
+f1_keywords: 
+ - "shobjidl/IStreamUnbufferedInfo.GetSectorSize"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyHere, CopyHere method [ADSI], CopyHere method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],CopyHere method, IADsContainer.CopyHere, IADsContainer::CopyHere, _ds_iadscontainer_copyhere, adsi.iadscontainer__copyhere, adsi.iadscontainer_copyhere, iads/IADsContainer::CopyHere
 ms.topic: method
-f1_keywords: ["iads/IADsContainer.CopyHere"]
+f1_keywords: 
+ - "iads/IADsContainer.CopyHere"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITRequestEvent interface [TAPI 2.2],get_CalledParty method, ITRequestEvent.get_CalledParty, ITRequestEvent::get_CalledParty, _tapi3_itrequestevent_get_calledparty, get_CalledParty, get_CalledParty method [TAPI 2.2], get_CalledParty method [TAPI 2.2],ITRequestEvent interface, tapi3.itrequestevent_get_calledparty, tapi3if/ITRequestEvent::get_CalledParty
 ms.topic: method
-f1_keywords: ["tapi3if/ITRequestEvent.get_CalledParty"]
+f1_keywords: 
+ - "tapi3if/ITRequestEvent.get_CalledParty"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDocuments, GetDocuments method [XPS Documents and Packaging], GetDocuments method [XPS Documents and Packaging],IXpsOMDocumentSequence interface, IXpsOMDocumentSequence interface [XPS Documents and Packaging],GetDocuments method, IXpsOMDocumentSequence.GetDocuments, IXpsOMDocumentSequence::GetDocuments, xps.ixpsomdocumentsequence_getdocuments, xpsobjectmodel/IXpsOMDocumentSequence::GetDocuments
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMDocumentSequence.GetDocuments"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMDocumentSequence.GetDocuments"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsReadXmlBuffer, WsReadXmlBuffer function [Web Services for Windows], webservices/WsReadXmlBuffer, wsw.wsreadxmlbuffer
 ms.topic: function
-f1_keywords: ["webservices/WsReadXmlBuffer"]
+f1_keywords: 
+ - "webservices/WsReadXmlBuffer"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_PIXEL_FORMAT, D2D1_PIXEL_FORMAT structure [Direct2D], dcommon/D2D1_PIXEL_FORMAT, direct2d.D2D1_PIXEL_FORMAT
 ms.topic: struct
-f1_keywords: ["dcommon/D2D1_PIXEL_FORMAT"]
+f1_keywords: 
+ - "dcommon/D2D1_PIXEL_FORMAT"
 req.header: dcommon.h
 req.include-header: D2d1.h
 req.target-type: Windows

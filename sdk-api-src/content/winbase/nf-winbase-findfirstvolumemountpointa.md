@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindFirstVolumeMountPoint, FindFirstVolumeMountPoint function [Files], FindFirstVolumeMountPointA, FindFirstVolumeMountPointW, _win32_findfirstvolumemountpoint, base.findfirstvolumemountpoint, fs.findfirstvolumemountpoint, winbase/FindFirstVolumeMountPoint, winbase/FindFirstVolumeMountPointA, winbase/FindFirstVolumeMountPointW
 ms.topic: function
-f1_keywords: ["winbase/FindFirstVolumeMountPoint"]
+f1_keywords: 
+ - "winbase/FindFirstVolumeMountPoint"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

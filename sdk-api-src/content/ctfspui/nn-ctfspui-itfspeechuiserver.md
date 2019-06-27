@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfSpeechUIServer, ITfSpeechUIServer interface [Text Services Framework], ITfSpeechUIServer interface [Text Services Framework],described, ctfspui/ITfSpeechUIServer, tsf.itfspeechuiserver
 ms.topic: interface
-f1_keywords: ["ctfspui/ITfSpeechUIServer"]
+f1_keywords: 
+ - "ctfspui/ITfSpeechUIServer"
 req.header: ctfspui.h
 req.include-header: Ctfutb.h
 req.target-type: Windows

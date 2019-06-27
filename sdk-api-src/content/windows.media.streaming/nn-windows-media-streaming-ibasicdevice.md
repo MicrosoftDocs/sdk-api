@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBasicDevice, IBasicDevice interface [Media Streaming API], IBasicDevice interface [Media Streaming API],described, mediastreaming.ibasicdevice, windows/IBasicDevice
 ms.topic: interface
-f1_keywords: ["windows.media.streaming/IBasicDevice"]
+f1_keywords: 
+ - "windows.media.streaming/IBasicDevice"
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

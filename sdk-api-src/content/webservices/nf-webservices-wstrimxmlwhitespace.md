@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsTrimXmlWhitespace, WsTrimXmlWhitespace function [Web Services for Windows], webservices/WsTrimXmlWhitespace, wsw.wstrimxmlwhitespace
 ms.topic: function
-f1_keywords: ["webservices/WsTrimXmlWhitespace"]
+f1_keywords: 
+ - "webservices/WsTrimXmlWhitespace"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

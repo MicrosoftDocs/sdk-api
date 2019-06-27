@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpcSignatureRelationshipReferenceSet, IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions], IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions],described, msopc/IOpcSignatureRelationshipReferenceSet, opc.iopcsignaturerelationshipreferenceset
 ms.topic: interface
-f1_keywords: ["msopc/IOpcSignatureRelationshipReferenceSet"]
+f1_keywords: 
+ - "msopc/IOpcSignatureRelationshipReferenceSet"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

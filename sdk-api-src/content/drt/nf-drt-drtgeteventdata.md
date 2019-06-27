@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrtGetEventData, DrtGetEventData function [Peer Networking], drt/DrtGetEventData, p2p.drtgeteventdata
 ms.topic: function
-f1_keywords: ["drt/DrtGetEventData"]
+f1_keywords: 
+ - "drt/DrtGetEventData"
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginRenewMultipleOperations, BeginRenewMultipleOperations method, BeginRenewMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,BeginRenewMultipleOperations method, IWSDServiceProxyEventing.BeginRenewMultipleOperations, IWSDServiceProxyEventing::BeginRenewMultipleOperations, ncd.iwsdserviceproxyeventing_beginrenewmultipleoperations, wsdclient/IWSDServiceProxyEventing::BeginRenewMultipleOperations
 ms.topic: method
-f1_keywords: ["wsdclient/IWSDServiceProxyEventing.BeginRenewMultipleOperations"]
+f1_keywords: 
+ - "wsdclient/IWSDServiceProxyEventing.BeginRenewMultipleOperations"
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

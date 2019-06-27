@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 01/25/2019
 ms.keywords: CreateForWindow, CreateForWindow method, CreateForWindow method,IHolographicSpaceInterop interface, IHolographicSpaceInterop interface,CreateForWindow method, IHolographicSpaceInterop.CreateForWindow, IHolographicSpaceInterop::CreateForWindow, MixedReality.iholographicspaceinterop_createforwindow, holographicspaceinterop/IHolographicSpaceInterop::CreateForWindow
 ms.topic: method
-f1_keywords: ["holographicspaceinterop/IHolographicSpaceInterop.CreateForWindow"]
+f1_keywords: 
+ - "holographicspaceinterop/IHolographicSpaceInterop.CreateForWindow"
 req.header: holographicspaceinterop.h
 req.include-header: 
 req.target-type: Windows

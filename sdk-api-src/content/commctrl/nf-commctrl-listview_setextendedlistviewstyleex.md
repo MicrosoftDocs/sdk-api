@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_SetExtendedListViewStyleEx, ListView_SetExtendedListViewStyleEx macro [Windows Controls], _win32_ListView_SetExtendedListViewStyleEx, _win32_ListView_SetExtendedListViewStyleEx_cpp, commctrl/ListView_SetExtendedListViewStyleEx, controls.ListView_SetExtendedListViewStyleEx, controls._win32_ListView_SetExtendedListViewStyleEx
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_SetExtendedListViewStyleEx"]
+f1_keywords: 
+ - "commctrl/ListView_SetExtendedListViewStyleEx"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

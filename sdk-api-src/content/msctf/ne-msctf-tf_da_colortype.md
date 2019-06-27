@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TF_CT_COLORREF, TF_CT_NONE, TF_CT_SYSCOLOR, TF_DA_COLORTYPE, TF_DA_COLORTYPE enumeration [Text Services Framework], _tsf_tf_da_colortype_ref, msctf/TF_CT_COLORREF, msctf/TF_CT_NONE, msctf/TF_CT_SYSCOLOR, msctf/TF_DA_COLORTYPE, tsf.tf_da_colortype
 ms.topic: enum
-f1_keywords: ["msctf/TF_DA_COLORTYPE"]
+f1_keywords: 
+ - "msctf/TF_DA_COLORTYPE"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

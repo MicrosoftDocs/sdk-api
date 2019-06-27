@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IObjPool, IObjPool interface [COM+], IObjPool interface [COM+],described, _cos_IObjPool, comsvcs/IObjPool, cos.iobjpool
 ms.topic: interface
-f1_keywords: ["comsvcs/IObjPool"]
+f1_keywords: 
+ - "comsvcs/IObjPool"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

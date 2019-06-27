@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDefaultFolderMenuInitialize interface [Windows Shell],SetHandlerClsid method, IDefaultFolderMenuInitialize.SetHandlerClsid, IDefaultFolderMenuInitialize::SetHandlerClsid, SetHandlerClsid, SetHandlerClsid method [Windows Shell], SetHandlerClsid method [Windows Shell],IDefaultFolderMenuInitialize interface, shell.IDefaultFolderMenuInitialize_SetHandlerClsid, shobjidl_core/IDefaultFolderMenuInitialize::SetHandlerClsid
 ms.topic: method
-f1_keywords: ["shobjidl_core/IDefaultFolderMenuInitialize.SetHandlerClsid"]
+f1_keywords: 
+ - "shobjidl_core/IDefaultFolderMenuInitialize.SetHandlerClsid"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

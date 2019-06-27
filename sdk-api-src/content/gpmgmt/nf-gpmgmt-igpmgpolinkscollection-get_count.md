@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [GPMC], Count property [GPMC],GPMGPOLinksCollection class, Count property [GPMC],IGPMGPOLinksCollection interface, GPMGPOLinksCollection class [GPMC],Count property, IGPMGPOLinksCollection interface [GPMC],Count property, IGPMGPOLinksCollection.Count, IGPMGPOLinksCollection.get_Count, IGPMGPOLinksCollection::Count, IGPMGPOLinksCollection::get_Count, _win32_igpmgpolinkscollection_get_count, get_Count, gpmc.igpmgpolinkscollection_get_count, gpmgmt/IGPMGPOLinksCollection::Count, gpmgmt/IGPMGPOLinksCollection::get_Count
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMGPOLinksCollection.Count"]
+f1_keywords: 
+ - "gpmgmt/IGPMGPOLinksCollection.Count"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

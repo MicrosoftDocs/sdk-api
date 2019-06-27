@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetValueRaw, GetValueRaw method [SMI], GetValueRaw method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetValueRaw method, ISettingsItem.GetValueRaw, ISettingsItem::GetValueRaw, smi.isettingsitem_getvalueraw, wcmconfig/ISettingsItem::GetValueRaw
 ms.topic: method
-f1_keywords: ["wcmconfig/ISettingsItem.GetValueRaw"]
+f1_keywords: 
+ - "wcmconfig/ISettingsItem.GetValueRaw"
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

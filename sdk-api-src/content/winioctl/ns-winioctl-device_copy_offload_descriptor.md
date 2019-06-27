@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDEVICE_COPY_OFFLOAD_DESCRIPTOR, DEVICE_COPY_OFFLOAD_DESCRIPTOR, DEVICE_COPY_OFFLOAD_DESCRIPTOR structure [Files], PDEVICE_COPY_OFFLOAD_DESCRIPTOR, PDEVICE_COPY_OFFLOAD_DESCRIPTOR structure pointer [Files], fs.device_copy_offload_descriptor, winioctl/DEVICE_COPY_OFFLOAD_DESCRIPTOR, winioctl/PDEVICE_COPY_OFFLOAD_DESCRIPTOR"
 ms.topic: struct
-f1_keywords: ["winioctl/DEVICE_COPY_OFFLOAD_DESCRIPTOR"]
+f1_keywords: 
+ - "winioctl/DEVICE_COPY_OFFLOAD_DESCRIPTOR"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?FormatV@CHString@@QAEXPBGPAD@Z, ?FormatV@CHString@@QEAAXPEBGPEAD@Z, CHString interface [Windows Management Instrumentation],FormatV method, CHString.FormatV, CHString::FormatV, FormatV, FormatV method [Windows Management Instrumentation], FormatV method [Windows Management Instrumentation],CHString interface, _hmm_chstring_formatv, chstring/CHString::FormatV, wmi.chstring_formatv"
 ms.topic: method
-f1_keywords: ["chstring/CHString.FormatV"]
+f1_keywords: 
+ - "chstring/CHString.FormatV"
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

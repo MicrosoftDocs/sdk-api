@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProfileInt, GetProfileInt function, GetProfileIntA, GetProfileIntW, _win32_getprofileint, base.getprofileint, winbase/GetProfileInt, winbase/GetProfileIntA, winbase/GetProfileIntW
 ms.topic: function
-f1_keywords: ["winbase/GetProfileInt"]
+f1_keywords: 
+ - "winbase/GetProfileInt"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

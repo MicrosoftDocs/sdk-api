@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAllSettings, GetAllSettings method [DirectShow], GetAllSettings method [DirectShow],ICodecAPI interface, ICodecAPI interface [DirectShow],GetAllSettings method, ICodecAPI.GetAllSettings, ICodecAPI::GetAllSettings, ICodecAPIGetAllSettings, dshow.icodecapi_getallsettings, strmif/ICodecAPI::GetAllSettings
 ms.topic: method
-f1_keywords: ["strmif/ICodecAPI.GetAllSettings"]
+f1_keywords: 
+ - "strmif/ICodecAPI.GetAllSettings"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

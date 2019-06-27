@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],GetVersionNumber method, IPAT.GetVersionNumber, IPAT::GetVersionNumber, IPATGetVersionNumber, mpeg2psiparser/IPAT::GetVersionNumber, mstv.ipat_getversionnumber
 ms.topic: method
-f1_keywords: ["mpeg2psiparser/IPAT.GetVersionNumber"]
+f1_keywords: 
+ - "mpeg2psiparser/IPAT.GetVersionNumber"
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

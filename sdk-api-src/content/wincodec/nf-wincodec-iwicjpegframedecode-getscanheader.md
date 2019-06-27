@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetScanHeader, GetScanHeader method [Windows Imaging Component], GetScanHeader method [Windows Imaging Component],IWICJpegFrameDecode interface, IWICJpegFrameDecode interface [Windows Imaging Component],GetScanHeader method, IWICJpegFrameDecode.GetScanHeader, IWICJpegFrameDecode::GetScanHeader, wic.iwicjpegframedecode_getscanheader, wincodec/IWICJpegFrameDecode::GetScanHeader
 ms.topic: method
-f1_keywords: ["wincodec/IWICJpegFrameDecode.GetScanHeader"]
+f1_keywords: 
+ - "wincodec/IWICJpegFrameDecode.GetScanHeader"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

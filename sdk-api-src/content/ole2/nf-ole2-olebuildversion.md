@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleBuildVersion, OleBuildVersion function [COM], com.olebuildversion, ole2/OleBuildVersion
 ms.topic: function
-f1_keywords: ["ole2/OleBuildVersion"]
+f1_keywords: 
+ - "ole2/OleBuildVersion"
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

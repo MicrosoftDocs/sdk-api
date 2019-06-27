@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPEB, PEB, PEB structure, PPEB, PPEB structure pointer, base.peb, winternl/PEB, winternl/PPEB"
 ms.topic: struct
-f1_keywords: ["winternl/PEB"]
+f1_keywords: 
+ - "winternl/PEB"
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

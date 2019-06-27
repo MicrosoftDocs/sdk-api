@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSpatialAudioClientActivationParams, PSpatialAudioClientActivationParams structure pointer [Core Audio], SpatialAudioClientActivationParams, SpatialAudioClientActivationParams structure [Core Audio], coreaudio.spatialaudioclientactivationparams, spatialaudioclient/PSpatialAudioClientActivationParams, spatialaudioclient/SpatialAudioClientActivationParams
 ms.topic: struct
-f1_keywords: ["spatialaudioclient/SpatialAudioClientActivationParams"]
+f1_keywords: 
+ - "spatialaudioclient/SpatialAudioClientActivationParams"
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

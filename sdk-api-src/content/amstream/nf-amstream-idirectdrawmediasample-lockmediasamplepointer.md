@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawMediaSample interface [DirectShow],LockMediaSamplePointer method, IDirectDrawMediaSample.LockMediaSamplePointer, IDirectDrawMediaSample::LockMediaSamplePointer, IDirectDrawMediaSampleLockMediaSamplePointer, LockMediaSamplePointer, LockMediaSamplePointer method [DirectShow], LockMediaSamplePointer method [DirectShow],IDirectDrawMediaSample interface, amstream/IDirectDrawMediaSample::LockMediaSamplePointer, dshow.idirectdrawmediasample_lockmediasamplepointer
 ms.topic: method
-f1_keywords: ["amstream/IDirectDrawMediaSample.LockMediaSamplePointer"]
+f1_keywords: 
+ - "amstream/IDirectDrawMediaSample.LockMediaSamplePointer"
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FALSE, GetUseAliasedEdgeMode, GetUseAliasedEdgeMode method [XPS Documents and Packaging], GetUseAliasedEdgeMode method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],GetUseAliasedEdgeMode method, IXpsOMCanvas.GetUseAliasedEdgeMode, IXpsOMCanvas::GetUseAliasedEdgeMode, TRUE, xps.ixpsomcanvas_getusealiasededgemode, xpsobjectmodel/IXpsOMCanvas::GetUseAliasedEdgeMode
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMCanvas.GetUseAliasedEdgeMode"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMCanvas.GetUseAliasedEdgeMode"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

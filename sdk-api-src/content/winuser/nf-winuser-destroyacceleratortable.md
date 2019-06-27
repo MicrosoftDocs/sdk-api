@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DestroyAcceleratorTable, DestroyAcceleratorTable function [Menus and Other Resources], _win32_DestroyAcceleratorTable, _win32_destroyacceleratortable_cpp, menurc.destroyacceleratortable, winui._win32_destroyacceleratortable, winuser/DestroyAcceleratorTable
 ms.topic: function
-f1_keywords: ["winuser/DestroyAcceleratorTable"]
+f1_keywords: 
+ - "winuser/DestroyAcceleratorTable"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

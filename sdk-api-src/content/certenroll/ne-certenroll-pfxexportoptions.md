@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFXExportChainNoRoot, PFXExportChainWithRoot, PFXExportEEOnly, PFXExportOptions, PFXExportOptions enumeration [Security], certenroll/PFXExportChainNoRoot, certenroll/PFXExportChainWithRoot, certenroll/PFXExportEEOnly, certenroll/PFXExportOptions, security.pfxexportoptions_enum
 ms.topic: enum
-f1_keywords: ["certenroll/PFXExportOptions"]
+f1_keywords: 
+ - "certenroll/PFXExportOptions"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

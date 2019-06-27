@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_CREDENTIAL_PAIR1, IKEEXT_CREDENTIAL_PAIR1 structure [Filtering], fwp.ikeext_credential_pair1, iketypes/IKEEXT_CREDENTIAL_PAIR1
 ms.topic: struct
-f1_keywords: ["iketypes/IKEEXT_CREDENTIAL_PAIR1"]
+f1_keywords: 
+ - "iketypes/IKEEXT_CREDENTIAL_PAIR1"
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

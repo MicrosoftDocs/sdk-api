@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DVD_RELATIVE_BUTTON, DVD_RELATIVE_BUTTON , DVD_RELATIVE_BUTTON enumeration [DirectShow], DVD_RELATIVE_BUTTONEnumeration, DVD_Relative_Left, DVD_Relative_Lower, DVD_Relative_Right, DVD_Relative_Upper, dshow.dvd_relative_button, strmif/DVD_RELATIVE_BUTTON, strmif/DVD_Relative_Left, strmif/DVD_Relative_Lower, strmif/DVD_Relative_Right, strmif/DVD_Relative_Upper
 ms.topic: enum
-f1_keywords: ["strmif/DVD_RELATIVE_BUTTON"]
+f1_keywords: 
+ - "strmif/DVD_RELATIVE_BUTTON"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

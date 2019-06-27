@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynth8 interface [Audio Devices],Refresh method, IDirectMusicSynth8.Refresh, IDirectMusicSynth8::Refresh, Refresh, Refresh method [Audio Devices], Refresh method [Audio Devices],IDirectMusicSynth8 interface, audio.idirectmusicsynth8_refresh, dmusics/IDirectMusicSynth8::Refresh
 ms.topic: method
-f1_keywords: ["dmusics/IDirectMusicSynth8.Refresh"]
+f1_keywords: 
+ - "dmusics/IDirectMusicSynth8.Refresh"
 req.header: dmusics.h
 req.include-header: 
 req.target-type: Windows

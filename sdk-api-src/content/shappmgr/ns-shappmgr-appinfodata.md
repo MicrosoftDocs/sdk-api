@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PAPPINFODATA, APPINFODATA, APPINFODATA structure [Windows Shell], inet_APPINFODATA, shappmgr/APPINFODATA, shell.APPINFODATA"
 ms.topic: struct
-f1_keywords: ["shappmgr/APPINFODATA"]
+f1_keywords: 
+ - "shappmgr/APPINFODATA"
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPadding, GetCurrentPadding method [Remote Desktop Services], GetCurrentPadding method [Remote Desktop Services],IAudioEndpointRT interface, IAudioEndpointRT interface [Remote Desktop Services],GetCurrentPadding method, IAudioEndpointRT.GetCurrentPadding, IAudioEndpointRT::GetCurrentPadding, audioengineendpoint/IAudioEndpointRT::GetCurrentPadding, termserv.iaudioendpointrt_getcurrentpadding
 ms.topic: method
-f1_keywords: ["audioengineendpoint/IAudioEndpointRT.GetCurrentPadding"]
+f1_keywords: 
+ - "audioengineendpoint/IAudioEndpointRT.GetCurrentPadding"
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

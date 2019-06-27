@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetApplicationName, GetApplicationName method [Windows Media Player], GetApplicationName method [Windows Media Player],IWMPRemoteMediaServices interface, IWMPRemoteMediaServices interface [Windows Media Player],GetApplicationName method, IWMPRemoteMediaServices.GetApplicationName, IWMPRemoteMediaServices::GetApplicationName, IWMPRemoteMediaServicesGetApplicationName, wmp.iwmpremotemediaservices_getapplicationname, wmp/IWMPRemoteMediaServices::GetApplicationName
 ms.topic: method
-f1_keywords: ["wmp/IWMPRemoteMediaServices.GetApplicationName"]
+f1_keywords: 
+ - "wmp/IWMPRemoteMediaServices.GetApplicationName"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

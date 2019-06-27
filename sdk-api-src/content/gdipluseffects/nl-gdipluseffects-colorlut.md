@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ColorLUT, ColorLUT class [GDI+], ColorLUT class [GDI+],described, _gdiplus_CLASS_ColorLUT_Class, gdiplus._gdiplus_CLASS_ColorLUT_Class, gdipluseffects/ColorLUT
 ms.topic: class
-f1_keywords: ["gdipluseffects/ColorLUT"]
+f1_keywords: 
+ - "gdipluseffects/ColorLUT"
 req.header: gdipluseffects.h
 req.include-header: 
 req.target-type: Windows

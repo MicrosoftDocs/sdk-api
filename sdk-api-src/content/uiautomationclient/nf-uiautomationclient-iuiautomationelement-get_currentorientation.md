@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentOrientation property [Windows Accessibility], CurrentOrientation property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentOrientation property, IUIAutomationElement.CurrentOrientation, IUIAutomationElement.get_CurrentOrientation, IUIAutomationElement::CurrentOrientation, IUIAutomationElement::get_CurrentOrientation, get_CurrentOrientation, uiauto.uiauto_IUIAutomationElement_CurrentOrientation, uiauto_IUIAutomationElement_CurrentOrientation, uiautomationclient/IUIAutomationElement::CurrentOrientation, uiautomationclient/IUIAutomationElement::get_CurrentOrientation, winauto.uiauto_IUIAutomationElement_CurrentOrientation
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationElement.CurrentOrientation"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationElement.CurrentOrientation"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

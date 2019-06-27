@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaCacheRequest, UiaCacheRequest structure [Windows Accessibility], uiauto.uiauto_UiaCacheRequestStruct, uiauto_UiaCacheRequestStruct, uiautomationcoreapi/UiaCacheRequest, winauto.uiauto_UiaCacheRequestStruct
 ms.topic: struct
-f1_keywords: ["uiautomationcoreapi/UiaCacheRequest"]
+f1_keywords: 
+ - "uiautomationcoreapi/UiaCacheRequest"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

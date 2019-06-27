@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMLine21Decoder interface [DirectShow],SetBackgroundColor method, IAMLine21Decoder.SetBackgroundColor, IAMLine21Decoder::SetBackgroundColor, IAMLine21DecoderSetBackgroundColor, SetBackgroundColor, SetBackgroundColor method [DirectShow], SetBackgroundColor method [DirectShow],IAMLine21Decoder interface, dshow.iamline21decoder_setbackgroundcolor, il21dec/IAMLine21Decoder::SetBackgroundColor
 ms.topic: method
-f1_keywords: ["il21dec/IAMLine21Decoder.SetBackgroundColor"]
+f1_keywords: 
+ - "il21dec/IAMLine21Decoder.SetBackgroundColor"
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows

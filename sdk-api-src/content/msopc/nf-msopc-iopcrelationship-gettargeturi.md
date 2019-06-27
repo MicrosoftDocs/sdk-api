@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTargetUri, GetTargetUri method [Open Packaging Conventions], GetTargetUri method [Open Packaging Conventions],IOpcRelationship interface, IOpcRelationship interface [Open Packaging Conventions],GetTargetUri method, IOpcRelationship.GetTargetUri, IOpcRelationship::GetTargetUri, msopc/IOpcRelationship::GetTargetUri, opc.iopcrelationship_gettargeturi
 ms.topic: method
-f1_keywords: ["msopc/IOpcRelationship.GetTargetUri"]
+f1_keywords: 
+ - "msopc/IOpcRelationship.GetTargetUri"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

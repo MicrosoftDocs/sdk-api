@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImmSetOpenStatus, ImmSetOpenStatus function [Internationalization for Windows Applications], _win32_ImmSetOpenStatus, imm/ImmSetOpenStatus, intl.immsetopenstatus
 ms.topic: function
-f1_keywords: ["immdev/ImmSetOpenStatus"]
+f1_keywords: 
+ - "immdev/ImmSetOpenStatus"
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

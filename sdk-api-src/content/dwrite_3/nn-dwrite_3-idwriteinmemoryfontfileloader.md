@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteInMemoryFontFileLoader, IDWriteInMemoryFontFileLoader interface [Direct Write], IDWriteInMemoryFontFileLoader interface [Direct Write],described, directwrite.idwriteinmemoryfontfileloader, dwrite_3/IDWriteInMemoryFontFileLoader
 ms.topic: interface
-f1_keywords: ["dwrite_3/IDWriteInMemoryFontFileLoader"]
+f1_keywords: 
+ - "dwrite_3/IDWriteInMemoryFontFileLoader"
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

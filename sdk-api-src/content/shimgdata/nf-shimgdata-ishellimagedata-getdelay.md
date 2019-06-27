@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDelay, GetDelay method [Windows Shell], GetDelay method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetDelay method, IShellImageData.GetDelay, IShellImageData::GetDelay, _shell_IShellImageData_GetDelay, shell.IShellImageData_GetDelay, shimgdata/IShellImageData::GetDelay
 ms.topic: method
-f1_keywords: ["shimgdata/IShellImageData.GetDelay"]
+f1_keywords: 
+ - "shimgdata/IShellImageData.GetDelay"
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

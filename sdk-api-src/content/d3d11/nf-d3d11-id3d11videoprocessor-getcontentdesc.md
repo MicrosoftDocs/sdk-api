@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetContentDesc, GetContentDesc method [Media Foundation], GetContentDesc method [Media Foundation],ID3D11VideoProcessor interface, ID3D11VideoProcessor interface [Media Foundation],GetContentDesc method, ID3D11VideoProcessor.GetContentDesc, ID3D11VideoProcessor::GetContentDesc, d3d11/ID3D11VideoProcessor::GetContentDesc, mf.id3d11videoprocessor_getcontentdesc
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11VideoProcessor.GetContentDesc"]
+f1_keywords: 
+ - "d3d11/ID3D11VideoProcessor.GetContentDesc"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

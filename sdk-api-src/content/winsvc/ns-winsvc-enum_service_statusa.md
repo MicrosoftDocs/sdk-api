@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPENUM_SERVICE_STATUSA, ENUM_SERVICE_STATUS, ENUM_SERVICE_STATUS structure, ENUM_SERVICE_STATUSA, ENUM_SERVICE_STATUSW, LPENUM_SERVICE_STATUS, LPENUM_SERVICE_STATUS structure pointer, _win32_enum_service_status_str, base.enum_service_status_str, winsvc/ENUM_SERVICE_STATUS, winsvc/ENUM_SERVICE_STATUSA, winsvc/ENUM_SERVICE_STATUSW, winsvc/LPENUM_SERVICE_STATUS"
 ms.topic: struct
-f1_keywords: ["winsvc/ENUM_SERVICE_STATUS"]
+f1_keywords: 
+ - "winsvc/ENUM_SERVICE_STATUS"
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

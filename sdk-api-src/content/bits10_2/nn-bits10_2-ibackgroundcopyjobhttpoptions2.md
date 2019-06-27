@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJobHttpOptions2, IBackgroundCopyJobHttpOptions2 interface [BITS], IBackgroundCopyJobHttpOptions2 interface [BITS],described, bits.ibackgroundcopyjobhttpoptions2, bits10_2/IBackgroundCopyJobHttpOptions2
 ms.topic: interface
-f1_keywords: ["bits10_2/IBackgroundCopyJobHttpOptions2"]
+f1_keywords: 
+ - "bits10_2/IBackgroundCopyJobHttpOptions2"
 req.header: bits10_2.h
 req.include-header: Bits.h
 req.target-type: Windows

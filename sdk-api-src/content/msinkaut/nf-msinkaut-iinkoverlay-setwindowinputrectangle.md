@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkOverlay, IInkOverlay interface [Tablet PC],SetWindowInputRectangle method, IInkOverlay.SetWindowInputRectangle, IInkOverlay::SetWindowInputRectangle, SetWindowInputRectangle, SetWindowInputRectangle method [Tablet PC], SetWindowInputRectangle method [Tablet PC],IInkOverlay interface, b46139db-0473-4cd3-8f1b-d303f3430470, msinkaut/IInkOverlay::SetWindowInputRectangle, tablet.inkoverlay_setwindowinputrectangle
 ms.topic: method
-f1_keywords: ["msinkaut/IInkOverlay.SetWindowInputRectangle"]
+f1_keywords: 
+ - "msinkaut/IInkOverlay.SetWindowInputRectangle"
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Encode, Encode method [Security], Encode method [Security],IX500DistinguishedName interface, IX500DistinguishedName interface [Security],Encode method, IX500DistinguishedName.Encode, IX500DistinguishedName::Encode, certenroll/IX500DistinguishedName::Encode, security.ix500distinguishedname_encode_method
 ms.topic: method
-f1_keywords: ["certenroll/IX500DistinguishedName.Encode"]
+f1_keywords: 
+ - "certenroll/IX500DistinguishedName.Encode"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

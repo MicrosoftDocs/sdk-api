@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NLM_USAGE_DATA, NLM_USAGE_DATA structure [Network Awareness], PNLM_USAGE_DATA, PNLM_USAGE_DATA structure pointer [Network Awareness], netlistmgr/NLM_USAGE_DATA, netlistmgr/PNLM_USAGE_DATA, nla.nlm_usage_data
 ms.topic: struct
-f1_keywords: ["netlistmgr/NLM_USAGE_DATA"]
+f1_keywords: 
+ - "netlistmgr/NLM_USAGE_DATA"
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSHCOLUMNINFO, LPSHCOLUMNINFO, LPSHCOLUMNINFO structure pointer [Windows Shell], SHCOLSTATE_EXTENDED, SHCOLSTATE_HIDDEN, SHCOLSTATE_ONBYDEFAULT, SHCOLSTATE_SECONDARYUI, SHCOLSTATE_SLOW, SHCOLSTATE_TYPE_DATE, SHCOLSTATE_TYPE_INT, SHCOLSTATE_TYPE_STR, SHCOLUMNINFO, SHCOLUMNINFO structure [Windows Shell], _win32_SHCOLUMNINFO_str, shell.SHCOLUMNINFO_str, shlobj/LPSHCOLUMNINFO, shlobj/SHCOLUMNINFO"
 ms.topic: struct
-f1_keywords: ["shlobj/SHCOLUMNINFO"]
+f1_keywords: 
+ - "shlobj/SHCOLUMNINFO"
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

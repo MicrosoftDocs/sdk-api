@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetTitle method, IFileDialog.SetTitle, IFileDialog::SetTitle, SetTitle, SetTitle method [Windows Shell], SetTitle method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetTitle, shell_IFileDialog_SetTitle, shobjidl_core/IFileDialog::SetTitle
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileDialog.SetTitle"]
+f1_keywords: 
+ - "shobjidl_core/IFileDialog.SetTitle"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

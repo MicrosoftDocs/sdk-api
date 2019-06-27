@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGraphDelete, PeerGraphDelete function [Peer Networking], p2p.peergraphdelete, p2p/PeerGraphDelete
 ms.topic: function
-f1_keywords: ["p2p/PeerGraphDelete"]
+f1_keywords: 
+ - "p2p/PeerGraphDelete"
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

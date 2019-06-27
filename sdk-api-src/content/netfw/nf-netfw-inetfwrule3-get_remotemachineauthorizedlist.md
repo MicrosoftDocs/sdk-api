@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwRule3 interface [ICS/ICF],RemoteMachineAuthorizedList property, INetFwRule3.RemoteMachineAuthorizedList, INetFwRule3.get_RemoteMachineAuthorizedList, INetFwRule3::RemoteMachineAuthorizedList, INetFwRule3::get_RemoteMachineAuthorizedList, INetFwRule3::put_RemoteMachineAuthorizedList, RemoteMachineAuthorizedList property [ICS/ICF], RemoteMachineAuthorizedList property [ICS/ICF],INetFwRule3 interface, get_RemoteMachineAuthorizedList, ics.inetfwrule3_remotemachineauthorizedlist, netfw/INetFwRule3::RemoteMachineAuthorizedList, netfw/INetFwRule3::get_RemoteMachineAuthorizedList, netfw/INetFwRule3::put_RemoteMachineAuthorizedList
 ms.topic: method
-f1_keywords: ["netfw/INetFwRule3.RemoteMachineAuthorizedList"]
+f1_keywords: 
+ - "netfw/INetFwRule3.RemoteMachineAuthorizedList"
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

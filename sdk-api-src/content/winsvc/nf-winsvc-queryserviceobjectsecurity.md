@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QueryServiceObjectSecurity, QueryServiceObjectSecurity function [Security], _win32_queryserviceobjectsecurity, security.queryserviceobjectsecurity, winsvc/QueryServiceObjectSecurity
 ms.topic: function
-f1_keywords: ["winsvc/QueryServiceObjectSecurity"]
+f1_keywords: 
+ - "winsvc/QueryServiceObjectSecurity"
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

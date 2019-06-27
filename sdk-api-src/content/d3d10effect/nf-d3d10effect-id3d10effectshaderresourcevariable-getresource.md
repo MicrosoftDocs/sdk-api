@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 32af50a5-ebdc-17c2-82b2-78786c51c269, GetResource, GetResource method [Direct3D 10], GetResource method [Direct3D 10],ID3D10EffectShaderResourceVariable interface, ID3D10EffectShaderResourceVariable interface [Direct3D 10],GetResource method, ID3D10EffectShaderResourceVariable.GetResource, ID3D10EffectShaderResourceVariable::GetResource, d3d10effect/ID3D10EffectShaderResourceVariable::GetResource, direct3d10.id3d10effectshaderresourcevariable_getresource
 ms.topic: method
-f1_keywords: ["d3d10effect/ID3D10EffectShaderResourceVariable.GetResource"]
+f1_keywords: 
+ - "d3d10effect/ID3D10EffectShaderResourceVariable.GetResource"
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHShowManageLibraryUI, SHShowManageLibraryUI function [Windows Shell], _shell_SHShowManageLibraryUI, shell.SHShowManageLibraryUI, shobjidl_core/SHShowManageLibraryUI
 ms.topic: function
-f1_keywords: ["shobjidl_core/SHShowManageLibraryUI"]
+f1_keywords: 
+ - "shobjidl_core/SHShowManageLibraryUI"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

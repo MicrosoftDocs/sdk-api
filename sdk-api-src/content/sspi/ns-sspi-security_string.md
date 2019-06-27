@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSECURITY_STRING, PSECURITY_STRING, PSECURITY_STRING structure pointer [Security], SECURITY_STRING, SECURITY_STRING structure [Security], security.security_string, sspi/PSECURITY_STRING, sspi/SECURITY_STRING"
 ms.topic: struct
-f1_keywords: ["sspi/SECURITY_STRING"]
+f1_keywords: 
+ - "sspi/SECURITY_STRING"
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

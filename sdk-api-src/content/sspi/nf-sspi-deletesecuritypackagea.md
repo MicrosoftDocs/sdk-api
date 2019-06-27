@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteSecurityPackage, DeleteSecurityPackage function [Security], DeleteSecurityPackageA, DeleteSecurityPackageW, security.deletesecuritypackage, sspi/DeleteSecurityPackage, sspi/DeleteSecurityPackageA, sspi/DeleteSecurityPackageW
 ms.topic: function
-f1_keywords: ["sspi/DeleteSecurityPackage"]
+f1_keywords: 
+ - "sspi/DeleteSecurityPackage"
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWorkspaceScriptable interface [Remote Desktop Services],StartWorkspace method, IWorkspaceScriptable.StartWorkspace, IWorkspaceScriptable2 interface [Remote Desktop Services],StartWorkspace method, IWorkspaceScriptable2::StartWorkspace, IWorkspaceScriptable3 interface [Remote Desktop Services],StartWorkspace method, IWorkspaceScriptable3::StartWorkspace, IWorkspaceScriptable::StartWorkspace, StartWorkspace, StartWorkspace method [Remote Desktop Services], StartWorkspace method [Remote Desktop Services],IWorkspaceScriptable interface, StartWorkspace method [Remote Desktop Services],IWorkspaceScriptable2 interface, StartWorkspace method [Remote Desktop Services],IWorkspaceScriptable3 interface, StartWorkspace method [Remote Desktop Services],Workspace object, WKS_FLAG_CLEAR_CREDS_ON_LAST_RESOURCE, WKS_FLAG_CREDS_AUTHENTICATED, WKS_FLAG_PASSWORD_ENCRYPTED, Workspace object [Remote Desktop Services],StartWorkspace method, termserv.iworkspacescriptable_startworkspace, workspaceruntime/IWorkspaceScriptable2::StartWorkspace, workspaceruntime/IWorkspaceScriptable3::StartWorkspace, workspaceruntime/IWorkspaceScriptable::StartWorkspace
 ms.topic: method
-f1_keywords: ["workspaceruntime/IWorkspaceScriptable.StartWorkspace"]
+f1_keywords: 
+ - "workspaceruntime/IWorkspaceScriptable.StartWorkspace"
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMPEG2PIDMap, IMPEG2PIDMap interface [DirectShow], IMPEG2PIDMap interface [DirectShow],described, IMPEG2PIDMapInterface, bdaiface/IMPEG2PIDMap, dshow.impeg2pidmap
 ms.topic: interface
-f1_keywords: ["bdaiface/IMPEG2PIDMap"]
+f1_keywords: 
+ - "bdaiface/IMPEG2PIDMap"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

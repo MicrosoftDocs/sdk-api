@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMenuBand interface [Windows Shell],TranslateMenuMessage method, IMenuBand.TranslateMenuMessage, IMenuBand::TranslateMenuMessage, TranslateMenuMessage, TranslateMenuMessage method [Windows Shell], TranslateMenuMessage method [Windows Shell],IMenuBand interface, _shell_IMenuBand_TranslateMenuMessage, shell.IMenuBand_TranslateMenuMessage, shobjidl_core/IMenuBand::TranslateMenuMessage
 ms.topic: method
-f1_keywords: ["shobjidl_core/IMenuBand.TranslateMenuMessage"]
+f1_keywords: 
+ - "shobjidl_core/IMenuBand.TranslateMenuMessage"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

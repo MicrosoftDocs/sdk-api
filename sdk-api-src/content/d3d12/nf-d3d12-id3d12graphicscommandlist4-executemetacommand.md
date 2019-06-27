@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExecuteMetaCommand, ExecuteMetaCommand method, ExecuteMetaCommand method,ID3D12GraphicsCommandList4 interface, ID3D12GraphicsCommandList4 interface,ExecuteMetaCommand method, ID3D12GraphicsCommandList4.ExecuteMetaCommand, ID3D12GraphicsCommandList4::ExecuteMetaCommand, d3d12/ID3D12GraphicsCommandList4::ExecuteMetaCommand, direct3d12.id3d12graphicscommandlist4_executemetacommand
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12GraphicsCommandList4.ExecuteMetaCommand"]
+f1_keywords: 
+ - "d3d12/ID3D12GraphicsCommandList4.ExecuteMetaCommand"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

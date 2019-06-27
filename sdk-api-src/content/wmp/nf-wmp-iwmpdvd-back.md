@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPDVD interface [Windows Media Player],back method, IWMPDVD.back, IWMPDVD::back, IWMPDVDback, back, back method [Windows Media Player], back method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_back, wmp/IWMPDVD::back
 ms.topic: method
-f1_keywords: ["wmp/IWMPDVD.back"]
+f1_keywords: 
+ - "wmp/IWMPDVD.back"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

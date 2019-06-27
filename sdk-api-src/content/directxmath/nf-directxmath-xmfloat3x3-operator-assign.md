@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: Use DirectX..XMFLOAT3X3.operator =, Use DirectX::::XMFLOAT3X3::operator =, XMFLOAT3X3 structure [DirectX Math Support APIs],operator = method, XMFLOAT3X3.operator =, XMFLOAT3X3.operator-assign, XMFLOAT3X3.operator=, XMFLOAT3X3::operator-assign, XMFLOAT3X3::operator=, dxmath.xmfloat3x3_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMFLOAT3X3 structure, operator=
 ms.topic: method
-f1_keywords: ["directxmath/XMFLOAT3X3.operator ="]
+f1_keywords: 
+ - "directxmath/XMFLOAT3X3.operator ="
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

@@ -8,7 +8,8 @@ ms.date: 05/13/2019
 ms.date: 01/30/19
 ms.keywords: CHString::Mid
 ms.topic: language-reference
-f1_keywords: ["chstring/CHString::Mid"]
+f1_keywords: 
+ - "chstring/CHString::Mid"
 targetos: Windows
 product: Windows
 req.assembly: 

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegisterManageableLogClient, RegisterManageableLogClient function [Files], clfsmgmtw32/RegisterManageableLogClient, fs.registermanageablelogclient
 ms.topic: function
-f1_keywords: ["clfsmgmtw32/RegisterManageableLogClient"]
+f1_keywords: 
+ - "clfsmgmtw32/RegisterManageableLogClient"
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProgramProperties, GetProgramProperties method [Microsoft TV Technologies], GetProgramProperties method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetProgramProperties method, IGuideData.GetProgramProperties, IGuideData::GetProgramProperties, IGuideDataGetProgramProperties, bdatif/IGuideData::GetProgramProperties, mstv.iguidedata_getprogramproperties
 ms.topic: method
-f1_keywords: ["bdatif/IGuideData.GetProgramProperties"]
+f1_keywords: 
+ - "bdatif/IGuideData.GetProgramProperties"
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

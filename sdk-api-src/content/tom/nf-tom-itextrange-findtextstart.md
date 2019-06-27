@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindTextStart, FindTextStart method [Windows Controls], FindTextStart method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],FindTextStart method, ITextRange.FindTextStart, ITextRange::FindTextStart, _win32_ITextRange_FindTextStart, _win32_ITextRange_FindTextStart_cpp, controls.ITextRange_FindTextStart, controls._win32_ITextRange_FindTextStart, tom/ITextRange::FindTextStart
 ms.topic: method
-f1_keywords: ["tom/ITextRange.FindTextStart"]
+f1_keywords: 
+ - "tom/ITextRange.FindTextStart"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

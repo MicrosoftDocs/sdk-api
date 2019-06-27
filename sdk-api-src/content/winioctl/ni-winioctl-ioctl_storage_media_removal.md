@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_MEDIA_REMOVAL, IOCTL_STORAGE_MEDIA_REMOVAL control, IOCTL_STORAGE_MEDIA_REMOVAL control code, _win32_ioctl_storage_media_removal, base.ioctl_storage_media_removal, winioctl/IOCTL_STORAGE_MEDIA_REMOVAL
 ms.topic: ioctl
-f1_keywords: ["winioctl/IOCTL_STORAGE_MEDIA_REMOVAL"]
+f1_keywords: 
+ - "winioctl/IOCTL_STORAGE_MEDIA_REMOVAL"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

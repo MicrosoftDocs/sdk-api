@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetSpaceExtension method, ITextFont2.SetSpaceExtension, ITextFont2::SetSpaceExtension, SetSpaceExtension, SetSpaceExtension method [Windows Controls], SetSpaceExtension method [Windows Controls],ITextFont2 interface, controls.itextfont2_setspaceextension, tom/ITextFont2::SetSpaceExtension
 ms.topic: method
-f1_keywords: ["tom/ITextFont2.SetSpaceExtension"]
+f1_keywords: 
+ - "tom/ITextFont2.SetSpaceExtension"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteClusterGroupSet, DeleteClusterGroupSet function [Failover Cluster], PCLUSAPI_DELETE_CLUSTER_GROUP_GROUPSET, PCLUSAPI_DELETE_CLUSTER_GROUP_GROUPSET function [Failover Cluster], clusapi/DeleteClusterGroupSet, clusapi/PCLUSAPI_DELETE_CLUSTER_GROUP_GROUPSET, mscs.deleteclustergroupcollection
 ms.topic: function
-f1_keywords: ["clusapi/DeleteClusterGroupSet"]
+f1_keywords: 
+ - "clusapi/DeleteClusterGroupSet"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

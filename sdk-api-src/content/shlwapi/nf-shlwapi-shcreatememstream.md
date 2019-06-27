@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCreateMemStream, SHCreateMemStream function [Windows Shell], _win32_SHCreateMemStream, shell.SHCreateMemStream, shlwapi/SHCreateMemStream
 ms.topic: function
-f1_keywords: ["shlwapi/SHCreateMemStream"]
+f1_keywords: 
+ - "shlwapi/SHCreateMemStream"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

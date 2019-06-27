@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBootTrigger, IBootTrigger interface [Task Scheduler], IBootTrigger interface [Task Scheduler],described, boot trigger [Task Scheduler],interface, taskschd.iboottrigger, taskschd/IBootTrigger
 ms.topic: interface
-f1_keywords: ["taskschd/IBootTrigger"]
+f1_keywords: 
+ - "taskschd/IBootTrigger"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

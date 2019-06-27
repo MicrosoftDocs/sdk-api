@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 663f3b21-bce6-d627-ee2d-e5e129eee88d, ID3D10Debug interface [Direct3D 10],SetFeatureMask method, ID3D10Debug.SetFeatureMask, ID3D10Debug::SetFeatureMask, SetFeatureMask, SetFeatureMask method [Direct3D 10], SetFeatureMask method [Direct3D 10],ID3D10Debug interface, d3d10sdklayers/ID3D10Debug::SetFeatureMask, direct3d10.id3d10debug_setfeaturemask
 ms.topic: method
-f1_keywords: ["d3d10sdklayers/ID3D10Debug.SetFeatureMask"]
+f1_keywords: 
+ - "d3d10sdklayers/ID3D10Debug.SetFeatureMask"
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

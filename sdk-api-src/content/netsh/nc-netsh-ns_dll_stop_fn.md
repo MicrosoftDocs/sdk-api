@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NS_DLL_STOP_FN, NS_DLL_STOP_FN callback, NS_DLL_STOP_FN callback function [NetShell], SampleStop, _netsh_ns_dll_stop_fn, netsh/NS_DLL_STOP_FN, netshell.ns_dll_stop_fn
 ms.topic: callback
-f1_keywords: ["netsh/NS_DLL_STOP_FN"]
+f1_keywords: 
+ - "netsh/NS_DLL_STOP_FN"
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

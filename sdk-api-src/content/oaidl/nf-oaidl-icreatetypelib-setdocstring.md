@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetDocString method, ICreateTypeLib.SetDocString, ICreateTypeLib::SetDocString, SetDocString, SetDocString method [Automation], SetDocString method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetDocString, automat.icreatetypelib_setdocstring, oaidl/ICreateTypeLib::SetDocString
 ms.topic: method
-f1_keywords: ["oaidl/ICreateTypeLib.SetDocString"]
+f1_keywords: 
+ - "oaidl/ICreateTypeLib.SetDocString"
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

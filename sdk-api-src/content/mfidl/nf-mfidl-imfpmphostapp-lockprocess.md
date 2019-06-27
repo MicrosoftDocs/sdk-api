@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFPMPHostApp interface [Media Foundation],LockProcess method, IMFPMPHostApp.LockProcess, IMFPMPHostApp::LockProcess, LockProcess, LockProcess method [Media Foundation], LockProcess method [Media Foundation],IMFPMPHostApp interface, mf.imfpmphostapp_lockprocess, mfidl/IMFPMPHostApp::LockProcess
 ms.topic: method
-f1_keywords: ["mfidl/IMFPMPHostApp.LockProcess"]
+f1_keywords: 
+ - "mfidl/IMFPMPHostApp.LockProcess"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

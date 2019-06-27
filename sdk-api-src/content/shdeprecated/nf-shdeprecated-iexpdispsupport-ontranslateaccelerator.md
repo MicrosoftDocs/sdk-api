@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExpDispSupport interface [Windows Shell],OnTranslateAccelerator method, IExpDispSupport.OnTranslateAccelerator, IExpDispSupport::OnTranslateAccelerator, OnTranslateAccelerator, OnTranslateAccelerator method [Windows Shell], OnTranslateAccelerator method [Windows Shell],IExpDispSupport interface, shdeprecated/IExpDispSupport::OnTranslateAccelerator, shell.IExpDispSupport_OnTranslateAccelerator, zone_IExpDispSupport_OnTranslateAccelerator
 ms.topic: method
-f1_keywords: ["shdeprecated/IExpDispSupport.OnTranslateAccelerator"]
+f1_keywords: 
+ - "shdeprecated/IExpDispSupport.OnTranslateAccelerator"
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, IISDB_CDT.GetTableDescriptorByTag, IISDB_CDT::GetTableDescriptorByTag, dvbsiparser/IISDB_CDT::GetTableDescriptorByTag, mstv.iisdb_cdt_gettabledescriptorbytag
 ms.topic: method
-f1_keywords: ["dvbsiparser/IISDB_CDT.GetTableDescriptorByTag"]
+f1_keywords: 
+ - "dvbsiparser/IISDB_CDT.GetTableDescriptorByTag"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

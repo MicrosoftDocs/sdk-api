@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMCodecAMVideoAccelerator, IWMCodecAMVideoAccelerator interface [windows Media Format], IWMCodecAMVideoAccelerator interface [windows Media Format],described, IWMCodecAMVideoAcceleratorInterface, wmdxva/IWMCodecAMVideoAccelerator, wmformat.iwmcodecamvideoaccelerator
 ms.topic: interface
-f1_keywords: ["wmdxva/IWMCodecAMVideoAccelerator"]
+f1_keywords: 
+ - "wmdxva/IWMCodecAMVideoAccelerator"
 req.header: wmdxva.h
 req.include-header: 
 req.target-type: Windows

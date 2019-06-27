@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1b05ef87-5559-4310-942c-54ab113eb42d, AddStreamSink, AddStreamSink method [Media Foundation], AddStreamSink method [Media Foundation],IMFMediaSink interface, IMFMediaSink interface [Media Foundation],AddStreamSink method, IMFMediaSink.AddStreamSink, IMFMediaSink::AddStreamSink, mf.imfmediasink_addstreamsink, mfidl/IMFMediaSink::AddStreamSink
 ms.topic: method
-f1_keywords: ["mfidl/IMFMediaSink.AddStreamSink"]
+f1_keywords: 
+ - "mfidl/IMFMediaSink.AddStreamSink"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

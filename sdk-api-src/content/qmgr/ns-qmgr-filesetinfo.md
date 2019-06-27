@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FILESETINFO, FILESETINFO structure [BITS], bits.filesetinfo, qmgr/FILESETINFO
 ms.topic: struct
-f1_keywords: ["qmgr/FILESETINFO"]
+f1_keywords: 
+ - "qmgr/FILESETINFO"
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

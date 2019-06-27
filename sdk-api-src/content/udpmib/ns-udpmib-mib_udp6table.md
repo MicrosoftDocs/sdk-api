@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_UDP6TABLE, MIB_UDP6TABLE, MIB_UDP6TABLE structure [MIB], PMIB_UDP6TABLE, PMIB_UDP6TABLE structure pointer [MIB], mib.mib_udp6table, udpmib/MIB_UDP6TABLE, udpmib/PMIB_UDP6TABLE"
 ms.topic: struct
-f1_keywords: ["udpmib/MIB_UDP6TABLE"]
+f1_keywords: 
+ - "udpmib/MIB_UDP6TABLE"
 req.header: udpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

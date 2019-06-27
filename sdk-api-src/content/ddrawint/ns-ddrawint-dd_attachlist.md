@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_ATTACHLIST, DD_ATTACHLIST, DD_ATTACHLIST structure [Display Devices], ddrawint/DD_ATTACHLIST, ddstrcts_3c38acaf-5568-4af1-ae84-a6f4752b2a02.xml, display.dd_attachlist"
 ms.topic: struct
-f1_keywords: ["ddrawint/DD_ATTACHLIST"]
+f1_keywords: 
+ - "ddrawint/DD_ATTACHLIST"
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

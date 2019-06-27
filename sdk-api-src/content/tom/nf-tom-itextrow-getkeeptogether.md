@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetKeepTogether, GetKeepTogether method [Windows Controls], GetKeepTogether method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetKeepTogether method, ITextRow.GetKeepTogether, ITextRow::GetKeepTogether, controls.itextrow_getkeeptogether, tom/ITextRow::GetKeepTogether
 ms.topic: method
-f1_keywords: ["tom/ITextRow.GetKeepTogether"]
+f1_keywords: 
+ - "tom/ITextRow.GetKeepTogether"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

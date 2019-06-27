@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PETW_TRACE_PARTITION_INFORMATION, ETW_TRACE_PARTITION_INFORMATION, ETW_TRACE_PARTITION_INFORMATION structure [ETW], PETW_TRACE_PARTITION_INFORMATION, PETW_TRACE_PARTITION_INFORMATION structure pointer [ETW], Process, VmDirectUvm, VmHost, VmHostedUvm, _ETW_TRACE_PARTITION_INFORMATION, etw.etw_trace_partition_information, evntrace/ETW_TRACE_PARTITION_INFORMATION, evntrace/PETW_TRACE_PARTITION_INFORMATION"
 ms.topic: struct
-f1_keywords: ["evntrace/ETW_TRACE_PARTITION_INFORMATION"]
+f1_keywords: 
+ - "evntrace/ETW_TRACE_PARTITION_INFORMATION"
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

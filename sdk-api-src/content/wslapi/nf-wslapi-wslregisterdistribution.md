@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WslRegisterDistribution, WslRegisterDistribution function, wsl.wslregisterdistribution, wslapi/WslRegisterDistribution
 ms.topic: function
-f1_keywords: ["wslapi/WslRegisterDistribution"]
+f1_keywords: 
+ - "wslapi/WslRegisterDistribution"
 req.header: wslapi.h
 req.include-header: 
 req.target-type: Windows

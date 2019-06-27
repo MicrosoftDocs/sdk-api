@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTargetObject, CreateTargetObject method [Remote Desktop Services], CreateTargetObject method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreateTargetObject method, ITsSbProvider.CreateTargetObject, ITsSbProvider::CreateTargetObject, sbtsv/ITsSbProvider::CreateTargetObject, termserv.itssbprovider_createtargetobject
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbProvider.CreateTargetObject"]
+f1_keywords: 
+ - "sbtsv/ITsSbProvider.CreateTargetObject"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

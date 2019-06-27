@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_PARAMETER_TYPE, WS_PARAMETER_TYPE enumeration [Web Services for Windows], WS_PARAMETER_TYPE_ARRAY, WS_PARAMETER_TYPE_ARRAY_COUNT, WS_PARAMETER_TYPE_MESSAGES, WS_PARAMETER_TYPE_NORMAL, webservices/WS_PARAMETER_TYPE, webservices/WS_PARAMETER_TYPE_ARRAY, webservices/WS_PARAMETER_TYPE_ARRAY_COUNT, webservices/WS_PARAMETER_TYPE_MESSAGES, webservices/WS_PARAMETER_TYPE_NORMAL, wsw.ws_parameter_type
 ms.topic: enum
-f1_keywords: ["webservices/WS_PARAMETER_TYPE"]
+f1_keywords: 
+ - "webservices/WS_PARAMETER_TYPE"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

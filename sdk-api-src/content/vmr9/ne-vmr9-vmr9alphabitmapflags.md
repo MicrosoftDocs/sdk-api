@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VMR9AlphaBitmapFlags, VMR9AlphaBitmapFlags , VMR9AlphaBitmapFlags enumeration [DirectShow], VMR9AlphaBitmapFlagsEnumeration, VMR9AlphaBitmap_Disable, VMR9AlphaBitmap_EntireDDS, VMR9AlphaBitmap_FilterMode, VMR9AlphaBitmap_SrcColorKey, VMR9AlphaBitmap_SrcRect, VMR9AlphaBitmap_hDC, dshow.vmr9alphabitmapflags, vmr9/VMR9AlphaBitmapFlags, vmr9/VMR9AlphaBitmap_Disable, vmr9/VMR9AlphaBitmap_EntireDDS, vmr9/VMR9AlphaBitmap_FilterMode, vmr9/VMR9AlphaBitmap_SrcColorKey, vmr9/VMR9AlphaBitmap_SrcRect, vmr9/VMR9AlphaBitmap_hDC
 ms.topic: enum
-f1_keywords: ["vmr9/VMR9AlphaBitmapFlags"]
+f1_keywords: 
+ - "vmr9/VMR9AlphaBitmapFlags"
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MAKEINTRESOURCE, MAKEINTRESOURCE macro [Menus and Other Resources], MAKEINTRESOURCEA, MAKEINTRESOURCEW, _win32_MAKEINTRESOURCE, _win32_makeintresource_cpp, menurc.makeintresource, winui._win32_makeintresource, winuser/MAKEINTRESOURCE
 ms.topic: macro
-f1_keywords: ["winuser/MAKEINTRESOURCE"]
+f1_keywords: 
+ - "winuser/MAKEINTRESOURCE"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

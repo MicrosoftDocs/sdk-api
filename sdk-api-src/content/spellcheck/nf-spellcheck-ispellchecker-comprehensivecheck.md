@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComprehensiveCheck, ComprehensiveCheck method [Internationalization for Windows Applications], ComprehensiveCheck method [Internationalization for Windows Applications],ISpellChecker interface, ISpellChecker interface [Internationalization for Windows Applications],ComprehensiveCheck method, ISpellChecker.ComprehensiveCheck, ISpellChecker::ComprehensiveCheck, intl.ispellchecker_comprehensivecheck, spellcheck/ISpellChecker::ComprehensiveCheck
 ms.topic: method
-f1_keywords: ["spellcheck/ISpellChecker.ComprehensiveCheck"]
+f1_keywords: 
+ - "spellcheck/ISpellChecker.ComprehensiveCheck"
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TRACKING_COLL_TYPE, TRACKING_COLL_TYPE enumeration [COM+], TRKCOLL_APPLICATIONS, TRKCOLL_COMPONENTS, TRKCOLL_PROCESSES, _cos_TRACKING_COLL_TYPE, comsvcs/TRACKING_COLL_TYPE, comsvcs/TRKCOLL_APPLICATIONS, comsvcs/TRKCOLL_COMPONENTS, comsvcs/TRKCOLL_PROCESSES, cos.tracking_coll_type
 ms.topic: enum
-f1_keywords: ["comsvcs/TRACKING_COLL_TYPE"]
+f1_keywords: 
+ - "comsvcs/TRACKING_COLL_TYPE"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

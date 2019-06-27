@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCertManageModule object [Security],SetProperty method, Copyright, Description, File Version, ICertManageModule interface [Security],SetProperty method, ICertManageModule.SetProperty, ICertManageModule::SetProperty, Name, Product Version, SetProperty, SetProperty method [Security], SetProperty method [Security],CCertManageModule object, SetProperty method [Security],ICertManageModule interface, _certsrv_icertmanagemodule_setproperty, certmod/ICertManageModule::SetProperty, security.icertmanagemodule_setproperty
 ms.topic: method
-f1_keywords: ["certmod/ICertManageModule.SetProperty"]
+f1_keywords: 
+ - "certmod/ICertManageModule.SetProperty"
 req.header: certmod.h
 req.include-header: Certsrv.h
 req.target-type: Windows

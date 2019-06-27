@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMPhysicalPinInfo, IAMPhysicalPinInfo interface [DirectShow], IAMPhysicalPinInfo interface [DirectShow],described, IAMPhysicalPinInfoInterface, dshow.iamphysicalpininfo, strmif/IAMPhysicalPinInfo
 ms.topic: interface
-f1_keywords: ["strmif/IAMPhysicalPinInfo"]
+f1_keywords: 
+ - "strmif/IAMPhysicalPinInfo"
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

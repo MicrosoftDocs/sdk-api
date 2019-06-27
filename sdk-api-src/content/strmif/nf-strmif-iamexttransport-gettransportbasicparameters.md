@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTransportBasicParameters, GetTransportBasicParameters method [DirectShow], GetTransportBasicParameters method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetTransportBasicParameters method, IAMExtTransport.GetTransportBasicParameters, IAMExtTransport::GetTransportBasicParameters, IAMExtTransportGetTransportBasicParameters, dshow.iamexttransport_gettransportbasicparameters, strmif/IAMExtTransport::GetTransportBasicParameters
 ms.topic: method
-f1_keywords: ["strmif/IAMExtTransport.GetTransportBasicParameters"]
+f1_keywords: 
+ - "strmif/IAMExtTransport.GetTransportBasicParameters"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

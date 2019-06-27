@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFASFStreamSelector, IMFASFStreamSelector interface [Media Foundation], IMFASFStreamSelector interface [Media Foundation],described, d2e1fc15-2e12-4698-a4b1-ca8046d228de, mf.imfasfstreamselector, wmcontainer/IMFASFStreamSelector
 ms.topic: interface
-f1_keywords: ["wmcontainer/IMFASFStreamSelector"]
+f1_keywords: 
+ - "wmcontainer/IMFASFStreamSelector"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

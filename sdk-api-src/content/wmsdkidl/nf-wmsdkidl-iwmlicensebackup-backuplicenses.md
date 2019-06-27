@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BackupLicenses, BackupLicenses method [windows Media Format], BackupLicenses method [windows Media Format],IWMLicenseBackup interface, IWMLicenseBackup interface [windows Media Format],BackupLicenses method, IWMLicenseBackup.BackupLicenses, IWMLicenseBackup::BackupLicenses, IWMLicenseBackupBackupLicenses, wmformat.iwmlicensebackup_backuplicenses, wmsdkidl/IWMLicenseBackup::BackupLicenses
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMLicenseBackup.BackupLicenses"]
+f1_keywords: 
+ - "wmsdkidl/IWMLicenseBackup.BackupLicenses"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

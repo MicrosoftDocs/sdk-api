@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Instance_SetNameSpace, MI_Instance_SetNameSpace function [Windows Management Infrastructure (MI)], mi/MI_Instance_SetNameSpace, wmi_v2.mi_instance_setnamespace
 ms.topic: function
-f1_keywords: ["mi/MI_Instance_SetNameSpace"]
+f1_keywords: 
+ - "mi/MI_Instance_SetNameSpace"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

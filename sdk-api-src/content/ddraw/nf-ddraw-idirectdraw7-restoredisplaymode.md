@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectDraw7 interface [DirectDraw],RestoreDisplayMode method, IDirectDraw7.RestoreDisplayMode, IDirectDraw7::RestoreDisplayMode, RestoreDisplayMode, RestoreDisplayMode method [DirectDraw], RestoreDisplayMode method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::RestoreDisplayMode, directdraw.idirectdraw7_restoredisplaymode
 ms.topic: method
-f1_keywords: ["ddraw/IDirectDraw7.RestoreDisplayMode"]
+f1_keywords: 
+ - "ddraw/IDirectDraw7.RestoreDisplayMode"
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

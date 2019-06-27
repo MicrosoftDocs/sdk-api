@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWTA_OPTIONS, PWTA_OPTIONS, PWTA_OPTIONS structure pointer [Windows Controls], WTA_OPTIONS, WTA_OPTIONS structure [Windows Controls], controls.WTA_OPTIONS, controls.inet_WTA_OPTIONS, inet_WTA_OPTIONS, inet_WTA_OPTIONS_cpp, uxtheme/PWTA_OPTIONS, uxtheme/WTA_OPTIONS"
 ms.topic: struct
-f1_keywords: ["uxtheme/WTA_OPTIONS"]
+f1_keywords: 
+ - "uxtheme/WTA_OPTIONS"
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

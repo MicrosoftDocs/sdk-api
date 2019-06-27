@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WriteClassStm, WriteClassStm function [Structured Storage], _stg_writeclassstm, coml2api/WriteClassStm, stg.writeclassstm
 ms.topic: function
-f1_keywords: ["coml2api/WriteClassStm"]
+f1_keywords: 
+ - "coml2api/WriteClassStm"
 req.header: coml2api.h
 req.include-header: Ole2.h
 req.target-type: Windows

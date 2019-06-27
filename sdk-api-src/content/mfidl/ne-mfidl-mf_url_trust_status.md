@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_LICENSE_URL_TAMPERED, MF_LICENSE_URL_TRUSTED, MF_LICENSE_URL_UNTRUSTED, MF_URL_TRUST_STATUS, MF_URL_TRUST_STATUS enumeration [Media Foundation], fd008a23-71f7-4718-a51a-ee88453b6fdd, mf.mf_url_trust_status, mfidl/MF_LICENSE_URL_TAMPERED, mfidl/MF_LICENSE_URL_TRUSTED, mfidl/MF_LICENSE_URL_UNTRUSTED, mfidl/MF_URL_TRUST_STATUS
 ms.topic: enum
-f1_keywords: ["mfidl/MF_URL_TRUST_STATUS"]
+f1_keywords: 
+ - "mfidl/MF_URL_TRUST_STATUS"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

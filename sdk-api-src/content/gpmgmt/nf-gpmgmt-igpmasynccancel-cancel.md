@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [GPMC], Cancel method [GPMC],IGPMAsyncCancel interface, IGPMAsyncCancel interface [GPMC],Cancel method, IGPMAsyncCancel.Cancel, IGPMAsyncCancel::Cancel, _win32_igpmasynccancel_cancel, gpmc.igpmasynccancel_cancel, gpmgmt/IGPMAsyncCancel::Cancel
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPMAsyncCancel.Cancel"]
+f1_keywords: 
+ - "gpmgmt/IGPMAsyncCancel.Cancel"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

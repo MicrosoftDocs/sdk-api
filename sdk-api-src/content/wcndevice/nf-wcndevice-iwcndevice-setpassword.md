@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWCNDevice interface [Windows Connect Now],SetPassword method, IWCNDevice.SetPassword, IWCNDevice::SetPassword, SetPassword, SetPassword method [Windows Connect Now], SetPassword method [Windows Connect Now],IWCNDevice interface, WCN_PASSWORD_TYPE_PIN, WCN_PASSWORD_TYPE_PUSH_BUTTON, wcn.iwcndevice_setpassword, wcndevice/IWCNDevice::SetPassword
 ms.topic: method
-f1_keywords: ["wcndevice/IWCNDevice.SetPassword"]
+f1_keywords: 
+ - "wcndevice/IWCNDevice.SetPassword"
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows

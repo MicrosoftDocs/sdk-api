@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropertyModificationDate, GetPropertyModificationDate method [Windows Contacts], GetPropertyModificationDate method [Windows Contacts],IContactPropertyCollection interface, IContactPropertyCollection interface [Windows Contacts],GetPropertyModificationDate method, IContactPropertyCollection.GetPropertyModificationDate, IContactPropertyCollection::GetPropertyModificationDate, _wincontacts_IContactPropertyCollection_GetPropertyModificationDate, icontact/IContactPropertyCollection::GetPropertyModificationDate, wincontacts._wincontacts_IContactPropertyCollection_GetPropertyModificationDate
 ms.topic: method
-f1_keywords: ["icontact/IContactPropertyCollection.GetPropertyModificationDate"]
+f1_keywords: 
+ - "icontact/IContactPropertyCollection.GetPropertyModificationDate"
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

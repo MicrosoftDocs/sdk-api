@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpV4FailoverDeleteScopeFromRelationship, DhcpV4FailoverDeleteScopeFromRelationship function [DHCP], dhcp.dhcpv4failoverdeletescopefromrelationship, dhcpsapi/DhcpV4FailoverDeleteScopeFromRelationship
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpV4FailoverDeleteScopeFromRelationship"]
+f1_keywords: 
+ - "dhcpsapi/DhcpV4FailoverDeleteScopeFromRelationship"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

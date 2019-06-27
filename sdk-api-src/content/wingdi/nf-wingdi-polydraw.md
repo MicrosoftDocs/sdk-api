@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PT_BEZIERTO, PT_CLOSEFIGURE, PT_LINETO, PT_MOVETO, PolyDraw, PolyDraw function [Windows GDI], _win32_PolyDraw, gdi.polydraw, wingdi/PolyDraw
 ms.topic: function
-f1_keywords: ["wingdi/PolyDraw"]
+f1_keywords: 
+ - "wingdi/PolyDraw"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIfEntry2Ex, GetIfEntry2Ex function [IP Helper], MibIfEntryNormal, MibIfEntryNormalWithoutStatistics, iphlp.getifentry2ex, netioapi/GetIfEntry2Ex
 ms.topic: function
-f1_keywords: ["netioapi/GetIfEntry2Ex"]
+f1_keywords: 
+ - "netioapi/GetIfEntry2Ex"
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

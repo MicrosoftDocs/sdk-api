@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_CurrentForwardInfo method, ITAddress.get_CurrentForwardInfo, ITAddress::get_CurrentForwardInfo, _tapi3_itaddress_get_currentforwardinfo, get_CurrentForwardInfo, get_CurrentForwardInfo method [TAPI 2.2], get_CurrentForwardInfo method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_currentforwardinfo, tapi3if/ITAddress::get_CurrentForwardInfo
 ms.topic: method
-f1_keywords: ["tapi3if/ITAddress.get_CurrentForwardInfo"]
+f1_keywords: 
+ - "tapi3if/ITAddress.get_CurrentForwardInfo"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

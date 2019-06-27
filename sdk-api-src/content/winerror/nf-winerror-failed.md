@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FAILED, FAILED macro [COM], _com_FAILED, com.failed, com.failed_macro, winerror/FAILED
 ms.topic: macro
-f1_keywords: ["winerror/FAILED"]
+f1_keywords: 
+ - "winerror/FAILED"
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows

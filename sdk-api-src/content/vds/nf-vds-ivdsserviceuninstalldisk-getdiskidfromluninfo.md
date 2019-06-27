@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDiskIdFromLunInfo, GetDiskIdFromLunInfo method, GetDiskIdFromLunInfo method,IVdsServiceUninstallDisk interface, IVdsServiceUninstallDisk interface,GetDiskIdFromLunInfo method, IVdsServiceUninstallDisk.GetDiskIdFromLunInfo, IVdsServiceUninstallDisk::GetDiskIdFromLunInfo, base.ivdsserviceuninstalldisk_getdiskidfromluninfo, vds/IVdsServiceUninstallDisk::GetDiskIdFromLunInfo
 ms.topic: method
-f1_keywords: ["vds/IVdsServiceUninstallDisk.GetDiskIdFromLunInfo"]
+f1_keywords: 
+ - "vds/IVdsServiceUninstallDisk.GetDiskIdFromLunInfo"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

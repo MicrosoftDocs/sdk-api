@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WM_USER_WEB_URL, WM_USER_WEB_URL structure [windows Media Format], wmformat.wm_user_web_url, wmsdkidl/WM_USER_WEB_URL
 ms.topic: struct
-f1_keywords: ["wmsdkidl/WM_USER_WEB_URL"]
+f1_keywords: 
+ - "wmsdkidl/WM_USER_WEB_URL"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

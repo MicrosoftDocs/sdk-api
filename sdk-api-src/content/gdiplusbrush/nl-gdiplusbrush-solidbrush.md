@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SolidBrush, SolidBrush class [GDI+], SolidBrush class [GDI+],described, _gdiplus_CLASS_SolidBrush_Class, gdiplus._gdiplus_CLASS_SolidBrush_Class, gdiplusbrush/SolidBrush
 ms.topic: class
-f1_keywords: ["gdiplusbrush/SolidBrush"]
+f1_keywords: 
+ - "gdiplusbrush/SolidBrush"
 req.header: gdiplusbrush.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPDVD interface [Windows Media Player],get_domain method, IWMPDVD.get_domain, IWMPDVD::get_domain, IWMPDVDget_domain, get_domain, get_domain method [Windows Media Player], get_domain method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_get_domain, wmp/IWMPDVD::get_domain
 ms.topic: method
-f1_keywords: ["wmp/IWMPDVD.get_domain"]
+f1_keywords: 
+ - "wmp/IWMPDVD.get_domain"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

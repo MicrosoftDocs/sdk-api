@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INSTALLPROPERTY_DISKPROMPT, INSTALLPROPERTY_LASTUSEDSOURCE, INSTALLPROPERTY_MEDIAPACKAGEPATH, INSTALLPROPERTY_PACKAGENAME, MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MSISOURCETYPE_NETWORK, MSISOURCETYPE_URL, MsiSourceListSetInfo, MsiSourceListSetInfo function, MsiSourceListSetInfoA, MsiSourceListSetInfoW, NULL, User SID, msi/MsiSourceListSetInfo, msi/MsiSourceListSetInfoA, msi/MsiSourceListSetInfoW, setup.msisourcelistsetinfo
 ms.topic: function
-f1_keywords: ["msi/MsiSourceListSetInfo"]
+f1_keywords: 
+ - "msi/MsiSourceListSetInfo"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

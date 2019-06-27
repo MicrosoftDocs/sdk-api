@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VIFF_DONTDELETEOLD, VIFF_FORCEINSTALL, VerInstallFile, VerInstallFile function [Menus and Other Resources], VerInstallFileA, VerInstallFileW, _win32_VerInstallFile, _win32_verinstallfile_cpp, menurc.verinstallfile, winui._win32_verinstallfile, winver/VerInstallFile, winver/VerInstallFileA, winver/VerInstallFileW
 ms.topic: function
-f1_keywords: ["winver/VerInstallFile"]
+f1_keywords: 
+ - "winver/VerInstallFile"
 req.header: winver.h
 req.include-header: Windows.h
 req.target-type: Windows

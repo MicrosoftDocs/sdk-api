@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarR8Pow, VarR8Pow function [Automation], _oa96_VarR8Pow, automat.varr8pow, oleauto/VarR8Pow
 ms.topic: function
-f1_keywords: ["oleauto/VarR8Pow"]
+f1_keywords: 
+ - "oleauto/VarR8Pow"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

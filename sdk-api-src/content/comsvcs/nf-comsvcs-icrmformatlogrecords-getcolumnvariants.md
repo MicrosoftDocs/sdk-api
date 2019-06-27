@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColumnVariants, GetColumnVariants method [COM+], GetColumnVariants method [COM+],ICrmFormatLogRecords interface, ICrmFormatLogRecords interface [COM+],GetColumnVariants method, ICrmFormatLogRecords.GetColumnVariants, ICrmFormatLogRecords::GetColumnVariants, _dtc_ICrmFormatLogRecords_GetColumnVariants, comsvcs/ICrmFormatLogRecords::GetColumnVariants, cos.icrmformatlogrecords_getcolumnvariants
 ms.topic: method
-f1_keywords: ["comsvcs/ICrmFormatLogRecords.GetColumnVariants"]
+f1_keywords: 
+ - "comsvcs/ICrmFormatLogRecords.GetColumnVariants"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

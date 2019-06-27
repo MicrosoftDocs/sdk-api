@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSubscriptionService interface [Windows Media Player],allowCDBurn method, IWMPSubscriptionService.allowCDBurn, IWMPSubscriptionService::allowCDBurn, IWMPSubscriptionServiceallowCDBurn, allowCDBurn, allowCDBurn method [Windows Media Player], allowCDBurn method [Windows Media Player],IWMPSubscriptionService interface, subscriptionservices/IWMPSubscriptionService::allowCDBurn, wmp.iwmpsubscriptionservice_allowcdburn
 ms.topic: method
-f1_keywords: ["subscriptionservices/IWMPSubscriptionService.allowCDBurn"]
+f1_keywords: 
+ - "subscriptionservices/IWMPSubscriptionService.allowCDBurn"
 req.header: subscriptionservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllJoynConnectToBus, AllJoynConnectToBus function [AllJoyn API], alljoyn.alljoynconnecttobus, msajtransport/AllJoynConnectToBus
 ms.topic: function
-f1_keywords: ["msajtransport/AllJoynConnectToBus"]
+f1_keywords: 
+ - "msajtransport/AllJoynConnectToBus"
 req.header: msajtransport.h
 req.include-header: 
 req.target-type: Windows

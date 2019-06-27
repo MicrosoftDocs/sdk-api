@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IcmpSendEcho2, IcmpSendEcho2 function [IP Helper], _iphlp_icmpsendecho2, icmpapi/IcmpSendEcho2, iphlp.icmpsendecho2
 ms.topic: function
-f1_keywords: ["icmpapi/IcmpSendEcho2"]
+f1_keywords: 
+ - "icmpapi/IcmpSendEcho2"
 req.header: icmpapi.h
 req.include-header: 
 req.target-type: Windows

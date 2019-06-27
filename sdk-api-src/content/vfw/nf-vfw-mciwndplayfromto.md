@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndPlayFromTo, MCIWndPlayFromTo macro [Windows Multimedia], _win32_MCIWndPlayFromTo, multimedia.mciwndplayfromto, vfw/MCIWndPlayFromTo
 ms.topic: macro
-f1_keywords: ["vfw/MCIWndPlayFromTo"]
+f1_keywords: 
+ - "vfw/MCIWndPlayFromTo"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetShareCheck, NetShareCheck function [Files], STYPE_DEVICE, STYPE_DISKTREE, STYPE_IPC, STYPE_PRINTQ, STYPE_SPECIAL, STYPE_TEMPORARY, _win32_netsharecheck, fs.netsharecheck, lmshare/NetShareCheck, netmgmt.netsharecheck
 ms.topic: function
-f1_keywords: ["lmshare/NetShareCheck"]
+f1_keywords: 
+ - "lmshare/NetShareCheck"
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

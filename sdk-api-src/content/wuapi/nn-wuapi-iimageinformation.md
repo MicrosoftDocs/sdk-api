@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IImageInformation, IImageInformation interface [Windows Update Agent], IImageInformation interface [Windows Update Agent],described, wua.iimageinformation, wuapi/IImageInformation
 ms.topic: interface
-f1_keywords: ["wuapi/IImageInformation"]
+f1_keywords: 
+ - "wuapi/IImageInformation"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

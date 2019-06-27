@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertificateAttestationChallenge interface [Security],Initialize method, ICertificateAttestationChallenge.Initialize, ICertificateAttestationChallenge::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertificateAttestationChallenge interface, certenroll/ICertificateAttestationChallenge::Initialize, security.icertificateattestationchallenge_initialize
 ms.topic: method
-f1_keywords: ["certenroll/ICertificateAttestationChallenge.Initialize"]
+f1_keywords: 
+ - "certenroll/ICertificateAttestationChallenge.Initialize"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

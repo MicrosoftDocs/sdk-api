@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetURL, GetURL method [Media Foundation], GetURL method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetURL method, IMFHttpDownloadRequest.GetURL, IMFHttpDownloadRequest::GetURL, mf.imfhttpdownloadrequest_geturl, mfidl/IMFHttpDownloadRequest::GetURL
 ms.topic: method
-f1_keywords: ["mfidl/IMFHttpDownloadRequest.GetURL"]
+f1_keywords: 
+ - "mfidl/IMFHttpDownloadRequest.GetURL"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

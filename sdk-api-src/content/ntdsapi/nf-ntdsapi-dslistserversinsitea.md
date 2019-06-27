@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsListServersInSite, DsListServersInSite function [Active Directory], DsListServersInSiteA, DsListServersInSiteW, _glines_dslistserversinsite, ad.dslistserversinsite, ntdsapi/DsListServersInSite, ntdsapi/DsListServersInSiteA, ntdsapi/DsListServersInSiteW
 ms.topic: function
-f1_keywords: ["ntdsapi/DsListServersInSite"]
+f1_keywords: 
+ - "ntdsapi/DsListServersInSite"
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

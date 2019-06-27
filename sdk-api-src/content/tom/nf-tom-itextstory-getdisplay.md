@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDisplay, GetDisplay method [Windows Controls], GetDisplay method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetDisplay method, ITextStory.GetDisplay, ITextStory::GetDisplay, controls.itextstory_getdisplay, tom/ITextStory::GetDisplay
 ms.topic: method
-f1_keywords: ["tom/ITextStory.GetDisplay"]
+f1_keywords: 
+ - "tom/ITextStory.GetDisplay"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccessControl interface [COM],IsAccessAllowed method, IAccessControl.IsAccessAllowed, IAccessControl::IsAccessAllowed, IsAccessAllowed, IsAccessAllowed method [COM], IsAccessAllowed method [COM],IAccessControl interface, _com_iaccesscontrol_isaccessallowed, com.iaccesscontrol_isaccessallowed, iaccess/IAccessControl::IsAccessAllowed
 ms.topic: method
-f1_keywords: ["iaccess/IAccessControl.IsAccessAllowed"]
+f1_keywords: 
+ - "iaccess/IAccessControl.IsAccessAllowed"
 req.header: iaccess.h
 req.include-header: 
 req.target-type: Windows

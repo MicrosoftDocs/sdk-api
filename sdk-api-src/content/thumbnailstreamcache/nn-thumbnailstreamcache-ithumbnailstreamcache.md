@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IThumbnailStreamCache, IThumbnailStreamCache interface [Windows Shell], IThumbnailStreamCache interface [Windows Shell],described, shell.ithumbnailstreamcache, thumbnailstreamcache/IThumbnailStreamCache
 ms.topic: interface
-f1_keywords: ["thumbnailstreamcache/IThumbnailStreamCache"]
+f1_keywords: 
+ - "thumbnailstreamcache/IThumbnailStreamCache"
 req.header: thumbnailstreamcache.h
 req.include-header: 
 req.target-type: Windows

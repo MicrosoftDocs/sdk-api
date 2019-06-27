@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PENCLAVE_CREATE_INFO_VBS, ENCLAVE_CREATE_INFO_VBS, ENCLAVE_CREATE_INFO_VBS structure, ENCLAVE_VBS_FLAG_DEBUG, PENCLAVE_CREATE_INFO_VBS, PENCLAVE_CREATE_INFO_VBS structure pointer, base.enclave_create_info_vbs, winnt/ENCLAVE_CREATE_INFO_VBS, winnt/PENCLAVE_CREATE_INFO_VBS"
 ms.topic: struct
-f1_keywords: ["winnt/ENCLAVE_CREATE_INFO_VBS"]
+f1_keywords: 
+ - "winnt/ENCLAVE_CREATE_INFO_VBS"
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

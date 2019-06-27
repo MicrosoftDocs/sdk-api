@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCM_NOTIFY_EVENT_DATA, CM_NOTIFY_EVENT_DATA, CM_NOTIFY_EVENT_DATA structure [Device and Driver Installation], PCM_NOTIFY_EVENT_DATA, PCM_NOTIFY_EVENT_DATA structure pointer [Device and Driver Installation], cfgmgr32/CM_NOTIFY_EVENT_DATA, cfgmgr32/PCM_NOTIFY_EVENT_DATA, devinst.cm_notify_event_data"
 ms.topic: struct
-f1_keywords: ["cfgmgr32/CM_NOTIFY_EVENT_DATA"]
+f1_keywords: 
+ - "cfgmgr32/CM_NOTIFY_EVENT_DATA"
 req.header: cfgmgr32.h
 req.include-header: 
 req.target-type: Windows

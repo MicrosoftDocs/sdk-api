@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISupportFilteredSync, ISupportFilteredSync interface [Windows Sync], ISupportFilteredSync interface [Windows Sync],described, winsync.isupportfilteredsync, winsync/ISupportFilteredSync
 ms.topic: interface
-f1_keywords: ["winsync/ISupportFilteredSync"]
+f1_keywords: 
+ - "winsync/ISupportFilteredSync"
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

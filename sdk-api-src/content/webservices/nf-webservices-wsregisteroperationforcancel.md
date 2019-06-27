@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsRegisterOperationForCancel, WsRegisterOperationForCancel function [Web Services for Windows], webservices/WsRegisterOperationForCancel, wsw.wsregisteroperationforcancel
 ms.topic: function
-f1_keywords: ["webservices/WsRegisterOperationForCancel"]
+f1_keywords: 
+ - "webservices/WsRegisterOperationForCancel"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

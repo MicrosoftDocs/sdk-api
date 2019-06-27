@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBasicDevice interface [Media Streaming API],remove_ConnectionStatusChanged method, IBasicDevice.remove_ConnectionStatusChanged, IBasicDevice.streaming, IBasicDevice::remove_ConnectionStatusChanged, IBasicDevice::streaming, mediastreaming.ibasicdevice_remove_connectionstatuschanged, remove_ConnectionStatusChanged, remove_ConnectionStatusChanged method [Media Streaming API], remove_ConnectionStatusChanged method [Media Streaming API],IBasicDevice interface, windows/IBasicDevice::remove_ConnectionStatusChanged
 ms.topic: method
-f1_keywords: ["windows.media.streaming/IBasicDevice.remove_ConnectionStatusChanged"]
+f1_keywords: 
+ - "windows.media.streaming/IBasicDevice.remove_ConnectionStatusChanged"
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAtomName, GetAtomName function [Data Exchange], GetAtomNameA, GetAtomNameW, _win32_GetAtomName, _win32_getatomname_cpp, dataxchg.getatomname, winbase/GetAtomName, winbase/GetAtomNameA, winbase/GetAtomNameW, winui._win32_getatomname
 ms.topic: function
-f1_keywords: ["winbase/GetAtomName"]
+f1_keywords: 
+ - "winbase/GetAtomName"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

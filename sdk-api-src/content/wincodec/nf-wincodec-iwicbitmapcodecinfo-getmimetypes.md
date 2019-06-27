@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMimeTypes, GetMimeTypes method [Windows Imaging Component], GetMimeTypes method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],GetMimeTypes method, IWICBitmapCodecInfo.GetMimeTypes, IWICBitmapCodecInfo::GetMimeTypes, _wic_codec_iwicbitmapcodecinfo_getmimetypes, wic._wic_codec_iwicbitmapcodecinfo_getmimetypes, wincodec/IWICBitmapCodecInfo::GetMimeTypes
 ms.topic: method
-f1_keywords: ["wincodec/IWICBitmapCodecInfo.GetMimeTypes"]
+f1_keywords: 
+ - "wincodec/IWICBitmapCodecInfo.GetMimeTypes"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

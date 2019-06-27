@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTcp6Table2, GetTcp6Table2 function [IP Helper], iphlp.gettcp6table2, iphlpapi/GetTcp6Table2
 ms.topic: function
-f1_keywords: ["iphlpapi/GetTcp6Table2"]
+f1_keywords: 
+ - "iphlpapi/GetTcp6Table2"
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

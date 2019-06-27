@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetService, GetService method [Windows Management Instrumentation], GetService method [Windows Management Instrumentation],IWbemDecoupledBasicEventProvider interface, GetService method [Windows Management Instrumentation],WbemDecoupledBasicEventProvider object, IWbemDecoupledBasicEventProvider interface [Windows Management Instrumentation],GetService method, IWbemDecoupledBasicEventProvider.GetService, IWbemDecoupledBasicEventProvider::GetService, WbemDecoupledBasicEventProvider object [Windows Management Instrumentation],GetService method, _hmm_iwbemdecoupledbasiceventprovider_getservice, wbemprov/IWbemDecoupledBasicEventProvider::GetService, wmi.iwbemdecoupledbasiceventprovider_getservice
 ms.topic: method
-f1_keywords: ["wbemprov/IWbemDecoupledBasicEventProvider.GetService"]
+f1_keywords: 
+ - "wbemprov/IWbemDecoupledBasicEventProvider.GetService"
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

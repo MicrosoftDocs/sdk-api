@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioPeakMeter, IAudioPeakMeter interface [Core Audio], IAudioPeakMeter interface [Core Audio],described, coreaudio.iaudiopeakmeter, devicetopology/IAudioPeakMeter
 ms.topic: interface
-f1_keywords: ["devicetopology/IAudioPeakMeter"]
+f1_keywords: 
+ - "devicetopology/IAudioPeakMeter"
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

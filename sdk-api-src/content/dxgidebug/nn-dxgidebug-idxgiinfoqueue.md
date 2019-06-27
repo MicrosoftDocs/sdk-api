@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], IDXGIInfoQueue interface [DXGI],described, direct3ddxgi.idxgiinfoqueue, dxgidebug/IDXGIInfoQueue
 ms.topic: interface
-f1_keywords: ["dxgidebug/IDXGIInfoQueue"]
+f1_keywords: 
+ - "dxgidebug/IDXGIInfoQueue"
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

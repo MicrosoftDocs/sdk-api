@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILocator interface [Microsoft TV Technologies],put_Modulation method, ILocator.put_Modulation, ILocator::put_Modulation, ILocatorput_Modulation, mstv.ilocator_put_modulation, put_Modulation, put_Modulation method [Microsoft TV Technologies], put_Modulation method [Microsoft TV Technologies],ILocator interface, tuner/ILocator::put_Modulation
 ms.topic: method
-f1_keywords: ["tuner/ILocator.put_Modulation"]
+f1_keywords: 
+ - "tuner/ILocator.put_Modulation"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

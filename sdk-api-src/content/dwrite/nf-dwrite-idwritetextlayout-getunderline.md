@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUnderline, GetUnderline method [Direct Write], GetUnderline method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetUnderline method, IDWriteTextLayout.GetUnderline, IDWriteTextLayout::GetUnderline, directwrite.IDWriteTextLayout_GetUnderline, dwrite/IDWriteTextLayout::GetUnderline
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextLayout.GetUnderline"]
+f1_keywords: 
+ - "dwrite/IDWriteTextLayout.GetUnderline"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAngularVelocity, GetAngularVelocity method [Windows Touch], GetAngularVelocity method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],GetAngularVelocity method, IManipulationProcessor.GetAngularVelocity, IManipulationProcessor::GetAngularVelocity, manipulations/IManipulationProcessor::GetAngularVelocity, wintouch.imanipulationprocessor_getangularvelocity
 ms.topic: method
-f1_keywords: ["manipulations/IManipulationProcessor.GetAngularVelocity"]
+f1_keywords: 
+ - "manipulations/IManipulationProcessor.GetAngularVelocity"
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMLicenseRestore interface [windows Media Format],RestoreLicenses method, IWMLicenseRestore.RestoreLicenses, IWMLicenseRestore::RestoreLicenses, IWMLicenseRestoreRestoreLicenses, RestoreLicenses, RestoreLicenses method [windows Media Format], RestoreLicenses method [windows Media Format],IWMLicenseRestore interface, wmformat.iwmlicenserestore_restorelicenses, wmsdkidl/IWMLicenseRestore::RestoreLicenses
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMLicenseRestore.RestoreLicenses"]
+f1_keywords: 
+ - "wmsdkidl/IWMLicenseRestore.RestoreLicenses"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

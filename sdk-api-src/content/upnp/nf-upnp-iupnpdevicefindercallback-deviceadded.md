@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeviceAdded, DeviceAdded method [UPnP APIs], DeviceAdded method [UPnP APIs],IUPnPDeviceFinderCallback interface, IUPnPDeviceFinderCallback interface [UPnP APIs],DeviceAdded method, IUPnPDeviceFinderCallback.DeviceAdded, IUPnPDeviceFinderCallback::DeviceAdded, _upnp_iupnpdevicefindercallback_deviceadded, upnp.iupnpdevicefindercallback_deviceadded, upnp/IUPnPDeviceFinderCallback::DeviceAdded
 ms.topic: method
-f1_keywords: ["upnp/IUPnPDeviceFinderCallback.DeviceAdded"]
+f1_keywords: 
+ - "upnp/IUPnPDeviceFinderCallback.DeviceAdded"
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

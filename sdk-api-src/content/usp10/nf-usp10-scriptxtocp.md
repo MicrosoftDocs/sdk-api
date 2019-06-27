@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScriptXtoCP, ScriptXtoCP function [Internationalization for Windows Applications], _win32_ScriptXtoCP, intl.scriptxtocp, usp10/ScriptXtoCP
 ms.topic: function
-f1_keywords: ["usp10/ScriptXtoCP"]
+f1_keywords: 
+ - "usp10/ScriptXtoCP"
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

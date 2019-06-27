@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ActivateBackgroundTask, ActivateBackgroundTask method [Windows Shell], ActivateBackgroundTask method [Windows Shell],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Shell],ActivateBackgroundTask method, IPackageDebugSettings.ActivateBackgroundTask, IPackageDebugSettings::ActivateBackgroundTask, shell.IPackageDebugSettings_ActivateBackgroundTask, shobjidl_core/IPackageDebugSettings::ActivateBackgroundTask
 ms.topic: method
-f1_keywords: ["shobjidl_core/IPackageDebugSettings.ActivateBackgroundTask"]
+f1_keywords: 
+ - "shobjidl_core/IPackageDebugSettings.ActivateBackgroundTask"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

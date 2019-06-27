@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsSyntax, IADsSyntax interface [ADSI], IADsSyntax interface [ADSI],described, _ds_iadssyntax, adsi.iadssyntax, iads/IADsSyntax
 ms.topic: interface
-f1_keywords: ["iads/IADsSyntax"]
+f1_keywords: 
+ - "iads/IADsSyntax"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

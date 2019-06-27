@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumResources, EnumResources method [Windows Shell], EnumResources method [Windows Shell],IShellItemResources interface, IShellItemResources interface [Windows Shell],EnumResources method, IShellItemResources.EnumResources, IShellItemResources::EnumResources, _shell_IShellItemResources_EnumResources, shell.IShellItemResources_EnumResources, shobjidl_core/IShellItemResources::EnumResources
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellItemResources.EnumResources"]
+f1_keywords: 
+ - "shobjidl_core/IShellItemResources.EnumResources"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

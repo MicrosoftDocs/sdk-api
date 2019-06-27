@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCreatePropSheetExtArray, SHCreatePropSheetExtArray function [Windows Shell], _win32_SHCreatePropSheetExtArray, shell.SHCreatePropSheetExtArray, shlobj/SHCreatePropSheetExtArray
 ms.topic: function
-f1_keywords: ["shlobj/SHCreatePropSheetExtArray"]
+f1_keywords: 
+ - "shlobj/SHCreatePropSheetExtArray"
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

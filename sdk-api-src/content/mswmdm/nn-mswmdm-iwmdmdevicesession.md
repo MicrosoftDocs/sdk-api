@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDMDeviceSession, IWMDMDeviceSession interface [windows Media Device Manager], IWMDMDeviceSession interface [windows Media Device Manager],described, IWMDMDeviceSessionInterface, mswmdm/IWMDMDeviceSession, wmdm.iwmdmdevicesession
 ms.topic: interface
-f1_keywords: ["mswmdm/IWMDMDeviceSession"]
+f1_keywords: 
+ - "mswmdm/IWMDMDeviceSession"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

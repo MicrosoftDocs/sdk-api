@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Contains, Contains methods [GDI+], Rect.Contains, Rect.Contains(IN Rect &), Rect::Contains, Rect::Contains(IN Rect &), _gdiplus_CLASS_Rect_Contains_Methods, gdiplus._gdiplus_CLASS_Rect_Contains_Methods, gdiplustypes/Contains
 ms.topic: method
-f1_keywords: ["gdiplustypes/Rect.Contains"]
+f1_keywords: 
+ - "gdiplustypes/Rect.Contains"
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows

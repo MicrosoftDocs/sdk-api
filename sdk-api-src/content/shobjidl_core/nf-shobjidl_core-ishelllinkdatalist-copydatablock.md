@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyDataBlock, CopyDataBlock method [Windows Shell], CopyDataBlock method [Windows Shell],IShellLinkDataList interface, IShellLinkDataList interface [Windows Shell],CopyDataBlock method, IShellLinkDataList.CopyDataBlock, IShellLinkDataList::CopyDataBlock, _win32_IShellLinkDataList_CopyDataBlock, shell.IShellLinkDataList_CopyDataBlock, shobjidl_core/IShellLinkDataList::CopyDataBlock
 ms.topic: method
-f1_keywords: ["shobjidl_core/IShellLinkDataList.CopyDataBlock"]
+f1_keywords: 
+ - "shobjidl_core/IShellLinkDataList.CopyDataBlock"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

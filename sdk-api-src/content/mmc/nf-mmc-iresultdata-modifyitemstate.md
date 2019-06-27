@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IResultData interface [MMC],ModifyItemState method, IResultData.ModifyItemState, IResultData2 interface [MMC],ModifyItemState method, IResultData2::ModifyItemState, IResultData::ModifyItemState, LVIS_CUT, LVIS_DROPHILITED, LVIS_FOCUSED, LVIS_SELECTED, ModifyItemState, ModifyItemState method [MMC], ModifyItemState method [MMC],IResultData interface, ModifyItemState method [MMC],IResultData2 interface, _slate_iresultdata_modifyitemstate, mmc.iresultdata_modifyitemstate, mmc/IResultData2::ModifyItemState, mmc/IResultData::ModifyItemState
 ms.topic: method
-f1_keywords: ["mmc/IResultData.ModifyItemState"]
+f1_keywords: 
+ - "mmc/IResultData.ModifyItemState"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

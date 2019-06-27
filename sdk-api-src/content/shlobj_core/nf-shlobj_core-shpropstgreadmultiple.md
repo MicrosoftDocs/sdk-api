@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHPropStgReadMultiple, SHPropStgReadMultiple function [Windows Properties], _win32_SHPropStgReadMultiple, properties.SHPropStgReadMultiple, shell.SHPropStgReadMultiple, shlobj_core/SHPropStgReadMultiple
 ms.topic: function
-f1_keywords: ["shlobj_core/SHPropStgReadMultiple"]
+f1_keywords: 
+ - "shlobj_core/SHPropStgReadMultiple"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

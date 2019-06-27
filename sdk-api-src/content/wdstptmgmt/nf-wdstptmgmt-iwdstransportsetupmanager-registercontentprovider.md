@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportSetupManager interface [Windows Deployment Services],RegisterContentProvider method, IWdsTransportSetupManager.RegisterContentProvider, IWdsTransportSetupManager::RegisterContentProvider, RegisterContentProvider, RegisterContentProvider method [Windows Deployment Services], RegisterContentProvider method [Windows Deployment Services],IWdsTransportSetupManager interface, wds.iwdstransportsetupmanager_registercontentprovider, wdstptmgmt/IWdsTransportSetupManager::RegisterContentProvider
 ms.topic: method
-f1_keywords: ["wdstptmgmt/IWdsTransportSetupManager.RegisterContentProvider"]
+f1_keywords: 
+ - "wdstptmgmt/IWdsTransportSetupManager.RegisterContentProvider"
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

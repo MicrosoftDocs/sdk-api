@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1BitmapBrush interface [Direct2D],SetBitmap method, ID2D1BitmapBrush.SetBitmap, ID2D1BitmapBrush::SetBitmap, SetBitmap, SetBitmap method [Direct2D], SetBitmap method [Direct2D],ID2D1BitmapBrush interface, d2d1/ID2D1BitmapBrush::SetBitmap, direct2d.ID2D1BitmapBrush_SetBitmap
 ms.topic: method
-f1_keywords: ["d2d1/ID2D1BitmapBrush.SetBitmap"]
+f1_keywords: 
+ - "d2d1/ID2D1BitmapBrush.SetBitmap"
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

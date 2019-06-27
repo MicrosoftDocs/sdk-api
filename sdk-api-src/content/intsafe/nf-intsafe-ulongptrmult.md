@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ULongPtrMult, ULongPtrMult function [Windows Shell], _shell_ULongPtrMult, intsafe/ULongPtrMult, shell.ULongPtrMult
 ms.topic: function
-f1_keywords: ["intsafe/ULongPtrMult"]
+f1_keywords: 
+ - "intsafe/ULongPtrMult"
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

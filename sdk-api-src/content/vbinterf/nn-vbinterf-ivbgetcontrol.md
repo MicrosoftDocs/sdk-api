@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVBGetControl, IVBGetControl interface [COM], IVBGetControl interface [COM],described, _com_IVBGetControl, com.ivbgetcontrol, vbinterf/IVBGetControl
 ms.topic: interface
-f1_keywords: ["vbinterf/IVBGetControl"]
+f1_keywords: 
+ - "vbinterf/IVBGetControl"
 req.header: vbinterf.h
 req.include-header: 
 req.target-type: Windows

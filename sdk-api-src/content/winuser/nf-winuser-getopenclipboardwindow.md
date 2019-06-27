@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOpenClipboardWindow, GetOpenClipboardWindow function [Data Exchange], _win32_GetOpenClipboardWindow, _win32_getopenclipboardwindow_cpp, dataxchg.getopenclipboardwindow, winui._win32_getopenclipboardwindow, winuser/GetOpenClipboardWindow
 ms.topic: function
-f1_keywords: ["winuser/GetOpenClipboardWindow"]
+f1_keywords: 
+ - "winuser/GetOpenClipboardWindow"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

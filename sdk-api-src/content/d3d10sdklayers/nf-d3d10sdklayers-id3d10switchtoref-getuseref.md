@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 7b8a132d-2a68-b9bc-338e-0378d33147cd, GetUseRef, GetUseRef method [Direct3D 10], GetUseRef method [Direct3D 10],ID3D10SwitchToRef interface, ID3D10SwitchToRef interface [Direct3D 10],GetUseRef method, ID3D10SwitchToRef.GetUseRef, ID3D10SwitchToRef::GetUseRef, d3d10sdklayers/ID3D10SwitchToRef::GetUseRef, direct3d10.id3d10switchtoref_getuseref
 ms.topic: method
-f1_keywords: ["d3d10sdklayers/ID3D10SwitchToRef.GetUseRef"]
+f1_keywords: 
+ - "d3d10sdklayers/ID3D10SwitchToRef.GetUseRef"
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

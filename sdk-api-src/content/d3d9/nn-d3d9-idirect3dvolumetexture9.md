@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirect3DVolumeTexture9, IDirect3DVolumeTexture9 interface [Direct3D 9], IDirect3DVolumeTexture9 interface [Direct3D 9],described, ac7e332f-4255-e077-7804-d9a2e2476d37, d3d9helper/IDirect3DVolumeTexture9, direct3d9.idirect3dvolumetexture9
 ms.topic: interface
-f1_keywords: ["d3d9/IDirect3DVolumeTexture9"]
+f1_keywords: 
+ - "d3d9/IDirect3DVolumeTexture9"
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

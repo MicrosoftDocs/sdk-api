@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthzInitializeCompoundContext, AuthzInitializeCompoundContext function [Security], authz/AuthzInitializeCompoundContext, security.authzinitializecompoundcontext
 ms.topic: function
-f1_keywords: ["authz/AuthzInitializeCompoundContext"]
+f1_keywords: 
+ - "authz/AuthzInitializeCompoundContext"
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

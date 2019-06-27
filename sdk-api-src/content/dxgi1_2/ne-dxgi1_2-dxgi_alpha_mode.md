@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXGI_ALPHA_MODE, DXGI_ALPHA_MODE enumeration [DXGI], DXGI_ALPHA_MODE_FORCE_DWORD, DXGI_ALPHA_MODE_IGNORE, DXGI_ALPHA_MODE_PREMULTIPLIED, DXGI_ALPHA_MODE_STRAIGHT, DXGI_ALPHA_MODE_UNSPECIFIED, direct3ddxgi.dxgi_alpha_mode, dxgi1_2/DXGI_ALPHA_MODE, dxgi1_2/DXGI_ALPHA_MODE_FORCE_DWORD, dxgi1_2/DXGI_ALPHA_MODE_IGNORE, dxgi1_2/DXGI_ALPHA_MODE_PREMULTIPLIED, dxgi1_2/DXGI_ALPHA_MODE_STRAIGHT, dxgi1_2/DXGI_ALPHA_MODE_UNSPECIFIED
 ms.topic: enum
-f1_keywords: ["dxgi1_2/DXGI_ALPHA_MODE"]
+f1_keywords: 
+ - "dxgi1_2/DXGI_ALPHA_MODE"
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PJOBOBJECT_EXTENDED_LIMIT_INFORMATION, JOBOBJECT_EXTENDED_LIMIT_INFORMATION, JOBOBJECT_EXTENDED_LIMIT_INFORMATION structure, PJOBOBJECT_EXTENDED_LIMIT_INFORMATION, PJOBOBJECT_EXTENDED_LIMIT_INFORMATION structure pointer, _JOBOBJECT_EXTENDED_LIMIT_INFORMATION, _win32_jobobject_extended_limit_information_str, base.jobobject_extended_limit_information_str, winnt/JOBOBJECT_EXTENDED_LIMIT_INFORMATION, winnt/PJOBOBJECT_EXTENDED_LIMIT_INFORMATION"
 ms.topic: struct
-f1_keywords: ["winnt/JOBOBJECT_EXTENDED_LIMIT_INFORMATION"]
+f1_keywords: 
+ - "winnt/JOBOBJECT_EXTENDED_LIMIT_INFORMATION"
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

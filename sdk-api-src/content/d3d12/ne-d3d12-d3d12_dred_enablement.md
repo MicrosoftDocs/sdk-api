@@ -7,7 +7,8 @@ ms.author: windowssdkdev
 ms.date: 02/07/2019
 ms.keywords: D3D12_DRED_ENABLEMENT, D3D12_DRED_ENABLEMENT enumeration, d3d12/D3D12_DRED_ENABLEMENT, d3d12/D3D12_DRED_ENABLEMENT enumeration, direct3d12.d3d12_dred_enablement
 ms.topic: enum
-f1_keywords: ["d3d12/D3D12_DRED_ENABLEMENT"]
+f1_keywords: 
+ - "d3d12/D3D12_DRED_ENABLEMENT"
 targetos: Windows
 product: Windows
 req.construct-type: enumeration

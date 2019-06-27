@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWinMLRuntime, IWinMLRuntime interface, IWinMLRuntime interface,described, MachineLearning.iwinmlruntime, winml/IWinMLRuntime
 ms.topic: interface
-f1_keywords: ["winml/IWinMLRuntime"]
+f1_keywords: 
+ - "winml/IWinMLRuntime"
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

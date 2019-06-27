@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ASC_REQ_CONFIDENTIALITY, ASC_REQ_HTTP, SaslAcceptSecurityContext, SaslAcceptSecurityContext function [Security], security.saslacceptsecuritycontext, sspi/SaslAcceptSecurityContext
 ms.topic: function
-f1_keywords: ["sspi/SaslAcceptSecurityContext"]
+f1_keywords: 
+ - "sspi/SaslAcceptSecurityContext"
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

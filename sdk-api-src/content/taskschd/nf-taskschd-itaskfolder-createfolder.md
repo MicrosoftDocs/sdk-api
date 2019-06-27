@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateFolder, CreateFolder method [Task Scheduler], CreateFolder method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],CreateFolder method, ITaskFolder.CreateFolder, ITaskFolder::CreateFolder, taskschd.itaskfolder_createfolder, taskschd/ITaskFolder::CreateFolder
 ms.topic: method
-f1_keywords: ["taskschd/ITaskFolder.CreateFolder"]
+f1_keywords: 
+ - "taskschd/ITaskFolder.CreateFolder"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

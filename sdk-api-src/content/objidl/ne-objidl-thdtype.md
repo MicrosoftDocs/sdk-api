@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: THDTYPE, THDTYPE enumeration [COM], THDTYPE_BLOCKMESSAGES, THDTYPE_PROCESSMESSAGES, _com_THDTYPE, com.thdtype, objidlbase/THDTYPE, objidlbase/THDTYPE_BLOCKMESSAGES, objidlbase/THDTYPE_PROCESSMESSAGES
 ms.topic: enum
-f1_keywords: ["objidl/THDTYPE"]
+f1_keywords: 
+ - "objidl/THDTYPE"
 req.header: objidl.h
 req.include-header: Objidl.h
 req.target-type: Windows

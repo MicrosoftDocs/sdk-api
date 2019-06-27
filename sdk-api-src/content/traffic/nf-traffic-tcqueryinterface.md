@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TcQueryInterface, TcQueryInterface function [QOS], _gqos_tcqueryinterface, qos.tcqueryinterface, traffic/TcQueryInterface
 ms.topic: function
-f1_keywords: ["traffic/TcQueryInterface"]
+f1_keywords: 
+ - "traffic/TcQueryInterface"
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

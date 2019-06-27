@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSERVER_INFO_1540, *PSERVER_INFO_1540, LPSERVER_INFO_1540, LPSERVER_INFO_1540 structure pointer [Network Management], PSERVER_INFO_1540, PSERVER_INFO_1540 structure pointer [Network Management], SERVER_INFO_1540, SERVER_INFO_1540 structure [Network Management], _win32_server_info_1540_str, lmserver/LPSERVER_INFO_1540, lmserver/PSERVER_INFO_1540, lmserver/SERVER_INFO_1540, netmgmt.server_info_1540_str"
 ms.topic: struct
-f1_keywords: ["lmserver/SERVER_INFO_1540"]
+f1_keywords: 
+ - "lmserver/SERVER_INFO_1540"
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows

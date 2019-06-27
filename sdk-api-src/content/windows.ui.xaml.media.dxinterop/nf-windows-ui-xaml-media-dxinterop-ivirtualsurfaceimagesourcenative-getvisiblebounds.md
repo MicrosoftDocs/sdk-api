@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVisibleBounds, GetVisibleBounds method [Windows Runtime], GetVisibleBounds method [Windows Runtime],IVirtualSurfaceImageSourceNative interface, IVirtualSurfaceImageSourceNative interface [Windows Runtime],GetVisibleBounds method, IVirtualSurfaceImageSourceNative.GetVisibleBounds, IVirtualSurfaceImageSourceNative.xaml, IVirtualSurfaceImageSourceNative::GetVisibleBounds, IVirtualSurfaceImageSourceNative::xaml, windows/IVirtualSurfaceImageSourceNative::GetVisibleBounds, winrt.ivirtualsurfaceimagesourcenative_getvisiblebounds
 ms.topic: method
-f1_keywords: ["windows.ui.xaml.media.dxinterop/IVirtualSurfaceImageSourceNative.GetVisibleBounds"]
+f1_keywords: 
+ - "windows.ui.xaml.media.dxinterop/IVirtualSurfaceImageSourceNative.GetVisibleBounds"
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows

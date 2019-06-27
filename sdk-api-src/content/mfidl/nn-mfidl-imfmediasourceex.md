@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSourceEx, IMFMediaSourceEx interface [Media Foundation], IMFMediaSourceEx interface [Media Foundation],described, mf.imfmediasourceex, mfidl/IMFMediaSourceEx
 ms.topic: interface
-f1_keywords: ["mfidl/IMFMediaSourceEx"]
+f1_keywords: 
+ - "mfidl/IMFMediaSourceEx"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

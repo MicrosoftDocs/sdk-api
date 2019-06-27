@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTfInputProcessorProfiles interface [Text Services Framework],Reset method, IEnumTfInputProcessorProfiles.Reset, IEnumTfInputProcessorProfiles::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfInputProcessorProfiles interface, msctf/IEnumTfInputProcessorProfiles::Reset, tsf.ienumtfinputprocessorprofiles_reset
 ms.topic: method
-f1_keywords: ["msctf/IEnumTfInputProcessorProfiles.Reset"]
+f1_keywords: 
+ - "msctf/IEnumTfInputProcessorProfiles.Reset"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

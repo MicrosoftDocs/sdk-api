@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Image, Image constructors [GDI+], Image.Image, Image.Image(IN const Image &), Image::Image, Image::Image(IN const Image &), _gdiplus_CLASS_Image_Constructors, gdiplus._gdiplus_CLASS_Image_Constructors, gdiplusheaders/Image
 ms.topic: method
-f1_keywords: ["gdiplusheaders/Image.Image"]
+f1_keywords: 
+ - "gdiplusheaders/Image.Image"
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows

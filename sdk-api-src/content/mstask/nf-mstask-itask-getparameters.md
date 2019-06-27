@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetParameters, GetParameters method [Task Scheduler], GetParameters method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetParameters method, ITask.GetParameters, ITask::GetParameters, _msb_itask_getparameters, mstask/ITask::GetParameters, taskschd.itask_getparameters
 ms.topic: method
-f1_keywords: ["mstask/ITask.GetParameters"]
+f1_keywords: 
+ - "mstask/ITask.GetParameters"
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent2 interface [DirectShow],get_PlaylistCount method, IAMMediaContent2.get_PlaylistCount, IAMMediaContent2::get_PlaylistCount, IAMMediaContent2get_PlaylistCount, dshow.iammediacontent2_get_playlistcount, get_PlaylistCount, get_PlaylistCount method [DirectShow], get_PlaylistCount method [DirectShow],IAMMediaContent2 interface, qnetwork/IAMMediaContent2::get_PlaylistCount
 ms.topic: method
-f1_keywords: ["qnetwork/IAMMediaContent2.get_PlaylistCount"]
+f1_keywords: 
+ - "qnetwork/IAMMediaContent2.get_PlaylistCount"
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

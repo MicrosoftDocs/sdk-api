@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_PROVIDER_PROP, VDS_PROVIDER_PROP structure [VDS], base.vds_provider_prop, vds/_VDS_PROVIDER_PROP, vdshwprv/_VDS_PROVIDER_PROP
 ms.topic: struct
-f1_keywords: ["vds/VDS_PROVIDER_PROP"]
+f1_keywords: 
+ - "vds/VDS_PROVIDER_PROP"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

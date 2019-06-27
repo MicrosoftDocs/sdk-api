@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzScopes object [Security],_NewEnum property, IAzScopes interface [Security],_NewEnum property, IAzScopes._NewEnum, IAzScopes.get__NewEnum, IAzScopes::_NewEnum, IAzScopes::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],AzScopes object, _NewEnum property [Security],IAzScopes interface, azroles/IAzScopes::_NewEnum, azroles/IAzScopes::get__NewEnum, get__NewEnum, security.iazscopes_newenum
 ms.topic: method
-f1_keywords: ["azroles/IAzScopes._NewEnum"]
+f1_keywords: 
+ - "azroles/IAzScopes._NewEnum"
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

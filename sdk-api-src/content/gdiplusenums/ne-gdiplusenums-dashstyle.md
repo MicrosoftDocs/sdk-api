@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DashStyle, DashStyle enumeration [GDI+], DashStyleCustom, DashStyleDash, DashStyleDashDot, DashStyleDashDotDot, DashStyleDot, DashStyleSolid, _gdiplus_ENUM_DashStyle, gdiplus._gdiplus_ENUM_DashStyle, gdiplusenums/DashStyle, gdiplusenums/DashStyleCustom, gdiplusenums/DashStyleDash, gdiplusenums/DashStyleDashDot, gdiplusenums/DashStyleDashDotDot, gdiplusenums/DashStyleDot, gdiplusenums/DashStyleSolid
 ms.topic: enum
-f1_keywords: ["gdiplusenums/DashStyle"]
+f1_keywords: 
+ - "gdiplusenums/DashStyle"
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

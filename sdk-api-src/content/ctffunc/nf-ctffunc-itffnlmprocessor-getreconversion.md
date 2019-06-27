@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetReconversion, GetReconversion method [Text Services Framework], GetReconversion method [Text Services Framework],ITfFnLMProcessor interface, ITfFnLMProcessor interface [Text Services Framework],GetReconversion method, ITfFnLMProcessor.GetReconversion, ITfFnLMProcessor::GetReconversion, _tsf_itffnlmprocessor_getreconversion_ref, ctffunc/ITfFnLMProcessor::GetReconversion, tsf.itffnlmprocessor_getreconversion
 ms.topic: method
-f1_keywords: ["ctffunc/ITfFnLMProcessor.GetReconversion"]
+f1_keywords: 
+ - "ctffunc/ITfFnLMProcessor.GetReconversion"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

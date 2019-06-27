@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterUpgradeFunctionalLevel, ClusterUpgradeFunctionalLevel function [Failover Cluster], PCLUSAPI_CLUSTER_UPGRADE, PCLUSAPI_CLUSTER_UPGRADE function [Failover Cluster], clusapi/ClusterUpgradeFunctionalLevel, clusapi/PCLUSAPI_CLUSTER_UPGRADE, mscs.clusterupgradefunctionallevel
 ms.topic: function
-f1_keywords: ["clusapi/ClusterUpgradeFunctionalLevel"]
+f1_keywords: 
+ - "clusapi/ClusterUpgradeFunctionalLevel"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

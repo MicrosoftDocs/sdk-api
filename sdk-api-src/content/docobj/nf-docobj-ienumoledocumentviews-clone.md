@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumOleDocumentViews interface, IEnumOleDocumentViews interface [COM],Clone method, IEnumOleDocumentViews.Clone, IEnumOleDocumentViews::Clone, _ole_ienumoledocumentviews_clone, com.ienumoledocumentviews_clone, docobj/IEnumOleDocumentViews::Clone
 ms.topic: method
-f1_keywords: ["docobj/IEnumOleDocumentViews.Clone"]
+f1_keywords: 
+ - "docobj/IEnumOleDocumentViews.Clone"
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

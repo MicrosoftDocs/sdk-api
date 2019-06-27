@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddSourceFilter, AddSourceFilter method [DirectShow], AddSourceFilter method [DirectShow],IGraphBuilder interface, IGraphBuilder interface [DirectShow],AddSourceFilter method, IGraphBuilder.AddSourceFilter, IGraphBuilder::AddSourceFilter, IGraphBuilderAddSourceFilter, dshow.igraphbuilder_addsourcefilter, strmif/IGraphBuilder::AddSourceFilter
 ms.topic: method
-f1_keywords: ["strmif/IGraphBuilder.AddSourceFilter"]
+f1_keywords: 
+ - "strmif/IGraphBuilder.AddSourceFilter"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTfUIElements, IEnumTfUIElements interface [Text Services Framework], IEnumTfUIElements interface [Text Services Framework],described, _tsf_ienumtfuielements_ref, msctf/IEnumTfUIElements, tsf.ienumtfuielements
 ms.topic: interface
-f1_keywords: ["msctf/IEnumTfUIElements"]
+f1_keywords: 
+ - "msctf/IEnumTfUIElements"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITransportStreamEvents interface [RDP],OnStreamClosed method, IRDPSRAPITransportStreamEvents.OnStreamClosed, IRDPSRAPITransportStreamEvents::OnStreamClosed, OnStreamClosed, OnStreamClosed method [RDP], OnStreamClosed method [RDP],IRDPSRAPITransportStreamEvents interface, rdp.irdpsrapitransportstreamevents_onstreamclosed, rdpencomapi/IRDPSRAPITransportStreamEvents::OnStreamClosed
 ms.topic: method
-f1_keywords: ["rdpencomapi/IRDPSRAPITransportStreamEvents.OnStreamClosed"]
+f1_keywords: 
+ - "rdpencomapi/IRDPSRAPITransportStreamEvents.OnStreamClosed"
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWTSLISTENERCONFIGW, 1, 2, 3, 4, 5, PWTSLISTENERCONFIG, PWTSLISTENERCONFIG structure pointer [Remote Desktop Services], WTSLISTENERCONFIG, WTSLISTENERCONFIG structure [Remote Desktop Services], WTSLISTENERCONFIGA, WTSLISTENERCONFIGW, termserv.wtslistenerconfig, wtsapi32/PWTSLISTENERCONFIG, wtsapi32/WTSLISTENERCONFIG, wtsapi32/WTSLISTENERCONFIGA, wtsapi32/WTSLISTENERCONFIGW"
 ms.topic: struct
-f1_keywords: ["wtsapi32/WTSLISTENERCONFIG"]
+f1_keywords: 
+ - "wtsapi32/WTSLISTENERCONFIG"
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssHardwareSnapshotProviderEx interface,ResyncLuns method, IVssHardwareSnapshotProviderEx.ResyncLuns, IVssHardwareSnapshotProviderEx::ResyncLuns, ResyncLuns, ResyncLuns method, ResyncLuns method,IVssHardwareSnapshotProviderEx interface, base.ivsshardwaresnapshotproviderex_resyncluns, vsprov/IVssHardwareSnapshotProviderEx::ResyncLuns
 ms.topic: method
-f1_keywords: ["vsprov/IVssHardwareSnapshotProviderEx.ResyncLuns"]
+f1_keywords: 
+ - "vsprov/IVssHardwareSnapshotProviderEx.ResyncLuns"
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

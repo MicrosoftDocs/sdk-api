@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationHost interface [Debugging Windows Store apps],Refresh method, IWebApplicationHost.Refresh, IWebApplicationHost::Refresh, Refresh, Refresh method [Debugging Windows Store apps], Refresh method [Debugging Windows Store apps],IWebApplicationHost interface, debug.iwebapplicationhost_refresh, webapplication/IWebApplicationHost::Refresh
 ms.topic: method
-f1_keywords: ["webapplication/IWebApplicationHost.Refresh"]
+f1_keywords: 
+ - "webapplication/IWebApplicationHost.Refresh"
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

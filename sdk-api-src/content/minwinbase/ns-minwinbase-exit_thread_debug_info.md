@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPEXIT_THREAD_DEBUG_INFO, EXIT_THREAD_DEBUG_INFO, EXIT_THREAD_DEBUG_INFO structure, LPEXIT_THREAD_DEBUG_INFO, LPEXIT_THREAD_DEBUG_INFO structure pointer, _EXIT_THREAD_DEBUG_INFO, _win32_exit_thread_debug_info_str, base.exit_thread_debug_info_str, minwinbase/EXIT_THREAD_DEBUG_INFO, minwinbase/LPEXIT_THREAD_DEBUG_INFO"
 ms.topic: struct
-f1_keywords: ["minwinbase/EXIT_THREAD_DEBUG_INFO"]
+f1_keywords: 
+ - "minwinbase/EXIT_THREAD_DEBUG_INFO"
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows

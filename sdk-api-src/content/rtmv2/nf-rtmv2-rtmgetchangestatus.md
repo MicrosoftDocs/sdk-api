@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtmGetChangeStatus, RtmGetChangeStatus function [RAS], _rtmv2ref_rtmgetchangestatus, rras.rtmgetchangestatus, rtmv2/RtmGetChangeStatus
 ms.topic: function
-f1_keywords: ["rtmv2/RtmGetChangeStatus"]
+f1_keywords: 
+ - "rtmv2/RtmGetChangeStatus"
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

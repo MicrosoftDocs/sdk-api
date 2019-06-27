@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTransition, IUIAnimationTransition interface [Windows Animation], IUIAnimationTransition interface [Windows Animation],described, uianimation.iuianimationtransition, uianimation/IUIAnimationTransition
 ms.topic: interface
-f1_keywords: ["uianimation/IUIAnimationTransition"]
+f1_keywords: 
+ - "uianimation/IUIAnimationTransition"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

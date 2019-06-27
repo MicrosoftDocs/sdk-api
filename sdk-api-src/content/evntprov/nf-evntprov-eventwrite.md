@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventWrite, EventWrite function [ETW], base.eventwrite_func, etw.eventwrite_func, evntprov/EventWrite
 ms.topic: function
-f1_keywords: ["evntprov/EventWrite"]
+f1_keywords: 
+ - "evntprov/EventWrite"
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

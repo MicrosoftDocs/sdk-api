@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWCM_PROPERTY, PWCM_PROPERTY, PWCM_PROPERTY enumeration pointer [Windows Connection Manager], WCM_PROPERTY, WCM_PROPERTY enumeration [Windows Connection Manager], wcm.wcm_property, wcm_global_property_domain_policy, wcm_global_property_minimize_policy, wcm_global_property_powermanagement_policy, wcm_global_property_roaming_policy, wcm_intf_property_connection_cost, wcm_intf_property_dataplan_status, wcm_intf_property_hotspot_profile, wcmapi/PWCM_PROPERTY, wcmapi/WCM_PROPERTY, wcmapi/wcm_global_property_domain_policy, wcmapi/wcm_global_property_minimize_policy, wcmapi/wcm_global_property_powermanagement_policy, wcmapi/wcm_global_property_roaming_policy, wcmapi/wcm_intf_property_connection_cost, wcmapi/wcm_intf_property_dataplan_status, wcmapi/wcm_intf_property_hotspot_profile"
 ms.topic: enum
-f1_keywords: ["wcmapi/WCM_PROPERTY"]
+f1_keywords: 
+ - "wcmapi/WCM_PROPERTY"
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows

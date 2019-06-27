@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HistogramHeader, HistogramHeader structure [Streaming Media Devices], mfapi/HistogramHeader, stream.histogramheader
 ms.topic: struct
-f1_keywords: ["mfapi/HistogramHeader"]
+f1_keywords: 
+ - "mfapi/HistogramHeader"
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

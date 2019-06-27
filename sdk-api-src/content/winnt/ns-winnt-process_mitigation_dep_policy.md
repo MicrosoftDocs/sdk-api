@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPROCESS_MITIGATION_DEP_POLICY, PPROCESS_MITIGATION_DEP_POLICY, PPROCESS_MITIGATION_DEP_POLICY structure pointer, PROCESS_MITIGATION_DEP_POLICY, PROCESS_MITIGATION_DEP_POLICY structure, _PROCESS_MITIGATION_DEP_POLICY, base.process_mitigation_dep_policy, winnt/PPROCESS_MITIGATION_DEP_POLICY, winnt/PROCESS_MITIGATION_DEP_POLICY"
 ms.topic: struct
-f1_keywords: ["winnt/PROCESS_MITIGATION_DEP_POLICY"]
+f1_keywords: 
+ - "winnt/PROCESS_MITIGATION_DEP_POLICY"
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

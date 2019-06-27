@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawDibChangePalette, DrawDibChangePalette function [Windows Multimedia], _win32_DrawDibChangePalette, multimedia.drawdibchangepalette, vfw/DrawDibChangePalette
 ms.topic: function
-f1_keywords: ["vfw/DrawDibChangePalette"]
+f1_keywords: 
+ - "vfw/DrawDibChangePalette"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

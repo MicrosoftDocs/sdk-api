@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentRatings, CurrentRatings method [Microsoft TV Technologies], CurrentRatings method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, IMSVidStreamBufferSource interface [Microsoft TV Technologies],CurrentRatings method, IMSVidStreamBufferSource.CurrentRatings, IMSVidStreamBufferSource::CurrentRatings, IMSVidStreamBufferSourceCurrentRatings, mstv.imsvidstreambuffersource_currentratings, segment/IMSVidStreamBufferSource::CurrentRatings
 ms.topic: method
-f1_keywords: ["segment/IMSVidStreamBufferSource.CurrentRatings"]
+f1_keywords: 
+ - "segment/IMSVidStreamBufferSource.CurrentRatings"
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

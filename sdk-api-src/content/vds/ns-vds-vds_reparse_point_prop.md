@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PVDS_REPARSE_POINT_PROP, PVDS_REPARSE_POINT_PROP, PVDS_REPARSE_POINT_PROP structure pointer [VDS], VDS_REPARSE_POINT_PROP, VDS_REPARSE_POINT_PROP structure [VDS], base.vds_reparse_point_prop, vds/PVDS_REPARSE_POINT_PROP, vds/VDS_REPARSE_POINT_PROP"
 ms.topic: struct
-f1_keywords: ["vds/VDS_REPARSE_POINT_PROP"]
+f1_keywords: 
+ - "vds/VDS_REPARSE_POINT_PROP"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

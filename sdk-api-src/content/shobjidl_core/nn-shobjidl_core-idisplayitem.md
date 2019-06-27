@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDisplayItem, IDisplayItem interface [Windows Shell], IDisplayItem interface [Windows Shell],described, _shell_IDisplayItem, shell.IDisplayItem, shobjidl_core/IDisplayItem
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IDisplayItem"]
+f1_keywords: 
+ - "shobjidl_core/IDisplayItem"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

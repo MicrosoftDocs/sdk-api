@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],Run method, IFsrmFileManagementJob.Run, IFsrmFileManagementJob::Run, Run, Run method [File Server Resource Manager], Run method [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_run, fsrm.ifsrmfilemanagementjob_run, fsrmreports/IFsrmFileManagementJob::Run
 ms.topic: method
-f1_keywords: ["fsrmreports/IFsrmFileManagementJob.Run"]
+f1_keywords: 
+ - "fsrmreports/IFsrmFileManagementJob.Run"
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

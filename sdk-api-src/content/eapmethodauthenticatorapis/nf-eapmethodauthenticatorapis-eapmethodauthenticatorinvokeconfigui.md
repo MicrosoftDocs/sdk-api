@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapMethodAuthenticatorInvokeConfigUI, EapMethodAuthenticatorInvokeConfigUI function [EAPHost], eaphost.eapmethodauthenticatorinvokeconfigui, eapmethodauthenticatorapis/EapMethodAuthenticatorInvokeConfigUI
 ms.topic: function
-f1_keywords: ["eapmethodauthenticatorapis/EapMethodAuthenticatorInvokeConfigUI"]
+f1_keywords: 
+ - "eapmethodauthenticatorapis/EapMethodAuthenticatorInvokeConfigUI"
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
 req.target-type: Windows

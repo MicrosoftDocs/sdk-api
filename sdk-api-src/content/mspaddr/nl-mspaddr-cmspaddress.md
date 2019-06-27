@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CMSPAddress, CMSPAddress class [TAPI 2.2], CMSPAddress class [TAPI 2.2],described, _tapi3_cmspaddress, mspaddr/CMSPAddress, tapi3.cmspaddress
 ms.topic: class
-f1_keywords: ["mspaddr/CMSPAddress"]
+f1_keywords: 
+ - "mspaddr/CMSPAddress"
 req.header: mspaddr.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcBindingSetAuthInfoEx, RpcBindingSetAuthInfoEx function [RPC], RpcBindingSetAuthInfoExA, RpcBindingSetAuthInfoExW, _rpc_rpcbindingsetauthinfoex, rpc.rpcbindingsetauthinfoex, rpcdce/RpcBindingSetAuthInfoEx, rpcdce/RpcBindingSetAuthInfoExA, rpcdce/RpcBindingSetAuthInfoExW
 ms.topic: function
-f1_keywords: ["rpcdce/RpcBindingSetAuthInfoEx"]
+f1_keywords: 
+ - "rpcdce/RpcBindingSetAuthInfoEx"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

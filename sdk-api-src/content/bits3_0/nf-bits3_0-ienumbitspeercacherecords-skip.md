@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumBitsPeerCacheRecords interface [BITS],Skip method, IEnumBitsPeerCacheRecords.Skip, IEnumBitsPeerCacheRecords::Skip, Skip, Skip method [BITS], Skip method [BITS],IEnumBitsPeerCacheRecords interface, bits.ienumbitspeercacherecords_skip, bits3_0/IEnumBitsPeerCacheRecords::Skip
 ms.topic: method
-f1_keywords: ["bits3_0/IEnumBitsPeerCacheRecords.Skip"]
+f1_keywords: 
+ - "bits3_0/IEnumBitsPeerCacheRecords.Skip"
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows

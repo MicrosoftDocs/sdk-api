@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConsole interface [MMC],SetToolbar method, IConsole.SetToolbar, IConsole::SetToolbar, SetToolbar, SetToolbar method [MMC], SetToolbar method [MMC],IConsole interface, mmc.iconsole_settoolbar, mmc/IConsole::SetToolbar
 ms.topic: method
-f1_keywords: ["mmc/IConsole.SetToolbar"]
+f1_keywords: 
+ - "mmc/IConsole.SetToolbar"
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

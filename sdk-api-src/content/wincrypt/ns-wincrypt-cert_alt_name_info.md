@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_ALT_NAME_INFO, CERT_ALT_NAME_INFO, CERT_ALT_NAME_INFO structure [Security], PCERT_ALT_NAME_INFO, PCERT_ALT_NAME_INFO structure pointer [Security], _crypto2_cert_alt_name_info, security.cert_alt_name_info, wincrypt/CERT_ALT_NAME_INFO, wincrypt/PCERT_ALT_NAME_INFO"
 ms.topic: struct
-f1_keywords: ["wincrypt/CERT_ALT_NAME_INFO"]
+f1_keywords: 
+ - "wincrypt/CERT_ALT_NAME_INFO"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

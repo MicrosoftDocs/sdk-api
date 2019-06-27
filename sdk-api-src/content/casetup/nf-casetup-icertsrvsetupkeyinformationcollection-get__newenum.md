@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetupKeyInformationCollection interface [Security],_NewEnum property, ICertSrvSetupKeyInformationCollection._NewEnum, ICertSrvSetupKeyInformationCollection.get__NewEnum, ICertSrvSetupKeyInformationCollection::_NewEnum, ICertSrvSetupKeyInformationCollection::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICertSrvSetupKeyInformationCollection interface, casetup/ICertSrvSetupKeyInformationCollection::_NewEnum, casetup/ICertSrvSetupKeyInformationCollection::get__NewEnum, get__NewEnum, security.icertsrvsetupkeyinformationcollection__newenum
 ms.topic: method
-f1_keywords: ["casetup/ICertSrvSetupKeyInformationCollection._NewEnum"]
+f1_keywords: 
+ - "casetup/ICertSrvSetupKeyInformationCollection._NewEnum"
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

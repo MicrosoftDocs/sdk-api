@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WINBIO_DB_BOOTSTRAP, WINBIO_DB_DEFAULT, WINBIO_DB_ONCHIP, WINBIO_FLAG_ADVANCED, WINBIO_FLAG_BASIC, WINBIO_FLAG_DEFAULT, WINBIO_FLAG_MAINTENANCE, WINBIO_FLAG_RAW, WINBIO_POOL_PRIVATE, WINBIO_POOL_SYSTEM, WinBioOpenSession, WinBioOpenSession function [Windows Biometric Framework API], secbiomet.winbioopensession, winbio/WinBioOpenSession
 ms.topic: function
-f1_keywords: ["winbio/WinBioOpenSession"]
+f1_keywords: 
+ - "winbio/WinBioOpenSession"
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

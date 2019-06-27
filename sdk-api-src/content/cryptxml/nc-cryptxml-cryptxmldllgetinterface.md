@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllGetInterface, CryptXmlDllGetInterface callback, CryptXmlDllGetInterface callback function [Security], cryptxml/CryptXmlDllGetInterface, security.cryptxmldllgetinterface
 ms.topic: callback
-f1_keywords: ["cryptxml/CryptXmlDllGetInterface"]
+f1_keywords: 
+ - "cryptxml/CryptXmlDllGetInterface"
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

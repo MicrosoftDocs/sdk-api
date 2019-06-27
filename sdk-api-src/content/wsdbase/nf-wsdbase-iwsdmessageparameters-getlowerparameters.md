@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLowerParameters, GetLowerParameters method, GetLowerParameters method,IWSDMessageParameters interface, IWSDMessageParameters interface,GetLowerParameters method, IWSDMessageParameters.GetLowerParameters, IWSDMessageParameters::GetLowerParameters, ncd.iwsdmessageparameters_getlowerparameters, wsdbase/IWSDMessageParameters::GetLowerParameters
 ms.topic: method
-f1_keywords: ["wsdbase/IWSDMessageParameters.GetLowerParameters"]
+f1_keywords: 
+ - "wsdbase/IWSDMessageParameters.GetLowerParameters"
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

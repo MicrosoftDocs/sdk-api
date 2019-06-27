@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertGetSubjectCertificateFromStore, CertGetSubjectCertificateFromStore function [Security], _crypto2_certgetsubjectcertificatefromstore, security.certgetsubjectcertificatefromstore, wincrypt/CertGetSubjectCertificateFromStore
 ms.topic: function
-f1_keywords: ["wincrypt/CertGetSubjectCertificateFromStore"]
+f1_keywords: 
+ - "wincrypt/CertGetSubjectCertificateFromStore"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

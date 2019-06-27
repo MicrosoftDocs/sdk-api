@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssEnumObject interface [VSS],Skip method, IVssEnumObject.Skip, IVssEnumObject::Skip, Skip, Skip method [VSS], Skip method [VSS],IVssEnumObject interface, _win32_ivssenumobject_skip, base.ivssenumobject_skip, vss/IVssEnumObject::Skip
 ms.topic: method
-f1_keywords: ["vss/IVssEnumObject.Skip"]
+f1_keywords: 
+ - "vss/IVssEnumObject.Skip"
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpFreeVbl, SnmpFreeVbl function [SNMP], _snmp_snmpfreevbl, snmp.snmpfreevbl, winsnmp/SnmpFreeVbl
 ms.topic: function
-f1_keywords: ["winsnmp/SnmpFreeVbl"]
+f1_keywords: 
+ - "winsnmp/SnmpFreeVbl"
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

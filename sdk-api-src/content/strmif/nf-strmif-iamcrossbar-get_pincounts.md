@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMCrossbar interface [DirectShow],get_PinCounts method, IAMCrossbar.get_PinCounts, IAMCrossbar::get_PinCounts, IAMCrossbarget_PinCounts, dshow.iamcrossbar_get_pincounts, get_PinCounts, get_PinCounts method [DirectShow], get_PinCounts method [DirectShow],IAMCrossbar interface, strmif/IAMCrossbar::get_PinCounts
 ms.topic: method
-f1_keywords: ["strmif/IAMCrossbar.get_PinCounts"]
+f1_keywords: 
+ - "strmif/IAMCrossbar.get_PinCounts"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPCore2 interface [Windows Media Player],get_dvd method, IWMPCore2.get_dvd, IWMPCore2::get_dvd, IWMPCore2get_dvd, get_dvd, get_dvd method [Windows Media Player], get_dvd method [Windows Media Player],IWMPCore2 interface, wmp.iwmpcore2_get_dvd, wmp/IWMPCore2::get_dvd
 ms.topic: method
-f1_keywords: ["wmp/IWMPCore2.get_dvd"]
+f1_keywords: 
+ - "wmp/IWMPCore2.get_dvd"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

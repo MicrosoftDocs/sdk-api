@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FirstSelectedItem property [Windows Accessibility], FirstSelectedItem property [Windows Accessibility],ISelectionProvider2 interface, ISelectionProvider2 interface [Windows Accessibility],FirstSelectedItem property, ISelectionProvider2.FirstSelectedItem, ISelectionProvider2.get_FirstSelectedItem, ISelectionProvider2::FirstSelectedItem, ISelectionProvider2::get_FirstSelectedItem, get_FirstSelectedItem, uiautomationcore/ISelectionProvider2::FirstSelectedItem, uiautomationcore/ISelectionProvider2::get_FirstSelectedItem, winauto.uiauto_ISelectionProvider2_FirstSelectedItem
 ms.topic: method
-f1_keywords: ["uiautomationcore/ISelectionProvider2.FirstSelectedItem"]
+f1_keywords: 
+ - "uiautomationcore/ISelectionProvider2.FirstSelectedItem"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

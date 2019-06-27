@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptCATEnumerateAttr, CryptCATEnumerateAttr function [Security], mscat/CryptCATEnumerateAttr, security.cryptcatenumerateattr
 ms.topic: function
-f1_keywords: ["mscat/CryptCATEnumerateAttr"]
+f1_keywords: 
+ - "mscat/CryptCATEnumerateAttr"
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

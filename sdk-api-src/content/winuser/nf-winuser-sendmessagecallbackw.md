@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SendMessageCallback, SendMessageCallback function [Windows and Messages], SendMessageCallbackA, SendMessageCallbackW, _win32_SendMessageCallback, _win32_sendmessagecallback_cpp, winmsg.sendmessagecallback, winui._win32_sendmessagecallback, winuser/SendMessageCallback, winuser/SendMessageCallbackA, winuser/SendMessageCallbackW
 ms.topic: function
-f1_keywords: ["winuser/SendMessageCallback"]
+f1_keywords: 
+ - "winuser/SendMessageCallback"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

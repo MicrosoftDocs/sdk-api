@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextStoryRanges2, ITextStoryRanges2 interface [Windows Controls], ITextStoryRanges2 interface [Windows Controls],described, controls.itextstoryranges2, tom/ITextStoryRanges2
 ms.topic: interface
-f1_keywords: ["tom/ITextStoryRanges2"]
+f1_keywords: 
+ - "tom/ITextStoryRanges2"
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

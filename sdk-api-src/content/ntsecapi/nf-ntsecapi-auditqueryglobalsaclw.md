@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuditQueryGlobalSacl, AuditQueryGlobalSacl function [Security], AuditQueryGlobalSaclA, AuditQueryGlobalSaclW, ntsecapi/AuditQueryGlobalSacl, ntsecapi/AuditQueryGlobalSaclA, ntsecapi/AuditQueryGlobalSaclW, security.auditqueryglobalsacl
 ms.topic: function
-f1_keywords: ["ntsecapi/AuditQueryGlobalSacl"]
+f1_keywords: 
+ - "ntsecapi/AuditQueryGlobalSacl"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

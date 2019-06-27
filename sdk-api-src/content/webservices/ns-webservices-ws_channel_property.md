@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_CHANNEL_PROPERTY, WS_CHANNEL_PROPERTY structure [Web Services for Windows], webservices/WS_CHANNEL_PROPERTY, wsw.ws_channel_property
 ms.topic: struct
-f1_keywords: ["webservices/WS_CHANNEL_PROPERTY"]
+f1_keywords: 
+ - "webservices/WS_CHANNEL_PROPERTY"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

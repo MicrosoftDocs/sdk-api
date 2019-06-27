@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InjectNtmsMedia, InjectNtmsMedia function [Files], NTMS_INJECT_RETRACT, NTMS_INJECT_START, NTMS_INJECT_START_MANY, NTMS_INJECT_STOP, _zaw_injectntmsmedia, base.injectntmsmedia, fs.injectntmsmedia, ntmsapi/InjectNtmsMedia
 ms.topic: function
-f1_keywords: ["ntmsapi/InjectNtmsMedia"]
+f1_keywords: 
+ - "ntmsapi/InjectNtmsMedia"
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

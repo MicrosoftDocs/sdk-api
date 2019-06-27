@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDialogNumber, GetDialogNumber method [Microsoft TV Technologies], GetDialogNumber method [Microsoft TV Technologies],IESOpenMmiEvent interface, IESOpenMmiEvent interface [Microsoft TV Technologies],GetDialogNumber method, IESOpenMmiEvent.GetDialogNumber, IESOpenMmiEvent::GetDialogNumber, mstv.iesopenmmievent_getdialognumber, tuner/IESOpenMmiEvent::GetDialogNumber
 ms.topic: method
-f1_keywords: ["tuner/IESOpenMmiEvent.GetDialogNumber"]
+f1_keywords: 
+ - "tuner/IESOpenMmiEvent.GetDialogNumber"
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

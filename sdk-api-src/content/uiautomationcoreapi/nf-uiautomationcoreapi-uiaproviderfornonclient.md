@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaProviderForNonClient, UiaProviderForNonClient function [Windows Accessibility], uiautomationcoreapi/UiaProviderForNonClient, winauto.uiauto_UiaProviderForNonClientFunction
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/UiaProviderForNonClient"]
+f1_keywords: 
+ - "uiautomationcoreapi/UiaProviderForNonClient"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

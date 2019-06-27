@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AnalyzeNumberSubstitution, AnalyzeNumberSubstitution method [Direct Write], AnalyzeNumberSubstitution method [Direct Write],IDWriteTextAnalyzer interface, IDWriteTextAnalyzer interface [Direct Write],AnalyzeNumberSubstitution method, IDWriteTextAnalyzer.AnalyzeNumberSubstitution, IDWriteTextAnalyzer::AnalyzeNumberSubstitution, directwrite.IDWriteTextAnalyzer_AnalyzeNumberSubstitution, dwrite/IDWriteTextAnalyzer::AnalyzeNumberSubstitution
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteTextAnalyzer.AnalyzeNumberSubstitution"]
+f1_keywords: 
+ - "dwrite/IDWriteTextAnalyzer.AnalyzeNumberSubstitution"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

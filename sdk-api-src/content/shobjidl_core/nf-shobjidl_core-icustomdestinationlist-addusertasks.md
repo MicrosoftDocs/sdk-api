@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddUserTasks, AddUserTasks method [Windows Shell], AddUserTasks method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],AddUserTasks method, ICustomDestinationList.AddUserTasks, ICustomDestinationList::AddUserTasks, _shell_ICustomDestinationList_AddUserTasks, shell.ICustomDestinationList_AddUserTasks, shobjidl_core/ICustomDestinationList::AddUserTasks
 ms.topic: method
-f1_keywords: ["shobjidl_core/ICustomDestinationList.AddUserTasks"]
+f1_keywords: 
+ - "shobjidl_core/ICustomDestinationList.AddUserTasks"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

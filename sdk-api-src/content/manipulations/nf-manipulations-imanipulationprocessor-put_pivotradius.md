@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],PivotRadius property, IManipulationProcessor.PivotRadius, IManipulationProcessor.put_PivotRadius, IManipulationProcessor::PivotRadius, IManipulationProcessor::get_PivotRadius, IManipulationProcessor::put_PivotRadius, PivotRadius property [Windows Touch], PivotRadius property [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::PivotRadius, manipulations/IManipulationProcessor::get_PivotRadius, manipulations/IManipulationProcessor::put_PivotRadius, put_PivotRadius, wintouch.imanipulationprocessor_pivotradius
 ms.topic: method
-f1_keywords: ["manipulations/IManipulationProcessor.PivotRadius"]
+f1_keywords: 
+ - "manipulations/IManipulationProcessor.PivotRadius"
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
 req.target-type: Windows

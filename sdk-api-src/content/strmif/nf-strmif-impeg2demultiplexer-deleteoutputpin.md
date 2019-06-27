@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteOutputPin, DeleteOutputPin method [DirectShow], DeleteOutputPin method [DirectShow],IMpeg2Demultiplexer interface, IMpeg2Demultiplexer interface [DirectShow],DeleteOutputPin method, IMpeg2Demultiplexer.DeleteOutputPin, IMpeg2Demultiplexer::DeleteOutputPin, IMpeg2DemultiplexerDeleteOutputPin, dshow.impeg2demultiplexer_deleteoutputpin, strmif/IMpeg2Demultiplexer::DeleteOutputPin
 ms.topic: method
-f1_keywords: ["strmif/IMpeg2Demultiplexer.DeleteOutputPin"]
+f1_keywords: 
+ - "strmif/IMpeg2Demultiplexer.DeleteOutputPin"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

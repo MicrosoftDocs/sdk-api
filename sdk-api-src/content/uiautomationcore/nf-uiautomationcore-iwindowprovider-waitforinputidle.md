@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWindowProvider interface [Windows Accessibility],WaitForInputIdle method, IWindowProvider.WaitForInputIdle, IWindowProvider::WaitForInputIdle, WaitForInputIdle, WaitForInputIdle method [Windows Accessibility], WaitForInputIdle method [Windows Accessibility],IWindowProvider interface, uiauto.uiauto_IWindowProvider_WaitForInputIdle, uiauto_IWindowProvider_WaitForInputIdle, uiautomationcore/IWindowProvider::WaitForInputIdle, winauto.uiauto_IWindowProvider_WaitForInputIdle
 ms.topic: method
-f1_keywords: ["uiautomationcore/IWindowProvider.WaitForInputIdle"]
+f1_keywords: 
+ - "uiautomationcore/IWindowProvider.WaitForInputIdle"
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

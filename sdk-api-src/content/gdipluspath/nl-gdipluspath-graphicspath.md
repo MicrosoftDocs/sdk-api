@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GraphicsPath, GraphicsPath class [GDI+], GraphicsPath class [GDI+],described, _gdiplus_CLASS_GraphicsPath_Class, gdiplus._gdiplus_CLASS_GraphicsPath_Class, gdipluspath/GraphicsPath
 ms.topic: class
-f1_keywords: ["gdipluspath/GraphicsPath"]
+f1_keywords: 
+ - "gdipluspath/GraphicsPath"
 req.header: gdipluspath.h
 req.include-header: 
 req.target-type: Windows

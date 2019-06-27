@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INATNumberOfEntriesCallback, INATNumberOfEntriesCallback interface [ICS/ICF], INATNumberOfEntriesCallback interface [ICS/ICF],described, _ics_inatnumberofentriescallback, ics.inatnumberofentriescallback, natupnp/INATNumberOfEntriesCallback
 ms.topic: interface
-f1_keywords: ["natupnp/INATNumberOfEntriesCallback"]
+f1_keywords: 
+ - "natupnp/INATNumberOfEntriesCallback"
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

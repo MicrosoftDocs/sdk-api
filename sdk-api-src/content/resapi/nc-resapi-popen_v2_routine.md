@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLUS_RESDLL_OPEN_RECOVER_MONITOR_STATE, OpenV2, OpenV2 callback, OpenV2 callback function [Failover Cluster], POPEN_V2_ROUTINE, POPEN_V2_ROUTINE callback function [Failover Cluster], mscs.openv2, resapi/OpenV2, resapi/POPEN_V2_ROUTINE
 ms.topic: callback
-f1_keywords: ["resapi/OpenV2 callback"]
+f1_keywords: 
+ - "resapi/OpenV2 callback"
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

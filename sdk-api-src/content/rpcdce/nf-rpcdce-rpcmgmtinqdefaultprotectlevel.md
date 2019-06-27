@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtInqDefaultProtectLevel, RpcMgmtInqDefaultProtectLevel function [RPC], _rpc_rpcmgmtinqdefaultprotectlevel, rpc.rpcmgmtinqdefaultprotectlevel, rpcdce/RpcMgmtInqDefaultProtectLevel
 ms.topic: function
-f1_keywords: ["rpcdce/RpcMgmtInqDefaultProtectLevel"]
+f1_keywords: 
+ - "rpcdce/RpcMgmtInqDefaultProtectLevel"
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

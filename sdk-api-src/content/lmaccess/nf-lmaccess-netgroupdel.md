@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetGroupDel, NetGroupDel function [Network Management], _win32_netgroupdel, lmaccess/NetGroupDel, netmgmt.netgroupdel
 ms.topic: function
-f1_keywords: ["lmaccess/NetGroupDel"]
+f1_keywords: 
+ - "lmaccess/NetGroupDel"
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

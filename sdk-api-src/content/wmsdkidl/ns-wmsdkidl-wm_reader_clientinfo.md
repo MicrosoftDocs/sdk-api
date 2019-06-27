@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WM_READER_CLIENTINFO, WM_READER_CLIENTINFO structure [windows Media Format], wmformat.wm_reader_clientinfo, wmsdkidl/WM_READER_CLIENTINFO
 ms.topic: struct
-f1_keywords: ["wmsdkidl/WM_READER_CLIENTINFO"]
+f1_keywords: 
+ - "wmsdkidl/WM_READER_CLIENTINFO"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

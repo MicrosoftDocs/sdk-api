@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerUrl interface [Security],Initialize method, IX509PolicyServerUrl.Initialize, IX509PolicyServerUrl::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::Initialize, security.ix509policyserverurl_initialize
 ms.topic: method
-f1_keywords: ["certenroll/IX509PolicyServerUrl.Initialize"]
+f1_keywords: 
+ - "certenroll/IX509PolicyServerUrl.Initialize"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

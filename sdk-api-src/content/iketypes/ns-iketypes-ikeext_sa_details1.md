@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_SA_DETAILS1, IKEEXT_SA_DETAILS1 structure [Filtering], fwp.ikeext_sa_details1, iketypes/IKEEXT_SA_DETAILS1
 ms.topic: struct
-f1_keywords: ["iketypes/IKEEXT_SA_DETAILS1"]
+f1_keywords: 
+ - "iketypes/IKEEXT_SA_DETAILS1"
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

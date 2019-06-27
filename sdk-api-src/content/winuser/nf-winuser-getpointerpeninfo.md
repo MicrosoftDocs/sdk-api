@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPointerPenInfo, GetPointerPenInfo function [Input Messages and Notifications], inputmsg.getpointerpeninfo, winuser/GetPointerPenInfo
 ms.topic: function
-f1_keywords: ["winuser/GetPointerPenInfo"]
+f1_keywords: 
+ - "winuser/GetPointerPenInfo"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

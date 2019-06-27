@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndGetEvent, EndGetEvent method [Media Foundation], EndGetEvent method [Media Foundation],IMFMediaEventQueue interface, IMFMediaEventQueue interface [Media Foundation],EndGetEvent method, IMFMediaEventQueue.EndGetEvent, IMFMediaEventQueue::EndGetEvent, bb0ea226-9dc0-43e3-a482-cfec531b5734, mf.imfmediaeventqueue_endgetevent, mfobjects/IMFMediaEventQueue::EndGetEvent
 ms.topic: method
-f1_keywords: ["mfobjects/IMFMediaEventQueue.EndGetEvent"]
+f1_keywords: 
+ - "mfobjects/IMFMediaEventQueue.EndGetEvent"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

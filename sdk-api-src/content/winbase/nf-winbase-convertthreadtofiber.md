@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConvertThreadToFiber, ConvertThreadToFiber function, _win32_convertthreadtofiber, base.convertthreadtofiber, winbase/ConvertThreadToFiber
 ms.topic: function
-f1_keywords: ["winbase/ConvertThreadToFiber"]
+f1_keywords: 
+ - "winbase/ConvertThreadToFiber"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

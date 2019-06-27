@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumBstr interface [TAPI 2.2],Next method, IEnumBstr.Next, IEnumBstr::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumBstr interface, _tapi3_ienumbstr_next, tapi3.ienumbstr_next, tapi3if/IEnumBstr::Next
 ms.topic: method
-f1_keywords: ["tapi3if/IEnumBstr.Next"]
+f1_keywords: 
+ - "tapi3if/IEnumBstr.Next"
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

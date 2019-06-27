@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPsecSaContextSetSpi0, IPsecSaContextSetSpi0 function [Filtering], fwp.ipsecsacontextsetspi0, fwpmu/IPsecSaContextSetSpi0
 ms.topic: function
-f1_keywords: ["fwpmu/IPsecSaContextSetSpi0"]
+f1_keywords: 
+ - "fwpmu/IPsecSaContextSetSpi0"
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

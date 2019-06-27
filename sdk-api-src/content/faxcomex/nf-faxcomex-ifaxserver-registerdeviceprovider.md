@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxServer interface [Fax Service],RegisterDeviceProvider method, IFaxServer.RegisterDeviceProvider, IFaxServer::RegisterDeviceProvider, RegisterDeviceProvider, RegisterDeviceProvider method [Fax Service], RegisterDeviceProvider method [Fax Service],IFaxServer interface, _mfax_faxserver.registerdeviceprovider, fax._mfax_faxserver_cpp_mfax_faxserver_registerdeviceprovider_cpp, fax._mfax_faxserver_registerdeviceprovider, faxcomex/IFaxServer::RegisterDeviceProvider
 ms.topic: method
-f1_keywords: ["faxcomex/IFaxServer.RegisterDeviceProvider"]
+f1_keywords: 
+ - "faxcomex/IFaxServer.RegisterDeviceProvider"
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

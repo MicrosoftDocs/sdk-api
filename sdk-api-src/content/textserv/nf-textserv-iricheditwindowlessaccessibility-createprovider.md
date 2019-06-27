@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateProvider, CreateProvider method [Windows Controls], CreateProvider method [Windows Controls],IRicheditWindowlessAccessibility interface, IRicheditWindowlessAccessibility interface [Windows Controls],CreateProvider method, IRicheditWindowlessAccessibility.CreateProvider, IRicheditWindowlessAccessibility::CreateProvider, controls.iricheditwindowlessaccessibility_createprovider, textserv/IRicheditWindowlessAccessibility::CreateProvider
 ms.topic: method
-f1_keywords: ["textserv/IRicheditWindowlessAccessibility.CreateProvider"]
+f1_keywords: 
+ - "textserv/IRicheditWindowlessAccessibility.CreateProvider"
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

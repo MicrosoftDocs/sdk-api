@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6309c42d-db39-eb28-25e5-ba740c57a969, D3D10StateBlockMaskGetSetting, D3D10StateBlockMaskGetSetting function [Direct3D 10], d3d10effect/D3D10StateBlockMaskGetSetting, direct3d10.d3d10stateblockmaskgetsetting
 ms.topic: function
-f1_keywords: ["d3d10effect/D3D10StateBlockMaskGetSetting"]
+f1_keywords: 
+ - "d3d10effect/D3D10StateBlockMaskGetSetting"
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

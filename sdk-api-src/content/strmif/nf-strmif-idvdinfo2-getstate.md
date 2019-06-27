@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [DirectShow], GetState method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetState method, IDvdInfo2.GetState, IDvdInfo2::GetState, IDvdInfo2GetState, dshow.idvdinfo2_getstate, strmif/IDvdInfo2::GetState
 ms.topic: method
-f1_keywords: ["strmif/IDvdInfo2.GetState"]
+f1_keywords: 
+ - "strmif/IDvdInfo2.GetState"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

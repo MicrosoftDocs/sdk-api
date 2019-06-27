@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioSystemEffects, IAudioSystemEffects interface [Audio Devices], IAudioSystemEffects interface [Audio Devices],described, audio.iaudiosystemeffects, audio_syseffects_r_bdd8290f-b7ec-4c4d-b52f-2e05e9e5c074.xml, audioenginebaseapo/IAudioSystemEffects
 ms.topic: interface
-f1_keywords: ["audioenginebaseapo/IAudioSystemEffects"]
+f1_keywords: 
+ - "audioenginebaseapo/IAudioSystemEffects"
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Windows

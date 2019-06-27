@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPM object [GPMC],GetMigrationTable method, GetMigrationTable, GetMigrationTable method [GPMC], GetMigrationTable method [GPMC],GPM object, GetMigrationTable method [GPMC],IGPM interface, IGPM interface [GPMC],GetMigrationTable method, IGPM.GetMigrationTable, IGPM::GetMigrationTable, gpmc.igpm_getmigrationtable, gpmgmt/IGPM::GetMigrationTable
 ms.topic: method
-f1_keywords: ["gpmgmt/IGPM.GetMigrationTable"]
+f1_keywords: 
+ - "gpmgmt/IGPM.GetMigrationTable"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

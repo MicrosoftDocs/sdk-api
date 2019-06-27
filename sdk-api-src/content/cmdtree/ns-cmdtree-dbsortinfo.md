@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DBSORTINFO, DBSORTINFO structure [Indexing Service], _idxs_DBSORTINFO, cmdtree/DBSORTINFO, indexsrv.dbsortinfo, tagDBSORTINFO
 ms.topic: struct
-f1_keywords: ["cmdtree/DBSORTINFO"]
+f1_keywords: 
+ - "cmdtree/DBSORTINFO"
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

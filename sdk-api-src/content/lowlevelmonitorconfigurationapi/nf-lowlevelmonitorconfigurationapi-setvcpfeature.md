@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetVCPFeature, SetVCPFeature function [Monitor Configuration], lowlevelmonitorconfigurationapi/SetVCPFeature, monitor.setvcpfeature
 ms.topic: function
-f1_keywords: ["lowlevelmonitorconfigurationapi/SetVCPFeature"]
+f1_keywords: 
+ - "lowlevelmonitorconfigurationapi/SetVCPFeature"
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

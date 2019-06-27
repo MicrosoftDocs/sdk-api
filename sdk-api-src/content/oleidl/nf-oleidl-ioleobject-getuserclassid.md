@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUserClassID, GetUserClassID method [COM], GetUserClassID method [COM],IOleObject interface, IOleObject interface [COM],GetUserClassID method, IOleObject.GetUserClassID, IOleObject::GetUserClassID, _ole_ioleobject_getuserclassid, com.ioleobject_getuserclassid, oleidl/IOleObject::GetUserClassID
 ms.topic: method
-f1_keywords: ["oleidl/IOleObject.GetUserClassID"]
+f1_keywords: 
+ - "oleidl/IOleObject.GetUserClassID"
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

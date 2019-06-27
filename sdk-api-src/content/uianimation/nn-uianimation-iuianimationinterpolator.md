@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationInterpolator, IUIAnimationInterpolator interface [Windows Animation], IUIAnimationInterpolator interface [Windows Animation],described, uianimation.iuianimationinterpolator, uianimation/IUIAnimationInterpolator
 ms.topic: interface
-f1_keywords: ["uianimation/IUIAnimationInterpolator"]
+f1_keywords: 
+ - "uianimation/IUIAnimationInterpolator"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

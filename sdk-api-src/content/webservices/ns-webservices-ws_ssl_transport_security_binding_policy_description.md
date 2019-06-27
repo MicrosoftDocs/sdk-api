@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_SSL_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION, WS_SSL_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION structure [Web Services for Windows], webservices/WS_SSL_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION, wsw.ws_ssl_transport_security_binding_policy_description
 ms.topic: struct
-f1_keywords: ["webservices/WS_SSL_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION"]
+f1_keywords: 
+ - "webservices/WS_SSL_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION"
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

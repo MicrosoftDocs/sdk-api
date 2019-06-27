@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasPhonebookDlg, RasPhonebookDlg function [RAS], RasPhonebookDlgA, RasPhonebookDlgW, _ras_rasphonebookdlg, rasdlg/RasPhonebookDlg, rasdlg/RasPhonebookDlgA, rasdlg/RasPhonebookDlgW, rras.rasphonebookdlg
 ms.topic: function
-f1_keywords: ["rasdlg/RasPhonebookDlg"]
+f1_keywords: 
+ - "rasdlg/RasPhonebookDlg"
 req.header: rasdlg.h
 req.include-header: 
 req.target-type: Windows

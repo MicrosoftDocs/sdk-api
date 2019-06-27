@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ValuePattern_SetValue, ValuePattern_SetValue function [Windows Accessibility], uiauto.uiauto_ValuePattern_SetValueConPat, uiauto_ValuePattern_SetValueConPat, uiautomationcoreapi/ValuePattern_SetValue, winauto.uiauto_ValuePattern_SetValueConPat
 ms.topic: function
-f1_keywords: ["uiautomationcoreapi/ValuePattern_SetValue"]
+f1_keywords: 
+ - "uiautomationcoreapi/ValuePattern_SetValue"
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

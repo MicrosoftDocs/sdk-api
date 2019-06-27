@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_GetGroupMetrics, ListView_GetGroupMetrics macro [Windows Controls], _win32_ListView_GetGroupMetrics, _win32_ListView_GetGroupMetrics_cpp, commctrl/ListView_GetGroupMetrics, controls.ListView_GetGroupMetrics, controls._win32_ListView_GetGroupMetrics
 ms.topic: macro
-f1_keywords: ["commctrl/ListView_GetGroupMetrics"]
+f1_keywords: 
+ - "commctrl/ListView_GetGroupMetrics"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentDomain, GetCurrentDomain method [DirectShow], GetCurrentDomain method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCurrentDomain method, IDvdInfo2.GetCurrentDomain, IDvdInfo2::GetCurrentDomain, IDvdInfo2GetCurrentDomain, dshow.idvdinfo2_getcurrentdomain, strmif/IDvdInfo2::GetCurrentDomain
 ms.topic: method
-f1_keywords: ["strmif/IDvdInfo2.GetCurrentDomain"]
+f1_keywords: 
+ - "strmif/IDvdInfo2.GetCurrentDomain"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

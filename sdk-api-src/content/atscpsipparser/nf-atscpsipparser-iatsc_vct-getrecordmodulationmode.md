@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordModulationMode, GetRecordModulationMode method [Microsoft TV Technologies], GetRecordModulationMode method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordModulationMode method, IATSC_VCT.GetRecordModulationMode, IATSC_VCT::GetRecordModulationMode, IATSC_VCTGetRecordModulationMode, atscpsipparser/IATSC_VCT::GetRecordModulationMode, mstv.iatsc_vct_getrecordmodulationmode
 ms.topic: method
-f1_keywords: ["atscpsipparser/IATSC_VCT.GetRecordModulationMode"]
+f1_keywords: 
+ - "atscpsipparser/IATSC_VCT.GetRecordModulationMode"
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

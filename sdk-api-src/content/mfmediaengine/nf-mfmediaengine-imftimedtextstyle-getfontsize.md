@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFontSize, GetFontSize method [Media Foundation], GetFontSize method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetFontSize method, IMFTimedTextStyle.GetFontSize, IMFTimedTextStyle::GetFontSize, mf.imftimedtextstyle_getfontsize, mfmediaengine/IMFTimedTextStyle::GetFontSize
 ms.topic: method
-f1_keywords: ["mfmediaengine/IMFTimedTextStyle.GetFontSize"]
+f1_keywords: 
+ - "mfmediaengine/IMFTimedTextStyle.GetFontSize"
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

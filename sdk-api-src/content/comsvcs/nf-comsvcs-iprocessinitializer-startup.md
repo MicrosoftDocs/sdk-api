@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProcessInitializer interface [COM+],Startup method, IProcessInitializer.Startup, IProcessInitializer::Startup, Startup, Startup method [COM+], Startup method [COM+],IProcessInitializer interface, _cos_IProcessInitializer_Startup, comsvcs/IProcessInitializer::Startup, cos.iprocessinitializer_startup
 ms.topic: method
-f1_keywords: ["comsvcs/IProcessInitializer.Startup"]
+f1_keywords: 
+ - "comsvcs/IProcessInitializer.Startup"
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

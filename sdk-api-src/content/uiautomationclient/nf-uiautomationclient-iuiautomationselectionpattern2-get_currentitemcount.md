@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentItemCount property [Windows Accessibility], CurrentItemCount property [Windows Accessibility],IUIAutomationSelectionPattern2 interface, IUIAutomationSelectionPattern2 interface [Windows Accessibility],CurrentItemCount property, IUIAutomationSelectionPattern2.CurrentItemCount, IUIAutomationSelectionPattern2.get_CurrentItemCount, IUIAutomationSelectionPattern2::CurrentItemCount, IUIAutomationSelectionPattern2::get_CurrentItemCount, get_CurrentItemCount, uiautomationclient/IUIAutomationSelectionPattern2::CurrentItemCount, uiautomationclient/IUIAutomationSelectionPattern2::get_CurrentItemCount, winauto.uiauto_IUIAutomationSelectionPattern2_CurrentItemCount
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationSelectionPattern2.CurrentItemCount"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationSelectionPattern2.CurrentItemCount"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_CONTENT_INFO, CRYPT_CONTENT_INFO, CRYPT_CONTENT_INFO structure [Security], PCRYPT_CONTENT_INFO, PCRYPT_CONTENT_INFO structure pointer [Security], _crypto2_crypt_content_info, security.crypt_content_info, wincrypt/CRYPT_CONTENT_INFO, wincrypt/PCRYPT_CONTENT_INFO"
 ms.topic: struct
-f1_keywords: ["wincrypt/CRYPT_CONTENT_INFO"]
+f1_keywords: 
+ - "wincrypt/CRYPT_CONTENT_INFO"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

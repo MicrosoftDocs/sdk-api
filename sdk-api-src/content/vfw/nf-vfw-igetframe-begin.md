@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Begin, Begin method [Windows Multimedia], Begin method [Windows Multimedia],IGetFrame interface, IGetFrame interface [Windows Multimedia],Begin method, IGetFrame.Begin, IGetFrame::Begin, _win32_IGetFrame_Begin, multimedia.igetframe_begin, vfw/IGetFrame::Begin
 ms.topic: method
-f1_keywords: ["vfw/IGetFrame.Begin"]
+f1_keywords: 
+ - "vfw/IGetFrame.Begin"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup interface [Security],PostUnInstall method, ICertSrvSetup.PostUnInstall, ICertSrvSetup::PostUnInstall, PostUnInstall, PostUnInstall method [Security], PostUnInstall method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::PostUnInstall, security.icertsrvsetup_postuninstall
 ms.topic: method
-f1_keywords: ["casetup/ICertSrvSetup.PostUnInstall"]
+f1_keywords: 
+ - "casetup/ICertSrvSetup.PostUnInstall"
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

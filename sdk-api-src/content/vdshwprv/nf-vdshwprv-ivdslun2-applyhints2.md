@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ApplyHints2, ApplyHints2 method, ApplyHints2 method,IVdsLun2 interface, IVdsLun2 interface,ApplyHints2 method, IVdsLun2.ApplyHints2, IVdsLun2::ApplyHints2, base.ivdslun2_applyhints2, vds/IVdsLun2::ApplyHints2, vdshwprv/IVdsLun2::ApplyHints2
 ms.topic: method
-f1_keywords: ["vdshwprv/IVdsLun2.ApplyHints2"]
+f1_keywords: 
+ - "vdshwprv/IVdsLun2.ApplyHints2"
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ControlStream, ControlStream method [DirectShow], ControlStream method [DirectShow],ICaptureGraphBuilder interface, ICaptureGraphBuilder interface [DirectShow],ControlStream method, ICaptureGraphBuilder.ControlStream, ICaptureGraphBuilder::ControlStream, ICaptureGraphBuilderControlStream, dshow.icapturegraphbuilder_controlstream, strmif/ICaptureGraphBuilder::ControlStream
 ms.topic: method
-f1_keywords: ["strmif/ICaptureGraphBuilder.ControlStream"]
+f1_keywords: 
+ - "strmif/ICaptureGraphBuilder.ControlStream"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

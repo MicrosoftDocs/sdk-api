@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtwqStartup, RtwqStartup function, base.rtwqstartup, rtworkq/RtwqStartup
 ms.topic: function
-f1_keywords: ["rtworkq/RtwqStartup"]
+f1_keywords: 
+ - "rtworkq/RtwqStartup"
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

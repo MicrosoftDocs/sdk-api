@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRJ_COMPLETE_COMMAND_TYPE, PRJ_COMPLETE_COMMAND_TYPE enumeration, PRJ_COMPLETE_COMMAND_TYPE_ENUMERATION, PRJ_COMPLETE_COMMAND_TYPE_NOTIFICATION, ProjFS.prj_complete_command_type, projectedfslib/PRJ_COMPLETE_COMMAND_TYPE, projectedfslib/PRJ_COMPLETE_COMMAND_TYPE_ENUMERATION, projectedfslib/PRJ_COMPLETE_COMMAND_TYPE_NOTIFICATION
 ms.topic: enum
-f1_keywords: ["projectedfslib/PRJ_COMPLETE_COMMAND_TYPE"]
+f1_keywords: 
+ - "projectedfslib/PRJ_COMPLETE_COMMAND_TYPE"
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

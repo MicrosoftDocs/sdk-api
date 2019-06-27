@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExpirationDate property [Windows Update Agent], ExpirationDate property [Windows Update Agent],IUpdateService interface, IUpdateService interface [Windows Update Agent],ExpirationDate property, IUpdateService.ExpirationDate, IUpdateService.get_ExpirationDate, IUpdateService::ExpirationDate, IUpdateService::get_ExpirationDate, get_ExpirationDate, wua.iupdateservice_expirationdate, wua.iupdateservice_expirydate, wuapi/IUpdateService::ExpirationDate, wuapi/IUpdateService::get_ExpirationDate
 ms.topic: method
-f1_keywords: ["wuapi/IUpdateService.ExpirationDate"]
+f1_keywords: 
+ - "wuapi/IUpdateService.ExpirationDate"
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

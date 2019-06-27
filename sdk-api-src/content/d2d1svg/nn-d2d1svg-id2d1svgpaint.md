@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgPaint, ID2D1SvgPaint interface [Direct2D], ID2D1SvgPaint interface [Direct2D],described, d2d1svg/ID2D1SvgPaint, direct2d.id2d1svgpaint
 ms.topic: interface
-f1_keywords: ["d2d1svg/ID2D1SvgPaint"]
+f1_keywords: 
+ - "d2d1svg/ID2D1SvgPaint"
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

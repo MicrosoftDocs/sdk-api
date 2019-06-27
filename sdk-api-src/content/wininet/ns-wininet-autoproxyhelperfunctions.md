@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AutoProxyHelperFunctions, AutoProxyHelperFunctions structure [WinINet], wininet.autoproxyhelperfunctions, wininet/AutoProxyHelperFunctions
 ms.topic: struct
-f1_keywords: ["wininet/AutoProxyHelperFunctions"]
+f1_keywords: 
+ - "wininet/AutoProxyHelperFunctions"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

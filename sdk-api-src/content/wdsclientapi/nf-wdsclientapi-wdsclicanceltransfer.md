@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsCliCancelTransfer, WdsCliCancelTransfer function [Windows Deployment Services], wds.wdsclicanceltransfer, wdsclientapi/WdsCliCancelTransfer
 ms.topic: function
-f1_keywords: ["wdsclientapi/WdsCliCancelTransfer"]
+f1_keywords: 
+ - "wdsclientapi/WdsCliCancelTransfer"
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

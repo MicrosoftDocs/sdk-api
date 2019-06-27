@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],SetTabActive method, ITaskbarList3.SetTabActive, ITaskbarList3::SetTabActive, SetTabActive, SetTabActive method [Windows Shell], SetTabActive method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_SetTabActive, shell.ITaskbarList3_SetTabActive, shobjidl_core/ITaskbarList3::SetTabActive
 ms.topic: method
-f1_keywords: ["shobjidl_core/ITaskbarList3.SetTabActive"]
+f1_keywords: 
+ - "shobjidl_core/ITaskbarList3.SetTabActive"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

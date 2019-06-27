@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawStreamSample, IDirectDrawStreamSample interface [DirectShow], IDirectDrawStreamSample interface [DirectShow],described, IDirectDrawStreamSampleInterface, ddstream/IDirectDrawStreamSample, dshow.idirectdrawstreamsample
 ms.topic: interface
-f1_keywords: ["ddstream/IDirectDrawStreamSample"]
+f1_keywords: 
+ - "ddstream/IDirectDrawStreamSample"
 req.header: ddstream.h
 req.include-header: 
 req.target-type: Windows

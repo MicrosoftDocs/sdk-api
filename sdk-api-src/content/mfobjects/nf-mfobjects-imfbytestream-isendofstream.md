@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 5e5c02ea-d3fc-4d8d-aa8b-87aa033a3644, IMFByteStream interface [Media Foundation],IsEndOfStream method, IMFByteStream.IsEndOfStream, IMFByteStream::IsEndOfStream, IsEndOfStream, IsEndOfStream method [Media Foundation], IsEndOfStream method [Media Foundation],IMFByteStream interface, mf.imfbytestream_isendofstream, mfobjects/IMFByteStream::IsEndOfStream
 ms.topic: method
-f1_keywords: ["mfobjects/IMFByteStream.IsEndOfStream"]
+f1_keywords: 
+ - "mfobjects/IMFByteStream.IsEndOfStream"
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

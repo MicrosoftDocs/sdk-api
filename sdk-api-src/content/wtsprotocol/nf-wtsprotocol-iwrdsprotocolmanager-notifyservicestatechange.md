@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],NotifyServiceStateChange method, IWRdsProtocolManager.NotifyServiceStateChange, IWRdsProtocolManager::NotifyServiceStateChange, NotifyServiceStateChange, NotifyServiceStateChange method [Remote Desktop Services], NotifyServiceStateChange method [Remote Desktop Services],IWRdsProtocolManager interface, termserv.iwrdsprotocolmanager_notifyservicestatechange, wtsprotocol/IWRdsProtocolManager::NotifyServiceStateChange
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWRdsProtocolManager.NotifyServiceStateChange"]
+f1_keywords: 
+ - "wtsprotocol/IWRdsProtocolManager.NotifyServiceStateChange"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

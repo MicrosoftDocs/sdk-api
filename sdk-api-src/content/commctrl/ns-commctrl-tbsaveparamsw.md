@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPTBSAVEPARAMW, TBSAVEPARAMS, TBSAVEPARAMS structure [Windows Controls], TBSAVEPARAMSA, TBSAVEPARAMSW, _win32_TBSAVEPARAMS, _win32_TBSAVEPARAMS_cpp, commctrl/TBSAVEPARAMS, commctrl/TBSAVEPARAMSA, commctrl/TBSAVEPARAMSW, controls.TBSAVEPARAMS, controls._win32_TBSAVEPARAMS"
 ms.topic: struct
-f1_keywords: ["commctrl/TBSAVEPARAMS"]
+f1_keywords: 
+ - "commctrl/TBSAVEPARAMS"
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

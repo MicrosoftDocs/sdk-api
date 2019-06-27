@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 3a60bfec-8511-4a84-a833-e0c73c593970, IMFClock, IMFClock interface [Media Foundation], IMFClock interface [Media Foundation],described, mf.imfclock, mfidl/IMFClock
 ms.topic: interface
-f1_keywords: ["mfidl/IMFClock"]
+f1_keywords: 
+ - "mfidl/IMFClock"
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

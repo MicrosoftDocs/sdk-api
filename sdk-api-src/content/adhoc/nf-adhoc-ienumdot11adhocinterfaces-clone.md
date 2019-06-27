@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [NativeWIFI], Clone method [NativeWIFI],IEnumDot11AdHocInterfaces interface, IEnumDot11AdHocInterfaces interface [NativeWIFI],Clone method, IEnumDot11AdHocInterfaces.Clone, IEnumDot11AdHocInterfaces::Clone, adhoc/IEnumDot11AdHocInterfaces::Clone, nwifi.ienumdot11adhocinterfaces_clone
 ms.topic: method
-f1_keywords: ["adhoc/IEnumDot11AdHocInterfaces.Clone"]
+f1_keywords: 
+ - "adhoc/IEnumDot11AdHocInterfaces.Clone"
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

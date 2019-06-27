@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddKeyframeAtOffset, AddKeyframeAtOffset method [Windows Animation], AddKeyframeAtOffset method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],AddKeyframeAtOffset method, IUIAnimationStoryboard2.AddKeyframeAtOffset, IUIAnimationStoryboard2::AddKeyframeAtOffset, uianimation.iuianimationstoryboard2_addkeyframeatoffset, uianimation/IUIAnimationStoryboard2::AddKeyframeAtOffset
 ms.topic: method
-f1_keywords: ["uianimation/IUIAnimationStoryboard2.AddKeyframeAtOffset"]
+f1_keywords: 
+ - "uianimation/IUIAnimationStoryboard2.AddKeyframeAtOffset"
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

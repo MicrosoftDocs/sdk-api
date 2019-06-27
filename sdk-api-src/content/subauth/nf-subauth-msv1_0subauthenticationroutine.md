@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LOGON_GUEST, LOGON_NOENCRYPTION, MSV1_0_GUEST_LOGON, MSV1_0_PASSTHRU, Msv1_0SubAuthenticationRoutine, Msv1_0SubAuthenticationRoutine function [Security], USER_ALL_PARAMETERS, _lsa_msv1_0subauthenticationroutine, security.msv1_0subauthenticationroutine, subauth/Msv1_0SubAuthenticationRoutine
 ms.topic: function
-f1_keywords: ["subauth/Msv1_0SubAuthenticationRoutine"]
+f1_keywords: 
+ - "subauth/Msv1_0SubAuthenticationRoutine"
 req.header: subauth.h
 req.include-header: 
 req.target-type: Windows

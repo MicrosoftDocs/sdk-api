@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDecoderInfo, GetDecoderInfo method [Windows Imaging Component], GetDecoderInfo method [Windows Imaging Component],IWICBitmapDecoder interface, IWICBitmapDecoder interface [Windows Imaging Component],GetDecoderInfo method, IWICBitmapDecoder.GetDecoderInfo, IWICBitmapDecoder::GetDecoderInfo, _wic_codec_iwicbitmapdecoder_getdecoderinfo, wic._wic_codec_iwicbitmapdecoder_getdecoderinfo, wincodec/IWICBitmapDecoder::GetDecoderInfo
 ms.topic: method
-f1_keywords: ["wincodec/IWICBitmapDecoder.GetDecoderInfo"]
+f1_keywords: 
+ - "wincodec/IWICBitmapDecoder.GetDecoderInfo"
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

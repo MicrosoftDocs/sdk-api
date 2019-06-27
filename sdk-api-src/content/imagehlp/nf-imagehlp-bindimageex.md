@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BIND_ALL_IMAGES, BIND_CACHE_IMPORT_DLLS, BIND_NO_BOUND_IMPORTS, BIND_NO_UPDATE, BindImageEx, BindImageEx function, _win32_bindimageex, base.bindimageex, imagehlp/BindImageEx
 ms.topic: function
-f1_keywords: ["imagehlp/BindImageEx"]
+f1_keywords: 
+ - "imagehlp/BindImageEx"
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

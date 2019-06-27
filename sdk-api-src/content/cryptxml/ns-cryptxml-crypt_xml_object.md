@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_XML_OBJECT, CRYPT_XML_OBJECT, CRYPT_XML_OBJECT structure [Security], PCRYPT_XML_OBJECT, PCRYPT_XML_OBJECT structure pointer [Security], cryptxml/CRYPT_XML_OBJECT, cryptxml/PCRYPT_XML_OBJECT, security.crypt_xml_object"
 ms.topic: struct
-f1_keywords: ["cryptxml/CRYPT_XML_OBJECT"]
+f1_keywords: 
+ - "cryptxml/CRYPT_XML_OBJECT"
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

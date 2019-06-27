@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngDeleteEvent, EngDeleteEvent function [Display Devices], display.engdeleteevent, gdifncs_8a703ede-e100-493c-8ede-82c03361633f.xml, winddi/EngDeleteEvent
 ms.topic: function
-f1_keywords: ["winddi/EngDeleteEvent"]
+f1_keywords: 
+ - "winddi/EngDeleteEvent"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

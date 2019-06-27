@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfDisplayAttributeInfo interface, IEnumTfDisplayAttributeInfo interface [Text Services Framework],Clone method, IEnumTfDisplayAttributeInfo.Clone, IEnumTfDisplayAttributeInfo::Clone, _tsf_ienumtfdisplayattributeinfo_clone_ref, msctf/IEnumTfDisplayAttributeInfo::Clone, tsf.ienumtfdisplayattributeinfo_clone
 ms.topic: method
-f1_keywords: ["msctf/IEnumTfDisplayAttributeInfo.Clone"]
+f1_keywords: 
+ - "msctf/IEnumTfDisplayAttributeInfo.Clone"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUserNotificationCallback interface [Windows Shell],OnBalloonUserClick method, IUserNotificationCallback.OnBalloonUserClick, IUserNotificationCallback::OnBalloonUserClick, OnBalloonUserClick, OnBalloonUserClick method [Windows Shell], OnBalloonUserClick method [Windows Shell],IUserNotificationCallback interface, _shell_IUserNotificationCallback_OnBalloonUserClick, shell.IUserNotificationCallback_OnBalloonUserClick, shobjidl/IUserNotificationCallback::OnBalloonUserClick
 ms.topic: method
-f1_keywords: ["shobjidl/IUserNotificationCallback.OnBalloonUserClick"]
+f1_keywords: 
+ - "shobjidl/IUserNotificationCallback.OnBalloonUserClick"
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

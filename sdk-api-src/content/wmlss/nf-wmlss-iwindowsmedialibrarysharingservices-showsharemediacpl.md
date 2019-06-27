@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],showShareMediaCPL method, IWindowsMediaLibrarySharingServices.showShareMediaCPL, IWindowsMediaLibrarySharingServices::showShareMediaCPL, showShareMediaCPL, showShareMediaCPL method [Windows Media Library Sharing Services], showShareMediaCPL method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSshowShareMediaCPL, wmlss/IWindowsMediaLibrarySharingServices::showShareMediaCPL
 ms.topic: method
-f1_keywords: ["wmlss/IWindowsMediaLibrarySharingServices.showShareMediaCPL"]
+f1_keywords: 
+ - "wmlss/IWindowsMediaLibrarySharingServices.showShareMediaCPL"
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows

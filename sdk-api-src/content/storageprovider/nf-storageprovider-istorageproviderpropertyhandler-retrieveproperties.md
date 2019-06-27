@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStorageProviderPropertyHandler interface [Windows Shell],RetrieveProperties method, IStorageProviderPropertyHandler.RetrieveProperties, IStorageProviderPropertyHandler::RetrieveProperties, RetrieveProperties, RetrieveProperties method [Windows Shell], RetrieveProperties method [Windows Shell],IStorageProviderPropertyHandler interface, shell.istorageproviderpropertyhandler_retrieveproperties, storageprovider/IStorageProviderPropertyHandler::RetrieveProperties
 ms.topic: method
-f1_keywords: ["storageprovider/IStorageProviderPropertyHandler.RetrieveProperties"]
+f1_keywords: 
+ - "storageprovider/IStorageProviderPropertyHandler.RetrieveProperties"
 req.header: storageprovider.h
 req.include-header: 
 req.target-type: Windows

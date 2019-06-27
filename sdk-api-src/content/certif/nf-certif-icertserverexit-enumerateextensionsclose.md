@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCertServerExit object [Security],EnumerateExtensionsClose method, EnumerateExtensionsClose, EnumerateExtensionsClose method [Security], EnumerateExtensionsClose method [Security],CCertServerExit object, EnumerateExtensionsClose method [Security],ICertServerExit interface, ICertServerExit interface [Security],EnumerateExtensionsClose method, ICertServerExit.EnumerateExtensionsClose, ICertServerExit::EnumerateExtensionsClose, _certsrv_icertserverexit_enumerateextensionsclose, certif/ICertServerExit::EnumerateExtensionsClose, security.icertserverexit_enumerateextensionsclose
 ms.topic: method
-f1_keywords: ["certif/ICertServerExit.EnumerateExtensionsClose"]
+f1_keywords: 
+ - "certif/ICertServerExit.EnumerateExtensionsClose"
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows

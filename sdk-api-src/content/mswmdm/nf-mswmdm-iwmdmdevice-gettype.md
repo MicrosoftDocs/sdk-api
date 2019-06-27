@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [windows Media Device Manager], GetType method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetType method, IWMDMDevice.GetType, IWMDMDevice::GetType, IWMDMDeviceGetType, mswmdm/IWMDMDevice::GetType, wmdm.iwmdmdevice_gettype
 ms.topic: method
-f1_keywords: ["mswmdm/IWMDMDevice.GetType"]
+f1_keywords: 
+ - "mswmdm/IWMDMDevice.GetType"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

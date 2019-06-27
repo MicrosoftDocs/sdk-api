@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvDisableSurface, DrvDisableSurface function [Display Devices], ddifncs_1b5543ca-2860-4383-a2a7-a73adc5cf2a4.xml, display.drvdisablesurface, winddi/DrvDisableSurface
 ms.topic: function
-f1_keywords: ["winddi/DrvDisableSurface"]
+f1_keywords: 
+ - "winddi/DrvDisableSurface"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

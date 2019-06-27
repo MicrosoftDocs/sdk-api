@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IResolveShellLink, IResolveShellLink interface [Windows Shell], IResolveShellLink interface [Windows Shell],described, _win32_IResolveShellLink, shell.IResolveShellLink, shobjidl_core/IResolveShellLink
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IResolveShellLink"]
+f1_keywords: 
+ - "shobjidl_core/IResolveShellLink"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

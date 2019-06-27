@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetMediaControl, TSPI_lineSetMediaControl function [TAPI 2.2], _tspi_tspi_linesetmediacontrol, tspi.tspi_linesetmediacontrol, tspi/TSPI_lineSetMediaControl
 ms.topic: function
-f1_keywords: ["tspi/TSPI_lineSetMediaControl"]
+f1_keywords: 
+ - "tspi/TSPI_lineSetMediaControl"
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

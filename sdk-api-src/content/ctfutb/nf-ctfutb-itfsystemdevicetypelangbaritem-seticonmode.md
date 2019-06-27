@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, ITfSystemDeviceTypeLangBarItem interface [Text Services Framework],SetIconMode method, ITfSystemDeviceTypeLangBarItem.SetIconMode, ITfSystemDeviceTypeLangBarItem::SetIconMode, SetIconMode, SetIconMode method [Text Services Framework], SetIconMode method [Text Services Framework],ITfSystemDeviceTypeLangBarItem interface, TF_DTLBI_USEPROFILEICON, _tsf_itfsystemdevicetypelangbaritem_seticonmode_ref, ctfutb/ITfSystemDeviceTypeLangBarItem::SetIconMode, tsf.itfsystemdevicetypelangbaritem_seticonmode
 ms.topic: method
-f1_keywords: ["ctfutb/ITfSystemDeviceTypeLangBarItem.SetIconMode"]
+f1_keywords: 
+ - "ctfutb/ITfSystemDeviceTypeLangBarItem.SetIconMode"
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

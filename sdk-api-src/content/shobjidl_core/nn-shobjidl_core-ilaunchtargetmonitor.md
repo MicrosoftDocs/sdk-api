@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILaunchTargetMonitor, ILaunchTargetMonitor interface [Windows Shell], ILaunchTargetMonitor interface [Windows Shell],described, shell.ILaunchTargetMonitor, shobjidl_core/ILaunchTargetMonitor
 ms.topic: interface
-f1_keywords: ["shobjidl_core/ILaunchTargetMonitor"]
+f1_keywords: 
+ - "shobjidl_core/ILaunchTargetMonitor"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

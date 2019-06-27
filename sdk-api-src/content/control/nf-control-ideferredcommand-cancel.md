@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [DirectShow], Cancel method [DirectShow],IDeferredCommand interface, IDeferredCommand interface [DirectShow],Cancel method, IDeferredCommand.Cancel, IDeferredCommand::Cancel, IDeferredCommandCancel, control/IDeferredCommand::Cancel, dshow.ideferredcommand_cancel
 ms.topic: method
-f1_keywords: ["control/IDeferredCommand.Cancel"]
+f1_keywords: 
+ - "control/IDeferredCommand.Cancel"
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

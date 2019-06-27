@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITocEntry interface [Media Foundation],SetTitle method, ITocEntry.SetTitle, ITocEntry::SetTitle, SetTitle, SetTitle method [Media Foundation], SetTitle method [Media Foundation],ITocEntry interface, codecapi.itocentry_settitle, mf.itocentry_settitle, wmcodecdsp/ITocEntry::SetTitle
 ms.topic: method
-f1_keywords: ["wmcodecdsp/ITocEntry.SetTitle"]
+f1_keywords: 
+ - "wmcodecdsp/ITocEntry.SetTitle"
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

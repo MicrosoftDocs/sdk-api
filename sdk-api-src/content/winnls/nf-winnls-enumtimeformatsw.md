@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, EnumTimeFormats, EnumTimeFormats function [Internationalization for Windows Applications], EnumTimeFormatsA, EnumTimeFormatsW, LOCAL_USE_CP_ACP, TIME_NOSECONDS, _win32_EnumTimeFormats, intl.enumtimeformats, winnls/EnumTimeFormats, winnls/EnumTimeFormatsA, winnls/EnumTimeFormatsW
 ms.topic: function
-f1_keywords: ["winnls/EnumTimeFormats"]
+f1_keywords: 
+ - "winnls/EnumTimeFormats"
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

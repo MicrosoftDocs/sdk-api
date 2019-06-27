@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TMGR_DIRECTION, TMGR_DIRECTION enumeration [TAPI 2.2], TMGR_TD_BOTH, TMGR_TD_CAPTURE, TMGR_TD_RENDER, _tapi3_tmgr_direction, tapi3.tmgr_direction, termmgr/TMGR_DIRECTION, termmgr/TMGR_TD_BOTH, termmgr/TMGR_TD_CAPTURE, termmgr/TMGR_TD_RENDER
 ms.topic: enum
-f1_keywords: ["termmgr/TMGR_DIRECTION"]
+f1_keywords: 
+ - "termmgr/TMGR_DIRECTION"
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

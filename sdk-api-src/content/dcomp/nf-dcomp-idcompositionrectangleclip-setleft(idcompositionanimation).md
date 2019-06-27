@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetLeft method, IDCompositionRectangleClip.SetLeft, IDCompositionRectangleClip.SetLeft(IDCompositionAnimation), IDCompositionRectangleClip::SetLeft, IDCompositionRectangleClip::SetLeft(IDCompositionAnimation), IDCompositionRectangleClip::SetLeft(IDCompositionAnimation*), SetLeft, SetLeft method [DirectComposition], SetLeft method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetLeft, directcomp.idcompositionrectangleclip_setleft_idcompositionanimation
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionRectangleClip.SetLeft"]
+f1_keywords: 
+ - "dcomp/IDCompositionRectangleClip.SetLeft"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

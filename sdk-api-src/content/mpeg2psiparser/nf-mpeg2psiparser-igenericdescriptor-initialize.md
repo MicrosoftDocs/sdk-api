@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGenericDescriptor interface [Microsoft TV Technologies],Initialize method, IGenericDescriptor.Initialize, IGenericDescriptor::Initialize, IGenericDescriptorInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IGenericDescriptor interface, mpeg2psiparser/IGenericDescriptor::Initialize, mstv.igenericdescriptor_initialize
 ms.topic: method
-f1_keywords: ["mpeg2psiparser/IGenericDescriptor.Initialize"]
+f1_keywords: 
+ - "mpeg2psiparser/IGenericDescriptor.Initialize"
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

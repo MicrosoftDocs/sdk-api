@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMImageResourceCollection interface, IXpsOMImageResourceCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMImageResourceCollection.GetAt, IXpsOMImageResourceCollection::GetAt, xps.ixpsomimageresourcecollection_getat, xpsobjectmodel/IXpsOMImageResourceCollection::GetAt
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMImageResourceCollection.GetAt"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMImageResourceCollection.GetAt"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetParameterRange, GetParameterRange method [DirectShow], GetParameterRange method [DirectShow],ICodecAPI interface, ICodecAPI interface [DirectShow],GetParameterRange method, ICodecAPI.GetParameterRange, ICodecAPI::GetParameterRange, ICodecAPIGetParameterRange, dshow.icodecapi_getparameterrange, strmif/ICodecAPI::GetParameterRange
 ms.topic: method
-f1_keywords: ["strmif/ICodecAPI.GetParameterRange"]
+f1_keywords: 
+ - "strmif/ICodecAPI.GetParameterRange"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StopInteractionContext, StopInteractionContext function, input_intcontext.stopinteractioncontext, interactioncontext.stopinteractioncontext, interactioncontext/StopInteractionContext
 ms.topic: function
-f1_keywords: ["interactioncontext/StopInteractionContext"]
+f1_keywords: 
+ - "interactioncontext/StopInteractionContext"
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndSave, MCIWndSave macro [Windows Multimedia], _win32_MCIWndSave, multimedia.mciwndsave, vfw/MCIWndSave
 ms.topic: macro
-f1_keywords: ["vfw/MCIWndSave"]
+f1_keywords: 
+ - "vfw/MCIWndSave"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

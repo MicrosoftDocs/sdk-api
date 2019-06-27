@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],SetControlState method, IFileDialogCustomize.SetControlState, IFileDialogCustomize::SetControlState, SetControlState, SetControlState method [Windows Shell], SetControlState method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_SetControlState, shell_IFileDialogCustomize_SetControlState, shobjidl_core/IFileDialogCustomize::SetControlState
 ms.topic: method
-f1_keywords: ["shobjidl_core/IFileDialogCustomize.SetControlState"]
+f1_keywords: 
+ - "shobjidl_core/IFileDialogCustomize.SetControlState"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

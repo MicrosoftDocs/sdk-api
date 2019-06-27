@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPreviewHandler, IPreviewHandler interface [Windows Shell], IPreviewHandler interface [Windows Shell],described, _shell_IPreviewHandler, shell.IPreviewHandler, shobjidl_core/IPreviewHandler
 ms.topic: interface
-f1_keywords: ["shobjidl_core/IPreviewHandler"]
+f1_keywords: 
+ - "shobjidl_core/IPreviewHandler"
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

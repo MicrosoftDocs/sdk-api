@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaRemoveAccountRights, LsaRemoveAccountRights function [Security], _lsa_lsaremoveaccountrights, ntsecapi/LsaRemoveAccountRights, security.lsaremoveaccountrights
 ms.topic: function
-f1_keywords: ["ntsecapi/LsaRemoveAccountRights"]
+f1_keywords: 
+ - "ntsecapi/LsaRemoveAccountRights"
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

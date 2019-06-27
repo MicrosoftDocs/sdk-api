@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumNetSharingPrivateConnection interface [ICS/ICF],Next method, IEnumNetSharingPrivateConnection.Next, IEnumNetSharingPrivateConnection::Next, Next, Next method [ICS/ICF], Next method [ICS/ICF],IEnumNetSharingPrivateConnection interface, _ics_ienumnetsharingprivateconnection_next, ics.ienumnetsharingprivateconnection_next, netcon/IEnumNetSharingPrivateConnection::Next
 ms.topic: method
-f1_keywords: ["netcon/IEnumNetSharingPrivateConnection.Next"]
+f1_keywords: 
+ - "netcon/IEnumNetSharingPrivateConnection.Next"
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

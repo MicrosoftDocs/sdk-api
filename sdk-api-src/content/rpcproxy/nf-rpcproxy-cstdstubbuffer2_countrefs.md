@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CStdStubBuffer2_CountRefs, CStdStubBuffer2_CountRefs function [RPC], rpc.cstdstubbuffer2_countrefs, rpcproxy/CStdStubBuffer2_CountRefs
 ms.topic: function
-f1_keywords: ["rpcproxy/CStdStubBuffer2_CountRefs"]
+f1_keywords: 
+ - "rpcproxy/CStdStubBuffer2_CountRefs"
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

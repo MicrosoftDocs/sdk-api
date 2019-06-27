@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FNFCIREAD, FNFCIREAD macro [Windows API], fci/FNFCIREAD, winprog.fnfciread
 ms.topic: macro
-f1_keywords: ["fci/FNFCIREAD"]
+f1_keywords: 
+ - "fci/FNFCIREAD"
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

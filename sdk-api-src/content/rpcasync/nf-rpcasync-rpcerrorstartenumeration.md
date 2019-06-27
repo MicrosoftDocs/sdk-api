@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcErrorStartEnumeration, RpcErrorStartEnumeration function [RPC], _rpc_rpcerrorstartenumeration, rpc.rpcerrorstartenumeration, rpcasync/RpcErrorStartEnumeration
 ms.topic: function
-f1_keywords: ["rpcasync/RpcErrorStartEnumeration"]
+f1_keywords: 
+ - "rpcasync/RpcErrorStartEnumeration"
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

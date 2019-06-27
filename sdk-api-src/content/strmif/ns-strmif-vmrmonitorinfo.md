@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VMRMONITORINFO, VMRMONITORINFO structure [DirectShow], VMRMONITORINFOStructure, dshow.vmrmonitorinfo, strmif/VMRMONITORINFO
 ms.topic: struct
-f1_keywords: ["strmif/VMRMONITORINFO"]
+f1_keywords: 
+ - "strmif/VMRMONITORINFO"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

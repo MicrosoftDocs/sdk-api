@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFN_CMSG_GEN_CONTENT_ENCRYPT_KEY, PFN_CMSG_GEN_CONTENT_ENCRYPT_KEY callback, PFN_CMSG_GEN_CONTENT_ENCRYPT_KEY callback function [Security], security.pfn_cmsg_gen_content_encrypt_key, wincrypt/PFN_CMSG_GEN_CONTENT_ENCRYPT_KEY
 ms.topic: callback
-f1_keywords: ["wincrypt/PFN_CMSG_GEN_CONTENT_ENCRYPT_KEY"]
+f1_keywords: 
+ - "wincrypt/PFN_CMSG_GEN_CONTENT_ENCRYPT_KEY"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

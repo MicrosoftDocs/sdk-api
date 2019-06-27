@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWCOLUMN interface [Security],Skip method, IEnumCERTVIEWCOLUMN object [Security],Skip method, IEnumCERTVIEWCOLUMN.Skip, IEnumCERTVIEWCOLUMN::Skip, Skip, Skip method [Security], Skip method [Security],IEnumCERTVIEWCOLUMN interface, Skip method [Security],IEnumCERTVIEWCOLUMN object, _certsrv_ienumcertviewcolumn_skip, certview/IEnumCERTVIEWCOLUMN::Skip, security.ienumcertviewcolumn_skip
 ms.topic: method
-f1_keywords: ["certview/IEnumCERTVIEWCOLUMN.Skip"]
+f1_keywords: 
+ - "certview/IEnumCERTVIEWCOLUMN.Skip"
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

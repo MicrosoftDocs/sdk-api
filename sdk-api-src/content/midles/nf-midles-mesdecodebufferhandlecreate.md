@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MesDecodeBufferHandleCreate, MesDecodeBufferHandleCreate function [RPC], _rpc_mesdecodebufferhandlecreate, midles/MesDecodeBufferHandleCreate, rpc.mesdecodebufferhandlecreate
 ms.topic: function
-f1_keywords: ["midles/MesDecodeBufferHandleCreate"]
+f1_keywords: 
+ - "midles/MesDecodeBufferHandleCreate"
 req.header: midles.h
 req.include-header: Rpc.h
 req.target-type: Windows

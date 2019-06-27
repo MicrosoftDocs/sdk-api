@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDeviceIcon, GetDeviceIcon method [windows Media Device Manager], GetDeviceIcon method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetDeviceIcon method, IMDSPDevice.GetDeviceIcon, IMDSPDevice::GetDeviceIcon, IMDSPDeviceGetDeviceIcon, mswmdm/IMDSPDevice::GetDeviceIcon, wmdm.imdspdevice_getdeviceicon
 ms.topic: method
-f1_keywords: ["mswmdm/IMDSPDevice.GetDeviceIcon"]
+f1_keywords: 
+ - "mswmdm/IMDSPDevice.GetDeviceIcon"
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

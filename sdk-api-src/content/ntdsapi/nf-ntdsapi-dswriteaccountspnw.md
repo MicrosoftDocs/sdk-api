@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsWriteAccountSpn, DsWriteAccountSpn function [Active Directory], DsWriteAccountSpnA, DsWriteAccountSpnW, _glines_dswriteaccountspn, ad.dswriteaccountspn, ntdsapi/DsWriteAccountSpn, ntdsapi/DsWriteAccountSpnA, ntdsapi/DsWriteAccountSpnW
 ms.topic: function
-f1_keywords: ["ntdsapi/DsWriteAccountSpn"]
+f1_keywords: 
+ - "ntdsapi/DsWriteAccountSpn"
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

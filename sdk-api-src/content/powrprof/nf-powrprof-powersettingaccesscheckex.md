@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ACCESS_ACTIVE_SCHEME, ACCESS_AC_POWER_SETTING_INDEX, ACCESS_CREATE_SCHEME, ACCESS_DC_POWER_SETTING_INDEX, ACCESS_SCHEME, KEY_READ, KEY_WRITE, PowerSettingAccessCheckEx, PowerSettingAccessCheckEx function, base.powersettingaccesscheckex, powrprof/PowerSettingAccessCheckEx
 ms.topic: function
-f1_keywords: ["powrprof/PowerSettingAccessCheckEx"]
+f1_keywords: 
+ - "powrprof/PowerSettingAccessCheckEx"
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

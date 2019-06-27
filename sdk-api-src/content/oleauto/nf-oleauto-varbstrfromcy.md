@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, LOCALE_USE_NLS, VarBstrFromCy, VarBstrFromCy function [Automation], _oa96_VarBstrFromCy, automat.varbstrfromcy, oleauto/VarBstrFromCy
 ms.topic: function
-f1_keywords: ["oleauto/VarBstrFromCy"]
+f1_keywords: 
+ - "oleauto/VarBstrFromCy"
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

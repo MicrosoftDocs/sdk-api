@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IISDB_EMM interface [Microsoft TV Technologies],Initialize method, IISDB_EMM.Initialize, IISDB_EMM::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IISDB_EMM interface, dvbsiparser/IISDB_EMM::Initialize, mstv.iisdb_emm_initialize
 ms.topic: method
-f1_keywords: ["dvbsiparser/IISDB_EMM.Initialize"]
+f1_keywords: 
+ - "dvbsiparser/IISDB_EMM.Initialize"
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

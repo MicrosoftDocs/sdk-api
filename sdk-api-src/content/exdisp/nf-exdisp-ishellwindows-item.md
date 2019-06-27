@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellWindows interface [Windows Shell],Item method, IShellWindows.Item, IShellWindows::Item, Item, Item method [Windows Shell], Item method [Windows Shell],IShellWindows interface, _win32_IShellWindows_Item, exdisp/IShellWindows::Item, shell.IShellWindows_Item
 ms.topic: method
-f1_keywords: ["exdisp/IShellWindows.Item"]
+f1_keywords: 
+ - "exdisp/IShellWindows.Item"
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows

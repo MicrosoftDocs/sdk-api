@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateInt32, CreateInt32 method [Windows Runtime], CreateInt32 method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateInt32 method, IPropertyValueStatics.CreateInt32, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateInt32, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateInt32, winrt.ipropertyvaluefactory_createint32, winrt.ipropertyvaluestatics_createint32
 ms.topic: method
-f1_keywords: ["windows.foundation/IPropertyValueStatics.CreateInt32"]
+f1_keywords: 
+ - "windows.foundation/IPropertyValueStatics.CreateInt32"
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

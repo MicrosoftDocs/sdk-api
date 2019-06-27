@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetConnectionProfiles, GetConnectionProfiles method [Microsoft Broadband Networks], GetConnectionProfiles method [Microsoft Broadband Networks],IMbnConnectionProfileManager interface, IMbnConnectionProfileManager interface [Microsoft Broadband Networks],GetConnectionProfiles method, IMbnConnectionProfileManager.GetConnectionProfiles, IMbnConnectionProfileManager::GetConnectionProfiles, mbn.imbnconnectionprofilemanager_getconnectionprofiles, mbnapi/IMbnConnectionProfileManager::GetConnectionProfiles
 ms.topic: method
-f1_keywords: ["mbnapi/IMbnConnectionProfileManager.GetConnectionProfiles"]
+f1_keywords: 
+ - "mbnapi/IMbnConnectionProfileManager.GetConnectionProfiles"
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

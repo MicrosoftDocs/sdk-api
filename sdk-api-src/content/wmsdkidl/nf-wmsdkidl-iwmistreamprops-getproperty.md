@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [windows Media Format], GetProperty method [windows Media Format],IWMIStreamProps interface, IWMIStreamProps interface [windows Media Format],GetProperty method, IWMIStreamProps.GetProperty, IWMIStreamProps::GetProperty, IWMIStreamPropsGetProperty, wmformat.iwmistreamprops_getproperty, wmsdkidl/IWMIStreamProps::GetProperty
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMIStreamProps.GetProperty"]
+f1_keywords: 
+ - "wmsdkidl/IWMIStreamProps.GetProperty"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

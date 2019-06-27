@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GeneratePresentationDescriptor, GeneratePresentationDescriptor method [Media Foundation], GeneratePresentationDescriptor method [Media Foundation],IMFASFContentInfo interface, IMFASFContentInfo interface [Media Foundation],GeneratePresentationDescriptor method, IMFASFContentInfo.GeneratePresentationDescriptor, IMFASFContentInfo::GeneratePresentationDescriptor, f22cb48d-1346-4182-8ca2-f57a7fdc76e4, mf.imfasfcontentinfo_generatepresentationdescriptor, wmcontainer/IMFASFContentInfo::GeneratePresentationDescriptor
 ms.topic: method
-f1_keywords: ["wmcontainer/IMFASFContentInfo.GeneratePresentationDescriptor"]
+f1_keywords: 
+ - "wmcontainer/IMFASFContentInfo.GeneratePresentationDescriptor"
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

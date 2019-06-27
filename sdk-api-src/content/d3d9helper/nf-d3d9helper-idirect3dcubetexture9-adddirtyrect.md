@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddDirtyRect, AddDirtyRect method [Direct3D 9], AddDirtyRect method [Direct3D 9],IDirect3DCubeTexture9 interface, IDirect3DCubeTexture9 interface [Direct3D 9],AddDirtyRect method, IDirect3DCubeTexture9.AddDirtyRect, IDirect3DCubeTexture9::AddDirtyRect, b0dc98c8-8a1a-85fb-09ae-35df9bd8edc0, d3d9helper/IDirect3DCubeTexture9::AddDirtyRect, direct3d9.idirect3dcubetexture9__adddirtyrect
 ms.topic: method
-f1_keywords: ["d3d9helper/IDirect3DCubeTexture9.AddDirtyRect"]
+f1_keywords: 
+ - "d3d9helper/IDirect3DCubeTexture9.AddDirtyRect"
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

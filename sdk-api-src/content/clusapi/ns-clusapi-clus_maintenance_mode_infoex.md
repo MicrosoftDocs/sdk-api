@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCLUS_MAINTENANCE_MODE_INFOEX, CLUS_MAINTENANCE_MODE_INFOEX, CLUS_MAINTENANCE_MODE_INFOEX structure [Failover Cluster], ClusterResourceFailed, ClusterResourceInitializing, ClusterResourceOffline, ClusterResourceOfflinePending, ClusterResourceOnline, ClusterResourceOnlinePending, ClusterResourceStateUnknown, MaintenanceModeTypeDisableIsAliveCheck, MaintenanceModeTypeOfflineResource, MaintenanceModeTypeUnclusterResource, PCLUS_MAINTENANCE_MODE_INFOEX, PCLUS_MAINTENANCE_MODE_INFOEX structure pointer [Failover Cluster], clusapi/CLUS_MAINTENANCE_MODE_INFOEX, clusapi/PCLUS_MAINTENANCE_MODE_INFOEX, mscs.clus_maintenance_mode_infoex"
 ms.topic: struct
-f1_keywords: ["clusapi/CLUS_MAINTENANCE_MODE_INFOEX"]
+f1_keywords: 
+ - "clusapi/CLUS_MAINTENANCE_MODE_INFOEX"
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

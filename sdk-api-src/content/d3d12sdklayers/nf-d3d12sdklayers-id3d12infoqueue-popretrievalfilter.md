@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12InfoQueue interface,PopRetrievalFilter method, ID3D12InfoQueue.PopRetrievalFilter, ID3D12InfoQueue::PopRetrievalFilter, PopRetrievalFilter, PopRetrievalFilter method, PopRetrievalFilter method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::PopRetrievalFilter, direct3d12.id3d12infoqueue_popretrievalfilter
 ms.topic: method
-f1_keywords: ["d3d12sdklayers/ID3D12InfoQueue.PopRetrievalFilter"]
+f1_keywords: 
+ - "d3d12sdklayers/ID3D12InfoQueue.PopRetrievalFilter"
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

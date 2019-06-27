@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSprites, GetSprites method [Direct2D], GetSprites method [Direct2D],ID2D1SpriteBatch interface, ID2D1SpriteBatch interface [Direct2D],GetSprites method, ID2D1SpriteBatch.GetSprites, ID2D1SpriteBatch::GetSprites, d2d1_3/ID2D1SpriteBatch::GetSprites, direct2d.id2d1spritebatch_getsprites
 ms.topic: method
-f1_keywords: ["d2d1_3/ID2D1SpriteBatch.GetSprites"]
+f1_keywords: 
+ - "d2d1_3/ID2D1SpriteBatch.GetSprites"
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

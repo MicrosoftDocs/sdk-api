@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],ITaskNamedValueCollection interface, ITaskNamedValueCollection interface [Task Scheduler],Count property, ITaskNamedValueCollection.Count, ITaskNamedValueCollection.get_Count, ITaskNamedValueCollection::Count, ITaskNamedValueCollection::get_Count, get_Count, taskschd.itasknamedvaluecollection_count, taskschd/ITaskNamedValueCollection::Count, taskschd/ITaskNamedValueCollection::get_Count
 ms.topic: method
-f1_keywords: ["taskschd/ITaskNamedValueCollection.Count"]
+f1_keywords: 
+ - "taskschd/ITaskNamedValueCollection.Count"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

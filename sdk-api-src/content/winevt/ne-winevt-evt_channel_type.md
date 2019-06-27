@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVT_CHANNEL_TYPE, EVT_CHANNEL_TYPE enumeration [EventLog], EvtChannelTypeAdmin, EvtChannelTypeAnalytic, EvtChannelTypeDebug, EvtChannelTypeOperational, wes.evt_channel_type, winevt/EVT_CHANNEL_TYPE, winevt/EvtChannelTypeAdmin, winevt/EvtChannelTypeAnalytic, winevt/EvtChannelTypeDebug, winevt/EvtChannelTypeOperational
 ms.topic: enum
-f1_keywords: ["winevt/EVT_CHANNEL_TYPE"]
+f1_keywords: 
+ - "winevt/EVT_CHANNEL_TYPE"
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

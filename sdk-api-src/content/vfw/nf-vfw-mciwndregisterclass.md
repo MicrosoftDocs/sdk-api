@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndRegisterClass, MCIWndRegisterClass function [Windows Multimedia], _win32_MCIWndRegisterClass, multimedia.mciwndregisterclass, vfw/MCIWndRegisterClass
 ms.topic: function
-f1_keywords: ["vfw/MCIWndRegisterClass"]
+f1_keywords: 
+ - "vfw/MCIWndRegisterClass"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

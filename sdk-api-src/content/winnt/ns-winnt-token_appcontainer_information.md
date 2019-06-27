@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTOKEN_APPCONTAINER_INFORMATION, PTOKEN_APPCONTAINER_INFORMATION, PTOKEN_APPCONTAINER_INFORMATION structure pointer [Security], TOKEN_APPCONTAINER_INFORMATION, TOKEN_APPCONTAINER_INFORMATION structure [Security], _TOKEN_APPCONTAINER_INFORMATION, security.token_appcontainer_information, winnt/PTOKEN_APPCONTAINER_INFORMATION, winnt/TOKEN_APPCONTAINER_INFORMATION"
 ms.topic: struct
-f1_keywords: ["winnt/TOKEN_APPCONTAINER_INFORMATION"]
+f1_keywords: 
+ - "winnt/TOKEN_APPCONTAINER_INFORMATION"
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

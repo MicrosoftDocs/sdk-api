@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12ShaderReflectionType interface,IsOfType method, ID3D12ShaderReflectionType.IsOfType, ID3D12ShaderReflectionType::IsOfType, IsOfType, IsOfType method, IsOfType method,ID3D12ShaderReflectionType interface, d3d12shader/ID3D12ShaderReflectionType::IsOfType, direct3d12.id3d12shaderreflectiontype_isoftype
 ms.topic: method
-f1_keywords: ["d3d12shader/ID3D12ShaderReflectionType.IsOfType"]
+f1_keywords: 
+ - "d3d12shader/ID3D12ShaderReflectionType.IsOfType"
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

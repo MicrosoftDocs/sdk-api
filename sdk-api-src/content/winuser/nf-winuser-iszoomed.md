@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsZoomed, IsZoomed function [Windows and Messages], _win32_IsZoomed, _win32_iszoomed_cpp, winmsg.iszoomed, winui._win32_iszoomed, winuser/IsZoomed
 ms.topic: function
-f1_keywords: ["winuser/IsZoomed"]
+f1_keywords: 
+ - "winuser/IsZoomed"
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

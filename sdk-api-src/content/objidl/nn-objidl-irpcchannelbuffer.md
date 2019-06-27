@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRpcChannelBuffer, IRpcChannelBuffer interface [COM], IRpcChannelBuffer interface [COM],described, _com_irpcchannelbuffer, com.irpcchannelbuffer, objidlbase/IRpcChannelBuffer
 ms.topic: interface
-f1_keywords: ["objidl/IRpcChannelBuffer"]
+f1_keywords: 
+ - "objidl/IRpcChannelBuffer"
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

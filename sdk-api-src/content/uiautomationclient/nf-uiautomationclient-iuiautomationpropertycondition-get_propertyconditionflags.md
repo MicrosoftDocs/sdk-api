@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationPropertyCondition interface [Windows Accessibility],PropertyConditionFlags property, IUIAutomationPropertyCondition.PropertyConditionFlags, IUIAutomationPropertyCondition.get_PropertyConditionFlags, IUIAutomationPropertyCondition::PropertyConditionFlags, IUIAutomationPropertyCondition::get_PropertyConditionFlags, PropertyConditionFlags property [Windows Accessibility], PropertyConditionFlags property [Windows Accessibility],IUIAutomationPropertyCondition interface, get_PropertyConditionFlags, uiauto.uiauto_IUIAutomationPropertyCondition_PropertyConditionFlags, uiauto_IUIAutomationPropertyCondition_PropertyConditionFlags, uiautomationclient/IUIAutomationPropertyCondition::PropertyConditionFlags, uiautomationclient/IUIAutomationPropertyCondition::get_PropertyConditionFlags, winauto.uiauto_IUIAutomationPropertyCondition_PropertyConditionFlags
 ms.topic: method
-f1_keywords: ["uiautomationclient/IUIAutomationPropertyCondition.PropertyConditionFlags"]
+f1_keywords: 
+ - "uiautomationclient/IUIAutomationPropertyCondition.PropertyConditionFlags"
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisableHeatMap, DisableHeatMap method [DirectComposition], DisableHeatMap method [DirectComposition],IDCompositionVisualDebug interface, IDCompositionVisualDebug interface [DirectComposition],DisableHeatMap method, IDCompositionVisualDebug.DisableHeatMap, IDCompositionVisualDebug::DisableHeatMap, dcomp/IDCompositionVisualDebug::DisableHeatMap, directcomp.idcompositionvisualdebug_disableheatmap
 ms.topic: method
-f1_keywords: ["dcomp/IDCompositionVisualDebug.DisableHeatMap"]
+f1_keywords: 
+ - "dcomp/IDCompositionVisualDebug.DisableHeatMap"
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MAPIDetails, MAPIDetails callback, MAPIDetails callback function, MAPI_AB_NOMODIFY, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapidetails, mapi/MAPIDetails
 ms.topic: callback
-f1_keywords: ["mapi/MAPIDetails"]
+f1_keywords: 
+ - "mapi/MAPIDetails"
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows

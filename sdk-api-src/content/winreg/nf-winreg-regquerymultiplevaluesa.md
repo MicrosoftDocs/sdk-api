@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegQueryMultipleValues, RegQueryMultipleValues function, RegQueryMultipleValuesA, RegQueryMultipleValuesW, _win32_regquerymultiplevalues, base.regquerymultiplevalues, winreg/RegQueryMultipleValues, winreg/RegQueryMultipleValuesA, winreg/RegQueryMultipleValuesW
 ms.topic: function
-f1_keywords: ["winreg/RegQueryMultipleValues"]
+f1_keywords: 
+ - "winreg/RegQueryMultipleValues"
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPersistQuery interface [Active Directory],WriteInt method, IPersistQuery.WriteInt, IPersistQuery::WriteInt, WriteInt, WriteInt method [Active Directory], WriteInt method [Active Directory],IPersistQuery interface, _glines_ipersistquery_writeint, ad.ipersistquery__writeint, ad.ipersistquery_writeint, cmnquery/IPersistQuery::WriteInt
 ms.topic: method
-f1_keywords: ["cmnquery/IPersistQuery.WriteInt"]
+f1_keywords: 
+ - "cmnquery/IPersistQuery.WriteInt"
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

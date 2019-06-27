@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGradientStopCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMGradientStopCollection.InsertAt, IXpsOMGradientStopCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMGradientStopCollection interface, xps.ixpsomgradientstopcollection_insertat, xpsobjectmodel/IXpsOMGradientStopCollection::InsertAt
 ms.topic: method
-f1_keywords: ["xpsobjectmodel/IXpsOMGradientStopCollection.InsertAt"]
+f1_keywords: 
+ - "xpsobjectmodel/IXpsOMGradientStopCollection.InsertAt"
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

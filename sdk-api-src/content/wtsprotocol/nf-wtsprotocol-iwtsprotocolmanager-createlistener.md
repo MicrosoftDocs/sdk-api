@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateListener, CreateListener method [Remote Desktop Services], CreateListener method [Remote Desktop Services],IWTSProtocolManager interface, IWTSProtocolManager interface [Remote Desktop Services],CreateListener method, IWTSProtocolManager.CreateListener, IWTSProtocolManager::CreateListener, termserv.iwtsprotocolmanager_createlistener, wtsprotocol/IWTSProtocolManager::CreateListener
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWTSProtocolManager.CreateListener"]
+f1_keywords: 
+ - "wtsprotocol/IWTSProtocolManager.CreateListener"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

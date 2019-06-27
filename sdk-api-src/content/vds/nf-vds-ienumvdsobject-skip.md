@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumVdsObject interface [VDS],Skip method, IEnumVdsObject.Skip, IEnumVdsObject::Skip, Skip, Skip method [VDS], Skip method [VDS],IEnumVdsObject interface, base.ienumvdsobject_skip, vds/IEnumVdsObject::Skip, vdshwprv/IEnumVdsObject::Skip
 ms.topic: method
-f1_keywords: ["vds/IEnumVdsObject.Skip"]
+f1_keywords: 
+ - "vds/IEnumVdsObject.Skip"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

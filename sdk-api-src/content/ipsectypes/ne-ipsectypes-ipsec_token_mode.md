@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPSEC_TOKEN_MODE, IPSEC_TOKEN_MODE enumeration [Filtering], IPSEC_TOKEN_MODE_EXTENDED, IPSEC_TOKEN_MODE_MAIN, IPSEC_TOKEN_MODE_MAX, fwp.ipsec_token_mode, ipsectypes/IPSEC_TOKEN_MODE, ipsectypes/IPSEC_TOKEN_MODE_EXTENDED, ipsectypes/IPSEC_TOKEN_MODE_MAIN, ipsectypes/IPSEC_TOKEN_MODE_MAX
 ms.topic: enum
-f1_keywords: ["ipsectypes/IPSEC_TOKEN_MODE"]
+f1_keywords: 
+ - "ipsectypes/IPSEC_TOKEN_MODE"
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

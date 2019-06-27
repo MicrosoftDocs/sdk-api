@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WM_WRITER_STATISTICS_EX, WM_WRITER_STATISTICS_EX structure [windows Media Format], wmformat.wm_writer_statistics_ex, wmsdkidl/WM_WRITER_STATISTICS_EX
 ms.topic: struct
-f1_keywords: ["wmsdkidl/WM_WRITER_STATISTICS_EX"]
+f1_keywords: 
+ - "wmsdkidl/WM_WRITER_STATISTICS_EX"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

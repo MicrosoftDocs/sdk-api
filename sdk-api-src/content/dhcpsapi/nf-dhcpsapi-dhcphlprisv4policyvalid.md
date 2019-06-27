@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpHlprIsV4PolicyValid, DhcpHlprIsV4PolicyValid function [DHCP], dhcp.dhcphlprisv4policyvalid, dhcpsapi/DhcpHlprIsV4PolicyValid
 ms.topic: function
-f1_keywords: ["dhcpsapi/DhcpHlprIsV4PolicyValid"]
+f1_keywords: 
+ - "dhcpsapi/DhcpHlprIsV4PolicyValid"
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

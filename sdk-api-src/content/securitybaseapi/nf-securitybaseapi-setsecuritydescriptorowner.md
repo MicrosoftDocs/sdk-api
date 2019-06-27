@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetSecurityDescriptorOwner, SetSecurityDescriptorOwner function [Security], _win32_setsecuritydescriptorowner, security.setsecuritydescriptorowner, securitybaseapi/SetSecurityDescriptorOwner
 ms.topic: function
-f1_keywords: ["securitybaseapi/SetSecurityDescriptorOwner"]
+f1_keywords: 
+ - "securitybaseapi/SetSecurityDescriptorOwner"
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

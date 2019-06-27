@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MSISOURCETYPE_MEDIA, MSISOURCETYPE_NETWORK, MSISOURCETYPE_URL, MsiSourceListClearAllEx, MsiSourceListClearAllEx function, MsiSourceListClearAllExA, MsiSourceListClearAllExW, msi/MsiSourceListClearAllEx, msi/MsiSourceListClearAllExA, msi/MsiSourceListClearAllExW, setup.msisourcelistclearallex
 ms.topic: function
-f1_keywords: ["msi/MsiSourceListClearAllEx"]
+f1_keywords: 
+ - "msi/MsiSourceListClearAllEx"
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

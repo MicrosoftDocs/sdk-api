@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_CONTEXT_FUNCTION_PROVIDERS, CRYPT_CONTEXT_FUNCTION_PROVIDERS, CRYPT_CONTEXT_FUNCTION_PROVIDERS structure [Security], PCRYPT_CONTEXT_FUNCTION_PROVIDERS, PCRYPT_CONTEXT_FUNCTION_PROVIDERS structure pointer [Security], bcrypt/CRYPT_CONTEXT_FUNCTION_PROVIDERS, bcrypt/PCRYPT_CONTEXT_FUNCTION_PROVIDERS, security.crypt_context_function_providers"
 ms.topic: struct
-f1_keywords: ["bcrypt/CRYPT_CONTEXT_FUNCTION_PROVIDERS"]
+f1_keywords: 
+ - "bcrypt/CRYPT_CONTEXT_FUNCTION_PROVIDERS"
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

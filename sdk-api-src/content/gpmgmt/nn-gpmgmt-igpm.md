@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPM, IGPM, IGPM interface [GPMC], IGPM interface [GPMC],described, _win32_igpm, gpmc.igpm, gpmgmt/IGPM
 ms.topic: interface
-f1_keywords: ["gpmgmt/IGPM"]
+f1_keywords: 
+ - "gpmgmt/IGPM"
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

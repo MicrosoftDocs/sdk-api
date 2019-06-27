@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_DualMode method, IMpegAudioDecoder.put_DualMode, IMpegAudioDecoder::put_DualMode, IMpegAudioDecoderputDualMode, dshow.impegaudiodecoder_put_dualmode, mpegtype/IMpegAudioDecoder::put_DualMode, put_DualMode, put_DualMode method [DirectShow], put_DualMode method [DirectShow],IMpegAudioDecoder interface
 ms.topic: method
-f1_keywords: ["mpegtype/IMpegAudioDecoder.put_DualMode"]
+f1_keywords: 
+ - "mpegtype/IMpegAudioDecoder.put_DualMode"
 req.header: mpegtype.h
 req.include-header: 
 req.target-type: Windows

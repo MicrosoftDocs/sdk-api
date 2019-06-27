@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegEnableReflectionKey, RegEnableReflectionKey function, base.regenablereflectionkey, winreg/RegEnableReflectionKey
 ms.topic: function
-f1_keywords: ["winreg/RegEnableReflectionKey"]
+f1_keywords: 
+ - "winreg/RegEnableReflectionKey"
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

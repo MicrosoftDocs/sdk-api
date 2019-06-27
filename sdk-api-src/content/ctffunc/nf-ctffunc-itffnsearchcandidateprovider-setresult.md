@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfFnSearchCandidateProvider interface [Text Services Framework],SetResult method, ITfFnSearchCandidateProvider.SetResult, ITfFnSearchCandidateProvider::SetResult, SetResult, SetResult method [Text Services Framework], SetResult method [Text Services Framework],ITfFnSearchCandidateProvider interface, ctffunc/ITfFnSearchCandidateProvider::SetResult, tsf.itffnsearchcandidateprovider_setresult
 ms.topic: method
-f1_keywords: ["ctffunc/ITfFnSearchCandidateProvider.SetResult"]
+f1_keywords: 
+ - "ctffunc/ITfFnSearchCandidateProvider.SetResult"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

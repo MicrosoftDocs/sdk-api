@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNamespaceAt, GetNamespaceAt method [Windows Management Instrumentation], GetNamespaceAt method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetNamespaceAt method, IWbemPath.GetNamespaceAt, IWbemPath::GetNamespaceAt, _hmm_iwbempath_getnamespaceat, wmi.iwbempath_getnamespaceat, wmiutils/IWbemPath::GetNamespaceAt
 ms.topic: method
-f1_keywords: ["wmiutils/IWbemPath.GetNamespaceAt"]
+f1_keywords: 
+ - "wmiutils/IWbemPath.GetNamespaceAt"
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

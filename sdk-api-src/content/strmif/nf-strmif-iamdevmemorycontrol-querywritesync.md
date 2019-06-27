@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMDevMemoryControl interface [DirectShow],QueryWriteSync method, IAMDevMemoryControl.QueryWriteSync, IAMDevMemoryControl::QueryWriteSync, IAMDevMemoryControlQueryWriteSync, QueryWriteSync, QueryWriteSync method [DirectShow], QueryWriteSync method [DirectShow],IAMDevMemoryControl interface, dshow.iamdevmemorycontrol_querywritesync, strmif/IAMDevMemoryControl::QueryWriteSync
 ms.topic: method
-f1_keywords: ["strmif/IAMDevMemoryControl.QueryWriteSync"]
+f1_keywords: 
+ - "strmif/IAMDevMemoryControl.QueryWriteSync"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

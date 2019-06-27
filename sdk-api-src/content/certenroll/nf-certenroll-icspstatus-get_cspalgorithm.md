@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CspAlgorithm property [Security], CspAlgorithm property [Security],ICspStatus interface, ICspStatus interface [Security],CspAlgorithm property, ICspStatus.CspAlgorithm, ICspStatus.get_CspAlgorithm, ICspStatus::CspAlgorithm, ICspStatus::get_CspAlgorithm, certenroll/ICspStatus::CspAlgorithm, certenroll/ICspStatus::get_CspAlgorithm, get_CspAlgorithm, security.icspstatus_cspalgorithm
 ms.topic: method
-f1_keywords: ["certenroll/ICspStatus.CspAlgorithm"]
+f1_keywords: 
+ - "certenroll/ICspStatus.CspAlgorithm"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

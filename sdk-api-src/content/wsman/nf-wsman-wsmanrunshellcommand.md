@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSManRunShellCommand, WSManRunShellCommand function [Windows Remote Management], winrm.wsmanrunshellcommand, wsman/WSManRunShellCommand
 ms.topic: function
-f1_keywords: ["wsman/WSManRunShellCommand"]
+f1_keywords: 
+ - "wsman/WSManRunShellCommand"
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

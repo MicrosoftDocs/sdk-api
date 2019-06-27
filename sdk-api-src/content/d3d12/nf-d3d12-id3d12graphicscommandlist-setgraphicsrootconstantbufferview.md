@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetGraphicsRootConstantBufferView method, ID3D12GraphicsCommandList.SetGraphicsRootConstantBufferView, ID3D12GraphicsCommandList::SetGraphicsRootConstantBufferView, SetGraphicsRootConstantBufferView, SetGraphicsRootConstantBufferView method, SetGraphicsRootConstantBufferView method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetGraphicsRootConstantBufferView, direct3d12.id3d12graphicscommandlist_setgraphicsrootconstantbufferview
 ms.topic: method
-f1_keywords: ["d3d12/ID3D12GraphicsCommandList.SetGraphicsRootConstantBufferView"]
+f1_keywords: 
+ - "d3d12/ID3D12GraphicsCommandList.SetGraphicsRootConstantBufferView"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

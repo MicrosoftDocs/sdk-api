@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtGetPublisherMetadataProperty, EvtGetPublisherMetadataProperty function [EventLog], wes.evtgetpublishermetadataproperty, winevt/EvtGetPublisherMetadataProperty
 ms.topic: function
-f1_keywords: ["winevt/EvtGetPublisherMetadataProperty"]
+f1_keywords: 
+ - "winevt/EvtGetPublisherMetadataProperty"
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

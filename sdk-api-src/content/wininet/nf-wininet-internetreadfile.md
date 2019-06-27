@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetReadFile, InternetReadFile function [WinINet], _inet_internetreadfile_function, wininet.internetreadfile, wininet/InternetReadFile
 ms.topic: function
-f1_keywords: ["wininet/InternetReadFile"]
+f1_keywords: 
+ - "wininet/InternetReadFile"
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

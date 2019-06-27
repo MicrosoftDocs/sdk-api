@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NPAddConnection, NPAddConnection function [Security], _mnp_npaddconnection, dwType, lpLocalName, lpRemoteName, npapi/NPAddConnection, security.npaddconnection
 ms.topic: function
-f1_keywords: ["npapi/NPAddConnection"]
+f1_keywords: 
+ - "npapi/NPAddConnection"
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

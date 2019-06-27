@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathIsSameRoot, PathIsSameRoot function [Windows Shell], PathIsSameRootA, PathIsSameRootW, _win32_PathIsSameRoot, shell.PathIsSameRoot, shlwapi/PathIsSameRoot, shlwapi/PathIsSameRootA, shlwapi/PathIsSameRootW
 ms.topic: function
-f1_keywords: ["shlwapi/PathIsSameRoot"]
+f1_keywords: 
+ - "shlwapi/PathIsSameRoot"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

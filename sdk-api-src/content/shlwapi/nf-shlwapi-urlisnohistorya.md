@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UrlIsNoHistory, UrlIsNoHistory function [Windows Shell], UrlIsNoHistoryA, UrlIsNoHistoryW, _win32_UrlIsNoHistory, shell.UrlIsNoHistory, shlwapi/UrlIsNoHistory, shlwapi/UrlIsNoHistoryA, shlwapi/UrlIsNoHistoryW
 ms.topic: function
-f1_keywords: ["shlwapi/UrlIsNoHistory"]
+f1_keywords: 
+ - "shlwapi/UrlIsNoHistory"
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

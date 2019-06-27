@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBufferAndLength, GetBufferAndLength method [windows Media Format], GetBufferAndLength method [windows Media Format],INSSBuffer interface, INSSBuffer interface [windows Media Format],GetBufferAndLength method, INSSBuffer.GetBufferAndLength, INSSBuffer::GetBufferAndLength, INSSBufferGetBufferAndLength, wmformat.inssbuffer_getbufferandlength, wmsbuffer/INSSBuffer::GetBufferAndLength
 ms.topic: method
-f1_keywords: ["wmsbuffer/INSSBuffer.GetBufferAndLength"]
+f1_keywords: 
+ - "wmsbuffer/INSSBuffer.GetBufferAndLength"
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

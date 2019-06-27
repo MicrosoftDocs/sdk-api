@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetMetaFileBitsEx, SetMetaFileBitsEx function [Windows GDI], _win32_SetMetaFileBitsEx, gdi.setmetafilebitsex, wingdi/SetMetaFileBitsEx
 ms.topic: function
-f1_keywords: ["wingdi/SetMetaFileBitsEx"]
+f1_keywords: 
+ - "wingdi/SetMetaFileBitsEx"
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

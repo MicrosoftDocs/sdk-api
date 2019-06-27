@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPRenderConfig interface [Windows Media Player],put_inProcOnly method, IWMPRenderConfig.put_inProcOnly, IWMPRenderConfig::put_inProcOnly, IWMPRenderConfigputInProcOnly, put_inProcOnly, put_inProcOnly method [Windows Media Player], put_inProcOnly method [Windows Media Player],IWMPRenderConfig interface, wmp.iwmprenderconfig_put_inproconly, wmprealestate/IWMPRenderConfig::put_inProcOnly
 ms.topic: method
-f1_keywords: ["wmprealestate/IWMPRenderConfig.put_inProcOnly"]
+f1_keywords: 
+ - "wmprealestate/IWMPRenderConfig.put_inProcOnly"
 req.header: wmprealestate.h
 req.include-header: 
 req.target-type: Windows

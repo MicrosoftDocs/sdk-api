@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRicheditWindowlessAccessibility, IRicheditWindowlessAccessibility interface [Windows Controls], IRicheditWindowlessAccessibility interface [Windows Controls],described, controls.iricheditwindowlessaccessibility, textserv/IRicheditWindowlessAccessibility
 ms.topic: interface
-f1_keywords: ["textserv/IRicheditWindowlessAccessibility"]
+f1_keywords: 
+ - "textserv/IRicheditWindowlessAccessibility"
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfCategoryMgr interface [Text Services Framework],RegisterGUIDDescription method, ITfCategoryMgr.RegisterGUIDDescription, ITfCategoryMgr::RegisterGUIDDescription, RegisterGUIDDescription, RegisterGUIDDescription method [Text Services Framework], RegisterGUIDDescription method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_registerguiddescription_ref, msctf/ITfCategoryMgr::RegisterGUIDDescription, tsf.itfcategorymgr_registerguiddescription
 ms.topic: method
-f1_keywords: ["msctf/ITfCategoryMgr.RegisterGUIDDescription"]
+f1_keywords: 
+ - "msctf/ITfCategoryMgr.RegisterGUIDDescription"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

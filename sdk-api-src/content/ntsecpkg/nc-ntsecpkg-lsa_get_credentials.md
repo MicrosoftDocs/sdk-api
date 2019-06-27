@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCredentials, GetCredentials callback function [Security], LSA_GET_CREDENTIALS, LSA_GET_CREDENTIALS callback, _lsa_getcredentials, ntsecpkg/GetCredentials, security.getcredentials
 ms.topic: callback
-f1_keywords: ["ntsecpkg/GetCredentials"]
+f1_keywords: 
+ - "ntsecpkg/GetCredentials"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

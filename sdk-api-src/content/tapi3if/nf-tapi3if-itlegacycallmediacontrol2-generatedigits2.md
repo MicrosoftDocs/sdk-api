@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GenerateDigits2, GenerateDigits2 method [TAPI 2.2], GenerateDigits2 method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],GenerateDigits2 method, ITLegacyCallMediaControl2.GenerateDigits2, ITLegacyCallMediaControl2::GenerateDigits2, _tapi3_itlegacycallmediacontrol2_generatedigits2, tapi3.itlegacycallmediacontrol2_generatedigits2, tapi3if/ITLegacyCallMediaControl2::GenerateDigits2
 ms.topic: method
-f1_keywords: ["tapi3if/ITLegacyCallMediaControl2.GenerateDigits2"]
+f1_keywords: 
+ - "tapi3if/ITLegacyCallMediaControl2.GenerateDigits2"
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscMasterProgressEvents interface [IMAPI],NotifyTrackProgress method, IDiscMasterProgressEvents.NotifyTrackProgress, IDiscMasterProgressEvents::NotifyTrackProgress, NotifyTrackProgress, NotifyTrackProgress method [IMAPI], NotifyTrackProgress method [IMAPI],IDiscMasterProgressEvents interface, _win32_idiscmasterprogressevents_notifytrackprogress, base.idiscmasterprogressevents_notifytrackprogress, imapi.idiscmasterprogressevents_notifytrackprogress, imapi/IDiscMasterProgressEvents::NotifyTrackProgress
 ms.topic: method
-f1_keywords: ["imapi/IDiscMasterProgressEvents.NotifyTrackProgress"]
+f1_keywords: 
+ - "imapi/IDiscMasterProgressEvents.NotifyTrackProgress"
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [ADSI], Clear method [ADSI],IADsPropertyValue interface, IADsPropertyValue interface [ADSI],Clear method, IADsPropertyValue.Clear, IADsPropertyValue::Clear, _ds_iadspropertyvalue_clear, adsi.iadspropertyvalue__clear, adsi.iadspropertyvalue_clear, iads/IADsPropertyValue::Clear
 ms.topic: method
-f1_keywords: ["iads/IADsPropertyValue.Clear"]
+f1_keywords: 
+ - "iads/IADsPropertyValue.Clear"
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

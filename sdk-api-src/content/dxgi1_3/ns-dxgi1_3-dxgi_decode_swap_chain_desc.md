@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXGI_DECODE_SWAP_CHAIN_DESC, DXGI_DECODE_SWAP_CHAIN_DESC structure [DXGI], direct3ddxgi.dxgi_decode_swap_chain_desc, dxgi1_3/DXGI_DECODE_SWAP_CHAIN_DESC
 ms.topic: struct
-f1_keywords: ["dxgi1_3/DXGI_DECODE_SWAP_CHAIN_DESC"]
+f1_keywords: 
+ - "dxgi1_3/DXGI_DECODE_SWAP_CHAIN_DESC"
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

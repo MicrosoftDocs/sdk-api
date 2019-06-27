@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FilterGetInformation, FilterGetInformation function [Installable File System Drivers], FltWin32ApiRef_244d89a8-3a31-44bd-bc08-b3ea8bb4dbba.xml, fltuser/FilterGetInformation, ifsk.filtergetinformation
 ms.topic: function
-f1_keywords: ["fltuser/FilterGetInformation"]
+f1_keywords: 
+ - "fltuser/FilterGetInformation"
 req.header: fltuser.h
 req.include-header: FltUser.h
 req.target-type: Universal

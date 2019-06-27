@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTXFS_WRITE_BACKUP_INFORMATION, PTXFS_WRITE_BACKUP_INFORMATION, PTXFS_WRITE_BACKUP_INFORMATION structure pointer [Files], TXFS_WRITE_BACKUP_INFORMATION, TXFS_WRITE_BACKUP_INFORMATION structure [Files], fs.txfs_write_backup_information, winioctl/PTXFS_WRITE_BACKUP_INFORMATION, winioctl/TXFS_WRITE_BACKUP_INFORMATION"
 ms.topic: struct
-f1_keywords: ["winioctl/TXFS_WRITE_BACKUP_INFORMATION"]
+f1_keywords: 
+ - "winioctl/TXFS_WRITE_BACKUP_INFORMATION"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

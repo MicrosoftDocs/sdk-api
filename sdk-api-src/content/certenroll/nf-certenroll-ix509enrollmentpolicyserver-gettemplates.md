@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTemplates, GetTemplates method [Security], GetTemplates method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetTemplates method, IX509EnrollmentPolicyServer.GetTemplates, IX509EnrollmentPolicyServer::GetTemplates, certenroll/IX509EnrollmentPolicyServer::GetTemplates, security.ix509enrollmentpolicyserver_gettemplates
 ms.topic: method
-f1_keywords: ["certenroll/IX509EnrollmentPolicyServer.GetTemplates"]
+f1_keywords: 
+ - "certenroll/IX509EnrollmentPolicyServer.GetTemplates"
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

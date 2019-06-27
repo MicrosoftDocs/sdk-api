@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],ProxyAuthenticationUseDigest method, IWSManConnectionOptionsEx2.ProxyAuthenticationUseDigest, IWSManConnectionOptionsEx2::ProxyAuthenticationUseDigest, ProxyAuthenticationUseDigest, ProxyAuthenticationUseDigest method [Windows Remote Management], ProxyAuthenticationUseDigest method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_proxyauthenticationusedigest, wsmandisp/IWSManConnectionOptionsEx2::ProxyAuthenticationUseDigest
 ms.topic: method
-f1_keywords: ["wsmandisp/IWSManConnectionOptionsEx2.ProxyAuthenticationUseDigest"]
+f1_keywords: 
+ - "wsmandisp/IWSManConnectionOptionsEx2.ProxyAuthenticationUseDigest"
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

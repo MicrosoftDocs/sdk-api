@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICStreamProvider interface [Windows Imaging Component],RefreshStream method, IWICStreamProvider.RefreshStream, IWICStreamProvider::RefreshStream, RefreshStream, RefreshStream method [Windows Imaging Component], RefreshStream method [Windows Imaging Component],IWICStreamProvider interface, _wic_codec_iwicstreamprovider_refreshstream, wic._wic_codec_iwicstreamprovider_refreshstream, wincodecsdk/IWICStreamProvider::RefreshStream
 ms.topic: method
-f1_keywords: ["wincodecsdk/IWICStreamProvider.RefreshStream"]
+f1_keywords: 
+ - "wincodecsdk/IWICStreamProvider.RefreshStream"
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilOidAppend, SnmpUtilOidAppend function [SNMP], _snmp_snmputiloidappend, snmp.snmputiloidappend, snmp/SnmpUtilOidAppend
 ms.topic: function
-f1_keywords: ["snmp/SnmpUtilOidAppend"]
+f1_keywords: 
+ - "snmp/SnmpUtilOidAppend"
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

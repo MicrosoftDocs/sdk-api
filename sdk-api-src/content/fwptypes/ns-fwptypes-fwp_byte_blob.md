@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWP_BYTE_BLOB, FWP_BYTE_BLOB structure [Filtering], fwp.fwp_byte_blob_struct, fwptypes/FWP_BYTE_BLOB
 ms.topic: struct
-f1_keywords: ["fwptypes/FWP_BYTE_BLOB"]
+f1_keywords: 
+ - "fwptypes/FWP_BYTE_BLOB"
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows

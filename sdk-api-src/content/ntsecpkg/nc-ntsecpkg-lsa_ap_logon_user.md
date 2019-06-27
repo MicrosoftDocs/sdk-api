@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LSA_AP_LOGON_USER, LSA_AP_LOGON_USER callback, LsaApLogonUser, LsaApLogonUser callback function [Security], STATUS_ACCOUNT_DISABLED, STATUS_INVALID_LOGON_HOURS, STATUS_INVALID_WORKSTATION, STATUS_PASSWORD_EXPIRED, _lsa_lsaaplogonuser, ntsecpkg/LsaApLogonUser, security.lsaaplogonuser
 ms.topic: callback
-f1_keywords: ["ntsecpkg/LsaApLogonUser"]
+f1_keywords: 
+ - "ntsecpkg/LsaApLogonUser"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

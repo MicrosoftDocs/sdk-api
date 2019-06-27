@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemPath interface [Windows Management Instrumentation],SetClassName method, IWbemPath.SetClassName, IWbemPath::SetClassName, SetClassName, SetClassName method [Windows Management Instrumentation], SetClassName method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_setclassname, wmi.iwbempath_setclassname, wmiutils/IWbemPath::SetClassName
 ms.topic: method
-f1_keywords: ["wmiutils/IWbemPath.SetClassName"]
+f1_keywords: 
+ - "wmiutils/IWbemPath.SetClassName"
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

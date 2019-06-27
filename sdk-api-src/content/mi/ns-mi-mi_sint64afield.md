@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Sint64AField, MI_Sint64AField structure [Windows Management Infrastructure (MI)], mi/MI_Sint64AField, wmi._mi_sint64afield, wmi_v2.mi_sint64afield
 ms.topic: struct
-f1_keywords: ["mi/MI_Sint64AField"]
+f1_keywords: 
+ - "mi/MI_Sint64AField"
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

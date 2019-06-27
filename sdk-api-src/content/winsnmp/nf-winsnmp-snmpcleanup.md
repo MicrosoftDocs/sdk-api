@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpCleanup, SnmpCleanup function [SNMP], _snmp_snmpcleanup, snmp.snmpcleanup, winsnmp/SnmpCleanup
 ms.topic: function
-f1_keywords: ["winsnmp/SnmpCleanup"]
+f1_keywords: 
+ - "winsnmp/SnmpCleanup"
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

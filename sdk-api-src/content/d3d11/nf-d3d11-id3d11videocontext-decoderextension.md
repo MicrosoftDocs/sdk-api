@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DecoderExtension, DecoderExtension method [Media Foundation], DecoderExtension method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],DecoderExtension method, ID3D11VideoContext.DecoderExtension, ID3D11VideoContext::DecoderExtension, d3d11/ID3D11VideoContext::DecoderExtension, mf.id3d11videocontext_decoderextension
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11VideoContext.DecoderExtension"]
+f1_keywords: 
+ - "d3d11/ID3D11VideoContext.DecoderExtension"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

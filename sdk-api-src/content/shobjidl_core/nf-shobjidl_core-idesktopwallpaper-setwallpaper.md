@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDesktopWallpaper interface [Windows Shell],SetWallpaper method, IDesktopWallpaper.SetWallpaper, IDesktopWallpaper::SetWallpaper, SetWallpaper, SetWallpaper method [Windows Shell], SetWallpaper method [Windows Shell],IDesktopWallpaper interface, shell.IDesktopWallpaper_SetWallpaper, shobjidl_core/IDesktopWallpaper::SetWallpaper
 ms.topic: method
-f1_keywords: ["shobjidl_core/IDesktopWallpaper.SetWallpaper"]
+f1_keywords: 
+ - "shobjidl_core/IDesktopWallpaper.SetWallpaper"
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

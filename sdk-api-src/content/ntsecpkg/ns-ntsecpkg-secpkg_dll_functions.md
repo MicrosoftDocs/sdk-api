@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSECPKG_DLL_FUNCTIONS, PSECPKG_DLL_FUNCTIONS, PSECPKG_DLL_FUNCTIONS structure pointer [Security], SECPKG_DLL_FUNCTIONS, SECPKG_DLL_FUNCTIONS structure [Security], _ssp_secpkg_dll_functions, ntsecpkg/PSECPKG_DLL_FUNCTIONS, ntsecpkg/SECPKG_DLL_FUNCTIONS, security.secpkg_dll_functions"
 ms.topic: struct
-f1_keywords: ["ntsecpkg/SECPKG_DLL_FUNCTIONS"]
+f1_keywords: 
+ - "ntsecpkg/SECPKG_DLL_FUNCTIONS"
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

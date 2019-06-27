@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetSnapPoints method, IDirectManipulationPrimaryContent.SetSnapPoints, IDirectManipulationPrimaryContent::SetSnapPoints, SetSnapPoints, SetSnapPoints method [Direct Manipulation], SetSnapPoints method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_setsnappoints, directmanipulation/IDirectManipulationPrimaryContent::SetSnapPoints
 ms.topic: method
-f1_keywords: ["directmanipulation/IDirectManipulationPrimaryContent.SetSnapPoints"]
+f1_keywords: 
+ - "directmanipulation/IDirectManipulationPrimaryContent.SetSnapPoints"
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

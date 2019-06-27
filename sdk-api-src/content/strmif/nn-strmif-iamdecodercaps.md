@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMDecoderCaps, IAMDecoderCaps interface [DirectShow], IAMDecoderCaps interface [DirectShow],described, IAMDecoderCapsInterface, dshow.iamdecodercaps, strmif/IAMDecoderCaps
 ms.topic: interface
-f1_keywords: ["strmif/IAMDecoderCaps"]
+f1_keywords: 
+ - "strmif/IAMDecoderCaps"
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

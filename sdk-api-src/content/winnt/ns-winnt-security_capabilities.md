@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSECURITY_CAPABILITIES, *PSECURITY_CAPABILITIES, PSECURITY_CAPABILITIES, PSECURITY_CAPABILITIES structure pointer [Security], SECURITY_CAPABILITIES, SECURITY_CAPABILITIES structure [Security], _SECURITY_CAPABILITIES, security.security_capabilities, winnt/PSECURITY_CAPABILITIES, winnt/SECURITY_CAPABILITIES"
 ms.topic: struct
-f1_keywords: ["winnt/SECURITY_CAPABILITIES"]
+f1_keywords: 
+ - "winnt/SECURITY_CAPABILITIES"
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

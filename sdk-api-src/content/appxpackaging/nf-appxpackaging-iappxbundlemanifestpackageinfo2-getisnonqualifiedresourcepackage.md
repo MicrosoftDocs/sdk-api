@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIsNonQualifiedResourcePackage, GetIsNonQualifiedResourcePackage method [App packaging and management], GetIsNonQualifiedResourcePackage method [App packaging and management],IAppxBundleManifestPackageInfo2 interface, IAppxBundleManifestPackageInfo2 interface [App packaging and management],GetIsNonQualifiedResourcePackage method, IAppxBundleManifestPackageInfo2.GetIsNonQualifiedResourcePackage, IAppxBundleManifestPackageInfo2::GetIsNonQualifiedResourcePackage, appxpackaging/IAppxBundleManifestPackageInfo2::GetIsNonQualifiedResourcePackage, appxpkg.iappxbundlemanifestpackageinfo2_getisnonqualifiedresourcepackage
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxBundleManifestPackageInfo2.GetIsNonQualifiedResourcePackage"]
+f1_keywords: 
+ - "appxpackaging/IAppxBundleManifestPackageInfo2.GetIsNonQualifiedResourcePackage"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

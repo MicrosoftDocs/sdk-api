@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvStartDoc, DrvStartDoc function [Display Devices], ddifncs_18494fde-3744-4ade-a245-f312b1fc4b48.xml, display.drvstartdoc, winddi/DrvStartDoc
 ms.topic: function
-f1_keywords: ["winddi/DrvStartDoc"]
+f1_keywords: 
+ - "winddi/DrvStartDoc"
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

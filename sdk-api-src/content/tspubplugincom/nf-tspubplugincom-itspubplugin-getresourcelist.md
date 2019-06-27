@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetResourceList, GetResourceList method [Remote Desktop Services], GetResourceList method [Remote Desktop Services],ItsPubPlugin interface, ItsPubPlugin interface [Remote Desktop Services],GetResourceList method, ItsPubPlugin.GetResourceList, ItsPubPlugin::GetResourceList, termserv.itspubplugin_getresourcelist, tspubplugincom/ItsPubPlugin::GetResourceList
 ms.topic: method
-f1_keywords: ["tspubplugincom/ItsPubPlugin.GetResourceList"]
+f1_keywords: 
+ - "tspubplugincom/ItsPubPlugin.GetResourceList"
 req.header: tspubplugincom.h
 req.include-header: 
 req.target-type: Windows

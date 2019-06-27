@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLSA_TRANSLATED_SID2, LSA_TRANSLATED_SID2, LSA_TRANSLATED_SID2 structure [Security], PLSA_TRANSLATED_SID2, PLSA_TRANSLATED_SID2 structure pointer [Security], _lsa_lsa_translated_sid2, lsalookup/LSA_TRANSLATED_SID2, lsalookup/PLSA_TRANSLATED_SID2, security.lsa_translated_sid2"
 ms.topic: struct
-f1_keywords: ["lsalookup/LSA_TRANSLATED_SID2"]
+f1_keywords: 
+ - "lsalookup/LSA_TRANSLATED_SID2"
 req.header: lsalookup.h
 req.include-header: 
 req.target-type: Windows

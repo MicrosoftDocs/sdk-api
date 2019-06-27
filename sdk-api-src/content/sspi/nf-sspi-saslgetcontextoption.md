@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SASL_OPTION_AUTHZ_PROCESSING, SASL_OPTION_AUTHZ_STRING, SASL_OPTION_RECV_SIZE, SASL_OPTION_SEND_SIZE, SaslGetContextOption, SaslGetContextOption function [Security], security.saslgetcontextoption, sspi/SaslGetContextOption
 ms.topic: function
-f1_keywords: ["sspi/SaslGetContextOption"]
+f1_keywords: 
+ - "sspi/SaslGetContextOption"
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

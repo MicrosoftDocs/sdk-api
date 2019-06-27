@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixIsIdentity, XMMatrixIsIdentity, XMMatrixIsIdentity method [DirectX Math Support APIs], dxmath.xmmatrixisidentity
 ms.topic: function
-f1_keywords: ["directxmath/XMMatrixIsIdentity"]
+f1_keywords: 
+ - "directxmath/XMMatrixIsIdentity"
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

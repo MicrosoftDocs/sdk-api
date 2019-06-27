@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFiles, GetFiles method [App packaging and management], GetFiles method [App packaging and management],IAppxBlockMapReader interface, IAppxBlockMapReader interface [App packaging and management],GetFiles method, IAppxBlockMapReader.GetFiles, IAppxBlockMapReader::GetFiles, appxpackaging/IAppxBlockMapReader::GetFiles, appxpkg.iappxblockmapreader_getfiles
 ms.topic: method
-f1_keywords: ["appxpackaging/IAppxBlockMapReader.GetFiles"]
+f1_keywords: 
+ - "appxpackaging/IAppxBlockMapReader.GetFiles"
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

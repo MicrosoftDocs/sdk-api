@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfFnAdviseText interface [Text Services Framework],OnTextUpdate method, ITfFnAdviseText.OnTextUpdate, ITfFnAdviseText::OnTextUpdate, OnTextUpdate, OnTextUpdate method [Text Services Framework], OnTextUpdate method [Text Services Framework],ITfFnAdviseText interface, _tsf_itffnadvisetext_ontextupdate_ref, ctffunc/ITfFnAdviseText::OnTextUpdate, tsf.itffnadvisetext_ontextupdate
 ms.topic: method
-f1_keywords: ["ctffunc/ITfFnAdviseText.OnTextUpdate"]
+f1_keywords: 
+ - "ctffunc/ITfFnAdviseText.OnTextUpdate"
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

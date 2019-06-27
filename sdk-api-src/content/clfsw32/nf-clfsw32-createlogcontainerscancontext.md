@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLFS_SCAN_BACKWARD, CLFS_SCAN_FORWARD, CLFS_SCAN_INIT, CreateLogContainerScanContext, CreateLogContainerScanContext function [Files], clfsw32/CreateLogContainerScanContext, fs.createlogcontainerscancontext
 ms.topic: function
-f1_keywords: ["clfsw32/CreateLogContainerScanContext"]
+f1_keywords: 
+ - "clfsw32/CreateLogContainerScanContext"
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

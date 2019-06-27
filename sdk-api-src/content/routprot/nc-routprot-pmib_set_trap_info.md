@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MibSetTrapInfo, MibSetTrapInfo callback function [RAS], PMIB_SET_TRAP_INFO, PMIB_SET_TRAP_INFO callback, _mpr_mibsettrapinfo, routprot/MibSetTrapInfo, rras.mibsettrapinfo
 ms.topic: callback
-f1_keywords: ["routprot/MibSetTrapInfo"]
+f1_keywords: 
+ - "routprot/MibSetTrapInfo"
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskSettings, ITaskSettings interface [Task Scheduler], ITaskSettings interface [Task Scheduler],described, taskschd.itasksettings, taskschd/ITaskSettings
 ms.topic: interface
-f1_keywords: ["taskschd/ITaskSettings"]
+f1_keywords: 
+ - "taskschd/ITaskSettings"
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

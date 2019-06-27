@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SCODE_CODE, SCODE_CODE macro [COM], _com_SCODE_CODE, com.scode_code, com.scode_code_macro, winerror/SCODE_CODE
 ms.topic: macro
-f1_keywords: ["winerror/SCODE_CODE"]
+f1_keywords: 
+ - "winerror/SCODE_CODE"
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DBCOMMANDOPENUM, DBCOMMANDOPENUM enumeration [Indexing Service], See below., _idxs_DBCOMMANDOPENUM, cmdtree/DBCOMMANDOPENUM, cmdtree/See below., indexsrv.dbcommandopenum
 ms.topic: enum
-f1_keywords: ["cmdtree/DBCOMMANDOPENUM"]
+f1_keywords: 
+ - "cmdtree/DBCOMMANDOPENUM"
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

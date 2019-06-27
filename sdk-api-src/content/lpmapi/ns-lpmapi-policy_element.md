@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: POLICY_ELEMENT, POLICY_ELEMENT structure [QOS], _POLICY_ELEMENT, infocard/POLICY_ELEMENT, qos.policy_element
 ms.topic: struct
-f1_keywords: ["lpmapi/POLICY_ELEMENT"]
+f1_keywords: 
+ - "lpmapi/POLICY_ELEMENT"
 req.header: lpmapi.h
 req.include-header: Lpmapi.h
 req.target-type: Windows

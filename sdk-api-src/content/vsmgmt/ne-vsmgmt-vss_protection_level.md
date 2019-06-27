@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PVSS_PROTECTION_LEVEL, VSS_PROTECTION_LEVEL, VSS_PROTECTION_LEVEL enumeration, VSS_PROTECTION_LEVEL_ORIGINAL_VOLUME, VSS_PROTECTION_LEVEL_SNAPSHOT, base.vss_protection_level, vsmgmt/VSS_PROTECTION_LEVEL, vsmgmt/VSS_PROTECTION_LEVEL_ORIGINAL_VOLUME, vsmgmt/VSS_PROTECTION_LEVEL_SNAPSHOT"
 ms.topic: enum
-f1_keywords: ["vsmgmt/VSS_PROTECTION_LEVEL"]
+f1_keywords: 
+ - "vsmgmt/VSS_PROTECTION_LEVEL"
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

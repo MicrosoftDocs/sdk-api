@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVAHDSW_CALLBACKS, DXVAHDSW_CALLBACKS structure [Media Foundation], dxvahd/DXVAHDSW_CALLBACKS, mf.dxvahdsw_callbacks
 ms.topic: struct
-f1_keywords: ["dxvahd/DXVAHDSW_CALLBACKS"]
+f1_keywords: 
+ - "dxvahd/DXVAHDSW_CALLBACKS"
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

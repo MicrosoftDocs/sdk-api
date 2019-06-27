@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],SetPixelOffsetMode method, Graphics.SetPixelOffsetMode, Graphics::SetPixelOffsetMode, SetPixelOffsetMode, SetPixelOffsetMode method [GDI+], SetPixelOffsetMode method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_SetPixelOffsetMode_pixelOffsetMode_, gdiplus._gdiplus_CLASS_Graphics_SetPixelOffsetMode_pixelOffsetMode_
 ms.topic: method
-f1_keywords: ["gdiplusgraphics/Graphics.SetPixelOffsetMode"]
+f1_keywords: 
+ - "gdiplusgraphics/Graphics.SetPixelOffsetMode"
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

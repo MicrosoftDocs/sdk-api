@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TARGET_CHANGE_TYPE, TARGET_CHANGE_TYPE enumeration [Remote Desktop Services], TARGET_CHANGE_UNSPEC, TARGET_EXTERNALIP_CHANGED, TARGET_IDLE, TARGET_INTERNALIP_CHANGED, TARGET_JOINED, TARGET_REMOVED, TARGET_STATE_CHANGED, sessdirpublictypes/TARGET_CHANGE_TYPE, sessdirpublictypes/TARGET_CHANGE_UNSPEC, sessdirpublictypes/TARGET_EXTERNALIP_CHANGED, sessdirpublictypes/TARGET_IDLE, sessdirpublictypes/TARGET_INTERNALIP_CHANGED, sessdirpublictypes/TARGET_JOINED, sessdirpublictypes/TARGET_REMOVED, sessdirpublictypes/TARGET_STATE_CHANGED, termserv.target_change_type
 ms.topic: enum
-f1_keywords: ["sessdirpublictypes/TARGET_CHANGE_TYPE"]
+f1_keywords: 
+ - "sessdirpublictypes/TARGET_CHANGE_TYPE"
 req.header: sessdirpublictypes.h
 req.include-header: 
 req.target-type: Windows

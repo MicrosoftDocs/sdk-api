@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],LogonNotify method, IWRdsProtocolConnection.LogonNotify, IWRdsProtocolConnection::LogonNotify, LogonNotify, LogonNotify method [Remote Desktop Services], LogonNotify method [Remote Desktop Services],IWRdsProtocolConnection interface, termserv.iwrdsprotocolconnection_logonnotify, wtsprotocol/IWRdsProtocolConnection::LogonNotify
 ms.topic: method
-f1_keywords: ["wtsprotocol/IWRdsProtocolConnection.LogonNotify"]
+f1_keywords: 
+ - "wtsprotocol/IWRdsProtocolConnection.LogonNotify"
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

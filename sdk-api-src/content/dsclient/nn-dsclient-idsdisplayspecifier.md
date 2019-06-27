@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDsDisplaySpecifier, IDsDisplaySpecifier interface [Active Directory], IDsDisplaySpecifier interface [Active Directory],described, _glines_idsdisplayspecifier, ad.idsdisplayspecifier, dsclient/IDsDisplaySpecifier
 ms.topic: interface
-f1_keywords: ["dsclient/IDsDisplaySpecifier"]
+f1_keywords: 
+ - "dsclient/IDsDisplaySpecifier"
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

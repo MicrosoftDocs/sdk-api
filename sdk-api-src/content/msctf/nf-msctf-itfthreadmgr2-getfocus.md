@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFocus, GetFocus method [Text Services Framework], GetFocus method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],GetFocus method, ITfThreadMgr2.GetFocus, ITfThreadMgr2::GetFocus, msctf/ITfThreadMgr2::GetFocus, tsf.itfthreadmgr2_getfocus
 ms.topic: method
-f1_keywords: ["msctf/ITfThreadMgr2.GetFocus"]
+f1_keywords: 
+ - "msctf/ITfThreadMgr2.GetFocus"
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

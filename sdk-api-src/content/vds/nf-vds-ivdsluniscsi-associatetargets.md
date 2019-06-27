@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AssociateTargets, AssociateTargets method [VDS], AssociateTargets method [VDS],IVdsLunIscsi interface, IVdsLunIscsi interface [VDS],AssociateTargets method, IVdsLunIscsi.AssociateTargets, IVdsLunIscsi::AssociateTargets, base.ivdsluniscsi_associatetargets, vds/IVdsLunIscsi::AssociateTargets, vdshwprv/IVdsLunIscsi::AssociateTargets
 ms.topic: method
-f1_keywords: ["vds/IVdsLunIscsi.AssociateTargets"]
+f1_keywords: 
+ - "vds/IVdsLunIscsi.AssociateTargets"
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

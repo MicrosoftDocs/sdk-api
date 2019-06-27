@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWTSSBPlugin, IWTSSBPlugin interface [Remote Desktop Services], IWTSSBPlugin interface [Remote Desktop Services],described, termserv.iwtssbplugin, tssbx/IWTSSBPlugin
 ms.topic: interface
-f1_keywords: ["tssbx/IWTSSBPlugin"]
+f1_keywords: 
+ - "tssbx/IWTSSBPlugin"
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows

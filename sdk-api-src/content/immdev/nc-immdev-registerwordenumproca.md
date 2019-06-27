@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumRegisterWordProc, EnumRegisterWordProc callback function [Internationalization for Windows Applications], EnumRegisterWordProcA, EnumRegisterWordProcW, REGISTERWORDENUMPROC, REGISTERWORDENUMPROC callback, REGISTERWORDENUMPROCA, REGISTERWORDENUMPROCW, _win32_EnumRegisterWordProc, imm/EnumRegisterWordProc, imm/EnumRegisterWordProcA, imm/EnumRegisterWordProcW, intl.enumregisterwordproc
 ms.topic: callback
-f1_keywords: ["immdev/EnumRegisterWordProc"]
+f1_keywords: 
+ - "immdev/EnumRegisterWordProc"
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

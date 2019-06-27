@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRegistrationProperties, GetRegistrationProperties method [XAudio2 Audio Mixing APIs], GetRegistrationProperties method [XAudio2 Audio Mixing APIs],IXAPO interface, IXAPO interface [XAudio2 Audio Mixing APIs],GetRegistrationProperties method, IXAPO.GetRegistrationProperties, IXAPO::GetRegistrationProperties, xapo/IXAPO::GetRegistrationProperties, xaudio2.ixapo_interface_getregistrationproperties
 ms.topic: method
-f1_keywords: ["xapo/IXAPO.GetRegistrationProperties"]
+f1_keywords: 
+ - "xapo/IXAPO.GetRegistrationProperties"
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows

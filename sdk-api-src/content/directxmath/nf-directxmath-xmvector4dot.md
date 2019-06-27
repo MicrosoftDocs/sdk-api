@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4Dot, XMVector4Dot, XMVector4Dot method [DirectX Math Support APIs], dxmath.xmvector4dot
 ms.topic: function
-f1_keywords: ["directxmath/XMVector4Dot"]
+f1_keywords: 
+ - "directxmath/XMVector4Dot"
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

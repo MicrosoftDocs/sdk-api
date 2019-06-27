@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [Enhanced Storage], GetDescription method [Enhanced Storage],IEnhancedStorageSiloAction interface, IEnhancedStorageSiloAction interface [Enhanced Storage],GetDescription method, IEnhancedStorageSiloAction.GetDescription, IEnhancedStorageSiloAction::GetDescription, ehstorapi/IEnhancedStorageSiloAction::GetDescription, enstor.ienhancedstoragesiloaction_getdescription
 ms.topic: method
-f1_keywords: ["ehstorapi/IEnhancedStorageSiloAction.GetDescription"]
+f1_keywords: 
+ - "ehstorapi/IEnhancedStorageSiloAction.GetDescription"
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

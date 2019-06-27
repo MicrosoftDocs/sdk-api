@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: POINTER_INPUT_TYPE, POINTER_INPUT_TYPE enumeration [Input Messages and Notifications], PT_MOUSE, PT_PEN, PT_POINTER, PT_TOUCH, PT_TOUCHPAD, inputmsg.pointer_input_type_enum, tagPOINTER_INPUT_TYPE, tagPOINTER_INPUT_TYPE enumeration [Input Messages and Notifications], winuser/PT_MOUSE, winuser/PT_PEN, winuser/PT_POINTER, winuser/PT_TOUCH, winuser/PT_TOUCHPAD, winuser/tagPOINTER_INPUT_TYPE
 ms.topic: enum
-f1_keywords: ["winuser/POINTER_INPUT_TYPE"]
+f1_keywords: 
+ - "winuser/POINTER_INPUT_TYPE"
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

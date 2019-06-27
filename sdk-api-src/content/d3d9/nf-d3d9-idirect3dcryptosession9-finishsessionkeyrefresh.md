@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FinishSessionKeyRefresh, FinishSessionKeyRefresh method [Media Foundation], FinishSessionKeyRefresh method [Media Foundation],IDirect3DCryptoSession9 interface, IDirect3DCryptoSession9 interface [Media Foundation],FinishSessionKeyRefresh method, IDirect3DCryptoSession9.FinishSessionKeyRefresh, IDirect3DCryptoSession9::FinishSessionKeyRefresh, d3d9/IDirect3DCryptoSession9::FinishSessionKeyRefresh, mf.idirect3dcryptosession9_finishsessionkeyrefresh
 ms.topic: method
-f1_keywords: ["d3d9/IDirect3DCryptoSession9.FinishSessionKeyRefresh"]
+f1_keywords: 
+ - "d3d9/IDirect3DCryptoSession9.FinishSessionKeyRefresh"
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

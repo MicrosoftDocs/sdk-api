@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MachineLearning.winml_feature_type, WINML_FEATURE_TYPE, WINML_FEATURE_TYPE enumeration, WINML_TENSOR_IMAGE, WINML_TENSOR_MAP, WINML_TENSOR_SEQUENCE, WINML_TENSOR_TENSOR, WINML_TENSOR_UNDEFINED, winml/WINML_FEATURE_TYPE, winml/WINML_TENSOR_IMAGE, winml/WINML_TENSOR_MAP, winml/WINML_TENSOR_SEQUENCE, winml/WINML_TENSOR_TENSOR, winml/WINML_TENSOR_UNDEFINED
 ms.topic: enum
-f1_keywords: ["winml/WINML_FEATURE_TYPE"]
+f1_keywords: 
+ - "winml/WINML_FEATURE_TYPE"
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

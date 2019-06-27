@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer interface [Windows Media Player],get_fullScreen method, IWMPPlayer.get_fullScreen, IWMPPlayer::get_fullScreen, IWMPPlayerget_fullScreen, get_fullScreen, get_fullScreen method [Windows Media Player], get_fullScreen method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_get_fullscreen, wmp/IWMPPlayer::get_fullScreen
 ms.topic: method
-f1_keywords: ["wmp/IWMPPlayer.get_fullScreen"]
+f1_keywords: 
+ - "wmp/IWMPPlayer.get_fullScreen"
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

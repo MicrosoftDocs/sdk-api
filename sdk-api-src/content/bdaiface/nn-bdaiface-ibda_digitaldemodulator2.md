@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator2, IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies], IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],described, bdaiface/IBDA_DigitalDemodulator2, mstv.ibda_digitaldemodulator2
 ms.topic: interface
-f1_keywords: ["bdaiface/IBDA_DigitalDemodulator2"]
+f1_keywords: 
+ - "bdaiface/IBDA_DigitalDemodulator2"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

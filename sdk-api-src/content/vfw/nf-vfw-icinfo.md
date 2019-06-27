@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICInfo, ICInfo function [Windows Multimedia], _win32_ICInfo, multimedia.icinfo, vfw/ICInfo
 ms.topic: function
-f1_keywords: ["vfw/ICInfo"]
+f1_keywords: 
+ - "vfw/ICInfo"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

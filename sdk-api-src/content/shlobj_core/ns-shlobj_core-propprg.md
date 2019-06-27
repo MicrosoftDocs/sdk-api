@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPPROPPRG, *PPROPPRG, LPPROPPRG, LPPROPPRG structure pointer [Windows Properties], PRGINIT_AMBIGUOUSPIF, PRGINIT_DEFAULT, PRGINIT_DEFAULTPIF, PRGINIT_INFSETTINGS, PRGINIT_INHIBITPIF, PRGINIT_MAXIMIZED, PRGINIT_MINIMIZED, PRGINIT_NOPIF, PRGINIT_REALMODE, PRGINIT_REALMODESILENT, PRG_CLOSEONEXIT, PRG_DEFAULT, PROPPRG, PROPPRG structure [Windows Properties], RMOPT_CDROM, RMOPT_DISKLOCK, RMOPT_EMS, RMOPT_MOUSE, RMOPT_NETWORK, RMOPT_PRIVATECFG, RMOPT_VESA, _win32_PROPPRG, properties.PROPPRG, shell.PROPPRG, shlobj_core/LPPROPPRG, shlobj_core/PROPPRG"
 ms.topic: struct
-f1_keywords: ["shlobj_core/PROPPRG"]
+f1_keywords: 
+ - "shlobj_core/PROPPRG"
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

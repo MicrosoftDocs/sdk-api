@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPerformanceCounterDataCollector interface [PLA],SampleInterval property, IPerformanceCounterDataCollector.SampleInterval, IPerformanceCounterDataCollector.put_SampleInterval, IPerformanceCounterDataCollector::SampleInterval, IPerformanceCounterDataCollector::get_SampleInterval, IPerformanceCounterDataCollector::put_SampleInterval, SampleInterval property [PLA], SampleInterval property [PLA],IPerformanceCounterDataCollector interface, base.iperformancecounterdatacollector_sampleinterval, pla.iperformancecounterdatacollector_sampleinterval, pla/IPerformanceCounterDataCollector::SampleInterval, pla/IPerformanceCounterDataCollector::get_SampleInterval, pla/IPerformanceCounterDataCollector::put_SampleInterval, put_SampleInterval
 ms.topic: method
-f1_keywords: ["pla/IPerformanceCounterDataCollector.SampleInterval"]
+f1_keywords: 
+ - "pla/IPerformanceCounterDataCollector.SampleInterval"
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

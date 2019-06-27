@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBreakConditions, GetBreakConditions method [Direct Write], GetBreakConditions method [Direct Write],IDWriteInlineObject interface, IDWriteInlineObject interface [Direct Write],GetBreakConditions method, IDWriteInlineObject.GetBreakConditions, IDWriteInlineObject::GetBreakConditions, directwrite.IDWriteInlineObject_GetBreakConditions, dwrite/IDWriteInlineObject::GetBreakConditions
 ms.topic: method
-f1_keywords: ["dwrite/IDWriteInlineObject.GetBreakConditions"]
+f1_keywords: 
+ - "dwrite/IDWriteInlineObject.GetBreakConditions"
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

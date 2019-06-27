@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WCM_BILLING_CYCLE_INFO, WCM_BILLING_CYCLE_INFO structure [Windows Connection Manager], wcm.wcm_billing_cycle_info, wcmapi/WCM_BILLING_CYCLE_INFO
 ms.topic: struct
-f1_keywords: ["wcmapi/WCM_BILLING_CYCLE_INFO"]
+f1_keywords: 
+ - "wcmapi/WCM_BILLING_CYCLE_INFO"
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows

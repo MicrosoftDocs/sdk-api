@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12Device3, ID3D12Device3 interface, ID3D12Device3 interface,described, d3d12/ID3D12Device3, direct3d12.id3d12device3
 ms.topic: interface
-f1_keywords: ["d3d12/ID3D12Device3"]
+f1_keywords: 
+ - "d3d12/ID3D12Device3"
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

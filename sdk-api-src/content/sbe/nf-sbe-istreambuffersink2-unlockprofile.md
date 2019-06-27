@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferSink2 interface [Microsoft TV Technologies],UnlockProfile method, IStreamBufferSink2.UnlockProfile, IStreamBufferSink2::UnlockProfile, IStreamBufferSink2UnlockProfile, UnlockProfile, UnlockProfile method [Microsoft TV Technologies], UnlockProfile method [Microsoft TV Technologies],IStreamBufferSink2 interface, mstv.istreambuffersink2_unlockprofile, sbe/IStreamBufferSink2::UnlockProfile
 ms.topic: method
-f1_keywords: ["sbe/IStreamBufferSink2.UnlockProfile"]
+f1_keywords: 
+ - "sbe/IStreamBufferSink2.UnlockProfile"
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

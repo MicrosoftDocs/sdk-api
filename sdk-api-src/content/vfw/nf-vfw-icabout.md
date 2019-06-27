@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICAbout, ICAbout macro [Windows Multimedia], _win32_ICAbout, multimedia.icabout, vfw/ICAbout
 ms.topic: macro
-f1_keywords: ["vfw/ICAbout"]
+f1_keywords: 
+ - "vfw/ICAbout"
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

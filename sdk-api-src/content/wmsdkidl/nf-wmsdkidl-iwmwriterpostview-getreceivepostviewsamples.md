@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetReceivePostViewSamples, GetReceivePostViewSamples method [windows Media Format], GetReceivePostViewSamples method [windows Media Format],IWMWriterPostView interface, IWMWriterPostView interface [windows Media Format],GetReceivePostViewSamples method, IWMWriterPostView.GetReceivePostViewSamples, IWMWriterPostView::GetReceivePostViewSamples, IWMWriterPostViewGetReceivePostViewSamples, wmformat.iwmwriterpostview_getreceivepostviewsamples, wmsdkidl/IWMWriterPostView::GetReceivePostViewSamples
 ms.topic: method
-f1_keywords: ["wmsdkidl/IWMWriterPostView.GetReceivePostViewSamples"]
+f1_keywords: 
+ - "wmsdkidl/IWMWriterPostView.GetReceivePostViewSamples"
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

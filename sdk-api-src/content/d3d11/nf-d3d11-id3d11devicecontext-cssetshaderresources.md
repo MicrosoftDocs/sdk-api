@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CSSetShaderResources, CSSetShaderResources method [Direct3D 11], CSSetShaderResources method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CSSetShaderResources method, ID3D11DeviceContext.CSSetShaderResources, ID3D11DeviceContext::CSSetShaderResources, cef14155-2203-ea99-84d2-f1722c5ae802, d3d11/ID3D11DeviceContext::CSSetShaderResources, direct3d11.id3d11devicecontext_cssetshaderresources
 ms.topic: method
-f1_keywords: ["d3d11/ID3D11DeviceContext.CSSetShaderResources"]
+f1_keywords: 
+ - "d3d11/ID3D11DeviceContext.CSSetShaderResources"
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

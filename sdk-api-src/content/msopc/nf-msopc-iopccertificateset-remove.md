@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpcCertificateSet interface [Open Packaging Conventions],Remove method, IOpcCertificateSet.Remove, IOpcCertificateSet::Remove, Remove, Remove method [Open Packaging Conventions], Remove method [Open Packaging Conventions],IOpcCertificateSet interface, msopc/IOpcCertificateSet::Remove, opc.iopccertificateset_remove
 ms.topic: method
-f1_keywords: ["msopc/IOpcCertificateSet.Remove"]
+f1_keywords: 
+ - "msopc/IOpcCertificateSet.Remove"
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

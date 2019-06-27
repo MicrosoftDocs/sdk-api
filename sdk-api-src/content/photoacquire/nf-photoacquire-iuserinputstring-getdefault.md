@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDefault, GetDefault method [Picture Acquisition], GetDefault method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetDefault method, IUserInputString.GetDefault, IUserInputString::GetDefault, IUserInputStringGetDefault, photoacquire/IUserInputString::GetDefault, picacq.iuserinputstring_getdefault
 ms.topic: method
-f1_keywords: ["photoacquire/IUserInputString.GetDefault"]
+f1_keywords: 
+ - "photoacquire/IUserInputString.GetDefault"
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

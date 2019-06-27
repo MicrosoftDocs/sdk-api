@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PushEmptyRetrievalFilter method, IDXGIInfoQueue.PushEmptyRetrievalFilter, IDXGIInfoQueue::PushEmptyRetrievalFilter, PushEmptyRetrievalFilter, PushEmptyRetrievalFilter method [DXGI], PushEmptyRetrievalFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushemptyretrievalfilter, dxgidebug/IDXGIInfoQueue::PushEmptyRetrievalFilter
 ms.topic: method
-f1_keywords: ["dxgidebug/IDXGIInfoQueue.PushEmptyRetrievalFilter"]
+f1_keywords: 
+ - "dxgidebug/IDXGIInfoQueue.PushEmptyRetrievalFilter"
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

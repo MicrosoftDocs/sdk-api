@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Security], GetProperty method [Security],ICertificateEnrollmentServerSetup interface, ICertificateEnrollmentServerSetup interface [Security],GetProperty method, ICertificateEnrollmentServerSetup.GetProperty, ICertificateEnrollmentServerSetup::GetProperty, casetup/ICertificateEnrollmentServerSetup::GetProperty, security.icertificateenrollmentserversetup_getproperty
 ms.topic: method
-f1_keywords: ["casetup/ICertificateEnrollmentServerSetup.GetProperty"]
+f1_keywords: 
+ - "casetup/ICertificateEnrollmentServerSetup.GetProperty"
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

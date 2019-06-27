@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],put_GuardInterval method, IBDA_DigitalDemodulator2.put_GuardInterval, IBDA_DigitalDemodulator2::put_GuardInterval, bdaiface/IBDA_DigitalDemodulator2::put_GuardInterval, mstv.ibda_digitaldemodulator2_put_guardinterval, put_GuardInterval, put_GuardInterval method [Microsoft TV Technologies], put_GuardInterval method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface
 ms.topic: method
-f1_keywords: ["bdaiface/IBDA_DigitalDemodulator2.put_GuardInterval"]
+f1_keywords: 
+ - "bdaiface/IBDA_DigitalDemodulator2.put_GuardInterval"
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

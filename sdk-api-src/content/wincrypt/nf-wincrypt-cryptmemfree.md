@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptMemFree, CryptMemFree function [Security], _crypto2_cryptmemfree, security.cryptmemfree, wincrypt/CryptMemFree
 ms.topic: function
-f1_keywords: ["wincrypt/CryptMemFree"]
+f1_keywords: 
+ - "wincrypt/CryptMemFree"
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

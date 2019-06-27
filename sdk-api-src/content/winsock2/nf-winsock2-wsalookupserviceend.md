@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSALookupServiceEnd, WSALookupServiceEnd function [Winsock], _win32_wsalookupserviceend_2, winsock.wsalookupserviceend_2, winsock2/WSALookupServiceEnd
 ms.topic: function
-f1_keywords: ["winsock2/WSALookupServiceEnd"]
+f1_keywords: 
+ - "winsock2/WSALookupServiceEnd"
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,7 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],ReleaseTargetLock method, ITsSbResourcePluginStore.ReleaseTargetLock, ITsSbResourcePluginStore::ReleaseTargetLock, ReleaseTargetLock, ReleaseTargetLock method [Remote Desktop Services], ReleaseTargetLock method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::ReleaseTargetLock, termserv.itssbresourcepluginstore_releasetargetlock
 ms.topic: method
-f1_keywords: ["sbtsv/ITsSbResourcePluginStore.ReleaseTargetLock"]
+f1_keywords: 
+ - "sbtsv/ITsSbResourcePluginStore.ReleaseTargetLock"
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
