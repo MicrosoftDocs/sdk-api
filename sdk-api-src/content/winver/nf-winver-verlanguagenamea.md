@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Mincore.lib
+req.lib: Version.lib
 req.dll: Api-ms-win-core-localization-l1-2-1.dll
 req.irql: 
 topic_type:
