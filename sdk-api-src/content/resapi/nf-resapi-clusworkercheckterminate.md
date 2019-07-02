@@ -113,9 +113,9 @@ The thread should not terminate.
 
 The <b>ClusWorkerCheckTerminate</b> utility 
      function checks the <b>Terminate</b> member of the 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-clus_worker">CLUS_WORKER</a> structure to determine whether the thread 
+     <a href="https://docs.microsoft.com/windows/desktop/api/resapi/ns-resapi-clus_worker">CLUS_WORKER</a> structure to determine whether the thread 
      pointed to by Worker should exit. The <b>Terminate</b> member is used to prevent problems from occurring when multiple threads call 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pclusapi_clus_worker_terminate">ClusWorkerTerminate</a> on the same worker thread.
+     <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-clusworkerterminate">ClusWorkerTerminate</a> on the same worker thread.
 
 
 

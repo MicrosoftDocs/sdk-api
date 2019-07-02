@@ -138,7 +138,7 @@ Returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pclusapi_clus_worker_terminate">ClusWorkerTerminate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-clusworkerterminate">ClusWorkerTerminate</a>
 
 
 
