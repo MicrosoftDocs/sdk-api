@@ -85,7 +85,7 @@ The callback function indicates which threads are to be included. It is called a
       each thread. If the callback function returns <b>FALSE</b>, the current thread is excluded. 
       This allows the caller to obtain information for a subset of the threads in a process, without suspending 
       threads that are not of interest. Alternately, you can modify the <b>ThreadWriteFlags</b> 
-      member of the <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_output">MINIDUMP_CALLBACK_OUTPUT</a> 
+      member of the <a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_output">MINIDUMP_CALLBACK_OUTPUT</a> 
       structure and return <b>TRUE</b> to avoid gathering unnecessary information for the 
       thread.
 
@@ -97,7 +97,7 @@ The callback function indicates which modules are to be included. The callback f
       is with <b>ModuleCallback</b>. It is called for each module. If the callback function 
       returns <b>FALSE</b>, the current module is excluded. Alternatively, you can modify the 
       <b>ModuleWriteFlags</b> member of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_output">MINIDUMP_CALLBACK_OUTPUT</a> structure and 
+      <a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_output">MINIDUMP_CALLBACK_OUTPUT</a> structure and 
       return <b>TRUE</b> to avoid gathering unnecessary information for the module.
 
 
@@ -123,7 +123,7 @@ The callback function returns cancellation information.
 
 The user-mode minidump has been successfully completed. To initiate a kernel-mode minidump, the callback 
       should return <b>TRUE</b> and set the <b>Handle</b> member of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_output">MINIDUMP_CALLBACK_OUTPUT</a> structure.
+      <a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_output">MINIDUMP_CALLBACK_OUTPUT</a> structure.
       
 
 <b>DbgHelp 6.1 and earlier:  </b>This value is not supported.
@@ -151,7 +151,7 @@ The callback function returns a region of memory to be excluded from the dump. T
 
 The callback function returns information about the virtual memory region. It is called twice for each 
       region during the full-memory writing pass. The <b>VmRegion</b> member of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_output">MINIDUMP_CALLBACK_OUTPUT</a> structure 
+      <a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_output">MINIDUMP_CALLBACK_OUTPUT</a> structure 
       contains the current memory region. You can modify the base address and size of the region, as long as the new 
       region remains a subset of the original region; changes to other members are ignored. If the callback returns 
       <b>TRUE</b> and sets the <b>Continue</b> member of 
@@ -169,7 +169,7 @@ The callback function returns information about the virtual memory region. It is
 
 The callback function indicates that the caller will be providing an alternate I/O routine. If the callback 
       returns <b>TRUE</b> and sets the <b>Status</b> member of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_output">MINIDUMP_CALLBACK_OUTPUT</a> to 
+      <a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_output">MINIDUMP_CALLBACK_OUTPUT</a> to 
       <b>S_FALSE</b>, the minidump library will send all I/O through callbacks. The caller will 
       receive an <b>IoWriteAllCallback</b> callback for each piece of data.
       
@@ -180,11 +180,11 @@ The callback function indicates that the caller will be providing an alternate I
 ### -field IoWriteAllCallback
 
 The callback must write all requested bytes or fail. The <b>Io</b> member of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_input">MINIDUMP_CALLBACK_INPUT</a> structure contains 
+      <a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_input">MINIDUMP_CALLBACK_INPUT</a> structure contains 
       the request. If the write operation fails, the callback should return <b>FALSE</b>.  If the 
       write operation succeeds, the callback should return <b>TRUE</b> and set the 
       <b>Status</b> member of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_output">MINIDUMP_CALLBACK_OUTPUT</a> to 
+      <a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_output">MINIDUMP_CALLBACK_OUTPUT</a> to 
       <b>S_OK</b>. The caller will receive an <b>IoFinishCallback</b> callback 
       when the I/O has completed.
       
@@ -196,7 +196,7 @@ The callback must write all requested bytes or fail. The <b>Io</b> member of the
 
 The callback returns I/O completion information. If the callback returns <b>FALSE</b> or 
       does not set the <b>Status</b> member of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_output">MINIDUMP_CALLBACK_OUTPUT</a> to 
+      <a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_output">MINIDUMP_CALLBACK_OUTPUT</a> to 
       <b>S_OK</b>, the minidump library assumes the minidump write operation has failed.
       
 
@@ -207,7 +207,7 @@ The callback returns I/O completion information. If the callback returns <b>FALS
 
 There has been a failure to read memory. If the callback returns <b>TRUE</b> and sets 
       the <b>Status</b> member of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_output">MINIDUMP_CALLBACK_OUTPUT</a> to 
+      <a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_output">MINIDUMP_CALLBACK_OUTPUT</a> to 
       <b>S_OK</b>, the memory failure is ignored and the block is omitted from the minidump. Otherwise, this 
       failure results in a failure to write to the minidump.
       
@@ -267,7 +267,7 @@ The callback function allows the callee to alter the buffer contents with data f
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_input">MINIDUMP_CALLBACK_INPUT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_input">MINIDUMP_CALLBACK_INPUT</a>
 
 
 

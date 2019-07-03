@@ -61,7 +61,7 @@ Retrieves the value that specifies the type of image file that will be generated
 
 ### -param value [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_format2_raw_cd_data_sector_type">IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE</a> enumeration that defines the current type set for the  image file.
+Pointer to an <a href="https://docs.microsoft.com/windows/win32/api/imapi2/ne-imapi2-imapi_format2_raw_cd_data_sector_type">IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE</a> enumeration that defines the current type set for the  image file.
 
 
 ## -returns

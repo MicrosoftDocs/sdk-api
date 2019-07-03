@@ -66,7 +66,7 @@ An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcm
 
 ### -param Access [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/ne-wcmconfig-__midl___midl_itf_wcmconfig_0000_0000_0007">WcmNamespaceAccess</a> value that specifies the type of access, whether it is read-only or read and write access.
+A <a href="https://docs.microsoft.com/windows/win32/api/wcmconfig/ne-wcmconfig-wcmnamespaceaccess">WcmNamespaceAccess</a> value that specifies the type of access, whether it is read-only or read and write access.
 
 
 ### -param Reserved [in]

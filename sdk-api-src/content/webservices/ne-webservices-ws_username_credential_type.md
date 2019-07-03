@@ -63,6 +63,6 @@ subtypes of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/
 
 ### -field WS_STRING_USERNAME_CREDENTIAL_TYPE
 
-Type ID for the username/password credential <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_string_username_credential">WS_STRING_USERNAME_CREDENTIAL</a>.
+Type ID for the username/password credential <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_string_username_credential">WS_STRING_USERNAME_CREDENTIAL</a>.
                 
 

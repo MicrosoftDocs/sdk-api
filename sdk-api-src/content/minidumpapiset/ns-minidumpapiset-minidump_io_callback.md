@@ -84,7 +84,7 @@ The size of the data buffer, in bytes. This member is used only with <b>IoWriteA
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_input">MINIDUMP_CALLBACK_INPUT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_input">MINIDUMP_CALLBACK_INPUT</a>
 
 
 

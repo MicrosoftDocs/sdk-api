@@ -74,7 +74,7 @@ The length of <i>pin</i>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ne-bluetoothapis-_bluetooth_authentication_method">BLUETOOTH_AUTHENTICATION_METHOD</a>
+<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_method">BLUETOOTH_AUTHENTICATION_METHOD</a>
  
 
  

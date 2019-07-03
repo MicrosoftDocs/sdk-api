@@ -210,7 +210,7 @@ Yes
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_volume_get_gpt_attributes_information">VOLUME_GET_GPT_ATTRIBUTES_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-volume_get_gpt_attributes_information">VOLUME_GET_GPT_ATTRIBUTES_INFORMATION</a>
 
 
 

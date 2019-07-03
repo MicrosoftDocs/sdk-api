@@ -58,7 +58,7 @@ ms.custom: 19H1
     class.]
 
 This property contains flags with values from the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmpropertydefinitionappliesto">FsrmPropertyDefinitionAppliesTo</a> enumeration 
+    <a href="https://docs.microsoft.com/windows/win32/api/fsrmenums/ne-fsrmenums-fsrmpropertydefinitionappliesto">FsrmPropertyDefinitionAppliesTo</a> enumeration 
     that indicate what a FSRM property definition can be applied to.
 
 This property is read-only.

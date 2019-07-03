@@ -62,7 +62,7 @@ Retrieves the client certificate from the job.
 
 ### -param pStoreLocation [out]
 
-Identifies the location of a system store to use for looking up the certificate. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/ne-bits2_5-__midl_ibackgroundcopyjobhttpoptions_0001">BG_CERT_STORE_LOCATION</a> enumeration.
+Identifies the location of a system store to use for looking up the certificate. For possible values, see the <a href="https://docs.microsoft.com/windows/win32/api/bits2_5/ne-bits2_5-bg_cert_store_location">BG_CERT_STORE_LOCATION</a> enumeration.
 
 
 ### -param pStoreName [out]

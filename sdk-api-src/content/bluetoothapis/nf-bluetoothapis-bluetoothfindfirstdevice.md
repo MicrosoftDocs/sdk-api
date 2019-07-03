@@ -63,7 +63,7 @@ The <b>BluetoothFindFirstDevice</b> function begins the enumeration Bluetooth de
 
 ### -param pbtsp
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_device_search_params">BLUETOOTH_DEVICE_SEARCH_PARAMS</a> structure. The <b>dwSize</b> member of the <b>BLUETOOTH_DEVICE_SEARCH_PARAMS</b> structure pointed to by <i>pbtsp</i> must match the size of the structure.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_search_params">BLUETOOTH_DEVICE_SEARCH_PARAMS</a> structure. The <b>dwSize</b> member of the <b>BLUETOOTH_DEVICE_SEARCH_PARAMS</b> structure pointed to by <i>pbtsp</i> must match the size of the structure.
 
 
 ### -param pbtdi
@@ -121,7 +121,7 @@ The structure pointed to by <i>pbtsp</i> or <i>pbtdi</i> is not the correct size
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_device_search_params">BLUETOOTH_DEVICE_SEARCH_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_search_params">BLUETOOTH_DEVICE_SEARCH_PARAMS</a>
 
 
 

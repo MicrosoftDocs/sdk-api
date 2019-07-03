@@ -104,7 +104,7 @@ Gets a pointer to an <a href="https://docs.microsoft.com/previous-versions/windo
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignature-getpolicy">GetPolicy</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0002">XPS_SIGN_POLICY</a> value that represents the signing policy used when the signature is created.
+Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> value that represents the signing policy used when the signature is created.
             
 
 </td>
@@ -221,7 +221,7 @@ An <b>IXpsSignature</b> interface may represent a signature that is not XPS comp
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0002">XPS_SIGN_POLICY</a>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a>
  
 
  

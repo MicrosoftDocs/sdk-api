@@ -68,7 +68,7 @@ Index into variable token.
 
 ### -field VarType
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1shader/ne-d3d10_1shader-_d3d10_shader_debug_vartype">D3D10_SHADER_DEBUG_VARTYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/d3d10_1shader/ne-d3d10_1shader-d3d10_shader_debug_vartype">D3D10_SHADER_DEBUG_VARTYPE</a></b>
 
 Indicates whether this is a variable or function.
 
@@ -140,7 +140,7 @@ Index of the first variable, later variables are offsets from this one.
 
 
 
-The <b>D3D10_SHADER_DEBUG_SCOPEVAR_INFO</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1shader/ns-d3d10_1shader-_d3d10_shader_debug_info">D3D10_SHADER_DEBUG_INFO</a> structure.
+The <b>D3D10_SHADER_DEBUG_SCOPEVAR_INFO</b> structure is used with the <a href="https://docs.microsoft.com/windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_info">D3D10_SHADER_DEBUG_INFO</a> structure.
 
 
 

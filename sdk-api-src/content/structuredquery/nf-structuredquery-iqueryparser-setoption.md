@@ -61,7 +61,7 @@ Sets a single option, such as a specified wordbreaker, for parsing an input stri
 
 ### -param option [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-tagstructured_query_single_option">STRUCTURED_QUERY_SINGLE_OPTION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-structured_query_single_option">STRUCTURED_QUERY_SINGLE_OPTION</a></b>
 
 Identifies the type of option to be set.
         
@@ -90,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-tagstructured_query_single_option">STRUCTURED_QUERY_SINGLE_OPTION</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-structured_query_single_option">STRUCTURED_QUERY_SINGLE_OPTION</a>.
 
 
 

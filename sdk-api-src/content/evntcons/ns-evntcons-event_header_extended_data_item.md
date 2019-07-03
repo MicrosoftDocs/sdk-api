@@ -79,7 +79,7 @@ Type of extended data. The following are possible values.
 </dl>
 </td>
 <td width="60%">
-The <b>DataPtr</b> member points to an <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_extended_item_related_activityid">EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID</a> structure that contains the related activity identifier if you called <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a> to write the event.
+The <b>DataPtr</b> member points to an <a href="https://docs.microsoft.com/windows/win32/api/evntcons/ns-evntcons-event_extended_item_related_activityid">EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID</a> structure that contains the related activity identifier if you called <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a> to write the event.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ The <b>DataPtr</b> member points to an <a href="https://docs.microsoft.com/windo
 </dl>
 </td>
 <td width="60%">
-The <b>DataPtr</b> member points to an <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_extended_item_stack_trace32">EVENT_EXTENDED_ITEM_STACK_TRACE32</a> structure that contains the call stack if the event is captured on a 32-bit computer.
+The <b>DataPtr</b> member points to an <a href="https://docs.microsoft.com/windows/win32/api/evntcons/ns-evntcons-event_extended_item_stack_trace32">EVENT_EXTENDED_ITEM_STACK_TRACE32</a> structure that contains the call stack if the event is captured on a 32-bit computer.
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ The <b>DataPtr</b> member points to an <a href="https://docs.microsoft.com/windo
 </dl>
 </td>
 <td width="60%">
-The <b>DataPtr</b> member points to an <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_extended_item_stack_trace64">EVENT_EXTENDED_ITEM_STACK_TRACE64</a> structure that contains the call stack if the event is captured on a 64-bit computer.
+The <b>DataPtr</b> member points to an <a href="https://docs.microsoft.com/windows/win32/api/evntcons/ns-evntcons-event_extended_item_stack_trace64">EVENT_EXTENDED_ITEM_STACK_TRACE64</a> structure that contains the call stack if the event is captured on a 64-bit computer.
 
 </td>
 </tr>

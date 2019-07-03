@@ -63,13 +63,13 @@ subtypes of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/
 
 ### -field WS_SUBJECT_NAME_CERT_CREDENTIAL_TYPE
 
-Type id for the certificate credential <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_subject_name_cert_credential">WS_SUBJECT_NAME_CERT_CREDENTIAL</a>.
+Type id for the certificate credential <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_subject_name_cert_credential">WS_SUBJECT_NAME_CERT_CREDENTIAL</a>.
                 
 
 
 ### -field WS_THUMBPRINT_CERT_CREDENTIAL_TYPE
 
-Type id for the certificate credential <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_thumbprint_cert_credential">WS_THUMBPRINT_CERT_CREDENTIAL</a>.
+Type id for the certificate credential <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_thumbprint_cert_credential">WS_THUMBPRINT_CERT_CREDENTIAL</a>.
                 
 
 

@@ -71,12 +71,12 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xp
 
 ### -param startPoint [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0017">XPS_POINT</a> structure that contains the coordinates of the start point in two-dimensional space.
+The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a> structure that contains the coordinates of the start point in two-dimensional space.
 
 
 ### -param endPoint [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0017">XPS_POINT</a> structure that contains the coordinates of the end point in two-dimensional space.
+The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a> structure that contains the coordinates of the end point in two-dimensional space.
 
 
 ### -param linearGradientBrush [out, retval]
@@ -113,7 +113,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The point specified by either <i>startPoint</i> or <i>endPoint</i> was not valid. The members of the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0017">XPS_POINT</a> structure must contain valid and finite floating-point values.
+The point specified by either <i>startPoint</i> or <i>endPoint</i> was not valid. The members of the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a> structure must contain valid and finite floating-point values.
 
 </td>
 </tr>
@@ -231,7 +231,7 @@ else
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0017">XPS_POINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
  
 
  

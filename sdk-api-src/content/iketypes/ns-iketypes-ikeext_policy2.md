@@ -82,7 +82,7 @@ Array of acceptable authentication methods.
 
 ### -field initiatorImpersonationType
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_authentication_impersonation_type_">IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/iketypes/ne-iketypes-ikeext_authentication_impersonation_type">IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE</a></b>
 
 Type of impersonation. Applies only to AuthIP. 
 
@@ -181,7 +181,7 @@ The number of seconds for which IKEv2 SA negotiation packets will be retransmitt
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_authentication_impersonation_type_">IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iketypes/ne-iketypes-ikeext_authentication_impersonation_type">IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE</a>
 
 
 

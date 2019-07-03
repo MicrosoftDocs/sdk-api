@@ -135,5 +135,5 @@ The number of elements in the <b>rgpRecipientEncryptedKeys</b> array.
 
 ### -field rgpRecipientEncryptedKeys
 
-The address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_recipient_encrypted_key_info">CMSG_RECIPIENT_ENCRYPTED_KEY_INFO</a> structures that contains information about the key recipients. The <b>cRecipientEncryptedKeys</b> member contains the number of elements in this array.
+The address of an array of <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cmsg_recipient_encrypted_key_info">CMSG_RECIPIENT_ENCRYPTED_KEY_INFO</a> structures that contains information about the key recipients. The <b>cRecipientEncryptedKeys</b> member contains the number of elements in this array.
 

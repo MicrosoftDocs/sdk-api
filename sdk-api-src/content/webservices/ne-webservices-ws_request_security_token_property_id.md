@@ -177,7 +177,7 @@ If <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webser
 
 Service request parameters are instructions regarding how to issue a token. They are obtained from the service, 
                    usually by means of metadata import. In that case, this parameter may be obtained 
-                   from the out.RequestSecurityTokenTemplate field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_issued_token_message_security_binding_constraint">WS_ISSUED_TOKEN_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>.               
+                   from the out.RequestSecurityTokenTemplate field of the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_issued_token_message_security_binding_constraint">WS_ISSUED_TOKEN_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>.               
                
 
 

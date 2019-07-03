@@ -276,7 +276,7 @@ Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desk
 
 #### pEapOutput
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-tageappeermethodouput">EapPeerMethodOutput</a> structure that contains the output of the packet process operation.
+Pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-eappeermethodoutput">EapPeerMethodOutput</a> structure that contains the output of the packet process operation.
 
 
 
@@ -398,7 +398,7 @@ Pointer to an address that contains a byte buffer with the new supplicant UI con
 
 #### pEapOutput
 
- A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-tageappeermethodouput">EapPeerMethodOutput</a> structure that contains the output of the packet process operation.
+ A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-eappeermethodoutput">EapPeerMethodOutput</a> structure that contains the output of the packet process operation.
 
 
 
@@ -450,7 +450,7 @@ Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desk
 
 #### pEapOutput
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-tageappeermethodouput">EapPeerMethodOutput</a> structure that specifies the suggested action the supplicant should take as a response to the updated attributes.
+A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-eappeermethodoutput">EapPeerMethodOutput</a> structure that specifies the suggested action the supplicant should take as a response to the updated attributes.
 
 
 

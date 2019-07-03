@@ -148,7 +148,7 @@ An integer that contains the message box type. For more information, see the <b>
 
 ### -param pResponse [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ne-wtsdefs-_wts_logon_error_redirector_response">WTS_LOGON_ERROR_REDIRECTOR_RESPONSE</a> enumeration that specifies to the Remote Desktop Services service the preferred response to the logon error.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wtsdefs/ne-wtsdefs-wts_logon_error_redirector_response">WTS_LOGON_ERROR_REDIRECTOR_RESPONSE</a> enumeration that specifies to the Remote Desktop Services service the preferred response to the logon error.
 
 
 ## -returns

@@ -69,7 +69,7 @@ Handle to a physical monitor. To get the monitor handle, call <a href="https://d
 
 ### -param ptPositionType [in]
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/ne-highlevelmonitorconfigurationapi-_mc_position_type">MC_POSITION_TYPE</a> enumeration, specifying whether to set the horizontal position or the vertical position.
+A member of the <a href="https://docs.microsoft.com/windows/win32/api/highlevelmonitorconfigurationapi/ne-highlevelmonitorconfigurationapi-mc_position_type">MC_POSITION_TYPE</a> enumeration, specifying whether to set the horizontal position or the vertical position.
           
 
 

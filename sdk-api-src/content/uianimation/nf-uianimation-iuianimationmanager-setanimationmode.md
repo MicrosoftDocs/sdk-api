@@ -91,7 +91,7 @@ This method is used to enable or disable animation globally. While animation is 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0000_0003">UI_ANIMATION_MODE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_mode">UI_ANIMATION_MODE</a>
  
 
  

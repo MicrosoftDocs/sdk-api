@@ -80,7 +80,7 @@ See  <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketype
 
 Type of impersonation. Applies only to AuthIP. 
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_authentication_impersonation_type_">IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE</a> for more information.
+See <a href="https://docs.microsoft.com/windows/win32/api/iketypes/ne-iketypes-ikeext_authentication_impersonation_type">IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE</a> for more information.
 
 
 ### -field numIkeProposals

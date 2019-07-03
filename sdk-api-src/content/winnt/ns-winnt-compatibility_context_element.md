@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>COMPATIBILITY_CONTEXT_ELEMENT</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a> function as part of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_activation_context_compatibility_information">ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION</a> structure.
+The <b>COMPATIBILITY_CONTEXT_ELEMENT</b> structure is used by the <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-activation_context_compatibility_information">QueryActCtxW</a> function as part of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_activation_context_compatibility_information">ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION</a> structure.
 
 
 

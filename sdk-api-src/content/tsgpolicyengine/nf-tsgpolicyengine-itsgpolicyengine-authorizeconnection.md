@@ -73,7 +73,7 @@ The user name.
 
 ### -param authType [in]
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/ne-tsgpolicyengine-__midl___midl_itf_tsgpolicyengine_0000_0000_0001">AAAuthSchemes</a> enumeration type that specifies the type of authentication used to connect to RD Gateway. 
+A value of the <a href="https://docs.microsoft.com/windows/win32/api/tsgpolicyengine/ne-tsgpolicyengine-aaauthschemes">AAAuthSchemes</a> enumeration type that specifies the type of authentication used to connect to RD Gateway. 
 
 
 ### -param clientMachineIP [in]

@@ -81,7 +81,7 @@ Boolean value that specifies whether changes to the <a href="https://docs.micros
 
 ### -param CollisionInfo [out]
 
-Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_lsa_forest_trust_collision_information">LSA_FOREST_TRUST_COLLISION_INFORMATION</a> structure that returns information about any collisions that occurred.
+Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/win32/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_collision_information">LSA_FOREST_TRUST_COLLISION_INFORMATION</a> structure that returns information about any collisions that occurred.
 
 
 ## -returns

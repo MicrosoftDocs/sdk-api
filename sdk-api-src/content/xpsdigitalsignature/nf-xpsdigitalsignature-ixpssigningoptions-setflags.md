@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0003">XPS_SIGN_FLAGS</a> value that specifies the signing flags to use for this signature.
+Sets the <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_flags">XPS_SIGN_FLAGS</a> value that specifies the signing flags to use for this signature.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Sets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsigna
 
 ### -param flags [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0003">XPS_SIGN_FLAGS</a> value that specifies the signing flags to use for this signature.
+The <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_flags">XPS_SIGN_FLAGS</a> value that specifies the signing flags to use for this signature.
 
 
 ## -returns
@@ -90,7 +90,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0003">XPS_SIGN_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_flags">XPS_SIGN_FLAGS</a>
  
 
  

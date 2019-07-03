@@ -63,7 +63,7 @@ Retrieves the supported data sector types for the current recorder.
 
 List of data sector types for the current recorder. Each element of the list is a <b>VARIANT</b> of type <b>VT_UI4</b>. The <b>ulVal</b> member of the variant contains the data sector type. 
 
-For a list of values of supported sector types, see <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_format2_raw_cd_data_sector_type">IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE</a>.
+For a list of values of supported sector types, see <a href="https://docs.microsoft.com/windows/win32/api/imapi2/ne-imapi2-imapi_format2_raw_cd_data_sector_type">IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE</a>.
 
 
 ## -returns

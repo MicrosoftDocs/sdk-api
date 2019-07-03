@@ -205,7 +205,7 @@ A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/de
 
 #### pEapOutput
 
-Receives a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-_eap_method_authenticator_response_action">EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION</a> enumeration value that indicates the next action the supplicant must take in the EAP authentication session.
+Receives a pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-eap_method_authenticator_response_action">EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION</a> enumeration value that indicates the next action the supplicant must take in the EAP authentication session.
 
 
 
@@ -247,7 +247,7 @@ Receives a pointer to an <a href="https://docs.microsoft.com/previous-versions/w
 
 #### pTimeout
 
-Receives a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapauthenticatortypes/ne-eapauthenticatortypes-_eap_authenticator_send_timeout">EAP_AUTHENTICATOR_SEND_TIMEOUT</a> value that specifies the timeout for the packet.
+Receives a pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eapauthenticatortypes/ne-eapauthenticatortypes-eap_authenticator_send_timeout">EAP_AUTHENTICATOR_SEND_TIMEOUT</a> value that specifies the timeout for the packet.
 
 
 
@@ -303,7 +303,7 @@ Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desk
 
 #### pEapOutput
 
-Receives a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-_eap_method_authenticator_response_action">EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION</a> enumeration value that specifies the suggested action the supplicant should take as a response to the updated attributes.
+Receives a pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-eap_method_authenticator_response_action">EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION</a> enumeration value that specifies the suggested action the supplicant should take as a response to the updated attributes.
 
 
 
@@ -327,7 +327,7 @@ Function pointer to <a href="https://docs.microsoft.com/previous-versions/window
 
 #### pResult
 
-Receives a pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-_eap_method_authenticator_result">EAP_METHOD_AUTHENTICATOR_RESULT</a> structure that contains the authentication results.
+Receives a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-eap_method_authenticator_result">EAP_METHOD_AUTHENTICATOR_RESULT</a> structure that contains the authentication results.
 
 
 

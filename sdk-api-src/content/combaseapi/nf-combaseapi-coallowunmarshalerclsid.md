@@ -94,7 +94,7 @@ For example, it's appropriate to call the <b>CoAllowUnmarshalerCLSID</b> functio
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagglobalopt_unmarshaling_policy_values">GLOBALOPT_UNMARSHALING_POLICY_VALUES</a>
+<a href="https://docs.microsoft.com/windows/win32/api/objidl/ne-objidl-globalopt_unmarshaling_policy_values">GLOBALOPT_UNMARSHALING_POLICY_VALUES</a>
 
 
 

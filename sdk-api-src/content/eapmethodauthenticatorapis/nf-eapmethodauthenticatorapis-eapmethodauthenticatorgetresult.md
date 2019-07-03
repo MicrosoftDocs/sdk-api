@@ -68,7 +68,7 @@ A pointer to an <b>EAP_SESSION_HANDLE</b> structure that contains the unique han
 
 ### -param pResult [out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-_eap_method_authenticator_result">EAP_METHOD_AUTHENTICATOR_RESULT</a> structure that contains the authentication results.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-eap_method_authenticator_result">EAP_METHOD_AUTHENTICATOR_RESULT</a> structure that contains the authentication results.
 
 
 ### -param ppEapError [out]

@@ -172,7 +172,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_ctrl_add_signer_unauth_attr_para">CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA</a>   structure that contains the index of the signer and a BLOB  that contains the unauthenticated attribute information to be added to the message.
+A <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cmsg_ctrl_add_signer_unauth_attr_para">CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA</a>   structure that contains the index of the signer and a BLOB  that contains the unauthenticated attribute information to be added to the message.
 
 </td>
 </tr>
@@ -239,7 +239,7 @@ The index of the signer to be deleted.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_ctrl_del_signer_unauth_attr_para">CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA</a>   structure that contains an index  that specifies the signer and the index  that specifies the signer's unauthenticated attribute to be deleted.
+A <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cmsg_ctrl_del_signer_unauth_attr_para">CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA</a>   structure that contains an index  that specifies the signer and the index  that specifies the signer's unauthenticated attribute to be deleted.
 
 </td>
 </tr>
@@ -326,7 +326,7 @@ A
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_ctrl_verify_signature_ex_para">CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA</a>   structure that specifies the signer index and public key to verify the message signature. The signer public key can be a 
+A <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cmsg_ctrl_verify_signature_ex_para">CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA</a>   structure that specifies the signer index and public key to verify the message signature. The signer public key can be a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure, a certificate context, or a certificate chain context.
 
 </td>

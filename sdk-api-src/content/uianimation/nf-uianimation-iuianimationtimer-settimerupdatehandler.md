@@ -68,7 +68,7 @@ A timer update handler, or <b>NULL</b> (see Remarks).  The specified object must
 ### -param idleBehavior [in]
 
 A member of 
-               <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0012_0001">UI_ANIMATION_IDLE_BEHAVIOR</a> 
+               <a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_idle_behavior">UI_ANIMATION_IDLE_BEHAVIOR</a> 
                that specifies the behavior of the timer when it is idle.
 
 

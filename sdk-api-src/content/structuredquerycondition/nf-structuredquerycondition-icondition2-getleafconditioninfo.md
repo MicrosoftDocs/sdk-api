@@ -70,9 +70,9 @@ Receives the name of the property of the leaf condition as a PROPERTYKEY.
 
 ### -param pcop [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-tagcondition_operation">CONDITION_OPERATION</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>*</b>
 
-Receives the operation of the leaf condition as a <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-tagcondition_operation">CONDITION_OPERATION</a> enumeration.
+Receives the operation of the leaf condition as a <a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a> enumeration.
                 
 
 
@@ -112,11 +112,11 @@ condition trees.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-tagcondition_operation">CONDITION_OPERATION</a>
+<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-tagcondition_type">CONDITION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

@@ -63,7 +63,7 @@ Retrieves summary information for a subcomponent of the assessment.
 
 ### -param assessment [in]
 
-A subcomponent of the assessment whose summary information you want to retrieve. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/ne-winsatcominterfacei-__midl___midl_itf_winsatcominterfacei_0000_0000_0003">WINSAT_ASSESSMENT_TYPE</a> enumeration.
+A subcomponent of the assessment whose summary information you want to retrieve. For possible values, see the <a href="https://docs.microsoft.com/windows/win32/api/winsatcominterfacei/ne-winsatcominterfacei-winsat_assessment_type">WINSAT_ASSESSMENT_TYPE</a> enumeration.
 
 
 ### -param ppinfo [out]

@@ -63,14 +63,14 @@ The <b>IKEEXT_KEYMODULE_STATISTICS0</b> structure contains various statistics sp
 
 IPv4 common statistics.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_ip_version_specific_keymodule_statistics0_">IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/win32/api/iketypes/ns-iketypes-ikeext_ip_version_specific_keymodule_statistics0">IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0</a> for more information.
 
 
 ### -field v6Statistics
 
 IPv6 common statistics.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_ip_version_specific_keymodule_statistics0_">IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/win32/api/iketypes/ns-iketypes-ikeext_ip_version_specific_keymodule_statistics0">IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0</a> for more information.
 
 
 ### -field errorFrequencyTable

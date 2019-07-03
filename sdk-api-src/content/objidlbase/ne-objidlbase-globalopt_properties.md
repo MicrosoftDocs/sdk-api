@@ -99,7 +99,7 @@ Defines the policy that's applied in the <a href="https://docs.microsoft.com/win
 
 
 
-The unmarshaling policy option <b>COMGLB_UNMARSHALING_POLICY</b> takes values from the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagglobalopt_unmarshaling_policy_values">GLOBALOPT_UNMARSHALING_POLICY_VALUES</a> enumeration.
+The unmarshaling policy option <b>COMGLB_UNMARSHALING_POLICY</b> takes values from the <a href="https://docs.microsoft.com/windows/win32/api/objidl/ne-objidl-globalopt_unmarshaling_policy_values">GLOBALOPT_UNMARSHALING_POLICY_VALUES</a> enumeration.
 
 
 
@@ -113,7 +113,7 @@ The unmarshaling policy option <b>COMGLB_UNMARSHALING_POLICY</b> takes values fr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagglobalopt_unmarshaling_policy_values">GLOBALOPT_UNMARSHALING_POLICY_VALUES</a>
+<a href="https://docs.microsoft.com/windows/win32/api/objidl/ne-objidl-globalopt_unmarshaling_policy_values">GLOBALOPT_UNMARSHALING_POLICY_VALUES</a>
 
 
 

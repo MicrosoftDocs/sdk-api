@@ -61,7 +61,7 @@ An <b>IConnector</b> interface instance can represent:
 <li>An internal connection to an integrated endpoint device (for example, a built-in microphone in a laptop computer)</li>
 <li>A software connection implemented through DMA transfers</li>
 </ul>
-The methods in the <b>IConnector</b> interface can describe various kinds of connectors. A connector has a type (a <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/ne-devicetopology-__midl___midl_itf_devicetopology_0000_0000_0013">ConnectorType</a> enumeration constant) and a subtype (a GUID obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-getsubtype">IPart::GetSubType</a> method).
+The methods in the <b>IConnector</b> interface can describe various kinds of connectors. A connector has a type (a <a href="https://docs.microsoft.com/windows/win32/api/devicetopology/ne-devicetopology-connectortype">ConnectorType</a> enumeration constant) and a subtype (a GUID obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-getsubtype">IPart::GetSubType</a> method).
 
 A part in a device topology can be either a connector or a subunit. The <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart</a> interface provides methods that are common to connectors and subunits.
 

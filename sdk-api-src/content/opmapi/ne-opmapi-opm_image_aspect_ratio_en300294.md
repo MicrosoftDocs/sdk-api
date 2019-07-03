@@ -123,7 +123,7 @@ This enumeration is numerically equivalent to the <b>COPP_ImageAspectRatio_EN300
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ns-opmapi-_opm_set_acp_and_cgmsa_signaling_parameters">OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/opmapi/ns-opmapi-opm_set_acp_and_cgmsa_signaling_parameters">OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS</a>
  
 
  

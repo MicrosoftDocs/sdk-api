@@ -73,7 +73,7 @@ A buffer that contains the device's KSV. (This is the value named <i>Bksv</i> in
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ns-opmapi-_opm_connected_hdcp_device_information">OPM_CONNECTED_HDCP_DEVICE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/win32/api/opmapi/ns-opmapi-opm_connected_hdcp_device_information">OPM_CONNECTED_HDCP_DEVICE_INFORMATION</a>
 
 
 

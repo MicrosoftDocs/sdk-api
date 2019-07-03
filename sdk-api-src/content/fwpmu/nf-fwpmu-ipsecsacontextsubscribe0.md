@@ -68,7 +68,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param subscription [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_subscription0_">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_subscription0">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>*</b>
 
 The notifications which will be delivered.
 
@@ -168,7 +168,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_subscription0_">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_subscription0">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>
  
 
  

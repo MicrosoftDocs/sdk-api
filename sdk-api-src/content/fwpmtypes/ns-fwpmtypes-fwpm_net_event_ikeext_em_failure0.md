@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>FWPM_NET_EVENT_IKEEXT_EM_FAILURE0</b> structure contains information that describes an IKE Extended Mode (EM) failure.
-<div class="alert"><b>Note</b>  <b>FWPM_NET_EVENT_IKEEXT_EM_FAILURE0</b> is the specific implementation of FWPM_NET_EVENT_IKEEXT_EM_FAILURE used in Windows Vista. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_ikeext_em_failure1_">FWPM_NET_EVENT_IKEEXT_EM_FAILURE1</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FWPM_NET_EVENT_IKEEXT_EM_FAILURE0</b> is the specific implementation of FWPM_NET_EVENT_IKEEXT_EM_FAILURE used in Windows Vista. See <a href="https://docs.microsoft.com/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_ikeext_em_failure1">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_ikeext_em_failure1_">FWPM_NET_EVENT_IKEEXT_EM_FAILURE1</a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -104,7 +104,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-
 
 ### -field emAuthMethod
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_authentication_method_type_">IKEEXT_AUTHENTICATION_METHOD_TYPE</a> value that specifies the authentication method.
+An <a href="https://docs.microsoft.com/windows/win32/api/iketypes/ne-iketypes-ikeext_authentication_method_type">IKEEXT_AUTHENTICATION_METHOD_TYPE</a> value that specifies the authentication method.
 
 
 ### -field endCertHash
@@ -129,7 +129,7 @@ Quick Mode (QM) filter ID associated with this failure.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_authentication_method_type_">IKEEXT_AUTHENTICATION_METHOD_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iketypes/ne-iketypes-ikeext_authentication_method_type">IKEEXT_AUTHENTICATION_METHOD_TYPE</a>
 
 
 

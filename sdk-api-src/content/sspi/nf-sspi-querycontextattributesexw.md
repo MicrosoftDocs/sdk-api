@@ -478,7 +478,7 @@ This value is supported only on the CredSSP server.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_secpkgcontext_supportedsignatures">SecPkgContext_SupportedSignatures</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/schannel/ns-schannel-secpkgcontext_supportedsignatures">SecPkgContext_SupportedSignatures</a> structure.
 
 This value returns information about  the signature types that are supported for the connection.
 

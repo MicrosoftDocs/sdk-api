@@ -95,7 +95,7 @@ Implement <b>IMarshalingStream</b> interface if you have <a href="https://docs.m
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagglobalopt_unmarshaling_policy_values">GLOBALOPT_UNMARSHALING_POLICY_VALUES</a>
+<a href="https://docs.microsoft.com/windows/win32/api/objidl/ne-objidl-globalopt_unmarshaling_policy_values">GLOBALOPT_UNMARSHALING_POLICY_VALUES</a>
 
 
 

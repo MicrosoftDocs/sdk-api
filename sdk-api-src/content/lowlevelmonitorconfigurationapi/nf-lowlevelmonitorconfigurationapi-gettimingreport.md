@@ -67,7 +67,7 @@ Handle to a physical monitor. To get the monitor handle, call <a href="https://d
 
 ### -param pmtrMonitorTimingReport [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/lowlevelmonitorconfigurationapi/ns-lowlevelmonitorconfigurationapi-_mc_timing_report">MC_TIMING_REPORT</a> structure that receives the timing information.
+Pointer to an <a href="https://docs.microsoft.com/windows/win32/api/lowlevelmonitorconfigurationapi/ns-lowlevelmonitorconfigurationapi-mc_timing_report">MC_TIMING_REPORT</a> structure that receives the timing information.
           
 
 

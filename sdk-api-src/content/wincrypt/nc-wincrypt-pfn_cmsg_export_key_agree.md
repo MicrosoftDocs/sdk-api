@@ -66,7 +66,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/
 
 ### -param pKeyAgreeEncodeInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_key_agree_recipient_encode_info">CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO</a> structure that specifies the key used to encrypt the content encryption key.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cmsg_key_agree_recipient_encode_info">CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO</a> structure that specifies the key used to encrypt the content encryption key.
 
 
 ### -param pKeyAgreeEncryptInfo [in, out]

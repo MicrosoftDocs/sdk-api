@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The  <b>CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-_cryptui_wiz_digital_sign_info">CRYPTUI_WIZ_DIGITAL_SIGN_INFO</a> structure to contain extended information about a signature.
+The <b>CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO</b> structure is used with the <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_info">CRYPTUI_WIZ_DIGITAL_SIGN_INFO</a> structure to contain extended information about a signature.
 
 
 ## -struct-fields
@@ -139,7 +139,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-_cryptui_wiz_digital_sign_info">CRYPTUI_WIZ_DIGITAL_SIGN_INFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_info">CRYPTUI_WIZ_DIGITAL_SIGN_INFO</a>
  
 
  

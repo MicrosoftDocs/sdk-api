@@ -61,7 +61,7 @@ Creates an in-memory instance of a synchronization provider configuration UI.
 
 ### -param pConfigUIConfig [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/ns-syncregistration-_syncproviderconfiguiconfiguration">SyncProviderConfigUIConfiguration</a> structure that contains the configuration UI registration information.
+A <a href="https://docs.microsoft.com/windows/win32/api/syncregistration/ns-syncregistration-syncproviderconfiguiconfiguration">SyncProviderConfigUIConfiguration</a> structure that contains the configuration UI registration information.
 
 
 ### -param ppConfigUIInfo [out]
@@ -137,7 +137,7 @@ The configuration UI is not registered on the system until the <b>ISyncProviderC
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/ns-syncregistration-_syncproviderconfiguiconfiguration">SyncProviderConfigUIConfiguration Structure</a>
+<a href="https://docs.microsoft.com/windows/win32/api/syncregistration/ns-syncregistration-syncproviderconfiguiconfiguration">SyncProviderConfigUIConfiguration Structure</a>
  
 
  

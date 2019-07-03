@@ -62,9 +62,9 @@ Retrieves the condition type for this search condition node, identifying it as a
 
 ### -param pNodeType [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-tagcondition_type">CONDITION_TYPE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>*</b>
 
-Receives the <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-tagcondition_type">CONDITION_TYPE</a> enumeration for this node.
+Receives the <a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a> enumeration for this node.
                 
 
 
@@ -94,11 +94,11 @@ condition trees.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-tagcondition_operation">CONDITION_OPERATION</a>
+<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-tagcondition_type">CONDITION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

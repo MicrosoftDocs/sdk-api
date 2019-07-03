@@ -67,18 +67,18 @@ This attribute value indicates that the <i>puInteger</i> parameter of the <a hre
 
 ### -field WCN_TYPE_ASSOCIATION_STATE
 
-This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method is a value containing the association   state or configuration information defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_association_state">WCN_VALUE_TYPE_ASSOCIATION_STATE</a>.
+This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_association_state">IWCNDevice::GetIntegerAttribute</a> method is a value containing the association   state or configuration information defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_association_state">WCN_VALUE_TYPE_ASSOCIATION_STATE</a>.
 
 
 ### -field WCN_TYPE_AUTHENTICATION_TYPE
 
-This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method is a value containing an authentication type defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_authentication_type">WCN_VALUE_TYPE_AUTHENTICATION_TYPE</a>.
+This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_authentication_type">IWCNDevice::GetIntegerAttribute</a> method is a value containing an authentication type defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_authentication_type">WCN_VALUE_TYPE_AUTHENTICATION_TYPE</a>.
 
 
 ### -field WCN_TYPE_AUTHENTICATION_TYPE_FLAGS
 
 This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method is a value containing  data that specifies the network authentication capabilities of the Enrollee (access point or station) by providing a
- value defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_authentication_type">WCN_VALUE_TYPE_AUTHENTICATION_TYPE</a>.
+ value defined by <a href="https://docs.microsoft.com/windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_authentication_type">WCN_VALUE_TYPE_AUTHENTICATION_TYPE</a>.
 
 
 ### -field WCN_TYPE_AUTHENTICATOR
@@ -97,7 +97,7 @@ is used to control the configuration methods that are enabled on the access poin
 
 ### -field WCN_TYPE_CONFIGURATION_ERROR
 
-This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method is a value, defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_configuration_error">WCN_VALUE_TYPE_CONFIGURATION_ERROR</a>, that specifies the result of the device attempting to configure itself and associate with the WLAN.
+This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_configuration_error">IWCNDevice::GetIntegerAttribute</a> method is a value, defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_configuration_error">WCN_VALUE_TYPE_CONFIGURATION_ERROR</a>, that specifies the result of the device attempting to configure itself and associate with the WLAN.
 
 If a configuration session fails with the error code WCN_E_CONNECTION_REJECTED, any error code returned by the remote device can be obtained by querying this attribute. It is important to note that some devices will return WCN_VALUE_CE_NO_ERROR even if an error has occurred.
 
@@ -538,7 +538,7 @@ convey the current supported Config Methods of a specific Registrar.
 
 ### -field WCN_TYPE_PRIMARY_DEVICE_TYPE
 
-This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method is an 8 byte buffer containing values, contained in <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ns-wcntypes-tagwcn_value_type_primary_device_type">WCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE</a>, that indicates the primary type of the device. It is recommended that applications instead query the WCN_TYPE_PRIMARY_DEVICE_TYPE_CATEGORY, WCN_TYPE_PRIMARY_DEVICE_TYPE_SUBCATEGORY_OUI, and WCN_TYPE_PRIMARY_DEVICE_TYPE_SUBCATEGORY attributes as they are more convenient. 
+This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/win32/api/wcntypes/ns-wcntypes-wcn_value_type_primary_device_type">IWCNDevice::GetIntegerAttribute</a> method is an 8 byte buffer containing values, contained in <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ns-wcntypes-tagwcn_value_type_primary_device_type">WCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE</a>, that indicates the primary type of the device. It is recommended that applications instead query the WCN_TYPE_PRIMARY_DEVICE_TYPE_CATEGORY, WCN_TYPE_PRIMARY_DEVICE_TYPE_SUBCATEGORY_OUI, and WCN_TYPE_PRIMARY_DEVICE_TYPE_SUBCATEGORY attributes as they are more convenient. 
 
 
 ### -field WCN_TYPE_SECONDARY_DEVICE_TYPE_LIST

@@ -68,7 +68,7 @@ Index into array of variables to initialize.
 
 ### -field InitialRegisterSet
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1shader/ne-d3d10_1shader-_d3d10_shader_debug_regtype">D3D10_SHADER_DEBUG_REGTYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/d3d10_1shader/ne-d3d10_1shader-d3d10_shader_debug_regtype">D3D10_SHADER_DEBUG_REGTYPE</a></b>
 
 Must be D3D10_SHADER_DEBUG_REG_INPUT, D3D10_SHADER_DEBUG_REG_CBUFFER or D3D10_SHADER_DEBUG_REG_TBUFFER.
 
@@ -105,7 +105,7 @@ Initial value if the variable is a literal.
 
 
 
-The <b>D3D10_SHADER_DEBUG_INPUT_INFO</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1shader/ns-d3d10_1shader-_d3d10_shader_debug_info">D3D10_SHADER_DEBUG_INFO</a> structure.
+The <b>D3D10_SHADER_DEBUG_INPUT_INFO</b> structure is used with the <a href="https://docs.microsoft.com/windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_info">D3D10_SHADER_DEBUG_INFO</a> structure.
 
 
 

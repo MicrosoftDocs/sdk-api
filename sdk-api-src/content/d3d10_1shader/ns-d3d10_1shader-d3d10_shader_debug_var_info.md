@@ -91,7 +91,7 @@ The original variable that declared this variable.
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Offset into the scope variable array defined in <a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1shader/ns-d3d10_1shader-_d3d10_shader_debug_info">D3D10_SHADER_DEBUG_INFO</a>.
+Offset into the scope variable array defined in <a href="https://docs.microsoft.com/windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_info">D3D10_SHADER_DEBUG_INFO</a>.
 
 
 ### -field ScopeVarOffset

@@ -66,7 +66,7 @@ The filter that is used for change enumeration by the source provider.
 
 ### -param filteringType [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ne-winsync-__midl___midl_itf_winsync_0000_0000_0008">FILTERING_TYPE</a> enumeration value that indicates the type of information that is included in a change batch during filtered synchronization.
+A <a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-filtering_type">FILTERING_TYPE</a> enumeration value that indicates the type of information that is included in a change batch during filtered synchronization.
 
 
 ## -returns
@@ -141,7 +141,7 @@ When a filter has been successfully negotiated, the source provider uses it to d
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ne-winsync-__midl___midl_itf_winsync_0000_0000_0008">FILTERING_TYPE Enumeration</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-filtering_type">FILTERING_TYPE Enumeration</a>
 
 
 

@@ -115,7 +115,7 @@ On   success, a pointer that receives the address of the  <a href="https://docs.
                 When you no longer need this structure, you must free it by calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreesecuritytoken">WsFreeSecurityToken</a>.
                 
 
-The returned security token may be used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_token_message_security_binding">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> if it is to be
+The returned security token may be used with <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_token_message_security_binding">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> if it is to be
 
 presented to a service.
 

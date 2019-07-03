@@ -82,7 +82,7 @@ Specifies the preferred maximum number of bytes to return in the enumeration ope
 
 ### -param ClientInfo [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_filter_status_info_array">DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY</a> structure that contains all of the DHCP clients serviced on the specified subnet, as well as any associated link-layer filter status information for each of them.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_client_filter_status_info_array">DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY</a> structure that contains all of the DHCP clients serviced on the specified subnet, as well as any associated link-layer filter status information for each of them.
 
 
 ### -param ClientsRead [out]
@@ -150,7 +150,7 @@ There are still unenumerated client lease records on the DHCP server for the pro
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_filter_status_info_array">DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_client_filter_status_info_array">DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY</a>
  
 
  

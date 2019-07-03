@@ -67,7 +67,7 @@ Number of elements in the <i>pPhysicalMonitorArray</i> array.
 
 ### -param pPhysicalMonitorArray [in]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/physicalmonitorenumerationapi/ns-physicalmonitorenumerationapi-_physical_monitor">PHYSICAL_MONITOR</a> structures.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/win32/api/physicalmonitorenumerationapi/ns-physicalmonitorenumerationapi-physical_monitor">PHYSICAL_MONITOR</a> structures.
           
 
 

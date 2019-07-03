@@ -87,7 +87,7 @@ A pointer to a block of data bytes.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_ctrl_add_signer_unauth_attr_para">CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cmsg_ctrl_add_signer_unauth_attr_para">CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA</a>
 
 
 

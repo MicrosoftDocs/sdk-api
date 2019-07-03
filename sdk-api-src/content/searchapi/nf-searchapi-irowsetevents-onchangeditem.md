@@ -70,7 +70,7 @@ Specifies the item in the rowset that has changed.
 
 ### -param rowsetItemState [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0023_0001">ROWSETEVENT_ITEMSTATE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a></b>
 
 Specifies whether the changed item was originally in the rowset.
         
@@ -78,7 +78,7 @@ Specifies whether the changed item was originally in the rowset.
 
 ### -param changedItemState [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0023_0001">ROWSETEVENT_ITEMSTATE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a></b>
 
 Specifies whether the changed item is currently in the rowset, as a result of the change.
         
@@ -99,14 +99,14 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0023_0001">ROWSETEVENT_ITEMSTATE</a> for <i>rowsetItemState</i> indicates whether the item was contained in the original rowset: 
+The <a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a> for <i>rowsetItemState</i> indicates whether the item was contained in the original rowset: 
 
 <ul>
 <li><i>ROWSETEVENT_ITEMSTATE_INROWSET</i> indicates that the item is definitely contained within your rowset.</li>
 <li><i>ROWSETEVENT_ITEMSTATE_UNKNOWN</i> indicates that the item may be contained within your rowset. The containment status is not known because your rowset is not fully evaluated.</li>
 <li><i>ROWSETEVENT_ITEMSTATE_NOTINROWSET</i> indicates indicates that the item was not originally in your rowset</li>
 </ul>
-The <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0023_0001">ROWSETEVENT_ITEMSTATE</a> for <i>changedItemState</i> indicates whether the newly modified item now matches the degree to which the new item may match the original search criteria of a rowset: 
+The <a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a> for <i>changedItemState</i> indicates whether the newly modified item now matches the degree to which the new item may match the original search criteria of a rowset: 
 
 <ul>
 <li><i>ROWSETEVENT_ITEMSTATE_INROWSET</i> indicates that the item definitely belongs in your rowset.</li>
@@ -141,15 +141,15 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searcha
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0022_0001">PRIORITY_LEVEL</a>
+<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0023_0001">ROWSETEVENT_ITEMSTATE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0023_0002">ROWSETEVENT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type">ROWSETEVENT_TYPE</a>
 
 
 

@@ -94,7 +94,7 @@ The <i>pvDefaultPara</i> parameter is the address of a null-terminated ANSI stri
 <td width="60%">
 Installs the default provider used to verify multiple certificate signature types. 
 
-The <i>pvDefaultPara</i> parameter is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_default_context_multi_oid_para">CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA</a> structure that contains an array of object identifiers that identify the certificate signature algorithms to install the specified provider for.
+The <i>pvDefaultPara</i> parameter is the address of a <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-crypt_default_context_multi_oid_para">CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA</a> structure that contains an array of object identifiers that identify the certificate signature algorithms to install the specified provider for.
 
 </td>
 </tr>

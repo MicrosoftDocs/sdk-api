@@ -201,7 +201,7 @@ This criteria is evaluated on the certificate.
 </dl>
 </td>
 <td width="60%">
-Select certificates based on the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">Transport Layer Security protocol</a> (TLS) Signature requirement. The <b>ppPara</b> member must reference a <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_secpkgcontext_supportedsignatures">SecPkgContext_SupportedSignatures</a> structure.
+Select certificates based on the <a href="https://docs.microsoft.com/windows/win32/api/schannel/ns-schannel-secpkgcontext_supportedsignatures">Transport Layer Security protocol</a> (TLS) Signature requirement. The <b>ppPara</b> member must reference a <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_secpkgcontext_supportedsignatures">SecPkgContext_SupportedSignatures</a> structure.
 
 This criteria is evaluated on the certificate.
 

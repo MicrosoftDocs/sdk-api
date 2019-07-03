@@ -61,7 +61,7 @@ Obtains the touch keyboard layout identifier of the layout that the IME directs 
 
 ### -param pTKBLayoutType [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/ne-ctffunc-__midl_itffngetpreferredtouchkeyboardlayout_0001">TKBLayoutType</a> enumeration that receives the layout type.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ctffunc/ne-ctffunc-tkblayouttype">TKBLayoutType</a> enumeration that receives the layout type.
 
 
 ### -param pwPreferredLayoutId [out]
@@ -83,7 +83,7 @@ The touch keyboard always expects S_OK.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/ne-ctffunc-__midl_itffngetpreferredtouchkeyboardlayout_0001">TKBLayoutType</a> is an enumeration with the following values.
+<a href="https://docs.microsoft.com/windows/win32/api/ctffunc/ne-ctffunc-tkblayouttype">TKBLayoutType</a> is an enumeration with the following values.
 
 <table>
 <tr>

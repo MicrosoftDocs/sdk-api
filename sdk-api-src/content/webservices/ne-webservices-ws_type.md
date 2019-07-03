@@ -2246,10 +2246,10 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
 ### -field WS_ENDPOINT_ADDRESS_TYPE
 
 Used when serializing <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> .  The associated type description points to a
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_endpoint_address_description">WS_ENDPOINT_ADDRESS_DESCRIPTION</a> which provides information about how to serialize the endpoint address.
+                    <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_endpoint_address_description">WS_ENDPOINT_ADDRESS_DESCRIPTION</a> which provides information about how to serialize the endpoint address.
                 
 
-This type requires a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_endpoint_address_description">WS_ENDPOINT_ADDRESS_DESCRIPTION</a> type description
+This type requires a <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_endpoint_address_description">WS_ENDPOINT_ADDRESS_DESCRIPTION</a> type description
                     to be supplied which provides information about the serialization format.
                 
 

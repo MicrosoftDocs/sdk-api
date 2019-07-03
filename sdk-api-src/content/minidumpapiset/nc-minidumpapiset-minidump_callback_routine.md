@@ -71,13 +71,13 @@ An application-defined parameter value.
 ### -param CallbackInput [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_input">MINIDUMP_CALLBACK_INPUT</a> structure that specifies extended minidump information.
+<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_input">MINIDUMP_CALLBACK_INPUT</a> structure that specifies extended minidump information.
 
 
 ### -param CallbackOutput [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_output">MINIDUMP_CALLBACK_OUTPUT</a> structure that receives application-defined information from the callback function.
+<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_output">MINIDUMP_CALLBACK_OUTPUT</a> structure that receives application-defined information from the callback function.
 
 
 ## -returns
@@ -98,7 +98,7 @@ If the function succeeds, return <b>TRUE</b>; otherwise, return <b>FALSE</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_information">MINIDUMP_CALLBACK_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_information">MINIDUMP_CALLBACK_INFORMATION</a>
 
 
 

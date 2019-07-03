@@ -166,7 +166,7 @@ The content box dimensions are not checked against the page dimensions until the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0019">XPS_RECT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
  
 
  

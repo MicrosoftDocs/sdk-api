@@ -66,7 +66,7 @@ Reserved. Must be <b>NULL</b>.
 
 ### -param Status [out]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/ne-wcmconfig-__midl___midl_itf_wcmconfig_0000_0000_0006">WcmUserStatus</a> value that indicates the status of the store.
+A <a href="https://docs.microsoft.com/windows/win32/api/wcmconfig/ne-wcmconfig-wcmuserstatus">WcmUserStatus</a> value that indicates the status of the store.
 
 
 ## -returns

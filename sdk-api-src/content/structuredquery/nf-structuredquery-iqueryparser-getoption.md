@@ -61,9 +61,9 @@ Retrieves a specified simple option value for this query parser.
 
 ### -param option [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-tagstructured_query_single_option">STRUCTURED_QUERY_SINGLE_OPTION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-structured_query_single_option">STRUCTURED_QUERY_SINGLE_OPTION</a></b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-tagstructured_query_single_option">STRUCTURED_QUERY_SINGLE_OPTION</a> enumerated type that specifies the option to be retrieved.
+The <a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-structured_query_single_option">STRUCTURED_QUERY_SINGLE_OPTION</a> enumerated type that specifies the option to be retrieved.
         
 
 
@@ -71,7 +71,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-s
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
 
-Receives a pointer to the specified option value. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-tagstructured_query_single_option">STRUCTURED_QUERY_SINGLE_OPTION</a>.
+Receives a pointer to the specified option value. For more information, see <a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-structured_query_single_option">STRUCTURED_QUERY_SINGLE_OPTION</a>.
 
 
 ## -returns

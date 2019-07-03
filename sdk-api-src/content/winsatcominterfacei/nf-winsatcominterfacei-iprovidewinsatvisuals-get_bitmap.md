@@ -63,7 +63,7 @@ Retrieves a bitmap for the WinSAT base score.
 
 ### -param bitmapSize [in]
 
-Determines the size of the bitmap that this method returns. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/ne-winsatcominterfacei-__midl___midl_itf_winsatcominterfacei_0000_0000_0004">WINSAT_BITMAP_SIZE</a> enumeration.
+Determines the size of the bitmap that this method returns. For possible values, see the <a href="https://docs.microsoft.com/windows/win32/api/winsatcominterfacei/ne-winsatcominterfacei-winsat_bitmap_size">WINSAT_BITMAP_SIZE</a> enumeration.
 
 
 ### -param state [in]

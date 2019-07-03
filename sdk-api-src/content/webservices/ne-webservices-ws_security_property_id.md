@@ -174,7 +174,7 @@ Supported by default on Windows 7 and above. May require an update on systems ru
 
 ### -field WS_SECURITY_PROPERTY_SERVICE_IDENTITIES
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_security_identities">WS_SERVICE_SECURITY_IDENTITIES</a> structure that sets the Server Principal Names (SPNs) the server is willing to accept as part of validating <a href="https://docs.microsoft.com/windows/desktop/wsw/extended-protection">Extended Protection</a> data.
+A <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_service_security_identities">WS_SERVICE_SECURITY_IDENTITIES</a> structure that sets the Server Principal Names (SPNs) the server is willing to accept as part of validating <a href="https://docs.microsoft.com/windows/desktop/wsw/extended-protection">Extended Protection</a> data.
                   SPNs are validated when a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a> is used 
                   without a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a> or when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_extended_protection_scenario">WS_EXTENDED_PROTECTION_SCENARIO_TERMINATED_SSL</a> is set.
               

@@ -104,7 +104,7 @@ The data retrieved by
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_access_alignment_descriptor">STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-storage_access_alignment_descriptor">STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR</a>
 
 
 

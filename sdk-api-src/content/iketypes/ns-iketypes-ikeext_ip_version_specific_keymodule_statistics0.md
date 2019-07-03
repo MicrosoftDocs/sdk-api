@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0</b> structure contains various statistics specific to the keying module and IP version.
-<div class="alert"><b>Note</b>  <b>IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0</b> is the specific implementation of IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS used in Windows Vista. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_ip_version_specific_keymodule_statistics1_">IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS1</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0</b> is the specific implementation of IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS used in Windows Vista. See <a href="https://docs.microsoft.com/windows/win32/api/iketypes/ns-iketypes-ikeext_ip_version_specific_keymodule_statistics1">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_ip_version_specific_keymodule_statistics1_">IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS1</a> is available.</div><div> </div>
 
 ## -struct-fields
 

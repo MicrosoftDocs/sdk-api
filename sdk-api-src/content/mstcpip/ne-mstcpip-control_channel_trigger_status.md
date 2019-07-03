@@ -115,7 +115,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/ne-mswsock-_ri
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_real_time_notification_setting_input">REAL_TIME_NOTIFICATION_SETTING_OUTPUT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/mstcpip/ns-mstcpip-real_time_notification_setting_output">REAL_TIME_NOTIFICATION_SETTING_OUTPUT</a>
 
 
 

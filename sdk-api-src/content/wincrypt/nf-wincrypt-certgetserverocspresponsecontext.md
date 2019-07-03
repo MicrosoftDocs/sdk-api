@@ -78,7 +78,7 @@ This parameter is reserved for future use and must be <b>NULL</b>.
 
 
 
-If the function succeeds, it returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_server_ocsp_response_context">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> structure.
+If the function succeeds, it returns a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cert_server_ocsp_response_context">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> structure.
 
 For a response to be time valid, the current time on the system hosting this function call must be less than the next update time for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) context. When a time valid OCSP response
 is not available, this function returns <b>NULL</b> with the last error set to
@@ -91,7 +91,7 @@ CRYPT_E_REVOCATION_OFFLINE.
 
 
 
-If you use the <b>CertGetServerOcspResponseContext</b> function to create multiple references to an OCSP response context, you must call <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddrefserverocspresponsecontext">CertAddRefServerOcspResponseContext</a> to increment the reference count for the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_server_ocsp_response_context">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> structure. When you have finished using the structure, you must free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreeserverocspresponsecontext">CertFreeServerOcspResponseContext</a> function.
+If you use the <b>CertGetServerOcspResponseContext</b> function to create multiple references to an OCSP response context, you must call <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cert_server_ocsp_response_context">CertAddRefServerOcspResponseContext</a> to increment the reference count for the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_server_ocsp_response_context">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> structure. When you have finished using the structure, you must free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreeserverocspresponsecontext">CertFreeServerOcspResponseContext</a> function.
 
 
 

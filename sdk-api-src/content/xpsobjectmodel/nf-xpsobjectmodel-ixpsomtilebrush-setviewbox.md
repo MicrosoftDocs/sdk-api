@@ -61,7 +61,7 @@ Sets the portion of the source content to be used as the tile image.
 
 ### -param viewbox [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0019">XPS_RECT</a> structure that describes the portion of the source content   to be used as the tile image.
+An <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a> structure that describes the portion of the source content   to be used as the tile image.
 
 
 ## -returns
@@ -155,7 +155,7 @@ The preceding parameter values correspond to the  source image as:<dl>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0019">XPS_RECT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
  
 
  

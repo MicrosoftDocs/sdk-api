@@ -75,7 +75,7 @@ The type of event.
 
 ### -field ikeMmFailure
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_ikeext_mm_failure1_">FWPM_NET_EVENT_IKEEXT_MM_FAILURE1</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_ikeext_mm_failure1">FWPM_NET_EVENT_IKEEXT_MM_FAILURE1</a>*</b>
 
 Information about  an IKE main mode failure.
 
@@ -84,7 +84,7 @@ Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IKEEXT_MM_FAILURE</b>.
 
 ### -field ikeQmFailure
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_ikeext_qm_failure0_">FWPM_NET_EVENT_IKEEXT_QM_FAILURE0</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_ikeext_qm_failure0">FWPM_NET_EVENT_IKEEXT_QM_FAILURE0</a>*</b>
 
 Information about  an IKE quick mode failure.
 
@@ -93,7 +93,7 @@ Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IKEEXT_QM_FAILURE</b>.
 
 ### -field ikeEmFailure
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_ikeext_em_failure1_">FWPM_NET_EVENT_IKEEXT_EM_FAILURE1</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_ikeext_em_failure1">FWPM_NET_EVENT_IKEEXT_EM_FAILURE1</a>*</b>
 
 Information about  an IKE user mode failure.
 
@@ -111,7 +111,7 @@ Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_CLASSIFY_DROP</b>.
 
 ### -field ipsecDrop
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_ipsec_kernel_drop0_">FWPM_NET_EVENT_IPSEC_KERNEL_DROP0</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_ipsec_kernel_drop0">FWPM_NET_EVENT_IPSEC_KERNEL_DROP0</a>*</b>
 
 Information about an IPsec kernel drop event.
 
@@ -120,7 +120,7 @@ Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IPSEC_KERNEL_DROP</b>.
 
 ### -field idpDrop
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_ipsec_dosp_drop0_">FWPM_NET_EVENT_IPSEC_DOSP_DROP0</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_ipsec_dosp_drop0">FWPM_NET_EVENT_IPSEC_DOSP_DROP0</a>*</b>
 
 Information about an IPsec DoS Protection event.
 
@@ -136,21 +136,21 @@ Information about an allow event.
 
 ### -field capabilityDrop
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_capability_drop0_">FWPM_NET_EVENT_CAPABILITY_DROP0</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_capability_drop0">FWPM_NET_EVENT_CAPABILITY_DROP0</a>*</b>
 
 Information about a capability-related drop event.
 
 
 ### -field capabilityAllow
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_capability_allow0_">FWPM_NET_EVENT_CAPABILITY_ALLOW0</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_capability_allow0">FWPM_NET_EVENT_CAPABILITY_ALLOW0</a>*</b>
 
 Information about a capability-related allow event.
 
 
 ### -field classifyDropMac
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop_mac0_">FWPM_NET_EVENT_CLASSIFY_DROP_MAC0</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop_mac0">FWPM_NET_EVENT_CLASSIFY_DROP_MAC0</a>*</b>
 
 Information about a MAC layer drop event.
 

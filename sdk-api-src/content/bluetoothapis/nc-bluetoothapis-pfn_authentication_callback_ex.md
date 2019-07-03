@@ -66,7 +66,7 @@ Optional. A context pointer previously passed into the <a href="https://docs.mic
 
 ### -param pAuthCallbackParams [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_authentication_callback_params">BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS</a> structure that contains device and authentication configuration information specific to the Bluetooth device responding to an authentication request.
+A <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_authentication_callback_params">BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS</a> structure that contains device and authentication configuration information specific to the Bluetooth device responding to an authentication request.
 
 
 ## -returns

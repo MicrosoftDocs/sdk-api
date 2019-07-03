@@ -61,7 +61,7 @@ The <b>GetJackSinkInformation</b> method retrieves the sink information for the 
 
 ### -param pJackSinkInformation [out]
 
-Pointer to a caller-allocated buffer that receives the sink information of the jack in a <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/ns-devicetopology-_tagksjack_sink_information">KSJACK_SINK_INFORMATION</a> structure. The buffer size must be at least <code>sizeof(KSJACK_SINK_INFORMATION)</code>.
+Pointer to a caller-allocated buffer that receives the sink information of the jack in a <a href="https://docs.microsoft.com/windows/win32/api/devicetopology/ns-devicetopology-ksjack_sink_information">KSJACK_SINK_INFORMATION</a> structure. The buffer size must be at least <code>sizeof(KSJACK_SINK_INFORMATION)</code>.
 
 
 ## -returns

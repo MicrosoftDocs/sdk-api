@@ -83,7 +83,7 @@ A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/de
 
 ### -param pTimeout [out]
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapauthenticatortypes/ne-eapauthenticatortypes-_eap_authenticator_send_timeout">EAP_AUTHENTICATOR_SEND_TIMEOUT</a> enumeration that specifies the timeout for the packet.
+A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eapauthenticatortypes/ne-eapauthenticatortypes-eap_authenticator_send_timeout">EAP_AUTHENTICATOR_SEND_TIMEOUT</a> enumeration that specifies the timeout for the packet.
 
 
 ### -param ppEapError [out]

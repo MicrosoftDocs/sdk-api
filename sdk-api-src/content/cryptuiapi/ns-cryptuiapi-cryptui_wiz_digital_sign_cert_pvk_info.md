@@ -106,7 +106,7 @@ The entity is a PVK provider.
 
 ### -field pPvkFileInfo
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-_cryptui_wiz_digital_sign_pvk_file_info">CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO</a> structure that contains the PVK file that contains the certificates. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE</b> is specified for the <b>dwPvkChoice</b> member.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_pvk_file_info">CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO</a> structure that contains the PVK file that contains the certificates. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE</b> is specified for the <b>dwPvkChoice</b> member.
 
 
 ### -field pPvkProvInfo

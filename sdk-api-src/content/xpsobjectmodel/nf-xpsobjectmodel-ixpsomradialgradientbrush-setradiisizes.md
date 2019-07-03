@@ -61,7 +61,7 @@ Sets the sizes of the radii that define ellipse of the radial gradient region.
 
 ### -param radiiSizes [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0018">XPS_SIZE</a> structure that  receives the sizes of the radii.
+The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a> structure that  receives the sizes of the radii.
 
 <table>
 <tr>
@@ -123,7 +123,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-One of the sizes described by <i>radiiSizes</i> is not valid. The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0018">XPS_SIZE</a> structure must contain valid, finite, and non-negative floating-point values.
+One of the sizes described by <i>radiiSizes</i> is not valid. The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a> structure must contain valid, finite, and non-negative floating-point values.
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ The following illustration identifies the parts of a radial gradient.    <i>radi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0018">XPS_SIZE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>
  
 
  

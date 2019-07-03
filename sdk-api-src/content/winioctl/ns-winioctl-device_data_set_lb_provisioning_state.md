@@ -78,7 +78,7 @@ The size of a slab, in bytes.
 ### -field SlabOffsetDeltaInBytes
 
 If the range specified is not aligned to the <b>OptimalUnmapGranularity</b> as returned 
-      in <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_lb_provisioning_descriptor">DEVICE_LB_PROVISIONING_DESCRIPTOR</a> 
+      in <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_lb_provisioning_descriptor">DEVICE_LB_PROVISIONING_DESCRIPTOR</a> 
       structure then the data represented in the <b>SlabAllocationBitMap</b> is offset from the 
       specified range by this amount.
 
@@ -108,7 +108,7 @@ Provisioning state information is returned when the <b>Action</b> member of the
      set range in the system buffer at <b>DataSetRangesOffset</b>.
 
 On return, the system buffer contains a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_manage_data_set_attributes_output">DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</a> 
+     <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes_output">DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</a> 
      structure followed by the 
      <b>DEVICE_DATA_SET_LB_PROVISIONING_STATE</b> 
      structure. The 
@@ -127,7 +127,7 @@ Space for <b>SlabAllocationBitMap</b> should be allocated based on the number of
      <code>(number_of_slabs / 32) + ((number_of_slabs MOD 32) &gt; 0 ? 1 : 0)</code>.
 
 Slab size is determined by the <b>OptimalUnmapGranularity</b> member of 
-     the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_lb_provisioning_descriptor">DEVICE_LB_PROVISIONING_DESCRIPTOR</a> 
+     the <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_lb_provisioning_descriptor">DEVICE_LB_PROVISIONING_DESCRIPTOR</a> 
      structure returned from an 
      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> 
      control code. The length of the data set range provided should be a multiple of 
@@ -158,7 +158,7 @@ If the requested slab size is too large (for example if it is larger than the ma
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_lb_provisioning_descriptor">DEVICE_LB_PROVISIONING_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_lb_provisioning_descriptor">DEVICE_LB_PROVISIONING_DESCRIPTOR</a>
 
 
 

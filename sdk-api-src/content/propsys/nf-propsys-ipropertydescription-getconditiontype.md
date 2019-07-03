@@ -68,7 +68,7 @@ A pointer to a value that indicates the condition type.
 
 ### -param popDefault [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-tagcondition_operation">CONDITION_OPERATION</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>*</b>
 
 When this method returns, contains a pointer to a value that indicates the default condition operation.
 

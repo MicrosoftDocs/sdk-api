@@ -83,7 +83,7 @@ Returns S_OK if successful; otherwise an <b>HRESULT</b> error code. See <a href=
 
 
 
-Calling this method advances the animation manager to <i>timeNow</i>, changes the status of all storyboards as necessary, and updates any animation variables to appropriate interpolated values. If the animation manager is paused, no storyboards or variables are updated. If the animation  mode is <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0000_0003">UI_ANIMATION_MODE_DISABLED</a>, all scheduled storyboards finish playing immediately. If the values of any variables change during this call, the value of <i>updateResult</i> is <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0000_0001">UI_ANIMATION_UPDATE_VARIABLES_CHANGED</a>; otherwise, it is <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0000_0001">UI_ANIMATION_UPDATE_NO_CHANGE</a>.
+Calling this method advances the animation manager to <i>timeNow</i>, changes the status of all storyboards as necessary, and updates any animation variables to appropriate interpolated values. If the animation manager is paused, no storyboards or variables are updated. If the animation  mode is <a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_mode">UI_ANIMATION_MODE_DISABLED</a>, all scheduled storyboards finish playing immediately. If the values of any variables change during this call, the value of <i>updateResult</i> is <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0000_0001">UI_ANIMATION_UPDATE_VARIABLES_CHANGED</a>; otherwise, it is <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0000_0001">UI_ANIMATION_UPDATE_NO_CHANGE</a>.
       
 
 
@@ -110,11 +110,11 @@ Calling this method advances the animation manager to <i>timeNow</i>, changes th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0000_0003">UI_ANIMATION_MODE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_mode">UI_ANIMATION_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0000_0001">UI_ANIMATION_UPDATE_RESULT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_update_result">UI_ANIMATION_UPDATE_RESULT</a>
  
 
  

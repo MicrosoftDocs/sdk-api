@@ -66,7 +66,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/
 
 ### -param pMailListEncodeInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_mail_list_recipient_encode_info">CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO</a> structure that specifies the key used to encrypt the content encryption key.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cmsg_mail_list_recipient_encode_info">CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO</a> structure that specifies the key used to encrypt the content encryption key.
 
 
 ### -param pMailListEncryptInfo [in, out]

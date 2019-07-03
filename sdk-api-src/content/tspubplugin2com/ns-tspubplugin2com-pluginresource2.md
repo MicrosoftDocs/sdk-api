@@ -61,7 +61,7 @@ Contains additional information about a resource that can be assigned to users i
 
 ### -field resourceV1
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/tspubplugincom/ns-tspubplugincom-__midl_itspubplugin_0001">pluginResource</a> structure that contains the basic information about the resource.
+A <a href="https://docs.microsoft.com/windows/win32/api/tspubplugincom/ns-tspubplugincom-pluginresource">pluginResource</a> structure that contains the basic information about the resource.
 
 
 ### -field pceFileAssocListSize
@@ -113,7 +113,7 @@ The <b>pluginFolderName</b> type is defined as follows:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspubplugincom/ns-tspubplugincom-__midl_itspubplugin_0001">pluginResource</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tspubplugincom/ns-tspubplugincom-pluginresource">pluginResource</a>
  
 
  

@@ -200,16 +200,16 @@ Each of these data types contain a struct field called "out".
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_channel_property_constraint">WS_CHANNEL_PROPERTY_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_channel_property_constraint">WS_CHANNEL_PROPERTY_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_property_constraint">WS_SECURITY_PROPERTY_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_security_property_constraint">WS_SECURITY_PROPERTY_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_binding_property_constraint">WS_SECURITY_BINDING_PROPERTY_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_security_binding_property_constraint">WS_SECURITY_BINDING_PROPERTY_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_ssl_transport_security_binding_constraint">WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_ssl_transport_security_binding_constraint">WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 </ul>
 The content of the <b>out</b> field of these structures

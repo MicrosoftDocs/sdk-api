@@ -66,17 +66,17 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluet
 
 ### -field authenticationMethod
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ne-bluetoothapis-_bluetooth_authentication_method">BLUETOOTH_AUTHENTICATION_METHOD</a> enumeration that defines the authentication method utilized by the Bluetooth device.
+A <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_method">BLUETOOTH_AUTHENTICATION_METHOD</a> enumeration that defines the authentication method utilized by the Bluetooth device.
 
 
 ### -field ioCapability
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ne-bluetoothapis-_bluetooth_io_capability">BLUETOOTH_IO_CAPABILITY</a> enumeration that defines the input/output capabilities of the Bluetooth device.
+A <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_io_capability">BLUETOOTH_IO_CAPABILITY</a> enumeration that defines the input/output capabilities of the Bluetooth device.
 
 
 ### -field authenticationRequirements
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ne-bluetoothapis-_bluetooth_authentication_requirements">BLUETOOTH_AUTHENTICATION_REQUIREMENTS</a> specifies the 'Man in the Middle' protection required for authentication.
+A <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_requirements">BLUETOOTH_AUTHENTICATION_REQUIREMENTS</a> specifies the 'Man in the Middle' protection required for authentication.
 
 
 ### -field Numeric_Value
@@ -94,7 +94,7 @@ A <b>ULONG</b> value used as  the passkey used for authentication.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ne-bluetoothapis-_bluetooth_authentication_requirements">BLUETOOTH_AUTHENTICATION_REQUIREMENTS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_requirements">BLUETOOTH_AUTHENTICATION_REQUIREMENTS</a>
 
 
 
@@ -102,7 +102,7 @@ A <b>ULONG</b> value used as  the passkey used for authentication.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ne-bluetoothapis-_bluetooth_io_capability">BLUETOOTH_IO_CAPABILITY</a>
+<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_io_capability">BLUETOOTH_IO_CAPABILITY</a>
  
 
  

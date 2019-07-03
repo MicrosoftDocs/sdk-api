@@ -64,7 +64,7 @@ The <b>OnStateChanged</b> method notifies the client that the stream-activity st
 
 ### -param NewState [in]
 
-The new session state. The value of this parameter is one of the following <a href="https://docs.microsoft.com/windows/desktop/api/audiosessiontypes/ne-audiosessiontypes-_audiosessionstate">AudioSessionState</a> enumeration values:
+The new session state. The value of this parameter is one of the following <a href="https://docs.microsoft.com/windows/win32/api/audiosessiontypes/ne-audiosessiontypes-audiosessionstate">AudioSessionState</a> enumeration values:
 
 AudioSessionStateActive
 

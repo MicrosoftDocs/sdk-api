@@ -81,7 +81,7 @@ An instance ID for the device node of the Plug and Play (PnP) ID.
 
 ### -param pServiceInfoIn [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_local_service_info">BLUETOOTH_LOCAL_SERVICE_INFO</a> structure that describes the local service to
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_local_service_info_struct">BLUETOOTH_LOCAL_SERVICE_INFO</a> structure that describes the local service to
      set.
 
 
@@ -174,7 +174,7 @@ To use Bluetooth APIs like
     <a href="https://docs.microsoft.com/previous-versions/ff536681(v=vs.85)">Installing a Bluetooth
     Device</a>.</div>
 <div> </div>
-The <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_local_service_info">BLUETOOTH_LOCAL_SERVICE_INFO</a> structure is defined in the SDK 
+The <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_local_service_info_struct">BLUETOOTH_LOCAL_SERVICE_INFO</a> structure is defined in the SDK 
     BluetoothApis.h header file.
 
 
@@ -185,7 +185,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-blu
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_local_service_info">BLUETOOTH_LOCAL_SERVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_local_service_info_struct">BLUETOOTH_LOCAL_SERVICE_INFO</a>
  
 
  

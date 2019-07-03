@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the  <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0010">XPS_FILL_RULE</a> value that describes the fill rule to be used.
+Gets the  <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a> value that describes the fill rule to be used.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Gets the  <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel
 
 ### -param fillRule [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0010">XPS_FILL_RULE</a> value that describes the fill rule to be used.
+The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a> value that describes the fill rule to be used.
 
 
 ## -returns
@@ -107,7 +107,7 @@ The method succeeded.
 
 
 
-For more information about how the file rule determines whether a point is inside the fill region, see <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0010">XPS_FILL_RULE</a>. 
+For more information about how the file rule determines whether a point is inside the fill region, see <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a>. 
 
 The value that is returned in <i>fillRule</i>  corresponds to the <b>FillRule</b> attribute of the <b>PathGeometry</b> element in the document markup.
 
@@ -131,7 +131,7 @@ The value that is returned in <i>fillRule</i>  corresponds to the <b>FillRule</b
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0010">XPS_FILL_RULE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a>
  
 
  

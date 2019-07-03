@@ -161,7 +161,7 @@ The number of elements in the <b>rgpRecipientEncryptedKeys</b> array.
 
 ### -field rgpRecipientEncryptedKeys
 
-An array of  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_recipient_encrypted_key_encode_info">CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO</a> structures, one for each recipient to receive this key agreement key. The <b>cRecipientEncryptedKeys</b> member contains the number of elements in this structure.
+An array of  <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cmsg_recipient_encrypted_key_encode_info">CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO</a> structures, one for each recipient to receive this key agreement key. The <b>cRecipientEncryptedKeys</b> member contains the number of elements in this structure.
 
 
 ## -see-also
@@ -181,7 +181,7 @@ An array of  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_recipient_encrypted_key_encode_info">CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cmsg_recipient_encrypted_key_encode_info">CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO</a>
 
 
 

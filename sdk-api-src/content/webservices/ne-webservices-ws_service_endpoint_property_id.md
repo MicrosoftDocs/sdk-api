@@ -211,7 +211,7 @@ Specifies the WSDL port name, binding name and binding namespace for the <a href
 This property must be specified to enable the participation of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_endpoint">WS_SERVICE_ENDPOINT</a> in WS-Metadata Exchange.
                 
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_endpoint_metadata">WS_SERVICE_ENDPOINT_METADATA</a> for more details.
+See <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_service_endpoint_metadata">WS_SERVICE_ENDPOINT_METADATA</a> for more details.
                 
 
 

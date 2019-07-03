@@ -102,7 +102,7 @@ The following shows possible values. Note that only a subset of the PROPVARIANT 
 
 ### -param enumPropertyConstraint [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryconstraints/ne-functiondiscoveryconstraints-tagpropertyconstraint">PropertyConstraint</a> value that specifies the type of comparison to use when comparing the constraint's PKEY to the function instance's PKEY.
+A <a href="https://docs.microsoft.com/windows/win32/api/functiondiscoveryconstraints/ne-functiondiscoveryconstraints-propertyconstraint">PropertyConstraint</a> value that specifies the type of comparison to use when comparing the constraint's PKEY to the function instance's PKEY.
 
 
 ## -returns

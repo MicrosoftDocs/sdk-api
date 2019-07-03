@@ -112,7 +112,7 @@ The default bleed box of a page is:
 <table>
 <tr>
 <th>
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0019">XPS_RECT</a> field</th>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a> field</th>
 <th>Default value</th>
 </tr>
 <tr>
@@ -154,7 +154,7 @@ The default bleed box of a page is:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0019">XPS_RECT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
  
 
  

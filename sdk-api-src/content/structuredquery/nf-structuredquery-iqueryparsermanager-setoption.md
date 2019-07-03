@@ -61,9 +61,9 @@ Changes a single option in this <a href="https://docs.microsoft.com/windows/desk
 
 ### -param option [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-tagquery_parser_manager_option">QUERY_PARSER_MANAGER_OPTION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-query_parser_manager_option">QUERY_PARSER_MANAGER_OPTION</a></b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-tagquery_parser_manager_option">QUERY_PARSER_MANAGER_OPTION</a> to be changed.
+The <a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-query_parser_manager_option">QUERY_PARSER_MANAGER_OPTION</a> to be changed.
 
 
 ### -param pOptionValue [in]

@@ -90,7 +90,7 @@ This function returns a Windows error code.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_device_notify_subscribe_parameters">DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/powrprof/ns-powrprof-device_notify_subscribe_parameters">DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS</a>
 
 
 

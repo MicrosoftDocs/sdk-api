@@ -61,7 +61,7 @@ ms.custom: 19H1
 
 ### -field status
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-_eaphost_auth_status">EAPHOST_AUTH_STATUS</a> enumeration value that specifies the current status of the authentication session.
+An <a href="https://docs.microsoft.com/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphost_auth_status">EAPHOST_AUTH_STATUS</a> enumeration value that specifies the current status of the authentication session.
 
 
 ### -field dwErrorCode
@@ -83,7 +83,7 @@ A reason code that specifies the reason the error in <b>dwErrorCode</b> was rais
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-tageaphostpeerauthparams">EapHostPeerAuthParams</a>
+<a href="https://docs.microsoft.com/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerauthparams">EapHostPeerAuthParams</a>
 
 
 

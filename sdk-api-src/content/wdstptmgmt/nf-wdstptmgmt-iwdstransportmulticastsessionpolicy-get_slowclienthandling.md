@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets or retrieves  a <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0010">WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE</a> value that indicates the method used by the server to handle clients that are slowing down a multicast transmission.
+Sets or retrieves  a <a href="https://docs.microsoft.com/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_slow_client_handling_type">WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE</a> value that indicates the method used by the server to handle clients that are slowing down a multicast transmission.
 
 This property is read/write.
 

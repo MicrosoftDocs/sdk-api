@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The interface context that is part of the <a href="https://docs.microsoft.com/windows/desktop/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-_net_interface_context_table">NET_INTERFACE_CONTEXT_TABLE</a> structure.
+The interface context that is part of the <a href="https://docs.microsoft.com/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context_table">NET_INTERFACE_CONTEXT_TABLE</a> structure.
 
 
 ## -struct-fields
@@ -78,7 +78,7 @@ The configuration name.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-_net_interface_context_table">NET_INTERFACE_CONTEXT_TABLE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context_table">NET_INTERFACE_CONTEXT_TABLE</a>
  
 
  

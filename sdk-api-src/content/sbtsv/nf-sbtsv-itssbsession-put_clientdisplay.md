@@ -67,7 +67,7 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sessdirpublictypes/ns-sessdirpublictypes-__midl___midl_itf_sessdirpublictypes_0000_0000_0001">CLIENT_DISPLAY</a>
+<a href="https://docs.microsoft.com/windows/win32/api/sessdirpublictypes/ns-sessdirpublictypes-client_display">CLIENT_DISPLAY</a>
 
 
 

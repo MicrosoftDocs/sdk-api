@@ -93,7 +93,7 @@ In this context, a data stream refers to a block of data within a minidump file.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_user_stream_information">MINIDUMP_USER_STREAM_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_user_stream_information">MINIDUMP_USER_STREAM_INFORMATION</a>
 
 
 

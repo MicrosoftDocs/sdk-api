@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Recieves the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0011">WDSTRANSPORT_UDP_PORT_POLICY</a> value that specifies the UDP port allocation policy to be used by WDS transport services.  The value enables a WDS client computer to configure the UDP port allocation policy.
+Recieves the <a href="https://docs.microsoft.com/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_udp_port_policy">WDSTRANSPORT_UDP_PORT_POLICY</a> value that specifies the UDP port allocation policy to be used by WDS transport services.  The value enables a WDS client computer to configure the UDP port allocation policy.
 
 This property is read/write.
 
@@ -70,7 +70,7 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0011">WDSTRANSPORT_UDP_PORT_POLICY</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_udp_port_policy">WDSTRANSPORT_UDP_PORT_POLICY</a>
  
 
  

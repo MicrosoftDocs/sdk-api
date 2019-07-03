@@ -363,7 +363,7 @@ If there is a transaction bound to the directory handle, then the notifications 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-_read_directory_notify_information_class">READ_DIRECTORY_NOTIFY_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/minwinbase/ne-minwinbase-read_directory_notify_information_class">READ_DIRECTORY_NOTIFY_INFORMATION_CLASS</a>
  
 
  

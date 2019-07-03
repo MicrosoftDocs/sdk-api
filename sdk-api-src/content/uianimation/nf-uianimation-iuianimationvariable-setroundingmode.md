@@ -110,7 +110,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/UIAnimat
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0001_0001">UI_ANIMATION_ROUNDING_MODE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_rounding_mode">UI_ANIMATION_ROUNDING_MODE</a>
  
 
  

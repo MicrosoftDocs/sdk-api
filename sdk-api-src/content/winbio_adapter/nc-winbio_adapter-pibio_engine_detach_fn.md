@@ -113,7 +113,7 @@ If the <b>EngineContext</b> field in the pipeline object is <b>NULL</b> when thi
 
 Before returning S_OK, the <i>EngineAdapterDetach</i> function must set the <b>EngineContext</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_pipeline">WINBIO_PIPELINE</a> structure to <b>NULL</b> and the <b>EngineHandle</b> field to <b>INVALID_HANDLE_VALUE</b>.
 
-This function is called after the storage adapter has been removed from the pipeline. Therefore, this function must not call any functions referenced by the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_storage_interface">WINBIO_STORAGE_INTERFACE</a> structure pointed to by the <b>StorageInterface</b> member of the pipeline object.
+This function is called after the storage adapter has been removed from the pipeline. Therefore, this function must not call any functions referenced by the <a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_interface">WINBIO_STORAGE_INTERFACE</a> structure pointed to by the <b>StorageInterface</b> member of the pipeline object.
 
 
 #### Examples

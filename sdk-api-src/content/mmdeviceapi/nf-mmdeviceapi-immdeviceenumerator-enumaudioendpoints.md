@@ -64,7 +64,7 @@ The <b>EnumAudioEndpoints</b> method generates a collection of audio endpoint de
 
 ### -param dataFlow [in]
 
-The data-flow direction for the endpoint devices in the collection. The caller should set this parameter to one of the following <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/ne-mmdeviceapi-__midl___midl_itf_mmdeviceapi_0000_0000_0001">EDataFlow</a> enumeration values:
+The data-flow direction for the endpoint devices in the collection. The caller should set this parameter to one of the following <a href="https://docs.microsoft.com/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-edataflow">EDataFlow</a> enumeration values:
 
 eRender
 

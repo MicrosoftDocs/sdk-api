@@ -62,7 +62,7 @@ Updates the <a href="https://docs.microsoft.com/previous-versions/windows/deskto
 ### -param hwndParent [in]
 
 HWND serving as the parent for the configuration UI that needs to be presented before the synchronization provider can be created. 
-    	The HWND should be <b>NULL</b> only if the <b>dwCapabilities</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/ns-syncregistration-_syncproviderconfiguiconfiguration">SyncProviderConfigUIConfiguration</a> structure is set to not support a UI.
+    	The HWND should be <b>NULL</b> only if the <b>dwCapabilities</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/syncregistration/ns-syncregistration-syncproviderconfiguiconfiguration">SyncProviderConfigUIConfiguration</a> structure is set to not support a UI.
 
 
 ### -param pUnkContext [in]

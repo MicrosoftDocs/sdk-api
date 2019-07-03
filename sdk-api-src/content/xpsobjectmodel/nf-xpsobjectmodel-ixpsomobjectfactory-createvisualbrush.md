@@ -61,12 +61,12 @@ Creates an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmode
 
 ### -param viewBox [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0019">XPS_RECT</a> structure that specifies the source image's  area to be used in the brush. This parameter must not be <b>NULL</b>.
+The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a> structure that specifies the source image's  area to be used in the brush. This parameter must not be <b>NULL</b>.
 
 
 ### -param viewPort [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0019">XPS_RECT</a> structure that specifies the destination geometry area of the tile. This parameter must not be <b>NULL</b>.
+The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a> structure that specifies the destination geometry area of the tile. This parameter must not be <b>NULL</b>.
 
 
 ### -param visualBrush [out, retval]

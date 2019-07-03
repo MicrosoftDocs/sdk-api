@@ -157,11 +157,11 @@ The StructuredQuerySample code sample, available on <a href="http://go.microsoft
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-tagcondition_operation">CONDITION_OPERATION</a>
+<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-tagcondition_type">CONDITION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

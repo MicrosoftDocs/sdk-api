@@ -70,11 +70,11 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0007">WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_ip_address_source_type">WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0006">WDSTRANSPORT_IP_ADDRESS_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_ip_address_type">WDSTRANSPORT_IP_ADDRESS_TYPE</a>
  
 
  

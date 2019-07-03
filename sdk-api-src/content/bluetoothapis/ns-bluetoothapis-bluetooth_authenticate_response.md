@@ -68,7 +68,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluet
 
 ### -field authMethod
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ne-bluetoothapis-_bluetooth_authentication_method">BLUETOOTH_AUTHENTICATION_METHOD</a> enumeration that defines the supported authentication method. 
+A <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_method">BLUETOOTH_AUTHENTICATION_METHOD</a> enumeration that defines the supported authentication method. 
 
 <div class="alert"><b>Note</b>  This information can be found in the <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_authentication_callback_params">PBLUETOOTH_AUTHENTICATION_CALLBACK PARAMS</a> structure retrieved from the callback.</div>
 <div> </div>
@@ -132,7 +132,7 @@ Contains information for passkey authentication.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ne-bluetoothapis-_bluetooth_authentication_method">BLUETOOTH_AUTHENTICATION_METHOD</a>
+<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_method">BLUETOOTH_AUTHENTICATION_METHOD</a>
  
 
  

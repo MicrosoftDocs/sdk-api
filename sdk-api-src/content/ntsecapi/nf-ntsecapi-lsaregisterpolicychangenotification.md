@@ -62,7 +62,7 @@ The <b>LsaRegisterPolicyChangeNotification</b> function registers an event handl
 ### -param InformationClass [in]
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_policy_notification_information_class">POLICY_NOTIFICATION_INFORMATION_CLASS</a> value that specifies the type of policy changes about which your application will be notified. Specify one of the following values. 
+<a href="https://docs.microsoft.com/windows/win32/api/ntsecapi/ne-ntsecapi-policy_notification_information_class">POLICY_NOTIFICATION_INFORMATION_CLASS</a> value that specifies the type of policy changes about which your application will be notified. Specify one of the following values. 
 
 
 

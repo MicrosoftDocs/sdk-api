@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CryptUIWizFreeDigitalSignContext</b> function frees the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-_cryptui_wiz_digital_sign_context">CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</a> structure allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a> function.
+The <b>CryptUIWizFreeDigitalSignContext</b> function frees the <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_context">CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</a> structure allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a> function.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>CryptUIWizFreeDigitalSignContext</b> function frees the <a href="https://
 
 ### -param pSignContext [in]
 
-A pointer to the   <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-_cryptui_wiz_digital_sign_context">CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</a> structure to be freed.
+A pointer to the   <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_context">CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</a> structure to be freed.
 
 
 ## -returns
@@ -80,7 +80,7 @@ If the function fails, it returns zero.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-_cryptui_wiz_digital_sign_context">CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_context">CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</a>
 
 
 

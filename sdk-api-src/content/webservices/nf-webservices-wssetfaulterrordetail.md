@@ -161,7 +161,7 @@ This API will serialize the value of the detail field of
             
 
 This functions supports the following scenarios, based on the contents
-                of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_element_description">WS_ELEMENT_DESCRIPTION</a> in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_fault_detail_description">WS_FAULT_DETAIL_DESCRIPTION</a> supplied:
+                of the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_fault_detail_description">WS_ELEMENT_DESCRIPTION</a> in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_fault_detail_description">WS_FAULT_DETAIL_DESCRIPTION</a> supplied:
             
 
 <ul>

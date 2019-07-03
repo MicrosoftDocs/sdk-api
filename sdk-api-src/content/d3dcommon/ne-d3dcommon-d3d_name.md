@@ -322,7 +322,7 @@ This parameter contains barycentric coordinate data.
 
 
 
-The <b>D3D_NAME</b> values identify shader parameters that have <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics">predefined system-value</a> semantics. These values are used in a shader-signature description. For more information about shader-signature description, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-_d3d11_signature_parameter_desc">D3D11_SIGNATURE_PARAMETER_DESC</a>.
+The <b>D3D_NAME</b> values identify shader parameters that have <a href="https://docs.microsoft.com/windows/win32/api/d3d11shader/ns-d3d11shader-d3d11_signature_parameter_desc">predefined system-value</a> semantics. These values are used in a shader-signature description. For more information about shader-signature description, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-_d3d11_signature_parameter_desc">D3D11_SIGNATURE_PARAMETER_DESC</a>.
         
 
 
@@ -337,7 +337,7 @@ The <b>D3D_NAME</b> values identify shader parameters that have <a href="https:/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-_d3d11_signature_parameter_desc">D3D11_SIGNATURE_PARAMETER_DESC</a>
+<a href="https://docs.microsoft.com/windows/win32/api/d3d11shader/ns-d3d11shader-d3d11_signature_parameter_desc">D3D11_SIGNATURE_PARAMETER_DESC</a>
  
 
  

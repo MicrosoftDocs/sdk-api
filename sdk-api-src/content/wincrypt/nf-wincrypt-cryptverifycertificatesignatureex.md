@@ -283,9 +283,9 @@ The following properties are set on the CRL context:
 </dl>
 </td>
 <td width="60%">
-Returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_verify_cert_sign_strong_properties_info">CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO</a> structure in the <i>pvExtra</i> parameter. The structure contains the length, in bits, of the public key and the  names of the signing and hashing algorithms used.
+Returns a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-crypt_verify_cert_sign_strong_properties_info">CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO</a> structure in the <i>pvExtra</i> parameter. The structure contains the length, in bits, of the public key and the  names of the signing and hashing algorithms used.
 
-You must call <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemfree">CryptMemFree</a> to free the structure. If memory cannot be allocated for the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_verify_cert_sign_strong_properties_info">CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO</a> structure, this function returns successfully but sets the <i>pvExtra</i> parameter to <b>NULL</b>.
+You must call <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-crypt_verify_cert_sign_strong_properties_info">CryptMemFree</a> to free the structure. If memory cannot be allocated for the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_verify_cert_sign_strong_properties_info">CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO</a> structure, this function returns successfully but sets the <i>pvExtra</i> parameter to <b>NULL</b>.
 
 <div class="alert"><b>Note</b>  This flag is only applicable if  <b>CRYPT_VERIFY_CERT_SIGN_SUBJECT_OCSP_BASIC_SIGNED_RESPONSE</b> is specified in the <i>dwSubjectType</i> parameter.</div>
 <div> </div>
@@ -299,7 +299,7 @@ You must call <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/n
 
 ### -param pvExtra [in, out, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_verify_cert_sign_strong_properties_info">CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO</a> structure if the <i>dwFlags</i> parameter is set to <b>CRYPT_VERIFY_CERT_SIGN_RETURN_STRONG_PROPERTIES_FLAG</b>.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-crypt_verify_cert_sign_strong_properties_info">CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO</a> structure if the <i>dwFlags</i> parameter is set to <b>CRYPT_VERIFY_CERT_SIGN_RETURN_STRONG_PROPERTIES_FLAG</b>.
 
 You must call <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemfree">CryptMemFree</a> to free the structure.
 

@@ -64,7 +64,7 @@ The <b>OnDefaultDeviceChanged</b> method notifies the client that the default au
 
 ### -param flow [in]
 
-The data-flow direction of the endpoint device. This parameter is set to one of the following <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/ne-mmdeviceapi-__midl___midl_itf_mmdeviceapi_0000_0000_0001">EDataFlow</a> enumeration values:
+The data-flow direction of the endpoint device. This parameter is set to one of the following <a href="https://docs.microsoft.com/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-edataflow">EDataFlow</a> enumeration values:
 
 eRender
 
@@ -75,7 +75,7 @@ The data-flow direction for a rendering device is eRender. The data-flow directi
 
 ### -param role [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-roles">device role</a> of the audio endpoint device. This parameter is set to one of the following <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/ne-mmdeviceapi-__midl___midl_itf_mmdeviceapi_0000_0000_0002">ERole</a> enumeration values:
+The <a href="https://docs.microsoft.com/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-erole">device role</a> of the audio endpoint device. This parameter is set to one of the following <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/ne-mmdeviceapi-__midl___midl_itf_mmdeviceapi_0000_0000_0002">ERole</a> enumeration values:
 
 eConsole
 

@@ -155,7 +155,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_fsctl_get_integrity_information_buffer">FSCTL_GET_INTEGRITY_INFORMATION_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-fsctl_get_integrity_information_buffer">FSCTL_GET_INTEGRITY_INFORMATION_BUFFER</a>
 
 
 

@@ -78,16 +78,16 @@ This property constraint may be specified when any
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_username_message_security_binding_constraint">WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_username_message_security_binding_constraint">WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_kerberos_apreq_message_security_binding_constraint">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding_constraint">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_cert_message_security_binding_constraint">WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_cert_message_security_binding_constraint">WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_context_message_security_binding_constraint">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_security_context_message_security_binding_constraint">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 </ul>
 If this property is not specified, then the default constraint value
@@ -103,13 +103,13 @@ This property constraint may be specified when any
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_ssl_transport_security_binding_constraint">WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_ssl_transport_security_binding_constraint">WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_tcp_sspi_transport_security_binding_constraint">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_tcp_sspi_transport_security_binding_constraint">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_header_auth_security_binding_constraint">WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_http_header_auth_security_binding_constraint">WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 </ul>
 If this property is not specified, then the default constraint value
@@ -121,16 +121,16 @@ If this property is not specified, then the default constraint value
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_username_message_security_binding_constraint">WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_username_message_security_binding_constraint">WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_kerberos_apreq_message_security_binding_constraint">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding_constraint">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_cert_message_security_binding_constraint">WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_cert_message_security_binding_constraint">WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_context_message_security_binding_constraint">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_security_context_message_security_binding_constraint">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 </ul>
 If this property is not specified, then the default constraint value
@@ -142,16 +142,16 @@ If this property is not specified, then the default constraint value
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_username_message_security_binding_constraint">WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_username_message_security_binding_constraint">WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_kerberos_apreq_message_security_binding_constraint">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding_constraint">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_cert_message_security_binding_constraint">WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_cert_message_security_binding_constraint">WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_context_message_security_binding_constraint">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_security_context_message_security_binding_constraint">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 </ul>
 If this property is not specified, then the default constraint value
@@ -163,16 +163,16 @@ If this property is not specified, then the default constraint value
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_username_message_security_binding_constraint">WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_username_message_security_binding_constraint">WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_kerberos_apreq_message_security_binding_constraint">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding_constraint">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_cert_message_security_binding_constraint">WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_cert_message_security_binding_constraint">WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_context_message_security_binding_constraint">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_security_context_message_security_binding_constraint">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 </ul>
 If this property is not specified, then the default constraint value

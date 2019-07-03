@@ -95,13 +95,13 @@ Type id for the security binding <a href="https://docs.microsoft.com/windows/des
 
 ### -field WS_XML_TOKEN_MESSAGE_SECURITY_BINDING_TYPE
 
-Type id for the security binding <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_token_message_security_binding">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a>.
+Type id for the security binding <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_token_message_security_binding">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a>.
                 
 
 
 ### -field WS_SAML_MESSAGE_SECURITY_BINDING_TYPE
 
-Type id for the security binding <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_saml_message_security_binding">WS_SAML_MESSAGE_SECURITY_BINDING</a>.
+Type id for the security binding <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_saml_message_security_binding">WS_SAML_MESSAGE_SECURITY_BINDING</a>.
                 
 
 
@@ -114,6 +114,6 @@ Type id for the security binding <a href="https://docs.microsoft.com/windows/des
 ### -field WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING_TYPE
 
 Windows 8 or later:
-Type id for the security binding <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_namedpipe_sspi_transport_security_binding">WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING</a>.
+Type id for the security binding <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_namedpipe_sspi_transport_security_binding">WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING</a>.
                 
 

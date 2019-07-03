@@ -192,7 +192,7 @@ Reserved. Do not use.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
  
 
  

@@ -122,11 +122,11 @@ To meet both the user's requirements and Kerberos' requirements, you need  to ma
 
 <ol>
 <li>
-First, you construct a request message type of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_query_domain_extended_policies_request">KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST</a> in which the <b>MessageType</b> member must be set to <b>KerbQueryDomainExtendedPoliciesMessage</b>. The <b>DomainName</b> member is set to the actual domain name for which the extended domain policies are queried. If <b>DomainName</b> is set to null, the local computer's domain is assumed.
+First, you construct a request message type of <a href="https://docs.microsoft.com/windows/win32/api/ntsecapi/ns-ntsecapi-kerb_query_domain_extended_policies_request">KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST</a> in which the <b>MessageType</b> member must be set to <b>KerbQueryDomainExtendedPoliciesMessage</b>. The <b>DomainName</b> member is set to the actual domain name for which the extended domain policies are queried. If <b>DomainName</b> is set to null, the local computer's domain is assumed.
 
 </li>
 <li>
-Next, you call the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function with Kerberos authentication package and the request message.  Upon successful return, <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_query_domain_extended_policies_response">KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE</a> is returned.<ul>
+Next, you call the <a href="https://docs.microsoft.com/windows/win32/api/ntsecapi/ns-ntsecapi-kerb_query_domain_extended_policies_response">LsaCallAuthenticationPackage</a> function with Kerberos authentication package and the request message.  Upon successful return, <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_query_domain_extended_policies_response">KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE</a> is returned.<ul>
 <li>If the local computer has disabled DAC, the <b>Flags</b> member is set to 	KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE_FLAG_DAC_DISABLED.</li>
 <li>If the specified domain has Flexible Authentication Secure Tunneling (FAST) enabled, <b>ExtendedPolicies</b> member is set to  KERB_EXTENDED_POLICY_FAST_CAPABLE (0x10000).</li>
 <li>If the specified domain has Claims enabled, <b>ExtendedPolicies</b> member is set to  KERB_EXTENDED_POLICY_CLAIMS_CAPABLE (0x40000).</li>
@@ -141,7 +141,7 @@ Then you must call <a href="https://docs.microsoft.com/windows/desktop/api/dsget
 
 </li>
 <li>
-Finally, you call the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function again with the Kerberos authentication package and the request <b>KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST</b> in which the <b>DcFlags</b> member is set to the <b>DomainControllerInfo</b> flags. All other members should be populated in the same way as <b>KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST</b>. If the <b>DsFlags</b> of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_query_domain_extended_policies_response">KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE</a> is zero, then either <b>DcFlags</b> should be set to zero when calling <b>KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST</b> or default back to the existing KERB_ADD_BINDING_CACHE_ENTRY_REQUEST request.
+Finally, you call the <a href="https://docs.microsoft.com/windows/win32/api/ntsecapi/ns-ntsecapi-kerb_query_domain_extended_policies_response">LsaCallAuthenticationPackage</a> function again with the Kerberos authentication package and the request <b>KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST</b> in which the <b>DcFlags</b> member is set to the <b>DomainControllerInfo</b> flags. All other members should be populated in the same way as <b>KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST</b>. If the <b>DsFlags</b> of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_query_domain_extended_policies_response">KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE</a> is zero, then either <b>DcFlags</b> should be set to zero when calling <b>KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST</b> or default back to the existing KERB_ADD_BINDING_CACHE_ENTRY_REQUEST request.
 
 </li>
 </ol>

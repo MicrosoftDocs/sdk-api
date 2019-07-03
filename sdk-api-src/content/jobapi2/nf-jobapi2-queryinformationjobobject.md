@@ -104,7 +104,7 @@ The <i>lpJobObjectInfo</i> parameter is a pointer to a
 </td>
 <td width="60%">
 The <i>lpJobObjectInfo</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_basic_and_io_accounting_information">JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-jobobject_basic_and_io_accounting_information">JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -352,7 +352,7 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_basic_and_io_accounting_information">JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-jobobject_basic_and_io_accounting_information">JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION</a>
 
 
 

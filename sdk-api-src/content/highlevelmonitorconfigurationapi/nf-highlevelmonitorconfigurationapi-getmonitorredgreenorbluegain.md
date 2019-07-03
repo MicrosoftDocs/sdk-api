@@ -67,7 +67,7 @@ Handle to a physical monitor. To get the monitor handle, call <a href="https://d
 
 ### -param gtGainType [in]
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/ne-highlevelmonitorconfigurationapi-_mc_gain_type">MC_GAIN_TYPE</a> enumeration, specifying whether to retrieve the red, green, or blue gain value.
+A member of the <a href="https://docs.microsoft.com/windows/win32/api/highlevelmonitorconfigurationapi/ne-highlevelmonitorconfigurationapi-mc_gain_type">MC_GAIN_TYPE</a> enumeration, specifying whether to retrieve the red, green, or blue gain value.
           
 
 

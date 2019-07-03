@@ -61,7 +61,7 @@ Creates an in-memory instance of a synchronization provider.
 
 ### -param pProviderConfiguration [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/ns-syncregistration-_syncproviderconfiguration">SyncProviderConfiguration</a> structure that contains the synchronization provider registration information.
+A <a href="https://docs.microsoft.com/windows/win32/api/syncregistration/ns-syncregistration-syncproviderconfiguration">SyncProviderConfiguration</a> structure that contains the synchronization provider registration information.
 
 
 ### -param ppProviderInfo [out]
@@ -137,7 +137,7 @@ The synchronization provider is not registered on the system until the <b>ISyncP
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/ns-syncregistration-_syncproviderconfiguration">SyncProviderConfiguration Structure</a>
+<a href="https://docs.microsoft.com/windows/win32/api/syncregistration/ns-syncregistration-syncproviderconfiguration">SyncProviderConfiguration Structure</a>
  
 
  

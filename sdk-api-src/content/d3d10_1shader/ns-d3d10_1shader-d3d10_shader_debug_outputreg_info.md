@@ -61,7 +61,7 @@ Describes a shader output register.
 
 ### -field OutputRegisterSet
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1shader/ne-d3d10_1shader-_d3d10_shader_debug_regtype">D3D10_SHADER_DEBUG_REGTYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/d3d10_1shader/ne-d3d10_1shader-d3d10_shader_debug_regtype">D3D10_SHADER_DEBUG_REGTYPE</a></b>
 
 Must be D3D10_SHADER_DEBUG_REG_TEMP, D3D10_SHADER_DEBUG_REG_TEMPARRAY or D3D10_SHADER_DEBUG_REG_OUTPUT.
 
@@ -89,7 +89,7 @@ A value of -1 means the component is masked out.
 
 ### -field OutputVars
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1shader/ns-d3d10_1shader-_d3d10_shader_debug_outputvar">D3D10_SHADER_DEBUG_OUTPUTVAR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_outputvar">D3D10_SHADER_DEBUG_OUTPUTVAR</a></b>
 
 Indicates which variable the instruction is writing per-component.
 

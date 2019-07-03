@@ -153,7 +153,7 @@ Size in bytes of a cluster for this volume. This value must be a power of 2, mus
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_fsctl_set_integrity_information_buffer">FSCTL_SET_INTEGRITY_INFORMATION_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-fsctl_set_integrity_information_buffer">FSCTL_SET_INTEGRITY_INFORMATION_BUFFER</a>
 
 
 

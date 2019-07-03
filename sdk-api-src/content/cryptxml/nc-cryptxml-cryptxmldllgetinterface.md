@@ -92,7 +92,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 The cryptographic extensions DLL must export the <b>CryptXmlDllGetInterface</b> entry.
 
 
-To get the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_cryptographic_interface">CRYPT_XML_CRYPTOGRAPHIC_INTERFACE</a>  table, CryptXml loads the registered cryptographic extensions DLL by using the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function, and then it calls the
+To get the <a href="https://docs.microsoft.com/windows/win32/api/cryptxml/ns-cryptxml-crypt_xml_cryptographic_interface">CRYPT_XML_CRYPTOGRAPHIC_INTERFACE</a>  table, CryptXml loads the registered cryptographic extensions DLL by using the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function, and then it calls the
 <b>CryptXmlDllGetInterface</b> function.
 
 

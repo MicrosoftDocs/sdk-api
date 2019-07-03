@@ -63,7 +63,7 @@ The
 ### -param nDirection [in]
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/ne-termmgr-__midl___midl_itf_termmgr_0000_0000_0001">TMGR_DIRECTION</a> descriptor of the terminal direction.
+<a href="https://docs.microsoft.com/windows/win32/api/termmgr/ne-termmgr-tmgr_direction">TMGR_DIRECTION</a> descriptor of the terminal direction.
 
 
 ## -returns

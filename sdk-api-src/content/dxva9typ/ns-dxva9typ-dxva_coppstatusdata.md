@@ -64,7 +64,7 @@ Contains the result from a Certified Output Protection Protocol (COPP) status re
 
 ### -field rApp
 
-A 128-bit random number that was passed by the application in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_amcoppstatusinput">AMCOPPStatusInput</a> structure.
+A 128-bit random number that was passed by the application in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-amcoppstatusinput">AMCOPPStatusInput</a> structure.
 
 
 ### -field dwFlags

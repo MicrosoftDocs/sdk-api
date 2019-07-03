@@ -90,7 +90,7 @@ An RVA to a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_unloaded_module_list">MINIDUMP_UNLOADED_MODULE_LIST</a>
+<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_unloaded_module_list">MINIDUMP_UNLOADED_MODULE_LIST</a>
  
 
  

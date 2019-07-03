@@ -63,7 +63,7 @@ Registers to receive notification when the system is suspended or resumed. Simil
 
  This parameter contains parameters for subscribing to a power notification or a window handle representing the subscribing process. 
 
-If <i>Flags</i> is <b>DEVICE_NOTIFY_CALLBACK</b>, <i>hRecipient</i> is interpreted as a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_device_notify_subscribe_parameters">DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS</a> structure. In this case, the callback function is <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nc-powrprof-device_notify_callback_routine">DeviceNotifyCallbackRoutine</a>. When the <b>Callback</b> function executes, the  <i>Type</i> parameter is set indicating the type of event that occurred. Possible values include <b>PBT_APMSUSPEND</b>, <b>PBT_APMRESUMESUSPEND</b>, and <b>PBT_APMRESUMEAUTOMATIC</b> - see  <a href="https://docs.microsoft.com/windows/desktop/Power/power-management-events">Power Management Events</a> for more info. The <i>Setting</i> parameter is not used with suspend/resume notifications.
+If <i>Flags</i> is <b>DEVICE_NOTIFY_CALLBACK</b>, <i>hRecipient</i> is interpreted as a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/powrprof/ns-powrprof-device_notify_subscribe_parameters">DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS</a> structure. In this case, the callback function is <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nc-powrprof-device_notify_callback_routine">DeviceNotifyCallbackRoutine</a>. When the <b>Callback</b> function executes, the  <i>Type</i> parameter is set indicating the type of event that occurred. Possible values include <b>PBT_APMSUSPEND</b>, <b>PBT_APMRESUMESUSPEND</b>, and <b>PBT_APMRESUMEAUTOMATIC</b> - see  <a href="https://docs.microsoft.com/windows/desktop/Power/power-management-events">Power Management Events</a> for more info. The <i>Setting</i> parameter is not used with suspend/resume notifications.
 
 If <i>Flags</i> is <b>DEVICE_NOTIFY_WINDOW_HANDLE</b>, <i>hRecipient</i> is a handle to the window to deliver events to. 
 
@@ -94,7 +94,7 @@ If the function fails, the return value is NULL. To get extended error informati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_device_notify_subscribe_parameters">DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/powrprof/ns-powrprof-device_notify_subscribe_parameters">DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS</a>
 
 
 

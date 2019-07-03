@@ -66,7 +66,7 @@ A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/de
 
 ### -param pEapInfo [out]
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/ns-eapmethodpeerapis-_eap_peer_method_routines">EAP_PEER_METHOD_ROUTINES</a> structure that contains the function pointers to EAP method-specific implementations of the APIs that correspond to supplicant calls made to the peer-based EAPHost.
+A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eapmethodpeerapis/ns-eapmethodpeerapis-eap_peer_method_routines">EAP_PEER_METHOD_ROUTINES</a> structure that contains the function pointers to EAP method-specific implementations of the APIs that correspond to supplicant calls made to the peer-based EAPHost.
 
 
 ### -param ppEapError [out]

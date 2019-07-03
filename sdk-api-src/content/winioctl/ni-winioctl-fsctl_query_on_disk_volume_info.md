@@ -222,7 +222,7 @@ No
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_query_on_disk_vol_info_buffer">FILE_QUERY_ON_DISK_VOL_INFO_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-file_query_on_disk_vol_info_buffer">FILE_QUERY_ON_DISK_VOL_INFO_BUFFER</a>
 
 
 

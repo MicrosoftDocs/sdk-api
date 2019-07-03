@@ -61,7 +61,7 @@ Gets the portion of  the destination geometry that is covered by a single tile.
 
 ### -param viewport [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0019">XPS_RECT</a> structure that describes the portion of the destination geometry  that is covered by a single tile.
+The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a> structure that describes the portion of the destination geometry  that is covered by a single tile.
 
 
 ## -returns
@@ -126,7 +126,7 @@ The viewport is the portion of the output area where the first tile is drawn. In
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0019">XPS_RECT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
  
 
  

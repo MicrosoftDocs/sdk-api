@@ -61,7 +61,7 @@ Gets the setting type for the item.
 
 ### -param Type [out]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/ne-wcmconfig-__midl___midl_itf_wcmconfig_0000_0000_0004">WcmSettingType</a> value that contains the setting type of the item.
+A <a href="https://docs.microsoft.com/windows/win32/api/wcmconfig/ne-wcmconfig-wcmsettingtype">WcmSettingType</a> value that contains the setting type of the item.
 
 
 ## -returns

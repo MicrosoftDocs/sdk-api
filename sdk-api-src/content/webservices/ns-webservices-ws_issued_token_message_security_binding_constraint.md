@@ -99,7 +99,7 @@ If this value is 0, then the claimConstraints array may be
 A set of property constraints relating to how to request a security token.
                 
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_request_security_token_property_constraint">WS_REQUEST_SECURITY_TOKEN_PROPERTY_CONSTRAINT</a> for more information.
+See <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_request_security_token_property_constraint">WS_REQUEST_SECURITY_TOKEN_PROPERTY_CONSTRAINT</a> for more information.
                 
 
 
@@ -138,7 +138,7 @@ When <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webs
 The information extracted using this binding constraint can be used
                 with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsrequestsecuritytoken">WsRequestSecurityToken</a> to obtain an issued token.
                 The issued token can then be used with the 
-                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_token_message_security_binding">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> security binding.
+                <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_token_message_security_binding">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> security binding.
             
 
 This binding constraint is typically used in federated security

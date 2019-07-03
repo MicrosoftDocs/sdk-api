@@ -74,7 +74,7 @@ A GUID that identifies the private stream state. The following GUID is defined.
 </dl>
 </td>
 <td width="60%">
-Retrieves statistics about inverse telecine. The state data (<b>pData</b>) is a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_stream_state_private_ivtc_data">DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA</a> structure.
+Retrieves statistics about inverse telecine. The state data (<b>pData</b>) is a <a href="https://docs.microsoft.com/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_stream_state_private_ivtc_data">DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA</a> structure.
 
 </td>
 </tr>

@@ -64,7 +64,7 @@ The <b>GetDefaultAudioEndpoint</b> method retrieves the default audio endpoint f
 
 ### -param dataFlow [in]
 
-The data-flow direction for the endpoint device. The caller should set this parameter to one of the following two <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/ne-mmdeviceapi-__midl___midl_itf_mmdeviceapi_0000_0000_0001">EDataFlow</a> enumeration values:
+The data-flow direction for the endpoint device. The caller should set this parameter to one of the following two <a href="https://docs.microsoft.com/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-edataflow">EDataFlow</a> enumeration values:
 
 eRender
 
@@ -75,7 +75,7 @@ The data-flow direction for a rendering device is eRender. The data-flow directi
 
 ### -param role [in]
 
-The role of the endpoint device. The caller should set this parameter to one of the following <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/ne-mmdeviceapi-__midl___midl_itf_mmdeviceapi_0000_0000_0002">ERole</a> enumeration values:
+The role of the endpoint device. The caller should set this parameter to one of the following <a href="https://docs.microsoft.com/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-erole">ERole</a> enumeration values:
 
 eConsole
 

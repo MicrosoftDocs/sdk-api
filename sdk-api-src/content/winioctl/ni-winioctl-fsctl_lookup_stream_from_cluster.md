@@ -248,7 +248,7 @@ Yes
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_lookup_stream_from_cluster_output">LOOKUP_STREAM_FROM_CLUSTER_OUTPUT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-lookup_stream_from_cluster_output">LOOKUP_STREAM_FROM_CLUSTER_OUTPUT</a>
 
 
 

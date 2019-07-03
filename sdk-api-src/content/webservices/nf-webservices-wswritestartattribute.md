@@ -96,7 +96,7 @@ A WS_XML_STRING pointer to the namespace to be used for the attribute.
 ### -param singleQuote [in]
 
 Determines whether to use a single or a double quote for the attribute value.
-        <div class="alert"><b>Note</b>  With <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_writer_binary_encoding">WS_XML_WRITER_BINARY_ENCODING</a> the quote character is not preserved and this
+        <div class="alert"><b>Note</b>  With <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_writer_binary_encoding">WS_XML_WRITER_BINARY_ENCODING</a> the quote character is not preserved and this
           parameter has no effect.
         </div>
 <div> </div>

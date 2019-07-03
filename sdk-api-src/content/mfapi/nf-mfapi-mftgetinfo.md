@@ -74,7 +74,7 @@ Receives a pointer to a wide-character string containing the friendly name of th
 
 ### -param ppInputTypes [out]
 
-Receives a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-__midl___midl_itf_mfobjects_0000_0008_0003">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array describes an input format that the MFT supports. The caller must free the array by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. This parameter can be <b>NULL</b>.
+Receives a pointer to an array of <a href="https://docs.microsoft.com/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array describes an input format that the MFT supports. The caller must free the array by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. This parameter can be <b>NULL</b>.
           
 
 
@@ -86,7 +86,7 @@ Receives the number of elements in the <i>ppInputTypes</i> array. If <i>ppInputT
 
 ### -param ppOutputTypes [out]
 
-Receives a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-__midl___midl_itf_mfobjects_0000_0008_0003">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array describes an output format that the MFT supports. The caller must free the array by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. This parameter can be <b>NULL</b>.
+Receives a pointer to an array of <a href="https://docs.microsoft.com/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array describes an output format that the MFT supports. The caller must free the array by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. This parameter can be <b>NULL</b>.
           
 
 

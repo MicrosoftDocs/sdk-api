@@ -104,7 +104,7 @@ The EAP authentication session completed successfully, but authentication failed
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeertypes/ns-eaphostpeertypes-_eaphost_auth_info">EAPHOST_AUTH_INFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/eaphostpeertypes/ns-eaphostpeertypes-eaphost_auth_info">EAPHOST_AUTH_INFO</a>
 
 
 
@@ -112,7 +112,7 @@ The EAP authentication session completed successfully, but authentication failed
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-tageaphostpeerauthparams">EapHostPeerAuthParams</a>
+<a href="https://docs.microsoft.com/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerauthparams">EapHostPeerAuthParams</a>
 
 
 

@@ -61,7 +61,7 @@ Reserved for Microsoft use.
 
 ### -param status [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xblidpauthmanager/ne-xblidpauthmanager-_xbl_idp_auth_token_status">XBL_IDP_AUTH_TOKEN_STATUS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/xblidpauthmanager/ne-xblidpauthmanager-xbl_idp_auth_token_status">XBL_IDP_AUTH_TOKEN_STATUS</a>*</b>
 
 
 ## -returns

@@ -301,7 +301,7 @@ An application can time out and query the current interface state instead of wai
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_hosted_network_notification_code">WLAN_HOSTED_NETWORK_NOTIFICATION_CODE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_hosted_network_notification_code">WLAN_HOSTED_NETWORK_NOTIFICATION_CODE</a>
 
 
 

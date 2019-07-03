@@ -93,7 +93,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The point described by <i>center</i> is not valid. The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0017">XPS_POINT</a> structure must contain valid and finite floating-point values.
+The point described by <i>center</i> is not valid. The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a> structure must contain valid and finite floating-point values.
 
 </td>
 </tr>
@@ -143,7 +143,7 @@ The following illustration shows the parts of a radial gradient. <i>center</i> s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0017">XPS_POINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
  
 
  

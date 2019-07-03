@@ -71,9 +71,9 @@ The new item that may match the original search criteria of the rowset.
 
 ### -param newItemState [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0023_0001">ROWSETEVENT_ITEMSTATE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a></b>
 
-Specifies whether the new item matches all or some of the criteria for your rowset, as a <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0023_0001">ROWSETEVENT_ITEMSTATE</a> enumeration.
+Specifies whether the new item matches all or some of the criteria for your rowset, as a <a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a> enumeration.
         
 
 
@@ -92,7 +92,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0023_0001">ROWSETEVENT_ITEMSTATE</a> indicates the degree to which the new item may match the original search criteria of a rowset:
+The <a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a> indicates the degree to which the new item may match the original search criteria of a rowset:
         
 
 <ul>
@@ -128,15 +128,15 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searcha
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0022_0001">PRIORITY_LEVEL</a>
+<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0023_0001">ROWSETEVENT_ITEMSTATE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0023_0002">ROWSETEVENT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type">ROWSETEVENT_TYPE</a>
 
 
 

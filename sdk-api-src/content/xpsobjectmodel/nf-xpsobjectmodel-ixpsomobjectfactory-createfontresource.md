@@ -70,7 +70,7 @@ The read-only <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-
 
 ### -param fontEmbedding [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0013">XPS_FONT_EMBEDDING</a> value that specifies the stream's embedding option.
+The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_font_embedding">XPS_FONT_EMBEDDING</a> value that specifies the stream's embedding option.
 
 
 ### -param partUri [in]
@@ -149,8 +149,8 @@ The method succeeded.
 One of the following errors  has occurred:
 
 <ul>
-<li><i>fontEmbedding</i> is not a  valid <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0013">XPS_FONT_EMBEDDING</a> value.</li>
-<li><i>fontEmbedding</i> is <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0013">XPS_FONT_EMBEDDING_NORMAL</a> and  <i>isObfSourceStream</i> is <b>TRUE</b>.</li>
+<li><i>fontEmbedding</i> is not a  valid <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_font_embedding">XPS_FONT_EMBEDDING</a> value.</li>
+<li><i>fontEmbedding</i> is <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_font_embedding">XPS_FONT_EMBEDDING_NORMAL</a> and  <i>isObfSourceStream</i> is <b>TRUE</b>.</li>
 </ul>
 </td>
 </tr>
@@ -177,7 +177,7 @@ One of the following errors  has occurred:
 
 The value of <i>isObfSourceStream</i> describes the state of the <i>acquiredStream</i>-referenced stream  at  the time the font resource is created. All subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomfontresource-getstream">GetStream</a> or <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomfontresource-setcontent">SetContent</a> will operate on unobfuscated versions of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>.
 
-An error is returned if <i>isObfSourceStream</i> is set to <b>TRUE</b> and <i>fontEmbedding</i> is set to <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0013">XPS_FONT_EMBEDDING_NORMAL</a>, or if the name referenced by <i>partUri</i> does not conform to the syntax for obfuscated streams.
+An error is returned if <i>isObfSourceStream</i> is set to <b>TRUE</b> and <i>fontEmbedding</i> is set to <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_font_embedding">XPS_FONT_EMBEDDING_NORMAL</a>, or if the name referenced by <i>partUri</i> does not conform to the syntax for obfuscated streams.
 
 The code example that follows illustrates how this method is used to create a new  interface.
 
@@ -257,7 +257,7 @@ else
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0013">XPS_FONT_EMBEDDING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_font_embedding">XPS_FONT_EMBEDDING</a>
  
 
  

@@ -65,7 +65,7 @@ it is no longer in use.
             
 
 This type is supported only on pre-Windows Vista platforms: for
-Windows Vista and later, please use <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_ncrypt_asymmetric_security_key_handle">WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE</a>.
+Windows Vista and later, please use <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_ncrypt_asymmetric_security_key_handle">WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE</a>.
             
 
 

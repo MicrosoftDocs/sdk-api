@@ -61,7 +61,7 @@ Represents configuration parameters for creating <code>WSDAPI</code> objects.
 
 ### -field configParamType
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ne-wsdbase-__midl___midl_itf_wsdbase_0000_0000_0001">WSD_CONFIG_PARAM_TYPE</a> value that indicates the type configuration data contained in this structure.
+A <a href="https://docs.microsoft.com/windows/win32/api/wsdbase/ne-wsdbase-wsd_config_param_type">WSD_CONFIG_PARAM_TYPE</a> value that indicates the type configuration data contained in this structure.
 
 
 ### -field pConfigData

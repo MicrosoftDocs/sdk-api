@@ -275,7 +275,7 @@ For example, a change sensitivity value of 2 for SENSOR_DATA_TYPE_TEMPERATURE_CE
 
 </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/ne-sensorsapi-__midl___midl_itf_sensorsapi_0000_0000_0002">SensorConnectionType</a> value that contains the current connection type.</td>
+<a href="https://docs.microsoft.com/windows/win32/api/sensorsapi/ne-sensorsapi-sensorconnectiontype">SensorConnectionType</a> value that contains the current connection type.</td>
 </tr>
 <tr>
 <td>SENSOR_PROPERTY_CURRENT_REPORT_INTERVAL<b>VT_UI4</b>
@@ -384,7 +384,7 @@ Resolution values are expressed by using the same units as the data field, excep
 
 </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/ne-sensorsapi-__midl___midl_itf_sensorsapi_0000_0000_0001">SensorState</a> value that contains the current sensor state.</td>
+<a href="https://docs.microsoft.com/windows/win32/api/sensorsapi/ne-sensorsapi-sensorstate">SensorState</a> value that contains the current sensor state.</td>
 </tr>
 <tr>
 <td>SENSOR_PROPERTY_TYPE<b>VT_CLSID</b>

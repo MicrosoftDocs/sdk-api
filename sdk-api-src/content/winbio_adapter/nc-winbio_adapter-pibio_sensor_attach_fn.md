@@ -118,7 +118,7 @@ The <b>SensorContext</b> member of the <a href="https://docs.microsoft.com/windo
 
 
 
-This function is called before the engine and storage adapters have been initialized for the biometric unit. Therefore, this function must not call any functions referenced by the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_engine_interface">WINBIO_ENGINE_INTERFACE</a> or the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_storage_interface">WINBIO_STORAGE_INTERFACE</a> structure pointed to by the <b>EngineInterface</b> and <b>StorageInterface</b> members of the pipeline object.
+This function is called before the engine and storage adapters have been initialized for the biometric unit. Therefore, this function must not call any functions referenced by the <a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_interface">WINBIO_ENGINE_INTERFACE</a> or the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_storage_interface">WINBIO_STORAGE_INTERFACE</a> structure pointed to by the <b>EngineInterface</b> and <b>StorageInterface</b> members of the pipeline object.
 
 Because the <b>SensorHandle</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_pipeline">WINBIO_PIPELINE</a> structure will contain  a valid handle before  this method is called, your implementation of <i>SensorAdapterAttach</i>  can use the handle to access the sensor device if necessary.
 

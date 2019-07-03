@@ -75,7 +75,7 @@ A pointer to a <b>LONG</b> variable to receive the number of elements in the <i>
 
 ### -param resourceList [out]
 
-The address of a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/tspubplugincom/ns-tspubplugincom-__midl_itspubplugin_0001">pluginResource</a> structures that receive the resources assigned to the specified user. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> function to allocate this memory. The caller is responsible for freeing this memory.
+The address of a pointer to an array of <a href="https://docs.microsoft.com/windows/win32/api/tspubplugincom/ns-tspubplugincom-pluginresource">pluginResource</a> structures that receive the resources assigned to the specified user. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> function to allocate this memory. The caller is responsible for freeing this memory.
 
 
 ## -returns

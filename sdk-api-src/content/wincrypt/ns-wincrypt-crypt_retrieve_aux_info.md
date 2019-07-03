@@ -76,7 +76,7 @@ A value that specifies a limit to the number of byes retrieved. A value of zero 
 
 ### -field pPreFetchInfo
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cryptnet_url_cache_pre_fetch_info">CRYPTNET_URL_CACHE_PRE_FETCH_INFO</a> structure. To get prefetch information, set its <b>cbSize</b> upon input. For no prefetch information, except for <b>cbSize</b>, the data structure contains zero upon return.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cryptnet_url_cache_pre_fetch_info">CRYPTNET_URL_CACHE_PRE_FETCH_INFO</a> structure. To get prefetch information, set its <b>cbSize</b> upon input. For no prefetch information, except for <b>cbSize</b>, the data structure contains zero upon return.
 
 
 ### -field pFlushInfo

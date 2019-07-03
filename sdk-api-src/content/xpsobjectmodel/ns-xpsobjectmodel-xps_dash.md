@@ -77,7 +77,7 @@ The length must be non-negative and is measured in multiples of the path's strok
 
  Values of <b>length</b> do not include the end caps of the visible segments.
 
-The shape of the end caps of the visible segments is determined by the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0006">XPS_DASH_CAP</a> value.
+The shape of the end caps of the visible segments is determined by the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_dash_cap">XPS_DASH_CAP</a> value.
 
 
 
@@ -91,7 +91,7 @@ The shape of the end caps of the visible segments is determined by the <a href="
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0006">XPS_DASH_CAP</a>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_dash_cap">XPS_DASH_CAP</a>
  
 
  

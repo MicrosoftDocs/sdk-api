@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertFreeServerOcspResponseContext</b> function decrements the reference count for a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_server_ocsp_response_context">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> structure. If the reference count becomes zero, memory allocated for the structure is released.
+The <b>CertFreeServerOcspResponseContext</b> function decrements the reference count for a <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cert_server_ocsp_response_context">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> structure. If the reference count becomes zero, memory allocated for the structure is released.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>CertFreeServerOcspResponseContext</b> function decrements the reference c
 
 ### -param pServerOcspResponseContext [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_server_ocsp_response_context">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> structure that contains a value returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetserverocspresponsecontext">CertGetServerOcspResponseContext</a> function.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cert_server_ocsp_response_context">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> structure that contains a value returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetserverocspresponsecontext">CertGetServerOcspResponseContext</a> function.
 
 
 ## -returns

@@ -71,7 +71,7 @@ A <b>PEERDIST_CONTENT_HANDLE</b> returned by the <a href="https://docs.microsoft
 
 ### -param PeerDistClientInfoClass [in]
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ne-peerdist-_peerdist_client_info_by_handle_class">PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS</a> enumeration that indicates the information to retrieve.
+A value from the <a href="https://docs.microsoft.com/windows/win32/api/peerdist/ne-peerdist-peerdist_client_info_by_handle_class">PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS</a> enumeration that indicates the information to retrieve.
 
 
 ### -param dwBufferSize
@@ -98,7 +98,7 @@ If the function succeeds, the return value is ERROR_SUCCESS.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ne-peerdist-_peerdist_client_info_by_handle_class">PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/peerdist/ne-peerdist-peerdist_client_info_by_handle_class">PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS</a>
 
 
 

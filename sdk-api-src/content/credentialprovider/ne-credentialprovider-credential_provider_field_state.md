@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the state of a single field in the Credential UI. Used by <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ns-credentialprovider-_credential_provider_field_descriptor">CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</a> and <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents-setfieldstate">ICredentialProviderCredentialEvents::SetFieldState</a>. The behavior of fields may vary depending on the current field state.
+Specifies the state of a single field in the Credential UI. Used by <a href="https://docs.microsoft.com/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_field_descriptor">CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</a> and <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents-setfieldstate">ICredentialProviderCredentialEvents::SetFieldState</a>. The behavior of fields may vary depending on the current field state.
 
 
 ## -enum-fields
@@ -71,7 +71,7 @@ Show the field when in the selected state.
 
 ### -field CPFS_DISPLAY_IN_DESELECTED_TILE
 
-Show the field when in the deselected state. This value is only valid for a <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ne-credentialprovider-_credential_provider_usage_scenario">CREDENTIAL_PROVIDER_USAGE_SCENARIO</a> is set to <b>CPUS_CREDUI</b>.
+Show the field when in the deselected state. This value is only valid for a <a href="https://docs.microsoft.com/windows/win32/api/credentialprovider/ne-credentialprovider-credential_provider_usage_scenario">CREDENTIAL_PROVIDER_USAGE_SCENARIO</a> is set to <b>CPUS_CREDUI</b>.
 
 
 ### -field CPFS_DISPLAY_IN_BOTH

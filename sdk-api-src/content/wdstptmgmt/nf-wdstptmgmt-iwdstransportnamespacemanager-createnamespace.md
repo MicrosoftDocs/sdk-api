@@ -61,7 +61,7 @@ Creates an object of an <a href="https://docs.microsoft.com/windows/desktop/api/
 
 ### -param NamespaceType [in]
 
-The type of the new namespace object. This can be one of the namespace types listed by the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0003">WDSTRANSPORT_NAMESPACE_TYPE</a> enumeration. 
+The type of the new namespace object. This can be one of the namespace types listed by the <a href="https://docs.microsoft.com/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_namespace_type">WDSTRANSPORT_NAMESPACE_TYPE</a> enumeration. 
 
 
 ### -param bszNamespaceName [in]
@@ -106,7 +106,7 @@ Standard HRESULT error values are used: S_OK for success; others for failure.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0003">WDSTRANSPORT_NAMESPACE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_namespace_type">WDSTRANSPORT_NAMESPACE_TYPE</a>
  
 
  

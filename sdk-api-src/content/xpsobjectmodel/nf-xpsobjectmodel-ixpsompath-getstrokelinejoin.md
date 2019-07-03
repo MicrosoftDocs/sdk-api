@@ -61,7 +61,7 @@ Gets the style for joining stroke lines.
 
 ### -param strokeLineJoin [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0007">XPS_LINE_JOIN</a> value of the line join style of the stroke.
+The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_join">XPS_LINE_JOIN</a> value of the line join style of the stroke.
 
 
 ## -returns
@@ -107,7 +107,7 @@ The method succeeded.
 
 
 
-For more information about the line join styles, see <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0007">XPS_LINE_JOIN</a>.
+For more information about the line join styles, see <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_join">XPS_LINE_JOIN</a>.
 
 
 
@@ -129,7 +129,7 @@ For more information about the line join styles, see <a href="https://docs.micro
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0007">XPS_LINE_JOIN</a>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_join">XPS_LINE_JOIN</a>
  
 
  

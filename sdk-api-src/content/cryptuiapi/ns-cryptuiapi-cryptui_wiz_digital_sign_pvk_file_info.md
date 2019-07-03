@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The  <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-_cryptui_wiz_digital_sign_info">CRYPTUI_WIZ_DIGITAL_SIGN_INFO</a> structure to contain information about the PVK file used by the digital signature wizard.
+The <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO</b> structure is used with the <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_info">CRYPTUI_WIZ_DIGITAL_SIGN_INFO</a> structure to contain information about the PVK file used by the digital signature wizard.
 
 
 ## -struct-fields
@@ -86,7 +86,7 @@ Contains the provider type identifier. For more information about the provider t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-_cryptui_wiz_digital_sign_info">CRYPTUI_WIZ_DIGITAL_SIGN_INFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_info">CRYPTUI_WIZ_DIGITAL_SIGN_INFO</a>
 
 
 

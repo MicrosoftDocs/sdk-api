@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_CERTIFICATE_AUTHENTICATION2</b> structure is used to specify various parameters for authentication with certificates.
-<div class="alert"><b>Note</b>  <b>IKEEXT_CERTIFICATE_AUTHENTICATION2</b> is the specific implementation of IKEEXT_CERTIFICATE_AUTHENTICATION used in Windows 8. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_authentication1_">IKEEXT_CERTIFICATE_AUTHENTICATION1</a> is available. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_authentication0_">IKEEXT_CERTIFICATE_AUTHENTICATION0</a>  is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IKEEXT_CERTIFICATE_AUTHENTICATION2</b> is the specific implementation of IKEEXT_CERTIFICATE_AUTHENTICATION used in Windows 8. See <a href="https://docs.microsoft.com/windows/win32/api/iketypes/ns-iketypes-ikeext_certificate_authentication0">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_authentication1_">IKEEXT_CERTIFICATE_AUTHENTICATION1</a> is available. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_authentication0_">IKEEXT_CERTIFICATE_AUTHENTICATION0</a>  is available.</div><div> </div>
 
 ## -struct-fields
 

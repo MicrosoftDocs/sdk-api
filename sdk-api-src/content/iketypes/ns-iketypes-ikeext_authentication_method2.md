@@ -61,21 +61,21 @@ The <b>IKEEXT_AUTHENTICATION_METHOD2</b> structure specifies various parameters 
 
 ### -field authenticationMethodType
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_authentication_method_type_">IKEEXT_AUTHENTICATION_METHOD_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/iketypes/ne-iketypes-ikeext_authentication_method_type">IKEEXT_AUTHENTICATION_METHOD_TYPE</a></b>
 
 Type of authentication method.
 
 
 ### -field presharedKeyAuthentication
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_preshared_key_authentication1__">IKEEXT_PRESHARED_KEY_AUTHENTICATION1</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/iketypes/ns-iketypes-ikeext_preshared_key_authentication1">IKEEXT_PRESHARED_KEY_AUTHENTICATION1</a></b>
 
  Available when <b>authenticationMethodType</b> is <b>IKEEXT_PRESHARED_KEY</b>.
 
 
 ### -field certificateAuthentication
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_authentication2_">IKEEXT_CERTIFICATE_AUTHENTICATION2</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/iketypes/ns-iketypes-ikeext_certificate_authentication2">IKEEXT_CERTIFICATE_AUTHENTICATION2</a></b>
 
  Available when <b>authenticationMethodType</b> is <b>IKEEXT_CERTIFICATE</b>, <b>IKEEXT_CERTIFICATE_ECDSA_P256</b>, or <b>IKEEXT_CERTIFICATE_ECDSA_P384</b>.
 
@@ -103,7 +103,7 @@ Available when <b>authenticationMethodType</b> is <b>IKEEXT_NTLM_V2</b>.
 
 ### -field sslAuthentication
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_authentication2_">IKEEXT_CERTIFICATE_AUTHENTICATION2</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/iketypes/ns-iketypes-ikeext_certificate_authentication2">IKEEXT_CERTIFICATE_AUTHENTICATION2</a></b>
 
 Available when <b>authenticationMethodType</b> is <b>IKEEXT_SSL</b>, <b>IKEEXT_SSL_ECDSA_P256</b>, or <b>IKEEXT_SSL_ECDSA_P384</b>.
 

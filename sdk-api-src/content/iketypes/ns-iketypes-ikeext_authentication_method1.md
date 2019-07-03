@@ -63,21 +63,21 @@ The <b>IKEEXT_AUTHENTICATION_METHOD1</b> structure specifies various parameters 
 
 ### -field authenticationMethodType
 
-Type of authentication method specified by <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_authentication_method_type_">IKEEXT_AUTHENTICATION_METHOD_TYPE</a>.
+Type of authentication method specified by <a href="https://docs.microsoft.com/windows/win32/api/iketypes/ne-iketypes-ikeext_authentication_method_type">IKEEXT_AUTHENTICATION_METHOD_TYPE</a>.
 
 
 ### -field presharedKeyAuthentication
 
 Available when <b>authenticationMethodType</b> is <b>IKEEXT_PRESHARED_KEY</b>.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_preshared_key_authentication1__">IKEEXT_PRESHARED_KEY_AUTHENTICATION1</a> for more information.
+See <a href="https://docs.microsoft.com/windows/win32/api/iketypes/ns-iketypes-ikeext_preshared_key_authentication1">IKEEXT_PRESHARED_KEY_AUTHENTICATION1</a> for more information.
 
 
 ### -field certificateAuthentication
 
 Available when <b>authenticationMethodType</b> is <b>IKEEXT_CERTIFICATE</b>, <b>IKEEXT_CERTIFICATE_ECDSA_P256</b>, or <b>IKEEXT_CERTIFICATE_ECDSA_P384</b>.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_authentication1_">IKEEXT_CERTIFICATE_AUTHENTICATION1</a> for more information.
+See <a href="https://docs.microsoft.com/windows/win32/api/iketypes/ns-iketypes-ikeext_certificate_authentication1">IKEEXT_CERTIFICATE_AUTHENTICATION1</a> for more information.
 
 
 ### -field kerberosAuthentication
@@ -98,7 +98,7 @@ See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes
 
 Available when <b>authenticationMethodType</b> is <b>IKEEXT_SSL</b>, <b>IKEEXT_SSL_ECDSA_P256</b>, or <b>IKEEXT_SSL_ECDSA_P384</b>.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_authentication1_">IKEEXT_CERTIFICATE_AUTHENTICATION1</a> for more information.
+See <a href="https://docs.microsoft.com/windows/win32/api/iketypes/ns-iketypes-ikeext_certificate_authentication1">IKEEXT_CERTIFICATE_AUTHENTICATION1</a> for more information.
 
 
 ### -field cgaAuthentication

@@ -113,7 +113,7 @@ The <b>Values</b> member refers to an array of offsets to Unicode character stri
 </dl>
 </td>
 <td width="60%">
-The <b>Values</b> member refers to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_claim_security_attribute_octet_string_value">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> values.
+The <b>Values</b> member refers to an array of <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-claim_security_attribute_octet_string_value">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> values.
 
 </td>
 </tr>
@@ -237,5 +237,5 @@ Pointer to an array of <b>ValueCount</b> members where each member is an offset 
 
 ### -field Values.pOctetString
 
-Pointer to an array of <b>ValueCount</b> members where each member is an offset from the beginning of the structure to a <b>LONG64</b> octet string of type <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_claim_security_attribute_octet_string_value">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a>.
+Pointer to an array of <b>ValueCount</b> members where each member is an offset from the beginning of the structure to a <b>LONG64</b> octet string of type <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-claim_security_attribute_octet_string_value">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a>.
 

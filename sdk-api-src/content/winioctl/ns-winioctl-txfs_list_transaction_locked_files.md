@@ -81,7 +81,7 @@ The length of the buffer required to hold the complete list of files at the time
 
 ### -field Offset
 
-The offset from the beginning of this structure to the beginning of the first <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_list_transaction_locked_files_entry">TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY</a> structure.
+The offset from the beginning of this structure to the beginning of the first <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-txfs_list_transaction_locked_files_entry">TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY</a> structure.
 
 
 ## -see-also
@@ -93,7 +93,7 @@ The offset from the beginning of this structure to the beginning of the first <a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_list_transaction_locked_files_entry">TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-txfs_list_transaction_locked_files_entry">TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY</a>
  
 
  

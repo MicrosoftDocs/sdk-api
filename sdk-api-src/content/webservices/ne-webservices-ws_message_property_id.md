@@ -541,7 +541,7 @@ This property is available in all message states except
 
 This property is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a> to retrieve the SAML assertion
                     representing the sender from a received message, if the
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_saml_message_security_binding">WS_SAML_MESSAGE_SECURITY_BINDING</a> is used on the server side,
+                    <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_saml_message_security_binding">WS_SAML_MESSAGE_SECURITY_BINDING</a> is used on the server side,
                     or if a custom channel has set the value.
                 
 

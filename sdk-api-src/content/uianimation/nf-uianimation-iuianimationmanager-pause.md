@@ -96,7 +96,7 @@ When an animation manager is paused, its status is set to <b>UI_ANIMATION_MANAGE
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0000_0002">UI_ANIMATION_MANAGER_STATUS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_manager_status">UI_ANIMATION_MANAGER_STATUS</a>
  
 
  

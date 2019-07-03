@@ -75,9 +75,9 @@ A pointer to a fully qualified PIDL that specifies the absolute location of a fo
 
 ### -param ppfti [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-_persist_folder_target_info">PERSIST_FOLDER_TARGET_INFO</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ns-shobjidl_core-persist_folder_target_info">PERSIST_FOLDER_TARGET_INFO</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-_persist_folder_target_info">PERSIST_FOLDER_TARGET_INFO</a> structure that specifies the location of the target folder and its attributes. 
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ns-shobjidl_core-persist_folder_target_info">PERSIST_FOLDER_TARGET_INFO</a> structure that specifies the location of the target folder and its attributes. 
 
                     
 

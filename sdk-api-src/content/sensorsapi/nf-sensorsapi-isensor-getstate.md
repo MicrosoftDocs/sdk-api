@@ -61,7 +61,7 @@ Retrieves the current operational state of the sensor.
 
 ### -param pState [out]
 
-Address of a <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/ne-sensorsapi-__midl___midl_itf_sensorsapi_0000_0000_0001">SensorState</a> variable that receives the current state.
+Address of a <a href="https://docs.microsoft.com/windows/win32/api/sensorsapi/ne-sensorsapi-sensorstate">SensorState</a> variable that receives the current state.
 
 
 ## -returns

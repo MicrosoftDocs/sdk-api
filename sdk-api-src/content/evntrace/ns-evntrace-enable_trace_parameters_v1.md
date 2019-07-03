@@ -105,7 +105,7 @@ If you set <b>EVENT_ENABLE_PROPERTY_STACK_TRACE</b>, ETW will drop the event if 
 
 If the stack is longer than the maximum number of frames (192), the frames will be cut from the bottom of the stack.
 
-For consumers,  the events will include the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_extended_item_stack_trace32">EVENT_EXTENDED_ITEM_STACK_TRACE32</a> or <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_extended_item_stack_trace64">EVENT_EXTENDED_ITEM_STACK_TRACE64</a> extended item. Note that on 64-bit computers, 32-bit processes will receive 64-bit stack traces.
+For consumers,  the events will include the <a href="https://docs.microsoft.com/windows/win32/api/evntcons/ns-evntcons-event_extended_item_stack_trace64">EVENT_EXTENDED_ITEM_STACK_TRACE32</a> or <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_extended_item_stack_trace64">EVENT_EXTENDED_ITEM_STACK_TRACE64</a> extended item. Note that on 64-bit computers, 32-bit processes will receive 64-bit stack traces.
 
 </td>
 </tr>

@@ -68,7 +68,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param entries [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_subscription0_">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>***</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_subscription0">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>***</b>
 
 The current IPsec SA notification subscriptions. 
 
@@ -147,7 +147,7 @@ The returned array (but not the individual entries in the array) must be freed t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_subscription0_">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_subscription0">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>
  
 
  

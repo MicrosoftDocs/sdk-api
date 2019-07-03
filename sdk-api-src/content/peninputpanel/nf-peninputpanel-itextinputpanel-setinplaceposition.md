@@ -78,7 +78,7 @@ The vertical y-coordinate for the top left corner of the Input Panel, with no co
 
 ### -param position
 
-The direction the post insertion correction comb should pop up in, as defined by the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0005">CorrectionPosition</a> enumeration.
+The direction the post insertion correction comb should pop up in, as defined by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-correctionposition">CorrectionPosition</a> enumeration.
 
 
 ## -returns

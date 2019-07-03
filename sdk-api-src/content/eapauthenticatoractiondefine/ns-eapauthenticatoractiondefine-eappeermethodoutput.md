@@ -62,7 +62,7 @@ Contains the action information returned by an EAP peer method.
 ### -field action
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-tageappeermethodresponseaction">EapPeerMethodResponseAction</a> enumeration value that indicates the response EAPHost should take as a result of the EAP peer method operation.
+<a href="https://docs.microsoft.com/windows/win32/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-eappeermethodresponseaction">EapPeerMethodResponseAction</a> enumeration value that indicates the response EAPHost should take as a result of the EAP peer method operation.
 
 
 ### -field fAllowNotifications

@@ -61,7 +61,7 @@ Sets the style of the stroke's line cap at the  start of the stroke line.
 
 ### -param strokeStartLineCap [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0005">XPS_LINE_CAP</a> value to be set.
+The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a> value to be set.
 
 
 ## -returns
@@ -93,7 +93,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-<i>strokeStartLineCap</i> is not a valid <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0005">XPS_LINE_CAP</a> value.
+<i>strokeStartLineCap</i> is not a valid <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a> value.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ The method succeeded.
 
 
 
-For more information about the line join styles, see <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0005">XPS_LINE_CAP</a>.
+For more information about the line join styles, see <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a>.
 
 
 

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0002">XPS_SIGN_POLICY</a> value that represents the signing policy.
+Sets the <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> value that represents the signing policy.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Sets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsigna
 
 ### -param policy [in]
 
-The logical <b>OR</b> of  the <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0002">XPS_SIGN_POLICY</a> values to be set as the signing policy.
+The logical <b>OR</b> of  the <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> values to be set as the signing policy.
 
 
 ## -returns
@@ -77,7 +77,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-If an <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0002">XPS_SIGN_POLICY</a> value is set and it does not have a  corresponding part in the package being signed, only the  relationship type will be signed.
+If an <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> value is set and it does not have a  corresponding part in the package being signed, only the  relationship type will be signed.
 
 
 
@@ -99,7 +99,7 @@ If an <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignatur
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0002">XPS_SIGN_POLICY</a>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a>
  
 
  

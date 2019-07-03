@@ -61,9 +61,9 @@ Provides the location and attributes of a folder shortcut's target folder.
 
 ### -param ppfti [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-_persist_folder_target_info">PERSIST_FOLDER_TARGET_INFO</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ns-shobjidl_core-persist_folder_target_info">PERSIST_FOLDER_TARGET_INFO</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-_persist_folder_target_info">PERSIST_FOLDER_TARGET_INFO</a> structure used to return the target folder's location and attributes.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ns-shobjidl_core-persist_folder_target_info">PERSIST_FOLDER_TARGET_INFO</a> structure used to return the target folder's location and attributes.
         
 
 
@@ -82,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-_persist_folder_target_info">PERSIST_FOLDER_TARGET_INFO</a> structure might not be initialized by the caller. <b>GetFolderTargetInfo</b> must assign values to all members of the structure before returning it to the caller.
+The <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ns-shobjidl_core-persist_folder_target_info">PERSIST_FOLDER_TARGET_INFO</a> structure might not be initialized by the caller. <b>GetFolderTargetInfo</b> must assign values to all members of the structure before returning it to the caller.
       
 
 

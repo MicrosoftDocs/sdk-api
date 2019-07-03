@@ -77,7 +77,7 @@ Length of the shader bytecode buffer.
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob">ID3D10Blob</a>**</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob">ID3D10Blob Interface</a> used to return debug info.  For information about the layout of this buffer, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1shader/ns-d3d10_1shader-_d3d10_shader_debug_info">D3D10_SHADER_DEBUG_INFO</a>.
+Pointer to an <a href="https://docs.microsoft.com/windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_info">ID3D10Blob Interface</a> used to return debug info.  For information about the layout of this buffer, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1shader/ns-d3d10_1shader-_d3d10_shader_debug_info">D3D10_SHADER_DEBUG_INFO</a>.
 
 
 ## -returns

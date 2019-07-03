@@ -92,7 +92,7 @@ The data for the command. The meaning of the data depends on the command. For mo
 
 
 
-The layout of this  structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_amcoppcommand">AMCOPPCommand</a> structure used in Certified Output Protection Protocol (COPP).
+The layout of this  structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-amcoppcommand">AMCOPPCommand</a> structure used in Certified Output Protection Protocol (COPP).
       
 
 Initialize this structure as follows.

@@ -81,7 +81,7 @@ Identifies the session that changed.
 
 ### -param sessionState [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/sessdirpublictypes/ne-sessdirpublictypes-_tssession_state">TSSESSION_STATE</a> value specifying he type of change that occurred.
+A <a href="https://docs.microsoft.com/windows/win32/api/sessdirpublictypes/ne-sessdirpublictypes-tssession_state">TSSESSION_STATE</a> value specifying he type of change that occurred.
 
 
 ## -returns

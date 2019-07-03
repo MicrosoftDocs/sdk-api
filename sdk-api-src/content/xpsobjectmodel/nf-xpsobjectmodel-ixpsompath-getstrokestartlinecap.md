@@ -61,7 +61,7 @@ Gets the style of the  line cap at the start of the stroke line.
 
 ### -param strokeStartLineCap [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0005">XPS_LINE_CAP</a> value that indicates the style of the  line cap at the start of the stroke line.
+The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a> value that indicates the style of the  line cap at the start of the stroke line.
 
 
 ## -returns
@@ -107,7 +107,7 @@ The method succeeded.
 
 
 
-For more information about the shapes of line caps, see <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0005">XPS_LINE_CAP</a>.
+For more information about the shapes of line caps, see <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a>.
 
 
 
@@ -129,7 +129,7 @@ For more information about the shapes of line caps, see <a href="https://docs.mi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0005">XPS_LINE_CAP</a>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a>
  
 
  

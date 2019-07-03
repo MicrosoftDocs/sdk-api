@@ -239,7 +239,7 @@ A pointer to one or more <a href="https://docs.microsoft.com/windows/desktop/api
 
 ### -field Values.pOctetString
 
-A pointer to one or more <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_security_attribute_octet_string_value">AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> structures.
+A pointer to one or more <a href="https://docs.microsoft.com/windows/win32/api/authz/ns-authz-authz_security_attribute_octet_string_value">AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> structures.
 
 
 ## -see-also

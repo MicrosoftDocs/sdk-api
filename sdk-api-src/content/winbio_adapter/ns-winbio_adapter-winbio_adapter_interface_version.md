@@ -77,13 +77,13 @@ This structure is used by the following structures:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_engine_interface">WINBIO_ENGINE_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_engine_interface">WINBIO_ENGINE_INTERFACE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_sensor_interface">WINBIO_SENSOR_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_sensor_interface">WINBIO_SENSOR_INTERFACE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_storage_interface">WINBIO_STORAGE_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_interface">WINBIO_STORAGE_INTERFACE</a>
 </li>
 </ul>
 

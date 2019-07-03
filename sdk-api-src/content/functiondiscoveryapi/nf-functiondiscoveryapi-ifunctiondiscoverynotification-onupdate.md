@@ -63,7 +63,7 @@ Indicates that a function instance has been added, removed, or changed. This met
 
 ### -param enumQueryUpdateAction [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/ne-functiondiscoveryapi-tagqueryupdateaction">QueryUpdateAction</a> value that specifies the type of action Function Discovery is performing on the specified function instance.
+A <a href="https://docs.microsoft.com/windows/win32/api/functiondiscoveryapi/ne-functiondiscoveryapi-queryupdateaction">QueryUpdateAction</a> value that specifies the type of action Function Discovery is performing on the specified function instance.
 
 
 ### -param fdqcQueryContext [in]

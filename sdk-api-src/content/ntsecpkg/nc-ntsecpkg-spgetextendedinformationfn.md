@@ -62,7 +62,7 @@ The <b>SpGetExtendedInformation</b> function provides extended information about
 ### -param Class [in]
 
 A value from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ne-ntsecpkg-_secpkg_extended_information_class">SECPKG_EXTENDED_INFORMATION_CLASS</a> enumeration indicating the type of extended information.
+<a href="https://docs.microsoft.com/windows/win32/api/ntsecpkg/ne-ntsecpkg-secpkg_extended_information_class">SECPKG_EXTENDED_INFORMATION_CLASS</a> enumeration indicating the type of extended information.
 
 
 ### -param *ppInformation [out]
@@ -107,7 +107,7 @@ A pointer to the <b>SpGetExtendedInformation</b> function is available in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ne-ntsecpkg-_secpkg_extended_information_class">SECPKG_EXTENDED_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntsecpkg/ne-ntsecpkg-secpkg_extended_information_class">SECPKG_EXTENDED_INFORMATION_CLASS</a>
 
 
 

@@ -90,7 +90,7 @@ The data for the status request. The meaning of the data depends on the request.
 
 
 
-The layout of this structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_amcoppstatusinput">AMCOPPStatusInput</a> structure used in COPP.
+The layout of this structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-amcoppstatusinput">AMCOPPStatusInput</a> structure used in COPP.
 
 
 

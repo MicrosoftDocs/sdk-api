@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Calls the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-updatealldesktopsubscriptions">UpdateAllDesktopSubscriptions</a> function to update desktop subscriptions.
+Calls the <a href="https://docs.microsoft.com/windows/win32/api/shlobj/nf-shlobj-iadesktopp2-updatealldesktopsubscriptions">UpdateAllDesktopSubscriptions</a> function to update desktop subscriptions.
 
 
 ## -parameters

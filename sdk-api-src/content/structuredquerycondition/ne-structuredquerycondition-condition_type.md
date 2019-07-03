@@ -80,7 +80,7 @@ Indicates a "NOT" comparison of subterms.
 
 ### -field CT_LEAF_CONDITION
 
-Indicates that the node is a comparison between a property and a constant value using a <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-tagcondition_operation">CONDITION_OPERATION</a>.
+Indicates that the node is a comparison between a property and a constant value using a <a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>.
 
 
 ## -remarks
@@ -103,7 +103,7 @@ The StructuredQuerySample code sample, available on <a href="http://go.microsoft
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-tagcondition_operation">CONDITION_OPERATION</a>
+<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 

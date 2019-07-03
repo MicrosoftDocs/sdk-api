@@ -69,7 +69,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webserv
 
 ### -field WS_XML_CANONICALIZATION_PROPERTY_INCLUSIVE_PREFIXES
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_canonicalization_inclusive_prefixes">WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES</a> structure that contains the set of prefixes to be treated as inclusive prefixes when using
+A <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_canonicalization_inclusive_prefixes">WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES</a> structure that contains the set of prefixes to be treated as inclusive prefixes when using
           the exclusive canonicalization algorithm.  If this is not specified,
           no prefix is treated as an inclusive prefix.
         

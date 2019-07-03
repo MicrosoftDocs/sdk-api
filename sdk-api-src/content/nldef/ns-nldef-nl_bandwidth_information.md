@@ -102,7 +102,7 @@ The  <b>NL_BANDWIDTH_INFORMATION</b> structure is defined in the <i>Nldef.h</i> 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ip_network_connection_bandwidth_estimates">MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES</a>
+<a href="https://docs.microsoft.com/windows/win32/api/netioapi/ns-netioapi-mib_ip_network_connection_bandwidth_estimates">MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES</a>
 
 
 

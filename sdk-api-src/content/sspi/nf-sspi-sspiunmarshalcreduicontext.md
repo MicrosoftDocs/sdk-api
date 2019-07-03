@@ -63,7 +63,7 @@ Deserializes credential information obtained by a credential provider during  a 
 
 ### -param MarshaledCredUIContext [in]
 
-The serialized credential information obtained as the <b>rgbSerialization</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ns-credentialprovider-_credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a> structure retrieved from a call to the <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-setserialization">ICredentialProvider::SetSerialization</a> method.
+The serialized credential information obtained as the <b>rgbSerialization</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a> structure retrieved from a call to the <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-setserialization">ICredentialProvider::SetSerialization</a> method.
 
 
 ### -param MarshaledCredUIContextLength [in]

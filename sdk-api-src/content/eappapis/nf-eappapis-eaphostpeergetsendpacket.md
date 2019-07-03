@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Is called by the supplicant when the supplicant needs to obtains a packet 
-   from EAPHost to send to the authenticator. <b>EapHostPeerGetSendPacket</b> is called when the supplicant receives the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-tageaphostpeerresponseaction">EapHostPeerResponseAction</a>  enumerator from the server.
+   from EAPHost to send to the authenticator. <b>EapHostPeerGetSendPacket</b> is called when the supplicant receives the <a href="https://docs.microsoft.com/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerresponseaction">EapHostPeerResponseAction</a>  enumerator from the server.
 
 
 ## -parameters

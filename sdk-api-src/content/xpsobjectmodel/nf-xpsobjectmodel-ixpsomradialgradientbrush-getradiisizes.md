@@ -61,7 +61,7 @@ Gets the sizes of the radii that define the ellipse of the radial gradient regio
 
 ### -param radiiSizes [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0018">XPS_SIZE</a> structure that  receives the sizes of the radii.
+The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a> structure that  receives the sizes of the radii.
 
 <table>
 <tr>
@@ -160,7 +160,7 @@ The following illustration shows the parts of a radial gradient. <i>radiiSizes.w
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0018">XPS_SIZE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>
  
 
  

@@ -88,6 +88,6 @@ Type ID for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/
 
 ### -field WS_UNKNOWN_ENDPOINT_IDENTITY_TYPE
 
-Type ID for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_unknown_endpoint_identity">WS_UNKNOWN_ENDPOINT_IDENTITY</a>.
+Type ID for <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_unknown_endpoint_identity">WS_UNKNOWN_ENDPOINT_IDENTITY</a>.
                 
 

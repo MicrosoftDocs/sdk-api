@@ -78,7 +78,7 @@ A buffer that contains the result of the status request. The meaning of the data
 
 
 
-The layout of this structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_amcoppstatusoutput">AMCOPPStatusOutput</a> structure used in Certified Output Protection Protocol (COPP).
+The layout of this structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-amcoppstatusoutput">AMCOPPStatusOutput</a> structure used in Certified Output Protection Protocol (COPP).
 
 
 

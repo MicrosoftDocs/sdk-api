@@ -277,7 +277,7 @@ A pointer to an optional <a href="https://docs.microsoft.com/windows/desktop/api
 
 ### -param pExtraInfo [in, out, optional]
 
-A pointer to an optional <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_get_time_valid_object_extra_info">CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO</a> structure that contains extra information about the cache entry for an object.
+A pointer to an optional <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-crypt_get_time_valid_object_extra_info">CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO</a> structure that contains extra information about the cache entry for an object.
 
 
 ## -returns

@@ -66,7 +66,7 @@ This structure is used by the
 ### -field Class
 
 A value from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ne-ntsecpkg-_secpkg_extended_information_class">SECPKG_EXTENDED_INFORMATION_CLASS</a> enumeration which identifies the information in the structure.
+<a href="https://docs.microsoft.com/windows/win32/api/ntsecpkg/ne-ntsecpkg-secpkg_extended_information_class">SECPKG_EXTENDED_INFORMATION_CLASS</a> enumeration which identifies the information in the structure.
 
 
 ### -field Info

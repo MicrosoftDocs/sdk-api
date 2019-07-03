@@ -116,7 +116,7 @@ A pointer to a null-terminated Unicode string that contains the path and file na
 
 ### -field pSignBlobInfo
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-_cryptui_wiz_digital_sign_blob_info">CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO</a> structure that contains the BLOB to sign. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT_BLOB</b> is specified for the <b>dwSubjectChoice</b> member.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_blob_info">CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO</a> structure that contains the BLOB to sign. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT_BLOB</b> is specified for the <b>dwSubjectChoice</b> member.
 
 
 ### -field dwSigningCertChoice
@@ -146,7 +146,7 @@ The certificate is contained in the <a href="https://docs.microsoft.com/windows/
 </dl>
 </td>
 <td width="60%">
-The certificate is contained in the certificate store contained in the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-_cryptui_wiz_digital_sign_store_info">CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO</a> structure pointed to by the <b>pSigningCertStore</b> member.
+The certificate is contained in the certificate store contained in the <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_store_info">CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO</a> structure pointed to by the <b>pSigningCertStore</b> member.
 
 </td>
 </tr>
@@ -156,7 +156,7 @@ The certificate is contained in the certificate store contained in the <a href="
 </dl>
 </td>
 <td width="60%">
-The certificate is contained in the PVK file contained in the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-_cryptui_wiz_digital_sign_cert_pvk_info">CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO</a> structure pointed to by the <b>pSigningCertPvkInfo</b> member.
+The certificate is contained in the PVK file contained in the <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_cert_pvk_info">CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO</a> structure pointed to by the <b>pSigningCertPvkInfo</b> member.
 
 </td>
 </tr>
@@ -181,12 +181,12 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/
 
 ### -field pSigningCertStore
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-_cryptui_wiz_digital_sign_store_info">CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO</a> structure that contains the certificate to use to sign the entity. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_STORE</b> is specified for the <b>dwSigningCertChoice</b> member.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_store_info">CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO</a> structure that contains the certificate to use to sign the entity. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_STORE</b> is specified for the <b>dwSigningCertChoice</b> member.
 
 
 ### -field pSigningCertPvkInfo
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-_cryptui_wiz_digital_sign_cert_pvk_info">CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO</a> structure that contains the certificate to use to sign the entity. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK</b> is specified for the <b>dwSigningCertChoice</b> member.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_cert_pvk_info">CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO</a> structure that contains the certificate to use to sign the entity. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK</b> is specified for the <b>dwSigningCertChoice</b> member.
 
 
 ### -field pwszTimestampURL
@@ -239,7 +239,7 @@ No additional certificates will be included in the signature.
 
 ### -field pSignExtInfo
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-_cryptui_wiz_digital_sign_extended_info">CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO</a> structure that contains extended information about the signature.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_extended_info">CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO</a> structure that contains extended information about the signature.
 
 
 ## -see-also
