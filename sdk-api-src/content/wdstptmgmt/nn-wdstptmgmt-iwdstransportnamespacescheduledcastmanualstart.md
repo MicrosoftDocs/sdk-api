@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-An administrator must start transmission on an object of an <b>IWdsTransportNamespaceScheduledCastManualStart</b> interface.  Applications can continue to join sessions of the namespace until the administrator starts transmission. This type of namespace is represented by the <b>WdsTptNamespaceTypeScheduledCastManualStart</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0003">WDSTRANSPORT_NAMESPACE_TYPE</a> enumeration.
+An administrator must start transmission on an object of an <b>IWdsTransportNamespaceScheduledCastManualStart</b> interface.  Applications can continue to join sessions of the namespace until the administrator starts transmission. This type of namespace is represented by the <b>WdsTptNamespaceTypeScheduledCastManualStart</b> value of the <a href="https://docs.microsoft.com/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_namespace_type">WDSTRANSPORT_NAMESPACE_TYPE</a> enumeration.
 
 
 ## -see-also

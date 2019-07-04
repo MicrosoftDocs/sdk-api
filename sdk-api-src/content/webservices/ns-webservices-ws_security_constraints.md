@@ -71,11 +71,11 @@ An array of security property constraints which override the default
 
 If a security property constraint is not specified for a given property,
                     then a default constraint value will be used.
-                    See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_property_constraint">WS_SECURITY_PROPERTY_CONSTRAINT</a> for the
+                    See <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_security_property_constraint">WS_SECURITY_PROPERTY_CONSTRAINT</a> for the
                     supported set of properties and their default values.
                 
 
-Note that the defaults constraints for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_property_constraint">WS_SECURITY_PROPERTY_CONSTRAINT</a> 
+Note that the defaults constraints for <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_security_property_constraint">WS_SECURITY_PROPERTY_CONSTRAINT</a> 
                     are the same as the defaults for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_property">WS_SECURITY_PROPERTY</a>.
                 
 

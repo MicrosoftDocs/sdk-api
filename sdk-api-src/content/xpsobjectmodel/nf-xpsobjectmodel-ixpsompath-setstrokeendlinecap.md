@@ -61,7 +61,7 @@ Sets the style of the stroke line's end cap.
 
 ### -param strokeEndLineCap [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0005">XPS_LINE_CAP</a> value to be  set.
+The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a> value to be  set.
 
 
 ## -returns
@@ -93,7 +93,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-<i>strokeEndLineCap</i> is not a valid <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0005">XPS_LINE_CAP</a> value.
+<i>strokeEndLineCap</i> is not a valid <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a> value.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ The method succeeded.
 
 
 
-For more information about dash cap styles, see <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0005">XPS_LINE_CAP</a>.
+For more information about dash cap styles, see <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a>.
 
 
 

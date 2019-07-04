@@ -60,7 +60,7 @@ ms.custom: 19H1
 
 ### -param lcode [in]
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ne-textstor-__midl___midl_itf_textstor_0000_0000_0002">TsLayoutCode</a> value that defines the type of change.
+Contains a <a href="https://docs.microsoft.com/windows/win32/api/textstor/ne-textstor-tslayoutcode">TsLayoutCode</a> value that defines the type of change.
 
 
 ### -param vcView [in]

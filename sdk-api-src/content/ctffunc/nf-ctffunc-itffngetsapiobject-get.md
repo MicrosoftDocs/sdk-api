@@ -60,7 +60,7 @@ ms.custom: 19H1
 
 ### -param sObj [in]
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/ne-ctffunc-__midl___midl_itf_ctffunc_0000_0011_0001">TfSapiObject</a> value that specifies the SAPI object to obtain.
+Contains a <a href="https://docs.microsoft.com/windows/win32/api/ctffunc/ne-ctffunc-tfsapiobject">TfSapiObject</a> value that specifies the SAPI object to obtain.
 
 
 ### -param ppunk [out]

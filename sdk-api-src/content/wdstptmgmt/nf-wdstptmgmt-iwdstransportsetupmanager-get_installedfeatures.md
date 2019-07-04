@@ -70,7 +70,7 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0001">WDSTRANSPORT_FEATURE_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_feature_flags">WDSTRANSPORT_FEATURE_FLAGS</a>
  
 
  

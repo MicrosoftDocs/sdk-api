@@ -84,7 +84,7 @@ If a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webs
 
 ### -field WS_SECURITY_CONTEXT_PROPERTY_SAML_ASSERTION
 
-If a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_saml_message_security_binding">WS_SAML_MESSAGE_SECURITY_BINDING</a> is used as bootstrap security, this property
+If a <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_saml_message_security_binding">WS_SAML_MESSAGE_SECURITY_BINDING</a> is used as bootstrap security, this property
           is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> that represents the SAML assertion that was used during the establishment of the security context.
         
 

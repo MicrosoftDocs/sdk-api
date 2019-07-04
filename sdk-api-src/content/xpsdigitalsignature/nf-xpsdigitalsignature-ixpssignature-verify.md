@@ -69,7 +69,7 @@ If the signature is not incomplete or incompliant, this  certificate will be use
 
 ### -param sigStatus [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0001">XPS_SIGNATURE_STATUS</a> value that describes the results of the verification.
+The <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_signature_status">XPS_SIGNATURE_STATUS</a> value that describes the results of the verification.
 
 
 ## -returns
@@ -130,7 +130,7 @@ This method detects the signature status in the order that is specified in secti
     The sequence of detection is as follows: incompliant, incomplete, broken, questionable, and, finally, valid.
     This means that  if, for example,  a signature is found to be incompliant, no digest will be calculated  if the signature is also broken.
 
-For more information on the different types of signature statuses that can be detected by this method, see  <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0001">XPS_SIGNATURE_STATUS</a>.
+For more information on the different types of signature statuses that can be detected by this method, see  <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_signature_status">XPS_SIGNATURE_STATUS</a>.
 
 
 
@@ -168,7 +168,7 @@ For more information on the different types of signature statuses that can be de
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0001">XPS_SIGNATURE_STATUS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_signature_status">XPS_SIGNATURE_STATUS</a>
  
 
  

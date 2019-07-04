@@ -68,12 +68,12 @@ Specifies the target rectangle, which is the area within the destination surface
 
 ### -field DXVAHD_BLT_STATE_BACKGROUND_COLOR
 
-Specifies the background color. The state data is a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_blt_state_background_color_data">DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA</a> structure.
+Specifies the background color. The state data is a <a href="https://docs.microsoft.com/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_blt_state_background_color_data">DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA</a> structure.
 
 
 ### -field DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE
 
-Specifies the output color space.  The state data is a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_blt_state_output_color_space_data">DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA</a> structure.
+Specifies the output color space.  The state data is a <a href="https://docs.microsoft.com/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_blt_state_output_color_space_data">DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA</a> structure.
 
 
 ### -field DXVAHD_BLT_STATE_ALPHA_FILL

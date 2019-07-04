@@ -126,7 +126,7 @@ This method sets a property value or replaces or removes an existing value.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/ns-audioenginebaseapo-__midl___midl_itf_audioenginebaseapo_0000_0007_0001">AudioFXExtensionParams</a>
+<a href="https://docs.microsoft.com/windows/win32/api/audioenginebaseapo/ns-audioenginebaseapo-audiofxextensionparams">AudioFXExtensionParams</a>
  
 
  

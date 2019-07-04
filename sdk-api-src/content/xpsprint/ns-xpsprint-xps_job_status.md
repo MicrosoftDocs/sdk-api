@@ -83,7 +83,7 @@ A running total of the number of pages that have been processed by the print job
 
 ### -field completion
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/ne-xpsprint-__midl___midl_itf_xpsprint_0000_0000_0001">XPS_JOB_COMPLETION</a> value that indicates the completion status of the job.  This value will change when the event passed in the <b>completionEvent</b> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-startxpsprintjob">StartXpsPrintJob</a> is signaled at the end of a job. If the print job fails, this value will be <b>XPS_JOB_FAILED</b>,  with <i>jobStatus</i> containing the error code of the failure.
+The <a href="https://docs.microsoft.com/windows/win32/api/xpsprint/ne-xpsprint-xps_job_completion">XPS_JOB_COMPLETION</a> value that indicates the completion status of the job.  This value will change when the event passed in the <b>completionEvent</b> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-startxpsprintjob">StartXpsPrintJob</a> is signaled at the end of a job. If the print job fails, this value will be <b>XPS_JOB_FAILED</b>,  with <i>jobStatus</i> containing the error code of the failure.
 
 
 ### -field jobStatus
@@ -108,7 +108,7 @@ The error state of the job.  If the job finishes without an error, this value wi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/ne-xpsprint-__midl___midl_itf_xpsprint_0000_0000_0001">XPS_JOB_COMPLETION</a>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsprint/ne-xpsprint-xps_job_completion">XPS_JOB_COMPLETION</a>
  
 
  

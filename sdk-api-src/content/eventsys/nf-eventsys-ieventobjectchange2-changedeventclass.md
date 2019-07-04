@@ -61,7 +61,7 @@ Indicates that an event class object has been added, modified, or deleted.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/ns-eventsys-__midl___midl_itf_eventsys_0000_0009_0001">COMEVENTSYSCHANGEINFO</a> structure. 
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/eventsys/ns-eventsys-comeventsyschangeinfo">COMEVENTSYSCHANGEINFO</a> structure. 
 
 
 ## -returns

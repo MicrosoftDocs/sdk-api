@@ -61,7 +61,7 @@ Gets the information for a given restriction.
 
 ### -param RestrictionFacet [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/ne-wcmconfig-__midl___midl_itf_wcmconfig_0000_0000_0005">WcmRestrictionFacets</a> value that indicates the type of restriction facet.
+A <a href="https://docs.microsoft.com/windows/win32/api/wcmconfig/ne-wcmconfig-wcmrestrictionfacets">WcmRestrictionFacets</a> value that indicates the type of restriction facet.
 
 
 ### -param FacetData [out]

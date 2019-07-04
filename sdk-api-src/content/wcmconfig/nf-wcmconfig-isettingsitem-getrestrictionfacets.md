@@ -61,7 +61,7 @@ Gets the restrictions defined for this item.
 
 ### -param RestrictionFacets [out]
 
-A bitmask of  the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/ne-wcmconfig-__midl___midl_itf_wcmconfig_0000_0000_0005">WcmRestrictionFacets</a> values that are defined for this item.
+A bitmask of  the <a href="https://docs.microsoft.com/windows/win32/api/wcmconfig/ne-wcmconfig-wcmrestrictionfacets">WcmRestrictionFacets</a> values that are defined for this item.
 
 
 ## -returns

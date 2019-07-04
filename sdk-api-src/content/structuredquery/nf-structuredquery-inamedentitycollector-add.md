@@ -110,7 +110,7 @@ The name of the entity as a string.
 
 ### -param certainty [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-__midl___midl_itf_structuredquery_0000_0012_0001">NAMED_ENTITY_CERTAINTY</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-named_entity_certainty">NAMED_ENTITY_CERTAINTY</a></b>
 
 One of the following values:
               

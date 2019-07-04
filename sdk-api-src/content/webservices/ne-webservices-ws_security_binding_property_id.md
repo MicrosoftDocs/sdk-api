@@ -89,7 +89,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webserv
 when performing Windows Integrated Authentication.  The default is <b>WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_SPNEGO</b>.
                 
 
-This setting may be specified in the security binding properties of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_tcp_sspi_transport_security_binding">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_namedpipe_sspi_transport_security_binding">WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING</a>.
+This setting may be specified in the security binding properties of <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_namedpipe_sspi_transport_security_binding">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_namedpipe_sspi_transport_security_binding">WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING</a>.
                 
 
 
@@ -102,7 +102,7 @@ discouraged since, without server authentication, a malicious party
 masquerading as the server cannot be detected.
                 
 
-The default is <b>TRUE</b> when used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_tcp_sspi_transport_security_binding">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a> and <b>FALSE</b> when used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_namedpipe_sspi_transport_security_binding">WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING</a>
+The default is <b>TRUE</b> when used with <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_namedpipe_sspi_transport_security_binding">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a> and <b>FALSE</b> when used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_namedpipe_sspi_transport_security_binding">WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING</a>
 
 
 If a protocol that does not do server authentication (such as NTLM) is
@@ -110,7 +110,7 @@ to be allowed, this property must be set to
 <b>FALSE</b>.
 
 This setting may be specified only in the security binding properties
-of a client-side <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_tcp_sspi_transport_security_binding">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_namedpipe_sspi_transport_security_binding">WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING</a>.
+of a client-side <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_namedpipe_sspi_transport_security_binding">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_namedpipe_sspi_transport_security_binding">WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING</a>.
                 
 
 
@@ -123,7 +123,7 @@ is <b>FALSE</b>.
                 
 
 This setting may be specified only in the security binding properties
-of a server-side <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_tcp_sspi_transport_security_binding">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_namedpipe_sspi_transport_security_binding">WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING</a>.
+of a server-side <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_namedpipe_sspi_transport_security_binding">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_namedpipe_sspi_transport_security_binding">WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING</a>.
                 
 
 
@@ -134,7 +134,7 @@ Integrated Authentication to communicate with a service.  The default impersonat
                 
 
 This setting may be specified in the security binding properties
-of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_tcp_sspi_transport_security_binding">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a>,   <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_namedpipe_sspi_transport_security_binding">WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a>.
+of <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_namedpipe_sspi_transport_security_binding">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a>,   <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_namedpipe_sspi_transport_security_binding">WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a>.
                 
 
 
@@ -184,7 +184,7 @@ When the scheme is set to <a href="https://docs.microsoft.com/windows/desktop/ap
                     to succeed, the server must be able to decrypt Kerberos tickets for that SPN.
                 
 
-When the scheme is set to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_6">WS_HTTP_HEADER_AUTH_SCHEME_DIGEST</a> or <b>WS_HTTP_HEADER_AUTH_SCHEME_BASIC</b>, then the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_string_windows_integrated_auth_credential">WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a> must be used as credential type.
+When the scheme is set to <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_string_windows_integrated_auth_credential">WS_HTTP_HEADER_AUTH_SCHEME_DIGEST</a> or <b>WS_HTTP_HEADER_AUTH_SCHEME_BASIC</b>, then the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_string_windows_integrated_auth_credential">WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a> must be used as credential type.
 
 Note: Using "localhost", "127.0.0.1" or similar ways to refer to the local machine as server address may cause failures when using 
                     <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_6">WS_HTTP_HEADER_AUTH_SCHEME_NTLM</a> or <b>WS_HTTP_HEADER_AUTH_SCHEME_NEGOTIATE</b>. It is recommended to use the machine name instead.
@@ -347,5 +347,5 @@ Disabling certificate revocation checking can expose the application to potentia
 
 ### -field WS_SECURITY_BINDING_PROPERTY_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_certificate_validation_callback_context">WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT</a> structure that specifies a callback which will be invoked for each send request operation. This allows an application to validate the certificate associated with the connection of a request.
+A <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_certificate_validation_callback_context">WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT</a> structure that specifies a callback which will be invoked for each send request operation. This allows an application to validate the certificate associated with the connection of a request.
 

@@ -61,7 +61,7 @@ Retrieves the requested data sector to use during write of the stream.
 
 ### -param value [out]
 
-Requested data sector type. For possible values, see <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_format2_raw_cd_data_sector_type">IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE</a>. 
+Requested data sector type. For possible values, see <a href="https://docs.microsoft.com/windows/win32/api/imapi2/ne-imapi2-imapi_format2_raw_cd_data_sector_type">IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE</a>. 
 
 
 ## -returns

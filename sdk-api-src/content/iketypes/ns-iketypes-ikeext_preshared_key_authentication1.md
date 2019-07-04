@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_PRESHARED_KEY_AUTHENTICATION1</b> structure stores information needed for pre-shared key authentication.
-<div class="alert"><b>Note</b>  <b>IKEEXT_PRESHARED_KEY_AUTHENTICATION1</b> is the specific implementation of IKEEXT_PRESHARED_KEY_AUTHENTICATION used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_preshared_key_authentication0__">IKEEXT_PRESHARED_KEY_AUTHENTICATION0</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IKEEXT_PRESHARED_KEY_AUTHENTICATION1</b> is the specific implementation of IKEEXT_PRESHARED_KEY_AUTHENTICATION used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/win32/api/iketypes/ns-iketypes-ikeext_preshared_key_authentication0">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_preshared_key_authentication0__">IKEEXT_PRESHARED_KEY_AUTHENTICATION0</a> is available.</div><div> </div>
 
 ## -struct-fields
 

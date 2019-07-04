@@ -61,10 +61,10 @@ Retrieves statistics for the RemoteFX media redirection bitmap renderer.
 
 ### -param pStatistics [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/ns-tsvirtualchannels-__bitmap_renderer_statistics">BITMAP_RENDERER_STATISTICS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/tsvirtualchannels/ns-tsvirtualchannels-bitmap_renderer_statistics">BITMAP_RENDERER_STATISTICS</a>*</b>
 
 The address of a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/ns-tsvirtualchannels-__bitmap_renderer_statistics">BITMAP_RENDERER_STATISTICS</a> structure 
+      <a href="https://docs.microsoft.com/windows/win32/api/tsvirtualchannels/ns-tsvirtualchannels-bitmap_renderer_statistics">BITMAP_RENDERER_STATISTICS</a> structure 
       that receives the bitmap rendering statistics.
 
 
@@ -84,7 +84,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/ns-tsvirtualchannels-__bitmap_renderer_statistics">BITMAP_RENDERER_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tsvirtualchannels/ns-tsvirtualchannels-bitmap_renderer_statistics">BITMAP_RENDERER_STATISTICS</a>
 
 
 

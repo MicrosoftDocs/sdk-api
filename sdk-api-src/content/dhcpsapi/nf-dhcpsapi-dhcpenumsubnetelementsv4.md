@@ -92,7 +92,7 @@ To retrieve all the subnet client elements for the default user and vendor class
 
 ### -param EnumElementInfo [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_subnet_element_info_array_v4">DHCP_SUBNET_ELEMENT_INFO_ARRAY_V4</a> structure containing an enumerated list of all elements available for the specified subnet. If no elements are available for enumeration, this value will be null.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_info_array_v4">DHCP_SUBNET_ELEMENT_INFO_ARRAY_V4</a> structure containing an enumerated list of all elements available for the specified subnet. If no elements are available for enumeration, this value will be null.
 
 
 ### -param ElementsRead [out]
@@ -171,7 +171,7 @@ The specified IPv4 subnet does not exist on the DHCP server.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_subnet_element_info_array_v4">DHCP_SUBNET_ELEMENT_INFO_ARRAY_V4</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_info_array_v4">DHCP_SUBNET_ELEMENT_INFO_ARRAY_V4</a>
 
 
 

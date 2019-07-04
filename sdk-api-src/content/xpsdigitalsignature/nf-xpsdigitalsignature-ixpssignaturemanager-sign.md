@@ -109,7 +109,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0003">XPS_SIGN_FLAGS</a> value specified that no markup compatibility elements were expected; however, markup compatibility elements were  found.
+The <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_flags">XPS_SIGN_FLAGS</a> value specified that no markup compatibility elements were expected; however, markup compatibility elements were  found.
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ Adding a new signature does not overwrite the original file or stream that was r
     The signature will be added to the in-memory copy of the XPS package until the package is  saved (by calling the <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-savepackagetofile">SavePackageToFile</a> or <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-savepackagetostream">SavePackageToStream</a> method).
 
 If the new signature includes parts that contain markup compatibility elements, the default is for this method to fail with an error  of <b>XPS_E_MARKUP_COMPATIBILITY_ELEMENTS</b>. 
-     To override this behavior, call <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-setflags">IXpsSigningOptions::SetFlags</a>; this will set the <b>XPS_SIGN_FLAGS_IGNORE_MARKUP_COMPATIBILITY</b> flag in the <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssigningoptions">IXpsSigningOptions</a> interface referenced by the <i>signOptions</i> parameter.
+     To override this behavior, call <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_flags">IXpsSigningOptions::SetFlags</a>; this will set the <b>XPS_SIGN_FLAGS_IGNORE_MARKUP_COMPATIBILITY</b> flag in the <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssigningoptions">IXpsSigningOptions</a> interface referenced by the <i>signOptions</i> parameter.
 
 If this method returns an <b>HRESULT</b> value that is not in the list of its return values, the signature manager should be released and recreated.
 

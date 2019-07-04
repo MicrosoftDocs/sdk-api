@@ -71,12 +71,12 @@ A null-terminated string that contains the identifier of the collection to obtai
 
 ### -param ePdResolutionType [in]
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/tspubplugin2com/ne-tspubplugin2com-_tspub_plugin_pd_resolution_type">TSPUB_PLUGIN_PD_RESOLUTION_TYPE</a> enumeration that specifies the type of resolution being requested.
+A value of the <a href="https://docs.microsoft.com/windows/win32/api/tspubplugin2com/ne-tspubplugin2com-tspub_plugin_pd_resolution_type">TSPUB_PLUGIN_PD_RESOLUTION_TYPE</a> enumeration that specifies the type of resolution being requested.
 
 
 ### -param pPdAssignmentType [out]
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/tspubplugin2com/ne-tspubplugin2com-_tspub_plugin_pd_assignment_type">TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE</a> enumeration that specifies what type of assignment was made for the personal desktop.
+A value of the <a href="https://docs.microsoft.com/windows/win32/api/tspubplugin2com/ne-tspubplugin2com-tspub_plugin_pd_assignment_type">TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE</a> enumeration that specifies what type of assignment was made for the personal desktop.
 
 
 ### -param endPointName [out]

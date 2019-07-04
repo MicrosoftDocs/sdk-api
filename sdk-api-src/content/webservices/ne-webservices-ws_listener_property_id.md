@@ -318,7 +318,7 @@ This property only controls the verification of the message once it has been rec
 Used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatelistener">WsCreateListener</a> for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CUSTOM_CHANNEL_BINDING</a>.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_listener_property">WS_LISTENER_PROPERTY</a> structure is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_custom_listener_callbacks">WS_CUSTOM_LISTENER_CALLBACKS</a> structure.
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_custom_listener_callbacks">WS_LISTENER_PROPERTY</a> structure is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_custom_listener_callbacks">WS_CUSTOM_LISTENER_CALLBACKS</a> structure.
 
 This property is used to specify callbacks that
                     define the implementation of a custom listener.
@@ -373,7 +373,7 @@ This property can be used to obtain the underlying listener
 Used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatelistener">WsCreateListener</a> for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_listener_property">WS_LISTENER_PROPERTY</a> structure is a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_disallowed_user_agent_substrings">WS_DISALLOWED_USER_AGENT_SUBSTRINGS</a> which specifies the list of disallowed user
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_disallowed_user_agent_substrings">WS_LISTENER_PROPERTY</a> structure is a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_disallowed_user_agent_substrings">WS_DISALLOWED_USER_AGENT_SUBSTRINGS</a> which specifies the list of disallowed user
                     agents sub-strings.
                     <ul>
 <li>Upon receiving the HTTP request, the UserAgent header value is extracted.

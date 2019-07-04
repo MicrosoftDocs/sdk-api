@@ -66,7 +66,7 @@ Alpha values inside the target rectangle are set to opaque.
 
 ### -field DXVAHD_ALPHA_FILL_MODE_BACKGROUND
 
-Alpha values inside the target rectangle are set to the alpha value specified in the background color. See <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_blt_state_background_color_data">DXVAHD_BLT_STATE_BACKGROUND_COLOR</a>.
+Alpha values inside the target rectangle are set to the alpha value specified in the background color. See <a href="https://docs.microsoft.com/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_blt_state_background_color_data">DXVAHD_BLT_STATE_BACKGROUND_COLOR</a>.
 
 
 ### -field DXVAHD_ALPHA_FILL_MODE_DESTINATION

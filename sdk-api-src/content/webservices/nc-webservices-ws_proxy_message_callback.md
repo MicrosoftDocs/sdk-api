@@ -76,7 +76,7 @@ The heap associated with the call. This is the heap which is passed to call for 
 
 ### -param *state [in]
 
-The 'state' as specified as part of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_proxy_message_callback_context">WS_PROXY_MESSAGE_CALLBACK_CONTEXT</a> 'state' field.
+The 'state' as specified as part of <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_proxy_message_callback_context">WS_PROXY_MESSAGE_CALLBACK_CONTEXT</a> 'state' field.
                 
 
 
@@ -99,7 +99,7 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 
 
-See also, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_proxy_message_callback_context">WS_PROXY_MESSAGE_CALLBACK_CONTEXT</a>.
+See also, <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_proxy_message_callback_context">WS_PROXY_MESSAGE_CALLBACK_CONTEXT</a>.
             
 
 

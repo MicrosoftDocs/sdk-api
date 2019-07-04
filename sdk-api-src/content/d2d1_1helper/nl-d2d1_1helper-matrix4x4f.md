@@ -56,7 +56,7 @@ The <b>Matrix4x4F</b> class represents a 4-by-4 matrix and provides convenience 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">Matrix4x4F</b> has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Operators</a></li>
+<li><a href="https://docs.microsoft.com/windows/win32/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-operator-mult">Operators</a></li>
 </ul><h3><a id="methods"></a>Methods</h3>The <b>Matrix4x4F</b> class has these methods.
 <table class="members" id="memberListMethods">
 <tr>
@@ -189,7 +189,7 @@ Skews the matrix in the Y direction.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-operator">operator*</a>
+<a href="https://docs.microsoft.com/windows/win32/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-operator-mult">operator*</a>
 </td>
 <td align="left" width="63%">
 Multiplies this matrix with the specified matrix and returns the result.
@@ -360,7 +360,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">Matrix4x4F</b> class has thes
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-operator">operator*</a>
+<a href="https://docs.microsoft.com/windows/win32/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-operator-mult">operator*</a>
 </td>
 <td align="left" width="63%">
 Multiplies this matrix with the specified matrix and returns the result.

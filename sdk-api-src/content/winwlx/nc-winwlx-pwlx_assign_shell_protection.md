@@ -79,7 +79,7 @@ Specifies the handle to a <a href="https://docs.microsoft.com/windows/desktop/Se
 ### -param hProcess [in]
 
 Specifies the handle to the process to modify. The process must be created in the suspended state, and this should be the handle returned in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_process_information">PROCESS_INFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_information">PROCESS_INFORMATION</a> structure.
 
 
 ### -param hThread [in]

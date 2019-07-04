@@ -424,7 +424,7 @@ Reserved. Do not use.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcpv4_failover_client_info_array">DHCPV4_FAILOVER_CLIENT_INFO_ARRAY</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcpv4_failover_client_info_array">DHCPV4_FAILOVER_CLIENT_INFO_ARRAY</a>
  
 
  

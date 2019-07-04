@@ -61,7 +61,7 @@ Gets the style simulations that will  be applied when rendering the glyphs.
 
 ### -param styleSimulations [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0004">XPS_STYLE_SIMULATION</a> value that describes the style simulations to be applied.
+The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_style_simulation">XPS_STYLE_SIMULATION</a> value that describes the style simulations to be applied.
 
 
 ## -returns
@@ -120,7 +120,7 @@ The method succeeded.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0004">XPS_STYLE_SIMULATION</a>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_style_simulation">XPS_STYLE_SIMULATION</a>
  
 
  

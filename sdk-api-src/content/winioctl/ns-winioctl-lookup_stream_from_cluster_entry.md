@@ -53,7 +53,7 @@ req.redist:
 Returned from the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_lookup_stream_from_cluster">FSCTL_LOOKUP_STREAM_FROM_CLUSTER</a> control 
     code. Zero or more of these structures follow the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_lookup_stream_from_cluster_output">LOOKUP_STREAM_FROM_CLUSTER_OUTPUT</a> 
+    <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-lookup_stream_from_cluster_output">LOOKUP_STREAM_FROM_CLUSTER_OUTPUT</a> 
     structure in the output buffer returned.
 
 
@@ -209,7 +209,7 @@ The name in the <b>FileName</b> member can be very long and in a format not reco
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_lookup_stream_from_cluster_output">LOOKUP_STREAM_FROM_CLUSTER_OUTPUT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-lookup_stream_from_cluster_output">LOOKUP_STREAM_FROM_CLUSTER_OUTPUT</a>
 
 
 

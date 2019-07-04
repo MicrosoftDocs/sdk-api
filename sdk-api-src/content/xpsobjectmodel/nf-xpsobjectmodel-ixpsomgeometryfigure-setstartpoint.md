@@ -104,7 +104,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-One of the fields in  the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0017">XPS_POINT</a> structure that is passed in <i>startPoint</i> contains a value that is not valid.
+One of the fields in  the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a> structure that is passed in <i>startPoint</i> contains a value that is not valid.
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ One of the fields in  the <a href="https://docs.microsoft.com/windows/desktop/ap
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0017">XPS_POINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
  
 
  

@@ -91,7 +91,7 @@ The name of the published remote application.
 
 ### -param pSessionState [in]
 
-A pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/sessdirpublictypes/ne-sessdirpublictypes-_tssession_state">TSSESSION_STATE</a> value of the sessions to enumerate.
+A pointer to the  <a href="https://docs.microsoft.com/windows/win32/api/sessdirpublictypes/ne-sessdirpublictypes-tssession_state">TSSESSION_STATE</a> value of the sessions to enumerate.
 
 
 ### -param pdwCount [in, out]

@@ -68,14 +68,14 @@ The identifier for the field.
 
 ### -param pcpfs [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ne-credentialprovider-_credential_provider_field_state">CREDENTIAL_PROVIDER_FIELD_STATE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/credentialprovider/ne-credentialprovider-credential_provider_field_state">CREDENTIAL_PROVIDER_FIELD_STATE</a>*</b>
 
 A pointer to the credential provider field state. This indicates when the field should be displayed on the user tile.
 
 
 ### -param pcpfis [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ne-credentialprovider-_credential_provider_field_interactive_state">CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/credentialprovider/ne-credentialprovider-credential_provider_field_interactive_state">CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE</a>*</b>
 
 A pointer to the credential provider field interactive state. This indicates when the user can interact with the field.
 

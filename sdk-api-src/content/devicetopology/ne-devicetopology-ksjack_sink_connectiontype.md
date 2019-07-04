@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>KSJACK_SINK_CONNECTIONTYPE</b> enumeration defines constants that specify the type of connection. These values are used in  the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/ns-devicetopology-_tagksjack_sink_information">KSJACK_SINK_INFORMATION</a> structure that stores information about an audio jack sink.
+The <b>KSJACK_SINK_CONNECTIONTYPE</b> enumeration defines constants that specify the type of connection. These values are used in  the <a href="https://docs.microsoft.com/windows/win32/api/devicetopology/ns-devicetopology-ksjack_sink_information">KSJACK_SINK_INFORMATION</a> structure that stores information about an audio jack sink.
 
 
 ## -enum-fields
@@ -82,7 +82,7 @@ Display port.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/ns-devicetopology-_tagksjack_sink_information">KSJACK_SINK_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/win32/api/devicetopology/ns-devicetopology-ksjack_sink_information">KSJACK_SINK_INFORMATION</a>
  
 
  

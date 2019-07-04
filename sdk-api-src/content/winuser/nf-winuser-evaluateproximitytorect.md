@@ -75,7 +75,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-t
 
 ### -param pProximityEval [out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtouch_hit_testing_proximity_evaluation">TOUCH_HIT_TESTING_PROXIMITY_EVALUATION</a> structure that holds the score and adjusted touch-point data.
+The <a href="https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-touch_hit_testing_proximity_evaluation">TOUCH_HIT_TESTING_PROXIMITY_EVALUATION</a> structure that holds the score and adjusted touch-point data.
 
 
 ## -returns

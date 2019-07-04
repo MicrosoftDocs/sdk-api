@@ -85,7 +85,7 @@ If the currently selected target is a bitmap rather than a command list, the app
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createhwndrendertarget">CreateHwndRenderTarget</a>
+<a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createhwndrendertarget">CreateHwndRenderTarget</a>
 </li>
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createdxgisurfacerendertarget">CreateDxgiSurfaceRenderTarget</a>

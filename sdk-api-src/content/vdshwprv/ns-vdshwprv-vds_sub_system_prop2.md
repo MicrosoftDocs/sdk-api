@@ -95,7 +95,7 @@ The set of stripe sizes supported by a provider for striped volumes and/or LUNs.
 
 ### -field ulSupportedRaidTypeFlags
 
-A bitmask of  <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_sub_system_supported_raid_type_flag">VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG</a> enumeration values specifying the RAID levels that the subsystem supports.  The default value for this member is zero. A value of zero means that no RAID levels are supported.
+A bitmask of  <a href="https://docs.microsoft.com/windows/win32/api/vdshwprv/ne-vdshwprv-vds_sub_system_supported_raid_type_flag">VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG</a> enumeration values specifying the RAID levels that the subsystem supports.  The default value for this member is zero. A value of zero means that no RAID levels are supported.
 
 
 ### -field status

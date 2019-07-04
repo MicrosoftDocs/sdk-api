@@ -124,7 +124,7 @@ Pointer to a string containing the ID of the selected device.
 
 ### -param pnDeviceType [out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/ne-photoacquire-tagdevice_selection_device_type">DEVICE_SELECTION_DEVICE_TYPE</a> of the selected device.
+Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/photoacquire/ne-photoacquire-device_selection_device_type">DEVICE_SELECTION_DEVICE_TYPE</a> of the selected device.
 
 
 ## -returns
@@ -160,7 +160,7 @@ The method succeeded.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/ne-photoacquire-tagdevice_selection_device_type">DEVICE_SELECTION_DEVICE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/photoacquire/ne-photoacquire-device_selection_device_type">DEVICE_SELECTION_DEVICE_TYPE</a>
 
 
 

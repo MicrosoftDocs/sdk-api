@@ -63,7 +63,7 @@ Removes the specified function instance, based on category and subcategory.
 
 ### -param enumSystemVisibility [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/ne-functiondiscoveryapi-tagsystemvisibilityflags">SystemVisibilityFlags</a> value that specifies whether the function instance is removed system-wide or only for the current user. 
+A <a href="https://docs.microsoft.com/windows/win32/api/functiondiscoveryapi/ne-functiondiscoveryapi-systemvisibilityflags">SystemVisibilityFlags</a> value that specifies whether the function instance is removed system-wide or only for the current user. 
 
 
 ### -param pszCategory [in]

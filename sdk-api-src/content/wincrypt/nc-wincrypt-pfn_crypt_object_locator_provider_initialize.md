@@ -76,7 +76,7 @@ Specifies the number of unique objects that the provider expects to locate. This
 
 ### -param *ppFuncTable [out]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_object_locator_provider_table">CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE</a> structure that contains pointers to the functions implemented by the provider. No pointers in the table can be <b>NULL</b>. The caller does not free this structure. It is expected that the provider will return a table that is not allocated on the heap.
+A <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-crypt_object_locator_provider_table">CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE</a> structure that contains pointers to the functions implemented by the provider. No pointers in the table can be <b>NULL</b>. The caller does not free this structure. It is expected that the provider will return a table that is not allocated on the heap.
 
 
 #### - **ppPluginContext [out]
@@ -106,7 +106,7 @@ If the function fails, return zero (<b>FALSE</b>) and specify an appropriate err
 
  The <b>PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE</b> function is currently called by only the Secure Channel (Schannel) security service provider (SSP). The Cryptography API (CAPI) will internally call your custom provider if, beginning with Windows 8, you specify the name of the security principal in the <i>pszPrincipal</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle</a> function.
 
-When you implement this function, remember to fill the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_object_locator_provider_table">CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE</a> function table with pointers to the following functions implemented by your provider:
+When you implement this function, remember to fill the  <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-crypt_object_locator_provider_table">CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE</a> function table with pointers to the following functions implemented by your provider:
 
 <ul>
 <li>
@@ -135,7 +135,7 @@ You must call <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/n
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_object_locator_provider_table">CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-crypt_object_locator_provider_table">CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE</a>
 
 
 

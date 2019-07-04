@@ -79,7 +79,7 @@ The latest virtual clock value that is associated with this transaction. See
 ### -field ArgumentLength
 
 Indicates the number of bytes for the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/ktmtypes/ns-ktmtypes-_transaction_notification_recovery_argument">TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT</a> 
+      <a href="https://docs.microsoft.com/windows/win32/api/ktmtypes/ns-ktmtypes-transaction_notification_recovery_argument">TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT</a> 
       structure that follow this 
       <b>TRANSACTION_NOTIFICATION</b> structure.
 
@@ -109,7 +109,7 @@ Indicates the number of bytes for the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ktmtypes/ns-ktmtypes-_transaction_notification_recovery_argument">TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ktmtypes/ns-ktmtypes-transaction_notification_recovery_argument">TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT</a>
  
 
  

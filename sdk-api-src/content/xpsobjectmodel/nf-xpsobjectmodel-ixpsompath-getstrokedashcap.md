@@ -61,7 +61,7 @@ Gets the style of the end cap to be used on the stroke dash.
 
 ### -param strokeDashCap [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0006">XPS_DASH_CAP</a> value that describes the  style of the end cap to be used on the stroke dash.
+The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_dash_cap">XPS_DASH_CAP</a> value that describes the  style of the end cap to be used on the stroke dash.
 
 
 ## -returns
@@ -107,7 +107,7 @@ The method succeeded.
 
 
 
-For more information about dash cap styles, see <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0006">XPS_DASH_CAP</a>.
+For more information about dash cap styles, see <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_dash_cap">XPS_DASH_CAP</a>.
 
 
 
@@ -129,7 +129,7 @@ For more information about dash cap styles, see <a href="https://docs.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0006">XPS_DASH_CAP</a>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_dash_cap">XPS_DASH_CAP</a>
  
 
  

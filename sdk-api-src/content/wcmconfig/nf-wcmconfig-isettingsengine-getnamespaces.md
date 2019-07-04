@@ -61,7 +61,7 @@ Returns an enumerator to the installed namespaces.
 
 ### -param Flags [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/ne-wcmconfig-__midl___midl_itf_wcmconfig_0000_0000_0002">WcmNamespaceEnumerationFlags</a> value that specifies the context to include in the collection of namespaces.
+A <a href="https://docs.microsoft.com/windows/win32/api/wcmconfig/ne-wcmconfig-wcmnamespaceenumerationflags">WcmNamespaceEnumerationFlags</a> value that specifies the context to include in the collection of namespaces.
 
 
 ### -param Reserved [in]

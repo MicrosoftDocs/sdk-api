@@ -63,7 +63,7 @@ Creates or modifies a function instance.
 
 ### -param enumSystemVisibility [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/ne-functiondiscoveryapi-tagsystemvisibilityflags">SystemVisibilityFlags</a> value that specifies whether the created function instance is visible system wide or only to the current user. 
+A <a href="https://docs.microsoft.com/windows/win32/api/functiondiscoveryapi/ne-functiondiscoveryapi-systemvisibilityflags">SystemVisibilityFlags</a> value that specifies whether the created function instance is visible system wide or only to the current user. 
 
 <div class="alert"><b>Note</b>  The function instance is stored in HKEY_LOCAL_MACHINE regardless  of the <i>enumSystemVisibility</i> value. The user must have Administrator access to add a function instance.</div>
 <div> </div>

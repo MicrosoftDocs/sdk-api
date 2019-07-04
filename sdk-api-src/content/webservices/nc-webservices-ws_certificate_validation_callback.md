@@ -66,7 +66,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/
 
 ### -param *state [in, optional]
 
-A pointer to application specific state information. This parameter corresponds to the <b>state</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_certificate_validation_callback_context">WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT</a> structure.
+A pointer to application specific state information. This parameter corresponds to the <b>state</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_certificate_validation_callback_context">WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT</a> structure.
 
 
 ## -returns
@@ -124,7 +124,7 @@ The callback implementation must avoid long computation times or long blocking c
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_certificate_validation_callback_context">WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_certificate_validation_callback_context">WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT</a>
  
 
  

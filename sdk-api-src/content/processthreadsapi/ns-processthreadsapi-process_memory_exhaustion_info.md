@@ -109,7 +109,7 @@ Used to turn the feature on or off.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ne-processthreadsapi-_process_memory_exhaustion_type">PROCESS_MEMORY_EXHAUSTION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/processthreadsapi/ne-processthreadsapi-process_memory_exhaustion_type">PROCESS_MEMORY_EXHAUSTION_TYPE</a>
  
 
  

@@ -79,7 +79,7 @@ The address is in IPv6 format.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sessdirpublictypes/ns-sessdirpublictypes-__midl___midl_itf_sessdirpublictypes_0000_0000_0002">TSSD_ConnectionPoint</a>
+<a href="https://docs.microsoft.com/windows/win32/api/sessdirpublictypes/ns-sessdirpublictypes-tssd_connectionpoint">TSSD_ConnectionPoint</a>
  
 
  

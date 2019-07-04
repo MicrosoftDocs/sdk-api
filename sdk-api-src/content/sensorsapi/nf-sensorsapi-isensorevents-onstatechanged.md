@@ -67,7 +67,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsap
 ### -param state [in]
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/ne-sensorsapi-__midl___midl_itf_sensorsapi_0000_0000_0001">SensorState</a> containing the new state.
+<a href="https://docs.microsoft.com/windows/win32/api/sensorsapi/ne-sensorsapi-sensorstate">SensorState</a> containing the new state.
 
 
 ## -returns

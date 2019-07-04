@@ -68,7 +68,7 @@ The reader to use to parse the encoded bytes.
 
 ### -param encoding [in, optional]
 
-The encoding to use when parsing the bytes.  If <b>NULL</b>, a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_text_encoding">WS_XML_READER_TEXT_ENCODING</a> 
+The encoding to use when parsing the bytes.  If <b>NULL</b>, a <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_reader_text_encoding">WS_XML_READER_TEXT_ENCODING</a> 
           with a charset of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_AUTO</a> will be used.
         
 

@@ -222,7 +222,7 @@ The data type associated with the buffer pointed to by the <i>ppvData</i> parame
 
 </td>
 <td width="60%">
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_hosted_network_connection_settings">WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS</a> structure is returned.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ns-wlanapi-wlan_hosted_network_connection_settings">WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS</a> structure is returned.
 
 </td>
 </tr>
@@ -232,7 +232,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/n
 
 </td>
 <td width="60%">
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_hosted_network_security_settings">WLAN_HOSTED_NETWORK_SECURITY_SETTINGS</a> structure is returned.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ns-wlanapi-wlan_hosted_network_security_settings">WLAN_HOSTED_NETWORK_SECURITY_SETTINGS</a> structure is returned.
 
 </td>
 </tr>
@@ -285,7 +285,7 @@ On Windows 7 and later, the operating system installs a virtual device if a Hos
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_hosted_network_connection_settings">WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ns-wlanapi-wlan_hosted_network_connection_settings">WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS</a>
 
 
 
@@ -293,7 +293,7 @@ On Windows 7 and later, the operating system installs a virtual device if a Hos
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_hosted_network_security_settings">WLAN_HOSTED_NETWORK_SECURITY_SETTINGS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ns-wlanapi-wlan_hosted_network_security_settings">WLAN_HOSTED_NETWORK_SECURITY_SETTINGS</a>
 
 
 

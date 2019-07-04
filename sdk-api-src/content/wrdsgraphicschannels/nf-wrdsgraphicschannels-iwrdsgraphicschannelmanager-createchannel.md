@@ -98,9 +98,9 @@ The video-optimized bitmap remote control channel.
 
 ### -param channelType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/ne-wrdsgraphicschannels-__midl___midl_itf_wrdsgraphicschannels_0000_0002_0001">WRdsGraphicsChannelType</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/wrdsgraphicschannels/ne-wrdsgraphicschannels-wrdsgraphicschanneltype">WRdsGraphicsChannelType</a></b>
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/ne-wrdsgraphicschannels-__midl___midl_itf_wrdsgraphicschannels_0000_0002_0001">WRdsGraphicsChannelType</a> enumeration that specifies what type of channel to create. If the specified type of channel cannot be created, this method should return a channel object rather than fail.
+A value of the <a href="https://docs.microsoft.com/windows/win32/api/wrdsgraphicschannels/ne-wrdsgraphicschannels-wrdsgraphicschanneltype">WRdsGraphicsChannelType</a> enumeration that specifies what type of channel to create. If the specified type of channel cannot be created, this method should return a channel object rather than fail.
 
 
 ### -param ppVirtualChannel [out, retval]

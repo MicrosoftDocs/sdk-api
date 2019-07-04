@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>LUID</b> structure stores the video port identifier. This structure is stored in the <b>PortId</b> member of the  <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/ns-devicetopology-_tagksjack_sink_information">KSJACK_SINK_INFORMATION</a> structure.
+The <b>LUID</b> structure stores the video port identifier. This structure is stored in the <b>PortId</b> member of the  <a href="https://docs.microsoft.com/windows/win32/api/devicetopology/ns-devicetopology-ksjack_sink_information">KSJACK_SINK_INFORMATION</a> structure.
 
 
 ## -struct-fields

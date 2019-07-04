@@ -129,7 +129,7 @@ Uncompressed RGB with color masks. Valid for 16-bpp and 32-bpp bitmaps.
 
 See Remarks for more information. Note that <b>BI_JPG</b> and <b>BI_PNG</b> are not valid video formats.
 
-For 16-bpp bitmaps, if <b>biCompression</b> equals <b>BI_RGB</b>, the format is always RGB 555. If <b>biCompression</b> equals <b>BI_BITFIELDS</b>, the format is either RGB 555 or RGB 565. Use the subtype GUID in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_ammediatype">AM_MEDIA_TYPE</a> structure to determine the specific RGB type.
+For 16-bpp bitmaps, if <b>biCompression</b> equals <b>BI_RGB</b>, the format is always RGB 555. If <b>biCompression</b> equals <b>BI_BITFIELDS</b>, the format is either RGB 555 or RGB 565. Use the subtype GUID in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure to determine the specific RGB type.
 
 
 ### -field biSizeImage
@@ -198,7 +198,7 @@ Decoders and video sources should propose formats where biWidth is the width of 
 
 <ul>
 <li>It sets <b>biWidth</b> equal to the surface stride in pixels.</li>
-<li>It sets the <b>rcTarget</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader">VIDEOINFOHEADER</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ns-dvdmedia-tagvideoinfoheader2">VIDEOINFOHEADER2</a> structure equal to the image width, in pixels.</li>
+<li>It sets the <b>rcTarget</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ns-dvdmedia-tagvideoinfoheader2">VIDEOINFOHEADER2</a> structure equal to the image width, in pixels.</li>
 </ul>
 Then the video renderer proposes the modified format by calling <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-queryaccept">IPin::QueryAccept</a> on the upstream pin. For more information about this mechanism, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dynamic-format-changes">Dynamic Format Changes</a>.
 
@@ -216,11 +216,11 @@ If there is padding in the image buffer, never dereference a pointer into the me
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader">VIDEOINFOHEADER Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER Structure</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ns-dvdmedia-tagvideoinfoheader2">VIDEOINFOHEADER2 Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER2 Structure</a>
 
 
 

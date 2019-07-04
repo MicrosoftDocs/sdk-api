@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0001">XPS_TILE_MODE</a> value that describes the tile mode of the brush.
+Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE</a> value that describes the tile mode of the brush.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Gets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/
 
 ### -param tileMode [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0001">XPS_TILE_MODE</a> value that describes the tile mode of the brush.
+The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE</a> value that describes the tile mode of the brush.
 
 
 ## -returns
@@ -107,7 +107,7 @@ The method succeeded.
 
 
 
-The tile mode determines how the tile image is repeated to fill the output area. If the tile mode value is <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0001">XPS_TILE_MODE_NONE</a>, the tile image is drawn only once. The following illustration shows examples of how the tile image appears in several tile modes.
+The tile mode determines how the tile image is repeated to fill the output area. If the tile mode value is <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE_NONE</a>, the tile image is drawn only once. The following illustration shows examples of how the tile image appears in several tile modes.
 
 <img alt="An illustration that shows different examples of different tile mode behaviors" src="../images/TileMode.png"/>
 
@@ -130,7 +130,7 @@ The tile mode determines how the tile image is repeated to fill the output area.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0001">XPS_TILE_MODE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE</a>
  
 
  

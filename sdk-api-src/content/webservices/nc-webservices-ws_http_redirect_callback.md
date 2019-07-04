@@ -66,7 +66,7 @@ Invoked when a message is about to be automatically
 
 ### -param *state [in]
 
-The 'state' as specified as part of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_redirect_callback_context">WS_HTTP_REDIRECT_CALLBACK_CONTEXT</a> 'state' field.
+The 'state' as specified as part of <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_http_redirect_callback_context">WS_HTTP_REDIRECT_CALLBACK_CONTEXT</a> 'state' field.
                 
 
 

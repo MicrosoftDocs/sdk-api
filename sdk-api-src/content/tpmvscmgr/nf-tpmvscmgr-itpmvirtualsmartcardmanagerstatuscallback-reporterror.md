@@ -62,7 +62,7 @@ Reports any errors from the requested operation.
 
 ### -param Error [in]
 
-Error code of the current error from the possible errors listed in the <a href="https://docs.microsoft.com/windows/desktop/api/tpmvscmgr/ne-tpmvscmgr-__midl___midl_itf_tpmvscmgr_0000_0000_0002">TPMVSCMGR_ERROR</a> enumeration.
+Error code of the current error from the possible errors listed in the <a href="https://docs.microsoft.com/windows/win32/api/tpmvscmgr/ne-tpmvscmgr-tpmvscmgr_error">TPMVSCMGR_ERROR</a> enumeration.
 
 
 ## -returns

@@ -63,7 +63,7 @@ Sends an event message to indicate a change in the state of the keyboard, such a
 
 ### -param syncFlags
 
-For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/ne-rdpencomapi-__midl___midl_itf_rdpencomapi_0000_0000_0011">RDPSRAPI_KBD_SYNC_FLAG</a> enumeration.
+For possible values, see the <a href="https://docs.microsoft.com/windows/win32/api/rdpencomapi/ne-rdpencomapi-rdpsrapi_kbd_sync_flag">RDPSRAPI_KBD_SYNC_FLAG</a> enumeration.
 
 
 ## -returns

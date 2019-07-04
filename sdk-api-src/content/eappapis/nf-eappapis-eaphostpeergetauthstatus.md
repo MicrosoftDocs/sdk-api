@@ -66,7 +66,7 @@ A pointer to an <b>EAP_SESSIONID</b> structure that contains the unique handle f
 
 ### -param authParam [in]
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-tageaphostpeerauthparams">EapHostPeerAuthParams</a> enumeration value that specifies the type of EAP authentication data to obtain from EAPHost.
+An <a href="https://docs.microsoft.com/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerauthparams">EapHostPeerAuthParams</a> enumeration value that specifies the type of EAP authentication data to obtain from EAPHost.
 
 <table>
 <tr>
@@ -79,7 +79,7 @@ An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eap
 </dl>
 </td>
 <td width="60%">
-<i>ppAuthData</i> contains a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeertypes/ns-eaphostpeertypes-_eaphost_auth_info">EAPHOST_AUTH_INFO</a> structure.
+<i>ppAuthData</i> contains a <a href="https://docs.microsoft.com/windows/win32/api/eaphostpeertypes/ns-eaphostpeertypes-eaphost_auth_info">EAPHOST_AUTH_INFO</a> structure.
 
 </td>
 </tr>

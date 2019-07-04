@@ -61,7 +61,7 @@ Completes the initialization sequence for an Output Protection Manager (OPM) ses
 
 ### -param pParameters [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_encrypted_initialization_parameters">OPM_ENCRYPTED_INITIALIZATION_PARAMETERS</a> structure. Initialize this structure as described in the Remarks session.
+Pointer to an <a href="https://docs.microsoft.com/windows/win32/api/ksopmapi/ns-ksopmapi-opm_encrypted_initialization_parameters">OPM_ENCRYPTED_INITIALIZATION_PARAMETERS</a> structure. Initialize this structure as described in the Remarks session.
 
 
 ## -returns

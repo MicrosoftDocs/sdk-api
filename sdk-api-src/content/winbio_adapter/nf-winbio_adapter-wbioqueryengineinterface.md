@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_engine_interface">WINBIO_ENGINE_INTERFACE</a> structure for the engine adapter.
+Retrieves a pointer to the <a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_engine_interface">WINBIO_ENGINE_INTERFACE</a> structure for the engine adapter.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Retrieves a pointer to the <a href="https://docs.microsoft.com/windows/desktop/a
 
 ### -param EngineInterface [out]
 
-Address of a variable that receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_engine_interface">WINBIO_ENGINE_INTERFACE</a> structure.
+Address of a variable that receives a pointer to the <a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_engine_interface">WINBIO_ENGINE_INTERFACE</a> structure.
 
 
 ## -returns

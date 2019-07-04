@@ -61,7 +61,7 @@ Sets the style simulations that will be applied when the glyphs are rendered.
 
 ### -param styleSimulations [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0004">XPS_STYLE_SIMULATION</a> value that specifies the style simulation to be applied.
+The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_style_simulation">XPS_STYLE_SIMULATION</a> value that specifies the style simulation to be applied.
 
 
 ## -returns
@@ -93,7 +93,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-<i>styleSimulations</i> is not a valid <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0004">XPS_STYLE_SIMULATION</a> value.
+<i>styleSimulations</i> is not a valid <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_style_simulation">XPS_STYLE_SIMULATION</a> value.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ The method succeeded.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0004">XPS_STYLE_SIMULATION</a>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_style_simulation">XPS_STYLE_SIMULATION</a>
  
 
  

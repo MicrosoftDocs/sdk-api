@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 Used by the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_clusctl_resource_state_change_reason_struct">CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT</a> 
+    <a href="https://docs.microsoft.com/windows/win32/api/clusapi/ns-clusapi-clusctl_resource_state_change_reason_struct">CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT</a> 
     and  
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-state-change-reason">CLUSCTL_RESOURCE_STATE_CHANGE_REASON</a> 
     control codes to describe the reason for a resource state change.
@@ -68,7 +68,7 @@ Used by the
 
 This reason code is never sent by the cluster. 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dlls">Resource DLLs</a> should use this value to initialize a local 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_clusctl_resource_state_change_reason_struct">CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT</a> structure and to reset the 
+       <a href="https://docs.microsoft.com/windows/win32/api/clusapi/ns-clusapi-clusctl_resource_state_change_reason_struct">CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT</a> structure and to reset the 
        <b>eReason</b> member of the 
        <b>CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT</b> 
        structure before returning from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a> and 

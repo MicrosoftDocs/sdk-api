@@ -112,7 +112,7 @@ Reserved for future use; must be zero.
 
 
 The first descriptor in the handle data stream follows the header, 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_handle_data_stream">MINIDUMP_HANDLE_DATA_STREAM</a>.
+<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_handle_data_stream">MINIDUMP_HANDLE_DATA_STREAM</a>.
 
 
 
@@ -122,7 +122,7 @@ The first descriptor in the handle data stream follows the header,
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_handle_data_stream">MINIDUMP_HANDLE_DATA_STREAM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_handle_data_stream">MINIDUMP_HANDLE_DATA_STREAM</a>
 
 
 

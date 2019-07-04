@@ -73,7 +73,7 @@ Not used with this operation; set to zero.
 ### -output-buffer
 
   A pointer to a buffer that receives a 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmgenerationcounter/ns-vmgenerationcounter-_vm_gencounter">VM_GENCOUNTER</a> data structure.
+<a href="https://docs.microsoft.com/windows/win32/api/vmgenerationcounter/ns-vmgenerationcounter-vm_gencounter">VM_GENCOUNTER</a> data structure.
 
 
 ### -output-buffer-length
@@ -186,7 +186,7 @@ Not used with this operation; set to zero.
 </td>
 <td width="60%">
   A pointer to a buffer that receives a 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmgenerationcounter/ns-vmgenerationcounter-_vm_gencounter">VM_GENCOUNTER</a> data structure.
+<a href="https://docs.microsoft.com/windows/win32/api/vmgenerationcounter/ns-vmgenerationcounter-vm_gencounter">VM_GENCOUNTER</a> data structure.
 
 </td>
 </tr>
@@ -274,7 +274,7 @@ For info about the virtual machine generation identifier, see <a href="https://d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmgenerationcounter/ns-vmgenerationcounter-_vm_gencounter">VM_GENCOUNTER</a>
+<a href="https://docs.microsoft.com/windows/win32/api/vmgenerationcounter/ns-vmgenerationcounter-vm_gencounter">VM_GENCOUNTER</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Determines whether the specified string can be written in optimized form. This callback is used in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_writer_binary_encoding">WS_XML_WRITER_BINARY_ENCODING</a>
+Determines whether the specified string can be written in optimized form. This callback is used in <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_writer_binary_encoding">WS_XML_WRITER_BINARY_ENCODING</a>
 
 
 

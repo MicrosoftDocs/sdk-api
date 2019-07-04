@@ -65,7 +65,7 @@ Requests the sharer to change the control level of the viewer. After this method
 
 Type: <b>CTRL_LEVEL</b>
 
-One of the values of the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/ne-rdpencomapi-__midl___midl_itf_rdpencomapi_0000_0000_0001">CTRL_LEVEL</a> enumeration.
+One of the values of the <a href="https://docs.microsoft.com/windows/win32/api/rdpencomapi/ne-rdpencomapi-ctrl_level">CTRL_LEVEL</a> enumeration.
 
 
 ## -returns

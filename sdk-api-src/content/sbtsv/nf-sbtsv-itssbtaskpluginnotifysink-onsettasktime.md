@@ -96,7 +96,7 @@ The display name of the task agent.
 
 ### -param dwTaskStatus [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/sessdirpublictypes/ne-sessdirpublictypes-_rdv_task_status">RDV_TASK_STATUS</a> enumeration value  that represents the state of the task.
+An <a href="https://docs.microsoft.com/windows/win32/api/sessdirpublictypes/ne-sessdirpublictypes-rdv_task_status">RDV_TASK_STATUS</a> enumeration value  that represents the state of the task.
 
 
 ### -param saContext [in]

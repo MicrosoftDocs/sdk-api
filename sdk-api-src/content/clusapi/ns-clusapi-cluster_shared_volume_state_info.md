@@ -79,7 +79,7 @@ A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clus
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_cluster_shared_volume_state_info_ex">CLUSTER_SHARED_VOLUME_STATE_INFO_EX</a>
+<a href="https://docs.microsoft.com/windows/win32/api/clusapi/ns-clusapi-cluster_shared_volume_state_info_ex">CLUSTER_SHARED_VOLUME_STATE_INFO_EX</a>
 
 
 

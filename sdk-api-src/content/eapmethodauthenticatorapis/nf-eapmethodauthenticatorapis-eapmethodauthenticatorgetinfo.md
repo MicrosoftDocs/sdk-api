@@ -68,7 +68,7 @@ A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/de
 
 ### -param pEapInfo [out]
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/ns-eapmethodauthenticatorapis-_eap_authenticator_method_routines">EAP_AUTHENTICATOR_METHOD_ROUTINES</a> structure that contains the function pointers to EAP method-specific implementations of the APIs that correspond to specific RPC calls that can be made by EAP peer method functions.
+A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eapmethodauthenticatorapis/ns-eapmethodauthenticatorapis-eap_authenticator_method_routines">EAP_AUTHENTICATOR_METHOD_ROUTINES</a> structure that contains the function pointers to EAP method-specific implementations of the APIs that correspond to specific RPC calls that can be made by EAP peer method functions.
 
 
 ### -param ppEapError [out]

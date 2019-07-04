@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the attendee specific flags that are defined in the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/ne-rdpencomapi-__midl___midl_itf_rdpencomapi_0000_0000_0006">RDPENCOMAPI_ATTENDEE_FLAGS</a> enumeration type.
+Retrieves the attendee specific flags that are defined in the <a href="https://docs.microsoft.com/windows/win32/api/rdpencomapi/ne-rdpencomapi-rdpencomapi_attendee_flags">RDPENCOMAPI_ATTENDEE_FLAGS</a> enumeration type.
 
 This property is read-only.
 

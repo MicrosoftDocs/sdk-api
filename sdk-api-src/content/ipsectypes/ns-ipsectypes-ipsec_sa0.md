@@ -96,7 +96,7 @@ See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsect
 
 Security algorithms of the SA transform. Available when <b>saTransformType</b> is <b>IPSEC_TRANSFORM_ESP_AUTH_AND_CIPHER</b>.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_auth_and_cipher_information0_">IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_sa_auth_and_cipher_information0">IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0</a> for more information.
 
 
 ### -field espAuthFwInformation
@@ -123,7 +123,7 @@ Security algorithms of the SA transform. Available when <b>saTransformType</b> i
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_auth_and_cipher_information0_">IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_sa_auth_and_cipher_information0">IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0</a>
 
 
 

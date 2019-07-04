@@ -72,7 +72,7 @@ A value from <a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ne
 
 ### -param EventParameterIn [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-_bluetooth_gatt_value_changed_event_registration">BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION</a> structure to pass when the event is triggered.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/bthledef/ns-bthledef-bluetooth_gatt_value_changed_event_registration">BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION</a> structure to pass when the event is triggered.
 
 
 ### -param Callback [in]
@@ -168,7 +168,7 @@ A parameter was invalid.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-_bluetooth_gatt_value_changed_event_registration">BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION</a>
+<a href="https://docs.microsoft.com/windows/win32/api/bthledef/ns-bthledef-bluetooth_gatt_value_changed_event_registration">BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION</a>
 
 
 

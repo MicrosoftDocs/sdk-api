@@ -66,7 +66,7 @@ The name of the key.
 
 ### -param DataType [out]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/ne-wcmconfig-__midl___midl_itf_wcmconfig_0000_0000_0003">WcmDataType</a> value that indicates the data type of the item.
+A <a href="https://docs.microsoft.com/windows/win32/api/wcmconfig/ne-wcmconfig-wcmdatatype">WcmDataType</a> value that indicates the data type of the item.
 
 
 ## -returns

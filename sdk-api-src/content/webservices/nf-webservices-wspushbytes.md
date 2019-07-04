@@ -128,7 +128,7 @@ The operation is not allowed due to the current state of the object.
 
 
 
-When writing with the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_writer_mtom_encoding">WS_XML_WRITER_MTOM_ENCODING</a>, <b>WsPushBytes</b> provides a way
+When writing with the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_writer_mtom_encoding">WS_XML_WRITER_MTOM_ENCODING</a>, <b>WsPushBytes</b> provides a way
         to write bytes directly into its own MIME part and avoid a copy.  However, the writer at its discretion,
         may choose to invoke the callback immediately, so the caller should be prepared for this.
       

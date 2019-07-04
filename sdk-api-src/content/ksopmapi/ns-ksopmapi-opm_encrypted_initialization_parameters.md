@@ -68,7 +68,7 @@ Pointer to a buffer that contains encrypted initialization parameters for the se
 
 
 
-The layout of this structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_amcoppsignature">AMCOPPSignature</a> structure used in Certified Output Protection Protocol (COPP).
+The layout of this structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-amcoppsignature">AMCOPPSignature</a> structure used in Certified Output Protection Protocol (COPP).
 
 
 

@@ -94,7 +94,7 @@ The type of information to be generated. This parameter can be one or more of th
 ### -param ExceptionParam [in]
 
 A pointer to a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_exception_information">MINIDUMP_EXCEPTION_INFORMATION</a> 
+      <a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_exception_information">MINIDUMP_EXCEPTION_INFORMATION</a> 
       structure describing the client exception that caused the minidump to be generated. If the value of this 
       parameter is <b>NULL</b>, no exception information is included in the minidump file.
 
@@ -102,7 +102,7 @@ A pointer to a
 ### -param UserStreamParam [in]
 
 A pointer to a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_user_stream_information">MINIDUMP_USER_STREAM_INFORMATION</a> 
+      <a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_user_stream_information">MINIDUMP_USER_STREAM_INFORMATION</a> 
       structure. If the value of this parameter is <b>NULL</b>, no user-defined information is 
       included in the minidump file.
 
@@ -110,7 +110,7 @@ A pointer to a
 ### -param CallbackParam [in]
 
 A pointer to a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_information">MINIDUMP_CALLBACK_INFORMATION</a> 
+      <a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_information">MINIDUMP_CALLBACK_INFORMATION</a> 
       structure that specifies a callback routine which is to receive extended minidump information. If the value of 
       this parameter is <b>NULL</b>, no callbacks are performed.
 
@@ -171,15 +171,15 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_information">MINIDUMP_CALLBACK_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_information">MINIDUMP_CALLBACK_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_exception_information">MINIDUMP_EXCEPTION_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_exception_information">MINIDUMP_EXCEPTION_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_user_stream_information">MINIDUMP_USER_STREAM_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_user_stream_information">MINIDUMP_USER_STREAM_INFORMATION</a>
 
 
 

@@ -78,7 +78,7 @@ A GUID that specifies the query. The following GUIDs are defined.
 <td width="60%">
 Returns the type of I/O bus that is used to send data to the GPU.
 
-Output data structure: <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_acessibility_output">D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT</a>
+Output data structure: <a href="https://docs.microsoft.com/windows/win32/api/d3d11/ns-d3d11-d3d11_authenticated_query_accessibility_output">D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT</a>
 
 
 </td>

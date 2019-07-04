@@ -64,7 +64,7 @@ The <b>GetState</b> method retrieves the current state of the audio session.
 
 ### -param pRetVal [out]
 
-Pointer to a variable into which the method writes the current session state. The state must be one of the following <a href="https://docs.microsoft.com/windows/desktop/api/audiosessiontypes/ne-audiosessiontypes-_audiosessionstate">AudioSessionState</a> enumeration values:
+Pointer to a variable into which the method writes the current session state. The state must be one of the following <a href="https://docs.microsoft.com/windows/win32/api/audiosessiontypes/ne-audiosessiontypes-audiosessionstate">AudioSessionState</a> enumeration values:
 
 AudioSessionStateActive
 

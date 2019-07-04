@@ -210,7 +210,7 @@ No
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_system_recognition_information">FILE_SYSTEM_RECOGNITION_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/win32/api/WinIoCtl/ns-winioctl-file_system_recognition_information">FILE_SYSTEM_RECOGNITION_INFORMATION</a>
 
 
 

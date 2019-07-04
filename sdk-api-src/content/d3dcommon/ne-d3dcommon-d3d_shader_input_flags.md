@@ -137,7 +137,7 @@ Forces the enumeration to compile to 32 bits.
 
 
 <b>D3D_SHADER_INPUT_FLAGS</b>-typed values are specified in
-          the <b>uFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-_d3d11_shader_input_bind_desc">D3D11_SHADER_INPUT_BIND_DESC</a> structure.
+          the <b>uFlags</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/d3d11shader/ns-d3d11shader-d3d11_shader_input_bind_desc">D3D11_SHADER_INPUT_BIND_DESC</a> structure.
         
 
 

@@ -61,7 +61,7 @@ The <b>UiInfo</b> structure is used to display repair messages to the user.
 
 ### -field type
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ne-ndattrib-__midl___midl_itf_ndattrib_0000_0000_0003">UI_INFO_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/ndattrib/ne-ndattrib-ui_info_type">UI_INFO_TYPE</a></b>
 
 The type of user interface (UI) to use. This can be one of the values shown in the following members.
 
@@ -103,7 +103,7 @@ Use a direct user interface. Used when <b>type</b> is set to UIT_DUI.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ne-ndattrib-__midl___midl_itf_ndattrib_0000_0000_0003">UI_INFO_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ndattrib/ne-ndattrib-ui_info_type">UI_INFO_TYPE</a>
  
 
  

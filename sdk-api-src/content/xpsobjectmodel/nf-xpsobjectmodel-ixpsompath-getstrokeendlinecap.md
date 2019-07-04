@@ -61,7 +61,7 @@ Gets the style of the stroke line's  end cap.
 
 ### -param strokeEndLineCap [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0005">XPS_LINE_CAP</a> value that specifies the style of the stroke line's end cap.
+The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a> value that specifies the style of the stroke line's end cap.
 
 
 ## -returns
@@ -107,7 +107,7 @@ The method succeeded.
 
 
 
-For more information about line   end cap styles, see <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0005">XPS_LINE_CAP</a>.
+For more information about line   end cap styles, see <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a>.
 
 
 
@@ -129,7 +129,7 @@ For more information about line   end cap styles, see <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0005">XPS_LINE_CAP</a>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a>
  
 
  

@@ -91,7 +91,7 @@ See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsect
 
 SA transform data. Available when <b>ipsecTransformType</b> is <b>IPSEC_TRANSFORM_ESP_AUTH_AND_CIPHER</b>.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_and_cipher_transform0_">IPSEC_AUTH_AND_CIPHER_TRANSFORM0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_auth_and_cipher_transform0">IPSEC_AUTH_AND_CIPHER_TRANSFORM0</a> for more information.
 
 
 ### -field espAuthFwTransform
@@ -120,7 +120,7 @@ See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsect
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_and_cipher_transform0_">IPSEC_AUTH_AND_CIPHER_TRANSFORM0</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_auth_and_cipher_transform0">IPSEC_AUTH_AND_CIPHER_TRANSFORM0</a>
 
 
 

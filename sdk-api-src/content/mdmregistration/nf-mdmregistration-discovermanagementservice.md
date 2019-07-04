@@ -69,7 +69,7 @@ Address of a <b>NULL</b>-terminated Unicode string containing the user principal
 
 ### -param ppMgmtInfo [out]
 
-Address of a <a href="https://docs.microsoft.com/windows/desktop/api/mdmregistration/ns-mdmregistration-_management_service_info">MANAGEMENT_SERVICE_INFO</a> 
+Address of a <a href="https://docs.microsoft.com/windows/win32/api/mdmregistration/ns-mdmregistration-management_service_info">MANAGEMENT_SERVICE_INFO</a> 
       structure that contains pointers to the URIs of the management and authentication services.
 
 
@@ -99,7 +99,7 @@ The caller of this function must be running as an elevated process.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdmregistration/ns-mdmregistration-_management_service_info">MANAGEMENT_SERVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/mdmregistration/ns-mdmregistration-management_service_info">MANAGEMENT_SERVICE_INFO</a>
 
 
 

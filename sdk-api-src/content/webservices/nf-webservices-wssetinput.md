@@ -73,13 +73,13 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-
 
 A to an encoding value that describes the format of the input bytes.  This value should be one of:<ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_text_encoding">WS_XML_READER_TEXT_ENCODING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_reader_text_encoding">WS_XML_READER_TEXT_ENCODING</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_binary_encoding">WS_XML_READER_BINARY_ENCODING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_reader_binary_encoding">WS_XML_READER_BINARY_ENCODING</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_mtom_encoding">WS_XML_READER_MTOM_ENCODING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_reader_mtom_encoding">WS_XML_READER_MTOM_ENCODING</a>
 </li>
 </ul>
 

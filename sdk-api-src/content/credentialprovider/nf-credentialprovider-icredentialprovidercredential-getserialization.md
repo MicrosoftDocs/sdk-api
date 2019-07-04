@@ -61,14 +61,14 @@ Called in response to an attempt to submit this credential to the underlying aut
 
 ### -param pcpgsr [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ne-credentialprovider-_credential_provider_get_serialization_response">CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/credentialprovider/ne-credentialprovider-credential_provider_get_serialization_response">CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE</a>*</b>
 
 Indicates the success or failure of the attempt to serialize credentials.
 
 
 ### -param pcpcs [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ns-credentialprovider-_credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a>*</b>
 
 A pointer to the credential. Depending on the result, there may be no valid credential.
 
@@ -82,7 +82,7 @@ A pointer to a Unicode string value that will be displayed by the Logon UI after
 
 ### -param pcpsiOptionalStatusIcon [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ne-credentialprovider-_credential_provider_status_icon">CREDENTIAL_PROVIDER_STATUS_ICON</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/credentialprovider/ne-credentialprovider-credential_provider_status_icon">CREDENTIAL_PROVIDER_STATUS_ICON</a>*</b>
 
 A pointer to an icon that will be displayed by the credential after the call to <b>GetSerialization</b> returns. This value can be <b>NULL</b>.
 
@@ -104,7 +104,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This method is required.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ne-credentialprovider-_credential_provider_usage_scenario">CREDENTIAL_PROVIDER_USAGE_SCENARIO</a> indicates what the appropriate response would be when the user attempts to submit credentials. The following table indicates how to respond based on the usage scenario.
+The <a href="https://docs.microsoft.com/windows/win32/api/credentialprovider/ne-credentialprovider-credential_provider_usage_scenario">CREDENTIAL_PROVIDER_USAGE_SCENARIO</a> indicates what the appropriate response would be when the user attempts to submit credentials. The following table indicates how to respond based on the usage scenario.
 
 <table>
 <tr>

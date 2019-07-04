@@ -141,7 +141,7 @@ The number of objects in the <i>ObjectTypeNames</i> array.
 
 ### -field ObjectTypeNames
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_registration_object_type_name_offset">AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET</a> structures that represents the object types for the events.
+An array of <a href="https://docs.microsoft.com/windows/win32/api/authz/ns-authz-authz_registration_object_type_name_offset">AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET</a> structures that represents the object types for the events.
 
 
 ## -see-also

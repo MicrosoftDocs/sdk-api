@@ -83,7 +83,7 @@ See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webse
 
 A <b>BOOL</b> that
           specifies whether the reader will permit multiple elements and non-white space at the top level of the document.  This property
-          may not be set to <b>TRUE</b> with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_mtom_encoding">WS_XML_READER_MTOM_ENCODING</a>.
+          may not be set to <b>TRUE</b> with <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_reader_mtom_encoding">WS_XML_READER_MTOM_ENCODING</a>.
         
 
 This property defaults to <b>FALSE</b>.
@@ -170,7 +170,7 @@ Indicates that <a href="https://docs.microsoft.com/windows/desktop/api/webservic
 
 ### -field WS_XML_READER_PROPERTY_STREAM_MAX_ROOT_MIME_PART_SIZE
 
-A <b>ULONG</b>used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_stream_input">WS_XML_READER_STREAM_INPUT</a> in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_mtom_encoding">WS_XML_READER_MTOM_ENCODING</a>.
+A <b>ULONG</b>used with <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_reader_mtom_encoding">WS_XML_READER_STREAM_INPUT</a> in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_mtom_encoding">WS_XML_READER_MTOM_ENCODING</a>.
           This value specifies the maximum size of the root MIME part, which is the part that contains
           the xml portion of the document.  It has no effect when used with other encodings, or when used with
           <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_buffer_input">WS_XML_READER_BUFFER_INPUT</a>.
@@ -182,7 +182,7 @@ This property defaults to 65536.
 
 ### -field WS_XML_READER_PROPERTY_STREAM_MAX_MIME_HEADERS_SIZE
 
-A <b>ULONG</b>used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_stream_input">WS_XML_READER_STREAM_INPUT</a> in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_mtom_encoding">WS_XML_READER_MTOM_ENCODING</a>.
+A <b>ULONG</b>used with <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_reader_mtom_encoding">WS_XML_READER_STREAM_INPUT</a> in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_mtom_encoding">WS_XML_READER_MTOM_ENCODING</a>.
           This value specifies the maximum size of any group of MIME headers that may appear in the document.
           It has no effect when used with other encodings, or when used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_buffer_input">WS_XML_READER_BUFFER_INPUT</a>.
         
@@ -193,7 +193,7 @@ This property defaults to 256.
 
 ### -field WS_XML_READER_PROPERTY_MAX_MIME_PARTS
 
-A <b>ULONG</b>used with  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_mtom_encoding">WS_XML_READER_MTOM_ENCODING</a>. This value specifies the maximum number of MIME parts
+A <b>ULONG</b>used with  <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_reader_mtom_encoding">WS_XML_READER_MTOM_ENCODING</a>. This value specifies the maximum number of MIME parts
           that may appear in the document.  It has no effect when used with other encodings.
         
 
@@ -203,7 +203,7 @@ This property defaults to 4096.
 
 ### -field WS_XML_READER_PROPERTY_ALLOW_INVALID_CHARACTER_REFERENCES
 
-A <b>BOOL</b> used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_text_encoding">WS_XML_READER_TEXT_ENCODING</a>. Setting this to <b>TRUE</b> permits character references
+A <b>BOOL</b> used with <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_reader_text_encoding">WS_XML_READER_TEXT_ENCODING</a>. Setting this to <b>TRUE</b> permits character references
           of characters considered invalid by XML 1.0 to be accepted.
         
 

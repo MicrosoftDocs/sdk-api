@@ -78,7 +78,7 @@ A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/de
 
 ### -param pEapOutput [out]
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-_eap_method_authenticator_response_action">EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION</a> enumeration that indicates the next action the supplicant must take in the EAP authentication session.
+A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-eap_method_authenticator_response_action">EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION</a> enumeration that indicates the next action the supplicant must take in the EAP authentication session.
 
 
 ### -param ppEapError [out]

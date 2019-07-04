@@ -101,7 +101,7 @@ This extension can be used to specify a custom assertion or an assertion that is
               retrieve the original XML form of the assertion. If one of the supported assertions
               is specified as an extension, the corresponding constraint should not be specified.
               For example, if http://schemas.xmlsoap.org/ws/2005/07/securitypolicy:TransportBinding
-              is specified as an endpoint extension, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_ssl_transport_security_binding_constraint">WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT</a>cannot be specified as a constraint.
+              is specified as an endpoint extension, <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_ssl_transport_security_binding_constraint">WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT</a>cannot be specified as a constraint.
           
 
 The following assertions are not allowed as policy extension because they might affect constraint 

@@ -62,7 +62,7 @@ Reports the progress of the current operation.
 
 ### -param Status [in]
 
-Status code of the current operation from the possible status states listed in the <a href="https://docs.microsoft.com/windows/desktop/api/tpmvscmgr/ne-tpmvscmgr-__midl___midl_itf_tpmvscmgr_0000_0000_0001">TPMVSCMGR_STATUS</a> enumeration.
+Status code of the current operation from the possible status states listed in the <a href="https://docs.microsoft.com/windows/win32/api/tpmvscmgr/ne-tpmvscmgr-tpmvscmgr_status">TPMVSCMGR_STATUS</a> enumeration.
 
 
 ## -returns

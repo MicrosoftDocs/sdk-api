@@ -61,7 +61,7 @@ This method is not used if the button item does not have the TF_LBI_STYLE_BTN_BU
 
 ### -param click [in]
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/ne-ctfutb-__midl___midl_itf_ctfutb_0000_0010_0001">TfLBIClick</a> value that indicates which mouse button was used to click the button.
+Contains a <a href="https://docs.microsoft.com/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfLBIClick</a> value that indicates which mouse button was used to click the button.
 
 
 ### -param pt [in]

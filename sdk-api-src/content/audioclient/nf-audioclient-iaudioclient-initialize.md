@@ -64,7 +64,7 @@ The <b>Initialize</b> method initializes the audio stream.
 
 ### -param ShareMode [in]
 
-The sharing mode for the connection. Through this parameter, the client tells the audio engine whether it wants to share the audio endpoint device with other clients. The client should set this parameter to one of the following <a href="https://docs.microsoft.com/windows/desktop/api/audiosessiontypes/ne-audiosessiontypes-_audclnt_sharemode">AUDCLNT_SHAREMODE</a> enumeration values:
+The sharing mode for the connection. Through this parameter, the client tells the audio engine whether it wants to share the audio endpoint device with other clients. The client should set this parameter to one of the following <a href="https://docs.microsoft.com/windows/win32/api/audiosessiontypes/ne-audiosessiontypes-audclnt_sharemode">AUDCLNT_SHAREMODE</a> enumeration values:
 
 AUDCLNT_SHAREMODE_EXCLUSIVE
 
@@ -83,7 +83,7 @@ The buffer capacity as a time value. This parameter is of type <b>REFERENCE_TIME
 
 ### -param hnsPeriodicity [in]
 
-The device period. This parameter can be nonzero only in exclusive mode. In shared mode, always set this parameter to 0. In exclusive mode, this parameter specifies the requested scheduling period for successive buffer accesses by the audio endpoint device. If the requested device period lies outside the range that is set by the device's minimum period and the system's maximum period, then the method clamps the period to that range. If this parameter is 0, the method sets the device period to its default value. To obtain the default device period, call the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getdeviceperiod">IAudioClient::GetDevicePeriod</a> method. If the AUDCLNT_STREAMFLAGS_EVENTCALLBACK stream flag is set and  AUDCLNT_SHAREMODE_EXCLUSIVE is set as the  ShareMode, then <i>hnsPeriodicity</i> must be nonzero and equal to <i>hnsBufferDuration</i>.
+The device period. This parameter can be nonzero only in exclusive mode. In shared mode, always set this parameter to 0. In exclusive mode, this parameter specifies the requested scheduling period for successive buffer accesses by the audio endpoint device. If the requested device period lies outside the range that is set by the device's minimum period and the system's maximum period, then the method clamps the period to that range. If this parameter is 0, the method sets the device period to its default value. To obtain the default device period, call the <a href="https://docs.microsoft.com/windows/win32/api/audiosessiontypes/ne-audiosessiontypes-audclnt_sharemode">IAudioClient::GetDevicePeriod</a> method. If the AUDCLNT_STREAMFLAGS_EVENTCALLBACK stream flag is set and  AUDCLNT_SHAREMODE_EXCLUSIVE is set as the  ShareMode, then <i>hnsPeriodicity</i> must be nonzero and equal to <i>hnsBufferDuration</i>.
 
 
 ### -param pFormat [in]

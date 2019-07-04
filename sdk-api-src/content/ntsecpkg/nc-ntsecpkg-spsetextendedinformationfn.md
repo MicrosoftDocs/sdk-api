@@ -62,7 +62,7 @@ Sets extended information about the <a href="https://docs.microsoft.com/windows/
 ### -param Class [in]
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ne-ntsecpkg-_secpkg_extended_information_class">SECPKG_EXTENDED_INFORMATION_CLASS</a> enumeration value indicating the type of extended information.
+<a href="https://docs.microsoft.com/windows/win32/api/ntsecpkg/ne-ntsecpkg-secpkg_extended_information_class">SECPKG_EXTENDED_INFORMATION_CLASS</a> enumeration value indicating the type of extended information.
 
 
 ### -param Info [in]
@@ -107,7 +107,7 @@ A pointer to the <b>SpSetExtendedInformation</b> function is available in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ne-ntsecpkg-_secpkg_extended_information_class">SECPKG_EXTENDED_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntsecpkg/ne-ntsecpkg-secpkg_extended_information_class">SECPKG_EXTENDED_INFORMATION_CLASS</a>
 
 
 

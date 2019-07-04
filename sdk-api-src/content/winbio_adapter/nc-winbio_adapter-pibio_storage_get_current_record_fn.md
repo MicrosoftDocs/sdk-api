@@ -66,7 +66,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_ad
 
 ### -param RecordContents [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_storage_record">WINBIO_STORAGE_RECORD</a> structure that will receive the contents of the record.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_record">WINBIO_STORAGE_RECORD</a> structure that will receive the contents of the record.
 
 
 ## -returns

@@ -73,7 +73,7 @@ Number of elements in <i>pPhysicalMonitorArray</i>. To get the required size of 
 
 ### -param pPhysicalMonitorArray [out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/physicalmonitorenumerationapi/ns-physicalmonitorenumerationapi-_physical_monitor">PHYSICAL_MONITOR</a> structures. The caller must allocate the array.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/win32/api/physicalmonitorenumerationapi/ns-physicalmonitorenumerationapi-physical_monitor">PHYSICAL_MONITOR</a> structures. The caller must allocate the array.
           
 
 

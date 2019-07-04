@@ -78,9 +78,9 @@ Property name, or <b>NULL</b> if there is no property name.
 
 ### -param cop [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-tagcondition_operation">CONDITION_OPERATION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-tagcondition_operation">CONDITION_OPERATION</a> enumerated type identifying the operation.
+A <a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a> enumerated type identifying the operation.
             
 
 
@@ -210,7 +210,7 @@ The value of <i>pszValue2</i> is non-<b>NULL</b> only for a range query, such as
 
 A condition generator can safely ignore the arguments <i>pPropertyNameTerm</i>, <i>pOperationTerm</i>, and <i>pValueTerm</i>. However, it would use them to produce a leaf node that has correct information about the origins in the query string of the property name, the operator, and the value, by passing them on to <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory-makeleaf">MakeLeaf</a>.
 
-In many cases, a condition generator can ignore the argument <i>automaticWildcard</i> because it would not apply. However, if the generated condition tree does some form of string search, where both a prefix search (<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-tagcondition_operation">COP_VALUE_STARTSWITH</a> from <b>CONDITION_OPERATION</b>) and a search for the exact string (<b>COP_EQUAL</b> from <b>CONDITION_OPERATION</b>) are meaningful, then the former should be generated when <i>automaticWildcard</i> is <b>VARIANT_TRUE</b>, and the latter when <i>automaticWildcard</i> is <b>VARIANT_FALSE</b>.
+In many cases, a condition generator can ignore the argument <i>automaticWildcard</i> because it would not apply. However, if the generated condition tree does some form of string search, where both a prefix search (<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">COP_VALUE_STARTSWITH</a> from <b>CONDITION_OPERATION</b>) and a search for the exact string (<b>COP_EQUAL</b> from <b>CONDITION_OPERATION</b>) are meaningful, then the former should be generated when <i>automaticWildcard</i> is <b>VARIANT_TRUE</b>, and the latter when <i>automaticWildcard</i> is <b>VARIANT_FALSE</b>.
 
 
 
@@ -224,11 +224,11 @@ In many cases, a condition generator can ignore the argument <i>automaticWildcar
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-tagcondition_operation">CONDITION_OPERATION</a>
+<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-tagcondition_type">CONDITION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

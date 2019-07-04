@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0001">XPS_TILE_MODE</a> value that describes the tiling mode of the brush.
+Sets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE</a> value that describes the tiling mode of the brush.
             
 
 
@@ -62,7 +62,7 @@ Sets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/
 
 ### -param tileMode [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0001">XPS_TILE_MODE</a> value to be set.
+The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE</a> value to be set.
 
 
 ## -returns
@@ -94,7 +94,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-<i>tileMode</i> was not a valid <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0001">XPS_TILE_MODE</a> value.
+<i>tileMode</i> was not a valid <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE</a> value.
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ The method succeeded.
 
 
 
-The tile mode determines how the tile image is repeated to fill the output area. If the tile mode value is <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0001">XPS_TILE_MODE_NONE</a>, the tile image is drawn only once.
+The tile mode determines how the tile image is repeated to fill the output area. If the tile mode value is <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE_NONE</a>, the tile image is drawn only once.
 
 <img alt="An illustration that shows different examples of different tile mode behaviors" src="../images/TileMode.png"/>
 
@@ -127,7 +127,7 @@ The tile mode determines how the tile image is repeated to fill the output area.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0001">XPS_TILE_MODE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE</a>
  
 
  

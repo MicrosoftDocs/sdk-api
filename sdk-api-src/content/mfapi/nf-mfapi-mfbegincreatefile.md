@@ -64,17 +64,17 @@ Begins an asynchronous request to create a byte stream from a file.
 
 ### -param AccessMode [in]
 
-The requested access mode, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-__midl___midl_itf_mfobjects_0000_0017_0001">MF_FILE_ACCESSMODE</a> enumeration.
+The requested access mode, specified as a member of the <a href="https://docs.microsoft.com/windows/win32/api/mfobjects/ne-mfobjects-mf_file_accessmode">MF_FILE_ACCESSMODE</a> enumeration.
 
 
 ### -param OpenMode [in]
 
-The behavior of the function if the file already exists or does not exist, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-__midl___midl_itf_mfobjects_0000_0017_0002">MF_FILE_OPENMODE</a> enumeration.
+The behavior of the function if the file already exists or does not exist, specified as a member of the <a href="https://docs.microsoft.com/windows/win32/api/mfobjects/ne-mfobjects-mf_file_openmode">MF_FILE_OPENMODE</a> enumeration.
 
 
 ### -param fFlags [in]
 
-Bitwise <b>OR</b> of values from the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-__midl___midl_itf_mfobjects_0000_0017_0003">MF_FILE_FLAGS</a> enumeration.
+Bitwise <b>OR</b> of values from the <a href="https://docs.microsoft.com/windows/win32/api/mfobjects/ne-mfobjects-mf_file_flags">MF_FILE_FLAGS</a> enumeration.
 
 
 ### -param pwszFilePath [in]

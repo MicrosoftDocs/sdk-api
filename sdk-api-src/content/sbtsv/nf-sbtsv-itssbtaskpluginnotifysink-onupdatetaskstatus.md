@@ -71,7 +71,7 @@ The GUID that identifies the task.
 
 ### -param TaskStatus [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/sessdirpublictypes/ne-sessdirpublictypes-_rdv_task_status">RDV_TASK_STATUS</a> enumeration value representing the new state of the task.
+An <a href="https://docs.microsoft.com/windows/win32/api/sessdirpublictypes/ne-sessdirpublictypes-rdv_task_status">RDV_TASK_STATUS</a> enumeration value representing the new state of the task.
 
 
 ## -returns

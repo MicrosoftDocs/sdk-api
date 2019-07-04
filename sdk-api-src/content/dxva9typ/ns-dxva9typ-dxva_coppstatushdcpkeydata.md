@@ -64,7 +64,7 @@ Contains the result from an HDCP Key Data query in Certified Output Protection P
 
 ### -field rApp
 
-A 128-bit random number that was passed by the application in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_amcoppstatusinput">AMCOPPStatusInput</a> structure.
+A 128-bit random number that was passed by the application in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-amcoppstatusinput">AMCOPPStatusInput</a> structure.
 
 
 ### -field dwFlags

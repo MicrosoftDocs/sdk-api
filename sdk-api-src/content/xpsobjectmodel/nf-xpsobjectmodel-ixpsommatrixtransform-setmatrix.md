@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0023">XPS_MATRIX</a> structure, which specifies the transform matrix.
+Sets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_matrix">XPS_MATRIX</a> structure, which specifies the transform matrix.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Sets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/
 
 ### -param matrix [in]
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0023">XPS_MATRIX</a> structure.
+The address of the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_matrix">XPS_MATRIX</a> structure.
 
 
 ## -returns
@@ -131,7 +131,7 @@ The matrix referenced by <i>matrix</i> is not valid.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0023">XPS_MATRIX</a>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_matrix">XPS_MATRIX</a>
  
 
  

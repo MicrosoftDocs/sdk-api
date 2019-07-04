@@ -113,7 +113,7 @@ In Windows 7, this interface is defined in structuredquerycondition.idl and str
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-tagstructured_query_parse_error">STRUCTURED_QUERY_PARSE_ERROR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-structured_query_parse_error">STRUCTURED_QUERY_PARSE_ERROR</a>
  
 
  

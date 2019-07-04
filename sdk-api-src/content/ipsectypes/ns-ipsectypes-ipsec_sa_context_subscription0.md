@@ -61,7 +61,7 @@ The <b>IPSEC_SA_CONTEXT_SUBSCRIPTION0</b> structure stores information used to s
 
 ### -field enumTemplate
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_enum_template0_">IPSEC_SA_CONTEXT_ENUM_TEMPLATE0</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_enum_template0">IPSEC_SA_CONTEXT_ENUM_TEMPLATE0</a>*</b>
 
 Enumeration template for limiting the subscription.
 
@@ -85,7 +85,7 @@ Identifies the session that created the subscription.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_enum_template0_">IPSEC_SA_CONTEXT_ENUM_TEMPLATE0</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_enum_template0">IPSEC_SA_CONTEXT_ENUM_TEMPLATE0</a>
  
 
  

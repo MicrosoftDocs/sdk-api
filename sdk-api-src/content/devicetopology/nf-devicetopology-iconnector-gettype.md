@@ -64,7 +64,7 @@ The <b>GetType</b> method gets the type of this connector.
 
 ### -param pType [out]
 
-Pointer to a variable into which the method writes the connector type. The connector type is one of the following <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/ne-devicetopology-__midl___midl_itf_devicetopology_0000_0000_0013">ConnectorType</a> enumeration constants:
+Pointer to a variable into which the method writes the connector type. The connector type is one of the following <a href="https://docs.microsoft.com/windows/win32/api/devicetopology/ne-devicetopology-connectortype">ConnectorType</a> enumeration constants:
 
 Unknown_Connector
 

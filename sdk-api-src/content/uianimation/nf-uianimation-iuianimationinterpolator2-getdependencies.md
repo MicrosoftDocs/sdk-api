@@ -90,7 +90,7 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</
 This method is called to identify which aspects of the custom interpolator are affected by certain inputs: value, velocity, and duration. For each of these inputs, the interpolator returns either of the following:
 
 <ul>
-<li>The bitwise-OR of any members of <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0010_0001">UI_ANIMATION_DEPENDENCIES</a> that apply.</li>
+<li>The bitwise-OR of any members of <a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_dependencies">UI_ANIMATION_DEPENDENCIES</a> that apply.</li>
 <li><b>UI_ANIMATION_DEPENDENCY_NONE</b> if nothing depends on the input.</li>
 </ul>
 For example, consider an interpolator that:

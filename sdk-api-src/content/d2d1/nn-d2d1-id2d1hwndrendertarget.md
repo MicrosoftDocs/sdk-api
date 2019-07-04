@@ -124,14 +124,14 @@ If the adapter a render target is on has been removed or the driver upgraded whi
 
 
 <h3><a id="Creating_ID2D1HwndRenderTarget_Objects"></a><a id="creating_id2d1hwndrendertarget_objects"></a><a id="CREATING_ID2D1HWNDRENDERTARGET_OBJECTS"></a>Creating ID2D1HwndRenderTarget Objects</h3>
-To create an <b>ID2D1HwndRenderTarget</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createhwndrendertarget">ID2D1Factory::CreateHwndRenderTarget</a> method.
+To create an <b>ID2D1HwndRenderTarget</b>, use the <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createhwndrendertarget">ID2D1Factory::CreateHwndRenderTarget</a> method.
 
 Your application should create render targets once and hold onto them for the life of the application or until the render target's  <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a> method returns the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-error-codes">D2DERR_RECREATE_TARGET</a>  error. When you receive this error, you need to recreate the render target (and any resources it created).
 
 
 #### Examples
 
-The following example uses the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createhwndrendertarget">CreateHwndRenderTarget</a> method to create an <b>ID2D1HwndRenderTarget</b>.
+The following example uses the <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createhwndrendertarget">CreateHwndRenderTarget</a> method to create an <b>ID2D1HwndRenderTarget</b>.
 
 
 ```cpp

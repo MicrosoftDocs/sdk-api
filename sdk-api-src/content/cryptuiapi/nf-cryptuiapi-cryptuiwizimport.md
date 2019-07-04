@@ -77,9 +77,9 @@ The  function imports a <a href="https://docs.microsoft.com/windows/desktop/SecG
 </dl>
 </td>
 <td width="60%">
-This function will perform the import based on the information in the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-_cryptui_wiz_import_subject_info">CRYPTUI_WIZ_IMPORT_SRC_INFO</a> structure pointed to by <i>pImportSrc</i> into the store specified by <i>hDestCertStore</i> without displaying any user interface. If this flag is not specified, this function will display a wizard to guide the user through the import process.
+This function will perform the import based on the information in the <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_import_src_info">CRYPTUI_WIZ_IMPORT_SRC_INFO</a> structure pointed to by <i>pImportSrc</i> into the store specified by <i>hDestCertStore</i> without displaying any user interface. If this flag is not specified, this function will display a wizard to guide the user through the import process.
 
-Beginning with Windows 8 and Windows Server 2012, if you set this flag and are importing a certificate from a PFX BLOB that was protected to an Active Directory (AD) principal, and the current user, as part of that principal, has permission to decrypt the password embedded in the PFX packet, the importation will succeed without requiring that a password be set in the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-_cryptui_wiz_import_subject_info">CRYPTUI_WIZ_IMPORT_SRC_INFO</a> structure. For more information about protecting PFX to an AD principal, see the <i>pvPara</i> parameter and the <b>PKCS12_PROTECT_TO_DOMAIN_SIDS</b> flag of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-pfxexportcertstoreex">PFXExportCertStoreEx</a> function.
+Beginning with Windows 8 and Windows Server 2012, if you set this flag and are importing a certificate from a PFX BLOB that was protected to an Active Directory (AD) principal, and the current user, as part of that principal, has permission to decrypt the password embedded in the PFX packet, the importation will succeed without requiring that a password be set in the <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_import_src_info">CRYPTUI_WIZ_IMPORT_SRC_INFO</a> structure. For more information about protecting PFX to an AD principal, see the <i>pvPara</i> parameter and the <b>PKCS12_PROTECT_TO_DOMAIN_SIDS</b> flag of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-pfxexportcertstoreex">PFXExportCertStoreEx</a> function.
 
 </td>
 </tr>
@@ -202,7 +202,7 @@ A pointer to a null-terminated Unicode string that contains the title to use in 
 
 ### -param pImportSrc [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-_cryptui_wiz_import_subject_info">CRYPTUI_WIZ_IMPORT_SRC_INFO</a> structure that contains information about the object to import. This parameter is required if <b>CRYPTUI_WIZ_NO_UI</b> is set in <i>dwFlags</i> and is optional otherwise.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_import_src_info">CRYPTUI_WIZ_IMPORT_SRC_INFO</a> structure that contains information about the object to import. This parameter is required if <b>CRYPTUI_WIZ_NO_UI</b> is set in <i>dwFlags</i> and is optional otherwise.
 
 
 ### -param hDestCertStore [in]
@@ -249,7 +249,7 @@ store from among the current user certificate stores.</li>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-_cryptui_wiz_import_subject_info">CRYPTUI_WIZ_IMPORT_SRC_INFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_import_src_info">CRYPTUI_WIZ_IMPORT_SRC_INFO</a>
 
 
 

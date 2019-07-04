@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-__midl___midl_itf_xpsobjectmodel_1_0000_0000_0001">XPS_DOCUMENT_TYPE</a> enumerated value for the document package.
+Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-xps_document_type">XPS_DOCUMENT_TYPE</a> enumerated value for the document package.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Gets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_
 
 ### -param documentType [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-__midl___midl_itf_xpsobjectmodel_1_0000_0000_0001">XPS_DOCUMENT_TYPE</a> enumerated value.
+The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-xps_document_type">XPS_DOCUMENT_TYPE</a> enumerated value.
 
 
 ## -returns
@@ -82,7 +82,7 @@ This method returns an HRESULT value. If the method call fails, it returns the a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-__midl___midl_itf_xpsobjectmodel_1_0000_0000_0001">XPS_DOCUMENT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-xps_document_type">XPS_DOCUMENT_TYPE</a>
  
 
  
