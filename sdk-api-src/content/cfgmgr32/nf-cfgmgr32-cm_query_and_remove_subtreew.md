@@ -71,12 +71,12 @@ Caller-supplied device instance handle to the device at the root of the subtree 
 
 ### -param pVetoType [out, optional]
 
-(<i>Optional</i>) If not <b>NULL</b>, this points to a location that, if the removal request fails, receives a <a href="https://docs.microsoft.com/windows/desktop/api/cfg/ne-cfg-_pnp_veto_type">PNP_VETO_TYPE</a>-typed value indicating the reason for the failure.
+(<i>Optional</i>)  If the caller does not pass <b>NULL</b> and the removal request is vetoed (that is, the function returns CR_REMOVE_VETOED), on return this points to a <a href="https://docs.microsoft.com/windows/desktop/api/cfg/ne-cfg-_pnp_veto_type">PNP_VETO_TYPE</a>-typed value that indicates the reason for the veto.
 
 
 ### -param pszVetoName [out, optional]
 
-(<i>Optional</i>) If not <b>NULL</b>, this is a caller-supplied pointer to a string buffer that receives a text string. The type of information this string provides is dependent on the value received by <i>pVetoType</i>. For information about these strings, see <a href="https://docs.microsoft.com/windows/desktop/api/cfg/ne-cfg-_pnp_veto_type">PNP_VETO_TYPE</a>.
+(<i>Optional</i>) If the caller does not pass <b>NULL</b> and the removal request is vetoed (that is, the function returns CR_REMOVE_VETOED), on return this points to a text string that is associated with the veto type. The type of information this string provides is dependent on the value received by <i>pVetoType</i>. For information about these strings, see <a href="https://docs.microsoft.com/windows/desktop/api/cfg/ne-cfg-_pnp_veto_type">PNP_VETO_TYPE</a>.
 
 
 ### -param ulNameLength [in]
@@ -93,7 +93,7 @@ A bitwise OR of the caller-supplied flag constants that are described in the <b>
 
 
 
-If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it returns one of the CR_-prefixed error codes defined in <i>Cfgmgr32.h</i>.
+If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it returns one of the other CR_-prefixed error codes defined in <i>Cfgmgr32.h</i>.
 
 
 
