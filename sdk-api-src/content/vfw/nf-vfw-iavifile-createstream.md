@@ -65,7 +65,7 @@ The <b>CreateStream</b> method creates a stream for writing. Called when an appl
 
 ### -param ppStream
 
-TBD
+Pointer to a buffer that receives a pointer to the interface to the new stream.
 
 
 ### -param psi
@@ -73,14 +73,9 @@ TBD
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-_avistreaminfoa">AVISTREAMINFO</a> structure defining the stream to create.
 
 
-#### - pf
-
-Pointer to the interface to a file.
 
 
-#### - ppstream
 
-Pointer to a buffer that receives a pointer to the interface to the new stream.
 
 
 ## -returns

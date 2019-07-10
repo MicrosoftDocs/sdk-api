@@ -65,39 +65,20 @@ The <b>WriteData</b> method writes file headers. Called when an application uses
 
 ### -param ckid
 
-TBD
+A chunk ID.
 
 
 ### -param lpData
 
-TBD
+A pointer specifying the memory from which the data is written.
 
 
 ### -param cbData
 
-TBD
+A LONG specifying the number of bytes to write.
 
 
 
-
-#### - cbBuffer
-
-Size, in bytes, of the buffer specified by <i>lpBuffer</i>.
-
-
-#### - fcc
-
-Four-character code of the header to write.
-
-
-#### - lpBuffer
-
-Pointer to the buffer for the data.
-
-
-#### - ps
-
-Pointer to the interface to a file.
 
 
 ## -returns

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the cached sink protocol info for the device.
+Sets the cached sink protocol info for the device.
 
 
 ## -parameters
@@ -61,19 +61,8 @@ Gets the cached sink protocol info for the device.
 
 ### -param value
 
-TBD
+The cached sink protocol info for the device.
 
-
-
-
-#### - bitrate [in]
-
- The bitrate value.
-
-
-#### - physicalNetworkInterface [in]
-
-Specifies the physical network interface.
 
 
 ## -returns
