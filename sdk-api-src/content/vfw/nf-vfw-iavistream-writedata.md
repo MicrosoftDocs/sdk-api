@@ -70,29 +70,14 @@ Four-character code of the stream header to write.
 
 ### -param lp
 
-TBD
+Pointer to the buffer that contains the header data to write.
 
 
 ### -param cb
 
-TBD
-
-
-
-
-#### - cbBuffer
-
 Size, in bytes, of the buffer specified by <i>lpBuffer</i>.
 
 
-#### - lpBuffer
-
-Pointer to the buffer that contains the header data to write.
-
-
-#### - ps
-
-Pointer to the interface to a stream.
 
 
 ## -returns

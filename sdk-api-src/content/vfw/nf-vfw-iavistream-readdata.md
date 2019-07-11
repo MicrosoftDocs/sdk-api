@@ -70,29 +70,15 @@ Four-character code of the stream header to read.
 
 ### -param lp
 
-TBD
+Pointer to the buffer to contain the header data.
 
 
 ### -param lpcb
 
-TBD
-
-
-
-
-#### - lpBuffer
-
-Pointer to the buffer to contain the header data.
-
-
-#### - lpcbBuffer
-
 Size, in bytes, of the buffer specified by <i>lpBuffer</i>. When this method returns control to the application, the contents of this parameter specifies the amount of data read.
 
 
-#### - ps
 
-Pointer to the interface to a stream.
 
 
 ## -returns

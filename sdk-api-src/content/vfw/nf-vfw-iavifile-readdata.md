@@ -65,39 +65,20 @@ The <b>ReadData</b> method reads file headers. Called when an application uses t
 
 ### -param ckid
 
-TBD
+A chunk identfier.
 
 
 ### -param lpData
 
-TBD
+A pointer specifying the memory into which the data is read.
 
 
 ### -param lpcbData
 
-TBD
+A pointer to a LONG specifying the number of bytes read. 
 
 
 
-
-#### - fcc
-
-Four-character code of the header to read.
-
-
-#### - lpBuffer
-
-Pointer to the buffer for the data.
-
-
-#### - lpcbBuffer
-
-Size, in bytes, of the buffer specified by <i>lpBuffer</i>. When this method returns control to the application, the contents of this parameter specifies the amount of data read.
-
-
-#### - ps
-
-Pointer to the interface to a file.
 
 
 ## -returns

@@ -85,7 +85,7 @@ Starting position of the copy operation within the source stream.
 
 ### -param lEnd
 
-TBD
+Ending position of the copy operation within the source stream.
 
 
 
