@@ -49,25 +49,22 @@ ms.custom: RS5, 19H1
 
 # IUIAutomation6::put_ConnectionRecoveryBehavior
 
-
 ## -description
-
 
 Indicates whether an accessible technology client adjusts provider request timeouts when the provider is non-responsive.
 
 This property is read/write.
 
-
 ## -parameters
 
+See remarks.
+
+## -remarks
+
+### -param connectionRecoveryBehaviorOptions [out]
+
+Value indicating whether provider request timeouts are adjusted. The default is [ConnectionRecoveryBehaviorOptions_Disabled](ne-uiautomationclient-connectionrecoverybehavioroptions.md).
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation6">IUIAutomation6</a>
- 
-
- 
-

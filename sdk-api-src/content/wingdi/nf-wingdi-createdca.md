@@ -88,9 +88,9 @@ This parameter is ignored and should be set to <b>NULL</b>. It is provided only 
 
 ### -param pdm [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> structure containing device-specific initialization data for the device driver. The <a href="https://docs.microsoft.com/windows/desktop/printdocs/documentproperties">DocumentProperties</a> function retrieves this structure filled in for a specified device. The <i>lpInitData</i> parameter must be <b>NULL</b> if the device driver is to use the default initialization (if any) specified by the user.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> structure containing device-specific initialization data for the device driver. The <a href="https://docs.microsoft.com/windows/desktop/printdocs/documentproperties">DocumentProperties</a> function retrieves this structure filled in for a specified device. The <i>pdm</i> parameter must be <b>NULL</b> if the device driver is to use the default initialization (if any) specified by the user.
 
-If <i>lpszDriver</i> is DISPLAY, <i>lpInitData</i> must be <b>NULL</b>; GDI then uses the display device's current <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a>.
+If <i>lpszDriver</i> is DISPLAY, <i>pdm</i> must be <b>NULL</b>; GDI then uses the display device's current <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a>.
 
 
 ## -returns
@@ -116,7 +116,7 @@ When you no longer need the DC, call the <a href="https://docs.microsoft.com/win
 
 If <i>lpszDriver</i> or <i>lpszDevice</i> is DISPLAY, the thread that calls <b>CreateDC</b> owns the <b>HDC</b> that is created. When this thread is destroyed, the <b>HDC</b> is no longer valid. Thus, if you create the <b>HDC</b> and pass it to another thread, then exit the first thread, the second thread will not be able to use the <b>HDC</b>.
 
-When you call <b>CreateDC</b> to create the <b>HDC</b> for a display device, you must pass to <i>lpInitData</i> either <b>NULL</b> or a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> that matches the current <b>DEVMODE</b> of the display device that <i>lpszDevice</i> specifies. We recommend to pass <b>NULL</b> and not to try to exactly match the <b>DEVMODE</b> for the current display device.
+When you call <b>CreateDC</b> to create the <b>HDC</b> for a display device, you must pass to <i>pdm</i> either <b>NULL</b> or a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> that matches the current <b>DEVMODE</b> of the display device that <i>lpszDevice</i> specifies. We recommend to pass <b>NULL</b> and not to try to exactly match the <b>DEVMODE</b> for the current display device.
 
 When you call <b>CreateDC</b> to create the <b>HDC</b> for a printer device, the printer driver validates the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a>. If the printer driver determines that the <b>DEVMODE</b> is invalid (that is, printer driver can’t convert or consume the DEVMODE), the printer driver provides a default <b>DEVMODE</b> to create the HDC for the printer device.
 
