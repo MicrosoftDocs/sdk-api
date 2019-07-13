@@ -54,7 +54,7 @@ A pointer to an [IFileViewerSite](nn-shlobj-ifileviewersite) interface. A file v
 
 ## -returns
 
-The Shell calls this method before the [IFileViewerA::Show](C:\sdk-api\sdk-api-src\content\shlobj\nf-shlobj-ifileviewera-show) method. The Shell specifies the name of the file to display by calling the file viewer's [IPersistFile::Load](https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-load) method.
+The Shell calls this method before the [IFileViewerA::Show](nf-shlobj-ifileviewera-show) method. The Shell specifies the name of the file to display by calling the file viewer's [IPersistFile::Load](https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-load) method.
 
 ## -remarks
 
