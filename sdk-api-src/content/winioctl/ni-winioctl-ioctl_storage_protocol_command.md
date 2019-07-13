@@ -49,14 +49,7 @@ req.redist:
 
 ## -description
 
-
-Windows applications can use this control code to return properties of a storage device or adapter. The request indicates the kind of information to retrieve, such as inquiry data for a device or capabilities and limitations of an adapter.
-     
-    
-
-<b>IOCTL_STORAGE_QUERY_PROPERTY</b> can also be used to determine whether the port driver supports a particular property or which fields in the property descriptor can be modified with a subsequent change-property request. 
-
-Usually, the caller is a storage class driver, but the caller can be an application that makes requests directly to the port driver when no storage class driver exists for the target device.
+Windows applications can use <b>IOCTL_STORAGE_PROTOCOL_COMMAND</b> to conduct pass-through of protocol specific commands to the storage device or adapter. The request indicates the bus specific command which is further sent to a specific type of device to process. For more information, see the page on <a href="https://docs.microsoft.com/en-us/windows/win32/fileio/working-with-nvme-devices#using-ioctl_storage_protocol_command-to-send-commands">working with NVMe drives</a>.
 
 To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
    function with the following parameters.
@@ -66,15 +59,18 @@ To perform this operation, call the <a href="https://docs.microsoft.com/windows/
 </tr>
 <tr>
 <td>
-<pre>BOOL 
+<pre>
+BOOL 
    WINAPI 
    DeviceIoControl( (HANDLE)       hDevice,         // handle to device
-                    (DWORD)        IOCTL_STORAGE_QUERY_PROPERTY, // dwIoControlCode(LPDWORD)      lpInBuffer,      // input buffer
+                    (DWORD)        IOCTL_STORAGE_PROTOCOL_COMMAND, // dwIoControlCode
+                    (LPDWORD)      lpInBuffer,      // input buffer
                     (DWORD)        nInBufferSize,   // size of input buffer
                     (LPDWORD)      lpOutBuffer,     // output buffer
                     (DWORD)        nOutBufferSize,  // size of output buffer
                     (LPDWORD)      lpBytesReturned, // number of bytes returned
-                    (LPOVERLAPPED) lpOverlapped );  // OVERLAPPED structure</pre>
+                    (LPOVERLAPPED) lpOverlapped );  // OVERLAPPED structure
+</pre>
 </td>
 </tr>
 </table></span></div>
