@@ -107,7 +107,7 @@ If the current world transform is not preserving the axis, <i>clipRectangle</i> 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-pushaxisalignedclip">ID2D1RenderTarget::PushAxisAlignedClip</a>
+<a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushaxisalignedclip">ID2D1RenderTarget::PushAxisAlignedClip</a>
  
 
  

@@ -100,7 +100,7 @@ This method fails if <i>animation</i> is an invalid pointer or if it was not cre
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setangley">IDCompositionSkewTransform::SetAngleY</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionskewtransform-setangley">IDCompositionSkewTransform::SetAngleY</a>
  
 
  

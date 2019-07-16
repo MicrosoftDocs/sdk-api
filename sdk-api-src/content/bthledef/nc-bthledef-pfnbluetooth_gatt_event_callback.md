@@ -66,7 +66,7 @@ The type of GATT event.
 
 ### -param EventOutParameter [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-_bluetooth_gatt_value_changed_event">BLUETOOTH_GATT_VALUE_CHANGED_EVENT</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/bthledef/ns-bthledef-bluetooth_gatt_value_changed_event">BLUETOOTH_GATT_VALUE_CHANGED_EVENT</a> structure.
 
 
 ### -param Context [in, optional]
@@ -90,7 +90,7 @@ None
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-_bluetooth_gatt_value_changed_event">BLUETOOTH_GATT_VALUE_CHANGED_EVENT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/bthledef/ns-bthledef-bluetooth_gatt_value_changed_event">BLUETOOTH_GATT_VALUE_CHANGED_EVENT</a>
 
 
 

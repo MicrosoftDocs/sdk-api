@@ -63,7 +63,7 @@ client-to-server for authentication by the specified server-side
 username/password validator specified by the application.
             
 
-In contrast, the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_windows_integrated_auth_credential">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a> and
+In contrast, the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_windows_integrated_auth_credential">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a> and
 its concrete subtypes are used for Windows Integrated Authentication
 and the security bindings that use it.
             

@@ -64,7 +64,7 @@ The <b>GetPartType</b> method gets the part type of this part.
 
 ### -param pPartType [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/ne-devicetopology-__midl___midl_itf_devicetopology_0000_0000_0012">PartType</a> variable into which the method writes the part type. The part type is one of the following <b>PartType</b> enumeration values, which indicate whether the part is a connector or subunit:
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/devicetopology/ne-devicetopology-parttype">PartType</a> variable into which the method writes the part type. The part type is one of the following <b>PartType</b> enumeration values, which indicate whether the part is a connector or subunit:
 
 Connector
 

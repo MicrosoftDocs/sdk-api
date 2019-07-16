@@ -218,7 +218,7 @@ The information level for the service control parameters. This parameter must be
 
 ### -param pControlParams [in, out]
 
-A pointer to the service control parameters. If <i>dwInfoLevel</i> is SERVICE_CONTROL_STATUS_REASON_INFO, this member is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_control_status_reason_paramsa">SERVICE_CONTROL_STATUS_REASON_PARAMS</a> structure.
+A pointer to the service control parameters. If <i>dwInfoLevel</i> is SERVICE_CONTROL_STATUS_REASON_INFO, this member is a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winsvc/ns-winsvc-service_control_status_reason_paramsa">SERVICE_CONTROL_STATUS_REASON_PARAMS</a> structure.
 
 
 ## -returns
@@ -279,7 +279,7 @@ The specified handle was not obtained using
 </dl>
 </td>
 <td width="60%">
-The requested control code in the <i>dwControl</i> parameter is undefined, or <i>dwControl</i> is SERVICE_CONTROL_STOP but the <b>dwReason</b> or <b>pszComment</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_control_status_reason_paramsa">SERVICE_CONTROL_STATUS_REASON_PARAMS</a> structure are not valid.
+The requested control code in the <i>dwControl</i> parameter is undefined, or <i>dwControl</i> is SERVICE_CONTROL_STOP but the <b>dwReason</b> or <b>pszComment</b> members of the <a href="https://docs.microsoft.com/windows/win32/api/winsvc/ns-winsvc-service_control_status_reason_paramsa">SERVICE_CONTROL_STATUS_REASON_PARAMS</a> structure are not valid.
 
 </td>
 </tr>
@@ -432,7 +432,7 @@ The following table shows the action of the SCM  in each of the possible service
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_control_status_reason_paramsa">SERVICE_CONTROL_STATUS_REASON_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winsvc/ns-winsvc-service_control_status_reason_paramsa">SERVICE_CONTROL_STATUS_REASON_PARAMS</a>
 
 
 

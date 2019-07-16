@@ -87,5 +87,5 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webse
 
 ### -field clientCredential
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_windows_integrated_auth_credential">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a> structure to be used to authenticate the client. This is required on the client and must not be specified on the server. 
+The <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_windows_integrated_auth_credential">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a> structure to be used to authenticate the client. This is required on the client and must not be specified on the server. 
 

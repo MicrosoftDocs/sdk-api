@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The type of the Windows Integrated Authentication credential, used as
-a selector for subtypes of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_windows_integrated_auth_credential">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
+a selector for subtypes of <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_windows_integrated_auth_credential">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
             
 
 

@@ -96,7 +96,7 @@ message as carrying the claims present in the certificate.
 
 ### -param properties
 
-An array of  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_security_token_property">WS_XML_SECURITY_TOKEN_PROPERTY</a> structures containing optional properties for the XML security token.
+An array of  <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_security_token_property">WS_XML_SECURITY_TOKEN_PROPERTY</a> structures containing optional properties for the XML security token.
 
 The value of this parameter may be <b>NULL</b>, in which case, the <i>propertyCount</i> parameter must be 0 (zero).
                 

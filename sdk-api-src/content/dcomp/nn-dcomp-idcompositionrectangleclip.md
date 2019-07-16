@@ -177,7 +177,7 @@ The <b>IDCompositionRectangleClip</b> interface has these methods.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setclip">IDCompositionVisual::SetClip</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-setclip">IDCompositionVisual::SetClip</a>
  
 
  

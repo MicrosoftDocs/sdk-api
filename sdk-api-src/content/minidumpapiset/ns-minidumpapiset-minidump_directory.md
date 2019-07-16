@@ -68,7 +68,7 @@ The type of data stream. This member can be one of the values in the
 ### -field Location
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_location_descriptor">MINIDUMP_LOCATION_DESCRIPTOR</a> structure that specifies the location of the data stream.
+<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_location_descriptor">MINIDUMP_LOCATION_DESCRIPTOR</a> structure that specifies the location of the data stream.
 
 
 ## -remarks
@@ -85,7 +85,7 @@ In this context, a data stream is a block of data within a minidump file.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_location_descriptor">MINIDUMP_LOCATION_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_location_descriptor">MINIDUMP_LOCATION_DESCRIPTOR</a>
 
 
 

@@ -63,13 +63,13 @@ Remote Desktop Gateway (RD Gateway) calls this method to pass information to an
 
 ### -param accountingDataType [in]
 
-A value of the <a href="https://docs.microsoft.com/windows/win32/api/tsgpolicyengine/ne-tsgpolicyengine-aaaccountingdatatype">AAAccountingDataType</a> 
+A value of the <a href="https://docs.microsoft.com/windows/win32/api/tsgpolicyengine/ns-tsgpolicyengine-aaaccountingdata">AAAccountingDataType</a> 
       enumeration type that specifies the type of event that occurred.
 
 
 ### -param accountingData [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/ns-tsgpolicyengine-__midl___midl_itf_tsgpolicyengine_0000_0000_0003">AAAccountingData</a> structure that contains 
+An <a href="https://docs.microsoft.com/windows/win32/api/tsgpolicyengine/ns-tsgpolicyengine-aaaccountingdata">AAAccountingData</a> structure that contains 
        information about the event that occurred.
 
 

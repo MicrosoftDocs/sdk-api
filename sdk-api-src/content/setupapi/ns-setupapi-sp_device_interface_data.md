@@ -113,7 +113,7 @@ A SetupAPI function that takes an instance of the SP_DEVICE_INTERFACE_DATA struc
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_device_interface_detail_data_a">SP_DEVICE_INTERFACE_DETAIL_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/setupapi/ns-setupapi-sp_device_interface_detail_data_a">SP_DEVICE_INTERFACE_DETAIL_DATA</a>
 
 
 

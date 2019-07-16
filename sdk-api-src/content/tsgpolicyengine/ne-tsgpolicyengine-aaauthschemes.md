@@ -132,7 +132,7 @@ This value is reserved.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/ns-tsgpolicyengine-__midl___midl_itf_tsgpolicyengine_0000_0000_0003">AAAccountingData</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tsgpolicyengine/ns-tsgpolicyengine-aaaccountingdata">AAAccountingData</a>
  
 
  

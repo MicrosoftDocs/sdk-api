@@ -100,11 +100,11 @@ If the OffsetX property was previously animated, this method removes the animati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setoffsety">IDCompositionTranslateTransform3D::SetOffsetY</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositiontranslatetransform3d-setoffsety">IDCompositionTranslateTransform3D::SetOffsetY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setoffsetz">IDCompositionTranslateTransform3D::SetOffsetZ</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositiontranslatetransform3d-setoffsetz">IDCompositionTranslateTransform3D::SetOffsetZ</a>
  
 
  

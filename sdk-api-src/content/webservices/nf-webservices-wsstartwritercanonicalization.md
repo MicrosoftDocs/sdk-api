@@ -81,7 +81,7 @@ Caller-defined state that should be passed when invoking the <a href="https://do
 
 ### -param properties
 
-An array of optional properties controlling how canonicalization is to be performed.  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_canonicalization_property">WS_XML_CANONICALIZATION_PROPERTY</a>.
+An array of optional properties controlling how canonicalization is to be performed.  See <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_canonicalization_property">WS_XML_CANONICALIZATION_PROPERTY</a>.
         
 
 

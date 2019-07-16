@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The table of <a href="https://docs.microsoft.com/windows/desktop/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-_net_interface_context">NET_INTERFACE_CONTEXT</a> structures.
+The table of <a href="https://docs.microsoft.com/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context">NET_INTERFACE_CONTEXT</a> structures.
 
 
 ## -struct-fields
@@ -71,7 +71,7 @@ The number of entries in the table.
 
 ### -field InterfaceContextArray
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-_net_interface_context">NET_INTERFACE_CONTEXT</a> structures.
+An array of <a href="https://docs.microsoft.com/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context">NET_INTERFACE_CONTEXT</a> structures.
 
 
 ## -see-also
@@ -83,7 +83,7 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/ondemandconn
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-_net_interface_context">NET_INTERFACE_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context">NET_INTERFACE_CONTEXT</a>
  
 
  

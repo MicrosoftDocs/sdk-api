@@ -65,7 +65,7 @@ Defines the security algorithms to be used with WS-Security.
 ### -field WS_SECURITY_ALGORITHM_DEFAULT
 
 Default security algorithm for the particular algorithm type. See 
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_algorithm_suite">WS_SECURITY_ALGORITHM_SUITE</a> for a description of the 
+                    <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_security_algorithm_suite">WS_SECURITY_ALGORITHM_SUITE</a> for a description of the 
                     specific algorithm used when this value is set.
                 
 

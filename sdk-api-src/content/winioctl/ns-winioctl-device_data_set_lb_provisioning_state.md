@@ -103,12 +103,12 @@ The allocation bitmap containing one bit for each slab. If a bit is set then the
 
 
 Provisioning state information is returned when the <b>Action</b> member of the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+     <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
      structure is set to <b>DeviceDsmAction_Allocation</b>. The caller should include only one data 
      set range in the system buffer at <b>DataSetRangesOffset</b>.
 
 On return, the system buffer contains a 
-     <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes_output">DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</a> 
+     <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</a> 
      structure followed by the 
      <b>DEVICE_DATA_SET_LB_PROVISIONING_STATE</b> 
      structure. The 

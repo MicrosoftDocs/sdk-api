@@ -96,7 +96,7 @@ If the <i>opacityMode</i> parameter is anything other than DCOMPOSITION_OPACITY_
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setopacity">IDCompositionEffectGroup::SetOpacity</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositioneffectgroup-setopacity(float)">IDCompositionEffectGroup::SetOpacity</a>
 
 
 

@@ -100,11 +100,11 @@ If the ScaleX property was previously animated, this method removes the animatio
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setscaley">IDCompositionScaleTransform3D::SetScaleY</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setscaley">IDCompositionScaleTransform3D::SetScaleY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setscalez">IDCompositionScaleTransform3D::SetScaleZ</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setscalez">IDCompositionScaleTransform3D::SetScaleZ</a>
  
 
  

@@ -89,7 +89,7 @@ The stream contains module information. For more information, see
 ### -field MemoryListStream
 
 The stream contains memory allocation information. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_memory64_list">MINIDUMP_MEMORY_LIST</a>.
+<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_list">MINIDUMP_MEMORY_LIST</a>.
 
 
 ### -field ExceptionStream
@@ -279,7 +279,7 @@ The <b>StreamType</b> member of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_memory64_list">MINIDUMP_MEMORY_LIST</a>
+<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_list">MINIDUMP_MEMORY_LIST</a>
 
 
 

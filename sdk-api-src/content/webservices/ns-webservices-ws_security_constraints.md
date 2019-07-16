@@ -96,7 +96,7 @@ Any array of security binding constraints which taken as a unit specify
                     the type of security to match in the policy.
                 
 
-The type of each <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_binding_constraint">WS_SECURITY_BINDING_CONSTRAINT</a> corresponds
+The type of each <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_security_binding_constraint">WS_SECURITY_BINDING_CONSTRAINT</a> corresponds
                     to the types of security that is specified using a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_binding">WS_SECURITY_BINDING</a>structure.  Each security binding specifies one security token, and similarly,
                     each security binding constraint specifies constraints on one security token.
                 

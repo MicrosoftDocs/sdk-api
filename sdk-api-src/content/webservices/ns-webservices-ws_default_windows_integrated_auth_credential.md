@@ -57,7 +57,7 @@ Type for supplying a Windows Integrated Authentication credential based on the c
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsacceptchannel">WsAcceptChannel</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenservicehost">WsOpenServiceHost</a> do not support this credential type when called from an impersonating thread. 
 
 
-This type derives from the base type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_windows_integrated_auth_credential">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>. For an instance of this type, the type selector field <b>credential.credentialType</b> must have the value <b>WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE</b>. 
+This type derives from the base type <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_windows_integrated_auth_credential">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>. For an instance of this type, the type selector field <b>credential.credentialType</b> must have the value <b>WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE</b>. 
 
 
 
@@ -70,5 +70,5 @@ This type derives from the base type <a href="https://docs.microsoft.com/windows
 ### -field credential
 
 The base type from which this type and all other Windows Integrated Authentication credential types derive.
-                See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_windows_integrated_auth_credential">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
+                See <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_windows_integrated_auth_credential">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
 

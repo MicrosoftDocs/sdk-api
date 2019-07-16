@@ -100,11 +100,11 @@ If the CenterZ property was previously animated, this method removes the animati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setcenterx">IDCompositionRotateTransform3D::SetCenterX</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setcenterx">IDCompositionRotateTransform3D::SetCenterX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setcentery">IDCompositionRotateTransform3D::SetCenterY</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setcentery">IDCompositionRotateTransform3D::SetCenterY</a>
  
 
  
