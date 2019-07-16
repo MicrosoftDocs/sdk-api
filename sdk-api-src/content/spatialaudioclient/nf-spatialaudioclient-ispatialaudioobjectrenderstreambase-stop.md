@@ -65,7 +65,70 @@ Stops a running audio stream.
 
 
 
-If the method succeeds, it returns S_OK. If the stream is not running when this method is called, it returns S_FALSE.
+If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+
+
+
+<tr>
+<td width="40%">
+<dl>
+<dt><b>SPTLAUDCLNT_E_DESTROYED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a> associated with the spatial audio stream has been destroyed.
+
+</td>
+</tr>
+
+
+<tr>
+<td width="40%">
+<dl>
+<dt><b>AUDCLNT_E_DEVICE_INVALIDATED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The audio endpoint device has been unplugged, or the audio hardware or associated hardware resources have been reconfigured, disabled, removed, or otherwise made unavailable for use.
+
+</td>
+</tr>
+
+
+
+
+<tr>
+<td width="40%">
+<dl>
+<dt><b>SPTLAUDCLNT_E_INTERNAL</b></dt>
+</dl>
+</td>
+<td width="60%">
+An internal error has occurred.
+
+</td>
+</tr>
+
+
+
+<tr>
+<td width="40%">
+<dl>
+<dt><b>AUDCLNT_E_UNSUPPORTED_FORMAT</b></dt>
+</dl>
+</td>
+<td width="60%">
+The media associated with the spatial audio stream uses an unsupported format.
+
+</td>
+</tr>
+</table>
 
 
 
