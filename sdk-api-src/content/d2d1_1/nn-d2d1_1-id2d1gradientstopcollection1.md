@@ -130,7 +130,7 @@ Gets the color space of the input colors as well as the space in which gradient 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-creategradientstopcollection">ID2D1RenderTarget::CreateGradientStopCollection</a>
+<a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection">ID2D1RenderTarget::CreateGradientStopCollection</a>
  
 
  

@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Each property represents optional parameters for configuring 
                 the given <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_endpoint">WS_SERVICE_ENDPOINT</a> structure.
-            This enumeration is used within the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_endpoint_property">WS_SERVICE_ENDPOINT_PROPERTY</a> structure that is part of <b>WS_SERVICE_ENDPOINT</b>.
+            This enumeration is used within the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_service_endpoint_property">WS_SERVICE_ENDPOINT_PROPERTY</a> structure that is part of <b>WS_SERVICE_ENDPOINT</b>.
 
 
 ## -enum-fields
@@ -152,10 +152,10 @@ The following message properties may be specified:
 
 The maximum number of call servicing objects that would be pooled to service a message object, on a given
                     endpoint. Note that in case of session based channels many call objects can be used on a single 
-                                        channel if <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_service_endpoint_property_id">WS_SERVICE_ENDPOINT_PROPERTY_MAX_CONCURRENCY</a> is greater than 1. 
+                                        channel if <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_service_endpoint_property">WS_SERVICE_ENDPOINT_PROPERTY_MAX_CONCURRENCY</a> is greater than 1. 
 
 
-For sessionless channels this property should ideally be equal to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_service_endpoint_property_id">WS_SERVICE_ENDPOINT_PROPERTY_MAX_CHANNEL_POOL_SIZE</a>.
+For sessionless channels this property should ideally be equal to <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_service_endpoint_property">WS_SERVICE_ENDPOINT_PROPERTY_MAX_CHANNEL_POOL_SIZE</a>.
                 
 
 Default is 100.
@@ -222,7 +222,7 @@ Specifies the suffix which is concatenated as is to the <a href="https://docs.mi
                     serviced. 
                 
 
-This property must only be specified if <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_service_endpoint_property_id">WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_TYPE</a> is set to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_metadata_exchange_type">WS_METADATA_EXCHANGE_TYPE_MEX</a>.
+This property must only be specified if <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_service_endpoint_property">WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_TYPE</a> is set to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_metadata_exchange_type">WS_METADATA_EXCHANGE_TYPE_MEX</a>.
                 
 
 Specifying this property is useful in cases where an application wishes to handle WS-Transfer Get requests as well as use the same endpoint to service 

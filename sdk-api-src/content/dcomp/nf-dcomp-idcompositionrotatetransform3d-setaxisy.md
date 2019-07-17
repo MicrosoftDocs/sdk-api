@@ -102,11 +102,11 @@ If the AxisY property was previously animated, this method removes the animation
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setaxisx">IDCompositionRotateTransform3D::SetAxisX</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setaxisx">IDCompositionRotateTransform3D::SetAxisX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setaxisz">IDCompositionRotateTransform3D::SetAxisZ</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setaxisz">IDCompositionRotateTransform3D::SetAxisZ</a>
  
 
  

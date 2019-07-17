@@ -84,7 +84,7 @@ Flags specific to the notify operation
 <td width="60%">
 The ranges specified in the 
         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_data_set_range">DEVICE_DATA_SET_RANGE</a> structures following the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+        <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
         structure are currently being used by the file types that are specified in the 
         <b>FileTypeIDs</b> member.
 
@@ -163,7 +163,7 @@ Specifies a notification operation for a system crash dump file.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 

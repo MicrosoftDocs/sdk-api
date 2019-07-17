@@ -98,7 +98,7 @@ If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HR
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-fillrectangle">ID2D1RenderTarget::FillRectangle</a>
+<a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillrectangle">ID2D1RenderTarget::FillRectangle</a>
  
 
  

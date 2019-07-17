@@ -157,13 +157,13 @@ Use the
     control code for sending storage system-specific information to the volume manager and storage system.
 
 The input buffers passed through the <i>lpInBuffer</i> parameter start with a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+     <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
      structure but may contain additional parameters before the list of data set ranges depending on the value of the 
      <b>Action</b> member of the 
      <b>DEVICE_MANAGE_DATA_SET_ATTRIBUTES</b> 
      structure. The output buffers returned 
      through the <i>lpOutBuffer</i> parameter start with a 
-     <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes_output">DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</a> 
+     <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</a> 
      structure but then can contain additional data depending on the value of the <b>Action</b> 
      member of the 
      <b>DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</b> 
@@ -243,7 +243,7 @@ The input buffers passed through the <i>lpInBuffer</i> parameter start with a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 

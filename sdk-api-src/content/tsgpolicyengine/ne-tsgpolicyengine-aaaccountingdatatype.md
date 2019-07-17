@@ -64,7 +64,7 @@ Specifies the type of event that the <a href="https://docs.microsoft.com/windows
 
 A new session was created.
 
-The following fields in the <a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/ns-tsgpolicyengine-__midl___midl_itf_tsgpolicyengine_0000_0000_0003">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
+The following fields in the <a href="https://docs.microsoft.com/windows/win32/api/tsgpolicyengine/ns-tsgpolicyengine-aaaccountingdata">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
 
 <ul>
 <li><b>userName</b></li>
@@ -77,7 +77,7 @@ The following fields in the <a href="https://docs.microsoft.com/windows/desktop/
 
 A new subsession was created by an  existing connection.
 
-The following fields in the <a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/ns-tsgpolicyengine-__midl___midl_itf_tsgpolicyengine_0000_0000_0003">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
+The following fields in the <a href="https://docs.microsoft.com/windows/win32/api/tsgpolicyengine/ns-tsgpolicyengine-aaaccountingdata">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
 
 <ul>
 <li><b>userName</b></li>
@@ -92,7 +92,7 @@ The following fields in the <a href="https://docs.microsoft.com/windows/desktop/
 
 A subsession was closed.
 
-The following fields in the <a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/ns-tsgpolicyengine-__midl___midl_itf_tsgpolicyengine_0000_0000_0003">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
+The following fields in the <a href="https://docs.microsoft.com/windows/win32/api/tsgpolicyengine/ns-tsgpolicyengine-aaaccountingdata">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
 
 <ul>
 <li><b>numberOfBytesTransfered</b></li>
@@ -105,7 +105,7 @@ The following fields in the <a href="https://docs.microsoft.com/windows/desktop/
 
 A connection was closed.
 
-The following fields in the <a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/ns-tsgpolicyengine-__midl___midl_itf_tsgpolicyengine_0000_0000_0003">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
+The following fields in the <a href="https://docs.microsoft.com/windows/win32/api/tsgpolicyengine/ns-tsgpolicyengine-aaaccountingdata">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
 
 <ul>
 <li><b>mainSessionId</b></li>

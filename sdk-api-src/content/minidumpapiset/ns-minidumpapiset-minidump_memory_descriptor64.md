@@ -74,7 +74,7 @@ The starting address of the memory range.
 #### - Memory
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_location_descriptor">MINIDUMP_LOCATION_DESCRIPTOR</a> structure.
+<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_location_descriptor">MINIDUMP_LOCATION_DESCRIPTOR</a> structure.
 
 
 ## -remarks
@@ -101,7 +101,7 @@ typedef struct _MINIDUMP_MEMORY_DESCRIPTOR64 {
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_location_descriptor">MINIDUMP_LOCATION_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_location_descriptor">MINIDUMP_LOCATION_DESCRIPTOR</a>
  
 
  

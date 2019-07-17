@@ -117,7 +117,7 @@ The information represented by each of these values can vary by operating system
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_handle_object_information">MINIDUMP_HANDLE_OBJECT_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_handle_object_information">MINIDUMP_HANDLE_OBJECT_INFORMATION</a>
  
 
  

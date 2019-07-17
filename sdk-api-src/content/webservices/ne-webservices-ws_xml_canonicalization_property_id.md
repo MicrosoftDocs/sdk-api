@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Identifies each XML canonicalization property and its associated
-        value.  This enumeration is used within the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_canonicalization_property">WS_XML_CANONICALIZATION_PROPERTY</a> structure, which is used as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsstartreadercanonicalization">WsStartReaderCanonicalization</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsstartwritercanonicalization">WsStartWriterCanonicalization</a>.
+        value.  This enumeration is used within the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_canonicalization_property">WS_XML_CANONICALIZATION_PROPERTY</a> structure, which is used as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsstartreadercanonicalization">WsStartReaderCanonicalization</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsstartwritercanonicalization">WsStartWriterCanonicalization</a>.
 
 
 ## -enum-fields

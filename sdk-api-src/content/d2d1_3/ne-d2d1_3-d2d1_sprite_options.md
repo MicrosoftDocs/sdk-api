@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies additional aspects of how a sprite batch is to be drawn, as part of a call to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-drawspritebatch">ID2D1DeviceContext3::DrawSpriteBatch</a>.
+Specifies additional aspects of how a sprite batch is to be drawn, as part of a call to <a href="https://docs.microsoft.com/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext3-drawspritebatch(id2d1spritebatch_id2d1bitmap_d2d1_bitmap_interpolation_mode_d2d1_sprite_options)">ID2D1DeviceContext3::DrawSpriteBatch</a>.
 
 
 ## -enum-fields

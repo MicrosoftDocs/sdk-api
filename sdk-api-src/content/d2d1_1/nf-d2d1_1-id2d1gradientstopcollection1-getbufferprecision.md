@@ -76,7 +76,7 @@ The buffer precision of the gradient buffer.
 
 
 
-If this object was created using <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-creategradientstopcollection">ID2D1RenderTarget::CreateGradientStopCollection</a>, this method returns D2D1_BUFFER_PRECISION_8BPC_UNORM.
+If this object was created using <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection">ID2D1RenderTarget::CreateGradientStopCollection</a>, this method returns D2D1_BUFFER_PRECISION_8BPC_UNORM.
   
 
 
@@ -99,7 +99,7 @@ If this object was created using <a href="https://docs.microsoft.com/windows/des
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-creategradientstopcollection">ID2D1RenderTarget::CreateGradientStopCollection</a>
+<a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection">ID2D1RenderTarget::CreateGradientStopCollection</a>
  
 
  

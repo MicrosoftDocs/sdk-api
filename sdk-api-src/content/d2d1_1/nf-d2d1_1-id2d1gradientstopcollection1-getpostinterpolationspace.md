@@ -76,7 +76,7 @@ This method returns the color space.
 
 
 
-If you create using <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-creategradientstopcollection">ID2D1RenderTarget::CreateGradientStopCollection</a>, this method returns <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_color_space">D2D1_COLOR_SPACE_SRGB</a>. 
+If you create using <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection">ID2D1RenderTarget::CreateGradientStopCollection</a>, this method returns <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_color_space">D2D1_COLOR_SPACE_SRGB</a>. 
 
 
 
@@ -98,7 +98,7 @@ If you create using <a href="https://docs.microsoft.com/windows/desktop/api/d2d1
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-creategradientstopcollection">ID2D1RenderTarget::CreateGradientStopCollection</a>
+<a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection">ID2D1RenderTarget::CreateGradientStopCollection</a>
  
 
  

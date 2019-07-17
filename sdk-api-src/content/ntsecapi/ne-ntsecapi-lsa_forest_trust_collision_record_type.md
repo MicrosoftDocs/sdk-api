@@ -78,7 +78,7 @@ Collision that is not a collision between <a href="https://docs.microsoft.com/wi
 
 
 
-This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_lsa_forest_trust_collision_record">LSA_FOREST_TRUST_COLLISION_RECORD</a> structure.
+This enumeration is used by the <a href="https://docs.microsoft.com/windows/win32/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_collision_record">LSA_FOREST_TRUST_COLLISION_RECORD</a> structure.
 
 
 

@@ -261,7 +261,7 @@ The table here shows the behavior in Windows 8 and later.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-creategradientstopcollection">ID2D1RenderTarget::CreateGradientStopCollection</a>
+<a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection">ID2D1RenderTarget::CreateGradientStopCollection</a>
  
 
  

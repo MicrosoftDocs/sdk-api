@@ -100,7 +100,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-fillellipse">FillEllipse</a>
+<a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillellipse">FillEllipse</a>
 
 
 

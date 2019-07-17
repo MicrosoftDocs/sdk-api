@@ -89,7 +89,7 @@ This method doesn't return an error code if it fails. To determine whether a dra
 
 #### Examples
 
-The following example uses the <b>DrawRoundedRectangle</b> and <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-fillroundedrectangle">FillRoundedRectangle</a> methods to outline and fill a rounded rectangle.  This example produces the output shown in the following illustration. 
+The following example uses the <b>DrawRoundedRectangle</b> and <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillroundedrectangle">FillRoundedRectangle</a> methods to outline and fill a rounded rectangle.  This example produces the output shown in the following illustration. 
 
 <img alt="Illustration of four rounded rectangles with different stroke styles and fills" src="images/drawroundedrectangle_scr.png"/>
 

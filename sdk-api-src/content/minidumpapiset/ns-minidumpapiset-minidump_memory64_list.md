@@ -72,7 +72,7 @@ The number of structures in the <b>MemoryRanges</b> array.
 ### -field MemoryRanges
 
 An array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_memory_descriptor">MINIDUMP_MEMORY_DESCRIPTOR</a> structures.
+<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_descriptor">MINIDUMP_MEMORY_DESCRIPTOR</a> structures.
 
 
 ## -remarks
@@ -102,7 +102,7 @@ Note that <b>BaseRva</b> is the overall base RVA for the memory list. To locate 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_memory_descriptor">MINIDUMP_MEMORY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_descriptor">MINIDUMP_MEMORY_DESCRIPTOR</a>
 
 
 

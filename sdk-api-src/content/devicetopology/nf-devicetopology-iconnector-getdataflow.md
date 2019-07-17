@@ -64,7 +64,7 @@ The <b>GetDataFlow</b> method gets the direction of data flow through this conne
 
 ### -param pFlow [out]
 
-Pointer to a variable into which the method writes the data-flow direction. The direction is one of the following <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/ne-devicetopology-__midl___midl_itf_devicetopology_0000_0000_0011">DataFlow</a> enumeration values:
+Pointer to a variable into which the method writes the data-flow direction. The direction is one of the following <a href="https://docs.microsoft.com/windows/win32/api/devicetopology/ne-devicetopology-dataflow">DataFlow</a> enumeration values:
 
 In
 

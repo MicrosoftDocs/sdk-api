@@ -148,7 +148,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_changer_initialize_element_status">CHANGER_INITIALIZE_ELEMENT_STATUS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ni-winioctl-ioctl_changer_initialize_element_status">CHANGER_INITIALIZE_ELEMENT_STATUS</a>
 
 
 

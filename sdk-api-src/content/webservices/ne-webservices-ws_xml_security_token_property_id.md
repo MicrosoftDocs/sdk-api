@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The keys for the bag of properties for the creation of XML security tokens. This enumeration is used within the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_security_token_property">WS_XML_SECURITY_TOKEN_PROPERTY</a> structure, which is used as parameter for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatexmlsecuritytoken">WsCreateXmlSecurityToken</a>.
+The keys for the bag of properties for the creation of XML security tokens. This enumeration is used within the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_security_token_property">WS_XML_SECURITY_TOKEN_PROPERTY</a> structure, which is used as parameter for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatexmlsecuritytoken">WsCreateXmlSecurityToken</a>.
             
 
 

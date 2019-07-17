@@ -89,7 +89,7 @@ Returns the HWND associated with this render target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-resize">Resize</a>
+<a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1hwndrendertarget-resize(constd2d1_size_u)">Resize</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes the size of the render target to the specified pixel size.
 
@@ -112,7 +112,7 @@ For <b>ID2D1HwndRenderTarget</b>, the only side effect of <b>BeginDraw</b> is ch
 
 
 
-A hardware render target's back-buffer is the size specified by <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-getpixelsize">GetPixelSize</a>. If <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a> presents the buffer, this bitmap is stretched to cover the surface where it is presented: the entire client area of the window. This stretch is performed using bilinear filtering if the render target is rendering in hardware and using nearest-neighbor filtering if the rendering target is using software. (Typically, an application will call <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-resize">Resize</a> to ensure the pixel size of the render target and the pixel size of the destination match, and no scaling is necessary, though this is not a requirement.)
+A hardware render target's back-buffer is the size specified by <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1hwndrendertarget-resize(constd2d1_size_u)">GetPixelSize</a>. If <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a> presents the buffer, this bitmap is stretched to cover the surface where it is presented: the entire client area of the window. This stretch is performed using bilinear filtering if the render target is rendering in hardware and using nearest-neighbor filtering if the rendering target is using software. (Typically, an application will call <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-resize">Resize</a> to ensure the pixel size of the render target and the pixel size of the destination match, and no scaling is necessary, though this is not a requirement.)
 
 
 

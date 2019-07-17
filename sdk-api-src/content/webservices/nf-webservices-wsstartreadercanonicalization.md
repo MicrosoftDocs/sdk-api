@@ -122,7 +122,7 @@ A pointer to a caller-defined state that is passed when invoking the <a href="ht
 
 ### -param properties
 
-An "array" reference of optional properties controlling how canonicalization is performed.  <div class="alert"><b>Note</b>  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_canonicalization_property">WS_XML_CANONICALIZATION_PROPERTY</a> for details.</div>
+An "array" reference of optional properties controlling how canonicalization is performed.  <div class="alert"><b>Note</b>  See <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_canonicalization_property">WS_XML_CANONICALIZATION_PROPERTY</a> for details.</div>
 <div> </div>
 
 

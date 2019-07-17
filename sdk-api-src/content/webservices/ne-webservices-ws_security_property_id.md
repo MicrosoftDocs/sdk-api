@@ -71,11 +71,11 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webserv
 
 ### -field WS_SECURITY_PROPERTY_ALGORITHM_SUITE
 
-With mixed-mode security, this property is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_algorithm_suite">WS_SECURITY_ALGORITHM_SUITE</a> structure that specifies the algorithm suite to be used. .          
+With mixed-mode security, this property is a <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_security_algorithm_suite">WS_SECURITY_ALGORITHM_SUITE</a> structure that specifies the algorithm suite to be used. .          
           This property may not be used in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_PROPERTY_ALGORITHM_SUITE_NAME</a>.
         
 
-If neither this property nor <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_algorithm_suite_name">WS_SECURITY_ALGORITHM_SUITE_NAME</a> is specified, the algorithm
+If neither this property nor <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_security_algorithm_suite">WS_SECURITY_ALGORITHM_SUITE_NAME</a> is specified, the algorithm
           suite defaults to <b>WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128</b>when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a> is used and 
           <b>WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256</b> otherwise.
         
@@ -89,8 +89,8 @@ With mixed-mode security, this property is a  <a href="https://docs.microsoft.co
           This property may not be used in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_PROPERTY_ALGORITHM_SUITE</a>.
         
 
-If neither this property nor <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_algorithm_suite">WS_SECURITY_ALGORITHM_SUITE</a> is specified, the algorithm
-          suite defaults to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_algorithm_suite_name">WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128</a>when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a> is used and 
+If neither this property nor <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_security_algorithm_suite">WS_SECURITY_ALGORITHM_SUITE</a> is specified, the algorithm
+          suite defaults to <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_security_algorithm_suite">WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128</a>when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a> is used and 
           <b>WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256</b> otherwise.
         
 

@@ -102,11 +102,11 @@ This method fails if <i>animation</i> is an invalid pointer or if it was not cre
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setaxisy">IDCompositionRotateTransform3D::SetAxisY</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setaxisy">IDCompositionRotateTransform3D::SetAxisY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setaxisz">IDCompositionRotateTransform3D::SetAxisZ</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setaxisz">IDCompositionRotateTransform3D::SetAxisZ</a>
  
 
  
