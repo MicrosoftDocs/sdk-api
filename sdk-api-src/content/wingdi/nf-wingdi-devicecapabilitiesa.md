@@ -445,7 +445,7 @@ Returns the specification version to which the printer driver conforms.
 
 ### -param pOutput [out]
 
-A pointer to an array. The format of the array depends on the setting of the <i>fwCapability</i> parameter. If <i>pOutput</i> is <b>NULL</b>, <b>DeviceCapabilities</b> returns the number of bytes required for the output data.
+A pointer to an array. The format of the array depends on the setting of the <i>fwCapability</i> parameter. See each capability above to find out what is returned if <i>pOutput</i> is <b>NULL</b>.
 
 
 ### -param pDevMode [in]
