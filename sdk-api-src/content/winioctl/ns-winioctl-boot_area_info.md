@@ -52,6 +52,17 @@ req.redist:
 
 Contains the output for the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_boot_area_info">FSCTL_GET_BOOT_AREA_INFO</a> control code.
 
+## -syntax
+
+```cpp
+typedef struct _BOOT_AREA_INFO {
+  DWORD                    BootSectorCount;
+  struct {
+    LARGE_INTEGER Offset;
+  } BootSectors[2];
+} BOOT_AREA_INFO, *PBOOT_AREA_INFO;
+```
+
 
 ## -struct-fields
 
