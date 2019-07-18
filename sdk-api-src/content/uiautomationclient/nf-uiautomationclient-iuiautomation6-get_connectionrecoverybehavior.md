@@ -55,15 +55,15 @@ Indicates whether an accessible technology client adjusts provider request timeo
 
 This property is read/write.
 
-## -parameters
-
-See remarks.
-
 ## -remarks
 
-### -param connectionRecoveryBehaviorOptions [in]
+### Parameters
 
-Value indicating whether events are filtered. The default is [CoalesceEventsOptions_Disabled](ne-uiautomationclient-coalesceeventsoptions.md).
+`connectionRecoveryBehaviorOptions` [in]
+
+Type: **ConnectionRecoveryBehaviorOptions**
+
+Value indicating whether provider request timeouts are adjusted. The default is [ConnectionRecoveryBehaviorOptions_Disabled](ne-uiautomationclient-connectionrecoverybehavioroptions.md).
 
 ## -see-also
 
