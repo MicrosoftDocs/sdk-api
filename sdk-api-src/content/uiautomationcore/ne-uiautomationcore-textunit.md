@@ -47,60 +47,40 @@ ms.custom: 19H1
 
 # TextUnit enumeration
 
-
 ## -description
-
 
 Contains values that specify units of text for the purposes of navigation.
 
-
 ## -enum-fields
-
-
-
 
 ### -field TextUnit_Character
 
 Character.
 
-
 ### -field TextUnit_Format
 
 Format.
-
 
 ### -field TextUnit_Word
 
 Word.
 
-
 ### -field TextUnit_Line
 
 Line.
-
 
 ### -field TextUnit_Paragraph
 
 Paragraph.
 
-
 ### -field TextUnit_Page
 
 Page.
-
 
 ### -field TextUnit_Document
 
 Document.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-textattribute-ids">Text Attribute Identifiers</a>
- 
-
- 
-
+[Text Attribute Identifiers](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-textattribute-ids)

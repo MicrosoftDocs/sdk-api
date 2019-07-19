@@ -61,7 +61,11 @@ See remarks.
 
 ## -remarks
 
-### -param connectionRecoveryBehaviorOptions [out]
+### Parameters
+
+`connectionRecoveryBehaviorOptions` [out]
+
+Type: **ConnectionRecoveryBehaviorOptions**
 
 Value indicating whether provider request timeouts are adjusted. The default is [ConnectionRecoveryBehaviorOptions_Disabled](ne-uiautomationclient-connectionrecoverybehavioroptions.md).
 

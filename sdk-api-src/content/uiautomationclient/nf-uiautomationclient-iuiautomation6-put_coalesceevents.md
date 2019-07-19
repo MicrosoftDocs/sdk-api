@@ -55,13 +55,13 @@ Gets or sets whether an accessible technology client receives all events, or a s
 
 This property is read/write.
 
-## -parameters
-
-See remarks.
-
 ## -remarks
 
-### -param coalesceEventsOptions [out]
+### Parameters
+
+`coalesceEventsOptions` [out]
+
+Type: **CoalesceEventsOptions**
 
 Value indicating whether events are filtered. The default is [CoalesceEventsOptions_Disabled](ne-uiautomationclient-coalesceeventsoptions.md).
 

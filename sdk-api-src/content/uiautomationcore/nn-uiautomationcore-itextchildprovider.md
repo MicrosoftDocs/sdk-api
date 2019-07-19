@@ -47,29 +47,16 @@ ms.custom: 19H1
 
 # ITextChildProvider interface
 
-
 ## -description
 
-
-Provides access to a text-based control (or an object embedded in text) that is a child or descendant of another text-based control. 
-
+Provides access to a text-based control (or an object embedded in text) that is a child or descendant of another text-based control.
 
 ## -remarks
 
+An element that implements the [TextChild control pattern](https://docs.microsoft.com/windows/desktop/WinAuto/textchild-control-pattern) must be a child, or descendent, of an element that supports the [Text control pattern](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingtextandtextrange).
 
-
-Implemented on a descendant of an element that supports the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingtextandtextrange">Text</a> control pattern. That is, an element that implements <a href="https://docs.microsoft.com/windows/desktop/WinAuto/textchild-control-pattern">TextChild</a> typically also supports the Text control pattern.
-
-
-
+It is not required that this element also implement the [Text control pattern](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingtextandtextrange).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
- 
-
- 
-
+[Text control pattern](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingtextandtextrange), [TextChild control pattern](https://docs.microsoft.com/windows/desktop/WinAuto/textchild-control-pattern), [UI Automation Providers Overview](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview)
