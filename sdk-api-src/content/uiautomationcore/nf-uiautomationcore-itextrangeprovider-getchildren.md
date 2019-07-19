@@ -47,76 +47,71 @@ ms.custom: 19H1
 
 # ITextRangeProvider::GetChildren
 
-
 ## -description
 
-
-Retrieves a collection of all embedded objects that fall within the text range.
-
+Retrieves a collection of all elements that are both contained (either partially or completely) within the specified text range, and are child elements of the [enclosing element](nf-uiautomationcore-itextrangeprovider-getenclosingelement.md) for the specified text range.
 
 ## -parameters
 
-
-
-
 ### -param pRetVal [out, retval]
 
-Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: **[SAFEARRAY](../oaidl/ns-oaidl-safearray.md)\*\***
 
-Receives the address of an array of pointers to the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a> 
-                interfaces of all child objects that fall within the range. This parameter is passed uninitialized.
+An array of pointers to the <a href="https://msdn.microsoft.com/f0ec6185-acd0-4df7-88f4-fd00747f98bf">IRawElementProviderSimple</a> interfaces for all child elements that are enclosed by the text range (sorted by the Start endpoint of their ranges).
 
+If the text range does not include any child elements, an empty collection is returned.
+
+This parameter is passed uninitialized.
 
 ## -returns
 
+Type: **[HRESULT](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
+Each element retrieved with [ITextRangeProvider::GetChildren](nf-uiautomationcore-itextrangeprovider-getchildren.md) has a valid text range that can be retrieved through [RangeFromChild](nf-uiautomationcore-itextprovider-rangefromchild.md). This includes any elements in the UI Automation tree between the [ITextProvider](nn-uiautomationcore-itextprovider.md) and the child element.
 
+### Examples
 
-Children that overlap with the text range but are not entirely enclosed by it will also be included in the collection. 
-        
+1. This example shows a text stream that contains an image link. The link is a child of the image, but both span the same text range and are exposed as embedded objects within the text stream.
 
-The method returns a pointer to an empty collection if there are no child objects. 
+    *Hello \<Image Link\> World*
 
+    - Both image and link are also descendents of the stream's [ITextProvider](nn-uiautomationcore-itextprovider.md), and either can be specified as the *childElement* in a call to [ITextProvider::RangeFromChild](nf-uiautomationcore-itextprovider-rangefromchild.md).
+    - Calling [ITextRangeProvider::RangeFromChild](nf-uiautomationcore-itextprovider-rangefromchild.md), using either the image or the link, returns the same text range (*Range1*).
+    - [GetChildren](nf-uiautomationclient-iuiautomationtextrange-getchildren.md) does not return the link.
+    - [GetEnclosingElement](nf-uiautomationcore-itextrangeprovider-getenclosingelement.md) does not return the image for any text range.
+    - [GetEnclosingElement](nf-uiautomationcore-itextrangeprovider-getenclosingelement.md) on *Range1* returns the link.
+    - [GetChildren](nf-uiautomationclient-iuiautomationtextrange-getchildren.md) on *Range1* does not return any children.
+    - [GetEnclosingElement](nf-uiautomationcore-itextrangeprovider-getenclosingelement.md) on the text range for the stream's [ITextProvider](nn-uiautomationcore-itextprovider.md) returns the provider.
+    - [GetChildren](nf-uiautomationclient-iuiautomationtextrange-getchildren.md) on the text range for the stream's [ITextProvider](nn-uiautomationcore-itextprovider.md) returns only the image.
 
+2. This example shows a text stream that contains a two-cell table surrounded by text.
 
+    <em>
+    <p>Start text</p>
+    <p><table><tr><td>Table Cell 1</td><td>Table Cell 2</td></tr></table></p>
+    <p>End Text</p>
+    </em>
+
+    - Case 1: The stream's [ITextProvider](nn-uiautomationcore-itextprovider.md) and entire text range
+        - [ITextRangeProvider::GetEnclosingElement](nf-uiautomationcore-itextrangeprovider-getenclosingelement.md) on the entire text range returns the stream's [ITextProvider](nn-uiautomationcore-itextprovider.md).
+        - GetChildren returns all child elements of the stream's [ITextProvider](nn-uiautomationcore-itextprovider.md), only the table element in this case.
+    - Case 2: Text range obtained by calling [ITextProvider::RangeFromChild](nf-uiautomationcore-itextprovider-rangefromchild.md) on the table element:
+        - [ITextRangeProvider::GetEnclosingElement](nf-uiautomationcore-itextrangeprovider-getenclosingelement.md) returns the table element.
+        - [ITextRangeProvider::GetChildren](nf-uiautomationclient-iuiautomationtextrange-getchildren.md) returns both table cells.
+    - Case 3: Text range that spans the visual content of *Table Cell 1 Table Cell 2*:
+        - [ITextRangeProvider::GetEnclosingElement](nf-uiautomationcore-itextrangeprovider-getenclosingelement.md) returns the table element.
+        - [ITextRangeProvider::GetChildren](nf-uiautomationclient-iuiautomationtextrange-getchildren.md) returns both table cells.
+    - Case 4: Text range that spans the the word *Cell* of *Table Cell 1*:
+        - [ITextRangeProvider::GetEnclosingElement](nf-uiautomationcore-itextrangeprovider-getenclosingelement.md) returns the first cell element.
+        - [ITextRangeProvider::GetChildren](nf-uiautomationclient-iuiautomationtextrange-getchildren.md) returns no elements.
+    - Case 5: A degenerate (empty) text range that represents both starts (table and first cell):
+        - [ITextRangeProvider::GetEnclosingElement](nf-uiautomationcore-itextrangeprovider-getenclosingelement.md) returns the the first cell element (the innermost element with a range that includes the degenerate range).
+        - [ITextRangeProvider::GetChildren](nf-uiautomationclient-iuiautomationtextrange-getchildren.md) returns no elements.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-workingwithsafearrays">Best Practices for Using Safe Arrays</a>
-
-
-
-<b>Conceptual</b>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider">ITextProvider</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextrangeprovider">ITextRangeProvider</a>
-
-
-
-<b>Reference</b>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
- 
-
- 
-
+[ITextProvider](nn-uiautomationcore-itextprovider.md), [ITextRangeProvider](nn-uiautomationcore-itextrangeprovider.md), [GetEnclosingElement](nf-uiautomationcore-itextrangeprovider-getenclosingelement.md), [ITextProvider::RangeFromChild](nf-uiautomationcore-itextprovider-rangefromchild.md), [UI Automation Providers Overview](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview), [Best Practices for Using Safe Arrays](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-workingwithsafearrays)
