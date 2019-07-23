@@ -67,12 +67,12 @@ The version is not specified.
 
 ### -field STORAGE_DEPENDENCY_INFO_VERSION_1
 
-Specifies <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_storage_dependency_info_type_1">STORAGE_DEPENDENCY_INFO_TYPE_1</a>.
+Specifies <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info_type_1">STORAGE_DEPENDENCY_INFO_TYPE_1</a>.
 
 
 ### -field STORAGE_DEPENDENCY_INFO_VERSION_2
 
-Specifies <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_storage_dependency_info_type_2">STORAGE_DEPENDENCY_INFO_TYPE_2</a>.
+Specifies <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info_type_2">STORAGE_DEPENDENCY_INFO_TYPE_2</a>.
 
 
 ## -see-also

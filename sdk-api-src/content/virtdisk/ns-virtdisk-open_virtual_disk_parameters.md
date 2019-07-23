@@ -62,7 +62,7 @@ Contains virtual disk open request parameters.
 
 ### -field Version
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_open_virtual_disk_version">OPEN_VIRTUAL_DISK_VERSION</a> enumeration 
+An <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-open_virtual_disk_version">OPEN_VIRTUAL_DISK_VERSION</a> enumeration 
       that specifies the version of the 
       <b>OPEN_VIRTUAL_DISK_PARAMETERS</b> structure 
       being passed to or from the VHD functions.
@@ -212,7 +212,7 @@ Resiliency <b>GUID</b> to specify when opening files.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-openvirtualdisk">OpenVirtualDisk</a>
+<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a>
 
 
 

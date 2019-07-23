@@ -65,7 +65,7 @@ Contains snapshot parameters, indicating information about the new snapshot to b
 
 ### -field Version
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_take_snapshot_vhdset_version">TAKE_SNAPSHOT_VHDSET_VERSION</a> enumeration that is the discriminant for the union. 
+A value from the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-take_snapshot_vhdset_version">TAKE_SNAPSHOT_VHDSET_VERSION</a> enumeration that is the discriminant for the union. 
 
 
 

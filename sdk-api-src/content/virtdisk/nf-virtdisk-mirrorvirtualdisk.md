@@ -55,9 +55,9 @@ Initiates a mirror operation for a virtual disk.  Once the mirroring operation i
     it will not complete until either <a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelio">CancelIo</a> or 
     <a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelioex-func">CancelIoEx</a> is called to cancel all I/O on the 
     <i>VirtualDiskHandle</i>, leaving the original file as the current  or 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-breakmirrorvirtualdisk">BreakMirrorVirtualDisk</a> is called to stop using 
+    <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-breakmirrorvirtualdisk">BreakMirrorVirtualDisk</a> is called to stop using 
     the original file and only use the mirror. 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-getvirtualdiskoperationprogress">GetVirtualDiskOperationProgress</a> can be 
+    <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-getvirtualdiskoperationprogress">GetVirtualDiskOperationProgress</a> can be 
     used to determine if the disks are fully mirrored and writes go to both virtual disks.
 
 
@@ -69,13 +69,13 @@ Initiates a mirror operation for a virtual disk.  Once the mirroring operation i
 ### -param VirtualDiskHandle [in]
 
 A handle to the open virtual disk. For information on how to open a virtual disk, see the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-openvirtualdisk">OpenVirtualDisk</a> function.
+      <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a> function.
 
 
 ### -param Flags [in]
 
 A valid combination of values from the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_mirror_virtual_disk_flag">MIRROR_VIRTUAL_DISK_FLAG</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-mirror_virtual_disk_flag">MIRROR_VIRTUAL_DISK_FLAG</a> enumeration.
 
 <table>
 <tr>
@@ -111,7 +111,7 @@ Create the mirror using an existing file.
 ### -param Parameters [in]
 
 Address of a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_mirror_virtual_disk_parameters">MIRROR_VIRTUAL_DISK_PARAMETERS</a> structure 
+      <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-mirror_virtual_disk_parameters">MIRROR_VIRTUAL_DISK_PARAMETERS</a> structure 
       containing mirror parameter data.
 
 
@@ -140,11 +140,11 @@ If the function fails, the return value is an error code. For more information, 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_mirror_virtual_disk_flag">MIRROR_VIRTUAL_DISK_FLAG</a>
+<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-mirror_virtual_disk_flag">MIRROR_VIRTUAL_DISK_FLAG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_mirror_virtual_disk_parameters">MIRROR_VIRTUAL_DISK_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-mirror_virtual_disk_parameters">MIRROR_VIRTUAL_DISK_PARAMETERS</a>
 
 
 

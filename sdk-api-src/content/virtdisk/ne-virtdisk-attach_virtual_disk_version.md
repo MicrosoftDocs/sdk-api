@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 Contains the version of the virtual hard disk (VHD) 
-     <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_attach_virtual_disk_parameters">ATTACH_VIRTUAL_DISK_PARAMETERS</a> structure 
+     <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-attach_virtual_disk_parameters">ATTACH_VIRTUAL_DISK_PARAMETERS</a> structure 
      to use in calls to VHD functions.
 
 

@@ -69,7 +69,7 @@ A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-v
 
 ### -param Flags [in]
 
-A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_open_virtual_disk_flag">OPEN_VIRTUAL_DISK_FLAG</a> flags specifying how the virtual disk is to be opened.
+A bitmask of <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-open_virtual_disk_flag">OPEN_VIRTUAL_DISK_FLAG</a> flags specifying how the virtual disk is to be opened.
 
 
 ### -param ReadWriteDepth [in]

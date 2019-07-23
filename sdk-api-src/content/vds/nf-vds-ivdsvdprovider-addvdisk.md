@@ -64,7 +64,7 @@ Creates a virtual disk object  for an existing virtual disk file.
 
 ### -param VirtualDeviceType [in]
 
-The address of  a <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure 
+The address of  a <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure 
 
 
 ### -param pPath [in]

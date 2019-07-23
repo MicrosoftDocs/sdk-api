@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains virtual hard disk (VHD) information to use when you call the <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-setvirtualdiskinformation">SetVirtualDiskInformation</a> function to set VHD properties.
+Contains virtual hard disk (VHD) information to use when you call the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-setvirtualdiskinformation">SetVirtualDiskInformation</a> function to set VHD properties.
 
 
 ## -struct-fields
@@ -62,7 +62,7 @@ Contains virtual hard disk (VHD) information to use when you call the <a href="h
 
 ### -field Version
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_set_virtual_disk_info_version">SET_VIRTUAL_DISK_INFO_VERSION</a> 
+A <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-set_virtual_disk_info_version">SET_VIRTUAL_DISK_INFO_VERSION</a> 
       enumeration that specifies the version of the 
       <b>SET_VIRTUAL_DISK_INFO</b> structure being passed to or 
       from the VHD functions. This determines the type of information set.

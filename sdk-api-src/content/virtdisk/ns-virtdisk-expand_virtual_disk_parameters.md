@@ -62,7 +62,7 @@ Contains virtual disk expansion request parameters.
 
 ### -field Version
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_expand_virtual_disk_version">EXPAND_VIRTUAL_DISK_VERSION</a> 
+An <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-expand_virtual_disk_version">EXPAND_VIRTUAL_DISK_VERSION</a> 
       enumeration value that specifies the version of the 
       <b>EXPAND_VIRTUAL_DISK_PARAMETERS</b> structure 
       being passed to or from the virtual disk functions.

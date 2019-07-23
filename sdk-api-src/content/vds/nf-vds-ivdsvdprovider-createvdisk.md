@@ -64,7 +64,7 @@ Creates a virtual disk.
 
 ### -param VirtualDeviceType [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure that specifies the type of virtual disk to be created.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure that specifies the type of virtual disk to be created.
 
 
 ### -param pPath [in]
@@ -80,7 +80,7 @@ A <b>NULL</b>-terminated wide-character string containing the security descripto
 
 ### -param Flags [in]
 
-A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_create_virtual_disk_flag">CREATE_VIRTUAL_DISK_FLAG</a> enumeration values specifying how the virtual disk is to be created.
+A bitmask of <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-create_virtual_disk_flag">CREATE_VIRTUAL_DISK_FLAG</a> enumeration values specifying how the virtual disk is to be created.
 
 <table>
 <tr>

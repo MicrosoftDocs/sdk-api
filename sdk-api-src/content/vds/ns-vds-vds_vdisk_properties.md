@@ -73,7 +73,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_vdisk_
 
 ### -field VirtualDeviceType
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure that specifies the storage device type of the virtual disk.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure that specifies the storage device type of the virtual disk.
 
 
 ### -field VirtualSize
@@ -100,7 +100,7 @@ A <b>NULL</b>-terminated wide-character string containing the name and device pa
 
 ### -field DiskFlag
 
-A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_dependent_disk_flag">DEPENDENT_DISK_FLAG</a> enumeration values that specify disk dependency information.
+A bitmask of <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-dependent_disk_flag">DEPENDENT_DISK_FLAG</a> enumeration values that specify disk dependency information.
 
 
 ### -field bIsChild

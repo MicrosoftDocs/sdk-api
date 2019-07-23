@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 Enumerates the possible versions for parameters for the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-applysnapshotvhdset">ApplySnapshotVhdSet</a> function.
+    <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-applysnapshotvhdset">ApplySnapshotVhdSet</a> function.
 
 
 ## -enum-fields

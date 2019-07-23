@@ -73,7 +73,7 @@ A pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/min
 
 ### -param Progress [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_virtual_disk_progress">VIRTUAL_DISK_PROGRESS</a> 
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-virtual_disk_progress">VIRTUAL_DISK_PROGRESS</a> 
      structure that receives the current virtual disk operation progress.
 
 
@@ -107,7 +107,7 @@ If the function fails, the return value is an error code and the value of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_virtual_disk_progress">VIRTUAL_DISK_PROGRESS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-virtual_disk_progress">VIRTUAL_DISK_PROGRESS</a>
  
 
  
