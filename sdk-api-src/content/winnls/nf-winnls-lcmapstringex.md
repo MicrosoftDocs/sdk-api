@@ -7,7 +7,7 @@ old-location: intl\lcmapstringex.htm
 tech.root: Intl
 ms.assetid: 725e4e75-c328-40bc-a594-20a295a487c6
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 07/22/2019
 ms.keywords: LCMAP_BYTEREV, LCMAP_FULLWIDTH, LCMAP_HALFWIDTH, LCMAP_HIRAGANA, LCMAP_KATAKANA, LCMAP_LINGUISTIC_CASING, LCMAP_LOWERCASE, LCMAP_SIMPLIFIED_CHINESE, LCMAP_SORTKEY, LCMAP_TITLECASE, LCMAP_TRADITIONAL_CHINESE, LCMAP_UPPERCASE, LCMapStringEx, LCMapStringEx function [Internationalization for Windows Applications], LINGUISTIC_IGNORECASE, LINGUISTIC_IGNOREDIACRITIC, NORM_IGNORECASE, NORM_IGNOREKANATYPE, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREWIDTH, NORM_LINGUISTIC_CASING, SORT_DIGITSASNUMBERS, SORT_STRINGSORT, _win32_LCMapStringEx, intl.lcmapstringex, winnls/LCMapStringEx
 ms.topic: function
 f1_keywords: 
@@ -164,12 +164,32 @@ For locales and scripts capable of handling uppercase and lowercase, map all cha
 </td>
 </tr>
 <tr>
+<td width="40%"><a id="LCMAP_HASH"></a><a id="lcmap_hash"></a><dl>
+<dt><b>LCMAP_HASH</b></dt>
+</dl>
+</td>
+<td width="60%">
+Intended for compatibility with .NET applications and not meant to be used directly from an application.
+
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="LCMAP_SIMPLIFIED_CHINESE"></a><a id="lcmap_simplified_chinese"></a><dl>
 <dt><b>LCMAP_SIMPLIFIED_CHINESE</b></dt>
 </dl>
 </td>
 <td width="60%">
 Map traditional Chinese characters to simplified Chinese characters. This flag and LCMAP_TRADITIONAL_CHINESE are mutually exclusive.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="LCMAP_SORTHANDLE"></a><a id="lcmap_sorthandle"></a><dl>
+<dt><b>LCMAP_SORTHANDLE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Intended for compatibility with .NET applications and not meant to be used directly from an application.
 
 </td>
 </tr>
