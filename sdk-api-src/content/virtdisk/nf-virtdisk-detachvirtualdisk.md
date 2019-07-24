@@ -65,7 +65,7 @@ Detaches a virtual hard disk (VHD) or CD or DVD image file (ISO) by locating an 
 A handle to an open virtual disk, which must have been opened using the 
       <b>VIRTUAL_DISK_ACCESS_DETACH</b> flag set in the 
       <i>VirtualDiskAccessMask</i> parameter to the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-openvirtualdisk">OpenVirtualDisk</a> function. For information on how to 
+      <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a> function. For information on how to 
       open a virtual disk, see the <b>OpenVirtualDisk</b> 
       function.
 
@@ -73,7 +73,7 @@ A handle to an open virtual disk, which must have been opened using the
 ### -param Flags [in]
 
 A valid combination of values of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_detach_virtual_disk_flag">DETACH_VIRTUAL_DISK_FLAG</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-detach_virtual_disk_flag">DETACH_VIRTUAL_DISK_FLAG</a> enumeration.
 
 
 ### -param ProviderSpecificFlags [in]
@@ -105,7 +105,7 @@ If the <b>DetachVirtualDisk</b> function fails with an
 
 <ul>
 <li>The <i>VirtualDiskHandle</i> parameter is not a valid handle created by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-openvirtualdisk">OpenVirtualDisk</a> function.</li>
+      <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a> function.</li>
 <li>The <i>Flags</i> parameter is set to a value other than 
       <b>DETACH_VIRTUAL_DISK_FLAG_NONE</b> (0).</li>
 </ul>

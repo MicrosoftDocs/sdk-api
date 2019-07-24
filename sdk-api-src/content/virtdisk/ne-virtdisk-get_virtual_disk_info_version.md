@@ -173,7 +173,7 @@ The state of resilient change tracking (RCT) for the virtual disk.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-getvirtualdiskinformation">GetVirtualDiskInformation</a>
+<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-getvirtualdiskinformation">GetVirtualDiskInformation</a>
 
 
 

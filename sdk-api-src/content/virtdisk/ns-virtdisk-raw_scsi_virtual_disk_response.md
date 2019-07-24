@@ -62,7 +62,7 @@ Contains raw SCSI virtual disk response parameters.
 
 ### -field Version
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_raw_scsi_virtual_disk_version">RAW_SCSI_VIRTUAL_DISK_VERSION</a> enumeration that specifies the version of the <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_raw_scsi_virtual_disk_parameters">RAW_SCSI_VIRTUAL_DISK_PARAMETERS</a> structure being passed to or from the VHD functions. 
+A <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-raw_scsi_virtual_disk_version">RAW_SCSI_VIRTUAL_DISK_VERSION</a> enumeration that specifies the version of the <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_raw_scsi_virtual_disk_parameters">RAW_SCSI_VIRTUAL_DISK_PARAMETERS</a> structure being passed to or from the VHD functions. 
 
 
 

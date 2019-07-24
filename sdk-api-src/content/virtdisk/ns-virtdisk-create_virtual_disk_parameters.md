@@ -63,7 +63,7 @@ Contains virtual hard disk (VHD) creation parameters, providing control over, an
 
 ### -field Version
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_create_virtual_disk_version">CREATE_VIRTUAL_DISK_VERSION</a> 
+A value from the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-create_virtual_disk_version">CREATE_VIRTUAL_DISK_VERSION</a> 
       enumeration that is the discriminant for the union.
 
 <table>
@@ -317,19 +317,19 @@ If this parameter is not <b>NULL</b>, <b>ParentPath</b> must be
 ### -field Version2.OpenFlags
 
 Zero or more flags from the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_open_virtual_disk_flag">OPEN_VIRTUAL_DISK_FLAG</a> enumeration describing 
+        <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-open_virtual_disk_flag">OPEN_VIRTUAL_DISK_FLAG</a> enumeration describing 
         how the virtual disk is to be opened.
 
 
 ### -field Version2.ParentVirtualStorageType
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure describing 
+A <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure describing 
         the parent virtual disk specified in the <b>ParentPath</b> member.
 
 
 ### -field Version2.SourceVirtualStorageType
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure describing 
+A <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure describing 
         the source virtual disk specified in the <b>SourcePath</b> member.
 
 
@@ -499,7 +499,7 @@ Resiliency <b>GUID</b> for the file.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-createvirtualdisk">CreateVirtualDisk</a>
+<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-createvirtualdisk">CreateVirtualDisk</a>
 
 
 

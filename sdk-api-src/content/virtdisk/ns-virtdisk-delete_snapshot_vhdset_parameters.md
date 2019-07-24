@@ -64,7 +64,7 @@ Contains snapshot deletion parameters, designating which snapshot to delete from
 
 ### -field Version
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_delete_snapshot_vhdset_version">DELETE_SNAPSHOT_VHDSET_VERSION</a> enumeration that is the discriminant for the union.
+A value from the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-delete_snapshot_vhdset_version">DELETE_SNAPSHOT_VHDSET_VERSION</a> enumeration that is the discriminant for the union.
 
 
 ### -field Version1

@@ -88,153 +88,22 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-nam
 
 Flag specifying the type of transformation to use during string mapping or the type of sort key to generate. This parameter can have the following values.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="LCMAP_BYTEREV"></a><a id="lcmap_byterev"></a><dl>
-<dt><b>LCMAP_BYTEREV</b></dt>
-</dl>
-</td>
-<td width="60%">
-Use byte reversal. For example, if the application passes in 0x3450 0x4822, the result is 0x5034 0x2248.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="LCMAP_FULLWIDTH"></a><a id="lcmap_fullwidth"></a><dl>
-<dt><b>LCMAP_FULLWIDTH</b></dt>
-</dl>
-</td>
-<td width="60%">
-Use Unicode (wide) characters where applicable. This flag and LCMAP_HALFWIDTH are mutually exclusive. With this flag, the mapping may use Normalization Form C even if an input character is already full-width. For example, the string "は゛" (which is already full-width) is normalized to "ば". See <a href="http://www.unicode.org/reports/tr15/">Unicode normalization forms</a>.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="LCMAP_HALFWIDTH"></a><a id="lcmap_halfwidth"></a><dl>
-<dt><b>LCMAP_HALFWIDTH</b></dt>
-</dl>
-</td>
-<td width="60%">
-Use narrow characters where applicable. This flag and LCMAP_FULLWIDTH are mutually exclusive.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="LCMAP_HIRAGANA"></a><a id="lcmap_hiragana"></a><dl>
-<dt><b>LCMAP_HIRAGANA</b></dt>
-</dl>
-</td>
-<td width="60%">
-Map all katakana characters to hiragana. This flag and LCMAP_KATAKANA are mutually exclusive.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="LCMAP_KATAKANA"></a><a id="lcmap_katakana"></a><dl>
-<dt><b>LCMAP_KATAKANA</b></dt>
-</dl>
-</td>
-<td width="60%">
-Map all hiragana characters to katakana. This flag and LCMAP_HIRAGANA are mutually exclusive.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="LCMAP_LINGUISTIC_CASING"></a><a id="lcmap_linguistic_casing"></a><dl>
-<dt><b>LCMAP_LINGUISTIC_CASING</b></dt>
-</dl>
-</td>
-<td width="60%">
-Use linguistic rules for casing, instead of file system rules (default). This flag is valid with LCMAP_LOWERCASE or LCMAP_UPPERCASE only.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="LCMAP_LOWERCASE"></a><a id="lcmap_lowercase"></a><dl>
-<dt><b>LCMAP_LOWERCASE</b></dt>
-</dl>
-</td>
-<td width="60%">
-For locales and scripts capable of handling uppercase and lowercase, map all characters to lowercase.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="LCMAP_HASH"></a><a id="lcmap_hash"></a><dl>
-<dt><b>LCMAP_HASH</b></dt>
-</dl>
-</td>
-<td width="60%">
-Intended for compatibility with .NET applications and not meant to be used directly from an application.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="LCMAP_SIMPLIFIED_CHINESE"></a><a id="lcmap_simplified_chinese"></a><dl>
-<dt><b>LCMAP_SIMPLIFIED_CHINESE</b></dt>
-</dl>
-</td>
-<td width="60%">
-Map traditional Chinese characters to simplified Chinese characters. This flag and LCMAP_TRADITIONAL_CHINESE are mutually exclusive.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="LCMAP_SORTHANDLE"></a><a id="lcmap_sorthandle"></a><dl>
-<dt><b>LCMAP_SORTHANDLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-Intended for compatibility with .NET applications and not meant to be used directly from an application.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="LCMAP_SORTKEY"></a><a id="lcmap_sortkey"></a><dl>
-<dt><b>LCMAP_SORTKEY</b></dt>
-</dl>
-</td>
-<td width="60%">
-Produce a normalized sort key. If the LCMAP_SORTKEY flag is not specified, the function performs string mapping. For details of sort key generation and string mapping, see the Remarks section.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="LCMAP_TITLECASE"></a><a id="lcmap_titlecase"></a><dl>
-<dt><b>LCMAP_TITLECASE</b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>Windows 7:</b> Map all characters to title case, in which the first letter of each major word is capitalized.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="LCMAP_TRADITIONAL_CHINESE"></a><a id="lcmap_traditional_chinese"></a><dl>
-<dt><b>LCMAP_TRADITIONAL_CHINESE</b></dt>
-</dl>
-</td>
-<td width="60%">
-Map simplified Chinese characters to traditional Chinese characters. This flag and LCMAP_SIMPLIFIED_CHINESE are mutually exclusive.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="LCMAP_UPPERCASE"></a><a id="lcmap_uppercase"></a><dl>
-<dt><b>LCMAP_UPPERCASE</b></dt>
-</dl>
-</td>
-<td width="60%">
-For locales and scripts capable of handling uppercase and lowercase, map all characters to uppercase.
-
-</td>
-</tr>
-</table>
- 
+| Flag | Meaning |
+| --- | --- |
+| **LCMAP_BYTEREV**| Use byte reversal. For example, if the application passes in 0x3450 0x4822, the result is 0x5034 0x2248. |
+| **LCMAP_FULLWIDTH** | Use Unicode (wide) characters where applicable. This flag and LCMAP_HALFWIDTH are mutually exclusive. With this flag, the mapping may use Normalization Form C even if an input character is already full-width. For example, the string "は゛" (which is already full-width) is normalized to "ば". See [Unicode normalization forms](http://www.unicode.org/reports/tr15/). |
+|**LCMAP_HALFWIDTH** | Use narrow characters where applicable. This flag and LCMAP_FULLWIDTH are mutually exclusive. |
+| **LCMAP_HIRAGANA** | Map all katakana characters to hiragana. This flag and LCMAP_KATAKANA are mutually exclusive. |
+| **LCMAP_KATAKANA** | Map all hiragana characters to katakana. This flag and LCMAP_HIRAGANA are mutually exclusive. |
+| **LCMAP_LINGUISTIC_CASING** | Use linguistic rules for casing, instead of file system rules (default). This flag is valid with LCMAP_LOWERCASE or LCMAP_UPPERCASE only. |
+| **LCMAP_LOWERCASE** | For locales and scripts capable of handling uppercase and lowercase, map all characters to lowercase.
+| **LCMAP_HASH** | Return a hash of the raw sort weights of a string.<br> <br>Strings that appear equivalent typically return the same hash (for example, "hello" and "HELLO" with LCMAP_IGNORECASE). However, some complex cases, such as East Asian languages, can have similar strings with identical weights that compare as equal but do not return the same hash.<br> <br>LCMAP_HASH requires that the output buffer be of size sizeof(int) |
+| **LCMAP_SIMPLIFIED_CHINESE** | Map traditional Chinese characters to simplified Chinese characters. This flag and LCMAP_TRADITIONAL_CHINESE are mutually exclusive. |
+| **LCMAP_SORTHANDLE** <br> **The use of a sort handle results in minimal performance improvements and is discouraged.** | Return a token representing the resolved sort parameters for the locale (like locale name), so future calls can pass <code>NULL</code> for the sort name and pass the previously queried sort handle as the last parameter ([sortHandle](#-param-sorthandle-in-optional)) in subsequent calls to [CompareStringEx](../stringapiset/nf-stringapiset-comparestringex.md) or [LCMapStringEx](nf-winnls-lcmapstringex.md).<br> <br>LCMAP_SORTHANDLE requires that the output buffer be of size sizeof(lparam) |
+| **LCMAP_SORTKEY** | Produce a normalized sort key. If the LCMAP_SORTKEY flag is not specified, the function performs string mapping. For details of sort key generation and string mapping, see the Remarks section. |
+| **LCMAP_TITLECASE** | Windows 7:</b> Map all characters to title case, in which the first letter of each major word is capitalized. |
+| **LCMAP_TRADITIONAL_CHINESE** | Map simplified Chinese characters to traditional Chinese characters. This flag and LCMAP_SIMPLIFIED_CHINESE are mutually exclusive. |
+| **LCMAP_UPPERCASE** | For locales and scripts capable of handling uppercase and lowercase, map all characters to uppercase. |
 
 The following flags can be used alone, with one another, or with the LCMAP_SORTKEY and/or LCMAP_BYTEREV flags. However, they cannot be combined with the other flags listed above.
 
@@ -394,27 +263,24 @@ If the application is using the function to generate a sort key, it supplies a b
 
 The application can set <i>cchDest</i> to 0. In this case, the function does not use the <i>lpDestStr</i> parameter and returns the required buffer size for the mapped string or sort key.
 
-
 ### -param lpVersionInformation [in, optional]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_nlsversioninfoex">NLSVERSIONINFOEX</a> structure that contains the version information about the relevant NLS capability; usually retrieved from <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnlsversionex">GetNLSVersionEx</a>.
 
-<b>Windows Vista, Windows 7:</b> Reserved; must set to <b>NULL</b>.
-
+**Windows Vista, Windows 7:** Reserved; must set to NULL.
 
 ### -param lpReserved [in, optional]
 
-Reserved; must be <b>NULL</b>.
-
+Reserved; must be NULL.
 
 ### -param sortHandle [in, optional]
 
 Reserved; must be 0.
 
+> [!NOTE]
+> [CompareStringEx](../stringapiset/nf-stringapiset-comparestringex.md) and [LCMapStringEx](nf-winnls-lcmapstringex.md) can specify a sort handle (if the locale name is null).  This use is discouraged for most apps.
 
 ## -returns
-
-
 
 Returns the number of characters or bytes in the translated string or sort key, including a terminating null character, if successful. If the function succeeds and the value of <i>cchDest</i> is 0, the return value is the size of the buffer required to hold the translated string or sort key, including a terminating null character if the input was null terminated.
 
@@ -426,11 +292,7 @@ This function returns 0 if it does not succeed. To get extended error informatio
 <li>ERROR_INVALID_PARAMETER. Any of the parameter values was invalid.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 The application can use <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapString</a> or <b>LCMapStringEx</b> to generate a sort key. To do this, the application specifies  LCMAP_SORTKEY for the <i>dwMapFlags</i> parameter. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>.
 
@@ -440,40 +302,18 @@ Another way for your application to use <a href="https://docs.microsoft.com/wind
 
 <b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename">ResolveLocaleName</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-findnlsstringex">FindNLSStringEx</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnlsversionex">GetNLSVersionEx</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapString</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
- 
-
- 
-

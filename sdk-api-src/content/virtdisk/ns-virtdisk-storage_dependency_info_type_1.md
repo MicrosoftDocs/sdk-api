@@ -62,7 +62,7 @@ Contains virtual hard disk (VHD) storage dependency information for type 1.
 
 ### -field DependencyTypeFlags
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_dependent_disk_flag">DEPENDENT_DISK_FLAG</a> enumeration.
+A <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-dependent_disk_flag">DEPENDENT_DISK_FLAG</a> enumeration.
 
 
 ### -field ProviderSpecificFlags
@@ -72,7 +72,7 @@ Flags specific to the VHD provider.
 
 ### -field VirtualStorageType
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure.
+A <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure.
 
 
 ## -see-also

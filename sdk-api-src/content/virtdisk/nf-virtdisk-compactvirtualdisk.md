@@ -64,20 +64,20 @@ Reduces the size of a virtual hard disk (VHD) backing store file.
 A handle to the open virtual disk, which must have been opened using the 
       <b>VIRTUAL_DISK_ACCESS_METAOPS</b> flag in the 
       <i>VirtualDiskAccessMask</i> parameter passed to 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-openvirtualdisk">OpenVirtualDisk</a>. For information on how to open a 
+      <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a>. For information on how to open a 
       virtual disk, see the <b>OpenVirtualDisk</b> function.
 
 
 ### -param Flags [in]
 
 Must be the <b>COMPACT_VIRTUAL_DISK_FLAG_NONE</b> value (0) of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_compact_virtual_disk_flag">COMPACT_VIRTUAL_DISK_FLAG</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-compact_virtual_disk_flag">COMPACT_VIRTUAL_DISK_FLAG</a> enumeration.
 
 
 ### -param Parameters [in, optional]
 
 A optional pointer to a valid 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_compact_virtual_disk_parameters">COMPACT_VIRTUAL_DISK_PARAMETERS</a> 
+      <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-compact_virtual_disk_parameters">COMPACT_VIRTUAL_DISK_PARAMETERS</a> 
       structure that contains compaction parameter data.
 
 
@@ -116,8 +116,8 @@ There are two different types of compaction.
       <b>VIRTUAL_DISK_ACCESS_METAOPS</b> and 
       <b>VIRTUAL_DISK_ACCESS_ATTACH_RO</b> flags in the 
       <i>VirtualDiskAccessMask</i> parameter passed to 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-openvirtualdisk">OpenVirtualDisk</a>, attaching the VHD by calling 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-attachvirtualdisk">AttachVirtualDisk</a>, and while the VHD is attached 
+      <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a>, attaching the VHD by calling 
+      <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-attachvirtualdisk">AttachVirtualDisk</a>, and while the VHD is attached 
       calling <b>CompactVirtualDisk</b>. Detaching the VHD 
       before compaction is done can cause compaction to return failure before it is done (similar to cancellation of 
       compaction).</li>
@@ -125,7 +125,7 @@ There are two different types of compaction.
       blocks filled entirely with zeros (0). This is done by including the 
       <b>VIRTUAL_DISK_ACCESS_METAOPS</b> flag in the 
       <i>VirtualDiskAccessMask</i> parameter passed to 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-openvirtualdisk">OpenVirtualDisk</a>, and calling 
+      <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a>, and calling 
       <b>CompactVirtualDisk</b>.</li>
 </ul>
 File-system-aware compaction is the most efficient compaction type but using first the file-system-aware 

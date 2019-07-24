@@ -68,12 +68,12 @@ A handle to the open virtual disk. This must be a VHD Set file.
 
 ### -param Parameters [in]
 
-A pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_delete_snapshot_vhdset_parameters">DELETE_SNAPSHOT_VHDSET_PARAMETERS</a> structure that contains snapshot deletion data.
+A pointer to a valid <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-delete_snapshot_vhdset_parameters">DELETE_SNAPSHOT_VHDSET_PARAMETERS</a> structure that contains snapshot deletion data.
 
 
 ### -param Flags [in]
 
-Snapshot deletion flags, which must be a valid combination of the <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_delete_snapshot_vhdset_flag">DELETE_SNAPSHOT_VHDSET_FLAG</a> enumeration.
+Snapshot deletion flags, which must be a valid combination of the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-delete_snapshot_vhdset_flag">DELETE_SNAPSHOT_VHDSET_FLAG</a> enumeration.
 
 
 ## -returns

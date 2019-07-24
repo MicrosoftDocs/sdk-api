@@ -62,7 +62,7 @@ Contains virtual hard disk (VHD) storage dependency information.
 
 ### -field Version
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_storage_dependency_info_version">STORAGE_DEPENDENCY_INFO_VERSION</a> enumeration that specifies the version of the information structure being passed to or from  the VHD functions. Can be <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_storage_dependency_info_type_1">STORAGE_DEPENDENCY_INFO_TYPE_1</a> or <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_storage_dependency_info_type_2">STORAGE_DEPENDENCY_INFO_TYPE_2</a>.
+A <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-storage_dependency_info_version">STORAGE_DEPENDENCY_INFO_VERSION</a> enumeration that specifies the version of the information structure being passed to or from  the VHD functions. Can be <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_storage_dependency_info_type_1">STORAGE_DEPENDENCY_INFO_TYPE_1</a> or <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_storage_dependency_info_type_2">STORAGE_DEPENDENCY_INFO_TYPE_2</a>.
 
 
 ### -field NumberEntries
@@ -72,12 +72,12 @@ Number of entries returned in the following unioned members.
 
 ### -field Version1Entries
 
-Variable-length array containing <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_storage_dependency_info_type_1">STORAGE_DEPENDENCY_INFO_TYPE_1</a> structures.
+Variable-length array containing <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info_type_1">STORAGE_DEPENDENCY_INFO_TYPE_1</a> structures.
 
 
 ### -field Version2Entries
 
-Variable-length array containing <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_storage_dependency_info_type_2">STORAGE_DEPENDENCY_INFO_TYPE_2</a> structures.
+Variable-length array containing <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info_type_2">STORAGE_DEPENDENCY_INFO_TYPE_2</a> structures.
 
 
 ## -see-also

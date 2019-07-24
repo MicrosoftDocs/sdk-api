@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains flags affecting the behavior of the <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-rawscsivirtualdisk">RawSCSIVirtualDisk</a> function.
+Contains flags affecting the behavior of the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-rawscsivirtualdisk">RawSCSIVirtualDisk</a> function.
 
 
 ## -enum-fields

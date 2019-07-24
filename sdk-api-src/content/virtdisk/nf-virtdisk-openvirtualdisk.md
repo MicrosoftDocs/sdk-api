@@ -61,7 +61,7 @@ Opens a virtual hard disk (VHD) or CD or DVD image file (ISO) for use.
 
 ### -param VirtualStorageType [in]
 
-A pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> 
+A pointer to a valid <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> 
      structure.
 
 
@@ -79,13 +79,13 @@ A valid value of the
 ### -param Flags [in]
 
 A valid combination of values of the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_open_virtual_disk_flag">OPEN_VIRTUAL_DISK_FLAG</a> enumeration.
+     <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-open_virtual_disk_flag">OPEN_VIRTUAL_DISK_FLAG</a> enumeration.
 
 
 ### -param Parameters [in, optional]
 
 An optional pointer to a valid 
-     <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_open_virtual_disk_parameters">OPEN_VIRTUAL_DISK_PARAMETERS</a> structure. Can 
+     <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-open_virtual_disk_parameters">OPEN_VIRTUAL_DISK_PARAMETERS</a> structure. Can 
      be <b>NULL</b>.
 
 
@@ -166,7 +166,7 @@ CD and DVD image files (ISO) are not supported before Windows 8 and
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-createvirtualdisk">CreateVirtualDisk</a>
+<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-createvirtualdisk">CreateVirtualDisk</a>
 
 
 

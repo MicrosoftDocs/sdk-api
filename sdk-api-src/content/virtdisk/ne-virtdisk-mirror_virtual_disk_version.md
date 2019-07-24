@@ -53,8 +53,8 @@ ms.custom: 19H1
 
 
 Contains the version of the virtual disk 
-     <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_mirror_virtual_disk_parameters">MIRROR_VIRTUAL_DISK_PARAMETERS</a> structure 
-     used by the <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-mirrorvirtualdisk">MirrorVirtualDisk</a> 
+     <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-mirror_virtual_disk_parameters">MIRROR_VIRTUAL_DISK_PARAMETERS</a> structure 
+     used by the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-breakmirrorvirtualdisk">MirrorVirtualDisk</a> 
      function.
 
 
@@ -78,11 +78,11 @@ Use the <b>Version1</b> member.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_mirror_virtual_disk_parameters">MIRROR_VIRTUAL_DISK_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-mirror_virtual_disk_parameters">MIRROR_VIRTUAL_DISK_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-mirrorvirtualdisk">MirrorVirtualDisk</a>
+<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-breakmirrorvirtualdisk">MirrorVirtualDisk</a>
 
 
 

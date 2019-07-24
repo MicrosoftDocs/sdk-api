@@ -64,7 +64,7 @@ Retrieves information about a virtual hard disk (VHD).
 A handle to the open VHD, which must have been opened using the 
       <b>VIRTUAL_DISK_ACCESS_GET_INFO</b> flag set in the 
       <i>VirtualDiskAccessMask</i> parameter to the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-openvirtualdisk">OpenVirtualDisk</a> function. For information on how to 
+      <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a> function. For information on how to 
       open a VHD, see the <b>OpenVirtualDisk</b> function.
 
 

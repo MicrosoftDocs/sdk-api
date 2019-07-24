@@ -62,7 +62,7 @@ Contains virtual hard disk (VHD)  attach request parameters.
 
 ### -field Version
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_attach_virtual_disk_version">ATTACH_VIRTUAL_DISK_VERSION</a> 
+A <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-attach_virtual_disk_version">ATTACH_VIRTUAL_DISK_VERSION</a> 
      enumeration that specifies the version of the 
      <b>ATTACH_VIRTUAL_DISK_PARAMETERS</b> 
      structure being passed to or from the VHD functions.

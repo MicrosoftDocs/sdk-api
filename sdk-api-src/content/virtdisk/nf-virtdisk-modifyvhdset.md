@@ -68,12 +68,12 @@ A handle to the open virtual disk. This must be a VHD Set file.
 
 ### -param Parameters [in]
 
-A pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_modify_vhdset_parameters">MODIFY_VHDSET_PARAMETERS</a> structure that contains modification data.
+A pointer to a valid <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-modify_vhdset_parameters">MODIFY_VHDSET_PARAMETERS</a> structure that contains modification data.
 
 
 ### -param Flags [in]
 
-Modification flags, which must be a valid combination of the <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_modify_vhdset_flag">MODIFY_VHDSET_FLAG</a> enumeration.
+Modification flags, which must be a valid combination of the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-modify_vhdset_flag">MODIFY_VHDSET_FLAG</a> enumeration.
 
 
 ## -returns

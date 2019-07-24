@@ -64,7 +64,7 @@ Retrieves the path to the physical device object that contains a virtual hard di
 
 A handle to the open virtual disk, which must have been opened using the 
      <b>VIRTUAL_DISK_ACCESS_GET_INFO</b> flag. For information on how to open a virtual disk, see 
-     the <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-openvirtualdisk">OpenVirtualDisk</a> function.
+     the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a> function.
 
 
 ### -param DiskPathSizeInBytes [in, out]

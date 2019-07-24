@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 Contains the version of the virtual disk 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_expand_virtual_disk_parameters">EXPAND_VIRTUAL_DISK_PARAMETERS</a> structure 
+    <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-expand_virtual_disk_parameters">EXPAND_VIRTUAL_DISK_PARAMETERS</a> structure 
     to use in calls to virtual disk functions.
 
 

@@ -63,7 +63,7 @@ Contains virtual hard disk (VHD) information.
 ### -field Version
 
 A value of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_get_virtual_disk_info_version">GET_VIRTUAL_DISK_INFO_VERSION</a> enumeration 
+      <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-get_virtual_disk_info_version">GET_VIRTUAL_DISK_INFO_VERSION</a> enumeration 
       that specifies the version of the 
       <b>GET_VIRTUAL_DISK_INFO</b> structure being passed to 
       or from the virtual disk functions. This determines what parts of this structure will be used.
@@ -137,7 +137,7 @@ Internal time stamp of the parent disk backing store. Set the <b>Version</b> mem
 ### -field VirtualStorageType
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure containing 
+<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure containing 
        information about the type of virtual disk. Set the <b>Version</b> member to 
        <b>GET_VIRTUAL_DISK_INFO_VIRTUAL_STORAGE_TYPE</b>.
 
@@ -292,11 +292,11 @@ The change tracking identifier for the change that identifies the state of the v
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_get_virtual_disk_info_version">GET_VIRTUAL_DISK_INFO_VERSION</a>
+<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-get_virtual_disk_info_version">GET_VIRTUAL_DISK_INFO_VERSION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-getvirtualdiskinformation">GetVirtualDiskInformation</a>
+<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-getvirtualdiskinformation">GetVirtualDiskInformation</a>
 
 
 

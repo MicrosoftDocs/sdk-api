@@ -74,7 +74,7 @@ If the <i>Flags</i> parameter specifies the
 ### -param Flags [in]
 
 A valid combination of 
-     <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_get_storage_dependency_flag">GET_STORAGE_DEPENDENCY_FLAG</a> values.
+     <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-get_storage_dependency_flag">GET_STORAGE_DEPENDENCY_FLAG</a> values.
 
 
 ### -param StorageDependencyInfoSize [in]

@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains flags affecting the behavior of the <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-applysnapshotvhdset">ApplySnapshotVhdSet</a> function.
+Contains flags affecting the behavior of the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-applysnapshotvhdset">ApplySnapshotVhdSet</a> function.
 
 
 ## -enum-fields
