@@ -18,4 +18,5 @@ tech.root: input_ink
 
 This header is used by Ink input. For more information, see:
 
-- [Ink input](../_input_ink)
+- [Ink input](../_input_ink/index.md)
+

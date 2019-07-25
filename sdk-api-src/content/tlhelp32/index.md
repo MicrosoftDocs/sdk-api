@@ -18,4 +18,5 @@ tech.root: toolhelp
 
 This header is used by Tool Help Library. For more information, see:
 
-- [Tool Help Library](../_toolhelp)
+- [Tool Help Library](../_toolhelp/index.md)
+

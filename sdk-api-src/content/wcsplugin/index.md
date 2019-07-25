@@ -18,4 +18,5 @@ tech.root: wcs
 
 This header is used by Windows Color System. For more information, see:
 
-- [Windows Color System](../_wcs)
+- [Windows Color System](../_wcs/index.md)
+

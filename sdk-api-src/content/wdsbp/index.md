@@ -18,4 +18,5 @@ tech.root: wds
 
 This header is used by Windows Deployment Services. For more information, see:
 
-- [Windows Deployment Services](../_wds)
+- [Windows Deployment Services](../_wds/index.md)
+

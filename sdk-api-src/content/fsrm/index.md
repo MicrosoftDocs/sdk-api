@@ -18,4 +18,5 @@ tech.root: fsrm
 
 This header is used by File Server Resource Manager. For more information, see:
 
-- [File Server Resource Manager](../_fsrm)
+- [File Server Resource Manager](../_fsrm/index.md)
+

@@ -18,4 +18,5 @@ tech.root: rstmgr
 
 This header is used by Restart Manager. For more information, see:
 
-- [Restart Manager](../_rstmgr)
+- [Restart Manager](../_rstmgr/index.md)
+

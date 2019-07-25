@@ -18,4 +18,5 @@ tech.root: gamemode
 
 This header is used by Game Mode. For more information, see:
 
-- [Game Mode](../_gamemode)
+- [Game Mode](../_gamemode/index.md)
+

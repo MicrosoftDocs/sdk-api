@@ -18,4 +18,5 @@ tech.root: multimedia
 
 This header is used by Windows Multimedia. For more information, see:
 
-- [Windows Multimedia](../_multimedia)
+- [Windows Multimedia](../_multimedia/index.md)
+

@@ -19,4 +19,5 @@ archived: true
 
 This header is used by Windows Media Library Sharing Services. For more information, see:
 
-- [Windows Media Library Sharing Services](../_wmlss)
+- [Windows Media Library Sharing Services](../_wmlss/index.md)
+

@@ -18,4 +18,5 @@ tech.root: serports
 
 This header is used by Serial Controller Driver Reference. For more information, see:
 
-- [Serial Controller Driver Reference](../_serports)
+- [Serial Controller Driver Reference](../_serports/index.md)
+

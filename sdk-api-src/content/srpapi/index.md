@@ -19,4 +19,5 @@ archived: true
 
 This header is used by Windows Information Protection (WIP). For more information, see:
 
-- [Windows Information Protection (WIP)](../_edp)
+- [Windows Information Protection (WIP)](../_edp/index.md)
+

@@ -18,4 +18,5 @@ tech.root: policy
 
 This header is used by Group Policy API. For more information, see:
 
-- [Group Policy API](../_policy)
+- [Group Policy API](../_policy/index.md)
+

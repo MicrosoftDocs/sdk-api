@@ -18,4 +18,5 @@ tech.root: buses
 
 This header is used by USB driver reference. For more information, see:
 
-- [USB driver reference](../_buses)
+- [USB driver reference](../_buses/index.md)
+

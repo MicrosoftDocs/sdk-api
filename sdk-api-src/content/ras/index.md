@@ -18,4 +18,5 @@ tech.root: rras
 
 This header is used by Routing and Remote Access Service. For more information, see:
 
-- [Routing and Remote Access Service](../_rras)
+- [Routing and Remote Access Service](../_rras/index.md)
+

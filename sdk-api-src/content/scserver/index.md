@@ -18,4 +18,5 @@ tech.root: wmdm
 
 This header is used by Windows Media Device Manager 11 SDK. For more information, see:
 
-- [Windows Media Device Manager 11 SDK](../_wmdm)
+- [Windows Media Device Manager 11 SDK](../_wmdm/index.md)
+

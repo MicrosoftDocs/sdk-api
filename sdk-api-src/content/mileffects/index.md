@@ -18,4 +18,5 @@ tech.root: wibe
 
 This header is used by WPF Bitmap Effects. For more information, see:
 
-- [WPF Bitmap Effects](../_wibe)
+- [WPF Bitmap Effects](../_wibe/index.md)
+

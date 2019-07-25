@@ -18,4 +18,5 @@ tech.root: wnv
 
 This header is used by Windows Network Virtualization. For more information, see:
 
-- [Windows Network Virtualization](../_wnv)
+- [Windows Network Virtualization](../_wnv/index.md)
+

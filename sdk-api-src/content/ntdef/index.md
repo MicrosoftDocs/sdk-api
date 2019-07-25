@@ -18,4 +18,5 @@ tech.root: kernel
 
 This header is used by Kernel-Mode Driver Reference. For more information, see:
 
-- [Kernel-Mode Driver Reference](../_kernel)
+- [Kernel-Mode Driver Reference](../_kernel/index.md)
+

@@ -18,4 +18,5 @@ tech.root: directwrite
 
 This header is used by DirectWrite. For more information, see:
 
-- [DirectWrite](../_directwrite)
+- [DirectWrite](../_directwrite/index.md)
+

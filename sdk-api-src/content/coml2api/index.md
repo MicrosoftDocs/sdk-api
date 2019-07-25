@@ -18,4 +18,5 @@ tech.root: stg
 
 This header is used by Structured Storage. For more information, see:
 
-- [Structured Storage](../_stg)
+- [Structured Storage](../_stg/index.md)
+

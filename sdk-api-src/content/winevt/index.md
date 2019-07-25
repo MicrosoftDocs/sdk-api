@@ -18,4 +18,5 @@ tech.root: wes
 
 This header is used by Windows Event Log. For more information, see:
 
-- [Windows Event Log](../_wes)
+- [Windows Event Log](../_wes/index.md)
+

@@ -18,4 +18,5 @@ tech.root: sr
 
 This header is used by System Restore. For more information, see:
 
-- [System Restore](../_sr)
+- [System Restore](../_sr/index.md)
+

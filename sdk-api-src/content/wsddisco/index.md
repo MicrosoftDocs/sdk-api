@@ -18,4 +18,5 @@ tech.root: ncd
 
 This header is used by Other Devices Technologies. For more information, see:
 
-- [Other Devices Technologies](../_ncd)
+- [Other Devices Technologies](../_ncd/index.md)
+

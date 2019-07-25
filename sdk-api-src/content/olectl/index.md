@@ -18,4 +18,5 @@ tech.root: automat
 
 This header is used by Automation. For more information, see:
 
-- [Automation](../_automat)
+- [Automation](../_automat/index.md)
+

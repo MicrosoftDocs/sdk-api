@@ -18,4 +18,5 @@ tech.root: wininet
 
 This header is used by Windows Internet. For more information, see:
 
-- [Windows Internet](../_wininet)
+- [Windows Internet](../_wininet/index.md)
+

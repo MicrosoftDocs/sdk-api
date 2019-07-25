@@ -18,4 +18,5 @@ tech.root: directdraw
 
 This header is used by DirectDraw. For more information, see:
 
-- [DirectDraw](../_directdraw)
+- [DirectDraw](../_directdraw/index.md)
+

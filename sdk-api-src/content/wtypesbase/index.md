@@ -18,4 +18,5 @@ tech.root: com
 
 This header is used by Component Object Model (COM). For more information, see:
 
-- [Component Object Model (COM)](../_com)
+- [Component Object Model (COM)](../_com/index.md)
+

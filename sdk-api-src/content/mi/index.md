@@ -18,4 +18,5 @@ tech.root: wmi_v2
 
 This header is used by Windows Management Infrastructure (MI). For more information, see:
 
-- [Windows Management Infrastructure (MI)](../_wmi_v2)
+- [Windows Management Infrastructure (MI)](../_wmi_v2/index.md)
+

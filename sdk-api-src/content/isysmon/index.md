@@ -18,4 +18,5 @@ tech.root: sysmon
 
 This header is used by System Monitor. For more information, see:
 
-- [System Monitor](../_sysmon)
+- [System Monitor](../_sysmon/index.md)
+

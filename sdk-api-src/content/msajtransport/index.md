@@ -18,4 +18,5 @@ tech.root: alljoyn
 
 This header is used by AllJoyn API. For more information, see:
 
-- [AllJoyn API](../_alljoyn)
+- [AllJoyn API](../_alljoyn/index.md)
+

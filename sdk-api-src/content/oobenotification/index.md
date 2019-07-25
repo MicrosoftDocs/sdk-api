@@ -18,4 +18,5 @@ tech.root: windowssetupandmigration
 
 This header is used by OOBE APIs for setup state and notification. For more information, see:
 
-- [OOBE APIs for setup state and notification](../_windowssetupandmigration)
+- [OOBE APIs for setup state and notification](../_windowssetupandmigration/index.md)
+

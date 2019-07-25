@@ -18,4 +18,5 @@ tech.root: wia
 
 This header is used by WIA. For more information, see:
 
-- [WIA](../_wia)
+- [WIA](../_wia/index.md)
+

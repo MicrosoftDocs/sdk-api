@@ -18,4 +18,5 @@ tech.root: mschap
 
 This header is used by MS-CHAP Password Management API. For more information, see:
 
-- [MS-CHAP Password Management API](../_mschap)
+- [MS-CHAP Password Management API](../_mschap/index.md)
+

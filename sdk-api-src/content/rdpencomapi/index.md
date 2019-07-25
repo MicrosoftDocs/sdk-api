@@ -18,4 +18,5 @@ tech.root: rdp
 
 This header is used by Windows Desktop Sharing. For more information, see:
 
-- [Windows Desktop Sharing](../_rdp)
+- [Windows Desktop Sharing](../_rdp/index.md)
+

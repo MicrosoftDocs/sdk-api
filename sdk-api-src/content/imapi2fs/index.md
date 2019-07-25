@@ -18,4 +18,5 @@ tech.root: imapi
 
 This header is used by Image Mastering API. For more information, see:
 
-- [Image Mastering API](../_imapi)
+- [Image Mastering API](../_imapi/index.md)
+

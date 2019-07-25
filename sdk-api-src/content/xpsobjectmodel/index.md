@@ -18,4 +18,5 @@ tech.root: xps
 
 This header is used by XPS Documents. For more information, see:
 
-- [XPS Documents](../_xps)
+- [XPS Documents](../_xps/index.md)
+

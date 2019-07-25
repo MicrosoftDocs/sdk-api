@@ -18,4 +18,5 @@ tech.root: perf
 
 This header is used by Performance Counters. For more information, see:
 
-- [Performance Counters](../_perf)
+- [Performance Counters](../_perf/index.md)
+

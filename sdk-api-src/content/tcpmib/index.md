@@ -18,4 +18,5 @@ tech.root: mib
 
 This header is used by Management Information Base. For more information, see:
 
-- [Management Information Base](../_mib)
+- [Management Information Base](../_mib/index.md)
+

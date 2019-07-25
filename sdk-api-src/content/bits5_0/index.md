@@ -18,4 +18,5 @@ tech.root: bits
 
 This header is used by Background Intelligent Transfer Service. For more information, see:
 
-- [Background Intelligent Transfer Service](../_bits)
+- [Background Intelligent Transfer Service](../_bits/index.md)
+

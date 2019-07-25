@@ -18,4 +18,5 @@ tech.root: adsi
 
 This header is used by Active Directory Service Interfaces. For more information, see:
 
-- [Active Directory Service Interfaces](../_adsi)
+- [Active Directory Service Interfaces](../_adsi/index.md)
+

@@ -18,4 +18,5 @@ tech.root: winsync
 
 This header is used by Windows Sync. For more information, see:
 
-- [Windows Sync](../_winsync)
+- [Windows Sync](../_winsync/index.md)
+

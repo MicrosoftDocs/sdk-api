@@ -18,4 +18,5 @@ tech.root: bltooth
 
 This header is used by Bluetooth Devices Reference. For more information, see:
 
-- [Bluetooth Devices Reference](../_bltooth)
+- [Bluetooth Devices Reference](../_bltooth/index.md)
+

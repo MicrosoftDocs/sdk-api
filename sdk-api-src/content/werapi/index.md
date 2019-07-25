@@ -18,4 +18,5 @@ tech.root: wer
 
 This header is used by Windows Error Reporting. For more information, see:
 
-- [Windows Error Reporting](../_wer)
+- [Windows Error Reporting](../_wer/index.md)
+

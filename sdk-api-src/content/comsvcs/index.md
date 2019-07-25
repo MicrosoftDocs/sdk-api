@@ -18,4 +18,5 @@ tech.root: winmessenger
 
 This header is used by Windows Messenger. For more information, see:
 
-- [Windows Messenger](../_winmessenger)
+- [Windows Messenger](../_winmessenger/index.md)
+

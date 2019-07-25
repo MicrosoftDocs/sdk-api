@@ -18,4 +18,5 @@ tech.root: debug
 
 This header is used by Debugging and authoring support. For more information, see:
 
-- [Debugging and authoring support](../_debug)
+- [Debugging and authoring support](../_debug/index.md)
+

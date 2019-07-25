@@ -18,4 +18,5 @@ tech.root: wua
 
 This header is used by Windows Update Agent API. For more information, see:
 
-- [Windows Update Agent API](../_wua)
+- [Windows Update Agent API](../_wua/index.md)
+

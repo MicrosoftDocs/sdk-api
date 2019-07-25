@@ -18,4 +18,5 @@ tech.root: wmi
 
 This header is used by Windows Management Instrumentation. For more information, see:
 
-- [Windows Management Instrumentation](../_wmi)
+- [Windows Management Instrumentation](../_wmi/index.md)
+

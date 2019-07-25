@@ -18,4 +18,5 @@ tech.root: winrm
 
 This header is used by Windows Remote Management. For more information, see:
 
-- [Windows Remote Management](../_winrm)
+- [Windows Remote Management](../_winrm/index.md)
+

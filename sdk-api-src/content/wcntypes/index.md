@@ -18,4 +18,5 @@ tech.root: wcn
 
 This header is used by Windows Connect Now. For more information, see:
 
-- [Windows Connect Now](../_wcn)
+- [Windows Connect Now](../_wcn/index.md)
+

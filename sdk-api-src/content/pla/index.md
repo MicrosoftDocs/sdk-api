@@ -18,4 +18,5 @@ tech.root: pla
 
 This header is used by Performance Logs and Alerts. For more information, see:
 
-- [Performance Logs and Alerts](../_pla)
+- [Performance Logs and Alerts](../_pla/index.md)
+

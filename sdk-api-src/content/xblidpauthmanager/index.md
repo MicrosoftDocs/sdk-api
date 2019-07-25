@@ -18,4 +18,5 @@ tech.root: xblidp
 
 This header is used by XblIdpAuthManager. For more information, see:
 
-- [XblIdpAuthManager](../_xblidp)
+- [XblIdpAuthManager](../_xblidp/index.md)
+

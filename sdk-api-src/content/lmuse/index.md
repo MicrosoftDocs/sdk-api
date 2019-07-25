@@ -18,4 +18,5 @@ tech.root: netmgmt
 
 This header is used by Network Management. For more information, see:
 
-- [Network Management](../_netmgmt)
+- [Network Management](../_netmgmt/index.md)
+

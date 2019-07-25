@@ -18,4 +18,5 @@ tech.root: rdc
 
 This header is used by Remote Differential Compression. For more information, see:
 
-- [Remote Differential Compression](../_rdc)
+- [Remote Differential Compression](../_rdc/index.md)
+

@@ -18,4 +18,5 @@ tech.root: nwifi
 
 This header is used by Native Wifi. For more information, see:
 
-- [Native Wifi](../_nwifi)
+- [Native Wifi](../_nwifi/index.md)
+

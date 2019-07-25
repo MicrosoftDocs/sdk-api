@@ -18,4 +18,5 @@ tech.root: magapi
 
 This header is used by Magnification API. For more information, see:
 
-- [Magnification API](../_magapi)
+- [Magnification API](../_magapi/index.md)
+

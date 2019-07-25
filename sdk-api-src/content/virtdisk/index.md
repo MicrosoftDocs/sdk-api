@@ -18,4 +18,5 @@ tech.root: vhd
 
 This header is used by Virtual Hard Disk. For more information, see:
 
-- [Virtual Hard Disk](../_vhd)
+- [Virtual Hard Disk](../_vhd/index.md)
+

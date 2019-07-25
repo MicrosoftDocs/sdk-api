@@ -18,4 +18,5 @@ tech.root: enstor
 
 This header is used by Enhanced Storage. For more information, see:
 
-- [Enhanced Storage](../_enstor)
+- [Enhanced Storage](../_enstor/index.md)
+

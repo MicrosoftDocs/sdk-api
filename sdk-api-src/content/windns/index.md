@@ -18,4 +18,5 @@ tech.root: dns
 
 This header is used by Domain Name System (DNS). For more information, see:
 
-- [Domain Name System (DNS)](../_dns)
+- [Domain Name System (DNS)](../_dns/index.md)
+

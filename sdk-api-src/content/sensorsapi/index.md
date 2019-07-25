@@ -18,4 +18,5 @@ tech.root: winlocation
 
 This header is used by Location API. For more information, see:
 
-- [Location API](../_winlocation)
+- [Location API](../_winlocation/index.md)
+

@@ -18,4 +18,5 @@ tech.root: dlgbox
 
 This header is used by Dialog Boxes. For more information, see:
 
-- [Dialog Boxes](../_dlgbox)
+- [Dialog Boxes](../_dlgbox/index.md)
+

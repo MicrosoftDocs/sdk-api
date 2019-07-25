@@ -18,4 +18,5 @@ tech.root: monitor
 
 This header is used by Monitor Configuration. For more information, see:
 
-- [Monitor Configuration](../_monitor)
+- [Monitor Configuration](../_monitor/index.md)
+

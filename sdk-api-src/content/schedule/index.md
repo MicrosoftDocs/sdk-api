@@ -18,4 +18,5 @@ tech.root: ad
 
 This header is used by Active Directory Domain Services. For more information, see:
 
-- [Active Directory Domain Services](../_ad)
+- [Active Directory Domain Services](../_ad/index.md)
+

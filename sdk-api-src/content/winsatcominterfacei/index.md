@@ -18,4 +18,5 @@ tech.root: winsat
 
 This header is used by Windows System Assessment Tool. For more information, see:
 
-- [Windows System Assessment Tool](../_winsat)
+- [Windows System Assessment Tool](../_winsat/index.md)
+

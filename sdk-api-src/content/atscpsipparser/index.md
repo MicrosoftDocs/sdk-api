@@ -19,4 +19,5 @@ archived: true
 
 This header is used by Microsoft TV Technologies. For more information, see:
 
-- [Microsoft TV Technologies](../_mstv)
+- [Microsoft TV Technologies](../_mstv/index.md)
+

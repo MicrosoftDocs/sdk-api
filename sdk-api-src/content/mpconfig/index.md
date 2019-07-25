@@ -18,4 +18,5 @@ tech.root: virtual
 
 This header is used by Hyper-V WMI Provider. For more information, see:
 
-- [Hyper-V WMI Provider](../_virtual)
+- [Hyper-V WMI Provider](../_virtual/index.md)
+

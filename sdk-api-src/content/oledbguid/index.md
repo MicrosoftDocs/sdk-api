@@ -18,4 +18,5 @@ tech.root: indexsrv
 
 This header is used by Indexing Service. For more information, see:
 
-- [Indexing Service](../_indexsrv)
+- [Indexing Service](../_indexsrv/index.md)
+

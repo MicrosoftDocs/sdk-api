@@ -19,4 +19,5 @@ archived: true
 
 This header is used by Windows Media Player SDK. For more information, see:
 
-- [Windows Media Player SDK](../_wmp)
+- [Windows Media Player SDK](../_wmp/index.md)
+

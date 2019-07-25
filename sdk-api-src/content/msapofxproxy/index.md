@@ -18,4 +18,5 @@ tech.root: audio
 
 This header is used by Audio Devices DDI Reference. For more information, see:
 
-- [Audio Devices DDI Reference](../_audio)
+- [Audio Devices DDI Reference](../_audio/index.md)
+

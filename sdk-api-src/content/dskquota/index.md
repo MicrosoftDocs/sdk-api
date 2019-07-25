@@ -18,4 +18,5 @@ tech.root: fs
 
 This header is used by Data Access and Storage. For more information, see:
 
-- [Data Access and Storage](../_fs)
+- [Data Access and Storage](../_fs/index.md)
+

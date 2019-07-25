@@ -18,4 +18,5 @@ tech.root: http
 
 This header is used by Windows HTTP Services (WinHTTP). For more information, see:
 
-- [Windows HTTP Services (WinHTTP)](../_http)
+- [Windows HTTP Services (WinHTTP)](../_http/index.md)
+

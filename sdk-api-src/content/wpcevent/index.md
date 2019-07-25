@@ -18,4 +18,5 @@ tech.root: parcon
 
 This header is used by Parental Controls. For more information, see:
 
-- [Parental Controls](../_parcon)
+- [Parental Controls](../_parcon/index.md)
+

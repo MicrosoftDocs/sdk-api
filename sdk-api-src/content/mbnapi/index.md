@@ -18,4 +18,5 @@ tech.root: mbn
 
 This header is used by Mobile Broadband. For more information, see:
 
-- [Mobile Broadband](../_mbn)
+- [Mobile Broadband](../_mbn/index.md)
+

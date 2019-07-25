@@ -18,4 +18,5 @@ tech.root: of
 
 This header is used by Offline Files. For more information, see:
 
-- [Offline Files](../_of)
+- [Offline Files](../_of/index.md)
+

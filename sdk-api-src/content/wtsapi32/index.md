@@ -18,4 +18,5 @@ tech.root: termserv
 
 This header is used by Remote Desktop Services. For more information, see:
 
-- [Remote Desktop Services](../_termserv)
+- [Remote Desktop Services](../_termserv/index.md)
+

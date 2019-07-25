@@ -18,4 +18,5 @@ tech.root: dhcp
 
 This header is used by Dynamic Host Configuration Protocol (DHCP). For more information, see:
 
-- [Dynamic Host Configuration Protocol (DHCP)](../_dhcp)
+- [Dynamic Host Configuration Protocol (DHCP)](../_dhcp/index.md)
+

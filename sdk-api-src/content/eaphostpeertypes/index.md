@@ -18,4 +18,5 @@ tech.root: eaphost
 
 This header is used by Extensible Authentication Protocol Host. For more information, see:
 
-- [Extensible Authentication Protocol Host](../_eaphost)
+- [Extensible Authentication Protocol Host](../_eaphost/index.md)
+

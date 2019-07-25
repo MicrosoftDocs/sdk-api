@@ -18,4 +18,5 @@ tech.root: display
 
 This header is used by Display Devices Reference. For more information, see:
 
-- [Display Devices Reference](../_display)
+- [Display Devices Reference](../_display/index.md)
+

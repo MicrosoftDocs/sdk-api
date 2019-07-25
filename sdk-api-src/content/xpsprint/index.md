@@ -18,4 +18,5 @@ tech.root: gdi
 
 This header is used by Windows GDI. For more information, see:
 
-- [Windows GDI](../_gdi)
+- [Windows GDI](../_gdi/index.md)
+

@@ -18,4 +18,5 @@ tech.root: snmp
 
 This header is used by Simple Network Management Protocol. For more information, see:
 
-- [Simple Network Management Protocol](../_snmp)
+- [Simple Network Management Protocol](../_snmp/index.md)
+

@@ -19,4 +19,5 @@ archived: true
 
 This header is used by Windows Machine Learning. For more information, see:
 
-- [Windows Machine Learning](../_machinelearning)
+- [Windows Machine Learning](../_machinelearning/index.md)
+

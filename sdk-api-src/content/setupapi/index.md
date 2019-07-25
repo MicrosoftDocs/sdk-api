@@ -18,4 +18,5 @@ tech.root: setup
 
 This header is used by Application Installation and Servicing. For more information, see:
 
-- [Application Installation and Servicing](../_setup)
+- [Application Installation and Servicing](../_setup/index.md)
+

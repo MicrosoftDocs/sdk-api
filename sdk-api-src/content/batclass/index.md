@@ -18,4 +18,5 @@ tech.root: battery
 
 This header is used by Battery Devices Reference. For more information, see:
 
-- [Battery Devices Reference](../_battery)
+- [Battery Devices Reference](../_battery/index.md)
+

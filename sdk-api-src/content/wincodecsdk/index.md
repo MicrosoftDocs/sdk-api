@@ -18,4 +18,5 @@ tech.root: wic
 
 This header is used by Windows Imaging Component. For more information, see:
 
-- [Windows Imaging Component](../_wic)
+- [Windows Imaging Component](../_wic/index.md)
+

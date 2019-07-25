@@ -18,4 +18,5 @@ tech.root: swdevice
 
 This header is used by Software Device API. For more information, see:
 
-- [Software Device API](../_swdevice)
+- [Software Device API](../_swdevice/index.md)
+

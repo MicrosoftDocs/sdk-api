@@ -18,4 +18,5 @@ tech.root: gpmc
 
 This header is used by Group Policy Management Console. For more information, see:
 
-- [Group Policy Management Console](../_gpmc)
+- [Group Policy Management Console](../_gpmc/index.md)
+

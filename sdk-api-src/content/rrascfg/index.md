@@ -18,4 +18,5 @@ tech.root: eap
 
 This header is used by Extensible Authentication Protocol. For more information, see:
 
-- [Extensible Authentication Protocol](../_eap)
+- [Extensible Authentication Protocol](../_eap/index.md)
+

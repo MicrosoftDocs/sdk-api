@@ -18,4 +18,5 @@ tech.root: bluetooth
 
 This header is used by Bluetooth. For more information, see:
 
-- [Bluetooth](../_bluetooth)
+- [Bluetooth](../_bluetooth/index.md)
+

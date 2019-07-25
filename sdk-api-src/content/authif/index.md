@@ -18,4 +18,5 @@ tech.root: nps
 
 This header is used by Network Policy Server. For more information, see:
 
-- [Network Policy Server](../_nps)
+- [Network Policy Server](../_nps/index.md)
+

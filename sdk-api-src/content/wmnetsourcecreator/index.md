@@ -19,4 +19,5 @@ archived: true
 
 This header is used by Windows Media Format 11 SDK. For more information, see:
 
-- [Windows Media Format 11 SDK](../_wmformat)
+- [Windows Media Format 11 SDK](../_wmformat/index.md)
+

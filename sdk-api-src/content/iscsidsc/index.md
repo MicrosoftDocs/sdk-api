@@ -18,4 +18,5 @@ tech.root: iscsidisc
 
 This header is used by iSCSI Discovery Library API. For more information, see:
 
-- [iSCSI Discovery Library API](../_iscsidisc)
+- [iSCSI Discovery Library API](../_iscsidisc/index.md)
+

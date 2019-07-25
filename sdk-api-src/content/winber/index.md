@@ -18,4 +18,5 @@ tech.root: ldap
 
 This header is used by Lightweight Directory Access Protocol. For more information, see:
 
-- [Lightweight Directory Access Protocol](../_ldap)
+- [Lightweight Directory Access Protocol](../_ldap/index.md)
+

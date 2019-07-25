@@ -18,4 +18,5 @@ tech.root: ual
 
 This header is used by User Access Logging. For more information, see:
 
-- [User Access Logging](../_ual)
+- [User Access Logging](../_ual/index.md)
+

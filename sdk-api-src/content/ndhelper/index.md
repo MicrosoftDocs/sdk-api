@@ -18,4 +18,5 @@ tech.root: ndf
 
 This header is used by Network Diagnostics Framework. For more information, see:
 
-- [Network Diagnostics Framework](../_ndf)
+- [Network Diagnostics Framework](../_ndf/index.md)
+

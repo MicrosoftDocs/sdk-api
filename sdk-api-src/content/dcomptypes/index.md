@@ -18,4 +18,5 @@ tech.root: directcomp
 
 This header is used by DirectComposition. For more information, see:
 
-- [DirectComposition](../_directcomp)
+- [DirectComposition](../_directcomp/index.md)
+

@@ -18,4 +18,5 @@ tech.root: smi
 
 This header is used by Settings Management Infrastructure (SMI). For more information, see:
 
-- [Settings Management Infrastructure (SMI)](../_smi)
+- [Settings Management Infrastructure (SMI)](../_smi/index.md)
+

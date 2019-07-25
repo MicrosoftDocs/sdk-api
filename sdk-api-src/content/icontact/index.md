@@ -18,4 +18,5 @@ tech.root: wincontacts
 
 This header is used by Windows Contacts. For more information, see:
 
-- [Windows Contacts](../_wincontacts)
+- [Windows Contacts](../_wincontacts/index.md)
+

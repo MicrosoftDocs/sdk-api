@@ -18,4 +18,5 @@ tech.root: direct2d
 
 This header is used by Direct2D. For more information, see:
 
-- [Direct2D](../_direct2d)
+- [Direct2D](../_direct2d/index.md)
+

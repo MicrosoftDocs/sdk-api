@@ -18,4 +18,5 @@ tech.root: winauto
 
 This header is used by Windows Accessibility Features. For more information, see:
 
-- [Windows Accessibility Features](../_winauto)
+- [Windows Accessibility Features](../_winauto/index.md)
+

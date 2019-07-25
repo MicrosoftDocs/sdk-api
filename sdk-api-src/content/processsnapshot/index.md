@@ -18,4 +18,5 @@ tech.root: proc_snap
 
 This header is used by Process Snapshotting. For more information, see:
 
-- [Process Snapshotting](../_proc_snap)
+- [Process Snapshotting](../_proc_snap/index.md)
+

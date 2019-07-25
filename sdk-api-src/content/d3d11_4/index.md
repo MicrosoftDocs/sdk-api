@@ -18,4 +18,5 @@ tech.root: direct3d11
 
 This header is used by Direct3D 11 Graphics. For more information, see:
 
-- [Direct3D 11 Graphics](../_direct3d11)
+- [Direct3D 11 Graphics](../_direct3d11/index.md)
+

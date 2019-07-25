@@ -18,4 +18,5 @@ tech.root: secbiomet
 
 This header is used by Windows Biometric Framework. For more information, see:
 
-- [Windows Biometric Framework](../_secbiomet)
+- [Windows Biometric Framework](../_secbiomet/index.md)
+

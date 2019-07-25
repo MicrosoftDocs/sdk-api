@@ -18,4 +18,5 @@ tech.root: psapi
 
 This header is used by Process Status API (PSAPI). For more information, see:
 
-- [Process Status API (PSAPI)](../_psapi)
+- [Process Status API (PSAPI)](../_psapi/index.md)
+

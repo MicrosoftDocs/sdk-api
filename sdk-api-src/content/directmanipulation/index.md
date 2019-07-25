@@ -18,4 +18,5 @@ tech.root: directmanipulation
 
 This header is used by Direct Manipulation. For more information, see:
 
-- [Direct Manipulation](../_directmanipulation)
+- [Direct Manipulation](../_directmanipulation/index.md)
+

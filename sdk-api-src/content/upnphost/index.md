@@ -18,4 +18,5 @@ tech.root: upnp
 
 This header is used by UPnP APIs. For more information, see:
 
-- [UPnP APIs](../_upnp)
+- [UPnP APIs](../_upnp/index.md)
+

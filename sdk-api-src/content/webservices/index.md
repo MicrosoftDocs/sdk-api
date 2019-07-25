@@ -18,4 +18,5 @@ tech.root: wsw
 
 This header is used by Windows Web Services. For more information, see:
 
-- [Windows Web Services](../_wsw)
+- [Windows Web Services](../_wsw/index.md)
+

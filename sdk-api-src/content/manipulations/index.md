@@ -18,4 +18,5 @@ tech.root: wintouch
 
 This header is used by Touch Input. For more information, see:
 
-- [Touch Input](../_wintouch)
+- [Touch Input](../_wintouch/index.md)
+

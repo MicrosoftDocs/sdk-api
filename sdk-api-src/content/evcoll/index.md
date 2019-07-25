@@ -18,4 +18,5 @@ tech.root: wec
 
 This header is used by Windows Event Collector. For more information, see:
 
-- [Windows Event Collector](../_wec)
+- [Windows Event Collector](../_wec/index.md)
+

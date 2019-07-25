@@ -18,4 +18,5 @@ tech.root: etw
 
 This header is used by Event Tracing. For more information, see:
 
-- [Event Tracing](../_etw)
+- [Event Tracing](../_etw/index.md)
+

@@ -18,4 +18,5 @@ tech.root: dedup
 
 This header is used by Data Deduplication API. For more information, see:
 
-- [Data Deduplication API](../_dedup)
+- [Data Deduplication API](../_dedup/index.md)
+
