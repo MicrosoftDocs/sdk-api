@@ -163,7 +163,7 @@ If the current font has a vertical default base line, the related flags are as s
 <li>TA_BOTTOM, TA_TOP, and VTA_CENTER</li>
 <li>TA_NOUPDATECP and TA_UPDATECP</li>
 </ul>
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To verify that a particular flag is set in the return value of this function:</b>
+<p class="proch"><b>To verify that a particular flag is set in the return value of this function:</b>
 
 <ol>
 <li>Apply the bitwise OR operator to the flag and its related flags.</li>

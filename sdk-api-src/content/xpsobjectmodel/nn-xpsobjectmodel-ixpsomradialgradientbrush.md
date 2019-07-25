@@ -141,7 +141,7 @@ Sets the sizes of the radii that define ellipse of the radial gradient region.
 
   As shown in the figure that follows, the gradient region of a radial gradient is the area enclosed by the ellipse that is described by the center point and the x and y radii that extend from the center point. The spread area is the area outside of that ellipse. The gradient path (not shown) is a radial line that is drawn between the gradient origin and the ellipse that bounds the gradient region.
 
-<img alt="A figure that shows the terms used in a radial gradient" src="../images/RadialGradient1.png"/>
+<img alt="A figure that shows the terms used in a radial gradient" src="./images/RadialGradient1.png"/>
 The code example that follows illustrates how to create an instance of  this interface.
 
 

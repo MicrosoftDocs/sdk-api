@@ -85,7 +85,7 @@ Triangular line cap.
 
 In the illustration that follows, the  shaded area at the end of each line segment  shows  the  cap that  is added to the line segment  depending on the    value  of <b>XPS_LINE_CAP</b>.
 
-<img alt="A diagram that shows examples of the different XPS_LINE_CAP styles" src="../images/XPS_LINE_CAP.png"/>
+<img alt="A diagram that shows examples of the different XPS_LINE_CAP styles" src="./images/XPS_LINE_CAP.png"/>
 
 
 

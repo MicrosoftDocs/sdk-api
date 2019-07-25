@@ -76,14 +76,14 @@ Some of the <b>IADsAccessControlEntry</b> property
     not safe to assume that all property values will be the same for Active Directory objects and non-Active Directory 
     objects. For more information, see 
     <a href="https://docs.microsoft.com/windows/desktop/ADSI/security-descriptors-on-files-and-registry-keys">Security Descriptors on Files and Registry Keys</a>.
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To managing access controls over an ADSI object</b>
+<p class="proch"><b>To managing access controls over an ADSI object</b>
 <ol>
 <li>Retrieve the security descriptor for the object that implements the 
      <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a> interface.</li>
 <li>Retrieve the ACL from the security descriptor.</li>
 <li>Work with the ACE, or ACEs, of the object in the 
      ACL.</li>
-</ol><p class="proch"><img alt="" src="../common/wedge.gif"/><b>To set a new or modified ACE as persistent</b>
+</ol><p class="proch"><b>To set a new or modified ACE as persistent</b>
 <ol>
 <li>Add the ACE to the ACL.</li>
 <li>Assign the ACL to the security descriptor.</li>

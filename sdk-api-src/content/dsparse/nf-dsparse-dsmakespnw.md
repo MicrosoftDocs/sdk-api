@@ -124,7 +124,7 @@ The format of the SPN produced by the <b>DsMakeSpn</b> function depends on the i
 
 <div class="alert"><b>Note</b>  This format is used by host-based services.</div>
 <div> </div>
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To produce an SPN with the "&lt;ServiceClass&gt;/&lt;host&gt;" format</b>
+<p class="proch"><b>To produce an SPN with the "&lt;ServiceClass&gt;/&lt;host&gt;" format</b>
 
 <ol>
 <li>Set the <i>ServiceName</i> parameter to the DNS name of the host computer for the service instance. This is the host component of the SPN.</li>
@@ -142,7 +142,7 @@ Set the <i>InstancePort</i> parameter to zero. If <i>InstancePort</i> is nonzero
 </ol>
 <div class="alert"><b>Note</b>  This format is used by replicable services.</div>
 <div> </div>
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To produce an SPN with the "&lt;ServiceClass&gt;/&lt;host&gt;:&lt;InstancePort&gt;" format</b>
+<p class="proch"><b>To produce an SPN with the "&lt;ServiceClass&gt;/&lt;host&gt;:&lt;InstancePort&gt;" format</b>
 
 <ol>
 <li>Set the <i>InstanceName</i> parameter to the DNS name of the host computer for the service instance. This is the host component.</li>

@@ -109,10 +109,10 @@ The method succeeded.
 
 Gradient stops, which are  described  in the XPS OM by an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientstop">IXpsOMGradientStop</a> interface, are used to define the color at a specific location along a gradient path; the color is interpolated between the gradient stops. The illustration that follows shows the gradient path and gradient stops of a linear gradient.
 
-<img alt="A figure that shows the terms used in a linear gradient" src="../images/LinearGradient2.png"/>
+<img alt="A figure that shows the terms used in a linear gradient" src="./images/LinearGradient2.png"/>
 The illustration that follows shows the gradient stops of a radial gradient. In this example, the gradient region is the area enclosed by the outer ellipse, and the radial gradient is using the <b>XPS_SPREAD_METHOD_REFLECT</b> spread method to fill the space outside of the gradient region.
 
-<img alt="A figure that shows the terms used in a radial gradient" src="../images/RadialGradient2.png"/>
+<img alt="A figure that shows the terms used in a radial gradient" src="./images/RadialGradient2.png"/>
 
 
 

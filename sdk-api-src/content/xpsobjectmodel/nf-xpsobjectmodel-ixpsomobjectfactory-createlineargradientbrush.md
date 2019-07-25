@@ -155,7 +155,7 @@ Gradient stops define the color at specific locations along the gradient path. I
 
 As shown in the illustration that follows, the start and end points of a linear gradient are also the start and end points of the gradient path, which is the straight line that connects those points.
 
-<img alt="A figure that shows the terms used in a linear gradient" src="../images/LinearGradient1.png"/>
+<img alt="A figure that shows the terms used in a linear gradient" src="./images/LinearGradient1.png"/>
 The code example that follows illustrates how this method is used to create a new  interface.
 
 

@@ -92,19 +92,19 @@ In the following illustrations, each shaded area represents the dash cap that co
 </tr>
 <tr>
 <td>XPS_DASH_CAP_FLAT</td>
-<td><img alt="A diagram that illustrates the XPS_DASH_CAP_FLAT dash cap in a dashed stroke" src="../images/xps_dash_cap_flat_dash_caps.png"/></td>
+<td><img alt="A diagram that illustrates the XPS_DASH_CAP_FLAT dash cap in a dashed stroke" src="./images/xps_dash_cap_flat_dash_caps.png"/></td>
 </tr>
 <tr>
 <td>XPS_DASH_CAP_ROUND</td>
-<td><img alt="A diagram that illustrates the XPS_DASH_CAP_ROUND dash cap in a dashed stroke" src="../images/xps_dash_cap_round_dash_caps.png"/></td>
+<td><img alt="A diagram that illustrates the XPS_DASH_CAP_ROUND dash cap in a dashed stroke" src="./images/xps_dash_cap_round_dash_caps.png"/></td>
 </tr>
 <tr>
 <td>XPS_DASH_CAP_SQUARE</td>
-<td><img alt="A diagram that illustrates the XPS_DASH_CAP_SQUARE dash cap in a dashed stroke" src="../images/xps_dash_cap_square_dash_caps.png"/></td>
+<td><img alt="A diagram that illustrates the XPS_DASH_CAP_SQUARE dash cap in a dashed stroke" src="./images/xps_dash_cap_square_dash_caps.png"/></td>
 </tr>
 <tr>
 <td>XPS_DASH_CAP_TRIANGLE</td>
-<td><img alt="A diagram that illustrates the XPS_DASH_CAP_TRIANGLE dash cap in a dashed stroke" src="../images/xps_dash_cap_triangle_dash_caps.png"/></td>
+<td><img alt="A diagram that illustrates the XPS_DASH_CAP_TRIANGLE dash cap in a dashed stroke" src="./images/xps_dash_cap_triangle_dash_caps.png"/></td>
 </tr>
 </table>
  

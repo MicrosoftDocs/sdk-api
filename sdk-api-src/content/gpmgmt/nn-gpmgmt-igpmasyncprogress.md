@@ -98,7 +98,7 @@ The server calls this method to notify the client about the status of an asynchr
 Complex GPMC operations, such as backup, restore, import, and copy operations, can execute asynchronously. To 
     use this interface with asynchronous operations, follow these steps.
 
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To use this interface with asynchronous operations</b>
+<p class="proch"><b>To use this interface with asynchronous operations</b>
 
 <ol>
 <li>Implement the <b>IGPMAsyncProgress</b> interface.</li>

@@ -114,7 +114,7 @@ Note in the case of deferred execution custom actions,
 The following steps describe how to format strings using the 
 <b>MsiFormatRecord</b> function:
 
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To format strings using the MsiFormatRecord function</b>
+<p class="proch"><b>To format strings using the MsiFormatRecord function</b>
 
 <ol>
 <li>The numeric parameters are substituted by replacing the marker with the value of the corresponding record field, with missing or null values producing no text.</li>

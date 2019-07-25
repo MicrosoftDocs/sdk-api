@@ -166,7 +166,7 @@ The extension does not support adding context menu items.
 
 
 
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To implement AddContextMenuItems</b>
+<p class="proch"><b>To implement AddContextMenuItems</b>
 
 <ol>
 <li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method pointed to by 

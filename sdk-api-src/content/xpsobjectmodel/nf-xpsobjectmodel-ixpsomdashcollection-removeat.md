@@ -81,7 +81,7 @@ This method removes and frees  the <a href="https://docs.microsoft.com/windows/w
 
 The figure that follows illustrates how the collection is changed by the <b>RemoveAt</b> method.
 
-<img alt="A figure that shows how RemoveAt removes an entry from the dash collection" src="../images/dashcollection_removeat.png"/>
+<img alt="A figure that shows how RemoveAt removes an entry from the dash collection" src="./images/dashcollection_removeat.png"/>
 
 
 

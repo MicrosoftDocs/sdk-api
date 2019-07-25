@@ -105,7 +105,7 @@ Applications that do not use the OLE default caching resources, but use the conv
 The following procedure describes the conversion process using 
 <b>OleConvertOLESTREAMToIStorage</b>.
 
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>Converting an OLE 1 object to an OLE 2 storage object</b>
+<p class="proch"><b>Converting an OLE 1 object to an OLE 2 storage object</b>
 
 <ol>
 <li>Create a root 

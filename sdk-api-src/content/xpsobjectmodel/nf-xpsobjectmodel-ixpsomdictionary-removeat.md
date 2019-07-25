@@ -81,7 +81,7 @@ At  the location specified by <i>index</i>, this method releases the interface  
 
 The figure that follows illustrates how the dictionary is changed by the <b>RemoveAt</b> method.
 
-<img alt="A figure that shows how RemoveAt removes an entry from the dictionary" src="../images/dictionary_removeat.png"/>
+<img alt="A figure that shows how RemoveAt removes an entry from the dictionary" src="./images/dictionary_removeat.png"/>
 
 
 

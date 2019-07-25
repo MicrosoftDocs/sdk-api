@@ -109,7 +109,7 @@ The method succeeded.
 
 The viewport is the portion of the output area where the first tile is drawn. In the illustration, the viewport is outlined by the purple rectangle inside the red, dotted rectangle. The tile mode of the brush determines how the rest of the tiles are drawn in the output area.
 
-<img alt="An image that shows how a viewport is mapped to the output area" src="../images/viewport_image.png"/>
+<img alt="An image that shows how a viewport is mapped to the output area" src="./images/viewport_image.png"/>
 
 
 

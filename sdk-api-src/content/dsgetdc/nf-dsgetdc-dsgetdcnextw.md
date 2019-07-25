@@ -110,7 +110,7 @@ The DC returned by <b>DsGetDcNext</b> will not be a Read-only DC (RODC) because 
 
 The following procedure shows how to get a complete DC list from a computer running Windows Server 2008.
 
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To obtain a complete list of domain controllers</b>
+<p class="proch"><b>To obtain a complete list of domain controllers</b>
 
 <ol>
 <li>Use <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> to get a domain controller name.</li>

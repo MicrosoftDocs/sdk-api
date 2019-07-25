@@ -90,7 +90,7 @@ This method supports the standard <b>HRESULT</b> return values, including <b>S_O
 
 The <b>ADsBuildEnumerator</b> helper function wraps the calls used to retrieve the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface on the enumerator object.
 
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b> To enumerate the available objects in a container</b>
+<p class="proch"><b> To enumerate the available objects in a container</b>
 
 <ol>
 <li>Call the <b>ADsBuildEnumerator</b> function to create an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> object that will enumerate the contents of the container.</li>

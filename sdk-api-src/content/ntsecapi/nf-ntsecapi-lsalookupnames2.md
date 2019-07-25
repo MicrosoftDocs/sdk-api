@@ -208,7 +208,7 @@ Use fully qualified account names (for example, <i>DomainName</i>\<i>UserName</i
 
 Translation of isolated names introduces the possibility of name collisions because the same name may be used in multiple domains. The <b>LsaLookupNames2</b> function uses the following algorithm to translate isolated names.
 
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To translate isolated names</b>
+<p class="proch"><b>To translate isolated names</b>
 
 <ol>
 <li>If the name is a well-known name, such as Local or Interactive, the function returns the corresponding well-known <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).</li>

@@ -195,7 +195,7 @@ The security descriptor of the LocalGroup object is used to perform the access c
 You can replace the local group membership with an entirely new list of members by calling the 
 <b>NetLocalGroupSetMembers</b> function. The typical sequence of steps to perform this follows.
 
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To replace the local group membership</b>
+<p class="proch"><b>To replace the local group membership</b>
 
 <ol>
 <li>Call the 

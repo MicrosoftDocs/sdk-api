@@ -92,7 +92,7 @@ The combination of the effects produced by <b>XPS_TILE_MODE_FLIPX</b> and <b>XPS
 
 The following illustration shows the effect of each tile mode on how a tiled brush fills the output area.
 
-<img alt="An illustration that shows different examples of different tile mode behaviors" src="../images/TileMode.png"/>
+<img alt="An illustration that shows different examples of different tile mode behaviors" src="./images/TileMode.png"/>
 
 
 

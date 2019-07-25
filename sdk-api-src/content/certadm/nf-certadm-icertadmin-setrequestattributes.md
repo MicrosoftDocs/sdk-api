@@ -126,7 +126,7 @@ You can use the Certification Authority MMC snap-in to display the initial unpar
 
 When you view the parsed attributes, you will also see any changes due to calls to <b>SetRequestAttributes</b>.
 
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To view the parsed attributes</b>
+<p class="proch"><b>To view the parsed attributes</b>
 
 <ol>
 <li>Open the Certification Authority MMC snap-in.</li>

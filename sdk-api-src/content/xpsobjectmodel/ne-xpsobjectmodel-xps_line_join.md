@@ -80,7 +80,7 @@ Produces a smooth, circular arc between the lines.
 
 In the illustration that follows, the shaded area at the vertex of the line segments in each  example shows how the joint fill is determined by the value of <b>XPS_LINE_JOIN</b>.
 
-<img alt="A diagram that shows examples of the different XPS_LINE_JOIN values" src="../images/XPS_LINE_JOIN.png"/>
+<img alt="A diagram that shows examples of the different XPS_LINE_JOIN values" src="./images/XPS_LINE_JOIN.png"/>
 
 
 

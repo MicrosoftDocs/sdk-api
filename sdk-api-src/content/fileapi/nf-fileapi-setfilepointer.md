@@ -212,13 +212,13 @@ The <i>hFile</i> parameter must refer to a file stored on a seeking device; for 
     <b>SetFilePointer</b> function may not return an error. The behavior of the 
     <b>SetFilePointer</b> function in this case is undefined.
 
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To specify the offset for overlapped operations</b>
+<p class="proch"><b>To specify the offset for overlapped operations</b>
 
 <ul>
 <li>Use the <b>Offset</b> and <b>OffsetHigh</b> members of the 
       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure.</li>
 </ul>
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To determine the file type for <i>hFile</i></b>
+<p class="proch"><b>To determine the file type for <i>hFile</i></b>
 
 <ul>
 <li>Use the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfiletype">GetFileType</a> function.</li>

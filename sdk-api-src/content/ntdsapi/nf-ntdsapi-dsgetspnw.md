@@ -204,13 +204,13 @@ If the function fails, the return value can be one of the following error codes.
 
 
 
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To create SPNs for multiple instances of a replicated service running on multiple host computers</b>
+<p class="proch"><b>To create SPNs for multiple instances of a replicated service running on multiple host computers</b>
 
 <ol>
 <li>Set <i>cInstanceNames</i> to the number of instances.</li>
 <li>Specify the names of the host computers in the <i>pInstanceNames</i> array.</li>
 </ol>
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To create SPNs for multiple instances of a service running on the same host computer</b>
+<p class="proch"><b>To create SPNs for multiple instances of a service running on the same host computer</b>
 
 <ol>
 <li>Set the <i>cInstanceNames</i> to the number of instances.</li>

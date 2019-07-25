@@ -63,7 +63,7 @@ The <b>IADsProperty</b> interface exposes methods to describe a
 
 Use the <b>IADsProperty</b> interface to determine at run time 
     the attribute definition of a property supported by a directory service object.
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To determine the attribute definition at run time</b>
+<p class="proch"><b>To determine the attribute definition at run time</b>
 <ol>
 <li>Bind to the schema class object of the ADSI object.</li>
 <li>Enumerate mandatory or optional attributes accessible from the schema class object. Skip this step if you 

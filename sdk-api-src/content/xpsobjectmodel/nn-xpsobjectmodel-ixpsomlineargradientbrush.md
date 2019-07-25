@@ -127,7 +127,7 @@ The gradient region of a linear gradient is the area between and including the s
 
 Gradient stops are used to define the color at specific locations along the gradient path. In the illustration, gradient stop 0 is located at the start point of the gradient path, and gradient stop 1 is at the end point. The <b>XPS_SPREAD_METHOD_PAD</b> spread method is used to fill the spread area.
 
-<img alt="A figure that shows the terms used in a linear gradient" src="../images/LinearGradient1.png"/>
+<img alt="A figure that shows the terms used in a linear gradient" src="./images/LinearGradient1.png"/>
 The code example that follows illustrates how to create an instance of  this interface.
 
 

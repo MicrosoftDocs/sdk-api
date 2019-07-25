@@ -127,7 +127,7 @@ The interface pointers stored in a dictionary will usually point to interfaces, 
 
 The figure that follows illustrates how the dictionary is changed by the <b>SetAt</b> method.
 
-<img alt="A figure that shows how RemoveAt removes an entry from the dictionary" src="../images/dictionary_setat.png"/>
+<img alt="A figure that shows how RemoveAt removes an entry from the dictionary" src="./images/dictionary_setat.png"/>
 
 
 
