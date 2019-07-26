@@ -159,6 +159,7 @@ Indicates that the caller is querying for the medium product type. Data is retur
 
 ### -field StorageAdapterRpmbProperty
 
+Indicates that the caller is querying for RPMB support and properties. Data is returned using the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_rpmb_descriptor.md">STORAGE_RPMB_DESCRIPTOR</a> structure.
 
 ### -field StorageAdapterCryptoProperty
 
