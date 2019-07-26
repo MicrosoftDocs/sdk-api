@@ -103,7 +103,7 @@ This method returns one of the <a href="https://docs.microsoft.com/windows/deskt
 
 The behavior of <b>OpenSharedResourceByName</b> is similar to the behavior of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11device1-opensharedresource1">ID3D11Device1::OpenSharedResource1</a> method; each call to <b>OpenSharedResourceByName</b> to access a resource creates a new resource object.  In other words, if you call <b>OpenSharedResourceByName</b> twice and pass the same resource name to <i>lpName</i>, you receive two resource  objects with different <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointers.
 
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To share a resource between two devices</b>
+<p class="proch"><b>To share a resource between two devices</b>
 
 <ol>
 <li>Create the resource as shared and specify that it uses NT handles, by setting the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_misc_flag">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> flag.</li>

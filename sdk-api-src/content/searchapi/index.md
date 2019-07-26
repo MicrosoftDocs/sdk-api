@@ -18,4 +18,5 @@ tech.root: lwef
 
 This header is used by Legacy Windows Environment Features. For more information, see:
 
-- [Legacy Windows Environment Features](../_lwef)
+- [Legacy Windows Environment Features](../_lwef/index.md)
+

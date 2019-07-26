@@ -180,13 +180,13 @@ As shown in the figure that follows, the start and end points of a linear gradie
 
 Gradient stops  define the color at specific locations along the gradient path; the color is interpolated along the gradient path between the gradient stops, as shown in the following illustration.
 
-<img alt="A figure that shows the terms used in a linear gradient" src="../images/LinearGradient1.png"/>
+<img alt="A figure that shows the terms used in a linear gradient" src="./images/LinearGradient1.png"/>
 As shown in the figure that follows, the gradient region of a radial gradient is the area enclosed by the ellipse that is described by the center point and the x and y radii that extend from the center point. The spread area is the area outside of that ellipse. The gradient path is a radial line that sweeps the entire gradient region from the gradient origin to the ellipse that bounds the gradient region. In the following illustration, the gradient path is not shown.
 
-<img alt="A figure that shows the terms used in a radial gradient" src="../images/RadialGradient1.png"/>
+<img alt="A figure that shows the terms used in a radial gradient" src="./images/RadialGradient1.png"/>
 The spread method describes how the spread area is filled. Implementation of the spread method depends on the gradient type (linear or radial). The following illustration shows several examples of how the spread area can be filled. For  information about different spread methods, see <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_spread_method">XPS_SPREAD_METHOD</a>.
 
-<img alt="An illustration that shows examples of the spread method" src="../images/XPS_Spread_Method.png"/>
+<img alt="An illustration that shows examples of the spread method" src="./images/XPS_Spread_Method.png"/>
  The transform  determines how the resulting gradient is transformed. The visible part of the gradient that is ultimately rendered in the image is determined by the path, stroke, or glyph that is using the gradient brush.
 
 

@@ -18,4 +18,5 @@ tech.root: xaudio2
 
 This header is used by XAudio2 APIs. For more information, see:
 
-- [XAudio2 APIs](../_xaudio2)
+- [XAudio2 APIs](../_xaudio2/index.md)
+

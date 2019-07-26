@@ -79,7 +79,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 The figure that follows illustrates how the collection is changed by the <b>Append</b> method.
 
-<img alt="A figure that shows how Append adds an entry to the dash collection" src="../images/dashcollection_append.png"/>
+<img alt="A figure that shows how Append adds an entry to the dash collection" src="./images/dashcollection_append.png"/>
 
 
 

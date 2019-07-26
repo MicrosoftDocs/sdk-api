@@ -19,4 +19,5 @@ archived: true
 
 This header is used by Cloud Filter API. For more information, see:
 
-- [Cloud Filter API](../_cloudapi)
+- [Cloud Filter API](../_cloudapi/index.md)
+

@@ -18,4 +18,5 @@ tech.root: uianimation
 
 This header is used by Windows Animation Manager. For more information, see:
 
-- [Windows Animation Manager](../_uianimation)
+- [Windows Animation Manager](../_uianimation/index.md)
+

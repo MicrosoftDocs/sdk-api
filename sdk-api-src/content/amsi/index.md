@@ -16,5 +16,6 @@ tech.root: amsi
 
 This header is used by the Antimalware Scan Interface. For more information, see
 
-- [Antimalware Scan Interface](../_amsi)
+- [Antimalware Scan Interface](../_amsi/index.md)
 <br/>
+

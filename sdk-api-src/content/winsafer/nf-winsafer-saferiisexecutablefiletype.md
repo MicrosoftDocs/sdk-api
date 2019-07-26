@@ -102,7 +102,7 @@ The following file name extensions are examples of executable file types.  This 
 </ul>
 The security policy Microsoft Management Console (MMC) snap-in (Secpol.msc) controls which extensions are considered executable file types.
 
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To view or modify the extensions that are considered executable file types</b>
+<p class="proch"><b>To view or modify the extensions that are considered executable file types</b>
 
 <ol>
 <li>Run Secpol.msc.</li>

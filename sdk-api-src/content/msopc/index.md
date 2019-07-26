@@ -18,4 +18,5 @@ tech.root: opc
 
 This header is used by Packaging. For more information, see:
 
-- [Packaging](../_opc)
+- [Packaging](../_opc/index.md)
+

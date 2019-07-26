@@ -123,7 +123,7 @@ Sets the SID of the owner of the object. The handle specified by <i>hService</i>
 <td width="60%">
 Sets the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) of the object. The handle specified by <i>hService</i> must have ACCESS_SYSTEM_SECURITY access. 
 
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To obtain ACCESS_SYSTEM_SECURITY access</b>
+<p class="proch"><b>To obtain ACCESS_SYSTEM_SECURITY access</b>
 
 <ol>
 <li>Enable the SE_SECURITY_NAME 

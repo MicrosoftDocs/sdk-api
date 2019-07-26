@@ -18,4 +18,5 @@ tech.root: gdiplus
 
 This header is used by GDI+. For more information, see:
 
-- [GDI+](../_gdiplus)
+- [GDI+](../_gdiplus/index.md)
+

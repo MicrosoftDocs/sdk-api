@@ -477,7 +477,7 @@ HRESULT hr = ADsGetObject(adsPath,
 ```
 
 
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To enumerate all print queues on a given computer</b>
+<p class="proch"><b>To enumerate all print queues on a given computer</b>
 
 <ol>
 <li>Bind to the computer object.</li>

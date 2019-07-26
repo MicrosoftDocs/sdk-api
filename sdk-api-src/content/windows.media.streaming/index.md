@@ -19,4 +19,5 @@ archived: true
 
 This header is used by Media Streaming API. For more information, see:
 
-- [Media Streaming API](../_mediastreaming)
+- [Media Streaming API](../_mediastreaming/index.md)
+

@@ -18,4 +18,5 @@ tech.root: direct3ddxgi
 
 This header is used by DXGI. For more information, see:
 
-- [DXGI](../_direct3ddxgi)
+- [DXGI](../_direct3ddxgi/index.md)
+

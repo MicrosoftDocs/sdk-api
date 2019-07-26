@@ -18,4 +18,5 @@ tech.root: search
 
 This header is used by Windows Search. For more information, see:
 
-- [Windows Search](../_search)
+- [Windows Search](../_search/index.md)
+

@@ -120,7 +120,7 @@ The interface pointers stored in a dictionary will usually point to interfaces, 
 
 The figure that follows illustrates how the dictionary is changed by the <b>Append</b> method.
 
-<img alt="A figure that shows how Append adds an entry to the dictionary" src="../images/dictionary_append.png"/>
+<img alt="A figure that shows how Append adds an entry to the dictionary" src="./images/dictionary_append.png"/>
 
 
 

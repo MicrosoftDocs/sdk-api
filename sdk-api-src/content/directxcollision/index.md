@@ -18,4 +18,5 @@ tech.root: dxmath
 
 This header is used by DirectXMath. For more information, see:
 
-- [DirectXMath](../_dxmath)
+- [DirectXMath](../_dxmath/index.md)
+

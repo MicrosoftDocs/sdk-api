@@ -19,4 +19,5 @@ archived: true
 
 This header is used by Radial controller input. For more information, see:
 
-- [Radial controller input](../_input_radial)
+- [Radial controller input](../_input_radial/index.md)
+

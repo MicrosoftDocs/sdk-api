@@ -18,4 +18,5 @@ tech.root: tablet
 
 This header is used by Tablet PC. For more information, see:
 
-- [Tablet PC](../_tablet)
+- [Tablet PC](../_tablet/index.md)
+

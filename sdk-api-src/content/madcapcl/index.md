@@ -18,4 +18,5 @@ tech.root: madcap
 
 This header is used by Multicast Address Dynamic Client Allocation Protocol (MADCAP). For more information, see:
 
-- [Multicast Address Dynamic Client Allocation Protocol (MADCAP)](../_madcap)
+- [Multicast Address Dynamic Client Allocation Protocol (MADCAP)](../_madcap/index.md)
+

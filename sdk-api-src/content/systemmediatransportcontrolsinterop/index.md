@@ -19,4 +19,5 @@ archived: true
 
 This header is used by Media Transport Controls. For more information, see:
 
-- [Media Transport Controls](../_mediatransport)
+- [Media Transport Controls](../_mediatransport/index.md)
+

@@ -18,4 +18,5 @@ Interop functions for use with [IDirect3DDevice](/uwp/api/windows.graphics.direc
 
 This header is used by Windows Runtime C++ reference. For more information, see:
 
-- [Windows Runtime C++ reference](../_winrt)
+- [Windows Runtime C++ reference](../_winrt/index.md)
+

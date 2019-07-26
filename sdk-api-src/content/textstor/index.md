@@ -18,4 +18,5 @@ tech.root: tsf
 
 This header is used by Text Services Framework. For more information, see:
 
-- [Text Services Framework](../_tsf)
+- [Text Services Framework](../_tsf/index.md)
+

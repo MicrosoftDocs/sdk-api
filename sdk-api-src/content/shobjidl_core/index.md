@@ -18,4 +18,5 @@ tech.root: properties
 
 This header is used by Windows Property System. For more information, see:
 
-- [Windows Property System](../_properties)
+- [Windows Property System](../_properties/index.md)
+

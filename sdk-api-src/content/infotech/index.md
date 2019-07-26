@@ -18,4 +18,5 @@ tech.root: htmlhelp
 
 This header is used by Microsoft HTML Help 1.4. For more information, see:
 
-- [Microsoft HTML Help 1.4](../_htmlhelp)
+- [Microsoft HTML Help 1.4](../_htmlhelp/index.md)
+

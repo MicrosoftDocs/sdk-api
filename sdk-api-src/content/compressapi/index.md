@@ -18,4 +18,5 @@ tech.root: cmpapi
 
 This header is used by Compression API. For more information, see:
 
-- [Compression API](../_cmpapi)
+- [Compression API](../_cmpapi/index.md)
+

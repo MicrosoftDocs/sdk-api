@@ -45,8 +45,9 @@ APIs for desktop interop with the [Windows.Graphics.Capture](https://docs.micros
 
 This header is used by Windows Runtime C++ reference. For more information, see:
 
-- [Windows Runtime C++ reference](../_winrt)
+- [Windows Runtime C++ reference](../_winrt/index.md)
 
 ## -see-also
 
 ## -examples
+

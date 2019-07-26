@@ -120,7 +120,7 @@ The rectangle described in <i>viewport</i> is not valid.
 
 The viewport is the portion of the output area where the tile is drawn. In the following illustration, the viewport  is outlined by the blue rectangle inside the red, dotted rectangle. The tile mode of the brush determines how other tiles are drawn in the output area.
 
-<img alt="An image that shows how a viewport is mapped to the output area" src="../images/viewport_image.png"/>
+<img alt="An image that shows how a viewport is mapped to the output area" src="./images/viewport_image.png"/>
 
 
 

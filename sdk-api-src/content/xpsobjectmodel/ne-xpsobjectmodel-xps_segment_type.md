@@ -108,37 +108,37 @@ The table that follows shows an example of each segment type.
 </tr>
 <tr>
 <td>
-XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE <img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE figure segment" src="../images/segment_type_arc_lc.png"/>
+XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE <img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE figure segment" src="./images/segment_type_arc_lc.png"/>
 
 </td>
 <td>
-XPS_SEGMENT_TYPE_ARC_LARGE_COUNTERCLOCKWISE <img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE figure segment" src="../images/segment_type_arc_lcc.png"/> 
-
-</td>
-</tr>
-<tr>
-<td>
-XPS_SEGMENT_TYPE_ARC_SMALL_CLOCKWISE<img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_ARC_SMALL_CLOCKWISE figure segment" src="../images/segment_type_arc_sc.png"/> 
-
-</td>
-<td>
-XPS_SEGMENT_TYPE_ARC_SMALL_COUNTERCLOCKWISE <img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_ARC_SMALL_COUNTERCLOCKWISE figure segment" src="../images/segment_type_arc_scc.png"/> 
+XPS_SEGMENT_TYPE_ARC_LARGE_COUNTERCLOCKWISE <img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE figure segment" src="./images/segment_type_arc_lcc.png"/> 
 
 </td>
 </tr>
 <tr>
 <td>
-XPS_SEGMENT_TYPE_BEZIER <img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_BEZIER figure segment" src="../images/segment_type_bezier.png"/> 
+XPS_SEGMENT_TYPE_ARC_SMALL_CLOCKWISE<img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_ARC_SMALL_CLOCKWISE figure segment" src="./images/segment_type_arc_sc.png"/> 
 
 </td>
 <td>
-  XPS_SEGMENT_TYPE_LINE <img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_LINE figure segment" src="../images/segment_type_line.png"/> 
+XPS_SEGMENT_TYPE_ARC_SMALL_COUNTERCLOCKWISE <img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_ARC_SMALL_COUNTERCLOCKWISE figure segment" src="./images/segment_type_arc_scc.png"/> 
 
 </td>
 </tr>
 <tr>
 <td>
-XPS_SEGMENT_TYPE_QUADRATIC_BEZIER <img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_QUADRATIC_BEZIER figure segment" src="../images/segment_type_quad_bezier.png"/> 
+XPS_SEGMENT_TYPE_BEZIER <img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_BEZIER figure segment" src="./images/segment_type_bezier.png"/> 
+
+</td>
+<td>
+  XPS_SEGMENT_TYPE_LINE <img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_LINE figure segment" src="./images/segment_type_line.png"/> 
+
+</td>
+</tr>
+<tr>
+<td>
+XPS_SEGMENT_TYPE_QUADRATIC_BEZIER <img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_QUADRATIC_BEZIER figure segment" src="./images/segment_type_quad_bezier.png"/> 
 
 </td>
 <td></td>

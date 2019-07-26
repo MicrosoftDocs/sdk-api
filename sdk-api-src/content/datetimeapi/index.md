@@ -18,4 +18,5 @@ tech.root: intl
 
 This header is used by Internationalization for Windows Applications. For more information, see:
 
-- [Internationalization for Windows Applications](../_intl)
+- [Internationalization for Windows Applications](../_intl/index.md)
+

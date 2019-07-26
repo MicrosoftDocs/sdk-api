@@ -18,4 +18,5 @@ tech.root: mdmreg
 
 This header is used by Mobile Device Management Registration. For more information, see:
 
-- [Mobile Device Management Registration](../_mdmreg)
+- [Mobile Device Management Registration](../_mdmreg/index.md)
+

@@ -18,4 +18,5 @@ tech.root: wsl
 
 This header is used by Windows Subsystem for Linux. For more information, see:
 
-- [Windows Subsystem for Linux](../_wsl)
+- [Windows Subsystem for Linux](../_wsl/index.md)
+

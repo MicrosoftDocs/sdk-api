@@ -18,4 +18,5 @@ tech.root: powermeter
 
 This header is used by Power Metering and Budgeting Reference. For more information, see:
 
-- [Power Metering and Budgeting Reference](../_powermeter)
+- [Power Metering and Budgeting Reference](../_powermeter/index.md)
+

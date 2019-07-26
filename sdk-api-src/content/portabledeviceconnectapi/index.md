@@ -18,4 +18,5 @@ tech.root: wpdsdk
 
 This header is used by WPD Application Programming Interface. For more information, see:
 
-- [WPD Application Programming Interface](../_wpdsdk)
+- [WPD Application Programming Interface](../_wpdsdk/index.md)
+

@@ -18,4 +18,5 @@ tech.root: netvista
 
 This header is used by Network Drivers, Windows Vista and Later. For more information, see:
 
-- [Network Drivers, Windows Vista and Later](../_netvista)
+- [Network Drivers, Windows Vista and Later](../_netvista/index.md)
+

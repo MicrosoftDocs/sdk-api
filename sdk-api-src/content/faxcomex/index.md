@@ -18,4 +18,5 @@ tech.root: fax
 
 This header is used by Fax Service. For more information, see:
 
-- [Fax Service](../_fax)
+- [Fax Service](../_fax/index.md)
+

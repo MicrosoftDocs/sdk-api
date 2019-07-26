@@ -18,4 +18,5 @@ tech.root: picacq
 
 This header is used by Picture Acquisition. For more information, see:
 
-- [Picture Acquisition](../_picacq)
+- [Picture Acquisition](../_picacq/index.md)
+

@@ -18,4 +18,5 @@ tech.root: remoteassist
 
 This header is used by Remote Assistance. For more information, see:
 
-- [Remote Assistance](../_remoteassist)
+- [Remote Assistance](../_remoteassist/index.md)
+

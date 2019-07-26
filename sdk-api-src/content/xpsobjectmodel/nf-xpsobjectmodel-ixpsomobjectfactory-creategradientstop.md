@@ -172,10 +172,10 @@ The value in <i>offset</i> is not valid.
 
  Gradient stops are used to define the color at a specific location; the color is interpolated between the gradient stops. The offset, which is specified by <i>offset</i>,  is a relative position between the start  and end points of the gradient. The  offset at the start point of a linear gradient or the origin of a radial  gradient is 0.0.  The offset of the end point of a linear gradient or the  bounding ellipse of a radial gradient is 1.0. Gradient stops can be specified for any offset between those points, including the start and end points. The following illustration shows the gradient path and gradient stops of a linear gradient.
 
-<img alt="A figure that shows the terms used in a linear gradient" src="../images/LinearGradient2.png"/>
+<img alt="A figure that shows the terms used in a linear gradient" src="./images/LinearGradient2.png"/>
 The following illustration shows the gradient stops of a radial gradient. In this example, the radial gradient region is the area enclosed by the outer ellipse and the <b>XPS_SPREAD_METHOD_REFLECT</b> spread method  is used to fill the space outside of the gradient region.
 
-<img alt="A figure that shows the terms used in a radial gradient" src="../images/RadialGradient2.png"/>
+<img alt="A figure that shows the terms used in a radial gradient" src="./images/RadialGradient2.png"/>
 The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientstop">IXpsOMGradientStop</a> interface specifies one and only one stop in a gradient.
 
 The calculations used to render a gradient are described in the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>.

@@ -18,4 +18,5 @@ tech.root: winsock
 
 This header is used by Windows Sockets 2. For more information, see:
 
-- [Windows Sockets 2](../_winsock)
+- [Windows Sockets 2](../_winsock/index.md)
+

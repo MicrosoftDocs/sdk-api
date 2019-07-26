@@ -18,4 +18,5 @@ tech.root: menurc
 
 This header is used by Menus and Other Resources. For more information, see:
 
-- [Menus and Other Resources](../_menurc)
+- [Menus and Other Resources](../_menurc/index.md)
+

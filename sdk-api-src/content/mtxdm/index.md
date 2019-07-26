@@ -18,4 +18,5 @@ tech.root: cos
 
 This header is used by COM+ (Component Services). For more information, see:
 
-- [COM+ (Component Services)](../_cos)
+- [COM+ (Component Services)](../_cos/index.md)
+

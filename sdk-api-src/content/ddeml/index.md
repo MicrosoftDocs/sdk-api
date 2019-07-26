@@ -18,4 +18,5 @@ tech.root: dataxchg
 
 This header is used by Data Exchange. For more information, see:
 
-- [Data Exchange](../_dataxchg)
+- [Data Exchange](../_dataxchg/index.md)
+

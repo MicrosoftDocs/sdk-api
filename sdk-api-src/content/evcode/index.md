@@ -19,4 +19,5 @@ archived: true
 
 This header is used by DirectShow. For more information, see:
 
-- [DirectShow](../_dshow)
+- [DirectShow](../_dshow/index.md)
+

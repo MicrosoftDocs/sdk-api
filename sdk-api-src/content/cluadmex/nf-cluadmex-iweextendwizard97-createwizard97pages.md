@@ -178,7 +178,7 @@ If your extension has no Wizard97 pages but does have non-Wizard97 pages, you ca
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-iwcwizardcallback">IWCWizardCallback</a> interface from the interface 
        passed in by way of the <i>piCallback</i> parameter.</li>
 </ul>
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>For each Wizard97 property page to be added</b>
+<p class="proch"><b>For each Wizard97 property page to be added</b>
 
 <ol>
 <li>Use <i>piData</i> to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> and retrieve an 

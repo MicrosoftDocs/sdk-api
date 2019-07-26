@@ -18,4 +18,5 @@ tech.root: mapi
 
 This header is used by Windows Messaging (MAPI). For more information, see:
 
-- [Windows Messaging (MAPI)](../_mapi)
+- [Windows Messaging (MAPI)](../_mapi/index.md)
+

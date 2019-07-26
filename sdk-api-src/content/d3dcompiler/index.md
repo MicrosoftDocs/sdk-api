@@ -18,4 +18,5 @@ tech.root: direct3dhlsl
 
 This header is used by HLSL. For more information, see:
 
-- [HLSL](../_direct3dhlsl)
+- [HLSL](../_direct3dhlsl/index.md)
+

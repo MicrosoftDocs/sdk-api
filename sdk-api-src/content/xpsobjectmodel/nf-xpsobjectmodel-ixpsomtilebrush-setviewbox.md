@@ -124,7 +124,7 @@ The coordinates of the brush's viewbox are relative to the source content, such 
 
 In the illustration that follows, the image on the left is an example of a source image, while  that on the right is the source image with the selected viewbox for the brush shown as a red rectangle. In this example, the part of the source image that is used as the  content for the tile brush is the area within the red rectangle. The shaded area of the  image is not used by the brush.
 
-<img alt="An image that shows how a viewbox is mapped to a source image" src="../images/viewbox_image.png"/>
+<img alt="An image that shows how a viewbox is mapped to a source image" src="./images/viewbox_image.png"/>
 If the source image resolution is 96 by 96 dots per inch and image dimensions are 96 by 96 pixels, the values of fields in the <i>viewbox</i>  parameter would be:
 
 The preceding parameter values correspond to the  source image as:<dl>

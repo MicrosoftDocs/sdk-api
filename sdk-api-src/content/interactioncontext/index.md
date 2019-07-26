@@ -18,4 +18,5 @@ tech.root: input_intcontext
 
 This header is used by Interaction Context. For more information, see:
 
-- [Interaction Context](../_input_intcontext)
+- [Interaction Context](../_input_intcontext/index.md)
+

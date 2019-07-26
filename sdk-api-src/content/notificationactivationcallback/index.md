@@ -18,4 +18,5 @@ tech.root: win32_tile_badge_notif
 
 This header is used by Tiles, badges, and notifications for Classic desktop applications. For more information, see:
 
-- [Tiles, badges, and notifications for Classic desktop applications](../_win32_tile_badge_notif)
+- [Tiles, badges, and notifications for Classic desktop applications](../_win32_tile_badge_notif/index.md)
+

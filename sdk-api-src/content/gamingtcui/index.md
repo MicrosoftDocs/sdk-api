@@ -18,4 +18,5 @@ tech.root: tcui
 
 This header is used by Title Callable UI. For more information, see:
 
-- [Title Callable UI](../_tcui)
+- [Title Callable UI](../_tcui/index.md)
+

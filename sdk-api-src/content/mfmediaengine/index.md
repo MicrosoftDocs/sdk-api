@@ -18,4 +18,5 @@ tech.root: mf
 
 This header is used by Microsoft Media Foundation. For more information, see:
 
-- [Microsoft Media Foundation](../_mf)
+- [Microsoft Media Foundation](../_mf/index.md)
+

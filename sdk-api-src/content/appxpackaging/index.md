@@ -18,4 +18,5 @@ tech.root: appxpkg
 
 This header is used by Packaging, deployment, and query of Windows Store apps. For more information, see:
 
-- [Packaging, deployment, and query of Windows Store apps](../_appxpkg)
+- [Packaging, deployment, and query of Windows Store apps](../_appxpkg/index.md)
+

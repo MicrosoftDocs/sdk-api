@@ -18,4 +18,5 @@ tech.root: dfs
 
 This header is used by Distributed File System. For more information, see:
 
-- [Distributed File System](../_dfs)
+- [Distributed File System](../_dfs/index.md)
+

@@ -18,4 +18,5 @@ tech.root: tapi2
 
 This header is used by TAPI 2.2. For more information, see:
 
-- [TAPI 2.2](../_tapi2)
+- [TAPI 2.2](../_tapi2/index.md)
+

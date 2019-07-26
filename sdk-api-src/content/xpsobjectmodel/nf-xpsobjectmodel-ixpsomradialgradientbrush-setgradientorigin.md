@@ -122,7 +122,7 @@ The x and y coordinates that are specified in <i>origin</i>  are relative to the
 
 The following illustration shows the parts of a radial gradient. <i>origin</i> sets the location of the radial gradient's origin.    For a more detailed description of this diagram, see <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomradialgradientbrush">IXpsOMRadialGradientBrush</a>.
 
-<img alt="A figure that shows the terms used in a radial gradient" src="../images/RadialGradient1.png"/>
+<img alt="A figure that shows the terms used in a radial gradient" src="./images/RadialGradient1.png"/>
 
 
 

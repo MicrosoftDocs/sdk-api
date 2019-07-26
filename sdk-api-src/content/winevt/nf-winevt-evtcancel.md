@@ -147,7 +147,7 @@ You must call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt
 
 The following procedure describes how to cancel a long-running operation.
 
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To cancel a long-running operation</b>
+<p class="proch"><b>To cancel a long-running operation</b>
 
 <ol>
 <li>Thread A calls a long running operation (for example,  the 

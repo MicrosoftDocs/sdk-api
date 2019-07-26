@@ -18,4 +18,5 @@ tech.root: websock
 
 This header is used by WebSocket Protocol Component API. For more information, see:
 
-- [WebSocket Protocol Component API](../_websock)
+- [WebSocket Protocol Component API](../_websock/index.md)
+

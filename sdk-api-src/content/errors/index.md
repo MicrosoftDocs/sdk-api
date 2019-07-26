@@ -18,4 +18,5 @@ tech.root: dshow
 
 This header is used by DirectShow. For more information, see:
 
-- [DirectShow](../_dshow)
+- [DirectShow](../_dshow/index.md)
+

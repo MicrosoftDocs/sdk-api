@@ -18,4 +18,5 @@ tech.root: p2p
 
 This header is used by Peer-to-Peer. For more information, see:
 
-- [Peer-to-Peer](../_p2p)
+- [Peer-to-Peer](../_p2p/index.md)
+

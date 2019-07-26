@@ -18,4 +18,5 @@ tech.root: wab
 
 This header is used by Windows Address Book. For more information, see:
 
-- [Windows Address Book](../_wab)
+- [Windows Address Book](../_wab/index.md)
+

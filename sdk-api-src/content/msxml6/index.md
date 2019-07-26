@@ -18,4 +18,5 @@ tech.root: ixhr2
 
 This header is used by XML HTTP Extended Request. For more information, see:
 
-- [XML HTTP Extended Request](../_ixhr2)
+- [XML HTTP Extended Request](../_ixhr2/index.md)
+

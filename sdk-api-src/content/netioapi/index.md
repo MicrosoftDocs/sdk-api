@@ -18,4 +18,5 @@ tech.root: iphlp
 
 This header is used by IP Helper. For more information, see:
 
-- [IP Helper](../_iphlp)
+- [IP Helper](../_iphlp/index.md)
+

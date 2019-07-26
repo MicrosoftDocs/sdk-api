@@ -18,4 +18,5 @@ tech.root: wsb
 
 This header is used by Windows Server Backup. For more information, see:
 
-- [Windows Server Backup](../_wsb)
+- [Windows Server Backup](../_wsb/index.md)
+

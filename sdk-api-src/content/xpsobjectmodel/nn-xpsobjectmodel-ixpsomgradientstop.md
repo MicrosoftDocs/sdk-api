@@ -140,12 +140,12 @@ Gradient stops  define the color at a specific location along the gradient path;
 
 For gradient stops used in linear-gradient brushes, the offset value of 0.0 corresponds to the start point of the gradient path, and the offset value of 1.0 corresponds to the end point. To determine the location of a gradient stop between these two points, intermediate offset values are interpolated between them. The following illustration shows two intermediate gradient stops, one at an offset of 0.25 and another at 0.75.
 
-<img alt="A figure that shows the terms used in a linear gradient" src="../images/LinearGradient2.png"/>
+<img alt="A figure that shows the terms used in a linear gradient" src="./images/LinearGradient2.png"/>
 
 
 For gradient stops used in radial-gradient brushes, the offset value of 0.0 corresponds to the gradient origin location, and the offset value of 1.0 corresponds to the circumference of the ellipse that bounds the gradient. Offsets between 0.0 and 1.0 define an ellipse that is interpolated between the gradient origin  and the bounding ellipse. The illustration  that follows has one intermediate gradient stop at an offset of 0.50 (Gradient stop 1). The gradient  is using the <b>XPS_SPREAD_METHOD_REFLECT</b> spread method to fill the space outside of the gradient region.
 
-<img alt="A figure that shows the terms used in a radial gradient" src="../images/RadialGradient2.png"/>
+<img alt="A figure that shows the terms used in a radial gradient" src="./images/RadialGradient2.png"/>
 The calculations that are used to render a gradient are  described  in the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>.
 
 The code example that follows illustrates how to create an instance of  this interface.

@@ -18,4 +18,5 @@ tech.root: nap
 
 This header is used by Network Access Protection. For more information, see:
 
-- [Network Access Protection](../_nap)
+- [Network Access Protection](../_nap/index.md)
+

@@ -18,4 +18,5 @@ tech.root: rpc
 
 This header is used by Remote Procedure Call (RPC). For more information, see:
 
-- [Remote Procedure Call (RPC)](../_rpc)
+- [Remote Procedure Call (RPC)](../_rpc/index.md)
+

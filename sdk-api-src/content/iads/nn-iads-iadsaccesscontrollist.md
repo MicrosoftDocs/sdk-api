@@ -161,14 +161,14 @@ Before you can work with an object ACE, first obtain the ACL to which they belon
 
 Using the properties and methods of the <b>IADsAccessControlList</b> interface, you can retrieve and enumerate ACEs, add new entries to the list, or remove existing entries.
 
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To manage access controls over an ADSI</b>
+<p class="proch"><b>To manage access controls over an ADSI</b>
 
 <ol>
 <li>First, retrieve the security descriptor of the object that implements the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a> interface.</li>
 <li>Second, retrieve the ACL from the security descriptor.</li>
 <li>Third, work with the ACE, or ACEs, of the object in the ACL.</li>
 </ol>
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To make any new or modified ACEs persistent</b>
+<p class="proch"><b>To make any new or modified ACEs persistent</b>
 
 <ol>
 <li>First, add the ACE to the ACL.</li>

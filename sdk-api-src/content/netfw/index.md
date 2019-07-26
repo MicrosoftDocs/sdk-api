@@ -18,4 +18,5 @@ tech.root: ics
 
 This header is used by Windows Firewall Technologies. For more information, see:
 
-- [Windows Firewall Technologies](../_ics)
+- [Windows Firewall Technologies](../_ics/index.md)
+

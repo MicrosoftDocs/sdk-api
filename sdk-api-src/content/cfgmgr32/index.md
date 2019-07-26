@@ -18,4 +18,5 @@ tech.root: devinst
 
 This header is used by Device and Driver Installation Reference. For more information, see:
 
-- [Device and Driver Installation Reference](../_devinst)
+- [Device and Driver Installation Reference](../_devinst/index.md)
+

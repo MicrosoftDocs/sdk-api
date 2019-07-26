@@ -18,4 +18,5 @@ tech.root: hid
 
 This header is used by Human Interface Devices Reference. For more information, see:
 
-- [Human Interface Devices Reference](../_hid)
+- [Human Interface Devices Reference](../_hid/index.md)
+

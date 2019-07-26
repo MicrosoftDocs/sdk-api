@@ -15,5 +15,6 @@ archived: true
 
 ## -description
 
-This header is used by Windows Mixed Reality. For more information, see [Windows Mixed Reality](../_mixedreality).
+This header is used by Windows Mixed Reality. For more information, see [Windows Mixed Reality](../_mixedreality/index.md).
+
 

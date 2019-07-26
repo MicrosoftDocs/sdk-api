@@ -113,7 +113,7 @@ The  coordinates of the brush's viewbox are relative to the source content, such
 
 In the illustration that follows, the image on the left is an example of a source image,    the  image in the center shows the selected viewbox,  and the image on the right shows the resulting brush.  
 
-<img alt="An illustration that shows a viewbox example" src="../images/CreateBrush.png"/>
+<img alt="An illustration that shows a viewbox example" src="./images/CreateBrush.png"/>
 If the source image resolution is 96 by 96 dots per inch and image dimensions are 96 by 96 pixels, the values of fields in the <i>viewbox</i>   parameter would be:
 
 The preceding parameter values correspond to the  source image as:<dl>

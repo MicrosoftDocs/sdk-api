@@ -18,4 +18,5 @@ tech.root: hyperv
 
 This header is used by Hyper-V management. For more information, see:
 
-- [Hyper-V management](../_hyperv)
+- [Hyper-V management](../_hyperv/index.md)
+

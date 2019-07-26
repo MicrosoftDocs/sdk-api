@@ -18,4 +18,5 @@ tech.root: dwm
 
 This header is used by Desktop Window Manager (DWM). For more information, see:
 
-- [Desktop Window Manager (DWM)](../_dwm)
+- [Desktop Window Manager (DWM)](../_dwm/index.md)
+

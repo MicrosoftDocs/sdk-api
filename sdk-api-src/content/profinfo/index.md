@@ -18,4 +18,5 @@ tech.root: shell
 
 This header is used by The Windows Shell. For more information, see:
 
-- [The Windows Shell](../_shell)
+- [The Windows Shell](../_shell/index.md)
+

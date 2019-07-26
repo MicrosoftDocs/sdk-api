@@ -18,4 +18,5 @@ tech.root: tbs
 
 This header is used by TPM Base Services. For more information, see:
 
-- [TPM Base Services](../_tbs)
+- [TPM Base Services](../_tbs/index.md)
+

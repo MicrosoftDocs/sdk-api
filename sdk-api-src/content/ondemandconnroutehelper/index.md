@@ -18,4 +18,5 @@ tech.root: nla
 
 This header is used by Network List Manager. For more information, see:
 
-- [Network List Manager](../_nla)
+- [Network List Manager](../_nla/index.md)
+

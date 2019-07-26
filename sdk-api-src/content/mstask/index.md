@@ -18,4 +18,5 @@ tech.root: taskschd
 
 This header is used by Task Scheduler. For more information, see:
 
-- [Task Scheduler](../_taskschd)
+- [Task Scheduler](../_taskschd/index.md)
+

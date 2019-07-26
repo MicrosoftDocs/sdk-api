@@ -18,4 +18,5 @@ tech.root: tracelogging
 
 This header is used by TraceLogging. For more information, see:
 
-- [TraceLogging](../_tracelogging)
+- [TraceLogging](../_tracelogging/index.md)
+

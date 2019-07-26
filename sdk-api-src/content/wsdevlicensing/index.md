@@ -18,4 +18,5 @@ tech.root: devlic
 
 This header is used by Developer licensing. For more information, see:
 
-- [Developer licensing](../_devlic)
+- [Developer licensing](../_devlic/index.md)
+

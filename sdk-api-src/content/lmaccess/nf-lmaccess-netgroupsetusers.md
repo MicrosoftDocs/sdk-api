@@ -264,7 +264,7 @@ The security descriptor of the Group object is used to perform the access check 
 You can replace the global group membership with an entirely new list of members by calling the 
 <b>NetGroupSetUsers</b> function. The typical sequence of steps to perform this follows.
 
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To replace the global group membership</b>
+<p class="proch"><b>To replace the global group membership</b>
 
 <ol>
 <li>Call the 

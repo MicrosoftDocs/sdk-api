@@ -127,7 +127,7 @@ To avoid possible conflicts, you should always register ActiveX objects with ACT
 
 Most commonly, objects need to call <b>CoLockObjectExternal</b> when they become visible, so they remain active until the user requests the object to shut down. The following procedure lists the steps your code should follow to shut down an object correctly.
 
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To shut down an active object:</b>
+<p class="proch"><b>To shut down an active object:</b>
 
 <ol>
 <li>

@@ -18,4 +18,5 @@ tech.root: xaml_diagnostics
 
 This header is used by XAML Diagnostics. For more information, see:
 
-- [XAML Diagnostics](../_xaml_diagnostics)
+- [XAML Diagnostics](../_xaml_diagnostics/index.md)
+

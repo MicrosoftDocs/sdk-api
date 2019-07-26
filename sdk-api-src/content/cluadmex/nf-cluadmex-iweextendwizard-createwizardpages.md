@@ -174,7 +174,7 @@ To add Wizard97 wizard pages, use the
      method.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>For each property page to be added</b>
+<p class="proch"><b>For each property page to be added</b>
 
 <ol>
 <li>Use <i>piData</i> to call 

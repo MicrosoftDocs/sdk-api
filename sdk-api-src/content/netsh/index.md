@@ -18,4 +18,5 @@ tech.root: netshell
 
 This header is used by NetShell. For more information, see:
 
-- [NetShell](../_netshell)
+- [NetShell](../_netshell/index.md)
+

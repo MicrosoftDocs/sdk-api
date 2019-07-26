@@ -18,4 +18,5 @@ tech.root: gamingdvcinfo
 
 This header is used by Gaming Device Information. For more information, see:
 
-- [Gaming Device Information](../_gamingdvcinfo)
+- [Gaming Device Information](../_gamingdvcinfo/index.md)
+

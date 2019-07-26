@@ -18,4 +18,5 @@ tech.root: direct3d10
 
 This header is used by Direct3D 10 Graphics. For more information, see:
 
-- [Direct3D 10 Graphics](../_direct3d10)
+- [Direct3D 10 Graphics](../_direct3d10/index.md)
+

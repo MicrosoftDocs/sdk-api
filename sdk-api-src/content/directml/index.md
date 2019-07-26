@@ -17,4 +17,5 @@ ms.custom: 19H1
 
 This header is used by Direct3D 12 Graphics. For more information, see:
 
-- [Direct3D 12 Graphics](../_direct3d12)
+- [Direct3D 12 Graphics](../_direct3d12/index.md)
+

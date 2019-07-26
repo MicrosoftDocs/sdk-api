@@ -18,4 +18,5 @@ tech.root: cimwin32
 
 This header is used by CIMWin32 WMI Providers. For more information, see:
 
-- [CIMWin32 WMI Providers](../_cimwin32)
+- [CIMWin32 WMI Providers](../_cimwin32/index.md)
+

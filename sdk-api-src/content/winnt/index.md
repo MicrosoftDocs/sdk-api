@@ -18,4 +18,5 @@ tech.root: backup
 
 This header is used by Backup. For more information, see:
 
-- [Backup](../_backup)
+- [Backup](../_backup/index.md)
+

@@ -18,4 +18,5 @@ tech.root: wcm
 
 This header is used by Windows Connection Manager. For more information, see:
 
-- [Windows Connection Manager](../_wcm)
+- [Windows Connection Manager](../_wcm/index.md)
+

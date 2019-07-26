@@ -148,14 +148,14 @@ A memory allocation failure occurred.
 
 
 
-For a Windows Server 2003, Windows XP computer to create, monitor, or control tasks on a Windows Vista computer, the following operations should be completed on the Windows Vista computer, and the user who is calling the <b>ITaskScheduler::SetTargetComputer</b> method must be a member of the Administrators group on the remote Windows Vista  computer.<p class="proch"><img alt="" src="../common/wedge.gif"/><b>Enable the "Share File and Printers" exception in Windows Firewall</b>
+For a Windows Server 2003, Windows XP computer to create, monitor, or control tasks on a Windows Vista computer, the following operations should be completed on the Windows Vista computer, and the user who is calling the <b>ITaskScheduler::SetTargetComputer</b> method must be a member of the Administrators group on the remote Windows Vista  computer.<p class="proch"><b>Enable the "Share File and Printers" exception in Windows Firewall</b>
 
 <ol>
 <li>Click Start, and then click Control Panel.</li>
 <li>In Control Panel, click <b>Classic View</b> and then double-click the <b>Windows Firewall </b> icon.</li>
 <li>In the Windows Firewall window, click the <b>Exceptions</b> tab and select <b>File and Printer Sharing exception</b> check box.</li>
 </ol>
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>Enable the "Remote Registry" service</b>
+<p class="proch"><b>Enable the "Remote Registry" service</b>
 
 <ul>
 <li>Open a Command Prompt window and enter the following command: <b>net start "Remote Registry"</b></li>

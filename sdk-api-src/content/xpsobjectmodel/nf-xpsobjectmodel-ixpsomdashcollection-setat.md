@@ -86,7 +86,7 @@ At the location specified by <i>index</i>, this method frees the existing <a hre
 
 The figure that follows illustrates how the collection is changed by the <b>SetAt</b> method.
 
-<img alt="A figure that shows how SetAt changes an entry in the dash collection" src="../images/dashcollection_setat.png"/>
+<img alt="A figure that shows how SetAt changes an entry in the dash collection" src="./images/dashcollection_setat.png"/>
 
 
 

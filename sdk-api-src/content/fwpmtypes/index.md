@@ -18,4 +18,5 @@ tech.root: fwp
 
 This header is used by Windows Filtering Platform. For more information, see:
 
-- [Windows Filtering Platform](../_fwp)
+- [Windows Filtering Platform](../_fwp/index.md)
+

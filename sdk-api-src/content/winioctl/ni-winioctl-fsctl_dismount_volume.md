@@ -179,7 +179,7 @@ Dismounting a volume is useful when a volume needs to disappear for a while. For
     changes a volume file system from the FAT file system to the NTFS file system might use the following 
     procedure.
 
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To change a volume file system</b>
+<p class="proch"><b>To change a volume file system</b>
 
 <ol>
 <li>Open a volume.</li>

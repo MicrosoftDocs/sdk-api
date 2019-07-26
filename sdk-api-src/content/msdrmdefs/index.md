@@ -18,4 +18,5 @@ tech.root: rm
 
 This header is used by Active Directory Rights Management Services SDK. For more information, see:
 
-- [Active Directory Rights Management Services SDK](../_rm)
+- [Active Directory Rights Management Services SDK](../_rm/index.md)
+

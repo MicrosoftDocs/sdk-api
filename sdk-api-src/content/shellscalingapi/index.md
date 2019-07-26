@@ -18,4 +18,5 @@ tech.root: hidpi
 
 This header is used by High DPI. For more information, see:
 
-- [High DPI](../_hidpi)
+- [High DPI](../_hidpi/index.md)
+

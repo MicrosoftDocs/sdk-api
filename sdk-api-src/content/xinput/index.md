@@ -18,4 +18,5 @@ tech.root: xinput
 
 This header is used by XInput Game Controller APIs. For more information, see:
 
-- [XInput Game Controller APIs](../_xinput)
+- [XInput Game Controller APIs](../_xinput/index.md)
+

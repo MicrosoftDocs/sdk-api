@@ -110,7 +110,7 @@ The method succeeded.
 
 The tile mode determines how the tile image is repeated to fill the output area. If the tile mode value is <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE_NONE</a>, the tile image is drawn only once.
 
-<img alt="An illustration that shows different examples of different tile mode behaviors" src="../images/TileMode.png"/>
+<img alt="An illustration that shows different examples of different tile mode behaviors" src="./images/TileMode.png"/>
 
 
 

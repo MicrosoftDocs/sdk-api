@@ -155,7 +155,7 @@ Retrieves the version of the plug-in.
 
 
 
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To register your plug-in so that it will be called by the RemoteApp and Desktop Connection Management service</b>
+<p class="proch"><b>To register your plug-in so that it will be called by the RemoteApp and Desktop Connection Management service</b>
 
 <ol>
 <li>Implement the plug-in in a DLL and register the DLL by using the Regsvr32.exe tool.</li>

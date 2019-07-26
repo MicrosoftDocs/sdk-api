@@ -127,7 +127,7 @@ At the location specified by <i>index</i>, this method inserts the <a href="http
 
 The figure that follows illustrates how the dictionary is changed by the <b>InsertAt</b> method.
 
-<img alt="A figure that shows how InsertAt adds an entry to the dictionary" src="../images/dictionary_insertat.png"/>
+<img alt="A figure that shows how InsertAt adds an entry to the dictionary" src="./images/dictionary_insertat.png"/>
 
 
 

@@ -18,4 +18,5 @@ tech.root: netbios
 
 This header is used by NetBIOS. For more information, see:
 
-- [NetBIOS](../_netbios)
+- [NetBIOS](../_netbios/index.md)
+

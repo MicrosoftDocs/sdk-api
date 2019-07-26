@@ -142,7 +142,7 @@ The coordinates of the brush's viewbox are relative to the source content, such 
 
 In the illustration that follows, the image on the left is an example of a source image, and  that on the far right is the brush that results after selecting the viewbox. 
 
-<img alt="An illustration that shows a viewbox example" src="../images/CreateBrush.png"/>
+<img alt="An illustration that shows a viewbox example" src="./images/CreateBrush.png"/>
 If the source image resolution is 96 by 96 dots per inch and image dimensions are 96 by 96 pixels, the values of fields in the <i>viewbox</i> parameter are as follows:
 
 The preceding parameter values correspond to the  source image as follows:<dl>
@@ -159,7 +159,7 @@ The <i>viewport</i> is the area covered by the first tile in the output area. Th
 
 The next  illustration shows how an image brush is used to fill an output area.  From left to right, the original image is transformed to fill the viewport, then placed in the viewport area of the output area, and then tiled to fill the output area.
 
-<img alt="A figure that shows how a tile brush fills a geometry" src="../images/tile_cherry.png"/>
+<img alt="A figure that shows how a tile brush fills a geometry" src="./images/tile_cherry.png"/>
 The code example that follows illustrates how this method is used to create a new  interface.
 
 

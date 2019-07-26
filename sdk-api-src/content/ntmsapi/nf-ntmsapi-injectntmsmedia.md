@@ -275,7 +275,7 @@ This function cannot be used with the offline library.
 
 Insert begins the process of inserting media into a library. Because libraries vary on the functionality of the NTMS_IEPORT object, each device may operate slightly differently. The following steps describe how RSM generally handles an inject:
 
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To insert media into a library</b>
+<p class="proch"><b>To insert media into a library</b>
 
 <ol>
 <li>Allow/unlock/extend the NTMS_IEPORT.</li>

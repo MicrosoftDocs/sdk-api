@@ -18,4 +18,5 @@ tech.root: webdav
 
 This header is used by WebDAV. For more information, see:
 
-- [WebDAV](../_webdav)
+- [WebDAV](../_webdav/index.md)
+

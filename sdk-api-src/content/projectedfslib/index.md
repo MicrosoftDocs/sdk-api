@@ -18,4 +18,5 @@ tech.root: projfs
 
 This header is used by Projected File System. For more information, see:
 
-- [Projected File System](../_projfs)
+- [Projected File System](../_projfs/index.md)
+

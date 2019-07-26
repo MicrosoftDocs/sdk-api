@@ -18,4 +18,5 @@ tech.root: ifsk
 
 This header is used by Installable file systems DDI reference. For more information, see:
 
-- [Installable file systems DDI reference](../_ifsk)
+- [Installable file systems DDI reference](../_ifsk/index.md)
+

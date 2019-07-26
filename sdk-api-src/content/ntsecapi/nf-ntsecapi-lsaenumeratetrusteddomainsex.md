@@ -145,7 +145,7 @@ You can use the
 
 Retrieving all trust information may require more than a single <b>LsaEnumerateTrustedDomainsEx</b> call.
 
-<p class="proch"><img alt="" src="../common/wedge.gif"/><b>To use the <i>EnumerationContext</i> parameter to make multiple calls</b>
+<p class="proch"><b>To use the <i>EnumerationContext</i> parameter to make multiple calls</b>
 
 <ol>
 <li>Set the variable pointed to by <i>EnumerationContext</i> to zero.</li>

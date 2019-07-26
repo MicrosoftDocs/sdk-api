@@ -18,4 +18,5 @@ tech.root: direct3d9
 
 This header is used by Direct3D 9 Graphics. For more information, see:
 
-- [Direct3D 9 Graphics](../_direct3d9)
+- [Direct3D 9 Graphics](../_direct3d9/index.md)
+

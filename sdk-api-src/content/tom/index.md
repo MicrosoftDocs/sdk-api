@@ -18,4 +18,5 @@ tech.root: controls
 
 This header is used by Windows Controls. For more information, see:
 
-- [Windows Controls](../_controls)
+- [Windows Controls](../_controls/index.md)
+

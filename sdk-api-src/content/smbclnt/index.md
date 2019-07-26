@@ -18,4 +18,5 @@ tech.root: mscs
 
 This header is used by Windows Clustering. For more information, see:
 
-- [Windows Clustering](../_mscs)
+- [Windows Clustering](../_mscs/index.md)
+

@@ -18,4 +18,5 @@ tech.root: tapi3
 
 This header is used by Telephony Application Programming Interfaces. For more information, see:
 
-- [Telephony Application Programming Interfaces](../_tapi3)
+- [Telephony Application Programming Interfaces](../_tapi3/index.md)
+

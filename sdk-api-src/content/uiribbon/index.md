@@ -18,4 +18,5 @@ tech.root: windowsribbon
 
 This header is used by Windows Ribbon Framework. For more information, see:
 
-- [Windows Ribbon Framework](../_windowsribbon)
+- [Windows Ribbon Framework](../_windowsribbon/index.md)
+

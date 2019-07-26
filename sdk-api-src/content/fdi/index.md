@@ -18,4 +18,5 @@ tech.root: winprog
 
 This header is used by Developer Notes. For more information, see:
 
-- [Developer Notes](../_winprog)
+- [Developer Notes](../_winprog/index.md)
+

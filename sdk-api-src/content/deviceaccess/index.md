@@ -18,4 +18,5 @@ tech.root: deviceaccess
 
 This header is used by Device Access API. For more information, see:
 
-- [Device Access API](../_deviceaccess)
+- [Device Access API](../_deviceaccess/index.md)
+

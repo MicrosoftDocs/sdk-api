@@ -148,7 +148,7 @@ The table that follows describes the specific set of data values that are return
 <td>
 XPS_SEGMENT_TYPE_LINE
 
-<img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_LINE figure segment" src="../images/segment_type_line.png"/>
+<img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_LINE figure segment" src="./images/segment_type_line.png"/>
 
 </td>
 <td>
@@ -164,7 +164,7 @@ Two data values:
 <td>
 XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE
 
-<img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE figure segment" src="../images/segment_type_arc_lc.png"/>
+<img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE figure segment" src="./images/segment_type_arc_lc.png"/>
 
 </td>
 <td>
@@ -183,7 +183,7 @@ Five data values:
 <td>
 XPS_SEGMENT_TYPE_ARC_SMALL_CLOCKWISE
 
-<img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_ARC_SMALL_CLOCKWISE figure segment" src="../images/segment_type_arc_sc.png"/>
+<img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_ARC_SMALL_CLOCKWISE figure segment" src="./images/segment_type_arc_sc.png"/>
 
 </td>
 <td>
@@ -202,7 +202,7 @@ Five data values:
 <td>
 XPS_SEGMENT_TYPE_ARC_LARGE_COUNTERCLOCKWISE
 
-<img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE figure segment" src="../images/segment_type_arc_lcc.png"/>
+<img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE figure segment" src="./images/segment_type_arc_lcc.png"/>
 
 </td>
 <td>
@@ -221,7 +221,7 @@ Five data values:
 <td>
 XPS_SEGMENT_TYPE_ARC_SMALL_COUNTERCLOCKWISE
 
-<img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_ARC_SMALL_COUNTERCLOCKWISE figure segment" src="../images/segment_type_arc_scc.png"/>
+<img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_ARC_SMALL_COUNTERCLOCKWISE figure segment" src="./images/segment_type_arc_scc.png"/>
 
 </td>
 <td>
@@ -240,7 +240,7 @@ Five data values:
 <td>
 XPS_SEGMENT_TYPE_BEZIER
 
-<img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_BEZIER figure segment" src="../images/segment_type_bezier.png"/>
+<img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_BEZIER figure segment" src="./images/segment_type_bezier.png"/>
 
 </td>
 <td>
@@ -260,7 +260,7 @@ Six data values:
 <td>
 XPS_SEGMENT_TYPE_QUADRATIC_BEZIER
 
-<img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_QUADRATIC_BEZIER figure segment" src="../images/segment_type_quad_bezier.png"/>
+<img alt="A diagram that shows an example of an XPS_SEGMENT_TYPE_QUADRATIC_BEZIER figure segment" src="./images/segment_type_quad_bezier.png"/>
 
 </td>
 <td>
