@@ -38,6 +38,7 @@ api_location:
  - Dwmapi.dll
  - uxtheme.dll
  - ext-ms-win-dwmapi-ext-l1-1-0.dll
+ - ext-ms-win-dwmapi-ext-l1-1-1.dll
 api_name:
  - DwmSetIconicThumbnail
 product: Windows

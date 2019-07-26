@@ -36,6 +36,7 @@ api_type:
  - DllExport
 api_location:
  - Wintrust.dll
+ - mscat32.dll
 api_name:
  - CryptCATCatalogInfoFromContext
 product: Windows

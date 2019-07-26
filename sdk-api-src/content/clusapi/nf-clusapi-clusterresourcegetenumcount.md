@@ -37,6 +37,7 @@ api_type:
 api_location:
  - ClusAPI.dll
  - Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll
+ - ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
  - ClusterResourceGetEnumCount
 product: Windows

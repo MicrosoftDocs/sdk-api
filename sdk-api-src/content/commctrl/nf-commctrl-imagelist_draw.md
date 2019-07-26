@@ -37,6 +37,7 @@ api_type:
 api_location:
  - Comctl32.dll
  - comdlg32.dll
+ - ext-ms-win-shell-comctl32-init-l1-1-1.dll
 api_name:
  - ImageList_Draw
 product: Windows

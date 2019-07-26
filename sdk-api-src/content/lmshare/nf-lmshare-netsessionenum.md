@@ -36,6 +36,7 @@ api_type:
  - DllExport
 api_location:
  - Netapi32.dll
+ - srvcli.dll
 api_name:
  - NetSessionEnum
 product: Windows

@@ -44,6 +44,7 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+ - api-ms-win-core-kernel32-legacy-l1-1-6.dll
 api_name:
  - SetFileCompletionNotificationModes
 product: Windows

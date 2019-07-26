@@ -36,6 +36,7 @@ api_type:
  - DllExport
 api_location:
  - Comctl32.dll
+ - ext-ms-win-shell-comctl32-window-l1-1-0.dll 
 api_name:
  - CreatePropertySheetPage
  - CreatePropertySheetPageA

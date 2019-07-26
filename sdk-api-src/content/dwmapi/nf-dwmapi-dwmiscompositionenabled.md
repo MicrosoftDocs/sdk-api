@@ -38,6 +38,8 @@ api_location:
  - Dwmapi.dll
  - API-MS-Win-dwmapi-l1-1-0.dll
  - Ext-Ms-Win-DwmAPI-Ext-L1-1-0.dll
+ - ext-ms-win-dwmapi-ext-l1-1-1.dll
+ - ext-ms-win-dwmapi-ext-l1-1-2.dll
 api_name:
  - DwmIsCompositionEnabled
 product: Windows

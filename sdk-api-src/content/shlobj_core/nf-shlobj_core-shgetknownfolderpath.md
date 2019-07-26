@@ -40,6 +40,7 @@ api_location:
  - KernelBase.dll
  - Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
  - Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
+ - ext-ms-win-shell32-shellfolders-l1-2-0.dll
  - Windows.Storage.dll
 api_name:
  - SHGetKnownFolderPath

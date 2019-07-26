@@ -42,6 +42,7 @@ api_location:
  - API-MS-Win-eventing-provider-l1-1-0.dll
  - API-MS-Win-Eventing-Provider-L1-1-1.dll
  - bcrypt.dll
+ - rtmpal.dll
 api_name:
  - EventRegister
 product: Windows

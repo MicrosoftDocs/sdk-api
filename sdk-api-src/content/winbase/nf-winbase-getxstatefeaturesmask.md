@@ -38,6 +38,7 @@ api_location:
  - Kernel32.dll
  - API-MS-Win-Core-Xstate-l2-1-0.dll
  - KernelBase.dll
+ - api-ms-win-core-xstate-l2-1-1.dll
 api_name:
  - GetXStateFeaturesMask
 product: Windows
