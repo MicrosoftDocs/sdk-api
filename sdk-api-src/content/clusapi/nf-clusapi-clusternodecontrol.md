@@ -36,6 +36,8 @@ api_type:
  - DllExport
 api_location:
  - ClusAPI.dll
+ - ext-ms-win-cluster-clusapi-l1-1-2.dll
+ - ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
  - ClusterNodeControl
 product: Windows

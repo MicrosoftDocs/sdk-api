@@ -36,6 +36,7 @@ api_type:
  - DllExport
 api_location:
  - Secur32.dll
+ - sspicli.dll
 api_name:
  - GetUserNameEx
  - GetUserNameExA

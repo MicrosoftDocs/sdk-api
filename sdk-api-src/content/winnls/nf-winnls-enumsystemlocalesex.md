@@ -42,6 +42,7 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
  - API-MS-Win-Core-Localization-L1-2-2.dll
+ - api-ms-win-core-localization-l1-2-3.dll
 api_name:
  - EnumSystemLocalesEx
 product: Windows

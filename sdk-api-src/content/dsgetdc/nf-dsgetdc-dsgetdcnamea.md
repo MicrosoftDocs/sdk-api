@@ -36,6 +36,7 @@ api_type:
  - DllExport
 api_location:
  - NetApi32.dll
+ - logoncli.dll
 api_name:
  - DsGetDcName
  - DsGetDcNameA

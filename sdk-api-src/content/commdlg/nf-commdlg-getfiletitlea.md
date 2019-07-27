@@ -36,6 +36,7 @@ api_type:
  - DllExport
 api_location:
  - Comdlg32.dll
+ - ext-ms-win-shell-comdlg32-l1-1-1.dll
 api_name:
  - GetFileTitle
  - GetFileTitleA

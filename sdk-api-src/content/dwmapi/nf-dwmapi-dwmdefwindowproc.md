@@ -37,6 +37,8 @@ api_type:
 api_location:
  - Dwmapi.dll
  - ext-ms-win-dwmapi-ext-l1-1-0.dll
+ - ext-ms-win-dwmapi-ext-l1-1-1.dll
+ - ext-ms-win-dwmapi-ext-l1-1-2.dll
 api_name:
  - DwmDefWindowProc
 product: Windows
