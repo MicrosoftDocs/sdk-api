@@ -489,6 +489,9 @@ A pointer to a Unicode string that is reserved for use by applications. This str
 
 Type: <b>LPWSTR</b>
 
+> [!IMPORTANT]
+> You should no longer use **usri22_workstations**. Instead, you can control sign-in access to workstations by configuring the User Rights Assignment settings (**Allow log on locally** and **Deny log on locally**, or **Allow log on through Remote Desktop Services** and **Deny log on through Remote Desktop Services**).
+
 A pointer to a Unicode string that contains the names of workstations from which the user can log on. As many as eight workstations can be specified; the names must be separated by commas. A null string indicates that there is no restriction. To disable logons from all workstations to this account, set the UF_ACCOUNTDISABLE value in the <b>usri22_flags</b> member.
 
 
