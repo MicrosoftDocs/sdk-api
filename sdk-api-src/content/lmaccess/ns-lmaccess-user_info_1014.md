@@ -63,11 +63,11 @@ The
 
 ### -field usri1014_workstations
 
+> [!IMPORTANT]
+> You should no longer use **usri1014_workstations**. Instead, you can control sign-in access to workstations by configuring the User Rights Assignment settings (**Allow log on locally** and **Deny log on locally**, or **Allow log on through Remote Desktop Services** and **Deny log on through Remote Desktop Services**).
+
 Pointer to a Unicode string that contains the names of workstations from which the user can log on. The user is specified in the <i>username</i> parameter to the 
 <b>NetUserSetInfo</b> function. 
-
-
-
 
 As many as eight workstations can be specified; the names must be separated by commas. A null string indicates that there is no restriction.
 
