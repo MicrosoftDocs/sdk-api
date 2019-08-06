@@ -639,7 +639,7 @@ int __cdecl wmain()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a>
 
 
 

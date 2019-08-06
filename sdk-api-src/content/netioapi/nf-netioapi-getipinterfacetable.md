@@ -114,7 +114,7 @@ The Internet Protocol version 6 (IPv6) address family.
 
 ### -param Table [out]
 
-A pointer to a buffer that receives the table of IP interface entries in a <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipinterface_table">MIB_IPINTERFACE_TABLE</a> structure.
+A pointer to a buffer that receives the table of IP interface entries in a <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_table">MIB_IPINTERFACE_TABLE</a> structure.
 
 
 ## -returns
@@ -199,13 +199,13 @@ the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-f
 The <b>GetIpInterfaceTable</b> function is defined on Windows Vista and later. 
 
 The  
-<b>GetIpInterfaceTable</b> function enumerates the IP interfaces on a local system and returns this information in an <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipinterface_table">MIB_IPINTERFACE_TABLE</a> structure. 
+<b>GetIpInterfaceTable</b> function enumerates the IP interfaces on a local system and returns this information in an <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_table">MIB_IPINTERFACE_TABLE</a> structure. 
 
-IP interface entries are returned in a <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipinterface_table">MIB_IPINTERFACE_TABLE</a> structure in the buffer pointed to by the <i>Table</i> parameter. The <b>MIB_IPINTERFACE_TABLE</b> structure contains an IP interface entry count and an array of <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipinterface_row">MIB_IPINTERFACE_ROW</a> structures for each IP interface entry. When these returned structures are no longer required, free the memory by calling the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-freemibtable">FreeMibTable</a>.
+IP interface entries are returned in a <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_table">MIB_IPINTERFACE_TABLE</a> structure in the buffer pointed to by the <i>Table</i> parameter. The <b>MIB_IPINTERFACE_TABLE</b> structure contains an IP interface entry count and an array of <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_row">MIB_IPINTERFACE_ROW</a> structures for each IP interface entry. When these returned structures are no longer required, free the memory by calling the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-freemibtable">FreeMibTable</a>.
 
 The <i>Family</i> parameter must be initialized to either <b>AF_INET</b> or <b>AF_INET6</b>. 
 
-Note that the returned <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipinterface_table">MIB_IPINTERFACE_TABLE</a> structure pointed to by the <i>Table</i> parameter may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipinterface_row">MIB_IPINTERFACE_ROW</a> array entry in the <b>Table</b> member of the <b>MIB_IPINTERFACE_TABLE</b> structure. Padding for alignment may also be present between the <b>MIB_IPINTERFACE_ROW</b> array entries. Any access to a <b>MIB_IPINTERFACE_ROW</b> array entry should assume  padding may exist. 
+Note that the returned <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_table">MIB_IPINTERFACE_TABLE</a> structure pointed to by the <i>Table</i> parameter may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_row">MIB_IPINTERFACE_ROW</a> array entry in the <b>Table</b> member of the <b>MIB_IPINTERFACE_TABLE</b> structure. Padding for alignment may also be present between the <b>MIB_IPINTERFACE_ROW</b> array entries. Any access to a <b>MIB_IPINTERFACE_ROW</b> array entry should assume  padding may exist. 
 
 
 
@@ -394,19 +394,19 @@ int main()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_if_row2">MIB_IF_ROW2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_if_table2">MIB_IF_TABLE2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_if_table2">MIB_IF_TABLE2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipinterface_row">MIB_IPINTERFACE_ROW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_row">MIB_IPINTERFACE_ROW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipinterface_table">MIB_IPINTERFACE_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_table">MIB_IPINTERFACE_TABLE</a>
 
 
 

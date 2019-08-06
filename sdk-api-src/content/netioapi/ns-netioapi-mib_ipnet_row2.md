@@ -259,7 +259,7 @@ The time, in
 
 The <b>MIB_IPNET_ROW2</b> structure is defined on Windows Vista and later. 
 
-The <b>GetIpNetTable2</b> function enumerates the neighbor IP addresses on a local system and returns this information in an <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipnet_table2">MIB_IPNET_TABLE2</a> structure. 
+The <b>GetIpNetTable2</b> function enumerates the neighbor IP addresses on a local system and returns this information in an <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipnet_table2">MIB_IPNET_TABLE2</a> structure. 
 
 For IPv4, this includes addresses determined used the Address Resolution Protocol (ARP). For IPv6, this includes addresses determined using the Neighbor Discovery (ND) protocol for IPv6 as specified in RFC 2461. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=84044">http://www.ietf.org/rfc/rfc2461.txt</a>. 
 
@@ -287,7 +287,7 @@ Note that the <i>Netioapi.h</i> header file is automatically included in the <i>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipnet_table2">MIB_IPNET_TABLE2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipnet_table2">MIB_IPNET_TABLE2</a>
 
 
 

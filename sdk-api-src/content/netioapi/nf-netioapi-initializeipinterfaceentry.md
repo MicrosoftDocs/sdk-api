@@ -112,7 +112,7 @@ The <b>InitializeIpInterfaceEntry</b> function must be used to initialize the fi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipinterface_table">MIB_IPINTERFACE_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_table">MIB_IPINTERFACE_TABLE</a>
 
 
 

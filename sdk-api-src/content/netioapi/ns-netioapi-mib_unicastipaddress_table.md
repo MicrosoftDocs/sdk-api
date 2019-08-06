@@ -68,7 +68,7 @@ A value that specifies the number of unicast IP address entries in the array.
 ### -field Table
 
 An array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structures containing unicast IP address entries.
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structures containing unicast IP address entries.
 
 
 ## -remarks
@@ -81,14 +81,14 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi
 
 
 
-The <b>MIB_UNICASTIPADDRESS_TABLE</b> structure may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> array entry in the <b>Table</b> member. Padding for alignment may also be present between the <b>MIB_UNICASTIPADDRESS_ROW</b> array entries in the <b>Table</b> member. Any access to a <b>MIB_UNICASTIPADDRESS_ROW</b> array entry should assume  padding may exist. 
+The <b>MIB_UNICASTIPADDRESS_TABLE</b> structure may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> array entry in the <b>Table</b> member. Padding for alignment may also be present between the <b>MIB_UNICASTIPADDRESS_ROW</b> array entries in the <b>Table</b> member. Any access to a <b>MIB_UNICASTIPADDRESS_ROW</b> array entry should assume  padding may exist. 
 
 
 
 
 #### Examples
 
-The following example retrieves a unicast IP address table and prints some values from each of the retrieved <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structures.
+The following example retrieves a unicast IP address table and prints some values from each of the retrieved <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structures.
 
 
 ```cpp
@@ -317,7 +317,7 @@ int __cdecl wmain()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a>
  
 
  

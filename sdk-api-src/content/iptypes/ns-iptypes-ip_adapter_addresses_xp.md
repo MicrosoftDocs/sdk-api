@@ -787,7 +787,7 @@ The IPv4 interface metric for the adapter address. This member is only applicabl
 
 The actual route metric used to compute the route preferences for IPv4 is the summation of the route metric 
        offset specified in the <b>Metric</b> member of the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> structure and the interface 
+       <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> structure and the interface 
        metric specified in this member for IPv4.
 
 <div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
@@ -803,7 +803,7 @@ The IPv6 interface metric for the adapter address. This member is only applicabl
 
 The actual route metric used to compute the route preferences for IPv6 is the summation of the route metric 
        offset specified in the <b>Metric</b> member of the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> structure and the interface 
+       <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> structure and the interface 
        metric specified in this member for IPv4.
 
 <div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>

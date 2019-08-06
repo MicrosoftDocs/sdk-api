@@ -137,7 +137,7 @@ The <b>SOCKADDR_INET</b> union is defined on Windows Vista and later.
 
 The <b>SOCKADDR_INET</b> union is a convenience structure for accessing an IPv4 address, an IPv6 address, or the IP address family without having to cast  the <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure.
 
-The <b>SOCKADDR_INET</b> union is the data type of the <b>Prefix</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_ip_address_prefix">IP_ADDRESS_PREFIX</a> structure  
+The <b>SOCKADDR_INET</b> union is the data type of the <b>Prefix</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-ip_address_prefix">IP_ADDRESS_PREFIX</a> structure  
 
 Note that the <i>Ws2ipdef.h</i> header file is automatically included in <i>Ws2tcpip.h</i> header file, and should never be used directly.
 
@@ -150,7 +150,7 @@ Note that the <i>Ws2ipdef.h</i> header file is automatically included in <i>Ws2t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_ip_address_prefix">IP_ADDRESS_PREFIX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-ip_address_prefix">IP_ADDRESS_PREFIX</a>
 
 
 

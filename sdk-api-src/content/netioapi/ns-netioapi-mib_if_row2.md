@@ -1497,7 +1497,7 @@ Note that the <i>Netioapi.h</i> header file is automatically included in the <i>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_if_table2">MIB_IF_TABLE2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_if_table2">MIB_IF_TABLE2</a>
 
 
 

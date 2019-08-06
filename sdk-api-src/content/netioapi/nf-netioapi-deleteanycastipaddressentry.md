@@ -63,7 +63,7 @@ The
 ### -param Row [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_anycastipaddress_row">MIB_ANYCASTIPADDRESS_ROW</a>  structure entry for an existing anycast IP address entry to delete from the local computer.
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_anycastipaddress_row">MIB_ANYCASTIPADDRESS_ROW</a>  structure entry for an existing anycast IP address entry to delete from the local computer.
 
 
 ## -returns
@@ -97,7 +97,7 @@ Access is denied. This error is returned under several conditions that include t
 </dl>
 </td>
 <td width="60%">
-An invalid parameter was passed to the function. This error is returned if a <b>NULL</b> pointer is passed in the <i>Row</i> parameter, the <b>Address</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_anycastipaddress_row">MIB_ANYCASTIPADDRESS_ROW</a> pointed to by the <i>Row</i> parameter was not set to a valid unicast IPv4 or IPv6 address, or both the <b>InterfaceLuid</b> or <b>InterfaceIndex</b> members of the <b>MIB_ANYCASTIPADDRESS_ROW</b> pointed to by the <i>Row</i> parameter were unspecified.
+An invalid parameter was passed to the function. This error is returned if a <b>NULL</b> pointer is passed in the <i>Row</i> parameter, the <b>Address</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_anycastipaddress_row">MIB_ANYCASTIPADDRESS_ROW</a> pointed to by the <i>Row</i> parameter was not set to a valid unicast IPv4 or IPv6 address, or both the <b>InterfaceLuid</b> or <b>InterfaceIndex</b> members of the <b>MIB_ANYCASTIPADDRESS_ROW</b> pointed to by the <i>Row</i> parameter were unspecified.
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ An invalid parameter was passed to the function. This error is returned if a <b>
 </dl>
 </td>
 <td width="60%">
-The specified interface could not be found. This error is returned if the  network interface specified by the <b>InterfaceLuid</b> or <b>InterfaceIndex</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_anycastipaddress_row">MIB_ANYCASTIPADDRESS_ROW</a> pointed to by the <i>Row</i> parameter could not be found.  
+The specified interface could not be found. This error is returned if the  network interface specified by the <b>InterfaceLuid</b> or <b>InterfaceIndex</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_anycastipaddress_row">MIB_ANYCASTIPADDRESS_ROW</a> pointed to by the <i>Row</i> parameter could not be found.  
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ The specified interface could not be found. This error is returned if the  netwo
 </dl>
 </td>
 <td width="60%">
-The request is not supported. This error is returned if no IPv4 stack is on the local computer and an IPv4 address was specified in the <b>Address</b> member <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_anycastipaddress_row">MIB_ANYCASTIPADDRESS_ROW</a> pointed to by the <i>Row</i> parameter. This error is also returned if no IPv6 stack is on the local computer and an IPv6 address was specified in the <b>Address</b> member .
+The request is not supported. This error is returned if no IPv4 stack is on the local computer and an IPv4 address was specified in the <b>Address</b> member <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_anycastipaddress_row">MIB_ANYCASTIPADDRESS_ROW</a> pointed to by the <i>Row</i> parameter. This error is also returned if no IPv6 stack is on the local computer and an IPv6 address was specified in the <b>Address</b> member .
 
 </td>
 </tr>
@@ -147,9 +147,9 @@ Use
 
 The <b>DeleteAnycastIpAddressEntry</b> function is defined on Windows Vista and later. 
 
-The <b>DeleteAnycastIpAddressEntry</b> function is used to delete an existing <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_anycastipaddress_row">MIB_ANYCASTIPADDRESS_ROW</a> structure entry on the local computer.  
+The <b>DeleteAnycastIpAddressEntry</b> function is used to delete an existing <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_anycastipaddress_row">MIB_ANYCASTIPADDRESS_ROW</a> structure entry on the local computer.  
 
-On input, the <b>Address</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_anycastipaddress_row">MIB_ANYCASTIPADDRESS_ROW</a> structure pointed to by the <i>Row</i> parameter must be set to a valid unicast IPv4 or IPv6 address and family. In addition, at least one of the following members in the <b>MIB_ANYCASTIPADDRESS_ROW</b> structure pointed to the <i>Row</i> parameter must be initialized:
+On input, the <b>Address</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_anycastipaddress_row">MIB_ANYCASTIPADDRESS_ROW</a> structure pointed to by the <i>Row</i> parameter must be set to a valid unicast IPv4 or IPv6 address and family. In addition, at least one of the following members in the <b>MIB_ANYCASTIPADDRESS_ROW</b> structure pointed to the <i>Row</i> parameter must be initialized:
     the <b>InterfaceLuid</b> or <b>InterfaceIndex</b>.
 
     The fields are used in the order listed above. So if the <b>InterfaceLuid</b> is specified, then this member is used to determine the interface. If no value was set for the  <b>InterfaceLuid</b> member (the values of this member was set to zero), then the <b>InterfaceIndex</b> member is next used to determine the interface. 
@@ -186,11 +186,11 @@ The <b>DeleteAnycastIpAddressEntry</b> function can only be called by a user log
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_anycastipaddress_row">MIB_ANYCASTIPADDRESS_ROW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_anycastipaddress_row">MIB_ANYCASTIPADDRESS_ROW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_anycastipaddress_table">MIB_ANYCASTIPADDRESS_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_anycastipaddress_table">MIB_ANYCASTIPADDRESS_TABLE</a>
  
 
  

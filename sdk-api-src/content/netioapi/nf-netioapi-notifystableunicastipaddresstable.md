@@ -115,7 +115,7 @@ The Internet Protocol version 6 (IPv6) address family. When this parameter is sp
 ### -param Table [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a> structure. When <b>NotifyStableUnicastIpAddressTable</b> is successful, this parameter returns the stable unicast IP address table on the local computer.  
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a> structure. When <b>NotifyStableUnicastIpAddressTable</b> is successful, this parameter returns the stable unicast IP address table on the local computer.  
 
 When <b>NotifyStableUnicastIpAddressTable</b> returns <b>ERROR_IO_PENDING</b> indicating that the I/O request is pending, then the  stable unicast IP address table is returned to the function in the <i>CallerCallback</i>  parameter.
 
@@ -210,9 +210,9 @@ Use
 
 The <b>NotifyStableUnicastIpAddressTable</b> function is defined on Windows Vista and later. 
 
-If the <b>NotifyStableUnicastIpAddressTable</b> function succeeds immediately, the return value is NO_ERROR and the stable unicast IP table is returned in the <i>Table</i> parameter.  The calling application should free the memory pointed to by the <i>Table</i> parameter using the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-freemibtable">FreeMibTable</a> function when the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a> information is no longer needed.
+If the <b>NotifyStableUnicastIpAddressTable</b> function succeeds immediately, the return value is NO_ERROR and the stable unicast IP table is returned in the <i>Table</i> parameter.  The calling application should free the memory pointed to by the <i>Table</i> parameter using the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-freemibtable">FreeMibTable</a> function when the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a> information is no longer needed.
 
-All unicast IP addresses except dial-on-demand addresses are considered stable only if they are in the preferred state.  For a normal unicast IP address entry, this would correspond to a DadState member of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> for the IP address set to <b>IpDadStatePreferred</b>. 
+All unicast IP addresses except dial-on-demand addresses are considered stable only if they are in the preferred state.  For a normal unicast IP address entry, this would correspond to a DadState member of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> for the IP address set to <b>IpDadStatePreferred</b>. 
 Every dial-on-demand address defines its own stability metric.  Currently the only dial-on-demand address considered by this function is the unicast IP address used by the Teredo client on the local computer. 
 
 The <i>Family</i> parameter must be set to either <b>AF_INET</b>, <b>AF_INET6</b>, or <b>AF_UNSPEC</b>. 
@@ -248,7 +248,7 @@ The <i>CallerContext</i> parameter passed to the <b>NotifyStableUnicastIpAddress
 
 </td>
 <td width="60%">
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a> containing the stable unicast IP address table on the local computer. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a> containing the stable unicast IP address table on the local computer. 
 
 </td>
 </tr>
@@ -259,7 +259,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/
 
 The callback function specified in the <i>CallerCallback</i> parameter must be implemented in the same process as the application calling the <b>NotifyStableUnicastIpAddressTable</b> function. If the callback function is in a separate DLL, then the DLL should be loaded before calling the <b>NotifyStableUnicastIpAddressTable</b> function to register for change notifications. 
 
-The memory pointed to by the <i>AddressTable</i> parameter used in a callback indication is alocated by the operating system. An application that receives a notification should free the memory pointed to by the <i>AddressTable</i> parameter using the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-freemibtable">FreeMibTable</a> function when the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a> information is no longer needed. 
+The memory pointed to by the <i>AddressTable</i> parameter used in a callback indication is alocated by the operating system. An application that receives a notification should free the memory pointed to by the <i>AddressTable</i> parameter using the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-freemibtable">FreeMibTable</a> function when the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a> information is no longer needed. 
 
 Once the <b>NotifyStableUnicastIpAddressTable</b> function is called to register for change notifications, these notifications will continue to be sent until the application deregisters for change notifications or the application terminates. If the application terminates, the system will automatically deregister any registration for change notifications. It is still recommended that an application explicitly deregister any change notifications before it terminates.  
 
@@ -317,11 +317,11 @@ An application cannot make a call to the <a href="https://docs.microsoft.com/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a>
 
 
 
