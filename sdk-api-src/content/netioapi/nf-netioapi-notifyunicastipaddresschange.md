@@ -227,7 +227,7 @@ The <i>CallerContext</i> parameter passed to the <b>NotifyUnicastIpAddressChange
 
 </td>
 <td width="60%">
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> entry for the  unicast IP address that was changed. This parameter is a <b>NULL</b> pointer when the <b>MIB_NOTIFICATION_TYPE</b> value passed in the <i>NotificationType</i> parameter to the callback function is set to <b>MibInitialNotification</b>. This can only occur if the <i>InitialNotification</i> parameter passed to <b>NotifyUnicastIpAddressChange</b> was set to <b>TRUE</b> when registering for notifications.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> entry for the  unicast IP address that was changed. This parameter is a <b>NULL</b> pointer when the <b>MIB_NOTIFICATION_TYPE</b> value passed in the <i>NotificationType</i> parameter to the callback function is set to <b>MibInitialNotification</b>. This can only occur if the <i>InitialNotification</i> parameter passed to <b>NotifyUnicastIpAddressChange</b> was set to <b>TRUE</b> when registering for notifications.
 
 </td>
 </tr>
@@ -248,7 +248,7 @@ The notification type. This member can be one of the values from the <a href="ht
 
 The callback function specified in the <i>Callback</i> parameter must be implemented in the same process as the application calling the <b>NotifyUnicastIpAddressChange</b> function. If the callback function is in a separate DLL, then the DLL should be loaded before calling the <b>NotifyUnicastIpAddressChange</b> function to register for change notifications. 
 
-When the callback function is received when a change occurs and the <i>Row</i> parameter is not <b>NULL</b>, the pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure passed in the <i>Row</i> parameter contains incomplete data. The  information returned in the <b>MIB_UNICASTIPADDRESS_ROW</b> structure is only enough information that an application can call the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddressentry">GetUnicastIpAddressEntry</a> function to query complete information on the IP address that changed. When the callback function is received, an application should allocate a <b>MIB_UNICASTIPADDRESS_ROW</b> structure and initialize it with the <b>Address</b>,  <b>InterfaceLuid</b> and <b>InterfaceIndex</b> members in the <b>MIB_UNICASTIPADDRESS_ROW</b> structure pointed to by the <i>Row</i> parameter received. A pointer to this newly initialized <b>MIB_UNICASTIPADDRESS_ROW</b> structure should be passed to the <b>GetUnicastIpAddressEntry</b> function to retrieve complete information on the unicast IP address that was changed. 
+When the callback function is received when a change occurs and the <i>Row</i> parameter is not <b>NULL</b>, the pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure passed in the <i>Row</i> parameter contains incomplete data. The  information returned in the <b>MIB_UNICASTIPADDRESS_ROW</b> structure is only enough information that an application can call the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddressentry">GetUnicastIpAddressEntry</a> function to query complete information on the IP address that changed. When the callback function is received, an application should allocate a <b>MIB_UNICASTIPADDRESS_ROW</b> structure and initialize it with the <b>Address</b>,  <b>InterfaceLuid</b> and <b>InterfaceIndex</b> members in the <b>MIB_UNICASTIPADDRESS_ROW</b> structure pointed to by the <i>Row</i> parameter received. A pointer to this newly initialized <b>MIB_UNICASTIPADDRESS_ROW</b> structure should be passed to the <b>GetUnicastIpAddressEntry</b> function to retrieve complete information on the unicast IP address that was changed. 
 
 The memory pointed to by the <i>Row</i> parameter used in the callback indications is managed by the operating system.  An application that receives a notification should never attempt to free the memory pointed to by the <i>Row</i> parameter. 
 
@@ -300,11 +300,11 @@ An application cannot make a call to the <a href="https://docs.microsoft.com/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a>
 
 
 

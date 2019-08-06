@@ -63,7 +63,7 @@ The
 ### -param Row [out]
 
 On entry, a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure entry for a unicast IP address entry. On return, the  <b>MIB_UNICASTIPADDRESS_ROW</b> structure pointed to by this parameter is initialized with default values for a unicast IP address.
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure entry for a unicast IP address entry. On return, the  <b>MIB_UNICASTIPADDRESS_ROW</b> structure pointed to by this parameter is initialized with default values for a unicast IP address.
 
 
 ## -returns
@@ -82,14 +82,14 @@ This function does not return a value.
 The <b>InitializeUnicastIpAddressEntry</b> function is defined on Windows Vista and later. 
 
 The <b>InitializeUnicastIpAddressEntry</b> function must be used to initialize the members of a
-    <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure entry with default values for a unicast IP address for later use with the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createunicastipaddressentry">CreateUnicastIpAddressEntry</a> function.  
+    <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure entry with default values for a unicast IP address for later use with the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createunicastipaddressentry">CreateUnicastIpAddressEntry</a> function.  
 
-On input, <b>InitializeUnicastIpAddressEntry</b> must be passed a new <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure to initialize. 
+On input, <b>InitializeUnicastIpAddressEntry</b> must be passed a new <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure to initialize. 
 
-On output, the <b>PrefixOrigin</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure pointed to by <i>Row</i> parameter the will be initialized to <b>IpPrefixOriginUnchanged</b>, the <b>SuffixOrigin</b> member will be initialized to <b>IpSuffixOriginUnchanged</b>, and the  <b>OnLinkPrefixLength</b> member will be initialized to an illegal value. In addition, the <b>PreferredLifetime</b> and <b>ValidLifetime</b> members are set to infinite, the <b>SkipAsSource</b> member is set to <b>FALSE</b>, and other fields are initialized to zero. 
+On output, the <b>PrefixOrigin</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure pointed to by <i>Row</i> parameter the will be initialized to <b>IpPrefixOriginUnchanged</b>, the <b>SuffixOrigin</b> member will be initialized to <b>IpSuffixOriginUnchanged</b>, and the  <b>OnLinkPrefixLength</b> member will be initialized to an illegal value. In addition, the <b>PreferredLifetime</b> and <b>ValidLifetime</b> members are set to infinite, the <b>SkipAsSource</b> member is set to <b>FALSE</b>, and other fields are initialized to zero. 
 
 After calling <b>InitializeUnicastIpAddressEntry</b>, an application can then change the
-    members in the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> entry it wishes to modify, and then call the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createunicastipaddressentry">CreateUnicastIpAddressEntry</a>  to add the new unicast IP address to the local computer.
+    members in the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> entry it wishes to modify, and then call the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createunicastipaddressentry">CreateUnicastIpAddressEntry</a>  to add the new unicast IP address to the local computer.
 
 
 
@@ -119,11 +119,11 @@ After calling <b>InitializeUnicastIpAddressEntry</b>, an application can then ch
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a>
 
 
 

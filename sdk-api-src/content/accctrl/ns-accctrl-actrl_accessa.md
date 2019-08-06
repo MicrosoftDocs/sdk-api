@@ -68,7 +68,7 @@ The number of entries in the <b>pPropertyAccessList</b> array.
 
 ### -field pPropertyAccessList
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_actrl_property_entrya">ACTRL_PROPERTY_ENTRY</a> structures. Each structure contains a list of access-control entries for an object or a specified property on the object.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-actrl_property_entrya">ACTRL_PROPERTY_ENTRY</a> structures. Each structure contains a list of access-control entries for an object or a specified property on the object.
 
 
 ### -field pPropertyAccessList.size_is

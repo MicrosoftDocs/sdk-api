@@ -64,7 +64,7 @@ The
 
 Type: <b>IPV6_ADDRESS_EX</b>
 
-The replying IPv6 address, in the form of an <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-_ipv6_address_ex">IPV6_ADDRESS_EX</a> structure.
+The replying IPv6 address, in the form of an <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-ipv6_address_ex">IPV6_ADDRESS_EX</a> structure.
 
 
 ### -field Status
@@ -419,7 +419,7 @@ This structure is defined in the <i>Ipexport.h</i> header file which is automati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-_ipv6_address_ex">IPV6_ADDRESS_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-ipv6_address_ex">IPV6_ADDRESS_EX</a>
 
 
 

@@ -87,7 +87,7 @@ A set of options that affect how IP addresses are sorted. This parameter is not 
 
 ### -param BestRoute [out]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> for the best route from the source IP address to the destination IP address.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> for the best route from the source IP address to the destination IP address.
 
 
 ### -param BestSourceAddress [out]
@@ -165,14 +165,14 @@ Use
 
 The <b>GetBestRoute2</b> function is defined on Windows Vista and later. 
 
-The <b>GetBestRoute2</b> function is used to retrieve a <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> structure entry for the best route from a source IP address to a destination IP address.  
+The <b>GetBestRoute2</b> function is used to retrieve a <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> structure entry for the best route from a source IP address to a destination IP address.  
 
 On input, the <i>DestinationAddress</i> parameter must be initialized to a valid IPv4 or IPv6 address and family. On input, the <i>SourceAddress</i> parameter may be initialized to the preferred IPv4 or IPv6 address and family. In addition, at least one of the following parameters must be initialized:
     the <i>InterfaceLuid</i> or <i>InterfaceIndex</i>.
 
     The parameters are used in the order listed above. So if the <i>InterfaceLuid</i> is specified, then this member is used to determine the interface. If no value was set for the  <i>InterfaceLuid</i> member (the values of this member was set to zero), then the <i>InterfaceIndex</i> member is next used to determine the interface. 
 
-On output when the call is successful, <b>GetBestRoute2</b> retrieves and <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> structure for the best route from the source IP address the destination IP address. 
+On output when the call is successful, <b>GetBestRoute2</b> retrieves and <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> structure for the best route from the source IP address the destination IP address. 
 
 
 
@@ -202,11 +202,11 @@ On output when the call is successful, <b>GetBestRoute2</b> retrieves and <a hre
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipforward_row2">MIB_IPFORWARD_ROW2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipforward_row2">MIB_IPFORWARD_ROW2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipforward_table2">MIB_IPFORWARD_TABLE2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipforward_table2">MIB_IPFORWARD_TABLE2</a>
 
 
 

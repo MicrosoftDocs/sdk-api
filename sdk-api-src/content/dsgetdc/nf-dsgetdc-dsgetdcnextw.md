@@ -74,7 +74,7 @@ Pointer to a <b>ULONG</b> value that receives the number of elements in the <i>S
 
 ### -param SockAddresses [out, optional]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_socket_address">SOCKET_ADDRESS</a> structures that receives the socket address data for the domain controller. <i>SockAddressCount</i> receives the number of elements in this array.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a> structures that receives the socket address data for the domain controller. <i>SockAddressCount</i> receives the number of elements in this array.
 
 All returned addresses will be of type <b>AF_INET</b> or <b>AF_INET6</b>.
         The <b>sin_port</b> member contains the port from the server record.
@@ -149,7 +149,7 @@ The following procedure shows how to get a complete DC list from a computer runn
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_socket_address">SOCKET_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a>
  
 
  

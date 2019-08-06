@@ -134,7 +134,7 @@ The members of this structure are not defined in the IETF RFC on the TCP Extende
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nldef/ns-nldef-_nl_bandwidth_information">NL_BANDWIDTH_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nldef/ns-nldef-nl_bandwidth_information">NL_BANDWIDTH_INFORMATION</a>
 
 
 

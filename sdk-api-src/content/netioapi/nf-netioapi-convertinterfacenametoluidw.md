@@ -67,7 +67,7 @@ A pointer to a <b>NULL</b>-terminated Unicode string containing the network inte
 
 ### -param InterfaceLuid [out]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-_net_luid_lh">NET_LUID</a> for this interface.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> for this interface.
 
 
 ## -returns
@@ -167,7 +167,7 @@ The maximum length of an interface name, <b>NDIS_IF_MAX_STRING_SIZE</b>, without
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-_net_luid_lh">NET_LUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
 
 
 

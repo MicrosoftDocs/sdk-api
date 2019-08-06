@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>TRUSTEE_TYPE</b> enumeration contains values that indicate the type of trustee identified by a 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure.
 
 
 ## -enum-fields
@@ -119,7 +119,7 @@ Indicates a computer.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>
  
 
  

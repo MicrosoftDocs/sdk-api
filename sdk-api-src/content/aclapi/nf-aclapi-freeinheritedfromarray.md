@@ -62,7 +62,7 @@ The <b>FreeInheritedFromArray</b> function frees memory allocated by the
 
 ### -param pInheritArray [in]
 
-A pointer to the array of <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_inherited_froma">INHERITED_FROM</a> structures returned by <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getinheritancesourcea">GetInheritanceSource</a>.
+A pointer to the array of <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-inherited_froma">INHERITED_FROM</a> structures returned by <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getinheritancesourcea">GetInheritanceSource</a>.
 
 
 ### -param AceCnt [in]

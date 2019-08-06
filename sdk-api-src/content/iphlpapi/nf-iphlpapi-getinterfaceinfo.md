@@ -63,13 +63,13 @@ The
 ### -param pIfTable [out]
 
 A pointer to a buffer that specifies an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-_ip_interface_info">IP_INTERFACE_INFO</a> structure that receives the list of adapters. This buffer must be allocated by the caller.
+<a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-ip_interface_info">IP_INTERFACE_INFO</a> structure that receives the list of adapters. This buffer must be allocated by the caller.
 
 
 ### -param dwOutBufLen [in, out]
 
 A pointer to a <b>DWORD</b> variable that specifies the size of the 
-buffer pointed to by <i>pIfTable</i> parameter to receive the <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-_ip_interface_info">IP_INTERFACE_INFO</a> structure. If this size is insufficient to hold the IPv4 interface information, 
+buffer pointed to by <i>pIfTable</i> parameter to receive the <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-ip_interface_info">IP_INTERFACE_INFO</a> structure. If this size is insufficient to hold the IPv4 interface information, 
 <b>GetInterfaceInfo</b> fills in this variable with the required size, and returns an error code of <b>ERROR_INSUFFICIENT_BUFFER</b>.
 
 
@@ -153,7 +153,7 @@ Use
 
 
 The 
-<b>GetInterfaceInfo</b> function is specific to network adapters with IPv4 enabled. The function returns an <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-_ip_interface_info">IP_INTERFACE_INFO</a> structure pointed to by the <i>pIfTable</i> parameter that contains the number of network adapters with IPv4 enabled on the local system and an array of <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-_ip_adapter_index_map">IP_ADAPTER_INDEX_MAP</a> structures with information on each network adapter with IPv4 enabled. The <b>IP_INTERFACE_INFO</b> structure returned by <b>GetInterfaceInfo</b> contains at least one <b>IP_ADAPTER_INDEX_MAP</b> structure even if the <b>NumAdapters</b> member of the <b>IP_INTERFACE_INFO</b> structure indicates that no network adapters with IPv4 are enabled. When the <b>NumAdapters</b> member of the <b>IP_INTERFACE_INFO</b> structure returned by <b>GetInterfaceInfo</b> is zero, the value of the members of the single  <b>IP_ADAPTER_INDEX_MAP</b> structure returned in the <b>IP_INTERFACE_INFO</b> structure is undefined. 
+<b>GetInterfaceInfo</b> function is specific to network adapters with IPv4 enabled. The function returns an <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-ip_interface_info">IP_INTERFACE_INFO</a> structure pointed to by the <i>pIfTable</i> parameter that contains the number of network adapters with IPv4 enabled on the local system and an array of <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-ip_adapter_index_map">IP_ADAPTER_INDEX_MAP</a> structures with information on each network adapter with IPv4 enabled. The <b>IP_INTERFACE_INFO</b> structure returned by <b>GetInterfaceInfo</b> contains at least one <b>IP_ADAPTER_INDEX_MAP</b> structure even if the <b>NumAdapters</b> member of the <b>IP_INTERFACE_INFO</b> structure indicates that no network adapters with IPv4 are enabled. When the <b>NumAdapters</b> member of the <b>IP_INTERFACE_INFO</b> structure returned by <b>GetInterfaceInfo</b> is zero, the value of the members of the single  <b>IP_ADAPTER_INDEX_MAP</b> structure returned in the <b>IP_INTERFACE_INFO</b> structure is undefined. 
 
 If the  <b>GetInterfaceInfo</b> function is called with too small a buffer to retrieve the IPv4 interface information  (the  <i>dwOutBufLen</i> parameter indicates that the buffer pointed to by the <i>pIfTable</i> parameter is too small), the function returns  <b>ERROR_INSUFFICIENT_BUFFER</b>. The required size is returned in the <b>DWORD</b> variable pointed to by the <i>dwOutBufLen</i> parameter.
 
@@ -163,7 +163,7 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersinfo">GetAdaptersInfo</a> and 
 <b>GetInterfaceInfo</b> functions do not return information about the loopback interface. Information on the loopback interface is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipaddrtable">GetIpAddrTable</a> function.
 
-On Windows Vista and later, the <b>Name</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-_ip_adapter_index_map">IP_ADAPTER_INDEX_MAP</a> structure returned in the <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-_ip_interface_info">IP_INTERFACE_INFO</a> structure may be a Unicode string of the GUID for the network interface (the string begins with the '{' character). 
+On Windows Vista and later, the <b>Name</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-ip_adapter_index_map">IP_ADAPTER_INDEX_MAP</a> structure returned in the <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-ip_interface_info">IP_INTERFACE_INFO</a> structure may be a Unicode string of the GUID for the network interface (the string begins with the '{' character). 
 
 
 #### Examples
@@ -264,11 +264,11 @@ int main()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-_ip_adapter_index_map">IP_ADAPTER_INDEX_MAP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-ip_adapter_index_map">IP_ADAPTER_INDEX_MAP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-_ip_interface_info">IP_INTERFACE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-ip_interface_info">IP_INTERFACE_INFO</a>
  
 
  

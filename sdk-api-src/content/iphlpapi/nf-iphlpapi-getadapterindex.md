@@ -112,7 +112,7 @@ When one or more adapters are present on the system, <b>GetAdapterIndex</b>  ret
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-_ip_adapter_info">IP_ADAPTER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_info">IP_ADAPTER_INFO</a>
 
 
 

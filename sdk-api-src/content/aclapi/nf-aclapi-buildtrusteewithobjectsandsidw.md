@@ -57,7 +57,7 @@ ms.custom: 19H1
 
 
 The <b>BuildTrusteeWithObjectsAndSid</b> function initializes a 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure with the object-specific <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) information and initializes the remaining members of the structure to default values. The caller also specifies the 
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure with the object-specific <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) information and initializes the remaining members of the structure to default values. The caller also specifies the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure that represents the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> of the trustee.
 
 
@@ -69,24 +69,24 @@ The <b>BuildTrusteeWithObjectsAndSid</b> function initializes a
 ### -param pTrustee [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure to initialize. The <b>BuildTrusteeWithObjectsAndSid</b> function does not allocate any memory. If this parameter is <b>NULL</b> or a pointer that is not valid, the results are undefined.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure to initialize. The <b>BuildTrusteeWithObjectsAndSid</b> function does not allocate any memory. If this parameter is <b>NULL</b> or a pointer that is not valid, the results are undefined.
 
 
 ### -param pObjSid [in, optional]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_objects_and_sid">OBJECTS_AND_SID</a> structure that contains information about the trustee and the securable object.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-objects_and_sid">OBJECTS_AND_SID</a> structure that contains information about the trustee and the securable object.
 
 
 ### -param pObjectGuid [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that describes the ObjectType GUID to be added to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure.
 
 
 ### -param pInheritedObjectGuid [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that describes the InheritedObjectType GUID to be added to the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that describes the InheritedObjectType GUID to be added to the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure.
 
 
 ### -param pSid [in, optional]
@@ -109,8 +109,8 @@ This function does not return a value.
 
 
 This function does not allocate memory for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_objects_and_sid">OBJECTS_AND_SID</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-objects_and_sid">OBJECTS_AND_SID</a> structures.
 
 For more information about object-specific ACEs, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/object-specific-aces">Object-specific ACEs</a>.
@@ -143,7 +143,7 @@ For more information about object-specific ACEs, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_objects_and_name_a">OBJECTS_AND_NAME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-objects_and_name_a">OBJECTS_AND_NAME</a>
 
 
 
@@ -159,7 +159,7 @@ For more information about object-specific ACEs, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>
  
 
  

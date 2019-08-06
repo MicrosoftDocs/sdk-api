@@ -115,7 +115,7 @@ The Internet Protocol version 6 (IPv6) address family.
 
 ### -field InterfaceLuid
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-_net_luid_lh">NET_LUID</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a></b>
 
 The locally unique identifier (LUID) for the network interface.
 
@@ -397,7 +397,7 @@ A value of 255 is commonly used to represent an illegal value.
 
 Type: <b>ULONG</b>
 
-The interface metric. Note the actual route metric used to compute the route preference is the summation of the route metric offset specified in the <b>Metric</b> member of the  <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> structure and the interface metric specified in this member.
+The interface metric. Note the actual route metric used to compute the route preference is the summation of the route metric offset specified in the <b>Metric</b> member of the  <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> structure and the interface metric specified in this member.
 
 
 ### -field NlMtu
@@ -446,14 +446,14 @@ The reachable timeout, in milliseconds.
 
 Type: <b>NL_INTERFACE_OFFLOAD_ROD</b>
 
-A set of flags that indicate the transmit offload capabilities for the IP interface. The <a href="https://docs.microsoft.com/windows/desktop/api/nldef/ns-nldef-_nl_interface_offload_rod">NL_INTERFACE_OFFLOAD_ROD</a> structure is defined in the <i>Nldef.h</i> header file.
+A set of flags that indicate the transmit offload capabilities for the IP interface. The <a href="https://docs.microsoft.com/windows/desktop/api/nldef/ns-nldef-nl_interface_offload_rod">NL_INTERFACE_OFFLOAD_ROD</a> structure is defined in the <i>Nldef.h</i> header file.
 
 
 ### -field ReceiveOffload
 
 Type: <b>NL_INTERFACE_OFFLOAD_ROD</b>
 
-A set of flags that indicate the receive offload capabilities for the IP interface. The <a href="https://docs.microsoft.com/windows/desktop/api/nldef/ns-nldef-_nl_interface_offload_rod">NL_INTERFACE_OFFLOAD_ROD</a> structure is defined in the <i>Nldef.h</i> header file.
+A set of flags that indicate the receive offload capabilities for the IP interface. The <a href="https://docs.microsoft.com/windows/desktop/api/nldef/ns-nldef-nl_interface_offload_rod">NL_INTERFACE_OFFLOAD_ROD</a> structure is defined in the <i>Nldef.h</i> header file.
 
 
 ### -field DisableDefaultRoutes
@@ -487,7 +487,7 @@ A metric is a value that is assigned to an IP route for a particular network int
 The automatic metric feature can be useful when the routing table contains multiple routes for the same destination. For example, a computer with a 10 megabit network interface and a 100 megabit network interface has a default gateway that is configured on both network interfaces. When <b>UseAutomaticMetric</b> is <b>TRUE</b>, this feature can force all of the traffic that is destined for the Internet, for example, to use the fastest network interface that is available.
 
 
-The interface metric specified in the <b>Metric</b> member represents just the metric for the interface. The complete routing metric is a combination of this interface metric  added to the route metric offset specified in the <b>Metric</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> structure of a route entry specified on this interface.  
+The interface metric specified in the <b>Metric</b> member represents just the metric for the interface. The complete routing metric is a combination of this interface metric  added to the route metric offset specified in the <b>Metric</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> structure of a route entry specified on this interface.  
 
 Unprivileged simultaneous access to multiple networks of different security requirements creates a security hole and allows an unprivileged application to accidentally relay data between the two networks. A typical example is simultaneous access to a virtual private network (VPN) and the internet. Windows Server 2003 and Windows XP use a weak host model, where RAS prevents such simultaneous access by increasing the route metric of all default routes over other interfaces. Thus all traffic is routed through the VPN interface, disrupting other network connectivity. 
 
@@ -498,7 +498,7 @@ Note that the <i>Netioapi.h</i> header file is automatically included in the <i>
 
 #### Examples
 
-To view an example that retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipinterface_table">MIB_IPINTERFACE_TABLE</a> structure and then prints out a few members of the <b>MIB_IPINTERFACE_ROW</b> structure entries in this table, see the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipinterfacetable">GetIpInterfaceTable</a> function.
+To view an example that retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_table">MIB_IPINTERFACE_TABLE</a> structure and then prints out a few members of the <b>MIB_IPINTERFACE_ROW</b> structure entries in this table, see the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipinterfacetable">GetIpInterfaceTable</a> function.
 
 <div class="code"></div>
 
@@ -525,19 +525,19 @@ To view an example that retrieves the <a href="https://docs.microsoft.com/window
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipforward_row2">MIB_IPFORWARD_ROW2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipforward_row2">MIB_IPFORWARD_ROW2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipinterface_table">MIB_IPINTERFACE_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_table">MIB_IPINTERFACE_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-_net_luid_lh">NET_LUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nldef/ns-nldef-_nl_interface_offload_rod">NL_INTERFACE_OFFLOAD_ROD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nldef/ns-nldef-nl_interface_offload_rod">NL_INTERFACE_OFFLOAD_ROD</a>
 
 
 

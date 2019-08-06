@@ -87,7 +87,7 @@ Reserved. Use the <b>DnsServerList</b> member to obtain the DNS servers for the 
 Type: <b>IP_ADDR_STRING</b>
 
 A linked list of 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-_ip_addr_string">IP_ADDR_STRING</a> structures that specify the set of DNS servers used by the local computer.
+<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_addr_string">IP_ADDR_STRING</a> structures that specify the set of DNS servers used by the local computer.
 
 
 ### -field NodeType
@@ -335,7 +335,7 @@ int __cdecl main()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-_ip_addr_string">IP_ADDR_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_addr_string">IP_ADDR_STRING</a>
  
 
  

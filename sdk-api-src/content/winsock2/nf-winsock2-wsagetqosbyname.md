@@ -148,10 +148,10 @@ The <i>lpQOSName</i> or <i>lpQOS</i> parameter are not a valid part of the user 
 The 
 <b>WSAGetQOSByName</b> function is used by applications to initialize a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a> structure to a set of known values appropriate for a particular service class or media type. These values are stored in a template that is referenced by a well-known name. The client may retrieve these values by setting the <i>buf</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsabuf">WSABUF</a> structure indicated by <i>lpQOSName</i>, which points to a string of nonzero length specifying a template name. In this case, the usage of <i>lpQOSName</i> is IN only, and results are returned through <i>lpQOS</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structure indicated by <i>lpQOSName</i>, which points to a string of nonzero length specifying a template name. In this case, the usage of <i>lpQOSName</i> is IN only, and results are returned through <i>lpQOS</i>.
 
 Alternatively, the client may use this function to retrieve an enumeration of available template names. The client may do this by setting the <i>buf</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsabuf">WSABUF</a> indicated by <i>lpQOSName</i> to a zero-length null-terminated string. In this case the buffer indicated by <i>buf</i> is overwritten with a sequence of as many available, null-terminated template names up to the number of bytes available in <i>buf</i> as indicated by the <i>len</i> parameter of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> indicated by <i>lpQOSName</i> to a zero-length null-terminated string. In this case the buffer indicated by <i>buf</i> is overwritten with a sequence of as many available, null-terminated template names up to the number of bytes available in <i>buf</i> as indicated by the <i>len</i> parameter of the 
 <b>WSABUF</b> indicated by <i>lpQOSName</i>. The list of names itself is terminated by a zero-length name. When the 
 <b>WSAGetQOSByName</b> function is used to retrieve template names, the <i>lpQOS</i> parameter is ignored.
 

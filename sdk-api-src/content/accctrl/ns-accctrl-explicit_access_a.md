@@ -193,7 +193,7 @@ Noncontainer objects contained by the primary object inherit the ACE. This flag 
 
 ### -field Trustee
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure that identifies the user, group, or program (such as a Windows service) to which the ACE applies.
+A <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure that identifies the user, group, or program (such as a Windows service) to which the ACE applies.
 
 
 ## -see-also
@@ -241,7 +241,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_tr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>
  
 
  

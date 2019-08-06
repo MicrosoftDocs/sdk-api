@@ -68,7 +68,7 @@ A character string that represents an IPv4 address or an IPv4 subnet mask in dot
 
 
 
-The <b>IP_ADDRESS_STRING</b> structure is used as  a parameter in  the  <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-_ip_addr_string">IP_ADDR_STRING</a> structure.
+The <b>IP_ADDRESS_STRING</b> structure is used as  a parameter in  the  <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_addr_string">IP_ADDR_STRING</a> structure.
 
 
 
@@ -86,7 +86,7 @@ The <b>IP_ADDRESS_STRING</b> structure is used as  a parameter in  the  <a href=
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-_ip_addr_string">IP_ADDR_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_addr_string">IP_ADDR_STRING</a>
  
 
  

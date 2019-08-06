@@ -79,7 +79,7 @@ A descriptor that identifies an unbound and unconnected socket. Note that unlike
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385467(v=vs.85)">SOCKET_ADDRESS_LIST</a> 
       structure that represents the possible destination address and port pairs to connect to a peer. It is the 
       application's responsibility to fill in the port number in the each 
-      <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_socket_address">SOCKET_ADDRESS</a> structure in the 
+      <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a> structure in the 
       <b>SOCKET_ADDRESS_LIST</b>.
 
 
@@ -277,7 +277,7 @@ To enable both IPv6 and IPv4 addresses to be passed in the single address list a
 
 
 The arrays of pointers passed in the <i>SocketAddressList</i> parameter point to an array of 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_socket_address">SOCKET_ADDRESS</a>  structures, which are a generic 
+     <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a>  structures, which are a generic 
      data type. The <i>RemoteAddress</i> and the <i>LocalAddress</i> 
      parameters also point to <b>SOCKADDR</b>  structures. When 
      <b>WSAConnectByList</b> is called, it is expected that 
@@ -402,7 +402,7 @@ OpenAndConnect(SOCKET_ADDRESS_LIST *AddressList)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_socket_address">SOCKET_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a>
 
 
 

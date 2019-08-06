@@ -196,7 +196,7 @@ For more information, please see the documentation on <a href="https://docs.micr
 
 On  Windows Server 2003, Windows XP, and Windows 2000, if the IPv4 address in the <i>Address</i> parameter already exists on the network, the <b>AddIPAddress</b> function returns <b>NO_ERROR</b> and  the IPv4 address added is 0.0.0.0. 
 
-On  Windows Vista and later, if the IPv4 address passed in the <i>Address</i> parameter already exists on the network, the <b>AddIPAddress</b> function returns <b>NO_ERROR</b> and  the duplicate IPv4 address is added with the <b>IP_DAD_STATE</b> member in  the <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-_ip_adapter_unicast_address_lh">IP_ADAPTER_UNICAST_ADDRESS</a> structure set to <b>IpDadStateDuplicate</b>. 
+On  Windows Vista and later, if the IPv4 address passed in the <i>Address</i> parameter already exists on the network, the <b>AddIPAddress</b> function returns <b>NO_ERROR</b> and  the duplicate IPv4 address is added with the <b>IP_DAD_STATE</b> member in  the <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_unicast_address_lh">IP_ADAPTER_UNICAST_ADDRESS</a> structure set to <b>IpDadStateDuplicate</b>. 
 
 An IPv4 address that is added using the <b>AddIPAddress</b> function can later be deleted by calling the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deleteipaddress">DeleteIPAddress</a> function  passing the  <i>NTEContext</i> parameter returned by the <b>AddIPAddress</b> function.
 

@@ -71,7 +71,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns
 
 ### -param ppInheritArray [out]
 
-A pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_inherited_froma">INHERITED_FROM</a> structure that receives an array of <b>INHERITED_FROM</b> structures. The length of this array is the same as the number of <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACEs</a> in the ACL referenced by <i>pACL</i>. Each <b>INHERITED_FROM</b> entry in <i>ppInheritArray</i> provides inheritance information for the corresponding <b>ACE</b> entry in <i>pACL</i>.
+A pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-inherited_froma">INHERITED_FROM</a> structure that receives an array of <b>INHERITED_FROM</b> structures. The length of this array is the same as the number of <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACEs</a> in the ACL referenced by <i>pACL</i>. Each <b>INHERITED_FROM</b> entry in <i>ppInheritArray</i> provides inheritance information for the corresponding <b>ACE</b> entry in <i>pACL</i>.
 
 
 ## -returns

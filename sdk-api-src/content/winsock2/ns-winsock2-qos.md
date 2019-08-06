@@ -75,7 +75,7 @@ Specifies QOS parameters for the receiving direction of a particular flow. Recei
 ### -field ProviderSpecific
 
 Pointer to a structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsabuf">WSABUF</a> that can provide additional provider-specific quality of service parameters to the RSVP SP for a given flow.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> that can provide additional provider-specific quality of service parameters to the RSVP SP for a given flow.
 
 
 ## -remarks

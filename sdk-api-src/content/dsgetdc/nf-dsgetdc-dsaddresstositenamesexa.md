@@ -74,7 +74,7 @@ Contains the number of elements in the <i>SocketAddresses</i> array.
 
 ### -param SocketAddresses [in]
 
-Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_socket_address">SOCKET_ADDRESS</a> structures that contain the addresses to convert. Each address in this array must be of the type <b>AF_INET</b>. <i>EntryCount</i> contains the number of elements in this array.
+Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a> structures that contain the addresses to convert. Each address in this array must be of the type <b>AF_INET</b>. <i>EntryCount</i> contains the number of elements in this array.
 
 
 ### -param SiteNames [out]

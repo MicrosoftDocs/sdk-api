@@ -69,7 +69,7 @@ The <b>BuildSecurityDescriptor</b> function creates a <a href="https://docs.micr
 ### -param pOwner [in, optional]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure that identifies the owner for the new security descriptor. If the structure uses the TRUSTEE_IS_NAME form, <b>BuildSecurityDescriptor</b> looks up the 
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure that identifies the owner for the new security descriptor. If the structure uses the TRUSTEE_IS_NAME form, <b>BuildSecurityDescriptor</b> looks up the 
 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) associated with the specified trustee name. 
 
 
@@ -80,7 +80,7 @@ If this parameter is <b>NULL</b>, the function uses the owner SID from the origi
 
 ### -param pGroup [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure that identifies the primary group SID for the new security descriptor. If the structure uses the TRUSTEE_IS_NAME form, <b>BuildSecurityDescriptor</b> looks up the SID associated with the specified trustee name. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure that identifies the primary group SID for the new security descriptor. If the structure uses the TRUSTEE_IS_NAME form, <b>BuildSecurityDescriptor</b> looks up the SID associated with the specified trustee name. 
 
 
 
@@ -91,13 +91,13 @@ If this parameter is <b>NULL</b>, the function uses the group SID from the origi
 ### -param cCountOfAccessEntries [in]
 
 The number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_explicit_access_a">EXPLICIT_ACCESS</a> structures in the <i>pListOfAccessEntries</i> array.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structures in the <i>pListOfAccessEntries</i> array.
 					
 
 
 ### -param pListOfAccessEntries [in, optional]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_explicit_access_a">EXPLICIT_ACCESS</a> structures that describe access control information for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) of the new security descriptor. The function creates the new DACL by merging the information in the array with the DACL in <i>pOldSD</i>, if any. If <i>pOldSD</i> is <b>NULL</b>, or if the DACL in <i>pOldSD</i> is <b>NULL</b>, the function creates a new DACL based solely on the information in the array. For a description of the rules for creating an 
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structures that describe access control information for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) of the new security descriptor. The function creates the new DACL by merging the information in the array with the DACL in <i>pOldSD</i>, if any. If <i>pOldSD</i> is <b>NULL</b>, or if the DACL in <i>pOldSD</i> is <b>NULL</b>, the function creates a new DACL based solely on the information in the array. For a description of the rules for creating an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> from an array of <b>EXPLICIT_ACCESS</b> structures, see the 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setentriesinacla">SetEntriesInAcl</a> function. 
 
@@ -110,13 +110,13 @@ If <i>pListOfAccessEntries</i> is <b>NULL</b>, the new security descriptor gets 
 ### -param cCountOfAuditEntries [in]
 
 The number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_explicit_access_a">EXPLICIT_ACCESS</a> structures in the <i>pListOfAuditEntries</i> array.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structures in the <i>pListOfAuditEntries</i> array.
 					
 
 
 ### -param pListOfAuditEntries [in, optional]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_explicit_access_a">EXPLICIT_ACCESS</a> structures that describe audit control information for the SACL of the new security descriptor. The function creates the new SACL by merging the information in the array with the SACL in <i>pOldSD</i>, if any. If <i>pOldSD</i> is <b>NULL</b>, or the SACL in <i>pOldSD</i> is <b>NULL</b>, the function creates a new SACL based solely on the information in the array. 
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structures that describe audit control information for the SACL of the new security descriptor. The function creates the new SACL by merging the information in the array with the SACL in <i>pOldSD</i>, if any. If <i>pOldSD</i> is <b>NULL</b>, or the SACL in <i>pOldSD</i> is <b>NULL</b>, the function creates a new SACL based solely on the information in the array. 
 
 
 
@@ -179,7 +179,7 @@ The <b>BuildSecurityDescriptor</b> function is intended for trusted servers that
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_explicit_access_a">EXPLICIT_ACCESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a>
 
 
 
@@ -199,7 +199,7 @@ The <b>BuildSecurityDescriptor</b> function is intended for trusted servers that
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>
  
 
  

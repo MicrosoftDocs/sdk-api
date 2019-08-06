@@ -229,7 +229,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-g
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_socket_address">SOCKET_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a>
 
 
 

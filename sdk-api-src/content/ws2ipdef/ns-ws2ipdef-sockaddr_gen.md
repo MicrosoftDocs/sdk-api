@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>sockaddr_gen</b> union provides generic socket address information, and is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-_interface_info">INTERFACE_INFO</a> structure.
+The <b>sockaddr_gen</b> union provides generic socket address information, and is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-interface_info">INTERFACE_INFO</a> structure.
 
 
 ## -struct-fields

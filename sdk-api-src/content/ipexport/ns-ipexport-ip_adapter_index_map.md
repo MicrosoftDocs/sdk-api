@@ -101,7 +101,7 @@ This structure is defined in the <i>Ipexport.h</i> header file which is automati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-_ip_interface_info">IP_INTERFACE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-ip_interface_info">IP_INTERFACE_INFO</a>
 
 
 
