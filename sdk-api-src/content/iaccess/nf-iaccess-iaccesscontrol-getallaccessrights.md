@@ -66,19 +66,19 @@ The name of the property. If you are using the COM implementation of <a href="ht
 
 ### -param ppAccessList [out]
 
-The address of the pointer variable that receives a pointer to the access list structure. This parameter cannot be <b>NULL</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_actrl_alista">ACTRL_ACCESS</a>.
+The address of the pointer variable that receives a pointer to the access list structure. This parameter cannot be <b>NULL</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-actrl_alista">ACTRL_ACCESS</a>.
 
 If the call succeeds, the caller must free the allocated memory with the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function. Note that the memory is allocate(all_nodes), which means that all the substructures are allocated in one block. Therefore, the entire data structure must be freed by a single call to <b>CoTaskMemFree</b>.
 
 
 ### -param ppOwner [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure that receives the owner information. If this parameter is not <b>NULL</b> and the function succeeds, the caller must free the memory with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure that receives the owner information. If this parameter is not <b>NULL</b> and the function succeeds, the caller must free the memory with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 
 ### -param ppGroup [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure that receives the group information. If this parameter is not <b>NULL</b> and the function succeeds, the caller must free the memory with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure that receives the group information. If this parameter is not <b>NULL</b> and the function succeeds, the caller must free the memory with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 
 ## -returns
@@ -95,7 +95,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_actrl_alista">ACTRL_ACCESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-actrl_alista">ACTRL_ACCESS</a>
 
 
 

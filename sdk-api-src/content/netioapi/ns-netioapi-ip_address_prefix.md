@@ -63,7 +63,7 @@ The <b>IP_ADDRESS_PREFIX</b> structure  stores an IP address prefix.
 
 The prefix or network part of IP the address represented as an IP address.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-_sockaddr_inet">SOCKADDR_INET</a> union is defined in the <i>Ws2ipdef.h</i> header. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-sockaddr_inet">SOCKADDR_INET</a> union is defined in the <i>Ws2ipdef.h</i> header. 
 
 
 ### -field PrefixLength
@@ -120,7 +120,7 @@ The <b>IP_ADDRESS_PREFIX</b> structure is the data type of the <b>DestinationPre
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-_sockaddr_inet">SOCKADDR_INET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-sockaddr_inet">SOCKADDR_INET</a>
 
 
 

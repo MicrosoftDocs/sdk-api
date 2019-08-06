@@ -153,11 +153,11 @@ The specified QOS template name is invalid.
 Clients can use 
 <i>WSPGetQOSByName</i> to initialize a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a> structure to a set of known values appropriate for a particular service class or media type. These values are stored in a template that is referenced by a well-known name. The client may retrieve these values by setting the <b>buf</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsabuf">WSABUF</a> indicated by <i>lpQOSName</i> to point to a Unicode string of nonzero length specifying a template name. In this case the usage of <i>lpQOSName</i> is IN only, and results are returned through <i>lpQOS</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> indicated by <i>lpQOSName</i> to point to a Unicode string of nonzero length specifying a template name. In this case the usage of <i>lpQOSName</i> is IN only, and results are returned through <i>lpQOS</i>.
 
 Alternatively, the client may use 
 <b>WSPGetQOSByName</b> to retrieve an enumeration of available template names. The client may do this by setting the <b>buf</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsabuf">WSABUF</a> indicated by <i>lpQOSName</i> to a zero-length null-terminated Unicode string. In this case, the buffer indicated by <b>buf</b> is overwritten with a sequence of as many null-terminated Unicode template name strings as are available up to the number of bytes available in <b>buf</b> as indicated by the <b>len</b> member of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> indicated by <i>lpQOSName</i> to a zero-length null-terminated Unicode string. In this case, the buffer indicated by <b>buf</b> is overwritten with a sequence of as many null-terminated Unicode template name strings as are available up to the number of bytes available in <b>buf</b> as indicated by the <b>len</b> member of the 
 <b>WSABUF</b> indicated by <i>lpQOSName</i>. The list of names itself is terminated by a zero-length Unicode name string. When 
 <b>WSPGetQOSByName</b> is used to retrieve template names, the <i>lpQOS</i> parameter is ignored.
 

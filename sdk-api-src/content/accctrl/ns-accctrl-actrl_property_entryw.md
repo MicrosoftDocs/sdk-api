@@ -69,7 +69,7 @@ The GUID of a property on an object. Use the <a href="https://docs.microsoft.com
 
 ### -field pAccessEntryList
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_actrl_access_entry_lista">ACTRL_ACCESS_ENTRY_LIST</a> structure that contains a list of access-control entries.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-actrl_access_entry_lista">ACTRL_ACCESS_ENTRY_LIST</a> structure that contains a list of access-control entries.
 
 
 ### -field fListFlags
@@ -106,7 +106,7 @@ To create an <b>ACTRL_PROPERTY_ENTRY</b> structure that grants everyone full acc
 
 
 
-To create an <b>ACTRL_PROPERTY_ENTRY</b> structure that denies all access to an object, set the <b>pAccessEntryList</b> member to point to an <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_actrl_access_entry_lista">ACTRL_ACCESS_ENTRY_LIST</a> structure whose <b>cEntries</b> member is 0 and <b>pAccessList</b> member is <b>NULL</b>. 
+To create an <b>ACTRL_PROPERTY_ENTRY</b> structure that denies all access to an object, set the <b>pAccessEntryList</b> member to point to an <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-actrl_access_entry_lista">ACTRL_ACCESS_ENTRY_LIST</a> structure whose <b>cEntries</b> member is 0 and <b>pAccessList</b> member is <b>NULL</b>. 
 
 
 
@@ -116,7 +116,7 @@ To create an <b>ACTRL_PROPERTY_ENTRY</b> structure that denies all access to an 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_actrl_access_entry_lista">ACTRL_ACCESS_ENTRY_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-actrl_access_entry_lista">ACTRL_ACCESS_ENTRY_LIST</a>
 
 
 

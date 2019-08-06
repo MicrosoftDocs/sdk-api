@@ -61,7 +61,7 @@ Determines whether the specified trustee has access rights to the object or prop
 
 ### -param pTrustee [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure. 
 
 
 ### -param lpProperty [in]

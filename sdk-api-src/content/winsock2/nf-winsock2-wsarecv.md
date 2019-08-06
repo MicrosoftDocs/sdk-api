@@ -68,14 +68,14 @@ A  descriptor identifying a connected socket.
 ### -param lpBuffers [in, out]
 
 A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsabuf">WSABUF</a> structures. Each 
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structures. Each 
 <b>WSABUF</b> structure contains a pointer to a buffer and the length, in bytes, of the buffer.
 
 
 ### -param dwBufferCount [in]
 
 The number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsabuf">WSABUF</a> structures in the <i>lpBuffers</i> array.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structures in the <i>lpBuffers</i> array.
 
 
 ### -param lpNumberOfBytesRecvd [out]
@@ -421,7 +421,7 @@ Whether or not a protocol is acting as byte stream is determined by the setting 
 The buffers are filled in the order in which they appear in the array pointed to by <i>lpBuffers</i>, and the buffers are packed so that no holes are created.
 
 If this function is completed in an overlapped manner, it is the Winsock service provider's responsibility to capture the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsabuf">WSABUF</a> structures before returning from this call. This enables applications to build stack-based 
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structures before returning from this call. This enables applications to build stack-based 
 <b>WSABUF</b> arrays pointed to by the <i>lpBuffers</i> parameter.
 
 For byte stream-style sockets (for example, type <b>SOCK_STREAM</b>), incoming data is placed into the buffers until the buffers are filled, the connection is closed, or the internally buffered data is exhausted. Regardless of whether or not the incoming data fills all the buffers, the completion indication occurs for overlapped sockets.
@@ -726,7 +726,7 @@ int __cdecl main(int argc, char **argv)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsabuf">WSABUF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a>
 
 
 

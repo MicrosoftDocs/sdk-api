@@ -61,5 +61,5 @@ The <b>TCPIP_OWNER_MODULE_INFO_CLASS</b> enumeration defines the type of module 
 
 ### -field TCPIP_OWNER_MODULE_INFO_BASIC
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-_tcpip_owner_module_basic_info">TCPIP_OWNER_MODULE_BASIC_INFO</a> structure is passed to the <b>GetOwnerModuleFromXXXEntry</b> function.
+A <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-tcpip_owner_module_basic_info">TCPIP_OWNER_MODULE_BASIC_INFO</a> structure is passed to the <b>GetOwnerModuleFromXXXEntry</b> function.
 

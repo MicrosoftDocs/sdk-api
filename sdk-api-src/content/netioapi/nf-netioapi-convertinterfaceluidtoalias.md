@@ -62,7 +62,7 @@ The
 
 ### -param InterfaceLuid [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-_net_luid_lh">NET_LUID</a> for a network interface.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> for a network interface.
 
 
 ### -param InterfaceAlias [out]
@@ -171,7 +171,7 @@ The maximum length of the alias name for a network interface, <b>NDIS_IF_MAX_STR
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-_net_luid_lh">NET_LUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
 
 
 

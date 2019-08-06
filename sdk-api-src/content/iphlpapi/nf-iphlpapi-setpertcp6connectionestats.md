@@ -84,7 +84,7 @@ This parameter can be one of the values from the <a href="https://docs.microsoft
 <td width="60%">
 This value specifies extended data transfer information for a TCP connection. 
 
-When this value is specified, the buffer pointed to by the <i>Rw</i> parameter should point to a <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_data_rw_v0">TCP_ESTATS_DATA_RW_v0</a> structure.
+When this value is specified, the buffer pointed to by the <i>Rw</i> parameter should point to a <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_data_rw_v0">TCP_ESTATS_DATA_RW_v0</a> structure.
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ When this value is specified, the buffer pointed to by the <i>Rw</i> parameter s
 <td width="60%">
 This value specifies sender congestion for a TCP connection. 
 
-When this value is specified, the buffer pointed to by the <i>Rw</i> parameter should point to a <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_snd_cong_rw_v0">TCP_ESTATS_SND_CONG_RW_v0</a> structure.
+When this value is specified, the buffer pointed to by the <i>Rw</i> parameter should point to a <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_snd_cong_rw_v0">TCP_ESTATS_SND_CONG_RW_v0</a> structure.
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ When this value is specified, the buffer pointed to by the <i>Rw</i> parameter s
 <td width="60%">
 This value specifies extended path measurement information for a TCP connection.
 
-When this value is specified, the buffer pointed to by the <i>Rw</i> parameter should point to a <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_path_rw_v0">TCP_ESTATS_PATH_RW_v0</a> structure.
+When this value is specified, the buffer pointed to by the <i>Rw</i> parameter should point to a <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_path_rw_v0">TCP_ESTATS_PATH_RW_v0</a> structure.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ When this value is specified, the buffer pointed to by the <i>Rw</i> parameter s
 <td width="60%">
 This value specifies extended output-queuing information for a TCP connection.
 
-When this value is specified, the buffer pointed to by the <i>Rw</i> parameter should point to a <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_send_buff_rw_v0">TCP_ESTATS_SEND_BUFF_RW_v0</a> structure.
+When this value is specified, the buffer pointed to by the <i>Rw</i> parameter should point to a <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_send_buff_rw_v0">TCP_ESTATS_SEND_BUFF_RW_v0</a> structure.
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ When this value is specified, the buffer pointed to by the <i>Rw</i> parameter s
 <td width="60%">
 This value specifies extended local-receiver information for a TCP connection.
 
-When this value is specified, the buffer pointed to by the <i>Rw</i> parameter should point to a <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_rec_rw_v0">TCP_ESTATS_REC_RW_v0</a> structure.
+When this value is specified, the buffer pointed to by the <i>Rw</i> parameter should point to a <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_rec_rw_v0">TCP_ESTATS_REC_RW_v0</a> structure.
 
 </td>
 </tr>
@@ -144,7 +144,7 @@ When this value is specified, the buffer pointed to by the <i>Rw</i> parameter s
 <td width="60%">
 This value specifies extended remote-receiver information for a TCP connection.
 
-When this value is specified, the buffer pointed to by the <i>Rw</i> parameter should point to a <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_obs_rec_rw_v0">TCP_ESTATS_OBS_REC_RW_v0</a> structure.
+When this value is specified, the buffer pointed to by the <i>Rw</i> parameter should point to a <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_obs_rec_rw_v0">TCP_ESTATS_OBS_REC_RW_v0</a> structure.
 
 </td>
 </tr>
@@ -156,7 +156,7 @@ When this value is specified, the buffer pointed to by the <i>Rw</i> parameter s
 <td width="60%">
 This value specifies bandwidth estimation statistics for a TCP connection on bandwidth.
 
-When this value is specified, the buffer pointed to by the <i>Rw</i> parameter should point to a <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_bandwidth_rw_v0">TCP_ESTATS_BANDWIDTH_RW_v0</a> structure.
+When this value is specified, the buffer pointed to by the <i>Rw</i> parameter should point to a <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_bandwidth_rw_v0">TCP_ESTATS_BANDWIDTH_RW_v0</a> structure.
 
 </td>
 </tr>
@@ -168,7 +168,7 @@ When this value is specified, the buffer pointed to by the <i>Rw</i> parameter s
 <td width="60%">
 This value specifies fine-grained round-trip time (RTT) estimation statistics for a TCP connection.
 
-When this value is specified, the buffer pointed to by the <i>Rw</i> parameter should point to a <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_fine_rtt_rw_v0">TCP_ESTATS_FINE_RTT_RW_v0</a> structure.
+When this value is specified, the buffer pointed to by the <i>Rw</i> parameter should point to a <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_fine_rtt_rw_v0">TCP_ESTATS_FINE_RTT_RW_v0</a> structure.
 
 </td>
 </tr>
@@ -305,49 +305,49 @@ The structure pointed to by the <i>Rw</i> parameter passed this function depends
 <tr>
 <td><b>TcpConnectionEstatsData</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_data_rw_v0">TCP_ESTATS_DATA_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_data_rw_v0">TCP_ESTATS_DATA_RW_v0</a>
 </td>
 </tr>
 <tr>
 <td><b>TcpConnectionEstatsSndCong</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_snd_cong_rw_v0">TCP_ESTATS_SND_CONG_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_snd_cong_rw_v0">TCP_ESTATS_SND_CONG_RW_v0</a>
 </td>
 </tr>
 <tr>
 <td><b>TcpConnectionEstatsPath</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_path_rw_v0">TCP_ESTATS_PATH_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_path_rw_v0">TCP_ESTATS_PATH_RW_v0</a>
 </td>
 </tr>
 <tr>
 <td><b>TcpConnectionEstatsSendBuff</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_send_buff_rw_v0">TCP_ESTATS_SEND_BUFF_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_send_buff_rw_v0">TCP_ESTATS_SEND_BUFF_RW_v0</a>
 </td>
 </tr>
 <tr>
 <td><b>TcpConnectionEstatsRec</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_rec_rw_v0">TCP_ESTATS_REC_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_rec_rw_v0">TCP_ESTATS_REC_RW_v0</a>
 </td>
 </tr>
 <tr>
 <td><b>TcpConnectionEstatsObsRec</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_obs_rec_rw_v0">TCP_ESTATS_OBS_REC_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_obs_rec_rw_v0">TCP_ESTATS_OBS_REC_RW_v0</a>
 </td>
 </tr>
 <tr>
 <td><b>TcpConnectionEstatsBandwidth</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_bandwidth_rw_v0">TCP_ESTATS_BANDWIDTH_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_bandwidth_rw_v0">TCP_ESTATS_BANDWIDTH_RW_v0</a>
 </td>
 </tr>
 <tr>
 <td><b>TcpConnectionEstatsFineRtt</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_fine_rtt_rw_v0">TCP_ESTATS_FINE_RTT_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_fine_rtt_rw_v0">TCP_ESTATS_FINE_RTT_RW_v0</a>
 </td>
 </tr>
 </table>
@@ -355,7 +355,7 @@ The structure pointed to by the <i>Rw</i> parameter passed this function depends
 
 
 
-The <i>Offset</i> parameter is currently unused. The possible structures pointed to by the <i>Rw</i> parameter all have a single member except for the <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_bandwidth_rw_v0">TCP_ESTATS_BANDWIDTH_RW_v0</a> structure.  When the <i>EstatsType</i> parameter is set to <b>TcpConnectionEstatsBandwidth</b>, the <b>TCP_ESTATS_BANDWIDTH_RW_v0</b> structure pointed to by the <i>Rw</i> parameter must have both structure members set to the preferred values in a single call to the  <b>SetPerTcp6ConnectionEStats</b> function.
+The <i>Offset</i> parameter is currently unused. The possible structures pointed to by the <i>Rw</i> parameter all have a single member except for the <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_bandwidth_rw_v0">TCP_ESTATS_BANDWIDTH_RW_v0</a> structure.  When the <i>EstatsType</i> parameter is set to <b>TcpConnectionEstatsBandwidth</b>, the <b>TCP_ESTATS_BANDWIDTH_RW_v0</b> structure pointed to by the <i>Rw</i> parameter must have both structure members set to the preferred values in a single call to the  <b>SetPerTcp6ConnectionEStats</b> function.
 
 If the <i>RwSize</i> parameter is set to 0, the <b>SetPerTcp6ConnectionEStats</b> function  returns NO_ERROR and makes no changes tothe extended statistics status.
 
@@ -413,35 +413,35 @@ The <b>SetPerTcp6ConnectionEStats</b> function can only be called by a user logg
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_bandwidth_rw_v0">TCP_ESTATS_BANDWIDTH_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_bandwidth_rw_v0">TCP_ESTATS_BANDWIDTH_RW_v0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_data_rw_v0">TCP_ESTATS_DATA_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_data_rw_v0">TCP_ESTATS_DATA_RW_v0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_fine_rtt_rw_v0">TCP_ESTATS_FINE_RTT_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_fine_rtt_rw_v0">TCP_ESTATS_FINE_RTT_RW_v0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_obs_rec_rw_v0">TCP_ESTATS_OBS_REC_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_obs_rec_rw_v0">TCP_ESTATS_OBS_REC_RW_v0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_path_rw_v0">TCP_ESTATS_PATH_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_path_rw_v0">TCP_ESTATS_PATH_RW_v0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_rec_rw_v0">TCP_ESTATS_REC_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_rec_rw_v0">TCP_ESTATS_REC_RW_v0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_send_buff_rw_v0">TCP_ESTATS_SEND_BUFF_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_send_buff_rw_v0">TCP_ESTATS_SEND_BUFF_RW_v0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_snd_cong_rw_v0">TCP_ESTATS_SND_CONG_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_snd_cong_rw_v0">TCP_ESTATS_SND_CONG_RW_v0</a>
 
 
 

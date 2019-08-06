@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetTrusteeType</b> function retrieves the trustee type from the specified <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure. This value indicates whether the trustee is a user, a group, or the trustee type is unknown.
+The <b>GetTrusteeType</b> function retrieves the trustee type from the specified <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure. This value indicates whether the trustee is a user, a group, or the trustee type is unknown.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The <b>GetTrusteeType</b> function retrieves the trustee type from the specified
 ### -param pTrustee [in, optional]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure.
 
 
 ## -returns
@@ -90,7 +90,7 @@ The return value is one of the constants from the <a href="https://docs.microsof
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>
 
 
 

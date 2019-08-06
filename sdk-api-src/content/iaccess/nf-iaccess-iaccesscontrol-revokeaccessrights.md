@@ -71,7 +71,7 @@ The number of trustees in the list. This parameter cannot be 0.
 
 ### -param prgTrustees [in]
 
-A pointer to an array of trustee names. See <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a>.
+A pointer to an array of trustee names. See <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>.
 
 
 ## -returns

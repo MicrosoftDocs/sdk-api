@@ -67,7 +67,7 @@ A pointer to a <b>NULL</b>-terminated Unicode string containing the alias name o
 
 ### -param InterfaceLuid [out]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-_net_luid_lh">NET_LUID</a> for this interface.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> for this interface.
 
 
 ## -returns
@@ -151,7 +151,7 @@ The <b>ConvertInterfaceAliasToLuid</b> function is protocol independent and work
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-_net_luid_lh">NET_LUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
 
 
 

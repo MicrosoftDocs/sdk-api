@@ -78,7 +78,7 @@ Reserved. Use the <b>DnsServerList</b> member to obtain the DNS servers for the 
 ### -field DnsServerList
 
 A linked list of 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-_ip_addr_string">IP_ADDR_STRING</a> structures that specify the set of DNS servers used by the local computer.
+<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_addr_string">IP_ADDR_STRING</a> structures that specify the set of DNS servers used by the local computer.
 
 
 ## -remarks
@@ -107,7 +107,7 @@ APIPA enables automatic IP address configuration on networks without DHCP server
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-_ip_addr_string">IP_ADDR_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_addr_string">IP_ADDR_STRING</a>
  
 
  

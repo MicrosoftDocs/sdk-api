@@ -69,7 +69,7 @@ The globally unique identifier (GUID) for the quality of service (QoS) provider.
 
 ### -param QosName [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsabuf">WSABUF</a> structure that contains the  QoS name of the template to remove.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structure that contains the  QoS name of the template to remove.
 
 
 ## -returns

@@ -87,7 +87,7 @@ Type: <b>ULONG</b>
 The value of the received window scale option if one was
            received from the remote receiver; otherwise, a value of -1.
 
-Note that if both the <b>WinScaleSent</b> member of the  <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_rec_rod_v0">TCP_ESTATS_REC_ROD_v0</a> structure  and
+Note that if both the <b>WinScaleSent</b> member of the  <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_rec_rod_v0">TCP_ESTATS_REC_ROD_v0</a> structure  and
            the <b>WinScaleRcvd</b> member are not -1, then Snd.Wind.Scale
            will be the same as this value and used to scale receiver
            window announcements from the remote host to the local

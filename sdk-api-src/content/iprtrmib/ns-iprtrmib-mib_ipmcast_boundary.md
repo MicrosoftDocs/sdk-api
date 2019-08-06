@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>MIB_IPMCAST_BOUNDARY</b> structure contains a row in a <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-_mib_ipmcast_boundary_table">MIB_IPMCAST_BOUNDARY_TABLE</a> structure that lists a router's scoped IPv4 multicast address boundaries.
+The <b>MIB_IPMCAST_BOUNDARY</b> structure contains a row in a <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-mib_ipmcast_boundary_table">MIB_IPMCAST_BOUNDARY_TABLE</a> structure that lists a router's scoped IPv4 multicast address boundaries.
 
 
 ## -struct-fields
@@ -177,7 +177,7 @@ Note that the <i>Iprtrmib.h</i> header file is automatically included in the <i>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-_mib_ipmcast_boundary_table">MIB_IPMCAST_BOUNDARY_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-mib_ipmcast_boundary_table">MIB_IPMCAST_BOUNDARY_TABLE</a>
  
 
  
